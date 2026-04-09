@@ -9,7 +9,7 @@ from the Y Combinator website's.
 
 API endpoint: https://devasheeshg.github.io/yc-api/meta.json
 
-- Last updated: April 09, 2026 at 09:35 AM UTC
+- Last updated: April 09, 2026 at 09:46 AM UTC
 - Companies: 5833
 - Batches: 48
 - Industries: 59
@@ -23,9 +23,6 @@ API endpoint: https://devasheeshg.github.io/yc-api/meta.json
 | --------------- | ------------ |
 | All launched companies | https://devasheeshg.github.io/yc-api/companies/all.json |
 | Top companies | https://devasheeshg.github.io/yc-api/companies/top.json |
-| Black-founded companies | https://devasheeshg.github.io/yc-api/companies/black-founded.json |
-| Hispanic/Latino-founded companies | https://devasheeshg.github.io/yc-api/companies/hispanic-latino-founded.json |
-| Women-founded companies | https://devasheeshg.github.io/yc-api/companies/women-founded.json |
 | Not-for-profit companies | https://devasheeshg.github.io/yc-api/companies/nonprofit.json |
 | Companies currently hiring | https://devasheeshg.github.io/yc-api/companies/hiring.json |
 
