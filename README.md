@@ -533,7 +533,7 @@ Each company object has the following properties:
 | `city`                  | string\|null | City                                                       |
 | `country`               | string\|null | Country code (e.g. `"US"`)                                 |
 | `linkedin_url`          | string\|null | LinkedIn URL                                               |
-| `twitter_url`           | string\|null | Twitter/X URL                                              |
+| `x_url`                 | string\|null | X (Twitter) URL                                            |
 | `fb_url`                | string\|null | Facebook URL                                               |
 | `cb_url`                | string\|null | Crunchbase URL                                             |
 | `github_url`            | string\|null | GitHub URL                                                 |
@@ -564,7 +564,7 @@ Each company object has the following properties:
 | `founder_bio`      | string      | Short bio                             |
 | `is_active`        | boolean     | Whether the founder is currently active |
 | `linkedin_url`     | string\|null | LinkedIn URL                         |
-| `twitter_url`      | string\|null | Twitter/X URL                        |
+| `x_url`            | string\|null | X (Twitter) URL                      |
 | `avatar_thumb_url` | string\|null | Founder's avatar image URL           |
 | `email`            | string\|null | SMTP-verified email address, or `null` if not found |
 
@@ -655,7 +655,7 @@ Each company object has the following properties:
   "city": "San Francisco",
   "country": "US",
   "linkedin_url": "https://www.linkedin.com/company/airbnb/",
-  "twitter_url": "https://twitter.com/Airbnb",
+  "x_url": "https://twitter.com/Airbnb",
   "fb_url": "https://www.facebook.com/airbnb/",
   "cb_url": "https://www.crunchbase.com/organization/airbnb",
   "github_url": null,
@@ -677,7 +677,7 @@ Each company object has the following properties:
       "founder_bio": "Brian Chesky is the co-founder,  Head of Community, and  CEO of Airbnb, which he started with Joe Gebbia and Nathan Blecharczyk in 2008. Brian sets the company’s strategy to connect people to unique travel experiences, and drives Airbnb’s mission to create a world where anyone can belong anywhere. Originally from New York, Brian graduated from the Rhode Island School of Design where he received a Bachelor of Fine Arts in Industrial Design.",
       "is_active": true,
       "linkedin_url": "https://www.linkedin.com/in/brianchesky/",
-      "twitter_url": "https://twitter.com/bchesky",
+      "x_url": "https://twitter.com/bchesky",
       "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/7415ee0d3978ae738c766fc109863385303b066a.jpg",
       "email": null
     },
@@ -688,7 +688,7 @@ Each company object has the following properties:
       "founder_bio": "Nathan Blecharczyk is the co-founder, Chief Strategy Officer, and Chairman of Airbnb China. Nathan plays a leading role in driving key strategic initiatives across the global business. Previously he oversaw the creation of Airbnb’s engineering, data science, and performance marketing teams. Nathan became an entrepreneur in his youth, running a business while he was in high school that sold to clients in more than 20 countries. He earned a degree in Computer Science from Harvard University.",
       "is_active": true,
       "linkedin_url": "https://www.linkedin.com/in/blecharczyk/",
-      "twitter_url": "https://twitter.com/nathanblec",
+      "x_url": "https://twitter.com/nathanblec",
       "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/43dd0e2c9396adccf8b4e456d806245942afc1ed.jpg",
       "email": null
     },
@@ -699,7 +699,7 @@ Each company object has the following properties:
       "founder_bio": "Joe Gebbia is the co-founder of Airbnb which began in his San Francisco living room and spread to nearly 7M listings in 191+ countries, changing how people trust each other. Joe now holds a strategic advisory position and serves on the Board of Directors at Airbnb. His latest venture, Samara, also cemented in economic empowerment, housing resources, and design, produces fully customized, factory-made homes designed to create rental income, house family, and form new types of housing communities.",
       "is_active": true,
       "linkedin_url": "https://www.linkedin.com/in/jgebbia/",
-      "twitter_url": "https://x.com/jgebbia",
+      "x_url": "https://x.com/jgebbia",
       "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/8edd4b693f91d2a5507247fbd23259dbe88d4dba.jpg",
       "email": null
     }

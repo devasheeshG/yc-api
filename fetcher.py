@@ -284,7 +284,7 @@ def _extract_founders(company_props: Dict[str, Any]) -> List[Dict[str, Any]]:
             "founder_bio": f.get("founder_bio"),
             "is_active": f.get("is_active"),
             "linkedin_url": f.get("linkedin_url"),
-            "twitter_url": f.get("twitter_url"),
+            "x_url": f.get("twitter_url"),
             "avatar_thumb_url": _strip_s3_params(f.get("avatar_thumb_url")),
         }
         for f in company_props.get("founders", [])
@@ -358,7 +358,7 @@ def _build_enrichment(page_data: Dict[str, Any]) -> Dict[str, Any]:
         "city": company.get("city"),
         "country": company.get("country"),
         "linkedin_url": company.get("linkedin_url"),
-        "twitter_url": company.get("twitter_url"),
+        "x_url": company.get("twitter_url"),
         "fb_url": company.get("fb_url") or None,
         "cb_url": company.get("cb_url") or None,
         "github_url": company.get("github_url") or None,
@@ -671,7 +671,7 @@ async def _process_mx_host(
 
                 # Append social-media usernames as extra candidates
                 seen_set = set(candidates)
-                for social_url in (founder.get("linkedin_url"), founder.get("twitter_url")):
+                for social_url in (founder.get("linkedin_url"), founder.get("x_url")):
                     uname = _extract_social_username(social_url)
                     if uname:
                         social_email = f"{uname}@{domain}"
