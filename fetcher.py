@@ -32,7 +32,7 @@ import time
 import unicodedata
 from datetime import datetime, timezone
 from pathlib import Path
-from typing import Any, Dict, List, Optional, Tuple
+from typing import Any, Dict, List, Optional, Tuple, Union
 from urllib.parse import unquote, urlparse
 
 import aiosmtplib
@@ -94,7 +94,7 @@ def slugify(text: str) -> str:
     return re.sub(r"[-\s]+", "-", text).strip("-")
 
 
-def write_json(path: str | Path, data: Any) -> None:
+def write_json(path: Union[str, Path], data: Any) -> None:
     """Atomically write *data* as pretty-printed JSON to *path*."""
     p = Path(path)
     p.parent.mkdir(parents=True, exist_ok=True)
@@ -370,9 +370,9 @@ def _build_enrichment(page_data: Dict[str, Any]) -> Dict[str, Any]:
 
 async def _enrich_one(
     client: httpx.AsyncClient,
-    company: dict,
+    company: Dict[str, Any],
     semaphore: asyncio.Semaphore,
-    progress: dict,
+    progress: Dict[str, int],
 ) -> None:
     """Fetch one company's detail page and merge enrichment data in-place."""
     slug = company["slug"]
@@ -417,31 +417,33 @@ async def enrich_all(
 # Strategy:
 #   1. Extract domain from the company website URL.
 #   2. Check MX records — skip if the domain doesn't accept email.
-#   3. Detect catch-all servers (accept any address) via a garbage probe.
-#   4. Generate candidate emails from common name patterns and SMTP-verify
-#      each one using RCPT TO (no email is actually sent).
-#   5. Attach the first verified email to the founder, or the best-guess
+#   3. Open one persistent SMTP connection per MX host, then pipeline
+#      all work through it:
+#      a) Catch-all detection (probe a random address per domain).
+#      b) RCPT TO verification for each founder's candidate emails.
+#   4. Attach the first verified email to the founder, or the best-guess
 #      pattern for catch-all servers (flagged as unverified).
 #
-# Rate limiting: one request at a time per MX host to avoid being blocked.
-# MX lookups and catch-all results are cached per domain.
+# Parallelism: every MX host runs fully in parallel (one asyncio task each).
+# Within a host, work is serialised on one persistent TCP connection to avoid
+# being blocked or rate-limited.
 #
 
 # Common corporate email patterns, ordered by prevalence in startups
 _EMAIL_PATTERNS: List[str] = [
     "{first}@{domain}",
     "{first}.{last}@{domain}",
+    "{first}_{last}@{domain}",
     "{first}{last}@{domain}",
     "{f}{last}@{domain}",
     "{f}.{last}@{domain}",
-    "{last}@{domain}",
-    "{first}_{last}@{domain}",
 ]
 
-# Per-MX-host locks to avoid hammering one mail server with parallel connections
-_mx_locks: Dict[str, asyncio.Lock] = {}
-
 SMTP_TIMEOUT = 10  # seconds per SMTP connection
+# Max simultaneous SMTP connections (prevents fd exhaustion on the local side)
+MAX_SMTP_CONNECTIONS = EMAIL_CONCURRENCY
+# Shard large MX hosts into chunks to avoid one host bottlenecking everything
+DOMAINS_PER_CONNECTION = 50
 
 
 def _extract_domain(url: Optional[str]) -> Optional[str]:
@@ -473,7 +475,7 @@ async def _get_mx_host(domain: str) -> Optional[str]:
     try:
         records = await dns.asyncresolver.resolve(domain, "MX")
         best = min(records, key=lambda r: r.preference)
-        return str(best.exchange).rstrip(".")
+        return str(best.exchange).rstrip(".").lower()
     except Exception:
         return None
 
@@ -490,47 +492,6 @@ def _generate_candidates(first: str, last: str, domain: str) -> List[str]:
     ]
 
 
-def _get_mx_lock(mx_host: str) -> asyncio.Lock:
-    """Get or create a per-MX-host lock for rate limiting."""
-    if mx_host not in _mx_locks:
-        _mx_locks[mx_host] = asyncio.Lock()
-    return _mx_locks[mx_host]
-
-
-async def _smtp_check(email: str, mx_host: str) -> Tuple[int, str]:
-    """
-    Ask the MX server whether a mailbox exists via RCPT TO.
-
-    Connects on port 25, sends EHLO + MAIL FROM + RCPT TO, then disconnects.
-    No email is actually sent — we're just probing the server's response.
-
-    Returns (SMTP code, message).  250 = exists, 550 = doesn't exist.
-    """
-    async with _get_mx_lock(mx_host):
-        try:
-            smtp = aiosmtplib.SMTP(hostname=mx_host, port=25, timeout=SMTP_TIMEOUT)
-            await smtp.connect()
-            await smtp.ehlo()
-            await smtp.execute_command(b"MAIL FROM:<probe@example.com>\r\n")
-            code, message = await smtp.execute_command(
-                f"RCPT TO:<{email}>\r\n".encode()
-            )
-            await smtp.quit()
-            return code, message
-        except Exception:
-            return -1, "connection failed"
-
-
-async def _check_catch_all(domain: str, mx_host: str) -> bool:
-    """
-    Detect catch-all mail servers by probing with a random gibberish address.
-    If the server accepts an obviously-fake address, it accepts everything.
-    """
-    garbage = "".join(random.choices(string.ascii_lowercase, k=16))
-    code, _ = await _smtp_check(f"{garbage}@{domain}", mx_host)
-    return code == 250
-
-
 def _split_name(full_name: str) -> Optional[Tuple[str, str]]:
     """
     Split a full name into (first, last).
@@ -542,17 +503,138 @@ def _split_name(full_name: str) -> Optional[Tuple[str, str]]:
     return parts[0], parts[-1]
 
 
+async def _smtp_rcpt_check(
+    smtp: aiosmtplib.SMTP,
+    email: str,
+) -> Tuple[int, str]:
+    """
+    Send a single RCPT TO on an already-connected SMTP session.
+    Returns (SMTP code, message).  250 = exists, 550 = doesn't exist.
+    """
+    try:
+        code, message = await smtp.execute_command(
+            f"RCPT TO:<{email}>\r\n".encode()
+        )
+        return code, message
+    except Exception:
+        return -1, "command failed"
+
+
+async def _open_smtp_session(mx_host: str) -> Optional[aiosmtplib.SMTP]:
+    """
+    Open a persistent SMTP connection to an MX host.
+    Returns the connected client or None on failure.
+    """
+    try:
+        smtp = aiosmtplib.SMTP(hostname=mx_host, port=25, timeout=SMTP_TIMEOUT)
+        await smtp.connect()
+        await smtp.ehlo()
+        await smtp.execute_command(b"MAIL FROM:<probe@example.com>\r\n")
+        return smtp
+    except Exception:
+        return None
+
+
+async def _process_mx_host(
+    mx_host: str,
+    domains: List[str],
+    domain_founders: Dict[str, List[Dict[str, Any]]],
+    progress: Dict[str, int],
+    total: int,
+) -> None:
+    """
+    Process all domains routed to a single MX host on ONE persistent
+    SMTP connection.
+
+    Steps per domain:
+      1. Catch-all detection — probe a random address.
+      2. If catch-all → assign best-guess email (unverified) to all founders.
+      3. Otherwise → RCPT TO each candidate pattern per founder until one hits.
+
+    The connection is reused across all domains and founders, avoiding the
+    overhead of thousands of separate TCP handshakes.
+    """
+    smtp = await _open_smtp_session(mx_host)
+    if not smtp:
+        # Count all founders on this host as done
+        for domain in domains:
+            progress["done"] += len(domain_founders.get(domain, []))
+        return
+
+    try:
+        for idx, domain in enumerate(domains):
+            founders = domain_founders.get(domain, [])
+            if not founders:
+                continue
+
+            # --- RSET between domains to start a fresh transaction ---
+            try:
+                await smtp.execute_command(b"RSET\r\n")
+                await smtp.execute_command(b"MAIL FROM:<probe@example.com>\r\n")
+            except Exception:
+                # Connection died — try to reconnect
+                try:
+                    await smtp.quit()
+                except Exception:
+                    pass
+                smtp = await _open_smtp_session(mx_host)
+                if not smtp:
+                    # Can't reconnect — count remaining founders as done
+                    for d in domains[idx:]:
+                        progress["done"] += len(domain_founders.get(d, []))
+                    return
+
+            # --- Catch-all detection ---
+            garbage = "".join(random.choices(string.ascii_lowercase, k=16))
+            catch_all_code, _ = await _smtp_rcpt_check(smtp, f"{garbage}@{domain}")
+            is_catch_all = catch_all_code == 250
+
+            for founder in founders:
+                name_parts = _split_name(founder["full_name"])
+                if not name_parts:
+                    founder["email"] = None
+                    progress["done"] += 1
+                    done = progress["done"]
+                    if done % 500 == 0 or done == total:
+                        print(f"  [{done}/{total}] emails processed")
+                    continue
+
+                first, last = name_parts
+                candidates = _generate_candidates(first, last, domain)
+
+                if is_catch_all:
+                    # Can't verify on catch-all domains — skip
+                    founder["email"] = None
+                else:
+                    founder["email"] = None
+                    for email in candidates:
+                        code, _ = await _smtp_rcpt_check(smtp, email)
+                        if code == 250:
+                            founder["email"] = email
+                            break
+
+                progress["done"] += 1
+                done = progress["done"]
+                if done % 500 == 0 or done == total:
+                    print(f"  [{done}/{total}] emails processed")
+    finally:
+        try:
+            await smtp.quit()
+        except Exception:
+            pass
+
+
 async def discover_emails(companies: List[Dict[str, Any]]) -> None:
     """
     Phase 3: Discover and verify founder emails for all companies.
 
-    Three parallel sub-phases:
+    Two parallel sub-phases:
       3a. Resolve MX records for all unique domains concurrently.
-      3b. Detect catch-all servers for domains with valid MX concurrently.
-      3c. Fan out SMTP verification for all founders concurrently,
-          bounded globally by EMAIL_CONCURRENCY and serialised per MX host
-          via per-host locks (so different mail servers run in parallel but
-          we never hammer a single server with simultaneous connections).
+      3b. Group domains by MX host, then launch one task per MX host.
+          Each task opens a single persistent SMTP connection and pipelines
+          catch-all detection + RCPT TO verification for every founder on
+          that host.  Different MX hosts run fully in parallel, bounded
+          by MAX_SMTP_CONNECTIONS to prevent fd exhaustion.
     """
     # Build a flat list of (founder_dict, domain) pairs to process
     work: List[Tuple[Dict[str, Any], str]] = []
@@ -589,58 +671,51 @@ async def discover_emails(companies: List[Dict[str, Any]]) -> None:
     print(f"  {len(domains_with_mx)}/{len(unique_domains)} domains have MX records")
 
     # ------------------------------------------------------------------
-    # 3b — Catch-all detection for all domains with valid MX
+    # 3b — Group by MX host, then one persistent connection per host
     # ------------------------------------------------------------------
-    catch_all_cache: Dict[str, bool] = {}
+    # Build: mx_host → [domains], domain → [founder dicts]
+    host_to_domains: Dict[str, List[str]] = {}
+    domain_to_founders: Dict[str, List[Dict[str, Any]]] = {}
 
-    async def _catch_all_one(domain: str) -> None:
-        catch_all_cache[domain] = await _check_catch_all(domain, mx_cache[domain])  # already filtered to non-None
+    for founder, domain in work:
+        mx_host = mx_cache.get(domain)
+        if not mx_host:
+            continue
+        host_to_domains.setdefault(mx_host, [])
+        if domain not in host_to_domains[mx_host]:
+            host_to_domains[mx_host].append(domain)
+        domain_to_founders.setdefault(domain, []).append(founder)
 
-    print("  Detecting catch-all servers...")
-    await asyncio.gather(*(_catch_all_one(d) for d in domains_with_mx))
+    # Count founders with no MX (skip them)
+    founders_with_mx = sum(len(v) for v in domain_to_founders.values())
+    founders_skipped = len(work) - founders_with_mx
+    unique_mx_hosts = len(host_to_domains)
+    print(f"  {unique_mx_hosts} unique MX hosts, "
+          f"{founders_with_mx} founders to verify, "
+          f"{founders_skipped} skipped (no MX)")
 
-    catch_all_count = sum(1 for v in catch_all_cache.values() if v)
-    print(f"  {catch_all_count} catch-all domains detected")
-
-    # ------------------------------------------------------------------
-    # 3c — SMTP-verify founder emails concurrently
-    # ------------------------------------------------------------------
-    smtp_sem = asyncio.Semaphore(EMAIL_CONCURRENCY)
-    progress = {"done": 0}
+    progress: Dict[str, int] = {"done": founders_skipped}
     total = len(work)
+    smtp_sem = asyncio.Semaphore(MAX_SMTP_CONNECTIONS)
 
-    async def _process_founder(founder: Dict[str, Any], domain: str) -> None:
+    # Shard large MX hosts into chunks of DOMAINS_PER_CONNECTION so a single
+    # host (e.g. Google with 3000+ domains) doesn't bottleneck everything.
+    shards: List[Tuple[str, List[str]]] = []
+    for mx_host, domains in host_to_domains.items():
+        for i in range(0, len(domains), DOMAINS_PER_CONNECTION):
+            shards.append((mx_host, domains[i:i + DOMAINS_PER_CONNECTION]))
+
+    async def _bounded_process(mx_host: str, domains: List[str]) -> None:
         async with smtp_sem:
-            mx_host = mx_cache.get(domain)
-            if not mx_host:
-                return
+            await _process_mx_host(
+                mx_host, domains, domain_to_founders, progress, total,
+            )
 
-            name_parts = _split_name(founder["full_name"])
-            if not name_parts:
-                return
-
-            first, last = name_parts
-            is_catch_all = catch_all_cache.get(domain, False)
-            candidates = _generate_candidates(first, last, domain)
-
-            if is_catch_all:
-                # Can't distinguish valid from invalid — return best-guess pattern
-                founder["email"] = candidates[0]
-                founder["email_verified"] = False
-            else:
-                for email in candidates:
-                    code, _ = await _smtp_check(email, mx_host)
-                    if code == 250:
-                        founder["email"] = email
-                        founder["email_verified"] = True
-                        break
-
-        progress["done"] += 1
-        done = progress["done"]
-        if done % 500 == 0 or done == total:
-            print(f"  [{done}/{total}] emails processed")
-
-    await asyncio.gather(*(_process_founder(f, d) for f, d in work))
+    print(f"  Verifying emails ({len(shards)} shards, persistent connections)...")
+    await asyncio.gather(*(
+        _bounded_process(mx_host, domains)
+        for mx_host, domains in shards
+    ))
 
 
 # =============================================================================
