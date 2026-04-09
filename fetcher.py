@@ -2,7 +2,7 @@
 YC Companies Fetcher
 ====================
 
-Two-phase pipeline that builds a complete, static JSON API of every
+Five-phase pipeline that builds a complete, static JSON API of every
 Y Combinator company:
 
   Phase 1 — Bulk fetch from Algolia (the same index ycombinator.com uses).
@@ -10,6 +10,17 @@ Y Combinator company:
 
   Phase 2 — Enrich each company by scraping its detail page on ycombinator.com.
             This adds founders, open jobs, press/news, and Launch YC posts.
+
+  Phase 3 — Discover founder emails via SMTP RCPT TO verification.
+            Generates candidate emails from name patterns and social-media
+            usernames (LinkedIn, Twitter), then verifies against the company's
+            mail server.  Persistent SMTP connections are sharded per MX host
+            for throughput.
+
+  Phase 4 — Write all JSON output files (companies, batches, industries, tags).
+
+  Phase 5 — Conditionally update meta.json and the auto-generated section
+            of README.md when data has changed.
 
 Output is written to:
     companies/   — all.json, top.json, hiring.json, etc.
