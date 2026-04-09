@@ -14,7 +14,7 @@
 | Language | Package | Install |
 | --- | --- | --- |
 | Python | [`yc-api`](https://pypi.org/project/yc-api/) | `pip install yc-api` |
-| TypeScript/JS | [`@devasheeshg/yc-api`](https://www.npmjs.com/package/@devasheeshg/yc-api) | `npm install @devasheeshg/yc-api` |
+| TypeScript/JS | [`yc-api`](https://www.npmjs.com/package/yc-api) | `npm install yc-api` |
 
 Both SDKs are fully typed, support async, and wrap every endpoint. See [Python SDK docs](sdks/python/) or [Node SDK docs](sdks/node/) for details.
 
