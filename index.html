@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>YC Companies API</title>
+  <meta name="description" content="Unofficial, free JSON API for every Y Combinator company. Founders, jobs, news, launches, and more.">
+  <style>
+    :root {
+      --bg: #0d1117;
+      --surface: #161b22;
+      --border: #30363d;
+      --text: #e6edf3;
+      --text-muted: #8b949e;
+      --accent: #f85421;
+      --link: #58a6ff;
+      --code-bg: #1c2128;
+      --green: #3fb950;
+      --mono: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace;
+    }
+
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+      padding: 2rem 1rem;
+      max-width: 960px;
+      margin: 0 auto;
+    }
+
+    a { color: var(--link); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+
+    header { margin-bottom: 2rem; }
+    header h1 { font-size: 1.75rem; margin-bottom: 0.25rem; }
+    header h1 span { color: var(--accent); }
+    header p { color: var(--text-muted); font-size: 0.95rem; }
+    header .links { margin-top: 0.5rem; font-size: 0.85rem; }
+    header .links a { margin-right: 1rem; }
+
+    .stats {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+      gap: 0.75rem;
+      margin-bottom: 2rem;
+    }
+    .stat {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 1rem;
+      text-align: center;
+    }
+    .stat .num {
+      font-size: 1.5rem;
+      font-weight: 700;
+      color: var(--accent);
+      font-family: var(--mono);
+    }
+    .stat .label {
+      font-size: 0.8rem;
+      color: var(--text-muted);
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+    }
+
+    section { margin-bottom: 2rem; }
+    section h2 {
+      font-size: 1.15rem;
+      margin-bottom: 0.75rem;
+      padding-bottom: 0.35rem;
+      border-bottom: 1px solid var(--border);
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 0.85rem;
+    }
+    th, td {
+      text-align: left;
+      padding: 0.45rem 0.65rem;
+      border-bottom: 1px solid var(--border);
+    }
+    th {
+      color: var(--text-muted);
+      font-weight: 600;
+      font-size: 0.75rem;
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+      position: sticky;
+      top: 0;
+      background: var(--bg);
+    }
+    td.num { text-align: right; font-family: var(--mono); font-size: 0.8rem; }
+    td code, th code {
+      background: var(--code-bg);
+      padding: 0.15em 0.35em;
+      border-radius: 4px;
+      font-size: 0.8rem;
+      font-family: var(--mono);
+    }
+
+    .table-wrap {
+      max-height: 400px;
+      overflow-y: auto;
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      background: var(--surface);
+    }
+    .table-wrap table { margin: 0; }
+    .table-wrap th { background: var(--surface); }
+
+    .endpoint {
+      font-family: var(--mono);
+      font-size: 0.78rem;
+      word-break: break-all;
+    }
+
+    details { margin-bottom: 0.5rem; }
+    details summary {
+      cursor: pointer;
+      color: var(--text-muted);
+      font-size: 0.85rem;
+      padding: 0.25rem 0;
+    }
+    details summary:hover { color: var(--text); }
+
+    .schema-section { margin-top: 0.75rem; }
+    .schema-section h3 {
+      font-size: 0.95rem;
+      margin: 1.25rem 0 0.5rem;
+      color: var(--text-muted);
+    }
+    .schema-table {
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      overflow: hidden;
+      background: var(--surface);
+    }
+    .schema-table th { background: var(--surface); }
+
+    pre {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 1rem;
+      overflow-x: auto;
+      font-size: 0.8rem;
+      font-family: var(--mono);
+      line-height: 1.5;
+      color: var(--text-muted);
+    }
+
+    .badge {
+      display: inline-block;
+      background: var(--accent);
+      color: #fff;
+      font-size: 0.65rem;
+      font-weight: 700;
+      padding: 0.15em 0.45em;
+      border-radius: 4px;
+      vertical-align: middle;
+      margin-left: 0.35rem;
+    }
+
+    .updated {
+      font-size: 0.8rem;
+      color: var(--text-muted);
+      margin-bottom: 1.5rem;
+    }
+    .updated .dot {
+      display: inline-block;
+      width: 8px; height: 8px;
+      background: var(--green);
+      border-radius: 50%;
+      margin-right: 0.35rem;
+      vertical-align: middle;
+    }
+
+    #loading {
+      text-align: center;
+      padding: 3rem;
+      color: var(--text-muted);
+    }
+
+    footer {
+      margin-top: 3rem;
+      padding-top: 1rem;
+      border-top: 1px solid var(--border);
+      text-align: center;
+      font-size: 0.8rem;
+      color: var(--text-muted);
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1><span>YC</span> Companies API</h1>
+  <p>Unofficial, free JSON API for every Y Combinator company — updated daily.</p>
+  <div class="links">
+    <a href="https://github.com/devasheeshG/yc-api">GitHub</a>
+    <a href="meta.json">meta.json</a>
+  </div>
+</header>
+
+<div id="loading">Loading data...</div>
+<div id="app" style="display:none">
+
+<div class="updated"><span class="dot"></span>Last updated: <span id="updated-at"></span></div>
+
+<div class="stats">
+  <div class="stat"><div class="num" id="s-companies">—</div><div class="label">Companies</div></div>
+  <div class="stat"><div class="num" id="s-batches">—</div><div class="label">Batches</div></div>
+  <div class="stat"><div class="num" id="s-industries">—</div><div class="label">Industries</div></div>
+  <div class="stat"><div class="num" id="s-tags">—</div><div class="label">Tags</div></div>
+</div>
+
+<!-- Companies -->
+<section>
+  <h2>🏢 Companies</h2>
+  <div class="schema-table"><table id="t-companies">
+    <thead><tr><th>List</th><th>Count</th><th>Endpoint</th></tr></thead>
+    <tbody></tbody>
+  </table></div>
+</section>
+
+<!-- Batches -->
+<section>
+  <h2>🎓 Batches</h2>
+  <details>
+    <summary>Show all batches</summary>
+    <div class="table-wrap"><table id="t-batches">
+      <thead><tr><th>Batch</th><th>Count</th><th>Endpoint</th></tr></thead>
+      <tbody></tbody>
+    </table></div>
+  </details>
+</section>
+
+<!-- Industries -->
+<section>
+  <h2>🏭 Industries</h2>
+  <details>
+    <summary>Show all industries</summary>
+    <div class="table-wrap"><table id="t-industries">
+      <thead><tr><th>Industry</th><th>Count</th><th>Endpoint</th></tr></thead>
+      <tbody></tbody>
+    </table></div>
+  </details>
+</section>
+
+<!-- Tags -->
+<section>
+  <h2>🏷️ Tags</h2>
+  <details>
+    <summary>Show all tags</summary>
+    <div class="table-wrap"><table id="t-tags">
+      <thead><tr><th>Tag</th><th>Count</th><th>Endpoint</th></tr></thead>
+      <tbody></tbody>
+    </table></div>
+  </details>
+</section>
+
+<!-- Schema -->
+<section>
+  <h2>📀 Schema</h2>
+  <p style="color:var(--text-muted);font-size:0.85rem;margin-bottom:0.75rem">
+    Every endpoint (except <code>meta.json</code>) returns an array of company objects.
+  </p>
+
+  <div class="schema-section">
+    <h3>Company object</h3>
+    <div class="schema-table"><table>
+      <thead><tr><th>Property</th><th>Type</th><th>Description</th></tr></thead>
+      <tbody>
+        <tr><td><code>id</code></td><td><code>number</code></td><td>Unique company ID</td></tr>
+        <tr><td><code>name</code></td><td><code>string</code></td><td>Company name</td></tr>
+        <tr><td><code>slug</code></td><td><code>string</code></td><td>URL-friendly slug</td></tr>
+        <tr><td><code>former_names</code></td><td><code>string[]</code></td><td>Previous names</td></tr>
+        <tr><td><code>small_logo_thumb_url</code></td><td><code>string</code></td><td>Square thumbnail logo URL</td></tr>
+        <tr><td><code>website</code></td><td><code>string</code></td><td>Company website</td></tr>
+        <tr><td><code>all_locations</code></td><td><code>string</code></td><td>Locations separated by semicolons</td></tr>
+        <tr><td><code>long_description</code></td><td><code>string</code></td><td>Full description</td></tr>
+        <tr><td><code>one_liner</code></td><td><code>string</code></td><td>One-line description</td></tr>
+        <tr><td><code>team_size</code></td><td><code>number</code></td><td>Number of employees</td></tr>
+        <tr><td><code>industry</code></td><td><code>string</code></td><td>Primary industry</td></tr>
+        <tr><td><code>subindustry</code></td><td><code>string</code></td><td>Subindustry</td></tr>
+        <tr><td><code>launched_at</code></td><td><code>number</code></td><td>Launch date (Unix timestamp)</td></tr>
+        <tr><td><code>tags</code></td><td><code>string[]</code></td><td>Company tags</td></tr>
+        <tr><td><code>tags_highlighted</code></td><td><code>string[]</code></td><td>Highlighted tags</td></tr>
+        <tr><td><code>top_company</code></td><td><code>boolean</code></td><td>YC top company</td></tr>
+        <tr><td><code>isHiring</code></td><td><code>boolean</code></td><td>Currently hiring</td></tr>
+        <tr><td><code>nonprofit</code></td><td><code>boolean</code></td><td>Is a nonprofit</td></tr>
+        <tr><td><code>batch</code></td><td><code>string</code></td><td>YC batch (e.g. "Winter 2026")</td></tr>
+        <tr><td><code>status</code></td><td><code>string</code></td><td>Active, Inactive, Acquired, or Public</td></tr>
+        <tr><td><code>industries</code></td><td><code>string[]</code></td><td>All industries</td></tr>
+        <tr><td><code>regions</code></td><td><code>string[]</code></td><td>Geographic regions</td></tr>
+        <tr><td><code>stage</code></td><td><code>string</code></td><td>Company stage</td></tr>
+        <tr><td><code>app_video_public</code></td><td><code>boolean</code></td><td>Application video is public</td></tr>
+        <tr><td><code>demo_day_video_public</code></td><td><code>boolean</code></td><td>Demo day video is public</td></tr>
+        <tr><td><code>app_answers</code></td><td><code>object|null</code></td><td>Application answers, if public</td></tr>
+        <tr><td><code>question_answers</code></td><td><code>boolean</code></td><td>Q&amp;A answers are public</td></tr>
+        <tr><td><code>url</code></td><td><code>string</code></td><td>Page on ycombinator.com</td></tr>
+        <tr><td><code>api</code></td><td><code>string</code></td><td>This API's endpoint for the company</td></tr>
+        <tr><td><code>year_founded</code></td><td><code>number|null</code></td><td>Year founded</td></tr>
+        <tr><td><code>city</code></td><td><code>string|null</code></td><td>City</td></tr>
+        <tr><td><code>country</code></td><td><code>string|null</code></td><td>Country code</td></tr>
+        <tr><td><code>linkedin_url</code></td><td><code>string|null</code></td><td>LinkedIn URL</td></tr>
+        <tr><td><code>twitter_url</code></td><td><code>string|null</code></td><td>Twitter/X URL</td></tr>
+        <tr><td><code>fb_url</code></td><td><code>string|null</code></td><td>Facebook URL</td></tr>
+        <tr><td><code>cb_url</code></td><td><code>string|null</code></td><td>Crunchbase URL</td></tr>
+        <tr><td><code>github_url</code></td><td><code>string|null</code></td><td>GitHub URL</td></tr>
+        <tr><td><code>logo_url</code></td><td><code>string|null</code></td><td>Logo image URL</td></tr>
+        <tr><td><code>founders</code></td><td><code>founder[]</code></td><td>List of founders</td></tr>
+        <tr><td><code>jobs</code></td><td><code>job[]</code></td><td>Open job postings</td></tr>
+        <tr><td><code>news</code></td><td><code>news[]</code></td><td>Press/news articles</td></tr>
+        <tr><td><code>launches</code></td><td><code>launch[]</code></td><td>Launch YC posts</td></tr>
+      </tbody>
+    </table></div>
+  </div>
+
+  <div class="schema-section">
+    <h3>founder object</h3>
+    <div class="schema-table"><table>
+      <thead><tr><th>Property</th><th>Type</th><th>Description</th></tr></thead>
+      <tbody>
+        <tr><td><code>full_name</code></td><td><code>string</code></td><td>Full name</td></tr>
+        <tr><td><code>title</code></td><td><code>string</code></td><td>Title (e.g. "Founder/CEO")</td></tr>
+        <tr><td><code>founder_bio</code></td><td><code>string</code></td><td>Short bio</td></tr>
+        <tr><td><code>is_active</code></td><td><code>boolean</code></td><td>Currently active</td></tr>
+        <tr><td><code>linkedin_url</code></td><td><code>string|null</code></td><td>LinkedIn URL</td></tr>
+        <tr><td><code>twitter_url</code></td><td><code>string|null</code></td><td>Twitter/X URL</td></tr>
+      </tbody>
+    </table></div>
+  </div>
+
+  <div class="schema-section">
+    <h3>job object</h3>
+    <div class="schema-table"><table>
+      <thead><tr><th>Property</th><th>Type</th><th>Description</th></tr></thead>
+      <tbody>
+        <tr><td><code>id</code></td><td><code>number</code></td><td>Job posting ID</td></tr>
+        <tr><td><code>title</code></td><td><code>string</code></td><td>Job title</td></tr>
+        <tr><td><code>url</code></td><td><code>string</code></td><td>Full URL to posting</td></tr>
+        <tr><td><code>location</code></td><td><code>string</code></td><td>Job location</td></tr>
+        <tr><td><code>type</code></td><td><code>string</code></td><td>Employment type</td></tr>
+        <tr><td><code>role</code></td><td><code>string</code></td><td>Role category</td></tr>
+        <tr><td><code>role_type</code></td><td><code>string</code></td><td>Specific role type</td></tr>
+        <tr><td><code>salary_range</code></td><td><code>string|null</code></td><td>Salary range</td></tr>
+        <tr><td><code>equity_range</code></td><td><code>string|null</code></td><td>Equity range</td></tr>
+        <tr><td><code>experience</code></td><td><code>string</code></td><td>Required experience</td></tr>
+        <tr><td><code>visa</code></td><td><code>string</code></td><td>Visa sponsorship status</td></tr>
+        <tr><td><code>skills</code></td><td><code>string[]</code></td><td>Required skills</td></tr>
+      </tbody>
+    </table></div>
+  </div>
+
+  <div class="schema-section">
+    <h3>news object</h3>
+    <div class="schema-table"><table>
+      <thead><tr><th>Property</th><th>Type</th><th>Description</th></tr></thead>
+      <tbody>
+        <tr><td><code>title</code></td><td><code>string</code></td><td>Article headline</td></tr>
+        <tr><td><code>url</code></td><td><code>string</code></td><td>Link to the article</td></tr>
+        <tr><td><code>date</code></td><td><code>string</code></td><td>Publication date</td></tr>
+      </tbody>
+    </table></div>
+  </div>
+
+  <div class="schema-section">
+    <h3>launch object</h3>
+    <div class="schema-table"><table>
+      <thead><tr><th>Property</th><th>Type</th><th>Description</th></tr></thead>
+      <tbody>
+        <tr><td><code>id</code></td><td><code>number</code></td><td>Launch post ID</td></tr>
+        <tr><td><code>title</code></td><td><code>string</code></td><td>Launch post title</td></tr>
+        <tr><td><code>tagline</code></td><td><code>string</code></td><td>Short tagline</td></tr>
+        <tr><td><code>url</code></td><td><code>string</code></td><td>Full URL to the post</td></tr>
+        <tr><td><code>votes</code></td><td><code>number</code></td><td>Number of upvotes</td></tr>
+        <tr><td><code>created_at</code></td><td><code>string</code></td><td>ISO 8601 timestamp</td></tr>
+      </tbody>
+    </table></div>
+  </div>
+</section>
+
+<!-- Example -->
+<section>
+  <h2>📝 Example</h2>
+  <p style="color:var(--text-muted);font-size:0.85rem;margin-bottom:0.5rem">
+    <code>GET</code> <a id="example-url" href=""></a>
+  </p>
+  <pre id="example-json">Loading...</pre>
+</section>
+
+</div><!-- /app -->
+
+<footer>
+  Built by <a href="https://github.com/devasheeshG">devasheeshG</a> · Data from <a href="https://www.ycombinator.com/companies">ycombinator.com</a>
+</footer>
+
+<script>
+const BASE = location.origin + location.pathname.replace(/\/index\.html$/, '').replace(/\/$/, '');
+
+function esc(s) {
+  const d = document.createElement('div');
+  d.textContent = s;
+  return d.innerHTML;
+}
+
+function fillTable(id, items, nameKey) {
+  const tbody = document.querySelector(`#${id} tbody`);
+  tbody.innerHTML = '';
+  for (const [slug, info] of Object.entries(items)) {
+    const tr = document.createElement('tr');
+    tr.innerHTML =
+      `<td>${esc(info.name)}</td>` +
+      `<td class="num">${info.count.toLocaleString()}</td>` +
+      `<td class="endpoint"><a href="${esc(info.api)}">${esc(info.api)}</a></td>`;
+    tbody.appendChild(tr);
+  }
+}
+
+async function init() {
+  try {
+    const resp = await fetch(`${BASE}/meta.json`);
+    if (!resp.ok) throw new Error(`HTTP ${resp.status}`);
+    const meta = await resp.json();
+
+    document.getElementById('loading').style.display = 'none';
+    document.getElementById('app').style.display = '';
+
+    // Updated
+    const d = new Date(meta.last_updated);
+    document.getElementById('updated-at').textContent = d.toLocaleDateString('en-US', {
+      year: 'numeric', month: 'long', day: 'numeric', hour: '2-digit', minute: '2-digit', timeZoneName: 'short'
+    });
+
+    // Stats
+    const companies = meta.companies || {};
+    const allCount = companies.all ? companies.all.count : '—';
+    document.getElementById('s-companies').textContent = typeof allCount === 'number' ? allCount.toLocaleString() : allCount;
+    document.getElementById('s-batches').textContent = Object.keys(meta.batches || {}).length.toLocaleString();
+    document.getElementById('s-industries').textContent = Object.keys(meta.industries || {}).length.toLocaleString();
+    document.getElementById('s-tags').textContent = Object.keys(meta.tags || {}).length.toLocaleString();
+
+    // Tables
+    fillTable('t-companies', companies);
+    fillTable('t-batches', meta.batches || {});
+    fillTable('t-industries', meta.industries || {});
+    fillTable('t-tags', meta.tags || {});
+
+    // Example — pick the first individual company from the first batch
+    const firstBatch = Object.keys(meta.batches || {})[0];
+    const exampleUrl = `${BASE}/batches/winter-2009/airbnb.json`;
+    const exLink = document.getElementById('example-url');
+    exLink.href = exampleUrl;
+    exLink.textContent = exampleUrl;
+
+    try {
+      const exResp = await fetch(exampleUrl);
+      if (exResp.ok) {
+        const data = await exResp.json();
+        document.getElementById('example-json').textContent = JSON.stringify(data, null, 2);
+      } else {
+        document.getElementById('example-json').textContent = '// Could not load example — API not yet deployed.';
+      }
+    } catch {
+      document.getElementById('example-json').textContent = '// Could not load example — API not yet deployed.';
+    }
+
+  } catch (err) {
+    document.getElementById('loading').innerHTML =
+      `<p style="color:var(--accent)">Failed to load meta.json</p>` +
+      `<p style="font-size:0.85rem;margin-top:0.5rem">The API data may not be deployed yet. ` +
+      `Check <a href="https://github.com/devasheeshG/yc-api">the repo</a> for details.</p>`;
+  }
+}
+
+init();
+</script>
+</body>
+</html>

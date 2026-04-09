@@ -1,7 +1,8 @@
-# Y Combinator companies API
+# Y Combinator Companies API
 
-This repository contains an unofficial API for Y Combinator companies fetched
-from the Y Combinator website's.
+Unofficial, free JSON API for every Y Combinator company. Auto-updated daily via GitHub Actions and served as static files on GitHub Pages — no authentication required.
+
+Each company includes full details: founders, open jobs, press coverage, Launch YC posts, social links, and all the metadata from YC's directory. Data is sourced directly from ycombinator.com.
 
 <!--start generated readme-->
 
