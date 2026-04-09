@@ -10,7 +10,7 @@ Each company includes full details: founders, open jobs, press coverage, Launch 
 
 API endpoint: https://devasheeshg.github.io/yc-api/meta.json
 
-- Last updated: April 09, 2026 at 10:14 AM UTC
+- Last updated: April 09, 2026 at 01:18 PM UTC
 - Companies: 5833
 - Batches: 48
 - Industries: 59
