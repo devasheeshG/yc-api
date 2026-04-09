@@ -26,14 +26,18 @@ import asyncio
 import base64
 import html as html_module
 import json
+import random
 import re
+import string
 import time
 import unicodedata
 from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any
-from urllib.parse import unquote
+from urllib.parse import unquote, urlparse
 
+import aiosmtplib
+import dns.resolver
 import httpx
 
 # =============================================================================
@@ -399,6 +403,228 @@ async def enrich_all(
 
 
 # =============================================================================
+# Phase 3 — Founder email discovery
+# =============================================================================
+#
+# Strategy:
+#   1. Extract domain from the company website URL.
+#   2. Check MX records — skip if the domain doesn't accept email.
+#   3. Detect catch-all servers (accept any address) via a garbage probe.
+#   4. Generate candidate emails from common name patterns and SMTP-verify
+#      each one using RCPT TO (no email is actually sent).
+#   5. Attach the first verified email to the founder, or the best-guess
+#      pattern for catch-all servers (flagged as unverified).
+#
+# Rate limiting: one request at a time per MX host to avoid being blocked.
+# MX lookups and catch-all results are cached per domain.
+#
+
+# Common corporate email patterns, ordered by prevalence in startups
+_EMAIL_PATTERNS: list[str] = [
+    "{first}@{domain}",
+    "{first}.{last}@{domain}",
+    "{first}{last}@{domain}",
+    "{f}{last}@{domain}",
+    "{f}.{last}@{domain}",
+    "{last}@{domain}",
+    "{first}_{last}@{domain}",
+]
+
+# Per-MX-host locks to avoid hammering one mail server with parallel connections
+_mx_locks: dict[str, asyncio.Lock] = {}
+
+SMTP_TIMEOUT = 10  # seconds per SMTP connection
+
+
+def _extract_domain(url: str | None) -> str | None:
+    """
+    Extract the root domain from a company URL.
+    Strips 'www.' prefix and ignores common non-company domains.
+    """
+    if not url:
+        return None
+    try:
+        # Ensure scheme is present for urlparse
+        if not url.startswith(("http://", "https://")):
+            url = f"https://{url}"
+        host = urlparse(url).hostname
+        if not host:
+            return None
+        # Strip www. prefix
+        host = host.lower().removeprefix("www.")
+        return host
+    except Exception:
+        return None
+
+
+def _get_mx_host(domain: str) -> str | None:
+    """
+    Look up the highest-priority MX record for a domain.
+    Returns the mail server hostname, or None if no MX records exist.
+    """
+    try:
+        records = dns.resolver.resolve(domain, "MX")
+        best = min(records, key=lambda r: r.preference)
+        return str(best.exchange).rstrip(".")
+    except Exception:
+        return None
+
+
+def _generate_candidates(first: str, last: str, domain: str) -> list[str]:
+    """
+    Generate candidate email addresses from a founder's name and company domain.
+    Uses the most common corporate email patterns.
+    """
+    f, l = first.lower(), last.lower()
+    return [
+        p.format(first=f, last=l, f=f[0], domain=domain)
+        for p in _EMAIL_PATTERNS
+    ]
+
+
+def _get_mx_lock(mx_host: str) -> asyncio.Lock:
+    """Get or create a per-MX-host lock for rate limiting."""
+    if mx_host not in _mx_locks:
+        _mx_locks[mx_host] = asyncio.Lock()
+    return _mx_locks[mx_host]
+
+
+async def _smtp_check(email: str, mx_host: str) -> tuple[int, str]:
+    """
+    Ask the MX server whether a mailbox exists via RCPT TO.
+
+    Connects on port 25, sends EHLO + MAIL FROM + RCPT TO, then disconnects.
+    No email is actually sent — we're just probing the server's response.
+
+    Returns (SMTP code, message).  250 = exists, 550 = doesn't exist.
+    """
+    async with _get_mx_lock(mx_host):
+        try:
+            smtp = aiosmtplib.SMTP(hostname=mx_host, port=25, timeout=SMTP_TIMEOUT)
+            await smtp.connect()
+            await smtp.ehlo()
+            await smtp.execute_command(b"MAIL FROM:<probe@example.com>\r\n")
+            code, message = await smtp.execute_command(
+                f"RCPT TO:<{email}>\r\n".encode()
+            )
+            await smtp.quit()
+            return code, message
+        except Exception:
+            return -1, "connection failed"
+
+
+async def _check_catch_all(domain: str, mx_host: str) -> bool:
+    """
+    Detect catch-all mail servers by probing with a random gibberish address.
+    If the server accepts an obviously-fake address, it accepts everything.
+    """
+    garbage = "".join(random.choices(string.ascii_lowercase, k=16))
+    code, _ = await _smtp_check(f"{garbage}@{domain}", mx_host)
+    return code == 250
+
+
+async def _discover_founder_email(
+    first: str,
+    last: str,
+    domain: str,
+    # Caches shared across all founders (keyed by domain)
+    mx_cache: dict[str, str | None],
+    catch_all_cache: dict[str, bool],
+) -> dict[str, Any] | None:
+    """
+    Full email discovery pipeline for one founder:
+      1. MX lookup (cached per domain)
+      2. Catch-all detection (cached per domain)
+      3. Pattern generation + SMTP verification
+
+    Returns {"email": str, "email_verified": bool} or None.
+    """
+    # Step 1: MX lookup (cached)
+    if domain not in mx_cache:
+        mx_cache[domain] = _get_mx_host(domain)
+    mx_host = mx_cache[domain]
+    if not mx_host:
+        return None
+
+    # Step 2: Catch-all detection (cached)
+    if domain not in catch_all_cache:
+        catch_all_cache[domain] = await _check_catch_all(domain, mx_host)
+    is_catch_all = catch_all_cache[domain]
+
+    # Step 3: Generate candidate emails and verify via SMTP
+    candidates = _generate_candidates(first, last, domain)
+
+    if is_catch_all:
+        # Can't distinguish valid from invalid — return best-guess pattern
+        return {"email": candidates[0], "email_verified": False}
+
+    for email in candidates:
+        code, _ = await _smtp_check(email, mx_host)
+        if code == 250:
+            return {"email": email, "email_verified": True}
+
+    return None
+
+
+def _split_name(full_name: str) -> tuple[str, str] | None:
+    """
+    Split a full name into (first, last).
+    Returns None for single-word names or empty strings.
+    """
+    parts = full_name.strip().split()
+    if len(parts) < 2:
+        return None
+    return parts[0], parts[-1]
+
+
+async def discover_emails(companies: list[dict]) -> None:
+    """
+    Phase 3: Discover and verify founder emails for all companies.
+
+    For each company with a website, extracts the domain and runs SMTP
+    verification against common email patterns for every founder.
+    Results are merged directly into each founder dict in-place.
+    """
+    # Build a flat list of (founder_dict, domain) pairs to process
+    work: list[tuple[dict, str]] = []
+    for company in companies:
+        domain = _extract_domain(company.get("website"))
+        if not domain:
+            continue
+        for founder in company.get("founders", []):
+            if not founder.get("full_name"):
+                continue
+            work.append((founder, domain))
+
+    if not work:
+        return
+
+    print(f"\nDiscovering emails for {len(work)} founders across "
+          f"{len({d for _, d in work})} domains...")
+
+    # Shared caches so we only probe each domain once
+    mx_cache: dict[str, str | None] = {}
+    catch_all_cache: dict[str, bool] = {}
+    done = 0
+
+    for founder, domain in work:
+        name_parts = _split_name(founder["full_name"])
+        if not name_parts:
+            continue
+
+        first, last = name_parts
+        result = await _discover_founder_email(
+            first, last, domain, mx_cache, catch_all_cache,
+        )
+        if result:
+            founder.update(result)
+
+        done += 1
+        if done % 100 == 0 or done == len(work):
+            print(f"  [{done}/{len(work)}] emails processed")
+
+
+# =============================================================================
 # Batch sorting
 # =============================================================================
 
@@ -663,13 +889,16 @@ async def main() -> None:
         # Phase 2: enrich with detail-page data
         await enrich_all(client, companies)
 
+    # Phase 3: discover and verify founder emails via SMTP
+    await discover_emails(companies)
+
     elapsed = time.monotonic() - t0
     print(f"\nDone in {elapsed:.1f}s — {len(companies)} companies")
 
-    # Phase 3: write output files
+    # Phase 4: write output files
     meta = _generate_outputs(companies)
 
-    # Phase 4: conditionally update meta.json + README.md
+    # Phase 5: conditionally update meta.json + README.md
     _update_meta_and_readme(companies, meta)
 
 

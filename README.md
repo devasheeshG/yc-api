@@ -566,6 +566,8 @@ Each company object has the following properties:
 | `linkedin_url`     | string\|null | LinkedIn URL                         |
 | `twitter_url`      | string\|null | Twitter/X URL                        |
 | `avatar_thumb_url` | string\|null | Founder's avatar image URL           |
+| `email`            | string\|null | Discovered email address (pattern-based + SMTP verified) |
+| `email_verified`   | boolean\|null | `true` if SMTP-confirmed, `false` if best-guess (catch-all domain) |
 
 ### `job` object
 
@@ -675,7 +677,9 @@ Each company object has the following properties:
       "is_active": true,
       "linkedin_url": "https://www.linkedin.com/in/brianchesky/",
       "twitter_url": "https://twitter.com/bchesky",
-      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/7415ee0d3978ae738c766fc109863385303b066a.jpg"
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/7415ee0d3978ae738c766fc109863385303b066a.jpg",
+      "email": "brian@airbnb.com",
+      "email_verified": false
     },
     {
       "user_id": 21988,
@@ -685,7 +689,9 @@ Each company object has the following properties:
       "is_active": true,
       "linkedin_url": "https://www.linkedin.com/in/blecharczyk/",
       "twitter_url": "https://twitter.com/nathanblec",
-      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/43dd0e2c9396adccf8b4e456d806245942afc1ed.jpg"
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/43dd0e2c9396adccf8b4e456d806245942afc1ed.jpg",
+      "email": "nathan@airbnb.com",
+      "email_verified": false
     },
     {
       "user_id": 21984,
@@ -695,7 +701,9 @@ Each company object has the following properties:
       "is_active": true,
       "linkedin_url": "https://www.linkedin.com/in/jgebbia/",
       "twitter_url": "https://x.com/jgebbia",
-      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/8edd4b693f91d2a5507247fbd23259dbe88d4dba.jpg"
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/8edd4b693f91d2a5507247fbd23259dbe88d4dba.jpg",
+      "email": "joe@airbnb.com",
+      "email_verified": false
     }
   ],
   "jobs": [],
