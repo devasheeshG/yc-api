@@ -37,7 +37,7 @@ jobs:
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git add .
+          git add README.md
           git commit -m ":card_file_box: Synced data: $(date +'%Y-%m-%d')" || exit 0
           git push
 
