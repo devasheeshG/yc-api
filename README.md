@@ -9,7 +9,7 @@ from the Y Combinator website's.
 
 API endpoint: https://devasheeshg.github.io/yc-api/meta.json
 
-- Last updated: April 09, 2026 at 09:55 AM UTC
+- Last updated: April 09, 2026 at 09:53 AM UTC
 - Companies: 5833
 - Batches: 48
 - Industries: 59
