@@ -20,12 +20,11 @@ Output is written to:
     README.md    — auto-generated stats table (between marker comments)
 """
 
-from __future__ import annotations
-
 import asyncio
 import base64
 import html as html_module
 import json
+import math
 import random
 import re
 import string
@@ -33,7 +32,7 @@ import time
 import unicodedata
 from datetime import datetime, timezone
 from pathlib import Path
-from typing import Any
+from typing import Any, Dict, List, Optional, Tuple
 from urllib.parse import unquote, urlparse
 
 import aiosmtplib
@@ -51,7 +50,8 @@ API_BASE_URL = f"https://{REPO_OWNER.lower()}.github.io/{REPO_NAME}"
 README_URL = f"https://github.com/{GITHUB_REPO}"
 YC_BASE_URL = "https://www.ycombinator.com"
 
-CONCURRENCY = 10  # parallel requests for detail-page enrichment
+CONCURRENCY = 200  # parallel requests for detail-page enrichment
+EMAIL_CONCURRENCY = 100  # max concurrent SMTP connections for email discovery
 REQUEST_TIMEOUT = 30  # seconds
 USER_AGENT = (
     "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 "
@@ -75,7 +75,7 @@ ALGOLIA_FACETS = [
 ]
 
 # Boolean fields used for "special" company lists
-SPECIAL_LISTS: list[tuple[str, str, str]] = [
+SPECIAL_LISTS: List[Tuple[str, str, str]] = [
     ("top_company", "top", "Top companies"),
     ("nonprofit", "nonprofit", "Not-for-profit companies"),
     ("isHiring", "hiring", "Companies currently hiring"),
@@ -101,7 +101,7 @@ def write_json(path: str | Path, data: Any) -> None:
     p.write_text(json.dumps(data, indent=2, ensure_ascii=False) + "\n")
 
 
-def batch_slug(batch: str | None) -> str:
+def batch_slug(batch: Optional[str]) -> str:
     """Return the slug for a batch name, defaulting to 'unspecified'."""
     return slugify(batch or "Unspecified")
 
@@ -113,7 +113,7 @@ def batch_slug(batch: str | None) -> str:
 
 async def _discover_algolia_credentials(
     client: httpx.AsyncClient,
-) -> tuple[str, str, str]:
+) -> Tuple[str, str, str]:
     """
     Scrape the public YC /companies page to extract the Algolia
     application ID, search-only API key, and primary index name.
@@ -151,7 +151,7 @@ async def _discover_algolia_credentials(
     return app_id, api_key, index_name
 
 
-def _build_algolia_params(facets: list[str]) -> str:
+def _build_algolia_params(facets: List[str]) -> str:
     """Encode facets + pagination defaults into an Algolia params string."""
     encoded = "%2C".join(f"%22{f}%22" for f in facets)
     return (
@@ -163,7 +163,7 @@ def _build_algolia_params(facets: list[str]) -> str:
     )
 
 
-async def fetch_all_companies(client: httpx.AsyncClient) -> list[dict]:
+async def fetch_all_companies(client: httpx.AsyncClient) -> List[Dict[str, Any]]:
     """
     Pull every YC company from the Algolia index.
 
@@ -190,33 +190,41 @@ async def fetch_all_companies(client: httpx.AsyncClient) -> list[dict]:
         json={"requests": [{"indexName": index_name, "params": base_params}]},
     )
     resp.raise_for_status()
-    batches: dict[str, int] = resp.json()["results"][0]["facets"]["batch"]
+    batches: Dict[str, int] = resp.json()["results"][0]["facets"]["batch"]
 
-    # --- Step 2: fetch all companies, batch by batch (paginated) ---
-    all_companies: list[dict] = []
-
+    # --- Step 2: fetch all companies — all batches in parallel ---
+    # Pre-compute every (batch, page) pair so we can fire them all at once
+    batch_pages: List[Tuple[str, int]] = []
     for batch_name, expected_count in batches.items():
-        print(f"  Batch {batch_name!r}: {expected_count} companies")
-        page, fetched = 0, 0
+        num_pages = max(1, math.ceil(expected_count / 1000))
+        for page in range(num_pages):
+            batch_pages.append((batch_name, page))
 
-        while fetched < expected_count:
-            r = await client.post(
-                url,
-                params=auth_params,
-                json={
-                    "requests": [
-                        {
-                            "indexName": index_name,
-                            "params": f"{base_params}&facetFilters=batch:{batch_name}&page={page}",
-                        }
-                    ]
-                },
-            )
-            r.raise_for_status()
-            hits = r.json()["results"][0]["hits"]
-            all_companies.extend(hits)
-            fetched += len(hits)
-            page += 1
+    print(f"  Fetching {len(batch_pages)} batch pages in parallel...")
+
+    async def _fetch_batch_page(bn: str, pg: int) -> List[Dict[str, Any]]:
+        r = await client.post(
+            url,
+            params=auth_params,
+            json={
+                "requests": [
+                    {
+                        "indexName": index_name,
+                        "params": f"{base_params}&facetFilters=batch:{bn}&page={pg}",
+                    }
+                ]
+            },
+        )
+        r.raise_for_status()
+        return r.json()["results"][0]["hits"]
+
+    page_results = await asyncio.gather(
+        *(_fetch_batch_page(bn, pg) for bn, pg in batch_pages)
+    )
+
+    all_companies: List[Dict[str, Any]] = [
+        hit for page_hits in page_results for hit in page_hits
+    ]
 
     # Clean up Algolia internal fields
     for c in all_companies:
@@ -233,7 +241,7 @@ async def fetch_all_companies(client: httpx.AsyncClient) -> list[dict]:
 # =============================================================================
 
 
-def _parse_inertia_props(page_html: str) -> dict | None:
+def _parse_inertia_props(page_html: str) -> Optional[Dict[str, Any]]:
     """
     YC uses Inertia.js (Rails → React).  Every page embeds a
     ``data-page="{ ... }"`` attribute on the root <div> containing
@@ -248,14 +256,14 @@ def _parse_inertia_props(page_html: str) -> dict | None:
         return None
 
 
-def _strip_s3_params(url: str | None) -> str | None:
+def _strip_s3_params(url: Optional[str]) -> Optional[str]:
     """Remove AWS signed URL query parameters — the base S3 URL works without them."""
     if not url:
         return None
     return url.split("?")[0]
 
 
-def _extract_founders(company_props: dict) -> list[dict]:
+def _extract_founders(company_props: Dict[str, Any]) -> List[Dict[str, Any]]:
     """Extract active/inactive founders with their bios and social links."""
     return [
         {
@@ -272,7 +280,7 @@ def _extract_founders(company_props: dict) -> list[dict]:
     ]
 
 
-def _extract_jobs(props: dict) -> list[dict]:
+def _extract_jobs(props: Dict[str, Any]) -> List[Dict[str, Any]]:
     """Extract open job postings (salary, equity, visa, etc.)."""
     return [
         {
@@ -293,7 +301,7 @@ def _extract_jobs(props: dict) -> list[dict]:
     ]
 
 
-def _extract_news(props: dict) -> list[dict]:
+def _extract_news(props: Dict[str, Any]) -> List[Dict[str, Any]]:
     """Extract press/news items."""
     return [
         {"title": n.get("title"), "url": n.get("url"), "date": n.get("date")}
@@ -301,7 +309,7 @@ def _extract_news(props: dict) -> list[dict]:
     ]
 
 
-def _extract_launches(props: dict) -> list[dict]:
+def _extract_launches(props: Dict[str, Any]) -> List[Dict[str, Any]]:
     """Extract Launch YC posts (title, tagline, votes, URL, body)."""
     return [
         {
@@ -317,7 +325,7 @@ def _extract_launches(props: dict) -> list[dict]:
     ]
 
 
-def _extract_partner(company: dict) -> dict | None:
+def _extract_partner(company: Dict[str, Any]) -> Optional[Dict[str, Any]]:
     """Extract the primary YC group partner."""
     partner = company.get("primary_group_partner")
     if not partner:
@@ -328,7 +336,7 @@ def _extract_partner(company: dict) -> dict | None:
     }
 
 
-def _build_enrichment(page_data: dict) -> dict:
+def _build_enrichment(page_data: Dict[str, Any]) -> Dict[str, Any]:
     """Combine all detail-page extractions into a single dict for merging."""
     props = page_data.get("props", {})
     company = props.get("company", {})
@@ -390,7 +398,7 @@ async def _enrich_one(
 
 async def enrich_all(
     client: httpx.AsyncClient,
-    companies: list[dict],
+    companies: List[Dict[str, Any]],
 ) -> None:
     """Enrich all companies concurrently (bounded by CONCURRENCY)."""
     print(f"\nEnriching {len(companies)} companies from detail pages...")
@@ -420,7 +428,7 @@ async def enrich_all(
 #
 
 # Common corporate email patterns, ordered by prevalence in startups
-_EMAIL_PATTERNS: list[str] = [
+_EMAIL_PATTERNS: List[str] = [
     "{first}@{domain}",
     "{first}.{last}@{domain}",
     "{first}{last}@{domain}",
@@ -431,12 +439,12 @@ _EMAIL_PATTERNS: list[str] = [
 ]
 
 # Per-MX-host locks to avoid hammering one mail server with parallel connections
-_mx_locks: dict[str, asyncio.Lock] = {}
+_mx_locks: Dict[str, asyncio.Lock] = {}
 
 SMTP_TIMEOUT = 10  # seconds per SMTP connection
 
 
-def _extract_domain(url: str | None) -> str | None:
+def _extract_domain(url: Optional[str]) -> Optional[str]:
     """
     Extract the root domain from a company URL.
     Strips 'www.' prefix and ignores common non-company domains.
@@ -457,7 +465,7 @@ def _extract_domain(url: str | None) -> str | None:
         return None
 
 
-async def _get_mx_host(domain: str) -> str | None:
+async def _get_mx_host(domain: str) -> Optional[str]:
     """
     Look up the highest-priority MX record for a domain.
     Returns the mail server hostname, or None if no MX records exist.
@@ -470,7 +478,7 @@ async def _get_mx_host(domain: str) -> str | None:
         return None
 
 
-def _generate_candidates(first: str, last: str, domain: str) -> list[str]:
+def _generate_candidates(first: str, last: str, domain: str) -> List[str]:
     """
     Generate candidate email addresses from a founder's name and company domain.
     Uses the most common corporate email patterns.
@@ -489,7 +497,7 @@ def _get_mx_lock(mx_host: str) -> asyncio.Lock:
     return _mx_locks[mx_host]
 
 
-async def _smtp_check(email: str, mx_host: str) -> tuple[int, str]:
+async def _smtp_check(email: str, mx_host: str) -> Tuple[int, str]:
     """
     Ask the MX server whether a mailbox exists via RCPT TO.
 
@@ -523,50 +531,7 @@ async def _check_catch_all(domain: str, mx_host: str) -> bool:
     return code == 250
 
 
-async def _discover_founder_email(
-    first: str,
-    last: str,
-    domain: str,
-    # Caches shared across all founders (keyed by domain)
-    mx_cache: dict[str, str | None],
-    catch_all_cache: dict[str, bool],
-) -> dict[str, Any] | None:
-    """
-    Full email discovery pipeline for one founder:
-      1. MX lookup (cached per domain)
-      2. Catch-all detection (cached per domain)
-      3. Pattern generation + SMTP verification
-
-    Returns {"email": str, "email_verified": bool} or None.
-    """
-    # Step 1: MX lookup (cached)
-    if domain not in mx_cache:
-        mx_cache[domain] = await _get_mx_host(domain)
-    mx_host = mx_cache[domain]
-    if not mx_host:
-        return None
-
-    # Step 2: Catch-all detection (cached)
-    if domain not in catch_all_cache:
-        catch_all_cache[domain] = await _check_catch_all(domain, mx_host)
-    is_catch_all = catch_all_cache[domain]
-
-    # Step 3: Generate candidate emails and verify via SMTP
-    candidates = _generate_candidates(first, last, domain)
-
-    if is_catch_all:
-        # Can't distinguish valid from invalid — return best-guess pattern
-        return {"email": candidates[0], "email_verified": False}
-
-    for email in candidates:
-        code, _ = await _smtp_check(email, mx_host)
-        if code == 250:
-            return {"email": email, "email_verified": True}
-
-    return None
-
-
-def _split_name(full_name: str) -> tuple[str, str] | None:
+def _split_name(full_name: str) -> Optional[Tuple[str, str]]:
     """
     Split a full name into (first, last).
     Returns None for single-word names or empty strings.
@@ -577,16 +542,20 @@ def _split_name(full_name: str) -> tuple[str, str] | None:
     return parts[0], parts[-1]
 
 
-async def discover_emails(companies: list[dict]) -> None:
+async def discover_emails(companies: List[Dict[str, Any]]) -> None:
     """
     Phase 3: Discover and verify founder emails for all companies.
 
-    For each company with a website, extracts the domain and runs SMTP
-    verification against common email patterns for every founder.
-    Results are merged directly into each founder dict in-place.
+    Three parallel sub-phases:
+      3a. Resolve MX records for all unique domains concurrently.
+      3b. Detect catch-all servers for domains with valid MX concurrently.
+      3c. Fan out SMTP verification for all founders concurrently,
+          bounded globally by EMAIL_CONCURRENCY and serialised per MX host
+          via per-host locks (so different mail servers run in parallel but
+          we never hammer a single server with simultaneous connections).
     """
     # Build a flat list of (founder_dict, domain) pairs to process
-    work: list[tuple[dict, str]] = []
+    work: List[Tuple[Dict[str, Any], str]] = []
     for company in companies:
         domain = _extract_domain(company.get("website"))
         if not domain:
@@ -599,29 +568,79 @@ async def discover_emails(companies: list[dict]) -> None:
     if not work:
         return
 
+    unique_domains = list({d for _, d in work})
     print(f"\nDiscovering emails for {len(work)} founders across "
-          f"{len({d for _, d in work})} domains...")
+          f"{len(unique_domains)} domains...")
 
-    # Shared caches so we only probe each domain once
-    mx_cache: dict[str, str | None] = {}
-    catch_all_cache: dict[str, bool] = {}
-    done = 0
+    # ------------------------------------------------------------------
+    # 3a — Resolve MX for all unique domains concurrently
+    # ------------------------------------------------------------------
+    mx_cache: Dict[str, Optional[str]] = {}
+    dns_sem = asyncio.Semaphore(EMAIL_CONCURRENCY)
 
-    for founder, domain in work:
-        name_parts = _split_name(founder["full_name"])
-        if not name_parts:
-            continue
+    async def _resolve_one(domain: str) -> None:
+        async with dns_sem:
+            mx_cache[domain] = await _get_mx_host(domain)
 
-        first, last = name_parts
-        result = await _discover_founder_email(
-            first, last, domain, mx_cache, catch_all_cache,
-        )
-        if result:
-            founder.update(result)
+    print("  Resolving MX records...")
+    await asyncio.gather(*(_resolve_one(d) for d in unique_domains))
 
-        done += 1
-        if done % 100 == 0 or done == len(work):
-            print(f"  [{done}/{len(work)}] emails processed")
+    domains_with_mx = [d for d in unique_domains if mx_cache[d]]
+    print(f"  {len(domains_with_mx)}/{len(unique_domains)} domains have MX records")
+
+    # ------------------------------------------------------------------
+    # 3b — Catch-all detection for all domains with valid MX
+    # ------------------------------------------------------------------
+    catch_all_cache: Dict[str, bool] = {}
+
+    async def _catch_all_one(domain: str) -> None:
+        catch_all_cache[domain] = await _check_catch_all(domain, mx_cache[domain])  # already filtered to non-None
+
+    print("  Detecting catch-all servers...")
+    await asyncio.gather(*(_catch_all_one(d) for d in domains_with_mx))
+
+    catch_all_count = sum(1 for v in catch_all_cache.values() if v)
+    print(f"  {catch_all_count} catch-all domains detected")
+
+    # ------------------------------------------------------------------
+    # 3c — SMTP-verify founder emails concurrently
+    # ------------------------------------------------------------------
+    smtp_sem = asyncio.Semaphore(EMAIL_CONCURRENCY)
+    progress = {"done": 0}
+    total = len(work)
+
+    async def _process_founder(founder: Dict[str, Any], domain: str) -> None:
+        async with smtp_sem:
+            mx_host = mx_cache.get(domain)
+            if not mx_host:
+                return
+
+            name_parts = _split_name(founder["full_name"])
+            if not name_parts:
+                return
+
+            first, last = name_parts
+            is_catch_all = catch_all_cache.get(domain, False)
+            candidates = _generate_candidates(first, last, domain)
+
+            if is_catch_all:
+                # Can't distinguish valid from invalid — return best-guess pattern
+                founder["email"] = candidates[0]
+                founder["email_verified"] = False
+            else:
+                for email in candidates:
+                    code, _ = await _smtp_check(email, mx_host)
+                    if code == 250:
+                        founder["email"] = email
+                        founder["email_verified"] = True
+                        break
+
+        progress["done"] += 1
+        done = progress["done"]
+        if done % 500 == 0 or done == total:
+            print(f"  [{done}/{total}] emails processed")
+
+    await asyncio.gather(*(_process_founder(f, d) for f, d in work))
 
 
 # =============================================================================
@@ -631,7 +650,7 @@ async def discover_emails(companies: list[dict]) -> None:
 _SEASON_RANK = {"Fall": 0, "Summer": 1, "Winter": 2}
 
 
-def _batch_sort_key(name: str) -> tuple[int, int]:
+def _batch_sort_key(name: str) -> Tuple[int, int]:
     """
     Sort batches reverse-chronologically: newest year first,
     then Fall → Summer → Winter within the same year.
@@ -665,7 +684,7 @@ def _batch_sort_key(name: str) -> tuple[int, int]:
 # =============================================================================
 
 
-def _generate_outputs(results: list[dict]) -> dict[str, dict[str, dict]]:
+def _generate_outputs(results: List[Dict[str, Any]]) -> Dict[str, Dict[str, Dict[str, Any]]]:
     """
     Write all JSON output files and return the meta index.
 
@@ -680,7 +699,7 @@ def _generate_outputs(results: list[dict]) -> dict[str, dict[str, dict]]:
     for d in ("companies", "tags", "industries", "batches"):
         Path(d).mkdir(exist_ok=True)
 
-    meta: dict[str, dict[str, dict]] = {
+    meta: Dict[str, Dict[str, Dict[str, Any]]] = {
         "companies": {
             "all": {
                 "name": "All launched companies",
@@ -741,12 +760,12 @@ def _generate_outputs(results: list[dict]) -> dict[str, dict[str, dict]]:
     return meta
 
 
-def _update_meta_and_readme(results: list[dict], meta: dict) -> None:
+def _update_meta_and_readme(results: List[Dict[str, Any]], meta: Dict[str, Any]) -> None:
     """
     Compare new meta against the existing meta.json.
     Only write if something actually changed (ignoring last_updated).
     """
-    existing_meta: dict = {}
+    existing_meta: Dict[str, Any] = {}
     meta_path = Path("meta.json")
     if meta_path.exists():
         try:
