@@ -2,8 +2,7 @@ import { ensureDir } from "https://deno.land/std@0.224.0/fs/ensure_dir.ts";
 import { slugify } from "https://deno.land/x/slugify/mod.ts";
 
 const mustEnv = (name: string): string => {
-    const value = Deno.env.get(name);
-    const value = value.trim() ? value : undefined;
+    const value = Deno.env.get(name)?.trim();
     if (!value) {
         throw new Error(`Missing required environment variable: ${name}`);
     }
