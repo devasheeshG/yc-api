@@ -10,7 +10,7 @@ on:
   workflow_dispatch:
 
 jobs:
-  update:
+  sync:
     runs-on: ubuntu-latest
     environment: actions-runner
     steps:
@@ -38,7 +38,7 @@ jobs:
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git add .
-          git commit -m ":card_file_box: Update APIs: $(date +'%Y-%m-%d')" || exit 0
+          git commit -m ":card_file_box: Synced data: $(date +'%Y-%m-%d')" || exit 0
           git push
 
       - name: Publish to GitHub Pages
