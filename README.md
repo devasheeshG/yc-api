@@ -541,6 +541,7 @@ Each company object has the following properties:
 | `app_video_url`         | string\|null | Application video URL                                      |
 | `dday_video_url`        | string\|null | Demo day video URL                                         |
 | `primary_partner`       | partner\|null | Assigned YC group partner                                 |
+| `company_photos`        | string[]   | Company photo URLs                                           |
 | `founders`              | founder[]  | List of founders                                             |
 | `jobs`                  | job[]      | List of open job postings                                    |
 | `news`                  | news[]     | List of press/news articles                                  |
@@ -598,6 +599,7 @@ Each company object has the following properties:
 | `id`         | number | Launch post ID                           |
 | `title`      | string | Launch post title                        |
 | `tagline`    | string | Short tagline                            |
+| `body`       | string | Full post content (markdown)             |
 | `url`        | string | Full URL to the Launch YC post           |
 | `votes`      | number | Number of upvotes                        |
 | `created_at` | string | ISO 8601 timestamp (e.g. `"2024-03-15T12:00:00Z"`) |
@@ -657,6 +659,9 @@ Each company object has the following properties:
   "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/3e9a0092bee2ccf926e650e59c06503ec6b9ee65.png",
   "app_video_url": null,
   "dday_video_url": null,
+  "company_photos": [
+    "https://bookface-images.s3.us-west-2.amazonaws.com/attachments/8a7236c94b4d9b78b67ce66e02cbca497e632d99.png"
+  ],
   "primary_partner": {
     "name": "Garry Tan",
     "url": "https://www.ycombinator.com/people/garry-tan"

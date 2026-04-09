@@ -298,12 +298,13 @@ def _extract_news(props: dict) -> list[dict]:
 
 
 def _extract_launches(props: dict) -> list[dict]:
-    """Extract Launch YC posts (title, tagline, votes, URL)."""
+    """Extract Launch YC posts (title, tagline, votes, URL, body)."""
     return [
         {
             "id": l.get("id"),
             "title": l.get("title"),
             "tagline": l.get("tagline"),
+            "body": l.get("body"),
             "url": l.get("url"),
             "votes": l.get("total_vote_count"),
             "created_at": l.get("created_at"),
@@ -342,6 +343,11 @@ def _build_enrichment(page_data: dict) -> dict:
         "app_video_url": company.get("app_video_url"),
         "dday_video_url": company.get("dday_video_url"),
         # Nested data
+        "company_photos": [
+            _strip_s3_params(p.get("url"))
+            for p in company.get("company_photos", [])
+            if p.get("url")
+        ],
         "primary_partner": _extract_partner(company),
         "founders": _extract_founders(company),
         "jobs": _extract_jobs(props),
