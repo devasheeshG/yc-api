@@ -492,15 +492,21 @@ def _generate_candidates(first: str, last: str, domain: str) -> List[str]:
     ]
 
 
-def _split_name(full_name: str) -> Optional[Tuple[str, str]]:
+def _split_name(full_name: str) -> Optional[Tuple[str, ...]]:
     """
-    Split a full name into (first, last).
-    Returns None for single-word names or empty strings.
+    Split a full name into name parts.
+    Returns (first, last) for 2-word or 4+-word names,
+    (first, middle, last) for exactly 3-word names,
+    (name,) for mononyms, or None for empty strings.
     """
     parts = full_name.strip().split()
-    if len(parts) < 2:
+    if not parts:
         return None
-    return parts[0], parts[-1]
+    if len(parts) == 1:
+        return (parts[0],)
+    if len(parts) == 3:
+        return (parts[0], parts[1], parts[-1])
+    return (parts[0], parts[-1])
 
 
 async def _smtp_rcpt_check(
@@ -599,8 +605,29 @@ async def _process_mx_host(
                         print(f"  [{done}/{total}] emails processed")
                     continue
 
-                first, last = name_parts
-                candidates = _generate_candidates(first, last, domain)
+                if len(name_parts) == 1:
+                    # Mononym — just try {name}@domain
+                    candidates = [f"{name_parts[0].lower()}@{domain}"]
+                elif len(name_parts) == 3:
+                    # 3-part name: try (first, last) + (first, middle) combos
+                    first, middle, last = name_parts
+                    seen: set = set()
+                    candidates = []
+                    for c in _generate_candidates(first, last, domain):
+                        if c not in seen:
+                            seen.add(c)
+                            candidates.append(c)
+                    for c in _generate_candidates(first, middle, domain):
+                        if c not in seen:
+                            seen.add(c)
+                            candidates.append(c)
+                    # Also try {firstmiddle}.{last}@domain
+                    combo = f"{first.lower()}{middle.lower()}.{last.lower()}@{domain}"
+                    if combo not in seen:
+                        candidates.append(combo)
+                else:
+                    first, last = name_parts
+                    candidates = _generate_candidates(first, last, domain)
 
                 if is_catch_all:
                     # Can't verify on catch-all domains — skip
