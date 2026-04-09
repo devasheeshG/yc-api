@@ -1,8 +1,26 @@
-# Y Combinator Companies API
 
-Unofficial, free JSON API for every Y Combinator company. Auto-updated daily via GitHub Actions and served as static files on GitHub Pages — no authentication required.
+## 💡 Use cases
 
-Each company includes full details: founders, open jobs, press coverage, Launch YC posts, social links, and all the metadata from YC's directory. Data is sourced directly from ycombinator.com.
+| Use case | What you'd build |
+| --- | --- |
+| **Prospecting & cold outreach** | Generate lead lists with founder emails, filter by industry/batch/hiring status |
+| **Market mapping** | Cluster companies by tag, industry, or region to spot trends |
+| **YC dashboards** | Build internal tools showing batch breakdowns, hiring trends, top companies |
+| **Job hunting** | Find open roles at YC companies that sponsor visas and match your skills |
+| **Research** | Analyze YC batch sizes, industry trends, founder demographics over time |
+
+## 📦 SDKs
+
+| Language | Package | Install |
+| --- | --- | --- |
+| Python | [`yc-api`](https://pypi.org/project/yc-api/) | `pip install yc-api` |
+| TypeScript/JS | [`@devasheeshg/yc-api`](https://www.npmjs.com/package/@devasheeshg/yc-api) | `npm install @devasheeshg/yc-api` |
+
+Both SDKs are fully typed, support async, and wrap every endpoint. See [Python SDK docs](sdks/python/) or [Node SDK docs](sdks/node/) for details.
+
+---
+
+## 📊 Data
 
 <!--start generated readme-->
 
@@ -493,10 +511,12 @@ API endpoint: https://devasheeshg.github.io/yc-api/meta.json
 </details>
 <!--end generated readme-->
 
+---
+
 ## 📀 Schema
 
-Each endpoint (with the exception of `meta.json`) returns an array of company objects.
-Each company object has the following properties:
+Each endpoint (except `meta.json`) returns an array of company objects with 50+ fields.
+Every company object includes:
 
 | Property                | Type       | Description                                                  |
 | ----------------------- | ---------- | ------------------------------------------------------------ |
@@ -757,6 +777,16 @@ The biggest open problem is **founder email discovery**. Currently only ~4% of f
 - 3-part name expansion (e.g. "Mary Jane Watson" → tries `mary.watson@`, `mary.jane@`, `maryjane.watson@`, etc.)
 - Mononym support (single-word names → `{name}@domain`)
 - LinkedIn/Twitter username as `{username}@domain`
+
+## ⭐ Star History
+
+<a href="https://star-history.com/#devasheeshG/yc-api&Date">
+ <picture>
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=devasheeshG/yc-api&type=Date&theme=dark" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=devasheeshG/yc-api&type=Date" />
+   <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=devasheeshG/yc-api&type=Date" />
+ </picture>
+</a>
 
 ## 📄 License
 
