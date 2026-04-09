@@ -9,7 +9,7 @@ from the Y Combinator website's.
 
 API endpoint: https://devasheeshg.github.io/yc-api/meta.json
 
-- Last updated: April 09, 2026 at 09:46 AM UTC
+- Last updated: April 09, 2026 at 09:55 AM UTC
 - Companies: 5833
 - Batches: 48
 - Industries: 59
@@ -494,98 +494,91 @@ API endpoint: https://devasheeshg.github.io/yc-api/meta.json
 
 ## 📀 Schema
 
-Each endpoint (with the exception of `meta.json`) returns an array of objects.
-Each object has the following properties:
+Each endpoint (with the exception of `meta.json`) returns an array of company objects.
+Each company object has the following properties:
 
-### Algolia fields (from bulk index)
+| Property                | Type       | Description                                                  |
+| ----------------------- | ---------- | ------------------------------------------------------------ |
+| `id`                    | number     | Unique company ID                                            |
+| `name`                  | string     | Company name                                                 |
+| `slug`                  | string     | URL-friendly slug (e.g. `"airbnb"`)                          |
+| `former_names`          | string[]   | Previous names, if the company was renamed                   |
+| `small_logo_thumb_url`  | string     | Square thumbnail logo URL                                    |
+| `website`               | string     | Company website URL                                          |
+| `all_locations`         | string     | Locations separated by semicolons (e.g. `"San Francisco, CA, USA; New York, NY, USA"`) |
+| `long_description`      | string     | Full company description                                     |
+| `one_liner`             | string     | One-line company description                                 |
+| `team_size`             | number     | Number of employees                                          |
+| `industry`              | string     | Primary industry                                             |
+| `subindustry`           | string     | Subindustry (e.g. `"Consumer -> Travel, Leisure and Tourism"`) |
+| `launched_at`           | number     | Launch date as a Unix timestamp                              |
+| `tags`                  | string[]   | Company tags                                                 |
+| `tags_highlighted`      | string[]   | Highlighted tags                                             |
+| `top_company`           | boolean    | Whether this is a YC top company                             |
+| `isHiring`              | boolean    | Whether the company is currently hiring                      |
+| `nonprofit`             | boolean    | Whether the company is a nonprofit                           |
+| `batch`                 | string     | YC batch (e.g. `"Winter 2026"`)                              |
+| `status`                | string     | Company status (`"Active"`, `"Inactive"`, `"Acquired"`, `"Public"`) |
+| `industries`            | string[]   | All industries the company belongs to                        |
+| `regions`               | string[]   | Geographic regions                                           |
+| `stage`                 | string     | Company stage (`"Early"`, `"Growth"`, etc.)                  |
+| `app_video_public`      | boolean    | Whether the application video is public                      |
+| `demo_day_video_public` | boolean    | Whether the demo day video is public                         |
+| `app_answers`           | object\|null | Application answers, if public                             |
+| `question_answers`      | boolean    | Whether Q&A answers are public                               |
+| `url`                   | string     | Company page on ycombinator.com                              |
+| `api`                   | string     | This API's endpoint for the company                          |
+| `year_founded`          | number\|null | Year the company was founded                               |
+| `city`                  | string\|null | City                                                       |
+| `country`               | string\|null | Country code (e.g. `"US"`)                                 |
+| `linkedin_url`          | string\|null | LinkedIn URL                                               |
+| `twitter_url`           | string\|null | Twitter/X URL                                              |
+| `fb_url`                | string\|null | Facebook URL                                               |
+| `cb_url`                | string\|null | Crunchbase URL                                             |
+| `github_url`            | string\|null | GitHub URL                                                 |
+| `logo_url`              | string\|null | Logo image URL                                             |
+| `founders`              | founder[]  | List of founders                                             |
+| `jobs`                  | job[]      | List of open job postings                                    |
+| `news`                  | news[]     | List of press/news articles                                  |
+| `launches`              | launch[]   | List of Launch YC posts                                      |
 
-| Property                | Type     | Description                                                      |
-| ----------------------- | -------- | ---------------------------------------------------------------- |
-| `id`                    | number   | The company's ID decided by Y Combinator                         |
-| `name`                  | string   | The company's name                                               |
-| `slug`                  | string   | The company's human-readable slug                                |
-| `former_names`          | string[] | The company's former names, if the company was renamed           |
-| `small_logo_thumb_url`  | string   | The URL of the company's logo as a square hosted by Y Combinator |
-| `website`               | string   | The company's website URL                                        |
-| `all_locations`         | string   | The company's locations separated by semicolons (;)              |
-| `long_description`      | string   | The company's long description                                   |
-| `one_liner`             | string   | The company's one-liner description                              |
-| `team_size`             | number   | The company's team size                                          |
-| `industry`              | string   | The company's primary industry                                   |
-| `subindustry`           | string   | The company's subindustry                                        |
-| `launched_at`           | number   | The company's launch date as a Unix timestamp                    |
-| `tags`                  | string[] | The company's tags                                               |
-| `tags_highlighted`      | string[] | The company's highlighted tags                                   |
-| `top_company`           | boolean  | Whether the company is a top company                             |
-| `isHiring`              | boolean  | Whether the company is hiring                                    |
-| `nonprofit`             | boolean  | Whether the company is a nonprofit                               |
-| `batch`                 | string   | The company's batch (e.g. "Winter 2026")                         |
-| `status`                | string   | The company's status (Active, Inactive, Acquired, Public)        |
-| `industries`            | string[] | The company's industries                                         |
-| `regions`               | string[] | The company's regions                                            |
-| `stage`                 | string   | The company's stage (Early, Growth, etc.)                        |
-| `app_video_public`      | boolean  | Whether the company's app video is public                        |
-| `demo_day_video_public` | boolean  | Whether the company's demo day video is public                   |
-| `app_answers`           | object   | The company's app answers                                        |
-| `question_answers`      | boolean  | Whether the company's question answers are public                |
-| `url`                   | string   | The company's URL on the Y Combinator website                    |
-| `api`                   | string   | The company's API endpoint from this repository                  |
+### `founder` object
 
-### Enriched fields (from detail page scraping)
+| Property       | Type        | Description                           |
+| -------------- | ----------- | ------------------------------------- |
+| `full_name`    | string      | Founder's full name                   |
+| `title`        | string      | Title (e.g. `"Founder/CEO"`)         |
+| `founder_bio`  | string      | Short bio                             |
+| `is_active`    | boolean     | Whether the founder is currently active |
+| `linkedin_url` | string\|null | LinkedIn URL                         |
+| `twitter_url`  | string\|null | Twitter/X URL                        |
 
-| Property       | Type     | Description                                          |
-| -------------- | -------- | ---------------------------------------------------- |
-| `year_founded` | number   | Year the company was founded                         |
-| `city`         | string   | The company's city                                   |
-| `country`      | string   | The company's country code (e.g. "US")               |
-| `linkedin_url` | string   | The company's LinkedIn URL                           |
-| `twitter_url`  | string   | The company's Twitter/X URL                          |
-| `fb_url`       | string   | The company's Facebook URL                           |
-| `cb_url`       | string   | The company's Crunchbase URL                         |
-| `github_url`   | string   | The company's GitHub URL                             |
-| `logo_url`     | string   | The company's logo URL                               |
-| `founders`     | array    | List of founders (see schema below)                  |
-| `jobs`         | array    | List of open job postings (see schema below)         |
-| `news`         | array    | List of press/news items (see schema below)          |
-| `launches`     | array    | List of Launch YC posts (see schema below)           |
+### `job` object
 
-#### `founders[]`
+| Property       | Type        | Description                                       |
+| -------------- | ----------- | ------------------------------------------------- |
+| `id`           | number      | Job posting ID                                    |
+| `title`        | string      | Job title (e.g. `"Founding Engineer"`)            |
+| `url`          | string      | Full URL to the job posting                       |
+| `location`     | string      | Job location                                      |
+| `type`         | string      | Employment type (`"Full-time"`, `"Part-time"`, etc.) |
+| `role`         | string      | Role category (`"Engineering"`, `"Design"`, etc.) |
+| `role_type`    | string      | Specific role type (`"Full stack"`, `"Backend"`, etc.) |
+| `salary_range` | string\|null | Salary range (e.g. `"$120K - $160K"`)            |
+| `equity_range` | string\|null | Equity range (e.g. `"1.00% - 3.00%"`)           |
+| `experience`   | string      | Required experience (e.g. `"1+ years"`)           |
+| `visa`         | string      | Visa sponsorship status                           |
+| `skills`       | string[]    | Required skills                                   |
 
-| Property       | Type    | Description                         |
-| -------------- | ------- | ----------------------------------- |
-| `full_name`    | string  | Founder's full name                 |
-| `title`        | string  | Founder's title (e.g. "Founder/CEO") |
-| `founder_bio`  | string  | Founder's bio                       |
-| `is_active`    | boolean | Whether the founder is active       |
-| `linkedin_url` | string  | Founder's LinkedIn URL              |
-| `twitter_url`  | string  | Founder's Twitter/X URL             |
+### `news` object
 
-#### `jobs[]`
+| Property | Type   | Description                                   |
+| -------- | ------ | --------------------------------------------- |
+| `title`  | string | Article headline                              |
+| `url`    | string | Link to the article                           |
+| `date`   | string | Publication date (e.g. `"Oct 12, 2025"`)      |
 
-| Property       | Type     | Description                                     |
-| -------------- | -------- | ----------------------------------------------- |
-| `id`           | number   | Job posting ID                                  |
-| `title`        | string   | Job title (e.g. "Founding Engineer")             |
-| `url`          | string   | Full URL to the job posting                      |
-| `location`     | string   | Job location                                    |
-| `type`         | string   | Employment type (Full-time, Part-time, etc.)     |
-| `role`         | string   | Role category (Engineering, Design, etc.)        |
-| `role_type`    | string   | Specific role type (Full stack, Backend, etc.)   |
-| `salary_range` | string   | Salary range (e.g. "$120K - $160K")              |
-| `equity_range` | string   | Equity range (e.g. "1.00% - 3.00%")             |
-| `experience`   | string   | Minimum experience (e.g. "1+ years")             |
-| `visa`         | string   | Visa sponsorship status                          |
-| `skills`       | string[] | Required skills                                  |
-
-#### `news[]`
-
-| Property | Type   | Description                          |
-| -------- | ------ | ------------------------------------ |
-| `title`  | string | Article headline                     |
-| `url`    | string | Link to the article                  |
-| `date`   | string | Publication date (e.g. "Oct 12, 2025") |
-
-#### `launches[]`
+### `launch` object
 
 | Property     | Type   | Description                              |
 | ------------ | ------ | ---------------------------------------- |
@@ -594,11 +587,11 @@ Each object has the following properties:
 | `tagline`    | string | Short tagline                            |
 | `url`        | string | Full URL to the Launch YC post           |
 | `votes`      | number | Number of upvotes                        |
-| `created_at` | string | ISO 8601 timestamp of when it was posted |
+| `created_at` | string | ISO 8601 timestamp (e.g. `"2024-03-15T12:00:00Z"`) |
 
 ### Example
 
-The individual company endpoint `batches/summer-2009/airbnb.json` returns:
+`GET` https://devasheeshg.github.io/yc-api/batches/summer-2009/airbnb.json
 
 ```json
 {
@@ -609,53 +602,98 @@ The individual company endpoint `batches/summer-2009/airbnb.json` returns:
   "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/3e9a0092bee2ccf926e650e59c06503ec6b9ee65.png",
   "website": "http://airbnb.com",
   "all_locations": "San Francisco, CA, USA",
-  "long_description": "Founded in August of 2008 and based in San Francisco, California...",
+  "long_description": "Founded in August of 2008 and based in San Francisco, California, Airbnb is a trusted community marketplace for people to list, discover, and book unique accommodations around the world — online or from a mobile phone. Whether an apartment for a night, a castle for a week, or a villa for a month, Airbnb connects people to unique travel experiences, at any price point, in more than 33,000 cities and 192 countries. And with world-class customer service and a growing community of users, Airbnb is the easiest way for people to monetize their extra space and showcase it to an audience of millions.  \r\n\r\nNo global movement springs from individuals. It takes an entire team united behind something big. Together, we work hard, we laugh a lot, we brainstorm nonstop, we use hundreds of Post-Its a week, and we give the best high-fives in town. Headquartered in San Francisco, we have satellite offices in Dublin, London, Barcelona, Paris, Milan, Copenhagen, Berlin, Moscow, São Paolo, Sydney, and Singapore.",
   "one_liner": "Book accommodations around the world.",
   "team_size": 6132,
   "industry": "Consumer",
   "subindustry": "Consumer -> Travel, Leisure and Tourism",
   "launched_at": 1326790856,
-  "tags": ["Marketplace", "Travel"],
+  "tags": [
+    "Marketplace",
+    "Travel"
+  ],
   "tags_highlighted": [],
   "top_company": true,
   "isHiring": false,
   "nonprofit": false,
-  "batch": "Summer 2009",
+  "batch": "Winter 2009",
   "status": "Public",
-  "industries": ["Consumer", "Travel, Leisure and Tourism"],
-  "regions": ["United States of America", "America / Canada"],
+  "industries": [
+    "Consumer",
+    "Travel, Leisure and Tourism"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
   "stage": "Growth",
   "app_video_public": false,
   "demo_day_video_public": false,
   "app_answers": null,
   "question_answers": false,
   "url": "https://www.ycombinator.com/companies/airbnb",
-  "api": "https://devasheeshg.github.io/yc-api/batches/summer-2009/airbnb.json",
+  "api": "https://devasheeshg.github.io/yc-api/batches/winter-2009/airbnb.json",
   "year_founded": 2008,
   "city": "San Francisco",
   "country": "US",
   "linkedin_url": "https://www.linkedin.com/company/airbnb/",
   "twitter_url": "https://twitter.com/Airbnb",
-  "fb_url": null,
-  "cb_url": null,
+  "fb_url": "https://www.facebook.com/airbnb/",
+  "cb_url": "https://www.crunchbase.com/organization/airbnb",
   "github_url": null,
   "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/3e9a0092bee2ccf926e650e59c06503ec6b9ee65.png",
   "founders": [
     {
       "full_name": "Brian Chesky",
       "title": "Founder/CEO",
-      "founder_bio": "",
+      "founder_bio": "Brian Chesky is the co-founder,  Head of Community, and  CEO of Airbnb, which he started with Joe Gebbia and Nathan Blecharczyk in 2008. Brian sets the company’s strategy to connect people to unique travel experiences, and drives Airbnb’s mission to create a world where anyone can belong anywhere. Originally from New York, Brian graduated from the Rhode Island School of Design where he received a Bachelor of Fine Arts in Industrial Design.",
       "is_active": true,
-      "linkedin_url": "https://www.linkedin.com/in/brianchesky",
+      "linkedin_url": "https://www.linkedin.com/in/brianchesky/",
       "twitter_url": "https://twitter.com/bchesky"
+    },
+    {
+      "full_name": "Nathan Blecharczyk",
+      "title": "Founder/CTO",
+      "founder_bio": "Nathan Blecharczyk is the co-founder, Chief Strategy Officer, and Chairman of Airbnb China. Nathan plays a leading role in driving key strategic initiatives across the global business. Previously he oversaw the creation of Airbnb’s engineering, data science, and performance marketing teams. Nathan became an entrepreneur in his youth, running a business while he was in high school that sold to clients in more than 20 countries. He earned a degree in Computer Science from Harvard University.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/blecharczyk/",
+      "twitter_url": "https://twitter.com/nathanblec"
+    },
+    {
+      "full_name": "Joe Gebbia",
+      "title": "Founder/CPO",
+      "founder_bio": "Joe Gebbia is the co-founder of Airbnb which began in his San Francisco living room and spread to nearly 7M listings in 191+ countries, changing how people trust each other. Joe now holds a strategic advisory position and serves on the Board of Directors at Airbnb. His latest venture, Samara, also cemented in economic empowerment, housing resources, and design, produces fully customized, factory-made homes designed to create rental income, house family, and form new types of housing communities.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/jgebbia/",
+      "twitter_url": "https://x.com/jgebbia"
     }
   ],
   "jobs": [],
   "news": [
     {
-      "title": "Airbnb: 2023 CNBC Disruptor 50",
-      "url": "https://www.cnbc.com/2023/05/09/airbnb-disruptor-50.html",
+      "title": "Airbnb CEO Brian Chesky on taking it back to basics: ‘I can’t make products just for 41-year-old tech founders’ - The Verge",
+      "url": "https://www.theverge.com/2023/5/9/23716903/airbnb-ceo-brian-chesky-rooms-ai-travel-future-of-work-summer-2023",
       "date": "May 09, 2023"
+    },
+    {
+      "title": "Airbnb launches Airbnb Rooms listing category for budget travel",
+      "url": "https://www.usatoday.com/story/travel/news/2023/05/03/airbnb-rooms-listing-category-budget-travel/70178696007/",
+      "date": "May 03, 2023"
+    },
+    {
+      "title": "Brian Chesky Isn't Running Airbnb--He's 'Designing' It",
+      "url": "https://www.inc.com/magazine/202303/christine-lagorio-chafkin/brian-chesky-isnt-running-airbnb-hes-designing-it.html",
+      "date": "Mar 16, 2023"
+    },
+    {
+      "title": "Airbnb’s cofounder just donated $25M to get plastic out of the ocean",
+      "url": "https://fortune.com/2023/02/02/airbnb-joe-gebbia-donation-25-million-ocean-cleanup-great-pacific-garbage-patch",
+      "date": "Feb 02, 2023"
+    },
+    {
+      "title": "'Hocus Pocus' fans can now stay in the Sanderson Sisters' cottage : NPR",
+      "url": "https://www.npr.org/2022/10/04/1126605757/hocus-pocus-cottage-airbnb",
+      "date": "Oct 06, 2022"
     }
   ],
   "launches": []
