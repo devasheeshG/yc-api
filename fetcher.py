@@ -37,7 +37,7 @@ from typing import Any
 from urllib.parse import unquote, urlparse
 
 import aiosmtplib
-import dns.resolver
+import dns.asyncresolver
 import httpx
 
 # =============================================================================
@@ -457,13 +457,13 @@ def _extract_domain(url: str | None) -> str | None:
         return None
 
 
-def _get_mx_host(domain: str) -> str | None:
+async def _get_mx_host(domain: str) -> str | None:
     """
     Look up the highest-priority MX record for a domain.
     Returns the mail server hostname, or None if no MX records exist.
     """
     try:
-        records = dns.resolver.resolve(domain, "MX")
+        records = await dns.asyncresolver.resolve(domain, "MX")
         best = min(records, key=lambda r: r.preference)
         return str(best.exchange).rstrip(".")
     except Exception:
@@ -541,7 +541,7 @@ async def _discover_founder_email(
     """
     # Step 1: MX lookup (cached)
     if domain not in mx_cache:
-        mx_cache[domain] = _get_mx_host(domain)
+        mx_cache[domain] = await _get_mx_host(domain)
     mx_host = mx_cache[domain]
     if not mx_host:
         return None
