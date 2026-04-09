@@ -244,16 +244,25 @@ def _parse_inertia_props(page_html: str) -> dict | None:
         return None
 
 
+def _strip_s3_params(url: str | None) -> str | None:
+    """Remove AWS signed URL query parameters — the base S3 URL works without them."""
+    if not url:
+        return None
+    return url.split("?")[0]
+
+
 def _extract_founders(company_props: dict) -> list[dict]:
     """Extract active/inactive founders with their bios and social links."""
     return [
         {
+            "user_id": f.get("user_id"),
             "full_name": f.get("full_name"),
             "title": f.get("title"),
             "founder_bio": f.get("founder_bio"),
             "is_active": f.get("is_active"),
             "linkedin_url": f.get("linkedin_url"),
             "twitter_url": f.get("twitter_url"),
+            "avatar_thumb_url": _strip_s3_params(f.get("avatar_thumb_url")),
         }
         for f in company_props.get("founders", [])
     ]
@@ -303,6 +312,17 @@ def _extract_launches(props: dict) -> list[dict]:
     ]
 
 
+def _extract_partner(company: dict) -> dict | None:
+    """Extract the primary YC group partner."""
+    partner = company.get("primary_group_partner")
+    if not partner:
+        return None
+    return {
+        "name": partner.get("full_name"),
+        "url": partner.get("url"),
+    }
+
+
 def _build_enrichment(page_data: dict) -> dict:
     """Combine all detail-page extractions into a single dict for merging."""
     props = page_data.get("props", {})
@@ -317,9 +337,12 @@ def _build_enrichment(page_data: dict) -> dict:
         "twitter_url": company.get("twitter_url"),
         "fb_url": company.get("fb_url") or None,
         "cb_url": company.get("cb_url") or None,
-        "github_url": company.get("github_url"),
+        "github_url": company.get("github_url") or None,
         "logo_url": company.get("small_logo_url"),
+        "app_video_url": company.get("app_video_url"),
+        "dday_video_url": company.get("dday_video_url"),
         # Nested data
+        "primary_partner": _extract_partner(company),
         "founders": _extract_founders(company),
         "jobs": _extract_jobs(props),
         "news": _extract_news(props),

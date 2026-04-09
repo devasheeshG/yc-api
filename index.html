@@ -341,6 +341,9 @@
         <tr><td><code>cb_url</code></td><td><code>string|null</code></td><td>Crunchbase URL</td></tr>
         <tr><td><code>github_url</code></td><td><code>string|null</code></td><td>GitHub URL</td></tr>
         <tr><td><code>logo_url</code></td><td><code>string|null</code></td><td>Logo image URL</td></tr>
+        <tr><td><code>app_video_url</code></td><td><code>string|null</code></td><td>Application video URL</td></tr>
+        <tr><td><code>dday_video_url</code></td><td><code>string|null</code></td><td>Demo day video URL</td></tr>
+        <tr><td><code>primary_partner</code></td><td><code>partner|null</code></td><td>Assigned YC group partner</td></tr>
         <tr><td><code>founders</code></td><td><code>founder[]</code></td><td>List of founders</td></tr>
         <tr><td><code>jobs</code></td><td><code>job[]</code></td><td>Open job postings</td></tr>
         <tr><td><code>news</code></td><td><code>news[]</code></td><td>Press/news articles</td></tr>
@@ -350,16 +353,29 @@
   </div>
 
   <div class="schema-section">
+    <h3>partner object</h3>
+    <div class="schema-table"><table>
+      <thead><tr><th>Property</th><th>Type</th><th>Description</th></tr></thead>
+      <tbody>
+        <tr><td><code>name</code></td><td><code>string</code></td><td>Partner's full name</td></tr>
+        <tr><td><code>url</code></td><td><code>string</code></td><td>Profile page on ycombinator.com</td></tr>
+      </tbody>
+    </table></div>
+  </div>
+
+  <div class="schema-section">
     <h3>founder object</h3>
     <div class="schema-table"><table>
       <thead><tr><th>Property</th><th>Type</th><th>Description</th></tr></thead>
       <tbody>
+        <tr><td><code>user_id</code></td><td><code>number</code></td><td>YC internal user ID</td></tr>
         <tr><td><code>full_name</code></td><td><code>string</code></td><td>Full name</td></tr>
         <tr><td><code>title</code></td><td><code>string</code></td><td>Title (e.g. "Founder/CEO")</td></tr>
         <tr><td><code>founder_bio</code></td><td><code>string</code></td><td>Short bio</td></tr>
         <tr><td><code>is_active</code></td><td><code>boolean</code></td><td>Currently active</td></tr>
         <tr><td><code>linkedin_url</code></td><td><code>string|null</code></td><td>LinkedIn URL</td></tr>
         <tr><td><code>twitter_url</code></td><td><code>string|null</code></td><td>Twitter/X URL</td></tr>
+        <tr><td><code>avatar_thumb_url</code></td><td><code>string|null</code></td><td>Founder's avatar image URL</td></tr>
       </tbody>
     </table></div>
   </div>

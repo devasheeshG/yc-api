@@ -538,21 +538,33 @@ Each company object has the following properties:
 | `cb_url`                | string\|null | Crunchbase URL                                             |
 | `github_url`            | string\|null | GitHub URL                                                 |
 | `logo_url`              | string\|null | Logo image URL                                             |
+| `app_video_url`         | string\|null | Application video URL                                      |
+| `dday_video_url`        | string\|null | Demo day video URL                                         |
+| `primary_partner`       | partner\|null | Assigned YC group partner                                 |
 | `founders`              | founder[]  | List of founders                                             |
 | `jobs`                  | job[]      | List of open job postings                                    |
 | `news`                  | news[]     | List of press/news articles                                  |
 | `launches`              | launch[]   | List of Launch YC posts                                      |
 
+### `partner` object
+
+| Property | Type   | Description                                    |
+| -------- | ------ | ---------------------------------------------- |
+| `name`   | string | Partner's full name (e.g. `"Garry Tan"`)       |
+| `url`    | string | Profile page on ycombinator.com                |
+
 ### `founder` object
 
-| Property       | Type        | Description                           |
-| -------------- | ----------- | ------------------------------------- |
-| `full_name`    | string      | Founder's full name                   |
-| `title`        | string      | Title (e.g. `"Founder/CEO"`)         |
-| `founder_bio`  | string      | Short bio                             |
-| `is_active`    | boolean     | Whether the founder is currently active |
-| `linkedin_url` | string\|null | LinkedIn URL                         |
-| `twitter_url`  | string\|null | Twitter/X URL                        |
+| Property           | Type        | Description                           |
+| ------------------ | ----------- | ------------------------------------- |
+| `user_id`          | number      | YC internal user ID                   |
+| `full_name`        | string      | Founder's full name                   |
+| `title`            | string      | Title (e.g. `"Founder/CEO"`)         |
+| `founder_bio`      | string      | Short bio                             |
+| `is_active`        | boolean     | Whether the founder is currently active |
+| `linkedin_url`     | string\|null | LinkedIn URL                         |
+| `twitter_url`      | string\|null | Twitter/X URL                        |
+| `avatar_thumb_url` | string\|null | Founder's avatar image URL           |
 
 ### `job` object
 
@@ -592,7 +604,7 @@ Each company object has the following properties:
 
 ### Example
 
-`GET` https://devasheeshg.github.io/yc-api/batches/summer-2009/airbnb.json
+`GET` https://devasheeshg.github.io/yc-api/batches/winter-2009/airbnb.json
 
 ```json
 {
@@ -643,30 +655,42 @@ Each company object has the following properties:
   "cb_url": "https://www.crunchbase.com/organization/airbnb",
   "github_url": null,
   "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/3e9a0092bee2ccf926e650e59c06503ec6b9ee65.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "primary_partner": {
+    "name": "Garry Tan",
+    "url": "https://www.ycombinator.com/people/garry-tan"
+  },
   "founders": [
     {
+      "user_id": 21981,
       "full_name": "Brian Chesky",
       "title": "Founder/CEO",
       "founder_bio": "Brian Chesky is the co-founder,  Head of Community, and  CEO of Airbnb, which he started with Joe Gebbia and Nathan Blecharczyk in 2008. Brian sets the company’s strategy to connect people to unique travel experiences, and drives Airbnb’s mission to create a world where anyone can belong anywhere. Originally from New York, Brian graduated from the Rhode Island School of Design where he received a Bachelor of Fine Arts in Industrial Design.",
       "is_active": true,
       "linkedin_url": "https://www.linkedin.com/in/brianchesky/",
-      "twitter_url": "https://twitter.com/bchesky"
+      "twitter_url": "https://twitter.com/bchesky",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/7415ee0d3978ae738c766fc109863385303b066a.jpg"
     },
     {
+      "user_id": 21988,
       "full_name": "Nathan Blecharczyk",
       "title": "Founder/CTO",
       "founder_bio": "Nathan Blecharczyk is the co-founder, Chief Strategy Officer, and Chairman of Airbnb China. Nathan plays a leading role in driving key strategic initiatives across the global business. Previously he oversaw the creation of Airbnb’s engineering, data science, and performance marketing teams. Nathan became an entrepreneur in his youth, running a business while he was in high school that sold to clients in more than 20 countries. He earned a degree in Computer Science from Harvard University.",
       "is_active": true,
       "linkedin_url": "https://www.linkedin.com/in/blecharczyk/",
-      "twitter_url": "https://twitter.com/nathanblec"
+      "twitter_url": "https://twitter.com/nathanblec",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/43dd0e2c9396adccf8b4e456d806245942afc1ed.jpg"
     },
     {
+      "user_id": 21984,
       "full_name": "Joe Gebbia",
       "title": "Founder/CPO",
       "founder_bio": "Joe Gebbia is the co-founder of Airbnb which began in his San Francisco living room and spread to nearly 7M listings in 191+ countries, changing how people trust each other. Joe now holds a strategic advisory position and serves on the Board of Directors at Airbnb. His latest venture, Samara, also cemented in economic empowerment, housing resources, and design, produces fully customized, factory-made homes designed to create rental income, house family, and form new types of housing communities.",
       "is_active": true,
       "linkedin_url": "https://www.linkedin.com/in/jgebbia/",
-      "twitter_url": "https://x.com/jgebbia"
+      "twitter_url": "https://x.com/jgebbia",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/8edd4b693f91d2a5507247fbd23259dbe88d4dba.jpg"
     }
   ],
   "jobs": [],
