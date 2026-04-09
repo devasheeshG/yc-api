@@ -1,4 +1,4 @@
-name: Sync from Algolia index
+name: Sync YC Companies
 
 permissions:
   contents: write
@@ -12,26 +12,20 @@ on:
 jobs:
   sync:
     runs-on: ubuntu-latest
-    environment: actions-runner
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Setup Deno
-        uses: denoland/setup-deno@v2
+      - name: Setup Python + uv
+        uses: astral-sh/setup-uv@v5
         with:
-          deno-version: v2.x
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: uv sync
 
       - name: Run fetcher script
-        env:
-          ALGOLIA_APPLICATION_ID: ${{ secrets.ALGOLIA_APPLICATION_ID }}
-          ALGOLIA_API_KEY: ${{ secrets.ALGOLIA_API_KEY }}
-          ALGOLIA_BASE_URL: ${{ vars.ALGOLIA_BASE_URL }}
-          ALGOLIA_INDEX_NAME: ${{ vars.ALGOLIA_INDEX_NAME }}
-        run: deno run --allow-net --allow-read --allow-write --allow-env fetcher.ts
-
-      - name: Format README.md
-        run: deno fmt README.md
+        run: uv run python fetcher.py
 
       - name: Commit and push changes
         run: |
