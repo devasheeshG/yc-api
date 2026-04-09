@@ -183,7 +183,7 @@ async def fetch_all_companies(client: httpx.AsyncClient) -> List[Dict[str, Any]]
     base_params = _build_algolia_params(ALGOLIA_FACETS)
 
     # --- Step 1: discover batches via facets ---
-    print("Fetching Algolia facets...")
+    print("  Fetching Algolia facets...")
     resp = await client.post(
         url,
         params=auth_params,
@@ -232,7 +232,7 @@ async def fetch_all_companies(client: httpx.AsyncClient) -> List[Dict[str, Any]]
         c.pop("objectID", None)
 
     all_companies.sort(key=lambda c: c["id"])
-    print(f"Total from Algolia: {len(all_companies)}")
+    print(f"  Total from Algolia: {len(all_companies)}")
     return all_companies
 
 
@@ -401,7 +401,7 @@ async def enrich_all(
     companies: List[Dict[str, Any]],
 ) -> None:
     """Enrich all companies concurrently (bounded by CONCURRENCY)."""
-    print(f"\nEnriching {len(companies)} companies from detail pages...")
+    print(f"  Enriching {len(companies)} companies (concurrency={CONCURRENCY})...")
     sem = asyncio.Semaphore(CONCURRENCY)
     progress = {"done": 0, "total": len(companies)}
 
@@ -717,8 +717,7 @@ async def discover_emails(companies: List[Dict[str, Any]]) -> None:
         return
 
     unique_domains = list({d for _, d in work})
-    print(f"\nDiscovering emails for {len(work)} founders across "
-          f"{len(unique_domains)} domains...")
+    print(f"  {len(work)} founders across {len(unique_domains)} domains")
 
     # ------------------------------------------------------------------
     # 3a — Resolve MX for all unique domains concurrently
@@ -777,11 +776,22 @@ async def discover_emails(companies: List[Dict[str, Any]]) -> None:
                 mx_host, domains, domain_to_founders, progress, total,
             )
 
-    print(f"  Verifying emails ({len(shards)} shards, persistent connections)...")
+    print(f"  Verifying emails ({len(shards)} shards, max {MAX_SMTP_CONNECTIONS} connections)...")
     await asyncio.gather(*(
         _bounded_process(mx_host, domains)
         for mx_host, domains in shards
     ))
+
+    # --- Summary ---
+    total_founders = len(work)
+    emails_found = sum(
+        1
+        for company in companies
+        for f in company.get("founders", [])
+        if f.get("email")
+    )
+    print(f"  Done — {emails_found}/{total_founders} emails verified "
+          f"({100 * emails_found / total_founders:.1f}%)")
 
 
 # =============================================================================
@@ -1035,31 +1045,46 @@ def _update_meta_and_readme(results: List[Dict[str, Any]], meta: Dict[str, Any])
 async def main() -> None:
     t0 = time.monotonic()
 
+    # Phase 1: bulk-fetch from Algolia
+    print("\n[Phase 1/5] Fetching companies from Algolia...")
+    t1 = time.monotonic()
     async with httpx.AsyncClient(
         timeout=REQUEST_TIMEOUT, follow_redirects=True
     ) as client:
-        # Phase 1: bulk-fetch from Algolia
         companies = await fetch_all_companies(client)
 
         # Attach convenience links
         for c in companies:
             c["url"] = f"{YC_BASE_URL}/companies/{c['slug']}"
             c["api"] = f"{API_BASE_URL}/batches/{batch_slug(c.get('batch'))}/{c['slug']}.json"
+        print(f"  Phase 1 done in {time.monotonic() - t1:.1f}s")
 
         # Phase 2: enrich with detail-page data
+        print(f"\n[Phase 2/5] Enriching company detail pages...")
+        t2 = time.monotonic()
         await enrich_all(client, companies)
+        print(f"  Phase 2 done in {time.monotonic() - t2:.1f}s")
 
     # Phase 3: discover and verify founder emails via SMTP
+    print(f"\n[Phase 3/5] Discovering founder emails via SMTP...")
+    t3 = time.monotonic()
     await discover_emails(companies)
-
-    elapsed = time.monotonic() - t0
-    print(f"\nDone in {elapsed:.1f}s — {len(companies)} companies")
+    print(f"  Phase 3 done in {time.monotonic() - t3:.1f}s")
 
     # Phase 4: write output files
+    print(f"\n[Phase 4/5] Writing output files...")
+    t4 = time.monotonic()
     meta = _generate_outputs(companies)
+    print(f"  Phase 4 done in {time.monotonic() - t4:.1f}s")
 
     # Phase 5: conditionally update meta.json + README.md
+    print(f"\n[Phase 5/5] Updating meta.json + README.md...")
     _update_meta_and_readme(companies, meta)
+
+    elapsed = time.monotonic() - t0
+    print(f"\n{'='*50}")
+    print(f"All done in {elapsed:.1f}s — {len(companies)} companies")
+    print(f"{'='*50}")
 
 
 if __name__ == "__main__":
