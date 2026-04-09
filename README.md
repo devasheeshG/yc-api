@@ -735,3 +735,29 @@ Each company object has the following properties:
   "launches": []
 }
 ```
+## 🤝 Contributing
+
+Contributions are welcome! This project is open source under the [MIT License](LICENSE).
+
+### Help wanted: Improve email discovery rate
+
+The biggest open problem is **founder email discovery**. Currently only ~4% of founder emails can be verified via SMTP `RCPT TO`. The breakdown:
+
+| Category | % of founders | Why |
+|---|---|---|
+| **Catch-all domains** | ~17% | Mostly Google Workspace. These domains accept mail for *any* address, so we can't distinguish real from fake. |
+| **Not found (rejected)** | ~63% | The domain's mail server rejects all candidate patterns. Founders likely use custom aliases, personal email forwarding, or non-standard naming conventions. |
+| **No MX records** | ~12% | Company website domain has no mail server (dead sites, redirect-only domains, etc.). |
+| **Connection failures** | ~4% | Mail servers that refuse or timeout on our SMTP connections. |
+| **Verified** | ~4% | SMTP returns 250 for a candidate pattern on a non-catch-all domain. |
+
+#### What we currently try
+
+- 6 name-based patterns: `first@`, `first.last@`, `first_last@`, `firstlast@`, `flast@`, `f.last@`
+- 3-part name expansion (e.g. "Mary Jane Watson" → tries `mary.watson@`, `mary.jane@`, `maryjane.watson@`, etc.)
+- Mononym support (single-word names → `{name}@domain`)
+- LinkedIn/Twitter username as `{username}@domain`
+
+## 📄 License
+
+This project is licensed under the [MIT License](LICENSE).
