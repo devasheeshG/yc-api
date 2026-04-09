@@ -1,3 +1,13 @@
+<div align="center">
+
+# yc-api
+
+**Query every YC startup in one line of code.**
+
+A free, open JSON API over the entire Y Combinator Startup Directory — built for founders, indie hackers, and researchers.
+</div>
+
+---
 
 ## 💡 Use cases
 
@@ -19,8 +29,6 @@
 Both SDKs are fully typed, support async, and wrap every endpoint. See [Python SDK docs](sdks/python/) or [Node SDK docs](sdks/node/) for details.
 
 ---
-
-## 📊 Data
 
 <!--start generated readme-->
 
