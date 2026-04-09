@@ -87,9 +87,7 @@ export class YCClient {
 
   /** Fetch a single company by its batch and company slug. */
   async getCompany(batchSlug: string, companySlug: string): Promise<Company> {
-    return this.fetchJSON<Company>(
-      `batches/${batchSlug}/${companySlug}.json`,
-    );
+    return this.fetchJSON<Company>(`batches/${batchSlug}/${companySlug}.json`);
   }
 
   /** Fetch all companies in a batch (e.g. `'winter-2026'`). */
@@ -122,14 +120,10 @@ export class YCClient {
       companies = companies.filter((c) => c.batch === options.batch);
     }
     if (options.industry !== undefined) {
-      companies = companies.filter((c) =>
-        (c.industries ?? []).includes(options.industry!),
-      );
+      companies = companies.filter((c) => (c.industries ?? []).includes(options.industry!));
     }
     if (options.tag !== undefined) {
-      companies = companies.filter((c) =>
-        (c.tags ?? []).includes(options.tag!),
-      );
+      companies = companies.filter((c) => (c.tags ?? []).includes(options.tag!));
     }
     if (options.hiring !== undefined) {
       companies = companies.filter((c) => c.isHiring === options.hiring);

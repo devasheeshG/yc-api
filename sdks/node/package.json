@@ -9,7 +9,13 @@
     "url": "https://github.com/devasheeshG/yc-api",
     "directory": "sdks/node"
   },
-  "keywords": ["yc", "ycombinator", "api", "startups", "typescript"],
+  "keywords": [
+    "yc",
+    "ycombinator",
+    "api",
+    "startups",
+    "typescript"
+  ],
   "type": "module",
   "main": "./dist/index.cjs",
   "module": "./dist/index.js",
@@ -26,12 +32,17 @@
       }
     }
   },
-  "files": ["dist"],
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "build": "tsup",
-    "typecheck": "tsc --noEmit"
+    "typecheck": "tsc --noEmit",
+    "format": "prettier --write .",
+    "format:check": "prettier --check ."
   },
   "devDependencies": {
+    "prettier": "^3.3.0",
     "tsup": "^8.0.0",
     "typescript": "^5.4.0"
   },
