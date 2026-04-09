@@ -492,6 +492,34 @@ def _generate_candidates(first: str, last: str, domain: str) -> List[str]:
     ]
 
 
+def _extract_social_username(url: Optional[str]) -> Optional[str]:
+    """
+    Extract a username from a LinkedIn or Twitter/X URL.
+    e.g. 'https://linkedin.com/in/johndoe/' → 'johndoe'
+         'https://twitter.com/johndoe' → 'johndoe'
+    Returns None if the URL is missing or unparseable.
+    """
+    if not url:
+        return None
+    try:
+        parsed = urlparse(url)
+        host = (parsed.hostname or "").lower()
+        segments = [s for s in parsed.path.strip("/").split("/") if s]
+        if not segments:
+            return None
+        # LinkedIn: only accept /in/<username> paths
+        if "linkedin" in host:
+            if len(segments) >= 2 and segments[0] == "in":
+                return segments[1].lower()
+            return None
+        # Twitter/X: /<username> (skip status/list paths)
+        if len(segments) == 1:
+            return segments[0].lower()
+        return None
+    except Exception:
+        return None
+
+
 def _split_name(full_name: str) -> Optional[Tuple[str, ...]]:
     """
     Split a full name into name parts.
@@ -624,10 +652,21 @@ async def _process_mx_host(
                     # Also try {firstmiddle}.{last}@domain
                     combo = f"{first.lower()}{middle.lower()}.{last.lower()}@{domain}"
                     if combo not in seen:
+                        seen.add(combo)
                         candidates.append(combo)
                 else:
                     first, last = name_parts
                     candidates = _generate_candidates(first, last, domain)
+
+                # Append social-media usernames as extra candidates
+                seen_set = set(candidates)
+                for social_url in (founder.get("linkedin_url"), founder.get("twitter_url")):
+                    uname = _extract_social_username(social_url)
+                    if uname:
+                        social_email = f"{uname}@{domain}"
+                        if social_email not in seen_set:
+                            seen_set.add(social_email)
+                            candidates.append(social_email)
 
                 if is_catch_all:
                     # Can't verify on catch-all domains — skip
