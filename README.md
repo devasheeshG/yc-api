@@ -1,5 +1,7 @@
 <div align="center">
 
+<img src="logo.svg" alt="YC Logo" width="80" height="80">
+
 # yc-api
 
 **Query every YC startup in one line of code.**
