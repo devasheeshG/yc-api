@@ -8,6 +8,9 @@
         "**/Thumbs.db": true,
         "**/__pycache__": true,
         "**/.venv": true,
-        "**/.vscode": true
+        "**/.vscode": true,
+        "**/node_modules": true,
+        "**/dist": true,
+        "**/pnpm-lock.yaml": true
     }
 }
