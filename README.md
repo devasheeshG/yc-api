@@ -679,7 +679,7 @@ Every company object includes:
 | `one_liner`             | string     | One-line company description                                 |
 | `team_size`             | number\|null | Number of employees                                        |
 | `industry`              | enum       | `"B2B"` \| `"Consumer"` \| `"Education"` \| `"Fintech"` \| `"Government"` \| `"Healthcare"` \| `"Industrials"` \| `"Real Estate and Construction"` \| `"Unspecified"` |
-| `subindustry`           | string     | Subindustry (e.g. `"Consumer -> Travel, Leisure and Tourism"`) |
+| `subindustry`           | enum       | 59 fixed sub-industry categories (e.g. `"Consumer -> Travel, Leisure and Tourism"`, `"B2B -> Infrastructure"`) |
 | `launched_at`           | number     | Launch date as a Unix timestamp                              |
 | `tags`                  | string[]   | Company tags                                                 |
 | `tags_highlighted`      | string[]   | Highlighted tags                                             |
@@ -720,7 +720,7 @@ Every company object includes:
 | Property   | Type   | Description                              |
 | ---------- | ------ | ---------------------------------------- |
 | `question` | string | Application question                     |
-| `answer`   | string | Founder's answer                         |
+| `answer`   | string\|null | Founder's answer                    |
 
 ### `question_answer` object
 
@@ -747,7 +747,7 @@ Every company object includes:
 | `is_active`        | boolean     | Whether the founder is currently active |
 | `linkedin_url`     | string\|null | LinkedIn URL                         |
 | `x_url`            | string\|null | X (Twitter) URL                      |
-| `avatar_thumb_url` | string\|null | Founder's avatar image URL           |
+| `avatar_thumb_url` | string      | Founder's avatar image URL            |
 | `email`            | string\|null | SMTP-verified email address, or `null` if not found |
 
 > **Note:** Only SMTP-verified emails are included (~4.5% of founders). Email discovery generates common name patterns (e.g. `first@domain`, `first.last@domain`) and verifies each via SMTP `RCPT TO`. Catch-all domains and unverifiable patterns return `null`.
@@ -763,9 +763,9 @@ Every company object includes:
 | `type`         | enum        | `"Full-time"` \| `"Internship"` \| `"Contract"` \| `"Co-founder"` |
 | `role`         | enum        | `"Design"` \| `"Engineering"` \| `"Finance"` \| `"Legal"` \| `"Marketing"` \| `"Operations"` \| `"Product"` \| `"Recruiting & HR"` \| `"Sales"` \| `"Science"` \| `"Support"` |
 | `role_type`    | string\|null | Specific role type (`"Full stack"`, `"Backend"`, etc.) |
-| `salary_range` | string\|null | Salary range (e.g. `"$120K - $160K"`)            |
-| `equity_range` | string\|null | Equity range (e.g. `"1.00% - 3.00%"`)           |
-| `experience`   | string\|null | Required experience (e.g. `"1+ years"`)           |
+| `salary_range` | string      | Salary range (e.g. `"$120K - $160K"`, or `""` if unlisted) |
+| `equity_range` | string      | Equity range (e.g. `"1.00% - 3.00%"`, or `""` if unlisted) |
+| `experience`   | enum\|null  | `"1+ years"` \| `"3+ years"` \| `"6+ years"` \| `"11+ years"` \| `"Any (new grads ok)"` |
 | `visa`         | enum        | `"US citizen/visa only"` \| `"US citizenship/visa not required"` \| `"Will sponsor"` |
 | `skills`       | string[]    | Required skills                                   |
 

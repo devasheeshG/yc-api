@@ -48,6 +48,17 @@ All responses are fully typed with TypeScript interfaces:
 - `Partner` — assigned YC group partner
 - `Meta` — API index with counts and endpoint URLs
 
+### Enums
+
+- `CompanyStatus` — `Active`, `Inactive`, `Acquired`, `Public`
+- `CompanyStage` — `Early`, `Growth`
+- `CompanyIndustry` — 9 primary industries (`B2B`, `Consumer`, `Fintech`, etc.)
+- `CompanySubindustry` — 59 sub-industry categories (`B2B -> Infrastructure`, `Healthcare -> Diagnostics`, etc.)
+- `JobType` — `FullTime`, `Internship`, `Contract`, `CoFounder`
+- `JobRole` — 11 role categories (`Engineering`, `Design`, `Product`, etc.)
+- `JobVisa` — `USOnly`, `NotRequired`, `WillSponsor`
+- `JobExperience` — `OnePlus`, `ThreePlus`, `SixPlus`, `ElevenPlus`, `Any`
+
 ## License
 
 MIT

@@ -62,6 +62,17 @@ All responses are fully typed with [Pydantic](https://docs.pydantic.dev) models:
 - `Partner` — assigned YC group partner
 - `Meta` — API index with counts and endpoint URLs
 
+### Enums
+
+- `CompanyStatus` — `Active`, `Inactive`, `Acquired`, `Public`
+- `CompanyStage` — `Early`, `Growth`
+- `CompanyIndustry` — 9 primary industries (`B2B`, `Consumer`, `Fintech`, etc.)
+- `CompanySubindustry` — 59 sub-industry categories (`B2B -> Infrastructure`, `Healthcare -> Diagnostics`, etc.)
+- `JobType` — `Full-time`, `Internship`, `Contract`, `Co-founder`
+- `JobRole` — 11 role categories (`Engineering`, `Design`, `Product`, etc.)
+- `JobVisa` — `US citizen/visa only`, `US citizenship/visa not required`, `Will sponsor`
+- `JobExperience` — `1+ years`, `3+ years`, `6+ years`, `11+ years`, `Any (new grads ok)`
+
 ## License
 
 MIT
