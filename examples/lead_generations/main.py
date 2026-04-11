@@ -1,14 +1,22 @@
-from yc_api import YCClient, CompanyStatus
+import json
 
+import anthropic
+from yc_api import YCClient, Company, CompanyStatus
+
+from config import get_settings
 from logger import get_logger
 
+settings = get_settings()
 logger = get_logger()
 
+MODEL = "claude-sonnet-4-6"
+MAX_AGENT_TURNS = 50
+
 def main() -> None:
-    client = YCClient()
+    yc = YCClient()
 
     # Fetch all companies from the YC API
-    companies = client.get_all()
+    companies = yc.get_all()
     logger.info(f"Fetched {len(companies)} total companies")
 
     # Filter: keep only active companies
