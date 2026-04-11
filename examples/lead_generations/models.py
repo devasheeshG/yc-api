@@ -1,7 +1,60 @@
 from typing import List, Literal, Optional
 
 from pydantic import BaseModel, Field
+from yc_api import Company
 
+
+class AgentResult(BaseModel):
+    """Structured output from the lead research agent."""
+
+    qualified: bool
+    fit_score: Optional[Literal["HIGH", "MEDIUM", "LOW"]] = Field(
+        default=None,
+        description="Only for qualified leads: HIGH, MEDIUM, or LOW.",
+    )
+    reason: str = Field(
+        description="If qualified: fit rationale (2-3 sentences). If not qualified: disqualification reason.",
+    )
+
+    # Detailed data for qualified leads
+    qualified_lead_data: Optional[QualifiedLeadData] = Field(
+        default=None,
+        description="Detailed analysis and outreach content. Required when qualified=true, omit when qualified=false.",
+    )
+
+    @classmethod
+    def anthropic_json_schema(cls) -> dict:
+        """Return a resolved JSON schema compatible with Anthropic's output_config.
+
+        Pydantic's model_json_schema() generates schemas with $defs and $ref pointers
+        for nested models, but Anthropic's json_schema output format requires:
+            1. All references inlined (no $ref / $defs)
+            2. Every object type must have "additionalProperties": false
+
+        This method recursively resolves all $ref pointers by substituting the
+        referenced definition inline, strips the top level $defs block, and adds
+        additionalProperties: false to every object with properties.
+        """
+        schema = cls.model_json_schema()
+        defs = schema.get("$defs", {})
+
+        def _resolve(node):
+            if isinstance(node, dict):
+                # Replace $ref with the inlined definition
+                if "$ref" in node:
+                    ref_name = node["$ref"].split("/")[-1]
+                    return _resolve(defs[ref_name])
+                # Recurse into all values, dropping the now unnecessary $defs key
+                resolved = {k: _resolve(v) for k, v in node.items() if k != "$defs"}
+                # Anthropic requires additionalProperties: false on all object types
+                if resolved.get("type") == "object" and "properties" in resolved:
+                    resolved["additionalProperties"] = False
+                return resolved
+            if isinstance(node, list):
+                return [_resolve(item) for item in node]
+            return node
+
+        return _resolve(schema)
 
 
 class NotionLead(BaseModel):
@@ -70,3 +123,16 @@ class NotionLead(BaseModel):
             status=status,
         )
 
+    @classmethod
+    def from_agent_result(cls, result: AgentResult, company: Company) -> "NotionLead":
+        """Build a NotionLead from the agent result and the original Company object."""
+        return cls(
+            company_name=company.name,
+            batch=company.batch,
+            website_url=company.website,
+            yc_url=company.url,
+            qualified=result.qualified,
+            fit_score=result.fit_score,
+            reason=result.reason,
+            status="New" if result.qualified else None,
+        )

@@ -54,3 +54,94 @@ TOOL_DEFINITIONS: List[Dict[str, Any]] = [
         },
     },
 ]
+
+class RateLimiter:
+    """Token-bucket rate limiter for async calls (requests per minute)."""
+
+    def __init__(self, rpm: int):
+        self._interval = 60.0 / rpm if rpm > 0 else 0
+        self._lock = asyncio.Lock()
+        self._last_call = 0.0
+
+    async def acquire(self) -> None:
+        async with self._lock:
+            now = time.monotonic()
+            wait = self._interval - (now - self._last_call)
+            if wait > 0:
+                await asyncio.sleep(wait)
+            self._last_call = time.monotonic()
+
+
+search_limiter = RateLimiter(settings.BRAVE_SEARCH_RPM)
+scrape_limiter = RateLimiter(settings.WEBSITE_SCRAPE_RPM)
+
+async def web_search(query: str, http_client: httpx.AsyncClient) -> str:
+    """Search the web using Brave Search API."""
+    await search_limiter.acquire()
+
+    resp = await http_client.get(
+        "https://api.search.brave.com/res/v1/web/search",
+        params={"q": query, "count": settings.BRAVE_SEARCH_MAX_RESULTS},
+        headers={
+            "Accept": "application/json",
+            "Accept-Encoding": "gzip",
+            "X-Subscription-Token": settings.BRAVE_SEARCH_API_KEY,
+        },
+        timeout=15,
+    )
+    resp.raise_for_status()
+    data = resp.json()
+
+    results = data["web"]["results"]
+    if not results:
+        return "No results found."
+
+    lines = []
+    for i, r in enumerate(results, 1):
+        lines.append(f"{i}. [{r['title']}]({r['url']})\n   {r['description']}")
+
+    return "\n\n".join(lines)
+
+async def scrape_url(url: str, http_client: httpx.AsyncClient) -> str:
+    """Fetch a URL and return its content as clean markdown."""
+    await scrape_limiter.acquire()
+
+    try:
+        resp = await http_client.get(
+            url,
+            headers={"User-Agent": USER_AGENT},
+            timeout=20,
+            follow_redirects=True,
+        )
+        resp.raise_for_status()
+    except httpx.HTTPError as e:
+        return f"Error fetching {url}: {e}"
+
+    content_type = resp.headers["content-type"]
+    if not content_type.startswith(("text/html", "application/xhtml")):
+        return f"Non-HTML content type: {content_type}. Cannot parse."
+
+    # convert() is sync Rust FFI — fast, no executor needed
+    md = (convert(resp.text)["content"] or "").strip()
+
+    if len(md) > settings.WEBSITE_SCRAPE_MAX_LENGTH:
+        md = md[: settings.WEBSITE_SCRAPE_MAX_LENGTH] + "\n\n... [content truncated]"
+
+    return md if md else "Page returned no readable content."
+
+async def handle_tool_call(
+name: str, input_data: Dict[str, Any], http_client: httpx.AsyncClient
+) -> str:
+    """Route a tool call to the right handler and return the result string."""
+    logger.info(f"Tool call: {name}({input_data})")
+
+    try:
+        if name == "web_search":
+            return await web_search(input_data["query"], http_client)
+        elif name == "scrape_url":
+            return await scrape_url(input_data["url"], http_client)
+        else:
+            return f"Unknown tool: {name}"
+    except Exception as e:
+        logger.error(f"Tool error: {name} — {e}")
+        return f"Error executing {name}: {e}"
