@@ -9,3 +9,6 @@ dependencies = [
     "httpx>=0.28",
 ]
 
+[tool.uv.workspace]
+members = []
+

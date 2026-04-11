@@ -2,6 +2,7 @@
 
 from .client import YCClient
 from .models import (
+    AppAnswer,
     Company,
     Founder,
     Job,
@@ -10,9 +11,11 @@ from .models import (
     MetaEntry,
     News,
     Partner,
+    QuestionAnswer,
 )
 
 __all__ = [
+    "AppAnswer",
     "YCClient",
     "Company",
     "Founder",
@@ -22,4 +25,5 @@ __all__ = [
     "MetaEntry",
     "News",
     "Partner",
+    "QuestionAnswer",
 ]

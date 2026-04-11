@@ -347,6 +347,35 @@ def _extract_partner(company: Dict[str, Any]) -> Optional[Dict[str, Any]]:
     }
 
 
+def _extract_app_answers(company: Dict[str, Any]) -> Optional[List[Dict[str, Any]]]:
+    """Extract application answers if public, otherwise return None."""
+    answers = company.get("app_answers", [])
+    if not answers:
+        return None
+    return [
+        {
+            "question": a.get("question"),
+            "answer": a.get("answer"),
+        }
+        for a in answers
+        if a.get("answer_public")
+    ] or None
+
+
+def _extract_question_answers(company: Dict[str, Any]) -> Optional[List[Dict[str, Any]]]:
+    """Extract free-response question answers if available, otherwise return None."""
+    answers = company.get("free_response_question_answers", [])
+    if not answers:
+        return None
+    return [
+        {
+            "question": a.get("question"),
+            "answer": a.get("answer"),
+        }
+        for a in answers
+    ] or None
+
+
 def _build_enrichment(page_data: Dict[str, Any]) -> Dict[str, Any]:
     """Combine all detail-page extractions into a single dict for merging."""
     props = page_data.get("props", {})
@@ -365,6 +394,9 @@ def _build_enrichment(page_data: Dict[str, Any]) -> Dict[str, Any]:
         "logo_url": company.get("small_logo_url"),
         "app_video_url": company.get("app_video_url"),
         "dday_video_url": company.get("dday_video_url"),
+        # Application answers (replace boolean flags with actual content)
+        "app_answers": _extract_app_answers(company),
+        "question_answers": _extract_question_answers(company),
         # Nested data
         "company_photos": [
             _strip_s3_params(p.get("url"))

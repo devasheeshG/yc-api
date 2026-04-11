@@ -2,7 +2,7 @@
 
 from __future__ import annotations
 
-from typing import Any, Dict, List, Optional
+from typing import Dict, List, Optional
 
 from pydantic import BaseModel
 
@@ -43,6 +43,20 @@ class Job(BaseModel):
     experience: Optional[str] = None
     visa: Optional[str] = None
     skills: List[str] = []
+
+
+class AppAnswer(BaseModel):
+    """A single application answer."""
+
+    question: Optional[str] = None
+    answer: Optional[str] = None
+
+
+class QuestionAnswer(BaseModel):
+    """A single free-response question answer."""
+
+    question: Optional[str] = None
+    answer: Optional[str] = None
 
 
 class News(BaseModel):
@@ -94,8 +108,8 @@ class Company(BaseModel):
     stage: Optional[str] = None
     app_video_public: Optional[bool] = None
     demo_day_video_public: Optional[bool] = None
-    app_answers: Optional[Dict[str, Any]] = None
-    question_answers: Optional[bool] = None
+    app_answers: Optional[List[AppAnswer]] = None
+    question_answers: Optional[List[QuestionAnswer]] = None
     url: Optional[str] = None
     api: Optional[str] = None
 

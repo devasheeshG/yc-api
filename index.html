@@ -308,17 +308,17 @@
         <tr><td><code>slug</code></td><td><code>string</code></td><td>URL-friendly slug</td></tr>
         <tr><td><code>former_names</code></td><td><code>string[]</code></td><td>Previous names</td></tr>
         <tr><td><code>small_logo_thumb_url</code></td><td><code>string</code></td><td>Square thumbnail logo URL</td></tr>
-        <tr><td><code>website</code></td><td><code>string</code></td><td>Company website</td></tr>
+        <tr><td><code>website</code></td><td><code>string|null</code></td><td>Company website</td></tr>
         <tr><td><code>all_locations</code></td><td><code>string</code></td><td>Locations separated by semicolons</td></tr>
-        <tr><td><code>long_description</code></td><td><code>string</code></td><td>Full description</td></tr>
+        <tr><td><code>long_description</code></td><td><code>string|null</code></td><td>Full description</td></tr>
         <tr><td><code>one_liner</code></td><td><code>string</code></td><td>One-line description</td></tr>
-        <tr><td><code>team_size</code></td><td><code>number</code></td><td>Number of employees</td></tr>
+        <tr><td><code>team_size</code></td><td><code>number|null</code></td><td>Number of employees</td></tr>
         <tr><td><code>industry</code></td><td><code>string</code></td><td>Primary industry</td></tr>
         <tr><td><code>subindustry</code></td><td><code>string</code></td><td>Subindustry</td></tr>
         <tr><td><code>launched_at</code></td><td><code>number</code></td><td>Launch date (Unix timestamp)</td></tr>
         <tr><td><code>tags</code></td><td><code>string[]</code></td><td>Company tags</td></tr>
         <tr><td><code>tags_highlighted</code></td><td><code>string[]</code></td><td>Highlighted tags</td></tr>
-        <tr><td><code>top_company</code></td><td><code>boolean</code></td><td>YC top company</td></tr>
+        <tr><td><code>top_company</code></td><td><code>boolean|null</code></td><td>YC top company</td></tr>
         <tr><td><code>isHiring</code></td><td><code>boolean</code></td><td>Currently hiring</td></tr>
         <tr><td><code>nonprofit</code></td><td><code>boolean</code></td><td>Is a nonprofit</td></tr>
         <tr><td><code>batch</code></td><td><code>string</code></td><td>YC batch (e.g. "Winter 2026")</td></tr>
@@ -328,8 +328,8 @@
         <tr><td><code>stage</code></td><td><code>string</code></td><td>Company stage</td></tr>
         <tr><td><code>app_video_public</code></td><td><code>boolean</code></td><td>Application video is public</td></tr>
         <tr><td><code>demo_day_video_public</code></td><td><code>boolean</code></td><td>Demo day video is public</td></tr>
-        <tr><td><code>app_answers</code></td><td><code>object|null</code></td><td>Application answers, if public</td></tr>
-        <tr><td><code>question_answers</code></td><td><code>boolean</code></td><td>Q&amp;A answers are public</td></tr>
+        <tr><td><code>app_answers</code></td><td><code>app_answer[]|null</code></td><td>Application Q&amp;A, if public</td></tr>
+        <tr><td><code>question_answers</code></td><td><code>question_answer[]|null</code></td><td>Free-response Q&amp;A, if public</td></tr>
         <tr><td><code>url</code></td><td><code>string</code></td><td>Page on ycombinator.com</td></tr>
         <tr><td><code>api</code></td><td><code>string</code></td><td>This API's endpoint for the company</td></tr>
         <tr><td><code>year_founded</code></td><td><code>number|null</code></td><td>Year founded</td></tr>
@@ -354,6 +354,28 @@
   </div>
 
   <div class="schema-section">
+    <h3>app_answer object</h3>
+    <div class="schema-table"><table>
+      <thead><tr><th>Property</th><th>Type</th><th>Description</th></tr></thead>
+      <tbody>
+        <tr><td><code>question</code></td><td><code>string</code></td><td>Application question</td></tr>
+        <tr><td><code>answer</code></td><td><code>string</code></td><td>Founder's answer</td></tr>
+      </tbody>
+    </table></div>
+  </div>
+
+  <div class="schema-section">
+    <h3>question_answer object</h3>
+    <div class="schema-table"><table>
+      <thead><tr><th>Property</th><th>Type</th><th>Description</th></tr></thead>
+      <tbody>
+        <tr><td><code>question</code></td><td><code>string</code></td><td>Free-response question</td></tr>
+        <tr><td><code>answer</code></td><td><code>string</code></td><td>Founder's answer</td></tr>
+      </tbody>
+    </table></div>
+  </div>
+
+  <div class="schema-section">
     <h3>partner object</h3>
     <div class="schema-table"><table>
       <thead><tr><th>Property</th><th>Type</th><th>Description</th></tr></thead>
@@ -372,7 +394,7 @@
         <tr><td><code>user_id</code></td><td><code>number</code></td><td>YC internal user ID</td></tr>
         <tr><td><code>full_name</code></td><td><code>string</code></td><td>Full name</td></tr>
         <tr><td><code>title</code></td><td><code>string</code></td><td>Title (e.g. "Founder/CEO")</td></tr>
-        <tr><td><code>founder_bio</code></td><td><code>string</code></td><td>Short bio</td></tr>
+        <tr><td><code>founder_bio</code></td><td><code>string|null</code></td><td>Short bio</td></tr>
         <tr><td><code>is_active</code></td><td><code>boolean</code></td><td>Currently active</td></tr>
         <tr><td><code>linkedin_url</code></td><td><code>string|null</code></td><td>LinkedIn URL</td></tr>
         <tr><td><code>x_url</code></td><td><code>string|null</code></td><td>X (Twitter) URL</td></tr>
@@ -393,10 +415,10 @@
         <tr><td><code>location</code></td><td><code>string</code></td><td>Job location</td></tr>
         <tr><td><code>type</code></td><td><code>string</code></td><td>Employment type</td></tr>
         <tr><td><code>role</code></td><td><code>string</code></td><td>Role category</td></tr>
-        <tr><td><code>role_type</code></td><td><code>string</code></td><td>Specific role type</td></tr>
+        <tr><td><code>role_type</code></td><td><code>string|null</code></td><td>Specific role type</td></tr>
         <tr><td><code>salary_range</code></td><td><code>string|null</code></td><td>Salary range</td></tr>
         <tr><td><code>equity_range</code></td><td><code>string|null</code></td><td>Equity range</td></tr>
-        <tr><td><code>experience</code></td><td><code>string</code></td><td>Required experience</td></tr>
+        <tr><td><code>experience</code></td><td><code>string|null</code></td><td>Required experience</td></tr>
         <tr><td><code>visa</code></td><td><code>string</code></td><td>Visa sponsorship status</td></tr>
         <tr><td><code>skills</code></td><td><code>string[]</code></td><td>Required skills</td></tr>
       </tbody>

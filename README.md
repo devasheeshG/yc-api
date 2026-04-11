@@ -7,9 +7,147 @@
 **Query every YC startup in one line of code.**
 
 A free, open JSON API over the entire Y Combinator Startup Directory — built for founders, indie hackers, and researchers.
+
+[![GitHub stars](https://img.shields.io/github/stars/devasheeshG/yc-api?style=flat)](https://github.com/devasheeshG/yc-api/stargazers)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![Updated daily](https://img.shields.io/badge/updated-daily-FF6600)](https://devasheeshg.github.io/yc-api/meta.json)
+[![Python SDK](https://img.shields.io/pypi/v/yc-api?label=pip&color=blue)](https://pypi.org/project/yc-api/)
+[![npm](https://img.shields.io/npm/v/yc-api?label=npm&color=blue)](https://www.npmjs.com/package/yc-api)
+
+[Quickstart](#-quickstart) · [Recipes](#-recipes) · [SDKs](#-sdks) · [Schema](#-schema) · [Contributing](#-contributing)
+
 </div>
 
 ---
+
+## Why this exists
+
+YC data is scattered — a clunky directory, huge JSON dumps, random scrapers. If you want to answer "which AI startups from the last 3 batches are hiring?" you're stuck writing a scraper from scratch every time.
+
+**yc-api** fixes that. It's a clean, static JSON API served from GitHub Pages — no auth, no rate limits, no API keys. Auto-updated daily. Every company includes founders (with SMTP-verified emails), open jobs, press, Launch YC posts, social links, and 50+ fields of metadata scraped directly from ycombinator.com.
+
+**5,800+ companies · 48 batches · 59 industries · 331 tags · Updated daily**
+
+## ⚡ Quickstart
+
+### curl
+
+```bash
+# Get all YC companies currently hiring
+curl -s https://devasheeshg.github.io/yc-api/companies/hiring.json | python3 -m json.tool | head -50
+```
+
+### Python
+
+```bash
+pip install yc-api
+```
+
+```python
+from yc_api import YCClient
+
+client = YCClient()
+
+# All AI companies that are hiring
+for company in client.search(tag="AI", hiring=True):
+    print(f"{company.name} ({company.batch}) — {company.one_liner}")
+```
+
+### TypeScript / JavaScript
+
+```bash
+npm install yc-api
+```
+
+```ts
+import { YCClient } from "yc-api";
+
+const client = new YCClient();
+const hiring = await client.search({ tag: "AI", hiring: true });
+hiring.forEach((c) => console.log(`${c.name} (${c.batch}) — ${c.one_liner}`));
+```
+
+### Raw JSON (no SDK needed)
+
+Every endpoint is a static `.json` file — just fetch it:
+
+```
+https://devasheeshg.github.io/yc-api/companies/all.json     # every company
+https://devasheeshg.github.io/yc-api/companies/hiring.json  # currently hiring
+https://devasheeshg.github.io/yc-api/companies/top.json     # top companies
+https://devasheeshg.github.io/yc-api/batches/winter-2026.json  # filter by batch
+https://devasheeshg.github.io/yc-api/tags/ai.json           # filter by tag
+https://devasheeshg.github.io/yc-api/industries/fintech.json # filter by industry
+```
+
+## 🧑‍🍳 Recipes
+
+### Find AI startups from the last 3 batches that are hiring
+
+```python
+from yc_api import YCClient
+
+client = YCClient()
+recent_ai = [
+    c for c in client.search(tag="AI", hiring=True)
+    if c.batch in ("Winter 2026", "Spring 2026", "Fall 2025")
+]
+print(f"{len(recent_ai)} AI startups hiring from last 3 batches")
+for c in recent_ai[:10]:
+    print(f"  {c.name} — {c.one_liner}")
+```
+
+### Build a lead list with founder emails
+
+```python
+from yc_api import YCClient
+
+client = YCClient()
+for company in client.search(tag="Developer Tools", hiring=True):
+    for founder in company.founders:
+        if founder.email:
+            print(f"{founder.full_name},{founder.email},{company.name},{company.website}")
+```
+
+### Get all open engineering jobs with visa sponsorship
+
+```python
+from yc_api import YCClient
+
+client = YCClient()
+for company in client.get_hiring():
+    for job in company.jobs:
+        if job.role == "Engineering" and "sponsor" in (job.visa or "").lower():
+            salary = job.salary_range or "Not listed"
+            print(f"{company.name} — {job.title} ({salary})")
+```
+
+### Map YC's top companies by industry
+
+```python
+from collections import Counter
+from yc_api import YCClient
+
+client = YCClient()
+industries = Counter(c.industry for c in client.get_top())
+for industry, count in industries.most_common(10):
+    print(f"  {industry}: {count}")
+```
+
+### Find startups with Launch YC posts sorted by upvotes
+
+```python
+from yc_api import YCClient
+
+client = YCClient()
+launched = []
+for company in client.get_all():
+    for launch in company.launches:
+        launched.append((launch.votes, company.name, launch.title, launch.url))
+
+for votes, name, title, url in sorted(launched, reverse=True)[:20]:
+    print(f"  🔼 {votes:>4}  {name} — {title}")
+```
 
 ## 💡 Use cases
 
@@ -535,17 +673,17 @@ Every company object includes:
 | `slug`                  | string     | URL-friendly slug (e.g. `"airbnb"`)                          |
 | `former_names`          | string[]   | Previous names, if the company was renamed                   |
 | `small_logo_thumb_url`  | string     | Square thumbnail logo URL                                    |
-| `website`               | string     | Company website URL                                          |
+| `website`               | string\|null | Company website URL                                        |
 | `all_locations`         | string     | Locations separated by semicolons (e.g. `"San Francisco, CA, USA; New York, NY, USA"`) |
-| `long_description`      | string     | Full company description                                     |
+| `long_description`      | string\|null | Full company description                                   |
 | `one_liner`             | string     | One-line company description                                 |
-| `team_size`             | number     | Number of employees                                          |
+| `team_size`             | number\|null | Number of employees                                        |
 | `industry`              | string     | Primary industry                                             |
 | `subindustry`           | string     | Subindustry (e.g. `"Consumer -> Travel, Leisure and Tourism"`) |
 | `launched_at`           | number     | Launch date as a Unix timestamp                              |
 | `tags`                  | string[]   | Company tags                                                 |
 | `tags_highlighted`      | string[]   | Highlighted tags                                             |
-| `top_company`           | boolean    | Whether this is a YC top company                             |
+| `top_company`           | boolean\|null | Whether this is a YC top company                           |
 | `isHiring`              | boolean    | Whether the company is currently hiring                      |
 | `nonprofit`             | boolean    | Whether the company is a nonprofit                           |
 | `batch`                 | string     | YC batch (e.g. `"Winter 2026"`)                              |
@@ -555,8 +693,8 @@ Every company object includes:
 | `stage`                 | string     | Company stage (`"Early"`, `"Growth"`, etc.)                  |
 | `app_video_public`      | boolean    | Whether the application video is public                      |
 | `demo_day_video_public` | boolean    | Whether the demo day video is public                         |
-| `app_answers`           | object\|null | Application answers, if public                             |
-| `question_answers`      | boolean    | Whether Q&A answers are public                               |
+| `app_answers`           | app_answer[]\|null | Application Q&A, if public                            |
+| `question_answers`      | question_answer[]\|null | Free-response Q&A, if public                     |
 | `url`                   | string     | Company page on ycombinator.com                              |
 | `api`                   | string     | This API's endpoint for the company                          |
 | `year_founded`          | number\|null | Year the company was founded                               |
@@ -577,6 +715,20 @@ Every company object includes:
 | `news`                  | news[]     | List of press/news articles                                  |
 | `launches`              | launch[]   | List of Launch YC posts                                      |
 
+### `app_answer` object
+
+| Property   | Type   | Description                              |
+| ---------- | ------ | ---------------------------------------- |
+| `question` | string | Application question                     |
+| `answer`   | string | Founder's answer                         |
+
+### `question_answer` object
+
+| Property   | Type   | Description                              |
+| ---------- | ------ | ---------------------------------------- |
+| `question` | string | Free-response question                   |
+| `answer`   | string | Founder's answer                         |
+
 ### `partner` object
 
 | Property | Type   | Description                                    |
@@ -591,7 +743,7 @@ Every company object includes:
 | `user_id`          | number      | YC internal user ID                   |
 | `full_name`        | string      | Founder's full name                   |
 | `title`            | string      | Title (e.g. `"Founder/CEO"`)         |
-| `founder_bio`      | string      | Short bio                             |
+| `founder_bio`      | string\|null | Short bio                            |
 | `is_active`        | boolean     | Whether the founder is currently active |
 | `linkedin_url`     | string\|null | LinkedIn URL                         |
 | `x_url`            | string\|null | X (Twitter) URL                      |
@@ -610,10 +762,10 @@ Every company object includes:
 | `location`     | string      | Job location                                      |
 | `type`         | string      | Employment type (`"Full-time"`, `"Part-time"`, etc.) |
 | `role`         | string      | Role category (`"Engineering"`, `"Design"`, etc.) |
-| `role_type`    | string      | Specific role type (`"Full stack"`, `"Backend"`, etc.) |
+| `role_type`    | string\|null | Specific role type (`"Full stack"`, `"Backend"`, etc.) |
 | `salary_range` | string\|null | Salary range (e.g. `"$120K - $160K"`)            |
 | `equity_range` | string\|null | Equity range (e.g. `"1.00% - 3.00%"`)           |
-| `experience`   | string      | Required experience (e.g. `"1+ years"`)           |
+| `experience`   | string\|null | Required experience (e.g. `"1+ years"`)           |
 | `visa`         | string      | Visa sponsorship status                           |
 | `skills`       | string[]    | Required skills                                   |
 

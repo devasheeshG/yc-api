@@ -1,0 +1,15 @@
+[project]
+name = "lead-generations"
+version = "0.1.0"
+description = "AI-powered lead generation pipeline using YC startup directory data"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "anthropic>=0.94.0",
+    "httpx>=0.28.1",
+    "notion-client>=3.0.0",
+    "pydantic>=2.12.5",
+    "pydantic-settings>=2.13.1",
+    "python-dotenv>=1.2.2",
+    "yc-api>=1.0.0",
+]

@@ -41,6 +41,18 @@ export interface News {
   date: string | null;
 }
 
+/** A single application answer. */
+export interface AppAnswer {
+  question: string | null;
+  answer: string | null;
+}
+
+/** A single free-response question answer. */
+export interface QuestionAnswer {
+  question: string | null;
+  answer: string | null;
+}
+
 /** Launch YC post. */
 export interface Launch {
   id: number | null;
@@ -80,8 +92,8 @@ export interface Company {
   stage: string | null;
   app_video_public: boolean | null;
   demo_day_video_public: boolean | null;
-  app_answers: Record<string, unknown> | null;
-  question_answers: boolean | null;
+  app_answers: AppAnswer[] | null;
+  question_answers: QuestionAnswer[] | null;
   url: string | null;
   api: string | null;
 

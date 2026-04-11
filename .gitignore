@@ -1,8 +1,11 @@
 # Python
-__pycache__/
-.venv/
+**/__pycache__/
+**/.venv/
 
 # SDKs
 sdks/node/node_modules
 sdks/node/dist
 sdks/python/dist
+
+# Env files
+**/.env
