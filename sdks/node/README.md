@@ -50,14 +50,126 @@ All responses are fully typed with TypeScript interfaces:
 
 ### Enums
 
-- `CompanyStatus` — `Active`, `Inactive`, `Acquired`, `Public`
-- `CompanyStage` — `Early`, `Growth`
-- `CompanyIndustry` — 9 primary industries (`B2B`, `Consumer`, `Fintech`, etc.)
-- `CompanySubindustry` — 59 sub-industry categories (`B2B -> Infrastructure`, `Healthcare -> Diagnostics`, etc.)
-- `JobType` — `FullTime`, `Internship`, `Contract`, `CoFounder`
-- `JobRole` — 11 role categories (`Engineering`, `Design`, `Product`, etc.)
-- `JobVisa` — `USOnly`, `NotRequired`, `WillSponsor`
-- `JobExperience` — `OnePlus`, `ThreePlus`, `SixPlus`, `ElevenPlus`, `Any`
+#### `CompanyStatus`
+
+- `Active`
+- `Inactive`
+- `Acquired`
+- `Public`
+
+#### `CompanyStage`
+
+- `Early`
+- `Growth`
+
+#### `CompanyIndustry`
+
+- `B2B`
+- `Consumer`
+- `Education`
+- `Fintech`
+- `Government`
+- `Healthcare`
+- `Industrials`
+- `RealEstateAndConstruction`
+- `Unspecified`
+
+#### `CompanySubindustry`
+
+- `B2B`
+- `B2B_Analytics`
+- `B2B_EngineeringProductAndDesign`
+- `B2B_FinanceAndAccounting`
+- `B2B_HumanResources`
+- `B2B_Infrastructure`
+- `B2B_Legal`
+- `B2B_Marketing`
+- `B2B_OfficeManagement`
+- `B2B_Operations`
+- `B2B_Productivity`
+- `B2B_RecruitingAndTalent`
+- `B2B_Retail`
+- `B2B_Sales`
+- `B2B_Security`
+- `B2B_SupplyChainAndLogistics`
+- `Consumer`
+- `Consumer_ApparelAndCosmetics`
+- `Consumer_ConsumerElectronics`
+- `Consumer_Content`
+- `Consumer_FoodAndBeverage`
+- `Consumer_Gaming`
+- `Consumer_HomeAndPersonal`
+- `Consumer_JobAndCareerServices`
+- `Consumer_Social`
+- `Consumer_TransportationServices`
+- `Consumer_TravelLeisureAndTourism`
+- `Consumer_VirtualAndAugmentedReality`
+- `Education`
+- `Fintech`
+- `Fintech_AssetManagement`
+- `Fintech_BankingAndExchange`
+- `Fintech_ConsumerFinance`
+- `Fintech_CreditAndLending`
+- `Fintech_Insurance`
+- `Fintech_Payments`
+- `Government`
+- `Healthcare`
+- `Healthcare_ConsumerHealthAndWellness`
+- `Healthcare_Diagnostics`
+- `Healthcare_DrugDiscoveryAndDelivery`
+- `Healthcare_HealthcareIT`
+- `Healthcare_HealthcareServices`
+- `Healthcare_IndustrialBio`
+- `Healthcare_MedicalDevices`
+- `Healthcare_Therapeutics`
+- `Industrials`
+- `Industrials_Agriculture`
+- `Industrials_Automotive`
+- `Industrials_AviationAndSpace`
+- `Industrials_Climate`
+- `Industrials_Defense`
+- `Industrials_Drones`
+- `Industrials_Energy`
+- `Industrials_ManufacturingAndRobotics`
+- `RealEstateAndConstruction`
+- `RealEstateAndConstruction_Construction`
+- `RealEstateAndConstruction_HousingAndRealEstate`
+- `Unspecified`
+
+#### `JobType`
+
+- `FullTime`
+- `Internship`
+- `Contract`
+- `CoFounder`
+
+#### `JobRole`
+
+- `Design`
+- `Engineering`
+- `Finance`
+- `Legal`
+- `Marketing`
+- `Operations`
+- `Product`
+- `RecruitingHR`
+- `Sales`
+- `Science`
+- `Support`
+
+#### `JobVisa`
+
+- `USOnly`
+- `NotRequired`
+- `WillSponsor`
+
+#### `JobExperience`
+
+- `OnePlus`
+- `ThreePlus`
+- `SixPlus`
+- `ElevenPlus`
+- `Any`
 
 ## License
 

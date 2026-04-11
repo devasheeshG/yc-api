@@ -27,6 +27,9 @@ dependencies = [
     "pydantic>=2.0",
 ]
 
+[dependency-groups]
+test = ["pytest>=8.0"]
+
 [project.urls]
 Homepage = "https://devasheeshg.github.io/yc-api"
 Repository = "https://github.com/devasheeshG/yc-api"

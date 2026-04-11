@@ -38,13 +38,15 @@
     "scripts": {
         "build": "tsup",
         "typecheck": "tsc --noEmit",
+        "test": "vitest run",
         "format": "prettier --write .",
         "format:check": "prettier --check ."
     },
     "devDependencies": {
         "prettier": "^3.3.0",
         "tsup": "^8.0.0",
-        "typescript": "^5.4.0"
+        "typescript": "^5.4.0",
+        "vitest": "^3.0.0"
     },
     "engines": {
         "node": ">=18"

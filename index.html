@@ -465,7 +465,7 @@
                             </tr>
                             <tr>
                                 <td><code>all_locations</code></td>
-                                <td><code>string</code></td>
+                                <td><code>string|null</code></td>
                                 <td>Locations separated by semicolons</td>
                             </tr>
                             <tr>
@@ -475,7 +475,7 @@
                             </tr>
                             <tr>
                                 <td><code>one_liner</code></td>
-                                <td><code>string</code></td>
+                                <td><code>string|null</code></td>
                                 <td>One-line description</td>
                             </tr>
                             <tr>
@@ -493,8 +493,9 @@
                             </tr>
                             <tr>
                                 <td><code>subindustry</code></td>
-                                <td><code>string</code></td>
-                                <td>Subindustry</td>
+                                <td><code>enum</code></td>
+                                <td>59 sub-industry categories (e.g. <code>"B2B -> Infrastructure"</code>,
+                                    <code>"Healthcare -> Diagnostics"</code>)</td>
                             </tr>
                             <tr>
                                 <td><code>launched_at</code></td>
@@ -691,7 +692,7 @@
                             </tr>
                             <tr>
                                 <td><code>answer</code></td>
-                                <td><code>string</code></td>
+                                <td><code>string|null</code></td>
                                 <td>Founder's answer</td>
                             </tr>
                         </tbody>
@@ -802,7 +803,7 @@
                             </tr>
                             <tr>
                                 <td><code>avatar_thumb_url</code></td>
-                                <td><code>string|null</code></td>
+                                <td><code>string</code></td>
                                 <td>Founder's avatar image URL</td>
                             </tr>
                             <tr>
@@ -878,8 +879,10 @@
                             </tr>
                             <tr>
                                 <td><code>experience</code></td>
-                                <td><code>string|null</code></td>
-                                <td>Required experience</td>
+                                <td><code>enum|null</code></td>
+                                <td><code>"1+ years"</code> | <code>"3+ years"</code> |
+                                    <code>"6+ years"</code> | <code>"11+ years"</code> |
+                                    <code>"Any (new grads ok)"</code></td>
                             </tr>
                             <tr>
                                 <td><code>visa</code></td>

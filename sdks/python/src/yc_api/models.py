@@ -5,7 +5,12 @@ from __future__ import annotations
 from enum import Enum
 from typing import Dict, List, Optional
 
-from pydantic import BaseModel
+from pydantic import BaseModel, model_validator
+
+
+def _empty_str_to_none(data: dict) -> dict:
+    """Convert empty-string values to None so the SDK always uses None for missing data."""
+    return {k: (None if v == "" else v) for k, v in data.items()}
 
 
 class CompanyStatus(str, Enum):
@@ -143,6 +148,11 @@ class Partner(BaseModel):
     name: str
     url: str
 
+    @model_validator(mode="before")
+    @classmethod
+    def _coerce(cls, data: dict) -> dict:
+        return _empty_str_to_none(data) if isinstance(data, dict) else data
+
 
 class Founder(BaseModel):
     """Company founder."""
@@ -157,6 +167,11 @@ class Founder(BaseModel):
     avatar_thumb_url: str
     email: Optional[str] = None
 
+    @model_validator(mode="before")
+    @classmethod
+    def _coerce(cls, data: dict) -> dict:
+        return _empty_str_to_none(data) if isinstance(data, dict) else data
+
 
 class Job(BaseModel):
     """Open job posting."""
@@ -168,11 +183,16 @@ class Job(BaseModel):
     type: JobType
     role: JobRole
     role_type: Optional[str] = None
-    salary_range: str = ""
-    equity_range: str = ""
+    salary_range: Optional[str] = None
+    equity_range: Optional[str] = None
     experience: Optional[JobExperience] = None
     visa: JobVisa
     skills: List[str] = []
+
+    @model_validator(mode="before")
+    @classmethod
+    def _coerce(cls, data: dict) -> dict:
+        return _empty_str_to_none(data) if isinstance(data, dict) else data
 
 
 class AppAnswer(BaseModel):
@@ -181,12 +201,22 @@ class AppAnswer(BaseModel):
     question: str
     answer: Optional[str] = None
 
+    @model_validator(mode="before")
+    @classmethod
+    def _coerce(cls, data: dict) -> dict:
+        return _empty_str_to_none(data) if isinstance(data, dict) else data
+
 
 class QuestionAnswer(BaseModel):
     """A single free-response question answer."""
 
     question: str
     answer: str
+
+    @model_validator(mode="before")
+    @classmethod
+    def _coerce(cls, data: dict) -> dict:
+        return _empty_str_to_none(data) if isinstance(data, dict) else data
 
 
 class News(BaseModel):
@@ -195,6 +225,11 @@ class News(BaseModel):
     title: str
     url: str
     date: str
+
+    @model_validator(mode="before")
+    @classmethod
+    def _coerce(cls, data: dict) -> dict:
+        return _empty_str_to_none(data) if isinstance(data, dict) else data
 
 
 class Launch(BaseModel):
@@ -208,6 +243,11 @@ class Launch(BaseModel):
     votes: int
     created_at: str
 
+    @model_validator(mode="before")
+    @classmethod
+    def _coerce(cls, data: dict) -> dict:
+        return _empty_str_to_none(data) if isinstance(data, dict) else data
+
 
 class Company(BaseModel):
     """A Y Combinator company with all available data."""
@@ -219,9 +259,9 @@ class Company(BaseModel):
     former_names: List[str] = []
     small_logo_thumb_url: str
     website: Optional[str] = None
-    all_locations: str = ""
+    all_locations: Optional[str] = None
     long_description: Optional[str] = None
-    one_liner: str = ""
+    one_liner: Optional[str] = None
     team_size: Optional[int] = None
     industry: CompanyIndustry
     subindustry: CompanySubindustry
@@ -263,6 +303,11 @@ class Company(BaseModel):
     launches: List[Launch] = []
 
     model_config = {"extra": "allow"}
+
+    @model_validator(mode="before")
+    @classmethod
+    def _coerce(cls, data: dict) -> dict:
+        return _empty_str_to_none(data) if isinstance(data, dict) else data
 
 
 class MetaEntry(BaseModel):

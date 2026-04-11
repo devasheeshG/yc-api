@@ -156,8 +156,8 @@ export interface Job {
     type: JobType;
     role: JobRole;
     role_type: string | null;
-    salary_range: string;
-    equity_range: string;
+    salary_range: string | null;
+    equity_range: string | null;
     experience: JobExperience | null;
     visa: JobVisa;
     skills: string[];
@@ -202,9 +202,9 @@ export interface Company {
     former_names: string[];
     small_logo_thumb_url: string;
     website: string | null;
-    all_locations: string;
+    all_locations: string | null;
     long_description: string | null;
-    one_liner: string;
+    one_liner: string | null;
     team_size: number | null;
     industry: CompanyIndustry;
     subindustry: CompanySubindustry;

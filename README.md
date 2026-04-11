@@ -674,9 +674,9 @@ Every company object includes:
 | `former_names`          | string[]   | Previous names, if the company was renamed                   |
 | `small_logo_thumb_url`  | string     | Square thumbnail logo URL                                    |
 | `website`               | string\|null | Company website URL                                        |
-| `all_locations`         | string     | Locations separated by semicolons (e.g. `"San Francisco, CA, USA; New York, NY, USA"`) |
+| `all_locations`         | string\|null | Locations separated by semicolons (e.g. `"San Francisco, CA, USA; New York, NY, USA"`) |
 | `long_description`      | string\|null | Full company description                                   |
-| `one_liner`             | string     | One-line company description                                 |
+| `one_liner`             | string\|null | One-line company description                               |
 | `team_size`             | number\|null | Number of employees                                        |
 | `industry`              | enum       | `"B2B"` \| `"Consumer"` \| `"Education"` \| `"Fintech"` \| `"Government"` \| `"Healthcare"` \| `"Industrials"` \| `"Real Estate and Construction"` \| `"Unspecified"` |
 | `subindustry`           | enum       | 59 fixed sub-industry categories (e.g. `"Consumer -> Travel, Leisure and Tourism"`, `"B2B -> Infrastructure"`) |
@@ -763,8 +763,8 @@ Every company object includes:
 | `type`         | enum        | `"Full-time"` \| `"Internship"` \| `"Contract"` \| `"Co-founder"` |
 | `role`         | enum        | `"Design"` \| `"Engineering"` \| `"Finance"` \| `"Legal"` \| `"Marketing"` \| `"Operations"` \| `"Product"` \| `"Recruiting & HR"` \| `"Sales"` \| `"Science"` \| `"Support"` |
 | `role_type`    | string\|null | Specific role type (`"Full stack"`, `"Backend"`, etc.) |
-| `salary_range` | string      | Salary range (e.g. `"$120K - $160K"`, or `""` if unlisted) |
-| `equity_range` | string      | Equity range (e.g. `"1.00% - 3.00%"`, or `""` if unlisted) |
+| `salary_range` | string\|null | Salary range (e.g. `"$120K - $160K"`)                      |
+| `equity_range` | string\|null | Equity range (e.g. `"1.00% - 3.00%"`)                     |
 | `experience`   | enum\|null  | `"1+ years"` \| `"3+ years"` \| `"6+ years"` \| `"11+ years"` \| `"Any (new grads ok)"` |
 | `visa`         | enum        | `"US citizen/visa only"` \| `"US citizenship/visa not required"` \| `"Will sponsor"` |
 | `skills`       | string[]    | Required skills                                   |
@@ -788,6 +788,129 @@ Every company object includes:
 | `url`        | string | Full URL to the Launch YC post           |
 | `votes`      | number | Number of upvotes                        |
 | `created_at` | string | ISO 8601 timestamp (e.g. `"2024-03-15T12:00:00Z"`) |
+
+### Enum reference
+
+#### `industry`
+
+- `"B2B"`
+- `"Consumer"`
+- `"Education"`
+- `"Fintech"`
+- `"Government"`
+- `"Healthcare"`
+- `"Industrials"`
+- `"Real Estate and Construction"`
+- `"Unspecified"`
+
+#### `subindustry`
+
+- `"B2B"`
+- `"B2B -> Analytics"`
+- `"B2B -> Engineering, Product and Design"`
+- `"B2B -> Finance and Accounting"`
+- `"B2B -> Human Resources"`
+- `"B2B -> Infrastructure"`
+- `"B2B -> Legal"`
+- `"B2B -> Marketing"`
+- `"B2B -> Office Management"`
+- `"B2B -> Operations"`
+- `"B2B -> Productivity"`
+- `"B2B -> Recruiting and Talent"`
+- `"B2B -> Retail"`
+- `"B2B -> Sales"`
+- `"B2B -> Security"`
+- `"B2B -> Supply Chain and Logistics"`
+- `"Consumer"`
+- `"Consumer -> Apparel and Cosmetics"`
+- `"Consumer -> Consumer Electronics"`
+- `"Consumer -> Content"`
+- `"Consumer -> Food and Beverage"`
+- `"Consumer -> Gaming"`
+- `"Consumer -> Home and Personal"`
+- `"Consumer -> Job and Career Services"`
+- `"Consumer -> Social"`
+- `"Consumer -> Transportation Services"`
+- `"Consumer -> Travel, Leisure and Tourism"`
+- `"Consumer -> Virtual and Augmented Reality"`
+- `"Education"`
+- `"Fintech"`
+- `"Fintech -> Asset Management"`
+- `"Fintech -> Banking and Exchange"`
+- `"Fintech -> Consumer Finance"`
+- `"Fintech -> Credit and Lending"`
+- `"Fintech -> Insurance"`
+- `"Fintech -> Payments"`
+- `"Government"`
+- `"Healthcare"`
+- `"Healthcare -> Consumer Health and Wellness"`
+- `"Healthcare -> Diagnostics"`
+- `"Healthcare -> Drug Discovery and Delivery"`
+- `"Healthcare -> Healthcare IT"`
+- `"Healthcare -> Healthcare Services"`
+- `"Healthcare -> Industrial Bio"`
+- `"Healthcare -> Medical Devices"`
+- `"Healthcare -> Therapeutics"`
+- `"Industrials"`
+- `"Industrials -> Agriculture"`
+- `"Industrials -> Automotive"`
+- `"Industrials -> Aviation and Space"`
+- `"Industrials -> Climate"`
+- `"Industrials -> Defense"`
+- `"Industrials -> Drones"`
+- `"Industrials -> Energy"`
+- `"Industrials -> Manufacturing and Robotics"`
+- `"Real Estate and Construction"`
+- `"Real Estate and Construction -> Construction"`
+- `"Real Estate and Construction -> Housing and Real Estate"`
+- `"Unspecified"`
+
+#### `status`
+
+- `"Active"`
+- `"Inactive"`
+- `"Acquired"`
+- `"Public"`
+
+#### `stage`
+
+- `"Early"`
+- `"Growth"`
+
+#### `type` (job)
+
+- `"Full-time"`
+- `"Internship"`
+- `"Contract"`
+- `"Co-founder"`
+
+#### `role` (job)
+
+- `"Design"`
+- `"Engineering"`
+- `"Finance"`
+- `"Legal"`
+- `"Marketing"`
+- `"Operations"`
+- `"Product"`
+- `"Recruiting & HR"`
+- `"Sales"`
+- `"Science"`
+- `"Support"`
+
+#### `visa` (job)
+
+- `"US citizen/visa only"`
+- `"US citizenship/visa not required"`
+- `"Will sponsor"`
+
+#### `experience` (job)
+
+- `"1+ years"`
+- `"3+ years"`
+- `"6+ years"`
+- `"11+ years"`
+- `"Any (new grads ok)"`
 
 ### Example
 

@@ -2,6 +2,20 @@ import type { Company, Meta } from './types.js';
 
 const DEFAULT_BASE = 'https://devasheeshg.github.io/yc-api';
 
+/** Recursively replace empty strings with null in plain JSON objects/arrays. */
+function emptyToNull<T>(value: T): T {
+    if (value === '') return null as unknown as T;
+    if (Array.isArray(value)) return value.map(emptyToNull) as unknown as T;
+    if (value !== null && typeof value === 'object') {
+        const out: Record<string, unknown> = {};
+        for (const [k, v] of Object.entries(value)) {
+            out[k] = emptyToNull(v);
+        }
+        return out as unknown as T;
+    }
+    return value;
+}
+
 export interface YCClientOptions {
     /** API base URL. Defaults to the GitHub Pages endpoint. */
     baseUrl?: string;
@@ -48,7 +62,7 @@ export class YCClient {
             if (!resp.ok) {
                 throw new Error(`HTTP ${resp.status}: ${resp.statusText}`);
             }
-            return (await resp.json()) as T;
+            return emptyToNull(await resp.json()) as T;
         } finally {
             clearTimeout(timer);
         }
