@@ -223,7 +223,7 @@ requires-dist = [
     { name = "pydantic", specifier = ">=2.12.5" },
     { name = "pydantic-settings", specifier = ">=2.13.1" },
     { name = "python-dotenv", specifier = ">=1.2.2" },
-    { name = "yc-api", specifier = ">=1.1.0" },
+    { name = "yc-api", specifier = ">=1.1.1" },
 ]
 
 [[package]]
@@ -379,13 +379,13 @@ wheels = [
 
 [[package]]
 name = "yc-api"
-version = "1.1.0"
+version = "1.2.0"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "httpx" },
     { name = "pydantic" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/d6/a9/01443b22fd79a36c264d90b9638fff58f3aeeb1f33b9c86c0511741a1ab6/yc_api-1.1.0.tar.gz", hash = "sha256:42e326dbc16494d790066e7f964c460ffd78cdf2ff8966490c3819d3bf34d553", size = 18497, upload_time = "2026-04-11T09:59:58.523Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/6a/01/d4c7595f8ba4e76b998a126d58adbdbb4fe47b2419d379262a6c12fc6b06/yc_api-1.2.0.tar.gz", hash = "sha256:d8a8e142ae44a5e8fe4be5fa50112eb4649a29d06a4815dd09c9dbc3b2a563ac", size = 19187, upload_time = "2026-04-11T16:18:05.98Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/6d/89/723a22cef03b54894234ae2de0d9b57c5322346c0306b33e83d2c1914907/yc_api-1.1.0-py3-none-any.whl", hash = "sha256:a6ea815224ff50f28a43a5dfee5ab0fe80aafdb03c723eb22b67aad686905ed8", size = 4978, upload_time = "2026-04-11T09:59:59.418Z" },
+    { url = "https://files.pythonhosted.org/packages/71/c8/5b4d614acfc3ddb69385e9040d14d90d30e1fb3a316c3b7979e44428f1e1/yc_api-1.2.0-py3-none-any.whl", hash = "sha256:1607cc2a6566824de630e62b982548592b88c825eb45e2cc853d83d0235c734b", size = 5574, upload_time = "2026-04-11T16:18:06.895Z" },
 ]
