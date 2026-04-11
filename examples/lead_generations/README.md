@@ -19,6 +19,7 @@ cp .env.template .env
 |---|---|
 | `ANTHROPIC_API_KEY` | Anthropic API key for Claude |
 | `ANTHROPIC_BASE_URL` | Anthropic API base URL (default: `https://api.anthropic.com`) |
+| `BRAVE_SEARCH_API_KEY` | Brave Search API key |
 | `NOTION_API_KEY` | Notion integration token |
 | `NOTION_DATABASE_ID` | Target Notion database ID |
 

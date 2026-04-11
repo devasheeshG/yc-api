@@ -10,11 +10,59 @@ from pydantic import BaseModel
 
 class CompanyStatus(str, Enum):
     """Company operating status."""
-
     ACTIVE = "Active"
     INACTIVE = "Inactive"
     ACQUIRED = "Acquired"
     PUBLIC = "Public"
+
+
+class CompanyStage(str, Enum):
+    """Company stage."""
+    EARLY = "Early"
+    GROWTH = "Growth"
+
+
+class CompanyIndustry(str, Enum):
+    """Primary industry."""
+    B2B = "B2B"
+    CONSUMER = "Consumer"
+    EDUCATION = "Education"
+    FINTECH = "Fintech"
+    GOVERNMENT = "Government"
+    HEALTHCARE = "Healthcare"
+    INDUSTRIALS = "Industrials"
+    REAL_ESTATE_AND_CONSTRUCTION = "Real Estate and Construction"
+    UNSPECIFIED = "Unspecified"
+
+
+class JobType(str, Enum):
+    """Employment type."""
+    FULL_TIME = "Full-time"
+    INTERNSHIP = "Internship"
+    CONTRACT = "Contract"
+    CO_FOUNDER = "Co-founder"
+
+
+class JobRole(str, Enum):
+    """Role category."""
+    DESIGN = "Design"
+    ENGINEERING = "Engineering"
+    FINANCE = "Finance"
+    LEGAL = "Legal"
+    MARKETING = "Marketing"
+    OPERATIONS = "Operations"
+    PRODUCT = "Product"
+    RECRUITING_HR = "Recruiting & HR"
+    SALES = "Sales"
+    SCIENCE = "Science"
+    SUPPORT = "Support"
+
+
+class JobVisa(str, Enum):
+    """Visa sponsorship status."""
+    US_ONLY = "US citizen/visa only"
+    NOT_REQUIRED = "US citizenship/visa not required"
+    WILL_SPONSOR = "Will sponsor"
 
 
 class Partner(BaseModel):
@@ -45,13 +93,13 @@ class Job(BaseModel):
     title: Optional[str] = None
     url: Optional[str] = None
     location: Optional[str] = None
-    type: Optional[str] = None
-    role: Optional[str] = None
+    type: Optional[JobType] = None
+    role: Optional[JobRole] = None
     role_type: Optional[str] = None
     salary_range: Optional[str] = None
     equity_range: Optional[str] = None
     experience: Optional[str] = None
-    visa: Optional[str] = None
+    visa: Optional[JobVisa] = None
     skills: List[str] = []
 
 
@@ -103,7 +151,7 @@ class Company(BaseModel):
     long_description: Optional[str] = None
     one_liner: Optional[str] = None
     team_size: Optional[int] = None
-    industry: Optional[str] = None
+    industry: Optional[CompanyIndustry] = None
     subindustry: Optional[str] = None
     launched_at: Optional[int] = None
     tags: List[str] = []
@@ -115,7 +163,7 @@ class Company(BaseModel):
     status: Optional[CompanyStatus] = None
     industries: List[str] = []
     regions: List[str] = []
-    stage: Optional[str] = None
+    stage: Optional[CompanyStage] = None
     app_video_public: Optional[bool] = None
     demo_day_video_public: Optional[bool] = None
     app_answers: Optional[List[AppAnswer]] = None

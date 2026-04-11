@@ -10,10 +10,19 @@ class Settings(BaseSettings):
 
     # Brave Search
     BRAVE_SEARCH_API_KEY: str
+    BRAVE_SEARCH_MAX_RESULTS: int = 10
+    BRAVE_SEARCH_RPM: int = 30
 
     # Notion
     NOTION_API_KEY: str
     NOTION_DATABASE_ID: str
+
+    # Web Scraper Tool
+    WEBSITE_SCRAPE_MAX_LENGTH: int = 20_000
+    WEBSITE_SCRAPE_RPM: int = 120
+
+    # Parallelism
+    MAX_PARALLEL_COMPANIES: int = 3
 
     model_config = SettingsConfigDict(
         env_file=".env",

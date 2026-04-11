@@ -678,7 +678,7 @@ Every company object includes:
 | `long_description`      | string\|null | Full company description                                   |
 | `one_liner`             | string     | One-line company description                                 |
 | `team_size`             | number\|null | Number of employees                                        |
-| `industry`              | string     | Primary industry                                             |
+| `industry`              | enum       | `"B2B"` \| `"Consumer"` \| `"Education"` \| `"Fintech"` \| `"Government"` \| `"Healthcare"` \| `"Industrials"` \| `"Real Estate and Construction"` \| `"Unspecified"` |
 | `subindustry`           | string     | Subindustry (e.g. `"Consumer -> Travel, Leisure and Tourism"`) |
 | `launched_at`           | number     | Launch date as a Unix timestamp                              |
 | `tags`                  | string[]   | Company tags                                                 |
@@ -690,7 +690,7 @@ Every company object includes:
 | `status`                | enum       | `"Active"` \| `"Inactive"` \| `"Acquired"` \| `"Public"`          |
 | `industries`            | string[]   | All industries the company belongs to                        |
 | `regions`               | string[]   | Geographic regions                                           |
-| `stage`                 | string     | Company stage (`"Early"`, `"Growth"`, etc.)                  |
+| `stage`                 | enum       | `"Early"` \| `"Growth"`                                     |
 | `app_video_public`      | boolean    | Whether the application video is public                      |
 | `demo_day_video_public` | boolean    | Whether the demo day video is public                         |
 | `app_answers`           | app_answer[]\|null | Application Q&A, if public                            |
@@ -760,13 +760,13 @@ Every company object includes:
 | `title`        | string      | Job title (e.g. `"Founding Engineer"`)            |
 | `url`          | string      | Full URL to the job posting                       |
 | `location`     | string      | Job location                                      |
-| `type`         | string      | Employment type (`"Full-time"`, `"Part-time"`, etc.) |
-| `role`         | string      | Role category (`"Engineering"`, `"Design"`, etc.) |
+| `type`         | enum        | `"Full-time"` \| `"Internship"` \| `"Contract"` \| `"Co-founder"` |
+| `role`         | enum        | `"Design"` \| `"Engineering"` \| `"Finance"` \| `"Legal"` \| `"Marketing"` \| `"Operations"` \| `"Product"` \| `"Recruiting & HR"` \| `"Sales"` \| `"Science"` \| `"Support"` |
 | `role_type`    | string\|null | Specific role type (`"Full stack"`, `"Backend"`, etc.) |
 | `salary_range` | string\|null | Salary range (e.g. `"$120K - $160K"`)            |
 | `equity_range` | string\|null | Equity range (e.g. `"1.00% - 3.00%"`)           |
 | `experience`   | string\|null | Required experience (e.g. `"1+ years"`)           |
-| `visa`         | string      | Visa sponsorship status                           |
+| `visa`         | enum        | `"US citizen/visa only"` \| `"US citizenship/visa not required"` \| `"Will sponsor"` |
 | `skills`       | string[]    | Required skills                                   |
 
 ### `news` object
@@ -830,7 +830,7 @@ Every company object includes:
   "app_video_public": false,
   "demo_day_video_public": false,
   "app_answers": null,
-  "question_answers": false,
+  "question_answers": null,
   "url": "https://www.ycombinator.com/companies/airbnb",
   "api": "https://devasheeshg.github.io/yc-api/batches/winter-2009/airbnb.json",
   "year_founded": 2008,

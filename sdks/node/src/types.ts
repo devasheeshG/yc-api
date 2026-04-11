@@ -6,6 +6,55 @@ export enum CompanyStatus {
     Public = 'Public',
 }
 
+/** Company stage. */
+export enum CompanyStage {
+    Early = 'Early',
+    Growth = 'Growth',
+}
+
+/** Primary industry. */
+export enum CompanyIndustry {
+    B2B = 'B2B',
+    Consumer = 'Consumer',
+    Education = 'Education',
+    Fintech = 'Fintech',
+    Government = 'Government',
+    Healthcare = 'Healthcare',
+    Industrials = 'Industrials',
+    RealEstateAndConstruction = 'Real Estate and Construction',
+    Unspecified = 'Unspecified',
+}
+
+/** Employment type. */
+export enum JobType {
+    FullTime = 'Full-time',
+    Internship = 'Internship',
+    Contract = 'Contract',
+    CoFounder = 'Co-founder',
+}
+
+/** Role category. */
+export enum JobRole {
+    Design = 'Design',
+    Engineering = 'Engineering',
+    Finance = 'Finance',
+    Legal = 'Legal',
+    Marketing = 'Marketing',
+    Operations = 'Operations',
+    Product = 'Product',
+    RecruitingHR = 'Recruiting & HR',
+    Sales = 'Sales',
+    Science = 'Science',
+    Support = 'Support',
+}
+
+/** Visa sponsorship status. */
+export enum JobVisa {
+    USOnly = 'US citizen/visa only',
+    NotRequired = 'US citizenship/visa not required',
+    WillSponsor = 'Will sponsor',
+}
+
 /** YC group partner assigned to a company. */
 export interface Partner {
     name: string | null;
@@ -32,13 +81,13 @@ export interface Job {
     title: string | null;
     url: string | null;
     location: string | null;
-    type: string | null;
-    role: string | null;
+    type: JobType | null;
+    role: JobRole | null;
     role_type: string | null;
     salary_range: string | null;
     equity_range: string | null;
     experience: string | null;
-    visa: string | null;
+    visa: JobVisa | null;
     skills: string[];
 }
 
@@ -85,7 +134,7 @@ export interface Company {
     long_description: string | null;
     one_liner: string | null;
     team_size: number | null;
-    industry: string | null;
+    industry: CompanyIndustry | null;
     subindustry: string | null;
     launched_at: number | null;
     tags: string[];
@@ -97,7 +146,7 @@ export interface Company {
     status: CompanyStatus | null;
     industries: string[];
     regions: string[];
-    stage: string | null;
+    stage: CompanyStage | null;
     app_video_public: boolean | null;
     demo_day_video_public: boolean | null;
     app_answers: AppAnswer[] | null;

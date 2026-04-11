@@ -313,7 +313,7 @@
         <tr><td><code>long_description</code></td><td><code>string|null</code></td><td>Full description</td></tr>
         <tr><td><code>one_liner</code></td><td><code>string</code></td><td>One-line description</td></tr>
         <tr><td><code>team_size</code></td><td><code>number|null</code></td><td>Number of employees</td></tr>
-        <tr><td><code>industry</code></td><td><code>string</code></td><td>Primary industry</td></tr>
+        <tr><td><code>industry</code></td><td><code>enum</code></td><td><code>"B2B"</code> | <code>"Consumer"</code> | <code>"Education"</code> | <code>"Fintech"</code> | <code>"Government"</code> | <code>"Healthcare"</code> | <code>"Industrials"</code> | <code>"Real Estate and Construction"</code> | <code>"Unspecified"</code></td></tr>
         <tr><td><code>subindustry</code></td><td><code>string</code></td><td>Subindustry</td></tr>
         <tr><td><code>launched_at</code></td><td><code>number</code></td><td>Launch date (Unix timestamp)</td></tr>
         <tr><td><code>tags</code></td><td><code>string[]</code></td><td>Company tags</td></tr>
@@ -325,7 +325,7 @@
         <tr><td><code>status</code></td><td><code>enum</code></td><td><code>"Active"</code> | <code>"Inactive"</code> | <code>"Acquired"</code> | <code>"Public"</code></td></tr>
         <tr><td><code>industries</code></td><td><code>string[]</code></td><td>All industries</td></tr>
         <tr><td><code>regions</code></td><td><code>string[]</code></td><td>Geographic regions</td></tr>
-        <tr><td><code>stage</code></td><td><code>string</code></td><td>Company stage</td></tr>
+        <tr><td><code>stage</code></td><td><code>enum</code></td><td><code>"Early"</code> | <code>"Growth"</code></td></tr>
         <tr><td><code>app_video_public</code></td><td><code>boolean</code></td><td>Application video is public</td></tr>
         <tr><td><code>demo_day_video_public</code></td><td><code>boolean</code></td><td>Demo day video is public</td></tr>
         <tr><td><code>app_answers</code></td><td><code>app_answer[]|null</code></td><td>Application Q&amp;A, if public</td></tr>
@@ -413,13 +413,13 @@
         <tr><td><code>title</code></td><td><code>string</code></td><td>Job title</td></tr>
         <tr><td><code>url</code></td><td><code>string</code></td><td>Full URL to posting</td></tr>
         <tr><td><code>location</code></td><td><code>string</code></td><td>Job location</td></tr>
-        <tr><td><code>type</code></td><td><code>string</code></td><td>Employment type</td></tr>
-        <tr><td><code>role</code></td><td><code>string</code></td><td>Role category</td></tr>
+        <tr><td><code>type</code></td><td><code>enum</code></td><td><code>"Full-time"</code> | <code>"Internship"</code> | <code>"Contract"</code> | <code>"Co-founder"</code></td></tr>
+        <tr><td><code>role</code></td><td><code>enum</code></td><td><code>"Design"</code> | <code>"Engineering"</code> | <code>"Finance"</code> | <code>"Legal"</code> | <code>"Marketing"</code> | <code>"Operations"</code> | <code>"Product"</code> | <code>"Recruiting &amp; HR"</code> | <code>"Sales"</code> | <code>"Science"</code> | <code>"Support"</code></td></tr>
         <tr><td><code>role_type</code></td><td><code>string|null</code></td><td>Specific role type</td></tr>
         <tr><td><code>salary_range</code></td><td><code>string|null</code></td><td>Salary range</td></tr>
         <tr><td><code>equity_range</code></td><td><code>string|null</code></td><td>Equity range</td></tr>
         <tr><td><code>experience</code></td><td><code>string|null</code></td><td>Required experience</td></tr>
-        <tr><td><code>visa</code></td><td><code>string</code></td><td>Visa sponsorship status</td></tr>
+        <tr><td><code>visa</code></td><td><code>enum</code></td><td><code>"US citizen/visa only"</code> | <code>"US citizenship/visa not required"</code> | <code>"Will sponsor"</code></td></tr>
         <tr><td><code>skills</code></td><td><code>string[]</code></td><td>Required skills</td></tr>
       </tbody>
     </table></div>
