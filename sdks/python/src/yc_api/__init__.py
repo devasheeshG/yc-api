@@ -4,6 +4,7 @@ from .client import YCClient
 from .models import (
     AppAnswer,
     Company,
+    CompanyStatus,
     Founder,
     Job,
     Launch,
@@ -16,6 +17,7 @@ from .models import (
 
 __all__ = [
     "AppAnswer",
+    "CompanyStatus",
     "YCClient",
     "Company",
     "Founder",

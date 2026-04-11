@@ -2,9 +2,19 @@
 
 from __future__ import annotations
 
+from enum import Enum
 from typing import Dict, List, Optional
 
 from pydantic import BaseModel
+
+
+class CompanyStatus(str, Enum):
+    """Company operating status."""
+
+    ACTIVE = "Active"
+    INACTIVE = "Inactive"
+    ACQUIRED = "Acquired"
+    PUBLIC = "Public"
 
 
 class Partner(BaseModel):
@@ -102,7 +112,7 @@ class Company(BaseModel):
     isHiring: Optional[bool] = None
     nonprofit: Optional[bool] = None
     batch: Optional[str] = None
-    status: Optional[str] = None
+    status: Optional[CompanyStatus] = None
     industries: List[str] = []
     regions: List[str] = []
     stage: Optional[str] = None

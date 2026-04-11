@@ -11,7 +11,7 @@ npm install @devasheeshg/yc-api
 ## Quick start
 
 ```ts
-import { YCClient } from "@devasheeshg/yc-api";
+import { YCClient } from '@devasheeshg/yc-api';
 
 const client = new YCClient();
 
@@ -22,18 +22,18 @@ const companies = await client.getAll();
 const hiring = await client.getHiring();
 
 // Single company
-const company = await client.getCompany("winter-2026", "airbnb");
+const company = await client.getCompany('winter-2026', 'airbnb');
 console.log(company.name, company.one_liner);
 
 // Founders with emails
 for (const founder of company.founders) {
-  if (founder.email) {
-    console.log(`  ${founder.full_name}: ${founder.email}`);
-  }
+    if (founder.email) {
+        console.log(`  ${founder.full_name}: ${founder.email}`);
+    }
 }
 
 // Filter
-const aiHiring = await client.search({ tag: "AI", hiring: true });
+const aiHiring = await client.search({ tag: 'AI', hiring: true });
 ```
 
 ## Types

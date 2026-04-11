@@ -687,7 +687,7 @@ Every company object includes:
 | `isHiring`              | boolean    | Whether the company is currently hiring                      |
 | `nonprofit`             | boolean    | Whether the company is a nonprofit                           |
 | `batch`                 | string     | YC batch (e.g. `"Winter 2026"`)                              |
-| `status`                | string     | Company status (`"Active"`, `"Inactive"`, `"Acquired"`, `"Public"`) |
+| `status`                | enum       | `"Active"` \| `"Inactive"` \| `"Acquired"` \| `"Public"`          |
 | `industries`            | string[]   | All industries the company belongs to                        |
 | `regions`               | string[]   | Geographic regions                                           |
 | `stage`                 | string     | Company stage (`"Early"`, `"Growth"`, etc.)                  |
