@@ -3,11 +3,61 @@ from typing import List, Literal, Optional
 from pydantic import BaseModel, Field, model_validator
 from yc_api import Company
 
+class QualificationAssessment(BaseModel):
+    """Assessment of a company across the five qualification criteria."""
+    q1_ai_surface_area: str = Field(description="Does the company have a live AI product, assistant, chatbot, or AI feature?")
+    q2_memory_need: str = Field(description="Does their AI need persistent memory across sessions?")
+    q3_technical_feasibility: str = Field(description="Is their architecture compatible with Recallr integration?")
+    q4_timing_stage: str = Field(description="Company stage and readiness to adopt infrastructure.")
+    q5_ai_roadmap: str = Field(description="Evidence of AI direction in next 6-12 months.")
+
+
+class TheirProblem(BaseModel):
+    core_challenge: str = Field(description="Specific memory/context problem tied to their product.")
+    current_likely_approach: str = Field(description="What they are probably doing today, with evidence.")
+    pain_points: List[str] = Field(description="Pain points tied to their actual product.")
+
+
+class IntegrationPoint(BaseModel):
+    where: str = Field(description="Specific part of their product.")
+    how: str = Field(description="How Recallr plugs in.")
+    value_delivered: str = Field(description="Concrete outcome for the user.")
+
+
+class Integration(BaseModel):
+    integration_points: List[IntegrationPoint]
+
+
+class OutreachChannel(BaseModel):
+    """Outreach content for a single channel (LinkedIn or Twitter) to a single founder."""
+
+    initial_message: str = Field(description="First outreach message for this channel.")
+    follow_up_1: str = Field(description="First follow-up message.")
+    follow_up_2: str = Field(description="Second follow-up message.")
+    follow_up_3: str = Field(description="Third follow-up message.")
+
+
+class FounderOutreach(BaseModel):
+    """Outreach content for a single founder across all channels."""
+
+    founder_name: str = Field(description="Full name of the founder.")
+    email: OutreachChannel = Field(description="Email outreach messages for this founder.")
+    linkedin: OutreachChannel = Field(description="LinkedIn outreach messages for this founder.")
+    twitter: OutreachChannel = Field(description="X/Twitter outreach messages for this founder.")
+
+
+class QualifiedLeadData(BaseModel):
+    """Detailed analysis data, only present for qualified leads."""
+    qualification: QualificationAssessment
+    their_problem: TheirProblem
+    integration: Integration
+    outreach: List[FounderOutreach] = Field(description="Per-founder outreach content across LinkedIn, Twitter and Email.")
+
 
 class AgentResult(BaseModel):
     """Structured output from the lead research agent."""
 
-    qualified: bool
+    qualified: bool = Field(description="Whether the company is a qualified lead for Recallr.")
     fit_score: Optional[Literal["HIGH", "MEDIUM", "LOW"]] = Field(
         default=None,
         description="Only for qualified leads: HIGH, MEDIUM, or LOW.",

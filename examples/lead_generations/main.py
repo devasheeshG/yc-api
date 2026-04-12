@@ -77,7 +77,9 @@ async def run_agent(
                 continue
             logger.info(f"Agent finished after {turn + 1} turns")
             try:
-                text = re.sub(r'^```json\s*|^```\s*', '', text_block.text, flags=re.MULTILINE).strip()
+                raw_text = text_block.text.strip()
+                matches = re.findall(r'```(?:json)?\s*([\s\S]*?)```', raw_text)
+                text = matches[-1] if matches else raw_text
                 raw = json.loads(text)
                 return AgentResult.model_validate(raw)
             except (json.JSONDecodeError, ValidationError) as e:
@@ -135,6 +137,115 @@ async def process_company(
 
     # Build the Notion lead from the agent result
     lead = NotionLead.from_agent_result(result, company)
+
+    # Build Notion page body blocks from structured qualified_lead_data
+    children: List[Dict] = []
+    if result.qualified_lead_data:
+        data = result.qualified_lead_data
+
+        def _heading1(text: str) -> Dict:
+            return {"object": "block", "type": "heading_1", "heading_1": {"rich_text": [{"type": "text", "text": {"content": text}}]}}
+
+        def _heading2(text: str) -> Dict:
+            return {"object": "block", "type": "heading_2", "heading_2": {"rich_text": [{"type": "text", "text": {"content": text}}]}}
+
+        def _heading3(text: str) -> Dict:
+            return {"object": "block", "type": "heading_3", "heading_3": {"rich_text": [{"type": "text", "text": {"content": text}}]}}
+
+        def _paragraph(text: str) -> List[Dict]:
+            blocks = []
+            for i in range(0, len(text), 2000):
+                blocks.append({
+                    "object": "block", "type": "paragraph",
+                    "paragraph": {"rich_text": [{"type": "text", "text": {"content": text[i:i + 2000]}}]},
+                })
+            return blocks
+
+        def _bulleted(text: str) -> Dict:
+            return {
+                "object": "block", "type": "bulleted_list_item",
+                "bulleted_list_item": {"rich_text": [{"type": "text", "text": {"content": text[:2000]}}]},
+            }
+
+        def _divider() -> Dict:
+            return {"object": "block", "type": "divider", "divider": {}}
+
+        # Qualification Assessment: each of the five criteria rendered as bullet points
+        q = data.qualification
+        children.append(_heading1("Qualification Assessment"))
+        children.append(_bulleted(f"Q1 — AI Surface Area: {q.q1_ai_surface_area}"))
+        children.append(_bulleted(f"Q2 — Memory Need: {q.q2_memory_need}"))
+        children.append(_bulleted(f"Q3 — Technical Feasibility: {q.q3_technical_feasibility}"))
+        children.append(_bulleted(f"Q4 — Timing/Stage: {q.q4_timing_stage}"))
+        children.append(_bulleted(f"Q5 — AI Roadmap: {q.q5_ai_roadmap}"))
+
+        children.append(_divider())
+
+        # Their Problem: core challenge, what they likely do today, and specific pain points
+        children.append(_heading1("Their Problem"))
+        children.append(_heading3("Core Challenge"))
+        children.extend(_paragraph(data.their_problem.core_challenge))
+        children.append(_heading3("Current Likely Approach"))
+        children.extend(_paragraph(data.their_problem.current_likely_approach))
+        children.append(_heading3("Pain Points"))
+        for point in data.their_problem.pain_points:
+            children.append(_bulleted(point))
+
+        children.append(_divider())
+
+        # Integration: each integration point with where it plugs in, how, and value delivered
+        children.append(_heading1("Integration"))
+        for idx, ip in enumerate(data.integration.integration_points, 1):
+            children.append(_heading3(f"Integration Point {idx}: {ip.where}"))
+            children.append(_bulleted(f"How: {ip.how}"))
+            children.append(_bulleted(f"Value Delivered: {ip.value_delivered}"))
+
+        children.append(_divider())
+
+        # Outreach: one section per founder, each with three channels (email, linkedin, twitter).
+        # Each channel has an initial message and three follow-ups.
+        children.append(_heading1("Outreach"))
+        for founder in data.outreach:
+            children.append(_heading2(founder.founder_name))
+
+            for channel_name, channel in [("Email", founder.email), ("LinkedIn", founder.linkedin), ("Twitter/X", founder.twitter)]:
+                children.append(_heading3(channel_name))
+                children.append(_bulleted("Initial Message:"))
+                children.extend(_paragraph(channel.initial_message))
+                children.append(_bulleted("Follow-up 1:"))
+                children.extend(_paragraph(channel.follow_up_1))
+                children.append(_bulleted("Follow-up 2:"))
+                children.extend(_paragraph(channel.follow_up_2))
+                children.append(_bulleted("Follow-up 3:"))
+                children.extend(_paragraph(channel.follow_up_3))
+
+            children.append(_divider())
+
+    # Push to Notion — create page with first batch, then append remaining blocks
+    BATCH_SIZE = 100
+    try:
+        first_batch = children[:BATCH_SIZE]
+        page = await notion_client.pages.create(
+            parent={"data_source_id": data_source_id},
+            properties=lead.to_notion_properties(),
+            children=first_batch,
+        )
+
+        # Append remaining blocks in batches of 100
+        remaining = children[BATCH_SIZE:]
+        page_id = page["id"]
+        for i in range(0, len(remaining), BATCH_SIZE):
+            batch = remaining[i:i + BATCH_SIZE]
+            await notion_client.blocks.children.append(block_id=page_id, children=batch)
+
+        logger.info(
+            f"{'Qualified' if lead.qualified else 'Unqualified'} lead pushed "
+            f"({len(children)} blocks in {1 + (max(0, len(children) - BATCH_SIZE) + BATCH_SIZE - 1) // BATCH_SIZE} requests)"
+        )
+
+    except Exception as e:
+        logger.error(f"Notion push failed: {e}")
+
 
 async def main() -> None:
     yc = YCClient()
