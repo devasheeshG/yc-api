@@ -41,6 +41,9 @@ class FounderOutreach(BaseModel):
     """Outreach content for a single founder across all channels."""
 
     founder_name: str = Field(description="Full name of the founder.")
+    founder_email: Optional[str] = Field(default=None, description="Founder's email address, taken directly from the YC input data.")
+    founder_linkedin_url: Optional[str] = Field(default=None, description="Founder's LinkedIn profile URL, taken directly from the YC input data.")
+    founder_twitter_url: Optional[str] = Field(default=None, description="Founder's X/Twitter profile URL, taken directly from the YC input data.")
     email: OutreachChannel = Field(description="Email outreach messages for this founder.")
     linkedin: OutreachChannel = Field(description="LinkedIn outreach messages for this founder.")
     twitter: OutreachChannel = Field(description="X/Twitter outreach messages for this founder.")

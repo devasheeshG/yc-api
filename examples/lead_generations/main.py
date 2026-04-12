@@ -170,14 +170,29 @@ async def process_company(
         def _divider() -> Dict:
             return {"object": "block", "type": "divider", "divider": {}}
 
-        # Qualification Assessment: each of the five criteria rendered as bullet points
+        def _callout(text: str, emoji: str) -> List[Dict]:
+            # Callout blocks wrap text naturally and visually stand out with a colored background.
+            # Notion's rich_text limit is 2000 chars per item, so long messages are split across
+            # multiple rich_text items within the same callout block.
+            rich_text = [
+                {"type": "text", "text": {"content": text[i:i + 2000]}}
+                for i in range(0, len(text), 2000)
+            ]
+            return [{"object": "block", "type": "callout", "callout": {"rich_text": rich_text, "icon": {"type": "emoji", "emoji": emoji}, "color": "gray_background"}}]
+
+        # Qualification Assessment: each of the five criteria gets a subheading and its value as a paragraph
         q = data.qualification
         children.append(_heading1("Qualification Assessment"))
-        children.append(_bulleted(f"Q1 — AI Surface Area: {q.q1_ai_surface_area}"))
-        children.append(_bulleted(f"Q2 — Memory Need: {q.q2_memory_need}"))
-        children.append(_bulleted(f"Q3 — Technical Feasibility: {q.q3_technical_feasibility}"))
-        children.append(_bulleted(f"Q4 — Timing/Stage: {q.q4_timing_stage}"))
-        children.append(_bulleted(f"Q5 — AI Roadmap: {q.q5_ai_roadmap}"))
+        children.append(_heading3("Q1: AI Surface Area"))
+        children.extend(_paragraph(q.q1_ai_surface_area))
+        children.append(_heading3("Q2: Memory Need"))
+        children.extend(_paragraph(q.q2_memory_need))
+        children.append(_heading3("Q3: Technical Feasibility"))
+        children.extend(_paragraph(q.q3_technical_feasibility))
+        children.append(_heading3("Q4: Timing and Stage"))
+        children.extend(_paragraph(q.q4_timing_stage))
+        children.append(_heading3("Q5: AI Roadmap"))
+        children.extend(_paragraph(q.q5_ai_roadmap))
 
         children.append(_divider())
 
@@ -207,17 +222,23 @@ async def process_company(
         children.append(_heading1("Outreach"))
         for founder in data.outreach:
             children.append(_heading2(founder.founder_name))
+            if founder.founder_email:
+                children.append(_bulleted(f"Email: {founder.founder_email}"))
+            if founder.founder_linkedin_url:
+                children.append(_bulleted(f"LinkedIn: {founder.founder_linkedin_url}"))
+            if founder.founder_twitter_url:
+                children.append(_bulleted(f"Twitter/X: {founder.founder_twitter_url}"))
 
-            for channel_name, channel in [("Email", founder.email), ("LinkedIn", founder.linkedin), ("Twitter/X", founder.twitter)]:
+            for channel_name, channel, emoji in [("Email", founder.email, "✉️"), ("LinkedIn", founder.linkedin, "💼"), ("Twitter/X", founder.twitter, "🐦")]:
                 children.append(_heading3(channel_name))
                 children.append(_bulleted("Initial Message:"))
-                children.extend(_paragraph(channel.initial_message))
+                children.extend(_callout(channel.initial_message, emoji))
                 children.append(_bulleted("Follow-up 1:"))
-                children.extend(_paragraph(channel.follow_up_1))
+                children.extend(_callout(channel.follow_up_1, emoji))
                 children.append(_bulleted("Follow-up 2:"))
-                children.extend(_paragraph(channel.follow_up_2))
+                children.extend(_callout(channel.follow_up_2, emoji))
                 children.append(_bulleted("Follow-up 3:"))
-                children.extend(_paragraph(channel.follow_up_3))
+                children.extend(_callout(channel.follow_up_3, emoji))
 
             children.append(_divider())
 
