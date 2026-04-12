@@ -64,9 +64,20 @@ async def run_agent(
         messages.append({"role": "assistant", "content": assistant_content})
 
         if response.stop_reason == "end_turn":
+            text_block = next((b for b in assistant_content if b.type == "text"), None)
+            if text_block is None or not text_block.text:
+                block_types = [b.type for b in assistant_content]
+                logger.warning(f"No text block in response (block types: {block_types}), retrying...")
+                messages.pop()
+                messages.append({
+                    "role": "user",
+                    "content": [{"type": "text", "text": "Please research the company and produce the complete output in text block."}],
+                })
+                turn += 1
+                continue
             logger.info(f"Agent finished after {turn + 1} turns")
             try:
-                text = re.sub(r'^```json\s*|^```\s*', '', assistant_content[0].text, flags=re.MULTILINE).strip()
+                text = re.sub(r'^```json\s*|^```\s*', '', text_block.text, flags=re.MULTILINE).strip()
                 raw = json.loads(text)
                 return AgentResult.model_validate(raw)
             except (json.JSONDecodeError, ValidationError) as e:
