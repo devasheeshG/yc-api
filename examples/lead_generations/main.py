@@ -9,7 +9,7 @@ from pydantic import ValidationError
 from yc_api import YCClient, Company, CompanyStatus
 
 from config import get_settings
-from logger import get_logger
+from logger import current_company, get_logger
 from models import AgentResult, NotionLead
 from prompts import SYSTEM_PROMPT
 from tools import TOOL_DEFINITIONS, handle_tool_call
@@ -69,13 +69,24 @@ async def run_agent(
         messages.append({"role": "assistant", "content": assistant_content})
 
         if response.stop_reason == "end_turn":
-            text_block = next(block for block in assistant_content if block.type == "text")
-            logger.info(f"Agent finished for {company.name} after {turn + 1} turns")
+            text_block = next((block for block in assistant_content if block.type == "text"), None)
+            if text_block is None:
+                block_types = [b.type for b in assistant_content]
+                logger.warning(f"Empty response (block types: {block_types}), retrying...")
+                # Drop the empty assistant message and retry
+                messages.pop()
+                messages.append({
+                    "role": "user",
+                    "content": [{"type": "text", "text": "Please research the company and produce the complete output."}],
+                })
+                turn += 1
+                continue
+            logger.info(f"Agent finished after {turn + 1} turns")
             try:
                 raw = json.loads(text_block.text)
                 return AgentResult.model_validate(raw)
             except (json.JSONDecodeError, ValidationError) as e:
-                logger.warning(f"Failed to parse agent result for {company.name}: {e}, retrying...")
+                logger.warning(f"Failed to parse agent result: {e}, retrying...")
                 messages.append({
                     "role": "user",
                     "content": [{"type": "text", "text": f"Your output failed validation: {e}\n\nPlease fix and try again."}],
@@ -95,8 +106,16 @@ async def run_agent(
             messages.append({"role": "user", "content": tool_results})
             turn += 1
 
+        elif response.stop_reason == "max_tokens":
+            logger.warning(f"Hit max_tokens at turn {turn}, asking agent to continue...")
+            messages.append({
+                "role": "user",
+                "content": [{"type": "text", "text": "Your output was cut off. Please output the complete JSON in a single response. If the company is not qualified, a short response is fine."}],
+            })
+            turn += 1
+
         else:
-            logger.error(f"Agent stopped for {company.name}: stop_reason={response.stop_reason}, turn={turn}")
+            logger.error(f"Agent stopped: stop_reason={response.stop_reason}, turn={turn}")
             return None
 
 
@@ -108,14 +127,15 @@ async def process_company(
     data_source_id: str,
 ) -> None:
     """Run the agent for one company and push the result to Notion."""
+    current_company.set(company.name)
     try:
         result = await run_agent(anthropic_client, http_client, company)
     except Exception as e:
-        logger.error(f"Agent failed for {company.name}: {e}")
+        logger.error(f"Agent failed: {e}")
         return
 
     if result is None:
-        logger.error(f"No result returned for {company.name}")
+        logger.error("No result returned")
         return
 
     # Build the Notion lead from the agent result
@@ -140,6 +160,7 @@ async def main() -> None:
     anthropic_client = AsyncAnthropicClient(
         api_key=settings.ANTHROPIC_API_KEY,
         base_url=settings.ANTHROPIC_BASE_URL,
+        timeout=httpx.Timeout(2400.0, connect=20.0),
     )
 
     # Discover the data_source_id from the Notion database
@@ -147,7 +168,7 @@ async def main() -> None:
     data_source_id = db["data_sources"][0]["id"]
     logger.info(f"Notion data_source_id: {data_source_id}")
 
-    # Verify all required columns exist in the Notion database
+    # Verify all required columns exist via the data source schema
     REQUIRED_COLUMNS = {
         "Company Name": "title",
         "Batch": "rich_text",
@@ -158,16 +179,17 @@ async def main() -> None:
         "Reason": "rich_text",
         "Status": "select",
     }
-    db_properties = db["properties"]
+    ds = await notion_client.request(path=f"data_sources/{data_source_id}", method="GET")
+    ds_properties = ds["properties"]
     missing = []
     for col_name, col_type in REQUIRED_COLUMNS.items():
-        prop = db_properties.get(col_name)
+        prop = ds_properties.get(col_name)
         if prop is None:
             missing.append(f"{col_name} ({col_type})")
         elif prop["type"] != col_type:
             missing.append(f"{col_name} (expected {col_type}, got {prop['type']})")
     if missing:
-        logger.error(f"Notion database is missing required columns: {', '.join(missing)}")
+        logger.error(f"Notion data source is missing required columns: {', '.join(missing)}")
         await notion_client.aclose()
         return
 

@@ -4,6 +4,7 @@ from typing import Any, Dict, List
 
 import httpx
 from html_to_markdown import convert
+from html_to_markdown.options import ConversionOptions
 
 from config import get_settings
 from logger import get_logger
@@ -92,7 +93,7 @@ async def web_search(query: str, http_client: httpx.AsyncClient) -> str:
     resp.raise_for_status()
     data = resp.json()
 
-    results = data["web"]["results"]
+    results = data.get("web", {}).get("results", [])
     if not results:
         return "No results found."
 
@@ -122,7 +123,7 @@ async def scrape_url(url: str, http_client: httpx.AsyncClient) -> str:
         return f"Non-HTML content type: {content_type}. Cannot parse."
 
     # convert() is sync Rust FFI — fast, no executor needed
-    md = (convert(resp.text)["content"] or "").strip()
+    md = (convert(resp.text, options=ConversionOptions(skip_images=True, extract_metadata=False))["content"] or "").strip()
 
     if len(md) > settings.WEBSITE_SCRAPE_MAX_LENGTH:
         md = md[: settings.WEBSITE_SCRAPE_MAX_LENGTH] + "\n\n... [content truncated]"
@@ -137,11 +138,14 @@ name: str, input_data: Dict[str, Any], http_client: httpx.AsyncClient
 
     try:
         if name == "web_search":
-            return await web_search(input_data["query"], http_client)
+            result = await web_search(input_data["query"], http_client)
         elif name == "scrape_url":
-            return await scrape_url(input_data["url"], http_client)
+            result = await scrape_url(input_data["url"], http_client)
         else:
-            return f"Unknown tool: {name}"
+            result = f"Unknown tool: {name}"
     except Exception as e:
         logger.error(f"Tool error: {name} — {e}")
         return f"Error executing {name}: {e}"
+
+    logger.debug(f"Tool result: {name} — {len(result)} chars")
+    return result
