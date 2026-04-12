@@ -37,40 +37,6 @@ class AgentResult(BaseModel):
                 raise ValueError("qualified_lead_data must be omitted when qualified=false")
         return self
 
-    @classmethod
-    def anthropic_json_schema(cls) -> dict:
-        """Return a resolved JSON schema compatible with Anthropic's output_config.
-
-        Pydantic's model_json_schema() generates schemas with $defs and $ref pointers
-        for nested models, but Anthropic's json_schema output format requires:
-            1. All references inlined (no $ref / $defs)
-            2. Every object type must have "additionalProperties": false
-
-        This method recursively resolves all $ref pointers by substituting the
-        referenced definition inline, strips the top level $defs block, and adds
-        additionalProperties: false to every object with properties.
-        """
-        schema = cls.model_json_schema()
-        defs = schema.get("$defs", {})
-
-        def _resolve(node):
-            if isinstance(node, dict):
-                # Replace $ref with the inlined definition
-                if "$ref" in node:
-                    ref_name = node["$ref"].split("/")[-1]
-                    return _resolve(defs[ref_name])
-                # Recurse into all values, dropping the now unnecessary $defs key
-                resolved = {k: _resolve(v) for k, v in node.items() if k != "$defs"}
-                # Anthropic requires additionalProperties: false on all object types
-                if resolved.get("type") == "object" and "properties" in resolved:
-                    resolved["additionalProperties"] = False
-                return resolved
-            if isinstance(node, list):
-                return [_resolve(item) for item in node]
-            return node
-
-        return _resolve(schema)
-
 
 class NotionLead(BaseModel):
     """Maps to the Notion database columns."""

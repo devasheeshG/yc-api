@@ -1,5 +1,6 @@
 import asyncio
 import json
+import re
 from typing import List, Dict, Optional
 
 from anthropic import AsyncAnthropic as AsyncAnthropicClient
@@ -56,34 +57,17 @@ async def run_agent(
             cache_control={"type": "ephemeral"},
             system=SYSTEM_PROMPT,
             messages=messages,
-            tools=TOOL_DEFINITIONS,
-            output_config={
-                "format": {
-                    "type": "json_schema",
-                    "schema": AgentResult.anthropic_json_schema(),
-                },
-            },
+            tools=TOOL_DEFINITIONS
         )
 
         assistant_content = response.content
         messages.append({"role": "assistant", "content": assistant_content})
 
         if response.stop_reason == "end_turn":
-            text_block = next((block for block in assistant_content if block.type == "text"), None)
-            if text_block is None:
-                block_types = [b.type for b in assistant_content]
-                logger.warning(f"Empty response (block types: {block_types}), retrying...")
-                # Drop the empty assistant message and retry
-                messages.pop()
-                messages.append({
-                    "role": "user",
-                    "content": [{"type": "text", "text": "Please research the company and produce the complete output."}],
-                })
-                turn += 1
-                continue
             logger.info(f"Agent finished after {turn + 1} turns")
             try:
-                raw = json.loads(text_block.text)
+                text = re.sub(r'^```json\s*|^```\s*', '', assistant_content[0].text, flags=re.MULTILINE).strip()
+                raw = json.loads(text)
                 return AgentResult.model_validate(raw)
             except (json.JSONDecodeError, ValidationError) as e:
                 logger.warning(f"Failed to parse agent result: {e}, retrying...")
@@ -110,7 +94,7 @@ async def run_agent(
             logger.warning(f"Hit max_tokens at turn {turn}, asking agent to continue...")
             messages.append({
                 "role": "user",
-                "content": [{"type": "text", "text": "Your output was cut off. Please output the complete JSON in a single response. If the company is not qualified, a short response is fine."}],
+                "content": [{"type": "text", "text": f"Your output was cut off. Please make sure the JSON is complete and under {settings.ANTHROPIC_MAX_TOKENS} tokens."}],
             })
             turn += 1
 
