@@ -164,7 +164,16 @@ async def process_company(
         def _bulleted(text: str) -> Dict:
             return {
                 "object": "block", "type": "bulleted_list_item",
-                "bulleted_list_item": {"rich_text": [{"type": "text", "text": {"content": text[:2000]}}]},
+                "bulleted_list_item": {"rich_text": [{"type": "text", "text": {"content": text}}]},
+            }
+
+        def _bulleted_link(label: str, url: str) -> Dict:
+            return {
+                "object": "block", "type": "bulleted_list_item",
+                "bulleted_list_item": {"rich_text": [
+                    {"type": "text", "text": {"content": f"{label}: "}},
+                    {"type": "text", "text": {"content": url, "link": {"url": url}}},
+                ]},
             }
 
         def _divider() -> Dict:
@@ -223,11 +232,11 @@ async def process_company(
         for founder in data.outreach:
             children.append(_heading2(founder.founder_name))
             if founder.founder_email:
-                children.append(_bulleted(f"Email: {founder.founder_email}"))
+                children.append(_bulleted_link("Email", founder.founder_email))
             if founder.founder_linkedin_url:
-                children.append(_bulleted(f"LinkedIn: {founder.founder_linkedin_url}"))
+                children.append(_bulleted_link("LinkedIn", founder.founder_linkedin_url))
             if founder.founder_twitter_url:
-                children.append(_bulleted(f"Twitter/X: {founder.founder_twitter_url}"))
+                children.append(_bulleted_link("Twitter/X", founder.founder_twitter_url))
 
             for channel_name, channel, emoji in [("Email", founder.email, "✉️"), ("LinkedIn", founder.linkedin, "💼"), ("Twitter/X", founder.twitter, "🐦")]:
                 children.append(_heading3(channel_name))

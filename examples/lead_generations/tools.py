@@ -120,17 +120,25 @@ async def scrape_url(url: str, http_client: httpx.AsyncClient) -> str:
     except httpx.HTTPError as e:
         return f"Error fetching {url}: {e}"
 
-    content_type = resp.headers["content-type"]
-    if not content_type.startswith(("text/html", "application/xhtml")):
+    content_type = resp.headers.get("content-type", "")
+
+    # Handle XML (sitemaps) and plain text (robots.txt) directly
+    if content_type.startswith(("application/xml", "text/xml")):
+        return resp.text[:settings.WEBSITE_SCRAPE_MAX_LENGTH].strip() or "Empty XML response."
+    
+    elif content_type.startswith("text/plain"):
+        return resp.text[:settings.WEBSITE_SCRAPE_MAX_LENGTH].strip() or "Empty text response."
+    
+    elif content_type.startswith(("text/html", "application/xhtml")):
+        # convert() is sync Rust FFI — fast, no executor needed
+        md = (convert(resp.text, options=ConversionOptions(skip_images=True, extract_metadata=False))["content"] or "").strip()
+
+        if len(md) > settings.WEBSITE_SCRAPE_MAX_LENGTH:
+            md = md[: settings.WEBSITE_SCRAPE_MAX_LENGTH] + "\n\n... [content truncated]"
+
+        return md if md else "Page returned no readable content."
+    else:
         return f"Non-HTML content type: {content_type}. Cannot parse."
-
-    # convert() is sync Rust FFI — fast, no executor needed
-    md = (convert(resp.text, options=ConversionOptions(skip_images=True, extract_metadata=False))["content"] or "").strip()
-
-    if len(md) > settings.WEBSITE_SCRAPE_MAX_LENGTH:
-        md = md[: settings.WEBSITE_SCRAPE_MAX_LENGTH] + "\n\n... [content truncated]"
-
-    return md if md else "Page returned no readable content."
 
 async def handle_tool_call(
     name: str, input_data: Dict[str, Any], http_client: httpx.AsyncClient
