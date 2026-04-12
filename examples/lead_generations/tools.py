@@ -131,10 +131,10 @@ async def scrape_url(url: str, http_client: httpx.AsyncClient) -> str:
     return md if md else "Page returned no readable content."
 
 async def handle_tool_call(
-name: str, input_data: Dict[str, Any], http_client: httpx.AsyncClient
+    name: str, input_data: Dict[str, Any], http_client: httpx.AsyncClient
 ) -> str:
     """Route a tool call to the right handler and return the result string."""
-    logger.info(f"Tool call: {name}({input_data})")
+    logger.info(f"Tool call: {name} ({input_data})")
 
     try:
         if name == "web_search":

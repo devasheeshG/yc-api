@@ -136,3 +136,22 @@ class NotionLead(BaseModel):
             reason=result.reason,
             status="New" if result.qualified else None,
         )
+
+    def to_notion_properties(self) -> dict:
+        """Serialize to Notion API page properties dict."""
+        properties: dict = {
+            "Company Name": {"title": [{"text": {"content": self.company_name}}]},
+            "Batch": {"rich_text": [{"text": {"content": self.batch}}]},
+            "Website URL": {"url": self.website_url},
+            "YC URL": {"url": self.yc_url},
+            "Qualified": {"checkbox": self.qualified},
+            "Reason": {"rich_text": [{"text": {"content": self.reason}}]},
+        }
+
+        if self.status is not None:
+            properties["Status"] = {"select": {"name": self.status}}
+
+        if self.fit_score is not None:
+            properties["Fit Score"] = {"select": {"name": self.fit_score}}
+
+        return properties
