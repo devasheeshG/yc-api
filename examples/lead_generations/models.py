@@ -1,6 +1,6 @@
 from typing import List, Literal, Optional
 
-from pydantic import BaseModel, Field
+from pydantic import BaseModel, Field, model_validator
 from yc_api import Company
 
 
@@ -14,6 +14,7 @@ class AgentResult(BaseModel):
     )
     reason: str = Field(
         description="If qualified: fit rationale (2-3 sentences). If not qualified: disqualification reason.",
+        max_length=5000,
     )
 
     # Detailed data for qualified leads
@@ -21,6 +22,20 @@ class AgentResult(BaseModel):
         default=None,
         description="Detailed analysis and outreach content. Required when qualified=true, omit when qualified=false.",
     )
+
+    @model_validator(mode="after")
+    def validate_qualified_fields(self) -> "AgentResult":
+        if self.qualified:
+            if self.fit_score is None:
+                raise ValueError("fit_score is required when qualified=true")
+            if self.qualified_lead_data is None:
+                raise ValueError("qualified_lead_data is required when qualified=true")
+        else:
+            if self.fit_score is not None:
+                raise ValueError("fit_score must be omitted when qualified=false")
+            if self.qualified_lead_data is not None:
+                raise ValueError("qualified_lead_data must be omitted when qualified=false")
+        return self
 
     @classmethod
     def anthropic_json_schema(cls) -> dict:
