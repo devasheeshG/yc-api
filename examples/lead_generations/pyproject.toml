@@ -12,5 +12,6 @@ dependencies = [
     "pydantic>=2.12.5",
     "pydantic-settings>=2.13.1",
     "python-dotenv>=1.2.2",
+    "tiktoken>=0.9.0",
     "yc-api>=1.3.0",
 ]

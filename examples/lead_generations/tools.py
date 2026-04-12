@@ -3,6 +3,7 @@ import time
 from typing import Any, Dict, List
 
 import httpx
+import tiktoken
 from html_to_markdown import convert
 from html_to_markdown.options import ConversionOptions
 
@@ -11,6 +12,7 @@ from logger import get_logger
 
 settings = get_settings()
 logger = get_logger()
+tknzr = tiktoken.get_encoding("cl100k_base")
 
 
 USER_AGENT = (
@@ -147,5 +149,5 @@ async def handle_tool_call(
         logger.error(f"Tool error: {name} — {e}")
         return f"Error executing {name}: {e}"
 
-    logger.debug(f"Tool result: {name} — {len(result)} chars")
+    logger.debug(f"Tool result: {name} — {len(tknzr.encode(result))} tokens")
     return result
