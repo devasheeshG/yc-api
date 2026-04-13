@@ -250,12 +250,18 @@ async def process_company(
                 children.append(_bulleted(f"{label}:"))
                 children.extend(_callout(f"Subject: {msg.subject}\n\n{msg.body}", "✉️"))
 
-            # LinkedIn and Twitter channels: body only
-            for channel_name, channel, emoji in [("LinkedIn", founder.linkedin, "💼"), ("Twitter/X", founder.twitter, "🐦")]:
-                children.append(_heading3(channel_name))
-                for label, msg in [("Initial Message", channel.initial_message), ("Follow-up 1", channel.follow_up_1), ("Follow-up 2", channel.follow_up_2), ("Follow-up 3", channel.follow_up_3)]:
-                    children.append(_bulleted(f"{label}:"))
-                    children.extend(_callout(msg.body, emoji))
+            # LinkedIn channel: optional subject + body
+            children.append(_heading3("LinkedIn"))
+            for label, msg in [("Initial Message", founder.linkedin.initial_message), ("Follow-up 1", founder.linkedin.follow_up_1), ("Follow-up 2", founder.linkedin.follow_up_2), ("Follow-up 3", founder.linkedin.follow_up_3)]:
+                children.append(_bulleted(f"{label}:"))
+                text = f"Subject: {msg.subject}\n\n{msg.body}" if msg.subject else msg.body
+                children.extend(_callout(text, "💼"))
+
+            # Twitter/X channel: body only
+            children.append(_heading3("Twitter/X"))
+            for label, msg in [("Initial Message", founder.twitter.initial_message), ("Follow-up 1", founder.twitter.follow_up_1), ("Follow-up 2", founder.twitter.follow_up_2), ("Follow-up 3", founder.twitter.follow_up_3)]:
+                children.append(_bulleted(f"{label}:"))
+                children.extend(_callout(msg.body, "🐦"))
 
             children.append(_divider())
 
