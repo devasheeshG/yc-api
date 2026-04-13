@@ -267,7 +267,6 @@ async def process_company(
 
         # Append full AgentResult JSON for programmatic access later
         result_json = result.model_dump_json(indent=2)
-        children.append(_divider())
         children.append(_heading1("Raw Data (JSON)"))
         children.extend(_code_block(result_json))
 
