@@ -32,8 +32,14 @@ class EmailMessage(BaseModel):
     body: str = Field(description="Email body text. Do NOT include the subject line here.")
 
 
-class SocialMessage(BaseModel):
-    """A single LinkedIn or Twitter message. No subject line, just the message text."""
+class LinkedInMessage(BaseModel):
+    """A single LinkedIn message. Subject line is optional."""
+    subject: Optional[str] = Field(default=None, description="Optional LinkedIn message subject line.")
+    body: str = Field(description="The message text. Must be under 260 characters.")
+
+
+class TwitterMessage(BaseModel):
+    """A single X/Twitter DM. No subject line."""
     body: str = Field(description="The message text. Must be under 260 characters.")
 
 
@@ -45,12 +51,20 @@ class EmailChannel(BaseModel):
     follow_up_3: EmailMessage = Field(description="Third follow-up email (breakup).")
 
 
-class SocialChannel(BaseModel):
-    """4-message sequence for LinkedIn or Twitter."""
-    initial_message: SocialMessage = Field(description="First outreach message.")
-    follow_up_1: SocialMessage = Field(description="First follow-up message.")
-    follow_up_2: SocialMessage = Field(description="Second follow-up message.")
-    follow_up_3: SocialMessage = Field(description="Third follow-up message.")
+class LinkedInChannel(BaseModel):
+    """4-message LinkedIn sequence for a single founder."""
+    initial_message: LinkedInMessage = Field(description="First outreach message.")
+    follow_up_1: LinkedInMessage = Field(description="First follow-up message.")
+    follow_up_2: LinkedInMessage = Field(description="Second follow-up message.")
+    follow_up_3: LinkedInMessage = Field(description="Third follow-up message.")
+
+
+class TwitterChannel(BaseModel):
+    """4-message X/Twitter sequence for a single founder."""
+    initial_message: TwitterMessage = Field(description="First outreach message.")
+    follow_up_1: TwitterMessage = Field(description="First follow-up message.")
+    follow_up_2: TwitterMessage = Field(description="Second follow-up message.")
+    follow_up_3: TwitterMessage = Field(description="Third follow-up message.")
 
 
 class FounderOutreach(BaseModel):
@@ -61,8 +75,8 @@ class FounderOutreach(BaseModel):
     founder_linkedin_url: Optional[str] = Field(default=None, description="Founder's LinkedIn profile URL, taken directly from the YC input data.")
     founder_twitter_url: Optional[str] = Field(default=None, description="Founder's X/Twitter profile URL, taken directly from the YC input data.")
     email: EmailChannel = Field(description="Email outreach sequence for this founder.")
-    linkedin: SocialChannel = Field(description="LinkedIn outreach sequence for this founder.")
-    twitter: SocialChannel = Field(description="X/Twitter outreach sequence for this founder.")
+    linkedin: LinkedInChannel = Field(description="LinkedIn outreach sequence for this founder.")
+    twitter: TwitterChannel = Field(description="X/Twitter outreach sequence for this founder.")
 
 
 class QualifiedLeadData(BaseModel):
