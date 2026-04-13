@@ -180,14 +180,18 @@ async def process_company(
             return {"object": "block", "type": "divider", "divider": {}}
 
         def _callout(text: str, emoji: str) -> List[Dict]:
-            # Callout blocks wrap text naturally and visually stand out with a colored background.
-            # Notion's rich_text limit is 2000 chars per item, so long messages are split across
-            # multiple rich_text items within the same callout block.
             rich_text = [
                 {"type": "text", "text": {"content": text[i:i + 2000]}}
                 for i in range(0, len(text), 2000)
             ]
             return [{"object": "block", "type": "callout", "callout": {"rich_text": rich_text, "icon": {"type": "emoji", "emoji": emoji}, "color": "gray_background"}}]
+
+        def _code_block(text: str, language: str = "json") -> List[Dict]:
+            rich_text = [
+                {"type": "text", "text": {"content": text[i:i + 2000]}}
+                for i in range(0, len(text), 2000)
+            ]
+            return [{"object": "block", "type": "code", "code": {"rich_text": rich_text, "language": language}}]
 
         # Company Description
         children.append(_heading1("Company Description"))
@@ -240,18 +244,26 @@ async def process_company(
             if founder.founder_twitter_url:
                 children.append(_bulleted_link("Twitter/X", founder.founder_twitter_url))
 
-            for channel_name, channel, emoji in [("Email", founder.email, "✉️"), ("LinkedIn", founder.linkedin, "💼"), ("Twitter/X", founder.twitter, "🐦")]:
+            # Email channel: show subject + body separately
+            children.append(_heading3("Email"))
+            for label, msg in [("Initial Message", founder.email.initial_message), ("Follow-up 1", founder.email.follow_up_1), ("Follow-up 2", founder.email.follow_up_2), ("Follow-up 3", founder.email.follow_up_3)]:
+                children.append(_bulleted(f"{label}:"))
+                children.extend(_callout(f"Subject: {msg.subject}\n\n{msg.body}", "✉️"))
+
+            # LinkedIn and Twitter channels: body only
+            for channel_name, channel, emoji in [("LinkedIn", founder.linkedin, "💼"), ("Twitter/X", founder.twitter, "🐦")]:
                 children.append(_heading3(channel_name))
-                children.append(_bulleted("Initial Message:"))
-                children.extend(_callout(channel.initial_message, emoji))
-                children.append(_bulleted("Follow-up 1:"))
-                children.extend(_callout(channel.follow_up_1, emoji))
-                children.append(_bulleted("Follow-up 2:"))
-                children.extend(_callout(channel.follow_up_2, emoji))
-                children.append(_bulleted("Follow-up 3:"))
-                children.extend(_callout(channel.follow_up_3, emoji))
+                for label, msg in [("Initial Message", channel.initial_message), ("Follow-up 1", channel.follow_up_1), ("Follow-up 2", channel.follow_up_2), ("Follow-up 3", channel.follow_up_3)]:
+                    children.append(_bulleted(f"{label}:"))
+                    children.extend(_callout(msg.body, emoji))
 
             children.append(_divider())
+
+        # Append full AgentResult JSON for programmatic access later
+        result_json = result.model_dump_json(indent=2)
+        children.append(_divider())
+        children.append(_heading1("Raw Data (JSON)"))
+        children.extend(_code_block(result_json))
 
     # Push to Notion — create page with first batch, then append remaining blocks
     BATCH_SIZE = 100
