@@ -4,12 +4,10 @@ from pydantic import BaseModel, Field, model_validator
 from yc_api import Company
 
 class QualificationAssessment(BaseModel):
-    """Assessment of a company across the five qualification criteria."""
-    q1_ai_surface_area: str = Field(description="Does the company have a live AI product, assistant, chatbot, or AI feature?")
-    q2_memory_need: str = Field(description="Does their AI need persistent memory across sessions?")
-    q3_technical_feasibility: str = Field(description="Is their architecture compatible with Recallr integration?")
-    q4_timing_stage: str = Field(description="Company stage and readiness to adopt infrastructure.")
-    q5_ai_roadmap: str = Field(description="Evidence of AI direction in next 6-12 months.")
+    """Assessment of whether the company uses LLMs and how memory fits."""
+    llm_usage: str = Field(description="How does the company use LLMs? Customer-facing, internal workflows, or both? Be specific about what features or products involve LLMs.")
+    memory_fit: str = Field(description="How would persistent memory across sessions improve their LLM usage? Which specific interactions would benefit?")
+    stage_and_timing: str = Field(description="Company stage, team size, and readiness to adopt new infrastructure.")
 
 
 class TheirProblem(BaseModel):
@@ -28,13 +26,31 @@ class Integration(BaseModel):
     integration_points: List[IntegrationPoint]
 
 
-class OutreachChannel(BaseModel):
-    """Outreach content for a single channel (LinkedIn or Twitter) to a single founder."""
+class EmailMessage(BaseModel):
+    """A single email with subject line and body as separate fields."""
+    subject: str = Field(description="Email subject line. Must follow the Subject Line Playbook formulas.")
+    body: str = Field(description="Email body text. Do NOT include the subject line here.")
 
-    initial_message: str = Field(description="First outreach message for this channel.")
-    follow_up_1: str = Field(description="First follow-up message.")
-    follow_up_2: str = Field(description="Second follow-up message.")
-    follow_up_3: str = Field(description="Third follow-up message.")
+
+class SocialMessage(BaseModel):
+    """A single LinkedIn or Twitter message. No subject line, just the message text."""
+    body: str = Field(description="The message text. Must be under 260 characters.")
+
+
+class EmailChannel(BaseModel):
+    """4-message email sequence for a single founder."""
+    initial_message: EmailMessage = Field(description="First outreach email.")
+    follow_up_1: EmailMessage = Field(description="First follow-up email.")
+    follow_up_2: EmailMessage = Field(description="Second follow-up email.")
+    follow_up_3: EmailMessage = Field(description="Third follow-up email (breakup).")
+
+
+class SocialChannel(BaseModel):
+    """4-message sequence for LinkedIn or Twitter."""
+    initial_message: SocialMessage = Field(description="First outreach message.")
+    follow_up_1: SocialMessage = Field(description="First follow-up message.")
+    follow_up_2: SocialMessage = Field(description="Second follow-up message.")
+    follow_up_3: SocialMessage = Field(description="Third follow-up message.")
 
 
 class FounderOutreach(BaseModel):
@@ -44,13 +60,16 @@ class FounderOutreach(BaseModel):
     founder_email: Optional[str] = Field(default=None, description="Founder's email address, taken directly from the YC input data.")
     founder_linkedin_url: Optional[str] = Field(default=None, description="Founder's LinkedIn profile URL, taken directly from the YC input data.")
     founder_twitter_url: Optional[str] = Field(default=None, description="Founder's X/Twitter profile URL, taken directly from the YC input data.")
-    email: OutreachChannel = Field(description="Email outreach messages for this founder.")
-    linkedin: OutreachChannel = Field(description="LinkedIn outreach messages for this founder.")
-    twitter: OutreachChannel = Field(description="X/Twitter outreach messages for this founder.")
+    email: EmailChannel = Field(description="Email outreach sequence for this founder.")
+    linkedin: SocialChannel = Field(description="LinkedIn outreach sequence for this founder.")
+    twitter: SocialChannel = Field(description="X/Twitter outreach sequence for this founder.")
 
 
 class QualifiedLeadData(BaseModel):
     """Detailed analysis data, only present for qualified leads."""
+    company_description: str = Field(
+        description="5-6 sentence summary of what the company does, their product, target market, and how they use AI. Written for the founder to quickly understand the company at a glance.",
+    )
     qualification: QualificationAssessment
     their_problem: TheirProblem
     integration: Integration
@@ -66,7 +85,7 @@ class AgentResult(BaseModel):
         description="Only for qualified leads: HIGH, MEDIUM, or LOW.",
     )
     reason: str = Field(
-        description="If qualified: fit rationale (2-3 sentences). If not qualified: disqualification reason.",
+        description="If qualified: fit rationale (2-3 sentences). If not qualified: disqualification reason (3-4 sentences).",
         max_length=5000,
     )
 

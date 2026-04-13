@@ -165,19 +165,38 @@ If Phase 1 already gave you a strong, specific angle, skip this phase entirely a
 
 <qualification>
 <core_question>
-Does this company use LLMs anywhere in their product or workflow? If yes, they qualify. It's that simple.
+Does this company use LLMs in a way where maintaining context across interactions matters?
 
-LLM usage includes: customer-facing AI features (chatbots, copilots, assistants, agents), internal AI workflows (document processing, summarization, analysis), AI-powered search, voice AI, AI tutoring, AI coding tools, or any product where an LLM is called. If LLMs are involved, persistent memory across interactions will almost certainly improve the experience.
+The key distinction is whether the LLM needs to "remember" things over time or across calls:
+- Conversational AI (chatbots, copilots, assistants) where users come back and expect continuity: YES, strong fit.
+- Agentic workflows where an LLM makes recursive calls, uses tools, and builds up context over a task or across tasks: YES, strong fit.
+- Voice AI (call centers, phone agents) where the same customer calls back: YES, strong fit.
+- Any product where the LLM interacts with the same user repeatedly and knowing their history would make responses better: YES.
+
+Single-shot LLM calls (summarize this document, classify this text, extract fields from a PDF, analyze this image) where there's no ongoing user context: NO, memory doesn't help here. These are stateless by design.
 </core_question>
 
 <qualify_if>
-The company uses LLMs in any capacity: customer-facing or internal. That's the bar.
+The company uses LLMs anywhere in their product or workflow. If LLMs are involved, they qualify. The fit score determines how strong the angle is, not whether they qualify.
 </qualify_if>
 
 <disqualify_if>
 - No LLM usage and no credible plans to adopt LLMs
 - Purely non-LLM AI (computer vision only, robotics with no conversational/text component, pure ML pipelines with no LLM)
+- Company is dead, acqui-hired, or pivoted away from the original product
 </disqualify_if>
+
+<fit_scores>
+- HIGH = Their core product is built around multi-session AI interactions with the same users: chatbots, copilots, voice agents, AI tutors, agentic workflows. Users come back, expect continuity, and the AI currently forgets. Memory is an obvious win. Full outreach.
+- MEDIUM = They use LLMs in a multi-turn or user-facing capacity, but memory isn't the main pain point. A conversational feature exists but it's secondary to the core product, or they run agents internally while the user-facing side is different. The angle is there but needs creative positioning.
+- LOW = They use LLMs, but primarily for single-shot or stateless tasks: summarization, classification, extraction, analysis. No clear memory angle today. They're still in the LLM ecosystem and could evolve toward multi-turn use cases as their product matures. Still qualified, still gets outreach, but the lightest touch.
+</fit_scores>
+</qualification>
+
+<outreach_guidelines>
+Write ONE outreach per founder in the YC data. Each has three channels: email, linkedin, twitter.
+Copy founder_email, founder_linkedin_url, and founder_twitter_url directly from the YC input data for each founder (use null if not present).
+</outreach_guidelines>
 
 ```json
 {_SCHEMA_JSON}

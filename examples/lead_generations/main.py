@@ -189,19 +189,21 @@ async def process_company(
             ]
             return [{"object": "block", "type": "callout", "callout": {"rich_text": rich_text, "icon": {"type": "emoji", "emoji": emoji}, "color": "gray_background"}}]
 
-        # Qualification Assessment: each of the five criteria gets a subheading and its value as a paragraph
+        # Company Description
+        children.append(_heading1("Company Description"))
+        children.extend(_paragraph(data.company_description))
+
+        children.append(_divider())
+
+        # Qualification Assessment
         q = data.qualification
         children.append(_heading1("Qualification Assessment"))
-        children.append(_heading3("Q1: AI Surface Area"))
-        children.extend(_paragraph(q.q1_ai_surface_area))
-        children.append(_heading3("Q2: Memory Need"))
-        children.extend(_paragraph(q.q2_memory_need))
-        children.append(_heading3("Q3: Technical Feasibility"))
-        children.extend(_paragraph(q.q3_technical_feasibility))
-        children.append(_heading3("Q4: Timing and Stage"))
-        children.extend(_paragraph(q.q4_timing_stage))
-        children.append(_heading3("Q5: AI Roadmap"))
-        children.extend(_paragraph(q.q5_ai_roadmap))
+        children.append(_heading3("LLM Usage"))
+        children.extend(_paragraph(q.llm_usage))
+        children.append(_heading3("Memory Fit"))
+        children.extend(_paragraph(q.memory_fit))
+        children.append(_heading3("Stage and Timing"))
+        children.extend(_paragraph(q.stage_and_timing))
 
         children.append(_divider())
 
