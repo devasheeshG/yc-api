@@ -2,6 +2,7 @@ import asyncio
 import json
 import re
 from typing import List, Dict, Optional
+from urllib.parse import quote
 
 from anthropic import AsyncAnthropic as AsyncAnthropicClient
 import httpx
@@ -193,6 +194,13 @@ async def process_company(
             ]
             return [{"object": "block", "type": "code", "code": {"rich_text": rich_text, "language": language}}]
 
+        def _send_email_link(to: str, subject: str, body: str) -> Dict:
+            mailto_url = f"mailto:{to}?subject={quote(subject, safe='')}&body={quote(body, safe='')}"
+            return {
+                "object": "block", "type": "paragraph",
+                "paragraph": {"rich_text": [{"type": "text", "text": {"content": "Send Email", "link": {"url": mailto_url}}}]},
+            }
+
         # Company Description
         children.append(_heading1("Company Description"))
         children.extend(_paragraph(data.company_description))
@@ -249,6 +257,8 @@ async def process_company(
             for label, msg in [("Initial Message", founder.email.initial_message), ("Follow-up 1", founder.email.follow_up_1), ("Follow-up 2", founder.email.follow_up_2), ("Follow-up 3", founder.email.follow_up_3)]:
                 children.append(_bulleted(f"{label}:"))
                 children.extend(_callout(f"Subject: {msg.subject}\n\n{msg.body}", "✉️"))
+                to_email = founder.founder_email or "placeholder@example.com"
+                children.append(_send_email_link(to_email, msg.subject, msg.body))
 
             # LinkedIn channel: optional subject + body
             children.append(_heading3("LinkedIn"))
