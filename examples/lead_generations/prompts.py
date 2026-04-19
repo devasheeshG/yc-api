@@ -198,7 +198,11 @@ Write ONE outreach per founder in the YC data. Each has three channels: email, l
 Copy founder_email, founder_linkedin_url, and founder_twitter_url directly from the YC input data for each founder (use null if not present).
 </outreach_guidelines>
 
+<output_format>
+Wrap your output in a JSON code block. The JSON must validate against this schema:
+
 ```json
 {_SCHEMA_JSON}
 ```
+</output_format>
 """
