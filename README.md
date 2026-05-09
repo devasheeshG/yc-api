@@ -176,8 +176,8 @@ Both SDKs are fully typed, support async, and wrap every endpoint. See [Python S
 
 API endpoint: https://devasheeshg.github.io/yc-api/meta.json
 
-- Last updated: May 08, 2026 at 02:00 AM UTC
-- Companies: 5884
+- Last updated: May 09, 2026 at 01:54 AM UTC
+- Companies: 5886
 - Batches: 49
 - Industries: 59
 - Tags: 331
@@ -203,7 +203,7 @@ API endpoint: https://devasheeshg.github.io/yc-api/meta.json
 | Fall 2026 | 1 | https://devasheeshg.github.io/yc-api/batches/fall-2026.json |
 | Summer 2026 | 3 | https://devasheeshg.github.io/yc-api/batches/summer-2026.json |
 | Winter 2026 | 199 | https://devasheeshg.github.io/yc-api/batches/winter-2026.json |
-| Spring 2026 | 132 | https://devasheeshg.github.io/yc-api/batches/spring-2026.json |
+| Spring 2026 | 134 | https://devasheeshg.github.io/yc-api/batches/spring-2026.json |
 | Fall 2025 | 148 | https://devasheeshg.github.io/yc-api/batches/fall-2025.json |
 | Summer 2025 | 167 | https://devasheeshg.github.io/yc-api/batches/summer-2025.json |
 | Winter 2025 | 168 | https://devasheeshg.github.io/yc-api/batches/winter-2025.json |
@@ -286,19 +286,19 @@ API endpoint: https://devasheeshg.github.io/yc-api/meta.json
 | Food and Beverage | 94 | https://devasheeshg.github.io/yc-api/industries/food-and-beverage.json |
 | Gaming | 70 | https://devasheeshg.github.io/yc-api/industries/gaming.json |
 | Government | 41 | https://devasheeshg.github.io/yc-api/industries/government.json |
-| Healthcare | 667 | https://devasheeshg.github.io/yc-api/industries/healthcare.json |
-| Healthcare IT | 140 | https://devasheeshg.github.io/yc-api/industries/healthcare-it.json |
+| Healthcare | 668 | https://devasheeshg.github.io/yc-api/industries/healthcare.json |
+| Healthcare IT | 141 | https://devasheeshg.github.io/yc-api/industries/healthcare-it.json |
 | Healthcare Services | 70 | https://devasheeshg.github.io/yc-api/industries/healthcare-services.json |
 | Home and Personal | 123 | https://devasheeshg.github.io/yc-api/industries/home-and-personal.json |
 | Housing and Real Estate | 82 | https://devasheeshg.github.io/yc-api/industries/housing-and-real-estate.json |
 | Human Resources | 84 | https://devasheeshg.github.io/yc-api/industries/human-resources.json |
 | Industrial Bio | 32 | https://devasheeshg.github.io/yc-api/industries/industrial-bio.json |
-| Industrials | 375 | https://devasheeshg.github.io/yc-api/industries/industrials.json |
+| Industrials | 376 | https://devasheeshg.github.io/yc-api/industries/industrials.json |
 | Infrastructure | 292 | https://devasheeshg.github.io/yc-api/industries/infrastructure.json |
 | Insurance | 60 | https://devasheeshg.github.io/yc-api/industries/insurance.json |
 | Job and Career Services | 20 | https://devasheeshg.github.io/yc-api/industries/job-and-career-services.json |
 | Legal | 56 | https://devasheeshg.github.io/yc-api/industries/legal.json |
-| Manufacturing and Robotics | 102 | https://devasheeshg.github.io/yc-api/industries/manufacturing-and-robotics.json |
+| Manufacturing and Robotics | 103 | https://devasheeshg.github.io/yc-api/industries/manufacturing-and-robotics.json |
 | Marketing | 163 | https://devasheeshg.github.io/yc-api/industries/marketing.json |
 | Medical Devices | 44 | https://devasheeshg.github.io/yc-api/industries/medical-devices.json |
 | Office Management | 24 | https://devasheeshg.github.io/yc-api/industries/office-management.json |
@@ -328,7 +328,7 @@ API endpoint: https://devasheeshg.github.io/yc-api/meta.json
 | --- | ---- | ------------ |
 | 3D Printed Foods | 1 | https://devasheeshg.github.io/yc-api/tags/3d-printed-foods.json |
 | 3D Printing | 12 | https://devasheeshg.github.io/yc-api/tags/3d-printing.json |
-| AI | 780 | https://devasheeshg.github.io/yc-api/tags/ai.json |
+| AI | 786 | https://devasheeshg.github.io/yc-api/tags/ai.json |
 | AI Assistant | 156 | https://devasheeshg.github.io/yc-api/tags/ai-assistant.json |
 | AI-Enhanced Learning | 45 | https://devasheeshg.github.io/yc-api/tags/ai-enhanced-learning.json |
 | AI-powered Drug Discovery | 38 | https://devasheeshg.github.io/yc-api/tags/ai-powered-drug-discovery.json |
@@ -337,9 +337,9 @@ API endpoint: https://devasheeshg.github.io/yc-api/meta.json
 | APIs | 9 | https://devasheeshg.github.io/yc-api/tags/apis.json |
 | AR | 6 | https://devasheeshg.github.io/yc-api/tags/ar.json |
 | Advanced Materials | 7 | https://devasheeshg.github.io/yc-api/tags/advanced-materials.json |
-| Advertising | 42 | https://devasheeshg.github.io/yc-api/tags/advertising.json |
+| Advertising | 43 | https://devasheeshg.github.io/yc-api/tags/advertising.json |
 | Aerospace | 36 | https://devasheeshg.github.io/yc-api/tags/aerospace.json |
-| Agriculture | 32 | https://devasheeshg.github.io/yc-api/tags/agriculture.json |
+| Agriculture | 33 | https://devasheeshg.github.io/yc-api/tags/agriculture.json |
 | Air Taxis | 5 | https://devasheeshg.github.io/yc-api/tags/air-taxis.json |
 | Airlines | 4 | https://devasheeshg.github.io/yc-api/tags/airlines.json |
 | Airplanes | 11 | https://devasheeshg.github.io/yc-api/tags/airplanes.json |
@@ -350,7 +350,7 @@ API endpoint: https://devasheeshg.github.io/yc-api/meta.json
 | Apparel | 4 | https://devasheeshg.github.io/yc-api/tags/apparel.json |
 | Architecture | 4 | https://devasheeshg.github.io/yc-api/tags/architecture.json |
 | Art Trading Platforms | 1 | https://devasheeshg.github.io/yc-api/tags/art-trading-platforms.json |
-| Artificial Intelligence | 933 | https://devasheeshg.github.io/yc-api/tags/artificial-intelligence.json |
+| Artificial Intelligence | 927 | https://devasheeshg.github.io/yc-api/tags/artificial-intelligence.json |
 | Assistive Tech | 6 | https://devasheeshg.github.io/yc-api/tags/assistive-tech.json |
 | Augmented Reality | 23 | https://devasheeshg.github.io/yc-api/tags/augmented-reality.json |
 | Auto Commerce | 5 | https://devasheeshg.github.io/yc-api/tags/auto-commerce.json |
@@ -358,7 +358,7 @@ API endpoint: https://devasheeshg.github.io/yc-api/meta.json
 | Automotive | 23 | https://devasheeshg.github.io/yc-api/tags/automotive.json |
 | Autonomous Delivery | 8 | https://devasheeshg.github.io/yc-api/tags/autonomous-delivery.json |
 | Autonomous Trucking | 11 | https://devasheeshg.github.io/yc-api/tags/autonomous-trucking.json |
-| B2B | 1090 | https://devasheeshg.github.io/yc-api/tags/b2b.json |
+| B2B | 1091 | https://devasheeshg.github.io/yc-api/tags/b2b.json |
 | Banking as a Service | 26 | https://devasheeshg.github.io/yc-api/tags/banking-as-a-service.json |
 | Batteryless IoT Sensors | 2 | https://devasheeshg.github.io/yc-api/tags/batteryless-iot-sensors.json |
 | Beauty | 10 | https://devasheeshg.github.io/yc-api/tags/beauty.json |
@@ -437,7 +437,7 @@ API endpoint: https://devasheeshg.github.io/yc-api/meta.json
 | Design Tools | 60 | https://devasheeshg.github.io/yc-api/tags/design-tools.json |
 | DevOps | 50 | https://devasheeshg.github.io/yc-api/tags/devops.json |
 | DevSecOps | 34 | https://devasheeshg.github.io/yc-api/tags/devsecops.json |
-| Developer Tools | 532 | https://devasheeshg.github.io/yc-api/tags/developer-tools.json |
+| Developer Tools | 530 | https://devasheeshg.github.io/yc-api/tags/developer-tools.json |
 | Diagnostics | 32 | https://devasheeshg.github.io/yc-api/tags/diagnostics.json |
 | Digital Freight Brokerage | 2 | https://devasheeshg.github.io/yc-api/tags/digital-freight-brokerage.json |
 | Digital Health | 112 | https://devasheeshg.github.io/yc-api/tags/digital-health.json |
@@ -470,7 +470,7 @@ API endpoint: https://devasheeshg.github.io/yc-api/meta.json
 | Fitness | 20 | https://devasheeshg.github.io/yc-api/tags/fitness.json |
 | Food | 10 | https://devasheeshg.github.io/yc-api/tags/food.json |
 | Food & Beverage | 28 | https://devasheeshg.github.io/yc-api/tags/food-beverage.json |
-| Food Service Robots & Machines | 10 | https://devasheeshg.github.io/yc-api/tags/food-service-robots-machines.json |
+| Food Service Robots & Machines | 11 | https://devasheeshg.github.io/yc-api/tags/food-service-robots-machines.json |
 | Food Tech | 48 | https://devasheeshg.github.io/yc-api/tags/food-tech.json |
 | Fraud Detection | 10 | https://devasheeshg.github.io/yc-api/tags/fraud-detection.json |
 | Fraud Prevention | 6 | https://devasheeshg.github.io/yc-api/tags/fraud-prevention.json |
@@ -480,7 +480,7 @@ API endpoint: https://devasheeshg.github.io/yc-api/meta.json
 | Gaming | 86 | https://devasheeshg.github.io/yc-api/tags/gaming.json |
 | Gardening | 1 | https://devasheeshg.github.io/yc-api/tags/gardening.json |
 | Gene Therapy | 13 | https://devasheeshg.github.io/yc-api/tags/gene-therapy.json |
-| Generative AI | 259 | https://devasheeshg.github.io/yc-api/tags/generative-ai.json |
+| Generative AI | 258 | https://devasheeshg.github.io/yc-api/tags/generative-ai.json |
 | Genetic Engineering | 2 | https://devasheeshg.github.io/yc-api/tags/genetic-engineering.json |
 | Genomics | 27 | https://devasheeshg.github.io/yc-api/tags/genomics.json |
 | Geographic Information System | 4 | https://devasheeshg.github.io/yc-api/tags/geographic-information-system.json |
@@ -493,7 +493,7 @@ API endpoint: https://devasheeshg.github.io/yc-api/meta.json
 | Hardware | 139 | https://devasheeshg.github.io/yc-api/tags/hardware.json |
 | Health & Wellness | 45 | https://devasheeshg.github.io/yc-api/tags/health-wellness.json |
 | Health Insurance | 26 | https://devasheeshg.github.io/yc-api/tags/health-insurance.json |
-| Health Tech | 170 | https://devasheeshg.github.io/yc-api/tags/health-tech.json |
+| Health Tech | 171 | https://devasheeshg.github.io/yc-api/tags/health-tech.json |
 | Healthcare | 199 | https://devasheeshg.github.io/yc-api/tags/healthcare.json |
 | Healthcare IT | 36 | https://devasheeshg.github.io/yc-api/tags/healthcare-it.json |
 | Home Automation | 4 | https://devasheeshg.github.io/yc-api/tags/home-automation.json |
@@ -538,7 +538,7 @@ API endpoint: https://devasheeshg.github.io/yc-api/meta.json
 | Medical Devices | 68 | https://devasheeshg.github.io/yc-api/tags/medical-devices.json |
 | Medical Robotics | 5 | https://devasheeshg.github.io/yc-api/tags/medical-robotics.json |
 | Mental Health | 10 | https://devasheeshg.github.io/yc-api/tags/mental-health.json |
-| Mental Health Tech | 38 | https://devasheeshg.github.io/yc-api/tags/mental-health-tech.json |
+| Mental Health Tech | 39 | https://devasheeshg.github.io/yc-api/tags/mental-health-tech.json |
 | Messaging | 42 | https://devasheeshg.github.io/yc-api/tags/messaging.json |
 | Metaverse | 8 | https://devasheeshg.github.io/yc-api/tags/metaverse.json |
 | Microfluidics | 5 | https://devasheeshg.github.io/yc-api/tags/microfluidics.json |
@@ -557,12 +557,12 @@ API endpoint: https://devasheeshg.github.io/yc-api/meta.json
 | Networks | 4 | https://devasheeshg.github.io/yc-api/tags/networks.json |
 | Neurotechnology | 15 | https://devasheeshg.github.io/yc-api/tags/neurotechnology.json |
 | Next-gen Network Security | 5 | https://devasheeshg.github.io/yc-api/tags/next-gen-network-security.json |
-| No-code | 38 | https://devasheeshg.github.io/yc-api/tags/no-code.json |
+| No-code | 37 | https://devasheeshg.github.io/yc-api/tags/no-code.json |
 | Nonprofit | 25 | https://devasheeshg.github.io/yc-api/tags/nonprofit.json |
 | Note-taking | 5 | https://devasheeshg.github.io/yc-api/tags/note-taking.json |
 | Notifications | 2 | https://devasheeshg.github.io/yc-api/tags/notifications.json |
 | Oncology | 20 | https://devasheeshg.github.io/yc-api/tags/oncology.json |
-| Open Source | 166 | https://devasheeshg.github.io/yc-api/tags/open-source.json |
+| Open Source | 165 | https://devasheeshg.github.io/yc-api/tags/open-source.json |
 | Operations | 32 | https://devasheeshg.github.io/yc-api/tags/operations.json |
 | Payments | 146 | https://devasheeshg.github.io/yc-api/tags/payments.json |
 | Payroll | 18 | https://devasheeshg.github.io/yc-api/tags/payroll.json |
@@ -595,9 +595,9 @@ API endpoint: https://devasheeshg.github.io/yc-api/meta.json
 | Ridesharing | 2 | https://devasheeshg.github.io/yc-api/tags/ridesharing.json |
 | Robotic Process Automation | 31 | https://devasheeshg.github.io/yc-api/tags/robotic-process-automation.json |
 | Robotic Surgery | 3 | https://devasheeshg.github.io/yc-api/tags/robotic-surgery.json |
-| Robotics | 105 | https://devasheeshg.github.io/yc-api/tags/robotics.json |
+| Robotics | 106 | https://devasheeshg.github.io/yc-api/tags/robotics.json |
 | Rocketry | 3 | https://devasheeshg.github.io/yc-api/tags/rocketry.json |
-| SEO | 3 | https://devasheeshg.github.io/yc-api/tags/seo.json |
+| SEO | 4 | https://devasheeshg.github.io/yc-api/tags/seo.json |
 | SMB | 16 | https://devasheeshg.github.io/yc-api/tags/smb.json |
 | SMS | 7 | https://devasheeshg.github.io/yc-api/tags/sms.json |
 | SaaS | 1105 | https://devasheeshg.github.io/yc-api/tags/saas.json |
@@ -630,7 +630,7 @@ API endpoint: https://devasheeshg.github.io/yc-api/meta.json
 | Sustainable Agriculture | 2 | https://devasheeshg.github.io/yc-api/tags/sustainable-agriculture.json |
 | Sustainable Fashion | 9 | https://devasheeshg.github.io/yc-api/tags/sustainable-fashion.json |
 | Sustainable Tourism | 3 | https://devasheeshg.github.io/yc-api/tags/sustainable-tourism.json |
-| Swarm AI | 2 | https://devasheeshg.github.io/yc-api/tags/swarm-ai.json |
+| Swarm AI | 1 | https://devasheeshg.github.io/yc-api/tags/swarm-ai.json |
 | Swarm Robotics | 1 | https://devasheeshg.github.io/yc-api/tags/swarm-robotics.json |
 | Synthetic Biology | 31 | https://devasheeshg.github.io/yc-api/tags/synthetic-biology.json |
 | Talent Acquisition | 7 | https://devasheeshg.github.io/yc-api/tags/talent-acquisition.json |
