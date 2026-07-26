@@ -2,11 +2,13 @@
 name = "yc-api"
 version = "1.0.0"
 description = "Unofficial Y Combinator companies API — static JSON served from GitHub Pages"
-requires-python = ">=3.12"
+requires-python = ">=3.13"
 dependencies = [
-    "aiosmtplib>=5.1.0",
+    "aiosmtplib>=5.1.2",
     "dnspython>=2.8.0",
-    "httpx>=0.28",
+    "httpx>=0.28.1",
+    "openai>=2.48.0",
+    "playwright>=1.61.0",
 ]
 
 [tool.uv.workspace]

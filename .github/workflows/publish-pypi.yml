@@ -16,11 +16,11 @@ jobs:
     permissions:
       contents: read
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
 
-      - uses: astral-sh/setup-uv@v5
+      - uses: astral-sh/setup-uv@v9
         with:
-          python-version: "3.12"
+          python-version: "3.13"
 
       - name: Install package and test dependencies
         run: uv sync --group test

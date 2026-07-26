@@ -6,15 +6,15 @@
 
 **Query every YC startup in one line of code.**
 
-A free, open JSON API over the entire Y Combinator Startup Directory — built for founders, indie hackers, and researchers.
+A free, open JSON API over the entire Y Combinator Startup Directory — with transcribed application and demo day videos. Built for founders, indie hackers, and researchers.
 
 [![GitHub stars](https://img.shields.io/github/stars/devasheeshG/yc-api?style=flat)](https://github.com/devasheeshG/yc-api/stargazers)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Updated daily](https://img.shields.io/badge/updated-daily-FF6600)](https://devasheeshg.github.io/yc-api/meta.json)
 [![Python SDK](https://img.shields.io/pypi/v/yc-api?label=pip&color=blue)](https://pypi.org/project/yc-api/)
-[![npm](https://img.shields.io/npm/v/yc-api?label=npm&color=blue)](https://www.npmjs.com/package/yc-api)
+[![npm](https://img.shields.io/npm/v/ycombinator-api?label=npm&color=blue)](https://www.npmjs.com/package/ycombinator-api)
 
-[Quickstart](#-quickstart) · [Recipes](#-recipes) · [SDKs](#-sdks) · [Schema](#-schema) · [Contributing](#-contributing)
+[Quickstart](#-quickstart) · [Recipes](#-recipes) · [Transcripts](#-video-transcripts) · [SDKs](#-sdks) · [Schema](#-schema) · [Contributing](#-contributing)
 
 </div>
 
@@ -56,11 +56,11 @@ for company in client.search(tag="AI", hiring=True):
 ### TypeScript / JavaScript
 
 ```bash
-npm install yc-api
+npm install ycombinator-api
 ```
 
 ```ts
-import { YCClient } from "yc-api";
+import { YCClient } from "ycombinator-api";
 
 const client = new YCClient();
 const hiring = await client.search({ tag: "AI", hiring: true });
@@ -164,7 +164,7 @@ for votes, name, title, url in sorted(launched, reverse=True)[:20]:
 | Language | Package | Install |
 | --- | --- | --- |
 | Python | [`yc-api`](https://pypi.org/project/yc-api/) | `pip install yc-api` |
-| TypeScript/JS | [`yc-api`](https://www.npmjs.com/package/yc-api) | `npm install yc-api` |
+| TypeScript/JS | [`ycombinator-api`](https://www.npmjs.com/package/ycombinator-api) | `npm install ycombinator-api` |
 
 Both SDKs are fully typed, support async, and wrap every endpoint. See [Python SDK docs](sdks/python/) or [Node SDK docs](sdks/node/) for details.
 
@@ -711,7 +711,9 @@ Every company object includes:
 | `github_url`            | string\|null | GitHub URL                                                 |
 | `logo_url`              | string\|null | Logo image URL                                             |
 | `app_video_url`         | string\|null | Application video URL                                      |
+| `app_video_transcript`  | string\|null | Application video transcript URL (timestamped + diarized)  |
 | `dday_video_url`        | string\|null | Demo day video URL                                         |
+| `dday_video_transcript` | string\|null | Demo day video transcript URL (timestamped + diarized)     |
 | `primary_partner`       | partner\|null | Assigned YC group partner                                 |
 | `company_photos`        | string[]   | Company photo URLs                                           |
 | `founders`              | founder[]  | List of founders                                             |

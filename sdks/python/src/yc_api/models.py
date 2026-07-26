@@ -295,6 +295,8 @@ class Company(BaseModel):
     logo_url: Optional[str] = None
     app_video_url: Optional[str] = None
     dday_video_url: Optional[str] = None
+    app_video_transcript: Optional[str] = None
+    dday_video_transcript: Optional[str] = None
     primary_partner: Optional[Partner] = None
     company_photos: List[str] = []
     founders: List[Founder] = []

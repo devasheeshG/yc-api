@@ -238,6 +238,8 @@ export interface Company {
     logo_url: string | null;
     app_video_url: string | null;
     dday_video_url: string | null;
+    app_video_transcript: string | null;
+    dday_video_transcript: string | null;
     primary_partner: Partner | null;
     company_photos: string[];
     founders: Founder[];
