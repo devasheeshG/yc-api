@@ -176,8 +176,8 @@ Both SDKs are fully typed, support async, and wrap every endpoint. See [Python S
 
 API endpoint: https://devasheeshg.github.io/yc-api/meta.json
 
-- Last updated: August 29, 2026 at 04:37 AM UTC
-- Companies: 6194
+- Last updated: August 30, 2026 at 02:09 AM UTC
+- Companies: 6195
 - Batches: 50
 - Industries: 59
 - Tags: 335
@@ -201,7 +201,7 @@ API endpoint: https://devasheeshg.github.io/yc-api/meta.json
 | Batch | Count | API endpoint |
 | ---- | ---- | ------------ |
 | Winter 2027 | 1 | https://devasheeshg.github.io/yc-api/batches/winter-2027.json |
-| Fall 2026 | 24 | https://devasheeshg.github.io/yc-api/batches/fall-2026.json |
+| Fall 2026 | 25 | https://devasheeshg.github.io/yc-api/batches/fall-2026.json |
 | Summer 2026 | 235 | https://devasheeshg.github.io/yc-api/batches/summer-2026.json |
 | Winter 2026 | 199 | https://devasheeshg.github.io/yc-api/batches/winter-2026.json |
 | Spring 2026 | 195 | https://devasheeshg.github.io/yc-api/batches/spring-2026.json |
@@ -269,8 +269,8 @@ API endpoint: https://devasheeshg.github.io/yc-api/meta.json
 | Banking and Exchange | 73 | https://devasheeshg.github.io/yc-api/industries/banking-and-exchange.json |
 | Climate | 53 | https://devasheeshg.github.io/yc-api/industries/climate.json |
 | Construction | 51 | https://devasheeshg.github.io/yc-api/industries/construction.json |
-| Consumer | 883 | https://devasheeshg.github.io/yc-api/industries/consumer.json |
-| Consumer Electronics | 46 | https://devasheeshg.github.io/yc-api/industries/consumer-electronics.json |
+| Consumer | 884 | https://devasheeshg.github.io/yc-api/industries/consumer.json |
+| Consumer Electronics | 47 | https://devasheeshg.github.io/yc-api/industries/consumer-electronics.json |
 | Consumer Finance | 90 | https://devasheeshg.github.io/yc-api/industries/consumer-finance.json |
 | Consumer Health and Wellness | 118 | https://devasheeshg.github.io/yc-api/industries/consumer-health-and-wellness.json |
 | Content | 114 | https://devasheeshg.github.io/yc-api/industries/content.json |
@@ -493,7 +493,7 @@ API endpoint: https://devasheeshg.github.io/yc-api/meta.json
 | GraphQL | 3 | https://devasheeshg.github.io/yc-api/tags/graphql.json |
 | Grocery | 32 | https://devasheeshg.github.io/yc-api/tags/grocery.json |
 | HR Tech | 74 | https://devasheeshg.github.io/yc-api/tags/hr-tech.json |
-| Hard Tech | 130 | https://devasheeshg.github.io/yc-api/tags/hard-tech.json |
+| Hard Tech | 131 | https://devasheeshg.github.io/yc-api/tags/hard-tech.json |
 | Hardware | 159 | https://devasheeshg.github.io/yc-api/tags/hardware.json |
 | Health & Wellness | 49 | https://devasheeshg.github.io/yc-api/tags/health-wellness.json |
 | Health Insurance | 28 | https://devasheeshg.github.io/yc-api/tags/health-insurance.json |
