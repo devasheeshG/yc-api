@@ -1,0 +1,100 @@
+{
+  "id": 32521,
+  "name": "Molagri",
+  "slug": "molagri",
+  "former_names": [],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/71eba8e2b8b0a262e4c76ef41e5ab46b59552e6d.png",
+  "website": "https://molagri.com",
+  "all_locations": "Toronto, ON, Canada",
+  "long_description": "Molagri develops safer, more effective pesticides for agriculture.\r\n\r\nWe design biopesticides that hit a precise molecular target unique to pest insects, knocking out pests while sparing pollinators, beneficial insects, and the wider ecosystem. By modeling how pests are likely to evolve, we stay a step ahead of resistance, keeping our products effective against the pests of today and tomorrow. The higher efficacy and biobased production will also contribute to emissions reductions in both manufacturing and field use.\r\n\r\nOur founders are PhD lab mates from the University of Toronto who have worked together for six years and published in Nature Communications and Nature Microbiology. \r\n",
+  "one_liner": "Resistance free pesticides.",
+  "team_size": 4,
+  "industry": "Industrials",
+  "subindustry": "Industrials -> Agriculture",
+  "launched_at": 1782770010,
+  "tags": [
+    "Synthetic Biology",
+    "Biotech",
+    "Sustainability",
+    "Climate",
+    "Agriculture"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Summer 2026",
+  "status": "Active",
+  "industries": [
+    "Industrials",
+    "Agriculture"
+  ],
+  "regions": [
+    "Canada",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/molagri",
+  "api": "https://devasheeshg.github.io/yc-api/batches/summer-2026/molagri.json",
+  "year_founded": 2026,
+  "city": "Toronto",
+  "country": "CA",
+  "linkedin_url": "https://www.linkedin.com/company/molagri",
+  "x_url": "",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/71eba8e2b8b0a262e4c76ef41e5ab46b59552e6d.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Tyler Bosmeny",
+    "url": "https://www.ycombinator.com/people/tyler-bosmeny"
+  },
+  "founders": [
+    {
+      "user_id": 2273508,
+      "full_name": "Zaky Hassan",
+      "title": "Founder/CEO",
+      "founder_bio": "Zaky is a protein biochemist and viral structural biologist who has characterized mechanisms of antibody neutralization in human pathogenic coronaviruses. He has an undergraduate degree in Biochemistry (Honours BSc) and graduate training in Biochemistry (PhD candidate) from the University of Toronto. He was awarded $130K+ in fellowships, and published twice in Nature Communications. Zaky previously founded a non-profit, raised $1M+ in grants and operated programming for 1000+ youth in Toronto. ",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/zaky-hassan/",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/a0a2d10fb8eb3af2c5ae7e66b5bcd91e9c0fa244.jpg"
+    },
+    {
+      "user_id": 3659967,
+      "full_name": "Min Jin",
+      "title": "Founder",
+      "founder_bio": "Min is a viral structural biologist and protein biochemist, and the current world record holder for the highest resolution structure of a coronavirus spike protein in the Protein Data Bank (1.68 Å).  She has an undergraduate degree in Biophysics (Honours BSc) and graduate training in Biochemistry (PhD candidate) from the University of Toronto and she has published in Nature Microbiology and Nature Communications. ",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/min-jin-ca/",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/42b06f5f78332c243bd0f7ed0a6865ddf972d2be.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [
+    {
+      "title": "Molagri wants to design a pesticide that evolves as quickly as pests | BetaKit",
+      "url": "https://betakit.com/molagri-wants-to-design-a-pesticide-that-evolves-as-quickly-as-pests/",
+      "date": "Sep 04, 2026"
+    }
+  ],
+  "launches": [
+    {
+      "id": 108796,
+      "title": "Molagri: Resistance-free pesticides 🪲",
+      "tagline": "Species-specific biopesticides built from engineered insect viruses, updatable the moment pests develop resistance.",
+      "body": "**TLDR:** We build next-generation pesticides from engineered insect virus-like particles. They target a single pest species, stay safe for humans, pollinators, and the environment, and can be reprogrammed over time as pests evolve resistance.\n\nPesticides underpin modern agriculture and food security, accounting for $80B in annual spend. Without effective pesticides, we can't grow enough food.\n\n<https://youtu.be/6rxXDJeC14Y>\n\n**The Problem 🌱**\n\nPests are developing resistance faster than new pesticides can be invented to replace the failing ones. At the same time, regulators are banning core active ingredients over environmental and human toxicity. Farmers are losing tools from both ends at once.\n\n**Our Solution 🪲**\n\nWe build pesticides out of insect virus-like particles. We start with a virus that only infects insects and is harmless to humans. We strip out its genome so it can't infect or replicate, and we keep the empty protein shell as a delivery vehicle.\n\nWe engineer that shell with two parts:\n\n* A **targeting element** that recognizes a single pest species (or a set of species). This is what keeps the product species-specific and invisible to humans, pollinators, and beneficial insects.\n* A **payload** that kills the pest.\n\nBoth parts are swappable. Changing the targeting element will modify which pest it kills. Changing the payload will result in a new kill mechanism for the same pest, which is how we update the product when resistance appears.\n\nDesigning for true pollinator safety is hard, so we did the underlying science ourselves. We solved a cryo-EM structure of a key receptor in honey bees, which lets us deliberately engineer our targeting elements so they do not bind pollinators.\n\n![uploaded image](/media/?type=post&id=108796&key=user_uploads/2273508/62f4362a-1938-4843-ab26-c9a62c742a84)\n\n**Why Us? 🧑🏽‍🔬**\n\nWe are Zaky and Min, viral structural biology PhD candidates and lab mates at the University of Toronto, where we have worked together for the past 6 years studying how viruses interact with their hosts. We have published in Nature Microbiology and Nature Communications, and Min holds the world record for the highest-resolution structure of a coronavirus spike protein.\n\n**Traction 📈**\n\nWe have signed our first grower LOI, have more in the pipeline, and produced our first set of viruses for testing. During the batch we also solved a cryo-EM structure of a honey-bee receptor that directly informs our pollinator-safe design.\n\n**Connect with us!**\n\n* **Growers and producers**: if you are fighting resistant pests or losing tools to bans, we would love to talk about your crops and target pests. Reach us at [molagri.com](http://molagri.com) \n* **Everyone else:** intros to ag and crop-science operators, or anyone who has built regulated biological products, are always welcome.",
+      "url": "https://www.ycombinator.com/launches/SIm-molagri-resistance-free-pesticides",
+      "votes": 15,
+      "created_at": "2026-08-03T18:35:06.582Z"
+    }
+  ]
+}

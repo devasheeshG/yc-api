@@ -1,0 +1,93 @@
+{
+  "id": 31232,
+  "name": "Remy AI",
+  "slug": "remy-ai",
+  "former_names": [
+    "Bright Eyed Labs"
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/94f9d60cdf58d3c7fc724152a315ad834ec78eec.png",
+  "website": "https://www.tryremy.ai/",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "Building robots and training models for automating manipulation in warehouse, starting with e-commerce 3PLs",
+  "one_liner": "Automating dexterous tasks in warehouses with AI-powered robots",
+  "team_size": 2,
+  "industry": "Industrials",
+  "subindustry": "Industrials -> Manufacturing and Robotics",
+  "launched_at": 1770934019,
+  "tags": [
+    "Robotics",
+    "Logistics"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Winter 2026",
+  "status": "Active",
+  "industries": [
+    "Industrials",
+    "Manufacturing and Robotics"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/remy-ai",
+  "api": "https://devasheeshg.github.io/yc-api/batches/winter-2026/remy-ai.json",
+  "year_founded": 2025,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/remy-ai-2025",
+  "x_url": "",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/94f9d60cdf58d3c7fc724152a315ad834ec78eec.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Brad Flora",
+    "url": "https://www.ycombinator.com/people/brad-flora"
+  },
+  "founders": [
+    {
+      "user_id": 1182398,
+      "full_name": "Oscar Brisset",
+      "title": "Founder/CEO",
+      "founder_bio": "Oxford, AI Engineer at BCG X, now working on end-to-end learning for robotics ",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/oscarbrisset/",
+      "x_url": "https://x.com/oscar__2025",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/fc84e0375af73a1add39a9246fee99dc88fe7766.jpg"
+    },
+    {
+      "user_id": 3174376,
+      "full_name": "Ben Kaye",
+      "title": "Founder/CTO",
+      "founder_bio": "Oxford engineering '22 and PhD tbd. Expertise in Spatial AI",
+      "is_active": false,
+      "linkedin_url": "https://www.linkedin.com/in/ben-kaye-0/",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/86a40536614763d9bfb931829495fdc91289e407.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 97934,
+      "title": "🤖📦 Remy AI - Dexterous robots for e-commerce 3PLs",
+      "tagline": "Existing automation options for 3PLs are expensive and inflexible. We're building robots to change that.",
+      "body": "Hi YC ! We’re Oscar and Ben and we’re building Remy AI.\n\n**TL;DR:** we're bringing the robotics revolution to the little guy by building AI-powered robots for e-commerce 3PLs.\n\n![uploaded image](/media/?type=post&id=97934&key=user_uploads/1182398/680c2630-17bb-498d-b1d1-1ad64cf55623)\n\n**⚠️The problem**\n\nWarehousing to this day remains highly manual. Whether it’s for inbound receiving, picking, or even truck loading, **more than 80% of warehouses in the US** have little to no automation.\n\n**E-commerce 3PLs** in particular suffer from this. Unlike large retailers or shippers, their inventory mix and volumes are **highly variable**, given their smaller size and greater exposure to e-commerce trends. Their contracts renew on an annual basis, their customers regularly go out of business, and the brands they work with frequently release new products.\n\nMost of the automation out there is designed for the big players. Stacker cranes, 2D/3D shuttles, or even more recently AMR-based systems - these all only make sense to invest in above a certain scale and predictability.\n\n![uploaded image](/media/?type=post&id=97934&key=user_uploads/1182398/487a824f-d1aa-4c7b-942e-add0a872b111)\n\nWhat _80% of 3PLs look like: rows of shelves of plastic totes and cardboard boxes with at best a couple conveyors._\n\n**Why is automation so limited?** Because existing solutions are expensive ($100-150K incl. solution + installation + servicing), bulky, and inflexible. They’re usually some mechanical system + a PLC that perform one rigid task repetitively with little to no room for customisation beyond some initial configurations. As a result, most 3PLs aren’t able to leverage these and stick to manual options.\n\n![uploaded image](/media/?type=post&id=97934&key=user_uploads/1182398/d87e20be-7be0-4950-a13c-1ea2671ad916)\n\n_Current automated packing stations: rigid mechanical systems with limited adaptability_\n\nYet this long tail of 3PLs is huge: \n\n* 70K 3PLs in the US\n* $1.2 trillion global market size\n* Growing at +8% per year given relentless rise of e-commerce\n\n**✅ The solution**\n\n**Remy AI is building flexible automation for e-commerce 3PLs.**\n\nWe deploy a robotic system that:\n\n* Adapts to new SKUs **without needing to be re-trained or re-programmed**\n* Can be dropped into **existing work stations** with minimal modifications\n* Can perform **dexterous tasks** that existing robots struggle with\n\nWe leverage a versatile bi-manual mobile platform which allows our system to be deployed on a **wide range of tasks**:\n\n* Mobile picking\n* Packing stations\n* Kitting\n* Receiving\n* …\n\nAnd crucially, we do this at a **50% lower cost** than existing solutions, by replacing mechanical complexity with intelligence.\n\n<https://youtu.be/AhbSnP8YaG0>\n\n**🧠 How do we achieve this?**\n\nRecent developments in ML &amp; robotics have made it possible to bring a human level of adaptability to robots. Whereas before you’d have to use a deterministic pipeline that would map specific object morphologies to pre-determined grasps, large pre-trained robotics &amp; vision models now enable robots to generate trajectories and grasps by themselves, adapting in real-time to changing environments.\n\nCombined with recent advances in simulation and robot learning, we’re able to deploy highly customised systems by taking just a couple photos of the customer’s environment, generating that environment in simulation, to then fine-tune our robot to that specific deployment. Supplementing this with real world data captured at the customer’s site + a rigorous domain randomisation pipeline + our own error recovery algorithms, we’re able to deploy systems with production-grade reliability in days not months.\n\n**🤝🧑‍💻Our team**\n\nWe’ve been working in this problem space for several years. We met 7 years ago when we were both undergrads at Oxford.\n\n![uploaded image](/media/?type=post&id=97934&key=user_uploads/1182398/a0d166e5-4cb6-4a5b-8579-89f74288a061)\n\n**Oscar (CEO)** - AI engineer at BCGX, built ML infra for Fortune 500s, data engineer previously\n\n**Ben (CTO)** - PhD ML Oxford, embedded systems patent pending, robotics masters\n\n**Ask**\n\nWe’d love to chat to more e-commerce 3PLs and brands that handle their own warehouses. Reach out to us at [founders@tryremy.ai](mailto:founders@tryremy.ai). Thanks!",
+      "url": "https://www.ycombinator.com/launches/PTa-remy-ai-dexterous-robots-for-e-commerce-3pls",
+      "votes": 13,
+      "created_at": "2026-02-18T17:21:02.655Z"
+    }
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "id": 29769,
+  "name": "Pinnacle",
+  "slug": "pinnacle",
+  "former_names": [
+    "InsightForge"
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/b466ed207f7ecd72989b10237037b204765513f2.png",
+  "website": "https://pinnacle.sh/",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "Pinnacle is an API for RCS, the new standard for SMS for app-like text messages.",
+  "one_liner": "API & SDK for RCS (the next-generation of texting)",
+  "team_size": 2,
+  "industry": "B2B",
+  "subindustry": "B2B -> Engineering, Product and Design",
+  "launched_at": 1725406476,
+  "tags": [
+    "Developer Tools",
+    "B2B",
+    "Sales",
+    "E-commerce",
+    "SMS"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Summer 2024",
+  "status": "Active",
+  "industries": [
+    "B2B",
+    "Engineering, Product and Design"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/pinnacle",
+  "api": "https://devasheeshg.github.io/yc-api/batches/summer-2024/pinnacle.json",
+  "year_founded": 2024,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/trypinnacle/",
+  "x_url": "https://x.com/try_pinnacle",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/b466ed207f7ecd72989b10237037b204765513f2.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Diana Hu",
+    "url": "https://www.ycombinator.com/people/diana-hu"
+  },
+  "founders": [
+    {
+      "user_id": 1439340,
+      "full_name": "Sean Roades",
+      "title": "Founder/CTO",
+      "founder_bio": "Sean is co-founder & CEO of Pinnacle (S24). After graduating from Harvard College where he studied computer science and econometrics, Sean worked at YouTube where he built machine learning models that handled billions of dollars of ad spend.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/sr19943/",
+      "x_url": "https://twitter.com/SeanRoades",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/9450ce473a71ddcfb1f7e3216fb20327c9bdf7bf.jpg"
+    },
+    {
+      "user_id": 854039,
+      "full_name": "Ivan Zhang",
+      "title": "Founder",
+      "founder_bio": "Ivan is the cofounder and CTO of Pinnacle.\n\n\nHe studied Computer Science and Statistics at Harvard College and previously worked as a software engineer at Amazon where he built internal tools. Most recently, he was a software engineer at General Catalyst’s Customer Value Fund where he built an open-source data library with over 25,000 downloads.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/aivanzhang/",
+      "x_url": "https://twitter.com/aivanzhang",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/56ebc3ff505aec72cf1a59be28d391a44f7b7e51.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 84168,
+      "title": "Pinnacle📱- RCS (Next-Gen SMS) API for developers",
+      "tagline": "Shop in text; programmable interactive, app-like texts",
+      "body": "Hey YC! We’re [Sean](https://www.linkedin.com/in/seanroades/) and [Ivan](https://www.linkedin.com/in/aivanzhang/) from [Pinnacle](https://www.trypinnacle.app/). \\\n\\\nToday, we’re launching [our API](https://docs.trypinnacle.app/api-reference/endpoint/introduction) to send and receive RCS (Next-Gen SMS) text messages natively on user’s devices. We’re also launching an [SDK for Python](https://docs.trypinnacle.app/documentation/python/quick-start) (\\`pip install rcs\\`). If you’re currently sending SMS, you should probably be using Pinnacle.\\\n\\\nHere’s a quick example of how we used our API to sell our [Founder Mode hats](https://shop.trypinnacle.app/products/founder-mode-holy-edition-hat?) (certified by Brian himself 😉)\n\n![uploaded image](/media/?type=post&id=84168&key=user_uploads/1439340/3c12589b-527f-4fcc-bc9b-f6ecaf5b555e)\n\n# The problem\n\nShort: SMS sucks. \\\nLong: SMS messages have high friction from sending a message to checking out a customer. Interactivity is very limiting with SMS.\n\n# The solution\n\nShort: RCS rocks.\\\nLong: RCS messages reduce high friction for customers to buy products with a single tap and add interactivity through buttons, card carousels, and actions.\n\n# Why now\nThis hasn't been possible until now. Apple rolled out RCS this week on iOS 18. Carrier adoption has been fully supported on all Android devices just this year. Carrier adoption for iOS completes in a couple months. We segment by device so you can adopt RCS incrementally.\n\n# Our asks\n\n* Share - tell your friends & colleagues about Pinnacle\n* YC Companies - **reach out to us (**[**founders@trypinnacle.app**](mailto:founders@trypinnacle.app)**) to join our private beta**. You'll also get a **free Founder Mode hat**, designed by us, **1000 messages / mo free**, and our **24/7 #FounderMode support**.",
+      "url": "https://www.ycombinator.com/launches/LtY-pinnacle-rcs-next-gen-sms-api-for-developers",
+      "votes": 62,
+      "created_at": "2024-09-19T21:58:11.562Z"
+    }
+  ]
+}

@@ -1,0 +1,104 @@
+{
+  "id": 30642,
+  "name": "Orange Slice",
+  "slug": "orange-slice",
+  "former_names": [],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/9a35549672464ddd96cd4caea3ef725e10f03c19.png",
+  "website": "https://orangeslice.ai",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "Orange Slice is a spreadsheet where every column is TypeScript—and AI writes it for you. Describe what you want in chat (\"find the CEO's LinkedIn and get their email\"), and we generate the code, create the columns, and run it across thousands of rows. Our fully-typed SDK has 100+ enrichments built in: LinkedIn, contact info, company data, web scraping, AI research. Columns automatically execute in dependency order. No workflow builders—just describe it or code it.",
+  "one_liner": "Agentic sales enrichment spreadsheet",
+  "team_size": 2,
+  "industry": "B2B",
+  "subindustry": "B2B -> Sales",
+  "launched_at": 1751662616,
+  "tags": [],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": true,
+  "nonprofit": false,
+  "batch": "Summer 2025",
+  "status": "Active",
+  "industries": [
+    "B2B",
+    "Sales"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/orange-slice",
+  "api": "https://devasheeshg.github.io/yc-api/batches/summer-2025/orange-slice.json",
+  "year_founded": 2025,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/orange-sliceai/",
+  "x_url": "https://x.com/orangesliceai",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/9a35549672464ddd96cd4caea3ef725e10f03c19.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Jared Friedman",
+    "url": "https://www.ycombinator.com/people/jared-friedman"
+  },
+  "founders": [
+    {
+      "user_id": 1793084,
+      "full_name": "Vihaar Nandigala",
+      "title": "Founder/CEO",
+      "founder_bio": "Founder and CEO at OrangeSlice. Sold previous company at 19 and ex-J.P. Morgan ",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/vihaar-nandigala/",
+      "x_url": "https://twitter.com/VihaarNandigala",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/79b5aeef454a2194a4eb7a8373fb17d85ff22312.jpg"
+    }
+  ],
+  "jobs": [
+    {
+      "id": 85602,
+      "title": "Founding Engineer",
+      "url": "https://www.ycombinator.com/companies/orange-slice/jobs/xQossob-founding-engineer",
+      "location": "San Francisco, CA, US / Remote (US)",
+      "type": "Full-time",
+      "role": "Engineering",
+      "role_type": "Full stack",
+      "salary_range": "$150K - $250K",
+      "equity_range": "0.50% - 5.00%",
+      "experience": "Any (new grads ok)",
+      "visa": "US citizen/visa only",
+      "skills": [
+        "TypeScript"
+      ]
+    }
+  ],
+  "news": [],
+  "launches": [
+    {
+      "id": 97591,
+      "title": "Orange Slice: Claude Code for GTM",
+      "tagline": "AI agents, inside a spreadsheet, that help sales teams find companies that already want to buy.",
+      "body": "We’re building AI agents, inside a spreadsheet, that help sales teams find companies that already want to buy.\\\n\\\nThe reality is most sales teams don’t struggle with effort - they struggle with timing.\\\nReps spend huge amounts of time working static lists and broad targeting, chasing leads that were never going to convert. That creates noise, low reply rates, and wasted cycles.\\\nTop companies like Ramp solve this with dedicated growth engineers building internal data workflows.\\\nWe’re making that same capability accessible to everyone else.\\\n\\\nAt its core, the challenge is simple: \\*\\*finding customers who already have the problem you solve.\\*\\*\\\nOrange Slice turns the spreadsheet into a system for discovering buying signals - agents research company sites, news, social signals, and niche sources like court records or building permits, then structure that information directly into columns teams can act on.\\\n\\\nNot “might be a fit.”\\\nBut “likely in-market.”\\\n\\\nSo instead of guessing who to target, teams build and refine living lists of high-intent accounts inside a sheet.\\\n\\\nStill early. Still learning.\\\nBut we’re excited to keep building.\\\n\\\nKishan and I met sophomore year on a Bollywood dance team at Michigan — and I couldn’t ask for a better co-founder.\\\n\\\n<https://youtu.be/le727v1A5l8>",
+      "url": "https://www.ycombinator.com/launches/PO3-orange-slice-claude-code-for-gtm",
+      "votes": 10,
+      "created_at": "2026-02-06T18:14:19.276Z"
+    },
+    {
+      "id": 92110,
+      "title": "Orange Slice 🍊 - Prospects That Already Want to Buy",
+      "tagline": "AI-agents that find you customers who already want to buy",
+      "body": "We’re Kishan and Vihaar! We’re the founders of Orange Slice, where we find you customers who already want to buy!\\\n**\\\nTL;DR — AI agents that search the entire web for signals / firmographic data that suggests a customer wants your exact product**\n\n[**https://www.youtube.com/watch?v=oSqFhoO4bHs**](https://www.youtube.com/watch?v=oSqFhoO4bHs%5C)\n\n# ❌ The problem:\n\nSales teams waste time and money reaching out to people who aren’t good fits for their product. How often do you receive a cold email about something you don’t care about at all?\n\n# 🚀 Our solution:\n\nWe built custom scraping and crawling infra that finds high-intent prospects by **scanning online data sources such as company websites, news articles, job postings, and social media**. We specialize in industry-specific data sources - think court dockets for legal tech, building permits for proptech, or freight brokerage listings for logistics.\\\n\\\nThink about it like assigning a **“score”** to all potential prospects so you spend time focusing on ones that **are already likely to buy**.\n\n# Why\n\nPreviously, **Kishan** ran a growth experiment at **Ramp** where he noticed that growth doesn’t come from gimmicky emails, but from finding the right customers at the right time. **Vihaar**, who sold his first restaurant tech startup at 19, learned the same lesson the hard way: the biggest lever in sales isn’t what you say - it’s who you say it to.\n\n![uploaded image](/media/?type=post&id=92110&key=user_uploads/1452620/5421cde8-fb83-4de7-aec5-63d956975213)\n\n# **🙏 Our Ask:**\n\n* Do you know any businesses with lots of sales reps that do lots of manual research?\n* If you refer us to someone who signs with us, we will send you $500/month as long as they stay with us.\n\n👉 Contact us at [vihaar@orangeslice.ai](https://mailto:vihaar@orangeslice.ai)",
+      "url": "https://www.ycombinator.com/launches/Nxe-orange-slice-prospects-that-already-want-to-buy",
+      "votes": 39,
+      "created_at": "2025-07-14T16:08:25.761Z"
+    }
+  ]
+}

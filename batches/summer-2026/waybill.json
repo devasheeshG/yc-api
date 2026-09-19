@@ -1,0 +1,92 @@
+{
+  "id": 32948,
+  "name": "Waybill",
+  "slug": "waybill",
+  "former_names": [],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/b91adedb53afabc881281324143485f1dc3c6674.png",
+  "website": "https://www.waybill.to/",
+  "all_locations": "Gurugram, HR, India",
+  "long_description": "Hardware teams burn weeks on procurement. An engineer needs a part. Someone emails five distributors, chases quotes, gets an approval, wires the money, tracks a shipment across three carriers, clears customs, and then nobody knows where the box is or what's actually on the shelf.\r\n\r\nWaybill runs that entire loop. Send us a part, a spec, or a BOM. We source it, pull quotes, route approvals, pay the supplier, handle freight and customs, track it to your dock, and keep your stock count updated. \r\n\r\nTake your supply chain for granted.\r\n\r\nBuilt by a team that's seen it at LAT Aerospace and WareIQ (YC S20).",
+  "one_liner": "Agentic procurement & inventory for deep tech teams.",
+  "team_size": 3,
+  "industry": "B2B",
+  "subindustry": "B2B -> Supply Chain and Logistics",
+  "launched_at": 1786690936,
+  "tags": [
+    "Artificial Intelligence",
+    "Logistics",
+    "Procurement"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Summer 2026",
+  "status": "Active",
+  "industries": [
+    "B2B",
+    "Supply Chain and Logistics"
+  ],
+  "regions": [
+    "India",
+    "South Asia"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/waybill",
+  "api": "https://devasheeshg.github.io/yc-api/batches/summer-2026/waybill.json",
+  "year_founded": 2026,
+  "city": "Gurugram",
+  "country": "IN",
+  "linkedin_url": "https://www.linkedin.com/company/waybill-inc",
+  "x_url": "",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/b91adedb53afabc881281324143485f1dc3c6674.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Jared Friedman",
+    "url": "https://www.ycombinator.com/people/jared-friedman"
+  },
+  "founders": [
+    {
+      "user_id": 1071184,
+      "full_name": "Rishi Laddha",
+      "title": "Founder/CEO",
+      "founder_bio": "Founder at Waybill. Previously managed operations, supply chain, and government relations at LAT Aerospace (founded by Deepinder Goyal of Zomato). Built and scaled AI trade assistants at INDmoney. BTech in CS & AI from Plaksha University.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/rishiladdha",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/50bddf9b35eb2d7b15a92974b396c1a57b8d634f.jpg"
+    },
+    {
+      "user_id": 1476118,
+      "full_name": "Tushar Goyal",
+      "title": "Founder",
+      "founder_bio": "Founder at Waybill (S26). Previously built AI and software at WareIQ (S20). Computer Science, Plaksha University.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/thetushargoyal/",
+      "x_url": "https://x.com/thetushargoyal",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/fd749c59593d9ac4681a39e6a981f1d0f291cd1b.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 111330,
+      "title": "Waybill - Procurement autopilot for hardware teams.",
+      "tagline": "Take your supply chain for granted.",
+      "body": "Hi YC 👋 we're Rishi and Tushar, and we're building Waybill (<https://waybill.to>).\n\n**TL;DR:** Waybill runs procurement for hardware and deep-tech companies, end to end. An engineer tells us what part they need. Our agents and humans source it anywhere in the world, get quotes, handle payment, shipping, customs, last mile, log it into inventory and match the invoices. One system of record from request to stock. We don’t stop at the ‘order placed’. We make sure it reaches your shelf. A few crazy things Waybill was asked to source &amp; order -\n\n1. A lifetime supply of an obsolete RF component\n2. Cessna aircraft. Yes, real airplanes\n3. Industrial Robots\n\nLaunch video: <https://youtu.be/JPxhZFZ5xco>\n\n**Backstory**\n\nI (Rishi) ran operations at LAT Aerospace (Deepinder Goyal’s aerospace startup) as part of their founding team. On paper, that meant \"sourcing.\" In practice, it meant finding jet engines, flight controllers, high-density batteries, and satellite radios for a very ambitious aerospace program, then moving machinery and merchandise worth millions across borders, and finding and operating real estate you can actually fly aircraft from. I also handled government liaisoning, which is a polite way of saying I convinced the world's harshest bureaucracy to approve things it didn't have a form for, like taking off and landing an aircraft in under 50 meters.\n\nTushar has been working the other end of this problem his whole career. At WareIQ (YC S20), he built the autonomous inventory system behind 400+ Indian D2C brands - forecasting demand and making buying decisions across thousands of volatile SKUs without blowing up working capital.\n\nSo between us: I've spent my career buying hardware the hard way, and Tushar's spent his teaching machines to manage inventory. Waybill is both jobs in one system.\n\n**The problem**\n\nHardware engineers spend a big chunk of their week buying parts. They can't hand it off to operations folks, because only the engineer who specified the part knows which alternates are acceptable. And finding parts is genuinely hard: stock is scattered across distributor catalogs, resellers, and Alibaba listings, and packaging suffixes, obsolete part numbers, and regional inventory make the same part look like six different parts. It's a search, not a lookup.\n\nAll of this runs on email, WhatsApp, and spreadsheets. No system of record, and context dilutes at every handoff. Parts land late, arrive undocumented, or get bought twice. I know because at LAT, _I was the system of record_. It didn't scale.\n\n**What we built**\n\nAn engineer tells Waybill what they need. Our agents find every authorized distributor and manufacturer rep stocking that part anywhere in the world, request quotes and lead times, and rank the options by what the customer actually cares about. A defence company only wants suppliers from allied nations. A medical device company needs provenance. Everyone else wants the right balance of cost, lead time, and complexity.\n\nIf no distributor has it, our network in India, China, and Southeast Asia finds it. If a supplier can't ship to the customer's country, we pick up the box and ship it ourselves.\n\nOnce the order is placed, our agents prepare the customs paperwork, a licensed broker files it, parts are received into inventory automatically, and the invoice is automatically matched against the PO and import documents. The next time someone asks for that part, the agent says it's already on the shelf.\n\nAnd when a customer moves from R&amp;D to production, the same system scales with them. Demand comes off the BOM and build schedule - reorder points, second sources, volume pricing - and we already hold every order, price, and lead time they've ever had.\n\nMost procurement software ends at an approved PO. We end at a physical part on a shelf, customs-cleared and invoice-matched.\n\nRippling made the employee the first-class object and built every service around it. We're doing the same for the part.\n\nHere are a few crazy things engineering teams asked Waybill to procure in the two weeks that we’ve been live -\n\n1. A lifetime purchase of an obsolete RF component\n2. Cessna aircraft. Yes, real airplanes.\n3. Industrial Robots\n\n**Where this goes**\n\nA hardware company should be able to ask us for anything physical and get it. Today that's parts. Next it's PCB fab and assembly, CNC machining, 3D printing, tooling, trucking, warehousing, and allocation on ships and planes. The interface never changes: say what you need, and it arrives.\n\n**Asks**\n\n1. Hardware and deep-tech founders - we want to run your procurement. Comment, DM, or email me at [rishi@waybill.to](mailto:rishi@waybill.to). We’re company size agnostic.\n2. Intros to procurement leads at hardware enterprises. If you know one, we'd love a connect.\n\n**Ask for it and it shows up. Take your supply chain for granted.**",
+      "url": "https://www.ycombinator.com/launches/Sxe-waybill-procurement-autopilot-for-hardware-teams",
+      "votes": 9,
+      "created_at": "2026-08-20T03:30:00.319Z"
+    }
+  ]
+}

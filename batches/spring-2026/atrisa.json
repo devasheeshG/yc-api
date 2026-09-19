@@ -1,0 +1,102 @@
+{
+  "id": 31373,
+  "name": "Atrisa",
+  "slug": "atrisa",
+  "former_names": [
+    "RefortifAI",
+    "Refortifai",
+    "Atrisa (formerly Refortifai)"
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/4617548496dbefec602196f4a8fd1a7cc44bc632.png",
+  "website": "https://atrisa.ai",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "AI Agents to build, debug and automate analog circuit design",
+  "one_liner": "AI Agents for Analog Circuit Design",
+  "team_size": 3,
+  "industry": "B2B",
+  "subindustry": "B2B -> Engineering, Product and Design",
+  "launched_at": 1774743443,
+  "tags": [],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Spring 2026",
+  "status": "Active",
+  "industries": [
+    "B2B",
+    "Engineering, Product and Design"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/atrisa",
+  "api": "https://devasheeshg.github.io/yc-api/batches/spring-2026/atrisa.json",
+  "year_founded": 2026,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/112140930",
+  "x_url": "",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/4617548496dbefec602196f4a8fd1a7cc44bc632.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Nicolas Dessaigne",
+    "url": "https://www.ycombinator.com/people/nicolas-dessaigne"
+  },
+  "founders": [
+    {
+      "user_id": 3404216,
+      "full_name": "Sayan Mitra",
+      "title": "Founder/CEO",
+      "founder_bio": "CEO @ Atrisa | Ex Research Engineer @ KLA Semiconductors | Electrical Engineering @ IIT Madras\n",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/sayanmitra9/",
+      "x_url": "https://x.com/Cyan9800",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/27033531f9f9b8bd466cc52e63931d7adea3862c.jpg"
+    },
+    {
+      "user_id": 2688355,
+      "full_name": "Rithik Jain",
+      "title": "Founder",
+      "founder_bio": "COO @ Atrisa | Ex-PhD @ UW-Madison ",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/rithik--jain/",
+      "x_url": "https://x.com/RithikWasHere",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/c0d593234246a03b323465b4e4a702c0be7469a8.jpg"
+    },
+    {
+      "user_id": 3404307,
+      "full_name": "Atman Kar",
+      "title": "Founder/CTO",
+      "founder_bio": "CTO @ Atrisa | Ex-Texas Instruments Engineer ",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/atman-kar/",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/5d6d1047db4e6ee00895c7dfed617c72154d96d2.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 102384,
+      "title": "Atrisa: Agents for Analog Circuit Design",
+      "tagline": "Enabling analog circuit designers to tokenmaxx",
+      "body": "Hello World!\\\nWe are [Sayan Mitra](https://www.linkedin.com/in/sayanmitra9/), [Atman Kar](https://www.linkedin.com/in/atman-kar/) and [Rithik Jain](https://www.linkedin.com/in/rithik--jain/), the team behind Atrisa!\n\nWe are launching **Atrisa**, an AI agent for analog circuit design - enabling analog circuit designers to tokenmaxx!\n\nAtrisa is the AI-native way to build analog circuits.\n\nRight now, frontier LLMs struggle making analog circuits. Designing industry grade analog circuits relies on “tribal knowledge” and internal company data - which LLMs have never seen.\n\nAtrisa has internalized the intuition of an analog engineer - enabling you to design, understand, and debug analog circuits with natural language!\\\n[https://youtu.be/YupbVdchblk](https://youtu.be/YupbVdchblk?si=HJebBGL3UqALNAXh)\n\n\\\nAtrisa hierarchically reasons about your circuit, finds the right topologies to match your specifications, and does deep-dive debugging and experimentation.\n\nIt takes into context everything an analog engineer would need: Reusability across older designs, possible interference, parasitics, and physical layout context. It can talk to other instances, so you don't get blocked by another engineer’s availability.\n\nAlong with providing a modern chat-based interface, Atrisa fits seamlessly into your existing workflows. You can bring your existing toolkit, PDKs, design docs, and Atrisa will understand and adopt.",
+      "url": "https://www.ycombinator.com/launches/QdM-atrisa-agents-for-analog-circuit-design",
+      "votes": 12,
+      "created_at": "2026-06-02T16:20:45.709Z"
+    }
+  ]
+}

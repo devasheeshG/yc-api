@@ -1,0 +1,129 @@
+{
+  "id": 30512,
+  "name": "MorphoAI",
+  "slug": "morphoai",
+  "former_names": [],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/b6d184a7985bf94fb06fe3645712c7af87070512.png",
+  "website": "https://morpho.ai/",
+  "all_locations": "New York City, NY, USA",
+  "long_description": "We're building an AI powered platform for engineers that are building new robots and machines. \r\n\r\nWe allow users to invent and modify machine designs in a matter of minutes, not years. Ayna and Andy, the co-founders, met during their time at Harvard and started this in 2024 as their programs were wrapping up. We're commercializing 10+ years research done by our team at Harvard and MIT on this space. Our team wrote the very first papers on applying GenAI and optimization algorithms to compose robots from parts and applying computational design to fine tune machine designs. We're bringing in our deep knowledge of modifying equipment and integrating it into factories keenly understanding what makes hardware hard. \r\n\r\nWe take in parts under consideration, constraints and tasks at hand and our algorithm formulates and fine tunes from 100s of possible design options. All in a few clicks, so engineers can push hardware to market faster and companies can benefit from the inventions being done by their R&D teams. We already have two paying customers in the OEM and system integrator spaces. \r\n\r\nWe are venture backed and supported by a GBP 2.5MM grant by ARIA, the UK Government's invention agency. ",
+  "one_liner": "Software tool for designing robots and machines ",
+  "team_size": 7,
+  "industry": "Industrials",
+  "subindustry": "Industrials -> Manufacturing and Robotics",
+  "launched_at": 1746718035,
+  "tags": [
+    "Robotics",
+    "Manufacturing",
+    "AI"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": true,
+  "nonprofit": false,
+  "batch": "Spring 2025",
+  "status": "Active",
+  "industries": [
+    "Industrials",
+    "Manufacturing and Robotics"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada",
+    "Remote",
+    "Partly Remote"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/morphoai",
+  "api": "https://devasheeshg.github.io/yc-api/batches/spring-2025/morphoai.json",
+  "year_founded": 2024,
+  "city": "New York City",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/morphoai/?viewAsMember=true",
+  "x_url": "",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/b6d184a7985bf94fb06fe3645712c7af87070512.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": null,
+  "founders": [
+    {
+      "user_id": 2358627,
+      "full_name": "Ayna Arora",
+      "title": "Founder/CEO",
+      "founder_bio": "Building an AI Powered CAD platform for robotics and machine engineers. Backed with a grant from the UK government. Founded 2 businesses in manufacturing tech previously, setting up factories each time (one of them is now series B). Former VC (software, manufacturing, and CPG focus). Harvard MBA / Industrials + Manufacturing undergrad. ",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/aynaarora/",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/fbb25788fb7817f3b1da61f3e473e82d22cc0557.jpg"
+    },
+    {
+      "user_id": 2225896,
+      "full_name": "Andrew Spielberg",
+      "title": "Founder/CTO",
+      "founder_bio": "\n\nCTO of MorphoAI - interested in simulation methods, design algorithms, and digital manufacturing processes.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/andrew-spielberg-82073926a/",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/9ce7186cd93e4275f6a302f4199728c7a03d3d3a.jpg"
+    }
+  ],
+  "jobs": [
+    {
+      "id": 76272,
+      "title": "Founding Engineer",
+      "url": "https://www.ycombinator.com/companies/morphoai/jobs/aTiZdB8-founding-engineer",
+      "location": "London, England, GB",
+      "type": "Full-time",
+      "role": "Engineering",
+      "role_type": "Machine learning",
+      "salary_range": "£40K - £110K GBP",
+      "equity_range": "",
+      "experience": "1+ years",
+      "visa": "US citizenship/visa not required",
+      "skills": [
+        "C#",
+        "Python",
+        "Torch/PyTorch",
+        "Reinforcement learning (RL)",
+        "Unity",
+        "GPU Programming",
+        "Software Architecture",
+        "CAD Design"
+      ]
+    },
+    {
+      "id": 97107,
+      "title": "Chief of Staff",
+      "url": "https://www.ycombinator.com/companies/morphoai/jobs/VvPeGQK-chief-of-staff",
+      "location": "London, England, GB",
+      "type": "Full-time",
+      "role": "Operations",
+      "role_type": null,
+      "salary_range": "£30K - £45K GBP",
+      "equity_range": "",
+      "experience": "Any (new grads ok)",
+      "visa": "US citizen/visa only",
+      "skills": []
+    }
+  ],
+  "news": [],
+  "launches": [
+    {
+      "id": 90214,
+      "title": "MorphoAI - AI‑powered computer‑aided invention for robotics and machine engineering",
+      "tagline": "Turn parts and task requirements into working machine designs in minutes, not years.",
+      "body": "We’re Ayna and Andrew, and we’re building [MorphoAI](https://morpho.ai/). We’re a team of manufacturing tech experts and MIT PhDs who have written 30+ papers on foundational research of AI design methods for robotics engineering. We met at Harvard last year and decided to help people develop hardware at the speed of software. \n\nIn our research, we demonstrated capabilities that allowed engineers to generate 100s of verified optimal designs from parts and task requirements in minutes, and now we’re translating those findings to a product for robotics & automation. We’re cutting R&D cycles by 50 %+ and letting teams ship better hardware, faster!\n\nhttps://www.youtube.com/watch?v=iGmXIsoUc2Y&feature=youtu.be\n\n### **Problem**\n\nDesigning a new robot, machine, or work‑cell still feels like 1985: weeks of manual CAD drawing, long prototype‑and‑test loops, and “does it even work?” uncertainty. A single product can take 40‑100 iterations and burn through months of engineering time. This all amounts to $240B spent on mechanical design each year. https://www.morpho.ai/ \n\n### **Our Take**\n\nWhat if you could take requirements and ideas into _validated machine designs_ automatically? We’re building that for hardware—so engineers can explore more, better-performing designs, fine-tune the ones likely to work, and land on an optimal design before the first part is cut. Engineers input and tasks and constraints (_what the robot must do)_ and their favorite parts to build with, and MorphoAI’s software auto‑generates, verifies, and fine tunes manufacturable designs in minutes—cutting R&D cycles by 50 %+ and letting teams ship new hardware faster. \n\n### **The MorphoAI Platform**\n\n1. **Generate** hundreds of verified design candidates from parts and task requirements in minutes, and select the concepts to fine-tune.\n2. **Simulate** full‑dynamical behavior with optimal, verified controllers.\n3. **Optimize** for cost, performance, weight, manufacturability, and more.\n\nThe result is a ready‑to‑manufacture machine design, programmable motions, and BOM—delivered in minutes, not months.\n\n### **Team**\n\n* **Ayna Arora** (CEO, Co-founder) – Harvard Business School; Former VC, 2x founder in manufacturing tech setting up factories across the world.\n* **Andy Spielberg, PhD** (CTO, Co-founder) – MIT CSAIL; Harvard PostDoc (digital manufacturing). 30+ papers on Optimization algorithms in robotics design.\n* Founding team: Allan Zhao (MIT PhD on GenAI for robot design), Amira Abdel-Rahman (Havard + MIT PhD on design for hardware) Han Wang (simulation expert in research+industry).\n\nWe’re also backed by ARIA (UK Government’s Invention Agency) with a 2.5MM GBP Grant.\n\n### **What’s Possible Today**\n\nOur early users are:\n\n* Resizing robot geometry and motors to maximize reach and payloads.\n* Redesigning workcells to minimize costs, design time, and improve margins.\n* Auto-generating new end-of-arm tooling designs from parts in hours, not weeks\n\n### **Big Picture**\n\nMorphoAI is the “compiler” for the physical world. As we expand our capabilities, any company will be able to invent machines that were previously infeasible— shrinking $MM R&D budgets and accelerating everything from factory automation to medical innovation to planetary exploration.\n\n### **Let’s Talk**\n\nBuilding a new robot or a new cutting-edge machine? We’d love to talk. Drop us a note at [**hello@morpho.ai**](mailto:hello@morpho.ai) .",
+      "url": "https://www.ycombinator.com/launches/NT4-morphoai-ai-powered-computer-aided-invention-for-robotics-and-machine-engineering",
+      "votes": 24,
+      "created_at": "2025-05-08T17:40:20.776Z"
+    }
+  ]
+}

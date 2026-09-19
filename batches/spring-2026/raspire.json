@@ -1,0 +1,88 @@
+{
+  "id": 31494,
+  "name": "RASPIRE",
+  "slug": "raspire",
+  "former_names": [],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/0eec2630d827ef4927b95e335dc060a630450da9.png",
+  "website": "https://raspire.com/",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "RASPIRE is the first line of defense for applications against AI-powered fraud attacks, API abuse, and runtime threats. Unlike code scanners and pentesting tools that identify vulnerabilities before release, RASPIRE operates like a security expert running inside applications, monitoring, detecting, and blocking attacks 24/7 in real time. All without writing a single line of code.",
+  "one_liner": "Autonomous Runtime Security",
+  "team_size": 3,
+  "industry": "B2B",
+  "subindustry": "B2B -> Security",
+  "launched_at": 1780001140,
+  "tags": [],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Spring 2026",
+  "status": "Active",
+  "industries": [
+    "B2B",
+    "Security"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/raspire",
+  "api": "https://devasheeshg.github.io/yc-api/batches/spring-2026/raspire.json",
+  "year_founded": 2025,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/raspire",
+  "x_url": "https://x.com/raspire_",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/0eec2630d827ef4927b95e335dc060a630450da9.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Andrew Miklas",
+    "url": "https://www.ycombinator.com/people/andrew-miklas"
+  },
+  "founders": [
+    {
+      "user_id": 2883773,
+      "full_name": "Kareem Selim",
+      "title": "Founder/CEO",
+      "founder_bio": "Co-founder & CEO @ RASPIRE. Used to break apps for a living. Now shipping automated security for them, built by hackers, against hackers.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/kareem-se1im",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/1821dbc0b5e8a5df323515f4a9c2ed1068837dbf.jpg"
+    },
+    {
+      "user_id": 3400512,
+      "full_name": "Hassan Mostafa",
+      "title": "Founder/CTO",
+      "founder_bio": "Co-founder & CTO @ RASPIRE. Spent years breaking apps for banks and fintechs, now building the runtime security they were missing.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/h4ss4nmostafa/",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/a5e2122e34822d6bbb15b273a2dfcb644fd4ceb3.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 102582,
+      "title": "RASPIRE - App Security at AI Speed.",
+      "tagline": "The fastest way to secure mobile apps without writing a single line of code.",
+      "body": "Hey everyone 👋! We're [Kareem Selim](https://www.linkedin.com/in/kareem-se1im/) and [Hassan Mostafa](https://www.linkedin.com/in/h4ss4nmostafa/), co-founders of [RASPIRE](https://www.linkedin.com/company/raspire/).\n\n**TL;DR:** RASPIRE is an AI runtime security layer for mobile apps. It protects applications every time they run, automatically detecting and responding to attacks in production while giving security teams real-time visibility into threats across their applications. Already protecting apps used by 20M+ end users across banking, fintech, healthtech, and e-commerce.\\\n\\\n**Our Launch Video**: <https://youtu.be/uggwRzCNs88>\n\n\\\n**Ask**: Building a mobile app or already have one? We'll help you secure it. Book a demo: [cal.com/raspire/demo](https://cal.com/raspire/demo)\n\n**The problem**\n\nBuilding and shipping a mobile app has never been easier.\n\nBut security still requires complex integrations, code changes, and months of work.\n\nExisting solutions often requires SDK integrations, configuration, and security expertise to operate but developers shouldn't become security experts just to ship an app.\n\nAs a result, security is often overlooked or assumed to be handled by app stores.\n\nit's not…\n\nand as AI accelerates app development, the attack surface is growing faster than security can keep up.\\\n\\\n**The Solution**\n\nIf you can build an app in one click, you should be able to secure it in one click.\n\nRASPIRE is making securing mobile apps as simple as building them. We protect Android and iOS applications without writing a single line of code.\n\nSimply upload your compiled app, and RASPIRE automatically applies the right protections in minutes, from anti-fraud and app integrity to reverse-engineering and API protection.\n\nUnlike code scanners tools that stop before release, RASPIRE protects applications every time they run, automatically detecting and responding to attacks in production while giving security teams real-time visibility into threats across their applications.\n\n**How it works**\n\nUpload your compiled app (APK/IPA). We harden it automatically. No SDK. No code changes. No config files. No workflow changes. Done in minutes. Plugs into your CI/CD pipeline. Cloud or on-prem, your call.\n\n![uploaded image](/media/?type=post&id=102582&key=user_uploads/3400512/3f3b04d5-4b8a-4357-b2ac-09e039c8ac59)\n\n**Full visibility into your app's security**\n\nOnce shielded, you get real-time visibility into everything happening inside your app. Security events flow into your existing SIEM or your application monitoring platform (e.g. Sentry/DataDog).\n\n![uploaded image](/media/?type=post&id=102582&key=user_uploads/3400512/6156e141-2d96-48e9-aa78-a0e933f97d96)\n\n**Hunt the attackers, not just the attacks**\n\nMost security tools tell you what happened. RASPIRE tells you who did it, down to the device. And lets you block them permanently.\n\n**The team**\n\nWe've known each other for 10 years. We've won CTFs and security hackathons together, and spent 15 combined years in offensive security. Hundreds of security audits for banks, fintechs, and enterprises. We've seen every way a mobile app can break. Now we make sure yours doesn't.\n\n![uploaded image](/media/?type=post&id=102582&key=user_uploads/3400512/011a04a0-00ff-448b-9b18-5387b6933a2e)\n\n**Our ask**\n\nIf any of these describe you, we'd love to talk:\n\n* Leading mobile security and compliance across your organization.\n* Building apps in banking, fintech, healthcare, or other regulated industries.\n* Running a consumer mobile app and concerned about fraud, account takeover, or reverse engineering.\n* Building mobile games and need anti-cheat protection.\n* Building apps with AI and want to protect your APIs, secrets, and user data.\n\nVisit [raspire.com](http://raspire.com) or book a demo at [cal.com/raspire/demo](https://cal.com/raspire/demo)",
+      "url": "https://www.ycombinator.com/launches/QgY-raspire-app-security-at-ai-speed",
+      "votes": 1176,
+      "created_at": "2026-06-04T18:26:15.672Z"
+    }
+  ]
+}

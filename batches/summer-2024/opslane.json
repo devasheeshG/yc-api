@@ -1,0 +1,85 @@
+{
+  "id": 29751,
+  "name": "Opslane",
+  "slug": "opslane",
+  "former_names": [
+    "TBD",
+    "Opslane",
+    "Octopipe"
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/d93b9323bb2d6146f1e9e67bf29441615e86a467.png",
+  "website": "https://opslane.com",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "Opslane verifies that AI-written code actually works. Opslane opens your app in a real browser, clicks through what the PR changed, and posts screenshots, video, and data checks as proof it works.",
+  "one_liner": "Verify AI-generated code before you ship it",
+  "team_size": 1,
+  "industry": "B2B",
+  "subindustry": "B2B -> Infrastructure",
+  "launched_at": 1721925789,
+  "tags": [
+    "Artificial Intelligence",
+    "Developer Tools",
+    "Open Source",
+    "Enterprise",
+    "DevOps"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Summer 2024",
+  "status": "Active",
+  "industries": [
+    "B2B",
+    "Infrastructure"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/opslane",
+  "api": "https://devasheeshg.github.io/yc-api/batches/summer-2024/opslane.json",
+  "year_founded": 2024,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/opslaneinc",
+  "x_url": "",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/d93b9323bb2d6146f1e9e67bf29441615e86a467.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": null,
+  "founders": [
+    {
+      "user_id": 230654,
+      "full_name": "Abhishek Ray",
+      "title": "Founder/CEO",
+      "founder_bio": "Co-founder @ Opslane. \n\nAbhishek was an early engineer at Robinhood and Quora. He was at Robinhood for 5 years  where he helped scale infrastructure from ~1M to 20M+ customers. He saw firsthand how challenging incident response can be when critical information is spread across 6 different observability tools.",
+      "is_active": true,
+      "linkedin_url": "https://linkedin.com/in/abhishek-ray-29210145",
+      "x_url": "https://twitter.com/abhishekray07",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/93e52b105731f064e9682974b7c5ad2b3332f869.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 82453,
+      "title": "Opslane – Making on-call suck less",
+      "tagline": "We reduce alert fatigue for on-call teams.",
+      "body": "**TL;DR**\n\nOur [Slack bot](https://github.com/opslane/opslane) classifies your Datadog alerts and flags noisy alerts, reducing alert fatigue.\n\nAdditionally, we generate insights based on all your alerts to give you a picture of your overall alert hygiene.\n\n### The Problem\n\n**Picture this:** It's 3AM, and you're woken up by a page. It's an error you've seen before, and you know it wasn't worth waking up for.\n\nAnyone who's been on-call knows the infamous middle-of-the-night unactionable alert all too well.\n\nEven with modern tools, it's still tough to determine when something has actually gone wrong, the user impact, and how to fix it quickly.\n\n**Why are existing solutions not cutting it?**\n\n* Lack of context - it's really hard to understand the customer and business impact from looking at an alert.\n* Alerts are noisy and not actionable.\n* Debugging requires context switching between multiple siloed tools.\n\n### Our solution\n\nWe're starting with our open source Slack bot that reduces alert noise.\n\nOnce you add our bot to your Slack channel, we pull your alert history from Datadog.\n\nWe analyze your alert history across various parameters:\n\n* Alert frequency\n* How quickly have the alerts resolved in the past\n* Alert priority\n* Alert response history\n\nBased on these, we classify your alert as actionable or noisy.\n\n![User-uploaded](https://slabstatic.com/prod/uploads/s97i19pj/posts/images/6P01k6pFnPq5repaabLC5_-G.png)\n\nIn addition, we generate a report on your team's overall alert health, pinpointing which noisy alerts are prime candidates for tuning or disabling.\n\n![User-uploaded](https://slabstatic.com/prod/uploads/s97i19pj/posts/images/1e4X0_iAo7eLJh7PLEo1oZoS.png)\n\nOur vision is to stitch together all the relevant context engineers need to debug incidents in one place and automate root cause analysis.\n\n### Team\n\n![uploaded image](/media/?type=post&id=82453&key=user_uploads/6530/ba62e789-6ccf-4b5c-a555-90e5c932d81c)\n\nWe ([Amaresh](https://linkedin.com/in/amareshray/) and [Abhishek](https://linkedin.com/in/abhishek-ray-29210145)) have firsthand experience dealing with the challenges of on-call and alert fatigue at companies like Robinhood and Atlassian. With Opslane, we’re reducing the alert fatigue that overwhelms on-call engineers and leads to millions in lost productivity and downtime.\n\n### Ask\n\n🔥 Are noisy alerts a hair-on-fire problem for your company or someone you know? We'd love to hear from you - email [founders@opslane.com](mailto:founders@opslane.com) or [schedule a call](https://cal.com/team/opslane/demo) with us.\n\n⭐ Please star us on Github: <https://github.com/opslane/opslane>",
+      "url": "https://www.ycombinator.com/launches/LRt-opslane-making-on-call-suck-less",
+      "votes": 10,
+      "created_at": "2024-07-26T14:59:47.999Z"
+    }
+  ]
+}

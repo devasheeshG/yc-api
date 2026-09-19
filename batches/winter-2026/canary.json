@@ -1,0 +1,97 @@
+{
+  "id": 31256,
+  "name": "Canary",
+  "slug": "canary",
+  "former_names": [],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/6d55fa276b2612d52a9f09c0de3bc498d001bf08.png",
+  "website": "https://www.runcanary.ai",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "AI coding tools have made developers 100x faster but customer-facing incidents are up 43% YoY, QA hasn't kept up. Canary is the first AI QA engineer that understands your codebase. Instead of relying on flaky DOM scraping or screenshot analysis, Canary reads your source code directly to understand developer intent and catch broken user flows before they hit production. Engineering teams go from weeks of manual testing to 90%+ coverage in days. Built by a team that built coding agents at Windsurf, Cognition and Google.\r\n",
+  "one_liner": "Adversarial AI that breaks your AI",
+  "team_size": 2,
+  "industry": "B2B",
+  "subindustry": "B2B -> Engineering, Product and Design",
+  "launched_at": 1770954754,
+  "tags": [],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Winter 2026",
+  "status": "Active",
+  "industries": [
+    "B2B",
+    "Engineering, Product and Design"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": [
+    {
+      "question": "How did your company get started? (i.e., How did the founders meet? How did you come up with the idea? How did you decide to be a founder?)",
+      "answer": "We built AI coding agents at Windsurf and Google, tools that made developers 100x faster. But we kept seeing the same problem: teams were shipping code faster than ever, and things were breaking in production. Critical auth bugs affecting Fortune 10’s, region-wide outages, broken user flows, payroll systems going down. The QA process hadn't evolved at all. We realized someone needed to build the validation layer for AI-generated code, and we were uniquely positioned to do it. We understood exactly how these coding agents work because we built them."
+    },
+    {
+      "question": "What is the core problem you are solving? Why is this a big problem? What made you decide to work on it?",
+      "answer": "Customer-facing incidents are up 43% YoY. AI coding tools have supercharged development speed, but QA is still stuck in the manual testing era. Engineering teams are either spending weeks writing and maintaining test suites, or shipping and praying with 0% test coverage. Existing testing tools rely on brittle DOM scraping or screenshot analysis that breaks constantly. Canary solves this by reading source code directly, the same codebase developers write, to understand intent and automatically validate every critical user flow"
+    }
+  ],
+  "url": "https://www.ycombinator.com/companies/canary",
+  "api": "https://devasheeshg.github.io/yc-api/batches/winter-2026/canary.json",
+  "year_founded": 2026,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/canaries-inc/",
+  "x_url": "https://x.com/RunCanary",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/6d55fa276b2612d52a9f09c0de3bc498d001bf08.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Jon Xu",
+    "url": "https://www.ycombinator.com/people/jon-xu"
+  },
+  "founders": [
+    {
+      "user_id": 1465952,
+      "full_name": "Aakash Mahalingam",
+      "title": "Founder/CEO",
+      "founder_bio": "Building Canary: Adversarial AI that breaks your AI.\n\nPreviously built Windsurf's enterprise product, worked on Applied AI tooling around foundational models for enterprises. Launched the enterprise self-serve plan to $20M ARR in 6 months. \nICPC APAC finalist. ",
+      "is_active": true,
+      "linkedin_url": "https://linkedin.com/in/aakashmahalingam",
+      "x_url": "https://x.com/Aakash_Mahali",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/6cd4b9b063d200448d1454e2e3cd0222de0be838.jpg"
+    },
+    {
+      "user_id": 3186931,
+      "full_name": "Viswesh N G",
+      "title": "Founder/CTO",
+      "founder_bio": "Building Canary: The first AI QA engineer that understands code\n\nArchitected the engine that beat GPT-5.4 and Claude Opus 4.6 by 11–26 points on QA-Bench. Previously at Google Cloud: built the zone recommendation system for SAP workloads that GCP sales use to place enterprise deployments; \nPrev at Swiggy: re-architected Swiggy's infra serving 300K orders/day. \nICPC APAC finalist.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/visweshng/",
+      "x_url": "https://x.com/g_viswesh?s=21&t=siO0a79yNQPfwk_Nn8B9NA",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/e3972bfe5b5c5bbe42269d08d84220c4c8c136cb.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 97890,
+      "title": "Canary 🐥: The first AI QA Engineer that understands your codebase",
+      "tagline": "The validation layer for AI generated code.",
+      "body": "Hey everyone, we're the founding team behind Canary, ex-Windsurf and Google engineers.\n\n# **TL;DR**\n\n[Canary](https://www.runcanary.ai) is the first AI QA engineer that understands your codebase. Built by a team of ex-Windsurf and Google engineers, Canary reads your source code to understand what your app is supposed to do, then tests it like a real user would. Teams using Canary have caught broken auth flows, slow page loads, and drifts in AI responses before users hit them. Chat with us [here](https://cal.com/runcanary/founders-canary)\n\n<https://youtu.be/IeP7H_E8yCM>\n\n# **The Problem**\n\nAI coding tools have made every engineering team 5–10x faster. Code generation is a solved problem. Code validation is not.\n\nCustomer-facing incidents are up 43% year over year. PRs are bigger, code reviews still happen in file diffs, and nobody is testing real user journeys before merge. Changes that look clean in review break checkout, auth, and billing in production.\n\nQA teams are either non-existent or underwater. Manual testing can't keep up with AI-generated code volume. E2E test suites don't scale. The gap between shipping speed and validation is widening every sprint.\n\n# **How Canary Works**\n\nCanary connects to your codebase to understand how your app is built — routes, controllers, validation logic, API schemas. When it runs tests, it uses your code as the reference point to verify and understand how to execute them.\n\n**PR Testing**\n\nPush a PR. Canary reads the diff to know what changed, uses your codebase to understand the intent behind your application and the changes, then generates and runs tests against your preview app, checking real user flows end to end.\n\n**_Step 1: Canary analyzes your PR and comments what it found_**\n\n![uploaded image](/media/?type=post&id=97890&key=user_uploads/1465952/5a5754e8-e0f2-4c5b-bd10-fc1ab314ed3b)\n\n**_Step 2: Canary runs tests and reports results directly on the PR_**\n\n![uploaded image](/media/?type=post&id=97890&key=user_uploads/1465952/001bd6ff-fd2b-4344-b272-e3fd630ea3d8)\n\n**_Step 3: Click into any failed test to see exactly what broke_**\n\n![uploaded image](/media/?type=post&id=97890&key=user_uploads/1465952/d0ca3915-0fb2-4226-9f78-05647886bb46)\n\n**_Step 4: Want a specific user flow tested? Trigger it through a PR comment_**\n\n![uploaded image](/media/?type=post&id=97890&key=user_uploads/1465952/cf303da1-9272-461e-83e6-206f45569cfb)\n\n**Regression Testing**\n\nMove any PR test into a regression suite for ongoing use. Or describe what you want to test in plain English on our platform.\n\nCanary generates a full test suite from your codebase, schedules it, and runs it continuously. Regression suites also run on every PR, catching bugs from new code changes before they ship.\n\n![uploaded image](/media/?type=post&id=97890&key=user_uploads/1465952/a070c92d-dda3-47d8-8b92-a1ae26b05f3b)\n\n# **Run Canary**\n\nTeams using Canary have caught broken auth flows, slow page loads, and drifts in AI responses as well.\n\nWe're now working directly with engineering and product teams to customize Canary to their codebase and workflows. If your team is shipping with AI coding tools and quality feels like it's falling behind, we'd love to work with you.\n\nReach out at [founders@runcanary.ai](mailto:founders@runcanary.ai) or chat with us directly [here](https://cal.com/runcanary/founders-canary)\n\n# **The Team**\n\nThe founding team comes from Windsurf and Google, with deep experience building AI coding tools, AI inference systems, and enterprise-scale infrastructure.\n\nWe've built the AI tools engineers use to ship faster. We've built the enterprise systems those tools ship into. We've built both sides, Canary sits at the intersection.",
+      "url": "https://www.ycombinator.com/launches/PSs-canary-the-first-ai-qa-engineer-that-understands-your-codebase",
+      "votes": 13,
+      "created_at": "2026-02-17T21:18:29.099Z"
+    }
+  ]
+}

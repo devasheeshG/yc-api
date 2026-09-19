@@ -1,0 +1,134 @@
+{
+  "id": 30244,
+  "name": "Mosaic",
+  "slug": "mosaic-2",
+  "former_names": [
+    "Frame AI",
+    "FrameCut AI"
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/3c8413f69be9e2f1c16114a6a958c34a98655042.png",
+  "website": "https://mosaic.so",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "Mosaic builds frontier video agents. We work to codify the language of video and imbue that as taste into agents.\r\n",
+  "one_liner": "Frontier Video Agents",
+  "team_size": 5,
+  "industry": "Consumer",
+  "subindustry": "Consumer -> Content",
+  "launched_at": 1740665933,
+  "tags": [],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": true,
+  "nonprofit": false,
+  "batch": "Winter 2025",
+  "status": "Active",
+  "industries": [
+    "Consumer",
+    "Content"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": true,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": [
+    {
+      "question": "How did your company get started? (i.e., How did the founders meet? How did you come up with the idea? How did you decide to be a founder?)",
+      "answer": "We were both engineers at Tesla when one day, we had a fun idea to make a YouTube video of Cybertrucks in Palo Alto. The idea was simple: we’d record cars going by and for each Cybertruck we counted, we’d buy a share of Tesla stock. It had all the makings of a viral video, but after recording, we came back to hours of raw footage of cars driving by. It quickly dawned on us that we’d have to scrub through this entire raw footage to count the Cybertrucks. As we began editing, we experienced firsthand the frustration of trying to accomplish simple tasks in video editors like DaVinci Resolve and Adobe Premiere Pro. Features are hidden behind menus, buttons, and icons, and we often found ourselves Googling or asking ChatGPT how to do certain edits. We thought that now — with multimodal AI — we could accelerate some of this process. And better yet, if the AI is built into your video editor, it could automatically apply edits based off what it sees and hears in your video. The idea quickly snowballed and we began our side quest to build the _Cursor for Video Editing._"
+    },
+    {
+      "question": "What's the history of your company from getting started until the present day? What were the big inflection points?",
+      "answer": "We spent the first month of YC building our entire video editor and making our multimodal chat copilot powerful and stateful. But after talking to users, we quickly realized that the chat interface has some limitations for video, primarily because of chat’s inherent prompt-response sequential UX. We spent month 2 of YC going back to first principles to create a new, agentic paradigm for video editing. The result: a node-based canvas which enables you to create and run your own multimodal video editing agents. The idea is that canvas will run your video editing on autopilot, and get you 80-90% of the way there. Then, you can go into the editor & chat with your video for the final touches and polish."
+    }
+  ],
+  "url": "https://www.ycombinator.com/companies/mosaic-2",
+  "api": "https://devasheeshg.github.io/yc-api/batches/winter-2025/mosaic-2.json",
+  "year_founded": 2024,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/mosaic-so",
+  "x_url": "https://x.com/mosaic_so",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/3c8413f69be9e2f1c16114a6a958c34a98655042.png",
+  "app_video_url": "https://bookface-images.s3.us-west-2.amazonaws.com/bf-public_profile/30297/app_video.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECAISROXGXA%2F20260919%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260919T020230Z&X-Amz-Expires=60&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEIn%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJGMEQCIHgZf%2Be2OYWINtGE0P9A%2FS8c8UCChJTWJf8PvpIP%2BdkmAiAWnGBg5EFb9a3MQPjNcyJ7stdINygogqQuTTgum%2BjDMCrlAwhSEAAaDDAwNjIwMTgxMTA3MiIMtDgQDblXZE74b8xFKsIDANa7qzuKbbBpea%2FbOU3gyTxQJ6RQH5D2LQ1GQbD0XHtKQM2CTIEaPO9CCclYTPxiuoLkYl38kpm1cjalsHrXo9QfE2IcqlCpR5bINkMNEz8kgURklpPoQuvA1ypE5QruFR8%2BNmYlTCUjTTf6l7o6f52nwXy%2F2v1JMf3raOEenLs8%2BsjNoYEowh1lyuwGHpQqfRRhTlysogZjBjlVm%2Bi7%2FniImKG7ta7VIIc4FWhZrR9ORRpZOVPoy6%2Bkd9v%2FEMSho1U%2FdpcVJe8TJSz9ZLX4g%2B3x4S7HIPizF2TY3kSeBHDwsXpDaylfv3tEqYgXBIfg8x3ZuKXIPCSdYEn4vqxrC%2F%2BhZprX4I4k8MiOUSgFn6TikdE1pDByfacTlh2rHFNNdCJ96gEYUUvS7sgjjNpF38tSYBtzv%2BhLJl2GUZEYhuDe6eZgQ5huAbA4UIrFb%2FSxe3sd3vMbJsrbwbRCzbiVVsKN6pJHe4BvGmDLtEq%2F%2Bg0NIJVTnfysrZso9vIIaQFGEM27D4grBsP8KnbdSbN7oR1nbP9D2RoserTWEOz9Y4DhOs6ax4C0ESlNdm23U5lbEu%2BdqBknIlx%2FaYl4G8KAtXYVMMvBt9UGOqYBH6pSjQqLyJBMbG%2B2vof86GBIIqr6Ov95%2BR%2BZ0FIQyg8wLGA1l0oePctyAVrWcxYNhtEto1RD7G0ikmYyhUIhwOfF%2FZjz%2F6diZA4qzkZnupJBq9wxO733vBhwLgVhtzItGSM%2BIkZvjJSox2sIp6Uod4BHY%2FgvuE%2BMgGOa5xD6GOJUUM5BJgRvpKWBpWq4WnqAiM7KNAdwfAdtpKGfWGb5%2B4az2ygu8g%3D%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=b89cfc6c1fe2206adb7037f319691471ca1e4fac02a642d7a9e59bcc45a3e7ad",
+  "dday_video_url": null,
+  "company_photos": [
+    "https://bookface-images.s3.us-west-2.amazonaws.com/attachments/f526f46694c3552aa1dd3ef074d707a8fd9d8fea.png",
+    "https://bookface-images.s3.us-west-2.amazonaws.com/attachments/f933e299623c5e8effac496e49c23dfaa8456166.png"
+  ],
+  "primary_partner": {
+    "name": "Harj Taggar",
+    "url": "https://www.ycombinator.com/people/harj-taggar"
+  },
+  "founders": [
+    {
+      "user_id": 579449,
+      "full_name": "Adish Jain",
+      "title": "Founder/CEO",
+      "founder_bio": "CEO & Co-Founder @Mosaic. Previously Engineering @Tesla @AWS @Berkeley.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/adish-jain/",
+      "x_url": "https://x.com/_adishj",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/845c47cb0a9733ebce6269de7e0fee1fc38c6c38.jpg"
+    },
+    {
+      "user_id": 915744,
+      "full_name": "Kyle Wade",
+      "title": "Founder/CTO",
+      "founder_bio": "CTO & Co-Founder @Mosaic. Previous ML Researcher @UCSD and Software Engineer @Tesla",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/kylewade1373/",
+      "x_url": "https://twitter.com/superfx64",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/3d6fd4e6e99d70ac14edd73fb44b11bbf0fe3598.jpg"
+    }
+  ],
+  "jobs": [
+    {
+      "id": 101061,
+      "title": "Founding GTM",
+      "url": "https://www.ycombinator.com/companies/mosaic-2/jobs/wNFjl8f-founding-gtm",
+      "location": "San Francisco, CA, US",
+      "type": "Full-time",
+      "role": "Sales",
+      "role_type": null,
+      "salary_range": "$150K - $200K",
+      "equity_range": "0.50% - 1.00%",
+      "experience": "3+ years",
+      "visa": "US citizen/visa only",
+      "skills": []
+    }
+  ],
+  "news": [
+    {
+      "title": "Mosaic Raises $3.8M to Build Video Editing Agents | Mosaic Blog",
+      "url": "https://mosaic.so/blog/mosaic-seed-round-announcement",
+      "date": "Apr 07, 2026"
+    },
+    {
+      "title": "Veo 3 and Veo 3 Fast – new pricing, new configurations and better resolution - Google Developers Blog",
+      "url": "https://developers.googleblog.com/en/veo-3-and-veo-3-fast-new-pricing-new-configurations-and-better-resolution/",
+      "date": "Sep 08, 2025"
+    },
+    {
+      "title": "Adish Jain on Reinventing Video Editing with Mosaic’s AI Agents | Interview | AIPressRoom",
+      "url": "https://aipressroom.com/adish-jain-mosaic-interview/",
+      "date": "Apr 26, 2025"
+    },
+    {
+      "title": "20 YC Startups Demoing at SaaStr 2025 Pushing the AI Frontier! From Abundant AI to Mosaic to Veriflow and More!! | SaaStr",
+      "url": "https://www.saastr.com/20-yc-startups-at-saastr-annual-2025-pushing-the-ai-frontier-from-abundant-ai-to-mosaic-to-veriflow-and-more/",
+      "date": "Apr 04, 2025"
+    },
+    {
+      "title": "【2025最新】Mosaic AIとは？特徴や使い方、料金まで解説！| 日本最大の生成AIデータベース「AIツールギャラリー」",
+      "url": "https://ai-gallery.jp/tools/mosaic-ai/",
+      "date": "Mar 16, 2025"
+    }
+  ],
+  "launches": []
+}

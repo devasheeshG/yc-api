@@ -1,0 +1,108 @@
+{
+  "id": 30858,
+  "name": "Deeptrace",
+  "slug": "deeptrace",
+  "former_names": [
+    "Pyda"
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/1ff25b7c4b471648245dcc565a8d35be62b42ef0.png",
+  "website": "https://deeptrace.com/",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "At Deeptrace, we’re building AI agents that investigate and resolve production alerts end-to-end. Deeptrace cuts through the noise, pinpoints root causes instantly, and gives engineering teams back what they need most: the freedom to build instead of firefighting.\r\n\r\nIn production, we're already seeing a reduction in time spent triaging, investigating, and resolving alerts with some of the fastest growing companies in the world.",
+  "one_liner": "AI agents for on-call",
+  "team_size": 4,
+  "industry": "B2B",
+  "subindustry": "B2B",
+  "launched_at": 1759160221,
+  "tags": [],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": true,
+  "nonprofit": false,
+  "batch": "Fall 2025",
+  "status": "Active",
+  "industries": [
+    "B2B"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/deeptrace",
+  "api": "https://devasheeshg.github.io/yc-api/batches/fall-2025/deeptrace.json",
+  "year_founded": 2025,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/deeptrace-ai/",
+  "x_url": "",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/1ff25b7c4b471648245dcc565a8d35be62b42ef0.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Garry Tan",
+    "url": "https://www.ycombinator.com/people/garry-tan"
+  },
+  "founders": [
+    {
+      "user_id": 908012,
+      "full_name": "Andy Lee",
+      "title": "Founder",
+      "founder_bio": "Co-founder at Deeptrace. At Tesla, Andy worked on visualization and sim for Optimus. He also worked on build/flight reliability at SpaceX for Starship, Falcon, and Dragon.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/andy-lee-126073148/",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/f92c4d13818241b73f0495a02723328ade49e1a1.jpg"
+    },
+    {
+      "user_id": 905914,
+      "full_name": "Sri Somasundaram",
+      "title": "Founder",
+      "founder_bio": "Co-founder at Deeptrace. Built and launched the embedded card + banking product at Parafin.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/srinath-somasundaram-768bb8210/",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/64ed0c284b0df239b69a5b9f2b06569974b2f5d8.jpg"
+    }
+  ],
+  "jobs": [
+    {
+      "id": 90890,
+      "title": "Founding Engineer",
+      "url": "https://www.ycombinator.com/companies/deeptrace/jobs/HUgeLrM-founding-engineer",
+      "location": "San Francisco, CA, US / Palo Alto, CA, US",
+      "type": "Full-time",
+      "role": "Engineering",
+      "role_type": "Full stack",
+      "salary_range": "$100K - $200K",
+      "equity_range": "0.10% - 2.50%",
+      "experience": "Any (new grads ok)",
+      "visa": "Will sponsor",
+      "skills": [
+        "Amazon Web Services (AWS)",
+        "Python",
+        "Next.js"
+      ]
+    }
+  ],
+  "news": [],
+  "launches": [
+    {
+      "id": 95393,
+      "title": "Deeptrace - AI agents for on-call",
+      "tagline": "Triage, root-cause, and fix every engineering alert on autopilot",
+      "body": "**tl;dr** Deeptrace is an AI SRE that investigates and resolves production alerts end-to-end. Deeptrace cuts through the noise, pinpoints root causes instantly, and gives engineering teams back what they need most: the freedom to build instead of firefighting.\n\nHey everyone! This is Andy and Sri from Deeptrace, and we’re building the tool we always wished we had as engineers: AI agents for on-call :) \n\n[Deeptrace: AI agents for on-call](https://www.youtube.com/watch?v=G7xrTHTxZ4k)\n\n🚨 **Problem**\\\nModern engineering teams spend the majority of their time maintaining and debugging production systems. The process of triaging, root causing, and resolving alerts is a massive drag on engineering velocity. This also creates fragile dependencies within an engineering org where no one engineer can hold every system in their head.\n\n**💡 Our Solution**\\\nAI agents that debug every issue, crash, and alert in production automatically from alert to PR. Here’s how it works:\n\n**1) AI FDE model:** Build an internal mapping between your logs, traces, metrics, and codebase to truly understand how your production system behaves.\\\n**2) Automatic PRs:** Use the context from each investigation to make a targeted PR to remediate the issue.\\\n**3) Chat:** Engage in a co-pilot experience with Deeptrace to vibe debug and dig deeper into an issue.\n\n**🤝 Our ask**\\\nWe’d love to talk! Check us out [here](https://deeptrace.com) and feel free to email us at: [founders@deeptrace.com](mailto:founders@deeptrace.com) or book a [meeting](http://cal.com/sri-deeptrace)! ",
+      "url": "https://www.ycombinator.com/launches/Oob-deeptrace-ai-agents-for-on-call",
+      "votes": 16,
+      "created_at": "2025-11-12T06:56:34.497Z"
+    }
+  ]
+}

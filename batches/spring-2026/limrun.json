@@ -1,0 +1,100 @@
+{
+  "id": 31377,
+  "name": "Limrun",
+  "slug": "limrun",
+  "former_names": [],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/ab10903dc4335cb12beff61e9e9cb75f732ed72a.png",
+  "website": "https://lim.run",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "Coding agents in the cloud don't work for majority of teams who require native capabilities; they lack XCode for iOS, Emulator for Android, Unity for game development teams. We are on a mission to cloudify every local development utility so that regardless of where it runs, your agent can compose an ideal set of capabilities on the fly so you don't need to run it on your laptop.\r\n\r\nToday, we provide remote services such as XCode, iOS & Android simulators to enable coding agents running in any sandbox to be able to build and iterate over mobile apps, too.\r\n\r\nReplit, Rork, Momentic, Minitap and more agent companies have built mobile development and testing experiences on Limrun platform. Coconote (Quizlet), SorceJobs (W25) and more companies with mobile apps use Limrun with their cloud agents, merging PRs without having to check out the code locally.",
+  "one_liner": "Extend cloud sandboxes with iOS, Android and more",
+  "team_size": 1,
+  "industry": "B2B",
+  "subindustry": "B2B -> Infrastructure",
+  "launched_at": 1779230895,
+  "tags": [],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": true,
+  "nonprofit": false,
+  "batch": "Spring 2026",
+  "status": "Active",
+  "industries": [
+    "B2B",
+    "Infrastructure"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada",
+    "Remote",
+    "Partly Remote"
+  ],
+  "stage": "Growth",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/limrun",
+  "api": "https://devasheeshg.github.io/yc-api/batches/spring-2026/limrun.json",
+  "year_founded": 2025,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/limrun",
+  "x_url": "https://x.com/limrun",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/ab10903dc4335cb12beff61e9e9cb75f732ed72a.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Harj Taggar",
+    "url": "https://www.ycombinator.com/people/harj-taggar"
+  },
+  "founders": [
+    {
+      "user_id": 262589,
+      "full_name": "Muvaffak Onuş",
+      "title": "Founder/CEO",
+      "founder_bio": "Previously at Amazon (intern), SAP, Upbound and QA Wolf. I optimized EMR clusters at Amazon for ML workloads, then worked on Kubernetes at SAP and at Upbound, I was maintainer at Crossplane, open source cloud control plane, and tech lead for provider efforts. At QA Wolf, I founded and led the team that built web & mobile testing sandboxes at global scale.",
+      "is_active": true,
+      "linkedin_url": "https://linkedin.com/in/mmonus",
+      "x_url": "https://x.com/muvaffakonus",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/82cf60ae8c544b701f2e71ac6ed01a5e5264287a.jpg"
+    }
+  ],
+  "jobs": [
+    {
+      "id": 110499,
+      "title": "Founding Engineer",
+      "url": "https://www.ycombinator.com/companies/limrun/jobs/SvYNO1K-founding-engineer",
+      "location": "San Francisco, CA, US / Remote (San Francisco, CA, US)",
+      "type": "Full-time",
+      "role": "Engineering",
+      "role_type": "Backend",
+      "salary_range": "$180K - $300K",
+      "equity_range": "",
+      "experience": "3+ years",
+      "visa": "Will sponsor",
+      "skills": [
+        "Go",
+        "Kubernetes",
+        "Distributed Systems",
+        "Software Architecture"
+      ]
+    }
+  ],
+  "news": [],
+  "launches": [
+    {
+      "id": 101736,
+      "title": "Limrun - Your cloud agent can build mobile apps now",
+      "tagline": "Extend your cloud agent with XCode, Android and more",
+      "body": "TLDR; We provide remote XCode, iOS &amp; Android Simulators and more to extend cloud agents’ capabilities. Replit, Rork, Momentic AI, x1 and many others built on our cloud and now we open it up to all mobile dev teams so you can use your favorite cloud agent for iOS and Android apps too.\n\nIf you have a mobile app, let’s talk! <https://cal.com/team/limrun/mobile-app-dev-in-cloud>\n\n<https://youtu.be/fYkRpsyPLkQ>\n\n---\n\nWhen code is written by humans, it lives on our laptops and PCs, but that's changing now that teams of agents are writing code alongside us. Today, code written by agents is moving to the cloud: Cursor Cloud, Devin AI, Codex Web, in-house solutions with sandboxes and more.\n\nNow the problem is that all these cloud agents have Linux-based sandboxes as opposed to our laptops that we bought specifically for coding. If you want to use sandboxes for iOS development, you don’t have XCode. If you have an Android app, no emulator that works well. There’s no properly priced GPU option for running Unity either.\n\nLimrun is building a cloud that provides these apps as remote services running in the environments they were designed to while letting your agents use them remotely from your favorite sandbox. All you need is a single skill file to teach your agent how to use our remote services. That’s it. No change of sandbox or agent.\n\nToday, we provide 3 services:\n\n* XCode: With a single CLI call, your code is synced, a build is triggered and your agent gets the logs to iterate.\n* iOS Simulator: Your agent can request a simulator to test the app with built-in AX tree or your favorite framework like Appium/Maestro/Detox etc.\n* Android Emulator: Similarly, it can request an emulator that will be proxied via an “adb” tunnel so it’s as if locally running.\n\nThese are not full sandboxes. We provide the highest level interface so your agent can orchestrate what it needs remotely and we optimize the heck out of the rest; hardware encoders for streaming, warm NVMe caches for building, below 1s boot times, on-demand recording, asset storage and more.\n\nHere is an example flow where Cursor Cloud (or an agent in E2B/Daytona/Docker etc) builds an iOS game in Swift:\n\n* Agent takes the issue from Linear and spins up its sandbox.\n* Writes the Swift code and calls the “lim xcode build .” command, streaming logs back.\n* Iterates over compiler errors.\n* Requests an iOS simulator with “lim ios create” and attaches it.\n* Plays the game with batch actions that provide millisecond precision.\n* We return the recording that it reviews, sees the bugs, implements the fixes.\n* Finally, records a demo video and constructs a preview link to drop on the PR.\n\nIt goes from Linear issue to a fully tested PR with demo and preview link that opens in the browser with realtime streaming or you can install to your device over WebUSB without downloading anything.\n\nIf you have a mobile app, let’s talk\\![ https://cal.com/team/limrun/mobile-app-dev-in-cloud](https://cal.com/team/limrun/mobile-app-dev-in-cloud)",
+      "url": "https://www.ycombinator.com/launches/QSu-limrun-your-cloud-agent-can-build-mobile-apps-now",
+      "votes": 15,
+      "created_at": "2026-05-21T20:49:26.104Z"
+    }
+  ]
+}

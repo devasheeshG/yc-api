@@ -1,0 +1,111 @@
+{
+  "id": 29041,
+  "name": "Langdock",
+  "slug": "langdock",
+  "former_names": [
+    "Security"
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/e209d278473c98c7356a71ec3f7357fa784222a3.png",
+  "website": "https://langdock.com",
+  "all_locations": "Berlin, Berlin, Germany",
+  "long_description": "Langdock is a comprehensive and secure platform for deploying AI in companies. From a powerful chat interface for all employees to tools for creating custom workflow automations with AI-driven agents.",
+  "one_liner": "The all-in-one AI platform for companies.",
+  "team_size": 55,
+  "industry": "B2B",
+  "subindustry": "B2B -> Productivity",
+  "launched_at": 1690080205,
+  "tags": [
+    "Artificial Intelligence",
+    "AI"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": true,
+  "nonprofit": false,
+  "batch": "Summer 2023",
+  "status": "Active",
+  "industries": [
+    "B2B",
+    "Productivity"
+  ],
+  "regions": [
+    "Germany",
+    "Europe"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/langdock",
+  "api": "https://devasheeshg.github.io/yc-api/batches/summer-2023/langdock.json",
+  "year_founded": 2023,
+  "city": "Berlin",
+  "country": "DE",
+  "linkedin_url": "https://www.linkedin.com/company/langdock/",
+  "x_url": "https://twitter.com/langdock_hq",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": "https://github.com/Langdock",
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/e209d278473c98c7356a71ec3f7357fa784222a3.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [
+    "https://bookface-images.s3.us-west-2.amazonaws.com/attachments/1b19b7751a6985460e4d0842314ccffae3c1ad2d.png"
+  ],
+  "primary_partner": {
+    "name": "Aaron Epstein",
+    "url": "https://www.ycombinator.com/people/aaron-epstein"
+  },
+  "founders": [
+    {
+      "user_id": 460543,
+      "full_name": "Lennard Schmidt",
+      "title": "Founder",
+      "founder_bio": "Building langdock.com :)",
+      "is_active": true,
+      "linkedin_url": "https://linkedin.com/in/lennardschmidt",
+      "x_url": "https://twitter.com/lenschmi",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/7e1821dad26b33de0218d4c943934533e6253590.jpg"
+    },
+    {
+      "user_id": 803591,
+      "full_name": "Jonas Beisswenger",
+      "title": "Founder",
+      "founder_bio": "Building Langdock (S23)",
+      "is_active": true,
+      "linkedin_url": "https://linkedin.com/in/jonasbeisswenger",
+      "x_url": "https://twitter.com/jbeissw",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/478ce4be45b60ff22216deb83c47b09aa11625c5.jpg"
+    },
+    {
+      "user_id": 1330611,
+      "full_name": "Tobias Kemkes",
+      "title": "Founder",
+      "founder_bio": "Before Langdock, I was the founding engineer at Blair (YC S19) and built an end-to-end automated servicing platform to manage their $100M debt facility. The platform was audited, handled sensitive data, and moved millions of dollars around. I later became Blair's first head of product, managing a team of five engineers.",
+      "is_active": true,
+      "linkedin_url": "https://linkedin.com/in/tobiaskemkes",
+      "x_url": "https://twitter.com/tobiaskemkes",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/c280b21b081eeb0aca67a26d3732e7d136088b6f.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [
+    {
+      "title": "Langdock raises $3M with General Catalyst to help companies avoid vendor lock-in with LLMs | TechCrunch",
+      "url": "https://techcrunch.com/2024/04/19/langdock/amp/",
+      "date": "Apr 19, 2024"
+    }
+  ],
+  "launches": [
+    {
+      "id": 73432,
+      "title": "Langdock: The GDPR-compliant ChatGPT for your team",
+      "tagline": "Employees are already using ChatGPT, we help companies to embrace the technology in a compliant way.",
+      "body": "Hey everyone! We’re Tobias, Jonas, and Lennard from Langdock. We are in the current YC batch and excited to launch our product today!\n\n![uploaded image](/media/?type=post&id=73432&key=user_uploads/460543/1c6d378f-7ca9-4804-9abf-b3fb287db16e)\n\nWe initially built a product that enabled developers to easily create LLM Plugins across ChatGPT and LangChain. We quickly gained a few hundred users, and through conversations with them, we learned a lot about the duality of fear and excitement around LLMs within companies.\n\nThat is why we started building the GDPR-compliant ChatGPT for teams, enabling companies to easily and safely embrace the productivity increase of ChatGPT. Professionals are already using ChatGPT individually — we help companies manage & control the usage and help employees share conversations with co-workers.\n\n**The Problem: Using ChatGPT as an employee is not compliant**\n\n* ChatGPT is already increasing the productive output of employees\n* ChatGPT is not compliant, and companies either look the other way, explicitly forbid its usage or build internal tooling to replicate the ChatGPT experience (e.g. Stripe)\n* Companies have no simple way of managing how employees engage with tools like ChatGPT\n\n**The Solution: GDPR-compliant ChatGPT for Teams**\n\n* We are building the model-agnostic application layer for companies, enabling companies to enable and disable models that are available to their users\n* We enable companies to enforce their rules on data privacy and access\n* We help companies easily manage the users of their organizations, analyze the usage, and upskill them to make use of LLMs\n\n**Our Request**\n\n* If you are considering embracing ChatGPT within your company to increase knowledge worker productivity, please get in touch via [lennard@langdock.com](mailto:lennard@langdock.com)!",
+      "url": "https://www.ycombinator.com/launches/J6O-langdock-the-gdpr-compliant-chatgpt-for-your-team",
+      "votes": 66,
+      "created_at": "2023-07-26T04:11:42.148Z"
+    }
+  ]
+}

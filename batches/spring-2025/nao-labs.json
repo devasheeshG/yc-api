@@ -1,0 +1,110 @@
+{
+  "id": 30405,
+  "name": "nao Labs",
+  "slug": "nao-labs",
+  "former_names": [],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/9572a4af92fd7a09438369c8555334bcd54574f8.png",
+  "website": "https://getnao.io/",
+  "all_locations": "Paris, Île-de-France, France",
+  "long_description": "nao is an open source framework to build and deploy analytics agent.\r\nCreate the context of your analytics agent with nao-core cli: data, metadata, modeling, rules, etc. Deploy a UI for anyone to chat with your agent and run analytics on your data.",
+  "one_liner": "Open Source Analytics Agent",
+  "team_size": 2,
+  "industry": "B2B",
+  "subindustry": "B2B -> Analytics",
+  "launched_at": 1744958361,
+  "tags": [
+    "Analytics",
+    "Open Source",
+    "AI"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": true,
+  "nonprofit": false,
+  "batch": "Spring 2025",
+  "status": "Active",
+  "industries": [
+    "B2B",
+    "Analytics"
+  ],
+  "regions": [
+    "France",
+    "Europe"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/nao-labs",
+  "api": "https://devasheeshg.github.io/yc-api/batches/spring-2025/nao-labs.json",
+  "year_founded": 2024,
+  "city": "Paris",
+  "country": "FR",
+  "linkedin_url": "https://www.linkedin.com/company/getnao/",
+  "x_url": "",
+  "fb_url": null,
+  "cb_url": "https://www.crunchbase.com/organization/nao-labs",
+  "github_url": "https://github.com/getnao/nao",
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/9572a4af92fd7a09438369c8555334bcd54574f8.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [
+    "https://bookface-images.s3.us-west-2.amazonaws.com/attachments/fbfc74ae407f3b4726f49fbc2244d8045cff2369.png",
+    "https://bookface-images.s3.us-west-2.amazonaws.com/attachments/e4627ead50fb4eaa13aa29c10ce4867efa4b3cf8.png"
+  ],
+  "primary_partner": {
+    "name": "Nicolas Dessaigne",
+    "url": "https://www.ycombinator.com/people/nicolas-dessaigne"
+  },
+  "founders": [
+    {
+      "user_id": 1535815,
+      "full_name": "Claire Gouze",
+      "title": "Founder/CEO",
+      "founder_bio": "⚡️ Building the context layer for analytics agents\n📊 Previously head of data at sunday - $100M Series A\n👩🏻‍💻 Business school graduate self-taught in data sciences - started as a Data Scientist at BCG Gamma",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/claire-gouze/",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/035018b7fe651fa99b670856312545d49e91c45c.jpg"
+    },
+    {
+      "user_id": 72690,
+      "full_name": "Christophe Blefari",
+      "title": "Founder/CTO",
+      "founder_bio": "Built data tools, platforms and teams for more than 10 companies (scale-ups and French gov). I write about data stuff on blef.fr and LinkedIn (20k+ followers).",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/christopheblefari/",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/826572c49acb1821ee6d6145c5c793e0537856ca.jpg"
+    }
+  ],
+  "jobs": [
+    {
+      "id": 107297,
+      "title": "GTM intern",
+      "url": "https://www.ycombinator.com/companies/nao-labs/jobs/Cgv7KB0-gtm-intern",
+      "location": "Paris, IDF, FR / Paris, Île-de-France, FR",
+      "type": "Internship",
+      "role": "Sales",
+      "role_type": null,
+      "salary_range": "€1.4K EUR / monthly",
+      "equity_range": "",
+      "experience": null,
+      "visa": "US citizenship/visa not required",
+      "skills": []
+    }
+  ],
+  "news": [],
+  "launches": [
+    {
+      "id": 90397,
+      "title": "nao Labs - Cursor for data",
+      "tagline": "AI code editor to write code on your data — and trust the output.",
+      "body": "**🥷 Manifesto**\n\nData teams have been left out of the vibe coding party. We’re building nao so they can **data vibe** too.\n\n**🏎 TL;DR**\n\nnao is an **AI code editor to write code on data**: a local editor, connected to your data warehouse, with an AI copilot that has context of both your data schema and codebase.\\\nIt’s built specifically for data workflows - helping teams write faster, better code, while being ensured of the data quality.\n\n![uploaded image](/media/?type=post&id=90397&key=user_uploads/1535815/f9051a44-1d1e-41a0-b995-e6bcb94a4c31)\n\n**🧑‍💻 Who is it for?**\n\n* **Data teams** who run analytics with SQL and build dbt or Python pipelines\n* **Software developers** who manage SQL databases\n\n**🤖 What can you do with nao?**\n\nYou can prompt nao **AI agent** to:\n\n* **Create SQL queries & dbt models** from your data warehouse tables\n* Add **documentation & testing** to your data\n* **Refactor** your codebase through your **lineage**\n* Perform **data quality checks**, **data diff** tests\n* Run **conversational analytics**\n\n**nao AI tab auto-suggests code for your data** — only with tables, columns and data that actually exist in your warehouse.\n\n![uploaded image](/media/?type=post&id=90397&key=user_uploads/1535815/08d1f6f0-b247-4887-b179-c0f5f2cd8405)\n\n**🔆 Why we built it**\n\nChristophe and Claire have each spent 10 years in data. We’ve seen that data teams can’t keep the business pace because making changes in data requires too many tools and tests.\\\nCurrent AI code editors don’t interact natively with data warehouses — they autocomplete SQL blindly, not knowing your data schema. We built nao so that data teams can ship at business pace, with an AI code editor that has all their context.\n\n**👀 Watch it live**\n\n[https://www.youtube.com/watch?v=QmG6X-5ftZU](https://www.youtube.com/watch?v=QmG6X-5ftZU&ab_channel=ClaireGouze)\n\n**👋🏻 Our ask**\n\nWant to write code on your data faster?\n\n* **Download** and test nao here: [**https://getnao.io/**](https://getnao.io/**)\n* **Contact us** for team plans: [claire@getnao.io](mailto:claire@getnao.io)",
+      "url": "https://www.ycombinator.com/launches/NW1-nao-labs-cursor-for-data",
+      "votes": 63,
+      "created_at": "2025-05-14T17:27:09.437Z"
+    }
+  ]
+}

@@ -1,0 +1,122 @@
+{
+  "id": 31534,
+  "name": "Astraea",
+  "slug": "astraea",
+  "former_names": [],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/a54f06b55a2ed047cbb87b6611e0a25bcf346a72.png",
+  "website": "https://tryastraea.com",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "Astraea automates clinical trial biometrics from raw study inputs to FDA-ready outputs. The platform handles data normalization, CDISC mapping, SDTM, ADaM, TFLs, QC, and revision workflows in one auditable system, helping Phase II/III sponsors reduce months of manual programming and data management into automated, reviewable execution.",
+  "one_liner": "AI Operating System for Clinical Development",
+  "team_size": 2,
+  "industry": "B2B",
+  "subindustry": "B2B",
+  "launched_at": 1778617120,
+  "tags": [],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": true,
+  "nonprofit": false,
+  "batch": "Spring 2026",
+  "status": "Active",
+  "industries": [
+    "B2B"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/astraea",
+  "api": "https://devasheeshg.github.io/yc-api/batches/spring-2026/astraea.json",
+  "year_founded": 2026,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/115544127",
+  "x_url": "",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/a54f06b55a2ed047cbb87b6611e0a25bcf346a72.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "David Lieb",
+    "url": "https://www.ycombinator.com/people/david-lieb"
+  },
+  "founders": [
+    {
+      "user_id": 3227004,
+      "full_name": "Joshua Wang",
+      "title": "Founder/CEO",
+      "founder_bio": "Stanford dropout previously studying CS and Math. Top 250 united states (USAMO) Qualifier, USACO Platinum, first intern at Salient (W23) developing enterprise systems.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/joshua-wang-229196319/",
+      "x_url": "https://x.com/joshwqngsr",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/20b59f9354726907ca1adcbd62a6443d92471eef.jpg"
+    },
+    {
+      "user_id": 3368260,
+      "full_name": "Sanmay Sarada",
+      "title": "Founder/CTO",
+      "founder_bio": "prev Data Engineer @ Baylor College of Medicine | 4 Publications in Fetal Medicine | CS and Bio at Stanford",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/sanmay-sarada/",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/e8d6b175fe0ce7e588bb753d048a2f9e9add2491.jpg"
+    }
+  ],
+  "jobs": [
+    {
+      "id": 96164,
+      "title": "Founding Engineer",
+      "url": "https://www.ycombinator.com/companies/astraea/jobs/Pv0rNPd-founding-engineer",
+      "location": "San Francisco, CA, US",
+      "type": "Full-time",
+      "role": "Engineering",
+      "role_type": "Full stack",
+      "salary_range": "$150K - $300K",
+      "equity_range": "0.50% - 2.00%",
+      "experience": "Any (new grads ok)",
+      "visa": "Will sponsor",
+      "skills": [
+        "React",
+        "TypeScript",
+        "Prompt Engineering",
+        "AI Agents",
+        "LangChain"
+      ]
+    },
+    {
+      "id": 110337,
+      "title": "Founding GTM Lead",
+      "url": "https://www.ycombinator.com/companies/astraea/jobs/FPEy38E-founding-gtm-lead",
+      "location": "San Francisco, CA, US",
+      "type": "Full-time",
+      "role": "Sales",
+      "role_type": null,
+      "salary_range": "$140K - $170K",
+      "equity_range": "0.25% - 1.00%",
+      "experience": "Any (new grads ok)",
+      "visa": "US citizen/visa only",
+      "skills": []
+    }
+  ],
+  "news": [],
+  "launches": [
+    {
+      "id": 101307,
+      "title": "Astraea - Agents Accelerating clinical trials.",
+      "tagline": "Astraea is an agentic platform that automates clinical trial data analysis and statistical programming, from raw study data to CDISC-compliant datasets, TFLs, and FDA-ready outputs.",
+      "body": "# **TL;DR**\n\nClinical trial analysis is still shockingly manual.\n\nAfter a study collects data, teams spend months converting raw clinical data into SDTM, ADaM, TFLs, and submission-ready packages. This work is slow, expensive, and error-prone.\n\nAstraea is a platform that completely automates the end-to-end biometrics pipeline from just a protocol and the raw data to a submission ready output. We are starting with oncology and rare disease studies, where analysis complexity is high and every month saved matters.\n\n![uploaded image](/media/?type=post&id=101307&key=user_uploads/3227004/b76b7415-1d15-4060-9cbd-22e974712bb0)\n\n**The Problem**\n\nToday, sponsors and CROs still rely on large teams of statistical programmers, biostatisticians, and data managers to manually transform messy clinical data into regulatory outputs.\n\nA single study can require:\n\n1. Raw data cleaning and reconciliation\n2. SDTM mapping\n3. ADaM dataset creation\n4. TFL shell generation\n5. Statistical programming\n6. QC and validation\n7. Regulatory formatting and traceability\n\nFrom our customer conversations, this can take around 9 months with teams of 5-10 people communicating asynchronously. And the process is still full of Word docs, Excel specs, SAS programs, manual handoffs, version-control issues, and repeated QC cycles.\n\nUltimately, this means slower decisions, delayed filings, higher CRO spend, and less control over the most important data in the company.\n\n## **Our Solution**\n\nWe built the first AI native platform for clinical trial biometrics.\n\nAstraea takes study inputs and automatically generates the datasets, analysis specs, statistical code, and outputs required for regulatory review.\n\nThe pipeline:\n\n1. Ingest raw clinical data, protocol, and study metadata\n2. Generate TFL shells, SAP, eCRF from the protocol and study design\n3. Generate CDISC-compliant SDTM datasets\n4. Generate ADaM datasets and analysis-ready variables\n5. Produce tables, figures, listings, and traceable statistical programs\n6. Run QC checks and generate FDA-ready outputs\n\nWe are the first to actually completely automate workflows across SDTM, ADaM, TFL generation, Pinnacle 21 checks, and specification creation.\n\nFor ongoing studies, we have compressed work that normally takes months into days.\n\n## **Why Now**\n\nClinical trials are becoming more complex, but the tools have not improved in the last 20 years (something an actual customer said). At the same time, AI models can finally reason across protocols, SAPs, data dictionaries, clinical datasets, and regulatory standards.\n\nThat unlocks something new: biometrics workflows that are not just assisted by software, but executed by agents.\n\nAstraea is not replacing scientific judgment. We are automating the manual programming and data wrangling that slows teams down, while keeping humans in the loop for review, validation, and regulatory decisions.\n\n## **Our Team**\n\n![uploaded image](/media/?type=post&id=101307&key=user_uploads/3227004/13d628c7-5571-42b0-960a-1b7246effa4c)\n\n\\*\\*Joshua Wang: Co-founder, CEO\\\n\\*\\* Stanford, math/CS. Built multi-agent AI systems and clinical data automation workflows. Previously worked on production AI systems for enterprise customers.\n\n\\*\\*Sanmay Sarada: Co-founder, CTO\\\n\\*\\* Stanford CS. Built clinical and hospital data infrastructure across diagnostic software systems. Focused on regulated healthcare workflows and data pipelines.\n\nWe started Astraea because people close to us in pharma kept describing the same bottleneck: clinical trial analysis was too manual, too slow, and too dependent on fragmented CRO workflows.\n\nSo we built the automation layer we wished existed.\n\nFind us at [**founders@tryastraea.com**](mailto:founders@tryastraea.com)\n\n<https://tryastraea.com/>",
+      "url": "https://www.ycombinator.com/launches/QLz-astraea-agents-accelerating-clinical-trials",
+      "votes": 62,
+      "created_at": "2026-05-14T00:51:51.078Z"
+    }
+  ]
+}

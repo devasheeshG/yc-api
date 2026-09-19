@@ -1,0 +1,153 @@
+{
+  "id": 27852,
+  "name": "Frigade",
+  "slug": "frigade",
+  "former_names": [
+    "Ombord"
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/2ebf166f7f6e8f6d186e2ea4a16a6cf16becaf7b.png",
+  "website": "https://frigade.com",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "Frigade AI is an in-app assistant that intelligently guides and onboards your users through your product. Our agent learns your product's interface, gives contextual guidance that adapts to each user, and takes actions directly on your users' behalf.\r\n\r\nLearn more at Frigade.com",
+  "one_liner": "AI-powered product assistance for modern software teams",
+  "team_size": 4,
+  "industry": "B2B",
+  "subindustry": "B2B -> Engineering, Product and Design",
+  "launched_at": 1672157010,
+  "tags": [
+    "SaaS",
+    "Customer Success",
+    "Customer Service",
+    "AI",
+    "AI Assistant"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Winter 2023",
+  "status": "Active",
+  "industries": [
+    "B2B",
+    "Engineering, Product and Design"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/frigade",
+  "api": "https://devasheeshg.github.io/yc-api/batches/winter-2023/frigade.json",
+  "year_founded": 2022,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/frigade",
+  "x_url": "https://twitter.com/FrigadeHQ",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": "https://github.com/FrigadeHQ",
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/2ebf166f7f6e8f6d186e2ea4a16a6cf16becaf7b.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": null,
+  "founders": [
+    {
+      "user_id": 123251,
+      "full_name": "Eric Brownrout",
+      "title": "Founder",
+      "founder_bio": "Eric is the co-founder and CEO of Frigade. Before founding Frigade, Eric co-founded Perform, a mobile app to help runners reach their goals through a combination of AI and 1:1 human coaching. Prior to that, he worked in product management at Digit where he helped launch an AI-powered mobile banking app and at LinkedIn where he managed an intelligent communications platform for notifications and email.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/ericbrownrout/",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/372320b943518c5b75b9176dedc464f4cf241e83.jpg"
+    },
+    {
+      "user_id": 265839,
+      "full_name": "Christian Mathiesen",
+      "title": "Founder",
+      "founder_bio": "Christian is the co-founder and CTO of Frigade. Before founding Frigade, Christian co-founded Perform, a platform to help runners reach their goals through a combination of AI and 1:1 human coaching. Prior to that, he worked in engineering at LinkedIn where he helped launch LinkedIn's Skills-based hiring products and LinkedIn's Hiring Platform.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/cmathies/",
+      "x_url": null,
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/f1a02aca7bf268e8a6f107251cac7301fdb7d5e8.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [
+    {
+      "title": "Frigade secures $2.7M in funding for React-based onboarding solution - SiliconANGLE",
+      "url": "https://siliconangle.com/2023/07/20/frigade-secures-2-7m-funding-react-based-onboarding-solution/",
+      "date": "Jul 20, 2023"
+    }
+  ],
+  "launches": [
+    {
+      "id": 114338,
+      "title": "Frigade Assist API - give your AI agent the ability to generate in-product guides and support",
+      "tagline": "Register Frigade as one tool and your agent can generate in-product guides on demand, or answer questions grounded in how your product actually works today.",
+      "body": "Hi everyone, Christian and Eric here, co-founders of Frigade (W23).\n\nToday we are launching the Frigade Assist API, which levels up your own AI agent to better onboard and support your users with a single tool call.\\\n<https://www.youtube.com/watch?v=-j7wd0gYS2M>\n\n**PROBLEM**\n\nMore and more teams are building their own agents. When a user gets stuck and needs help, companies tend to go one of two ways.\n\n1. Buy a help agent (Frigade Assistant, Fin, etc.). Now you have two agents and two chatboxes, and your users cannot tell which one to use for what.\n2. Have your own agent handle it. Agents in that case usually answer out of a knowledge base or help center with basic RAG. Docs are stale or incomplete more often than not, and even when the snippet is right it puts the work back on the user, who has to read it and then figure out how to apply it in the app.\n\n**SOLUTION**\n\nWe already solved the docs problem with Frigade. Our browser agent signs in to your product with the same permissions a real user has, works through your real workflows, and maps how your product works. No manual documentation or screenshots to take. It trains again every time you ship, so it always knows the version of your product that's live.\n\nNow, with the Assist API, we can solve the two-agent problem too.\n\nThe Assist API a single tool call. Your agent calls it and gets back an answer grounded in how your product behaves today, or a personalized walkthrough rendered on the page the user is already on. For most AI agent frameworks, you can add it with just these lines of code:\n\n```\nimport { frigade } from '@frigade/ai'\n \nconst frigade_guide_tool = {\n  description: 'Call this tool to answer product ' +\n    'questions or guide the user through a task.',\n  parameters: {\n    query: {\n      type: 'string',\n      description: 'What the user is asking or wants to do',\n    },\n  },\n  run: ({ query }) => frigade.assist({ query }),\n}\n \n```\n\nThe SDK forwards the call to the browser and Frigade acts on the page the user is on, highlighting the real element with the next step attached. Your agent decides when to call it and stays the only thing your user talks to.\n\nWhat you get with it:\n\n1. **Personalized in-product guides**, generated on demand. A new user gets walked through first-time setup without leaving the page. Someone stuck mid-workflow gets shown the next step instead of a link to an article.\n2. **Visibility and control for the people who own support**. Your support and product teams see who Frigade is helping and where, and can steer the output without any engineering help.\n\nWe are already working with Retell AI to extend their agent's onboarding capabilities. They build agents for a living and still chose to plug in Frigade rather than build something like this themselves.\n\nThis is for teams who already own an agent and care about product adoption. And if you do not have an agent, our drop-in Frigade Assistant is still the fastest path.\n\nIf you want to give it a spin, reach out and we'll get you a demo. <https://frigade.com/assist-api>\n\nChristian and Eric",
+      "url": "https://www.ycombinator.com/launches/TkA-frigade-assist-api-give-your-ai-agent-the-ability-to-generate-in-product-guides-and-support",
+      "votes": 4,
+      "created_at": "2026-09-08T22:26:18.625Z"
+    },
+    {
+      "id": 105121,
+      "title": "Frigade Skills: the in-app AI agent that learns your product and acts for your users",
+      "tagline": "Frigade learns your product by using it, then takes real actions for your users through Skills your team approves with no code.",
+      "body": "Hi everyone, Eric and Christian here, co-founders of [Frigade](https://frigade.com) (W23).\n\nFrigade is an AI agent that lives inside your product and [guides users through it](https://frigade.com/blog/product-help-where-users-stuck). Point it at your app and it learns your UI in minutes. You don't wire anything up or write docs.\n\n**Today we're launching a major new upgrade to our agent called [Skills](https://frigade.com/features/skills).**\n\nSo far, Frigade has guided users and [answered their questions](https://frigade.com/blog/how-to-deflect-support-tickets). With Skills, it can take real actions for them too: looking things up, creating, editing, deleting.\n\nSkills are the actions Frigade figures out on its own while it trains on your product. It documents each one, your team approves it with no code from the dashboard, and from then on Frigade runs it for any user who needs it. You can still wire in your own custom tool calls with our SDK, too.\n\n<https://www.youtube.com/watch?v=bi-BFV7M7eY>\n\nIf you've used Linear's AI agent, Frigade is that as an embed: the same kind of in-app agent, dropped into your product with [one snippet](https://frigade.com/blog/walkme-alternatives-without-six-month-rollout). You get about 80% of it out of the box, with no eng work required.\n\n**How it works:**\n\n1. Add the snippet. Frigade starts using your product and learns it, like a new user would.\n2. It turns the actions it finds into Skills. Your team reviews and approves them, no code.\n3. Frigade runs those Skills for your users and answers their questions as they go.\n\n**Here it is running on popular products we don't embed in.**\n\nWe just pointed it at each one and let it learn to see how it performed:\n\n* [Jira](https://demo.frigade.com/?skill=jira)\n* [Spotify](https://demo.frigade.com/?skill=spotify)\n* [Hacker News](https://demo.frigade.com/?skill=hackernews)\n\n**Frigade is best for:**\n\n* Teams drowning in \"how do I...\" tickets\n* CS teams who want [onboarding](https://productonboarding.com/articles/what-is-product-onboarding) to happen without a call\n* Product teams who want every feature to be [self-serve](https://productonboarding.com/examples)\n* Anyone with a complex product or non-technical users who keep getting stuck\n\nMany teams are also building their own agents in-house. If that's you, we're launching the Frigade API soon so you can add our generative assistance capabilities into your agent. More on that soon.\n\nIf your product's complex or your users aren't super technical, we'd love to show you what Frigade does on your actual app. Send us a note, or book a demo at [frigade.com](http://frigade.com).\n\nEric &amp; Christian\n\n![uploaded image](/media/?type=post&id=105121&key=user_uploads/123251/18d6ac08-4814-47bc-b966-4268a0da843a)\n\n",
+      "url": "https://www.ycombinator.com/launches/RLV-frigade-skills-the-in-app-ai-agent-that-learns-your-product-and-acts-for-your-users",
+      "votes": 9,
+      "created_at": "2026-07-09T17:34:23.119Z"
+    },
+    {
+      "id": 95912,
+      "title": "Frigade: Product onboarding that builds itself",
+      "tagline": "The help center is dead. Your product is the teacher now.",
+      "body": "Hey everyone, we are Eric and Christian, founders of [Frigade](https://frigade.com).\n\n**TL;DR:** Frigade automatically learns your product and provides expert, in-product assistance to users. Now with Suggestions, Frigade can proactively teach your users in the context of the product itself.\n\nhttps://youtu.be/FhHSj8YpR2U\n\n# **🔴 The problem**\n\nMany users never see the best parts of a product. Teams try to fix this but run into the same issues:\n\n* Onboarding flows take too long to build\n* Feature tours get stale as the product changes\n* Users ignore help docs :( \n* Customer Success loses hours teaching users on Zoom\n* Product teams rely on outdated screenshots, Looms, and Slack to explain the product\n\nIn-product guidance should be easy to create and maintain, but today it is neither.\n\n# **🟢 The solution**\n\nFrigade automatically learns your product by using it, and Suggestions create guidance directly inside your product from simple prompts.\n\n![uploaded image](/media/?type=post&id=95912&key=user_uploads/123251/af21223e-4d69-40f8-9cc3-c34827827206)\n\nWrite what you want users to learn:\n\n“Show users how to use the new Calendar view in the Sales tab. Walk users through the key features.”\n\nFrigade understands the latest version of your product and generates the experience directly from that context. You do not need a help center, articles, or any existing documentation for Frigade to work. It learns directly from the product itself.\n\nNo user flows. No element targeting. Nothing to wire up.\n\nYou can create:\n\n* Onboarding for new signups\n* Guided tours for new features\n* Help for confusing parts of the UI\n* Workflows for power users\n* Role or plan specific nudges\n* Contextual support at the right moment\n\nEverything runs inside your real product and stays accurate as it evolves, without depending on any external help documentation or content.\n\n# **🧪 Preview, refine, publish**\n\nInstantly preview Suggestions to watch the experience run in your product. Tweak the prompt to adjust the tone or structure. Choose who should see it and publish. Users will see it at the right moment and can launch the experience instantly.\n\n# **🧵 Who is using it today**\n\nTeams across SaaS, AI, fintech, marketplaces, and more use Frigade to:\n\n* Onboard users without a human in the loop\n* Increase feature adoption\n* Reduce support tickets\n* Walk customers through complex workflows\n* Educate users inside the product rather than sending them elsewhere\n\n# **🚀 Try it out**\n\nFrigade Suggestions are live today. Create your first in-product experience from a single prompt [**https://frigade.com**](https://frigade.com)\n\nWe’d love your feedback or questions: [founders@frigade.com](mailto:founders@frigade.com)",
+      "url": "https://www.ycombinator.com/launches/Owy-frigade-product-onboarding-that-builds-itself",
+      "votes": 28,
+      "created_at": "2025-12-02T15:44:08.899Z"
+    },
+    {
+      "id": 92353,
+      "title": "Frigade AI: In-app support agent that adapts to your product automatically",
+      "tagline": "Frigade AI uses your product to learn how it actually works, then guides users with live, step-by-step support directly inside the UI—right when they need it.",
+      "body": "**TL;DR: Frigade AI** is an in-app agent that keeps users moving forward with contextual, real-time guidance. It can generate step-by-step tutorials for complex workflows, highlight relevant features at the right moment, and even take actions directly on users' behalf to eliminate friction. Unlike traditional chatbots that rely on outdated help center documents, Frigade AI learns your product by actually using it and automatically adapts to every product update without any work from your team.\n\n📅 Book a demo → [calendar](https://cal.com/forms/ed0e923f-6f00-4191-a08f-7bebba6636b6)\n\nhttps://www.youtube.com/watch?v=8SjL4OfPs3I\n\n### **The Problem**\n\nMost onboarding tools assume users follow a perfect path. They don’t. Users skip steps, explore features early, and ask questions that don't fit your predefined paths.\n\nSupport teams can’t scale to handle every question. Engineering teams don’t have time to build and maintain hardcoded walkthroughs. And most AI chatbots fall short, offering generic responses based on outdated help center docs. \n\nWhat users actually need is guidance **in real time**, **in context**, and **on demand**. Not just during sign-up, but throughout their entire journey.\n\n### **The Solution**\n\nToday, we’re officially launching [**Frigade AI**](http://frigade.ai), a fully integrated agent that lives inside your product and helps users get personalized support instantly. \n\nUnlike traditional chatbots, Frigade AI learns your product by actually _using_ it. It explores your interface, navigates your workflows, reads your documentation, and builds a working model of how your product functions. Just like a real user would.\n\nThe goal? **Help users succeed from their first session** and keep them unblocked at every step.\n\nIt works alongside everything you’ve already built, like checklists, tours, help centers, and fills in the gaps with real-time support when your users need it most. Frigade AI:\n\n* **Unblocks users instantly** with dynamic step-by-step guides for any workflow\n* **Eliminates friction** by taking product actions directly for users\n* **Answers open-ended questions** with contextual product support\n* **Escalates seamlessly** to Zendesk, Intercom, and other live support tools\n* **Gets running in under an hour** with minimal engineering effort\n* **Stays current automatically** as your product evolves\n\nhttps://www.youtube.com/watch?v=usspoSsWIb4 \n\nThe result is an AI agent that **turns every user into a power user,** removing confusion and guiding users to success.\n\n### **See It in Action**\n\nIf you're building a web app and want to better support users at scale, without scaling your existing support team, we’d love to show you what we’re working on. \n\n🔗 Check out our website at [https://](https://frigade.ai)[frigade.ai](http://frigade.ai)\\[\\\n\\](https://frigade.ai) 📅 Book a demo → [calendar](https://cal.com/forms/ed0e923f-6f00-4191-a08f-7bebba6636b6)\n\n![uploaded image](/media/?type=post&id=92353&key=user_uploads/123251/ef0698cc-01a2-4f96-97e6-f0c2a151ec6e)\n\n",
+      "url": "https://www.ycombinator.com/launches/O1Z-frigade-ai-in-app-support-agent-that-adapts-to-your-product-automatically",
+      "votes": 17,
+      "created_at": "2025-07-22T15:51:42.115Z"
+    },
+    {
+      "id": 85509,
+      "title": "Trench: Open Source Analytics Infrastructure 🌊",
+      "tagline": "Fast and scalable. No bloat. GDPR compliant. Powered by ClickHouse and Kafka.",
+      "body": "Hey everyone! We’re Christian and Eric from Frigade. [Trench](https://trench.dev) is open source analytics infrastructure for tracking events, identifying users, and querying data in real time.\n\nIt’s built on top of ClickHouse and Kafka for speed and scale, and it can be deployed with a single production-ready Docker image. Trench is a major part of Frigade’s infrastructure and powers our own in-product analytics and user targeting for millions of end users.\n\nThe code is MIT-licensed at <https://github.com/frigadehq/trench>. We just launched, and Trench gained over 1,000 GitHub stars ⭐ in less than a week.\n\n![uploaded image](/media/?type=post&id=85509&key=user_uploads/123251/443f6361-9b1a-45d5-921e-e79504ebdcea)\n\n# **Demo:**\n\nCheck out our open source demo to see how to build your own version of a Google Analytics dashboard powered by Trench in less than 15 minutes.\n\n<https://demo.trench.dev/>\n\n![uploaded image](/media/?type=post&id=85509&key=user_uploads/123251/049bc7b3-bd4a-4038-8128-faa2a8e2cc67)\n\n# **🚨 The Problem: Postgres doesn't scale for tracking and querying millions of events at scale**\n\nAs we’ve scaled [Frigade](https://frigade.com) to millions of end users, our Postgres table we used for event tracking was quickly ballooning in cost and becoming a performance bottleneck. Many companies run into the same problem as us (e.g. [Stripe](https://brandur.org/fragments/events), [Heroku](https://brandur.org/fragments/events)). \\\nEngineers start by adding a basic events table to their relational database, which works at first, but breaks down as the user base scales. It's usually the biggest table in the database, the slowest one to query, and the longest one to back up. Postgres (or MySQL for that matter) simply isn't a good solution for tracking and querying events in real time at 1M+ end users scale.\n\n# **The Solution: Fast, scalable, and affordable event tracking**\n\nWe knew we wanted to move to technologies like Kafka and ClickHouse that are purpose-built for ingesting and querying thousands of events per second. When we looked for existing solutions, all the existing OSS projects we found were either bloated with unnecessary features, UIs and spaghetti code, or simply antiquated. So we built Trench.\\\nWith Trench, we've put together a single Docker image that provides a production-ready tracking event table that scales. When we migrated our tracking table from Postgres to Trench, we saw a 42% reduction in cost to serve on our primary Postgres cluster and eliminated all lag spikes from autoscaling under high traffic. We're happy with how Trench has solved event tracking for us, and now we’re excited to share that with other teams.\n\n### **Core Features**\n\n* Compliant with the Segment tracking specifications\n* Can handle thousands of events per second on a single node\n* Query tracking data in real-time with read-after-write guarantees\n* Send data anywhere with throttled and batched webhooks\n* Single production-ready Docker image\n* Easily plugs into cloud-hosted ClickHouse/Kafka solutions\n\n### **Use cases**\n\nWhat can you build with Trench? There are many use cases:\n\n1. **Real-Time Monitoring and Alerting** – Monitor your services and get alerts through tracking custom events like errors, usage spikes, or specific user actions, and send that data anywhere with webhooks.\n2. **Event Replay and Debugging –** Capture all user interactions in real time for event replay services.\n3. **A/B Testing Platform** – Capture events from different users and groups in real time. Segment users by querying in real time and serve the right experiences to the right users.\n4. **Product Analytics for SaaS Applications** – Embed Trench into your existing SaaS product to power user audit logs or tracking scripts on your end-users' websites\n5. **Build a custom RAG AI model** – Easily query event data and give users answers in real time. LLMs are really good at writing SQL.\n\n# **Try it out and give us a star ⭐**\n\nWe hope you’ll find Trench useful if you’re facing or have ever experienced a similar problem with analytics at scale. Here are some links to get started:\n\n* Trench website: <https://trench.dev>\n* Quickstart guide: <https://docs.trench.dev/quickstart>\n* Github repo: <https://github.com/FrigadeHQ/trench>\n* Product demo: <https://demo.trench.dev>",
+      "url": "https://www.ycombinator.com/launches/MFB-trench-open-source-analytics-infrastructure",
+      "votes": 9,
+      "created_at": "2024-11-12T22:22:46.640Z"
+    },
+    {
+      "id": 78903,
+      "title": "Frigade – Growth platform for modern software teams",
+      "tagline": "Frigade is a low-code tool for building product growth loops",
+      "body": "# **tl;dr**\n\n[Frigade](http://frigade.com) is a low-code tool for building product growth loops. It comes with pre-built React UI components, a web app, and flexible APIs. Our customers use Frigade to build product growth experiences similar to those used by companies like [Notion](https://www.productonboarding.com/notion-feature-announcement), [Github](https://www.productonboarding.com/github-embedded-promotions?view=components), and [Mercury](https://www.productonboarding.com/mercury-new-user-onboarding).\n\n![uploaded image](/media/?type=post&id=78903&key=user_uploads/123251/7ac8ec05-e94e-4f88-93c2-561aae34289d)\n\n\\---\n\n# **Founding Story**\n\nOur team first met at LinkedIn where we built internal tooling to help accelerate company growth. Turns out many of the best companies in the valley also had large growth teams dedicated to building the same powerful tooling.\n\nThese platforms made it easier to ship new experiences with functionality like user targeting, air traffic control, state management, admin tooling, and much more.\n\nHowever, many companies lack the resources to develop this kind of tool. With Frigade, we are building the growth platform we wished we had everywhere we’ve worked since LinkedIn, and we’re making it available to all teams.\n\n\\---\n\n# **What kind of experiences can Frigade power?**\n\n* **Onboarding forms** — like Typeform, but native\n* **Product checklists** for user activation\n* **Guided tours** for feature adoption\n* **Announcements** for engagement and adoption\n* **House Ads** to nudge users toward upgrades and adoption\n* **Surveys** for user research and account enrichment\n* **Custom Flows** to power unique in-app experiences\n\n\\---\n\n![uploaded image](/media/?type=post&id=78903&key=user_uploads/123251/cc206e9a-c6cf-4e23-ade4-d1a8b60e924a)\n\n# **How does Frigade work?**\n\nFrigade combines React components, an admin dashboard, and flexible APIs to allow teams to build growth loops, faster.\n\n**React UI Components**\n\nFrigade includes a library of beautiful, pre-built React UI components based on industry best practices. Our components are fully customizable to your brand and product so they feel seamless.\n\n**Web App**\n\nFrigade’s web app helps technical and non-technical users alike with user targeting, performance metrics, user and account progress, and more. Frigade integrations help you connect tools like Mixpanel and Segment with a few clicks.\n\n**Flexible APIs**\n\nThe Frigade API is designed to give teams full control over their experience, unlike rigid no-code tools. Teams can even use our APIs to build fully custom Flows.\n\n\\---\n\n### **Our asks:**\n\n* **Sign up** for free at [frigade.com](http://frigade.com) to get started\n* **Grab a demo** with our team [here](https://cal.com/team/frigade/frigade-demo) to discuss your use cases",
+      "url": "https://www.ycombinator.com/launches/KWd-frigade-growth-platform-for-modern-software-teams",
+      "votes": 10,
+      "created_at": "2024-02-29T17:52:18.262Z"
+    },
+    {
+      "id": 68103,
+      "title": "💻 Frigade - The easiest way for developers to build product onboarding.",
+      "tagline": "Frigade helps developers build better native onboarding and product education, faster. ",
+      "body": "**_TL;DR_** _Frigade helps developers build best-in-class product onboarding and education_ faster. _Check us out at_ [_frigade.com_](http://frigade.com)_!_\n\n![uploaded image](/media/?type=post&id=68103&key=user_uploads/123251/acaad972-6a2d-45b3-817c-00685b328449)\n\nHello everyone! We’re [Christian](https://www.linkedin.com/in/cmathies/) and [Eric](https://www.linkedin.com/in/ericbrownrout/). We’ve been working together since 2015 when we first met as interns at LinkedIn, and we’re excited to be building Frigade. Our goal at Frigade is to make it easy to build great product onboarding so developers can spend more time building their core product experiences.\n\n![uploaded image](/media/?type=post&id=68103&key=user_uploads/123251/c42721d4-9f20-4993-b0ce-cac1c7a69fe2)\n\n### **🔴 Problem: Product Onboarding is Hard**\n\nProduct onboarding is essential to customer activation and retention, but building great onboarding is difficult and time consuming. We know because we experienced this problem firsthand at our previous startup where we spent enormous amounts of time building onboarding and education for our app through trial and error. Time that could’ve been spent developing our core product offering.\n\nㅤ\n\n### **🟢 Solution: Powerful API and Open Source SDK**\n\nFrigade’s API and open source SDK take the hard work out of building and scaling great product onboarding. With Frigade, developers can:\n\n* 🛠️ Quickly build beautiful onboarding within their own app UI\n* 🔄 Ingest onboarding data from our API into their backend\n* ⚡ Make instant changes to copy, assets, and logic via API\n* 🎯 Easily build user targeting (powered by Segment, MixPanel, etc.)\n* 📚 Automatically leverage built-in industry best-practices\n\nAs a result, developers can spend less time building features for product adoption and more time building the product roadmap.\n\n![uploaded image](/media/?type=post&id=68103&key=user_uploads/123251/e768b350-e12d-4e11-976b-042f82f1def3)\n\n![uploaded image](/media/?type=post&id=68103&key=user_uploads/123251/52788266-214c-4314-a0a9-dc7d270afdde)\n\n[_Frigade SDKs_](https://github.com/FrigadeHQ) provides beautiful, extensible boilerplate for critical flows.ㅤ\n\n### **💻 Try it yourself**\n\nCheck out our [GitHub page](https://github.com/FrigadeHQ) and [website](https://frigade.com). We’re here to help! Feel free to contact us at [founders@frigade.com](mailto:founders@frigade.com) with any questions regarding implementation, feature requests, or to chat generally about your product onboarding needs. And if you’re in San Francisco, come say hey!\n\nㅤ\n\n**Thanks!**\n\nEric and Christian",
+      "url": "https://www.ycombinator.com/launches/HiR-frigade-the-easiest-way-for-developers-to-build-product-onboarding",
+      "votes": 35,
+      "created_at": "2022-12-28T22:08:51.477Z"
+    }
+  ]
+}

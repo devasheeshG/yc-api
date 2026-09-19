@@ -1,0 +1,98 @@
+{
+  "id": 29081,
+  "name": "Minded",
+  "slug": "minded",
+  "former_names": [
+    "Octo",
+    "AgentsForce"
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/c4a8b8741148369773db260cddde6892a1c95cba.png",
+  "website": "https://www.minded.com/",
+  "all_locations": "Tel Aviv-Yafo, Tel Aviv District, Israel",
+  "long_description": "Generate AI agents with plain English, edit visually, customize with code in your own IDE. Currently automating millions of tasks across support, sales, finance and more for companies like eToro, Payoneer and JustEat.",
+  "one_liner": "Cursor for AI Agents",
+  "team_size": 2,
+  "industry": "B2B",
+  "subindustry": "B2B",
+  "launched_at": 1692715178,
+  "tags": [
+    "Artificial Intelligence",
+    "B2B",
+    "API",
+    "Customer Support",
+    "AI Assistant"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Summer 2023",
+  "status": "Active",
+  "industries": [
+    "B2B"
+  ],
+  "regions": [
+    "Israel",
+    "Middle East and North Africa"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/minded",
+  "api": "https://devasheeshg.github.io/yc-api/batches/summer-2023/minded.json",
+  "year_founded": 2023,
+  "city": "Tel Aviv-Yafo",
+  "country": "IL",
+  "linkedin_url": "https://www.linkedin.com/company/minded-ai",
+  "x_url": "https://twitter.com/minded_ai",
+  "fb_url": "https://www.facebook.com/profile.php?id=61550230631817",
+  "cb_url": "https://www.crunchbase.com/organization/minded-ai",
+  "github_url": "https://github.com/minded-ai",
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/c4a8b8741148369773db260cddde6892a1c95cba.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [
+    "https://bookface-images.s3.us-west-2.amazonaws.com/attachments/91d5d3f5b1b157f0dda72a4e71b00c2d0b42d739.png"
+  ],
+  "primary_partner": {
+    "name": "Harj Taggar",
+    "url": "https://www.ycombinator.com/people/harj-taggar"
+  },
+  "founders": [
+    {
+      "user_id": 158086,
+      "full_name": "Ohad Navon",
+      "title": "Founder",
+      "founder_bio": "Launch AI support chatbot that grew Roundforest from $200M to $1B GMV within 18 months. Saved Google $100M in fraud prevention as an engineer. Data science at McKinsey. Graduated at 19. Dan 2 black belt in Krav Maga",
+      "is_active": true,
+      "linkedin_url": "https://linkedin.com/in/ohad-navon-639b356a",
+      "x_url": "https://twitter.com/OhadNavon",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/193479a9a86a46ad81a96abff87dbe8bf10af184.jpg"
+    },
+    {
+      "user_id": 1422243,
+      "full_name": "Nadav Zamir",
+      "title": "Founder",
+      "founder_bio": "Launched the Chinese Google Photos as Director of AI at Alibaba, becoming the #1 app in China.\nEx-CTO & Co-founder at Galigu, search engine for VR, raised money, launched product, but VR wasn’t there yet. \nBuilt the world’s first wireless VR headset at Intel launched at CES by Intel's CEO. ",
+      "is_active": true,
+      "linkedin_url": "https://linkedin.com/in/nadavzamir",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/0a699f359ad8102743e67deb8f39f2e4e90bec2a.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 74302,
+      "title": "🐙 Octo - AI agents to replace customer support outsourcing",
+      "tagline": "We generate AI agents from historical data to instantly resolve 70% of support tickets",
+      "body": "Hey YC fam, we’re [Ohad](https://www.linkedin.com/in/ohad-navon-639b356a/) and [Nadav](https://bookface.ycombinator.com/user/1422243), founders of [Octo.](http://getocto.ai)\n\nOcto is an AI agent that actually replaces support outsourcing - it can take **actions via APIs**, read help center article, and email/chat with customers\n\nTop support teams from top 500 Amazon brands to fintech unicorns are using Octo to **replace 70% of their support team**.\n\n![uploaded image](/media/?type=post&id=74302&key=user_uploads/158086/c6c5c471-9dc6-4498-bcf5-1b750dc4e5cf)\n\n### Support teams can’t build good chatbots\n\nAfter chatting with 100+ support teams we found that support teams lack the tools to build good bots, and even simple issues like refunds are often escalated to human agents.\n\nHere’s a real screenshot from one of our customers who spent **6 months building their chatbot** (which was ultimately implemented by professional services team at Intercom!), resulting in **<15% of tickets solved.**\n\n![uploaded image](/media/?type=post&id=74302&key=user_uploads/158086/20ce41c6-b478-4173-905f-c683df59b7a7)\n\n### Octo resolves 70% of tickets instantly\n\nOcto makes it really easy to connect to the CRM, help center articles and internal systems via APIs, to instantly generate **human-level AI agents** from historical data.\n\nThere are 3 main reasons our AI agents can solve more tickets:\n\n1. **Taking actions via APIs** - based on our real-world experience about 80% of tickets require pulling customized data or take actions on behalf of customers.\n2. **Learning from past tickets** - enabling significantly higher accuracy and eliminating the frequency of AI hallucinations. Technically speaking we’ve built retrieval augmented generation that can easily generalize across customers and industries.\n3. **Multi-party conversations** - much of the work of human agents often involves tasks outside of the ticket itself like investigating delays with couriers.\n\n![uploaded image](/media/?type=post&id=74302&key=user_uploads/158086/6e027f10-fec4-4147-a7de-0232e106176e)\n\n### Built by AI Engineers\n\n![uploaded image](/media/?type=post&id=74302&key=user_uploads/158086/8c74656a-fdd0-4da0-8015-68c140cc33d4)\n\nOcto’s accuracy draws from Nadav’s experience as **Director of AI at Alibaba** where he built and launched LLMs to improve Alibaba search used by millions of consumers every day.\n\nThe idea was born when Ohad launched an AI support chatbot that took Roundforest **to $1B GMV.**\n\n### The ask\n\n* **Take Octo for a spin** - tell us what’s your most painful support use case and we’ll create a personalized demo of Octo based on your support context.\n* **Spread the love -** if you can think of other support teams that are overworked and looking to automate their customer support we’d really appreciate and introduction 🙏\n\nSounds interesting to you? Email us at [founders@getocto.ai](mailto:founders@getocto.ai)",
+      "url": "https://www.ycombinator.com/launches/JKQ-octo-ai-agents-to-replace-customer-support-outsourcing",
+      "votes": 22,
+      "created_at": "2023-08-22T14:43:16.720Z"
+    }
+  ]
+}

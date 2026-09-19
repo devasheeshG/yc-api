@@ -1,0 +1,96 @@
+{
+  "id": 29784,
+  "name": "Sensei",
+  "slug": "sensei",
+  "former_names": [
+    "OBO"
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/0e3e1067b2d9b0492706fd6cec1ccf4d50ee5c59.png",
+  "website": "https://senseirobotics.com",
+  "all_locations": "Boston, MA, USA",
+  "long_description": "Sensei helps robotics companies scale and outsource their training data collection. Our hardware platform enables the collection of human-demonstration data at a tenth of the cost and twice the speed of current teleop approaches. Our software platform acts like Scale AI for robotics data: a large network of paid human operators use our low-cost collection platform to fulfill data-generation requests. ",
+  "one_liner": "Robotic Training Data at Scale",
+  "team_size": 2,
+  "industry": "Industrials",
+  "subindustry": "Industrials -> Manufacturing and Robotics",
+  "launched_at": 1724658554,
+  "tags": [
+    "Artificial Intelligence",
+    "Hard Tech",
+    "Marketplace",
+    "Robotics",
+    "Data Engineering"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Summer 2024",
+  "status": "Active",
+  "industries": [
+    "Industrials",
+    "Manufacturing and Robotics"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/sensei",
+  "api": "https://devasheeshg.github.io/yc-api/batches/summer-2024/sensei.json",
+  "year_founded": 2024,
+  "city": "Boston",
+  "country": "US",
+  "linkedin_url": "",
+  "x_url": "",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/0e3e1067b2d9b0492706fd6cec1ccf4d50ee5c59.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Jared Friedman",
+    "url": "https://www.ycombinator.com/people/jared-friedman"
+  },
+  "founders": [
+    {
+      "user_id": 842573,
+      "full_name": "Anubhav Guha",
+      "title": "Founder/CEO",
+      "founder_bio": "CEO at Sensei - building the marketplace for robotic training data. Previously MIT Robotics PhD (dropped out) and Chief Engineer & Program Manager of Aurora Flight Science/Boeing's DARPA AlphaDogfight team. I've spent my whole career in robotics, and my goal is to help make AI robotics a reality.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/anubhav-guha-886445129/",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/9580bcefaa36422ee6b7c4f52ebab522fc7e6491.jpg"
+    },
+    {
+      "user_id": 2033335,
+      "full_name": "John Piotti",
+      "title": "Founder/CTO",
+      "founder_bio": "CTO at Sensei - scaling robotic training data collection to be 2x faster and 10x cheaper. Previously MIT '19, Robotics Engineer at Aurora Flight Science/Boeing, and full stack web development at UtilityAPI. Also building a house in my free time. ",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/john-piotti-51a67412a/",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/16f9d0a34775f335bac9e0e7ac869194c2b0cd63.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 83555,
+      "title": "🦾 Sensei: Robotics training data, at scale.",
+      "tagline": "We produce high quantities of high-quality training data for robotics companies.",
+      "body": "**tl;dr:** [Sensei](https://senseirobotics.com/) is the Scale AI for robotics training data. Our platform collects human demonstration data at a tenth of the cost and twice the speed of current approaches.\n\n# **Our Team**\n\nWe are MIT engineers who have been friends since undergrad. We worked together at Aurora Flight Sciences, where we ran a DARPA-funded program to develop AI algorithms for autonomous fighter jet combat. [John](https://www.linkedin.com/in/john-piotti-51a67412a/) went on to spearhead the reinforcement learning efforts at Aurora, while [Anubhav](https://www.linkedin.com/in/anubhav-guha-886445129/) returned to MIT for a PhD focused on robotics, control theory, and machine learning (but dropped out to found Sensei!).\n\nWe have spent our careers working at the frontiers of robotics and AI. With Sensei, we plan to empower the expansion of those frontiers. \n\n![uploaded image](/media/?type=post&id=83555&key=user_uploads/842573/7653e304-26fe-4239-b434-58c524f60b31)\n\n# **The Problem**\n\n**Data scarcity is one of the biggest challenges in developing robotic artificial intelligence.** \n\nInnovators in the space are looking to apply the learnings from the Foundation Model Era: that large models trained on huge datasets are incredibly powerful. As researchers, engineers, and a rapidly growing number of commercial efforts race to develop large models for robotic intelligence, it’s become increasingly clear that the availability of sufficient quantities of quality data is the most significant bottleneck. \n\nCurrent solutions are slow, expensive, and fundamentally not scalable. Human demonstrations are the gold standard for training data. Robotics companies currently employ fleets of 5-20 data-collectors. These in-person contractors teleoperate a robot to perform hundreds of demonstrations a day - with tasks ranging from clothes folding, to bin sorting, to dishwasher loading. **This is not the right long-term solution:** \n\n* Large-scale collection is prohibitively expensive: a teleop setup requires a physical robot, often with a cost of $40,000+ per operational platform.\n* Low-quality data: restriction to labs/office spaces makes it hard to collect varied and realistic demonstrations\n* Slow data collection rates: non-intuitive interfaces, cumbersome equipment, and faulty hardware lead to slow demonstrations on platforms that break often.\n\n \n\nThese drawbacks make it impossible to scale quality training data collection to the quantities needed for robotics.\n\n# **Our Solution**\n\nWe design and manufacture low-cost and easy-to-use devices for collecting human demonstration data. Our platform costs less than $300 and can be used by anyone to collect high-quality training data. As seen in a clothes folding task that demonstrates our research prototype, the operator is equipped with a sensorized exoskeleton arm that closely matches the natural human range of motion. The intuitive design, coupled with a suite of angle, vision, and inertial sensors, enables the rapid collection of highly accurate visuo-spatial state information. \n\n![uploaded image](/media/?type=post&id=83555&key=user_uploads/842573/a58f4a6e-504c-4dd7-a1e1-8afd1d02cb30)\n\nOur main advantage is that an operator can easily set up and equip the platform, leading to an unprecedented ability to generate quality data at scale. Demonstrations can be performed for a broad range of common tasks, in a nearly infinite number of diverse settings, in as many different ways as human behavior is varied. \n\nIn order to maximally utilize a fleet of our data-collect platforms, we are building out and operating a network of Senseis— contractors that have been trained to collect high-quality training data using our devices. Our Senseis receive task descriptions from robotics researchers and engineers, and are then paid to collect demonstrations that fulfill the request. \n\n**Our combined hardware + software stack represents the first truly scalable solution to generating training data for AI robotics.**\n\n# **Our Goal**\n\nWithin the next five years, we envision tens of thousands of operators, equipped with increasingly sophisticated, portable, and effective data-collection arms, exoskeletons, headwear, and tools. These Senseis will be located all over the world, come from and live in a variety of environments, and all have different takes on what it means to perform tasks “like a human.” This is the best way to power data collection for improved robots, and it is the future we’re building.\n\n# **Ask**\n\nIf you’re interested in solving the data scarcity problem in robotics - either for yourself, your company, or your customers - we’d love to hear from you. You can reach us at [founders@senseirobotics.com](mailto:founders@senseirobotics.com)",
+      "url": "https://www.ycombinator.com/launches/Ljf-sensei-robotics-training-data-at-scale",
+      "votes": 112,
+      "created_at": "2024-08-28T20:27:10.260Z"
+    }
+  ]
+}

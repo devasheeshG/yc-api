@@ -1,0 +1,84 @@
+{
+  "id": 30671,
+  "name": "Panoptive",
+  "slug": "panoptive",
+  "former_names": [
+    "AgentHub"
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/e968a9edc53bbf932ccbe0585917fe2029077b90.png",
+  "website": "https://www.panoptive.com",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "We turn unstructured monitoring data - monitoring visit reports, EDC data - into structured deviation, safety, and quality findings for human review. Panoptive generates an audit-ready oversight trail as a natural byproduct. \r\n\r\nThe platform aggregates findings and identifies systemic patterns across sites and subjects before they compound, and tracks every finding through decision, follow-up, and resolution.",
+  "one_liner": "The continuous oversight engine for clinical trials",
+  "team_size": 2,
+  "industry": "B2B",
+  "subindustry": "B2B",
+  "launched_at": 1753389326,
+  "tags": [
+    "B2B",
+    "Biotech",
+    "Infrastructure",
+    "AI"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Summer 2025",
+  "status": "Active",
+  "industries": [
+    "B2B"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/panoptive",
+  "api": "https://devasheeshg.github.io/yc-api/batches/summer-2025/panoptive.json",
+  "year_founded": 2026,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/panoptive-health",
+  "x_url": "",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/e968a9edc53bbf932ccbe0585917fe2029077b90.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Harj Taggar",
+    "url": "https://www.ycombinator.com/people/harj-taggar"
+  },
+  "founders": [
+    {
+      "user_id": 715142,
+      "full_name": "Youssef Kallel",
+      "title": "Founder/CEO",
+      "founder_bio": "Building the oversight engine for clinical trials @Panoptive. CS @ CMU, previously a tech lead on the Foundation Model Evaluation team at Apple.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/youssefkallel/",
+      "x_url": "https://x.com/ymkallel",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/9682bb7b67349e3ed4282ddad6d49a76ec9a964e.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 92664,
+      "title": "💻 AgentHub 📈 - The Staging Environment for your AI Agents",
+      "tagline": "Simulate, trace, and evaluate agent behavior in real-world environments",
+      "body": "### **TL;DR**\n\nAgentHub is an implementation-agnostic platform for evaluating AI agents in realistic simulation environment sandboxes. Use cases that we support include computer-use, browser, conversational, and tool-use agents. We help teams test, trace, track, and improve agent behavior at scale before deployment, closing the gap between vibe checks and real-world performance.\n\n👉 Check us out [AgentHubLabs.com](http://AgentHubLabs.com)\n\n💬 If you’re building agents, training models, or can connect us to someone who is, we’d love to [chat](https://calendar.google.com/calendar/appointments/schedules/AcZssZ1FO0fw7yHEhAAHWoiyCOS2umxQTuat9bIUwOOzomfV4D8bxhKakigP0nglXPAQh-4qvrYwukiM)!\n\n---\n\nhttps://www.youtube.com/watch?v=1gPVYcphmmY\n\n### **🧩 The Problem**\n\nLLM-based agents often **pass simple evals at a small scale and in specific cases** but **fail in deployment**. They hallucinate tool use, misuse APIs, or follow an inefficient (or incorrect) reasoning trajectory that isn’t captured in standard benchmarks. There’s no standard way to evaluate agents beyond prompt-based tests - especially across **tool use**, **UI interactions**, and **multi-step reasoning**.\n\n---\n\n![uploaded image](/media/?type=post&id=92664&key=user_uploads/1435098/77c2d173-7349-41e4-90a2-e2b69712ede5)\n\n### **✅ The Solution: AgentHub**\n\nAgentHub lets you **simulate real-world environments** and **evaluate agents end-to-end** using structured tasks, traces, and grading:\n\n* 🧪 **Multi-domain, customizable environments for**: e-commerce, CRM, filesystem, browser agents, dashboards, and more\n* 🕵️ **Full tracing** in standardized OpenTelemetry format: capture every LLM/tool call, decision point, and UI step\n* 📊 Evaluation that’s easy to plug and play: LLM, human-in-the-loop, and rule-based grading + custom metrics at the task, step, or tool level\n* 🛠️ **Debug and iterate fast**: See exactly where agents fail, and improve reasoning or control loops\n* 🧠 **Automated Insights**: Get automatic insights into failure modes and auto-generate suggested fixes\n\nWhether you’re testing autonomous workflows, tool-using copilots, or browser agents, we give you a **sandboxed, realistic playground** to evaluate in before you ship.\n\n---\n\n![uploaded image](/media/?type=post&id=92664&key=user_uploads/1435098/a2b71d28-7310-4423-ac4d-1c717f244af4)\n\n### **🕵️ Who We Are**\n\nYoussef was previously a tech lead on the Foundation Model Evaluation team at Apple and studied CS at CMU.\n\nSandra has been an engineer at multiple startups, Google, and Meta, and studied CS and design at MIT.\n\nWe’ve been friends since a few years ago through a summer spent in Seattle and are obsessed with building the missing critical infrastructure to help teams **evaluate, debug, and trust** their agents.\n\n---\n\n### **🙌 How to Help / Get Involved**\n\n* Learn more and book a demo: [AgentHubLabs.com](http://AgentHubLabs.com)\n* We’re looking for teams and labs working on agents in:\n  * tool-use\n  * browser automation\n  * conversational chat\n  * and computer-use\n* Have an eval challenge? We’ll help you simulate it.\n* Use agents in prod? It’d be bananas to not test them on AgentHub first 🍌\n\n![uploaded image](/media/?type=post&id=92664&key=user_uploads/89898/9cf2b39b-039e-45a4-b4a6-969310c4378e)\n\n",
+      "url": "https://www.ycombinator.com/launches/O6a-agenthub-the-staging-environment-for-your-ai-agents",
+      "votes": 28,
+      "created_at": "2025-08-02T13:40:37.564Z"
+    }
+  ]
+}

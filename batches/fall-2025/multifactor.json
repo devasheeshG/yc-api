@@ -1,0 +1,117 @@
+{
+  "id": 30896,
+  "name": "Multifactor",
+  "slug": "multifactor",
+  "former_names": [],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/b22602dcf84ece0389bd7a801525177573cf75ba.png",
+  "website": "https://multifactor.com",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "The agentic era is here, but its foundation is dangerously insecure. A growing number of high-profile \"AI agent gone rogue\" security incidents make headlines each week.\r\n\r\nAs enterprise adoption of agentic software has far outpaced the development of applicable cybersecurity solutions, CISOs have loudly voiced a growing need for verifiable, fine-grained security controls on complex multi-agent systems. That's why we built Multifactor.\r\n\r\nMultifactor offers best-in-class authentication, authorization, and auditing technologies for agentic systems, allowing users to securely and revocably share online accounts with agents while maintaining fine-grained permissions and a detailed event history. We are doing for AI security what Cloudflare did for web security, Okta did for identity security, and Wiz did for cloud security: defining the category.\r\n\r\nA world-class \"account manager\" that allows agents to securely use online accounts on your behalf is just the start—our early enterprise partners include companies using AI agents to manage $7.5+ billion manufacturing supply chains, where the consequences for lapses in security are severe. Our patented AI security technology seamlessly integrates with existing agentic software to thwart attacks like prompt injection, so CISOs and end users alike can breathe a sigh of relief, without slowing the pace of AI adoption.",
+  "one_liner": "Zero-trust authentication, authorization, and auditing for AI agents",
+  "team_size": 6,
+  "industry": "B2B",
+  "subindustry": "B2B -> Security",
+  "launched_at": 1758318085,
+  "tags": [],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": true,
+  "nonprofit": false,
+  "batch": "Fall 2025",
+  "status": "Active",
+  "industries": [
+    "B2B",
+    "Security"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/multifactor",
+  "api": "https://devasheeshg.github.io/yc-api/batches/fall-2025/multifactor.json",
+  "year_founded": 2025,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/multifactorcom",
+  "x_url": "https://x.com/multifactorcom",
+  "fb_url": "https://www.facebook.com/multifactorinc",
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/b22602dcf84ece0389bd7a801525177573cf75ba.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Nicolas Dessaigne",
+    "url": "https://www.ycombinator.com/people/nicolas-dessaigne"
+  },
+  "founders": [
+    {
+      "user_id": 2875344,
+      "full_name": "Vivek Nair",
+      "title": "Founder/CEO",
+      "founder_bio": "Former CIA agent and Technical Lead for elite cyber units of the CIA & DOD. Youngest ever Ph.D. in Computer Science from UC Berkeley. NSF, NPSC, and Hertz fellow. Winner of the CIA's Exceptional Performance Award for extraordinary contributions to US national security.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/nair/",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/cb961cfd0982ca0cd0ed93c6f045e1cb3b432e00.jpg"
+    }
+  ],
+  "jobs": [
+    {
+      "id": 98600,
+      "title": "Founding Scientist",
+      "url": "https://www.ycombinator.com/companies/multifactor/jobs/Z0leyso-founding-scientist",
+      "location": "San Francisco, CA, US",
+      "type": "Full-time",
+      "role": "Engineering",
+      "role_type": "Machine learning",
+      "salary_range": "$195K - $245K",
+      "equity_range": "1.00% - 2.00%",
+      "experience": "6+ years",
+      "visa": "US citizen/visa only",
+      "skills": [
+        "Rust",
+        "TypeScript",
+        "Distributed Systems",
+        "Machine Learning",
+        "Cryptography",
+        "Information Security",
+        "Software Security"
+      ]
+    }
+  ],
+  "news": [
+    {
+      "title": "A.I. Deal Making Is Getting Faster - The New York Times",
+      "url": "https://www.nytimes.com/2025/12/04/technology/ai-deal-making-faster.html",
+      "date": "Dec 04, 2025"
+    },
+    {
+      "title": "The Top Startups To Watch From Y Combinator’s Fall 2025 Batch",
+      "url": "https://www.forbes.com/sites/dariashunina/2025/11/13/the-top-startups-to-watch-from-y-combinators-fall-2025-batch",
+      "date": "Nov 13, 2025"
+    },
+    {
+      "title": "Hertz Foundation Entrepreneurship Award Goes to Vivek Nair for AI Cybersecurity Startup - Hertz Foundation",
+      "url": "https://www.hertzfoundation.org/news/hertz-foundation-entrepreneurship-award-goes-to-vivek-nair-for-ai-cybersecurity-startup/",
+      "date": "Sep 19, 2025"
+    }
+  ],
+  "launches": [
+    {
+      "id": 95453,
+      "title": "Multifactor: A password manager built for secure sharing with humans & AI",
+      "tagline": "Multifactor lets you share online accounts securely without exposing passwords, just by sending a link. Import from LastPass, Apple, or Google with one click, then let humans and AI agents use your accounts on your behalf.",
+      "body": "### Explainer Video\n\nhttps://www.youtube.com/watch?v=lug9O3BK7ok\n\nMultifactor is building the future of zero-trust authentication, authorization, and auditing for AI agents.\n\nToday, we’re excited to launch the best new way to securely share online accounts with humans and AI agents alike. Multifactor turns any online account into a “checkpoint link,” making secure and revocable account sharing as easy as sharing a Google doc.\n\n### FAQs\n\n**🧑‍💻 Who are we?**\\\nVivek Nair, co-founder & CEO, is a Ph.D. computer scientist and former CIA officer. Colin Roberts, co-founder & CTO, is a Ph.D. mathematician and former NASA scientist. We’re both passionate about usable security, with over a decade of cybersecurity experience.\n\n**🤔 What can I use it for?**\\\nOne of our investors uses the app to share email and calendar access with a rotating team of personal assistants without worrying about unauthorized edits.\\\nOur friend who is a financial advisor uses Multifactor to manage their clients’ brokerage accounts without needing their passwords.\\\nOur colleague uses Multifactor to share Instacart and Netflix accounts with her roommates while being able to easily add and remove people.\n\n**⏳ Why now?**\\\nWith increasing adoption of passkeys, biometrics, and MFA, accounts are getting more secure but harder than ever to share. Sharing conventional accounts with non-human actors (like AI agents) is also an emerging need that current solutions fail to address.\n\n**🔜 What’s next?**\\\nMulti, our AI assistant specializing in secure online account use, is right around the corner, with API access for developers coming shortly thereafter. The version you’re using today will always be free, but an enterprise plan with advanced features is coming soon.\n\nOur world-class \"account manager\" that allows agents to securely use online accounts on your behalf is just the start—our patented AI security technology seamlessly integrates with existing agentic software to thwart attacks like prompt injection, so CISOs and end users alike can breathe a sigh of relief, without slowing the pace of AI adoption.\n\n### Get Started\n\n* On the Web: https://app.multifactor.com\n* On iOS: https://apps.apple.com/us/app/multifactor-account-manager/id6753222030?platform=iphone\n* On Android: [https://play.google.com/store/apps/details?id=com.multifactor.app](https://play.google.com/store/apps/details?id=com.multifactor.app&ref=producthunt)\n* On Mac: https://apps.apple.com/us/app/multifactor-account-manager/id6753222030?platform=mac\n* On Windows: https://apps.microsoft.com/detail/9njxfnh5xb8d?hl=en-US&gl=US\n* On Chrome: https://chromewebstore.google.com/detail/multifactor/kbmlcdbnkedhffonmapkcglkllgdelhm\n\n### Demo Videos\n\nSharing accounts just by sending a link, **without** ever actually sharing the passwords. Can your password manager do that? https://www.youtube.com/watch?v=Vr_Ub0pBi6M\n\nInstantly revoke shared accounts, without having to change your passwords. Can your password manager do that? https://www.youtube.com/watch?v=TmDJX29SIU0\n\nOne-click logins to any site, on any device. Can your password manager do that? https://www.youtube.com/watch?v=r9NgEfFDy8A\n\nSecurely sharing any online account with AI agents. Can your password manager do that? https://www.youtube.com/watch?v=d3kRAlZei00\n\n### Product Images\n\n![uploaded image](/media/?type=post&id=95453&key=user_uploads/2875344/2e4495eb-cc9b-4892-b77f-e02a76ea5f24)\n\n![uploaded image](/media/?type=post&id=95453&key=user_uploads/2875344/541e921d-397a-47fa-8761-e444494d56db)\n\n![uploaded image](/media/?type=post&id=95453&key=user_uploads/2875344/45648ce2-232c-4816-8c89-c75fb112fd57)\n\n![uploaded image](/media/?type=post&id=95453&key=user_uploads/2875344/9ae9040b-e6bc-4b78-b262-d0e8b397fb5a)\n\n![uploaded image](/media/?type=post&id=95453&key=user_uploads/2875344/6110c113-ae56-484f-b5a0-af47bf54f92d)\n\n![uploaded image](/media/?type=post&id=95453&key=user_uploads/2875344/b7a883f3-b8f5-4ed2-bbd5-fc76fc6d3a5f)\n\n![uploaded image](/media/?type=post&id=95453&key=user_uploads/2875344/4c57abc1-748f-4ed6-a296-23223420f78a)\n\n",
+      "url": "https://www.ycombinator.com/launches/OpZ-multifactor-a-password-manager-built-for-secure-sharing-with-humans-ai",
+      "votes": 22,
+      "created_at": "2025-11-12T18:52:02.240Z"
+    }
+  ]
+}

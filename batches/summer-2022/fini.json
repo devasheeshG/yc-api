@@ -1,0 +1,102 @@
+{
+  "id": 27038,
+  "name": "Fini",
+  "slug": "fini",
+  "former_names": [],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/b044a080c88a5aedab72016a60feff3dd053fc64.png",
+  "website": "https://www.usefini.com",
+  "all_locations": "Amsterdam, NH, Netherlands",
+  "long_description": "Fini builds AI agents that autonomously resolve up to 80% of customer support tickets for enterprises specially in Fintech, E-commerce, Gaming and Fitness tech.\r\n\r\nOur agents understand complex workflows, take real actions (like refunds or KYC checks), and improve in real-time. Built on a proprietary knowledge engine, our agents deliver 98%+ accuracy and integrate deeply with tools like Zendesk, Salesforce, and internal APIs.\r\n\r\nEnterprises like Bitdefender and Training Peaks use Fini to slash support costs by 50% while boosting CSAT by 10%.",
+  "one_liner": "Fini | Automate 80% of enterprise support with AI agents",
+  "team_size": 14,
+  "industry": "B2B",
+  "subindustry": "B2B -> Operations",
+  "launched_at": 1656434795,
+  "tags": [
+    "Generative AI",
+    "Machine Learning",
+    "SaaS",
+    "B2B",
+    "AI"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Summer 2022",
+  "status": "Active",
+  "industries": [
+    "B2B",
+    "Operations"
+  ],
+  "regions": [
+    "Netherlands",
+    "Europe",
+    "Remote",
+    "Partly Remote"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/fini",
+  "api": "https://devasheeshg.github.io/yc-api/batches/summer-2022/fini.json",
+  "year_founded": 2022,
+  "city": "Amsterdam",
+  "country": "NL",
+  "linkedin_url": "https://www.linkedin.com/company/usefini/",
+  "x_url": "https://x.com/finichatAI",
+  "fb_url": null,
+  "cb_url": "https://www.crunchbase.com/organization/fini-ea8a",
+  "github_url": "https://github.com/ask-fini",
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/b044a080c88a5aedab72016a60feff3dd053fc64.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": null,
+  "founders": [
+    {
+      "user_id": 1010279,
+      "full_name": "Deepak Singla",
+      "title": "Founder",
+      "founder_bio": "Deepak Singla is the co-founder of Fini. Deepak leads Fini’s product strategy, and the mission to automate customer interactions for tech companies around the world. Originally from India, Deepak graduated from IIT Delhi where he received a Bachelor degree in Mechanical Engineering, and a minor degree in Business Management ",
+      "is_active": true,
+      "linkedin_url": "http://linkedin.com/in/deepak-singla-68345667/",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/a0c990cd0a8a29c0f957affa6d442d8590fb49eb.jpg"
+    },
+    {
+      "user_id": 996529,
+      "full_name": "Hakim K",
+      "title": "Founder",
+      "founder_bio": "Hakim is leading tech at Fini. Hakim has a background in software engineering and analytics across 4+ organizations and 10+ years of experience. Most recently at Uber, Hakim met Deepak. Originally from Sweden, Hakim graduated from École Polytechnique with a master's degree in Engineering Mathematics.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/hakim-k/",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/10faa8b98308ba56ea25b67d0072eedbfc40eace.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 96968,
+      "title": "Fini: Accuracy-first AI for high-stakes support",
+      "tagline": "AI customer support with 100% compliance and 0% hallucinations",
+      "body": "Hey everyone! 👋\n\nWe’re Deepak and Hakim. Before founding Fini (YC W22), we led product and growth teams at Uber, operating at the scale of 200 million+ support tickets every year. We founded Fini believing that AI support can (and should!) be held to a higher standard than human support.\n\n**TL;DR** If you run support for a bank, fintech, insurance company, or any regulated industry, chances are you’ve tried your hand at generic AI support chatbots and realized they’re not a fit. A single hallucinated response can lead to lawsuits and PR disasters, destroying customer trust you’ve worked hard to build over decades. Fini AI was built specifically for these high-stakes environments, resolving 80% of support queries with full compliance and zero hallucinations.\n\n![uploaded image](/media/?type=post&id=96968&key=user_uploads/1010279/fe000980-ba95-4470-9469-32c24fb5516a)\n\n\n### **Support in regulated industries is broken**\n\nCompanies in finance, insurance, and healthcare face a brutal trade-off:\n\n* **Scale support with humans:** Expensive, hard to hire, and training takes months.\n* **Scale it with generic AI:** High risk of hallucinations, compliance breaches, and protocol violations.\n\nIn regulated spaces, hallucinations or protocol violations aren’t just isolated bad user experiences; it’s a potential regulatory fine. A class-action lawsuit. A PR disaster waiting to happen. Because of this, most teams are forced to stick with slow, expensive manual support, leaving customers waiting even for straightforward queries.\n\n### **The (accuracy) problem**\n\nIf you lead a support team in a regulated industry, you can't just let an LLM loose on your knowledge base.\n\n* Generic models prioritize \"fluency\" over \"factuality.\"\n* They often make up policies or promise refunds that don't exist.\n* Audit trails are often non-existent or hard to parse.\n\nYou end up blind to what the AI is actually saying until it’s too late. This risk forces many companies to pull back on AI support entirely, leading to burnt-out agents and frustrated customers.\n\n### **Fini solves this**\n\nWe built Fini to be accuracy-first. We monitor every interaction to ensure compliance and use specialized AI agents that don’t just \"chat\" — they solve.\n\n* **98% Accuracy:** We hold our AI to even higher standards than human agents.\n* **Human-in-the-Loop:** We seamlessly loop in human experts for edge cases.\n* **Self-learning:** The AI learns from your best people whenever they intervene to solve a new problem.\n* **Proven Scale:** We already resolve over 1 million tickets monthly for customers like the US Chamber of Commerce Foundation, Atlas, Found, and Bitdefender.\n\n### **Our Asks**\n\n* **Do you lead Support or CX** in a regulated industry (Fintech, Insurtech, Health) and want to automate tickets without the risk? **Let’s chat.**\n* **Know a great operator?** We’re hiring a Head of Growth, Product Marketing Lead, and an AI Product Manager. Please introduce them to us!",
+      "url": "https://www.ycombinator.com/launches/PE0-fini-accuracy-first-ai-for-high-stakes-support",
+      "votes": 6,
+      "created_at": "2026-01-20T18:12:08.355Z"
+    },
+    {
+      "id": 64064,
+      "title": "Fini - ⚡️ Lightning ⚡️ quick Customer Contact Resolution",
+      "tagline": "Fini helps companies collect, categorize and resolve customer issues using AI ",
+      "body": "**Fini helps companies collect, categorize and resolve customer interactions.**\n\nHey all! We’re Deepak & Hakim, and we have worked on AI systems for customer interaction at companies like Uber, Accenture, and PwC.\n\nWe’ve seen **companies in multiple sectors lose millions of dollars** trying to solve various customer interactions manually through agents - spanning from healthcare claims for insurance companies to millions of customer inbound tickets for B2C enterprises.\n\nAt Fini we categorise and resolve all your customer inbounds in real-time across 50+ languages, and integrates with your CRM systems in less than a week.\n\n**Problem:**\n\nWhen a company tries to scale its operations, it often runs into the following roadblocks in terms of handling customer contact:\n\n1. Customer requests come from multiple channels (emails, CRM, typeform, chatbots, in-app)\n2. These requests are currently solved manually by agents. Actioning this feedback at scale is slow and expensive.\n3. Customer insights are not generated in real time\n\n**How can Fini help me?** \n\nWe can help you to:\n\n* **Integrate channels into one overview:** Collecting requests from across your systems.\n* **Product driven resolution:** Our software redirects customers to self-serve product integrations to solve their issues without any human touch.\n* **Get real-time product insights:** Dashboards tailored to your use-case precisely illuminating customer pain points.\n\n**Want us to help you?** Email [hello@usefini.com](https://mailto:hello@usefini.com) to get set up within a week!",
+      "url": "https://www.ycombinator.com/launches/GfI-fini-lightning-quick-customer-contact-resolution",
+      "votes": 34,
+      "created_at": "2022-06-25T00:31:19.513Z"
+    }
+  ]
+}

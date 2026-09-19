@@ -1,0 +1,93 @@
+{
+  "id": 27703,
+  "name": "Dashdive",
+  "slug": "dashdive",
+  "former_names": [
+    "Fleat",
+    "Ferment Technologies",
+    "Rosettic"
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/6b6df4ea1d773219dccecb0fefc99b7b3e5052c8.png",
+  "website": "https://dashdive.com",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "Dashdive attributes AI/LLM and cloud costs to customers, teams and products at the endpoint invocation level using observability tools. This allows software companies to optimize their pricing and evaluate the profitability of each product.",
+  "one_liner": "Break down AI and cloud costs by feature and customer",
+  "team_size": 2,
+  "industry": "B2B",
+  "subindustry": "B2B -> Engineering, Product and Design",
+  "launched_at": 1678386689,
+  "tags": [
+    "FinOps",
+    "SaaS",
+    "Enterprise Software"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Winter 2023",
+  "status": "Acquired",
+  "industries": [
+    "B2B",
+    "Engineering, Product and Design"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/dashdive",
+  "api": "https://devasheeshg.github.io/yc-api/batches/winter-2023/dashdive.json",
+  "year_founded": 2023,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/dashdive/",
+  "x_url": "",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": "https://github.com/dashdive",
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/6b6df4ea1d773219dccecb0fefc99b7b3e5052c8.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": null,
+  "founders": [
+    {
+      "user_id": 1165030,
+      "full_name": "Micah Wheat",
+      "title": "Founder",
+      "founder_bio": "On the business side",
+      "is_active": false,
+      "linkedin_url": "https://www.linkedin.com/in/micah-wheat/",
+      "x_url": "https://twitter.com/micahawheat",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/bd7cd3973521c98a4c247954b3c10c02ea837622.jpg"
+    },
+    {
+      "user_id": 1046474,
+      "full_name": "Adam Shugar",
+      "title": "Founder",
+      "founder_bio": "",
+      "is_active": false,
+      "linkedin_url": "https://www.linkedin.com/in/adamshugar/",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/1c44104afa6f73732cc7858e71ffb9038ebdef55.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 70237,
+      "title": "Dashdive — Break down cloud costs by feature and customer",
+      "tagline": "The only tool that shows per-feature and per-customer cloud costs.",
+      "body": "[Dashdive](http://dashdive.com) attributes AWS, GCP, Azure and other cloud services costs to features, products, teams and customers. These data help companies understand how their profitability breaks down by product and customer, allowing them to make optimal strategic decisions about pricing, resource allocation and cloud architecture.\n\n### Problem\n\nMost tech companies **don’t know how much it costs to serve each of their customers with each of their products**. Cloud costs are typically a tech company’s second-largest cost (after personnel), and they can vary significantly even on a per-unit basis, i.e. irrespective of volume.\n\nWithout per-customer and per-product cost information, companies can’t reliably know:\n\n1. What’s our margin on Customer A?\n2. What’s our margin on Product B?\n3. Which usage events drove Customer C’s costs last month?\n4. What are our costs likely to be on new Customer D?\n\nNormally, if an engineering or finance team wants to know the answer to one of these questions, they have to either 1) **make an estimate that could be wildly inaccurate** based on average total costs or 2) “**track down an engineer** to run experiments in AWS.” (That was a direct quote from a CFO.)\n\n### Solution\n\n![uploaded image](/media/?type=post&id=70237&key=user_uploads/1165030/8fb86e1e-9f54-4127-ad9e-e0ac5daf701f)\n\n**Dashdive answers these questions** by monitoring backend services (servers, databases, etc.) with lightweight agents. These agents **attribute the activity on each cloud service to specific features and customers** using distributed tracing and continuous profiling. Then, the usage data are **mapped to cost** data via AWS/GCP/Azure billing APIs. The result is a complete picture of who and what are driving cloud costs over time.\n\nGranular cloud cost data allow companies to:\n\n1. Know if they’re pricing an existing customer too low—or below cost.\n2. Hone in on individual lines of code and architectural decisions that incur disproportionate costs. (Other tools can only give generic cost-cutting recommendations based on total costs, e.g. “consider reserving storage in advance for a discount,” since they just repackage existing AWS billing data.)\n3. Give customers who complain about high bills or opaque pricing an adequate explanation (and perhaps even suggested usage patterns to reduce future bills).\n4. Better forecast the cost of serving a new customer based on expected usage. This helps teams price contracts optimally to hit margin goals consistently.\n\n### Setup\n\nInstallation only involves deploying Dashdive agents to each service of interest. This takes five minutes and requires **zero code changes**. Although our backend is cloud-based by default, **Dashdive can be self-hosted** for companies that need to keep all data within their ecosystem.\n\n![uploaded image](/media/?type=post&id=70237&key=user_uploads/1165030/943447c4-84fd-4a29-a67c-46f3ae266fcc)\n\n_This is the entire setup for AWS Lambda, a popular cloud service._\n\n### Why Now\n\nSupply and demand factors make now the perfect time to launch this product:\n\n* **Supply**: Monitoring technologies eBPF and OpenTelemetry have come a long way in the past few years. Both technologies allow seamless monitoring of different technology stacks, removing friction where engineering teams would have otherwise needed to make significant investments in setup and maintenance. Application performance monitoring companies like Datadog have proven that monitoring dozens of services is technically feasible and can be profitable even at scale.\n* **Demand**: As the cost of capital has increased and fundraising has become less certain, profitability is the only way to guarantee business survival. Business and engineering leaders are placing newfound importance on margin health.\n\nGiven these factors, this opportunity emerged in the last twelve months.\n\n### Get in Touch\n\nMore information at [dashdive.com](http://dashdive.com). Inquiries can be sent to [team@dashdive.com](https://mailto:team@dashdive.com).\n\n![uploaded image](/media/?type=post&id=70237&key=user_uploads/1165030/e5803ab1-04cb-4a16-b4f5-f87c2ec6bb68)\n\nDashdive’s founders met in college at Stanford University. Bringing strategy and sales experience, [Micah](https://www.linkedin.com/in/micah-wheat/) (left) worked at the Boston Consulting Group. [Adam](https://www.linkedin.com/in/adamshugar/) (right) developed his engineering background at Palantir and Apple.",
+      "url": "https://www.ycombinator.com/launches/IGr-dashdive-break-down-cloud-costs-by-feature-and-customer",
+      "votes": 86,
+      "created_at": "2023-03-13T19:11:21.449Z"
+    }
+  ]
+}

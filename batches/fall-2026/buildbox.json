@@ -1,0 +1,92 @@
+{
+  "id": 32197,
+  "name": "Buildbox",
+  "slug": "buildbox",
+  "former_names": [],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/989f93098b0f9d50006d1cc3890e9da739799a9e.png",
+  "website": "https://heybuildbox.com",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "Buildbox helps product teams improve the human-agent experience. We analyze user intent, agent behavior, and outcomes to find where users get stuck or lose trust, then turn those findings into ranked, reproducible issues. ",
+  "one_liner": "Agent analytics for real user outcomes",
+  "team_size": 2,
+  "industry": "B2B",
+  "subindustry": "B2B -> Analytics",
+  "launched_at": 1785235599,
+  "tags": [
+    "Analytics",
+    "Enterprise Software",
+    "AI"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Fall 2026",
+  "status": "Active",
+  "industries": [
+    "B2B",
+    "Analytics"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/buildbox",
+  "api": "https://devasheeshg.github.io/yc-api/batches/fall-2026/buildbox.json",
+  "year_founded": 2026,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/heybuildbox/",
+  "x_url": "",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/989f93098b0f9d50006d1cc3890e9da739799a9e.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Jon Xu",
+    "url": "https://www.ycombinator.com/people/jon-xu"
+  },
+  "founders": [
+    {
+      "user_id": 949567,
+      "full_name": "Trishala Jain",
+      "title": "Founder/CEO",
+      "founder_bio": "Co-Founder of Buildbox. Prev Google Labs, MongoDB, AppDynamics. UC Berkeley M.E.T.  (EECS + Business).",
+      "is_active": true,
+      "linkedin_url": "https://linkedin.com/in/trishalajain7",
+      "x_url": "https://x.com/hitrishala",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/7a5e330324e6dd361ae48aa82067939a009ccf81.jpg"
+    },
+    {
+      "user_id": 1420688,
+      "full_name": "Mark Nour",
+      "title": "Founder/CTO",
+      "founder_bio": "Co-Founder of Buildbox. Prev Netflix, Google Cloud, Berkeley CS",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/marknour",
+      "x_url": "https://x.com/marknnour",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/323f622e4eed0bc38d339836f485ea55736eca72.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 108803,
+      "title": "Buildbox: Agent analytics for real user outcomes",
+      "tagline": "Find the user-facing agent failures hidden behind successful traces and evals.",
+      "body": "**TL;DR:** An agent can pass its evals and look healthy in traces while still failing to help users complete important tasks. Buildbox identifies those failed user journeys, ties them to business outcomes, and tests better agent behaviors and interaction patterns. Product teams get evidence-backed fixes they can review and ship.\n\n**Ask:** If you’re building a customer-facing AI agent, we’ll help you find the agent failures you haven’t seen yet. Book 20 minutes with us:[ ](https://cal.com/marknour/20min)[cal.com/team/buildbox/discovery](http://cal.com/team/buildbox/discovery)\n\n[www.youtube.com/watch?v=Er_CW5WS6Lw](https://www.youtube.com/watch?v=Er_CW5WS6Lw)\n\n**The problem:** the most expensive agent failures rarely look like errors.\n\nYour agent can return an answer, produce a normal-looking trace, and pass its evals while still failing to help the user. If someone has to ask the same question three times, repeatedly redirect the agent, and eventually abandon the task, was the agent actually successful?\n\nToday, teams uncover these failures by manually reading conversations, watching sessions, checking product analytics, and comparing what they find against their most important business metrics. By the time a pattern becomes obvious, many more customers have already experienced it.\n\n**Our solution:** Buildbox is agent analytics built around user outcomes.\n\nBuildbox analyzes the full user journey to find where agents create friction, fail to complete a task, or leave users without the outcome they came for. It turns these breakdowns into recurring, measurable patterns, showing product teams how often they occur, who they affect, and what they cost the business in terms of activation, conversion, and retention.\n\nFor the failures that matter most, Buildbox tests better agent behaviors and interaction patterns. Teams get the underlying evidence and a validated fix they can review and ship.\n\nIf you’re shipping a new agent feature before it has real traffic, Buildbox can test it against realistic user tasks and find failure points before users encounter them.\n\n**Who we are** \n\nWe’re [Mark](http://www.linkedin.com/in/marknour) and [Trishala](http://www.linkedin.com/in/trishalajain7), the founders of Buildbox (YC S26). We met as undergrads at UC Berkeley and have been building together for three years. \n\nBefore this, we worked at Netflix, Google, Amazon, and MongoDB. Across different engineering &amp; product teams, we saw the same pattern: companies had plenty of signals &amp; observability, but finding the issues that actually mattered and turning it into a fix still took a lot of manual detective work.\n\nWe think agents make that gap more consequential.",
+      "url": "https://www.ycombinator.com/launches/SIt-buildbox-agent-analytics-for-real-user-outcomes",
+      "votes": 10,
+      "created_at": "2026-08-03T20:24:30.725Z"
+    }
+  ]
+}

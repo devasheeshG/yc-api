@@ -1,0 +1,111 @@
+{
+  "id": 30304,
+  "name": "Mastra",
+  "slug": "mastra",
+  "former_names": [],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/a6e5f319cbd11b23e8938be90ed120209a914c0a.png",
+  "website": "https://mastra.ai",
+  "all_locations": "San Francisco, CA, USA; Remote",
+  "long_description": "Mastra is the easiest way to build a production AI application, built by the team that brought you Gatsby. We provide a complete set of AI primitives: workflows for complex operations, agents for autonomous decisions, RAG for knowledge integration, and evals for quality & accuracy. Mastra is open-source, modular, and built in Typescript for product developers. You can deploy Mastra on any cloud, and it gives you a straightforward syntax to solve the hardest problems building with AI: human-in-the-loop workflows, agent memory and tool selection, and output quality. ",
+  "one_liner": "The Javascript framework for building AI agents, from the Gatsby devs",
+  "team_size": 30,
+  "industry": "B2B",
+  "subindustry": "B2B -> Engineering, Product and Design",
+  "launched_at": 1737136768,
+  "tags": [
+    "Artificial Intelligence",
+    "Developer Tools",
+    "Open Source",
+    "AI"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Winter 2025",
+  "status": "Active",
+  "industries": [
+    "B2B",
+    "Engineering, Product and Design"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada",
+    "Remote",
+    "Fully Remote"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/mastra",
+  "api": "https://devasheeshg.github.io/yc-api/batches/winter-2025/mastra.json",
+  "year_founded": 2024,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/mastra-ai/",
+  "x_url": "https://x.com/mastra_ai",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": "https://github.com/mastra-ai",
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/a6e5f319cbd11b23e8938be90ed120209a914c0a.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Gustaf Alstromer",
+    "url": "https://www.ycombinator.com/people/gustaf-alstromer"
+  },
+  "founders": [
+    {
+      "user_id": 153911,
+      "full_name": "Sam Bhagwat",
+      "title": "Founder/CEO",
+      "founder_bio": "Founder/CEO of Mastra. Spent last ~8yrs as cofounder of Gatsby.js, an open-source React website framework, scaled to $5M ARR, sold to Netlify. Eng <20 at Zenefits (W13) and Plangrid (W12). Spent two years knocking doors. Stanford '11.",
+      "is_active": true,
+      "linkedin_url": "https://linkedin.com/in/sambhagwat",
+      "x_url": "https://twitter.com/calcsam",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/cb20d185b7498f7b2b45dd5684efb41e9758bedc.jpg"
+    },
+    {
+      "user_id": 2249037,
+      "full_name": "Abhi Aiyer",
+      "title": "Founder/CTO",
+      "founder_bio": "Founder/CTO of Mastra. Principal eng & lead of >100 person eng org at Netlify. Built Gatsby Cloud infra that ran 10s of thousands of build nodes, served billions of files, and 100s of TB of monthly bandwidth.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/abhi-aiyer-aa41bb42/",
+      "x_url": "https://x.com/abhiaiyer",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/7f1fde9e247efbf58a998b3b00f52c7ff79a8e4e.jpg"
+    },
+    {
+      "user_id": 2131238,
+      "full_name": "Shane Thomas",
+      "title": "Founder",
+      "founder_bio": "Founder/CPO of Mastra. Prev: built Audiofeed (AI podcasting). Staff eng / head of product @ Gatsby. 15+ years in open source. State wrestling champion.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/smthomas3",
+      "x_url": "https://twitter.com/smthomas3",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/77ec1970e36a2134f3acd6b6ac96dc239f48c011.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [
+    {
+      "title": "We raised a $22M Series A to help every developer build agents - Mastra Blog",
+      "url": "https://mastra.ai/blog/series-a",
+      "date": "Apr 09, 2026"
+    }
+  ],
+  "launches": [
+    {
+      "id": 88086,
+      "title": "Mastra: the open-source JavaScript framework for building agents",
+      "tagline": "If you hate Langchain, you'll love Mastra :) ",
+      "body": "Hey everyone 🙂 we’re Sam, Shane and Abhi.\n\n![mastra co-founders](https://mastra.ai/_next/image?url=%2Fabout%2Fmastra-founders.png&w=1200&q=75)\n\n**What we’re building:** Mastra (<https://mastra.ai>) is an open-source JavaScript SDK for building agents on top of Vercel’s AI SDK.\n\n<https://www.youtube.com/watch?v=8o_Ejbcw5s8>\n\n**Our backstory:** Previously, we built Gatsby, the open-source React web framework.\n\nWe noticed our friends building AI applications getting stuck debugging prompts, figuring out why their agents called (or didn’t call) tools, and writing lots of custom memory retrieval logic.\n\nIn October, we started building Mastra, and last week we went viral on Hacker News and Github and went from 1,500 to 7,500 stars.\n\n**Mastra use-cases:** Fireworks AI is using us to build agentic workflows. YC companies are using Mastra to automate support, build CAD diagrams, scrape the web for contact info, automate medical transcriptions, generate financial documents, and create code generation products.\n\nMastra allows you to create workflow graphs that can suspend/resume, build RAG pipelines, write evals, give agents memory, create multi-agent workflows, and test it all in a local playground.\n\nHere’s a weather agent and the agent playground (with tracing built in!):\n\n![uploaded image](/media/?type=post&id=88086&key=user_uploads/153911/2af3d557-eda5-4e84-9e3d-8ca9f89ba3b4)\n\nYou can deploy Mastra agents and workflows to a serverless platform like Vercel, Cloudflare, Netlify, any cloud service that can run Node.js, or our [own hosting platform](https://mastra.ai/waitlist) with evals and tracing.\n\n**How to get started:** Just head over to the command line and install:`npm create mastra`\n\nHappy building 🙂 \\\n\\\nPS: we’ve spent a lot of time this batch doing AI engineering whiteboarding sessions with other batch startups, walking through architecture and best practices, so we decided to write a book to help people get up to speed faster: [Principles of Building AI Agents](https://www.amazon.com/dp/B0DYH5GHDD/ref=tmm_pap_swatch_0?_encoding=UTF8&dib_tag=se&dib=eyJ2IjoiMSJ9.xOCgmaLViBdLwSFuscVMKTz0vTJBUua4OTJbmgz-H-ZCHIxUUBdjGogX4uyU7T6V.kAblDRv1ODXGF3V-QgC6-AVQCrcuYiDicC-BYx4cYXc&qid=1740435997&sr=8-1).\n\nFollow [@mastra_ai](https://twitter.com/mastra_ai) on Twitter/X and tweet at us and we’ll get you a physical copy!\n\n![uploaded image](/media/?type=post&id=88086&key=user_uploads/153911/3fe20638-050c-463d-b8cd-f23b7ce91592)\n\n",
+      "url": "https://www.ycombinator.com/launches/Muk-mastra-the-open-source-javascript-framework-for-building-agents",
+      "votes": 172,
+      "created_at": "2025-02-27T15:40:16.256Z"
+    }
+  ]
+}

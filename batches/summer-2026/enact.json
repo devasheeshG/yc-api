@@ -1,0 +1,92 @@
+{
+  "id": 32156,
+  "name": "Enact",
+  "slug": "enact",
+  "former_names": [],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/6f79f9bbc22f20d6e3465ca66081c4a646834064.png",
+  "website": "https://enact.company",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "Enact creates the physical environments to benchmark and hill climb robotics models on high-value tasks. We find where robots fail, and fix them with our in-house training loop.",
+  "one_liner": "Real-world RL environments for robotics models",
+  "team_size": 2,
+  "industry": "Industrials",
+  "subindustry": "Industrials -> Manufacturing and Robotics",
+  "launched_at": 1786311090,
+  "tags": [
+    "Reinforcement Learning",
+    "Robotics",
+    "AI"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Summer 2026",
+  "status": "Active",
+  "industries": [
+    "Industrials",
+    "Manufacturing and Robotics"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/enact",
+  "api": "https://devasheeshg.github.io/yc-api/batches/summer-2026/enact.json",
+  "year_founded": 2026,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/enact-company/?viewAsMember=true",
+  "x_url": "https://x.com/enact_labs",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/6f79f9bbc22f20d6e3465ca66081c4a646834064.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Jon Xu",
+    "url": "https://www.ycombinator.com/people/jon-xu"
+  },
+  "founders": [
+    {
+      "user_id": 2406199,
+      "full_name": "James Stevens",
+      "title": "Founder/CEO",
+      "founder_bio": "Founder & CEO @ Enact. Previously an early engineer at a startup scaling from zero to $1.5B AUM. Stanford MS&E.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/james-stevens-440362200/",
+      "x_url": "https://x.com/jamesw_stevens",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/c605b46207ec2b29443db68751da93ca45c507c0.jpg"
+    },
+    {
+      "user_id": 3594727,
+      "full_name": "Govind Chada",
+      "title": "Founder/CTO",
+      "founder_bio": "Founder at Enact. Previously: Robotics research in Chelsea Finn’s IRIS Lab at Stanford AI Lab, Meta Reality Labs.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/govind-chada",
+      "x_url": "https://x.com/govindchada",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/bffdb6ffe1344f591c02771b2dceccd816fe305e.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 109880,
+      "title": "Enact: post-training infrastructure for robotics models",
+      "tagline": "Enact generates the data and evaluations needed to make robotics models reliable in the real world.",
+      "body": "**TL;DR: Enact helps teams deploy robots that work in the real world. We roll out policies, generate failure / recovery data, and run in-house evaluations so robots can complete real tasks in production.** \n\n[**https://www.youtube.com/watch?v=dam0tQBIezY**](https://www.youtube.com/watch?v=dam0tQBIezY)\n\n**The Problem**\n\nRobotics models can look flawless in choreographed demos and still fail when an object slips, the scene shifts, or the robot makes an early mistake. Those failures push the policy into states its training data never taught it to recover from. **Robotics models must train on edge cases to be reliable in the real world.**\n\n**What We Built**\n\nEnact turns a policy’s failures into targeted recovery datasets for teams training robotics models. We use the data to fine-tune models and run real-world evaluations, verifying our data improves reliability.\n\n**We’re already serving our first customers: finding where their robots fail and collecting the targeted recovery data needed to make them robust.**\n\n* Roll out an existing model on a physical robot.\n* Identify recurring failure states.\n* Recreate those states and demonstrate how to recover.\n* Retrain with the new trajectories added in.\n* Repeat\n\n**Targeted recovery data pushes success rates above 99%.**\n\nOn our controlled packing task using pi0.5 on the YAM 6DoF arms:\n\n* 200 ordinary expert demonstrations: 90/100 successful physical rollouts\n* 250 ordinary expert demonstrations (more of the same data): 89/100\n* 200 expert demonstrations plus 50 targeted recovery demonstrations: 99/100\n\n![uploaded image](/media/?type=post&id=109880&key=user_uploads/2406199/e1b83c19-6e1d-4dda-adcf-258398bc1676)\n\n**We’re continuing to longer-horizon tasks such as industrial kitting, lab automation, and electronics recycling**\n\nLonger-horizon tasks need substantially more base and recovery data, but the loop is the same: find failures, target missing behaviors, retrain, repeat.\n\n**Who We Are**\n\nWe’re James Stevens and Govind Chada, and we met at Stanford. Govind researched real-world robot adaptation in Chelsea Finn’s IRIS Lab and co-developed recovery methods published at top robotics conferences. Together, we built Enact’s in-house data and evaluation operation and are already serving robotics teams. We started Enact to make robotics models work reliably outside the lab.\n\n**Our Ask**\n\nTraining a robot foundation model or deploying a policy that fails on a real task? Tell us the model, task, and where it breaks, and we’ll make it work.\n\nEmail: [founders@enact.company](mailto:founders@enact.company)",
+      "url": "https://www.ycombinator.com/launches/SaG-enact-post-training-infrastructure-for-robotics-models",
+      "votes": 16,
+      "created_at": "2026-08-11T14:30:00.204Z"
+    }
+  ]
+}

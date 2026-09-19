@@ -1,0 +1,94 @@
+{
+  "id": 30176,
+  "name": "Outship",
+  "slug": "outship",
+  "former_names": [
+    "Trace"
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/500ff8202faf0a9f25c1a4ee0f51ff6e2499c9b6.png",
+  "website": "https://outship.ai",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "Software engineering is being rewritten in real time, and hiring is getting pulled along for the ride. \r\n\r\nWith tools like Claude Code and Cursor, being able to ship is the new baseline. The signal for finding extraordinary engineers is the process: how candidates break down work, steer the agent, make tradeoffs, and recover when things break. \r\n\r\nOutship is a recruiting tool that allows you to capture and analyze that process alongside the final code so you can hire with confidence.\r\n\r\nCandidates work in a cloud workspace that's ready to code. We handle the environment setup and secret management to give you a level testing ground.",
+  "one_liner": "Hire amazing engineers by seeing how they use AI",
+  "team_size": 3,
+  "industry": "B2B",
+  "subindustry": "B2B -> Recruiting and Talent",
+  "launched_at": 1738662568,
+  "tags": [
+    "Artificial Intelligence",
+    "B2B",
+    "Recruiting"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Winter 2025",
+  "status": "Active",
+  "industries": [
+    "B2B",
+    "Recruiting and Talent"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/outship",
+  "api": "https://devasheeshg.github.io/yc-api/batches/winter-2025/outship.json",
+  "year_founded": 2025,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/showcase/outshipai/",
+  "x_url": "https://x.com/outshipai",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/500ff8202faf0a9f25c1a4ee0f51ff6e2499c9b6.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Gustaf Alstromer",
+    "url": "https://www.ycombinator.com/people/gustaf-alstromer"
+  },
+  "founders": [
+    {
+      "user_id": 979984,
+      "full_name": "Saner Cakir",
+      "title": "Founder/CEO",
+      "founder_bio": "now: outship.ai – hire amazing engineers by seeing how they use AI\nbefore: robot learning at Berkeley AI Research",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/saner-cakir-697385300/",
+      "x_url": "https://x.com/sanerc110",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/97e66417507f4bec6d78b257780c911062ea4ef7.jpg"
+    },
+    {
+      "user_id": 1639012,
+      "full_name": "Kayla Lee",
+      "title": "Founder/COO",
+      "founder_bio": "now: outship.ai – hire amazing engineers by seeing how they use AI \nbefore: nlp at Berkeley AI Research ",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/kayla-lee-715149160/",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/1608169311eaf6066a938178720df7529b18d4d7.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 98459,
+      "title": "Outship 🚀 | 👨‍💻 Hire amazing engineers by seeing how they use AI",
+      "tagline": "Outship is a recruiting platform that records and analyzes how engineering candidates use coding agents.",
+      "body": "**TL;DR:** Outship is a recruiting platform that records and analyzes how engineering candidates use coding agents. Import a task repo from GitHub and send an invite link for a take home or an interview. We spin up a cloud workspace for them to work in.\n\n![uploaded image](/media/?type=post&id=98459&key=user_uploads/979984/e030f7b7-7cf7-4d83-bcd3-402c750994d0)\n\n# ⁉️ Why?\n\nEveryone’s feeling the AGI when it comes to coding. We spoke with over 50 YC teams in the past few weeks, and almost all of them are aggressively using coding agents to build product.\n\nThis naturally means that the skills that differentiate an okay engineer from an amazing one have changed significantly! Teams are no longer hiring for typing out code character by character. Instead, they need ambitious builders who can leverage the latest tools and techniques to achieve in a day what a team of five used to achieve in a week.\n\n* “I usually ask them which agent they are using. If it’s still Cursor, I’ll send them to the bottom of the queue” – YC founder 🤵\n* “If they know the latest stuff like a Ralph loop, that’s usually a really good sign that they are passionate” – another YC founder 💁‍♀️\n\nSeeing a candidate work with AI can give you a lot of signal about their thought process and whether they’re the engineer you’re looking for.\n\nThe YC application, along with several companies, now asks applicants to attach AI agent sessions:\n\n![uploaded image](/media/?type=post&id=98459&key=user_uploads/979984/93653791-8e34-4aaa-a2c5-d5f9ceec3de2)\n\n## 💩 Existing hiring tools can’t capture this\n\nTools like CoderPad and HackerRank have tried to band-aid a “AI Agent” on their Leetcode interview platforms, but honestly, these toy environments and their crappy GPT wrappers have nothing to do with how your engineers work today.\n\n![uploaded image](/media/?type=post&id=98459&key=user_uploads/979984/ad12a850-2927-42ae-a154-71ebb0394c61)\n\n# 🚀 The Solution\n\nWe’ve built a platform to send tasks to candidates and record how they work on them with coding agents. We then analyze their implementation and coding agent sessions against customizable rubrics.\n\n<https://youtu.be/VTZ_UZ52imY>\n\nOutship spins up a cloud VM and drops the candidate into a browser based VS Code workspace with coding agents ready to use. They get a real remote machine: they can use the terminal, run web apps, forward ports, and more!\n\nWe handle the environment setup and secrets management so you can evaluate candidates on a level playing field.\n\n# 🦞 Our Ask\n\n1. If you are hiring engineers, try [outship.ai](https://outship.ai/)! I will personally help you get set up. (in person in SF Bay Area or over Zoom elsewhere)\n2. If you want to chat more, book a meeting: [cal.com/saner/outship](https://cal.com/saner/outship?overlayCalendar=true)\n3. If you know founders hiring engineers, we’d love an intro: [saner@outship.ai](mailto:saner@outship.ai)",
+      "url": "https://www.ycombinator.com/launches/Pc3-outship-hire-amazing-engineers-by-seeing-how-they-use-ai",
+      "votes": 10,
+      "created_at": "2026-03-05T00:39:46.018Z"
+    }
+  ]
+}

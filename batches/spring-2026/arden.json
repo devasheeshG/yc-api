@@ -1,0 +1,90 @@
+{
+  "id": 31525,
+  "name": "Arden",
+  "slug": "arden",
+  "former_names": [
+    "Veris"
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/66c948c30bb6ef7a235b3bf6ee7bcb0964990077.png",
+  "website": "https://ardentech.ai/",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "Arden is the AI-native platform for internal audit and SOX teams.\r\n\r\nWe build AI agents that automatically pull evidence from your stack, test controls end-to-end, and produce audit-ready workpapers in minutes instead of weeks.\r\n\r\nInternal audit is a massive but underserved market. Every public company in the US is required to do SOX testing, yet teams still run it through spreadsheets and screenshots. Arden is the engine that does this work.",
+  "one_liner": "AI-native internal audit firm",
+  "team_size": 2,
+  "industry": "B2B",
+  "subindustry": "B2B -> Finance and Accounting",
+  "launched_at": 1778059206,
+  "tags": [],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Spring 2026",
+  "status": "Active",
+  "industries": [
+    "B2B",
+    "Finance and Accounting"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/arden",
+  "api": "https://devasheeshg.github.io/yc-api/batches/spring-2026/arden.json",
+  "year_founded": 2026,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/ardeninc",
+  "x_url": "",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/66c948c30bb6ef7a235b3bf6ee7bcb0964990077.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "David Lieb",
+    "url": "https://www.ycombinator.com/people/david-lieb"
+  },
+  "founders": [
+    {
+      "user_id": 2594892,
+      "full_name": "Aryaman Khanna",
+      "title": "Founder/CEO",
+      "founder_bio": "Co-Founder & CEO @ Arden. Previously worked on AI @ Databricks and studied CS & Data Science @ UC Berkeley. Co-authored NeurIPS 2025 research on privacy-preserving ML for autonomous systems.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/aryaman-khanna-210a9121b/",
+      "x_url": "https://x.com/aryamank24",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/ed231bd97888750f01480de2da0b722ec1c19f3a.jpg"
+    },
+    {
+      "user_id": 2377562,
+      "full_name": "David Lomelin",
+      "title": "Founder/CTO",
+      "founder_bio": "Co-Founder & CTO @ Arden. Previously AI @ MIT and co-founder of Blueprint. Conducted research at MIT CSAIL and DUSP on LLM post-training and applied AI systems.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/david-lom/",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/dc449cb0f71a1ca985983e8b1849565919e19b67.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 100897,
+      "title": "Arden: AI-native platform for audit teams",
+      "tagline": "Run your audits in minutes, not weeks",
+      "body": "Hey everyone!\n\nWe're[ ](https://linkedin.com/in/aryamankhanna)Aryaman and David, co-founders of[ ](https://arden.ai)Arden.\n\n**TL;DR:** Arden is the AI-native platform for audit and SOX teams.\n\n**Ask:** Intros to VPs of Internal Audit / CAEs at public tech companies. [founders@ardentech.ai](mailto:founders@ardentech.ai) or[ ](https://arden.ai)[ardentech.ai](http://ardentech.ai)\n\n<https://www.youtube.com/watch?v=kgOVq8En4yg&feature=youtu.be>\n\n### **The Problem**\n\nInternal audit still runs on spreadsheets and screenshots.\n\nEvery year, audit teams test hundreds of controls to prove the company's financials are trustworthy. For each one, someone spends weeks chasing colleagues for evidence buried in 20+ disconnected systems and manually testing in Excel. They do the same work every quarter.\n\nSOX compliance costs almost $2M a year at a public company, and 70%+ of that is labor. Teams outsource the overflow to consulting firms at $500-1,000 an hour and burn another seven figures.\n\nThe tools that exist today store the workpapers, but don’t do the work.\n\n### **The Solution**\n\nArden is the AI-native platform that runs audit tests end-to-end.\n\n1. **Plugs into your stack.** Connects to your control library, source systems, and past audit data. Learns how your team audits, and builds that knowledge over time\n2. **Gathers evidence from every system.** Computer-use AI agents navigate legacy systems and capture the screenshots external auditors require. Direct integrations pull from your modern stack, saving auditors weeks of back and forth.\n3. **Chases down control owners for you.** A Slack/Teams agent follows up with control owners, saving auditors weeks of back and forth. Our agent has the right context already filled in, so control owners just confirm.\n4. **Runs control tests.** Arden’s testing engine supports full-population or sample-based testing. It catches every exception and flags them for review.\n5. **Produces workpapers ready for external auditors.** Every conclusion ties back to the source evidence, with full traceability into how Arden reached it. \n\nAudit work hasn't changed in 30 years even as the systems in scope have doubled. We’re rebuilding audit from the ground up.\n\n### **The Team**\n\nAryaman and David have been best friends since 6th grade. Aryaman studied CS at Berkeley and David studied AI at MIT, and we’ve done research on LLM reliability (and a million other projects) together.\n\n**Our Ask**\n\nIf you can intro us to any of the following, we'd love it:\n\n* **VPs of Internal Audit, CAEs, or SOX directors** at public companies\n* **CFOs or Controllers** at public or pre-IPO companies\n* **Anyone at a Big 4 or mid-tier firm** doing co-sourced SOX work\n\n[founders@ardentech.ai](mailto:founders@ardentech.ai) or book a demo at [ardentech.ai](https://ardentech.ai)",
+      "url": "https://www.ycombinator.com/launches/QFN-arden-ai-native-platform-for-audit-teams",
+      "votes": 32,
+      "created_at": "2026-05-06T18:04:14.382Z"
+    }
+  ]
+}

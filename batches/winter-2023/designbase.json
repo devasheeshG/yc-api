@@ -1,0 +1,97 @@
+{
+  "id": 27668,
+  "name": "Designbase",
+  "slug": "designbase",
+  "former_names": [
+    "Fabrikant Tech, Inc.",
+    "Blocksfabrik"
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/8f6bbfc7fd06398177687e787a5e50cc01365f06.png",
+  "website": "https://www.designbase.com/",
+  "all_locations": "Remote",
+  "long_description": "Designbase is the interface design tool that gives early teams design and development superpowers. Create stunning interfaces, immediately available as code, regardless of resources.",
+  "one_liner": "Design and build great interfaces",
+  "team_size": 3,
+  "industry": "B2B",
+  "subindustry": "B2B -> Engineering, Product and Design",
+  "launched_at": 1675796536,
+  "tags": [
+    "Artificial Intelligence",
+    "Developer Tools",
+    "Design",
+    "Design Tools",
+    "Web Development"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Winter 2023",
+  "status": "Active",
+  "industries": [
+    "B2B",
+    "Engineering, Product and Design"
+  ],
+  "regions": [
+    "Remote",
+    "Fully Remote"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/designbase",
+  "api": "https://devasheeshg.github.io/yc-api/batches/winter-2023/designbase.json",
+  "year_founded": 2021,
+  "city": null,
+  "country": null,
+  "linkedin_url": "",
+  "x_url": "https://twitter.com/designbase",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/8f6bbfc7fd06398177687e787a5e50cc01365f06.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Nicolas Dessaigne",
+    "url": "https://www.ycombinator.com/people/nicolas-dessaigne"
+  },
+  "founders": [
+    {
+      "user_id": 919864,
+      "full_name": "Alexandru Antihi",
+      "title": "Founder",
+      "founder_bio": "I spent the last 17+ years designing and building successful products and design systems for Palantir, Two Sigma, Mosaic.tech, Checkout.com, Thomson Reuters, Bitdefender and many other Fortune 500 companies.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/alexandruantihi/",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/0be5d02c03b30bc58abf3e6b570c3ebe661828af.jpg"
+    },
+    {
+      "user_id": 1147235,
+      "full_name": "Ryan Xie",
+      "title": "Founder",
+      "founder_bio": "Ryan is a co-founder at Blocksfabrik. At Facebook, he led a team driving strategic growth, and at Palantir he led several teams including core search, pharma, and user research.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/ryan-xie-0208b46/",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/da8d5485780de095844ec4fe19653b4ad8507c51.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 69110,
+      "title": "{🟦} Blocksfabrik: Create your own design system without all the work",
+      "tagline": "Generate a design system complete with Figma assets, a private NPM package for your components, and documentation.",
+      "body": "Hi! Alex and Ryan here - we’re super excited to launch [Blocksfabrik](https://blocksfabrik.com/#ref=yclaunch)!\n\n---\n\n**TLDR: We built a way to create design systems that stay in sync across design and code. Teams are using us to design better interfaces and develop them as fast as using an off-the-shelf component library, but with the flexibility of a bespoke design system and none of the tech debt.**\n\n**Ready to ship better product experiences? We would love to help, so please book a slot for a quick chat** [**here**](https://calendly.com/d/zkc-hbp-8n2/blocksfabrik-founders)**, or reach us directly via email at** [alex@blocksfabrik.com](mailto:alex@blocksfabrik.com) or [ryan@blocksfabrik.com](mailto:ryan@blocksfabrik.com)\n\n### **The Problem**\n\nCreating your own design system takes a ton of effort and experience that is hard to come by. And once they’re built you’ll have to maintain them in design and code indefinitely. Off-the-shelf component libraries get you off the ground, but are disconnected from design and hacking around their limitations becomes a liability as your product grows.\n\nWhat if you can design and build as fast as with a component library, but with the flexibility and quality of a bespoke design system?\n\n# **The Solution**\n\nConfigure your design system in the Editor and Blocksfabrik will take care of the rest — creating the component code, Figma assets, and documentation. It’s like having a full-time design system team, without needing the budget.\n\n### **How It Works**\n\n**(1)** Define your design tokens in the Editor (including color palette, sizes, fill styles, etc) and the specifics of your interface components (from shapes to interaction patterns).\n\n![uploaded image](/media/?type=post&id=69110&key=user_uploads/919864/31b5b5d1-c6a8-4fca-b639-1a203bcab90b)\n\n**(2)** Publish your design system, and you’ll get a private NPM package, Figma assets, and documentation that are all in sync.\n\n![uploaded image](/media/?type=post&id=69110&key=user_uploads/919864/56ce7431-2f21-40d9-932c-dd2c1edbf728)\n\n**(3)** Since Blocksfabrik creates components for both Figma and code, your Figma assets will share the same properties, and behave identically to the components in code. The designer → developer handoff becomes fast and seamless.\n\n![uploaded image](/media/?type=post&id=69110&key=user_uploads/919864/e6fce859-0bb6-4b2c-b4fa-f1502029add2)\n\nNeed to update something? Simply make edits and publish a new version that you can start using in Figma and code.\n\n### **How We Can Help You**\n\nIf you or someone in your network is struggling to build a product interface or design system, we’d love to help! Please book a quick chat [**here**](https://calendly.com/d/zkc-hbp-8n2/blocksfabrik-founders), or email us at [alex@fabrikant.tech](mailto:alex@fabrikant.tech), [ryan@fabrikant.tech](mailto:ryan@fabrikant.tech)\n\nThank you!\n\n---\n\n---",
+      "url": "https://www.ycombinator.com/launches/Hyg-blocksfabrik-create-your-own-design-system-without-all-the-work",
+      "votes": 76,
+      "created_at": "2023-02-08T00:11:07.932Z"
+    }
+  ]
+}

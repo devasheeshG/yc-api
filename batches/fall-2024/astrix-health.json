@@ -1,0 +1,97 @@
+{
+  "id": 30048,
+  "name": "Matcha",
+  "slug": "astrix-health",
+  "former_names": [
+    "Astrix Health"
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/03a2402a95d35a5f582628b40db3166e9aba2e26.png",
+  "website": "https://www.matcha-health.com",
+  "all_locations": "New York City, NY, USA",
+  "long_description": "We're building Matcha, the faster, smarter way to hire clinical talent—helping hospitals find active, qualified candidates at a fraction of the time and cost of job boards or headhunters.\r\n\r\nMatcha engages candidates at scale, matching them to your organization by qualifications and cultural fit. Recruiters save time, hospitals save money, and candidates get a better experience—a radically better hiring model for everyone involved.",
+  "one_liner": "The best way to hire clinical talent.",
+  "team_size": 2,
+  "industry": "Healthcare",
+  "subindustry": "Healthcare",
+  "launched_at": 1728327995,
+  "tags": [
+    "Machine Learning",
+    "Marketplace",
+    "Recruiting",
+    "Healthcare",
+    "AI"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Fall 2024",
+  "status": "Active",
+  "industries": [
+    "Healthcare"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada",
+    "Remote",
+    "Partly Remote"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/astrix-health",
+  "api": "https://devasheeshg.github.io/yc-api/batches/fall-2024/astrix-health.json",
+  "year_founded": 2024,
+  "city": "New York City",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/matcha-health",
+  "x_url": "",
+  "fb_url": null,
+  "cb_url": "https://www.crunchbase.com/organization/astrix-health",
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/03a2402a95d35a5f582628b40db3166e9aba2e26.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "David Lieb",
+    "url": "https://www.ycombinator.com/people/david-lieb"
+  },
+  "founders": [
+    {
+      "user_id": 457535,
+      "full_name": "Abhinav Swaminathan",
+      "title": "Founder/CEO",
+      "founder_bio": "Co-founder / CEO @ Astrix Health.\n\nBackground in economics and computer science. Previously led healthcare distribution and AI projects at Palantir. Before that was at various healthcare organizations working on big data projects, namely Duke Health, MedStar Health, and on the VBC side, Evolent Health.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/abuswami/",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/0c95fff2d738e72fbf7c4689767342d866ac0ef3.jpg"
+    },
+    {
+      "user_id": 659147,
+      "full_name": "Thomas Blake",
+      "title": "Founder/CTO",
+      "founder_bio": "Founder / CTO @ Astrix Health. Studied Applied Maths at Oxford with a focus on Healthcare and Machine Learning. Spent a couple of years at Palantir, building out some of the earliest generative AI workflows in healthcare. Now focusing on using AI to reduce the administrative load on clinics and hospitals.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/thomas-blake-abbba0151/",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/0b946a940132f93bb2909c8a14a53640d38a6e41.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 85809,
+      "title": "Astrix: AI purchasing agents for healthcare providers",
+      "tagline": "Automated purchasing of the right healthcare supplies, at the right time.",
+      "body": "Hi everyone, we are Abu and Tom, co-founders of [Astrix Health](https://www.astrix.health/)\n\n# **TL;DR**\n\nAstrix builds AI purchasing agents for healthcare providers.\n\nOur agents automatically purchase the right products at the right time, helping eliminate the $25 billion in wasted spend on medical supplies annually in the US.\n\n# **Why is this important?**\n\nThe US spends roughly $4.5 trillion per year on healthcare, with wasteful spending accounting for up to a quarter of that amount. On average, hospitals in the US waste at least $12 million each on medical supplies. Adding to the problem, nurses can spend anywhere between **20 minutes to one hour per shift** searching for medical supplies.\n\nFor clinics, this problem is even worse. Often, the same people responsible for treating patients are also in charge of purchasing supplies. They’re already stretched on time to care for patients, let alone shop around for the best deals.\n\nWhile shadowing an imaging center, we observed a nurse doubling as an office manager, simultaneously managing inventory, searching for deals, placing orders, and treating patients. When we got home we started building.\n\n![uploaded image](/media/?type=post&id=85809&key=user_uploads/659147/266d9b6a-1150-42bb-9fd1-5a79f9640753)\n\n# **Our solution**\n\nOur product has three main functions:\n\n1. **Analyze:** The agents comb through purchasing data (such as invoices) to identify high-spend areas and cost drivers.\n2. **Search:** Deployed AI agents search for better deals, considering provider-specific arrangements like preferred vendor discounts, GPO contracts, rebates, and other incentives.\n3. **Purchase:** Where appropriate, Astrix place orders when more cost-effective options are found, saving providers time and money.\n\nIn under three weeks, Astrix has started working with 10 healthcare clinics, **identifying an average 20% cost savings** across our first users’ recurring supply purchases. Our AI agents deliver immediate value, reducing expenses and freeing up providers to focus on patient care.\n\n![uploaded image](/media/?type=post&id=85809&key=user_uploads/659147/e7f5971c-af42-4f86-9f25-420e42710daf)\n\n# **Why now?**\n\nUntil recently, it was impossible to efficiently scan numerous websites and compare the myriad factors influencing purchasing decisions—such as per-unit costs, availability, expiration dates, device sizes, shipping, and more—at scale to find the best deals. Automating ERP and website navigation for purchases or negotiating with vendors was also previously unfeasible.\n\nAdditionally, we're frustrated by the poor quality and outdated nature of the incumbent supply chain software and strongly believe providers deserve better. AI offers a unique opportunity to fundamentally rethink how healthcare professionals interact with computer systems.\n\n# **Moving forward**\n\nPurchasing is just the beginning. We aim to become the comprehensive optimization layer for hospital supply chains, integrating inventory, purchasing, and patient data to put procurement operations on autopilot—ultimately reducing that **$25 billion waste to zero.**\n\nHealthcare professionals should never feel stressed about ordering or obtaining medical supplies, nor should patient care be delayed due to supply chain inefficiencies. That’s the problem we’re committed to solving.\n\n# **The team**\n\nOur team has extensive experience building AI/ML systems for major healthcare institutions. Abu and Tom, who met at Palantir, developed some of the first generative AI projects for the UK's National Health Service.\n\nAbu led Palantir's medical and pharmaceutical distribution vertical in the US and its healthcare generative AI team in the UK. Previously, he managed data projects at Duke Health and MedStar Health across clinical science projects and hospital operations.\n\nTom has experience solving optimization problems with AI from his time as an Engineer at Palantir and his Maths degree from Oxford.\n\n# **Our ask**\n\nEmail us at [founders@astrix.health](mailto:founders@astrix.health). We're seeking introductions to:\n\n* Hospitals\n* Private practices\n* Ambulatory surgical centers\n\nWe'd be incredibly grateful for any connections. As a bonus, if they share their last month's purchasing data with us, we'll provide a detailed analysis of their potential cost and time savings.",
+      "url": "https://www.ycombinator.com/launches/MK1-astrix-ai-purchasing-agents-for-healthcare-providers",
+      "votes": 36,
+      "created_at": "2024-11-22T19:31:39.742Z"
+    }
+  ]
+}

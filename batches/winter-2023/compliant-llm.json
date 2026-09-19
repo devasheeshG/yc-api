@@ -1,0 +1,114 @@
+{
+  "id": 27935,
+  "name": "compliant-llm",
+  "slug": "compliant-llm",
+  "former_names": [
+    "ZKomm",
+    "Devpod",
+    "FiddleCube",
+    "compliant-llm",
+    "compliant-llm (fka FiddleCube)"
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/e836589affa3183241d8a3c3f2914bb8dc44d2a8.png",
+  "website": "https://www.compliantllm.com/",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "CompliantLLM detects every data leak into third-party GenAI tools used in your company by monitoring employee interactions.\r\n\r\nSecurity and tech leaders get visibiliity and control over the data flowing into various Gen AI apps used in their organizations.",
+  "one_liner": "Detect every data leak into third-party GenAI tools",
+  "team_size": 3,
+  "industry": "B2B",
+  "subindustry": "B2B -> Security",
+  "launched_at": 1690346092,
+  "tags": [],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Winter 2023",
+  "status": "Active",
+  "industries": [
+    "B2B",
+    "Security"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/compliant-llm",
+  "api": "https://devasheeshg.github.io/yc-api/batches/winter-2023/compliant-llm.json",
+  "year_founded": 2023,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/fiddlecube/",
+  "x_url": "https://twitter.com/FiddleCubeAI",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/e836589affa3183241d8a3c3f2914bb8dc44d2a8.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [
+    "https://bookface-images.s3.us-west-2.amazonaws.com/attachments/a697d7992ef3aad4d19bc4f93cc16167fa703c0d.png"
+  ],
+  "primary_partner": {
+    "name": "Harj Taggar",
+    "url": "https://www.ycombinator.com/people/harj-taggar"
+  },
+  "founders": [
+    {
+      "user_id": 1124543,
+      "full_name": "Neha Nupoor",
+      "title": "Founder",
+      "founder_bio": "Building CompliantLLM - Preventing data exfiltration into Gen AI apps.\n\nBuilt AI Customer Support at Uber.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/nehanupoor/",
+      "x_url": "https://twitter.com/nupoor_neha",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/55cd5adbdf80afa9e7d4349dff30b637b5939d4d.jpg"
+    },
+    {
+      "user_id": 1103301,
+      "full_name": "Kaushik Srinivasan",
+      "title": "Founder",
+      "founder_bio": "Working on preventing data leaks into Gen AI apps.\n\nWas previously building payment systems at Google Pay and AI customer support at Uber.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/kaushik92/",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/da6e5ea0e13e2b882e4979f9ebce8415c3a9dff7.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 92988,
+      "title": "CompliantLLM - Detect Data Leaking into 3rd Party GenAI tools",
+      "tagline": "Detect data breaches in approved & unapproved AI workflows",
+      "body": "Hi YC,\n\nWe’re [Kaushik](https://www.linkedin.com/in/kaushik92/) and [Neha](https://www.linkedin.com/in/nehanupoor/), cofounders of [CompliantLLM](https://www.compliantllm.com?utm_source=bookface&utm_medium=social&utm_campaign=compliant-llm).\n\nCompliantLLM detects every data leak into third-party GenAI tools used in your company.\n\nIf you’re worried about data exfiltration risks at your organization, reach out to us at [founders@fiddlecube.ai](mailto:founders@fiddlecube.ai). We would love to learn more!\n\nhttps://www.youtube.com/watch?v=XbheLR6CIMc\n\n## TL;DR\n\n* GenAI products introduce new surfaces for data leaks – a growing concern with increasing AI usage in companies.\n* CompliantLLM analyzes AI logs and finds GenAI-specific attacks and anomalies to detect data breaches.\n* It surfaces every PII-leak or unauthorized/malicious data access, across approved and unapproved AI workflows.\n\n## Problem\n\n* GenAI introduces new ways for leaking sensitive data or breaching data access controls. The problem is getting worse as AI agents connect to more workflows with increasing autonomy.\n* Currently, **leaders lack visibility and control into which GenAI apps are in use and the potential data-exfiltration risks that they create.**\n\n![uploaded image](/media/?type=post&id=92988&key=user_uploads/1103301/bf03c8da-80fd-4ea5-9dc6-8b280f72e7da)\n\n**Source:** https://www.ibm.com/reports/data-breach\n\n---\n\n---\n\n## Solution\n\nCompliantLLM monitors employee interactions with third-party GenAI tools and detects every data exfiltration incident.\n\nWe monitor users’ past actions, their role, and data access permissions across teams, identifying unauthorized data access and prompt injection attacks.\n\nWe segment the violations into meaningful and malicious types, and give the teams an option to take an unobtrusive approach towards AI governance in the company.\n\n## Ask\n\nIf this is on your mind, we would love to talk more. Reach out to us at [**founders@fiddlecube.ai**](mailto:founders@fiddlecube.ai)\n\n## Team\n\n![uploaded image](/media/?type=post&id=92988&key=user_uploads/1103301/ca7550ae-8834-4cb8-ac11-0f93305f9b04)\n\nKaushik was previously an engineer leading payments solutions at Google Pay, where he faced the problem of building compliant payment gateway solutions. He worked at Uber before this on their customer support AI efforts, where he met Neha.\n\nNeha previously led the automation of customer support at Uber using AI Agents. She brings her experience of building real-time AI workflows that worked at Uber’s scale and complexity to build CompliantLLM.",
+      "url": "https://www.ycombinator.com/launches/OBo-compliantllm-detect-data-leaking-into-3rd-party-genai-tools",
+      "votes": 8,
+      "created_at": "2025-08-14T15:04:31.154Z"
+    },
+    {
+      "id": 82440,
+      "title": "FiddleCube - Data platform for fine-tuning LLMs",
+      "tagline": "Synthetic data platform to streamline dataset generation for custom LLM training",
+      "body": "### TL;DR: Upload your files & generate a high-quality dataset in minutes. [Give it a go](https://dashboard.fiddlecube.ai/sign-up)!\n\nLlama3.1 405B has just dropped, and it's already outperforming GPT-4o. As we assist our customers in fine-tuning domain-specific LLMs, we see firsthand that it's no small feat. It requires an extensive, diverse, and superior-quality dataset, and multiple iterations of training to get it right.\n\n## ❌ Creating high-quality datasets from raw data is messy!\n\n**Identifying the right data** in the knowledge base is a manual, challenging process.\n\n**Data cleaning and filtering** takes significant effort and man-hours, and is error-prone.\n\n**Costs of training & evals skyrocket** **with bad datasets** requiring multiple iterations of training.\n\n## ✅ We're making it easy and efficient for businesses.\n\nFiddleCube’s data platform converts your data corpus into a high-quality fine-tuning dataset. Generate 1000s of rows of multi-turn chat, function-calling, and QnAs. Additionally, augment your datasets synthetically from unstructured data to improve your model's performance.\n\n**Our users have used us to:**\n\n* **Save >2 months in their data cleaning, preparation, generation, and quality check cycle.**\n* Generate a **high-quality training dataset** that accurately resembles their production data without PII.\n* Generate a **golden dataset** for testing & benchmarking their AI-powered apps.\n* Generate **gender diversity, safety & guard railing** dataset.\n* **Customize the tone** of their responses instead of a standard GPT-like tone.\n\n## 🚀 FiddleCube’s - Data platform empowers you with:\n\n* **Data generation - A simple & clean UI** to generate datasets from PDF, TXT, and data sources to train your model.\n* **Dataset Management** - Editing, versioning, RBAC, and synthetic data augmentation to create self-correcting datasets.\n* **Diagnosing** **and improving underperforming queries** with regression testing & detailed data diagnostic tools.\n* Use **production logs and feedback** to auto-generate datasets.\n\n![uploaded image](/media/?type=post&id=82440&key=user_uploads/1103301/d3b373f7-800d-4539-8790-364859f60904)\n\n### 🙋‍♂️ Let's Take Your Data to Production and Get You Started\n\n[Sign up here](https://dashboard.fiddlecube.ai/sign-up) to generate your first dataset. Or [book a call with us](https://fiddlecube.ai/contact-us) for help in getting started.\n\n![uploaded image](/media/?type=post&id=82440&key=user_uploads/1103301/1b2e9f87-678a-4b9b-9f13-f1c4e4e3af3b)\n\n",
+      "url": "https://www.ycombinator.com/launches/LRg-fiddlecube-data-platform-for-fine-tuning-llms",
+      "votes": 37,
+      "created_at": "2024-07-25T16:24:53.504Z"
+    },
+    {
+      "id": 73434,
+      "title": "🎲 FiddleCube - Automated dataset generation for fine-tuning LLMs",
+      "tagline": "Create high-quality datasets for fine-tuning and reinforcement learning.",
+      "body": "Tl;Dr; Fine-tuning LLMs requires high-quality datasets. FiddleCube automagically generates fine-tuning datasets from your data.\n\n**User Data Source > Fine-tuning Datasets (FiddleCube) > Fine-tuning**\n\nHead over to [fiddlecube.ai](http://fiddlecube.ai) to get started!\n\nHi everyone, we are Neha and Kaushik. We’re building FiddleCube to make high-quality datasets accessible to everyone.\n\n![uploaded image](/media/?type=post&id=73434&key=user_uploads/1103301/b1e5c3f8-b7af-42f7-b251-bbb11ad5d38f)\n\n🦸 Kaushik spent most of the last decade building tech at companies like Google, Uber, and LinkedIn.\n\n🧙🏻 Neha has spent a similar amount of time as a dev at multiple startups, most recently at Uber\n\n👫🏻🫶🏻 We met at Uber, eventually got married, and decided to build a startup together, following our passion for AI.\n\n# 😤 The Problem\n\nIn the real world, LLMs need to be aligned to follow human instructions. It needs to respond in a manner that is:\n\n* Positive, Truthful & Honest\n* And in accordance with human beliefs and sensibilities\n\n![uploaded image](/media/?type=post&id=73434&key=user_uploads/1103301/d7f8e8a0-2522-4ecf-a80e-d591c6cacd9a)\n\nRemarkable outcomes have been achieved towards this end by fine-tuning and reinforcement learning with high-quality datasets. However, creating these datasets takes significant time, manual effort, and money.\n\n# 💡The Solution\n\nFiddleCube leverages a suite of AI models to create high-quality datasets for fine-tuning and reinforcement learning.\n\n* Generate annotated datasets from raw data.\n* Augment the datasets - create large datasets to significantly improve model performance.\n* Evaluate and improve the data quality of your training dataset.\n\nWe create a rich, diverse, high-quality dataset to produce better models with a lower corpus of data.\n\n# ⚙️ Use Cases\n\n### 👩🏻‍🎤Personalization\n\nGive the model a personality, voice, and tone. For example, you can create a safe Dora the explorer / Peppa Pig model that speaks to children.\n\n### 👩🏻‍💻 API calling and coding\n\nFor specific use cases like making API calls or generating code, fine-tuning has provably demonstrated better results. You can fine-tune the LLM on a corpus of code or API data to significantly improve their ability at these tasks.\n\n### 🚄 Increase Throughput, Reduce Latency and Cost\n\nFine-tuned LLMs are much smaller than the foundational models. You can use them to increase throughput and reduce latency and cost.\n\n### 🗺️ Low Resource Domains\n\nLLMs perform poorly in certain domains like vernacular languages. These domains lack a sufficient corpus of high-quality data. Fine-tuning using generated datasets has shown remarkable improvements over the state of the art in these cases.\n\n# 🙏🏻 Ask\n\nAre you fine-tuning any LLM, or looking to fine-tune LLaMa V2, MPT, or Falcon? We would love to know your use case. Drop a comment on what you are doing, or reach out to us privately!\n\n# 👋🏻 Need help with fine-tuning?\n\nBook a slot on our calendar 🗓️ or drop us a line using:\n\n\\- Email 📧 : [kaushik@fiddlecube.ai](mailto:kaushik@fiddlecube.ai)\n\n\\- [Typeform](https://m6qcwjky3c1.typeform.com/to/CyfMeAbT) 📝\n\nand we will get back to you!",
+      "url": "https://www.ycombinator.com/launches/J6Q-fiddlecube-automated-dataset-generation-for-fine-tuning-llms",
+      "votes": 87,
+      "created_at": "2023-07-26T05:46:22.692Z"
+    }
+  ]
+}

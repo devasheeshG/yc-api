@@ -1,0 +1,85 @@
+{
+  "id": 31216,
+  "name": "Archal",
+  "slug": "archal",
+  "former_names": [
+    "Archal Labs"
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/d5457b412312bd26ecc72ccead99d16248cd087a.png",
+  "website": "https://www.archal.ai/",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "Archal provisions sandboxes with the API environments your CI, tests, and evals need. Your coding agent can start the sandbox & environments, connect to your API integrations, run tests, and inspect state changes. Sandboxes and environments are startable within seconds and take milliseconds to reset.",
+  "one_liner": "API sandboxes, built for AI agents",
+  "team_size": 2,
+  "industry": "B2B",
+  "subindustry": "B2B -> Infrastructure",
+  "launched_at": 1776709029,
+  "tags": [
+    "Artificial Intelligence",
+    "Developer Tools",
+    "API",
+    "Infrastructure"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Summer 2026",
+  "status": "Active",
+  "industries": [
+    "B2B",
+    "Infrastructure"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/archal",
+  "api": "https://devasheeshg.github.io/yc-api/batches/summer-2026/archal.json",
+  "year_founded": 2026,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/archal-labs",
+  "x_url": "https://x.com/archal_labs",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/d5457b412312bd26ecc72ccead99d16248cd087a.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Ankit Gupta",
+    "url": "https://www.ycombinator.com/people/ankit-gupta"
+  },
+  "founders": [
+    {
+      "user_id": 2037605,
+      "full_name": "Aidan Tiruvan",
+      "title": "Founder/CEO",
+      "founder_bio": "Founder at Archal; API sandboxes built for AI agents\nPrev ML research at Scale AI & NASA",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/aidantiruvan/",
+      "x_url": "https://x.com/AidanTiruvan",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/6d8e1a01ea012584fc41d1ef014c296c0bbdbd00.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 111649,
+      "title": "Archal: API sandboxes, built for AI agents",
+      "tagline": "Test API integrations without test accounts, rate limits, or messy state.",
+      "body": "> **TLDR:** Create an API sandbox with the environments your CI, tests, and evals need. Your coding agent can start the API sandboxes (e.g Linear, Slack, Datadog), run tests, and inspect state changes. Ask your agent about archal.ai!\n\nHi everyone, I'm Aidan, the founder of Archal. I previously built agent environments at Scale AI and I've been an avid developer for most of my life, which led me to the problem Archal poses to solve.\n\n[https:/youtu.be/pUfu1RFDYVk](https://youtu.be/pUfu1RFDYVk)\n\n**What we found**\n\nCoding agents are getting much better at writing integrations, but testing those integrations is still painful. Many providers do not offer a usable sandbox, so developers fall back to throwaway accounts, shared test workspaces, or thin mocks. Those options are difficult to reset and make it hard to know whether an agent actually completed a task or only returned a plausible response.\n\nAs Adam Bender at Google put it, “But with 10x more code and 10x more services, integration tests are going to become the most important part of your quality strategy.” (Google, Software engineering is at the tipping point)\n\n**How Archal works**\n\nWith all of this in mind, I built Archal for a starting point of how the next generation of devs will do QA. It's a tool focused on giving agent developers and integration engineers API sandboxes of the SaaS platforms they use in prod pipelines. With Archal, a developer or their coding agent can start a sandbox, run the task, inspect what changed, and reset everything for the next test. We eliminate the need of separate test accounts, thin mocks and stubs, as well as overburdening rate limits on provider-owned sandboxes.\n\n**Our ask**\n\nWe're giving out $20 in Archal credits to each new developer that signs up and starts a sandbox. We’d love for you to give it a try and give us feedback, cheers to making testing easier in the era of coding agents!",
+      "url": "https://www.ycombinator.com/launches/T2n-archal-api-sandboxes-built-for-ai-agents",
+      "votes": 60,
+      "created_at": "2026-08-22T21:00:00.317Z"
+    }
+  ]
+}

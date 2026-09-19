@@ -1,0 +1,78 @@
+{
+  "id": 30474,
+  "name": "RunRL",
+  "slug": "runrl",
+  "former_names": [],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/97a1186ade1980432028fbe0af8cf6b4d804a4cb.png",
+  "website": "https://runrl.com",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "RunRL improves LLMs and AI agents with reinforcement learning. Do you have a model that needs to get better at a certain task? Are you tired of messing around with prompts? Do you spend a lot of money on observability, and wish that all this data could let your model self-improve? Well, head on over to RunRL.com, and see what we have to offer! If you give us a model, a prompt, and a reward, we’ll make your model’s reward go up.",
+  "one_liner": "Reinforcement learning as a service",
+  "team_size": 2,
+  "industry": "B2B",
+  "subindustry": "B2B -> Infrastructure",
+  "launched_at": 1743582739,
+  "tags": [],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Spring 2025",
+  "status": "Active",
+  "industries": [
+    "B2B",
+    "Infrastructure"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/runrl",
+  "api": "https://devasheeshg.github.io/yc-api/batches/spring-2025/runrl.json",
+  "year_founded": 2025,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/runrl/",
+  "x_url": "https://twitter.com/runrl_com",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": "https://github.com/runrl",
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/97a1186ade1980432028fbe0af8cf6b4d804a4cb.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Diana Hu",
+    "url": "https://www.ycombinator.com/people/diana-hu"
+  },
+  "founders": [
+    {
+      "user_id": 1161067,
+      "full_name": "Andrew Gritsevskiy",
+      "title": "Founder",
+      "founder_bio": ":')",
+      "is_active": true,
+      "linkedin_url": "https://linkedin.com/in/agritsevskiy",
+      "x_url": "https://twitter.com/dyushag",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/081a59834d2cc3d6380dbbc8ef06078eee3ff570.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 90475,
+      "title": "RunRL: Improve LLMs and agents with reinforcement learning.",
+      "tagline": "Make AIs that know how to do their jobs",
+      "body": "Hi! We’re Derik and Andrew, and we’re building RunRL: the platform that lets you run reinforcement learning on your AI.\n\nWe used to run an AI research lab together, and Andrew dropped out from his RL PhD to provide you the greatest reinforcement learning experience possible.\n\nhttps://www.youtube.com/watch?v=rPP5YNMA4GE\n\n# The problem\n\nFor a generic LLM agent, every day is like the first day on the job. Tools and tasks need exhaustive explanations. Even still, agents are too unreliable for deployment.\n\n# Our fix\n\nRL fine-tuning produces specialist models that intuitively know what to do. It uses the algorithms that produced DeepSeek R1, but customized for your use case.\n\nSimply give us a reward function that tells us what’s good and what’s bad—and we’ll make your model improve.\n\n### Example 1: chemistry\n\nYou’re trying to make a model that generates potential drug candidates for COVID. You want them to bind as tightly to the active site of Sars-CoV-2 protease as possible, but using Claude+thinking+web-search only gets you a binding performance of 22. Making a better model is as simple as defining the reward to be the binding performance of the model’s outputs:\n\n```\ndef reward(output):\n    molecule = parse_SMILES(output)\n\n    if valid_molecule(output):\n    return binding_performance(output)\nelse:\n    return -1\n```\n\nloading it up on [RunRL.com](http://RunRL.com), and hitting run:\n\n![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdybuN1eu2Y3fSZi4m9Wc9YR4a-YYACWTt_jxx611-UVsNZ_G-UriMLuSW0JDalz65ixrgYYEIQcc8p1ni8bz2RpLp1HZcX0YIfTVfa1mE-TqFNL787gI94VNHHfcIy4mVoFxlqKQ?key=Wlf0KwcYIPK-rxwiB_U0-Q)\n\nSo, a model 175x smaller than Claude learns to outperform the frontier models!\n\n### Example 2: agents\n\nYou have an OpenAI or Anthropic-based agent, but it’s not as reliable as you’d like it to be. Maybe your agent already does what you want most of the time, but isn’t consistent enough to be trusted in production. RL can help with that too: it reinforces good behavior and makes your agent better at rule-following, information extraction, and document navigation in high-stakes environments. Join our beta [here](https://www.runrl.com/products/agentflow/)!\n\n# Run RL!\n\nIf you’re using AI and you want your model to be better, and you have a way of describing what “better” is: you’re ready to [run RL](https://runrl.com).\n\n![uploaded image](/media/?type=post&id=90475&key=user_uploads/1161067/2e061652-2c07-473b-a95d-8fb07cdc36cd)\n\n",
+      "url": "https://www.ycombinator.com/launches/NXH-runrl-improve-llms-and-agents-with-reinforcement-learning",
+      "votes": 39,
+      "created_at": "2025-05-16T17:42:48.054Z"
+    }
+  ]
+}

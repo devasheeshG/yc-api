@@ -1,0 +1,175 @@
+{
+  "id": 31360,
+  "name": "LightSprint",
+  "slug": "lightsprint",
+  "former_names": [
+    "Lightsprint"
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/c43e010268551eab76be0368766c6aa0da142440.png",
+  "website": "https://lightsprint.ai",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "Lightsprint is a collaborative software factory for product teams to plan visually, preview live and ship with an army of cloud agents. Your whole team, including non-engineers, can now ship end to end reliably.\r\n\r\nThe company is founded by Ben Ong, an AI investor who previously scaled AI products at SEA Group (NYSE: SE) and Temasek ($300B fund), Benedict Chan who was VP Engineering at Chainlink and CTO at BitGo (NYSE:BTGO), and Heng Hong Lee who built Facebook Messenger in 2013 and was Director of Engineering at Fazz (YC S17).",
+  "one_liner": "Software factory for product teams",
+  "team_size": 3,
+  "industry": "B2B",
+  "subindustry": "B2B -> Engineering, Product and Design",
+  "launched_at": 1776537521,
+  "tags": [],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": true,
+  "nonprofit": false,
+  "batch": "Spring 2026",
+  "status": "Active",
+  "industries": [
+    "B2B",
+    "Engineering, Product and Design"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": [
+    {
+      "question": "What is the core problem you are solving? Why is this a big problem? What made you decide to work on it?",
+      "answer": "Product changes (a copy tweak, a pricing page update, a new business logic update) often wait behind an engineering sprint. The PM files a ticket. Follows up in standup. Two weeks later, it ships.\r\n\r\nCoding agents like Cursor and Claude Code made engineers 10x faster, but that speed never reached the rest of the product team. The PM still files a ticket and waits. The tools pitched at \"non-technical builders\" - Lovable, Replit - only spin up new prototypes from scratch. None of them touch the product you actually run.\r\n\r\nEach of us hit this from a different side. Ben saw this bottleneck from the investor seat through his portfolio companies and during his time at SEA group as a PM. Heng Hong saw it from inside engineering: engineer time burned on changes anyone should be able to make. Benedict saw it from infrastructure: the plumbing to let non-engineers ship safely didn't exist yet."
+    },
+    {
+      "question": "What is your long-term vision? If you truly succeed, what will be different about the world?",
+      "answer": "Every person at a company will be able to ship product changes, not just engineers. The barrier between having an idea and shipping it disappears.   \r\n\r\nPMs won't file tickets. Designers won't hand off mockups and wait. Founders won't choose between learning to code or hiring an engineer for a copy change. Engineering backlogs will shrink from bottleneck to review queue. Review comments get aggregated and fed back to the agent, which self-heals before an engineer steps in.\r\n\r\nEngineers will focus on architecture, infrastructure, and the hard problems - while everyone else ships the changes they're closest to the customer to make. Software development becomes a team sport. We think this is as big a shift as when spreadsheets let non-finance people work with data, or when Canva let non-designers create graphics. Product agents will do the same for software."
+    }
+  ],
+  "url": "https://www.ycombinator.com/companies/lightsprint",
+  "api": "https://devasheeshg.github.io/yc-api/batches/spring-2026/lightsprint.json",
+  "year_founded": 2026,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/lightsprint",
+  "x_url": "https://x.com/lightsprintai",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/c43e010268551eab76be0368766c6aa0da142440.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [
+    "https://bookface-images.s3.us-west-2.amazonaws.com/attachments/2a6ac21be9a0d5c948916f5c23e1cee8bf8d9dc3.png",
+    "https://bookface-images.s3.us-west-2.amazonaws.com/attachments/220389b896236a9afdf840c4830621f7e250e198.png"
+  ],
+  "primary_partner": {
+    "name": "Garry Tan",
+    "url": "https://www.ycombinator.com/people/garry-tan"
+  },
+  "founders": [
+    {
+      "user_id": 2961528,
+      "full_name": "Ben Ong",
+      "title": "Founder/CEO",
+      "founder_bio": "Founder at Lightsprint (YC P26). Ex-VC at January Capital and venture builder at Temasek's venture studio (300B fund). Scaled products in SE group (NYSE: SE, Southeast Asia's unicorn). Prev data scientist at Cheetah Digital. ",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/benj-ong/",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/5f9504a2d06186d481daef0c3491d373cef56884.jpg"
+    },
+    {
+      "user_id": 172062,
+      "full_name": "Benedict Chan",
+      "title": "Founder",
+      "founder_bio": "Founder at Lightsprint, an AI-native loop for building products: decide → spec → ship → learn → repeat. \nPast: Engineering leadership — CTO @ BitGo (NYSE: BTGO), Head of Eng @ Chainlink, SDE2 @ Microsoft",
+      "is_active": true,
+      "linkedin_url": "https://linkedin.com/in/bencxr",
+      "x_url": "https://x.com/bencxr",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/f202fd3383b00b0fea65fc4ed9fc73f64fbda558.jpg"
+    },
+    {
+      "user_id": 282313,
+      "full_name": "Heng Hong Lee",
+      "title": "Founder",
+      "founder_bio": "Founder at Lightsprint (YC P26). Previously Principal Engineer at HQ.xyz and Head of Engineering at Xweave. Founded Tempest, a custodial Lightning wallet. Led engineering at FAZZ Financial Group for 4 years. Senior Software Engineer at Facebook for 5 years. BA in Electrical Engineering from National University of Singapore.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/henghonglee",
+      "x_url": "https://x.com/henghonglee",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/cd2233cae85b7b7584eab1e12859b7485f7a3ef1.jpg"
+    }
+  ],
+  "jobs": [
+    {
+      "id": 100137,
+      "title": "Product Marketing / GTM Engineer",
+      "url": "https://www.ycombinator.com/companies/lightsprint/jobs/f42QPiX-product-marketing-gtm-engineer",
+      "location": "Remote",
+      "type": "Full-time",
+      "role": "Marketing",
+      "role_type": null,
+      "salary_range": "$130K - $180K",
+      "equity_range": "0.10% - 0.50%",
+      "experience": "Any (new grads ok)",
+      "visa": "Will sponsor",
+      "skills": []
+    },
+    {
+      "id": 107964,
+      "title": "Founding AE",
+      "url": "https://www.ycombinator.com/companies/lightsprint/jobs/rP7UsD7-founding-ae",
+      "location": "San Francisco, CA, US / Remote (San Francisco, CA, US)",
+      "type": "Full-time",
+      "role": "Sales",
+      "role_type": null,
+      "salary_range": "$130K - $180K",
+      "equity_range": "0.25% - 1.00%",
+      "experience": "3+ years",
+      "visa": "US citizen/visa only",
+      "skills": []
+    },
+    {
+      "id": 108323,
+      "title": "Head of Developer Relations",
+      "url": "https://www.ycombinator.com/companies/lightsprint/jobs/kTQN5M4-head-of-developer-relations",
+      "location": "San Francisco, CA, US / Remote (San Francisco, CA, US)",
+      "type": "Full-time",
+      "role": "Marketing",
+      "role_type": null,
+      "salary_range": "$130K - $180K",
+      "equity_range": "0.25% - 1.00%",
+      "experience": "Any (new grads ok)",
+      "visa": "US citizen/visa only",
+      "skills": []
+    },
+    {
+      "id": 109310,
+      "title": "Motion Graphics Designer & Videographer",
+      "url": "https://www.ycombinator.com/companies/lightsprint/jobs/oYNUzBU-motion-graphics-designer-videographer",
+      "location": "San Francisco, CA, US / Remote (US)",
+      "type": "Full-time",
+      "role": "Marketing",
+      "role_type": null,
+      "salary_range": "$100K - $150K",
+      "equity_range": "",
+      "experience": "3+ years",
+      "visa": "US citizen/visa only",
+      "skills": []
+    }
+  ],
+  "news": [
+    {
+      "title": "The 11 standout startups from YC's Demo Day, according to VCs | TechCrunch",
+      "url": "https://techcrunch.com/2026/06/18/the-11-standout-startups-from-ycs-demo-day-according-to-vcs/",
+      "date": "Jun 18, 2026"
+    }
+  ],
+  "launches": [
+    {
+      "id": 101734,
+      "title": "Lightsprint - The Collaborative Product Development Platform",
+      "tagline": "Lightsprint lets teams plan visually, preview live and ship with an army of cloud agents",
+      "body": "**tldr:** We are building a collaborative platform for software teams to plan visually, preview live and ship with an army of cloud agents. Your whole team, including non-engineers, can now ship end to end reliably.\n\n<https://youtu.be/P9e-5Mg72fc>\n\n**The problem**\\\nSoftware is built by teams. But AI coding agents run alone on one developer’s IDE or terminal.\\\nThe result: teammates are out of sync, planning stays buried in docs, and reviewers approve changes with little context. Execution has never been faster. But coordination has never been more painful. \\\n\\\nThe SDLC was built around coding. Coding has changed, and the SDLC must be updated.\\\n\\\n**The solution**\\\nLightsprint makes agentic software development collaborative. It completes the entire AI loop - not just code gen, but the full cycle from requirements to shipped code, with your whole team in the game.\n\n1. **Visual Plan Mode**: Write a simple requirement. Lightsprint breaks it into a structured plan with tasks, dependencies, and visual options to choose from. Your whole team collaborates with the agent on the plan: see it, annotate it, and approve it. No more blind execution.\n2. **Infinite Parallel Cloud Agents**: Hit execute and Lightsprint spins up multiple agents working your codebase simultaneously. One’s building the frontend component, another is building a dashboard, a third is writing tests. Anyone can steer the agent. What takes a team days gets compressed into hours.\n3. **PR Preview Environments**: Every PR automatically gets a live preview URL. Not a diff. A running instance of the code. Your designer clicks through it and says “yes, ship it” or “change the layout” without reading a single line of code. Everyone on your team ships code now.\n\nWe’ve been using Lightsprint to build Lightsprint, and it has dramatically increased our engineering velocity. Lightsprint is also mobile-friendly so you can fire tasks from wherever you are. That has been a game-changer for us!\n\n\\\n**About Us**\\\nThe team is made of Ben Chan who was the previous CTO of Bitgo (NYSE: BTGO) and has led engineering teams of 300; Heng Hong, an engineering leader from Meta who built FB messenger; and Ben Ong, an ex VC who was part of the venture building arm at Temasek (300B AUM fund) and led products at SEA group (NYSE: SE). \n\n\\\n**Ask**\\\nIf you're shipping with AI agents and want to improve coordination, accelerate feature development, or let non-technical teammates help build — we'd love to chat. Book a demo on <https://lightsprint.ai>",
+      "url": "https://www.ycombinator.com/launches/QSs-lightsprint-the-collaborative-product-development-platform",
+      "votes": 53,
+      "created_at": "2026-05-21T20:02:41.242Z"
+    }
+  ]
+}

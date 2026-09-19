@@ -1,0 +1,91 @@
+{
+  "id": 30782,
+  "name": "TectoAI",
+  "slug": "tectoai",
+  "former_names": [
+    "TectoAI Inc."
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/660e2396a1d079a64a42ea2a4ce4b81cefd385f0.png",
+  "website": "https://www.tecto.ai/",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "We help your company identify roles that can be filled by agentic AI tools, onboard them quickly, monitor their performance and behavior post deployment, ensure they remain compliant, and aligned with regulations. Tecto is building the governance platform for managing the AI stack! ",
+  "one_liner": "A Platform for AI Governance",
+  "team_size": 2,
+  "industry": "B2B",
+  "subindustry": "B2B",
+  "launched_at": 1752441321,
+  "tags": [
+    "Artificial Intelligence"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Summer 2025",
+  "status": "Active",
+  "industries": [
+    "B2B"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/tectoai",
+  "api": "https://devasheeshg.github.io/yc-api/batches/summer-2025/tectoai.json",
+  "year_founded": 2025,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/tectoai",
+  "x_url": "https://x.com/tectoai",
+  "fb_url": null,
+  "cb_url": "https://www.crunchbase.com/organization/tectoai",
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/660e2396a1d079a64a42ea2a4ce4b81cefd385f0.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Tyler Bosmeny",
+    "url": "https://www.ycombinator.com/people/tyler-bosmeny"
+  },
+  "founders": [
+    {
+      "user_id": 1105418,
+      "full_name": "Niosha Afsharikia, PhD",
+      "title": "Founder/CEO",
+      "founder_bio": "Founder, operator, and product builder with 10+ years navigating highly regulated AI deployments. Raised millions in funding across seed-stage startups and academic research. Developed and launched AI-enabled products for the US government and private sector. Shipped zero-to-one products with enterprise and Fortune 500 customers. ",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/afsharikia/",
+      "x_url": "https://x.com/busyceo",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/c231332a1027155eca7aa6f943848ca1ae75a9b3.jpg"
+    },
+    {
+      "user_id": 2221991,
+      "full_name": "Roksana Baleshzar",
+      "title": "Founder/CTO",
+      "founder_bio": "Roksana is Cofounder and CTO of TectoAI, the HR system for AI agents. She holds a Master’s in Computer Science and spent 6+ years at Google building ML features in Gmail, shipping to hundreds of millions of users. She specializes in deploying AI safely at scale, with deep experience in real-time systems, data sensitivity, and edge-case failure.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/roksana-baleshzar/",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/0897e9d2ae74a49d7ece2e5163219625dc29047b.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 92108,
+      "title": "Tecto - Governance Platform for AI Employees 🤖",
+      "tagline": "Accelerate recruiting agentic AI tools and keep an 👀 on them!",
+      "body": "👋 Hi! We’re [Niosha](https://www.linkedin.com/in/afsharikia/) and [Roksana](https://www.linkedin.com/in/roksana-baleshzar/), co-founders of [Tecto](https://www.tecto.ai/).\n\n# **TL;DR:**\n\nWe help your company identify roles that can be filled by agentic AI tools, onboard them quickly, monitor their performance and behavior, and ensure they stay compliant and aligned with policies. Tecto is building the **HR system for managing your AI “employees”**.  \n\n🎬🍿\n\nhttps://youtu.be/GeTHW1XVwvE\n\n# **The Problem**\n\n💸 Most companies are eager to **unlock the $B in efficiency** promised by AI, but unsure which use cases to start with. Should they bring on an AI email manager? Or a task manager that syncs with email? Or an all-in-one AI coordinator? \n\n📋 Even after choosing, the **approval process**—from vendor risk assessment to infosec, GRC, and legal—is slow and convoluted. And by the time it's complete, the tool or regulations may have already changed.\n\n🐒 Moreover, agentic AI tools **aren’t static like traditional SaaS**. They continuously evolve with new models, multimodal capabilities, and dynamic behaviors. **Much like humans**, their responses can vary depending on context, drift to favor shortcuts, or adapt tone _([Chen et al., 2025](https://arxiv.org/pdf/2506.06366))_\n\n📊 Most importantly, relying solely on **model benchmarks falls short**. Agent behavior is shaped by capability, context, and adaptation, not just the underlying model. For example:\n\n* A single missed medical term in a transcription can lead to a hallucinated diagnosis in the summarization layer (error propagation) ☠️\n* In a back-office copilot, the assistant began favoring shortcuts over accuracy after users consistently chose the fastest suggestions, optimizing for user approval instead of policy (favoring shortcuts)  💾\n\n# **Our Solution**\n\n**Tecto platform provides the evaluations and qualifications needed to employ and monitor agentic AI, like gusto for AI employees.**\n\n* Tecto helps you pinpoint where AI fits within your workflow and matches you with a curated list of vetted AI employees aligned with your organization’s expectations, risk tolerance, and compliance requirements. \n* Once deployed, we continuously monitor their behavior—using output testing to detect drift, edge case failures, and other unexpected actions as they arise. \n* We also keep you ahead of rapidly evolving AI regulations worldwide, alerting you to public incidents or legal actions involving tools in your stack, so you can respond before issues escalate.\n\n🕹️ With Tecto, onboarding AI employees is fast and oversight doesn’t stop after deployment. Your AI adoption is structured, controlled, and safe from day one.\n\n# **Why We’re Building This**\n\nTogether, we bring over six years of firsthand experience navigating AI adoption—both inside and outside Silicon Valley—across technical development and real-world implementation.\n\n**Niosha**, our CEO, has 10+ years experience navigating highly regulated spaces. She spent the last 6 years as a consultant after earning her PhD, helping the government and private sector bring AI from theory to practice. She’s seen the confusion, overwhelm, and lack of structure that plague even the most ambitious AI initiatives.\n\n**Roksana**, our CTO, has been building software since she was a teenager and spent the last 6.5 years as an AI engineer at Google. She worked on applied AI at scale, navigating the practical challenges of evaluating tools, monitoring agent behavior in production, and aligning systems with compliance needs.\n\n🎖️ We kept seeing the same pattern: companies either banned AI tools outright or used them blindly, leading to compliance failures, reputational damage, and eroded trust. So we built Tecto to close that gap—because real trust in AI adoption comes from having control.\n\n# **Our Ask:**\n\nWe’re looking for:\n\n**Enterprise teams** adopting (or planning to adopt) third-party AI tools or AI “employees”.\n\n**GRC, Infosec, Vendor Risk Assessment , and IT leaders** (including CSOs) who need control over the AI behavior.\n\n**Startups** that want to hire AI fast, but can’t afford to get it wrong.\n\n**Developers** building AI employees, tools for workflow automation, or vertical AI who want to accelerate their sales.\n\nIf that’s you, we’d love to work with you!\\\nWe’re offering early access and discounted pricing for our first wave of customers and hands-on support as you onboard.\n\n👉 Sign up at [tecto.ai](https://www.tecto.ai/early-access)\\\n📬 Reach us directly: [founders@tecto.ai](mailto:founders@tecto.ai)\n\n![uploaded image](/media/?type=post&id=92108&key=user_uploads/2221991/a5ecd214-015d-49be-8bb0-5ae72ebc45ad)\n\n",
+      "url": "https://www.ycombinator.com/launches/Nxc-tecto-governance-platform-for-ai-employees",
+      "votes": 144,
+      "created_at": "2025-07-14T03:59:41.342Z"
+    }
+  ]
+}

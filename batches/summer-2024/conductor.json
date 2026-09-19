@@ -1,0 +1,153 @@
+{
+  "id": 29989,
+  "name": "Conductor",
+  "slug": "conductor",
+  "former_names": [
+    "BookMe",
+    "Melty",
+    "Chorus"
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/2cd38e31ad4112f27dcddd9c52ef2f8fc0e2fbab.png",
+  "website": "https://conductor.build",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "Run parallel agents in isolated workspaces. See at a glance what they’re working on, then review and merge their changes. ",
+  "one_liner": "Run a team of coding agents on your Mac",
+  "team_size": 8,
+  "industry": "B2B",
+  "subindustry": "B2B -> Engineering, Product and Design",
+  "launched_at": 1725301012,
+  "tags": [
+    "Artificial Intelligence",
+    "Developer Tools"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": true,
+  "nonprofit": false,
+  "batch": "Summer 2024",
+  "status": "Active",
+  "industries": [
+    "B2B",
+    "Engineering, Product and Design"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Growth",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/conductor",
+  "api": "https://devasheeshg.github.io/yc-api/batches/summer-2024/conductor.json",
+  "year_founded": 2024,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/meltylabs",
+  "x_url": "https://x.com/conductor_build",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": "https://github.com/meltylabs",
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/2cd38e31ad4112f27dcddd9c52ef2f8fc0e2fbab.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Aaron Epstein",
+    "url": "https://www.ycombinator.com/people/aaron-epstein"
+  },
+  "founders": [
+    {
+      "user_id": 331436,
+      "full_name": "Charlie Holtz",
+      "title": "Founder/CEO",
+      "founder_bio": "Co-founder & CEO at Conductor\n\nPreviously led growth at Replicate, where I built apps with millions of users. Before that I was a quantitative dev at a team at Point72.\n\nI studied cognitive neuroscience at Brown, where I also played Ultimate Frisbee (and met my co-founder, Jackson).",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/charlieholtz",
+      "x_url": "https://x.com/charlieholtz",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/0832de4ad456e90d50a49e9108006d6efd4c55c5.jpg"
+    },
+    {
+      "user_id": 229410,
+      "full_name": "Jackson de Campos",
+      "title": "Founder",
+      "founder_bio": "Conductor lets you run a team of coding agents on your Mac. We’re building the human interface to AI organizations.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/jacksondecampos/",
+      "x_url": "https://x.com/jacksondecampos",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/baecbbe60d29db5f840d9f3c6438d0a979a7af37.jpg"
+    }
+  ],
+  "jobs": [
+    {
+      "id": 84039,
+      "title": "Product Engineer",
+      "url": "https://www.ycombinator.com/companies/conductor/jobs/MYjJzBV-product-engineer",
+      "location": "San Francisco, CA, US",
+      "type": "Full-time",
+      "role": "Engineering",
+      "role_type": "Full stack",
+      "salary_range": "$175K - $350K",
+      "equity_range": "",
+      "experience": "Any (new grads ok)",
+      "visa": "Will sponsor",
+      "skills": []
+    },
+    {
+      "id": 84041,
+      "title": "Design Engineer",
+      "url": "https://www.ycombinator.com/companies/conductor/jobs/cMJKjGy-design-engineer",
+      "location": "San Francisco, CA, US",
+      "type": "Full-time",
+      "role": "Engineering",
+      "role_type": "Frontend",
+      "salary_range": "$200K - $350K",
+      "equity_range": "",
+      "experience": "3+ years",
+      "visa": "Will sponsor",
+      "skills": []
+    },
+    {
+      "id": 94130,
+      "title": "Backend Engineer",
+      "url": "https://www.ycombinator.com/companies/conductor/jobs/gPiaCGr-backend-engineer",
+      "location": "San Francisco, CA, US",
+      "type": "Full-time",
+      "role": "Engineering",
+      "role_type": "Backend",
+      "salary_range": "$200K - $350K",
+      "equity_range": "",
+      "experience": "3+ years",
+      "visa": "Will sponsor",
+      "skills": []
+    }
+  ],
+  "news": [
+    {
+      "title": "Conductor’s Series A | Conductor Blog",
+      "url": "https://www.conductor.build/blog/series-a",
+      "date": "Mar 30, 2026"
+    }
+  ],
+  "launches": [
+    {
+      "id": 93356,
+      "title": "Conductor — Run a bunch of Claude Codes in parallel",
+      "tagline": "Conductor lets you run a bunch of Claude Codes all at once, on your Mac.",
+      "body": "Back in June, we started doing most of our dev work through Claude Code. It’s been so productive we [declared it a member of the team](https://x.com/charliebholtz/status/1935029747815432505).\n\nWe immediately wanted to get _more_ Claude, but the tooling was tedious. At one point we tried cloning our repo into three directories and running Claude in each of them, but it felt like driving a Subaru with a jet engine strapped on.\n\nWe needed a tool that would push Claude to its limits and that we’d enjoy working in all day.\n\nSo we built Conductor!\n\nhttps://www.youtube.com/watch?v=VsWWy2kVpa8\n\nOther people seem to like it too:\n\n![uploaded image](/media/?type=post&id=93356&key=user_uploads/331436/b581e29f-2ada-49d3-88f7-c91e6bfb7cf4)\n\n### **How it works**\n\n**In one click, start a new Claude in an isolated copy of your codebase.**\n\nWe integrate with Linear so you can easily start work on your issues.\n\n![uploaded image](/media/?type=post&id=93356&key=user_uploads/331436/315a80c3-3a33-4296-83cc-f0ac06a4b1f4)\n\n**See at a glance what every Claude is working on.**\n\n![uploaded image](/media/?type=post&id=93356&key=user_uploads/331436/3993651e-9bbf-4b62-9e70-32c4ff01ffe8)\n\n**Review Claude’s changes, create PRs, and merge!**\n\n![uploaded image](/media/?type=post&id=93356&key=user_uploads/331436/3d654281-7394-483a-b53d-b7b09d8f5980)\n\n### **Start Conducting**\n\n![uploaded image](/media/?type=post&id=93356&key=user_uploads/331436/b151e732-3397-4d8e-a138-911dd03a3c64)\n\nIt's free—we use your existing Claude Code login. You can [download for Mac now](https://conductor.build).\n\nCan’t wait to hear what you think!",
+      "url": "https://www.ycombinator.com/launches/OHk-conductor-run-a-bunch-of-claude-codes-in-parallel",
+      "votes": 23,
+      "created_at": "2025-08-27T01:23:48.913Z"
+    },
+    {
+      "id": 83684,
+      "title": "Melty: Open source AI code editor for 10x engineers",
+      "tagline": "Melty is the first editor that’s aware of what you’re doing from the terminal to GitHub and collaborates with you to write production-ready code.",
+      "body": "Hi everyone! We’re Charlie and Jackson. We’re longtime friends who met playing ultimate frisbee at Brown.\n\n![uploaded image](/media/?type=post&id=83684&key=user_uploads/229410/ab31f858-0576-4cfc-8796-4148b999faae)\n\n[Charlie](http://charlieholtz.com/) comes from [Replicate](https://replicate.com/), where he started the Hacker in Residence team and [accidentally struck fear](https://www.businessinsider.com/david-attenborough-ai-video-hollywood-actors-afraid-sag-aftra-2023-11) into the heart of Hollywood. [Jackson](https://jdecampos.com/) comes from Netflix, where he [built machine learning infrastructure](https://netflixtechblog.com/scaling-media-machine-learning-at-netflix-f19b400243) that picks the artwork you see for your favorite shows.\n\nWe’ve used most of the AI coding tools out there, and often ended up copy-pasting code, juggling ten chats for the same task, or committing buggy code that comes back to bite us later. AI has already transformed how we code, but we know it can do a lot more.\n\nSo we’re building [Melty](https://melty.sh/), the first editor that’s aware of what you’re doing from the terminal to GitHub and collaborates with you to write production-ready code.\n\nWe’ve been working on Melty for 28 days, and it’s already writing about half of its own code. It can…\n\n_(all demos real-time)_\n\n**Refactor code across files**\n\n<https://www.loom.com/share/f0e7ae2644e6492ab9e9352fbd14ae8d?sid=b5d497cd-65f4-47ca-955a-73332d8edc4d>\n\n**Create web apps from scratch**\n\n<https://www.loom.com/share/4f4f85c3de8b420e85b65537b775e3c8?sid=01b43f48-0fec-400a-8bee-71132f6d4610>\n\n**Navigate large codebases**\n\n<https://www.loom.com/share/fc4eb54385a5426586160fad5dbfc1be?sid=73a79e2e-1505-47a1-838b-a375cf7523e4>\n\n**Write its own commits**\n\n![uploaded image](/media/?type=post&id=83684&key=user_uploads/229410/5b579ebb-e893-4a2e-b571-97d7136c681c)\n\nWe’re designing Melty to\n\n* Help you understand your code better, not worse\n* Watch every change you make, like a pair programmer\n* Learn and adapt to your codebase\n* Integrate with your compiler, terminal, and debugger, as well as tools like Linear and GitHub\n\nOur asks:\n\n1. Try Melty ([melty.sh](http://melty.sh)) and tell us what you think. It’s a fork of VS Code, so it’s compatible with all your settings and extensions.\n2. Tell us: what AI coding tools do you use, what do you like about them, and what’s frustrating? [DM Charlie](https://x.com/charliebholtz) or send us an email at [founders@melty.sh](mailto:founders@melty.sh).",
+      "url": "https://www.ycombinator.com/launches/Llk-melty-open-source-ai-code-editor-for-10x-engineers",
+      "votes": 30,
+      "created_at": "2024-09-02T18:38:26.522Z"
+    }
+  ]
+}

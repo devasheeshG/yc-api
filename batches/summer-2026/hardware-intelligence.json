@@ -1,0 +1,101 @@
+{
+  "id": 33573,
+  "name": "hardware intelligence",
+  "slug": "hardware-intelligence",
+  "former_names": [
+    "Viki",
+    "hi",
+    "Hardware Intelligence"
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/3c2193e7412febe2e812491e1a73617bb09eb897.png",
+  "website": "https://hardwareintelligence.ai",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "Hardware Intelligence makes chip design tools that cut simulation and debugging time by an order of magnitude. When a chip test fails, engineers need a recording of every internal signal - a waveform. We’ve developed WaveZip, which captures waveforms 500x smaller with 200x less overhead, and Wave, which beats frontier models on industry chip debugging benchmarks. We’re Rishov Sarkar (Georgia Tech Ph.D. in chip simulation) and Athreya Anand (ex-Google, M.S. ML/AI), YC S26. https://hardwareintelligence.ai",
+  "one_liner": "AI tools for the chips your AI runs on",
+  "team_size": 2,
+  "industry": "B2B",
+  "subindustry": "B2B -> Engineering, Product and Design",
+  "launched_at": 1784052551,
+  "tags": [
+    "Artificial Intelligence",
+    "Developer Tools",
+    "Hardware",
+    "Enterprise Software",
+    "Semiconductors"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Summer 2026",
+  "status": "Active",
+  "industries": [
+    "B2B",
+    "Engineering, Product and Design"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/hardware-intelligence",
+  "api": "https://devasheeshg.github.io/yc-api/batches/summer-2026/hardware-intelligence.json",
+  "year_founded": 2026,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/hardwareintelligence/",
+  "x_url": "https://x.com/hwintelligence",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/3c2193e7412febe2e812491e1a73617bb09eb897.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [
+    "https://bookface-images.s3.us-west-2.amazonaws.com/attachments/84867b76e94b5d17051762179fca04132eaaa7be.png",
+    "https://bookface-images.s3.us-west-2.amazonaws.com/attachments/c8cf823528ccb123bf55a70cc8e1a177803988de.png"
+  ],
+  "primary_partner": {
+    "name": "Jon Xu",
+    "url": "https://www.ycombinator.com/people/jon-xu"
+  },
+  "founders": [
+    {
+      "user_id": 551607,
+      "full_name": "Athreya Anand",
+      "title": "Founder/CEO",
+      "founder_bio": "Co-founder & CEO of Hardware Intelligence. Athreya was a tech lead at Google where he led AI efforts across orgs from agentic workflow management tools to prediction models for Google Ventures. He has a Master's from Georgia Tech in Machine Learning and A.I., with technical expertise in agentic tools and chip design through his time at Google, AWS Inferentia, and Tesla. ",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/athreyaanand",
+      "x_url": "https://x.com/athreyaanand",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/d015fb0c86a6bdae44f5b5c36e2b3d18f086454a.jpg"
+    },
+    {
+      "user_id": 2565323,
+      "full_name": "Rishov Sarkar",
+      "title": "Founder/CTO",
+      "founder_bio": "Co-founder & CTO at Hardware Intelligence. Rishov graduated with his PhD in Electrical & Computer Engineering from Georgia Tech with six published first-author/co-first-author conference papers, including one best paper runner-up. He also developed simulators for AMD's AI Engine accelerator and worked on LLVM-based compilation flows at Siemens EDA. He earned his MS and BS in Computer Engineering from Georgia Tech.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/rishovsarkar/",
+      "x_url": "https://twitter.com/ArkaneMoose",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/d7666af58a4a49fbf9b8355cdffcb981f5df6505.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 107661,
+      "title": "hardware intelligence: AI tools for the chips your AI runs on",
+      "tagline": "Bringing the $20B chip tooling industry into this decade",
+      "body": "---\n\n---\n\n**Update:** We’ve just launched our second tool, WaveZip - a genuine breakthrough method for capturing and storing waveforms. Read more at <https://hardwareintelligence.ai/wavezip/>\n\n---\n\n---\n\n<https://www.youtube.com/watch?v=KJTH-nNl6qQ>\n\n—\n\nWe’re Athreya and Rishov - the founders of [@hardware intelligence](https://bookface.ycombinator.com/company/33573). We’re here to pick a fight with the $20B industry whose debuggers suck and won’t open until an ancient license server gives it permission.\n\n**TL;DR: Our first product, Wave, is a SOTA waveform debugger that lives completely in the terminal, built for the agentic era.** An agent can jump you to the moment a design breaks, drag in waveforms and manipulate them, trace bad signals to its source and even prove its fix against the simulation - all visual. We allow teams to build better chips in less time.\n\n**The quick ask:** If you or anyone you know builds or verifies chips (ASICs/FPGAs), please email us! We would love to talk :)\n\n<https://www.youtube.com/watch?v=5nXvicwWONQ>\n\n❌ **The Problem**\n\nThe AI boom is a chip boom - more companies and teams than ever are designing silicon. However, the reality is hardware is not software: you can’t patch a chip after it ships. A bug that reaches manufacturing can be a nine-figure mistake. That’s why **companies spend 70% of the entire chip design process just on verification**.\n\nHardware verification engineers run thousands of simulated tests first on their code (simulation) which typically can take **hours to days**. If one of these tests fail, debugging means reading a waveform - a log of every signal, millions of ticks long, hiding the tick where a value went wrong. It’s literally a needle in a haystack… a big haystack. It’s common for these waveform files to be several gigabytes large. **Finding this needle is the single largest activity in verification.**\n\n**The current tools are dinosaurs.** 20-year-old GUIs behind license servers whose seats run six figures a year sold by our favorite incumbents: Synopsys, Cadence, and Siemens. Free tools are even worse.\n\n![uploaded image](/media/?type=post&id=107661&key=user_uploads/551607/fd100b13-f0dd-45f0-8ee4-395edf96fcae)\n\nYes. This is from 2026.\n\nSoftware engineers got coding agents. Chip engineers got a queue for a license and whatever this is.\n\n👋 **What Wave actually does**\n\n![uploaded image](/media/?type=post&id=107661&key=user_uploads/551607/a75818b0-b001-466b-9586-705d26deb5f9)\n\nWave is the first of its kind! **A fully terminal-native waveform debugger with a verification agent built in.** Wave opens files before Verdi, the industry-standard viewer, finishes its license check. Let’s do a quick dive!\n\n![uploaded image](/media/?type=post&id=107661&key=user_uploads/551607/ac7e5c75-8abb-4a6d-881f-a2a9b883a8b3)\n\n**Why the terminal?** Surprisingly, most hardware engineers are terminal power users - typically doing all their coding in Vim. We wanted to meet them where they are and make our product extremely intuitive to use - we even employ Vim bindings across the interface.\n\n![uploaded image](/media/?type=post&id=107661&key=user_uploads/551607/d4063fbc-2f57-4b5c-a421-bfaa697433d6)\n\n**Ask in plain english.** _Why is a wave x at 12.4us?_ The agent will pull in signals, act on them and trace the root cause. Everything happens in front of your eyes.\n\n![uploaded image](/media/?type=post&id=107661&key=user_uploads/551607/8f37dd5c-22f0-4271-b665-a096c5dbfbd2)\n\n**Pick your fix and see it.** Wave will propose different approaches with tradeoffs. The definition of “best” in hardware design depends on the use case. Maybe you want to optimize for performance? Maybe for power? Pick the one for you! Wave re-simulates and re-reads the new waveform. See a diff of how the waveform changed and a visual indication of where the fix was implemented.\n\n![uploaded image](/media/?type=post&id=107661&key=user_uploads/551607/b0875bc9-fb55-4275-8c7e-11f926bc597d)\n\nNow watch it fix a bug end to end with Rishov!\n\n<https://www.youtube.com/watch?v=eTycCILW6Jk>\n\n🙏 **Asks &amp; Offers**\n\nIf you design chips or lead a team, email us! We’d love to work with you and speed up your RTL development.\n\nKnow someone who does? Email us!\n\nJust want to chat about hardware? **EMAIL US!!**\n\n👬 **The Team**\n\nWe met in our freshman dorm at Georgia Tech nearly a decade ago! We became best friends and roommates for all four years of college - after, Athreya went to NYC to work at Google and Rishov stayed to do his PhD. We promised each other that once we’re free, that we’ll go all-in and work on something we’re passionate about together. Turns out, Rishov’s deep PhD thesis on chip simulation and compilers was the perfect spark.\n\nToday we announce our company and are roommates once again ❤️\n\n![uploaded image](/media/?type=post&id=107661&key=user_uploads/551607/eef30a82-c606-494a-a093-3649920c7857)\n\n—\n\nSay hi 👋 [hi@hardwareintelligence.ai](mailto:hi@hardwareintelligence.ai) · [hardwareintelligence.ai](http://hardwareintelligence.ai)\n\n[@Athreya Anand](https://bookface.ycombinator.com/user/551607) · [athreya@hardwareintelligence.ai](mailto:athreya@hardwareintelligence.ai)\n\n[@Rishov Sarkar](https://bookface.ycombinator.com/user/2565323) · [rishov@hardwareintelligence.ai](mailto:rishov@hardwareintelligence.ai)\n\nP.S. Wave is just the start 👀 We got some super cool things coming to close the loop of hardware engineering. ",
+      "url": "https://www.ycombinator.com/launches/S0T-hardware-intelligence-ai-tools-for-the-chips-your-ai-runs-on",
+      "votes": 50,
+      "created_at": "2026-07-27T16:00:24.675Z"
+    }
+  ]
+}

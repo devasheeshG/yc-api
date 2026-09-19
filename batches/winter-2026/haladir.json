@@ -1,0 +1,105 @@
+{
+  "id": 31030,
+  "name": "Haladir",
+  "slug": "haladir",
+  "former_names": [],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/6b1a47bf16f93d71a3d1f3af6d10a6c736e170b2.png",
+  "website": "https://www.haladir.com/",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "Haladir builds advanced AI systems for logistics. We sit on top of your WMS, TMS and ERP, turning their data into decisions across supply chain planning and execution: solver-grade optimization that decides what should happen, and AI agents that run the workflows. Today's AI brought intelligence. The next frontier is judgement.",
+  "one_liner": "Operational Superintelligence for Global Logistics",
+  "team_size": 4,
+  "industry": "B2B",
+  "subindustry": "B2B -> Supply Chain and Logistics",
+  "launched_at": 1766374394,
+  "tags": [
+    "Artificial Intelligence",
+    "Logistics",
+    "Supply Chain",
+    "Operations"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Winter 2026",
+  "status": "Active",
+  "industries": [
+    "B2B",
+    "Supply Chain and Logistics"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/haladir",
+  "api": "https://devasheeshg.github.io/yc-api/batches/winter-2026/haladir.json",
+  "year_founded": 2025,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/haladir/",
+  "x_url": "https://x.com/Haladirofficial",
+  "fb_url": null,
+  "cb_url": "https://www.crunchbase.com/organization/haladir",
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/6b1a47bf16f93d71a3d1f3af6d10a6c736e170b2.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [
+    "https://bookface-images.s3.us-west-2.amazonaws.com/attachments/077073cf18700d7e1edd475232d633ec075bb136.png"
+  ],
+  "primary_partner": {
+    "name": "Diana Hu",
+    "url": "https://www.ycombinator.com/people/diana-hu"
+  },
+  "founders": [
+    {
+      "user_id": 2487577,
+      "full_name": "Jibran Hutchins",
+      "title": "Founder/CEO",
+      "founder_bio": "Co-Founder & CEO @ Haladir | Carnegie Mellon University",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/jibran-hutchins-42500b26b/",
+      "x_url": "https://x.com/jibranhutch",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/987640bffd5262eeebe44296085c3da0038b2741.jpg"
+    },
+    {
+      "user_id": 2695652,
+      "full_name": "Quan Huynh",
+      "title": "Founder/CIO",
+      "founder_bio": "Cofounder @Haladir",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/quanmhuynh/",
+      "x_url": "https://x.com/quanmhuynh",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/05de19f72552f6a3317ae6d45e1cbbc378ab8060.jpg"
+    },
+    {
+      "user_id": 2711900,
+      "full_name": "Joseph Tso",
+      "title": "Founder/COO",
+      "founder_bio": "Co-founder @ Haladir | CS @ Princeton",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/josephtso",
+      "x_url": "https://x.com/josephtso914",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/20afb2e3ed767cd1880a6f822f73c5817a60fb4a.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 98580,
+      "title": "Haladir: Building Operational Superintelligence",
+      "tagline": "Combining formal solvers with LLMs to make AI reliable for high-stakes operational decisions",
+      "body": "**TL;DR:** Haladir is an AI product lab that combines formal solvers with LLMs to make AI reliable for constrained systems. We turn unreliable model outputs into **verifiable, optimal decisions** for industries like **logistics, critical software, and manufacturing**. We are working with one of the leading AI labs to bring our technology to post-training.\n\n**Launch Video: [https://www.youtube.com/watch?v=caPPFAmL8Iw](https://www.youtube.com/watch?v=caPPFAmL8Iw)**\n\n**The Problem**\n\nOperationally-complex companies (logistics, supply chain, etc.) need to make thousands of decisions a day under tight, real-world constraints. Even when given ample context, we observe that the top models often fail to understand these constraints when placed in difficult scenarios, providing suboptimal or confidently incorrect responses. Though they excel at individual tasks like coding and data analysis, optimizing across systems with millions of interdependent variables under hard constraints remains beyond what current models can do on their own.\n\n**The Solution**\n\nHaladir combines formal solvers with LLMs to give models a fundamental understanding of constraints rather than just semantic context. For logistics and supply chain companies, this means routing, scheduling, and resource allocation that AI can reason through rather than guess at.\n\nWe build at both the model training layer and the application layer. On the training side, we build solver-based RL environments and data pipelines for frontier labs. On the application side, we build model harnesses that allow deployed agents to operate within constrained, sensitive workflows and make optimal decisions. Decades of development in solvers like Gurobi and SAT/SMT have produced incredibly powerful technologies, but there's a growing gap between these tools and how AI is deployed today. We're here to close that gap.\n\nRead our research: [haladir.com/research](http://haladir.com/research)\n\n**The Team**\n\nIn high school, we published and were cited in IEEE and Elsevier Q1 journals for operations research and machine learning. We left Carnegie Mellon, Princeton, and UVA to build Haladir.\n\n**Our Ask**\n\nWe'd love to talk with you if:\n\n* You work at a logistics, supply chain, or manufacturing company where AI isn't yet delivering on real decision-making\n* You work at or with frontier AI labs interested in solver-based training environments\n* You know talented people in operations research, formal methods, or applied ML\n\n👉 Contact us at [founders@haladir.com](mailto:founders@haladir.com)\n\n💼 Follow us on LinkedIn: www.linkedin.com/company/haladir\n\n📱 Follow us on X: x.com/Haladirofficial",
+      "url": "https://www.ycombinator.com/launches/Pe0-haladir-building-operational-superintelligence",
+      "votes": 21,
+      "created_at": "2026-03-08T21:01:35.301Z"
+    }
+  ]
+}

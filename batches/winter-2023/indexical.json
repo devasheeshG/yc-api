@@ -1,0 +1,93 @@
+{
+  "id": 27705,
+  "name": "Indexical",
+  "slug": "indexical",
+  "former_names": [
+    "Nebula"
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/ffb7d7237c04ef91841ffa6c06007d8d606413a2.png",
+  "website": "https://indexical.dev/",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "",
+  "one_liner": "AI-powered data extraction engine",
+  "team_size": 2,
+  "industry": "B2B",
+  "subindustry": "B2B -> Infrastructure",
+  "launched_at": 1677455023,
+  "tags": [
+    "Developer Tools",
+    "Generative AI",
+    "SaaS",
+    "B2B",
+    "Enterprise"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Winter 2023",
+  "status": "Inactive",
+  "industries": [
+    "B2B",
+    "Infrastructure"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/indexical",
+  "api": "https://devasheeshg.github.io/yc-api/batches/winter-2023/indexical.json",
+  "year_founded": 2022,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/trynebula/",
+  "x_url": "https://twitter.com/try_nebula",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/ffb7d7237c04ef91841ffa6c06007d8d606413a2.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": null,
+  "founders": [
+    {
+      "user_id": 888634,
+      "full_name": "Shanelle Roman",
+      "title": "Founder",
+      "founder_bio": "Shanelle is the cofounder and CEO of Nebula. Shanelle was previously a PM at Google, working on the buying experience for a new $XB line of Google ads. Originally from Minnesota, she graduated from Yale with a degree in Computer Science.  ",
+      "is_active": false,
+      "linkedin_url": "https://www.linkedin.com/in/shanelle-roman-37baa6103/",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/7744ee9edab1ac4841d2e98aa20cb7ad96d1f1cd.jpg"
+    },
+    {
+      "user_id": 595906,
+      "full_name": "Vishnu Menon",
+      "title": "Founder",
+      "founder_bio": "Vishnu Menon is the Co-founder & CTO of Nebula, where he builds tools that help engineers be productive in microservice architectures. Previously, he was co-founder at an ML startup (Toucan AI) and lead data & platform projects at a MarTech software provider (AddShoppers). He earned a degree in Computer Science from Duke University.",
+      "is_active": false,
+      "linkedin_url": "https://www.linkedin.com/in/vishnu-menon/",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/43cfe0169faff62896e4e955bd9629ab03810ee5.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 69881,
+      "title": "Nebula 🌌 - Understand & debug enterprise-scale codebases",
+      "tagline": "Simplifying microservice development ",
+      "body": "### TL;DR\n\n[**Nebula**](https://www.trynebula.com/) **is a code navigation tool that helps developers quickly understand & debug distributed systems. We make it easy to follow service dependencies & the flow of data across your microservice architecture, saving developers tens of hours per week. Request early access** [**here**](https://mzgq3tvfxmu.typeform.com/to/DD8HB5A5)\n\nHey everyone, we're the founders of Nebula!\n\n![uploaded image](/media/?type=post&id=69881&key=user_uploads/888634/dd916b21-6237-4b46-ab5b-91a02851586a)\n\n**Shanelle** was previously a PM at Google, where she saw firsthand the productivity loss that came with complex microservice architectures.\n\n**Vishnu** is a second-time founder who has previously built developer platforms & ML-based document retrieval systems.\n\nWe've experienced the frustration of seemingly simple features taking months to launch because of the complexity of unwieldy microservice architectures. Building on open-source tooling designed to handle Google-scale codebases, Nebula aims to make it simple and painless to develop microservices.\n\n### Problem 😔\n\n[85% of enterprise companies](https://www.statista.com/statistics/1236823/microservices-usage-per-organization-size/) use a microservice architecture. However, as these codebases scale in size & complexity, developer velocity often slows drastically:\n\n1\\. **trivial changes take weeks to implement** because they impact multiple services or teams across the org\n\n2\\. it takes **longer to debug** issues because it's hard to track the flow of data across your system\n\n3\\. **onboarding** a new developer onto your codebase can take weeks, if not months\n\nCompanies that switch to microservice architecture often see a dramatic increase in the cognitive overhead required for their engineers to be productive.\n\nWe've done deep dives with best-in-class companies like Netflix and Linkedin to learn how they dealt with the growing complexity of their codebases. We're combining their most effective strategies with insights from Shanelle's experience at Google to build Nebula.\n\n### How it works [🥳](https://emojipedia.org/partying-face/)\n\nNebula deploys in your cloud & continuously analyzes your codebase to generate an index of inter-service communication, then exposes this info in three ways:\n\n1\\. An **IDE extension** that shows how a line of code fits into the overall system (e.g. service dependencies, cross-references, recent traces, etc.)\n\n2\\. An **auto-generated service catalog** that includes service interfaces, usage examples, and service contributors (no maintenance required)\n\n3\\. A **GraphQL endpoint** that exposes all this data for integration with your existing DevTools\n\n![uploaded image](/media/?type=post&id=69881&key=user_uploads/888634/69cc9b1f-5205-402a-9317-48b163d68832)\n\n![uploaded image](/media/?type=post&id=69881&key=user_uploads/888634/a714fb97-d518-478a-9952-aa58ed4d1dd9)\n\n### Our Ask [🙏](https://emojipedia.org/folded-hands/)\n\n1\\. If you're a company with >100 microservices or engineers that is looking to boost its development velocity, you can [email me](mailto:shanelle@trynebula.com?subject=YC%20Launch%20-%20interested%20in%20Nebula) or schedule a [quick chat](https://book.vimcal.com/p/z5RvBJx51onH1zTj).\n\n2\\. Know any teams that are struggling to wrangle their microservice architecture? [Intro us](mailto:shanelle@trynebula.com?subject=YC%20Launch%20-%20Nebula%20customer%20intro)! **If your referral becomes a paying customer, we'll send you a $500 Amazon gift card**",
+      "url": "https://www.ycombinator.com/launches/IB7-nebula-understand-debug-enterprise-scale-codebases",
+      "votes": 130,
+      "created_at": "2023-03-02T19:58:46.522Z"
+    }
+  ]
+}

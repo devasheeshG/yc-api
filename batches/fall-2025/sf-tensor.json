@@ -1,0 +1,195 @@
+{
+  "id": 30891,
+  "name": "SF Tensor",
+  "slug": "sf-tensor",
+  "former_names": [
+    "Emma Lang"
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/524a578009f692a6daadfe853089aabd437361d4.png",
+  "website": "https://sf-tensor.com",
+  "all_locations": "",
+  "long_description": "AI researchers should be pushing the boundaries of what's possible with new architectures and training methods. Instead, they waste weeks configuring cloud infrastructure, debugging distributed systems, and optimizing their GPU code. We know because we lived it: While training our own models across thousands of GPUs earlier this year, we spent more time fighting our infrastructure than doing actual research.\r\n\r\nThat's why we're building two things. First, Elastic Cloud: a managed platform that automatically finds the cheapest GPUs across all providers, handles spot instance preemption, and cuts compute costs by up to 80%. Second, automatic kernel optimization that makes training code run faster by modeling hardware topology, often beating hand-tuned implementations.\r\n\r\nThe problem is that getting high performance across different hardware is genuinely hard. NVIDIA's CUDA moat exists because writing fast kernels requires deep expertise. Most teams either accept vendor lock-in or hire expensive kernel engineers. Our goal is to break the CUDA moat.\r\n\r\nThe compute bottleneck is the biggest constraint on AI progress. NVIDIA can't manufacture enough GPUs, and their monopoly keeps prices astronomical. Meanwhile, AMD, Google, and Amazon are shipping capable alternative hardware that nobody uses because the software is too hard. We're breaking that moat. If we succeed, anyone will be able to train state-of-the-art models without thinking past their PyTorch code.",
+  "one_liner": "Infrastructure for AI labs to focus on research.",
+  "team_size": 6,
+  "industry": "B2B",
+  "subindustry": "B2B -> Infrastructure",
+  "launched_at": 1759869599,
+  "tags": [],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": true,
+  "nonprofit": false,
+  "batch": "Fall 2025",
+  "status": "Active",
+  "industries": [
+    "B2B",
+    "Infrastructure"
+  ],
+  "regions": [
+    "Unspecified"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": [
+    {
+      "question": "What is the core problem you are solving? Why is this a big problem? What made you decide to work on it?",
+      "answer": "AI labs and startups should focus on breakthrough research—new architectures, training methods, the stuff that ends up in papers. Instead, they burn countless hours configuring cloud infrastructure, debugging distributed training, and negotiating GPU deals. \r\n\r\nWe know because we lived it. While training our own models, we realized we were spending 60% of our time on infrastructure and 40% on actual research. Talking to other teams, we found everyone had this problem. Small labs can't afford dedicated infra teams. Large labs waste research talent on DevOps. \r\n\r\nThis infrastructure tax is holding back AI progress. We decided to eliminate it. "
+    },
+    {
+      "question": "What is your long-term vision? If you truly succeed, what will be different about the world?",
+      "answer": "Today, wanting performance means vendor lock-in to NVIDIA. This creates artificial scarcity: limited production capacity, sky-high prices, and compute monopolies. By making all hardware from AMD GPUs, TPUs, Trainium, whatever comes next, equally usable, we'll unlock massive new supply. \r\n\r\nIn this world, anyone can train state-of-the-art models without ever thinking past their PyTorch code. Startups won't need infrastructure teams. Researchers won't waste time on cloud configuration. CEOs won't negotiate GPU rental deals. \r\n\r\nCompute will be abundant, cheap, and boring. And AI research will accelerate because researchers can finally focus on research. "
+    }
+  ],
+  "url": "https://www.ycombinator.com/companies/sf-tensor",
+  "api": "https://devasheeshg.github.io/yc-api/batches/fall-2025/sf-tensor.json",
+  "year_founded": 2025,
+  "city": null,
+  "country": null,
+  "linkedin_url": "https://www.linkedin.com/company/sftensor",
+  "x_url": "https://x.com/sftensor",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/524a578009f692a6daadfe853089aabd437361d4.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [
+    "https://bookface-images.s3.us-west-2.amazonaws.com/attachments/7e659378c5c5a70743e5b31b622c4c3b3290052e.png"
+  ],
+  "primary_partner": {
+    "name": "Harj Taggar",
+    "url": "https://www.ycombinator.com/people/harj-taggar"
+  },
+  "founders": [
+    {
+      "user_id": 801244,
+      "full_name": "Ben Koska",
+      "title": "Founder/CEO",
+      "founder_bio": "Optimizing GPU Kernels @ SF Tensor.",
+      "is_active": true,
+      "linkedin_url": "https://linkedin.com/in/benkoska",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/d4a10b316ffce1af2d91c7b1b1b9437750e1c061.jpg"
+    },
+    {
+      "user_id": 2951036,
+      "full_name": "Luk Koska",
+      "title": "Founder/CTO",
+      "founder_bio": "Optimizing AI infrastructure @ SF Tensor (F25).\nFinished BSc in CS @ age 16",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/lukkoska/",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/b168f5b428a864b72da162887ae641d20539b7bf.jpg"
+    },
+    {
+      "user_id": 2950892,
+      "full_name": "Tom Koska",
+      "title": "Founder",
+      "founder_bio": "Optimizing AI infrastructure @ SF Tensor (F25).\nFinished BSc in CS @ age 16",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/tomkoska/",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/316bba78559c885b37648ceb2d2d637aa0bdf655.jpg"
+    }
+  ],
+  "jobs": [
+    {
+      "id": 107006,
+      "title": "Member of Technical Staff, Product Engineering",
+      "url": "https://www.ycombinator.com/companies/sf-tensor/jobs/gkuqeM2-member-of-technical-staff-product-engineering",
+      "location": "San Francisco",
+      "type": "Full-time",
+      "role": "Engineering",
+      "role_type": "Full stack",
+      "salary_range": "$225K - $275K",
+      "equity_range": "",
+      "experience": "Any (new grads ok)",
+      "visa": "US citizen/visa only",
+      "skills": []
+    },
+    {
+      "id": 107007,
+      "title": "Member of Technical Staff, Sandbox Infrastructure",
+      "url": "https://www.ycombinator.com/companies/sf-tensor/jobs/plO372C-member-of-technical-staff-sandbox-infrastructure",
+      "location": "San Francisco",
+      "type": "Full-time",
+      "role": "Operations",
+      "role_type": null,
+      "salary_range": "$275K - $315K",
+      "equity_range": "",
+      "experience": "6+ years",
+      "visa": "US citizen/visa only",
+      "skills": []
+    },
+    {
+      "id": 107008,
+      "title": "Member of Technical Staff, Post-Training & Applied Research",
+      "url": "https://www.ycombinator.com/companies/sf-tensor/jobs/IgxqFjw-member-of-technical-staff-post-training-applied-research",
+      "location": "San Francisco",
+      "type": "Full-time",
+      "role": "Operations",
+      "role_type": null,
+      "salary_range": "$275K - $315K",
+      "equity_range": "",
+      "experience": "3+ years",
+      "visa": "US citizen/visa only",
+      "skills": []
+    },
+    {
+      "id": 107009,
+      "title": "Member of Technical Staff, GPU Kernels",
+      "url": "https://www.ycombinator.com/companies/sf-tensor/jobs/1zQSFYC-member-of-technical-staff-gpu-kernels",
+      "location": "San Francisco",
+      "type": "Full-time",
+      "role": "Operations",
+      "role_type": null,
+      "salary_range": "$285K - $315K",
+      "equity_range": "",
+      "experience": "3+ years",
+      "visa": "US citizen/visa only",
+      "skills": []
+    },
+    {
+      "id": 107010,
+      "title": "Member of Technical Staff, GPU Compiler",
+      "url": "https://www.ycombinator.com/companies/sf-tensor/jobs/ZJL2GLy-member-of-technical-staff-gpu-compiler",
+      "location": "San Francisco",
+      "type": "Full-time",
+      "role": "Operations",
+      "role_type": null,
+      "salary_range": "$285K - $315K",
+      "equity_range": "",
+      "experience": "6+ years",
+      "visa": "US citizen/visa only",
+      "skills": []
+    },
+    {
+      "id": 107011,
+      "title": "Member of Technical Staff, AI-Driven Compilation",
+      "url": "https://www.ycombinator.com/companies/sf-tensor/jobs/ZvA4OCy-member-of-technical-staff-ai-driven-compilation",
+      "location": "San Francisco",
+      "type": "Full-time",
+      "role": "Operations",
+      "role_type": null,
+      "salary_range": "$275K - $315K",
+      "equity_range": "",
+      "experience": "Any (new grads ok)",
+      "visa": "US citizen/visa only",
+      "skills": []
+    }
+  ],
+  "news": [],
+  "launches": [
+    {
+      "id": 95098,
+      "title": "SF Tensor - Infrastructure for the Era of  Large-Scale AI Training ⚡",
+      "tagline": "We tweak kernels to squeeze out extra speed, hunt down the cheapest GPUs across every cloud and make your models train on any hardware. Train frontier models without the DevOps nightmare. ",
+      "body": "Hey everyone 👋 \n\nWe’re [Ben](https://www.linkedin.com/in/benkoska/), [Tom](https://www.linkedin.com/in/tomkoska/) and [Luk](https://www.linkedin.com/in/lukkoska/) - co-founders of SF Tensor. \n\n**TL;DR:** We let AI researchers forget about the infrastructure layer and focus on their research. \n\nWe automatically optimize kernels to run faster, find the cheapest GPUs across every provider and migrate your jobs when spot instances fail. Training AI should be about AI, not DevOps. \n\n**_Ask:_** Know anyone training or fine-tuning AI models? We’d be grateful for an intro! Reach out to us at [founders@sf-tensor.com](mailto:founders@sf-tensor.com). \n\n![uploaded image](/media/?type=post&id=95098&key=user_uploads/801244/994bfb29-1b66-4506-86bd-8b3d0197eff4)\n\n## **The Problem**\n\nTraining AI should mean developing smarter architectures and finding better data. But right now, it doesn’t. Teams waste their time on everything but actual research: \n\n* Optimizing code so that training runs don’t drain the bank \n* Fighting cloud providers and scrambling for GPU availability \n* Making distributed training work with reasonable MFU (=cost efficiency).\n\nThis drives up costs, frustrates everyone and kills velocity. Infrastructure has inadvertently turned into the limiting factor for AI research labs, and it’s killing progress.\n\nWe experienced this first-hand developing our own foundation models – what we expected to be AI research, experimentation and iterative improvement turned out to be an ugly mix of writing CUDA, debugging driver mismatches and optimizing inter-GPU collective operations. That’s why we decided to solve the infrastructure layer, to allow other researchers to **focus on research, not infrastructure**.\n\n## **Our Solution**\n\nSF Tensor is the \"set it and forget it\" infrastructure layer for anyone training or fine-tuning AI models. Hook up your repo, pick your GPU count and budget, and we deal with the rest:\n\n* Our automatic kernel optimizer analyzes your architecture and tunes execution for any hardware (NVIDIA, AMD or TPUs). No more having to drop down into custom CUDA because PyTorch doesn’t understand memory topology. \n* We find the cheapest available compute across all clouds for your specific requirements and launch your training run. \n* Automatic Distributed Training allows you to scale from 1 to 10,000 GPUs without having to change your code or killing your MFU \n* Everything else that you shouldn’t have to think about: Spot instance migration? Handled. Monitoring? Baked in. Logs and artifacts? Done.\n\n![uploaded image](/media/?type=post&id=95098&key=user_uploads/801244/89170605-19e4-4029-87dd-7a3fa85cc9df)\n\n## **The Team**\n\n![uploaded image](/media/?type=post&id=95098&key=user_uploads/801244/519e2798-579a-43e1-8c96-28f3be87a392)\n\nWe’re 3 brothers that have been working on Artificial Intelligence together for years, most recently training our own Foundational World Models. SF Tensor was born out of our own needs as AI researchers scaling up training runs to thousands of concurrent GPUs.\n\nBen has been publishing AI research since high school, solo-training models across 4,000 GPUs as co-PI on a 6-figure grant.\n\nTom and Luk (twins btw) have been doing AI research for years, from starting college in parallel to high school at age 14 to finishing their BSc in CS (at age 16).\n\n## **Compute should be boring. Let’s make it boring.**\n\nTry us right now at [sf-tensor.com](http://sf-tensor.com) or contact us at [hello@sf-tensor.com](mailto:hello@sf-tensor.com) to see how we can help with your infra pains.\n\n![uploaded image](/media/?type=post&id=95098&key=user_uploads/801244/3ca5b95d-168d-402c-a899-5a42965ee527)\n\n",
+      "url": "https://www.ycombinator.com/launches/Ojq-sf-tensor-infrastructure-for-the-era-of-large-scale-ai-training",
+      "votes": 23,
+      "created_at": "2025-11-04T18:36:08.802Z"
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "id": 31491,
+  "name": "TesterArmy",
+  "slug": "testerarmy",
+  "former_names": [
+    "Tester Army"
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/c2383517bbad408b44b80d2d5f5912ef81073ff0.png",
+  "website": "https://tester.army",
+  "all_locations": "San Francisco, CA, USA; Remote",
+  "long_description": "TesterArmy is an AI agent that tests websites and mobile apps. It monitors production on a schedule and runs automatically on every GitHub Pull Request, delivering screenshots, recordings, and actionable bug reports.\r\n\r\nDescribe tests in plain English. The agent handles login flows, OAuth, and OTPs, no scripts to write or maintain. We catch the regressions and UX issues that code review misses.",
+  "one_liner": "Test your app with AI, catch bugs before users do",
+  "team_size": 6,
+  "industry": "B2B",
+  "subindustry": "B2B -> Engineering, Product and Design",
+  "launched_at": 1773767171,
+  "tags": [],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Spring 2026",
+  "status": "Active",
+  "industries": [
+    "B2B",
+    "Engineering, Product and Design"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada",
+    "Remote",
+    "Fully Remote"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/testerarmy",
+  "api": "https://devasheeshg.github.io/yc-api/batches/spring-2026/testerarmy.json",
+  "year_founded": 2026,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/testerarmy",
+  "x_url": "https://x.com/TesterArmy",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/c2383517bbad408b44b80d2d5f5912ef81073ff0.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Pete Koomen",
+    "url": "https://www.ycombinator.com/people/pete-koomen"
+  },
+  "founders": [
+    {
+      "user_id": 3414052,
+      "full_name": "Szymon Rybczak",
+      "title": "Founder/CEO",
+      "founder_bio": "Co-founder & CEO of TesterArmy (YC P26).\n\nYoungest ever contributor to React Native (at 16), maintained open-source libraries with 3M+ downloads weekly.\n\nWorked on v0 iOS with Vercel. 5+ years of commercial experience. Working professionally since 14.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/szymonrybczak/",
+      "x_url": "https://x.com/SzymonRybczak",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/41e6e5890d14f7aee22cebf9990c15771ba50e3a.jpg"
+    },
+    {
+      "user_id": 3413782,
+      "full_name": "Oskar Kwaśniewski",
+      "title": "Founder",
+      "founder_bio": "Co-founder & CTO of TesterArmy (YC P26).\n\nReact Native Core Contributor (100+ PRs merged), created 5+ open-source libraries with over 2.5M downloads.\n\nWorked with Vercel, Meta, AT&T, and more.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/okwasniewski/",
+      "x_url": "https://x.com/o_kwasniewski",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/f7f50a5056949e5eea13153b78e8a074fa4cf422.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 101949,
+      "title": "TesterArmy: Test your app with natural language",
+      "tagline": "Automated testing for web and mobile apps",
+      "body": "Hey everyone [👋\\\n\\\n](https://emojipedia.org/waving-hand)**TL;DR: TesterArmy is an AI-powered QA agent that tests your web or mobile app by actually using it - clicking, typing, navigating like a real user.** \\\n\\\n<https://youtu.be/G4zBvz9ZGac>\n\n### **Launch Day Deal 🚀**\n\nAs part of launch day, we’re offering **30% off every subscription** after [signup](https://tester.army/sign-in) with code: **LAUNCH30**.\n\n### **Problem**\n\nEvery dev team knows they should test more, but writing and maintaining automated tests is painful.\n\nTests take time to build; they break when the UI changes, and when a team is shipping fast, QA is usually the first thing to get skipped.\n\nAnd even when tests pass, they only verify what you explicitly told them to verify. They do not notice confusing flows, broken layouts, misleading copy, or weird UI states that a real user would catch in seconds.\n\n### **Solution**\n\nTesterArmy is an AI agent that **tests your app as a real user would.** You describe what to test in natural language, and the agent clicks, types, and navigates through your app using vision. It catches broken flows, rendering bugs, misleading copy, and confusing UX. No selectors, no scripts, nothing to maintain.\n\nEvery run produces screenshots, recordings, and actionable bug reports. Setup takes minutes: paste your URL or upload a mobile app build, and describe what to test. Done.\n\n![uploaded image](/media/?type=post&id=101949&key=user_uploads/3414052/1f12e0be-1909-4295-b7b0-497898669f63)\n\n### **Meet the team**\n\nWe’re a team of three from Poland 🇵🇱 - [Szymon Rybczak](https://x.com/SzymonRybczak), [Oskar Kwaśniewski](https://x.com/o_kwasniewski) and [Piotr Matyjasik](https://x.com/p_matyjasik). \\\n\\\nSzymon and Oskar have worked closely together for years across **4 companies**, while Piotr and Oskar go even further back, having studied computer science together in Poland. We’ve spent years shipping web and mobile products used by millions, from open source and developer tools to production apps. We came together around a problem we knew firsthand: teams ship fast, but QA still slows everything down.\n\n![uploaded image](/media/?type=post&id=101949&key=user_uploads/3414052/0007b5a1-3c33-4194-b65a-f85dc0f65593)\n\n### **🤝 Our Ask**\n\n**If this is a problem you face, try us out!**\n\n\\- Book a [demo](https://tester.army/meet)\n\n\\- [Sign up now!](https://tester.army/sign-in) We are live and used in production by 20+ companies\\\n\\\n**Thank you! 🙏**\n\nSzymon, Oskar and Piotr",
+      "url": "https://www.ycombinator.com/launches/QWL-testerarmy-test-your-app-with-natural-language",
+      "votes": 95,
+      "created_at": "2026-05-26T01:08:53.084Z"
+    }
+  ]
+}

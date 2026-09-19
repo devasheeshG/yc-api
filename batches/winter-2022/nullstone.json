@@ -1,0 +1,91 @@
+{
+  "id": 25779,
+  "name": "Nullstone",
+  "slug": "nullstone",
+  "former_names": [],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/1d42112820474d491191b7d3a4c49363cc52ac4c.png",
+  "website": "https://nullstone.io",
+  "all_locations": "Atlanta, GA, USA; Remote",
+  "long_description": "Nullstone is a suite of tools delivered as a single product that enables developer self-service while accommodating flexibility and control that platform engineers need to maintain secure, compliant, performant, and reliable infrastructure.\r\n\r\n\r\nNullstone provides a simple developer experience that guides developers through the architecture and release of cloud apps. By default, infrastructure launched through Nullstone is compliance-certified and vetted for security best practices. The software delivery process can be customized per app through external CI/CD tools or IaC tools like Terraform to meet the specific needs of customers or to optimize developer workflow.\r\n\r\n\r\nNullstone comes with many quality-of-life features that are hard to build with an in-house DevOps/Platform team: Auto-Build/Deploy, Preview Environments, GitOps, and Automatic Secrets Management.\r\n",
+  "one_liner": "An easier way to deploy and manage cloud apps",
+  "team_size": 2,
+  "industry": "B2B",
+  "subindustry": "B2B -> Infrastructure",
+  "launched_at": 1642179452,
+  "tags": [
+    "Developer Tools",
+    "SaaS",
+    "B2B"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Winter 2022",
+  "status": "Active",
+  "industries": [
+    "B2B",
+    "Infrastructure"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada",
+    "Remote",
+    "Fully Remote"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/nullstone",
+  "api": "https://devasheeshg.github.io/yc-api/batches/winter-2022/nullstone.json",
+  "year_founded": 2020,
+  "city": "Atlanta",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/nullstone",
+  "x_url": "https://twitter.com/nullstone_io",
+  "fb_url": null,
+  "cb_url": "https://www.crunchbase.com/organization/nullstone",
+  "github_url": "https://github.com/nullstone-io",
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/1d42112820474d491191b7d3a4c49363cc52ac4c.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": null,
+  "founders": [
+    {
+      "user_id": 850501,
+      "full_name": "Brad Sickles",
+      "title": "Founder",
+      "founder_bio": "Brad is currently Founder and CEO of Nullstone. \nBrad spent the first part of his career as a software engineer at various-stage startups and as an independent consultant.\nIn 2013, he joined McKinsey where he launched startups inside large enterprises. He also built and led an internal developer platform serving 1000 engineers hosting ~300 services.\nIn 2018, he joined Bishop Fox where he incubated and founded an offensive security platform.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/bradsickles/",
+      "x_url": "https://twitter.com/b_sickles",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/55b47179bf35e2cd0e6fdf52ff8504a925cba616.jpg"
+    },
+    {
+      "user_id": 859556,
+      "full_name": "Scott Sickles",
+      "title": "Founder",
+      "founder_bio": "Scott is the co-founder and CTO of Nullstone. Early in his career as a developer, he fell in love with the ability of software to empower people. As CTO of IdentityStream, he helped banks across Asia and Africa serve people without forms of ID through the use of biometrics. As CTO of Listen360, he led successful cloud migrations, digital transformations, and help lead the company to 5x growth and a successful exit. He earned a degree in Computer Science from Georgia Tech.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/scottsickles",
+      "x_url": "https://twitter.com/scottsick",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/c338d950209c4c1bd71ce5944ef2878760a6a153.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 73668,
+      "title": "Nullstone: ☁️ Better dev experience for cloud providers",
+      "tagline": "We improve developer productivity with a better dev experience, modern automation workflows, and composable tooling.",
+      "body": "### tl;dr\n\nNullstone improves developer team productivity with quality-of-life features that are difficult and costly to build with an in-house DevOps/Platform team: Auto-Build/Deploy, Preview Environments, GitOps, and Automatic Secrets Management.\n\n### 🌩️ Problem\n\nLaunching and managing cloud apps is tedious and distracting for product teams. On average, building, maintaining, and orchestrating cloud infrastructure accounts for \\~25% of a software team’s budget. The current solutions are inflexible, require significant expertise, and/or are costly:\n\n* Platform-as-a-service (PaaS) are black boxes and don’t provide flexibility and control to achieve security, compliance, and reliability.\n* Hiring DevOps Engineers to build custom infrastructure and automation is costly and distracting from a team’s primary purpose.\n* Hiring Platform Engineers to build a custom, internal developer platform requires an enormous upfront build with a long-term maintenance cost of the platform that rarely provides an intuitive experience to developers.\n\nThe most precious resource for a software product are developers focused on building a fantastic product — a great developer experience is the [primary driver for productivity](https://queue.acm.org/detail.cfm?id=3595878).\n\n### ☀️ Solution\n\nNullstone is a suite of tools delivered as a single product that enables developer self-service while accommodating the flexibility and control that platform engineers need to maintain secure, compliant, performant, and reliable infrastructure.\n\n![uploaded image](/media/?type=post&id=73668&key=user_uploads/850501/1fe8a18b-3ecb-48ab-8023-983d9f2f6826)\n\nFor developers, Nullstone provides an easy-to-use developer experience to deploy and observe apps on major cloud providers using containers, serverless, static sites, or servers.\n\n![uploaded image](/media/?type=post&id=73668&key=user_uploads/850501/99e0b94f-0672-4777-aa43-484f94961d06)\n\nFor platform engineers and architects, Nullstone provides a simple mechanism to provide modern delivery workflows and infrastructure building blocks to developers. Using familiar tools like Terraform ensures company policies are followed without needing to build a developer experience.\n\n![uploaded image](https://bookface.ycombinator.com/media/?type=post&id=73668&key=user_uploads/850501/53d30583-a275-4694-bd33-25b505012695)\n\n### ⚙️ How it works\n\n* Developers pick from an extensive, curated catalog of open-source, compliance-certified infrastructure modules or from company-built infrastructure modules.\n* Developers choose to auto-build/deploy or use custom CI.\n* Developers launch preview (ephemeral) environments from a pull request, through the UI, or through the API.\n* Developers can use ClickOps or GitOps to control infrastructure.\n* Developers can observe and monitor applications without accessing a cloud console.\n* Platform Engineers build reusable infrastructure components for developers to self-serve through an easy-to-use UI.\n* Platform teams customize networks, clusters, and datastores while providing the right level of access for developer self-service.\n* Platform teams connect third-party log and metrics providers for developers.\n* Platform Engineers perform automated rollouts of infra upgrades and bug fixes.\n\nThe flexibility allows Nullstone to support monoliths, monorepos, microservices, and everything in between.\n\n### 🙏 Asks\n\n* [Launch an app](https://app.nullstone.io/) for free!\n* Want to learn more, [check us out](https://www.nullstone.io/) and [book a demo](https://www.nullstone.io/book-demo)!",
+      "url": "https://www.ycombinator.com/launches/JAC-nullstone-better-dev-experience-for-cloud-providers",
+      "votes": 31,
+      "created_at": "2023-08-01T20:05:56.367Z"
+    }
+  ]
+}

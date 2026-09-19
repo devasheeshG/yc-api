@@ -1,0 +1,90 @@
+{
+  "id": 31399,
+  "name": "Madrone",
+  "slug": "madrone",
+  "former_names": [],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/1e3bc19e9055d8345250c7f097d06dc514f21674.png",
+  "website": "https://madrone.cool/",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "Madrone builds cooling systems for data centers. In Texas, where most new sites are, Madrone can cool using 30% less power and water, thanks to novel dew-point cooling technology. ",
+  "one_liner": "Hyper-efficient coolers for data centers",
+  "team_size": 2,
+  "industry": "Industrials",
+  "subindustry": "Industrials -> Energy",
+  "launched_at": 1778520435,
+  "tags": [],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Spring 2026",
+  "status": "Active",
+  "industries": [
+    "Industrials",
+    "Energy"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/madrone",
+  "api": "https://devasheeshg.github.io/yc-api/batches/spring-2026/madrone.json",
+  "year_founded": 2025,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/madrone-labs/",
+  "x_url": "https://x.com/madronelabs",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/1e3bc19e9055d8345250c7f097d06dc514f21674.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [
+    "https://bookface-images.s3.us-west-2.amazonaws.com/attachments/f23192662de78c6755d9ba2266dc5baa90714e50.png"
+  ],
+  "primary_partner": {
+    "name": "Tom Blomfield",
+    "url": "https://www.ycombinator.com/people/tom-blomfield"
+  },
+  "founders": [
+    {
+      "user_id": 2118032,
+      "full_name": "Akshay Trikha",
+      "title": "Founder/CEO",
+      "founder_bio": "Founder/CEO at Madrone, where I'm making data center cooling more efficient. Prev. trained models with millions of inferences at QuantumScape, and to predict material properties at Berkeley.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/akshay-trikha/",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/fae3e8340071c5ca8b3e7d8b2e79afceaf91af14.jpg"
+    },
+    {
+      "user_id": 3203409,
+      "full_name": "Erik Meike",
+      "title": "Founder/CTO",
+      "founder_bio": "Founder at Madrone (YC P26). Previously Hardware Development Engineer at Apple, working on iPhone wireless power technologies across multiple years. Started career with early-stage hardware/robotics experience at JITx (automated PCB design) and PRENAV (autonomous quadcopter monitoring). Harvey Mudd Engineering.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/erikmeike/",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/debd70cbe130494ba1ef7530ef78820d6aa757cc.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 101247,
+      "title": "Madrone - chiller-less cooling for desert data centers",
+      "tagline": "Madrone builds efficient cooling without installing a chiller, saving tens of millions of dollars per facility.",
+      "body": "Hey everyone!\n\nWe’re [Akshay](https://www.linkedin.com/in/akshay-trikha/) and [Erik](https://www.linkedin.com/in/erikmeike/), the founders of [Madrone](https://madrone.cool).\n\n![uploaded image](/media/?type=post&id=101247&key=user_uploads/2118032/aef61dad-d700-4244-bc3a-096c61aaba81)\n\n**TLDR;** Giant data centers are being built in the desert and need better cooling. Madrone builds modular cooling systems that chill water to the dew point, slashing power usage and deploying fast.\n\n**Problems**\n\n* Data centers are limited by power availability, not chips or land\n* Up to 30% of facility power is diverted to cooling instead of GPUs\n* Data centers are being built in the desert, where cooling is hard\n* Grid permits are backlogged for years (efficient cooling unlocks more compute)\n\n**Our Solution**\n\nWe’re building a facility water cooling system that cools to the dew point (lower than competitors) while using less power and water. Our system is modular and designed to be fabricated and installed as quickly as possible to accelerate our customers' time to deployment.\n\nEvery 1% of cooling efficiency = $2.6 million more GPU revenue / 100 MW / year. That means Madrone’s cooling efficiency saves $78 million / 100 MW / year.\n\nHere’s our 1kW prototype:\n\n![uploaded image](/media/?type=post&id=101247&key=user_uploads/2118032/bd66a088-4246-438d-ac59-570015655e80)\n\nHere’s us building our 100kW prototype:\n\n![uploaded image](/media/?type=post&id=101247&key=user_uploads/2118032/9d94b343-6f27-4b97-ab66-bd5345fb2581)\n\n**We’re full stack**\n\nWe design everything from the electronics, to the heat exchangers, to the software in-house to squeeze every watt of performance. Erik spent 4 years at Apple designing power & thermal systems for the iPhone. Akshay built ML systems running 1M+ inferences/month at QuantumScape.\n\n![uploaded image](/media/?type=post&id=101247&key=user_uploads/2118032/39751a33-4b7a-4726-9c37-00d2f6d2b410)\n\n**Ask:** If you're building data centers, we'd love to work with you. \n\n**Contact:** [hello@madrone.](mailto:hello@madrone.dev)cool",
+      "url": "https://www.ycombinator.com/launches/QL1-madrone-chiller-less-cooling-for-desert-data-centers",
+      "votes": 27,
+      "created_at": "2026-05-12T15:57:02.621Z"
+    }
+  ]
+}

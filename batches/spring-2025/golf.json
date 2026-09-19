@@ -1,0 +1,98 @@
+{
+  "id": 30407,
+  "name": "Golf",
+  "slug": "golf",
+  "former_names": [
+    "authed",
+    "Authed",
+    "authed",
+    "Authed"
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/cb627188af8a389c044d02fc9024aae3ea05cdd3.png",
+  "website": "https://golf.dev/",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "Golf gives enterprises visibility into shadow AI and control over AI agents and MCP. See what's connected, enforce policies, and generate audit trails - all from one place.",
+  "one_liner": "Agentic AI Security and Governance",
+  "team_size": 1,
+  "industry": "B2B",
+  "subindustry": "B2B -> Security",
+  "launched_at": 1745255607,
+  "tags": [
+    "Artificial Intelligence",
+    "Developer Tools",
+    "Security",
+    "Infrastructure"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Spring 2025",
+  "status": "Active",
+  "industries": [
+    "B2B",
+    "Security"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/golf",
+  "api": "https://devasheeshg.github.io/yc-api/batches/spring-2025/golf.json",
+  "year_founded": 2025,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/106327716",
+  "x_url": "",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": "https://github.com/golf-mcp",
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/cb627188af8a389c044d02fc9024aae3ea05cdd3.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "David Lieb",
+    "url": "https://www.ycombinator.com/people/david-lieb"
+  },
+  "founders": [
+    {
+      "user_id": 1366358,
+      "full_name": "Wojciech Błaszak",
+      "title": "Founder/CEO",
+      "founder_bio": "Wojciech is the cofounder & CEO @ Golf.\n\nWojciech started building first company at 14, scaling it to $200k rev. He dropped out of university after one semester to keep building full-time. He has previously worked on multiple AI products, including an AI SDR and infrastructure for AI agents. Wojciech also started a community for young Polish hackers and scientists.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/wojciech-błaszak11/",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/9a5daa1c44dcd87e2763d40b6840f93abec96904.jpg"
+    },
+    {
+      "user_id": 1313739,
+      "full_name": "Antoni Gmitruk",
+      "title": "Founder/CTO",
+      "founder_bio": "Antoni is the cofounder & CTO @ Golf.\n\nAntoni started building at 15 by creating a fully automated 3D printer. He dropped out of university after one semester to keep building full-time. He has previously worked on multiple AI products, including an AI SDR and infrastructure for AI agents. Antoni also started a community for young Polish hackers and scientists.",
+      "is_active": true,
+      "linkedin_url": "https://linkedin.com/in/antoni-gmitruk-80a268211",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/2e0b52ea49b6bc7e7ceceb4127f248f43085852e.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 90569,
+      "title": "Golf:  Open-source platform for shipping production MCP servers",
+      "tagline": "We provide the tooling to build and operate MCP servers in production - auth, tracing, and a deployment pipeline included.",
+      "body": "Hi YC,\n\nWe’re Wojciech and Antoni -  high school friends who’ve been building together since we were 14. We're incredibly bullish on a future where AI agents have their own internet through which they access our services - so much so that we dropped out of university to build Golf.\n\n**Golf lets you ship a production-ready MCP server without worrying about the plumbing.** You just write the tools, prompts, and resources you want agents to call. Golf handles everything else - routing, auth, telemetry, error reporting, and deployment. Then you can observe and manage it through our gateway.\n\nhttps://youtu.be/u9ar4w2uE7E\n\n# **The problem**\n\nOver the past few weeks, we spoke with over 40 teams building MCP servers. Everyone hit the same walls: wiring up authentication, figuring out how to trace agent calls, setting up working transports, and debugging behavior in production. The MCP spec doesn’t cover these parts. Teams told us it takes **2-4 weeks** to get that to production.\n\n# **What we built**\n\n**GolfMCP** is an open-source framework that gives you a clear, file-based structure to define what your agent can call. No decorators, no spec knowledge, no boilerplate - just write your logic.\n\n**Golf Gateway** is the hosted layer that runs and observes your server. golf deploy gives you a live server in under 60 seconds, with real-time traces, tool usage, and error monitoring built in.\n\n![uploaded image](/media/?type=post&id=90569&key=user_uploads/1366358/b035bdc4-02c2-42d5-a230-ad38be34dfa9)\n\n# **Early traction**\n\nWe’re already running Golf in production with companies, and we’ve got more landing this week. \n\n**CTAs**\\\nIf you are looking to ship server for your company, schedule a demo of our platform here: https://golf.dev\\\nAlso we’d love to get your feedback, and we’re happy to help teams get to production faster. Reach us at [founders@golf.dev](mailto:founders@golf.dev)",
+      "url": "https://www.ycombinator.com/launches/NYn-golf-open-source-platform-for-shipping-production-mcp-servers",
+      "votes": 74,
+      "created_at": "2025-05-21T01:15:30.127Z"
+    }
+  ]
+}

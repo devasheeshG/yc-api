@@ -1,0 +1,104 @@
+{
+  "id": 31009,
+  "name": "Specific Labs",
+  "slug": "specific-labs",
+  "former_names": [
+    "Bear AI",
+    "Bear",
+    "Specific"
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/f65a9129ea781a8d18fe1dc455b98be2430643a6.png",
+  "website": "https://withspecific.com",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "Specific builds enterprise environments and datasets representative of work inside real-world businesses. The next frontier of AGI is bottlenecked by data that is hard to access, and we make that easier.",
+  "one_liner": "Real World Environments and Data for AI",
+  "team_size": 6,
+  "industry": "B2B",
+  "subindustry": "B2B",
+  "launched_at": 1757825190,
+  "tags": [
+    "Generative AI",
+    "SaaS",
+    "B2B"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Fall 2025",
+  "status": "Active",
+  "industries": [
+    "B2B"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/specific-labs",
+  "api": "https://devasheeshg.github.io/yc-api/batches/fall-2025/specific-labs.json",
+  "year_founded": 2025,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/specificlabs",
+  "x_url": "https://x.com/usebearai",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/f65a9129ea781a8d18fe1dc455b98be2430643a6.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Pete Koomen",
+    "url": "https://www.ycombinator.com/people/pete-koomen"
+  },
+  "founders": [
+    {
+      "user_id": 426892,
+      "full_name": "Janak Sunil",
+      "title": "Founder/CEO",
+      "founder_bio": "Co-Founder and CEO @ Specific\n\nPrev @ Coinbase",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/janaksunil/",
+      "x_url": "https://x.com/janaksunil",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/ccd95183d6e0a5bb9c8f557eed77cd7317f82709.jpg"
+    },
+    {
+      "user_id": 1243050,
+      "full_name": "Siddhant Paliwal",
+      "title": "Founder/CTO",
+      "founder_bio": "Co-Founder and CTO @ Specific \n\nPrev @ Third Chair (YC X25), Intel. Founded my first company at 15, invited to the UN.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/siddhantpaliwal/",
+      "x_url": "https://x.com/siddhantpa1iwal",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/2e97fd5871a88b44c76f7e983e0fde1d83c9638d.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 114666,
+      "title": "Real-SWE: A coding benchmark built from private company codebases",
+      "tagline": "Can coding agents can do real engineering work on codebases they've never seen?",
+      "body": "![uploaded image](/media/?type=post&id=114666&key=user_uploads/426892/94ad1344-e8cb-4757-8023-59f3ed3e6081)\n\n**TL;DR**\\\nSpecific Labs (YC F25) is launching Real-SWE, a benchmark that evaluates coding agents on real software engineering tasks that engineers performed, using private, out-of-distribution codebases. Public benchmarks are built on open source repos models have already seen. Real-SWE tests whether an agent can do the work inside a company it has never encountered. Leaderboard and task examples at <https://realswe.withspecific.com>\\\n\\\n**Hi, we're Janak and Sid**\\\nOver the past year we've acquired and licensed operational data and codebases from real companies, and one question kept coming up with labs: how do coding agents actually perform on private code? Nobody had a clean way to measure it. So we built one.\n\n**The problem**\\\nEvery major coding benchmark is built on public repos. Models have trained on that code or on code that looks a lot like it. Scores keep climbing, but the number companies care about is different - can this agent land a fix in our billing system, our permissions layer, our customer data pipeline, without having seen any of it before?\n\n**What Real-SWE is**\\\nReal-SWE is a set of tasks pulled from real work engineers did on private company codebases. Examples include an app with 200K+ users, a fintech platform processing 100K+ bank statements, and enterprise sales tools.\n\nEach task gives the agent the codebase and the context an engineer would have had, then checks whether the fix actually works. One example: fix invoice billing so each business charges the right tax and exempt customers aren't taxed. The agent has to work out how the business handles tax, connect the tax provider, and keep invoices consistent.\\\n\\\n**What we found**\n\nAgents that look strong on public benchmarks struggle a lot more when the codebase is one they've never seen.\n\n![uploaded image](/media/?type=post&id=114666&key=user_uploads/426892/5c10421b-da9c-4447-bb76-5cf298a890c9)\n\n\\\n\\\n**The ask**\n\n* If you're at a lab and want your model evaluated, or want the full task set for training, email [janak@withspecific.com](mailto:janak@withspecific.com)\n* If you run a company and would be open to contributing a codebase (we handle anonymization and tasks stay private), reach out",
+      "url": "https://www.ycombinator.com/launches/TpS-real-swe-a-coding-benchmark-built-from-private-company-codebases",
+      "votes": 11,
+      "created_at": "2026-09-10T18:52:18.053Z"
+    },
+    {
+      "id": 94289,
+      "title": "Bear - Get recommended by AI Agents 🤖",
+      "tagline": "Track and influence how often you appear on ChatGPT, Claude Code, Perplexity, and more",
+      "body": "Hey everyone 👋\n\nWe’re [Janak](https://www.linkedin.com/in/janaksunil/) and [Siddhant](https://www.linkedin.com/in/siddhantpaliwal/), co-founders of [Bear](https://www.ycombinator.com/companies/bear)!\n\n# **TLDR ⚡️**\n\n**Bear helps companies get recommended by AI Agents.** **60+** companies use our platform, including **Browserbase**, **Wispr Flow**, **Cal.com** & tons of other YC companies.\n\n**Asks ❓**\n\n1. Can you introduce us to any heads of growth/marketing at Series A+ companies?\n2. You can try us out at [usebear.ai](https://usebear.ai). We would love your feedback!\n\n[**https://youtu.be/463PtjO_87g**](https://youtu.be/463PtjO_87g)\n\n# **Problem 😔**\n\nMarketers don't have a reliable way to track how often they and their competitors get recommended by AI agents like ChatGPT and Claude Code. Further, they do not know how their products can be recommended by them.\n\n# **Solution 😃**\n\n1. **We gather a lot of data** 📊: when your company shows up, when competition shows up, the sources contributing to AI answers, and the exact prompts behind them.\n2. **Find and Copy content that AI likes 😃**:\n\n   **Example:** if you’re Brex, and Ramp has a blog titled “Best Business Credit Cards 2025” that shows up as a source for ChatGPT a lot, our platform makes it easy to clone it for Brex.\n3. **Find and reach out to sources that AI likes** 🤝:\n\n   **Example:** if CNET is a frequently cited source for a question like “What are the best laptops 2025?”, we automatically find the author of the blog and reach out to them on your behalf.\n\nYou can sign up for **free** on our [website](https://usebear.ai)!\n\n![uploaded image](/media/?type=post&id=94289&key=user_uploads/1243050/5260a478-aa4a-444a-b7c3-263f5ae7a8da)\n\n**Why this matters now ‼️**\n\n\\~10% of searches on US Desktops now happen on AI Search (probably more).\n\nYour customers are asking “what’s the best project management tool” or “best AI CRM” and getting answers that might not include you - even if you rank on Google.\n\nBlue links are inherently **archaic.** The future of search is **conversational.**\n\n# **Team**\n\n![uploaded image](/media/?type=post&id=94289&key=user_uploads/1243050/87e46333-fc56-49eb-aa81-900f6f274d85)\n\nJanak was previously at Coinbase and is the founder of UCLA’s largest apartment listing platform (Acquired 2024).\n\nSid was an early engineer at Third Chair (YC X25) and Intel. He started his first company, a parking app, at 15 and was invited to the UN.\n\n## **Asks:**\n\n🎯 **Try our platform** - 7-day free trial at [**usebear.ai**](http://usebear.ai) (especially if you’re B2B SaaS, we have great data for your space)\n\n🤝 **Introductions** - If you know heads of growth/marketing at Series A+ companies who care about search visibility\n\n📊 **Feedback** - What can we improve about our website, onboarding, product, etc?",
+      "url": "https://www.ycombinator.com/launches/OWn-bear-get-recommended-by-ai-agents",
+      "votes": 105,
+      "created_at": "2025-10-01T22:29:01.620Z"
+    }
+  ]
+}

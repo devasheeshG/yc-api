@@ -1,0 +1,106 @@
+{
+  "id": 33673,
+  "name": "Caution",
+  "slug": "caution",
+  "former_names": [
+    "Caution SEZC"
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/a0571039e7dc6cc20c7a181c0b7ffa967bc5c6d3.png",
+  "website": "https://caution.co",
+  "all_locations": "George Town, George Town, Cayman Islands",
+  "long_description": "Caution is a hosting platform for software you can't afford to get hacked. It simplifies and extends confidential compute, and lets developers deploy workloads to secure enclaves in minutes and give customers, auditors, and counterparties cryptographic proof that production is running the exact reviewed source code, build, configuration, and runtime - not an opaque binary controlled by a cloud operator or internal admin.\r\n\r\nConfidential computing hardware exists, but the tooling is too fragmented and incomplete for most teams to use well. Today, attestation often proves only that a binary has a certain hash; it does not prove what source code produced that binary. Building the missing deployment, reproducibility, and verification layer requires specialized security engineering and often locks teams into one cloud or hardware stack. Caution turns that into a simple git-based workflow that builds reproducible enclave images, provisions infrastructure, and lets anyone independently verify what is running.\r\n\r\nWe built Caution after years securing high-risk systems through Distrust, where we worked with hedge funds, custodians, blockchain teams, cloud platforms, and critical grid operators on systems responsible for more than $600B in assets. Again and again, the same problem showed up: teams running mission-critical infrastructure could not reliably prove what was executing in production.\r\n\r\nAs AI, fintech, healthcare, and regulated data collaboration move into the cloud, \"trust us\" is no longer enough. Caution is a general-purpose platform: if it runs on a server, it can run verifiably on Caution. We're starting where trust failures cost the most, but we believe verifiable compute will become the default way software runs, the same way HTTPS became the default way it's served. Infrastructure you can verify, not trust.",
+  "one_liner": "Hosting platform for software you can't afford to have hacked",
+  "team_size": 5,
+  "industry": "B2B",
+  "subindustry": "B2B -> Infrastructure",
+  "launched_at": 1785719703,
+  "tags": [
+    "Cybersecurity",
+    "Cloud Computing",
+    "Infrastructure"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Summer 2026",
+  "status": "Active",
+  "industries": [
+    "B2B",
+    "Infrastructure"
+  ],
+  "regions": [
+    "Cayman Islands",
+    "Latin America",
+    "Remote",
+    "Partly Remote"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/caution",
+  "api": "https://devasheeshg.github.io/yc-api/batches/summer-2026/caution.json",
+  "year_founded": 2025,
+  "city": "George Town",
+  "country": "KY",
+  "linkedin_url": "https://www.linkedin.com/company/cautionco",
+  "x_url": "https://x.com/CautionHosting",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/a0571039e7dc6cc20c7a181c0b7ffa967bc5c6d3.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Brad Flora",
+    "url": "https://www.ycombinator.com/people/brad-flora"
+  },
+  "founders": [
+    {
+      "user_id": 3655130,
+      "full_name": "Anton Livaja",
+      "title": "Founder/CEO",
+      "founder_bio": "Co-founder/CEO of Caution (YC S26). We give teams a hosting platform to run sensitive workloads in secure enclaves and cryptographically prove what code is running in prod. Previously co-founded Distrust, securing systems for hedge funds, custodians, and critical infra responsible for $600B+ in assets. Deep in confidential computing, supply chain security, and applied cryptography. Mission: improve the freedom, security, and privacy of as many people as possible.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/alivaja/",
+      "x_url": "https://x.com/antonlivaja",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/f6dddfa8391b5f9fce21fa7496e2368d59ef6987.jpg"
+    },
+    {
+      "user_id": 3654857,
+      "full_name": "Ksenia Lesko",
+      "title": "Founder",
+      "founder_bio": "Co-founder at Caution, where we help teams run sensitive workloads in secure enclaves and cryptographically prove what code is running in production. I lead the business and product side; previously ran strategy and ops at Distrust (distrust.co) and led customer education and activation at Ada (ada.cx).",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/ksenialesko/",
+      "x_url": "https://x.com/xenush",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/4ecf3715be1ffcf30eedb062148902b9a1458237.jpg"
+    },
+    {
+      "user_id": 52788,
+      "full_name": "Lance Vick",
+      "title": "Founder/CTO",
+      "founder_bio": "Technology sovereignty maximalist. Lead security architect at Caution. Former security lead at Turnkey, BitGo, Unit 410, Pebble. Founded Stagex Linux distribution, and #! decentralized hackerspace. Experienced in Linux hardening, privacy, software engineering, security auditing, cryptographic key management, tamper evidence, HSMs, and supply chain security. Frequently internet infamous for exposing security negligence. Prolific mechanical puzzle collector, lockpicker, and hardware hacker.",
+      "is_active": true,
+      "linkedin_url": "https://lance.dev",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/45728fc907c9915858fe6304bbdb25700f05d67b.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 108800,
+      "title": "Caution: Hosting platform for software you can't afford to have hacked",
+      "tagline": "Deploy to secure enclaves in minutes, isolate sensitive workloads, cryptographically prove what code is running.",
+      "body": "Hey everyone! We're [Anton Livaja](https://www.linkedin.com/in/alivaja/), [Lance Vick](https://lance.dev), and [Ksenia Lesko](https://www.linkedin.com/in/ksenialesko/) from [Caution](https://caution.co).\n\n**TL;DR:** Caution is a hosting platform for software you can't afford to have hacked. Your software and data Istay protected even if your CI/CD pipeline, host infrastructure, or a developer laptop gets compromised. You go from source to a verifiable deployment in three commands. \n\n**Built for:** payment processors, PHI processors, AI agents, policy and fraud engines, secrets management, and other sensitive workloads.\n\n[https://drive.google.com/file/d/1u-l2TSBQO2t5dbhBsatCkZf5earCTyDD](https://drive.google.com/file/d/1u-l2TSBQO2t5dbhBsatCkZf5earCTyDD/view?usp=sharing)\n\n### **Why we built this**\n\nOn February 21, 2025, attackers stole **$1.5 billion** worth of Ethereum from Bybit, the largest digital heist in history. They never breached Bybit's own infrastructure: North Korea's Lazarus Group compromised a single developer machine at Safe{Wallet}, Bybit's multisig provider, and injected malicious JavaScript into the signing interface. Bybit's team approved what looked like a routine transfer and handed over a cold wallet to the attackers. The code everyone trusted was not the code that was running.\n\nThis keeps happening because nearly all software runs on blind trust:\n\n* trust in the cloud host\n* trust in production admins\n* trust in CI/CD\n* trust that the code you reviewed is the code actually running\n\nIf any part of that chain is compromised, an attacker can read your secrets, tamper with your business logic, or quietly run code your team never reviewed. It's the same failure behind SolarWinds and Codecov: tampered code arriving through a trusted channel, passing every check. Caution exists to shrink that attack surface and make the most sensitive systems verifiable.\n\n### **Caution proves exactly what's running on your server**\n\nCryptographically, and in real time. Deploying into secure enclaves normally takes a specialist team and months of integration. Caution automates the entire flow: source to verifiable deployment in minutes, with three commands:\n\n![uploaded image](/media/?type=post&id=108800&key=user_uploads/3654857/f3161435-2a97-4207-915a-96375a72be82)\n\n**🎥** [Watch Anton walk through the platform](https://caution.co/platform-tour.html)\n\nUnder the hood, **Caution is a verifiable confidential compute platform:** hardware-backed cryptography isolates your workloads, preserves data privacy, and proves what software is running on a server in real time. The entire platform is open source, so verification never requires trusting us. In practice, this eliminates entire classes of attacks out of the box:\n\n* **Build &amp; CI/CD tampering**: reproducible, multi-party signed builds mean injected code can't pass as a legitimate release.\n* **Infrastructure &amp; insider compromise**: a compromised cloud account, admin, or laptop can't silently swap what's running.\n* **Runtime data theft**: data is processed in hardware-isolated enclaves, unreadable even to the host, the cloud provider, or us.\n\nCaution guards against everything but first- or third-party code bugs: if the release you approve has a flaw, that's what runs. Nothing can be added, no fix can be stripped out, and every patch is provably live.\n\n### **Why now**\n\nWith advances in AI, attacks that used to require rare, expensive expertise are now cheap and scalable, and the gap between a vulnerability existing and being exploited is collapsing toward zero. Reactive patching was already losing. It can't win a race against automated attackers.\n\nIn the post-Mythos world, the security model has to flip. Infrastructure can no longer assume it won't be compromised. It has to be built to stay secure even when the host, the pipeline, or individuals with privileged access are compromised, and to prove, cryptographically, that it has. That's what Caution does.\n\nCaution is a general-purpose platform: if it runs on CPU or GPU, it can run verifiably on Caution. We're starting where trust failures cost the most, but we believe verifiable compute will become the default way software runs, the same way HTTPS became the default way it's served.\n\n### **Why us**\n\n[Anton](https://www.linkedin.com/in/alivaja/) and [Lance](https://lance.dev) have spent their careers securing some of the most security-critical systems in the world: BitGo, Ledn, Turnkey, OpenZeppelin, and Unit 410 (later acquired by Coinbase). Across hundreds of engagements, from hedge funds to critical grid operators, the systems we've helped secure hold more than **$600B** in digital assets. [Ksenia](https://www.linkedin.com/in/ksenialesko/) spent years helping enterprises adopt new technology, and now leads go-to-market, customer education, and operations at Caution, turning deep security engineering into a product companies can understand, buy, and use.\n\nWe've been the people companies call in when this class of attack hits. Teams needed stronger guarantees against supply chain and runtime attacks, but existing solutions were too hard, too bespoke, or too expensive. So we built the platform we kept wishing existed.\n\n### **Traction**\n\nCaution is in production and onboarding customers spanning crypto infrastructure, blockchain labs, digital asset lending, consumer hardware, post-quantum security, and private AI inference.\n\nWe support AWS Nitro Enclaves today. Intel TDX, AMD SEV-SNP, TPM 2.0, NVIDIA Confidential Computing, and broader cloud support is in active development and coming soon.\n\n### **Our ask**\n\nIf you're running software where sensitive data must stay private or business logic can't be tampered with, we'd love to help you level up your security. [Book 20 minutes with us](https://caution.co/contact.html) or email us at [founders@caution.co](mailto:founders@caution.co).\n\nWe'd especially love to hear from you if you're a:\n\n* security team that wants proof, not promises, from your infrastructure\n* fintech running payments, policy, or fraud engines\n* crypto custodian, exchange, or wallet team that can't afford another Bybit\n* healthcare or AI company processing PHI or other regulated data\n* team giving AI agents production credentials and losing sleep over it\n* company using AI inference with sensitive data\n\nYou can also learn more on our [blog](https://caution.co/blog.html), and follow us on [LinkedIn](https://www.linkedin.com/company/cautionco/) and [X](https://x.com/CautionHosting) for updates.",
+      "url": "https://www.ycombinator.com/launches/SIq-caution-hosting-platform-for-software-you-can-t-afford-to-have-hacked",
+      "votes": 59,
+      "created_at": "2026-08-04T17:02:42.242Z"
+    }
+  ]
+}

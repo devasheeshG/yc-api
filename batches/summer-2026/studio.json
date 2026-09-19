@@ -1,0 +1,94 @@
+{
+  "id": 32162,
+  "name": "Studio",
+  "slug": "studio",
+  "former_names": [],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/be382958698206c30f9e2a1996b85d6729c8ed0b.png",
+  "website": "https://trystudio.ai",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "Studio is a simulation lab studying how humans and societies respond to new ideas, and is building the first software models that can accurately predict that response. Instead of creating digital twins of survey respondents, Studio builds live market models of interconnected audience segments from real, traceable consumer-behavior data. Our simulations match live KPI outcomes like revenue and purchase behavior with over 97% accuracy for consumer-facing enterprises, higher than any synthetic panel, simulation lab, or traditional market research.",
+  "one_liner": "Accurately simulate market response at scale",
+  "team_size": 2,
+  "industry": "B2B",
+  "subindustry": "B2B -> Analytics",
+  "launched_at": 1787114400,
+  "tags": [
+    "Artificial Intelligence",
+    "B2B",
+    "Analytics",
+    "Market Research",
+    "AI"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Summer 2026",
+  "status": "Active",
+  "industries": [
+    "B2B",
+    "Analytics"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/studio",
+  "api": "https://devasheeshg.github.io/yc-api/batches/summer-2026/studio.json",
+  "year_founded": 2026,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/trystudioai/",
+  "x_url": "https://x.com/trystudioai",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/be382958698206c30f9e2a1996b85d6729c8ed0b.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Jon Xu",
+    "url": "https://www.ycombinator.com/people/jon-xu"
+  },
+  "founders": [
+    {
+      "user_id": 3118770,
+      "full_name": "Nikita Mullangi",
+      "title": "Founder/CEO",
+      "founder_bio": "Founder at Studio. Researched human behavior & decision making @ MIT. Ex-UC Berkeley CS.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/nikita-mullangi/",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/21d8a2a9ca356c4067f8c184faaebcaf75a61f29.jpg"
+    },
+    {
+      "user_id": 3141318,
+      "full_name": "Cameron Malloy",
+      "title": "Founder/CTO",
+      "founder_bio": "Founder at Studio (YC S26). Built AI agents at GI Partners ($49B AUM PE firm). Created agent-based financial contagion models at Nelumbium Capital. Ex UC Berkeley M.E.T. (EECS + Business Admin)",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/cammalloy/",
+      "x_url": "https://x.com/CameronMalloy_",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/de0981b075b9ead121a23ebff63588cc572203a9.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 111412,
+      "title": "Studio: The simulation engine for market behavior",
+      "tagline": "The first accurate simulation models able to predict society's response to an idea.",
+      "body": "**TL;DR:** Studio is a simulation lab studying how humans and societies interact with new ideas, and building the first software models that can accurately predict that response. Instead of creating digital twins of survey respondents, Studio builds live market models of interconnected consumer segments from real behavior data. Studio's predictions match live KPI outcomes like revenue and sentiment with over 95% accuracy.\n\n<https://youtu.be/g0M-T2ohtcQ>\n\n## The problem\n\nA huge number of consequential decisions are bets on human behavior.\n\nA company launches a product or changes a price. A brand runs a campaign. A public institution launches a new initiative or communications strategy. In each case, the outcome depends on how a population responds.\n\nToday, teams rely on surveys and historical data to help derisk those bets.\n\nBut those tools are inherently outdated and non-comprehensive: they observe people individually and at a point in time.\n\n_Real populations don’t behave that way._\n\nPeople influence one another. Reactions spread between groups. Adoption compounds or fades. Sentiment changes. A decision that resonates with one audience can change how another audience responds. Those interactions are what ultimately determine outcomes like revenue, conversion, adoption, and sentiment.\n\nCurrently, the only real “simulation” is the launch itself.\n\n## What we do\n\nStudio builds live models of a company’s market from real data on how consumers behave. It overlays internal data like sales and campaign performance with external evidence like social conversations and market trends.\n\nStudio uses those signals to construct highly specific audience cohorts and model how their behavior and influence interact over time.\n\nTeams can then:\n\n* **Test-run launches:** see how a new product, price, campaign, message, or initiative will unfold.\n* **Forecast outcomes:** revenue, conversion, adoption, sentiment, and other KPIs.\n* **Understand why:** know which groups drive the result, by how much, and trace outcomes to exact evidence.\n* **Test alternatives:** compare different versions of a decision to find the optimal variation.\n* **Improve over time:** compare forecasts with real outcomes and recalibrate the model.\n\nInstead of predicting “How will this person respond to X?”, Studio answers:\n\n“How will a population interact with X, and why?”\n\nStudio has live-tested with large consumer brands like Danone and Mila, and our model’s predictions match real-world KPI outcomes with >95% accuracy.\n\n## Why we built it\n\nWe’ve spent years predicting behavior. Nikita built simulation software to understand and predict individual decision-making at MIT, while Cameron built predictive models for financial institutions and in private equity, and agent-based society simulations at UC Berkeley MET.\n\nWe met at the same gap: you can simulate how a protein will fold or how a financial system will react to a market shock, but there is no equivalent for simulating how society will interact with a new idea. We’re now creating a studio to design society.\n\n## Where we’re starting\n\nWe’re initially working with enterprises making high-stakes audience-facing decisions across product, pricing, innovation, brand, marketing, and communications.\n\nBut the underlying problem is much broader.\n\nAny organization trying to create a particular response in a population should be able to test different versions of that decision, understand how reactions might spread, and compare likely outcomes before deploying it.\n\n## Our ask\n\nWe’d love to talk to teams making consumer-facing decisions. This could be a new product, pricing plan, campaign, etc.\n\nIf you have an upcoming decision you’d like to test before it goes live, we’d love to run it through Studio!\n\n[trystudio.ai](http://trystudio.ai)\\\n[team@trystudio.ai](mailto:team@trystudio.ai)\n\nLet’s chat: <https://cal.com/team/trystudio/quick-chat>",
+      "url": "https://www.ycombinator.com/launches/Syy-studio-the-simulation-engine-for-market-behavior",
+      "votes": 14,
+      "created_at": "2026-08-21T18:00:00.302Z"
+    }
+  ]
+}

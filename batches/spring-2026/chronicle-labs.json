@@ -1,0 +1,77 @@
+{
+  "id": 31468,
+  "name": "Chronicle Labs",
+  "slug": "chronicle-labs",
+  "former_names": [],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/d6facb982758514ecf99ea3032c7c55955f25ba5.png",
+  "website": "https://chronicle-labs.com",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "Chronicle Labs is a staging environment for enterprise AI agents: we capture every event the agent sees in production and backtest it, so customers can safely test new behaviors without breaking anything.",
+  "one_liner": "Staging Environments for Enterprise AI Agents",
+  "team_size": 2,
+  "industry": "B2B",
+  "subindustry": "B2B",
+  "launched_at": 1778001486,
+  "tags": [],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Spring 2026",
+  "status": "Active",
+  "industries": [
+    "B2B"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/chronicle-labs",
+  "api": "https://devasheeshg.github.io/yc-api/batches/spring-2026/chronicle-labs.json",
+  "year_founded": 2026,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "",
+  "x_url": "",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/d6facb982758514ecf99ea3032c7c55955f25ba5.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Pete Koomen",
+    "url": "https://www.ycombinator.com/people/pete-koomen"
+  },
+  "founders": [
+    {
+      "user_id": 251142,
+      "full_name": "Ayman Saleh",
+      "title": "Founder/CTO",
+      "founder_bio": "Ayman Saleh, CEO of Chronicle Labs (YC P26)\n\nI’ve spent my career building at the edge of engineering, from working at NASA JPL on programs including the James Webb Space Telescope and the Mars 2020 Perseverance rover to later leading engineering at FlightWave. When Perseverance landed on Mars, it crystallized something for me: I wanted to spend my life building, so I left my graduate program at Stanford, and eventually led me to found Chronicle Labs.",
+      "is_active": true,
+      "linkedin_url": "https://linkedin.com/in/ayman-saleh",
+      "x_url": "https://x.com/sir_aymansaleh",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/54b50781d4868a482ec07f644fc3091161718fee.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 100923,
+      "title": "Chronicle Labs - Staging Environments for AI Agents",
+      "tagline": "Staging environment for enterprise AI agents",
+      "body": "TLDR; \n\n**Chronicle Labs is a staging environment for enterprise AI agents: we capture every event the agent sees in production and replay it, so customers can deploy new behaviors quickly without breaking anything.** \n\n<https://youtu.be/LdpAPgGYL1E>\n\nHello Bookface! My name is Ayman, and I’m the CEO of Chronicle Labs.\n\nFor the past 10 years, I’ve been building autonomous systems. I’ve had the chance to work on the Mars Rovers and the James Webb Space Telescope at NASA JPL, and throughout my career, I’ve been able to build autonomous systems from day one without ever having to physically touch the robots,  thanks to the power of logs that replay state like a time machine.\n\nThink tools like [Rerun.io](http://Rerun.io) or ROS bags. These tools are incredibly powerful because they capture the full state of a robotic system at a slice in time, which can then be replayed down to the microsecond to understand what actually happened.\n\nAI agents are the autonomous systems of businesses.\n\nBut if you want to develop an AI agent for your business, it’s rare to have a structured slice of logs that you can replay to prove your agent will actually work. Teams can vibe-deploy, but testing on your users is a bad idea, especially for enterprises that are risk-averse.\n\nToday, most teams try to solve this by hand-building evals. That works for a bit, but it doesn’t scale, and honestly I’ve seen many teams skip evals entirely. More importantly, as your business grows, your operations keep changing. Small nuances, edge cases, and workflow drift will always start to trend away from a static eval set.\n\nMy co-founder [@Rowan Zyadeh](https://bookface.ycombinator.com/user/1599381) and I built Chronicle to give teams the ability to backtest their agents against their actual operational reality. Chronicle takes your existing operational history and turns it into seeded sandboxes with scenarios based on how your business really works.\n\nBook a demo: <https://chronicle-labs.com/book-call>\n\nIf you’re building agents and you’re sick of vibe-deploying, or you feel like your eval suite is lacking, we want to talk to you.",
+      "url": "https://www.ycombinator.com/launches/QFn-chronicle-labs-staging-environments-for-ai-agents",
+      "votes": 11,
+      "created_at": "2026-05-07T01:55:28.647Z"
+    }
+  ]
+}

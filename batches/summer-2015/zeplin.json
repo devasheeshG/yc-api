@@ -1,0 +1,115 @@
+{
+  "id": 922,
+  "name": "Zeplin",
+  "slug": "zeplin",
+  "former_names": [],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/3058f679df3968424c2744203d637cac6ef08716.png",
+  "website": "https://zeplin.io",
+  "all_locations": "San Francisco, CA, USA; London, England, United Kingdom; Istanbul, Istanbul, Turkey",
+  "long_description": "Zeplin is an organized workspace to publish finalized designs, where the entire team can collaborate to ship beautiful products together. We were founded in 2014 and today we are honored to support 5+ million users from thousands of product teams including Apple, Starbucks, Salesforce, Amazon, Microsoft, Audi and many more. We’re a Y Combinator startup, also backed by amazing investors like Elad Gil, Mike Maples, Kevin Hale. We’re a distributed crew with offices in San Francisco, Istanbul and London.\r\n\r\nWe're Hiring! Please apply directly on Zeplin's job site: https://zpl.io/jobs",
+  "one_liner": "Deliver on the Promise of Design",
+  "team_size": 140,
+  "industry": "B2B",
+  "subindustry": "B2B -> Engineering, Product and Design",
+  "launched_at": 1430156126,
+  "tags": [
+    "Developer Tools",
+    "SaaS",
+    "Design Tools"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Summer 2015",
+  "status": "Active",
+  "industries": [
+    "B2B",
+    "Engineering, Product and Design"
+  ],
+  "regions": [
+    "United States of America",
+    "United Kingdom",
+    "Turkey",
+    "America / Canada",
+    "Europe",
+    "Middle East and North Africa",
+    "Remote",
+    "Partly Remote"
+  ],
+  "stage": "Growth",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/zeplin",
+  "api": "https://devasheeshg.github.io/yc-api/batches/summer-2015/zeplin.json",
+  "year_founded": 2015,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/zeplin-io",
+  "x_url": "https://twitter.com/zeplin",
+  "fb_url": null,
+  "cb_url": "https://www.crunchbase.com/organization/zeplin",
+  "github_url": "https://github.com/zeplin",
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/3058f679df3968424c2744203d637cac6ef08716.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": null,
+  "founders": [
+    {
+      "user_id": 91178,
+      "full_name": "Pelin Kenez",
+      "title": "Founder/CEO",
+      "founder_bio": "",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/pelinkenez",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/69caf27b7ce6a167218d4484497497f9fcd24457.jpg"
+    },
+    {
+      "user_id": 64644,
+      "full_name": "Ismail Ceylan",
+      "title": "Founder/Software Developer",
+      "founder_bio": "Zeplin S15, COO",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/ceylanismail/",
+      "x_url": "https://x.com/ceylanismail",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/9d696553903dafdc11a43c15b40f25765562a0e6.jpg"
+    },
+    {
+      "user_id": 64665,
+      "full_name": "Merih Akar",
+      "title": "Founder/Developer",
+      "founder_bio": "",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/merihakar/",
+      "x_url": "https://twitter.com/merihakar",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/2dab70cf05084e41a1838e527f8d85e79fc39124.jpg"
+    },
+    {
+      "user_id": 15544,
+      "full_name": "Berk Çebi",
+      "title": "Founder",
+      "founder_bio": null,
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/berkcebi/",
+      "x_url": "https://x.com/berkcebi",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/c1c50e260fd1ea23645f30627c00e78b0e41fda4.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 88516,
+      "title": "Omlet for VS Code — Get React component usage insights in VS Code",
+      "tagline": "Analyze how and where your React components (and their props) right inside your editor",
+      "body": "**tl;dr** _We just launched a VS Code extension for React devs, providing component usage insights within VS Code — install it _[_here_](https://omlet.dev/extension)_ and ping us at _[_hi@omlet.dev_](mailto:hi@omlet.dev)_ with any feedback!_\n\n---\n\n---\n\n---\n\nHey folks, Berk here from Zeplin (S15). 👋\n\nBack in 2023, we launched our second product Omlet, a component analytics tool for React — and today, we're super excited to announce **Omlet for VS Code**. Our biggest update since!\n\n# What is Omlet for VS Code?\n\n![uploaded image](/media/?type=post&id=88516&key=user_uploads/15544/f090d5bb-ec09-4c5b-ac34-4e4dc441e638)\n\nOmlet for VS Code helps you **analyze how and where your React components (and their props) are used right inside your editor** — helping you confidently update, clean up, and maintain your component library.\n\nHere’s a demo I just recorded: <https://www.youtube.com/watch?v=BsZMMcHG3Ks>\n\nIf you want to learn more, read our full update here:\n\n🔗 [Introducing Omlet for VS Code](https://omlet.dev/blog/omlet-for-vscode/)\n\n# What do we need?\n\n**We need feedback from React devs and design system teams.** We’d really appreciate it if you could [give the extension a try](https://omlet.dev/extension) yourself or share it with your team. Ping us at [hi@omlet.dev](mailto:hi@omlet.dev) and let us know what can do better. We're just getting started so any feedback would be super helpful.\n\nCheers!",
+      "url": "https://www.ycombinator.com/launches/N1g-omlet-for-vs-code-get-react-component-usage-insights-in-vs-code",
+      "votes": 11,
+      "created_at": "2025-03-12T18:45:08.800Z"
+    }
+  ]
+}

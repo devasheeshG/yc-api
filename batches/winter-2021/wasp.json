@@ -1,0 +1,101 @@
+{
+  "id": 23452,
+  "name": "Wasp",
+  "slug": "wasp",
+  "former_names": [],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/c0dfc65176d7169b24399e9ad69bc08681240583.png",
+  "website": "https://wasp-lang.dev/",
+  "all_locations": "Zagreb, Croatia; Remote",
+  "long_description": "Wasp is a simple configuration language for building enterprise web apps with less code and best practices. If a developer wants to build an app like Instacart, they need to know a dozen different technologies and how to make them work together - Wasp solves this problem while still letting developers use React, Node.js and their other favourite tools.\r\n\r\nWe will enable enterprises to build modern apps quickly at scale, like Databricks did for data management.",
+  "one_liner": "Configuration language for building enterprise web apps 10x faster",
+  "team_size": 2,
+  "industry": "B2B",
+  "subindustry": "B2B -> Engineering, Product and Design",
+  "launched_at": 1613050729,
+  "tags": [
+    "Developer Tools",
+    "Open Source"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Winter 2021",
+  "status": "Active",
+  "industries": [
+    "B2B",
+    "Engineering, Product and Design"
+  ],
+  "regions": [
+    "Croatia",
+    "Europe",
+    "Remote",
+    "Fully Remote"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/wasp",
+  "api": "https://devasheeshg.github.io/yc-api/batches/winter-2021/wasp.json",
+  "year_founded": 2020,
+  "city": "Zagreb",
+  "country": "HR",
+  "linkedin_url": "https://www.linkedin.com/company/71519348",
+  "x_url": "https://twitter.com/wasplang",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": "https://github.com/wasp-lang",
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/c0dfc65176d7169b24399e9ad69bc08681240583.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": null,
+  "founders": [
+    {
+      "user_id": 109403,
+      "full_name": "Matija Šošić",
+      "title": "Founder",
+      "founder_bio": "Comp Sci MSc & Software Engineer.\nI am excited about clean code, functional programming, web dev, building teams and useful products. In my free time I enjoy calisthenics and photography.\n\nExperience:\n- led engineering team at Lifebit Biotech\n- Techstars Tech Associate (London), cohort of 2017\n- CEO & Co-founder @ TalkBook (https://talkbook.co/home)\n- Noom, New York - SWE internship (2014)\n- A*Star, Bioinformatics institute Singapore - research internship (2011)",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/matijasosic",
+      "x_url": "https://twitter.com/MatijaSosic",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/ab2af3b7f638a4d4a7940797a15077a0c8345d1a.jpg"
+    },
+    {
+      "user_id": 172113,
+      "full_name": "Martin Sosic",
+      "title": "Founder",
+      "founder_bio": "Software engineer, computer scientist (M.Sc.) and entrepreneur.\nI am excited about building a product, open source, functional programming, web development, clean code, customer development.\nEx algorithmic competitor, SWE intern at Google, Palantir and Bioinformatic Institute (Singapore), author of Edlib library, dev associate at Techstars 2017, founder of Talkbook (startup), led engineering team at Lifebit.ai.\nI love mechanical keyboards, emacs, haskell, calisthenics and playing instruments.\n",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/martinsosic",
+      "x_url": "https://x.com/martinsosic",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/c6e736a95346f2eeb1c60491a25190ac3069bad4.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [
+    {
+      "title": "Wasp's platform is the glue that holds web dev apps together | TechCrunch",
+      "url": "https://techcrunch.com/2025/04/17/wasps-platform-is-the-glue-that-holds-web-apps-together/",
+      "date": "Apr 17, 2025"
+    },
+    {
+      "title": "YC grad Wasp land $1.5M seed to help developers build web apps faster – TechCrunch",
+      "url": "https://techcrunch.com/2021/10/04/yc-grads-wasp-land-1-5m-seed-to-help-developers-build-web-apps-faster/",
+      "date": "Oct 04, 2021"
+    }
+  ],
+  "launches": [
+    {
+      "id": 67668,
+      "title": "🐝 Wasp Beta - Develop full-stack web apps in React & Node.js without boilerplate",
+      "tagline": "Get auth, CRUD, async workers and other common features via Wasp config language and write the rest of your logic in React, Node.js and Prisma",
+      "body": "Hey developers! 👋 We’re Martin and Matija, founders of Wasp - we’re super excited to be here today!\n\nOur last big launch was one and a half years ago - since then a lot happened and **we’re proud to present Wasp Beta!**\n\n![uploaded image](/media/?type=post&id=67668&key=user_uploads/109403/0ed916ef-e2e5-4cd4-8241-f9702617e45e)\n\n### **⚡️TL;DR**\n\n**Wasp is the fastest way to develop full-stack web apps in React & Node.js**. Describe high-level features (auth, CRUD, async jobs, …) via a simple config language, and write the rest of your logic in React, Node.js and Prisma.\n\nWith the Beta release, we also [**announced our first hackathon**](https://betathon.wasp-lang.dev/) - make sure to join, have fun, and win cool prizes! (hint: wasp-themed mechanical keyboard 🐝 ⌨️)\n\nYou can see the 4-min demo video [here](https://youtu.be/eVXbctXquK4).\n\n### **🐝 🐝 The team**\n\n![uploaded image](/media/?type=post&id=67668&key=user_uploads/109403/49bc358b-14d3-4385-b593-f1b175a0795a)\n\nThis is us at our first retreat in Croatia (Vince, our devrel, who joined shortly after, expertly photoshopped in :D)!\\\nWe’re a distributed team of engineers and web development & programming language aficionados. Having worked at some of the world’s largest companies and startups, we experienced the problem we’re solving at various stages.\n\n### 💡 **What is Wasp?**\n\n**You can think of Wasp as a full-stack web framework for React & Node.js**. We solve the common problems you face when you start developing a web app - choosing all the parts of the stack, figuring out how to stitch them together in the best way, adding auth, running cron jobs, ...\n\nWasp also makes it super easy to work with and sync data models across the entire stack (front-end, back-end, database). You don't even have to define and deal with any kind of CRUD API - Wasp will do that for you under the hood.\n\n![uploaded image](/media/?type=post&id=67668&key=user_uploads/109403/7e32a672-dec6-4f31-9fa7-1c9c35de2545)\n\n### 🦉 **Who is it for?**\n\nSpeaking to developers we realized many of them just want to build, and they’ll use whichever tool helps them best achieve their goals. They don’t care that the library being used for making HTTP requests is 2kb bigger and builds 10ms slower than some new alternative. They just want to be sure they have all the best practices in place and that their choices won't come back to haunt them once their project grows.\n\nIf you can relate to that, then Wasp is for you. We know there are plenty of great solutions for developers today (frameworks, BaaS-es, code scaffolders, ...) but Wasp is probably the fastest one to get started with, and with the least amount of code.\n\n### 🍜 **What's the secret sauce?**\n\nThe main reason for that is Wasp's unique twist on web frameworks - a config language (DSL) that works alongside your React & Node.js code. It allowed us to **drastically reduce the amount of boilerplate and simplify the developer experience**. For example, full-stack authentication with both user/pass and Google methods takes only 8 lines of code.\n\nIn the future, the language approach could enable us to do some really exciting things such as supporting multiple frameworks and languages (even at the same time) and having full control over the generated code, introducing optimizations, etc.\n\n![uploaded image](/media/?type=post&id=67668&key=user_uploads/109403/d712d053-1786-4d31-af06-cc773c00444f)\n\nWasp now has its own language server - that means auto-completion, live error reporting, …\n\n🏘 **What can I build with Wasp?**\n\nPretty much any web app with a database! Anything you'd build with React & Node.js by themselves you can build with Wasp. Think SaaS, side projects, internal tools, hackathons, ...\n\nTo see what others are building with Wasp, take a look here: [Wasp showcase gallery](https://wasp-lang.dev/#showcases)\n\n![uploaded image](/media/?type=post&id=67668&key=user_uploads/109403/8cf380fa-522b-470a-bbf9-95b3f0201034)\n\nWith the intro out of the way, let's see what's new in Beta:\n\n![uploaded image](/media/?type=post&id=67668&key=user_uploads/109403/702a317f-f8e9-446e-b8f1-46f59e95cb5d)\n\n🔑 **Full-stack auth**\\\nLog in with your username & password or via Google! Other providers are also coming soon.\n\n🟦 **TypeScript support** \\\nWrite your code in TypeScript, both on the client and server! We're also migrating our whole codebase and adding new types every day.\n\n💨 **Tailwind support**\\\nJust add two config files and you are ready to use Tailwind in your project!\n\n⏳ **Running Async Jobs**\\\nSend emails, crunch data every night and build reports or anything that shouldn't be a part of a typical request-response cycle. Powered by pg-boss, zero setup required.\n\n🥛 **Optimistic updates support** Wasp will by default propagate your data model changes across the stack. Still, [in some cases](https://wasp-lang.dev/blog/2021/12/02/waspello#what-doesnt-work-yet), you might want more control over that flow for the sake of smoother UX - that is now easy to achieve with Wasp!\n\n📟 **Wasp Language Server**\\\nWasp now has its own LSP for VS Code (other editors coming soon)! That means improved syntax highlighting, code snippets, autocompletion, and error reporting. Everything you'd expect from a language!\n\n### **🙌 Our ask**\n\n* Try Wasp out & let us know your feedback - **join our Discord**!\n* J[oin our Beta hackathon - Betathon](https://betathon.wasp-lang.dev/)! It’s open until Dec 14\n* Share [Beta](https://wasp-lang.dev/blog/2022/11/26/wasp-beta-launch-week) with your developer friends",
+      "url": "https://www.ycombinator.com/launches/HbQ-wasp-beta-develop-full-stack-web-apps-in-react-node-js-without-boilerplate",
+      "votes": 20,
+      "created_at": "2022-12-02T16:28:34.296Z"
+    }
+  ]
+}

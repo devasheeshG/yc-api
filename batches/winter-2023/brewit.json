@@ -1,0 +1,108 @@
+{
+  "id": 27712,
+  "name": "Brewit",
+  "slug": "brewit",
+  "former_names": [
+    "Chataverse",
+    "Members.Land"
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/5b28deb84212c3ba86685834131a7f0142304f1d.png",
+  "website": "https://brewit.ai/",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "Brewit helps companies to create their role-specific BI agents, trained on their database (through feeding sample queries, metric definitions, column descriptions, etc. to create a semantic layer) that can answer data questions/provide data insights (write SQL, generate plots) through a natural language experience.",
+  "one_liner": "Conversational data analytics for every team",
+  "team_size": 4,
+  "industry": "B2B",
+  "subindustry": "B2B -> Analytics",
+  "launched_at": 1674519292,
+  "tags": [
+    "Analytics",
+    "Data Visualization",
+    "AI",
+    "AI Assistant"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Winter 2023",
+  "status": "Acquired",
+  "industries": [
+    "B2B",
+    "Analytics"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada",
+    "Remote",
+    "Partly Remote"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/brewit",
+  "api": "https://devasheeshg.github.io/yc-api/batches/winter-2023/brewit.json",
+  "year_founded": 2023,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/brewit",
+  "x_url": "https://twitter.com/BrewitAI",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/5b28deb84212c3ba86685834131a7f0142304f1d.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Harj Taggar",
+    "url": "https://www.ycombinator.com/people/harj-taggar"
+  },
+  "founders": [
+    {
+      "user_id": 557708,
+      "full_name": "Leo Lu",
+      "title": "Founder/CEO",
+      "founder_bio": "Leo Lu is the co-founder and CEO of Brewit. Before founding Brewit, Leo was a product manager at JP Morgan, working on an internal business intelligence platform that powers thousands of internal commercial bankers within the organization to find more upsell opportunities and to better prospect. He graduated from UCSD with a degree in Management Science and a minor in Data Science.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/songanglu/",
+      "x_url": "https://twitter.com/realleolu",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/0414faa2fd2a1e7ed74ddea9f9185b1f4b1d7737.jpg"
+    },
+    {
+      "user_id": 1140882,
+      "full_name": "Mark Ding",
+      "title": "Founder/CTO",
+      "founder_bio": "Mark Ding was the co-founder and CTO of Brewit (an AI data analyst agent). Before Brewit, he was a data scientist & engineer on Tesla's data platform team. \n\nUC Berkeley EECS Master | UCSD Data Science",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/kailingding/",
+      "x_url": "https://twitter.com/markding0",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/8dd231c748f1983e6b62eba1d3eefe0c04b2fa11.jpg"
+    },
+    {
+      "user_id": 1208671,
+      "full_name": "Sam Ding",
+      "title": "Founder",
+      "founder_bio": "Sam Ding is the co-founder of Brewit. Before Brewit, he was a software engineer at Apple, building internal platforms on the Wireless team. Before He graduated from the University of Washington with a degree in Human-Computer Interaction.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/kaishan-ding/",
+      "x_url": "https://twitter.com/naisuan_eth",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/087cbec8ac12c6c7e11c75e896f3ea2ca70cc69a.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 80234,
+      "title": "⚡️ Brewit - Your AI analyst who answers your data questions in seconds",
+      "tagline": "Chat with your data warehouse, generate dashboards and reports within minutes",
+      "body": "# **TL;DR:**\n\n[Brewit](https://brewit.ai/?utm_source=yc_launch) helps companies build a business intelligence agent on top of their database and data knowledge. Regardless of their previous technical abilities, anyone can get their data questions answered with beautiful visualizations and insightful interpretations within seconds. Brewit will understand your data schema knowledge, write SQL, and generate the relevant charts behind the scene. It also self-improves as users provide more feedback. [Watch our demo video!](https://www.loom.com/share/f1d6ad7a8d1e4cab97a9fda0f7a6b1be?sid=8e6e0f14-69e0-4846-9761-7287d9c45d21)\n\n### **❌ The Problem**\n\n**Ad-hoc data questions are almost never answered on time:** A mid-sized data team can receive hundreds of data requests per week; on average, it takes 1-2 weeks for these questions to be answered. Not only does this slow down the decision-making process, but it can also derail the data teams from focusing on more meaningful projects.\n\n**Not everyone has the time to learn SQL and visualization tools:** It can take months for someone to master SQL or tools like Tableau, and without these skills, it is hard for someone to perform in-depth analysis or explore the database independently.\n\n**LLM can hallucinate without the relevant context:** Many people use ChatGPT's code interpreter to perform data analysis on specific business tables, but without having the full picture of the company's data schemas and knowledge (aka a semantic layer), ChatGPT often \"hallucinates\" with inaccurate answers. In addition, companies have no oversight of the questions being asked.\n\n### **✨ Our Solution**\n\n1\\. **Fine-tune** the LLM based on your data dictionary and metrics definitions. The agent will self-improve upon users' feedback and corrections\n\n![uploaded image](/media/?type=post&id=80234&key=user_uploads/557708/57721199-8881-4b54-a514-df2a0cf01770)\n\n2\\. Human-like **analytics** **agent** that can clarify your question, answer it with relevant visualizations, and help you to drill down to uncover more insights, all through natural language\n\n![uploaded image](/media/?type=post&id=80234&key=user_uploads/557708/b5ab39eb-f87b-41c6-9f31-704d71050c3a)\n\n3\\. Build **reports** with AI-generated insights\n\n![uploaded image](/media/?type=post&id=80234&key=user_uploads/557708/ab52f79c-13b6-400e-9931-e7fe2778cdb0)\n\n4\\. Save your charts into a **dashboard** and track your key metrics in one place\n\n![uploaded image](/media/?type=post&id=80234&key=user_uploads/557708/7c2a48ad-8ff0-407d-8ae5-76aca04df540)\n\n5\\. 🔒 Enterprise-level security: You can self-host Brewit in your environment, select your preferred LLM, and integrate with your favorite IM such as Slack\n\n### **🙏 Ask**\n\nWe're live with customers now! Feel free to book a [time](https://brewit.ai/contact) or email [leo@brewit.ai](mailto:leo@brewit.ai) to see a demo.\n\nGive Brewit a [try](https://app.brewit.ai/) - we've connected a demo database for you to play around with the app :)\n\nConnect us to data and analytics leaders in your network!",
+      "url": "https://www.ycombinator.com/launches/Ks6-brewit-your-ai-analyst-who-answers-your-data-questions-in-seconds",
+      "votes": 31,
+      "created_at": "2024-04-17T03:54:55.149Z"
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "id": 33062,
+  "name": "Hubble",
+  "slug": "hubble-ai",
+  "former_names": [],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/8d58ef930283a4163ee9544b3936abd1327a463a.png",
+  "website": "https://hubble.ai/",
+  "all_locations": "Seattle, WA, USA",
+  "long_description": "Hubble is the AI-native retrieval engine for medical records, delivered in one API. I scaled Grow Therapy to a $3B valuation; my cofounder built One Medical's first AI agents, now used by millions of patients. Four weeks in, we already have ten signed customers and 7-figure year-one revenue across platform and usage fees. Every new agentic use case across industries like legal, clinical trials, consumer health, insurance, needs a complete medical record, and today that still means faxes and phone calls. Hubble fixes that with voice and browser agents that reach the providers APIs can't, in a market worth $45B just in the verticals we've mapped so far.",
+  "one_liner": "AI-native retrieval engine for medical records",
+  "team_size": 2,
+  "industry": "Healthcare",
+  "subindustry": "Healthcare -> Healthcare IT",
+  "launched_at": 1784648214,
+  "tags": [
+    "B2B",
+    "Healthcare"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Summer 2026",
+  "status": "Active",
+  "industries": [
+    "Healthcare",
+    "Healthcare IT"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/hubble-ai",
+  "api": "https://devasheeshg.github.io/yc-api/batches/summer-2026/hubble-ai.json",
+  "year_founded": 2026,
+  "city": "Seattle",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/hubble-ai-health/",
+  "x_url": "",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/8d58ef930283a4163ee9544b3936abd1327a463a.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Jon Xu",
+    "url": "https://www.ycombinator.com/people/jon-xu"
+  },
+  "founders": [
+    {
+      "user_id": 3661311,
+      "full_name": "Prabha Dublish",
+      "title": "Founder/CEO",
+      "founder_bio": "Founder at Hubble. Previously first PM at Grow Therapy launching their first AI features & PM at Meta.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/prabhadublish/?skipRedirect=true",
+      "x_url": "https://x.com/prabhadublish",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/8065deceef33a65a9ee1389e3ac45816e2e0d754.jpg"
+    },
+    {
+      "user_id": 3662596,
+      "full_name": "Aaron Leon",
+      "title": "Founder/CTO",
+      "founder_bio": "CTO at Hubble. Previously tech lead at Amazon One Medical, where he launched Amazon's first healthcare AI agents serving 1M+ patients. Prior, led data platforms across Amazon Health.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/aaronleon1/",
+      "x_url": "https://x.com/aaronleon_x",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/065b8c9d2baf322d16f034c345fbb7ff591f5e50.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 109532,
+      "title": "Hubble: Retrieve medical records other APIs can't",
+      "tagline": "Your user verifies their identity once, and we return their medical records through one API.",
+      "body": "**TL;DR:** Hubble gives your product a patient's medical records through a single API. Your user verifies their identity once, and we assemble their records from across the providers they've seen and return them for your AI agent to use. Where APIs are not sufficient, we keep going with AI (browser and voice agents). Every request runs on the patient's individual right of access.\n\n**The problem**\\\nIf you're building something that needs a patient's records, there's no clean way to get them. A patient's history is scattered across every provider they've ever seen, and each system is its own island. Most APIs returns the patient-portal subset rather than the full record, and coverage is inconsistent because every health system sets up its integration differently. So most teams either build per-provider integrations for months, fall back to faxes and manual portal logins, or push the problem back onto the patient by asking them to track down their own records or remember a login they set up years ago and have long since lost.\n\n**What Hubble does**\\\nYour user verifies their identity once, and we go get their records so you don't have to.\n\n* **One verification, no work on your end.** The patient verifies their identity in a couple clicks. After that, assembling the records is our job, not yours and not theirs.\n* **We don't stop at the portal subset.** We connect into EHRs and HIEs where they work, and when an API comes back empty we keep going.\n* **Browser and voice agents for everything else.** Agents submit the patient's request through provider portals and call records departments on the patient's behalf, working the phone trees so nobody on your team has to.\n* **Built on the patient's right of access.** Every request runs on the patient's individual right of access. They review every source we request from and can revoke at any time. Every retrieval is logged.\n\n**About the team**\\\nWe're the team behind the AI agents at Grow Therapy and Amazon's One Medical, used by millions of patients. Prabha was Grow's first PM building and scaling their AI agents. Aaron built the AI infrastructure at One Medical serving 1M+ clients. (Fun fact: we've known each other for over a decade.)\n\n**Our ask**\n\n* If your product needs patient records, reach out and we'll get you access: [prabha@hubble.ai](mailto:prabha@hubble.ai)\n* Intros to anyone building AI products on patient data, in digital health, care delivery, life sciences, or legal tech.\n\nSign up at [hubble.ai](http://hubble.ai)\n\n<https://www.youtube.com/watch?v=TC9QoaFHlRk>",
+      "url": "https://www.ycombinator.com/launches/SUe-hubble-retrieve-medical-records-other-apis-can-t",
+      "votes": 20,
+      "created_at": "2026-08-10T16:00:00.087Z"
+    }
+  ]
+}

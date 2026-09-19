@@ -1,0 +1,95 @@
+{
+  "id": 30913,
+  "name": "Captain",
+  "slug": "captain",
+  "former_names": [],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/0c5e5da360891b80b4a1d6d511de963d613bbf08.png",
+  "website": "https://captain.dev",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "Captain syncs complex, multimodal files and cloud storage from sources like S3, SharePoint, and Google Drive, and makes that knowledge searchable for your agents.\r\n\r\nInstead of stitching together parsers, embeddings, vector databases, rerankers, and retrieval infrastructure, Captain self-tunes the retrieval pipeline to your data and workloads.\r\n\r\nOn benchmarks, this improves accuracy from roughly 78% with standard RAG to over 97% by tuning retrieval to the unique structure and content of your data.\r\n\r\nCaptain is purpose-built for complex, regulated, and high-stakes file search workloads.\r\n\r\nLearn more at https://captain.dev",
+  "one_liner": "Self-tuning file search for AI agents",
+  "team_size": 2,
+  "industry": "B2B",
+  "subindustry": "B2B -> Infrastructure",
+  "launched_at": 1762492786,
+  "tags": [
+    "B2B",
+    "API",
+    "Data Engineering",
+    "Infrastructure"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Winter 2026",
+  "status": "Active",
+  "industries": [
+    "B2B",
+    "Infrastructure"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/captain",
+  "api": "https://devasheeshg.github.io/yc-api/batches/winter-2026/captain.json",
+  "year_founded": 2025,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/runcaptain/",
+  "x_url": "https://x.com/runcaptainrag",
+  "fb_url": null,
+  "cb_url": "https://www.crunchbase.com/organization/captain-technologies",
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/0c5e5da360891b80b4a1d6d511de963d613bbf08.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [
+    "https://bookface-images.s3.us-west-2.amazonaws.com/attachments/8c35ef0b175d1d2ac7f51910ee2cfa78036029ea.png"
+  ],
+  "primary_partner": {
+    "name": "Garry Tan",
+    "url": "https://www.ycombinator.com/people/garry-tan"
+  },
+  "founders": [
+    {
+      "user_id": 2044865,
+      "full_name": "Lewis Lien Polansky",
+      "title": "Founder/CEO",
+      "founder_bio": "CEO @ Captain, building self-tuning file search for AI agents. Engineer, designer, founder of a cybersecurity CTF org, recipient of U.S. Congressional recognition for community software, and randomly co-invented the soy-based milk carton.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/lewispolansky/",
+      "x_url": "https://x.com/lienpolansky",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/ecd86ae152b80dc12d55579cb0913bf93c33451f.jpg"
+    },
+    {
+      "user_id": 2578789,
+      "full_name": "Edgar Babajanyan",
+      "title": "Founder/CTO",
+      "founder_bio": "CTO @ Captain | Published AI NLP Researcher | Built OCR engines @ Boar's Head | Scaled high-performance RAG pipelines for the past 4 years | Built a Cross Region L2 Datacenter",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/edgar-babajanyan-a28230217/",
+      "x_url": "https://x.com/BabajanyanEdgar",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/a4db53926ab205e15c802b0761d911b65a0e7321.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 95291,
+      "title": "Captain - The Reliable Alternative to RAG",
+      "tagline": "Search files with much higher accuracy than RAG (Avg improves 78% → 95%)",
+      "body": "**TL; DR**: Captain delivers **the most accurate** general-purpose **knowledge search** engine **ever built.** \n\nIf you need to search through large text or multimodal files, and:\n\n* Don’t have time for **a tedious RAG sprint** -or-\n* Your current search pipeline lacks accuracy\n\nWe should talk. → [runcaptain.com/sales](https://runcaptain.com/sales?utm_source=ycombinator&utm_medium=launchyc&utm_campaign=launchyc&utm_content=weshouldtalk1) or [founders@runcaptain.com](mailto:founders@runcaptain.com)\n\nhttps://www.youtube.com/shorts/RxMPHqou94o\n\nIn a world where **90% of enterprise knowledge** cannot be stored in traditional databases, this ‘unstructured data’ is an **untapped goldmine** for decision-making. \n\nThe issue is that current RAG solutions have poor retrieval quality overall and are only performant on pre-optimized question types. \n\n![uploaded image](/media/?type=post&id=95291&key=user_uploads/2044865/425e4da0-2c47-43ea-a2c5-5dc32b2168fd)\n\n**Captain** unlocks **better responses** thanks to an effectively **Infinite Context window**. We distribute it across many LLMs in parallel + some embeddings sprinkled in, and then ‘Map-Reducing’ responses down to a single output.\n\n![uploaded image](/media/?type=post&id=95291&key=user_uploads/2044865/4be36851-322b-4836-be35-8e447cea51cd)\n\nWithout context limits, we have great freedom to optimize our retrieval engine for maximal accuracy. We can now play with a truly dynamic top-k or just run the LLM exhaustively (if a full knowledge audit is needed).\n\n![uploaded image](/media/?type=post&id=95291&key=user_uploads/2044865/e373def8-4aec-4add-b2a6-7d5fd9a02cb3)\n\n**We’re two lifelong builders** obsessed with data! \n\n* Lewis (right) solved hallucinations for code generation through his previous startup. \n* Edgar (left) researched NLP+AI and has built production RAG pipelines for the past 3 years.\n\nWe’ve seen the pains and limits of these systems from the start, and **the industry is primed for a more accurate alternative.** \n\nThis past summer, we met with every engineer we could at **Snowflake** and **Databricks**, and we kept hearing the same thing again and again: \n\n> There’s **no good** scalable **unstructured** data **search**.\n\nUntil **today**.\n\n**Captain abstracts the engineering of retrieval entirely.** Connecting files is all that’s needed, and we’ll beat your RAG's accuracy. Guaranteed. \n\n**Our Ask**\n\nIf you know a **CTO** or **Head of AI** at a mid-market or enterprise **AI-native** (or are building one yourself), we would love an introduction!\n\nCheck us out at [RunCaptain.com](https://runcaptain.com?utm_source=ycombinator&utm_medium=launchyc&utm_campaign=launchyc&utm_content=website)\\\nor reach us directly through [founders@runcaptain.com](mailto:founders@runcaptain.com)\\\n\\\nHappy Shipping! 🚢",
+      "url": "https://www.ycombinator.com/launches/Omx-captain-the-reliable-alternative-to-rag",
+      "votes": 115,
+      "created_at": "2025-11-07T19:59:17.455Z"
+    }
+  ]
+}

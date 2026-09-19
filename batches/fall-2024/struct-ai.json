@@ -1,0 +1,118 @@
+{
+  "id": 30108,
+  "name": "Struct",
+  "slug": "struct-ai",
+  "former_names": [
+    "Bramble",
+    "Edgedive"
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/f292fd64c9e2943d040e390cd2700e19b243bb8c.png",
+  "website": "https://struct.ai",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "Struct autonomously investigates alerts and incidents using telemetry, code, and databases. It centralizes tribal knowledge for oncall teams by learning the system and generating oncall runbooks.\r\n\r\nOnboarding takes 5 minutes.\r\n",
+  "one_liner": "Agents that keep prod running",
+  "team_size": 3,
+  "industry": "B2B",
+  "subindustry": "B2B -> Engineering, Product and Design",
+  "launched_at": 1727386579,
+  "tags": [
+    "Artificial Intelligence",
+    "Developer Tools",
+    "B2B",
+    "DevOps",
+    "Enterprise Software"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Fall 2024",
+  "status": "Active",
+  "industries": [
+    "B2B",
+    "Engineering, Product and Design"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/struct-ai",
+  "api": "https://devasheeshg.github.io/yc-api/batches/fall-2024/struct-ai.json",
+  "year_founded": 2025,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/trystruct",
+  "x_url": "https://x.com/trystruct",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": "https://github.com/struct-dot-ai",
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/f292fd64c9e2943d040e390cd2700e19b243bb8c.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": null,
+  "founders": [
+    {
+      "user_id": 1655136,
+      "full_name": "Nimesh Chakravarthi",
+      "title": "Founder/CEO",
+      "founder_bio": "Nimesh is a Co-Founder at Struct, building the new way to do oncall. He led the consumer messaging team at LinkedIn, where reduced messaging support volume by >80% by overhauling reliability & observability. He's an EECS Berkeley grad and a real estate agent.",
+      "is_active": true,
+      "linkedin_url": "https://linkedin.com/in/nimesh-chakravarthi-68238749",
+      "x_url": "https://x.com/nimeshmc",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/889b5b0e370cd6d28b3c5d3373c2734925f4c0f0.jpg"
+    },
+    {
+      "user_id": 950535,
+      "full_name": "Deepan Mehta",
+      "title": "Founder",
+      "founder_bio": "Deepan is building.\n\nPreviously he spent 4 years as a Sr. PM at LinkedIn, where he launched an AI-powered revamp of messaging, video posting, and messaging stories while driving 10s of millions in ARR. Before that, he launched LiveRamp's first self-serve distribution UXs and APIs. He graduated from Georgia Tech with a BS in computer science and is a Mexican Pizza enthusiast. ",
+      "is_active": true,
+      "linkedin_url": "https://linkedin.com/in/deepanmehta",
+      "x_url": "https://x.com/meksikanpijha",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/1de2aedf852b59725f17ed62e7ba8db7f1eb39d3.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [
+    {
+      "title": "AI agent platforms look to find their stride in 2025",
+      "url": "https://www.housingwire.com/articles/ai-real-estate-agent-platforms-2025-realpha-homa-modern-realty-bramble/",
+      "date": "Jan 23, 2025"
+    }
+  ],
+  "launches": [
+    {
+      "id": 98615,
+      "title": "Struct: Automate your on-call runbook",
+      "tagline": "Auto root-cause eng alerts by cross-referencing logs, metrics, and your code.",
+      "body": "Hi - we’re Deepan and Nimesh, and we’re launching the on-call agent every team deserves. For free.\n\n**tl;dr:** Struct auto-generates impact summaries, root causes, and pattern analyses for every eng alert by cross-referencing your logs, metrics, traces, and code. Free to use, set up in 5 minutes, fully customizable.\n\nVideo: <https://www.youtube.com/watch?v=fjXxFzjmhv4>\n\n⚠️ **The Pain:**\n\nIf you’ve been on-call, you know the drill.\n\n* Alert fires\n* Open Datadog (or Grafana, or whatever)\n* Find spikes, note timestamp\n* Hunt for relevant logs\n* Grep through code to root cause\n* Rinse & repeat\n\nMeanwhile, your most senior engineers keep getting looped into every incident, noisy alerts never get tuned, context lives across multiple tools, and customer issues keep slipping through.\n\n❇️ **The Fix:**\n\nStruct is the fastest way to go from alert → root cause. It plugs into your existing stack and automates the investigation workflow your team already runs manually.\n\nWithin minutes of an alert firing, Struct:\n\n* Pulls relevant metrics, logs, traces, monitors, and code\n* Does a regression analysis and correlates anomalies and spikes\n* Replies with with a root cause, impact summary, and pattern analysis\n* Drafts a full incident report with dynamically generated charts, timelines, and commit histories\n\nDive deeper in Slack or our app. Or, handoff the full context to your favorite coding agent to ship a fix.\n\nTeams already use Struct to:\n\n* Ensure their on-call runbook is consistently run on every alert and issue\n* Query across all logs, metrics, traces, and incidents in one place\n* Give every engineer the context to handle on-call without looping in seniors\n* Delay heavy investments in centralized observability\n* Supercharge their fave coding agents with one-click context handoffs\n\n👨🏽‍💼 **Who It’s For:**\n\n* Founding engineers scaling from 1 → 10 → 50\n* Lean teams running serious infra without an SRE\n* Orgs investing heavily into AI dev workflows\n\n🙏🏽 **Our Ask: Try It Free**\n\n**Get started in 5 minutes at [struct.ai](http://struct.ai)** — start for free, no credit card required. See ROI before you commit\n\nOr:\n\n* Book a quick demo: [here](https://cal.com/deepanm/struct-demo)\n* Email us: [**founders@struct.ai**](mailto:founders@struct.ai)",
+      "url": "https://www.ycombinator.com/launches/PeZ-struct-automate-your-on-call-runbook",
+      "votes": 33,
+      "created_at": "2026-03-09T16:09:43.354Z"
+    },
+    {
+      "id": 92145,
+      "title": "Edgedive - understand what your customers are actually saying",
+      "tagline": "Edgedive unifies scattered customer feedback and makes it actionable at scale",
+      "body": "**tl;dr: Edgedive unifies scattered customer calls, messages, tickets, and CRM data, enabling deep insights, custom reports, and on-demand research**\n\n![uploaded image](/media/?type=post&id=92145&key=user_uploads/950535/39577381-65fc-4927-b42a-6057c595fd9b)\n\n**👀 [Book a 15 min demo call](https://cal.com/deepanm/edgedive-demo) to see it in action!**\n\n⚠️ **The Problem:**\n\nListening to your customers **is really hard at scale**.\n\n* Customer interactions (call transcripts, support tickets, messages, emails, etc.) are still siloed in separate tools and rarely linked to CRM data or eng tickets\n* PMs and others have to manually search through scattered data for relevant snippets, but they miss a lot\n* Answering a question like “which $10k+ ARR customers asked about MCP in the past quarter” is difficult and time-consuming\n* Monitoring real-time, qualitative reactions to a launch is challenging\n\n❇️ **The Solution:**\n\nEdgedive makes it incredibly simple to collect, tag, and synthesize **all incoming feedback from every channel** (linked to your CRM) so you can focus on building something people want.\n\n_After white-glove onboarding, our customers are using Edgedive to:_\n\n🔎 Answer **any** question about **anything** customers are saying\n\n![uploaded image](/media/?type=post&id=92145&key=user_uploads/950535/03c089aa-7043-42c9-84ce-a57b32d41abd)\n\n🎫 Tag tickets & quantify revenue impact - automatically\n\n![uploaded image](/media/?type=post&id=92145&key=user_uploads/950535/9232202c-e8c5-4d0f-9bd6-67c7cefd89d5)\n\n🗣️ Schedule custom voice of customer reports\n\n![uploaded image](/media/?type=post&id=92145&key=user_uploads/950535/d787a9b2-92eb-43f7-9314-34efcc5be748)\n\n💸 Identify gaps leading to churn or closed-lost deals\n\n🧪 Get a shortlist of good beta testers for features\n\n🤩 Monitor customer reactions to launches, live\n\n_…all in seconds, not days (or weeks)._\n\n👨🏽‍💼 **Our customers are:**\n\n* Customer-obsessed **Founders** or **Product, CS, & Ops leaders**\n* Teams trying to scale PM, CS, or Ops without scaling headcount\n* Organizations trying to launch or automate Voice of Customer programs\n\n🙏🏽 **Our Asks:**\n\n* **Book a [15 min call](https://cal.com/deepanm/edgedive-demo) or email us at [founders@edgedive.com](mailto:founders@edgedive.com)** if you fit any of the above profiles (or just want to see it in action)\n* **Know anyone that might be a good fit? [Intro us!](mailto:founders@edgedive.com)** First 5 intros receive their choice of (5) Taco Bell Crunchwrap Supremes 🌮 or (5) caffeinated beverages ☕ Act fast!\n* **Follow us or give a shoutout on [LinkedIn](https://www.linkedin.com/company/use-edgedive) or [X](https://x.com/edgedive/) to support!**\n\n🚀 **The Team:**\n\nDeepan (fmr Sr. PM, Georgia Tech) and Nimesh (fmr. Sr. EM, Berkeley) worked together for 4+ years at LinkedIn - some of our launches include the AI Focused Inbox, video posting, and stories, along with growth launches that drove $XXM in annual revenue. We’re building the solution we wish we had when we were trying to plan, build, and launch impactful products.\n\n![uploaded image](/media/?type=post&id=92145&key=user_uploads/950535/3e31334c-2af8-4696-939e-fee8a252c848)\n\n",
+      "url": "https://www.ycombinator.com/launches/NyD-edgedive-understand-what-your-customers-are-actually-saying",
+      "votes": 61,
+      "created_at": "2025-07-14T22:31:50.649Z"
+    },
+    {
+      "id": 84508,
+      "title": "Bramble: Buy any home, get $20k back!",
+      "tagline": "Bramble is an AI-backed real estate brokerage that helps you buy a home end-to-end for a simple flat fee",
+      "body": "**TL;DR:** Bramble is an AI-backed real estate brokerage that provides end-to-end homebuying services for one simple flat fee. Get instant help to set up tours, research homes, submit offers, and close confidently - with responsive support from an experienced agent whenever you need it.\n\nHey there! We’re [Nimesh](https://linkedin.com/in/nimesh-chakravarthi-68238749), [Deepan](https://linkedin.com/in/deepanmehta), and [Danny](https://www.linkedin.com/in/dannyighsu), co-founders of [Bramble](https://usebramble.com?utm_source=yc&utm_medium=post&utm_campaign=yc_launch).\n\n![uploaded image](/media/?type=post&id=84508&key=user_uploads/950535/673184b4-b4b3-4a72-bc11-fb7e3be1aa00)\n\n**The Problem: buying a home with an agent is often frustrating and expensive**\n\nToday, buyers already do a lot of work themselves to find and visit houses, but buyer agents continue to charge a very high fee (2-3% of a home’s price) for what’s often a frustrating and unresponsive experience. On top of that, the [2024 NAR settlement](https://blog.usebramble.com/post/how-nar-settlement-affects-home-buyers?utm_source=yc&utm_medium=post&utm_campaign=yc_launch) means that buyers are now fully exposed to that fee. As they look for cheaper alternatives, buyers are finding this means compromising on service or quality.\n\n![uploaded image](/media/?type=post&id=84508&key=user_uploads/950535/fd500ac9-92b1-4e2a-adbc-97087bfce021)\n\n**The Solution: buy any home with our AI-backed full-service broker for one flat fee**\n\nSchedule tours, analyze properties, draft offers, and close right on platform, with responsive, on-demand agent support whenever you need it — all for a simple flat fee. (The rest of the commission is rebated back to you.)\n\n[See how it works!](https://youtu.be/zFCG09fxJ_E)\n\nAI tools like instant disclosure analysis, comp reports, market analysis, and more, plus expert support from dedicated agents, mean Bramble buyers get the experience of a top-tier real estate agent without sky-high commissions. In California, the average homebuyer gets over $20k rebated at close! \n\n![uploaded image](/media/?type=post&id=84508&key=user_uploads/950535/6a601435-32ef-4366-a683-fa7a3b0e885c)\n\n**Asks:**\n\nWe’d love to talk to:\n\n* **Anyone looking to buy a home in CA in the next 6 months** - whether that’s you or anyone you know, we want to learn more.\n* Anyone who’s bought a home in the last year - we’d love to hear about your experience. We’ll even throw in a gift card of your choice!\n* Other founders/builders in the real estate tech space - let’s exchange notes.\n\nEmail us at [team@usebramble.com](mailto:team@usebramble.com) or grab time directly [here](https://calendar.app.google/ppD4aJz2hV2Mwv6T8)!",
+      "url": "https://www.ycombinator.com/launches/Lz2-bramble-buy-any-home-get-20k-back",
+      "votes": 62,
+      "created_at": "2024-10-03T20:04:32.029Z"
+    }
+  ]
+}

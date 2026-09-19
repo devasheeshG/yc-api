@@ -1,0 +1,82 @@
+{
+  "id": 34597,
+  "name": "Sentient OS",
+  "slug": "sentient-os",
+  "former_names": [],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/39c30a4d604edd955f2c2b37f1f7281571ae18fb.png",
+  "website": "https://sentient-os.ai",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "Nobody's built truly proactive AI, because it requires running inference on your entire life. In the cloud, that's insanely expensive and a privacy nightmare. But not on your own chip.\r\n\r\nEvery night, Sentient's on-device LLM wakes your Mac and understands what's new in your life (email, messages, files, Granola transcripts...), entirely locally, and distills it into a knowledge base.\r\n\r\nYou wake up to your work already prepared: the reply you forgot, drafted from your own context; the subscription you never use renewing tomorrow, caught; the report you promised in the group chat, ready to send. Everything is one click from firing through computer use, and nothing fires until you click.\r\n\r\nOr click your Mac notch anytime and say \"finish this for me.\" Sidekick takes over the thing you were doing with its own cursor while you move on.\r\n\r\nOn-device inference at this scale was supposed to be impossible: devices too slow, and models too dumb. So we built the stack ourselves: a custom LiteRT-LM fork (KV-cache reuse, speculative decoding, custom k-quants) that runs nightly on 8 GB Macs. The user's hardware does ~90% of the compute, and their own ChatGPT or Claude subscription does the rest, so our marginal cost is ~$0, and our servers store nothing.\r\n\r\nWe soft-launched late July with one Reddit post: top of r/macapps, 2,000+ users in 48 hours, $0 marketing. Free and open source for consumers; the same engine on the work stack (Slack, Granola, Linear, Notion) becomes the enterprise business.\r\n\r\nSentient OS raised ~$1M in pre-seed, backed by YC, Afore, and the a16z Speedrun scout fund.",
+  "one_liner": "On-device AI that knows your entire life and does your work overnight.",
+  "team_size": 2,
+  "industry": "B2B",
+  "subindustry": "B2B -> Productivity",
+  "launched_at": 1787571928,
+  "tags": [
+    "Artificial Intelligence",
+    "Productivity",
+    "AI"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Fall 2026",
+  "status": "Active",
+  "industries": [
+    "B2B",
+    "Productivity"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": true,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/sentient-os",
+  "api": "https://devasheeshg.github.io/yc-api/batches/fall-2026/sentient-os.json",
+  "year_founded": 2026,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/sentient-os/home/",
+  "x_url": "",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/39c30a4d604edd955f2c2b37f1f7281571ae18fb.png",
+  "app_video_url": "https://bookface-images.s3.us-west-2.amazonaws.com/bf-public_profile/34655/app_video.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECAPR4KU7UK%2F20260919%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260919T020244Z&X-Amz-Expires=60&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEIn%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJGMEQCIFx9dNA7mUvXENpwIEJl1N0lBleMaznflLTF3VwdNBncAiBumO6%2FibrAJU0eYhgJF3Eutr5fj6DF1yd2odx%2BJwPYJirlAwhSEAAaDDAwNjIwMTgxMTA3MiIMEKjSIPP6VJ%2BSDgs0KsIDnWTjJ0%2BHkQMNGYoJ46Lwxb58PfZRK8zgCovJ4V4YWM3vKmmR%2BqP79HE9KrydPW9oQXRPbxoniYhaqmAtsSQHCFc8aQggD92kKke1of%2FJ%2BAFXIdNUUb2Qmv5ouj%2B4Ba5iWfeUxNaggPeYDj%2FmcqDEyVubOgOSLgVBvXUbWfT%2FA1r7f%2FrO8IljWQvZB7MHMDYS37D8XdHCXp2gPNxq0fVZQlNWtIf6TRXKAlLuGfJvzQStx3mL5nvyTt60Y3Z6lmiIf3DxUY9wTiyO3%2Fg96vd52GzmUm4l1f2uQcl76ytmop9UhNPluweZ%2Bsi84ofucNSIr4RTzbYwbeeJYQJ%2FhctyhcdfPZlShB8wb3jBUuejs%2BdUlgKj0mOrJbHeSk44N0zma3xWFZX%2FEUjZsTmBr2H68yF4XcTGr1xlTpFyuDlKZHX7XPqW5gZszFR5O6v5VjykV9orAmqO64Ibq5r%2B0dwQYJL3mTnTTp99d90V3pF2TGfkG9YrU7av23O0pCdGVAapj1TbnRdta%2FywhzOPbYDmzH9f9l31Kvml2WPGYxpa%2Fqhg4zmjOAtIeLurt9OoHNlvLp3hVIvEl%2BIGVNx32brAMSwiMMrBt9UGOqYBVn4%2B4O2a1N0zu0fkWJe%2FM%2BNvJRCeM4mXDF9w1ZAPh0U9RO1DZ7dVNOpkbGcYE6oCUFN990z605UwfyPb4je3%2Bc6EUV3%2F595hqcDL5nIAtQltokUMzF4lv3atQ6w8TuJOaR%2FN%2BNJpxuETlfsebz%2BO7lSBarn63nw9h0qSpR9j35KpGEUx%2Bgm0i%2Bt7RB9wu7QkSriPo3LptywAP4tiCSI4U77%2BDUIi9Q%3D%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=4b0ab84341e8ec4759ae1a7e9dc39d45640362704d18169a44b9174efd45e6c8",
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Aaron Epstein",
+    "url": "https://www.ycombinator.com/people/aaron-epstein"
+  },
+  "founders": [
+    {
+      "user_id": 2994059,
+      "full_name": "Jesai Tarun",
+      "title": "Founder/CEO",
+      "founder_bio": "Founder & CEO, Sentient OS (YC F26). Top 12 AI dev on GitHub at 18.\n\nFeatured in WIRED & 40+ publications, twice:\n- Hacked iPadOS onto the iPhone 17 Pro via a bootrom exploit (1M+ views).\n- Writing Tools, my open-source writing assistant that beat Apple Intelligence to market (30K+ users, 2.4K+ stars).\n\nOn-device inference nerd since high school; AIM India's expert voice on Apple's MLX.\n\nBuilding on-device AI that understands your entire life and proactively finishes your work with computer use.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/jesai-tarun-37004725a/",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/5f32dc6fa1581285349f18ae74f6a868909a003a.jpg"
+    },
+    {
+      "user_id": 1546116,
+      "full_name": "Aditya Vellanki",
+      "title": "Founder/CTO",
+      "founder_bio": "18. Co-Founder at Sentient OS (YC F26). Shipping consumer products since 12, built decentralized protocols at 14, building enterprise for the last 2 years.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/adityahemanth/",
+      "x_url": "https://x.com/aditya_vellanki",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/da9aaf666380fb6f777b113b8faa33cdbf0b1531.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": []
+}

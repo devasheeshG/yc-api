@@ -1,0 +1,111 @@
+{
+  "id": 29689,
+  "name": "Tivara",
+  "slug": "tivara",
+  "former_names": [
+    "Happy Auth"
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/c195f1e4be073ff23e0e95a7e8dd2dbdc94e086e.png",
+  "website": "https://tivara.com",
+  "all_locations": "New York City, NY, USA",
+  "long_description": "",
+  "one_liner": "The AI workforce for medical groups",
+  "team_size": 2,
+  "industry": "Healthcare",
+  "subindustry": "Healthcare",
+  "launched_at": 1722295529,
+  "tags": [
+    "Artificial Intelligence",
+    "SaaS",
+    "B2B",
+    "Healthcare"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": true,
+  "nonprofit": false,
+  "batch": "Summer 2024",
+  "status": "Active",
+  "industries": [
+    "Healthcare"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/tivara",
+  "api": "https://devasheeshg.github.io/yc-api/batches/summer-2024/tivara.json",
+  "year_founded": 2024,
+  "city": "New York City",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/tivara/",
+  "x_url": "",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/c195f1e4be073ff23e0e95a7e8dd2dbdc94e086e.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [
+    "https://bookface-images.s3.us-west-2.amazonaws.com/attachments/39e85498becdd14746a1a84d8679152caf7cb6d0.png"
+  ],
+  "primary_partner": {
+    "name": "Gustaf Alstromer",
+    "url": "https://www.ycombinator.com/people/gustaf-alstromer"
+  },
+  "founders": [
+    {
+      "user_id": 758190,
+      "full_name": "Tej Seelamsetty",
+      "title": "Founder/CEO",
+      "founder_bio": "Founder and CEO of Tivara.\n\nI started my entrepreneurship journey at 18 years old: As soon as I could sign a personal guarantee, I started flipping houses to (successfully) pay for college. Building software to automate the tedious aspects of my own due diligence opened my eyes to the magic of code. Since then, I led growth (10x-ed revenue) at Fair Square (W20) and worked as a consultant at Bain. I studied computer science and financial engineering at WashU.",
+      "is_active": true,
+      "linkedin_url": "https://linkedin.com/in/tej-seelamsetty",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/6bf284088f50b36c63533cd44212255b1793bf24.jpg"
+    },
+    {
+      "user_id": 2027178,
+      "full_name": "Aumesh Misra",
+      "title": "Founder",
+      "founder_bio": "Co-founder and CTO of Tivara. I've spent 4 years building software at Microsoft and Compound (YC S19). I was the 8th engineer at Compound and helped grow the company to over $2B AUM. Prior to this, I researched and developed software for novel medical imaging devices at Stanford.",
+      "is_active": true,
+      "linkedin_url": "www.linkedin.com/in/aumesh-misra",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/6af929bd338d249d9212265ba8dbe6d8bee68d31.jpg"
+    }
+  ],
+  "jobs": [
+    {
+      "id": 69497,
+      "title": "Founding Backend Engineer, AI Agents",
+      "url": "https://www.ycombinator.com/companies/tivara/jobs/6Hhb9Oo-founding-backend-engineer-ai-agents",
+      "location": "New York, NY, US",
+      "type": "Full-time",
+      "role": "Engineering",
+      "role_type": "Full stack",
+      "salary_range": "$120K - $225K",
+      "equity_range": "0.50% - 1.00%",
+      "experience": "3+ years",
+      "visa": "US citizen/visa only",
+      "skills": []
+    }
+  ],
+  "news": [],
+  "launches": [
+    {
+      "id": 82570,
+      "title": "Tivara 🏥💰 — Automating insurance approval workflows for doctors",
+      "tagline": "See patients faster by automating your prior authorization requests.",
+      "body": "[Tivara](https://tivara.com/)’s mission is to help doctors deliver care to patients faster. We’re starting by using LLMs to automate submitting prior authorization requests (and getting their approval) on behalf of providers.\n\n![uploaded image](/media/?type=post&id=82570&key=user_uploads/758190/5152c520-617b-4e43-82e4-5cac7c301950)\n\n## What is Prior Authorization, and Why Should I Care?\n\nPrior authorization is a process by which physicians must justify their treatment plan of a patient to that patient’s health insurance carrier as “medically necessary.” \n\nRight now, medical groups employ a team (1 employee focused on prior authorizations per 1-5 physicians) to handle this process with insurance carriers manually. These teams are frequently operating over capacity; some of the practices we’ve talked to are so backlogged that a request isn’t even submitted until up to a week after a doctor’s order is placed.\n\n**Figure 1: 94% of Physicians Report Delayed Patient Care due to Prior Authorization (Source: American Medical Association Survey of 1,000 Doctors)**\n\n![uploaded image](/media/?type=post&id=82570&key=user_uploads/758190/7ccd172e-a4be-4e61-962d-916b4de1491d)\n\nAs you can imagine, insurance carriers are incentivized to delay and/or deny approval as much as they can. Some carriers are so egregious that they’re incurring fines in the tens of millions for morbidly delaying the care of sick patients. A patient who is exhibiting signs of colon cancer definitely shouldn’t have to wait months (or even days) for a colonoscopy.\n\nAt the end of the day, we do two things:\n\n1. Help doctors deliver care faster\n2. Make doctors more money (reduce OpEx)\n\n## Who we are:\n\nGreat friends from college.\n\n[Tej](https://www.linkedin.com/in/tej-seelamsetty/) – Ran growth (10x-ed revenue) at Fair Square (W20) and was an AC at Bain. Paid for college by flipping houses. Studied CS at WashU.\n\n[Aumesh](https://www.linkedin.com/in/aumesh-misra) – Ex-Microsoft and was the 8th engineer at Compound (S19). Built medical imaging software used by Stanford. Also studied CS at WashU.\n\n## Our ask\n\nAre your parents, siblings, or extended family members doctors who run their own practice? You can help us with an introduction! Please shoot [tej@tivara.com](mailto:tej@tivara.com) a note.\n\n![uploaded image](/media/?type=post&id=82570&key=user_uploads/758190/ad4f67d3-ca0b-4049-9600-a4ba595b6036)\n\n",
+      "url": "https://www.ycombinator.com/launches/LTm-tivara-automating-insurance-approval-workflows-for-doctors",
+      "votes": 139,
+      "created_at": "2024-07-30T18:38:31.215Z"
+    }
+  ]
+}

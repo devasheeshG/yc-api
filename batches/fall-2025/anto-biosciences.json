@@ -1,0 +1,95 @@
+{
+  "id": 30937,
+  "name": "Anto Biosciences",
+  "slug": "anto-biosciences",
+  "former_names": [
+    "Anto"
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/83f56c369ac0fb5e70438516e774b8603717940a.png",
+  "website": "https://www.anto.bio/",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "Anto is building a foundation model for microbial communities, making the gut microbiome computable for the first time. We predict drug toxicity and efficacy across diverse populations and fix drugs so they work for everyone — solving the hidden root cause of most drug failures. \r\n\r\nFounded by Arvid (Broad Institute of MIT and Harvard; Nature-published researcher who pioneered quality-aware, goal-directed sparsification) and David (Harvard Medical School Gastroenterology, J&J), second-time founders who published the breakthrough at leading machine learning AI conferences and Nature. ",
+  "one_liner": "A Foundation Model for Microbial Communities.",
+  "team_size": 4,
+  "industry": "Healthcare",
+  "subindustry": "Healthcare",
+  "launched_at": 1761948352,
+  "tags": [
+    "Artificial Intelligence",
+    "Generative AI",
+    "Biotech",
+    "Genomics",
+    "Drug discovery"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Fall 2025",
+  "status": "Active",
+  "industries": [
+    "Healthcare"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/anto-biosciences",
+  "api": "https://devasheeshg.github.io/yc-api/batches/fall-2025/anto-biosciences.json",
+  "year_founded": 2025,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/anto-biosciences/",
+  "x_url": "https://x.com/anto_f25",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/83f56c369ac0fb5e70438516e774b8603717940a.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Nicolas Dessaigne",
+    "url": "https://www.ycombinator.com/people/nicolas-dessaigne"
+  },
+  "founders": [
+    {
+      "user_id": 1514534,
+      "full_name": "Arvid E. Gollwitzer",
+      "title": "Founder/CEO",
+      "founder_bio": "Founder @ Anto Bio | Researcher @ Broad, Harvard, MIT | Lecturer @ ETH Zurich",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/arvid-gollwitzer/",
+      "x_url": "https://x.com/arvidgollwitzer",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/c198f2ae79729c0ec59fbf566666e42e58082db3.jpg"
+    },
+    {
+      "user_id": 1361118,
+      "full_name": "David de Gruijl",
+      "title": "Founder/CTO",
+      "founder_bio": "Co-founder @ Anto. Formerly Janssen Pharmaceuticals, ETH Zurich and Gastroenterology Dept. of BWH, Harvard Medical School. ",
+      "is_active": true,
+      "linkedin_url": "https://linkedin.com/in/daviddegruijl",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/b50bd83ae243af5006498387e9733112e4af827c.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 95292,
+      "title": "Anto Biosciences: A Foundation Model for Microbial Communities",
+      "tagline": "Making the microbiome computable. ",
+      "body": "We’re [Arvid](https://www.linkedin.com/in/arvid-gollwitzer/) and [David](https://www.linkedin.com/in/daviddegruijl/), and we’re building [Anto Biosciences](https://www.linkedin.com/company/anto-biosciences).\n\n### tl;dr\n\nAnto is building a multimodal foundation model for microbial communities, making the gut microbiome computable for the first time. We predict drug toxicity and efficacy across diverse populations and optimize molecules for universal efficacy — addressing the microbiome-driven causes of drug response and failures.\n\n**Launch Video**: https://youtu.be/BDPp2wXiDbw\n\n### The Key Problem\n\n**We caught a cancer drug that worked in China but failed in U.S. trials. Same molecule, different microbiomes. $1B lost.**\n\nThis isn't an isolated story; more than a billion people are currently on medications where the microbiome dictates success or failure. The gut microbiome drives drug toxicity and efficacy, but pharma lacks the tools to understand and act on it \\[10,11,13\\]. Current methods to simulate the gut take months, cost millions, and rely on animal models that are too different from humans to be useful.\n\n### About Anto\n\n**We predict drug toxicity and efficacy across diverse populations and optimize molecules for broader efficacy—addressing the hidden, microbiome-driven causes of drug response and failures.**\n\nInput any drug molecule. We tell you how people will respond. We show where it works and where it fails—by geography, age, or diet.\n\nWe predict:\n\n* Population-specific efficacy (geographic, age-based, vegans vs. meat eaters, etc.)\n* Failure mechanisms (specific microbial metabolic pathways) \\[9,11\\]\n* Treatment response profiles across diverse populations \\[10,14\\]\n\nAnd we don't just flag risk; we identify failure mechanisms down to microbial metabolic pathways and generate treatment response profiles across populations. Then we optimize the molecule for broader efficacy. Turning 20% efficacy into 80% becomes an optimization problem we can actually solve.\n\n**Why we can do this:** We've pioneered quality-aware, goal-directed sparsification algorithms \\[5,9,15\\]. Microbiome data is 99% noise. We remove most of the noise and low-quality data through sparsification, leaving only the 1% that actually carries predictive power. That's how we make the microbiome computationally tractable. \\[6,7,8,14\\].\n\n### About Us\n\n[Arvid](https://www.linkedin.com/in/arvid-gollwitzer/) — Broad Institute of MIT and Harvard, ETH Zurich. Nature-published researcher who pioneered microbiome sparsification. Built the methods that make noisy microbial data tractable.\n\n[David](https://www.linkedin.com/in/daviddegruijl/) — ex-ETH Zurich, J&J, BWH, Harvard Med, Gastroenterology. Struggled with current drug digestion models firsthand. Knows where current workflows break and how to fix them.\n\n![uploaded image](/media/?type=post&id=95292&key=user_uploads/89898/3b2d64c2-dbc0-4bad-aad7-40b7995faeca)\n\nWe’re second-time founders who have lived this problem and published at leading AI conferences and Journals.\n\n### Traction\n\nWe're working with pharma R&D to simulate drug–microbiome interactions and de-risk cross-border deals with population-specific efficacy predictions and response profiles. Our open-source tools and research \\[1-9,14,15\\] are widely adopted and taught in engineering and computational biology programs \\[16\\].\n\n### What This Means for Digital / Computational Biology\n\n**The microbiome is the missing layer in drug development.** Most orally administered drugs are modified by gut bacteria before reaching their targets. We're making this layer computable for the first time \\[11-14\\].\n\nIf you're building in digital biology, precision medicine, or drug development, let's talk. The microbiome affects everything.\n\n### Our Asks\n\nIf you’re in drug development, cross-border deals, or translational medicine, we’d love to learn what microbiome requirements matter most to you. If you know teams in pharma and believe this product is cool, sharing / intros would mean a lot.\n\nIf you are in academia or microbiome research, try out our open-source tools \\[5-15\\]!\n\n**Get in touch**: [founders@anto.bio](mailto:founders@anto.bio) | [anto.bio](https://www.anto.bio/)\n\n### Our Research\n\nOur foundational work spans high-performance genomic analysis \\[1-4\\], metagenomic classification algorithms \\[5,9,14,15\\], in-storage computing for microbiome data \\[6-8\\], and the first large-scale datasets for causal modeling of microbial ecosystems \\[11,12\\]. We've pioneered techniques that make microbial communities computationally tractable, including quality-aware sparsification that reduces noise by 99% while preserving predictive power \\[5,9,15\\]. Our recent work on therapeutic resistance \\[10\\] and AI-controlled metagenomics for clinical applications \\[14\\] directly informs our drug optimization capabilities.\n\n**References:**\n\n\\[1\\] N. M. Ghiasi et al., \"GenStore: A high-performance in-storage processing system for genome sequence analysis,\" in _Proc. 27th ACM Int. Conf. Architectural Support for Programming Languages and Operating Systems_, 2022, pp. 635-654.\n\n\\[2\\] N. M. Ghiasi et al., \"GenStore: In-storage filtering of genomic data for high-performance and energy-efficient genome analysis,\" in _2022 IEEE Computer Society Annual Symposium on VLSI (ISVLSI)_, 2022, pp. 283-287.\n\n\\[3\\] N. M. Ghiasi et al., \"GenStore: A high-performance and energy-efficient in-storage computing system for genome sequence analysis,\" _arXiv preprint arXiv:2202.10400_, 2022.\n\n\\[4\\] M.-D. Rumpf, M. Alser, A. E. Gollwitzer et al., \"SequenceLab: A comprehensive benchmark of computational methods for comparing genomic sequences,\" _arXiv preprint arXiv:2310.16908_, 2023.\n\n\\[5\\] A. E. Gollwitzer et al., \"MetaTrinity: Enabling fast metagenomic classification via seed counting and edit distance approximation,\" _arXiv preprint arXiv:2311.02029_, 2023.\n\n\\[6\\] N. M. Ghiasi et al., \"MetaStore: High-performance metagenomic analysis via in-storage computing,\" _arXiv preprint arXiv:2311.12527_, 2023.\n\n\\[7\\] N. M. Ghiasi et al., \"MetaStore: High-performance metagenomic analysis via in-storage computing,\" _arXiv e-prints_, pp. arXiv-2311, 2023.\n\n\\[8\\] N. M. Ghiasi et al., \"MegIS: High-performance, energy-efficient, and low-cost metagenomic analysis with in-storage processing,\" in _2024 ACM/IEEE 51st Annual Int. Symp. Computer Architecture (ISCA)_, 2024, pp. 660-677.\n\n\\[9\\] A. Gollwitzer et al., \"MetaFast: Enabling fast metagenomic classification via seed counting and edit distance approximation,\" _arXiv preprint arXiv:2311.02029_, 2023.\n\n\\[10\\] A. E. Gollwitzer, D. A. Subramanian, I. Tucker, and G. Traverso, \"Steering the evolutionary game: Hierarchical control of therapeutic resistance in cancer treatment,\" in _NeurIPS 2025 AI for Science Workshop_, 2025.\n\n\\[11\\] A. E. Gollwitzer, D. A. Subramanian, I. Tucker, and G. Traverso, \"MetaOmics-10T: The foundational dataset to unlock causal modeling of microbial ecosystems,\" in _NeurIPS 2025 AI for Science Workshop_, 2025.\n\n\\[12\\] N. M. Ghiasi et al., \"MegIS: High-performance, energy-efficient, and low-cost metagenomic analysis with in-storage processing,\" _arXiv preprint arXiv:2406.19113_, 2024.\n\n\\[13\\] H. J. Haiser and D. de Gruijl, \"Emerging tools and technologies for microbiome-aware drug development,\" _Clinical Pharmacology & Therapeutics_, 2025, doi:10.1002/cpt.70026.\n\n\\[14\\] A. Gollwitzer et al., \"AI-controlled metagenomics: High-throughput taxonomic profiling for clinical pathogen detection and early-stage cancer screening and type classification,\" _arXiv preprint arXiv:2311.02029_, 2025.\n\n\\[15\\] A. Gollwitzer et al., \"The Thinking Microscope: A reinforcement learning framework for the co-optimization of computational and generative data sparsification in metagenomics,\" _arXiv preprint arXiv:2311.02029_, 2025.\n\n\\[16\\] A. E. Gollwitzer, \"Decoding the human microbiome through AI-controlled metagenomics: Promises and ethical implications,\" presented at ETH Zurich ETHix Series, Dec. 2024. \\[Online\\]. Available [here](https://bioethics.ethz.ch/news-and-events/news-bioethics/2024/12/decoding-the-human-microbiome-through-ai-controlled-metagenomics-promises-and-ethical-implications.html).",
+      "url": "https://www.ycombinator.com/launches/Omy-anto-biosciences-a-foundation-model-for-microbial-communities",
+      "votes": 32,
+      "created_at": "2025-11-07T20:30:08.883Z"
+    }
+  ]
+}

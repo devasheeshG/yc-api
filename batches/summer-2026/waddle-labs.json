@@ -1,0 +1,119 @@
+{
+  "id": 31047,
+  "name": "Waddle Labs",
+  "slug": "waddle-labs",
+  "former_names": [
+    "Waddle"
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/f525546cff510b464f7877004fcc10c8f0b97843.png",
+  "website": "https://www.waddlelabs.ai/",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "",
+  "one_liner": "LLMs that control robots",
+  "team_size": 2,
+  "industry": "Industrials",
+  "subindustry": "Industrials -> Manufacturing and Robotics",
+  "launched_at": 1784890498,
+  "tags": [
+    "Developer Tools",
+    "Generative AI",
+    "Robotics",
+    "Automation"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": true,
+  "nonprofit": false,
+  "batch": "Summer 2026",
+  "status": "Active",
+  "industries": [
+    "Industrials",
+    "Manufacturing and Robotics"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/waddle-labs",
+  "api": "https://devasheeshg.github.io/yc-api/batches/summer-2026/waddle-labs.json",
+  "year_founded": 2025,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/waddlelabs/",
+  "x_url": "https://x.com/theWaddleLabs",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/f525546cff510b464f7877004fcc10c8f0b97843.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Ankit Gupta",
+    "url": "https://www.ycombinator.com/people/ankit-gupta"
+  },
+  "founders": [
+    {
+      "user_id": 2132817,
+      "full_name": "Hanming Ye",
+      "title": "Founder/CEO",
+      "founder_bio": "Interested in how natural intelligence arises. I also like machines such as 3D printers and robots. ",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/hanming-ye-0467b01aa",
+      "x_url": "https://x.com/DozenDucc",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/5b813f423ca4b4732c54817689193d5602190bf5.jpg"
+    },
+    {
+      "user_id": 1853600,
+      "full_name": "Yiding Song",
+      "title": "Founder",
+      "founder_bio": "Interested in systems that learn theories about the world with human-like efficiency.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/yiding-song-vincent/",
+      "x_url": "https://x.com/yiding_song",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/b7078e0f6f101f74db1f4584bb6cd102051bb9f0.jpg"
+    }
+  ],
+  "jobs": [
+    {
+      "id": 109947,
+      "title": "Founding Research Engineer",
+      "url": "https://www.ycombinator.com/companies/waddle-labs/jobs/RaRUAQK-founding-research-engineer",
+      "location": "San Francisco, CA, US",
+      "type": "Full-time",
+      "role": "Engineering",
+      "role_type": "Machine learning",
+      "salary_range": "$175K - $350K",
+      "equity_range": "1.00% - 2.00%",
+      "experience": "Any (new grads ok)",
+      "visa": "Will sponsor",
+      "skills": [
+        "ML",
+        "Python",
+        "Torch/PyTorch",
+        "Distributed Systems",
+        "Fine-tuning",
+        "Evals",
+        "AI Agents",
+        "Diffusion Models"
+      ]
+    }
+  ],
+  "news": [],
+  "launches": [
+    {
+      "id": 107821,
+      "title": "Waddle Labs - Agents that control robots",
+      "tagline": "Claude Code for robotics - prompt your robot to do physical tasks",
+      "body": "Waddle is the Claude Code for robotics. Connect our API to your robot and type a prompt, then our agents write code to achieve the task in \\~20 minutes.\n\n![uploaded image](/media/?type=post&id=107821&key=user_uploads/2132817/afc74f28-33c6-450c-80c3-7f2d263f213d)\n\n### **Our Hypothesis**\n\nRobot intelligence today depends either on large end-to-end VLAs or classical approaches.\n\n\\- VLAs are difficult to customise and steer, require huge amounts of data to train, and don’t yet generalise across embodiments and environment. They face limited deployment.\n\n\\- Meanwhile, classical approaches are widely deployed for their reliability and explicit control, but are often brittle and costly to redevelop in new setups.\n\n_Does this tradeoff have to be inevitable?_\n\n**Our hypothesis:** By using agents to control robots, we combine the generalisation of VLAs with the speed and reliability of classical approaches. \n\n### **Our Solution**\n\nOur agents decomposes a goal into subtasks, and completes each subtask by viewing camera feeds, writing control code, and calling models like VLAs. The agent outputs a program that you can run and iterate on by talking to our agents. \n\n**Where we've been using Waddle internally:**\n\n\\- **Create a working policy in 20 minutes** (\"Write a program to package the box\")\n\n\\- **Generate data for model training** (\"Pick and place lego bricks at random positions 1000 times\")\n\n\\- **Facilitate robotics auto-research** (\"I am tuning a policy overnight. Reset the scene after each trial”)\\\n\\\nBecause our agents are LLMs, they inherit properties of the underlying models. Agents and the code they write are inherently generalist, so they work with any robot and any environment without additional data. Moreover, agents excel at long-horizon planning and can decompose a physical goal into subtasks, verify each stage, and re-plan on failure.\n\n**Interested in trying our agents via our preview API?** Sign up at \\[our website\\](<https://www.waddlelabs.ai/>) or email [founders@waddlelabs.ai](mailto:founders@waddlelabs.ai)\n\n### **Our Research**\n\nWaddle's agents enable new forms of scaling that we are very excited about:\n\n\\- **Scaling compositional generalization:** Our agent first wrote the “fold_grasp” skill while flipping a package; another agent later used it to fold a t-shirt. Over time, agents accumulate a library of skills, enabling future agents to compose them and achieve harder tasks.\n\n\\- **Scaling multi-robot cooperation:** Imagine an entire fleet of robots collaborating to achieve a task. For VLAs, this is a nightmare. For Waddle, simply hook up more agents. A master agent spawns subagents, coordinating multiple robots working concurrently.\n\n\\- **Scaling from scale:** We evaluated Opus 4.8, Fable 5, and GPT 5.6 Sol on a suite of manipulation tasks: larger models with larger thinking budgets consistently produce better policies. As foundation models improve, so do our robots.\n\n### **The Team**\n\nWe are @Yiding Song (Vincent) and @Hanming Ye. We met at MIT’s Research Science Institute, where Vincent was working on multimodal astrophysics models and Hanming was researching topology in the math department. Since then, we’ve become roommates at Harvard where we are either doing ML research or breaking robots - usually both.\n\nThere will be millions of robots in the future. Our mission is to enable everyone to take part in building them.",
+      "url": "https://www.ycombinator.com/launches/S33-waddle-labs-agents-that-control-robots",
+      "votes": 11,
+      "created_at": "2026-07-27T17:45:25.918Z"
+    }
+  ]
+}

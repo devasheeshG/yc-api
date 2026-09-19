@@ -1,0 +1,140 @@
+{
+  "id": 30408,
+  "name": "Autostep",
+  "slug": "autostep",
+  "former_names": [
+    "Accrued"
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/a64ea75986bdbe206a8fe20ee9fdaaa44ad95e9e.png",
+  "website": "https://autostep.ai/",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "Autostep maps how work happens across a company for humans and agents, finds repetitive tasks and bottlenecks, and ranks them by cost and impact. Then it fixes them by building agents inside existing tools, changing the process, or finding the right software.\r\n",
+  "one_liner": "The P&L for knowledge work",
+  "team_size": 1,
+  "industry": "B2B",
+  "subindustry": "B2B -> Operations",
+  "launched_at": 1772173697,
+  "tags": [],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": true,
+  "nonprofit": false,
+  "batch": "Spring 2026",
+  "status": "Active",
+  "industries": [
+    "B2B",
+    "Operations"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/autostep",
+  "api": "https://devasheeshg.github.io/yc-api/batches/spring-2026/autostep.json",
+  "year_founded": 2025,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/autostep-ai/",
+  "x_url": "https://x.com/aidan__pratt",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/a64ea75986bdbe206a8fe20ee9fdaaa44ad95e9e.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [
+    "https://bookface-images.s3.us-west-2.amazonaws.com/attachments/abd07346ad5be2c7f356228c6b9d6e3b547f9a11.png"
+  ],
+  "primary_partner": {
+    "name": "David Lieb",
+    "url": "https://www.ycombinator.com/people/david-lieb"
+  },
+  "founders": [
+    {
+      "user_id": 403669,
+      "full_name": "Aidan Pratt 🥑",
+      "title": "Founder/CEO",
+      "founder_bio": "Aidan is the founder and CEO of Autostep. He studied Machine Learning and Computer Science at Georgia Tech and has been building and shipping products since he was a kid - hardware hacks, developer tools, AI agents - with dozens of projects launched along the way. Aidan has worked at seed to Series A startups with strong PMF. aidanpratt.com",
+      "is_active": true,
+      "linkedin_url": "https://linkedin.com/in/aidan-pratt",
+      "x_url": "https://x.com/aidan__pratt",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/28fc669f74efecc22090851067a14caacca69a86.jpg"
+    }
+  ],
+  "jobs": [
+    {
+      "id": 105945,
+      "title": "Founding Engineer, ML + Forward Deployment",
+      "url": "https://www.ycombinator.com/companies/autostep/jobs/7XJCOTX-founding-engineer-ml-forward-deployment",
+      "location": "San Francisco, CA, US",
+      "type": "Full-time",
+      "role": "Engineering",
+      "role_type": "Machine learning",
+      "salary_range": "",
+      "equity_range": "",
+      "experience": "Any (new grads ok)",
+      "visa": "US citizen/visa only",
+      "skills": [
+        "Amazon Web Services (AWS)",
+        "Python",
+        "React",
+        "Rust",
+        "TypeScript",
+        "Windows",
+        "MacOS",
+        "Machine Learning",
+        "Software Architecture",
+        "Software Security",
+        "LLMs",
+        "Evals",
+        "AI Agents"
+      ]
+    },
+    {
+      "id": 105946,
+      "title": "Founding Chief of Staff, GTM + Operations",
+      "url": "https://www.ycombinator.com/companies/autostep/jobs/ySZUtf3-founding-chief-of-staff-gtm-operations",
+      "location": "San Francisco, CA, US",
+      "type": "Full-time",
+      "role": "Operations",
+      "role_type": null,
+      "salary_range": "",
+      "equity_range": "",
+      "experience": "Any (new grads ok)",
+      "visa": "US citizen/visa only",
+      "skills": [
+        "Data Analytics",
+        "Prototyping",
+        "Prompt Engineering",
+        "LLMs",
+        "AI Agents"
+      ]
+    }
+  ],
+  "news": [],
+  "launches": [
+    {
+      "id": 103675,
+      "title": "Autostep: Measure the ROI of Knowledge Work",
+      "tagline": "Autostep: Measure Human and Agent ROI",
+      "body": "I'm Aidan, founder of Autostep. We are raising to enable the P&amp;L of knowledge work (link below).\n\n\\\nMost companies can tell you what they spend on AI. Almost none can tell you what came back. \n\nAutostep is a desktop app that installs across a company and maps real work. It finds repeated tasks, bottlenecks, waiting, and admin loops, then ranks them by cost and impact.\n\n\\\nFrom there, Autostep helps decide what should happen next: build an agent, change the process, standardize the workflow, or use software the company already pays for.\n\n\\\nProduct video: <https://youtu.be/xxzvZKfVdKM>\n\nThe problem we are solving:\n\n* The blocker for AI adoption is proof and discovery. Before rollout, teams need the workflow to target and the capacity returned after the fix.\n* They still struggle to answer the board-level question: Did this return results? Autostep answers that from the work itself.\n\n\\\nHow it works:\n\n1. Install once across the org. No integrations\n2. Discover the cost of human &amp; agent tasks.\n3. Measure Human ROI: where people lose time and how much capacity can come back.\n4. Measure Agent ROI: which AI workflows earn their cost and which burn money.\n5. Act: remove the step, standardize it, route it to the right tool, or build the agent.\n\nThe long-term bet is that Autostep becomes the system of record for work: the layer a company uses to see capacity, measure AI payoff, and eventually pay people for working smarter. This is different than automating a bad process faster.\n\n\\\nWe are already working with companies that have the same pain: leaders want AI to work, and operators need the scorecard before they add one more workflow to manage.\n\n\\\nOur ask:\n\n* If you know a COO, CFO, ops leader, or founder trying to prove whether AI is paying back, we would love an intro.\n* If you build agents or workflow automation products, let's talk. Autostep finds the work and can route teams to the right fix.\n* If you are an angel who believes every company will need an AI ROI layer, Aidan would love to compare notes.\n\nBook a demo: <https://calendly.com/aidan_/autostep>\n\nInvestors: <https://calendly.com/aidan_/p26>\n\nExample human tasks:\n\n![uploaded image](/media/?type=post&id=103675&key=user_uploads/403669/efe32ee3-91a7-4339-84a7-824e776fa5a7)\n\nRecommendations:\n\n![uploaded image](/media/?type=post&id=103675&key=user_uploads/403669/1c03b4d2-5676-4caf-af57-5ebbaac1a3c4)\n\n",
+      "url": "https://www.ycombinator.com/launches/QyB-autostep-measure-the-roi-of-knowledge-work",
+      "votes": 5,
+      "created_at": "2026-06-23T03:54:52.673Z"
+    },
+    {
+      "id": 98260,
+      "title": "Autostep - Uncover Repetitive Tasks Ready For AI",
+      "tagline": "Welcome to Autostep - Uncover Your Repetitive Tasks Ready For AI and Automate Them",
+      "body": "Hey YC - I'm Aidan, founder of Autostep.\n\n**TLDR:** Every company wants to deploy AI agents, but almost none have a way to identify their best use cases. Autostep is a desktop app that installs across your organization to surface repetitive, high-cost tasks that fly under the radar. We rank them by cost and impact so you know what's worth automating, then build or find the right fix - whether that's an AI agent, a process change, or an existing tool.\n\n**Product:** <https://www.youtube.com/watch?v=zLn5WvoYtCk>\n\n**The Problem**\n\nThe bottleneck isn't tooling anymore, it's discovery. Without visibility into what people actually do all day, automation efforts are shots in the dark. Autostep is the layer that makes agent deployment rational instead of random.\n\nAutomation vendors start with the solution and hope you know the problem. We start with the problem.\n\n**Why Now**\n\nThe AI agent market is exploding, but adoption is stalling because there's no way to map operations at the level agents actually need. Autostep is the operational intelligence layer that every company will need before they can meaningfully deploy agents. We're not competing with agent builders - we're the prerequisite.\n\n**Compounding Context**\n\nThe tooling landscape shifts every month - new agents, new platforms, new vendors - and no team feels like they can keep up. Autostep gives you a living map of your operations, so you're not chasing the next tool. You're building compounding context about how your company actually works. When better AI arrives, you're ready to use the latest - not starting over. You stay ahead of competitors.\n\nThis is for those who want visibility into what their teams actually do - and agents that fit the work, not work that fits the agents.\n\n**Backstory**\n\nI’m Aidan. I studied ML and CS at Georgia Tech and have been building and shipping products since I was a kid. I’ve also spent the past 6 years working on automation-based products that led to this moment. Working at seed to Series A startups with strong PMF, I saw the same pattern over and over: companies wanted to automate but had no systematic way to figure out what was actually worth automating. That discovery gap is what Autostep solves.\n\n**Our Ask**\n\nIf you know any operations leaders or C-suite/leadership at companies who want visibility into what their teams are actually doing before throwing AI at the problem - we'd love an intro.\n\n**Book a demo: [https://calendly.com/aidan\\_/autostep](https://calendly.com/aidan_/autostep)**\n\nReach me, shoot an intro, or ask questions: 📧 [aidan@autostep.ai](mailto:aidan@autostep.ai)\n\nP.S.\n\n**Landing page (Just updated)**\n\n![uploaded image](/media/?type=post&id=98260&key=user_uploads/403669/2cafa97a-22cb-475d-9d2d-b9d275fd4206)\n\n**Tasks**\n\n![uploaded image](/media/?type=post&id=98260&key=user_uploads/403669/abdeeff0-e4ee-48a8-82e2-c1e2724d11c3)\n\n**Recommendations**\n\n![uploaded image](/media/?type=post&id=98260&key=user_uploads/403669/2f117d23-2aaa-4f5e-bdd8-7d6a4f1dd7e6)\n\nLooking forward to making everyone auto-agentic,\n\n\\-A",
+      "url": "https://www.ycombinator.com/launches/PYq-autostep-uncover-repetitive-tasks-ready-for-ai",
+      "votes": 33,
+      "created_at": "2026-02-27T15:57:49.783Z"
+    }
+  ]
+}

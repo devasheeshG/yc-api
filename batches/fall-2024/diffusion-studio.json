@@ -1,0 +1,86 @@
+{
+  "id": 30102,
+  "name": "Diffusion Studio",
+  "slug": "diffusion-studio",
+  "former_names": [],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/d6afcff2711f9441590b0357af0a3115ddece5ad.png",
+  "website": "https://diffusion.studio/",
+  "all_locations": "San Francisco, CA, USA; Remote",
+  "long_description": "Diffusion Studio lets your agents make videos. The agent writes a composition in TSX and mounts it into the editor. Every element stays editable. Think of it as FFmpeg for agents, with generative AI and multimodal understanding built in.",
+  "one_liner": "Turn your agent into a professional video editor",
+  "team_size": 2,
+  "industry": "Consumer",
+  "subindustry": "Consumer -> Content",
+  "launched_at": 1731522844,
+  "tags": [
+    "Artificial Intelligence",
+    "Consumer",
+    "Video",
+    "Media",
+    "AI"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Fall 2024",
+  "status": "Active",
+  "industries": [
+    "Consumer",
+    "Content"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada",
+    "Remote",
+    "Fully Remote"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/diffusion-studio",
+  "api": "https://devasheeshg.github.io/yc-api/batches/fall-2024/diffusion-studio.json",
+  "year_founded": 2023,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/diffusionstudio/",
+  "x_url": "https://x.com/diffusionhq",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": "https://github.com/diffusionstudio",
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/d6afcff2711f9441590b0357af0a3115ddece5ad.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Garry Tan",
+    "url": "https://www.ycombinator.com/people/garry-tan"
+  },
+  "founders": [
+    {
+      "user_id": 2249164,
+      "full_name": "Konstantin Paulus",
+      "title": "Founder/CEO",
+      "founder_bio": "Previously, I worked at Rohde & Schwarz in Munich (Germany), specializing in mid-range spectrum analyzers while mastering C++ and TypeScript. I'm highly product-driven and passionate about UI/UX design. Alongside my professional work, I’ve built an engaged audience of over 100k across social media through my content creation efforts.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/konstantin-paulus",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/f81c1be9c2b2d3bcd5cf1f8ef9990ad87e821a16.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 85607,
+      "title": "Diffusion Studio - The AI Video Editor",
+      "tagline": "Figma for Video Editing using Webcodecs Browser Acceleration",
+      "body": "# TL;DR\n\nDiffusion Studio is an AI-powered video editing application that automates repetitive editing tasks right in the browser. Diffusion Studio takes advantage of recently released Webcodecs and WebGPU to encode, process, and decode videos with hardware acceleration. \n\n<https://www.youtube.com/watch?v=FbMyfluvdYU>\n\n# The Founders\n\nKonstantin’s last job was developing signal-processing devices for a large German manufacturer. As soon as WebGPU was released, Konstantin started to work on building applications using that technology. This led him to start Diffusion Studio.\n\nMatthias previously built a startup that used AI-driven video processing to detect and track traffic participants on hardware-constrained devices. Through that, Matthias gathered valuable experience in hyper-optimizing video processing AI to run on everyday devices in real time.\n\n![uploaded image](/media/?type=post&id=85607&key=user_uploads/2235261/0971d314-1bc5-48bc-b89b-0f72212f8f6e)\n\n# The Problem\n\nCreating fully polished and publishable video content is a time-intensive task, with each minute of a finished video requiring about an hour of tedious editing. This often means making several precise, manual adjustments. Some content creators try to solve this by outsourcing editing to low-wage countries but face issues with language barriers, endless back and forth, and reduced quality of the finished videos. \n\nThere’s a need for a simple video editing tool with a set of robust, focused features that enable the production of high-quality videos.\n\n# The Solution\n\nDiffusion Studio fills that need by automating large parts of the editing process. The auto edit feature automatically eliminates filler words, pauses, repetitive starts, and redundant explanations. Further editing the auto-edit draft is also easy with Diffusion Studio’s simple UI, which allows users to edit the video directly using either the transcript or the timeline. Additionally, Diffusion Studio runs entirely in the user's browser on the user’s hardware, which means there are no uploads or downloads to wait on once the video has been edited.\n\n**Check out our product at **[**https://v2.diffusion.studio**](https://v2.diffusion.studio)** - editing your videos has never been more effortless.**\n\nHomepage: <https://diffusion.studio>\\\nLinkedin: <https://linkedin.com/company/diffusionstudio>\\\nX/Twitter: <https://x.com/diffusionhq>\\\nGitHub: <https://github.com/diffusionstudio>",
+      "url": "https://www.ycombinator.com/launches/MGl-diffusion-studio-the-ai-video-editor",
+      "votes": 176,
+      "created_at": "2024-11-15T20:37:52.891Z"
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "id": 32172,
+  "name": "Jcode",
+  "slug": "jcode",
+  "former_names": [
+    "Solo Labs"
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/0d863d3cf6091c132bb3f8d22d57b3597bc971de.png",
+  "website": "https://jcode.sh/",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "An agent is LLM + harness: We work purely on that second component. We do research and engineering to produce the most capable and efficient harness. Our harness has 20k stars on , and has $1m/month of inference spend",
+  "one_liner": "The harness company",
+  "team_size": 1,
+  "industry": "Consumer",
+  "subindustry": "Consumer",
+  "launched_at": 1786012852,
+  "tags": [
+    "Artificial Intelligence",
+    "Developer Tools"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Summer 2026",
+  "status": "Active",
+  "industries": [
+    "Consumer"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/jcode",
+  "api": "https://devasheeshg.github.io/yc-api/batches/summer-2026/jcode.json",
+  "year_founded": 2026,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/in/jeremy1huang/",
+  "x_url": "https://x.com/1jehuang",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/0d863d3cf6091c132bb3f8d22d57b3597bc971de.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Brad Flora",
+    "url": "https://www.ycombinator.com/people/brad-flora"
+  },
+  "founders": [
+    {
+      "user_id": 2670902,
+      "full_name": "Jeremy Huang",
+      "title": "Founder/CEO",
+      "founder_bio": "hacked github\ntop 500 monkey type\nhttps://github.com/1jehuang\nage 21",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/jeremy1huang/",
+      "x_url": "https://x.com/Jeremy069626792",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/9ab93ad5c963e25acbd5597cd4094a99163c0c0b.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 109551,
+      "title": "Jcode: High-performance coding agents",
+      "tagline": "20x more agents, 20x more productivity, 20x less RAM",
+      "body": "[ ](https://drive.google.com/file/d/1zthUpXW7Hi4L-RS7sdzT1gbcEoS-VlM5/view?usp=sharing)\n\\\nThis is me running 20 agents in parallel. This is my real everyday workflow, not a demo.\n\n**What we do** Jcode is an open-source coding agent that's 20x more memory-efficient than Claude Code, which means you can run 20x more agents in parallel on the same machine. It hits state-of-the-art results on coding benchmarks. Try it: <https://jcode.sh/>\n\n**The problem** Most coding agents are heavy. Each instance eats gigabytes of RAM, and because memory is the bottleneck, you can only run a handful at once. That caps how much work you can hand off at a time. The real power of agents is dispatching lots of different tasks in parallel and having them all worked on at once, and that's exactly what today's tools make too expensive to do.\n\n**Our solution** Jcode is engineered from the ground up to be lightweight, roughly 20x more memory-efficient than Claude Code. Since RAM is what caps how many agents you can run, cutting memory 20x lets you fire off 20x more tasks in parallel on the same hardware. It's fully open source, so you can run it yourself and inspect exactly what it does.\n\n**Who I am** I'm Jeremy, 21, building Jcode. I think running many agents in parallel is the single biggest lever in developer productivity. Previously I hacked GitHub Copilot for unlimited tokens, and I'm top 500 in the world on Monkeytype. GitHub: <https://github.com/1jehuang>\n\n**Developers:** Try Jcode today: <https://jcode.sh/>\n\n**Investors:** I'm raising around Demo Day. Reach out: [jeremy@solosystems.dev](mailto:jeremy@solosystems.dev)\n\n![uploaded image](/media/?type=post&id=109551&key=user_uploads/2670902/ee164e14-5c6a-4811-9e21-c0a80aa3c004)\n\n",
+      "url": "https://www.ycombinator.com/launches/SUx-jcode-high-performance-coding-agents",
+      "votes": 34,
+      "created_at": "2026-08-10T16:49:30.145Z"
+    }
+  ]
+}

@@ -1,0 +1,106 @@
+{
+  "id": 30707,
+  "name": "Phases",
+  "slug": "phases",
+  "former_names": [
+    "Patiently"
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/7f48e664a460b19faede05bd1de6c49c5d3931a9.png",
+  "website": "https://phases.ai",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "",
+  "one_liner": "AI for the physical world",
+  "team_size": 3,
+  "industry": "Industrials",
+  "subindustry": "Industrials -> Manufacturing and Robotics",
+  "launched_at": 1751998711,
+  "tags": [
+    "Artificial Intelligence",
+    "Healthcare IT",
+    "Conversational AI"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Summer 2025",
+  "status": "Active",
+  "industries": [
+    "Industrials",
+    "Manufacturing and Robotics"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/phases",
+  "api": "https://devasheeshg.github.io/yc-api/batches/summer-2025/phases.json",
+  "year_founded": 2025,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/phases-ai/",
+  "x_url": "",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/7f48e664a460b19faede05bd1de6c49c5d3931a9.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [
+    "https://bookface-images.s3.us-west-2.amazonaws.com/attachments/b03a878d766dd7d019677b0b8116cc359f40c356.png"
+  ],
+  "primary_partner": {
+    "name": "Gustaf Alstromer",
+    "url": "https://www.ycombinator.com/people/gustaf-alstromer"
+  },
+  "founders": [
+    {
+      "user_id": 2781701,
+      "full_name": "James Wall",
+      "title": "Founder/CEO",
+      "founder_bio": "AI for the physical world",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/j-m-wall/",
+      "x_url": "https://x.com/jameswall000",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/9b0c0108c23dd192b2be669d9e202ade07d9d3c4.jpg"
+    },
+    {
+      "user_id": 2662070,
+      "full_name": "Anton Zaliznyi",
+      "title": "Co-founder & Chief AI Officer",
+      "founder_bio": "Previously Robotics/AI Researcher at University of Toronto and SWE at Palantir.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/anton-zaliznyi/",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/1cf5a5f5ccbd711ef8b0eb3f4a67fda44e8bbfc7.jpg"
+    },
+    {
+      "user_id": 646263,
+      "full_name": "Jonathan van Wersch",
+      "title": "Founder/CTO",
+      "founder_bio": "- Previously a software engineer at Meta, where I worked on integrating machine learning into the mobile ads manager app.\n- Before Meta, I was at Improbable, a UK unicorn, where I helped scale the web platform team from 3 to 20 engineers.\n- I hold a bachelors and masters in mechanical engineering from the University of Bath, where I was project manager and engineering lead for the university's rocket team.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/jonathan-vw/",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/3cc0cc808d31a9fac0b3e6db7c3efefa37562714.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 91981,
+      "title": "Phases: Automating clinical trials with AI agents, starting in patient recruitment",
+      "tagline": "Developing life-saving drugs shouldn't take a decade.",
+      "body": "Hi YC! We’re Jonathan, Anton, and James - and we’re building **Phases**.\n\n**We’re already live with customers,** helping them fill trials faster, hit recruitment targets, and prevent costly delays, without adding any additional work to research teams.\n\nhttps://www.youtube.com/watch?v=10N_b2s4128\n\n## ❌ The Problem\n\n**75% of people die from diseases we still can't cure (WHO).**\n\nClinical trials are how we bring new treatments to the world, but today it takes over a decade and more than $1 billion to bring a new drug to market. Nowhere is the problem more obvious than in **patient recruitment.**\n\nRecruitment is the biggest bottleneck:\n\n* **Research sites** read 1000s of medical records and run 30+ min screening calls to enroll just 1 in 10 patients, using phones, spreadsheets, and disconnected systems.\n* **Patients:** Wait days or weeks to hear back, face slow and frustrating screening processes, and often drop out due to poor communication and lost trust.\n* **Pharma companies:** Lose up to $312M per delayed trial (12.2-month average delay), with 80% of studies missing recruitment targets despite spending 30% of their budgets on it.\n\n## 👷 The Solution\n\nMeet **Polly** - the AI recruiter for clinical trials.\n\nPolly is an AI agent that helps research sites find, interview, and schedule patients for clinical trials. She integrates with the tools the team already uses, so there’s nothing new to learn.\n\nPolly handles recruitment end-to-end, with potentially eligible patients automatically landing in research site calendars for their first visit.\n\n**How Polly helps:**\n\n* **Speed:** Saves team's hours per week by automating medical records reviews and turning 30+ minute screening conversations into 1-minute decisions.\n* **Scale & Flexibility:** Engages every patient the moment they express interest, 24/7, and scales on-demand, handling thousands of conversations at once without burdening research teams.\n* **Cost:** Automates the most labor-intensive parts of patient recruitment, filling trials faster at a fraction of the cost.\n\n## 🚀 The Vision\n\nPolly is just the start. We’re building the digital workforce for clinical research that will run all back-office trial operations so research teams can focus on patients, not paperwork.\n\nFor anyone living with or caring for someone with a chronic condition, one thing is clear: **Developing life-saving drugs shouldn't take a decade.**\n\n## 👋 Our Backstory\n\nOur founding team worked on integrating machine learning into the mobile ads app at Meta, developer and deployment experiences at Palantir, and published deep learning research in microsurgical robotics at the University of Toronto. Our CEO, who grew up around clinical trials with a mother overseeing dozens of studies as medical director at J&J, Janssen, and Schering Plough, has designed data science AI agents adopted by leading companies, including J&J and Syneos Health.\n\n## 🙏 Call to Action\n\nIf you know anyone running or working in clinical trials at **research sites**, **CROs**, or **pharma companies**, we’d love intros!\\\n📩 Reach out to us at [**founders@phases.ai**](mailto:founders@phases.ai)\n\n![uploaded image](/media/?type=post&id=91981&key=user_uploads/2781701/8b483570-4f2e-497b-921c-1563ba2259f0)\n\n![uploaded image](/media/?type=post&id=91981&key=user_uploads/2781701/ebb2c1e7-76a3-43e7-a87b-780f58bf0129)\n\n",
+      "url": "https://www.ycombinator.com/launches/NvZ-phases-automating-clinical-trials-with-ai-agents-starting-in-patient-recruitment",
+      "votes": 28,
+      "created_at": "2025-07-08T20:04:34.357Z"
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "id": 33540,
+  "name": "Osseus",
+  "slug": "osseus",
+  "former_names": [],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/fd39ca163a2a8ea396a6ec66701926317f9f416c.png",
+  "website": "https://osseus.ai/",
+  "all_locations": "",
+  "long_description": "In an era of cheap intelligence, the most important application of AI will be to improving human health, globally. Osseus provides off-the-shelf or custom medical and biological datasets and RL environments to frontier labs.\r\n\r\nWe work with hospitals and clinics to provide our EHR and deploy AI models within clinical workflows, with models from both our frontier lab partners and our own research.",
+  "one_liner": "The frontier data platform for health and biological AI",
+  "team_size": 2,
+  "industry": "B2B",
+  "subindustry": "B2B",
+  "launched_at": 1783740069,
+  "tags": [
+    "Artificial Intelligence",
+    "Robotics",
+    "B2B",
+    "Biotech",
+    "Healthcare"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Summer 2026",
+  "status": "Active",
+  "industries": [
+    "B2B"
+  ],
+  "regions": [
+    "Unspecified"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/osseus",
+  "api": "https://devasheeshg.github.io/yc-api/batches/summer-2026/osseus.json",
+  "year_founded": 2026,
+  "city": null,
+  "country": null,
+  "linkedin_url": "https://www.linkedin.com/company/osseus-intelligence",
+  "x_url": "",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/fd39ca163a2a8ea396a6ec66701926317f9f416c.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Jared Friedman",
+    "url": "https://www.ycombinator.com/people/jared-friedman"
+  },
+  "founders": [
+    {
+      "user_id": 1409413,
+      "full_name": "Anish Mariathasan",
+      "title": "Founder/CEO",
+      "founder_bio": "Co-Founder at Osseus (YC S26). Prev. co-founded a compliance AI startup. ML research at a Harvard-HKU joint lab on computer vision for cancer research. MEng in Biomedical Engineering from Imperial College London, dropped Oxford PhD in AI for Health. Awarded academic scholarships for both.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/anishmariathasan/",
+      "x_url": "https://x.com/mariathasanish",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/2e6cc631f0d2a1f1b51513c008b98bed931bad1b.jpg"
+    },
+    {
+      "user_id": 1979222,
+      "full_name": "Ayush Patel",
+      "title": "Founder/CTO",
+      "founder_bio": "Co-Founder at Osseus (YC S26). 2x intern at Apple, where he built an agentic QA system. MEng in Computer Science from Imperial College London.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/ayush-patel4/",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/ccdce4615ca525f275d384024cd3e6eb8abc2e18.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 109975,
+      "title": "Osseus: The intelligent development platform for robotics",
+      "tagline": "Build robots at the speed of software. Trace and fix all the downstream impacts of a design change.",
+      "body": "**TL;DR:** Osseus plugs into the tools a robotics team already uses and crafts a live dependency graph of the entire robot. When you change a part, our agents trace what it affects across mechanical, electrical, and software, re-run the tests and sims, and then propose fixes in a branch for engineers to merge in.\n\n**Ask:** If you work in robotics, as a professional or hobbyist, please reach out. Details at the bottom, or find us at [founders@osseus.ai](mailto:founders@osseus.ai).\n\n<https://youtu.be/tEpkmA42fSA>\n\nHey everyone, we’re Anish and Ayush from Osseus. We’re building the intelligent development platform for robotics.\n\nThe age of robots is coming, and will not be unlocked by better AI models alone. Robot development is still messy and broken: every iteration crosses mechanical, electrical, software, suppliers, and testing, while the reasoning is scattered across tools and people. We’re building Osseus to make robot development agentic, compress the iteration cycle, and drive the avoidable cost of each design change to zero.\n\n**The problem: One component change can break an entire robot build. A requirements error discovered during integration and testing can cost up to 78x more to fix than one caught upfront.**\n\nImagine the specified drive motor has a months-long lead time, or is underpowered, so the team selects a replacement. It looks similar, but it has a longer housing, draws more current, uses a different connector, and reports motion differently.\n\nTo the mechanical team, it is a motor swap. To electrical, it is a current and connector change. To software, it is a calibration change. The bracket, wiring, motor controller, thermal limits, firmware, requirements, and tests may all need review, but that chain is scattered across different tools and teams. Nobody sees the whole robot until integration fails.\n\n**What we do: Trace the change, prepare the fixes, and validate them before the build.**\n\n* **Build the requirements graph.** Osseus connects into the tools a robotics team already uses (CAD, ECAD, GitHub, Jira, docs, test runs) and crafts a live dependency graph of the entire robot. The extracted requirements are related to every component, decision, test and evidence that proves it.\n* **Trace downstream impact.** When a change is made or being proposed, Osseus identifies the affected hardware, software, requirements, owners, tests, and simulations.\n* **Run CI/CD across hardware and software.** Osseus' agents find which requirements may be compromised, run the attached tests and sims, create fixes for the affected hardware/software on branches, and re-run the tests to confirm the new design doesn’t break downstream.  Engineers see the proposed changes and evidence before approving and merging them.\n\n**Design with parts you can actually get.**\n\nThe Osseus Marketplace brings nearby component availability and lead times into the design process. If the specified motor is unavailable, teams can find compatible alternatives to buy or rent and compare their effects on geometry, power, thermal limits, software, and testing before committing.\n\nThis helps builders keep prototypes moving instead of waiting weeks for parts. Teams and individuals can also monetize spare components and unused prototyping hardware by listing them for sale or rent.\n\n**Design review that remembers.**\n\nEngineers can see why a component was chosen, what was tried previously, and why an earlier design failed. Suppliers can comment directly on a part through a secure link. If a supplier flags that something cannot be manufactured or suggests a change that reduces cost, that insight stays connected to the design and resurfaces when relevant.\n\n**The team**\n\nWe’re Imperial College London engineering and computer science graduates. Between us, we’ve done robotics research at Imperial, ML research at a Harvard-HKU lab, and built agentic systems at Apple.\n\n![uploaded image](/media/?type=post&id=109975&key=user_uploads/1409413/c2262c87-4d8b-4f68-a69d-3ec56d3eb217)\n\n**How you can help**\n\nWe would love to speak with, or intros to:\n\n* VPs and Heads of Engineering, Robotics, Systems, or Hardware at companies building physical robots.\n* Robotic engineers who have felt the pain of integration.\n* Hobbyists, university teams, and independent builders who build or modify robots.\n* Anyone who has spare components they would list, or are looking to buy/rent.\n\nWe’re onboarding in waves - sign up to the [waitlist here](https://osseus.ai/)! Email us at [hello@osseus.ai](mailto:hello@osseus.ai) or[ book a call](https://osseus.cal.com/founders/osseus-intro).",
+      "url": "https://www.ycombinator.com/launches/Sbn-osseus-the-intelligent-development-platform-for-robotics",
+      "votes": 59,
+      "created_at": "2026-08-11T13:30:00.269Z"
+    }
+  ]
+}

@@ -1,0 +1,145 @@
+{
+  "id": 30101,
+  "name": "Kilvin",
+  "slug": "kilvin",
+  "former_names": [
+    "Chorrie",
+    "BrowserBook"
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/b8aa78b8b96db85bb2ce800dc4eae6fc788564af.png",
+  "website": "https://www.kilvin.ai",
+  "all_locations": "New York City, NY, USA",
+  "long_description": "Kilvin is an AI-native agency that builds custom software solutions for non-technical teams.\r\n\r\nWith AI, the future of software is democratized. Every team deserves tools built exactly for them, not off-the-shelf SaaS products they need to adapt to. Kilvin makes it a reality, delivering a private, secure workspace of custom applications, built around your workflows and ready in days, not months.\r\n\r\nNo engineers needed on your side. Just software that fits exactly how you work.",
+  "one_liner": "Build your own desktop",
+  "team_size": 3,
+  "industry": "B2B",
+  "subindustry": "B2B -> Engineering, Product and Design",
+  "launched_at": 1731609344,
+  "tags": [
+    "Developer Tools",
+    "Productivity",
+    "Data Engineering",
+    "Automation",
+    "AI"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": true,
+  "nonprofit": false,
+  "batch": "Fall 2024",
+  "status": "Active",
+  "industries": [
+    "B2B",
+    "Engineering, Product and Design"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada",
+    "Remote",
+    "Partly Remote"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/kilvin",
+  "api": "https://devasheeshg.github.io/yc-api/batches/fall-2024/kilvin.json",
+  "year_founded": 2024,
+  "city": "New York City",
+  "country": "US",
+  "linkedin_url": "https://linkedin.com/company/kilvin-ai/",
+  "x_url": "",
+  "fb_url": null,
+  "cb_url": "https://www.crunchbase.com/organization/chorrie",
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/b8aa78b8b96db85bb2ce800dc4eae6fc788564af.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [
+    "https://bookface-images.s3.us-west-2.amazonaws.com/attachments/aa7393d468539a73caee6d9313b35b9881c2cab3.png"
+  ],
+  "primary_partner": null,
+  "founders": [
+    {
+      "user_id": 739375,
+      "full_name": "Christopher Schlaepfer",
+      "title": "Founder/CEO",
+      "founder_bio": "Co-Founder and CEO of BrowserBook. https://www.browserbook.com",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/cschlaep/",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/392cd705c1908c02f96668e38871dd3f2234f243.jpg"
+    },
+    {
+      "user_id": 1970548,
+      "full_name": "Jorrie Brettin",
+      "title": "Founder/CTO",
+      "founder_bio": "Co-Founder and CTO of BrowserBook. https://www.browserbook.com\n",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/jorrie-brettin-349a6383/",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/c28014416ede57d2fe39326db64b2cc5ff2da234.jpg"
+    }
+  ],
+  "jobs": [
+    {
+      "id": 96213,
+      "title": "Senior Platform Engineer",
+      "url": "https://www.ycombinator.com/companies/kilvin/jobs/s3b5Le2-senior-platform-engineer",
+      "location": "New York, NY, US / Denver, CO, US / Philadelphia, PA, US / Remote (US)",
+      "type": "Full-time",
+      "role": "Engineering",
+      "role_type": "Full stack",
+      "salary_range": "$120K - $180K",
+      "equity_range": "0.01% - 1.00%",
+      "experience": "6+ years",
+      "visa": "US citizen/visa only",
+      "skills": [
+        "Git",
+        "Smalltalk",
+        "TypeScript",
+        "AI Agents"
+      ]
+    },
+    {
+      "id": 100106,
+      "title": "Forward-Deployed Engineer",
+      "url": "https://www.ycombinator.com/companies/kilvin/jobs/5WEK19z-forward-deployed-engineer",
+      "location": "New York, NY, US / Philadelphia, PA, US / Denver, CO, US / Remote (US)",
+      "type": "Full-time",
+      "role": "Engineering",
+      "role_type": "Full stack",
+      "salary_range": "$120K - $180K",
+      "equity_range": "0.01% - 0.50%",
+      "experience": "3+ years",
+      "visa": "US citizen/visa only",
+      "skills": [
+        "Git",
+        "TypeScript",
+        "AI Agents"
+      ]
+    }
+  ],
+  "news": [],
+  "launches": [
+    {
+      "id": 96111,
+      "title": "BrowserBook - The Browser Automation IDE",
+      "tagline": "Write, run, and deploy reliable web automations in minutes, not hours",
+      "body": "Hey YC!\n\nWe’re [Chris](https://www.linkedin.com/in/cschlaep/) and [Jorrie](https://www.linkedin.com/in/jorrie/), cofounders of [BrowserBook](https://www.browserbook.com).\n\nhttps://youtu.be/FkaGHhJWy1w\n\n# **TLDR**\n\nWe make it trivial for developers to write reliable web automations.\n\n# **Ok, but _what is it?_**\n\nBrowserBook is an IDE that puts all the tools automators need in one place, so the iteration loop to write, test, debug, and deploy web automations is significantly reduced.  It combines:\n\n* **A Jupyter-like coding environment** where developers can run code cells individually,\n* **An inline browser** to run automation code against\n* **A Playwright coding agent** that can write the automation for you\n* **A bunch of built-ins** for taking screenshots, extracting data, and authentication\n\nAnd, once you’re done writing your script, you can deploy it and trigger it via our public API.  It’s super easy!\n\n# **But browser agents are a thing, right?**\n\nYes, and we’re not using them.  We built BrowserBook because of the shortfalls we experienced with browser agents and the pain of actually writing reliable scripts.  At a very high level, in the AI world you can take two approaches to web automation - write scripts, or use browser agents.\n\n1. **Use browser agents:** ostensibly more flexible, but expensive, slow, and unreliable\n2. **Write scripts:** fast and debuggable, but infamously brittle\n\nWhich leads us to…\n\n# **The problem (and how we got here)**\n\n**Sometimes we need machines to interact with web pages, which are made for humans.**\n\nThis is basically the whole challenge.  There’s a lot of reasons we might want machines to poke around on the web:\n\n* Agents using a browser to interact with the web to perform actions like humans, especially when they can’t use APIs\n* Scrapers to gather data that’s useful for our business\n* UI tests that can interact with a website the way a human would to ensure everything’s working as intended\n* Workflow automation via RPA\n\nWe tried **browser agents** in our pre-pivot days to automate healthcare workflows. They mostly didn’t work; they were an order of magnitude more expensive than scripts, slow because of all the context they needed, and tended to drift when workflows got complex.  When they did drift, fixing them was just tedious prompt-massage and trial-and-error.\n\nWe ended up giving the agent a library of scripts to execute, and came to realize scripting was simply the better solution for reliable enterprise workflows; they’re deterministic and therefore inherently debuggable, not to mention their cost and speed advantage.  They with a host of issues though:\n\n* **Websites change often** causing scripts to break. We needed a way to quickly diagnose and iterate on our scripts.\n* **Setting up browser and filesystem infrastructure** is not easy but very necessary in the web automation world.\n* **It’s just annoying to write scripts** - if you’ve ever had to dig around for selectors, you know: it’s tedious and time consuming.\n\nSo we built BrowserBook to solve those issues.\n\n# **How does it work?**\n\n1. **Run code piecemeal** - if you’re fixing a breakage 2/3rds of the way through your script, you shouldn’t have to run the whole thing every time you test it.  We took inspiration from Jupyter notebooks and allow you to run code cells independently, while maintaining context and state:\n\n   ![uploaded image](/media/?type=post&id=96111&key=user_uploads/739375/f2203cd4-1533-402c-8b17-3147d3d21783)\n\n2. **No more digging for selectors** - tell the coding assistant what to do and it’ll implement the automation logic in Playwright:\n\n   ![uploaded image](/media/?type=post&id=96111&key=user_uploads/739375/418daacd-b744-4359-84d3-23891d386676)\n\n3. **Built-ins for the hard stuff** - want to take a screenshot?  Log in to a website with 2FA?  Extract data?  We’ve got built-ins for those, ready to go out-of-the-box.\n\n   ![uploaded image](/media/?type=post&id=96111&key=user_uploads/739375/2acfea26-9c65-4ba4-8983-8e351e75222a)\n\n4. **Accessible via API** - if you need to execute your automation via an agent you’re building, scheduled via a cron job, or as a part of your application, you can trigger automations remotely and watch the playback in-app or via our artifacts API endpoint.\n\n   ![uploaded image](/media/?type=post&id=96111&key=user_uploads/739375/957ce254-3702-407f-890d-ed8c184824e7)\n\n\n# **Our ask**\n\nTry it out!  If you:\n\n* Run browser automations\n* Are building agents that need to interact with the web\n* Need to write a one-off automation that will make your life easier\n\nBrowserBook is available for download for Mac users [on our website](https://browserbook.com/), and if you’d like you can [book a demo here](https://browserbook.com/demo).\n\nAdditionally, if you know individuals, startups, or teams at larger companies working on browser automations, we’d love to meet them!",
+      "url": "https://www.ycombinator.com/launches/P0B-browserbook-the-browser-automation-ide",
+      "votes": 74,
+      "created_at": "2025-12-10T15:55:19.861Z"
+    },
+    {
+      "id": 85580,
+      "title": "Chorrie: turn your SMEs into SWEs",
+      "tagline": "Catch errors in your manual processes before they cost you big",
+      "body": "# **TL;DR**\n\nWe supercharge your subject matter experts by giving them the tools they need to eliminate errors in heavily manual processes.\n\n**Our current mission:** empower healthcare practices to stop denials and under-billing on their claims before they happen.\n\n# **The Problem**\n\nHealthcare claims processing is an overly-complex, adversarial space. Insurance payers are constantly changing their policies, forcing billing teams to rely on:\n\n* frequent and extensive retraining\n* coding rules worksheets with hundreds of tabs\n* esoteric tribal knowledge\n\nWith so much room for human error, it’s no wonder 73% of healthcare staff surveyed reported that they’re facing increasing denials on outgoing claims.\n\n# **A turnkey solution for medical claims checks**\n\n[Here’s where Chorrie comes in.](https://youtu.be/orI95bsgaio)\n\nChorrie uses AI to empower medical practices to turn their esoteric knowledge into automated checks, saving time, money, and mental effort. We take simple, deterministic instructions, and translate them into a code-based decision tree, which can be continuously run to automate correctness checks for complex rules systems.\n\nTake the example in our video: we get a glimpse at how extensive these rules worksheets can become today, and see how quick & easy it is to automate a rule for claims from a particular location, containing a particular code, billed to a particular insurance payer with Chorrie.\n\n# **Backstops-as-a-service**\n\nOur approach of plaintext ➡️ decision tree ➡️ code generation is a scalable technique that can be used to provide backstop checks (and ultimately automate) high-leverage, deterministic manual processes that are prone to human error (think contract review for legal documents, trade confirmations, etc.).\n\nTo automate checks for these today, you’d need a team of engineers to write the logic into code, and keep them on staff to ensure that code can be updated when the rules change. **With Chorrie, you get:**\n\n* A no-code solution: turn your SMEs into SWEs\n* No hallucinations in your automated workflows\n* Intrinsically deterministic & fully explainable conclusions\n\nWhile the focus today is on reducing claims denials to 0% for our healthcare clients, we plan to explore use cases in other fields in the future.\n\n# **About us**\n\nWe are Chris (the **Ch**) and Jorrie (the **orrie**), old friends who met in undergrad at MIT. We met back up years later at Google, where we worked on applied AI for content moderation before we decided it was time to move onto something new.\n\n![uploaded image](/media/?type=post&id=85580&key=user_uploads/739375/ce57cfdc-3b8c-41dc-a8bb-d4bccc866ab0)\n\nAfter brainstorming on a number of projects, Jorrie’s wife, an ophthalmologist, gave us the idea of applying AI to the medical coding world and the rest is history!\n\n# **Our ask**\n\nDo you have any tedious or high-leverage manual processes where errors can cost your business money (Think heavy manual review processes, major transactions that need to be verified, etc.)? Or any contacts in the medical billing world? We’d love to chat.\n\n📧 [**founders@chorrie.com**](https://mailto:founders@chorrie.com)",
+      "url": "https://www.ycombinator.com/launches/MGK-chorrie-turn-your-smes-into-swes",
+      "votes": 80,
+      "created_at": "2024-11-14T22:58:45.072Z"
+    }
+  ]
+}

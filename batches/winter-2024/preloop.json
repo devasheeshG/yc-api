@@ -1,0 +1,94 @@
+{
+  "id": 29375,
+  "name": "Preloop",
+  "slug": "preloop",
+  "former_names": [],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/62ebbbabf82f9c9badd0bbcb60f8749d391d5a78.png",
+  "website": "https://www.preloop.com",
+  "all_locations": "Seattle, WA, USA",
+  "long_description": "Only 2 out of 10 ML models make it from experiment to production. Preloop helps automate the process of deployment, helping companies realize more value from their machine learning teams, while focusing teams' attention on science instead of engineering.",
+  "one_liner": "Translate your experimental scripts into production ML services",
+  "team_size": 2,
+  "industry": "B2B",
+  "subindustry": "B2B -> Engineering, Product and Design",
+  "launched_at": 1702654646,
+  "tags": [
+    "Artificial Intelligence",
+    "Deep Learning",
+    "Developer Tools",
+    "Machine Learning",
+    "Data Science"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Winter 2024",
+  "status": "Inactive",
+  "industries": [
+    "B2B",
+    "Engineering, Product and Design"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/preloop",
+  "api": "https://devasheeshg.github.io/yc-api/batches/winter-2024/preloop.json",
+  "year_founded": 2023,
+  "city": "Seattle",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/preloop/",
+  "x_url": "https://twitter.com/preloop",
+  "fb_url": "https://facebook.com/preloop",
+  "cb_url": "https://www.crunchbase.com/organization/preloop",
+  "github_url": "https://github.com/preloop",
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/62ebbbabf82f9c9badd0bbcb60f8749d391d5a78.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Diana Hu",
+    "url": "https://www.ycombinator.com/people/diana-hu"
+  },
+  "founders": [
+    {
+      "user_id": 1310033,
+      "full_name": "Tejas Hosangadi",
+      "title": "Founder/CEO",
+      "founder_bio": "Tejas is the co-founder and CEO of Preloop, a product that automatically translates ML experimental scripts into production services. Before Preloop, he worked at Amazon where he scaled a data science team from 0-1, delivering 4 projects in the first year and leading the expansion of the team. He also worked as a senior MLE at EvolutionIQ, where he made significant improvements to a predictive model in his first month, helping them land a long term contract with Prudential.",
+      "is_active": false,
+      "linkedin_url": "https://linkedin.com/in/tejashosangadi",
+      "x_url": "https://www.twitter.com/tejastmh",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/02c87a1b7a20ffb5d7fdff8f05417310d0a049b5.jpg"
+    },
+    {
+      "user_id": 1660688,
+      "full_name": "Nikith Hosangadi",
+      "title": "Founder",
+      "founder_bio": "Technical founder experienced in working with distributed systems and machine learning. Before Preloop, he worked as a software engineer at AWS, writing code in C and Java for the VPC team.",
+      "is_active": false,
+      "linkedin_url": "https://linkedin.com/in/nikithhosangadi",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/9d2b3aed1c122e5c4788fc71373bfc4dd8e5ad4d.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 78894,
+      "title": "➿ Preloop - Deploy your ML models in hours instead of weeks",
+      "tagline": "Preloop automatically translates your experimental scripts into production ML workflows",
+      "body": "**Tl;dr:** [Preloop](https://www.preloop.com/) automatically translates your ML training scripts into production services, handling the creation of the training pipeline and REST endpoints. This means that science teams can focus on developing new models while cutting deployment times from weeks to just a few hours (or less). We’re building Vercel for model deployments.\n\n—\n\nHey everyone, we’re [Tejas](https://linkedin.com/in/tejashosangadi) and [Nikith](https://linkedin.com/in/nikithhosangadi) and we’re building Preloop. Tejas previously worked as a data scientist and software engineer at several companies, including Amazon and most recently EvolutionIQ, often leading 0-1 projects on newly established teams. Nikith has experience as a software engineer building multi-tenant distributed systems, most recently working at AWS on the networking team.\n\n![uploaded image](/media/?type=post&id=78894&key=user_uploads/1310033/6f2948a3-73ad-43eb-829c-0b23006cd26b)\n\nOur goal is to unshackle scientists from the repetitive tasks that accompany their model deployments and empower science teams to move faster. \n\n## **😫 The problem**\n\nData scientists hate the work associated with deploying their models. Science teams spend anywhere from a couple of weeks to over two months deploying their models. Assuming that a team deploys 10 models a year and each model takes 2 weeks on average to deploy, this is 20 weeks of science time spent just on deployments. \n\nThe biggest bottlenecks to quick deployment are a lack of easy-to-use tools and delays caused by handing off deployments to a separate team.\n\n## **🪄 Our solution**\n\nPreloop automates the tedious and repetitive tasks associated with deploying and using your ML models, including creating the training pipeline and inference endpoints, autoscaling based on demand and retraining. We provide an easy-to-use CLI in addition to a dashboard to monitor and track your models. It works with major ML packages like xgboost, torch, and scikit-learn, with broader support on the roadmap.\n\n![uploaded image](/media/?type=post&id=78894&key=user_uploads/1310033/3a401fe4-e051-45c2-a3b9-98bd8b492abd)\n\n## **🔍 How it works**\n\nWe scan through your existing script, identifying key information about the data, transformations, and the model being trained. This is used to construct both the training and data pipelines, as well as the inference endpoints that serve your model. \n\n![uploaded image](/media/?type=post&id=78894&key=user_uploads/1310033/976dd0ad-2492-43a4-a674-eb3618536144)\n\nWe also handle auto-scaling, observability, and versioning, so that you can train and deploy, but just as easily roll back unintended model changes. We have support for on-prem deployments for teams that have stronger security requirements.\n\n## **🤔 Why are we building this?**\n\nAs a data scientist, Tejas noticed that scientists (including himself) loved experimenting and building models but hated deploying them. More importantly, he witnessed that it often took multiple weeks before they were in production. There was a lack of a more automated solution to handle the deployment process, and even tools like Sagemaker require tons of boilerplate to work.\n\nWe want to make it easier to deploy models, so that teams can move quicker, and scientists can focus more on science. \n\n## **🙏 Our ask**\n\n* Intros to data science and ML managers at mid to large-size startups as well as large enterprises. \n* If your science team struggles with lengthy deployment times, please reach out to us by emailing [founders@preloop.com](mailto:founders@preloop.com), or by booking a meeting [here](https://outlook.office.com/bookwithme/user/27ea63c6cc9c4d398ba6525a9c0e6b25@preloop.com/meetingtype/ZKpbyV0QyU2cya_WNaNuJw2?anonymous&ep=mlink).",
+      "url": "https://www.ycombinator.com/launches/KWU-preloop-deploy-your-ml-models-in-hours-instead-of-weeks",
+      "votes": 209,
+      "created_at": "2024-02-29T16:10:32.259Z"
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "id": 30672,
+  "name": "Induction Labs",
+  "slug": "induction-labs",
+  "former_names": [
+    "Next Action"
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/0c2f926be6434de6b8c75a3a873f2b79fe0bdf59.png",
+  "website": "https://inductionlabs.com",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "We are scaling foundation models that are curious about the world.\r\n\r\nWe’ve seen general intelligence appear exactly once, and its hallmark has been curiosity: a dissatisfaction with what we already know about the world, an ability to learn from world experience, and a disposition to share knowledge with other individuals. Across generations, these human traits have built modern science, technology, and culture.\r\n\r\nWe think superintelligence will come from models that work the same way: learning from their own observation, updating as they go, growing what they know. These models will start from what humanity knows and discover past us.\r\n\r\nWe believe that scaling curious intelligence is a defining problem of our time. If solved, we will live to see a new era of technological advances, scientific understanding, and human flourishing.",
+  "one_liner": "Building intellectually curious AI",
+  "team_size": 2,
+  "industry": "B2B",
+  "subindustry": "B2B -> Infrastructure",
+  "launched_at": 1755632182,
+  "tags": [
+    "Deep Learning",
+    "Hard Tech",
+    "AI"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Summer 2026",
+  "status": "Active",
+  "industries": [
+    "B2B",
+    "Infrastructure"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/induction-labs",
+  "api": "https://devasheeshg.github.io/yc-api/batches/summer-2026/induction-labs.json",
+  "year_founded": 2025,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/induction-labs",
+  "x_url": "https://x.com/induction_labs",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/0c2f926be6434de6b8c75a3a873f2b79fe0bdf59.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Harj Taggar",
+    "url": "https://www.ycombinator.com/people/harj-taggar"
+  },
+  "founders": [
+    {
+      "user_id": 2757445,
+      "full_name": "Jonathan Li",
+      "title": "Founder/CEO",
+      "founder_bio": "Building foundation models of the future @ Induction Labs",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/jonatli/",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/90c27a353548d1b9ce21de3e22843a28c5df654f.jpg"
+    },
+    {
+      "user_id": 3212248,
+      "full_name": "David Li",
+      "title": "Founder",
+      "founder_bio": "Building foundation models of the future @ Induction Labs",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/davidy-li/",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/fdfa320022a46b1bbdfc1ec63b6c4ca91cab0451.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 107033,
+      "title": "Induction Labs - foundation models that learn from observation",
+      "tagline": "Unlocking scalable video pretraining with imagination models",
+      "body": "**TL;DR: We're Induction Labs, and today we're announcing research we've been working on: imagination models, a foundation model architecture that unlocks scalable learning from internet video. Our first model, Photon-1, beats a production LLM on internal computer use benchmarks with 30x less training compute, at 3x lower serving cost. \\[[Main Article](https://inductionlabs.com/news/scaling-video-pretraining)\\]**\n\n![uploaded image](/media/?type=post&id=107033&key=user_uploads/2757445/94f0365c-7de2-4792-ad4e-a8362f27c233)\n\nInternet video contains millions of hours of people using computers, doing skilled work, and interacting with the world.\n\nImagination models can scalably learn from this video to get better at completing tasks and understanding the world.\n\nWe tested the architecture with Photon-1, a 106B-A5B MoE transformer pretrained on 18 years of computer screen recordings.\n\n**Some Results:**\n\n* **Outperforms a production LLM (Gemini 3.1 Flash-Lite) on our internal computer use benchmarks**, with 30x less pretraining compute and 3x cheaper inference.\n\n![uploaded image](/media/?type=post&id=107033&key=user_uploads/2757445/7e217b7a-bbf0-40b0-a160-94855bbf7e90)\n\n* **Simulates full desktop sessions from a single screenshot**: it can imagine VS Code, Gmail, and ChatGPT frame by frame\n* **Generalizes beyond computers**: finetuned, it learns checkers and simulates billiard physics better than LLM baselines.\n* **Picks up human behavior from video**, like reprompting ChatGPT until it gets what it wants.\n* [**Demos here**](https://inductionlabs.com/news/scaling-video-pretraining)\n\nWe see imagination models as a path to intelligence that learns by observing the world directly, without a human first translating it into text. \n\n**Our Ask**\n\nWe’re working to scale this method to more kinds of video and looking for exceptional people to work with us! If you’re an exceptional thinker, engineer, or researcher (or know anyone who would be a great fit) - shoot us a message at [team@inductionlabs.com](mailto:team@inductionlabs.com)",
+      "url": "https://www.ycombinator.com/launches/RqL-induction-labs-foundation-models-that-learn-from-observation",
+      "votes": 15,
+      "created_at": "2026-07-23T16:02:32.265Z"
+    }
+  ]
+}

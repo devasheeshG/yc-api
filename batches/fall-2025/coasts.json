@@ -1,0 +1,95 @@
+{
+  "id": 31022,
+  "name": "Coasts",
+  "slug": "coasts",
+  "former_names": [
+    "JSX Tool"
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/14423e406f790420f115f8958c1af6eb85b97201.png",
+  "website": "https://coasts.dev",
+  "all_locations": "",
+  "long_description": "A Coast (containerized host) is a local development runtime. Coasts let you run multiple isolated environments for the same project on one machine. As AI coding agents increasingly work in parallel across git worktrees, developers hit painful conflicts — clashing ports, duplicated databases, and fragile per-branch setup. Coasts solve this by giving each worktree its own fully isolated runtime, so multiple agents can build and test side by side without stepping on each other.",
+  "one_liner": "Localhost service isolation and orchestration for git worktrees",
+  "team_size": 2,
+  "industry": "B2B",
+  "subindustry": "B2B -> Engineering, Product and Design",
+  "launched_at": 1762549706,
+  "tags": [
+    "Developer Tools",
+    "B2B",
+    "Productivity",
+    "Design",
+    "Web Development"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Fall 2025",
+  "status": "Inactive",
+  "industries": [
+    "B2B",
+    "Engineering, Product and Design"
+  ],
+  "regions": [
+    "Unspecified"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/coasts",
+  "api": "https://devasheeshg.github.io/yc-api/batches/fall-2025/coasts.json",
+  "year_founded": 2025,
+  "city": null,
+  "country": null,
+  "linkedin_url": "",
+  "x_url": "",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": "https://github.com/jsx-tool/jsx-tool",
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/14423e406f790420f115f8958c1af6eb85b97201.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Pete Koomen",
+    "url": "https://www.ycombinator.com/people/pete-koomen"
+  },
+  "founders": [
+    {
+      "user_id": 179922,
+      "full_name": "Jamie Sunderland",
+      "title": "Founder/CEO",
+      "founder_bio": "Second time YC founder. Former YC Product Engineer (I made the YC investor CRM). I like weird front end things a lot. In a former life I started Cheqout (YC W21), a QR-based ordering platform that grew to over 250 restaurants and $30M GMV during the pandemic. Before that I was a developer on Airbnb's China Risk Team.",
+      "is_active": false,
+      "linkedin_url": "https://www.linkedin.com/in/jamesrainersunderland/",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/55279d50203a8586e095775e92bc00711db83999.jpg"
+    },
+    {
+      "user_id": 3082625,
+      "full_name": "Dan Hyman",
+      "title": "Founder/CTO",
+      "founder_bio": "Senior Engineer and Cloud/AWS expert with experience leading teams building enterprise applications and infrastructure.  In a past life, I was a chef at a James Beard award winning restaurant.",
+      "is_active": false,
+      "linkedin_url": "https://www.linkedin.com/in/dan-hyman-dev/",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/66c337a2349066c317e58730f0b8c9dec3f3a10b.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 95312,
+      "title": "JSX Tool: In-Browser React IDE",
+      "tagline": "The AI first IDE for React development",
+      "body": "**tl;dr**\n\nJSX Tool is an in-browser IDE that creates a common language between developers and AI for building React UIs. Click any element in the browser to jump straight to the relevant line of code and edit it yourself, or provide precise context to an LLM to make updates.\n\nhttps://www.youtube.com/watch?v=JIIXvN7vhrs\n\n---\n\n---\n\n---\n\n**The Problem**\n\nLLMs have transformed how we write code, yet they consistently struggle with precise UI updates. The common belief is that AI simply doesn’t do well with visual tasks, but the real problem is that we're asking LLMs to understand UI without giving them proper context. They’re great at vibe styling but not great at producing precise UIs.\n\nWhen you prompt an LLM about styling or component changes today, you're describing visual elements through text alone. It's like giving directions without a map. Meanwhile, developers juggle between browser DevTools, their code editor, screenshot tools, and component explorers just to gather enough context to make AI useful for these kinds of tasks.\n\n**Our Solution**\n\nJSX Tool addresses this by letting you click on any element and prompt your LLM with precise DOM context, the exact source component, its styles, and its position in the React hierarchy. Everything happens in one place: inspect, prompt, edit, and see changes instantly. \n\nAnd when AI suggestions aren't quite right, our full IDE is right there in the browser with that same context, so you can jump to the exact line of code you want to edit with a single click. You get the benefits of AI, while keeping the creative control and the nuanced decision-making that UI development demands.\n\nNow developers and AI models share a common language for UI; both can reference the exact same visual elements with clarity, turning LLMs from guessing machines into powerful UI collaborators.\n\n**@Tagging:** In your prompts, you can either type @ and click on a section of your webpage to reference another element relative to the one you’re focused on OR you can type @/ to mention files and directories you want the LLM to have as context in your prompt.\n\n![uploaded image](/media/?type=post&id=95312&key=user_uploads/3082625/2b76e7e0-6efc-4bb5-8b16-86f1cffd6f08)\n\n**CSS Editor:** JSX Tool has a CSS editor that is nearly as feature-complete as the native CSS style editors found in browser element inspectors. Instead of applying your changes to a single element, you can see how your change to a line of JSX code would be applied globally.\n\n![uploaded image](/media/?type=post&id=95312&key=user_uploads/3082625/f911aeb0-3a85-4e30-9042-d49fd4a06d61)\n\n**LSP Integrations:** JSX Tool ships with a lightweight IDE for manually editing code, but still an IDE that does some heavy lifting. The JSX Tool IDE integrates in language servers for common React development tasks, so you can have things like type-checking, auto-complete, and linting upon save. We currently ship with LSPs for Typescript, Tailwind, ESLint, and Prettier.\n\n![uploaded image](/media/?type=post&id=95312&key=user_uploads/3082625/57a590b7-b2c0-41e1-90c3-336c839b7219)\n\nTo learn more or start using the extension, go to [jsxtool.com](https://jsxtool.com)!\n\n_Note: IDE features are currently in app review and will be available in our next release._\n\n**Team**\n\nJamie and Dan grew up in New York City and have been working on projects together for nearly 20 years. Before JSX Tool, we most recently built a mobile app for bypassing news site paywalls.\n\nJamie is a second-time YC founder. Prior to starting JSX Tool, he worked as a Software Engineer at YCombinator on their investor software. He previously co-founded Cheqout, a restaurant technology company that was a part of the YC W21 batch. Prior to his first startup, Jamie worked on Airbnb's China Risk Team.\n\nJamie has had a deep interest in higher-order and visual programming for a while. He previously built a version control system to diff and merge structured, non-textual assets. Many of the technical problems encountered in that project were very similar to those encountered in JSX Tool.\n\nDan worked most recently as a Senior Software Engineer at Everblue, where he led engineering teams building workflow applications to power US government systems. Prior to that, he worked as a Senior Cloud Engineer at Sela US. He got his start in tech in the world of React and has since returned to his roots. In a former life, he was a Chef at a James Beard award-winning restaurant.\n\n![uploaded image](/media/?type=post&id=95312&key=user_uploads/89898/dc4d88be-c544-45e6-9936-8dd8f08e80aa)\n\n",
+      "url": "https://www.ycombinator.com/launches/OnI-jsx-tool-in-browser-react-ide",
+      "votes": 53,
+      "created_at": "2025-11-09T16:01:49.332Z"
+    }
+  ]
+}

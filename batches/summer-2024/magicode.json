@@ -1,0 +1,91 @@
+{
+  "id": 29736,
+  "name": "MagiCode",
+  "slug": "magicode",
+  "former_names": [],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/4f1dbd87ba1f72f5d3f7bc950ca874d61b4ac849.png",
+  "website": "https://www.magicode.ai/",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "MagiCode is an AI-powered frontend agent that writes, reviews, and rigorously tests code before pushing a PR—helping busy frontend teams offload complex, repetitive tasks from their workload.",
+  "one_liner": "A Reliable AI Frontend Engineer",
+  "team_size": 3,
+  "industry": "B2B",
+  "subindustry": "B2B -> Engineering, Product and Design",
+  "launched_at": 1724977749,
+  "tags": [
+    "Developer Tools",
+    "Generative AI",
+    "SaaS",
+    "B2B",
+    "Enterprise Software"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Summer 2024",
+  "status": "Active",
+  "industries": [
+    "B2B",
+    "Engineering, Product and Design"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/magicode",
+  "api": "https://devasheeshg.github.io/yc-api/batches/summer-2024/magicode.json",
+  "year_founded": 2024,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/magicode-ai",
+  "x_url": "https://twitter.com/AutonomyPioneer",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/4f1dbd87ba1f72f5d3f7bc950ca874d61b4ac849.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": null,
+  "founders": [
+    {
+      "user_id": 1857814,
+      "full_name": "Jeff He",
+      "title": "Founder/CEO",
+      "founder_bio": "Before founding MagiCode, Jeff earned a Master’s degree from Stanford, where he contributed to the Stanford AI Lab, and an undergraduate degree from UC Berkeley, where he was part of the Berkeley AI Research Group (BAIR). He has published four papers on self-driving cars and reinforcement learning in top conferences like NeurIPS and ICRA. Previously, Jeff also worked as an SDE & a quant, where he developed his expertise in AI and machine learning.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/jeff-he-99a96b163/",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/9ece28c3976ae3cf4127574a7b1dcfe8dc287b99.jpg"
+    },
+    {
+      "user_id": 1256805,
+      "full_name": "Anirudh Sriram",
+      "title": "Founder/CTO",
+      "founder_bio": "Before founding MagiCode, I earned a Master’s degree from Stanford University, where I contributed to the Stanford AI Lab and Stanford Vision and Learning Lab. I also hold an undergraduate degree from IIT Madras. I have published six papers on large language models (and NLP in general) in prestigious conferences such as NeurIPS, ACM, and ACL. Prior to MagiCode, I gained extensive experience through my work at Google Research, Microsoft, Walmart Labs, etc.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/anirudh-sriram-1b136318a/",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/745facb34cf028e476b98560c18737e9297966c8.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 83620,
+      "title": "MagiCode - Proactive AI Pair Programmer",
+      "tagline": "MagiCode anticipates developers’ needs and offers them active guidance. ",
+      "body": "**TLDR:**\n\n[MagiCode](https://www.magicode.ai/) is a **proactive** AI pair programmer that intuitively understands developers' actions in real-time, actively anticipates their next steps, and offers assistance even before they ask.\n\n![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdi0SQOOv0alhPERCWVCENvw7nB-U00PP82FQpevrGFc4QLGSwd53sQQ7E0FR5Vomx_GZxdx_9fflyHAWQi1-nJpg-L1KfwOqf-xvYbVInucv5T-rYfH0sqeIuhzU1xMsjgbbUvewcy7J0_2SqrGUWTWZzj?key=IP7Rk802TWBSSnOAUrqnyQ)\n\n**Why are we building this? ⚙️**\n\nWe were active users of various AI coding tools even before they were named “pair programmers”. However, the experience was underwhelming because: \n\n1. they are **not really “intelligent”**: we always had to type out multiple shortcuts for our queries to be routed to the right AI agent to handle. \n2. when we were deeply immersed in a task/implementation, we often didn’t know **how, or what** to ask the AI Coding tool. For example, when implementing a button that triggers a POST/ request to the backend API, we have to constantly jump around multiple files, making modifications across different functions. In this scenario, before asking the AI to help us with implementation, we actually have to spend time thinking about “how” to frame our questions:\n\n \n\n* How do we explain what the functionality of this button is? \n* Which file names should we mention to the AI as being relevant? \n* How can we succinctly phrase all relevant context, including current progress or past edits/changes that we have made, so that the AI will give us the best output?\n\nAs a result, we often resorted to doing everything ourselves to avoid the tedious back-and-forth. \n\nIn those moments, we realized what we wanted was a tool that could **fetch global context** without relying on shortcut commands, anticipate our needs, and even understand what we were thinking before typing anything— something that was always **“on the same page”** with us. That’s exactly what led us to create MagiCode— a tool that can answer all the developer’s questions intelligently, and also **proactively assist** without needing to be prompted.\n\n![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXcgtDCwIm0PlMe_DCSQip8X8jXRnbAeLD9SCjhBN43ZcTRbnyfl8Mhi3WTfOVJyXwaYO50Ef2ZZtGPcq8bKngNnBgc0071stmvyCd1HdlYlJUVJfKNLKGT1IWpoLmX9B2GroQSiBhGjQj3sS7reml024gq1?key=IP7Rk802TWBSSnOAUrqnyQ)\n\n**How are we different from existing solutions? 🤔**\n\n* **Proactive Assistance:** We bring the answers to you without you even asking. MagiCode is designed to constantly analyze the project's state and make suggestions for what you can do next. As a user, all you have to do is click on a suggestion and watch as MagiCode works on files asynchronously and brings you the finalized results with easy-to-view diff files. \n* **Personalized Memory:**  We have personalized memory retainment of your editing history, editor state, and user activity. We designed an intelligent system that processes all this information in a low-latency manner and uses it naturally when answering the user’s queries.\n\n### **Watch MagiCode in action! 🤯**\n\nhttps://www.youtube.com/watch?v=EPM_eOL8BRE\n\n### **Our ask 🙏**\n\nWe are currently onboarding users for MagiCode. \n\n* If you’d love to try MagiCode, we are active on **Discord** and would be happy to help you onboard and answer any questions. You can join our discord here: https://discord.gg/tqveBrwd \n* If you know an engineer who is interested in trying out AI Coding tools, tell them about MagiCode! \n* You can also reach out to us directly at [hello@magicode.ai](mailto:hello@magicode.ai) to talk more about the future of AI-powered coding. Feel free to book a time with us here: https://www.magicode.ai/book-a-demo/ 😊\n\nLet’s build with Magic! ",
+      "url": "https://www.ycombinator.com/launches/Lki-magicode-proactive-ai-pair-programmer",
+      "votes": 23,
+      "created_at": "2024-08-30T16:21:21.101Z"
+    }
+  ]
+}

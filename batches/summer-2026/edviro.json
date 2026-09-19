@@ -1,0 +1,101 @@
+{
+  "id": 33805,
+  "name": "Edviro",
+  "slug": "edviro",
+  "former_names": [],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/c179a28044a3d4a8c3ceaf2a5b8cecbf90f66aa7.png",
+  "website": "https://edviroenergy.com",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "Edviro builds AI that operates energy infrastructure. We connect to meters, HVAC systems, batteries, solar, and other energy equipment and continuously handle the work required to keep them efficient: detecting and diagnosing problems to forecasting demand, simulating fixes, creating work orders, coordinating maintenance, and controlling equipment where authorized. Our energy world models learn how each site behaves, choose the highest-value actions, and verify the results against real operational, meter, and billing data.",
+  "one_liner": "AI That Operates Energy Infrastructure",
+  "team_size": 2,
+  "industry": "B2B",
+  "subindustry": "B2B -> Infrastructure",
+  "launched_at": 1782807553,
+  "tags": [
+    "Deep Learning",
+    "B2B",
+    "Energy"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Summer 2026",
+  "status": "Active",
+  "industries": [
+    "B2B",
+    "Infrastructure"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/edviro",
+  "api": "https://devasheeshg.github.io/yc-api/batches/summer-2026/edviro.json",
+  "year_founded": 2025,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/edviro",
+  "x_url": "https://x.com/Edviro_energy",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/c179a28044a3d4a8c3ceaf2a5b8cecbf90f66aa7.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Jared Friedman",
+    "url": "https://www.ycombinator.com/people/jared-friedman"
+  },
+  "founders": [
+    {
+      "user_id": 3164154,
+      "full_name": "Hursh Shah",
+      "title": "Founder/CEO",
+      "founder_bio": "19, Founder & CEO at Edviro. Prev. NeurIPS 2024, ChatGPT Lab. Patent pending medtech research. Prev. founded Skyglass, smart glasses startup that got accepted to PearX. ",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/hursh-shah/",
+      "x_url": "https://x.com/hursheybar2",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/9756e91b633ed2b9de6793c88f0e1daa8ff1d704.jpg"
+    },
+    {
+      "user_id": 1865110,
+      "full_name": "Tanuj Siripurapu",
+      "title": "Founder",
+      "founder_bio": "19, Founder & CTO @ Edviro (YC S26). Prev. at RTX. Scaled a digital presence agency to 20k revenue in high school. Programming since age 9",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/tanuj-siripurapu-747b58217/",
+      "x_url": "https://x.com/kstanuj",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/96aabcf62bd08eff9921363a085eb3a930988175.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 112256,
+      "title": "Edviro - AI that operates energy infrastructure",
+      "tagline": "AI to operate energy infrastructure",
+      "body": "# **Edviro: AI that operates energy infrastructure**\n\nHi all,\n\nWe’re Hursh and Tanuj, founders of Edviro.\n\n**TL;DR:** Edviro connects to a facility’s BMS, utility, sensor, equipment, and maintenance systems to build a world model of how the facility behaves. We use that model to detect problems, simulate interventions before anything is changed, and coordinate the best next action. We’re live in **34 facilities**, have identified more than **$400K in avoidable energy costs**, and are now opening our first partnerships with data center operators.\\\n\\\n<https://youtu.be/0sTQlaQGlOY>\n\n## **The problem**\n\nData centers are expected to drive roughly half of U.S. electricity-demand growth through 2030.\n\nThis is usually framed as a problem of producing more electricity. That is only part of it.\n\nPower must be delivered to the right sites, on the timelines data centers are being built, with the reliability their workloads require. Once a facility has that power, its operators still need to extract as much useful compute as possible from every available megawatt without compromising uptime.\n\nInside a data center, power, cooling, controls, equipment, workloads, and maintenance are tightly coupled. A workload shift changes the thermal profile. A cooling-control change affects both energy use and equipment margins. A maintenance decision can alter redundancy and available capacity.\n\nYet the data and workflows used to manage these systems remain fragmented across BMS, DCIM, EPMS, meters, sensors, maintenance software, vendor portals, and spreadsheets.\n\nMost existing systems can display telemetry or raise an alarm. They cannot reliably model how the entire facility will respond before an operator changes a setpoint, shifts a workload, services equipment, or adds capacity.\n\nOperators are left making high-stakes decisions with incomplete system-level context.\n\n## **What Edviro does**\n\nEdviro turns a facility’s operational data into a continuously updated world model.\n\nBy “world model,” we mean a model that estimates the current state of the physical system, learns how its components interact, and predicts how it will respond to a proposed action. \n\nEdviro:\n\n* Integrates data from building controls, utilities, sensors, equipment, and maintenance systems\n* Detects anomalies, energy waste, equipment degradation, and capacity constraints\n* Simulates operational and maintenance interventions before they are deployed\n* Recommends the best action while accounting for cost, reliability, and physical constraints\n* Uses agents to coordinate approvals, work orders, investigations, and follow-through\n* Verifies whether the expected operational and energy impact actually occurred\n\nFor a data center, this could mean determining whether existing power and cooling infrastructure can support additional IT load, testing a control-sequence change before deploying it, identifying which equipment issue is constraining capacity, or prioritizing maintenance based on the capacity and reliability it would recover.\n\nWe initially keep operators in control of every consequential action. As the models are validated and earn trust, more of the operating loop can be automated.\n\n## **Why we started with schools**\n\nEdviro began when I was 17 and working with my high school’s facilities team. I was given a year of district utility bills to analyze, built software to parse them, and discovered roughly **$360,000 in gas overbilling**.\n\nWe found that this was not an isolated problem. Schools operate large portfolios of aging, mixed-vendor infrastructure with fragmented controls, incomplete data, lean facilities teams, and very little room for wasted budget.\n\nThey forced us to build for the messy reality of physical infrastructure rather than clean laboratory data.\n\nToday, Edviro is live in **34 facilities** and has identified more than **$400,000 in avoidable energy costs** for building operators.\n\nA school is obviously not a data center. Data centers have denser instrumentation, much tighter uptime requirements, and more complex coupling between power, cooling, and compute. \n\nWhat transfers is the underlying architecture: connecting heterogeneous operational systems, estimating the state of a physical facility, simulating interventions, coordinating action across teams, and verifying the result. We are now building the data-center-specific models, integrations, and safety constraints directly with operators. Our first relevant research benchmark can be found here: <https://x.com/hursheybar2/status/2083299315003593037?s=20>\n\n## **Where we’re going**\n\nThe current generation of facilities software tells operators what has already happened.\n\nWe want Edviro to understand what is happening now, predict what will happen next, and help execute the safest and highest-value response.\n\nAs electricity becomes one of the primary constraints on AI growth, building more infrastructure will not be enough. We also need to operate the infrastructure we already have far more intelligently.\n\nThe long-term goal is not another dashboard. It is infrastructure that can understand itself and increasingly operate itself.\n\n## **Asks**\n\n1. **We’re looking for data center operators to become early design partners.** We are especially interested in facilities dealing with power or cooling constraints, capacity-expansion planning, recurring manual investigations, fragmented controls, or reactive maintenance. We can begin read-only, with operators retaining approval over every action.\n2. **We’re hiring energy-modeling engineers** across thermal systems, power systems, controls, scientific machine learning, and physical simulation.\n\nIf you operate a data center—or know the team responsible for operating one—we’d love to talk.\n\n[**www.edviro.com**](http://www.edviro.com)",
+      "url": "https://www.ycombinator.com/launches/TCa-edviro-ai-that-operates-energy-infrastructure",
+      "votes": 5,
+      "created_at": "2026-08-26T17:00:00.166Z"
+    },
+    {
+      "id": 104853,
+      "title": "Edviro - Buildings are wasting money daily",
+      "tagline": "Your building is wasting energy daily",
+      "body": "**TL;DR:** Edviro helps facilities managers at large buildings save on their energy bills.\n\nFacilities managers are overwhelmed with dashboards, alarms, and analytics for hundreds of boilers, HVAC units, and heat pumps across their buildings. Edviro continuously monitors and optimizes buildings using energy world models to detect anomalies, simulate interventions, and suggest the best options to the facilities manager. In particular, in busy spaces like offices, we utilise Wi-Fi access points or our own occupancy sensors to reduce HVAC usage significantly. Our tools also allow institutions to maintain detailed service histories and equipment logs and to perform maintenance with AR. To date, we've saved clients six figures in multiple buildings. We’re also piloting with a construction company to conduct baselining and M&amp;V for sites they work with.\n\n**The team:**\n\nWe’re young technical founders. I’ve published at NeurIPS ‘24, conducted patent pending VR Alzheimer’s work, and founded a previous Aviation smart glasses startup that was accepted into PearX. Tanuj has been coding since he was 9, scaled a previous digital agency to $20k in revenue and previously did dev work at RTX.\n\nThis all started when I was working with my own high school’s facilities team. I saw how much waste there was and how fragmented his energy data was despite loads of smart controls and BMS systems. Initially I built a dashboard for him, and the product quickly caught on to more schools in NorCal.\n\n**Our ask:**\n\nWe’re looking for intros to facilities teams at school districts, real estate or data centres.\n\nAlongside that, we’re looking to work with construction teams who need help baselining and doing M&amp;V on their work post-project.\n\nIf you are connected to anyone in this space, would love to chat!\n\n![uploaded image](/media/?type=post&id=104853&key=user_uploads/3164154/9fe82a05-dd5a-4916-94f4-9cf0e8f54a05)\n\n",
+      "url": "https://www.ycombinator.com/launches/RHB-edviro-buildings-are-wasting-money-daily",
+      "votes": 5,
+      "created_at": "2026-07-07T15:02:05.737Z"
+    }
+  ]
+}

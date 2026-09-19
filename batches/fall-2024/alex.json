@@ -1,0 +1,93 @@
+{
+  "id": 30100,
+  "name": "Alex",
+  "slug": "alex",
+  "former_names": [],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/211bbe719ecb6e8800789a12c674df98b2a1fb49.png",
+  "website": "https://alexcodes.app",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "Tired of switching tabs to cursor every time you're building your iOS app in Xcode?\r\n\r\nWorry not!\r\n\r\nAlex is a sidebar app that works directly with Xcode, and has the same Cmd+L, Cmd+K, and Apply Code commands as Cursor. And, it's super fast.\r\n\r\nCheck it out: https://alexcodes.app",
+  "one_liner": "The Cursor for Xcode",
+  "team_size": 3,
+  "industry": "B2B",
+  "subindustry": "B2B -> Engineering, Product and Design",
+  "launched_at": 1728718432,
+  "tags": [],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": true,
+  "nonprofit": false,
+  "batch": "Fall 2024",
+  "status": "Active",
+  "industries": [
+    "B2B",
+    "Engineering, Product and Design"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/alex",
+  "api": "https://devasheeshg.github.io/yc-api/batches/fall-2024/alex.json",
+  "year_founded": 2024,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/alex-sidebar/",
+  "x_url": "",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/211bbe719ecb6e8800789a12c674df98b2a1fb49.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "David Lieb",
+    "url": "https://www.ycombinator.com/people/david-lieb"
+  },
+  "founders": [
+    {
+      "user_id": 559658,
+      "full_name": "Daniel Edrisian",
+      "title": "Founder/CEO",
+      "founder_bio": "I'm an iOS Engineer, formerly built the iOS app for ElevenLabs and was a founding engineer at FlutterFlow (YC W21). Prior to that, I interned at Apple, Meta, and Google.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/daniel-edrisian/",
+      "x_url": "https://x.com/DanielEdrisian",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/5fad67bd1d4b6c2544dc88ad99cdf8486c3e0bd7.jpg"
+    }
+  ],
+  "jobs": [
+    {
+      "id": 70860,
+      "title": "Founding Engineer",
+      "url": "https://www.ycombinator.com/companies/alex/jobs/uB3KJ2P-founding-engineer",
+      "location": "San Francisco, CA, US",
+      "type": "Full-time",
+      "role": "Engineering",
+      "role_type": "Full stack",
+      "salary_range": "$1",
+      "equity_range": "1.00%",
+      "experience": "3+ years",
+      "visa": "US citizen/visa only",
+      "skills": []
+    }
+  ],
+  "news": [],
+  "launches": [
+    {
+      "id": 85378,
+      "title": "Alex Sidebar: The Cursor for Xcode",
+      "tagline": "The most powerful Copilot for iOS Development",
+      "body": "**Hey there!**\n\nMy name is Daniel, and I'm the founder of Alex: The missing sidebar for Xcode 🍏\n\nBeing an iOS Developer since I was 13, Xcode is rooted in my DNA. I admittedly really like Xcode (when it’s not crashing), and I find it feature-complete for _almost_ everything I need as a developer — except one: **AI codegen**. That’s where Alex comes in.\n\n[Alex - Your AI Copilot for Xcode](https://www.youtube.com/watch?v=CEefIxm-WdA)\n\n**TL;DR 🧵**\n\nAlex is like Cursor for Xcode, and gives you AI features like sidebar chat, inline completions, and tab to complete. **Since launching last week, over 1200 users** **have signed up for Alex, and hundreds are using it every day for their work.**\n\nWe want to make Software Development easier for the 3+ million people who use Xcode. Check out our website to get started!\n\n<https://alexcodes.app>\n\n# **How does it work?**\n\nAlex interacts with Xcode using MacOS's Accessibility features. It can read what you see on Xcode, and can write to it. It also knows where your cursor is, so it can accurately place the suggestions and \"Fix Error\" buttons.\n\n![uploaded image](/media/?type=post&id=85378&key=user_uploads/559658/8fd0cb1d-44f9-439b-a7e4-ba0f2cfc9a74)\n\n![uploaded image](/media/?type=post&id=85378&key=user_uploads/559658/1748b92b-238a-40b9-8d43-86688a1d5999)\n\nAlex also embeds your Xcode projects for use in Codebase Search. We let you connect to any custom OpenAI-compatible model, or use your own keys for OpenAI, Anthropic, Perplexity, and VoyageAI.\n\n# **What next?**\n\nAt Alex, we want to make high-quality iOS development significantly faster. We plan on doing two major things in the future:\n\n1. **Creating the iOS LLMs.**\n\n   With each new iOS release and iOS SDK, new APIs are introduced into Swift and SwiftUI, and more APIs get deprecated. The state-of-the-art models like OpenAI and Anthropic either don't have the latest iOS code baked into their knowledge, or their top-1 retrieval doesn’t correspond with the latest APIs.\n\n   This is because there simply isn't enough training data from new iOS APIs, and not enough data indicating deprecated code. We plan to create our own model, trained using Apple's latest documentation, and available both as large-scale model finetunes for chat, and as smaller scale finetunes for inline suggestions.\n2. **Creating your own local iOS agent.**\n\n   Our long term plan is creating your own local iOS Development agent. Imagine Alex running several tasks in the background: Code refactors, optimizations, tests, documentation, and bug fixing all done in the background — while you do the most exciting part: Feature development.\n\n# **Conclusion (and a signup deal!)**\n\nIt's been exciting to see teams fully switch from their Cursor/Xcode setup to just using Xcode with Alex. We have engineers at dozens of companies already using us for their production iOS codebases, from large online marketplaces to apps for aircraft navigation. ✈️\n\nFeel free to give it a try! (It's free, and you can get **50 free O1-Preview credits** when you sign up.) \n\n[alexcodes.app](http://alexcodes.app)\n\nAnd join us on Discord:\n\n[discord.gg/fwbmYA3fEH](http://discord.gg/fwbmYA3fEH)",
+      "url": "https://www.ycombinator.com/launches/MD4-alex-sidebar-the-cursor-for-xcode",
+      "votes": 112,
+      "created_at": "2024-11-08T14:41:47.545Z"
+    }
+  ]
+}

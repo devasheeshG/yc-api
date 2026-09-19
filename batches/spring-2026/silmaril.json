@@ -1,0 +1,87 @@
+{
+  "id": 31478,
+  "name": "Silmaril",
+  "slug": "silmaril",
+  "former_names": [],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/86b9dc2025d8d9aaca7a7d152afe3f067bb14268.png",
+  "website": "https://silmaril.dev",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "Silmaril is the first security for agents that self-improves. It understands application context to block 2x as many threats as current SOTA defenses with 10x lower latency. Customers plug us into agentic frameworks like LangGraph with 5 lines of code. Silmaril has stopped $28M of damages for customers.",
+  "one_liner": "Security for agents that self-improves",
+  "team_size": 2,
+  "industry": "B2B",
+  "subindustry": "B2B",
+  "launched_at": 1775745444,
+  "tags": [],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Spring 2026",
+  "status": "Active",
+  "industries": [
+    "B2B"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/silmaril",
+  "api": "https://devasheeshg.github.io/yc-api/batches/spring-2026/silmaril.json",
+  "year_founded": 2026,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/silmarilsecurity",
+  "x_url": "https://x.com/Silmarildev",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/86b9dc2025d8d9aaca7a7d152afe3f067bb14268.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Garry Tan",
+    "url": "https://www.ycombinator.com/people/garry-tan"
+  },
+  "founders": [
+    {
+      "user_id": 2524062,
+      "full_name": "Aum Upadhyay",
+      "title": "Founder/CEO",
+      "founder_bio": "Co-Founder & CEO at Silmaril. I built the security and privacy framework at AWS that prevented over $1.8B in damages. Now I bring that same defensive mindset to Silmaril, working with customers to ship prompt injection defense. ",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/aum-u-517016269/",
+      "x_url": "https://x.com/aumup001",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/5dcb642b56fa4abb08530e4e06f1b67529fb7300.jpg"
+    },
+    {
+      "user_id": 543366,
+      "full_name": "Eduardo Velasco",
+      "title": "Founder/CTO",
+      "founder_bio": "Co-Founder & CTO at Silmaril. I prove the risks are real by finding exploits myself. I chained a prompt injection into root access inside ChatGPT. Ex-Amazon tech lead specializing in low latency ML models that generated $400M in annual revenue.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/eduardo-velasco-b10ba826b/",
+      "x_url": "https://x.com/EduardoVel36291",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/15bf26fd6a23e8d13b2f5e9ebdec669919456c27.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 99681,
+      "title": "Silmaril: Self-healing Prompt Injection Defense",
+      "tagline": "Block 2x more attacks with 10x lower latency.",
+      "body": "**TL;DR**\n\nSilmaril is the first self-healing prompt injection defense for AI native applications and agents. It understands application context to **block 2x as many threats** as current SOTA defenses with **10x lower latency**. Customers plug us into frameworks like LangChain with **5 lines of code**.\n\nWe’re working with the top productivity, analytics, and legal companies in the world and would love to protect you as well!\n\nOur Launch Video: <https://youtu.be/95VAZSvIsLA>\n\n**Ask**: If your AI systems ingest external data or you’re concerned about prompt injection, set up a[ 15 minute chat](https://cal.com/silmaril/15min). If you know security or AI leaders (Director+) who could benefit from stopping prompt injections please reach out at [aum@silmaril.dev](mailto:aum@silmaril.dev).\n\n**Problem**\n\nAttackers are using AI to create and experiment with more sophisticated techniques at scale, making them **4.5x more likely to succeed**. The AI security tools enterprises rely on today were not built for this.\n\nExisting guardrails treat malicious inputs as the unit of security. They pattern-match against known bad prompts and require constant manual policy tuning. Against real-world contextual and emerging threats, leading guardrails **blocked only 61% of attacks**. That's barely better a coin toss.\n\nThis leaves security teams stuck in an **endless loop**: triaging alerts, tuning policies, and chasing attackers who move faster than they can respond.\n\n**How it works**\n\nMost AI security tools ask \"does this input look malicious?\" We ask \"does this execution lead to a harmful outcome?\" That distinction is what makes Silmaril work against attacks that guardrails completely miss.\n\nThe system has three layers:\n\n**1. Agents hunt for attacks and generate threat intelligence.** We reverse-engineer your application and deploy autonomous agents that continuously probe it. These agents find and verify attack chains that combine individual vulnerabilities for a larger impact such as data exfiltration and privilege escalation. They surface novel threats tied to your application logic, far more useful in simulating AI enabled attackers than historical prompt injection lists.\n\n![uploaded image](/media/?type=post&id=99681&key=user_uploads/2524062/1eabf307-2ebb-4b76-883c-ba1f8e0c2fd2)\n\n**2. A classifier model that blocks attackers in real time.** The firewall integrates directly with your orchestration framework via our SDK, letting you control exactly when it runs. In LangGraph, for example, you can add it as a callback handler that fires before/after tool calls and model inference. Because Silmaril reasons over application snapshots rather than input patterns, it catches emerging, contextual, and multi-turn attacks that single-input classifiers miss entirely. Latency overhead is 20ms.\n\n![uploaded image](/media/?type=post&id=99681&key=user_uploads/2524062/b631db01-cdd7-4727-a01c-3471c385244f)\n\n**3. A self-healing retraining loop.** Verified exploits from threat hunting and production traffic feeds back into the model continuously. The firewall retrains and deploys updated weights automatically within an hour. No manual policy tuning required.\n\n![uploaded image](/media/?type=post&id=99681&key=user_uploads/2524062/60e34848-7ebc-4733-b231-4da711b0bfd9)\n\nAgainst a dataset of real-world contextual and emerging threats, **Silmaril blocked 96% of attacks**. Leading guardrails blocked 61%.\n\n![uploaded image](/media/?type=post&id=99681&key=user_uploads/2524062/b538fcdf-509e-4345-9eb4-399728ea5abe)\n\n**Why us**\n\nEduardo and I spent 10+ years building security and AI. I built security frameworks protecting AWS’s AI infrastructure. Eduardo developed hardened models and agents for Amazon's homepage. We drove **$2.2B in savings and new revenue**.\n\nAfter leaving, we became whitehat hackers and hacked OpenAI, Anthropic, Google, and Microsoft **15 times in two weeks**. We saw firsthand how far ahead attackers already are. That's why we built Silmaril.",
+      "url": "https://www.ycombinator.com/launches/Pvl-silmaril-self-healing-prompt-injection-defense",
+      "votes": 21,
+      "created_at": "2026-04-13T18:16:18.490Z"
+    }
+  ]
+}

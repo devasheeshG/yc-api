@@ -1,0 +1,102 @@
+{
+  "id": 28098,
+  "name": "Resend",
+  "slug": "resend",
+  "former_names": [
+    "Klotty",
+    "Resend (fka Klotty)"
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/6ae1f42156169b5811f9a7efe6cce76305167d38.png",
+  "website": "https://resend.com",
+  "all_locations": "Remote",
+  "long_description": "Resend is the new email API for developers. It's designed for you to build, test, and send transactional emails at scale.\r\n\r\nIf you're using Sendgrid, AWS SES, or Postmark, come talk to us.",
+  "one_liner": "Email for developers",
+  "team_size": 45,
+  "industry": "B2B",
+  "subindustry": "B2B -> Engineering, Product and Design",
+  "launched_at": 1675214257,
+  "tags": [],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Winter 2023",
+  "status": "Active",
+  "industries": [
+    "B2B",
+    "Engineering, Product and Design"
+  ],
+  "regions": [
+    "Remote",
+    "Fully Remote"
+  ],
+  "stage": "Growth",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/resend",
+  "api": "https://devasheeshg.github.io/yc-api/batches/winter-2023/resend.json",
+  "year_founded": 2023,
+  "city": null,
+  "country": null,
+  "linkedin_url": "https://linkedin.com/company/resend",
+  "x_url": "https://x.com/resend",
+  "fb_url": null,
+  "cb_url": "https://crunchbase.com/organization/resend",
+  "github_url": "https://github.com/resend",
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/6ae1f42156169b5811f9a7efe6cce76305167d38.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Diana Hu",
+    "url": "https://www.ycombinator.com/people/diana-hu"
+  },
+  "founders": [
+    {
+      "user_id": 360041,
+      "full_name": "Zeno Rocha",
+      "title": "Founder/CEO",
+      "founder_bio": "Founder & CEO at Resend.\n\nPreviously VP of Developer Experience at WorkOS and CPO at Liferay Cloud. I'm originally from Brazil and now living in San Francisco.\n\nI love dark mode, open source, and side projects.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/zenorocha/",
+      "x_url": "https://x.com/zenorocha",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/8be58137b9e1f4decb1102e7796df1b7bd5a7443.jpg"
+    },
+    {
+      "user_id": 715890,
+      "full_name": "Bu Kinoshita",
+      "title": "Founder",
+      "founder_bio": "Co-founder & CTO at Resend and building react.email.\n\n1st eng hire at WorkOS, which is now a Series B company valued at $500M. Built the first MVP and scaled it all the way to serve 200+ b2b sass customers. Also built more than 100 node packages and 2 products that were OSS, Taskr and Secret, which were featured in the #1 and #4 on Product Hunt",
+      "is_active": true,
+      "linkedin_url": "https://linkedin.com/in/bkinoshita",
+      "x_url": "https://twitter.com/bukinoshita",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/1715ba918140f0b528a8bd0108b829f83412515e.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [
+    {
+      "title": "Resend raises $18M Series A",
+      "url": "https://resend.com/blog/series-a",
+      "date": "Dec 04, 2024"
+    },
+    {
+      "title": "Developer-focused email platform Resend raises $3M | TechCrunch",
+      "url": "https://techcrunch.com/2023/07/18/developer-focused-email-platform-resend-raises-3m/",
+      "date": "Jul 18, 2023"
+    }
+  ],
+  "launches": [
+    {
+      "id": 69586,
+      "title": "Resend - Email API for developers",
+      "tagline": "Send better emails that don't land in the spam folder",
+      "body": "Hey, this is [Bu](https://twitter.com/bukinoshita) and [Zeno](https://twitter.com/zenorocha) from [Resend](https://resend.com).\n\nWe're building a modern email sending platform focused on providing the best developer experience and making sure that your emails don't go to spam.\n\nWe launched [7 weeks ago](https://twitter.com/zenorocha/status/1610655123063336961), and already have 6,469 people on the waitlist.\n\nPaul Graham described Resend as _“the Stripe for Email”_.\n\n![uploaded image](/media/?type=post&id=69586&key=user_uploads/360041/192c898e-24c0-470f-b5df-673f0b2ead56)\n\n### **problem**\n\nEmail sending is the kind of thing that you should integrate and forget it, but instead you have…\n\n* **Emails going to spam**: All too often emails are marked as spam even when they are legit. We believe that deliverability is a shared responsibility between the customer and the service provider, which means we work together with you to maximize email deliverability.\n* **Poor observability**: Most tools keep you in the dark without knowing what really happened after you sent an email. Resend exposes all the events associated with your email.\n* **Slow performance**: Current solutions only offer a single region for email sending (us-east-1), even when all your end users are located in another part of the world. Starting next week, we'll allow you to choose what region your emails should be sent from (Europe, LATAM, or APAC) which minimizes latency and improves time-to-inbox.\n* **Templates that users don't engage**: Startup teams don't have time the time to learn all the nuances of email development. We're offering a white glove service to help you implement a template that can generate better results.\n* **Designed for marketers only**: Existing solutions are too generic and built exclusively for product marketers and product managers. We're building a developer-first platform with a clean REST API and SDKs for Node.js, Python, Ruby, Elixir, Go, and Java.\n\nWe need to stop developing emails like it’s 2010 and rethink how email can be done in 2023 and beyond.\n\nWe believe that email development needs a revamp. A renovation. Modernized for the way we build apps today.\n\n![uploaded image](/media/?type=post&id=69586&key=user_uploads/360041/872480cd-c678-494c-b479-310d6eeb90a5)\n\n### **solution**\n\nTypically, you can only send email using HTML or plain text. Although we support both, we're introducing a new way of developing and sending your emails.\n\nWith Resend you can code your email using React instead of outdated HTML layouts thanks to our open source project [react.email](http://react.email) (5.1k stars on GitHub).\n\nWhen you're ready to send, you just need to import the component, change the props, and you're done.\n\nAfter sending, you can see the end result and look at how your users received that email.\n\n![uploaded image](/media/?type=post&id=69586&key=user_uploads/360041/05c80ce8-0a53-4fe9-9b75-8a8fd11d0be1)\n\n### **why us**\n\nWhen I was a CPO at [Liferay](https://liferay.com/), I faced the problem of sending emails at scale.\n\nWe had high-profile customers complaining about deliverability, and I've been frustrated with existing services ever since.\n\nMore recently, as a VP of Developer Experience at [WorkOS](https://workos.com/), I once again had to deal with emails landing in the spam folder.\n\nAfter looking at all the different solutions out there, I've been obsessed with the idea of solving this problem once and for all.\n\n### **our asks**\n\n* **Share** - talk to your friends and colleagues about Resend\n* **Connect** - ping me at [zeno@resend.com](mailto:zeno@resend.com) if you want to chat more\n* **YC companies** - you can skip the 6,469 people waitlist using the [secret link](https://resend.com/secret?ref=launchyc)",
+      "url": "https://www.ycombinator.com/launches/I6M-resend-email-api-for-developers",
+      "votes": 179,
+      "created_at": "2023-02-23T14:44:43.968Z"
+    }
+  ]
+}

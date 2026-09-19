@@ -1,0 +1,114 @@
+{
+  "id": 27938,
+  "name": "Boundary",
+  "slug": "boundary",
+  "former_names": [
+    "Gloo",
+    "Gloo Chat",
+    "Gloo"
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/7d66bb51ef2922c834b2fbb6de2b175e7a85b8f8.png",
+  "website": "https://www.boundaryml.com",
+  "all_locations": "Seattle, WA, USA",
+  "long_description": "Boundary is building BAML -- a programming language to build AI agents.\r\n\r\nWe used to code in assembly, and moved on to C.\r\nFrom C, we moved on to higher level languages like Python.\r\nNow we are going from Python to natural language.\r\n\r\nWhat does the code look like when 50% of the business decisions is decided by an AI agent / prompts? How do you test these AI components? We made BAML to address these problems.\r\n\r\nBAML helps has built-in tools to test, observe, and work with structured LLM outputs / tool calling natively in the language 10x faster. With BAML you can also instantly parallelize LLM Calls, or react to certain events or changes in your pipelines, without having to write any boilerplate. It's like using 'React' for AI.\r\n\r\nBAML code can used from any other language -- providing a standardized way to organize and declare any LLM or AI code.",
+  "one_liner": "The programming language for AI",
+  "team_size": 10,
+  "industry": "B2B",
+  "subindustry": "B2B",
+  "launched_at": 1678219068,
+  "tags": [
+    "Artificial Intelligence",
+    "Developer Tools",
+    "Generative AI",
+    "Machine Learning",
+    "AI"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": true,
+  "nonprofit": false,
+  "batch": "Winter 2023",
+  "status": "Active",
+  "industries": [
+    "B2B"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/boundary",
+  "api": "https://devasheeshg.github.io/yc-api/batches/winter-2023/boundary.json",
+  "year_founded": 2023,
+  "city": "Seattle",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/boundaryml",
+  "x_url": "https://twitter.com/boundaryml",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": "https://github.com/boundaryml/baml",
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/7d66bb51ef2922c834b2fbb6de2b175e7a85b8f8.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Nicolas Dessaigne",
+    "url": "https://www.ycombinator.com/people/nicolas-dessaigne"
+  },
+  "founders": [
+    {
+      "user_id": 15777,
+      "full_name": "Vaibhav Gupta",
+      "title": "Founder",
+      "founder_bio": "Vaibhav is a software engineer with over 7 years of experience building innovative products. At Microsoft, he worked on realtime 3D reconstruction for HoloLens, gaining expertise in computer vision and 3D graphics. At Google, he led performance optimization on ARCore and Face ID, significantly improving latency and quality. Now he's bringing that same experience to help bring better quality and speed to Generative AI technology. For talking anything Computer Vision/AI/Performance, reach out!",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/vaigup/",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/dd752abccdf1bb33cfe3214f5dd358d0950a8f48.jpg"
+    },
+    {
+      "user_id": 855521,
+      "full_name": "Aaron Villalpando Gonzalez",
+      "title": "Founder",
+      "founder_bio": "Aaron has worked for the better part of a decade scaling out distributed systems at AWS and launching full-stack consumer facing products at Prime Video. He is now passionate about building scalable ML infrastructure and the best developer experience at Gloo. ",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/aaron-villalpando-99284576/",
+      "x_url": "https://twitter.com/aaronnstuff",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/dc2f2802ccc1a0e9e00e06a91218ae60fe6ebb67.jpg"
+    }
+  ],
+  "jobs": [
+    {
+      "id": 80382,
+      "title": "Engineers that enjoy hard things (like compilers)",
+      "url": "https://www.ycombinator.com/companies/boundary/jobs/f31pAPu-engineers-that-enjoy-hard-things-like-compilers",
+      "location": "Seattle, WA, US",
+      "type": "Full-time",
+      "role": "Engineering",
+      "role_type": "Full stack",
+      "salary_range": "$100K - $180K",
+      "equity_range": "0.15% - 0.75%",
+      "experience": "Any (new grads ok)",
+      "visa": "US citizen/visa only",
+      "skills": [
+        "Rust"
+      ]
+    }
+  ],
+  "news": [],
+  "launches": [
+    {
+      "id": 70071,
+      "title": "Gloo: Empower LLM’s with domain-specific knowledge",
+      "tagline": "We help LLMs like ChatGPT connect to knowledgebases and add mechanisms to stop them from hallucinating..",
+      "body": "**tl;dr** LLMs are awesome, but they have no knowledge about your data, and when you give it to them, they’re prone to make stuff up. We help developers build a searchable knowledgebase that LLMs can understand, and validate their responses are legit.\n\nHey everyone! We’re Aaron and Vaibhav from Gloo and we’re on a mission to help LLMs understand your data and get them to stop hallucinating all over the place.\n\n![uploaded image](/media/?type=post&id=70071&key=user_uploads/855521/fefa49cf-6a22-4913-ac9e-da9550da9e69)\n\n### **The problem**\n\nBuilding a knowledge graph isn’t as easy as calling OpenAI embeddings API, storing them in a VectorDB and calling it a day. Developers have to choose from a myriad of parameters like chunking algorithm, embedding type (even based on the content), vectorDB, whether to fine-tune or not, how to securely store the data — and the list goes on and on.\n\nOnce you feed everything into the LLM, you’re only halfway there, as getting rid of hallucinations is tricky, and confidently incorrect answers to customer questions will give you headaches in the long-term.\n\nOn top of that, you still have your actual customer problems to still fix: getting the customer data, building flows on top of the LLM, writing the right prompts, getting more customers.\n\n### **The solution**\n\nGloo is the managed solution to building your knowledge graph — built for LLM context-windows from the ground-up. **We stand up a search API for your data that supports both keyword and semantic search**, and we smartly index and compute embeddings for you based on the content type. Once that’s setup, you can call our **_Check-_GPT API to check LLM answers** against your knowledgebase to ensure trustworthiness.\n\n![uploaded image](/media/?type=post&id=70071&key=user_uploads/855521/4c3b7bd2-6924-427b-a1f6-6aa194ae500f)\n\nWe built our search with a security-first approach. Your data is always server-side encrypted, and never actually stored in 3rd party Vector DBs. We are also supporting new transformations search engines couldn’t do before, like generating document summaries (powered by LLMs!), so you don’t have to spend precious time computing this at query time.\n\nAll of your data is viewable in your own personal dashboard where you can track embedding jobs, play around with different search parameters, and search query performance and analytics.\n\n![uploaded image](/media/?type=post&id=70071&key=user_uploads/855521/3e191b7a-73b1-4b36-983c-8852002a646e)\n\n### **Asks**\n\nReach out to us at **founders@gloo.chat**\n\n* If your AI keeps making shit up ☠️\n* If you want your LLM to stop saying “Sorry I dont know 😵‍💫”\n* If you’re worried about data security and VectorDBs / LLMs 🔒",
+      "url": "https://www.ycombinator.com/launches/IEB-gloo-empower-llm-s-with-domain-specific-knowledge",
+      "votes": 54,
+      "created_at": "2023-03-08T22:57:42.876Z"
+    }
+  ]
+}

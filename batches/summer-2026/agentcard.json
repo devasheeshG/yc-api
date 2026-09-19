@@ -1,0 +1,98 @@
+{
+  "id": 33018,
+  "name": "Agentcard",
+  "slug": "agentcard",
+  "former_names": [],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/aba1ff38c8593a6ce1ecdd01f1125330e298ac04.png",
+  "website": "https://agentcard.sh",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "Agentcard.sh is a debit card for AI agents. Agents can use Agentcard’s API to issue cards and pay for things online autonomously.",
+  "one_liner": "cards for AI agents",
+  "team_size": 0,
+  "industry": "Fintech",
+  "subindustry": "Fintech",
+  "launched_at": 1780682746,
+  "tags": [
+    "Fintech"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Summer 2026",
+  "status": "Active",
+  "industries": [
+    "Fintech"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/agentcard",
+  "api": "https://devasheeshg.github.io/yc-api/batches/summer-2026/agentcard.json",
+  "year_founded": null,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "",
+  "x_url": "",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/aba1ff38c8593a6ce1ecdd01f1125330e298ac04.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Tyler Bosmeny",
+    "url": "https://www.ycombinator.com/people/tyler-bosmeny"
+  },
+  "founders": [
+    {
+      "user_id": 347376,
+      "full_name": "Karen Serfaty",
+      "title": "Founder/CEO",
+      "founder_bio": "CEO & founder at Agentcard. Previously CEO at Atlas, an expense card for global teams (acq. by Remote.com). GM, Cards at Remote.com. Co-founder/CEO at Palabra. Co-founder/CTO at Nilus. Studied Universidad de San Andrés.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/keyserfaty/",
+      "x_url": "https://twitter.com/keyserfaty",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/9a7f149b222e50cb6a5d45e0924b01e869722853.jpg"
+    },
+    {
+      "user_id": 363364,
+      "full_name": "Felipe Abello",
+      "title": "Founder/CTO",
+      "founder_bio": "cofounder at agentcard.sh - prev: cofounder at infactory.ai - founder & CEO at Nara (Helloguru W22) - ex @Rappi (1st employee).",
+      "is_active": true,
+      "linkedin_url": "https://linkedin.com/in/pipe-abello-2512b9195",
+      "x_url": "https://twitter.com/PipeAbellos",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/93a0a14dff5fd9699028e53e41ccea1045766a8c.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 112244,
+      "title": "Agentcard: Cards for AI agents",
+      "tagline": "Let agents buy anything online",
+      "body": "[ ](https://www.youtube.com/watch?v=RaeATYNiBbY)\n**TL;DR**\\\nBuying online with agents is hard. You can't share your card with your agent, browser automations are broken and slow, and most checkout pages block agents, mistaking them for bots. Agentcard gives companies a solution for storing users' credit cards and completing checkout pages with a 99% success rate.\n\n**Ask**: building an agent that buys things on behalf of your users? send us a msg: [founders@agentcard.sh](mailto:founders@agentcard.sh)\n\n![uploaded image](/media/?type=post&id=112244&key=user_uploads/347376/2d085793-25d2-412b-9d20-40785159d157)\n\n**Problem**\n\nCompanies building personal AI assistants want to give their users a simple way to buy using agents. Today, they need to 1) create browser automations to navigate online stores, 2) store users' cards, and 3) complete checkout pages. None of this is their main product. And current solutions don't work: agentic protocols for storing cards have an 8% card acceptance rate (i.e., most of your cards don't work) and are US-only; agentic browsers get blocked when trying to complete a checkout page; companies store cards without being PCI compliant; and, finally, any dispute becomes a problem for the merchant.\n\n**Our solution**\n\n* **Card vault**: a PCI-compliant way to store users' cards.\n* **Agent-browser integration**: native integration with the main agent browsers.\n* **Bring your own browser**: simple integration with your own browser.\n* **Checkout completion**: 99% success rate on the most popular merchants (Shopify, Stripe and others).\n\n**How it works**\n\n![uploaded image](/media/?type=post&id=112244&key=user_uploads/347376/9b3b8719-6d1d-44c1-9995-685b7e2d0036)\n\n1. **Store card**: share a safe link with your customer and store their cards with Agentcard.\n\n![uploaded image](/media/?type=post&id=112244&key=user_uploads/347376/5282b31a-6d30-4a8e-a00d-972dfde54697)\n\n2. **Shop**: with the agent browser of your choice, complete the purchase on behalf of your user using a dummy card.\n\n![uploaded image](/media/?type=post&id=112244&key=user_uploads/347376/612a72b0-6f23-4791-a731-2acc837afe5b)\n\n\n3. **Human authorization &amp; checkout handoff**: share the cart URL with Agentcard and let us complete it.\n\n![uploaded image](/media/?type=post&id=112244&key=user_uploads/347376/de5efb81-bc1a-4caa-ba18-fe25af0f257f)\n\n4. **Success**: we notify you when the purchase is done.\n\n**Team**\n\n![uploaded image](/media/?type=post&id=112244&key=user_uploads/347376/d538ba37-4d5d-4693-a2cb-269790b34248)\n\n* **Karen Serfaty**: CEO @ Agentcard. Prev. CEO @ Atlas (acq. by Remote). An expense card for global teams. Before that CTO @ Nilus incubated at Harvard; software engineer for +10 years.\n* **Felipe Abello**: CTO @ Agentcard. Employee #1 @ Rappi. Prev. CEO @ Helloguru (YC W22). Prev. co-founder @ Infactory.\n* **Braxter**: Sales @ Agentcard. All things Agentcard. Haters will say he’s an AI character. Don’t listen.",
+      "url": "https://www.ycombinator.com/launches/TCO-agentcard-cards-for-ai-agents",
+      "votes": 37,
+      "created_at": "2026-08-26T18:00:00.618Z"
+    },
+    {
+      "id": 103608,
+      "title": "Agentcard: Debit cards for AI agents",
+      "tagline": "Everything an agent needs to pay for things online",
+      "body": "hey everyone, we're [Karen](https://x.com/keyserfaty) and [Felipe](https://x.com/PipeAbellos), and we are building [Agentcard](https://www.agentcard.sh/): debit cards for AI agents.\n\n# TL;DR\n\nAI agents are finally smart enough to do real things for you. but the second they need to pay for something, they're stuck, and handing an agent your real card (no limits, no controls) is a terrible idea.\n\nso we built [Agentcard](https://www.agentcard.sh/): give your agent its own debit card: fund a wallet, set a budget, and issue one-time cards that auto-close after a single charge. works with any agent over MCP, the CLI, or our API. its everything an agent needs to pay for things online. here's the lineup:\n\nso we built Agentcard — everything an agent needs to pay for things online. here's the lineup\n\n# the team\n\n[Karen](https://x.com/keyserfaty) (CEO): former CEO @ Atlas (acquired by Remote), then turned down a job at Stripe to build Agentcard instead.\n\n[Felipe](https://x.com/PipeAbellos) (CTO): second-time YC founder (HelloGuru, W22) and first employee at Rappi (YC W16), where he shipped consumer products at scale. \n\n# the problem\n\nagents can now research, plan, and decide but the second they need to pay, they're stuck. the workarounds are all bad: hand your agent your real card and you've got no limits and no controls (one bad prompt from disaster), or build your own issuing + checkout stack and lose months becoming a payments company. so agents do the first 90% and hand checkout back to you, the most valuable step is the one they can't take.\n\n# the solution\n\n[Agentcard](https://agentcard.sh/) is everything an agent needs to pay for things online:\n\n* **💳 cards**\\\n  give any agent its own debit card: fund a wallet, set a budget, and issue one-time cards that auto-close after a single charge. if something goes wrong, the blast radius is one capped card, not your bank account.\\\n  <https://youtu.be/ucYDbP73hr0>\n* **🛒 buy (new — launching today!)**\\\n   you don't even wire up a merchant. connect once, then tell your agent \"buy me sushi\" and it runs the whole thing — search, cart, checkout, payment — in the conversation. first up: DoorDash, right from inside Claude. it feels like magic 🥹\\\n  <https://www.youtube.com/watch?v=Tn5rsdPu1u4>\n* **🏢 Agentcard for companies**\\\n   drop [Agentcard](https://www.agentcard.sh/) into your own product and give your users' agents their own cards at scale, with budgets and spend controls built in.\n\nall of it works with any agent: over MCP, the CLI, or our API. and people are already using it: agents out there paying for OpenAI subscriptions, groceries and infra on their own.\n\n# our ask\n\n* building with agents? try it → [agentcard.sh](http://agentcard.sh), and tell us which merchant we should add next\n* building a product whose agents should buy things? let's talk → [founders@agentcard.sh](mailto:founders@agentcard.sh)\n\nthanks everyone 🙏",
+      "url": "https://www.ycombinator.com/launches/Qx6-agentcard-debit-cards-for-ai-agents",
+      "votes": 31,
+      "created_at": "2026-06-25T19:25:46.736Z"
+    }
+  ]
+}

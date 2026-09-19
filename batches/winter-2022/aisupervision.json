@@ -1,0 +1,88 @@
+{
+  "id": 26253,
+  "name": "AiSupervision",
+  "slug": "aisupervision",
+  "former_names": [
+    "AISuperVision"
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/9ef38ec95af8ac6ef83269792c5ba62d68d01e59.png",
+  "website": "https://www.aisupervision.com",
+  "all_locations": "Mannheim, BW, Germany",
+  "long_description": "We make the operating system to track, manage and improve production in factories with many workers. We automate what the best supervisors would do if they watched everything that’s happening inside your factory.",
+  "one_liner": "The operating system for factory production lines",
+  "team_size": 13,
+  "industry": "Industrials",
+  "subindustry": "Industrials -> Manufacturing and Robotics",
+  "launched_at": 1645099380,
+  "tags": [
+    "Manufacturing",
+    "Industrial"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Winter 2022",
+  "status": "Inactive",
+  "industries": [
+    "Industrials",
+    "Manufacturing and Robotics"
+  ],
+  "regions": [
+    "Germany",
+    "Europe",
+    "Remote",
+    "Partly Remote"
+  ],
+  "stage": "Early",
+  "app_video_public": true,
+  "demo_day_video_public": false,
+  "app_answers": [
+    {
+      "question": "Describe what your company does in 50 characters or less.\n",
+      "answer": "Manage production in factories with many humans"
+    },
+    {
+      "question": "How long have each of you been working on this? How much of that has been full-time? Please explain.\n",
+      "answer": "We have started working on this project in September 2020 and originally intended to use computer vision to count pallets produced in these factories. \r\n\r\nWe realized this was not feasible because of GDPR and replaced cameras with RFID for counting productivity. We also realized there was a much bigger opportunity to become a platform for managing the entire production process (especially when there are many humans doing the work) and pivoted into the complete production management platform which we sell now.\r\n\r\nWe worked on it part time (~30 hours per week) from September 2020 to June 2021 and have both been full time since then."
+    },
+    {
+      "question": "What is your company going to make? Please describe your product and what it does or will do.\n",
+      "answer": "We have built a platform to track, manage and improve each step of the industrial production process for factories that are human labour intensive.\r\n\r\nWe developed touchscreen devices installed at each work area on the factory floor. Workers use RFID tags and touchscreens to create data events for when each unit is produced and when there are downtimes. Factory managers get real-time notifications of downtimes and when productivity is lower than expected so they can quickly act to improve productivity.\r\n\r\nOur platform creates structured data around each step of the production process:\r\n* receiving raw materials and completing preparation checklists \r\n* sending work to a workstation and monitoring its progress\r\n* capturing quality control photographs (with automated AI inspection)\r\n* confirming output counts\r\n* generating invoices \r\n* clients can log in to view progress and quality control photographs\r\n\r\nThere are several stakeholders (worker, foreman, manager, external labour company, end client) and each has their own dashboard, automated alerts and data permissions. We create a history of every action taken on an order and enable the stakeholders to communicate in a single place with per-second manhours measurements per unit and detailed downtime data providing context. \r\n\r\nCommunication between stakeholders is especially complicated and messy without our platform when the workers in the factory are contracted from an external labour provider as is the case in surprisingly many factories.\r\n\r\nWe have also developed a novel computer vision inspection system that is currently being piloted to generate per-unit quality metrics and generate a visual audit trail of each unit produced."
+    }
+  ],
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/aisupervision",
+  "api": "https://devasheeshg.github.io/yc-api/batches/winter-2022/aisupervision.json",
+  "year_founded": 2021,
+  "city": "Mannheim",
+  "country": "DE",
+  "linkedin_url": "https://www.linkedin.com/company/aisupervision/",
+  "x_url": "https://twitter.com/aisupervision",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/9ef38ec95af8ac6ef83269792c5ba62d68d01e59.png",
+  "app_video_url": "https://bookface-images.s3.us-west-2.amazonaws.com/bf-public_profile/26309/app_video.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECAPR4KU7UK%2F20260919%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260919T020214Z&X-Amz-Expires=60&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEIn%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJGMEQCIFx9dNA7mUvXENpwIEJl1N0lBleMaznflLTF3VwdNBncAiBumO6%2FibrAJU0eYhgJF3Eutr5fj6DF1yd2odx%2BJwPYJirlAwhSEAAaDDAwNjIwMTgxMTA3MiIMEKjSIPP6VJ%2BSDgs0KsIDnWTjJ0%2BHkQMNGYoJ46Lwxb58PfZRK8zgCovJ4V4YWM3vKmmR%2BqP79HE9KrydPW9oQXRPbxoniYhaqmAtsSQHCFc8aQggD92kKke1of%2FJ%2BAFXIdNUUb2Qmv5ouj%2B4Ba5iWfeUxNaggPeYDj%2FmcqDEyVubOgOSLgVBvXUbWfT%2FA1r7f%2FrO8IljWQvZB7MHMDYS37D8XdHCXp2gPNxq0fVZQlNWtIf6TRXKAlLuGfJvzQStx3mL5nvyTt60Y3Z6lmiIf3DxUY9wTiyO3%2Fg96vd52GzmUm4l1f2uQcl76ytmop9UhNPluweZ%2Bsi84ofucNSIr4RTzbYwbeeJYQJ%2FhctyhcdfPZlShB8wb3jBUuejs%2BdUlgKj0mOrJbHeSk44N0zma3xWFZX%2FEUjZsTmBr2H68yF4XcTGr1xlTpFyuDlKZHX7XPqW5gZszFR5O6v5VjykV9orAmqO64Ibq5r%2B0dwQYJL3mTnTTp99d90V3pF2TGfkG9YrU7av23O0pCdGVAapj1TbnRdta%2FywhzOPbYDmzH9f9l31Kvml2WPGYxpa%2Fqhg4zmjOAtIeLurt9OoHNlvLp3hVIvEl%2BIGVNx32brAMSwiMMrBt9UGOqYBVn4%2B4O2a1N0zu0fkWJe%2FM%2BNvJRCeM4mXDF9w1ZAPh0U9RO1DZ7dVNOpkbGcYE6oCUFN990z605UwfyPb4je3%2Bc6EUV3%2F595hqcDL5nIAtQltokUMzF4lv3atQ6w8TuJOaR%2FN%2BNJpxuETlfsebz%2BO7lSBarn63nw9h0qSpR9j35KpGEUx%2Bgm0i%2Bt7RB9wu7QkSriPo3LptywAP4tiCSI4U77%2BDUIi9Q%3D%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=a625308b68862b217b5b9240f9f4572c8d35b956de1d377c12fd71704d05a3f2",
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Tom Blomfield",
+    "url": "https://www.ycombinator.com/people/tom-blomfield"
+  },
+  "founders": [
+    {
+      "user_id": 868902,
+      "full_name": "Sascha Lang",
+      "title": "Founder",
+      "founder_bio": "Co-founder and CEO of AiSupervision. Industrial engineer and hater of redundant work processes. 15+ years of experience working in factories and on production sites as a project and sales manager. ",
+      "is_active": false,
+      "linkedin_url": "https://www.linkedin.com/in/sascha-lang-b3368ab5/",
+      "x_url": "https://twitter.com/sascha_ai",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/8859bd082c0d6e13ff3a7ca28d697c9ad2272c78.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": []
+}

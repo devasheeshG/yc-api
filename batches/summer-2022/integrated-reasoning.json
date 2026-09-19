@@ -1,0 +1,99 @@
+{
+  "id": 27261,
+  "name": "Integrated Reasoning",
+  "slug": "integrated-reasoning",
+  "former_names": [],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/7abc96adeb32772a65759b3c7fb44df00a0e11db.png",
+  "website": "https://integrated-reasoning.com",
+  "all_locations": "San Diego, CA, USA; Kilauea, HI, USA; Remote",
+  "long_description": "Integrated Reasoning builds efficient computer processors that are tailored to the memory access patterns of Karp's 21 NP-complete problems. We’re making it 100x - 10,000x faster to perform computations like scheduling airline pilots or optimizing packing layouts for shipping containers.",
+  "one_liner": "Faster processors for solving NP-complete problems",
+  "team_size": 1,
+  "industry": "B2B",
+  "subindustry": "B2B -> Engineering, Product and Design",
+  "launched_at": 1656696534,
+  "tags": [
+    "Artificial Intelligence",
+    "Developer Tools",
+    "Hard Tech",
+    "Hardware",
+    "SaaS"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Summer 2022",
+  "status": "Active",
+  "industries": [
+    "B2B",
+    "Engineering, Product and Design"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada",
+    "Remote",
+    "Fully Remote"
+  ],
+  "stage": "Early",
+  "app_video_public": true,
+  "demo_day_video_public": false,
+  "app_answers": [
+    {
+      "question": "Describe what your company does in 50 characters or less.",
+      "answer": "Insanely fast silicon for NP-complete algorithms."
+    },
+    {
+      "question": "How long have each of you been working on this? How much of that has been full-time? Please explain.",
+      "answer": "I founded Integrated Reasoning in December of 2021. I started working on the idea full-time as of March 2022."
+    },
+    {
+      "question": "What is your company going to make? Please describe your product and what it does or will do.",
+      "answer": "Integrated Reasoning designs processors that are tailored to the memory access patterns of NP-complete algorithms. Think GPUs but for optimization and constraint satisfaction problems (e.g. the knapsack problem.)\r\n\r\nComputing solutions to many NP-complete problems requires a massive amount of data transfer between the CPU and DRAM. Memory bandwidth is the bottleneck of modern computing, as discussed in \"Hitting the memory wall: Implications of the obvious.\" [1]\r\n\r\nThe memory wall is such a critical problem that it motivated much of the design behind Apple's M1 architecture. See also this excellent 2017 article [2] by Brendan Gregg, who is widely known for his expertise in system performance engineering.\r\n\r\nI believe Integrated Reasoning presents a win-win-win:\r\n- Customers win by spending less money renting servers, less time waiting for computation, and most importantly, can work on something other than wrangling clusters of computers.\r\n- The Earth and its inhabitants win because less energy will be required to search for countless digital needles in enormous digital haystacks (i.e. combinatorial optimization problems.)\r\n- Integrated Reasoning wins because it can make a profit while pricing its products far below the cost of running the equivalent workload on a cluster of servers.\r\n\r\n[1] Wulf, Wm A., and Sally A. McKee. \"Hitting the memory wall: Implications of the obvious.\" ACM SIGARCH computer architecture news 23.1 (1995): 20-24.\r\n[2 ] [https://www.brendangregg.com/blog/2017-05-09/cpu-utilization-is-wrong.html](https://www.brendangregg.com/blog/2017-05-09/cpu-utilization-is-wrong.html)\r\n\r\nNote: Integrated Reasoning does not aim to answer the famous P versus NP question."
+    }
+  ],
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/integrated-reasoning",
+  "api": "https://devasheeshg.github.io/yc-api/batches/summer-2022/integrated-reasoning.json",
+  "year_founded": 2021,
+  "city": "San Diego",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/integrated-reasoning",
+  "x_url": "https://twitter.com/IntegrateReason",
+  "fb_url": null,
+  "cb_url": "https://www.crunchbase.com/organization/integrated-reasoning",
+  "github_url": "https://github.com/integrated-reasoning",
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/7abc96adeb32772a65759b3c7fb44df00a0e11db.png",
+  "app_video_url": "https://bookface-images.s3.us-west-2.amazonaws.com/bf-public_profile/27322/app_video.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECANFYDQO47%2F20260919%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260919T020217Z&X-Amz-Expires=60&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEIn%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJIMEYCIQCuuGCCtZQJUuWr%2ByrdFcxFJj2%2FKiTG8U26oVm5fv4i3gIhAJRSApBpW13oJx5IM7ryRpnw85pI9kTzZ8DuIimFE6ANKuUDCFIQABoMMDA2MjAxODExMDcyIgyOdB8nb0QrQjsL4BcqwgO27FBLiTZFcP3%2FnblXpPOgPqnAr%2FZ%2FGMzt0gJ6XqubCVI4SpHxkeu4syRzN5%2BsoZNazoBg9kWHeK0LrphD0r0WZdTwylrO5HTakCTt%2BOKIJINFtotiqUrAod4cFciY1z1ttcCCDvYfkFvaYTtByE5M7j6%2Fco8Mw6AsBhpGI1KuClqEpJRrkrpkt3VYhhrXP9amPpMnEosV3YBdJX5J6ikpaWGOqaj%2Fc2%2BwtccSQAub8LMBmvUObasJYefKOsDqchg8lvUA6uj0SwlTyC%2FPutjY%2FNyzxckMAanp96xfQRSMurtyV6FlYv%2FP6UN7nnT%2BGCeDfXjyFkAgpYFE1eH2CYS7wAG1hZV%2BNoxNPHgkDtoyhZCK1i8woQ3XntyoNfkG%2FfQLgepuvTnS%2BbaPXMuvH3YOwtYcAg9k2XlZIrj6NZPgq7nqiVc%2FhA%2BqbNtqHb3fKduXFdIbAGRe360be%2FgCrwrtUTqy27MdgGufG%2FEiX0hJv3N2jYkc%2F43Wxwqlwd94G6xd3bzJWv7VA%2BuDRQjSOzw%2B9g3oJXR%2F2BKKIXEnCaQbmTXPc53FWKDeG6K61T60TUasaGBuoKOq%2FL0IA1Kys7ig9pcwycG31QY6pAF5l%2BWS2ZT%2Fx12u9hlqq71CDDJbkH2dKZE8P4Fyy%2B8wdVZN6ahR%2F8Dt%2FsulYvDF6fHwRy1AP297RaqDoqBnZhCJp45wZKOQUW8YalVUwpR1NRvhOCU%2FBm6w0l4W0iRZ8DYeEHW5EUFP3pQ2HNw3ZuKh6tzRnQNUpOW8E%2BciHvAoWLveLbUG4NCf%2BoLtEHQ4NC%2Fh61bqJR%2BdqFexUUI6EjeMc15iOQ%3D%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=b2209d9ca1e0a8042c9f36f3349cafef2a495599efedf90789a6178197e34678",
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Jared Friedman",
+    "url": "https://www.ycombinator.com/people/jared-friedman"
+  },
+  "founders": [
+    {
+      "user_id": 330306,
+      "full_name": "David Cox",
+      "title": "Founder",
+      "founder_bio": "Founder, CEO at Integrated Reasoning",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/d4r5c2/",
+      "x_url": "https://twitter.com/davidcox",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/cd472580566e2172c3e543e258e0772eda75237f.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 64273,
+      "title": "⚡️ Integrated Reasoning - Fast hardware for optimization problems",
+      "tagline": "Integrated Reasoning builds computer hardware to efficiently solve optimization problems. We’re making it 100x faster and 10x cheaper to solve problems like scheduling airline pilots or packing shipping containers.",
+      "body": "**Problem:**\n\nLogistics is expensive.\n\nImagine you’re a shipping company. Every day, you need to pack 100,000 boxes into shipping containers. How many containers do you need? Which boxes go into which containers? A common solution to this problem is to run [Google’s “OR-Tools” software](https://developers.google.com/optimization) in the cloud. This works, but it’s slow and the costs add up. Integrated Reasoning builds an alternative solution that is faster and cheaper.\n\n**Solution:**\n\n[Integrated Reasoning](http://ir.design/) provides hardware for solving optimization problems that can be quickly deployed in the cloud and scaled as needed. You don’t need any knowledge of hardware or firmware to use our products, and we provide generous support to make sure that the transition is smooth.\n\n**Reach out to us!**\n\nWe’re working on a series of hardware products for optimization. We would love to hear from folks that work on scheduling, routing, packing, networks, or other optimization problems; even if you’re not sure if our hardware could help.\n\nYou can reach out to Brycen and David at [hello@ir.design](mailto:hello@ir.design) or find out more at [ir.design](http://ir.design).",
+      "url": "https://www.ycombinator.com/launches/Gif-integrated-reasoning-fast-hardware-for-optimization-problems",
+      "votes": 40,
+      "created_at": "2022-07-01T19:12:26.468Z"
+    }
+  ]
+}

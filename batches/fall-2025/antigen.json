@@ -1,0 +1,117 @@
+{
+  "id": 30999,
+  "name": "Antigen",
+  "slug": "antigen",
+  "former_names": [
+    "Claybird",
+    "zag.dev",
+    "Zag"
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/714f71e97009698c591e79370e41cb52734e724e.png",
+  "website": "https://antigen.sh/",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "Antigen is an AI adversary for the enterprise. It maps, exploits, and secures your attack surface through nightly automated offensive testing and monthly human red team assessments. Every finding is delivered with traces, reproduction steps, and remediation directly in GitHub, Linear, or the Antigen Platform.\r\n\r\nWe work with companies in financial services, healthcare, retail, and government where security is trust.\r\n\r\nWe're backed by Lightspeed, DST Global, and Susa Ventures.",
+  "one_liner": "Continuous offensive security for the enterprise.",
+  "team_size": 5,
+  "industry": "B2B",
+  "subindustry": "B2B -> Engineering, Product and Design",
+  "launched_at": 1759979466,
+  "tags": [
+    "Artificial Intelligence",
+    "Cybersecurity"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": true,
+  "nonprofit": false,
+  "batch": "Fall 2025",
+  "status": "Active",
+  "industries": [
+    "B2B",
+    "Engineering, Product and Design"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/antigen",
+  "api": "https://devasheeshg.github.io/yc-api/batches/fall-2025/antigen.json",
+  "year_founded": 2026,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/antigenco",
+  "x_url": "https://x.com/antigenco",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/714f71e97009698c591e79370e41cb52734e724e.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [
+    "https://bookface-images.s3.us-west-2.amazonaws.com/attachments/f5f28d8d287d812fe939e54e9715c473f92e79ce.png",
+    "https://bookface-images.s3.us-west-2.amazonaws.com/attachments/6b0db6d8a2d3b51411efe244a7950f32195cf541.png"
+  ],
+  "primary_partner": {
+    "name": "Aaron Epstein",
+    "url": "https://www.ycombinator.com/people/aaron-epstein"
+  },
+  "founders": [
+    {
+      "user_id": 3049862,
+      "full_name": "Saad Jamal",
+      "title": "Founder/CTO",
+      "founder_bio": "co-founder @ antigen. prev. ml infra at tesla autopilot. law school dropout.\n\nBefore Zag, Saad trained reasoning models with Ashish Vaswani, author of the famous Attention Is All You Need paper. At Nuro, he developed an ML Compiler framework that enabled running the perception layer across multiple GPU's. And at Tesla he built infrastructure that halved the time it took to train Planning & Controls models. \n\nHe also served at the Supreme Court of Pakistan and dropped out of UChicago Law.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/sadjamz/",
+      "x_url": "https://x.com/sadjamz_",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/6884a1d6d955d0cd249bd70c06cee8e3a2beec8d.jpg"
+    },
+    {
+      "user_id": 919490,
+      "full_name": "Abdullah Nauman",
+      "title": "Founder",
+      "founder_bio": "Co-Founder @ Antigen. Previously product at Google Ads and ML at Google Search.\n\nPreviously at Google, shipped product features for new advertisers and built large-scale ML infrastructure for measuring cross-site conversions on Search.\n\nTook a year off college to join as second employee at a YC startup. Separately scaled a bootstrap SaaS to $30k MRR. Also wrote low-level imaging software for silicon wafer manufacturing.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/abdullahnauman",
+      "x_url": "https://x.com/_AbdullahNauman",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/27a5ff8bdb4258fc05aad5e34af5f89aeb2216ba.jpg"
+    }
+  ],
+  "jobs": [
+    {
+      "id": 109112,
+      "title": "Security Researcher",
+      "url": "https://www.ycombinator.com/companies/antigen/jobs/CAQhaJY-security-researcher",
+      "location": "San Francisco, CA, US",
+      "type": "Full-time",
+      "role": "Engineering",
+      "role_type": "Devops",
+      "salary_range": "$150K - $220K",
+      "equity_range": "0.50% - 1.00%",
+      "experience": "1+ years",
+      "visa": "US citizen/visa only",
+      "skills": [
+        "Information Security",
+        "Software Security",
+        "AI Agents"
+      ]
+    }
+  ],
+  "news": [],
+  "launches": [
+    {
+      "id": 94551,
+      "title": "Zag: AI Review Agents for Every PR",
+      "tagline": "Custom review agents that build, test, and run your code before it lands.",
+      "body": "Hey everyone, we’re Abdullah and Saad - cofounders of [Zag](https://zag.dev/) 👋\n\n**TL;DR**\n\n**Zag** is a platform for building and running AI review agents. You describe agents in TypeScript or Swift as composable Tasks, and Zag runs them in **real sandboxed environments** on every pull request. Agents don't just read diffs. They build your project, run your tests, boot your app, and verify that it actually works.\n\n_We've opened early access to teams building for Apple platforms (iOS, iPadOS, macOS), running on dedicated Apple Silicon with Xcode, simulators, and the full native toolchain._\n\n<https://www.youtube.com/watch?v=MuIK1woknhc>\n\n**_The Problem_**\n\nCoding agents are producing changes faster than humans can review them. Tools like Claude Code and Codex are accelerating how code gets written, but the review side hasn't kept up. Teams are merging changes they haven't fully validated, or creating bottlenecks where a handful of senior engineers review everything.\n\nStatic AI code review (inline comments on diffs) helps, but it requires more human-in-the-loop than teams can sustain. Reading AI-generated suggestions about AI-generated code doesn't scale. The kind of confidence that lets teams merge fast comes from actually building, testing, and running the code.\n\n**_Our Solution_**\n\nZag lets teams build custom review agents that run in real environments on every PR.\n\nWe believe that as human engineering work moves up a layer of abstraction, a tech lead's primary job will be tuning better review agents. Not reading diffs line by line, but shaping the automated judgment that enforces their team's engineering culture at the scale of AI-authored code.\n\nThe primary unit of work is a Task: a composable, dependency-aware unit that describes an environment and the logic that runs inside it. Tasks can spin up Claude Code, Codex, or custom agents with access to real build tools, simulators, and full operating systems. Every Task runs in an ephemeral session on dedicated Apple Silicon that boots in seconds from pre-warmed snapshots.\n\nUse built-in utilities for common checks (build verification, test execution, crash detection, App Store compliance), or write your own agents for the specific behaviors your team cares about. When applied to every PR, this helps teams merge changes as fast as they author them.\n\n**Why Apple Developers First**\n\nApple developers need macOS to build and test their code. You can't meaningfully validate an iOS app without Xcode, a simulator, and Apple Silicon. Most CI providers treat macOS as an afterthought. Zag provisions dedicated M4 hardware with no queue at $0.015/minute, priced at AWS cost. If you already have GitHub Actions or Cirrus workflows, a one-line runner swap points them at Zag compute, even before you adopt the review agents.\n\n**_Our Ask_**\n\n1. Connect us with iOS/macOS teams that are frustrated with their CI or are already using coding agents and feeling the review bottleneck.\n2. If you lead an engineering team and want to try custom review agents on your codebase, book a demo at zag.dev/book. A dedicated engineer will embed with your team to set up agents you can trust on every PR.\n3. Share this with anyone building for Apple platforms.\n\n**_The Team_**\n\n![uploaded image](/media/?type=post&id=94551&key=user_uploads/919490/d4e60f0f-0558-48f6-b318-f404ec638358)\n\n**Abdullah** built ML infrastructure at Google powering core Search systems that directly drove **$1B+ in revenue**.\n\n**Saad** spent three years training video models at Tesla Autopilot and later built training infrastructure with **Ashish Vaswani** (author of _Attention Is All You Need_).\n\nTogether, we’ve also collected **$200k+ in bug bounties** from security research.",
+      "url": "https://www.ycombinator.com/launches/Ob1-zag-ai-review-agents-for-every-pr",
+      "votes": 66,
+      "created_at": "2025-10-10T07:18:24.526Z"
+    }
+  ]
+}

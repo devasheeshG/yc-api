@@ -1,0 +1,90 @@
+{
+  "id": 32816,
+  "name": "Financial Datasets",
+  "slug": "financial-datasets",
+  "former_names": [
+    "Financial Datasets, Inc."
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/4b4bdae68fdd8f9d994fab11fca6b30709eb7e7c.png",
+  "website": "https://financialdatasets.ai/",
+  "all_locations": "New York City, NY, USA",
+  "long_description": "Financial Datasets is an applied AI research lab building search and data infrastructure for agents, starting with financial markets.\r\n\r\nWe turn filings, company disclosures, and market data into structured, searchable information - helping agents find relevant facts, answer financial questions, and monitor markets in real time.\r\n\r\nFor 40 years, market data was built for people reading screens. We're rebuilding it for agents that research every company, all day, across the world.",
+  "one_liner": "Connect your agents to the stock market ",
+  "team_size": 1,
+  "industry": "B2B",
+  "subindustry": "B2B",
+  "launched_at": 1786382003,
+  "tags": [
+    "Fintech",
+    "Investing",
+    "AI",
+    "Stocks"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Summer 2026",
+  "status": "Active",
+  "industries": [
+    "B2B"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/financial-datasets",
+  "api": "https://devasheeshg.github.io/yc-api/batches/summer-2026/financial-datasets.json",
+  "year_founded": 2024,
+  "city": "New York City",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/financial-datasets",
+  "x_url": "https://x.com/findatasets",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/4b4bdae68fdd8f9d994fab11fca6b30709eb7e7c.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Brad Flora",
+    "url": "https://www.ycombinator.com/people/brad-flora"
+  },
+  "founders": [
+    {
+      "user_id": 2001420,
+      "full_name": "Virat Singh",
+      "title": "Founder/CEO",
+      "founder_bio": "Founder at Financial Datasets. 90,000+ stars on financial agent projects on GitHub.  Previously tech lead at Faire, building search recommendations. Earlier software engineer at Airbnb (Payments, Search) and Acorns. Started career in buy-side M&A",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/singhvirat/",
+      "x_url": "http://twitter.com/virattt",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/9302e20b46784f462363671342e35fdaf1f8e9e3.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [
+    {
+      "title": "The 10 Best Financial APIs for AI Coding Tools (2026)",
+      "url": "https://medium.datadriveninvestor.com/the-10-best-financial-apis-for-ai-coding-tools-2026-21b4caeec56e",
+      "date": "Jun 18, 2026"
+    }
+  ],
+  "launches": [
+    {
+      "id": 110463,
+      "title": "Financial Datasets: Stock market data for AI agents",
+      "tagline": "The best way to connect your agent to the stock market",
+      "body": "Hey all,\n\nVirat here, founder of [Financial Datasets](https://financialdatasets.ai/) (S26).\n\nWe make it easy for your agents to access live market data for 27,000+ global stocks through a clean and predictable API.\n\nToday, hedge funds and companies building finance agents use [Financial Datasets](https://financialdatasets.ai/) as their market data layer. We are trusted by 1,000+ customers, serving millions of requests daily.\n\n<https://www.youtube.com/watch?v=iV0N0sjZtjk>\n\n**The problem**\n\nBloomberg, FactSet, and S&amp;P spent 30 years building market data for humans staring at terminals. The entire stack assumes an analyst in the loop to interpret and verify the numbers.\n\nAgents can't use that stack. Instead, they need machine-readable schemas, natural language search, and a citation back to the source document. None of the incumbent infrastructure was built for the AI era.\n\n**What we built**\n\nThe only market API your agent needs:\n\n* A single place for your agent to gather all of its market data: fundamentals, earnings, KPIs, SEC filings, ownership, pre-IPO financials, prices, and more.\n* Live in seconds, not minutes. Financial data is parsed, structured, and queryable seconds after companies publish them.\n* Benchmarked against ground truth at 99.99% precision. Anything below that bar never reaches the API, so your agent never sees bad data.\n* Delivered over REST, an MCP server, and webhooks. Works out of the box with Claude, ChatGPT, Hermes, and OpenClaw.\n\nYou can ship our data inside your own product. Redistribution included, no per-seat pricing, no anti-AI usage restrictions.\n\n**The team**\n\nI'm Virat, founder of [Financial Datasets](https://financialdatasets.ai/). I have spent 14 years working as a software engineer at tech companies like Acorns, Airbnb, and Faire.\n\nI started Financial Datasets after getting frustrated by how difficult it was to give my agents high quality, real-time stock market data.\n\nI have been building finance agents since 2022 and posting about it daily on [X](https://x.com/virattt). My two open source projects, ai-hedge-fund (60K stars) and Dexter (27K stars), are used by professional and retail investors today.\n\n**Our ask**\n\nIf you’re building agents that touch the market, I’d love to chat. You can also try [Financial Datasets](https://financialdatasets.ai/) right now - it takes 30 seconds to set up and pull data from our API.\n\nEmail: [virat@financialdatasets.ai](mailto:virat@financialdatasets.ai)",
+      "url": "https://www.ycombinator.com/launches/Sjf-financial-datasets-stock-market-data-for-ai-agents",
+      "votes": 5,
+      "created_at": "2026-08-19T20:00:00.465Z"
+    }
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "id": 31295,
+  "name": "Carrot Labs",
+  "slug": "carrot-labs",
+  "former_names": [
+    "Anyware"
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/6c9d56ba5bab1fb6c9a7734a1a8aab7b6fbc48ed.png",
+  "website": "https://superpenguin.ai/",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "The problem: \r\nAI has quietly become one of the largest and fastest-growing line items for companies. Spend is scattered across a dozen provider consoles that each show one number at the end of the month and nothing about why it moved. There's no unified view, and no way to trace a dollar back to the customer, feature, team, or even the pull request that caused it.\r\n\r\nWhich customers are unprofitable once you subtract their AI costs? Which feature is quietly burning your Anthropic budget? Is this week's spike a runaway loop or real growth? How much did that AI-written PR actually cost to ship?\r\nToday teams reverse-engineer answers by exporting CSVs from each provider and stitching them together in a spreadsheet, and by the time they do, the money is already spent.\r\n\r\nWhat SuperPenguin does: SuperPenguin tracks AI spend across 14 providers (OpenAI, Anthropic, Google Gemini, Deepgram, ElevenLabs, AWS Bedrock, Azure, Modal, Cursor, OpenRouter, and more).\r\n\r\n* Zero-code setup: connect an API key and costs sync automatically with model-level breakdowns, trends, and forecasts\r\n* Per-request attribution: add two lines with our Python or TypeScript SDK to tag every AI call by customer, feature, team, or environment (or any other metadata).\r\n* AI coding cost per PR: connect Cursor to see engineering spend attributed to each pull request, repo, and developer, so you know what it actually costs to ship.\r\n* Alerts on budget thresholds and spend anomalies, delivered to Slack, email, or Discord.\r\n\r\nMost teams are set up in under five minutes. We help companies see where their AI money goes and whether it's worth it.",
+  "one_liner": "AI Cost Management: Track and attribute AI spend across every provider",
+  "team_size": 2,
+  "industry": "B2B",
+  "subindustry": "B2B",
+  "launched_at": 1772517831,
+  "tags": [
+    "AIOps",
+    "Artificial Intelligence",
+    "FinOps",
+    "B2B",
+    "AI"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Winter 2026",
+  "status": "Active",
+  "industries": [
+    "B2B"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/carrot-labs",
+  "api": "https://devasheeshg.github.io/yc-api/batches/winter-2026/carrot-labs.json",
+  "year_founded": 2026,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/carrot-labs-ai/",
+  "x_url": "https://x.com/carrotlabs__ai",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/6c9d56ba5bab1fb6c9a7734a1a8aab7b6fbc48ed.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Brad Flora",
+    "url": "https://www.ycombinator.com/people/brad-flora"
+  },
+  "founders": [
+    {
+      "user_id": 3198622,
+      "full_name": "Christopher Acker",
+      "title": "Founder/CEO",
+      "founder_bio": "Carrot Labs Founder. \n\nBuilding the continuous learning platform for AI Agents\n\nhttps://carrotlabs.cal.com/chris/20-min-meeting",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/christopher-acker-4711a3177/",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/f633a5168fb74667f84f441be1418cfd690860eb.jpg"
+    },
+    {
+      "user_id": 3309323,
+      "full_name": "Yuta Baba",
+      "title": "Founder",
+      "founder_bio": "Co-Founder of Carrot Labs.\n\nPreviously Senior Data Scientist at Snowflake, where I was in charge of ML account-based bookings forecasts that shaped financial planning as the company scaled from $250M pre-IPO to $3.6B in revenue.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/yutababa/",
+      "x_url": "https://x.com/yuta__baba",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/39f087e64dd3676f6e4b5be30a474291e4b0a441.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 98534,
+      "title": "Carrot Labs: Custom models tuned to your tasks that never stop improving",
+      "tagline": "Your model is your moat. Stop renting your intelligence and start growing it.",
+      "body": "**TL;DR:** Carrot Labs helps you build models for your agents that are faster and better, forever. Use our platform to build proprietary models using open source that progressively improve.\n\n[**Our Launch Video**](https://youtu.be/Qiw-HG14AVE)\n\n## **The Problems:**\n\nFrontier models from Anthropic, OpenAI and Google are constantly pushing the boundary of intelligence further, but great quality comes with high latency and cost. Smaller models are fast, but can't get the job done right.\n\nSo you start modifying system prompts. It takes you far enough, but at some point you hit a ceiling. And every time a new model comes out, your prompts don't work the same way anymore! (just February 2026 alone, Opus 4.6 and Sonnet 4.6 from Anthropic, Gemini 3.1 Pro from Google, GPT-5.3-Codex from Open AI, Qwen 3.5 from Alibaba came out to name a few.)\n\n## **Solution:**\n\nWe build you a proprietary model tuned to your tasks so you always have access to the most performant model for your agent.\n\nOur platform records your agent’s activity and tunes an optimized model from an open source base model. Once it's ready, swap out the frontier model for yours. That's it. As new production data flows in, we continuously evaluate and retrain your model to boost performance. What you get is a model specialized to your tasks that outperforms frontier.\n\n## **Why this matters to your startup:**\n\nIn the short run, you need your agent to be faster and more accurate, and prompt tuning will only get you so far. We are the fastest way to get there.\n\nIn the long run, every company building agents is using the same frontier models. Your competitor has the same intelligence you do. The thing that differentiates you is the knowledge you distill into your own model. Your model is your moat.\n\n## **Team:**\n\nChris led AI at Skylo Technologies, the world's largest commercial direct-to-device satellite network that provides satellite communications services to Google, Samsung, and Garmin devices.\n\nYuta was a senior data scientist at Snowflake where he developed financial forecasts through ML that supported the company's hypergrowth from pre-IPO to billions in revenue.\n\n## **How you can help:**\n\nIf you are building agents or know anyone building agents who would appreciate a model that outperforms frontier on their tasks, let us know at [contact@carrotlabs.ai](mailto:contact@carrotlabs.ai).\n\nOur self-serve agent eval SDKs are available. Feel free to use it! You can sign up from here: <https://platform.carrotlabs.ai/login>.",
+      "url": "https://www.ycombinator.com/launches/PdG-carrot-labs-custom-models-tuned-to-your-tasks-that-never-stop-improving",
+      "votes": 22,
+      "created_at": "2026-03-06T10:07:11.227Z"
+    }
+  ]
+}

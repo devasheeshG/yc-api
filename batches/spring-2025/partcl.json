@@ -1,0 +1,132 @@
+{
+  "id": 30191,
+  "name": "Partcl",
+  "slug": "partcl",
+  "former_names": [
+    "AionCAD"
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/3854a114899cbd01548be14b47a9169f22c776a0.png",
+  "website": "https://partcl.com/",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "Partcl modernizes chip design automation with physics-informed models powered by GPU acceleration. \r\nOur tools run up to 700× faster than legacy solutions, cutting weeks off development and unlocking AI-driven optimization.",
+  "one_liner": "Design a chip in minutes",
+  "team_size": null,
+  "industry": "B2B",
+  "subindustry": "B2B -> Engineering, Product and Design",
+  "launched_at": 1743057715,
+  "tags": [],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": true,
+  "nonprofit": false,
+  "batch": "Spring 2025",
+  "status": "Active",
+  "industries": [
+    "B2B",
+    "Engineering, Product and Design"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/partcl",
+  "api": "https://devasheeshg.github.io/yc-api/batches/spring-2025/partcl.json",
+  "year_founded": 2025,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/partcl",
+  "x_url": "",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": "https://github.com/partcleda",
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/3854a114899cbd01548be14b47a9169f22c776a0.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Tom Blomfield",
+    "url": "https://www.ycombinator.com/people/tom-blomfield"
+  },
+  "founders": [
+    {
+      "user_id": 1502337,
+      "full_name": "William Salcedo",
+      "title": "Founder/CEO",
+      "founder_bio": "CEO at Partcl. Previously at Nvidia, Stanford, and Cornell. I taped-out two chips from scratch as an undergrad and developed one of the earliest chips designed by LLMs. My research at Stanford included using AI techniques to verify circuits.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/william-salcedo/",
+      "x_url": "https://x.com/Willschips",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/7ee57b4d968c4d1c7de74f13fabb85e8c5b38a7f.jpg"
+    },
+    {
+      "user_id": 2331977,
+      "full_name": "Vamshi Balanaga",
+      "title": "Founder/CTO",
+      "founder_bio": "CTO at Partcl. Previously built embedded ML models at Apple, laser weeding robots at Carbon Robotics, and warehouse automation robots at Fulfil Solutions. Built and launched multiple rockets while running the avionics team at Space Enterprise at Berkeley, \nStanford EECS PhD (dropout), UC Berkeley Physics.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/vamshibalanaga",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/ae353eb8e6feca268c0d6165fa4934d63df4513c.jpg"
+    }
+  ],
+  "jobs": [
+    {
+      "id": 78506,
+      "title": "Founding Engineer (Systems + ML)",
+      "url": "https://www.ycombinator.com/companies/partcl/jobs/QYIRyyx-founding-engineer-systems-ml",
+      "location": "San Francisco, CA, US",
+      "type": "Full-time",
+      "role": "Engineering",
+      "role_type": "Machine learning",
+      "salary_range": "$130K - $300K",
+      "equity_range": "0.50% - 2.00%",
+      "experience": "Any (new grads ok)",
+      "visa": "Will sponsor",
+      "skills": [
+        "C++",
+        "Python",
+        "Rust",
+        "Torch/PyTorch",
+        "CUDA",
+        "GPU Programming",
+        "Machine learning"
+      ]
+    },
+    {
+      "id": 88148,
+      "title": "Backend EDA Compiler Engineer",
+      "url": "https://www.ycombinator.com/companies/partcl/jobs/ldnI504-backend-eda-compiler-engineer",
+      "location": "San Francisco, CA, US",
+      "type": "Full-time",
+      "role": "Engineering",
+      "role_type": "Machine learning",
+      "salary_range": "$130K - $300K",
+      "equity_range": "0.10% - 1.00%",
+      "experience": "Any (new grads ok)",
+      "visa": "US citizen/visa only",
+      "skills": [
+        "C++",
+        "Python",
+        "Rust",
+        "CUDA"
+      ]
+    }
+  ],
+  "news": [],
+  "launches": [
+    {
+      "id": 90311,
+      "title": "Partcl: Design Chips in minutes",
+      "tagline": "Accelerate time to market for a new chip with Partcl.",
+      "body": "Imagine hitting _compile_ and waiting **3 weeks** to learn you missed a semicolon... or **5 weeks** to catch a runtime error.\n\nWelcome to ASIC life.\n\nWe're slashing those weeks down to **minutes** — so you can build better chips, _faster_.\n\n**🤔 Why did we build this?**\n\nDuring our time at Nvidia and other startups, we found that engineers spend large amounts of the 24 month chip design cycle idle, waiting for runs to finish. \n\nPartcl speeds up Physical Design tools by rearchitecting algorithms for GPUs.\n\n![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXe5Tz9ckaEsmiCOCBRiSkIWoRjsjmlYImpGMRiNjD3CZFjP3cdqz1ak4HZDK-AiUi5j0FQdKDxZg1KI2rG5AafmrCYY-uOiPqU9KHemQSfnwG697XkK2sa2cIsYkjMnY3JCbyG-Lw?key=FiBPpN_VIY8oopQ1FfRq6HI4)\n\n**🧑‍💻What it means for designers:**\n\n* Quick power, performance, and area estimates\n* Fix timing/power bugs in RTL w/out handoff to the PD team\n* Build better chips, faster\n\n**✅What we have right now:**\n\n* 700X faster Static Timing Analysis - enabling super quick performance simulations\n* 100X faster Gate Resizing\n* 100X faster global and detailed placement\n\n**🔜What’s in the pipeline:**\n\n* LSP integration for Incremental synthesis - Synthesis as fast as you can type\n* Natural Language interface to any intermediate database - Directly query the state of your database with text instead of asking a junior engineer to build you a dashboard\n\n**Our Ask**\n\nEmail us at {vamshi, will}@partcl.com to try Partcl and let us know what you think.\n\nAre you building\n\n* **AI Accelerators**? Partcl brings in tapeout deadlines with faster tools, bringing your chip to market faster!\n* **Embedded/ IoT devices**? Partcl decreases NRE by shrinking design cycles. Decreased NRE directly translates to higher margins.\n* **Mobile SoCs**? Partcl’s physics informed models let you optimize the power-performance tradeoff for your use case.",
+      "url": "https://www.ycombinator.com/launches/NUd-partcl-design-chips-in-minutes",
+      "votes": 33,
+      "created_at": "2025-05-12T20:45:49.479Z"
+    }
+  ]
+}

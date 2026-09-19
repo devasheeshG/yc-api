@@ -1,0 +1,80 @@
+{
+  "id": 32230,
+  "name": "Codag",
+  "slug": "codag",
+  "former_names": [],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/0a9882f0ac224b2b32ff0636a2c28986acf45c0d.png",
+  "website": "https://codag.ai/",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "Codag compresses tool call outputs before agents read them, which reduces token spend by  20-30% while retaining output accuracy.\r\n\r\nGovern and see analytics on agent dollars across all model providers and internal agents. \r\n ",
+  "one_liner": "The AI gateway for cheaper, faster, permissioned agents.",
+  "team_size": 1,
+  "industry": "B2B",
+  "subindustry": "B2B -> Infrastructure",
+  "launched_at": 1779593681,
+  "tags": [
+    "Developer Tools"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Summer 2026",
+  "status": "Active",
+  "industries": [
+    "B2B",
+    "Infrastructure"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/codag",
+  "api": "https://devasheeshg.github.io/yc-api/batches/summer-2026/codag.json",
+  "year_founded": 2026,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "",
+  "x_url": "",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/0a9882f0ac224b2b32ff0636a2c28986acf45c0d.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Harshita Arora",
+    "url": "https://www.ycombinator.com/people/harshita-arora"
+  },
+  "founders": [
+    {
+      "user_id": 2706494,
+      "full_name": "Michael Zhou",
+      "title": "Founder/CEO",
+      "founder_bio": "Solo @Codag. ex. @Okta, @Shopify for infrastructure. BSc in Computer Science and Neuroscience from University of Toronto. Ex. Rank 80 Challenger LoL, Rank 200 TFT",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/mzxzhou/",
+      "x_url": "https://x.com/michaelzixizhou",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/083c434760353beee5fa8582901b2fa08a1757c5.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 110923,
+      "title": "Codag: Compression and control for agent tools",
+      "tagline": "Optimize agent costs without changing how developers work.",
+      "body": "Hi everyone,\n\nI’m Michael, founder of Codag.\n\n**TL;DR:** Codag compresses tool results before models read them, lowering costs and improving accuracy without changing how developers work, while providing tool usage analytics.\n\n<https://youtu.be/eJbK3SezeXA>\n\n### The problem\n\nAgents consume huge amounts of output from searches, tests, builds, logs, file trees, and APIs.\n\nA single tool result can add thousands of mostly repetitive lines to a session. The model processes that output before provider-native compaction can help. Important evidence gets buried, so the agent searches again, retries, or rereads the same data.\n\nThis makes agent sessions slower and more expensive. Companies also lack a consistent view of which tools and MCP servers agents use across Claude Code, Codex, and other harnesses.\n\n### What Codag does\n\nCodag attaches to existing agent harnesses with one setup command.\n\nIt handles each result according to the action being performed:\n\n\\- Tests preserve failures, traces, file locations, and exit status.\n\n\\- Searches preserve exact file and line references.\n\n\\- Logs preserve chronology, causal evidence, and outliers.\n\n\\- Anything omitted remains selectively retrievable.\n\nOptimized tool results are 75% smaller on average, while preserving signal.\n\nDevelopers keep working normally. Codag reduces what reaches the model before the model pays to read it.\n\nCodag also reports which tools and MCP servers agents invoke, along with tokens, model-adjusted spend, savings, reducer cost, and latency across providers. Because Codag already sits in the tool path, it becomes the natural place for companies to control which tools agents can use, under what policies, and at what cost.\n\n### Results so far\n\nMore than 90 organizations use Codag, including teams of up to 35 people. I built and sold the product solo.\n\n### Where this goes\n\nOur bet is that agent activity will grow faster than model prices fall. As companies give agents more tools, longer tasks, and production access, they will need infrastructure that reduces, measures, and controls agent tool use across every provider.\n\nCodag starts with compression. The larger opportunity is becoming the gateway through which companies understand and control how agents use tools.\n\n### The ask\n\nIf your team uses agents, check out [codag.ai](http://codag.ai), or contact me at [michael@codag.ai](mailto:michael@codag.ai)",
+      "url": "https://www.ycombinator.com/launches/Sr5-codag-compression-and-control-for-agent-tools",
+      "votes": 6,
+      "created_at": "2026-08-16T18:44:00.099Z"
+    }
+  ]
+}

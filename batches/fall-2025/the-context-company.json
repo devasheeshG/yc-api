@@ -1,0 +1,97 @@
+{
+  "id": 30863,
+  "name": "The Context Company",
+  "slug": "the-context-company",
+  "former_names": [],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/897cd2d31bc7dc869e170422ebc8e24a66f3e2bc.png",
+  "website": "https://www.thecontextcompany.com",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "We analyze every conversation between your customers and your AI agent to find what's losing you customers and money. Then we help ship the fix and prove it worked.\r\n\r\nNobody on the team can read every conversation once an agent is in production. TCC does, and turns them into patterns tied to the accounts they affect: where customers get stuck, what they wish the agent could do, and where it's spending more than it needs to.\r\n\r\nEngineers ask about a pattern from their IDE through our MCP, get the conversations and traces behind it down to the tool call or prompt that went wrong, ship the fix, and benchmark cost and quality before and after. Product sees what customers are actually trying to do with the agent and where it falls short, broken out by topic and account, which becomes the backlog for what to build next. Customer success sees which accounts the agent is struggling with before the customer says anything, and steps in with the full conversation on hand.\r\n\r\nAny agent framework, a few lines of code. If you're running an agent in production or about to launch, ping us.",
+  "one_liner": "Find what's losing you customers and money in your AI agent and fix it",
+  "team_size": 2,
+  "industry": "B2B",
+  "subindustry": "B2B -> Engineering, Product and Design",
+  "launched_at": 1759953898,
+  "tags": [
+    "Developer Tools",
+    "B2B",
+    "Analytics",
+    "Monitoring",
+    "AI"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Fall 2025",
+  "status": "Active",
+  "industries": [
+    "B2B",
+    "Engineering, Product and Design"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/the-context-company",
+  "api": "https://devasheeshg.github.io/yc-api/batches/fall-2025/the-context-company.json",
+  "year_founded": 2025,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/the-context-company/",
+  "x_url": "https://x.com/thecontextco",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/897cd2d31bc7dc869e170422ebc8e24a66f3e2bc.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [
+    "https://bookface-images.s3.us-west-2.amazonaws.com/attachments/f79a5b20add310d8c52a8e37b33c10a81faf8f5e.png",
+    "https://bookface-images.s3.us-west-2.amazonaws.com/attachments/af950c1fa4e85da46b706668594f2e3898e07954.png"
+  ],
+  "primary_partner": {
+    "name": "Nicolas Dessaigne",
+    "url": "https://www.ycombinator.com/people/nicolas-dessaigne"
+  },
+  "founders": [
+    {
+      "user_id": 2357695,
+      "full_name": "Arman Kumaraswamy",
+      "title": "Founder",
+      "founder_bio": "Cofounder at The Context Company (Monitoring for AI agents)\n\nI've been in love with startups since I was in high school :)\n\nPrev studied CS+Math at UF, and engineered at Mintlify, Apten, RevisionDojo, and Solace Health",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/armankumaraswamy/",
+      "x_url": "https://x.com/ksw_arman",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/8401e71daab0e1115cff57cc14f4453c2bce6052.jpg"
+    },
+    {
+      "user_id": 2579624,
+      "full_name": "Rohil Agarwal",
+      "title": "Founder",
+      "founder_bio": "What is up! Previously studied EECS + Business at UC Berkeley M.E.T. and worked on Gmail Intelligence at Google, where I built models powering intent detection for 26B+ daily emails.\n\nNow building The Context Company, where we are powering developers to ship AI agents they can trust. I'm excited about solving context engineering 🙃\n\nOh, and I take one selfie every day!",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/rohil-ag/",
+      "x_url": "https://x.com/rohil_ag",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/4d30f11084359006ce25e5cf6c97ee26d09cb543.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 94947,
+      "title": "The Context Company - Catch Silent AI Failures Before They Break Production",
+      "tagline": "Full observability for AI agents, from bad tool calls, loops, and hallucinations to latency and cost, in 10 lines of code.",
+      "body": "What is up! We’re [Arman](https://www.linkedin.com/in/armankumaraswamy/) and [Rohil](https://www.linkedin.com/in/rohil-ag/) - cofounders of [The Context Company](https://thecontextcompany.com)\n\n**TL;DR**\n\n![uploaded image](/media/?type=post&id=94947&key=user_uploads/2579624/129e5656-94c6-42e6-a2ba-6ac545b0ef94)\n\nSetup takes under 10 lines of code, and we now support Vercel AI SDK, LangChain, and LangGraph, with more frameworks coming fast.\n\n**Our Ask**\n\n* If you’re building with Vercel AI SDK, LangChain, or LangGraph, use The Context Company for observability.\n* Setup takes just a few lines - DM us on Bookface or Slack, or email [founders@thecontextcompany.com](https://mailto:founders@thecontextcompany.com), and we’ll personally onboard you in 15 minutes.\n* Not using those frameworks yet? Tell us what you’re building with, and we’ll add support fast.\n\n<https://youtu.be/5FVesVO9egg>\n\n**The Problem**\n\nAI agents often fail quietly. Traditional observability tools only show latency or stack traces. They miss the silent layer of failures that happen inside reasoning steps or tool calls.\n\nMost teams end up waiting until users report issues, and by then, it’s already too late. As a developer, I know you’ve been there scrolling through endless logs, trying to piece together what an agent actually did and why it failed (because trust us, we have too 🙏🏽).\n\n**We’re rethinking observability from the ground up and making silent failures a first-class primitive in agent monitoring.**\n\n\\*\\*Our Solution:\\*\\*\\\nInstead of just visualizing traces, we analyze them and detect reasoning breakdowns across runs. In addition to traditional metrics like latency, cost, and token usage, The Context Company surfaces failures in a clean, developer-friendly dashboard.\n\n![uploaded image](/media/?type=post&id=94947&key=user_uploads/2579624/861e36d0-5a8b-4555-a738-e2489729f99f)\n\nAnd we’ve gone beyond the cloud:\n\nYou can now run our developer package locally to debug traces on your machine, even when you’re offline or iterating fast.\n\n![uploaded image](/media/?type=post&id=94947&key=user_uploads/2579624/b7722f3f-a018-4c46-806c-7ef4be35bd44)\n\n**Our Progress**\n\n* Framework support: Vercel AI SDK, LangChain, and LangGraph.\n* Instant setup: &lt;10 lines of code - no refactoring or modifying your agent needed. This is what it looks like:\n\n![uploaded image](/media/?type=post&id=94947&key=user_uploads/2579624/560baa96-5818-4d20-bf82-43f2d3775ca3)\n\n* Local debugging: Run observability locally on your laptop for real-time trace analysis.\n* Dashboards: Full visibility into agent runs, tool calls, latency, costs, and semantic failures.\n\n**The Team**\\\nArman and Rohil have been best friends since 6th grade (8+ years now!). \n\nArman optimized the public-facing AI agent at Mintlify, where he cut failure rates by 82%, and worked with enterprise design partners to build custom agents. Rohil worked on Gmail Intelligence at Google, reducing hallucinations in intent detection by 27% across 26B+ daily emails. \n\n![uploaded image](/media/?type=post&id=94947&key=user_uploads/2579624/70e7935c-7606-4e8f-a7af-4ebf44cf5514)\n\nhttps://www.thecontextcompany.com\n\nP.S. Even if you’re not using AI SDK, LangChain, or LangGraph, we’re adding support for other frameworks soon. Tell us what you need 😎\\\n\\\n\\\nDashboard:\n\n![uploaded image](/media/?type=post&id=94947&key=user_uploads/2579624/e9425baf-3e5f-4098-b64f-497a74232f5a)\n\n![uploaded image](/media/?type=post&id=94947&key=user_uploads/2579624/ece01a4a-5089-46dd-a12a-eeef441f5cd3)\n\n",
+      "url": "https://www.ycombinator.com/launches/OhP-the-context-company-catch-silent-ai-failures-before-they-break-production",
+      "votes": 34,
+      "created_at": "2025-10-27T21:36:21.070Z"
+    }
+  ]
+}

@@ -1,0 +1,106 @@
+{
+  "id": 32286,
+  "name": "Definite",
+  "slug": "definite",
+  "former_names": [
+    "Ledgix",
+    "Bylaw"
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/ea163685b0ad74eaec6a19637a061cdb5e63acae.png",
+  "website": "https://www.usedefinite.com",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "Definite is where finance teams build everyday back-office agents on one live model of their books. We plug into your ERP, ledger, payroll, and payments read-only and compile everything into one clean model that stays current as money moves. Your back-office team then builds agents on top in plain English. We never write back and we never move money. The agents are yours, the plumbing is ours.\r\n\r\nWe met in first year computer science at Waterloo and interned at Meta, Optiver, and BitGo. At Optiver they ran an n8n hackathon and the interns automated basically nothing. It couldn't talk to the systems that mattered. When we pitched banks and fintechs on agents, they kept telling us the same thing. The agent isn't the hard part, getting clean data out of their systems is.\r\n\r\nRight now, automating anything in a back office means engineers hand-stitching data from a dozen sources in different formats on different schedules. Tools like n8n and Workato assume your data is already clean and joined. In finance it never is. So the teams with the most repetitive work and smallest budgets get nothing.\r\n\r\nThe hard part is the compiler. Every source gets cleaned, matched, and joined into one live model of transactions, invoices, vendors, and payments, and it has to stay right as money lands every day. \r\n\r\nEveryone throws engineers at this. We're doing it once so nobody has to again. Every back office is getting agents eventually. Whoever owns the data they read from owns the thing all of them depend on, and eventually the books themselves. That's what we're building.\r\n",
+  "one_liner": "Build everyday back-office agents on one live model of your books",
+  "team_size": 3,
+  "industry": "B2B",
+  "subindustry": "B2B -> Finance and Accounting",
+  "launched_at": 1782681224,
+  "tags": [
+    "Artificial Intelligence",
+    "Fintech",
+    "SaaS",
+    "Finance"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Summer 2026",
+  "status": "Active",
+  "industries": [
+    "B2B",
+    "Finance and Accounting"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/definite",
+  "api": "https://devasheeshg.github.io/yc-api/batches/summer-2026/definite.json",
+  "year_founded": 2026,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/usedefinite",
+  "x_url": "https://x.com/UseDefinite",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/ea163685b0ad74eaec6a19637a061cdb5e63acae.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Ankit Gupta",
+    "url": "https://www.ycombinator.com/people/ankit-gupta"
+  },
+  "founders": [
+    {
+      "user_id": 2947446,
+      "full_name": "Gurshabd Singh Varaich",
+      "title": "Founder/CEO",
+      "founder_bio": "Founder & CEO at Definite (YC S26). Previous SWE intern at BitGo (pre-execution wallet policy and approval controls). Studied CS at UWaterloo",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/gvaraich/",
+      "x_url": "https://x.com/gurshabdv",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/f208520804de89eb57bd0ffaecc678ab08e70e04.jpg"
+    },
+    {
+      "user_id": 2947432,
+      "full_name": "Mazin Al-Ani",
+      "title": "Founder",
+      "founder_bio": "Founder at Definite (YC S26). Previously SWE intern at Optiver (quantitative trading systems) and Boosted.ai (agentic AI platform for financial analysts). Studied CS at University of Waterloo.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/mazinalani/",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/61a124dc48094fbc0085b19ae79a8f71f1cc6f19.jpg"
+    },
+    {
+      "user_id": 1563459,
+      "full_name": "Farhan Ur Rehman",
+      "title": "Founder",
+      "founder_bio": "Founder at Definite (YC S26). Previous SWE at Meta (Instagram reels recommendation). Studied Statistics at University of Waterloo.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/farhan-ur-rehman/",
+      "x_url": "https://x.com/re__farhan",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/bbb1704fb2da8fe5afeb297c7a36c7091072108e.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 105798,
+      "title": "Definite - Turn weeks of regulatory reports into hours.",
+      "tagline": "The most accurate AI agents for financial reporting",
+      "body": "_AI agents that run the entire regulatory reporting pipeline for banks, from raw ledger data to the filed report._\n\n**_TL;DR_**_: Definite automates regulatory reporting for banks end to end, from raw ledger data to filed report, turning weeks of manual work into hours._ [usedefinite.com](http://usedefinite.com)\n\nHey! We're Gurshabd, Mazin and Farhan from Definite.\n\n<https://www.youtube.com/watch?v=ji1ae8y_V4E>\n\n**The Problem**\n\nProving to regulators that their books follow the rules is a constant, non-negotiable obligation for banks. Each report is thousands of numbers, personally signed off by an executive. Getting it wrong can mean a **fine up to a million dollars** over a single undetected error. Producing that proof is slow, and doesn't even guarantee it's correct. \n\nHere's where the current system breaks down:\n\n1. **Wasted Hours:** A controller pulls data from the core system into Excel and maps it line by line by hand. By regulators' own estimate, one quarterly filing takes weeks of employee time, time pulled from higher-value finance work every quarter.\n2. **False Confidence:** The software banks use to file checks formatting, not truth. A loan mapped to the wrong schedule line sails through every check. Nothing catches it until an examiner does, and by then it's not a mistake, it's a violation.\n\n**The Solution**\n\n**Report agents:** We connect to your books and our agents build the reports you owe.\n\n**Verification engine:** Every number is recomputed from source records and checked against a versioned rulebook, so each line carries its rule and source data.\n\n**Self-correcting agents:** When a check fails, the agent gets the reason and fixes it in seconds. Real exceptions come to your team with a drafted explanation, not a blank error. This loop is why our agents are the most accurate in finance.\n\n**Receipts:** Every check produces a tamper-evident receipt you can hand an examiner or auditor.\n\nYour team reviews and signs instead of building.\n\n**How we got here**\n\nGurshabd worked at BitGo, a regulated crypto custodian, where attestations proving customer assets matched the ledger were built by hand every period. Farhan worked at Meta where he delved extensively into machine learning and building AI agents. Mazin saw Optiver recheck daily regulatory numbers by hand, then built LLM agents at [Boosted.ai](http://Boosted.ai) and learned finance people won't act on AI output unless every number comes with its source.\n\nThe lesson from all three: in finance, producing a number is cheap, proving it is the job. On two public reporting benchmarks, DeepSeek V3 with our verification engine outperformed GPT-5 on reconciliation accuracy (FinBalance) at roughly 50× lower cost, and beat the entire published field on XBRL calculation validation (FinAuditing).\n\n![uploaded image](/media/?type=post&id=105798&key=user_uploads/2947446/1b80714c-9a38-4d02-a037-ab05ad2c9205)\n\n**The Ask**\n\n* Work at a bank, credit union, fintech or insurer on regulatory filings? Let's talk: <https://calendly.com/usedefinite/intro>, or text me: +1 519-619-5467\n* We’d also love an intro to a VP of Finance or Engineering at your partner bank (personal or business)\n\nFollow us: [LinkedIn](https://www.linkedin.com/company/usedefinite/?viewAsMember=true), and [X](https://x.com/UseDefinite).\n\nWe'll be in the comments. [gurshabd@usedefinite.com](mailto:gurshabd@usedefinite.com)",
+      "url": "https://www.ycombinator.com/launches/RWQ-definite-turn-weeks-of-regulatory-reports-into-hours",
+      "votes": 10,
+      "created_at": "2026-07-15T14:05:31.123Z"
+    }
+  ]
+}

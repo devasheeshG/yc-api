@@ -1,0 +1,96 @@
+{
+  "id": 32418,
+  "name": "Traceforce",
+  "slug": "traceforce",
+  "former_names": [],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/8a31e3b43130c5974d52608c066ff45cc746112f.png",
+  "website": "https://www.traceforce.ai",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "AI apps such as ChatGPT and Claude have become part of everyone's daily workflow, but they introduce new security risks that traditional security tools weren't built to handle. Security teams at companies from startups to Fortune 500s, are struggling to keep up.\r\n\r\nTraceforce gives a company’s security team visibility of how AI apps are being used across company’s devices, and the ability to detect and prevent security breaches and unsafe actions as early as possible.",
+  "one_liner": "CrowdStrike for AI Agents",
+  "team_size": 2,
+  "industry": "B2B",
+  "subindustry": "B2B -> Security",
+  "launched_at": 1785015608,
+  "tags": [
+    "Artificial Intelligence",
+    "SaaS",
+    "Security",
+    "Cybersecurity",
+    "Enterprise"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Summer 2026",
+  "status": "Active",
+  "industries": [
+    "B2B",
+    "Security"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada",
+    "Remote",
+    "Partly Remote"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/traceforce",
+  "api": "https://devasheeshg.github.io/yc-api/batches/summer-2026/traceforce.json",
+  "year_founded": 2025,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/traceforce-security",
+  "x_url": "",
+  "fb_url": null,
+  "cb_url": "Traceforce, Inc",
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/8a31e3b43130c5974d52608c066ff45cc746112f.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Brad Flora",
+    "url": "https://www.ycombinator.com/people/brad-flora"
+  },
+  "founders": [
+    {
+      "user_id": 2775802,
+      "full_name": "Xia Hua",
+      "title": "Founder/CEO",
+      "founder_bio": "Founder at Traceforce. Previously Director of Engineering at Clumio, managing all flagship ransomware protection products. PhD in Applied Math from MIT.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/xia-hua-ph-d-28856a30/",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/2f3e3c63d811c56302968adf9fea80553cf68f79.jpg"
+    },
+    {
+      "user_id": 3675843,
+      "full_name": "Varun Wadhwa",
+      "title": "Founder/CTO",
+      "founder_bio": "Co-founder & CTO at TraceForce. Previously Senior Software Engineer at LinkedIn, leading high-performance database systems for RAG. Before that, Staff Software Engineer at Clumio, leading distributed data infrastructure and backup. Earlier built distributed payments systems at Microsoft. BS in EECS, UC Berkeley.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/varunwadhwarcds",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/3bb82e62b797bba9d01efa60a14cb9d26fe41a26.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 107460,
+      "title": "Traceforce — Catch risky agent actions your security gateway will never spot",
+      "tagline": "Company-wide security monitoring for AI apps",
+      "body": "# \\*\\*\\*\\*\n\n**TL;DR:** AI agents are quietly pulling secrets off your employees' laptops — and your security gateway can't see it. Traceforce installs in under 5 minutes and gives you a full inventory of every AI app, MCP, and skill running on every device, then lets you block the dangerous stuff in real time. Built by the ex-Clumio engineering team. Traceforce is already deployed on 3,000+ devices across six enterprise customers, with 40+ active pilots worth $3M+ in ARR. Try it free at [www.traceforce.ai](http://www.traceforce.ai).\\\n\\\n**The incident that started this**\\\nAt our last company, an AI coding agent running on a developer's laptop scraped what looked like database credentials and pushed them straight into a public GitHub repo. It took us _weeks_ to investigate, rotate credentials, and clean up the fallout. We got lucky — they were dev-environment creds, so no customer was affected. Next time, nobody will be that lucky.\\\n\\\nThat's the whole problem with AI at work now: ChatGPT, Claude, Cursor, and Claude Code are everywhere on employee devices, wired into your data through MCPs and skills that no one is tracking. The tools your security team already owns — gateways, proxies, enterprise APIs — never see any of it, because the risky action happens _on the device_, before it ever hits the network.\\\n\\\n**Why us**\\\nWe're Xia and Varun. We ran engineering at Clumio, a cyber-resilience company acquired by Commvault in 2024, where Xia was Director of Engineering and Varun was tech lead. We've spent our careers building security infrastructure — and we validated this problem with 50+ CISOs and CIOs before writing a line of code. Every one of them said the same thing: \\_I need to see and control this without slowing my engineers down.\\_\\\n\\\n**Why on-device — and why gateways can't do this**\\\nCompetitors sit at the gateway or plug into enterprise APIs. That misses the self-adopted AI tools employees install themselves, and it can't see how an agent is actually connected to your data via MCPs. Traceforce runs on the endpoint, so we see the full picture — which AI apps are running, what MCPs and skills they're wired to, what data they can reach — and we can _warn or block_ an unsafe action the moment it happens, not after it's already on the network.\\\n\\\n**What you get**\n\n* Install in &lt;5 min. Full inventory of every AI app, MCP, and skill across your devices within 30 minutes.\n* Discover shadow AI and see exactly how each agent connects to your data sources.\n* Real-time controls: warn and block unsafe actions (like uploading a client list to a chatbot) before they happen.\n* Open-source MCP pentesting: we also built [mcp-xray](https://github.com/traceforce/mcp-xray) to dynamically detect vulnerable MCPs — try it today.\n\n\\\n**Traction**\n\n* Securing 3000+ employee devices across 6 medium-sized enterprises.\n* Customer quote from a leading database provider with over 500 employees: “To govern AI, we need full visibility into AI usage before we can place any type of controls. Traceforce gives us both visibility and control we needed”.\n* 40+ Active pilots including multiple Fortunate 500 enterprises.\n\n<https://www.youtube.com/watch?v=a0OPq8vdDV0>\\\n\\\n**Our ask**\n\n* **Intros** to security engineers, security architects, DevSecOps teams, or CISOs securing AI adoption. (We're the ex-Clumio team — that's usually enough to get a conversation.)\n* **Try Traceforce free** on your own laptop — &lt;5 min to install, and we want candid feedback, good or bad.\n* **Challenge us:** tell us which AI apps, MCPs, or workflows we should support next.\n* **Share** with anyone wrestling with security over ChatGPT, Claude, Cursor, Claude Code, or custom MCPs.",
+      "url": "https://www.ycombinator.com/launches/RxE-traceforce-catch-risky-agent-actions-your-security-gateway-will-never-spot",
+      "votes": 7,
+      "created_at": "2026-07-28T16:50:42.184Z"
+    }
+  ]
+}

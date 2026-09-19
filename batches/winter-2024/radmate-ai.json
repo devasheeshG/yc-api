@@ -1,0 +1,94 @@
+{
+  "id": 29189,
+  "name": "RadMate AI",
+  "slug": "radmate-ai",
+  "former_names": [
+    "RadMate"
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/3c98f937de28a21f554069f7c5f1175449869819.png",
+  "website": "https://www.radmate.ai",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "We’re building the AI copilot for radiologists, powered by a foundational model for medical imaging. RadMate AI will read radiology images and generate full reports for radiologists to review and submit.\r\n\r\nMohamed and Adam are technical co-founders who met while studying Computer Science at Cornell University. Before starting RadMate AI to solve the problems his dad faced as a radiologist, Adam worked at Palantir on the initial launch of Palantir’s Al Platform. Mohamed has experience at AWS, where his goal was to help enterprises innovate on the cloud, and PathAl, where he worked on their image viewer platform to improve the workflow of pathologists. ",
+  "one_liner": "Copilot for radiologists",
+  "team_size": 2,
+  "industry": "Healthcare",
+  "subindustry": "Healthcare",
+  "launched_at": 1706569110,
+  "tags": [
+    "Artificial Intelligence",
+    "SaaS",
+    "Digital Health",
+    "Enterprise Software",
+    "AI Assistant"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Winter 2024",
+  "status": "Inactive",
+  "industries": [
+    "Healthcare"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/radmate-ai",
+  "api": "https://devasheeshg.github.io/yc-api/batches/winter-2024/radmate-ai.json",
+  "year_founded": 2023,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/radmate-ai",
+  "x_url": "",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/3c98f937de28a21f554069f7c5f1175449869819.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [
+    "https://bookface-images.s3.us-west-2.amazonaws.com/attachments/7a883da5fda143ab7d97a3b041aae4e8e10aff8d.png"
+  ],
+  "primary_partner": null,
+  "founders": [
+    {
+      "user_id": 1268119,
+      "full_name": "Mohamed Khalifa",
+      "title": "Founder",
+      "founder_bio": "Cofounder & CEO of RadMate AI. Cornell University Alumni. Worked at Amazon Web Services as a Customer Solutions Manager. In this role, I played a pivotal part in assisting customers with their migration to and innovation on the cloud. Following this, I joined PathAI as a Software Engineer, a Biotech company at the forefront of integrating AI into pathology. ",
+      "is_active": false,
+      "linkedin_url": "https://linkedin.com/in/mohamed-taha-khalifa",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/68ede46af83132984c874b91c6bccbe6bf6cb2c7.jpg"
+    },
+    {
+      "user_id": 1246346,
+      "full_name": "Adam Skrocki",
+      "title": "Founder",
+      "founder_bio": "Cofounder and CTO of RadMate AI. Before starting RadMate AI, I graduated Cornell with a computer science degree and worked at Palantir as a software engineer on the AI Platform. ",
+      "is_active": false,
+      "linkedin_url": "https://linkedin.com/in/adamskrocki",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/7cb3d76f50eede7d0fd64d4ac3e17ca53366eeb1.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 78039,
+      "title": "⚡️ RadMate AI: The AI copilot for radiologists",
+      "tagline": "We help radiologists dictate error-free reports with 30% fewer words.  ",
+      "body": "Hey everyone - [Mohamed Khalifa](https://linkedin.com/in/mohamed-taha-khalifa) and [Adam Skrocki](https://linkedin.com/in/adamskrocki) here!☀️\n\n_TL;DR: We’re building the AI copilot for radiologists. While reading images, we allow radiologists to dictate what they see, and _[_RadMate AI_](https://www.radmate.ai/)_ will generate and proofread reports for them._\n\n# The problem\n\nRadiologists spend most of their day reading patient images and dictating reports based on the images. As patient access to imaging continues to rise, radiologists face escalating pressure to produce detailed reports quickly.\n\nHowever, the software they use hasn’t changed in over a decade, so radiologists are no longer well-equipped to meet rising demand.\n\n1. Radiologists dictate over 30% more words than they need to, which can lead to fewer reports, [burnout](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10618688/#:\\~:text=It%20was%20reported%20that%2054,exhibit%20burnout%20symptoms%20%5B23%5D), and lower quality reporting.\n2. Over [20% of radiology reports](https://www.gehealthcare.com/insights/article/improving-accuracy-in-radiology-images-and-reports#:\\~:text=Inaccurate%20diagnostic%20radiology%20results%20can,contain%20some%20sort%20of%20error) have errors in them. Which can lead to treatment delays, poor outcomes, higher healthcare costs, lost revenue, and operational inefficiencies.\n\n# Our solution\n\nLLMs provide an opportunity to revamp the way radiologists report. We’ve created a platform with an AI copilot that decreases stress on radiologists and increases accuracy by:\n\n1. Minimizing the words radiologists have to say.\n2. Reducing the number of clicks required for report generation.\n3. Proofreading reports to reduce errors.\n\n# The founding team\n\nMohamed and Adam are technical co-founders who met while studying Computer Science at Cornell University. Before starting RadMate AI to solve the problems his dad faced as a radiologist, Adam worked at Palantir on the initial launch of Palantir’s Al Platform. Mohamed has experience at AWS, where his goal was to help enterprises innovate on the cloud, and PathAl, where he built software to improve pathology. We’re excited to take our engineering expertise and our personal ties to healthcare to address the issues radiologists face today.\n\n![uploaded image](/media/?type=post&id=78039&key=user_uploads/1246346/01e3c7a0-b2c8-4457-bb2a-8ba10df25751)\n\n# Our ask 🙏\n\nIf you're a radiologist or know of any, we'd love to connect at [founders@radmate.ai](mailto:founders@radmate.ai)!",
+      "url": "https://www.ycombinator.com/launches/KIh-radmate-ai-the-ai-copilot-for-radiologists",
+      "votes": 130,
+      "created_at": "2024-01-31T20:51:53.040Z"
+    }
+  ]
+}

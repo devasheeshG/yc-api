@@ -1,0 +1,103 @@
+{
+  "id": 33320,
+  "name": "OneCLI",
+  "slug": "onecli",
+  "former_names": [],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/0405005492b7122ac5f4784e260fc64d7bd99053.png",
+  "website": "https://onecli.sh",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "OneCLI (YC S26) is an open-source AI teammates platform for teams. Like Grok Bot, but self-hostable, loved by developers. \r\n\r\nEach employee gets their own sandboxed pro assistant agent, connected to their GitHub, Gmail, Notion, Dropbox, or CRM right from the chat/Slack, while the whole workspace runs under one policy your admins control.\r\n\r\nAgents never hold real secrets: the credential is injected at the network layer, per request, after the call is authorized. You can't steal what isn't there.",
+  "one_liner": "The open source AI teammates for your company.",
+  "team_size": 0,
+  "industry": "B2B",
+  "subindustry": "B2B -> Productivity",
+  "launched_at": 1783888956,
+  "tags": [
+    "AIOps",
+    "Artificial Intelligence",
+    "B2B",
+    "Workflow Automation",
+    "Open Source"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Summer 2026",
+  "status": "Active",
+  "industries": [
+    "B2B",
+    "Productivity"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/onecli",
+  "api": "https://devasheeshg.github.io/yc-api/batches/summer-2026/onecli.json",
+  "year_founded": null,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/onecli",
+  "x_url": "",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/0405005492b7122ac5f4784e260fc64d7bd99053.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Brad Flora",
+    "url": "https://www.ycombinator.com/people/brad-flora"
+  },
+  "founders": [
+    {
+      "user_id": 406823,
+      "full_name": "Jonathan Fishner",
+      "title": "Founder/CEO",
+      "founder_bio": "Co-founder of OneCLI",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/jonathanfishner",
+      "x_url": "https://x.com/jonathanfishner",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/6230ecfcb0be73a0475915f586f61d5139a12a58.jpg"
+    },
+    {
+      "user_id": 1935982,
+      "full_name": "Guy Ben Aharon",
+      "title": "Founder/CTO",
+      "founder_bio": "Co-founder of OneCLI",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/guy-ben-aharon/",
+      "x_url": "https://x.com/GuyBenAharon",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/d2d3562621d02f714e16c1c63903eab6e5f71f23.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 111185,
+      "title": "OneCLI - Give every employee a secured, sandboxed pro assistant agent",
+      "tagline": "Self-hosted agent harness for teams: sandboxed, policy-controlled, and never touching a real credential. Works from web and Slack.",
+      "body": "Hi everyone 👋, we're Jonathan and Guy, founders of OneCLI.**\\\n\\\n🏆 TL;DR**\n\nOneCLI is an open source agent harness for teams. Each employee gets their own sandboxed pro assistant agent, connected to their GitHub, Gmail, Notion, Dropbox, or CRM right from the chat/Slack, while the whole workspace runs under one policy your admins control. \\\n\\\nAgents never hold real secrets: the credential is injected at the network layer, per request, after the call is authorized. You can't steal what isn't there.\n\n**Launch Video**\\\n<https://youtu.be/LUAMdqbl_Rw>\n\n🚧 **The Problem**\n\nLately, autonomous agents have arrived and shown up everywhere. Tools like OpenClaw and Hermes have become extremely popular and been adopted by open source communities, mostly by individuals. Companies, however, have been left behind: they need integration with their identity providers to enable easy provisioning of agents on behalf of an employee's identity, with least-privilege access.\n\nThose tools have fundamental flaws. Security fundamentals, like secret handling and organization-level control, are missing by default. So companies must choose between weak agents or making them powerful but risky.\n\n✅ **What OneCLI Does**\n\nOneCLI gives teams the whole harness, open source and self-hosted, so agents can be powerful and safe at once:\n\n* **Sandboxed agent per employee:** each agent runs isolated with its own memory, skills, and permissions.\n* **Secrets injected at the network layer:** the agent gets a placeholder, the gateway swaps in the real credential per request, after the call is authorized. Credentials never enter the agent's context, memory, or logs.\n* **Policy enforced outside the model:** admins define org-wide policy. Block endpoints and scope access per agent.\n* **Human-in-the-loop where it counts:** sensitive actions (send the email, delete the Linear ticket, empty the S3 bucket) wait for deterministic approval in the chat.\n* **Full identity trail:** every agent is bound to an employee, every call logged with who it acted for and which policy allowed it.\n\n🚀 **Team**\n\nWe've spent our careers in security. Jonathan built zero trust network access at Axis Security (acquired by HPE). The core ZTNA idea is that you never trust the client and enforce access outside it, at the network layer. Guy was the first employee at Argon (AppSec company acquired by Aqua Security), protecting client codebases. Agents need exactly the treatment ZTNA gives humans, so we built it.\n\n🙏 **Our Ask**\n\n* Do you want to provide each of your employees with a secure OpenClaw isolated in a sandbox? Shoot me an email: [jonathan@onecli.sh](mailto:jonathan@onecli.sh)\n* Star/try the repo:[ https://github.com/onecli/onecli](https://github.com/onecli/onecli). Self-host in minutes, free.",
+      "url": "https://www.ycombinator.com/launches/SvJ-onecli-give-every-employee-a-secured-sandboxed-pro-assistant-agent",
+      "votes": 29,
+      "created_at": "2026-08-20T14:00:00.677Z"
+    },
+    {
+      "id": 106907,
+      "title": "OneCLI - Your AI agents shouldn't be holding raw secrets",
+      "tagline": "Agents hold placeholder tokens, real secrets get injected at the network layer",
+      "body": "# **🏆 TL;DR**\n\n[**OneCLI**](http://onecli.sh) is an open-source credential gateway for **AI agents**.\\\nWhen an agent makes a call, OneCLI swaps in the real credential at the network layer and forwards it. The agent never touches the secret, **you can't steal what isn't there**.\\\n320K+ downloads, 2,500+ GitHub stars, and the default credential layer in NanoClaw (30K+ stars).\n\n**Ask:** If your team runs coding agents (Claude Code, Codex, Cursor) or autonomous agents in production. And if you can intro us to Head of DevOps or heads of DevSecOps at companies rolling out AI agents, email us at [jonathan@onecli.sh](mailto:jonathan@onecli.sh) \\\n\\\n**Sign up for free:** <https://onecli.sh>\n\n![uploaded image](/media/?type=post&id=106907&key=user_uploads/406823/5294ff50-4b88-4ee7-9c9c-3c776b5b45b5)\n\n<https://youtu.be/5e5pbPEzZfY>\n\n# The Problem\n\nAI agents are doing real work now, which means they need real credentials: API keys, database passwords, OAuth tokens. And there's no safe way to hand them over.\n\nToday, every team does one of two things: hardcode secrets into **.env files** the agent can read, or build a one-off proxy hack. Both mean the **agent holds the secret**. An agent that holds a secret can leak it, through prompt injection, a malicious MCP server, a compromised dependency, or simply by pasting it into a log or a commit.\n\nSecrets management was designed for humans and **deterministic software**. Autonomous agents that read untrusted webpages, install packages, and write their own code are a fundamentally different threat model. The blast radius of one leaked production key is enormous, and teams are granting agents more access every week.\n\n# Our Solution\n\nOneCLI moves the credential out of the agent entirely.\n\nYou run one command, and every outbound call from your coding agent (Claude Code, Codex, Cursor, Cline) or autonomous agent (OpenClaw, Hermes, NanoClaw) routes through OneCLI. The agent only ever sees placeholder tokens. On each request, the proxy:\n\n1. Matches the request by host/path\n2. Checks it against policy\n3. Swaps the placeholder for the real credential\n4. Forwards the request\n\nThe agent never holds the secret, so there's nothing to steal, log, or exfiltrate. \\\nSecrets are AES-256-GCM encrypted at rest. The whole thing runs in a single Docker container with no external dependencies. It works with anything that can set HTTPS_PROXY.\n\nFor teams, we already support integration with IdPs and organization-wide policy setup, giving you full control and visibility over every access made by your agents.\n\n# Why this and not the PAM/identity vendors?\n\nBecause the credential problem for agents is a **network problem, not an identity problem**. Vault-based tools (1Password, HashiCorp Vault) still hand the secret to the agent to authenticate. The agent holds it, so the agent can leak it. OneCLI injects the credential at the wire: transparent injection, policy enforced on every outbound request, and the secret never enters the agent's context in the first place.\n\n# The Team\n\nWe've spent our careers in security. Guy (CTO) was the first hire at Argon (acquired by Aqua Security). Jonathan (CEO) worked on ZTNA and network security at Axis Security (acquired by HPE), after serving in Israeli Military Intelligence.\n\nWe hit this problem ourselves. Before OneCLI we built ChartDB together, an open-source database tool with 20K+ GitHub stars, and while building an agent orchestration layer on top of it, we kept hitting the same wall: there was no safe way to hand an autonomous agent credentials. Every team we talked to was either hardcoding API keys or duct-taping proxies. So we built the thing we wished existed.\n\n![uploaded image](/media/?type=post&id=106907&key=user_uploads/406823/ff451063-51d2-4c13-9c5f-cd1863b8c648)\n\n# The Ask\n\nIf you know a Head of DevOps or DevSecOps lead at a company rolling out AI agents, we'd love an intro.\n\n[jonathan@onecli.sh](mailto:jonathan@onecli.sh)",
+      "url": "https://www.ycombinator.com/launches/RoJ-onecli-your-ai-agents-shouldn-t-be-holding-raw-secrets",
+      "votes": 11,
+      "created_at": "2026-07-23T13:44:46.846Z"
+    }
+  ]
+}

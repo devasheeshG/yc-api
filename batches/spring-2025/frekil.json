@@ -1,0 +1,97 @@
+{
+  "id": 30399,
+  "name": "Frekil",
+  "slug": "frekil",
+  "former_names": [
+    "Notate"
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/1e885d9503dffbb01e24f5bd3a78965979764099.png",
+  "website": "https://www.frekil.com",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "Today, it takes months to understand how drugs perform in the real world, delaying safety insights and leaving patients exposed to unknown risks and benefits for far too long. Frekil turns that months-long process into minutes, with full auditability and scientific rigor.\r\n\r\nFrekil accelerates real world evidence (RWE) generation for life sciences companies on their own clinical data from months to minutes. It connects to fragmented clinical data (EHR, Claims, etc.) and lets teams run end-to-end studies from study design, cohort extraction to SAP, statistical analysis, and final reports.",
+  "one_liner": "RWE Generation in minutes",
+  "team_size": 2,
+  "industry": "Healthcare",
+  "subindustry": "Healthcare",
+  "launched_at": 1744440110,
+  "tags": [
+    "Health Tech",
+    "B2B",
+    "Biotech",
+    "Healthcare",
+    "AI"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Spring 2025",
+  "status": "Active",
+  "industries": [
+    "Healthcare"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/frekil",
+  "api": "https://devasheeshg.github.io/yc-api/batches/spring-2025/frekil.json",
+  "year_founded": 2025,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/frekil",
+  "x_url": "https://x.com/frekil_ai",
+  "fb_url": null,
+  "cb_url": "https://www.crunchbase.com/organization/frekil",
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/1e885d9503dffbb01e24f5bd3a78965979764099.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [
+    "https://bookface-images.s3.us-west-2.amazonaws.com/attachments/97e2ba01dbc711349b274b0ca428262324d00de1.png"
+  ],
+  "primary_partner": {
+    "name": "Nicolas Dessaigne",
+    "url": "https://www.ycombinator.com/people/nicolas-dessaigne"
+  },
+  "founders": [
+    {
+      "user_id": 1701549,
+      "full_name": "Nikhil Tiwari",
+      "title": "Founder/CEO",
+      "founder_bio": "Co-founder & CEO at Frekil | IIT Bombay graduate | Prev SWE @ Stripe, Amazon, Marsh&McLennan | Semester Exchange at University of Geneva | Healthcare AI research @ IIT Bombay",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/nikhiltiwari-iitb/",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/ac548a78e532cb0bcc4e52cd4a4dab72efa662f0.jpg"
+    },
+    {
+      "user_id": 2184765,
+      "full_name": "Shivesh Gupta",
+      "title": "Founder/CTO",
+      "founder_bio": "I’m the co-founder and CTO at Frekil, building AI-powered workflows to generate automated real world evidence of drug performance. Previously, I worked as a systems software engineer at Sony Japan and declined a full-time offer from an HFT to build Frekil. I graduated from IIT Bombay this year, where I also led the institute web and coding club.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/shivesh-gupta-iitb/",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/12446cb23ecb33fb1c8ac93725399e07275eb437.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 90527,
+      "title": "Frekil - Scale AI for Medical Scans 🚀",
+      "tagline": "Scale AI for Medical Scans",
+      "body": "Hey everyone, we’re [Nikhil](https://www.linkedin.com/in/nikhiltiwari-iitb/) & [Shivesh](https://www.linkedin.com/in/shivesh-gupta-iitb/), co-founders of Frekil!  👋\n\n## TL;DR\n\nFrekil is an end-to-end platform to procure and annotate medical imaging datasets like Xrays, CTs, MRIs, etc 10x faster with AI assistance. We’ve partnered with radiology chains for large-scale imaging data, and have a global marketplace of radiologists for rapid, high-quality annotations.\n\nhttps://youtu.be/2MYjUFp3r0Q?feature=shared\n\n## ❗The Problem\n\nAI is transforming healthcare, but the biggest bottleneck is still **access to medical images from hospitals and annotations by expert doctors**.\n\nHealthcare AI and life sciences companies spend millions collecting medical images and hiring expert radiologists. But annotations? They're still:\n\n📝 Manual\\\n🐢 Slow\\\n🔍 Hard to QA\n\nFinding expert annotators with deep domain knowledge is tough, which means R&D teams waste months and large budgets on a process that should be seamless.\n\nMedical annotation itself is uniquely challenging because it involves:\n\n📦 Gigabyte-scale files\\\n🧠 Complex, multi-dimensional data that’s sensitive to loss\\\n🎯 Accuracy that’s absolutely critical\n\nYet most teams still use open-source desktop tools like 3D Slicer, built decades ago for solo researchers. These tools:\n\n🚫 Require local machines\\\n📉 Offer no real-time collaboration\\\n📊 Force spreadsheet-based coordination\\\n🔐 Risk compliance and data security\n\nAnd the result?\\\nHighly trained radiologists are stuck doing repetitive tasks manually wasting time, slowing innovation, and compromising data quality.\n\n## 🧠 Our Solution\n\nWe transform the way healthcare AI teams prepare data by **accelerating and streamlining the entire annotation pipeline** — cutting timelines from months down to days.\n\nHere’s how:\n\n✅ Deliver fully annotated **medical datasets** tailored for AI research needs\n\n✅ Provide certified and benchmarked **radiologists** for annotation and quality assurance\n\n✅ Offer advanced, browser-based annotation tools for all kinds of medical images—radiology, pathology, histopathology, including X-ray, CT, MRI, ultrasound, etc\n\n✅ Use **AI assistance** to make annotators **10x faster**\n\n✅ Enable customizable clinical workflows with multi-stage reviews & annotations\n\n✅ Ensure **FDA-Ready** annotation versioning, consensus checks, and full audit trails\n\n✅ Track annotator performance in cost, time, and **accuracy** - all built in\n\n### 🤝 The Team\n\n![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXctdUlgsBRg891fZ4XU-Ve5trM2bw_h1PYuoQCy0NxrUigEoWMrHYVBO3D3IoAaUC7UPvtDzGxg0C_x2gyO0ujmyJs3_FxtXpLzIVPiUfIZqDKotuf5oeOiGmHyyPRLAzeDm9ORsA?key=Rm0k0m7MflJlURnfdp3zng)\n\nNikhil (left) and Shivesh (right) have been friends since their days at **IIT Bombay**, studying and building together. While working on healthcare AI projects, they experienced firsthand how painful annotation can be especially for large, multi-dimensional medical images that demand extreme accuracy.\n\n[**Nikhil**](https://www.linkedin.com/in/nikhiltiwari-iitb/) (CEO) - Former software engineer at **Stripe, Amazon**, and Marsh McLennan, where he worked on infrastructure, performance optimization, and low-level systems. He graduated from **IIT Bombay** last year, where he led technical initiatives in the student body SARC and built platforms used by 10,000+ students.\n\n[**Shivesh**](https://www.linkedin.com/in/shivesh-gupta-iitb/) (CTO) - Former systems software engineer at **Sony Japan**. He holds an engineering degree from **IIT Bombay**. During his time there, he worked on healthcare AI research and also led the institute’s web and coding club.\n\n## 👋 Our Ask\n\nKnow someone building AI in healthcare whether it’s diagnostic models, clinical trial workflows, or robotic surgery? We’d love to connect.\n\nWe have special offers for academic research, connect us with professors at your university working in healthcare AI!\n\nGot questions or want to chat? Reach out anytime at [founders@frekil.com](mailto:founders@frekil.com) !\n\nOr book a call directly at https://calendly.com/nikhil-frekil/30min ",
+      "url": "https://www.ycombinator.com/launches/NY7-frekil-scale-ai-for-medical-scans",
+      "votes": 607,
+      "created_at": "2025-05-19T19:13:41.676Z"
+    }
+  ]
+}

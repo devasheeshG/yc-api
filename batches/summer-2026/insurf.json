@@ -1,0 +1,93 @@
+{
+  "id": 32187,
+  "name": "Insurf",
+  "slug": "insurf",
+  "former_names": [],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/203aaca34875f8d2fd195e6c042414266aefc1ca.png",
+  "website": "https://www.insurf.io",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "Insurf is the AI-native data and decision layer for health insurance. Our model Surely identifies the lowest-cost coverage for anyone, saving individuals, families, and companies thousands per employee. Our product Inveto collects the data from hospitals and clinics that informs Surely.",
+  "one_liner": "The AI-Native Decision Layer for Health Insurance",
+  "team_size": 3,
+  "industry": "Healthcare",
+  "subindustry": "Healthcare",
+  "launched_at": 1782286226,
+  "tags": [
+    "Health Tech",
+    "Healthcare",
+    "Insurance",
+    "Automation",
+    "AI"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Summer 2026",
+  "status": "Active",
+  "industries": [
+    "Healthcare"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/insurf",
+  "api": "https://devasheeshg.github.io/yc-api/batches/summer-2026/insurf.json",
+  "year_founded": 2026,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/insurf/",
+  "x_url": "",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/203aaca34875f8d2fd195e6c042414266aefc1ca.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Gustaf Alstromer",
+    "url": "https://www.ycombinator.com/people/gustaf-alstromer"
+  },
+  "founders": [
+    {
+      "user_id": 3378177,
+      "full_name": "Bryan Chung",
+      "title": "Co-Founder",
+      "founder_bio": "Co-founder at Insurf. Samsung at 14. 18th Internationally in Physics, Top 80 Internationally in Computer Science, 2x IEEE Publisher, USACO Platinum, Research at Cambridge, Brown, CMU, RIT, and UCSC",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/bryan-chung-21b531265/",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/6728ca29b0a22eb5a13e927f97bb5b9c2a9ef96e.jpg"
+    },
+    {
+      "user_id": 3378885,
+      "full_name": "Chang Lu",
+      "title": "Co-Founder",
+      "founder_bio": "Co-founder at Insurf. Ex Brown BS/MD\nPreviously studied Neuroscience and Economics at Brown. Conducted zero-shot modeling research at Emory Winship Cancer Institute.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/changxianlu",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/bbd81a7330818b1c1cb7ebd17246c72911cb0146.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 111220,
+      "title": "Insurf: We save people and employers thousands on health insurance costs",
+      "tagline": "We built a computation layer for health insurance that predicts the lowest true-cost coverage for anyone. We will be the national standard for how America chooses coverage, with the only engine that knows both what plans cost and what they actually do.",
+      "body": "Hey everyone — we're **Chang and Bryan**, the founders of **Insurf**.\n\nAmerican health insurance is f\\*\\*\\*ed: chosen by guesswork, enforced by denial. We built the engine that fixes both halves.\n\n**TL;DR**\n\n**Surely** computes the lowest-cost plan for anyone. **Inveto** fights denials for real clinics across Texas, Georgia, and California, and each contract-authorized, de-identified outcome becomes coverage data nobody else has. Everything Inveto learns, Surely knows.\\\n\\\n[https://drive.google.com/file/d/1x5B44OPfZxd-32UBeGT-0a5WVdMf3Jnl](https://drive.google.com/file/d/1x5B44OPfZxd-32UBeGT-0a5WVdMf3Jnl/view?usp=sharing)\n\n**The problem: America picks health plans from one number**\n\nMore than 20 million Marketplace enrollees choose coverage off the sticker premium. That guess is expensive.\n\n• In our data, the lowest-premium plan was the lowest-cost option in **0 of 2,000 simulated years**.\n\n• In one example, the cheaper sticker would have cost **$8,052 more** in a single bad year.\n\n• That's one person. Multiply the risk across a family. Across a company.\n\n• This year alone, **four million Americans** found out what their plans actually cost — and walked away from coverage.\n\nWe compute.\n\n**Surely — the cost engine**\n\nSurely ranks all plans by what they'll actually cost: premiums, deductibles, drug tiers, networks, out-of-pocket caps. Every number sourced from government filings.\n\n**Inveto — the denial workbench**\n\nClinics upload a denial and the clinical record; Inveto produces source-cited, physician-signed appeals and supported prior authorizations. Live with real clinics across Texas, Georgia, and California today.\n\n**The moat is the join**\n\nEvery contract-authorized Inveto outcome becomes rights-cleared data about what plans actually do, including approvals, denials, appeals; Surely reads all of it. **What plans cost + what plans do. Nobody else has both.**\n\n**Why now**\n\nIn 2028, health plans stop renewing automatically: 20 million+ people will re-choose coverage every single year — the largest forced re-shop in the history of American health insurance. $150 billion a year in premiums, re-decided annually.\n\nAnd employers are next. The federal government projects **800,000 companies and 11 million+ people** will switch to ICHRA, where employees choose their own plans. That's a **trillion-dollar shift**. With Insurf, employers can expect to save **\\~$5,000 per employee, per year**.\n\n**Who we are**\n\nTwo friends who met during orientation at Brown. Chang got into medical school at 17, then worked a pharmacy counter watching thousands of people pay out of pocket for what they were promised. Bryan placed internationally in CS and physics competitions and has published IEEE research since high school.\n\n**Our ask**\n\n• Tired of overpaying for health insurance?\n\n• Weighing ICHRA, or trying to cut your company's benefits spend?\n\n• Running a specialty clinic buried in denials and prior auths?\n\nSee how much your company can save here: [insurf.io/audit](https://www.insurf.io/audit) or email [founders@insurf.io](mailto:founders@insurf.io) — we'll show you exactly what you'd save.\n\n**Everyone sells plans. Nobody prices them. We compute.**",
+      "url": "https://www.ycombinator.com/launches/Svs-insurf-we-save-people-and-employers-thousands-on-health-insurance-costs",
+      "votes": 96,
+      "created_at": "2026-08-19T21:00:00.658Z"
+    }
+  ]
+}

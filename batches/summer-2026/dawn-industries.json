@@ -1,0 +1,92 @@
+{
+  "id": 33344,
+  "name": "Dawn Industries",
+  "slug": "dawn-industries",
+  "former_names": [],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/be237324cf82c0125a34763f99ffb0cf35ca384d.png",
+  "website": "https://www.dawnxr.com",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "VIM connects to the entire cell: PLCs, robots, CNC machines, sensors. When a cell faults, VIM finds the cause, stages the fix, and the operator approves with one click. When a part drifts, VIM catches it seconds after the cut, inside the machine, and recommends the correction. Recovery drops from 30 minutes to under two, saving more than $15,000 per fault in large factories.",
+  "one_liner": "Automatic Diagnosis & Fix for Industrial Automation Cells",
+  "team_size": 2,
+  "industry": "Industrials",
+  "subindustry": "Industrials -> Manufacturing and Robotics",
+  "launched_at": 1786150873,
+  "tags": [
+    "Artificial Intelligence"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Summer 2026",
+  "status": "Active",
+  "industries": [
+    "Industrials",
+    "Manufacturing and Robotics"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada",
+    "Remote",
+    "Partly Remote"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/dawn-industries",
+  "api": "https://devasheeshg.github.io/yc-api/batches/summer-2026/dawn-industries.json",
+  "year_founded": 2025,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/dawn-industries-inc/",
+  "x_url": "",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/be237324cf82c0125a34763f99ffb0cf35ca384d.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Diana Hu",
+    "url": "https://www.ycombinator.com/people/diana-hu"
+  },
+  "founders": [
+    {
+      "user_id": 1720857,
+      "full_name": "Joohyun (CJ) Cha",
+      "title": "Founder/CEO",
+      "founder_bio": "Founder at Dawn Industries (YC S26). Previously co-founder & CTO at Zipper, a creative collage social media backed by Unnoted Ventures (acquired by MetaZone). ML engineer at Avalo analyzing genomic data for crop development. Studied CS at Brown.",
+      "is_active": true,
+      "linkedin_url": "https://linkedin.com/in/joohyun-cha",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/02f28d9424990fbb7e48280e9e4384fa363a9c27.jpg"
+    },
+    {
+      "user_id": 2574843,
+      "full_name": "Robin Lee",
+      "title": "Founder/CTO",
+      "founder_bio": "Founder at Dawn Industries. Previously founding engineer at NUUA, Aviation AI Startup that raised $10m.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/robinlee02/",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/e9ac55f690cab2a816d964d148195dd9d0f44a2e.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 109744,
+      "title": "Dawn Industries - Automatic Diagnosis & Fix for Industrial Automation",
+      "tagline": "AI that understands the entire industrial cell and stages the fix in minutes.",
+      "body": "Hey BF 👋 We are [@Joohyun (CJ) Cha](https://bookface.ycombinator.com/user/1720857) and [@Robin Lee](https://bookface.ycombinator.com/user/2574843), cofounders of [@Dawn Industries](https://bookface.ycombinator.com/company/33344). We’re building **VIM**, Automatic Diagnosis &amp; Fix for Industrial Automation Cells.\n\n![uploaded image](/media/?type=post&id=109744&key=user_uploads/2574843/10398df4-83d1-4d24-860a-5ede83b91f9c)\n\n# **TL;DR:**\n\n**VIM is Sentry for industrial automation cells. When a cell faults, VIM reads the error code and the live machine signals, digs the root cause out of the OEM manuals and the cell's own history, and stages one safe fix for the operator to approve. When a CNC drifts, VIM catches it with the machine's own probe seconds after the cut and stages the offset correction. Downtime goes from hours to about a minute; scrap gets caught at part one instead of final inspection.**\n\nWatch how **VIM** works:\n\nRobot Cell Video: <https://www.youtube.com/watch?v=JfGQjorNS2U>\n\nCNC Machine Video: <https://www.youtube.com/watch?v=fgNPOtBLku8>\n\n# WHAT WE BUILT\n\nVIM sits on the cell and closes the loop from fault to recovery:\n\n1. **Connect**. Reads **PLC**, **HMI**, **robot**, **CNC**, **sensor**, and **driver state** without touching the controls you already trust.\n2. **Understand**. Matches the fault to live signals, the right page of the right manual, and this cell's own prior recoveries or trends the probe touches and traces drift to tool wear, thermal growth, a bumped fixture.\n3. **Recover**. Stages one bounded, validated action: a restart, a parameter change, an offset correction. The operator approves it like a pull request.\n\nBefore anything moves, the safety chain is verified: interlocks, light curtain, area scanner. VIM cannot bypass it; that's a precondition in the action policy, not a feature. And when the fault is genuinely hardware, VIM routes the incident to the right person with the exact diagnosis and repair steps attached, instead of a generic alarm and a prayer.\n\n**Autonomy is earned, not assumed**: VIM ships read-only, then one-click approval, then unattended recovery only on fault classes where it has earned trust. And it's mixed-vendor by design (FANUC robots and CNC controls, Universal Robots, Siemens, Allen-Bradley, Cognex, Keyence, Renishaw probes), because a cell is multi-vendor by definition and a copilot that speaks one vendor's language can't close the loop.\n\n![uploaded image](/media/?type=post&id=109744&key=user_uploads/2574843/83b531fe-5737-4f94-8b70-cd37330dae7c)\n\n# TEAM\n\n![uploaded image](/media/?type=post&id=109744&key=user_uploads/2574843/df76af6e-3516-4d76-9081-145424822ef3)\n\nWe're four people covering both halves of the problem.\n\n[Robin Lee](https://www.linkedin.com/in/robinlee02/) and [Joohyun (CJ) Cha](https://www.linkedin.com/in/joohyun-cha), cofounders, Robin was the founding AI engineer at an aviation AI startup, and built the production AI systems behind its $10M Series A and a 1st-place Minister's Award from Korea's Ministry of Science and ICT. CJ cofounded Zipper as CTO (acquired by MetaZone), did ML on genomic data at Avalo. We spent the past years in plants and machine shops learning all the faults and error that happen during manufacturing processes.\n\nOur founding engineers, come from Tesla and robotics research labs. They spent years building and fixing automation cells and various robot cases.\n\n# OUR ASK\n\n* **Intros to plant managers, manufacturing engineers, and controls engineers** at plants running robot cells (palletizing, case packing, welding, machine tending, inspection). If a stopped line ruins their week, we want to meet them.\n* **Intros to machining and quality leaders at plants and shops (primarily aerospace &amp; defense) running CNCs**, anywhere scrap gets discovered at final inspection instead of at the machine.\n* **War stories.** Tell us about the cell that keeps stopping or the machine that keeps drifting. Best case, we make it your most reliable one.\n\nReach us at [joohyun_cha@dawnxr.com](mailto:joohyun_cha@dawnxr.com) or 401-226-3503, or book a demo at <https://dawnxr.com>.",
+      "url": "https://www.ycombinator.com/launches/SY4-dawn-industries-automatic-diagnosis-fix-for-industrial-automation",
+      "votes": 11,
+      "created_at": "2026-08-08T16:00:00.916Z"
+    }
+  ]
+}

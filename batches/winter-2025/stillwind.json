@@ -1,0 +1,114 @@
+{
+  "id": 30264,
+  "name": "Stillwind",
+  "slug": "stillwind",
+  "former_names": [
+    "P2P Industries",
+    "Augento"
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/c1b36aa3102c0461123d8bc84ffc46b58b33f3a9.png",
+  "website": "https://stillwind.ai",
+  "all_locations": "Zürich, ZH, Switzerland",
+  "long_description": "Stillwind builds AI tools for electrical engineers to aide them in the repetitive parts of the process, primarily component search, cross referencing and simple circuitry. ",
+  "one_liner": "Electrical Engineering Components Compaion",
+  "team_size": 3,
+  "industry": "B2B",
+  "subindustry": "B2B -> Engineering, Product and Design",
+  "launched_at": 1740421634,
+  "tags": [
+    "AIOps",
+    "Electronics",
+    "AI"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Winter 2025",
+  "status": "Active",
+  "industries": [
+    "B2B",
+    "Engineering, Product and Design"
+  ],
+  "regions": [
+    "Switzerland",
+    "Europe"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/stillwind",
+  "api": "https://devasheeshg.github.io/yc-api/batches/winter-2025/stillwind.json",
+  "year_founded": 2024,
+  "city": "Zürich",
+  "country": "CH",
+  "linkedin_url": "https://www.linkedin.com/company/augento/",
+  "x_url": "https://x.com/stillwinddotai",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": "https://github.com/stillwind-ai",
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/c1b36aa3102c0461123d8bc84ffc46b58b33f3a9.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Gustaf Alstromer",
+    "url": "https://www.ycombinator.com/people/gustaf-alstromer"
+  },
+  "founders": [
+    {
+      "user_id": 1922635,
+      "full_name": "Linus Meierhöfer",
+      "title": "Founder/CEO",
+      "founder_bio": "Co-founder & CEO @ Stillwind. Previously researched quantified complexity theory. Worked in Quantitative Engineering @ DRW. Studied CS @ ETH Zurich.\n",
+      "is_active": true,
+      "linkedin_url": "https://linkedin.com/in/linus-meierhöfer-7a4596259",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/06909f44e7c94b237b0204cc7c1a836a03b02675.jpg"
+    },
+    {
+      "user_id": 1909734,
+      "full_name": "Hannes Furmans",
+      "title": "Founder/CTO",
+      "founder_bio": "Co-founder & CTO @ Stillwind\nDid CS at ETH Zürich. Did open source work on libp2p. ",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/hannes-furmans-52923625a/",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/e0a27bfd69e63a8fec7f4d02d6dbb8aaf39703df.jpg"
+    },
+    {
+      "user_id": 2235211,
+      "full_name": "Josef Zoller",
+      "title": "Founder",
+      "founder_bio": "Co-founder & Chief Engineering Officer @ Stillwind. CS @ ETH Zürich. I’m a full-stack software engineer but specialize in networks, systems programming, and ML.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/zollerboy1",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/edf4c9e6c9d2f70ba0ed4cf881d83e2cddf92b3f.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 104942,
+      "title": "Stillwind Builder — Zero to BOM in minutes instead of days",
+      "tagline": "AI agent that turns your PCB design intent into a complete, verified bill of materials.",
+      "body": "❌ **The problem**\n\nEvery PCB design is a constraint problem: you need components that are electrically and functionally compatible with each other. Solving it by hand means hours — often days — of tracking down parts, reading datasheets, adding a component, discovering a conflict, and backtracking. Pick an MCU and the cascade begins: it needs a specific crystal, external flash on the QSPI bus, a regulator that can source its peak current. Every choice ripples through the whole design.\n\n✅ **The solution**\n\nStillwind Builder formalizes your design constraints as an explicit system of equations and solves for matching components.\n\n* **Verified specs.** Before we show you a part, a second model independently re-reads its datasheet and verifies the specs match — so the numbers you design against are what the datasheet actually says, not extraction artifacts.\n* **Dependency-aware.** When you lock in a component, the agent reads its datasheet for the supporting parts it requires — voltage regulators, crystals, external flash — and updates the constraint system. The ripple effects of each choice are handled instead of discovered later.\n* **You stay in control.** You set the direction and make the calls that matter; the agent handles the combinatorial grind.\n\nAt the end, you download your BOM and start wiring.\n\n🚀 **Try it**\n\nThe public beta is live and free during launch week: [**https://stillwind.ai**](https://stillwind.ai)\n\nBuilding hardware and want to tell us what's broken? We'd genuinely love that — grab time with us: <https://calendar.app.google/Bd7KQEAYLgt6SmHZ6>",
+      "url": "https://www.ycombinator.com/launches/RIc-stillwind-builder-zero-to-bom-in-minutes-instead-of-days",
+      "votes": 5,
+      "created_at": "2026-07-07T21:57:20.206Z"
+    },
+    {
+      "id": 88188,
+      "title": "Augento 🤖 - DeepSeek reinforcement fine-tuning as-a-service",
+      "tagline": "Improving your AI agents with reinforcement learning.",
+      "body": "Hey all 👋, we’re Linus, Hannes, Lukas, and Josef—co-founders of [**Augento**](https://www.augento.ai/)! 🕊️\n\n**TL;DR**\n\nWe align your agents with reinforcement finetuning. You give us your agent, tell us where it fails and we’ll improve it. 🚀\n\nWe are actively looking for **design partnerships**. If you are interested, please shoot us a message at [**founders@augento.ai**](mailto:founders@augento.ai) 😄\n\n**The Problem ❌**\n\n🗣️ AI Agents struggle in real-world environments. Even state-of-the-art reasoning models score below 50% accuracy on non-trivial benchmarks.\n\nThe solution for many is still prompt engineering &amp; expanding the models' guardrails. However, anyone who’s fought with large prompts knows how draining it can be. You’re never quite sure if the model is really following your instructions or if your tweaks make any difference.\n\n**Our Solution ✅**\n\nWe tackle this by replacing prompt engineering with fine-tuning + RL on **your** feedback. We integrate with a two lines of code change in your existing system.\n\n[**https://www.youtube.com/watch?v=Sulzf7VZr3k**](https://www.youtube.com/watch?v=Sulzf7VZr3k)\n\n**The Workflow 💡**\n\n1\\. Swap out your LLM connector URL with ours.\n\n2\\. We intercept every prompt and output, displaying them in our UI.\n\n3\\. Where necessary, you give high-level feedback, like your preferred tone or how a tool should actually be used.\n\n4\\. We continuously post-train the model to match up to your feedback.\n\n5\\. Once you deem it good enough and want to switch over to the model, you can do that with a click of a button, no changes to your code required.\n\n**Our Ask**\n\nWe’d love your input and are looking for early users to test-drive Augento. Shoot us a message at [**founders@augento.ai**](mailto:founders@augento.ai)\n\n**The Team**\n\nLinus previously studied CS @ ETH in Zurich and did research in complexity theory. During his studies, he worked as an ML Engineer &amp; as a Quantitative Developer in High-Frequency Trading.\n\nHannes previously studied CS @ ETH Zurich and worked on decentralized and distributed systems. During his studies, he worked as a paid contributor for a big open source project and as the technical lead for his previous startup.\n\nJosef previously studied CS @ ETH Zurich, and worked on computer systems and networks, as well as ML. During his studies, he worked as a full-stack software engineer and embedded systems developer.",
+      "url": "https://www.ycombinator.com/launches/MwO-augento-deepseek-reinforcement-fine-tuning-as-a-service",
+      "votes": 18,
+      "created_at": "2025-03-02T02:49:45.257Z"
+    }
+  ]
+}

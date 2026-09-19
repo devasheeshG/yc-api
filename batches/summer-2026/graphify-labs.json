@@ -1,0 +1,83 @@
+{
+  "id": 32583,
+  "name": "Graphify Labs",
+  "slug": "graphify-labs",
+  "former_names": [],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/827fabd6e00bab1febd0feb00c906a6a3809b989.png",
+  "website": "https://www.graphify.com/",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "Graphify is a Knowledge Graph control plane for enterprise software. The open-source tool has 116K+ GitHub stars and 6.5M+ downloads, and is used in production by engineers at Shopify, Datadog, JP Morgan, American Express, Harvey, Automation Anywhere, and Vanguard.\r\n\r\nOn top of that graph, our enterprise layer reviews every pull request and formally verifies each code change: it proves the new behavior matches the old, or hands back the exact input that breaks it. That makes it built for the changes teams fear most, like refactors, framework upgrades, and large-scale migrations, where you need proof that nothing broke, not a guess.\r\n\r\nThe graph updates itself as the code changes and keeps context instead of forgetting it, so your whole team and their coding agents work from one shared, always-current view of the codebase instead of a thousand private threads.\r\n\r\nIt runs entirely inside your perimeter, fully air-gapped on-premise or self-hosted in your own cloud, so no code or data ever leaves your environment.",
+  "one_liner": "On-device Knowledge Graph engine for Enterprise Software",
+  "team_size": 1,
+  "industry": "B2B",
+  "subindustry": "B2B -> Engineering, Product and Design",
+  "launched_at": 1785106297,
+  "tags": [
+    "Developer Tools",
+    "Open Source"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Summer 2026",
+  "status": "Active",
+  "industries": [
+    "B2B",
+    "Engineering, Product and Design"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada",
+    "Remote",
+    "Partly Remote"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/graphify-labs",
+  "api": "https://devasheeshg.github.io/yc-api/batches/summer-2026/graphify-labs.json",
+  "year_founded": 2026,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/graphify-labs",
+  "x_url": "https://x.com/graphify",
+  "fb_url": null,
+  "cb_url": "https://www.crunchbase.com/organization/graphify-65db",
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/827fabd6e00bab1febd0feb00c906a6a3809b989.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Jared Friedman",
+    "url": "https://www.ycombinator.com/people/jared-friedman"
+  },
+  "founders": [
+    {
+      "user_id": 3674994,
+      "full_name": "Safi Shamsi",
+      "title": "Founder/CEO",
+      "founder_bio": "Founder/CEO at Graphify Labs (YC S26). Built Graphify, an open-source knowledge graph engine that reached 116K+ GitHub stars and 6.5M+ PyPI downloads in about five months. Published researcher and author of The Memory Layer. MS Data Science, University of Birmingham; thesis on knowledge-graph-powered RAG systems achieving a 50% improvement in retrieval and 67% reduction in hallucinations.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/safi-shamsi/",
+      "x_url": "https://x.com/safishamsii?s=21",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/49a0b9425549adb1bf790e96925ee78d020661c3.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 111176,
+      "title": "Graphify Labs: Knowledge Graph Engine for Enterprises 🧠",
+      "tagline": "Shared memory of your codebase, for humans and agents.",
+      "body": "Hey everyone, I'm [Safi](https://www.linkedin.com/in/safi-shamsi/), founder and CEO of [Graphify Labs](https://www.linkedin.com/company/graphify-labs/).\n\nFor fifty years, the hard part of software was writing it. AI flipped that overnight. It writes more code than any team can read, and a lot of it is slop. That leaves two **hard problems**: no one can hold the whole codebase in their head, and no one can be sure an AI's change didn't quietly break something. **Graphify solves both.**\n\n**By the numbers**\n\n\\- **108K+ GitHub stars**: one of the top five open-source projects ever from a YC company, and the first to cross 100K⭐ mid-batch\n\n\\- **5M+ downloads** of the open-source engine\n\n\\- **6,000+ signups** on the platform in its first weeks\n\n\\- Enterprises already running it in production\n\n**The memory.** One shared, always-current knowledge graph of your whole codebase, across every language and every repo, plus its docs and tickets, so a change in one service shows its impact across all the others. Instead of grepping through files one at a time, your engineers and their AI agents trace how everything connects, who calls what and what a change touches, and answer questions across the entire system, at a **fraction of the tokens**. Agents connect over a single **MCP endpoint**, so the graph works inside Claude Code, Cursor, and every major coding tool. It groups the code into communities, the real subsystems, so teams can plan, onboard, and understand the architecture across the whole **SDLC**.\n\n**The proof.** Graphify reviews every pull request, including changes that span **multiple repositories**, and verifies each one. It writes and runs a test that reproduces the bug, proves the new code behaves exactly like the old, or hands back the exact input that breaks it. Most AI reviewers just have one model comment on another model's code, which is still a guess. **Graphify proves its findings**, because it runs on a real **code graph and formal verification**.\n\n![uploaded image](/media/?type=post&id=111176&key=user_uploads/3674994/e7f719ea-bca0-4c12-a922-12c728426dd4)\n\n**It learns.** Graphify remembers what your team ships and what it rejects, and feeds that back in, so its reviews get sharper over time and stop flagging what your team has already decided is fine.\n\n> Migrating a large codebase with AI is like changing a train's engine while it is moving. Graphify lets you do it without stopping the train, and proves the new version does exactly what the old one did.\n\n**Here's the launch film**:\n\n<https://youtu.be/nvJ1M_GRj8Q>\\\n\\\nIt also proposes a fix and keeps it only if it re-verifies through the fix loop. Graphify connects to **Jira, Linear, and Sentry** so it knows the ticket a change should satisfy and the production bug it should resolve.\n\nThe enterprise layer runs on-prem, so your code never leaves your environment.\n\n**The founder.** [Safi Shamsi](https://www.linkedin.com/in/safi-shamsi/) is a published knowledge graph researcher and the author of The Memory Layer. His research on knowledge-graph retrieval improved retrieval 50% and cut hallucinations 67%. Now he's applying that work to one of the hardest problems in software: giving every engineer and AI agent a shared memory of the codebase, and a way to prove their changes still work.\n\nSoon every line of software will be written or reviewed by an agent. That software will need a memory of itself and proof that it works. **We're building both.**\n\n![uploaded image](/media/?type=post&id=111176&key=user_uploads/3674994/439244a1-338f-46cc-8594-b7c2a74bffcb)\n\n**The ask:** Before September 10 we're taking 10 design partners: a free 14-day build where we deploy the enterprise graph on-prem, with your team \\\n**Reach us at [founders@graphify.com](mailto:founders@graphify.com)**\n\n**Dig in**\n\n**- Run it yourself: [https://app.graphify.com](https://app.graphify.com)**\n\n**- Open-source engine: [https://github.com/Graphify-Labs/graphify](https://github.com/Graphify-Labs/graphify)**\n\n**- Docs: [https://graphify.com/docs](https://graphify.com/docs)**\n\n**- Connect any agent over MCP: [https://api.graphify.com/mcp](https://api.graphify.com/mcp)**\n\n**- Benchmarks and methodology: [https://github.com/Graphify-Labs/graphify/blob/v8/BENCHMARKS.md](https://github.com/Graphify-Labs/graphify/blob/v8/BENCHMARKS.md)**\n\n**- Talk to us: [founders@graphify.com](mailto:founders@graphify.com)**\n\n![uploaded image](/media/?type=post&id=111176&key=user_uploads/3674994/6068aaba-5948-422b-b5ef-b74b60a9504f)\n\n",
+      "url": "https://www.ycombinator.com/launches/SvA-graphify-labs-knowledge-graph-engine-for-enterprises",
+      "votes": 65,
+      "created_at": "2026-08-19T15:00:00.223Z"
+    }
+  ]
+}

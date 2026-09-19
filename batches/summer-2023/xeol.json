@@ -1,0 +1,96 @@
+{
+  "id": 28778,
+  "name": "Xeol",
+  "slug": "xeol",
+  "former_names": [],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/3d8557d5066f2f1e94f1be8ddc427697b79cc8d1.png",
+  "website": "https://www.xeol.io/",
+  "all_locations": "New York City, NY, USA",
+  "long_description": "Pronounced Zee-O-L. \r\n\r\nEnd-of-life (EOL) and outdated software are a black box of vulnerabilities with very limited remediation paths. These 2 factors combine to make managing them a necessary proactive practice. Xeol enables enterprises and Fortune 500s to create a proactive EOL management program that directly contributes to better vulnerability management and lower cyber insurance. ",
+  "one_liner": "Close your outdated dependency attack vector",
+  "team_size": 3,
+  "industry": "B2B",
+  "subindustry": "B2B -> Security",
+  "launched_at": 1689618282,
+  "tags": [
+    "Artificial Intelligence",
+    "Security",
+    "Cybersecurity"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Summer 2023",
+  "status": "Acquired",
+  "industries": [
+    "B2B",
+    "Security"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/xeol",
+  "api": "https://devasheeshg.github.io/yc-api/batches/summer-2023/xeol.json",
+  "year_founded": 2023,
+  "city": "New York City",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/xeol",
+  "x_url": "https://twitter.com/xeol_io",
+  "fb_url": null,
+  "cb_url": "https://www.crunchbase.com/organization/xeol",
+  "github_url": "https://github.com/xeol-io",
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/3d8557d5066f2f1e94f1be8ddc427697b79cc8d1.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [
+    "https://bookface-images.s3.us-west-2.amazonaws.com/attachments/8c4047771eda54f492d2bcd886af0cc692bc72b3.png"
+  ],
+  "primary_partner": null,
+  "founders": [
+    {
+      "user_id": 1279127,
+      "full_name": "ShiHan Wan",
+      "title": "Founder",
+      "founder_bio": "CEO @ Xeol. Backend Engineer.\n\nPreviously helped build 2 startups from early to 🦄, now doing that for Xeol.\n\n",
+      "is_active": true,
+      "linkedin_url": "https://linkedin.com/in/shihanwan",
+      "x_url": "https://twitter.com/shihanwan",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/6ccd5955aeabc741fbfaefb062eb80e08362368c.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [
+    {
+      "title": "🎉 Announcing our $3.2M Seed Round!",
+      "url": "https://www.xeol.io/post/announcing-our-3-2m-seed-round",
+      "date": "Dec 12, 2023"
+    }
+  ],
+  "launches": [
+    {
+      "id": 80578,
+      "title": "bumpgen - keep your code up-to-date with AI",
+      "tagline": "Open source tool to generate code fixes for breaking changes",
+      "body": "![uploaded image](/media/?type=post&id=80578&key=user_uploads/89898/e210f386-2345-4c2e-ba0a-6133d756141a)\n\n[**bumpgen**](https://github.com/xeol-io/bumpgen) generates fixes for breaking changes in version upgrades with AI\n\n* 🧑🏼‍💻 `bumpgen <package> <new-version>` to get fixes to your version bump breaking changes\n* 🔑 Bring your own **OpenAI API key**\n* 🌐 Supports **Typescript** codebases\n\n### Why build bumpgen?\n\nKeeping your dependencies updated is a good security and engineering practice (just not too up-to-date, thanks xz 🙏🏼). But they can be a pain to actual perform because:\n\n* **Major version bumps** have breaking changes and no one wants to fix them.\n* **25% minor version bumps** have breaking changes as well (semver isn’t perfect)\n* There can be a lot of version bumps from small packages to large frameworks\n\n### How Does bumpgen work?\n\n![uploaded image](/media/?type=post&id=80578&key=user_uploads/1279127/f06347b9-da03-4f95-aa1b-8f850576b262)\n\n**bumpgen** is pretty straight forward:\n\n* **BUMP** your dependency version then **GEN**erate the fixes for the breaking changes\n* Quick to get started with `npm install -g bumpgen`\n* Works on top of your Dependabot or Renovate to take care of those gnarly breaking changes\n\nIf you are curious how bumpgen identifies, fixes, then propagates the breaking change fix, we added bumpgen’s architecture and design decisions [**here**](https://github.com/xeol-io/bumpgen) 👈\n\n### How to start?\n\n* 🧑🏼‍💻 [**Try it out**](https://github.com/xeol-io/bumpgen), it’s 100% open source\n* ⭐ [**Support**](https://github.com/xeol-io/bumpgen) the project with a star\n* 📩 [**Get updated**](https://www.xeol.io/beta) on the GitHub app release",
+      "url": "https://www.ycombinator.com/launches/Kxe-bumpgen-keep-your-code-up-to-date-with-ai",
+      "votes": 43,
+      "created_at": "2024-05-02T15:07:15.215Z"
+    },
+    {
+      "id": 73333,
+      "title": "🌌 Xeol - Modern platform for software supply chain security",
+      "tagline": "Cut through the noise, identify and remediate risks, then enforce security policies",
+      "body": "![uploaded image](/media/?type=post&id=73333&key=user_uploads/1279127/210f8a5b-d0c2-4f78-a504-dea9eb6669ca)\n\n### TLDR\n\n> Fortune 500 companies use Xeol to connect all their software dependencies into a contextual graph to ask questions like “am I affected by vulnerability X?” and enforce policies like “ensure all my docker images were signed by me?”\n\n![uploaded image](/media/?type=post&id=73333&key=user_uploads/1279127/040b5865-0ba9-42f6-a893-bbf3f0eb3222)\n\nWe first met 6 years ago as early engineers at **Ada** leading backend, cloud infrastructure, and security. Right before founding Xeol:\n\n* **Benji** was a Sr DevOps Engineer at **Datadog** leading its service catalog project with a near decade career in DevOps\n* **ShiHan** was the Director of Engineering helping build 2 startups from early stage to 🦄\n\nWe have been in the startup world for many years and are now on our own journey to help AppSec engineers quickly identify, remediate, and enforce security risks.\n\n### Problem. A New Attack Vector\n\nAsk anyone on the street to plug in a random USB drive and they will scoff. They know it’s unsafe! But developers do this every day when they use open-source packages as part of their software supply chain. The typical npm package has **86 dependencies** and with supply chain attacks up **600%** over the past year alone, this attack vector is widening.\n\nWhat’s not working?\n\n* **Too much noise:** tools that show all possible CVEs without contextual runtime information make prioritization near impossible leading to alert fatigue\n* **Attacks are more common:** generative AI enables malicious actors to easily launch attacks\n* **Huge attack surface:** many actors involved including OSS maintainers and their code, CI/CD systems, container orchestrators, and in-house developers\n\n### Solution. Complete Ontological Visibility\n\n![uploaded image](/media/?type=post&id=73333&key=user_uploads/1279127/a7017029-25ff-45a2-b114-6386d949057d)\n\nXeol is an **agentless** solution that scans your software artifacts at **build** and **runtime** then creates a **contextual graph** of your software supply chain. This contextual graph allows AppSec engineers to:\n\n**answer** questions like\n\n* Where am I using package X?\n* Which software are end-of-life?\n* Which packages are missing SLSA attestations?\n* Which software artifacts are produced from repo X?\n\n**enforce** policies like\n\n* Ensure all Docker images were built by my org from our CI pipeline\n* Prevent software X, which is end-of-life, from being packaged in our Docker images\n* Ensure sure all packages meet a minimum [OSSF](https://openssf.org/) score\n* Prevent any dependencies using a GPL license\n\n### Our Ask\n\n**See** Xeol’s graph capabilities in action [here](https://dashboard.xeol.io/demo)\n\n**Try** our open-source CLI [tool](https://github.com/xeol-io/xeol) to scan for end-of-life software\n\n**Follow** us on [LinkedIn](https://www.linkedin.com/company/xeol), [GitHub](https://github.com/xeol-io), or [Twitter](https://twitter.com/xeol_io) to get the latest updates",
+      "url": "https://www.ycombinator.com/launches/J4n-xeol-modern-platform-for-software-supply-chain-security",
+      "votes": 45,
+      "created_at": "2023-07-24T02:01:24.497Z"
+    }
+  ]
+}

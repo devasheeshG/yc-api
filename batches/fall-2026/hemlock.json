@@ -1,0 +1,102 @@
+{
+  "id": 35522,
+  "name": "Hemlock",
+  "slug": "hemlock",
+  "former_names": [],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/f772c44a8588e4bf3012c9f219bcb8503834bddb.png",
+  "website": "https://hemlock.inc",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "Every serious robotics lab is bottlenecked on the same thing: demonstration data. The field has converged on egocentric video and hand pose as the substrate, and both are now cheap to collect at scale. What neither of them contains is force. A video of someone picking up an egg and a video of someone picking up a rock are nearly identical in pixel space and nearly identical in joint angles. They differ almost entirely in a quantity nobody is recording. Policies trained without it learn geometry and inherit no sense of touch.\r\n\r\nHemlock closes that gap at the source. Our device, the Bracelet, is a wrist-worn surface EMG band that reads the electrical activity of the forearm muscles that actually drive the hand, which means it recovers contraction force directly rather than inferring it from motion. This distinction is the whole thesis: force cannot be reconstructed downstream of kinematics, because a hand squeezing hard isometrically and a hand resting can occupy the identical pose. Muscle signal is the only non-invasive channel that separates them.",
+  "one_liner": "Force-sensing wristband for training robotic AI",
+  "team_size": 1,
+  "industry": "Industrials",
+  "subindustry": "Industrials -> Manufacturing and Robotics",
+  "launched_at": 1786491305,
+  "tags": [
+    "Hard Tech",
+    "Hardware"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": true,
+  "nonprofit": false,
+  "batch": "Fall 2026",
+  "status": "Active",
+  "industries": [
+    "Industrials",
+    "Manufacturing and Robotics"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/hemlock",
+  "api": "https://devasheeshg.github.io/yc-api/batches/fall-2026/hemlock.json",
+  "year_founded": 2025,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/hemlock-industries-inc",
+  "x_url": "",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/f772c44a8588e4bf3012c9f219bcb8503834bddb.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Nicolas Dessaigne",
+    "url": "https://www.ycombinator.com/people/nicolas-dessaigne"
+  },
+  "founders": [
+    {
+      "user_id": 2947535,
+      "full_name": "Julian Olschwang",
+      "title": "Founder/CEO",
+      "founder_bio": "Founder at Hemlock. CMU Electrical and Computer Engineering dropout. Previously built GANs for military robotic data generation at the UCLA Biomechatronics Lab.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/julian-olschwang",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/75fddadf0197d758db2bdf896d761e96ca70acbf.jpg"
+    }
+  ],
+  "jobs": [
+    {
+      "id": 103502,
+      "title": "Software/ML/Signal Processing Engineer",
+      "url": "https://www.ycombinator.com/companies/hemlock/jobs/3fJrwUc-software-ml-signal-processing-engineer",
+      "location": "Los Angeles, CA, US / San Francisco, CA, US",
+      "type": "Full-time",
+      "role": "Engineering",
+      "role_type": "Machine learning",
+      "salary_range": "$50K - $100K",
+      "equity_range": "5.00% - 10.00%",
+      "experience": "Any (new grads ok)",
+      "visa": "US citizen/visa only",
+      "skills": []
+    },
+    {
+      "id": 107694,
+      "title": "Contract CAD Engineer",
+      "url": "https://www.ycombinator.com/companies/hemlock/jobs/qgkVpRp-contract-cad-engineer",
+      "location": "San Francisco, CA, US / Remote",
+      "type": "Contract",
+      "role": "Product",
+      "role_type": null,
+      "salary_range": "$2K - $5K",
+      "equity_range": "",
+      "experience": "1+ years",
+      "visa": "US citizenship/visa not required",
+      "skills": [
+        "CAD Design"
+      ]
+    }
+  ],
+  "news": [],
+  "launches": []
+}

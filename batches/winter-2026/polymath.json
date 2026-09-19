@@ -1,0 +1,124 @@
+{
+  "id": 31217,
+  "name": "Polymath",
+  "slug": "polymath",
+  "former_names": [
+    "Palette AI"
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/897b59e5d2b5dee40c471f153a2aee81587f2ad8.png",
+  "website": "https://polymathlabs.ai/",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "Polymath is a data lab focused on improving long-horizon agent capabilities and alignment\r\n",
+  "one_liner": "Simulation environments to train & evaluate long-horizon AI agents",
+  "team_size": 6,
+  "industry": "B2B",
+  "subindustry": "B2B",
+  "launched_at": 1769103780,
+  "tags": [],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": true,
+  "nonprofit": false,
+  "batch": "Winter 2026",
+  "status": "Active",
+  "industries": [
+    "B2B"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/polymath",
+  "api": "https://devasheeshg.github.io/yc-api/batches/winter-2026/polymath.json",
+  "year_founded": 2026,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/polymath-ai-labs",
+  "x_url": "https://x.com/polymath_labs",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/897b59e5d2b5dee40c471f153a2aee81587f2ad8.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Ankit Gupta",
+    "url": "https://www.ycombinator.com/people/ankit-gupta"
+  },
+  "founders": [
+    {
+      "user_id": 3198256,
+      "full_name": "Dylan Ma",
+      "title": "Founder/CEO",
+      "founder_bio": "Co-Founder / CEO @ Polymath. Previously @ Hume AI, AWS, UC Berkeley",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/dylan-ma-45725b158/",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/8e7ea3e3207c15119f58ee39355aa19ac3745420.jpg"
+    },
+    {
+      "user_id": 3217273,
+      "full_name": "Naren Yenuganti",
+      "title": "Founder/CTO",
+      "founder_bio": "Co-Founder / CTO @ Polymath. Previously @ Plaid, Amazon, UC Berkeley\n",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/narenyenuganti/",
+      "x_url": "https://x.com/narenyenuganti",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/44a63ec2a92f8494816be3640cb941f8b17b4024.jpg"
+    }
+  ],
+  "jobs": [
+    {
+      "id": 93737,
+      "title": "Member of Technical Staff - Engineering",
+      "url": "https://www.ycombinator.com/companies/polymath/jobs/t8l6gRt-member-of-technical-staff-engineering",
+      "location": "San Francisco, CA, US",
+      "type": "Full-time",
+      "role": "Engineering",
+      "role_type": "Backend",
+      "salary_range": "$150K - $300K",
+      "equity_range": "",
+      "experience": "Any (new grads ok)",
+      "visa": "US citizen/visa only",
+      "skills": []
+    },
+    {
+      "id": 93738,
+      "title": "Member of Technical Staff - Research",
+      "url": "https://www.ycombinator.com/companies/polymath/jobs/N7ZQQxs-member-of-technical-staff-research",
+      "location": "San Francisco, CA, US",
+      "type": "Full-time",
+      "role": "Engineering",
+      "role_type": "Machine learning",
+      "salary_range": "$150K - $300K",
+      "equity_range": "",
+      "experience": "Any (new grads ok)",
+      "visa": "US citizen/visa only",
+      "skills": []
+    }
+  ],
+  "news": [
+    {
+      "title": "Meet The New Y-Combinator Startups Poised To Change Tech",
+      "url": "https://www.forbes.com/sites/dariashunina/2026/03/16/21-most-promising-startups-from-y-combinators-latest-batch/",
+      "date": "Mar 16, 2026"
+    }
+  ],
+  "launches": [
+    {
+      "id": 98237,
+      "title": "Polymath",
+      "tagline": "Simulation environments to train & evaluate long-horizon AI agents",
+      "body": "## Problem\n\nWe’re at the very beginning of the agent era. The demand for AI is shifting from models that simply answer questions to agents that can operate autonomously over days and weeks. Models have become incredibly proficient at short tasks, but fail when asked to perform **long-horizon work** that requires proficiency with a **diverse set of tools**.\n\n![uploaded image](/media/?type=post&id=98237&key=user_uploads/2471616/0489f25a-b235-4d6f-ade3-86a0a5b4897c)\n\n(source: <https://metr.org/blog/2025-03-19-measuring-ai-ability-to-complete-long-tasks/>) \n\nStatic datasets are no longer sufficient. To improve the performance of autonomous agents, they must be trained inside environments that reflect the real world.\n\nToday, most RL environments are narrow in scope, test isolated workflows, deal with static data, and produce rollouts that take on the order of minutes to complete. Innovation in environment technology is needed in order to train agents that can perform reliably over extended durations without human guidance.\n\n## Solution\n\nPolymath builds **simulated worlds where AI agents learn to operate autonomously over long horizons**. Our environments combine running applications, real tools, and multi-step tasks that reflect the complexity of real work. Instead of solving small, isolated problems, agents learn by completing end-to-end work inside living systems that evolve over time. We train agents on tasks that could take humans days of effort to complete. To perform these tasks effectively, agents need to exercise good judgement under ambiguous circumstances, and respond to changes in the environment.\n\n## Horizon-SWE\n\nWe recently launched Horizon-SWE, a benchmark that drops frontier models into a simulated software company.\n\nIt consists of a **running application, real tools, and long-horizon tasks** covering the entire software development lifecycle (planning, coding, testing, deployment, monitoring). The benchmark measures the ability of AI agents to perform **end-to-end SWE tasks**, as opposed to code generation alone. Leading models score around 25% on the benchmark.\n\nRead more about our methodology here: <https://www.polymathlabs.ai/blog/horizon-swe>\n\n![uploaded image](/media/?type=post&id=98237&key=user_uploads/2471616/a86c29a4-fcff-4ae9-a7fe-53bdf6234300)\n\n## Team\n\nPolymath is a team of researchers and engineers from UC Berkeley, Hume AI, Plaid, and Amazon. We have years of experience post-training frontier models in industry, and building large-scale data systems.\n\nDylan previously led post-training research and data at Hume AI. He launched the first generative AI features at AWS model inference, and received the Amazon Inventor Award. Dylan studied Computer Science at UC Berkeley, and conducted research in reinforcement learning at Berkeley Artificial Intelligence Research (BAIR), and ML systems at the RISE Lab. He is a recipient of the National Science Foundation (NSF) Fellowship.\n\nNaren led the development of Plaid’s credit monitoring system from the ground up, building infrastructure that now supports millions of business-critical transactions daily. At Amazon, he was a core contributor to large-scale ML systems powering critical logistics workflows. Naren studied Electrical Engineering & Computer Science at UC Berkeley, and conducted research in ML systems at Berkeley Artificial Intelligence Research (BAIR).\n\nIf you work at a frontier lab and are interested in acquiring environments, or know someone who is, we’d love to chat! ([founders@polymathlabs.ai](mailto:founders@polymathlabs.ai))",
+      "url": "https://www.ycombinator.com/launches/PYT-polymath",
+      "votes": 43,
+      "created_at": "2026-02-26T21:15:33.940Z"
+    }
+  ]
+}

@@ -1,0 +1,107 @@
+{
+  "id": 28096,
+  "name": "OpenInt",
+  "slug": "openint",
+  "former_names": [
+    "Map3",
+    "Ally",
+    "Evefan"
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/67a1ff68627d7db644256cf5b89e938213258bed.png",
+  "website": "https://openint.dev",
+  "all_locations": "Remote",
+  "long_description": "OpenInt helps teams ship product integrations in hours, not weeks, using no or low code. Read and write data using unified APIs or sync it straight to your database. ",
+  "one_liner": "Open Source Embedded Product Integrations",
+  "team_size": 4,
+  "industry": "B2B",
+  "subindustry": "B2B -> Analytics",
+  "launched_at": 1673267479,
+  "tags": [
+    "Developer Tools",
+    "SaaS",
+    "Open Source",
+    "AI"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Winter 2023",
+  "status": "Acquired",
+  "industries": [
+    "B2B",
+    "Analytics"
+  ],
+  "regions": [
+    "Remote",
+    "Fully Remote"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/openint",
+  "api": "https://devasheeshg.github.io/yc-api/batches/winter-2023/openint.json",
+  "year_founded": 2022,
+  "city": null,
+  "country": null,
+  "linkedin_url": "",
+  "x_url": "https://x.com/openintdev",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": "https://github.com/evefancom/evefan",
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/67a1ff68627d7db644256cf5b89e938213258bed.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Brad Flora",
+    "url": "https://www.ycombinator.com/people/brad-flora"
+  },
+  "founders": [
+    {
+      "user_id": 702191,
+      "full_name": "Amadeo Pellicce",
+      "title": "Founder/CEO",
+      "founder_bio": "Founded OpenInt (W23), acquired by Replit (W18). Investor in YC startups via https://www.batch.ventures/yc-fund. \n\nHe has an MS in Computer Science. In 2013, he co-founded the UK’s first professional crypto exchange, Coinfloor (which was acquired). Subsequently, he led multiple product areas at Blockchain.com before founding Openint (W23), which was acquired by Replit (W18). Outside of work, Amadeo enjoys wind sports and long-distance running.",
+      "is_active": false,
+      "linkedin_url": "https://www.linkedin.com/in/amadeopellicce/",
+      "x_url": "https://twitter.com/pellicceama",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/c26d90c3c78011d8eb992e9ba00248ce44935f55.jpg"
+    },
+    {
+      "user_id": 733318,
+      "full_name": "Philip London",
+      "title": "Founder",
+      "founder_bio": "Phil is a co-founder and Lead Engineer at Map3. Before Map3, he worked at Blockchain.com as Staff Engineer on the non-custodial Wallet team, which served over 30 million users and over 1/3 of all bitcoin transactions. Phil also founded codeamigo.dev, which helps developers level up their coding skills and reached #1 on Hacker News when it launched.",
+      "is_active": false,
+      "linkedin_url": "https://linkedin.com/in/philiplondon",
+      "x_url": "https://twitter.com/plondon514",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/745af5d7af866c9f2a26aa0a2867494080798251.jpg"
+    },
+    {
+      "user_id": 32370,
+      "full_name": "Mark Pfluger",
+      "title": "Founder",
+      "founder_bio": "Mark is the co-founder and CTO of Map3. Previously he worked at Blockchain.com as Head of Crypto Engineering, where he built and ran multiple engineering teams, contributed to the non-custodial wallet across all platforms (iOS, Android and Web), and led the effort to build the custody infrastructure across both Hot and Cold systems. Originally from Munich, Germany, Mark has been an entrepreneur since high school and holds a Master's degree in Computer Science.",
+      "is_active": false,
+      "linkedin_url": "https://www.linkedin.com/in/mark-pfluger-14734650/",
+      "x_url": "https://twitter.com/markpfluger",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/c8b530687f196e9010469ae59262764979ea4cae.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 83175,
+      "title": "⭐️ Evefan — Self-hosted Segment alternative — 99% savings w/ Cloudflare Workers (OSS)",
+      "tagline": "Self-host your own internet scale events infrastructure.",
+      "body": "**TLDR;** Evefan enables developers to privately capture, transform, and deliver customer events at internet scale. Evefan is open source and self-hosted on Cloudflare workers. It can be configured either via our Evefan Console or via Wrangler. With Evefan, organizations can save > 99% when scaling events.\n\n**Need help scaling events**? Let’s talk! <https://cal.com/amadeo-evefan>\n\n![uploaded image](/media/?type=post&id=83175&key=user_uploads/702191/93a130d5-d424-4400-aa4b-cf7b7873e01c)\n\n### ❌ Problem: Scaling Customer Events IS HARD\n\nBefore joining YC, I led a large portion of the Blockchain.com consumer product. At the time, we had the most popular crypto wallet with over 60M accounts. We only made money on a subset of users who used our ‘premium’ features. \n\nAs a result, **we could not afford to understand how free users used our product**. We got seven-figure quotes (😱) from the top vendors in the Customer Data Platform (CDP) space and tried to self-host several alternatives. Imagine a PM team considering whether adding an event is worth XXXX dollars. Silly. \n\nAll the products we self-hosted then fell over at our scale. We had to build our own, more narrow version for our use case. There’s a reason for it—you could even say that it’s a dark industry secret.\n\n**😭 Self-Hosting Is Meant To Be Practical**\n\nExisting OSS alternatives in the market are all built with massive multitenancy in mind. **They’re not meant to be practically self-hosted**. Most of them tell you in their docs to only self-host for toy projects or require overly expensive closed source ‘high availability’ add-ons that they can only configure for them to work correctly. That’s OK; they serve a different use case. \n\nLook at the architecture of the top self-hostable alternatives in the space. Imagine asking your SRE team to ‘simply’ set these up and keep them highly available (even with Docker & Kubernetes, it's not core work).\n\n![uploaded image](/media/?type=post&id=83175&key=user_uploads/702191/e695acc0-3cd3-4580-9e0e-38cfdcc543ac)\n\n### ⭐️ The Solution: Evefan\n\n1. **Segment compatible**: this means you can use the battle-tested Segment SDKs in your preferred programming language.\n2. **Deploy to Cloudflare**: Configure Evefan instance via our console with your Cloudflare API key or yourself via Wrangler. Evefan will create a bundle with just your destinations small enough to run on Cloudflare. \n3. **Transform and Deliver To Your Destinations**: We’ve made Bigquery and Postgres work so far. We also added Mixpanel just for fun. We’ve reviewed the top data warehouses and are confident we will natively support them.\n\nOver time, Evefan will become an indispensable part of your async events delivery infrastructure. Use cases like in-and-out webhooks, queues, pub-sub, and jobs are coming! \n\n![uploaded image](/media/?type=post&id=83175&key=user_uploads/702191/6a355a35-8aa4-4410-8701-72aef7a364e0)\n\n**😻 It’s 99% Cheaper Than Alternatives & Built For Scale**\n\nHere’s why: We follow a Bring Your Own Compute (BYOC) model. When Evefan runs in your infra, it roughly incurs $70 of Cloudflare worker compute for every 100 million events processed. This is 99.5% cheaper than Segment and similar alternatives! Of course, price is not the only reason people self-host. In Finance and Healthcare, for example, it is often the only practical option.\n\n### 🙌 Our Asks\n\n1. **Please Star** our Github repo ⭐️<https://github.com/evefancom/evefan>   \n2. **Let's Partner**: We’ve been working with our first two design partners and are searching for our next three! Does your organization process over 10M monthly events and struggle to scale? Let’s chat! <https://cal.com/amadeo-evefan>\n\n![uploaded image](/media/?type=post&id=83175&key=user_uploads/702191/2c6b777e-4227-4b61-b4b2-5d4e0b270ba1)\n\n",
+      "url": "https://www.ycombinator.com/launches/LdX-evefan-self-hosted-segment-alternative-99-savings-w-cloudflare-workers-oss",
+      "votes": 21,
+      "created_at": "2024-08-19T16:12:51.893Z"
+    }
+  ]
+}

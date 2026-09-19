@@ -1,0 +1,110 @@
+{
+  "id": 29400,
+  "name": "floatingpoint",
+  "slug": "floatingpoint",
+  "former_names": [
+    "Lumina",
+    "Chunkr",
+    "Floatingpoint"
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/ccc5a3b284dde05cfb774f22b332cf01a7341928.png",
+  "website": "https://floatingpoint.ai",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "Floatingpoint is a vision data foundry. We build high-fidelity environments, evals, and supervised datasets to push the frontier of artificial visual intelligence.\r\n\r\n\r\n",
+  "one_liner": "Datasets and evals to push the frontier of visual intelligence.",
+  "team_size": null,
+  "industry": "B2B",
+  "subindustry": "B2B",
+  "launched_at": 1704780983,
+  "tags": [],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Winter 2024",
+  "status": "Active",
+  "industries": [
+    "B2B"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/floatingpoint",
+  "api": "https://devasheeshg.github.io/yc-api/batches/winter-2024/floatingpoint.json",
+  "year_founded": 2025,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/floatingpoint-ai",
+  "x_url": "https://x.com/floatingpt_",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/ccc5a3b284dde05cfb774f22b332cf01a7341928.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Harj Taggar",
+    "url": "https://www.ycombinator.com/people/harj-taggar"
+  },
+  "founders": [
+    {
+      "user_id": 1371678,
+      "full_name": "Mehul Chadda",
+      "title": "Founder/CEO",
+      "founder_bio": "Co-founder & CEO at floatingpoint\n\nI have a background in metrology and a bsc in materials engineering. I work on improving vision capabilities in models. ",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/mehul-chadda-9157472a9/",
+      "x_url": "https://twitter.com/bada_aaya",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/6abe1080dd2517eaeae5d53b642bcf11de5270b2.jpg"
+    },
+    {
+      "user_id": 578873,
+      "full_name": "Ishaan Kapoor",
+      "title": "Founder",
+      "founder_bio": "co-founder @ floatingpoint\n",
+      "is_active": true,
+      "linkedin_url": "https://linkedin.com/in/ishaan-kapoor99",
+      "x_url": "https://twitter.com/Ishaank1999",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/24d2b76793ed1f76aae44109af61d5c40a153e75.jpg"
+    },
+    {
+      "user_id": 591654,
+      "full_name": "Akhilesh Sharma",
+      "title": "Founder",
+      "founder_bio": "Co-Founder@Floatingpoint",
+      "is_active": true,
+      "linkedin_url": "https://linkedin.com/in/akhilesh-sharma-82151b1a5",
+      "x_url": "https://twitter.com/notakhilesh99",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/904cd2ec8b3419f97375d4d631a01c64de744944.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 88079,
+      "title": "Chunkr: Open Source Document Parsing You Can Own",
+      "tagline": "Vision infrastructure to turn complex docs into LLM/RAG-ready data",
+      "body": "Hi all, we’re Mehul, Ishaan and Akhilesh - co-founders of [Chunkr](https://chunkr.ai/). \n\n**TLDR:** We built Chunkr to solve the one-size-doesn't-fit-all problem in document parsing for RAG/LLM applications. **Get granular control over your pipeline to balance speed, quality and features - like a tool you built in-house, minus the headache.**\n\n<https://www.youtube.com/watch?v=2Iy5ssyeneA>\n\nWe were initially building Lumina, the AI search engine for scientific literature. The biggest undertaking was developing a document ingestion pipeline that could process \\~600M pages of scientific literature and extract everything we needed to build a great RAG experience. The OG \"deep research\".\n\nDocument processing solutions on the market couldn't deliver the performance, observability and features needed to win our trust. So we built parsing in-house - and spent so much time fighting foundational problems that we pivoted to solve the underlying challenge itself. **That's how Chunkr was born - with a singular goal to build document ingestion infra that devs can love.**\n\n# **The Problem**\n\nWe released an API and easy to self-host pipeline in October 2024 as a test and didn’t expect much. What we ended up with was a very viral launch (400K impression) - and a year worth of learnings condensed down to 2 weeks. \n\nBy Nov 2024 - we had processed documents across verticals like healthcare, finance, research, government, education and hardware for RAG/LLM use-cases. Beyond common issues like bounding boxes for citations, accurate HTML/MD extraction, and chunking - it became clear that document parsing isn’t one size fits all.  Some of the cases we ran into: \n\n\"I just need fast, simple full page OCR - leave out the rest\"\n\n\"We need custom VLM processing for specific pages/segments (formulas, chart-to-table conversion)\"\n\n\"Give us high-res crops of specific document sections\"\n\n\"Everything must run in our self-hosted VPC\"\n\n“Can we apply our own chunking strategy”\n\n# **The Solution**\n\nChunkr gives you “knobs” to balance **speed**, **quality**, and **features** depending on your use case - like a tool you built in-house, minus the headache. Being open source means minimal lock-in, and a variety of integration options. \n\n**_🧩 Working at the segment level_**\n\nThis is where layout analysis really shines. Break a page into bounded titles, tables, formulas, captions etc (we call these segments) - and the downstream processing options are vast. \n\nEach segment can be configured differently: fast OCR for text, VLMs for complex elements like tables and formulas, optional high-res image cropping, custom prompts for charts and image descriptions.\n\n![uploaded image](/media/?type=post&id=88079&key=user_uploads/1371678/766f2d65-e01b-43ff-acb6-ffed1df4b697)\n\nAbstractions have been kept to a minimum while maintaining a smooth DX. It’s everything you could need for generating great RAG data on your own terms. \n\nAt a higher level - you can configure a host of other options like layout analysis provider and chunking strategy. No matter how gnarly the document is, there’s a config that can work! Another great advantage is a pipeline that can stand the test of progress. As VLMs improve every week - Chunkr gets better as well. \n\n**_🛠️ Production ready API / Self-host_**\n\nThe pipeline comes with all the last-mile engineering you need for production use-cases. We’ve built it all in Rust to offer great performance & reliability. Tasks like image conversions, page parallelization, reading order, failure handling and batching are taken care of. \n\nSelf-hosting is simple with ready to go dockers + helm charts. Processing speed is  around 4 pages per second on a single RTX 4090, which is enough to handle over 11 million pages per month. Renting that hardware on Runpod costs about $249/month, so the math is pretty compelling. \n\n![uploaded image](/media/?type=post&id=88079&key=user_uploads/1371678/22a8f22e-ee67-43d7-b82e-808374f382dc)\n\n# **Asks**\n\n**Try out **[**Chunkr (https://chunkr.ai/)**](https://chunkr.ai/)** - and **[**share feedback**](https://cal.com/mehulc/30min)** with us.** We support PDFs, office file types (docx, ppt, excel), and images. Get started for free with our no-code playground, raw post requests, or use our python package! Our dashboard gives you all the visibility needed to evaluate quality in seconds. \n\n[**Give our repo a star! (https://github.com/lumina-ai-inc/chunkr)**](https://github.com/lumina-ai-inc/chunkr)\n\n**Email: **[**team@chunkr.ai**](mailto:team@chunkr.ai)\n\n![uploaded image](/media/?type=post&id=88079&key=user_uploads/1371678/ee3ebfdf-2f3b-4321-b249-e8a99abb8ccc)\n\n",
+      "url": "https://www.ycombinator.com/launches/Mud-chunkr-open-source-document-parsing-you-can-own",
+      "votes": 15,
+      "created_at": "2025-02-26T20:44:24.803Z"
+    },
+    {
+      "id": 77459,
+      "title": "⚛️  Lumina - Accelerating Research with AI  🚀",
+      "tagline": "🧠  We help researchers build a knowledge base in minutes.",
+      "body": "👋 Hi everyone, we’re Mehul, Ishaan & Akhilesh - the founding team behind [Lumina.](https://www.lumina-chat.com) Our research suite leverages LLM’s to help >8000 researchers discover, validate and curate scientific literature.\n\n![uploaded image](/media/?type=post&id=77459&key=user_uploads/1371678/0483ddd4-8e6a-4b50-a672-daa952488356)\n\nMehul is a Materials Scientist and worked in Atom Probing R&D, Akhilesh is a national robotics champion and has experience as a Cloud Solutions Architect, and Ishaan studied AI and worked as a Data Engineer. \n\n❓ **The Problem:** _Why does research take so long?_\n\n[Science is slow.](https://www.lumina-chat.com/share/chat/91c1d8d7-a68b-489e-8818-b2f24a5d1625) Most research, whether academic or in industry, takes months or years to do. Researchers have to dig through 100s, if not 1000s of scientific papers during this process, and have to vet and extract key insights that are relevant to their project. \n\nAs of now, a majority of the community depends on basic key-word search and manual skimming processes to do so - while wrestling paywalls. This can take anywhere from weeks to years.\n\n💡 **The Solution:** _An AI-powered Research Suite_\n\nWe want to give researchers more time to do what's important. Lumina helps them cut the discovery and validation process down to minutes.\n\n<https://youtu.be/uX-Y7_LcWhI?si=LwZ8JgcExuwcjz4V>\n\nSome key features are:\n\n* 📚 **Mini Lit-Reviews:** Our answers find the most relevant sources for your query, and cite the key sections used from each journal article.\n* 📊 **Tables:** Extract key information from every source from the search - create a custom query, or use a preset to speed things up.\n* 🤖 **Agents:** Query multiple papers at once - connect our library and your collection for complex research tasks.\n\n🌟 **Vision:** _Speed up the entire scientific process_\n\nWe will be augmenting the entire scientific process with AI. We’re building tools that will speed up data analysis, simulate experiments to generate data, bring multimodality and even write entire systematic reviews in one-click. The goal is to create an AGI-like experience for scientific research.\n\n🙏 **Our Ask:**\n\n📢 Try Lumina and let us know your thoughts!\n\n🤝 Connect us to academic and private research groups.\n\nHere’s a Calendly link for a short 15 min convo:\n\n📅 <https://calendly.com/mehul-yem/lumina-experience-interview>\n\n📧 You can reach us at [mehul@lumina-chat.com](mailto:mehul@lumina-chat.com)\n\nWe’re also providing a 50% discount for Lumina Plus to celebrate our launch! Simply use this code on checkout: LAUNCHYC24",
+      "url": "https://www.ycombinator.com/launches/K9L-lumina-accelerating-research-with-ai",
+      "votes": 18,
+      "created_at": "2024-01-11T22:15:26.977Z"
+    }
+  ]
+}

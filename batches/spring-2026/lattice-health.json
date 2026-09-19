@@ -1,0 +1,82 @@
+{
+  "id": 31533,
+  "name": "Lattice Health",
+  "slug": "lattice-health",
+  "former_names": [
+    "Lattice"
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/2410273df05a84647f5ff7950dad614c7167a5e8.png",
+  "website": "https://www.latticehealthai.com/",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "Lattice Health monitors deployed medical imaging AI so hospitals can tell whether each model is still working, tracking agreement with the radiologist's read, drift, and performance across patient groups. It observes rather than controls and produces the evidence teams need for safety, governance and compliance.",
+  "one_liner": "Monitoring and governance for deployed medical imaging AI",
+  "team_size": 1,
+  "industry": "Healthcare",
+  "subindustry": "Healthcare",
+  "launched_at": 1779379270,
+  "tags": [
+    "Healthcare",
+    "Healthcare IT"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Spring 2026",
+  "status": "Active",
+  "industries": [
+    "Healthcare"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/lattice-health",
+  "api": "https://devasheeshg.github.io/yc-api/batches/spring-2026/lattice-health.json",
+  "year_founded": 2026,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "",
+  "x_url": "",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/2410273df05a84647f5ff7950dad614c7167a5e8.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Harj Taggar",
+    "url": "https://www.ycombinator.com/people/harj-taggar"
+  },
+  "founders": [
+    {
+      "user_id": 1446170,
+      "full_name": "Christine Park",
+      "title": "Founder/CEO",
+      "founder_bio": "I'm the founder/CEO of Lattice Health. Previously, I trained in neurosurgery at the University of Washington and obtained my MD/MEng at Duke. Currently, I'm pursuing a CS PhD at Stanford.",
+      "is_active": true,
+      "linkedin_url": "https://linkedin.com/in/christine-park-642011230",
+      "x_url": "https://x.com/sparkcpark",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/550427621486dfdbdc618db61526cc0ff808a4e0.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 102711,
+      "title": "Lattice Health: Monitoring and governance for deployed medical imaging AI",
+      "tagline": "Keeping your imaging models safe and compliant",
+      "body": "Hey YC!\n\nI'm Christine Park, founder of Lattice Health. We make sure the AI that hospitals deploy on medical imaging keeps working after it goes live.\n\nLaunch video: <https://youtu.be/p0l029tsmhs>\n\nWebsite: <https://www.latticehealthai.com/>\n\n**The problem.** Hospitals are adopting medical imaging AI faster than ever. But once a model is live, almost no one can answer a basic question: is it still working? Models drift, a scanner upgrade or a shift in the patient population can quietly degrade accuracy, and performance often varies across patient groups. Most of that goes unseen today, and it's the hospital, not the vendor, that carries the risk.\n\n**What we built.** Lattice is a monitoring and governance layer for deployed imaging AI. We plug in beside the imaging pipeline as a read-only observer and continuously check each model: how well it agrees with the radiologist's read, whether it's drifting over time, and how it performs across patient subgroups. Then we turn that into the evidence hospitals need for safety, governance, and compliance. Lattice never touches patient care, it only watches, so if Lattice stops, care continues.\n\n**Why now.** AI is moving into clinical use under a wave of new expectations from the FDA, ONC, and the ACR, and they all point to the same gap: continuous post-deployment monitoring. Hospitals are on the hook for it and have almost no tooling to do it.\n\n**Our ask.** We'd love intros to health system and radiology leaders, CMIOs, and anyone running AI governance at a hospital, as well as imaging AI vendors who want their models monitored well in the field. And if you have thoughts or hard questions, drop them in the comments or email me at [christine@latticehealthai.com](mailto:christine@latticehealthai.com)",
+      "url": "https://www.ycombinator.com/launches/Qid-lattice-health-monitoring-and-governance-for-deployed-medical-imaging-ai",
+      "votes": 8,
+      "created_at": "2026-06-10T15:31:08.691Z"
+    }
+  ]
+}

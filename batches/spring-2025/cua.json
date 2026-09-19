@@ -1,0 +1,131 @@
+{
+  "id": 30420,
+  "name": "Cua",
+  "slug": "cua",
+  "former_names": [
+    "Cua",
+    "c/ua"
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/388c63ca4d8b705c5dcaf89934394977693456e0.png",
+  "website": "https://cua.ai",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "Give every agent a cloud desktop. Built for Claude Code, Codex, OpenClaw, and any computer-use agents.",
+  "one_liner": "Give every agent a cloud desktop",
+  "team_size": 3,
+  "industry": "B2B",
+  "subindustry": "B2B -> Engineering, Product and Design",
+  "launched_at": 1744392234,
+  "tags": [
+    "Open Source"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": true,
+  "nonprofit": false,
+  "batch": "Spring 2025",
+  "status": "Active",
+  "industries": [
+    "B2B",
+    "Engineering, Product and Design"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": true,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/cua",
+  "api": "https://devasheeshg.github.io/yc-api/batches/spring-2025/cua.json",
+  "year_founded": 2025,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/cua-ai",
+  "x_url": "https://x.com/trycua",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": "https://github.com/trycua/cua",
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/388c63ca4d8b705c5dcaf89934394977693456e0.png",
+  "app_video_url": null,
+  "dday_video_url": "https://bookface-images.s3.us-west-2.amazonaws.com/video_event/71/1749676140-93a5e732f792f70badc60d0fb87d7d59/893e91cd3a4581cab6fe45f98e01b109.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQC4NIECABPQ2AHNW%2F20260919%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260919T020231Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=a8da1d534572864a376f11bb35f2c5e18dfbab229b046b181f0efa5e78cfc541",
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Diana Hu",
+    "url": "https://www.ycombinator.com/people/diana-hu"
+  },
+  "founders": [
+    {
+      "user_id": 1644303,
+      "full_name": "Francesco Bonacci",
+      "title": "Founder/CTO",
+      "founder_bio": "Give every agent a cloud desktop at Cua. Previously at Xbox, Microsoft AI.",
+      "is_active": true,
+      "linkedin_url": "https://linkedin.com/in/francesco-bonacci-70428a121",
+      "x_url": "https://x.com/francedot",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/9842ea7094a498d290c5c7a8cffce927e22c3e73.jpg"
+    }
+  ],
+  "jobs": [
+    {
+      "id": 78130,
+      "title": "Founding Engineer, Infra & Agent Systems",
+      "url": "https://www.ycombinator.com/companies/cua/jobs/dIskIB1-founding-engineer-infra-agent-systems",
+      "location": "San Francisco, CA, US",
+      "type": "Full-time",
+      "role": "Engineering",
+      "role_type": "Full stack",
+      "salary_range": "$100K - $150K",
+      "equity_range": "0.50% - 0.75%",
+      "experience": "1+ years",
+      "visa": "US citizen/visa only",
+      "skills": [
+        "Go",
+        "Python",
+        "TypeScript",
+        "Docker"
+      ]
+    },
+    {
+      "id": 78742,
+      "title": "Research Intern (Summer 2026)",
+      "url": "https://www.ycombinator.com/companies/cua/jobs/bSnxsAi-research-intern-summer-2026",
+      "location": "San Francisco, CA, US / Remote (US)",
+      "type": "Internship",
+      "role": "Engineering",
+      "role_type": "Machine learning",
+      "salary_range": "$8K - $9.25K / monthly",
+      "equity_range": "0.25% - 0.50%",
+      "experience": null,
+      "visa": "US citizen/visa only",
+      "skills": []
+    },
+    {
+      "id": 109610,
+      "title": "Founding Technical GTM Lead",
+      "url": "https://www.ycombinator.com/companies/cua/jobs/1IWEKVH-founding-technical-gtm-lead",
+      "location": "San Francisco, CA, US / Remote (US)",
+      "type": "Full-time",
+      "role": "Sales",
+      "role_type": null,
+      "salary_range": "$150K - $200K",
+      "equity_range": "0.50% - 1.50%",
+      "experience": "3+ years",
+      "visa": "US citizen/visa only",
+      "skills": []
+    }
+  ],
+  "news": [],
+  "launches": [
+    {
+      "id": 89628,
+      "title": "c/ua - Docker Container for Computer-Use Agents",
+      "tagline": "c/ua runs lightweight containers for Computer-Use AI Agents with your own language models.",
+      "body": "### **📚 TL;DR**\n\n**c/ua** is an open-source framework that enables AI agents to control full operating systems within high-performance, lightweight virtual containers. It delivers up to **97% native CPU speed on Apple Silicon** and works with any language models: [**https://github.com/trycua/cua**](https://github.com/trycua/cua).\n\n<https://youtu.be/Ee9qf-13gho>\n\n### **⚒️ The Problem**\n\nFor **Computer-Use AI agents** to be genuinely useful, they must interact with your system's native applications. But giving full access to your host device is **risky** - and not ideal. What if the agent's process gets compromised, or the LLM hallucinates and leaks your data? And practically speaking, do you really want to **give up control** of your entire machine just so the agent can do its job?\n\n**In short: How can AI agents interact with operating systems, desktop applications, and browsers without jeopardizing security or sacrificing performance?**\n\n### **⭐ Solution: An end-to-end framework**\n\nWe combined **Apple's Virtualization.Framework** with an agent-friendly interface to create:\n\n\\- **Lightweight VMs**: Run at 97% of native CPU speed on Apple Silicon, giving you near-native performance in a secure, virtualized space.\n\n\\- **Sandboxed Execution**: AI agents operate in tightly controlled environments, allowing secure interaction with desktop applications - without risking your host system.\n\n\\- **LLM-Compatible Runtimes**: Works out-of-the-box with popular LLM providers like OpenAI, Anthropic, and open-source tools like Ollama, LM Studio, and OpenRouter.\n\nAnd we now support **MCP**! You can use Claude Desktop or Cursor, as your personal assistant to navigate even notoriously challenging apps like Tableau. Watch the demo to see it in action!\n\n[**https://youtu.be/NTUVU1aBs3c**](https://youtu.be/NTUVU1aBs3c)\n\n### **⚙️ How It Works**\n\n**c/ua** brings together three powerful components into one unified framework stack:\n\n1\\. **Lume** - Our high-performance Virtualization layer leverages Apple's Virtualization.Framework to spin up macOS or Linux environments.\n\n2\\. **Computer-Use Interface (CUI)** - This layer lets any process or AI agent - no matter which framework it's built on (like AutoGen, LangGraph, etc.) - see the screen and interact with Lume VMs just like a human would. It supports actions such as clicking, typing, scrolling, and extracting the visual accessibility tree.\n\n3\\. **Computer-Use Agent (CUA)** - Built on top of CUI, this general agent framework runs intelligent workflows within these VMs. It's compatible with popular LLM providers like OpenAI, Anthropic, as well as open-source tools like Ollama, LM Studio, and OpenRouter.\n\n![uploaded image](/media/?type=post&id=89628&key=user_uploads/1644303/c3e0e845-3223-4b82-85d1-316e41d9875c)\n\nAn AI agent built with **c/ua** operates within a virtual environment to:\n\n\\- Navigate and interact with any application's interface\n\n\\- Read screen content and perform keyboard/mouse actions\n\n\\- Switch between applications and self-debug when needed\n\n\\- Operate in a secure sandbox with controlled file access\n\nAll of this occurs in a fully isolated environment, ensuring your host system, files, and sensitive data remain completely secure - while you continue using your device without interruption.\n\n### **🖥️ What Can You Build with c/ua?**\n\n**c/ua** lets AI agents use real desktop apps - just like a human. For example:\n\n\\- **CAD Copilot**: Modify 3D models in tools like Fusion 360 or FreeCAD.\n\n\\- **Photoshop Assistant**: Crop, layer, and export assets via prompt.\n\n\\- **Operator for Tableau**: Navigate dashboards and filters with natural language.\n\n\\- **Legacy App Automator**: Control apps and websites with no APIs through UI actions.\n\n### **🤝 Our Asks:**\n\nIf you're done burning money on fragile browser automations or slow, over-engineered computer-use agents - it's time to try c/ua:\n\n* Book a call: <https://cal.com/francesco-bonacci/cua-demo>\n* Email us: [founders@trycua.com](mailto:founders@trycua.com)\n\nAlso don’t forget to:\n\n1\\. Leave us a star, watch and fork on GitHub: [**https://github.com/trycua/cua**](https://github.com/trycua/cua)\n\n2\\. Join our Discord [**https://discord.com/invite/mVnXXpdE85**](https://discord.com/invite/mVnXXpdE85) - we're building this together",
+      "url": "https://www.ycombinator.com/launches/NJc-c-ua-docker-container-for-computer-use-agents",
+      "votes": 69,
+      "created_at": "2025-04-17T19:31:20.268Z"
+    }
+  ]
+}

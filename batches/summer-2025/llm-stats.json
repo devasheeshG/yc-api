@@ -1,0 +1,94 @@
+{
+  "id": 30625,
+  "name": "LLM Stats",
+  "slug": "llm-stats",
+  "former_names": [
+    "ZeroEval",
+    "CallingBox"
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/3a26ef8cd21c96b9e05cbe02e5462bd2096d53b7.png",
+  "website": "https://llm-stats.com",
+  "all_locations": "New York City, NY, USA",
+  "long_description": "We build independent and contamination-proof benchmarks that measure real world performance.\r\n\r\nLLM Stats is the most complete LLM leaderboard. We have the most complete archive of LLM benchmark results and also run independent evaluations that are not the classical ones that are already in the training data of most models.\r\n\r\nOur mission: become the biggest community dedicated to AI transparency.",
+  "one_liner": "Independent AI evaluations lab",
+  "team_size": 2,
+  "industry": "B2B",
+  "subindustry": "B2B -> Infrastructure",
+  "launched_at": 1755052091,
+  "tags": [
+    "Infrastructure",
+    "AI"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Summer 2025",
+  "status": "Active",
+  "industries": [
+    "B2B",
+    "Infrastructure"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/llm-stats",
+  "api": "https://devasheeshg.github.io/yc-api/batches/summer-2025/llm-stats.json",
+  "year_founded": 2025,
+  "city": "New York City",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/llm-stats",
+  "x_url": "https://x.com/LlmStats",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/3a26ef8cd21c96b9e05cbe02e5462bd2096d53b7.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Jon Xu",
+    "url": "https://www.ycombinator.com/people/jon-xu"
+  },
+  "founders": [
+    {
+      "user_id": 562577,
+      "full_name": "Jonathan Chávez",
+      "title": "Founder",
+      "founder_bio": "Co-Founder at LLM-Stats.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/jonathanchatab",
+      "x_url": "https://x.com/pirchavez",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/e4684ed9c5fa4e105c6ccc348b3ef03cb5df5094.jpg"
+    },
+    {
+      "user_id": 208921,
+      "full_name": "Sebastian Crossa",
+      "title": "Founder",
+      "founder_bio": "Co-Founder @ LLM Stats. Previous founding engineer at Micro building the future of email (backed by a16z), as well as founding engineer at Atrato Pago (W21). Formerly built and scaled Minecraft servers during my spare time during highschool.",
+      "is_active": true,
+      "linkedin_url": "https://linkedin.com/in/sebastiancrossa",
+      "x_url": "https://x.com/sebcrossa",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/080f94f0e789bd63c6a6cfd8d91688ce079670d2.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 93136,
+      "title": "ZeroEval - Build self-improving agents",
+      "tagline": "A tool to evaluate and optimize AI agents using human feedback.",
+      "body": "![uploaded image](/media/?type=post&id=93136&key=user_uploads/208921/328fd273-24d5-4307-9322-075a26467fe9)\n\nHey everyone, we're Sebastian and Jonathan - founders of ZeroEval.\n\n### **TL;DR**\n\nZeroEval is a tool that helps you build reliable AI agents through evaluations that learn from their mistakes and get better over time.\n\nhttps://www.youtube.com/watch?v=hSkpdHE7mCs\n\n### **The problem**\n\nEvaluating complex AI systems is hard and time consuming. The more complex your agents get, the harder this issue becomes. This is especially the case when building:\n\n1. Long-running, multi-turn agents with dozens of intermediate tool calls \n2. Agents where you want to measure the quality of images, video, generated UI, audio, personality, taste, etc\n\n**Current offline eval methods are high-friction**, a lot of work is needed to continuously curate labeled data and write experiments and evaluators. \n\nOn the other hand, **current LLM judges are static and often have terrible performance**, they lack context on how they fail and the nuances of the task at hand. \n\nYour AI agents are as good as your evals. Without them, surpassing the quality threshold your product needs will feel like a never-ending task.\n\n### **What we’re building**\n\nA way to create **calibrated LLM judges** that get better over time the more production data they see and the more incorrect samples are labeled. The more you teach it on where it's failing, the more reliable it becomes.\n\nOnce you have a judge that matches the human preference baseline, you can continue using it on production data or in offline experiments.\n\n![uploaded image](/media/?type=post&id=93136&key=user_uploads/208921/f815b7cf-a84e-4285-974d-1ffc943889ad)\n\nWe’re also introducing **Autotune**, a way to do automatic evaluation on dozens of models and prompt optimization based on a few human samples.\n\n![uploaded image](/media/?type=post&id=93136&key=user_uploads/208921/954461b0-5b4a-42b9-b464-0a698c3f6fd0)\n\nWe envision a future where AI software improves based on human feedback, where developers define the evaluation criteria as a starting point and errors back propagate to find the optimal implementation.\n\n### **The team**\n\nWe met during their first year of college in Mexico over 7 years ago. During that time they worked on side projects together, joined a leading fintech startup as first engineers and most recently built [llm-stats.com](http://llm-stats.com), a leading LLM leaderboard website that reached 60k MAU and  ⅓  million unique users since its launch a few months ago.\n\n* **Sebastian** was founding engineer at Micro building the future of email (backed by a16z), as well as founding engineer at Atrato (YC W21).\n* **Jonathan** was an early employee on the LLM observability team at Datadog. He did undergrad research on vision transformers for particle physics and RL for robotics.\n\nFoundational models have transformed the world. We’re building the second line of offense to fill their capability gaps and create AI products that actually work. We are determined to build the engine behind self-improving software for the following decades. \n\n![uploaded image](/media/?type=post&id=93136&key=user_uploads/208921/b912b213-762c-42ba-8fe5-dd39de8dd748)\n\n### **Our ask**\n\nIf you have AI agents in production and are struggling to measure their quality and/or achieve the reliability needed for your product's success, we’d love to chat!\n\nWe don't just deliver a tool, but will sit with you to understand your pain points and help you build high quality evals.\n\nFeel free to reach out at [founders@zeroeval.com](mailto:founders@zeroeval.com) or [book a demo](https://cal.com/team/zeroeval/demo).",
+      "url": "https://www.ycombinator.com/launches/OEC-zeroeval-build-self-improving-agents",
+      "votes": 35,
+      "created_at": "2025-08-19T15:36:48.670Z"
+    }
+  ]
+}

@@ -1,0 +1,102 @@
+{
+  "id": 32261,
+  "name": "Rasyn",
+  "slug": "rasyn",
+  "former_names": [],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/ffda7ce34aee49cfec95fa8aef9ed1a70e4c3e28.png",
+  "website": "https://www.rasyn.ai/",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "We builds foundational AI models for chemistry. Almost nothing you buy is a single chemical. Products like datacenter coolant, GPU thermal paste, paint, and glue are formulations, which are mixtures of around ten ingredients each, and demand for them has grown quickly because of AI and EVs.\r\n\r\nDesigning a new formulation is essentially a search problem, because there are more possible mixtures than anyone could ever test, and none of them can be predicted in advance. As a result, bringing a single formulation to market today takes three to five years of trial and error in a lab.\r\n\r\nOur models predict how a mixture will behave far faster than the standard methods used today, which lets us design new formulations in weeks rather than years, at a fraction of the cost. To prove this, we used them to invent three chemicals that never existed before, including a PFAS-free coolant for datacenters, and we have since synthesized and patented all three.\r\n\r\nWe are already working with some of the largest manufacturers to design formulations for them, and we are building our own lab to generate the data that will train our next models.",
+  "one_liner": "Making chemicals 100,000x faster",
+  "team_size": 3,
+  "industry": "Healthcare",
+  "subindustry": "Healthcare",
+  "launched_at": 1785736030,
+  "tags": [
+    "Artificial Intelligence",
+    "Deep Learning",
+    "Biotech",
+    "Manufacturing"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Summer 2026",
+  "status": "Active",
+  "industries": [
+    "Healthcare"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/rasyn",
+  "api": "https://devasheeshg.github.io/yc-api/batches/summer-2026/rasyn.json",
+  "year_founded": 2025,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/rasyn-ycs26/",
+  "x_url": "https://x.com/rasyn_lab",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/ffda7ce34aee49cfec95fa8aef9ed1a70e4c3e28.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Ankit Gupta",
+    "url": "https://www.ycombinator.com/people/ankit-gupta"
+  },
+  "founders": [
+    {
+      "user_id": 3475945,
+      "full_name": "Ansh Tiwari",
+      "title": "Founder/CEO",
+      "founder_bio": "CEO at Rasyn (YC S26) | ex-NASA | 3x ICML",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/ansschh/",
+      "x_url": "https://x.com/4n5che",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/3629530f2959475271a8d4c059a54c800cccaed5.jpg"
+    },
+    {
+      "user_id": 972683,
+      "full_name": "Ayush Chauhan",
+      "title": "Founder/CTO",
+      "founder_bio": "CTO at Rasyn (S26)",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/ayushchauhan0203/",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/3f433dd02a059cbf14b5ec7764ee6592562cddc2.jpg"
+    },
+    {
+      "user_id": 3481804,
+      "full_name": "Daood Hashmi",
+      "title": "Founder",
+      "founder_bio": "Researching in the Arnold and Marcus Lab at Caltech",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/daood-hashmi-9588b8420/",
+      "x_url": "https://x.com/hash_me_NOT",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/951a6c5546701cb614078a22a24b949c93cf48a8.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 108802,
+      "title": "Rasyn: One place to run any Chemistry task",
+      "tagline": "Towards a General Intelligence for Chemistry",
+      "body": "**Hey!**\n\nWe're **Rasyn**, and we built a platform called **Marigold**. Give it any chemistry task in plain language and it pulls the literature, reads your files, picks the tools, sets up and runs the calculations on its own machine, and hands back the numbers along with its reasoning what it did to get them. \n\nIt's live at [app.rasyn.ai](http://app.rasyn.ai); here's a short demo: <https://youtu.be/ru1BeRBlRec>\n\n\\\n**Here's the team:** \\\nOur team has worked at NASA JPL, and researched with scientists from Nvidia and Deepmind. Our team has worked on softwares serving 50 million users, and their research was used by frontier AI labs including OpenAI and Meta. Our team studies Computational Chemistry at Caltech, has done Total Synthesis for 4+ years, and researched alongside Nobel Laureates, so they have faced these problems firsthand. They'd lose hours deciding which tool to call next, moving outputs between disconnected tools, and running a single program at a time.\n\n**Problem:** \\\nChemistry has countless software. There's one for predicting a structure, another for proposing a route, another for reading a spectrum. None of them talk to each other, so you're stuck feeding outputs between them; this clerical work is where the time goes, none of which is science.\n\n\\*\\*Solution:\\*\\*\\\nWe tried coding agents first. They're built to write software, so a chemistry task gets handled as a scripting problem and the chemistry goes unverified. Marigold checks between steps and stops when something doesn't hold.\n\nIt runs on its own machine, so it installs and executes what it needs. It works with the tools chemists already use, submits jobs to your cluster, and runs on whatever model endpoint you have, so your data can stay in the building. In the demo we hand it four thousand compounds and ask which are worth screening. It does the whole thing itself.\n\nLonger term we're building toward a general intelligence for chemistry. Marigold today reasons over existing tools, and that's where we start.\n\n**The Ask:**\n\nThis is only the first version; it will break. And we'd like it to break in front of chemists, so if you run any sort of chemistry, please try it and tell us where it falls over. \n\nWe'd also love intros to any lab doing chemistry, computational or wet, since we want to sit down and work through a real problem with people. \n\nHappy to answer any questions!",
+      "url": "https://www.ycombinator.com/launches/SIs-rasyn-one-place-to-run-any-chemistry-task",
+      "votes": 8,
+      "created_at": "2026-08-03T19:40:21.411Z"
+    }
+  ]
+}

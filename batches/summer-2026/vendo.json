@@ -1,0 +1,93 @@
+{
+  "id": 32620,
+  "name": "Vendo",
+  "slug": "vendo",
+  "former_names": [],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/78a3b3436ef4b4e09e82a4c3fcc2733004348735.png",
+  "website": "https://vendo.run/",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "Vendo is the customization layer that lets your users build their own features and micro-apps directly on top of your product. Rather than waiting on an ever-growing feature backlog, your users can personalize the product to exactly how they work, create their own automations, and integrate hundreds of external tools, all without your team writing a line of code.\r\n\r\nEverything runs on your existing API, renders natively in your own theme and components, and executes inside secure sandboxes within your existing security guardrails, so your source code is never touched. Companies can plug Vendo into an agent they already have, or deploy a production-ready agent complete with the ability to take actions in the product, generate UI, and draw on a built-in knowledge base. Vendo is open source and installs with a single command, and we work closely with teams to get it running for their product.",
+  "one_liner": "Let your users build their own features on top of your product",
+  "team_size": 2,
+  "industry": "B2B",
+  "subindustry": "B2B -> Engineering, Product and Design",
+  "launched_at": 1784444284,
+  "tags": [
+    "Artificial Intelligence",
+    "B2B",
+    "Customer Success",
+    "Open Source"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Summer 2026",
+  "status": "Active",
+  "industries": [
+    "B2B",
+    "Engineering, Product and Design"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/vendo",
+  "api": "https://devasheeshg.github.io/yc-api/batches/summer-2026/vendo.json",
+  "year_founded": 2026,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/runvendo/",
+  "x_url": "https://x.com/runvendo",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": "https://github.com/runvendo/vendo",
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/78a3b3436ef4b4e09e82a4c3fcc2733004348735.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Ankit Gupta",
+    "url": "https://www.ycombinator.com/people/ankit-gupta"
+  },
+  "founders": [
+    {
+      "user_id": 2705364,
+      "full_name": "Nour Zahzah",
+      "title": "Founder/CEO",
+      "founder_bio": "Co-Founder & CEO at Vendo (YC S26). MechE at UC Berkeley. Previously founded a company building in-store AI shopping assistants for retailers and did mechanical design for startups. Played professional academy soccer at SJ Earthquakes for 7 years. ",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/nourzahzah",
+      "x_url": "https://x.com/nourzahzah",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/8b85fea4ac10bda81aabb36b1cc583ed77d0bbe3.jpg"
+    },
+    {
+      "user_id": 1301156,
+      "full_name": "Yousef Helal",
+      "title": "Founder/CTO",
+      "founder_bio": "Co-Founder at Vendo (YC S26). I graduated top of my class from UC Berkeley at 19, and then went and got an MS from Stanford.\n\nI previously designed software and hardware at Apple (FPGA infrastructure) and AMD (Microblaze V), and then founded a startup building in-store AI shopping assistants for retailers. Before that, my teachings methods as a TA at Berkeley won awards and got published in a paper.",
+      "is_active": true,
+      "linkedin_url": "https://linkedin.com/in/yousef-helal",
+      "x_url": "https://x.com/yousefhll",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/18f62c8cc62917996227855f8991296782ecadab.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 106667,
+      "title": "Vendo: Let Your Users Build Their Own Features on Top of Your Product",
+      "tagline": "Vendo is the customization layer that lets your users build their own features and micro-apps on top of your product, within your brand and guardrails.",
+      "body": "Hey everyone 👋 We're Nour and Yousef, co-founders of Vendo.\n\n**TL;DR:** Vendo is the customization layer that lets your users build their own features and micro-apps right inside your product, on your existing API and within your brand and guardrails.. Plug it into the agent you already have, or drop in a production-ready one, with a single command. It's open source.\n\n**Try it now:** [vendo.run](http://vendo.run) \\\n**Star us on Github**: <https://github.com/runvendo/vendo>\n\n<https://www.youtube.com/watch?v=JjtDhA7DZw8>\n\n## **The Problem**\n\nEvery product team is drowning in the same thing: a feature backlog that never ends. Different customers want different things, and you can't build a thousand versions of your product. So most requests sit in a board for months, and the customer who asked churns quietly because your product doesn't do the one thing they needed.\n\nThe AI wave made this worse, not better. Everyone knows their product should be agent-native, but building a real agent (one that can take actions, generate UI, remember context, and stay inside your security guardrails) takes serious engineering hours and ongoing maintenance. So most teams ship a chatbot bolted to the corner of the screen and call it AI. Users don't want another chatbot. They want your product to do the exact thing they need.\n\n## **How Vendo Works**\n\nVendo installs into your product with one command. It reads your theme, your components, and your API surface. From then on, your users can describe what they want in plain English and Vendo builds it for them, live, inside your app:\n\n* **Personalize the product** to exactly how each user works, in your own design system.\n* **Build automations** that run on a schedule and take real actions in your product.\n* **Pull in hundreds of external tools**, so the workflow doesn't stop at your app's edge.\n\nEverything runs in secure sandboxes and inside your existing security guardrails. The agent only ever has the same access the user has, so it can't do anything they couldn't already do themselves, and your source code never gets touched.\n\nYou can plug Vendo into the agent you already have, or get a production-ready one out of the box with actions, UI generation, and a knowledge base included. It's completely open source, and it takes one command to install and push live to your users.\n\n![uploaded image](/media/?type=post&id=106667&key=user_uploads/2705364/5b5c05c6-3415-4d23-bf67-a779d56456c7)\n\n## **Who We Are**\n\nWe're a Stanford and Berkeley team who’ve known each other since kindergarten and previously built in-store AI shopping assistants for retailers.\n\n* **Nour (CEO)** studied Mechanical Engineering at Berkeley and interned as a mechanical design engineer. Before startups, he played professional academy soccer for the San Jose Earthquakes for 7 years.\n* **Yousef (CTO)** graduated high school at 15 and completed a Bachelor’s in EECS from Berkeley and a Master’s from Stanford. He previously built FPGA infrastructure at Apple and worked on chip design at AMD.\n\n### **Our Ask**\n\n* **If you run a product team** and your backlog is full of \"can it also do X\" requests, we want to talk. We'll integrate Vendo for you.\n* **If you're a developer** who wants the best open-source way to put a real agent into your product, come try it and tell us what breaks.\n* **Intros welcome** to any company feeling the request pain who wants an agentic interface on top of their product.\n\nReach us at [vendo.run](http://vendo.run) or [nour@vendo.run](mailto:nour@vendo.run)",
+      "url": "https://www.ycombinator.com/launches/RkR-vendo-let-your-users-build-their-own-features-on-top-of-your-product",
+      "votes": 27,
+      "created_at": "2026-07-21T16:59:47.309Z"
+    }
+  ]
+}

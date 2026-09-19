@@ -1,0 +1,101 @@
+{
+  "id": 29976,
+  "name": "Freestyle",
+  "slug": "freestyle",
+  "former_names": [],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/c4c248db416a898fa7c553e48dd6ec3f458817e5.png",
+  "website": "https://www.freestyle.sh",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "Ben and Jacob met in Calculus class in 10th grade, and tried founding a startup in high school — it didn’t go anywhere.\r\n\r\nDuring high school, Ben lead the frontend team for the World Health Organization’s COVID-19 App Team.\r\n\r\nAfter high school, Jacob went to Apple and Ben went to college. When there was an opening on his team, Jacob had Ben apply, and Ben left UChicago to go work at Apple.\r\n\r\nThey spent about 2 years at Apple as Senior Engineers in the Conversational Engineering Department, before leaving to found Freestyle.\r\n\r\nFreestyle is directly inspired by what they saw as their failures of the tech they worked with at Apple.",
+  "one_liner": "The most powerful sandboxes for AI Agents",
+  "team_size": 5,
+  "industry": "B2B",
+  "subindustry": "B2B -> Infrastructure",
+  "launched_at": 1719115501,
+  "tags": [
+    "Artificial Intelligence",
+    "Developer Tools",
+    "Cloud Computing"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Summer 2024",
+  "status": "Active",
+  "industries": [
+    "B2B",
+    "Infrastructure"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/freestyle",
+  "api": "https://devasheeshg.github.io/yc-api/batches/summer-2024/freestyle.json",
+  "year_founded": 2024,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "",
+  "x_url": "https://x.com/freestyle_dev",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": "https://github.com/freestyle-sh",
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/c4c248db416a898fa7c553e48dd6ec3f458817e5.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Diana Hu",
+    "url": "https://www.ycombinator.com/people/diana-hu"
+  },
+  "founders": [
+    {
+      "user_id": 800509,
+      "full_name": "Benjamin Swerdlow",
+      "title": "Founder/CEO",
+      "founder_bio": "I learned to code in elementary school.\n\nIn high school I served as a code owner and technical lead for the World Health Organization COVID-19 App Collective Team.\n\nI did a year of college, then took a job as a consultant for Apple. In 3 months I became a senior. \n\nI left Apple to found Freestyle. ",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/benswerdlow/",
+      "x_url": "https://x.com/benswerd",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/477e8bc77c78795e61c56e29cfabab0ed4459ebc.jpg"
+    },
+    {
+      "user_id": 1860855,
+      "full_name": "Jacob Zwang",
+      "title": "Founder/CTO",
+      "founder_bio": "I dropped out of college and became an Apple senior full-stack engineer in Conversational Engineering at 19. During the year and a half I worked there, I delivered multiple projects to production at scale.\n\nI love building products that inspire and delight customers, but I'm frequently frustrated by poor back-end developer tools. My co-founder and I are building a new cloud and backend workflow so that we and others can build exceptional software in a fraction of the time.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/jacobzwang/",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/38ccebf783ef3df1f880c363199154971ea91c89.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 83627,
+      "title": "Freestyle: A new way to build fullstack TypeScript apps",
+      "tagline": "Empowering TypeScript developers to build with TypeScript",
+      "body": "Today, most new apps are written with Fullstack TypeScript, but the tooling around them is still built as though the frontend and backend are separate codebases. We built an open source framework, runtime, and cloud that acknowledges this and removes these unnecessary layers from the development process.\n\n**What?**\n\nAny JavaScript class can be marked as [@cloudstate](https://github.com/freestyle-sh/cloudstate), and:\n\n1. The data in it is now persisted. You query the data with regular JavaScript.\n2. The methods on it can now be called from the front end. No Express/API Routes/tRPC needed!\n\n**Coolest Side Effect:** By building our tooling around Fullstack TypeScript, we enable **full-stack feature packages,** a way for JavaScript developers to package any feature they build and share it in a way that it can be embedded in other projects. Think **npm install mui**, except it’s **npm install chat**, or **npm install auth**. Imagine a world where every third-party SaaS provider today can be an open source package that runs in your application.\n\n**Our Ask:**\n\n**Build with us!** Contribute to our [Open Source Repository,](https://github.com/freestyle-sh/cloudstate) or try [deploying an app with us](https://docs.freestyle.dev)!\n\n![uploaded image](/media/?type=post&id=83627&key=user_uploads/89898/0a2412f8-6b6e-4906-9d8f-256badd8b332)\n\n",
+      "url": "https://www.ycombinator.com/launches/Lkp-freestyle-a-new-way-to-build-fullstack-typescript-apps",
+      "votes": 22,
+      "created_at": "2024-08-30T19:44:46.817Z"
+    },
+    {
+      "id": 81748,
+      "title": "Freestyle: TypeScript for EVERYTHING",
+      "tagline": "A fundamental shift in how we approach web development",
+      "body": "# **TLDR; You can use TypeScript for EVERYTHING**\n\n[**Freestyle**](https://www.freestyle.sh) is a fundamental shift in how we approach web development. With Freestyle, you write your entire application—frontend and backend—in TypeScript. No context switching. No mental gymnastics. Just pure, consistent TypeScript throughout.\\\n\\\nRight now, building an application has a ton of disjointed layers. Imagine you’re writing a book in English for English readers. Now, imagine being told that all the connecting words—the “ands,” “buts,” and “ors”—must be written in Latin. Sounds absurd, right? Yet, this is often what web development feels like: you write your frontend in one language, only to switch to another for the backend, another for your database, and yet another to let your app connect to others.\n\n![alt](https://blog.freestyle.dev/images/blogs/multiplayer-infinite-craft/meme-backend-frontend.png)\n\nDuring our work for Apple, we lost hundreds of hours trying to integrate different layers and teams together to make our application run. That time should’ve been spent on features, but instead was spent on stitching features together. We created [Freestyle](https://www.freestyle.sh) not as a new stitching tool but as a way for whole organizations to not need those tools and instead function as a single unit.\n\nWhen you use Freestyle, you write your frontend and backend in JavaScript. Then, when you wanna call functions from your backend on your frontend, you just use them — no more dealing with REST APIs. When you want to store data, you just mark your JavaScript as [@cloudstate](https://docs.freestyle.dev/guides/cloudstate/) and when you’re ready to deploy, you run **_npx freestyle deploy_** — and in one command you’re up and running.\n\nNo more SQL, no MongoDB, no Firebase, no GraphQL or REST, or anything else taking time away from building features. With Freestyle, all you need is TypeScript.\n\n### Ready to try it? [**Sign up for a demo here**](https://www.freestyle.sh/join), or [**CHECK OUT THE DOCS HERE**](https://docs.freestyle.dev/getting-started/astro)",
+      "url": "https://www.ycombinator.com/launches/LGW-freestyle-typescript-for-everything",
+      "votes": 87,
+      "created_at": "2024-06-25T22:12:58.661Z"
+    }
+  ]
+}

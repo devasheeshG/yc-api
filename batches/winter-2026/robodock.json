@@ -1,0 +1,88 @@
+{
+  "id": 31135,
+  "name": "RoboDock",
+  "slug": "robodock",
+  "former_names": [],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/8d6ce96c0e4a1cbd7e0458649e2af7fa551e2bfb.png",
+  "website": "https://www.robodock.tech/",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "RoboDock builds robots that automate depot operations, like charging and vehicle checks, for electric and autonomous vehicle fleets. We turn fleet depots from manual sites into self-running systems that lower operational costs and increase vehicle uptime.",
+  "one_liner": "Robots that run autonomous depots for autonomous fleets.",
+  "team_size": 4,
+  "industry": "Industrials",
+  "subindustry": "Industrials -> Energy",
+  "launched_at": 1769119894,
+  "tags": [],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Winter 2026",
+  "status": "Active",
+  "industries": [
+    "Industrials",
+    "Energy"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/robodock",
+  "api": "https://devasheeshg.github.io/yc-api/batches/winter-2026/robodock.json",
+  "year_founded": 2025,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/robodock-tech/",
+  "x_url": "",
+  "fb_url": null,
+  "cb_url": "https://www.crunchbase.com/organization/robodock",
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/8d6ce96c0e4a1cbd7e0458649e2af7fa551e2bfb.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Gustaf Alstromer",
+    "url": "https://www.ycombinator.com/people/gustaf-alstromer"
+  },
+  "founders": [
+    {
+      "user_id": 3028822,
+      "full_name": "Zinny Weli",
+      "title": "Founder/CEO",
+      "founder_bio": "Zinny Weli is co-founder and CEO of RoboDock.\n\nShe previously led autonomous drone charging infrastructure at Zipline and developed the charging system for Amazon’s home robot, while advancing robotic manipulation R&D for next-generation products. Her expertise spans real-world robotic deployment, from perception-driven manipulation to production-scale hardware systems.\n\nZinny holds a BSME from the University of Michigan (top 1%) and an MSME (Robotics) from Stanford University.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/zinnyweli",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/c0039cb5b55365da303f8a7705618e0582295f15.jpg"
+    },
+    {
+      "user_id": 2727198,
+      "full_name": "Celine Wang",
+      "title": "Founder/CTO",
+      "founder_bio": "Celine Wang is the co-founder and CTO of RoboDock. \n\nPreviously, she was a senior mechatronics engineer at Plus, integrating actuator and sensor systems to enable autonomous semi-trucks. Her background includes deep field engineering across rural Indonesia, UNESCO heritage sites in Peru, and wildlife reserves in China. She holds B.S. and M.S. degrees in mechanical engineering from Stanford and brings a builder’s mindset shaped by years of deploying complex systems.\n\nwww.celinewang.me",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/celinewang16/",
+      "x_url": "https://x.com/nicenewgal",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/667c8724147a8dd0b061978f60c1546417ae464b.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 97957,
+      "title": "RoboDock: Autonomous Depots for Autonomous Fleets",
+      "tagline": "Robots that automate depot operations for AV fleets.",
+      "body": "**TL;DR:** Autonomous vehicles are scaling fast, but the depots that charge, inspect, and operate them are still manual. RoboDock automates charging and vehicle inspections so fleets can finally be end-to-end autonomous.\n\n<https://youtu.be/hNc56Z1-Ojs>\n\n🚧 **The problem**\n\nAutonomous vehicles are no longer the bottleneck. **Infrastructure is.**\n\nBy 2035, there will be \\~76M autonomous vehicles globally, and the AV market is expected to grow from \\~$200B today to \\~$3T.\n\nYet the depots that power these fleets are still manually run. If you were to go watch one, you’d be shocked at how many people it takes to maintain the vehicles.\n\nToday, AV and EV fleet depots rely on people to:\n\n* Plug and unplug vehicles into chargers\n* Catch missed or failed charge events\n* Manually inspect vehicles before and after deployment\n* Maintain road-readiness under tight turnaround times\n\nThis breaks the autonomy loop.\n\nThe pain these fleets experience?\n\n* \\~$900k per depot per year in charging labor and overhead\n* Redundant chargers and vehicles to compensate for human error\n* 2–3 year timelines and $8M+ CapEx just to build new depots\n* Vehicle downtime from missed issues and reactive maintenance (up to $650k per depot per year) → less time making money on the road\n\n**Autonomous fleets can drive themselves, but they still can’t operate themselves.**\n\n![uploaded image](/media/?type=post&id=97957&key=user_uploads/2727198/c431cd46-f80c-45da-982a-55bbc39ea137)\n\n✅ **The solution**\n\n**RoboDock is building autonomous depots for autonomous fleets.**\n\nWe deploy a robotic system that:\n\n* Physically plugs vehicles into chargers\n* Verifies successful charge initiation\n* Performs automated post-trip vehicle inspections every time a vehicle returns\n\nOur system works with **existing depots, existing chargers, and any vehicle type**. No layout changes and no rebuilds necessary.\n\nCharging and inspections become:\n\n* Fully autonomous\n* Safe and consistent\n* Closed-loop and self-optimizing\n\nWe’re turning depots from manual cost centers into **self-running infrastructure.**\n\n**🧠 Why RoboDock**\n\n* **Hardware-first autonomy**: We automate the physical work that actually limits fleet scale\n* **Robotic charging**: No humans, no missed plugs, no idle vehicles\n* **Safety-first inspections**: Vision + thermal sensing catch issues humans can’t see consistently\n* **Retrofit, not rebuild**: Deploy into live depots with zero operational disruption\n* **Designed for scale**: Every vehicle, every return, every day improves the system\n\nThis is how autonomy actually becomes autonomous.\n\n**👩🏾‍🔧👩🏻‍💻 Our team**\n\nWe’ve spent our engineering careers building real-world autonomy. We met seven years ago at Stanford, when Zinny was Celine’s TA.\n\n**Zinny Weli — CEO & Co-Founder**\n\nLed design and deployment of autonomous charging systems for electric drones at Zipline, and designed the charging system for Amazon's first home robot and its advanced robotics manipulation platform.\n\n**Celine Wang — CTO & Co-Founder**\n\nFormer vehicle platform engineer at Plus, where she retrofitted autonomous systems onto semi-truck fleets by integrating mechanical, electrical, and software stacks end-to-end. \n\nTogether, we bring deep experience deploying autonomy where it actually breaks: the real world.\n\n![uploaded image](/media/?type=post&id=97957&key=user_uploads/2727198/78d912fd-def0-446f-91a6-d14d86babb5b)\n\n**🙏 Our ask**\n\nWe’re onboarding early pilot partners and would love introductions to:\n\n* AV & EV fleet operators\n* Infrastructure, parking, and depot operations team\n* Ports, logistics yards, and large fleet facilities\n* Hardware and systems minded investors thinking about autonomy at scale\n* Robotics/computer vision engineers\n\nIf you’re thinking about how fleets operate, we should talk! Email [zinny@robodock.tech](mailto:zinny@robodock.tech) or [celine@robodock.tech](mailto:celine@robodock.tech).",
+      "url": "https://www.ycombinator.com/launches/PTx-robodock-autonomous-depots-for-autonomous-fleets",
+      "votes": 13,
+      "created_at": "2026-02-19T15:09:01.755Z"
+    }
+  ]
+}

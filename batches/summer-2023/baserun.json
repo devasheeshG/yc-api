@@ -1,0 +1,87 @@
+{
+  "id": 28999,
+  "name": "Baserun",
+  "slug": "baserun",
+  "former_names": [
+    "Mochi Labs",
+    "baserun.ai"
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/690380b4e86d38cde32c248c69764afbcf933aed.png",
+  "website": "https://baserun.ai",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "LLMs are incredibly powerful, but latency, cost, and unpredictable outputs have made productionizing LLM features challenging. Baserun is a testing and observability platform that helps AI teams streamline their development cycle from identifying an issue to evaluating their solution, so that teams ship faster with confidence.",
+  "one_liner": "Observability and evaluation platform for LLM apps.",
+  "team_size": 2,
+  "industry": "B2B",
+  "subindustry": "B2B -> Engineering, Product and Design",
+  "launched_at": 1691548192,
+  "tags": [
+    "AIOps",
+    "Artificial Intelligence",
+    "Developer Tools",
+    "B2B",
+    "AI"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Summer 2023",
+  "status": "Active",
+  "industries": [
+    "B2B",
+    "Engineering, Product and Design"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/baserun",
+  "api": "https://devasheeshg.github.io/yc-api/batches/summer-2023/baserun.json",
+  "year_founded": 2023,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/baserun",
+  "x_url": "https://twitter.com/baserunai",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": "https://github.com/baserun-ai",
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/690380b4e86d38cde32c248c69764afbcf933aed.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Harj Taggar",
+    "url": "https://www.ycombinator.com/people/harj-taggar"
+  },
+  "founders": [
+    {
+      "user_id": 1038083,
+      "full_name": "Effy Zhang",
+      "title": "Founder",
+      "founder_bio": "Building something new",
+      "is_active": true,
+      "linkedin_url": "https://linkedin.com/in/effyz",
+      "x_url": "https://twitter.com/effyyzhang",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/a25255d1e49c35b1b85e203afd7a6c0c205da71a.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 74004,
+      "title": "baserun.ai: Ship LLM features with confidence 💪💪💪",
+      "tagline": "A testing platform for LLM apps. ",
+      "body": "**TL:DR:** [baserun.ai](http://baserun.ai) is a testing platform for LLM apps. From prompt playground to end-to-end tests, baserun helps you ship your LLM apps with confidence and speed.\n\n## **The problem:**\n\n**Productionizing LLM features is hard. 🥲**\n\n1. It's difficult to judge which combination of model, configurations, and prompts performs better.\n2. It's challenging to debug complex workflows that mix chained prompts and other 3rd party API calls.\n3. It's hard to understand the progression of app performance over time.\n\n![uploaded image](/media/?type=post&id=74004&key=user_uploads/1038083/cef4bc61-ae39-4dc0-b0ca-f763861c4e97)\n\n## **Our solution:**\n\n**Gain insights into your LLM features within seconds**\n\nInstall baserun SDK and immediately gain insights into your LLM features and agents during testing, and monitor their behavior in production.\n\n**Full visibility into your end-to-end tests & user journey**\n\nVisualize the precise sequence of calls, duration, and cost, along with the inputs and outputs at each stage, encompassing both custom functions and third-party API calls.\n\n**Intuitive and flexible UI for evaluating and debugging**\n\nEffortlessly compare test runs side by side, directly edit prompts, and rerun tests from the UI.\n\n![uploaded image](/media/?type=post&id=74004&key=user_uploads/1038083/87f4df81-dd31-49b5-aeb0-5d5b51f7e504)\n\n**Collaborative workspace for teams**\n\nReview results, experiment and iterate on prompts, and build test datasets with your whole team. All prompts and test results are version-controlled.\n\n![uploaded image](/media/?type=post&id=74004&key=user_uploads/1038083/3cd2684f-04b3-4835-ac39-c27ba810a69f)\n\n**Our Asks**\n\n* Try [baserun](https://baserun.ai/welcome) and give us some feedback! [Book a 15-minute call](https://calendly.com/effy-zhang/baserun-onboarding-call) with us. We’d love to hear about what you are building and help you get onboarded.\n* You can follow us on [Twitter](https://twitter.com/baserunai) or [LinkedIn](https://www.linkedin.com/company/baserun), or email us at [hello@baserun.ai](mailto:hello@baserun.ai)",
+      "url": "https://www.ycombinator.com/launches/JFc-baserun-ai-ship-llm-features-with-confidence",
+      "votes": 161,
+      "created_at": "2023-08-10T19:17:49.128Z"
+    }
+  ]
+}

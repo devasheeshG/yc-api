@@ -1,0 +1,89 @@
+{
+  "id": 29355,
+  "name": "NanoCorp",
+  "slug": "nanocorp",
+  "former_names": [
+    "phospho"
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/4d7970f5f9c344788556040b8a81a00a576fcef8.png",
+  "website": "https://nanocorp.so",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "NanoCorp is the platform to create and run autonomous companies. In just one prompt, get an autonomous company run by an agent that maximizes revenues while trying to avoid bankruptcy with no human intervention.",
+  "one_liner": "Autonomous Companies Run by AI Working While You Sleep.",
+  "team_size": 1,
+  "industry": "Consumer",
+  "subindustry": "Consumer",
+  "launched_at": 1704472093,
+  "tags": [
+    "AI"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Winter 2024",
+  "status": "Active",
+  "industries": [
+    "Consumer"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/nanocorp",
+  "api": "https://devasheeshg.github.io/yc-api/batches/winter-2024/nanocorp.json",
+  "year_founded": 2023,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "",
+  "x_url": "https://x.com/NanoCorpHQ",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/4d7970f5f9c344788556040b8a81a00a576fcef8.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [
+    "https://bookface-images.s3.us-west-2.amazonaws.com/attachments/1a6ce2e302233fe2301b69fc03170ddca8e095ae.png"
+  ],
+  "primary_partner": {
+    "name": "Nicolas Dessaigne",
+    "url": "https://www.ycombinator.com/people/nicolas-dessaigne"
+  },
+  "founders": [
+    {
+      "user_id": 1345093,
+      "full_name": "Pierre-Louis Biojout",
+      "title": "Founder/CTO",
+      "founder_bio": "CTO @ phospho, Applied Maths and CS (X2019) @ École Polytechnique",
+      "is_active": true,
+      "linkedin_url": "https://linkedin.com/in/pierre-louis-biojout-9509741aa",
+      "x_url": "https://twitter.com/PLBiojout",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/8452046c9b6162d9fe107b7b6d69e518808a4d95.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [
+    {
+      "title": "Elaia and YCombinator back Phospho with €1.7M for GenAI application monitoring - Tech.eu",
+      "url": "https://tech.eu/2024/01/17/elaia-and-ycombinator-back-phospho-with-1-7m-for-genai-application-monitoring/",
+      "date": "Jan 17, 2024"
+    }
+  ],
+  "launches": [
+    {
+      "id": 90566,
+      "title": "phospho: give a brain to your robot",
+      "tagline": "phospho enables software engineers to train and build with the latest robotics AI models, even on low cost hardware.",
+      "body": "**TL;DR**: phospho enables software engineers to train and build with the latest robotics AI models, even on low-cost hardware. Companies like NVIDIA, Hitachi, [rerun.io](http://rerun.io) and [comma.ai](http://comma.ai) use phospho to control robots intuitively, train advanced models and push the frontier of AI robotics.\n\nhttps://youtu.be/72EOUeDMUYc?feature=shared\n\nImagine asking ChatGPT “What should my robot do next?” with a picture of what your robot sees attached. Add some bells and whistles, and you have VLAs (Vision Language Action models), the latest AI robotics architecture.\n\nVLAs reach never-seen-before levels of generalization, which could finally bring robots out of factories and into our homes. “The ChatGPT moment for general robotics is just around the corner” (Jensen Huang, CEO of Nvidia).\n\nSo why aren’t VLAs more popular in robotics?\n\n# The problem\n\n![uploaded image](/media/?type=post&id=90566&key=user_uploads/1345093/14eb12de-bee4-4dd6-8cc8-c84257b14b5c)\n\nFirst, let’s find some data to train your model. Guess what: even if you find public datasets, they likely won’t work for your specific robot and setup. So you’ll need to use some software for humans to control the robots and collect this specific data. Of course, such software usually doesn’t exist or doesn’t work. Today, controllers are built from scratch for every project, by engineers, for engineers.\n\nSecond, you train the model. This is where you shine.\n\nThird, now that you have trained a model, you can’t “just run” your tinkered AI model in a lab on a $20,000 robot arm. You need a lot of software glue to make robots move. For example, powering on a robot can take up to 10 minutes, and keeping it idle requires dozens of specific instructions to avoid breakdowns.\n\nOverall, we found that the traditional robotics software stack is too specific to the available hardware, too closed source, and too prohibitively expensive to reproduce robotics research papers. This is because every robotics team, from garage hobbyists to giants like Figure, Tesla, and Physical Intelligence, build their stacks from scratch and won’t share them.\n\nNobody works together. Robots still suck. How can we reach physical superintelligence with this absurd stack?\n\n# Our solution\n\nhttps://www.youtube.com/shorts/q7f3XKadKxQ\n\nWe believe robotics is too important to let roboticists do it alone. Robotics is the next step in our civilization, and every human brain should be able to help us reach this goal. Building an intelligent robot should feel as fun as vibe-coding a web app.\n\nThat’s why we are releasing phosphobot, an open-source app to control robots intuitively and train the most powerful AI models for the cheapest robots possible.\n\nWe handle the piping and nitty-gritty, so you can focus on what matters: making your robots do cool things.\n\nphosphobot is written in Python and TypeScript, with software engineers in mind. It’s just another API, with a nice frontend, that you can “pip install” and connect to your stack.\n\nIn the coming weeks, the plan is to support even more affordable and capable robots, let you train even more advanced AI models, and keep the app simple enough so it’s still fun.\n\n# Key features\n\n* 🕹️ Control your robot with a keyboard, a leader arm, a Meta Quest headset or via API\n* 📹 Teleoperate robots to record datasets in LeRobot dataset format\n* 🤖 Train SOTA action models like ACT, gr00t n1 or Pi0\n* 🔥 Use action models to control robots\n* 🌐 Connect remotely to your robots\n* 💻 Run on any OS (macOS, Linux and Windows)\n* 🦾 Compatible with the SO-100, SO-101, WX-250 and AgileX Piper\n* 🔧 Extend it with your own robots and cameras\n\n## Train your first robotic action model today\n\nGo to our Github repo ([phospho-app/phosphobot](https://github.com/phospho-app/phosphobot)) and get started in minutes.\n\nDon’t have a robot? Order one here: [robots.phospho.ai](http://robots.phospho.ai)\n\nWant to integrate custom robots, train more complex models or have a specific request? Contact us at [contact@phospho.ai](mailto:contact@phospho.ai).",
+      "url": "https://www.ycombinator.com/launches/NYk-phospho-give-a-brain-to-your-robot",
+      "votes": 12,
+      "created_at": "2025-05-20T21:21:44.627Z"
+    }
+  ]
+}

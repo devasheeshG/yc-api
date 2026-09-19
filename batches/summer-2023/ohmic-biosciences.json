@@ -1,0 +1,91 @@
+{
+  "id": 28794,
+  "name": "Ohmic Biosciences",
+  "slug": "ohmic-biosciences",
+  "former_names": [],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/5b68cb6a90af9c37176d63232ab7f6372925388d.png",
+  "website": "https://ohmicbiosciences.com/",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "Pests and pathogens cost the world hundreds of billions of dollars every year. Existing technologies like agrochemicals are no longer working. Ohmic Biosciences uses protein engineering to design resistance genes for crops that are robust to pathogen evolution.",
+  "one_liner": "Genetically engineering plants for disease resistance.",
+  "team_size": 2,
+  "industry": "Industrials",
+  "subindustry": "Industrials -> Agriculture",
+  "launched_at": 1689702500,
+  "tags": [
+    "Synthetic Biology",
+    "Biotech",
+    "Climate",
+    "Agriculture",
+    "Genetic Engineering"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Summer 2023",
+  "status": "Active",
+  "industries": [
+    "Industrials",
+    "Agriculture"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/ohmic-biosciences",
+  "api": "https://devasheeshg.github.io/yc-api/batches/summer-2023/ohmic-biosciences.json",
+  "year_founded": 2021,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/ohmic-biosciences",
+  "x_url": "",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/5b68cb6a90af9c37176d63232ab7f6372925388d.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": null,
+  "founders": [
+    {
+      "user_id": 1293563,
+      "full_name": "PJ Steiner",
+      "title": "Founder",
+      "founder_bio": "I'm a protein engineer, synthetic biologist, and computer scientist. I studied computer science at MIT (SB/MEng) and then synthetic biology at Cambridge (PhD) and UCSD (postdoc). After two years as a scientist at Bolt Threads engineering yeast for protein production, I moved to the University of Colorado Boulder to work on a DARPA project using protein engineering to turn plants into chemical biosensors. My co-founder Matt and I founded Ohmic to make plants resistant to disease.",
+      "is_active": true,
+      "linkedin_url": "https://linkedin.com/in/pjsteiner",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/ffbbe4cdd117cdb5d1833d399a417f33612afa78.jpg"
+    },
+    {
+      "user_id": 1350610,
+      "full_name": "Matthew Bedewitz",
+      "title": "Founder",
+      "founder_bio": "I'm a plant biochemist with experience in protein engineering, genetics and analytical chemistry. I studied Horticulture Science (BS), and then Plant Breeding, Genetics, and Biotechnology (PhD) at Michigan State where I characterized enzymes in tropane alkaloid production for nerve agent antidotes and stimulants (including cocaine). That work led me to a DARPA protein engineering project where I met my cofounder, PJ, and we decided to use our skills to tackle crop disease resistance.",
+      "is_active": true,
+      "linkedin_url": "https://linkedin.com/in/matthew-bedewitz-915848239",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/8a7b8411e8a6c8a66af0dd9bada25c96e6f74894.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 73380,
+      "title": "Ohmic Biosciences: Genetically engineering disease-resistant plants",
+      "tagline": "We use protein engineering to create resistance traits for any disease in any plant.",
+      "body": "**TL;DR:** Ohmic Biosciences genetically engineers plants to make them resistant to disease. Our first product is a soybean resistant to a parasite that causes over $1.5B of yearly damage in the US alone.\n\n**The Problem**\n\nPlant diseases cost the world more than $200B every year. Climate change and trade globalization are accelerating the problem, but existing solutions are failing. Today, crop diseases are controlled in two ways:\n\nAgrochemicals are slow and expensive to commercialize. Once pathogens evolve resistance to them, they are useless. Many are being taken off the market and it is increasingly difficult to get new products approved.\n\nGenetic resistance traits are a better solution - no spraying - but are plagued by a basic tradeoff: they usually either work really well but are easy for pathogens to evolve around, or are robust to pathogen evolution but don't work so well.\n\nThis comes down to a basic limitation of plant breeding and biotechnology as practiced today: both amount to hoping the gene you want already exists in nature and embarking on a fishing expedition to find it. Sometimes that works, but there's no reason to believe that genes useful for industrial agriculture will have evolved naturally.\n\n**The Solution**\n\nOhmic Biosciences is taking a different approach. We are protein engineers. We know what traits we want; instead of hoping nature already made them, we're engineering them ourselves.\n\nPlant pathogens have a difficult job. To even start infecting a plant they need to breach the plant's tough cell wall and disable its innate immune system. They do all of this by secreting a whole suite of effector proteins that attack the plant in various ways. We engineer proteins that inhibit those effectors, effectively defanging plant diseases.\n\nWe're starting by focusing on soybean cyst nematode (SCN), a tiny parasitic worm that has completely infested the US and causes >$1.5B in yield loss every year. That number is probably an underestimate, because SCN is an insidious root parasite that rarely causes visible above-ground symptoms - just yield loss.\n\n![uploaded image](/media/?type=post&id=73380&key=user_uploads/1293563/79777d2d-a15c-4669-9d68-5cf2a36c8fcf)\n\n_Above: soybean cyst nematode infection on soybean roots._\n\n**About Us**\n\nWe met as postdocs at the University of Colorado Boulder where we worked together for 2.5 years on [**engineering plant hormone receptors**](https://www.nature.com/articles/s41587-022-01364-5) into biosensors. Before that, PJ worked in CS and synthetic biology and Matt worked in plant genetics and biochemistry.\n\n**Ask**\n\nPlease get in touch if you or anyone you know is interested in protein engineering for agriculture! Find us on LinkedIn [here.](https://www.linkedin.com/company/ohmic-biosciences/)",
+      "url": "https://www.ycombinator.com/launches/J5Y-ohmic-biosciences-genetically-engineering-disease-resistant-plants",
+      "votes": 43,
+      "created_at": "2023-07-28T19:41:51.431Z"
+    }
+  ]
+}

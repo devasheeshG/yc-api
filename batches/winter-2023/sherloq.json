@@ -1,0 +1,103 @@
+{
+  "id": 27950,
+  "name": "Sherloq",
+  "slug": "sherloq",
+  "former_names": [],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/303c40c74b1c65d00ba6f772b138135819922051.png",
+  "website": "http://sherloqdata.io/",
+  "all_locations": "Tel Aviv-Yafo, Tel Aviv District, Israel",
+  "long_description": "Companies use Sherloq as their single source of truth for their SQL on top of their existing data stack.\r\n\r\nToday, data-driven organizations face the challenge of giving 2 of their data analysts the same task and getting 2 totally different results from their analysis. Although SQL is the #1 coding language for data analysis, it is still managed independently on each user's internal documentation tools (notepads, Slack channels, or docx files).\r\nCreating one source of truth is an ongoing difficult process, that’s done manually and takes time to implement. \r\n\r\nUsing our plugin on top of our user's existing query editors, companies can now manage their SQL code in one place.\r\nWe ourselves are data users and we've built Sherloq to fit the exact needs of data teams, becoming a true alternative to the way SQL is being managed today.",
+  "one_liner": "One place for all your queries, directly on your SQL editor",
+  "team_size": 6,
+  "industry": "B2B",
+  "subindustry": "B2B -> Analytics",
+  "launched_at": 1674678598,
+  "tags": [
+    "Generative AI",
+    "SaaS",
+    "B2B",
+    "Analytics",
+    "AI"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Winter 2023",
+  "status": "Active",
+  "industries": [
+    "B2B",
+    "Analytics"
+  ],
+  "regions": [
+    "Israel",
+    "Middle East and North Africa"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/sherloq",
+  "api": "https://devasheeshg.github.io/yc-api/batches/winter-2023/sherloq.json",
+  "year_founded": 2022,
+  "city": "Tel Aviv-Yafo",
+  "country": "IL",
+  "linkedin_url": "https://www.linkedin.com/company/sherloqdata/",
+  "x_url": "",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/303c40c74b1c65d00ba6f772b138135819922051.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Nicolas Dessaigne",
+    "url": "https://www.ycombinator.com/people/nicolas-dessaigne"
+  },
+  "founders": [
+    {
+      "user_id": 1123455,
+      "full_name": "Noy Twerski",
+      "title": "Founder",
+      "founder_bio": "",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/noy-twerski/",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/570c4a28e170147e7cb796378e38c01f2c50fae6.jpg"
+    },
+    {
+      "user_id": 1151605,
+      "full_name": "Nadav Gutman",
+      "title": "Founder",
+      "founder_bio": "",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/nadav-gutman-213637197/",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/b9cb3e2af8dea6b2bb119e12ba856d4670db2257.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 85978,
+      "title": "⚡🔍 Sherloq - Collaborative SQL Repository for the GenAI Era",
+      "tagline": "One place for all your queries, directly on your SQL editor.",
+      "body": "![uploaded image](/media/?type=post&id=85978&key=user_uploads/1123455/7c98d785-c103-402b-a746-f59818b533ce)\n\n# 🔍 **TL;DR**\n\n**Sherloq is the one place for all your queries, on top of your SQL editor.**\n\nUsing the SQL repository plugin, you can collaboratively organize, save, and share your SQL code, without leaving your editor and IDE.\n\nThat means you can actually focus on what matters most - analyzing the data and creating meaningful insights for your org.\n\n[Try it out yourself for free!](https://www.sherloqdata.io/?utm_source=yc&utm_medium=launch&utm_campaign=post)\n\nWatch our quick [demo:](https://www.youtube.com/watch?v=u2Rddj6Cekg)\n\n# 🔍 **The Problem**\n\nIf you use SQL, you probably know that we **spend too much time on managing, sharing and finding our code**, and that SQL is scattered between different tools, docs, dashboards, people and even notepads.\n\nYou might relate to one of these:\n\n* Trying to remember when was the last time you ran a SQL on some ‘users_v2’ legacy table, and who might know where it is.\n* Clone, update, commit, merge, push just to change the field from “revenue” to “revenue_new.\n* Asking the company-wide Slack channel if someone can send the most updated CASE WHEN condition we talked about in yesterday’s daily.\n* Going over 252 queries in the ‘All Queries’ Docs file with cmd+f: ‘prospect_id’.\n* Getting asked from the product / marketing team, for the 6th time that week, how to filter out all ‘cohort week 7’ users from the company dashboard.\n* Waiting 45 minutes just to retrieve the custom SQL from your Tableau Dashboard for that CTE you use.\n\n**Common alternatives today aren’t built for this type of code, making each person independently manage their day-to-day SQL work.**\n\nIn the GenAI Era, SQL is becoming even more popular as everyone inside the org can easily access and use it.\n\nCompanies are actually generating more and more data and SQL, and are looking for ways to democratize it and make data as self-served as possible.\n\n_The result of all of this?_ Spending too much time on creating inconsistent SQL, that leads to inconsistent data.\n\n### \n\n![uploaded image](/media/?type=post&id=85978&key=user_uploads/1123455/1d75b0a1-ddf6-4cd6-89d4-9e1f1c30b4cb)\n\n### 🔍 **Enter Sherloq**\n\nAs we ourselves were (and are still) heavy SQL users, we were looking to create a solution that gives us just the right amount of order we need.\n\n**Something that’s actually built for this type of code:**\n\n* **Hassle free:** More organized than a Notepad / Slack channel / Notion Page, but doesn’t require any process that’s an overkill like Github.\n* **Zero integration:** It sits on top of our SQL editor but doesn’t require any integrations or have access to the data itself.\n* **Collaborative**: It has a shared workspace but also has a place for our own personal work.\n* **Built for the entire org:** Can be used by people that love data and understand it, and by those that don’t.\n\n![uploaded image](/media/?type=post&id=85978&key=user_uploads/1123455/38198f2b-19af-4822-8189-3c2fbaee628c)\n\n# 🔍 **Using Sherloq you’ll be able to:**\n\n* 📁 Create a shared SQL repository for your org and team\n* 💻 Manage your code better with reusable SQL snippets and templates\n* 🕶️ Understand your code faster with AI SQL ERD diagrams, formatting, _(coming soon)_ SQL errors explained, and query optimization\n* 📝 AI auto-documentation including SQL version control, generated query names and descriptions\n\n# 🔍 **How it works**\n\n1. Download for free the [Chrome Extension](https://chromewebstore.google.com/detail/sherloq-save-share-simpli/kjndilccgkemibeimjdefmjkhfddobfk?utm_source=yc&utm_medium=launch&utm_campaign=post) / [JetBrains Plugin](https://plugins.jetbrains.com/plugin/22201-sherloq--save-share--simplify-your-queries?utm_source=yc&utm_medium=launch&utm_campaign=post) (VSCode _coming soon_!)\n2. Save your SQL, create folders, and share them with your team\n3. Use for free until you reach the saved SQL limit\n\n**✨Together with our customers and users, we’ve just finished a complete product redesign! ✨**\n\n**We’ve added new capabilities and made it 10x faster and easier to use.**\n\n🥳 To celebrate, we’re giving our YC community a [15% discount, try it out.](https://www.sherloqdata.io/?utm_source=yc&utm_medium=launch&utm_campaign=post) \\\nWe’re freemium, so you only start paying after reaching the saved SQL limit :)\n\nWe’d really love to hear what you think, check it out for free and let us know!\n\n[hello@sherloqdata.io](mailto:hello@sherloqdata.io)\n\n![uploaded image](/media/?type=post&id=85978&key=user_uploads/1123455/d8598246-3821-4165-aab2-51d4d62610fc)\n\n",
+      "url": "https://www.ycombinator.com/launches/MMk-sherloq-collaborative-sql-repository-for-the-genai-era",
+      "votes": 117,
+      "created_at": "2024-12-02T18:51:37.240Z"
+    },
+    {
+      "id": 69960,
+      "title": "⚡🔍 Sherloq: Collaborate and manage your SQL data with the power of Gen AI",
+      "tagline": "One place for all your data team's SQL queries on top of your existing data stack",
+      "body": "**TL;DR**\n\nSherloq is a collaborative SQL repository, like Github for data teams, that creates one source of truth for all company queries using Gen AI. With Sherloq, different data analysts are asked the same question and they always give the same answer.\n\n—\n\nHey everyone 👋 We’re [Alon (CTO)](https://www.linkedin.com/in/alon-greenfield/), [Noy (CEO)](https://www.linkedin.com/in/noy-twerski/) and [Nadav (COO).](https://www.linkedin.com/in/nadav-gutman-213637197/)\n\nWe’re happy to introduce Sherloq - the first collaborative SQL repository for data users.\n\n![uploaded image](/media/?type=post&id=69960&key=user_uploads/1123455/7976b4f2-b95d-4fbd-865a-c978601fe8cc)\n\n### 🔍 **Inconsistencies in data analysis destroy business value, and costs orgs more than $15M per year**\n\nWith the adoption of the modern data stack and while companies store endless amounts of data, data teams (analysts, scientists and engineers) spend 60% of their time trying to find, understand and manage their data. \n\n**Data analysis is still very subjective and dependent on the user creating it:**\n\n* Company business metrics are interpreted differently by each data user, and have various definitions \n* Structured data consist of hundreds of out-of-date fields with similar names, making it almost impossible to determine the most relevant fields for a particular analysis\n* Since SQL code is stored locally on each data user’s computer and isn’t reused, every data user writes code their own way regardless of company best practices\n\nThe rise of Gen AI changes the rules of the game, as now it enables us to take data explainability to a new level of clarity, a capability we only wish we had a few months back.\n\nAs we ourselves were data users in companies such as Microsoft, Walkme and 8200 the Cyber Intelligence Unit at the IDF, we’ve experienced this problem firsthand and waited for a proper solution for too long. \n\n### 🔍 **Enter Sherloq**\n\nSherloq is a collaborative SQL repository that creates one source of truth for all company queries. \n\nWe change the paradigm of how queries are stored and analyzed, with our new product capabilities and technology:\n\n1. **Zero integration and hassle free** - our add-on to any query editor, and our own SQL parser algorithm, extract the relevant queries automatically, so we know the data scheme, queries, users and usage in a click\n2. **Tailor-made data knowledge base per organization** - based on our fine tuned LLMs and by analyzing each company’s own data usage and costs, we automatically create a knowledge base within hours of download\n\nUsing Sherloq, organizations increase their data teams’ productivity by 2x and save 60% of their direct data management costs.\n\n![uploaded image](/media/?type=post&id=69960&key=user_uploads/1123455/cb7564dc-3337-4063-9f88-b8b0788e04c1)\n\n### **🔍 **[**Try**](https://chrome.google.com/webstore/detail/sherloq-save-share-simpli/kjndilccgkemibeimjdefmjkhfddobfk)** our Google Chrome Extension**\n\nIf you’re tired of adding more and more tools to your data stack (like we were), our add-on sits on top of your **existing** query editor, so you don’t need to change anything in your current workflow. \n\n**After downloading, you’ll be able to:**\n\n* 🛫 Use auto-complete and co-pilot features on your own query editor\n* 🪄 Automatically generate descriptions and names for each query and table\n* 📁 Create SQL version control and shared folders\n* ⏱️ Based on our metadata analysis, you’ll get to know best practices for optimizing your queries and database\n\n### 🔍 **Don't waste another minute on unreliable data analysis**\n\n[Download](https://chrome.google.com/webstore/detail/sherloq-save-share-simpli/kjndilccgkemibeimjdefmjkhfddobfk) Sherloq! We’re offering a 50% discount until Demo Day.\n\nWe’d love to hear your thoughts and feedback, so feel free to schedule [here](https://calendly.com/noy-twerski/30-minute-meeting) or reach out to us - [noy@sherloqdata.io](mailto:noy@sherloqdata.io)",
+      "url": "https://www.ycombinator.com/launches/ICO-sherloq-collaborate-and-manage-your-sql-data-with-the-power-of-gen-ai",
+      "votes": 136,
+      "created_at": "2023-03-06T14:46:00.148Z"
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "id": 32618,
+  "name": "Click",
+  "slug": "click",
+  "former_names": [],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/3eb675c91f3464d134cd3d9c18712ad08bea23bb.png",
+  "website": "https://www.useclick.ai",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "Click builds useful services that meet users right inside ChatGPT and Claude.\r\nWe're starting with a research service that provides external context that the built-in web search misses - like data from professional & social platforms, marketplaces, financials, and more. \r\nIt makes research on people & companies even deeper with specialized, source-backed context beyond built-in web search, while enabling new tasks like comparing live flight fares right inside the chat.",
+  "one_liner": "Research services for ChatGPT and Claude",
+  "team_size": 1,
+  "industry": "B2B",
+  "subindustry": "B2B -> Analytics",
+  "launched_at": 1785963586,
+  "tags": [
+    "Artificial Intelligence",
+    "API",
+    "Infrastructure"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Summer 2026",
+  "status": "Active",
+  "industries": [
+    "B2B",
+    "Analytics"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/click",
+  "api": "https://devasheeshg.github.io/yc-api/batches/summer-2026/click.json",
+  "year_founded": 2026,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/use-click",
+  "x_url": "https://x.com/useclick_ai",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": "https://github.com/use-click/",
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/3eb675c91f3464d134cd3d9c18712ad08bea23bb.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Harshita Arora",
+    "url": "https://www.ycombinator.com/people/harshita-arora"
+  },
+  "founders": [
+    {
+      "user_id": 1995988,
+      "full_name": "Aditya Asgaonkar",
+      "title": "Founder/CEO",
+      "founder_bio": "Founder at Click. Previously helped build Ethereum's distributed system (proof-of-stake) as an open-source contributor at the Ethereum Foundation.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/aditya-asgaonkar/",
+      "x_url": "https://x.com/adiasg",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/1d21221f7711a082e5615e10bb6d4053d1be4205.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 110141,
+      "title": "Click - Research services inside Codex & Claude",
+      "tagline": "Live external context from professional & social platforms, marketplaces, financials, and more.",
+      "body": "**TLDR:** Click is an MCP that provides extensive research connectors to give external context that the built-in web search misses.\n\n![uploaded image](/media/?type=post&id=110141&key=user_uploads/1995988/91aff538-41b1-4c8b-96eb-c1bf84bd5e47)\n\n**Video:** <https://youtu.be/IgcAy86cPls>\n\n**Problem:**\n\nClick is largely motivated by a change in my own behavior:\n\nCodex &amp; Claude are amazing products. I live inside their surface now - using it more than my browser. It feels like home, to the point that I’m annoyed to have to leave. Most often, I’m stepping outside to do external-facing tasks, like researching my leads on LinkedIn or comparing flight options. I want my agents to do these tasks as well.\n\nCurrently, those can’t be completed because their gateway to the world (in-built web search) has limited access. Often the agent also asks to use the browser with a logged-in session, which I’m uncomfortable with.\n\nSo, I built the connector layer that I wish existed.\n\n**Solution:**\n\nClick’s MCP is a single installation that provides your agent with an ever-growing bundle of the best data connectors. The current set of connectors enable new use cases inside the chat, like:\n\n* Lead research &amp; enrichment\n* Researching ad campaigns from competitors\n* Analyzing sentiment around a topic across social media\n* Planning travel with live fares &amp; availability\n\n**Team:**\n\nI’m Aditya, the founder of Click. Previously, I helped build Ethereum, with a vision to create a platform that enables new kinds of applications. \n\nNow, I’m focusing on the next application platform - the AI chat surface. Click builds useful services that meet users right inside the conversation. I’m building one trusted service at a time, and research is the first one.",
+      "url": "https://www.ycombinator.com/launches/SeT-click-research-services-inside-codex-claude",
+      "votes": 10,
+      "created_at": "2026-08-12T19:00:01.957Z"
+    }
+  ]
+}

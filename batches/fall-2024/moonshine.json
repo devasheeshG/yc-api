@@ -1,0 +1,90 @@
+{
+  "id": 30079,
+  "name": "Moonshine",
+  "slug": "moonshine",
+  "former_names": [],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/b168616a2e0ef551e8a1be5dfe50f9700bc903c0.png",
+  "website": "https://usemoonshine.com",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "",
+  "one_liner": "Extending AI to interact with the real world",
+  "team_size": 2,
+  "industry": "B2B",
+  "subindustry": "B2B",
+  "launched_at": 1729546253,
+  "tags": [
+    "Artificial Intelligence",
+    "Machine Learning"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Fall 2024",
+  "status": "Active",
+  "industries": [
+    "B2B"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/moonshine",
+  "api": "https://devasheeshg.github.io/yc-api/batches/fall-2024/moonshine.json",
+  "year_founded": 2024,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/usemoonshine",
+  "x_url": "https://x.com/sipmoonshine",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": "https://github.com/distillmoonshine",
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/b168616a2e0ef551e8a1be5dfe50f9700bc903c0.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Pete Koomen",
+    "url": "https://www.ycombinator.com/people/pete-koomen"
+  },
+  "founders": [
+    {
+      "user_id": 1225142,
+      "full_name": "Ganesh Pimpale",
+      "title": "Founder",
+      "founder_bio": "Formally @ Formlabs and SRI",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/ganesh-pimpale/",
+      "x_url": "https://x.com/Ganeshmpimpale",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/7464b0deca497cd6785c5288e75aef53d705340e.jpg"
+    },
+    {
+      "user_id": 1215698,
+      "full_name": "Harsha Gundala",
+      "title": "Founder",
+      "founder_bio": "Working on making video easier to use. Love technology and creative tooling!",
+      "is_active": true,
+      "linkedin_url": "https://linkedin.com/in/harshagundala",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/fd623544db34fc7302a093e1951da2bfc5886193.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 85752,
+      "title": "Moonshine: Video Understanding APIs",
+      "tagline": "Your eyes and ears to understand every pixel in a video.",
+      "body": "**TLDR:** Video is hard. Moonshine watches your videos for you allowing you to understand thousands of hours of video through an API you can build into your own tools. Checkout [api.usemoonshine.com](http://api.usemoonshine.com)\n\n<https://youtu.be/oO332ljpqvs>\n\n# Video never has to suck again\n\nCurrent video analysis focuses on transcriptions and captioning services that miss the majority of valuable data that videos have to offer. Moonshine allows you to harness the full potential of a video by understanding it like a human would. Best of all, you can build it right into your own applications.\n\nTo get started:\n\n```\npip install magic-moonshine\n```\n\nRefer to the [docs](https://api.usemoonshine.com/docs) to get up and running in just 3 lines of code!\n\n# Features\n\nMoonshine has two main ways to interact with videos: search and inquire.\n\n**Search**\n\nMoonshine’s search allows you to find a needle in a haystack of footage. Using natural language, you can find any moment in thousands of hours of footage. Through the API, running a search is one line of code:\n\n```\nmoonshine.search([your_index], 'blue car driving across the street')\n```\n\nAnd it returns all the relevant clips to your search.\n\n**Inquire**\n\nInquire allows you to ask questions about your videos. It draws upon the context from every video in your index and answers with the same knowledge as a human who watched them all would have:\n\n```\nmoonshine.inquire([your_index], 'How many times did a blue car drive across the street ')\n```\n\nAnd it will return the number of times a blue car drove across the street.\n\n# The Ask\n\n* Checkout [api.usemoonshine.com](http://api.usemoonshine.com) and start building with free credits!\n* Start ups can qualify for up to $10,000 in credits to get started!\n* If you want a demo reach out to us over email (contact info below)\n\nContact: [team@usemoonshine.com](mailto:team@usemoonshine.com)\\\nX: <https://x.com/usemoonshine>\\\nDiscord: <https://discord.gg/aCgjDqbJNr>\\\nLinkedIn: <https://www.linkedin.com/company/usemoonshine>\n\n![uploaded image](/media/?type=post&id=85752&key=user_uploads/1225142/1e432b01-f96f-4cb5-8b27-8ca160ff5746)\n\n",
+      "url": "https://www.ycombinator.com/launches/MJ6-moonshine-video-understanding-apis",
+      "votes": 30,
+      "created_at": "2024-11-26T18:35:38.537Z"
+    }
+  ]
+}

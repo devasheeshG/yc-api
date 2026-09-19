@@ -1,0 +1,118 @@
+{
+  "id": 32168,
+  "name": "Synapse Semiconductor",
+  "slug": "synapse-semiconductor",
+  "former_names": [],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/37650fbbc73ea1ea0b895fd819e93836825d1520.png",
+  "website": "https://synapsesemi.org",
+  "all_locations": "Durham, NC, USA",
+  "long_description": "We want to push machines to where humans cant go. \r\nPresidential early career award winning Duke Semiconductor ECE Faculty Tania Roy and Sanjeev Chauhan are building a frontier semiconductor research lab. Their focus is on solving physical AI challenges from the semiconductor device level and building products around the moat of impossible to copy innovation. Their first work is on a new vision sensor that can run neural network filters right in the camera pixels and only collect data that machines care about. As physical AI develops, machines needs to understand the world around them if they aim to interact with them.\r\n",
+  "one_liner": "New semiconductors that merge compute and vision",
+  "team_size": 2,
+  "industry": "Industrials",
+  "subindustry": "Industrials",
+  "launched_at": 1785109099,
+  "tags": [
+    "Edge Computing Semiconductors",
+    "Hard Tech",
+    "Robotics",
+    "Defense",
+    "AI"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": true,
+  "nonprofit": false,
+  "batch": "Summer 2026",
+  "status": "Active",
+  "industries": [
+    "Industrials"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/synapse-semiconductor",
+  "api": "https://devasheeshg.github.io/yc-api/batches/summer-2026/synapse-semiconductor.json",
+  "year_founded": null,
+  "city": "Durham",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/synapse-semiconductor/",
+  "x_url": "https://x.com/SynapseSemi",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/37650fbbc73ea1ea0b895fd819e93836825d1520.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Tyler Bosmeny",
+    "url": "https://www.ycombinator.com/people/tyler-bosmeny"
+  },
+  "founders": [
+    {
+      "user_id": 1383306,
+      "full_name": "Sanjeev Chauhan",
+      "title": "Founder/CEO",
+      "founder_bio": "I like to break things and build things\n\n2 IEDM publications, 3 years Seed Stage VC, scaled deaplearning.com to 300k users, Stanford Linear Accelerator National Lab ML Researcher, IPAC 1st Author",
+      "is_active": true,
+      "linkedin_url": "https://linkedin.com/in/sanjeev-one",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/ed6ba01db61837566ea4234d9d7ec34da6e0e4c1.jpg"
+    },
+    {
+      "user_id": 3682345,
+      "full_name": "Tania Roy",
+      "title": "Founder",
+      "founder_bio": "Academic by profession, entrepreneur by nature. Love to control the user interface to reality.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/tania-roy-ba272b24/",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/22e5f2656b361e2b88271fcd468b9cc08d0ba91f.jpg"
+    }
+  ],
+  "jobs": [
+    {
+      "id": 106484,
+      "title": "Founding Engineer - RETINA",
+      "url": "https://www.ycombinator.com/companies/synapse-semiconductor/jobs/T7HUC4J-founding-engineer-retina",
+      "location": "San Francisco, CA, US / Durham, NC, US",
+      "type": "Full-time",
+      "role": "Engineering",
+      "role_type": "Electrical",
+      "salary_range": "$1M",
+      "equity_range": "10.00%",
+      "experience": "1+ years",
+      "visa": "US citizen/visa only",
+      "skills": [
+        "Verilog",
+        "VHDL",
+        "Computer Vision"
+      ]
+    }
+  ],
+  "news": [
+    {
+      "title": "Duke ECE Hardware Startup Selected for Y Combinator | Duke Pratt School of Engineering",
+      "url": "https://pratt.duke.edu/news/synapse-semiconductor-y-combinator/",
+      "date": "Jun 08, 2026"
+    }
+  ],
+  "launches": [
+    {
+      "id": 107691,
+      "title": "Synapse Semiconductor: We put a neural network inside the camera pixel.",
+      "tagline": "Semiconductors to push machines where humans cant go.",
+      "body": "<https://youtu.be/oHKXAeiH79Y>\n\n**TLDR:** Synapse Semiconductor builds image sensors that process **AI on the sensor** itself. Each pixel captures light and runs neural-network computation in the same device, replacing the need for a GPU while cutting the power and latency of edge vision.\\\n\\\n\\\nA camera has no use by itself. Its value is only when its information gets evaluated. How can a camera that only has value when combined with a GPU support local intelligence? GPUs will get better, yet the fundamental problem is the separation of the camera and the GPU. Solving that separation will unlock bountiful innovation in machine perception. \n\n**RETINA: a chip designed like the human retina which runs neural network operations in the camera pixel.** \n\n\\\nWe have compressed the whole edge AI vision hardware stack into **one wafer**. CNNS, VLMS, etc can run on just one chip that senses light. Our compute transistors are also the same photosensors that see light. There is no longer separation between compute (Nvidia Jetson Nano) and a camera (RealSense Depth Camera). \\\n\\\nIf you are building robotic perception, drones, and vision systems for physical AI —> [book.synapsesemi.org](http://book.synapsesemi.org)\n\n![uploaded image](/media/?type=post&id=107691&key=user_uploads/1383306/bfa2012d-1c74-47b5-bdad-3127e94cd8bf)\n\n",
+      "url": "https://www.ycombinator.com/launches/S0x-synapse-semiconductor-we-put-a-neural-network-inside-the-camera-pixel",
+      "votes": 56,
+      "created_at": "2026-07-27T03:40:58.979Z"
+    }
+  ]
+}

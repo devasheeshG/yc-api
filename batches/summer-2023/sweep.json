@@ -1,0 +1,126 @@
+{
+  "id": 29013,
+  "name": "Sweep",
+  "slug": "sweep",
+  "former_names": [],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/885d2be670d352a8d396403e926005fd75ce210b.png",
+  "website": "https://sweep.dev/",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "Use your favorite JetBrains IDE without compromising on AI. Sweep is the best autocomplete and agent in JetBrains: https://plugins.jetbrains.com/plugin/26860-sweep-ai",
+  "one_liner": "The best AI coding assistant for JetBrains",
+  "team_size": 4,
+  "industry": "B2B",
+  "subindustry": "B2B -> Engineering, Product and Design",
+  "launched_at": 1684527271,
+  "tags": [
+    "Artificial Intelligence",
+    "Developer Tools",
+    "AI Assistant"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": true,
+  "nonprofit": false,
+  "batch": "Summer 2023",
+  "status": "Active",
+  "industries": [
+    "B2B",
+    "Engineering, Product and Design"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/sweep",
+  "api": "https://devasheeshg.github.io/yc-api/batches/summer-2023/sweep.json",
+  "year_founded": 2023,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/95674114/",
+  "x_url": "https://twitter.com/sweep__ai",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": "https://github.com/sweepai",
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/885d2be670d352a8d396403e926005fd75ce210b.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Diana Hu",
+    "url": "https://www.ycombinator.com/people/diana-hu"
+  },
+  "founders": [
+    {
+      "user_id": 1214046,
+      "full_name": "William Zeng",
+      "title": "Founder",
+      "founder_bio": "Youngest senior MLE at Roblox. Cumulative 10% CTR lift on games search.\nStats/ML at CMU.\n\nBuilding Sweep, a Cursor alternative for JetBrains.",
+      "is_active": true,
+      "linkedin_url": "https://linkedin.com/in/william-zeng",
+      "x_url": "https://twitter.com/wwzeng1",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/6ea14a52703b3d5d1bc15d010a715f0a74723845.jpg"
+    },
+    {
+      "user_id": 1343086,
+      "full_name": "Kevin Lu",
+      "title": "Founder",
+      "founder_bio": "Previously: top of class at UWaterloo CS, built the first ML-based skin weight generation model for UGC avatars at Roblox, and NLP researcher on common sense reasoning (in the Bart/T5 era). Now building an AI-powered junior dev and interested in code gen and automated code gen orchestration.",
+      "is_active": true,
+      "linkedin_url": "https://linkedin.com/in/kevinlu1248",
+      "x_url": "https://twitter.com/kevinlu1248",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/d02bf268302d4c204515d4fc779599313b25875c.jpg"
+    }
+  ],
+  "jobs": [
+    {
+      "id": 65798,
+      "title": "ML Research Engineer (Full-time / Internship)",
+      "url": "https://www.ycombinator.com/companies/sweep/jobs/8dUn406-ml-research-engineer-full-time-internship",
+      "location": "San Francisco, CA, US",
+      "type": "Full-time",
+      "role": "Engineering",
+      "role_type": "Full stack",
+      "salary_range": "$180K - $300K",
+      "equity_range": "1.00% - 4.97%",
+      "experience": "Any (new grads ok)",
+      "visa": "Will sponsor",
+      "skills": [
+        "Kotlin",
+        "Python",
+        "Machine Learning"
+      ]
+    }
+  ],
+  "news": [
+    {
+      "title": "Sweep aims to automate basic dev tasks using large language models | TechCrunch",
+      "url": "https://techcrunch.com/2023/11/02/sweep-aims-to-automate-basic-dev-tasks-using-large-language-models/",
+      "date": "Nov 02, 2023"
+    }
+  ],
+  "launches": [
+    {
+      "id": 95289,
+      "title": "🧹 Sweep: Cursor Tab for JetBrains IDEs",
+      "tagline": "Meet Sweep, the smartest autocomplete for IntelliJ, PyCharm, and Android Studio",
+      "body": "Hi everyone! We’re [Kevin](https://x.com/kevinlu1248) and [William](https://www.linkedin.com/in/william-zeng/), and we’re building a better AI autocomplete for JetBrains.\n\n**TLDR;** [Sweep](https://sweep.dev/) is a free autocomplete plugin for IntelliJ / PyCharm that is smarter than Cursor Tab.\n\n![uploaded image](/media/?type=post&id=95289&key=user_uploads/1214046/931362f2-24b9-4d5b-aa4b-778cd98aacbc)\n\n# The Problem\n\nDevelopers writing production-grade code need tools like autocomplete that keep them in the loop rather than agents that take them out of it.\\\n\\\nJetBrains users don’t have an AI autocomplete that works well. The leading plugins are not products that users love:\n\n![uploaded image](/media/?type=post&id=95289&key=user_uploads/1214046/f78574aa-2dfe-4d58-82a5-a284b8ca1147)\n\n![uploaded image](/media/?type=post&id=95289&key=user_uploads/1214046/72d4698c-42be-404b-9d1b-9b6d9869d201)\n\n# Our Solution: Sweep 🧹\n\nWe’re building tools for professional developers using JetBrains, starting with super fast autocomplete that’s smarter than Cursor Tab.\\\n\\\nWe’ve fine-tuned our own LLM with a custom inference stack that suggests completions with sub-100ms latency. Unlike Cursor, we use the JetBrains code index to let our autocomplete model navigate your code like a real developer.\n\nWe’ve heard great feedback so far:\n\n_“AI is finally useful inside JetBrains — thanks to sweep. **A million times better than JetBrains’ own tools.**” -_ Christiaan Bilthof, CTO @ Leat\n\n_“Compared to every other tool and IDE I've used, **it's incredibly fast** - so much so that the next tab predictions and autocomplete feel instantaneous.” -_ Ashkan Aghdai, Staff Engineer @ Amplitude\\\n\\\n_“I used to have to choose between using PyCharm and good autocomplete - but with Sweep, I get both. **It’s a massive productivity boost.**”_ **-** Josiah Parappally, Staff Engineer @ Ramp\n\n## Why we built Sweep\n\nWe originally started Sweep in 2023 to build an AI junior developer, which hit 7.6k stars on GitHub.\n\nWe soon realized that this was many years out. Instead, we decided to build a coding assistant that developers could use today. Kevin and I have been JetBrains users since we were in college, and we were surprised something like this didn’t exist yet.\n\nWe built Sweep for ourselves, and use Sweep Tab hundreds of times a day to write production-grade code instead of vibe coding. It’s boosted our productivity by 2x and we hope you like it too. \\\n\\\nTry Sweep for free here: https://plugins.jetbrains.com/plugin/26860-sweep-ai-autocomplete--coding-agent",
+      "url": "https://www.ycombinator.com/launches/Omv-sweep-cursor-tab-for-jetbrains-ides",
+      "votes": 12,
+      "created_at": "2025-11-07T17:26:45.064Z"
+    },
+    {
+      "id": 88553,
+      "title": "Sweep: JetBrains AI Coding Assistant",
+      "tagline": "We built a self-hostable AI coding assistant for JetBrains IDEs",
+      "body": "Hey everyone, we’re [William](https://www.linkedin.com/in/william-zeng/) and [Kevin](https://www.linkedin.com/in/kevinlu1248/) - cofounders of Sweep 🧹\n\n\\\n**TLDR**: JetBrains developers have to choose between **the latest AI features** **and the** **IDE that they love**. Sweep is an AI coding assistant purpose-built for JetBrains that **gives you both**.\n\nAsk: Is your team using JetBrains? Reach out at [william@sweep.dev](mailto:william@sweep.dev) or [book a demo here](https://calendly.com/william-sweep/introductory-call?month=2025-03).\n\n# Problem\n\nCurrent AI coding assistants have poor support for JetBrains. GitHub Copilot in JetBrains is a far cry from VSCode, and other plugins aren’t much better.\\\n\\\nWe’ve heard:\n\n_“I love the features in JetBrains as an IDE but the AI sucks”_\n\n_“I see all of these AI coding assistants on VSCode, and I check if they support JetBrains, and I always get disappointed when they don’t.”_\n\nEngineers who don’t use AI coding assistants are less productive. But engineers who have to switch away from their IDEs are even less productive.\n\n# Solution\n\nSweep makes it easy to use AI in JetBrains with our self-hostable plugin. **Engineers keep their existing code editor with no data leakage and the** **best AI features**.\\\n\\\nWe make it seamless to give the AI context. Sweep automatically sees the current file and codebase, saving you precious clicks.\n\n![uploaded image](/media/?type=post&id=88553&key=user_uploads/1214046/6211a915-8ad9-480b-8aa9-7389f4e99fbb)\n\nBy clicking “apply” you can seamlessly review and integrate Sweep’s code changes.\n\n![uploaded image](/media/?type=post&id=88553&key=user_uploads/1214046/a4ff0a2c-7b7a-48dc-9507-9785c19e0020)\n\nFinally, we can **deploy everything on-prem**, unlike other AI coding assistants that take your code and data.\n\n# Our Ask 🙏\n\n**Sweep is available on the JetBrains marketplace today.** Try us out here: [docs.sweep.dev](http://docs.sweep.dev).\\\nTo learn more about our on-prem deployments you can [book a call here](https://calendly.com/william-sweep/introductory-call?month=2025-03).\n\n# About Us\n\nWilliam (CEO) was promoted to a Senior ML Engineer at Roblox in 1.5 years. Kevin (CTO) was the top student in his class at U Waterloo for Math and CS. Martin (Founding Team) was working as a Senior Engineer before he graduated college.\n\nWe’re all big IntelliJ and PyCharm users, and we previously built an AI coding agent with >7k github stars.\n\n![uploaded image](/media/?type=post&id=88553&key=user_uploads/1214046/e0e011e5-25b6-4c72-9ecd-bd9262ee905a)\n\n![uploaded image](/media/?type=post&id=88553&key=user_uploads/1214046/85da6a03-4c5b-4961-9bd2-656ba38c4dbc)\n\n",
+      "url": "https://www.ycombinator.com/launches/N2H-sweep-jetbrains-ai-coding-assistant",
+      "votes": 31,
+      "created_at": "2025-03-13T03:43:07.329Z"
+    }
+  ]
+}

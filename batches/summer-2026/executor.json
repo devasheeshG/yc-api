@@ -1,0 +1,82 @@
+{
+  "id": 32947,
+  "name": "Executor",
+  "slug": "executor",
+  "former_names": [],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/948ce8964e024f509e8d2c3db33ab94f3acb5b17.png",
+  "website": "https://executor.sh",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "Executor.sh is an MCP gateway that allows you to sign in once to all of your integrations and use them with any client.\r\n\r\nWe enable you to connect your agents to anything (MCP, GraphQL, OpenAPI) so regardless of what you're trying to connect agents to you're able to.\r\n\r\nIf you're trying to scale agents to access all of your production services, data, etc, you need Executor as a unified management layer.",
+  "one_liner": "The open source tool gateway",
+  "team_size": 1,
+  "industry": "B2B",
+  "subindustry": "B2B -> Infrastructure",
+  "launched_at": 1785345907,
+  "tags": [
+    "AIOps",
+    "Artificial Intelligence",
+    "SaaS"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Summer 2026",
+  "status": "Active",
+  "industries": [
+    "B2B",
+    "Infrastructure"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/executor",
+  "api": "https://devasheeshg.github.io/yc-api/batches/summer-2026/executor.json",
+  "year_founded": 2026,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "",
+  "x_url": "https://x.com/executorsh",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/948ce8964e024f509e8d2c3db33ab94f3acb5b17.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Jared Friedman",
+    "url": "https://www.ycombinator.com/people/jared-friedman"
+  },
+  "founders": [
+    {
+      "user_id": 1133501,
+      "full_name": "Rhys Sullivan",
+      "title": "Founder",
+      "founder_bio": "Founder at Executor, enabling your to connect every agent to anything. Previously Software Engineer at Vercel, at Microsoft, Raven Software, and Epic Games.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/rhyssullivan/",
+      "x_url": "https://x.com/RhysSullivan",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/91ca30bf14b18325ab55dfdc29d5723fab969094.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 108331,
+      "title": "Executor — One place to connect your agents to everything",
+      "tagline": "Connect your tools once and every agent has them, with permissions you control",
+      "body": "**TL;DR:** Executor is your tool gateway. Connect every service and every account once, set per-tool permissions, and any MCP-compatible agent (Claude Code, Codex, Cursor, whatever ships next) reaches all of it through one endpoint. Try it at [executor.sh](https://executor.sh).\n\nhttps://youtu.be/NWYFpDW02Dw\n\n## The problem\n\nYou don't have one agent anymore. You have Claude Code, a ChatGPT account, Cursor, maybe a box in the corner running jobs overnight. Three problems follow:\n\n1. **Every agent wants its own OAuth into everything.** You connect your calendar to the tenth harness in a slightly different way, tokens expire, connectors deprecate, and each agent is missing something when you need it.\n2. **Most connectors stop at one account per service.** One Google login means your agent sees your work calendar or your personal one, never both. Your flights land in one inbox, your meetings in the other, and no agent can reason over your actual day.\n3. **Permissions are an afterthought.** Once an agent holds a token, it can do anything that token allows. Giving an agent your email shouldn't mean trusting it to never hit delete.\n\n## What Executor does\n\nConnect once in Executor, and sever all the one-off connections.\n\nEach integration gets credentials plus a per-tool policy: **always allowed**, **needs approval**, or **blocked**. Point any MCP-compatible agent at Executor and it has everything.\n\n- **All your accounts, not just one.** Accounts are connections: work and personal Gmail, two calendars, a staging and a production Stripe, side by side. Every agent sees all of them.\n- **One tool shape.** MCP, OpenAPI, and GraphQL integrations all normalize into a consistent name + schema. 1,600+ tools collapse into a single ~1k-token surface instead of ~280k tokens of tool definitions.\n- **Safe by default.** Executor preserves operation semantics (GET vs DELETE, destructive hints, GraphQL mutations), so agents auto-run safe operations and ask before risky ones.\n- **Sandboxed execution.** Tool calls run in an isolated JavaScript sandbox; secrets are injected host-side, so the model never sees a raw token.\n- **Team-ready.** Per-user and shared credentials. Onboard the team once, not per agent per person.\n\nBecause enforcement lives in Executor rather than in any agent framework, you can adopt whatever new agent ships next week without re-thinking data access. You keep everything first-party connectors offer and gain what they don't: multiple accounts per service, per-tool policies, and one place to see and revoke access.\n\n## How to use it\n\n- **Local:** open-source (MIT) desktop app and CLI, everything stays on your machine\n- **Self-hosted:** a Dockerfile that lets your team own all its data\n- **Executor Cloud:** hosted, nothing to manage\n\n## Traction\n\n- 2,800+ GitHub stars, ~14k npm downloads/week, ~3,000 users on the local version\n\n## Background\n\nSolo technical founder, previously at Vercel. Before Executor I built [answeroverflow.com](https://www.answeroverflow.com) and grew it to 1.5M monthly users as a solo dev, bootstrapped.\n\n## Asks\n\n1. **Try it and tell me where it breaks.** [executor.sh](https://executor.sh) has a \"Copy prompt\" setup you can paste into your agent to get started.\n2. **Intros:** if your team (or one you know) is drowning in per-agent integration setup, I'd love an intro: rhys@executor.sh\n3. **Star the repo:** [github.com/UsefulSoftwareCo/executor](https://github.com/UsefulSoftwareCo/executor)\n4. **Want a walkthrough?** Grab a time: [cal.com/rhys-sullivan/executor-chat](https://cal.com/rhys-sullivan/executor-chat)\n",
+      "url": "https://www.ycombinator.com/launches/SBH-executor-one-place-to-connect-your-agents-to-everything",
+      "votes": 8,
+      "created_at": "2026-08-04T15:41:42.736Z"
+    }
+  ]
+}

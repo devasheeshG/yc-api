@@ -1,0 +1,113 @@
+{
+  "id": 31327,
+  "name": "Korso",
+  "slug": "korso",
+  "former_names": [
+    "Korso",
+    "afterfive"
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/fd03c9be7cf358b8834377c00d3855af56d7f064.png",
+  "website": "https://korsoai.com/",
+  "all_locations": "Irvine, CA, USA",
+  "long_description": "",
+  "one_liner": "The last assistant you'll need",
+  "team_size": 3,
+  "industry": "B2B",
+  "subindustry": "B2B",
+  "launched_at": 1773339255,
+  "tags": [
+    "SaaS",
+    "B2B",
+    "AI Assistant"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Spring 2026",
+  "status": "Active",
+  "industries": [
+    "B2B"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/korso",
+  "api": "https://devasheeshg.github.io/yc-api/batches/spring-2026/korso.json",
+  "year_founded": 2026,
+  "city": "Irvine",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/afterfiveclub/",
+  "x_url": "",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": "https://github.com/Korso-AI",
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/fd03c9be7cf358b8834377c00d3855af56d7f064.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Andrew Miklas",
+    "url": "https://www.ycombinator.com/people/andrew-miklas"
+  },
+  "founders": [
+    {
+      "user_id": 2729430,
+      "full_name": "Martin Pan",
+      "title": "Founder/CEO",
+      "founder_bio": "Prev automations engineer at General Motors & Mechanical Engineering/Robotics at Penn (BS + MS). ",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/martin-pan-42bb20244/",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/85870d12f50755c7890332288e7e94ce79bdb74b.jpg"
+    },
+    {
+      "user_id": 2913136,
+      "full_name": "Daichi Hiraoka",
+      "title": "Founder/COO",
+      "founder_bio": "Prev electrical engineer at TransSiP & Electrical Engineering/CS at Penn",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/daichihiraoka",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/e2a48d384b37fba7e908c7e617b90be1c70977b2.jpg"
+    },
+    {
+      "user_id": 2344196,
+      "full_name": "Alex Liu",
+      "title": "Founder/CTO",
+      "founder_bio": "prev swe @ gatekeeper systems & cs + applied math student at notre dame.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/alexdliu7",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/29eebfe7b2d2107a29ac7ff0d9655c139f32b8d6.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 105011,
+      "title": "Korso Shepherd: Tooling for all your agents to collaborate",
+      "tagline": "So you never have to worry about conflicts again!",
+      "body": "**TL;DR:** Tired of merge conflicts or agents rewriting each other’s code? Shepherd is an open-source tool that allows all of your agents, across sessions and team members, to communicate and collaborate while they work.\n\nThis was a problem that our team encountered while developing our previous product, so we built an internal tool to solve it.\n\nWe've been using Shepherd internally for a while now. It was initially more of an experiment to see how well agents could collaborate, but as we've iterated on it, it's become genuinely useful. Not only does it save us the time and effort of fixing rewrites/conflicts, but we've actually been seeing cleaner and more robust code from our agents, simply because they're able to see what their fellow agents are working on and communicate to write code that works together.\n\nShepherd is a simple MCP that you install once and your agents use forever with zero human input. We provide a dashboard where you can see what you and all of your team members' agents have being doing, in addition to a chat where you and your agents can send announcements, either directly or to everyone.\n\nYou can sign up at <https://korsoai.com/shepherd> and it'll guide you through the process. The repo is also open-source at <https://github.com/Korso-AI/Shepherd>, and you can read more about Shepherd at korsoai.com/docs. Try it on our platform or even host it yourself.\n\n**Free** for all YC companies - we're currently in open beta, so we'd love for you to give it a try and share any feedback you have!\\\n\\\nShepherd in action:\n\n![uploaded image](/media/?type=post&id=105011&key=user_uploads/2729430/a8674cb3-9106-455c-ba95-43da06d29ba0)\n\n![uploaded image](/media/?type=post&id=105011&key=user_uploads/2729430/bb1ac2f5-2bf1-4448-8aab-f0eac1e5f182)\n\n",
+      "url": "https://www.ycombinator.com/launches/RJj-korso-shepherd-tooling-for-all-your-agents-to-collaborate",
+      "votes": 6,
+      "created_at": "2026-07-08T21:30:46.820Z"
+    },
+    {
+      "id": 101233,
+      "title": "Korso - AI Agents for Manufacturing",
+      "tagline": "Automate any workflow and gain insights across your ERP, CRM, MES, Inbox, and more.",
+      "body": "**TL;DR:** Manufacturers are buried in coordination work that is well-defined but still manual. Korso lets them describe those workflows in plain English and deploy autonomous agents that run across their existing systems.\n\n## <https://www.youtube.com/watch?v=yOKcdERZe9w>\n\n## The Problem\n\nOps, procurement, and customer-service teams at manufacturers spend the majority of their week on coordination that is clearly defined but never automated:\n\n* Chasing suppliers for ETAs\n* Processing incoming RFQs\n* Routing PO approvals\n* Monitoring order exceptions\n* Following up on stale opportunities\n\nEvery person on one of these teams could write down the exact steps for the task, and yet nobody has built the thing that runs those steps reliably at scale.\n\nThe tooling around this problem is stuck in a half-finished state:\n\n* ERP-native AI answers questions about ERP data; it doesn’t execute the multi-step workflows that sit between the data and the work getting done.\n* Middleware and iPaaS connect systems but don’t make decisions.\n* Systems integrators custom-code workflows that take quarters to ship and break when a process changes.\n* BPO adds variable cost and leaves the underlying coordination fragmented.\n\nWhen a manufacturer adds a product line, a new region, or a new supplier tier, the coordination load scales linearly, and so does the headcount requirement.\n\n## What We Built\n\nAtlas generates autonomous coordination agents on top of the ERP systems manufacturers already run: SAP, NetSuite, Oracle, Dynamics 365, Odoo, and more.\n\nA workflow that today takes a quarter to custom-code or an ongoing BPO contract to staff is, on Atlas, described in plain English and stood up as a running agent in hours.\n\n## Workflows We’ve Deployed\n\n### Procurement & Supplier Coordination\n\nChases supplier responses, confirms ETAs, routes PO approvals, and escalates exceptions before they become missed deliveries.\n\n### RFQ to Quote\n\nParses incoming RFQs from email or portal, prices against history and current cost, drafts and routes quotes for approval, and tracks through to response.\n\n### Order & Exception Handling\n\nMonitors order status across ERP and transport systems, surfaces exceptions before they escalate, and maintains a complete audit trail.\n\n### Natural Language to Workflow\n\nTurn any manual process into automation simply by prompting an agent.\\\n\\\n**Our Ask:**\n\nIf you know any manufacturer with a coordination-heavy ops or procurement team, we’d love to talk! Feel free to book a demo at [korsoai.com](https://korsoai.com) or reach out to [support@korsoai.com](https://mailto:support@korsoai.com)",
+      "url": "https://www.ycombinator.com/launches/QKn-korso-ai-agents-for-manufacturing",
+      "votes": 29,
+      "created_at": "2026-05-12T04:20:47.491Z"
+    }
+  ]
+}

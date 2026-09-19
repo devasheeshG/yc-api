@@ -1,0 +1,92 @@
+{
+  "id": 33053,
+  "name": "Shiraz AI",
+  "slug": "shiraz-ai",
+  "former_names": [],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/93d2ffb0a884b8a3781f59266189d89f4b30d975.png",
+  "website": "https://shiraz.ai",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "We deploy robots that learn new tasks from a single human demonstration in the factory. We're starting in contract manufacturing, where lines change every week and both traditional automation and today's VLAs fall over.\r\n\r\nOur founding team has 20+ years of experience in robotics. Navid was part of the core team that productized Spot at Boston Dynamics and led manipulation projects there. Before that, he was at Rethink Robotics. Mojtaba led whole-body control and manipulation efforts at Amazon Robotics and was a Research Assistant Professor at Northwestern University.",
+  "one_liner": "Robots that learn on the job",
+  "team_size": 2,
+  "industry": "Industrials",
+  "subindustry": "Industrials -> Manufacturing and Robotics",
+  "launched_at": 1786517990,
+  "tags": [
+    "Generative AI",
+    "Robotics",
+    "Manufacturing"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Summer 2026",
+  "status": "Active",
+  "industries": [
+    "Industrials",
+    "Manufacturing and Robotics"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/shiraz-ai",
+  "api": "https://devasheeshg.github.io/yc-api/batches/summer-2026/shiraz-ai.json",
+  "year_founded": 2026,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/shiraz-ai/",
+  "x_url": "https://x.com/shiraz_ai",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/93d2ffb0a884b8a3781f59266189d89f4b30d975.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Jon Xu",
+    "url": "https://www.ycombinator.com/people/jon-xu"
+  },
+  "founders": [
+    {
+      "user_id": 585458,
+      "full_name": "Navid Aghasadeghi",
+      "title": "Founder/CEO",
+      "founder_bio": "Founder at Shiraz AI (YC S26). Previously Senior Staff Robotics Engineer at Boston Dynamics, where he was part of the core team that brought Spot from R&D to commercial deployment and led industrial manipulation. Previously Principal Robotics Engineer at Rethink Robotics, where he developed full-stack controls for Sawyer and led force control development. Also founded GenZArt, an AI consumer app that scaled to 1M users. PhD in ECE from UIUC.",
+      "is_active": true,
+      "linkedin_url": "https://linkedin.com/in/navid-aghasadeghi-356b077b",
+      "x_url": "https://x.com/realnavida",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/b08976791c20954393282468d399741e7e6a659f.jpg"
+    },
+    {
+      "user_id": 2722145,
+      "full_name": "Mojtaba Mozaffar",
+      "title": "Founder/CTO",
+      "founder_bio": "Founder at Shiraz AI. Previously Senior Applied Scientist and tech lead at Amazon Robotics, leading high-impact work in perception, policy learning, and manipulation. Before that, Research Assistant Professor at Northwestern directing AI and robotics research. PhD in Mechanical Engineering and Robotics from Northwestern.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/mojtaba-mozaffar/",
+      "x_url": "https://x.com/MozaffarMojtaba",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/2eac2883bfdf8e59573461acba516e0ea179ed74.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 110367,
+      "title": "Shiraz AI: Robots that learn on the job",
+      "tagline": "Deploy robots that learn new tasks from a single human demonstration in the factory",
+      "body": "**TL;DR:** We deploy robots that learn new tasks from a single human demonstration in the factory. A new task shows up on the floor? You just film it once on your phone and the robot picks it up. No sitting around collecting data. No engineer flying out to your site. No overnight fine-tuning. You show it, and the robot learns.\n\n<https://youtu.be/OoQvOGrycDg>\n\n**❌ The problem**\n\nManufacturing is full of constantly changing, high-mix production tasks, which are among the hardest to automate. A line that's packing one product today is building something completely different next week. Every factory owner we talk to says the same two things: they can't find enough people to do the work, and the automation solutions they've tried have been too expensive and too rigid, often ending up gathering dust in a corner.\n\n**✅ What we do**\n\nWe're developing a robot foundation model whose core capability is adapting instantly to new variations of a task. You give the model a human demonstration video as context, and it bridges the embodiment gap to execute the task itself. This in-context learning is the missing piece in today's VLA approaches, and it's what changing manufacturing environments need.\n\nWe deliver the complete system: robot hardware, foundation model, and on-site deployment. We're already deploying robots at customer sites.\n\n**👋 Who we are**\n\n![uploaded image](/media/?type=post&id=110367&key=user_uploads/585458/0832cd2d-2dfc-41b0-8de6-d29897b6c8d3)\n\nBetween the two of us, we have 20+ years of experience in robotics. Navid was part of the core team that productized Spot at Boston Dynamics and led manipulation projects there; before that, he was at Rethink Robotics. Mojtaba led whole-body control and bimanual manipulation efforts at Amazon Robotics and was a Research Assistant Professor at Northwestern University.\n\n**🙏 Our ask**\n\nDo you have a manufacturing task that needs automating, or know someone who does? Let us know and we'll automate it.\n\nReach us at: [founders@shiraz.ai](mailto:founders@shiraz.ai)",
+      "url": "https://www.ycombinator.com/launches/Si7-shiraz-ai-robots-that-learn-on-the-job",
+      "votes": 62,
+      "created_at": "2026-08-12T20:00:00.186Z"
+    }
+  ]
+}

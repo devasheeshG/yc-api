@@ -1,0 +1,86 @@
+{
+  "id": 34928,
+  "name": "Boat",
+  "slug": "boat",
+  "former_names": [
+    "Ascii box",
+    "Ascii"
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/7ab4963f9bacc76a0a31b94f8773cad5138d2dc3.png",
+  "website": "https://boat.dev",
+  "all_locations": "Paris, Île-de-France, France; Remote",
+  "long_description": "**Problem**\r\n\r\nHumans used to need laptops to do their work. Now they prompt agents instead, and those agents need computers too: always-on, in large quantities, and with unlimited capabilities. \r\n\r\nBuilding and maintaining that yourself is far from trivial.\r\n\r\n**Solution**\r\n\r\nBoat provides powerful, simple, permissive Ubuntu VMs in the cloud. In a sandbox, an agent can work for long periods on code or on knowledge work like legal, research, reporting, and auditing.\r\n\r\n**Why Boat and not any other cloud VM?**\r\n\r\n1. It is ready out of the box: every sandbox ships with a desktop, chrome, languages, docker, snapshots, and templates, plus a CLI, SDK, API, and control pane for your fleet.\r\n2. It is permissive and paradigm agnostic: any number of agents can use any number of sandboxes. Agents can run inside or use sandboxes as an external tool.\r\n3. It is expertly crafted: we manage everything from the individual CPU to the orchestration software, which makes sandboxes stable, persistent, scalable, and secure.\r\n4. It is the best performance and price in town: our CPUs rank first on HPC benchmarks, and sandboxes are typically 9x to 18x cheaper than other leading sandboxes.\r\n\r\n**Further notes**\r\n\r\nSandboxes are hosted in Europe, which keeps prices low, and more regions are coming. Unless compliance requires it, agents don't notice the region they run in.",
+  "one_liner": "The best cloud VMs for billions of agents",
+  "team_size": 3,
+  "industry": "B2B",
+  "subindustry": "B2B -> Infrastructure",
+  "launched_at": 1788174016,
+  "tags": [
+    "Developer Tools",
+    "Cloud Computing"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Fall 2026",
+  "status": "Active",
+  "industries": [
+    "B2B",
+    "Infrastructure"
+  ],
+  "regions": [
+    "France",
+    "Europe",
+    "Remote",
+    "Fully Remote"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/boat",
+  "api": "https://devasheeshg.github.io/yc-api/batches/fall-2026/boat.json",
+  "year_founded": 2024,
+  "city": "Paris",
+  "country": "FR",
+  "linkedin_url": "",
+  "x_url": "https://x.com/asciidotdev",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": "https://github.com/ariana-dot-dev",
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/7ab4963f9bacc76a0a31b94f8773cad5138d2dc3.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Andrew Miklas",
+    "url": "https://www.ycombinator.com/people/andrew-miklas"
+  },
+  "founders": [
+    {
+      "user_id": 918787,
+      "full_name": "Anicet Nougaret",
+      "title": "Founder/CEO",
+      "founder_bio": "Founder at Ascii",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/anicet-nougaret-b7846b174",
+      "x_url": "https://x.com/AniC_dev",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/898bcdab37aa50608f57c46e0d5c5c3d37cc6d5e.jpg"
+    },
+    {
+      "user_id": 4016415,
+      "full_name": "Kirill",
+      "title": "Founder/CTO",
+      "founder_bio": "co-founder @ ascii.dev",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/luaroncrew/",
+      "x_url": "https://x.com/luaroncrew",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/c0bbeeba43187ecd6dcc168dce2083337c8861c1.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": []
+}

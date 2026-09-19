@@ -1,0 +1,98 @@
+{
+  "id": 32170,
+  "name": "Gutgutgoose",
+  "slug": "gutgutgoose",
+  "former_names": [],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/3b10bdb631232584efc1a8c09e67b74f8b953437.png",
+  "website": "https://gutgutgoose.com/",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "Most data companies pay for their data. Ours pays for itself.\r\nCustomers send us a stool sample. We sequence it, build a metabolic model of that gut, and simulate whether each probiotic strain has an open niche it can colonize. We formulate the best candidates, then re-sequence 90 days later to see what actually took hold and what changed. Each cycle gives us the baseline gut, the intervention, and the outcome. At scale, the endgame is models that predict chronic disease years before symptoms.",
+  "one_liner": "We sequence your gut and build the probiotics it’s missing",
+  "team_size": 2,
+  "industry": "Healthcare",
+  "subindustry": "Healthcare",
+  "launched_at": 1785190964,
+  "tags": [
+    "Consumer",
+    "Biotech",
+    "Personalization",
+    "Health & Wellness"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Summer 2026",
+  "status": "Active",
+  "industries": [
+    "Healthcare"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/gutgutgoose",
+  "api": "https://devasheeshg.github.io/yc-api/batches/summer-2026/gutgutgoose.json",
+  "year_founded": 2026,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/gutgutgoose/",
+  "x_url": "https://x.com/Gutgutgoose",
+  "fb_url": "https://www.facebook.com/share/18ahzDMEav/?mibextid=wwXIfr",
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/3b10bdb631232584efc1a8c09e67b74f8b953437.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Tyler Bosmeny",
+    "url": "https://www.ycombinator.com/people/tyler-bosmeny"
+  },
+  "founders": [
+    {
+      "user_id": 991771,
+      "full_name": "Leon Mojarrabi",
+      "title": "Founder",
+      "founder_bio": "started university at 14, spent four years at a yc tech unicorn, then launched a pharmacy that hit $4M in revenue to fund GutGutGoose; strain-level metabolic modelling of the gut to catch disease decades early. I'm unreasonably interested in your poop's data.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/leon-moj",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/c69cb9d3ddd32f9a50e604a7cee8506f0be7a15d.jpg"
+    },
+    {
+      "user_id": 3677890,
+      "full_name": "Anis Mihrshahi",
+      "title": "Founder",
+      "founder_bio": "Youngest Math Olympiad champion in Queensland history. USQ Chancellor's Excellence Scholarship (AI and Data Science).\n\nAt GutGutGoose, I work operations behind the scenes and co-built the mechanistic algorithm behind our personalised probiotics.\n\nFun Fact: World Catan #1, Australian Powerlifting Champion, State Discus Champion, organised national conferences that brought 2000+ Australians in to think about creating meaningful change in society.\n\n",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/anis-mihrshahi-2a342a336/",
+      "x_url": "https://x.com/anismihrshahi",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/5ee2a444b14c5548c9ccc5cd1fe8814527d86097.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [
+    {
+      "title": "Meet The YC Startups Betting On What Comes Next",
+      "url": "https://www.forbes.com/sites/dariashunina/2026/09/03/meet-the-yc-startups-betting-on-what-comes-next/",
+      "date": "Sep 03, 2026"
+    }
+  ],
+  "launches": [
+    {
+      "id": 108277,
+      "title": "Gutgutgoose: Personalized probiotics",
+      "tagline": "GutGutGoose builds personalized probiotics guaranteed to colonize, then uses every retest to train models of the human gut.",
+      "body": "# TL;DR: We’ve created the last probiotic you’ll ever need - personalised, constantly improving, while also generating valuable data.\n\n### \n\n# What we do and why\n\nYour gut is the most unique part of your body, different enough that the same probiotic can work for one person and do nothing for another. Most probiotics disappoint because they’re one formula for everyone, and in any gut most of their strains never establish. GutGutGoose makes a probiotic that won’t work for any gut but yours: we sequence your microbiome, find which strains can establish in the microbes you already have, compound those into your formula, and re-sequence you weeks later to confirm they took hold.\n\nIt’s for people who’ve tried things for IBS, bloating, digestion, mood, weight or GLP-1 symptoms without luck. If it doesn’t work you get your money back, and retesting shows how your gut changed, so you know it’s not a placebo.\\\n\\\n<https://youtu.be/Cn6oGduZosc>\n\nThe innovation is accurately predicting which bacteria will live in a gut, which is extremely hard. It’s built on two peer-reviewed models, MICOM and AGORA2, and more than 7,000 metabolic reconstructions of gut bacteria, and it finds the strains that can hold in your gut’s community. On two published human cohorts, its predictions matched what actually established 84.7% and 76.7% of the time, and we reproduced the first at 78.1% ourselves. Off-the-shelf products manage under 5%. Once we can control which bacteria live where, we can run precision interventions in the gut and engineer it.\n\nWe’re a supplement today and can’t treat disease, but each cycle produces a record of one gut, one intervention, and the result. That record makes each customer’s next formula better, and across thousands of people it becomes the first longitudinal dataset of the human gut responding to known, controlled changes. Our vision is to use changes in metabolic pathways over time to predict Alzheimer’s, dementia and Parkinson’s a decade before symptoms appear.\n\n![uploaded image](/media/?type=post&id=108277&key=user_uploads/991771/50caffe3-e0c9-44e5-9212-da1bbabc0e00)\n\n# Traction\n\nWe gave a talk at an endometriosis event, and 20 of the 50 people joined our waitlist. The first night we opened paid deposits, we called five people from that list at 7:30pm. Three picked up, and we managed to get seven sign ups, they were so excited they referred and paid for their families that night. Five of the 20 referred someone else, and our traction has only grown since.\n\n# Team\n\n![uploaded image](/media/?type=post&id=108277&key=user_uploads/991771/13686614-1a12-4b14-a657-d33d042b3ee6)\n\nThe GutGutGoose founders winning the YC product pitch\n\nLeon started university at 14 and spent four years at a $3bn YC unicorn. After we started GutGutGoose, he built a pharmacy, now doing $4M a year, to fund the science behind our engine. Anis joined in September; he co-built the model, runs operations, and is the youngest ever to win Queensland’s Math Olympiad. He’s on a Chancellor’s Excellence Scholarship in AI and Data Science, and (fun fact) was once the world’s number one Catan player.\n\n# The ask\n\nWe’d love introductions to gut-health clinics, patient communities, or microbiome researchers who could help us recruit and shape the 80-person study. Email us at [admin@gutgutgoose.com](mailto:admin@gutgutgoose.com). More at [gutgutgoose.com](http://gutgutgoose.com).",
+      "url": "https://www.ycombinator.com/launches/SAP-gutgutgoose-personalized-probiotics",
+      "votes": 145,
+      "created_at": "2026-07-30T15:49:21.242Z"
+    }
+  ]
+}

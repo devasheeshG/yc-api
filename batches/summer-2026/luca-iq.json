@@ -1,0 +1,121 @@
+{
+  "id": 32848,
+  "name": "Luca IQ",
+  "slug": "luca-iq",
+  "former_names": [],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/05718bc482e46fde4208c29e7eef28f2f4b686e7.png",
+  "website": "https://lucaiq.com/",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "Luca IQ is an API for deterministic tax calculation and an IRS Authorized e-filing engine - the foundation for accounting firms and fintechs building on tax.",
+  "one_liner": "API-first tax engine for CPA firms and developers",
+  "team_size": 2,
+  "industry": "B2B",
+  "subindustry": "B2B -> Finance and Accounting",
+  "launched_at": 1785364349,
+  "tags": [
+    "B2B",
+    "API",
+    "Infrastructure",
+    "AI"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": true,
+  "nonprofit": false,
+  "batch": "Summer 2026",
+  "status": "Active",
+  "industries": [
+    "B2B",
+    "Finance and Accounting"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/luca-iq",
+  "api": "https://devasheeshg.github.io/yc-api/batches/summer-2026/luca-iq.json",
+  "year_founded": 2025,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/lucaiq",
+  "x_url": "",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/05718bc482e46fde4208c29e7eef28f2f4b686e7.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [
+    "https://bookface-images.s3.us-west-2.amazonaws.com/attachments/b7319b807eb27608540596ccef27337c2998ea22.png"
+  ],
+  "primary_partner": {
+    "name": "Jared Friedman",
+    "url": "https://www.ycombinator.com/people/jared-friedman"
+  },
+  "founders": [
+    {
+      "user_id": 2754880,
+      "full_name": "Angelo Policicchio",
+      "title": "Founder/CEO",
+      "founder_bio": "Founder at Luca IQ. CPA. Previously Equity Research Associate at Credit Suisse, Forensic Accounting at the FBI, Public Accountant at EY. MBA from Harvard Business School.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/angelo-policicchio",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/56e0986c5f092107d5de09990091ea3d9a92d763.jpg"
+    },
+    {
+      "user_id": 3101824,
+      "full_name": "Akash Sadashivapeth",
+      "title": "Founder/CTO",
+      "founder_bio": "Founder at Luca IQ. Previously Head of Data Science at Welligence Energy Analytics.\n\nStudied Data Science at Penn and an MBA from Harvard Business School.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/akash-sadashivapeth/",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/19e9446ccd10b06ab85431a7e79b07c759587087.jpg"
+    }
+  ],
+  "jobs": [
+    {
+      "id": 108815,
+      "title": "Tax Expert",
+      "url": "https://www.ycombinator.com/companies/luca-iq/jobs/VQUCBls-tax-expert",
+      "location": "Chicago, IL, US",
+      "type": "Full-time",
+      "role": "Product",
+      "role_type": null,
+      "salary_range": "$100K - $200K",
+      "equity_range": "",
+      "experience": "6+ years",
+      "visa": "US citizen/visa only",
+      "skills": []
+    }
+  ],
+  "news": [
+    {
+      "title": "Luca IQ receives IRS approval for federal 1040 e-filing",
+      "url": "https://cfotech.news/story/luca-iq-receives-irs-approval-for-federal-1040-e-filing",
+      "date": "Aug 03, 2026"
+    },
+    {
+      "title": "Tech news: Luca IQ launches with e-file approved tax engine for CPA firms | Accounting Today",
+      "url": "https://www.accountingtoday.com/list/tech-news-luca-iq-launches-with-e-file-approved-tax-engine-for-cpa-firms",
+      "date": "Jul 31, 2026"
+    }
+  ],
+  "launches": [
+    {
+      "id": 108364,
+      "title": "Luca IQ - An API for U.S. tax calculation and e-filing",
+      "tagline": "An open API, IRS-authorized e-file tax engine for CPA firms and Fintechs",
+      "body": "# \\*\\*\\*\\*\n\n**TL;DR: We're building a modern tax engine for accountants and fintechs building on tax: a deterministic tax calculation and e-filing core behind a single API, built on the IRS's official e-file infrastructure (MeF).**\n\n## A tax return is math. It should be a function call.\n\nWe're Angelo and Akash, and we built Luca IQ, a new tax engine for accounting firms. One set of inputs in, a completed, filed return out in minutes. Not bolted onto decades out desktop software.\n\nFor CPA firms, that means more returns per preparer, less spend on labor, and a clean path off 30-year-old desktop software. For the PE groups acquiring and scaling firms, it means real operating leverage on the single most labor-intensive part of the business.\n\n<https://youtu.be/IV5nl7grMxI>\n\n**The problem.** \\~95% of US firms file their returns through just four companies, and all of them were built decades ago, for the desktop, and are closed. Firms are stuck running tax season on software that can't scale with them. Every modern AI tax tool just pushes data into that same closed software it can't control. Everyone rebuilt the interface.\n\n**What we built.** A new one, and we're opening it. A key principle: AI never does the tax math. AI and human judgment set the inputs, and a deterministic engine computes the return, with a full audit trail on every number. It's either 100% correct or it's wrong, and only a deterministic engine can promise the former. For firms, that means throughput without giving up accuracy or defensibility.\n\nOur core leverage: we're an **IRS-authorized e-file provider as a Software Developer, Transmitter, and Intermediate Service Provider**, so Luca IQ doesn't just compute the return, it e-files straight to the IRS. That full path, calculation through filing, is what firms can't get from a closed engine today.\n\n**Why now.** The profession is running out of people. 300,000+ accountants have left since 2019, and \\~70% of CPAs are near retirement. At the same time, private equity is rolling up firms and pushing hard on margin. The work isn't going away. The people are, and the pressure to do more with fewer preparers has never been higher.\n\n**Who we are.** Angelo (CEO) is a CPA who worked in forensic accounting with the FBI, Wall Street, EY and spent years working at tax firms using the legacy softwares we are now replacing. Akash (CTO) was employee #1 at a fintech data-infrastructure startup and leads engineering.\n\n**What we need:**\n\n* **CPA firms who dread tax season**, We'd love 20 minutes to show you what Luca IQ does for throughput and margin. This is who we build for.\n* **PE firms rolling up accounting practices.** If tax prep labor is your biggest cost line, let's talk.\n* **Developers and fintechs** who need 1040 calculations or e-filing. The engine is one API call, and you can build on it early.\n\nReach us at [founders@lucaiq.com](mailto:founders@lucaiq.com).",
+      "url": "https://www.ycombinator.com/launches/SBo-luca-iq-an-api-for-u-s-tax-calculation-and-e-filing",
+      "votes": 4,
+      "created_at": "2026-07-31T14:01:23.291Z"
+    }
+  ]
+}

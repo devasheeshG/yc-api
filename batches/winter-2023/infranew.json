@@ -1,0 +1,116 @@
+{
+  "id": 27820,
+  "name": "infra.new",
+  "slug": "infranew",
+  "former_names": [
+    "FlowState",
+    "Inlet",
+    "launchflow",
+    "LaunchFlow",
+    "infra.new",
+    "LaunchFlow / infra.new"
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/3ba2bf3c743512b0b3cda71e1f81a113f9c1c05c.png",
+  "website": "https://infra.new",
+  "all_locations": "Remote",
+  "long_description": "Our AI agent helps teams save money and ship faster on AWS, GCP, and Azure.\r\n\r\nVisit infra.new to try free without signing up!\r\n\r\n- Generate reliable cloud configuration\r\n- View detailed cost estimates and system diagrams\r\n- Optimize everything with AI",
+  "one_liner": "AI Agent for Cloud Infrastructure",
+  "team_size": 3,
+  "industry": "B2B",
+  "subindustry": "B2B -> Infrastructure",
+  "launched_at": 1675872738,
+  "tags": [
+    "Artificial Intelligence",
+    "Developer Tools",
+    "SaaS",
+    "B2B",
+    "Cloud Computing"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Winter 2023",
+  "status": "Active",
+  "industries": [
+    "B2B",
+    "Infrastructure"
+  ],
+  "regions": [
+    "Remote",
+    "Fully Remote"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/infranew",
+  "api": "https://devasheeshg.github.io/yc-api/batches/winter-2023/infranew.json",
+  "year_founded": 2023,
+  "city": null,
+  "country": null,
+  "linkedin_url": "https://www.linkedin.com/company/launchflow-inc/",
+  "x_url": "",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": "https://github.com/launchflow",
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/3ba2bf3c743512b0b3cda71e1f81a113f9c1c05c.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": null,
+  "founders": [
+    {
+      "user_id": 808343,
+      "full_name": "Josh Tanke",
+      "title": "Founder",
+      "founder_bio": "Previously worked as a Software Engineer at Google[X] and Verily (formerly Google Life Sciences).",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/josh-tanke",
+      "x_url": "https://twitter.com/josh_tanke",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/c649a4cb7f132d3ad990c2cf36ec6e0f0b9d86ff.jpg"
+    },
+    {
+      "user_id": 1215135,
+      "full_name": "Caleb Van Dyke",
+      "title": "Founder",
+      "founder_bio": "Co-Founder of LaunchFlow. Previously worked as a Lead Software Engineer at various teams across Alphabet. Built primary ML infra platform for real-time data processing at Verily (formerly Google Life Sciences). Enabled real-time document prediction at Google Drive. ",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/caleb-van-dyke/",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/d8c86bf93d66cdd48e755c9855dacb252d647572.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 87449,
+      "title": "Infra.new - AI Copilot for Cloud DevOps",
+      "tagline": "Save money and ship faster on AWS, GCP, and Azure.",
+      "body": "**tl;dr**\\\n[**infra.new**](http://infra.new) is an AI DevTool that configures your cloud infrastructure for cost and security.\n\nYou can set up your entire infrastructure stack from scratch or import your GitHub repository to optimize your existing configuration.\n\nTry it now at [**infra.new**](http://infra.new) – no signup required.\n\n![uploaded image](/media/?type=post&id=87449&key=user_uploads/808343/7e666222-a6d5-4cc8-887e-f341c3d8f10d)\n\n---\n\n---\n\n—\n\n---\n\nHey everyone,\n\nWe're excited to launch [**infra.new**](http://infra.new)—your AI Copilot for Cloud DevOps.\n\nThe cloud is complicated. Engineering teams waste countless hours configuring Infrastructure as Code, CI/CD pipelines, and other related DevOps tooling. Whether you’re setting up a new project or reconfiguring an existing one, manual configurations and unpredictable costs can slow you down.\n\nWe’re building an AI agent specialized in configuring the cloud so engineering teams can focus on shipping their product without sacrificing control or cost.\n\n### **Problems with LLMs and DevOps**\n\n* **Stale Documentation & Configuration Errors:**\\\n  LLMs often reference outdated docs and hallucinate fields that don’t exist, resulting in misconfigurations that can cost you time and money.\n* **Hidden Cloud Costs:**\\\n  A single tweak can unexpectedly spike your expenses. Without clear visibility, planning your budget is a guessing game.\n* **Lack of Context:**\\\n  General-purpose coding agents are great at updating application code, but often struggle to find the subtle connections between different configuration files.\n* **Bad Training Data:**\\\n  LLMs will generate an average of the content they see online, but the average cloud configuration online is messy and filled with bugs. Most IaC on Reddit is related to junior devs asking about their configuration.\n\n### **Our Solutions**\n\n* **Fresh Documentation:**\\\n  The agent pulls the latest documentation for Terraform, GitHub Actions, and other tools before every change, ensuring your configurations are accurate and current.\n* **Real-Time Cost Calculator:**\\\n  You can see a complete breakdown of your cloud costs update in real-time as your configuration changes, so you know exactly how much it will cost before you deploy.\n* **Automated Error Detection & Fixes:**\\\n  A dedicated language server scans your configuration for issues and applies fixes automatically, reducing manual debugging.\n* **Expert-Guided Best Practices:**\\\n  The agent has access to a corpus of expert human examples that it references to produce configuration that is optimized for performance and security.\n* **Two-Way GitHub Sync:**\\\n  Import your existing Terraform, see what it currently costs, ask the agent to look for optimizations, then export any changes back to GitHub.\n\n### **Demo**\n\nWatch me use [infra.new](http://infra.new) to reduce our AWS bill from $400 to $150 with little to no effort in the video below\n\n[Infra.new](http://Infra.new) [Demo - AWS](https://www.loom.com/share/3b7d85b25fd94cfd93ca19c39c188618?sid=f9ca58ca-6bd3-4b97-bd3b-46c842ea8160)\n\n### **Contact Us**\n\nIf you have any questions or feedback, please feel free to reach out!\n\nEmail the founders at [founders@launchflow.com](mailto:founders@launchflow.com) or book some time to chat at <https://calendly.com/josh-from-launchflow/chat>",
+      "url": "https://www.ycombinator.com/launches/MkT-infra-new-ai-copilot-for-cloud-devops",
+      "votes": 18,
+      "created_at": "2025-02-05T19:28:23.002Z"
+    },
+    {
+      "id": 82326,
+      "title": "LaunchFlow - A Terraform / Pulumi alternative for Python developers",
+      "tagline": "Automate infrastructure on GCP and AWS with Python",
+      "body": "[**LaunchFlow**](https://launchflow.com/) is an Infrastructure as Code Python SDK that extends OpenTofu with features like [**multi-environment support**](https://docs.launchflow.com/docs/concepts/environments), [**autoconfigured infrastructure clients**](https://docs.launchflow.com/docs/concepts/resources), and [**API release management**](https://docs.launchflow.com/docs/concepts/services).\n\n![](https://bookface.ycombinator.com/media/?type=post&id=82326&key=user_uploads/808343/d6958b07-d5be-4547-b751-173b033339c5)\n\nYou can add GCP / AWS infrastructure to your app with a single line of code - all infrastructure types ship with built-in clients that automatically connect to your infrastructure across multiple environments. Includes integrations with [**FastAPI**](https://docs.launchflow.com/docs/framework-guides/fastapi), [**Flask**](https://docs.launchflow.com/docs/framework-guides/flask), and [**Django**](https://docs.launchflow.com/docs/framework-guides/django).\n\n**Try it out**\n\nIt only takes 3 commands to launch your first app to GCP or AWS\n\n1. install the Python SDK with pip\n\n   ```\n   $ pip install launchflow \n   ```\n2. setup launchflow in any Python project\n\n   ```\n   $ lf init \n   ```\n3. deploy everything used in your code to GCP / AWS\n\n   ```\n   $ lf deploy {env} \n   ```\n\nFollow the [**Get Started Guide**](https://docs.launchflow.com/docs/get-started) to launch an example FastAPI app in a matter of minutes.\n\nNo account required.\n\n**Easily collaborate with your team**\n\nLaunchFlow Cloud is an optional service you can use to create collaborative cloud environments that automatically share infrastructure, configuration, and secrets with your team. You can also access preconfigured GitHub release pipelines, audit logs, RBAC security, and more.\n\n![](https://www.launchflow.com/_next/image?url=%2Fhome%2Fconsole.png&w=2048&q=75)\n\nYou and a teammate can try LaunchFlow Cloud 100% free forever - signup at [**console.launchflow.com**](http://console.launchflow.com/) to get started.\n\n**Contact us**\n\nIf you are interested in anything mentioned above, we would love to hear from you!\n\nYou can email us at [**team@launchflow.com**](mailto:team@launchflow.com) or book some time on [**my calendar**](https://calendly.com/josh-from-launchflow/chat).\n\nHappy launching! 🚀",
+      "url": "https://www.ycombinator.com/launches/LPq-launchflow-a-terraform-pulumi-alternative-for-python-developers",
+      "votes": 4,
+      "created_at": "2024-07-22T20:54:00.610Z"
+    },
+    {
+      "id": 80185,
+      "title": "LaunchFlow: A better developer experience on GCP and AWS",
+      "tagline": "The easiest way to build Python apps on GCP and AWS",
+      "body": "## **TLDR**\n\n[**LaunchFlow**](https://www.launchflow.com/) manages cloud environments in your own GCP / AWS account that are secure, scalable, and cost-effective by default. Import Postgres, Redis, and other cloud resources in your Python code, then deploy everything to your cloud with a single command.\n\n—\n\nLaunchFlow is an [**infrastructure-from-code**](https://infrastructurefromcode.com/) tool that aims to dramatically improve your developer experience on GCP and AWS. We automatically deploy infrastructure to dedicated environments in your cloud as you use it in your code and ensure it's configured for both local development and production deployments.\n\n## **The Problem**\n\nWe believe managing and using cloud infrastructure is far more complex than it should be. It's hard to set up deployment pipelines. It's frustrating to run your application locally. It's annoying to keep your cloud configuration in sync with your application code.\n\nMost teams cobble together their own DevOps automations using a mixture of Terraform, Pulumi, custom scripts, and environment variables. These automations are great when they work but are often brittle and eventually become the main source of overall system complexity.\n\nWe believe there's a better way.\n\n## **The Way**\n\n![](https://lh7-us.googleusercontent.com/86TIu-MtInbRpmbfJWeL50XX54rQ0LV8KadWXaHHZJyZ9pmJ6ZMCKUwHoDLmDDukyiDubynyYQShtBsOLdrrdf08-ZYYEflSKKUIhrb7x9OY8YMNs_OBI_0ydBleeUpuU-jZqe2ycmB_N-PynbDzc7U)\n\nUse LaunchFlow’s Python SDK to import Postgres, Redis, and other cloud resources in your Python code, then deploy everything to dedicated environments in your cloud with a single command.\n\nEverything in the LaunchFlow ecosystem is fully configured for local development and cloud deployments by default.\n\n**Environments**\n\nLaunchFlow **deploys** and **manages** your infrastructure inside [**Environments**](https://docs.launchflow.com/docs/concepts/environments) that run in your own cloud account. These Environments satisfy most compliance requirements by default and are automatically configured for cost, security, and reliability.\n\n![](https://lh7-us.googleusercontent.com/Qa6mHTluFv0JTJqD6JwWs9vzQHmZxtn5j54fqvXUTmieIg20B7nBtZIrTOJ3SquGLPJaYtHvGHUKMuHOmv1zLJge7zLy5KYr8pNzmeSX3abNorK2DQ3I2_2iV6qNP6bRMsh80d1jZFUpjUmAURGpLcY)\n\n**Resources**\n\nYou can **create** and **connect** to cloud [**Resources**](https://docs.launchflow.com/docs/concepts/resources) in an Environment by simply importing them into your code. Our SDK provides ready-to-use client APIs for every Resource so you can immediately start using them in your application both locally and when deployed.\n\n![](https://bookface.ycombinator.com/media/?type=post&id=80185&key=user_uploads/808343/085c12a5-8f53-44b9-8a97-1799f53ff2f4)\n\n**Deployments**\n\nYou can **build** and **deploy** Python applications in the same environment as your resources with a single command. LaunchFlow [**Services**](https://docs.launchflow.com/docs/concepts/services) lets you deploy your APIs to GCP / AWS with all resource permissions and networking settings automatically configured. We will be adding Jobs and Notebook deployments in the next couple of months.\n\n![](https://bookface.ycombinator.com/media/?type=post&id=80185&key=user_uploads/808343/b7c23093-c085-4a3d-97ac-60ebb78d92f5)\n\n## **Works anywhere that Python runs**\n\nLaunchFlow Resources manages its own configuration and can be plugged into any existing Python app. We’re framework-agnostic and work anywhere that Python runs - we also include a library of common utilities for building FastAPI, Flask, and Django apps on the cloud.\n\n## **Why not just use Terraform / Pulumi?**\n\nTools like Terraform and Pulumi make it easy to automate cloud infrastructure, but there is still an added cost of maintaining a separate IaC tool and keeping it in sync with your application encode.\n\nOn top of this, these tools only help you create the infrastructure, but they don't help you actually _use_ it. Engineers can spin up infrastructure in a few minutes, but they'll often spend the rest of the day (or longer) stumbling through docs and blogs, trying to figure out how to actually connect it to their application.\n\nThings only get worse once you add a release pipeline into the mix and now need to figure out how to structure your code to work across multiple environments.\n\nThis creates a tradeoff between automation and overall system complexity, which is why many teams put off IaC practices until they can afford a DevOps engineer/team to maintain the automations for the company.\n\n## **Our ask**\n\nWe are looking for pilot users who would like to start using LaunchFlow today.\n\nIf you’re interested in using LaunchFlow, please email me at [**josh@launchflow.com**](mailto:josh@launchflow.com) or schedule a demo call using my [**Calendly**](https://calendly.com/josh-from-launchflow/one-on-one-with-josh-founder).\n\nHappy launching! 🚀",
+      "url": "https://www.ycombinator.com/launches/KrJ-launchflow-a-better-developer-experience-on-gcp-and-aws",
+      "votes": 8,
+      "created_at": "2024-04-15T17:39:39.355Z"
+    }
+  ]
+}

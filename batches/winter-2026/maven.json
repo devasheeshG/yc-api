@@ -1,0 +1,90 @@
+{
+  "id": 31253,
+  "name": "Maven",
+  "slug": "maven",
+  "former_names": [
+    "Lattice"
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/1f91b1d1421f28de22ae9bbafcb6d5c03dc6cef5.png",
+  "website": "https://trymaven.com",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "We enable AI chat and voice agents to collect payments through a single API call, handling card processing and PCI compliance across all payment gateways",
+  "one_liner": "Payments Infrastructure for Conversational Agents",
+  "team_size": 2,
+  "industry": "B2B",
+  "subindustry": "B2B -> Infrastructure",
+  "launched_at": 1770422490,
+  "tags": [],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Winter 2026",
+  "status": "Active",
+  "industries": [
+    "B2B",
+    "Infrastructure"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/maven",
+  "api": "https://devasheeshg.github.io/yc-api/batches/winter-2026/maven.json",
+  "year_founded": 2025,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/trymaven",
+  "x_url": "",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/1f91b1d1421f28de22ae9bbafcb6d5c03dc6cef5.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Ankit Gupta",
+    "url": "https://www.ycombinator.com/people/ankit-gupta"
+  },
+  "founders": [
+    {
+      "user_id": 2746056,
+      "full_name": "Brandon Boehme",
+      "title": "Founder/CEO",
+      "founder_bio": "Founder, Maven | Ex Meta, Amazon | EECS, UC Berkeley",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/brandon-boehme/",
+      "x_url": "https://x.com/brandondboehme",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/913ce1209c9a786e86cc0bf1c75d56dd8a0665a1.jpg"
+    },
+    {
+      "user_id": 2246042,
+      "full_name": "Wasi Ahmed",
+      "title": "Founder/COO",
+      "founder_bio": "Founder @ Maven | CS @ UC Berkeley | Prev Amazon",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/wasi-ahmed05/",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/98c75b042730b4b0557b8c1e9ce893902f796dbf.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 97737,
+      "title": "Maven – Payments for Voice AI Agents",
+      "tagline": "Add secure payments to any voice agent in minutes.",
+      "body": "**Hey YC!**\n\nWe’re [@Brandon](https://bookface.ycombinator.com/user/2746056) and [@Wasi](https://bookface.ycombinator.com/user/2246042/following), co-founders of [@Maven](https://bookface.ycombinator.com/company/31253).\n\nWe’re building the payments infrastructure that lets voice AI agents collect payments during live calls.\n\n<https://youtu.be/GZ_e33v4B0c?si=1MvBlMWpxKHK3rx9>\n\n---\n\n### TL;DR\n\nVoice AI can handle the conversation. It just can’t complete the transaction.\n\nMaven lets voice agents collect payments during live calls with one API call.\n\n---\n\n### The Problem\n\nVoice agents are being deployed across:\n\n* Home services\n* Healthcare\n* Insurance\n* Sales\n* Collections\n* And more\n\nThey can qualify leads, book appointments, and negotiate pricing.\n\nBut when a customer says, “I’m ready to pay,” everything breaks.\n\nAdding payments today means:\n\n* Building PCI-compliant infrastructure\n* Handling sensitive card data\n* Managing failed payments mid-call\n* Supporting multiple gateways like Stripe, Authorize.net, and Adyen\n\n---\n\n### Our Solution\n\nWith a single API call, we take over secure card collection, processing, retry logic, and PCI compliance.\n\nCard data flows directly through Maven’s PCI-compliant infrastructure, never your servers.\n\nAs voice AI becomes a large revenue channel, it needs real payment infrastructure. Maven completes the loop.\n\n![uploaded image](/media/?type=post&id=97737&key=user_uploads/2246042/31358443-35d2-4fce-93a9-e27491e8b66d)\n\n---\n\n---\n\n### Our Ask\n\nWe’re looking for intros to companies or operators where payments happen over the phone, including:\n\n* Home services (HVAC, plumbing, roofing)\n* Healthcare billing and scheduling\n* Insurance agencies\n* Collections\n* Auto services\n* SMB sales teams\n\nIf you know founders or teams deploying voice AI in these areas, we’d love an intro.\n\n### Our Vision\n\nAs AI agents handle more revenue-generating conversations across voice and other interfaces, our vision is to become the default infrastructure for all human-to-agent payment touchpoints.\n\n👉 <https://trymaven.com>\n\n![uploaded image](/media/?type=post&id=97737&key=user_uploads/2246042/c488fde5-bb9e-4f1e-a972-8e8c6dbcd0cf)\n\n",
+      "url": "https://www.ycombinator.com/launches/PQP-maven-payments-for-voice-ai-agents",
+      "votes": 20,
+      "created_at": "2026-02-11T19:02:49.038Z"
+    }
+  ]
+}

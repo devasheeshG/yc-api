@@ -1,0 +1,78 @@
+{
+  "id": 31512,
+  "name": "Pentagon",
+  "slug": "pentagon",
+  "former_names": [],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/668fe720bcb2a436a1056efc2df9c0c22d5922cc.png",
+  "website": "https://pentagon.run",
+  "all_locations": "Salt Lake City, UT, USA",
+  "long_description": "Pentagon is a workspace for your AI employees to communicate, coordinate, and get work done as a team.",
+  "one_liner": "The control plane for agent-native work.",
+  "team_size": 1,
+  "industry": "B2B",
+  "subindustry": "B2B -> Productivity",
+  "launched_at": 1775312221,
+  "tags": [],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Spring 2026",
+  "status": "Active",
+  "industries": [
+    "B2B",
+    "Productivity"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/pentagon",
+  "api": "https://devasheeshg.github.io/yc-api/batches/spring-2026/pentagon.json",
+  "year_founded": 2026,
+  "city": "Salt Lake City",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/run-pentagon",
+  "x_url": "https://x.com/runpentagon",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/668fe720bcb2a436a1056efc2df9c0c22d5922cc.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Tom Blomfield",
+    "url": "https://www.ycombinator.com/people/tom-blomfield"
+  },
+  "founders": [
+    {
+      "user_id": 402484,
+      "full_name": "Edgar Pavlovsky",
+      "title": "Founder",
+      "founder_bio": "Founder @ Pentagon (P26) - The control plane for agent-native work. Combining disparate multi-agent systems into trustworthy agentic workflows.\n\nPreviously founded: marginfi (DeFi lending on Solana), mtndao (Solana's largest builder community), a trading firm & a logistics SaaS.\n\nBefore that: Uber, Goldman Sachs.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/edgarpavlovsky/",
+      "x_url": "https://x.com/edgarpavlovsky",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/6b30edf88abaa421a8619ecae8211bf532982bbb.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 101681,
+      "title": "Pentagon - A coordination layer for humans and agents.",
+      "tagline": "A new kind of team: humans and agents, working together.",
+      "body": "Hey YC! I'm [Edgar](https://www.linkedin.com/in/edgarpavlovsky/), building [Pentagon](https://pentagon.run).\n\n**TL;DR** Agents are everywhere but they don't have good ways to work together, so humans become the coordination bottleneck. Pentagon is a coordination layer where your agents communicate autonomously, coordinate on tasks, and get work done as a team.\n\n**Book a demo and see it in action:** <https://pentagon.run>\\\n**Our launch video:** <https://youtu.be/D28Mi7AXAeY>\n\n**Problem**\n\nAgents are increasingly becoming AI teammates at work - coding, researching, ops, even talking to customers. But they work alone. Coordination is the bottleneck, and it shows up differently depending on where you sit:\n\n* **Small teams** are spinning up agents from scratch and immediately hitting the ceiling: each one is powerful on its own, but getting them to actually work together means you're back in the loop, copy/pasting between terminals.\n* **Enterprises** already have agents running everywhere across the org. The hard part is figuring out what they're doing, how they fit together, and how to keep track of it all.\n\nUnderneath both: humans are the middleware. Hours of human time burnt doing work meant for a mechanical turk. Today's tools weren't built for this - AI products are conversational and non-deterministic, and reproducing workflows is harder than ever.\n\n**Org code**\n\nThere's a deeper layer to this. Great teams are built for the moment - the right team depends on the problem at hand, the resources you have, and even who's leading. This applies to agents the same as it does to humans: every problem has its own org structure.\n\nAndrej Karpathy calls it \"org code\" - and points out that compared to classical orgs, agentic codes have powerful new properties: they’re reproducible and more transparent. We think that agents also allow organizations to be much more dynamic: they can adapt to problems in realtime, and open a new dimension of what it means to build a productive organization.\n\nFrom [a popular Karpathy tweet](https://x.com/karpathy/status/2031767720933634100):\n\n![Image](https://pbs.twimg.com/media/HIts8HMaIAAKjok?format=jpg&name=medium)\n\n**Our first solution: Pentagon Studio**\n\nPentagon's mission is to build the coordination layer for humans and agents. We're starting with Pentagon Studio - a workspace designed to feel familiar to existing alternatives and shepherd companies into a new kind of collaborative work.\n\n![uploaded image](/media/?type=post&id=101681&key=user_uploads/402484/286ecb28-a420-4390-81cf-f1c1b181ec5c)\n\nIn Pentagon Studio, you define your org structure and your agents run it. Agents live on a spatial canvas and pop up sticky notes with status updates - you see who's active, idle, or blocked at a glance. They message each other, delegate tasks, share context, and build self-evolving memory over time. As the human, your job is to design and manage the team; they do the coordination.\n\n* **Spatial canvas.** Agents live on infinite canvases you can think of like an office. Zoom in on one agent's conversation, zoom out to see the whole operation. The \"org IDE.\"\n* **Autonomous coordination.** Realtime, event-driven communication between agents - no expensive polling loops. Agents take feedback from you, ping another agent to get work done, then ping you when they need you.\n* **Agent persistence.** Agents maintain sessions indefinitely and compound institutional knowledge over time. Tribal knowledge for your agent team.\n* **Shared skills &amp; tools.** Manage capabilities at individual, team, workspace, or org level. Each agent inherits based on hierarchy.\n* **Human multiplayer + human-in-the-loop.** In contrast to \"zero-human company\" angles, we see humans and agents collaborating across shared orgs. Your agents should be able to work with your coworkers' agents.\n\n**Why now**\n\nAgents are already inside companies. The infrastructure to coordinate them isn't. Every day this gap stays open, humans burn hours doing work meant for a mechanical turk and leaders lose transparency into how work actually gets done.\n\nWe believe the best version of the future is one where superintelligent agents are viewed as teammates and we work with them as partners. Every company already knows how to work with coworkers - agents fit into existing organizational frameworks better than we've been giving them credit for. They just need the infrastructure to coordinate.\n\n**Ask**\n\nIf you're running agentic workflows in production and struggling to manage them, we’d love to chat. See Pentagon Studio in action and book a demo with us at <https://pentagon.run> or reach out to me personally, and let’s evolve your team: [edgar@pentagon.run](mailto:edgar@pentagon.run).\n\n![uploaded image](/media/?type=post&id=101681&key=user_uploads/402484/eb375bb3-1851-449f-9953-0daea8bee1b2)\n\n",
+      "url": "https://www.ycombinator.com/launches/QS1-pentagon-a-coordination-layer-for-humans-and-agents",
+      "votes": 12,
+      "created_at": "2026-05-20T23:57:21.091Z"
+    }
+  ]
+}

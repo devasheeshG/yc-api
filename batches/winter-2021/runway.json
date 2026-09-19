@@ -1,0 +1,150 @@
+{
+  "id": 22591,
+  "name": "Runway",
+  "slug": "runway",
+  "former_names": [],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/a792f803f1d7ccad7da795b30ca7b07eb81a1cdc.png",
+  "website": "https://runway.team",
+  "all_locations": "New York City, NY, USA; New York, NY, USA; Remote",
+  "long_description": "",
+  "one_liner": "Easier and more reliable mobile app releases for teams.",
+  "team_size": 20,
+  "industry": "B2B",
+  "subindustry": "B2B -> Engineering, Product and Design",
+  "launched_at": 1615594933,
+  "tags": [
+    "SaaS",
+    "B2B"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": true,
+  "nonprofit": false,
+  "batch": "Winter 2021",
+  "status": "Active",
+  "industries": [
+    "B2B",
+    "Engineering, Product and Design"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada",
+    "Remote",
+    "Fully Remote"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/runway",
+  "api": "https://devasheeshg.github.io/yc-api/batches/winter-2021/runway.json",
+  "year_founded": 2020,
+  "city": "New York City",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/runway-team/",
+  "x_url": "https://twitter.com/RunwayTeam",
+  "fb_url": null,
+  "cb_url": "https://www.crunchbase.com/organization/runway-5d78",
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/a792f803f1d7ccad7da795b30ca7b07eb81a1cdc.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Aaron Epstein",
+    "url": "https://www.ycombinator.com/people/aaron-epstein"
+  },
+  "founders": [
+    {
+      "user_id": 562880,
+      "full_name": "Gabriel Savit",
+      "title": "Founder",
+      "founder_bio": "Co-founder and CEO at Runway (runway.team)",
+      "is_active": true,
+      "linkedin_url": "https://linkedin.com/in/gsavit",
+      "x_url": "https://twitter.com/gabrielsavit",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/ee4243fea21b18f329aeb26aaff00430182ef537.jpg"
+    },
+    {
+      "user_id": 586466,
+      "full_name": "Matt Varghese",
+      "title": "Founder",
+      "founder_bio": "UI/UX Lead @ Runway",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/mattvarghese/",
+      "x_url": "https://twitter.com/pxlt",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/394eb065cca811da2643371b9a7120accadb457d.jpg"
+    },
+    {
+      "user_id": 578385,
+      "full_name": "David Filion",
+      "title": "Founder",
+      "founder_bio": "",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/david-filion-bb050249",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/f3bdb24087766eee7a5d299c9dad8690cb79969c.jpg"
+    }
+  ],
+  "jobs": [
+    {
+      "id": 46511,
+      "title": "Full Stack Engineer",
+      "url": "https://www.ycombinator.com/companies/runway/jobs/0s9VB2H-full-stack-engineer",
+      "location": "US / GB / AU / ES / FR / MX / DK / SE / IT / PL / CZ / PT / BE / NL / CA / FI / EE / BR / Remote (US; GB; AU; ES; FR; MX; DK; SE; IT; PL; CZ; PT; BE; NL; CA; FI; EE; BR)",
+      "type": "Full-time",
+      "role": "Engineering",
+      "role_type": "Full stack",
+      "salary_range": "$80K - $150K",
+      "equity_range": "0.05% - 0.15%",
+      "experience": "6+ years",
+      "visa": "US citizenship/visa not required",
+      "skills": [
+        "Android",
+        "Go",
+        "iOS",
+        "React",
+        "React Native",
+        "TypeScript",
+        "Flutter"
+      ]
+    }
+  ],
+  "news": [
+    {
+      "title": "Runway raises $2M seed, launches its ‘air traffic control’ system for mobile app releases – TechCrunch",
+      "url": "https://techcrunch.com/2021/11/16/runway-raises-2m-seed-launches-its-air-traffic-control-system-for-mobile-app-releases/",
+      "date": "Nov 16, 2021"
+    }
+  ],
+  "launches": [
+    {
+      "id": 76281,
+      "title": "📲 ⏪ Mobile Rollbacks by Runway",
+      "tagline": "Undo a bad native app release with a single click.",
+      "body": "## Mobile Rollbacks ensure your team is always just one click away from addressing critical bugs in production. \n\nNo one is immune from shipping critical bugs to production. No matter how extensive your test coverage, no matter how thorough your QA, no matter how much you put behind feature flags — your mobile team _will_ ship irreversibly-bad updates that break things and upset your users. \n\nThis is especially problematic for mobile because you can’t roll back immediately like your web or backend friends can. Rather, you have to triage the issue and assign it to the right team members, implement fixes (or carefully revert the offending changes), compile one or more RCs, upload to the stores, submit for review, then cross your fingers and pray to the store review gods for a speedy review. And the negative impacts of even just a few hours with a critically broken app can be eye-watering: tens or hundreds of thousands of dollars in lost revenue, a flood of negative user reviews, and overwhelmed CX or ops folks.   \n\nBut what if it didn’t have to be that way? What if you could instantly resolve a critical issue in prod, with a single click? Now, you can. \n\n### Recover from production issues in zero time — literally\n\nCritical issue? Roll back instantly. In the background of every normal release cycle, Runway automatically re-signs your last live production build and preps it for a possible rollback release — including preemptive submission for review (iOS only) — to remove all possible sources of delay. Should something go wrong in prod, there’s always a corresponding rollback build ready and waiting for single-click release in Runway. \n\n![](https://assets-global.website-files.com/5ef1f28e08458502ba614d85/6555b0344379d5700b526a01_deploy-rollback-button.png)\n\nHere’s how the rollback flow works in a bit more detail:\n\n1. Your team is busy getting your next regularly-scheduled release out the door. Let’s call it version 1.2.0.\n2. In the background, Runway takes your latest live build in production — say, 1.1.0 — and re-signs it, bumping the version to 1.2.1 and incrementing the build number as necessary.\n3. Your team releases 1.2.0 as scheduled. Nice!\n4. The 1.2.1 rollback release is surfaced in Runway, just in case. For iOS, we also preemptively create a new version for the possible rollback in App Store Connect and submit the rollback build for review.\n5. Your team is monitoring the rollout of 1.2.0 and identifies a critical issue 🚨You halt the rollout.\n6. Right next to the button you used to halt the rollout, there’s another button to release the rollback build that’s ready and waiting. Click that, and you’re all set.\n\nWith rollback builds primed and ready to go, your team can address critical bugs in prod with a single click — cutting out all the lead time needed to investigate and implement a fix, get builds compiled and uploaded, and make it through the store review process.\n\n### Take the pressure out of hotfixes; triage more fully and fix more confidently\n\nEven if you ship a rollback to address an issue in prod, it doesn’t mean you’ll necessarily wait until your next regularly-scheduled release to issue a fix. In fact, it’s likely you’ll use rollbacks in conjunction with roll-forward hotfixes — and those hotfixes will be better as a result. Because rollbacks allow you to instantly stabilize a critical situation, you can take your time in triaging, investigating, implementing fixes, and then working through your hotfix release process.\n\n![](https://assets-global.website-files.com/5ef1f28e08458502ba614d85/6555b0ce132292bf3747a1af_rolllout-rollbacks-final.gif)\n\n### More predictable resolution timelines & fewer unanswerable questions from stakeholders\n\nEvery team knows the feeling of dread that hits when you’ve shipped a breaking change and leadership shows up in your #mobile Slack channel. _Is the fix in yet? Is the build approved by Apple? How about now?_ With rollbacks in Runway, you can actually respond to these kinds of asks, and give stakeholders confidence that the situation is under control.\n\n![](https://assets-global.website-files.com/5ef1f28e08458502ba614d85/6555b15743d1af6cfd9dcf50_slack-popup.png)\n\n### When you need a rollback, it’s there for you (batteries included). When you don’t, we’ll handle all the cleanup.\n\nRunway’s rollbacks functionality encompasses quite a few dependencies and steps which, if approximated manually each and every release, would require a lot of work — not just to prepare each rollback, but also to clean up unused rollbacks along the way. Now, you no longer have to choose between investing huge amounts of time and effort into setting up rollbacks manually or else forfeiting the safety net rollbacks provide.\n\n![](https://assets-global.website-files.com/5ef1f28e08458502ba614d85/6555b18d930993fe03666aaa_rollback-settings.png)\n\nWith rollbacks, Runway gives your mobile team _the quickest_ possible way to respond to critical issues in production. Instead of scrambling to identify, implement, and ship a fix, you can immediately “stem the bleeding” and resolve things with a single click. Stakeholders won’t hover wondering when a resolution will land, and your team can triage and implement fixes more confidently, without all the pressure that typically accompanies hotfix situations. Plus, rollbacks mitigate the serious negative impact to revenue and app store reviews that comes with a buggy app being in users’ hands for even just a couple of hours.\n\n### How to give Rollbacks a try\n\nYou can sign up for free on the [Runway site](http://runway.team), no credit card required, and we’re always available to give you a guided walkthrough — just get in touch!",
+      "url": "https://www.ycombinator.com/launches/JqL-mobile-rollbacks-by-runway",
+      "votes": 9,
+      "created_at": "2023-11-16T17:50:09.865Z"
+    },
+    {
+      "id": 71808,
+      "title": "📲 🚀 Build Distro by Runway",
+      "tagline": "Better mobile build distribution for teams",
+      "body": "## Build Distro makes it dead simple to get the right app builds into the right teammates’ hands\n\nMobile build distribution is hard. There’s the provisioning and signing gauntlet, of course, but the challenges don’t end there. Getting the right builds in front of the right teammates takes constant effort and shepherding, and creating an install flow that’s pain-free is difficult. Existing tooling options tend to jumble all different kinds of builds together and offer half-baked installation flows; the “human factors” aspect of build distribution is secondary, or ignored altogether.\n\nWe set about building a better, more foolproof and human-centric way.\n\n### What is Build Distro?\n\nBuild Distro allows you to clearly define and group the different types of mobile builds your team distributes – from one-offs and work-in-progress dev builds, to staging builds, to release candidates. You can avoid the usual jumbled pile of builds that folks have to carefully sift through, and give technical and non-technical team members alike an easier way to grab builds, with streamlined installation via QR or Slack link. With hassle-free distribution, your team can check out builds earlier and more often, improving collaboration and app quality.\n\nHere are some highlights:\n\n📲 **Get the right builds into the right people’s hands**\n\nBuild Distro introduces the idea of build buckets to allow you to clearly define and group different flavors of builds. Instead of having all distributed builds landing in that jumbled pile, you can now separate different kinds of builds using definitions based on branch, CI workflow, or some combination of both — or using more freeform, ad hoc buckets. Not only are build flavors logically separated into buckets, but you can set up targeted notifications and scope access per bucket to ensure the right people are aware of and able to seamlessly install new builds relevant to them.\n\n![uploaded image](/media/?type=post&id=71808&key=user_uploads/562880/830900f0-fe8a-4c8e-b050-5b86956de7d5)\n\n**✨ Share one-offs & early test builds more easily**\n\nWith branch-based and ad hoc, personal build buckets, Runway makes it much easier to share work-in-progress builds. You can create dedicated buckets for test builds and nightlies on your main development branch or any feature branches, and everyone on your team can also have their own personal buckets to drop updates into as they work. Product managers, QA, designers, and other engineers and stakeholders can now easily grab any WIP builds, earlier and more often during the development cycle, helping your mobile org improve quality and shift left.\n\n![uploaded image](/media/?type=post&id=71808&key=user_uploads/562880/e0e69e93-f6bd-4497-a3ed-7d50a23c68df)\n\n🔒 **Make it impossible to ship the wrong build to prod**\n\nOne of the worst failure modes around build distribution has to do with test or staging builds getting accidentally shipped to production. It may be rare, but when it happens, it can be devastating. Confusion around distributed build flavors is often to blame, and Runway’s build buckets remove this risk. Clearly delineate prod and pre-prod builds, and scope access accordingly.\n\n![uploaded image](/media/?type=post&id=71808&key=user_uploads/562880/5c3d452c-2760-44b9-98c6-eb3b97edef2d)\n\n**📥 Install app builds with less hassle, and more context**\n\nEven once someone has tracked down a build they want to check out, actually getting it onto their device comes with its own hassles. Runway makes installation foolproof and seamless: with each build, you can install directly by scanning a QR code or sending yourself a link in Slack. Plus, alongside each build you can see full context on the build flavor and exactly what work it contains — no more guesswork, pinging build numbers back and forth and hoping you’re grabbing the right version of the app.\n\n![uploaded image](/media/?type=post&id=71808&key=user_uploads/562880/a26f0045-ebdb-4b8b-9048-82f90457d415)\n\n⚙️ **Integrate with your existing tools for zero extra overhead**\n\nGetting up and running is simple: connect your existing CI and… that’s it. Once you’re connected, Runway will get you started with a few default shared buckets for development and RC builds, and anyone on your team can easily create scoped personal buckets. To define a new shared bucket, simply select a workflow (from among any defined in your CI, automatically pulled in by Runway), a branch, or some combination of both.\n\n![uploaded image](/media/?type=post&id=71808&key=user_uploads/562880/1bef9a17-07df-4d74-8d39-b1607e832e8e)\n\n🤝 **Standalone or tightly integrated with the rest of Runway**\n\nExactly how you leverage Build Distro is up to your team. You can spin up Build Distro by itself and use it as a standalone tool. Or, for a tightly integrated experience across the entire dev and release cycle, Build Distro plugs seamlessly into Runway’s end-to-end release management platform as a beta integration, allowing you to manage everything to do with pre-prod builds and testers alongside the rest of the release context. \n\n![uploaded image](/media/?type=post&id=71808&key=user_uploads/562880/21fcb35f-06ec-4ee9-8b97-529a179561bc)\n\n### Who is Build Distro for?\n\nBuild Distro is for mobile teams of all sizes who care about getting builds into the hands of team members and testers early and often. \n\nThere are a few team members that might be especially excited about Build Distro:\n\n* Mobile engineers who want to get more eyes on their in-progress work, well before it makes its way to the team’s main branch\n* PMs who care about checking out product work as it’s being developed, without having to hunt around for specific builds\n* QA folks who want to stay on top of testing without the volley of unintelligible build numbers over Slack\n* Anyone on the team, technical or non-technical, who cares about the product and wants to check out and help test builds pre-production\n\n \n\n### How to give Build Distro a try\n\nYou can sign up for free on the [Runway site](https://app.runway.team/signup?intent=buildDistro), no credit card required, and we’re always available to give folks a guided walkthrough as well – just get in touch!",
+      "url": "https://www.ycombinator.com/launches/IgC-build-distro-by-runway",
+      "votes": 9,
+      "created_at": "2023-05-24T15:53:19.752Z"
+    },
+    {
+      "id": 67143,
+      "title": "📲 📈 Rollouts by Runway",
+      "tagline": "Automate app rollouts with a full picture of release health",
+      "body": "# A single source of truth for mobile release health, instantly understandable – and actionable\n\nAs former mobile engineers ourselves, the Runway team and I have experienced the challenge of rollouts firsthand  — and now, we’ve built something that can help. We’re excited to announce [_Rollouts_](https://www.runway.team/blog/introducing-rollouts-by-runway), a new part of the Runway platform that helps your team navigate rollouts with less collective stress, and more confidence. _Rollouts_ allows you to easily keep tabs on release health in just one place instead of many, alerts you whenever configured metrics become unhealthy, and safeguards release health by automatically halting rollouts based on thresholds you define.\n\n# What is _Rollouts_?\n\nHere are some highlights:\n\n### 🗺 The only complete picture of release health\n\nRollouts integrates with the mix of different tools you use to measure app health – crash reporting, observability & product analytics, the app stores (for per-version user ratings) – to create a single source of truth and unified dashboard that gives your team a holistic and instantly understandable view of release health at a glance. No more context-switching, no more mental overhead.\n\n![uploaded image](/media/?type=post&id=67143&key=user_uploads/562880/098822f9-93e6-4ac4-a612-c13ce50f187e)\n\n### 🌡 You define exactly what “healthy” means for your team\n\nAcross all tools and every metric, you can configure granular thresholds that together define what “healthy” looks like for your team. Runway will surface a crystal clear view of how each release is tracking relative to that definition. With expectations around health codified this way, there’s no room for ambiguity or hand-waving when it comes to your team’s standards for quality of the product you’re shipping.\n\n![uploaded image](/media/?type=post&id=67143&key=user_uploads/562880/479df881-d88e-4e1e-9cc2-d4ac27941bc4)\n\n### 🚨 Avoid blind spots and delays with instant alerting\n\nThe moment any of your configured metrics become unhealthy during a rollout, Runway will alert your team, in specific channels of your choosing and with full context on which metrics are problematic. You can be confident that no bad trends will go unnoticed – and that they can be acted on more quickly.\n\n![uploaded image](/media/?type=post&id=67143&key=user_uploads/562880/115d18e8-0167-47e6-8ce4-630bed0f564a)\n\n### 🛑 Automatically halt unhealthy rollouts\n\nBuilding on the custom thresholds you define, Runway can automatically halt unhealthy releases. With this automation enabled, if certain metrics of your choosing fall afoul of your acceptable thresholds during a rollout, Runway will automatically stop the rollout and alert your team. This prevents delays and human error, saving you from the negative consequences of a bad release making it out to even more users.\n\n_(Available on the Runway Pro plan and above.)_\n\n![uploaded image](/media/?type=post&id=67143&key=user_uploads/562880/7f6156eb-df96-4332-b4d7-c432c4aac58f)\n\n### 💨 Automatically accelerate healthy rollouts\n\nIf all of your metrics are looking good and your rollout has reached a minimum number of users you define, Runway can accelerate things and release to all users immediately. Getting a good release out to all users more quickly can be just as impactful as halting a bad release!\n\n_(Available on the Runway Pro plan and above.)_\n\n![uploaded image](/media/?type=post&id=67143&key=user_uploads/562880/9088b19a-3ce0-467f-a390-2368f4c92464)\n\n# Who is _Rollouts_ for?\n\n_Rollouts_ is for mobile teams of all sizes who care about the quality and health of the apps they ship. If you want to ensure you’re not shipping bad product and your users are having the best possible experience, without painstaking babysitting, _Rollouts_ is for you.\n\nThere are a few folks _Rollouts_ might resonate with especially:\n\n* Release captains/drivers/pilots who want to de-stress and de-risk the experience of being in the driving seat during a rollout\n* Mobile engineers who are tired of poking PMs to check on key events in some analytics dashboard they don’t have access to or don’t understand\n* PMs who are tired of said mobile engineers poking them all the time\n* Mobile leads or EMs who want to be sure their entire team has the full picture of release health, to foster a healthy sense of ownership and accountability\n* Engineering leadership who care about keeping tabs on their mobile org, easily and noise-free\n* Anyone and everyone who cares about app health and preventing bad releases from making it out to even more users\n\n \n\n# How to give _Rollouts_ a try\n\nYou can sign up for a free trial via the [Runway site](https://www.runway.team), no credit card required, and we’re available to give folks a guided walkthrough as well – just get in touch!\n\nFor indies, small teams, and YC fam, we’re happy to talk discounting too.",
+      "url": "https://www.ycombinator.com/launches/HSx-rollouts-by-runway",
+      "votes": 18,
+      "created_at": "2022-11-04T20:56:59.348Z"
+    }
+  ]
+}

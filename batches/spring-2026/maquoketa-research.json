@@ -1,0 +1,98 @@
+{
+  "id": 31561,
+  "name": "Maquoketa Research",
+  "slug": "maquoketa-research",
+  "former_names": [],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/fe62156e10a2b01da6dc840828e94a31921135d9.png",
+  "website": "https://www.maquoketa.net",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "",
+  "one_liner": "The intelligence layer for drones",
+  "team_size": 5,
+  "industry": "Industrials",
+  "subindustry": "Industrials -> Defense",
+  "launched_at": 1774490913,
+  "tags": [],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Spring 2026",
+  "status": "Active",
+  "industries": [
+    "Industrials",
+    "Defense"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/maquoketa-research",
+  "api": "https://devasheeshg.github.io/yc-api/batches/spring-2026/maquoketa-research.json",
+  "year_founded": 2025,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/maquoketa-research/",
+  "x_url": "",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/fe62156e10a2b01da6dc840828e94a31921135d9.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Harj Taggar",
+    "url": "https://www.ycombinator.com/people/harj-taggar"
+  },
+  "founders": [
+    {
+      "user_id": 2184565,
+      "full_name": "Evan Yeager",
+      "title": "Founder/CEO",
+      "founder_bio": "Co-Founder and CEO at Maquoketa Research",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/evanyeager",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/b47fa48b63fb50dd20e3cafa5a848fbbc693928b.jpg"
+    },
+    {
+      "user_id": 3388911,
+      "full_name": "David Muchow",
+      "title": "Founder/COO",
+      "founder_bio": "Co-founder and Chief Operations Officer @ Maquoketa Research.\nMy resume confuses recruiters.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/david-muchow-57775a398/",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/87047d53f3ccf5e1dfc50caba34c6132a4bffe84.jpg"
+    },
+    {
+      "user_id": 3409680,
+      "full_name": "Aidan Williams",
+      "title": "Founder/CTO",
+      "founder_bio": "Co-founder and CTO @ Maquoketa Research",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/aidan-williams-055ba626b/",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/864a233796df1540984f41d824e033b826826efc.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 102393,
+      "title": "Maquoketa Research: Guidance systems for one-way attack drones",
+      "tagline": "The drone intelligence layer",
+      "body": "<https://www.youtube.com/watch?v=uI5-M8w8UEs>\n\n**More than 70% of combat casualties now come from drones.** They have proven to be the most cost-effective tool of modern warfare, and the Department of War plans to buy over 1 million of them in the next 2-3 years. So what’s the problem? **Less than 25% of drones successfully strike their target.** \n\nIt takes months to years of training for military operators to perfect the flight maneuvers needed to use FPV drones effectively. And even highly skilled operators remain vulnerable to electronic warfare, GPS denial, and adverse weather conditions.\n\nBut what if it wasn’t so hard? What if someone who had never flown a drone before could pick one up and hit a moving target with expert-level accuracy, even under jammed conditions?\n\n**Our Solution:**\n\nWe build platform-agnostic terminal guidance modules for one-way attack drones. Our guidance system has been shown to increase successful strike rates from under 25% to **upwards of 80%**. At the core of the system is a custom object tracking algorithm that maintains target lock under adverse conditions and can re-acquire a target lock even after 5 seconds of target occlusion, all while running on hardware costing under $200. Because inference happens onboard, the drone can continue tracking and engaging targets even after link degradation or jamming.\n\nCurrent approaches usually fall into two categories. The first approach is to make bespoke drones that include custom target detection and terminal guidance systems, but these drones cost upwards of $40k a unit. Existing modular compute solutions that allow for running target tracking models and terminal guidance algorithms can require a complete redesign of the drone, often don’t have their own dedicated camera or radio, and typically cost nearly the same price as the drone itself.\n\n![uploaded image](/media/?type=post&id=102393&key=user_uploads/2184565/c1cd3c2e-ddb1-4287-85ba-0407ff915ab1)\n\nOur solution fixes the problems with both traditional approaches. Our system integrates with existing FPV drones through a single connection to the flight controller. Because it includes its own camera, compute, and radio stack, it operates independently of the drone’s native avionics and communications systems. And because the compute is so cheap, autonomous terminal guidance becomes economically viable even for disposable FPV platforms. \n\nBy standardizing compute, sensing, and communications across heterogeneous drone platforms, we also are creating a foundation for swarm operations, large scale coordination, and data aggregation.\n\n**The Team:**\n\nThree of us (Dave, Aidan, Evan) met through high school robotics five years ago. We became close after starting our first project, an electromagnetic railgun. Before the project got shut down by the FBI, it was the most powerful such device ever built by a hobbyist. Evan started programming at age 8 and later completed Berkeley’s EECS program in just 5 semesters, where he met Alex. Alex entered Berkeley at 16 and researched state-of-the-art sub-THz phased array systems. Aidan started building liquid fueled rocket engines when he was 15. Dave studied computer science at UIC before dropping out after he built the fastest growing game on Roblox, which has since generated over $45M in revenue.\n\n![uploaded image](/media/?type=post&id=102393&key=user_uploads/2184565/74758a28-ded7-45a9-b85e-44be11fc8eda)\n\n**The Ask:**\n\nWe’re looking for introductions to drone manufacturers, defense primes, and government programs exploring low-cost autonomous terminal guidance and interoperability across heterogeneous drone platforms.",
+      "url": "https://www.ycombinator.com/launches/QdV-maquoketa-research-guidance-systems-for-one-way-attack-drones",
+      "votes": 30,
+      "created_at": "2026-06-01T20:43:30.662Z"
+    }
+  ]
+}

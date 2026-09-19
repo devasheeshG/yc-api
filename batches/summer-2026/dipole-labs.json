@@ -1,0 +1,91 @@
+{
+  "id": 31277,
+  "name": "Dipole Labs",
+  "slug": "dipole-labs",
+  "former_names": [],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/b476fcfad147bfb48b55b119e09431103b41f4d8.png",
+  "website": "https://dipolelabs.com/",
+  "all_locations": "Boston, MA, USA",
+  "long_description": "",
+  "one_liner": "AI-controlled optical switching for AI clusters",
+  "team_size": 0,
+  "industry": "Industrials",
+  "subindustry": "Industrials",
+  "launched_at": 1786560399,
+  "tags": [
+    "Hard Tech",
+    "Semiconductors",
+    "AI"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Summer 2026",
+  "status": "Active",
+  "industries": [
+    "Industrials"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/dipole-labs",
+  "api": "https://devasheeshg.github.io/yc-api/batches/summer-2026/dipole-labs.json",
+  "year_founded": 2026,
+  "city": "Boston",
+  "country": "US",
+  "linkedin_url": "",
+  "x_url": "",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/b476fcfad147bfb48b55b119e09431103b41f4d8.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Jared Friedman",
+    "url": "https://www.ycombinator.com/people/jared-friedman"
+  },
+  "founders": [
+    {
+      "user_id": 3178902,
+      "full_name": "Deepankur Thureja",
+      "title": "Founder/CEO",
+      "founder_bio": "CEO & Co-founder @ Dipole Labs\n\nBuilding optical switching and compute modules that make AI clusters faster and more energy efficient.\n\nPreviously I was a postdoctoral researcher at Harvard where I developed advanced photonic and quantum devices, working at the intersection of materials science, optics, and AI.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/dthureja",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/ec3f292a37bbde4475aa4c89de8203153d747800.jpg"
+    },
+    {
+      "user_id": 3179632,
+      "full_name": "Gabriele Pasquale",
+      "title": "Founder/CTO",
+      "founder_bio": "Co-Founder & CTO @ Dipole Labs\n\nBuilding optical switching and compute modules that make AI clusters faster and more energy-efficient.\n\nPreviously, I was a postdoctoral researcher at Harvard, where I developed advanced photonic and quantum devices, working at the intersection of materials science, optics, and AI.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/gabrielepasquale",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/4ab80d1378669d55ada2deb72073e9390f4cbbae.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 110374,
+      "title": "Dipole Labs: Shooting lasers to solve the billion-dollar bottleneck inside AI datacenters",
+      "tagline": "High-speed optical circuit switches that keep data moving as light, giving AI clusters up to 25% more useful compute from the same hardware.",
+      "body": "**The most expensive computers ever built spend about half their time waiting for data.** As AI clusters scale, it's increasingly the network that limits how much compute you can actually use.\n\n**What we're building** Dipole Labs builds high-speed optical circuit switches for AI data centers. Between racks, data already travels as light, but routing it usually means converting it to electricity and back, burning power, generating heat, and adding latency. Dipole's switch keeps data in the optical domain, targeting sub-microsecond reconfiguration at large port counts, so the network can reshape itself around each workload.\n\nAn AI-native control layer learns GPU communication patterns and synchronizes optical reconfiguration with training and inference, turning the network into an active accelerator instead of a bottleneck.\n\n**Why it matters** The result: a 10,000-GPU cluster could perform like one with 12,500 GPUs, up to 25% more useful compute from the same hardware. At the scale of a 1 GW data center, that's up to $1 billion in additional compute capacity every year. Optical switching is just the start, the same platform extends from moving data as light to computing with it.\n\n**Who we are** Deepankur and Gabriele met as postdocs at Harvard and have spent the last decade building the photonic expertise behind this technology. Deepankur (CEO) built scalable quantum-optical hardware at ETH Zurich, published in Nature, and was awarded the ETH Medal for his doctoral thesis. Gabriele (CTO) has built nanophotonic and quantum devices at EPFL, and solved a decade-old condensed-matter physics problem published in Nature Materials, which earned the IBM prize from the Swiss and Austrian Physical Society.\n\n**Our ask** We're opening design partnerships with hyperscalers and neoclouds that want more useful compute from the hardware they already run, plus collaborations with photonic foundries to take our custom devices from prototype to scale. If that's you, let's talk.",
+      "url": "https://www.ycombinator.com/launches/SiE-dipole-labs-shooting-lasers-to-solve-the-billion-dollar-bottleneck-inside-ai-datacenters",
+      "votes": 9,
+      "created_at": "2026-08-13T17:30:00.146Z"
+    }
+  ]
+}

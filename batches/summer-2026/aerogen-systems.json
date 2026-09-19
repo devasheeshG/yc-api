@@ -1,0 +1,94 @@
+{
+  "id": 32584,
+  "name": "Aerogen Systems",
+  "slug": "aerogen-systems",
+  "former_names": [],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/235b4dc8ef4a94e38d79ce892c9d55184a2b0224.png",
+  "website": "https://www.aerogensystems.com/",
+  "all_locations": "Ann Arbor, MI, USA",
+  "long_description": "We are building the future of chip manufacturing.\r\n\r\nChips are more advanced than ever, and the features inside them keep getting smaller. But the cleanroom infrastructure supporting their manufacture has not scaled at the same pace. Intel, TSMC, Samsung, and others spend billions building and operating massive cleanrooms, only to isolate their most advanced wafers from the surrounding facility as much as possible.\r\n\r\nWe think that architecture is backwards. Instead of making the entire building cleaner, why not make the machinery itself as clean as possible?\r\n\r\nTalos is our proprietary tool-integrated purification system. It sits directly inside semiconductor equipment and continuously destroys airborne molecular contaminants before they reach the wafer. Instead of fighting contamination by constantly flooding tools with ultra-high-purity nitrogen, Talos keeps the environment inside the machine 10–100x cleaner, without the massive purge-gas bill.\r\n\r\nTalos is powerful on its own, but it is also the foundation for a much bigger vision: the Cleanpipe.\r\n\r\nThe Aerogen Systems Cleanpipe is an ultra-clean interconnect infrastructure that protects wafers as they move from machine to machine across the fab. Rather than relying on a billion-dollar cleanroom to protect every cubic foot of factory space, Cleanpipe creates a controlled environment only where cleanliness actually matters: around the wafer.\r\n\r\nTalos cleans the tools. Cleanpipe connects them. Eventually, we delete the cleanroom and build more advanced chips, at greater scale, with radically less infrastructure. With cleanpipes connecting tools, chip fabs can exist anywhere.",
+  "one_liner": "Modernizing Chip Manufacturing Infrastructure",
+  "team_size": 4,
+  "industry": "Industrials",
+  "subindustry": "Industrials",
+  "launched_at": 1786900126,
+  "tags": [
+    "Hard Tech",
+    "B2B",
+    "Manufacturing",
+    "Semiconductors"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Summer 2026",
+  "status": "Active",
+  "industries": [
+    "Industrials"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/aerogen-systems",
+  "api": "https://devasheeshg.github.io/yc-api/batches/summer-2026/aerogen-systems.json",
+  "year_founded": 2026,
+  "city": "Ann Arbor",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/aerogen-systems-company/",
+  "x_url": "https://x.com/AerogenSystems",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/235b4dc8ef4a94e38d79ce892c9d55184a2b0224.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [
+    "https://bookface-images.s3.us-west-2.amazonaws.com/attachments/e2f1aeb38c2211e11ef666f05de7b888fd393137.png"
+  ],
+  "primary_partner": {
+    "name": "Jon Xu",
+    "url": "https://www.ycombinator.com/people/jon-xu"
+  },
+  "founders": [
+    {
+      "user_id": 3388722,
+      "full_name": "Noah Vogel",
+      "title": "Founder/CEO",
+      "founder_bio": "Founder & CEO at Aerogen Systems. Previously engineering intern at SpaceX building Starship actuators and at Draper developing advanced mission simulators. BSE Aerospace Engineering from University of Michigan.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/noahvogel/",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/5153adbbedb2cd7f09db195d1d63de5e64513dea.jpg"
+    },
+    {
+      "user_id": 3422652,
+      "full_name": "Colin Lavery",
+      "title": "Founder/CTO",
+      "founder_bio": "Co-founder & CTO of Aerogen Systems. Previously an electrical engineer at H3D, developing 3D gamma ray imaging systems. BSE Space Sciences and Engineering at the University of Michigan.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/colin-lavery-67b7512a3/",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/3b3f944b8190b3fbc2ca61bd6963d1d3707c6976.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 111026,
+      "title": "Aerogen Systems: Building Chip Fabs Without Cleanrooms",
+      "tagline": "Redefining the architecture behind chip manufacturing",
+      "body": "Hi YC!\n\nWe’re [Noah](https://www.linkedin.com/in/noahvogel/) and [Colin](https://www.linkedin.com/in/colin-lavery-67b7512a3/), the founders of [Aerogen Systems](https://www.aerogensystems.com/). We’re building the next generation of clean infrastructure for chip manufacturing.\n\n**TL;DR:** Aerogen Systems makes semiconductor tools clean themselves. Talos, our tool-integrated purification system, continuously destroys airborne contaminants around the wafer, creating 10–100x cleaner tool environments while reducing dependence on ultra-high-purity nitrogen. Over time, Talos becomes the foundation for the Cleanpipe, an ultra-clean interconnect network that lets wafers move between tools without depending on the surrounding cleanroom.\n\n<https://www.youtube.com/watch?v=5yBzBCzwFV8>\n\n# **The Problem**\n\n**Chip features keep getting smaller, but cleanrooms do not scale with them.**\n\nSemiconductor manufacturers spend billions building enormous cleanroom facilities, then spend even more trying to isolate their most advanced wafers from the environment they just built.\n\nAs features approach the atomic scale, trace airborne contaminants that were once tolerable can create defects, reduce yield, and disrupt some of the most sensitive manufacturing processes on Earth. Yet the industry's answer has largely been more of the same: cleaner facilities, more filtration, and more ultra-high-purity nitrogen flooding sensitive equipment.\n\n**The proof is in the yield numbers.** 2026 reporting puts Intel’s 18A program between roughly 50% and 65% yield as it pushed the node toward high-volume production. With global semiconductor sales projected to reach **$1.5 trillion** in 2026, every percentage point matters. Improvements in yield and manufacturing efficiency can represent tens of billions of dollars in value.\n\n# **The Solution**\n\nAt Aerogen Systems, we think the industry is approaching this problem backwards.\n\n**The whole factory does not need to be a massive cleanroom.** Only the environment immediately surrounding the wafer does.\n\nTalos is our proprietary, tool-integrated purification system. It sits directly inside semiconductor manufacturing equipment and continuously recirculates and purifies the environment around the wafer. Instead of constantly replacing contaminated gas with more ultra-high-purity nitrogen, Talos destroys contaminants at the point of use, offering 10–100x cleaner tool environments while dramatically reducing dependence on purge gas and consumable filtration.\n\n![uploaded image](/media/?type=post&id=111026&key=user_uploads/3388722/a095a4e2-31a2-4307-b8f1-bca417cb27d7)\n\n_1. Rendering of standalone Talos unit._\n\nBut Talos is only part of the vision.\n\nWith tool-integrated purification units as a foundation, we build **the Cleanpipe: ultra-clean interconnect infrastructure** that protects wafers as they move from machine to machine across the fab. Talos cleans the tools. The Cleanpipe connects tools to each other. Together, they delete the cleanroom and all the expenses that come with it.\n\n# **What We’ve Built**\n\nTalos has progressed through multiple generations of hardware development and is protected by patent-pending IP. We’ve validated the core purification architecture and are now working toward tool integrations, pilots, and commercial deployments with semiconductor manufacturers and equipment companies.\n\n![uploaded image](/media/?type=post&id=111026&key=user_uploads/3388722/a8596c2c-c29b-4271-8d92-85672dce0dc1)\n\n_2. Test results showing Talos bringing industry-standard 6N purification levels down to 8N — a 100x improvement in cleanliness._\n\nThe next step is connecting these purified environments together through the Cleanpipe, creating an ultra-clean path around the wafer from tool to tool and ultimately removing the need to maintain the entire fab as one enormous cleanroom.\n\n# **The Team**\n\nAerogen Systems started as a NASA-backed research group at the University of Michigan, where our team developed the underlying purification technology. \n\nWe have spent the last several years designing, testing, patenting, and rebuilding this technology for extreme manufacturing environments.\n\n* Noah, CEO, worked in manufacturing engineering at SpaceX, where he focused on production rate and yield improvement for the Starship program.\n\n\n* Colin, CTO, previously built advanced particle detectors at H3D and led the team through the earliest design cycles of Talos.\n\n![uploaded image](/media/?type=post&id=111026&key=user_uploads/3388722/4db2a255-30a8-44ee-928b-b07425918094)\n\n# **Our Ask**\n\nWe want to meet semiconductor fabs, equipment OEMs, and manufacturing teams interested in pilots, tool integrations, and commercial deployments. If this sounds like you, please reach out to [hi@aerogensystems.com](mailto:hi@aerogensystems.com)!\n\nWe are building toward a world where fabs no longer need billion-dollar cleanrooms to manufacture the world’s most advanced chips.",
+      "url": "https://www.ycombinator.com/launches/Ssk-aerogen-systems-building-chip-fabs-without-cleanrooms",
+      "votes": 16,
+      "created_at": "2026-08-18T21:15:05.234Z"
+    }
+  ]
+}

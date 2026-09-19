@@ -1,0 +1,101 @@
+{
+  "id": 31107,
+  "name": "BaseFrame",
+  "slug": "baseframe",
+  "former_names": [
+    "BaseFrame",
+    "Clam",
+    "Clam (formerly Baseframe)",
+    "Clam"
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/5880da17687400c21750667dffa55d876a4dca48.png",
+  "website": "https://baseframe.co",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "Most teams want to plug in AI but don't know where to get started. BaseFrame's desktop app finds exactly what to automate for each employee using the historic data on their computer. \r\n\r\nInstead of relying on screen recording or generic AI demos, we use the existing history of how work gets done across email, docs, Slack, calendar, browser, and files to identify the highest-value automations. We use local models so that your sensitive data doesn’t have to leave your system. \r\n\r\nOnce you find a set of automations, send them off to your automation tool of choice and share them with your team so that everyone can get productivity boosts. \r\n",
+  "one_liner": "Detect what AI can automate for your team",
+  "team_size": 2,
+  "industry": "B2B",
+  "subindustry": "B2B",
+  "launched_at": 1768518655,
+  "tags": [],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Winter 2026",
+  "status": "Active",
+  "industries": [
+    "B2B"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/baseframe",
+  "api": "https://devasheeshg.github.io/yc-api/batches/winter-2026/baseframe.json",
+  "year_founded": 2025,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/baseframe",
+  "x_url": "",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/5880da17687400c21750667dffa55d876a4dca48.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Gustaf Alstromer",
+    "url": "https://www.ycombinator.com/people/gustaf-alstromer"
+  },
+  "founders": [
+    {
+      "user_id": 588419,
+      "full_name": "Anshul Paul",
+      "title": "Founder/CEO",
+      "founder_bio": "Co-Founder and CEO of BaseFrame (W26). Previously founding at HappyRobot, where I worked on omni-channel AI communication, AI evals, and enterprise system integrations. Helped grow company to 100+ in size and Seed to Series B. Majored in EECS and Business at UC Berkeley M.E.T.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/anshulpaul30/",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/b38fc5f991cc286b3ae776df90f6fea21aad6400.jpg"
+    },
+    {
+      "user_id": 1688718,
+      "full_name": "Vaibhav Agrawal",
+      "title": "Founder/CTO",
+      "founder_bio": "Co-Founder of BaseFrame (W26). Previously a Fellow at Sutter Hill Ventures. Worked on the data ingestion infrastructure at Sigma Computing and remote agents orchestration and containerization at Augment Code. Studied CS at Berkeley.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/vaibagra/",
+      "x_url": "https://x.com/vaibagra",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/66b089ee6fe0671fe51e1c62527cfcaac096824e.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 97815,
+      "title": "Clam: Semantic Firewall meets OpenClaw",
+      "tagline": "Enterprise-grade security for broad-access AI Agents like OpenClaw",
+      "body": "Hey everyone! We’re Anshul and Vaibhav from [Clam](https://tryclam.com/).\n\nIf you’ve heard about OpenClaw, you’ve also heard about the security risks and the data leaks that have already happened. Whether you’re an enterprise or an individual, you’re rightfully worried to give it access to all your accounts and data.\n\nWe’re putting our past experiences together to solve that.\n\n<https://www.youtube.com/watch?v=k9pmLp8dz0A>\n\n**A bit about us:**\n\nAnshul led AI evals and observability at HappyRobot (Series B YC company), and Vaibhav worked on scaling virtual agents at Augment Code (Series B AI code company). Fun fact, we were also partners during our Computer Security course at Berkeley a few years ago.\n\n**What we’re building:**\n\nClam brings enterprise-grade security through their “Semantic Firewall”, a security checkpoint that sits around the AI's environment at the network level.\n\nOur system runs a series of scans on anything your AI sends out into the world and everything that comes in to catch inconsistencies before they turn into problems.\n\nEach message is scanned for personal info leaks (SSNs, credit cards, private keys), prompt injection attempts (jailbreaks, instruction overrides), and malicious code (reverse shells, encoded execution).\n\nTo keep your data even safer, API keys and secrets are injected at the network level so the AI never sees or stores your credentials.\n\nDeploy and set up broad-access AI agents built on security with Clam.\n\n**Our Ask:**\n\n* We’d love to talk to folks who’ve already set up their OpenClaw or haven’t yet due to the security issues. [Please reach out!](https://cal.com/anshul-paul-7z6xyu/clam-chat)\n* Please check us out at [TryClam.com](https://tryclam.com/) to get onboarded with integrations smoothly. We’re continually improving the system so any feedback is super appreciated!",
+      "url": "https://www.ycombinator.com/launches/PRf-clam-semantic-firewall-meets-openclaw",
+      "votes": 84,
+      "created_at": "2026-02-14T03:04:57.897Z"
+    },
+    {
+      "id": 96857,
+      "title": "BaseFrame: Bring confidence and clarity to your hardware designs",
+      "tagline": "AI agents that catch risks and tradeoffs early during hardware project scoping",
+      "body": "**TL;DR:** BaseFrame helps hardware teams build more efficiently by identifying design gaps, data-driven tradeoffs, and component availability issues _before_ the first board is spun, catching fatal mistakes while they are still cheap to fix.\n\n<https://youtu.be/ZgsWj-y5hQY>\n\nHey All! We’re Anshul and Vaibhav from BaseFrame. \n\n**Why:**\n\nWe want to speed-up hardware teams so that they can build the cool innovations they are trying to bring to life with fewer bottlenecks\n\nThe current hardware workflow is a broken sequence of handoffs: you finalize a design and send it to procurement, only to discover weeks later that there was an oversight or a critical component has a massive lead time. \n\n### **How It Works**\n\n* **Project Scoping**: Specialized AI agents ask you questions to scope out the project and uncover gaps, drilling down with follow up questions if needed or handing off to the next agent when sufficient. It provides suggestions and recommendations for each question, making sure we have thought about everything early on. \n* **Validations:** Once the questions are answered, we consolidate them into a document and run parallel agents to once again find issues, contradictions, or areas of improvement. \n* **BOM Generation:** Our AI splits the scope into a block diagram and generates a Bill of Materials (BOM) for each by parsing diagrams and tables from datasheets, getting price and lead time data from top vendors, and internal vendor communications. \n* **Versioning & Parallel Agents:** You can branch designs and use parallel agents to simulate multiple architectures simultaneously, revealing quantitative tradeoffs in cost, price, and lead times\n\n**About us:**\n\nWe met during our first week of college and became roommates at Berkeley \n\nAnshul was the founding engineer at HappyRobot and worked on the core omni-channel AI communications features, AI observability and evals, and white glove integrations for enterprise customers.   \n\nVaibhav was a Sutter Hill Venture fellow. He worked on the data ingestion infrastructure at Sigma Computing and worked on remote agent orchestration and containerization for Augment Code.\n\n**We’d love to get in touch!**\n\nEmail: [team@baseframe.co](mailto:team@baseframe.co)\n\nWebsite: <https://baseframe.co>\n\n![uploaded image](/media/?type=post&id=96857&key=user_uploads/588419/c3f91612-45f8-4a25-a794-a160e9f80bb9)\n\n",
+      "url": "https://www.ycombinator.com/launches/PCD-baseframe-bring-confidence-and-clarity-to-your-hardware-designs",
+      "votes": 13,
+      "created_at": "2026-01-16T19:26:41.079Z"
+    }
+  ]
+}

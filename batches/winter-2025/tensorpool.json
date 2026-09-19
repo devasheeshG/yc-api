@@ -1,0 +1,104 @@
+{
+  "id": 30333,
+  "name": "TensorPool",
+  "slug": "tensorpool",
+  "former_names": [],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/79bd0c6f85962c1282260ab60adb0462fdb87ec8.png",
+  "website": "https://tensorpool.dev",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "Our CLI makes ML model training effortless - just describe your job, and we handle GPU orchestration and execution at half the cost of major cloud providers.",
+  "one_liner": "Vercel For GPUs",
+  "team_size": 3,
+  "industry": "B2B",
+  "subindustry": "B2B -> Infrastructure",
+  "launched_at": 1738629191,
+  "tags": [
+    "AIOps",
+    "Developer Tools",
+    "SaaS",
+    "DevOps",
+    "Cloud Computing"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Winter 2025",
+  "status": "Acquired",
+  "industries": [
+    "B2B",
+    "Infrastructure"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/tensorpool",
+  "api": "https://devasheeshg.github.io/yc-api/batches/winter-2025/tensorpool.json",
+  "year_founded": 2025,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/105594641/",
+  "x_url": "https://x.com/tensorpool",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": "https://github.com/tensorpool/tensorpool",
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/79bd0c6f85962c1282260ab60adb0462fdb87ec8.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Jared Friedman",
+    "url": "https://www.ycombinator.com/people/jared-friedman"
+  },
+  "founders": [
+    {
+      "user_id": 2359695,
+      "full_name": "Tycho Svoboda",
+      "title": "Founder",
+      "founder_bio": "Co-founder & CEO of Tensorpool. Ex-Blackstone, Stanford",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/tycho-svoboda/",
+      "x_url": "https://x.com/TychoSvoboda",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/71640aeaca285abc7a66cfc35382cb816fb97f60.jpg"
+    },
+    {
+      "user_id": 969804,
+      "full_name": "Joshua Martinez",
+      "title": "Founder/CTO",
+      "founder_bio": "Co-Founder & CTO of TensorPool (W25)\nPreviously NVIDIA, Apple, Chan Zuckerberg Initiative\nStanford BS & MS in Computer Science + Statistics",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/joshkmartinez/",
+      "x_url": "https://x.com/joshkmartinez",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/c836606ceba2f01352bc677895c11d93dbd10733.jpg"
+    },
+    {
+      "user_id": 1709047,
+      "full_name": "Hlumelo Notshe",
+      "title": "Founder/CPO",
+      "founder_bio": "Co-Founder & CPO of TensorPool\nEx-DeepMind & NextDoor\nStanford BS & MS in Computer Science + Mathematics",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/hlumelo-notshe",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/4f64adb6ddd63e6cd1c2d5f8c9773281f1ced8d6.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 87792,
+      "title": "TensorPool: the easiest way to use GPUs 🌊",
+      "tagline": "With TensorPool, just describe your job and we handle all the GPU orchestration and execution at half the cost",
+      "body": "Hi Everyone! We’re [Joshua](https://bookface.ycombinator.com/user/969804), [Hlumelo](https://bookface.ycombinator.com/user/1709047), and [Tycho](https://bookface.ycombinator.com/user/2359695) - cofounders of TensorPool!👋\n\n**TLDR;** Our CLI makes ML model training effortless - just describe your job, and we handle GPU orchestration and execution at half the cost of major cloud providers.\n\n[Get setup in 3 minutes](https://github.com/tensorpool/tensorpool)\n\nHere’s a quick demo of how easy it is to train ML models with TensorPool!\n\n[**TensorPool Demo -- Fine-Tuning DeepSeek**](https://youtu.be/RqqLIVzP780)\n\n# **Problem**\n\nSince high school, when we trained our first ML models, **accessing remote compute has always been a massive hurdle**. As the years went by and we moved further into academia/industry, a good solution never came. Whether it was AWS EC2’s absurd amount of configuration, or Google Colab’s inability to run jobs without your computer being on, nothing left us satisfied. We talked to our co-workers and friends and they all felt the same. We wanted using GPUs to be as easy as programming locally.\n\n# **Solution**\n\nWe got together and built a way to **access industry-scale compute from your IDE**. No more SSHing. No more massive data migrations. No more ML Ops headache. Just a simple CLI. \\[We also **cut your costs by 50%** which will be explained below :)\\]\n\n# **How It Works**\n\nTensorPool has 2 main advantages:\n\n1. **Ease of Use:** \n   * **Don’t leave your IDE:** TensorPool deploys your code directly to GPUs and ships the results back, just as if you were developing locally. \n   * **Intuitive CLI & Configuration:** With TensorPool you can run your job with a single command, kick off several experiments with different tp.config.toml configurations, and version control training jobs with your code.\n2. **Price Advantage**\n   * **Multi-cloud integration:** We’ve developed technology to do a real time analysis of all available GPU cloud providers, and put your job on the cheapest one.\n   * **Spot node resummation tech:** We’ve created a way to give users the price advantage of spot nodes with the reliability of on-demand instances. This leads to \\~50% savings!\n\n# **Our ask**\n\nWe’re currently giving away $5/week of **free compute** to early users, and would love for you all to **try us out**! Whether your start-up needs an ML infra upgrade or you love messing around with models in your free time – reach out to us we’d love to chat ([team@tensorpool.dev](mailto:team@tensorpool.dev))! You can find all the information to get started [on our GitHub](http://github.com/tensorpool/tensorpool) (**drop us a star while you’re there** 😊) or [our website](https://tensorpool.dev).\n\n**We would also love intros to enterprises** that you believe could benefit from cheaper / easier access to GPUs.\n\n# **Try TensorPool today!**\n\nBelow is a quick start:\n\nAfter completing [the prerequisites](https://github.com/tensorpool/tensorpool?tab=readme-ov-file#prerequisites), we create a “tp.config.toml” ([explained here](https://github.com/tensorpool/tensorpool?tab=readme-ov-file#configuration)), either manually with: \n\n```\ntp config new\n```\n\nOr auto-generate one with natural language: \n\n```\ntp config <describe your task>\n```\n\nTo then deploy and run your job – simply run:\n\n```\ntp run\n```\n\nand that’s it! Your model is training on cloud GPUs! \n\n# **About Us**\n\nJoshua, Tycho, and Hlumelo all met their freshman year at Stanford where they got placed on the same dorm floor. Since then, they’ve taken all their classes together and have worked at companies like Apple, Blackstone, DeepMind, Nextdoor, CZI, and PIMCO.",
+      "url": "https://www.ycombinator.com/launches/Mq0-tensorpool-the-easiest-way-to-use-gpus",
+      "votes": 697,
+      "created_at": "2025-02-18T22:18:38.093Z"
+    }
+  ]
+}

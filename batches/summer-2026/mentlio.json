@@ -1,0 +1,95 @@
+{
+  "id": 31495,
+  "name": "Mentlio",
+  "slug": "mentlio",
+  "former_names": [
+    "Adjoint"
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/f7a733c432ee3fbe8a11ed5dec1520431b7f8d09.png",
+  "website": "https://mentlio.com",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "Mentlio an applied research lab focused on optimizing AI ROI for the modern enterprise. We help engineering teams draw a line between their AI spend and delivery, per engineer. We then cut ~30% of AI spend via Mentlio's custom ML-based intelligent routing, context optimization, and prompt compression.",
+  "one_liner": "Engineering Intelligence and Token Optimization for the AI-Coding Era",
+  "team_size": 0,
+  "industry": "B2B",
+  "subindustry": "B2B",
+  "launched_at": 1786589390,
+  "tags": [
+    "Developer Tools",
+    "Machine Learning",
+    "Productivity"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Summer 2026",
+  "status": "Active",
+  "industries": [
+    "B2B"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/mentlio",
+  "api": "https://devasheeshg.github.io/yc-api/batches/summer-2026/mentlio.json",
+  "year_founded": 2026,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/mentlio/",
+  "x_url": "",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/f7a733c432ee3fbe8a11ed5dec1520431b7f8d09.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [
+    "https://bookface-images.s3.us-west-2.amazonaws.com/attachments/9be0890b6c5594bbc3af263ac4e025a316283383.png"
+  ],
+  "primary_partner": {
+    "name": "Pete Koomen",
+    "url": "https://www.ycombinator.com/people/pete-koomen"
+  },
+  "founders": [
+    {
+      "user_id": 2693539,
+      "full_name": "Ashank Shah",
+      "title": "Founder/CEO",
+      "founder_bio": "Building Mentlio | Prev. CS @ Caltech | Researched generative and graph-based DL for biomedical problems @ Dartmouth Health.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/ashank-shah/",
+      "x_url": "https://x.com/ashankshah_x",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/758354f37ee3a77f1731eb04c7889b1d7bb48571.jpg"
+    },
+    {
+      "user_id": 2587306,
+      "full_name": "Ahmet Demirbas",
+      "title": "Founder/CTO",
+      "founder_bio": "Tokenmaxxing → ROImaxxing | Prev CS @ Caltech | 5x Published ML, NLP, Agents Research @ IEEE, ACM, BMC",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/ahmet-demirbas7/",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/078fa095bf49a870046553858e43d9b8fc0cb577.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 111055,
+      "title": "Mentlio: Engineering Intelligence & Token Optimization for the AI-coding Era",
+      "tagline": "The spend and ROI command center for the modern engineering org ",
+      "body": "**TL;DR:** Mentlio is the engineering intelligence platform for the AI-coding era. We help engineering organizations cut AI costs by up to 30% and finally see what ROI that spend is actually producing. All without ever collecting your prompts or source code.\n\n**Launch Video**\n\n<https://youtu.be/-28j9HvTYV0>\n\n**Problem**\n\nEvery engineering org is now an AI org. Token usage is growing exponentially, and so is the bill. The following questions have been largely unanswered:\n\n* How can we cut our usage-based AI spend without bottlenecking usage or efficiency?\n* What ROI are we getting for every dollar of AI spend?\n* To what extent is AI-generated code creating quality debt?\n\nBrian Armstrong recently laid out how Coinbase is reducing AI spend while token usage grows exponentially on X: better defaults, smarter routing, cache awareness, lean context, and full visibility into usage and impact. \n\n![uploaded image](/media/?type=post&id=111055&key=user_uploads/2693539/7bf48740-dd37-4015-9da9-ec0f9bd900ed)\n\nCoinbase built a custom harness, LLM gateway, routing, and usage visibility internally. We believe they have the right thesis, but most engineering orgs don’t want to run on a custom harness. **Mentlio gives every eng team a better version of those savings &amp; visibility without changing any workflows.**\n\n**Solution**\n\nMentlio gives you:\n\n1. **ROI.** We translate every PR into normalized units of work: Delivery Points. We consider associated spend, code reusability, and historical patches to turn \"we spend $X on AI\"  -> \"we spend $X per impact point.” compared to industry data. \n2. **Cost intelligence + optimization.** See exactly where AI spend goes across teams, tools, and models. Optionally catch and cut waste across cache misses, oversized models on trivial tasks, bloated context and cut it without capping/bottlenecking accuracy. \n3. **Quality signal.** AI-assisted code that ships fast but breaks later isn't a win. We connect AI usage to delivery and quality outcomes so you can see the full picture\n\nWe’re the only platform with the above capabilities that never collects prompts or source code.\n\n**Our Asks**\n\nIf you are or know a Head of Eng, VP Eng, CTO, or platform lead at a 15+ engineer org with real AI spend, reach out! You can book a demo at[ mentlio.com/intro](http://mentlio.com/intro) or reach us at [founders@mentlio.com](mailto:founders@mentlio.com).\n\n**The Team**\n\nAshank and Ahmet met while studying Computer Science at Caltech while they were working part-time Founding Engineer roles at Series A and Seed stage startups. Ashank previously researched generative image AI &amp; graph deep learning for pathology, genomics, and drug design at Dartmouth &amp; Purdue and won internationally at the International Science &amp; Engineering Fair &amp; Junior Science &amp; Humanities Symposium. Ahmet previously published his research in transformers and AI in IEEE, BMC AI, and ACM and also won internationally at the National AI Olympiad, International Science &amp; Engineering Fair, and was named a Top 300 Science Scholar by Regeneron.   \n\n![uploaded image](/media/?type=post&id=111055&key=user_uploads/2693539/d04ec655-df84-4d43-836d-160313b4b133)\n\n",
+      "url": "https://www.ycombinator.com/launches/StD-mentlio-engineering-intelligence-token-optimization-for-the-ai-coding-era",
+      "votes": 88,
+      "created_at": "2026-08-18T22:00:00.168Z"
+    }
+  ]
+}

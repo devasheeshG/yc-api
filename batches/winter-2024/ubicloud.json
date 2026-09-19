@@ -1,0 +1,126 @@
+{
+  "id": 29231,
+  "name": "Ubicloud",
+  "slug": "ubicloud",
+  "former_names": [],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/621ac44e76ec8f002f47c567b4533df1d318abcc.png",
+  "website": "https://www.ubicloud.com",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "Ubicloud is an open source cloud that can run anywhere.\r\n\r\nOur cloud services include elastic compute, block storage, virtual networking, managed Postgres, K8s, AI inference, and powerful IAM. Ubicloud provides these services on bare metal providers, such as Hetzner, Leaseweb, or AWS Bare Metal.\r\n\r\nYou can self-host our software or use our managed service to reduce your cloud costs by 3-10x.",
+  "one_liner": "Open source alternative to AWS",
+  "team_size": 15,
+  "industry": "B2B",
+  "subindustry": "B2B -> Infrastructure",
+  "launched_at": 1700481295,
+  "tags": [
+    "Cloud Computing",
+    "Infrastructure",
+    "AI",
+    "Databases"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": true,
+  "nonprofit": false,
+  "batch": "Winter 2024",
+  "status": "Active",
+  "industries": [
+    "B2B",
+    "Infrastructure"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada",
+    "Remote",
+    "Partly Remote"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/ubicloud",
+  "api": "https://devasheeshg.github.io/yc-api/batches/winter-2024/ubicloud.json",
+  "year_founded": 2023,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/ubicloud",
+  "x_url": "https://twitter.com/UbicloudHQ",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": "https://github.com/ubicloud/ubicloud",
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/621ac44e76ec8f002f47c567b4533df1d318abcc.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Garry Tan",
+    "url": "https://www.ycombinator.com/people/garry-tan"
+  },
+  "founders": [
+    {
+      "user_id": 26240,
+      "full_name": "Umur Cubukcu",
+      "title": "Founder",
+      "founder_bio": "Previously visiting partner at YC for W23 and S23; now co-founder at Ubicloud. Co-founder and CEO of Citus Data (S11), the creators of the distributed PostgreSQL database Citus. Led the PostgreSQL product team at Azure, after Citus Data was acquired in 2019 by Microsoft.",
+      "is_active": true,
+      "linkedin_url": "https://linkedin.com/in/umurc",
+      "x_url": "https://twitter.com/umurc",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/811b92be504c42ee56cf6aad47e9f0f260d0fc7c.jpg"
+    },
+    {
+      "user_id": 26241,
+      "full_name": "Ozgun Erdogan",
+      "title": "Founder",
+      "founder_bio": "I’m the cofounder of Ubicloud (YC W24), an open source alternative to AWS. We're on a mission to rebuild the cloud market with different values.\n\nPreviously, I was a partner at Microsoft, leading PostgreSQL engineering teams. I came to Microsoft through its acquisition of Citus Data (S11). I was the cofounder and CTO at Citus, and I learned a lot about doing startups there. Before all this, I built distributed systems at Amazon.",
+      "is_active": true,
+      "linkedin_url": "https://linkedin.com/in/ozgune",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/d633f56431a747505416d1e826a81fb1377926ee.jpg"
+    },
+    {
+      "user_id": 49554,
+      "full_name": "Daniel Farina",
+      "title": "Founder/CTO",
+      "founder_bio": "I am one of the founders of Ubicloud.\n\nI've contributed to a number of control planes from an early phase, starting at Heroku, in what would become Heroku Postgres. Since then, I've serially created new control planes and infrastructure cloud products with some close colleagues, at Citus Cloud and Crunchy Bridge. Ubicloud is the fourth such system.\n",
+      "is_active": true,
+      "linkedin_url": "https://linkedin.com/in/danfarina",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/18aa66df55ba80101caba48b73dd18d85d324c17.jpg"
+    }
+  ],
+  "jobs": [
+    {
+      "id": 89544,
+      "title": "Software Engineer",
+      "url": "https://www.ycombinator.com/companies/ubicloud/jobs/j4bntEJ-software-engineer",
+      "location": "CA, US / Remote (NL; TR)",
+      "type": "Full-time",
+      "role": "Engineering",
+      "role_type": "Full stack",
+      "salary_range": "$95K - $250K",
+      "equity_range": "0.15% - 0.50%",
+      "experience": "3+ years",
+      "visa": "US citizen/visa only",
+      "skills": []
+    }
+  ],
+  "news": [
+    {
+      "title": "Ubicloud wants to build an open source alternative to AWS | TechCrunch",
+      "url": "https://techcrunch.com/2024/03/05/ubicloud-wants-to-build-an-open-source-alternative-to-aws/",
+      "date": "Mar 05, 2024"
+    }
+  ],
+  "launches": [
+    {
+      "id": 79315,
+      "title": "Ubicloud - Open source alternative to AWS",
+      "tagline": "Ubicloud is an open source cloud that can run anywhere.",
+      "body": "**TL;DR**: Ubicloud provides IaaS cloud features on bare metal providers, such as Hetzner, Leaseweb, or AWS Bare Metal. You can self-host our software or use our managed service to reduce your cloud costs by 3-10x.\n\nHey everyone 👋 We’re Umur, Daniel, and Ozgun from [Ubicloud](https://www.ubicloud.com). We’re on a mission to rebuild the cloud market with different values. More on us below.\n\n## The Problem\n\n![uploaded image](/media/?type=post&id=79315&key=user_uploads/26241/10a339e1-dafe-421e-99f4-9484960966a7)\n\nAWS, Azure, and Google Cloud make life easier for start-ups and enterprises. But they are closed source, have you rent computers at a huge premium, and lock you in. It gets worse after your credits expire.\n\nAlthough the cloud came in with savings in its early years, the market evolved into a few players that overcharge for non-differentiated services, with increasingly complex products for standard, essential services. Each vendor optimizing for their walled gardens leaves customers stuck maintaining their apps and infra across incompatible clouds.\n\nThe cloud is here to stay. We believe a simpler, secure, and open source version of it will have a lasting impact.\n\n## The Solution\n\nUbicloud offers an open source alternative, reduces your costs, and returns control of your infrastructure back to you — all without sacrificing the cloud’s benefits. We’re starting with elastic compute, virtual networking, block storage (non-replicated), managed PostgreSQL, and powerful IAM.\n\nOur managed cloud runs on cost-effective bare metal providers, such as Hetzner. As a result, you can reduce your costs by 3-10x. Example use-cases:\n\n1. GitHub Actions: Change 1-line in your workflow file. Reduce costs by 10x\n2. Compute for batch processing: Run data pipelines for AI, scientific computing, and video processing - on-demand and encrypted. Reduce costs by 3x (vs AWS VMs)\n3. Managed PostgreSQL: Open source and portable. Uses local NVMes for higher performance, ideal for analytics. Reduce costs by 3x (vs AWS RDS)\n\n## The Team\n\n![uploaded image](/media/?type=post&id=79315&key=user_uploads/89898/3ce2495a-3697-4f8e-a61e-a6aa4a64bde7)\n\n_“Never tell me the odds.” — Han Solo_\n\nWe think the cloud galaxy deserves a solution that stands for open source values. We’re building to those values as part of the Rebel Alliance (yes, an alliance is needed to outmatch the empire :). From left to right:\n\n[Umur](https://www.linkedin.com/in/umurc/) - 5 years at startups. Then co-founded and led Citus Data (S11) to Microsoft acquisition. Led product teams within Azure. YC Visiting Partner for the previous two batches\n\n[Ozgun](https://www.linkedin.com/in/ozgune/) - 4 years at Amazon. Then co-founded and led Citus Data (S11) to Microsoft acquisition. Led engineering teams within Azure.\n\n[Daniel](https://www.linkedin.com/in/danfarina/) - Instrumental in building Heroku PostgreSQL. Amazed everyone with his skills in building managed cloud services at Citus Data, Azure, and Crunchy Bridge.\n\n## Our Ask\n\n1. Help us build the Rebel Alliance. [**Follow us (@UbicloudHQ)**](https://twitter.com/UbicloudHQ) on Twitter and tweet [**this post**](https://twitter.com/UbicloudHQ/status/1767594825023721858)!\n2. Start using Ubicloud for [GitHub Actions](https://www.ubicloud.com/use-cases/github-actions), [secure virtual machines](https://www.ubicloud.com/use-cases/ubicloud-compute), or [managed PostgreSQL](https://www.ubicloud.com/use-cases/postgresql). We reduce costs by 3-10x and we are open source!\n\n## The Deal\n\nTweeting and following us on Twitter gets 5,000 free compute minutes (standard-2). Using Ubicloud for one of the above use cases before demo day gets 10,000 compute minutes. Claim those minutes by sending us an email at [founders@ubicloud.com](mailto:founders@ubicloud.com)",
+      "url": "https://www.ycombinator.com/launches/KdH-ubicloud-open-source-alternative-to-aws",
+      "votes": 121,
+      "created_at": "2024-03-12T16:11:25.761Z"
+    }
+  ]
+}

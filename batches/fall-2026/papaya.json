@@ -1,0 +1,103 @@
+{
+  "id": 36643,
+  "name": "Papaya",
+  "slug": "papaya",
+  "former_names": [],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/90437a276bb22b842ea04cd42e19389e216c984c.png",
+  "website": "https://papaya.fyi/",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "Papaya is the optimization engine for AI agents. Engineers don't have time to continually improve the agents they've shipped — the context bloat, overly chatty subagents, and broken tool calls sit in production traces nobody reads, quietly hurting agent efficiency. With Papaya they connect their agent directly via SDK, get actionable recommendations on how to improve quality, latency, and cost, and the ones they approve are pushed to production as pull requests.\r\n\r\nPapaya runs 200+ research-backed analyses across context, prompts, prompt caching, subagents, and tool calls. Every recommendation is ranked by impact and comes with the production runs that produced it — typically a 10%+ quality improvement on the first workflow analysis.",
+  "one_liner": "Continuous optimization for AI agents",
+  "team_size": 3,
+  "industry": "B2B",
+  "subindustry": "B2B",
+  "launched_at": 1789407516,
+  "tags": [
+    "AIOps",
+    "B2B",
+    "Enterprise Software",
+    "Infrastructure",
+    "AI"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Fall 2026",
+  "status": "Active",
+  "industries": [
+    "B2B"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/papaya",
+  "api": "https://devasheeshg.github.io/yc-api/batches/fall-2026/papaya.json",
+  "year_founded": 2026,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/papayaai",
+  "x_url": "",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": "https://github.com/Papaya-AI-Inc/papaya-ai",
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/90437a276bb22b842ea04cd42e19389e216c984c.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Andrew Miklas",
+    "url": "https://www.ycombinator.com/people/andrew-miklas"
+  },
+  "founders": [
+    {
+      "user_id": 2135001,
+      "full_name": "Macy Mody",
+      "title": "Founder/CEO",
+      "founder_bio": "Co-Founder & CEO at Papaya (YC F26). Previously led GTM and Ops at SafeBase from $0-10M ARR and through its acquisition. Also built analytics products at HqO and managed investments for Amex Digital Labs. UMich undergrad and HBS MBA.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/macy-berg/",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/570e127be1ea69af0971fe4c5f2a81e394bae22b.jpg"
+    },
+    {
+      "user_id": 48440,
+      "full_name": "Niyaz Puzhikkunnath",
+      "title": "Founder/CPO",
+      "founder_bio": "Founder at Papaya. Previously Sr. SDE at Amazon for several years building large-scale ML systems across Computer Vision, Classification, LLMs/Agents. Led work on brand and product classification, built agent evaluation workflows, and created a self-service ML training pipeline. Earlier, an early engineer at Zovi.com, where he helped build the front-end architecture and internal analytics.",
+      "is_active": true,
+      "linkedin_url": "https://linkedin.com/in/niyazpk",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/104b41ff2bd7bbe701b32887f45470ba3e89badd.jpg"
+    },
+    {
+      "user_id": 3166801,
+      "full_name": "Faiz Vadakkumpadath",
+      "title": "Founder",
+      "founder_bio": "Founder at Papaya (YC F26). Previously Senior Data Engineer at Amazon for 10 years, leading teams for the enterprise Data Lake, solving problems at Exabyte scale. Earlier scaled Vodafone's MPESA mobile money system in Africa from 25 to 200 tps at IBM. Co-founded OpenReporting, a SaaS financial reporting tool.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/vpfaiz",
+      "x_url": "https://x.com/vpfaiz",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/cfa4f0888a12e8d75c59b3bd551968fc62ced0d5.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 115486,
+      "title": "Papaya - Continuous Optimization for your AI agents",
+      "tagline": "Papaya finds what's hurting your agent's quality, cost, and latency, and fixes it for you.",
+      "body": "Hey everyone! 👋 \\\n\\\nWe're Macy, Faiz and Niyaz - co-founders of[ Papaya](https://papaya.fyi) \n\n**TL;DR**\n\nPapaya is the optimization engine for AI agents. Connect your production agent and Papaya watches every action, finds what's hurting quality, cost, and latency, and gives you the fix. Once a fix is in place, Papaya makes sure your agent doesn't regress. Teams running Papaya are seeing 20%+ improvements to quality, latency, and cost.\n\n**Ask:** If you run an agent in production, connect it to Papaya. Grab a time to get started [here](https://cal.com/macy-mody/macy-papaya).\n\n<https://youtu.be/cG9iIVB5Psk>\n\n**The Problem**\n\nWe’ve been building agentic systems for years (6 years to be exact…before it was cool), including really large ones that helped run major workflows inside Amazon. We know firsthand that the hard part isn’t getting an agent to work, it’s keeping it working at a high quality bar. We consistently saw that every model update and every prompt change shifted behavior in ways nobody caught until something downstream looked wrong. The only way to find out what changed was to pull traces and read them by hand.\n\nMost companies shipping agents today are focused on the next feature for customers and they don't have time to fully maintain what's already been released. When we built our own agent as a three-person team, we hit the same wall. We needed to make sure our agent had high quality answers, was fast for our customers, and as low cost as possible, but we had to look at everything by hand. Every hour we spent examining traces was an hour we couldn’t spend on new product development. That's why we built Papaya.\n\n**How Papaya works 🔧** \n\nAt Papaya, our goal is to do the hard AI engineering work for you, staying up to date on the latest and greatest research so you can take advantage of this knowledge through optimizations. Simply stream your production traces through a lightweight SDK. From there, Papaya:\n\n* **Finds your use cases**: groups every run by the job the agent is doing, so you're looking at \"refund requests,\" not \"run 4812.\"\n* **Runs 200+ analyses**: checks every use case against 200+ research-backed failure patterns across quality, cost, and latency.\n* **Ranks the fixes by impact**: every recommendation comes with an estimated effect on quality, latency, and cost. Approve the ones you want directly in Papaya and Papaya opens the PR.\n* **Watches for regression**: once a fix ships, Papaya keeps checking that the improvement holds.\n\n![uploaded image](/media/?type=post&id=115486&key=user_uploads/2135001/0a49f356-ac11-44d5-bcc1-69caf4ba64d9)\n\n\n**Our Ask 🙏**\n\n* Run an agent in production? Connect it to Papaya. Grab a time with us [here](https://cal.com/macy-mody/macy-papaya).\n* Know any companies spending tons of time maintaining and fixing their agents? Intro us at [macy@papaya.fyi](mailto:macy@papaya.fyi).\n* Building agents and want a second set of eyes? Ping us. We are happy to help however we can!\n\n**The Team**\n\nWe've spent over 10 years building large scale agentic systems at Amazon, and we've scaled other YC startups from $0 to $10M ARR through acquisition. We started out building an analytics agent. The harness we built to optimize our own agent became the center of every prospect conversation, so we pivoted to it. Meet our team below :) \n\n![uploaded image](/media/?type=post&id=115486&key=user_uploads/2135001/ba5c9344-fb83-47ed-8c8c-deef533840ce)\n\n",
+      "url": "https://www.ycombinator.com/launches/U2g-papaya-continuous-optimization-for-your-ai-agents",
+      "votes": 16,
+      "created_at": "2026-09-16T18:04:02.706Z"
+    }
+  ]
+}

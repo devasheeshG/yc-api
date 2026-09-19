@@ -1,0 +1,90 @@
+{
+  "id": 32649,
+  "name": "Daqstra",
+  "slug": "daqstra",
+  "former_names": [],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/dad9cd6f305ec9c8a219f22ee7d83e68f227d245.png",
+  "website": "https://www.daqstra.com",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "Daqstra is the AI-native orchestration layer for physical R&D. It saves engineers in Aerospace, Energy and Robotics hundreds of man hours managing test infrastructure by connecting fragmented test hardware, bringing live and historical test data into one place, and by giving engineers an API to orchestrate their entire test setup. We enable teams to spend less time rebuilding test infrastructure and more time improving the hardware they test.",
+  "one_liner": "AI-native test infrastructure layer for hardware companies",
+  "team_size": 3,
+  "industry": "B2B",
+  "subindustry": "B2B",
+  "launched_at": 1784276991,
+  "tags": [
+    "Artificial Intelligence",
+    "Hard Tech"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Summer 2026",
+  "status": "Active",
+  "industries": [
+    "B2B"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/daqstra",
+  "api": "https://devasheeshg.github.io/yc-api/batches/summer-2026/daqstra.json",
+  "year_founded": 2025,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/daqstra/",
+  "x_url": "https://x.com/daqstra",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/dad9cd6f305ec9c8a219f22ee7d83e68f227d245.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Gustaf Alstromer",
+    "url": "https://www.ycombinator.com/people/gustaf-alstromer"
+  },
+  "founders": [
+    {
+      "user_id": 2554874,
+      "full_name": "Darell Chua",
+      "title": "Founder/CEO",
+      "founder_bio": "Founder at Daqstra (YC S26). Previously Systems Performance Architecture at Rivian, Member of Technical Staff at DSO National Labs Singapore. MS in Computer Engineering from UC San Diego. Developed end-to-end high performance hardware and software systems for aerospace and drone applications.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/darell-chua/",
+      "x_url": "https://x.com/heyitsdarell",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/fcda896cbacc71f741df36a68755f8fdc284f41f.jpg"
+    },
+    {
+      "user_id": 2547322,
+      "full_name": "Anchit Kumar",
+      "title": "Founder/CTO",
+      "founder_bio": "I’m a co-founder of Daqstra (YC S26), building AI-native orchestration for test infrastructure in physical R&D. I studied computer science at UCSD, where I led AI and autonomy for Mars cave exploration drones and worked on multimodal AI safety for vision-language-action robots. My co-founder and I met building rocket engines, and I’ve since worked across 10+ test campaigns in the Mojave Desert.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/anchitk/",
+      "x_url": "https://x.com/anchit__kumar",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/a52b0a3b2d8e6caf3372ee158748700e91fa9ce5.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 106987,
+      "title": "Daqstra – Test infrastructure shouldn't bottleneck great engineering",
+      "tagline": "AI-native orchestration for physical R&D testing",
+      "body": "# \\*\\*\\*\\*\n\n**TL;DR: [Daqstra](https://www.daqstra.com/) is the AI-native test orchestration platform for physical R&amp;D. We connect fragmented test hardware, capture every run, and give engineers an API to operate their test setup, helping aerospace, energy, and robotics teams spend less time rebuilding infrastructure.**\n\nHey! We’re [Anchit Kumar](https://www.linkedin.com/in/anchitk/) and [Darell Chua](https://www.linkedin.com/in/darell-chua/), the founders of [Daqstra](https://www.daqstra.com/).\n\n![uploaded image](/media/?type=post&id=106987&key=user_uploads/2547322/7ed7475e-d673-4796-9462-d40f72da12ad)\n\nWe met while testing liquid rocket engines in the Mojave Desert.\n\nThe engines were difficult, but much of the friction came from the infrastructure around them. Before each test, we connected sensors, custom electronics, NI hardware, PLCs, and controllers that were never designed to work together. After each run, the data was scattered across machines, file formats, scripts, and people’s heads.\n\nBefore we could learn from one test, we often had to reconstruct what had happened.\n\nAfter talking with teams building rockets, energy systems, robots, and drones, we kept hearing the same story: **their hardware was advancing faster than the infrastructure used to test it.**\n\n## What We Built\n\n[Watch the demo](https://www.youtube.com/watch?v=ykvD67omalI) or visit [daqstra.com](http://daqstra.com).\n\nDaqstra works with the equipment teams already have, including NI/LabVIEW, PLCs, custom DAQ systems, sensors, controllers, and vendor hardware.\n\n* **Daqstra Edge** connects hardware at the test site and records commands alongside the resulting telemetry.\n* **Daqstra Hub** stores each run with its configuration, events, notes, and engineering context, making it easier to monitor tests, compare runs, and investigate anomalies.\n* **Daqstra API** lets engineers configure hardware and execute repeatable test sequences through software.\n\nTogether, these give teams one interface across otherwise incompatible hardware without forcing them to replace their existing stack.\n\n## What We’re Already Doing\n\nWe’re working with advanced hardware teams across aerospace, energy, and drones. Our active aerospace programs use Daqstra day to day across fragmented, multi-vendor test environments.\n\nIn energy, we’ve signed a pilot with a palm oil processor targeting $100K+ in annual savings by reducing recoverable oil lost through its effluent stream. We’re also helping drone teams unify telemetry, control, and test data across vehicles and ground systems.\n\n## Who We’d Love to Meet\n\nIf you lead test, propulsion, integration, validation, or hardware engineering and run frequent instrumented tests, we’d love to talk.\n\nDaqstra is especially useful if your team:\n\n* Works across vendor equipment, PLCs, custom electronics, and in-house software\n* Reconfigures its setup between tests or struggles to compare runs\n* Relies on a few engineers who understand the entire test environment\n\nWe’re initially focused on aerospace, energy, drones, and robotics. If this sounds like your team, reply here or email [**team@daqstra.com**](mailto:team@daqstra.com).\n\nIf it sounds like someone you know, we’d appreciate an introduction to the person responsible for test infrastructure, integration, or validation.\n\n**Ad Astra Per Daqstra**",
+      "url": "https://www.ycombinator.com/launches/Rpb-daqstra-test-infrastructure-shouldn-t-bottleneck-great-engineering",
+      "votes": 9,
+      "created_at": "2026-07-23T19:42:19.138Z"
+    }
+  ]
+}

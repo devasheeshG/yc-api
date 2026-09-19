@@ -1,0 +1,79 @@
+{
+  "id": 31351,
+  "name": "Scope",
+  "slug": "scope",
+  "former_names": [],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/6d0e13bdfef2fd20cec6977b8134ca84d57ab225.png",
+  "website": "https://tryscope.app",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "Scope is the system companies use to measure and improve how agents discover, interact and use their product.\r\n\r\nAs more products gets used through AI agents like Claude Code, Codex, Cursor, and similar agents, agents are starting to influence which tools get chosen, how they get set up, and whether they keep getting used. Most companies still cannot see that process clearly.\r\n\r\nWe run real workflows across agents and show teams when the agent picks them versus a competitor, where it breaks, where docs or product surfaces confuse the agent, and what to change to get better results and a better agent experience.\r\n\r\nI started Scope after working on interpretability research for closed-source models at Princeton and later as an ML engineer in GEO/AEO. I kept seeing the same pattern: these systems were shaping real product discovery and usage, but companies had very little visibility into what the model was actually doing.\r\n\r\nWe are starting with products that agents can directly interact with, especially APIs, infra products, CLIs, and MCP servers.",
+  "one_liner": "We help software companies get discovered and used by AI agents",
+  "team_size": 2,
+  "industry": "B2B",
+  "subindustry": "B2B",
+  "launched_at": 1778026418,
+  "tags": [],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Spring 2026",
+  "status": "Active",
+  "industries": [
+    "B2B"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/scope",
+  "api": "https://devasheeshg.github.io/yc-api/batches/spring-2026/scope.json",
+  "year_founded": 2025,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/tryscope",
+  "x_url": "https://x.com/tryscope_app",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/6d0e13bdfef2fd20cec6977b8134ca84d57ab225.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [
+    "https://bookface-images.s3.us-west-2.amazonaws.com/attachments/4f6c1ad896b9f534771954deaff8fb88afb2e521.png"
+  ],
+  "primary_partner": {
+    "name": "Nicolas Dessaigne",
+    "url": "https://www.ycombinator.com/people/nicolas-dessaigne"
+  },
+  "founders": [
+    {
+      "user_id": 2135050,
+      "full_name": "Anand-Arnaud Pajaniradjane",
+      "title": "Founder/CEO",
+      "founder_bio": "Anand is the founder of Scope, which helps companies understand and improve how AI agents discover, choose, and use their product.\n\nBefore Scope, he did interpretability research on closed-source models at Princeton and later worked as an ML engineer in GEO/AEO. He started Scope after seeing that model behavior was becoming commercially important, while companies still had almost no visibility into how those systems were influencing product discovery and usability.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/anand-arnaud-pajaniradjane/",
+      "x_url": "https://x.com/anandPa94",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/89238730d57b527b13250fff688f428281761907.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 101192,
+      "title": "Scope - The Agent Experience Platform",
+      "tagline": "We help companies understand and improve how AI agents discover, choose, and use their product",
+      "body": "Hey everyone! I’m Anand, founder of Scope.\n\n**Problem**\\\nMore and more products are now being used through Claude Code, Codex, Cursor, and similar agents. If your product is accessible to an agent, the agent can now decide which product to use, how to set it up, and whether it keeps using it after that. Most companies still can’t see that process clearly.\n\nThat means they often do not know when an agent is choosing them vs. a competitor, where it is getting stuck, or what part of the product or docs is causing the problem.\n\n**Solution**\\\nThat’s what Scope is for.\n\nWe run real workflows across agents and show teams:\n\n* when the agent chooses them vs. a competitor\n* where it breaks\n* where docs or product surfaces confuse the agent\n* what to change to get better results\n\nA simple example: a company thinks their product works well with agents, but on a real task the agent picks a competitor, gets stuck during auth, or goes down the wrong path because the docs are unclear. Scope shows the trace, where it failed, and what to change.\n\nWe’re already working with Blaxel and a decacorn.\n\n**Demo video:**\\\n<https://youtu.be/OqtaJbjMbiQ>\n\n**Why I’m working on this**\\\nBefore Scope, I did interpretability research on closed-source models at Princeton, then worked as an ML engineer on GEO / AEO. I kept seeing the same thing: these systems were starting to shape product discovery and product usage in real ways, but for companies, the process was still mostly a black box. I wanted to build something that makes that behavior visible and useful to the teams trying to fix it.\n\n**Ask**\n\n* If you’re building a product that can be used by an agent, an API, an infra product, a CLI, or an MCP server, I’d be happy to run Scope on your product and send you what we find.\n* If you know founders, product teams, DevRel, or growth folks thinking about this, feel free to send them my way.\n* You can check us out at[ ](http://tryscope.app/)[tryscope.app](http://tryscope.app) or reach out to me directly at [anand@tryscope.app](mailto:anand@tryscope.app).",
+      "url": "https://www.ycombinator.com/launches/QK8-scope-the-agent-experience-platform",
+      "votes": 9,
+      "created_at": "2026-05-11T16:17:37.856Z"
+    }
+  ]
+}

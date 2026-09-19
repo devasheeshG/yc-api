@@ -1,0 +1,88 @@
+{
+  "id": 30507,
+  "name": "ParaQuery",
+  "slug": "paraquery",
+  "former_names": [
+    "Hypermorphic"
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/023b1fec88d11ac0cc00d33e137188a1088f80f1.png",
+  "website": "https://paraquery.com",
+  "all_locations": "New York City, NY, USA; Remote",
+  "long_description": "ParaQuery is a fully-managed GPU-accelerated Spark solution providing double the performance at half the cost compared to solutions like Databricks and BigQuery. It is fully Spark-compatible, cloud agnostic, and has seamless integrations everywhere, all without vendor lock-in. ParaQuery makes it trivial to run large SQL and Spark workloads efficiently and serverlessly, without any data migrations.",
+  "one_liner": "Managed GPU-accelerated Spark + SQL at 2x speed and half the cost",
+  "team_size": 1,
+  "industry": "B2B",
+  "subindustry": "B2B -> Infrastructure",
+  "launched_at": 1745603504,
+  "tags": [
+    "Developer Tools",
+    "Analytics",
+    "Big Data",
+    "Enterprise Software",
+    "Infrastructure"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Spring 2025",
+  "status": "Active",
+  "industries": [
+    "B2B",
+    "Infrastructure"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada",
+    "Remote",
+    "Fully Remote"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/paraquery",
+  "api": "https://devasheeshg.github.io/yc-api/batches/spring-2025/paraquery.json",
+  "year_founded": 2023,
+  "city": "New York City",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/paraquery",
+  "x_url": "http://twitter.com/paraquery_",
+  "fb_url": null,
+  "cb_url": "https://www.crunchbase.com/organization/paraquery",
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/023b1fec88d11ac0cc00d33e137188a1088f80f1.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Diana Hu",
+    "url": "https://www.ycombinator.com/people/diana-hu"
+  },
+  "founders": [
+    {
+      "user_id": 1091672,
+      "full_name": "Win Wang",
+      "title": "Founder/CEO",
+      "founder_bio": "Focused on efficiency, effectiveness, and (user) experience.\nPreviously a tech lead @ Twitter, building massively-parallel distributed build systems.\nNow building a cheaper, faster big data platform by using the right hardware for job. Fully-managed, GPU-accelerated, petabyte-scale at double the speed and half the cost.\n",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/winwang",
+      "x_url": "https://twitter.com/Winium",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/3a5065a212f3a4dd12f6130ba83f67162fb66507.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 90162,
+      "title": "ParaQuery - 5x your data warehouse's efficiency",
+      "tagline": "ParaQuery is the GPU-accelerated Spark + SQL engine for your big data needs.",
+      "body": "![uploaded image](/media/?type=post&id=90162&key=user_uploads/1091672/94e086c6-918d-4975-94ca-5aece8bff85a)\n\nHey, I'm Win, founder of [ParaQuery](http://www.paraquery.com).\n\nWe're building a bigger query engine with up to 5x cost efficiency compared to BigQuery by using cost-efficient cloud GPUs.\n\n**Ask:** Do you know someone optimizing their data warehouse? Email [win@paraquery.com](mailto:win@paraquery.com) or sign up [here](https://paraquery.com/waitlist)!\n\n**4x'ing** BigQuery efficiency with ParaQuery: <https://www.youtube.com/watch?v=uu379YnccGU> \n\n# **The Problem**\n\nData is the new oil and you're feeding your products with a bunch of it. But to do so, you need to build, maintain, and optimize your data infra. That's either a huge timesink, or you're bleeding cash to ignore it, or someone is breathing down your neck about this month's cloud bill. Why can't we just ship features?\n\n![uploaded image](/media/?type=post&id=90162&key=user_uploads/1091672/419acb3d-1195-4842-a80e-df02ac0d332f)\n\nWhether it's those 20-minute+ Presto queries, or your exploding BigQuery bill (which happens to be tracked in real time), your data infra is letting you down.\n\n# **Our Solution**\n\nParaQuery runs on highly-parallel, throughput-optimized cloud-available hardware, perfect for data processing workloads: **GPUs**!\n\nOur system abstracts out the infra required to serverlessly accelerate your logic. With the extreme efficiency of GPUs, it's half the cost and double the performance of competing solutions like Databricks and BigQuery, without any platform commitments.\n\nFor SQL-based data warehouses like BigQuery, you can use ParaQuery with minimal changes to your queries. And since it's fully Spark-compatible, there's no vendor lock-in. It integrates with literally anything which has a Spark connector, on any major cloud. We can even deploy on GPU clouds.\n\nParaQuery makes data processing as simple as specifying:\n\n1. Inputs\n2. Output\n3. Logic\n4. Run!\n\n![uploaded image](/media/?type=post&id=90162&key=user_uploads/1091672/a6cded39-2da7-432b-9129-014a593caaae)\n\n# **Why?**\n\nI've been looking into GPUs and parallel programming for over 12 years – starting out with crypto. I left that field pretty fast, but I never stopped thinking about efficient compute and GPU acceleration. Even more so when, years later, I had to wait for my laptop to finish 18-hour physics simulations. And during my professional career, I've also had to wait on my fair share of 20-minute+ analytical queries.\n\nIn fact, I hate waiting. ParaQuery is productizing an arbitrage of hardware efficiency, and I'm not waiting any longer to do so.\n\n# **Ask**\n\n1\\. If you know anyone who is running any big data processing scenarios (including MLOps), I'd love to learn more about their use case and see if we're a fit! \n\n2\\. If you want to try it out, sign up for our waitlist at [www.paraquery.com](http://www.paraquery.com), or just email me ([win@paraquery.com](mailto:win@paraquery.com))",
+      "url": "https://www.ycombinator.com/launches/NSE-paraquery-5x-your-data-warehouse-s-efficiency",
+      "votes": 51,
+      "created_at": "2025-05-07T02:14:51.329Z"
+    }
+  ]
+}

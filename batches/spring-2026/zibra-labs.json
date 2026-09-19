@@ -1,0 +1,90 @@
+{
+  "id": 31459,
+  "name": "Zibra Labs",
+  "slug": "zibra-labs",
+  "former_names": [
+    "TBD. We don't have a name yet."
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/561de55fc1ba8b5c7254d0ad9eed2d656139b041.png",
+  "website": "https://zibralabs.ai/",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "We build distributed compute clusters with the cheapest CPUs and GPUs across Hyperscalers and Neoclouds for AI. Our mission is to bring frontier-grade infrastructure to everyone.\r\n\r\nWe're starting by building large scale high performance computing (HPC) clusters for quantitative trading firms to run parallel simulation workloads such as backtesting. \r\n\r\nOur technology generalizes to critical AI workloads such as post-training with reinforcement learning, fine-tuning, long-horizon agents with high tool use, and batch inference.",
+  "one_liner": "Distributed runtime for AI workloads at scale",
+  "team_size": 2,
+  "industry": "B2B",
+  "subindustry": "B2B -> Infrastructure",
+  "launched_at": 1777682633,
+  "tags": [],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Spring 2026",
+  "status": "Active",
+  "industries": [
+    "B2B",
+    "Infrastructure"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/zibra-labs",
+  "api": "https://devasheeshg.github.io/yc-api/batches/spring-2026/zibra-labs.json",
+  "year_founded": 2026,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/121104148/",
+  "x_url": "",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/561de55fc1ba8b5c7254d0ad9eed2d656139b041.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Tom Blomfield",
+    "url": "https://www.ycombinator.com/people/tom-blomfield"
+  },
+  "founders": [
+    {
+      "user_id": 1593755,
+      "full_name": "Ibrahim Rabbani",
+      "title": "Founder/CEO",
+      "founder_bio": "Former tech-lead of Ray. Previously building databases at LinkedIn. I've built systems that run on hundreds of thousands of machines and serve over a billion people.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/israbbani/",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/176ed5a2763da0f0789dfd9d86bfe0aa0063bd01.jpg"
+    },
+    {
+      "user_id": 3417957,
+      "full_name": "Zac Policzer",
+      "title": "Founder/CTO",
+      "founder_bio": "After a career making software that serves over a billion people, with a background primarily in large databases, I'm now building HPC clusters at Zibra Labs\n\nThe past two years I've been focused on what the next generation of AI data center software looks like — and working to shape that future. I've been fortunate to do much of this in open source, which I'm deeply passionate about.\n\nTalk to me about databases, Mahjong, guitars, or weird horror movies.\n\nI'm currently building Zibra Labs.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/zac-policzer-41160157",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/d3e9c5f9df59002165fa7e97d755379069d1e391.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 101528,
+      "title": "Zibra Labs: HPC for Quant Trading Firms Running Backtesting at Scale",
+      "tagline": "HPC Clusters for Parallel Workloads on Spot-instances Across Hyperscalers and Neoclouds.",
+      "body": "### Credentials\n\nWe’ve spent years working together building large scale distributed systems that run on hundreds of thousands of machines and serve billions of users. **Every time you leverage your network for a warm intro on LinkedIn, you use three databases that we’ve built: [Venice](https://venicedb.org/),[ Liquid](https://www.linkedin.com/blog/engineering/graph-systems/liquid-the-soul-of-a-new-graph-database-part-1), and[ Espresso](https://engineering.linkedin.com/teams/data/data-infrastructure/storage-infra/espresso).**\n\nAfter LinkedIn, **we were tech-leads of [Ray](https://github.com/ray-project/ray)**, the leading open-source compute platform used by companies such as xAI, Cursor, Bridgewater, P72, Man Group, Two Sigma, and others. Ray has [\\~12M](https://pypistats.org/packages/ray) weekly downloads and is part of the PyTorch Foundation.\n\n### Product\n\n<https://www.youtube.com/watch?v=C6tl8Fr8t2I>\n\nWe’re building large scale high performance computing (HPC) clusters for **quantitative trading firms** to run **parallel simulation workloads such as backtesting.** \n\nThe scale we’re targeting is\n\n* 100 to 50,000 nodes of mixed hardware (CPUs and GPUs) on hyperscalers and neoclouds.\n* up to 5,000,000 parallel tasks.\n* spot instances for cheaper compute across multiple availability zones, hyperscalers, and neoclouds.\n* &lt; 50ms overhead for task dispatch and scheduling.\n* run the compute in your cloud or on-prem environment to keep your alpha secure.\n\nOur goal is to **make testing trading strategies fast, cheap, and reliable.** \n\n### Vision\n\nWe know that existing solutions do not handle this scale, do not have first-class support for spot-instances, and will not match our low-latency and high throughput performance. \n\nOur technology generalizes to other large-scale compute workloads such as\n\n1. **post-training and reinforcement learning (RL)** for frontier and applied AI labs\n2. **massively parallel robotics simulation and sim-to-real training** for robot foundation model teams\n3. **virtual screening and molecular dynamics** for techbio and pharma R&amp;D\n4. **scientific simulation** (CFD, climate, seismic, FEA) for HPC teams looking to move beyond MPI and SLURM.\n\n### Ask\n\nReach out if you\n\n1. Are running simulation workloads that require lots of computation at a quant trading firm.\n2. If you need HPC for a different use-case.\n3. Want to grab a beer and talk about distributed systems or HPC.\n\nCheers!\n\nIbrahim and Zac",
+      "url": "https://www.ycombinator.com/launches/QPY-zibra-labs-hpc-for-quant-trading-firms-running-backtesting-at-scale",
+      "votes": 8,
+      "created_at": "2026-05-18T20:53:24.005Z"
+    }
+  ]
+}

@@ -1,0 +1,103 @@
+{
+  "id": 27694,
+  "name": "Paperplane",
+  "slug": "paperplane",
+  "former_names": [],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/56aa131dd560ee00989a8c4028dc2124530d47a2.png",
+  "website": "https://www.paperplane.ai/",
+  "all_locations": "New York City, NY, USA",
+  "long_description": "Paperplane helps builders', plumbing, and timber merchants mitigate their credit risk by predicting which customers will default 4+ weeks before anyone else. Instead of relying solely on credit reports and lagging public data, Paperplane uses the company's own transaction data and customer knowledge directly from sales reps to make more accurate predictions in real-time. ",
+  "one_liner": "Credit risk management platform for builders' merchants",
+  "team_size": 5,
+  "industry": "Fintech",
+  "subindustry": "Fintech -> Credit and Lending",
+  "launched_at": 1677010587,
+  "tags": [
+    "Fintech",
+    "SaaS",
+    "AI"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Winter 2023",
+  "status": "Inactive",
+  "industries": [
+    "Fintech",
+    "Credit and Lending"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada",
+    "Remote",
+    "Partly Remote"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/paperplane",
+  "api": "https://devasheeshg.github.io/yc-api/batches/winter-2023/paperplane.json",
+  "year_founded": 2022,
+  "city": "New York City",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/paperplaneai",
+  "x_url": "https://twitter.com/paperplaneai",
+  "fb_url": null,
+  "cb_url": "https://www.crunchbase.com/organization/paperplane-f079",
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/56aa131dd560ee00989a8c4028dc2124530d47a2.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [
+    "https://bookface-images.s3.us-west-2.amazonaws.com/attachments/ae8699fd0c21faed211d7580b3aa10c0483fc5a7.png"
+  ],
+  "primary_partner": null,
+  "founders": [
+    {
+      "user_id": 1695624,
+      "full_name": "Daniel Kwak",
+      "title": "Founder",
+      "founder_bio": "Computational physics + ML PhD dropout. ",
+      "is_active": false,
+      "linkedin_url": "https://www.linkedin.com/in/dnlkwak/",
+      "x_url": "https://x.com/dnlkwk",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/ffac86868b4058660ea591519727d5bdfdb82bc1.jpg"
+    },
+    {
+      "user_id": 177665,
+      "full_name": "Jack Hopkins",
+      "title": "Founder",
+      "founder_bio": "I left Cambridge with a post-graduate degree in Advanced Computer Science and peer-reviewed research in generative language models receiving almost 100 citations in the field. \n\nI started a company applying LMs to API security, where I met Daniel Kwak, who led my Seed Round. I left this company to join Daniel and Ben in building NLP for Sales.\n\nIn my spare time I enjoy rowing long distances. Once I rowed unsupported from Africa to America in 40 days.",
+      "is_active": false,
+      "linkedin_url": "https://www.linkedin.com/in/jack-ww-hopkins/",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/ba5419608dbb594843bc35dbd286c8a39887ef12.jpg"
+    },
+    {
+      "user_id": 1159397,
+      "full_name": "Ben Magolan",
+      "title": "Founder",
+      "founder_bio": "Previous ML Ops tech lead at Xometry and software engineer at the Naval Nuclear Laboratory. Attained his PhD in Nuclear Engineering at MIT specializing in reactor coolant modeling and simulation.",
+      "is_active": false,
+      "linkedin_url": "https://www.linkedin.com/in/ben-magolan-69537611a/",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/f1ac5cbcd5a91a6d1c0a35c145d924e349a8ffc1.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 70012,
+      "title": "Paperplane - Automatically update Salesforce after sales calls using NLP.",
+      "tagline": "We analyze sales calls to update all of the fields, objects, and notes you need in Salesforce.",
+      "body": "**TLDR**: ✈️ [**Paperplane**](https://www.paperplane.ai/) **automatically updates Salesforce after sales calls. Sales teams at fast-growing B2B companies do 14%+ more calls per week because they no longer have to spend hours updating their CRM.**\n\n![](https://bookface.ycombinator.com/media/?type=post&id=70012&key=user_uploads/312272/108c66cb-2f3c-4a62-865b-c88b96f03b74)\n\n### **The Problem:**\n\nThere are over **3 million** B2B salespeople in the US, and each of them spends 3-6 hours each week manually updating their CRM with data about their customers and live deals. \n\nThis creates a problem at every layer of large and fast-moving sales teams.\n\nReps at companies like Nextdoor, Twilio, Checkr, and Front spend **10-15% of their time** on data entry versus actually selling; Sales leaders spend hours chasing reps for updates; and sales-ops / rev-ops teams deal with their **CRM missing \\~50% of opportunity data**. This has always made it difficult for sales teams to know what is really happening and which deals are at risk.\n\nIn an environment where many B2B companies have to do more with less, something has to give.\n\n### **Our Solution:**\n\n**Paperplane solves this problem by automatically updating Salesforce after every sales call.** \n\nWe plug into a sales team’s conversational intelligence platform (e.g. Gong, Chorus, Wingman) and Salesforce.\n\nAfter the call, Paperplane transcribes and extracts the required Salesforce fields (eg. next steps, follow-ups, pain points, MEDDIC) and notes. No keywords, tracking words, or scripts to adhere to. Paperplane’s NLP model is built to retrieve the correct data regardless of phrasing and is grounded to mitigate hallucinations that are common with language models today.\n\n![Paperplane application dashboard](https://assets.website-files.com/61dda3a6f044ba05c5199801/63c85e1f69303cf09805823d_PIc%203.svg)\n\n![uploaded image](/media/?type=post&id=70012&key=user_uploads/312272/b1a55bb7-eba1-42d4-b245-fcbc8dd9e1c8)\n\nOnce done, sales leaders get the updates and notes they need in minutes and reps no longer spend hours moving data from their notes into Salesforce.\n\nWe’re currently working with a handful of fast-growing B2B companies to increase their pipeline visibility, improve sales productivity, and help them understand why they’re winning/losing.\n\n## **Our Ask 🙏**\n\n1. If you’re interested in a pilot, please email us at [founders@paperplane.ai](mailto:founders@paperplane.ai).\n2. Share this post with any sales or revops leaders or sales teams that fight Salesforce everyday. We’ll send you a WHOOP or Paperplane swag!",
+      "url": "https://www.ycombinator.com/launches/IDE-paperplane-automatically-update-salesforce-after-sales-calls-using-nlp",
+      "votes": 34,
+      "created_at": "2023-03-07T20:08:00.230Z"
+    }
+  ]
+}

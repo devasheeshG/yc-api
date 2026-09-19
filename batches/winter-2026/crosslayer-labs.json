@@ -1,0 +1,100 @@
+{
+  "id": 31016,
+  "name": "Crosslayer Labs",
+  "slug": "crosslayer-labs",
+  "former_names": [],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/0d04232f7799c42a8a176b06d7c366c511a6cab7.png",
+  "website": "https://www.crosslayerlabs.com/",
+  "all_locations": "New York City, NY, USA",
+  "long_description": "Crosslayer Labs detects impersonation attacks on websites and APIs. We provide \"outside-in\" monitoring of customer infrastructure, comprehensively discovering and monitoring all Internet dependencies, including DNS, BGP, TLS certs, Javascript. We correlate signals from different layers of the Internet stack to identify attack patterns. Our alerts are actionable and contain root cause analysis/remediation recommendations. Our founding team is world renowned for previously inventing the MPIC standard adopted by all the major CAs including Google, Apple, Amazon. The MPIC standard is securing over 700 million websites via the issuance of over 3 billion digital certificates, and is now a global internet standard that protects every single HTTPS connection.",
+  "one_liner": "Protect, monitor and defend your Internet presence",
+  "team_size": 3,
+  "industry": "B2B",
+  "subindustry": "B2B -> Security",
+  "launched_at": 1770673305,
+  "tags": [],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Winter 2026",
+  "status": "Active",
+  "industries": [
+    "B2B",
+    "Security"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada",
+    "Remote",
+    "Partly Remote"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/crosslayer-labs",
+  "api": "https://devasheeshg.github.io/yc-api/batches/winter-2026/crosslayer-labs.json",
+  "year_founded": 2025,
+  "city": "New York City",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/108065591/",
+  "x_url": "",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/0d04232f7799c42a8a176b06d7c366c511a6cab7.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Tyler Bosmeny",
+    "url": "https://www.ycombinator.com/people/tyler-bosmeny"
+  },
+  "founders": [
+    {
+      "user_id": 2814225,
+      "full_name": "Henry Birge-Lee",
+      "title": "Founder/CEO",
+      "founder_bio": "I am am innovator in web and network security. I invented Multi-Perspective Issuance Corroboration (MPIC) which now secures every single HTTPS connection. I am currently focusing on building the Crosslayer Labs platform for web resource integrity.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/henry-birge-lee-211002121/",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/fb71a7d12e55b997a889dead80bbf7d885e874e1.jpg"
+    },
+    {
+      "user_id": 2799261,
+      "full_name": "Grace Cimaszewski",
+      "title": "Founder/CTO",
+      "founder_bio": "I'm a recent PhD graduate from Princeton and security researcher. I've worked with the CA/Browser Forum to turn my research on TLS certificate security into ecosystem-wide requirements which now improve the security of every HTTPS connection you view in your browser. Before starting Crosslayer with my long-time research collaborators, I was a visiting research at Google and Corelight Labs.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/grace-c-bb3945a3/",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/1cacfdfdae5bdbb137046ddee85774b9dbd6b78e.jpg"
+    },
+    {
+      "user_id": 2348947,
+      "full_name": "Prateek Mittal",
+      "title": "Founder",
+      "founder_bio": "I am a professor at Princeton University and co-founder of Crosslayer Labs (YC W26). I specialize in the field of cybersecurity/privacy and am the recipient of the ACM Grace Hopper Award.  My research has helped secure every single web connection (HTTPS) worldwide and enhanced the security of deployed LLMs (e.g., GPT 3.5 and GPT4V at OpenAI). ",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/prateek-mittal-aa859a45",
+      "x_url": "https://x.com/prateekmittal_",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/521d817792974179d869977bd4cff33015f95c2d.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 97781,
+      "title": "Crosslayer Labs: We discovered (and can protect you against) a new attack allowing hackers to spoof any website(!)",
+      "tagline": "TLS certificates no longer guarantee website authenticity. We built Crosslayer Labs to stop hackers from stealing user credentials. ",
+      "body": "**Tl;dr** Crosslayer Labs detects attacks on Internet infrastructure that allow hackers to impersonate websites and APIs. We would know; our team previously invented technology that secures every single web connection (HTTPS) worldwide.\n\n### The Problem\n\nImagine you are visiting [brex.com](http://brex.com) - but you’ve been redirected to an adversary spoofing Brex, while the lock icon on your browser still checks out.  Suddenly, all your startup money is drained. Science fiction? No, these are the next generation of security threats.\n\n<https://www.youtube.com/watch?v=Z7U3183IJf4> \n\n### The Solution\n\nCrosslayer Labs protects websites and APIs from hijack attacks. We discover and monitor network dependencies for your domain (across the entire network stack) to detect when someone is impersonating your website. Our approach is unique in the way that it combines data from your entire network stack.\n\n[https://www.youtube.com/watch?v=QgYjFO1j08A](https://www.youtube.com/watch?v=QgYjFO1j08A&authuser=0)\n\n### Team\n\nWe are a team of serious security researchers: we invented a technology called Multi-Perspective Issuance Corroboration (MPIC) that is used to sign digital certificates (over 3 billion and counting) for all websites. \n\n**Prateek** is a Professor at Princeton, and his research has revolutionized the security and privacy of internet communications and AI systems. He helped secure every single web connection (HTTPS) worldwide and enhanced the security of deployed LLMs (e.g., GPT 3.5 and GPT4V at OpenAI). He is the recipient of the ACM Grace Hopper Award, IEEE Fellow,  ACM Distinguished Member, and Distinguished Alumni awards from IIT Guwahati and UIUC.  \n\n**Henry** is a member of the CA/Browser Forum and former research staff at Princeton University. Henry’s research uncovered a fundamental security vulnerability in how TLS certificates are issued to websites. He is an author of the MPIC standard at the CA/Browser Forum and he founded the Open MPIC project that implements MPIC for 1.5 million certificates a day. His work also led to DNSSEC adoption by CAs, and he is a recipient of the IRTF’s applied networking research prize.\\\n\\\n**Grace** just finished her PhD at Princeton, where she  performed transformative research on the web PKI, and was named runner up for the Privacy Enhancing Technology Award and the Andreas Pfitzmann Best Student Paper Award. Grace mapped the attack surface of millions of websites to shape how MPIC was deployed by leading CAs, including working with Google Trust Services.  \n\n### Ask\n\nKnow any CISOs or security heads who would lose their job if their website was impersonated? We'd love to meet. Think: crypto exchanges, fintech, banks, health care, tax portals.  Email: [contact@crosslayerlabs.com](mailto:contact@crosslayerlabs.com)",
+      "url": "https://www.ycombinator.com/launches/PR7-crosslayer-labs-we-discovered-and-can-protect-you-against-a-new-attack-allowing-hackers-to-spoof-any-website",
+      "votes": 6,
+      "created_at": "2026-02-13T16:10:15.717Z"
+    }
+  ]
+}

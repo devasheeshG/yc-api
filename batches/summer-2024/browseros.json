@@ -1,0 +1,103 @@
+{
+  "id": 29955,
+  "name": "BrowserOS",
+  "slug": "browseros",
+  "former_names": [
+    "Felafax"
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/8ee9034382624e07d15bb234736662d02dc829f8.png",
+  "website": "https://BrowserOS.com/",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "BrowserOS is an open-source agentic browser that runs AI agents locally.",
+  "one_liner": "The Open Source Agentic Browser",
+  "team_size": 4,
+  "industry": "Consumer",
+  "subindustry": "Consumer",
+  "launched_at": 1722468998,
+  "tags": [
+    "Generative AI",
+    "Consumer",
+    "B2B",
+    "AI"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Summer 2024",
+  "status": "Active",
+  "industries": [
+    "Consumer"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/browseros",
+  "api": "https://devasheeshg.github.io/yc-api/batches/summer-2024/browseros.json",
+  "year_founded": 2024,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/felafax/",
+  "x_url": "https://x.com/browserOS_ai",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": "https://github.com/browseros-ai/BrowserOS",
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/8ee9034382624e07d15bb234736662d02dc829f8.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "David Lieb",
+    "url": "https://www.ycombinator.com/people/david-lieb"
+  },
+  "founders": [
+    {
+      "user_id": 105063,
+      "full_name": "Nithin Sonti",
+      "title": "Founder",
+      "founder_bio": "Building open-source agentic browser. Privacy-first alternative to Perplexity Comet, Dia.\n\nPreviously, ML Engineer at Google/Youtube and NVIDIA.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/nithinsonti",
+      "x_url": "https://twitter.com/ThatNithin",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/bad2d245002f5eee0ba644db1a18655f9b7b46ee.jpg"
+    },
+    {
+      "user_id": 1765,
+      "full_name": "Nikhil Sonti",
+      "title": "Founder",
+      "founder_bio": "Building open-source agentic browser. Privacy-first alternative to Perplexity Comet, Dia.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/nikhilvenkatsonti",
+      "x_url": "https://x.com/nv_sonti",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/43035638596d52e37cb76fcf7e3aae5fdb61a504.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 93960,
+      "title": "BrowserOS – The Open Source Agentic Browser",
+      "tagline": "Build AI agents that automate any browser task using plain English",
+      "body": "**TL;DR:** **BrowserOS is an open-source, AI-native browser that automates your tedious web tasks**. Just describe what you want in plain English—like \"find software engineers from my LinkedIn requests and add them to a google sheet\"—and watch an AI click, type, and navigate on your behalf, all running locally with your logged-in sessions. We're an open-source and privacy-first alternative to Comet, Dia, Chrome.\n\nWe are grateful for all our early supporters — 4.3k+ Github ⭐, 25,000+ downloads and an active discord community of 1000 folks!\n\n![uploaded image](/media/?type=post&id=93960&key=user_uploads/105063/b11e5c5f-8e15-4375-a62e-ed1ddbaa428b)\n\n### **🤔 Why Now**\n\nAI coding tools made developers 10x faster. But a billion knowledge workers still grind through browser busywork. Copy-paste. Click. Repeat. Even we spend half our engineering time on mindless browser tasks. It's ridiculous—AI writes our entire codebase but can't click a button.\n\nSo what’s blocking the browser’s ‘Cursor moment’?\n\n### **🧨 The Problem**\n\nWe think it comes down to three big problems preventing mass adoption of AI agents for knowledge workers, especially at enterprises:\n\n**1. Can't access your logged-in sessions.** Most agentic solutions today (like ChatGPT Operator, Manus) run on remote computers. They can't log into your Gmail, LinkedIn, or company tools. So they fail at every real task you actually need help with.\\\n**2. Tools are fragmented.** You've got agent builders that use MCP servers. Others that only do browser automation. Some that just call APIs like Zapier. There's no single solution that lets you build an agent using all these approaches together.\\\n**3. Closed source:**  Most other popular browsers come from search/ad companies who want to track you and sell ads. They lock you into their LLMs, hide how things work, and send your data to their servers. That's a dealbreaker for enterprises who can't send sensitive data to third parties.\n\n## **🥳 Our Solution**\n\nBrowserOS is an open-source, privacy-first browser built to solve these problems by design.\n\n1. It's just a normal browser you download and run on your machine. You log into websites like you always do. But now agents can use those logged-in sessions to actually do useful work - they can browse the web just like you would, using your existing logins.\n2. We support both MCP servers and browser automation. You can stitch them together to build agents that handle complex workflows. Need to pull data from a website, process it through an API, then update a spreadsheet? One agent can do it all.\n3. We're fully open source. You can see our system prompts, change them if you want. Bring your own API keys or run models locally with Ollama. Your data stays on your computer.\n\nKey features of BrowserOS:\n\n* **Build agents with plain English** - Just describe what you want. No coding required.\n* **Use any LLM you want** - Bring your own API keys, switch between models, or run everything using local LLMs\n* **Still a normal browser** - It's Chromium underneath. All your Chrome extensions work.\n\n### **🚀 The future**\n\nHere's what excites us: a billion knowledge workers spend 60-80% of their day in browsers. Every enterprise runs on web apps—Salesforce, SAP, Workday, internal tools. These workers waste hours on tasks that make them miserable. Filing expense reports. Extracting data from dashboards. Setting up ad campaigns.\n\n**We think browsers will become new operating system where AI employees live and work alongside humans.** Imagine a world where IT builds an “expense report agent” once, every employee benefits. Someone shares their “Facebook Ads agent” publicly. You fork it, tweak it for your workflow. The mundane work gets automated while humans focus on what matters.\n\nThis kind of automation only works in browsers. Not everything has APIs, but everything has a web UI. If an agent can click and type like a human, it can automate any web app—from legacy enterprise software to the latest SaaS tools.\n\nWe're building the best browser for this future!\n\n### **🏋️‍♂️ Team**\n\nWe're twin brothers who've been building products together for years. We spent the last 6 years as engineers at Google and Meta.\n\nNikhil worked on Instagram Reels and Facebook Feed Ranking backend—deep C++ and systems work. Nithin was an ML engineer on YouTube Recommendations and worked on building Youtube’s first Large Recommender Model (LRM).\n\nWe feel this gives us the perfect mix of experience to tackle a massive C++ codebase like Chromium while building a powerful agent and AI layer on top.\n\n![uploaded image](/media/?type=post&id=93960&key=user_uploads/105063/5b10f1a2-86df-4154-a02b-52ae465cea00)\n\n### **🙏 Our Ask**\n\n* **Star us on [GitHub](https://git.new/browseros)** to support our mission.\n* **Download [BrowserOS](https://www.browseros.com/)**; it’s available for macOS, Windows, and Linux!\n* **Join our [Discord](https://discord.gg/YKwjt5vuKr)** to help shape our roadmap.",
+      "url": "https://www.ycombinator.com/launches/ORU-browseros-the-open-source-agentic-browser",
+      "votes": 1472,
+      "created_at": "2025-09-19T16:05:06.209Z"
+    },
+    {
+      "id": 82653,
+      "title": "Felafax: Expanding AI Infra beyond NVIDIA",
+      "tagline": "Building open-source AI platform for next-generation AI hardware, reducing ML training costs by 30%.",
+      "body": "**TL;DR:** We are building an open-source AI platform for non-NVIDIA GPUs. Today, we are launching one of the pieces, a seamless UI to spin up a TPU cluster of any size and providing an out-of-box notebook to fine-tune LLaMa 3.1 models. **Try us at **[**felafax.ai**](https://felafax.ai?utm_source=yc&utm_medium=post&utm_campaign=launch-yc)** or check out our **[**github**](https://github.com/felafax/RoadRunnerX)**!**\n\n## 👋 Introduction\n\nHi everyone, we're Nikhil and Nithin, twin brothers behind Felafax AI. Before this, we spent half a decade at Google and Meta building AI infrastructure. Drawing on our experience, we are creating an ML stack from the ground up. Our goal is to deliver high performance and provide an easy workflow for training models on non-NVIDIA hardware like TPU, AWS Trainium, AMD GPU, and Intel GPU.\n\n![uploaded image](/media/?type=post&id=82653&key=user_uploads/105063/96b92f10-55b4-4137-a100-23bea3e5c4c6)\n\n## 🧨 The Problem\n\n* The ML ecosystem for non-NVIDIA GPUs is underdeveloped. However, alternative chipsets like Google TPUs offer a much better price-to-performance ratio; **TPUs are 30% cheaper** to use.\n* The cloud layer for spinning up AI workloads is **painful**. Training requires installing the right low-level dependencies (infamous CUDA errors), attaching persistent storage, waiting 20 minutes for the machine to boot up… the list goes on.\n* Models are getting bigger (like Llama 405B) and don't fit on a single GPU, requiring complex **multi-GPU** orchestration.\n\n## 🥳 The Solution\n\nToday, we're launching a cloud layer to make it easy to spin up AI training clusters of any size, from 8 TPU cores to 2048 cores. We provide:\n\n* **Effortless Setup:** Out-of-the-box templates for PyTorch XLA and JAX to get you up and running quickly.\n* **LLaMa Fine-tuning, Simplified:** Dive straight into fine-tuning LLaMa 3.1 models (8B, 70B, and 405B) with pre-built notebooks. We've handled the tricky multi-TPU orchestration for you.\n\n![uploaded image](/media/?type=post&id=82653&key=user_uploads/1765/d34757cd-a366-4dcb-9491-0d03f46520a7)\n\nIn the coming weeks, we will also launch our open-source AI platform built on top of JAX and OpenXLA (an alternative to NVIDIA's CUDA stack). We will support AI training across a variety of non-NVIDIA hardware (Google TPU, AWS Trainium, AMD and Intel GPU) and offer the same performance as NVIDIA at 30% lower cost. **Follow us on **[**Twitter**](https://x.com/nikhil_sonti)**, **[**LinkedIn**](https://www.linkedin.com/company/felafax/)** and **[**Github**](https://github.com/felafax/RoadRunnerX)** or updates!**\n\n## 🙏 How You Can Help\n\n1. Try our seamless cloud layer for spinning up VMs for AI training – **you get $200 credits** to start off - [app.felafax.ai](https://app.felafax.ai/)\n2. Try fine-tuning LLaMa 3.1 models for your use case.\n3. If you are an ML startup or an enterprise that would like a seamless platform for your in-house ML training, reach out to us ([calendar](https://cal.com/nikhilsv/felafax)).",
+      "url": "https://www.ycombinator.com/launches/LV7-felafax-expanding-ai-infra-beyond-nvidia",
+      "votes": 49,
+      "created_at": "2024-08-01T19:44:42.661Z"
+    }
+  ]
+}

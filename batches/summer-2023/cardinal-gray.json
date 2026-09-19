@@ -1,0 +1,129 @@
+{
+  "id": 28886,
+  "name": "Cardinal Gray",
+  "slug": "cardinal-gray",
+  "former_names": [
+    "Cardinal Gray Incorporated"
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/dd23108e8186366e29a1827c228ceddd75097d20.png",
+  "website": "https://www.cardinalgray.com/",
+  "all_locations": "New York City, NY, USA",
+  "long_description": "When a lender gives out a car loan, they need to file a lien with their borrower’s DMV. This is difficult because the process varies by state and county. We’ve leveraged LLMs to help lenders automate lien filings for over $1B of loans.",
+  "one_liner": "Automating lenders' interactions with the DMV",
+  "team_size": 6,
+  "industry": "Fintech",
+  "subindustry": "Fintech -> Credit and Lending",
+  "launched_at": 1687970738,
+  "tags": [
+    "Artificial Intelligence",
+    "Enterprise Software",
+    "Consumer Finance",
+    "Automation",
+    "Automotive"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": true,
+  "nonprofit": false,
+  "batch": "Summer 2023",
+  "status": "Active",
+  "industries": [
+    "Fintech",
+    "Credit and Lending"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/cardinal-gray",
+  "api": "https://devasheeshg.github.io/yc-api/batches/summer-2023/cardinal-gray.json",
+  "year_founded": 2022,
+  "city": "New York City",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/cardinal-gray/",
+  "x_url": "",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/dd23108e8186366e29a1827c228ceddd75097d20.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Gustaf Alstromer",
+    "url": "https://www.ycombinator.com/people/gustaf-alstromer"
+  },
+  "founders": [
+    {
+      "user_id": 1136419,
+      "full_name": "Jack Chapman",
+      "title": "Founder",
+      "founder_bio": "CEO @ Cardinal Gray",
+      "is_active": true,
+      "linkedin_url": "https://linkedin.com/in/jack-chapman-2b7b75153",
+      "x_url": "https://x.com/chapolantern",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/87582e783c75d6f4de9e3bdb90d15c0513018c2c.jpg"
+    },
+    {
+      "user_id": 1479733,
+      "full_name": "Muhammad Khattak",
+      "title": "Founder",
+      "founder_bio": "Cofounder @ CG | Prev. R&D Engineer at Veridise, Stanford Philosophy",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/muhammad-khattak-b87a73156/",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/40007bd00d02fef789ad9f4d0ec2f62aa7b70f29.jpg"
+    },
+    {
+      "user_id": 1163950,
+      "full_name": "Grant Pease",
+      "title": "Founder",
+      "founder_bio": "Cofounder @ Cardinal Gray\n",
+      "is_active": false,
+      "linkedin_url": "https://linkedin.com/in/grant-pease-306053180",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/37a1e83754a66d84681c97389898e76cc1e2d256.jpg"
+    }
+  ],
+  "jobs": [
+    {
+      "id": 82553,
+      "title": "Founding Engineer",
+      "url": "https://www.ycombinator.com/companies/cardinal-gray/jobs/AcQcqtv-founding-engineer",
+      "location": "New York, NY, US",
+      "type": "Full-time",
+      "role": "Engineering",
+      "role_type": "Full stack",
+      "salary_range": "$120K - $160K",
+      "equity_range": "0.50% - 2.00%",
+      "experience": "1+ years",
+      "visa": "US citizen/visa only",
+      "skills": [
+        "Amazon Web Services (AWS)",
+        "HTML",
+        "JavaScript",
+        "React",
+        "TypeScript",
+        "Software Architecture",
+        "Prompt Engineering"
+      ]
+    }
+  ],
+  "news": [],
+  "launches": [
+    {
+      "id": 74164,
+      "title": "Cardinal Gray - Helping auto lenders instantly send title data to DMVs",
+      "tagline": "Auto lenders spend 30M hours a year sending title documents to 50 different state DMVs. Cardinal Gray automates this.",
+      "body": "### **Our Team**\n\n![uploaded image](/media/?type=post&id=74164&key=user_uploads/1136419/54416cc8-471b-4684-855a-0b4cd7f37fe0)\n\nHey! We’re Grant, Muhammad, and Jack. We’re building titling tools for auto lenders. For example, when a loan gets paid off, we instantly release the lien placed on the car.\n\nBefore we jump into it, you might be wondering: what is a lien? A lien is a legal claim auto lenders file with the DMV to establish their legal claim over a borrower's car and secure the loan payments, but managing this collateral with the DMV is a headache for lenders.\n\n### **The Problem**\n\nAuto lenders spend 30 million hours a year sending title documents to 50 different state DMVs. At Cardinal Gray, we’re automating this.\n\nTitle work is time intensive because lenders’ systems are not connected to DMV systems. Lenders spend >$2 Billion each year on employee labor to manually aggregate and forward the relevant data and documents to state governments.\n\nFor lenders, a slow lien filing process can lead to billions of dollars in unsecured loans. A slow lien release process creates tension with dealerships and customers because car ownership can’t be transferred until a lien gets released.\n\nOn top of this, manual processes lead to errors. At any given time, 20% of lien filings are inaccurate.\n\n### **Our Product**\n\nWe fix this by interfacing with lender and DMV databases. Our software monitors a lender’s loan data, and when a loan gets created or paid off, we ping the appropriate DMV to file or release the lien. When a DMV creates or edits data, we reference this change with the bank and resolve discrepancies before they cause issues.\n\n### **How We Found This**\n\nA year ago, we were trying to create a decentralized marketplace for car loans. We actually applied to YC’s W23 batch with this idea, and we were told that it was too complex and that it was unclear why it required blockchain. They were right. We were boiling the ocean.\n\nAs we continued investigating auto lending, we discovered dealerships originate roughly 80% of all auto loans, and lenders automate credit decisions and funding at the same rate. We realized that a major bottleneck to automated car financing was manual title work, so we did a deep dive into DMV systems. As it turns out, this work can also be automated.\n\n### **Our Ask**\n\n* **Are you in auto lending?** We’d love to meet. Shoot us an email at [founders@cardinalgray.com](mailto:founders@cardinalgray.com)\n* **Do you know anyone in auto lending?** We’d love to be introduced. We have a strong pipeline, but the more the merrier.\n\n🧯 get in touch / [cardinalgray.com](http://cardinalgray.com) / [founders@cardinalgray.com](mailto:founders@cardinalgray.com)",
+      "url": "https://www.ycombinator.com/launches/JIC-cardinal-gray-helping-auto-lenders-instantly-send-title-data-to-dmvs",
+      "votes": 48,
+      "created_at": "2023-08-16T18:28:21.150Z"
+    }
+  ]
+}

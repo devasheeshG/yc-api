@@ -1,0 +1,168 @@
+{
+  "id": 31008,
+  "name": "Moss",
+  "slug": "moss",
+  "former_names": [
+    "InferEdge Inc."
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/631b5f054745e65be97bbf8459061215b1e4e693.png",
+  "website": "https://moss.dev",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "Moss is building the real-time semantic search runtime for conversational and multimodal AI. Our system enables voice agents, copilots, and chat interfaces to retrieve, reason, and respond in sub-10 ms, delivering the responsiveness that makes AI interactions feel truly natural.\r\n\r\nIf you’ve ever built a conversational or voice AI product, you’ve felt the lag. That moment when an agent pauses and the illusion of intelligence breaks. The bottleneck is almost always retrieval. Each query hops across networks and databases, adding delay and cost. Moss eliminates that gap by keeping retrieval close to where the agent runs.\r\n\r\nMoss runs natively across browsers, mobile devices, and servers with an optimized vector index built in Rust and WebAssembly. It enables teams to build AI products that feel instant, contextual, and adaptive. The experiences that sustain engagement and unlock new kinds of interaction. For our customers, this translates into tangible business value: stronger user retention, higher conversion, and entirely new product categories made possible by real-time understanding. Moss is already powering production pilots across voice AI and developer platforms, achieving sub-10 ms retrieval and 70–90% token savings compared to traditional pipelines.",
+  "one_liner": "Real-time semantic search for Conversational AI",
+  "team_size": 5,
+  "industry": "B2B",
+  "subindustry": "B2B",
+  "launched_at": 1761590258,
+  "tags": [
+    "Developer Tools",
+    "SaaS",
+    "AI"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": true,
+  "nonprofit": false,
+  "batch": "Fall 2025",
+  "status": "Active",
+  "industries": [
+    "B2B"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada",
+    "Remote",
+    "Partly Remote"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/moss",
+  "api": "https://devasheeshg.github.io/yc-api/batches/fall-2025/moss.json",
+  "year_founded": 2024,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/mossdev",
+  "x_url": "https://x.com/usemoss",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": "https://github.com/usemoss",
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/631b5f054745e65be97bbf8459061215b1e4e693.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Pete Koomen",
+    "url": "https://www.ycombinator.com/people/pete-koomen"
+  },
+  "founders": [
+    {
+      "user_id": 2412081,
+      "full_name": "Sri Raghu Malireddi",
+      "title": "Founder/CEO",
+      "founder_bio": "Founder & CEO of Moss. We are developing real-time semantic search for conversational AI.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/r4ghu",
+      "x_url": "https://x.com/srimalireddi",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/0d4d35194c36b1439842c0c5a79465192b0c34ea.jpg"
+    }
+  ],
+  "jobs": [
+    {
+      "id": 97443,
+      "title": "Founding Customer Success Manager",
+      "url": "https://www.ycombinator.com/companies/moss/jobs/HoI9AN3-founding-customer-success-manager",
+      "location": "San Francisco, CA, US / Remote (US)",
+      "type": "Full-time",
+      "role": "Sales",
+      "role_type": null,
+      "salary_range": "$150K - $200K",
+      "equity_range": "0.05% - 0.15%",
+      "experience": "3+ years",
+      "visa": "US citizen/visa only",
+      "skills": []
+    },
+    {
+      "id": 98882,
+      "title": "Software Engineer - SDK",
+      "url": "https://www.ycombinator.com/companies/moss/jobs/52LnqLQ-software-engineer-sdk",
+      "location": "San Francisco, CA, US / Remote",
+      "type": "Full-time",
+      "role": "Engineering",
+      "role_type": "Embedded systems",
+      "salary_range": "$60K - $300K",
+      "equity_range": "0.10% - 0.50%",
+      "experience": "6+ years",
+      "visa": "Will sponsor",
+      "skills": [
+        "Android",
+        "Assembly",
+        "C",
+        "C++",
+        "iOS",
+        "Java",
+        "JavaScript",
+        "Kotlin",
+        "Node.js",
+        "Rust",
+        "Swift",
+        "Linux",
+        "Windows",
+        "MacOS",
+        "Machine Learning",
+        "Deep Learning",
+        "CUDA",
+        "Search",
+        "Vector Embeddings"
+      ]
+    },
+    {
+      "id": 107565,
+      "title": "Machine Learning Engineer",
+      "url": "https://www.ycombinator.com/companies/moss/jobs/HmK9Iqk-machine-learning-engineer",
+      "location": "San Francisco, CA, US / Remote",
+      "type": "Full-time",
+      "role": "Engineering",
+      "role_type": "Machine learning",
+      "salary_range": "$60K - $300K",
+      "equity_range": "0.10% - 0.50%",
+      "experience": "6+ years",
+      "visa": "Will sponsor",
+      "skills": [
+        "ML",
+        "Python",
+        "Torch/PyTorch",
+        "Machine Learning",
+        "Deep Learning",
+        "Reinforcement learning (RL)",
+        "Search",
+        "LLMs",
+        "Transformers",
+        "RAG",
+        "Vector Embeddings",
+        "Vector Databases",
+        "Fine-tuning",
+        "Evals",
+        "AI Agents",
+        "Multimodal AI",
+        "Speech Recognition",
+        "MLOps",
+        "Whisper"
+      ]
+    }
+  ],
+  "news": [],
+  "launches": [
+    {
+      "id": 95036,
+      "title": "Moss: Real-time Semantic Search for Conversational AI",
+      "tagline": "We help conversational AI teams turn lagging, robotic interactions into natural, human-like experiences through sub-10 ms semantic search.",
+      "body": "Hello YC! This is [**Sri Raghu Malireddi**](https://www.linkedin.com/in/r4ghu) from [**Moss**](https://usemoss.dev/).\n\n### **TL;DR**\n\nMoss is a high-performance runtime for real-time semantic search. It delivers sub-10 ms lookups, instant index updates, and zero infra overhead. Moss runs where your agent lives - cloud, in-browser, or on-device - so search feels native and users never wait. You connect your data once; Moss handles indexing, packaging, distribution and updates.\n\n![uploaded image](/media/?type=post&id=95036&key=user_uploads/2412081/c21db6f6-b453-40b6-a15d-5654971ab2ab)\n\n### **The Problem**\n\nIf you’ve ever built a conversational or voice AI product, you’ve felt it - that awkward pause when your agent lags or hesitates. The illusion of conversation breaks, and suddenly it feels less like talking to intelligence and more like waiting for a page to load.\n\nThe culprit is almost always retrieval. Every query hops across networks and cloud databases, adding seconds of delay. As usage scales, those small lags snowball into lost users, rising infra and egress costs. Teams spend weeks rebuilding embeddings and indexes, tuning search infra just to get “good enough” answers instead of focusing on what actually matters: building great AI experiences!\n\n### **Solution**\n\nMoss puts real-time semantic search in the same runtime as your agent and application, so you can -\n\n* **Keep retrieval close** - embed &amp; index right alongside your agents (docs, chat history, telemetry).\n* **Answer in &lt;10 ms** - local lookups, zero network hops.\n* **Manage at scale** - store, sync, and distribute indexes with our managed data layer at [**https://moss.dev**](https://usemoss.dev)\n* **Drop-in SDKs** - [**JavaScript**](https://www.npmjs.com/package/@moss-js/moss) and [**Python**](https://pypi.org/project/moss/).\n\n### **Our Story**\n\nMoss founding team knew each other for 8+ years and bring deep expertise in machine learning, high-performance computing and developer experience.\n\nSri was an ML Lead at Grammarly and Microsoft, where he shipped LLMs and personalization systems used by millions of users across Office, Bing, and Grammarly. His work on personalization drove 300% retention growth for Grammarly Keyboard and scaling models to 40M+ DAUs. He has published at top ML conferences such as ACL and holds multiple patents in real-time ML.\n\nThe idea for Moss came from our deep frustration with how slow “intelligent” systems actually felt in practice. While building large-scale agentic systems at Microsoft and Grammarly, we kept hitting the same wall - retrieval lag that made even the smartest models feel lifeless. Through evolution, humans are wired to expect instant replies; when AI hesitates, it breaks the illusion of intelligence. We started Moss to fix that by collapsing the multi-hop retrieval stack into a real-time, local-first runtime that lets AI think and respond at the speed of thought.\n\n<https://www.youtube.com/watch?v=7-PrunZVXTo>\n\n### **Who is it for?**\n\n* **Platform/Founding Eng:** Drop in realtime semantic search. No new service to run.\n* **Infra Leads:** Local retrieval to slash p95 and egress.\n* **Agent/Voice PMs:** Hit &lt;10 ms so conversations feel natural.\n* **Security/Compliance:** Keep sensitive context local (offline-ready).\n* **Data/ML Eng:** A/B embeddings &amp; index configs on your corpus - fast.\n\n### **How to onboard?**\n\n* Login to the portal - <https://moss.dev> \n* Start a new Project, create an index either through the portal or [JavaScript](https://www.npmjs.com/package/@moss-js/moss) and [Python](https://pypi.org/project/moss/) SDKs\n\n  ![uploaded image](/media/?type=post&id=95036&key=user_uploads/2412081/ecd79cf8-972e-4233-9987-e015ad49abd8)\n\n* Using our SDKs - **init**, **load** and **query** indexes in **sub-10ms**.\n\n  ![uploaded image](/media/?type=post&id=95036&key=user_uploads/2412081/60e783b7-d7d3-411a-91fd-05cbd678130a)\n\n\n### **Our Progress**\n\nWe’re seeing strong inbound pull from the market with 6 enterprise design partners and 3 paying customers actively building their products around Moss’s core tech, with 7 more actively evaluating. We’re working closely with Voice AI orchestration companies like Pipecat ([Daily.co](http://Daily.co)) and LiveKit, embedding Moss at the core of their real-time retrieval and context pipelines. Usage and revenue have been growing \\~100% week over week, and Moss is quickly becoming the foundational layer teams rely on to make AI feel instant, contextual, and truly responsive.\n\n### **Ask**\n\n* Building in Conversational AI and Voice AI?[ **Use Moss**](https://usemoss.dev) to bring real-time semantic search inside your agents to production\n* Developers -[ **Get free access**](https://form.typeform.com/to/XWeuMaar) to experiment with Moss and help shape the future of real-time conversational AI.\n\nOur contact information -\n\n* Email - [**founders@moss.dev**](mailto:founders@usemoss.dev)\n* Website - [**https:/moss.dev**](https://moss.dev)\n* Book a demo - [**Calendar Link**](https://cal.com/srimalireddi/30min)",
+      "url": "https://www.ycombinator.com/launches/Oiq-moss-real-time-semantic-search-for-conversational-ai",
+      "votes": 107,
+      "created_at": "2025-10-30T19:54:21.747Z"
+    }
+  ]
+}

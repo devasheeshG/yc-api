@@ -1,0 +1,85 @@
+{
+  "id": 27985,
+  "name": "Loula",
+  "slug": "loula",
+  "former_names": [
+    "Onu"
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/cb9289ab02184d3dcba8ce3089afff9258dfc183.png",
+  "website": "https://joinloula.com",
+  "all_locations": "New York City, NY, USA",
+  "long_description": "Loula is a software platform and national provider network for independent birth & postpartum doulas to boost their practices by accepting health insurance. Doulas typically operate outside of the traditional healthcare system and face an enormous learning curve and administrative burden when trying to accept insurance. This is why we created Loula. Starting with doulas in California, Loula handles their credentialing, contracting, and revenue cycle management so that they can focus on delivering the best quality care to their clients.",
+  "one_liner": "Enabling birth & postpartum doulas to easily accept insurance.",
+  "team_size": 7,
+  "industry": "Healthcare",
+  "subindustry": "Healthcare -> Healthcare Services",
+  "launched_at": 1676654710,
+  "tags": [
+    "Health Tech",
+    "Digital Health",
+    "Healthcare",
+    "Health Insurance",
+    "Women's Health"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Winter 2023",
+  "status": "Active",
+  "industries": [
+    "Healthcare",
+    "Healthcare Services"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada",
+    "Remote",
+    "Partly Remote"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/loula",
+  "api": "https://devasheeshg.github.io/yc-api/batches/winter-2023/loula.json",
+  "year_founded": 2022,
+  "city": "New York City",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/joinloula/",
+  "x_url": "",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/cb9289ab02184d3dcba8ce3089afff9258dfc183.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": null,
+  "founders": [
+    {
+      "user_id": 1150652,
+      "full_name": "Lindsey Redd",
+      "title": "Founder",
+      "founder_bio": "CEO @ Loula\n\nI'm a Brooklyn-based health tech nerd and former software engineer, obsessed with empowering independent perinatal healthcare providers (think doulas, midwives, and lactation consultants) and making their services more accessible to those who need it most. Prior to starting Loula, I studied CS at Stanford and was a software engineer at Lyft and Stripe. When I'm not working on Loula, I'm throwing pottery, riding my bike, watching tv, or decorating my apartment :)\n",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/lindsey-redd/",
+      "x_url": "https://twitter.com/reddyourmind",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/c120d42f026422c46df0fad1d00bc5a64c9b6bb7.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 69549,
+      "title": "Onu - Turn scripts into internal tools without doing any frontend work",
+      "tagline": "Onu takes away the pain of building complex frontends for internal tooling with script automation and auto-generated UIs.",
+      "body": "**tl;dr:** Onu is a developer-first tool that allows engineers to turn the repetitive scripts and workflows they're asked to run for their ops or CX teammates into production-ready internal tools. Onu doesn’t require any frontend work at all, so developers can spend their time writing business critical code instead of building or dragging/dropping frontend components. Sign up for our [waitlist](https://joinonu.com/?utm_source=yclaunch) for early access!  \n\nHi everyone! We’re Lindsey and Chine, and we’re excited to announce [Onu](https://joinonu.com/?utm_source=yclaunch)! \n\n![uploaded image](/media/?type=post&id=69549&key=user_uploads/838199/d4e8ff75-31ac-445a-ac37-c428f4f503a0)\n\nChine and Lindsey are both software engineers who met 5 years ago when they started working at Lyft. \n\n[Chine](https://www.linkedin.com/in/chineikoro/) worked as an engineer at Bain before working at Lyft on the bikes & scooters team. After Lyft, Chine went to Stripe where she worked on banking-as-a-service, corporate cards, and payment links.\n\n[Lindsey](https://www.linkedin.com/in/lindsey-redd/) worked on developer infrastructure and observability at Lyft before leaving to work at Stripe where she worked on low-code/no-code payments on the checkout and payment links teams. \n\n## 😢 **Problem**\n\n* **Tasks that involve both engineering and ops/CX are disjointed and time consuming.** Engineers spend too much time writing and running one-off scripts (e.g. fixing an out-of-sync user account) and ops/CX are often blocked by engineering.\n* **Building internal tools (even with low-code/no-code saas) takes a lot of frontend work.** As a result, building the tool stays in the backlog and engineers & ops keep schlepping through tasks.\n\n## **🥳 Our solution**\n\nOnu is a developer-first tool that allows engineers to quickly turn their ops/CX-related scripts or workflows into production-ready internal tools without having to write any frontend code at all.\n\n* **Spin up internal tools quickly** using the scripts you’ve already written, spending **zero time on frontend development.**\n* **See logs of each task’s previous executions** to keep track of when it was run, who ran it, and the result\n* Run scripts in your own environment but **without having to SSH into production**\n* **Use built-in integrations** to easily add actions to your tasks like posting to Slack, sending an email, or generating a Linear issue\n\n**🤯 You can use Onu to…**\n\n* **Onboard** **new users** to your product and then send them a welcome **email** \n* **Cancel a subscription**, refund the customer, and then update your **CRM**\n* **Fix an out-of-sync user account** and then notify a **Slack** channel of the fix\n\n![uploaded image](/media/?type=post&id=69549&key=user_uploads/838199/3c3d3105-f01e-46a2-b5ea-b38d019b23c9)\n\n## **🌱 Why we built Onu**\n\nWe experienced these problems firsthand while working on fast moving engineering teams at Lyft and Stripe. Our teams needed internal tooling, but we didn’t have time to build feature-rich admin dashboards. Stripe had a homegrown tool that allowed engineers to spin up internal tools without writing frontend code. When we started working on Onu with a different idea we immediately felt the pain of not having a similar tool. \n\n## **🙌🏾 Asks**\n\n* **Sign up** - Join our [waitlist](https://joinonu.com/?utm_source=yclaunch) for early access! We’ll reach out with sign up instructions.\n* **Intros** - Do you know an **engineer, customer experience/ops lead, or startup founder** struggling to manage the workload between ops and engineering? We’d love an introduction. Shoot us an email at [founders@joinonu.com](mailto:founders@joinonu.com) or DM Lindsey on Twitter [@reddyourmind](https://twitter.com/reddyourmind?s=20) if you have someone in mind.\n\n  _\\*forwardable blurb:_ [Lindsey](https://www.linkedin.com/in/lindsey-redd/), and [Chine](https://www.linkedin.com/in/chineikoro/), a team of ex-Stripe software engineers, are building a developer tool called [Onu (YC W23)](https://joinonu.com/?utm_source=yclaunch) to turn scripts and workflows executed for ops and CX teams into internal tools, zero frontend work required. If you’re interested in learning more, feel free to email them at [founders@joinonu.com](mailto:founders@joinonu.com).\n\n \n\n## **⚒️ Offer**\n\n* If you have any manual or repetitive tasks or scripts, we will migrate them onto Onu for you. You'll have a production-ready internal tool with minimal work.\n* We’ll prioritize the integrations (e.g. Linear, Discord, email) you need in order to make Onu a powerful addition to your toolkit.\n\n ",
+      "url": "https://www.ycombinator.com/launches/I5l-onu-turn-scripts-into-internal-tools-without-doing-any-frontend-work",
+      "votes": 158,
+      "created_at": "2023-02-22T17:25:02.950Z"
+    }
+  ]
+}

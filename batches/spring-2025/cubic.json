@@ -1,0 +1,97 @@
+{
+  "id": 30411,
+  "name": "cubic",
+  "slug": "cubic",
+  "former_names": [
+    "mrge"
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/8d4b717bddf685ac3a5f54298f79381c741a52c3.png",
+  "website": "https://cubic.dev/",
+  "all_locations": "London, England, United Kingdom",
+  "long_description": "Code review is a major bottleneck for software teams, and the rise of AI-generated code is making the problem worse. Reviewing large volumes of code slows devs down, and increases the chances of bugs slipping through.\r\n\r\nThat's why we're building cubic: an intelligent code review platform that helps devs merge PRs 28% faster.\r\n\r\nHow? \r\n- When you open a PR, cubic automatically reviews it. It learns from your codebase's patterns, points out bugs, suggesting fixes, and frees you from low-level review tasks.\r\n- You then jump into the cubic platform, which is designed to optimize how humans review code. For example, file changes are organized in a logical order instead of alphabetical, and cubic generates diagrams of architecture changes.",
+  "one_liner": "AI-powered code review platform",
+  "team_size": 6,
+  "industry": "B2B",
+  "subindustry": "B2B -> Engineering, Product and Design",
+  "launched_at": 1743248262,
+  "tags": [
+    "Developer Tools"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": true,
+  "nonprofit": false,
+  "batch": "Spring 2025",
+  "status": "Active",
+  "industries": [
+    "B2B",
+    "Engineering, Product and Design"
+  ],
+  "regions": [
+    "United Kingdom",
+    "Europe"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/cubic",
+  "api": "https://devasheeshg.github.io/yc-api/batches/spring-2025/cubic.json",
+  "year_founded": 2025,
+  "city": "London",
+  "country": "GB",
+  "linkedin_url": "https://www.linkedin.com/company/cubic-dev/",
+  "x_url": "https://x.com/cubic_dev_",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/8d4b717bddf685ac3a5f54298f79381c741a52c3.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Nicolas Dessaigne",
+    "url": "https://www.ycombinator.com/people/nicolas-dessaigne"
+  },
+  "founders": [
+    {
+      "user_id": 1418465,
+      "full_name": "Paul Sanglé-Ferrière",
+      "title": "Founder/CEO",
+      "founder_bio": "3x founder, previously an ML engineer and a product manager at Tessian. ",
+      "is_active": true,
+      "linkedin_url": "https://linkedin.com/in/paulsf",
+      "x_url": "https://x.com/NeuralPaul",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/a8b20599d6740cc9195a9f4da7c9f97ff2184e83.jpg"
+    }
+  ],
+  "jobs": [
+    {
+      "id": 77373,
+      "title": "Founding Product Engineer @ cubic (YC X25) ",
+      "url": "https://www.ycombinator.com/companies/cubic/jobs/ZmenJR0-founding-product-engineer-cubic-yc-x25",
+      "location": "London, England, GB",
+      "type": "Full-time",
+      "role": "Engineering",
+      "role_type": "Full stack",
+      "salary_range": "£70K - £120K GBP",
+      "equity_range": "0.10% - 1.00%",
+      "experience": "6+ years",
+      "visa": "US citizenship/visa not required",
+      "skills": []
+    }
+  ],
+  "news": [],
+  "launches": [
+    {
+      "id": 90581,
+      "title": "cubic – Cursor for code review",
+      "tagline": "cubic helps teams like cal.com and n8n ship 28% faster",
+      "body": "**🎯 TL;DR**\n\ncubic is an AI-powered code review platform that automatically reviews PRs and gives human reviewers superpowers.\n\nIt helps teams like [**cal.com**](http://cal.com), **n8n**, and the **Linux Foundation** ship code 28% faster.\n\nhttps://youtu.be/7bzIJYy0Nfw\n\nHey! 👋 We’re Allis and Paul – founders of cubic.\n\nWe’re building cubic – an AI code review platform to help teams ship code faster with fewer bugs.\n\n[🚀 See it in action for cal.com here](https://github.com/calcom/cal.com/pull/20771)\n\n🎁 **Launch deal**\n\nIf you’re a developer, and you feel like code reviews are slowing you down + bugs slip through, give cubic a try.\n\nIt’s free for 2 weeks, and you’ll get an extra 30% off for 2 months with the code: _YCLAUNCH_\n\n[**Just sign up with your Github account to get started!**](http://cubic.dev/home)\n\n**⭐️ Why did we start cubic?**\n\nWe’re engineers who faced this problem when we worked together in the past. As we adopted more AI code gen tools, code review and ensuring quality quickly became our biggest bottleneck.\n\nWe had more PRs to review, subtle AI-written bugs slipped in, and we (humans) found ourselves rubber-stamping PRs without deeply understanding the changes.\n\n**👷 We’re building cubic to help solve that. Here’s how it works:**\n\n1. Connect your GitHub repo via our Github app in two clicks\n2. AI review: When you open a PR, our AI reviews your changes directly in a secure container. It has context into not just that PR, but your whole codebase, so it can pick up patterns and leave comments directly on changed lines. Once the review is done, the sandbox is torn down and your code deleted.\n3. Human-friendly review workflow: Jump into our web (or desktop) app (it’s like Linear but for PRs). Changes are grouped logically (not alphabetically), with important diffs highlighted, visualized, and ready for faster human review.\n\n💻 The AI reviewer works a bit like Cursor in the sense that it navigates your codebase using the same tools a developer would—like jumping to definitions or grepping through code.\n\n⚡️ The platform itself focuses entirely on making _human_ code reviews easier. A big inspiration came from productivity-focused apps like Linear or Superhuman, products that show just how much thoughtful design can impact everyday workflows. We wanted to bring that same feeling to code review.\n\nThat’s one reason we built a desktop app. It allowed us to deliver a more polished experience, complete with keyboard shortcuts and a snappy interface.\n\nWe think the future of coding isn’t about AI replacing humans—it’s about giving us better tools to quickly understand high-level changes, abstracting more and more of the code itself. As code volume continues to increase, this shift is going to become increasingly important.\n\n![uploaded image](/media/?type=post&id=90581&key=user_uploads/1453819/af22052f-6cbe-4cc6-863f-9dd72f10add5)\n\n",
+      "url": "https://www.ycombinator.com/launches/NYz-cubic-cursor-for-code-review",
+      "votes": 110,
+      "created_at": "2025-05-21T13:07:32.512Z"
+    }
+  ]
+}

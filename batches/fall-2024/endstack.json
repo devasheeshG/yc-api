@@ -1,0 +1,96 @@
+{
+  "id": 30047,
+  "name": "Endstack",
+  "slug": "endstack",
+  "former_names": [
+    "Lune AI",
+    "Lune",
+    "Cosmic"
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/3b2d3d74e1b66a985b5ff4da594128358d243158.png",
+  "website": "https://www.endstack.com",
+  "all_locations": "Los Angeles, CA, USA",
+  "long_description": "Endstack is a full desktop, collaborative workspace built for humans and agents running in the cloud available on web, desktop, and mobile.\r\n\r\nEach workspace powered by endOS, giving you a familiar channel-based experience augmented by a real desktop environment. The desktop is backed by Linux and ships with a built-in Chrome browser. Files, notes, browser tabs, native apps, terminal, and all your agents in a single beautiful, unified interface. \r\n\r\nAt the center of it all you get a powerful agent running 24/7 that you can also reach via Slack, email, or SMS. ",
+  "one_liner": "The complete, collaborative workspace for humans and agents",
+  "team_size": 2,
+  "industry": "B2B",
+  "subindustry": "B2B",
+  "launched_at": 1731874326,
+  "tags": [
+    "Developer Tools",
+    "Generative AI",
+    "AI",
+    "AI Assistant"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Fall 2024",
+  "status": "Active",
+  "industries": [
+    "B2B"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/endstack",
+  "api": "https://devasheeshg.github.io/yc-api/batches/fall-2024/endstack.json",
+  "year_founded": 2024,
+  "city": "Los Angeles",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/endstack-com",
+  "x_url": "https://x.com/endstack",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/3b2d3d74e1b66a985b5ff4da594128358d243158.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "David Lieb",
+    "url": "https://www.ycombinator.com/people/david-lieb"
+  },
+  "founders": [
+    {
+      "user_id": 1758131,
+      "full_name": "Sam Park",
+      "title": "Founder/CEO",
+      "founder_bio": "Building cloud desktops and operating systems for humans and agents!",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/samuel-park04/",
+      "x_url": "https://x.com/samuelpark",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/a7913d2ce341124a3b34ae31c676d1186a8fcd80.jpg"
+    },
+    {
+      "user_id": 2241290,
+      "full_name": "Josh Park",
+      "title": "Founder/CTO",
+      "founder_bio": "Building Endstack, cloud computers for humans and agents. ",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/joshua-park-a26561279",
+      "x_url": "https://x.com/joshhpark",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/9678ee3971329214ab69d4ff569c0b5a5412ed09.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 85640,
+      "title": "Lune AI - Better LLMs for code and technical tasks",
+      "tagline": "A replacement to standard LLMs for coding tasks - eliminate hallucinations with a marketplace of expert LLMs trained on hundreds of technical topics.",
+      "body": "[ ](https://www.youtube.com/watch?v=iPCixKBJiZI)\n\nHey everyone! We’re Sam and Josh, and we’re building a platform for better LLMs for code and technical tasks.\n\n## **TLDR:**\n\n[Lune AI](https://www.lune.dev/) is a platform to find and train Lunes, or expert LLMs on any technical topic for code. We outperform the accuracy of standalone foundational models by [37%](https://www.lune.dev/blog/lune-evaluation).\n\nHere’s a [**demo**](https://www.youtube.com/watch?v=Zwokp23C3ek):\n\n## **The Problem:**\n\nLLMs **hallucinate** on material outside their training data, which often leads to inaccurate answers to technical questions related to code. Whether it’s working with a new library, or the ever changing nature of software documentation, every developer has **wasted time** on hallucinated LLM outputs.\n\n## **Lune Web:**\n\nOn Lune Web, users can find a [marketplace](https://chat.lune.dev/explore) of community trained Lunes on **hundreds** of the most popular libraries and Github repositories for developers. In a concept similar to OpenAI’s GPT store, users that train popular Lunes receive monthly payouts in a **revenue share program**.\n\n![uploaded image](/media/?type=post&id=85640&key=user_uploads/1758131/9b8e2428-b02e-4247-a5bc-f8746504e7f1)\n\nWhen interacting with Lunes on the web, users can also **receive payouts** for leaving feedback on Lune performance and contributing their own expertise to specific Lunes. This direct community driven feedback loop continuously improves the accuracy of our models.\n\n![uploaded image](/media/?type=post&id=85640&key=user_uploads/1758131/0a27c84c-44d0-477a-a4db-3d3ccf8c6da1)\n\n## **Lune API:**\n\nIn addition to Lune Web, we offer API access to our proprietary automatic context switching model, Tycho as well as all public Lunes. Tycho is our context switching model that **automatically determines** the right Lunes to retrieve information from given a user query, in order to provide the most accurate answer. \n\n![uploaded image](/media/?type=post&id=85640&key=user_uploads/1758131/0fb0ab51-5d7c-4578-8174-21d5e9563ff0)\n\nOur API is hot swappable with OpenAI, which means our users can [integrate](https://docs.lune.dev/docs/external-integrations/cursor) Tycho into any IDE, tool, or client that **supports OpenAI compatible APIs** with a personal API key, such as Cursor, Continue, and other AI client SDKs. \n\n![uploaded image](/media/?type=post&id=85640&key=user_uploads/1758131/4de9c6f0-f8a8-4015-99ef-18034e454ede)\n\nProject keys with our API can be used to easily integrate backend applications and workflows where **superior accuracy and minimized hallucinations** for technical topics are necessary. For example, generating compliable, front-end code with context from various pip packages or libraries.\n\n## **About Us:**\n\nWe are brothers who have been working together our whole lives, starting out with Lego projects. We both dropped out of Harvard because we believed that there is a very near future where AI + Coding can lead to 10x better productivity for the world. We want to make that a reality.\n\n![uploaded image](/media/?type=post&id=85640&key=user_uploads/1758131/da7c5a23-106f-4f64-bf42-1dfa460be8ca)\n\n## **Our Ask:**\n\nIf you code and you have experienced LLM hallucinations, hate reading through dense documentation and Github repos, give [Lune AI](https://www.lune.dev/) a try!\n\nIf you are building a product that uses LLMs for generating code or other technical tasks and want a hot-swappable, more accurate alternative, reach out to me at [sam@lune.dev](mailto:sam@lune.dev)\n\n![uploaded image](/media/?type=post&id=85640&key=user_uploads/1758131/d27e21bd-d15d-4a94-aa1f-28e0c1d7a1d9)\n\n",
+      "url": "https://www.ycombinator.com/launches/MHI-lune-ai-better-llms-for-code-and-technical-tasks",
+      "votes": 86,
+      "created_at": "2024-11-17T23:50:44.658Z"
+    }
+  ]
+}

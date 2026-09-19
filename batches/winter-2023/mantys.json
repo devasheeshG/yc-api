@@ -1,0 +1,98 @@
+{
+  "id": 28006,
+  "name": "Mantys",
+  "slug": "mantys",
+  "former_names": [],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/ab148653f771ae83b42b2726259e7e2be8e1e60a.png",
+  "website": "https://www.mantys.io/",
+  "all_locations": "Dubai, Dubai, United Arab Emirates",
+  "long_description": "Mantys builds AI agents that automate healthcare and insurance operations. We work with some of the largest healthcare groups in the Middle East, including Aster, NMC, Zulekha, Medcare, Thumbay and Fakeeh. Our agents automate patient access workflows such as insurance eligibility, registration and prior authorization by working across hospital information systems, payer portals and unstructured documents. Today, Mantys is deployed across 100+ healthcare facilities and processes workflows for more than 40,000 patients every day.",
+  "one_liner": "AI agents for healthcare and insurance operations in GCC",
+  "team_size": 10,
+  "industry": "B2B",
+  "subindustry": "B2B -> Operations",
+  "launched_at": 1674394820,
+  "tags": [
+    "SaaS",
+    "Healthcare IT"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Winter 2023",
+  "status": "Active",
+  "industries": [
+    "B2B",
+    "Operations"
+  ],
+  "regions": [
+    "United Arab Emirates",
+    "Middle East and North Africa",
+    "Remote",
+    "Partly Remote"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/mantys",
+  "api": "https://devasheeshg.github.io/yc-api/batches/winter-2023/mantys.json",
+  "year_founded": 2022,
+  "city": "Dubai",
+  "country": "AE",
+  "linkedin_url": "https://www.linkedin.com/company/82542033/",
+  "x_url": "",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/ab148653f771ae83b42b2726259e7e2be8e1e60a.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Brad Flora",
+    "url": "https://www.ycombinator.com/people/brad-flora"
+  },
+  "founders": [
+    {
+      "user_id": 770036,
+      "full_name": "Kriti Arora",
+      "title": "Founder",
+      "founder_bio": "",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/kriti-arora-536111105/",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/b1fa7910daddd52f188473e4341bc9d33362ab2b.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [
+    {
+      "title": "30 Startups To Watch: Startups That Caught Our Eye In Feb 2023",
+      "url": "https://inc42.com/startups/30-startups-to-watch-startups-that-caught-our-eye-in-february-2023/",
+      "date": "Mar 05, 2023"
+    }
+  ],
+  "launches": [
+    {
+      "id": 70496,
+      "title": "Mantys: ARR reporting and forecasting tool for SaaS companies",
+      "tagline": "Mantys helps SaaS companies calculate and forecast their ARR accurately in real time without using multiple spreadsheets.",
+      "body": "Hey everyone!\n\nWe are excited to Launch [Mantys](https://mantys-new-d3fdb94a4d5f489b27ad571898cf.webflow.io/#top) to all of you!\n\nMantys helps SaaS startups get **real-time visibility of their ARR Cycle**. If you struggle to know what your contracted, live and realised ARR are at given point of time or need to go through a lot of manual effort to reach there, we can help you.\n\n**Problem:**\n\nAs companies grow, revenue is not just revenue, it is Contracted ARR, Live ARR, Realised ARR, Churn, expansion, etc. and it becomes increasingly difficult to keep a track of them due to:\n\n* **Data sitting in disparate locations:** Contracted ARR sits in CRM(Salesforce/Hubspot), Billed ARR sits in a billing software(Stripe, Chargebee), Churn sits in CS software(Gainsight) or Excel sheets, so on and so forth.\n* **Most of the tracking ends up happening in Google/Excel sheets** which leads to dependency on individuals, high chance of errors and inability to handle multi-dimensional data\n* **Difficult to forecast complex business models:** SaaS has matured and there are complex pricing models like usage based, hybrid emerging which makes customer level forecasting even more difficult.\n\nAs a result, founders/CFOs are not able to answer fundamental questions like what their ARR is, how much is actually realised, what is the onboarding cycle, how will it impact cash flow etc. at any given point of time leading to governance issues and lack of actionable insights. **It takes them 5-7 days every month to just compute revenue metrics.**\n\n![Twitter 上的Chetan Puttagunta：\"There's ARR and then there's ARR  https://t.co/XMKKkooAsM\" / Twitter](https://pbs.twimg.com/media/E34eGfvUUAADQ6C.jpg)\n\n**The solution**\n\nMantys helps SaaS companies calculate and forecast their ARR accurately in real time without using multiple spreadsheets. For example, NextBillion uses Mantys to pull data from HubSpot and Chargebee and create real-time views of their Contracted ARR, Billed ARR, Churn, and forecasted ARR.\n\nWe enable them to:\n\n* **Establish a single source of truth and automate processes:** Integrate with CRM, Accounting and Billing software to get real time visibility of your Contracted ARR, Billed ARR, Realised ARR, Unearned ARR, Expansion, Contraction, Churn, etc., broken down at customer & cohort level and use the data cleaning layer to reduce 80% of manual effort\n* **Get actionable insights and take corrective action faster:** Know the exact cycle between Contracted to Billed to Realised and reasons for discrepancies for different dimensions like time period, region, industry, etc,. and take actions preemptively to avoid accidents\n* **Simulate different what-if scenarios in minutes and forecast:** Build different scenarios to see how Bookings will translate into billing and cash flow and forecast at a customer/cohort level taking into consideration both revenue and usage data\n\n**We know every business is complex and has it nuances. We have however, solved this problem for multiple Series A+ SaaS companies like MoEngage, Locus, etc. and have identified patterns for data cleaning and transformation across businesses. And we know how to handle them.**\n\n* Recording Unbilled or unearned entries? Just enter on the system\n* Usage based revenue? Integrate your usage data\n* Don’t have a common identifier across systems? We can handle it.\n* Multiple entity or currency issues? Don’t worry, we will convert it.\n\nAnd we provide best-in-class templates which help SaaS startups get up and running in days with very minimal effort involved from their end.\n\n**Our ask:**\n\n* Have trouble figuring out your ARR lifecycle? Schedule time to chat here: <https://calendly.com/kriti-25/kritiarora_mantys>\n* If you know any growth stage SaaS company who might be a fit, please introduce us.",
+      "url": "https://www.ycombinator.com/launches/IL2-mantys-arr-reporting-and-forecasting-tool-for-saas-companies",
+      "votes": 71,
+      "created_at": "2023-03-23T15:07:20.443Z"
+    },
+    {
+      "id": 68546,
+      "title": "Mantys - Modern day business planning & analytics tool for SaaS startups! 🚀",
+      "tagline": "Helps companies take real-time data-backed decisions and plan growth scenarios.",
+      "body": "👋🏼 Hello! We are Mantys and we are a Business Planning & Analytics tool with a focus on helping SaaS startups get **real-time visibility of their ARR Cycle**. If you struggle to know what your contracted, live and realised ARR are at given point of time or need to go through a lot of manual effort to reach there, we can help you.\n\n**The Problem** \\\nAs companies grow, It becomes increasingly difficult to track and forecast their Contracted ARR, Live ARR, Realised ARR, Churn, expansion, etc. due to:\n\n* **Data sitting in disparate locations:** Contracted ARR sits in CRM(Salesforce/Hubspot), Billed ARR sits in a billing software(Stripe, Chargebee), Churn sits in CS software(Gainsight) or Excel sheets, so on and so forth.\n\n\n* **Most of the tracking ends up happening in Google/Excel sheets** which leads to dependency on individuals, high chance of errors and inability to handle multi-dimensional data\n\nAs a result, founders/CFOs are not able to answer fundamental questions like what their ARR is, how much is actually realised, what is the onboarding cycle, how will it impact cash flow etc. at any given point of time leading to governance issues and lack of actionable insights.\n\n\\\n**The Solution**\\\nThus, we are building Mantys, a SaaS platform that helps companies:\n\n* **Get and track all their real-time data** – including financial and business metrics – in one place, simulate different scenarios, get insights faster, and be empowered to plan for the future.\n* Integrate with varying sources of data (like CRM, Accounting tools, etc.) and **automate the manual processes**/grunt work (reduce the time taken to generate reports and metrics by atleast 60%):\n* **Get access to best-in-class planning and analysis templates** to reduce the onboarding time to hours than months\n\nWe know every business is complex and has it nuances. We have however, solved this problem for multiple Series A+ SaaS companies like MoEngage, Locus, etc. and have identified patterns for data cleaning and transformation across businesses. And we know how to handle them.\n\n![uploaded image](/media/?type=post&id=68546&key=user_uploads/770036/8670ac5e-9582-422d-a086-922d5d9b259e)\n\n**Who we are**\n\nKriti worked with a growth-stage VC fund in the past and helped a lot of portfolio companies build their MIS and plans and Mudit worked on creating data pipelines and parsers at DE Shaw.\\\nWe have the required domain expertise and skills to be able to solve this problem.\\\n\\\n**Ask:**\n\nIf you are interested or know any Series A+, $6-7Mn ARR+ SaaS companies who are facing a similar challenge, we would love to talk. You can email us at [kriti@mantys.io](mailto:kriti@mantys.io) and [mudit@mantys.io](mailto:mudit@mantys.io)",
+      "url": "https://www.ycombinator.com/launches/Hpa-mantys-modern-day-business-planning-analytics-tool-for-saas-startups",
+      "votes": 114,
+      "created_at": "2023-01-19T10:23:27.549Z"
+    }
+  ]
+}

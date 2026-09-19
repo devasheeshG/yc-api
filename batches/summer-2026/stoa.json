@@ -1,0 +1,103 @@
+{
+  "id": 32225,
+  "name": "Stoa",
+  "slug": "stoa",
+  "former_names": [],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/cf71f2bfca9f3f554d22c43f0dfd7b1a38171535.png",
+  "website": "https://www.stoaexchange.com",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "Stoa provides pricing and trading infrastructure for AI hardware, live with an RFQ marketplace where companies buy and sell GPUs through vetted dealers real-time.",
+  "one_liner": "The market behind AI hardware.",
+  "team_size": 3,
+  "industry": "Fintech",
+  "subindustry": "Fintech",
+  "launched_at": 1785367811,
+  "tags": [
+    "Fintech",
+    "Hardware",
+    "Marketplace",
+    "Infrastructure",
+    "AI"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Summer 2026",
+  "status": "Active",
+  "industries": [
+    "Fintech"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/stoa",
+  "api": "https://devasheeshg.github.io/yc-api/batches/summer-2026/stoa.json",
+  "year_founded": 2026,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/stoamarkets/",
+  "x_url": "https://x.com/stoaexchange",
+  "fb_url": null,
+  "cb_url": "https://www.crunchbase.com/organization/stoa-d396",
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/cf71f2bfca9f3f554d22c43f0dfd7b1a38171535.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Jon Xu",
+    "url": "https://www.ycombinator.com/people/jon-xu"
+  },
+  "founders": [
+    {
+      "user_id": 1961995,
+      "full_name": "Berat Celik",
+      "title": "Founder/CEO",
+      "founder_bio": "CEO of Stoa. Repeat founder who walked away from xAI to build Stoa. UBC, computer science and economics; Cornell M.Eng., computer science.",
+      "is_active": true,
+      "linkedin_url": "https://linkedin.com/in/beratcelik1",
+      "x_url": "https://x.com/beratcelik0",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/3db0925f484f9622bdabb784771b1618d0408f66.jpg"
+    },
+    {
+      "user_id": 1960190,
+      "full_name": "Eren Berke Saglam",
+      "title": "Founder/CFO",
+      "founder_bio": "CFO of Stoa. Traded interest rates derivatives at Citi. Dartmouth salutatorian, computer science and economics.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/eren-berke-saglam",
+      "x_url": "https://x.com/erenberke0",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/8fa08c8d9b7dd4e7053173162485cba755b2b252.jpg"
+    },
+    {
+      "user_id": 3415052,
+      "full_name": "Kaan Yigit",
+      "title": "Founder/CTO",
+      "founder_bio": "CTO of Stoa. Worked as a quantitative developer at Uniper, building the trading systems behind financial oil and gas books. UIUC, computer science.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/kaan-yigit/",
+      "x_url": "https://x.com/kaan_yigit0",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/94061540990806801bdde87e10a5a8fad1228468.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 108473,
+      "title": "Stoa: The market behind AI hardware",
+      "tagline": "GPU marketplace where vetted dealers bid blind with firm quotes. $300M+ in RFQs in our first month.",
+      "body": "**TL;DR:** AI hardware trades over phone calls and forwarded spreadsheets. No venue, no price to mark against: lenders mark billions in GPU collateral off appraisals. We're building Stoa, an RFQ marketplace where buyers and sellers get firm quotes within 48 hours, and settled trades build the prices the market can mark, finance, and hedge against.\n\n<https://youtu.be/zbD21BgAo88>\n\nGPU deals close in group chats. We know because we've been in them.\n\nA price arrives as a voice note. Someone forwards an inventory list, then it gets forwarded again, and soon three brokers are offering the same machines. Nobody knows who actually owns what or whether any quote is firm.\n\nThe market behind those chats is worth hundreds of billions of dollars a year. Lenders mark billions in GPU collateral off appraisals, not trades.\n\nWe're Berat, Eren, and Kaan. We're building Stoa.\n\nAI hardware is becoming an asset class, but its market is missing the basics: a venue where hardware can trade, prices that buyers, sellers, and lenders can mark against, and eventually financing and hedging built on those prices. We're starting with the venue: an RFQ marketplace for GPUs. It gets buyers and sellers firm quotes, and every bid and settlement builds the history the rest needs.\n\n**Here's how it works**\n\nPost what you want to buy or sell: B300s, H200s, H100s, a bare card or a full cluster, new or secondary.\n\nVetted dealers bid blind with firm quotes. Instead of spending weeks calling around, you get through the RFQ in 48 hours.\n\nWe handle the unglamorous parts too: KYB and counterparty checks, contracts, shipping, and settlement.\n\nIn our first month, $300M+ in RFQs ran through the book.\n\n**Why the marketplace comes first**\n\nAsk what an H100 is worth and everyone you call gives you a different answer.\n\nOn Stoa, dealers quote against the same RFQ without seeing each other's bids. Because every RFQ, firm quote, award, and settlement runs through us, we see what the hardware actually trades for.\n\nA quote is an opinion. A settled trade is a receipt.\n\nThat transaction history becomes prices buyers, sellers, and lenders can mark against. Once marks are grounded in settled trades, financing and hedging can follow.\n\nPlatts started printing oil prices in a magazine. Kelley Blue Book began as one dealer's published list of what he'd pay for cars. GPU inventory is still being passed around in forwarded spreadsheets, and Blackwell upgrades are now pushing H100 fleets into the secondary market.\n\nSomeone is going to be the price.\n\n**The team**\n\nWe've known each other for more than ten years. We have founded companies, traded interest rate derivatives, and built trading and pricing infrastructure for oil and gas. Now we're building it for AI hardware.\n\n**Buying or selling?**\n\nIf you're buying GPUs or compute, or you're sitting on hardware, sign up at [stoaexchange.com](http://stoaexchange.com).\n\n**Schedule a call: [https://stoa.cal.com/stoa/intro](https://stoa.cal.com/stoa/intro)**\n\n**Email us: [founders@stoaexchange.com](mailto:founders@stoaexchange.com)**\n\n**Text or call us:** +1 510 605 3844\n\nAnd if you know infrastructure heads at neoclouds or data centers, hyperscaler capex teams, dealers, ITADs, or credit desks lending against GPUs, please send this their way.\n\nBerat, Eren &amp; Kaan",
+      "url": "https://www.ycombinator.com/launches/SDZ-stoa-the-market-behind-ai-hardware",
+      "votes": 776,
+      "created_at": "2026-07-31T12:13:42.502Z"
+    }
+  ]
+}

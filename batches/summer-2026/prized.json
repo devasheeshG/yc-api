@@ -1,0 +1,100 @@
+{
+  "id": 32164,
+  "name": "Prized",
+  "slug": "prized",
+  "former_names": [],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/7162dc10af43dc1c38075eec773f7958383384d2.png",
+  "website": "https://prized.dev",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "Prized is a cloud development environment that feels local on your Mac. \r\n\r\nDevelopers get a dedicated, persistent machine with their repos, dependencies, and tools already configured. \r\n\r\nFiles sync into a real local folder, remote ports appear on localhost, and terminals persist through tmux, so developers and coding agents can keep working even after the laptop closes. \r\n\r\nMachines can be resized or cloned as workloads grow, without rebuilding the development environment.",
+  "one_liner": "A cloud devbox that feels local",
+  "team_size": 2,
+  "industry": "B2B",
+  "subindustry": "B2B -> Engineering, Product and Design",
+  "launched_at": 1782800618,
+  "tags": [
+    "Developer Tools",
+    "SaaS"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Summer 2026",
+  "status": "Active",
+  "industries": [
+    "B2B",
+    "Engineering, Product and Design"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/prized",
+  "api": "https://devasheeshg.github.io/yc-api/batches/summer-2026/prized.json",
+  "year_founded": 2026,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/useprized",
+  "x_url": "https://x.com/useprized",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/7162dc10af43dc1c38075eec773f7958383384d2.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Ankit Gupta",
+    "url": "https://www.ycombinator.com/people/ankit-gupta"
+  },
+  "founders": [
+    {
+      "user_id": 2447160,
+      "full_name": "Hudson Griffith",
+      "title": "Founder/CEO",
+      "founder_bio": "Co-founder & CEO of Prized. Most recently he was an engineer at Suno where he shipped full-stack features to millions of users. Before that he was the first engineer at Gander (YC F24), a 0-to-1 fleet-management platform that was acquired by Archer Aviation (NYSE: ACHR), where he owned the core architecture and built AI voice and document agents. He studied Computer Science at the University of Florida.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/hudsongri/",
+      "x_url": "https://x.com/hudson_gri",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/9dc6b00d5a3a7c347781953481e598f0833b5efc.jpg"
+    },
+    {
+      "user_id": 2485896,
+      "full_name": "Marinos Eliades",
+      "title": "Founder/CTO",
+      "founder_bio": "Marinos is the co-founder of Prized. He studied Computer Science and Mechanical Engineering at Stanford University. Most recently he was an engineer at Gander (F24), a 0-to-1 fleet-management platform for the private jet industry and was acquired by Archer Aviation (NYSE: ACHR). He also co-founded Loophole, a cross-platform AI employee onboarding tool. He previously served in the National Guard of Cyprus.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/meliades",
+      "x_url": "https://x.com/marinoeliades",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/851436432e6a4e9a6c9f158342b60aa8313f9e6c.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 112144,
+      "title": "Prized: A cloud devbox that feels local",
+      "tagline": "The fastest way to run coding agents in the cloud without giving up your local workflow.",
+      "body": "Hey everyone 👋 We're Marinos and Hudson, co-founders of Prized.\n\n**TL;DR:** Prized gives developers a dedicated devbox in the cloud that still feels local. Your files stay synced to a real folder, ports show up on [localhost](http://localhost), and coding agents keep running when you close your laptop.\n\nLaunch video: <https://youtu.be/JmaxNhEdLdc>\n\n**The problem**\n\nCoding agents can work for hours now. But only if you keep your laptop open.\n\nYou start a refactor, a migration, or a big build. Then you need to leave. Close the lid and the agent dies with it.\n\nYou can move everything to a VM, but now you're doing remote dev. Your files live somewhere else. Your ports need forwarding. Your terminal disappears when the connection drops.\n\nRemote development still feels remote.\n\nit shouldn't…\n\n**The solution**\n\nWith Prized, one command puts your project on a dedicated devbox without giving up local development:\n\n* **Real files on your Mac.** Prized syncs both ways into a normal folder, so everything keeps working the way it already does.\n\n\n* [**Localhost**](http://Localhost)** stays [localhost](http://localhost)**. Servers running on the box appear on your Mac automatically, including loopback-only services and hot reload.\n\n\n* **Sessions stay alive.** SSH lands in a persistent terminal session on the box, so disconnecting or closing your laptop doesn't stop the work.\n\n\n* **Compute grows with the task.** Resize the box without rebuilding your environment or moving your project again.\n\n\n* **Secrets stay out of the agent's hands.** For brokered secrets, the agent only sees a placeholder.\n\n**The team**\n\nWe worked together at Gander (F24) building fleet management software for private jets. After the company's acquisition by Archer Aviation (NYSE: ACHR), Marinos continued school at Stanford, and Hudson went on to be an engineer at Suno.\n\nWe built Prized for ourselves after getting tired of having to keep our laptops cracked open all the time. A raw VM kept the process alive but gave up the local workflow we actually wanted.\n\nCheck Prized out at [https://prized.dev](https://prized.dev/), or reach out at [founders@prized.dev](mailto:founders@prized.dev).",
+      "url": "https://www.ycombinator.com/launches/TAm-prized-a-cloud-devbox-that-feels-local",
+      "votes": 15,
+      "created_at": "2026-08-25T17:00:00.790Z"
+    },
+    {
+      "id": 105647,
+      "title": "Prized: Lovable for internal tools",
+      "tagline": "The fastest way for non-engineers to ship secure internal tools.",
+      "body": "Hey everyone 👋 We're Marinos and Hudson, co-founders of Prized.\n\n**TL;DR:** Prized lets anyone at your company build and ship secure internal tools with AI. Company data comes pre-connected and scoped to what each person should see, every access is audited, and finished tools deploy behind your company's sign-in.\n\n**Launch video:** <https://www.youtube.com/watch?v=WILimoqemD4>\n\n**The problem**\n\nBuilding software has never been easier. And the people who need internal tools most, in ops, support, and finance, are done waiting on engineering.\n\nSo they build it themselves. They rip Claude Code or Cursor, pull straight from company data, and ship a working tool in an afternoon. No permissions. No audit trail. No one watching where the data goes.\n\nSecurity is assumed to be fine because the tool is \"just internal.\"\n\nit's not…\n\n**The solution**\n\nPeople aren't going to stop building with AI. So we built them a place where it's safe.\n\nWith Prized, anyone can spin up a sandbox that comes with company data already attached, scoped to what they should see, with an audit trail on every access. \n\nFrom there it's whatever building style they like: describe the tool in our app builder and watch it take shape, or bring a coding agent like Claude Code and build it themselves. Shipping is one click, and the finished tool sits behind your company's sign-in.\n\nThe person who runs the workflow finally gets to build the tool for it. Safely, this time.\n\n![uploaded image](/media/?type=post&id=105647&key=user_uploads/2485896/e426b427-8a79-4ca5-b462-b26b98db43e0)\n\n**Secure by default**\n\nSecurity is enforced in the infrastructure, not left to the person building the tool:\n\n* **Least privilege per tool.** Every tool gets its own database role and integration scopes; it can read and write only what it was granted.\n* **Credentials stay out of reach.** Secrets live in a broker and never touch the tool's code or the agent's context, so they can't leak or cross workspace boundaries.\n* **Outbound traffic proxy.** External calls only go to explicitly allowed hosts, and integrations are read-only until someone turns writes on.\n* **Admin visibility.** IT sees every tool in the org: who built it, what data it reads or writes, who can use it, and risky changes (like a destructive migration) need explicit approval before they ship.\n\n**Your agent, our sandbox**\n\nAlready have a favorite coding agent? Bring it. It plugs into the same governed sandbox and ships the same way.\n\n![uploaded image](/media/?type=post&id=105647&key=user_uploads/2485896/fcfa68c5-8c9f-4d13-b37c-d526e733539a)\n\n**The team**\n\nWe worked together at Gander (F24) building fleet management software for private jets. After the company's acquisition by Archer Aviation (NYSE: ACHR), Marinos continued school at Stanford, and Hudson went on to be an engineer at Suno.\n\n**Our ask**\n\nIf any of these describe you, we'd love to talk:\n\n* You work in ops, support, finance, or RevOps and keep waiting on engineering for small tools.\n* You lead engineering and one-off tool requests keep eating your roadmap.\n* You're in security or IT, wondering where AI-built tools are showing up at your company.\n\nCheck us out at[ https://prized.dev/](https://prized.dev/), or reach out at [founders@prized.dev](mailto:founders@prized.dev).\n\n![uploaded image](/media/?type=post&id=105647&key=user_uploads/2485896/223239da-19fa-44fb-9bd5-d18f5ecfdc74)\n\n",
+      "url": "https://www.ycombinator.com/launches/RTz-prized-lovable-for-internal-tools",
+      "votes": 10,
+      "created_at": "2026-07-14T13:45:51.146Z"
+    }
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "id": 30431,
+  "name": "Feyn",
+  "slug": "feyn",
+  "former_names": [
+    "Chonkie"
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/7711f83eeb988737aadd19d8943c753d2e4085f4.png",
+  "website": "https://www.usefeyn.com",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "Feyn is an end-to-end service for building custom models from your data. Our models learn how your product actually works, handle the rare cases that are costly to get wrong, and grow sharper the longer they run.\r\n\r\nOur engineers start by reviewing your current setup and agreeing on what quality means for your workflow. Then we train a model on your data. Once it ships, new cases feed back into training so the model keeps improving. \r\n\r\nThe result is a model that runs faster, improves with use, and is yours to own.",
+  "one_liner": "Custom models trained on your data",
+  "team_size": 3,
+  "industry": "B2B",
+  "subindustry": "B2B -> Engineering, Product and Design",
+  "launched_at": 1741421145,
+  "tags": [
+    "Artificial Intelligence",
+    "Developer Tools",
+    "AI",
+    "ML"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Spring 2025",
+  "status": "Active",
+  "industries": [
+    "B2B",
+    "Engineering, Product and Design"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/feyn",
+  "api": "https://devasheeshg.github.io/yc-api/batches/spring-2025/feyn.json",
+  "year_founded": 2025,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/feynai",
+  "x_url": "https://x.com/FeynAI",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": "https://github.com/feyninc",
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/7711f83eeb988737aadd19d8943c753d2e4085f4.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Pete Koomen",
+    "url": "https://www.ycombinator.com/people/pete-koomen"
+  },
+  "founders": [
+    {
+      "user_id": 1849274,
+      "full_name": "Shreyash Nigam",
+      "title": "Founder/CEO",
+      "founder_bio": "Building custom models at Feyn. Previously on-device AI, Ads personalization, and VM memory at Google.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/shreyashnigam/",
+      "x_url": "https://x.com/shreyash_nm",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/e86317090d196e007433ab568f64e87ab6fd26a9.jpg"
+    },
+    {
+      "user_id": 2021313,
+      "full_name": "Bhavnick Minhas",
+      "title": "Founder/CTO",
+      "founder_bio": "Building document AI support (and more) @ Chonkie 🦛✨ ",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/bhavnicksm/",
+      "x_url": "https://x.com/BhavnickMinhas",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/10236992930ff8cf9988d127b3775ddf30bf997c.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 90330,
+      "title": "Chonkie 🦛 Open Source Data Ingestion for AI",
+      "tagline": "Feed your models better. Chonkie cleans, chunks, and makes your data AI ready",
+      "body": "![uploaded image](/media/?type=post&id=90330&key=user_uploads/1849274/669a375f-f24a-4d4b-9cca-c668ce5d3da4)\n\n## 🚀 TL;DR\n\nModels are now a commodity. The real differentiator for AI applications is _how effectively they use their data_. However, building robust data systems can be both complex and time-consuming.\n\nChonkie fixes this. We make it easy to bring high-quality data ingestion and context-building to your AI projects, ensuring your application is accurate, fast, and cost-efficient.\n\nWe’re open source on GitHub! ([Python](https://github.com/chonkie-inc/chonkie), [TypeScript](https://github.com/chonkie-inc/chonkie-ts)). Leave us a ⭐!\n\n# 🎬 Launch Video\n\nhttps://www.youtube.com/watch?v=eBvCCEgbNDw\n\n---\n\n---\n\n---\n\n---\n\n---\n\n---\n\n---\n\n---\n\n## 👀 Are you…\n\n👷 **A Builder**\n\n* Install with [pip install chonkie ](https://pypi.org/project/chonkie/)or [npm i chonkie](https://www.npmjs.com/package/chonkie)\n* Use it for free in your projects\n* Join our [Discord](https://discord.gg/6V5pqvqsCY) for direct support from the founders!\n\n🏢 **Business Looking To Go AI Native**\n\n* Want a managed ingestion pipeline? [Contact us](https://cal.com/shreyashn/chonkie-demo)\n* Enjoy a white-glove onboarding experience\n* Use our hosted solution or deploy on-prem!\n\n## ✨ Why Chonkie?\n\nMost AI products today don’t fail because of the model. They fail because they’re fed disorganized, bloated, or incomplete data. The results in wrong answers, slow performance, and expensive bills. There are some existing tools that try to address this, however they are either:\n\n* 🔻 Too slow or bloated\n* 🧱 Too barebones — feels like reinventing the wheel every time\n\nSo we built **Chonkie** — fast, lightweight, and comprehensive.\n\n**Chonkie + Your Amazing AI Application =**\n\n* 🎯 More accurate result\n* ⚡ Faster response times\n* 💸 Lower token usage\n\n## 🔧 What Can Chonkie Do?\n\nChonkie handles the full data ingestion pipeline for AI projects:\n\n* 📄**Bring Any Document**: All formats welcome\n* 🍳**Clean It with Our Chefs**: Normalize and prep your data\n* 🧩**Chunk It**: Break documents into meaningful pieces\n* 🛠️**Refine Your Chunks:** Add context, metadata, or convert to embeddings\n* 🔌**Connect Anywhere**: Integrate with any database and fetch your chunks with ease\n\n## 🎥 See It in Action\n\nSee how Chonkie splits your data, reduces token costs by over **75%**, and generates citations automatically!\n\n![uploaded image](/media/?type=post&id=90330&key=user_uploads/1849274/5ec9dbe7-37c8-428d-b589-8d71c6195191)\n\n## ✅ Try Chonkie Today\n\n* 📬Looking for a managed enterprise solution? [Contact us](https://cal.com/shreyashn/chonkie-demo)\n* 💻 Install our open source offering with  pip install chonkie or npm i chonkie\n* 💬Join our [Discord](https://discord.gg/6V5pqvqsCY) for support and community\n\n\\~Happy Chonking! 🦛✨",
+      "url": "https://www.ycombinator.com/launches/NUw-chonkie-open-source-data-ingestion-for-ai",
+      "votes": 80,
+      "created_at": "2025-05-13T13:34:25.524Z"
+    }
+  ]
+}

@@ -1,0 +1,99 @@
+{
+  "id": 31123,
+  "name": "21st",
+  "slug": "21st",
+  "former_names": [
+    "21st",
+    "1code by 21st.dev",
+    "1code (21st.dev)",
+    "1code (ex: 21st.dev)",
+    "1code (21st.dev)",
+    "21st.dev"
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/74c9b33dec39ae88db50c30496502959820c2018.png",
+  "website": "https://21st.dev",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "21st.dev is the largest React component registry for AI applications, used by 2M developers \r\nWe provide the building blocks to create agent-powered apps: UI components, agent templates.",
+  "one_liner": "UI building blocks for the agentic internet",
+  "team_size": 3,
+  "industry": "B2B",
+  "subindustry": "B2B -> Engineering, Product and Design",
+  "launched_at": 1765422527,
+  "tags": [],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Winter 2026",
+  "status": "Active",
+  "industries": [
+    "B2B",
+    "Engineering, Product and Design"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada",
+    "Remote",
+    "Partly Remote"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/21st",
+  "api": "https://devasheeshg.github.io/yc-api/batches/winter-2026/21st.json",
+  "year_founded": 2024,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/21st-dev/",
+  "x_url": "https://x.com/21st_dev",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/74c9b33dec39ae88db50c30496502959820c2018.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [
+    "https://bookface-images.s3.us-west-2.amazonaws.com/attachments/d642f288898995e103482899e3aaf9c1f445a961.png"
+  ],
+  "primary_partner": {
+    "name": "Ankit Gupta",
+    "url": "https://www.ycombinator.com/people/ankit-gupta"
+  },
+  "founders": [
+    {
+      "user_id": 736150,
+      "full_name": "Serafim Korablev",
+      "title": "Founder/CEO",
+      "founder_bio": "One of the first full-time vibe-coders (since October 2023).  \n\nCo-founder of 21st.dev, a UI components registry with over 1m users.  \n\nPreviously co-founded Rork.com (then a web app builder for Next.js), the first Telegram-native memecoin launchpad (multi-million exit), and Via, a cross-chain crypto routing protocol with $1.5B GTV backed by Naval, Safe, Sandeep, and others.  \n\nPassionate about design and basketball.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/serafimkorablev",
+      "x_url": "https://x.com/serafimcloud",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/6c31cb4436a1f8c1e8bbd013792ba179ebd34a1f.jpg"
+    },
+    {
+      "user_id": 564249,
+      "full_name": "Sergey Bunas",
+      "title": "Founder/CTO",
+      "founder_bio": "CS dropout. Senior Software Engineer at Deel (W19). Built Perplexity before Perplexity (Suggesty, 2022 — #1 Product Hunt, featured in Google's internal newsletter). Solo-built a Figma competitor pre-AI (Stage, 10K users). Cambridge AI hackathon winner (solo)",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/s-bunas/",
+      "x_url": "https://x.com/sergeybunas",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/2d9fe695712a7823f3ff5612f545749362a5836c.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 98841,
+      "title": "21st - Infrastructure for AI agents",
+      "tagline": "The production layer for shipping frontier AI agents inside your product - sandboxing, streaming, billing, UI, and observability out of the box.",
+      "body": "**tl;dr:** We make it stupid easy to deploy frontier AI agents (Claude Code, Codex, others) inside your product. Define your agent in TypeScript, deploy with one command, ship it to your users.\n\n<https://youtu.be/1WcdHbyik18>\n\n### How we got here\n\nLast year we built [21st.dev](http://21st.dev) - a React component registry that 1.4M developers use to build UI for AI apps.\n\nWe also built our own AI agents from scratch to power the product. All custom. 15,000+ GitHub stars.\n\nThen Claude Code arrived. We rewrote our agents on top of it - and they got better overnight than in months of our own work. That was a humbling moment.\n\nBut here's the thing - getting Claude Code into production was brutal. These agents aren't API calls. They're runtimes. They rely on bash, filesystem, persistent sandboxes. So you can't just run them on Vercel (timeouts, no fs). Then the questions start piling up. How do you sandbox securely? How do you make sure your env vars aren't stolen from the sandbox? How do you handle streaming? Billing? Observability? You end up building way more infrastructure than you planned for.\n\nWe spent 2 months deep in these problems. And then we realized - every team building on frontier agent SDKs is facing the exact same wall we just climbed over.\n\nSo we turned our infrastructure into a product.\n\n### 21st Agents SDK\n\nThe agent SDKs give you the brain. We give you everything else.\n\nWhat you get out of the box:\n\n* Sandboxed code execution (powered by E2B) - secure, persistent\n* Credential security - proxy layer so your keys never touch the sandbox\n* SSE streaming, compatible with AI SDK\n* Crafted agent chat UI with themes\n* Usage limits & billing\n* Observability\n\nHow it works: you define your agent in code - custom tools, hooks like onFinish, sandbox configuration (which files, which CLI tools, which tokens). Then you deploy with our CLI. And you have a hosted agent you can manage via API. It's AI SDK compatible so you can just plug and play on the client side.\n\nSDK supports React, Next.js, Node, and Python.\n\n### Why this matters now\n\nThe best agents aren't being built from scratch anymore. They're being built on top of frontier agent runtimes from Anthropic, OpenAI, and others. But shipping them to real users? That's still a mess. The gap between \"agent works on my machine\" and \"agent works for my customers\" is enormous.\n\nWe already closed that gap for ourselves. Now we're the infra layer so you don't have to.\n\n### Try it\n\n<https://21st.dev/agents>\n\nIf you're building with frontier AI agents and hitting production walls - we want to hear about it. DM us on X (@serafimcloud, @sergeybunas) or email [founders@21st.dev](mailto:founders@21st.dev)\n\n---",
+      "url": "https://www.ycombinator.com/launches/PiD-21st-infrastructure-for-ai-agents",
+      "votes": 19,
+      "created_at": "2026-03-16T08:16:04.714Z"
+    }
+  ]
+}

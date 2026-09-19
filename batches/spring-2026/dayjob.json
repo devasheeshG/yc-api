@@ -1,0 +1,131 @@
+{
+  "id": 31370,
+  "name": "Dayjob",
+  "slug": "dayjob",
+  "former_names": [],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/b05d200707537271b32356fc9f883781eb7e5f4a.png",
+  "website": "https://www.getdayjob.ai",
+  "all_locations": "London, England, United Kingdom",
+  "long_description": "Dayjob does AI Scheduling for Short Haul Trucks. Our scheduling agent plugs into existing ERPs and continuously re-optimises routes in real time - handling new jobs, driver changes, and exceptions automatically. Customers in waste management see 8%+ efficiency gains from day one.",
+  "one_liner": "AI Scheduling for Short Haul Trucks",
+  "team_size": 5,
+  "industry": "B2B",
+  "subindustry": "B2B -> Supply Chain and Logistics",
+  "launched_at": 1775407410,
+  "tags": [],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": true,
+  "nonprofit": false,
+  "batch": "Spring 2026",
+  "status": "Active",
+  "industries": [
+    "B2B",
+    "Supply Chain and Logistics"
+  ],
+  "regions": [
+    "United Kingdom",
+    "Europe"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": [
+    {
+      "question": "How did your company get started? (i.e., How did the founders meet? How did you come up with the idea? How did you decide to be a founder?)",
+      "answer": "Fred and I met at Oxford 13 years ago. We've lived in five houses together and were ushers at each other's weddings. In 2022, we started building software for the waste industry after seeing how poorly existing ERPs served day-to-day operations. We spent mornings at customer depots from 6AM, watching transport planners manually drag and drop jobs into routes. Plans took over an hour to build and were often obsolete within another hour. Our top customers told us they literally cannot train planners fast enough to keep up. The cognitive load burns most planners out within 18 months. We realised the problem wasn't missing features. It was that humans were being asked to do work they physically cannot do reliably. In January 2025, we pivoted to Dayjob: autonomous AI workers that plan and execute operational decisions in real time."
+    },
+    {
+      "question": "What's the history of your company from getting started until the present day? What were the big inflection points?",
+      "answer": "We started in October 2022, building ERP and inventory software for the waste industry, generating $150K in revenue. Two hard lessons emerged: large operators wouldn't migrate ERPs regardless of product quality, and better UI didn't solve the real problem of manual decision-making at scale. In January 2025, we pivoted to Dayjob, integrating with existing ERPs instead of replacing them and deploying AI workers that perform operational work directly. We started selling the product in August 2025. ARR has grown to $653K in seven months, with top customers achieving 8%+ efficiency gains from day one."
+    },
+    {
+      "question": "What is the core problem you are solving? Why is this a big problem? What made you decide to work on it?",
+      "answer": "Short haul trucking relies on humans continuously re-optimising thousands of constraints in real time: vehicle capacity, weight limits, site access windows, driver hours, and regulatory rules, all while responding to hundreds of live job changes. A single day's route plan takes 8 hours to build and is typically obsolete within an hour. Our top customers say they cannot train planners fast enough. Most burn out within 18 months. The problem is getting worse: experienced drivers who historically moved into planning roles are being replaced by office hires with no operational intuition, increasing errors and churn. ERP systems were built to digitise paperwork, not to make autonomous decisions. Operators are dependent on a role they can no longer hire or retain."
+    },
+    {
+      "question": "What is your long-term vision? If you truly succeed, what will be different about the world?",
+      "answer": "If Dayjob succeeds, short haul trucking companies will have to use us to be profitable. We will control the pricing that they charge by having the best models for pricing, booking and scheduling in the market. You simply will not be able to be competitive without Dayjob."
+    }
+  ],
+  "url": "https://www.ycombinator.com/companies/dayjob",
+  "api": "https://devasheeshg.github.io/yc-api/batches/spring-2026/dayjob.json",
+  "year_founded": 2025,
+  "city": "London",
+  "country": "GB",
+  "linkedin_url": "https://www.linkedin.com/company/dayjob-ai",
+  "x_url": "",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/b05d200707537271b32356fc9f883781eb7e5f4a.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Tom Blomfield",
+    "url": "https://www.ycombinator.com/people/tom-blomfield"
+  },
+  "founders": [
+    {
+      "user_id": 923810,
+      "full_name": "George Postlethwaite",
+      "title": "Founder/CEO",
+      "founder_bio": "Building Dayjob - autonomous AI agents that run transport operations in real time. Before this, I built Gaea, an ERP for e-waste recyclers. I was an early employee at Deliveroo (acq. Doordash 2025) and launched their UK grocery business, and previously led sales at Otta (LocalGlobe-backed job search platform).",
+      "is_active": true,
+      "linkedin_url": "https://linkedin.com/in/georgepos",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/a07812c468ce2b0ab43e32218d91729c8a79a04d.jpg"
+    },
+    {
+      "user_id": 1027598,
+      "full_name": "Fred Fooks",
+      "title": "Founder/CTO",
+      "founder_bio": "Building Dayjob - autonomous AI agents that run transport operations in real time. Previously built Gaea, an ERP for e-waste recyclers, from scratch. Engineering Science at Oxford. Background in AI and Data Science at Deloitte and Capgemini.",
+      "is_active": true,
+      "linkedin_url": "https://linkedin.com/in/frederic-fooks",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/672e6446b91e743c65620f095583212d40c755e2.jpg"
+    }
+  ],
+  "jobs": [
+    {
+      "id": 106770,
+      "title": "Founding SDR (USA)",
+      "url": "https://www.ycombinator.com/companies/dayjob/jobs/qPYSB8H-founding-sdr-usa",
+      "location": "Austin",
+      "type": "Full-time",
+      "role": "Operations",
+      "role_type": null,
+      "salary_range": "",
+      "equity_range": "",
+      "experience": "Any (new grads ok)",
+      "visa": "US citizen/visa only",
+      "skills": []
+    }
+  ],
+  "news": [
+    {
+      "title": "VWS Partners with AI Scheduling Tool Dayjob | VWS Software Solutions",
+      "url": "https://www.vwssoftware.com/vws-partners-with-ai-scheduling-tool-dayjob/",
+      "date": "Jan 30, 2026"
+    },
+    {
+      "title": "How Coastal Recycling is using AI to transform operations - Coastal",
+      "url": "https://coastaluk.co.uk/blog/using-ai-to-transform-operations/",
+      "date": "Jan 27, 2026"
+    }
+  ],
+  "launches": [
+    {
+      "id": 100132,
+      "title": "Dayjob: AI Agents for Industrial Logistics",
+      "tagline": "Meet Dayjob, AI Scheduling for Waste Trucks",
+      "body": "_Hey 👋 We're George and Fred, founders of Dayjob!_ \n\n**What we solved in the UK and are now solving in the US** \\\n\\\nIndustrial logistics plans are still built manually, every single morning. A transport planner sits down at 7am, spends 60 to 90 minutes dragging jobs onto trucks, and the plan is usually wrong by 10am. \n\nOur customers tell us they literally cannot hire and train planners fast enough. It’s a nightmare when one of those planners is off sick or has to go away on vacation. \n\nHumans are being asked to continuously re-optimise hundreds of constraints: vehicle capacity, weight limits, time windows, driver hours, live traffic, all in real time. It's cognitively impossible to do reliably.\n\nIf a fleet can complete just 10 more jobs a day, that's worth millions per year. The opportunity cost of bad scheduling is enormous and almost nobody in this industry has solved it.\n\n<https://youtu.be/GI2HtwWodpc?si=4GbPN1Uj-UnNkDoh>\n\n**What we've built:** Dayjob sits on top of existing ERP software. Our scheduling agent builds a full fleet schedule in about 60 seconds. The same task currently takes a human planner most of the morning.\n\nWe're live with fleets in the UK today, and currently launching in the US.\n\n**Early results:**\n\n* 5 to 10% improvement in fleet efficiency from day one\n* 50% improvement in hitting customer time slots\n* One customer saw an £800K revenue uplift in their first year\n\nWe started in waste management deliberately. It's one of the hardest planning environments in existence: high variability, tight regulatory rules, constant real-time changes. If you can solve scheduling there, you can solve it anywhere in industrial logistics.\n\n**The backstory:** Fred and I met at Oxford 13 years ago. In 2022 we started building ERP software for waste operators. We spent early mornings in depots watching planners work, rode in trucks, sat next to schedulers as they built their routes. \n\nWe pivoted to Dayjob in January 2025. We're now at $496K ARR, growing fast, and scheduling is just our first agent. We have three more covering the full operational workflow launching later this year.\n\n![uploaded image](/media/?type=post&id=100132&key=user_uploads/923810/fc61cfea-692b-4948-a438-9f85635324e2)\n\n**We'd love to connect with:** Anyone in the waste-hauling market or the broader industrial logistics market.\n\nLet’s go 🚛",
+      "url": "https://www.ycombinator.com/launches/Q32-dayjob-ai-agents-for-industrial-logistics",
+      "votes": 65,
+      "created_at": "2026-04-23T13:55:19.813Z"
+    }
+  ]
+}

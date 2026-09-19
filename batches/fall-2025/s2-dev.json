@@ -1,0 +1,108 @@
+{
+  "id": 30935,
+  "name": "s2.dev",
+  "slug": "s2-dev",
+  "former_names": [],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/db49ec4c66c85d205171bbf2f1700ea1146f627c.png",
+  "website": "https://s2.dev",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "S2 is an API for durable streams. We make working with streaming data dead simple and reliable.\r\n\r\nThe more we worked on data systems, the more we felt like there was a missing building block. The seamless experience of object storage simply did not exist for durable streams – so we set out to fix that!\r\n\r\nS2 reimagines streams as an unlimited and access-controlled web resource. Like if Kafka and S3 had a baby.\r\n\r\n- Building agents? Use granular streams to persist context in real time, make workflows auditable, and coordinate between agents.\r\n\r\n- Publishing fast-moving data? Streams support high fanout and can be accessed directly over the internet, so they are a great fit for broadcasting real-time feeds.\r\n\r\n- Sandboxing? Emit to per-instance streams, and read history or live events just as easily.\r\n\r\n- Local-first and multiplayer experiences? Propagate updates reliably and efficiently.\r\n\r\nStop dealing with clusters, and start streaming.",
+  "one_liner": "API for unlimited, durable, real-time streams",
+  "team_size": 5,
+  "industry": "B2B",
+  "subindustry": "B2B -> Infrastructure",
+  "launched_at": 1759174945,
+  "tags": [
+    "Developer Tools",
+    "Open Source",
+    "API",
+    "Infrastructure",
+    "Databases"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Fall 2025",
+  "status": "Active",
+  "industries": [
+    "B2B",
+    "Infrastructure"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada",
+    "Remote",
+    "Partly Remote"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/s2-dev",
+  "api": "https://devasheeshg.github.io/yc-api/batches/fall-2025/s2-dev.json",
+  "year_founded": 2024,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/streamstore/",
+  "x_url": "https://x.com/s2_streamstore",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": "https://github.com/s2-streamstore",
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/db49ec4c66c85d205171bbf2f1700ea1146f627c.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [
+    "https://bookface-images.s3.us-west-2.amazonaws.com/attachments/f0557b757a7ba472cfd3e29dc99f717e31930607.png"
+  ],
+  "primary_partner": {
+    "name": "Nicolas Dessaigne",
+    "url": "https://www.ycombinator.com/people/nicolas-dessaigne"
+  },
+  "founders": [
+    {
+      "user_id": 235940,
+      "full_name": "Shikhar Bhushan",
+      "title": "Founder/CEO",
+      "founder_bio": "Making streams plentiful and serverless. Hacked on retrieval systems at Etsy, a KV store at Facebook, and Kafka Connect at Confluent.",
+      "is_active": true,
+      "linkedin_url": "https://linkedin.com/in/shikhrr",
+      "x_url": "https://x.com/shikhrr",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/57590395516b13e3ef14efeeefecfc7409c09e62.jpg"
+    },
+    {
+      "user_id": 1723893,
+      "full_name": "Stephen Balogh",
+      "title": "Founder/CTO",
+      "founder_bio": "Loves Rust, and building systems that scale. Previously built novel infra for multi-modal product search at Etsy, and digital repository software at NYU",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/stephen-balogh-078a4995/",
+      "x_url": "https://x.com/sgbalogh0",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/23704db7d2ff94bf5b6f5b2309970e60225a41b3.jpg"
+    },
+    {
+      "user_id": 2866995,
+      "full_name": "Dwarak Govind Parthiban",
+      "title": "Founder",
+      "founder_bio": "Passionate about systems and AI. Worked on applied AI at Etsy, ML platform at Freshworks. Researched on language models at uOttawa and published at AAAI-21.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/dwarakgovindparthiban/",
+      "x_url": "https://x.com/quettabitxyz",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/c73b58fc810844a63f50f08508aa1362bb7d228d.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 95319,
+      "title": "s2.dev: Streams as a cloud storage primitive",
+      "tagline": "The serverless API for unlimited, durable, real-time streams",
+      "body": "Hi everyone! We are [Shikhar](https://www.linkedin.com/in/shikhrr/), [Stephen](https://www.linkedin.com/in/stephen-balogh-078a4995/), and [Dwarak](https://www.linkedin.com/in/dwarakgovindparthiban/), the co-founders of [s2.dev](http://s2.dev). S2 is the S3 for streams.\n\nhttps://www.youtube.com/watch?v=8-mUPf4P_8g\n\nMany of the most important features in products we love are powered by streaming data, from frontend UIs that go _brrr_ with real-time updates, to backends that store and process massive event flows. But building these sorts of real-time systems is really hard.\n\nWe are turning streams into a cloud storage primitive – just like object storage did for static files.\n\nS2 is a completely serverless datastore, offering unlimited streams and configurable (even bottomless) data retention. Streams can be appended to and followed in real-time, and since all writes are durable, you can also read from anywhere in a stream’s history, indexed by sequence number or timestamp.\n\nWe basically took the core abstraction of Kafka – [the log](https://engineering.linkedin.com/distributed-systems/log-what-every-software-engineer-should-know-about-real-time-datas-unifying) – gave it a URI, and brought it online with a dead simple API. And none of the bloat. 😀\n\nhttps://www.youtube.com/watch?v=2a1OdJ9l78A\n\n## Why we’re building S2\n\nWe built large-scale ML infra at Etsy and Meta, and always felt the lack of a system like S2. Serverless infra for data at rest has been seamless for a long time (S3 launched 20 years ago!) – but the ecosystem around streaming data, in comparison, felt stuck in the stone age.\n\n![uploaded image](/media/?type=post&id=95319&key=user_uploads/235940/72f8cb1e-a550-4458-b57b-d5936dc98191)\n\nWhen we [first introduced S2](https://news.ycombinator.com/item?id=42480105), we thought it would be most attractive to people already using streaming platforms like Kafka – but we’ve found that it resonates much more with builders in areas where these systems are entirely absent, who end up cobbling together general-purpose stores like Postgres and Redis and run into their limits.\n\nWe stand out on dimensions that are completely off the map for legacy systems: like the ability to have an unlimited number of streams backed by object storage, and to make them directly accessible [over REST](https://s2.dev/docs/rest/records/overview). This means S2 streams can be used as a serverless, reliable alternative to custom WebSocket or SSE infra.\n\n## S2 radically simplifies streaming\n\nIf you are dealing with a **high-cardinality of data sources** – for example, code execution sandboxes or IoT devices – S2 is for you. Streams can be instantly created on-demand. You don’t have to buffer or batch, just pipe into S2.\n\nhttps://www.youtube.com/watch?v=wsFiwxv_RY0\n\nWe recently [supercharged](https://news.ycombinator.com/item?id=45310294) read scalability to handle massive fanouts. You can broadcast a **real-time feed** with S2 such as market data without building any infra – publishing is just a matter of POST-ing to a stream’s URL.\n\nIf you are building **agents**, a common pain is **syncing** progress between the backend and frontend, while also being able to replay history. A lot of these agent state management challenges become simple with S2.\n\n## Try it out\n\nWe should talk if [s2.dev](http://s2.dev) resonates with you! You can [sign-up](https://s2.dev/sign-up) and follow the [quickstart](https://s2.dev/docs/quickstart) to start streaming in seconds with free credits.\n\nThere is a lot more we are cooking, including an ⭐ open source self-hostable S2 https://github.com/s2-streamstore/s2 ⭐\n\n## Talk to us\n\n**email**: [founders@s2.dev](mailto:founders@s2.dev)\n\n**discord**: https://discord.gg/JfTWJ5xxZ6\n\n**twitter**: https://x.com/s2_streamstore\n\n**bluesky**: https://bsky.app/profile/s2.dev\n\n![uploaded image](/media/?type=post&id=95319&key=user_uploads/89898/8c2da77e-e2c6-4bb6-bba6-9da0a09f87ef)\n\n",
+      "url": "https://www.ycombinator.com/launches/OnP-s2-dev-streams-as-a-cloud-storage-primitive",
+      "votes": 63,
+      "created_at": "2025-11-08T06:30:48.434Z"
+    }
+  ]
+}

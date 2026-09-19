@@ -1,0 +1,145 @@
+{
+  "id": 30060,
+  "name": "Lingo.dev",
+  "slug": "lingodotdev",
+  "former_names": [
+    "Replexica"
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/8a284047c475d06365013890a991877b3bdad21e.png",
+  "website": "https://lingo.dev",
+  "all_locations": "San Francisco, CA, USA; Remote",
+  "long_description": "Lingo.dev is the localization engineering platform: the best way to translate with LLMs, measure translation quality, and proofread with native speakers.\r\n\r\nLingo.dev is built for teams accountable for quality in languages they can't read. Teams configure localization engines, stateful translation APIs that hold the glossary, brand voice, and per-locale model preferences, and every request retrieves that context at inference time through retrieval augmented localization. Every translation is scored before it goes live, scores and corrections tune the engine, and the localization team runs the localization infrastructure. Integrate through the API, CLI, CI/CD, or native integrations with the code repository and the CMS. \r\n\r\nLingo.dev is the standard localization infrastructure for modern enterprise teams scaling into new markets – including Mistral, Solana, SoSafe, and Cal.com. Over 300M words processed, SOC 2 Type II compliant.",
+  "one_liner": "The Localization Engineering Platform",
+  "team_size": 7,
+  "industry": "B2B",
+  "subindustry": "B2B -> Engineering, Product and Design",
+  "launched_at": 1728389519,
+  "tags": [
+    "Artificial Intelligence",
+    "B2B",
+    "International",
+    "Infrastructure"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": true,
+  "nonprofit": false,
+  "batch": "Fall 2024",
+  "status": "Active",
+  "industries": [
+    "B2B",
+    "Engineering, Product and Design"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada",
+    "Remote",
+    "Fully Remote"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": [
+    {
+      "question": "How did your company get started? (i.e., How did the founders meet? How did you come up with the idea? How did you decide to be a founder?)",
+      "answer": "Veronica and Max met eight years ago at work and have been building together since. Veronica came from data science, then AI. Max came from engineering, having led a DORA-elite frontend team at Typeform.\r\n\r\nBetween them they had shipped software at startups and enterprises and bootstrapped a SaaS with customers in over 100 countries. Localization broke the same way every time: the people accountable for the result could not read most of the languages they were accountable for. They approved work they could not check, and they found out it was wrong from a customer.\r\n\r\nEvery product on the market treated that as a workflow problem, so it sold coordination. It is a measurement problem. Lingo.dev was built around the instrument first, and the pipeline around the instrument."
+    },
+    {
+      "question": "How did you decide to apply to Y Combinator? What was your experience applying, going through the batch, and fundraising at demo day?",
+      "answer": "Our first serious customers arrived, Cal.com among them, and the question stopped being whether this works and became how far it goes. Localization is a global problem by definition. Every company that grows past one language has it, in every market it enters, permanently. A problem that shape deserves a lasting, durable company behind it rather than a good couple of years.\r\n\r\nSo we shot for the stars and applied to the best accelerators in the world. We ended up in conversations with several, and we chose Y Combinator.\r\n\r\nNo other program has a record like it. Stripe, Airbnb, DoorDash, and Coinbase all started there, and each one became the default infrastructure of an entire category, operating in nearly every market on earth. YC backs companies at the point where the idea still looks small and the market does not exist yet, and it does that more often, and more correctly, than anyone else. That is the standard it sets, and that is the company we wanted to keep.\r\n\r\nThe batch did what it is known for: sharper questions, faster iteration, and a peer group that tells you the truth early rather than politely later. We raised $4.2M from Y Combinator, Initialized Capital, and the founders of Supabase and Dependabot to scale the platform and meet the growing demand from international teams."
+    },
+    {
+      "question": "How have you kept in touch with the YC community and continued to use YC resources & programs since the batch ended?",
+      "answer": "We attend YC events and stay close to the private network between them.\r\n\r\nWe try to be genuinely useful. Founders ask about localization, going multilingual, and expanding internationally, and we take those conversations whenever there is a chance to help. The network works because founders treat it as something to contribute to, so that is how we use it."
+    },
+    {
+      "question": "What's the history of your company from getting started until the present day? What were the big inflection points?",
+      "answer": "Founded in December 2023, after winning an AI product competition at Cornell Tech in New York. Full-time from February 2024.\r\n\r\nThe first product translated software with AI on every commit. It worked, and it showed how small that problem is. The commit loop is roughly one percent of localization work, and it was already close to solved.\r\n\r\nThe inflection was the buyer. Localization managers and localization engineers carry accountability for quality in languages they cannot read, and the market treats that seat as an afterthought. The company was rebuilt around that seat, and the tool became a platform: localization engines, quality scoring, native integrations, and proofreading with native speakers.\r\n\r\nToday over 300M words have been processed on the platform, for teams including Mistral, Solana, SoSafe, and Cal.com. Lingo.dev is SOC 2 Type II compliant and has raised $4.2M from Y Combinator, Initialized Capital, and the founders of Supabase and Dependabot to scale the platform and meet the growing demand from international teams."
+    },
+    {
+      "question": "What is the core problem you are solving? Why is this a big problem? What made you decide to work on it?",
+      "answer": "A company releases into thirty languages. The person accountable for those languages reads two.\r\n\r\nTranslation stopped being the constraint, it comes back in seconds, from an agency or straight from a model, and it gets cheaper every quarter. What nobody hands the accountable team is the number: which languages are good, which drifted, and what to fix first. Without it the team either trusts output it cannot read, or pays a person to read every string.\r\n\r\nLingo.dev is where that number comes from. Teams pick from the industry-standard metrics or define quality criteria in plain words, and every translation is scored before it goes live. Every low score carries its reason, traced to the model, the translation rule, or the missing glossary term. Corrections from native speakers tune the localization engine, so the edit rate falls over time.\r\n\r\nIt is a big problem because the accountability does not move. Software goes out in more languages every year, the people who answer for those languages still cannot read them, and the volume of text nobody has checked grows with every release."
+    },
+    {
+      "question": "What is your long-term vision? If you truly succeed, what will be different about the world?",
+      "answer": "Translation quality becomes a measured quantity.\r\n\r\nToday it is an opinion. Vendors assert it, buyers cannot check it, and nearly every quality number published in this industry arrives without a method behind it. When Lingo.dev succeeds, a team states what its Japanese was worth this quarter, what changed since last quarter, and what caused the change, the same way it states its uptime.\r\n\r\nDownstream of that, a product goes live in every language it has customers in on the day it goes live in English, and the team that owns those languages proves the result instead of defending it."
+    }
+  ],
+  "url": "https://www.ycombinator.com/companies/lingodotdev",
+  "api": "https://devasheeshg.github.io/yc-api/batches/fall-2024/lingodotdev.json",
+  "year_founded": 2024,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/lingodotdev/",
+  "x_url": "https://x.com/lingodotdev",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": "https://github.com/lingodotdev",
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/8a284047c475d06365013890a991877b3bdad21e.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [
+    "https://bookface-images.s3.us-west-2.amazonaws.com/attachments/333cb48eb636ff7b5d665261d9c36759c9766fa3.png"
+  ],
+  "primary_partner": {
+    "name": "Pete Koomen",
+    "url": "https://www.ycombinator.com/people/pete-koomen"
+  },
+  "founders": [
+    {
+      "user_id": 1992394,
+      "full_name": "Max Prilutskiy",
+      "title": "Founder/CEO",
+      "founder_bio": "Max is a co-founder and CEO of Lingo.dev.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/maxprilutskiy",
+      "x_url": "https://twitter.com/maxprilutskiy",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/b2bf4dde1a3ffd83d232fe5a388e7b3ff6283e46.jpg"
+    },
+    {
+      "user_id": 1989733,
+      "full_name": "Veronica Prilutskaya",
+      "title": "Founder/CPO",
+      "founder_bio": "CPO and co-founder of Lingo.dev.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/vrcprl/",
+      "x_url": "https://twitter.com/vrcprl",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/cdaba224c6470b15da00112c10285c1520724cd1.jpg"
+    }
+  ],
+  "jobs": [
+    {
+      "id": 109940,
+      "title": "Senior Content Engineer",
+      "url": "https://www.ycombinator.com/companies/lingodotdev/jobs/ZzXPeJy-senior-content-engineer",
+      "location": "Remote",
+      "type": "Full-time",
+      "role": "Marketing",
+      "role_type": null,
+      "salary_range": "$60K - $90K",
+      "equity_range": "0.10% - 0.60%",
+      "experience": "3+ years",
+      "visa": "US citizenship/visa not required",
+      "skills": []
+    }
+  ],
+  "news": [
+    {
+      "title": "Lingo.dev is an app localization engine for developers | TechCrunch",
+      "url": "https://techcrunch.com/2025/02/18/lingo-dev-is-an-app-localization-engine-for-developers/",
+      "date": "Feb 18, 2025"
+    }
+  ],
+  "launches": [
+    {
+      "id": 84681,
+      "title": "Lingo.dev – The Localization Engineering Platform",
+      "tagline": "Lingo.dev is the localization engineering platform: the best way to measure translation quality, translate with LLMs, and proofread with native speakers.",
+      "body": "![uploaded image](/media/?type=post&id=84681&key=user_uploads/1992394/c62aca07-353c-49ad-a49e-b403d1b784e0)\n\n**TL;DR**\n\n[Lingo.dev](https://lingo.dev) is the localization engineering platform: the best way to translate with LLMs, measure translation quality, and proofread with native speakers.\n\nIt's built for teams accountable for quality in languages they can't read: a localization team, or the product, engineering, or marketing team that inherited localization without one. Every translation is scored before it goes live, and scores and corrections tune the localization engine.\n\n**Speed stopped being the problem**\n\nA release goes out in thirty languages, and the person accountable for it reads two.\n\nTranslation comes back fast now, from an agency or straight from a model, and it gets cheaper every quarter. The number nobody hands you is the quality one: which languages are good, which drifted, and what to fix first. Without it you are accountable for quality you can neither read nor repair.\n\n**What Lingo.dev does**\n\n* **Build your own localization engine.** A localization engine is a stateful translation API that holds your glossary, brand voice, and per-locale model preferences. Retrieval augmented localization sends that context to the LLM at inference time. Assign the highest-scoring model per language pair, with a fallback order, on your own LLM provider API key or through Lingo.dev without markup.\n* **Measure translation quality in languages you can't read.** Pick from the industry-standard metrics, define your own quality criteria in plain words, bring the quality scorecard you have, or start from a template built for your content type. The criteria you define score translations from LLMs and from native speakers, and every low score comes with the reason, traced to the model, the translation rule, or the missing glossary term.\n* **Integrate localization into the tools you already use.** Connect the code repository, the CMS, the help center, and the email provider through native integrations, and reach the same localization engine from the API, the CLI, and CI/CD. The localization team runs the localization infrastructure.\n* **Proofread with native speakers.** Decide what waits for a person, by content type, by locale, or by a score threshold you set. Every correction tunes the localization engine, so the native speakers' edit rate falls over time.\n\n**Who runs on it**\n\nLingo.dev is the standard localization infrastructure for modern enterprise teams scaling into new markets, including Mistral, Solana, SoSafe, and Cal.com. Teams have processed over 300M words on the platform, for their customers all over the world. Lingo.dev is SOC 2 Type II compliant, and has raised $4.2M from Y Combinator, Initialized Capital, and the founders of Supabase and Dependabot to scale the platform and meet the growing demand from international teams.\n\n**Ask**\n\nIf you release into languages nobody on your team reads, we will score what goes live today, per language, on your own content.\n\nSet up Lingo.dev: <https://lingo.dev>\n\nBook a demo: <https://lingo.dev/enterprise>\n\nAnd send this to the localization professional you know. Scoring quality in languages nobody on the team reads is their job, and this is where that work happens.\n\n**Team**\n\n[Veronica](https://www.linkedin.com/in/vrcprl/) and [Max](https://www.linkedin.com/in/maxprilutskiy/), [Lingo.dev](https://lingo.dev)'s founders, met eight years ago at work. Veronica has a data science and AI background. Max has an engineering background, having led a DORA-elite frontend team at Typeform, one of Europe's best-known SaaS products.\n\nBoth experienced localization problems firsthand while working at startups and enterprise companies and while bootstrapping a SaaS with customers from over 100 countries. This shared experience led them to create Lingo.dev, so the professionals accountable for translation quality can measure it in every language, including the ones nobody on the team reads.\n\n![uploaded image](/media/?type=post&id=84681&key=user_uploads/1989733/dfd03586-1d6f-4747-b6fc-e0d84f5022a5)\n\n",
+      "url": "https://www.ycombinator.com/launches/M1p-lingo-dev-the-localization-engineering-platform",
+      "votes": 60,
+      "created_at": "2024-10-10T18:18:35.695Z"
+    }
+  ]
+}

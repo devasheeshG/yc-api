@@ -1,0 +1,102 @@
+{
+  "id": 30875,
+  "name": "Veria Labs",
+  "slug": "veria-labs",
+  "former_names": [],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/4a840ecd92ea1ebab3e7fa406ce9389683fe9208.png",
+  "website": "https://verialabs.com",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "Veria Labs is developing AI agents that hack better than the best human hackers. Founded by members of the #1 US competitive hacking team, we've already found critical bugs in AI tools, operating systems, fintech and billion dollar crypto exchanges. \r\n\r\nNow we're scaling that expertise through AI-native security tooling that operates faster than human researchers while finding deeper, more complex vulnerabilities that traditional tools miss.",
+  "one_liner": "Continuous AI pentesting that finds and fixes vulnerabilities",
+  "team_size": 3,
+  "industry": "B2B",
+  "subindustry": "B2B -> Security",
+  "launched_at": 1758644249,
+  "tags": [
+    "Security",
+    "Cybersecurity",
+    "AI"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Fall 2025",
+  "status": "Active",
+  "industries": [
+    "B2B",
+    "Security"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/veria-labs",
+  "api": "https://devasheeshg.github.io/yc-api/batches/fall-2025/veria-labs.json",
+  "year_founded": 2025,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/verialabs/",
+  "x_url": "https://twitter.com/verialabs",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": "https://github.com/verialabs",
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/4a840ecd92ea1ebab3e7fa406ce9389683fe9208.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Tom Blomfield",
+    "url": "https://www.ycombinator.com/people/tom-blomfield"
+  },
+  "founders": [
+    {
+      "user_id": 2964558,
+      "full_name": "Cayden Liao",
+      "title": "Founder",
+      "founder_bio": "I've previously done work in the Web3 security space writing fuzzers for crypto and zero knowledge protocols. Otherwise, I'm a recruited swimmer for college and am part of the #1 CTF (competitive hacking) team in the US.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/cayden-liao-6b018a272/",
+      "x_url": "https://x.com/Cayden_Liao",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/e0738bc3df42b0c5f6d82f610337031d0e8e310b.jpg"
+    },
+    {
+      "user_id": 948094,
+      "full_name": "Jayden Sarveshkumar",
+      "title": "Founder",
+      "founder_bio": "working on the future of security @ Veria Labs. web hacking @ .;,;. (#1 US competitive hacking team). ",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/jayden-s/",
+      "x_url": "https://x.com/0jayden_",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/f58ac057077848126e2af32cae2e0ade1d46e13c.jpg"
+    },
+    {
+      "user_id": 2411026,
+      "full_name": "Stephen Xu",
+      "title": "Founder",
+      "founder_bio": "Previously doing Offensive Security @ TikTok, and play on the #1 CTF (competitive hacking) team in the US. Also used to do computational physics research at some point.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/stuxf",
+      "x_url": "https://x.com/stuxfdev",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/0250381cdafcf8e7303136fa3900d8298e020161.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 94260,
+      "title": "Veria Labs: AI agents that pentest your code continuously",
+      "tagline": "Automated penetration testing for modern development teams",
+      "body": "👋Hi all, we’re Stephen, Cayden and Jayden from [Veria Labs](https://verialabs.com)!\n\n## TL;DR\n\n* Most companies pentest only 1-2x per year, but high-performing teams deploy multiple times per day \n* We're building AI agents that continuously find vulnerabilities in your application\n* **Our ask:** If you're at a fintech, healthcare, or crypto company that wants to be secure while moving fast, let’s talk: <https://verialabs.com/contact>\n\n---\n\n## The Problem\n\nYou ship code constantly. You test for security once a year, if at all.\n\nThis isn't a startup problem. It's structural. PCI DSS mandates annual pentests. HIPAA requires regular security assessments. Crypto projects get audited before launch. But after that initial test, your codebase evolves, you add features, you refactor, and there's no continuous security validation.\n\nTraditional pentesting is **fundamentally broken** for modern development:\n\n**It's too slow.** Results take weeks to deliver. By the time you get the report, your codebase has changed 50+ times.\n\n**It's too expensive.** $15,000-$30,000+ per engagement. You can't afford to test continuously at these prices, but you also can't afford _not_ to be secure.\n\n**It has terrible coverage.** Pentesters scope to 5-10 application features because that's all they can audit in two weeks. The rest of your codebase gets ignored. Your background jobs, admin panels, internal APIs are all potential attack vectors that never get looked at.\n\n**It's too shallow.** Even within their limited scope, human pentesters are constrained by time. They get 5-10 days, bill $250-300/hour, and move on to the next client. They find the obvious vulnerabilities: SQL injection, XSS, broken auth. But complex, multi-step exploits that require deep exploration of your business logic get missed because there's simply not enough time.\n\nMeanwhile, 1 in 5 companies don't test their software for security vulnerabilities at all.\n\n## Our Solution\n\nWe're building AI agents that run continuously on your codebase and send you actionable results every Monday morning.\n\n**Why we're different from traditional pentesting:**\n\nOur agents aren't constrained by human hours or budgets. We can test exhaustively: every code path, every edge case, every possible attack chain. We're not just faster and cheaper. We find more bugs.\n\n**Why we're different from SAST tools (Semgrep, Snyk):**\n\nStatic analysis tools flag potential issues but can't exploit them. Our LLM-based agents:\n\n* Actually exploit vulnerabilities to prove they're real (no false positives)\n* Understand and adapts to your business logic and data flows\n* Learn your codebase architecture and conventions, which means dramatically fewer false positives\n* Chain together low-severity findings into high-impact exploits\n\n## About Us\n\nWe're members of the [#1 competitive hacking (CTF) team](https://ctf.gg/contests) in the United States.\n\nBetween us, we've found critical vulnerabilities in AI tools, operating systems, fintech apps, and billion-dollar crypto exchanges. The future of security testing is automated, and we're building it.\n\n## What We’re Looking For\n\nIf you:\n\n* Deploy code daily but test for security sporadically (or never)\n* Are spending $30K+ per year on pentests that are outdated within weeks\n* Need continuous security without hiring an entire red team\n* Want to find complex vulnerabilities before attackers do\n\nLet's talk: <https://verialabs.com/contact>\n\nWe're especially interested in working with **fintech, healthcare, and crypto companies** (where the stakes are highest), but if you're facing similar challenges in other industries, we'd love to hear from you too.\n\n![uploaded image](/media/?type=post&id=94260&key=user_uploads/2411026/8021be6a-59f2-4d9c-9c43-ec32d957299e)\n\n",
+      "url": "https://www.ycombinator.com/launches/OWK-veria-labs-ai-agents-that-pentest-your-code-continuously",
+      "votes": 15,
+      "created_at": "2025-10-01T13:55:13.126Z"
+    }
+  ]
+}

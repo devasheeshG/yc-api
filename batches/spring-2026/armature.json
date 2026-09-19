@@ -1,0 +1,102 @@
+{
+  "id": 31463,
+  "name": "Armature",
+  "slug": "armature",
+  "former_names": [],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/cafd940f7349e6c612893fad752013b10458ce39.png",
+  "website": "https://armature.tech",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "Coding agents like Claude Code, Codex and Cursor now decide which tools get installed in a codebase. Armature runs the real agents inside a panel of realistic repositories, measures whether they pick you, and works with your team on the docs, SDK and content changes that make them choose you. Every change is tested on real agent runs before it ships.\r\n\r\nOnce agents use your product, Armature shows you what users do with it through AI, with self-serve MCP analytics and evals that catch regressions before your users see them.",
+  "one_liner": "We get your product picked by coding agents.",
+  "team_size": 3,
+  "industry": "B2B",
+  "subindustry": "B2B -> Engineering, Product and Design",
+  "launched_at": 1778126369,
+  "tags": [
+    "Artificial Intelligence",
+    "Marketing",
+    "SEO",
+    "AI",
+    "APIs"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Spring 2026",
+  "status": "Active",
+  "industries": [
+    "B2B",
+    "Engineering, Product and Design"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada",
+    "Remote",
+    "Partly Remote"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/armature",
+  "api": "https://devasheeshg.github.io/yc-api/batches/spring-2026/armature.json",
+  "year_founded": 2026,
+  "city": "Paris",
+  "country": "FR",
+  "linkedin_url": "https://www.linkedin.com/company/armature-tech",
+  "x_url": "https://x.com/ArmatureYCP26",
+  "fb_url": null,
+  "cb_url": "https://www.crunchbase.com/organization/armature-3615",
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/cafd940f7349e6c612893fad752013b10458ce39.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Andrew Miklas",
+    "url": "https://www.ycombinator.com/people/andrew-miklas"
+  },
+  "founders": [
+    {
+      "user_id": 3408440,
+      "full_name": "Theodore Otzenberger",
+      "title": "Founder/CEO",
+      "founder_bio": "Ex-Palantir, studied at Polytechnique.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/theodore-otzenberger-895345131/",
+      "x_url": "https://x.com/Totzenberger",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/aecab3cbccf2f426fe2735507cde98d9e0bdfb27.jpg"
+    },
+    {
+      "user_id": 3284644,
+      "full_name": "Louis Scremin",
+      "title": "Founder",
+      "founder_bio": "Previously leading AI Automation (AI Agents & MCP servers) at Joko as early employee",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/louis-scremin/",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/0841ba8c45279329c31ad5a76eab2bdd0c7a79b4.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [
+    {
+      "title": "Which tools do Claude, Codex and Cursor choose? We measured 17k runs to find out | Hacker News",
+      "url": "https://news.ycombinator.com/item?id=49557206",
+      "date": "Sep 02, 2026"
+    }
+  ],
+  "launches": [
+    {
+      "id": 101594,
+      "title": "Armature - Making your app finally usable by AI agents",
+      "tagline": "Armature helps companies monitor, analyze, and optimize how AI agents experience their products.",
+      "body": "Hey everyone, we’re [Theodore](https://www.linkedin.com/in/theodore-otzenberger-895345131/) and [Louis](https://www.linkedin.com/in/louis-scremin/) - Co-Founders of [Armature](https://armature.tech/) 👋\n\n### TL;DR\n\n**Armature helps companies monitor, analyze, and optimize how AI agents experience their products.**\n\n* We discover your product through MCP and CLI, **run the real workflows your customers’ AI agents do** and let you finally see your customers’ agents thinking **traces**.\n* We provide analytics, run **benchmarks**, and turn this into **concrete actions** to improve your MCP and CLI.\n* This is only the beginning: we are reinventing the building blocks of the ~~User~~ **Agent Experience**.\n\n**_The Ask:_** _If you are building a product that is increasingly used by AI agents or if you want to ensure agents can use your product but don’t know where to start, we’d love to hear about your challenges! You can also try our product self-serve **for free** directly at [armature.tech](http://armature.tech)._\n\n<https://www.youtube.com/watch?v=3Gtc5RzGxJ0>\n\n### ❌ The Problem: The Missing Agent Experience (AX)\n\nWe have 30 years of tooling to optimize User Experience (UX), from session replays and funnel analytics to live support chat. But as products are increasingly operated by **AI agents** rather than humans, we lack the equivalent tooling for **Agent Experience (AX)**.\n\nRight now, companies have **zero visibility** into how each agent (Claude, Codex, ChatGPT, OpenClaw, etc.) interacts with their products. And when a bad AX causes an agent to fail silently, the end-user simply churns.\n\nBut it goes deeper. As agents become the primary users, the fundamental mechanics of software products simply stop working. Because if a human isn’t looking at the screen:\n\n* _How do you upsell a premium feature to an AI?_\n* _How do you build brand loyalty with a user that doesn’t feel emotions?_\n* _How do you offer customer support when an agent fails?_\n\nWe are building Armature to solve these exact problems and so many more questions related to this shift!\n\n### 💡 Our Solution: Armature\n\nArmature helps companies monitor, analyze, and optimize how AI agents experience their products.\n\n**What we do today:**\n\n* **Automated testing:** We run complex sessions against your MCPs/CLIs across all major harnesses and models to catch broken workflows before your users do.\n* **AX analytics &amp; benchmarking:** No more black boxes. We trace agent sessions to show you exactly what the model \"thought\", what context it missed, and why it failed. We measure your AX against competitors to ensure you remain the preferred platform for agents to use.\n* **Auto-remediation:** Our MCP lets your internal coding agents plug into Armature to autonomously fix your product's AX based on our run data.\n\n![uploaded image](/media/?type=post&id=101594&key=user_uploads/3408440/5642c5dd-a3b1-46e1-865d-a0425ceba1d5)\n\n**Our vision for tomorrow:**\n\nReaching full understanding of how agents use your product and how you can improve it is only step one. \n\nThe next step is to provide the **foundational infrastructure for the Agent Experience**, powering agent-native revenue, lifecycle marketing, and customer support for the next generation of software.\n\n### 🙏 Our Ask: If you’re building apps for agents, let’s talk!\n\n1. **Audit your MCP or CLI:** If you are building for agents, you can start by running your first audit &amp; benchmark on [**armature.tech**](http://armature.tech) **for free** to see how they actually experience your app.\n2. **Let’s chat:** If you are facing challenges to make your app usable by agents or optimize the agent experience, please reach out to [**founders@armature.tech**](mailto:founders@armature.tech). We’d love to discuss and help you with this!\n\n### 👬 The Team: why we are working on this\n\nBefore founding Armature, Louis scaled **AI agents at Joko, a 6M user consumer app**. Theo was a **FDE at Palantir** and then built petabytes-scale **observability** from scratch as a Founding Engineer at Tsuga, a Datadog spin-off.\n\n**Blindly shipping a self-tested MCP to 6M of edge cases drove us crazy so we decided to build the solution.**\n\n![uploaded image](/media/?type=post&id=101594&key=user_uploads/3408440/bdb32e65-c048-467e-aa62-0e67c8f1fff7)\n\n",
+      "url": "https://www.ycombinator.com/launches/QQc-armature-making-your-app-finally-usable-by-ai-agents",
+      "votes": 25,
+      "created_at": "2026-05-19T20:45:48.490Z"
+    }
+  ]
+}

@@ -1,0 +1,108 @@
+{
+  "id": 32262,
+  "name": "Alkera AI",
+  "slug": "alkera-ai",
+  "former_names": [
+    "Alkera AI, Inc.",
+    "Alkera AI",
+    "Alkera AI, Inc."
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/eecc1a49c35b3a26973c35ce53d1c3f862a058cb.png",
+  "website": "https://alkera.ai",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "Alkera is a data engineering/analysis/science agent that works in your IDE or CLI. If you’re tired of agents that produce false, or even dangerous, reports about your data, then Alkera is for you. Our agent is equipped with your data’s history and lineage, your team’s knowledge, and tailored plugins for data apps such as Snowflake and dbt. Simply install and connect your services to begin doing trusted agentic data work. We also offer VPC & on-prem deployment options for when data can't leave your boundary.",
+  "one_liner": "Reliable and safe data engineering and data science agents",
+  "team_size": 3,
+  "industry": "B2B",
+  "subindustry": "B2B -> Engineering, Product and Design",
+  "launched_at": 1783697969,
+  "tags": [
+    "Artificial Intelligence",
+    "Developer Tools",
+    "Data Science",
+    "Data Engineering",
+    "Enterprise Software"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Summer 2026",
+  "status": "Active",
+  "industries": [
+    "B2B",
+    "Engineering, Product and Design"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/alkera-ai",
+  "api": "https://devasheeshg.github.io/yc-api/batches/summer-2026/alkera-ai.json",
+  "year_founded": 2026,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/alkera-ai",
+  "x_url": "",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/eecc1a49c35b3a26973c35ce53d1c3f862a058cb.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Ankit Gupta",
+    "url": "https://www.ycombinator.com/people/ankit-gupta"
+  },
+  "founders": [
+    {
+      "user_id": 3652826,
+      "full_name": "Rick Gao",
+      "title": "Founder/CEO",
+      "founder_bio": "Founder at Alkera AI, Inc. Previously at Verition Fund Management where he built financial models and optimizations for treasury financing. Previous computational biology research at Yale's Gerstein Laboratory. ",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/rgao09",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/515662055ce684fc796921959375d09b477afbfa.jpg"
+    },
+    {
+      "user_id": 3406186,
+      "full_name": "Tony Li",
+      "title": "Founder/COO",
+      "founder_bio": "Founder at Alkera AI, Inc. Previously Agentic Software Engineer at ByteDance, where he built a Python framework for multi-agent AI workflows and deployed production bots used across company teams. Former Quantitative Developer at Carthage Capital. BS in Computer Science and Mathematics from Yale.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/tonyli4722",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/9e00bcde4966ff8eb6ea44e6847dce0d34f0c0b5.jpg"
+    },
+    {
+      "user_id": 3673412,
+      "full_name": "Andrew Tran",
+      "title": "Founder/CTO",
+      "founder_bio": "Founder at Alkera AI, Inc. Prev SWE intern at Ramp and HRT working closely with data teams. CS B.S/M.S from Yale. Prev ML research at Yale's Gerstein Lab developing biology reasoning models.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/andrewtran-cs/",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/ca5cdd1b227281ce999435bd183de90a22e25b54.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 106204,
+      "title": "Alkera - The data agent that you can trust",
+      "tagline": "Alkera is an agent that replaces your coding agent to reliably and safely perform real data engineering/analysis/science work.",
+      "body": "**TL;DR:** Data teams adopting AI agents want speed, but one wrong step can quietly ripple through your dbt models, dashboards, and business decisions before anyone notices. [Alkera](https://alkera.ai) **is an AI data agent for data engineers/analysts/scientists or anyone who wants to gather data insights that actually understands your data stack** (column-level lineage, graph-based planning, and a living knowledge base), so it ships data work you can trust. It's **#1 on UC Berkeley's [DataAgentBench](https://ucbepic.github.io/DataAgentBench/),** which tests complex, data-oriented tasks.\n\n<https://www.youtube.com/watch?v=fQEVpQPYNxg>\n\nCoding agents can write data code that runs. **For data engineering, knowing it's correct is the hard part.** This is knowing that a transformation didn't quietly redefine a column three models downstream and corrupt the revenue dashboard that the exec team checks every Monday. **For data analysis and data science, beyond data access and lineage problems, coding agents struggle with highly parallel work spread across multiple machines.** When interacting with remote computing nodes, they do so only via fragile chains of SSH commands. Long processing and training runs have you more as a babysitter than a scientist.\n\n**Alkera is a data agent that works natively across your entire data stack, with the context and guardrails coding agents lack.** Every change it makes to a query, transformation, model, or notebook is backed by a real understanding of your pipeline.\n\nIt's **#1 on UC Berkeley's DataAgentBench,** which tests complex, data-oriented tasks. You reach it through an IDE extension (VSCode, Cursor), a CLI, or the browser — wherever you already work.\n\nWhat makes it different:\n\n* **Column-level lineage across your data stack.** Trace a single row from Snowflake, through your dbt models, to your Hex dashboard. Before the agent changes anything, it maps the _blast radius_ — every downstream table and dashboard the change would touch.\n* **Graph-based planning with flexible computation.** Plan complex data tasks with parallel agents from a quick analysis to days-long modeling experiments to run across your machine and remote CPU/GPU nodes.\n* **A living knowledge base.** Alkera learns your schema docs, trusted queries, and the tribal conventions that never make it into documentation — written by both agents and humans, with humans verifying what the agent adds.\n* **Production protection.** Fine-grained permissions over every tool, including bash and SQL. Block a seemingly innocent SQL query with a dangerous UPDATE hidden away in a subexpression. Enforce OAuth to connect your warehouses to maintain existing data permissions.\n\n# **Try it**\n\nDownload Alkera at <https://alkera.ai> or read the docs at <https://docs.alkera.ai>. For data engineering, point it at your stack and **watch it trace a change through your pipeline**, lighting up everything downstream. For data analysis and data science, have it **spin up parallel research agents** to explore your data. Reach out to [contact@alkera.ai](mailto:contact@alkera.ai) to see how we can tailor Alkera to your specific data apps/tools and computing environment.\n\n# **Our team**\n\n* Andrew Tran studied CS at Yale. At Yale, he trained LLMs to reason over multi-modal biological data. At Ramp and Hudson River Trading, he worked closely with data teams to build out ergonomic tooling for data engineers and researchers.\n* Rick Gao studied CS at Yale. He was previously at Verition Fund Management, where he worked with internal data teams and counterparties to develop ingestion pipelines and internal financial models.\n* Tony Li studied CS and Math at Yale. During his time at Carthage Capital and ByteDance, he worked with data engineering teams to build data pipelines, data analysis, and agentic tooling.\n\n# **Our ask**\n\nIf you:\n\n* perform data engineering work on production pipelines with tools like dbt and Apache Airflow\n* perform data analysis/data science work in Python/R and with tools like Jupyter notebooks\n* manage a data team – engineers, analysts, or scientists\n* want to enable non-data experts to create data insights\n\nCheck out <https://alkera.ai> and reach out at [contact@alkera.ai](mailto:contact@alkera.ai). We’d love to showcase a demo, learn more about your data teams’ pain points, and share more about how Alkera can help supercharge them.",
+      "url": "https://www.ycombinator.com/launches/Rcy-alkera-the-data-agent-that-you-can-trust",
+      "votes": 12,
+      "created_at": "2026-07-17T18:50:58.787Z"
+    }
+  ]
+}

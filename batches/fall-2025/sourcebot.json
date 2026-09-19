@@ -1,0 +1,107 @@
+{
+  "id": 30946,
+  "name": "Sourcebot",
+  "slug": "sourcebot",
+  "former_names": [],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/8dc3d95366a9f12c7989780cf364009423a55b54.png",
+  "website": "https://www.sourcebot.dev/",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "Sourcebot is an open source code understanding platform for massive codebases. We’re used by thousands of engineers in some of the largest companies in the world, including NVIDIA, Red Hat, Wikimedia, and Arista Networks.\r\n\r\nUnderstanding code, not writing it, is the primary bottleneck for large engineering teams. For developers, this means onboarding onto complex codebases faster. For AI agents, it means getting the necessary code context to minimize hallucinations and maximize cohesion within the wider codebase.\r\n\r\nSourcebot solves this by giving developers and AI agents the ability to regex search across millions of lines of code instantly, as well as ask questions across thousands of repos using any flagship reasoning model. Being open source and on-prem, we can get deployed in enterprises within minutes before other tools even get approval.\r\n\r\nWe met a decade ago at McGill University and have been building together full time for over 2 years. We’ve personally felt the pain of understanding large codebases while working at Microsoft, EA, Ubisoft, Google, and Meta.",
+  "one_liner": "Helping humans and AI agents understand massive codebases",
+  "team_size": 3,
+  "industry": "B2B",
+  "subindustry": "B2B -> Engineering, Product and Design",
+  "launched_at": 1759606313,
+  "tags": [
+    "Artificial Intelligence",
+    "Developer Tools",
+    "Open Source"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": true,
+  "nonprofit": false,
+  "batch": "Fall 2025",
+  "status": "Active",
+  "industries": [
+    "B2B",
+    "Engineering, Product and Design"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/sourcebot",
+  "api": "https://devasheeshg.github.io/yc-api/batches/fall-2025/sourcebot.json",
+  "year_founded": 2024,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/sourcebot",
+  "x_url": "https://x.com/sourcebot_dev",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/8dc3d95366a9f12c7989780cf364009423a55b54.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Nicolas Dessaigne",
+    "url": "https://www.ycombinator.com/people/nicolas-dessaigne"
+  },
+  "founders": [
+    {
+      "user_id": 1449228,
+      "full_name": "Michael Sukkarieh",
+      "title": "Founder/CEO",
+      "founder_bio": "Cofounder at Sourcebot. Previously worked on the largest game engines in the world at Ubisoft and EA, the worlds first cloud-first game engine at Google, and John Carmack's original Oculus OS team at Meta.",
+      "is_active": true,
+      "linkedin_url": "https://linkedin.com/in/msukkari",
+      "x_url": "https://x.com/msukkarieh1",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/50000a60f3b9414f186dcd0fa4c2271bc99c713c.jpg"
+    },
+    {
+      "user_id": 1454838,
+      "full_name": "Brendan Kellam",
+      "title": "Founder/CTO",
+      "founder_bio": "Co-founder at Sourcebot. Previously built core game streaming tech on the Xbox Cloud Gaming team, worked on search inside of Visual Studio, and was the youngest engineer who helped ship Far Cry 5 at Ubisoft. I'm originally from Toronto and attended McGill University.",
+      "is_active": true,
+      "linkedin_url": "https://linkedin.com/in/brendan-kellam",
+      "x_url": "https://x.com/bshizzle28",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/1d2937cf7761b2ab9954a2e0169b4193984c3ec0.jpg"
+    }
+  ],
+  "jobs": [
+    {
+      "id": 96310,
+      "title": "Chief of Staff",
+      "url": "https://www.ycombinator.com/companies/sourcebot/jobs/tl38yrA-chief-of-staff",
+      "location": "San Francisco, CA, US",
+      "type": "Full-time",
+      "role": "Operations",
+      "role_type": null,
+      "salary_range": "$120K - $200K",
+      "equity_range": "0.10% - 1.00%",
+      "experience": "Any (new grads ok)",
+      "visa": "US citizen/visa only",
+      "skills": []
+    }
+  ],
+  "news": [],
+  "launches": [
+    {
+      "id": 94687,
+      "title": "Sourcebot: The Code Understanding Platform",
+      "tagline": "Helping developers and AI agents understand massive codebases.",
+      "body": "**TL;DR**: Sourcebot is an open source code understanding platform. It’s used by thousands of engineers in some of the largest companies in the world (including **NVIDIA, Red Hat, Wikimedia, and Arista Networks)** to help developers and AI agents understand massive codebases.\n\n[https://youtu.be/YJIi-gcAM3g](https://youtu.be/YJIi-gcAM3g%5C)\n\n\\\n**The problem:**\n\n* Large engineering teams manage **millions of lines of scattered and undocumented code**.\n* Individual engineers must regularly find and understand code across this complex environment to do their job. Existing tooling to do so is **inadequate, rudimentary, and often nonexistent.**\n* **AI agents have this problem too.** They need this context to provide usable results within an enterprise environment\n\n**The solution:**\n\nSourcebot solves this by providing the following tools:\n\n* **Code Search -** instantly search across millions of lines of code. Supports regex, boolean logic, and repo/file/branch filters.\n\n![uploaded image](/media/?type=post&id=94687&key=user_uploads/1449228/70c891b0-cfec-4ff6-b070-fc1f212c29da)\n\n* **Ask -** ask questions in natural language across thousands of repos. Like asking in Cursor, but across all your repos and in a web app with inline citations.\n\n![uploaded image](/media/?type=post&id=94687&key=user_uploads/1449228/b97e4beb-83cb-4d8d-b6b0-ed53a2a973c8)\n\n* **MCP -** gives both of the above tools to AI agents, allowing them to fetch context from code across your organization.\n\nAdditional features:\n\n* We integrate with any **code host** (e.g., GitHub, GitLab, BitBucket, etc.) as well as any **LLM model** (e.g., OpenAI, Anthropic, Bedrock, etc.). Bring your own LLM key.\n* Sourcebot is **open source** and **self-hosted** - none of your code leaves your deployment. Deploy and index all your repos in minutes with a single docker container.\n* We have a community edition that’s **free to use**, and a paid enterprise edition with advanced navigation features, analytics, and security/compliance features.\n\n**Our story:**\n\nBrendan and I met 10 years ago during our first week at McGill University 🇨🇦. We were both into game engines, which led us to work at Ubisoft Montreal on the largest game engines in the world. Afterwards, we worked on some of the most complex systems out there: Visual Studio at Microsoft, a cloud-first game engine at Google, VR operating systems at Meta, and cloud-streaming infrastructure at Xbox. Ramping up and understanding these systems was always a long, painful process - which is what led us to build tools to help developers understand this complexity.\\\n\\\nLearn more here: https://www.sourcebot.dev/\n\n![uploaded image](/media/?type=post&id=94687&key=user_uploads/1449228/4ef682b8-0ac6-48a4-937d-8a64d62f34d3)\n\n",
+      "url": "https://www.ycombinator.com/launches/OdD-sourcebot-the-code-understanding-platform",
+      "votes": 54,
+      "created_at": "2025-10-16T15:49:09.018Z"
+    }
+  ]
+}

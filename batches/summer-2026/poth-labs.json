@@ -1,0 +1,104 @@
+{
+  "id": 31272,
+  "name": "Poth Labs",
+  "slug": "poth-labs",
+  "former_names": [
+    "Poth"
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/ee08f2b3965c952b7b91fda669eab1aace70f2b1.png",
+  "website": "https://pothlabs.com",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "Poth is an agentic research platform that connects to your company data, creates hypotheses about what might be causing problems, and validates them using both existing data and adaptive user feedback.",
+  "one_liner": "The customer brain that connects data to explain customer behavior",
+  "team_size": 2,
+  "industry": "B2B",
+  "subindustry": "B2B",
+  "launched_at": 1782326273,
+  "tags": [
+    "Artificial Intelligence",
+    "SaaS",
+    "B2B",
+    "Workflow Automation",
+    "Market Research"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Summer 2026",
+  "status": "Active",
+  "industries": [
+    "B2B"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/poth-labs",
+  "api": "https://devasheeshg.github.io/yc-api/batches/summer-2026/poth-labs.json",
+  "year_founded": 2026,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://linkedin.com/company/poth",
+  "x_url": "",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/ee08f2b3965c952b7b91fda669eab1aace70f2b1.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Ankit Gupta",
+    "url": "https://www.ycombinator.com/people/ankit-gupta"
+  },
+  "founders": [
+    {
+      "user_id": 2757892,
+      "full_name": "Matthew Wong",
+      "title": "Founder/CEO",
+      "founder_bio": "Cofounder & CEO of Poth Labs. Ex-Palantir, Stanford",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/matthew-wong-b56180277/",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/fee93dbf807861f61e8e990e664405a0479ec2c5.jpg"
+    },
+    {
+      "user_id": 2622339,
+      "full_name": "Mojmir Horvath",
+      "title": "Founder",
+      "founder_bio": "Cofounder & CTO of Poth Labs. Ex-Tietoevry and Phillips Academy",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/mojmir-horvath/",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/3251bb7283370c7779f42f2224497630d2fc08a7.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 106978,
+      "title": "Ask Poth—ask anything about your customers",
+      "tagline": "The internal voice of the customer",
+      "body": "# \\*\\*\\*\\*\n\n**TL;DR: Your customer data is fragmented across Pylon, Granola, Posthog, Hubspot, Slack, and Notion. Poth connects that information into a living model of your customers, mapping analytics from Posthog and transcripts from Granola to the same customer, so you can finally answer the questions that live across multiple tools: churn, adoption or what to build next, with cited evidence. pothlabs.com**\n\n<https://youtu.be/k9gsdaxXdtM>\n\n**The problem:**\n\nCompanies have customer information scattered across support tickets, sales calls, CRM notes, surveys, interviews, product analytics and more. \n\nBut answering a new question about customers still usually means manually searching across those systems or beginning another research project.\n\n**The (soft) pivot:**\n\nWe originally built Poth to generate hypotheses and launch adaptive interviews and surveys to test them. To determine what questions to ask and which customers to ask, Poth first had to understand all of the customer information a company already had.\n\nUnder the hood, we built a customer knowledge graph: Poth identifies the important objects in a company’s data: customers, accounts, users, products, features, conversations, behaviors, and feedback, and connects them through their relationships.\n\nAs we integrated with more teams, we noticed that several were using this underlying model as much as, or more than, the survey functionality itself. They wanted to ask questions across everything their customers had already said and done so we made that a core part of the product!\n\n**Customer knowledge graph example:**\n\nFor a company like Slack, Poth might model five objects:\n\n* **Account**  (a company paying for Slack)\n* **User**\n* **Workspace**\n* **Feature** (Slack Connect, Huddles, Canvas, or workflows)\n* **Customer signal** (A support ticket, call transcript, survey response, or product event)\n\nIt then connects them through relationships such as:\n\nUser —BELONGS_TO→ Account Account —OWNS→ Workspace User —USED→ Feature Customer Signal —CREATED_BY→ User Customer Signal —REFERENCES→ Feature\n\nSlack could then ask:\n\n“Why are enterprise accounts trying Slack Connect but not adopting it broadly?”\n\nAnd Poth could connect low Slack Connect usage in PostHog, permission-related support tickets in Pylon, security concerns mentioned in Granola transcripts, and renewal context from HubSpot, all through the same accounts, users, workspaces, and features.\n\nInstead of returning a generic summary, Poth can show the supporting and contradicting evidence, cite the underlying sources, and explain what information is still missing.\n\nIn practice, the model contains many more objects and relationships based on each company’s business and data.\n\n**Ask Poth:**\n\nConnect your customer data sources and internal documentation. Poth automatically builds the living model, and your team can ask questions naturally across everything customers have said and done.\n\nWhen the existing evidence is not enough, you can also use Poth to launch adaptive interviews and surveys to collect what is missing.\n\nSome use cases we’ve seen:\n\n* **Discovery:** “Across our discovery calls, what do users want most that we haven’t built?”\n* **Adoption and growth:** What is preventing activated customers from adopting more of the product and expanding?”\n* **Churn and risk:** “Identify the top three reasons customers have churned, then flag the five active accounts showing similar warning signs.”\n* **Win-loss analysis:** “What are the most common reasons we lose enterprise deals, and which product gaps are actually affecting revenue?”\n* **Account intelligence:** “Give me everything relevant to this account before my next customer call.”\n\n**Our ask:**\n\nWe’re already working with several teams in the YC batch, and we’re looking for more companies whose customer context is spread across several systems.\n\nI’d especially appreciate introductions to:\n\n* Founders and product leaders at growing startups with significant customer data across three or more tools\n* Heads of Customer Insights, Voice of the Customer, Customer Experience, User Research, or Customer Success at larger companies\n\nAnd if your team has important customer questions it still cannot answer confidently, email me at [matthew@pothlabs.com](mailto:matthew@pothlabs.com)! We’ll work closely with early teams to connect their core systems and get them live.\n\npothlabs.com",
+      "url": "https://www.ycombinator.com/launches/RpS-ask-poth-ask-anything-about-your-customers",
+      "votes": 7,
+      "created_at": "2026-07-22T20:02:23.718Z"
+    },
+    {
+      "id": 103949,
+      "title": "Poth Labs - The AI Native Customer Research Platform",
+      "tagline": "Understand why users behave the way they do—hypotheses from your data, validated through interviews.",
+      "body": "**TL;DR:** Poth helps you understand _why_ your users behave the way they do. It uses your company's data and context to generate hypotheses, then validates them through adaptive user interviews until it uncovers the root cause.\n\n**What we do:** Poth is an AI-native customer research platform\n\nAnalytics tools show behavior. Traditional research tools ask users static, predetermined questions. Poth connects the two—starting from your own data.\n\nIt takes a company's existing data and context to generate hypotheses, validates them through adaptive interviews, and continuously updates its questioning based on each user's responses—helping teams uncover the reasons behind churn, failed activation, checkout abandonment, or any user behavior.\n\n<https://www.youtube.com/watch?v=YHgz41ItGhI>\n\n**Who we are:** Before Poth, I (Matthew) was an FDE at Palantir, where I worked closely with enterprise customers to help them make better use of their data. My co-founder Mojmir was a data scientist at Tietoevry, where he did the same.\n\nNow we're building Poth to help every company understand why users behave the way they do.\n\n**Our ask:** If you work in product, growth, customer research, or analytics, we'd love to chat — reach out and connect. Try it at [pothlabs.com](http://pothlabs.com).",
+      "url": "https://www.ycombinator.com/launches/R2b-poth-labs-the-ai-native-customer-research-platform",
+      "votes": 41,
+      "created_at": "2026-06-25T19:41:41.476Z"
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "id": 27740,
+  "name": "Mercoa",
+  "slug": "mercoa",
+  "former_names": [
+    "Dinora"
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/b67b90e4f6e84745cd503648bae4a2ed818421e4.png",
+  "website": "http://mercoa.com",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "Mercoa helps AP and Spend management platforms drive more virtual card volume from their BillPay customers. Our agent identifies card-eligible invoices and securely pays them through supplier portals or payment links. ",
+  "one_liner": "AI Agent for Billpay platforms to pay invoices with virtual cards",
+  "team_size": 2,
+  "industry": "Fintech",
+  "subindustry": "Fintech",
+  "launched_at": 1676998433,
+  "tags": [
+    "Fintech",
+    "API"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Winter 2023",
+  "status": "Active",
+  "industries": [
+    "Fintech"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": [
+    {
+      "question": "What's the history of your company from getting started until the present day? What were the big inflection points?",
+      "answer": "We spent all of 2023 building our core product with a select group of core customers. In 2024, we invested in our go-to-market motion and are now growing at 20% month-over-month. "
+    }
+  ],
+  "url": "https://www.ycombinator.com/companies/mercoa",
+  "api": "https://devasheeshg.github.io/yc-api/batches/winter-2023/mercoa.json",
+  "year_founded": 2022,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/mercoa/",
+  "x_url": "https://twitter.com/MercoaFinance",
+  "fb_url": null,
+  "cb_url": "https://www.crunchbase.com/organization/mercoa",
+  "github_url": "https://github.com/mercoa-finance",
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/b67b90e4f6e84745cd503648bae4a2ed818421e4.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": null,
+  "founders": [
+    {
+      "user_id": 6155,
+      "full_name": "Sai Arora",
+      "title": "Founder",
+      "founder_bio": "Founder at Mercoa\n\n",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/saiarora",
+      "x_url": "https://twitter.com/Sarora27",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/cdaae56239bc9674742a763c6b03ae527c5b6444.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 92877,
+      "title": "Mercoa CardPay: AI Agents for B2B Virtual Cards",
+      "tagline": "Mercoa converts check & ACH payments to virtual card payments.",
+      "body": "# TL;DR\n\nMercoa converts check & ACH payments into virtual card payments. Our CardPay agent knows which vendors accept cards, what fees they charge, and pays them through portals, links, phone, or email.\n\nhttps://youtu.be/Qg5im2qhwlQ\n\n# The Problem\n\nIf you process millions of dollars in B2B payouts to vendors, you know virtual cards make money.  Our data across 11 BillPay platforms shows that **15-30% of all ACH transactions processed could be paid by card**. \\\n\\\nWhen a vendor accepts your virtual card, you make a percent back through interchange. Unfortunately, a majority of AP platforms, procurement software, supply chain systems, and enterprises with card issuing programs pay vendors through ACH & check. This volume is missed interchange revenue.\\\n\\\nToday, platforms try capture this revenue by:\n\n**1) Asking users to deliver the card themselves**\n\nCustomers use your BillPay for control over approvals and payment timing. Forcing them to generate virtual cards and key them into vendor portals undermines that control.\n\nFor example, Brex BillPay asks users to assign a member of their team to pay a vendor bill using a virtual card.\n\n![uploaded image](/media/?type=post&id=92877&key=user_uploads/6155/14c18a23-33ea-4d8a-9ce6-8c031e890909)\n\nWhen you ask your customers to deliver the card themselves, you’re also asking them to figure out if a vendor will accept cards. This is a side quest your users do not want to complete. Your customers end up choosing the path of least resistance (ACH & Check) instead of paying by card.\n\n**2) Hiring a vendor enablement team.**\n\nThe other solution is to hire a vendor enablement team. These teams identify vendors who accept cards, check their fees, and process payments by:\n\n* Logging into portals & manually entering card details\n* Calling vendors & reading card details over the phone\n* Emailing card details directly to the vendor\n\nThis approach is slow, expensive, and impossible to scale without adding more people. \n\nSome platforms hire these teams internally. We spoke with one AP platform that staffs 40 vendor ops employees solely to call vendors or type card numbers into portals by hand. \\\n\\\nOthers outsource the work to issuer services like FIS, or Corpay. These providers deliver a poor experience, send cards by email without context, and pressure vendors to join a network.\n\n# The Mercoa CardPay Agent\n\nMercoa automates the entire vendor payment workflow; from identifying which vendor will take a card to delivering that card through the right channel.\\\n\\\nWe do this by: \n\n1. **Plugging directly into your AP or Bill Pay product**. When your customer schedules an invoice, we analyze it in real time and flags if it is cardable and whether fees apply.\n2. **Automating card delivery.** On the scheduled date, our agent takes a card (**issued by you**)  logs into the vendor portal, uses the invoice link, or follows the vendor’s required process to submit a virtual card payment. No human involvement is required.\n3. **Providing full confirmation:** We return a payment confirmation along with a receipt back to your system so the bill is marked as paid, keeping your workflow intact.\n\n![uploaded image](/media/?type=post&id=92877&key=user_uploads/6155/2c2bc28d-86d1-4d3a-86d6-0d5f8c24d7f5)\n\nDrop in our agent with **2 API calls** and start capturing the margin you are missing today. \n\nOur Agent requires zero changes to your customer experience and works with your card issuing program. \n\nA company using Mercoa can make up to **$26k for every $1 Million processed** through cards. \n\n# How did we get here?\n\nWe were building an embedded Bill Pay platform for SaaS companies to offer AP/BillPay to their customers. We launched Bill Pay for 11 platforms in under a year. \n\nWhile processing their invoices, we kept seeing the same thing:\n\n**15–30% of payments could be paid by card with no fee, but weren’t.**\n\nThe roadblocks were always the same:\n\n1. No one knew which vendors would take a card\n2. What the fee would be,\n3. How to deliver it without breaking the workflow.\n\nThen bigger AP platforms started calling us. They didn’t want our whole Bill Pay product. They just wanted the part that solved vendor acceptance and delivery.\n\nThat’s when we realized the bigger play wasn’t building another AP platform. It was giving every platform and enterprise the ability to turn vendor payments into profits. We’re starting with virtual card payments and see a large opportunity to handle the full vendor enablement journey.\n\n## Our Ask:\n\nAre you a platform or enterprise that wants to make more vendor payments through cards? Do you have a vendor ops team that’s drowning in manual work?\n\nWe’d love to show you how you can capture more card margin without more ops. \\\n\\\nEmail [sai@mercoa.com](mailto:sai@mercoa.com) or book a [demo](https://calendly.com/sai-mercoa/30-minute-chat) today!",
+      "url": "https://www.ycombinator.com/launches/OA1-mercoa-cardpay-ai-agents-for-b2b-virtual-cards",
+      "votes": 8,
+      "created_at": "2025-08-11T15:12:35.662Z"
+    },
+    {
+      "id": 69478,
+      "title": "Mercoa: The accounts payable & BillPay API for B2B fintechs",
+      "tagline": "Offer B2B BillPay & AP to your customers and monetize payments out.",
+      "body": "Hi everyone! We’re Sai and Sandeep and we’re building Mercoa.\n\n### TL;DR\n\n[Mercoa](https://mercoa.com) lets any B2B fintech offer BillPay and Accounts Payable services to their customers. Use our drop-in iframe or API to offer your users one place to manage and pay all of their invoices.\n\n### The Problem:\n\nB2B fintechs want to be the one-stop-shop for their customers to manage their business finances. Customers want to manage their open bills & invoices on the same platform where they are receiving payments.\n\nHelping customers get paid is usually one of the first things a B2B fintech builds. Customers are willing to pay a payment processing fee, so monetizing incoming payments is seen as an easy win.\n\nOn the other hand, helping customers make invoice and bill payments is not as simple. Aside from building the complex software needed to manage and process these payments, most fintechs do not see a clear way to monetize payments out.\n\n### Monetizing Payments Out:\n\nThe best way to make money from B2B BillPay is to offer premium payment options that help customers maintain their cash flow while ensuring their vendors are paid on time. These options include:\n\n![uploaded image](/media/?type=post&id=69478&key=user_uploads/6155/329aba45-12ca-4c42-90d4-7227c80aa20e)\n\nBefore a business can offer these options to their customers, they first need to build a software experience that lets their customers pay their bills & invoices with confidence. This experience consists of eight different components that must be tightly integrated together:\n\n![uploaded image](/media/?type=post&id=69478&key=user_uploads/6155/b5468918-1141-42c3-9ef2-8f4feeb4d11a)\n\nMost companies piece together a solution with some but not all of these components in an effort to launch as quickly as possible. They find themselves in an endless cycle of optimizing an experience with no meaningful end in sight to start monetizing. Some companies we spoke with spent three years optimizing their BillPay experience. Others ended up abandoning their BillPay efforts.\n\n### Our Solution: A white-labeled, embedded BillPay experience with pre-built payment monetization\n\nWith Mercoa, offering BillPay and Accounts Payable services to your users is as simple as dropping our iframe into your product.\n\n![uploaded image](/media/?type=post&id=69478&key=user_uploads/6155/07acf804-a804-4e6b-821d-66349d464ab3)\n\nUsing our drop-in iframe or API, you can offer your users one place to:\n\n* Manage open invoices & bills\n* Schedule payments\n* Invite vendors to choose how they want to receive their payment\n\nWhen you offer AP using Mercoa, your users can:\n\n* Pay any invoice by credit card\n* Pay any invoice by ACH\n* Pay any invoice with BNPL\n\nAnd your user’s vendor can:\n\n* Receive their payment via check\n* Receive their payment via ACH\n* Receive their payment via Virtual Card\n\nThe best part is whenever a user or a vendor chooses a premium payment option, Mercoa shares revenue generated with you.\n\nOur payments-focused BillPay experience decouples a bill payment transaction; allowing payers to pay how they want and letting vendors choose how they want to receive their payment. Our goal is to be a payments orchestration engine that can power any BillPay or Accounts Payable process.\n\n### BillPay is so boring! Why are we working on this?\n\nIn a previous life, Sai was a payments lead at [Bill.com](http://Bill.com). There, he integrated [Bill.com](http://Bill.com) with a neobank and led the Instant Transfer line of business. Both of these experiences exposed him to the challenges B2B neobanks face in offering BillPay to their customers. Sai realized that [Bill.com](http://Bill.com)’s systems were completely unoptimized for an embedded use case which is becoming more common with the rise of B2B vertical SaaS and fintech platforms.\n\nWe believe we’re still in the very early innings of digital B2B BillPay and see a massive opportunity to digitize the $25 trillion in annual business payments in the US and eventually the globe!\n\n### Our Ask:\n\n* Want to offer Accounts Payable services to your customers? Book a [demo](https://calendly.com/sai-mercoa/insider-s-guide-chat-clone?back=1&month=2023-02) or email Sai at [sai@mercoa.com](mailto:sai@mercoa.com)\n* Know a company who is looking to offer Accounts Payable services to their customers? Share this post with them!\n* Want to learn more about what it takes to stand up an Accounts Payable experience? Check out our [Insider’s Guide to Accounts Payable](https://docs.google.com/document/d/1kZukm7smcP932BgdyUMHAh8q7Txg73KCOlKs1On_UYE/edit#)",
+      "url": "https://www.ycombinator.com/launches/I4c-mercoa-the-accounts-payable-billpay-api-for-b2b-fintechs",
+      "votes": 108,
+      "created_at": "2023-02-21T16:14:17.815Z"
+    }
+  ]
+}

@@ -1,0 +1,106 @@
+{
+  "id": 27867,
+  "name": "DataSuite",
+  "slug": "datasuite",
+  "former_names": [
+    "Extensional AI",
+    "Extensional",
+    "Extensional AI",
+    "Anarchy AI",
+    "Anarchy",
+    "Anarchy Labs",
+    "TruthSuite"
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/98dc541fc5fbbef1e6c9baee61264602e4e64531.png",
+  "website": "https://truthsuite.com",
+  "all_locations": "New York City, NY, USA; Remote",
+  "long_description": "DataSuite provides a way to manage and collect multi-terabyte multi-media datasets, and train generative models (diffusion, gan, interactive video) models based on them.  \r\n\r\nWe make it trivial for non-technical builders to create their own networks by providing an instant way to collect with AI without worrying about data formats, unzipping power, caching, or data locality.",
+  "one_liner": "Dataset Management for AI Trainers",
+  "team_size": 4,
+  "industry": "B2B",
+  "subindustry": "B2B -> Legal",
+  "launched_at": 1669080392,
+  "tags": [
+    "Artificial Intelligence",
+    "Developer Tools",
+    "Generative AI",
+    "Machine Learning",
+    "DevOps"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Winter 2023",
+  "status": "Active",
+  "industries": [
+    "B2B",
+    "Legal"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada",
+    "Remote",
+    "Fully Remote"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": [
+    {
+      "question": "What is the core problem you are solving? Why is this a big problem? What made you decide to work on it?",
+      "answer": "Developers need an easy way to collaborate on the step-by-step process of gathering data and training AI models. Out of the box, LLMs can be **&gt;100b** parameters and require **trillion** token datasets. This is more than most organizations are equipped to handle: a few years ago, few had heard of LLMs, and now organizations are scrambling to get ahold of GPUs to train and run them. The famous models are furthermore _proprietary_. Privacy, quality and efficiency needs are leading organizations to _train their own models._ \\\\While training these models, developers are constantly adjusting their datasets. As their projects grow, it becomes harder to keep track of the changes, and figure out what data and models to use and track these things in production."
+    }
+  ],
+  "url": "https://www.ycombinator.com/companies/datasuite",
+  "api": "https://devasheeshg.github.io/yc-api/batches/winter-2023/datasuite.json",
+  "year_founded": 2022,
+  "city": "New York City",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/datasuite",
+  "x_url": "",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": "https://github.com/anarchy-ai",
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/98dc541fc5fbbef1e6c9baee61264602e4e64531.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": null,
+  "founders": [
+    {
+      "user_id": 129728,
+      "full_name": "Matthew Mirman",
+      "title": "Founder",
+      "founder_bio": "Before founding DataSuite, Matt received his PhD in AI from ETH Zurich in 2022 where he scaled verified machine learning from working on 10 neuron toy nets in hours to 100m neuron nets in milliseconds and invented differentiable abstract interpretation and provable training.  Before this, he worked at apple on JS compiler optimizations that saved the world a billion dollars in time wasted waiting for pages to load, and before that got an MS from CMU on meta-programming CoC logic languages.",
+      "is_active": false,
+      "linkedin_url": "https://www.linkedin.com/in/matthewmirman/",
+      "x_url": "https://twitter.com/mmirman",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/0f8c7b0dfce84c3fc75c64878dd889bf64439c0d.jpg"
+    },
+    {
+      "user_id": 1151451,
+      "full_name": "James Spoor",
+      "title": "Founder",
+      "founder_bio": "A Generalist, with a passion for learning! After living in multiple countries hustling, building and creating, I ended up in Switzerland diving into the deep tech world where I worked at DeepCode, ml on static analysis which was then acquired by Snyk a cyber security unicorn. A fun fact about me is I was once a professional climber. My superpower is caring deeply and understanding through questions... there will be many questions!\n",
+      "is_active": false,
+      "linkedin_url": "https://linkedin.com/in/james-spoor",
+      "x_url": "https://twitter.com/Spoor2709",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/5578b222bbf26bfc932bfdd143434fe50587bbf5.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 69294,
+      "title": "Anarchy 🧪 - LLM infrastructure for building conversational applications 🏗️",
+      "tagline": "Anarchy provides companies with their own LLM endpoints that can call any APIs",
+      "body": "Greetings YC community! We’re Matt and James, the founders of Anarchy. We’ve been working in AI for a long time (Matt just finished a PhD working on formal methods in deep learning) and have become experts in taming LLMs. We started Anarchy to share these advances with devs who want to use LLMs in production.\n\n### **Problem**\n\nWhile LLMs are beginning to be used as universal text interfaces, developers and prompt engineers are beginning to want consistent and reliable LLMs with agency: LLMs which can search through their ever-changing databases, be able to book meetings, and generally make calls to their APIs. However, coaxing LLMs to behave consistently is black magic requiring constant vigilance, and relying on a single provider can be a risky point of failure.\n\n### **Solution**\n\nOur platform abstracts away the unpredictable work of researching ideal prompts so developers can focus on building business logic: Provide your API and its description, and your LLM-keys, and anarchy will provide you an LLM endpoint (or web-interface chatbot) that can answer questions and solve problems using your API and load-balance between LLMs.\n\n[Here's a short product demo](https://www.youtube.com/watch?v=Qcv_wrCYRds)\n\n![uploaded image](/media/?type=post&id=69294&key=user_uploads/129728/2ecd3d46-6642-49b8-bdf7-8f655f59078e)\n\n### **Ask**\n\nIf this excites you (or anybody you might know, YC or not) and you’d like to try our product, please contact us by [signing up.](https://forms.gle/5rqU282gUKmKPmjm9)\n\nIf you want to have a chat about LLM tech or ask us questions directly, feel free to join our discord: <https://discord.gg/qaFf7S373c> \n\nWe’re also in the process of building up our [twitter](https://twitter.com/anarchy_ai_inc) and [linkedin](https://www.linkedin.com/company/extensional) and would appreciate a follow 🙂!",
+      "url": "https://www.ycombinator.com/launches/I1e-anarchy-llm-infrastructure-for-building-conversational-applications",
+      "votes": 28,
+      "created_at": "2023-02-15T01:33:56.036Z"
+    }
+  ]
+}

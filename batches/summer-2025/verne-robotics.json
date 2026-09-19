@@ -1,0 +1,122 @@
+{
+  "id": 30624,
+  "name": "Verne Robotics",
+  "slug": "verne-robotics",
+  "former_names": [
+    "Verne Labs"
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/08842805c015165cf0d7e591168f2b15a9e9c85a.png",
+  "website": "https://vernerobotics.com/",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "We build AI models for controlling robot arms, enabling them to learn new skills in just hours. Our robots help businesses cut costs by automating back-of-house tasks with an innovative  pay-by-the-hour business model. Our customers include a biotech unicorn, a leading biotech non-profit, and a direct to consumer apparel brand.",
+  "one_liner": "AI models that teach robots new skills in hours",
+  "team_size": 7,
+  "industry": "Industrials",
+  "subindustry": "Industrials -> Manufacturing and Robotics",
+  "launched_at": 1753480338,
+  "tags": [],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": true,
+  "nonprofit": false,
+  "batch": "Summer 2025",
+  "status": "Active",
+  "industries": [
+    "Industrials",
+    "Manufacturing and Robotics"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/verne-robotics",
+  "api": "https://devasheeshg.github.io/yc-api/batches/summer-2025/verne-robotics.json",
+  "year_founded": 2025,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/vernerobotics",
+  "x_url": "https://x.com/VerneRobotics",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/08842805c015165cf0d7e591168f2b15a9e9c85a.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Tyler Bosmeny",
+    "url": "https://www.ycombinator.com/people/tyler-bosmeny"
+  },
+  "founders": [
+    {
+      "user_id": 1318663,
+      "full_name": "Neil Nie",
+      "title": "Founder",
+      "founder_bio": "Co-founder and CEO of Verne Robotics (S25)",
+      "is_active": true,
+      "linkedin_url": "https://linkedin.com/in/neilnie",
+      "x_url": "https://x.com/neil_nie_",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/c8ab4e9b2aa4d380206db2c606decb90832fbea8.jpg"
+    },
+    {
+      "user_id": 415610,
+      "full_name": "Aditya Jha",
+      "title": "Founder",
+      "founder_bio": "Co-founder and CPO of Verne Robotics (S25)\n\nPreviously: Cornell, Microsoft, writing poetry, running marathons",
+      "is_active": true,
+      "linkedin_url": "https://linkedin.com/in/adityajha21",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/cae950772b5b655d45ad62650c6cf787e0c2ee99.jpg"
+    }
+  ],
+  "jobs": [
+    {
+      "id": 85597,
+      "title": "Robotics Operator ",
+      "url": "https://www.ycombinator.com/companies/verne-robotics/jobs/7LFahea-robotics-operator",
+      "location": "San Francisco, CA, US",
+      "type": "Contract",
+      "role": "Operations",
+      "role_type": null,
+      "salary_range": "$20 - $30 / hourly",
+      "equity_range": "",
+      "experience": "Any (new grads ok)",
+      "visa": "US citizen/visa only",
+      "skills": []
+    },
+    {
+      "id": 86696,
+      "title": "Robotics Data Infrastructure Engineer",
+      "url": "https://www.ycombinator.com/companies/verne-robotics/jobs/9SnPqFO-robotics-data-infrastructure-engineer",
+      "location": "San Francisco, CA, US",
+      "type": "Full-time",
+      "role": "Engineering",
+      "role_type": "Backend",
+      "salary_range": "$110K - $175K",
+      "equity_range": "0.50% - 1.50%",
+      "experience": "1+ years",
+      "visa": "US citizen/visa only",
+      "skills": [
+        "Amazon Web Services (AWS)",
+        "Python"
+      ]
+    }
+  ],
+  "news": [],
+  "launches": [
+    {
+      "id": 92471,
+      "title": "Verne Robotics: Robot Arms that Learn New Skills in Hours",
+      "tagline": "The Robots of the Future, Arriving Today",
+      "body": "**TL;DR:** We’ve developed the SOTA model for controlling robot arms, allowing our arms to learn new skills in hours instead of weeks. This enables rapid deployment and a unique business model where we can let companies pay by-the-hour, instead of requiring massive capex. We already have a biotech unicorn using our robots in production to package delicate chemical vials.\n\nhttps://www.youtube.com/watch?v=WHzjweFnbkk&feature=youtu.be\n\n# **The Problem: Robots are difficult to deploy & have fixed workflows**\n\nTraditional robot arms often require months of custom engineering and planning to integrate. These bulky, rigid, and expensive systems take up substantial floor space and are hard-coded for a single workflow. Adapting to new tasks means weeks of downtime and reprogramming. As a result, companies often default to increasing headcount to keep up with demand.\n\n![uploaded image](/media/?type=post&id=92471&key=user_uploads/1318663/7be314c8-ffa9-46e3-82cf-34b72e78c2cd)\n\n# **What we do: Drop-in autonomous robot arms that deploy in days**\n\nOur first product – Nemo3 – is a bimanual robot that can handle objects within a 2.5-foot radius, supports payloads up to 4 lbs, and can be mounted flexibly in various environments. Unlike traditional robot arms, Nemo3 rapidly learns new tasks and adapts to changing conditions on the fly. Our AI decomposes 30 minutes of tele-operation data into skills and uses diffusion models to learn each skill. The result is fast and robust automation for our customers. \n\nAs one of our customers put it: “What surprised me most was how fast you set it up. After one weekend it was set up.” It took us just 4 days to get the robot deployed at ABClonal - from unpacking the robot to automating the vial packing task.\n\n# **Who needs this**\n\nOur robots excel at dexterous manipulation tasks. Here are a few industries we can help:\n\n* DTC Meal Kits: Speed up meal kit assembly with automated packing. \n* Consumer Packaged Goods: Automate kitting to create variety packs with mixed SKUs. \n* Warehouses/Logistics: Sort parcels and pack irregular items faster and at lower cost.\n* Biotech: No more manual clean room disinfection or glovebox work\n\n![uploaded image](/media/?type=post&id=92471&key=user_uploads/1318663/13eac3c1-2454-494a-9bcc-85819cd28f34)\n\n# **Our Ask**\n\nDo you know any manufacturers, distributors, or logistics companies burning time & money on repetitive manual tasks? Maybe they’ve tried other solutions and think it’s impossible to automate?\n\nReach us at: [founders@vernerobotics.com](mailto:founders@vernerobotics.com)\n\nBook a time: https://cal.com/vernerobotics/30min\n\n# **The Team**\n\nNeil is a leading robot learning researcher from Columbia and Stanford. At Columbia he was advised by Prof. Shuran Song and at Stanford he was advised by Prof. Jiajun Wu, as part of the Vision & Learning Lab led by Prof. Fei-Fei Li. Neil holds two patents on multi-modal perception from his time at Apple, where he helped build the Apple Vision Pro. Neil left his PhD at Berkeley to start Verne Robotics.\n\nAditya led Azure Copilot from private preview to GA Launch on Microsoft’s product team. He graduated Phi Betta Kappa from Cornell University. \n\n🤝 We met in high school tinkering with robots and now our mission is giving every company access to automation.\n\n![uploaded image](/media/?type=post&id=92471&key=user_uploads/1318663/d410a5f6-dcca-419e-a884-8b09536ae157)\n\n",
+      "url": "https://www.ycombinator.com/launches/O3T-verne-robotics-robot-arms-that-learn-new-skills-in-hours",
+      "votes": 87,
+      "created_at": "2025-07-26T14:02:02.689Z"
+    }
+  ]
+}

@@ -1,0 +1,110 @@
+{
+  "id": 30959,
+  "name": "Kalpa Labs",
+  "slug": "kalpa-labs",
+  "former_names": [],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/1716cc43aa0fee3a4f60b9708b803805a0a152b1.png",
+  "website": "https://kalpalabs.ai/",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "We're building the next frontier of speech models. Generalist speech models that unlock in-context learning & strong instruction following for speech models alongside unifying existing speech capabilities like speech to text, text to speech, voice cloning, etc.",
+  "one_liner": "Scaling Generalist Speech models",
+  "team_size": 2,
+  "industry": "B2B",
+  "subindustry": "B2B",
+  "launched_at": 1759705278,
+  "tags": [],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": true,
+  "nonprofit": false,
+  "batch": "Fall 2025",
+  "status": "Active",
+  "industries": [
+    "B2B"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/kalpa-labs",
+  "api": "https://devasheeshg.github.io/yc-api/batches/fall-2025/kalpa-labs.json",
+  "year_founded": 2025,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/kalpalabs/",
+  "x_url": "https://x.com/KalpaLabsAI",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/1716cc43aa0fee3a4f60b9708b803805a0a152b1.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Pete Koomen",
+    "url": "https://www.ycombinator.com/people/pete-koomen"
+  },
+  "founders": [
+    {
+      "user_id": 1440495,
+      "full_name": "Prashant Shishodia",
+      "title": "Founder/CEO",
+      "founder_bio": "Pushing frontier of speech models @ KalpaLabs. Previously led full stack ML @ Google scaling to billions of queries / month. ",
+      "is_active": true,
+      "linkedin_url": "https://linkedin.com/in/pshishodia",
+      "x_url": "https://x.com/pshishodiaa",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/e4625372263ed9fc57602c4835230e0490eaabca.jpg"
+    },
+    {
+      "user_id": 2039936,
+      "full_name": "Gautam Jha",
+      "title": "Founder/CTO",
+      "founder_bio": "Pushing frontier of speech models @ KalpaLabs. Previously built nanoseconds latency software at HFTs.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/gautam-jha37/",
+      "x_url": "https://x.com/JhaGauti",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/91237d0933031f093d9700e86de7a68a4b6682b6.jpg"
+    }
+  ],
+  "jobs": [
+    {
+      "id": 100411,
+      "title": "Founding ML Research Engineer",
+      "url": "https://www.ycombinator.com/companies/kalpa-labs/jobs/aGLio5O-founding-ml-research-engineer",
+      "location": "San Francisco, CA, US",
+      "type": "Full-time",
+      "role": "Engineering",
+      "role_type": "Machine learning",
+      "salary_range": "$180K - $250K",
+      "equity_range": "0.50% - 1.00%",
+      "experience": "3+ years",
+      "visa": "Will sponsor",
+      "skills": [
+        "Machine Learning"
+      ]
+    }
+  ],
+  "news": [
+    {
+      "title": "Why the Next Leap in Speech AI Comes from Kalpa Labs",
+      "url": "https://analyticsindiamag.com/ai-startups/why-the-next-leap-in-speech-ai-comes-from-kalpa-labs/",
+      "date": "Sep 10, 2025"
+    }
+  ],
+  "launches": [
+    {
+      "id": 95422,
+      "title": "Kalpa Labs: Scaling Generalist Speech Models",
+      "tagline": "Scaling Foundational speech models for In-context Learning & Instruction Following",
+      "body": "# TL;DR\n\nWe’re building a **generalist speech model** - one system that does speech-to-text, text-to-speech, speech-in/speech-out reasoning, and cross-modal tasks with **LLM-level steerability and context** **engineering**. See the demo of [emergent capabilities](https://www.notion.so/2a83ca000c7780a7be71ed49447a882d?source=YC).\n\n![Video](https://youtu.be/b0gAEsp3YdM)\n\n# Problem\n\nToday’s speech stack is fragmented. You need different models, and vendors for STT, TTS, voice design, conversational agents, dubbing, even music. That **“Curse of Specialization”** creates brittle workflows, poor context carryover, and zero “system-prompt” steerability. Meanwhile, LLMs proved that one generalist model + in-context learning [unlocks entirely new use cases](https://arxiv.org/abs/2005.14165).\n\n**What’s missing in current speech models**\n\n1. **Contextual awareness:** They ignore emotional/prosodic cues and can’t adapt delivery to spoken context history. Their response is the same whether the user says the sentence while crying, laughing, or in a banal tone.\n2. **Instruction following:** There’s no real analogue to LLM system prompts like _“Speak slower for older callers” “Pronounce ‘WORA’ like ‘wah-rah’” “Use a neutral US accent unless user is in India”_.\n3. **Generalism:** Separate models for STT/TTS/music/voice cloning make cross-specialization tasks impossible. Example: _“sing a song in my voice with the following lyrics and the tone from this audio clip”_.\n\nWe’re disciples of [Sutton’s Bitter Lesson](https://www.cs.utexas.edu/~eunsol/courses/data/bitter_lesson.pdf): performance eventually comes from scaling compute, data, and simple, general methods. We believe speech is where text was in 2019 - constrained by small models, fixed task boundaries, and narrow post-training. The upside is to do for speech what GPT-3/ChatGPT did for text: **one model, in-context learning, and steerability**.\n\nAudio tokenization (RVQ) and decoding stacks are ripe for redesign - big efficiency wins are still on the table.\n\n# What’s hard & what we changed\n\nAudio is token-hungry. With typical RVQ, 1s of audio ≈ 100–400 tokens. Flattened token streams like [Orpheus](https://huggingface.co/canopylabs/orpheus-3b-0.1-ft) cap useful context that consumes 8K tokens to generate 90s of audio. Approaches like [CSM-1B](https://huggingface.co/sesame/csm-1b) help with context but still decode 32+ audio tokens per step, throttling inference.\n\nWe’ve removed the long-audio bottleneck, making audio roughly as cheap to train on as text while preserving long-range context. Practically, that means, you’ll be able to generate hours of audio in one-shot and use speech models with very long interleaved text and audio system prompts.\n\n# Our Progress\n\nWe’ve pretrained speech models from 800M to 4.8B params on 2M hours of mixed-domain audio. \\\n\\\n**Cost Efficiency**: As a result of our efficient architecture, our 800M parameter model took less than $1000 to train. For a comparison, Kokoro-82M while being 10x smaller took $1000 to train on 1000x lesser data.\n\n# Emergent Behavior\n\nOur larger base models already show visible signs of emergent behaviour. We describe here, some of these behaviours - but the extent of such emergent capabilities is still under investigation.\n\nPlease checkout the audios and comparision with ElevenLabs V3 [on notion.](https://www.notion.so/2a83ca000c7780a7be71ed49447a882d?source=YC)\n\n**Disfluency & repetition handling**\\\nText: _“This is a a sentence we want our speech model to, to speak.”_\n\n**Contextual identity/accents**\\\n“I am a software engineer living in _Bangalore_.” → natural Indian English\\\n“I just moved to _Shanghai_ for a new role.” → adapts toward Chinese-English prosody\n\n\\\n**Note:** that there is no hardcoded voice switch; this emerges from context.\n\n**Prosodic context awareness without explicit tags**\\\n“I said we could _try only once_.”\\\n“I said we could _ONLY_ try once.”\\\n“_I_ said we could _ONLY_ try _ONCE_?”\n\n\\\nStress and intonation match intent without explicit tags like _&lt;laugh&gt;, &lt;gasp&gt;, &lt;surprised&gt;_\n\n**Voice diversity**\n\nThese base models can mimic a wide range of speakers/accents beyond a fixed dropdown of voices.\n\n**What we’re building**\n\nA single speech generalist you can steer like an LLM:\n\n* Speech-in / speech-out with system prompts and audio examples “adopt this tone; pronounce these domain terms like this”\n* Generalist Model: STT, TTS, conversational agents, dubbing, and cross-specialization (e.g., “sing this verse in my voice,” “explain this chart out loud in a calm tone”).\n\nWe’re solving this by\n\n1. **Scale**: keep pushing model size, data diversity, and post-training task complexity.\n2. **Align**: instruction-following for speech - system prompts + audio-in-context.\n3. **Distill**: real-time deployment targets with graceful latency/quality trade-offs.\n\n# Our Asks\n\n* Have a speech use case that current models fail at? Tell us, we’ll try our best to solve your edge cases.\n* Running speech in production? and have strong opinions on what current speech models do right or wrong. We would love your opinions. Coffee’s on us.\n* Compute partners: If you can offer clusters ≥128×B200, we’re eager to collaborate.\n* Early pilots: If you want to try out this models in early access and help us navigate the future of speech models - we’d love to chat.\n\nYou can reach out to us on \\\nEmail: [founders@kalpalabs.ai](mailto:founders@kalpalabs.ai)\\\nX : [Prashant](https://x.com/pshishodiaa) | [Gautam](https://x.com/JhaGauti) | [KalpaLabs](https://x.com/KalpaLabsAI)\\\nLinkedin: [Prashant](https://www.linkedin.com/in/pshishodia/) | [Gautam](https://www.linkedin.com/in/gautam-jha37/) | [KalpaLabs](https://www.linkedin.com/company/kalpalabs/)\n\n---\n\n# About us\n\n* **Prashant** led full-stack ML for Google Assistant; trained/evaluated models and scaled smaller Gemini variants to billions of queries/month.\n* **Gautam** built nanosecond-latency infrastructure for high-frequency trading.",
+      "url": "https://www.ycombinator.com/launches/Op4-kalpa-labs-scaling-generalist-speech-models",
+      "votes": 68,
+      "created_at": "2025-11-11T20:09:18.793Z"
+    }
+  ]
+}

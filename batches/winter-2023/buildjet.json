@@ -1,0 +1,95 @@
+{
+  "id": 27893,
+  "name": "BuildJet",
+  "slug": "buildjet",
+  "former_names": [],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/6581ded9fa54308e7ffa3c61c36bd6ef62e369cd.png",
+  "website": "https://buildjet.com",
+  "all_locations": "Berlin, Berlin, Germany; Remote",
+  "long_description": "BuildJet makes CI faster by running its own cloud on top of Gaming CPUs\r\n\r\nToday, BuildJet offers a CI product that makes GitHub Actions 2x faster and cheaper, by plugging in BuildJet's Gaming CPU Cloud into GitHub Actions. Simply change 1 line, and enjoy the speed-up.",
+  "one_liner": "High-performance computing cloud",
+  "team_size": 2,
+  "industry": "B2B",
+  "subindustry": "B2B -> Engineering, Product and Design",
+  "launched_at": 1677520362,
+  "tags": [
+    "Developer Tools",
+    "SaaS",
+    "B2B",
+    "Infrastructure"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Winter 2023",
+  "status": "Active",
+  "industries": [
+    "B2B",
+    "Engineering, Product and Design"
+  ],
+  "regions": [
+    "Germany",
+    "Europe",
+    "Remote",
+    "Fully Remote"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/buildjet",
+  "api": "https://devasheeshg.github.io/yc-api/batches/winter-2023/buildjet.json",
+  "year_founded": 2022,
+  "city": "Berlin",
+  "country": "DE",
+  "linkedin_url": "https://www.linkedin.com/company/buildjet/",
+  "x_url": "https://twitter.com/buildjet",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/6581ded9fa54308e7ffa3c61c36bd6ef62e369cd.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Jared Friedman",
+    "url": "https://www.ycombinator.com/people/jared-friedman"
+  },
+  "founders": [
+    {
+      "user_id": 730963,
+      "full_name": "Adam Shiervani",
+      "title": "Founder",
+      "founder_bio": "Adam Shiervani is a co-founder of BuildJet, with over a decade of experience working in startups, Adam began as a frontend developer and progressed over the years to become the Chief Product Officer at Germany's largest market research company, Civey. At Civey, Adam, together with Lian, who served as CTO, scaled the company and discovered the significant impact that consumer CPUs have on CI speed.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/adamshiervani/",
+      "x_url": "https://twitter.com/adamshiervani",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/2b5ed35a7ba7b36ed7d13454395d29b3eb433b90.jpg"
+    },
+    {
+      "user_id": 720622,
+      "full_name": "Lian Duan",
+      "title": "Founder",
+      "founder_bio": "Lian Duan, co-founder of BuildJet, holds a master’s degree in bioinformatics from ETH and began his career working as a Senior Full-stack developer at a German data privacy startup alongside Adam Shiervani. Lian later moved to become the CTO of Germany’s largest market research company, Civey, where he worked closely with Adam to scale the company and gain insight into the significant impact of gaming CPUs on CI speed.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/y2hlbwhhy2s/",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/3e9b5890a69d9bbc29d3d3300ac0b5798e215fc4.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 69746,
+      "title": "BuildJet - Change 1 line, get 2x faster & cheaper GitHub Action builds",
+      "tagline": "Managed high-performance runners for GitHub Actions",
+      "body": "### **⚡️ TL;DR**\n\nHey, this is Adam & Lian from [@BuildJet](https://www.ycombinator.com/companies/buildjet)\n\nBuildJet makes GitHub Actions faster, by running the workflows on our Gaming CPU cloud. You still keep everything GitHub Actions, we just replace the underlying GitHub Actions runner with our Gaming CPUs.\n\n\\\n**Change 1 line, and get 2x faster and cheaper builds.**\n\n![uploaded image](/media/?type=post&id=69746&key=user_uploads/730963/214d6b00-fec2-4f4a-8a6b-132c63f8c6cb)\n\n### **GitHub Actions is slow**\n\n* **Developers are wasting their time –** Waiting for GitHub Actions to get a green checkbox on a PR, is wasteful and extremely tedious.\n* **GitHub Actions runner hardware is old and slow –** GitHub Actions use old and slow machines from Azure. Some of your workflows run on servers from 2015.\n* **GitHub Actions use the wrong type of hardware** – CI workflows are usually computing intense, and specifically require high single-core performance. GitHub Actions uses server CPUs, which generally have low single-core performance.\n\n### **Our Solution**\n\nGitHub Actions rely on server CPUs from Azure. **Server CPUs mostly have low single-core performance.** This is where BuildJet differentiates itself, with its fundamentally different approach to computing, using dedicated **high-performance gaming CPUs** that all have a very high-single core performance.\n\nThis provides an inherent speed advantage for BuildJet, even without software optimizations. High single-core performance is the key to a fast CI process, and BuildJet's gaming CPU cloud is optimized to deliver just that.\n\nTake a look at our at the chart below, **MacBook Pro 2015 hardware beating GitHub Actions runner in 2022.** It’s yet another instance where you can see the limitation of using server CPUs in tasks that need high single-core performance.\n\n![uploaded image](/media/?type=post&id=69746&key=user_uploads/730963/40b07ca7-7828-4ae1-9c6b-20b8d1ea0026)\n\n### **Founding Team**\n\nLian and I, first met at a data privacy startup in Berlin in 2014, where we developed a strong working relationship and launched many products together. After leaving that company, we joined a German startup that runs the biggest market research panel in Germany, Civey, with Adam as CPO and Lian as CTO. When scaling the company, we quickly learned **the great impact gaming CPU's have on CI speed.**\n\n### **Next Steps**\n\nHead over to <https://buildjet.com/for-github-actions>, sign up in 1 minute and start accelerating your GitHub Actions workflows.\n\nIf you have any questions about your CI pipeline, don’t hesitate to reach out to [adam@buildjet.com](mailto:adam@buildjet.com), and I’ll make sure to help you out!",
+      "url": "https://www.ycombinator.com/launches/I8w-buildjet-change-1-line-get-2x-faster-cheaper-github-action-builds",
+      "votes": 45,
+      "created_at": "2023-02-28T15:31:40.834Z"
+    }
+  ]
+}

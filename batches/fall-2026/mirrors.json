@@ -1,0 +1,86 @@
+{
+  "id": 35258,
+  "name": "Mirrors",
+  "slug": "mirrors",
+  "former_names": [],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/e98a564b21ba044528e16126406d35b7464044b7.png",
+  "website": "https://www.runmirrors.com",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "Mirrors provides regression testing for AI agents.\r\n\r\nTeams shipping agents constantly change prompts, models, and tools, and there's no way to test any of it. Agents call bespoke internal tools and APIs no test framework can reproduce, so most teams ship on vibes.\r\n\r\nMirrors rebuilds the tools your agent calls from your own production traces, then replays real sessions against every change before it merges. You see which tool calls changed, which arguments moved, and where state landed differently. And when something fails, we tell you whether your agent regressed or something upstream moved.\r\n\r\nBuilt for teams whose agents take irreversible actions. Refunds, record updates, outbound email.\r\n\r\nRuns in your CI on every PR.",
+  "one_liner": "Catch and fix AI agent regressions before they reach production",
+  "team_size": 2,
+  "industry": "B2B",
+  "subindustry": "B2B -> Infrastructure",
+  "launched_at": 1789011304,
+  "tags": [
+    "Developer Tools",
+    "SaaS",
+    "B2B",
+    "DevOps",
+    "AI"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Fall 2026",
+  "status": "Active",
+  "industries": [
+    "B2B",
+    "Infrastructure"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/mirrors",
+  "api": "https://devasheeshg.github.io/yc-api/batches/fall-2026/mirrors.json",
+  "year_founded": 2026,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/runmirrors/",
+  "x_url": "https://x.com/runmirrors",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/e98a564b21ba044528e16126406d35b7464044b7.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [
+    "https://bookface-images.s3.us-west-2.amazonaws.com/attachments/d29b93262a911b75f36289e28863218346e9644c.png"
+  ],
+  "primary_partner": {
+    "name": "Andrew Miklas",
+    "url": "https://www.ycombinator.com/people/andrew-miklas"
+  },
+  "founders": [
+    {
+      "user_id": 3174410,
+      "full_name": "Aryan Singhal",
+      "title": "Founder/CEO",
+      "founder_bio": "Co-Founder & CEO @ Mirrors (YC F26). Published 6 AI/ML research papers in high school at top AI conferences such as NeurIPS and EMNLP. Prev. ML research @ UT Austin, UCSB.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/aryan-singhal-ai",
+      "x_url": "https://x.com/ai_singhal",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/fdc726196feb99cd0b97b4d0a2fa4012a5a31466.jpg"
+    },
+    {
+      "user_id": 2651108,
+      "full_name": "Aditya Gupta",
+      "title": "Founder/CTO",
+      "founder_bio": "Founder at Mirrors (YC F26). Previously co-founded Profine, achieving 3x speedups on popular open-source repos through automated ML optimization. Built ML systems at Recharm (facial detection) and MerQube (fintech AI). Studied Computer Engineering at Purdue.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/aditya-gupta-6a771a231/",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/cf8b548328700bfef2f9889935d095003aac92eb.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": []
+}

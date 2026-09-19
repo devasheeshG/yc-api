@@ -1,0 +1,123 @@
+{
+  "id": 30644,
+  "name": "Wafer",
+  "slug": "wafer",
+  "former_names": [
+    "Herdora",
+    "wafer"
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/d73d3d68555ca97a0b7fa88945cb6c577d872c4c.png",
+  "website": "https://www.wafer.ai",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "Wafer builds AI agents that work as autonomous performance engineers, optimizing GPU kernels for AI inference. \r\n\r\nOur product is serverless and dedicated inference for the world’s fastest open source LLMs, achieved by Wafer's autonomous performance engineers. ",
+  "one_liner": "AI that makes AI fast",
+  "team_size": 10,
+  "industry": "B2B",
+  "subindustry": "B2B -> Engineering, Product and Design",
+  "launched_at": 1751530242,
+  "tags": [
+    "AI"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Summer 2025",
+  "status": "Active",
+  "industries": [
+    "B2B",
+    "Engineering, Product and Design"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Growth",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/wafer",
+  "api": "https://devasheeshg.github.io/yc-api/batches/summer-2025/wafer.json",
+  "year_founded": 2025,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/wafer-ai",
+  "x_url": "https://x.com/wafer_ai",
+  "fb_url": null,
+  "cb_url": "https://www.crunchbase.com/organization/herdora",
+  "github_url": "https://github.com/wafer-ai/",
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/d73d3d68555ca97a0b7fa88945cb6c577d872c4c.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Jared Friedman",
+    "url": "https://www.ycombinator.com/people/jared-friedman"
+  },
+  "founders": [
+    {
+      "user_id": 1616952,
+      "full_name": "Emilio Andere",
+      "title": "Founder/CEO",
+      "founder_bio": "prev @ argonne, uchicago sand lab, elicit. math at uchicago.",
+      "is_active": true,
+      "linkedin_url": "https://linkedin.com/in/emi-andere",
+      "x_url": "https://x.com/technoabsurdist",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/ae196e1f0ed4aa46a6e5bd3b4f200ac17e0eb39d.jpg"
+    },
+    {
+      "user_id": 1580559,
+      "full_name": "Steven Arellano",
+      "title": "Cofounder",
+      "founder_bio": "prev @ two sigma, google, sei labs, and axlab. cs + econ at uchicago.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/stevenjarellano/",
+      "x_url": "https://x.com/gpusteve",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/b822a5473c769519ddd1f682bb70a795e654488e.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [
+    {
+      "title": "Building AI That Optimizes AI - YouTube",
+      "url": "https://www.youtube.com/watch?v=7JoqmM5EPXo&t=9s",
+      "date": "Sep 01, 2026"
+    },
+    {
+      "title": "Wafer, An Inference Provider That Uses Non-Nvidia Chips, Lands Acquisition Offers and $200 Million-Plus Valuation — The Information",
+      "url": "https://www.theinformation.com/newsletters/ai-agenda/wafer-inference-provider-uses-non-nvidia-chips-lands-acquisition-offers-200-million-plus-valuation",
+      "date": "Sep 01, 2026"
+    },
+    {
+      "title": "AI Could Democratize One of Tech's Most Valuable Resources | WIRED",
+      "url": "https://www.wired.com/story/ai-could-democratize-one-of-techs-most-valuable-resources/",
+      "date": "Apr 15, 2026"
+    },
+    {
+      "title": "Meet Wafer: The YC Startup Making GPUs 5x More Efficient with AI [Livestreams]",
+      "url": "https://www.artificialintelligencemadesimple.com/p/meet-wafer-the-yc-startup-making?r=16nyel&triedRedirect=true",
+      "date": "Jan 27, 2026"
+    }
+  ],
+  "launches": [
+    {
+      "id": 100546,
+      "title": "Wafer Pass: flat-rate access to the fastest open-source LLMs",
+      "tagline": "The fastest open-source LLMs for OpenClaw, Claude Code, and any agent harness",
+      "body": "**TL;DR** - Wafer Pass is a single subscription that gives you the fastest optimized open-source LLMs for any agentic coding harness. Plans start at $10/week. Every plan includes every model we host. Sign up at [wafer.ai/pass](https://www.wafer.ai/#pricing).\n\n![uploaded image](/media/?type=post&id=100546&key=user_uploads/1616952/7ea613a4-5300-4377-9fbe-32791825a31e)\n\n## Hi YC! We're Emilio and Steven, founders of Wafer (S25)\n\nToday we're launching **Wafer Pass**, a flat-rate API subscription to the fastest optimized open-source LLMs. One key, every model, drops into Claude Code, OpenClaw, Cline, Kilo Code, Roo Code, OpenHands, or Conductor.\n\n## **The problem**\n\nIf you use AI coding agents, you've felt the pain. Usage caps that hit at the worst moment. Per-token bills that swing between $5 and $50 a session. Juggling API keys across providers. Watching frontier closed models throttle you on Friday afternoons.\n\nOpen-source models (Qwen3.5-397B, GLM5.1, DeepSeek V4 Pro) have closed most of the gap on coding tasks. The problem is getting them served at the speed you actually want for an agent loop. Most providers run them on stock SGLang or vLLM, which leaves 50–80% of GPU performance on the table.\n\n## **What we built**\n\nWafer's core product is an AI performance engineer. You point it at an LLM and it optimizes it.\n\nWe have been pointing Wafer at the leading open-source LLMs and let it rewrite the entire serving stack: kernels, batching, scheduling, memory layout. The results are really impressive so far: \n\n* Qwen3.5-397B-Turbo is 2.8x faster than base SGLang\n* GLM5.1-Turbo is 2x faster than vLLM baseline\n* DeepSeek-V4-Pro is 2x faster than vLLM baseline\n\nThe Qwen example: \n\n![uploaded image](/media/?type=post&id=100546&key=user_uploads/1616952/5a00eeba-4de9-4052-a0ab-5643908058cd)\n\nSame weights as anywhere else. Just faster, because Wafer rewrote the kernels. We put the result behind a single OpenAI- and Anthropic-compatible API.\n\n## **Wafer Pass**\n\nOne subscription. One API key. Every model we host.\n\n* **$10/week (Starter):** 1,000 requests every 5 hours. All models.\n* **$25/week (Privacy):** 2,000 requests every 5 hours. All models. Zero Data Retention.\n\nEvery plan includes every model, and every future Turbo model we ship. No price increase as the catalog grows. For context: that's 10x requests than Claude Code Max, at 1/2 the price. \n\n## **Try it**\n\n**Sign up: [wafer.ai/pass](https://wafer.ai/pass)**\n\nIf you use Claude Code, OpenClaw, or any other agent harness, we'd love your feedback. Drop your Wafer API key in and tell us what breaks.\n\nIf you're building an agent or coding tool and want a default model layer, let's talk.\n\nEmail: [**emilio@wafer.ai**](mailto:emilio@wafer.ai) · Book a 15-min call: **cal.com/wafer/quick-chat**",
+      "url": "https://www.ycombinator.com/launches/Q9i-wafer-pass-flat-rate-access-to-the-fastest-open-source-llms",
+      "votes": 7,
+      "created_at": "2026-04-30T00:19:46.736Z"
+    },
+    {
+      "id": 92210,
+      "title": "👑 Wafer - Cursor for CUDA",
+      "tagline": "AI agent that turns your slow PyTorch into fast GPU code, automatically",
+      "body": "## \n\n## **TL;DR**\n\nThe best GPU engineers work at Nvidia and OpenAI for $2M+ packages. The rest of us are stuck with PyTorch code that uses &lt;50% of our hardware. We built Wafer for every team that can't afford a GPU optimization expert. Wafer takes your PyTorch and optimizes it with custom kernels. It monitors your inference workloads, catches inefficiencies, and fixes them automatically. You keep shipping fast. Wafer makes it run fast. No CUDA knowledge required, no million-dollar hires needed.\n\n**Ask:** Are you trying to make your inference faster, writing CUDA by hand, or do you know someone who is? Fill our our [interest ](https://www.herdora.com/)form or send us an email [contact@wafer.com](mailto:contact@herdora.com) to be added to our pilot program. See below for details.\n\nhttps://youtu.be/K6nEevvlOro\n\n---\n\n---\n\n---\n\n---\n\n---\n\n---\n\n---\n\n---\n\n---\n\n—\n\n### **🧙 The Problem**\n\nGetting AI models to run fast on GPUs requires a rare breed of engineer. \n\nThese GPU wizards:\n\n* Command $300k+ base salaries (if you can even find them)\n* Spend **months** hand-writing custom kernels for each model\n* Need to rewrite every kernel for new hardware\n\nEven worse: If you want to run on alternative GPUs or other accelerators, you need **different** **experts** to **rewrite all your kernels**. Most teams are stuck choosing between:\n\n* Paying $$$ for GPU talent\n* Accepting &lt;50% hardware utilization\n* Locked to one chip longer than they want\n\n---\n\n—\n\n### **🐄 How Wafer solves it**\n\nWafer does what those GPU engineering wizards do, automatically. Feed it your PyTorch code, and it generates the optimized kernels that would normally take months of manual work.\n\n**What you get:**\n\n* **Auto optimization** - Your PyTorch goes in, optimized GPU code comes out. Same model, **1.5 to 5x faster**. The kernels Wafer writes are what a senior CUDA engineer would write after weeks of profiling and tuning.\n* **Hardware portability** - NVIDIA can’t give you enough capacity? Want to try out AMD’s new MI350 series? Wafer makes your code fast on both in seconds. No rewrites, no performance penalties.\n* **Production monitoring** - Wafer watches your models in production, spots inefficiencies, and fixes them. Think of it as having a GPU expert on-call 24/7.\n\nYou write PyTorch. Wafer makes it run like it was hand-tuned by the best in the business. Wafer then monitors prod to track performance. No CUDA expertise needed on your team.\n\n—\n\n### **📢 Who This is For**\n\nYou should reach out if any of this sounds familiar:\n\n* You're an ML engineer but you **don't have time to learn CUDA**\n* Your cloud bill is killing you because your models only use 30-50% of each GPU\n* You **want to try cheaper GPUs** but can't risk your models running slower\n\n—\n\n### **👥 The Team**\n\n* **Steven Arellano** - Researched LLMs at UChicago and worked as an engineer at Two Sigma, Google, and Sei Labs.\n* **Emilio Andere** - Researched transformers for weather prediction at Argonne National Lab, adversarial ML at SANDLab, and an engineer at Elicit.\n\n🤝 Friends since freshman year at UChicago, where we were also roommates\n\n—\n\n### **🙏 Our Ask**\n\nIf you're running ML workloads on GPUs (or know someone who is), we'd love to add you to our pilot program. Email us at [contact@wafer.com](mailto:contact@herdora.com) or fill out our [interest form](https://herdora.com/) with your model type and current GPU setup.\n\nYou'll get the same optimizations that companies pay GPU consultants $50k+ to deliver except automated and in days instead of months.\n\n**Currently Onboarding:**\n\n* ML teams running inference at scale\n* Teams hitting latency requirements in production\n* Companies with growing GPU compute bills\n* Companies evaluating AMD or Intel GPUs\n\n**Send us an email:** [contact@wafer.com](mailto:contact@herdora.com)\n\n**Book a call:** [https://cal.com/wafer/20min](https://cal.com/herdora/20min)\n\n**Interest:** [https://www.wafer.ai/interest](https://www.herdora.com/interest)\n\n---\n\n---",
+      "url": "https://www.ycombinator.com/launches/NzG-wafer-cursor-for-cuda",
+      "votes": 103,
+      "created_at": "2025-07-16T18:10:07.640Z"
+    }
+  ]
+}

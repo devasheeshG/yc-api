@@ -1,0 +1,105 @@
+{
+  "id": 29768,
+  "name": "Ember Robotics",
+  "slug": "ember-robotics",
+  "former_names": [],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/d7501c381ec6654b0249e7c8d1881f708e27ce6e.png",
+  "website": "https://www.emberrobotics.com",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "Ember builds hardware and system observability tools for robots and IoT devices. Founded by former Tesla Autopilot engineers, we help hardware teams catch failures early, reduce downtime, and iterate with confidence from prototype to scale.",
+  "one_liner": "Datadog for robots",
+  "team_size": 2,
+  "industry": "Industrials",
+  "subindustry": "Industrials -> Manufacturing and Robotics",
+  "launched_at": 1722583865,
+  "tags": [
+    "Developer Tools",
+    "Robotics",
+    "B2B",
+    "Analytics",
+    "Data Visualization"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Summer 2024",
+  "status": "Active",
+  "industries": [
+    "Industrials",
+    "Manufacturing and Robotics"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/ember-robotics",
+  "api": "https://devasheeshg.github.io/yc-api/batches/summer-2024/ember-robotics.json",
+  "year_founded": 2024,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/ember-robotics",
+  "x_url": "",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/d7501c381ec6654b0249e7c8d1881f708e27ce6e.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [
+    "https://bookface-images.s3.us-west-2.amazonaws.com/attachments/6c2229c2c42289396d01eae7f571cb9a5c3d6351.png"
+  ],
+  "primary_partner": {
+    "name": "Diana Hu",
+    "url": "https://www.ycombinator.com/people/diana-hu"
+  },
+  "founders": [
+    {
+      "user_id": 1932951,
+      "full_name": "Shivani Mouleeswaran",
+      "title": "Founder/CEO",
+      "founder_bio": "Co-founder and CEO @ Ember Robotics. Previously at Tesla Autopilot / Simbe Robotics. I love robots, basketball, and playing the sitar!",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/shivanicm",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/ca21e267ed252271b8234a225ca024e791db442e.jpg"
+    },
+    {
+      "user_id": 1946129,
+      "full_name": "Ritika Shrivastava",
+      "title": "Founder/CTO",
+      "founder_bio": "Ritika is a roboticist who loves helping robots see 🕶! She is a proud UC Berkeley alumna (B.S. EECS '21 & M.S. EECS '22) 🐻, where she researched and taught about computer vision and robotics. Formerly a computer vision engineer at Tesla Autopilot, Ritika is excited to build tools that help roboticists!\n\nIn her free time, she enjoys playing tennis 🎾, building gizmos, and reading 📖!",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/ritikashrivastava/",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/62f2b8c1226f588a683c681ac6ac1c7ceb5d341c.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 87515,
+      "title": "Ember Robotics: Datadog for Robots",
+      "tagline": "From prototype to scale, we keep robots running",
+      "body": "# **tldr; Fast-track your robotics development**\n\nAt [**Ember**](https://www.emberrobotics.com/), we make it easy for robotics teams to catch and fix issues fast. Our edge-first robot diagnostics platform helps you stay on top of system performance—whether you're prototyping, scaling, or deploying in the field. \\\n\\\nWith instant insights and built-in reliability, we help you move faster, build smarter, and launch with confidence. Ready to try it out? Book a demo [**here**](https://www.emberrobotics.com/) or reach out to us at [**founders@emberrobotics.com**](mailto:founders@emberrobotics.com)!\n\n# **The problem**\n\n1. **No Visibility in Low-Network Zones** – When robots lose connectivity, **cloud-based diagnostics fail**, making it hard to track performance or troubleshoot failures in real time.\n2. **Slow, Costly Root-Cause Analysis** – Debugging is painful, with teams sifting through **dense logs and complex graphs** instead of getting clear, actionable insights.\n3. **Inefficient DIY Monitoring Stacks** – Robotics teams **waste months building custom diagnostics** because existing tools don’t work for their needs.\n4. **Reactive Debugging Leads to System Failures** – Without **proactive monitoring**, small issues snowball into major downtime and expensive repairs.\n\n# **Our solution**\n\n### **🌐 Works Offline**\n\n* **Edge-first diagnostics** to store and analyze data even when the network is down.\n* **Smart caching & prioritized sync** ensure no critical insights are lost.\n\n### **🔍 Faster, Clearer Troubleshooting**\n\n* **Instant anomaly detection** surfaces failures before they escalate.\n* **Real-time sensor & system health analytics** (cameras, IMU, LiDAR, CPU, memory).\n* No more digging through logs—just **straightforward insights** when you need them.\n\n### **⚡ Seamless Integrations**\n\n* **Built-in Sensor Plugins & Robotics Middleware Support** – Off-the-shelf support for **Intel® RealSense™, Luxonis®, Orbbec®**, and more. Easy integrations for **ROS and e-Cal** —no extra setup required.\n* **Deploy in minutes with standard Linux packages**—skip the custom integrations.\n* **API-first design** lets you access diagnostics effortlessly and extend with your own **custom metrics plugins**.\n\n### **📈 Scale up to Fleet-Wide Monitoring**\n\n* Grow reliably from 1 to 10,000 robots with **consistent, structured data collection**.\n* Identify **trends & patterns across groups of sensors and devices**.\n* Works in **low-bandwidth environments**, ensuring continuous insights.\n\n# **Check it out**\n\n![uploaded image](/media/?type=post&id=87515&key=user_uploads/1932951/8cd43030-d313-4ade-af0d-f7fe7197ac0d)\n\n[**\\[dashboard demo\\]**](https://www.tella.tv/video/ember-robotics-dashboard-gvog)\n\n[**\\[real-time diagnostics demo\\]**](https://www.tella.tv/video/ember-real-time-diagnostics-walk-through-dcdf)\n\n### **Meet the team**\n\nWe built software at Simbe Robotics and Tesla Autopilot to optimize robot reliability—covering real-time diagnostics, sensor calibration, field service alerts, and low-latency data pipelines. From early R&D to fleet-scale deployment, we ensure robots stay operational, efficient, and ready for any environment.\n\n![uploaded image](/media/?type=post&id=87515&key=user_uploads/1932951/b82857af-566f-465a-8212-74965d060e03)\n\n# \n\n# **Our ask**\n\nStruggling with blind spots in your fleet? Drowning in logs while root-causing issues? **Ember streamlines troubleshooting and ensures reliable performance—no matter the network conditions.**\n\n🔹 **Book a demo** → [**here**](https://www.emberrobotics.com/)\n\n🔹 **Know someone working with robots, drones, or multi-camera systems?** Send them our way!\n\n🔹 **Just love talking robots?** Same—let’s chat!\\\n\\\nLet’s make **robot monitoring effortless.** Hit us up at [**founders@emberrobotics.com**](mailto:founders@emberrobotics.com)! 🚀",
+      "url": "https://www.ycombinator.com/launches/MlX-ember-robotics-datadog-for-robots",
+      "votes": 25,
+      "created_at": "2025-02-07T22:07:48.510Z"
+    },
+    {
+      "id": 82673,
+      "title": "Ember Robotics: Camera diagnostics for robots",
+      "tagline": "Reducing vision failures from the source",
+      "body": "# **tldr; Got camera problems? We’ve got solutions.**\n\n[Ember](https://www.emberrobotics.com/) builds software to monitor and resolve robot camera issues - so you can reduce vision failures from the source.\n\nIs robot camera reliability or degraded vision driving you nuts? Book a demo [here](https://www.emberrobotics.com/) or reach out to us at [founders@emberrobotics.com](mailto:founders@emberrobotics.com)!\n\n### **The problem**\n\nWe’ve spent years working on vision systems for autonomous robots and found similar issues everywhere:\n\n![uploaded image](/media/?type=post&id=82673&key=user_uploads/1932951/335dd4a4-e0b6-4c6b-bb64-a4c9c0c60f7f)\n\n☐ Robotics companies work on lean teams that have to do lots of things super fast - **hardware reliability is often secondary to core product features**\n\n☐ **Camera failures cause large fires** because they float up the stack to critically damage perception, controls, and safety\n\n☐ **Digging through layers of software / hardware to figure out what went wrong is painful** (ex. sometimes you spend hours goose-chasing a “perception issue” just to find a loose cable)\n\n### **Our solution**\n\n![uploaded image](/media/?type=post&id=82673&key=user_uploads/1932951/9c181ef2-e04a-498d-a839-35bfa75fd1dc)\n\n**A camera diagnostics framework that ties in real-time data, logs, and reports to contextualize your robot’s vision health.** Support the full life-cycle of your robot with features like:\n\n✅ Out-of-the-box tracking for common issues (disconnection, frame drops, time sync)\n\n💬 Automated suggestions for error resolution\n\n⏱️ Real-time alerts\n\n🖌️ Image quality analysis tools to optimize computer vision\n\n📈 Historical data analysis for predictive maintenance\n\n### **Try it out: Plug-and-play camera testing**\n\nBench-test cameras or diagnose issues in the field with one easy tool. **Fill a config file, launch our service, and get fast metrics on camera health.**\\\n[demo](https://www.youtube.com/watch?v=OnoCmdVEzzM)\n\nCurrently we support Intel® RealSense™ D400 cameras and ROS - more cameras and pub-sub models coming soon!\n\n### **Meet the team**\n\n![uploaded image](/media/?type=post&id=82673&key=user_uploads/1932951/cc554985-1fa2-4bd8-9d16-96609bb82645)\n\nHi, we are [Shivani](http://linkedin.com/in/shivanicm) & [Ritika](https://www.linkedin.com/in/ritikashrivastava/)! We built software at Tesla Autopilot to optimize camera performance for autonomy. We’ve covered the camera stack end-to-end (low-latency image capture, real-time camera monitoring, online camera calibration, multi-trip reconstruction, and SLAM) - we’re passionate about helping robots see!\n\n### **Our ask**\n\nIs robot camera reliability or degraded vision driving you nuts? Book a demo [here](https://www.emberrobotics.com/) or reach out to us at [founders@emberrobotics.com](mailto:founders@emberrobotics.com)!\n\nIf you know anyone working on robots, drones, or other multi-camera systems (surveillance, manufacturing, etc.) we would love a warm intro.\n\nAnd for those who are just generally robot-curious - always happy to chat!",
+      "url": "https://www.ycombinator.com/launches/LVR-ember-robotics-camera-diagnostics-for-robots",
+      "votes": 101,
+      "created_at": "2024-08-02T13:50:39.909Z"
+    }
+  ]
+}

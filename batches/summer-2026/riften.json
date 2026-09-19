@@ -1,0 +1,84 @@
+{
+  "id": 32198,
+  "name": "Riften",
+  "slug": "riften",
+  "former_names": [],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/4422075ddefbe2da912fc68b24148bca53aaa5b6.png",
+  "website": "https://riften.ai",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "Intelligence will be the most valuable asset a company owns. Today, almost every company rents it.\r\n\r\nCompanies pay a handful of labs one token at a time. Each dollar buys an answer, not an asset. They spend more, but own nothing more.\r\n\r\nRiften reverses that.\r\n\r\nChange one environment variable and Riften becomes the gateway for a company's AI traffic. We route each request to the lowest-cost model that can do the job, serving most work on open-weight models we host. Customers save money immediately without rebuilding their products.\r\n\r\nThe gateway is the entry point. Over time, Riften turns the company's work into private models built on open weights and shaped around the business. What begins as cheaper inference becomes an intelligence stack the company owns, runs on infrastructure it controls, and uses to power its most important applications.\r\n\r\nWe call this earned intelligence. It is created by the company's own work, controlled by the company, and accumulated over time.\r\n\r\nThe next generation of companies will not rent their intelligence. They will earn it, own it, and compound it. Riften is how they get there.",
+  "one_liner": "Earned intelligence for every company",
+  "team_size": 5,
+  "industry": "B2B",
+  "subindustry": "B2B -> Infrastructure",
+  "launched_at": 1785872995,
+  "tags": [
+    "Developer Tools",
+    "Reinforcement Learning",
+    "Open Source",
+    "Infrastructure",
+    "AI"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Summer 2026",
+  "status": "Active",
+  "industries": [
+    "B2B",
+    "Infrastructure"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/riften",
+  "api": "https://devasheeshg.github.io/yc-api/batches/summer-2026/riften.json",
+  "year_founded": 2026,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/riftenai/people/?viewAsMember=true",
+  "x_url": "",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/4422075ddefbe2da912fc68b24148bca53aaa5b6.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Harshita Arora",
+    "url": "https://www.ycombinator.com/people/harshita-arora"
+  },
+  "founders": [
+    {
+      "user_id": 2941426,
+      "full_name": "Carl Stauffer",
+      "title": "Founder/CEO",
+      "founder_bio": "Founder and CEO of Riften. Former Palantir Forward Deployed Engineer. Former nuclear researcher at Jefferson Lab. CS and AMS at Johns Hopkins.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/carl-stauffer-314335262/",
+      "x_url": "https://x.com/carlstauffer_",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/0a3a2f44ecdd315423ad0b8510ef3bffafaf4843.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 110330,
+      "title": "Riften: Route every AI request. Build the models your company owns.",
+      "tagline": "Cut LLM spend with one endpoint that selects the lowest-cost model that works.",
+      "body": "[Riften Launch Video](https://youtu.be/9T82XHysqsc)\n\n## What Riften does\n\nRiften is an OpenAI- and Anthropic-compatible gateway that routes each LLM request to the lowest-cost model capable of completing it.\n\nConnect your existing providers, change the base URL, and keep the product you already built. Riften works across customer-facing AI products and internal tools, including Claude Code and Codex.\n\n**Riften is already removing enterprise-scale model spend from production workloads.**\n\n## Why we built it\n\nMost AI products choose a model once and send nearly everything to it.\n\nA documentation lookup, a support classification, and a codebase migration do not require the same intelligence. Yet they are routinely sent to the same frontier model at the same price.\n\nFor customer-facing products, that cost cuts directly into gross margin. For internal agents, it limits how broadly the company can deploy them.\n\n## How it works\n\nRiften evaluates each request locally, applies the company’s cost, capability, latency, and reliability constraints, and selects among the models available to that organization.\n\nHard tasks can still reach frontier models. Routine work moves to lower-cost commercial or open-weight models. Teams can keep their provider accounts, pin a specific model when needed, and inspect the cost and routing decision behind every request.\n\nThe objective is not the cheapest token. It is the lowest expected cost of completing the work.\n\n## From routing to company-owned models\n\nThe router reveals which work is repeated. Outcomes reveal whether it was done correctly.\n\nA passing test, an accepted patch, a resolved ticket, or a completed workflow can become part of a customer-specific evaluation. Riften uses those evaluations to improve routing, post-train open models around recurring work, and test those models against the APIs they are intended to replace.\n\nModels earn production traffic through the same endpoint. Frontier APIs continue to handle novel work. Repeated workloads move onto models the company controls.\n\nThat creates a direct path from inference routing to evaluation, post-training, deployment, and the applications where the work happens.\n\nThe model labs are building intelligence every company can rent. Riften is building the path to intelligence every company can own.\n\n## Team\n\nRiften is founded by Carl Stauffer, a former Palantir Forward Deployed Engineer who shipped software into the purchasing and production systems of a nine-figure manufacturer. He was Palantir’s first Neurodivergent Fellow through Alex Karp’s program, conducted nuclear research at Jefferson Lab, studied computer science and applied mathematics at Johns Hopkins, and is an a16z Scout.\n\nThe rest of the team comes from Stanford Mathematics, Berkeley computer science, and Carnegie Mellon mathematics and computer science. Their work spans Oxford OATML, SPAR, CMU CyLab, Palo Alto Networks, Millennium, Amazon Search, NASA, UCSF Health, and industrial manufacturing systems.\n\nThey have built agent orchestration platforms, LLM evaluation and fine-tuning systems, cryptographic security software, production search infrastructure, CAD-matching systems, and autonomous QA for measuring agent performance. Their research includes an ICML acceptance and current work in review at NeurIPS.\n\nThe team also brings national-level recognition in mathematics and technical research spanning manufacturing, computational science, and new energy systems.\n\nRiften combines enterprise deployment, frontier evaluation research, competitive mathematics, agent systems, security, and production ML in one team built for the full path from request to outcome to model.\n\n## The ask\n\n**We are looking for companies with meaningful LLM usage across customer-facing products or internal agents.**\n\nIf most of your traffic still runs through one frontier model, send us:\n\n* Your current default model\n* Whether the traffic is internal or customer-facing\n* Your approximate monthly model spend or volume\n\nWe will show you what should remain on the frontier, what can move today, and whether Riften is worth testing.\n\nEmail us at [info@riften.ai](mailto:info@riften.ai).",
+      "url": "https://www.ycombinator.com/launches/ShW-riften-route-every-ai-request-build-the-models-your-company-owns",
+      "votes": 11,
+      "created_at": "2026-08-17T15:12:03.010Z"
+    }
+  ]
+}

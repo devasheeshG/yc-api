@@ -1,0 +1,103 @@
+{
+  "id": 33022,
+  "name": "Praxis Robotics",
+  "slug": "praxis-robotics",
+  "former_names": [
+    "Praxis AI"
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/9bc18b804ad9a5d92ef1db88e90491f98e0204a7.png",
+  "website": "https://www.praxisrobotics.io",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "Praxis captures the data physical AI is bottlenecked on: egocentric video, 3D scans, and multimodal capture from inside real industrial and residential environments. Embedded within publicly listed and unicorn-scale conglomerates, we reach 60k workers across 5 continents and 150+ environment types, supplying the real-world training data frontier labs and humanoid companies can't source anywhere else.",
+  "one_liner": "Turns real businesses into robotics data vendors",
+  "team_size": 3,
+  "industry": "Industrials",
+  "subindustry": "Industrials",
+  "launched_at": 1782948528,
+  "tags": [
+    "Hard Tech",
+    "Reinforcement Learning",
+    "Robotic Process Automation"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Summer 2026",
+  "status": "Active",
+  "industries": [
+    "Industrials"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/praxis-robotics",
+  "api": "https://devasheeshg.github.io/yc-api/batches/summer-2026/praxis-robotics.json",
+  "year_founded": 2026,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/130274179/admin/dashboard/",
+  "x_url": "",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/9bc18b804ad9a5d92ef1db88e90491f98e0204a7.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Diana Hu",
+    "url": "https://www.ycombinator.com/people/diana-hu"
+  },
+  "founders": [
+    {
+      "user_id": 2794157,
+      "full_name": "Rohan Seelamsetty",
+      "title": "Founder/CEO",
+      "founder_bio": " CEO @ Praxis. Forged across factory floors, campaign trails, and niche forums. Ex Computation and Cognition at Penn, Apollo Fellow at Oxford, and Indian Debate Team (#1 ranked team worldwide)",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/rohan-s-1186b2214?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
+      "x_url": "https://x.com/ro_seelamsetty",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/4b3e6e16cddb3da2384ce8f9439ca9ebc043d2bb.jpg"
+    },
+    {
+      "user_id": 3752185,
+      "full_name": "Dev Karpe",
+      "title": "Founder/COO",
+      "founder_bio": "Founder at Praxis AI, previously at Wharton's Huntsman Program. Background in investment banking and supply chain ops at a F500 CEO's office. ",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/dev-karpe",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/f4a1fc8056a887a99633492428b5db995e58a488.jpg"
+    },
+    {
+      "user_id": 3748464,
+      "full_name": "Tommy Li",
+      "title": "Founder/CTO",
+      "founder_bio": "Founder at Praxis AI. Prev. tech private equity at Morgan Stanley. Industrial tech venture capital at Andreessen Horowitz. Published IEEE researcher at NASA JPL and PerceptIn Robotics. BSE CS and Finance from UPenn.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/tommyli-penn/",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/0e7be9454dacfd8fa65594cc6836b90cc7e5e0b4.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 109471,
+      "title": "Praxis AI - Training Data for Robotics",
+      "tagline": "Praxis offers labs the most diverse environments, SOTA hardware, and rigorous post processing to train their models",
+      "body": "**Hey YC!**\n\nWe're Rohan, Dev, and Tommy, and we're building Praxis.\n\n**Praxis turns real-world work into training data for robots.**\n\n<https://youtu.be/xri7vyzxW-I?si=L6ZBgLO24OrvYuuH>\n\n**What we do**\n\nRobots learn to act in the physical world by watching humans do the work. We partner with businesses to capture egocentric human demonstration data, the first-person video of how tasks actually get done in factories, warehouses, homes, and other physical work environments, then supply it to the labs and humanoid teams training the next generation of robots. Robotics data is our focus, but since our collection infrastructure overlaps, we're happy to explore other multimodal data too.\n\n**The problem**\n\nRobotics is missing its internet-scale training corpus. LLMs learned from the web, books, code, and the accumulated record of human thought. Robots need the equivalent record of human action: how people pick, pack, clean, assemble, inspect, cook, use tools, recover from mistakes, and move through messy physical environments.\n\nCollecting some of this data is easy. Collecting enough of the right kind is brutally hard, for two reasons.\n\nFirst, diversity is capped by access. Models only generalise if they've seen the full range of real environments and operators, from a one-person shop to a national-scale industrial operation. Getting in the door across that entire spectrum, and across continents, is a physical-world access problem that most teams can't solve.\n\nSecond, it takes two rare skills at once. You have to know what frontier labs need at a technical level, and be able to run demanding physical operations across thousands of real sites, standardising capture and turning fragmented workflows into model-ready data. Few teams have both halves.\n\n**Our solution**\n\nWe already run collections across 150 environment types on 5 continents, with diversity from mom-and-pop stores to conglomerates accounting for 3% of a nation's GDP, and a reachable network of 60,000 workers. Depending on the task, we capture egocentric video, stereo-RGB, IMU, wrist-camera views, glove kinematics, haptics, and dense annotations. Everything is delivered calibrated, synced, pose-tracked, QA'd, and PII-scrubbed. We build and deploy custom capture hardware quickly because part of the team operates out of Shenzhen.\n\n**Why us**\n\nPraxis is built to do both hard things at once. We pair robotics research depth (IEEE, NASA JPL) with the ability to actually run demanding operations in the real world, from Fortune 500 supply chains to Parliaments, plus a Shenzhen hardware team. That combination- technical understanding of what labs need plus real physical-world access at scale- is what lets us deliver diverse, model-ready data at a cost and breadth that is irreplaceable.\n\n**Our asks**\n\n1. Intros to anyone working on robotics, embodied AI, or world-models, especially data and research leads. If you need other forms of multimodal data, we're happy to explore that too.\n2. If you run a business with interesting physical work (logistics, manufacturing, food, retail, or lab work) and would like to monetize it, we'd love to talk.\n\nYou can reach us at [founders@praxisrobotics.io](mailto:founders@praxisrobotics.io) and [rohan@praxisrobotics.io](mailto:rohan@praxisrobotics.io)[ https://www.praxisrobotics.io](https://www.praxisrobotics.io)",
+      "url": "https://www.ycombinator.com/launches/STf-praxis-ai-training-data-for-robotics",
+      "votes": 10,
+      "created_at": "2026-08-06T22:30:00.618Z"
+    }
+  ]
+}

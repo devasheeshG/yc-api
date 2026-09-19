@@ -1,0 +1,94 @@
+{
+  "id": 21906,
+  "name": "webapp.io",
+  "slug": "webapp-io",
+  "former_names": [
+    "Layer",
+    "LayerCI"
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/31c19d6a46df0610402b7fe27d52dc80c7cf4893.png",
+  "website": "https://webapp.io",
+  "all_locations": "Toronto, ON, Canada; Remote",
+  "long_description": "Webapp.io's custom hypervisor makes webapp CI/CD, E2E testing, and preview environments as simple as writing a Dockerfile.\r\n\r\nIf your team is building a webapp + using github/gitlab/bitbucket, please reach out!",
+  "one_liner": "Build webapps faster with 10x better CI/CD + preview envs",
+  "team_size": 4,
+  "industry": "B2B",
+  "subindustry": "B2B -> Engineering, Product and Design",
+  "launched_at": 1597858027,
+  "tags": [
+    "Developer Tools",
+    "SaaS",
+    "B2B"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Summer 2020",
+  "status": "Acquired",
+  "industries": [
+    "B2B",
+    "Engineering, Product and Design"
+  ],
+  "regions": [
+    "Canada",
+    "America / Canada",
+    "Remote",
+    "Fully Remote"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/webapp-io",
+  "api": "https://devasheeshg.github.io/yc-api/batches/summer-2020/webapp-io.json",
+  "year_founded": 2020,
+  "city": "Toronto",
+  "country": "CA",
+  "linkedin_url": "https://www.linkedin.com/company/webappio",
+  "x_url": "https://twitter.com/webappio",
+  "fb_url": "https://facebook.com/webappio",
+  "cb_url": null,
+  "github_url": "https://github.com/webappio",
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/31c19d6a46df0610402b7fe27d52dc80c7cf4893.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": null,
+  "founders": [
+    {
+      "user_id": 364633,
+      "full_name": "Colin Chartier",
+      "title": "Founder",
+      "founder_bio": "Technical founder, full-stack, system design, & devops\nTriple major (CS/stats/math) from University of Toronto",
+      "is_active": false,
+      "linkedin_url": "https://www.linkedin.com/in/colinchartier/",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/dedee6b5c2c7b303b9b535d6e693b72fdcd5c04f.jpg"
+    },
+    {
+      "user_id": 484938,
+      "full_name": "Lyn Chen",
+      "title": "Founder",
+      "founder_bio": "Prev. Dev Tools Founder (acquired), now doing human flourishing projects across emerging adulthood (18-25) and K-12. \n\n\n\n",
+      "is_active": false,
+      "linkedin_url": "https://www.linkedin.com/in/lynchen/",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/bb2c982f14878730856530996e4c877fb9e472b8.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 64193,
+      "title": "𝙒𝙚𝙗𝙖𝙥𝙥.𝙞𝙤 - Instant per-branch VMs for E2E tests & ephemeral environments",
+      "tagline": "Webapp.io is often 10x faster than creating full-stack environments in a regular CI like Github Actions",
+      "body": "![uploaded image](/media/?type=post&id=64193&key=user_uploads/364633/589b9712-0cb1-49cd-9bf5-e059435f1451)\n\nHey! We’re Colin & Lyn from [webapp.io](http://webapp.io).\n\nWe’re helping webapp developers make new copies of their stack in seconds using memory snapshots. You can think of a cloud-agnostic, full-stack version of the branch deployments you’d get from Vercel, Netlify, Heroku, or Render - even if you’re using a regular cloud provider instead of a PaaS.\n\n[Webapp.io](http://Webapp.io) lets you create full-stack environments for every pull request in seconds. We’ve built a custom hypervisor that watches which files are used in which build steps, and skips repetitive actions like starting microservices, seeding databases, or building images.\n\nIt came out of our own frustrations from having to often skip end-to-end testing for commits just for the sake of developer velocity. A typo fix on a landing page shouldn’t take 15+ minutes to spin up a fresh environment for some Cypress tests!\n\n![uploaded image](/media/?type=post&id=64193&key=user_uploads/364633/abdf8553-ec80-4b7a-9582-62e95d43cbc7)\n\n[Webapp.io](http://Webapp.io) works with any Linux-based stack, and the configuration works like a Dockerfile for VMs so that you can get started without having to talk to support.\n\n![uploaded image](/media/?type=post&id=64193&key=user_uploads/364633/4e3f5b2c-3215-41ef-851d-5e46a72727d7)\n\nOnce you’ve installed our app on your GitHub, GitLab, or BitBucket profile, you can push files called Layerfile in the syntax above, and we’ll automatically discover them and build your environments.\n\n[Webapp.io](http://Webapp.io) builds new VMs by re-using memory snapshots of your earlier builds. That means you can get a fresh copy of your database, microservices, and backend in seconds for a frontend change 10x faster than a production cloud provider or traditional CI.\n\nOur free tier is generous and we’re happy to set up a shared slack channel to help prospective users get set up. [Try out the product here!](https://webapp.io/sign-up?utm_src=launchyc) or [read the docs](https://webapp.io/docs/?utm_src=launchyc).",
+      "url": "https://www.ycombinator.com/launches/GhN-instant-per-branch-vms-for-e2e-tests-ephemeral-environments",
+      "votes": 25,
+      "created_at": "2022-06-29T19:56:47.472Z"
+    }
+  ]
+}

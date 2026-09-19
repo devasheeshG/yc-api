@@ -1,0 +1,81 @@
+{
+  "id": 32527,
+  "name": "machine0",
+  "slug": "machine0",
+  "former_names": [],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/0eb24a85015d2fd30115c143876496fed0a17210.png",
+  "website": "https://machine0.io",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "machine0 is a CLI for agent compute: `machine0 new mybox` gives your agent a full cloud VM, billed by the minute, from small up to 60 vCPU / 240 GB and 8×H100s. Agents drive it themselves via CLI or MCP.\r\n\r\nAgent workloads are moving from ephemeral to always-on. A coding agent working on a hard feature runs 6-8 hours. Auto-research agents run for days. machine0 is the environment in which these agents run.",
+  "one_liner": "AWS for Agents",
+  "team_size": 1,
+  "industry": "B2B",
+  "subindustry": "B2B -> Infrastructure",
+  "launched_at": 1780987913,
+  "tags": [
+    "Developer Tools",
+    "Cloud Computing"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Summer 2026",
+  "status": "Active",
+  "industries": [
+    "B2B",
+    "Infrastructure"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/machine0",
+  "api": "https://devasheeshg.github.io/yc-api/batches/summer-2026/machine0.json",
+  "year_founded": 2026,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/machine0",
+  "x_url": "https://x.com/machine__0",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/0eb24a85015d2fd30115c143876496fed0a17210.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Brad Flora",
+    "url": "https://www.ycombinator.com/people/brad-flora"
+  },
+  "founders": [
+    {
+      "user_id": 31731,
+      "full_name": "Barnaby Malet",
+      "title": "Founder/CEO",
+      "founder_bio": "Engineer. 2 x YC Founder. Currently founder/CEO of machine0 (S26). Previously cofounder/CTO/CPO of Upflow (W20). Before all that, Computer Science @ Imperial College London.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/barnabymalet/",
+      "x_url": "https://x.com/barnabymalet",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/3aa5cc9ddb2b21b5e10a21bd90ac20c4978f083a.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 108327,
+      "title": "machine0: Cloud computers for AI agents",
+      "tagline": "One command spins up a persistent VM. Your agent drives it via CLI or MCP, building its own fleet from 1 vCPU up to 60 vCPU / 240 GB and 8×H100s.",
+      "body": "TLDR: machine0 is a CLI for agent compute: “machine0 new mybox” gives your agent a full cloud VM, billed by the minute, from $0.013/hr up to 60 vCPU / 240 GB and 8×H100s. Agents drive it themselves via CLI or MCP.\n\n<https://www.youtube.com/watch?v=gyllkZ0M04E>\n\n## The Pain\n\nAgent workloads are moving from ephemeral to always-on. A coding agent working on a hard feature runs 6-8 hours. Auto-research agents run for days. OpenClaw &amp; Hermes run 24/7. As you run more in parallel:\n\n* **Resources**: a few agents on a big codebase saturate your RAM and CPU. Auto-research needs GPUs you don't have.\n* **Security**: “—yolo” on your personal machine is one prompt injection away from exfiltrated credentials.\n* **Availability**: close your laptop and the agent dies mid-task.\n* **Isolation**: there's no clean line between everything on your laptop and the minimum this agent actually needs.\n\n## The Solution\n\nmachine0 gives every agent its own computer. It's a CLI that both humans and agents can use without reading docs:\n\n* “machine0 new mybox” creates an SSH-ready VM with a static IP and HTTPS endpoint. Always on (99.99% uptime) until you switch it off.\n* **Billed by the minute.** 1 vCPU / 1 GB at $0.013/hr up to 60 vCPU / 240 GB, plus GPUs from RTX 4000 Ada to 8×H100s.\n* **Profiles.** Bundles of MCP connections, credentials, prompts, and env vars, injected at VM creation. Each agent gets exactly the capabilities (or personality) you choose, and nothing else.\n* **Agents self-serve.** Hand the CLI or MCP server to Claude, Codex, or OpenCode and it manages its own fleet: spin up a box for a build, snapshot it, tear it down.\n* **Suspend &amp; resume.** Pause an idle machine, stop paying for compute, resume exactly where it left off.\n* **Snapshot &amp; clone.** Configure one machine perfectly, then stamp out ten identical agents from it.\n* **NixOS is first-class.** Declarative, reproducible machines.\n\n## How people use it\n\n* **Compute for your agent**: give it the CLI and it spins up its own VMs for builds, tests, and long jobs instead of grinding your laptop.\n* **Hosting the agent itself**: run Claude, Codex or Hermes 24/7. Snapshot once, then clone as many as you want.\n* **Swarms of agents**: an orchestrator agent spawns worker machines, farms out subtasks, and tears them down when the work is done.\n* **Auto-Research on GPUs**: drop an agent on an H100 with a goal and let it run for days.\n\n## About me\n\nI'm a solo, second-time YC founder. I was CTO of Upflow (YC W20), where I scaled EPD post series A and personally owned DevOps, infra, and security for years because they were too high-stakes to delegate. Upflow handles sensitive accounting data for companies like Postman, ProductBoard, and Lattice, and is doing many millions in ARR.\n\nBefore that I built consumer payments at Hike Messenger (100M+ users) in India. Working with sensitive data and infra for years is what got me deep into the problems machine0 solves, security especially.\n\n## Asks 🙏\n\n* Try it: <https://machine0.io>\n* Let's talk about your agent fleets, software factory or auto-research: [hello@machine0.io](mailto:hello@machine0.io)",
+      "url": "https://www.ycombinator.com/launches/SBD-machine0-cloud-computers-for-ai-agents",
+      "votes": 22,
+      "created_at": "2026-07-31T15:30:36.400Z"
+    }
+  ]
+}

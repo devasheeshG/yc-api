@@ -1,0 +1,155 @@
+{
+  "id": 22832,
+  "name": "Parsagon",
+  "slug": "parsagon",
+  "former_names": [
+    "Parsagon",
+    "Inc."
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/d7aefca6f08e98bcb987bd108cb1bbe99254dd91.png",
+  "website": "https://parsagon.io",
+  "all_locations": "San Francisco, CA, USA; Remote",
+  "long_description": "Parsagon is an AI that can collect and analyze publications from any government body in any jurisdiction. It currently parses and analyzes legislation, press releases, speeches, meeting minutes, executive orders, and much more in 64 countries and counting.\r\n\r\nFortune/Global 500 companies, policy firms, and other organizations are using Parsagon to uncover policy insights in hundreds of jurisdictions that they would otherwise miss. Customers use us to:\r\n\r\n- Analyze changes in US state education policy\r\n- Generate reports on UK financial regulations\r\n- Monitor vaccine policies across the EU\r\n- And much more!",
+  "one_liner": "AI to track and analyze public policy",
+  "team_size": 2,
+  "industry": "B2B",
+  "subindustry": "B2B",
+  "launched_at": 1614621550,
+  "tags": [
+    "Artificial Intelligence",
+    "Monitoring",
+    "AI"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Winter 2021",
+  "status": "Active",
+  "industries": [
+    "B2B"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada",
+    "Remote",
+    "Fully Remote"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/parsagon",
+  "api": "https://devasheeshg.github.io/yc-api/batches/winter-2021/parsagon.json",
+  "year_founded": 2020,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/parsagon/",
+  "x_url": "https://twitter.com/Parsagon_io",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/d7aefca6f08e98bcb987bd108cb1bbe99254dd91.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": null,
+  "founders": [
+    {
+      "user_id": 145104,
+      "full_name": "Sandy Suh",
+      "title": "Founder",
+      "founder_bio": "Machine learning researcher specializing in program analysis and program synthesis. Using my experience to build an AI for public policy.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/sandy-suh-2ba05bb0/",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/8afad87b2d165c28bfca4bb284282600e06150f2.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 98455,
+      "title": "Parsagon: Universal API for Regulatory Data",
+      "tagline": "Programmatic access to legislation, regulations, and more across 70+ countries",
+      "body": "**TL;DR If you're scraping legislation, regulations, or other government publications, we provide a simpler option: a daily-updated dataset across 70+ countries, available via API. Check it out here: [https://parsagon.io/solutions/api](https://parsagon.io/solutions/api)**\n\nHi YC! We've built a global database of legislation, regulations, and other government publications. It updates daily and currently covers 70+ countries.\n\nWe originally built this for a handful of enterprise policy monitoring workflows, but we keep meeting founders who need reliable regulatory data for very different products/verticals (e.g., automating compliance workflows). Rather than trying to build every vertical ourselves, we're opening the dataset via API so you can build on top of it.\n\n**What It Looks Like**\n\nThe API is pretty simple: give a data category, and get a list of documents back:\n\n![uploaded image](/media/?type=post&id=98455&key=user_uploads/145104/f67f65dd-772a-4bfd-b1ee-a982b71afea4)\n\nYou can search for documents with date ranges and search queries as well:\n\n![uploaded image](/media/?type=post&id=98455&key=user_uploads/145104/c4c17ef5-5dfc-4d52-a468-33c3763099b3)\n\nTo see more examples, check out our docs: <https://docs.parsagon.io/api-reference/introduction>\n\n**What's Different About Parsagon**\n\nWe've seen a few solutions attempt to provide global regulatory/policy data, but they often are far from comprehensive. They often only include data for specific verticals/workflows, lack data for “smaller” jurisdictions, or just don't work as advertised (one of our customers said one provider only had half their data available via API - the other half was sent to them as excel spreadsheets of new regulations manually put together by humans each week).\n\nParsagon is built on AI research that generates and maintains data pipelines for government sources, which lets us scale coverage faster and keep it current.\n\nIf you need a source/jurisdiction we don’t have yet, just request it! We can usually add new coverage quickly. As one example, when a Global 500 tech company asked for \\~20 additional countries, we added them within two weeks.\n\n**Who Uses Our Data**\n\nParsagon helps Global 500 teams track new legislation, regulations, and policy developments. Examples:\n\n* A streaming platform tracks media/broadcasting rules in \\~60 countries\n* Multiple pharma companies track healthcare policy across 20+ countries\n* A major airline tracks policy developments across the EU\n\nIf you’re building anything that needs regulatory context (or you want to expand your existing product into more jurisdictions), we’d love to chat! You can email us at [**founders@parsagon.io**](mailto:founders@parsagon.io) or sign up at [**https://parsagon.io/solutions/api**](https://parsagon.io/solutions/api)",
+      "url": "https://www.ycombinator.com/launches/Pbz-parsagon-universal-api-for-regulatory-data",
+      "votes": 17,
+      "created_at": "2026-03-04T18:02:22.640Z"
+    },
+    {
+      "id": 92447,
+      "title": "Parsagon: AI to Track and Analyze Public Policy",
+      "tagline": "Uncover policy insights you'd otherwise miss",
+      "body": "Hi YC! I'm Sandy, and I'm trying to improve government transparency with Parsagon.\n\n**TL;DR**\n\nParsagon is an AI that can collect and analyze publications from any government body in any jurisdiction. It currently parses and analyzes legislation, press releases, speeches, meeting minutes, executive orders, and much more in 64 countries and counting.\n\n**Fortune/Global 500 companies, policy firms, non-profits, and other organizations are using Parsagon to uncover policy insights in hundreds of jurisdictions that they would otherwise miss.**\n\nAsk #1: If you want to try out Parsagon, email us at [founders@parsagon.io](mailto:founders@parsagon.io) or sign up for our beta at [parsagon.io](http://parsagon.io)\n\nAsk #2: We just launched on Product Hunt! We'd greatly appreciate if you could support [our launch](https://www.producthunt.com/products/parsagon)!\n\n## **😠The Problem:**\n\nGovernment data is much less accessible than it could be. Government affairs professionals spend countless hours sifting through legislation, press releases, speeches, etc. Tracking policy in one jurisdiction is hard enough, and any given organization may have to monitor dozens if not hundreds of different jurisdictions.\n\nCurrent platforms to track public policy are outdated. They track a limited set of sources, and they make you sift through those sources using clunky, keyword-based searches like the one below.\n\n![uploaded image](/media/?type=post&id=92447&key=user_uploads/145104/d2c61d43-51e6-465a-84df-124d0132a808)\n\n## **😃The Solution:**\n\nParsagon is an AI that can collect and analyze publications from any government body in any jurisdiction. You query Parsagon’s data in natural language, and Parsagon analyzes the policy developments relevant to you to create custom monitoring alerts, policy memos, and reports.\n\nhttps://www.youtube.com/watch?v=MnTf_Vz79AE\n\n# **🙏 Our Ask**\n\n* If you want to try out Parsagon, email us at [founders@parsagon.io](mailto:founders@parsagon.io) or sign up for our beta at [parsagon.io](http://parsagon.io)\n* We just launched on Product Hunt! We'd greatly appreciate if you could support [our launch](https://www.producthunt.com/products/parsagon)!",
+      "url": "https://www.ycombinator.com/launches/O35-parsagon-ai-to-track-and-analyze-public-policy",
+      "votes": 29,
+      "created_at": "2025-07-25T15:08:03.272Z"
+    },
+    {
+      "id": 80386,
+      "title": "Parsagon: Track business and policy developments",
+      "tagline": "Use AI to monitor custom events",
+      "body": "**Hi YC! We’re excited to announce that **[**Parsagon**](https://parsagon.io/)** can now monitor business and policy developments for you!**\n\n## **😠The Problem:**\n\nCurrent news monitoring tools are too noisy and too limited. They rely on simple keyword searches that fail to encompass complex topics, and they only monitor very standard news and social media sources. They lack the customization necessary to track many of the developments we care about in our industries and areas of expertise.\n\n## **😃The Solution:**\n\nParsagon’s AI monitors and analyzes events from sources across the web. You can specify custom sources to monitor, such as company websites, organizations’ meeting minutes, or government legislation. And you can filter for the events you care about using custom prompts.\n\n![uploaded image](/media/?type=post&id=80386&key=user_uploads/89898/1a881b41-a2c0-4c64-91b8-b673305ff667)\n\nFor example, you can use Parsagon to:\n\n* Collect data on mergers and acquisitions in the news\n* Get email alerts about announcements from state/local governments\n* Monitor bills related to a certain topic\n* And much more!\n\nJust tell Parsagon what types of events you want to monitor, and our AI will find what's relevant to you.\n\n## **How you can help:**\n\nIf you want to try out Parsagon, email us at [founders@parsagon.io](mailto:founders@parsagon.io) or sign up for our beta at [parsagon.io](https://parsagon.io/)",
+      "url": "https://www.ycombinator.com/launches/KuY-parsagon-track-business-and-policy-developments",
+      "votes": 36,
+      "created_at": "2024-04-24T15:15:00.971Z"
+    },
+    {
+      "id": 79399,
+      "title": "Parsagon - Real-time fundraising data for cheaper",
+      "tagline": "A faster, cheaper way to get Crunchbase/Pitchbook data",
+      "body": "**Hi YC! We’re excited to announce that **[**Parsagon**](https://parsagon.io/)** is offering real-time fundraising data similar to Crunchbase or Pitchbook, but for cheaper!**\n\n## **😠The Problem:**\n\nCollecting data on private companies is difficult and expensive, and as a result, if you want an API for fundraising data from Crunchbase or Pitchbook, you typically need to pay thousands of dollars per month.\n\n## **😃The Solution:**\n\nParsagon’s AI is now capable of auto-generating the scrapers and parsers needed to collect fundraising data, which allows us to offer the same data for much cheaper! To start, **we’re offering a real-time data feed starting at $50 per month!** You can use our API to monitor fundraising deals related to a given company, investor, industry, etc., and receive real-time data that looks something like this:\n\n```\n[\n  {\n    \"id\": 156,\n    \"date\": \"2024-02-27\",\n    \"round\": \"Series B\",\n    \"amount_raised\": 43000000,\n    \"valuation\": 500000000,\n    \"valuation_type\": \"Post-money\",\n    \"currency\": \"USD\",\n    \"org\": {\n      \"id\": 687,\n      \"name\": \"Photoroom\",\n      \"website\": \"https://www.photoroom.com\"\n    },\n    \"investors\": [\n      {\n        \"org\": {\n          \"id\": 443,\n          \"name\": \"Balderton\",\n          \"website\": \"https://www.balderton.com\"\n        },\n        \"is_lead\": true\n      },\n      {\n        \"org\": {\n          \"id\": 688,\n          \"name\": \"Aglae\",\n          \"website\": \"https://aglaeventures.com\"\n        },\n        \"is_lead\": true\n      },\n      {\n        \"org\": {\n          \"id\": 689,\n          \"name\": \"YCombinator\",\n          \"website\": \"https://www.ycombinator.com\"\n        },\n        \"is_lead\": false\n      }\n    ],\n    ...\n  },\n  ...\n]\n```\n\nWe’re also collecting historical fundraising data as well! Extensive coverage on that front will take some time, but **we’re currently collecting historical data on demand**. For example, one financial firm gave us a list of 1,000 companies on which they wanted historical data, and we were able to add that data to our API within a few days for a fraction of what it would cost from Pitchbook.\n\n## **How you can help:**\n\n* If you want to try out the API, email us at [founders@parsagon.io](mailto:founders@parsagon.io)\n* Do you know a VC or other financial firm that would be interested? Feel free to reach out to us at [founders@parsagon.io](mailto:founders@parsagon.io)\n* Not what the data you were trying to track? Reach out anyway! Our AI generated everything needed to get the data above in about two weeks, and it might be able to handle your use case just as easily!",
+      "url": "https://www.ycombinator.com/launches/Ked-parsagon-real-time-fundraising-data-for-cheaper",
+      "votes": 21,
+      "created_at": "2024-03-14T20:13:13.386Z"
+    },
+    {
+      "id": 77241,
+      "title": "Parsagon - Scrape sites with just their URLs",
+      "tagline": "Give a list of URLs, get back a set of scrapers!",
+      "body": "**Hi YC! We’re excited to announce that Parsagon now offers a new AI scraping service: you give a list of URLs, and you get back a set of scrapers!**\n\n**The Problem:**\n\nParsagon's AI allows you to generate web scrapers from natural language prompts. For example, you can get city population data from Wikipedia by telling our AI:\n\n> **_Go to _**[**_https://en.wikipedia.org/wiki/List_of_largest_cities_**](https://en.wikipedia.org/wiki/List_of_largest_cities)**_. Scrape data in the format \\[{\"city\": \"str\", \"link\": \"link\", \"population\": \"num\"}\\]_**\n\nThis works fine if you want to scrape a single site, but what if you want to scrape dozens, hundreds, or thousands of sites? What if each site works differently and needs a slightly different prompt? While it's faster than writing thousands of scrapers, writing thousands of prompts is still a lot of work.\n\n**The Solution:**\n\nNow you can give Parsagon a list of sites and the data you want from each site, and we'll pass that list to Upworkers trained to use Parsagon. The Upworkers write a prompt for each site, and you get scrapers for a fraction of the time/cost it would take to write code or hire developers! 🎉 For example, companies are using Parsagon to:\n\n* generate scrapers that monitor hundreds of state/local government websites for events and announcements related to economic policy\n* generate scrapers for thousands of company websites to get details on private companies’ financials and investors\n* scrape laws from government websites across the EU to create an AI legal assistant\n\n**The Ask:**\n\nIf you want to try out the service, email us at [**founders@parsagon.io**](mailto:founders@parsagon.io)!",
+      "url": "https://www.ycombinator.com/launches/K5p-parsagon-scrape-sites-with-just-their-urls",
+      "votes": 13,
+      "created_at": "2024-01-08T21:15:26.083Z"
+    },
+    {
+      "id": 72447,
+      "title": "Parsagon - GPT for browser automations ⚡️",
+      "tagline": "Create browser automations with natural language",
+      "body": "**Hi YC! We’re excited to announce that you can now use Parsagon to create browser automations with natural language!**\n\n**The Problem:**\n\nIf you want to do something like the following:\n\n* Go to a website, enter a query into a search bar, and get all the search results as JSON\n* Check a website for changes/updates every day\n* Test a form on your website with many different inputs, and run the tests on command\n\nYou usually have to write code. And then you might have to write code to monitor whether the website’s format has changed. And if the website changes, you need to write even more code. This is tedious and time-consuming for developers, and as an AI researcher, I wanted to use my research to build a better way to create automations…\n\n**The Solution:**\n\nWe’ve trained GPT to use Parsagon’s AI, which is built specifically to write Python code for web page interactions and web scraping. Now you can type something like:\n\n> _‘Go to _[_https://assessment.cot.tn.gov/TPAD/_](https://assessment.cot.tn.gov/TPAD/)_. Select \"Carter\" from the County dropdown. Type \"WEST DOE AVE\" into the Search Term box and hit enter. Scrape data in the format \\[{\"owner\": \"str\", \"address\": \"str\"}\\], clicking the Next button up to 3 times.’_\n\nand Parsagon will create a Python program to do what you described using Selenium. 🎉\n\n![uploaded image](/media/?type=post&id=72447&key=user_uploads/145104/52d57427-2220-4040-bc2e-5ac6c22a5a46)\n\nAs shown above, you can make complex browser automations in just 3 steps:\n\n* Type what you want the automation to do.\n* Parsagon will explore the website(s) you mentioned to create a Python program. Parsagon will show you an abridged version of what the program does, and if it looks correct, you can save the program to be run whenever you want. The program doesn’t use GPT, making it cheaper, faster, and more consistent.\n* You can use Parsagon to schedule your automations, alert you when a website’s format has changed and/or automatically try to adapt to format changes, and change the parameters of your automations (e.g., Parsagon will generate a program that allows you to change “Carter” and “WEST DOE AVE” to other values on each run in the example above).\n\n**Asks:**\n\n* If you want to try out the product, email us at [founders@parsagon.io](mailto:founders@parsagon.io) and we will move you up the waitlist to use the product.\n* If you know anyone who might be interested in using our tool, we’d appreciate an intro! Feel free to reach out to us at [founders@parsagon.io](mailto:founders@parsagon.io)",
+      "url": "https://www.ycombinator.com/launches/IqV-parsagon-gpt-for-browser-automations",
+      "votes": 19,
+      "created_at": "2023-06-22T06:54:43.783Z"
+    },
+    {
+      "id": 70282,
+      "title": "Parsagon: Universal API for product data",
+      "tagline": "Collect product data from any website with one API call",
+      "body": "### **✨ TL;DR**\n\nHi YC! We’re excited to announce that [Parsagon](https://parsagon.io/) is offering an API with which you can **collect product data from any e-commerce site with 1 API call**.\n\n### **🤯 The Problem**\n\nIf you’re trying to get data on products from e-commerce sites like Amazon, Etsy, etc., you essentially have 2 options:\n\n1. 1\\. Develop or purchase web scrapers for every site, which are time-consuming and expensive to build and maintain.\n2. 2\\. Use a product data API, where you provide a URL to a product page, and the API tries to extract product data from the page via ML models. This is cheaper, but these APIs often return inaccurate data for 20+% of product pages. We’ve seen these APIs say the price of a $350 TV was $16 because the warranty was $16, we’ve seen them say a price was $3400 when it was really $34.00, we’ve seen them say products were in stock when they were out of stock—the list goes on and on.\n\nAs developers, we at Parsagon have spent countless hours building and maintaining such web scrapers and wishing that we could use a product data API without sacrificing the accuracy and reliability of custom scrapers.\n\n### **💡 The Solution**\n\n**Parsagon provides a product data API with near 100% reliability.** We avoid the inaccuracies of previous product data APIs by using a novel AI to generate custom scrapers for every e-commerce website, ensuring that we consistently return accurate data for each site. Just give our API a URL for a product or list of products, and Parsagon will build a scraper for the site (if it hasn’t already) and return data for your product(s) with a standardized format.\n\nFor example, giving the API the URL for this page\n\n![uploaded image](https://bookface.ycombinator.com/media/?type=post&id=70282&key=user_uploads/145104/ac033de5-2e1e-4e30-b6bf-0b8dbb1faf28)\n\nyields:\n\n```\n{\n```\n\n```\n\"name\": \"Amazon eero 6 mesh Wi-Fi system | Supports speeds up to 500 mbps | Connect to Alexa | Coverage up to 4,500 sq. ft. | 3-pack, one router + two extenders, 2020 release\",\n\"price\": 179.99,\n\"regular_price\": 199.99,\n\"currency\": \"$\",\n\"sku\": \"B085WSCTS4\",\n\"out_of_stock\": false,\n. . .\n```\n\n```\n}\n```\n\nAnd giving the API the URL for this page\n\n![uploaded image](/media/?type=post&id=70282&key=user_uploads/145104/061755a7-0e01-4b75-8fa1-080259038282)\n\nyields\n\n> ```\n> [\n> \n> ```\n>\n> ```\n> {\n>     \"name\": \"WICKER KURA BED- Pretty Stickers- Peel and Stick- Gifts- Adhesive Kura Bed Designs- Room Decor- Wicker Designs- Customizable Kura Beds\", \n>     \"link\": \"https://www.etsy.com/listing/1141689620/wicker-kura-bed-pretty-stickers-peel-and?click_key=aa9bb9d8d3aaf77acefa1143c7d023c6631c1c59%3A1141689620&click_sum=5ea4b26e&ga_order=most_relevant&ga_search_type=all&ga_view_type=gallery&ga_search_query=beds&ref=search_grid-367299-1-1&pro=1&frs=1\",  \n>     \"price\": 58.99,  \n>     \"regular_price\": 78.66,  \n>     \"currency\": \"$\",  \n>     \"sku\": \"1141689620\",  \n>     \"out_of_stock\": false,   \n>     . . . \n> },\n> {\n>     \"name\": \"Upholstered SOFT WALL PANELS for King or Queen size beds.\",\n>     . . . \n> },\n> . . . \n> ]\n> \n> ```\n\n### **❓ Our Asks**\n\nIf you want an easier way to collect product data, email us at [founders@parsagon.io](mailto:founders@parsagon.io)",
+      "url": "https://www.ycombinator.com/launches/IHa-parsagon-universal-api-for-product-data",
+      "votes": 31,
+      "created_at": "2023-03-14T19:55:07.287Z"
+    },
+    {
+      "id": 68413,
+      "title": "Parsagon - Geographic data for half the price",
+      "tagline": "Our AI collects land parcel data faster and cheaper than current solutions",
+      "body": "**tl;dr: Parsagon is now offering a data service on all U.S. land parcels for 50% cheaper**\n\nParsagon is an AI that can auto-generate web scrapers and data pipelines. We had some customers ask for geographic data, so we decided to have Parsagon collect data on all land parcels in the U.S., as provided by municipal/county governments. We have collected data for several hundred counties within a few days, and we should have data covering the entire U.S. within a few weeks. We clean and standardize the data, which includes properties’ boundaries, coordinates, tax info, address info, data on structures, and [much more](https://parsagon.io/docs/parcels/parcel-data-fields).\n\nHow are we different from other data providers? Since we’re able to get the data much more easily, **we’ll charge you 50% less than what similar data providers are charging.** e.g., if competitors are charging $200/month for API access, we’ll charge $100.\n\n**Our ask:**\n\nIf you want access to the service, please contact us at [founders@parsagon.io](mailto:founders@parsagon.io)!",
+      "url": "https://www.ycombinator.com/launches/HnR-parsagon-geographic-data-for-half-the-price",
+      "votes": 13,
+      "created_at": "2023-01-13T07:17:58.626Z"
+    },
+    {
+      "id": 66389,
+      "title": "Parsagon: Real-time price indexes",
+      "tagline": "Real-time price and inflation estimates via API",
+      "body": "**tl;dr: Parsagon now offers real-time price indexes by scraping daily prices of retailers.** \n\nParsagon is an AI that can auto-generate web scrapers and data pipelines. With inflation affecting so many consumers and businesses, we had our AI generate dozens of scrapers to collect prices and track inflation for over 50,000 food products across 38 cities in North America. You can access daily inflation estimates per food category (e.g., bread, seafood) and per region (e.g., Northeast U.S., Western U.S.) via our API. For example, here’s the change in price for various foods in the U.S. over the past week:\n\n![uploaded image](/media/?type=post&id=66389&key=user_uploads/145104/6b268c1b-9eb6-4ca6-acd0-d7d19f356145)\n\nAnd earlier this month, when a jump in food inflation sent markets tumbling, our index reported that jump in inflation two weeks before the Bureau of Labor Statistics released the inflation numbers.\n\n**Our ask:**\n\nIf you want access to the API, please contact us at [founders@parsagon.io](mailto:founders@parsagon.io) for a free trial!\n\nWant prices for a different sector or industry? Let us know! We generated our scrapers for food in about a week, so we can likely get data for whatever industry you’re interested in. ",
+      "url": "https://www.ycombinator.com/launches/HGn-parsagon-real-time-price-indexes",
+      "votes": 17,
+      "created_at": "2022-09-29T06:04:14.746Z"
+    }
+  ]
+}

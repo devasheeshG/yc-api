@@ -1,0 +1,125 @@
+{
+  "id": 27874,
+  "name": "Relace",
+  "slug": "relace",
+  "former_names": [
+    "Squack"
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/c83e10451bd21c42a36788ca979818d811eb4cad.png",
+  "website": "https://relace.ai",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "Relace makes it easy to deploy production-ready coding agents. Our models are co-optimized with infrastructure to achieve SoTA performance: 10k+ token/s code merging and retrieval across million-line repositories in seconds.",
+  "one_liner": "Models and infra for coding agents",
+  "team_size": 7,
+  "industry": "B2B",
+  "subindustry": "B2B -> Engineering, Product and Design",
+  "launched_at": 1679954526,
+  "tags": [],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": true,
+  "nonprofit": false,
+  "batch": "Winter 2023",
+  "status": "Active",
+  "industries": [
+    "B2B",
+    "Engineering, Product and Design"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/relace",
+  "api": "https://devasheeshg.github.io/yc-api/batches/winter-2023/relace.json",
+  "year_founded": 2022,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/relace-ai",
+  "x_url": "",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/c83e10451bd21c42a36788ca979818d811eb4cad.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Brad Flora",
+    "url": "https://www.ycombinator.com/people/brad-flora"
+  },
+  "founders": [
+    {
+      "user_id": 1186724,
+      "full_name": "Preston Zhou",
+      "title": "Founder",
+      "founder_bio": "Physics -> ML",
+      "is_active": true,
+      "linkedin_url": "",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/9e946c9e3bf895084be4302681dcb2a493eb08d7.jpg"
+    },
+    {
+      "user_id": 1187298,
+      "full_name": "Eitan Borgnia",
+      "title": "Founder",
+      "founder_bio": "Former PhD student in machine learning at UChicago, with a math degree from Caltech.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/eitan-borgnia/",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/ef31fdf11081bc63e1eb96560e8858f452157c2a.jpg"
+    }
+  ],
+  "jobs": [
+    {
+      "id": 75942,
+      "title": "Machine Learning Scientist",
+      "url": "https://www.ycombinator.com/companies/relace/jobs/BiIbkUO-machine-learning-scientist",
+      "location": "San Francisco, CA, US",
+      "type": "Full-time",
+      "role": "Science",
+      "role_type": "Research",
+      "salary_range": "$100K - $200K",
+      "equity_range": "",
+      "experience": "Any (new grads ok)",
+      "visa": "US citizen/visa only",
+      "skills": []
+    },
+    {
+      "id": 81105,
+      "title": "GTM Engineer",
+      "url": "https://www.ycombinator.com/companies/relace/jobs/9cATbuj-gtm-engineer",
+      "location": "San Francisco, CA, US",
+      "type": "Full-time",
+      "role": "Marketing",
+      "role_type": null,
+      "salary_range": "$100K - $160K",
+      "equity_range": "",
+      "experience": "Any (new grads ok)",
+      "visa": "US citizen/visa only",
+      "skills": []
+    }
+  ],
+  "news": [
+    {
+      "title": "Relace Raises $23M to Build the Rails for Software On Demand",
+      "url": "https://www.relace.ai/blog/series-a-announcement",
+      "date": "Oct 08, 2025"
+    }
+  ],
+  "launches": [
+    {
+      "id": 90339,
+      "title": "Relace - Cheaper, faster, and more reliable AI code generation.",
+      "tagline": "Kicking off with Instant Apply, Code Reranker, and Embeddings",
+      "body": "Hey everyone 👋 -- we're Preston and Eitan, the cofounders of [Relace](https://relace.ai).\n\n**TL;DR:**\n\nRelace models are designed to slot naturally into most AI codegen products, making them faster, cheaper, and more reliable. We already have SOTA:\n\n* Embedding + Code Reranker models to retreive the relevant context from million-line codebases in \\~1-2s.\n* Instant Apply model that merges code snippets at &gt;4300 tok/s.\n\nWe're in production with **Lovable**, **Magic Patterns**, **Codebuff**, **Create**, **Tempo Labs**, and 20+ other AI codegen startups. Watch our Instant Apply model race against full file rewriting with Claude 3.7 Sonnet:\n\nhttps://www.youtube.com/watch?v=J0-oYyozUZw\n\n**Problem:**\n\nAgentic coding systems are easy to prototype, but hard to make robust. As users succeed at creating more complex designs/applications, you hit bottlenecks:\n\n* Larger codebases require efficient context management -- you can't pass everything to the AI agent.\n* Slow and expensive full file rewrites need to be replaced with abbreviated diff formats.\n\nFrontier models (like Claude 3.7, o3, etc.) are powerful, but overkill for these auxiliary functions like retrieval and merging. Costs start to add up, especially when every agent action hits an API with thousands of tokens in and out. Plus, non-technical users are easily frustrated by high latency, especially if they are trying to refine small aspects of the code they created.\n\n**Solution:**\n\nRelace models are trained to achieve order-of-magnitude improvements in both latency and cost without compromising on accuracy.\n\n_Instant Apply_\n\nReleased in February, this model merges semantic code snippets at 4,300 tokens/sec with an average end-to-end latency of \\~900ms across our users.\n\n![uploaded image](/media/?type=post&id=90339&key=user_uploads/1187298/38144690-e758-43dd-b591-be0481a47c33)\n\nInspired by Cursor's Fast Apply, the semantic diff format is chosen to be natural for all models to output. A simple prompt change combined with Instant Apply can reduce Claude 3.5/3.7 token usage by \\~40%.\n\nWe train on hundreds of thousands of code merges across dozens of different coding languages to achieve SOTA accuracy:\n\n![uploaded image](/media/?type=post&id=90339&key=user_uploads/1187298/3ed1d45b-1f70-4cc2-836e-d7c4a3dae817)\n\n_Embeddings and Reranker_\n\nOur embedding model + reranker can determine the relevance score for a user request against million-line codebases in \\~1-2s. By training on hundreds of thousands of query/code pairs, we can effectively filter out irrelevant files and cut input token usage by over 50%.\n\n![uploaded image](/media/?type=post&id=90339&key=user_uploads/1187298/884ed0af-04c3-49e1-a92b-7e53ca81ad1b)\n\nNot only does this save on cost, but cleaning up the context window significantly improves generation quality of the AI agent.\n\n**Try It Out:**\n\nBoth of these models are battle tested and running millions of times a week in production. You can read more and try it out for yourself with the links below.\n\nApp: [https://app.relace.ai](https://app.relace.ai%5C) Docs: https://docs.relace.ai\n\nWe have a free tier for small projects, and we offer discounted rates for open source partners like our friends at Continue.\n\nDon't hesitate to reach out if you're optimizing your coding agent — we would love to hear your thoughts, feedback, and what you're building!",
+      "url": "https://www.ycombinator.com/launches/NV5-relace-cheaper-faster-and-more-reliable-ai-code-generation",
+      "votes": 18,
+      "created_at": "2025-05-13T05:02:12.002Z"
+    }
+  ]
+}

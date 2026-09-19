@@ -1,0 +1,82 @@
+{
+  "id": 32619,
+  "name": "Akon Labs",
+  "slug": "akon-labs",
+  "former_names": [],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/7195cae7a2ed2e9a5da8741119043c95ba614f7c.png",
+  "website": "https://akonlabs.com",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "",
+  "one_liner": "Databricks for Enterprise Codebases",
+  "team_size": 2,
+  "industry": "B2B",
+  "subindustry": "B2B",
+  "launched_at": 1786669281,
+  "tags": [
+    "Generative AI",
+    "SaaS",
+    "B2B",
+    "AI"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Summer 2026",
+  "status": "Active",
+  "industries": [
+    "B2B"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/akon-labs",
+  "api": "https://devasheeshg.github.io/yc-api/batches/summer-2026/akon-labs.json",
+  "year_founded": 2026,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/akon-labs/",
+  "x_url": "",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/7195cae7a2ed2e9a5da8741119043c95ba614f7c.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Jon Xu",
+    "url": "https://www.ycombinator.com/people/jon-xu"
+  },
+  "founders": [
+    {
+      "user_id": 1607382,
+      "full_name": "Subham Kundu",
+      "title": "Founder/CEO",
+      "founder_bio": "Founder at Akon Labs (YC S26). Previously CTO at Cignara (YC P26), building from first line to millionth. Principal AI Engineer at HTCD, developed AI observability platform and reduced AI search costs by 78%. Founding Engineer at Caravel Labs, built LLM chatbot scaled to 5,000 students and featured on Chinese national TV.",
+      "is_active": true,
+      "linkedin_url": "https://linkedin.com/in/subham-kundu-2746b515b",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/95a2cbce998042d28b021894a4de3a4084143d54.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 110659,
+      "title": "Akon Labs: We're building the most token-efficient coding agent in the world",
+      "tagline": "GitNexus gives coding agents a map of your codebase, so they stop burning tokens looking for it.",
+      "body": "##### We're building the most token-efficient coding agent in the world. The reason it works is GitNexus, our open-source knowledge graph for your codebase.\n\n<https://youtu.be/-ErU4cCRSlQ>\n\n##### The problem\n\nCoding agents don't understand your repo. They grep, they guess, they re-read the same files, and they stuff half your codebase into a context window hoping the answer is in there somewhere. You pay for every one of those tokens, and the agent still misses the cross-file relationship that mattered.\n\nThe bottleneck isn't the model. It's context.\n\n##### What we built:\n\nGitNexus indexes your repository into a knowledge graph (symbols, call paths, imports, ownership, history) and serves the agent exactly the context a task needs, instead of everything it might need.\n\nIt's one connected stack:\n\n* The knowledge graph. Run npx gitnexus analyze and you have it\n* A coding agent that runs on top of it\n* Automated PR review grounded in the same graph\n\n![uploaded image](/media/?type=post&id=110659&key=user_uploads/1607382/1d3e51af-d3b5-4ee6-b0c3-b80bc4337c3e)\n\n##### The proof:\n\nOn the DeepSWE benchmark, we ran the same agent with our graph and without it:\n\n* 37% to 68.4% pass rate. Nearly twice the bugs solved\n* Half the cost per fix, with fewer tokens\n* On the hardest tasks, the gap more than triples\n\nFull methodology and results: <https://www.akonlabs.com/benchmarks>\n\n##### Where we are:\n\n* 45,000+ GitHub stars\n* 65,000 weekly npm downloads\n* 10+ enterprises onboarded\n\n##### About the team:\n\nSubham Kundu and Abhigyan Patwari have spent nearly half a decade working on knowledge graphs. Between them, they've been founding engineers, CTOs, and principal AI engineers, taking products from 0 to 100 at multiple startups. Subham is a seasoned engineer who has scaled products to millions of users, won multiple hackathons, and doing a PhD in reinforcement learning. Abhigyan is a seasoned technologist and serial open source contributor, with involvement across multiple open source projects.\n\n##### Run it in your way:\n\nManaged, or fully sovereign. Self-hosted, air-gapped, nothing leaves your network.\n\n##### Looking to cut your coding agent bill?\n\nIf you want to lower your coding agent spend without giving up frontier performance, sign up at <https://www.akonlabs.com>. We'll get you set up on your own repo and show you the before-and-after on your actual token costs.\n\n##### Our other asks\n\n* Try the open-source version. Run npx gitnexus analyze. Takes a minute\n* Intros. Engineering leaders where agent cost or code-context quality is a real line item, especially in regulated or air-gapped environments\n* Tell us where it breaks. Weird monorepos and polyglot repos are the most useful feedback we get\n\nGitNexus, by Akon Labs. The nervous system for agent context.\n\nContact us at: [founders@akonlabs.com](mailto:founders@akonlabs.com)\n\nWebsite: [https://www.akonlabs.com](https://www.akonlabs.com/)\n\nLinkedin: [https://www.linkedin.com/company/akon-labs](https://www.linkedin.com/company/akon-labs/)",
+      "url": "https://www.ycombinator.com/launches/Smp-akon-labs-we-re-building-the-most-token-efficient-coding-agent-in-the-world",
+      "votes": 45,
+      "created_at": "2026-08-17T19:30:00.167Z"
+    }
+  ]
+}

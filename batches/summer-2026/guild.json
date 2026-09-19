@@ -1,0 +1,95 @@
+{
+  "id": 32194,
+  "name": "GUILD",
+  "slug": "guild",
+  "former_names": [],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/efd3ccc04f842f9a3a1235ba1ef66aa4447fc993.png",
+  "website": "https://www.guildai.co",
+  "all_locations": "New York City, NY, USA",
+  "long_description": "GUILD is an AI-Native Defense contractor making aerospace parts faster and cheaper. We win defense contracts, automate manufacturing, and deliver to the government's door.",
+  "one_liner": "AI-Native Defense Contractor",
+  "team_size": 2,
+  "industry": "Industrials",
+  "subindustry": "Industrials -> Defense",
+  "launched_at": 1778869862,
+  "tags": [
+    "Artificial Intelligence",
+    "Manufacturing",
+    "Supply Chain",
+    "Defense"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Summer 2026",
+  "status": "Active",
+  "industries": [
+    "Industrials",
+    "Defense"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/guild",
+  "api": "https://devasheeshg.github.io/yc-api/batches/summer-2026/guild.json",
+  "year_founded": 2025,
+  "city": "New York City",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/guildai/",
+  "x_url": "",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/efd3ccc04f842f9a3a1235ba1ef66aa4447fc993.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [
+    "https://bookface-images.s3.us-west-2.amazonaws.com/attachments/e55fc87a71d9e406a0a8fdfdd14ba685fc117785.png"
+  ],
+  "primary_partner": {
+    "name": "Diana Hu",
+    "url": "https://www.ycombinator.com/people/diana-hu"
+  },
+  "founders": [
+    {
+      "user_id": 3161464,
+      "full_name": "Kaya Celebi",
+      "title": "Founder/CEO",
+      "founder_bio": "Founder at GUILD. Previously AI Tech Lead at Hartree Partners and ML Engineer at Morgan Stanley.\nMSc in Computer Science from Columbia, dual BSc in CS and Statistics from Duke.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/kaya-celebi",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/5b48b1bdd435cb7bc03969c64b95f41c522af52d.jpg"
+    },
+    {
+      "user_id": 3163115,
+      "full_name": "Erim Gurlemis",
+      "title": "Founder/COO",
+      "founder_bio": "Founder at GUILD. Previously Associate in the Global Investment Office at Morgan Stanley, where he worked on wealth management development and engagement . BA in Biological Studies from Rutgers University.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/erim-gurlemis-b13b22204/",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/f0c16bff7dc6fd5301ab5b66684588bf18413c9f.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 109739,
+      "title": "GUILD - New Generation of Defense Contractor",
+      "tagline": "Making aerospace and naval parts faster and cheaper for defense",
+      "body": "Hey everyone 🙂 - we’re [@Kaya Celebi](https://bookface.ycombinator.com/user/3161464) and [@Erim Gurlemis](https://bookface.ycombinator.com/user/3163115) , co-founders of [@GUILD](https://bookface.ycombinator.com/company/32194) .\n\n**TL;DR**\n\n[@GUILD](https://bookface.ycombinator.com/company/32194) **is an AI-native defense contractor making aerospace parts faster and cheaper than today’s supply chain**. We win government contracts, turn technical requirements into production-ready workflows, and execute through factory integrations that eliminate the weeks normally lost between RFQ and factory floor. <https://guildai.co>\n\n![uploaded image](/media/?type=post&id=109739&key=user_uploads/3161464/3cf82073-c0e0-4c42-8d2b-d4fab3e159ca)\n\nWe’re building GUILD in two connected motions:\n\n* First, we win and execute government manufacturing contracts directly.\n* Second, we help defense hardware companies turn designs, technical packages, and supply-chain requirements into executable procurement and production workflows.\n\nIn both cases, the goal is the same: move from technical requirements to manufactured parts faster, with less cost and less operational drag.\n\n**THE PROBLEM**\n\nGovernment contracting is fragmented, overcomplicated, and inaccessible. That makes defense manufacturing slower and more expensive than it should be.\n\nThe government waits too long and pays too much for parts the country already knows how to make. Meanwhile, the supplier base is shrinking: DoW’s reported in 2023 that small-business participation in the defense industrial base has fallen by over 40% in the last decade.\n\n**Less competition means fewer options, higher prices, weaker supply chains, and more critical work stuck before it ever reaches a production floor.** \n\n**THE CAUSE**\n\nThe defense supply chain is not wired together. Government demand, technical requirements, manufacturer capability, financial markets, and execution data all live in different places, so every contract becomes a manual search problem - stuck in PDFs, portals, spreadsheets, and domain knowledge.\n\nThe hard part is not finding government opportunities. Anyone can have Claude build a scrape-bot for [SAM.gov](http://SAM.gov) and call it a pipeline. **The hard part is turning messy technical requirements into a manufacturing decision, then executing the work.**\n\nThis favors large incumbents who can throw teams of people at the problem. Smaller manufacturers usually cannot. They either spend weeks decoding the package, price in too much risk, miss the timing, or never enter the market at all.\n\n**OUR APPROACH**\n\n**GUILD is the prime contractor**, not a marketplace or lead-gen layer for manufacturers. We win government work directly. We break the technical package into the operational steps required to produce and deliver the part. Then we execute.\n\n**The core of this is our company brain: a structural ontology of defense manufacturing.**\n\nAI-native, to us, means the company documents and learns from its own execution. Every artifact around a contract - requirements, quotes, supplier interactions, decisions, awards, workflows, and deliveries - becomes structured memory. Our agents traverse that graph to understand what a part is, how it can be made, what it should cost, and what needs to happen next.\n\nThe company brain compounds. Every bid makes the next bid smarter. Every factory handoff improves the next handoff. Every delivery teaches the system what actually happened, not just what the plan said. That is what lets us move from document parsing to execution as the contractor responsible for the work.\n\n**WHAT WE’VE BUILT**\n\nWe’ve built the company brain that turns technical packages into executable manufacturing workflows. It ingests messy contract packages, understands the requirements, prices work against known factory capability, generates the production path, and keeps improving as new parts, factories, and outcomes enter the system.\n\nThis is not a hard-coded set of workflows. The system helps us build and refine new workflows as it observes more of the defense manufacturing knowledge space. GUILD Forge is the interface for this: a procurement and production planning system for defense companies that need to move from technical design to supply-chain execution.\n\n**WHAT WE MAKE**\n\nOur current focus is aerospace precision metals. That includes jet and engine components, structural and wing-adjacent parts, housings, brackets, fittings, retainers, and the simple but critical hardware that sits inside larger aerospace systems.\n\nThese parts are not always glamorous, but they are everywhere. When their supply chain is slow, expensive, or opaque, the larger programs above them slow down too.\n\n**THE TEAM**\n\n![uploaded image](/media/?type=post&id=109739&key=user_uploads/3161464/9f3944e0-0a34-426b-a920-033542ce928f)\n\nKaya has an MS in Computer Science from Columbia and studied CS + Statistics at Duke. His background is in ML research, AI modernization, and quant work: he worked on AI modernization and quantitative systems at Morgan Stanley, and later led an AI team at hedge fund Hartree Partners. Coming into defense from the outside forced him to learn the industry from first principles and turn that learning into GUILD's technical architecture.\n\nErim studied Biological Sciences at Rutgers University, where he conducted research on metabolism before working in pharma consulting supporting oncology research. He then pivoted into finance at Morgan Stanley. There, he led full-scale AI implementation for Wealth Management &amp; Advisory. At GUILD, he turns the messy reality of defense manufacturing, supplier coordination, pricing and execution into operating requirements our system can handle.\n\n**THE ASK**\n\nWe’d love intros to defense companies that need better access to procurement, people with government or program connections, and teams dealing with supply-chain pain around technical packages, suppliers, compliance, packaging, or delivery.\n\nWe’re especially interested in meeting defense hardware companies, aerospace manufacturers, primes, and manufacturers with end-to-end automation capability - the kind of partners where GUILD can integrate directly into the factory operating layer, not just send PDFs back and forth.\n\nEmail us at [founders@guildai.co](mailto:founder@guildai.co) or visit <https://guildai.co>.\n\n\\-  Kaya + Erim 🧿",
+      "url": "https://www.ycombinator.com/launches/SXz-guild-new-generation-of-defense-contractor",
+      "votes": 23,
+      "created_at": "2026-08-08T17:00:00.905Z"
+    }
+  ]
+}

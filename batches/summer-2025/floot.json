@@ -1,0 +1,127 @@
+{
+  "id": 30729,
+  "name": "Floot",
+  "slug": "floot",
+  "former_names": [
+    "Combini"
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/1f34cf0cf02c3e2059e48082daf0ddc693722515.png",
+  "website": "https://floot.com",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "Floot is the layer where vibecoded software runs.\r\n\r\nSaaS is dead. Hundreds of millions of people already spend their day in Claude or ChatGPT - and increasingly, when they need an app, they won't buy one. They'll describe it, and it will exist.\r\n\r\nWe're building the infrastructure that makes that real. When Claude creates an app, it needs somewhere for that app to live: a backend, a database, hosting, a domain, the ability to scale, various services, maybe even to be able to work as a mobile app. Floot is that place - a full stack purpose-built for AI to operate, from a specialized framework that defines how AI writes and runs code, down to scalable hosting on AWS.\r\n\r\nThis means you can now build and ship real apps directly inside Claude and ChatGPT. Connect Floot, and the model you already pay for writes and debugs the code, shows a live preview, and publishes to your own domain. No need to wire up git, vercel, supabase and a dozen other providers. And no AI credits - every message runs on the subscription you already have, because we charge for the platform, not for a token markup.\r\n\r\nWe built Floot this way because we've watched the model layer commoditize - every serious builder writes good code now, including us. The lasting value isn't another agent between you and the model. It's the layer underneath, from wherever people already are. We're building Floot to be the home for all operation software, for the decades where most new software on earth is written by AI.\r\n\r\n✨ Try it: floot.com\r\n",
+  "one_liner": "The app platform inside Claude and ChatGPT.",
+  "team_size": 4,
+  "industry": "B2B",
+  "subindustry": "B2B -> Engineering, Product and Design",
+  "launched_at": 1753721322,
+  "tags": [
+    "Artificial Intelligence",
+    "SaaS",
+    "No-code",
+    "Web Development"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": true,
+  "nonprofit": false,
+  "batch": "Summer 2025",
+  "status": "Active",
+  "industries": [
+    "B2B",
+    "Engineering, Product and Design"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/floot",
+  "api": "https://devasheeshg.github.io/yc-api/batches/summer-2025/floot.json",
+  "year_founded": 2025,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/floothq/",
+  "x_url": "https://x.com/floothq",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/1f34cf0cf02c3e2059e48082daf0ddc693722515.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Brad Flora",
+    "url": "https://www.ycombinator.com/people/brad-flora"
+  },
+  "founders": [
+    {
+      "user_id": 2071169,
+      "full_name": "Yujian Yao",
+      "title": "Founder/CEO",
+      "founder_bio": "Yujian was a staff engineer at Retool where he rebuilt the entire Retool runtime powering every Retool app. Before that, he was an early engineer at Asana. He’s also a gold medalist in National Olympiad Informatics, Singapore.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/yjyao/",
+      "x_url": "https://x.com/yyjhao",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/8e0d4160a3651f09be412d301746a264197e4261.jpg"
+    }
+  ],
+  "jobs": [
+    {
+      "id": 82610,
+      "title": "Founding Full-Stack Engineer",
+      "url": "https://www.ycombinator.com/companies/floot/jobs/2rbWibL-founding-full-stack-engineer",
+      "location": "San Francisco, CA, US",
+      "type": "Full-time",
+      "role": "Engineering",
+      "role_type": "Full stack",
+      "salary_range": "$150K - $220K",
+      "equity_range": "0.25% - 2.00%",
+      "experience": "3+ years",
+      "visa": "US citizen/visa only",
+      "skills": [
+        "Node.js",
+        "React",
+        "TypeScript"
+      ]
+    },
+    {
+      "id": 82612,
+      "title": "Founding Growth Marketer",
+      "url": "https://www.ycombinator.com/companies/floot/jobs/gyHYJjj-founding-growth-marketer",
+      "location": "San Francisco, CA, US",
+      "type": "Full-time",
+      "role": "Marketing",
+      "role_type": null,
+      "salary_range": "$100K - $180K",
+      "equity_range": "0.10% - 1.00%",
+      "experience": "3+ years",
+      "visa": "US citizen/visa only",
+      "skills": []
+    }
+  ],
+  "news": [],
+  "launches": [
+    {
+      "id": 112249,
+      "title": "Floot - build and run your app with ChatGPT and Claude. No AI credits needed.",
+      "tagline": "Floot gives your agent a place to write, test, and ship code - you never touch git, local files, or a thousand vendor accounts.",
+      "body": "ChatGPT and Claude can already write you an app. Getting it live is another story.\\\n\\\n<https://www.youtube.com/watch?v=cFmZPUVfKCY>\n\nConnect Floot, and your AI becomes a full-stack app builder. You don’t get limited to your computer - the AI agent can use Floot on the web, in the desktop apps, or from your phone. The model you already pay for writes and debugs the code, shows you a live preview, and publishes to your own domain. No git, Vercel, Supabase, Resend, or OneSignal to set up - a stack of tools that was never built for you anyway.\n\n![uploaded image](/media/?type=post&id=112249&key=user_uploads/2071169/fcf08d3d-384b-4da1-bb8c-b342dbb8c478)\n\nAnd the part we're most excited about: Floot doesn't charge you AI credits.\n\nEvery message, every change, every random question uses the Claude or ChatGPT subscription you already have. No settling for a lesser model to make the credits last. Explore freely - test every idea, ask every question.\n\nTakes a minute to connect. Free to start → [**floot.com**](http://floot.com)",
+      "url": "https://www.ycombinator.com/launches/TCT-floot-build-and-run-your-app-with-chatgpt-and-claude-no-ai-credits-needed",
+      "votes": 21,
+      "created_at": "2026-08-25T23:52:27.371Z"
+    },
+    {
+      "id": 92516,
+      "title": "Floot - The easiest and most powerful AI app builder",
+      "tagline": "The fastest way for non-coders & entrepreneurs to build apps that actually work.",
+      "body": "Hi everyone 👋 We’re Edward and Yujian, the founders of Floot!\n\n**TLDR:** Floot lets non-coders &amp; entrepreneurs build real web apps that actually work. We’re taking a new approach by building everything from the ground up for AI.\n\n✨ [Try building an app right now!](https://floot.com)\n\n# The Problem\n\nExisting AI app builders fall short of enabling non-coders to build real, serious apps. They often:\n\n* **Break down** when building anything more than a prototype or toy app\n* **Have non-coders stuck** with errors they don’t understand\n* **Require non-coders to handle multiple services** designed for developers (e.g. for backend, database, hosting, etc)\n\n**The fundamental problem**: these AI app builders just cobble together existing developer tools and slap AI on top, but these tools were designed for humans and not for AI.\n\nThe result? Non-coders get excited, start building, hit a wall, and then abandon their projects.\n\n# Our Solution\n\nFloot is purpose-built for AI. Our secret sauce:\n\n1. Instead of reusing a coding framework designed for humans, **we created a specialized framework** that dictates how AI should write code and how the code runs on our infrastructure. This allows us to enforce best practices, detect errors earlier, and give the best feedback to the AI. As a result, Floot can write better code and fix issues more effectively.\n2. **Floot has the entire tech stack built-in** (backend, database, hosting, etc) so building and managing an app feels seamless, especially for non-coders. And because we control every layer of the stack, we can optimize each layer for AI-first coding.\n\nBecause of this, **non-coders can get more done with less time** and prompting. They can finally **build serious apps** that work, instead of getting stuck in frustrating error loops and then abandoning their projects.\n\nWe also built a **highly scalable hosting system** directly on AWS so Floot apps can handle real traffic and business demands. This means non-coders can build, deploy, and scale their apps on a single platform seamlessly.\n\nPlus, **Floot is really fun to use**! It takes your prompt, breaks it down, and shows you how it accomplishes each step. If it sees a bug while building, it lets you know and fixes it right away.\n\nYou can even draw on your app to visually communicate the changes you want:\n\n![uploaded image](/media/?type=post&id=92516&key=user_uploads/2071169/b6bd69f7-9f86-4db9-929e-4ad3ab66b129)\n\n**Here’s what a customer said about Floot:**\n\n_I'd tried other platforms but could never advance far enough to feel truly productive. The time investment and constant token usage just to fix issues had me ready to hire a developer again. With Floot, I had a working app within a week, even working in my off-hours, and started beta testing with my team days later. We estimate Floot has saved us around $20,000 so far. Best of all, their customer support has gone above and beyond at every turn._\n\n✨ [Try Floot yourself!](https://floot.com) (bonus: build something you’ve made in other tools to compare)\n\n# Why are we building this?\n\nWe believe that existing tools are based on technologies built for human developers and ill-suited for the future of AI writing most of the code. The whole toolchain of building and maintaining software desperately needs to adapt to the new reality. We are starting with web apps with the goal of evolving into the new foundation of software, empowering the next generation of builders.\n\n# Team\n\n[Yujian](https://www.linkedin.com/in/yjyao/) was a staff software engineer at Retool and Asana. At Retool, he rebuilt the entire runtime to optimize the user experience for builders. At Asana, he built the rich editor that powers every task and comment. Yujian ranked 4th in the National Olympiad in Informatics, Singapore.\n\n[Edward](https://www.linkedin.com/in/edwlk/) scaled his SaaS to 10k+ customers by taking something technically complex and making it accessible to non-technical users, and now he’s doing the same with Floot. For his SaaS, he built a highly scalable and reliable distributed system to handle low-latency applications. Before that, Edward built infrastructure at AWS and studied CS at Berkeley.\n\n# Our ask\n\n✨ [Try building an app in minutes on Floot!](https://floot.com)\n\nWe’d love your feedback (even nitpicks!) - reach us at [founders@floot.com](mailto:founders@floot.com)\n\nKnow someone who needs to build an app? Have them try Floot :)\n\n![uploaded image](/media/?type=post&id=92516&key=user_uploads/2071169/d62a49f0-5907-44fa-8ff3-f9c374f1e8b0)\n\n",
+      "url": "https://www.ycombinator.com/launches/O4C-floot-the-easiest-and-most-powerful-ai-app-builder",
+      "votes": 63,
+      "created_at": "2025-07-28T18:39:02.551Z"
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "id": 30117,
+  "name": "Relvy AI",
+  "slug": "relvy-ai",
+  "former_names": [],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/2aa06b2c04632ad68c2151cc3aac66c942a0119b.png",
+  "website": "https://www.relvy.ai",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "Relvy provides AI-powered debugging notebooks that help software engineers investigate and resolve incidents faster. It finds the root cause in over 70% of alerts automatically, and when it doesn’t, engineers can easily guide or correct the investigation - saving valuable time across the team.",
+  "one_liner": "AI powered debugging notebooks for incident response",
+  "team_size": 3,
+  "industry": "B2B",
+  "subindustry": "B2B -> Engineering, Product and Design",
+  "launched_at": 1729032291,
+  "tags": [
+    "Developer Tools",
+    "SaaS",
+    "B2B",
+    "DevOps",
+    "AI"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Fall 2024",
+  "status": "Active",
+  "industries": [
+    "B2B",
+    "Engineering, Product and Design"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/relvy-ai",
+  "api": "https://devasheeshg.github.io/yc-api/batches/fall-2024/relvy-ai.json",
+  "year_founded": 2024,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/relvyai",
+  "x_url": "",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/2aa06b2c04632ad68c2151cc3aac66c942a0119b.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Garry Tan",
+    "url": "https://www.ycombinator.com/people/garry-tan"
+  },
+  "founders": [
+    {
+      "user_id": 1381863,
+      "full_name": "Bharath Bhat",
+      "title": "Founder/CEO",
+      "founder_bio": "Co-founder, CEO at Relvy AI. I enjoy building delightful AI powered software. Previously worked on efficient computer vision/language models for Google Pixel, YouTube and Uber.",
+      "is_active": true,
+      "linkedin_url": "https://linkedin.com/in/bharathpbhat",
+      "x_url": "https://twitter.com/bharathpbhat",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/2b7c35bb16ab8a02875c2a470ec4c66504134842.jpg"
+    },
+    {
+      "user_id": 1410020,
+      "full_name": "Simranjit Singh",
+      "title": "Founder/CTO",
+      "founder_bio": "Co-founder and CTO at Relvy. Previously I worked at Microsoft and Amazon on researching and developing SOTA Computer Vision models. I also Co-Founded Vetan, a payroll app that was used by over 30k SMBs. Prior to that I developed distributed systems at Nutanix.",
+      "is_active": true,
+      "linkedin_url": "https://linkedin.com/in/simranjit2112",
+      "x_url": "https://x.com/simsingh2112",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/fc723953d8d3041697848249dc33254bdb1ddd5e.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 85574,
+      "title": "Relvy: AI that discovers and debugs production issues",
+      "tagline": "Relvy looks at application logs and metrics to detect and debug issues, so engineers don’t have to.",
+      "body": "Hi, we are Bharath Bhat and Simranjit Singh. We are building Relvy AI.\n\n### ❗ The problem\n\n* Companies spend $35B annually paying engineers to be on-call, and yet continue to suffer from $$$$ outages.\n* Monitoring production software is hard.\n* Engineering teams are always playing catch up - either flying blind with no alerts, or drowning in alert noise.\n\n \n\n### ⭐ Introducing Relvy\n\nWith Relvy, you can just say “**Hey Relvy, monitor my logs for me**”. Relvy connects to your observability stack to detect and debug any issues that show up. It takes less than 5 minutes to set up Relvy to monitor your logs and get actionable alerts WITH a root cause analysis.\n\n[Demo Video](https://www.youtube.com/watch?v=j_8wLDFMGNM)\n\n### ⚙️ How it works\n\n* You connect Relvy to your observability tools and provide a set of log queries that you’d want to monitor\n* Relvy queries and process logs 24x7 to detect issues. No need to define log based metrics and create alerts manually.\n* Relvy then debugs these issues to provide an actionable root cause analysis. This includes querying and analyzing other metrics to provide context, and finding responsible code changes from your recent commits.\n* Already have alerts on your on-call slack channel? Relvy can debug these as well, and respond to follow-up queries.\n\n### 🚀 Our tech\n\n* We ship with a small language model that’s optimized for debugging. It is as good as gpt-4o on our eval benchmarks while being 1/100th the cost. The core unlock that enables us to offer continuous monitoring.\n* We lean on your previous incident response history to help optimize our agent. Helps us denoise alerts, figure out useful queries to run while debugging, and pattern match logs faster.\n\n### 📝 Our story\n\nSimranjit and I are both ML engineers. We met a few years ago when we were building computer vision models for satellite imagery at a startup called Orbital Insight. Together, we have built and supported ML products at Google, Uber, Microsoft and Amazon. \n\nRelvy came out of our efforts to automate the not-so-fun parts of our jobs as software engineers. Believe it or not, our first product was something that recorded your screen as you were coding, and tried to come up with bug fix suggestions for any error messages that popped up on screen. Thankfully, Relvy is less intrusive, more accurate, and fits into your existing on-call workflows.\n\n### ➡️ Ask\n\nI bet you’d like AI to take monitoring off your plate. Try us out at <https://www.relvy.ai> or book time with us at <https://calendly.com/bbhat-relvy/15min>\n\n![uploaded image](/media/?type=post&id=85574&key=user_uploads/1381863/8a25e559-845a-4b23-90dd-6fadde0fbdb8)\n\n",
+      "url": "https://www.ycombinator.com/launches/MGE-relvy-ai-that-discovers-and-debugs-production-issues",
+      "votes": 80,
+      "created_at": "2024-11-15T04:27:49.553Z"
+    }
+  ]
+}

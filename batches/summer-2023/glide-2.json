@@ -1,0 +1,100 @@
+{
+  "id": 29123,
+  "name": "Glide",
+  "slug": "glide-2",
+  "former_names": [
+    "WalletKit"
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/d1c76d50e7b1ba3c361d312f4e312c3e5f8f54b3.png",
+  "website": "https://buildwithglide.com",
+  "all_locations": "New York City, NY, USA; Remote",
+  "long_description": "Glide lets apps accept crypto deposits from any chain, wallet, or exchange using pre-built wallet funding flows. Users can fund wallets directly — no bridges, no swaps, no repeated KYC.",
+  "one_liner": "Crypto Deposits, Wallet Funding, and Pay-with-crypto Infra",
+  "team_size": 4,
+  "industry": "B2B",
+  "subindustry": "B2B -> Infrastructure",
+  "launched_at": 1689702823,
+  "tags": [
+    "Developer Tools",
+    "Crypto / Web3",
+    "B2B",
+    "API",
+    "Infrastructure"
+  ],
+  "tags_highlighted": [
+    "Crypto / Web3"
+  ],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Summer 2023",
+  "status": "Acquired",
+  "industries": [
+    "B2B",
+    "Infrastructure"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada",
+    "Remote",
+    "Fully Remote"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/glide-2",
+  "api": "https://devasheeshg.github.io/yc-api/batches/summer-2023/glide-2.json",
+  "year_founded": 2023,
+  "city": "New York City",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/paywithglide",
+  "x_url": "https://twitter.com/tusharsoni1205",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": "https://github.com/usewalletkit",
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/d1c76d50e7b1ba3c361d312f4e312c3e5f8f54b3.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Harj Taggar",
+    "url": "https://www.ycombinator.com/people/harj-taggar"
+  },
+  "founders": [
+    {
+      "user_id": 139706,
+      "full_name": "Tushar Soni",
+      "title": "Founder",
+      "founder_bio": "Co-founder, CEO @ Glide (buildwithglide.com)\n\nPrior to starting Glide, I was a tech lead at Robinhood Crypto building the Robinhood Wallet app. Previously, I worked on large-scale consumer apps such as Uber Eats, Apple Music, and App Store.\n\nI also created and maintain Copper (https://gocopper.dev) - a fullstack toolkit to build web apps in Go.",
+      "is_active": true,
+      "linkedin_url": "https://linkedin.com/in/tusharsoni",
+      "x_url": "https://twitter.com/tusharsoni1205",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/4eaba884107d19c2cd6d94abab93483bc503a360.jpg"
+    },
+    {
+      "user_id": 1440060,
+      "full_name": "Qinyu Tong",
+      "title": "Founder",
+      "founder_bio": "I'm the co-founder at WalletKit building the best developer platform for web3 consumer app developers. Prior WalletKit, I was at Robinhood Crypto building the Robinhood Wallet. Previously, I worked at LinkedIn on enterprise infra such as Ads API, AI Infra. ",
+      "is_active": true,
+      "linkedin_url": "https://linkedin.com/in/tongqinyu",
+      "x_url": "https://twitter.com/qtofrivia",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/111d623f397ce92074da29e898a8e59f7e8bd78f.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 73221,
+      "title": "WalletKit — Developer platform for building consumer-friendly web3 apps",
+      "tagline": "Build web3 apps with wallets, tokens, and NFTs using simple HTTP APIs",
+      "body": "**_⏳ TLDR;_** WalletKit is a developer platform, that helps you build decentralized apps without any crypto knowledge. It is best used for building user-friendly consumer apps aimed at mass adoption. Come talk to us if you’re building in this space or if you’re curious about adding decentralized features to your product.\n\nHey everyone! This is [**@Tushar Soni**](https://bookface.ycombinator.com/user/139706) and [**@Qinyu Tong**](https://bookface.ycombinator.com/user/1440060) from [**@WalletKit**](https://bookface.ycombinator.com/company/29123), and we are super excited to tell you what we’ve been working on.\n\n![uploaded image](/media/?type=post&id=73221&key=user_uploads/139706/1b7b6d81-ebee-42dd-a5bf-c926342dc9d6)\n\n---\n\n### **🤔 Problem**\n\nCrypto has gone through several ups and downs in its decade-long history. However, we have yet to build meaningful use cases outside of trading. There are a few reasons that are slowing us down:\n\n1. **Low Adoption**: People find crypto products hard to use, confusing, risky, or scammy. We believe this is because it is incredibly difficult to build trusted brands and high-quality user experiences that everyone has come to expect from the products they use.\n2. **High Complexity**: Blockchain is a collection of really complicated technology and building consumer products directly on top of it will take a lot of expertise and a long time.\\\n   Imagine trying to build a Rewards & Loyalty Program - you have to pick a chain, work with smart contracts, figure out how users will manage their wallets, handle transactions, reorgs, gas management, and so much more. You have to do this while making sure everything is done securely so you and your users don’t lose their digital assets.\n3. **Developer Tooling**: The popular developer platforms are too low-level. They are usually a mirror of Blockchain Node APIs aimed at node operations, not building consumer apps.\n\nOur goal is to elevate the developer experience for building decentralized consumer apps and enable builders to focus on their use case, not blockchain infrastructure.\n\n---\n\n### **🔧 Solution**\n\nWe are rethinking how to build decentralized apps by providing engineers with simple high-level abstractions to create amazing products.\n\nWalletKit wraps popular blockchain building blocks into easy-to-use HTTP APIs. Today, we support building with wallets, tokens, and NFTs.\n\n![uploaded image](/media/?type=post&id=73221&key=user_uploads/139706/77b906df-a7b3-4387-ad5f-43630e739bdf)\n\nWe took it a step further with WalletKit Dashboard - a digital asset management tool for your app-related digital assets. Use WalletKit Dashboard to create wallets, tokens, mint NFTs, make transfers, and interact with user wallets.\n\n![uploaded image](/media/?type=post&id=73221&key=user_uploads/139706/feafd2f1-3d58-493f-bc5e-3ee76bf2f14e)\n\n---\n\n### **👽 Founders**\n\nQinyu and I met at Robinhood, where we led the Web3 team responsible for building Robinhood Wallet. We experienced firsthand the lack of tools and infrastructure needed to build a consumer-friendly product.\n\nIt became clear to us that this gap in infrastructure is holding back the entire community from creating amazing products that have a chance at mass adoption. It acts as a barrier for founders to build decentralized products. WalletKit aims to remove this barrier entirely.\n\n---\n\n### **🤝 Ask & Deal**\n\nConnect us with founders/builders who are building decentralized apps or want to add decentralized features! Feel free to send an intro email to [**tushar@usewalletkit.com**](mailto:tushar@usewalletkit.com). We would love to help out.\n\nFor all YC companies and connections that come through the YC network, we offer a white-glove service and discounted rates :)",
+      "url": "https://www.ycombinator.com/launches/J2z-walletkit-developer-platform-for-building-consumer-friendly-web3-apps",
+      "votes": 31,
+      "created_at": "2023-07-19T15:30:20.915Z"
+    }
+  ]
+}

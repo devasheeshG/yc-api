@@ -1,0 +1,96 @@
+{
+  "id": 27836,
+  "name": "LinkGrep",
+  "slug": "linkgrep",
+  "former_names": [
+    "Reactline",
+    "Warlin"
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/36b1df36488e8c11a87320ccb0a8a66e9313c5bd.png",
+  "website": "https://linkgrep.com",
+  "all_locations": "Jacksonville, FL, USA; New York, NY, USA; Remote",
+  "long_description": "Modern teams work in the browser. But browsers weren't built for teams 😔. \r\n\r\nThis leads to a bunch of problems like:\r\n- Knowledge/info that is hard to find (links that get lost, documentation that gets, buried, silos, etc)\r\n- Poor collaboration\r\n- Inefficient workflows\r\n\r\nLinkGrep is an AI browser copilot that solves those problems by making your browser team friendly.\r\n\r\nSpecifically we help teams:\r\n1. 🔗 Keep track of links, documents, and more automatically. With LinkGrep you'll never have to manually add or save a link.\r\n2. 🔍 Find information that matters. LinkGrep connects with your existing tools like Notion and Slack and will automatically suggest relevant information to you as your browse (we have semantic search that you can fallback on). Demo: https://youtu.be/jwcPGDRy4oQ\r\n3. 👥 Collaborate better. LinkGrep lets you leave notes and comments directly on web pages — you won't ever have to copy paste a link into Slack ever again. \r\n4. 🤖 Automate team actions like opening up the right links before a meeting. Never disrupt a meeting to send a link again. Demo: https://youtu.be/an3VKpAWft0",
+  "one_liner": "AI browser copilot for teams",
+  "team_size": 2,
+  "industry": "B2B",
+  "subindustry": "B2B -> Productivity",
+  "launched_at": 1680284283,
+  "tags": [
+    "B2B",
+    "Productivity",
+    "Collaboration",
+    "Remote Work",
+    "AI Assistant"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Winter 2023",
+  "status": "Active",
+  "industries": [
+    "B2B",
+    "Productivity"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada",
+    "Remote",
+    "Fully Remote"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/linkgrep",
+  "api": "https://devasheeshg.github.io/yc-api/batches/winter-2023/linkgrep.json",
+  "year_founded": 2023,
+  "city": "Jacksonville",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/linkgrep/",
+  "x_url": "https://twitter.com/linkgrep",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": "https://github.com/LinkGrep",
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/36b1df36488e8c11a87320ccb0a8a66e9313c5bd.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": null,
+  "founders": [
+    {
+      "user_id": 6421,
+      "full_name": "Divyagnan Kandala",
+      "title": "Founder",
+      "founder_bio": "Love working on developer & productivity tools. Previously was a frontend engineer at Stripe, Uber, and Amazon.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/divyagnan",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/36ec3c59c903c0eac1b2db7bd13e0bf428ac770b.jpg"
+    },
+    {
+      "user_id": 478521,
+      "full_name": "TJ Kandala",
+      "title": "Founder",
+      "founder_bio": "Dev and productivity tool builder. Previously was a software engineer at Sourcegraph where I worked on a bunch of extensions (VS Code, Browser, and the Sourcegraph extensions platform).",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/tjkandala/",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/8f6175c1a9b9996918e59150e5b808e86bbd309c.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 70677,
+      "title": "LinkGrep: AI browser copilot for teams",
+      "tagline": "LinkGrep helps teams keep track of things and collaborate directly within the browser. ",
+      "body": "**TL;DR:** LinkGrep is a browser extension that automatically keeps track of your links, suggests helpful information from your tools (like Slack & Notion) while you browse, opens links for you before meetings, and offers collaboration tools that are built directly into the browser.\n\nInterested? Reach out to us at [founders@linkgrep.com](mailto:founders@linkgrep.com) or book some time with us using <https://cal.com/linkgrep>\n\n![uploaded image](/media/?type=post&id=70677&key=user_uploads/6421/abb769f8-6421-42d5-bbac-beda81559866)\n\n👋🏽 Hi YC, we are [Divyagnan](https://www.linkedin.com/in/divyagnan/) and [TJ](https://www.linkedin.com/in/tjkandala/) and we are excited to share LinkGrep — an AI browser copilot for teams!\n\n# **What does LinkGrep do?**\n\n### **🔗 Automatically keeps track of all of your teams links**\n\n![uploaded image](/media/?type=post&id=70677&key=user_uploads/6421/29f93fd5-7b6a-4a72-b26f-028ca3a1b595)\n\nLinkGrep automatically keeps track of all of your links and ranks them by viewership across your team. This allows you to easily stay on top of every important document. LinkGrep also provides a command palette that is available on every site to help you navigate the browser more quickly.\n\n### **✨ Suggests information from your knowledge bases while you browse**\n\n<https://youtu.be/jwcPGDRy4oQ>\n\nLinkGrep can automatically connect the dots for you and will display related information from your browser history + team knowledge bases (like Slack & Notion) while you browse. LinkGrep also offers traditional semantic search if you ever want to manually search for things too.\n\n### **🤖 Opens up the right links before your meetings**\n\n<https://youtu.be/an3VKpAWft0>\n\nLinkGrep can figure out what links and tabs you need before your meeting and automatically opens them up for you. Everyone on your team will be on the same page when a meeting starts.\n\n### **👥 Makes collaboration easier through contextual notes on webpages**\n\n![uploaded image](/media/?type=post&id=70677&key=user_uploads/6421/e2ad9827-f5fe-432e-990c-38914347924f)\n\nCollaborate directly from webpages. Leave notes, tag teammates, and more. You will no longer need to context switch to other apps or copy paste links to collaborate.\n\n# **Our Ask:**\n\nWant to use LinkGrep for your team? Know a team that would benefit from LinkGrep? Want to invest?\n\nDrop us a line at [founders@linkgrep.com](mailto:founders@linkgrep.com) or schedule a call with us using <https://cal.com/linkgrep>",
+      "url": "https://www.ycombinator.com/launches/INx-linkgrep-ai-browser-copilot-for-teams",
+      "votes": 65,
+      "created_at": "2023-03-31T17:28:34.684Z"
+    }
+  ]
+}

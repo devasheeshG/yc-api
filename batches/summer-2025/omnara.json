@@ -1,0 +1,114 @@
+{
+  "id": 30722,
+  "name": "Omnara",
+  "slug": "omnara",
+  "former_names": [
+    "GroundDocs"
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/fd794dace414f8acdb113022db360874e7706519.png",
+  "website": "https://omnara.com",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "Omnara is an open-source, model-agnostic control plane for managed agents. One API to deploy, run, and control them. Self-host it, or use our managed cloud.\r\n",
+  "one_liner": "The Open-Source Alternative to Claude Managed Agents",
+  "team_size": 4,
+  "industry": "B2B",
+  "subindustry": "B2B -> Engineering, Product and Design",
+  "launched_at": 1753676392,
+  "tags": [
+    "Artificial Intelligence",
+    "Developer Tools",
+    "AI Assistant"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Summer 2025",
+  "status": "Active",
+  "industries": [
+    "B2B",
+    "Engineering, Product and Design"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/omnara",
+  "api": "https://devasheeshg.github.io/yc-api/batches/summer-2025/omnara.json",
+  "year_founded": 2025,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/omnara",
+  "x_url": "https://x.com/omnaraai",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": "https://github.com/omnara-ai/omnara",
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/fd794dace414f8acdb113022db360874e7706519.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [
+    "https://bookface-images.s3.us-west-2.amazonaws.com/attachments/a602030d6dff9a0bbcb00a3cc7334a04a38542cb.png"
+  ],
+  "primary_partner": {
+    "name": "Harj Taggar",
+    "url": "https://www.ycombinator.com/people/harj-taggar"
+  },
+  "founders": [
+    {
+      "user_id": 1391601,
+      "full_name": "Ishaan Sehgal",
+      "title": "Founder/CEO",
+      "founder_bio": "Building omnara.com, the command center for AI agents! Previously I was an AI infra engineer at Microsoft, where I built and led Kaito (https://github.com/kaito-project/kaito/graphs/contributors). Before that, I worked on ML at Windsor (YC W19, acquired 2024) and interned at Roblox. I hold a BS/MCS in CS from UIUC.\n",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/ishaan-sehgal/",
+      "x_url": "https://x.com/IshSup",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/0f702aad21a666e365673f7c3eaa8c993047de42.jpg"
+    },
+    {
+      "user_id": 2661368,
+      "full_name": "Kartik Sarangmath",
+      "title": "Founder/CTO",
+      "founder_bio": "Commanding my fleet of AI agents at omnara.com. \nPreviously at ThirdAI, optimizing neural networks for CPU deployment. Completed BS and MS in Computer Science at Georgia Tech focusing on computer vision research, publishing 3 papers and training large multimodal models at Meta AI.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/kartiksarangmath/",
+      "x_url": "https://x.com/kartiksmath",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/3f0f734f148a9e0481b772518abcd7959193178a.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 112080,
+      "title": "Omnara: The API for Production-Ready agents",
+      "tagline": "Open-source alternative to claude managed agents",
+      "body": "Omnara is an open-source platform for creating and interacting with production-ready agents via an API, without having to worry about the tedious parts of managing an agent control plane. It’s an open-source alternative to Claude Managed Agents, Langchain Managed Agents, Vercel Eve, etc.\n\n## **Problem:**\n\n---\n\nBuilding agents is hard. Many companies are building agent control planes, both for internal use and external use. The common pattern is you use some local agent framework, like claude agent sdk, mastra, langchain, or your own loop, host that on VMs/kubernetes/workers, expose an API with endpoints to interact with agents, handle machine failures, resumption of an agent, provisioning sandbox environments so those agents can code, configure endpoints to add skills and MCPs, have user message tracking, audit logs, and on and on.\n\nIt’s a lot of infrastructure work that has nothing to do with what the agent actually does. And most teams end up having to build and maintain their own versions of it.\n\nOmnara is that layer. It provides this infrastructure for you. So you can create and interact with your agents through a standard API without having to worry about building and maintaining your own control plane.\n\n![uploaded image](/media/?type=post&id=112080&key=user_uploads/1391601/7b5a0575-9a32-4af8-966f-9b6370e74edc)\n\n## **Bring your own computer:**\n\nRun this on any linux or macOS machine (windows coming soon): \\\n**curl -fsSL https://app.omnara.com/install/omnarad.sh | sh**\\\nIt connects the machine to the Omnara control plane. You can then give any agent access to this machine. This allows you to spin up an EC2 instance and have your agents use that as a persistent machine, or even run it on your macbook so that cloud agents can directly edit files locally when it’s online. You can also bring your own sandbox provider API keys (currently we support Blaxel, Daytona, and Unikraft).\n\n![uploaded image](/media/?type=post&id=112080&key=user_uploads/1391601/55bd57b2-62f9-414e-8acc-405797264d3a)\n\n## **Bring your own model:**\n\nOmnara allows you to bring your own LLM endpoint and API key (we support OpenAI Responses, OpenAI Completions, and Anthropic Messages formats, with more coming soon). You can use your hundreds of thousands of free LLM credits from YC in Omnara!\n\n![uploaded image](/media/?type=post&id=112080&key=user_uploads/1391601/12802420-8c49-4609-bd5c-9b7df94954f6)\n\n---\n\nBecause you can bring your own machine and models, you can use Omnara for completely free! Our architecture allows us to efficiently host hundreds of millions of agents on minimal hardware, so we can easily eat that cost.\n\nIf you prefer our hosted models (via openrouter) and hosted sandboxes (via blaxel), we're giving $1,000 in credits to the first 50 teams building on Omnara. Email us at [**contact@omnara.com**](mailto:contact@omnara.com) with what you're building and we’ll apply the credits to your organization.\n\nIf you want help self-hosting the control plane or running it in your VPC/on-prem, we’re taking on five design partners. Email [**ishaan@omnara.com**](mailto:ishaan@omnara.com).\n\nWebsite: [**omnara.com**](http://omnara.com) \\\nApp: [**app.omnara.com**](http://app.omnara.com) \\\nDocs: [**docs.omnara.com**](http://docs.omnara.com) \\\nSource: [**github.com/omnara-ai/omnara**](http://github.com/omnara-ai/omnara)",
+      "url": "https://www.ycombinator.com/launches/T9k-omnara-the-api-for-production-ready-agents",
+      "votes": 10,
+      "created_at": "2026-08-24T18:26:24.991Z"
+    },
+    {
+      "id": 97081,
+      "title": "Omnara: Run Claude Code from Anywhere 🤖",
+      "tagline": "Stay involved with your coding agents without being at your desk",
+      "body": "We’re Ishaan and Kartik, and we’re building **Omnara**, a web and mobile interface for Claude Code that lets you keep coding agents moving even when you’re away from your desk.\n\n🎥 Demo:[ https://x.com/i/status/2014383431845839186](https://x.com/i/status/2014383431845839186)\n\n## **❌ The Problem**\n\nCoding agents can work independently for long stretches, but they still block on human input.\n\nIf an agent needs clarification while you’re away, everything pauses.\\\nIf your laptop sleeps, long-running work stops.\\\nMost remote agent tools run in hosted environments instead of where your code actually lives.\n\nAgents should fit around your schedule, not the other way around.\n\n## **🛠️ The Solution**\n\n**Omnara makes working with coding agents feel continuous instead of fragile.**\n\nYou can:\n\n* Start agents locally and stay involved from anywhere using web or mobile\n* Keep work moving even if your laptop goes offline\n* Talk to agents using voice when typing isn’t convenient\n\n## **🔒 Run agents in your environment, access them from anywhere**\n\nWith Omnara, your coding agent runs on your own machine, whether that’s your laptop or a remote VM you control.\n\nYou can access and interact with that agent from anywhere, securely, without SSH, port forwarding, or tunneling.\n\nYour agent runs in your real environment, but you’re not tied to the machine it’s running on.\n\n![uploaded image](/media/?type=post&id=97081&key=user_uploads/2661368/81388baf-658a-4c43-94ac-1ce4e17a1605)\n\n## **☁️ Keep agents running when your machine is off**\n\nAgents shouldn’t stop just because your laptop does.\n\nIf your machine goes offline, Omnara can keep the agent running in the cloud so work continues. You can still interact from web or mobile, and when you’re back at your desk, you can pick up where things left off.\n\n![uploaded image](/media/?type=post&id=97081&key=user_uploads/2661368/098a8bf1-046d-4362-86b2-63d984e999dd)\n\n## **🎙️ Talk to your coding agent**\n\nMobile typing works for quick replies, but it’s not great for longer back and forth.\n\nOmnara includes voice so you can talk to your coding agent when typing isn’t convenient. Speaking tends to provide more context and makes it easier to iterate, especially while walking or multitasking.\n\n![uploaded image](/media/?type=post&id=97081&key=user_uploads/2661368/829c73b5-6a60-41e8-a9c3-0fa98de80d39)\n\n## **💸 Pricing**\n\n* Free: up to 10 agent sessions per month\n* $20/month: unlimited sessions\n* When agents run in your environment, you can use your existing Claude Pro or Max subscription\n\n## **🙏 Our Ask**\n\nIf you use Claude Code or rely on long-running coding agents, we’d love your feedback.\n\n👉 Try it: [omnara.com](https://www.omnara.com/)\n\n[👉](https://www.omnara.com\\)%F0%9F%91%89) Install in one line:\\\ncurl -fsSL <https://omnara.com/install/install.sh> | bash\n\n👉 Reach us: [founders@omnara.com](mailto:founders@omnara.com)\n\n— Ishaan & Kartik\n\n![uploaded image](/media/?type=post&id=97081&key=user_uploads/2661368/6ef3e27b-3742-4e1a-9d77-1ec8a6c5bc41)\n\n",
+      "url": "https://www.ycombinator.com/launches/PFp-omnara-run-claude-code-from-anywhere",
+      "votes": 17,
+      "created_at": "2026-01-23T20:07:51.104Z"
+    },
+    {
+      "id": 93029,
+      "title": "Omnara - The first command center for AI agents: terminal, web, and mobile",
+      "tagline": "Run Claude Code from anywhere and switch seamlessly between devices",
+      "body": "https://www.loom.com/share/03d30efcf8e44035af03cbfebf840c73\n\nStart Claude Code in the terminal, then pick it up instantly on web or mobile with a seamless handoff between all three\n\n### The Problem\n\nClaude Code is incredible, but it chains you to your desk.\\\nOnce an agent starts working, you’re stuck waiting in the terminal for it to ask you something. That could take 5–10 minutes, and if you’re away, progress halts. We’ve coded from our beds, on walks, in Ubers, while doing laundry… and yes, even on the toilet — but only after we built Omnara.\n\nExisting solutions don’t solve this well:\n\n* **Other Claude Code wrappers** (e.g., Crystal, Conductor) often replace the native experience but don’t let you jump between terminal, web, and mobile.\n* **Terminal replication tools** (e.g., Vibetunnel, Termius) let you SSH in, but have no push notifications, clean diffs, or simple setup.\n\n### What’s Omnara?\n\nOmnara is the **first agent command center** — start an AI agent in the terminal, then continue the same session from our web dashboard or mobile app.\n\nWith Omnara, you can:\n\n* Launch agents from terminal, web, or mobile.\n* Switch between them instantly.\n* Get **real-time push notifications** when agents need your input.\n* Review logs, see Git diffs, and approve/reject changes with one tap.\n\n![uploaded image](/media/?type=post&id=93029&key=user_uploads/1391601/bf61f9ae-4f37-4377-90c8-fc2bed1d0866)\n\n**How it works**\\\nWe built a CLI wrapper that mirrors the native Claude Code experience — output, permissions, notifications, and mode switching — by parsing the session file at _\\~/.claude/projects_ and terminal output in real time. All agent and user messages are streamed via SSE to the Omnara platform, where you can respond from anywhere.\n\nIt’s fully open source: [github.com/omnara-ai/omnara](https://github.com/omnara-ai/omnara)\n\n![uploaded image](/media/?type=post&id=93029&key=user_uploads/1391601/837e9af0-e038-4bb1-9f1c-1ebf152f8157)\n\n### Why launch with Claude Code first?\n\nOmnara works with any AI agent, but Claude Code users immediately “get” the value. It’s the perfect human-in-the-loop use case — and the one we use every day.\n\nWe’ve also used Omnara as a human-in-the-loop node in n8n workflows, e.g., for replying to emails. This is just the beginning.\n\n![uploaded image](/media/?type=post&id=93029&key=user_uploads/1391601/96e585a6-db46-4a20-8901-0ddbc7e409cf)\n\n### Pricing\n\nFree for up to 10 agent sessions/month.\\\n$9/month for unlimited.\n\n### About Us\n\nWe’re **Ishaan & Kartik**, childhood friends since Montessori. We’ve spent years working in AI and AI infra at big tech and acquired startups and love building tools that remove friction for developers.\n\n### Try it free\n\n`pip install omnara && omnara`Then log in at [omnara.com](http://omnara.com) or download our iOS app: [Omnara on the App Store](https://apps.apple.com/us/app/omnara-ai-command-center/id674...)",
+      "url": "https://www.ycombinator.com/launches/OCT-omnara-the-first-command-center-for-ai-agents-terminal-web-and-mobile",
+      "votes": 25,
+      "created_at": "2025-08-15T06:52:33.641Z"
+    }
+  ]
+}

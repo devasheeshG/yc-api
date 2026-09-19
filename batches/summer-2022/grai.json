@@ -1,0 +1,85 @@
+{
+  "id": 27040,
+  "name": "Grai",
+  "slug": "grai",
+  "former_names": [],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/217dbf57c9649c7822bbee101a62b2d34a750a85.png",
+  "website": "https://www.grai.io",
+  "all_locations": "San Francisco, CA, USA; London, England, United Kingdom; St. Louis, MO, USA",
+  "long_description": "Grai is open source version control for metadata. We can determine how database changes will affect deployed machine learning models, apis, and dashboards because we understand how data relates across systems which don’t otherwise talk to each other.",
+  "one_liner": "Open source version control for metadata",
+  "team_size": 3,
+  "industry": "B2B",
+  "subindustry": "B2B -> Infrastructure",
+  "launched_at": 1660014966,
+  "tags": [
+    "Developer Tools",
+    "SaaS",
+    "Analytics",
+    "Open Source",
+    "Data Engineering"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Summer 2022",
+  "status": "Inactive",
+  "industries": [
+    "B2B",
+    "Infrastructure"
+  ],
+  "regions": [
+    "United States of America",
+    "United Kingdom",
+    "America / Canada",
+    "Europe",
+    "Remote",
+    "Partly Remote"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/grai",
+  "api": "https://devasheeshg.github.io/yc-api/batches/summer-2022/grai.json",
+  "year_founded": 2021,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/grai-io/",
+  "x_url": "",
+  "fb_url": null,
+  "cb_url": "https://www.crunchbase.com/organization/grai",
+  "github_url": "https://github.com/grai-io",
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/217dbf57c9649c7822bbee101a62b2d34a750a85.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": null,
+  "founders": [
+    {
+      "user_id": 696649,
+      "full_name": "Ian Eaves",
+      "title": "Founder",
+      "founder_bio": "Ian is a recovering ex-physicist turned machine learning engineer with experience building MLE teams everywhere from startups (Bellhops) to fortune 50 companies (Centene). An active open source contributor he's written software with over 11M downloads (Visions). Grai was born from the pain of working on distributed data particularly within enterprise settings.",
+      "is_active": false,
+      "linkedin_url": "https://www.linkedin.com/in/ieaves/",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/a0e6ffe7f84a454640193fd1395f3940c644a5db.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 65887,
+      "title": "✨ Grai - Open-source version control for metadata",
+      "tagline": "Grai knows how a database migration will impact deployed ML models, APIs, and more because it understands how data relates across systems.",
+      "body": "![uploaded image](/media/?type=post&id=65887&key=user_uploads/696649/b51bcf0a-5353-4db3-b9c4-8836f2ea423a)\n\n**TL;DR Grai makes developers smarter by bringing metadata from across their stack into their development tools. We make testing data flows between applications painless.**\n\nGo to 👉 [grai.io](http://grai.io)\n\n### 😭 **Problem**\n\nTracking (let alone testing) data once it leaves a production environment is challenging. Whether in a data engineers transformation pipeline, an ML model, or the CFO’s metrics dashboard, that data _will_ be used elsewhere. Without visibility on those use cases data changes remain risky and outage prone.\n\n### 🚀 **Solution**\n\nGrai is an open-source data management platform designed to help you better use your data.\n\n* **Automated data lineage** - Pre-built connectors to keep metadata fresh.\n* **Integrated with git** - Changing a column in your DB? Run data integration tests for all downstream users as part of your standard CI/CD process.\n* **One-stop-shop** - A unified model of your entire data stack.\n* **Your data belongs to you** - Grai is open-source & self-hosted with a cloud option coming soon.\n\n### 🎉 **Closing thoughts (and asks!)**\n\nMy ask: give it a shot!\n\n* Browse the [code](https://github.com/grai-io/grai-core)\n* Check out the [demo](https://github.com/grai-io/grai-core/tree/master/examples/quick_start_postgres)\n* Reach out! [ian@grai.io](mailto:ian@grai.io)\n\n\\~ Ian\n\n![uploaded image](/media/?type=post&id=65887&key=user_uploads/696649/7ecc72b3-40f5-4473-ae0f-157159a139eb)\n\n",
+      "url": "https://www.ycombinator.com/launches/H8h-grai-open-source-version-control-for-metadata",
+      "votes": 51,
+      "created_at": "2022-09-07T00:00:00.601Z"
+    }
+  ]
+}

@@ -1,0 +1,125 @@
+{
+  "id": 28868,
+  "name": "Briefer",
+  "slug": "briefer",
+  "former_names": [
+    "Ergomake"
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/1e589854f66150c916444527d7f4aa314d3961ed.png",
+  "website": "https://briefer.cloud",
+  "all_locations": "São Paulo, SP, Brazil; Remote",
+  "long_description": "Briefer helps data scientists and analysts build interactive visualizations and data apps using a Notion-like interface.\r\n\r\nConnect to your data sources, write SQL or Python, collaborate through comments and multiplayer editing, and run code in whichever compute environments you need.",
+  "one_liner": "The collaborative data platform.",
+  "team_size": 2,
+  "industry": "B2B",
+  "subindustry": "B2B -> Engineering, Product and Design",
+  "launched_at": 1687307247,
+  "tags": [
+    "Developer Tools",
+    "B2B",
+    "Data Science",
+    "Data Engineering",
+    "Data Visualization"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Summer 2023",
+  "status": "Inactive",
+  "industries": [
+    "B2B",
+    "Engineering, Product and Design"
+  ],
+  "regions": [
+    "Brazil",
+    "Latin America",
+    "Remote",
+    "Fully Remote"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/briefer",
+  "api": "https://devasheeshg.github.io/yc-api/batches/summer-2023/briefer.json",
+  "year_founded": 2022,
+  "city": "São Paulo",
+  "country": "BR",
+  "linkedin_url": "https://www.linkedin.com/company/briefercloud/",
+  "x_url": "https://twitter.com/briefercloud",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": "https://github.com/briefercloud",
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/1e589854f66150c916444527d7f4aa314d3961ed.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Aaron Epstein",
+    "url": "https://www.ycombinator.com/people/aaron-epstein"
+  },
+  "founders": [
+    {
+      "user_id": 578593,
+      "full_name": "Lucas da Costa",
+      "title": "Founder",
+      "founder_bio": "I'm the founder and CEO at Briefer. Previously, I worked as a senior software engineer at Elastic and led software engineering teams at an early-stage startup in London.\n\nI used to maintain large OSS projects like Chai.js and Sinon.js and contributed to many others, including Jest.\n\nAs an author, I wrote \"Testing JavaScript Applications,\" published by Manning. I've also spoken in more than ten countries, and my content has been voluntarily translated into more than seven languages.",
+      "is_active": false,
+      "linkedin_url": "https://linkedin.com/in/lucasfdacosta",
+      "x_url": "https://twitter.com/thewizardlucas",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/3c67c3654b38517081d8943217dd52f520daa16d.jpg"
+    },
+    {
+      "user_id": 1372900,
+      "full_name": "Lucas Vieira",
+      "title": "Founder",
+      "founder_bio": "Lucas, is a software engineer and open-source enthusiast with a decade of experience, actively contributes to numerous open source projects. He used to maintain Chai.js, a popular JavaScript testing framework with 7.8k+ GitHub stars. As the former Head of Technology at Joga, he built a product from scratch, used by thousands in dozens of countries. Now, Lucas is the CTO of Ergomake, developing a product for developers to deploy preview environments for any stack.",
+      "is_active": false,
+      "linkedin_url": "https://linkedin.com/in/lucas-vieira-1ba001a4",
+      "x_url": "https://twitter.com/commadangle",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/4b304961c58125ab235255d85217abb378470ab1.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 88718,
+      "title": "❇️ Briefer Agent: your AI data analyst, built into a powerful data workspace",
+      "tagline": "Briefer's agent helps anyone on your team turn data into clear and instant insights.",
+      "body": "Hey YC! I'm Lucas, founder of Briefer: a data workspace for notebooks and dashboards.\n\n**✨ Today, we're launching the Briefer Agent: an AI analyst that helps anyone on your team turn data into clear and instant insights ✨**\n\n<https://youtu.be/VBXmDJCqOGk>\n\nFor the past year, we've been building a powerful data workspace to help thousands of technical users uncover deep insights they wouldn't otherwise have. Many of these people use Briefer every day and get a lot of value out of it thanks to features like Python support, point-and-click visualizations, scheduling, and turning query results into data frames automatically.\n\n**Now, we're bringing Briefer's magic to _everyone_.** Whenever _anyone_ on your team has a question, they can ask our AI analyst, and it'll use Briefer to get them an answer.\n\n‎\n\n---\n\n# **⭐ It's not just another text-to-SQL chatbot**\n\n**Our AI analyst is _not_ just another “text-to-SQL” chatbot that spits out random graphs.** Instead, it's an intelligent agent that operates Briefer's powerful data workspace to generate answers that are precise and reviewable.\n\nOur agent can do anything a human analyst does in Briefer: write SQL, plot graphs, and even run Python for data manipulation and advanced analyses.\n\n‎\n\n---\n\n# **🤝 Especial things the Briefer Agent can do**\n\n* **🏦 Handle business-specific context.** If you have business-specific context you'd like to explain to the agent, you can easily add it to help the agent better understand your data and goals.\n* ☁️ **Connect to all the most popular data sources.** Briefer connects to all the most popular data sources, including Postgres, BigQuery, Redshift, Athena, Snowflake, MySQL, and others. The agent can use those data sources too.\n* **📄 Analyze CSV, XLS, and Parquet files.** If you have a CSV or Excel file, you can also upload it and ask for the Briefer agent to analyze it for you. That'll be easy because the agent knows how to use Briefer's DuckDB integration to query that file too.\n* 🎈**Run on your own infrastructure.** You can fully self-host Briefer's enterprise version and use your own Bedrock or Vertex services to power the agent. Therefore, all your data remains on your cloud, _always_.\n\n‎\n\n---\n\n# **➡️ How can I try the agent?**\n\nTo try out Briefer's agent, [book a call using this link](https://calendly.com/lucasfcosta/briefer-intro) and we'll help you get started ASAP.\n\nIf you have questions, feel free to email us, the founders, directly at [founders@briefer.cloud](mailto:founders@briefer.cloud).",
+      "url": "https://www.ycombinator.com/launches/N4w-briefer-agent-your-ai-data-analyst-built-into-a-powerful-data-workspace",
+      "votes": 27,
+      "created_at": "2025-03-17T19:16:57.634Z"
+    },
+    {
+      "id": 83864,
+      "title": "❇️ Briefer: Python notebooks and dashboards in one place (now open-source)",
+      "tagline": "Create Python notebooks that look like Notion, and publish them as reports or dashboards.",
+      "body": "⭐ Today, we're launching [Briefer's open-source offering](https://github.com/briefercloud/briefer).\n\n**Briefer is like Notion for code notebooks and dashboards. It gives technical users all the flexibility they need to publish dashboards, analyze data, create reports, and build data apps. At the same time, Briefer makes it easy for non-technical users to view and interact with data.**\n\n![](https://i.imgur.com/EYLk7xK.gif)\n\nIn Briefer, you can:\n\n* 📚📊 **Create notebooks and dashboards** using Markdown, Python, SQL, and native visualizations.\n* 🤳 **Build interactive data apps** using inputs, dropdowns, and date pickers.\n* 🤖 **Generate code and queries** using an AI that understands your database schema and your notebook's context.\n* 🕰️ **Schedule notebooks and dashboards** to run and update periodically.\n* ⚙️ **Create and test ad-hoc pipelines** using writebacks.\n\nIn addition to all that, Briefer is also multiplayer, meaning two or more people can work on the same notebook or dashboard simultaneously and see each other's changes in real time.\n\nFrom today, you can use Briefer for free on your machine or deploy it to your own infrastructure so that your whole team can use it and eliminate your data silos.\n\n \n\n### **🍱 What's included in the open-source offering?**\n\n![uploaded image](/media/?type=post&id=83864&key=user_uploads/578593/fdaa030e-0bad-43d6-a35f-e96332f951a6)\n\nBriefer's open-source offering includes everything you need to build notebooks and dashboards, including Markdown, SQL, Python, point-and-click visualizations, scheduled runs, writebacks, and more.\n\nAlso, given you'll be running Briefer on your own machines, there's no limit on how many users you can invite, how much memory and compute you can give to your notebooks, and how many pages you can schedule.\n\nThe only things that are _not_ in Briefer's open-source offering are PDF exports, granular permissions, and email and Slack integrations. These are available in the paid version of Briefer, for which you can sign up [here](https://briefer.cloud).\n\n \n\n### **🤔 Why open-source?**\n\nWe want people to have zero barriers to using Briefer, and we believe that making it open-source is the best way to achieve that.\n\nBy making Briefer open-source, we're giving you the freedom to run it on your own infrastructure, customize it to your needs, and contribute to its development.\n\nFurthermore, given Briefer will be running on your own machines, you don't have to worry about your data being stored in a third-party service. You have full control over your data.\n\nIf you want an in-depth explanation of our open-source strategy, [you can read it here](https://briefer.cloud/blog/posts/open-source-strategy).\n\n \n\n### **✨ How do I get started?**\n\n**➡️ You can get started by following the instructions in our **[**GitHub repository**](https://github.com/briefercloud/briefer)**. While you're there, please don't forget to give us a star ⭐.**\n\nIf you have any questions, please send me an email at [lucas.costa@briefer.cloud](mailto:lucas.costa@briefer.cloud). I respond to every email I receive from users.\n\nIn case you need help deploying Briefer or just want to talk directly to me, please [book a time here](https://calendly.com/lucasfcosta/briefer-intro-call).",
+      "url": "https://www.ycombinator.com/launches/Loe-briefer-python-notebooks-and-dashboards-in-one-place-now-open-source",
+      "votes": 28,
+      "created_at": "2024-09-09T17:05:36.669Z"
+    },
+    {
+      "id": 80177,
+      "title": "❇️ Briefer: Jupyter Notebooks and data apps in the cloud - and it looks like Notion!",
+      "tagline": "Create and share beautiful analyses, visualizations, and data apps",
+      "body": "\\*\\*TL;DR: If you're using Jupyter Notebooks or have ad-hoc scripts and data apps, you should consider switching to [**Briefer**](https://briefer.cloud) ❇️. Briefer works like Jupyter Notebooks, but it runs in the cloud and is as pretty and intuitive as Notion. It allows you to create beautiful and in-depth analyses, visualizations, and data apps.\\*\\*\\\n—\n\nHi, we're Lucas da Costa and Lucas Vieira (the Lucas²), founders of Briefer.\n\nWe've built Briefer to help data scientists create analyses, visualizations, and data apps and share their work with others — including non-technical people!\n\n![uploaded image](/media/?type=post&id=80177&key=user_uploads/578593/d4956051-0462-4492-b4f7-512a2652739a)\n\n[**🎬 Here's a demo 📹**](https://www.loom.com/share/f5658419cd154958862de41f1ea328c8?sid=685856a5-d188-4c53-baf3-51084ef3d141)\n\nYou can use Briefer instead of writing messy notebooks, building unmanageable ad-hoc scripts, wrangling with SQL in limited BI tools, or going through the hassle of setting up the infrastructure for a data app.\n\n# \n\n# **⭐ Briefer is better than Jupyter or ad-hoc solutions because:**\n\n* 💅 It looks way better and is 1000x easier to use — non-technical stakeholders will love it too.\n* 🤗 It's easy to share — just copy a link, no need to install dependencies or pull a git repo.\n* 💾 You can run SQL and Python in the same place — All SQL queries can be used as Pandas data-frames straightaway. No need to write custom wrapper libraries.\n* 🖥️ It's interactive — you can use text fields or dropdowns for viewers to provide input to your pages.\n* ⚡No Memory or GPUs? No problem — we can get you more powerful machines if you need them.\n* 👯 Real-time collaboration — you can see what others are doing if you're editing the same document, just like Google Drive.\n\n# **⭐ Get started now ✨**\n\n[**➡️ Click here to book an intro call if you want to get started with Briefer ⭐**](https://calendly.com/lucasfcosta/briefer-intro-call)\n\nWe move fast and we prioritize making customers happy over everything else - and we can help you build your first analyses and data apps. So, as a small team, there's a limited number of people we can onboard at a time - **make sure to book a call as soon as possible to ensure we'll get you a spot.**\n\nIf you have any other questions or comments, please email us at [founders@briefer.cloud](mailto:founders@briefer.cloud).",
+      "url": "https://www.ycombinator.com/launches/KrB-briefer-jupyter-notebooks-and-data-apps-in-the-cloud-and-it-looks-like-notion",
+      "votes": 73,
+      "created_at": "2024-04-15T17:39:24.496Z"
+    },
+    {
+      "id": 73177,
+      "title": "🧚 Ergomake - Deploy a staging environment for every pull request",
+      "tagline": "Whenever engineers push changes, we deploy their entire application and send them a link.",
+      "body": "**TL;DR Ergomake creates a staging environment for each pull request. Every time an engineer pushes changes, we deploy their entire application and send them a link to see it. Our customers use Ergomake for QA, product, and design reviews before any code gets merged.**\n\nHey everyone! We're Lucas and Lucas (yes, Lucas²), the founders of [Ergomake](https://ergomake.dev).\n\n![uploaded image](/media/?type=post&id=73177&key=user_uploads/578593/67fb36be-2271-4b94-8403-f3f1c9bf4612)\n\n**Ergomake creates a new staging environment every time engineers push changes**, making reviews much quicker and easier and helping teams avoid shipping broken changes.\n\n## ❌ The problem: staging is a bottleneck.\n\nEngineers must ship code to a staging environment whenever they need feedback from QAs, designers, and product managers.\n\nThe problem with this approach is that **teams usually have only one staging environment**. Therefore, **engineers scramble to see who will use staging or end up merging changes before anyone else sees them**.\n\n![uploaded image](/media/?type=post&id=73177&key=user_uploads/578593/0d929f46-4a46-425d-86e8-458fc4843816)\n\n**Consequently, teams slow down, applications break, or undesirable code gets shipped**.\n\nWhen that happens, engineers rush to fix the broken code already merged. For that, they must go through the whole review process again, which is a massive waste of time and money.\n\n## 💡 The solution: everyone gets their own staging.\n\nWith Ergomake, every change gets deployed to a new staging environment.\n\n![uploaded image](/media/?type=post&id=73177&key=user_uploads/578593/dc0ff32d-60c5-46d1-a759-b875aaaaea15)\n\nThat way, engineers can get input from the rest of their team without queueing to use staging.\n\nAdditionally, by getting reviews _before_ deploying code, teams avoid merging all sorts of undesirable changes. Consequently, they avoid bugs and reduce rework by keeping `main` always working.\n\nWith Ergomake, teams can merge straight into `main` because they do all their manual testing and validations within their pull requests. Therefore, these teams avoid complicated branching strategies and painful integration cycles.\n\n![uploaded image](/media/?type=post&id=73177&key=user_uploads/578593/9b319d08-4e0e-4239-9786-f5cc9373d979)\n\n## ⚙️ How does it work?\n\nErgomake integrates with GitHub and gets notified whenever someone opens a pull request.\n\nWhen that happens, Ergomake uses the `docker-compose.yaml` file within the repository to deploy your application on our infrastructure.\n\nOnce Ergomake has spun everything up, it adds a comment to the pull request containing the link to test your application.\n\nOur previews can include databases, and they support all types of projects, including those spread across multiple repos.\n\n## ➡️ The ask: sign-up now (there's a free tier)\n\n**You can sign-up for Ergomake at **[**app.ergomake.dev**](https://app.ergomake.dev)**.** There, you'll be able to configure previews for any repositories you want for free.\n\n**If you prefer, we're happy to do all the integration for you or hop on a call and guide you through the process**. If you think that could be helpful, [book an intro call here](https://calendly.com/lucasfcosta/ergomake-15-minutes).\n\nFor anything else, [we're also on Discord](https://discord.gg/daGzchUGDt).",
+      "url": "https://www.ycombinator.com/launches/J2H-ergomake-deploy-a-staging-environment-for-every-pull-request",
+      "votes": 85,
+      "created_at": "2023-07-18T15:59:24.172Z"
+    }
+  ]
+}

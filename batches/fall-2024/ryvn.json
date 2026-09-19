@@ -1,0 +1,117 @@
+{
+  "id": 30114,
+  "name": "Ryvn",
+  "slug": "ryvn",
+  "former_names": [
+    "Armada"
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/38a4a570871fba4b9702b51fa8da50142159b1a8.png",
+  "website": "https://ryvn.ai",
+  "all_locations": "New York City, NY, USA",
+  "long_description": "Ryvn provides the devtools and infrastructure to easily deploy any workload, on any cloud, and on-prem. Run apps in your own cloud and offer Bring Your Own Cloud (BYOC) to your customers in minutes, with built-in observability designed for sensitive industries.",
+  "one_liner": "Easy and secure customer cloud deployments",
+  "team_size": 5,
+  "industry": "B2B",
+  "subindustry": "B2B -> Infrastructure",
+  "launched_at": 1730680026,
+  "tags": [
+    "Developer Tools",
+    "SaaS",
+    "DevOps",
+    "Infrastructure"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": true,
+  "nonprofit": false,
+  "batch": "Fall 2024",
+  "status": "Active",
+  "industries": [
+    "B2B",
+    "Infrastructure"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/ryvn",
+  "api": "https://devasheeshg.github.io/yc-api/batches/fall-2024/ryvn.json",
+  "year_founded": 2024,
+  "city": "New York City",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/ryvn/",
+  "x_url": "https://x.com/ryvnai",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/38a4a570871fba4b9702b51fa8da50142159b1a8.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Diana Hu",
+    "url": "https://www.ycombinator.com/people/diana-hu"
+  },
+  "founders": [
+    {
+      "user_id": 1690248,
+      "full_name": "Albert Lam",
+      "title": "Founder/CEO",
+      "founder_bio": "CEO at Ryvn, making cloud and on-prem deployment, monitoring, and management simple. Previously led AI and infrastructure teams at Palantir.",
+      "is_active": true,
+      "linkedin_url": "https://linkedin.com/in/simplyalam",
+      "x_url": "https://x.com/albertlam_",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/f61743a26b1715c1db12a6ea5c68fe199e4866fc.jpg"
+    },
+    {
+      "user_id": 682648,
+      "full_name": "Shardool Patel",
+      "title": "Founder/CTO",
+      "founder_bio": "Building deployment infrastructure to help companies deploy to multi-cloud. Previously led an engineering team at Palantir and helped scale the internal deployment platform to a $20M ARR product.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/sp97/",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/f49826d81086cce33d2c2d395e7c170ea460ca3e.jpg"
+    }
+  ],
+  "jobs": [
+    {
+      "id": 84793,
+      "title": "Founding Software Engineer",
+      "url": "https://www.ycombinator.com/companies/ryvn/jobs/qg0OM1Q-founding-software-engineer",
+      "location": "New York City",
+      "type": "Full-time",
+      "role": "Engineering",
+      "role_type": "Full stack",
+      "salary_range": "$160K - $220K",
+      "equity_range": "0.50% - 2.00%",
+      "experience": "3+ years",
+      "visa": "US citizen/visa only",
+      "skills": [
+        "Amazon Web Services (AWS)",
+        "Microsoft Azure",
+        "Go",
+        "Google Cloud",
+        "React",
+        "TypeScript"
+      ]
+    }
+  ],
+  "news": [],
+  "launches": [
+    {
+      "id": 85379,
+      "title": "🚢 Ryvn - Deploy applications to customer clouds, on-prem",
+      "tagline": "Like Vercel but for deploying to your own cloud and customer clouds",
+      "body": "**TL;DR:** [**Ryvn**](https://ryvn.ai) **_empowers SaaS startups to seamlessly deploy, monitor, and manage their applications within customer clouds_** _and on-premises environments. We streamline on-prem delivery with integrated logging, monitoring, and simplified updates and rollbacks across all customer installations._ [_Watch our demo_](https://youtu.be/1wTY1a0KKPU)\n\n   \n&nbsp;\n# **🔥 The Team**\n\n[Albert](https://www.linkedin.com/in/simplyalam/) and [Shardool](https://www.linkedin.com/in/sp97/) collectively bring over a decade of expertise in infrastructure and DevOps.\n\nAt Palantir, Shardool led engineering teams building deployment infrastructure for managing **hundreds of environments**, including cloud, on-premises, and air-gapped systems—facilitating over 10,000 deploys per day.\n\nAlbert led engineering teams at Palantir, developing disaster prevention products that secured $xxM in contracts. At Capital One, he architected modular deployment pipelines and resource management tools.\n\n   \n&nbsp;\n# **❌ The Problem**\n\n**Building infra is not building product**\\\nSetting up infrastructure for each customer—learning tools like Terraform and Kubernetes, creating configurations, and making Docker images—is time-consuming. Instead of building new features, your team is tied up with these tasks just to get deployments working.\n\n**Customer DevOps slows you down**\\\nIf you're sending code, docker images, or Helm charts to customers, you're relying on their DevOps team to prioritize your updates and correctly follow installation instructions. This can lead to **delays of 4-6 weeks** before updates are applied, hurting your delivery cycle.\n\n**Support sucks without monitoring and logging**\\\nHearing about outages or bugs over email or Slack leaves you scrambling to react, putting customer trust at risk. Secure access to logs and metrics is critical to providing reliable service.\n\n   \n&nbsp;\n# **🔮 Our Solution**\n\n**🚢 Easily Install and Ship Updates**\\\nRyvn handles on-prem and VPC deployments automatically from your GitHub code, like Vercel, allowing you to push updates **multiple times a day** with little to no customer involvement.\n\n![uploaded image](/media/?type=post&id=85379&key=user_uploads/1690248/a32c6ee9-98c9-4289-b62f-83ec48cda238)\n \\\n**🎮 Controlled Updates & Instant Rollbacks**\\\nRoll out updates with ease across release stages, including **instant rollbacks** to previous stable versions, ensuring uptime and customer confidence.\n\n![uploaded image](/media/?type=post&id=85379&key=user_uploads/1690248/a6862582-b463-415b-9239-39ff5d161cf0)\n \\\n**👁️ Integrated Logging & Monitoring**\\\nSecure, **centralized access to logs** and health metrics across customer environments. Logs are streamed to your cloud or accessible on-demand from your customer’s cloud.\n\n![uploaded image](/media/?type=post&id=85379&key=user_uploads/1690248/1bffb4e3-5a28-44d0-a75c-8e92ebf639d6)\n\n   \n&nbsp;\n# **💭 Why Deploy to Customer Clouds?**\n\n**💸 Charge more, bigger markets**\n\n* Charge **3–10x** more for customer cloud / on-prem deployments\n* Sell to regulated industries — health, finance, enterprise, etc.\n\n**🥷 Skip the security review & SOC 2**\n\n* Land **PoCs** _faster_ by deploying on-prem to bypass lengthy security reviews\n* You don’t need SOC 2 or HIPAA to deploy on-prem\n\n**❤️ Make your bank and lawyers happy**\n\n* Customers pay directly for infrastructure cost\n* Not hosting customer data reduces your liability\n\n   \n&nbsp;\n# **📣 Our Ask**\n\n**Follow** - we’re on [LinkedIn](https://www.linkedin.com/company/105480942/)\\\n**Share** - If you know any startups looking to deploy to customer clouds, we’d appreciate a warm intro using our email [founders@ryvn.ai](mailto:founders@ryvn.ai)\\\n**Demo** - [book here](https://cal.com/albertlam/ryvn-demo)\n\n![uploaded image](/media/?type=post&id=85379&key=user_uploads/1690248/7b4e5b4d-30d0-4b34-8762-1f8664c960b6)\n\n",
+      "url": "https://www.ycombinator.com/launches/MD5-ryvn-deploy-applications-to-customer-clouds-on-prem",
+      "votes": 84,
+      "created_at": "2024-11-08T14:33:26.181Z"
+    }
+  ]
+}

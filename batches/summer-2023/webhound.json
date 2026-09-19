@@ -1,0 +1,129 @@
+{
+  "id": 29091,
+  "name": "Webhound",
+  "slug": "webhound",
+  "former_names": [
+    "Slingshot",
+    "Lavalamp",
+    "Instaclass",
+    "Remy"
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/1c9d8480ce32c923dc77fca44069ab19c5dab6eb.png",
+  "website": "https://webhound.ai",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "Webhound builds long-horizon AI research agents that scale quality with time and budget. Our agents can create either structured datasets or fully cited research reports.",
+  "one_liner": "Long-horizon research agents",
+  "team_size": 2,
+  "industry": "Consumer",
+  "subindustry": "Consumer",
+  "launched_at": 1689818569,
+  "tags": [
+    "Artificial Intelligence",
+    "Generative AI",
+    "Consumer",
+    "Search",
+    "AI"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Summer 2023",
+  "status": "Active",
+  "industries": [
+    "Consumer"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/webhound",
+  "api": "https://devasheeshg.github.io/yc-api/batches/summer-2023/webhound.json",
+  "year_founded": 2023,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/webhound",
+  "x_url": "https://x.com/webhoundai",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/1c9d8480ce32c923dc77fca44069ab19c5dab6eb.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [
+    "https://bookface-images.s3.us-west-2.amazonaws.com/attachments/af083f86bdd2f140667a8be17ea63bf77b6ea035.png"
+  ],
+  "primary_partner": null,
+  "founders": [
+    {
+      "user_id": 1444435,
+      "full_name": "Moe Khalil",
+      "title": "Founder",
+      "founder_bio": "Stanford CS '23",
+      "is_active": true,
+      "linkedin_url": "https://linkedin.com/in/moe-khalil-73a2371a1",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/71908f66e9da71876cf3cca281a7afd005398c55.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [
+    {
+      "title": "Our favorite startups from YC's Summer 2023 Demo Day, Day 1 | TechCrunch",
+      "url": "https://techcrunch.com/2023/09/06/ycombinator-demo-day-one-summer-2023/",
+      "date": "Sep 06, 2023"
+    }
+  ],
+  "launches": [
+    {
+      "id": 99089,
+      "title": "Webhound Agent: A full research assistant with a workspace",
+      "tagline": "An AI research assistant powered by the best deep research money can buy",
+      "body": "<https://www.youtube.com/watch?v=csm6x3carjc>\n\n**The problem:** Most deep research products decide for you when to stop. And since they're subscription-based, the less work they do per query, the more they profit.\n\n**What we built:** Webhound is a research agent where you set a dollar budget and it keeps searching until it's used. $5 or $100 — every dollar goes into deeper search, more sources, and real verification. The output is either a cited research report or a structured dataset with source URLs per cell.\n\n**What's new:** Today we're launching Webhound Agent — a full research assistant with a workspace.\n\n* **Start research from chat.** Describe what you need, the agent proposes a session with an editable budget and model. You confirm before anything runs.\n* **Multi-step pipelines.** Chain steps together — \"research X, then extract Y, then write a recommendation\" — and they run automatically in sequence.\n* **Analyze your existing work.** Ask the agent about any report or dataset. It reads the full document and answers with citations.\n* **Organize everything in folders.** Nested workspace with drag-and-drop, working directories, and folder-scoped context.\n* **The agent remembers you.** It learns your research interests, budget preferences, and working patterns across conversations.\n\n**How it works under the hood:** Research sessions run a plan-execute-verify loop. The planner decides what to investigate, the executor searches the web and writes a cited report, and the verifier checks every claim against its sources. When the verifier finds gaps, it sends the work back. This cycle repeats until the budget runs out.\n\n**Pricing:** Pay-as-you-go. No subscriptions. $5 free credits to start. See real example reports at different budgets: <https://webhound.ai/examples>\n\n![uploaded image](/media/?type=post&id=99089&key=user_uploads/1444435/efda94f3-8921-4230-98e9-e26f86b3514c)\n\n",
+      "url": "https://www.ycombinator.com/launches/PmD-webhound-agent-a-full-research-assistant-with-a-workspace",
+      "votes": 7,
+      "created_at": "2026-03-25T17:52:50.836Z"
+    },
+    {
+      "id": 97405,
+      "title": "Webhound Reports: Deep research that scales with your budget",
+      "tagline": "Long-running deep research for the highest quality reports",
+      "body": "Hey everyone, Moe here.\n\nWe're building Webhound — AI research agents where you set a budget and the agent keeps researching until it runs out. More budget = more sources, more depth.\n\n**How we got here:** We started with a product (now called Datasets) that builds structured tables from the web. It worked, but we hit a wall: as datasets got bigger, costs exploded and context became unmanageable. And for open-ended datasets, we never had a clean answer for \"when should the agent stop?\"\n\nSo we rebuilt everything around two ideas: costs that stay linear with time, and giving users direct control over depth.\n\nThe new architecture is a **Planner-Executor-Verifier loop**. Executors get fresh context each run. Planner and Verifier work from summaries and can search over what's accumulated. Runs until budget's out.\n\nWe tested it on traditional deep research as a sanity check. At $3-5, it beat the top result on DeepResearch Bench. At $15, it way outperformed it, even running on older models (gemini-2.5-flash). So we shipped it as Reports and put the same architecture into Datasets.\n\n**We now have two products:**\n\n* **Reports** = cited research docs (competitive analysis, market research, system design). Always uses the full budget—more budget means more sources and deeper coverage.\n* **Datasets** = build structured tables from the web, or upload your own and enrich with new columns. We can access LinkedIn, YouTube, Reddit, and most other sites. Examples: lead lists with company info, competitor feature matrices, lists of VCs filtered by thesis, GTM leads with emails. Stops when complete, or at budget, whichever comes first.\n\n**Asks:**\n\n* **Try it** – [**webhound.ai**](http://webhound.ai), $5 free. Honest feedback welcome.\n* **Spread the word** – if it's useful, share it with anyone you know doing a lot of research (investors, analysts, consultants)\n\n– Moe\n\n![uploaded image](/media/?type=post&id=97405&key=user_uploads/1444435/fceaddd4-53f4-438f-930d-a4bf18bf97ce)\n\n(Demo Video for Reports: [**https://www.youtube.com/watch?v=eEGJBudvmsE**](https://www.youtube.com/watch?v=eEGJBudvmsE))",
+      "url": "https://www.ycombinator.com/launches/PL3-webhound-reports-deep-research-that-scales-with-your-budget",
+      "votes": 3,
+      "created_at": "2026-02-02T18:32:28.191Z"
+    },
+    {
+      "id": 92035,
+      "title": "Webhound: An AI Agent That Builds Datasets From the Web",
+      "tagline": "Webhound lets you automate weeks of manual research work by running in the background while you tackle other priorities.",
+      "body": "Hey everyone,\n\nWe’re [Moe](https://www.linkedin.com/in/moe-khalil-73a2371a1/) and [Theo](https://www.linkedin.com/in/theodor-schmidt/), and we’re building [Webhound](https://webhound.ai).\n\n# TL;DR\n\nWebhound is an AI research agent that builds custom datasets from web research. Instead of spending weeks manually gathering data, simply describe what you need and Webhound automatically finds, extracts, and organizes it into structured datasets you can export.\n\nSome examples are:\n\n* “Find 100 AI/ML YouTubers with 50K-100K subscribers, their email addresses, and latest video view counts.”\n* “Track pricing, features, and customer reviews from both Reddit and Youtube for 30 CRM competitors including Salesforce, HubSpot, and Pipedrive.”\n* “Collect 500 vacation rental listings in Bali with photos, pricing, amenities, and guest reviews from multiple platforms to analyze market trends.”\n* “Identify 200 early-stage e-commerce startups on Shopify or WooCommerce, along with founder names, contact emails, and product categories to build a lead list.”\n\nhttps://www.youtube.com/watch?v=cG1SiKznpHs&pp=0gcJCcEJAYcqIYzv\n\n# **❌ The Problem**\n\nData collection is painfully manual and slow. Need to research 100 competitors? That means visiting 100 different websites, copying information into spreadsheets, and repeating this process for every data point.\n\nThis creates two major problems:\n\n* **High effort:** Hours of tedious manual work, clicking through sites, and organizing data\n* **Slow speed:** What should be quick research turns into weeks of work\n\n# **👷 Our Solution**\n\nWebhound makes data collection effortless and fast.\n\n**Effortless:** Simply describe what you need in plain English. Webhound handles everything in the background while you focus on other work.\n\n**Fast:** A fleet of parallel search agents collect data simultaneously across multiple sources, turning weeks of manual work into hours.\n\nExport clean, structured datasets as CSV, Excel, or JSON.\n\n![uploaded image](/media/?type=post&id=92035&key=user_uploads/1444435/a0229371-c973-42ca-8383-bf35d6bb99c7)\n\n# **🙏 Our Ask**\n\nWant to try Webhound? Access is currently limited to 5 datasets per week and one at a time, but if you're interested in higher limits to automate your research workflow, please reach out to us at [**team@webhound.ai**](mailto:team@webhound.ai).\n\n# 👬 **The Team**\n\nMoe and Theo have been friends for 6 years and were roommates in college (in the room where Evan Spiegel founded Snapchat).\n\nSince graduating, Moe’s built a bunch of AI search tools, including Instaclass (turn any topic into a full search-backed course) and Remy (think Perplexity, but for video).\n\nTheo went deep on data, building and scaling Quicklime, where he helped film studios and streaming services collect the info they needed to make smart bets.",
+      "url": "https://www.ycombinator.com/launches/NwR-webhound-an-ai-agent-that-builds-datasets-from-the-web",
+      "votes": 20,
+      "created_at": "2025-07-10T00:48:30.310Z"
+    },
+    {
+      "id": 85709,
+      "title": "Remy: The chatbot that's seen every video on YouTube",
+      "tagline": "Remy searches over billions of videos to build you custom playlists on any topic, finding exactly what you want to watch - and nothing you don't.",
+      "body": "![](https://www.ycombinator.com/media/?type=post&id=85709&key=user_uploads/1444428/e4dd006c-a312-4c90-9340-6b403f9bd17a)\n\nThe internet is filled with incredible video content, but finding the exact moments you're looking for can feel impossible. \n\nCurrently, typical video search falls into one of two categories:\n\n**1. Searching short-form video content**\n\n* Search TikTok or YouTube Shorts for clips made by creators.\n* Settle for recommended clips that don't quite match what you need.\n* Get filtered back into _the algorithm_.\n\n**2. Manually looking through long-form videos**\n\n* Open ten tabs with the top results on YouTube to look through them all.\n* Waste time scrubbing through long videos looking for the moments you want.\n* Miss valuable insights buried in obscure content.\n* Give up searching altogether.\n\n### We built Remy to solve this.\n\nInstead of treating videos as single units, [Remy](https://www.useremy.com/) understands what's happening inside every second of every video. It's like having a brilliant research assistant who's watched everything on the internet and can quickly find the exact moments you care about.\n\nThink of all the knowledge trapped in hour-long podcasts, conference talks, interviews, and tutorials. Remy sets it free by building you personalized playlists that connects the dots across thousands of sources—turning an overwhelming sea of content into a clear story that matters to you.\n\n<https://youtu.be/3n0zeaghQVs>\n\n## **🔎 How Remy works:**\n\n1. Tell Remy what you're curious about\n2. Remy searches through the internet's video content\n3. Remy curates a playlist of perfectly clipped moments for you to watch\n\n## **✨ Perfect for:**\n\n* 📚 Learning new skills: **\"Gordon Ramsay explaining expert knife techniques\"**\n* 🎯 Product research: **\"Professional skiers talking about best skis of 2025\"**\n* 🔍 Deep dives: **\"070 Shake talking about the music scene in New Jersey\"**\n* 📰 News & updates: **\"What does Sam Altman think about what's happening with AI regulation?\"**\n\n## **🤨 What makes Remy different:**\n\n* Real-time search across billions of videos\n* Smart clipping that captures full context\n* Conversational interface for natural discovery\n* Playlists that make sense for your search, not just random clips\n\nAs your searches evolve, Remy understands the context and narrows down results in real time, finding clips that otherwise might be buried deep within hours-long videos. Have questions about a clip it found? Just ask in the chat and get answers rooted in the content Remy found for you.\n\n### Give Remy a try today to discover videos you never knew existed.\n\n<https://www.useremy.com/>",
+      "url": "https://www.ycombinator.com/launches/MIP-remy-the-chatbot-that-s-seen-every-video-on-youtube",
+      "votes": 49,
+      "created_at": "2024-11-19T20:47:39.072Z"
+    },
+    {
+      "id": 80492,
+      "title": "Instaclass: Make a masterclass on literally anything",
+      "tagline": "Instaclass lets you make a masterclass on anything with the best content on the internet",
+      "body": "[Instaclass](https://myinstaclass.com/) lets you make a masterclass on anything you want, using the best content that's already on the internet.\n\nWe’ve spent the last year building and launching in the AI content consumption space, from games to podcasts to news to videos. What we’ve learned is that we don’t need AI to create content for us. Everything you could possibly need or want to consume has probably already been created; _it’s just hard to find, and you don’t always know what to look for_. Instead of using AI to create content, we believe AI should play a role in curating human-made content.\n\nOn the back of all of this work and these insights, we have built [Instaclass](https://myinstaclass.com/).\n\n![uploaded image](/media/?type=post&id=80492&key=user_uploads/1444428/f9dbfab3-e0c1-4518-ae87-ba05f3caf9b5)\n\n[Instaclass](https://myinstaclass.com/) lets you build classes on anything you want, no matter how niche, doing the hunter-gatherer portion of research for you so you don't need to spend a day trawling through the internet looking for good content to learn with.\n\nWe use Instaclass daily to learn about [_brewing better coffee_](https://myinstaclass.com/home/0510f5fd-420c-4023-b394-39c3c6074c1e/f4157ffb-def7-44b8-bb6a-80c933ed3054)_, _[_the Fallout universe and lore_](https://myinstaclass.com/home/0c315ab0-a562-46d5-94e5-8013f3be40d3/3b0fdf63-c6a6-4feb-a883-b8f207409810)_, _[_the French Revolution_](https://myinstaclass.com/home/0cf5ac0a-025b-455b-9e17-344d221cec2f/347c6edc-6b41-43c8-8a0b-2ec32471f6a8)_, and _[_cooking tips from Gordon Ramsay_](https://myinstaclass.com/home/0510f5fd-420c-4023-b394-39c3c6074c1e/acbcc328-a9a1-4158-a892-2a04b8d5c830)_._ We’ve joked that this would have been really helpful in the early days of each of our previous pivots - if you know us, then you’d know this one on [_how to build video games_](https://myinstaclass.com/home/1d5a2b90-86c1-471a-933c-6903d1f93206/443c077a-34bc-400a-abc3-6284d6a3e1e7) would have been worth its weight in gold.\n\n_Users have done everything from learning _[_how to give a sales pitch for an interview_](https://myinstaclass.com/home/8ee4cb8a-0ab4-4d88-83c2-50d582fe1adb/9be936bd-c058-4ad8-be2d-f292bd1059e9)_ to _[_how to be nice to your boyfriend_](https://myinstaclass.com/home/1db8a552-515d-4029-9eba-68c807329668/299d2703-4b49-4743-a83a-d9168cbc3874)_._\n\n[Instaclass](https://myinstaclass.com/) pulls in information from across the web on a particular topic and puts it in a course format so you can go in with no idea about a topic and come out decently well-informed.\n\nTry it out, and let us know what you think! We are limiting free credits at the moment, so if you run out, join the waitlist, and we’ll email you when more become available. Looking forward to seeing what you all make!",
+      "url": "https://www.ycombinator.com/launches/KwG-instaclass-make-a-masterclass-on-literally-anything",
+      "votes": 172,
+      "created_at": "2024-04-29T17:51:32.573Z"
+    }
+  ]
+}

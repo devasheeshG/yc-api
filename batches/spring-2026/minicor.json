@@ -1,0 +1,126 @@
+{
+  "id": 31453,
+  "name": "Minicor",
+  "slug": "minicor",
+  "former_names": [
+    "Laminar"
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/e14eb470879a4e71c717ad6774095600e8b0de85.png",
+  "website": "https://minicor.com",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "Minicor connects AI startups to legacy desktop apps that have no API. Reliably, quickly and at scale.\r\n\r\nDescribe a workflow and get an API endpoint. Each call triggers a self-healing desktop automation on a Windows VM. On-prem, cloud, or Citrix. Build through your coding agent via our MCP.\r\n\r\nComplete with the observability tools to manage your customer relationship: full video replay of every automation, granular logging, and slack enabled alerts.",
+  "one_liner": "Scalable windows desktop automations",
+  "team_size": 8,
+  "industry": "B2B",
+  "subindustry": "B2B -> Infrastructure",
+  "launched_at": 1772756028,
+  "tags": [],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": true,
+  "nonprofit": false,
+  "batch": "Spring 2026",
+  "status": "Active",
+  "industries": [
+    "B2B",
+    "Infrastructure"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada",
+    "Remote",
+    "Partly Remote"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/minicor",
+  "api": "https://devasheeshg.github.io/yc-api/batches/spring-2026/minicor.json",
+  "year_founded": 2024,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/minicor-automations",
+  "x_url": "https://x.com/minicor_",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/e14eb470879a4e71c717ad6774095600e8b0de85.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Tom Blomfield",
+    "url": "https://www.ycombinator.com/people/tom-blomfield"
+  },
+  "founders": [
+    {
+      "user_id": 1037983,
+      "full_name": "Faizaan Chishtie",
+      "title": "Founder/CEO",
+      "founder_bio": "CEO @ Minicor (X26) - building an RPA platform for deploying AI into legacy desktop systems\n\nPreviously also built a furniture rental company and worked as early engineer at YC companies connecting systems together!",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/fchishtie/",
+      "x_url": "https://x.com/faizchishtie",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/8237083383c5f9e3a2ff2c95697815c59d0c2774.jpg"
+    },
+    {
+      "user_id": 1639230,
+      "full_name": "Saheed Akinbile",
+      "title": "Founder/CTO",
+      "founder_bio": "Building Minicor (X26) - Building an agentic desktop and browser automation platform.\nDeep in infra, RPA (QuickBooks/Sage/Citrix), and browser automation.",
+      "is_active": true,
+      "linkedin_url": "https://linkedin.com/in/saheed-akinbile",
+      "x_url": "https://x.com/sahee_d",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/d6ab7a935a1ba8fc9b8588ea0351c0b067c23f39.jpg"
+    }
+  ],
+  "jobs": [
+    {
+      "id": 94138,
+      "title": "Software Engineer",
+      "url": "https://www.ycombinator.com/companies/minicor/jobs/mDMbXZk-software-engineer",
+      "location": "San Francisco, CA, US",
+      "type": "Full-time",
+      "role": "Engineering",
+      "role_type": "Full stack",
+      "salary_range": "$175K - $250K",
+      "equity_range": "0.15% - 0.45%",
+      "experience": "3+ years",
+      "visa": "Will sponsor",
+      "skills": [
+        "Amazon Web Services (AWS)",
+        "Google Cloud",
+        "Java",
+        "JavaScript",
+        "Kotlin",
+        "Python",
+        "Next.js"
+      ]
+    }
+  ],
+  "news": [
+    {
+      "title": "The Top DevTech Startups in YC P26 - The Silicon Valley Post",
+      "url": "https://svpost.com/articles/top-devtech-startups-yc-p26/",
+      "date": "Jun 10, 2026"
+    },
+    {
+      "title": "What Y Combinator's Latest Batch Reveals About The Future",
+      "url": "https://www.forbes.com/sites/dariashunina/2026/06/04/what-y-combinators-latest-batch-reveals-about-the-future/",
+      "date": "Jun 04, 2026"
+    }
+  ],
+  "launches": [
+    {
+      "id": 99004,
+      "title": "Minicor - Windows desktop automations at scale.",
+      "tagline": "RPA platform for deploying AI into legacy desktop systems",
+      "body": "Hey YC!! Faiz and Saheed here from Minicor ([minicor.com](http://minicor.com))\n\n**TLDR;** AI companies selling into healthcare, automotive, financial services, and logistics can't go live because their customers run on legacy desktop software with no APIs. The only way in is clicking through the UI, and it breaks constantly. Minicor is a platform for building self-healing desktop automation that scales.\n\nLaunch video:\\\n<https://www.youtube.com/watch?v=nzH4ekkaA2c>\n\n**The problem**\n\nOur customers selling into legacy industries can't go live because the systems of record their customers use (EHRs, ERPs, DMS) are Windows desktop apps with no APIs. The only way to read / write is through UI automations, but desktop RPA at scale breaks constantly. Even small error rates become hundreds of failures a day, and every one needs manual intervention.\n\nThey're signing customers but don't have capacity to integrate because they're too busy fighting fires with existing RPAs; or their prospects are blocked because they need \"proof\" they can write back to their systems, and spinning up a desktop automation POC takes too long.\n\n**In production**\n\nWe're live right now processing thousands of workflows a week across healthcare EHRs and other legacy systems. Our agents write AI-generated data into desktop apps in real-time. We went live with a customer in 3 weeks post POC.\n\n**How it works**\n\n1. Install our Desktop Client on the machines running the legacy software.\n2. Speak the automation into existence - either through your favourite coding agent via our MCP, or to us directly. You get an API endpoint to trigger it.\n3. Minicor handles everything after that. Only pay when the data gets in\n\n**Demos**\n\nGenerating an automation with our MCP:\n\n![uploaded image](/media/?type=post&id=99004&key=user_uploads/1037983/3566b35e-8721-428e-9c8c-99b2d4f337a4)\n\nAgent recovering from failure:\n\n![uploaded image](/media/?type=post&id=99004&key=user_uploads/1037983/c33c944c-0319-4aa1-a291-c526751938f6)\n\nRecorded video replays of every run, with full error logging, so nothing ever fails silently:\n\n![uploaded image](/media/?type=post&id=99004&key=user_uploads/1037983/ce87bffc-0860-43ab-a1b9-94d5b5656adf)\n\n**About us**\n\nSaheed and I both started our careers building bespoke / legacy system integrations. Me at a YC startup, Saheed at Morgan Stanley and Ford. We met in 2019 in a UX class, built a non-profit together over the pandemic, and started working on this in 2023.\n\nWe started with an observability and error recovery platform for API integrations, and got pulled into Desktop automations when a prospect closed hyper quickly on the promise that we could help them connect to an on-prem EMR.\n\n**If a legacy desktop integration is blocking a deal right now**\n\n**We can have a POC running in hours.** Whether that's a demo for a prospect or getting something into production next week. Email / DM us on Bookface / book time to chat (:\n\n**Know an AI company fighting horrible desktop based UI integrations?** We'd appreciate an intro, coffee / lunch on us!\n\n[faiz@minicor.com](mailto:faiz@minicor.com) / <https://calendly.com/faiz-laminar/minicor-demo>",
+      "url": "https://www.ycombinator.com/launches/Pkq-minicor-windows-desktop-automations-at-scale",
+      "votes": 26,
+      "created_at": "2026-03-23T02:00:00.081Z"
+    }
+  ]
+}

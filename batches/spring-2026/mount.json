@@ -1,0 +1,90 @@
+{
+  "id": 31440,
+  "name": "Mount",
+  "slug": "mount",
+  "former_names": [
+    "Cybe"
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/fa5208859312a795f7e72dfb9eb2a5149785a216.png",
+  "website": "https://mount.insure",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "TLDR: Mount is building the AI insurance carrier, starting with liability coverage for deployed AI agents. As everyone moves AI Agents into production and gives them more responsibility, we help businesses insure and secure them.\r\n\r\nWhenever responsibility shifts from human operators to autonomous systems, so too does the liability that accompanies it. The systems also introduce new risks: agentic software failures, prompt injection attacks, autonomous workflow errors, data leaks, and more.\r\n\r\nLegacy insurance was not built for this. Existing policies are often silent, ambiguous, or exclude autonomous software, and traditional insurers lack the data and technical capability to assess deployed AI Systems.\r\n\r\nOur first product, the Mount AI Liability Policy, is built for mid-market and enterprise companies deploying autonomous AI agents in real business processes. We scan and red-team AI deployments, quantify operational risk, help fix vulnerabilities, and insure the residual risk with purpose-built AI liability coverage.\r\n\r\nMount is best thought of as a highly automated version of today's commercial insurance carriers, which run on manual workflows, layers of intermediaries, and tens of thousands of employees. AI enables automation of underwriting, pricing, policy issuance, claims, fraud detection, customer support, and distribution. We believe that the best way to use this opportunity is to rebuild those processes from the ground up. ",
+  "one_liner": "The AI Agent Insurance Carrier",
+  "team_size": 2,
+  "industry": "Fintech",
+  "subindustry": "Fintech -> Insurance",
+  "launched_at": 1775605248,
+  "tags": [],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Spring 2026",
+  "status": "Active",
+  "industries": [
+    "Fintech",
+    "Insurance"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/mount",
+  "api": "https://devasheeshg.github.io/yc-api/batches/spring-2026/mount.json",
+  "year_founded": 2026,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/mountyc26/posts/?feedView=all",
+  "x_url": "",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/fa5208859312a795f7e72dfb9eb2a5149785a216.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Pete Koomen",
+    "url": "https://www.ycombinator.com/people/pete-koomen"
+  },
+  "founders": [
+    {
+      "user_id": 1458269,
+      "full_name": "Fabian Amherd",
+      "title": "Founder",
+      "founder_bio": "Founder at Mount (YC P26) | Mount insures companies against AI risks.\n\nI studied Computer Science at ETH Zürich, focusing on machine learning. At MESH, an ETH robotics spin-off, he built and deployed custom CNNs for real-time object detection in industrial robotics. Before that, he founded and ran a web development company for 3.5 years, starting at age 16. \n",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/fabianamherd/",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/e48445f6df9492ee1ff4f7f1a012287b0283a757.jpg"
+    },
+    {
+      "user_id": 3284831,
+      "full_name": "John Bachmann",
+      "title": "Founder",
+      "founder_bio": "Founder at Mount (YC P26) | Mount insures companies against AI risks. \n\nI grew up in a family that's been in the insurance industry for four generations. At 18, I dropped out of high school and flew solo to Bangalore, where I spent four months building an engineering team I recruited and led, scaling the business to $400K in annual revenue.\n\n",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/john-bachmann-844978301?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/c18569ab9dd6d0d26e699b9409464f2eaa865153.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 101822,
+      "title": "Mount - The AI-Agent Insurance Carrier",
+      "tagline": "As AI Agents move into production, we help businesses insure and secure them.",
+      "body": "**TLDR: Mount sells liability insurance for companies deploying AI agents in production. We scan and red-team the agent workflow, reduce failure modes, and insure the residual risk with purpose-built AI-agent liability coverage. Mount helps companies manage AI risk and unlock AI Agent adoption at scale.**\n\n> “I think this is a great idea. First of all, I’ve been waiting for more people to do this. \\[…\\] Insurance is shockingly important to how society works. No one is doing a good job of underwriting this right now.” - Sam Altman on Mount\n\n# \n\n<https://www.youtube.com/watch?v=xo3zVH_pAsc>\n\n# AI Agents Need Insurance\n\nThe bottleneck for the economic impact of AI Agents has moved from capability to production-grade reliability and trust. The models are, by far, smart enough for a broad range of use cases, yet many pilot projects are struggling to transition into production.\n\nAI agents now write code, handle customer data, move money, and update records. The more responsibility we give AI systems, the more liability shifts from humans to autonomous systems.\n\nCompanies are faced with a simple but impactful question:\n\n“**Who is liable if AI systems fail or cause financial harm**?”\n\nToday, the answer is unclear.\n\nExisting insurance policies are often silent, ambiguous, or exclude autonomous software, simply because they were created many years ago. The insurers behind them don’t want to cover this. They lack the data, the knowledge, and the speed to assess deployed AI systems.\n\nFor real production agents, “maybe covered, potentially disputed” is not good enough.\n\n# Why now\n\nInsurance is one of the most heavily regulated industries in existence, creating durable moats that do not shrink even as we progress towards AGI. We are starting now because we believe this market will become obvious in the next 6–12 months:\n\n* Agent adoption is accelerating.\n* As agents gain capability, companies give them more responsibility to profit from it.\n* Like with any technology, companies will need a risk-transfer mechanism before deploying it in high-stakes workflows.\n* Existing cyber and E&amp;O carriers will not want to silently absorb autonomous-agent losses. They do not understand this risk and lack the speed to keep up. We are already seeing a first wave of AI-related exclusions.\n\n# What Mount Does\n\nToday, we’re announcing **Mount AI Agent Liability Insurance**, our first product.\n\nIt is designed for mid-market/enterprise companies deploying autonomous AI agents in real business processes.\\\nHere’s what it does:\n\n1. Scan and red-team the AI deployment.\n2. Quantify the operational risk and secure vulnerabilities.\n3. Insure residual risk with purpose-built AI liability coverage.\n\nThis product delivers peace of mind for thousands of AI-native companies conquering their industries.\n\n# Vision\n\nMount is best thought of as a highly automated commercial insurance carrier.\n\nToday, commercial insurance runs on manual underwriting, slow pricing, paper-heavy policy issuance, brokers, MGAs, TPAs, claims handlers, and large back-office teams. AI changes that. It allows us to automate underwriting, pricing, issuance, claims, fraud detection, customer support, and distribution from the ground up.\n\nOur first product is AI liability insurance. That is the right wedge because AI risk is new, poorly understood, and difficult for traditional carriers to underwrite. But the bigger vision is not to remain in a single niche. We want to use AI liability as the initial beachhead, build the underwriting and operating infrastructure, and then expand aggressively into additional commercial insurance lines.\n\nThe goal is simple: to offer faster, cheaper, and better coverage than incumbents by rebuilding the carrier stack with AI at its core.\n\n# Team\n\nFabian studied CS/ML at ETH Zürich before dropping out and has been building AI systems for 6+ years. While building his last startup, he saw firsthand how technically performing systems get blocked on their way to production if they can't build trust and prove reliability.\n\nJohn previously founded an AI-first media company at 18 after dropping out of high school and scaled it to $400K in revenue. Automating every step from intake to fulfillment, he knows what it means to rebuild traditional processes from the ground up.\n\n![uploaded image](/media/?type=post&id=101822&key=user_uploads/3284831/de838c30-d8d1-4fbf-a56c-7b559c42a561)\n\n---\n\n## Get in touch\n\nIf you are deploying AI agents, looking to insure AI-related risks, or interested in investing in the next generation of commercial insurance, we’d love to talk.\n\n📩 Email us at: [fabian@mount.insure](mailto:fabian@mount.insure) \\\n📅 Or book a meeting here. <https://calendar.app.google/xwiFSDUakj9QBRKE6>",
+      "url": "https://www.ycombinator.com/launches/QUI-mount-the-ai-agent-insurance-carrier",
+      "votes": 181,
+      "created_at": "2026-05-22T18:49:14.885Z"
+    }
+  ]
+}

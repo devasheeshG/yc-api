@@ -1,0 +1,93 @@
+{
+  "id": 27815,
+  "name": "OfOne",
+  "slug": "ofone",
+  "former_names": [],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/6f20cb0518a4682de040512f68325cefe65fca72.png",
+  "website": "https://www.of.one",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "OfOne is building software to automate order taking at fast-food drive-thrus. Using conversational AI, we help restaurant chains operate more efficiently and level-up their customer experience.\r\n\r\nOfOne can answer questions, intelligently upsell - like suggesting ice cream on a hot day - and always says please and thank you.\r\n\r\nThere are 200,000 drive-thrus in the US and they are the industry's largest order channel.\r\n\r\nOur mission is to deliver human centric experiences that help restaurant operators prosper, deliver delight for their customers, and empower their workers.",
+  "one_liner": "AI-powered order taker for restaurant drive-thrus",
+  "team_size": 5,
+  "industry": "B2B",
+  "subindustry": "B2B",
+  "launched_at": 1675101964,
+  "tags": [
+    "Generative AI",
+    "Restaurant Tech"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Winter 2023",
+  "status": "Acquired",
+  "industries": [
+    "B2B"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/ofone",
+  "api": "https://devasheeshg.github.io/yc-api/batches/winter-2023/ofone.json",
+  "year_founded": 2022,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/of-one/",
+  "x_url": "",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/6f20cb0518a4682de040512f68325cefe65fca72.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": null,
+  "founders": [
+    {
+      "user_id": 1162985,
+      "full_name": "Will Edwards",
+      "title": "Founder",
+      "founder_bio": "Previously VP, Revenue @ Crew, a frontline employee communications app. I was the first business hire and helped scale Crew from 0 to 1M+ users and millions in ARR before being acquired by Square in 2021.\n\nBefore Crew, I worked on the Corporate Development team at Intuit where I focused on M&A and venture investments.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/wedwards3/",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/c011c52895d609a4070290409b96ecdd4fd828ef.jpg"
+    },
+    {
+      "user_id": 11973,
+      "full_name": "Adam Proschek",
+      "title": "Founder",
+      "founder_bio": "Previously led product and engineering @ Crew, a frontline-employee communications app. I helped scale Crew from 0 to 1M+ users and millions in ARR before being acquired by Square in 2021.\n\nBefore Crew, I was an iOS engineer at Hotel Tonight (acquired by Airbnb).",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/aproschek/",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/72acd1560e8c31c1b4776ccb1d5c2691111c65db.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [
+    {
+      "title": "Deepgram raises $130M at $1.3B valuation and buys a YC AI startup | TechCrunch",
+      "url": "https://techcrunch.com/2026/01/13/deepgram-raises-130m-at-1-3b-valuation-and-buys-a-yc-ai-startup/",
+      "date": "Jan 13, 2026"
+    }
+  ],
+  "launches": [
+    {
+      "id": 69517,
+      "title": "🤖 🌮 OfOne - Automating order taking at fast food drive-thrus",
+      "tagline": "We help fast food restaurants improve operating margins by automating order taking at the drive-thru.",
+      "body": "**TL;DR:** OfOne is building software to automate order taking at fast-food drive-thrus. Using LLMs, we can save the typical restaurant owner $60,000 in labor costs per store annually.\n\nHi YC community - Adam Proschek (right) and Will Edwards (center) here - founders of [OfOne](https://www.of.one/). \n\n![uploaded image](/media/?type=post&id=69517&key=user_uploads/1162985/20300ff2-47c3-4229-83f1-f4987fe5ffd1)\n\n### **The Problem:**\n\nQuick-service restaurants are a $300B industry in the United States, comprising roughly 300,000 individual restaurant units. These businesses are low-margin with food & labor costs making up \\~70% of OPEX. In recent years, operators (many of whom are immigrants and small business owners) have been getting squeezed as inflation and wages rise and labor becomes more scarce.\n\n### **The Solution:**\n\nOfOne is helping fast food operators make more money by automating their largest ordering channel: the drive-thru.\n\nThere are 200,000 drive-thrus in the United States and in many cases they contribute 70%+ of order volume. They are also expensive, costing on average $14.00 per hour to staff and operating for 12 hours per day - representing $12B in aggregate labor costs.\n\nWe’re offsetting these labor costs by automating the end-to-end ordering process - from greeting customers to answering questions to processing orders through the point-of-sale. Plus, it works with existing drive-thru audio systems.\n\nAdditionally, OfOne can intelligently upsell - like suggesting ice cream on a hot day - and always says please and thank you, raising average order size and improving customer experience.\n\nWe currently have signed & deployed pilots at major national chain stores.\n\n![uploaded image](/media/?type=post&id=69517&key=user_uploads/1162985/7d2fbb4f-dcc7-456f-b7d4-d5dcd518392a)\n\n### **Why we’re building OfOne:**\n\nWe both know the quick-service industry well from building Crew (acq. by Square in 2021), which sold employee communication software to QSR brands, like Taco Bell.\n\nThrough this experience, we built valuable industry relationships and more importantly gained an in-depth understanding of how critical controlling labor costs is for restaurant success. Frankly, it can be the difference between a growing business and defaulting on interest payments for a personally guaranteed loan.\n\n### **Our Ask:**\n\nIf you have any connections with **franchisees**, **multi-unit restaurant operators**, or **leaders at corporate brands** (e.g., Taco Bell Corporate), we’d love to speak with them and share how we can help!\n\n_Here’s a quick blurb you can copy and paste_: A team of restaurant tech entrepreneurs recently launched an AI-powered order taker for quick-service restaurant drive-thrus. They are helping operators boost margins by reducing labor costs and increasing order sizes. You can contact [will@of.one](mailto:will@of.one) for more information.\n\nIf easier, I can also craft an easily forwardable email for you. Just reach out and let me know 😊.",
+      "url": "https://www.ycombinator.com/launches/I5F-ofone-automating-order-taking-at-fast-food-drive-thrus",
+      "votes": 32,
+      "created_at": "2023-02-21T22:52:05.447Z"
+    }
+  ]
+}
