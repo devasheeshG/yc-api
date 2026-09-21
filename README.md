@@ -176,7 +176,7 @@ Both SDKs are fully typed, support async, and wrap every endpoint. See [Python S
 
 API endpoint: https://devasheeshg.github.io/yc-api/meta.json
 
-- Last updated: September 20, 2026 at 02:07 AM UTC
+- Last updated: September 21, 2026 at 02:08 AM UTC
 - Companies: 6241
 - Batches: 51
 - Industries: 59
@@ -330,7 +330,7 @@ API endpoint: https://devasheeshg.github.io/yc-api/meta.json
 | --- | ---- | ------------ |
 | 3D Printed Foods | 1 | https://devasheeshg.github.io/yc-api/tags/3d-printed-foods.json |
 | 3D Printing | 12 | https://devasheeshg.github.io/yc-api/tags/3d-printing.json |
-| AI | 899 | https://devasheeshg.github.io/yc-api/tags/ai.json |
+| AI | 895 | https://devasheeshg.github.io/yc-api/tags/ai.json |
 | AI Assistant | 164 | https://devasheeshg.github.io/yc-api/tags/ai-assistant.json |
 | AI-Enhanced Learning | 48 | https://devasheeshg.github.io/yc-api/tags/ai-enhanced-learning.json |
 | AI-powered Drug Discovery | 37 | https://devasheeshg.github.io/yc-api/tags/ai-powered-drug-discovery.json |
@@ -352,7 +352,7 @@ API endpoint: https://devasheeshg.github.io/yc-api/meta.json
 | Apparel | 4 | https://devasheeshg.github.io/yc-api/tags/apparel.json |
 | Architecture | 5 | https://devasheeshg.github.io/yc-api/tags/architecture.json |
 | Art Trading Platforms | 1 | https://devasheeshg.github.io/yc-api/tags/art-trading-platforms.json |
-| Artificial Intelligence | 1021 | https://devasheeshg.github.io/yc-api/tags/artificial-intelligence.json |
+| Artificial Intelligence | 1026 | https://devasheeshg.github.io/yc-api/tags/artificial-intelligence.json |
 | Assistive Tech | 6 | https://devasheeshg.github.io/yc-api/tags/assistive-tech.json |
 | Augmented Reality | 23 | https://devasheeshg.github.io/yc-api/tags/augmented-reality.json |
 | Auto Commerce | 5 | https://devasheeshg.github.io/yc-api/tags/auto-commerce.json |
@@ -423,7 +423,7 @@ API endpoint: https://devasheeshg.github.io/yc-api/meta.json
 | Customer Support | 30 | https://devasheeshg.github.io/yc-api/tags/customer-support.json |
 | Customization | 2 | https://devasheeshg.github.io/yc-api/tags/customization.json |
 | Cyber Insurance | 1 | https://devasheeshg.github.io/yc-api/tags/cyber-insurance.json |
-| Cybersecurity | 50 | https://devasheeshg.github.io/yc-api/tags/cybersecurity.json |
+| Cybersecurity | 51 | https://devasheeshg.github.io/yc-api/tags/cybersecurity.json |
 | DAO | 2 | https://devasheeshg.github.io/yc-api/tags/dao.json |
 | Data Engineering | 107 | https://devasheeshg.github.io/yc-api/tags/data-engineering.json |
 | Data Labeling | 20 | https://devasheeshg.github.io/yc-api/tags/data-labeling.json |
@@ -441,7 +441,7 @@ API endpoint: https://devasheeshg.github.io/yc-api/meta.json
 | Design Tools | 57 | https://devasheeshg.github.io/yc-api/tags/design-tools.json |
 | DevOps | 51 | https://devasheeshg.github.io/yc-api/tags/devops.json |
 | DevSecOps | 33 | https://devasheeshg.github.io/yc-api/tags/devsecops.json |
-| Developer Tools | 553 | https://devasheeshg.github.io/yc-api/tags/developer-tools.json |
+| Developer Tools | 554 | https://devasheeshg.github.io/yc-api/tags/developer-tools.json |
 | Diagnostics | 32 | https://devasheeshg.github.io/yc-api/tags/diagnostics.json |
 | Digital Freight Brokerage | 3 | https://devasheeshg.github.io/yc-api/tags/digital-freight-brokerage.json |
 | Digital Health | 115 | https://devasheeshg.github.io/yc-api/tags/digital-health.json |
@@ -462,7 +462,7 @@ API endpoint: https://devasheeshg.github.io/yc-api/meta.json
 | Energy | 55 | https://devasheeshg.github.io/yc-api/tags/energy.json |
 | Energy Storage | 13 | https://devasheeshg.github.io/yc-api/tags/energy-storage.json |
 | Enterprise | 113 | https://devasheeshg.github.io/yc-api/tags/enterprise.json |
-| Enterprise Software | 135 | https://devasheeshg.github.io/yc-api/tags/enterprise-software.json |
+| Enterprise Software | 136 | https://devasheeshg.github.io/yc-api/tags/enterprise-software.json |
 | Entertainment | 52 | https://devasheeshg.github.io/yc-api/tags/entertainment.json |
 | Exascale Computing | 1 | https://devasheeshg.github.io/yc-api/tags/exascale-computing.json |
 | Fashion | 20 | https://devasheeshg.github.io/yc-api/tags/fashion.json |
