@@ -1,0 +1,94 @@
+{
+  "id": 31082,
+  "name": "Quotient Labs",
+  "slug": "quotient-labs",
+  "former_names": [
+    "Syntropy"
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/67e517c455ab1e170ed6b2628a4dce9546f07490.png",
+  "website": "https://quotientlabs.com",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "You should only be paying frontier model prices for top-shelf reasoning. But 88% of your token bill is just tool I/O.\r\n Quotient Labs runs on top of Claude Code to reduce token spend, compress context, and optimize tool calls while preserving output quality. Same models, same workflow, no changes to how you work. Benchmarked 47% less cost on real, multi-step developer workflows, with no quality loss.",
+  "one_liner": "Use Claude Code at 47% less cost in one line of installation.",
+  "team_size": 2,
+  "industry": "B2B",
+  "subindustry": "B2B -> Productivity",
+  "launched_at": 1772518250,
+  "tags": [
+    "Artificial Intelligence",
+    "Developer Tools",
+    "SaaS"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Winter 2026",
+  "status": "Active",
+  "industries": [
+    "B2B",
+    "Productivity"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/quotient-labs",
+  "api": "https://devasheeshg.github.io/yc-api/batches/winter-2026/quotient-labs.json",
+  "year_founded": 2025,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/quotientlabs",
+  "x_url": "https://x.com/syntropyio",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/67e517c455ab1e170ed6b2628a4dce9546f07490.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Ankit Gupta",
+    "url": "https://www.ycombinator.com/people/ankit-gupta"
+  },
+  "founders": [
+    {
+      "user_id": 3146534,
+      "full_name": "Saahil Sundaresan",
+      "title": "Founder",
+      "founder_bio": "Making coding agents cheaper @ Quotient Labs | Stanford CS & Linguistics | formerly at Apple, Amazon\n\nFeel free to reach out for anything! saahil@quotientlabs.com",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/saahil-sundaresan/",
+      "x_url": "https://x.com/imsaahilsangye",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/e304ced8cba2226f90d21d9467a03cf7a0c608de.jpg"
+    },
+    {
+      "user_id": 3141216,
+      "full_name": "Andrew Kuik",
+      "title": "Founder",
+      "founder_bio": "Making coding agents cheaper @ Quotient Labs. Stanford CS; previously at AWS, Accenture\n\nFeel free to reach out for anything!",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/andrew-kuik-109749238/",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/d99bc8a7e3e1c6722600ee98bfbcdc3508791975.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 114944,
+      "title": "Quotient Labs: Stop overpaying Claude for tokens you don't need",
+      "tagline": "We cut your Claude Code costs by 47% in one line of install. Same models, same workflow, half the price.",
+      "body": "**TLDR**: **Tokenmaxxing is out. Tokenminning is in.** Quotient Labs sits on top of Claude Code and reduces the amount of context you pay for—without changing your models, prompts, projects, or workflow. Across real, multi-step developer workflows, we’ve benchmarked **47% lower token cost with no measured quality loss.** Get started today at <https://www.quotientlabs.com/>.\n\n**The Problem**\n\nCoding agents accumulate a lot of context.\n\nEvery file read, search result, test run, tool output, generated plan, and conversation turn gets added to the session. As the session grows, this history is repeatedly re-read (and re-billed) long after it has stopped being useful in its original form. The result? **You’re overpaying Claude for tokens your agent never needed.**\n\n**Fermat’s Last Token** (our main product) sits on top of Claude Code and optimizes what enters and remains in your model’s context. We do this in four ways:\n\n1. **Faster, more cost-efficient agent tools** that batch operations and return compact, information-dense results.\n2. **Bash output compression** that preserves the useless parts of long command and test outputs while removing the bloat.\n3. **Live text compression** that removes the information-sparse and irrelevant tokens in conversation turns before they ever compound in cost. \n4. **Idle context optimization** that compresses older conversation history as the prompt cache expires (this is more often than you think; only 5 minutes TTL) while preserving the freshest context verbatim.\n\nThe important part: **you keep using Claude Code exactly as you do today.**\n\n**Observability**: See real-time estimated cost and savings down to the session and request level, as well as manage your organizations and users, in the user dashboard: <https://console.quotientlabs.com/>. \n\n**Ready to go in 30 seconds.** Install Fermat, sign in, and continue using Claude Code normally:\n\n**curl -fsSL [https://downloads.quotientlabs.com/fermat/install.sh](https://downloads.quotientlabs.com/fermat/install.sh) | bash &amp;&amp; fermat login**\n\n**Fermat is compatible with both CLI and the VS Code extension.** Your existing projects, prompts, models, integrations, and interface are untouched.\n\nYou can bypass Fermat (if you really want) on a particular chat any time with _claude --vanilla._ You can also fully uninstall in one line with _fermat uninstall_ (though we don’t recommend either :)).\n\n**Our ask**\n\nWe’re looking for devs and engineering teams who use Claude Code heavily, especially on long-running, tool-intensive engineering tasks. \n\nWe’d love to get feedback on where Fermat helps the most, where compression could be better, and any features or changes you’d like to see.\n\nGet started: <https://quotientlabs.com/>\n\nOr message us directly: [founders@quotientlabs.com](mailto:founders@quotientlabs.com)\n\n**Founders**\n\nBefore Quotient Labs, we’ve been at Stanford (BS+MS CS/AI), industry (Apple, AWS, Accenture) and in academia (with multiple publications).\n\n![uploaded image](/media/?type=post&id=114944&key=user_uploads/3146534/39cb7ad4-595a-428f-aa75-7a0570a93673)\n\n",
+      "url": "https://www.ycombinator.com/launches/Ttw-quotient-labs-stop-overpaying-claude-for-tokens-you-don-t-need",
+      "votes": 9,
+      "created_at": "2026-09-14T15:33:54.262Z"
+    }
+  ]
+}

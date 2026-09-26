@@ -1,0 +1,101 @@
+{
+  "id": 29465,
+  "name": "Polar",
+  "slug": "polar",
+  "former_names": [
+    "Aria",
+    "GoldenBasis"
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/a67ca9f40a361ea65885c3e75244352a9f9f8a46.png",
+  "website": "https://www.polarfi.com",
+  "all_locations": "San Francisco, CA, USA; Remote",
+  "long_description": "Polar helps remote workers, freelancers, and online sellers outside the U.S. who get paid in dollars get better exchange rates when moving earnings to their local bank. We give them a U.S. dollar account in their name to receive USD earnings and let them withdraw through local bank transfers or stablecoins instead of the expensive options they use today.",
+  "one_liner": "The smarter way to manage USD earnings globally",
+  "team_size": 2,
+  "industry": "Fintech",
+  "subindustry": "Fintech -> Consumer Finance",
+  "launched_at": 1708655609,
+  "tags": [
+    "Fintech",
+    "Crypto / Web3",
+    "Investing",
+    "Remittances",
+    "Neobank"
+  ],
+  "tags_highlighted": [
+    "Crypto / Web3"
+  ],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Winter 2024",
+  "status": "Active",
+  "industries": [
+    "Fintech",
+    "Consumer Finance"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada",
+    "Remote",
+    "Fully Remote"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/polar",
+  "api": "https://devasheeshg.github.io/yc-api/batches/winter-2024/polar.json",
+  "year_founded": 2024,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/polarfihq",
+  "x_url": "https://twitter.com/polarfihq",
+  "fb_url": "https://www.facebook.com/profile.php?id=61586231414913",
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/a67ca9f40a361ea65885c3e75244352a9f9f8a46.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Pete Koomen",
+    "url": "https://www.ycombinator.com/people/pete-koomen"
+  },
+  "founders": [
+    {
+      "user_id": 714908,
+      "full_name": "Grant Ackerman",
+      "title": "Founder/CEO",
+      "founder_bio": "Grant is the co-founder & CEO of Polar. Grant previously led Altruist's integration of SSG, which Altruist acquired to become the third-largest custodian by number of RIAs behind Schwab and Fidelity. Before that, Grant helped grow Princeton’s endowment from $26.1 billion to $37.7 billion as a member of the 20-person investment staff. Grant graduated from Princeton, where he studied Economics, Computer Science, and Finance.",
+      "is_active": true,
+      "linkedin_url": "https://linkedin.com/in/grant-a-391184a5",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/fabf18070205e7fed9e6ca2840ea77041aff3025.jpg"
+    },
+    {
+      "user_id": 1691392,
+      "full_name": "Andrew Wang",
+      "title": "Founder/CTO",
+      "founder_bio": "Andrew is the co-founder & CTO of Polar. Before that, he worked in quant research and software engineering at Citadel and Bridgewater. Andrew graduated from Princeton, where he majored in Operations Research & Financial Engineering (ORFE).",
+      "is_active": true,
+      "linkedin_url": "",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/55ac011d48301889055ce43c035b0cd0f97bac24.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 78734,
+      "title": "GoldenBasis - Modern back-office software for brokerages",
+      "tagline": "Revamping the brokerage operations tech stack, starting with account transfers",
+      "body": "### **TLDR;**\n\n[GoldenBasis](https://www.goldenbasis.com) makes it easy for brokerages (think Schwab or Fidelity) to run their back office with modern software, and we’re starting with investment account transfers. For example, when you want to transfer your stocks from Schwab to Fidelity, GoldenBasis would let Fidelity gather your transfer information, track the status of your transfer, and automatically update their internal records.\n\n### **Ask**\n\nIf you or someone you know is leading a brokerage operations team and wants to improve their account transfer process, please reach out at [founders@goldenbasis.com](mailto:founders@goldenbasis.com)!\n\n### **A quick primer on account transfers**\n\n* Account transfers exist so you can move to a new brokerage without selling your positions, which could incur taxes.\n* Incoming account transfers are a primary source of growth for brokerages.\n* Over $90 billion of assets are transferred every month in the US. Surprisingly, 18% of these transfers are delayed, often for several weeks \\[1\\].\n\n**How the process works**\n\nLet’s say you want to transfer your assets from Schwab to Fidelity. The following needs to happen:\n\n* You fill out an account transfer form at Fidelity.\n* Fidelity sends this information to Schwab.\n* Schwab tells Fidelity what assets are in your account.\n* Fidelity makes sure they can hold these assets.\n* Your assets move to Fidelity a few days later.\n\nThis back-and-forth process is part of a standard protocol called ACATS, and it lets brokerages transfer assets to each other electronically \\[2\\]. The process above sounds straightforward, but there are hundreds of edge cases detailed in manuals that total over 1000 pages.\n\n### **Problem**\n\nTransfers are supposed to take 3-4 days but often take weeks. During the transfer:\n\n* You can’t trade your assets.\n* To find out the status of your transfer, you need to contact customer support.\n* The brokerage receiving your assets is missing out on revenue.\n* The brokerage delivering your assets gets in trouble with the regulators if they don’t go quickly enough.\n\nWhy are delays so common? It’s because there are multiple rounds of manual data entry and any small mistake (e.g. missing comma) can delay the transfer. Furthermore, the operations team has to resolve issues on outdated platforms that are hard to use.\n\nHere’s a taste of the experience today:\n\n* You begin the transfer by filling out a daunting form.\n\n  ![uploaded image](/media/?type=post&id=78734&key=user_uploads/714908/c77b27cb-a621-4364-a3dc-4f2f371897b0)\n\n* The brokerage operations team re-enters your form and handles issues in a back-office system.\n\n  ![uploaded image](/media/?type=post&id=78734&key=user_uploads/714908/9a53a162-695a-40b4-a41a-a7cc1cb1834d)\n\n\n### **Solution**\n\nGoldenBasis provides a modern software stack that solves these issues:\n\n* With GoldenBasis, you don’t need to fill out any forms. Just upload your account statement from the brokerage you want to leave, and our AI extracts and validates the fields, which vastly reduces errors.\n\n  ![uploaded image](/media/?type=post&id=78734&key=user_uploads/714908/1966b057-cc89-42ab-b4ce-acc20f50d53a)\n\n* GoldenBasis lets you easily track the status of your transfer so you know what’s going on without having to contact support.\n\n  ![uploaded image](/media/?type=post&id=78734&key=user_uploads/714908/984e522f-5537-4876-b8d3-748ca0971ed5)\n\n* GoldenBasis provides modern GUIs for the operations team to handle issues.\n\n  ![uploaded image](/media/?type=post&id=78734&key=user_uploads/714908/234c33e9-a876-4aba-9080-30c7d741a042)\n\n\n### **Team**\n\n![uploaded image](/media/?type=post&id=78734&key=user_uploads/714908/9c49f965-4e87-4d7e-86ec-eb85ead3e823)\n\n[Grant](https://linkedin.com/in/grant-a-391184a5) (CEO) met [Andrew](https://linkedin.com/in/andrew-wang-0b5526109) (CTO) in college at Princeton, where they became best friends. In fact, Andrew was the best man at Grant’s wedding. They teamed up to take on their biggest adventure yet: building a startup and reading a couple thousand pages of manuals along the way.\n\nBefore GoldenBasis, Grant worked at Altruist, where he discovered the outdated technology that was causing so much pain for brokerage back offices. He also led Altruist’s integration of SSG post-acquisition, which made Altruist the third-largest custodian for financial advisors, behind Charles Schwab and Fidelity. Before that, Grant helped grow Princeton’s endowment from $26.1 billion to $37.7 billion as a member of the 20-person investment staff.\n\nBefore GoldenBasis, Andrew did quant research and software engineering at Citadel, where he built trading systems that process billions of dollars per day. Before that, he worked at Bridgewater, where he wrote software to model global economies and trade fixed-income securities. Andrew loved the prospect of bringing legacy systems to the modern age, especially the back office since it’s so often neglected.\n\n\\[1\\] <https://www.sifma.org/wp-content/uploads/2022/10/SIFMA-Transfer-of-Customer-Assets-Guidance-2022.pdf>\n\n\\[2\\] <https://www.investopedia.com/terms/a/acat.asp>",
+      "url": "https://www.ycombinator.com/launches/KTu-goldenbasis-modern-back-office-software-for-brokerages",
+      "votes": 19,
+      "created_at": "2024-02-26T04:35:58.966Z"
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "id": 27868,
+  "name": "Outerbase",
+  "slug": "outerbase",
+  "former_names": [],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/e7ffc83c79c7fc5268f3ebcb40e602151effc32b.png",
+  "website": "https://www.outerbase.com",
+  "all_locations": "Pittsburgh, PA, USA; San Francisco, CA, USA; Remote",
+  "long_description": "Outerbase is the interface for your database. Companies use Outerbase to view, edit, and modify their data and even generate beautiful visual dashboards without having to write a single line of SQL.",
+  "one_liner": "The interface for your database",
+  "team_size": 4,
+  "industry": "B2B",
+  "subindustry": "B2B -> Engineering, Product and Design",
+  "launched_at": 1673832882,
+  "tags": [
+    "Developer Tools",
+    "Generative AI",
+    "Analytics",
+    "Data Engineering",
+    "AI"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Winter 2023",
+  "status": "Acquired",
+  "industries": [
+    "B2B",
+    "Engineering, Product and Design"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada",
+    "Remote",
+    "Fully Remote"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/outerbase",
+  "api": "https://devasheeshg.github.io/yc-api/batches/winter-2023/outerbase.json",
+  "year_founded": 2022,
+  "city": "Pittsburgh",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/outerbase",
+  "x_url": "https://www.twitter.com/outerbase",
+  "fb_url": null,
+  "cb_url": "https://www.crunchbase.com/organization/outerbase",
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/e7ffc83c79c7fc5268f3ebcb40e602151effc32b.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": null,
+  "founders": [
+    {
+      "user_id": 1247130,
+      "full_name": "Brandon Strittmatter",
+      "title": "Founder",
+      "founder_bio": "Brandon is co-founder of Outerbase, the interface for your database. Modern teams use Outerbase to view, edit, query, visualize, and share their data. Prior to co-founding Outerbase, Brandon led design for DigitalOcean's managed solutions (App Platform, Serverless, and DBaaS (Database as a Service), and was the founding designer of Containership, a startup building a multi-cloud Kubernetes platform.",
+      "is_active": true,
+      "linkedin_url": "https://linkedin.com/in/brandonstrittmatter",
+      "x_url": "https://www.twitter.com/burcs",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/b75559606ef38a37cbdc92a165ab1b5950adb763.jpg"
+    },
+    {
+      "user_id": 505802,
+      "full_name": "Brayden Wilmoth",
+      "title": "Founder",
+      "founder_bio": "Brayden is a co-founder of Outerbase, the interface for your database. Prior to founding Outerbase, Brayden was a software engineering manager at Walmart leading multiple teams of engineers on various platforms for the native applications and web experiences. At his time there he guided teams in making key data-driven decisions, in which he took his experience from to assist in building Outerbase.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/brayden-wilmoth/",
+      "x_url": "https://twitter.com/BraydenWilmoth",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/30c5b71e48d1a39556079a95091351ba214bedd7.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 69291,
+      "title": "👾 Outerbase – Interface for your database",
+      "tagline": "Outerbase is the easiest way for you and your team to securely access your data.",
+      "body": "Hi everyone – we are Brandon & Brayden from Outerbase.\n\n**📚 TL;DR**\n\nCurrent database tooling is poorly designed and historically been targeted solely at developers. Outerbase is a modern platform that allows you and your entire team to view the data you need whether it be in Postgres, MySQL, Snowflake, BigQuery or more.\n\n### \n\n**🪨 The Problem**\n\nGetting access to your data is hard. Typically there are only a few people who hold the keys to it at any given company and they quickly become a bottleneck on data requests. The tooling around it is outdated and poorly designed, and not intended for the modern collaborative work environments.\n\n![uploaded image](/media/?type=post&id=69291&key=user_uploads/1247130/86c6422c-a53c-41d7-a9fa-10c9e5362450)\n\n### \n\n**⚒️ Our Solution**\n\nOuterbase provides an intuitive interface with granular access to your data. It has a familiar spreadsheet-like experience that anyone can use. Outerbase’s EZQL provides a sql-less experience through the use of GPT-3. You can take those same queries and create beautiful dashboards all in one experience.\n\n### \n\n**⚙️ How Outerbase Works**\n\nWe sit on top of most relational database types, including Postgres, MySQL, Redshift, BigQuery, and Snowflake. You simply provide your database credentials and Outerbase gives you a spreadsheet-like experience to view, edit, query, and visualize your data. Since access is based on your credentials you can easily control how granularly your team accesses your data. Our EZQL feature is powered by OpenAI and takes your databases schema and structures your questions/queries based on it.\n\n![uploaded image](/media/?type=post&id=69291&key=user_uploads/1247130/8bf0e1cb-0788-47a1-84aa-8d91e6652aad)\n\n### \n\n**🙋 Asks**\n\nTry Outerbase, simply [sign up](https://app.outerbase.com/signup) and get started with our demo database, or add your own database credentials in the connections tab. You can also [download](http://app.outerbase.com/downloads/Outerbase.dmg) our mac app.\n\nIf you know of anyone trying to kick off the process of making data-driven decisions but doesn’t know where to start, please intro them to us!\n\nJoin our Slack [community](https://join.slack.com/t/outerbasecommunity/shared_invite/zt-1ple7fhsg-2z6MIC_P4fzdrKe1koJ7kQ).\n\nAnd, if you have 15 minutes to chat about your pain points accessing your data please book some time [here](https://calendly.com/outerbase/demo).",
+      "url": "https://www.ycombinator.com/launches/I1b-outerbase-interface-for-your-database",
+      "votes": 86,
+      "created_at": "2023-02-14T23:19:39.388Z"
+    }
+  ]
+}

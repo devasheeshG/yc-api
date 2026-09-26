@@ -1,0 +1,113 @@
+{
+  "id": 32206,
+  "name": "DeepReach Inc.",
+  "slug": "deepreach-inc",
+  "former_names": [],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/165caaebecbd3f0b9470bb5817a0a1817520c935.png",
+  "website": "http://www.deepreach.ai",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "Physical AI — robots and world models — is bottlenecked on one thing: diverse,\r\nreal-world data at massive scale showing how humans actually do work in the\r\nphysical world. It was never written down, and you can't buy it, because no one\r\nhas ever captured it. Only real local experts, the people who do this work every\r\nday, can produce data this authentic and valuable.\r\n\r\nDeepReach builds the network that reaches them. We design and manufacture\r\nwearable stereo capture devices, then place them with local data partners who\r\nrun collection as their own business — in warehouses, workshops, farms, kitchens\r\nand repair shops. They own the local relationships; we supply the hardware, the\r\nsoftware platform, the quality pipeline and the payments. Anyone can run a data\r\nbusiness.\r\n\r\nThat structure is what produces diversity. Instead of thousands of hours inside\r\none environment, we deliver hours spread across thousands of environments —\r\nwhich is what actually makes robot policies generalize.\r\n\r\n475 devices in the field and 100+ data partners are live across 7 countries, adding new\r\npartners every week. They've collected nearly 150,000 clips in the past three\r\nmonths, with volume roughly doubling month over month. Our data is in production\r\nwith multiple frontier model and robotics companies, and we're scaling to\r\n10,000+ devices across 50 countries.",
+  "one_liner": "Network for Physical AI Data Business",
+  "team_size": 6,
+  "industry": "B2B",
+  "subindustry": "B2B",
+  "launched_at": 1786563914,
+  "tags": [
+    "Artificial Intelligence",
+    "Hardware",
+    "Machine Learning",
+    "Robotics",
+    "Computer Vision"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": true,
+  "nonprofit": false,
+  "batch": "Summer 2026",
+  "status": "Active",
+  "industries": [
+    "B2B"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": [
+    {
+      "question": "How did your company get started? (i.e., How did the founders meet? How did you come up with the idea? How did you decide to be a founder?)",
+      "answer": "Chris and I are from the same hometown and have known each other for ten years, long before either of us thought about robots.\r\n\r\nIn that time I built two companies around the same problem: how do you organize people you'll never meet, in places you'll never visit, to do consistent work? The first was HireIO, a cross-border staffing platform out of Silicon Valley. The second was Talex, an expert network for LLM data annotation — around 70,000 people across ten countries. Chris went the other direction: a CS PhD at USC in computer vision, ML infrastructure at Meta, then founding ML engineer at Aven.\r\n\r\nRunning an annotation network for language models, I kept hitting the same wall from the supply side. Text was running out, and the next generation of models wasn't going to learn from the internet. It was going to learn from the physical world — and nobody had captured it. What a warehouse picker, a line cook or a phone repair technician knows is real expertise, and none of it was ever written down. You can't buy that data, because it doesn't exist yet. Chris was hitting the same wall from the model side, watching what was missing from training sets.\r\n\r\nThe default answer at the time was to put a lab in one city and record thousands of hours in the same room. That produces volume, not diversity, and robot policies don't generalize from volume. What the models needed was the opposite shape: a few hours each from thousands of different real workplaces, all over the world. Which meant the bottleneck wasn't an AI problem. It was a distributed human network problem — reaching thousands of ordinary businesses across dozens of countries, and giving the people already working in them a reason to capture what they do. That was the problem I'd spent two companies learning to solve.\r\n\r\nWe started DeepReach in 2025. Chris owns perception and the data engine; I own the network, hardware operations and the commercial side. Ten years of knowing each other means we skipped most of the negotiation that takes co-founders their first year."
+    },
+    {
+      "question": "What is the core problem you are solving? Why is this a big problem? What made you decide to work on it?",
+      "answer": "Core problem: robot models can't generalize, because the data they learn from all looks the same.\r\n\r\nPhysical AI needs to see how work actually happens — a mechanic torquing a bolt, a baker shaping dough, a technician opening a phone. None of it was ever written down. The internet captured what people say about the world; it never captured how people act in it. So unlike language models, this generation can't be trained on scraped text. Every hour has to be collected on purpose. \r\n\r\nToday the field has roughly tens of thousands of hours of this data against a need estimated in the hundreds of millions. But the gap isn't really a volume gap. It's a diversity gap. The standard approach is to build a lab, hire operators, and record for months in one controlled space. That yields thousands of hours that all look alike, and a policy trained on it fails the moment the lighting, the counter height, or the tool changes. Our customers' acceptance specs now reflect this directly: they cap how much of a delivery can come from any single environment type, and reject batches that are too concentrated. Diversity is the binding constraint, and it's now contractual.\r\n\r\nDiversity is hard for an economic reason, not a technical one. Collecting one hour each from a thousand real workplaces means negotiating access to a thousand real businesses — each with an owner who has no reason to let a stranger film their operation, in a country where you have no presence. That cost is why everyone else builds the lab instead. It's a distribution problem wearing an AI problem's clothes. \\\r\n\\\r\nThat's why we built the company as a network rather than an operation. The people who already work in those places, and already have the trust and the access, run collection as their own local business. We give them the hardware, the software and the payments. Access stops being something we buy and becomes something the network already has. \\\r\n\\\r\nI decided to work on this from the supply side. I'd spent two companies building cross-border human networks — a staffing platform, then a 70,000-person annotation network across ten countries — and kept watching demand arrive for data that no existing structure could produce. The bottleneck was never the model. It was that nobody had built the network that reaches the physical world."
+    },
+    {
+      "question": "What is your long-term vision? If you truly succeed, what will be different about the world?",
+      "answer": "The long-term vision is a network that can reach any workplace on earth, and a record of how human work is actually done.\r\n\r\nConcretely: 10,000+ devices, 50 countries, one million commercial scenes, ten million task types. Every deployment adds to what we call the Human Skill Library — a permanent record of how people do physical work, built from the inside by the people who do it. Much of this knowledge exists nowhere else. It lives in the hands of a mechanic who has been doing the job for thirty years, and when he retires it's gone. Text and video on the internet captured what people say about work. Nobody has captured the work. \r\n\r\n\\\r\nIf we succeed, two things are different：\\\r\nFirst, robots stop being confined to the places that can afford to build around them. Today automation only pays at Amazon scale — a facility large enough to redesign itself for the machine. That's a rounding error of the world's actual workplaces. A policy trained on a million real environments doesn't need the environment to change; it works in a repair shop with bad lighting and a counter at the wrong height. That's the difference between robotics as a capability the largest companies buy and robotics as infrastructure a small business can use.\\\r\nSecond, the people whose work teaches these models are inside the economy that results. The last generation of AI was trained on data scraped from people who were never asked and never paid. This one has to be collected on purpose, from real workers in real workplaces, which means it can be built the other way — as something people opt into and earn from. We already have data partners in ten countries running this as a business they own. At 10,000 operators that isn't a side effect of how we source data. It's the point."
+    }
+  ],
+  "url": "https://www.ycombinator.com/companies/deepreach-inc",
+  "api": "https://devasheeshg.github.io/yc-api/batches/summer-2026/deepreach-inc.json",
+  "year_founded": 2025,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/in/timothyli-deepreach/",
+  "x_url": "https://x.com/DeepReach_AI?s=20",
+  "fb_url": null,
+  "cb_url": "https://www.crunchbase.com/organization/deepreach-ai",
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/165caaebecbd3f0b9470bb5817a0a1817520c935.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [
+    "https://bookface-images.s3.us-west-2.amazonaws.com/attachments/482534d82410b1adf1774b961acd50c6704093e0.png"
+  ],
+  "primary_partner": {
+    "name": "Brad Flora",
+    "url": "https://www.ycombinator.com/people/brad-flora"
+  },
+  "founders": [
+    {
+      "user_id": 3114257,
+      "full_name": "Chris Liu",
+      "title": "Founder/CTO",
+      "founder_bio": "Co-founder at DeepReach Inc. Founding MLE & tech lead of Aven scaling to #1 in DM volume in the US. Research Scientist at Meta working on core ML systems. PhD in computer vision from USC. B.S. from Peking University.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/drxcliu",
+      "x_url": "https://x.com/drxcliu",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/1f9e9212493e67c1bb9a3a913e2ab4c6fa9b897e.jpg"
+    }
+  ],
+  "jobs": [
+    {
+      "id": 112083,
+      "title": "VP / Head of Global Data Partner Network & Operations",
+      "url": "https://www.ycombinator.com/companies/deepreach-inc/jobs/r0itCEs-vp-head-of-global-data-partner-network-operations",
+      "location": "San Jose, CA, US",
+      "type": "Full-time",
+      "role": "Operations",
+      "role_type": null,
+      "salary_range": "$150K - $200K",
+      "equity_range": "0.50% - 1.00%",
+      "experience": "3+ years",
+      "visa": "Will sponsor",
+      "skills": []
+    }
+  ],
+  "news": [],
+  "launches": [
+    {
+      "id": 110389,
+      "title": "DeepReach: Launch a real-world data business today",
+      "tagline": "Multi-million-dollar contracts secured with frontier AI labs — and growing",
+      "body": "**TL;DR:** DeepReach is a global data network that equips local entrepreneurs with wearable devices to capture the real-world operation data for Physical AI training. By decentralizing collections across thousands of entrepreneurs who have access to local businesses, they provide high-diversity training data that cannot be accessed elsewhere. DeepReach already signed multiple-million-dollar contracts with frontier AI labs.\\\n\\\n**DeepReach is building a global network for real-world human data to train Physical AI.**\n\nWe enable local entrepreneurs to operate data-collection businesses using our wearable capture devices, while we provide the hardware, software, QA, and customers.\n\nThe result is a distributed network that produces the diverse human demonstrations Physical AI labs cannot obtain anywhere else. Every new data partner expands the diversity and value of the network.\n\nIn just three months, DeepReach has helped **150+ entrepreneurs** build data businesses employing **1,000+ local experts** across **7 countries**. Together, they’ve collected **500,000+ real-world operation clips**, captured **150,000+ professional skill demonstrations**, and secured **several million dollars in customer contracts** with frontier AI labs and robotics companies.\n\n▶ **Watch how it works:** <https://youtu.be/q5mLwju5Q8U?si=CT3FHbNJaIteNXZD>\n\n---\n\n# **The Problem**\n\nFrontier AI is already learning from the physical world.\n\nThe challenge is no longer collecting data, it’s collecting **diverse** real-world data at scale.\n\nMost companies solve this by building collection labs or hiring workers directly. Both approaches scale headcount, but neither scales access. The hardest part is reaching millions of real workplaces across different industries, countries, and working conditions.\n\nWithout that diversity, AI struggles to generalize beyond a small number of controlled environments.\n\n---\n\n# **What We Built**\n\nInstead of building another data collection company, **we built a platform where entrepreneurs launch independent real-world data businesses.**\n\nDeepReach provides the wearable devices, software platform, quality infrastructure, customer demand, operational support, and payments. **Entrepreneurs build and grow the businesses.**\n\nThey recruit local experts, develop trusted relationships with local businesses, and continuously expand into new industries, communities, and real-world environments.\n\n**Every new business expands the platform’s reach into the physical world, creating access to places, people, and skills that centralized data collection simply can’t reach.**\n\nThe result isn’t a larger workforce, it’s **a growing ecosystem of independent data businesses** that continuously expands the world’s supply of diverse real-world data for Physical AI.\n\n---\n\n# **Where We Are**\n\nIn just three months:\n\n* **150+ entrepreneurs** have launched data businesses on DeepReach\n* Those businesses now employ **1,000+ local experts** across **7 countries**\n* **500,000+ real-world operation clips** collected\n* **150,000+ professional skill demonstrations** captured\n* **Several million dollars in signed customer contracts** with frontier AI labs and robotics companies\n* Scaling toward **10,000+ devices** across **20 countries**\n\n# **Where This Goes**\n\nOur model is simple: labs list the tasks and environments they need, our entrepreneurs pick up the orders and go record them, and every delivery makes the network more capable of fulfilling the next one. It also compounds into something bigger, what we call the **Human Skill Library**: a growing record of how people interact with the physical world.\n\nMost of this knowledge has never been documented. It lives in the hands of experienced workers, passed down through practice rather than words, and it often disappears when they retire.\n\nOur vision is to preserve and scale humanity's physical knowledge, so every AI system can learn from the collective experience of human work.\n\n# **About Us**\n\n\\\nTim built HireIO into a leading global workforce company with 15 millions in annual revenue, then founded [Talex.ai](http://Talex.ai), an AI-powered expert network, before starting DeepReach. Chris comes from a computer vision background. We discovered the problem firsthand while labeling data for robotics startups: the real bottleneck wasn’t annotation, it was capturing diverse real-world human skills at scale.\n\n![uploaded image](/media/?type=post&id=110389&key=user_uploads/1294315/9bb8c293-ab57-42aa-b756-58562e546b78)\n\n---\n\n# **How You Can Help**\n\nIf you’re building frontier AI systems and need more diverse real-world data, we’d love to talk.\n\nIf you’re an entrepreneur interested in building a real-world data business, applications are open here: [www.deepreach.ai/join](https://www.deepreach.ai/join)\n\nTim Li\\\nFounder &amp; CEO, DeepReach AI\n\n[**tim.li@deepreach.ai**](mailto:tim.li@deepreach.ai)",
+      "url": "https://www.ycombinator.com/launches/SiT-deepreach-launch-a-real-world-data-business-today",
+      "votes": 469,
+      "created_at": "2026-08-13T18:33:15.556Z"
+    }
+  ]
+}

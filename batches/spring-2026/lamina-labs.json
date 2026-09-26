@@ -1,0 +1,90 @@
+{
+  "id": 31421,
+  "name": "Lamina Labs",
+  "slug": "lamina-labs",
+  "former_names": [
+    "Lamina AI"
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/0f3c20c1d636f955e4a6afb30207ec372d5f1a4f.png",
+  "website": "https://laminalabs.ai",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "Lamina Labs is building infrastructure for near-real-time structured video generation.\r\n\r\nMost AI video is built for cinematic clips. Lamina is built for useful videos that break down ideas, workflows, and AI answers. Our first product, Simi, turns prompts and documents into whiteboard-style explainer videos in seconds",
+  "one_liner": "Near-real-time video infrastructure for LLMs",
+  "team_size": 2,
+  "industry": "B2B",
+  "subindustry": "B2B -> Engineering, Product and Design",
+  "launched_at": 1773199517,
+  "tags": [],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Spring 2026",
+  "status": "Active",
+  "industries": [
+    "B2B",
+    "Engineering, Product and Design"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/lamina-labs",
+  "api": "https://devasheeshg.github.io/yc-api/batches/spring-2026/lamina-labs.json",
+  "year_founded": 2025,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/lamina-labs/about/",
+  "x_url": "https://x.com/laminalabs",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/0f3c20c1d636f955e4a6afb30207ec372d5f1a4f.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Pete Koomen",
+    "url": "https://www.ycombinator.com/people/pete-koomen"
+  },
+  "founders": [
+    {
+      "user_id": 2592448,
+      "full_name": "Sudip Rokaya",
+      "title": "Founder/CEO",
+      "founder_bio": "Sudip is co-founder of Lamina Labs, building the video infrastructure for LLMs. He studied CS and Math at MIT and did ML research at MIT's McGovern Institute. He represented Nepal at the International Olympiad on Astronomy & Astrophysics as his team's top scorer, and has published two math papers.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/sudip-rokaya-675604279/",
+      "x_url": "https://x.com/itsrealranky",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/61c9ab61ce6b6b091fb66dcd00cf16a7a28721ea.jpg"
+    },
+    {
+      "user_id": 1099724,
+      "full_name": "Kartikesh Mishra",
+      "title": "Founder/CTO",
+      "founder_bio": "Co-founder of Lamina Labs (YC P26) | EECS @ MIT BSc' 24 MEng' 25 ",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/mk314k/",
+      "x_url": "https://x.com/mk314k",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/1d45f8f72e98f2844ece8e9e937347ea7c774b4a.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 104668,
+      "title": "Simi: The Fastest AI Whiteboard Explainer Video Generator",
+      "tagline": "The Fastest Way to Generate Whiteboard Explainer Videos from a Single Prompt or Documents",
+      "body": "**TL;DR:** Simi is the fastest, easiest, and most cost-effective way to create whiteboard explainer videos. You give it a prompt or a document. It writes the script, draws the illustrations, animates them, adds narration, and hands you a finished video in seconds. Anything from a one minute short to a full hour, in one shot, in 80+ languages. Built by Lamina Labs (YC P26). Use it through the app or the API for training, onboarding, product walkthroughs, sales, marketing, and education at <https://laminalabs.ai>.\n\nHere is an explainer video about Lamina Labs: <https://www.youtube.com/watch?v=RLuOCdamcHE>\n\n## Why we built this\n\nAI video right now is built to look like a movie, not to explain something.\n\nBut most of the video people actually need at work is the boring kind. A training module. An onboarding flow. A walkthrough of the feature you shipped last week. And making one of those is absurdly slow. You either pay an agency thousands of dollars and wait weeks, or you sit in a template editor dragging boxes around for an afternoon and it still looks like you dragged boxes around.\n\nThat is fine if you need one video. It falls apart the moment you need a hundred. A course. Every feature documented. Onboarding in every language your customers speak. Anyone who has priced that out knows the math does not work.\n\n## How it works\n\nYou type what you want. Simi writes the script, draws and animates it, and gives you a properly narrated video in seconds.\n\nThat is the whole thing. No storyboard, no timeline, no boxes to drag. Type \"explain how photosynthesis works,\" or hand it a long compliance doc, and you get a finished video, not a draft. And it does not choke on length. One minute to a full hour, generated in a single shot.\n\nIf your team makes videos, you should be using this.\n\n## What people make with it\n\nTraining and onboarding videos from the docs you already have. Product walkthroughs, one per feature, updated as fast as the product changes. Sales and marketing explainers, in every market you sell into. Course and lecture videos in the Khan Academy style. Faceless YouTube channels and localized social video at volume. Agencies run it through the API to produce explainer videos for their clients.\n\n## What makes it different\n\nAn agency gives you a video in weeks for thousands of dollars. Simi gives you the same video in seconds for a fraction of that. That is the whole pitch, and it is enough.\n\nA few things worth knowing beyond speed. It generates anything from a minute to an hour in one shot. It speaks 80+ languages, so you write once and localize everywhere. And it is built to plug in. Use the app, call the API from your own product, or run it inside agent frameworks like OpenClaw and Nous Research's Hermes.\n\n## Who we are\n\nWe are Sudip and Kartikesh, the founders of Lamina Labs, and Simi is the first thing we have built. We are both from Nepal. We met at MIT and started building together there. We are the first Nepalese founding team to go through YC.\n\nSimi is named after Simikot, the Himalayan village where Sudip grew up. We started with education because that is where this problem hurt us personally. But it is everywhere. Any time someone needs to turn an idea into a clear picture, that is us.\n\n![uploaded image](/media/?type=post&id=104668&key=user_uploads/2592448/ddd4246e-1dae-4302-8e33-7c51d0264d6b)\n\n## Our asks\n\nIf your team spends real money or real time making explainer, training, or onboarding videos, talk to us: [founder@laminalabs.ai](mailto:founder@laminalabs.ai)\n\nWe would love intros to L&amp;D leaders, to agencies making video at volume, and to founders who want video generation inside their own product through the API.\n\nAnd if you just want a video explaining your own startup, **try it:** <https://app.laminalabs.ai> \\\n**Learn more:** <https://laminalabs.ai>",
+      "url": "https://www.ycombinator.com/launches/REC-simi-the-fastest-ai-whiteboard-explainer-video-generator",
+      "votes": 31,
+      "created_at": "2026-07-04T06:24:17.819Z"
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "id": 29766,
+  "name": "Kura AI",
+  "slug": "kura-ai",
+  "former_names": [
+    "Kura"
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/3437476f706a40b53ca9ffaafb5ca9f6da1d9e50.png",
+  "website": "https://trykura.com",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "Kura breaks 87% on the WebVoyager Benchmark. That is 31% better than Claude's Computer Use demo and 14% better than the previous State of the Art.\r\n\r\nIn 10 years there will be more AI agents on the internet than humans. Kura is SOTA for giving AI agents the tools for interacting with websites.",
+  "one_liner": "New State of the Art for Browser Agents",
+  "team_size": 2,
+  "industry": "B2B",
+  "subindustry": "B2B",
+  "launched_at": 1731604870,
+  "tags": [
+    "Artificial Intelligence",
+    "Generative AI",
+    "AI"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Summer 2024",
+  "status": "Active",
+  "industries": [
+    "B2B"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/kura-ai",
+  "api": "https://devasheeshg.github.io/yc-api/batches/summer-2024/kura-ai.json",
+  "year_founded": 2024,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/kura-ai",
+  "x_url": "https://x.com/KuraAIAgents",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/3437476f706a40b53ca9ffaafb5ca9f6da1d9e50.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Aaron Epstein",
+    "url": "https://www.ycombinator.com/people/aaron-epstein"
+  },
+  "founders": [
+    {
+      "user_id": 409999,
+      "full_name": "Ronit Basu",
+      "title": "Founder/CEO",
+      "founder_bio": "Building SOTA browser agents that power the next generation of agentic companies. \n\nBeen in ML Ops for 4 years. Google, Convoy before that.",
+      "is_active": true,
+      "linkedin_url": "https://linkedin.com/in/ronit-basu-13ab30128",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/5cbc4ef38b5099e7e6a7dcb66f659370ea74d801.jpg"
+    },
+    {
+      "user_id": 1645720,
+      "full_name": "Darren Hwang",
+      "title": "Founder/CTO",
+      "founder_bio": "Building Web Agents. \n\nPreviously 5 years at Meta building security infra and integrity ranking infra.",
+      "is_active": true,
+      "linkedin_url": "https://linkedin.com/in/darren-hwang-7a5b25112",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/f425c14f8c2c1d574dd1120b0107b71118ae33ff.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 85599,
+      "title": "Kura: New State of the Art for Browser Agents [31% better than Computer Use]",
+      "tagline": "Kura scores a breakthrough 87% on WebVoyager Benchmark, outperforming Claude's Computer Use demo by 31% and the previous SOTA by 14%.",
+      "body": "Hey,\n\nWe’re [Darren](https://www.linkedin.com/in/darren-hwang-7a5b25112/) and [Ronit](https://www.linkedin.com/in/ronit-basu-13ab30128/) of Kura. We just built the State of the Art for Browser Agents and wanted to share our learnings.\n\n![uploaded image](/media/?type=post&id=85599&key=user_uploads/409999/fc555c86-d1f1-455b-b69f-4321e2c78fc8)\n\nFirst, here’s what 87% accurate Browser Agents look like:\\\n\\\n<https://www.youtube.com/watch?v=G62KRiW4ses>\\\n\\\n**Browser What?**\n\nBrowser Agents. Generalized agents that can perform a task on the internet via computer vision and reading the DOM.\\\n\\\n**How does it work**\n\n![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXch7oezC74-U0XVP5Smt985uUfJlrWPB2fxEfyfyFv5ldVBecQNELHRr_46RkThhxxzqfNnPQYmPuiuCsF22WAZsu1EZhVgbn8_XXk3y0GXLnsMWf5mu52rUVoxjqplLZVV7AZOflR4DfbpDQaBD7CR3ZRa?key=6A3mtQ261QIEuX-viRi3VLa7)\n\nTL;DR our agent is a multi agent system composed of a planner, executor and critic engaged in debate over each action. The agents have varying degrees of vision and HTML DOM context.\n\nFor more information please refer to [**https://trykura.com/technical-deep-dive**](https://trykura.com/technical-deep-dive).\\\n\\\n**Why is it better**\\\n\\\nThis debate architecture allows it to self heal and backtrack succeeding in several tasks other agents currently fail at. It's also largely model agnostic allowing a user to **lower costs by up to 90%** when compared to Claude’s Computer Use by swapping in cheaper models with slight impacts to accuracy.\\\n\\\n**Why does this matter**\n\nWe believe, because of many of the companies here, there will be more agents than humans on the internet in 10 years. However, the internet today is made for humans. Significant functionality is locked behind UIs which don’t have APIs. That’s where generalized browser agents come in.\n\nOur browser agent **converts any series of UIs into an API** ready for consumption by the next generation of agentic companies. \\\n\\\n[Schedule a demo](https://calendly.com/ronitbasu/kura-intro-call)",
+      "url": "https://www.ycombinator.com/launches/MGd-kura-new-state-of-the-art-for-browser-agents-31-better-than-computer-use",
+      "votes": 19,
+      "created_at": "2024-11-15T16:39:50.179Z"
+    }
+  ]
+}

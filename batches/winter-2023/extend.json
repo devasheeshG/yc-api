@@ -1,0 +1,118 @@
+{
+  "id": 27871,
+  "name": "Extend",
+  "slug": "extend",
+  "former_names": [
+    "CrowdView"
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/184d30d91903380caada7f52cd7cd7992759e07b.png",
+  "website": "https://www.extend.ai/",
+  "all_locations": "New York City, NY, USA",
+  "long_description": "Parse, extract, and split your hardest documents with unmatched accuracy. Read any layout with specialized vision models, and ship reliable pipelines in minutes, not months.",
+  "one_liner": "Production-ready document processing",
+  "team_size": 25,
+  "industry": "B2B",
+  "subindustry": "B2B",
+  "launched_at": 1679062598,
+  "tags": [
+    "Documents",
+    "Developer Tools",
+    "B2B",
+    "AI"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Winter 2023",
+  "status": "Active",
+  "industries": [
+    "B2B"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/extend",
+  "api": "https://devasheeshg.github.io/yc-api/batches/winter-2023/extend.json",
+  "year_founded": 2023,
+  "city": "New York City",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/extend-app",
+  "x_url": "https://twitter.com/extendHQ",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/184d30d91903380caada7f52cd7cd7992759e07b.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Brad Flora",
+    "url": "https://www.ycombinator.com/people/brad-flora"
+  },
+  "founders": [
+    {
+      "user_id": 137869,
+      "full_name": "Kushal Byatnal",
+      "title": "Founder",
+      "founder_bio": "2x technical founder interested in making it easy to build internal tools. Previously, I worked as an early engineer at Brex and then cofounded Stir, a creator fintech company that grew to hundreds of millions in payment volume.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/kushal-byatnal-92a33085/",
+      "x_url": "https://twitter.com/kushalbyatnal",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/ffbc77035467f2a55670b375c631a97cd63d9abd.jpg"
+    },
+    {
+      "user_id": 1121959,
+      "full_name": "Eli Badgio",
+      "title": "Founder",
+      "founder_bio": "Co-founder @ Extend",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/eli-badgio/",
+      "x_url": "https://twitter.com/ebadgio_",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/1e76a78dbd63d57a5bf1aa189fc87146d3990faa.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [
+    {
+      "title": "Extend Raises $17 Million to Build the Document Processing Cloud | Extend",
+      "url": "https://www.extend.ai/resources/series-a",
+      "date": "Jun 17, 2025"
+    }
+  ],
+  "launches": [
+    {
+      "id": 87403,
+      "title": "📄 Extend - Unified Document Processing Platform",
+      "tagline": "Turn messy documents into high quality data, achieve > 95% accuracy, and ship custom document pipelines in days, not months.",
+      "body": "![uploaded image](/media/?type=post&id=87403&key=user_uploads/137869/a0dc2100-5072-45e4-92c3-d6088bf15bdf)\n\n# What is Extend in a nutshell?\n\nExtend provides document processing infrastructure, tooling, and APIs that enable technical teams to handle complex documents with state-of-the-art accuracy and reliability.\n\nCompanies like Chime, Brex, Flatiron Health, Opendoor, and Checkr use Extend for mission-critical document pipelines to achieve &gt; 95% accuracy on their hardest docs, and go live in days (not months).\n\n[Sign up to get started](https://dashboard.extend.ai/)\n\n# The Problem\n\nProcessing complex documents **is hard.** You have to deal with:\n\n* Difficult layout elements like tables, charts, handwriting, and signatures\n* Lengthy documents needing chunking and merging strategies\n* Extracting structured data with &gt; 95% accuracy across a variety of input formats\n* Optimizing outputs for LLM readability\n* Ensuring accuracy and reliability in production for critical use cases\n\n# Our Solution\n\nThere are plenty of OCR and document parsing options on the market. However, we noticed customers still struggling to deploy complex use cases when accuracy requirements are high (&gt; 95%). This is because OCR and parsing is only one part of the problem, and real world use cases need to bridge the gap between raw outputs and production-ready data.\n\nExtend uniquely solves this by unifying models, infrastructure, and tooling into a single platform for end to end document processing.\n\nThis includes:\n\n* Process any document format with state-of-the-art parsing powered by VLMs and OCR\n* Capture precise data with multi-step extraction powered by semantic chunking, bounding boxes, and citations\n* Tackle the most complex use cases with processing modes for document parsing, classification, extraction, and splitting\n* Deploy faster with low code tooling that empowers your entire team to quickly iterate, review results, and improve accuracy\n* Continuously improve results with fine-tuning pipelines that turn reviewed corrections —&gt; custom models\n\nFor example, Extend’s built-in evaluation tools to help you benchmark performance, improve accuracy, and deploy with confidence.\n\n![uploaded image](/media/?type=post&id=87403&key=user_uploads/137869/801788f4-a72c-4d1a-8dd0-d4e9f9f18436)\n\nOur customizable document splitter identifies each distinct section and their relationships according to your instructions. This is critical when ingesting lengthy documents (or multi-document packages).\n\n![uploaded image](/media/?type=post&id=87403&key=user_uploads/137869/f0c2726e-b58f-42fc-8a9a-2b5294c5751d)\n\nHere’s an example of zero-shot table extraction on a complex healthcare doc. What enables this is vision models specialized for tabular structures, working alongside our bounding box citations & human-in-the-loop review system.\n\n![uploaded image](/media/?type=post&id=87403&key=user_uploads/137869/df2d9e80-2ade-4730-98ed-f0a15f942450)\n\n# Hear it from our customers\n\nMatt Hodgson, CTO at Vendr:\n\n> We did a bakeoff, and Extend had the best results of any solution on the market. It eliminates an entire class of engineering problems around accuracy we don’t want to worry about.\n\nAdam Litton, Staff Engineer at Checkr:\n\n> Extend eliminates the maintenance cost of model tuning, scoring, evaluations, and more. We’re able to focus on our core experience instead of managing the infra.\n\nFabio Fleitas, CTO at Tesorio:\n\n> I don’t know what you guys are doing under the hood, but it’s so much more accurate than any other tool we’ve tried.\n\n# Get Started\n\nIf you’re building document processing pipelines with high accuracy requirements, get in touch with us!\n\n* [Book a demo](https://extend.cal.com/extend/extend-intro-call)\n* Email us at [founders@extend.app](mailto:founders@extend.app)",
+      "url": "https://www.ycombinator.com/launches/Mjj-extend-unified-document-processing-platform",
+      "votes": 34,
+      "created_at": "2025-02-04T15:46:20.176Z"
+    },
+    {
+      "id": 73038,
+      "title": "Extend - Build AI-powered workflows for unstructured data",
+      "tagline": "Intelligently process documents, emails, images, and more with powerful tools for extraction, classification, and analysis.",
+      "body": "**TLDR;** Extend makes it easy to process unstructured data in the form of PDFs, images, emails, and more. Build workflows that combine LLMs, business logic, integrations, and human-in-the-loop confidence - all without a line of code.\n\n![uploaded image](/media/?type=post&id=73038&key=user_uploads/137869/8f86f279-0f42-4ab8-891d-a0ef4df19126)\n\n**The problem**\n\nVast amounts of data is often locked away inside messy PDFs, images, or emails and companies often build entire operational workflows around trying to manage and understand it. Humans have to do the tedious manual work of organizing and parsing all of it, but that’s just the start. To make use of that data, workflows have to be built around classification, validation, deduplication, fraud & spam checks, anomaly detection, manual audits, and so much more.\n\n**How Extend works**\n\nExtend comes with a set of building blocks to manage workflows around unstructured data. It can be used both:\n\n* **internally** to manage and automate complex operations (e.g. back office ops/fraud/support/finance use cases)\n* **externally** in your product (e.g. drop in a embeddable component to collect, classify, and validate documents uploaded by your end users in real time)\n\nHere’s how:\n\n**Combine** LLMs with business logic, validations, and integrations.\n\n![uploaded image](/media/?type=post&id=73038&key=user_uploads/137869/ff3801ab-d622-4938-92bd-417d55d22fec)\n\n**Build** custom workflows that mirror your internal operations, and let them run on autopilot.\n\n![uploaded image](/media/?type=post&id=73038&key=user_uploads/137869/caccc352-e74d-45cb-a579-581746f4bc00)\n\n**Deploy** confidently into production with built-in confidence scoring and human-in-the-loop flows.\n\n![uploaded image](/media/?type=post&id=73038&key=user_uploads/137869/2c18cecb-152f-4c89-9d2f-0b9648b07aba)\n\n**Integrate** via our API, dashboard, or even embed Extend natively in your user-facing product.\n\n![uploaded image](/media/?type=post&id=73038&key=user_uploads/137869/3f48afc3-0b2f-46a0-b066-bf3ded6cf8c6)\n\n\n### **Get Started**\n\n[**Sign up**](https://www.extend.app/) on our website! Right now, we’re running a special deal + priority onboarding and support.\n\n### **Asks**\n\n* We’re growing quickly and looking to hire ex-founders (please reach out)!\n* Follow us on [**Twitter**](https://twitter.com/extendhq) and [**LinkedIn**](https://www.linkedin.com/company/extend-app/?viewAsMember=true) to stay in touch\n* We love any and all kinds of feedback",
+      "url": "https://www.ycombinator.com/launches/J02-extend-build-ai-powered-workflows-for-unstructured-data",
+      "votes": 26,
+      "created_at": "2023-07-13T19:36:11.447Z"
+    },
+    {
+      "id": 70372,
+      "title": "Extend - Build internal Chrome extensions that give your team superpowers",
+      "tagline": "Ship internal tools that reduce context switching, eliminate copy/pasting, and customize any website your team relies on.",
+      "body": "### **TL;DR**\n\nExtend is a low code developer tool that makes it easy to build internal chrome extensions for your company.\n\nFor example, **support teams** can solve tickets faster with custom buttons that call internal APIs, draft responses, and bring GPT-4 into the loop.\n\n![uploaded image](/media/?type=post&id=70372&key=user_uploads/137869/d1322b76-0479-474e-b51d-96e26317ce37)\n\n**Sales teams** can customize their CRM with real-time database queries and UI overlays.\n\n![uploaded image](/media/?type=post&id=70372&key=user_uploads/137869/7db4d9cb-69f4-4308-a918-71f49991ffc5)\n\n**Give your company superpowers in 15 minutes.**\n\nExtend gives your developers building blocks so they can build these types of workflows in 15 minutes.\n\nWe provide:\n\n1. tons of pre-built modules (e.g. extract info from the page via GPT-4, inject a button in to the DOM)\n2. beautiful UI components\n3. secure connections to your database + internal APIs\n4. one-click instant deployment to your team\n\nJust write your custom business logic and wire up the flow, we’ll handle the rest.\n\n**Extend is a better way of building internal tools.**\n\nI’ve spent years working in fintech and built a ton of internal tooling for support and operations teams. But using most internal tools today requires a ton of copy/pasting and context switching, which any support or operations team will tell you is the bane of their existence. Chrome Extensions enable your internal tools to live _inside_ the apps where your teams already spend 90% of their time today.\n\nAnd now with GPT-4, your teams can activate supercharged workflows within the context of your existing tools.\n\n**Get Started**\n\n* For the first 5 companies that [sign up](https://tally.so/r/w2Xx5L), we’ll build your internal chrome extension for you with **no engineering resources needed on your end**!\n* Send a note to [kushal@extend.app](mailto:kushal@extend.app) if you have feedback / want to chat",
+      "url": "https://www.ycombinator.com/launches/IJ2-extend-build-internal-chrome-extensions-that-give-your-team-superpowers",
+      "votes": 75,
+      "created_at": "2023-03-17T14:16:56.849Z"
+    }
+  ]
+}

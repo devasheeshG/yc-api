@@ -1,0 +1,105 @@
+{
+  "id": 30510,
+  "name": "Cactus Compute",
+  "slug": "cactus-compute",
+  "former_names": [
+    "Cactus"
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/38edcfba2831cce5f05a5da045992ae4f758e655.png",
+  "website": "https://www.cactuscompute.com/",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "On-device AI for phones, wearables, smart home and small robots. ",
+  "one_liner": "Automation Foundation Models For Tiny Devices",
+  "team_size": 8,
+  "industry": "B2B",
+  "subindustry": "B2B -> Engineering, Product and Design",
+  "launched_at": 1752189935,
+  "tags": [
+    "Artificial Intelligence",
+    "Developer Tools",
+    "Hard Tech",
+    "Open Source",
+    "AI"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Summer 2025",
+  "status": "Active",
+  "industries": [
+    "B2B",
+    "Engineering, Product and Design"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada",
+    "Remote",
+    "Partly Remote"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": [
+    {
+      "question": "How did your company get started? (i.e., How did the founders meet? How did you come up with the idea? How did you decide to be a founder?)",
+      "answer": "We met through YC co-founder matching in London four years ago!"
+    }
+  ],
+  "url": "https://www.ycombinator.com/companies/cactus-compute",
+  "api": "https://devasheeshg.github.io/yc-api/batches/summer-2025/cactus-compute.json",
+  "year_founded": 2025,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/cactus-compute/",
+  "x_url": "https://x.com/cactuscompute",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": "https://github.com/cactus-compute",
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/38edcfba2831cce5f05a5da045992ae4f758e655.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [
+    "https://bookface-images.s3.us-west-2.amazonaws.com/attachments/6676c889601b8d2af6994b7f717feaa936baf6d7.png"
+  ],
+  "primary_partner": {
+    "name": "Andrew Miklas",
+    "url": "https://www.ycombinator.com/people/andrew-miklas"
+  },
+  "founders": [
+    {
+      "user_id": 1131467,
+      "full_name": "Roman Shemet",
+      "title": "Founder/CEO",
+      "founder_bio": "Former quant & economist with a background in product and data engineering. Pilot, triathlete, chess enthusiast. Working on mobile inference @ Cactus.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/roman-shemet/",
+      "x_url": "https://x.com/romanshemet",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/1991f894485f13d07f1c9e71688c42ddf1c63296.jpg"
+    },
+    {
+      "user_id": 901131,
+      "full_name": "Henry Ndubuaku",
+      "title": "Founder/CTO",
+      "founder_bio": "Author of \"Maths, CS & AI Compendium\"",
+      "is_active": true,
+      "linkedin_url": "https://linkedin.com/in/henry-ndubuaku-7b6350b8",
+      "x_url": "https://x.com/Henry_Ndubuaku",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/979686e7135b71cdb313d9af81830f6052dd572b.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 92059,
+      "title": "Cactus 🌵: Deploy AI models locally on smartphones",
+      "tagline": "Cross-platform open-source framework for deploying LLMs, VLMs, Embedding, and other models locally in your apps.",
+      "body": "# TL;DR\n\nDeploy AI models locally, privately, and offline in any app using Cactus. Cactus is a blazing-fast inference engine optimized for smartphones and comes with React Native, Flutter, and Kotlin bindings.\n\nhttps://youtu.be/xwKrmYkJZD8\n\n# Our framework:\n\nCactus is a cross-platform & open-source framework for doing inference on smartphones, wearables, and other low power devices. It supports any LLM or VLM available on HuggingFace directly.\n\nThe recently released Google AI Edge and Apple Foundation Frameworks are platform-specific and primarily support specific models from the companies.\n\nTo this end, Cactus:\n\n* Is available in Flutter and React-Native for cross-platform developers, since most apps are built with these today.\n* Supports any GGUF model you can find on Huggingface; Qwen, Gemma, Llama, DeepSeek, Phi, Mistral, SmolLM, SmolVLM, InternVLM, Jan Nano etc.\n* Accommodates from FP32 to as low as 2-bit quantized models, for better\n\n  efficiency and less device strain.\n* Have MCP tool-calls to make models performant, truly helpful (set reminder, gallery search, reply messages) and more.\n* Fallback to big cloud models for complex, constrained or large-context tasks, ensuring robustness and high availability.\n\nSo far, our customers have built:\n\n* Personalised and private RAG and prompt-enhancement pipelines for their app users.\n* Offline fallback for the big remote AI models.\n* Phone tool use agents like gallery & calendar management.\n* AI for medical and other privacy-pertinent industries.\n\n![uploaded image](/media/?type=post&id=92059&key=user_uploads/1131467/bd9fc810-5239-41b7-90ac-bf6d1686bb3c)\n\n# Some demos:\n\n**LLMs and embedding models**\n\n![uploaded image](/media/?type=post&id=92059&key=user_uploads/1131467/0f36edcb-6e65-408f-b30b-a920b37a0aa0)\n\n**Real-time vision inference**\n\n![uploaded image](/media/?type=post&id=92059&key=user_uploads/1131467/24403145-da55-4c01-ad60-8472f49b439d)\n\nTell us how we can make it great!\n\nRepo: https://github.com/cactus-compute/cactus \\\nDiscord: https://discord.gg/nPGWGxXSwr",
+      "url": "https://www.ycombinator.com/launches/Nwp-cactus-deploy-ai-models-locally-on-smartphones",
+      "votes": 41,
+      "created_at": "2025-07-11T19:13:56.052Z"
+    }
+  ]
+}

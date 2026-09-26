@@ -1,0 +1,105 @@
+{
+  "id": 33342,
+  "name": "Nex",
+  "slug": "nex",
+  "former_names": [
+    "GarageSpace",
+    "Inc.",
+    "Nex",
+    "Nex.ai"
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/b8f563ce5c802b34a01e9ad0f5641eb4bb092c6c.png",
+  "website": "https://nex.ai",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "Nex builds and runs the complex, high-volume GTM workflows that general-purpose agents struggle with. Built by ex-HubSpotters who ran its three largest customer platforms and backed by HubSpot founder Dharmesh Shah.",
+  "one_liner": "AI for high volume GTM Engineering",
+  "team_size": 5,
+  "industry": "B2B",
+  "subindustry": "B2B -> Sales",
+  "launched_at": 1784187262,
+  "tags": [
+    "AIOps",
+    "Workflow Automation",
+    "Sales"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Summer 2026",
+  "status": "Active",
+  "industries": [
+    "B2B",
+    "Sales"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada",
+    "Remote",
+    "Partly Remote"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/nex",
+  "api": "https://devasheeshg.github.io/yc-api/batches/summer-2026/nex.json",
+  "year_founded": 2025,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/nexdotai/",
+  "x_url": "https://x.com/nexdotai",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/b8f563ce5c802b34a01e9ad0f5641eb4bb092c6c.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Gustaf Alstromer",
+    "url": "https://www.ycombinator.com/people/gustaf-alstromer"
+  },
+  "founders": [
+    {
+      "user_id": 1371335,
+      "full_name": "Najmuzzaman (Nazz) Mohammad",
+      "title": "Founder/CEO",
+      "founder_bio": "CEO/Co-founder at Nex (YC S26).\n\nFounding hire at VentureBasecamp, an ed-tech product acquired by Wadhwani Foundation within 2 years.\nEarlier founded a profitable e-commerce business during college.\nPreviously Senior PM at HubSpot and Clipboard Health.",
+      "is_active": true,
+      "linkedin_url": "https://linkedin.com/in/najmuzzaman",
+      "x_url": "https://x.com/najmuzzaman",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/5bd335c3878a06175e6944df3acdedf99db2ab1b.jpg"
+    },
+    {
+      "user_id": 3636126,
+      "full_name": "Francisco Dias",
+      "title": "Founder/CTO",
+      "founder_bio": "Just trying to help out.\n\n4th engineer on HubSpot CRM (pre-IPO, ~0 customers)\nCo-wrote HubSpot's first component library\nFirst product-focused engineer on HubSpot's AI infrastructure team; helped grow it into a new group\nMentored 10+ ICs into technical leads\n\nHelped ship one of the most ambitious responsive websites, BostonGlobe.com\n\n22 marathons and a sub-11 Ironman in 22 months\n\nBOS > ATL > SFO",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/frandias/",
+      "x_url": "https://x.com/ffrandias",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/fef4552be6d6bed0049c187c08b25e3fd19b792f.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [
+    {
+      "title": "Show HN: A Karpathy-style LLM wiki your agents maintain (Markdown and Git) | Hacker News",
+      "url": "https://news.ycombinator.com/item?id=47899844",
+      "date": "Apr 24, 2026"
+    }
+  ],
+  "launches": [
+    {
+      "id": 111167,
+      "title": "Nex - Claude Cowork for high-volume workflows, starting with GTM",
+      "tagline": "AI that builds and runs the complex, high-volume GTM workflows only the world's best GTM engineers know how to build, at the price of a coffee.",
+      "body": "**TL;DR:** Nex is Claude Cowork for high-volume workflows, starting with GTM. Describe a goal, and Nex builds an agent that runs it end to end across 1000+ integrations. The kind of work that would burn your entire weekly limit overnight on Claude or Codex runs on autopilot on Nex, for the price of a coffee, while that coffee brews. Try it at [nex.ai/signup](http://nex.ai/signup).\n\n<https://youtu.be/2amZjOKdhD4> _(Our AI-generated “The Office” parody video that went viral was taken down by YouTube. You can still [watch it here on LinkedIn](https://www.linkedin.com/posts/nexai-yc-s26-is-the-ai-gtm-engineer-that-ugcPost-7495214587882004480-Ch_b/?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAAseA8sB3xUI6osd_UWpcPBpx2tIFENh3N8)_)\n\n👋 Hey friends, we're Nazz and Francisco. We spent years at HubSpot running its three largest customer platforms, and we're backed by HubSpot founder Dharmesh Shah.\n\n**The problem: general-purpose agents aren't built for high-volume GTM**\n\nThe best GTM engineers can wire HubSpot, Clay, Outreach, Gong, and Slack into agents that run a revenue team. But run that same work through a general agent and it re-reasons every step, burns your entire weekly limit overnight, and still isn't reliable at volume. Almost nobody can hire enough GTM engineers to do it properly.\n\n**How Nex works**\n\nDescribe a goal, and Nex builds and runs the workflow across 1000+ integrations:\n\n* Lead generation, qualification, and enrichment\n* Scraping public records\n* Outbound over email and socials\n* CRM cleanup and hygiene\n* Re-engaging lost deals\n\nBecause most GTM work is repetitive and deterministic, Nex has AI write code for the predictable parts and run it fast without wasting tokens, saving AI judgment for the genuinely hard parts. That's how it breezes through high-volume work while not burning through your monthly AI budget in a day.\n\n**What that looks like**\n\nOn a single onboarding call, Nex audited thousands of records in a customer's HubSpot, flagged missing data, archived owners, bad associations, and zombie deals, and started fixing them before the call was over.\n\n**Why this matters**\n\nGTM is the beachhead. The same engine runs any high-volume workflow that's too slow and too expensive to run straight through a general model, and that pattern shows up in every operations-heavy function: finance reconciliations, support triage, recruiting outreach.\n\n**Our ask**\n\n* Try it free at [nex.ai/signup](http://nex.ai/signup)\n* If you run RevOps or GTM at a fast-moving company, we'd love to talk\n* If you know a RevOps or GTM leader, an intro would mean a lot: [founders@nex.ai](mailto:founders@nex.ai)",
+      "url": "https://www.ycombinator.com/launches/Sv1-nex-claude-cowork-for-high-volume-workflows-starting-with-gtm",
+      "votes": 7,
+      "created_at": "2026-08-17T22:00:00.274Z"
+    }
+  ]
+}

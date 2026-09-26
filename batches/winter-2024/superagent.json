@@ -1,0 +1,133 @@
+{
+  "id": 29374,
+  "name": "Superagent",
+  "slug": "superagent",
+  "former_names": [
+    "Superagent.sh"
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/a5fb7dd012389ddf81869040550578bb786988ed.png",
+  "website": "https://superagent.sh/",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "Superagent helps AI-native developers trust what they merge, control what their agents do, and show users it's safe.\r\n\r\nWe work in your coding agent and on GitHub:\r\n\r\n- Trust the change: checks on every pull request, before merge\r\n- Control it where it runs: boundaries around what your agents can see, say, and do\r\n- Break it before it ships: red teaming against what you actually run\r\n\r\nFree for open source.",
+  "one_liner": "Security for AI-native developers",
+  "team_size": 2,
+  "industry": "B2B",
+  "subindustry": "B2B -> Security",
+  "launched_at": 1701445003,
+  "tags": [
+    "Artificial Intelligence",
+    "Security",
+    "Open Source",
+    "AI"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Winter 2024",
+  "status": "Active",
+  "industries": [
+    "B2B",
+    "Security"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/superagent",
+  "api": "https://devasheeshg.github.io/yc-api/batches/winter-2024/superagent.json",
+  "year_founded": 2024,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/superagent-sh/",
+  "x_url": "https://x.com/superagent_ai",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": "https://github.com/superagent-ai/",
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/a5fb7dd012389ddf81869040550578bb786988ed.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [
+    "https://bookface-images.s3.us-west-2.amazonaws.com/attachments/4fb9bc805969476bc8a221698a1bdea8f7976c00.png"
+  ],
+  "primary_partner": {
+    "name": "Nicolas Dessaigne",
+    "url": "https://www.ycombinator.com/people/nicolas-dessaigne"
+  },
+  "founders": [
+    {
+      "user_id": 1367556,
+      "full_name": "Alan Zabihi",
+      "title": "Founder/CEO",
+      "founder_bio": "CEO & Co-founder of Superagent",
+      "is_active": true,
+      "linkedin_url": "https://linkedin.com/in/alanzabihi",
+      "x_url": "https://twitter.com/alanzabihi",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/cea2f5bfccfffc6a14c59ed18dcfed86babdbe0e.jpg"
+    },
+    {
+      "user_id": 80364,
+      "full_name": "Ismail Pelaseyed",
+      "title": "Founder",
+      "founder_bio": "CTO & Co-founder of Superagent.",
+      "is_active": true,
+      "linkedin_url": "http://se.linkedin.com/in/pelaseyed/en",
+      "x_url": "https://twitter.com/pelaseyed",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/cb09040fa52bace9f9b4c6c760946f7028b27257.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 94188,
+      "title": "Superagent — Defender of AI agents 🥷",
+      "tagline": "Superagent protects AI agents from attacks and data leaks",
+      "body": "Hi YC 👋 We’re Alan and Ismail, founders of **Superagent (YC W24)**.\n\nWe’re building open-source **defense for AI agents**. Our product protects agents from prompt injections, malicious tool calls, and customer data leaks — in production, in CI/CD, and wherever they run.\n\n# The Problem\n\nAI agents introduce new attack surfaces that traditional security practices don’t cover:\n\n* **At runtime**: users can inject adversarial prompts that hijack an agent or force it to run harmful commands.\n* **At the model** layer: unsafe or poisoned outputs can embed backdoors into your stack.\n* **In CI/CD**: AI-generated code can contain harmful logic that slips through review and ships to production.\n\nWithout protection, agents can leak customer data or trigger destructive actions that impact your product and your users.\n\n# How Superagent Works\n\nAt the core is **SuperagentLM**, our small language model trained specifically for agentic security. Unlike static rules or regex filters, it reasons about inputs and outputs to catch subtle and novel attacks.\n\nSuperagent integrates at three key points:\n\n1. **Inference providers** — filter requests and responses at the API layer\n2. **Agent frameworks** — run runtime checks on every input, output, and tool call\n3. **CI/CD pipelines** — fail risky builds before unsafe code ships\n\nHere’s a quick example of how to use it with Exa (YC S21):\n\n![uploaded image](/media/?type=post&id=94188&key=user_uploads/1367556/35562a1a-829f-4fc0-bcc2-03952e3f58f6)\n\nEvery request is inspected in real time. Unsafe ones are blocked. Safe ones go through — with reasoning logs you can audit later.\n\n# Why We’re Building This\n\nWe’ve been working closely with builders of AI agents for the last couple of years, building tools for them. What we noticed is that many teams are basically trying to system-prompt their way to security. Vibe security (VibeSec) obviously doesn’t work.\n\nSome of the most popular agentic apps today are surprisingly unsafe in this way. So we decided to see if we could fix it. That’s the motivation behind Superagent: giving teams a real way to ship fast **and** ship safe.\n\n# Get Involved\n\n📖 [Read the docs](https://docs.superagent.sh/)\n\n📅 [Book a call](https://www.superagent.sh/)\n\nWe’d love your feedback: what’s your biggest concern about running agents in production? Book a call or drop a comment!\n\nAlan & Ismail 🥷🥷\\\n[Superagent](https://www.superagent.sh/) (YC W24)\n\n![uploaded image](/media/?type=post&id=94188&key=user_uploads/1367556/22c8addf-151e-4bf5-ade5-18f253df2bc4)\n\n",
+      "url": "https://www.ycombinator.com/launches/OVA-superagent-defender-of-ai-agents",
+      "votes": 14,
+      "created_at": "2025-09-29T14:01:06.539Z"
+    },
+    {
+      "id": 93541,
+      "title": "Superagent — the AI Firewall 🥷🔥",
+      "tagline": "Stops prompt injections, backdoors, and data leaks.",
+      "body": "Hi everyone, we’re Alan and Ismail, founders of **Superagent** (YC W24).\n\nWe built the world’s first **AI Firewall** — powered by a model that sits between you and your models, protecting every request and response in real time.\n\n---\n\n## The Problem\n\nAI is quickly becoming the foundation of how software is built and used. But every time you send a prompt or receive a response, you take a risk:\n\n* Models can be tricked with prompt injections or jailbreaks\n* Sensitive data like API keys and PII can leak out\n* Malicious code or backdoors can slip through responses\n\nIf you’re building with AI or adopting third-party AI tools, you’re exposed.\n\n---\n\n## Our Solution\n\nSuperagent introduces **NinjaLM** — a small language model fine-tuned for security and safety. It runs in runtime (tens of milliseconds) and reasons about every prompt and response before it reaches your system.\n\n✅ Stops prompt injections and jailbreaks\\\n✅ Prevents secret leaks (API keys, credentials, PII)\\\n✅ Blocks malicious code before it reaches your system\\\n✅ Full audit logs, traces, and observability for compliance\n\nFrom internal apps to tools like Claude Code or ChatGPT, Superagent protects your AI without slowing you down.\n\n## https://youtu.be/GBTAs9yZiPM\n\n## Backstory\n\nBefore Superagent, we built plenty of AI apps ourselves. Each time, we ran into the same problem: adding even the most basic kind of protection was incredibly hard.\n\nTraditional firewalls are built for static rules — not reasoning. But AI isn’t static. It thinks, it adapts, and that creates a completely new class of security challenges.\n\nWe realized the only way forward was to fight fire with fire: build a model that could reason about other models, catching attacks, leaks, and malicious behavior in real time. That’s how the AI Firewall was born.\n\n---\n\n## Try It\n\nWe just launched our hosted service, and the open-source repo is live. Engineers can get started in minutes, and executives get the auditability and compliance they need.\n\n👉 [superagent.sh](http://www.superagent.sh)\\\n👉 [github.com/superagent-ai/superagent](https://github.com/superagent-ai/superagent)\n\n---\n\n## Call to Action\n\nIf you’re building or adopting AI:\n\n* Engineers — run your apps through Superagent today\n* Security teams — add prevention and compliance controls\n* Partners — we’re exploring integrations and distribution\n\nWe’d love your feedback. Links in comments.\n\n![uploaded image](/media/?type=post&id=93541&key=user_uploads/1367556/b76c2ef1-9036-484d-9564-73cecff2c9ff)\n\n---",
+      "url": "https://www.ycombinator.com/launches/OKj-superagent-the-ai-firewall",
+      "votes": 10,
+      "created_at": "2025-09-03T14:51:00.274Z"
+    },
+    {
+      "id": 92929,
+      "title": "VibeKit 🖖 The Safety Layer for Your Coding Agent",
+      "tagline": "Open-source sandboxing and observability for Claude Code, Gemini CLI, et al.",
+      "body": "Hey YC! 👋\\\nWe’re building **VibeKit**, an open-source safety layer for Claude Code, Gemini CLI, and other coding agents.\n\n![uploaded image](/media/?type=post&id=92929&key=user_uploads/1367556/58ed677f-4f55-4d10-a0ef-b32fb2508117)\n\n## ❌ The Problem\n\nWe love coding with AI agents — until the day Anthropic emailed us to say they had found our API keys in a public GitHub repo and revoked them.\n\nThe leak came from our own coding agent. That’s when we realized most developers have no way to see — let alone control — what their AI agents are doing:\n\n* Which files they read or write\n* What shell commands they run\n* What data leaves their machine\n* Whether secrets get exposed in API calls\n\n## 🖖 The VibeKit Solution\n\nVibeKit is a **universal CLI wrapper** that runs any coding agent in a **local, isolated Docker sandbox**,\n\n![uploaded image](/media/?type=post&id=92929&key=user_uploads/1367556/76cf29ec-d566-42e9-861b-fad1a9bd4889)\n\nIt comes with:\n\n* **Secret redaction** before anything leaves your machine\n* **Full observability** into file changes, commands, API calls, and outbound data\n* **Offline-first**, open-source (MIT), and works with any agent — Claude, GPT-4o, Gemini, etc.\n\n![uploaded image](/media/?type=post&id=92929&key=user_uploads/1367556/20caa134-7f4a-434d-acac-6e5405eeb82b)\n\n## 💻 Try it out\n\n```\n# Install globally\nnpm install -g vibekit\n\n# Run Claude Code with VibeKit\nvibekit claude\n```\n\nThen watch _everything_ your AI is doing — safely.\n\n🎥 **Demo video:** [https://youtu.be/vDwJ4xcdRBM\\\\](https://youtu.be/vDwJ4xcdRBM%5C)\n\n📂 GitHub: [https://github.com/superagent-ai/vibekit\\\\](https://github.com/superagent-ai/vibekit%5C)\n\n📖 Docs: [https://docs.vibekit.sh](https://docs.vibekit.sh/)\n\n## 🙏 Our Ask\n\nIf you use coding agents day-to-day:\n\n* **Run them through VibeKit** — see what they’re _really_ doing.\n* Share your weirdest or most alarming finds with us — we’re building a public library of “agent fails.”\n\n💌 Contact: [founders@vibekit.sh](mailto:founders@vibekit.sh)\n\n---",
+      "url": "https://www.ycombinator.com/launches/OAr-vibekit-the-safety-layer-for-your-coding-agent",
+      "votes": 11,
+      "created_at": "2025-08-12T19:06:49.796Z"
+    },
+    {
+      "id": 91137,
+      "title": "VibeKit 🖖 Run coding agents in a secure sandbox",
+      "tagline": "Embed OpenAI Codex or Claude Code directly into your app.",
+      "body": "## **Launch YC: VibeKit – Run coding agents in a secure sandbox**\n\n**Hi YC** 👋 We’re Alan and Ismail, the founders of Superagent (YC W24). We build tools for developers working with agents — especially **coding agents**.\n\nToday, we’re launching **VibeKit**, our open-source SDK that lets you run coding agents like OpenAI Codex or Claude Code safely in secure sandboxes.\n\nLocal setups work great for developing with coding agents — we’ve used them ourselves. But as soon as you want to **embed agents into your app**, **automate GitHub workflows**, or **run tasks in isolated environments**, you need something more flexible and secure.\n\n**VibeKit makes this possible.** It supports multiple sandbox providers (E2B today; Daytona, Modal, and [Fly.io](http://Fly.io) coming soon) and gives you:\n\n* ✅ Safe, isolated code execution\n* ✅ Live output streaming\n* ✅ Async run handling\n* ✅ Full prompt + code history\n* ✅ Telemetry and tracing\n* ✅ GitHub-safe automations\n\nWith VibeKit, coding agents can install packages, modify files, or create PRs — all without touching your local or production systems.\n\nhttps://youtu.be/GQaOSEbvOxM\n\nWe originally built VibeKit for internal use while developing Superagent. Since then we’ve used it to:\n\n* Embed coding agents inside apps\n* Build GitHub bots that open issues and PRs\n* Automate internal workflows (e.g. adding PostHog)\n\nNow it’s fully open source (MIT licensed) and available for anyone to use.\n\n🌐 [vibekit.sh](http://vibekit.sh) \n\n💻 [github.com/superagent-ai/vibekit](http://github.com/superagent-ai/vibekit) \n\n### 🙏 **Our Ask**\n\n* ⭐️ Star the repo\n* 🧪 Try embedding a coding agent in your app\n* 💬 Tell us what use cases it unlocked for you — email [founders@superagent.sh](mailto:founders@superagent.sh)\n\n![uploaded image](/media/?type=post&id=91137&key=user_uploads/1367556/d5bc1c0b-6a66-42b4-b75d-b28d6237e1a6)\n\n",
+      "url": "https://www.ycombinator.com/launches/Nhx-vibekit-run-coding-agents-in-a-secure-sandbox",
+      "votes": 18,
+      "created_at": "2025-06-09T13:57:54.068Z"
+    },
+    {
+      "id": 79352,
+      "title": "🥷 Superagent - Run any workflow using AI",
+      "tagline": "Open-source platform that allows anyone to build AI-agent workflows",
+      "body": "_**Tl;dr:** [_Superagent_](https://superagent.sh/) makes it easy for anyone to use AI to do complex tasks. Enterprises and startups already use it for things like managing R&D projects, customer support, and market research. It's open-source, and it's designed for everyone - not just AI experts. With Superagent, businesses can save money and work smarter. [_Learn more about Superagent_](https://superagent.sh/?utm_source=yc&utm_medium=blog&utm_campaign=launch-yc)._\n\n![uploaded image](/media/?type=post&id=79352&key=user_uploads/89898/db78152a-35a4-497e-acac-55556a095c07)\n\n👋 Hello, we're [Alan](https://linkedin.com/in/alanzabihi) and [Ismail](http://se.linkedin.com/in/pelaseyed/en). Our path to Superagent started while working on an AI app, where we faced the reality of needing to build the entire tech stack and become AI experts just to perform one basic workflow. This experience led us to create Superagent, aiming to simplify AI use for everyone.\n\n## 🚨 The Problem: AI integration is complex\n\nThe reality is, integrating AI into business processes is a complex task. It usually demands teams of machine learning engineers, which is a significant barrier for many companies. Consider a business executive who sees AI as an almost unachievable goal; this perspective can lead them to miss out on the benefits AI could bring to their operations.\n\n## 🚀 Our Solution: Easy-to-build AI-agents\n\nWith Superagent, companies can build their own AI agents to perform whatever workflow they have in their business operations:\n\n* **No coding or infrastructure needed**: Configure AI agents using simple markup.\n* **Integration with Airtable**: Ideal for managing data-heavy tasks like market research.\n* **API and SDKs**: Allows embedding AI agents into any app or third-party system, including task management tools like Jira.\n\nBy choosing Superagent, companies can:\n\n* Automate complex tasks that would typically require manual effort or sophisticated programming.\n* Reduce operational costs by spending less time and fewer resources on routine tasks.\n* Gain a competitive edge by doing better work internally, but also by creating new customer experiences.\n\n## 💡 Opportunity in Enterprise\n\nTechnology, healthcare, and banking are massive sectors with data-heavy operations. Superagent's open-source model has led to bottom-up adoption from these sectors, showing validation of our approach. Join us as we tap into this massive opportunity.\n\n## 👋 How you can join in\n\n\\- Fork us on [GitHub](https://github.com/homanp/superagent)\n\n\\- Join our community on [Discord](https://discord.com/invite/mhmJUTjW4b) \n\n\\- Create your first AI workflow on our [cloud service](https://superagent.sh/?utm_source=yc&utm_medium=blog&utm_campaign=launch-yc)\n\n\\- [Contact us](mailto:alan@superagent.sh) for custom advice on your workflows",
+      "url": "https://www.ycombinator.com/launches/Kds-superagent-run-any-workflow-using-ai",
+      "votes": 89,
+      "created_at": "2024-03-13T14:25:14.679Z"
+    }
+  ]
+}

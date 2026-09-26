@@ -1,0 +1,101 @@
+{
+  "id": 32130,
+  "name": "Olam Labs",
+  "slug": "olam-labs",
+  "former_names": [
+    "Gud Labs"
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/d6d9543a0527b0b5ac428e043f211c75ac5d1d59.png",
+  "website": "https://olamlabs.ai",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "Multi-agent environments let us evaluate and train models in complex, simulated worlds. We work with researchers on both evaluations and training for character and agentic performance typically difficult to assess for using current popular datasets. \r\n\r\nPlay one of our first releases, Multi-Agent Arena (https://olamlabs.ai/arena), where humans come play social strategy games against multiple AI agents. It's currently top 50 on OpenRouter and has thousands of matches played each day. We use Multi-Agent Arena to build datasets on agentic performance and real-world socialization.",
+  "one_liner": "Building multi-agent simulations for model evals and training.",
+  "team_size": 2,
+  "industry": "B2B",
+  "subindustry": "B2B",
+  "launched_at": 1784577901,
+  "tags": [
+    "Artificial Intelligence",
+    "Reinforcement Learning",
+    "Gaming",
+    "Data Engineering"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Summer 2026",
+  "status": "Active",
+  "industries": [
+    "B2B"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": [
+    {
+      "question": "How did your company get started? (i.e., How did the founders meet? How did you come up with the idea? How did you decide to be a founder?)",
+      "answer": "Om and Shreshth met in middle school. They were the only two kids in the “gifted” program in their grade, and their first project together was running a snacks and candy store at their school where the profits were used to donate to charity.\\\r\n\\\r\nDuring Christmas holiday in 2025, Om created a multi-agent simulated environment where agents ran their own company in markets competing against each other, and showed it to Shreshth.\\\r\n\\\r\nShreshth, with a background in data and RL among other things, loved the implications of it. Om discussed with him how if multi-agent environments were developed and productionized at scale via frameworks, APIs for infra, and interactive games the kind of data and evaluations it could generate.\\\r\n\\\r\nThe problem was (and still is) that despite the success of multi-agent environments in research, the ecosystem around them has not been pursued to a degree where the utility of multi-agent environments is made readily available to everyone.\\\r\n\\\r\nThey decided to pursue it and applied to YC, and have been in pursuit of a future where we can understand and measure the models that we work with everyday and that will become increasingly autonomous in our everyday lives with AI acceleration. Om and Shreshth both believe there is a severe shortage of good AI evaluations, especially on qualitative behaviors, of which multi-agent environments (and allowing others to build them) is very well suited to solve.\\\r\n\\\r\nMore on Shreshth: [shresh.ca](http://shresh.ca) Shresh’s X: <https://x.com/shresh>\\\r\nMore on Om: [sensho.xyz](https://www.sensho.xyz/) Om’s X: <https://x.com/sensho>"
+    }
+  ],
+  "url": "https://www.ycombinator.com/companies/olam-labs",
+  "api": "https://devasheeshg.github.io/yc-api/batches/summer-2026/olam-labs.json",
+  "year_founded": 2026,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/olam-labs/",
+  "x_url": "https://x.com/olam_labs",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/d6d9543a0527b0b5ac428e043f211c75ac5d1d59.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [
+    "https://bookface-images.s3.us-west-2.amazonaws.com/attachments/3e94d77a846523415d54724a99c9965d17599d69.png"
+  ],
+  "primary_partner": {
+    "name": "Harshita Arora",
+    "url": "https://www.ycombinator.com/people/harshita-arora"
+  },
+  "founders": [
+    {
+      "user_id": 3676793,
+      "full_name": "Om Buddhdev",
+      "title": "Founder/CEO",
+      "founder_bio": "I am building the entire stack for multi-agent environments so we can do better AI evaluations and training.\n\nI'm a tech enthusiast and optimize for following my curiosity.\n\nIn the past I've done some fun things before Olam Labs ranging from esports, to consumer, to engineering, to research. I was one of the best Valorant players in the world, a Staff Engineer at AI Dungeon, done math research, and other stuff. You can read more here: https://www.sensho.xyz/",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/ombud/",
+      "x_url": "https://x.com/sensho",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/91f0defa43559eee579ccd34e4f7fd404cdb2aa6.jpg"
+    },
+    {
+      "user_id": 3426995,
+      "full_name": "shreshth sharma",
+      "title": "Founder/CTO",
+      "founder_bio": "currently building mulit-agent envs to create better evals @ olam labs, \n\npreviously: \nwas doing a cs/math at waterloo\nand business double degree at laurier (dropped out to start olam labs )\ncreating reinforcement learning systems and doing data science @ RBC\ndid algorithmic arbitrage on prediction markets\nbriefly top 50 on fifa mobile",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/shreshth-sharma-950826247/",
+      "x_url": "https://x.com/shresh",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/9ffbf649d100acd21f3c25679aa0ae5fc8ab2c97.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 109432,
+      "title": "Can you beat frontier LLMs at social strategy games? | Multi-Agent Arena by Olam Labs, evaluating through multi-agent simulations",
+      "tagline": "Play games like Risk, Poker, or Codenames against frontier AIs. We're running public long-horizon games to do evaluations on social behavior and agentic performance.",
+      "body": "**TL;DR:** As many researchers and labs will say, there is a massive shortage of genuinely good AI evaluations. Multi-agent environments are an underdeveloped way of evaluating models that we think will help address our increasingly worse shortage of evals. We're starting with **Multi-Agent Arena**, where anyone can come compete against frontier AI models in social multiplayer games, as we build towards the full stack for multi-agent environments. Try Multi-Agent Arena for free at <https://olamlabs.ai/> :) \\\n\\\n[https://drive.google.com/file/d/186GgmnOLz4Yc1BpFk6AxHd3aqUdFYCQy](https://drive.google.com/file/d/186GgmnOLz4Yc1BpFk6AxHd3aqUdFYCQy/view?usp=sharing)\n\n---\n\n## **Overview**\n\nMulti-agent environments provide an essential, underutilized framework for benchmarking autonomous AI models. Multi-Agent Arena is an interactive platform where human participants compete against frontier AI models in multiplayer games, serving as an experimental foundation to evaluate complex agent interactions. Multi-Agent Arena is the first of many stepping stones to building the entire stack and ecosystem for multi-agent environments.\\\n\\\n**The Evaluation Gap** \\\nCurrent AI evaluations primarily focus on single-agent, task-oriented capabilities. While benchmarks such as SWE-bench measure functional task execution, they do not assess the dynamic social behaviors required for autonomous real-world deployment: negotiation, coalition stability, long-horizon planning against adaptive opponents, and spontaneous deception.\n\nSimulated multi-agent environments induce these complex interactions while preserving complete experimental control. Unlike unstructured real-world deployment, these environments offer full data legibility, enabling researchers to inspect every reasoning trace, state transition, and stochastic variable behind model decisions.\n\n**Our Preliminary Evaluations**\\\nThe platform runs deterministic, replayable environments hosting human players alongside anonymized frontier models. Structured as accessible multiplayer games, the infrastructure captures interaction data to score models across two primary axes in our first evaluated game, Poker:\n\n* **Competitive Capability:** One of our preliminary methods is using a Bradley-Terry model to yield Elo ratings with bootstrapped confidence intervals, supplemented by domain-specific metrics such as big blinds per 100 hands in poker. Top-quartile human participants currently outperform all benchmarked models in Poker.\n* **Behavioral Diagnostics:** Model reasoning traces are evaluated against ground-truth game states using expert-curated rubrics and variance-checked grader panels to ensure inter-annotator agreement.\n\n**Initial Metric: Deception Index** \\\nThe benchmark's initial diagnostic metric, the Deception Index, quantifies deliberate misrepresentation per 10,000 turns. A deceptive event is logged only when an agent's private chain-of-thought confirms awareness of a true state while its external communication directly contradicts it. In baseline tests with no explicit instructions or prompts to deceive, frontier models demonstrated performance variance spanning nearly two orders of magnitude across identical environments.\n\nComplete evaluations, research methodology and technical documentation are available at [olamlabs.ai/research/social-arena](https://olamlabs.ai/evaluations)\\\n\\\n**Launch**\\\n\\\nWe already passed a thousand matches a day in our early access, are nearing a billion tokens used per day, ranking on the OpenRouter leaderboards, and have thousands of users that are paying to play in the arena while we work with researchers on use cases they have for our work and environments. We’re hoping this is just a stepping stone and want to scale towards our roadmap and ambitions of what we believe multi-agent environments, when properly developed with the right stakeholders in the training/eval ecosystem, can achieve for AI progress.\\\n\\\n\\\n**What’s in it for you?**\n\n1. **Play.** It's free, and every match directly informs the evals. Bring friends, try to beat the models, it’s harder than you'd think. 🃏\n2. **Speak with researchers.** We love speaking with researchers interested in this space and it’s all that we think about; if that’s you please feel free to reach out to us at [founders@olamlabs.ai](mailto:founders@olamlabs.ai) or on <https://olamlabs.ai/about> \\\n   \\\n   🫡\n\n---\n\n## About the team\n\n**Om Buddhdev (CEO)** — Previously a Product Engineer then promoted to Staff Engineer at AI Dungeon / Latitude working on AI infra, agents, and consumer platform work, left for Olam Labs. Before that he was among the best Valorant players in the world (top 25, 8x radiant), at 17 a large content creator on TikTok with 195k followers, and as a young teenager made Roblox games played millions of times, among other things in his past. More on Om at <https://www.sensho.xyz/>\n\n**Shreshth Sharma (CTO)** — Background in production data engineering: was a Data Scientist at RBC while doing a double degree at the University of Waterloo in CS and Math, dropped out of both for Olam Labs. He has a background in many data and statistics projects, alongside briefly being a top 50 Fifa player. More on Shreshth at <https://shresh.ca/>\\\n\\\nOm and Shreshth have been friends since middle school, and Olam Labs was born out of their personal interest and desire to build out the entire stack for multi-agent environments to be the default way we evaluate models in the future.",
+      "url": "https://www.ycombinator.com/launches/ST2-can-you-beat-frontier-llms-at-social-strategy-games-multi-agent-arena-by-olam-labs-evaluating-through-multi-agent-simulations",
+      "votes": 9,
+      "created_at": "2026-08-05T21:32:50.566Z"
+    }
+  ]
+}

@@ -1,0 +1,106 @@
+{
+  "id": 30545,
+  "name": "StarSling",
+  "slug": "starsling",
+  "former_names": [],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/fae29a98d132c4b435b336dbb5d6cf4a1aaf5de7.png",
+  "website": "https://starsling.dev/",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "Drop-in Ubuntu runners plus AI agents that open optimization PRs for your workflows. StarSling Runners continuously improve your CI to make it up to 6x faster and 13x cheaper.",
+  "one_liner": "Self-Driving CI: fast AI-native GitHub Actions runners",
+  "team_size": 3,
+  "industry": "B2B",
+  "subindustry": "B2B -> Engineering, Product and Design",
+  "launched_at": 1747381971,
+  "tags": [
+    "Artificial Intelligence",
+    "Developer Tools",
+    "B2B",
+    "DevOps",
+    "AI"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Spring 2025",
+  "status": "Active",
+  "industries": [
+    "B2B",
+    "Engineering, Product and Design"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/starsling",
+  "api": "https://devasheeshg.github.io/yc-api/batches/spring-2025/starsling.json",
+  "year_founded": 2025,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/starslingdev",
+  "x_url": "https://x.com/starslingdev",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": "https://github.com/starslingdev",
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/fae29a98d132c4b435b336dbb5d6cf4a1aaf5de7.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [
+    "https://bookface-images.s3.us-west-2.amazonaws.com/attachments/ac673fbe328666896d6971baaf798768567f8017.png",
+    "https://bookface-images.s3.us-west-2.amazonaws.com/attachments/a957738896dfa0061f88dc67ad23bcd23c38b2e4.png"
+  ],
+  "primary_partner": {
+    "name": "Tom Blomfield",
+    "url": "https://www.ycombinator.com/people/tom-blomfield"
+  },
+  "founders": [
+    {
+      "user_id": 7866,
+      "full_name": "Yonas Beshawred",
+      "title": "Founder/CEO",
+      "founder_bio": "Co-founder & CEO @ StarSling 💫 Previously Founder & CEO of StackShare, a developer community that had 1.5M+ devs and an enterprise SaaS offering ~$1M ARR, then sold to FOSSA.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/yonas-beshawred/",
+      "x_url": "https://x.com/yonasbe",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/0b3b96f558d6a2d589261e15aaff251e45429b39.jpg"
+    },
+    {
+      "user_id": 751609,
+      "full_name": "Daniel Worku",
+      "title": "Founder/CTO",
+      "founder_bio": "Co-founder & CTO @ StarSling 💫 Built Netflix’s Internal Developer Portal (IDP) for their 3K+ engineers & managers and scaled it to become the highest DAU internal tool for devs. Eng on Facebook’s AI Camera team and helped build the mobile computer vision lib that currently powers camera effects for 100M+ DAUs across IG, FB, and WhatsApp.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/worku",
+      "x_url": "https://x.com/dbworku",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/9fce0c666cca02fcf76812b958467dbf296b88d2.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 104233,
+      "title": "StarSling Runners - Self-Driving CI",
+      "tagline": "Fast GitHub Actions runners with AI agents that continuously improve your CI to make it up to 6x faster and 13x cheaper.",
+      "body": "Hey everyone!\n\nWe're Yonas &amp; Daniel, co-founders of [StarSling](https://www.starsling.dev).\n\n**TL;DR: [StarSling Runners](https://starsling.dev/)** are an AI-native drop-in replacement for ubuntu-latest that continuously make your CI up to **6x faster** and **13x cheaper**. On day one, StarSling Runners are faster and cheaper. From there, AI agents analyze your pipelines and continuously ship optimization PRs.\n\n<https://www.youtube.com/watch?v=IxcYY5cuSXA>\n\n**🤔 Why now**\n\nCoding agents made writing code dramatically faster, and they’ve pushed PR volume up, which compounds CI times and cost fast.\n\n![uploaded image](/media/?type=post&id=104233&key=user_uploads/7866/2149565f-569b-4f8d-b4b3-9eab341daf0f)\n\nEveryone has the option of getting fast CI runners now. What nobody has is **CI that adapts and improves itself**.\n\nMeanwhile, keeping a CI pipeline fast is a constant manual chore: caches break, tests get flaky, build steps pile up, and someone has to notice and fix it, over and over. We believe DevOps tooling like CI should be as agentic as coding is, and that's the unlock behind self-driving CI: the optimization work that used to be a recurring human task now runs continuously in the background as part of the infrastructure running it.\n\n**🔥 The problem**\n\nKeeping CI fast is nobody's job and everybody's problem:\n\n* **Pipelines rot.** Caches get misconfigured, dependency installs get slow, tests turn flaky, build steps stop being parallel. Performance quietly degrades until someone carves out time to fix it.\n* **Fast runners alone don't solve it.** Swapping in faster hardware helps once, then your setup drifts right back as you add more code and tests and they get more complex. Plenty of products give you faster runners. None of them keep your pipeline optimized for you.\n* **It's getting worse.** Recent GitHub Actions pricing changes hit teams running lots of jobs, and GitHub's focus has clearly moved elsewhere. When we surveyed companies looking for DevOps AI solutions, a GitHub Actions agent was the single most-requested solution engineers wanted.\n\n**🧯 The solution: self-driving CI**\n\nStarSling Runners are an AI-native, drop-in replacement for ubuntu-latest\\\nthat get faster the longer you use them:\n\n* **Fast infrastructure on day one.** 5th Gen AMD EPYC (\\~30% faster than GitHub), actions/cache compatible with zero config, unlimited concurrency.\n* **AI agents that optimize your CI for you.** Agents continuously scan your workflows, jobs, run logs, and machine telemetry, then open optimization PRs: fixing caching, speeding up dependency installs, parallelizing build steps, sharding tests, and restructuring workflows. This is the part nobody else does. Real PRs our agents opened and customers merged: [sharding E2E tests across 3 parallel jobs](https://github.com/mastra-ai/mastra/pull/15888) (Mastra), [optimizing Playwright browser installs](https://github.com/better-auth/better-auth/pull/8073) and [fixing turbo cache config](https://github.com/better-auth/better-auth/pull/7950) (Better Auth).\n* **Cheaper, with no surprises.** $0.008/min vs GitHub's $0.012/min (33% cheaper), queue time never billed, no seat fees.\n* **You stay in control.** Every agent-authored optimization ships as a PR your team reviews and merges.\n* **Secure by default.** Every job runs in its own single-use, hardware-isolated microVM that's destroyed after the run, the same isolation model GitHub-hosted runners use. Secrets pass directly from GitHub to your job and are never stored by StarSling.\n* **One-line install.** Install the [StarSling GitHub App](https://github.com/apps/starslingdev) and copy our AI install prompt to swap ubuntu-latest\\\n  for starsling-ubuntu-24.04. You're on faster runners immediately, with 2,000 free minutes your first month. The optimization agents are in early access right now, so request access and we'll turn them on for your repos. **👇**\n\n![uploaded image](/media/?type=post&id=104233&key=user_uploads/7866/a91c193f-d5e1-4d00-a93c-1dfd6381666b)\n\n**📈 Traction**\n\nAfter being in private beta for the past four months, StarSling has now run over **one million CI jobs** for fast-moving teams like Better Auth, Mastra, Partcl, and more, and the self-driving AI agents is what won them over:\n\n* [**Mastra**](https://starsling.dev/customers/mastra) got **6x faster** CI:\n  * _\"The runners are just handled, so nobody on my team thinks about CI infrastructure anymore, and the agents keep optimizing for the one thing I care about: minutes saved.\"_ - Abhi Aiyer, Co-founder &amp; CTO at Mastra (YC W25)\n* [**Better Auth**](https://starsling.dev/customers/better-auth) got **2x faster** E2E:\n  * _\"StarSling agents are like a CI engineer we never had to hire. They find the slow spots, test out fixes, find the ones that work and open the PRs themselves.\"_ - Bereket Engida, Founder &amp; CEO at Better Auth (P25)\n* [**Partcl**](https://starsling.dev/customers/partcl) got **13x cheaper** CI, and the agents proved themselves on day one:\n  * _\"Within a day of migrating to StarSling Runners, their agents opened up a PR that literally made our Rust CI tests 2x faster!\"_ - Vamshi Balanaga, Co-founder &amp; CTO at Partcl (YC P25)\n\nFull case studies: <https://starsling.dev/customers>\n\n![uploaded image](/media/?type=post&id=104233&key=user_uploads/7866/10826f60-8e4d-41a8-a800-32026a78bfc8)\n\n\n**🏋️ Team**\n\n**Daniel** led the 12-person engineering team at Netflix that built their Internal Developer Portal (\"Netflix Console\"), the central hub for Netflix's 3,000+ engineers and the highest-DAU internal developer tool at the company. Before Netflix he was on Facebook's AI Camera team, building computer vision that powers camera effects for 100M+ DAUs across Instagram, Facebook, and WhatsApp.\n\n**Yonas** built StackShare, one of the largest online developer communities (1.5M+ registered developers), with an enterprise offering used by Fortune 500s to surface tech stack data across thousands of internal codebases. StackShare was acquired by FOSSA in 2024.\n\nWe've spent our careers on developer tools, and self-driving CI is the first part of a suite of tools we always wished we had.\n\n**🔮 Vision**\n\nDevOps should be as agentic as coding. CI is just the start. We're building toward a world where your entire pipeline improves on its own and AI agents take on the slow, manual engineering work that’s left after your coding agents finish, across the whole SDLC, so your team ships faster.\n\n**👇 Our ask**\n\n* **Try it.** If your team runs CI on ubuntu-latest, you're a one line change away from faster runs: <https://starsling.dev>. YC companies get 50% off the first year.\n* **Intros.** If you know a CTO or VP Eng at a company drowning in CI time or cost, we'd love an intro: 📧 [founders@starsling.dev](mailto:founders@starsling.dev)\n\nHappy Slinging!\n\n\\- Yonas &amp; Daniel",
+      "url": "https://www.ycombinator.com/launches/R7B-starsling-runners-self-driving-ci",
+      "votes": 85,
+      "created_at": "2026-06-29T17:20:25.137Z"
+    },
+    {
+      "id": 90469,
+      "title": "StarSling - AI Agents for Developers That Ship 🛸",
+      "tagline": "Agentic internal developer portal that automates your tasks across deployments, performance, incidents, and bugs",
+      "body": "Hey everyone! \n\nWe’re Yonas & Daniel - Co-founders of [StarSling](https://www.starsling.dev).\n\nStarSling (https://starsling.dev) is a developer portal that turns your daily unplanned work from all your dev tools into one-click actions, powered by AI. Open your homepage, click on a GitHub, Linear, or Sentry issue and you’ll see an Autofix button that triggers an agent and opens a Pull Request with a fix, all without leaving your portal. It’s AI agents for the tasks that live outside of your code editor, across deployments, performance, incidents, and bugs.\n\nhttps://youtu.be/-rbrSNyguHY \n\n**🌄 Our Story**\n\nDaniel led an engineering team at Netflix that built their Internal Developer Portal (IDP), called Netflix Console. It was the central hub for Netflix's 3,000+ engineers, managers and leaders and became the highest DAU internal tool for developers at Netflix.\n\nYonas built StackShare, one of the largest online developer communities that had over 1.5M registered developers and an enterprise offering used by thousands of companies that integrated tech stack data into their IDPs and other internal tools.\n\nBoth of us have seen the challenges that developers at large companies face in keeping their tech stacks healthy across thousands of codebases. We’ve also seen the benefits that a high-quality single IDP brings to engineering teams. We believe that AI agents have created a unique opportunity for developers to get the benefits of an IDP with automation baked in from the start.\n\n**🔥 The Problem**\n\nDevelopers typically spend \\~20% of their time on annoying eng tasks outside of their code editor:\n\n* Fixing exceptions\n* Patching flaky CI builds and tests\n* Updating engineering docs and changelogs\n* Investigating and remediating incidents\n* Optimizing slow database queries\n* Debugging preview and staging environments\n* Rotating expiring credentials and keys\n\nThese tasks are spread out across many different developer tools and workflows: Sentry, GitHub, CircleCI, PagerDuty, Supabase, Vercel and many more. StarSling is unifying these tools and bringing AI agents to the rest of the software development lifecycle (SDLC).\\\n**🧯 Our Solution**\n\nWe're building a system of AI agents that perform engineering tasks using the deep context that only exists in an internal developer portal (IDP). One central command center that houses internal services, applications, APIs, documentation and has AI agents continuously improving them. We bring your tools into one system and give you powerful workflows by orchestrating AI agents across these tools.\n\nOur first offering is an agentic developer homepage that shows you your aggregated task list along with actions that AIs can take on your behalf. In your homepage you’ll see: your open PRs, exceptions, tickets, notifications, and more alongside AI agents.\n\n![uploaded image](/media/?type=post&id=90469&key=user_uploads/7866/d4f9f3c3-e7b9-485b-9920-3d04e80d385f)\n\nSoon StarSling will orchestrate agents across the more complex tasks like investigating incidents. Our immediate goal is to be the interface and “portal” to all the AI agents for the dev tools you already use.\n\n**🔮 Our Vision**\n\nTo create a system of AI agents that allows every engineer to spend close to 0% of their time dealing with deployments, performance, incidents, and bugs.\n\n**👇 Our Ask**\n\nIf you’re a developer working on a production system, we’d love to show you StarSling and get your feedback!\n\n👉 Signup for the waitlist: https://starsling.dev\n\n📧 Email us: [founders@starsling.dev](mailto:founders@starsling.dev)",
+      "url": "https://www.ycombinator.com/launches/NXB-starsling-ai-agents-for-developers-that-ship",
+      "votes": 591,
+      "created_at": "2025-05-16T15:08:07.425Z"
+    }
+  ]
+}

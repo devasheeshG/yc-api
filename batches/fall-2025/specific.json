@@ -1,0 +1,93 @@
+{
+  "id": 30954,
+  "name": "Specific",
+  "slug": "specific",
+  "former_names": [],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/32b20b00d4eefb0011495a24b9f27376787da0bc.png",
+  "website": "https://specific.dev",
+  "all_locations": "Stockholm, Stockholm County, Sweden",
+  "long_description": "Specific lets your coding agent write code and build the infrastructure to deploy it. Connect your favorite coding agent and start building immediately. Run `specific dev` to get a full local environment running in seconds. Run `specific deploy` to go to production on our scalable cloud platform in minutes.",
+  "one_liner": "The cloud platform built for coding agents",
+  "team_size": 2,
+  "industry": "B2B",
+  "subindustry": "B2B -> Engineering, Product and Design",
+  "launched_at": 1758776605,
+  "tags": [
+    "Developer Tools",
+    "No-code",
+    "DevOps",
+    "AI"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Fall 2025",
+  "status": "Active",
+  "industries": [
+    "B2B",
+    "Engineering, Product and Design"
+  ],
+  "regions": [
+    "Sweden",
+    "Europe"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/specific",
+  "api": "https://devasheeshg.github.io/yc-api/batches/fall-2025/specific.json",
+  "year_founded": 2025,
+  "city": "Stockholm",
+  "country": "SE",
+  "linkedin_url": "https://www.linkedin.com/company/specific-dev",
+  "x_url": "https://x.com/specific_dev",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": "https://github.com/specific-dev/",
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/32b20b00d4eefb0011495a24b9f27376787da0bc.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Aaron Epstein",
+    "url": "https://www.ycombinator.com/people/aaron-epstein"
+  },
+  "founders": [
+    {
+      "user_id": 122815,
+      "full_name": "Fabian Lindfors",
+      "title": "Founder/CEO",
+      "founder_bio": "Former tech lead at Stripe",
+      "is_active": true,
+      "linkedin_url": "https://linkedin.com/in/fabian-lindfors",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/45f81a6a414dd2adc196cedd91057f854284ace2.jpg"
+    },
+    {
+      "user_id": 2974997,
+      "full_name": "Iman Radjavi",
+      "title": "Founder/CTO",
+      "founder_bio": "4+ years of experience building mission-critical backend systems. Most recently built and scaled energy grid systems that processed 1B+ data points daily. MSc in Computer Science.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/iman-radjavi/",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/fbde14690de7669ddf979f48f85b09671d33fe42.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 95350,
+      "title": "Specific: production-ready backends from natural language",
+      "tagline": "Create and scale production-ready backends without configuration or coding",
+      "body": "Hi! 👋\n\nWe’re [Fabian](https://www.linkedin.com/in/fabian-lindfors/) and [Iman](https://www.linkedin.com/in/iman-radjavi/), and we’re building [Specific](https://specific.dev/) — an agent that builds and deploys backends from natural language.\n\nSpecific makes it effortless to create, scale, and manage production-ready backends, without configuration or coding. Just describe what you need, and Specific builds it.\n\n# Why we are working on this\n\nWe’ve spent our careers as engineers building and maintaining complex backend systems, and learning firsthand what it takes to make them reliable, secure, and scalable.\n\n* **Fabian** spent three years at **Stripe**, where he was tech lead for systems that processed tens of billions of dollars each year.\n* **Iman** spent four years at startups like **Fever** and **Braive**, building software that balanced national energy grids and managed sensitive healthcare data under strict regulatory requirements.\n\nAs AI unlocks software building at an entirely new scale and speed, backends need to keep up in reliability, security and scalability. Specific is our way of making that possible.\n\n---\n\nSee it in action: https://youtu.be/62QGL3drU44\n\n# Backends are hard\n\nBackend-as-a-service platforms have made backend development much easier, but not easy enough for a new era where AI lets anyone build software in minutes.\n\nThey still require deep understanding of concepts like database schemas, migrations, security and APIs to use effectively. That limits how powerful and flexible non-technical users can be. Ambitions often exceed what the platforms make possible.\n\nThis gap becomes particularly clear for AI coding platforms. Their agents can generate impressive web and mobile apps, but still rely on users to sign up for and connect to an external backend provider. Integrating those providers can take weeks, and maintaining them is an ongoing effort to make sure the agent truly understands how to use them.\n\n# How Specific helps\n\nSpecific offers a backend-as-a-service that’s entirely generated and maintained by our own expert coding agent. We designed it to understand user needs from natural language prompts, and to build a tailor made backend automatically.\n\nYou can connect any coding agent to Specific in minutes through our MCP server. Once connected, you can now generate fully featured, secure, and scalable backends to match any frontend.\n\nBecause the backend is built and managed by our own agent, there’s no need to teach your agent how to use an external platform or maintain fragile integrations. Specific handles everything end-to-end, scaling seamlessly as projects grow.\n\n![uploaded image](/media/?type=post&id=95350&key=user_uploads/122815/3655d431-5a32-424d-9a95-7d8f6f6f6eab)\n\nFor our initial launch, we are working with AI coding platforms like [Natively](https://natively.dev/) that create thousands of new projects _every day_. We are hearing from these platforms that they want to focus on what they do best, designing and building great apps, without worrying about backends.\n\nWith Specific, they can:\n\n* **Launch new isolated projects in seconds** through our API. Fully white-label, end users don’t need to configure anything.\n* **Scale automatically.** Projects scale up based on usage, and down to zero when idle.\n* **Integrate in minutes** by connecting through our MCP server. No need to spend weeks teaching their agents how to build and maintain backends.\n* **Enable common integrations instantly**. Authentication, payments and LLMs work out of the box with no API keys or setup required from users.\n\n# Come talk to us\n\nGet in touch at [hello@specific.dev](mailto:hello@specific.dev).\n\nWe are excited to talk to everybody who needs backends, whether you have years of experience building software, have just discovered vibe coding, or are building a coding platform for others.\n\nWe also have a waitlist that you can sign up for on our site: [specific.dev](https://specific.dev/). We will be inviting folks from the waitlist to a private beta of Specific soon. Sign up early to be one of the first to get access!",
+      "url": "https://www.ycombinator.com/launches/Onu-specific-production-ready-backends-from-natural-language",
+      "votes": 154,
+      "created_at": "2025-11-10T02:28:02.906Z"
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "id": 29810,
+  "name": "Bluedoor",
+  "slug": "bluedoor",
+  "former_names": [
+    "OpenIndex",
+    "Actionbase",
+    "actionbase",
+    "Actionbase",
+    "Pumpkin",
+    "Leviathan",
+    "bluedoor"
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/3363d046ba2892bd7c82963a8a504e094bd39d2e.png",
+  "website": "https://bluedoor.sh/",
+  "all_locations": "Seattle, WA, USA",
+  "long_description": "We automate public records request fulfillment for government agencies.",
+  "one_liner": "AI for public records request fulfillment",
+  "team_size": 1,
+  "industry": "B2B",
+  "subindustry": "B2B -> Infrastructure",
+  "launched_at": 1723408013,
+  "tags": [
+    "Artificial Intelligence",
+    "GovTech"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Summer 2024",
+  "status": "Active",
+  "industries": [
+    "B2B",
+    "Infrastructure"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/bluedoor",
+  "api": "https://devasheeshg.github.io/yc-api/batches/summer-2024/bluedoor.json",
+  "year_founded": 2026,
+  "city": "Seattle",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/bluedoor-ai",
+  "x_url": "https://x.com/SamuelCrombie",
+  "fb_url": null,
+  "cb_url": "https://www.crunchbase.com/organization/actionbase-2147",
+  "github_url": "https://github.com/bluedoor-ai",
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/3363d046ba2892bd7c82963a8a504e094bd39d2e.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "David Lieb",
+    "url": "https://www.ycombinator.com/people/david-lieb"
+  },
+  "founders": [
+    {
+      "user_id": 448194,
+      "full_name": "Sam Crombie",
+      "title": "Founder/CEO",
+      "founder_bio": "Founder at Bluedoor. \n\nPreviously a Product Manager at Microsoft AI. Dartmouth College, A.B. in Computer Science, 2023.",
+      "is_active": true,
+      "linkedin_url": "https://linkedin.com/in/samcrombie",
+      "x_url": "https://twitter.com/SamuelCrombie",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/d3e82c03f44caebad4df08db11923ddff0772a19.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 83184,
+      "title": "Actionbase: An SDK for automating popular sites",
+      "tagline": "Automate LinkedIn, Amazon, Uber, and Resy in a few lines of code",
+      "body": "Hey everyone! We are [Sam](https://linkedin.com/in/samcrombie) and [Adam](https://www.linkedin.com/in/adam-mcquilkin/) building Actionbase. Actionbase builds tools that make the web agent-interpretable. Today, we are launching our first product, the [Web Action SDK](https://actionbase.co/).\n\n# **TL;DR**\n\nThe [Web Action SDK](https://actionbase.co/) is a TypeScript / JavaScript SDK that lets developers run automations on popular websites with only a few lines of code.\n\n# **What’s the problem?**\n\nWeb automations, particularly for high-traffic websites, **suck to build and maintain**. Yet engineering teams find themselves having to build them from scratch, over and over.\n\nSpinning your own automations is an easy path to unnecessarily complex codebases and enormous tech debt. Automations break down, hit edge cases, and become exponentially unruly.\n\nBut this is business-critical functionality, so what else can you do?\n\n# **Solution: Web Action SDK**\n\nWe’ve built an SDK that allows you to run automations on popular sites with only a few lines of code. Simply add your API key, define an action, and run it.\n\nHere’s how you can use our SDK to send a LinkedIn message.\n\n![uploaded image](/media/?type=post&id=83184&key=user_uploads/448194/5978c043-af17-4af7-8b20-5c3ef74d7277)\n\nInitialize, send, and that’s it!\n\nNow that you’ve made your plans, you can use other services supported by the SDK to prepare for dinner: buy a notebook to take notes (Amazon), make a restaurant reservation (Resy), and get a ride to the restaurant (Uber).\n\n![uploaded image](/media/?type=post&id=83184&key=user_uploads/448194/5875c5ac-d64a-4bb7-9f1f-0eddf8b25a95)\n\nIn less than 10 lines of code, you’ve planned a pretty cool night out.\n\n# **Value Proposition: Simplicity**\n\nWeb Action SDK does all the heavy-lifting for you: authentication, anti-botting, task creation and execution, self-healing, and hosting. Our goal is to enable engineering teams to focus on **what to do with web actions**, not how to make them work.\n\n# **Asks**\n\n**\\#1:** If you currently have code that programmatically interacts with: LinkedIn, Facebook, Resy, Uber, DoorDash, Amazon, United, or any popular, high traffic sites, we’d love for you to sign-up and [try the SDK for yourself](https://actionbase.co). If you want to discuss bringing Actionbase to your company/use case, book time [here](https://actionbase.co/book-demo).\n\n**\\#2:** If you know someone who scrapes or automates sites, please forward them this URL or our [email blurb.](mailto:your_recipients_email_here@email.com?subject=Does%20this%20look%20useful%3F%20A%20web%20automation%20SDK&body=Hey%2C%20a%20YC%20company%20called%20Actionbase%20just%20launched%20their%20Web%20Action%20SDK%20(https%3A%2F%2Fwww.ycombinator.com%2Flaunches%2FLdg-actionbase-an-sdk-for-automating-popular-sites)%2C%20which%20lets%20you%20to%20automate%20popular%20websites%20like%20LinkedIn%20in%20a%20few%20lines%20of%20code.%0A%0AIs%20this%20something%20you%27d%20find%20useful%3F)\n\n# **Our Background**\n\nAdam and I met at Dartmouth where worked together on our senior thesis project. After graduation, we worked at Microsoft, building expertise in web automation and infrastructure on the Edge Copilot and PowerBI Copilot teams. We’ve joined forces once again to make the web agent-interpretable with Actionbase.\n\n![uploaded image](/media/?type=post&id=83184&key=user_uploads/448194/cbe18c26-732c-40c3-aab0-f9d935192ba8)\n\n![uploaded image](/media/?type=post&id=83184&key=user_uploads/448194/59f21dd2-616b-4afa-82e0-b0229d9dfe48)\n\n",
+      "url": "https://www.ycombinator.com/launches/Ldg-actionbase-an-sdk-for-automating-popular-sites",
+      "votes": 29,
+      "created_at": "2024-08-19T19:59:37.739Z"
+    }
+  ]
+}

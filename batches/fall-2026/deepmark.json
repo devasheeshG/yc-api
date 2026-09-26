@@ -1,0 +1,94 @@
+{
+  "id": 38127,
+  "name": "DeepMark",
+  "slug": "deepmark",
+  "former_names": [],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/4dfcb45ad1cf6b4da58c1a44a770eb98ac4ec79b.png",
+  "website": "https://www.deepmark.me",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "DeepMark is the authentication layer for AI voice. When an AI agent speaks, we embed a compact, machine-readable ID directly into the audio, not in metadata, which gets stripped the moment a file is touched. The ID resolves to a trust record, so a bank, a call center, or the person on the line can verify in real time who the agent is.",
+  "one_liner": "A live watermark inside AI voice that survives phone calls",
+  "team_size": 5,
+  "industry": "B2B",
+  "subindustry": "B2B -> Security",
+  "launched_at": 1789029188,
+  "tags": [
+    "Deep Learning",
+    "B2B",
+    "Cybersecurity"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Fall 2026",
+  "status": "Active",
+  "industries": [
+    "B2B",
+    "Security"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada",
+    "Remote",
+    "Partly Remote"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/deepmark",
+  "api": "https://devasheeshg.github.io/yc-api/batches/fall-2026/deepmark.json",
+  "year_founded": 2025,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/deepmark-me/",
+  "x_url": "https://x.com/deepmark_me",
+  "fb_url": null,
+  "cb_url": "https://www.crunchbase.com/organization/deepmark-inc",
+  "github_url": "https://github.com/deepmark",
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/4dfcb45ad1cf6b4da58c1a44a770eb98ac4ec79b.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Max Kolysh",
+    "url": null
+  },
+  "founders": [
+    {
+      "user_id": 2023960,
+      "full_name": "Slavko Kovačević",
+      "title": "Founder/CEO",
+      "founder_bio": "Founder/CEO at DeepMark (YC F26). PhD candidate in Computer Science.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/slavkokovacevic/",
+      "x_url": "https://x.com/realslavko",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/de19c1d8562fd357c3a264bee57209047824e480.jpg"
+    },
+    {
+      "user_id": 2547276,
+      "full_name": "Kosta Pavlović",
+      "title": "Founder/CSO",
+      "founder_bio": "Founder/CSO at DeepMark (YC F26). PhD in Computer Science.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/kosta-pavlovic",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/283edba47bb01fec63f8e445013165464636ab64.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 116233,
+      "title": "DeepMark - Reinventing Trust in Voice",
+      "tagline": "A live watermark inside AI voice that survives phone calls",
+      "body": "<https://youtu.be/76SqazbxK4w>\n\nHey, we are Slavko and Kosta 👋\n\nWe have been working together for six years, first as two researchers at the University of Montenegro, now as founders. Somewhere along the way, we became best friends. Kosta is our CSO, and I am the CEO.\n\n**The problem**\n\nVoice is uniquely vulnerable to impersonation. A few seconds of audio is enough to clone anyone, and the same voice agents that answer a bank's phone can be turned around and pointed at the bank's customers. People have started to hesitate before picking up. Good technology scales good outcomes, and it scales bad ones just as well. Our job is simple. Restore trust in voice.\n\n**What we built**\n\nDeepMark is real-time audio watermarking for AI voice. When an AI agent speaks, we put a certificate inside the sound itself, on the voice company's side, as the voice is being generated. Not metadata, which gets stripped the moment a file is touched. The certificate becomes part of the voice.\n\n![uploaded image](/media/?type=post&id=116233&key=user_uploads/2023960/b3239118-82c1-4fb4-82c2-f4363685a0be)\n\nThen the voice goes out into the real world, and the real world is rough on audio. Compression, codecs, a bad connection, a cheap speaker, a worse microphone. Think about how flat a human voice sounds over the phone. Our certificate survives the trip. On the other end, a phone, a call center, or an API reads it and shows who is speaking, who issued the certificate, and whether this agent is allowed to be on the line. Detectors ask whether audio is fake. We answer who is authorized to speak.\n\n![uploaded image](/media/?type=post&id=116233&key=user_uploads/2023960/171abdf5-efb9-442b-a153-dbbb1ba981d4)\n\n**Why this is hard**\n\nFour things have to hold at the same time. It has to be real time, or a phone call makes no sense, and voice companies already fight for every millisecond. It has to leave the audio quality alone, nobody trades a worse voice for a safer one. It has to survive the phone line. And the ID has to be long enough, because the longer the ID, the more certificates we can issue. A watermark that works beautifully in the lab falls apart the moment audio meets a phone line. And a live call has no file to sign. Nothing survives the trip except the sound itself, so the identity has to live inside the sound. We spent years hitting that wall. Then we built a tool that measures all four at once and published it, so anyone can check our work, and everyone else's.\n\n![uploaded image](/media/?type=post&id=116233&key=user_uploads/2023960/a9930538-1deb-4609-8938-4bdbcf8c88ce)\n\n**How we got here**\n\nOur mentor, who did his PhD in digital watermarking, told us not to bother. The field was saturated, nothing left to contribute. We were too stubborn to listen, and our learning-based approach turned out to be one of the first of its kind.\n\nKosta wrote his PhD on watermarking along the way. I am still writing mine! We published some of the earliest work in deep audio watermarking, cited by teams at Meta, Microsoft, Sony, and Adobe. This year our robustness benchmark landed in IEEE Access, and our AWARE paper was accepted at EUSIPCO. Before YC, we signed our first platform license with a leading voice AI provider, and it is now in production.\n\n**Our ask**\n\nWe want to meet voice AI companies. If you build voice models, book 20 minutes with us and we will run DeepMark on your own audio, so you can see the mark survive your calls. The EU AI Act's marking rules already apply and the 2 December deadline for systems on the market is close, so this is a good month to talk. If you know someone at a voice AI platform, an intro means a lot to us.\n\n[slavko@deepmark.me](mailto:slavko@deepmark.me), or book a demo at [deepmark.me](http://deepmark.me). Thanks for reading. 🇲🇪 → 🌉",
+      "url": "https://www.ycombinator.com/launches/UEj-deepmark-reinventing-trust-in-voice",
+      "votes": 15,
+      "created_at": "2026-09-22T16:00:00.415Z"
+    }
+  ]
+}

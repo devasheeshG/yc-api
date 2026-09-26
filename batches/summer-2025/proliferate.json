@@ -1,0 +1,106 @@
+{
+  "id": 30659,
+  "name": "Proliferate",
+  "slug": "proliferate",
+  "former_names": [
+    "Keystone"
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/e9eb3892f113b924e1c5b9bdf6d120ba559a45ff.png",
+  "website": "https://proliferate.com?utm_source=yc&utm_medium=referral&utm_campaign=profile",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "We're a dense, small team in SF building the open source platform for working with agents.",
+  "one_liner": "Do your life's work with agents",
+  "team_size": null,
+  "industry": "B2B",
+  "subindustry": "B2B -> Engineering, Product and Design",
+  "launched_at": 1749673205,
+  "tags": [
+    "Artificial Intelligence",
+    "Developer Tools",
+    "SaaS",
+    "B2B"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": true,
+  "nonprofit": false,
+  "batch": "Summer 2025",
+  "status": "Active",
+  "industries": [
+    "B2B",
+    "Engineering, Product and Design"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/proliferate",
+  "api": "https://devasheeshg.github.io/yc-api/batches/summer-2025/proliferate.json",
+  "year_founded": 2025,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/107275953",
+  "x_url": "https://x.com/proliferateai",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/e9eb3892f113b924e1c5b9bdf6d120ba559a45ff.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Diana Hu",
+    "url": "https://www.ycombinator.com/people/diana-hu"
+  },
+  "founders": [
+    {
+      "user_id": 725067,
+      "full_name": "Pablo Hansen",
+      "title": "Founder",
+      "founder_bio": "I finished my master's degree in AI at 19 and was then hire #1 at Onyx (YC W24) for a year before starting Proliferate (fka. Keystone).",
+      "is_active": true,
+      "linkedin_url": "https://linkedin.com/in/pablo-hansen",
+      "x_url": "https://x.com/thepablohansen",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/dda19f5096ef2bafc42ce3ed062e63b42f808767.jpg"
+    }
+  ],
+  "jobs": [
+    {
+      "id": 105103,
+      "title": "Founding Product Engineer",
+      "url": "https://www.ycombinator.com/companies/proliferate/jobs/OgpCKYJ-founding-product-engineer",
+      "location": "San Francisco, CA, US",
+      "type": "Full-time",
+      "role": "Engineering",
+      "role_type": "Full stack",
+      "salary_range": "$150K - $300K",
+      "equity_range": "0.30% - 1.50%",
+      "experience": "Any (new grads ok)",
+      "visa": "Will sponsor",
+      "skills": []
+    }
+  ],
+  "news": [
+    {
+      "title": "The 9 most sought-after startups from YC Demo Day | TechCrunch",
+      "url": "https://techcrunch.com/2025/09/15/the-9-most-sought-after-startups-from-yc-demo-day/",
+      "date": "Sep 15, 2025"
+    }
+  ],
+  "launches": [
+    {
+      "id": 98080,
+      "title": "Proliferate: the open source company coding agent",
+      "tagline": "Build yourself an AI coworker that actually takes work off your plate",
+      "body": "**TL;DR:** Local coding agents can't do real end-to-end work at your company. Proliferate is the open-source, self-hostable platform for building company-specific background agents that can. Agents get their own sandboxes with secure access to your internal services, trigger from any event, and expose a live, multiplayer preview so your team can verify the work together. MIT licensed.\n\n**Star the repo:** <https://github.com/proliferate-ai/proliferate>\n\n**Get started self-hosting:** <https://docs.proliferate.com/>\n\n**Sign up for self-serve waitlist:** <https://proliferate.com/waitlist>\n\n**The Problem**\n\nCoding agents today hit a wall the second they need to do real work. Fixing an actual bug means querying your staging database, reading internal Datadog logs, hitting proprietary APIs. You can't hand those keys to a generic cloud SaaS agent.\n\nSo you run agents locally. But that ties up your machine, forces you to babysit a terminal, and traps all the context on your laptop where nobody else can see it.\n\nThe most forward-looking engineering orgs- Stripe, Ramp, coinbase- spent months building custom infrastructure to solve this. Some are now merging 50+% of their PRs with agents.\n\nProliferate open-sources that infrastructure so every team can do the same.\n\n**What teams use Proliferate for:**\n\n* **On-call triage:** Sentry exception fires → agent reproduces the issue in a cloud sandbox → writes a fix → shares a live preview link in Slack for the team to verify.\n* **Flaky test sweeps:** Cron job runs overnight → agent isolates flaky CI tests by running them 1,000x → PR is waiting by morning.\n* **Mass migrations:** Bump React versions or internal API contracts across 50 microservices and fix the resulting breaking changes- automatically.\n* **Team verification:** Agent gets a feature 80% done. Instead of reading the diff, the team clicks a live preview URL. A developer jumps into the shared terminal to fix the last failing test. Feature is merged.\n\n**Demo: [https://youtu.be/H84HrOJx4QM](https://youtu.be/H84HrOJx4QM)**\n\n**What makes it different**\n\nEvery agent gets its own sandbox with your Docker containers running, secure access to your internal services via our action catalog, and can be configured to respond to any trigger. Your code and data stay in your control- fully self-hostable, MIT licensed.\n\nAnother large difference comes with how your team interacts with the work. Reading AI-generated code is tedious. So every session produces a live UR. Sessions are multiplayer. Anyone on the team can jump in, check logs, or steer the agent in real-time.\n\n**Our ask:** ⭐ Star the repo- we just open-sourced it. <https://github.com/proliferate-ai/proliferate>\n\nIf you're tired of handholding local agents and want to move them to the background with real infrastructure access, reach out. We're working closely with a handful of teams to help improve their engineering velocity and adoption of AI. [Book a demo](https://cal.com/team/proliferate/demo) or email [pablo@proliferate.com](mailto:pablo@proliferate.com).",
+      "url": "https://www.ycombinator.com/launches/PVw-proliferate-the-open-source-company-coding-agent",
+      "votes": 31,
+      "created_at": "2026-02-23T14:58:55.138Z"
+    }
+  ]
+}

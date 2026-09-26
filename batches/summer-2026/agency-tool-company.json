@@ -1,0 +1,96 @@
+{
+  "id": 32518,
+  "name": "Agency Tool Company",
+  "slug": "agency-tool-company",
+  "former_names": [],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/244ddf9b0965c4c601170d71dd660ad1a89f8792.png",
+  "website": "https://agencytool.com",
+  "all_locations": "Denver, CO, USA",
+  "long_description": "Agency Tool Company ships software to robots in the field 20x faster than a Docker pull with ATC Deploy, sending only the bytes that changed and resuming when the network drops. Deployment tooling is the connection between the lab & the field that continually bottlenecks robotics scaling and lacks a strong robotics-native solution. Deploy is live today with 3 launch partners across ag, construction, and logistics robotics.\r\n\r\nOur second product, ATC Build, offers embedded-compute as a CI service so devs can run tests and validate their software on the actual target hardware. Build supports the Nvidia Jetson lineup, Raspberry Pi, and a number of other embedded platform targets.\r\n\r\nJack Morrison and Davis Foster founded and sold Scythe Robotics after deploying hundreds of autonomous mowers across the country; Agency Tool Company is building the robotics deployment platform across hardware and software they wish they had.\r\n\r\nLearn more at https://agencytool.com",
+  "one_liner": "Reliable infrastructure to build, deploy and manage real-world robots.",
+  "team_size": 3,
+  "industry": "Industrials",
+  "subindustry": "Industrials -> Manufacturing and Robotics",
+  "launched_at": 1784914207,
+  "tags": [
+    "Developer Tools",
+    "Robotics",
+    "Automation",
+    "Infrastructure",
+    "Self-Driving Vehicles"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Summer 2026",
+  "status": "Active",
+  "industries": [
+    "Industrials",
+    "Manufacturing and Robotics"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada",
+    "Remote",
+    "Partly Remote"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/agency-tool-company",
+  "api": "https://devasheeshg.github.io/yc-api/batches/summer-2026/agency-tool-company.json",
+  "year_founded": 2026,
+  "city": "Denver",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/agency-tool-company",
+  "x_url": "https://x.com/agencytoolco",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/244ddf9b0965c4c601170d71dd660ad1a89f8792.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Harshita Arora",
+    "url": "https://www.ycombinator.com/people/harshita-arora"
+  },
+  "founders": [
+    {
+      "user_id": 3668961,
+      "full_name": "Jack Morrison",
+      "title": "Founder/CEO",
+      "founder_bio": "Founder and CEO at Agency Tool Company. Previously founder/CEO at Scythe Robotics, building autonomous electric outdoor equipment from 2018-2026 and successfully exiting to ASI. Earlier co-founded Replica Labs (mobile 3D scanning) and worked as a computer vision engineer at Occipital on the Structure Sensor. BA Computer Science from Bowdoin.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/morrisonjack/",
+      "x_url": "https://x.com/jackmorrison",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/13172ea12c502ccffb1824b2ef8e356abeabdfae.jpg"
+    },
+    {
+      "user_id": 253511,
+      "full_name": "Davis Foster",
+      "title": "Founder",
+      "founder_bio": "Founder at Agency Tool Company - making it easier to scale robots. Previously co-founded Scythe Robotics ('18-26), made autonomous commercial mowers, acquired by ASI in 2026. Built and shipped hundreds of robots still operating across the country. Thiel Fellow.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/davisfoster/",
+      "x_url": "https://x.com/davistfoster",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/3b4566280f9b3ba7c4ea23beb319e78fbf6db999.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 107934,
+      "title": "Agency Tool Company: The build and deployment platform for robotics",
+      "tagline": "Field Robots Faster with ATC Deploy",
+      "body": "Today we're sharing Agency Tool Company and our first product, ATC Deploy: a faster, more reliable way to ship software to robots wherever they are. It moves updates up to 20 times faster than docker pull or scp and works with any software stack already in use.\n\n<https://www.youtube.com/watch?v=jx0rLRVa06s>\n\n## The updates that took until 2 a.m.\n\nDavis and I spent eight years building Scythe Robotics and putting hundreds of autonomous mowers to work across the country. For years, we deployed software with a tool I'd cobbled together for our first few robots. As the fleet grew, deployment became an ordeal: engineers stayed up until 2 a.m., we coordinated with customers to move robots out of sheds and into LTE coverage at set times, and failed transfers restarted from zero. Shipping a fix could take more coordination than building it. We had models to train and customers to serve, so the tooling limped along with incremental bandaids.\n\nWe've since heard the same story from robotics teams across industries. That deployment becomes a hidden bottleneck: teams become release-averse, feedback loops slow and improvements stall. Stitched-together web and IoT tools barely work if you know which scripts to run and who to call, so they survive, even if it means every update is distracting from improving the product.\n\n## What we built\n\nATC Deploy ships whatever you already run: OS images, Docker images, or any file tree. Run “atc ota push user@robot”, and it sends only the changed bytes, then restarts your software through hooks you define—way faster than a docker push.\n\nInstall takes one “curl | sh” command and a config file so you can get back to work fast. Interrupted transfers resume where they stopped, and an offline robot can receive updates by USB if you need. There's no new runtime, packaging format, or operating system to adopt.\n\n## Shipping to robots today\n\nATC Deploy already ships software to robots at Burro, which has deployed more than 750 machines worldwide, Tempo, polishing concrete across several US states and Canada, and Gather, who is scaling their 99.9% accurate inventory drones nationwide. Their teams spend less time managing delivery and more time improving the robot.\n\n**Operate a robot fleet? Join the ATC Deploy waitlist at [agencytool.com](https://agencytool.com/).** Know a team that should be using it? Send them this post, or to [mailbox@agencytool.com](mailto:mailbox@agencytool.com).\n\nIt's time to build robots.\n\n![uploaded image](/media/?type=post&id=107934&key=user_uploads/253511/2f53d874-b652-4819-b734-bd52256958d8)\n\n",
+      "url": "https://www.ycombinator.com/launches/S4s-agency-tool-company-the-build-and-deployment-platform-for-robotics",
+      "votes": 6,
+      "created_at": "2026-07-28T15:54:16.451Z"
+    }
+  ]
+}

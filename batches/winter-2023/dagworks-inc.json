@@ -1,0 +1,104 @@
+{
+  "id": 28081,
+  "name": "DAGWorks Inc.",
+  "slug": "dagworks-inc",
+  "former_names": [],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/94a18b5c0cc3a340150d731fa97acee3a6a56ebd.png",
+  "website": "https://www.dagworks.io/",
+  "all_locations": "San Francisco, CA, USA; Remote",
+  "long_description": "We’re on a mission to enable everyone to build reliable AI agents & AI applications. We're fully open source, and provide a unique integrated development & observability experience for those building anything in the AI space. This is the first step towards laying the foundations for Composable AI Systems; all AI systems need observability and introspection to be first class for them to be reliable.\r\n\r\nHow? We're standardizing how people write python to express data, ML, LLM, & agent workflows/pipelines/applications with lightweight frameworks. So that no matter the author, it'll be easy to collaborate, connect, and importantly in one line integrate observability and datastore needs. This speeds up time to production and reduces TCO because code remains easy to maintain and your data flywheel stays manageable. So you can increase the top line & bottom line of your business by delivering on AI that is reliable.\r\n\r\nWe've got two open source projects:\r\n- one focused on AI applications, called Burr (https://github.com/dagworks-inc/burr).\r\n- one focused on AI pipelines/workflows, called Hamilton (https://github.com/dagworks-inc/hamilton) see https://www.tryhamilton.dev\r\n\r\nBoth Hamilton & Burr come with self-hostable UIs (+ enterprise & SaaS offerings). With a one-line code change, you get versioning, lineage / tracing, cataloging, and observability out of the box with Hamilton. With Burr you get tracing, observability and persistence in a single line addition.\r\n",
+  "one_liner": "Open source tools & services for reliable AI Agents & AI Applications",
+  "team_size": 2,
+  "industry": "B2B",
+  "subindustry": "B2B",
+  "launched_at": 1672773099,
+  "tags": [
+    "AIOps",
+    "Artificial Intelligence",
+    "Developer Tools",
+    "Generative AI",
+    "Open Source"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Winter 2023",
+  "status": "Acquired",
+  "industries": [
+    "B2B"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada",
+    "Remote",
+    "Fully Remote"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": [
+    {
+      "question": "Describe what your company does in 50 characters or less.",
+      "answer": "Collaborative ML ETL platform for data scientists"
+    },
+    {
+      "question": "What is your company going to make? Please describe your product and what it does or will do.",
+      "answer": "An open-core platform for data science teams to develop, productionize, and maintain machine learning ETLs, using a company’s existing MLOps & data infrastructure."
+    }
+  ],
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/dagworks-inc",
+  "api": "https://devasheeshg.github.io/yc-api/batches/winter-2023/dagworks-inc.json",
+  "year_founded": 2022,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/dagworks-inc/",
+  "x_url": "https://twitter.com/dagworks",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": "https://github.com/dagworks-inc/",
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/94a18b5c0cc3a340150d731fa97acee3a6a56ebd.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Nicolas Dessaigne",
+    "url": "https://www.ycombinator.com/people/nicolas-dessaigne"
+  },
+  "founders": [
+    {
+      "user_id": 1208898,
+      "full_name": "Stefan Krawczyk",
+      "title": "Founder",
+      "founder_bio": "A hands-on leader and Silicon Valley veteran, Stefan has spent the last 15 years working on data and machine learning systems at companies like Stitch Fix, Idibon, Nextdoor, and LinkedIn.\n\nBefore DAGWorks Inc., Stefan led the Model Lifecycle team at Stitch Fix, where its mission was to streamline the model productionization process for over 100+ data scientists. That's when he co-created https://github.com/dagworks-inc/hamilton, which he's excited to continue driving today with DAGWorks Inc.",
+      "is_active": false,
+      "linkedin_url": "https://www.linkedin.com/in/skrawczyk/",
+      "x_url": "https://twitter.com/stefkrawczyk",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/4846a217a87b816cef9b43c93ac9fb4bf3cdcdf6.jpg"
+    },
+    {
+      "user_id": 1209559,
+      "full_name": "Elijah ben Izzy",
+      "title": "Founder",
+      "founder_bio": "Elijah has spent his career building tools for Data Scientists, Quantitative-minded engineers, and AI researchers. Prior to founding DAGWorks, Inc., Elijah built out Stitch Fix's machine learning platform, which was used and loved by over 100 data scientists. A core component of this was Hamilton (https://github.com/dagworks-inc/hamilton), an open-source framework for managing dataflows that DAGWorks's is now driving forward.",
+      "is_active": false,
+      "linkedin_url": "https://linkedin.com/in/elijahbenizzy",
+      "x_url": "https://twitter.com/elijahbenizzy",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/376e0e11a4f37bad6d7e27c6baa103a0376f6dc0.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 69876,
+      "title": "DAGWorks: Avoid Machine Learning Pipeline horror stories 😱",
+      "tagline": "From creation to maintenance, DAGWorks is building a more human capital efficient way for Data Science teams to build and own Machine Learning Pipelines.",
+      "body": "👋 Hi, Stefan & Elijah here from [DAGWorks](https://dagworks.io).\n\n![uploaded image](/media/?type=post&id=69876&key=user_uploads/1208898/cf51f7bb-c9a2-495e-91d8-afb1ddfc0192)\n\n### **TL;DR:**\n\n(1) At DAGWorks Inc. our goal is to make Machine Learning (ML) initiatives more human capital efficient. (2) Our solution is an open source SaaS platform for Data Science teams to build and maintain model pipelines, plugging into as much of your existing MLOps and data infrastructure as you want. (3) Star our open source project [Hamilton on github](https://github.com/dagworks-inc/hamilton) and get started with it via [tryhamilton.dev](https://www.tryhamilton.dev).\n\n### **❌ The Problem:**\n\nAsk a Data Scientist whether they like inheriting someone else’s ML pipelines. 99% of the time, they’ll say no. Why? Getting ML to production is easy when you’re small, but when your team and codebase start to grow, maintaining these pipelines becomes challenging:\n\n* 😕 understanding code you didn’t write\n* 🐛 debugging production issues\n* 🏗️ migrating to new infrastructure\n* 🥼 handling personnel changes\n\nThis causes teams to spend far more time keeping existing ML pipelines afloat than innovating and driving their business forward.\n\nTo get out of/avoid such a mess, you need a high (and expensive) software engineering skill set, but for many that’s not an option. In our experience, this phenomenon is the biggest blocker to leveraging machine learning in your business as it grows.\n\n### **✨ Our Solution**\n\n(1) We leverage our open source project [Hamilton](https://github.com/dagworks-inc/hamilton), which is an opinionated way to write python code (akin to what DBT did for SQL), that naturally helps teams follow software engineering best practices.\n\n(2) Using the DAGWorks Client on top of Hamilton, we can give you full insight into how your pipelines operate on the DAGWorks Platform, including:\n\nA **catalog of functions** - feature catalog anyone?\n\n![](https://lh5.googleusercontent.com/lDX_3El7R6_OdBZg_tfBekfl--qUUmsmm10wBFcZcE59wrTn01e2_U8Ns-LC73fCfsJ1kmGirfbZ6XT_T_uqniK7SyJsPPZt6BXb8byJCq_C6HNlFhsdOLdiPdyVWAwS18x4D2bAQhN19AVX4Ouga6w)\n\n**Lineage** - see upstream and downstream dependencies:\n\n![](https://lh5.googleusercontent.com/-EwfBtPJB1OkF3JtS_JATLshDFHTnudGU5qyn9TqZJ3i29LcZGw0pU4Xed3Yb-apaRETO2HqQY_mDCD1ucOt8MQA5VH0D7Q_uCW99uh90c72nbKEeY8dvn5ppH5zhM0i-PtKJHDfxEYwaojPezU1ZlE)\n\n**Debugging insights** - e.g. know exactly what code failed given an airflow task failure:\n\n![](https://lh3.googleusercontent.com/j6gqllKW9oDbC9r8KC4_TRusN3MxSemIySmHq8PhSZnwOYGDwQ5ckwe-LIW4MFdtKtRfjpyCXlE_qTpQTT5boMbIDNfMgOz9huOG01UK0RuGQLFxTIR7YMuEAy5OfDuQJc-qDqdaGFLUy_9NR4nl3mo)\n\nAnd more like **data observability**, and **links with materialized artifacts** (like data sources, models, features, etc.).\n\n(3) The DAGWorks Platform becomes your ML Pipeline control plane. Use it to manage integrations with your existing infrastructure, as well as providing any reporting and compliance insights you need.\n\n### **⚙️ How it works**\n\nWith [Hamilton](https://github.com/dagworks-inc/hamilton), users logically express what should happen, which helps avoid vendor and infrastructure lock in. Then with the DAGWorks Platform & Client, we make your Hamilton code run on your existing infrastructure, providing out of the box connectors to common systems, and provide insights post execution. By building on a solid foundation that clearly decouples concerns, we can avoid the problems that plague traditional ML Pipelines. This enables Data Science teams to move faster and do more themselves, making ML projects more human capital efficient.\n\n**👪 Founding Team**\n\n[Stefan](https://www.linkedin.com/in/skrawczyk/) and [Elijah](https://www.linkedin.com/in/elijahbenizzy/) worked together at Stitch Fix where they built the self-service ML Platform for over 100 data scientists. They learned firsthand the troubles that occur building and maintaining ML Pipelines over a diverse set of modeling disciplines. Their work has been recognized by industry and included in books, newsletters, and was even the topic of a lecture at Stanford. Previously Stefan built data and ML systems at Nextdoor and LinkedIn and graduated from the Stanford CS Masters program with a Distinction in Research. Elijah built tools for quants at Two Sigma and studied Math and CS at Brown.\n\n### **🙏 Asks**\n\n1. Start with Hamilton open source today!\n   * ⭐️ Star [Hamilton on Github](https://github.com/dagworks-inc/hamilton)! Download it from [PyPI](https://pypi.org/project/sf-hamilton/).\n   * Checkout out [www.tryhamilton.dev](http://www.tryhamilton.dev) for an in browser overview of Hamilton. A common use case is to start using it for feature engineering.\n   * Don’t know how to leverage Hamilton – [book time](https://calendly.com/stefan-dagworks/15-minute-intro-call-with-stefan) and we’ll walk you through it!\n2. We’re looking for more leads to larger organizations that have ML Pipeline struggles, in particular if they have compliance/auditing needs for them. Know someone, or perhaps you’re the right person? Please email us - [founders@dagworks.io](mailto:founders@dagworks.io) or book [15 minutes here](https://calendly.com/stefan-dagworks/15-minute-intro-call-with-stefan).\n3. We’re still currently in closed beta for the DAGWorks Platform, but you can sign up for early access via [www.dagworks.io](http://www.dagworks.io).\n4. Follow us on Twitter for updates:\n   * [DAGWorks](https://twitter.com/dagworks)\n   * [Hamilton_OS](https://twitter.com/hamilton_os)",
+      "url": "https://www.ycombinator.com/launches/IB2-dagworks-avoid-machine-learning-pipeline-horror-stories",
+      "votes": 91,
+      "created_at": "2023-03-02T18:05:42.420Z"
+    }
+  ]
+}

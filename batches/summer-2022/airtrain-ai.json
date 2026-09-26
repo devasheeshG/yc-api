@@ -1,0 +1,95 @@
+{
+  "id": 26666,
+  "name": "Airtrain AI",
+  "slug": "airtrain-ai",
+  "former_names": [
+    "Sematic AI",
+    "Sematic"
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/75317513ffcf6008b389c1e9fada5072394a8511.png",
+  "website": "https://airtrain.ai",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "Airtrain AI is a no-code data platform for Large Language Models.\r\n\r\nProprietary AI models such as GPT-4 are very powerful but also very costly, slow, unreliable, and unsecured.\r\n\r\nAs businesses look to scale their AI prototypes into production-grade products, they struggle with large AI bills, slow APIs and large failure rates.\r\nOn the other hand, smaller language models have been proven to be able to perform on-part with large ones with fine-tuned on high-quality datasets.\r\n\r\nAirtrain AI lets AI practitioners explore alternatives to proprietary models, build up training datasets, evaluate, fine-tune, and serve a large selection of open-source LLMs.",
+  "one_liner": "No-code data curation for LLM fine-tuning and evaluation.",
+  "team_size": 5,
+  "industry": "B2B",
+  "subindustry": "B2B -> Infrastructure",
+  "launched_at": 1657048120,
+  "tags": [
+    "AIOps",
+    "Developer Tools",
+    "SaaS",
+    "Cloud Computing",
+    "AI"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Summer 2022",
+  "status": "Inactive",
+  "industries": [
+    "B2B",
+    "Infrastructure"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada",
+    "Remote",
+    "Partly Remote"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/airtrain-ai",
+  "api": "https://devasheeshg.github.io/yc-api/batches/summer-2022/airtrain-ai.json",
+  "year_founded": 2022,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/airtrain-ai/",
+  "x_url": "https://twitter.com/AirtrainAI",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": "https://github.com/sematic-ai",
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/75317513ffcf6008b389c1e9fada5072394a8511.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Nicolas Dessaigne",
+    "url": "https://www.ycombinator.com/people/nicolas-dessaigne"
+  },
+  "founders": [
+    {
+      "user_id": 1014902,
+      "full_name": "Emmanuel Turlay",
+      "title": "Founder",
+      "founder_bio": "Hi, I am Emmanuel.\n\nI spent my foundational years in academia (particle physics research at CERN) then branched out into tech. I built the order and payment infrastructure at Instacart, and lead ML platform at Cruise.\n\nI am the CEO and co-founder of Sematic (S22).\n\nReach out and say hello.",
+      "is_active": false,
+      "linkedin_url": "https://www.linkedin.com/in/emmanuelturlay/",
+      "x_url": "https://twitter.com/neutralino1",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/69cdd805022f44e70ed65f68b182f02ab503f7ab.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [
+    {
+      "title": "Sematic Blog – Sematic Raises $3M to Build an Open-Source Continuous Machine Learning Platform",
+      "url": "https://www.sematic.dev/blog/sematic-raises-3m-to-build-an-open-source-continuous-machine-learning-platform",
+      "date": "Nov 17, 2022"
+    }
+  ],
+  "launches": [
+    {
+      "id": 64701,
+      "title": "Sematic – Prototype-to-production ML in days not weeks",
+      "tagline": "Build and productionize arbitrary end-to-end ML/DS pipelines with only Python in a few hours.",
+      "body": "**TL;DR –** [**Sematic**](https://sematic.dev) **is an** [**open-source**](https://github.com/sematic-ai/sematic) **framework to build and run arbitrary end-to-end ML/DS pipelines developed by two ex-Cruisers.**\n\nWhen COVID hit and restaurant parklets popped up around San Francisco, the Cruise robotaxis needed to update their ML models in a matter of days.\n\nThis fast turnaround in data processing > model training > evaluation > simulation > metrics generation > deployment was enabled by talented ML Engineers using **state-of-the-art pipelining tools**.\n\n## Your problem\n\nIf you are an **ML/DS developer** 🧑‍💻, you likely spend a lot of time battling obscure infrastructure instead of leveraging your core competency: extracting insights and predictions from data.\n\nIf you are a **business leader** 🧑‍💼, you likely want more models to grow and optimize your business; and retrain them frequently to adapt to ever-changing world conditions (hello COVID!).\n\nExisting solutions (e.g. Kubeflow, Argo, Airflow, Prefect) are still too low-level and not usable by ML/DS developers.\n\nTools such as Ruby on Rails and Heroku enabled generations of web developers to build prototypes into unicorns. **Where is that experience for ML/DS development?**\n\n## Our solution\n\n[Sematic Beta Launch Demo](https://www.youtube.com/watch?v=G0Hj0T-bbiY)\n\n[Sematic](https://sematic.dev/) is **a lightweight** [**open-source**](https://github.com/sematic-ai/sematic) **ML/DS pipeline development and execution framework based on learnings from working at Cruise**.\n\nWith easy-as-pie onboarding, simply **use native Python** to develop and run arbitrary end-to-end pipelines that track and version all your assets and artifacts (models, datasets, plots, metrics, etc.), and visualize them in a slick UI.\n\nRun locally or **leverage your cloud resources** (GPUs!!) seamlessly without infrastructure work.\n\n**Collaborate with your team** in Sematic to keep the conversation close to the data context.\n\n**Sematic aims to facilitate the journey from Notebook prototypes to automated production-grade pipelines.**\n\n## Our ask\n\n⭐ [Star our Github repo](https://github.com/sematic-ai/sematic)\n\nTry us out:\n\n```\n$ pip install sematic\n$ sematic start\n```\n\nJoin our [Discord](https://discord.gg/4KZJ6kYVax) **and give us your feedback to make the product more useful to you and your company**.\n\n## Early Bird offer\n\nWe offer a white-glove onboarding service and dedicated support to build out your end-to-end pipelines.\n\n[Try us out](https://sematic.dev/), reach out on [Discord](https://discord.gg/4KZJ6kYVax), or email us at [emmanuel@sematic.dev](mailto:emmanuel@sematic.dev).",
+      "url": "https://www.ycombinator.com/launches/GpZ-sematic-prototype-to-production-ml-in-days-not-weeks",
+      "votes": 27,
+      "created_at": "2022-07-18T17:06:21.384Z"
+    }
+  ]
+}

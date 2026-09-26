@@ -1,0 +1,150 @@
+{
+  "id": 30039,
+  "name": "Raycaster",
+  "slug": "raycaster",
+  "former_names": [
+    "Atlas"
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/8e3854e63389e5cabd44e4b6563fefc3bd539147.png",
+  "website": "https://eval.raycaster.ai",
+  "all_locations": "New York City, NY, USA",
+  "long_description": "Raycaster began as an agentic AI platform for knowledge work, serving dozens of publicly traded companies across life sciences, medical devices, energy, and oil and gas. It has since launched a division dedicated to training and evaluating AI systems in these industries, working directly with leading AI labs and enterprises to improve their ability to perform economically valuable work.",
+  "one_liner": "Agentic AI for knowledge work",
+  "team_size": 6,
+  "industry": "Healthcare",
+  "subindustry": "Healthcare",
+  "launched_at": 1729820914,
+  "tags": [
+    "Artificial Intelligence",
+    "Biotech",
+    "Data Labeling",
+    "Enterprise Software"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": true,
+  "nonprofit": false,
+  "batch": "Fall 2024",
+  "status": "Active",
+  "industries": [
+    "Healthcare"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada",
+    "Remote",
+    "Partly Remote"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/raycaster",
+  "api": "https://devasheeshg.github.io/yc-api/batches/fall-2024/raycaster.json",
+  "year_founded": 2025,
+  "city": "New York City",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/raycasterai",
+  "x_url": "https://x.com/raycasterai",
+  "fb_url": "https://www.facebook.com/raycasterai",
+  "cb_url": "https://www.crunchbase.com/organization/raycaster",
+  "github_url": "https://huggingface.co/datasets/raycasterai/",
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/8e3854e63389e5cabd44e4b6563fefc3bd539147.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Diana Hu",
+    "url": "https://www.ycombinator.com/people/diana-hu"
+  },
+  "founders": [
+    {
+      "user_id": 299659,
+      "full_name": "Levi Lian",
+      "title": "Founder/CEO",
+      "founder_bio": "Raised in a four-generation medical family, Levi chose computer science to accelerate research rather than practice it. At Stanford he worked in AI labs on early foundation model applications, then shipped enterprise-ready AI at Solvvy (acquired by Zoom), Intuit and Uber AI. Levi combines deep life-science empathy with proven AI product execution to compress drug-development timelines.",
+      "is_active": true,
+      "linkedin_url": "https://linkedin.com/in/levi-lian",
+      "x_url": "https://twitter.com/levilian1",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/ef9e120296d16d39ce58bfe22573967a5158a27a.jpg"
+    }
+  ],
+  "jobs": [
+    {
+      "id": 81306,
+      "title": "CMC Workflow Specialist (Analytical/Tech Transfer)",
+      "url": "https://www.ycombinator.com/companies/raycaster/jobs/C4HEspJ-cmc-workflow-specialist-analytical-tech-transfer",
+      "location": "New York, NY, US / Remote",
+      "type": "Contract",
+      "role": "Operations",
+      "role_type": null,
+      "salary_range": "$40 - $130 / hourly",
+      "equity_range": "",
+      "experience": "3+ years",
+      "visa": "US citizenship/visa not required",
+      "skills": []
+    },
+    {
+      "id": 81307,
+      "title": "Clinical Trial Enablement Workflow Expert",
+      "url": "https://www.ycombinator.com/companies/raycaster/jobs/ANItObm-clinical-trial-enablement-workflow-expert",
+      "location": "New York, NY, US / Remote",
+      "type": "Contract",
+      "role": "Operations",
+      "role_type": null,
+      "salary_range": "$40 - $130 / hourly",
+      "equity_range": "",
+      "experience": "3+ years",
+      "visa": "US citizenship/visa not required",
+      "skills": []
+    }
+  ],
+  "news": [
+    {
+      "title": "Levi Lian, CEO of Raycaster, on why vertical AI is workflows first & chat last | Sacra",
+      "url": "https://sacra.com/research/levi-lian-raycaster-vertical-ai-workflows/",
+      "date": "Sep 30, 2025"
+    },
+    {
+      "title": "Raycaster funding & analysis | Sacra",
+      "url": "https://sacra.com/c/raycaster/",
+      "date": "Sep 30, 2025"
+    },
+    {
+      "title": "Raycaster: AgentX winner",
+      "url": "https://rdi.berkeley.edu/agentx/",
+      "date": "Jul 21, 2025"
+    },
+    {
+      "title": "Agentic AI Summit Main Stage Speaker",
+      "url": "https://rdi.berkeley.edu/events/agentic-ai-summit",
+      "date": "Jul 09, 2025"
+    },
+    {
+      "title": "Founder Fellowship 2025 Participants | NYCEDC",
+      "url": "https://edc.nyc/founder-fellowship-2025-participants",
+      "date": "Mar 06, 2025"
+    }
+  ],
+  "launches": [
+    {
+      "id": 116908,
+      "title": "Biopharma Bench 0.1 – Evaluating AI on Autonomous Drug Development",
+      "tagline": "Frontier agents struggle in drug development; open models crush on cost",
+      "body": "**TL;DR:** Everyone is trying to use AI for drug _discovery_ (finding molecules), but 90% of actual pharma time and money gets burned in drug _development_ - people digging through messy SharePoint, Veeva, fixing conflicting batch records (often scanned), updating clinical protocols, and answering FDA audit letters with 20 redline versions and siloed email threads with colleagues.\n\n![uploaded image](/media/?type=post&id=116908&key=user_uploads/299659/68f9d0a8-1eb8-4bfd-a10c-8af1fbe8f3e0)\n\nWe built **Biopharma Bench 0.1**: 12 complete, reconstructed drug companies, 71 multi-hour tasks, and 752 ground-truth checks audited by industry veterans to see what happens when you actually put frontier AI into an employee’s seat.\n\n> One interesting finding: DeepSeek V4.1 Flash matched GPT-6 Sol on the actual work (57.0% vs 54.3%) at a sixth of the cost ($0.11 vs $0.64 per task). Meanwhile Claude Opus 5, #2 overall at 63.8%, didn't fully pass a single task.\n\nCheck out the interactive traces &amp; leaderboard: <https://eval.raycaster.ai/benchmarks/biopharma-bench>\\\nRead the deep-dive blog post: <https://www.raycaster.ai/blog/biopharma-bench>\\\nJoin the discussion on Hacker News: <https://news.ycombinator.com/item?id=49845891>\\\nX: <https://x.com/dubrovnik07/status/2103543413933064530>\\\nLinkedIn: <https://lnkd.in/p/g_PD7jYr>\n\n### Backstory\n\nHey everyone! We’re the team behind Raycaster (<https://raycaster.ai>).\n\nWe first started building AI agents for regulated industries like biopharma because we see the inevitable wave of knowledge work getting handled by AI systems with human oversight (definitely not fear-mongering, but in a super exciting way!).\\\n\\\nOver the last few months, our major focus has been helping frontier AI labs globally hillclimb capabilities in underserved industries such as biopharma, energy, data centers, among others.\n\nVery quickly, we noticed something broken: almost all bio AI benchmarks test multiple-choice questions or molecular physics. Nobody was testing whether an AI agent could actually do the drug development work, open a folder of 50 disorganized PDFs and spreadsheets, find where two lab reports contradict each other, and draft an FDA-defensible document.\n\nSo, we spent the last few months working directly with former pharma directors and regulatory specialists to build an evaluation that tests what real work actually looks like.\n\n---\n\n### The Problem: The \"Fluency Trap\"\n\nIt takes 8–10 years and over $1B to get a drug to patients. Most of that delay is paperwork and coordination mistakes:\n\n* Protocol Drift: \\~75% of clinical trials have to amend their protocols mid-flight. Each amendment costs hundreds of thousands of dollars and months of lost time.\n* Messy Records: A tiny discrepancy between a stability test memo from last Tuesday and an executed batch record can trigger FDA warning letters (Form 483s) or clinical holds.\n\nWhen people play with LLMs for this, they fall into what we call the fluency trap: Frontier models write seemingly true prose. If you just read the output, the AI sounds like a 20-year VP of Regulatory Affairs who knows everything.\n\nBut when you actually grade the facts against ground truth, the model cited an outdated 2023 draft instead of the approved amendment, or hallucinated a purity threshold. In biopharma, being 95% right with one made-up number is an instant rejection.\n\n![uploaded image](/media/?type=post&id=116908&key=user_uploads/299659/46c7d62a-3842-4e51-8680-ff7f80f37255)\n\n### How Biopharma Bench Works\n\nWe didn’t give the models clean, cherry-picked prompts. We dropped them into messy environments:\n\n* 12 Companies: Real reconstructed company drives packed with thousands of messy files and software states - unredacted study reports, supplier quotes, assay validations, and random internal memos.\n* 71 Long-Horizon Tasks: Multi-hour workflows across Preclinical, CMC/Manufacturing, Clinical Ops, and Regulatory Affairs (like investigating an out-of-spec stability result or drafting a protocol amendment).\n* 752 Ground-Truth Checks: Graded against falsifiable rubrics created using real documents along with former pharma directors.\n\n![uploaded image](/media/?type=post&id=116908&key=user_uploads/299659/36d4376d-59ed-4eba-9ede-d93930299e98)\n\n---\n\n### What Shocked Us from the Runs\n\nWe ran frontier reasoning models across multiple popular harnesses (Codex, Pi, Claude Code). Here are the 3 biggest takeaways:\n\n1. **DeepSeek matched GPT-6 Sol at 1/6 the cost.** \n2. **Almost nobody finishes a full task cleanly.** Top systems get 45–70% of checks, but full passes are rare: GPT-6 Astra 8/71, Grok 4.6 2/71, Kimi K3 and GPT-5.6 Sol 1 each. Claude Opus 5, DeepSeek, GPT-6 Sol, GLM, and Gemini got 0.\n3. **The writing is fine; the sourcing isn't.** In one public task, Claude Opus 5 did everything right on the surface: it navigated the folders, read scanned protocols page by page, and wrote a clean brief. But a secondary report claimed a \"protocol-defined 30-minute window\" that doesn't exist in the controlling protocol. Opus repeated it as fact in the brief for the inspector. An experienced engineer would have flagged it.\n\n---\n\n### See the Traces\n\n![uploaded image](/media/?type=post&id=116908&key=user_uploads/299659/10059154-ce98-41cb-b0ed-f23ac8942580)\n\n---\n\n### How We Can Help\n\n* Naturally as a data / research lab, we have tons of insights into benchmark design - we recently became a proud sponsor of [evalscience.org](https://evalscience.org), a 501(c)(3) nonprofit focused on scientific agent evaluation methods and independent benchmark verification. If there’s interest, happy to share more regularly on BookFace\n* We work with / fund academics and researchers and have landed joint papers in NeurIPS, NAACL and all the big conferences. Bring your idea to us and see what can come out of it\n* Finally, if you’re a neo-lab reading this, we have lots of ready to license data, environments and evals on some of the most interesting yet underserved industries 😄 , talk to us at [team@raycaster.ai](mailto:team@raycaster.ai)",
+      "url": "https://www.ycombinator.com/launches/UPc-biopharma-bench-0-1-evaluating-ai-on-autonomous-drug-development",
+      "votes": 13,
+      "created_at": "2026-09-25T17:16:44.511Z"
+    },
+    {
+      "id": 95955,
+      "title": "Raycaster - Cursor for regulatory documents in drug development",
+      "tagline": "AI workspace for high-stakes documents, not just code.",
+      "body": "Hey YC 👋 I’m Levi, founder of Raycaster.\n\n### TL;DR\n\n* Raycaster is **Devin/Cursor, but for life sciences documents instead of code.**\n* It does **project-level drafting** across hundreds of PDFs, Word, Excel, and PowerPoints - not just “write a file from scratch.”\n* We’re starting with **drug development docs** (clinical, CMC, regulatory, quality) where delays and mistakes are insanely expensive.\n\n**Video (1 min):** [link](https://youtu.be/FhpC9dyBUF4)\n\n---\n\n### The problem (in plain English)\n\nIn drug development, everything important lives in documents:\n\n* protocols, reports, validation plans\n* batch records, specs, methods\n* Module 3, labels, responses to regulators\n\nThey’re scattered across SharePoint, Veeva, email, vendor portals, etc. When something changes - dose, batch size, impurity limit - you’re supposed to update _dozens_ of dependent docs so nothing contradicts anything else.\n\nToday that means:\n\n* **Research:** hunting across PDFs, Word, Excel, PowerPoints and public guidances for the right paragraph or table\n* **Draft:** copy-pasting into new docs and hand-editing boilerplate that “mostly” matches\n* **Edit:** reviewers tracking changes by eye and leaving 200 comments per document\n* **Version control:** folders called `FINAL_v7_REALLY_FINAL_clean(2).docx` and hoping nobody sends the wrong one to the agency\n\nThis happens across _every_ stage of drug development - nonclinical → clinical → CMC → labeling. When documents drift, you get delay letters, extra review cycles, or a straight-up rejection. It’s one of the big reasons timelines slip.\n\nChatGPT / Copilot can draft a single file. They don’t understand a **cross-document project** with real regulatory consequences.\n\n---\n\n### What we built\n\nRaycaster is an **AI workspace for document projects**, starting with regulatory and CMC work.\n\nThink of a repo, but for your dossiers:\n\n* A **workspace** that holds your source docs (guidances, prior submissions, lab reports, CoAs, batch records…).\n* A graph of how they depend on each other (this spec feeds this batch record feeds this Module 3 section, etc.).\n* An AI agent that can **research, draft, edit, and reconcile** across all of them—with citations and review controls.\n\nConcretely:\n\n1. **Research, with real citations**\\\n   Ask: “What does EMA say about a 5× batch size increase?” or “Which CoAs support these new commercial lots?”\\\n   Raycaster reads mixed formats (PDF, DOCX, XLSX, PPTX), pulls out the relevant paragraphs/tables, and shows you the answer with pinned citations back to the exact page and cell.\n\n   ![uploaded image](/media/?type=post&id=95955&key=user_uploads/299659/18f9f9a3-3ea8-49c7-b50f-17df326e526e)\n\n2. **Project-level drafting**\\\n   Instead of “write me a cover letter,” you say “update the batch formula + cover letter + justification for the 5× scale-up.”\\\n   Raycaster drafts the actual Word docs in your workspace, using the research + your templates, and wires in all the cross-references.\n\n   ![uploaded image](/media/?type=post&id=95955&key=user_uploads/299659/a80d77f1-fbde-429f-b80d-30153df19a1e)\n\n3. **Structured editing**\\\n   Editing is usually harder than drafting: “bump the batch size everywhere, but don’t touch the control batch,” “update only the EMA version,” etc.\\\n   Raycaster does **diff-aware edits**: it proposes precise changes inline, shows red/green diffs, and explains _why_ each change was made.\n\n   ![uploaded image](/media/?type=post&id=95955&key=user_uploads/299659/4b1ab418-fbe1-4517-a157-f54b076a9ca5)\n\n4. **Version control + remote agents**\\\n   Every change is tracked like a commit. You see: who asked for it, what files were touched, what the diff was, and what sources were used.\\\n   You can let Raycaster run “in the background” on a workflow (e.g. keep Module 3 in sync with new CoAs), then come in as a human reviewer to approve or tweak before anything is finalized.\n\nAll of this lives in a collaborative, access-controlled workspace, so legal/reg affairs/IT don’t freak out.\n\n---\n\n### Why this is technically interesting\n\nFor devs: this is all the fun of agents and tooling, but on **documents instead of code**:\n\n* Retrieval over **huge, messy, mixed-format corpora** (PDF/DOCX/XLSX/PPTX, scanned tables)\n* A maintained **dependency graph** of citations and document links, so the agent can do impact analysis instead of one-off Q&A\n* A diff engine that understands “regulatory text” and tables (git diff , not just lines of code\n* Multi-agent workflows with strict evaluation + human checkpoints, because “just let the model commit” is not an option when the FDA is on the other side\n\n---\n\n### Why we’re doing this\n\nI started Raycaster after seeing the same pattern over and over: the science was fine; **the documents were the bottleneck.** Teams were shipping “AI pilots,” but the real work was still people copying text between PDFs and Word.\n\nWe think documents deserve the same treatment code got:\\\n**good tooling, real version control, and smart agents that understand context.**\n\n---\n\n### Ask\n\nWe’re opening prioritized access for:\n\n* **Biopharma, med-tech, and device companies** with heavy document work (regulatory, CMC, clinical, quality, safety) on major submissions or post-approval changes.\n* **Engineers / researchers** who care about serious agentic systems on messy document workflows and want to kick the tires or collaborate on evals/benchmarks.\n\nIf that’s you (or someone you know):\n\n👉 Email [**founders@raycaster.ai**](mailto:levi@raycaster.ai) with the subject **“YC Pilot”** and 2-3 sentences about your team + doc stack, or just ping me at [**raycaster.ai**](http://raycaster.ai).\n\n![uploaded image](/media/?type=post&id=95955&key=user_uploads/299659/474ffc8a-305f-4986-ba5e-b236cf06dd90)\n\n",
+      "url": "https://www.ycombinator.com/launches/Oxf-raycaster-cursor-for-regulatory-documents-in-drug-development",
+      "votes": 19,
+      "created_at": "2025-12-03T18:56:35.429Z"
+    }
+  ]
+}

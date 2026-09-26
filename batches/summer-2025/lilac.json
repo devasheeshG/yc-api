@@ -1,0 +1,96 @@
+{
+  "id": 30649,
+  "name": "Lilac",
+  "slug": "lilac",
+  "former_names": [],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/18234851431f8da18d1f087abc867a57412f1a97.png",
+  "website": "https://getlilac.com",
+  "all_locations": "San Francisco, CA, USA; Remote",
+  "long_description": "Lilac sells flexible GPU contracts and runs the software layer on top: monitoring, bare-metal provisioning, and managed Kubernetes and Slurm. We also run this layer for GPU cloud providers as their named operations and support partner.",
+  "one_liner": "We sell GPUs.",
+  "team_size": 4,
+  "industry": "B2B",
+  "subindustry": "B2B",
+  "launched_at": 1754345371,
+  "tags": [
+    "Artificial Intelligence",
+    "Machine Learning",
+    "Cloud Computing",
+    "Infrastructure"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Summer 2025",
+  "status": "Active",
+  "industries": [
+    "B2B"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada",
+    "Remote",
+    "Fully Remote"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": true,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/lilac",
+  "api": "https://devasheeshg.github.io/yc-api/batches/summer-2025/lilac.json",
+  "year_founded": 2025,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/get-lilac",
+  "x_url": "https://x.com/LilacML",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": "https://github.com/getlilac",
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/18234851431f8da18d1f087abc867a57412f1a97.png",
+  "app_video_url": null,
+  "dday_video_url": "https://bookface-images.s3.us-west-2.amazonaws.com/video_event/73/1757438550-c9621df37029cc122bc2415a49351917/9eadda8ada622d88427020d698f25df7.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQC4NIECABPQ2AHNW%2F20260926%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260926T022132Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=8653c0ac45a8a8d06821542987d5ac104a63053cb197669fefcf773504111273",
+  "company_photos": [
+    "https://bookface-images.s3.us-west-2.amazonaws.com/attachments/e53628ce1b948c6a0fdc6aa376c679c34368c258.png"
+  ],
+  "primary_partner": {
+    "name": "Tyler Bosmeny",
+    "url": "https://www.ycombinator.com/people/tyler-bosmeny"
+  },
+  "founders": [
+    {
+      "user_id": 2382454,
+      "full_name": "Lucas Ewing",
+      "title": "Founder/CEO",
+      "founder_bio": "I'm Lucas, born and raised in Stockholm Sweden, and moved to the US for High School and College (Harvey Mudd '23!)\n\nWorking on democratizing GPUs!",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/lucasboewing/",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/4052bd2e866b8460ca058a8fff43ad5c446f355c.jpg"
+    },
+    {
+      "user_id": 2356063,
+      "full_name": "Ryan Ewing",
+      "title": "Founder",
+      "founder_bio": "I'm Ryan, a software engineer with a background in building cloud and networking services at AWS.\n\nCurrently working on Lilac, a spot GPU marketplace that leverages idle GPUs in data centers and on-prem clusters.\n\nwww.getlilac.com",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/rjewing/",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/bb13aa0cdc322cde8ee75db007c6ad439670d73c.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 92724,
+      "title": "Lilac - We find you GPUs!",
+      "tagline": "Lilac! The open-source tool that ensures your data scientists always have GPUs",
+      "body": "💬 **TL;DR Lilac is an open-source tool that ensures your data scientists always have enough GPUs for their work. We seamlessly connect compute from any source, on-prem or cloud. [Check out our GitHub!](https://github.com/getlilac/lilac)**\n\n![uploaded image](/media/?type=post&id=92724&key=user_uploads/2382454/b1a41fba-535e-4392-9526-f97e72771387)\n\n❗**The Problem: The GPU Scramble is Slowing Down AI Innovation**\n\nAsk any data scientist and they will likely tell you their biggest frustration is finding GPUs. One team we talked to is spending $7 million dollars a year with a service provider to guarantee GPUs, yet they were still running out. This forces data science and infrastructure teams into a difficult position:\n\n* **Wasted Time:** Data scientists waste hours hunting for available GPUs across different clouds and on-premise servers, distracting them from building models.\n* **Spiraling Costs & Security Risks:** Infrastructure teams lose visibility as desperate data scientists use personal keys on unmanaged instances, leading to security gaps and unpredictable cloud bills.\n* **Slowed Innovation:** The result is a direct trade-off between innovation speed and engineering best practices. Companies either accept a slow model development lifecycle or pay millions for dedicated GPU contracts in a single cloud, losing flexibility.\n\n🏆 **The Solution: Unify Your Compute, Unleash Your Data Scientists**\n\nLilac is an open-source platform that transforms your scattered, multi-cloud, and on-premise GPU resources into a single, unified compute fabric.\n\nInstead of hunting for servers, your data scientists simply submit their training jobs to Lilac. Our intelligent scheduler handles the rest—finding the first available GPU that meets the job's requirements, allocating it, and running the job.\n\n**The Result:**\n\n* **For Data Scientists:** Maximum productivity. They can focus on building models, not managing infrastructure.\n* **For Infrastructure Teams:** Centralized control. Gain full visibility, enforce security policies, and manage costs across your entire fleet of compute resources.\n\nLilac bridges the gap between R&D and infrastructure, turning GPU scarcity into a streamlined, efficient workflow.\n\nHere’s an introduction and example of how it works:\n\n[**https://www.youtube.com/watch?v=n8Ye-8YS0I4&ab_channel=Lilac**](https://www.youtube.com/watch?v=n8Ye-8YS0I4&ab_channel=Lilac)\\\n\\\n🥇 **About Us**\n\nWe're a team of two brothers, [**@Ryan Ewing**](https://bookface.ycombinator.com/user/2356063) and [**@Lucas Ewing**](https://bookface.ycombinator.com/user/2382454), who have spent our careers building the infrastructure that powers the modern web. With experience scaling enterprise infrastructure at **AWS** and building end-to-end data platforms at **Webflow**, we've seen firsthand how critical, and how broken, the tooling for AI development is. We believe the rapid acceleration of AI requires a fundamental rethinking of the infrastructure stack, and we built Lilac to be the foundation of that new ecosystem.\\\n\\\n⭐ **Our Ask**\n\nWe are thrilled to announce that Lilac is now open-source with the release of **v0.1.0**!\n\n* **Check out our GitHub:** [**github.com/getlilac/lilac**](https://github.com/getlilac/lilac)\n* **Try it out:** Star the repo, try the quick start, and give us your feedback. We welcome all contributions, from bug reports to feature requests.\n* **Get in touch:** If the problem we're solving resonates with your company, we'd love to connect. Reach out at [**contact@getlilac.com**](mailto:contact@getlilac.com), [**schedule a 15-minute chat**](https://calendly.com/lucas-getlilac/15-minute-meeting) with us, or checkout our [**website**](https://getlilac.com/).",
+      "url": "https://www.ycombinator.com/launches/O7Y-lilac-we-find-you-gpus",
+      "votes": 23,
+      "created_at": "2025-08-04T22:34:11.492Z"
+    }
+  ]
+}

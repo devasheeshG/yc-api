@@ -1,0 +1,111 @@
+{
+  "id": 31518,
+  "name": "Runtime",
+  "slug": "runtime",
+  "former_names": [],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/0fb7d11f60217eaded2ae0e96dbee3bf9ebcd68c.png",
+  "website": "https://www.runtm.com/",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "Runtime helps fast-growing fintechs build and run AI agents for mission-critical financial operations. Teams turn their procedures into specialized agents that work across their systems, with scoped access, human approvals, and a full audit trail.",
+  "one_liner": "AI agents for financial operations",
+  "team_size": 7,
+  "industry": "B2B",
+  "subindustry": "B2B -> Engineering, Product and Design",
+  "launched_at": 1773951001,
+  "tags": [],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": true,
+  "nonprofit": false,
+  "batch": "Spring 2026",
+  "status": "Active",
+  "industries": [
+    "B2B",
+    "Engineering, Product and Design"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/runtime",
+  "api": "https://devasheeshg.github.io/yc-api/batches/spring-2026/runtime.json",
+  "year_founded": 2026,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/runtm/",
+  "x_url": "https://x.com/gustrigos",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/0fb7d11f60217eaded2ae0e96dbee3bf9ebcd68c.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [
+    "https://bookface-images.s3.us-west-2.amazonaws.com/attachments/5c4bd8b8b61ed879878ec1bb80f7197c4552d0a4.png"
+  ],
+  "primary_partner": {
+    "name": "Aaron Epstein",
+    "url": "https://www.ycombinator.com/people/aaron-epstein"
+  },
+  "founders": [
+    {
+      "user_id": 362619,
+      "full_name": "Gus Trigos",
+      "title": "Founder/CEO",
+      "founder_bio": "Building Runtime (http://runtm.com) | Prev. Mentum (YC S21, acqud.)",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/gustavoatrigos",
+      "x_url": "https://x.com/gustrigos",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/bf928bc9a21c54bc88545f7fea037f277cd21787.jpg"
+    },
+    {
+      "user_id": 952396,
+      "full_name": "Carlos Volante",
+      "title": "Founder",
+      "founder_bio": "Carlos is the co-founder and CTO of Runtime, with a track record of scaling high-volume financial infrastructure at Modern Treasury, Finix, and Hulu. His experience spans billions in transaction volume, near-perfect uptime, and billing systems for tens of millions of users.",
+      "is_active": true,
+      "linkedin_url": "https://linkedin.com/in/carlos-volante-49bb86145",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/58329061d5913f1b6b1a093f6665840cdd4c3dbf.jpg"
+    }
+  ],
+  "jobs": [
+    {
+      "id": 94649,
+      "title": "Founding Engineer",
+      "url": "https://www.ycombinator.com/companies/runtime/jobs/0VjVZdp-founding-engineer",
+      "location": "San Francisco, CA, US",
+      "type": "Full-time",
+      "role": "Engineering",
+      "role_type": "Backend",
+      "salary_range": "$150K - $220K",
+      "equity_range": "1.00% - 3.00%",
+      "experience": "3+ years",
+      "visa": "Will sponsor",
+      "skills": [
+        "Amazon Web Services (AWS)",
+        "Google Cloud",
+        "Python",
+        "Next.js",
+        "AI Agents"
+      ]
+    }
+  ],
+  "news": [],
+  "launches": [
+    {
+      "id": 99699,
+      "title": "Runtime - Let your whole team ship safely with coding agents",
+      "tagline": "Guardrails and observability for all your coding agents.",
+      "body": "**Runtime ([runtm.com](http://runtm.com)) lets your whole team ship safely with any coding agent.** It gives your team the guardrails, sandboxes, context, and visibility to go from idea to PR or deployment, with any model, on any infra.\\\n\\\nOur coding agents set your repo environments automatically:\n\n![uploaded image](/media/?type=post&id=99699&key=user_uploads/362619/2951e500-e6ea-4b0a-99de-287fe024a749)\n\nYou can use Runtime through our web interface:\n\n![uploaded image](/media/?type=post&id=99699&key=user_uploads/362619/a7b5c7bd-7ed7-45fa-9684-cacae9d396fd)\n\nOr anyone on your team can trigger it from Slack, Linear, and many other connectors:\n\n![uploaded image](/media/?type=post&id=99699&key=user_uploads/362619/86c3a4fe-5b77-470b-982b-3a01405a7836)\n\nLaunch video:\\\n<https://www.youtube.com/watch?v=m3H8yUbdIHY>\n\n**The problem**\n\nAfter my last company was acquired, I led our coding agents rollout and personally shipped 4+ full-stack products in the first 3 months. I then started enabling the rest of the team to do the same. But we hit a lot of friction fast: we needed to create working environments, we didn’t have any control or context to ensure agents contributed correctly, and nobody had visibility of what was being shipped. And because we'd gone deep on one provider's tooling, when their reliability dipped, the whole team slowed down.\n\nEveryone rolling out coding agents across their team hits the same walls:\n\n* **No environment setup:** No easy way to give engineering and product teams production-like environments where agents can safely run.\n* **No guardrails:** No access controls, system instructions, or secrets management for agents.\n* **No visibility:** No way to see what agents are doing, what they're changing, or where things break.\n* **Vendor lock-in:** Go all-in on one model provider's agent infra and your whole team is exposed when reliability, pricing, or model quality shifts.\n\nWithout these, you end up either moving slower than your competition or causing major downtimes on your product.\n\n**What we built**\n\nRuntime sits between your team and the coding agents they use. It works with Claude Code, Codex, OpenCode, Gemini, Copilot, and others, and can be called programmatically or used through Slack, Linear, Jira, Asana, Teams, CLI, and more.\n\n\\\nHere's what that looks like in practice:\n\n* **Environment templates:** Import any repo and set up a replica of your environments once. Our agents handle the setup for you, even for monorepos and microservices.\n* **Sandboxed environments:** Anyone on the team can spin up a sandbox in milliseconds with a live preview of your product, make changes with their preferred coding agent, and open a PR.\n* **Configurable guardrails:** System instructions, skills, allowlists, encrypted secrets, and role-based access control for both humans and agents.\n* **Observability:** See exactly what every human and agent is doing across every interaction, down to the tool call and chain of thought.\n* **One-click deploys / PRs:** Anyone can deploy from their sandbox. Coding agents auto-fix build errors and verify the deployment is healthy before it goes live. You control what gets deployed and can roll back or destroy deployments at any time.\n\nRuntime can be fully self-hosted.\\\n\\\nCheck our product demo:\n\n<https://youtu.be/Gqdzfo7a8IM>\\\n\\\n**Asks**\n\n**Use Runtime at your company.** Sign up at [app.runtm.com](http://app.runtm.com). If you're a CTO, head of platform, or eng / product leader rolling out coding agents, our team will personally set up your environments and help you set up best practices to your team is shipping within the first days.\n\n**Book a demo** at <https://cal.com/gustavo-trigos-q80bop/runtime-demo-meeting>\n\n**Upvote this** and connect with me to follow the journey:\n\n* <https://www.linkedin.com/in/gustavoatrigos/>\n* <https://x.com/gustrigos>",
+      "url": "https://www.ycombinator.com/launches/Pw3-runtime-let-your-whole-team-ship-safely-with-coding-agents",
+      "votes": 29,
+      "created_at": "2026-04-13T22:39:14.227Z"
+    }
+  ]
+}

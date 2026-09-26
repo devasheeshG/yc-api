@@ -1,0 +1,97 @@
+{
+  "id": 33054,
+  "name": "Lamb Labs",
+  "slug": "lamb-labs",
+  "former_names": [
+    "LAMb Intelligence"
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/c5ba47505a760393e85b91acdb4b3933cf8df0a7.png",
+  "website": "http://lamb-labs.com",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "Lamb Labs is building MPUs (Model Processing Units), custom chips that hardcode LLM weights directly into the chip. Unlike GPUs, which move weights between memory and compute, MPUs keep the model on-chip, targeting up to 20,000+ tok/s and a 63× higher intelligence per watt.\r\n\r\n",
+  "one_liner": "Lightning fast chips with hardcoded AI models",
+  "team_size": 0,
+  "industry": "B2B",
+  "subindustry": "B2B",
+  "launched_at": 1785288921,
+  "tags": [
+    "Artificial Intelligence",
+    "Hardware",
+    "B2B",
+    "Semiconductors",
+    "AI"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Summer 2026",
+  "status": "Active",
+  "industries": [
+    "B2B"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/lamb-labs",
+  "api": "https://devasheeshg.github.io/yc-api/batches/summer-2026/lamb-labs.json",
+  "year_founded": 2026,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/lamb-labs/",
+  "x_url": "https://x.com/LambLabs",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/c5ba47505a760393e85b91acdb4b3933cf8df0a7.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [
+    "https://bookface-images.s3.us-west-2.amazonaws.com/attachments/59a091ae426afcd919acf389592f0f3391ed83c8.png"
+  ],
+  "primary_partner": {
+    "name": "Tyler Bosmeny",
+    "url": "https://www.ycombinator.com/people/tyler-bosmeny"
+  },
+  "founders": [
+    {
+      "user_id": 726152,
+      "full_name": "Niki Kotecha",
+      "title": "Founder/CEO",
+      "founder_bio": "Founder at Lamb Labs. AI PhD at Imperial College London + I-X Scholar. MEng/BA in Engineering from University of Cambridge. Alan Turing Institute Global Fellowship and 160+ citations",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/niki-kotecha/",
+      "x_url": "https://x.com/KotechaNiki",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/9d7169b597815c0e4b02ff12606c162b4c12432b.jpg"
+    },
+    {
+      "user_id": 3179989,
+      "full_name": "Thomas Lanning",
+      "title": "Founder/CTO",
+      "founder_bio": "Founder at Lamb Labs. Masters in Mathematical and Theoretical Physics from Oxford. Top of his class in undergraduate at Edinburgh University. (Re)discovered the Higgs-boson using ML and CERN data. ",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/thomas-lanning/",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/aadf202207708e0feff18ade84592a81efb19f2f.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 108778,
+      "title": "Lamb Labs: Custom Chips for AI Inference",
+      "tagline": "Co-designed models and silicon: we hardcode the model architecture into chips targeting 20,000+ tokens per second and 63x higher intelligence per watt.",
+      "body": "**Hi Everyone!** \n\n**We’re Niki and Thomas - cofounders of Lamb Labs.**  \n\n**TL;DR: We build custom AI inference chips that run inference at 20,000+ tok/s and 63x higher intelligence per watt than a traditional GPU. Fully local and private by construction, no subscriptions, no API costs.** \n\n**Our mission: the world’s fastest LLM at the lowest power.** \n\n<https://youtu.be/MhhY1Dy9ltE?feature=shared>\n\n**Our hot take: AI models are finally getting good enough to hardcode them directly into silicon.** Once you stop treating the chip as a general-purpose GPU and burn a specific model into hardware, inference gets radically faster and cheaper per watt. Most of the industry is still building flexible, general chips. We think that flexibility is exactly what's wasting your energy. So we’re on a mission to reduce the energy footprint of AI. \n\n**The Problem**\n\nAI is taking power on two fronts: concentrating control of data and intelligence, and consuming ever more electricity to grow. That future scares us, so we're building against it.\n\nHere's the technical root of the waste: **GPUs burn most of their energy during inference moving data, not computing.** LLM/VLM inference is memory-bound, fetching a weight from memory costs \\~100–1000x the energy of the arithmetic you do with it. So you underutilize the GPU you paid for: some GPUs only hit 20–40% compute utilization during LLM inference while the rest idles waiting on memory.\n\nCloud hosting adds its own tax: expensive per-token bills, latency you can't control, network dependencies, and your data leaving your control.\n\n**Our Solution**\n\nWe build the model and the chip together. \n\nThe Hardware Layer\n\n* **Custom architecture, RL-tuned.** We built an RL environment that co-designs the chip architecture for a given model, optimizing directly for speed and energy per token.\n* **Aggressive quantization.** Removes complex math, which shrinks the size and cost of the chip.\n* **Weights on-chip.** The model weights live where the compute is overcoming the memory-bandwidth bottleneck\n\n \n\nBecause everything is hardcoded, it's fully local and secure by construction. No connectivity dependency, nothing leaves the device.\n\nThe Software Layer \n\nDesigning the chip led us to solving a fundamental flaw in LLMs so we are now open-sourcing a new model next week, converted from another open source model, to run 2x faster on any hardware. Come back next week for part 2 of our launch to find out more….\n\n**Our Ask**\n\nIf you answer \"yes\" to any of these, we'd love your help:\n\n* **Are you paying for inference in watts, not just dollars?** Neocloud or private DC operators who are power- or hardware-cost-bound rather than demand-bound, talk to us.\n* **Do you need inference where the cloud isn't an option?** Private AI deployments, regulated, air-gapped, sovereign, or bandwidth-starved deployments.\n* **Do you want to deploy the fastest AI models in your stack?** High frequency trading, agentic workflows \n* **Are you stuck on a thermal or battery budget?** Robotics, wearables, consumer AI hardware where a Jetson-class part is over-provisioned and runs too hot.\n* **Can you introduce us to anyone above?** Warm intros are the single most useful thing.\n\nContact us at [contact@lamb-labs.com](mailto:contact@lamb-labs.com)",
+      "url": "https://www.ycombinator.com/launches/SIU-lamb-labs-custom-chips-for-ai-inference",
+      "votes": 64,
+      "created_at": "2026-08-03T04:56:33.889Z"
+    }
+  ]
+}

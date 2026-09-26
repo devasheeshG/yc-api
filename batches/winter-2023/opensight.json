@@ -1,0 +1,104 @@
+{
+  "id": 27816,
+  "name": "OpenSight",
+  "slug": "opensight",
+  "former_names": [
+    "FastFile"
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/388789f1c6ffe4850160572101030a86b8e7bc8c.png",
+  "website": "https://www.opensight.ai",
+  "all_locations": "San Francisco, CA, USA; Sunnyvale, CA, USA; Remote",
+  "long_description": "OpenSight helps companies quickly scale up their support function and resolve customers' questions much faster. With the latest advancement in LLMs, OpenSight offers accurate answers and action resolution paths resolving >70% of inbound customer inquiries. ",
+  "one_liner": "AI-powered customer support automation for fast-growing companies",
+  "team_size": 3,
+  "industry": "B2B",
+  "subindustry": "B2B -> Operations",
+  "launched_at": 1673668209,
+  "tags": [
+    "Generative AI",
+    "B2B",
+    "Customer Success",
+    "Customer Support"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Winter 2023",
+  "status": "Inactive",
+  "industries": [
+    "B2B",
+    "Operations"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada",
+    "Remote",
+    "Fully Remote"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/opensight",
+  "api": "https://devasheeshg.github.io/yc-api/batches/winter-2023/opensight.json",
+  "year_founded": 2022,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/opensightai/",
+  "x_url": "https://twitter.com/OpenSightAI",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/388789f1c6ffe4850160572101030a86b8e7bc8c.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": null,
+  "founders": [
+    {
+      "user_id": 699631,
+      "full_name": "Ruoni Wang",
+      "title": "Founder/CEO",
+      "founder_bio": "Full-stack engineer with a strong product mind. Prior to OpenSight, Ruoni built several AI/ML applications at Meta AI and is a patent author in Natural Language Processing. Now engineering @ Anima (YC W21). \n",
+      "is_active": false,
+      "linkedin_url": "https://www.linkedin.com/in/ruoni-wang-090031121/",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/7670c66297550bb1f169861a19ce71d3eae7ae91.jpg"
+    },
+    {
+      "user_id": 1255641,
+      "full_name": "Jeff Huang",
+      "title": "Founder/CTO",
+      "founder_bio": "Former CTO @ Lunaris Trading, Volatility Strategies and Arbitrage Team Lead @ Akuna Capital",
+      "is_active": false,
+      "linkedin_url": "https://www.linkedin.com/in/jhuang619/",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/5e63a876057534fc1ee9abaf54595779aa26541f.jpg"
+    },
+    {
+      "user_id": 422006,
+      "full_name": "Victoria Wan",
+      "title": "Founder/COO",
+      "founder_bio": "In my previous life, I worked in strategic finance for startups and public companies before becoming the first marketing hire at Pry Financials YC W21 (Acquired by Brex). Currently living in Houston with my husband and our Shiba Inu son, Harrison.",
+      "is_active": false,
+      "linkedin_url": "https://www.linkedin.com/in/vw-wan/",
+      "x_url": "https://twitter.com/hiVickieW",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/ab08543f0f468a354e2dc72d27e9cbf434a2e16a.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 69276,
+      "title": "OpenSight - Automate your customer support questions (and actions!)",
+      "tagline": "AI-powered solution to automate even the hard and time-consuming customer questions and requests",
+      "body": "Hi YC! Vickie, Jeff, and I (Ruoni) are excited to introduce [OpenSight](https://www.opensight.ai)!\n\n**_Tl;dr_**_: OpenSight is a customer support automation tool that resolves **>70% of your customers’ questions** by automating actions in addition to providing text-based responses._\n\n## **❌ The Problem**\n\nYou are a B2C SaaS, e-Commerce, Marketplace, FinTech company with tons of tickets growing every day, support is becoming really expensive and **your Intercom bot solves 30% of the tickets** after either you or your head of ops **spent hundreds of hours finding and creating examples to train the bot.** (A notable portion of which are customers who just rage quit and counted as contained)\n\n## **✨ Our Solution**\n\n### Automatic Answering Bot\n\n* Learn from your FAQ, past agent responses AND agent actions to **2-3x your current chatbot’s containment to 70 - 90%**\n* Give your customer **precise answers** to the question asked (**check out** [**this comparison**](https://www.loom.com/share/ef944404f6e74ce3a0ea756ecf57b78a) **of our answer bot vs. Stripe’s help center and doc, and try it yourself** [**here**](https://stripe-demo.opensight.ai))\n* **More than just a simple embeddings search fed into GPT** - our proprietary algorithm uses statistical modeling to adjust answer relevancy and filter out irrelevant or case-specific content to ensure vetted and up-to-date answers\n* Promptly perform the actions that your customers request when the right conditions are met\n\n### Agent Assist\n\n* Draft answers and allow agents to **perform lengthy yet repetitive actions** with **a single click**, saving up to **80% of handle time**\n* Surface the **relevant customer data** at the **right time** to give your agents confidence without cluttering their workspace with unnecessary details\n\n  ![uploaded image](/media/?type=post&id=69276&key=user_uploads/699631/93ad40ec-16f6-4bca-8ca7-581efe7ac9c3)\n\n\n## **⚙️ How it works**\n\n1. An initial call to understand your needs - We **support multiple languages** and **integrations** (Zendesk, Intercom, Front, and more)\n2. Signing a data-sharing agreement for us to analyze your support data and present you with an automatability report with real backtest results using our bot and a tailored solution set\n3. 3-month pilot where we will be your consultant **customizing integrations and features just for you** and making sure we deliver on the promise; **no engineering lift from your end**\n4. An official rollout with our solution set, which will then become completely self-served\n\n## **🙏 Our ask**\n\n* If your team is overwhelmed by the number of support tickets - with > min (100+ tickets/daily, 3 customer support agents), let us help you by scheduling a call with us [here](https://usemotion.com/meet/OpenSight/xvxpkhl?d=30)\n* If you believe someone you know might need our help, we’d love to be connected at [vickie@opensight.ai](mailto:vickie@opensight.ai).\n* If you like what we are building, share and upvote!\n\nThank you so much!",
+      "url": "https://www.ycombinator.com/launches/I1M-opensight-automate-your-customer-support-questions-and-actions",
+      "votes": 73,
+      "created_at": "2023-02-14T16:51:24.428Z"
+    }
+  ]
+}

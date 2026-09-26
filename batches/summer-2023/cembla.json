@@ -1,0 +1,129 @@
+{
+  "id": 29152,
+  "name": "Cembla",
+  "slug": "cembla",
+  "former_names": [
+    "Taylor",
+    "Taylor AI"
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/41b0a27e54d4ae8ccb5d6d44522528df85b7ed7a.png",
+  "website": "https://cembla.com",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "",
+  "one_liner": "AI for legal & government",
+  "team_size": 2,
+  "industry": "B2B",
+  "subindustry": "B2B -> Legal",
+  "launched_at": 1687991939,
+  "tags": [
+    "SaaS",
+    "GovTech",
+    "B2B",
+    "Legal"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Summer 2023",
+  "status": "Active",
+  "industries": [
+    "B2B",
+    "Legal"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": [
+    {
+      "question": "How did your company get started? (i.e., How did the founders meet? How did you come up with the idea? How did you decide to be a founder?)",
+      "answer": "Ben and Brian met at the 2015 Speech & Debate Nationals the summer before the start of their freshman year at Stanford. Since then, they’ve been best friends and are currently roommates in San Francisco. After graduating with his master’s in computer science, Ben was most recently an applied machine learning researcher in a Stanford research lab. After graduating with his bachelor’s in engineering, Brian was most recently a product manager on the front lines of early AI adoption in industry. Ben and Brian started Taylor because they saw companies rushing to adopt AI but struggling to adapt one-size-fits-all chat models for their use cases."
+    }
+  ],
+  "url": "https://www.ycombinator.com/companies/cembla",
+  "api": "https://devasheeshg.github.io/yc-api/batches/summer-2023/cembla.json",
+  "year_founded": 2023,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "",
+  "x_url": "",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/41b0a27e54d4ae8ccb5d6d44522528df85b7ed7a.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [
+    "https://bookface-images.s3.us-west-2.amazonaws.com/attachments/53a4c68619911ccd19537c76a9f9a99ed50038a3.png"
+  ],
+  "primary_partner": {
+    "name": "Diana Hu",
+    "url": "https://www.ycombinator.com/people/diana-hu"
+  },
+  "founders": [
+    {
+      "user_id": 989748,
+      "full_name": "Brian Kim",
+      "title": "Founder",
+      "founder_bio": "S23",
+      "is_active": true,
+      "linkedin_url": "https://linkedin.com/in/brian-kim-463a50142",
+      "x_url": "https://twitter.com/brian_j_kim",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/8df0ed53ec7dd20d9732a35304d67b041ac9175e.jpg"
+    },
+    {
+      "user_id": 515987,
+      "full_name": "Benjamin Anderson",
+      "title": "Founder",
+      "founder_bio": "CTO",
+      "is_active": true,
+      "linkedin_url": "https://linkedin.com/in/andersonbcdefg",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/4d46e310dd7ebda152ee67370014aad907ff6fc2.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [
+    {
+      "title": "Data Engineering Startups funded by Y Combinator (YC) 2024 | Y Combinator",
+      "url": "https://www.ycombinator.com/companies/industry/data-engineering",
+      "date": "Apr 01, 2024"
+    },
+    {
+      "title": "The Journal by Fondo | Taylor AI launches: Tag your text data at scale",
+      "url": "https://www.tryfondo.com/blog/taylor-ai-launches",
+      "date": "Mar 26, 2024"
+    },
+    {
+      "title": "The Journal by Fondo | Taylor AI launches: Tag your text data at scale",
+      "url": "https://www.tryfondo.com/blog/taylor-ai-launches",
+      "date": "Mar 25, 2024"
+    },
+    {
+      "title": "Bruckner Ventures on LinkedIn: 🚨 Bruckner Ventures is thrilled to announce our investment in Taylor AI…",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7136381855037100033/?actorCompanyId=95063899",
+      "date": "Dec 01, 2023"
+    },
+    {
+      "title": "The AI Edge on LinkedIn: #ai #aitools #tech #productivity | 10 comments",
+      "url": "https://www.linkedin.com/posts/the-ai-edge_ai-aitools-tech-activity-7095124082316185602-tVwh?utm_source=share&utm_medium=member_desktop",
+      "date": "Sep 01, 2023"
+    }
+  ],
+  "launches": [
+    {
+      "id": 79451,
+      "title": "Taylor — Tag your text data at scale",
+      "tagline": "The API for on-demand text classification (No LLMs)",
+      "body": "Hey everyone! 👋 We're Ben & Brian.\n\n**TL;DR** Use Taylor’s API to tag your free text faster and cheaper than a LLM can.\n\n**THE PROBLEM** High-volume, high-frequency text data (like user-generated content, chat completions, and lead communication logs) is difficult to sort, productize, and manage. You can tag text with LLMs, which works well on smaller datasets but is challenging at scale due to rate limits, high latency, and accuracy issues (“creative” labels). What if you could classify text in real time with no rate limits?\n\n**OUR SOLUTION** An API for classifying your text in milliseconds into hierarchical labels. For example, use our out-of-the-box **topic classification model** to tag your free text by topic.\n\n![uploaded image](/media/?type=post&id=79451&key=user_uploads/989748/3ee6956b-5fd4-4f09-a9f4-8150c204b8ac)\n\n**OUR ASKS**\n\n1. Make a request to our topic classification model! [Log in](https://www.trytaylor.ai/login), grab your API key, and then use [this starter code](https://docs.trytaylor.ai/Topic%20Tags/request#full-example) to get back topic labels.\n2. Not the labels you need? Email us ([founders@trytaylor.ai](mailto:founders@trytaylor.ai)) or book time [here](https://calendly.com/brian-r0o/taylor-ai).\n3. Follow us on [Twitter](https://twitter.com/TryTaylor_AI) and [LinkedIn](https://www.linkedin.com/company/taylor-ai/) to stay on top of our latest models and roadmap!",
+      "url": "https://www.ycombinator.com/launches/KfT-taylor-tag-your-text-data-at-scale",
+      "votes": 64,
+      "created_at": "2024-03-18T03:17:06.573Z"
+    }
+  ]
+}

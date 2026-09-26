@@ -1,0 +1,86 @@
+{
+  "id": 31062,
+  "name": "Hlabs",
+  "slug": "hlabs",
+  "former_names": [],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/2007aefe34bda2618000c044128494ad2cb4af5f.png",
+  "website": "https://www.hlaboratories.com",
+  "all_locations": "Austin, TX, USA",
+  "long_description": "HLabs is making an industrial supply chain for building robots in the USA including electronics and actuators, with a focus on in-house manufacturing.\r\n\r\nRobotics is going to be one of the largest industries the world has ever seen. Teams have to buy what they can from overseas and then build everything else in house just to get something to move. HLabs is producing a plug and play set of robotic primitives to accelerate the early development and then working with larger scale production robots for bespoke designs.\r\n\r\nEarly customers span across household robotics, humanoids, robot arms, quadrupeds, and defense.\r\n\r\nHlabs is founded by Paul, a second time YC founder who also participated in the W21 batch with Mystic. He ran Mystic as CEO for 6 years.\r\n\r\n",
+  "one_liner": "US-Made Parts for Robots",
+  "team_size": 1,
+  "industry": "Industrials",
+  "subindustry": "Industrials",
+  "launched_at": 1763422443,
+  "tags": [],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Winter 2026",
+  "status": "Active",
+  "industries": [
+    "Industrials"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/hlabs",
+  "api": "https://devasheeshg.github.io/yc-api/batches/winter-2026/hlabs.json",
+  "year_founded": 2025,
+  "city": "Austin",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/hlaboratories",
+  "x_url": "https://x.com/hlabs_",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/2007aefe34bda2618000c044128494ad2cb4af5f.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Brad Flora",
+    "url": "https://www.ycombinator.com/people/brad-flora"
+  },
+  "founders": [
+    {
+      "user_id": 316612,
+      "full_name": "Paul Hetherington",
+      "title": "Founder/CEO",
+      "founder_bio": "Founder and CEO of Hlabs (W26), Prev Founder and CEO of Mystic (W21).",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/paul-hetherington/",
+      "x_url": "https://x.com/paulcjh_",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/b0a028873ab868127c0bbf011e8d660b44e256b4.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 98674,
+      "title": "HLabs: US-made robot actuators and electronics",
+      "tagline": "An ecosystem of US-made plug and play parts to build robots",
+      "body": "Hi, I’m Paul the Founder of HLabs and we’re making what you need to get a robot to move. \\\n\\\n**TL;DR**\\\nHLabs is an ecosystem of US-made plug and play parts to build robots; an Nvidia Jetson companion board, 2-channel wireless module, FOC control boards, motors and actuators. With HLabs no time is wasted getting things to work. You can focus on what matters. Our launch sale is live right now at [hlaboratories.com](https://hlaboratories.com)\\\n\\\n**Most robots look like college projects**\\\nRight now to make a robot you have to stitch together a bunch of different PCBs with jumper cables and wait weeks for blackbox actuators to arrive from China.\\\nYou spend lots of time debugging why your CAN bus isn’t working, why every actuator performs differently, and meanwhile your wires keep coming loose.\\\n\\\nYou say that you’ll design your own PCBs and controllers to bring everything together but you keep putting it back because something else more important keeps coming up.\\\n\\\nThese problems plague bigger companies too and add a huge amount of additional time to projects. On top of this there’s huge unpredictability in geopolitics and supply chains when sourcing from overseas.\\\n\\\n**It doesn’t have to be this way**\\\nHLabs is making a plug-and-play ecosystem for everything that you need to build a robot. We’re starting with:\n\n* RB1 - A robot main board powered by an Nvidia Jetson. This handles power distribution, compute, and a bunch more.\n* WM1 - 2-channel wireless radio for sending video/data making the RB1 remotely controllable over USB-C.\n* M1 - A pancake motor.\n* ACB3 - An FOC control board with matching connectors to the RB1.\n* A1/A1m - A planetary/cycloidal actuator powered by the ACB3.\n\n![uploaded image](/media/?type=post&id=98674&key=user_uploads/316612/b61549b8-41f6-4ec5-be50-30d521a92762)\n\nThese products abstract away all of the complexity in designing and controlling a robot's electronics. Complicated communication interfaces are replaced with simple python libraries. You can now focus on getting your robot to walk instead of turning on reliably.\n\nOur focus is on working with startups building medium to large size robots like quadrupeds, humanoids, and robot arms!\\\n\\\n\\*\\*There’s a launch sale on right now!\\*\\*\\\nEverything is up for preorder right now with the electronics shipping this summer, and the M1 shipping in the next 1-2 months. You can place an order on our store here while the sale last for this week:\n\n<https://hlaboratories.com>\n\nThanks!",
+      "url": "https://www.ycombinator.com/launches/PfW-hlabs-us-made-robot-actuators-and-electronics",
+      "votes": 13,
+      "created_at": "2026-03-10T20:57:15.085Z"
+    },
+    {
+      "id": 98675,
+      "title": "HLabs: US-made robot actuators and electronics",
+      "tagline": "An ecosystem of US-made plug and play parts to build robots",
+      "body": "Hi, I’m Paul the Founder of HLabs and we’re making what you need to get a robot to move. \\\n\\\n**TL;DR**\\\nHLabs is an ecosystem of US-made plug and play parts to build robots; an Nvidia Jetson companion board, 2-channel wireless module, FOC control boards, motors and actuators. With HLabs no time is wasted getting things to work. You can focus on what matters. Our launch sale is live right now at [hlaboratories.com](http://hlaboratories.com)\\\n\\\n**Most robots look like college projects**\\\nRight now to make a robot you have to stitch together a bunch of different PCBs with jumper cables and wait weeks for blackbox actuators to arrive from China.\\\nYou spend lots of time debugging why your CAN bus isn’t working, why every actuator performs differently, and meanwhile your wires keep coming loose.\\\n\\\nYou say that you’ll design your own PCBs and controllers to bring everything together but you keep putting it back because something else more important keeps coming up.\\\n\\\nThese problems plague bigger companies too and add a huge amount of additional time to projects. On top of this there’s huge unpredictability in geopolitics and supply chains when sourcing from overseas.\\\n\\\n**It doesn’t have to be this way**\\\nHLabs is making a plug-and-play ecosystem for everything that you need to build a robot. We’re starting with:\n\n* RB1 - A robot main board powered by an Nvidia Jetson. This handles power distribution, compute, and a bunch more.\n* WM1 - 2-channel wireless radio for sending video/data making the RB1 remotely controllable over USB-C.\n* M1 - A pancake motor.\n* ACB3 - An FOC control board with matching connectors to the RB1.\n* A1/A1m - A planetary/cycloidal actuator powered by the ACB3.\n\n![uploaded image](/media/?type=post&id=98675&key=user_uploads/316612/b61549b8-41f6-4ec5-be50-30d521a92762)\n\nThese products abstract away all of the complexity in designing and controlling a robot's electronics. Complicated communication interfaces are replaced with simple python libraries. You can now focus on getting your robot to walk instead of turning on reliably.\n\nOur focus is on working with startups building medium to large size robots like quadrupeds, humanoids, and robot arms!\\\n\\\n\\*\\*There’s a launch sale on right now!\\*\\*\\\nEverything is up for preorder right now with the electronics shipping this summer, and the M1 shipping in the next 1-2 months. You can place an order on our store here while the sale last for this week:\n\n<https://hlaboratories.com>\n\nThanks!",
+      "url": "https://www.ycombinator.com/launches/PfX-hlabs-us-made-robot-actuators-and-electronics",
+      "votes": 3,
+      "created_at": "2026-03-10T20:57:07.912Z"
+    }
+  ]
+}

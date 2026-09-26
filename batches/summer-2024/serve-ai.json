@@ -1,0 +1,94 @@
+{
+  "id": 29839,
+  "name": "Serve AI",
+  "slug": "serve-ai",
+  "former_names": [
+    "pap!"
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/7e1603c58a6b9ecb46ac26ec775f8201dd3c1d3d.png",
+  "website": "https://serveaiglobal.com/",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "",
+  "one_liner": "AI for Field Service Enterprises",
+  "team_size": 6,
+  "industry": "B2B",
+  "subindustry": "B2B -> Operations",
+  "launched_at": 1724803143,
+  "tags": [
+    "B2B",
+    "Home Services",
+    "AI"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Summer 2024",
+  "status": "Active",
+  "industries": [
+    "B2B",
+    "Operations"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/serve-ai",
+  "api": "https://devasheeshg.github.io/yc-api/batches/summer-2024/serve-ai.json",
+  "year_founded": 2026,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/tryserveai/",
+  "x_url": "",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/7e1603c58a6b9ecb46ac26ec775f8201dd3c1d3d.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Aaron Epstein",
+    "url": "https://www.ycombinator.com/people/aaron-epstein"
+  },
+  "founders": [
+    {
+      "user_id": 1984796,
+      "full_name": "Kamal Nahas",
+      "title": "Founder/CEO",
+      "founder_bio": "Kamal earned a B.S. in Electrical Engineering and Computer Sciences from UC Berkeley, worked at Apple as a Security/ML software engineer intern, and met hundreds of engineers while working at Human Capital. He grew up in Lebanon, where he led operations resulting in 230+ families fed for an entire month and 25+ civilians housed.\n",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/kamal-nahas/",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/b440f99b5fff145c84d86bb1e1e1eea28e842b4e.jpg"
+    },
+    {
+      "user_id": 854578,
+      "full_name": "Anthony Rassi",
+      "title": "Founder/CTO",
+      "founder_bio": "Anthony graduated from USC in Computer Engineering and Computer Sciences and worked at Addepar as a product engineer intern. He grew up in Lebanon, where he won a national hackathon, built a 5-figure affiliate marketing business, and led an engineering team at the country’s largest retailer.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/anthonyrassi",
+      "x_url": "https://x.com/anthonyrassi_",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/52c1eca2a928382fdf7d3d7dbdf8307032e38f32.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 83836,
+      "title": "pap! — Automatic refunds for consumers",
+      "tagline": "We automate refunds for consumers when they shop, fly, travel, subscribe… and live.",
+      "body": "**TLDR:** Every year, consumers miss out on more than **$50B** because they are not claiming the money they are entitled to. We built AI agents that claim it for them.\n\n![uploaded image](/media/?type=post&id=83836&key=user_uploads/1984796/7093e028-b7ff-4ac4-9942-f98c49b9d002)\n\n# The Problem 🚩\n\nWhen stuff you’ve already bought goes on sale or when flights you’ve booked are delayed, policies entitle you to money. But spotting these opportunities and claiming the cash you’re owed is time-consuming and confusing. Industries subject to such policies include retail, airlines, hotels, technology, and even the government.\n\n# Our Solution 💸\n\nWe're building AI that connects to your email inbox to: scan your e-receipts, identify opportunities to get you dollars, and automatically claim them by contacting customer service via email, phone, forms, or chat.\n\nWe started by automating refunds in the shopping industry and have secured $6,650, growing **233% MoM**. With AI, we've been able to generalize that same automation to tackle refunds in the flight industry and the class-action lawsuit landscape. That’s when we understood why this had never been done before…\n\n# Why now? 🚨\n\nAI enables us, for the first time, to automatically:\n\n1. **Reason about unstructured data at scale**\n2. **Handle complex, nuanced customer service interactions**\n\n \n\nGeneralizing securing refunds from one industry to all industries turns each step of the process into an unstructured data processing problem. For example, having a parser that can only understand Cotsco receipts and a scraper that can only read the price from the Costco website is not enough anymore: you need a parser that can understand changing receipts from all enterprises and a scraper that can read information from any website. The ability to reason about unstructured data at scale replaces the rigid, static software, solving the issue.\n\n### In short, PAP! represents an opportunity to finally realize the dream customer journey — sign up once, forget we exist, and earn money effortlessly.\n\n# Our Team 👨‍👨‍👦\n\n* [Weijie](https://www.linkedin.com/in/wjwang2/) (CTO) spent 6 years in e-commerce and was the lead infra engineer for Wish’s recommendation system, the product that fueled their IPO. He was a Senior SWE at Bolt and StackAdapt. He graduated from Waterloo & UIUC.\n* [Kamal](https://www.linkedin.com/in/kamal-nahas/) (CEO) earned a B.S. in Electrical Engineering and Computer Sciences from UC Berkeley, worked at Apple as a Security/ML software engineer intern, and met hundreds of engineers while working at Human Capital. He grew up in Lebanon, where he led operations resulting in 230+ families fed for an entire month and 25+ civilians housed.\n* [Anthony](https://www.linkedin.com/in/anthonyrassi/) (COO) graduated from USC in Computer Engineering and Computer Sciences and worked at Addepar as a software engineer intern. He also grew up in Lebanon, where he won a national hackathon, built a 5-figure affiliate marketing business, and led an engineering team at the country’s largest retailer.\n\n# Our Ask 🙏\n\n1. Sign up at [joinpap.com](http://joinpap.com) (_bonus_: share your feedback with us at [founders@joinpap.com](https://mailto:founders@joinpap.com)).\n2. **Share this post and tell your friends about it!** Everyone deserves to earn the money they are entitled to.",
+      "url": "https://www.ycombinator.com/launches/LoC-pap-automatic-refunds-for-consumers",
+      "votes": 367,
+      "created_at": "2024-09-07T21:30:50.936Z"
+    }
+  ]
+}

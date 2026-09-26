@@ -1,0 +1,89 @@
+{
+  "id": 30437,
+  "name": "Kaelio",
+  "slug": "kaelio",
+  "former_names": [],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/c4c744ee428be44ba894f8b477449386dca44045.png",
+  "website": "https://kaelio.com/",
+  "all_locations": "",
+  "long_description": "Kaelio is the company behind ktx, the open-source context layer that makes data agents reliable. \r\n\r\nData agents today fail because they lack structured context and determinism. Metrics are defined in five places, governed in none. Teams spend months on semantic layer projects that never finish.\r\n\r\nktx fixes that. Connect your warehouse, BI tools, and docs. ktx builds the context layer automatically. Your team governs it. Any agent can query it. One context layer across your entire data stack.",
+  "one_liner": "The open-source context layer for data agents",
+  "team_size": 8,
+  "industry": "B2B",
+  "subindustry": "B2B",
+  "launched_at": 1747200146,
+  "tags": [
+    "Open Source",
+    "AI"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Spring 2025",
+  "status": "Active",
+  "industries": [
+    "B2B"
+  ],
+  "regions": [
+    "Unspecified"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/kaelio",
+  "api": "https://devasheeshg.github.io/yc-api/batches/spring-2025/kaelio.json",
+  "year_founded": 2024,
+  "city": null,
+  "country": null,
+  "linkedin_url": "https://www.linkedin.com/company/kaelio-ai",
+  "x_url": "https://x.com/KaelioAI",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/c4c744ee428be44ba894f8b477449386dca44045.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Nicolas Dessaigne",
+    "url": "https://www.ycombinator.com/people/nicolas-dessaigne"
+  },
+  "founders": [
+    {
+      "user_id": 765285,
+      "full_name": "Luca Martial",
+      "title": "Founder/CEO",
+      "founder_bio": "Co-founder & CEO at Kaelio. Previously data scientist and NLP engineer, with expertise in enterprise data systems and AI safety",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/luca-martial/",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/e6d2c4414268d94da5abb5be505e922226a3d661.jpg"
+    },
+    {
+      "user_id": 622223,
+      "full_name": "Andrey Avtomonov",
+      "title": "Founder/CTO",
+      "founder_bio": "Co-founder & CTO at Kaelio. Repeat AI safety founder. Previously software & AI engineer at CERN & Dataiku",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/andreyavtomonov/",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/c5c8b4559c801378602cb4dbe56a36439a012d5b.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 102087,
+      "title": "Kaelio: Open-source context layer for data agents",
+      "tagline": "We give data agents the context they need to be reliable on your data stack.",
+      "body": "Hey everyone! We’re [Luca](https://www.linkedin.com/in/luca-martial/) and [Andrey](https://www.linkedin.com/in/andreyavtomonov/), the founders of Kaelio.\n\n**TL;DR**:\n\nKaelio is the company behind **ktx**, the open-source context engine for data agents. Claude Code, Codex, and custom data agents can write SQL that _looks_ reasonable, _runs_ fine, and still returns the wrong number.\n\nktx gives them a context layer: Markdown wiki pages for business knowledge, YAML files for executable metric definitions, joins, grain, measures, dimensions, filters, and segments. Agents ask ktx for the metric they need; ktx plans the query and compiles SQL.\n\n<https://www.youtube.com/watch?v=5V4TuzYVlrA>\n\n# The problem\n\nAgents are good at exploring schemas and writing SQL that _looks_ correct and _runs_ fine, but always ends up using the wrong joins, filters, or metric logic.\n\nTo cite a few examples of “agents gone wrong”:\n\n* Stale column + hidden business rule: when preparing a board report, a finance analyst asks Claude Code for “ARR by customer segment”, it derives ARR from multiple tables (subscriptions, plans, accounts), then groups by accounts.industry. But CC doesn’t know that this industry column was deprecated a few months prior, or that past board reports excluded paused subscriptions from the ARR calculation\n* Join fanout: a data analyst at a retailer uses their company’s internal agent to prep a product revenue deck for a QBR. The agent joins orders to order_items, then sums orders.total \\_amount_cents grouped by order_items.product_id. The SQL runs fine, but each order’s revenue is repeated once per line item, which most people will miss if most orders only have 1 item\n* Missing attribution logic: a marketing analyst asks Codex “Which campaigns drove the most revenue?” Codex joins marketing_touches to users to orders and groups by utm_campaign. But since each order can have multiple touches before purchase, the same order can be credited to first touch, last touch, every touch, or every campaign the user clicked before buying. If the agent chooses the method that doesn’t match the team’s attribution logic, they’ll make suboptimal decisions\n\nThe issue is that schema access doesn’t tell an agent which metric definition is approved, which dimension is stale, or what jargon the company uses internally.\n\n# How ktx works\n\nktx splits context into 2 parts:\n\n1. **Business context**: Markdown wiki pages (definitions, conventions, jargon, gotchas).\n2. **Executable definitions**: YAML files declaring tables, row grain, joins, measures, dimensions, filters, and filter groups.\n\nBoth are plain files in git.\n\nWhen an agent needs a metric, it asks ktx for a measure + dimensions + filters instead of writing SQL itself. ktx’s planner picks the join path, uses grain and relationship metadata, catches issues like join fanout and chasm joins, and compiles the warehouse SQL.\n\n![uploaded image](/media/?type=post&id=102087&key=user_uploads/765285/a2205b17-21b1-4b6e-9eac-2bfa26548391)\n\nktx can ingest context from:\n\n* Warehouses: Postgres, Snowflake, BigQuery, ClickHouse, MySQL, SQL Server, SQLite, _(more coming)_\n* Modeling tools: dbt, MetricFlow, LookML, _(more coming)_\n* BI tools: Looker, Metabase, _(more coming)_\n* Docs: Notion, _(more coming)_\n* Live corrections from users during agent sessions\n\n# How we got here\n\nWhile building data agents for dozens of companies, from SMBs to enterprises, we learned 2 valuable lessons.\n\n1. Giving agents more context through prompts, skills, or Markdown docs helps them navigate the schema, but the final step is still pretty much “write the SQL from scratch.” Since the entities written to these docs are rigid, the agents still have to decide which joins or definitions to use, how to aggregate, and whether a result is safe to trust.\n2. Semantic layers solve the executable part, but they’re extremely painful to build and maintain. Also, a lot of useful context lives outside the semantic layer: dbt, dashboards, query history, warehouse metadata, Notion pages, Slack threads, and corrections from analysts.\n\nktx combines the best of both worlds: the breadth of a knowledge base + the SQL safety of a semantic layer, optimized for agent use and maintenance.\n\n# Try it out\n\nGitHub: <https://github.com/Kaelio/ktx>\n\nInstall manually:\n\n```bash\nnpm install -g @kaelio/ktx\nktx setup\n```\n\nOr tell your agent to do it for you:\n\n```\nRun npx skills add Kaelio/ktx --skill ktx and use ktx skill to install and configure ktx\n```\n\nIf you’d like help managing context for your data agents, book a demo for ktx’s managed version: <https://www.kaelio.com/products/ktx-cloud>",
+      "url": "https://www.ycombinator.com/launches/QYZ-kaelio-open-source-context-layer-for-data-agents",
+      "votes": 6,
+      "created_at": "2026-05-28T16:50:20.005Z"
+    }
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "id": 31159,
+  "name": "Sponge",
+  "slug": "sponge",
+  "former_names": [],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/2da61e6033e85414e184773d09708a6cc75a2479.png",
+  "website": "https://paysponge.com/",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "Sponge is the easiest way for agents to hold and spend money, and for businesses to sell directly to them.\r\n\r\nFor agents: Sponge lets agents hold funds and transact autonomously with other agents and businesses using bank accounts, cards, and crypto. Agents can autonomously purchase services such as email, browser use, and premium data without human involvement.\r\n\r\nFor businesses: Sponge makes it easy to onboard and accept payments from agents without human interaction. Businesses can sell their services directly to agents with a few clicks, no code changes required.",
+  "one_liner": "Financial infrastructure for the agent economy",
+  "team_size": 3,
+  "industry": "B2B",
+  "subindustry": "B2B",
+  "launched_at": 1771280774,
+  "tags": [],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Winter 2026",
+  "status": "Active",
+  "industries": [
+    "B2B"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/sponge",
+  "api": "https://devasheeshg.github.io/yc-api/batches/winter-2026/sponge.json",
+  "year_founded": 2026,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/paysponge",
+  "x_url": "https://x.com/paysponge",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/2da61e6033e85414e184773d09708a6cc75a2479.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Brad Flora",
+    "url": "https://www.ycombinator.com/people/brad-flora"
+  },
+  "founders": [
+    {
+      "user_id": 3141366,
+      "full_name": "Eric Zhang",
+      "title": "Founder",
+      "founder_bio": "Co-founder Sponge (YC W26). Ex-Stripe Crypto.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/ericzhang98",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/fbc17776e1b229c0aae1cb4ccc9ca36c01746691.jpg"
+    },
+    {
+      "user_id": 3152529,
+      "full_name": "Jae Choi",
+      "title": "Founder",
+      "founder_bio": "Co-founder Sponge (YC W26). Ex-Stripe Crypto.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/jaekyongchoi/",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/4b24126b12f8ff3e1d7c54056cad5e4f147ded9b.jpg"
+    },
+    {
+      "user_id": 300418,
+      "full_name": "Rishab Luthra",
+      "title": "Founder",
+      "founder_bio": "Co-founder Sponge (YC W26). Ex-Stripe Crypto.",
+      "is_active": true,
+      "linkedin_url": "https://linkedin.com/in/rishabluthra",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/70a14369de6defde20b6358936658f3db3e9f9fd.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 97911,
+      "title": "Sponge: Financial infrastructure for the agent economy",
+      "tagline": "The easiest way for agents to hold and spend money, and for businesses to sell directly to them",
+      "body": "**TLDR**: \n\nSponge gives agents access to bank accounts, cards, and crypto so they can operate as **independent economic actors**. Sponge enables businesses to sell directly to agents **without human involvement**.\n\n<https://www.youtube.com/watch?v=9Db70ieMYkA>\n\n**The Problem:**\n\nLong-running agents are starting to handle complex tasks entirely on their own. They can plan, execute, and complete multi-step workflows without human intervention. But that autonomy ends the moment a payment is involved, because transactions still require a human to manually enter payment details and authorize the charge.\n\n**The Solution:**\n\nTo solve this, Sponge built infrastructure that lets agents handle payments on their own.\n\n**Sponge Wallet** enables agents to sign up and pay for services without human involvement. Users fund their wallet once, and agents autonomously use those funds to pay for what it needs.\n\n![uploaded image](/media/?type=post&id=97911&key=user_uploads/300418/a9904dc0-f667-4060-9697-e78f4a955155)\n\n**Sponge Gateway** enables businesses to sell directly to agents. Businesses can upload their API spec and allow agents to onboard and pay for usage autonomously, without requiring a human to give a credit card or an API key. No code changes required.\n\n![uploaded image](/media/?type=post&id=97911&key=user_uploads/300418/0c13e43e-b0b7-4400-9c8c-79408aa9eaba)\n\nAs agents become increasingly autonomous and begin making decisions on their own, they need financial primitives to operate like humans. We’re building the infrastructure that makes this possible.\n\n**Our Ask:**\n\nIf you use agents (such as OpenClaw), add our [wallet skill](https://sponge.md) to let them sign up and pay for services autonomously. If you're a business, upload your API spec to [gateway.paysponge.com](http://gateway.paysponge.com) to start onboarding agents and selling to them directly, without human involvement.\n\n**The Team:**\n\nWe're a team of ex-Stripe tech leads that built Stripe's stablecoin financial accounts, stablecoin payments and core money movement systems for humans. We are now bringing those learnings to build out the financial infrastructure for the next economic actors: agents.\n\n**To give your agent an account or to sell to agents, visit [paysponge.com](http://paysponge.com) or contact [team@paysponge.com](mailto:team@paysponge.com).**",
+      "url": "https://www.ycombinator.com/launches/PTD-sponge-financial-infrastructure-for-the-agent-economy",
+      "votes": 31,
+      "created_at": "2026-02-17T21:40:55.729Z"
+    }
+  ]
+}

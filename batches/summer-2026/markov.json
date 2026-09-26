@@ -1,0 +1,92 @@
+{
+  "id": 32988,
+  "name": "Markov",
+  "slug": "markov",
+  "former_names": [],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/41a4a41e5482735389d2089a01ff2b862f56e307.png",
+  "website": "https://www.markovstudios.com/",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "Markov builds expert computer-use datasets for frontier AI labs. Our datasets include screen recordings + mouse/keyboard actions of professionals using CAD, design and enterprise software.\r\n\r\nWe work with the top AI labs and we’ve gotten more than 350k downloads on HuggingFace. Our long-term goal is to be the full stack platform for computer-use AI, starting with data and then the infrastructure to train and deploy computer-use models.\r\n\r\nDev and Harish are technical co-founders. Dev studied aerospace engineering at IIT Madras and was the youngest team member at Sarvam - India’s top AI lab. Harish is an Emergent Ventures grantee and his prior robotics work was featured in top national publications.",
+  "one_liner": "Expert computer-use data for frontier AI labs",
+  "team_size": 2,
+  "industry": "B2B",
+  "subindustry": "B2B -> Infrastructure",
+  "launched_at": 1782277833,
+  "tags": [
+    "Reinforcement Learning",
+    "Data Labeling",
+    "Data Engineering"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Summer 2026",
+  "status": "Active",
+  "industries": [
+    "B2B",
+    "Infrastructure"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/markov",
+  "api": "https://devasheeshg.github.io/yc-api/batches/summer-2026/markov.json",
+  "year_founded": 2026,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/markov-artificial-intelligence/",
+  "x_url": "https://x.com/markov__ai",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/41a4a41e5482735389d2089a01ff2b862f56e307.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Harshita Arora",
+    "url": "https://www.ycombinator.com/people/harshita-arora"
+  },
+  "founders": [
+    {
+      "user_id": 1783684,
+      "full_name": "Dev Mandal",
+      "title": "Founder/CEO",
+      "founder_bio": "Co-Founder & CEO at Markov. Prev at Sarvam, Aerospace engineering at IIT Madras",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/dev-mandal-iitm/",
+      "x_url": "https://x.com/DevvMandal",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/5a53c70cbcddfae2c6c21e32faac5865be5702b2.jpg"
+    },
+    {
+      "user_id": 2921049,
+      "full_name": "Harish Ashok",
+      "title": "Founder/CTO",
+      "founder_bio": "Co-Founder at Markov. Previously founded Zenith, a robotics company building AI-assisted hardware workflow tools. ",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/harish-ashok",
+      "x_url": "https://x.com/harishashok",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/fbfaea52b2a5bc846c87d04392062585acfb69ff.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 109874,
+      "title": "Markov - Data for computer-use AI",
+      "tagline": "150K+ downloads across our HuggingFace datasets",
+      "body": "# \\*\\*\\*\\*\n\n**TLDR;**\n\n* **Markov builds the data infrastructure for computer-use AI**, collecting synchronized screen recordings, mouse/keyboard actions, and annotations from real workflows.\n* **We specialize in hard-to-source expert data** **across CAD, architecture, engineering**, and other professional applications.\n* **We’ve already sold 15,000+ hours of data to frontier AI labs** and open-sourced leading computer-use datasets with **150k+ downloads on HuggingFace**.\n\n<https://youtu.be/WervE6pZ9TM>\n\n**The Problem:**.\n\nWhile frontier models have gotten much better at reasoning, they still struggle to reliably complete long, multi-step workflows across real desktop software. **The biggest bottleneck is the lack of high-quality training data.**\n\nTraining these models requires **synchronized screen recordings, mouse and keyboard actions, and high-quality annotations from people doing real work**. This is especially scarce for expert workflows in domains like CAD, architecture, engineering, finance, and other professional software.\n\n**That’s where we come in:**\n\nWe work with a vetted network of expert contributors to collect high-quality computer-use data across:\n\n* Consumer applications\n* Productivity software\n* Accounting and finance\n* CAD, architecture, engineering, and other expert workflows\n\n![uploaded image](/media/?type=post&id=109874&key=user_uploads/1783684/ba673ff4-e489-4753-b11b-4797762834fb)\n\n**So far we've:**\n\n* Sold more than 15,000 hours of data to frontier AI labs\n* Open-sourced the [**largest dataset of computer-use screen recordings**](https://x.com/DevvMandal/status/2032104265121140924?s=20)(**150k+ downloads on HuggingFace**)\n* Released the [**largest open gaming computer-use dataset**](https://x.com/DevvMandal/status/2072357115847671990?s=20)\n\n**Our Ask:**\n\nIf you're building computer-use agents and need high-quality training data - or have interesting workflows you'd like collected - we'd love to chat **:)**\n\nBook a meeting with us at <https://cal.com/dev-markov/30min> Or shoot us an email at [founders@markovstudios.com](mailto:founders@markovstudios.com)",
+      "url": "https://www.ycombinator.com/launches/SaA-markov-data-for-computer-use-ai",
+      "votes": 10,
+      "created_at": "2026-08-11T18:00:00.277Z"
+    }
+  ]
+}

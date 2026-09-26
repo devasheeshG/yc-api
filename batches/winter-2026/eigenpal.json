@@ -1,0 +1,88 @@
+{
+  "id": 31149,
+  "name": "EigenPal",
+  "slug": "eigenpal",
+  "former_names": [],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/e2b1d5849be66ecb8111d6f209625734882c46e5.png",
+  "website": "https://www.eigenpal.com/",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "EigenPal.com automates your document processing workflows with AI. KYC docs, invoices, claims, shipping forms, contracts, receipts, loan docs - we automate that. Works on messy scans, handwritten forms, third-party docs. Powerful workflow builder and team functionality. On-prem ready or use our cloud.",
+  "one_liner": "AI Document Workflows for Enterprises",
+  "team_size": null,
+  "industry": "B2B",
+  "subindustry": "B2B -> Operations",
+  "launched_at": 1768698065,
+  "tags": [],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Winter 2026",
+  "status": "Active",
+  "industries": [
+    "B2B",
+    "Operations"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/eigenpal",
+  "api": "https://devasheeshg.github.io/yc-api/batches/winter-2026/eigenpal.json",
+  "year_founded": 2025,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/eigenpal",
+  "x_url": "http://x.com/eigenpal",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/e2b1d5849be66ecb8111d6f209625734882c46e5.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Jared Friedman",
+    "url": "https://www.ycombinator.com/people/jared-friedman"
+  },
+  "founders": [
+    {
+      "user_id": 2221380,
+      "full_name": "Matej Novak",
+      "title": "Founder/CEO",
+      "founder_bio": "Co-Founder @ EigenPal - automating enterprise document workflows with AI.\nMIT and Imperial London CS\n3 time founder of B2B AI companies",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/novak-matej/",
+      "x_url": "https://x.com/novakmatej1",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/0c4ec74508e9582c020af41c9798dddbde664f28.jpg"
+    },
+    {
+      "user_id": 2248119,
+      "full_name": "Jedrzej Blaszyk",
+      "title": "Founder/CTO",
+      "founder_bio": "Co-Founder @ EigenPal - automating enterprise back-office with AI. Previously engineer at Elastic and Yelp. Imperial College London CS",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/jedrzej-blaszyk/",
+      "x_url": "https://x.com/jedr_blaszyk",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/35a29c02fed5e883d8a54eb1716d63909e965eb2.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 97202,
+      "title": "EigenPal: AI Document Workflows",
+      "tagline": "EigenPal automates enterprise document processes with AI",
+      "body": "**TL;DR:** EigenPal automates your document processing workflows with AI. If you have humans reading documents and typing data into systems - KYC docs, invoices, claims, shipping forms, contracts, receipts - we replace that. Works on messy scans, handwritten forms, third-party docs. Beautiful workflow builder, testing, and team functionality. On-prem ready or use our cloud. Working with 2 large European banks on loan automations already.\n\nTry on: [**eigenpal.com**](http://eigenpal.com)\n\n**2 minute demo -** <https://www.youtube.com/watch?v=pEfhqhylS2Y>\n\n**What We Learned**\n\nWorking on back office document automation, we kept hearing the same questions:\n\n* _\"How do I know this workflow will actually work before I bet my ops on it?\"_\n* _\"I aim to have 100 workflows. How will I monitor them all?\"_\n* _\"Can this run in our cloud? Data can't leave our infrastructure.\"_\n* _\"Our files have contracts, amendments, and extensions that reference each other. Can you piece that together?\"_\n\nTraditional automation tools were built for deterministic processes and they're not designed for AI. AI is a game changer for document processing, but businesses still can't trust it at scale. Why? Evals and monitoring aren't built in. And most new platforms can't run on-prem.\n\n![uploaded image](/media/?type=post&id=97202&key=user_uploads/2221380/d651a1db-2002-456e-9c18-55d290083745)\n\n**The Solution: A Platform Where You Can Trust AI Workflows**\n\nEigenPal is built around one principle: like any employees you entrust work to, you need to trust your workflows before you deploy them and monitor them after.\n\n* **Agentic workflow builder.** Our AI workflow builder let’s you create workflows with easy in your natural language. It can even iterate on a workflow on a test dataset to tune accuracy.\n* **Eval-first.** Before any workflow goes live, test it against your historical documents. See exactly what accuracy you're getting. Deploy only when you're confident. **Set up a feedback loop in production** so workflows are adjusted with feedback.\n* **Document-centric.** Upload files directly, no public URLs needed. Built-in storage plus a powerful template filler to generate polished output docs from your extracted data.\n* **Configure everything.** Choose your OCR/VLM, LLM, configure every step of the pipeline separately. Access built-in tracing for workflows in our app or export via OpenTelemetry.\n* **Monitor hundreds of workflows at once.** One dashboard showing costs, compliance logs, and failures across every workflow. Know immediately when something drifts.\n* **Collaborate with your team.** Org workspaces let you share workflows, templates, and results with colleagues. Build once, use across your team.\n* **On-prem or cloud.** Runs in your infrastructure with your LLMs, or use our hosted version. Your choice.",
+      "url": "https://www.ycombinator.com/launches/PHm-eigenpal-ai-document-workflows",
+      "votes": 29,
+      "created_at": "2026-01-27T01:39:14.623Z"
+    }
+  ]
+}

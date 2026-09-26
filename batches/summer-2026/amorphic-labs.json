@@ -1,0 +1,101 @@
+{
+  "id": 31557,
+  "name": "Amorphic Labs",
+  "slug": "amorphic-labs",
+  "former_names": [],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/d15b721a8d0e299e74b3561f196bb056b93f1fd9.png",
+  "website": "https://www.agentmuxer.com",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "The next billion software users are AI agents, yet agents still can't act on their own: every paid tool they need runs through a human making accounts, managing API keys, and guessing which provider is best. We are the capability marketplace built for agents: one MCP and one balance through which agents find, pay for, and use APIs, data, skills, other agents, and software at runtime, with every request routed to the best provider based on benchmarks from real tasks and outcome feedback from the agents themselves.",
+  "one_liner": "OpenRouter for Agent Tools",
+  "team_size": 2,
+  "industry": "B2B",
+  "subindustry": "B2B -> Engineering, Product and Design",
+  "launched_at": 1785536963,
+  "tags": [
+    "Artificial Intelligence",
+    "Marketplace",
+    "B2B"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Summer 2026",
+  "status": "Active",
+  "industries": [
+    "B2B",
+    "Engineering, Product and Design"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/amorphic-labs",
+  "api": "https://devasheeshg.github.io/yc-api/batches/summer-2026/amorphic-labs.json",
+  "year_founded": 2026,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/amorphic-labs",
+  "x_url": "https://x.com/amorphiclabs",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/d15b721a8d0e299e74b3561f196bb056b93f1fd9.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Jared Friedman",
+    "url": "https://www.ycombinator.com/people/jared-friedman"
+  },
+  "founders": [
+    {
+      "user_id": 2352421,
+      "full_name": "Dylan Kelly",
+      "title": "Founder/CEO",
+      "founder_bio": "Founder & CEO @ Amorphic Labs. CS @ Georgia Tech, prev. Quant Trading intern @ UBS. World Schools Debating Championship 2022 finalist & 8th best speaker, 2x National Team Debater, co-author of NeurIPS paper.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/dylankelly04/",
+      "x_url": "https://x.com/dylanpkel",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/59de0da571ebd5d687beb82c703b9a0283c8df2f.jpg"
+    },
+    {
+      "user_id": 2599670,
+      "full_name": "Frank Li",
+      "title": "Founder/CTO",
+      "founder_bio": "Founder & CTO @ Amorphic Labs. Prev. Member of Technical Staff & Project Lead @ OpenAI, Auto-vehicle ML infra @ NVIDIA, Quant Dev @ Two Sigma, and Amazon. First open-source contribution at 15. CS @ UW Seattle.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/anglifrank",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/66c1679cfcd65063496dd8ef47dc43e9aaadaa3b.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 112178,
+      "title": "Agentmuxer by Amorphic Labs - OpenRouter for Agent Capabilities",
+      "tagline": "One MCP and one wallet for agents to find, pay for, and use the best tools for any task",
+      "body": "**tl;dr: OpenRouter became the router for model spend; we're building that layer for agent capabilities, starting with paid tools: web search, scraping, extraction, enrichment, and more from top providers in each category. No provider accounts or API keys, one balance, pay per use. We benchmark every provider on real tasks and route each request to the one that performs best, with fallbacks when a provider fails. We're looking for early users to try it out with free credits, email us at [founders@amorphiclabs.com](mailto:founders@amorphiclabs.com) if you want to check it out!**\n\n**Launch Video:**\n\n<https://youtu.be/-dxc8ZAUfFc>\n\n**The problem:**\n\nAgents can only use the tools a human wired up in advance, and they won't tell you what they're missing: they quietly make do, failing at anything they weren't hand-equipped for. Even when you do the wiring, you're picking blind: nobody actually knows which search API is better for this query, or which scraper will survive this site. The \"best setup\" frontier moves daily, so keeping up means hours of trawling MCP directories, X threads, and blog posts. Agents stay only as capable as their setup, and the more autonomous they get, the more that ceiling costs.\n\n**What we do:**\n\nYour agent asks for what it needs (\"structured data from this page\", \"research this with citations\"). We route the request to the best provider for that specific task, based on benchmarks on real tasks and outcome feedback from the agents using them: success rates, result quality, latency, and cost. If a provider fails, we cascade to the next, so your agent gets a result instead of an error. Every request makes the routing smarter. One balance pays for all of it, and it's the same MCP whether it's your own coding agent or agents you're shipping in a product.\n\nAPIs are just the start. The same marketplace will let agents acquire skills, hire other agents for specialized tasks, and sign up for software directly through MCPs, all from one balance.\n\n**Our team:**\n\nWe're Frank and Dylan, friends of 10 years who have been building together since middle school. Frank was a Member of Technical Staff at OpenAI and interned at Two Sigma, NVIDIA, and Amazon. Dylan was a quant trading intern at UBS, co-authored a NeurIPS paper, and was a grand finalist and 8th-best speaker in the world at WSDC 2022. We built this because we kept hitting the problem ourselves: agents stuck mid-task waiting for us to make accounts and guess at providers.\n\n**Our ask:**\n\n1. Want to be an early user? Email us at [founders@amorphiclabs.com](mailto:founders@amorphiclabs.com) and we'll onboard you with free credits.\n2. If you sell an API, dataset, or agent-facing service and want agents as customers, we'd love to talk about listing you. Email us at [founders@amorphiclabs.com](mailto:founders@amorphiclabs.com)\n3. If you want more information or want to join the waitlist, check out [agentmuxer.com](http://agentmuxer.com)\n\n_Make something agents want!_",
+      "url": "https://www.ycombinator.com/launches/TBK-agentmuxer-by-amorphic-labs-openrouter-for-agent-capabilities",
+      "votes": 13,
+      "created_at": "2026-08-25T19:30:05.588Z"
+    },
+    {
+      "id": 108806,
+      "title": "Amorphic Labs - Agentic, Personalized Product Demo Videos for Sales",
+      "tagline": "AI agents that create personalized demos at scale for outbound, inbound, and call follow-ups without your team recording a thing.",
+      "body": "**tl;dr: We build AI agents that create personalized product demo videos for outbound, inbound qualification, and post-call follow-ups. Just give us a demo account for your app and a list of prospects, and our agent researches each prospect, uses its own computer to record a tailored workflow in your app with seeded personalized data, then edits and narrates the video so it is ready to send as a link to each prospect.**\n\n**Launch Video:**\n\n<https://youtu.be/uq9LyHYYyOU>\n\n**Our Ask:**\n\n* If you’re a founder or part of a startup that sells software, we can help you give every prospect a tailored product experience while saving your team hours of recording time. Book a demo at [amorphiclabs.com](http://amorphiclabs.com)!\n* If you know any sales or RevOps leaders, we would love introductions or referrals to them.\n\n**The Problem:**\n\nRecording a personalized product demo is one of the clearest ways to communicate your value and show someone how your product solves their problems, but preparing a demo environment, seeding data, and recording a high-quality video for every prospect takes too long. As a result, teams skip personalized demos in situations where they could be highly effective, such as outbound, and spend hours every week creating them for inbound requests and post-call follow-ups. This means teams miss opportunities to show prospects exactly how their product fits their needs, while wasting hours that could have been spent talking to and selling to prospects.\n\n**The Solution:**\n\nWe use AI agents to create personalized product demo videos at scale, bringing tailored demos to parts of the sales process where they were previously too time-consuming to produce. All you need to provide is a demo account for your app and a list of prospects.\n\nOur agent then:\n\n* Learns and interacts with your app on its own computer like a real sales engineer.\n* Researches each prospect to determine which workflow and data best fit their needs.\n* Seeds personalized data in your app.\n* Records itself completing the relevant workflow.\n* Edits the video to remove long waits and adds effects such as zooms.\n* Narrates the video with a script tailored to the prospect.\n* Gives you a finished video link ready to send.\n\nYou remain fully in control of how the videos are created: you can clone your own voice, define the workflows the agent can choose from, control the narration style and how each video begins and ends, and regenerate videos by giving the agent feedback.\n\n**Sample video our agent generated:**\n\n<https://youtu.be/QONd3u3NoGo>\n\n**Where you can use it:**\n\nTailored Outbound: You can import a list of leads you want to reach out to and ask our agent to create personalized demos for each one, showing prospects exactly how your product fits their needs through data, workflows, and narration tailored directly to them.\n\nQualifying Inbound: Add a request-a-demo form to your landing page so prospects who are not yet convinced enough to spend 30 minutes on a discovery call can spend 20 seconds requesting a personalized demo video and receive an email showing exactly how your product solves their problems.\n\nCall Follow-ups: After understanding a prospect’s key use cases and pain points during a discovery call, you can create multiple personalized demo videos showing how you address their needs. You can even create additional videos tailored to different stakeholders that your champion can use to sell your product internally.\n\nWe are initially focused on sales, but the same technology can also create walkthrough videos for onboarding, customer support, and documentation.\n\n**Our team:**\n\nWe have been best friends for close to a decade, have competed together in competitions spanning math, debate, pitching, business, and hackathons, built countless projects, and are now building Amorphic Labs together.\n\nFrank worked as a software engineer for three years while graduating from UW. He was a Member of Technical Staff at OpenAI and previously interned at Two Sigma, NVIDIA, and Amazon.\n\nDylan was a quantitative trading intern at UBS and recently graduated from Georgia Tech. He represented Team China twice at WSDC, was a grand finalist and the eighth-best speaker in the world in 2022, and co-authored a paper published at NeurIPS.\n\n**If you sell software and want to see what our agent could create for one of your prospects, book a demo at [amorphiclabs.com](http://amorphiclabs.com).**",
+      "url": "https://www.ycombinator.com/launches/SIw-amorphic-labs-agentic-personalized-product-demo-videos-for-sales",
+      "votes": 33,
+      "created_at": "2026-08-03T21:11:17.469Z"
+    }
+  ]
+}

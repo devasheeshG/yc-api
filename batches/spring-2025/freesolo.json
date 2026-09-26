@@ -1,0 +1,106 @@
+{
+  "id": 30462,
+  "name": "Freesolo",
+  "slug": "freesolo",
+  "former_names": [
+    "Linkd",
+    "Clado",
+    "Freesolo",
+    "Clado"
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/45d118ce06f810c00f7b1f3105cf4f7906bd0d55.png",
+  "website": "https://freesolo.co",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "Freesolo works with companies to encode user-trajectory knowledge into specialized models that outperform the state of the art at much lower latency and cost.",
+  "one_liner": "Product Native Models",
+  "team_size": 4,
+  "industry": "B2B",
+  "subindustry": "B2B -> Engineering, Product and Design",
+  "launched_at": 1742722403,
+  "tags": [
+    "Reinforcement Learning",
+    "B2B",
+    "AI"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Spring 2025",
+  "status": "Active",
+  "industries": [
+    "B2B",
+    "Engineering, Product and Design"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/freesolo",
+  "api": "https://devasheeshg.github.io/yc-api/batches/spring-2025/freesolo.json",
+  "year_founded": 2025,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/freesoloco",
+  "x_url": "https://x.com/freesoloco",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/45d118ce06f810c00f7b1f3105cf4f7906bd0d55.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Pete Koomen",
+    "url": "https://www.ycombinator.com/people/pete-koomen"
+  },
+  "founders": [
+    {
+      "user_id": 1528922,
+      "full_name": "Eric Mao",
+      "title": "Founder/CEO",
+      "founder_bio": "Hello, my name is Eric. I used to study Computer Science and Business at the University of Pennsylvania. \n",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/eric-mao/",
+      "x_url": "https://x.com/ericmao",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/91bbe42a29bedc50c83a6cf9304171641142c6f1.jpg"
+    },
+    {
+      "user_id": 2374036,
+      "full_name": "Tom Zheng",
+      "title": "Founder/CTO",
+      "founder_bio": "Cofounder @ Freesolo, automating model training. ",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/tomzhengy",
+      "x_url": "https://x.com/tomzheng",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/d09ed18ad61b20f68761ea271765e500c74d7262.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 105027,
+      "title": "Freesolo: Post-Training Built for your Agent",
+      "tagline": "Small models, frontier performance",
+      "body": "Not every AI interaction is best served with a large frontier model. There is a long tail of trillion-token use cases, from tagging to search, best served by a sub-10B-parameter model that runs in milliseconds and costs many orders of magnitude less than the frontier. However, engineers historically had to choose between model size and quality; as models got smaller, performance, adherence, and recall dropped linearly. Post-training on production data closes that gap. We built Freesolo Flash to make training loops like SFT and RL easy and end-to-end completable through your coding agent.\n\nWe accomplish this in a few different ways\n\n* Upfront pricing: instead of billing by GPU hours or tokens spent while training, we quote the cost of the entire run upfront, so your agent can accurately tweak the dataset, model size, and algorithms it uses while staying in your budget before it starts the run.\n* Our GPU infrastructure is optimized to make your specific run as in-expensive and fast as possible. This optimization means training with flash is 8x less expensive for SFT and 5.5x less expensive for GRPO (RL) when compared to Tinker.\n\nFlash is built out of our own frustrations with current managed post-training solutions, especially for SLMs. We believe that unlocking frontier capability for a narrow task into a small model will prove to be the best improvement for all agentic product UX. Flash is our first step towards solving this. Just grab a Freesolo API Key, point your agent at the training package, and watch it push your lightweight model beyond the frontier.\n\nFlash is publicly available today at  <https://freesolo.co>[ ](https://freesolo.co/). Train on!",
+      "url": "https://www.ycombinator.com/launches/RJz-freesolo-post-training-built-for-your-agent",
+      "votes": 3,
+      "created_at": "2026-07-13T19:38:20.322Z"
+    },
+    {
+      "id": 90716,
+      "title": "Clado: Deep Research for People",
+      "tagline": "100,000+ agents to find the right people at the right time",
+      "body": "Clado puts 200 million+ people profiles (and growing) at your fingertips with simple, agentic search. \n\nIf you’re interested in a global people search for sales, spreadsheets, hiring, and more, let’s talk: https://cal.com/clado/chat\n\n**We’d love for you all to try Clado out live!** https://clado.ai\n\nhttps://youtu.be/NEqtIFNZJoU\n\n❌ The Problem: Keywords, Filters, Data\n\nFinding the right people is broken. Current methods of people search are made up of endless filter menus, incomplete data sets, and keyword search. It takes tremendous effort and time to find people for sales and hiring, as current search methods rely on fuzzy filters in limited datasets. \n\n✅ Solution: Clado uses agentic search to find exactly who you're looking for. Just describe the qualities you want, and we will deploy hundreds of thousands of agents to find them.\n\n![uploaded image](/media/?type=post&id=90716&key=user_uploads/2374036/2faf2b26-e574-43af-8bdc-933ad4b2f2e7)\n\nThese example searches are time-consuming to execute with standard filtering tools and elude traditional keyword filters.\n\n_\"AI Engineers I can poach for my pharmaceutical startup/interested in biology in Copenhagen.\"_\n\nAn even harder one:\n\n_“Every exec (Owner/CEO/COO/CFO/Partner/Head of Growth/CTO) at accounting firms in the US and UK between 250 - 2000 employees\"_\n\nAfter internally benchmarking our people search engine against other platforms, our model achieves SOTA performance. \\\n\\\nWhat good is finding the right person if you can’t easily contact them? We’re also able to achieve SOTA performance on contact delivery information retrieval given any Linkedin URL (provided for every result in our search). \n\n![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdlMEsme5O2KS7jDjVQ5meLUOG0wSsn4dUDYSaIlwQ2hYDg2Sa7HGCVi_7rjnEAfXWNdODe05Fhghlf6BVYD0z6QlbEjh4B1N1rGLlh3M_RqfIRDrIdpkdKJQzZivA3A7cMH7D93w?key=IzTsz7ArVY5QuH96a3WVtw)\n\nTesting Conditions:[ https://pastebin.com/98PVVN9b](https://pastebin.com/98PVVN9b)\\\n\\\nThe Team:\\\nTom (UCSD) & Eric (UPenn M&T) are both ambitious freshmen who met in elementary school. They previously founded a nonprofit and won Canada’s largest data science & physics competitions.\\\n\\\nThey’ve also sailed over 300 nautical miles over 10 days, canoed 100km over 6 days, walked around Toronto hanging up posters for their first business for two weeks straight, and traveled to Sri Lanka on a three-day notice to present at a conference together. \\\n\\\nTry clado: https://clado.ai\n\n📅 Book a meeting: [**https://cal.com/clado/chat**](https://cal.com/clado/chat)\n\n📧 Email us: [**founders@clado.ai**](mailto:founders@clado.ai)",
+      "url": "https://www.ycombinator.com/launches/NbA-clado-deep-research-for-people",
+      "votes": 79,
+      "created_at": "2025-05-27T20:44:55.352Z"
+    }
+  ]
+}

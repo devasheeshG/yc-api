@@ -1,0 +1,106 @@
+{
+  "id": 31524,
+  "name": "AgentPhone",
+  "slug": "agentphone",
+  "former_names": [],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/3cd0619758d7e852f6674fba763a0d1167fa4a69.png",
+  "website": "https://agentphone.ai/",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "The $2T global telecom industry was built for humans. Agents can't act in the real world today because without a phone number, they lack identity. AgentPhone gives every AI agent its own phone number to reach people and businesses through messages and calls.",
+  "one_liner": "Phone Numbers for AI Agents",
+  "team_size": null,
+  "industry": "B2B",
+  "subindustry": "B2B -> Infrastructure",
+  "launched_at": 1778010009,
+  "tags": [],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": true,
+  "nonprofit": false,
+  "batch": "Spring 2026",
+  "status": "Active",
+  "industries": [
+    "B2B",
+    "Infrastructure"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/agentphone",
+  "api": "https://devasheeshg.github.io/yc-api/batches/spring-2026/agentphone.json",
+  "year_founded": 2026,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/agentphone/",
+  "x_url": "https://x.com/agentphonehq",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/3cd0619758d7e852f6674fba763a0d1167fa4a69.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "David Lieb",
+    "url": "https://www.ycombinator.com/people/david-lieb"
+  },
+  "founders": [
+    {
+      "user_id": 541937,
+      "full_name": "Manav Modi",
+      "title": "Founder/CEO",
+      "founder_bio": "Co-founder at AgentPhone. Helped drive the Vogue app revamp and grew usage from ~100k to over 1M users. BS Computer Engineering from UIUC.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/manav2modi/",
+      "x_url": "https://x.com/manav2modi",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/e1e12722dbfef97063b9e315c895735a9ea0f7af.jpg"
+    },
+    {
+      "user_id": 1068571,
+      "full_name": "Meet Modi",
+      "title": "Founder/CTO",
+      "founder_bio": "Co-founder at AgentPhone. Previously built AI Agent infrastructure on WhatsApp for 280+ million businesses at Meta. Bachelor's in Computer Science & Linguistics from UCLA.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/meetmodi-/",
+      "x_url": "https://x.com/themeetmodi",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/1fcfed7410cdbdfff378e20cd29a053029bea75c.jpg"
+    }
+  ],
+  "jobs": [
+    {
+      "id": 98603,
+      "title": "Founding Engineer",
+      "url": "https://www.ycombinator.com/companies/agentphone/jobs/Cnv7LNt-founding-engineer",
+      "location": "New York, NY, US / San Francisco, CA, US",
+      "type": "Full-time",
+      "role": "Engineering",
+      "role_type": "Full stack",
+      "salary_range": "$140K - $250K",
+      "equity_range": "0.25% - 2.00%",
+      "experience": "Any (new grads ok)",
+      "visa": "Will sponsor",
+      "skills": [
+        "Python",
+        "TypeScript"
+      ]
+    }
+  ],
+  "news": [],
+  "launches": [
+    {
+      "id": 101384,
+      "title": "AgentPhone - Phone Numbers for AI Agents",
+      "tagline": "Give AI agents their own phone numbers and identity to call and message across every channel.",
+      "body": "AI agents are becoming incredibly capable online, but the moment you need one to make a phone call or send a text, everything falls apart. You end up stitching together telecom providers, voice infrastructure, compliance, routing, and your own memory layer. Giving an agent a phone number should be simple. It wasn't.\n\nSo we built [AgentPhone](http://agentphone.ai/): the telephony infrastructure layer for AI agents.\\\n\\\n<https://youtu.be/Gsj_BaaCDD4>\n\n### **TL;DR:**\n\n* One API to give any AI agent its own phone number\n* iMessage, WhatsApp, RCS, SMS, Calling, and more soon\n* A trusted identity so agents can reach people and businesses in the real world\n\n### **Who's Using It**\n\nTeams at Google's Agent Development Kit, Replit, Y Combinator, Sim AI, LangChain, and Alchemy are already building with AgentPhone.\n\n### **The Problem**\n\nThe $2T global telecom industry was built for humans. AI agents today can browse the web, write code, and manage entire workflows. But they still can't pick up the phone. A lot of business still runs on calls and texts, channels that existed before the internet and email. If agents are going to do real work, they need to work on the channels people already use.\n\n### **How It Works**\n\nAgentPhone gives developers a single API to provision phone numbers for their agents with voice and messaging built in and no compliance headaches. Just plug in and your agent can talk and text to the world.\n\n### **Things already built on AgentPhone:**\n\n* An AI talent recruiter that messages and screens candidates\n* AI employees with their own phone numbers that handle workflows end to end\n* Our own company brain that Manav and Meet use internally to run AgentPhone\n\n### **About Us**\n\nWe're [Meet](https://www.linkedin.com/in/meetmodi-/) and [Manav](https://www.linkedin.com/in/manav2modi). We met 21 years ago when our mom gave birth to Meet. We've been building together ever since.\n\n![uploaded image](/media/?type=post&id=101384&key=user_uploads/1068571/4a9a9fe1-ca93-4dd0-8c56-c1aaf73b076c)\n\nMeet previously built AI agent infrastructure on WhatsApp serving 280+ million businesses at Meta. Manav helped drive the Vogue app revamp and grew it from \\~100K to over 1M users. We saw firsthand that the biggest gap in the agent stack isn't intelligence. It's connectivity.\n\n### **Our Ask**\n\nIf you're building agents that need voice and messaging, try AgentPhone and tell us what breaks. We'll provide free credits to anyone willing to test and share feedback.\n\nSign up at <https://www.agentphone.ai>",
+      "url": "https://www.ycombinator.com/launches/QNE-agentphone-phone-numbers-for-ai-agents",
+      "votes": 265,
+      "created_at": "2026-05-15T13:42:30.250Z"
+    }
+  ]
+}

@@ -1,0 +1,107 @@
+{
+  "id": 30087,
+  "name": "Gecko Security",
+  "slug": "gecko-security",
+  "former_names": [
+    "Gecko Security Inc."
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/475ae1459a273ef4827fe78aeed097961151b782.png",
+  "website": "https://gecko.security",
+  "all_locations": "London, England, United Kingdom",
+  "long_description": "We built Gecko for teams that want to build secure code quickly without wasting time on security tools that don’t deliver results, or relying on one-time human pentests that quickly become outdated. Gecko uses AI to understand how your application should work, simulates relevant attacks to find critical vulnerabilities, and then verifies these vulnerabilities by exploiting them. It also helps you understand the risk of these vulnerabilities and applies a working fix to keep your code secure.",
+  "one_liner": "The AI Security Engineer to Find and Fix Vulnerabilities ",
+  "team_size": 2,
+  "industry": "B2B",
+  "subindustry": "B2B -> Security",
+  "launched_at": 1729014786,
+  "tags": [
+    "SaaS",
+    "B2B",
+    "Security",
+    "Cybersecurity",
+    "AI"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Fall 2024",
+  "status": "Active",
+  "industries": [
+    "B2B",
+    "Security"
+  ],
+  "regions": [
+    "United Kingdom",
+    "Europe",
+    "Remote",
+    "Partly Remote"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/gecko-security",
+  "api": "https://devasheeshg.github.io/yc-api/batches/fall-2024/gecko-security.json",
+  "year_founded": 2024,
+  "city": "London",
+  "country": "GB",
+  "linkedin_url": "https://www.linkedin.com/company/geckosec",
+  "x_url": "https://x.com/gecko_sec",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": "https://github.com/Gecko-Security",
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/475ae1459a273ef4827fe78aeed097961151b782.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Pete Koomen",
+    "url": "https://www.ycombinator.com/people/pete-koomen"
+  },
+  "founders": [
+    {
+      "user_id": 1543392,
+      "full_name": "Jeevan Jutla",
+      "title": "Founder/CEO",
+      "founder_bio": "Jeevan, Co-Founder and CEO of Gecko Security, has previously worked as a security researcher for UK Intelligence, where he built automated security tools. He’s ranked in the top 500 globally for competitive hacking and has co-developed machine learning tools for vulnerability research, 3 years ahead of public research.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/jeevan-jutla/",
+      "x_url": "https://x.com/jjjutla",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/74dd4dee3403d90703a392dc55f1bfb34cb2bf67.jpg"
+    },
+    {
+      "user_id": 1969797,
+      "full_name": "Artemiy Malyshau",
+      "title": "Founder/CTO",
+      "founder_bio": "Artemiy is the CTO and Co-Founder at Gecko Security. He holds an MSc from Imperial College London, where he was a scholar. He contributed to research in multi-agent systems and reinforcement learning. Prior, he developed threat intelligence software for Interpol and national governments.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/artemiy-malyshau/",
+      "x_url": "https://x.com/nkoorty",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/5ebf9724a66e3cf8fe013ca476bdfca6e4ccec30.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 92703,
+      "title": "Gecko Security: AI SAST for finding Vulnerabilities in Code",
+      "tagline": "30+ 0-Days found using Gecko",
+      "body": "**TL;DR:** Static analysis tools flood teams with false positives and miss the vulnerabilities that matter. We use LLMs to find the complex business logic flaws that traditional scanners can't detect.\n\n![uploaded image](/media/?type=post&id=92703&key=user_uploads/1969797/42239d23-2918-4c49-bc6d-38a1955fc1c7)\n\n# **The Problem**\n\nCompanies scan their code for security vulnerabilities and are often met with a big pile of findings. 80% of these findings are false positives and not exploitable vulnerabilities. Even among the true positives, these scanners still miss issues like privilege escalation and authentication bypasses. These are the most important issues that only surface later during manual code review or penetration testing.\n\nSecurity teams have to deal with this by spending hours tuning scanners and rules or hiring headcount to triage through the false positives. This translates into delayed releases, overtime costs, and compliance risks when critical flaws slip through undetected.\n\n# **The Solution**\n\nTraditional SAST (Static Application Security Testing) tools have two fundamental limitations. First, they parse code into simplistic models like ASTs or call graphs, which lose context and can't resolve complex call chains. Second, they rely on pattern matching against predefined rules, which works for basic vulnerabilities like XSS and SQLi but fails completely for custom business logic flaws.\n\nGecko solves both problems. We built a custom, compiler-accurate indexer that preserves semantic information and allows us to precisely navigate code like an IDE. This gives us the ground truth of how your code actually works.\n\nWith that foundation, we use LLMs to perform threat modeling. The LLM analyzes your code's business logic, data flows, and trust boundaries to generate targeted attack scenarios. We then systematically validate each potential attack path, using the indexer to reconstruct full call chains from source to sink and determine real-world exploitability before flagging it as a vulnerability.\n\nThis approach finds the complex, multi-step business logic vulnerabilities that have been invisible to traditional tools.\n\n# **Ask**\n\nWe've got a handful of Fortune 500 companies and startups alike excited about this, because it addresses key pain points they couldn’t address with traditional scanners. Customers are seeing 50% fewer false positives on the same codebases, and are finding issues using the scanner that would only appear in pentests and manual code reviews.\n\nWe’ve used it to find 30+ CVEs in projects like Ollama, Gradio, and Ragflow (<https://www.gecko.security/research>). You can [try it on any OSS repo](https://app.gecko.security) at or [get a demo](https://cal.com/geckosec/30min).\n\n# **Team**\n\nJJ and Artemiy met four years ago while studying in London. Since then, they have traveled the world competing in CTFs and hackathons, earning over $100,000 in prizes.\n\nJJ, CEO and Co-founder, previously worked for the UK Intelligence Service, as a teenager building automated tooling to defend critical infrastructure. He also worked at Binance in China leading security tool development for the Red Team. \n\nArtemiy, CTO and Co-founder, served in the Austrian Cyberforces and built threat intelligence platforms used by Interpol and national governments. A scholar of Imperial College London, he’s spent his career developing systems that detect and respond to complex cyber threats",
+      "url": "https://www.ycombinator.com/launches/O7D-gecko-security-ai-sast-for-finding-vulnerabilities-in-code",
+      "votes": 22,
+      "created_at": "2025-08-04T18:13:52.289Z"
+    },
+    {
+      "id": 84816,
+      "title": "Gecko Security: Your AI Security Engineer",
+      "tagline": "Gecko is an AI SAST for finding and fixes security vulnerabilities in your codebase. It's just like having a security engineer making your code secure.",
+      "body": "**TL;DR:** We built [Gecko](https://gecko.security/) for teams that want to build secure code quickly without wasting time on tools that don’t deliver results, or relying on one-time human pentests that quickly become outdated.\n\n![uploaded image](/media/?type=post&id=84816&key=user_uploads/1969797/81233561-38af-49a4-b7ed-03f61aa03ae0)\n\n### **The Problem**\n\nMost developers tell us they think of security as an afterthought, added out of fear rather than part of the development process at the start. This is because current security tools **can’t find critical business logic vulnerabilities**, which are the ones attackers actually exploit, and instead flag low-priority issues with many **false positives**. This makes fixing these issues slow and costly, **pulling engineers away from building** features that grow revenue.\n\n### **The Solution**\n\nGecko uses AI to understand how your application should work, simulates relevant attacks to find critical vulnerabilities, and then verifies these vulnerabilities by exploiting them. It also helps you understand the risk of these vulnerabilities and applies a working fix to **continuously** **keep your code secure**. [Watch our demo here!](https://www.youtube.com/watch?v=ObuItEP3rZk)\n\n### **Technical Details**\n\nAt a high level, Gecko mimics the approach of skilled security experts by using LLM agents combined with program analysis tools like static analyzers, fuzzers, and symbolic executors, which were previously **only used in intelligence agencies**. For fixing vulnerabilities, Gecko uses multiple agents to iteratively refine the patches - ensuring the vulnerability is remediated, and your code isn’t broken. All testing is done in parallel with certified human pentesters, as we continue to benchmark Gecko’s performance to ensure no vulnerabilities are overlooked.\n\n### **Ask**\n\n**Do you have code that needs to be secured?** Email us at [**gecko@gecko.security**](mailto:gecko@gecko.security) or book a demo at [**https://cal.com/geckosec/15min**](https://cal.com/geckosec/15min).\n\n### **Team**\n\n[JJ](https://www.linkedin.com/in/jeevan-jutla/) and [Artemiy](https://www.linkedin.com/in/artemiy-malyshau/) met four years ago while studying in London. Since then, they have traveled the world competing in CTFs and hackathons, earning over $100,000 in prizes. \n\nJJ previously worked for the UK Intelligence Service (GCHQ), as a teenager building automated tooling to defend critical infrastructure. He also worked at Binance in China leading security tool development for the Red Team.\n\nArtemiy holds an MSc from Imperial College London, where he was a scholar. He has contributed to research in multi-agent systems and reinforcement learning. As the first employee and only non-PhD member at his previous company, he developed threat intelligence software for Interpol and national governments. \n\nBoth are deeply committed to cybersecurity and AI, and are focused on solving one of the industry's most challenging problems.",
+      "url": "https://www.ycombinator.com/launches/M40-gecko-security-your-ai-security-engineer",
+      "votes": 81,
+      "created_at": "2024-10-16T21:47:06.425Z"
+    }
+  ]
+}

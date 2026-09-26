@@ -1,0 +1,222 @@
+{
+  "id": 13312,
+  "name": "PostHog",
+  "slug": "posthog",
+  "former_names": [
+    "Hiberly"
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/7f1b6d1787ae32a7ebc0d417ec6fb8a204a3bbe9.png",
+  "website": "https://www.posthog.com",
+  "all_locations": "San Francisco, CA, USA; Remote",
+  "long_description": "PostHog helps engineers build better products. We provide everything they need to make sure they are building something that people want. This means - product analytics, session replays, feedback tools, feature flags, experimentation, LLM observability, and a data warehouse (with SQL) with one click data imports from the places you use.\r\n\r\nWe've been averaging ~10% monthly revenue growth, we are [default alive](http://www.paulgraham.com/aord.html), and we didn't raised a huge / now-overpriced round in 2021. While others are focused on layoffs and struggling to grow into huge valuations, we're focusing on an awesome product for end users, hiring (a handful of) exceptional team members and seeing fantastic increases in revenue as a result.\r\n\r\nCheck out posthog.com/careers if you want to be part of this journey.",
+  "one_liner": "The single platform to analyze, test, observe, and deploy new features",
+  "team_size": 150,
+  "industry": "B2B",
+  "subindustry": "B2B -> Analytics",
+  "launched_at": 1583901228,
+  "tags": [
+    "Developer Tools",
+    "B2B",
+    "Open Source"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": true,
+  "nonprofit": false,
+  "batch": "Winter 2020",
+  "status": "Active",
+  "industries": [
+    "B2B",
+    "Analytics"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada",
+    "Remote",
+    "Fully Remote"
+  ],
+  "stage": "Growth",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": [
+    {
+      "question": "How did you decide to apply to Y Combinator? What was your experience applying, going through the batch, and fundraising at demo day?",
+      "answer": "We applied simply because it’s the best place in the world to start a startup, particularly as we were both Silicon Valley “outsiders”. Looking back, YC has been the single most important thing we’ve ever done in our careers."
+    },
+    {
+      "question": "How have you kept in touch with the YC community and continued to use YC resources & programs since the batch ended?",
+      "answer": "Every single week we spend time with other YC founders or partners. The YC community is a critical source of advice, fundraising, friendship, marketing and sales."
+    },
+    {
+      "question": "What's the history of your company from getting started until the present day? What were the big inflection points?",
+      "answer": "We pivoted 5 times, got into YC, pivoted a month into the batch, then shipped PostHog as we got so frustrated re-implementing analytics every single time we pivoted.\\\\It was a wild success on Hacker News and we’ve not looked back."
+    },
+    {
+      "question": "What is the core problem you are solving? Why is this a big problem? What made you decide to work on it?",
+      "answer": "We help engineers be better at product.\\We do this by providing all the tools they need to do this in one - it means no time spent pulling together insight from all over the place (in the way a traditional PM would) and it means no time lost to data engineering. We want you to engineer your product instead."
+    },
+    {
+      "question": "What is your long-term vision? If you truly succeed, what will be different about the world?",
+      "answer": "Our mission is to increase the number of successful products in the world.We do this by helping engineers be better at product. They’re some of the brightest and hardest working employees, and so getting them to focus on building something people want instead of shipping tickets set by someone else is really important.\\\\This is how we’ll do that:_Provide every tool needed for evaluating feature success._ The best use of an engineer's time is to ship features that have an impact on customers. Currently, this requires a large number of tools and product managers to pull all the insights together. By integrating all these tools we can make this easy - no integration needed, no extra vendors, no extra javascript, and workflows to guide engineers through feature development._Get in first._ By already being used by our customers, we’re the default for each additional tool they add. It’s the technical co-founder and early engineers building the MVP and integrating the first product tools, not PMs. By focusing on engineers we can be their preferred choice and get in first. Additionally, we can ladder our tools - for example, session recording is used much earlier in the life cycle of the product than others like the CDPs helping us get in earlier than competing products._Be the pipeline for product and customer data._ Traditionally, as companies scale their data warehouse becomes the source of truth and non-warehouse native tools (like product analytics) become less relevant. By being their core pipeline from connecting their data to their warehouses we can remain sticky for the life of our customers. And by providing this infra, we ensure the data we have remains comprehensive.##"
+    }
+  ],
+  "url": "https://www.ycombinator.com/companies/posthog",
+  "api": "https://devasheeshg.github.io/yc-api/batches/winter-2020/posthog.json",
+  "year_founded": 2020,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/posthog/",
+  "x_url": "https://twitter.com/posthog",
+  "fb_url": "https://www.facebook.com/PostHog/",
+  "cb_url": "https://www.crunchbase.com/organization/posthog",
+  "github_url": "https://github.com/PostHog",
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/7f1b6d1787ae32a7ebc0d417ec6fb8a204a3bbe9.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Brad Flora",
+    "url": "https://www.ycombinator.com/people/brad-flora"
+  },
+  "founders": [
+    {
+      "user_id": 330819,
+      "full_name": "James Hawkins",
+      "title": "Founder",
+      "founder_bio": "cofounder at PostHog /\nused to be a bad pro cyclist /\nknows about brand (sounds fluffy right, my mom says i'm special though)/shipping lots of stuff/marketing to developers",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/j-hawkins/",
+      "x_url": "https://twitter.com/james406",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/d5c234d7654af82b2d5c405637dcf9ee0e51268a.jpg"
+    },
+    {
+      "user_id": 400222,
+      "full_name": "Tim Glaser",
+      "title": "Founder",
+      "founder_bio": null,
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/timgl/",
+      "x_url": null,
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/cdd2589b8ec6303aa76c3d16bcc8ad56fd403132.jpg"
+    }
+  ],
+  "jobs": [
+    {
+      "id": 104329,
+      "title": "Site Reliability Engineer (US - Pacific time)",
+      "url": "https://www.ycombinator.com/companies/posthog/jobs/u8dJbOn-site-reliability-engineer-us-pacific-time",
+      "location": "San Francisco, CA / Remote (US)",
+      "type": "Full-time",
+      "role": "Engineering",
+      "role_type": "Full stack",
+      "salary_range": "$200K - $300K",
+      "equity_range": "",
+      "experience": "6+ years",
+      "visa": "US citizen/visa only",
+      "skills": []
+    },
+    {
+      "id": 105450,
+      "title": "AI Research Engineer",
+      "url": "https://www.ycombinator.com/companies/posthog/jobs/PY6BXny-ai-research-engineer",
+      "location": "Hybrid (UK) / Remote (US)",
+      "type": "Full-time",
+      "role": "Engineering",
+      "role_type": "Full stack",
+      "salary_range": "$150K - $200K",
+      "equity_range": "",
+      "experience": "Any (new grads ok)",
+      "visa": "US citizen/visa only",
+      "skills": []
+    },
+    {
+      "id": 106408,
+      "title": "ClickHouse Operations Engineer ",
+      "url": "https://www.ycombinator.com/companies/posthog/jobs/g62MfF7-clickhouse-operations-engineer",
+      "location": "Remote (US)",
+      "type": "Full-time",
+      "role": "Engineering",
+      "role_type": "Full stack",
+      "salary_range": "",
+      "equity_range": "",
+      "experience": "Any (new grads ok)",
+      "visa": "US citizen/visa only",
+      "skills": []
+    },
+    {
+      "id": 108951,
+      "title": "Technical Staff Writer (Blogs & Newsletters)",
+      "url": "https://www.ycombinator.com/companies/posthog/jobs/z8Z2WWd-technical-staff-writer-blogs-newsletters",
+      "location": "Remote (US)",
+      "type": "Full-time",
+      "role": "Operations",
+      "role_type": null,
+      "salary_range": "",
+      "equity_range": "",
+      "experience": "8+ years",
+      "visa": "US citizen/visa only",
+      "skills": []
+    },
+    {
+      "id": 109574,
+      "title": "Security Engineer ",
+      "url": "https://www.ycombinator.com/companies/posthog/jobs/678x9ca-security-engineer",
+      "location": "Remote (US)",
+      "type": "Full-time",
+      "role": "Engineering",
+      "role_type": "Full stack",
+      "salary_range": "",
+      "equity_range": "",
+      "experience": "Any (new grads ok)",
+      "visa": "US citizen/visa only",
+      "skills": []
+    },
+    {
+      "id": 110003,
+      "title": "Finance Manager, Revenue Accounting",
+      "url": "https://www.ycombinator.com/companies/posthog/jobs/aZn60Nt-finance-manager-revenue-accounting",
+      "location": "Remote (US)",
+      "type": "Full-time",
+      "role": "Sales",
+      "role_type": null,
+      "salary_range": "",
+      "equity_range": "",
+      "experience": "5+ years",
+      "visa": "US citizen/visa only",
+      "skills": []
+    },
+    {
+      "id": 112054,
+      "title": "Product Engineer",
+      "url": "https://www.ycombinator.com/companies/posthog/jobs/DYTfRQs-product-engineer",
+      "location": "Remote (US)",
+      "type": "Full-time",
+      "role": "Engineering",
+      "role_type": "Full stack",
+      "salary_range": "",
+      "equity_range": "",
+      "experience": "Any (new grads ok)",
+      "visa": "US citizen/visa only",
+      "skills": []
+    }
+  ],
+  "news": [
+    {
+      "title": "\"E\"xciting news - PostHog",
+      "url": "https://posthog.com/blog/series-e",
+      "date": "Sep 29, 2025"
+    },
+    {
+      "title": "Posthog - the all-in-one Product Analytics Suite",
+      "url": "https://www.topofthelyne.co/p/posthog-the-all-in-one-product-analytics?s=w",
+      "date": "Jun 15, 2022"
+    },
+    {
+      "title": "Open source product analytics platform PostHog raises $15M | VentureBeat",
+      "url": "https://venturebeat.com/2021/06/10/open-source-product-analytics-platform-posthog-raises-15m/",
+      "date": "Jun 10, 2021"
+    }
+  ],
+  "launches": []
+}

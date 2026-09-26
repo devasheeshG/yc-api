@@ -1,0 +1,84 @@
+{
+  "id": 30552,
+  "name": "sieve",
+  "slug": "sieveai",
+  "former_names": [
+    "Sieve"
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/459d63741f9af0815baebb98ab6c243158d589c2.png",
+  "website": "https://usesieve.com/",
+  "all_locations": "New York City, NY, USA",
+  "long_description": "sieve solves data cleaning for hedge funds and investment firms by letting them get clean data in four lines of code. Currently, their data pipelines have conditions that raise for human review, which literally send an email to engineers with data that needs to be reviewed. We provide an API that integrates directly into their existing pipeline - instead of raising for human review, they can send all the same information to our API and get clean, high-quality data back.\r\n\r\nBy using our AI agents built specifically for financial data collection, along with expert-in-the-loop review, we provide our clients with clean, validated data at a scale and level of quality that wasn't achievable before.",
+  "one_liner": "AI + human review to solve data cleaning - accessible via API or Excel",
+  "team_size": 2,
+  "industry": "B2B",
+  "subindustry": "B2B -> Finance and Accounting",
+  "launched_at": 1747624073,
+  "tags": [
+    "Investing",
+    "Data Engineering",
+    "APIs"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Spring 2025",
+  "status": "Active",
+  "industries": [
+    "B2B",
+    "Finance and Accounting"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/sieveai",
+  "api": "https://devasheeshg.github.io/yc-api/batches/spring-2025/sieveai.json",
+  "year_founded": 2025,
+  "city": "New York City",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/usesieve",
+  "x_url": "https://x.com/usesieve",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/459d63741f9af0815baebb98ab6c243158d589c2.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Tom Blomfield",
+    "url": "https://www.ycombinator.com/people/tom-blomfield"
+  },
+  "founders": [
+    {
+      "user_id": 1591478,
+      "full_name": "Nicole Lu",
+      "title": "Founder/CEO",
+      "founder_bio": "Nicole is co-founder and CEO of sieve, which is solving data cleaning for hedge funds and investment firms. She previously worked at Citadel across Equity Quant Research, Global Trading, and Data Science groups, was a management consultant at McKinsey, and developed cancer detection algorithms at the Broad Institute.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/lu-nicole/",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/8afeb7c737351a294c8a72c2510ef4df86a819d9.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 90521,
+      "title": "sieve helps hedge funds extract and clean data from any source directly into their existing tools",
+      "tagline": "Focus on differentiated analyses and never think about data cleaning again",
+      "body": "**The problem**\n\nRight now, the most sophisticated hedge funds pay over-qualified data engineers to spend hours a day on the under-levered task of data cleaning. It's crazy to anyone outside of the industry, but in finance even earnings dates (the date a company reports earnings) are considered **a known hard problem.**\n\nhttps://youtu.be/V-OpzDRge3o\n\n**Our ask**\n\nWe've solved this problem and our ask to the YC community is - **connect us with anyone you know who works in the investing world and uses data (should be all of them).** You can email us at [founders@usesieve.com](mailto:nicole@usesieve.com).\n\n**Who we are**\n\nAfter studying CS at MIT, I worked at Citadel and McKinsey, and Savannah worked at Bain. We've dealt with this problem first hand and were amazed that there weren't good solutions.\n\n**What we've built**\n\nsieve lets hedge funds replace manual review in their data pipelines with a simple API call, so their engineers and analysts can get back to more differentiated work. Behind the scenes, we use AI to find and retrieve the appropriate source documents and to extract the requested data. Each data point is reviewed by a team of expert reviewers before being returned to the client. This lets us achieve the level of accuracy hedge funds need, and that AI-only approaches aren't able to achieve.\n\nWe offer direct API access and access via other tools like Excel. Watch below to see how the excel integration works!\n\n[**https://youtu.be/r6A1t_X2kZo**](https://youtu.be/r6A1t_X2kZo)\n\n**What the early results look like**\n\n* sieve is able to replace manual data cleaning workflows:\n  * accurately (100% match to data that was hand-collected internally)\n  * more scalably (weeks of full-time work to review data became a passive background task for the data scientist)\n  * more cheaply (easily 60-70% cheaper than existing options, even when that existing option is BPO outsourcing)\n\nIn our first week of YC, we were told that we need to be at least one of: better, faster, or cheaper.\n\n![uploaded image](/media/?type=post&id=90521&key=user_uploads/1591478/5e3dcc39-e2cb-48d4-bf91-5babfba2d701)\n\n![uploaded image](/media/?type=post&id=90521&key=user_uploads/1591478/9bec35c3-4989-4973-b5ab-2fd181799d39)\n\n",
+      "url": "https://www.ycombinator.com/launches/NY1-sieve-helps-hedge-funds-extract-and-clean-data-from-any-source-directly-into-their-existing-tools",
+      "votes": 83,
+      "created_at": "2025-05-19T15:16:31.617Z"
+    }
+  ]
+}

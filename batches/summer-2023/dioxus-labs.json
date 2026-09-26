@@ -1,0 +1,83 @@
+{
+  "id": 28789,
+  "name": "Dioxus Labs",
+  "slug": "dioxus-labs",
+  "former_names": [],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/9c857de01ac0dcd9450546b9d0375b049abacf5a.png",
+  "website": "https://dioxuslabs.com",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "Dioxus makes it easy for developers to quickly build, test, deploy, and manage apps on every platform. We support building and deploying apps for the web, desktop, mobile, AR/VR, and many other exotic targets.",
+  "one_liner": "Web, Desktop, and Mobile apps with one codebase in Rust",
+  "team_size": 4,
+  "industry": "B2B",
+  "subindustry": "B2B -> Engineering, Product and Design",
+  "launched_at": 1686238381,
+  "tags": [],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Summer 2023",
+  "status": "Acquired",
+  "industries": [
+    "B2B",
+    "Engineering, Product and Design"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada",
+    "Remote",
+    "Partly Remote"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/dioxus-labs",
+  "api": "https://devasheeshg.github.io/yc-api/batches/summer-2023/dioxus-labs.json",
+  "year_founded": 2023,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/dioxus-labs/",
+  "x_url": "http://twitter.com/dioxuslabs/",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": "http://github.com/dioxusLabs/",
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/9c857de01ac0dcd9450546b9d0375b049abacf5a.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [
+    "https://bookface-images.s3.us-west-2.amazonaws.com/attachments/03b07b7eb904e54370728a86080bd1cb1a3fc165.png",
+    "https://bookface-images.s3.us-west-2.amazonaws.com/attachments/33d29abc0895875992db161d2e84ea01594da13b.png"
+  ],
+  "primary_partner": {
+    "name": "Nicolas Dessaigne",
+    "url": "https://www.ycombinator.com/people/nicolas-dessaigne"
+  },
+  "founders": [
+    {
+      "user_id": 749074,
+      "full_name": "Jonathan Kelley",
+      "title": "Founder",
+      "founder_bio": "Open source enthusiast with a background in hard engineering and physics. \n\n",
+      "is_active": true,
+      "linkedin_url": "https://linkedin.com/in/jonathan-r-kelley",
+      "x_url": "http://twitter.com/jkelleyrtp",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/79c820156c8355cf0d38ec427778b2db93f83e37.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 73738,
+      "title": "Dioxus Labs - Web, Desktop, and Mobile apps with one codebase",
+      "tagline": "We make it easy for developers to build apps that run anywhere",
+      "body": "**tldr**; [Dioxus Labs](https://dioxuslabs.com/) makes it easy for developers to write an app once and run it on nearly any platform. Our open-source Rust library has over 10,000 stars on GitHub and is used by Airbus, the European Space Agency, and Huawei.\n\n—\n\nHi everyone, I’m Jonathan Kelley, the solo founder behind Dioxus Labs. A year ago, Dioxus was just a college side project. Now, it’s my full-time job, used by some of the world’s top companies. Before Dioxus, I worked at Cloudflare, interned at NASA, and researched plasma physics.\n\n![uploaded image](/media/?type=post&id=73738&key=user_uploads/749074/df721fdb-e2c2-4cf3-b002-dc71be942743)\n\n### **🥊 Building apps can be really hard**\n\n---\n\nBuilding apps can be challenging. App developers must navigate a complicated maze of tooling, libraries, and programming languages. Building an app that works on iOS, Android, Mac, Linux, and Windows is out of reach for many developers.\n\nSmall teams especially struggle with shipping cross-platform apps:\n\n* Few developers know Mobile, Desktop, _and_ Web development\n* There are hundreds of different tools to learn\n* Current solutions are missing major features\n* It’s really easy to build slow apps\n\nNone of the leading options like React Native, Flutter, Electron, or native make it easy for a small team to ship cross-platform apps quickly.\n\n### **✨ How do we make it easy?**\n\nWith Dioxus, developers can write their app once and then ship it to users on the web, desktop, and mobile. Instead of learning dozens of different technologies like backend, frontend, and mobile, app developers only need to learn Dioxus to build and ship their app.\n\nDevelopers build their apps in Rust with a React-like syntax and style their apps with HTML and CSS, making the onboarding from web development simple.\n\n![](https://bookface.ycombinator.com/media/?type=post&id=73738&key=user_uploads/749074/b60dfc39-1d47-4028-99c5-86a906507f3a)\n\nThe project is entirely open source and written in Rust: developers’ most loved programming language.\n\n![uploaded image](/media/?type=post&id=73738&key=user_uploads/749074/162ae1d4-16a7-47cc-89cd-b2166f43f415)\n\nIn the future, Dioxus Labs will provide a paid deployment platform that helps developers deploy and scale their Dioxus apps to their users.\n\n### **🚀 Is it working?**\n\n---\n\nThe past year has been great - the library has grown to almost 10k GitHub stars, 60k downloads, and companies like Huawei shipping production apps with Dioxus.\n\n![star history](https://i.imgur.com/Idni1n9.png)\n\nAirbus and the European Space Agency are building a [collision avoidance system](http://skytrace.space/):\n\n![](https://bookface.ycombinator.com/media/?type=post&id=73738&key=user_uploads/749074/e7130cf8-8e8a-400f-9c30-ffb7e84047d9)\n\n[Satellite.im](http://satellite.im/) is building a [peer-to-peer Discord competitor](https://uplink.satellite.im/):\n\n![uploaded image](/media/?type=post&id=73738&key=user_uploads/749074/2d40c8b2-63e3-4f50-8da4-54589f4bd701)\n\nA community member is building a [beautiful Mastadon client](https://terhech.de/ebou/):\n\n![](https://bookface.ycombinator.com/media/?type=post&id=73738&key=user_uploads/749074/74570fa3-f926-449d-865b-76eb6ebf46da)\n\n### **🤝 How can you help?**\n\n---\n\nWe’re hard at work building a deploy platform for Dioxus. In the meantime, we’d love your support:\n\n* [Star us on GitHub](http://github.com/dioxusLabs/dioxus) [⭐](https://emojipedia.org/star/)\n* Try out Dioxus for your next idea or internal tool\n* Recommend a great Rust engineer who might be interested in working at Dioxus Labs\n\nWe’re around in our community [Discord](https://discord.gg/XgGxMSkvUM), but feel free to reach out directly if this is at all interesting to you.",
+      "url": "https://www.ycombinator.com/launches/JBK-dioxus-labs-web-desktop-and-mobile-apps-with-one-codebase",
+      "votes": 29,
+      "created_at": "2023-08-02T21:40:38.712Z"
+    }
+  ]
+}

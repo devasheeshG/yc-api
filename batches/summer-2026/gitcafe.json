@@ -1,0 +1,85 @@
+{
+  "id": 31592,
+  "name": "GitCafe",
+  "slug": "gitcafe",
+  "former_names": [],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/7253a933be3a143635c29e5c657cccd546868c00.png",
+  "website": "https://git.cafe",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "We build GitHub for agents. We're rebuilding the infrastructure for the next hundred billion commits and CI jobs with hundreds of engineers already making the move.",
+  "one_liner": "The Git forge for the next hundred billion commits",
+  "team_size": 2,
+  "industry": "B2B",
+  "subindustry": "B2B -> Infrastructure",
+  "launched_at": 1785301269,
+  "tags": [
+    "Developer Tools",
+    "B2B",
+    "DevOps",
+    "AI"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Summer 2026",
+  "status": "Active",
+  "industries": [
+    "B2B",
+    "Infrastructure"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada",
+    "Remote",
+    "Partly Remote"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/gitcafe",
+  "api": "https://devasheeshg.github.io/yc-api/batches/summer-2026/gitcafe.json",
+  "year_founded": 2026,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "",
+  "x_url": "https://twitter.com/gitcafe",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/7253a933be3a143635c29e5c657cccd546868c00.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Diana Hu",
+    "url": "https://www.ycombinator.com/people/diana-hu"
+  },
+  "founders": [
+    {
+      "user_id": 1920545,
+      "full_name": "Veronica C.",
+      "title": "Founder/CEO",
+      "founder_bio": "Previously a founding engineer at Corgi S24 and returning to my roots in dev tooling.",
+      "is_active": true,
+      "linkedin_url": "",
+      "x_url": "",
+      "avatar_thumb_url": "/avatars/thumb/missing.png"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 109445,
+      "title": "GitCafe: A Git forge for teams and agents shipping hundreds of times a day, not twice.",
+      "tagline": "The Git forge for agent-scale teams",
+      "body": "Software development is becoming much more parallel. Coding agents let a team have dozens or hundreds of related changes moving at the same time, creating more branches, reviews, CI runs, and automation than existing workflows were designed to absorb.\n\nToday, we’re opening GitCafe in public beta. It is a Git forge built for teams where humans and coding agents may ship hundreds or thousands of changes a day. We’re building the hosting, review, CI, security, and automation layer for that way of working.\\\n\\\nHundreds of users are already on GitCafe, and we’re currently running trials with roughly a dozen YC companies.\n\n![uploaded image](/media/?type=post&id=109445&key=user_uploads/1920545/eecbfb4f-82f1-4660-8ee8-aeea5273a8b9)\n\nGenerating code is only part of the problem. Teams still need to understand what is changing, review it safely, keep CI moving, catch security issues, and coordinate work without becoming overwhelmed.\n\nWe’re not building GitCafe because putting repositories, code review, and CI in one product is new. We’re building it because we believe the workload those systems need to support is about to change dramatically.\n\nWe started by rebuilding the Git infrastructure itself. Now we’re closing the product gap feature by feature.\n\nRecently, we added secret scanning, Buildkite and Harmont CI support, stacked diffs with Jujutsu and Sapling integration, and beta support for GitHub Actions.\n\nThese are foundational capabilities, not the destination. Building them on infrastructure we own gives us a base we can keep extending for higher-volume, agent driven development.\n\nThe honest version is that GitCafe is behind GitHub today. GitHub has spent more than a decade building an enormous product, and GitCafe does not yet have every workflow, administrative control, or integration that mature teams need. Some features are missing, some are experimental, and some edges are rough. We expect to earn the broader product surface, not claim it on day one.\n\nWe’re opening GitCafe now because the fastest way to improve it is to put it in the hands of teams doing real work.\n\nIf your team is already using coding agents heavily, try GitCafe at <https://git.cafe> and tell us where the workflow breaks down.\\\n\\\n<https://www.youtube.com/watch?v=blHKFEOmoFg>",
+      "url": "https://www.ycombinator.com/launches/STF-gitcafe-a-git-forge-for-teams-and-agents-shipping-hundreds-of-times-a-day-not-twice",
+      "votes": 64,
+      "created_at": "2026-08-11T15:43:21.182Z"
+    }
+  ]
+}

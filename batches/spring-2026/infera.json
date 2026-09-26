@@ -1,0 +1,94 @@
+{
+  "id": 31441,
+  "name": "Infera",
+  "slug": "infera",
+  "former_names": [],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/e31e68f847b8067b4a5a541fed968e4b0739a6c4.png",
+  "website": "https://www.infera.bio",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "Describe an experiment in plain English, and Infera turns it into a validated, instrument-ready run across the equipment your lab already uses. Infera handles the protocol logic, vendor-specific scripts, data, inventory, and institutional knowledge in one system. An AI-native compiler for the lab: one system from intent to execution.",
+  "one_liner": "Control lab instruments with natural language.",
+  "team_size": 2,
+  "industry": "Healthcare",
+  "subindustry": "Healthcare -> Industrial Bio",
+  "launched_at": 1779916747,
+  "tags": [
+    "SaaS",
+    "B2B",
+    "Biotech",
+    "Automation",
+    "AI"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Spring 2026",
+  "status": "Active",
+  "industries": [
+    "Healthcare",
+    "Industrial Bio"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/infera",
+  "api": "https://devasheeshg.github.io/yc-api/batches/spring-2026/infera.json",
+  "year_founded": 2026,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/infera-bio/",
+  "x_url": "",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/e31e68f847b8067b4a5a541fed968e4b0739a6c4.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Nicolas Dessaigne",
+    "url": "https://www.ycombinator.com/people/nicolas-dessaigne"
+  },
+  "founders": [
+    {
+      "user_id": 3013936,
+      "full_name": "Troy Zhang",
+      "title": "Founder/CEO",
+      "founder_bio": "Founder at Infera. R. H. Cox Research Fellow in Nobel Prize winning lab. Dual BS in Political Science and Computation and Neural Systems from Caltech.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/troyzh",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/d37252070c23d7b971abe014006e4abdd3d1314e.jpg"
+    },
+    {
+      "user_id": 3288797,
+      "full_name": "Chloe Sow",
+      "title": "Founder/CTO",
+      "founder_bio": "Co-Founder of Infera (YC P26). Built research software and medical devices at Harvard Medical School, Brigham and Women's, Fred Hutch and PNNL. MechE + CS at Harvard.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/chloe-sow",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/d783871016e75c83c0534d668a503a2fca45d369.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 102417,
+      "title": "Infera – Control Lab Instruments with Natural Language",
+      "tagline": "Infera turns a plain-English experiment into a validated, instrument-ready run",
+      "body": "### **⚡TL;DR**\n\n**Infera is the Claude Code for scientific instruments.** Describe an experiment in plain English, and Infera turns it into a validated, instrument-ready run, handling the protocol logic, vendor scripts, data, and inventory across the instruments your lab already uses. One system, from intent to execution.\n\n### 🤔 **The Problem**\n\nLabs run on hardware from the future and software from the past.\n\nThe instruments are extraordinary. Mass specs identify thousands of proteins, flow cytometers read tens of thousands of cells a second, and cryo-EMs image at near-atomic resolution. These are the machines behind biomarker discovery, immunotherapy, structural biology, and drug development. But the software around them still looks like it shipped in 2003, and runs like it.\n\nWe've watched labs running \\~6 instruments from 3+ vendors write a one-off script for every experiment, stitch outputs together by hand, and track inventory in a Google Sheet someone probably forgot to update last Tuesday. Scientists spend their week being human glue between machines that should already talk to each other.\n\n### **🔍How Infera Works**\n\n[**Demo Video**](https://www.youtube.com/watch?v=3GPze4X7AeA)\n\n**I. Describe the experiment in plain English.** Infera asks the right questions, surfaces edge cases, and checks against your lab’s inventory and instrument state.\n\n**II. Infera turns it into a run, accommodating both manual and automatable steps.** For programmable instruments, it generates vendor-specific scripts, executes, pulls the data back, and runs the analysis. For manual work like pipetting, gels, hand fermentation, etc., it's the context layer underneath: which step you're on, which reagent goes where, what could go wrong, and how others in the lab have run it before.\n\n**III. The knowledge stays.** Every protocol, every validated run, every edge case becomes part of the system and checked against instrument constraints, lab SOPs, inventory, and prior experiments.\n\nThat last part is the hard part. It's what general-purpose LLMs can't do, and it's what enables a researcher to trust the output the way they'd trust a trained technician.\n\n### 👩‍🔬 **Team**\n\nHi! We’re Chloe and Troy, and we're building Infera to close the gap between science and instrumentation.\n\n* Chloe studied Mechanical Engineering at Harvard. She's been building research software and medical devices since before college (Regeneron STS Scholar), including a microfluidic device that detects harmful chemicals in household products, and has been doing research at places like Fred Hutch, Brigham and Women's, Harvard Medical School, and Pacific Northwest National Lab.\n* Troy studied Computation &amp; Neural Systems at Caltech, where he held an endowed research fellowship in a top research lab as an undergraduate. He's published two first-author cancer papers, holds a first-inventor agtech patent, and built and sold two companies before Infera.\n\nBetween us, we've run experiments by hand, written the scripts, and watched the whole system break when one person leaves. That's the problem we're building Infera to fix.\n\n### **🎯Ask**\n\nWe're currently running pilots with Boston-area academic labs and cores. If any of these are you, reach out at [**hello@infera.bio**](mailto:hello@infera.bio):\n\n* **Academic labs and cores:** know a PI or core director in proteomics, genomics, flow, automation, or screening? We'd love an intro, and we're happy to set up a pilot\n* **YC founders with wet labs (diagnostics, therapeutics, synbio, tools):** we’d love to meet whoever runs your lab ops\n* **Biotech and life sciences folks:** come say hi\n* **Instrument manufacturers** whose customers wish the software were better, let's talk\n\n![uploaded image](/media/?type=post&id=102417&key=user_uploads/3288797/b9d81458-f74b-47a8-88ac-e3cf756951b9)\n\n",
+      "url": "https://www.ycombinator.com/launches/Qdt-infera-control-lab-instruments-with-natural-language",
+      "votes": 153,
+      "created_at": "2026-06-02T15:49:42.214Z"
+    }
+  ]
+}

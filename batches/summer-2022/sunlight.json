@@ -1,0 +1,101 @@
+{
+  "id": 26755,
+  "name": "Sunlight",
+  "slug": "sunlight",
+  "former_names": [],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/31758f22583088dc4bc585ae2c372fbd95e94ea0.png",
+  "website": "https://www.sunlightapi.com/",
+  "all_locations": "New York City, NY, USA",
+  "long_description": "Sunlight moves B2B payment volume onto card without asking a single supplier to onboard. Our AI agents determine where a bill can be paid by card without a surcharge, then execute that payment through the vendor's own billing or AR portal, returning a confirmed status, receipt, and structured remittance data through a single API.\r\n\r\nFor decades, moving invoice spend onto card meant building a rail or signing suppliers up one at a time. Both are slow, and both leave most of the volume behind. Sunlight takes a different path. Because our agents pay through the portals suppliers already use, the network reaches every supplier without any of them having to join it.\r\n\r\nAP platforms and bank card programs issue their own cards, send them to us, and capture the interchange on volume that would otherwise have defaulted to ACH or check. We are the AI infrastructure layer that makes that volume reachable.",
+  "one_liner": "The intelligence and execution layer for agentic B2B card payments.",
+  "team_size": 6,
+  "industry": "Fintech",
+  "subindustry": "Fintech",
+  "launched_at": 1655927638,
+  "tags": [
+    "Fintech",
+    "Payments",
+    "B2B",
+    "API"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Summer 2022",
+  "status": "Active",
+  "industries": [
+    "Fintech"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada",
+    "Remote",
+    "Partly Remote"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/sunlight",
+  "api": "https://devasheeshg.github.io/yc-api/batches/summer-2022/sunlight.json",
+  "year_founded": 2021,
+  "city": "New York City",
+  "country": "US",
+  "linkedin_url": "",
+  "x_url": "",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/31758f22583088dc4bc585ae2c372fbd95e94ea0.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": null,
+  "founders": [
+    {
+      "user_id": 1011212,
+      "full_name": "Guy Ziv",
+      "title": "Founder",
+      "founder_bio": "Guy Ziv is the Co-Founder and CEO of Sunlight, a seasoned business executive, and entrepreneur with a wealth of experience in introducing disruptive technologies to medium and large financial institutions worldwide. With a robust background in product delivery, sales strategy, and execution, Guy has a track record of successfully forming dozens of strategic partnerships and delivering innovative solutions in the ever-evolving realm of financial technology.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/gyziv/",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/c49dd8bc0702a87f80cbb6331634982b6af24730.jpg"
+    },
+    {
+      "user_id": 982039,
+      "full_name": "Leo Chanea",
+      "title": "Founder",
+      "founder_bio": "Product executive, entrepreneur & community expert with a versatile experience in building sticky products. Ex-Moovit (acquired by Intel)",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/leo-chanea-12545a40/",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/28249bc497dcd3feb417fef1d8ca76af8717c82b.jpg"
+    },
+    {
+      "user_id": 1012285,
+      "full_name": "Gil Peretz",
+      "title": "Founder",
+      "founder_bio": "Gil Peretz is an experienced and passionate entrepreneur in the tech space. With a background in R&D, he has held positions such as Group Manager at Moovit, and has a wealth of experience in building high performance systems serving 1B+ users. His expertise spans from integrating systems, data scraping, and modeling on a large scale.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/gil-peretz-25404031/",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/32ba083e8ed95a9680b22f5087e897c963f4ab84.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 64261,
+      "title": "Sunlight🔆- The Universal Card-on-File API",
+      "tagline": "Meet Sunlight, the API to change the card-on-file with apps and subscription services.",
+      "body": "Guy, Gil and I are thrilled to introduce [Sunlight](https://www.sunlightapi.com/) to help Fintechs automatically make their cards top-of-wallet immediately after they're issued! \\\n\\\n**Card-on-file is the digital commerce growth engine:**\n\n82% of consumers use digital payments. Merchants, service providers and subscriptions-based businesses everywhere now offer their customers the ability to save a debit/credit card on file, so they can pay their bills on time, buy in one click, or earn rewards. And globally, 79% of consumers currently have saved a card on file or are open to doing so.\n\n\\\n**The Problem:**\n\nIn recent years, card-issuing-as-a-service has made it easy for any company to start their own card business, leading to an all-time high in the number of cards issued in 2021. For users, however, switching banks or opening a new credit card account comes with an additional hurdle: they need to update their payment info across multiple services. And on the other side of the equation, financial institutions that are issuing those cards are struggling to get their users to switch their spend from their old card to the new one. FIs have a very low conversion rate because they have no visibility and no control over the card-on-file updating process.\n\n**The Solution:**\n\nWith our universal get-your-card-on-file API, FIs can offer their users at any point in their journey a quick and easy way to update their debit/credit card info everywhere they shop or pay online, without ever leaving their Apps. The Sunlight API works on every platform that has a card-on-file option (think Uber, Amazon, Netflix, DoorDash, Starbucks and so many more…), is as seamless as a Plaid connection, and always gets the card number right and CVV code on the first try!\n\n\\\n**Our Ask**\n\nIf you’re offering cards to your users and want to increase the usage of those cards to generate more revenue, email [founders@sunlightapi.com](https://mailto:founders@sunlightapi.com) to skip the waiting list and start using our API!\\\n\\\nCheck out our website: [sunlightapi.com](https://www.sunlightapi.com/)\n\n🚀☀️",
+      "url": "https://www.ycombinator.com/launches/GiT-sunlight-the-universal-card-on-file-api",
+      "votes": 98,
+      "created_at": "2022-07-01T13:10:07.642Z"
+    }
+  ]
+}

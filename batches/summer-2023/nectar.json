@@ -1,0 +1,106 @@
+{
+  "id": 28745,
+  "name": "Nectar",
+  "slug": "nectar",
+  "former_names": [
+    "Pairly Climate",
+    "Inc."
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/7411f4ecb5153ac85174724f663e8e21142f624a.png",
+  "website": "https://nectarclimate.com",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "Nectar is the modern AI energy management platform. We automate utility data analysis to optimize energy costs, manage buildings, and report energy efficiency metrics for energy and sustainability teams. Our utility data API uses in-house AI agents to deliver the most accurate granular usage and cost data on the market.",
+  "one_liner": "Manage energy cost & usage with AI for facility & sustainability teams",
+  "team_size": 7,
+  "industry": "Industrials",
+  "subindustry": "Industrials -> Energy",
+  "launched_at": 1688762834,
+  "tags": [],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": true,
+  "nonprofit": false,
+  "batch": "Summer 2023",
+  "status": "Active",
+  "industries": [
+    "Industrials",
+    "Energy"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/nectar",
+  "api": "https://devasheeshg.github.io/yc-api/batches/summer-2023/nectar.json",
+  "year_founded": 2022,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/nectarclimate",
+  "x_url": "",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/7411f4ecb5153ac85174724f663e8e21142f624a.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Gustaf Alstromer",
+    "url": "https://www.ycombinator.com/people/gustaf-alstromer"
+  },
+  "founders": [
+    {
+      "user_id": 518312,
+      "full_name": "Allen Wang",
+      "title": "Founder",
+      "founder_bio": "Allen studied CS & EE and Math at MIT. Before founding Nectar with Katherine, he worked at Scale AI and Google. Talk to Allen about climate, math, or card magic.",
+      "is_active": true,
+      "linkedin_url": "https://linkedin.com/in/allenwang314",
+      "x_url": "https://twitter.com/AllenWang314",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/5e0c49b46c9b76c69f64f4aa710de5fc3ab319d2.jpg"
+    },
+    {
+      "user_id": 672812,
+      "full_name": "Katherine He",
+      "title": "Founder",
+      "founder_bio": "Katherine studied computer science and business management at MIT. Previously she's worked at Two Sigma building financial pipelines that move millions of dollars daily. She holds a US record in poetry memorization.",
+      "is_active": true,
+      "linkedin_url": "https://linkedin.com/in/katherine-he",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/cb198326c4987ca23dabdb5d1ea4048300d71f70.jpg"
+    }
+  ],
+  "jobs": [
+    {
+      "id": 97708,
+      "title": "Sales Development Representative (SDR) (Contract to Hire)",
+      "url": "https://www.ycombinator.com/companies/nectar/jobs/V0LHrvP-sales-development-representative-sdr-contract-to-hire",
+      "location": "San Francisco, CA, US / Remote (US)",
+      "type": "Contract",
+      "role": "Sales",
+      "role_type": null,
+      "salary_range": "$65K - $100K",
+      "equity_range": "",
+      "experience": "Any (new grads ok)",
+      "visa": "US citizen/visa only",
+      "skills": []
+    }
+  ],
+  "news": [],
+  "launches": [
+    {
+      "id": 73033,
+      "title": "🐝 Nectar - Making environmental data auditable and easier to collect",
+      "tagline": "We parse your bills, input data automatically, and record an end-to-end data trail",
+      "body": "**tl;dr:** Nectar connects any environmental data source with any ESG platform. For the 57,000 companies required to disclose emissions, our software extracts data from their utility bills, structures it, and then inputs it into existing ESG reporting software.\n\nHi friends! We’re Allen and Katherine, the team behind Nectar.\n\n![uploaded image](/media/?type=post&id=73033&key=user_uploads/518312/b9d14952-20b3-46d6-b1b9-3a2e75d14e86)\n\nStarting in 2024, rollouts of new rules (SEC proposal in the US, CSRD in the EU) will require a total of 57,000 US and EU companies to disclose their carbon emissions and conduct independent audits of their Scope 1 and 2 emissions.\n\nSustainability teams are not prepared. Today, they spend 3 months of each annual reporting cycle manually collecting and transferring data. The current workflow looks something like this:\n\n1. Sustainability teams email facility manager for the month’s data\n2. Facility manager downloads invoices from online portals, does human OCR, and then emails it to the sustainability team via a spreadsheet\n3. The sustainability team reformats the Excel and inputs it into an ESG platform\n4. Finally, during quality assurance checks, steps 1-3 repeat to correct for errors in the data\n\n![uploaded image](/media/?type=post&id=73033&key=user_uploads/518312/ecfbd866-2d94-4e7d-8d24-405c61ba9584)\n\n_Dozens of Excel spreadsheets, blurry PDFs of bills, and hastily copy-and-pasted emails – it’s a dumpster fire that’s sending CO2 into the atmosphere._\n\nCompanies are under pressure to improve their workflows: the manual process wastes thousands of hours of sustainability teams’ time, errors result in costly penalties, and lack of visibility leads to more time-consuming (and expensive) audits.\n\n## The solution\n\nWe connect the data sources directly to the ESG platform. Our software works like this: \n\n1. Customers connect their utility accounts with Nectar\n2. They describe where they want the data\n3. We do the job automatically, every month\n\nOur tool reduces a process that takes thousands of hours a year today into 10 minutes of setup. It provides an end-to-end data trail for audits and eliminates accuracy concerns.\n\n![uploaded image](/media/?type=post&id=73033&key=user_uploads/518312/aba6f285-458e-4d1e-bc36-e2fb9cdffc07)\n\nLike Plaid, our integrations are credentials-based. Our platform connects to users’ online accounts and extract data straight from the webpage, eliminating friction in gaining formal relationships with utility providers / ESG platforms and resulting in one-week integration times compared to months-long integrations with other solutions.\n\n## The team\n\nAllen and Katherine met at MIT organizing HackMIT, the nation’s largest hackathon, and Blueprint, a high school coding bootcamp. We grew frustrated about the lack of social impact in big tech, so we dropped our summer internships in 2022 to dive into climate tech.\n\nAllen’s built scrapers for Scale AI’s cataloging team and worked on AI-based SQL translation at Google. Katherine has worked at Two Sigma building financial workflows and did VC work at Romulus Capital.\n\nAfter failing to convince consumers at the airport to go vegan, we jumped into corporate sustainability. Last year, we met 200+ sustainability teams. From our learnings, we built Nectar to solve the largest challenge we saw – manual data collection and management.\n\n## The ask\n\nPlease reach out to [founders@nectarclimate.com](mailto:founders@nectarclimate.com) if you know any of the following people!\n\n* Anyone working at manufacturing or food and beverage companies\n* Sustainability, ESG (environmental, social, governance), or EHS (environmental, health, safety) teams at mid-cap companies",
+      "url": "https://www.ycombinator.com/launches/Izx-nectar-making-environmental-data-auditable-and-easier-to-collect",
+      "votes": 1363,
+      "created_at": "2023-07-13T16:41:37.861Z"
+    }
+  ]
+}

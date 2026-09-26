@@ -1,0 +1,96 @@
+{
+  "id": 29798,
+  "name": "&AI",
+  "slug": "ai-2",
+  "former_names": [
+    "AndAI, Inc. (informally, &AI)"
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/8d2c29f8fdbb128121d2ae4d3a3fcacf31f107b6.png",
+  "website": "https://www.tryandai.com/",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "&AI is a collaborative workspace that delivers trial-ready work product for patent litigators — fast enough for pitches, strong enough for court.",
+  "one_liner": "Collaborative workspace for patent litigators",
+  "team_size": 7,
+  "industry": "B2B",
+  "subindustry": "B2B -> Legal",
+  "launched_at": 1719938647,
+  "tags": [
+    "SaaS",
+    "B2B",
+    "LegalTech"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Summer 2024",
+  "status": "Active",
+  "industries": [
+    "B2B",
+    "Legal"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/ai-2",
+  "api": "https://devasheeshg.github.io/yc-api/batches/summer-2024/ai-2.json",
+  "year_founded": 2024,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/and-ai/",
+  "x_url": "https://x.com/tryandai",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/8d2c29f8fdbb128121d2ae4d3a3fcacf31f107b6.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [
+    "https://bookface-images.s3.us-west-2.amazonaws.com/attachments/017a61fce9055ae81799a4850c985e73f8b4aedc.png"
+  ],
+  "primary_partner": {
+    "name": "David Lieb",
+    "url": "https://www.ycombinator.com/people/david-lieb"
+  },
+  "founders": [
+    {
+      "user_id": 1438386,
+      "full_name": "Caleb Harris",
+      "title": "Founder",
+      "founder_bio": "Co-founder/CEO of &AI. Previously, I studied CS + Neuro at MIT, did technical consulting in patent litigation for Fish & Richardson/Gibson Dunn, built out the data science stack at InsideTracker, and conducted ML research at the MIT Media Lab.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/caleb-m-harris",
+      "x_url": "https://twitter.com/the_yuppy",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/00aae31ce0f8d9f98a8fcc19cd8e988d7974e020.jpg"
+    },
+    {
+      "user_id": 1295725,
+      "full_name": "Herbert Turner",
+      "title": "Founder",
+      "founder_bio": "Co-founder/CTO of &AI. Previously, I studied Aero/Astro + CS at MIT, worked on autonomous surface vehicles and applied ML research, fine-tuned LLMs at Google, and was a founding engineer at Kino AI.",
+      "is_active": true,
+      "linkedin_url": "https://linkedin.com/in/herbert-turner-1b511b238",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/c395a4b6123c43faa10d6f7952ce892913fefa80.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 81893,
+      "title": "📃 &AI - Automate patent due diligence in an instant",
+      "tagline": "Comprehensively find prior art, produce robust claim language, invalidate weak patents, and more.",
+      "body": "Hey everyone, we’re [Caleb](https://www.linkedin.com/in/caleb-m-harris/) and [Herbie](https://www.linkedin.com/in/herbert-turner-1b511b238/)!\n\nWe met almost six years ago while studying computer science at MIT, and have spent the last few months building [&AI](https://www.tryandai.com/) after discovering how much attorney time is spent on tedious and repetitive aspects of patent due diligence.\n\n### **tl;dr**\n\n&AI is a platform that streamlines patent due diligence. By using AI to understand the inventive aspects of patents and automate the creation of work products, we enable attorneys to instantly and comprehensively find prior art, produce robust claim language, invalidate weak patents, and more.\n\n### ❌ The Problem\n\nImagine a law firm is tasked with determining the strength of a patent or set of patent claims. This is an everyday problem for patent attorneys and could be for anything from a patent application to an IP litigation case. \n\nTo start, the attorneys need to conduct a prior art search. Typically, either:\n\n1. The attorneys meet with an outsourced search provider and give them their claims and features of interest. After a week or two, the provider returns with 5-10 reasonable documents, charging up to $10k.\n2. The attorneys manually use boolean keyword searches through databases like Google Patents and decades-old legal research platforms. Over the course of 10-20 billed hours, they have found 5-10 reasonable documents.\n\nIn either case, they have already contributed a massive amount of resources to this project without much validation that they are going in the right direction.\n\nWith their prior art in hand, the attorneys must evaluate the claims with respect to the art. This involves drafting work products like claim charts, which require several read-throughs of each document to identify and map the relevant language over the course of 20-40 billed hours. By now, the attorneys should have a good idea of the strength of the claims, whether they need to be revised, and whether they may be invalid.\n\n**What if they haven’t found the invalidating art?** They repeat the process. Over and over again, for every patent, for every case. Due diligence can continue almost indefinitely, and it’s only limited by attorney time and client budgets.\n\n### ✅ The Solution\n\nNow, imagine the law firm is using &AI. **Upon receiving the patent or claims, they find the invalidating prior art and export comprehensive claim charts in seconds!** &AI enables both attorneys and inventors to conduct their patent due diligence at a speed, scale, and quality that has never before been possible.\n\nIn minutes, we can analyze and compare the inventive aspects of thousands of patents, allowing attorneys to spend less time on tedious work and more time developing their arguments. \n\nWe’ve built our platform to be broadly applicable and easy to use. Users can leverage our AI for patent applications, responses to office actions, and invalidity, with use cases of freedom to operate, infringement, and portfolio analysis coming soon.\n\n![uploaded image](/media/?type=post&id=81893&key=user_uploads/1438386/a4381771-c0b5-4b35-9acf-72f3b6ab7183)\n\n### 🤲 The Ask\n\nWe’re actively looking to onboard more tech-forward law firms and company in-houses working with patents. We’d also love to hear directly from individual patent applicants and owners about how our tools might serve them. If you’re interested, please connect with us at [founders@tryandai.com](mailto:founders@tryandai.com) and we’d love to talk about working together!",
+      "url": "https://www.ycombinator.com/launches/LIr-ai-automate-patent-due-diligence-in-an-instant",
+      "votes": 33,
+      "created_at": "2024-07-02T17:10:50.878Z"
+    }
+  ]
+}

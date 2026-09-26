@@ -1,0 +1,140 @@
+{
+  "id": 26660,
+  "name": "Chordio",
+  "slug": "chordio",
+  "former_names": [
+    "Concert"
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/b29418be152187b38ccc249652bf446728ba67bc.png",
+  "website": "https://chordio.com",
+  "all_locations": "Issaquah, WA, USA; Remote",
+  "long_description": "Designers and product managers are often locked out of prototyping on top of their existing product. Security policies, large code base, and complex build setup all stand between the promise of code-first front-end design and reality.\r\n\r\nThe Chordio Workbench helps non-technical team members prototype new experiences on top of their existing products even when they don’t have access to the source code.\r\n\r\nThe full workflow runs in Claude Code on your local machine. It starts with cloning the front-end of the product into the workbench repository directly from the browser and compiling it into code a coding agent can work with. This means anyone can start prototyping in minutes without having to worry about a complex environment setup.\r\n\r\nThe Workbench includes agent skills to help ensure prototypes meet team standards, are backed by research, and presented to stakeholders with clarity.",
+  "one_liner": "Claude Code design workspace built for product teams",
+  "team_size": 4,
+  "industry": "B2B",
+  "subindustry": "B2B -> Engineering, Product and Design",
+  "launched_at": 1657219322,
+  "tags": [
+    "SaaS",
+    "B2B"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Summer 2022",
+  "status": "Active",
+  "industries": [
+    "B2B",
+    "Engineering, Product and Design"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada",
+    "Remote",
+    "Fully Remote"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/chordio",
+  "api": "https://devasheeshg.github.io/yc-api/batches/summer-2022/chordio.json",
+  "year_founded": 2022,
+  "city": "Issaquah",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/chordio/",
+  "x_url": "https://twitter.com/chordioapp",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/b29418be152187b38ccc249652bf446728ba67bc.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Nicolas Dessaigne",
+    "url": "https://www.ycombinator.com/people/nicolas-dessaigne"
+  },
+  "founders": [
+    {
+      "user_id": 1010497,
+      "full_name": "Ehud Halberstam",
+      "title": "Founder/CEO",
+      "founder_bio": "I'm the co-founder and CEO of Chordio. From 2014-2017 I was a co-founder and CEO of Brand.ai, where we built a platform that solved problems of design at scale at the enterprise. \nIn 2015 Brand.ai participated in the Techstars accelerator and raised financing from amazing investors. It was acquired by InVision in 2017. \nFrom 2017-2022 I helped build Brand.ai into InVision DSM, InVision's second commercial product.",
+      "is_active": true,
+      "linkedin_url": "http://www.linkedin.com/in/halberstam",
+      "x_url": "https://twitter.com/ehudhal",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/b8c0008c97acd1a307f0ae85cc3269ac49799896.jpg"
+    },
+    {
+      "user_id": 1018980,
+      "full_name": "Amit Bar",
+      "title": "Founder",
+      "founder_bio": "Co-founder and CTO - Chordio.\n\nPreviously co-founded Brand.ai - a platform for design system management. Sold to InVision in 2017, and stayed on as an engineering manager and director of engineering. Continued to scale and evolve the product into InVision's DSM (Design System Manager).\n\nMoved on in 2022 to lean into the project management space, where I see many familiar patterns and challenges waiting to be solved.",
+      "is_active": true,
+      "linkedin_url": "https://il.linkedin.com/in/amithalb",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/5e0f8946755dfb901df90ccf603e6855f8ecb88e.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 96377,
+      "title": "Design Rails: Generate an agent-ready brand identity in minutes",
+      "tagline": "Chat with an AI Creative Director to craft a complete brand from logos to voice & tone. Export as a design system your coding agents use to build consistent, on-brand interfaces.",
+      "body": "Hey everyone, Ehud here, CEO of Chordio, the company behind Design Rails.\n\nOver the last year, like everyone else, we've been building products with Claude, Cursor, and other coding agents. We wanted to ship a number of products rapidly to see what resonates most with customers.\n\nWe hit two separate problems:\n\n**Problem 1: The UI looked polished at first glance, but \"wrong\" in ways we couldn't unsee**\n\nThis went beyond the “purple gradient syndrome”. The agent would invent new components with inconsistent styles. It added static labels that looked like buttons. It embellished non-interactive cards with confusing hover states. It used emojis instead of elegant icons. Random choices everywhere.\n\n**Problem 2: We lacked a cohesive brand**\n\nWe were ready to launch a new product experiment within a week. The product worked, but it still felt like a prototype. We worried a “weekend project” look would distort our launch metrics and push us to the wrong conclusions. But we also were not willing to sink thousands of $ into branding before knowing anyone cared.\n\nAs ex-founders of Brand.ai (acquired by InVision), we believed there was a better way. Here’s what we built.\n\n**The solution**\n\nDesign Rails helps you craft your brand through chat, then export structured files your AI agent would use to stay on brand and generate polished UI.\n\nIn under 20 minutes, you get a design-context.zip package that includes a markdown spec, and design-tokens.json that specify:\n\n* Color palette\n* Typography system\n* Component guidelines\n* Voice & tone guide\n\nPlus\n\n* Logo assets in SVG and PNG with light & dark versions.\n\nIt works for new or existing products:\n\nYou drop the files into **/design-context** in your codebase, and tell your agent to\n\n```\nRead design-context/agent-instructions.md and create an integration plan for implementing this design system in our codebase.\n```\n\nThe agent will update your styles, move logos, configure components, and update your LLM instructions ([CLAUDE.md](http://claude.md/), .cursorrules, etc.) to reference the new design system.\n\nWe built this for AI builders who want to ship fast, iterate fast, and have their design look cohesive from day one.\n\nAlso, we’re trying something new (we’ll see how it goes!) - Outcome-based pricing. No token credits. No vendor lock-in. Use Design Rails for free, and only pay to download if you’re happy with the result.\n\nWould love your feedback, questions, and use cases you want us to support next.\n\nThanks for checking out Design Rails!\n\n![uploaded image](/media/?type=post&id=96377&key=user_uploads/1010497/204826ee-b53a-44f3-897f-f9947699012d)\n\n![uploaded image](/media/?type=post&id=96377&key=user_uploads/1010497/7c5faacb-d99e-4a2f-bdff-45bb8586ba01)\n\n![uploaded image](/media/?type=post&id=96377&key=user_uploads/1010497/42b6af05-017a-4fba-bf7d-ba6af209ee58)\n\n![uploaded image](/media/?type=post&id=96377&key=user_uploads/1010497/df99fc11-2fe6-440b-b00d-c353337ea564)\n\nSee it in action: https://youtu.be/TZ3gPYrCLUQ \\[2:19 mins\\]",
+      "url": "https://www.ycombinator.com/launches/P4T-design-rails-generate-an-agent-ready-brand-identity-in-minutes",
+      "votes": 14,
+      "created_at": "2025-12-27T15:41:38.795Z"
+    },
+    {
+      "id": 95564,
+      "title": "Design Rails: Give your coding agent its own product design team",
+      "tagline": "Ship better UX faster with specialized design agents",
+      "body": "Hi everyone! We're excited to introduce a set of specialized AI agents that give your coding agent the design expertise it’s missing.\n\n# **Problem**\n\nYou ask Claude or Cursor to build a feature, and you get working code in 2 minutes, but you're stuck with prototype-level design:\n\n* **Visual glitches**: misaligned cards, text bleeding outside containers, buttons cut off\n* **Generic \"AI-feel\" style**: yet another purple gradient that doesn't fit your brand\n* **Flawed UX**: ignored existing navigation pattern, unlabeled icon buttons, missing loading states\n\nYou end up iterating for hours to reach production quality, if you get there at all.\n\n# **Solution**\n\nDesign Rails is an MCP server that connects to AI coding agents (Claude, Codex, Cursor, …) and unlocks production-ready design through three key capabilities:\n\n**1. Design foundation setup** - Design Rails first establishes a strong design foundation to understand your product like a senior designer would:\n\n* Brand & Design System (extracted from your codebase, or built from scratch)\n* Product Context (what you're building, user personas, key workflows)\n\nThis foundation is captured as .md files in your project. You own the files, version them, and can edit them.\n\n**2. Spec-driven design** - Your coding agent consults Design Rails when facing design decisions. Design Rails orchestrates specialist AI agents including a UX Designer, UI Designer, Accessibility Specialist, and UX Copywriter. Each agent has deep context of your brand, unique design domain expertise, and access to a library of proven patterns from top products.. They work in parallel to produce comprehensive design specs. Your agent gets a detailed blueprint to implement.\n\n**3. Automatic design reviews** - Design Rails spins up a browser to see the rendered results, validating implementation against the spec to catch visual glitches and design inconsistencies before you even see them.\n\n![uploaded image](/media/?type=post&id=95564&key=user_uploads/1010497/4aa73593-8ee3-481f-bcf8-2aaf25f9842c)\n\nSee live before and after examples here: https://designrails.com/#examples\n\n# **Transform glitchy prototypes into production-ready experiences**\n\nTry it out on your existing project, or give it a quick try using an example project we provide as a playground. We’d love to hear your feedback and question- get in touch at [hello@designrails.com](mailto:hello@designrails.com).\n\nTry it now for free at [designrails.com](http://designrails.com)",
+      "url": "https://www.ycombinator.com/launches/OrM-design-rails-give-your-coding-agent-its-own-product-design-team",
+      "votes": 10,
+      "created_at": "2025-11-17T17:46:13.194Z"
+    },
+    {
+      "id": 92765,
+      "title": "Chordio - AI-powered design reviews that guard your standards",
+      "tagline": "Remove QA grunt work, catch issues early, and ship polished interfaces with confidence.",
+      "body": "👋 We’re excited to introduce [Chordio](https://chordio.com), an AI-powered design review tool for designers.\n\n# The Problem\n\nAs generative AI increases the pace of design work, maintaining quality through manual review is quickly becoming impossible. Manual review is slow, inconsistent, and costly. Mistakes slip through, standards drift, and QA turns into a painful bottleneck.\n\nTeams need a better way to answer, “Is this good?” for every design, every time.\n\n# The Solution\n\n**Chordio** is an AI-powered design review tool purpose-built to help product teams raise the quality bar and reduce overhead as they scale up their output. Here’s how it helps:\n\n* **Enforces Quality and Standards**: Chordio checks your designs against your organization’s unique standards, not just generic best practices. You get actionable, relevant feedback that aligns with your team’s guidelines.\n* **Scales Best Practices**: By automating reviews and surfacing helpful resources, Chordio makes it easy for teams of any size to consistently apply best practices and grow design maturity.\n* **Shifts Review Left**: With our Figma plugin, designers can catch and fix issues early—when changes are cheap and easy.\n* **Reduces Friction**: Chordio proactively flags issues before hand-off, so designers, developers, and QA don’t need to play “catch up” later. Fewer last-minute surprises mean less frustration and less design debt.\n* **Broad Review Capabilities**: Our Chrome extension lets you review _any_ webpage, in Staging or Production, so you get broader test coverage.\n\n![uploaded image](/media/?type=post&id=92765&key=user_uploads/1010497/bf4fd533-cc44-45e2-bb2f-35c4bea089bf)\n\n# The Backstory\n\nWhile building a design assistant, we realized how much teams view QA as a burdensome overhead. We noticed that as AI-generated designs become the norm, the gap between design and QA capacity grows wider. The need for a smarter, faster way to review designs became urgent.\n\nThat’s why we built Chordio. Our goal is to help every product team answer “Is this good?” confidently and at scale.\n\n# Try Chordio\n\nIf you’re a designer, product manager, or engineer who cares about quality and wants to keep moving fast, we’d love for you to give Chordio a try. Your feedback will help us shape the future of automated design review.\n\n# Free consulting\n\nIf you’re looking to establish team or company standards or connect your existing ones to an automated QA workflow, let’s get on a call.\n\n![uploaded image](/media/?type=post&id=92765&key=user_uploads/1010497/82027ecc-ee92-4b4f-bc34-4a82d9609f91)\n\n— The Chordio Team",
+      "url": "https://www.ycombinator.com/launches/O8D-chordio-ai-powered-design-reviews-that-guard-your-standards",
+      "votes": 6,
+      "created_at": "2025-08-06T16:06:30.835Z"
+    },
+    {
+      "id": 90093,
+      "title": "PRDKit: AI-powered PRDs and supporting GTM artifacts in one place",
+      "tagline": "Turn fuzzy feature ideas into clear specs — then auto‑generate the wireframes, user flows & GTM assets that follow.",
+      "body": "![uploaded image](/media/?type=post&id=90093&key=user_uploads/1010497/cb87b05b-b9dc-4021-9428-9092d8176677)\n\n👋 Excited to introduce [PRDKit](https://prdkit.ai) - an AI-powered PRD workbench (web + Slack) for product managers and builders.\n\n**Problem:**\n\nWriting great product requirement documents (PRDs) is hard. These documents lay the foundation for a product or feature, yet they’re often bloated, confusing, and missing edge cases.\n\nThis leads to expensive downstream problems from a lack of team alignment to unnecessary work that gets thrown away.\n\nWrangling ChatGPT to write PRDs _works_, but it returns lots of fluff and quickly feels like running a sprint board in a spreadsheet—powerful yet awkward.\n\n**Solution**:\n\nPRDKit is a focused AI tool that captures rough ideas, structures them into clear, lightweight PRDs, and—at the click of a button—spins up the follow‑ups you always need:\n\n* Wireframes & user‑flow diagrams\n* Modular instructions for a dev AI‑agent like Bolt or Loveable for faster prototyping\n* GTM copy snippets\n\nFurther, it’s contextual. It helps you quickly capture the essence of your existing product (enter the homepage URL) to craft PRDs that cater to your personas and existing workflows.\\\n\\\nHere’s a [2-mins demo video]( https://youtu.be/QKNcrOjpUrQ) where you can see it in action. \n\n![uploaded image](/media/?type=post&id=90093&key=user_uploads/1010497/7b05811f-7e8b-478a-8b4a-9f30b40c112e)\n\n**Back story:**\n\nWe were deep into building a UX assistant when we found that product specs were slowing us down. Even with the aid of ChatGPT and Claude, requirements were bloated and disorganized.\n\nSo we spun up a quick internal project on the same AI infrastructure we’ve built, aimed solely at turning fuzz into structure. The team loved it; specs got sharper, hand‑offs got quieter.\n\nThat side project has now been packaged for public use. We want to learn where it shines—or breaks—outside our walls.\n\nProduct managers and builders: [take it for a spin](https://prdkit.ai)! We’ll top off your credits for feedback.\n\nThe PRDKit team\\\n[hello@prdkit.ai](mailto:hello@prdkit.ai)\n\n![uploaded image](/media/?type=post&id=90093&key=user_uploads/1010497/2d54b5da-4c61-492d-9951-eff6893615a4)\n\n",
+      "url": "https://www.ycombinator.com/launches/NR7-prdkit-ai-powered-prds-and-supporting-gtm-artifacts-in-one-place",
+      "votes": 14,
+      "created_at": "2025-05-06T19:11:11.772Z"
+    },
+    {
+      "id": 80115,
+      "title": "Chordio: Your generative UX assistant",
+      "tagline": "Go from a product idea to screen wireframes 10x faster.",
+      "body": "**TLDR;**\n\nChordio is a generative UX assistant that designs screen wireframes based on their description to help product teams increase their product iteration velocity.\n\nAs a founder, you can use Chordio to visualize a new concept quickly, speed up the customer feedback loop, and save time and money building the right solution.\n\n[Here’s a 1-min video](https://youtu.be/eKQ_YJazFZs):\n\n**Problem**\n\nUX design is expensive. Visualizing and prototyping new concepts manually is a laborious task for designers and agonizingly slow for non-designers. This limits the number of designs a product team is able to vet early and leads to expensive redesigns of features down the road.\n\n**Solution**\n\nChordio helps founders and product managers run faster user feedback loops, improve communication clarity, facilitate faster team alignment, and reduce design costs.\n\nYou can think of it as a ChatGPT that’s pre-built for generating product wireframes. With it, you can:\n\n* Generate multiple screen wireframes at a time based on text description.\n* Refine the generated designs with text feedback.\n* Co-create effective copy and UI. Think of Chordio not only as a design assistant but also as a UX writer assistant.\n\n**Backstory**\n\nOur previous startup, [Brand.ai](http://Brand.ai), which helped designers and developers work better together, was acquired by InVision. We’ve been building software to support product teams since.\n\nThese days, AI is reshaping how products get built. GitHub Copilot and similar assistants speed up the development phase. Yet, the design phase is largely left unassisted, creating a new bottleneck in the product development lifecycle.\n\nWe’re building Chordio to remove this bottleneck and help teams build the right products faster.\n\nGet started for free at [chordio.com](https://chordio.com)\n\n---\n\n---\n\n**Contact us to customize Chordio for your team’s existing product and design system.**\n\n\\- Ehud & Amit",
+      "url": "https://www.ycombinator.com/launches/KqB-chordio-your-generative-ux-assistant",
+      "votes": 13,
+      "created_at": "2024-04-11T19:21:38.063Z"
+    },
+    {
+      "id": 65037,
+      "title": "Chordio - Lightweight sprint planner for remote development teams",
+      "tagline": "Planning made easy. Accurately reflect workload and give everyone a voice to quickly align on a plan forward.",
+      "body": "👋 Hi everyone! Ehud and Amit, co-founders of [Chordio](https://chordio.com) here. We previously co-founded [Brand.ai](https://Brand.ai) to help designers and developers work better together. We sold the company to InVision in 2017 and worked on improving product team collaboration since. With Chordio, we’re looking to help teams at any size plan their work better.\n\n### **Why we’re building Chordio**\n\nExisting tools focus on issue tracking, and underserve the upfront project planning needs. Prioritization, estimation, and capacity planning are commonly problems teams are left to struggle with. The transition to remote work made planning harder still, as planning had often started with a whiteboard huddle. The average project management tool doesn’t speak casual. It’s built for an official plan, due dates, and commitments.\n\nThat’s why over 80% of the teams we’ve talked with reach for a general-purpose solution like a spreadsheet for their planning activities. They then face a different set of problems: sweating over manual work, getting formulas wrong, dealing with random editors breaking fragile automations, accumulating massive backlogs, and losing sight of the source of truth among a sea of documents.\n\nSo, we’re building Chordio as the best of both worlds. A lightweight, collaborative tool with key planning features built-in.\n\n![uploaded image](/media/?type=post&id=65037&key=user_uploads/1010497/73819665-290c-41d1-9d44-5cfe67e9ba8b)\n\n\n### **How it works**\n\nChordio lets you work at the right planning fidelity. Go from a casual brainstorm to evaluating rough plan outlines, to an official release plan. When you’re done, export the work to Jira or your issue tracking tool of choice. - Integrations are coming soon.\n\nYou can create any number of planning boards where you can specify a focus for the sprint, list features, provide estimates, and assign to people. As you assign tasks you’ll see the capacity graph of individuals getting updated so you can protect people’s time and ensure an optimal sprint scope.\n\n![uploaded image](/media/?type=post&id=65037&key=user_uploads/1010497/68d67d7e-1ce9-4713-a9c9-9e4eaf8d69ed)\n\n\n### **Partner with us?**\n\nWe’re looking for design partners. That is, companies that will pilot Chordio’s next major release and provide early feedback to guide our roadmap. **If you’re running multiple projects and interested in improving upfront planning, and ongoing visibility into teams’ work at any level, let’s talk.** Here’s a [Calendly link](https://calendly.com/ehud-chordio/design-partnership) to book some time.",
+      "url": "https://www.ycombinator.com/launches/Guz-chordio-lightweight-sprint-planner-for-remote-development-teams",
+      "votes": 22,
+      "created_at": "2022-08-01T07:05:06.639Z"
+    }
+  ]
+}

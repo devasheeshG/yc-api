@@ -1,0 +1,101 @@
+{
+  "id": 26872,
+  "name": "Neosync",
+  "slug": "neosync",
+  "former_names": [
+    "Nucleus"
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/0f9b88ea0ac50da754bbb784bc3e860890a742e2.png",
+  "website": "https://neosync.dev",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "Neosync is an open-source platform that allows you to create anonymized or synthetic data and sync it across all environments for testing and machine learning. Companies in highly regulated industries such as FinTech, HealthTech, InsureTech and those with sensitive data can use Neosync to create production-like data to use for debugging and building features in lower-level environments without the security and privacy risk of using production data. ",
+  "one_liner": "Neosync is an open-source anonymization and synthetic data platform.",
+  "team_size": 3,
+  "industry": "B2B",
+  "subindustry": "B2B -> Infrastructure",
+  "launched_at": 1656362334,
+  "tags": [
+    "Developer Tools",
+    "SaaS",
+    "B2B"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Summer 2022",
+  "status": "Acquired",
+  "industries": [
+    "B2B",
+    "Infrastructure"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada",
+    "Remote",
+    "Partly Remote"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/neosync",
+  "api": "https://devasheeshg.github.io/yc-api/batches/summer-2022/neosync.json",
+  "year_founded": 2023,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/neosync",
+  "x_url": "https://twitter.com/neosynccloud",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": "github.com/nucleuscloud/neosync",
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/0f9b88ea0ac50da754bbb784bc3e860890a742e2.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Jared Friedman",
+    "url": "https://www.ycombinator.com/people/jared-friedman"
+  },
+  "founders": [
+    {
+      "user_id": 2062726,
+      "full_name": "Evis Drenova",
+      "title": "Founder",
+      "founder_bio": "Evis is the CEO/Co-founder of Nucleus. Before Nucleus, he was one of the first Product hires at Skyflow, a data privacy and security company, and led Product and GTM for the Fintech market from Seed -> Series B. Prior to Skyflow, he was Head of Product at Truedata, a Managing Consultant at IBM and started his career in Enterprise Sales at Experian and Oracle. He was born in Albania, grew up in Boston and currently resides in San Francisco.",
+      "is_active": true,
+      "linkedin_url": "https://linkedin.com/in/evisdrenova",
+      "x_url": "https://twitter.com/evisdrenova",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/a9794d66ff66b64605d665552bec291fda9e4897.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [
+    {
+      "title": "Nucleus aims to simplify the process of managing microservices • TechCrunch",
+      "url": "https://techcrunch.com/2023/01/16/nucleus-aims-to-simplify-the-process-of-managing-microservices/",
+      "date": "Jan 16, 2023"
+    }
+  ],
+  "launches": [
+    {
+      "id": 85312,
+      "title": "Neosync - PII Detection and Anonymization in Free-form Text",
+      "tagline": "Real time PII detection and redaction in structured and unstructured data.",
+      "body": "We’re an open source data anonymization and synthetic data platform that companies like Intel, Siemens, C2FO, Alasco and others use to anonymize their sensitive production data and sync it to lower-level environments.\n\nToday, we’re launching a new product designed to detect and anonymize PII data in free-form text.\n\nThese are two main use cases:\n\n1. **Detecting and redacting PII data before sending it to an LLM for inference**. If you’re building agentic systems or working with LLMs and sensitive data, you shouldn’t be sending your sensitive data to those LLMs. You can now use our API to first detect and anonymize that data and then send it to your LLM provider.\n2. **Detecting and redacting PII data before training.** You generally want to avoid training a model on PII (especially if others will be using it). You can use our API to detect and redact free-form text in training data so that you’re not training it on PII.\n\nFor example:\n\nThe text:\n\n```\n{ text: \"Dear Mr. John Chang, your physical therapy for your rotator cuff injury is approved for 12 sessions. Your first appointment with therapist Jake is on 8/1/2024 at 11 AM. Please bring a photo ID. We have your SSN on file as 246-80-1357. Is this correct?\"}\n```\n\nWould be transformed to:\n\n```\nAnonymization result: '{\"text\":\"Dear Mr. \\u003cREDACTED\\u003e, your physical therapy for your rotator cuff injury is approved for 12 sessions. Your first appointment with therapist \\u003cREDACTED\\u003e is on \\u003cREDACTED\\u003e at \\u003cREDACTED\\u003e. Please bring a photo ID. We have your SSN on file as \\u003cREDACTED\\u003e. Is this correct?\"}' \n```\n\nYou can also customize this with custom allow/deny lists and even custom recognizers.\n\nWe’re already working with companies in Healthtech and Fintech on this and would love to open it up to more companies. If you’re interested in trying it out, shoot me a note at [**evis@neosync.dev**](mailto:evis@neosync.dev), and I can get you a sandbox and free credits to trial it.\n\n![uploaded image](/media/?type=post&id=85312&key=user_uploads/89898/ea3d02aa-68e7-4a21-8bd0-c35f9786490e)\n\n",
+      "url": "https://www.ycombinator.com/launches/MC0-neosync-pii-detection-and-anonymization-in-free-form-text",
+      "votes": 10,
+      "created_at": "2024-11-06T01:45:44.699Z"
+    },
+    {
+      "id": 64124,
+      "title": "Nucleus - The Modern Backend Platform for Microservices",
+      "tagline": "Nucleus automates security, observability, secrets management and more for microservices in a single platform.",
+      "body": "**Nucleus is a platform that helps developers build, deploy and manage a production-grade microservices architecture in minutes.**\n\n### **Problem**\n\nBuilding a microservices architecture is complex and can easily take 6+ months. From our experience at our own companies and from talking with many engineering teams, we see that most engineering teams try to build this platform from scratch by piecing together AWS or GCP building blocks. The problem is that this is difficult, incredibly time consuming and if not done right, can be a massive security risk. You shouldn’t have to be an infrastructure and security expert to have a secure, scalable architecture. That’s where Nucleus comes in. \n\n**Who uses Nucleus?**\n\nCompanies that want to use microservices but don’t want to spend months building out their infrastructure. These can be early stage companies that are just starting out, to mid-market companies that are architecting for growth.\n\n**How it works**\n\nNucleus is delivered through an interactive CLI that helps you declaratively define your service. Here is an example of the declarative file:\n\n![uploaded image](/media/?type=post&id=64124&key=user_uploads/980900/fb0612aa-3ab3-4e0f-8a48-aa76dd40fb8b)\n\nHere is how to deploy a microservice:\n\n1. Install the CLI through homebrew and sign up for an account.\n2. Write your service’s code or use one of our example repos to quickly get started.\n3. Declaratively define your service using the interactive Nucleus CLI. All services are automatically authenticated and secured. Manage things like environment variables, secrets, and logging, all from the CLI.\n4. Deploy your service, and it will be available in less than 2 minutes.\n\n**Can I try it?**\n\nYes! We just kicked off our private beta and would love to have you test the system to the limits. To get started, just shoot us your email so we can add you to the allowlist. Easy as that!\n\n**The Ask**\n\n1. Try us out and give us feedback. We obsess over with the developer experience, and want to make it as intuitive and magical as possible.\n2. Talk to us about your backend :) We’re focused on microservices and want to learn more about what you like, don’t like or don’t know about them. Collectively, we have 25 years of experience in engineering & product. We can be a sounding board or help you design your architecture.\n\nHave questions? Shoot me an email at [evis@usenucleus.cloud](mailto:evis@usenucleus.cloud) or feel free to book some time directly here: <https://calendly.com/evis1/30min>",
+      "url": "https://www.ycombinator.com/launches/GgG-nucleus-the-modern-backend-platform-for-microservices",
+      "votes": 39,
+      "created_at": "2022-06-28T01:18:30.749Z"
+    }
+  ]
+}

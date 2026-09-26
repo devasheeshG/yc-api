@@ -1,0 +1,105 @@
+{
+  "id": 12073,
+  "name": "Fuse",
+  "slug": "fuse",
+  "former_names": [
+    "Cluttr",
+    "YSplit",
+    "YSplit (was Cluttr)",
+    "YSplit"
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/c50b6b3d32852a4b7f08b0e113b65fd5a0c29dcf.png",
+  "website": "https://www.letsfuse.com/",
+  "all_locations": "New York City, NY, USA; New York, NY, USA",
+  "long_description": "Fuse provides single API that integrates with multiple bank connection vendors, such as Plaid, MX, Teller, Finicity and Yodlee. Users can easily search for and select their bank via a drop-in component in your app, and then the most reliable bank connection vendor for that bank will be displayed. Fuse also provides a consistent data model for all bank integrations and handles the necessary data transformations and API quirks for you.\r\n\r\nBy using Fuse, companies can improve the reliability of bank connections, reduce disconnections, and support more banks. ",
+  "one_liner": "Unified API for financial data aggregators.",
+  "team_size": 7,
+  "industry": "Fintech",
+  "subindustry": "Fintech",
+  "launched_at": 1541646249,
+  "tags": [
+    "Fintech",
+    "SaaS",
+    "B2B"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Winter 2019",
+  "status": "Inactive",
+  "industries": [
+    "Fintech"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada",
+    "Remote",
+    "Partly Remote"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/fuse",
+  "api": "https://devasheeshg.github.io/yc-api/batches/winter-2019/fuse.json",
+  "year_founded": null,
+  "city": "New York City",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/ysplit",
+  "x_url": "",
+  "fb_url": null,
+  "cb_url": "https://www.crunchbase.com/organization/ysplit",
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/c50b6b3d32852a4b7f08b0e113b65fd5a0c29dcf.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": null,
+  "founders": [
+    {
+      "user_id": 282826,
+      "full_name": "Boateng Opoku-Yeboah",
+      "title": "Founder",
+      "founder_bio": "Aerospace engineer building control and verification systems for AI agents.",
+      "is_active": false,
+      "linkedin_url": "https://www.linkedin.com/in/byeboah/",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/03c1d90878366c571d632cd141453498d89c9c62.jpg"
+    },
+    {
+      "user_id": 282515,
+      "full_name": "Landon Vago-Hughes",
+      "title": "Founder",
+      "founder_bio": "fintech builder.",
+      "is_active": false,
+      "linkedin_url": "https://www.linkedin.com/in/landon-vago-hughes/",
+      "x_url": "https://twitter.com/landon_vh",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/561713baedac833b069f3fce38a35deab6cf2404.jpg"
+    },
+    {
+      "user_id": 282513,
+      "full_name": "Tunde Alao",
+      "title": "Founder",
+      "founder_bio": "",
+      "is_active": false,
+      "linkedin_url": "https://www.linkedin.com/in/tundealao/",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/4f51b3f06bda819618b818f5a2ac7b97343f61e8.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 71221,
+      "title": "Fuse: Maximize coverage & conversions for financial account connections",
+      "tagline": "Combine the best financial aggregators, increase coverage and reduce disconnections - with one unified API.",
+      "body": "We are Tunde, Landon, and Boateng, and we're excited to introduce [Fuse](https://www.letsfuse.com/)!\n\n**TL;DR - If you're searching for better bank connection coverage, improved connection reliability, and higher bank link conversion rates for your business, Fuse makes it easy to integrate multiple financial data aggregators and choose the best one for each institution. **[**Schedule a 30-minute demo**](https://calendly.com/letsfuse/fuse-demo)** to see how we can help you.**\n\n![uploaded image](/media/?type=post&id=71221&key=user_uploads/282513/e3a48d75-09ab-4061-9ad1-3f98bd3e1ae2)\n\n### ❌ The Problem\n\nIf you're building a product that requires customers to link their financial accounts, you might have integrated one financial data aggregator, only to experience the following issues:\n\n1. Customers unable to link unsupported institutions (e.g. credit unions, local or community banks)\n2. Frequent disconnections & API errors\n3. Low conversion rates to customers linking their financial accounts\n\nWe are familiar with this pain as we spent 3 years working on a consumer fintech app that required every customer to link their bank account.\n\n### ✨ The Solution\n\nFuse provides companies access to multiple financial data aggregators through a single integration and automatically selects the most reliable and optimally converting one for each connection. With Fuse, you can:\n\n* Support 10,000 more institutions\n* Reduce disconnections by 15%\n* Increase API success rates by 28%\n\nFuse provides a consistent data model for all bank integrations and handles the necessary data transformations and API quirks for you.\n\n![uploaded image](/media/?type=post&id=71221&key=user_uploads/282513/671c4290-e853-4b74-ab1a-851bc735437c)\n\n### ❤️ Favorite features of our customers\n\n* Fast integration: It takes one engineer just an afternoon to have a fully working integration, compared to months when combining aggregators in-house.\n* We partner with aggregators to help you get no-minimum, affordable contracts, and production API keys quickly.\n* Receive instant integration help and tech support via Slack from Fuse engineers.\n* Vast SDK availability: e.g., React, React Native, Flutter, iOS, Android, Node.js, Ruby, Python, and more.\n\n### ⚡How easy is it to migrate to Fuse?\n\nMigration is seamless due to our consistent data model resembling top aggregators, and our backward compatible endpoints that accept Fuse or aggregator access tokens, simplifying server updates.\n\n![uploaded image](/media/?type=post&id=71221&key=user_uploads/282513/93fa3bc8-8b6c-48e8-8e59-ef703d4c58bd)\n\n### **🫶** Ask\n\n1. [Schedule a 30 minute demo](https://calendly.com/letsfuse/fuse-demo) to see Fuse in action and learn more about how Fuse can improve your financial connections.",
+      "url": "https://www.ycombinator.com/launches/IWj-fuse-maximize-coverage-conversions-for-financial-account-connections",
+      "votes": 13,
+      "created_at": "2023-04-26T20:22:01.911Z"
+    }
+  ]
+}

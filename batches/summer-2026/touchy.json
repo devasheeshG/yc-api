@@ -1,0 +1,106 @@
+{
+  "id": 33051,
+  "name": "Touchy",
+  "slug": "touchy",
+  "former_names": [
+    "Tokenless"
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/e78313a9189e19195e360aee1598ec70854ce59b.png",
+  "website": "https://touchyapp.com",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "Touchy is your personal AI assistant that lives on your iPhone. One button press and you're talking to an assistant that sees what you see, remembers what you tell it, and takes action across 1,000+ apps--so you can get back to living in the moment.",
+  "one_liner": "AI iOS assistant that instantly uses voice and video to take action",
+  "team_size": 3,
+  "industry": "Consumer",
+  "subindustry": "Consumer",
+  "launched_at": 1786732497,
+  "tags": [
+    "Consumer",
+    "Productivity",
+    "AI",
+    "AI Assistant"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Summer 2026",
+  "status": "Active",
+  "industries": [
+    "Consumer"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/touchy",
+  "api": "https://devasheeshg.github.io/yc-api/batches/summer-2026/touchy.json",
+  "year_founded": 2026,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/touchyapp/",
+  "x_url": "https://x.com/touchyapp",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/e78313a9189e19195e360aee1598ec70854ce59b.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [
+    "https://bookface-images.s3.us-west-2.amazonaws.com/attachments/579511aa3dc1cfb92c5f713907f31dd6fe36c640.png"
+  ],
+  "primary_partner": {
+    "name": "Vivian Midha Shen",
+    "url": null
+  },
+  "founders": [
+    {
+      "user_id": 3697324,
+      "full_name": "Rohit Agarwal",
+      "title": "Founder",
+      "founder_bio": "Founder at Touchy (YC S26). CS PhD student at Princeton PLI, Hazan Lab, Google Deepmind. Previously at Duolingo and theory research at Berkeley, was EECS #1 BS grad in 2024.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/rohit-agarwal-b647951ba/",
+      "x_url": "https://x.com/Rohit_Writes",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/86b74b1209c81d1d158af5587de149a3e8c2292c.jpg"
+    },
+    {
+      "user_id": 3706728,
+      "full_name": "Andrew Liu",
+      "title": "Founder",
+      "founder_bio": "Founder at Touchy (YC S26). Formerly a researcher at UC Berkeley working on language documentation tools. BA in Computer Science, Mathematics, and Linguistics from UC Berkeley. Previously TA'd CS61C.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/andrew-liu-b50873261/",
+      "x_url": "https://x.com/landrew7363",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/04017660afe1efc138b242cbcc7c4efffc5f5bc4.jpg"
+    },
+    {
+      "user_id": 3732665,
+      "full_name": "Kevin Wang",
+      "title": "Founder",
+      "founder_bio": "Founder at Touchy. Previously Founding Engineer at Eventual (raised $30M Series A), building Daft, the data engine for AI. Led LLM batch inference infra, distributed joins, and query optimization powering petabytes of daily AI data processing. Software Engineer at SkyPilot optimizing 4k+ GPU training jobs. BS EECS from UC Berkeley.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/kevinzhiwang/",
+      "x_url": "https://x.com/kevzwang",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/1a21a2cf6802cfdcf6769408ee9d25a254858622.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 111407,
+      "title": "Touchy 🙌: Voice-first AI Assistant for iPhone that understands the world around you",
+      "tagline": "Your personal AI assistant that sees what you see, remembers what matters to you, and gets things done across all your tools. Just ask out loud.",
+      "body": "**TL;DR:** We’re building Touchy 🙌, a voice and image-first AI assistant for the iPhone that personalizes itself to you. You can activate Touchy from your lock screen to instantly get things done across your apps or get answers about the world around you. Touchy is free to try, get it here: <https://apps.apple.com/us/app/touchy-ai-at-your-fingertips/id6798889392>\n\n<https://youtube.com/shorts/IJNucvAZ_-k>\n\n## **The Problem**\n\nYou probably know the feeling:\n\nYou ask the assistant on your phone, across the room, to send a colleague a message.\n\nIt cheerfully replies that it found 10 search results for “text Bob on Slack”.\n\nSo you trudge to your phone, find the app, open the DM, and begrudgingly type out your message instead.\n\nWe wanted a better personal assistant, one that had the intelligence and integrations we’ve come to expect from our AI agents, with the convenience of one that was native to your devices. We also believe that for AI to truly be personal, it needs to be deeply integrated into your life and the world around you. Right now, AI systems are constrained largely to using digital tools, yet the physical world is rich with audio and visual information that your phone is capable of receiving.\n\n## What We Built\n\nSo we built Touchy. One button press and you're instantly talking to an assistant that can see what you see, remember what you've said, and take action across all the tools you use. \n\nWhat sets Touchy apart:\n\n* **Reimagined UX.** Touchy is a fast, fully iOS-native app with a unique interface that is delightful to use and brings it closer to the world around you.\n* **Sees and hears the world around you**. Speak to Touchy and it can speak back. Easily snap a photo with the app’s camera to give Touchy access to what you’re seeing.\n* **Gets things done across your apps**. Touchy comes with built-in integrations with 1,000+ popular apps, as well as iOS-native capabilities such as you contacts and location.\n* **Make it yours over time**. You chat with Touchy in a single, continuous conversation. It automatically collects memories and preferences, and tailors itself to be more useful to you as you use it.\n\nIt's built to give you your attention back. Ask it something, let it act, and get back to your day — no app fighting for your attention.\n\n![uploaded image](/media/?type=post&id=111407&key=user_uploads/3697324/23ce7916-fce5-44c4-9ebf-f04049fee639)\n\n## The team\n\nWe’re Rohit, Andrew, and Kev. Before this, Rohit was doing a PhD on AI alignment at Google DeepMind Princeton and graduated #1 in Berkeley EECS. Andrew built educational software that scaled to half a million students worldwide. Kev was a startup founding engineer, developing data and GPU infrastructure that power many of the leading AI neolabs today. \n\nWe met during undergrad at UC Berkeley, and we’re coming back together to research, productionize, and scale the future of personal technology.\n\n## Our ask\n\nIf you have an iPhone, download Touchy and try it out: <https://apps.apple.com/us/app/touchy-ai-at-your-fingertips/id6798889392>\n\nWe would love to learn what people find themselves using Touchy for, and what they wish they could use it for. You can also report bugs by shaking your phone or just telling Touchy. You can also reach us at [founders@touchyapp.com](mailto:founders@touchyapp.com)",
+      "url": "https://www.ycombinator.com/launches/Syt-touchy-voice-first-ai-assistant-for-iphone-that-understands-the-world-around-you",
+      "votes": 24,
+      "created_at": "2026-08-20T21:00:00.530Z"
+    }
+  ]
+}

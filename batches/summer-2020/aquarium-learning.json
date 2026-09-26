@@ -1,0 +1,98 @@
+{
+  "id": 22008,
+  "name": "Aquarium Learning",
+  "slug": "aquarium-learning",
+  "former_names": [
+    "Aquarium"
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/a1aee7c2b8c6ada91b60405fb42ae026b6093676.png",
+  "website": "https://www.aquariumlearning.com/",
+  "all_locations": "San Francisco, CA, USA; Remote",
+  "long_description": "ML models are only as good as the datasets they're trained on, and that means that most improvement to model performance comes from improvement to the quality and diversity of their datasets.\r\n\r\nOur tooling makes it easy for ML teams to find anomalies + failure patterns in their datasets and fix these problems by editing / adding the right data. So the next time you retrain your model, it just gets better.",
+  "one_liner": "We help ML teams improve their models by improving their datasets",
+  "team_size": 12,
+  "industry": "B2B",
+  "subindustry": "B2B -> Infrastructure",
+  "launched_at": 1597122957,
+  "tags": [
+    "Deep Learning",
+    "Developer Tools",
+    "Generative AI",
+    "Machine Learning",
+    "AI"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Summer 2020",
+  "status": "Acquired",
+  "industries": [
+    "B2B",
+    "Infrastructure"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada",
+    "Remote",
+    "Fully Remote"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/aquarium-learning",
+  "api": "https://devasheeshg.github.io/yc-api/batches/summer-2020/aquarium-learning.json",
+  "year_founded": 2020,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/aquarium-learn",
+  "x_url": "https://twitter.com/aquariumlearn",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/a1aee7c2b8c6ada91b60405fb42ae026b6093676.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Nicolas Dessaigne",
+    "url": "https://www.ycombinator.com/people/nicolas-dessaigne"
+  },
+  "founders": [
+    {
+      "user_id": 486120,
+      "full_name": "Peter Gao",
+      "title": "Founder",
+      "founder_bio": "Peter was an early employee (#18) at Cruise, where he built a large part of a self driving car from scratch. Before that, Peter did research on deep learning at UC Berkeley. Before that, he interned at Pinterest and Khan Academy, doing a mix of ML and web work. Now cofounder at Aquarium!",
+      "is_active": false,
+      "linkedin_url": "https://www.linkedin.com/in/pgaooo/",
+      "x_url": "https://twitter.com/pgaooo",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/996b38ac636675a799bfffbc4ea5d5cd710ec386.jpg"
+    },
+    {
+      "user_id": 488267,
+      "full_name": "Quinn Johnson",
+      "title": "Founder",
+      "founder_bio": "Quinn is an engineer/manager who picked a *fantastic* time to co-found a company making deep learning pipelines that improve themselves. Before that he was at Ouster (leading data engineering / data viz), Cruise Automation (leading ML data engineering + labeling), and Graphistry (1st engineering hire, so a bit of everything). Working on self-driving cars has given him an irrational hatred for trees and shrubbery.",
+      "is_active": false,
+      "linkedin_url": "https://www.linkedin.com/in/quinnhj/",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/3438a29727c01d97ddf4f41e982a194c18d078b1.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 73360,
+      "title": "Tidepool 🌊 - Product analytics for AI apps",
+      "tagline": "With Tidepool, product teams can find patterns in their user text interactions to help make better product decisions.",
+      "body": "![uploaded image](https://bookface.ycombinator.com/media/?type=post&id=73360&key=user_uploads/486120/59d0da6d-3ebf-4b0c-a977-52e9dcd90847)\n\n**TLDR: Excited to announce our new product,** [**Tidepool**](https://www.tidepool.so/)! Tidepool does product analytics for AI text interfaces. With Tidepool, product teams can find patterns in their user text interactions to help make better product decisions.\n\n[**Check our our demo video here!**](https://youtu.be/Ss-zLj53OlM)\n\n### **The Problem:**\n\nLLM apps have introduced [**a new paradigm**](https://www.nngroup.com/articles/ai-paradigm/) for interacting with software, where users can work iteratively with the software via a natural language interface, generating user inputs and model responses consisting of unstructured text.\n\nTraditional product analytics techniques don't deal well with large amounts of unstructured text - it's hard to summarize, it's hard to aggregate, and it's hard to effectively sample. AI developers resort to digging through a pile of hundreds to hundreds of millions of datapoints of unstructured text to understand how users interact with their product.\n\n### **The Solution:**\n\n[**Tidepool**](https://www.tidepool.so/) is a product analytics platform that solves these problems using **neural network embeddings**. After you upload user text interaction events, Tidepool will:\n\n1. **Automatically group your data by similarity.** Tidepool runs embedding clustering on your users’ text interactions to surface interesting attributes: things like prompt topics, prompt languages, and common usage patterns that can be turned into shortcuts.\n2. **Summarize common attributes in your data**, using LLMs to determine what each cluster “contains.” For example, understanding that the most common topics that users discuss are business, education, and art.\n3. **Track attributes in production traffic**, allowing you to uncover how a specific attribute might be correlated to good / bad product outcomes. We utilize lightweight models running on foundation model embeddings to scalably extract these attributes from hundreds of millions of production interaction events.\n\n### **About Us:**\n\nOver the last few years, Aquarium has worked a lot with computer vision companies to help them curate labeled datasets and improve their fine-tuned models using our core embedding technology.\n\nOur mission has always been to make it easier for people to build and improve production ML systems that solve real-world problems. When we saw the Cambrian explosion of LLM apps earlier this year, we realized that our core embedding technology and expertise was very useful for getting these new apps to product-market fit even faster!\n\n### **Our Ask:**\n\n* **Try it out!** [Sign up here to get started.](https://www.tidepool.so/)\n* **Share this post with your friends!** We’d love to get exposure to as many different AI applications as possible.\n* **Give us feedback!** [Join our Slack community](https://join.slack.com/t/tidepoolcommunity/shared_invite/zt-1zp4f82tc-78rxSFZ6E3eXguvH3pzdwQ) and leave your thoughts, or [schedule some time with us to talk](https://calendly.com/pgao/tidepool-demo).",
+      "url": "https://www.ycombinator.com/launches/J5E-tidepool-product-analytics-for-ai-apps",
+      "votes": 25,
+      "created_at": "2023-07-24T18:15:32.331Z"
+    }
+  ]
+}

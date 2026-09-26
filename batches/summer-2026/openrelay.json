@@ -1,0 +1,94 @@
+{
+  "id": 33249,
+  "name": "OpenRelay",
+  "slug": "openrelay",
+  "former_names": [
+    "VectorLay"
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/9c5dcebff59e38045b8e976d964cbe43ec732a9e.png",
+  "website": "https://www.openrelay.inc",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "",
+  "one_liner": "Distributed, hardware-agnostic AI inference",
+  "team_size": 2,
+  "industry": "B2B",
+  "subindustry": "B2B -> Engineering, Product and Design",
+  "launched_at": 1783565051,
+  "tags": [
+    "Artificial Intelligence"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Summer 2026",
+  "status": "Active",
+  "industries": [
+    "B2B",
+    "Engineering, Product and Design"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada",
+    "Remote",
+    "Partly Remote"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/openrelay",
+  "api": "https://devasheeshg.github.io/yc-api/batches/summer-2026/openrelay.json",
+  "year_founded": 2026,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/openrelayinc/posts/",
+  "x_url": "https://x.com/openrelayinc",
+  "fb_url": null,
+  "cb_url": "https://www.crunchbase.com/organization/openrelay-inc",
+  "github_url": "https://github.com/OpenRelayInc/OpenRelay",
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/9c5dcebff59e38045b8e976d964cbe43ec732a9e.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Brad Flora",
+    "url": "https://www.ycombinator.com/people/brad-flora"
+  },
+  "founders": [
+    {
+      "user_id": 1876109,
+      "full_name": "Jaden Wang",
+      "title": "Founder/CEO",
+      "founder_bio": "ex Voltage Park Engineering HPC, ex TensorDock, Founder@Heaviside Compute, UW Dropout",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/jaden-wang-b99327177/",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/82ebee97bf559c8af23a9617985f3b19baa98db7.jpg"
+    },
+    {
+      "user_id": 3742866,
+      "full_name": "Prashant Patel",
+      "title": "Founder/CTO",
+      "founder_bio": "Founder at OpenRelay (YC S26). Previously Staff Engineer at Voltagepark building managed Inference and Orchestration software for 10,000+ GPU clusters and serverless compute that scaled to 10M+ executions/month. Founding member of Amazon Bedrock at AWS, led Custom Model Import from 0 to multi-million ARR and scaled inference infrastructure for models up to trillions of parameters. MS CS from NYU.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/prashant182/",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/0a8e85496afb951cba03393a0de6f6a76b102057.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 109526,
+      "title": "OpenRelay: The Inference Delivery Network",
+      "tagline": "One API for inference across every chip.",
+      "body": "**TL;DR:** OpenRelay is building an Inference Delivery Network (IDN) on top of its CDN for GPUs. We provide one entrypoint for inference across every chip. \n\nSend us a workload and we’ll cut your costs up to 20% by running it through our network, balancing the best available accelerator (NVIDIA, TPU, Trainium, AMD) across clouds and handing back a single endpoint. You never pick the hardware, chase quotas, or rebuild your stack per provider. And if you run GPUs or other AI accelerators (an NVIDIA cluster, TPUs, a reserved fleet), you can plug your capacity into our rails and we'll bring the inference demand. Get started [here](https://openrelay.inc/).\n\nP.S. sign up for our Luma page to be notified of our Launch Party!\n\n<https://luma.com/s6x8cx5x>\n\n\\\n<https://youtu.be/7uNhqcjBXJg>\n\n## The Team\n\nHey guys! We're **Jaden and Prashant**, the founders of OpenRelay. We came at the same problem from opposite sides.\n\n* Jaden built a half-megawatt data center at 20 from a warehouse shell, then joined Voltage Park early, where he ran virtualization and helped stand up HPC.\n* Prashant built accelerator infra at AWS, where he ran custom model deployments and wrote custom kernels to squeeze out Trainium performance.\n\n \n\nWe kept seeing the same thing: there's more AI compute than ever, and you still can't reach it. We left our jobs to fix that.\n\n## The Problem\n\nCompute is everywhere; liquidity is nowhere. Accelerators are scattered across dozens of clouds, chip vendors, and operators, each behind its own quotas, drivers, contracts, and console. Teams that want to run inference can't reach the capacity, and the capacity can't reach them.\n\nRunning inference naively is easy; running it at scale is hard. Any operator can spin up a model on a box. Turning idle GPUs into a production endpoint (load balancing, isolation, autoscaling, failover, metering, billing) is a software platform most individual operators won't build. So capacity sits stranded behind their own front door, and developers either overpay for scarce reserved GPUs or hand-stitch a fragile multi-provider stack.\n\n## Solution\n\nWe built one set of rails across all of it.\n\nSend a workload (any container or model) and we schedule it onto the best-fit accelerator, attach a production endpoint, and scale it. We route to the cheapest accelerator that meets your latency and throughput targets, and we benchmark continuously. If the market can't beat renting yourself, we backstop with our own inference demand, so you’re never on the hook. \n\nYou never pick the chip, cloud, or region; we handle routing, isolation, failover, metering, and billing across 4+ clouds and every major chip family. We're language- and framework-agnostic (no SDK lock-in), and you can drive everything from our CLI and REST API.\n\nIt's two-sided: if you run GPUs or other accelerators (a neocloud, a data center, a pay for an underutilized reserved fleet), you can connect that capacity to our rails and we'll bring the inference demand, turning hardware into a revenue-generating endpoint without building a platform yourself.\n\n## Traction\n\nWe're **live in production**, generating 100 billion tokens a week across 22 physical locations across Europe, APAC, North America, and the Middle East running on 8 different accelerator SKUs.  \n\n## Asks\n\nWe'd love to hear from you!\n\n* **Run GPUs, or know someone who does?** This is who we most want to talk to: companies running their own nodes for inference, data centers, reserved fleets, even a crypto or mining cluster looking to move into AI. Plug your capacity into our rails and we'll bring the demand. Reach us at [founders@openrelay.inc](https://mailto:founders@openrelay.inc).\n* **Shipping inference and tired of picking chips?** Bring a workload and we'll get you on the best available hardware today.\n* **Feedback, intros, or just want to chat?** Book a call with us, or email [founders@openrelay.inc](mailto:founders@openrelay.inc) for anything else.",
+      "url": "https://www.ycombinator.com/launches/SUY-openrelay-the-inference-delivery-network",
+      "votes": 11,
+      "created_at": "2026-08-07T17:00:00.601Z"
+    }
+  ]
+}

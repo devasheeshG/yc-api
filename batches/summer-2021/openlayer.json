@@ -1,0 +1,115 @@
+{
+  "id": 23781,
+  "name": "Openlayer",
+  "slug": "openlayer",
+  "former_names": [
+    "Unbox",
+    "OpenLayer"
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/35b3b987d05aeeeea2e5ed41eb9bc474ea3d6529.png",
+  "website": "https://openlayer.com",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "Openlayer is the governance platform for AI applications.",
+  "one_liner": "The fastest way to ship airtight AI",
+  "team_size": 24,
+  "industry": "B2B",
+  "subindustry": "B2B -> Engineering, Product and Design",
+  "launched_at": 1625008531,
+  "tags": [
+    "AIOps",
+    "Artificial Intelligence",
+    "Developer Tools",
+    "Generative AI",
+    "Machine Learning"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Summer 2021",
+  "status": "Active",
+  "industries": [
+    "B2B",
+    "Engineering, Product and Design"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada",
+    "Remote",
+    "Partly Remote"
+  ],
+  "stage": "Growth",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/openlayer",
+  "api": "https://devasheeshg.github.io/yc-api/batches/summer-2021/openlayer.json",
+  "year_founded": 2021,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/74372366/",
+  "x_url": "https://twitter.com/openlayerco",
+  "fb_url": null,
+  "cb_url": "https://www.crunchbase.com/organization/unbox-3db0",
+  "github_url": "https://github.com/openlayer-ai",
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/35b3b987d05aeeeea2e5ed41eb9bc474ea3d6529.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Jared Friedman",
+    "url": "https://www.ycombinator.com/people/jared-friedman"
+  },
+  "founders": [
+    {
+      "user_id": 591901,
+      "full_name": "Gabriel Bayomi Kalejaiye",
+      "title": "Founder",
+      "founder_bio": "I’m a Brazilian engineer and one of the co-founders of Unbox. Previously, I was a Machine Learning Engineer at Apple where I worked at several different areas in Siri, combining multimodal signals for natural language. Before that, I completed my master's in Computer Science at Carnegie Mellon where I had the opportunity to work at the Amazon’s Alexa Prize project. I love the combination of artificial intelligence applications and computational social science!",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/gbayomi/",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/9c9ddf5cd2e49fc61a0c8d56cef4b92cb60445ef.jpg"
+    },
+    {
+      "user_id": 236551,
+      "full_name": "Vikas Nair",
+      "title": "Founder",
+      "founder_bio": "Co-founder of Openlayer (S21). Previously, built future AI/ML-powered experiences at Apple.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/vikasnair/",
+      "x_url": "https://twitter.com/vikaaaaaaaaas",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/f91b4062369f26070e4442d37b4d9ae3c3aee10f.jpg"
+    },
+    {
+      "user_id": 695361,
+      "full_name": "Rishab Ramanathan",
+      "title": "Founder",
+      "founder_bio": "Co-Founder of Openlayer",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/rishramanathan",
+      "x_url": "https://twitter.com/rishramanathan",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/f74461698a2dbd3656bbc181b2247d678e70c186.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [
+    {
+      "title": "We’ve Raised Our Series A to Build the AI Reliability Platform",
+      "url": "https://www.openlayer.com/blog/post/series-a",
+      "date": "May 14, 2025"
+    }
+  ],
+  "launches": [
+    {
+      "id": 80433,
+      "title": "Openlayer - A Vercel-like workflow for AI evals that actually makes sense",
+      "tagline": "Test, monitor, and optimize your AI with a single setup",
+      "body": "**TL;DR** Openlayer provides a simpler workflow for AI evals and testing – connect your GitHub, define must-pass tests, and every commit triggers these tests automatically. Tests will also run on top of your live data and send alerts if they start failing. For AI developers, this is the ideal way to run continuous evaluations without much effort. Get started [here.](https://docs.openlayer.com/get-started)\n\n—\n\nHey guys! We’re Gabe, Rishab, and Vikas, the founders of Openlayer. We met at Apple, where we noticed that every AI/ML team inevitably ran into the same problem: their models would not perform as accurately as they thought they would in the real world. We left to solve this problem by building a best-in-class process for evaluating and improving models.\n\n![uploaded image](/media/?type=post&id=80433&key=user_uploads/236551/54d20552-4ea4-4ab2-8337-92046d1c89e5)\n\n🤯  **The problem** Most of us get how crucial AI evals are now. The thing is, almost all the eval platforms we’ve seen are clunky – there’s too much manual setup and adaptation needed, which breaks developers’ workflows.\n\n✅  **Solution** We’re releasing a radically simpler workflow.\n\nAll you need to do is connect your GitHub repo to Openlayer and define must-pass tests for your AI system. Once integrated, every commit triggers these tests automatically on Openlayer, ensuring continuous evaluation without extra effort.\n\nWe offer 100+ tests (and are always adding more), including custom tests. We’re language-agnostic, and you can customize the workflow using our CLI and REST API. We also offer template repositories around common use cases to get you started quickly.\n\nYou can leverage the same setup to monitor your live AI systems after you deploy them. It’s just a matter of setting some variables, and your Openlayer tests will run on top of your live data and send alerts if they start failing.\n\n![uploaded image](/media/?type=post&id=80433&key=user_uploads/236551/c4a17145-aa0e-455e-a04d-f0484803de6f)\n\n🙏  **Asks** We love feedback! [**Sign up for free,**](https://app.openlayer.com/) and let us know your thoughts! [Book a call](https://cal.com/vikasnair/30min?date=2024-04-16&month=2024-04&layout=mobile) with us for a demo, personalized onboarding, to give feedback, or just chat. Feel free to reach out to [founders@openlayer.com](mailto:founders@openlayer.com) for anything else.",
+      "url": "https://www.ycombinator.com/launches/KvJ-openlayer-a-vercel-like-workflow-for-ai-evals-that-actually-makes-sense",
+      "votes": 16,
+      "created_at": "2024-04-25T20:13:41.755Z"
+    }
+  ]
+}

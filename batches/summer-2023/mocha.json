@@ -1,0 +1,115 @@
+{
+  "id": 29115,
+  "name": "Mocha",
+  "slug": "mocha",
+  "former_names": [
+    "action AI",
+    "Action AI",
+    "Axilla",
+    "Axflow",
+    "Srcbook"
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/e2e9ab5d9d14600d56cfc241294be2559fffc5f6.png",
+  "website": "https://getmocha.com",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "What if you could build web apps as easily as you make a Figma design or edit a Google Doc?\r\n\r\n\r\nEnter Mocha. We've reimagined app development with a state-of-the-art coding agent that builds for our users.\r\n\r\nWant to launch that app idea? Need to build something for your community? Looking to prototype faster? Start here. We've removed the barriers between idea and execution.\r\n\r\nOur mission is to empower everyone to build for the web, our vision is personal software.\r\n\r\n",
+  "one_liner": "Build and publish web apps in minutes. No coding required.",
+  "team_size": 7,
+  "industry": "B2B",
+  "subindustry": "B2B -> Infrastructure",
+  "launched_at": 1690767970,
+  "tags": [
+    "Artificial Intelligence",
+    "No-code",
+    "Web Development"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Summer 2023",
+  "status": "Acquired",
+  "industries": [
+    "B2B",
+    "Infrastructure"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/mocha",
+  "api": "https://devasheeshg.github.io/yc-api/batches/summer-2023/mocha.json",
+  "year_founded": 2023,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/96310770",
+  "x_url": "https://twitter.com/buildwithmocha",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": "https://github.com/srcbookdev/srcbook",
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/e2e9ab5d9d14600d56cfc241294be2559fffc5f6.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [
+    "https://bookface-images.s3.us-west-2.amazonaws.com/attachments/1f3192a68c42ec6ce46753d2035c2f7677266dec.png"
+  ],
+  "primary_partner": {
+    "name": "Diana Hu",
+    "url": "https://www.ycombinator.com/people/diana-hu"
+  },
+  "founders": [
+    {
+      "user_id": 1399285,
+      "full_name": "Nicholas Charriere",
+      "title": "Founder",
+      "founder_bio": "Currently building Mocha. \n\n\n\nFrench & British, been a developer in the valley for 12 years in smaller & larger startups (Pinterest, Cruise).\nGeneralist but most of my recent experience is in distributed systems, ML platforms and AI systems (agents, harnesses, agent UX).\n\nhttps://nicholascharriere.com",
+      "is_active": true,
+      "linkedin_url": "https://linkedin.com/in/nicholas-charriere",
+      "x_url": "https://twitter.com/nichochar",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/158068b1cc71592e72d530ace07bd358ca420202.jpg"
+    },
+    {
+      "user_id": 1448621,
+      "full_name": "Ben Reinhart",
+      "title": "Founder",
+      "founder_bio": "Software engineer and entrepreneur. Previously ML infra at Cruise, cofounder at Fam (acquihired by Nextdoor), and Groupon.",
+      "is_active": true,
+      "linkedin_url": "https://linkedin.com/in/bereinhart",
+      "x_url": "https://twitter.com/benjreinhart",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/431f4c4da27f11fb396f174e32f93b73d8d572de.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [
+    {
+      "title": "Show HN: Srcbook – A TypeScript notebook for rapid prototyping | Hacker News",
+      "url": "https://news.ycombinator.com/item?id=41291700",
+      "date": "Aug 20, 2024"
+    }
+  ],
+  "launches": [
+    {
+      "id": 83310,
+      "title": "Srcbook: TypeScript notebooks",
+      "tagline": "Meet Srcbook, the best way to prototype in TypeScript!",
+      "body": "**TLDR**: We recently launched a new open-source application for prototyping in TypeScript: [**Srcbook**](https://srcbook.com/) (pronounced “source-book”). Srcbook is a notebook-style programming environment and the best way to prototype code, explore libraries, learn concepts, and rapidly iterate on your ideas with TypeScript. It runs locally, has powerful AI features, and exports to markdown for maximum portability.\n\n[**https://www.loom.com/share/f0ea7257d9c544848f4128cf0ccba8ae?sid=d5a51920-8c37-4b10-90ee-414170dfeb5d**](https://www.loom.com/share/f0ea7257d9c544848f4128cf0ccba8ae?sid=d5a51920-8c37-4b10-90ee-414170dfeb5d)\n\n### Origin story\n\nWe are very bullish on AI moving from being a Python discipline in the ML era to a TypeScript discipline in the Generative AI era. We previously tried building multiple products to serve this new TypeScript-AI wave, but we quickly realized that most teams don’t want low-code GUI tools to do evals or build agents with drag-and-drop. What they actually want is to write code but do so with rapid iterations. In Python, they automatically reach out to Jupyter for such workflows, but in TypeScript? We found that there was a large gap… We realized that a TypeScript notebook would be useful for many use cases, not just applied gen-AI, and so we started building.\n\n### The product\n\nSrcbook is a beautiful, open-source, local-first application to write and iterate on TypeScript code. It’s available today on npm: `npx srcbook start`\n\n![uploaded image](/media/?type=post&id=83310&key=user_uploads/1399285/1af6e324-e52a-4d49-8e35-27af1b5dd4b5)\n\nSome key features:\n\n* Full npm ecosystem access\n* AI-assisted coding (OpenAI, Anthropic, or local models), with notebook-specific advantages and a natural “pair-programmer” UX\n* Exports to valid markdown for easy sharing and version control\n\nWe recently [launched on HN](https://news.ycombinator.com/item?id=41291700) and devs really seem to like it, all our graphs started looking like this!\n\n![uploaded image](/media/?type=post&id=83310&key=user_uploads/1399285/a040cd03-a61f-4767-b524-50b285aa9bd3)\n\n### Demo\n\nIn this video, you can see Nick using the genAI features to bootstrap a CLI-based chess game in a few minutes.\n\n<https://www.loom.com/share/a212e1fd49a04c548c09125a96a1836f>\n\n### Asks\n\nTry Srcbook out! It’s free, just `npm srcbook start` in any terminal.\n\nStarring us on [GitHub](https://github.com/srcbookdev/srcbook/tree/main) also helps, although what we really want is for you to build cool stuff with Srcbook. If you make a good Srcbook, send it our way, and we will showcase it in the [Hub](https://hub.srcbook.com).\n\n![uploaded image](/media/?type=post&id=83310&key=user_uploads/1399285/8bab03fa-f71f-43bb-9639-152a83cfb733)\n\nPS: We’re [Ben](https://linkedin.com/in/bereinhart) and [Nick](https://linkedin.com/in/nicholas-charriere), been building together for 5+ years at Cruise and other startups, and we love TypeScript. If you do too, reach out and let’s chat!",
+      "url": "https://www.ycombinator.com/launches/Lfi-srcbook-typescript-notebooks",
+      "votes": 31,
+      "created_at": "2024-08-22T17:06:51.212Z"
+    },
+    {
+      "id": 73588,
+      "title": "Axilla — an AI framework for TypeScript",
+      "tagline": "Axilla is an end-to-end framework to develop LLM applications for enterprise",
+      "body": "**tl;dr** Axilla is a framework for the AI engineer of the future: a product-focused TypeScript developer. Axilla provides a family of modular libraries, which can be incrementally adopted, and together form an **end-to-end opinionated framework for LLM development**.\n\n### The team\n\nHey there 👋, we’re [**@Ben Reinhart**](https://linkedin.com/in/bereinhart) and [**@Nicholas Charriere**](https://linkedin.com/in/nicholas-charriere).\n\n![uploaded image](/media/?type=post&id=73588&key=user_uploads/1399285/8bda8bff-dc8a-4979-9c4b-a73b4c49a5f1)\n\nWe first started working together on ML platforms at Cruise, a leading self-driving car company, where we spent 4 years on the ML platform team. This is also where we became great friends!\n\nAt Cruise, we’ve seen the productivity losses that result from a fragmented ML organization. We then spent years designing and building a standardized framework and personally experienced the productivity superpowers that resulted from the framework’s adoption.\n\n### 🤨 The problem\n\nAn accelerating trend in the AI landscape is the shift from in-house model training to foundational models abstracted away behind APIs (chatGPT, Midjourney, llama2…).\n\nA consequence of this trend is that AI teams are morphing from Python-focused data scientists to resemble typical product engineering teams: full-stack web developers increasingly coding AI applications in TypeScript.\n\nWe’ve spoken to a number of enterprise customers who’ve confirmed their product teams are now responsible for designing and launching new AI initiatives, especially ones involving LLMs. However, given how recent the explosion of LLMs is, **these product engineers don’t yet have the tools** **to ship AI features quickly and with confidence**.\n\n### 💡 The solution\n\n[**Axilla**](https://www.axilla.io/) provides a family of modular and coherent libraries which together form an end-to-end opinionated framework for LLM development. It is aimed at TypeScript developers who want to build and operate production-grade AI applications.\n\nIt’s early, but in the last three weeks we launched our first two modules:\n\n1. [**axgen**](https://github.com/axilla-io/ax/tree/main/packages/axgen) is focused on data ingestion and retrieval\n2. [**axeval**](https://github.com/axilla-io/ax/tree/main/packages/axeval) is focused on continuous evaluation & quality monitoring\n\nNext, we are excited to begin work on model serving and monitoring, which are two of our most critical components. Together, these integrate production data back into the continuous evaluation pipelines, enable enterprises to run open-source models internally, and **allow developers to stop flying blind** when it comes to their AI applications.\n\n### Demo\n\nAs part of our first release, we built a proof of concept that demonstrates how to build a “chat with your documents” application using axgen.\n\n<https://youtu.be/8KEbP7LL_sM>\n\n### Asks\n\n[**Try axilla**](https://github.com/axilla-io/ax) today! It’s open source and available on npm. If you like it, **give it a star** ⭐️, and come join the conversation on [twitter](https://twitter.com/axilla_io).\n\nAre you a product engineer building AI applications (especially with TypeScript)? We’d love to [chat](https://calendly.com/nichochar/15min-chat-with-nicholas)!",
+      "url": "https://www.ycombinator.com/launches/J8u-axilla-an-ai-framework-for-typescript",
+      "votes": 54,
+      "created_at": "2023-07-31T01:48:09.241Z"
+    }
+  ]
+}

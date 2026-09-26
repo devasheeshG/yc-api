@@ -1,0 +1,106 @@
+{
+  "id": 29672,
+  "name": "DeepSim, Inc.",
+  "slug": "deepsim-inc",
+  "former_names": [],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/4d2d742eff5354c7ab2613bb9ba4ba6a64e707b5.png",
+  "website": "https://www.deepsim.io",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "DeepSim is building an AI physics simulator. We are currently developing the only thermal simulator to meet AI chip design needs and are validating our tool with Intel. We are a team of three electrical engineering PhDs from Stanford with backgrounds in semiconductor fabrication and design.",
+  "one_liner": "An AI physics simulator for AI chip design",
+  "team_size": 4,
+  "industry": "B2B",
+  "subindustry": "B2B -> Engineering, Product and Design",
+  "launched_at": 1723754775,
+  "tags": [
+    "B2B",
+    "Semiconductors",
+    "AI"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Summer 2024",
+  "status": "Active",
+  "industries": [
+    "B2B",
+    "Engineering, Product and Design"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada",
+    "Remote",
+    "Partly Remote"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/deepsim-inc",
+  "api": "https://devasheeshg.github.io/yc-api/batches/summer-2024/deepsim-inc.json",
+  "year_founded": 2020,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/deepsim-inc/",
+  "x_url": "",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/4d2d742eff5354c7ab2613bb9ba4ba6a64e707b5.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [
+    "https://bookface-images.s3.us-west-2.amazonaws.com/attachments/0d2e1a9bc67f541baed33d9188044d4518866854.png"
+  ],
+  "primary_partner": {
+    "name": "David Lieb",
+    "url": "https://www.ycombinator.com/people/david-lieb"
+  },
+  "founders": [
+    {
+      "user_id": 1869533,
+      "full_name": "Connor McClellan",
+      "title": "Founder/CEO",
+      "founder_bio": "Stanford EE PhD grad now building an AI physics simulation platform at DeepSim to solve the frustrating parts of my PhD. I'm also really into espresso making and will be happy to make you your best cup of coffee.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/connor-j-mcclellan",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/e777414bf669acbc8f3f05cda28345517e5cce21.jpg"
+    },
+    {
+      "user_id": 1991480,
+      "full_name": "Alexander Gabourie",
+      "title": "Founder/CTO",
+      "founder_bio": "Alex is a co-founder of DeepSim, Inc., where he develops AI physics simulators. He earned his PhD in Electrical Engineering from Stanford, specializing in nanoscale thermal simulations, and brings over a decade of experience in the semiconductor industry.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/alexgabourie/",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/3e26de1d3e0b56d0a2f385f73a269c4b5fcc9de6.jpg"
+    },
+    {
+      "user_id": 1993598,
+      "full_name": "Chuck Koroglu",
+      "title": "Founder",
+      "founder_bio": "Stanford EE PhD with background in semiconductor engineering, and physics modeling of integrated circuits. Excited about transforming the landscape of engineering simulations with new technology that combines physics, experimental data and AI.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/ckoroglu/",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/46cd7b4aa170ce4fac91a1109d64cbe7b49d976a.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 83111,
+      "title": "DeepSim – AI physics simulations",
+      "tagline": "Run complex physics simulations signficantly faster than any commerical tool.",
+      "body": "**TLDR:** AI-accelerated 3D physics simulator for engineers\n\n[DeepSim](https://www.deepsim.io/) makes it easy for engineers to run 3D physics simulations fast. This means rapid design iterations for better products and real-world monitoring for better decisions.\n\nWe built a new physics simulation platform that leverages AI physics models for very fast, ultra-scalable physics simulations.\n\n—\n\nHi everyone! We are [Connor,](https://www.linkedin.com/in/connor-j-mcclellan/) [Alex,](https://www.linkedin.com/in/alexgabourie/) and [Chuck,](https://www.linkedin.com/in/ckoroglu/) and we love physics simulations. While working on our PhDs at Stanford, we saw how physics simulators needed a refresh to solve modern problems. That’s why we started [DeepSim.](https://www.deepsim.io/)\n\n## The Problem\n\nRunning 3D physics simulations is **difficult**, **expensive**, and **slow**.\n\n1. **Setup:** Experienced engineers still spend countless hours meshing their designs before even running a single simulation.\n2. **Run:** Many simulations take hours to even weeks on expensive compute systems. Some are even intractable and require highly trained engineers to simplify the problems at a significant cost of accuracy.\n3. **Attention:** Each step requires constant babysitting as simulators are fragile and can fail at any time.\n\n🧑‍🔧️ Engineers hate the tedious simulation setup and wasted time due to failed simulations.\\\n👔 Managers hate that engineers can’t go faster and use tons of cloud credits.\\\n💰 CEOs/VPs hate that engineering delays stall a product launch.\n\n## The Solution\n\nLeverage AI to **simplify**, **speed up**, and **scale up** 3D physics simulations.\n\nWe are building a new AI physics simulation platform, automating away the physics setup and simulating designs 1000X faster with no drop in accuracy.\n\nOur platform uses lightweight, easy-to-train AI models combined with a powerful GPU-accelerated solver to deliver solutions quickly and efficiently. This approach eliminates the bulkiness of traditional finite element method (FEM) tools and overcomes the inflexibility of other AI physics simulators.\n\n![uploaded image](/media/?type=post&id=83111&key=user_uploads/1869533/6218d9cd-39b9-4307-a144-9f346d8d3c65)\n\nAt [DeepSim](https://www.deepsim.io/), we have already worked with semiconductor companies to build the most powerful thermal simulator for circuit design, running thermal simulations with billions of nodes in minutes on a single GPU, which is 1000X more detail than a commercial tool can deliver using 50+ CPU cores in the same amount of time.\n\nWith DeepSim's simulator, we are able to model extremely complex geometries with length scales spanning 6 orders of magnitude, intractable to solve with FEM tools. Below is a thermal simulation of an integrated circuit, complete with a heat sink and airflow, that only took 10 minutes to run. We can resolve hot spots in individual transistors (\\~10 nm in size) within a whole chip (1 cm).\n\n![uploaded image](/media/?type=post&id=83111&key=user_uploads/1869533/26e48815-e3db-4cfa-bdd4-52168c537546)\n\n## Use Cases\n\nThis is a breakthrough in 3D physics simulations that empowers engineers in the same way FEM did 50 years ago. We’re excited to see where engineers take our tool!\n\nSome initial use cases are:\n\n* Speeding up the design of complex systems with faster simulations\n* Utilizing design automation to speed up development\n* Developing digital twins for system operation\n\n## The Team\n\n![uploaded image](/media/?type=post&id=83111&key=user_uploads/1869533/c032c745-4faf-4374-8a43-92de0645a397)\n\nChuck, Alex, and Connor founded DeepSim to solve the frustrating parts of their PhDs.\n\n## The Ask\n\nWe would love to talk with engineers that…\n\n* design and operate battery packs for EVs or grid-scale energy storage\n* design and deploy satellites\n* work on thermal management of semiconductors, from the chip scale to data centers\n* have any complaints about slow or frustrating simulations\n\nContact us at [founders@deepsim.io](mailto:founders@deepsim.io)!",
+      "url": "https://www.ycombinator.com/launches/LcV-deepsim-ai-physics-simulations",
+      "votes": 35,
+      "created_at": "2024-08-16T04:14:43.665Z"
+    }
+  ]
+}

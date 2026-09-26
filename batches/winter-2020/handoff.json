@@ -1,0 +1,141 @@
+{
+  "id": 13121,
+  "name": "Handoff",
+  "slug": "handoff",
+  "former_names": [
+    "1build"
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/7c28f259776f3ae753c7e797a8482d385f032fef.png",
+  "website": "https://www.handoff.ai/",
+  "all_locations": "Austin, TX, USA",
+  "long_description": "Handoff creates instant construction estimates and automates business operations for contractors with AI.\r\n\r\nUsing generative AI technology and access to localized construction costs, Handoff provides remodelers with a fast, accurate, and intuitive way to create construction cost estimates in minutes.",
+  "one_liner": "AI estimator & agent for remodelers.",
+  "team_size": 20,
+  "industry": "Real Estate and Construction",
+  "subindustry": "Real Estate and Construction -> Construction",
+  "launched_at": 1578363908,
+  "tags": [
+    "Machine Learning",
+    "Construction",
+    "B2B",
+    "Proptech",
+    "API"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": true,
+  "nonprofit": false,
+  "batch": "Winter 2020",
+  "status": "Active",
+  "industries": [
+    "Real Estate and Construction",
+    "Construction"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada",
+    "Remote",
+    "Partly Remote"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/handoff",
+  "api": "https://devasheeshg.github.io/yc-api/batches/winter-2020/handoff.json",
+  "year_founded": 2019,
+  "city": "Austin",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/handoff-ai/",
+  "x_url": "https://twitter.com/HandoffAI",
+  "fb_url": "https://www.facebook.com/handoffai",
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/7c28f259776f3ae753c7e797a8482d385f032fef.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Brad Flora",
+    "url": "https://www.ycombinator.com/people/brad-flora"
+  },
+  "founders": [
+    {
+      "user_id": 428748,
+      "full_name": "Dmitry Alexin",
+      "title": "Founder",
+      "founder_bio": "I am the CEO & Founder of Handoff. Previously, I led the ML team at CloudKitchens as one of the founding employees. Before that I worked for a global macro hedge fund and the IMF.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/dzhdankin/",
+      "x_url": "https://twitter.com/dmitry_alexin",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/b945536b9cc60a7f6d48cd73bbf6dce68638c51a.jpg"
+    }
+  ],
+  "jobs": [
+    {
+      "id": 88875,
+      "title": "Account Executive",
+      "url": "https://www.ycombinator.com/companies/handoff/jobs/wPWUYMh-account-executive",
+      "location": "Austin, TX, US",
+      "type": "Full-time",
+      "role": "Sales",
+      "role_type": null,
+      "salary_range": "$120K - $130K",
+      "equity_range": "",
+      "experience": "3+ years",
+      "visa": "US citizen/visa only",
+      "skills": []
+    },
+    {
+      "id": 105419,
+      "title": "Senior Product Manager",
+      "url": "https://www.ycombinator.com/companies/handoff/jobs/TyN2pBE-senior-product-manager",
+      "location": "Austin, TX, US",
+      "type": "Full-time",
+      "role": "Product",
+      "role_type": null,
+      "salary_range": "$165K - $200K",
+      "equity_range": "",
+      "experience": "6+ years",
+      "visa": "US citizen/visa only",
+      "skills": []
+    }
+  ],
+  "news": [
+    {
+      "title": "As inflation fears spike, 1build raises $14M to help construction firms optimize their cost estimates – TechCrunch",
+      "url": "https://techcrunch.com/2021/09/22/1build-series-a/",
+      "date": "Sep 22, 2021"
+    }
+  ],
+  "launches": [
+    {
+      "id": 106241,
+      "title": "Handoff H1: a takeoff model that outperforms human estimators",
+      "tagline": "Autonomous takeoffs, available today via API",
+      "body": "**TL;DR:** H1 reads construction blueprints and produces a complete material takeoff autonomously, from the raw PDF. It scores 81.6% on our benchmark — ahead of human estimators (77.6%) and \\~20 points clear of the best frontier model. It runs in \\~2 hours vs. up to a week for a human.\n\n![uploaded image](/media/?type=post&id=106241&key=user_uploads/428748/ccaeb6b3-ba3f-4330-acd0-8e8ff779cca2)\n\n\n**The problem**\n\nBefore a contractor can bid a job, someone has to do a takeoff: read every sheet, count materials trade by trade, measure walls and roofs, cross-reference dimensions that live on different pages. It takes an experienced estimator 8–20 hours per project and years of training to do at all. It's the tax on every bid in a huge, fragmented industry.\n\nYou'd think a frontier model could do this now. It can't. Foundation models today aren't capable of understanding construction drawings to a level that is actually useful for a construction business. So this massive $2 trillion industry still runs on blueprints that are being analyzed by humans pretty much the same way they have been for the last few hundred years.\n\n**What we built**\n\nHandoff has developed H1: an AI model that understands and analyzes blueprints better than a human estimator, thus resolving this manual bottleneck once and for all.\n\n![uploaded image](/media/?type=post&id=106241&key=user_uploads/428748/e3a9fd8f-cdf2-48f1-b4d6-9e30aa807ec5)\n\nH1 has three layers:\n\n* **Scope analysis** — a detailed, trade-by-trade breakdown of what the project actually involves, read straight from the drawings.\n* **Takeoff with quantities** — a complete material quantity list per trade: framing members, sheets, linear and square footage, counts, all with units.\n* **Localized construction costs** — accurate pricing on those quantities, localized to your ZIP code.\n\nAll of it programmatic and autonomous. No human needs to be involved in the process of creating the entire takeoff. You can simply upload plans and get structured scope, quantities, and costed output back.\n\n**The benchmark (TakeoffBench-V1)**\n\nAs part of this, we are also releasing the industry's first takeoff benchmark that enables us and anybody else in the research community to compare models against 15 real, permissioned, PII-stripped residential blueprint sets, each paired with a consensus-validated expert takeoff.\n\n![uploaded image](/media/?type=post&id=106241&key=user_uploads/428748/b4f0b802-c841-403e-8867-5b1ac2e9fcb2)\n\n![uploaded image](/media/?type=post&id=106241&key=user_uploads/428748/abdfeb2b-4ed7-4764-bc47-a6305f6d8ff9)\n\nHere's how we performed on the benchmark:\n\n* Handoff-H1: 81.6%\n* human estimator (with takeoff software): 77.6%\n* best frontier model (Claude Fable): 61.4%\n\nThe rest cluster in the low-to-mid 50s (gpt-5.6, Claude, Kimi) down to 34.7% (DeepSeek-V4-Pro).\n\n**Try it**\n\nH1 is live in the [Handoff](https://handoff.ai) product and on the API. We have one of the world's largest suppliers already using our model in every one of their locations across the country, including thousands of projects every month.\n\nIf you're looking for an intelligence layer to extract detailed structured data from blueprints with construction costs priced out to the nearest cent, hit us up at [api@handoff.ai](mailto:api@handoff.ai)",
+      "url": "https://www.ycombinator.com/launches/RdZ-handoff-h1-a-takeoff-model-that-outperforms-human-estimators",
+      "votes": 7,
+      "created_at": "2026-07-22T20:04:49.600Z"
+    },
+    {
+      "id": 93974,
+      "title": "Handoff - AI Agent for Residential Contractors",
+      "tagline": "Handoff makes you more money, saves time, and runs your residential contracting business with AI.",
+      "body": "### **The Problem**\n\nThere are 1.2M+ residential contractors (remodelers, home builders, etc.) in the US. They are severely understaffed and overworked:\n\n* 40% of their time goes to paperwork instead of building.\n* They rely on pen & paper or outdated software.\n* The US needs 4.7 million new homes (and contractors need to keep up with that demand).\n\nhttps://www.youtube.com/watch?v=jd85wN1hhBo\n\n### **The Solution: Handoff AI Agent**\n\nHandoff is the AI agent that helps owners of residential construction businesses automate their back office with AI.\n\nHere are some of the things Handoff can do:\n\n* Generate accurate construction estimates from short project descriptions and files (blueprints, photos, videos).\n* Automatically create material shopping lists (with links to purchase).\n* Send invoices, accept payments, and issue consumer loans.\n* Build project schedules, subcontractor bid invites, daily logs, and more.\n\nHandoff takes on the roles of:\n\n1. Cost estimator\n2. Project coordinator\n3. Admin assistant\n\nThis reduces the operational burden of scaling a construction business by $500k+/year, at a price point of just $149/month.\n\n![uploaded image](/media/?type=post&id=93974&key=user_uploads/428748/c2abd311-42d3-4f56-aed6-87253717f18e)\n\n![uploaded image](/media/?type=post&id=93974&key=user_uploads/428748/69f03428-53c5-4f46-9def-875366b532d9)\n\n### **The Secret Sauce**\n\nHow did we build Handoff? In short, we became obsessed with creating the world’s most accurate API for construction costs and a knowledge base of construction logic.\n\nWe work directly with top suppliers like Home Depot and Lowe’s to integrate their catalogs into Handoff, giving our customers real-time pricing and inventory.\n\nWe’ve also trained Handoff on 10,000+ construction cost estimates we completed by hand while running a manual cost estimating service in our early days.\n\n![uploaded image](/media/?type=post&id=93974&key=user_uploads/428748/9349123e-4a79-47c3-a7b6-7cb7d0575a47)\n\n### **Send This to Your Contractor**\n\nAre you getting some remodeling work done?\n\nGet a free account on [Handoff](https://handoff.ai/) and generate an estimate for your project. Share it with remodelers bidding on your job and ask them to explain any cost variance versus Handoff’s numbers.\n\nYou might be able to save yourself some money and help us generate more leads!",
+      "url": "https://www.ycombinator.com/launches/ORi-handoff-ai-agent-for-residential-contractors",
+      "votes": 14,
+      "created_at": "2025-09-19T20:14:46.930Z"
+    },
+    {
+      "id": 70854,
+      "title": "🏗️ 1build - Plaid for construction cost data",
+      "tagline": "Track live pricing on 68M datapoints for construction materials, labor, and equipment in the US.",
+      "body": "**TL;DR: 1build is launching the API for construction pricing data. Developers can use our API to access up-to-date information on construction costs for workflows like construction estimating, procurement, and loan/insurance underwriting. The API can be either queried with GraphQL or easily integrated into any application with one line of HTML.**\n\n﻿📚﻿ **Backstory**\n\nAs wild as it sounds, the construction industry still uses actual books that are published once a year to track construction market pricing. I previously ran the data science team at CloudKitchens where I needed an API for tracking live construction pricing data--but instead of an API I had to deal with these cost books.\n\n![](https://t4207102.p.clickup-attachments.com/t4207102/24e83b10-e8f3-4b04-b043-a050c01c2eb1/image.png)\n\n﻿📊﻿ **Problem**\n\nConstruction costs have been extremely volatile over the last several years. For example, lumber prices skyrocketed 400% and then crashed in 2021. At the same time, the construction tech space is booming ($5B+ is invested annually), but it still lacks its own \"Plaid\" for mission-critical market pricing data.\n\n﻿🛠️﻿ **Our solution**\n\n1build has an easy-to-use API as well as a JavaScript embed widget that gives you access to live pricing data on 68 million construction materials, labor, and equipment anywhere in the US.\n\n﻿🚀﻿ **How it works**\n\nYou can either use our GraphQL API ([docs](https://developer.1build.com/1build-api-reference)) or JavaScript embed widget ([docs](https://developer.1build.com/1build-widget-reference/)) to integrate construction pricing data into your application. Sign up [here](https://app2.1build.com/public/register?signupType=SOFTWARE_DEVELOPER) to get your API key.\n\nHere are just some of the use cases for our data:\n\n* Your contractor sent you an estimate and you want to validate their quote vs market rates.\n* You're serving bank underwriters who need to check whether their client's construction loan application has an accurate budget.\n* You're working with insurance brokers who need to approve a quote for home repairs.\n\n![uploaded image](/media/?type=post&id=70854&key=user_uploads/428748/7736013a-63ee-4a2c-ae3e-72873fb8f515)\n\n**Features**\n\n﻿⚫﻿ Search or browse our catalog of 68 million construction items and assemblies localized to your project. Include labor to get all-in installation costs.\n\n![](https://t4207102.p.clickup-attachments.com/t4207102/d8aac21a-8be8-46b3-813c-1b71484d5362/image.png)\n\n﻿⚫﻿ Add this line of HTML in your app to embed our construction pricing catalog:\n\n![](https://t4207102.p.clickup-attachments.com/t4207102/31a4f86e-5567-4937-926c-452f8f6274aa/image.png)\n\n﻿⚫﻿ Or query our API with GraphQL:\n\n![](https://t4207102.p.clickup-attachments.com/t4207102/5c1a6e76-3c97-4ed2-ae2d-2273f8357b79/image.png)\n\n﻿👷 ﻿**Asks**\n\nTry [1build](http://1build.com) now! [Get your API keys](https://app2.1build.com/public/register?signupType=SOFTWARE_DEVELOPER) or [contact us](https://meetings.hubspot.com/dmitry-alexin/30-min) to embed live construction data into your application or ML model.\n\nWe are hoping to discover new use cases and applications for our data, so don't hesitate to reach if you want to bounce around a few ideas.\n\nWe are also looking for feedback on the API / JS widget's ease of use, so let us know about your experience with our docs/integration.",
+      "url": "https://www.ycombinator.com/launches/IQo-1build-plaid-for-construction-cost-data",
+      "votes": 24,
+      "created_at": "2023-04-10T19:14:40.977Z"
+    }
+  ]
+}

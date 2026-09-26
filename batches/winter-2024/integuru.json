@@ -1,0 +1,99 @@
+{
+  "id": 29498,
+  "name": "Integuru",
+  "slug": "integuru",
+  "former_names": [
+    "Taiki"
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/c28333543424f2e5753fd39fd195e354af322187.png",
+  "website": "https://www.integuru.com",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "Integuru turns any platform into a reliable, low-latency, and high-throughput API. Requests complete in 3 seconds with 99.9%+ success, including deployments above 1M requests/month/platform. No RPA or browsers. No data caching needed. (By Taiki, Inc.)",
+  "one_liner": "Generate fast, reliable APIs for any platform",
+  "team_size": 5,
+  "industry": "B2B",
+  "subindustry": "B2B -> Engineering, Product and Design",
+  "launched_at": 1709153976,
+  "tags": [
+    "Artificial Intelligence",
+    "Developer Tools",
+    "B2B",
+    "API",
+    "Automation"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Winter 2024",
+  "status": "Active",
+  "industries": [
+    "B2B",
+    "Engineering, Product and Design"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/integuru",
+  "api": "https://devasheeshg.github.io/yc-api/batches/winter-2024/integuru.json",
+  "year_founded": 2024,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/integuru-ai/",
+  "x_url": "https://x.com/InteguruAI",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": "https://github.com/Integuru-AI/",
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/c28333543424f2e5753fd39fd195e354af322187.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [
+    "https://bookface-images.s3.us-west-2.amazonaws.com/attachments/671af5b4733857becce196b5be7ec366e384511c.png",
+    "https://bookface-images.s3.us-west-2.amazonaws.com/attachments/9332ee493a7367a5f9bf8761d099e2ead3d2d473.png"
+  ],
+  "primary_partner": {
+    "name": "Gustaf Alstromer",
+    "url": "https://www.ycombinator.com/people/gustaf-alstromer"
+  },
+  "founders": [
+    {
+      "user_id": 504669,
+      "full_name": "Richard Zhang",
+      "title": "Founder/CEO",
+      "founder_bio": "Co-Founder & CEO of Integuru. Previously, product at Alibaba Cloud; data science at DiDi; and investor at Dragonfly, ZhenFund, and Gaorong Capital.",
+      "is_active": true,
+      "linkedin_url": "https://linkedin.com/in/richardfzhang",
+      "x_url": "https://twitter.com/richardfzhang",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/fd03f278f2cd349006ec4f4401e1b71dc41b9886.jpg"
+    },
+    {
+      "user_id": 1642840,
+      "full_name": "Alan Lu",
+      "title": "Founder/CTO",
+      "founder_bio": "CTO of Integuru",
+      "is_active": true,
+      "linkedin_url": "https://linkedin.com/in/alan-lu-57094517b",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/5c7c9401e6e546dd3fe1720d49fd2499e7d9e97f.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 101982,
+      "title": "Integuru ⚡️ Generate fast, reliable APIs for any platform",
+      "tagline": "We help agents control any external system, with speed and reliability.",
+      "body": "📝 **TL;DR:** [Integuru](https://bookface.ycombinator.com/company/29498) **generates fast, reliable, and high-throughput APIs for any platform.** API calls complete in \\~**3 seconds** with **99.9%+ success**. No RPA or browsers. No data caching needed. Customers are already using fully generated integrations in production at millions of requests per month.\n\nStarting today, Integuru is **publicly accessible** and **free to try**! You can **use it** [here](https://app.integuru.com/).\n\n### **🎬 Integuru in Action**\n\n<https://youtu.be/v00yl_46H34>\n\n### 🎯 **The Problem**\n\nAI agents need to access external platforms, but most platforms don’t offer official, accessible, or comprehensive APIs. **That makes integration the single biggest bottleneck.**\n\nFor building integrations, most companies today use RPA, typically implemented via browser automation. RPA is easy to set up, but many AI companies have now **outgrown their RPA implementations**. They’re running into issues with **latency**, **reliability**, and **throughput**. A single API call can take minutes, and integrations are vulnerable to breaking due to frontend changes.\n\nWith RPA, there’s a relatively low ceiling on the number of concurrent browser instances on the same platform. This limits the number of requests. As customer counts grow, companies require higher throughput, but RPA, by nature, cannot support that demand.\n\nAt the same time, regardless of the approach you take to integrate, **edge cases are among** **the biggest causes of integration breakage**. Edge cases are different branching logic, states, and paths that appear in real-world usage across accounts and scenarios. Integrations that seem fine during testing can completely break in production.\n\nEdge cases can be caused by things like:\n\n* conditionally appearing fields and pages\n* hidden business logic depending on inputs\n* varying server behaviors\n\nTraditionally, testing edge cases must be done manually. Developers must manually trigger as many variations as possible, including changing inputs and stress-testing server limits. This process is often tedious and cannot cover everything, which threatens integration reliability.\n\nToday, we’re announcing a **publicly accessible,** **self-serve product** that solves all these issues and generates robust APIs in minutes.\n\n### 📈 **Integuru’s Solution**\n\nInteguru is an AI platform that **automatically reverse-engineers a website’s backend**. It generates integrations that directly ping website servers, with API docs for each.\n\nInteguru **covers edge cases** that arise during production workloads. It also **auto-heals authentication flows**. Meanwhile, we have a **24/7 on-call maintenance team** available, with **hands-on support** whenever human intervention is needed.\n\nIn real production environments for early-access partners (many of which are YC companies!), requests complete in **\\~3 seconds** with **99.9%+ success**, including deployments **above 1M requests/month/platform**. Requests are **executed live** and achieve low latency without data-caching.\n\nThe workflow is simple with minimal manual involvement:\n\n1. On Integuru, input the website and account you want to integrate with.\n2. Describe your desired feature in natural language. (No need to manually perform or record any actions.)\n3. Integuru proposes an API schema and, upon your approval, generates the endpoint in \\~10 minutes, along with API docs.\n\nEndpoints are **immediately testable** and **production-ready**. For authentication, we support 2FA and will coordinate with you.\n\nWe already support the majority of platforms today. If Integuru can’t yet handle your use case automatically, we’ll evaluate and provide hands-on support at no extra cost.\n\n### **🙋‍♂️ What industries have been using Integuru?**\n\nEarly-access partners are already using generated APIs in production across use cases, processing millions of requests per month with minimal human involvement.\n\n* Healthcare: connecting to EHRs, EMRs, RCMs, CTMSes, insurance portals, etc.\n  * We sign BAAs at no cost. You can sign a BAA directly in the product.\n* Logistics: integrating with TMSes, WMSes, ERPs, carrier portals, etc.\n* Proptech: automating property management systems, utilities, permitting software, etc.\n* Legal: controlling practice/case management systems, government portals, etc.\n* Enterprise AI transformation: accessing ERPs, CRMs, CX platforms, internal tools, etc.\n* … and more\n\n## 📚 **Backstory**\n\nOur first [open-source](https://github.com/Integuru-AI/Integuru) agent (4k+ stars) proved demand for robust integrations, but it couldn’t handle the complexity of modern platforms. So we did things that didn’t scale. We manually built and maintained integrations for customers, eventually supporting millions of API calls every month. That gave us a front-row seat to the messy reality of integrations. We tried turning those learnings into a self-serve product, but that version still wasn’t enough, so we kept dogfooding it while building customer integrations. Eventually, we rebuilt the self-serve product from the ground up, using insights we gathered around edge-case coverage, auto-healing, better UX, production reliability, and high-throughput execution. This is the product you see today, and companies are already using it to generate integrations that run reliably in production.\n\n## 🚀 **Try for free today!**\n\nInteguru is **publicly accessible** starting today and **free to try**!\n\nYou can **get started on your own** [here](https://app.integuru.com/), or **schedule an onboarding call [here](https://calendly.com/alan-taiki/integuru-guided-setup)** if you want us to set up everything for free or have specific questions.\n\n![uploaded image](/media/?type=post&id=101982&key=user_uploads/504669/89260a10-1e12-47b1-92b9-2e920e95b3e3)\n\n",
+      "url": "https://www.ycombinator.com/launches/QWs-integuru-generate-fast-reliable-apis-for-any-platform",
+      "votes": 10,
+      "created_at": "2026-05-26T18:33:59.675Z"
+    }
+  ]
+}

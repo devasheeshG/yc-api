@@ -1,0 +1,128 @@
+{
+  "id": 31477,
+  "name": "BioStack Platforms",
+  "slug": "biostack-platforms",
+  "former_names": [],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/a993952405cff56ad7f559e6e6fcf8b0c2191ed2.png",
+  "website": "https://www.getbiostack.com/",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "BioStack is building the data engine for healthcare and drug discovery AI. The bottleneck is not models. It is access to high-quality biological data. Clinical and experimental data is fragmented, unstructured, and locked inside hospitals, labs, and CROs, while generating new data is slow and expensive. BioStack fixes this with proprietary clinical and preclinical data pipelines that turn real biomedical workflows into ML-ready training environments.\r\n\r\nWe structure longitudinal multimodal data across imaging, EHR, and experimental assays, then package it for post-training and reinforcement learning so models can learn how research and care actually happen. Instead of static datasets, BioStack gives AI labs workflow-aligned data and environments that improve reasoning, decision-making, and real-world performance in biology and medicine.",
+  "one_liner": "Real world training envs for healthcare AI models",
+  "team_size": 10,
+  "industry": "Healthcare",
+  "subindustry": "Healthcare",
+  "launched_at": 1774518776,
+  "tags": [],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": true,
+  "nonprofit": false,
+  "batch": "Spring 2026",
+  "status": "Active",
+  "industries": [
+    "Healthcare"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/biostack-platforms",
+  "api": "https://devasheeshg.github.io/yc-api/batches/spring-2026/biostack-platforms.json",
+  "year_founded": 2025,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "",
+  "x_url": "",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/a993952405cff56ad7f559e6e6fcf8b0c2191ed2.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Nicolas Dessaigne",
+    "url": "https://www.ycombinator.com/people/nicolas-dessaigne"
+  },
+  "founders": [
+    {
+      "user_id": 2459174,
+      "full_name": "Sanat Mishra",
+      "title": "Founder/CEO",
+      "founder_bio": "I'm the co-founder and CEO of BioStack Platforms. In another life, I was a cancer genomics researcher at Stanford, Yale, Carnegie Mellon, and the Max-Planck Institute. I also worked as an early researcher with top AI labs on RL tasks and benchmarks across healthcare and biotech.\nHailing from Mumbai, I attended IISER Mohali and Carnegie Mellon for my BS and MS degrees respectively. ",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/sanat-m-4b5077a4/",
+      "x_url": "https://x.com/sanatmishra7",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/1d8460f3628c65c3e56f5eaa6d4518170da9462a.jpg"
+    },
+    {
+      "user_id": 3418030,
+      "full_name": "Parth Patwa",
+      "title": "Founder/CTO",
+      "founder_bio": "I am the Co-founder and CTO at BioStack Platforms. Prior to this, I was a Gen AI scientist at AWS. Before that, I was a researcher at MIT. I have published 40+ papers with 1800+ citations across top venues like CVPR, neurIPS, EMNLP etc. in ML, GenAI, NLP. \nI completed my MS from UCLA. \n",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/parth-patwa/",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/50c35bb41202807accee702dcfef19b86677dcf7.jpg"
+    }
+  ],
+  "jobs": [
+    {
+      "id": 92561,
+      "title": "Clinical Data Lead",
+      "url": "https://www.ycombinator.com/companies/biostack-platforms/jobs/HIfysXu-clinical-data-lead",
+      "location": "San Francisco, CA, US",
+      "type": "Full-time",
+      "role": "Operations",
+      "role_type": null,
+      "salary_range": "$120K - $200K",
+      "equity_range": "0.10% - 1.00%",
+      "experience": "Any (new grads ok)",
+      "visa": "Will sponsor",
+      "skills": [
+        "Machine Learning",
+        "Reinforcement learning (RL)",
+        "Data Modeling",
+        "Data Analytics",
+        "Biotechnology",
+        "Pharmacology"
+      ]
+    },
+    {
+      "id": 94045,
+      "title": "Founding Research Engineer, RL/Reasoning",
+      "url": "https://www.ycombinator.com/companies/biostack-platforms/jobs/M8GyMNX-founding-research-engineer-rl-reasoning",
+      "location": "San Francisco, CA, US",
+      "type": "Full-time",
+      "role": "Engineering",
+      "role_type": "Backend",
+      "salary_range": "$200K - $350K",
+      "equity_range": "0.10% - 1.00%",
+      "experience": "Any (new grads ok)",
+      "visa": "Will sponsor",
+      "skills": [
+        "Reinforcement learning (RL)",
+        "Evals",
+        "AI Agents",
+        "MLOps"
+      ]
+    }
+  ],
+  "news": [],
+  "launches": [
+    {
+      "id": 101855,
+      "title": "BioStack Platforms: Realistic healthcare simulation environments",
+      "tagline": "We give AI labs the full post-training loop for healthcare",
+      "body": "**Tl;Dr;**\n\nWe build realistic healthcare simulation environments where AI labs can train and improve their models before deploying them in the real world. Our environments use real-world clinical data to help models practice solving the hardest medical problems.\n\n![uploaded image](/media/?type=post&id=101855&key=user_uploads/2459174/a27d387c-2ddd-4a28-98b6-c8a96da0503a)\n\n**The problem**\n\nHealthcare AI is learning from a cleaned-up version of medicine that barely exists. Real patients are messy. Their records are incomplete. Their labs are late. Their notes conflict. Their outcomes unfold over months, not in one prompt.\n\nDoctors do not just answer questions. They make decisions with imperfect information, watch what happens, and adjust. That is the loop AI needs to perfect.\n\nToday, AI labs have medical data. What they do not have are real clinical environments where models can practice, fail, get feedback, and improve.\n\n**What BioStack does**\n\n* **We turn real patient records into training environments.** Not clean textbook cases. Real longitudinal data: notes, labs, imaging, meds, vitals, diagnoses, follow-ups, and outcomes stitched into cases models will actually have to work through.\n* **We build the tasks models train on.** Diagnose this. Order the next test. Adjust the medication. Flag the risk. Predict what happens next. The model makes a clinical move, then gets scored against outcomes, chain-of-thought reasoning, guidelines, and clinician review.\n* **We give AI labs the full post-training loop for healthcare.** Data, evals, reward functions, benchmarks, and simulation environments, so models can practice real clinical work instead of just memorising medical exams.\n\n[https://drive.google.com/file/d/1NvcLS2usN_bl4GE_tW7QVN5Ia-MGl8M6/view](https://drive.google.com/file/d/1NvcLS2usN_bl4GE_tW7QVN5Ia-MGl8M6/view?usp=sharing)\n\n**Backstory**\n\nWe started the company in Oct 2025 and burned through two pivots before we found the thing that pulled us in.\n\nFirst, we tried building multi-agent systems for biology research. It sounded right on paper. In practice, biology workflows are messy, fragile, and full of assumptions that have to be tuned by hand. One wrong parameter compounds downstream and suddenly nobody trusts the output. Scientists also were not ready to hand over real work to agents that still felt too brittle. We killed it after two months.\n\nThen we tried going deeper: generate preclinical drug discovery data ourselves, at scale, through our own lab facility. Again, it sounded ambitious. Again, it broke on contact with reality. It was capex-heavy, slow, operationally painful, and not truly venture-scalable. Worse, our edge was basically cheaper offshore execution. That is not a moat. That is a race to the bottom. We killed that too.\n\nThe third idea found us.\n\nThe best companies are born in the customer’s office. For us, it happened on a sales call.\n\nWe were pitching drug discovery data to one of the largest human data companies in the world. Halfway through, the conversation shifted. They did not want another generic data vendor. They asked if we could deliver high-quality clinical data for a six-figure contract.\n\n**That call changed the company.**\n\nWe realised the real bottleneck was not just raw data. AI labs need the full post-training stack for healthcare: clinical data, simulation environments, evals, reward functions, and verifiable tasks that make models better at real medical work.\n\nSo we followed the pull.\n\nToday, BioStack is building simulation environments for healthcare AI. We have expanded from one customer conversation into 17 customers and prospects, including top AI labs, and we are seeing demand across data, evals, and RL environments.\n\nWe did not arrive here through a brainstorm but got dragged here by the market.\n\n**Asks**\n\n* **Do you know** **anyone** **working on a AI models or agents** advancing current capabilities through multimodal applications, nuanced reasoning, or domain-specific expertise?\n* **Do you know of companies that require raw medical data?** We supply longitudinal high quality scans, EHR, and notes and we’re happy to send over samples.\n* **Have referrals for RL engineers / researchers?** We’re always looking to hire RL engineers who specialise in fine-tuning methods such as SFT, PEFT, and RL.\n* **Spread the word** - send us ideas for data types that you think are valuable and spread the word!\n\n**Feel free to reach out** at: [sanat@getbiostack.com](mailto:sanat@getbiostack.com) / [parth@getbiostack.com](mailto:parth@getbiostack.com)",
+      "url": "https://www.ycombinator.com/launches/QUp-biostack-platforms-realistic-healthcare-simulation-environments",
+      "votes": 9,
+      "created_at": "2026-05-25T15:06:11.941Z"
+    }
+  ]
+}

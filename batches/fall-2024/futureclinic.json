@@ -1,0 +1,104 @@
+{
+  "id": 30109,
+  "name": "FutureClinic",
+  "slug": "futureclinic",
+  "former_names": [
+    "Dojo",
+    "OpenClinic"
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/a8759a02d8be9a9d533e889c8828572da197bc1b.png",
+  "website": "https://www.futureclinic.com",
+  "all_locations": "New York City, NY, USA",
+  "long_description": "FutureClinic is a platform that makes it easy for any doctor to open their own digital clinic. Our AI assistant takes a comprehensive medical history using an empathic chat or voice-based interface, uses sophisticated medical reasoning to narrow down likely diagnoses, and produces evidence-based treatment suggestions for each patient. Licensed doctors then review the text-based summaries of the cases our AI provides, and choose how to manage the patients. In this fashion, we're able to deliver end-to-end healthcare in a way that makes personalized, expert healthcare scalable to 8 billion people around the world. ",
+  "one_liner": "Personal doctors through chat",
+  "team_size": 4,
+  "industry": "Healthcare",
+  "subindustry": "Healthcare",
+  "launched_at": 1731439180,
+  "tags": [
+    "Health Tech",
+    "Digital Health",
+    "Healthcare"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Fall 2024",
+  "status": "Active",
+  "industries": [
+    "Healthcare"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/futureclinic",
+  "api": "https://devasheeshg.github.io/yc-api/batches/fall-2024/futureclinic.json",
+  "year_founded": 2024,
+  "city": "New York City",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/futureclinic",
+  "x_url": "",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/a8759a02d8be9a9d533e889c8828572da197bc1b.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "David Lieb",
+    "url": "https://www.ycombinator.com/people/david-lieb"
+  },
+  "founders": [
+    {
+      "user_id": 884243,
+      "full_name": "Usama Syed",
+      "title": "Founder/CEO",
+      "founder_bio": "Co-Founder & CEO @ FutureClinic\n\n| Building the future of healthcare with FutureClinic (YC F24). Digital medical clinics that are 99% AI, 1% doctor |\n\nMedical and business school graduate from Imperial College London, board-certified dermatologist, and faculty member at Mount Sinai, NYC. Medical content creator with 300,000+ followers across YouTube, Instagram, and X, and built the world's first AI-powered skincare database providing personalized skincare advice.",
+      "is_active": true,
+      "linkedin_url": "https://linkedin.com/in/usama-syed-419b0078",
+      "x_url": "https://twitter.com/usamasyedmd",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/7b6939fe5c56448f06a1d3f469a22b2e5973e9be.jpg"
+    },
+    {
+      "user_id": 2189900,
+      "full_name": "Nabil Belahouane",
+      "title": "Founder/CTO",
+      "founder_bio": "Co-Founder & CTO @ FutureClinic\n\nPassionate about improving health outcomes through technology.\n\nPreviously, Platform and Data Engineer at GoCardless, where I helped scale and optimise infrastructure for one of the UK’s leading FinTechs. Founding engineer at Documatic, driving the creation of incident prevention tooling for Fortune 500 companies.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/nabil-belahouane",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/19da95f64e6cb3fdee3524ec0f40de7f0cde13ee.jpg"
+    },
+    {
+      "user_id": 2193417,
+      "full_name": "Hassan Mirza",
+      "title": "Founder",
+      "founder_bio": "Co-Founder @ FutureClinic",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/hassan-m-b07250256/",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/ff4748deba9a7fabaceb3d24b49167bd6e09db32.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 85775,
+      "title": "FutureClinic: Healthcare that's 99% AI, 1% doctor.",
+      "tagline": "We make it easy for any doctor or hospital to open their own AI-first digital clinic. ",
+      "body": "### **TL;DR**\n\n* Most AI healthcare companies have been focusing on administrative tasks (authorizations/ scribing). We’re focusing on the main bottleneck in healthcare - clinical expertise. Our AI thinks like a doctor.\n* It conducts comprehensive medical histories via voice interface, performs medical reasoning, and suggests evidence-based treatments / next steps (99% of the healthcare journey).\n* Doctors can efficiently review text-based summaries on a back-end dashboard in under a minute, and maintain final medical decision-making control (the high value 1%).\n\n<https://youtu.be/cUoLpodvLwE?si=fUzpo4LD3y3rzqtT>\n\n---\n\n### **The Problem**\n\n1. **Traditional healthcare delivery is broken, with a fundamental supply/demand mismatch between the need for healthcare, and the number of doctors available to provide it.**\n2. **The US healthcare system is facing a physician crisis**\n   * Projected shortage of 86,000 physicians by 2036\n   * 30% of physicians are leaving the field or moving part-time in the next 5 years due to the lack flexibility or burnout.\n   * Patient volumes per physician are exploding, overwhelming doctors' capacity to deliver quality care\n3. **Existing attempts to solve these problems have been step changes, and fail to lessen the burden of care on doctors:**\n   * Traditional Telehealth simply moved the same broken workflows online, amounting to the same workload, if not more (”I think you’re on mute, Mrs. Jones…”)\n   * Asynchronous messaging currently requires a lot of back and forth and hasn’t achieved adoption\n   * Administrative streamlining AI services are great, but don’t tackle the fundamental bottleneck in healthcare which is clinical expertise.\n\n### **The Solution**\n\nFutureClinic is an EHR platform that powers digital medical clinics with sophisticated AI that handles 99% of the work, letting doctors focus purely on medical decision-making.\n\nOur platform:\n\n* Takes comprehensive medical histories through an empathetic voice interface\n* Uses advanced medical reasoning to narrow down diagnoses\n* Provides evidence-based treatment suggestions\n* Presents doctors with concise text-based summaries, with all key findings cited\n* Enables asynchronous care delivery without video/phone calls\n* Built-in safety protocols flag potential contraindications and risks.\n* Closes care gaps for patients with language barriers\n\n---\n\n### **Our Vision**\n\n* Our EHR starts by powering digital medical clinics, but we ultimately power healthcare delivery in brick and mortar clinics and hospitals too.\n\n---\n\n### **About Us**\n\n* 3 out of 4 co-founders are medical doctors as well as software engineers from top institutions (UCL, Imperial College London, Mount Sinai)\n* Combined experience of >10,000 real-world patient encounters, with a deep understanding of physician needs and pain points (and scar tissue to prove it!)\n* In previous roles, we’ve directly helped open >40 real world medical clinics in New York in the last 3 years, and know what it takes to deliver end-to-end care in a legal, compliant, and safe manner.\n* Our President has >300,000 followers on social media, largely doctors and medical students, giving us an unfair advantage for early distribution.\n\n### **Reach out!**\n\n_For Doctors_**:** If you're interested in starting your own digit clinic with complete flexibility and control, visit [**openclinic.com**](http://tryopenclinic.com) to sign up or email [**founders@openclinic.com**](mailto:founders@tryopenclinic.com)\n\n_For Healthcare Organizations_**:** If you're looking to launch a digital clinic or use our system for patient intake, we'd love to discuss how OpenClinic can help. Email [**founders@openclinic.com**](mailto:riyan@tryopenclinic.com)\n\n![uploaded image](/media/?type=post&id=85775&key=user_uploads/884243/dfb9960a-b1f2-466d-82cf-981b6a701532)\n\n",
+      "url": "https://www.ycombinator.com/launches/MJT-futureclinic-healthcare-that-s-99-ai-1-doctor",
+      "votes": 26,
+      "created_at": "2024-11-22T00:13:00.394Z"
+    }
+  ]
+}

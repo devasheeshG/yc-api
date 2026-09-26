@@ -1,0 +1,99 @@
+{
+  "id": 25561,
+  "name": "LanceDB",
+  "slug": "lancedb",
+  "former_names": [
+    "ETO",
+    "Eto"
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/7b3b44ab11047bbfddb4bfe44c9d2d3c87027258.png",
+  "website": "https://lancedb.com",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "LanceDB is a new open-source vector database that can support low-latency billion-scale vector search on a single node. Built around a new columnar data format, LanceDB makes it incredibly easy to build applications for generative AI, recsys, search engines, content moderation, and more.",
+  "one_liner": "Open-source, serverless vectordb for production-scale generative AI",
+  "team_size": 35,
+  "industry": "B2B",
+  "subindustry": "B2B -> Infrastructure",
+  "launched_at": 1648263864,
+  "tags": [
+    "AIOps",
+    "Machine Learning",
+    "Open Source",
+    "Data Engineering"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Winter 2022",
+  "status": "Active",
+  "industries": [
+    "B2B",
+    "Infrastructure"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada",
+    "Remote",
+    "Partly Remote"
+  ],
+  "stage": "Growth",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/lancedb",
+  "api": "https://devasheeshg.github.io/yc-api/batches/winter-2022/lancedb.json",
+  "year_founded": 2022,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/lancedb/",
+  "x_url": "https://twitter.com/lancedb",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": "github.com/lancedb",
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/7b3b44ab11047bbfddb4bfe44c9d2d3c87027258.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Nicolas Dessaigne",
+    "url": "https://www.ycombinator.com/people/nicolas-dessaigne"
+  },
+  "founders": [
+    {
+      "user_id": 858308,
+      "full_name": "Chang She",
+      "title": "Founder",
+      "founder_bio": "My passion is building tools to make teams more productive working with data. I was VP of Eng at TubiTV where I designed the ML stack and the experiment platform, in addition to growing the team by more than 3x. Previously I was CTO/co-founder of DataPad and the second major contributor to the pandas library. In a former life, I was a financial quant with stints at AQR and Barclays.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/changshe",
+      "x_url": "https://twitter.com/changhiskhan",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/7fac6d13a6e767ce791580c1200cbdaaa236d900.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [
+    {
+      "title": "LanceDB Raises $30M Series A to Build the Multimodal Lakehouse - LanceDB Blog",
+      "url": "https://lancedb.com/blog/series-a-funding/",
+      "date": "Jun 24, 2025"
+    },
+    {
+      "title": "New Funding and A New Foundation for Multimodal AI Data",
+      "url": "https://blog.lancedb.com/new-funding-and-a-new-foundation-for-multimodal-ai-data/",
+      "date": "May 15, 2024"
+    }
+  ],
+  "launches": [
+    {
+      "id": 71382,
+      "title": "LanceDB 🍢 - serverless, low-latency vector database for AI applications",
+      "tagline": "Meet LanceDB, the easy-to-use and developer-friendly alternative to Pinecone",
+      "body": "🙋 Are you building a generative AI app using an LLM or API? Are you working on a new recsys, a modern search engine, or a new analytical tool for unstructured data? Good news: you no longer have to struggle with Pinecone’s high cost, over the top complexity, or data privacy concerns.\n\n🚀 [LanceDB](https://lancedb.com/) is a free and open-source vector database that you can run locally or on your own server. It’s lightning fast and is easy to embed into your backend server. Check out our [github repo](https://github.com/lancedb/lancedb) or pip install lancedb to get started.\n\nFor a quick demo, you can take a look at our sample [youtube transcript search app](https://github.com/lancedb/lancedb/blob/main/notebooks/youtube_transcript_search.ipynb). We’ll be adding a lot more soon. For more details on the API, take a look at [LanceDB docs](https://lancedb.github.io/lancedb/).\n\n![](https://lancedb.com/images/eto-splash-arrow.png)\n\n\n### **❓ Why we built LanceDB**\n\nAs we spoke to builders of ML/AI applications, a common refrain from users was struggling to get services like Pinecone even running. After a while, we realized that the retrieve-filter-hydrate workflow was often time a big bottleneck in productivity and app latency.\n\nSo we put our heads together. I was one of the original co-authors of the pandas library. Lei was a core-contributor to HDFS and led ML infrastructure at Cruise. Using our experience building data/ML tooling, we’ve built something totally new.\n\n![uploaded image](https://bookface.ycombinator.com/media/?type=post&id=71382&key=user_uploads/858308/435bcc86-88ef-4c62-9f14-ba9d84c5c48f)\n\n\n### **LanceDB ❤️ builders**\n\nWe’ve reimagined vector search from the ground up for better developer productivity, scalability, and performance. LanceDB is backed by [Lance format](https://github.com/eto-ai/lance) — a modern columnar data format that is an alternative to parquet. It’s optimized for high speed random access and management of AI datasets like vectors, documents, and images.\n\nWe then added our own Rust implementations of a number of SOTA ANN-index algorithms to support low-latency vector search. These indices are SSD-based and can easily scale wayyyy beyond memory.\n\nWhat’s more, LanceDB allows you to store and filter other features along with vectors. Our users have been able to replace 3–4 different data stores with LanceDB alone and achieve a speedup at the same time.\n\n### **🛣️ Roadmap**\n\nSince our launch, the community has added LangChain support. Our integration for LlamaIndex is also under review. Our current focus is building a TypeScript implementation with a native-level experience. \n\nCurrently, we provide a python package called lancedb which is pip installable and delivers a great local workflow. Beyond what we’re working on right now, here’s what you can expect:\n\n* Ecosystem **integrations** into OpenAI plugin / AutoGPT etc\n* Richer set of **embedding functions** and **document processing** conveniences\n* **Gallery** of generative AI apps powered by LanceDB\n* Solutions for **cloud** deployment\n\n### **🙏 How to get started**\n\nTo get started with LanceDB head over to our [repo](https://github.com/lancedb/lancedb). If you have questions, feedback, or want help using LanceDB in your app, don’t hesitate to drop us a line at [contact@lancedb.com](mailto:contact@lancedb.com).",
+      "url": "https://www.ycombinator.com/launches/IZK-lancedb-serverless-low-latency-vector-database-for-ai-applications",
+      "votes": 22,
+      "created_at": "2023-05-05T03:22:53.361Z"
+    }
+  ]
+}

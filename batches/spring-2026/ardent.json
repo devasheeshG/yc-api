@@ -1,0 +1,96 @@
+{
+  "id": 31475,
+  "name": "Ardent",
+  "slug": "ardent",
+  "former_names": [],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/f4ef54cc2ae204ad4ac662f9bfacf6a3fa6faf47.png",
+  "website": "https://tryardent.com",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "Clone any postgres DB regardless of size in 6s so agents can test their work",
+  "one_liner": "Database sandboxes for Agents",
+  "team_size": 3,
+  "industry": "B2B",
+  "subindustry": "B2B -> Infrastructure",
+  "launched_at": 1775685642,
+  "tags": [],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": true,
+  "nonprofit": false,
+  "batch": "Spring 2026",
+  "status": "Active",
+  "industries": [
+    "B2B",
+    "Infrastructure"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/ardent",
+  "api": "https://devasheeshg.github.io/yc-api/batches/spring-2026/ardent.json",
+  "year_founded": 2025,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/ardent-db",
+  "x_url": "https://x.com/ArdentAI",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/f4ef54cc2ae204ad4ac662f9bfacf6a3fa6faf47.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Aaron Epstein",
+    "url": "https://www.ycombinator.com/people/aaron-epstein"
+  },
+  "founders": [
+    {
+      "user_id": 1239054,
+      "full_name": "Vikram Chennai",
+      "title": "Founder/CEO",
+      "founder_bio": "Database sandboxes for Agents. Clone any Postgres DB regardless of size in 6s so agents can test their work\n\nFormerly ML Engineer, Cornell CS",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/vikram-chennai/",
+      "x_url": "https://x.com/vchennai2",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/5e3dd79a34fc2739d09791645c7883ccf5c8f6ce.jpg"
+    }
+  ],
+  "jobs": [
+    {
+      "id": 102418,
+      "title": "Founding Engineer - Product (Staff)",
+      "url": "https://www.ycombinator.com/companies/ardent/jobs/4fjIRN4-founding-engineer-product-staff",
+      "location": "San Francisco, CA, US",
+      "type": "Full-time",
+      "role": "Engineering",
+      "role_type": "Full stack",
+      "salary_range": "$150K - $200K",
+      "equity_range": "1.00% - 3.00%",
+      "experience": "3+ years",
+      "visa": "US citizen/visa only",
+      "skills": [
+        "Go",
+        "PostgreSQL"
+      ]
+    }
+  ],
+  "news": [],
+  "launches": [
+    {
+      "id": 100815,
+      "title": "Ardent - Clone any postgres DB of any size in <6s",
+      "tagline": "Ardent lets engineers give their coding agents 1:1 clones of prod to test code and prevent downtime",
+      "body": "Hi! I’m Vikram founder of [@Ardent](https://bookface.ycombinator.com/company/31475). **We let you clone any postgres DB in &lt;6s** so your coding agents and devs can test code on a 1:1 of production or dev DBs with zero risk\n\n![uploaded image](/media/?type=post&id=100815&key=user_uploads/1239054/b0ebde7f-0ac7-49a9-8f42-e4fb3f26d585)\n\nWe’re working with companies with huge amounts of data like Supermemory and YC companies like [@Surface Labs](https://bookface.ycombinator.com/company/28921)\n\n**This is me cloning a 1.6TB db is 6s:**\n\n<https://youtu.be/8Q4IX7HUJmo>\n\nWebsite: <https://tryardent.com/>\n\n**How did we get here (the problem)?**\n\nArdent was a reaction to the failure of our last product - an AI Data Engineer. It was a coding agent that generated data pipelines, wrote migrations, backfills and other things you’d expect of a data engineer.\n\nWhile the code _looked_ great we had no way of testing generated code. Writing to prod was out of the question and dev environments were never in sync, shared amongst devs which caused write clashes between agents, and was a huge pain to manage. **_What we needed was a ephemeral DB sandbox per agent of the user’s DB._**\n\nBecause of how hard testing was, generated code would never be tested and was too unstable to put in production. Database failures almost always mean downtime, a risk both we and customers were obviously not willing to take. We churned almost 200K in ARR\n\nThis problem exists with any coding agent today. We’re shipping 100x more DB code to production and we mostly just hope to god it works the same as dev.\n\n**Ardent - Isolated &lt;6s database clones that let you test agent code:**\n\nArdent solves the DB sandbox problem by letting you create 6s clones of ANY postgres DB regardless of size, allowing you to give every developer and every agent a full copy of production or dev to test against.\n\nClones autoscale to zero when not in use, use copy on write for massive storage efficiency and can be loaded with a single CLI command (zero infra management)\n\nYou can see the exact results of any code run against the DB in a perfect 1:1 reproduction and don’t have to change your DB provider.\n\nThe entire thing runs as a CLI that feels exactly like git. Cloning is as simple as “ardent branch create &lt;name&gt;”\n\nThis means you can spin up instant environments to test _every_ line of DB code with none of the overhead\n\n**Asks**\n\n**Use Ardent at your company to go faster by let agents work safely at the DB layer and prevent regressions:** <https://cal.com/vikram-chennai/yc-reserved>\n\n**Introduce me to series A-C engineering leaders (Founders, CTOs, VP of Eng):** Many of the later stage startups we’ve talked to have the majority of their engineers shipping with claude, codex or cursor on migrations, backfills and pretty much any code that hits the DB. They will eventually crash their production DB unless they’re rigorously testing. I’d like to prevent those crashes :)\n\nContact me: [vikram@tryardent.com](mailto:vikram@tryardent.com)",
+      "url": "https://www.ycombinator.com/launches/QE3-ardent-clone-any-postgres-db-of-any-size-in-6s",
+      "votes": 16,
+      "created_at": "2026-05-05T20:21:15.273Z"
+    }
+  ]
+}

@@ -1,0 +1,111 @@
+{
+  "id": 27693,
+  "name": "Depot",
+  "slug": "depot",
+  "former_names": [],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/ee26edbce33f1fe3229feaa137276afd82b5ea00.png",
+  "website": "https://depot.dev",
+  "all_locations": "Remote",
+  "long_description": "Depot gives engineering teams the fast source control, builds, CI runners, sandboxes, caches, and registries they need to ship reliable software they trust at AI speed. Companies like PostHog, Inference, Wistia, PlanetScale, Poolside, Astral, and Semgrep use Depot to power their entire software delivery stack.\r\n\r\nKyle and Jacob worked together as staff engineers for 4.5 years at Thorn and Era Software, before founding Depot. Depot is their take on what software delivery and a replacement for GitHub could look like in the world of AI.\r\n",
+  "one_liner": "Software delivery built for machine scale.",
+  "team_size": 22,
+  "industry": "B2B",
+  "subindustry": "B2B -> Engineering, Product and Design",
+  "launched_at": 1669037258,
+  "tags": [
+    "Developer Tools",
+    "DevOps"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Winter 2023",
+  "status": "Active",
+  "industries": [
+    "B2B",
+    "Engineering, Product and Design"
+  ],
+  "regions": [
+    "Remote",
+    "Fully Remote"
+  ],
+  "stage": "Growth",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/depot",
+  "api": "https://devasheeshg.github.io/yc-api/batches/winter-2023/depot.json",
+  "year_founded": 2022,
+  "city": null,
+  "country": null,
+  "linkedin_url": "https://www.linkedin.com/company/depot-technologies",
+  "x_url": "https://twitter.com/depotdev",
+  "fb_url": null,
+  "cb_url": "https://www.crunchbase.com/organization/depot-2f77",
+  "github_url": "https://github.com/depot",
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/ee26edbce33f1fe3229feaa137276afd82b5ea00.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Nicolas Dessaigne",
+    "url": "https://www.ycombinator.com/people/nicolas-dessaigne"
+  },
+  "founders": [
+    {
+      "user_id": 600738,
+      "full_name": "Kyle Galbraith",
+      "title": "Founder",
+      "founder_bio": "Kyle Galbraith is the Co-Founder & CEO of Depot. He and Jacob Gillespie (CTO) built Depot after being faced with the same challenges time and time again surrounding slow CI builds across all generic providers. He is originally from Portland, Oregon but relocated to Montpellier, France in October 2022 to immerse himself in French culture with his wife who is originally from the area.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/kylegalbraith459",
+      "x_url": "https://twitter.com/kylegalbraith",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/97ac9fc9205afdfd9a00a9dd95b589e9cfcae2f3.jpg"
+    },
+    {
+      "user_id": 956934,
+      "full_name": "Jacob Gillespie",
+      "title": "Founder",
+      "founder_bio": "Cofounder and CTO of Depot. US expat living in the UK.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/jacobwgillespie/",
+      "x_url": "https://twitter.com/jacobwgillespie",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/d302e2c98c1cce2705fb9bd496baf2fb19b0339e.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [
+    {
+      "title": "Depot raised a $10M Series A",
+      "url": "https://x.com/kylegalbraith/status/2031357969338663387?s=46&t=O2dQBFTAcOO_utQ0IktGUg",
+      "date": "Mar 10, 2026"
+    },
+    {
+      "title": "Depot raises $4.1M to speed software builds by 40X | VentureBeat",
+      "url": "https://venturebeat.com/programming-development/depot-raises-4-1m-to-help-developers-speed-up-software-builds-by-40x-or-more/",
+      "date": "Aug 22, 2024"
+    }
+  ],
+  "launches": [
+    {
+      "id": 79909,
+      "title": "✨ Depot: Managed GitHub Actions runners for AWS",
+      "tagline": "30% faster compute, 10x faster cache, 1/2 the cost",
+      "body": "Hey, we’re Kyle and Jacob, the founders of [Depot](https://depot.dev), a hosted container build service for Docker images, and we’re excited to launch our new product: [managed GitHub Actions runners for AWS](https://depot.dev/products/github-actions)!\n\n![uploaded image](/media/?type=post&id=79909&key=user_uploads/956934/99034910-f435-44ef-8301-3610146d56bd)\n\n## The Problem\n\nWhile GitHub Actions is one of the most prevalent CI providers, Actions is slow for a few reasons:\n\n* GitHub uses underpowered CPUs.\n* Network throughput for cache and the internet at large is capped at 125 MB/s.\n* Total cache storage is limited to 10GB per repo.\n* Larger runners are expensive and take a long time to start running jobs.\n\n## The Solution\n\n**Depot-managed runners solve this!** Rather than your CI jobs running on GitHub’s slow compute, Depot routes those same jobs to powerful EC2 instances. And not only is this faster, it’s also 1/2 the cost of GitHub Actions!\n\nWe do this by launching a dedicated instance for each job, registering that instance as a self-hosted Actions runner in your GitHub organization, and then terminating the instance when the job is finished.\n\nWe've also integrated the runners with our existing distributed storage cluster that we use for Docker image builds for up to 10x faster cache throughput! 💪\n\n## Demo Video\n\n<https://www.youtube.com/watch?v=VX5Z-k1mGc8>\n\n## Tech Details\n\nUsing AWS as our compute provider has a few advantages:\n\n* We launch fast `m7a` instances, which are typically 30%+ more performant than alternatives.\n* Each instance has high-throughput networking of up to 1.5 GB/s, hosted in `us-east-1`, so interacting with artifacts, cache, container registries, or the internet at large is quick.\n* Each instance has a public IPv4 address, so you’re not sharing any rate limits with anyone else.\n\nBy integrating the runners with the distributed cache system (backed by S3 and Ceph) that we use for Docker build cache, jobs automatically save/restore cache from this cache system, with speeds of up to 1.5 GB/s, and without the default 10 GB per repo storage limit.\n\nAdditionally, the runners are located in the same VPC as our [Docker build service](https://depot.dev), so for anyone using both, built containers are now able to `--load` back into CI for testing much faster than they would over GitHub’s default network.\n\nWe build our machine image from [GitHub's image definition](https://github.com/actions/runner-images), so all the same software you expect is pre-installed. Support for Arm runners, powered by Graviton instances, is in beta now.\n\n## Getting Started\n\nYou can sign up at <https://depot.dev/sign-up> for a free trial if you’d like to try it out with your own workflows!",
+      "url": "https://www.ycombinator.com/launches/Kmr-depot-managed-github-actions-runners-for-aws",
+      "votes": 21,
+      "created_at": "2024-04-03T14:38:17.273Z"
+    },
+    {
+      "id": 67759,
+      "title": "⚡ Depot - a faster way to build Docker images",
+      "tagline": "A remote container build service that is 3-14x faster than CI providers, with emulation-free support for both Intel & Arm architectures",
+      "body": "Hey everyone! We’re Kyle and Jacob, and we’re excited to share [Depot](https://depot.dev/) with all of you.\n\n[![uploaded image](/media/?type=post&id=67759&key=user_uploads/600738/bc4dbd39-a0a3-4838-a4f5-20e6302c00b2)](https://depot.dev/benchmark/temporal)\n\nDepot is a remote container build service that is 3-14x faster than building Docker images inside of generic CI providers. It’s much faster than existing solutions like GitHub Actions because we run BuildKit the right way with a persistent SSD cache. We launch both Intel and Arm VMs for each build, allowing you to build native multi-platform or Arm images without any slow emulation.\n\nPostHog’s Docker builds [run around 5x faster with Depot](https://posthog.com/blog/speeding-up-posthog-builds-with-depot), reducing daily time spent on builds from 5+ hours to just an hour. We continuously benchmark several open-source projects, comparing `docker build` and `depot build`, including:\n\n* [Temporal](https://depot.dev/benchmark/temporal) (\\~14.5x faster, saving 7 hours over the last 10 builds)\n* [Supabase](https://depot.dev/benchmark/supabase) (\\~8.5x faster, saving 2 hours over the last 10 builds)\n\n### Our background\n\nAs software and platform engineers, we absolutely hate slow CI builds. Everyone has their own internal timer for what classifies a slow build, our own is 5 minutes, if it takes longer than that we get annoyed. We have experienced first-hand the pain and challenge of keeping Docker container builds fast, optimizing/re-optimizing pipelines and Dockerfiles, and implementing custom runners for multi-platform builds. It’s all annoying, unnecessary, and a drain on developer happiness.\n\nOverall, slow builds clog up the delivery pipeline and take time away from iterating on new ideas and fixing problems for users.\n\n### Building Docker images is slow\n\nBuilding Docker images in CI providers like GitHub Actions, CircleCI, etc. is slow:\n\n* **Saving and loading layer cache is slow.** Transferring the cache over the network to the ephemeral CI runners eats away at any cache time savings.\n* **Runner resources are constrained,** with limited CPUs, RAM, and disk space.\n* **Multi-platform and Arm builds require emulation.** Emulation is orders of magnitude slower than native, and Arm is increasingly important with the rise of popularity with devices like MacBook M1, Graviton, etc.\n\n### Our Solution\n\nDepot provides managed VMs running BuildKit, the backing build engine for Docker. Each VM includes 4 CPUs, 8GB of memory, and a persistent 50GB SSD cache disk. We launch both native Intel and Arm machines on AWS. You can choose to have your builder VMs launch in our AWS account or in your own if you want to maintain total control over your data.\n\nOur `depot` CLI is a drop-in replacement for `docker build` as we embed Docker `buildx` directly as a library. Anything you can build with Docker today, you can build with Depot on our remote VMs.\n\n![uploaded image](/media/?type=post&id=67759&key=user_uploads/600738/79d72d22-c290-4d0f-87bc-2e2ae2527797)\n\n### Signing up\n\nWe love having new folks try out Depot and throw new questions & feedback our way. It really is the fuel that keeps a new startup going.\n\nIf you’re annoyed by your slow Docker image builds today, we have a 14-day free trial that you automatically get when you sign up here: <https://depot.dev/sign-up>.",
+      "url": "https://www.ycombinator.com/launches/Hct-depot-a-faster-way-to-build-docker-images",
+      "votes": 37,
+      "created_at": "2022-12-07T14:37:25.884Z"
+    }
+  ]
+}

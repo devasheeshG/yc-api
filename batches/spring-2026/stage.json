@@ -1,0 +1,91 @@
+{
+  "id": 31332,
+  "name": "Stage",
+  "slug": "stage",
+  "former_names": [],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/ac5a6cce941f973ff80cb4496e195f4010e5c21b.png",
+  "website": "https://www.tryluke.dev/",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "Stage is a new code review platform designed to help engineers better understand and review AI generated code.\r\n\r\nEngineering teams are shipping faster than ever with agents, but now they’re drowning in an endless backlog of PRs to review. Stage reorganizes the code review process around how engineers naturally think, enabling you to review (and merge!) PRs 5x faster. \r\n\r\nUsed by top engineers at Legora, n8n, Branch, and more. ",
+  "one_liner": "Code review platform for humans and agents",
+  "team_size": 2,
+  "industry": "B2B",
+  "subindustry": "B2B -> Engineering, Product and Design",
+  "launched_at": 1774297910,
+  "tags": [],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Spring 2026",
+  "status": "Active",
+  "industries": [
+    "B2B",
+    "Engineering, Product and Design"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/stage",
+  "api": "https://devasheeshg.github.io/yc-api/batches/spring-2026/stage.json",
+  "year_founded": 2026,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/stagereview",
+  "x_url": "https://x.com/stagereviewapp",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/ac5a6cce941f973ff80cb4496e195f4010e5c21b.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [
+    "https://bookface-images.s3.us-west-2.amazonaws.com/attachments/2bac73d4ef4860cd9a797d3129056892ebf93a18.png",
+    "https://bookface-images.s3.us-west-2.amazonaws.com/attachments/5d9e6b30996368c517f0b9a4acf6cf9b27807c24.png"
+  ],
+  "primary_partner": {
+    "name": "Pete Koomen",
+    "url": "https://www.ycombinator.com/people/pete-koomen"
+  },
+  "founders": [
+    {
+      "user_id": 327595,
+      "full_name": "Charles Pan",
+      "title": "Founder/CEO",
+      "founder_bio": "Co-founder and CEO of Stage. Stanford CS '22 and varsity men's fencing. Previously early engineer at Yuzu Health, Five Rings Capital.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/charleslpan",
+      "x_url": "https://x.com/ceefryingpan",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/011369b7267350cb29773eb392e91ce034267d82.jpg"
+    },
+    {
+      "user_id": 1219322,
+      "full_name": "Dean Stratakos",
+      "title": "Founder/CTO",
+      "founder_bio": "Co-founder and CTO of Stage. Stanford CS '22 and varsity men's tennis. Prev developer @ Five Rings Capital.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/dean-stratakos",
+      "x_url": "https://x.com/DeanStratakos",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/bc7e3c53784c4a7f53937c0f5c000413d6256235.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 101617,
+      "title": "Stage - Code review platform for humans and agents",
+      "tagline": "Stage helps engineering teams understand and review PRs 5x faster",
+      "body": "Hey everyone! We’re Charles and Dean - cofounders of Stage.\n\n**👉 tldr:** Drowning in AI generated PRs? Tired of using GitHub? Us too. Stage is a code review platform designed to help you understand and review changes 5x faster.\n\n<https://youtu.be/EjMjGAqSLvo>\n\n**💻 How to get started**\n\nTry it out today at[ https://stagereview.app/](https://stagereview.app/) - all you need is your GitHub account.\n\nIt’s free for your first 14 days, and then you can use _LAUNCH_ to get 25% off for 3 months :)\n\nOther ways to try it out:\n\n* Try our demo on any public GitHub PR [here](https://stagereview.app/try)\n* Download our open source CLI [tool](https://github.com/ReviewStage/stage-cli) - runs locally and works with any coding agent\n\n**❌ The Problem**\n\nEngineering teams are shipping faster than ever, but now they’re drowning in an endless backlog of PRs to review. The bottleneck isn't writing code anymore, it's reviewing it.\n\nThis leads to:\n\n* PRs being rubber stamped without getting closely looked at\n* Unexpected behaviors slipping through to production\n* Your engineers merging changes they don’t really understand\n\nCode review bots are great at catching surface level bugs but don’t solve the root problem.\n\nEngineers need a faster way of understanding changes and giving meaningful feedback, and GitHub’s UI hasn’t changed in over a decade.\n\n**🧠 How it works**\n\nWe’re redesigning the code review experience around the way that engineers naturally read PRs.\n\n* When you open a PR or push a new commit, Stage groups your changes into small logical “chapters”\n* These chapters get ordered in the way that makes most sense to read\n* For each chapter, Stage tells you what changed and specific things to double check\n* Once you review all the chapters, you’re done reviewing the PR!\n\nEverything is synced seamlessly with GitHub (commenting, approving, etc) so it fits right into the workflows you’re already used to.\n\n![uploaded image](/media/?type=post&id=101617&key=user_uploads/327595/5004c374-be1f-47fa-a182-638252d50cf6)\n\n**❤️ Why did we start Stage?**\n\nWe're two engineers who got frustrated with using GitHub for code review. \n\nAs coding agents started taking off, we saw our PR backlog pile up faster than we could handle. Not only that, the PRs themselves were getting larger and harder to understand, and we spent most of our time trying to build a mental model of what a PR was actually doing.\n\nWe built Stage to make reviewing a PR feel more like reading chapters of a book, not an unorganized set of paragraphs. We use it every day now (not just to review each other's code, but also our own!) and at this point we can't really imagine going back to using GitHub.\n\n**👋 About Us**\n\nCharles and Dean met in their very first class at Stanford freshman year, and have been best friends ever since.\n\nThey ended up taking every class together, worked at the same quant trading firm after graduating, and were roommates in New York before joining YC. They saw firsthand how AI caused code review to break down and started Stage to rebuild the experience for how teams operate today.\n\n![uploaded image](/media/?type=post&id=101617&key=user_uploads/327595/91328354-5de7-4d17-9ac6-4c48954f1e15)\n\n",
+      "url": "https://www.ycombinator.com/launches/QQz-stage-code-review-platform-for-humans-and-agents",
+      "votes": 43,
+      "created_at": "2026-05-20T01:40:49.081Z"
+    }
+  ]
+}

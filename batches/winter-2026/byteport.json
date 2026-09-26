@@ -1,0 +1,77 @@
+{
+  "id": 31213,
+  "name": "Byteport",
+  "slug": "byteport",
+  "former_names": [],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/515fbb960faad853499593966f0f18335db6e845.png",
+  "website": "https://byteport.com/",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "Founded in 2025, Byteport is a technology company that builds mission-critical network infrastructure for robotics, satellite, AI, and enterprise applications all over the world. Businesses of every size—from new startups to public companies—use our software to accelerate file transfer online.",
+  "one_liner": "Global upload acceleration for 1GB-100TB files.",
+  "team_size": 4,
+  "industry": "B2B",
+  "subindustry": "B2B",
+  "launched_at": 1768498499,
+  "tags": [],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Winter 2026",
+  "status": "Active",
+  "industries": [
+    "B2B"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/byteport",
+  "api": "https://devasheeshg.github.io/yc-api/batches/winter-2026/byteport.json",
+  "year_founded": 2025,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/byteport-io",
+  "x_url": "",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/515fbb960faad853499593966f0f18335db6e845.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Tyler Bosmeny",
+    "url": "https://www.ycombinator.com/people/tyler-bosmeny"
+  },
+  "founders": [
+    {
+      "user_id": 1403946,
+      "full_name": "Jayram Palamadai",
+      "title": "Founder/CEO",
+      "founder_bio": "CEO @ Byteport | CERN, Netflix",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/jayram-palamadai/",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/d5cf6170934b0223f3b98b3f72fad4ab8c2d7d2b.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 98332,
+      "title": "Byteport - Transfer Large Files 2-10x Faster than TCP",
+      "tagline": "Every file you've ever uploaded uses a protocol designed in 1974. We built the replacement.",
+      "body": "**TL;DR:** Byteport’s Dynamic Accelerated Record Transfer (DART) is a new file transfer protocol typically 10x faster than TCP. With DART, applications like AI, robotics, and video data can move files from 1GB - 100TB from any source to any destination in one click.\n\n<https://www.youtube.com/watch?v=SNTyLnr9vSo>\n\n**The problem:**\n\nIt’s extremely difficult and expensive to move data quickly. Fortune 500 companies regularly ship their data in trucks. Current infrastructure still requires extensive hardware, software, network configuration, and time.\n\nByteport has changed this.\n\n**The solution:**\n\nOur accelerated file transfer protocol is capable of moving files between any two endpoints on the internet with zero configuration.\n\nWith a single installation, your laptop/robot/sensor can send data 10x faster than before. On unreliable connections like cellular/LTE/satellite, Byteport regularly shows speedups of 1000x (yes, really); giving you the ability to send files _anywhere_, at speeds previously thought impossible.\n\n**Why this matters:**\n\nIf you work with big data, you are likely throwing away your biggest competitive advantage.\n\n* Robotics teams delete up to 96% of their sensor data every day.\n* Foundation/AI models drift by up to 5% daily because they can’t perform nightly fine-tuning, like OpenAI does.\n* SaaS / Data distributors lose weeks every sales cycle building custom connectors and convincing enterprises they’re secure enough.\n\nWhy is so much value left on the table? Data volume.\n\n**What YOU unlock with DART’s 10x data speed:**\n\n* Robotics data hits the cloud immediately - robots otherwise take up to 7 days to learn if they made a mistake.\n* AI teams get 10x more ablations/evals/fine-tunes.\n* SaaS / Big Data teams can pass security reviews without needing SOC 2 and charge 2-3x for data delivery (their “custom connector” = Byteport).\n\n**Ready to DART?**\n\nNetwork bottlenecks don’t just take away your biggest competitive moat, they also waste your time and money. Byteport can change that.\n\n* Book a call: <https://cal.com/byteport>\n* Email us: [info@byteport.io](mailto:info@byteport.io).",
+      "url": "https://www.ycombinator.com/launches/Pa0-byteport-transfer-large-files-2-10x-faster-than-tcp",
+      "votes": 17,
+      "created_at": "2026-03-02T17:16:54.201Z"
+    }
+  ]
+}

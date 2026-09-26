@@ -1,0 +1,91 @@
+{
+  "id": 30851,
+  "name": "Sylvian",
+  "slug": "sylvian",
+  "former_names": [],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/9ce6100b0248b0cf8f017986931a26cfe36046f3.png",
+  "website": "https://sylvian.ai",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "Sylvian helps companies build specialized AI agents. ",
+  "one_liner": "Specialized AI Agents.",
+  "team_size": 2,
+  "industry": "B2B",
+  "subindustry": "B2B",
+  "launched_at": 1762195938,
+  "tags": [
+    "Reinforcement Learning",
+    "B2B",
+    "AI"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Fall 2025",
+  "status": "Inactive",
+  "industries": [
+    "B2B"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/sylvian",
+  "api": "https://devasheeshg.github.io/yc-api/batches/fall-2025/sylvian.json",
+  "year_founded": 2025,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/sylvian",
+  "x_url": "https://x.com/TheSylvianAI",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": "https://github.com/SylvianAI",
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/9ce6100b0248b0cf8f017986931a26cfe36046f3.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Aaron Epstein",
+    "url": "https://www.ycombinator.com/people/aaron-epstein"
+  },
+  "founders": [
+    {
+      "user_id": 1252639,
+      "full_name": "William Huang",
+      "title": "Founder",
+      "founder_bio": "CEO @ Sylvian. IPhO Gold, Ex-Waymo, Citadel Securities, Stanford CS.",
+      "is_active": false,
+      "linkedin_url": "https://www.linkedin.com/in/william-s-huang/",
+      "x_url": "https://x.com/amiwilliamhuang",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/6a8e42f12ffb02233ed03f97d860d7a702b7bbcf.jpg"
+    },
+    {
+      "user_id": 2950012,
+      "full_name": "Niall Kehoe",
+      "title": "Founder",
+      "founder_bio": "CTO @ Sylvian. Ex-Stanford CS, Two Sigma, Harvard Medical School / Stanford research",
+      "is_active": false,
+      "linkedin_url": "https://www.linkedin.com/in/niallkehoe",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/ec1c649325677c65811a0752c0e15aac2e351634.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 95160,
+      "title": "Sylvian: Data for LLMs through Competition",
+      "tagline": "Sylvian incentivizes high quality expert data for LLMs through Competition",
+      "body": "We are [William Huang](https://linkedin.com/in/william-s-huang) and [Niall Kehoe](https://www.linkedin.com/in/niallkehoe/), and we’re launching [Sylvian](https://sylvian.ai)! We gather expert data for LLMs through competitions, starting with tool use (e.g. Excel, VSCode).\n\n![uploaded image](/media/?type=post&id=95160&key=user_uploads/1252639/cb059d06-59e0-402c-a49e-02752bbb9e17)\n\n**Problem**\n\nScaling laws dictate that LLMs continue to need lots of expert data, despite advances in RL. Even RL environments require data—for example, an environment that allows LLMs to edit spreadsheets in Excel would still require sample spreadsheets to define the task at hand.\n\nUnfortunately, existing data vendors like Scale or Mercor are not motivating the best experts through part-time pay.\n\n**Our Solution**\n\nSylvian hosts competitions where the best experts are motivated by the thrill of moving up leaderboards and the prestige of winning a large competition. We’re starting with tool use data because there are many expert communities surrounding tools like Excel and VSCode.\\\n\\\nWe already have 4,500+ experts, from IMO Golds to MIT/Stanford PhDs to full time QRs at Point72, producing data at 1B tokens/week!\n\nOur data is consistently at the frontier. Below is the result of one of our latest benchmarks we made with VSCode data from Data Science experts. See [sylvian.ai](https://www.sylvian.ai/blog/quant-benchmark) for more details.\n\n![uploaded image](/media/?type=post&id=95160&key=user_uploads/1252639/b874f47f-fef0-46c4-b26c-0d60887aadc5)\n\n**Our Story**\n\nWilliam won an IPhO Gold at 17 and Niall has won international coding contests at 13, since then we’ve went on to be a part of Stanford CS, Harvard Medical School, Citadel Securities, Two Sigma, and Waymo. \n\n**Our Ask**\n\nIf you’re in need of expert tool use data, we’d love to speak to you! You can reach us at [founders@sylvian.ai](mailto:founders@sylvian.ai) or visit [sylvian.ai](https://sylvian.ai).",
+      "url": "https://www.ycombinator.com/launches/Okq-sylvian-data-for-llms-through-competition",
+      "votes": 36,
+      "created_at": "2025-11-04T19:46:52.391Z"
+    }
+  ]
+}

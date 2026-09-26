@@ -1,0 +1,111 @@
+{
+  "id": 26779,
+  "name": "Notebook Labs",
+  "slug": "notebook-labs",
+  "former_names": [
+    "Notebook"
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/1e9598aadf454f0b2c80558c3295465a4baabbcc.png",
+  "website": "http://www.notebooklabs.xyz",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "Notebook solves the Web3 identity problem by using Zero-Knowledge to provide both anonymous proof-of-humanity and credential aggregation. Notebook initially verifies users’ identifying information to ensure that each person has just a single Notebook. Neither Notebook, nor any other company knows the link between a user’s personal information and their Notebook. Once a user’s Notebook account is created they can begin proving their humanity and aggregating their credentials across wallets.\r\n\r\nNotebook can be used to increase the safety of DeFi, governance, and airdrops. With Notebook, creators and communities can run Sybil-resistant airdrops, DAOs can verify the humanity and aggregate the credentials of participants, and lending protocols can build credit scoring systems to offer lower-collateralized loans. ",
+  "one_liner": "Decentralized, anonymous, and accountable identity on Web3.",
+  "team_size": 3,
+  "industry": "B2B",
+  "subindustry": "B2B",
+  "launched_at": 1660771474,
+  "tags": [
+    "DeFi",
+    "Crypto / Web3",
+    "Identity"
+  ],
+  "tags_highlighted": [
+    "Crypto / Web3"
+  ],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Summer 2022",
+  "status": "Inactive",
+  "industries": [
+    "B2B"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/notebook-labs",
+  "api": "https://devasheeshg.github.io/yc-api/batches/summer-2022/notebook-labs.json",
+  "year_founded": 2022,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "",
+  "x_url": "https://twitter.com/NotebookLabs",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/1e9598aadf454f0b2c80558c3295465a4baabbcc.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Harj Taggar",
+    "url": "https://www.ycombinator.com/people/harj-taggar"
+  },
+  "founders": [
+    {
+      "user_id": 990261,
+      "full_name": "Nathaniel Masfen-Yan",
+      "title": "Founder",
+      "founder_bio": "Nathaniel has a background in mathematics and theoretical computer science, completing graduate cryptography courses at Stanford and competing in the International Mathematical Olympiad for New Zealand. ",
+      "is_active": false,
+      "linkedin_url": "http://www.linkedin.com/in/nathaniel-masfen-yan-99701417b",
+      "x_url": "https://twitter.com/natrhmy",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/e9a3338c2dd9edc6c36f6f6c5bc763a5a7a58b6d.jpg"
+    },
+    {
+      "user_id": 949474,
+      "full_name": "Solal Afota",
+      "title": "Founder",
+      "founder_bio": "Solal has a background in math and theoretical computer science. He grew up in the Middle East and competed internationally for the French math team. Passionate about blockchain infrastructure, cryptography, and identity.",
+      "is_active": false,
+      "linkedin_url": "https://linkedin.com/in/solal-afota-845067202",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/a6940459980439b4011ef9999707b57f81953c69.jpg"
+    },
+    {
+      "user_id": 1016094,
+      "full_name": "Dhruv Mangtani",
+      "title": "Founder",
+      "founder_bio": "- Founder and CEO at Maniac, Inc (a16z Speedrun 005)\n- Co-Founder and CEO at Notebook Labs (YC S22)\n- Theoretical Physics at Caltech\n- AutoML at Berkeley RISELab\n- B.S. Physics & Mathematics at Stanford\n- M.S. Computer Science at Stanford (dropped)",
+      "is_active": false,
+      "linkedin_url": "http://www.linkedin.com/in/dhruvmangtani/",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/b050845ef19019302828a0cc8352f9b40b759ff7.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [
+    {
+      "title": "Bain Capital Crypto Leads $3.3M Round for Privacy-Focused Identity Protocol",
+      "url": "https://www.coindesk.com/business/2022/10/27/bain-capital-crypto-leads-33m-round-for-privacy-focused-identity-protocol/",
+      "date": "Oct 27, 2022"
+    }
+  ],
+  "launches": [
+    {
+      "id": 65473,
+      "title": "🔑 Notebook Labs: Anonymous, Accountable, Self-Sovereign Identity",
+      "tagline": "We help Web3 organizations trust their users without compromising their anonymity",
+      "body": "Hi everyone, we are [Nat](https://www.linkedin.com/in/nathaniel-masfen-yan-99701417b/), [Solal](https://www.linkedin.com/in/solal-afota-845067202/) and [Dhruv](https://www.linkedin.com/in/dhruvmangtani/), and we are stoked to present [Notebook Labs](https://notebooklabs.xyz)! 🚨[📈](https://emojipedia.org/chart-increasing/)\n\n**TL; DR:** Notebook uses Zero-Knowledge to set a new standard for Web3 identity. When a user creates their unique Notebook, they can prove their humanity and credentials to protocols across wallets and chains, without having to reveal any personal information.\n\nAnd they can do all of this with or without a wallet.\n\n**🕵🏽 The Identity Problem on Web3** \n\nOn blockchains, users identify themselves with wallet addresses, providing limited privacy or accountability. Malicious actors can easily re-identify themselves through new wallet addresses, making it difficult for protocols to prevent fraud or Sybil-attacks. Until accountability is brought to Web3, governments, banks, and other trusted systems have little incentive to put sensitive applications at risk for the sake of decentralization. \n\n**🧪 Where does Notebook fit in the identity space?** \n\nCurrently, Web3 identities are either non-accountable (e.g. wallet address, Polygon ID, Sign-in with Ethereum, Gitcoin Passport), where users can create multiple identities, or non-anonymized (e.g. Proof of Humanity, Bright ID, disco.xyz ). Powered by Zero-Knowledge Proofs, Notebook is decentralized, accountable, anonymous, and self-sovereign.\n\n**🪄 How does it work?** \n\nWhen creating their Notebook, users receive a mnemonic that they encrypt with a password through the Notebook app or chrome extension. They then have the option to enter personally identifying information like their SSN-4 or passport, what we call “Strong Proof-of-Humanity”, or authenticate with Twitter, “Weak Proof-of-Humanity.” With Weak PoH, user humanity can also be verified through an analysis of the user’s social graph. By using Zero-Knowledge proofs, neither Notebook Labs nor any other company knows the link between a user’s personal information and their Notebook. If a user chooses to not verify their humanity, they can still prove and develop on-chain credentials, but protocols can prevent them from accessing sensitive services.\n\nWith just a few lines of code, protocols can verify a user’s credentials and Proof-of-Humanity through their Notebook. Protocols can then record credentials, with the user’s permission, like credit scores, illicit content posting flags, and DAO engagement. Users can prove these credentials to protocols to gain entry to services.\n\n[🏭](https://emojipedia.org/factory/) **Can I integrate with Notebook in production?** \n\nYes! Check out our demo integration: <https://www.loom.com/share/28ae17da0496459c8c70a24b3b5bd67f>.\n\nWe can work with you 1-on-1 to integrate Notebook authentication in a few lines of code. If you’re interested in learning more, feel free to reach out!\n\nNote: We are currently implementing Notebook as a rollup, and wallet addresses will be obviated by mid-September.\n\n[🙌](https://emojipedia.org/raising-hands/) **How can you help?** \n\nIf you or someone you know \n\n* Is considering doing an airdrop\n* Participates in a DAO\n* Works with blockchain infrastructure\n* Works in the DeFi staking/borrowing space\n* Manages Web3 communities or events\n\n**Contact Us**\n\nNathaniel Masfen-Yan [nat@notebooklabs.xyz](mailto:nat@notebooklabs.xyz) Telegram: @NathanielMY\n\nSolal Afota [solal@notebooklabs.xyz](mailto:solal@notebooklabs.xyz) Telegram: @solalette\n\nDhruv Mangtani [dhruv@notebooklabs.xyz](mailto:dhruv@notebooklabs.xyz) Telegram: @dhruvm0",
+      "url": "https://www.ycombinator.com/launches/H21-notebook-labs-anonymous-accountable-self-sovereign-identity",
+      "votes": 33,
+      "created_at": "2022-08-18T21:12:13.685Z"
+    }
+  ]
+}

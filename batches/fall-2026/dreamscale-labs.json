@@ -1,0 +1,112 @@
+{
+  "id": 35850,
+  "name": "Dreamscale Labs",
+  "slug": "dreamscale-labs",
+  "former_names": [],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/5a0eb88901e7f46ec71cc8739e8069f4815b0a52.png",
+  "website": "https://dreamscalelabs.com",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "Dreamscale Labs is building the fastest cloud inference platform for robotics. As complex physical AI models become difficult to fit on expensive on-robot GPUs, we let users offload inference to the cloud and serve them with real-time latency. So far, we've hit 40-50% lower latency than existing neoclouds.\r\n",
+  "one_liner": "Running robot brains in the cloud",
+  "team_size": 4,
+  "industry": "Industrials",
+  "subindustry": "Industrials -> Manufacturing and Robotics",
+  "launched_at": 1788577910,
+  "tags": [
+    "Artificial Intelligence",
+    "Robotics",
+    "Infrastructure"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Fall 2026",
+  "status": "Active",
+  "industries": [
+    "Industrials",
+    "Manufacturing and Robotics"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/dreamscale-labs",
+  "api": "https://devasheeshg.github.io/yc-api/batches/fall-2026/dreamscale-labs.json",
+  "year_founded": 2026,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/dreamscalelabs",
+  "x_url": "https://x.com/dreamscalelabs",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/5a0eb88901e7f46ec71cc8739e8069f4815b0a52.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "David Lieb",
+    "url": "https://www.ycombinator.com/people/david-lieb"
+  },
+  "founders": [
+    {
+      "user_id": 3499827,
+      "full_name": "Eric Ren",
+      "title": "Founder/CEO",
+      "founder_bio": "Co-founder @Dreamscale Labs, building fast cloud inference for robotics. \nPrev. AI safety.",
+      "is_active": true,
+      "linkedin_url": "https://linkedin.com/in/e-ren",
+      "x_url": "https://x.com/eternaI_entropy",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/c5f556cfa846dddb7160f7706bb48cde404f1d53.jpg"
+    },
+    {
+      "user_id": 3612640,
+      "full_name": "Kevin Lin",
+      "title": "Founder/Chief Scientist",
+      "founder_bio": "Co-founder & Chief Scientist at Dreamscale Labs (YC F26). 2x IChO silvers. Former quant turned roboticist.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/kevin-lin-760945225",
+      "x_url": "https://x.com/KDog112358",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/3cb1cdd011a18c5f4a990d27be41f778083f05fe.jpg"
+    },
+    {
+      "user_id": 1446496,
+      "full_name": "Antoine Nguyen",
+      "title": "Founder/CTO",
+      "founder_bio": "Co-founder & CTO at Dreamscale Labs (YC F26). Previously VLA quantization researcher at UTS.",
+      "is_active": true,
+      "linkedin_url": "https://linkedin.com/in/antoine-n-633b84200",
+      "x_url": "https://x.com/AntoineNeedGPUs",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/65178e94b80417e23e068039b7c0d6457cd4bca5.jpg"
+    },
+    {
+      "user_id": 2226354,
+      "full_name": "Chris Yoo",
+      "title": "Founder/CPO",
+      "founder_bio": "Co-founder & CPO at Dreamscale Labs (YC F26). 15x hackathon winner. Youngest CCNA at 13yo.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/chris-yoo",
+      "x_url": "https://x.com/pentestduck",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/b1bd23643f138ca967c39ecdfe173e5347a12513.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 115448,
+      "title": "Dreamscale Labs: Running robot brains in the cloud",
+      "tagline": "The fastest cloud inference platform for robotics.",
+      "body": "**TL;DR: We're 40-50% faster than existing cloud providers in serving frontier robot AI models, e.g. DreamZero, MolmoAct2.**\n\n<https://www.youtube.com/watch?v=jVqvJFBRcd0>\n\n\\[1x speed, autonomous\\]\n\nDSL is building the fastest cloud inference platform for robotics. We let you deploy physical AI without needing expensive local GPUs.\n\nRobot foundation models are growing more and more computationally expensive. The latest frontier of robotics no longer fits feasibly on local GPUs. Compute costs keep soaring amidst a global LPDDR shortage; NVIDIA just doubled the prices of Jetsons in July.\n\n**We're taking a contrarian bet that the future is moving inference _off the robot_ and _into the cloud._**\n\n![uploaded image](/media/?type=post&id=115448&key=user_uploads/3499827/4ca20fc9-00a8-4043-bc43-d51b8b5d0cbf)\n\nHow do we do this? We work across the full stack of robot inference to push latency down:\n\n* Model-level architectural adjustments for faster inference\n* Kernel-level optimizations to maximally leverage server-grade GPUs\n* Network-level optimizations for fast and reliable transport over the cloud\n* Region-specific compute allocation to ensure the shortest physical distance between the servers and our customers' robots\n\nThese optimizations enable us to be **8% faster** than NVIDIA's implementation **at half the GPU count** (320ms vs 350ms, for DreamZero 14B).\n\n![uploaded image](/media/?type=post&id=115448&key=user_uploads/3499827/69393040-ca17-41cd-a1fb-cd5d70176921)\n\nFurthermore, something we noticed for robotics companies with fast R&amp;D cycles was that their GPUs had long idle periods with concentrated bursts of inference traffic. We're one of the first companies in the world to offer on-demand pricing for physical AI inference, giving users more flexibility with the cost.\n\nWe're already working closely with a range of early partners across deployment, research and evaluation. In full FDE spirit, we collaborate with our customers to custom-fit inference stacks that address their unique deployment challenges. We help you get your robot AI to deployment faster.\n\nOur mission is to democratize access to frontier physical intelligence, and we believe cloud is the way forward. You can read our thesis here:\n\n•⁠ ⁠<http://dreamscalelabs.com/blog/why>\n\n\\\n**Our ask:** Reach out at [founders@dreamscalelabs.com](mailto:founders@dreamscalelabs.com) !",
+      "url": "https://www.ycombinator.com/launches/U24-dreamscale-labs-running-robot-brains-in-the-cloud",
+      "votes": 48,
+      "created_at": "2026-09-17T23:00:00.159Z"
+    }
+  ]
+}

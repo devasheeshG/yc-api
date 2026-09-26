@@ -1,0 +1,90 @@
+{
+  "id": 31376,
+  "name": "Light Anchor",
+  "slug": "light-anchor",
+  "former_names": [],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/3e90f1f997478761cc013525bd81b5fc23984166.png",
+  "website": "https://lightanchor.ai",
+  "all_locations": "Seoul, Seoul, South Korea",
+  "long_description": "Light Anchor (YC P26) builds AI-run consumer brands that run at the speed of compute. \r\n\r\nConsumer brands have always been limited by the speed of humans: hiring, coordinating, and sleeping. AI agents that now run operations end-to-end break all those constraints, making a new kind of consumer business possible: one capped by compute, not headcount.\r\n\r\nToday, Light Anchor operates one flagship brand and multiple experiment stores, all run by AI agents on a shared platform that compounds with every new brand launched. The vision is thousands of consumer businesses, operating with little to no human intervention.",
+  "one_liner": "AI-run consumer brands",
+  "team_size": 2,
+  "industry": "Consumer",
+  "subindustry": "Consumer",
+  "launched_at": 1777575492,
+  "tags": [
+    "Artificial Intelligence",
+    "E-commerce"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Spring 2026",
+  "status": "Active",
+  "industries": [
+    "Consumer"
+  ],
+  "regions": [
+    "South Korea",
+    "East Asia"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/light-anchor",
+  "api": "https://devasheeshg.github.io/yc-api/batches/spring-2026/light-anchor.json",
+  "year_founded": 2026,
+  "city": "Seoul",
+  "country": "KR",
+  "linkedin_url": "https://www.linkedin.com/company/light-anchor",
+  "x_url": "https://x.com/lightanchor_ai",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/3e90f1f997478761cc013525bd81b5fc23984166.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Harj Taggar",
+    "url": "https://www.ycombinator.com/people/harj-taggar"
+  },
+  "founders": [
+    {
+      "user_id": 396406,
+      "full_name": "Sangha Park",
+      "title": "Founder/CEO",
+      "founder_bio": "Building AI-run consumer brands. ex-Sendbird (YC W16), Brown CS.",
+      "is_active": true,
+      "linkedin_url": "https://linkedin.com/in/sanghaha",
+      "x_url": "https://x.com/sanghaya1",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/25a5cef0ebb40ee7cb3c9fbd7b72f931c7c625a5.jpg"
+    },
+    {
+      "user_id": 3198656,
+      "full_name": "Chase Kim",
+      "title": "Founder",
+      "founder_bio": "Building AI-run consumer brands. ex-Sendbird (YC16)",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/littlejkim/",
+      "x_url": "https://x.com/chasingjohnnn",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/51007cc90375b28502d6267f7340c9490b460a10.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 100906,
+      "title": "Light Anchor, AI-run consumer brands",
+      "tagline": "Building fully AI-run consumer brands at the speed of compute",
+      "body": "**TL;DR:** \n\nLight Anchor (YC P26) builds fully autonomous e-commerce brands that run at the speed of compute. Consumer brands have always been limited by the speed of humans: hiring, coordinating, and sleeping. AI agents that now run operations end-to-end break all those constraints, making a new kind of consumer business possible: one capped by compute, not headcount.\n\nToday, Light Anchor operates one flagship brand and multiple experiment stores, all run by AI agents on a shared platform that compounds with every new brand launched. The vision is thousands of consumer businesses, operating with little to no human intervention.\n\n<https://youtu.be/_uN-A-4uugA>\n\n### **Why we're doing this**\n\nE-commerce brands have always been bottlenecked by how fast humans can run them. With agents that operate end-to-end, that bottleneck disappears, and a different kind of consumer business becomes possible: one where the cost and speed of operating it isn't capped by headcount.\n\nTo test whether agents could do the actual work humans do at an e-commerce brand, we deployed our first agent on Upwork, where small businesses post tasks for freelancers. We started small, with discrete tasks: catalog cleanup, SKU uploads, and data migrations. Within days, our agent had completed 50+ Shopify jobs end-to-end at a 4.9/5 rating, and the same clients started asking for more. \"Clean up our catalog\" turned into \"run our marketing,\" then \"handle our sourcing,\" then \"run the whole storefront.\" Within 3 weeks, we were running multiple stores end-to-end for owners who used to do this work themselves.\n\nToday we own and operate multiple stores of our own.\n\n### **The agents, platform, and data**\n\nHere are the agents that run our stores:\n\n* **CEO agent**: sets weekly priorities, manages a $10K budget per brand, escalates decisions for human review\n* **GM agent**: P&L, merchandising, inventory, sourcing, customer support\n* **Marketing agent** ([cherylkim.me](http://cherylkim.me)): creatives and influencer marketing\n* **Engineering agent**: unblocks technical work, ships tools\n\nEvery brand runs on the same architecture, with a shared layer (agent tooling, integrations, analytics) and a brand-specific layer (memory, policies, and decisions). Both compound: every brand we launch makes the platform smarter, and the marginal cost of launching the next brand keeps falling. Our bet isn't just to operate more stores; it's to understand customers better than any human team can and capture demand the moment it shifts.\n\nEach brand generates a stream of operating decisions (creatives tested, ads spent, suppliers negotiated, tickets closed) that gets written to a central record the agents can read back from.\n\nHumans don’t operate this way because the cost of writing everything down and coordinating across teams is higher than the value. When the operators are agents, that cost goes to zero. Once the record accumulates, a few things become possible: better targeting, faster store setup, and market/consumer simulations.\n\n### **Asks**\n\nIf you're any of the following, or you know someone who is, we'd love to hear from you:\n\n* **Buy our products:** Use the YC code YC26 for 25% discount at[ ](http://slowhaste.com)<https://seouldispatch.com/>. Every sale matters!\n* **E-commerce owners:** Share your stories and experiences with us. We're happy to learn.\n* **Signup for AdBench**: We’re benchmarking how marketing agents run ads across the latest frontier models. Sign up here: <https://www.lightanchor.ai/adbench>.\n* **Frontier labs**: We want to learn how to use models better to operate businesses!\n\nReach us at [founders@lightanchor.ai](mailto:founders@lightanchor.ai).\n\n### **Team**\n\nWe met at Sendbird (YC W16), where we led the AI agent product and forward deployment teams (respectively) during its 2024 pivot into AI agents for customer experience. Sendbird built the messaging APIs behind DoorDash, Reddit, and Hinge.\n\nWe took this right after we decided to start a company back in December. Day 1.\n\n![uploaded image](/media/?type=post&id=100906&key=user_uploads/396406/1bda8bdf-bcd5-4045-afbf-9c9a1fcb7757)\n\n",
+      "url": "https://www.ycombinator.com/launches/QFW-light-anchor-ai-run-consumer-brands",
+      "votes": 13,
+      "created_at": "2026-05-06T19:03:04.629Z"
+    }
+  ]
+}

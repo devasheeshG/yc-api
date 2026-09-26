@@ -1,0 +1,94 @@
+{
+  "id": 31182,
+  "name": "Visibl Semiconductors",
+  "slug": "visibl-semiconductors",
+  "former_names": [],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/c9acdb09765b62086883672feeb576e191249bff.png",
+  "website": "https://visiblsemi.com",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "Visibl Semiconductors makes custom silicon accessible to hardware companies, starting with power electronics. We are an AI-native custom-silicon design partner that cuts ASIC development cost and timeline on mature nodes, helping teams deliver better performance and lower BOM cost.\r\n\r\nWe work with data-center and AI-infrastructure power, motor drives, industrial automation and robotics, industrial power supplies and conversion, battery systems and e-mobility powertrains, EV charging, solar, energy storage, grid power, HVAC, heat pumps, and appliances.\r\n\r\nV1 boards built from off-the-shelf parts are great for getting to market quickly, but scaling to v2+ volume requires optimizing cost, size, and manufacturability. Visibl folds those parts into custom silicon built around the product: a simpler BOM, reclaimed board space, fewer supply constraints, and automation-ready assembly.\r\n\r\nWe manage the full path from architecture and design through verification, fabrication, packaging, and production-ready silicon, working alongside hardware teams so they do not need an in-house chip team.",
+  "one_liner": "Custom silicon for power electronics",
+  "team_size": 3,
+  "industry": "B2B",
+  "subindustry": "B2B -> Engineering, Product and Design",
+  "launched_at": 1767637338,
+  "tags": [
+    "Artificial Intelligence",
+    "Hard Tech",
+    "Enterprise",
+    "Enterprise Software",
+    "Semiconductors"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Winter 2026",
+  "status": "Active",
+  "industries": [
+    "B2B",
+    "Engineering, Product and Design"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/visibl-semiconductors",
+  "api": "https://devasheeshg.github.io/yc-api/batches/winter-2026/visibl-semiconductors.json",
+  "year_founded": 2024,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/visiblsemi/",
+  "x_url": "https://x.com/visiblsemi",
+  "fb_url": null,
+  "cb_url": "https://www.crunchbase.com/organization/visibl-semiconductors",
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/c9acdb09765b62086883672feeb576e191249bff.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Tyler Bosmeny",
+    "url": "https://www.ycombinator.com/people/tyler-bosmeny"
+  },
+  "founders": [
+    {
+      "user_id": 931842,
+      "full_name": "Bryce Neil",
+      "title": "Founder/CEO",
+      "founder_bio": "Co-founder & CEO at Visibl Semiconductors. Passionate technologist and recipient of two of Canada’s most competitive academic scholarships. Bryce is a computer engineer with experience across engineering, data, and business. He has built production software and data systems for Deloitte’s OmniaAI team, healthcare, and the public sector. His work has run in leading U.S. hospitals and supported teams globally.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/bryceneil/",
+      "x_url": "https://x.com/BryceNeil__",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/f4a73099532b0428b2822b3d566c3aa58aa1a33e.jpg"
+    },
+    {
+      "user_id": 2574530,
+      "full_name": "Jordon Kashanchi",
+      "title": "Founder/CTO",
+      "founder_bio": "Co-founder & CTO of Visibl Semiconductors. Jordon previously worked at Microsoft, Arm, and Intel, building expertise in AI accelerators, autonomous vehicle hardware, and graphics. Most recently at Microsoft, he designed digital logic and microarchitecture for next-gen custom AI silicon. He holds an MS in ECE from UT Austin and is published in PNAS and ACM.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/jordon-kashanchi-46357b143/",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/8c29f07f5f652b30a9a450937d9ee7519a73abfa.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 97968,
+      "title": "Visibl Semiconductors: The First AI-Enabled Coordination Layer for Chip Design",
+      "tagline": "Meet Visibl, The First AI-enabled Coordination Layer for Chip Design",
+      "body": "Hey everyone 👋\\\nWe’re Bryce and Jordon, co-founders of VISIBL SEMICONDUCTORS™\\\n\\\n**Launch video:** <https://youtu.be/l_0BcKIIU3Q>\n\n---\n\n**TL;DR**\\\n_Visibl is the first coordination layer for chip design._ Requirements, architectural intent, and implementation drift out of sync as designs and teams scale. Visibl surfaces drift early, opens cases with evidence, and delivers review-ready fixes enabling improved schedule, cost, and risk outcomes in chip design.\n\nCheck out LinkedIn post here:\\\n<https://www.linkedin.com/posts/y-combinator_visibl-semiconductors-yc-w26-is-building-activity-7430280268252590081-UBoI/>\n\n**Problem**\\\nCoordination has always been a human job: monitoring drift, triaging failures, keeping the schedule aligned. It demands constant vigilance, reacting to failures, proactively scanning for issues, always watching.\n\nAs designs scale, no one can hold all that context: the specs, the implementation, the test results, the decisions scattered across Slack, Jira, and docs. Issues slip through. Drift compounds. We saw this firsthand. There was no software to solve it. So we're building it.\n\nOur experience spans chip design and high-stakes production systems. We're solving a problem there was never enough human bandwidth to address, but one that directly impacts the most important outcomes in chip design: schedule, cost, and risk.\n\n**What Visibl Does**\\\n\\\n**Monitors** - specs, implementation, CI, and all design collateral to detect drift early\n\n**Investigates** - creates cases with evidence: spec sections, RTL refs, CI logs, historical decisions\n\n**Proposes** - agents suggest fixes, run verification, package review-ready diffs\n\n**Gates** - human approval required, nothing ships without explicit sign-off\n\n### —\n\n\\\n**Results**\\\n\\\n**Schedule** - Eliminate weeks lost waiting for the one engineer with context to debug failures\n\n**Cost** - 10x less engineering overhead on triage; your team builds instead of firefighting\n\n**Risk** - Catch issues early to minimize rework; avoid late-stage surprises that lead to $10M+ respins\\\n\\\n\\\n\\\n\\\n**Instant Dispatch & Case Creation**\n\n![uploaded image](/media/?type=post&id=97968&key=user_uploads/931842/d732540d-c0f2-416d-9402-378b41735ffe)\n\nAgents spin up immediately on regressions, failing PR checks, spec updates, and more. Visibl opens a case automatically.\n\n---\n\n# \n\n—\n\n\\\n**Evidence Bundle**\n\n![uploaded image](/media/?type=post&id=97968&key=user_uploads/931842/e869a320-410e-4c42-9126-535bd4c9b4be)\n\n\\\nEach case comes preloaded with spec sections, RTL refs, CI logs, and decision history.\n\n# \n\n—\n\n\\\n**Recommended Fix**\n\n![uploaded image](/media/?type=post&id=97968&key=user_uploads/931842/d5e63a58-2b58-4e78-8278-652a0808b651)\n\nVisibl proposes three fix paths and recommends the best one for approval. User can also clarify and specify their own intent.\n\n# \n\n—\n\n\\\n**Verified Review-Ready Diff**\n\n![uploaded image](/media/?type=post&id=97968&key=user_uploads/931842/45650b40-9fc2-477a-8ffa-8c29cf6bac09)\n\nApproved changes are applied, verified, and packaged as a review-ready diff with results.\\\n\\\n\\\n\\\n**Role-Based, Team-Based, and Individual Views**\n\n![uploaded image](/media/?type=post&id=97968&key=user_uploads/931842/2c568efd-b5a0-42db-be95-97f9cbfde4d8)\n\nRole-specific views surface the same underlying truth at the right level of detail. For example, the executive view shows how Visibl ambiently ingests signals across the org and distills them into what leaders care about most—readiness, schedule impact, and top tapeout risks—so they can take action quickly. **Visibl also lets executives (and every role) act directly on these insights, drill into the underlying evidence, assign owners, and drive cases to resolution.**\n\n\\\n**Our Ask**\\\n\\\n**If you have a friend who designs chips at a semiconductor or hardware company, we would really appreciate an intro.** Even a quick forward of this post helps.\\\n\\\nIf you are a:\n\n* _DV / CI owner_\n* _Design methodology / flow owner_\n* _Team heading into integration, freeze, or pre-tapeout_\n\n…we’d love to talk.\n\n**Schedule a demo:** [**founders@visiblsemi.com**](mailto:founders@visiblsemi.com)\n\n---",
+      "url": "https://www.ycombinator.com/launches/PU8-visibl-semiconductors-the-first-ai-enabled-coordination-layer-for-chip-design",
+      "votes": 13,
+      "created_at": "2026-02-19T15:43:41.410Z"
+    }
+  ]
+}

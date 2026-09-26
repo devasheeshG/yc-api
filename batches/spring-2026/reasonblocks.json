@@ -1,0 +1,77 @@
+{
+  "id": 31546,
+  "name": "ReasonBlocks",
+  "slug": "reasonblocks",
+  "former_names": [],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/d73e9cbe0885e3d783faf674783100f13336068b.png",
+  "website": "https://reasonblocks.com/",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "ReasonBlocks turns your agents’ production traces into specialized models, delivering 10× cheaper inference without sacrificing performance. We handle training, routing, and serving.",
+  "one_liner": "Specialized models that make your AI agents cheaper and more reliable.",
+  "team_size": 2,
+  "industry": "B2B",
+  "subindustry": "B2B",
+  "launched_at": 1777282713,
+  "tags": [],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Spring 2026",
+  "status": "Active",
+  "industries": [
+    "B2B"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/reasonblocks",
+  "api": "https://devasheeshg.github.io/yc-api/batches/spring-2026/reasonblocks.json",
+  "year_founded": null,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/reason-blocks/",
+  "x_url": "",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/d73e9cbe0885e3d783faf674783100f13336068b.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Aaron Epstein",
+    "url": "https://www.ycombinator.com/people/aaron-epstein"
+  },
+  "founders": [
+    {
+      "user_id": 2796290,
+      "full_name": "Sajeev Magesh",
+      "title": "Founder/CEO",
+      "founder_bio": "Formerly at Stanford CS. Published in Nature Sustainable Agriculture (ML × agriculture). UN Best Paper. USAMO qualifier. \nNow building specialized intelligence that makes AI agents cheaper and more reliable at ReasonBlocks.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/sajeev-magesh-765514209/",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/2bb33f2ccf8d1c5c68690843a99b54569908d31d.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 100278,
+      "title": "ReasonBlocks - Stop your AI agents from burning money re-learning what they already know.",
+      "tagline": "Infra layer for smarter and cheaper AI agents",
+      "body": "**TL;DR:** Most production agent failures are repeats: same loops, same dead ends, same wasted tokens. Your agent doesn't learn from any of them. ReasonBlocks is a new runtime that catches failures mid-run, compresses what doesn't matter, and builds a private reasoning library that grows with every run. Result: agents that get cheaper and more reliable the more they run.\n\n👋 We're [@Sajeev Magesh](https://bookface.ycombinator.com/user/2796290) (ex. Stanford) and [@Rohan Vij](https://bookface.ycombinator.com/user/3490183) (ex. CMU). We've been building together for 11 years (since 2nd grade!).\n\n**The Problem**\n\nProduction AI agents fail in patterns. The same loops, the same redundant tool calls, the same second-guessing, happening across every customer's deployment, every day. Your agent's traces have all the information needed to prevent recurrence. Almost no system captures it.\n\nThis means:\n\n* You're paying for the same failures repeatedly. Token bills grow without agents getting better.\n* Trajectories are inconsistent, your agent re-solves the same kind of task differently each time.\n* No compounding improvement: your 10,000th run is no smarter than your 1st.\n\n**What We Built**\n\nReasonBlocks sits in your agent runtime and does three things:\n\n1. **Catches failures mid-run.** Six monitors watch every agent call for loops, redundant work, and second-guessing. When one fires, a correction gets injected before tokens are wasted.\n2. **Compresses what doesn't matter.** Stale tool outputs and redundant context get cut from the message history automatically. Your context stays focused, your bill stays small.\n3. **Captures every lesson into a private reasoning library.** After each run, the system extracts what worked and adds it to your library. Patterns get matched and injected into future runs automatically. Your library is yours, built from your production data, growing every day.\n\nThis isn't just per-task memory. It's a runtime that turns every agent run into something the next run can use.\n\nIntegrate with one command. Works with any model, any framework.\n\n**Results**\n\nOn SWE-bench Pro (75 problems, Sonnet 4.6):\n\n* 42% accuracy gain\n* 52% token reduction with combined monitor + compression stack\n* 70% fewer budget cap-hits\n\n**Our Asks**\n\n1. **Try it out** — our platform and SDK are live at [reasonblocks.com](http://reasonblocks.com).\n2. **Intros welcome** — if you or anyone you know is building vertical AI agents (legal, finance, healthcare, security, research) running at scale, we'd love to chat.\n3. **Feedback** — we're early and learning fast. Tell us what's broken, what's missing, what you'd need to deploy this in production.\n\nDM either of us anytime!",
+      "url": "https://www.ycombinator.com/launches/Q5O-reasonblocks-stop-your-ai-agents-from-burning-money-re-learning-what-they-already-know",
+      "votes": 23,
+      "created_at": "2026-04-27T15:28:48.179Z"
+    }
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "id": 29312,
+  "name": "OneGrep",
+  "slug": "onegrep",
+  "former_names": [],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/f7a7195a4d8bec15ad4ae4cd76acb1103fb1d125.png",
+  "website": "https://www.onegrep.dev",
+  "all_locations": "New York City, NY, USA",
+  "long_description": "OneGrep is a DevOps Agent that helps engineers automate manual devops tasks. It works across integrations that teams have to search, correlate, and operate automated tasks like runbook automation during incidents.\r\n\r\nOneGrep specializes across devops tools to help teams release code faster and more reliably so that engineers can spend more time building rather than being trained in bespoke tools like Observability, Ci/Cd, or Infra.\r\n    \r\nAchintya and Brian are technical co-founders who have deep domain expertise in building and operating systems at scale at Coinbase, Disney, and Amazon. Achintya led the Search Team at Disney enabling DisneyPlus to scale to 70M users in two weeks. Brian was a founding engineer on the team that built the Incident Management Platform at Amazon that helps 30k DAUs in Amazon resolve critical incidents every day.\r\n    \r\nhttps://www.onegrep.dev",
+  "one_liner": "AI Agent for DevOps Workflow Automation",
+  "team_size": 2,
+  "industry": "B2B",
+  "subindustry": "B2B -> Engineering, Product and Design",
+  "launched_at": 1706125160,
+  "tags": [
+    "Generative AI",
+    "B2B",
+    "DevOps",
+    "Conversational AI"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Winter 2024",
+  "status": "Active",
+  "industries": [
+    "B2B",
+    "Engineering, Product and Design"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada",
+    "Remote",
+    "Partly Remote"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/onegrep",
+  "api": "https://devasheeshg.github.io/yc-api/batches/winter-2024/onegrep.json",
+  "year_founded": 2024,
+  "city": "New York City",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/onegrep",
+  "x_url": "https://twitter.com/one_grep",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/f7a7195a4d8bec15ad4ae4cd76acb1103fb1d125.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Nicolas Dessaigne",
+    "url": "https://www.ycombinator.com/people/nicolas-dessaigne"
+  },
+  "founders": [
+    {
+      "user_id": 108240,
+      "full_name": "Achintya Ashok",
+      "title": "Founder/CEO",
+      "founder_bio": "Achintya is a Co-Founder and the CEO of OneGrep which he started with Brian Cripe in late 2023. OneGrep saves engineers time by automatically generating insights that improve the usefulness of their Observability Data.\n\nAchintya has worked in engineering highly distributed systems at Coinbase, Disney Streaming, & Goldman Sachs. In a previous life, he was the Tech Lead of the Search Team at Disney Streaming responsible for serving contextual experiences to 70-million customers in real-time.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/profile/view?id=AAIAAAgz8egBvjGL53N3zhzkhhR7N5gfUrh7GJE",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/6631e066852b42d777a2c3f8d40db47c3facb8ed.jpg"
+    },
+    {
+      "user_id": 1638809,
+      "full_name": "Brian Cripe",
+      "title": "Founder/CTO",
+      "founder_bio": "Brian Cripe is the co-founder and CTO of OneGrep, which he started with Achintya Ashok in 2023.  OneGrep saves engineers time by automatically generating insights that improve the usefulness of their Observability Data.  Brian brings over a decade of experience in the areas of developer-tools, distributed systems, and real-time analytics from companies such as 'Amazon', 'Tableau', and 'Coinbase'.",
+      "is_active": true,
+      "linkedin_url": "https://linkedin.com/in/briancripe",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/64592762877342f7831fb7af9c3ac35fbde5b12b.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 79014,
+      "title": "OneGrep — Reduce Observability costs and resolve incidents faster",
+      "tagline": "OneGrep makes observability efficient and actionable for fast-moving teams.",
+      "body": "**TL;DR** — [OneGrep](https://www.onegrep.dev) is every engineer’s dedicated Observability Copilot. OneGrep helps engineers resolve incidents 10X faster and more efficiently. We do this by fine-tuning LLMs with real-time telemetry as well as knowledge bases that engineers use to operate their production systems.\n\nTeams can deploy OneGrep on their own infrastructure or use our cloud. If you are an engineer, we invite you to try us out! [onegrep.dev/try](http://onegrep.dev/try)\n\n# Problem\n\nEvery engineering team struggles with observability cost bloat and incident management when they are moving fast.\n\n![uploaded image](/media/?type=post&id=79014&key=user_uploads/108240/27337479-43ff-4af3-b1a9-33d826abd4ce)\n\n### Why Does This Happen?\n\n🔨 — Engineers find it hard to instrument code effectively and they make unintentional, costly mistakes.\n\n![](https://lh7-us.googleusercontent.com/g9TzD8RlqcCxPkwE7FDt9EuRHrZacWUc3fjAOJ1eHWblTPS1dqTzJ5sis9UQnzvZowvDTLBHUb-UU3PFE8rFuDxhvka5E_tolNjX50lmjnb3fs6QujAC9pdvaou9metU2ji-8Y1_kF2s5EVNmKcuGw)\n\n📲 — On-call engineers find mitigating incidents to be very difficult because it is hinged on tribal knowledge and tool know-how.\n\n* Engineers spend **25%** of their time on on-call-related work, which equates to companies spending \\~**$61,000** per engineer for on-call work  — _and that’s not including the DataDog bill._\n\n**TL;DR —** Engineers struggle to find answers using observability and pay a lot for unintentional mistakes.\n\n# ✅ Solution — Have your cake & eat it too\n\nEngineers can use OneGrep to make telemetry **actionable** and **efficient**.\n\nHere’s a **13-second** example of OneGrep cutting noisy logs **by 50%** and saving a team thousands of dollars:\n\n![uploaded image](/media/?type=post&id=79014&key=user_uploads/108240/6322e5bd-87f6-43aa-a402-3d35bf8bf167)\n\nAnd here is an example of OneGrep helping an engineer automatically resolve an incident — ✔️ gone are the days of reading through retros, parsing logs, or pinging the entire team:\n\n<https://youtu.be/QJKtHzgqC_4>\n\nCut costs & resolve incidents faster with OneGrep.\n\n——\n\n# Who We Are\n\nWe are [Achintya](https://www.linkedin.com/in/achintya-ashok/) & [Brian.](https://www.linkedin.com/in/briancripe/) We have applied telemetry best practices to highly distributed systems at Coinbase, DisneyPlus, AWS, Tableau, & Goldman Sachs. We hated our daily struggle with observability and we know how and why other engineers do too. We share the plight of all engineers who have struggled and continue to struggle with noisy alerts at 2 AM.\n\nSo, in the pursuit of helping engineers sleep more soundly knowing their systems are operational, we are on a mission to build the new way to do Observability.\n\n![](https://lh7-us.googleusercontent.com/DOphP_OzGeKanLDxit_2BMc3PtjCdDwIX-Vmf2UUAMjAx4S-Um0TqYn3n_e2ervRbp-PhBJ3ReDfR6IlJUbuGlH_O7BEtjjZDnVnvsaBe3eJgc0KxoLjvoBNRMvC5SnfwwTAi5ux1GUb7zzEEBN52w)\n\n_— Brian & Achintya inspecting the Y Combinator sign for any errant logs._\n\n## ➡️ Our Asks\n\n▶️ Do you have high DataDog bills? [Book a demo with us](https://cal.com/teamonegrep/demo).\n\n▶️ Do your engineers wish their on-call was better? [Learn how we can help](https://cal.com/teamonegrep/learn-in-30) or send us an email at [contactus@onegrep.dev](https://mailto:contactus@onegrep.dev).",
+      "url": "https://www.ycombinator.com/launches/KYQ-onegrep-reduce-observability-costs-and-resolve-incidents-faster",
+      "votes": 44,
+      "created_at": "2024-03-04T18:09:38.939Z"
+    }
+  ]
+}

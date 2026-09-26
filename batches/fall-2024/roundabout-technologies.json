@@ -1,0 +1,115 @@
+{
+  "id": 30126,
+  "name": "Roundabout Technologies",
+  "slug": "roundabout-technologies",
+  "former_names": [],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/4966bb2facc9c59279d1337270fbdb9d4a76bb93.png",
+  "website": "https://roundabout.tech",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "Roundabout Technologies makes AI-powered traffic lights, allowing cities to reduce pedestrian deaths, improve traffic, and reduce resident complaints. Our founding team has experience building safety-critical embedded systems and AI at Waymo, Zoox, Google, and Verily.",
+  "one_liner": "Software for AI-powered traffic lights",
+  "team_size": 5,
+  "industry": "Government",
+  "subindustry": "Government",
+  "launched_at": 1730157813,
+  "tags": [],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Fall 2024",
+  "status": "Active",
+  "industries": [
+    "Government"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": [
+    {
+      "question": "What is the core problem you are solving? Why is this a big problem? What made you decide to work on it?",
+      "answer": "Almost everyone we’ve talked to can tell that most traffic signals are sub-optimally timed. They’ve waited at a light when nobody is going the other direction, or not gotten detected on a bike, or seen inefficient fixed-timing signals in the most congested downtown areas. Public works departments get resident complaints about these things all the time. The problem is that current detection systems can only detect the presence or absence of vehicles in fixed zones; they can’t model and anticipate the actions of road users as they approach and move through the intersection. By modelling everything in 3D and simulating all possible light changes, we can pick the best action at every moment. We’ve long shared an interest in infrastructure and urbanism and want to see cities become more bike and pedestrian friendly. This desire led us to traffic lights, a clear example of infrastructure that treats pedestrians and cyclists as afterthoughts. We also feel that our skillsets are very well-suited to this domain: Collin has built safety-critical IoT medical device software, and Sabeek’s computer vision systems have been deployed in fully driverless vehicles on public roads. We’re excited to be bringing this level of technology to municipal governments."
+    }
+  ],
+  "url": "https://www.ycombinator.com/companies/roundabout-technologies",
+  "api": "https://devasheeshg.github.io/yc-api/batches/fall-2024/roundabout-technologies.json",
+  "year_founded": 2024,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://linkedin.com/company/roundabout-tech",
+  "x_url": "https://x.com/aitrafficlights",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/4966bb2facc9c59279d1337270fbdb9d4a76bb93.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [
+    "https://bookface-images.s3.us-west-2.amazonaws.com/attachments/c9621c0cd2dc1a71825ab448e31464ffc0e1396e.png"
+  ],
+  "primary_partner": {
+    "name": "Pete Koomen",
+    "url": "https://www.ycombinator.com/people/pete-koomen"
+  },
+  "founders": [
+    {
+      "user_id": 1676838,
+      "full_name": "Collin Barnwell",
+      "title": "Founder/CEO",
+      "founder_bio": "Founder & CEO at Roundabout Technologies. Collin is a software leader and engineer with extensive experience building and shipping safety-critical IoT and camera devices, including a device that has been implanted in humans. He's worked at Google and Verily Life Sciences, and interned for startups Handshake and G2 both when they had fewer than 5 engineers.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/collinbarnwell ",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/d4503715997bd036286207a6f616e4dbdfd426cf.jpg"
+    },
+    {
+      "user_id": 2235916,
+      "full_name": "Sabeek Pradhan",
+      "title": "Founder/CTO",
+      "founder_bio": "Founder & CTO at Roundabout Technologies. Sabeek is a computer vision expert with extensive experience building systems for high-accuracy vehicle, pedestrian and bike detection and tracking at the self-driving car companies Zoox, Waymo and Applied Intuition, and his software has been deployed on public roads in fully driverless vehicles.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/sabeek-pradhan-0135865a",
+      "x_url": "https://x.com/sabeekpradhan",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/fd1b84556871d13c836a3f6337df7d45ec04f527.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [
+    {
+      "title": "Artificial intelligence reduces traffic wait times in San Anselmo's worst intersection - Local News Matters",
+      "url": "https://localnewsmatters.org/2025/10/15/artificial-intelligence-reduces-traffic-wait-times-in-san-anselmos-worst-intersection/",
+      "date": "Oct 15, 2025"
+    },
+    {
+      "title": "Bay Area town’s traffic controls using artificial intelligence - CBS San Francisco",
+      "url": "https://www.cbsnews.com/sanfrancisco/video/bay-area-towns-traffic-controls-using-artificial-intelligence/",
+      "date": "Oct 15, 2025"
+    },
+    {
+      "title": "San Anselmo employs AI to ease traffic",
+      "url": "https://www.marinij.com/2025/10/14/san-anselmo-employs-ai-to-ease-traffic/",
+      "date": "Oct 14, 2025"
+    },
+    {
+      "title": "San Anselmo: Artificial Intelligence Reduces Traffic Wait Times In Towns Worst Intersection",
+      "url": "https://www.sfgate.com/news/bayarea/article/san-anselmo-artificial-intelligence-reduces-21100263.php",
+      "date": "Oct 14, 2025"
+    }
+  ],
+  "launches": [
+    {
+      "id": 85115,
+      "title": "Roundabout Technologies: AI-powered traffic lights",
+      "tagline": "Using AI to create pedestrian-friendly, efficient cities.",
+      "body": "**tl;dr: Roundabout Technologies makes AI-powered traffic signal control systems that optimize lights based on current traffic conditions in real time.**\n\n![uploaded image](/media/?type=post&id=85115&key=user_uploads/1676838/125d9082-94da-4f03-8364-df82e1cd25ef)\n\nWe’re Collin and Sabeek, the co-founders of Roundabout Technologies. We have a combined 15 years of industry experience in embedded systems and computer vision, building safety-critical software that’s been deployed on medical devices at Verily and in driverless vehicles at Waymo and Zoox. As avid cyclists, we’ve long taken an interest in urbanism and public infrastructure, and we both have a deep desire to see cities become more pedestrian and bike-friendly. Roundabout sits at the intersection of our interests and our professional skills, a chance for us to use our hardware and AI skills to make cities more livable.\n\n## The Problem\n\nCities want traffic infrastructure that works for their residents. But existing systems fall short. Drivers waste hours at inefficiently programmed traffic lights. This floods city governments with resident complaints, and can even cause safety issues as impatient drivers race to catch yellow lights and risk causing crashes in the process. Existing light timings have to come from traffic studies that measure traffic flows for a week and use that to determine light timings for the next 5 years, a workflow that is both expensive and imprecise.\n\nWhile induction loops and existing camera-based systems make things somewhat better, they are still brittle and manually programmed, so they scale poorly on complex, highly congested areas. These detection systems have limited range, unable to see cars before they’ve already come to a stop at an empty red light. Pedestrians and bikes are rarely detected in these systems, so cities must add extra buttons as an afterthought to respond to pedestrian traffic. And providing priority for emergency vehicles and buses requires extra transponders be installed.\n\nAdd all this up, and you get a system that requires lots of expensive hardware and manual programming but still leaves drivers, pedestrians, and transit riders deeply unsatisfied. Clearly we should be able to do better than this. And now, we can!\n\n## Solution\n\nRoundabout Technologies is an AI-powered traffic control system that makes intersections safer, more efficient, and cheaper for cities to maintain. We use computer vision and commodity traffic cameras to build a 3D map of everything happening at the intersection in real time. We then use this map to simulate all possible signal states and pick the one that leads to the lowest wait times. Without solution, cities can\n\n1. Greatly reduce traffic congestion\n2. Eliminate the frustration of waiting at empty intersections\n3. Respond to pedestrians and cyclists\n4. Give priority to buses and emergency vehicles\n5. And reduce resident complaints about their intersections\n\nAll in a single system, and all without ever requiring specialized hardware or bespoke traffic studies!\n\n## Ask\n\nKnow anyone working in municipal public works, transportation departments, or traffic engineering consulting firms? We’d love to meet them! [founders@roundabout.tech](mailto:founders@roundabout.tech)\n\n## Team\n\n[Collin Barnwell](https://www.linkedin.com/in/collinbarnwell) is a software leader and engineer with extensive experience building and shipping safety-critical IoT and camera devices, including a device that has been implanted in humans. He's worked at Google and Verily Life Sciences.\n\n[Sabeek Pradhan](https://www.linkedin.com/in/sabeek-pradhan-0135865a) is a computer vision expert with extensive experience building systems for high-accuracy vehicle, pedestrian and bike detection and tracking at the self-driving car companies Zoox, Waymo and Applied Intuition, and his software has been deployed on public roads in fully driverless vehicles.\n\n![uploaded image](/media/?type=post&id=85115&key=user_uploads/1676838/616c65da-0969-46ef-853d-3c627059b407)\n\n",
+      "url": "https://www.ycombinator.com/launches/M8p-roundabout-technologies-ai-powered-traffic-lights",
+      "votes": 39,
+      "created_at": "2024-10-29T14:39:25.096Z"
+    }
+  ]
+}

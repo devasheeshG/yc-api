@@ -1,0 +1,124 @@
+{
+  "id": 30665,
+  "name": "Pangolin",
+  "slug": "pangolin",
+  "former_names": [
+    "Fossorial"
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/1ddd59479807f1000294d305ca0a4a84f2d40f97.png",
+  "website": "https://pangolin.net",
+  "all_locations": "New York City, NY, USA",
+  "long_description": "Pangolin delivers seamless access and connectivity across your apps, infrastructure, and AI workloads while continuously enforcing enterprise-grade security. Built for agile IT teams, Pangolin eliminates the friction of bloated, legacy systems with an open platform that’s easier to deploy for your workforce.\r\n\r\nIt's open-source.",
+  "one_liner": "Open networking and security for your workforce, AI agents, and infra",
+  "team_size": 3,
+  "industry": "B2B",
+  "subindustry": "B2B -> Infrastructure",
+  "launched_at": 1752801073,
+  "tags": [
+    "Security",
+    "Open Source",
+    "Enterprise Software",
+    "Networks"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": true,
+  "nonprofit": false,
+  "batch": "Summer 2025",
+  "status": "Active",
+  "industries": [
+    "B2B",
+    "Infrastructure"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada",
+    "Remote",
+    "Partly Remote"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/pangolin",
+  "api": "https://devasheeshg.github.io/yc-api/batches/summer-2025/pangolin.json",
+  "year_founded": 2025,
+  "city": "New York City",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/digpangolin",
+  "x_url": "",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": "https://github.com/fosrl/pangolin",
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/1ddd59479807f1000294d305ca0a4a84f2d40f97.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Andrew Miklas",
+    "url": "https://www.ycombinator.com/people/andrew-miklas"
+  },
+  "founders": [
+    {
+      "user_id": 2927524,
+      "full_name": "Milo Schwartz",
+      "title": "Founder",
+      "founder_bio": "I am the co-founder of Pangolin. Previously, I worked as a founding engineer on intelligent transportation systems and connectivity and monitoring solutions for public works infrastructure.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/miloaschwartz/",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/cfe74fdf761f037c3a9639a4dab56e35fef407f6.jpg"
+    },
+    {
+      "user_id": 2804733,
+      "full_name": "Owen Schwartz",
+      "title": "Founder",
+      "founder_bio": "I am the co-founder and CTO of Pangolin, an open source zero trust networking and infrastructure company. Before this, I worked as a founding engineer for 4 years on intelligent transportation systems and connectivity and monitoring solutions for public works. ",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/owenschwartz",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/30455fca83a0163e228fbeccae3583a0b4f8d960.jpg"
+    }
+  ],
+  "jobs": [
+    {
+      "id": 82887,
+      "title": "Founding Engineer - Full Stack",
+      "url": "https://www.ycombinator.com/companies/pangolin/jobs/7DeBchl-founding-engineer-full-stack",
+      "location": "New York, NY, US",
+      "type": "Full-time",
+      "role": "Engineering",
+      "role_type": "Full stack",
+      "salary_range": "$125K - $150K",
+      "equity_range": "0.50% - 1.25%",
+      "experience": "3+ years",
+      "visa": "US citizen/visa only",
+      "skills": [
+        "Amazon Web Services (AWS)",
+        "Android",
+        "Express",
+        "Git",
+        "Go",
+        "iOS",
+        "Kubernetes",
+        "PostgreSQL",
+        "TypeScript",
+        "Docker",
+        "Next.js"
+      ]
+    }
+  ],
+  "news": [],
+  "launches": [
+    {
+      "id": 92267,
+      "title": "Pangolin – Open-source secure gateway to private networks",
+      "tagline": "Pangolin tunnels your services to the internet so you can access anything from anywhere.",
+      "body": "**TL;DR: [Pangolin](https://digpangolin.com) is an [open-source](https://github.com/fosrl/pangolin) cloud and self-hostable alternative to Cloudflare Tunnels, Zscaler ZPA, and Ngrok. Pangolin provides a simple way to securely expose applications on private networks with identity-aware access control and high availability.**\n\nWe’ve seen incredible early traction since we launched 5 months ago: **12,600+ GitHub stars, 140,000+ installs, 2,700+ Discord members**. \n\nhttps://youtu.be/0nv91PgCm9M\n\n\"Pangolin isn't just a fantastically easy-to-configure VPN and reverse proxy; it's a revelation in self-hosting simplicity.\" XDA Developers\n\n**The problem:**\n\nProviding users with secure access to internal tools and infrastructure is cumbersome for both end users and administrators. They're forced to manage complex VPN clients, servers, and network configurations that create friction and operational overhead. Traditional and mesh VPN approaches require layered ACL management to control which users can access specific resources, turning simple access requests into complex network engineering problems.\n\n**Our solution:**\n\nDrop in the Pangolin connector in your network, and:\n\n* **Expose anything to the internet:** Instantly create a secure tunnel with your domain and SSL to internal dashboards like Grafana, or any other services on your private network and access via web browsers.\n* **Manage access control with ease:** Grant access to your resources with user and role-based permissions, PIN codes, temporary share links, or email OTPs. Bring your existing users by integrating an external identity provider.\n* **Own your infrastructure:** Self-host your own Pangolin Nodes, so data flows through your servers, and our cloud will handle coordination and failover for out-of-the-box high availability.\n\n![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfMGfOAnChfvZ2vFva0IbL-s3dj1O50IP8cfgGf7h9IDz3ViH_tHbtHEwr_bdecGPerQPY-HSRMtoRLmJew9IlaQqpQQY_1JJBluOAEKCqsWjvusZMgy_9Y5FPVvjo68nGNaZ0Uig?key=2GXukewhPJ8smnttAaub3w)\n\n\"A self-hosted version of Cloudflare Tunnels on your terms. By your terms, I mean on the infrastructure of your choice.\" Lawrence Systems\n\n**Deployment options:**\n\n* **Enterprise:** Self-host the entire system on-premises with complete control over all system components.\n* **Hybrid:** Self-host Pangolin Nodes on internal infrastructure while leveraging our cloud service for automatic failover coordination.\n* **Cloud:** Fully managed service where organizations only run network connectors to expose resources.\n\n![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXc8cH83Sxqj5M57XuqQm_sofqW-Qn1sfTvTEsaTg4xYVAfRh_33XNMI8QDJrqibWqIQNVLLFHBob1vASk5ZnaX8KF5nZfY2eXYOwMp-n9UzOzyEHQUiocK89KT8izCeFG1CaEJ5xA?key=2GXukewhPJ8smnttAaub3w)\n\n**Get started:**\n\n* Website:[ https://digpangolin.com](https://digpangolin.com)\n* GitHub: https://github.com/fosrl/pangolin\n\n\"Its streamlined deployment has left janky WireGuard configurations and Cloudflare tunnels in its dust.\" [selfh.st](http://selfh.st)\n\n![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdXJ0wOsKzIrKFRWntnI4mgQRM3dcsgCMe7-t3poZP4A56J7SxiqqTdPU85bzNvvTXCO5Nuu7hRM2fXyvHrAbn55MzAd2N0J374OuDMoY8PdFgfa9jg9f2eRBgYzQqfCl-Srx3t?key=2GXukewhPJ8smnttAaub3w)\n\nWe are Owen and Milo Schwartz (brothers) who previously worked together as founding engineers at a successful smart mobility startup, working on connectivity and automation solutions for public infrastructure. We are passionate about building the next generation of simple networking tools.\n\n“I’m addicted to Pangolin” [u/ParadoxHollow](https://www.reddit.com/r/selfhosted/comments/1kqrwev/im_addicted_to_pangolin/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button)\n\n**The ask:**\n\nWe’d love for the YC community to try out [Pangolin Cloud](https://pangolin.fossorial.io/auth/signup) and give us your feedback!\n\nWe are also looking for any warm intros to people who might be interested in the product - particularly businesses with on prem applications or field equipment in the IoT space.\n\n**Contact:**\n\n[founders@fossorial.io](mailto:founders@fossorial.io)",
+      "url": "https://www.ycombinator.com/launches/O0B-pangolin-open-source-secure-gateway-to-private-networks",
+      "votes": 85,
+      "created_at": "2025-07-18T07:08:50.979Z"
+    }
+  ]
+}

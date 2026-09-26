@@ -1,0 +1,109 @@
+{
+  "id": 31380,
+  "name": "Superlog",
+  "slug": "superlog",
+  "former_names": [
+    "Swish",
+    "Pulsend",
+    "Pulsent",
+    "Deep Engage",
+    "Deepengage",
+    "Openengage",
+    "Deepengage",
+    "Pulsending",
+    "deep engage",
+    "Singlevox",
+    "deep engage",
+    "Pulsent"
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/96347d910b359b8008029da5fa69b30000efd6d0.png",
+  "website": "https://superlog.sh/",
+  "all_locations": "Paris, Île-de-France, France",
+  "long_description": "Sentry and Datadog dump a stream of alerts. Most are duplicates, most lack context, and you still have to solve the issue yourself.\r\n\r\nSuperlog is AI-native observability that's meant not to be opened. A wizard scans your repo and installs proper OpenTelemetry instrumentation, then runs daily to keep up as you ship new code. When something breaks, Superlog groups the errors into a single incident, investigates with full context (logs, traces, recent deploys, past Slack threads), and posts one mergeable PR in Slack. You merge it, ignore it, or open it as a Claude Code session and modify it.\r\n\r\nTelemetry is vendor-neutral, so you keep every log, trace, and metric we install, even if you leave.",
+  "one_liner": "Make software self-healing",
+  "team_size": 2,
+  "industry": "B2B",
+  "subindustry": "B2B -> Engineering, Product and Design",
+  "launched_at": 1775225049,
+  "tags": [
+    "Artificial Intelligence",
+    "Developer Tools",
+    "Open Source",
+    "Kubernetes",
+    "Enterprise Software"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Spring 2026",
+  "status": "Active",
+  "industries": [
+    "B2B",
+    "Engineering, Product and Design"
+  ],
+  "regions": [
+    "France",
+    "Europe"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/superlog",
+  "api": "https://devasheeshg.github.io/yc-api/batches/spring-2026/superlog.json",
+  "year_founded": 2026,
+  "city": "Paris",
+  "country": "FR",
+  "linkedin_url": "https://www.linkedin.com/company/superlogyc",
+  "x_url": "https://x.com/superlogyc",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/96347d910b359b8008029da5fa69b30000efd6d0.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [
+    "https://bookface-images.s3.us-west-2.amazonaws.com/attachments/9339274586ae39d3f925367f988400bf43295c57.png"
+  ],
+  "primary_partner": {
+    "name": "David Lieb",
+    "url": "https://www.ycombinator.com/people/david-lieb"
+  },
+  "founders": [
+    {
+      "user_id": 1660276,
+      "full_name": "Nicolò Magnante",
+      "title": "Founder/CEO",
+      "founder_bio": "ex-BCG, math olympiad winner, scaled two startups to millions in ARR. now working to make the world bug-free.  \n\nlife goals:\n1 - build a decacorn\n2 - get italy to top 5 ww gdp\n3 - win an oscar",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/nicolo-magnante/",
+      "x_url": "https://x.com/nicolomagnante",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/b8bcc3506b03fd18553c21a745fb1ca58549dc3d.jpg"
+    },
+    {
+      "user_id": 2807293,
+      "full_name": "Arseniy Shishaev",
+      "title": "Founder/CTO",
+      "founder_bio": "Co-founder and CTO of Superlog, previously co-founder & CTO at Bluco (top 40 startup in France in 2025). CS @ École 42 Paris '22, built data pipelines and tooling at Datadog. National olympiad winner in high school, electronics and hardware nerd, coding interview prep & first aid volunteer.",
+      "is_active": true,
+      "linkedin_url": "https://linkedin.com/in/arseniy-shishaev",
+      "x_url": "https://x.com/arseniyswish",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/dbbe5e3ee648431c9ed6c3b18cb41e7bfc059958.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 101239,
+      "title": "Superlog: The self-installing observability tool that fixes your bugs",
+      "tagline": "A wizard sets up your telemetry every day. An agent investigates incidents and ships mergeable PRs.",
+      "body": "Hey YC! We're Nicolò and Arseniy, co-founders of Superlog ([superlog.sh](https://superlog.sh/)).\n\n**TL;DR:** Superlog is the observability tool you're not supposed to open. A wizard scans your repo and instruments it with OpenTelemetry, and re-runs daily to keep your logs, alerts, and dashboards in sync with your code. When something breaks, an agent investigates with full context and posts one mergeable PR per incident into Slack.\n\n<https://www.youtube.com/watch?v=AeX3pnHCMHg>\n\n## **The Problem**\n\nArseniy spent years at Datadog, getting paged during the night to debug production incidents. In our first startups, we tried Sentry, Datadog, Grafana, Dash0, and nothing was good enough. \n\n* **Setup never ends.** Proper telemetry takes days of manual work and breaks the moment you ship new features. Half the dashboards end up empty or outdated.\n* **Alert fatigue is constant.** Sentry floods Slack with duplicates and no context. The Saturday #ops ping is the worst feeling of the week.\n* **The bill climbs.** Datadog invoices keep growing while engineers still spend hours configuring dashboards, chasing three AWS metrics that disagree, and copy-pasting stack traces into Claude at 11pm.\n\n## **Our Solution**\n\n**1. Telemetry that sets itself up.** Tell your agent:\n\n```\nRun npx skills add superloglabs/skills --all and use the skills to install Superlog in this project\n```\n\nThis skill instruments your code with native OTel SDKs: proper semantic conventions, service and environment tagging. We cover all failure modes, endpoint performance, usage per tenant, and LLM/upstream cost (by callsite, tenant, and model). We run observability check-ins that keep adding logs, alerts, and dashboards as your code grows.\n\n**2. An agent that investigates and ships PRs.** Errors get prioritised and grouped into incidents. The agent investigates with full context (logs, traces, metrics, recent deploys) and either produces a short tested PR, or posts its findings and pulls in the engineers who own the system (based on docs, prior investigations, Slack threads). One mergeable PR per incident in Slack. Merge it, ignore it, or open it as a Claude Code/Codex session and tweak.\n\n**3. No alert fatigue.** Our custom eval setup makes sure incident summaries in your #ops channel are dense and correct, with severity and impact upfront. Every LLM-enhanced metric ships with a confidence score, so wrong guesses don't get boosted.\n\nThe telemetry you get is vendor-neutral: you keep all the OTel logs, metrics, and traces we install, even if you choose to switch providers.\n\n## **Where We're Going**\n\nEvery engineering team in the world burns nights and weekends debugging production. We want to delete that loop. Observability should install itself, alert intelligently, and fix what it can.\n\n## **About Us**\n\n* **Nicolò (CEO)** — ex-BCG, math olympiad winner, scaled two startups to millions in ARR, with international enterprise contracts at Bluco (McDonald’s, Volkswagen, Dufry, etc).\n* **Arseniy (CTO)** — coding since 12yo, won school olympiads, worked on high-performance data systems at Datadog and built engineering teams from scratch at Bluco.\n\n![uploaded image](/media/?type=post&id=101239&key=user_uploads/1660276/b630a0c3-d186-4f4c-95c0-6832f7893f47)\n\n## **Our Ask**\n\nWe'd love intros to:\n\n* Engineering leaders drowning in Sentry alerts or Datadog bills\n* Startups that rolled their own observability and want to throw it away\n\n**Try it:** [superlog.sh](https://superlog.sh/)\\\n**Email:** [nicolo@superlog.sh](mailto:nicolo@superlog.sh)",
+      "url": "https://www.ycombinator.com/launches/QKt-superlog-the-self-installing-observability-tool-that-fixes-your-bugs",
+      "votes": 69,
+      "created_at": "2026-05-12T14:37:58.734Z"
+    }
+  ]
+}

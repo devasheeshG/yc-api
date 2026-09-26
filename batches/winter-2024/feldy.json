@@ -1,0 +1,107 @@
+{
+  "id": 29350,
+  "name": "Feldy",
+  "slug": "feldy",
+  "former_names": [
+    "Aether Energy",
+    "Aether"
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/7175120ae6ae4f3d25e96905fcb4e3ce5d125052.png",
+  "website": "https://feldy.ai",
+  "all_locations": "San Francisco, CA, USA; Remote",
+  "long_description": "Feldy is field-first AI for home service businesses helping teams capture jobsites, create take-offs & estimates, and documentation.\r\n\r\nWith Feldy, teams capture the physical world using photos, videos, AI jobsite walkthroughs, and 3D scans using your mobile phone. It turns field information into takeoffs & estimates, visual designs, and project documentation. Feldy works across home services such as roofing, exteriors, remodeling, painting, cleaning, landscaping, handymen, and other home services.\r\n\r\nWe’re building a new way for more than 2 million U.S. home service businesses operating in an $800B+ market to capture, understand, and complete work in the field.\r\n\r\nFeldy is available on iOS, Android, and the web.",
+  "one_liner": "Field-First AI for home services",
+  "team_size": 8,
+  "industry": "B2B",
+  "subindustry": "B2B -> Engineering, Product and Design",
+  "launched_at": 1709429693,
+  "tags": [
+    "Artificial Intelligence",
+    "Construction",
+    "Home Services",
+    "AI"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Winter 2024",
+  "status": "Active",
+  "industries": [
+    "B2B",
+    "Engineering, Product and Design"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada",
+    "Remote",
+    "Fully Remote"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/feldy",
+  "api": "https://devasheeshg.github.io/yc-api/batches/winter-2024/feldy.json",
+  "year_founded": 2024,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/feldyai/",
+  "x_url": "",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/7175120ae6ae4f3d25e96905fcb4e3ce5d125052.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Gustaf Alstromer",
+    "url": "https://www.ycombinator.com/people/gustaf-alstromer"
+  },
+  "founders": [
+    {
+      "user_id": 1494934,
+      "full_name": "Zayne Sagar",
+      "title": "Founder/CEO",
+      "founder_bio": "Zayne is the co-founder and CEO of Feldy. \n\nHe completed an Applied Math/CS and Philosophy bachelor's degree from UC Berkeley, and attended graduate school working on topics around computational science methods. \n\nHe is a fan of building physics-grounded world models using multi-modal inputs.\n\n",
+      "is_active": true,
+      "linkedin_url": "https://linkedin.com/in/zaynesagar",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/b76783761df45f917d2e9c1c17d780feed11bc7f.jpg"
+    },
+    {
+      "user_id": 1527633,
+      "full_name": "Shelby Bons",
+      "title": "Founder/CTO",
+      "founder_bio": "Shelby is the co-founder and CTO of Feldy. \n\nShe has expertise in software engineering and ML Physical Systems modeling, developed at leading climate-centric organizations like Sunrun and Voltaiq. Before that, she completed a Materials Science and Engineering degree at the University of California, Berkeley. \n\nPrior to founding Feldy, Shelby was headed for a Theoretical Physics PhD career track.",
+      "is_active": true,
+      "linkedin_url": "https://linkedin.com/in/shelby-bons-ucberkeley",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/f05135cc8b30048c9e46c4aab357d54fb10d4808.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 110395,
+      "title": "Feldy: Field-first AI for home services and contractors.",
+      "tagline": "Jobsite capture, 3D building scans, estimates and field documentation in one simple app. ",
+      "body": "**TL;DR** 👋\n\nFeldy is field-first AI for home service companies. It unifies jobsite capture, 3D building scans, estimates, and field documentation in one simple app.\n\nWe’ve grown to over 200 paying customers on the web over the last few months, and are now launching the mobile app so field teams can use the full product on site.\n\nZayne and Shelby are construction software veterans with a combined 10+ years building computer vision and spatial AI tools.\n\n**Meet Feldy:**\n\n<https://www.youtube.com/watch?v=W0lEF7isKg4>\n\n**The Problem:**\n\nThe biggest problem in residential home services in 2026 is still remarkably simple: estimates do not go out fast enough to homeowners.\n\nAn estimate is the quote a homeowner receives explaining what work will be done and how much it will cost. Yet, if you call a window contractor, or painter, it can still take two or three days, often longer, to receive one. Over the last 8 months, my home became a test bed for remodeling projects, and this is one of the few truths that persisted. This problem appears in nearly every trade we encountered.\n\n_So why so long?_\n\nThe surprising part is that many of these estimates are not inherently complicated.\n\nConsider a typical window and door contractor. A sales representative drives to the property, walks through the home, identifies every window and door, photographs existing conditions, and asks discovery questions:\n\n* Do you want to replace the trim?\n* Should the opening change?\n\nCapturing this information can easily consume most of a one- or two-hour appointment. By the time the rep understands the property and records everything the office needs, there is _very little time left_ to actually sell the project. This is the primary reason quotes arrive days later, or require a second visit.\n\nFurthermore, existing software makes the problem worse.\n\nMost contractor tools have always been structured like digital forms. The software records what the estimator has already figured out, but it does very little to help figure out the job.\n\nThis is what led us to ask: what does this contractor world look like if the software recorded and figured out the job at once? Well, that’s Feldy.\n\n![uploaded image](/media/?type=post&id=110395&key=user_uploads/1494934/6bdd00aa-4517-41c6-897e-517110044d2b)\n\n**So how do we solve this?**\n\nInstead of requiring the person in the field to manually observe and organize everything, Feldy uses in-house computer vision and vision-language models to perform much of this _low-value work_: necessary technical work that consumes the majority of the job visit time, but creates little visible value for the homeowner.\n\nThe contractor _captures_ the property via photos/videos, lidar scans, or job walkthroughs (video and audio are combined). Feldy then interprets the capture and helps turn it into an estimate amongst a host of other workflow items such as inspection reports, proposals, materials lists, etc.\n\nThe entire thesis behind Feldy can be summed up as:\n\n_How do we remove the time-consuming thinking required from the estimator that creates little visible value for the homeowner?_\n\n![uploaded image](/media/?type=post&id=110395&key=user_uploads/1494934/060ca1ad-5038-40a5-868f-fb14eb04b164)\n\n**The Scale of the bottleneck**\n\nAngi’s list has estimated that American households undertake more than 700 million home projects annually.\n\nUsing 600 million estimates (aggressive case):\n\n* 600M estimates \\* 3.5 hours = 2.1 billion total labor hours\n* 50% spent on measuring, documenting, takeoff, and estimate construction = 1.05 billion hours\n* At $45–50 fully loaded cost = $47–53 billion in annual labor capacity tied up in that work\n\nIf Feldy reclaims 1–1.25 hours per estimate:\n\n* 750 million hours returned\n* Roughly $27–37 billion in productive capacity per year.\n\nFor the average home-services company, this is equivalent to reclaiming $50,000–$100,000+ in capacity each year, capacity that can be converted directly into more estimates, lower overhead, and higher revenue.\n\n**The Team**\n\nZayne and Shelby met at UC Berkeley’s engineering school nearly 10 years ago. For the last three years, they have worked side by side building technology for the construction and home-services industries.\n\nTogether, they previously took a construction-software company from zero to $500k ARR in months. \n\nThe pair is more excited than ever to build the next generation of software for home-service businesses.\n\n**The ask**\n\nIf you know anyone who works in home services, tell them about Feldy and ask them to download the app!\n\nSearch Feldy AI on [IOS ](https://apps.apple.com/us/app/feldy-ai/id6780327228)and [Android ](https://play.google.com/store/apps/details?id=com.feldy.app)app stores.\n\n* You can reach us directly at [**zayne@feldy.ai**](mailto:zayne@feldy.ai)\n* To learn more about Feldy visit us at our [feldy ai](https://feldy.ai/?utm_source=yc&utm_medium=launch&utm_campaign=feldy_launch_campaign_2026&utm_content=first_launch_post) website",
+      "url": "https://www.ycombinator.com/launches/SiZ-feldy-field-first-ai-for-home-services-and-contractors",
+      "votes": 22,
+      "created_at": "2026-08-13T14:55:04.664Z"
+    },
+    {
+      "id": 79053,
+      "title": "Aether  - AI platform for rooftop solar",
+      "tagline": "Aether is AI design and workflow software for solar installers.",
+      "body": "**TL;DR**\n\n[Aether](https://aetherenergie.com/) offers an AI-powered end-to-end platform for rooftop solar installers. We combine advancements in computer vision/lidar and LLMs to bring a unique workflow automation tool for solar installers worldwide.\n\n## Before we start, a sneak peek at Aether:\n\n![uploaded image](/media/?type=post&id=79053&key=user_uploads/1527633/4dd1fd38-1a6f-42f1-b8b8-1ad5d62ea174)\n\n## Some Background\n\n---\n\nHey all, we’re [Shelby Bons](https://linkedin.com/in/shelby-bons-ucberkeley) and [Zayne Sagar](https://linkedin.com/in/zaynesager), two climate entrepreneurs! Our fundamental mission is to make rooftop solar energy accessible and cheap throughout the world.\n\n![uploaded image](/media/?type=post&id=79053&key=user_uploads/1527633/561a67f7-4f40-419e-af7f-2ff7557ac5b7)\n\nFor rooftop solar to be deployed, it’s really up to solar installers. To us, the people who run these companies are our heroes. Last year we spoke to hundreds of solar installers and one thing is clear - they don’t have the tools to make them successful. We reimagined rooftop solar software from the ground up for them.\n\nAether _automates the boring stuff for solar installers using AI_.\n\n## **❌** The Problem:\n\nThe biggest problem in US rooftop solar is still solar soft costs. These are non-hardware costs associated with a solar project, and they amount to north of 60% of the total solar cost of an installed system! If you reduce this you create more demand for rooftop solar in the market = better outcome for our planet.\n\n**Contributors to high soft costs:**\n\n* **PV CAD Design teams still manually build rooftop PV site designs**. This is time-consuming and prone to lots of errors. Mistakes here mean re-doing plansets and permitting which can cost $1k - $2k extra.\n* **Almost all solar design tools are inaccurate in production and consumption modeling**. This is what tells rooftop owners “Is this the right investment for me?” Most solar tools were built as a sidekick for sales reps, with just enough basic estimates to sell a solar proposal. Consumers are smarter now and recent legal litigations are forcing better modeling to be done when selling solar.\n* **Dependency on multiple platforms:** Most solar companies use a software stack of 6 - 10 point solutions. Collectively the solution is dumb and creates chaotic workflows where deals get lost and project delays happen a lot. This is very expensive.\n* **Lack of project visibility across teams** causing lost sales deals, and project delays\n\nWe estimate $5k to $ 7k added soft costs for a typical rooftop project occurring because of the above.\n\n## **✅** Solution:\n\n**Aether is built to streamline the rooftop solar workflow end to end. Think Procore or Veeva but for Solar with an AI twist.**\n\nWith Aether, solar companies can rapidly generate PV site designs, sell using a beautiful PV proposal, and then manage it to installation in one simplified workflow.\n\nAether is made up of hubs that help specific roles in a solar installation company do their job, but more importantly, collaborate with other teams as needed with the help of AI.\n\n**Our two core innovations:**\n\n* We built an in-house computer vision model.\n* We also decided to build a mini fine-tuned model for solar. Being trained on items such as system production data, vision model outputs, etc. (Can’t give the rest of our sauce away!)\n\n![uploaded image](/media/?type=post&id=79053&key=user_uploads/1527633/a0dc44ab-bc4f-498d-bc2d-7318a4751d70)\n\n**The result is a unified AI platform to streamline solar with solar agents.**\n\n[Aether Platform - Sneak Peak](https://www.youtube.com/watch?v=EFJuKOI8kEs&feature=youtu.be)\n\n**💲Opportunity:** Aether will be a big player in the young and emerging Solar software vertical, which has a projected 20B Global TAM up for grabs by 2025.\n\n## About Us\n\n_Shelby and Zayne met at UC Berkeley close to a decade ago both originally being born in complete opposite ends of the world, France and Fiji._\n\n_Shelby studied Materials Science and Engineering at UC Berkeley and was briefly headed for a Ph.D. in Theoretical Physics before founding Aether. She has worked at Dolby Laboratories, Voltaiq, and Sunrun in Data Science & Machine Learning roles._\n\n_Zayne had brief stints at multiple climate-driven companies, working on problems around space-based weather data and energy modeling problems at the intersection of software. He has built high-performing product & engineering teams from the ground up by the age of 28._\n\n## **🙏** Our Ask:\n\n* Please share this post with your network, and tell solar installers about us!\n* If you are a rooftop solar installer, check us out at <https://aetherenergie.com/> and book a demo with us!\n* If you’re as excited as we are about this novel approach to solar software and would like to learn more about what we’re doing, comment below or email us at [zsagar@aetherenergy.me](mailto:zsagar@aetherenergy.me)\n\n**💲Early adopter discount**: We’re giving solar installers 50% off whatever design tool they currently pay for.",
+      "url": "https://www.ycombinator.com/launches/KZ3-aether-ai-platform-for-rooftop-solar",
+      "votes": 23,
+      "created_at": "2024-03-05T02:02:09.486Z"
+    }
+  ]
+}

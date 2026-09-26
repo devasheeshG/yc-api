@@ -1,0 +1,98 @@
+{
+  "id": 22252,
+  "name": "Reflect",
+  "slug": "reflect",
+  "former_names": [],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/f7bfe137c38c2daa6007634c68b4c0aeb91e2862.png",
+  "website": "https://reflect.run",
+  "all_locations": "Villanova, PA, USA",
+  "long_description": "Reflect is a no-code tool for automated website testing. Instead of building and maintaining complex Selenium tests, companies use Reflect to run automated end-to-end tests without writing code.",
+  "one_liner": "No-code test automation for web apps",
+  "team_size": 6,
+  "industry": "B2B",
+  "subindustry": "B2B -> Engineering, Product and Design",
+  "launched_at": 1595437275,
+  "tags": [
+    "Developer Tools",
+    "SaaS",
+    "B2B",
+    "No-code"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Summer 2020",
+  "status": "Acquired",
+  "industries": [
+    "B2B",
+    "Engineering, Product and Design"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada",
+    "Remote",
+    "Partly Remote"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/reflect",
+  "api": "https://devasheeshg.github.io/yc-api/batches/summer-2020/reflect.json",
+  "year_founded": 2019,
+  "city": "Villanova",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/runreflect/",
+  "x_url": "https://twitter.com/runreflect",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/f7bfe137c38c2daa6007634c68b4c0aeb91e2862.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": null,
+  "founders": [
+    {
+      "user_id": 505482,
+      "full_name": "Fitz Nowlan",
+      "title": "Founder",
+      "founder_bio": "Software engineer and founder.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/fitz-nowlan",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/7214feeb020c58767afc60f0dbad03ab4b78e4f7.jpg"
+    },
+    {
+      "user_id": 26261,
+      "full_name": "Todd McNeal",
+      "title": "Founder",
+      "founder_bio": "Prior to Reflect, Todd was first engineer and later Director of Engineering at Curalate. Curalate went on to raise a Series C and was recently acquired by Bazaarvoice.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/toddmcneal/",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/dde87ec339955dd25120a18826a12ebf2d441694.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [
+    {
+      "title": "The Next Chapter: Why we are excited to join SmartBear | Reflect",
+      "url": "https://reflect.run/articles/reflect-acquired-by-smartbear/",
+      "date": "Jan 25, 2024"
+    }
+  ],
+  "launches": [
+    {
+      "id": 76109,
+      "title": "ZeroStep - AI-assisted actions and assertions for Playwright tests",
+      "tagline": "ZeroStep's ai() function unlocks the power of GPT3.5 and GPT4 to make Playwright tests simpler and more resilient to change.",
+      "body": "[**ZeroStep**](https://zerostep.com/) is a JavaScript library that adds the power of AI to Playwright tests. ZeroStep’s **ai()** function lets developers test a web application using simple plain-text instructions, embedded directly in their Playwright tests.\n\nHere’s a complete Playwright test using ZeroStep that verifies the core “book a meeting” workflow in Calendly:\n\n```javascript\nimport { test, expect } from '@playwright/test'\nimport { ai } from '@zerostep/playwright'\n\ntest.describe('Calendly', () => {\n  test('book the next available timeslot', async ({ page }) => {\n    await page.goto('https://calendly.com/zerostep-test/test-calendly')\n\n    await ai('Verify that a calendar is displayed', { page, test })\n    await ai('Dismiss the privacy modal', { page, test })\n    await ai('Click on the first available day of the month', { page, test })\n    await ai('Click on the first available time in the sidebar', { page, test })\n    await ai('Click the Next button', { page, test })\n    await ai('Fill out the form with realistic values', { page, test })\n    await ai('Submit the form', { page, test })\n\n    const element = await page.getByText('You are scheduled')\n    expect(element).toBeDefined()\n  })\n})\n```\n\nSix months ago, we launched an AI “prompt” feature in [**Reflect**](https://reflect.run/), our low-code testing platform, that lets users execute actions and assertions from plain-text prompts. Since then, two-thirds of our customers have incorporated AI prompts into their Reflect tests. We’re convinced that AI will lead to a step change in how products are end-to-end tested, and want as many devs as possible to be able to take advantage of this new technology.\n\nWith ZeroStep, you can get the benefits of easy-to-write test steps and less flaky tests, with minimal changes to your existing Playwright testing workflow.\n\n**The biggest benefits of ZeroStep are:**\n\n* **Tests are easier to write**. Writing an ai() step is equivalent to describing the action (“Fill out the form with realistic values”), assertion (“Verify there are no errors displayed on the page”), or extraction (“What is the shopping cart total?”) in plain English. The AI does the rest. There’s no need to write selectors, or add data-test-id attributes all over your app so that your tests have stable locators. Our website and GitHub repo show several examples of tricky testing scenarios that are made easy with ZeroStep.\n* **Tests are less frustrating to maintain**. Unlike selectors, ZeroStep ai() steps are not tightly coupled to your app’s markup. The ZeroStep AI interprets your ai() steps at runtime which means even large scale changes in the app won’t break your tests, so long as your functional requirements remain unchanged. Selectors, in my opinion, are one of the worst leaky abstractions in software development. I can’t imagine how many dev hours have been lost due to them. We’re happy to not use any concept of selectors with this approach.\n* **It’s easy to ramp up**. ai() steps have no predefined syntax (unlike Cucumber). You just need to be able to clearly describe what action, assertion, or extraction you want the AI to perform.\n\n**Our Ask:**\n\nIf your front-end developers write and maintain Playwright tests, and would benefit from tests being faster to write and easier to maintain, we think they’ll love ZeroStep.\n\nWe offer a generous free tier and it’s easy to get started. More information is available at <https://zerostep.com/> and our GitHub repo: <https://github.com/zerostep-ai/zerostep>",
+      "url": "https://www.ycombinator.com/launches/JnZ-zerostep-ai-assisted-actions-and-assertions-for-playwright-tests",
+      "votes": 10,
+      "created_at": "2023-11-09T16:23:18.167Z"
+    }
+  ]
+}

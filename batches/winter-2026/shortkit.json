@@ -1,0 +1,89 @@
+{
+  "id": 31096,
+  "name": "shortkit",
+  "slug": "shortkit",
+  "former_names": [
+    "Embassi"
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/0a0714fa881cb99f3080456e1c76e5b495a45be7.png",
+  "website": "https://www.shortkit.dev",
+  "all_locations": "",
+  "long_description": "ShortKit lets any consumer app launch a TikTok-grade media expereinces. \r\n\r\nMichael, spent 6 years at YouTube building the infrastructure that powers YouTube Shorts. Neil, prev. scaled a SaaS company from 0 to $6M ARR as employee #1. \r\n\r\nWe handle the full media stack, starting with short form video - client SDKs, video infrastructure, rec systems, and monetization - so product teams don't have to.",
+  "one_liner": "Media infra for consumer apps",
+  "team_size": 2,
+  "industry": "B2B",
+  "subindustry": "B2B -> Engineering, Product and Design",
+  "launched_at": 1771985375,
+  "tags": [],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Winter 2026",
+  "status": "Active",
+  "industries": [
+    "B2B",
+    "Engineering, Product and Design"
+  ],
+  "regions": [
+    "Unspecified"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/shortkit",
+  "api": "https://devasheeshg.github.io/yc-api/batches/winter-2026/shortkit.json",
+  "year_founded": 2026,
+  "city": null,
+  "country": null,
+  "linkedin_url": "https://www.linkedin.com/company/shortkit/",
+  "x_url": "",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/0a0714fa881cb99f3080456e1c76e5b495a45be7.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Brad Flora",
+    "url": "https://www.ycombinator.com/people/brad-flora"
+  },
+  "founders": [
+    {
+      "user_id": 1590155,
+      "full_name": "Neil Bhammar",
+      "title": "Founder/CEO",
+      "founder_bio": "Making it really easy to deploy and scale best-in-class video experiences. prev. built @ BusRight (first employee) from 0 through our Series B.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/neilbhammar/",
+      "x_url": "https://x.com/neilbhammar",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/22367adf021bb12107b2e6ad23f6a9aada9b6cc6.jpg"
+    },
+    {
+      "user_id": 2541340,
+      "full_name": "Michael Seleman",
+      "title": "Founder/CTO",
+      "founder_bio": "Making enterprise short-form video systems simple. Prev. Spent 6 years building infrastructure that powers YouTube Shorts.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/michael-seleman-541509122/",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/4c9ae77035400a0d09b11ff261937c10fda232b5.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 98172,
+      "title": "ShortKit – The SDK for Short Form Video Feeds",
+      "tagline": "We help every app roll their own TikTok-quality video feed.",
+      "body": "**tl;dr** ShortKit lets consumer teams and publishers ship best-in-class vertical video feeds _(playback, infra, monetization, rec systems, content networks, and more)_ without needing their own video eng orgs. [Michael Seleman](https://linkedin.com/in/michael-seleman-541509122) spent years at YouTube building the infrastructure behind Shorts. Now, we're packaging that for everyone else.\n\n**Short-form video is eating the world**\n\nVertical video is the most retentive format on the internet (with the highest ad spend), but it's captive on the three major platforms. The best publishers and consumer companies want to participate (see [Glassdoor](https://techcrunch.com/2024/10/09/glassdoor-takes-a-leaf-out-of-linkedins-book-launches-short-videos-polls-and-images/), [DoorDash](https://techcrunch.com/2025/09/30/doordash-rolls-out-creator-program-for-short-form-videos-adds-new-app-features-and-dine-in-rewards/), and [CNN](https://www.theverge.com/news/816638/cnn-app-shorts-feed-videos-launch)’s recent feed launches). Companies are desperate to own first-party data, engage their users more deeply, and drive ad revenue within their own experiences.\n\n**But it's still really hard at scale**\n\nTeams today either spend millions to ship quality short-form feeds, roll out poor-quality ones that fail to retain, or don't ship them at all because they don't know where to start. It's a massive missed opportunity for consumer companies, and an existential one for companies built on attention, like news-media.\n\n**So we're making it really easy**\n\nShortKit is a drop-in short-form video system. Product teams get:\n\n* **Managed SDKs** that deliver best-in-class short-form feeds. We've obsessed over the mechanics that make these competitive with the major platforms - ML driven buffer management, feed aware player mechanics, buttery-smooth tactiles, and much more.\n* **Video infrastructure** they never have to think about. Powering global video distribution that always works, optimized specifically for short-form content.\n* **Monetization** like native ads & first party data collection.\n* **Rec systems** with baseline configurations and ML-driven feed ranking algos.\n* **Admin tools** and APIs to manage feeds, integrate your CMS/database, and view analytics.\n\n**Our ask:**\n\nIf you know product or growth leaders at:\n\n* Media companies - NYT, ESPN, TMZ, Condé Nast, etc.\n* Consumer companies - TripAdvisor, Ticketmaster, Zillow, Yelp, etc.\n\nWe'd love to talk to them. You can reach out at [neil@shortkit.dev](mailto:neil@shortkit.dev) or book time with us at [shortkit.dev](http://shortkit.dev).\n\n<https://youtu.be/_W2qBGRnBaM>",
+      "url": "https://www.ycombinator.com/launches/PXQ-shortkit-the-sdk-for-short-form-video-feeds",
+      "votes": 20,
+      "created_at": "2026-02-26T08:03:51.086Z"
+    }
+  ]
+}

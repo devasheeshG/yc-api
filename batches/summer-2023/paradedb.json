@@ -1,0 +1,162 @@
+{
+  "id": 29087,
+  "name": "ParadeDB",
+  "slug": "paradedb",
+  "former_names": [
+    "Retake"
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/6668d68dbb65664dcc7f40eff60e4ee586f09132.png",
+  "website": "https://paradedb.com",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "Search without a second system. One Postgres for your application data, full-text search, vector retrieval, and aggregations.",
+  "one_liner": "Unify application data, vectors, and full-text search in one Postgres",
+  "team_size": 11,
+  "industry": "B2B",
+  "subindustry": "B2B",
+  "launched_at": 1689280457,
+  "tags": [
+    "Developer Tools",
+    "Analytics",
+    "Open Source",
+    "Infrastructure",
+    "Databases"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": true,
+  "nonprofit": false,
+  "batch": "Summer 2023",
+  "status": "Active",
+  "industries": [
+    "B2B"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada",
+    "Remote",
+    "Partly Remote"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": [
+    {
+      "question": "How did your company get started? (i.e., How did the founders meet? How did you come up with the idea? How did you decide to be a founder?)",
+      "answer": "We (Phil and Ming) previously built Whist, a cloud-hybrid browser, together with an amazing team of 20 from 2020 to 2023. We originally met at university, in 2016, during the earliest days of orientation, and quickly became close friends, pitching each other startup ideas throughout college, until we decided to make the jump during our senior year.The idea for ParadeDB came from building on the experience acquired in the cloud infrastructure market during our Whist days, and from talking with 50+ customers in the beginnings of YC S23. We initially applied to YC with a completely different idea, but pivoted into what became ParadeDB after seeing more customer interest for the infrastructure we had built to service our prior idea, a sustainability platform, than the idea itself; and thus ParadeDB was born."
+    },
+    {
+      "question": "How did you decide to apply to Y Combinator? What was your experience applying, going through the batch, and fundraising at demo day?",
+      "answer": "We were looking for an environment that would help us make something people want and not get caught in all the other non-essential parts of building an early-stage company. Our experience with YC was shaped by this mindset from application to fundraising and we had a great experience."
+    },
+    {
+      "question": "How have you kept in touch with the YC community and continued to use YC resources & programs since the batch ended?",
+      "answer": "We’ve made a bunch of friends in YC, are still in touch with our Group Partner and batchmates, and frequently interact on Bookface."
+    },
+    {
+      "question": "What's the history of your company from getting started until the present day? What were the big inflection points?",
+      "answer": "ParadeDB started during the YC batch, in Summer of 2023. We first released `pg_search`, our full-text search product in Postgres. A few months later we released `pg_analytics`, our analytics product in Product. We eventually combined them both into a single Postgres extension to offer full-text search and analytics in Postgres. Today, we’re productionizing both into ParadeDB and working to service increasingly larger customers."
+    },
+    {
+      "question": "What is the core problem you are solving? Why is this a big problem? What made you decide to work on it?",
+      "answer": "Postgres’ full-text search and analytics capabilities, two critical workloads for SaaS, finance, retail, and countless more industries, are a far cry from dedicated data stores like Elasticsearch. ParadeDB is fixing that."
+    },
+    {
+      "question": "What is your long-term vision? If you truly succeed, what will be different about the world?",
+      "answer": "ParadeDB is part of the “Postgres for everything” movement, enabling companies to run increasingly larger parts of their data infrastructure on Postgres in an open-source, free of vendor lock-in world."
+    }
+  ],
+  "url": "https://www.ycombinator.com/companies/paradedb",
+  "api": "https://devasheeshg.github.io/yc-api/batches/summer-2023/paradedb.json",
+  "year_founded": 2023,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://linkedin.com/company/paradedb",
+  "x_url": "https://twitter.com/paradedb",
+  "fb_url": null,
+  "cb_url": "https://www.crunchbase.com/organization/paradedb",
+  "github_url": "https://github.com/paradedb",
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/6668d68dbb65664dcc7f40eff60e4ee586f09132.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [
+    "https://bookface-images.s3.us-west-2.amazonaws.com/attachments/ce5ca15131669146d463d97b0579fcdc2d4b71e2.png"
+  ],
+  "primary_partner": {
+    "name": "Harj Taggar",
+    "url": "https://www.ycombinator.com/people/harj-taggar"
+  },
+  "founders": [
+    {
+      "user_id": 317980,
+      "full_name": "Philippe Noël",
+      "title": "Founder",
+      "founder_bio": "Founder @ ParadeDB. Previously @Whist, @Microsoft. Harvard CS'20. From Québec.",
+      "is_active": true,
+      "linkedin_url": "https://linkedin.com/in/philippemnoel",
+      "x_url": "https://twitter.com/philippemnoel",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/e6ca7eedf6383c2ebb46a29a5f9e96a6e976add1.jpg"
+    },
+    {
+      "user_id": 1341340,
+      "full_name": "Ming Ying",
+      "title": "Founder",
+      "founder_bio": "Founder @ ParadeDB",
+      "is_active": true,
+      "linkedin_url": "https://linkedin.com/in/ming-ying",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/19af7b14da5cf743d9de76ee556ebaf69adc3ebb.jpg"
+    }
+  ],
+  "jobs": [
+    {
+      "id": 74017,
+      "title": "Database Engineer — Storage & Query Execution",
+      "url": "https://www.ycombinator.com/companies/paradedb/jobs/GCpYraM-database-engineer-storage-query-execution",
+      "location": "San Francisco, CA, US / Remote (CA; US)",
+      "type": "Full-time",
+      "role": "Engineering",
+      "role_type": "Backend",
+      "salary_range": "$150K - $250K",
+      "equity_range": "0.15% - 0.40%",
+      "experience": "3+ years",
+      "visa": "Will sponsor",
+      "skills": [
+        "Rust",
+        "Distributed Systems"
+      ]
+    },
+    {
+      "id": 74019,
+      "title": "Distributed Systems Engineer — Postgres Platform",
+      "url": "https://www.ycombinator.com/companies/paradedb/jobs/yWsaLaN-distributed-systems-engineer-postgres-platform",
+      "location": "San Francisco, CA, US / Remote (US; CA)",
+      "type": "Full-time",
+      "role": "Engineering",
+      "role_type": "Backend",
+      "salary_range": "$150K - $250K",
+      "equity_range": "0.15% - 0.40%",
+      "experience": "3+ years",
+      "visa": "Will sponsor",
+      "skills": [
+        "Amazon Web Services (AWS)",
+        "Bash/Shell",
+        "Go",
+        "Kubernetes",
+        "PostgreSQL",
+        "Elasticsearch",
+        "RDS/Aurora",
+        "Distributed Systems",
+        "Docker"
+      ]
+    }
+  ],
+  "news": [
+    {
+      "title": "ParadeDB takes on Elasticsearch as interest in Postgres explodes amid AI boom | TechCrunch",
+      "url": "https://techcrunch.com/2025/07/15/paradedb-takes-on-elasticsearch-as-interest-in-postgres-explodes-amid-ai-boom/",
+      "date": "Jul 15, 2025"
+    }
+  ],
+  "launches": []
+}

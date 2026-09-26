@@ -1,0 +1,83 @@
+{
+  "id": 25650,
+  "name": "NearWave",
+  "slug": "nearwave",
+  "former_names": [],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/f557afe1950ca98cfc34f200e929dacc1c441796.png",
+  "website": "http://nearwave.co",
+  "all_locations": "Austin, TX, USA; South Bend, IN, USA",
+  "long_description": "NearWave makes a handheld imaging device that helps physicians select the right therapy for their breast cancer patients. This prevents patients from suffering through months of side effects caused by unsuccessful treatments. \r\n\r\n\r\n      ",
+  "one_liner": "Helping physicians select the right therapy for breast cancer patients",
+  "team_size": 3,
+  "industry": "Healthcare",
+  "subindustry": "Healthcare -> Medical Devices",
+  "launched_at": 1646924515,
+  "tags": [
+    "Artificial Intelligence",
+    "Hard Tech",
+    "Hardware",
+    "SaaS",
+    "Medical Devices"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Winter 2022",
+  "status": "Active",
+  "industries": [
+    "Healthcare",
+    "Medical Devices"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada",
+    "Remote",
+    "Partly Remote"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/nearwave",
+  "api": "https://devasheeshg.github.io/yc-api/batches/winter-2022/nearwave.json",
+  "year_founded": 2022,
+  "city": "Austin",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/nearwave/about/",
+  "x_url": "https://twitter.com/NearWave/",
+  "fb_url": "https://www.facebook.com/nearwave/",
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/f557afe1950ca98cfc34f200e929dacc1c441796.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": null,
+  "founders": [
+    {
+      "user_id": 749007,
+      "full_name": "Roy Stillwell",
+      "title": "Founder",
+      "founder_bio": "Roy Stillwell is the co-founder, CEO and chief engineer of NearWave, which he co-founded with Professor Thomas O'Sullivan in 2020. He has a PhD in electrical engineering, with a focus in biophotonics research. Originally from Colorado, Roy is a father, husband, technologist, gamer, boarder, and loves to build.  \n",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/roy-stillwell-12448916/",
+      "x_url": "https://twitter.com/stillwell_roy",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/fa6d624bf89f9bd5f64732bdf206bc741ce339ef.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 80934,
+      "title": "NearWave - Realtime therapy efficacy for treating breast cancer patients",
+      "tagline": "NearWave makes a new type of handheld imaging tech with AI that helps physicians select the right therapy for their breast cancer patients. ",
+      "body": "**TL;DR We can tell within a week if chemotherapies in breast cancer are working or not, allowing physicians to stop or change therapies very quickly, rather than waiting 3-12 months. This saves patients months of side effects for the 70% of women that do not fully respond to cancer therapies, affecting the 4M women in the world diagnosed with invasive breast cancer each year. This will be the standard of care in the next 5 years.**\n\nHello to all my YC friends, I’m Roy and our team is building [NearWave.](https://nearwave.co/) Both my mother and grandmother are breast cancer survivors, as is my co-founder’s wife.  After going through the (often archaic) treatment process with them, we are on a personal mission to bring treatment relief for unnecessary side effects caused by ineffective and expensive treatments which currently costs the US health system $50B/yr. There is a nice video story [here](https://fightingfor.nd.edu/2023/fighting-for-breast-cancer-patients/).  We already have 4 systems sold to customers ($123k) and just received a letter that the FDA agrees with our regulatory pathway.\n\n**The Problem**\n\nOncologists have the difficult task of assessing the efficacy of chemotherapy drugs and proper dosing, with the majority of breast cancer patients not showing pathologic complete response (pCR). Imagine taking drugs that devastate your immune system, cause hair loss, nausea, later to find the treatment is ineffective. Further, it takes months to tell if a therapy is working. Those months are critical to survival for patients with aggressive disease progression.\n\n**Our Solution**\n\nNearWave's core imaging technology and accompanying prediction models have been shown in multi-center studies to predict pathologic complete response in breast cancer patients in as early as a week\\[[1](https://pubmed.ncbi.nlm.nih.gov/30338678/#:\\~:text=Notably%2C%20logistic%20regression%20based%20on,CI%3A%200.82%20to%201)\\]\\[[2](http://cancerres.aacrjournals.org/content/76/20/5933.short)\\]\\[[3](https://www.spiedigitallibrary.org/journals/journal-of-biomedical-optics/volume-29/issue-06/066001/Functional-hemodynamic-imaging-markers-for-the-prediction-of-pathological-outcomes/10.1117/1.JBO.29.6.066001.full#_=_)\\]. If oncologists knew efficacy in a few days, they would make real-time adjustments to therapy, personalizing care for each patient \\[[4](https://www.mendelspod.com/p/precision-oncology-at-the-community-544?utm_source=publication-search)\\].\n\n📸 Device and iPad app showing a tumor simulating phantom scanned with the system.\n\n![uploaded image](/media/?type=post&id=80934&key=user_uploads/749007/8f146342-1e4a-4bcb-a40f-639be01f52be)\n\nWhen a therapy is not showing a response, physicians can increase dosage, iterate to other therapies, or move to surgery much sooner, reducing side-effects for patients by as much as 50%, while reducing cost in direct-to-surgery cases. In the future we will expand our indication to cover benign/malignant lesion classification at the ob/gyn bed-side, where ½ the world population undergoes exams, a true **billion user** technology. \n\n**How it works**\n\nThe underlying technology uses [fdNIRS](https://nearwave.co/technology/fdnirs/), a form of near infrared spectroscopy which is deep tissue, non-invasive, does not require injectable contrast, and uses no ionizing radiation.  We measure the molecular absorption and scattering of light of biomarkers (blood, water, lipid) to monitor changes in metabolic and hemodynamic information in tissue \\[[5](https://opg.optica.org/boe/fulltext.cfm?uri=boe-12-11-7261&id=462776)\\]. Metabolic changes are an excellent indicator of therapy response, which our AI models use to categorize and predict the treatment outcomes. \n\n🌈 Here’s how light travels in tissue, and how it works with our system.\n\n![uploaded image](/media/?type=post&id=80934&key=user_uploads/749007/6ffa11ac-d114-48d8-a27b-8e50c0c1e2ab)\n\n🤖 Workflow for our AI model therapy response grading. Breast images are from a study patient responding to therapy.\n\n![uploaded image](/media/?type=post&id=80934&key=user_uploads/749007/2a7c993c-4938-4648-b042-61af9cdfe9f5)\n\n🤯 Here we visualize a 3d tumor, measured with our system on a physical tumor phantom of actual breast tissue properties.\n\n![uploaded image](/media/?type=post&id=80934&key=user_uploads/749007/e47ac6ad-99d0-4b3a-a421-9d535916dc28)\n\n**Asks**\n\nIf you know anyone affected by breast cancer that was a candidate for neoadjuvant chemotherapy, we’d love to talk to them to hear about their experience. Reach out to us [here](https://nearwave.co/company/contact/). \n\nIf you have 10 minutes to chat about what we’re doing, I’d be thrilled to book a time with you [here](https://calendly.com/roy-197/roy-15min?preview_source=et_card&month=2024-05&date=2024-05-20).  \n\nThank you. \n\nRoy & the NearWave Team",
+      "url": "https://www.ycombinator.com/launches/L3O-nearwave-realtime-therapy-efficacy-for-treating-breast-cancer-patients",
+      "votes": 42,
+      "created_at": "2024-05-17T22:13:40.694Z"
+    }
+  ]
+}

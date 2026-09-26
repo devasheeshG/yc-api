@@ -1,0 +1,122 @@
+{
+  "id": 31118,
+  "name": "/dev/fast",
+  "slug": "devfast",
+  "former_names": [
+    "Workable Solutions Inc.",
+    "Fix.Fast",
+    "Carson"
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/fdf0aa48a8dc6d626f3dad009167a50e943af31a.png",
+  "website": "https://dev.fast",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "/dev/fast is the AI-native code forge. We're building 'Review', an open-source Cursor for code review.\r\n\r\nThe Review app is designed to give you confidence in your code. Critique interactive visualizations, diffs, and agent traces, all from one interface. \r\n\r\nLearn more at https://dev.fast",
+  "one_liner": "/dev/fast is the AI-native code forge",
+  "team_size": 4,
+  "industry": "B2B",
+  "subindustry": "B2B",
+  "launched_at": 1771920641,
+  "tags": [
+    "Developer Tools"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Winter 2026",
+  "status": "Active",
+  "industries": [
+    "B2B"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/devfast",
+  "api": "https://devasheeshg.github.io/yc-api/batches/winter-2026/devfast.json",
+  "year_founded": 2025,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "",
+  "x_url": "",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/fdf0aa48a8dc6d626f3dad009167a50e943af31a.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Gustaf Alstromer",
+    "url": "https://www.ycombinator.com/people/gustaf-alstromer"
+  },
+  "founders": [
+    {
+      "user_id": 2724635,
+      "full_name": "Sid Menon",
+      "title": "Founder/CEO",
+      "founder_bio": "building the next github | prev @ Palantir, Harvard.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/sidkmenon",
+      "x_url": "https://x.com/sidharthkmenon",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/9df7a47196b0b3ea640038c9080302bc630f2050.jpg"
+    },
+    {
+      "user_id": 1722920,
+      "full_name": "Ketan Agrawal",
+      "title": "Founder",
+      "founder_bio": "Building an AI-native Github. prev: AI/ML engineering at Snowflake, Robust Intelligence, Stanford Symbolic Systems/CS",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/ketan-jay-agrawal/",
+      "x_url": "https://x.com/_ketan0",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/79c767279e2e8310d2c0d028dd9d9dc98a512a9c.jpg"
+    },
+    {
+      "user_id": 269315,
+      "full_name": "Milan Bhandari",
+      "title": "Founder/CTO",
+      "founder_bio": "Building the next GitHub. Prev: Bolto (YC S23), Palantir, Harvard CS '21",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/milan-bhandari-623979163/",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/081a8aeb83f83cdfa8e6272270c6e43ccf58c5e7.jpg"
+    },
+    {
+      "user_id": 3196010,
+      "full_name": "Alex Iansiti",
+      "title": "Founder/CPO",
+      "founder_bio": "rethinking dev tools for the era of slop code. Prev: Flowcode, Pinterest, Harvard CS '21",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/alex-iansiti/",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/82e7f47b9c7be6a5b2494c5fd1542e18a78547b7.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 112248,
+      "title": "/dev/fast: Cursor for Code Review",
+      "tagline": "Review is an open-source desktop app built for humans to understand AI-generated code. Critique interactive visualizations, diffs, and agent traces, all from one interface.",
+      "body": "**TL;DR:** _Review is an open-source desktop app designed to give you confidence in your code. Critique interactive visualizations, diffs, and agent traces, all from one interface. It’s like Cursor, but purpose-built for code review._\n\n**Our Ask:** Try our app on your toughest code reviews; it is most illuminating for large, complicated changes. [Download the app](https://install.dev.fast/), [star the repo](https://github.com/devdotfast/review), &amp; ask your questions on our [Discord](https://discord.gg/dev-fast)!\n\n**Demo Video:** <https://youtu.be/mDgxhzrFi2Y>\n\n**The Problem:**\n\nNo one knows how much code we should be reading these days.\n\nIt feels tedious and old-fashioned to manually comb through thousands of lines of changes, and yet irresponsible to merge code you can’t confidently describe.\n\nWe’ve lost touch with how our own systems work.\n\nBuilding a company is a long game. Development is an iterative process. It takes accountability and code comprehension at every stage to build a great product that customers can count on ([ex 1](https://www.geoffreylitt.com/2026/07/02/understanding-is-the-new-bottleneck), [ex 2](https://margaretstorey.com/blog/2026/02/09/cognitive-debt/)).\n\n**Our Solution:**\n\nBefore AI, staff engineers understood massive software systems even when they didn’t have time to read all contributed code. They prioritized without sacrificing complexity by:\n\n\\- Scrutinizing RFCs and architecture diagrams\n\n\\- Skipping low-impact PRs\n\nReview treats you like a staff engineer. You can think of it as a ‘Cursor for code review.’ It helps you build programmatic, customizable RFCs from your PRs using coding agents.\n\nInstead of reviewing 1000+ line diffs you:\n\n1\\. Consult a variety of interactive diagrams built on our SDK:\n\n![uploaded image](/media/?type=post&id=112248&key=user_uploads/2724635/4db58f4d-cdcc-4825-966d-c92ffcfedeba)\n\n2\\. Chat with the authoring agent to leave comments on the change:\n\n![uploaded image](/media/?type=post&id=112248&key=user_uploads/2724635/5849e89e-3eb0-494d-a921-985402d16252)\n\n3\\. Audit the agent’s decisions by connecting traces to code:\n\n![uploaded image](/media/?type=post&id=112248&key=user_uploads/2724635/d0b141ce-fcb3-4392-b59f-6d16e4f10f1a)\n\n—\n\n**Team:**\n\n![uploaded image](/media/?type=post&id=112248&key=user_uploads/2724635/42caf723-b7dc-4ca1-a848-9bbce13cd39e)\n\n**Sid (CEO)** was a tech lead on Palantir’s cloud infrastructure team, where he built secure hybrid cloud deployment infrastructure. He studied CS at Harvard.\n\n**Milan (CTO)** was a cofounder of Bolto (YC S23) and previously worked on Palantir's ML infrastructure team, where he built tools for in-platform model deployment and evaluation. He studied CS at Harvard.\n\n**Ketan (CSO)** has worked as a machine learning engineer at Robust Intelligence where he red-teamed AI systems to make them fail, and at Snowflake where he built data-querying agents. He studied CS at Stanford.\n\n**Alex (CPO)** worked as a software engineer at Pinterest and at Flowcode where he led an effort to rearchitect the product for large enterprises. He studied CS at Harvard.\n\n—\n\n**We’re going all in on open-source. Our dream is to be the open-source code forge for the AI era.**\n\n**Install the app here:** <https://install.dev.fast>\n\nHave questions, comments, or interested in a design partnership for our hosted product? We’d love to hear from you!",
+      "url": "https://www.ycombinator.com/launches/TCS-dev-fast-cursor-for-code-review",
+      "votes": 4,
+      "created_at": "2026-08-25T23:51:47.650Z"
+    },
+    {
+      "id": 98162,
+      "title": "Carson: More secure than OpenClaw, More capable than Cowork",
+      "tagline": "An AI agent with enterprise-grade security that generates custom, task-specific interfaces.",
+      "body": "**TL;DR:** AI agents are trapped in chat bubbles. Carson breaks free by generating dynamic interfaces like research dashboards or slide editors, customized to your current task. Carson is built for problem solvers pushing the bounds of AI in sales, marketing, and ops, with enterprise-grade security baked in.\n\n**Our ask:** Sign up to use Carson today at [usecarson.com](http://usecarson.com), it's free for your first 7 days.\n\n**Demo Video:** <https://www.youtube.com/watch?v=23sZGNMz3PU>\n\n### The Problem:\n\nAI tools today force you to choose between power and safety:\n\n**1) Openclaw is powerful but insecure** ([example](https://x.com/summeryue0/status/2025774069124399363))**:**\n\n![uploaded image](/media/?type=post&id=98162&key=user_uploads/2724635/b2f3f2f6-a15c-437b-840a-e8e2f075c2d4)\n\n**2) Claude Cowork is too limited:** Cowork is useful, but it could do much more. For example, if you use Cowork to source candidates, you need to bounce between LinkedIn, email, and the desktop app. Its permissions system is also clunky: you either approve every single action manually or skip permissions entirely with YOLO mode.\n\nOn some level security & autonomy are fundamental tradeoffs, but better tools should exist.\n\n### The Solution:\n\nCarson’s UI is generative, which means it changes to suit your use-case. Let’s walk through a common workflow as an example: **sales.**\n\n**Phase 1: Outbound**: Below, I first use Carson to research leads. It realizes that I want structured data, so it fills an editable spreadsheet with deep research. \n\nOnce that’s ready, I ask it to help me draft emails. Instead of switching between my LinkedIn, research, and my email, Carson generates a unified email workspace with all three in one pane.\n\n![uploaded image](/media/?type=post&id=98162&key=user_uploads/2724635/4d5a7add-b0dd-4189-be0c-2f296cc24915)\n\n**Phase 2: First Meeting Prep (“Vibe Sliding”):** when the emails turn into meeting invites, I can use Carson to generate a customized slide deck based on the response & deep research (complete with branding)! I can also “vibe slide” and make edits to the slides using natural language.\n\n![uploaded image](/media/?type=post&id=98162&key=user_uploads/2724635/c69368ec-fa33-4746-a005-ef640ff400d7)\n\n**Phase 3: Automations:** Carson can create and run automations in natural language. In this case, I ask Carson to send slides to me on Slack every time a new intro meeting comes up:\n\n![uploaded image](/media/?type=post&id=98162&key=user_uploads/2724635/7ec59f08-0a16-4bb4-aefd-e686923d5a21)\n\n### \n\n**Security Infrastructure**\n\n**TL;DR: You can actually install Carson at work.**\n\nWe weren’t happy at all with the primitives out there on agentic security. The compromises range from the uncomfortable (granting broad access to your entire email & calendar) to deeply concerning (giving an agent secret keys and telling it “\\_hey make no mistakes\\_”).\n\nInstead, Carson is built around a fine-grained authorization system. You can tell the agent “\\_it’s ok to send emails to these addresses, but ask me before interacting with those other ones\\_”, and it’s enforced at the runtime level – the agent literally cannot send emails to unintended recipients.\n\n### **Our Asks:**\n\nIf you’ve felt that Claude Cowork could be more capable or felt scared to try OpenClaw at work, Carson is right for you.\n\nContact us at +1-614-984-8423 or at [sid@usecarson.com](mailto:sid@usecarson.com). We’ll come over and install Carson for you (if you ask nicely, there may be a bag of sumo oranges provided, too).\n\n**The Team**\n\nAlex, Sid, and Milan met doing college projects together at Harvard, and Sid and Ketan go way back (to elementary school).\n\n![uploaded image](/media/?type=post&id=98162&key=user_uploads/2724635/275c90fc-a5a9-4199-a657-221b81dee677)\n\n**Sid (CEO)** was a tech lead on Palantir’s cloud infrastructure team, where he built secure deployment infrastructure for untrusted workloads. He studied CS at Harvard.\n\n**Milan (CTO)** was a cofounder of Bolto (YC S23) and previously worked on Palantir's ML infrastructure team, where he built tools for in-platform model deployment and evaluation. He studied CS at Harvard.\n\n**Ketan (CSO)** has worked as a machine learning engineer at Robust Intelligence where he red-teamed AI systems to make them fail, and at Snowflake where he built data-querying agents. He studied CS at Stanford.\n\n**Alex (CPO)** worked as a software engineer at Pinterest and at Flowcode where he led an effort to rearchitect the product for large enterprises. He studied CS at Harvard.",
+      "url": "https://www.ycombinator.com/launches/PXG-carson-more-secure-than-openclaw-more-capable-than-cowork",
+      "votes": 57,
+      "created_at": "2026-02-26T01:04:36.863Z"
+    }
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "id": 29347,
+  "name": "Vibrant Labs",
+  "slug": "vibrant-labs",
+  "former_names": [
+    "Exploding Gradients",
+    "Ragas"
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/b03fadf62fa443c473d34c31148c9785ea34dceb.png",
+  "website": "https://vibrantlabs.com/",
+  "all_locations": "San Francisco, CA, USA; Remote",
+  "long_description": "We work on methods to autonomously scaling evals/environments for post-training agents. ",
+  "one_liner": "Autonomously scaling environments",
+  "team_size": 6,
+  "industry": "B2B",
+  "subindustry": "B2B -> Infrastructure",
+  "launched_at": 1709606147,
+  "tags": [
+    "Developer Tools",
+    "Generative AI",
+    "Reinforcement Learning",
+    "Open Source",
+    "AI"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Winter 2024",
+  "status": "Active",
+  "industries": [
+    "B2B",
+    "Infrastructure"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada",
+    "Remote",
+    "Fully Remote"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/vibrant-labs",
+  "api": "https://devasheeshg.github.io/yc-api/batches/winter-2024/vibrant-labs.json",
+  "year_founded": 2023,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/vibrant-labs-ai",
+  "x_url": "https://x.com/vibrantlabsai",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": "https://github.com/vibrantlabsai",
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/b03fadf62fa443c473d34c31148c9785ea34dceb.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [
+    "https://bookface-images.s3.us-west-2.amazonaws.com/attachments/5cae3dfa6fa895e2f4fa256800008c55151eb0eb.png"
+  ],
+  "primary_partner": {
+    "name": "Nicolas Dessaigne",
+    "url": "https://www.ycombinator.com/people/nicolas-dessaigne"
+  },
+  "founders": [
+    {
+      "user_id": 387451,
+      "full_name": "Jithin James",
+      "title": "Founder/CEO",
+      "founder_bio": "Jithin James (jjmachan), believes that life's purpose is found in the toil in mastering a craft and the fulfilment one gets from using it for the greater good. For him, this means excelling in software development, particularly in open-source and AI tooling, to empower fellow developers and help materialize their ambitious visions into reality. His journey is a testament to skill, dedication, and a commitment to community enrichment.",
+      "is_active": true,
+      "linkedin_url": "https://linkedin.com/in/jjmachan",
+      "x_url": "https://twitter.com/jjmachan",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/bcdfd4732c2b0bbf0b007a1d8cae49d902d64f71.jpg"
+    },
+    {
+      "user_id": 889503,
+      "full_name": "Shahul ES",
+      "title": "Founder/CTO",
+      "founder_bio": "Shahul (aka ikka) discovered his fascination for AI in his sophomore year while pursuing his computer science degree. This early interest laid the foundation for his journey to becoming a Kaggle GrandMaster and led to his significant contributions to open-source AI, particularly in initiatives like OpenAssistant AI.",
+      "is_active": true,
+      "linkedin_url": "https://linkedin.com/in/shahules",
+      "x_url": "https://twitter.com/Shahules786",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/5bdaa55aa2f773d9e6e61c8bbd6944d8661b5a80.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 79074,
+      "title": "Ragas: Open-source evaluation and testing Infrastructure for LLM applications",
+      "tagline": "Deploy your LLM application with confidence. ",
+      "body": "### **TL;DR**\n\nWe are building [Ragas](https://www.ragas.io/) — an open-source evaluation and testing infrastructure for LLM application developers to deploy their applications in production with confidence.\n\n### About us\n\n![uploaded image](/media/?type=post&id=79074&key=user_uploads/889503/21a941e3-4798-4628-95cc-15332facb47e)\n\nWe’re [Jithin](https://linkedin.com/in/jjmachan) and [Shahul](https://linkedin.com/in/shahules)! Having met in college, we’ve collaborated on various projects for almost a decade now.\n\nJithin takes care of building the software and infrastructure. He was an early employee at Bento ML, where he built and maintained tools like [Bentoctl](https://github.com/bentoml/bentoctl), [Bentoml](https://github.com/bentoml/BentoML), and [Yatai](https://github.com/bentoml/Yatai). Shahul is responsible for AI research and engineering. He is a [Kaggle Grandmaster](https://www.kaggle.com/shahules) and a lead contributor to different open-source AI projects, including [Open-Assistant AI.](https://github.com/laion-ai/open-assistant)\n\n### Problem\n\nBefore 2023 software used to be written in code but with the emergence of foundational models software and applications are going to be compound systems containing code, prompts, and other components. This introduces several new problems\n\n* How do you select the best model or component suitable for your application from the abundance of available resources?\n* How do you test these systems and ensure continuous quality?\n* How do you derive insights from production to measure and improve your system?\n\nAs early adopters of this technology to build applications, we faced this problem while we were building RAG systems early last year.\n\n### Solution\n\nWe at [Ragas](https://docs.ragas.io/) make use of model-graded evaluations and testing techniques to ensure quality. This includes automated synthesis of test data points, explainable metrics, and adversarial testing.\n\nWe started by building this for RAGs, which is the most popular application of LLM as of today. Ragas is now the default open-source standard for evaluating RAG applications, processing over 4.7 million responses last month and used by engineers from enterprises like AWS, Microsoft, Databricks, Moody’s, UHG, and Tencent.\n\n![uploaded image](/media/?type=post&id=79074&key=user_uploads/889503/4da2d427-8bfe-4e4b-a76e-01c7a28ce747)\n\n### Our Ask\n\n* Checkout ragas on [GitHub](https://github.com/explodinggradients/ragas)\n* If you’re building RAG applications, consider [applying](https://forms.gle/TnqUHuY176m2juqL9) for the Ragas office hours program",
+      "url": "https://www.ycombinator.com/launches/KZO-ragas-open-source-evaluation-and-testing-infrastructure-for-llm-applications",
+      "votes": 94,
+      "created_at": "2024-03-05T18:38:36.494Z"
+    }
+  ]
+}

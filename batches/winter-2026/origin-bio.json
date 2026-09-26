@@ -1,0 +1,88 @@
+{
+  "id": 31064,
+  "name": "Origin",
+  "slug": "origin-bio",
+  "former_names": [],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/3f0bdde9261c1483c617c9ca235a7378e3d7ba10.png",
+  "website": "https://origin.bio/",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "Creating the largest patient-derived cancer single-cell dataset for licensing to pharmaceutical and AI companies. These datasets are unique as they screen the effects of various drugs and genetic medicines under the control of our DNA switches.",
+  "one_liner": "AI and Data for Cancer Therapeutics",
+  "team_size": 4,
+  "industry": "Healthcare",
+  "subindustry": "Healthcare -> Drug Discovery and Delivery",
+  "launched_at": 1770167044,
+  "tags": [],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Winter 2026",
+  "status": "Active",
+  "industries": [
+    "Healthcare",
+    "Drug Discovery and Delivery"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/origin-bio",
+  "api": "https://devasheeshg.github.io/yc-api/batches/winter-2026/origin-bio.json",
+  "year_founded": 2025,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/origin-bio-inc/",
+  "x_url": "https://x.com/origin_bio",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/3f0bdde9261c1483c617c9ca235a7378e3d7ba10.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Ankit Gupta",
+    "url": "https://www.ycombinator.com/people/ankit-gupta"
+  },
+  "founders": [
+    {
+      "user_id": 552024,
+      "full_name": "Yash Rathod",
+      "title": "Founder/CEO",
+      "founder_bio": "CEO @ Origin | Computer Science @ UIUC, Computer Vision and Reinforcement Learning Research, First Prize 2022 OpenCV AI Research Competition.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/yrraadi",
+      "x_url": "https://x.com/YashRathod_75",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/8b46413aa00b725fde17f09bbd006abf2e62de7d.jpg"
+    },
+    {
+      "user_id": 1327757,
+      "full_name": "Malhar Bhide",
+      "title": "Founder/CTO",
+      "founder_bio": "CTO @ Origin | Prev: Computer Science @ UIUC, ML Research @ Wadhwani AI, Automorphic (YC S23). Published disease modeling research done in high school in Nature Scientific Reports.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/malhar-bhide-9002791a7/",
+      "x_url": "https://x.com/malhar317",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/0819722e70db62421af0ad70c9116c693f24efcd.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 97480,
+      "title": "Origin - Safer Cell & Gene Therapies with AI",
+      "tagline": "AI designed regulatory DNA sequences to program gene expression patterns",
+      "body": "\n![uploaded image](/media/?type=post&id=97480&key=user_uploads/552024/dd558bc0-b110-466f-b603-d3acb473ba54)\n\nHey everyone!\n\nWe’re Yash and Malhar from Origin.\n\n**TL;DR**\n\n* Using AI to make cell & gene therapies **safer** by designing **DNA switches and dials**.\n* Our model’s synthetic regulatory sequences program precise gene expression patterns in disease cells.\n* We’re building the **largest** **proprietary dataset** consisting millions of experimentally validated regulatory DNA sequences across many different cell and tissue types.\n* Our model **outperforms Google DeepMind’s AlphaGenome** at predicting regulatory element activity.\n\n<https://youtu.be/jCN43gOy7x8?si=pkZU6sGREgiI-EHA>\n\n**The Promise**\n\nCell and gene therapies have successfully been used to treat diseases like stage IV leukemia, retinal disease, and spinal muscular atrophy. However, their application is limited due to concerns around safety and efficacy. But this drug class holds the promise of being a **durable cure** for diseases like cancer, autoimmune, neurodegenerative, aging, and more.\n\n**The Problem**\n\nToxicity events largely arise due to our inability to control **where**, **when,** and to **what** extent genes are turned on. Regulatory DNA sequences - enhancers and promoters - function to modulate the expression of genes. Current approaches to design these sequences involve naive methods like repeats of known motifs (patterns) and random ligation. These methods either **reliably yield poor candidates** or require **brute force to search** for even one promising hit.\n\n<https://youtu.be/SDJFAJULTP0?si=IYXFHLAqU88CcaXK>\n\n**Our Solution**\n\nAxis – our state-of-the-art model – is trained to design and screen regulatory DNA to activate therapeutic genes in target disease cell-states.\n\nAxis is able to rapidly sample **millions** of functional candidates when prompted by the cell-state. We’re currently testing these sequences in the lab to produce the **largest proprietary dataset** of synthetic regulatory elements, measuring their interaction with transcription factors and the phenotypic outcomes of gene expression.\n\n**Axis’ sequences have the highest predicted expression in targeted cell types**\n\nUsing Malinois, an independent and in-vitro validated prediction model by the Broad Institute, we observed that Axis’ generated sequences had the highest transcriptional activity in the cell type they were prompted by.\n\n![uploaded image](/media/?type=post&id=97480&key=user_uploads/552024/deb58343-aec7-4554-a176-d4ff1927da9f)\n\n**Axis’ sequences contain known biological features**\n\nRegulatory DNA sequences are activated when proteins called transcription factors bind to them at specific patterns of ATGCs known as motifs.\n\nHNF4A is a known master regulator of hepatocyte and liver gene expression. We observed that in the generated sequences, its known motif most frequently occurred in HepG2 (liver cell line) targeted sequences.\n\n![uploaded image](/media/?type=post&id=97480&key=user_uploads/552024/d4e9dc1a-47c7-4599-99f3-f0b4d8980c6a)\n\n**Axis’ sequences have high diversity and explore a large design space**\n\nOver 72% of our generated sequences have no BLAT alignment match up amongst themselves (using a 20bp threshold).\n\n![uploaded image](/media/?type=post&id=97480&key=user_uploads/552024/45c66f66-c144-46ac-aea9-2739e6aae6d9)\n\n**Axis outperforms Google DeepMind’s AlphaGenome**\n\nAxis demonstrates strong performance in predictive benchmarks measuring molecular properties of real regulatory sequences. These include measures like chromatin accessibility and transcription factor protein binding.\n\n![uploaded image](/media/?type=post&id=97480&key=user_uploads/552024/f1b68778-ea47-44b1-a2fc-ee4ac39c25bf)\n\n**The ask:**\n\nIf you know or are someone working on partnerships at pharmaceutical / biotech companies working in cell & gene therapies, reach out to explore:\n\n* Partnering on regulatory sequence designs for target disease cells.\n* Getting access to our proprietary dataset of sequence properties, sequence-protein interactions, and cell-state perturbations.\n\n\\\nFeel free to reach out via email at [yash@origin.bio](mailto:yash@origin.bio)",
+      "url": "https://www.ycombinator.com/launches/PMG-origin-safer-cell-gene-therapies-with-ai",
+      "votes": 18,
+      "created_at": "2026-02-04T21:33:23.276Z"
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "id": 31413,
+  "name": "Arga Labs",
+  "slug": "arga-labs",
+  "former_names": [],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/6e3d9a7c1d8ec13bb1565520e7fc7a6ca3a8fa82.png",
+  "website": "https://www.argalabs.com/",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "We build environments to test your app and agents against the real world.\r\n\r\nDeploy your code/agent into a sandbox that runs against replicas of external services (Stripe, Slack, Google Drive, etc.). Twins support the same APIs, MCP tool calls & SDKs as the real software, and you can spin up thousands of instances in parallel and seed them using natural language. Run real workflows, surface edge cases, and observe how your code/agents actually behave before hitting production.",
+  "one_liner": "Real-world sandboxes to test and train AI agents",
+  "team_size": 4,
+  "industry": "B2B",
+  "subindustry": "B2B",
+  "launched_at": 1771902214,
+  "tags": [],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Spring 2026",
+  "status": "Active",
+  "industries": [
+    "B2B"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/arga-labs",
+  "api": "https://devasheeshg.github.io/yc-api/batches/spring-2026/arga-labs.json",
+  "year_founded": 2025,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/arga-labs",
+  "x_url": "https://x.com/argalabs",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/6e3d9a7c1d8ec13bb1565520e7fc7a6ca3a8fa82.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [
+    "https://bookface-images.s3.us-west-2.amazonaws.com/attachments/7381be840cc53f07a0fbb3777682d7a01ba4d0bf.png"
+  ],
+  "primary_partner": {
+    "name": "Pete Koomen",
+    "url": "https://www.ycombinator.com/people/pete-koomen"
+  },
+  "founders": [
+    {
+      "user_id": 3010892,
+      "full_name": "Phillip Li",
+      "title": "Founder/CEO",
+      "founder_bio": "Co-founder & CEO @ Arga Labs.\n\nBuilt an internal dev tool to simplify making changes to Amazon.com - saves 10+ recurring weeks / year of SDE time, and prevented VP escalations due to bug issues. \n\nBefore that, I was a fencer on the Canadian Junior National Team and researched neuroscience at UBC\n\n\n",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/phillip-li-a28a84217/",
+      "x_url": "https://x.com/PhillipLii",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/d6315d398b8ad4e31c2cd6813106cd8c7197b1d5.jpg"
+    },
+    {
+      "user_id": 3202471,
+      "full_name": "Akira Tong",
+      "title": "Founder/CTO",
+      "founder_bio": "Co-founder, CTO @ Arga Labs\n\nPrev. SDE @ Stripe, quant @ GS\nSkipped high school, graduated @ 19\nPro player for Identity V, quit because I had to finish my finals :(",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/akira-tong",
+      "x_url": "https://x.com/akkkkiira",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/34882fa6d2511ba39680952d296af114887b5492.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [
+    {
+      "title": "Making AI Agents Ready for the Real World | Arga Labs",
+      "url": "https://www.argalabs.com/blog/making-ai-agents-ready-for-the-real-world",
+      "date": "Aug 26, 2026"
+    },
+    {
+      "title": "The 11 standout startups from YC's Demo Day, according to VCs | TechCrunch",
+      "url": "https://techcrunch.com/2026/06/18/the-11-standout-startups-from-ycs-demo-day-according-to-vcs/",
+      "date": "Jun 18, 2026"
+    }
+  ],
+  "launches": [
+    {
+      "id": 99708,
+      "title": "Arga Labs: Real-world sandboxes for multi-app agents and software",
+      "tagline": "Production-mirror sandboxes with digital twins of every SaaS integration",
+      "body": "**tl;dr:** **become a 100x tester** with Arga by giving your agents staging environments scoped to a change. We spin up twins of your integrations (Slack, Stripe, etc.) and dependencies (DB, Redis), and deploy only the services that were changed. Everything else is routed to prod.\n\nLaunch Video: <https://www.youtube.com/watch?v=OzEk5pYTvak>\n\n**The problem: You’re a 1x tester**\n\n* You don’t have staging :(\n* You have staging, but it’s different from prod, and things still break after testing\n  * You mock integrations, which can be inaccurate\n  * You use real accounts to test integrations, but you hit rate limits, can’t clear states between tests, and can’t test at scale\n* You have staging, but your agents can’t automatically test changes so you’re stuck at being a 1x tester despite being a 100x engineer\n* You have staging, but it’s difficult to merge concurrent changes without breaking something (for larger teams!)\n\n**Our Solution**\n\nWe spin up a temporary staging of your app every time you open a PR. Only the services you change are redeployed; all other services are routed to prod. Your dependencies are deployed as in-memory sidecars, so nothing corrupts prod data. For example, you can configure the tests to read from the prod database and perform all write commands to the sidecar; you can also configure everything to be routed to the sidecar.\n\nWe also spin up twins of services your app uses: Stripe, Slack, GSuite, Hubspot, and more, so you don’t hit the real API. This lets you test more thoroughly: **you can catch weird edge cases, simulate failure modes, and run tests in parallel without worrying about rate limits.** All twins are fully compatible with any SDK, expose the same API endpoints, and support webhook events. You can seed any twin in natural language, or select from our pre-set scenarios.\n\n![uploaded image](/media/?type=post&id=99708&key=user_uploads/3010892/cf335c26-a032-4a1d-bcc1-6c4863946abc)\n\nDemo of Github, Slack, Stripe twins on the Arga app: <https://www.youtube.com/watch?v=3ZPrIdGvPoo>\n\nYou or your agent can prompt Arga via web, API, CLI, or MCP to **automatically generate tests for your PR, run them, and stream the results and logs back**. This allows them to know what was tested, what broke, and which calls/functions caused the failure. They can use this information to go back and fix the code, so you’ll have a fully-tested and passing PR before you look at it.\n\nValidation report:\n\n![uploaded image](/media/?type=post&id=99708&key=user_uploads/3010892/81258740-df00-46e1-9ba9-b2bbfd7a4572)\n\nClaude Code using arga CLI to read logs & test results:\n\n![uploaded image](/media/?type=post&id=99708&key=user_uploads/3202471/286496d9-28f2-4c01-a186-35235ed55189)\n\n**Our ask**\n\nTry us out! We’re live at [www.argalabs.com](http://www.argalabs.com) and you can get access to limited features for free. \\\nIf you like our stuff, book a demo here (<https://cal.com/phillip-li/30min>).\\\nIf you know any teams that struggle with testing and use lots of external integrations, send them our way.\n\n**The Team**\n\nAkira and Phillip met each other in first-year calculus at UBC. At the time, Akira was 14 and Phillip was studying neuroscience to pursue research in human biology. Within a year of pivoting to CS, Phillip built a dev tool at Amazon that saved 10 weeks / year of engineering hours as an intern. While interning at Stripe, Akira realized that a high-fidelity “staging” was the key to unlocking dev productivity and was surprised that most companies don’t have proper staging that actually mirrored prod. Now they’re solving that problem.\n\n![uploaded image](/media/?type=post&id=99708&key=user_uploads/3010892/3718524e-2a06-4aef-9bb2-0b6d9e18869e)\n\n",
+      "url": "https://www.ycombinator.com/launches/PwC-arga-labs-real-world-sandboxes-for-multi-app-agents-and-software",
+      "votes": 121,
+      "created_at": "2026-04-13T19:58:01.818Z"
+    }
+  ]
+}

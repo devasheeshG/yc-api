@@ -1,0 +1,86 @@
+{
+  "id": 32169,
+  "name": "Speko",
+  "slug": "speko",
+  "former_names": [
+    "Speko Group, Inc."
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/a79212fefd832b4ac7d28da1ad3a7bc206dffaa1.png",
+  "website": "https://speko.ai/?utm_source=ycombinator&utm_medium=profile",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "Speko is a router for voice models: one API key, and your voice agent runs on the speech-to-text, LLM, and text-to-speech models we measured as best for your language and use case. The measurements are public at benchmarks.speko.ai: we test new models the day they ship and re-route when the numbers change, so you rewrite nothing. We ran this bake-off by hand for four years at previous company, shipping production voice for Fortune 500s.",
+  "one_liner": "OpenRouter for Voice AI: one API, every call on the best speech model",
+  "team_size": 4,
+  "industry": "B2B",
+  "subindustry": "B2B -> Infrastructure",
+  "launched_at": 1783393099,
+  "tags": [
+    "Artificial Intelligence",
+    "Developer Tools",
+    "Conversational AI"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Summer 2026",
+  "status": "Active",
+  "industries": [
+    "B2B",
+    "Infrastructure"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada",
+    "Remote",
+    "Partly Remote"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/speko",
+  "api": "https://devasheeshg.github.io/yc-api/batches/summer-2026/speko.json",
+  "year_founded": 2026,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://linkedin.com/company/speko-ai",
+  "x_url": "",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/a79212fefd832b4ac7d28da1ad3a7bc206dffaa1.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Tyler Bosmeny",
+    "url": "https://www.ycombinator.com/people/tyler-bosmeny"
+  },
+  "founders": [
+    {
+      "user_id": 451241,
+      "full_name": "Beknazar Abdikamalov",
+      "title": "Founder/CEO",
+      "founder_bio": "Founder and CEO of Speko (YC S26). Previously co-founder and CTO of Hupo (voice AI; $14M raised; backed by DST Global and Meta), where he spent four years shipping production voice AI for fortune 500s in 10+ languages. Earlier a software engineer at Amazon; MS in CS from UNIST, Korea.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/abdik/",
+      "x_url": "https://x.com/beknabdik",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/9a75e51d58a4fc108e1eb811218e0697d5c41ffe.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 108267,
+      "title": "Speko: OpenRouter for Voice",
+      "tagline": "Every speech model, benchmarked language by language, wired into one API.",
+      "body": "Speko is a router for voice models. One API key, and your agent runs on the speech-to-text, LLM and text-to-speech models we measured as best for your language and use case.\n\n![uploaded image](/media/?type=post&id=108267&key=user_uploads/451241/2038963f-c769-47a9-8fd9-c59f3966027b)\n\n### I picked voice stacks by trial and error for four years\n\nA voice agent is three models in a row: speech-to-text, then an LLM, then text-to-speech. Three vendors, a dozen credible options each. You run a bake-off, you argue about whose numbers are real, and you ship the combination that felt best that month.\n\nThen next week another model drops. And another. Nobody has time to re-run the bake-off, so the stack you picked under deadline quietly becomes the stack you are stuck with for a year.\n\nThat is how most voice agents are running today. Not on the best models. On the models that were best whenever someone last had a free week.\n\nPublic leaderboards do not settle it either. They are averages over somebody else's audio, in somebody else's conditions.\\\n\\\n[https://drive.google.com/file/d/1AjC8WVA96kUBdD09RJMUgFfvxGfxPvL-/](https://drive.google.com/file/d/1AjC8WVA96kUBdD09RJMUgFfvxGfxPvL-/view?usp=sharing)\n\n### We measure, then we route\n\nWe benchmark the speech models people actually ship on, language by language, and publish everything at [benchmarks.speko.ai](http://benchmarks.speko.ai): word error rate, finalize latency, time to first token, cost per minute. When a vendor ships a new model we test it the same day and the board updates.\n\nPoint your agent at Speko and that measurement becomes routing. One API key across every provider we support. Tell us the language and the conditions, and your traffic runs on the stack our numbers say wins. When the numbers change, the routing changes and you rewrite nothing.\n\nIf a provider fails when we open the connection, the router drops to the next ranked model on its own.\n\n### Or build the agent with us\n\nYou do not need an existing agent to start. A few lines gets a working voice agent live on Speko, and it inherits the same routing from day one.\n\nIf you are picking a voice stack right now, start with the numbers at [benchmarks.speko.ai](http://benchmarks.speko.ai), then build on them at [speko.ai](http://speko.ai).",
+      "url": "https://www.ycombinator.com/launches/SAF-speko-openrouter-for-voice",
+      "votes": 14,
+      "created_at": "2026-07-29T19:10:13.923Z"
+    }
+  ]
+}

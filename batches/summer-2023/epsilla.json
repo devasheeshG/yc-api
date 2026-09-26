@@ -1,0 +1,144 @@
+{
+  "id": 28900,
+  "name": "Epsilla",
+  "slug": "epsilla",
+  "former_names": [],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/a2a1e40bf12e61df1ea8d4d6a4f8b7691ac3982f.png",
+  "website": "https://www.epsilla.com/",
+  "all_locations": "San Francisco, CA, USA; Remote",
+  "long_description": "Epsilla is an all-in-one platform for building AI agents powered by your private data and knowledge. Easy to use for domain professionals, deeply customizable for AI experts, and fully equipped for enterprise customers with security, scalability, and integration.",
+  "one_liner": "All-in-one platform to create AI agents with your private knowledge",
+  "team_size": 3,
+  "industry": "B2B",
+  "subindustry": "B2B -> Infrastructure",
+  "launched_at": 1687398753,
+  "tags": [
+    "SaaS",
+    "Infrastructure",
+    "AI",
+    "Databases"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Summer 2023",
+  "status": "Active",
+  "industries": [
+    "B2B",
+    "Infrastructure"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada",
+    "Remote",
+    "Fully Remote"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/epsilla",
+  "api": "https://devasheeshg.github.io/yc-api/batches/summer-2023/epsilla.json",
+  "year_founded": 2023,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/epsilla/",
+  "x_url": "https://twitter.com/epsilla_inc",
+  "fb_url": "https://www.facebook.com/Epsilla-101648343029200",
+  "cb_url": null,
+  "github_url": "https://github.com/epsilla-cloud/",
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/a2a1e40bf12e61df1ea8d4d6a4f8b7691ac3982f.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [
+    "https://bookface-images.s3.us-west-2.amazonaws.com/attachments/f684a445e68e17098c7b485b86f0971629d143cc.png",
+    "https://bookface-images.s3.us-west-2.amazonaws.com/attachments/ef792393c19d6a025f86bdc862636cd3d194ab3e.png"
+  ],
+  "primary_partner": {
+    "name": "Diana Hu",
+    "url": "https://www.ycombinator.com/people/diana-hu"
+  },
+  "founders": [
+    {
+      "user_id": 14642,
+      "full_name": "Richard Song",
+      "title": "Founder",
+      "founder_bio": "Richard Song is the Co-Founder and CEO of Epsilla. Before Epsilla, Richard was the Senior Director of Cloud Engineering at TigerGraph, led the team to build the DBaaS offering of TigerGraph's graph analytics platform. In addition to this, Richard led the team to build a suite of tools designed to empower developers, data scientists, and DevOps teams, enabling them to extract value from TigerGraph.",
+      "is_active": true,
+      "linkedin_url": "https://linkedin.com/in/renchu-song-a4099247",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/efd8878b92658ca4f156698b03dbc7fa22580f5c.jpg"
+    },
+    {
+      "user_id": 1378779,
+      "full_name": "Ricki Qin",
+      "title": "Founder",
+      "founder_bio": "Ricki Qin is the Co-Founder of Epsilla. Before Epsilla, Ricki was the Engineering Manager in Cloud team at TigerGraph, led the team to build the Cloud Portal. Ricki has 5 years experience in the database industry, helped to build a suite of tools designed to empower developers, data scientists, and DevOps teams.",
+      "is_active": true,
+      "linkedin_url": "https://linkedin.com/in/jing-qin-48a4baa4",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/bf236ad8ca1ac9aefa6cdfd915d5f8b586d59301.jpg"
+    },
+    {
+      "user_id": 1378751,
+      "full_name": "Eric Yang",
+      "title": "Founder",
+      "founder_bio": "Eric is the Co-Founder of Epsilla. Before Epsilla, Eric was the Architect of Tigergraph Cloud. Eric has 10+ years experience in Cloud Infrastructure with deep insight of System Relability and Scalability.",
+      "is_active": true,
+      "linkedin_url": "https://linkedin.com/in/eric-yang-a4a743271",
+      "x_url": "https://x.com/eric_epsilla",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/2cb278dd724352b939feb5cb82048fdaa03927e6.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 111172,
+      "title": "HarnessRouter: Open-Sourcing the World’s First Unified Interface for Agent Harnesses and the Unified Harness Protocol",
+      "tagline": "Plug Codex, Claude Code, and Hermes into your backend on your own infrastructure. Introducing the Unified Harness Protocol (UHP), an open standard for connecting applications to different agent harnesses.",
+      "body": "Hey everyone 👋 Three weeks ago, we[ launched HarnessRouter here on YC](https://www.ycombinator.com/launches/RpL-harnessrouter-bring-the-world-s-best-ai-agents-into-your-app-with-one-api) with one promise:\n\nBring the world’s best AI agents into your app, with one API.\n\nToday, we’re opening the layer underneath that promise.\n\nWe’re releasing HarnessRouter Community Edition and the Unified Harness Protocol (UHP). You can now run Codex, Claude Code, and Hermes as your product’s backend on infrastructure you control, using the same API contract as HarnessRouter Cloud.\n\n**TL;DR：**\n\nHarnessRouter is the world’s first unified interface for agent harnesses.\n\nYour product sends a task through one agent API. HarnessRouter runs the supported harness you choose and returns completed work, including files, artifacts, progress, and results.\n\nSessions, streaming, cancellation, and failure handling follow the same contract across Codex, Claude Code, and Hermes. You can add or switch a supported harness without rebuilding your product integration.\n\n🎥[ Watch the launch video](https://www.youtube.com/watch?v=iqrfCBrb6zY)\n\n### **Why agent harnesses aren't infrastructure yet**\n\nAn agent harness is the runtime layer around a model. It executes tasks, uses tools, manages sessions and files, streams progress, and returns completed work.\n\nHistorically, product teams built this layer themselves: task execution, session management, streaming, file and artifact handling, and error recovery, then maintained everything as models and tools evolved.\n\nNow frontier labs and open-source communities are building increasingly capable harnesses. Codex, Claude Code, Hermes, and DeepSeek Harness are examples. But they're still seen as coding tools rather than reusable infrastructure, so teams keep rebuilding this layer in-house. Just as product teams don't build their own databases, they shouldn't have to build their own harness layer either.\n\nEven teams that do adopt an existing harness hit the next obstacle: every harness works differently, so each new product-harness pair needs its own integration. We call this the N×M harness problem. In practice, it becomes harness lock-in: teams stick with the first harness they integrated, even when better or cheaper options exist.\n\nWe asked a simple question: what if agent harnesses became plug-and-play infrastructure that any product can build on?\n\nPlug-and-play means you integrate once, run any supported harness, and switch anytime a better or cheaper one ships.\n\nThat is what HarnessRouter makes possible.\n\n### **What we’re open-sourcing**\n\nWe’re releasing two core components under the Apache License 2.0:\n\n* **Unified Harness Protocol (UHP):** UHP is an open standard that gives different agent harnesses a shared execution contract. This release includes a versioned specification, schemas, and a conformance suite covering harness configuration, task execution, progress, sessions, files, cancellation, errors, and results.\n* **HarnessRouter Community Edition:** The self-hosted implementation of UHP. Gateway, Runner, and Console ship in a single Docker container. It runs Codex, Claude Code, Hermes, and more through one API and passes the full UHP conformance suite.\n\n![uploaded image](/media/?type=post&id=111172&key=user_uploads/14642/2bea0a11-8aba-49c5-9a85-112001854d96)\n\nYour model-provider credentials, application state, and files remain under your control. Model calls still go to the providers you configure.\n\nMCP connects agents to tools. UHP covers a different boundary: how an application drives a complete agent harness and receives its full execution lifecycle.\n\n### **Start self-hosted. Scale with Cloud when you’re ready.**\n\nHarnessRouter Community Edition and HarnessRouter Cloud implement the same UHP contract, so one integration works for both. Start self-hosted on infrastructure you control, or scale into Cloud when you're ready.\n\nHarnessRouter Cloud provides agent harness as a service (HaaS): fully managed harnesses with serverless execution in isolated sandboxes, so teams can scale concurrent runs without operating sandbox capacity themselves.\n\n### **Agent harnesses can do more than write code: runnable examples**\n\nWe also released a **Starter Kit** with runnable applications that show an end-to-end Community Edition integration.\n\nOne example puts a harness behind an Excel column so each row can trigger agent work. Other examples cover presentations, dashboards, and video generation.\n\n![uploaded image](/media/?type=post&id=111172&key=user_uploads/14642/914297fb-2588-4d8a-9a3b-37d39d82bae7)\n\nAgent harnesses can do much more than write code. We want the Starter Kit to show what becomes possible when you put them inside products.\n\n![uploaded image](/media/?type=post&id=111172&key=user_uploads/14642/f4cff64a-7539-41b3-804e-fa5ee53d77bd)\n\nStarter Kit components are available under their applicable licenses.\n\n### **Choose harnesses in production with evidence**\n\nWe benchmarked eight Harness × Model configurations on the same task and input. Cost varied by 475× and latency by 3.2×. Even with the model fixed, changing the harness moved cost by 1.5–2.1× and latency by up to 1.95×.\n\nHarness selection is a task-level production decision, not a one-time choice. HarnessRouter helps teams compare configurations on their own workloads. This was one controlled test, not a universal ranking; we published the methodology, results, and limitations.\n\n### **What teams are already building**\n\nTeams are using HarnessRouter in very different settings:\n\n* 🏥 Stanford Medicine is connecting its operational data through a shared agent layer, an “academic brain” for the organization.\n* ✅ Readily.ai encodes domain expertise into agent skills and can move a new agent from problem and plan to production within 24 hours.\n* 🎬 Spira.ai drives its generation pipeline through HarnessRouter.\n* 🪄 hibo.ai uses HarnessRouter to execute and evaluate agent skills.\n\n### **Why we built it**\n\nWe’re Kuanze Ma and Richard Song, the co-founders of HarnessRouter.\n\nKuanze is a four-time founder focused on human-AI systems. Richard has spent more than a decade building large-scale systems, including at TigerGraph and Meta.\n\nWe both worked on agent systems before HarnessRouter. We kept seeing product teams rebuild the same application-to-harness layer, so we decided to turn that layer into shared infrastructure.\n\n### **What we want from you**\n\n* If you build an agent harness or already maintain your own runtime, read UHP and tell us where it is wrong. Which parts should be standardized, and which should remain harness-specific? That comparison is worth more to us than a signup.\n* Try the Community Edition Quickstart on a clean machine. Tell us where it breaks or where the execution lifecycle is incomplete.\n* If your compliance requirements prevent you from using a hosted agent runtime, try Community Edition on infrastructure you control.\n* If you want to contribute, we use a proposal-before-code process. Describe the problem, your proposed change, and its expected impact. You do not need to arrive with a finished implementation.\n* Intros are welcome to teams shipping agent-powered features that do not want to own another backend.\n\n### **Run it yourself**\n\n* [Open-source repository](https://github.com/HarnessRouter/harnessrouter)\n* [Unified Harness Protocol](https://unifiedharnessprotocol.org)\n* [Starter Kit](https://github.com/HarnessRouter/starter-kit)\n* [Benchmark and methodology](https://harnessrouter.ai/benchmarks)\n* [Docs and HarnessRouter Cloud](https://harnessrouter.ai)\n\nReach us at [contact@harnessrouter.ai](mailto:contact@harnessrouter.ai).",
+      "url": "https://www.ycombinator.com/launches/Sv6-harnessrouter-open-sourcing-the-world-s-first-unified-interface-for-agent-harnesses-and-the-unified-harness-protocol",
+      "votes": 6,
+      "created_at": "2026-08-17T22:23:24.250Z"
+    },
+    {
+      "id": 106971,
+      "title": "HarnessRouter: Bring the World's Best AI Agents Into Your App, With One API",
+      "tagline": "One API that puts Codex, Claude Code, Hermes, and more behind your product, so your users get real output: videos, games, code, documents.",
+      "body": "Hey everyone 👋 Today we're introducing HarnessRouter.\n\n**TL;DR:** HarnessRouter lets builders bring Codex, Claude Code, Hermes, and other agents into your products through one API. Each task runs in an isolated sandbox with step-by-step tracing and configurable cost caps. It's designed to scale from consumer apps to large-scale model evaluations, orchestrating thousands of isolated sandbox runs in parallel. Start with our [AGENTS.md](https://harnessrouter.ai/agents.md), drop it into your coding agent, describe want you want to build, add an API key, and ship without rebuilding agent runtime infrastructure.\n\n**Try it now:** [harnessrouter.ai](http://harnessrouter.ai?utm=yc)\n\n<https://www.youtube.com/watch?v=vZXvgYS7_lg>\n\n## **The Problem**\n\nThere's a gap between what AI agents can do and what your product can offer.\n\nAgents like Codex and Claude Code can genuinely finish work now, but they're built for developers, not for your users. Bringing that capability to your users inside your own product means building the infrastructure yourself: isolated execution environments, agent runtime, tool orchestration, file handling, streaming, retries, permissions, cost controls. Every team building an AI feature rebuilds this same stack from scratch, and it takes months. After launch, the upgrades and maintenance never stop.\n\nAs a result, most teams ship a chat interface instead, when what users actually need is finished output.\n\n## **The Solution**\n\nHarnessRouter runs the entire agent stack as a service. Your product sends a task through one API; We run it on the agent you choose and return the result in structured, renderable form: reviewable diffs, generated files, images, video, confirmed tool actions.\n\nTeams are already running production workloads on it:\n\n* 🏥 A top medical research institution is connecting its operational data into a unified agent layer, an \"academic brain\" for the organization.\n* ✅ A leading healthcare compliance company encodes domain expertise into agent skills, saving their clients hundreds of hours of manual work per audit.\n* 🎬 An AI video marketing startup drives its content generation pipeline through HarnessRouter, producing viral-grade video at human quality.\n\nIntegration takes three steps: drop our [AGENTS.md](https://harnessrouter.ai/agent.md) into your coding agent, describe the feature you want and add your API key. Switching agents is a one-line configuration change, and the same setup scales from a single task to thousands of concurrent runs.\n\n## **Who We Are**\n\n**Kuanze Ma, Co-founder**\\\nKuanze is a four-time founder focused on human–AI systems, with experience in systems design, product management, algorithms, recruiting, marketing, and engineering. He holds a BSc in Mathematics, a diploma in Software Engineering, and an MSL from Northwestern University.\n\n**Richard Song, Co-founder**\\\nRichard has over a decade of experience building large-scale systems, including vertical AI agents powered by private data and domain knowledge. Previously, he was a Senior Director at TigerGraph and a Senior Software Engineer at Meta. He holds an MS in Computer Science from Cornell University and a BS in Computer Science.\n\n## **Our Ask**\n\n* **If you're building an AI feature**, start with the free 7-day trial. We'll help you integrate.\n* **If you need to run thousands of agents in parallel**, for model evaluations, batch generation, or large-scale pipelines, that's what the sandbox orchestration layer was built for. Talk to us.\n* **If you've built your own agent infrastructure**, we'd value the comparison. Tell us what we're missing.\n* **Intros welcome** to any team that wants to ship agent-powered features without building the backend.\n\nReach us at [contact@harnessrouter.ai](mailto:contact@harnessrouter.ai)",
+      "url": "https://www.ycombinator.com/launches/RpL-harnessrouter-bring-the-world-s-best-ai-agents-into-your-app-with-one-api",
+      "votes": 29,
+      "created_at": "2026-07-23T13:44:28.619Z"
+    },
+    {
+      "id": 99723,
+      "title": "ClawTrace — Make Your OpenClaw Agent Better, Cheaper, and Faster",
+      "tagline": "The observability platform for OpenClaw agents: execution traces, cost analysis, and Tracy, your OpenClaw's doctor agent.",
+      "body": "## 🚀 TL;DR\n\n[ClawTrace](https://clawtrace.ai?utm=yc) is the observability platform for OpenClaw agents. It captures every trajectory your OpenClaw agent runs — every LLM call, tool use, and sub-agent delegation — and gives you three views to understand it: an execution path, a call graph, and a timeline. When you need answers fast, ask Tracy, your built-in AI analyst, in plain English. Watch our demo [here](https://youtu.be/-moG7vCkawQ?si=ivl7Utv3h7ynv5rb):\n\n—\n\nHello, world! I'm Richard, and today I'm excited to introduce **ClawTrace** — the observability platform for OpenClaw agents.\n\nAI agents are going to production. But right now, when something goes wrong, you're flying blind.\n\n## ❌ The Problem\n\nDeploying an OpenClaw agent is easy. Understanding what it actually did is not.\n\nWhen a run costs $104.70 instead of the usual $1.5, you have no idea why. When an agent fails silently, you don't know which step broke or what input caused it. When a trajectory takes 3 minutes instead of 30 seconds, you can't tell where the time went. You end up reading raw JSON logs, manually counting token estimates, and guessing at execution paths. This doesn't scale.\n\nExisting options make this worse, not better:\n\n* **General distributed tracing tools** (Jaeger, Zipkin, Datadog) weren't built for LLM concepts — they have no understanding of token counts, model costs, prompt/completion pairs, or sub-agent hierarchies.\n* **Framework-specific tools** like LangSmith only work within their own ecosystem. If you're on OpenClaw, you're on your own.\n* **Point solutions** cover one slice of the problem — just logs, just cost tracking, just evals — and leave you to stitch everything together yourself.\n* **Every tool** dumps data into a dashboard and expects you to interpret it. There's no analyst. You still have to do all the thinking.\n\n## ⭐️ Our Solution\n\nWe built ClawTrace to give you complete visibility into every OpenClaw agent run — automatically, with zero code changes to your agent.\n\nOne plugin. Three commands. Every trajectory captured.\n\n```bash\nopenclaw plugins install @epsilla/clawtrace\nopenclaw clawtrace setup\nopenclaw gateway restart\n```\n\nThat's it. From that point on, every agent run streams to ClawTrace automatically.\n\n**With ClawTrace, you get:**\n\n* **Execution Path** — a collapsible tree of every step your agent took: LLM calls, tool executions, sub-agent delegations, with full input and output payloads at every node. Metadata badges show model name, duration, token counts, and estimated cost inline.\n\n  ![uploaded image](/media/?type=post&id=99723&key=user_uploads/14642/d592e3b7-c8d3-4f7c-b71d-a27037551bba)\n\n* **Call Graph** — an interactive force-directed diagram showing the relationships between every agent, model, and tool in a run. Understand the shape of a complex multi-agent workflow at a glance.\n\n  ![uploaded image](/media/?type=post&id=99723&key=user_uploads/14642/e81258a7-05d0-4c5d-be9a-0ef944b72329)\n\n* **Timeline** — a Gantt chart of every span in the trajectory, positioned by start time and sized by duration. Bottlenecks, parallelism, and idle gaps become immediately visible.\n\n  ![uploaded image](/media/?type=post&id=99723&key=user_uploads/14642/bf94f46d-90e6-4ea4-8b1e-2971ad79af85)\n\n* **Tracy, your OpenClaw’s Doctor** — every other observability tool gives you data and expects you to figure it out yourself. Tracy is different. Ask her a question in plain English — _\"where is the bottleneck in this trace?\"_ — and she queries your trajectory graph live, generates a visualization, and delivers specific recommendations: which step to fix, why, and how. Tracy is powered by a Claude managed agent and has real-time Cypher access to your full trajectory graph via PuppyGraph graph lake-house architecture.\n\n  ![uploaded image](/media/?type=post&id=99723&key=user_uploads/14642/7cb3bad9-86b3-4795-b761-75b7a390ce62)\n\n* **Cost Estimation** — per-span cost calculation covering 80+ models across OpenAI, Anthropic, Google, DeepSeek, Mistral, Alibaba Qwen, Zhipu GLM, Moonshot, and more. Cache-aware pricing (fresh input vs. cached input vs. output tokens) for accurate estimates.\n* **Consumption-based billing** — pay for what you use with credits. No seat fees, no per-user pricing. Start with 100 free credits.\n\n## 🔦 The Ask\n\nAI agents are moving from demos to production. ClawTrace is the observability layer that makes that transition safe, debuggable, and cost-efficient.\n\n* 🚀 **Sign up for free** at [clawtrace.ai](http://clawtrace.ai) — 100 credits included, your first trajectory shows up in minutes.\n* ⭐ **Star us on GitHub** — ClawTrace is fully open source under Apache 2.0: [github.com/epsilla-cloud/clawtrace](https://github.com/epsilla-cloud/clawtrace)\n* 💬 **Tell us what you're building** — we'd love to hear about your OpenClaw setup and what observability problems matter most to you. [Schedule a call with me](https://epsilla-ai.sg.larksuite.com/scheduler/dc6a62e558c3a1cc).",
+      "url": "https://www.ycombinator.com/launches/PwR-clawtrace-make-your-openclaw-agent-better-cheaper-and-faster",
+      "votes": 12,
+      "created_at": "2026-04-14T15:34:37.032Z"
+    },
+    {
+      "id": 84075,
+      "title": "Epsilla — Ship production-ready AI agents on day 1",
+      "tagline": "All-in-one platform to create AI agents with your private data and knowledge.",
+      "body": "### **🚀 TL;DR**\n\n[Epsilla](https://www.epsilla.com/) is an all-in-one platform for building AI agents powered by your private data and knowledge. Easy to use for domain professionals, deeply customizable for AI experts, and fully equipped for enterprise customers with security, scalability, and integration. Watch our demo [here:](https://www.youtube.com/watch?v=ZhBPsxr2AL0)\n\n---\n\n—\n\nHello, world! We are Richard, Eric, and Ricki. Today, we are super excited to introduce Epsilla, the all-in-one platform for creating AI agents with your private data and knowledge.\n\n### **❌ The Problem**\n\nBuilding a prototype AI agent is easy, but creating production-level AI agents with private knowledge can be overwhelming. It involves managing LLMs, prompt engineering, tool usage, memory management, vector databases, RAG (Retrieval-Augmented Generation), evaluation, and more.\n\nExisting AI agent-building products in the market are:\n\n* Either developer-facing tools that require a significant amount of engineering work;\n* Or lacking depth in customization and flexibility, limiting the final agent's performance and quality;\n* Or just focus on only one small aspect of the problem—such as prompt engineering, workflow, retrieval, evaluation, or hosting—leaving builders to handle the heavy lifting of integrating these components into a cohesive system.\n\n### **⭐️ Our Solution**\n\n![uploaded image](/media/?type=post&id=84075&key=user_uploads/14642/83e9fd99-cf4a-473a-b1ac-57f4935ff4dc)\n\nWe have reimagined the AI agent platform from the ground up and developed an all-in-one solution for creating, iterating, and operating AI agents—without writing a single line of code.\n\nWith Epsilla, you can:\n\n* Build high-quality knowledge bases from diverse data sources, including uploaded files, websites, Google Drive, Notion, cloud storage, and more.\n* Deeply customize AI agents with options for appearance, prompt tuning, workflow customization, and advanced, modular, agentic, and graph-based RAG.\n* Evaluate agent performance, monitor user engagement, and manage user feedback.\n* In addition to providing an out-of-the-box ChatGPT or Perplexity-like UI, we also allow developers to use the agents as their application backend via REST API.\n* Epsilla seamlessly integrates with a growing set of Large Language Model providers, allowing you to choose the best model at any stage of the knowledge base and agent workflow to balance quality, latency, and cost.\n\n### **🔦 The Ask**\n\nThousands of GenAI builders, along with dozens of enterprises and SMBs across various industries, are already building their AI agents on Epsilla. We hope to see you join them soon!\n\n* Sign up for FREE at <https://epsilla.com> to build your first AI agent within 10 minutes!\n* Let’s talk about your use case! Schedule a meeting with us [here](https://epsilla-ai.larksuite.com/scheduler/4aca8159d1224454).\n* Join our community with us on [Discord](https://discord.gg/cDaY2CxZc5) and share what you built on Epsilla!",
+      "url": "https://www.ycombinator.com/launches/Ls3-epsilla-ship-production-ready-ai-agents-on-day-1",
+      "votes": 35,
+      "created_at": "2024-09-17T16:47:45.508Z"
+    },
+    {
+      "id": 73587,
+      "title": "Epsilla - A 10x faster open source vector database",
+      "tagline": "The information retrieval foundation for the next generation of AI applications",
+      "body": "### **🚀 TL;DR**\n\nEpsilla is an open-source vector database. Epsilla offers low-latency searches across billions of vectors, consumption-based database-as-a-service, comprehensive APIs, and multi-language bindings. Our team has 7 years of experience building the high-performance graph database, and our advanced ANN index leverages parallel graph traversal technology, making the vector search 10x faster.\n\n![uploaded image](/media/?type=post&id=73587&key=user_uploads/14642/801e5229-0b56-4eb5-a3fb-e5ff7d2686ec)\n\n### **❌ The Problem**\n\nWith the surge of LLMs and the evolution of AI agents for task planning and decomposition for complex tasks, a **high-performance vector database** for information retrieval and enhancing context in prompts is a **MUST**! Most vector databases utilize HNSW, and its performance significantly degrades when aiming for high search precision.\n\n### **⭐️ Our Solution**\n\nWe’ve reimagined vector search from the ground up for scalability, performance, and cost-effectiveness. We implemented the state-of-art ANN index algorithm from the academia that leverages intra-query parallel graph traversal, which outperforms HNSW by **5x** on high precision query latency on medium size (1M) vector space and outperforms HNSW by **50 times** on large-scale vector search.\n\n![uploaded image](/media/?type=post&id=73587&key=user_uploads/14642/7f276b64-0500-4286-b589-e23d339abe6d)\n\n### **🔦 The Ask**\n\n* Try us at <https://epsilla-inc.gitbook.io/epsilladb/quick-start>\n* Follow our repo at <https://github.com/epsilla-cloud/vectordb>\n* Connect with us on [Discord](https://discord.gg/cDaY2CxZc5)\n* Let’s talk at <https://epsilla-ai.larksuite.com/scheduler/a80f6a3202d4c328>!",
+      "url": "https://www.ycombinator.com/launches/J8t-epsilla-a-10x-faster-open-source-vector-database",
+      "votes": 41,
+      "created_at": "2023-07-31T01:45:04.471Z"
+    }
+  ]
+}

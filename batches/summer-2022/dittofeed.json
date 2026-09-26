@@ -1,0 +1,103 @@
+{
+  "id": 26709,
+  "name": "Dittofeed",
+  "slug": "dittofeed",
+  "former_names": [
+    "Plinth",
+    "Plinth Financial"
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/b22d1c28c768e382c5e7543fe2dbe66969ea4adf.png",
+  "website": "http://dittofeed.com",
+  "all_locations": "Los Angeles, CA, USA; Remote",
+  "long_description": "Dittofeed is an open-source alternative to platforms like Klaviyo and Customer.io. Self-host us for free, or use our low-cost cloud offering to automate messages across email, SMS, mobile push, WhatsApp, and more. \r\n\r\nWe also offer solutions for embedding Dittofeed in your own SaaS! Instantly provide your customers with automated messaging tools.",
+  "one_liner": "Open-source customer engagement & messaging automation",
+  "team_size": 2,
+  "industry": "B2B",
+  "subindustry": "B2B -> Marketing",
+  "launched_at": 1676327834,
+  "tags": [
+    "B2B",
+    "Messaging",
+    "Open Source"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Summer 2022",
+  "status": "Inactive",
+  "industries": [
+    "B2B",
+    "Marketing"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada",
+    "Remote",
+    "Fully Remote"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/dittofeed",
+  "api": "https://devasheeshg.github.io/yc-api/batches/summer-2022/dittofeed.json",
+  "year_founded": 2022,
+  "city": "Los Angeles",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/dittofeed",
+  "x_url": "https://twitter.com/dittofeed",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": "https://github.com/dittofeed",
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/b22d1c28c768e382c5e7543fe2dbe66969ea4adf.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": null,
+  "founders": [
+    {
+      "user_id": 917851,
+      "full_name": "Chandler Craig",
+      "title": "Founder",
+      "founder_bio": "Startup marketer, music marketer, full-stack engineer, and open-source proponent. Cofounder of Dittofeed, making the marketing software experience better for growth engineers and marketing ops.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/chandler-craig-90",
+      "x_url": "https://twitter.com/chandycraig",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/40b8a665f1da367b0c50cca67d5cf1affc5813dc.jpg"
+    },
+    {
+      "user_id": 1003219,
+      "full_name": "Maxwell Gurewitz",
+      "title": "Founder",
+      "founder_bio": "Max led major engineering initiatives at Braze, a leading marketing automation company. ",
+      "is_active": true,
+      "linkedin_url": "https://linkedin.com/in/max-gurewitz-6a848966",
+      "x_url": "https://twitter.com/maxgurewitz",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/8cbf85330155993fe3829f823bdc4b248345f12a.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 91935,
+      "title": "Dittofeed 📬 Embedded Messaging Features for Your SaaS",
+      "tagline": "Dittofeed's Embedded Components instantly add template editors, workflow builders, user segmentation, and other messaging features to your app",
+      "body": "Hi all, we’re [Max](https://www.linkedin.com/in/maxwell-gurewitz-6a848966/) and [Chandler](https://www.linkedin.com/in/chandler-craig-90/) from [Dittofeed](https://www.linkedin.com/company/dittofeed) 🙂\n\n**TL;DR - Dittofeed Embedded Components give your application messaging features like template editors and broadcasts in seconds**. SaaS companies in health, finance, education, and property management use Embedded Components to give their users the power to automate messaging.\n\n✋ Ask - If you are/know a **vertical SaaS founder, product manager, or engineering manager** who doesn’t want to spend a year developing workflow builders, user segmentation, SMS and email template editors, etc. reach out! [chandler@dittofeed.com](mailto:chandler@dittofeed.com)\\\n[https://www.youtube.com/watch?v=M9GrR1TtbDA\\\\](https://www.youtube.com/watch?v=M9GrR1TtbDA%5C)\n\n**☣️ Problem**\n\nOn any given day, somewhere in the world, there’s an engineer reimplementing a low code messaging automation tool for the nth time.\n\nDrag and drop workflow builders, user segmentation engines, and email template editors are seemingly ubiquitous among SaaS.\n\nThis is especially true for vertical SaaS. Consider the example of an app for healthcare providers - the providers may want to automate SMS to patients when a prescription refill is available. Or you might have an app for property managers, and you need to let them email tenants when their lease is up for renewal. It’s a non-trivial lift to build this suite of tools, and it can end up taking engineering teams 6-12 months to implement, plus ongoing maintenance.\n\n**✨ Solution**\n\nDittofeed’s [Embedded Components](https://docs.dittofeed.com/embedded/getting-started) wrap up our existing open-source messaging automation so that they can be embedded within your own application.\n\nYou can consume these components using styled iframes, unstyled react components, or by using Dittofeed as a headless API to rebuild your own components from scratch.\n\nThese embedded components can be served by Dittofeed cloud, or by self-hosting Dittofeed. Self-hosting is great for highly regulated industries like health and finance.\n\n![uploaded image](/media/?type=post&id=91935&key=user_uploads/917851/fd063652-db40-41f5-aaa5-ca4096131e2b)\n\n**How to get Embedded Components**\n\nContact [**support@dittofeed.com**](mailto:support@dittofeed.com), and we’ll send you an admin API key. Check out our Embedded Components [documentation](https://docs.dittofeed.com/embedded/getting-started) to learn more.\\\n\\\n🙋🏻‍♂️🙋🏽‍♂️ **The Founders**\\\nMax and Chandler have been friends since high school – 20 years and counting! They founded Dittofeed in 2023 with a mission to make a great open-source alternative to Klaviyo, Braze, and MailChimp.\n\n**Max** was previously a senior software engineer at OpenTable and Braze where he helped architect infrastructure that scaled their automated messaging services to billions of end users.\n\n**Chandler** was previously a marketing manager at Sony Music and various B2C startups where he became a power user of marketing automation software, seeing a need for change in the industry.\n\n![uploaded image](/media/?type=post&id=91935&key=user_uploads/917851/2be1b40c-c1a5-46eb-b75b-9b99d21a2104)\n\n![uploaded image](/media/?type=post&id=91935&key=user_uploads/917851/ff7093e7-2d18-455d-8bf9-7d92e6c17e55)\n\n",
+      "url": "https://www.ycombinator.com/launches/Nup-dittofeed-embedded-messaging-features-for-your-saas",
+      "votes": 13,
+      "created_at": "2025-07-07T19:18:21.762Z"
+    },
+    {
+      "id": 70363,
+      "title": "Dittofeed - The first open-source customer engagement platform with developer tools",
+      "tagline": "We’re building the world's first open-source customer engagement platform with a fantastic developer experience.",
+      "body": "**Tl;dr**: Dittofeed is a developer-focused, open-source alternative to platforms like Iterable and Customer.io. Dittofeed’s streamlined developer experience allows growth engineers to send better-performing marketing messages. Additionally, self-hosting Dittofeed delivers large cost savings to power users who are constrained by existing providers’ volume-based pricing.\n\n—\n\nHi everyone, we’re Max and Chandler, and we're equipping the next generation of technical growth teams with the tools they need to ensure their marketing messages look great and get delivered correctly.\n\n![uploaded image](/media/?type=post&id=70363&key=user_uploads/917851/2732dae6-eed4-4b8e-99b7-88266c3aa80e)\n\n### **The Problem**: Customer engagement platforms are expensive and error-prone.\n\nIf you’ve ever received marketing emails with broken links, or opted out of a company’s texts, only to receive an “exclusive offer” text the next day, there’s a reason. And it’s not (for the most part) because growth teams are bad at their job.\n\nCurrent customer engagement platforms give growth teams the low-code tools they need to automate marketing messages at scale, but none of the technical tools they need to make sure they’re sending the right messages, to the right customers, at the right time. This results in reduced customer conversion and retention rates, as well as frustrated growth engineers.\n\n### **The Solution**: An open-source customer engagement platform that empowers growth engineers.\n\nGrowth teams are becoming increasingly technical, and with that, comes a huge potential for fixing buggy marketing messages. We’re building a future where growth engineers can finally version control email templates and test messaging automations in CI, and where, simultaneously, non-technical growth team members still have access to the low-code tools they’re comfortable with.\n\nUsing Dittofeed, you get industry-standard features like a drag-and-drop customer journey builder, a segmentation interface, and a web-based template editor, helpful for non-technical marketers. You ALSO get technical features like:\n\n* **git-based workflows** 😎\n* **a first-in-class testing SDK** 🤯\n* **an OpenTelemetry integration** 🥳\n* **a self-hostable platform** 🥹\n\nSet your growth engineers up for success. Retain more customers. Save money. Everyone wins!\n\n_Jest Test Example_\n\n![uploaded image](/media/?type=post&id=70363&key=user_uploads/917851/36c3f478-9e0f-4494-a81c-6cf7c0ac4a60)\n\n_Journey Builder Example Workflow_\n\n![uploaded image](/media/?type=post&id=70363&key=user_uploads/917851/57a4c636-7de0-4849-a2cf-532f5a016bf0)\n\nCompanies using Dittofeed can:\n\n1. Save up to thousands of dollars a month by self-hosting, avoiding volume-based pricing.\n2. Reliably build high conversion, high-retention marketing campaigns.\n3. Make their growth engineers happier.\n\n### **Our ask**:\n\n🤩 Star us on [Github](https://github.com/dittofeed/dittofeed)\n\n🫱🏽‍🫲🏾 Connect us (Max & Chandler) with growth and marketing teams [via email](mailto:founders@dittofeed.com)\n\n🗓️ Schedule a [demo](https://calendly.com/d/zy7-8d5-jdq/dittofeed-demo-founders)\n\n💬 Contact us with any feedback! [max@dittofeed.com](mailto:max@dittofeed.com) / [chandler@dittofeed.com](mailto:chandler@dittofeed.com)",
+      "url": "https://www.ycombinator.com/launches/IIt-dittofeed-the-first-open-source-customer-engagement-platform-with-developer-tools",
+      "votes": 56,
+      "created_at": "2023-03-16T22:49:31.527Z"
+    }
+  ]
+}

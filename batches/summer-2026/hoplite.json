@@ -1,0 +1,96 @@
+{
+  "id": 32089,
+  "name": "Hoplite",
+  "slug": "hoplite",
+  "former_names": [
+    "Carbon Copy",
+    "Carboncopy",
+    "Blueprints"
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/087c3f8fd341b06cc103d1bfc1f15c78f2464f4a.png",
+  "website": "https://hoplite.sh",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "",
+  "one_liner": "Effortlessly deploy cloud software factories.",
+  "team_size": 2,
+  "industry": "B2B",
+  "subindustry": "B2B -> Engineering, Product and Design",
+  "launched_at": 1782199103,
+  "tags": [
+    "Developer Tools",
+    "Cloud Computing",
+    "AI"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Summer 2026",
+  "status": "Active",
+  "industries": [
+    "B2B",
+    "Engineering, Product and Design"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/hoplite",
+  "api": "https://devasheeshg.github.io/yc-api/batches/summer-2026/hoplite.json",
+  "year_founded": 2026,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/hoplite-sh",
+  "x_url": "https://x.com/hoplite_sh",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/087c3f8fd341b06cc103d1bfc1f15c78f2464f4a.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Vivian Midha Shen",
+    "url": null
+  },
+  "founders": [
+    {
+      "user_id": 2563241,
+      "full_name": "Ryan Morrissey",
+      "title": "Founder/CEO",
+      "founder_bio": "Co-Founder & CEO at Hoplite, Prev. Stripe, Induct ",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/ryan-morrissey-834256271/",
+      "x_url": "https://x.com/ryan_morr",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/70a86a38d371096d8819303d0cf325e7b22af67d.jpg"
+    },
+    {
+      "user_id": 2614746,
+      "full_name": "Bence Redmond",
+      "title": "Founder/CTO",
+      "founder_bio": "Co-Founder & CTO at Hoplite, prev. AWS",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/bence-redmond",
+      "x_url": "https://x.com/benceredmond",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/dda1a8402cac49d6ea6237a1120e97ffa005e9a3.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 108274,
+      "title": "Hoplite - Effortless cloud agents for programming",
+      "tagline": "Hoplite runs autonomous coding agents in cloud sandboxes. Spin up tasks manually from Slack, Linear, iMessage, or automatically from Sentry.",
+      "body": "Cloud coding agents are painful to set up, lacking ergonomics, and don't allow you to move as fast as possible. We let you bring your local set up to the cloud.\n\n![uploaded image](/media/?type=post&id=108274&key=user_uploads/2563241/28db62de-d65b-4498-84ac-12e2683c65f2)\n\n**The Problem** \n\nIn the next 10 years the best software startups will be those who can effectively deploy tokens. \n\nRight now that's significantly harder than it needs to be. If you’ve ever ran multiple agents locally you immediately know this pain.\n\nLaptop crashes, wrangling gitwork trees, juggling ports, and more headaches.\n\n![uploaded image](/media/?type=post&id=108274&key=user_uploads/2563241/6f320e85-ccbb-4fb4-a5e9-6ec3cb0206c7)\n\nSo cloud is the obvious answer right? \n\nBut setting up with these existing providers is quite a hassle, and oftentimes they miss some key feature that your local config has.\n\n**What we do**\n\nWe deploy software factories into businesses that want to **tokenmaxx** but don't have the time or the resources to set up the infrastructure.\n\nDuring onboarding, we transfer all of your local sessions and MCP servers to Hoplite, meaning you can pick up right from where you left off. We also configure all the required dependencies and CLIs that your projects require, letting you see instant previews of what your agent is doing.\n\nOur bet is that as models improve, we’re going to start caring less about the code that they output (we’ll implicitly trust it), and shift our focus towards the product itself. Hence, a platform that prioritizes iteration on product rather than code will ultimately win. \n\nWe also have an iMessage integration so you can prompt on the go.\n\nWe installed in our first business last week and we saw an immediate result, from sentry logs going from largely ignored to fully proactive PRs when something breaks. \n\nThey have significantly faster iteration cycles and lower priority tickets have been continuously getting merged. \n\nThey wanted faster iterations but didn't have the infrastructure to support a software factory, so we went in and built it.\n\nIf this sounds like you reach out! \n\nP.S. – If you love Vim, this is for you. It was built with keyboard navigation in mind 🙂\n\ndemo vid: <https://x.com/ryan_morr/status/2078240892738224292?s=20>\n\nsign up: <https://hoplite.sh>\n\n**How we got here**\n\nPreviously, we were building an agentic harness for financial markets; letting retail investors trade with AI. The product worked well, but we never truly had founder market fit. \n\nWe found that our true passion was in talking to founders and developers – and oftentimes when pitching our old product, I’d spend 5x longer explaining our potential pivot 😅\n\nAnd so we set out to commercialize a product that we’d built internally, one that’d let us deploy the $1.5 million in OpenAI credits effectively.\n\n**Our Ask:** Let us Collison install! Bence and I will come to your apartment and set up everything for you (and bring some matcha &amp; assorted sweet treats). We want to build the best possible product for developers to move faster and care deeply about peoples setups. Partially because we have very strong opinions of our own… \n\n**The Team** \n\nBence &amp; I are both from Ireland 🇮🇪. We met in college in a course called Immersive Software Engineering. \n\nWe have been building projects &amp; doing freelance work tg for the past 2 years, but got sick of building other people's visions. \n\nWe previously interned at AWS (Bence) &amp; [@Stripe](https://bookface.ycombinator.com/company/240) (Ryan). After that experience, we were fed up and decided to drop out to build. \n\nWe are best friends &amp; just want to build a product that people truly love. ",
+      "url": "https://www.ycombinator.com/launches/SAM-hoplite-effortless-cloud-agents-for-programming",
+      "votes": 11,
+      "created_at": "2026-07-30T18:32:37.080Z"
+    }
+  ]
+}

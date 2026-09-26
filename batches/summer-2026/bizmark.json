@@ -1,0 +1,94 @@
+{
+  "id": 32200,
+  "name": "Bizmark",
+  "slug": "bizmark",
+  "former_names": [
+    "LeanLog"
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/ee2b3b896d33b5af63938bfada70f7377592ac49.png",
+  "website": "https://bizmark.ai",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "Hey YC! We're Bizmark. I (Rodrigo) grew up in a factory, watching my mum run everything through Excel and email.\r\n\r\nThat’s why we’ve built Otto, the OpenClaw for manufacturers.\r\n\r\nIn a few days, he learns from your systems and spreadsheets to take over repetitive work in procurement, quoting, and production planning. \r\n\r\nOtto is live at multiple factories, bringing in $108k in annual recurring revenue. Last month, he worked the equivalent of 9 full-time employees.\r\n\r\nI did CS at UChicago and built a distribution business from 0 to $60M.\r\n\r\nMy cousin and cofounder Oscar did CS at Stanford and deployed AI for the US Air Force, Amazon, and the factories of Johnson & Johnson and Intel.\r\n\r\nThere's a quarter of a million manufacturers in the US, making this a $25B market.\r\n\r\nIn 5 years, they will all run on Otto-pilot.",
+  "one_liner": "OpenClaw for manufacturers",
+  "team_size": 2,
+  "industry": "B2B",
+  "subindustry": "B2B",
+  "launched_at": 1784331710,
+  "tags": [
+    "Artificial Intelligence",
+    "Manufacturing",
+    "Automation",
+    "AI"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Summer 2026",
+  "status": "Active",
+  "industries": [
+    "B2B"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/bizmark",
+  "api": "https://devasheeshg.github.io/yc-api/batches/summer-2026/bizmark.json",
+  "year_founded": 2026,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "",
+  "x_url": "",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/ee2b3b896d33b5af63938bfada70f7377592ac49.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Jon Xu",
+    "url": "https://www.ycombinator.com/people/jon-xu"
+  },
+  "founders": [
+    {
+      "user_id": 343702,
+      "full_name": "Rodrigo Mosqueira",
+      "title": "Founder/CEO",
+      "founder_bio": "I grew one of the largest e-commerce logistics startups in Brazil from zero to $60M in revenue running 100k orders/month across 10k SKUs as the first employee. Prev. CS at UChicago, MBA from Chicago Booth.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/moag/",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/1ea1768af0b16fd80a12279f323138a1d48501d7.jpg"
+    },
+    {
+      "user_id": 1156158,
+      "full_name": "Oscar Aguilar",
+      "title": "Founder/CTO",
+      "founder_bio": "I've implemented machine learning and optimization at Intel, Amazon, and J&J, and deployed AI for the Department of War. Studied operations Research at Stanford and Georgia Tech.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/oscar-aguilar-76bb15170/",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/02e433f8d34d4f2fff110b7d3eeb44d9f36d1dba.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 107941,
+      "title": "Bizmark – Transforming physical industries",
+      "tagline": "The operating system for companies that make, move, or sell physical goods",
+      "body": "[Bizmark Launch](https://youtu.be/-5g3wv2OE2g)\n\nHey everyone, we're Rodrigo and Oscar, founders of Bizmark (S26).\n\n**TL;DR:** Bizmark is the operating system for companies that make, move, or sell physical goods. It connects the systems, spreadsheets, and knowledge a company already has, and turns them into optimized decisions and automated workflows: quotes priced in seconds, schedules that reflow when a machine goes down, inventory balanced between service levels and cash. Bizmark adapts to how each company operates, not the other way around. Working product in weeks, not years. Some of the most innovative American companies use Bizmark to transform their operations. Ask: intros to decision makers at manufacturers, distributors, and retailers.\n\n**The problem**\n\n> _“Quotes take too long, so I lose revenue. Or I quote too fast and give away margin.”_\n\n> _“Days of inventory are critical for my business, but I’m not sure I’m buying the right quantities at the right time, or getting the best supplier terms.”_\n\n> _“An urgent order comes in and I do not know what to run next. I’m hitting max capacity constantly, but I’m not sure I’m using my equipment and labor in the most efficient way.”_\n\nAfter 150 of these conversations, we've realized these problems share the same cause. Legacy ERPs force operators into templates that don’t reflect how the business runs, while custom implementations often run to years and seven-figure budgets. As a result, decisions that directly affect revenue, margins, and service levels are made from spreadsheets, delayed reports, and fragmented tools, with less information than the company has, often by whoever is closest, not whoever knows best.\n\n**What we built**\n\nBizmark is the operating system for companies that make, move, or sell physical goods. It connects the systems, spreadsheets, and knowledge a company already has, and turns them into optimized decisions and automated workflows. Bizmark adapts to how each company operates, not the other way around. And customers get a working product in weeks, not years.\n\n**Here’s how some of the most innovative American companies use Bizmark to transform their operations:**\n\nA spec-heavy RFQ lands in the inbox. Bizmark reads it, and a quoting engine prices it against inventory, capacity, and customer history. It returns a customer-ready quote in seconds. The team approves it, it goes out, and when the customer says yes, the order enters the system without any retyping.\n\nThen the order runs. Bizmark schedules it into your machines and crews against your objectives, using the same estimates the quote was priced on. When a machine goes down or a rush order lands, the plan reflows and the new sequence reaches the queues that run the operation. The job runs, passes quality, and ships.\n\nThe order drew down inventory. Bizmark forecasts what you will sell next, holds your days of inventory in balance – enough for minimum service levels while protecting cash – and decides what to buy, when, and from whom. It sends RFQs to qualified suppliers and compares what comes back. The team chooses, and the PO books straight into the system.\n\n**Who we are**\n\nWe’re cousins who love seeing how things get built in the real world.\n\nRodrigo grew one of the largest e-commerce logistics startups in Brazil from zero to $60M in revenue running 100k orders/month across 10k SKUs as the first employee. Prev. CS at UChicago, MBA from Chicago Booth.\n\nOscar led process optimization at Intel, Amazon, and J&amp;J, and deployed AI for the U.S. government. Prev. Operations Research at Stanford and Georgia Tech.\n\n**Ask**\n\nIntros to decision makers at manufacturers, distributors, and retailers.",
+      "url": "https://www.ycombinator.com/launches/S4z-bizmark-transforming-physical-industries",
+      "votes": 8,
+      "created_at": "2026-07-28T17:50:56.018Z"
+    }
+  ]
+}

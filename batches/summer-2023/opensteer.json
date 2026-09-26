@@ -1,0 +1,102 @@
+{
+  "id": 29137,
+  "name": "Opensteer",
+  "slug": "opensteer",
+  "former_names": [
+    "Thumbnail Game",
+    "TrendUp",
+    "trendup",
+    "Curatle",
+    "dinogent",
+    "Curatle",
+    "Oversteer"
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/38b0ef5314d328b72aff9a8d9829350f181b5ace.png",
+  "website": "https://opensteer.com",
+  "all_locations": "Los Angeles, CA, USA; Remote",
+  "long_description": "Opensteer creates specialized AI agents in cloud computers that can integrate with anything. Each agent gets customizable browser access, tools, instructions, and guardrails, so it can work 24/7 exactly the way you need.",
+  "one_liner": "Specialized agents for real work",
+  "team_size": 1,
+  "industry": "B2B",
+  "subindustry": "B2B",
+  "launched_at": 1689032123,
+  "tags": [
+    "Artificial Intelligence",
+    "Robotic Process Automation",
+    "B2B",
+    "API",
+    "Automation"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Summer 2023",
+  "status": "Active",
+  "industries": [
+    "B2B"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada",
+    "Remote",
+    "Fully Remote"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/opensteer",
+  "api": "https://devasheeshg.github.io/yc-api/batches/summer-2023/opensteer.json",
+  "year_founded": 2023,
+  "city": "Los Angeles",
+  "country": "US",
+  "linkedin_url": "",
+  "x_url": "",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/38b0ef5314d328b72aff9a8d9829350f181b5ace.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Aaron Epstein",
+    "url": "https://www.ycombinator.com/people/aaron-epstein"
+  },
+  "founders": [
+    {
+      "user_id": 1369366,
+      "full_name": "Tim Jang",
+      "title": "Founder",
+      "founder_bio": "Founder at Opensteer. Previously at Block.",
+      "is_active": true,
+      "linkedin_url": "https://linkedin.com/in/timjang3",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/9fa76a17acafebcc366921a150dbeeceb5469bd0.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 102076,
+      "title": "Opensteer - Specialized agents that learn and run your business",
+      "tagline": "A team of AI agents that run your business",
+      "body": "Opensteer creates specialized AI agents that learn and use your tools, workflows, rules, and custom processes to become experts at one specific job.\n\nEach agent runs in a secure cloud workspace with its own browser, tools, memory, schedules, rules, and approval gates. Instead of one generic assistant trying to do everything, Opensteer agents are trained around one job and the way your company actually gets it done.\n\nWith a team of specialized agents, you essentially have a suite of AI employees that help run and accelerate your business 24/7.\n\n<https://www.youtube.com/watch?v=6_KREHla-b8>\n\n**The Problem**\n\nAgents today are too generic. They get a long prompt, a huge context window, and every tool loaded at once.\n\nBut real company workflows are specific and messy. Sales follow-up happens across a CRM, Gmail, LinkedIn, and Slack. Support triage may require tickets, docs, dashboards, and manager approvals. Ops work often lives inside browser-only portals with no API.\n\nEach job needs its own rules, context, workflows, and guardrails. With one generic agent, those rules get blended together, important context gets lost, and the quality of the work drops.\n\n**The Solution**\n\nOpensteer turns a generic agent into a specialized worker by giving it a custom harness for one job.\n\nA harness is a filesystem that teaches an agent how to do a workflow well. It contains the agent's operating playbook, memory, tools, schedules, browser access, deterministic code, approval rules, and integrations for that specific job.\n\nSkills tell the agent how to think, make tradeoffs, and follow your company's rules. Actions and scripts handle the parts that should run the same way every time: API calls, browser automation, parsing, validation, database updates, notifications, and scheduled routines.\n\nYou decide where each workflow sits on the autonomy spectrum: deterministic code, agent judgment, human approval, or a mix of all three.\n\nBecause harnesses can use APIs, first-party MCPs, CLIs, custom code, and browser automation, Opensteer agents can integrate with anything your team already uses.\n\n**How It Works**\n\n1\\. Describe the job you want the agent to own.\n\n2\\. Opensteer creates a specialized harness for that workflow.\n\n3\\. Connect the apps, browser profiles, tools, APIs, and data it needs.\n\n4\\. Add rules, approvals, schedules, and deterministic actions.\n\n5\\. Run it in the cloud, then check in or steer it from Opensteer, Claude Code, or Codex.\n\n**Our Ask**\n\nCreate your own custom, specialized agents today at Opensteer or book a call here: [**https://cal.com/tim-opensteer/30min**](https://cal.com/tim-opensteer/30min)\n\nWebsite: [**https://opensteer.com**](https://opensteer.com)\n\nEmail: [**tim@opensteer.com**](mailto:tim@opensteer.com)",
+      "url": "https://www.ycombinator.com/launches/QYO-opensteer-specialized-agents-that-learn-and-run-your-business",
+      "votes": 17,
+      "created_at": "2026-05-28T07:11:36.274Z"
+    },
+    {
+      "id": 95163,
+      "title": "Oversteer - The Most Reliable Browser Agent for Any Web Task",
+      "tagline": "Turn any website into a reusable API",
+      "body": "**_TL;DR_** Oversteer is building browser agents to automate web tasks and turn them into reusable, deterministic APIs. You can integrate the API into any system and automate/integrate any website or portal. \n\nhttps://www.youtube.com/watch?v=IZCy2r-rs7s\n\n# **What’s the insight?**\n\nAcross industries, teams still outsource repetitive web tasks — logging into portals, downloading files, submitting forms, extracting data — to human labor, spending millions of human labor hours. Traditional browser automation tools exist, but they’re **unreliable, expensive, and non-deterministic**. Companies and users want something that just works - a reliable agent that can execute their workflow end-to-end deterministically that works correctly every time, and actually replace human work. \n\n# **What did we build?**\n\nOversteer is an **AI browser agent** that automates any website or web portal from a simple prompt. It generates **deterministic scripts** that run like APIs — **reliable, reusable, and self-healing** when websites change. Because they don’t rely on LLMs at runtime, they’re **fast, consistent, and cheaper** than traditional browser agents.\n\n# **How it works:**\n\n**Step 1:** Understands and records a user’s web workflow from just a prompt.\\\n**Step 2:** Generates a deterministic automation script from the workflow.\\\n**Step 3:** Handles anti-bot detection, CAPTCHA solving, and automatic login with 2FA.\\\n**Step 4:** Runs as a reusable API and connects to systems like Zapier, n8n, and app builders like Lovable, v0.\\\n**Step 5:** Automatically adapts when websites update, ensuring the automation keeps working.\n\n---\n\n# **The Team**\n\n**Tim Jang** – Founder. Previously built multiple consumer apps with millions of users. Developed large-scale web automation systems to extract real-time data on millions of consumer products, and is now bringing that technology into a product that anyone can use.\n\n---\n\n# **Our Ask (and Offer)**\n\nTry it yourself for free: https://oversteer.dev\n\nIntro: We’re looking to connect with companies that spend hours doing repetitive web tasks — in **procurement, logistics, healthcare, accounting, finance**, or any industry with heavy manual computer work.\n\nOr if you’re someone who wants to integrate websites into automation workflow tools like n8n, Zapier, or app builders like Lovable, we’d love to talk.\n\nFeel free to email me at [**tim@oversteer.dev**](mailto:tim@oversteer.dev)\n\nor book a meeting here: https://cal.com/tim-jang-r1jrml/30min",
+      "url": "https://www.ycombinator.com/launches/Okt-oversteer-the-most-reliable-browser-agent-for-any-web-task",
+      "votes": 15,
+      "created_at": "2025-11-05T02:17:41.406Z"
+    }
+  ]
+}

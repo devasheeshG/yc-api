@@ -1,0 +1,101 @@
+{
+  "id": 28078,
+  "name": "Turntable",
+  "slug": "turntable",
+  "former_names": [
+    "Curious Data"
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/0a15c4d80c460289d85dd7ca55681d29f3aae7ba.png",
+  "website": "https://www.turntable.so",
+  "all_locations": "New York City, NY, USA",
+  "long_description": "Turntable allows less technical analysts to build their own data pipelines. Companies use our AI-native workspace to scale their analytics without hiring more engineers.\r\n\r\nIf you use DBT or Airflow- or you're building out your data stack for the first time- please reach out!",
+  "one_liner": "AI-native operating system for analytics teams",
+  "team_size": 3,
+  "industry": "B2B",
+  "subindustry": "B2B -> Analytics",
+  "launched_at": 1674172313,
+  "tags": [],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Winter 2023",
+  "status": "Inactive",
+  "industries": [
+    "B2B",
+    "Analytics"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada",
+    "Remote",
+    "Partly Remote"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/turntable",
+  "api": "https://devasheeshg.github.io/yc-api/batches/winter-2023/turntable.json",
+  "year_founded": 2023,
+  "city": "New York City",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/turntabledata",
+  "x_url": "https://twitter.com/turntabledata",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/0a15c4d80c460289d85dd7ca55681d29f3aae7ba.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [
+    "https://bookface-images.s3.us-west-2.amazonaws.com/attachments/e212a7f03252d7cf1a7dcb66e1296fa3ced4de19.png"
+  ],
+  "primary_partner": null,
+  "founders": [
+    {
+      "user_id": 395811,
+      "full_name": "Wally Gurzynski",
+      "title": "Founder",
+      "founder_bio": "Wally is experienced in leading product for applied ML teams. Most recently, he led the Home Timeline team at Twitter- one of the world's largest ML recommendation systems. He also started the counterterrorism data and engineering team to build models for detecting harmful activity.\n\nWally started Turntable after working on teams that were consistently slowed down by the creation of new metrics and data pipelines.",
+      "is_active": false,
+      "linkedin_url": "http://www.linkedin.com/gurzynski",
+      "x_url": "https://www.twitter.com/wgnyc",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/4dd6e671ee7cc7bd3c5f6fac5c9ed80c85a1eb0d.jpg"
+    },
+    {
+      "user_id": 1030960,
+      "full_name": "Justin Leder",
+      "title": "Founder",
+      "founder_bio": "Justin most recently led the Commercial Data Science team at Cruise. Previously, he worked in a variety of data, strategy, & ops roles at Cruise and McKinsey.",
+      "is_active": false,
+      "linkedin_url": "https://www.linkedin.com/in/justin-leder/",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/8f0abf2feb77c99d193bfcc25adb18f6eb22ec74.jpg"
+    },
+    {
+      "user_id": 1134326,
+      "full_name": "Ian Tracey",
+      "title": "Founder",
+      "founder_bio": "Ian is a co-founder & CTO of Turntable.\n\nIan has spent years as a tech lead where he led the development of some of Stripe's hosted UI products and the business ML platform at Pinterest. Previously, Ian worked on autonomous drone software at Latitude and was the founder of Hack Arizona, one of the largest collegiate hackathons in the US with over 1100 hackers attending annually.",
+      "is_active": false,
+      "linkedin_url": "https://www.linkedin.com/in/itracey/",
+      "x_url": "https://twitter.com/ian_dot_so",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/421e1bd8217b31acff36e96cdce2efbf606d52d6.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 68583,
+      "title": "Turntable - Transform data at warp speed",
+      "tagline": "We help data teams find, contextualize and transform data",
+      "body": "**TL,DR:** Turntable is a collaborative tool to create and manage data pipelines- built from the ground up with AI. To start, we’re focused on reducing the time and cost of transforming data within DBT, an open-source data engineering platform. Check out our first drop, [**DBT copilot**](https://www.turntable.so/copilot)**.**\n\n### **🐌 Problem**\n\nDespite being one of the most important parts of a modern business, data transformation tools are often hard to use, slow, and uninspiring. Data teams spend the majority of their time finding the right data, creating pipelines, and responding to ad-hoc requests. With the added issue that recruiting data talent is difficult, data pipelines quickly become a bottleneck for product development and business learning.\n\n### **⏩ Solution**\n\nOur first product is a [DBT copilot](https://www.turntable.so/copilot) that allows DBT users to do in minutes what they previously could do in hours or days. Our copilot currently supports:\n\n* generating or modifying DBT code\n* writing DBT schema and documentation\n* generating code for sharing DBT models in BI or visualization tools\n\nWatch a demo of the copilot [here](https://www.youtube.com/watch?v=dHQpry2Ctok).\n\nIn the future, you’ll see us launch more features and integrations to make it easier to find and contextualize data within your analytics codebase and collaborate with your teammates.\n\n### **📚 Backstory**\n\nWe’ve all either worked on data teams or have been customers of data teams that have been blocked on data pipeline work:\n\n* Justin led commercial data science at Cruise where he managed a team of data scientists that spent 70% of their time managing data pipelines in DBT.\n* Ian was the tech lead for growth & data engineering teams at Pinterest and Stripe, where he had to build internal tools and hacks to get around data pipeline constraints.\n* Wally led product for Twitter’s Home Timeline team, which would often be blocked on the creation of new metrics and data pipelines- slowing down product development and learning.\n\nTogether, we started Turntable because we believe that generative AI has created an opening to build a new standard for data transformation tools.\n\n### **🙋 Asks**\n\n* If your company uses DBT, reach out at [team@turntable.so](mailto:team@turntable.so)! (bonus: we may help you save >50% on your DBT costs 🤑).\n* If your company doesn’t use DBT, we’d love introductions to data teams at companies that do",
+      "url": "https://www.ycombinator.com/launches/HqB-turntable-transform-data-at-warp-speed",
+      "votes": 44,
+      "created_at": "2023-01-20T23:53:57.602Z"
+    }
+  ]
+}

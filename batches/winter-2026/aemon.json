@@ -1,0 +1,126 @@
+{
+  "id": 31138,
+  "name": "Aemon",
+  "slug": "aemon",
+  "former_names": [],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/b3865c0d771194942bdee5eff869a97c2df94f0c.png",
+  "website": "https://aemon.ai/",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "Aemon is the first autonomous research engineer that delivers state-of-the-art solutions to your engineering problems. It generates, tests, and evolves thousands of approaches at machine speed to discover optimal solutions beyond what human experts can find.\r\n\r\nAemon already set a new world record on an NP-hard math optimization problem with <$10 of compute, beating the previous record set by Google DeepMind in 2025.\r\n\r\nRay and Richard (twin brothers) dropped out of UWaterloo and UIUC to build Aemon. They published at top AI conferences like ICLR and EMNLP before turning 20.",
+  "one_liner": "The Forward-Deployed AI Research Engineer ",
+  "team_size": 3,
+  "industry": "B2B",
+  "subindustry": "B2B",
+  "launched_at": 1772053698,
+  "tags": [],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": true,
+  "nonprofit": false,
+  "batch": "Winter 2026",
+  "status": "Active",
+  "industries": [
+    "B2B"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/aemon",
+  "api": "https://devasheeshg.github.io/yc-api/batches/winter-2026/aemon.json",
+  "year_founded": 2025,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/aemon-ai/",
+  "x_url": "https://x.com/Aemon_ai",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/b3865c0d771194942bdee5eff869a97c2df94f0c.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Jon Xu",
+    "url": "https://www.ycombinator.com/people/jon-xu"
+  },
+  "founders": [
+    {
+      "user_id": 1990817,
+      "full_name": "Richard Zhou",
+      "title": "Founder/CEO",
+      "founder_bio": "Co-founder at Aemon (YC W26). Waterloo CS dropout. International medalist in math & robotics.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/-richard-zhou-/",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/290406af1937291a797ca0f0407032004b79d815.jpg"
+    },
+    {
+      "user_id": 3174521,
+      "full_name": "Ray Xu",
+      "title": "Founder/CTO",
+      "founder_bio": "Co-founder at Aemon (YC W26). UIUC CS dropout. Published at top AI conferences like ICLR and EMNLP before turning 20.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/yifei-ray-xu/",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/f4d6d07c25291985ffc54033634c788ccb0105b6.jpg"
+    }
+  ],
+  "jobs": [
+    {
+      "id": 97531,
+      "title": "Member of Technical Staff Intern 2027",
+      "url": "https://www.ycombinator.com/companies/aemon/jobs/1eLVh1X-member-of-technical-staff-intern-2027",
+      "location": "San Francisco, CA, US",
+      "type": "Internship",
+      "role": "Engineering",
+      "role_type": "Machine learning",
+      "salary_range": "$8K - $15K",
+      "equity_range": "",
+      "experience": null,
+      "visa": "Will sponsor",
+      "skills": [
+        "Python",
+        "TypeScript",
+        "Machine Learning",
+        "AI Agents"
+      ]
+    },
+    {
+      "id": 111754,
+      "title": "Member of Technical Staff (Research Engineering) ",
+      "url": "https://www.ycombinator.com/companies/aemon/jobs/JrUC2Px-member-of-technical-staff-research-engineering",
+      "location": "San Francisco, CA, US / Remote",
+      "type": "Full-time",
+      "role": "Engineering",
+      "role_type": "AI engineer",
+      "salary_range": "$180K - $250K",
+      "equity_range": "",
+      "experience": "Any (new grads ok)",
+      "visa": "Will sponsor",
+      "skills": [
+        "Python",
+        "TypeScript",
+        "Machine Learning",
+        "AI Agents"
+      ]
+    }
+  ],
+  "news": [],
+  "launches": [
+    {
+      "id": 98200,
+      "title": "Aemon — The AI R&D Engineer",
+      "tagline": "Your next breakthrough. Found automatically.",
+      "body": "# \\*\\*\\*\\*\n\nHi! We're Ray and Richard — twin brothers, and co-founders of [Aemon](https://aemon.ai/).\n\n## TL;DR\n\nAemon is an AI R&D engineer. Give it a problem and a way to measure success — it reads state-of-the-art research, then generates and evolves thousands of approaches at machine speed to discover optimal solutions, often going beyond what human experts can find.\n\nYou say: \"Here's my problem. Here's how I measure success. Beat the best known solution.\"\n\nAemon is already in the hands of R&D teams, discovering solutions that surpass their existing approaches.\n\nWe pointed Aemon at the circle packing problem — a classic NP-hard optimization challenge that mathematicians have worked on for decades.\n\n**Aemon set a new world record. With less than $10 of compute. (see below)**\n\n## 😖 The Problem\n\nGlobal R&D spend is $3.1 trillion a year. And every R&D problem has the same shape: you know what success looks like, but you don't know how to get there.\n\nToday, that means hiring R&D engineers to read and align papers, pick an approach, implement it, test it, and iterate — by hand. It's slow, it's expensive, and no matter how good your team is, they can only explore a tiny fraction of the solution space. That means the best solution is almost certainly out there, untested, because no human team has the bandwidth to find it.\n\nThis isn't a tooling problem. It's a search problem — and humans are the bottleneck.\n\n## 🤓 Our Solution\n\nAemon does what a world-class R&D engineer does — but at a scale no human team can match.\n\n* **Research synthesis** — Aemon reads state-of-the-art papers to understand what's been tried, what works, and where the frontier is.\n* **Autonomous evolution** — It generates and evolves thousands of approaches against your eval, exploring far more of the solution space than any human team could.\n* **Expert steerable** — Your team stays in control. A simple direction is all it takes to guide Aemon — constraining the solution space, prioritizing certain approaches, or steering away from dead ends. R&D gets faster and more precise, and Aemon fits into your existing R&D workflow.\n* **Beyond state-of-the-art results** — Aemon doesn't just match the best known solution. It looks for better ones — and finds them.\n\nThe result: solutions that are validated against your eval, benchmarked against the public state of the art. Your experts stay in the loop — Aemon just gives them superhuman reach. <https://youtu.be/YOswpdEcFUM>\n\n## 🥇 New Record\n\nWe pointed Aemon at the circle packing problem — a classic NP-hard optimization challenge that mathematicians have worked on for decades.\n\nAemon set a new world record. With less than $10 of compute.\n\nIt beat Google DeepMind's AlphaEvolve with fractional the cost.\n\nVerify it yourself using their official verifier (B.12, n=26): [\\[VERIFIER LINK\\]](https://colab.research.google.com/github/google-deepmind/alphaevolve_results/blob/master/mathematical_results.ipynb#scrollTo=v3kEu5yVeJ2h) | [Aemon’s Solution](https://aemon.ai/#:~:text=of%20compute-,View,-Aemon%27s%20solution)\n\n## Our Story\n\nWe're twins who've been working together our whole lives. We published at ICLR and EMNLP before turning 20, then dropped out of UWaterloo and UIUC to build Aemon full-time. There's a good story behind why we started this — too long for here, but ask us and we'll tell you.\n\n## 🙏 Our Ask\n\nIf you are, or know, any of the following, we'd love to talk:\n\n* CTOs, Heads of R&D, or engineering leaders evaluating whether to hire another R&D engineer or want to accelerate R&D.\n* Leadership at teams working on any problem where you have a clear eval but no clear path to the best solution\n* AI/ML teams trying to be and staying SOTA\n* computational teams in fields like quant, finance, biotech, logistics, or materials science where better algorithms directly drive business value\n\nPlease reach out to us at [founder@aemon.ai](mailto:founder@aemon.ai) or book a discovery call at [aemon.ai](http://aemon.ai)",
+      "url": "https://www.ycombinator.com/launches/PXs-aemon-the-ai-r-d-engineer",
+      "votes": 23,
+      "created_at": "2026-02-26T00:04:45.721Z"
+    }
+  ]
+}

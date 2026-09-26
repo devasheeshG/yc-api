@@ -1,0 +1,121 @@
+{
+  "id": 30320,
+  "name": "Proception Inc",
+  "slug": "proception-inc",
+  "former_names": [],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/9bbd5c88222cf5eb971b76232ac40284413785f0.png",
+  "website": "https://proception.ai/",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "",
+  "one_liner": "Making humanoids dexterous enough to thread a needle",
+  "team_size": 10,
+  "industry": "Industrials",
+  "subindustry": "Industrials -> Manufacturing and Robotics",
+  "launched_at": 1739402915,
+  "tags": [
+    "Artificial Intelligence",
+    "Robotics"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Winter 2025",
+  "status": "Active",
+  "industries": [
+    "Industrials",
+    "Manufacturing and Robotics"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/proception-inc",
+  "api": "https://devasheeshg.github.io/yc-api/batches/winter-2025/proception-inc.json",
+  "year_founded": 2024,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/proceptionai/?viewAsMember=true",
+  "x_url": "https://x.com/proceptionAI",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/9bbd5c88222cf5eb971b76232ac40284413785f0.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Tom Blomfield",
+    "url": "https://www.ycombinator.com/people/tom-blomfield"
+  },
+  "founders": [
+    {
+      "user_id": 2177365,
+      "full_name": "Jay Li",
+      "title": "Founder/CEO",
+      "founder_bio": "Working on humanoid. Stanford alumni",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/jaylicareer/",
+      "x_url": "https://x.com/jaylistanford",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/e1e14b438d6bcc0a1dde6f23547a7be16e34e1f3.jpg"
+    },
+    {
+      "user_id": 2602106,
+      "full_name": "Jack Xu",
+      "title": "Founder",
+      "founder_bio": "UWaterloo Alumni, Ex-Tesla Engineer, Ex-Trexo [YC 19]",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/jack-xu-jxinbox/",
+      "x_url": "https://x.com/_jaku_xu?s=21",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/697b46f581ed12f84f2c38b91fa0a4bcace94d71.jpg"
+    }
+  ],
+  "jobs": [
+    {
+      "id": 84326,
+      "title": "Robotics Technician (Assembly & Testing)",
+      "url": "https://www.ycombinator.com/companies/proception-inc/jobs/YQt8sOz-robotics-technician-assembly-testing",
+      "location": "Palo Alto, CA, US",
+      "type": "Contract",
+      "role": "Operations",
+      "role_type": null,
+      "salary_range": "$25 - $35 / hourly",
+      "equity_range": "",
+      "experience": "Any (new grads ok)",
+      "visa": "US citizen/visa only",
+      "skills": []
+    }
+  ],
+  "news": [
+    {
+      "title": "Robot hand company settles Tesla trade secret suit and announces $11M raise | TechCrunch",
+      "url": "https://techcrunch.com/2026/06/29/robot-hand-company-settles-tesla-trade-secret-suit-and-announces-11m-raise/",
+      "date": "Jun 29, 2026"
+    }
+  ],
+  "launches": [
+    {
+      "id": 104230,
+      "title": "Proception - The dexterous robot hand we wish existed",
+      "tagline": "The hand that enables robots. The glove that teaches them.",
+      "body": "# **Shipping ProHand: The Human-Like Robotic Hand Built for Dexterous Manipulation**\n\nMost robots still cannot use their hands.\n\nThat sounds strange, because robots have gotten dramatically better over the past decade. They can navigate warehouses, run, jump, perceive their surroundings, and reason over visual scenes. But when it comes to actually touching the world, most robots still rely on simple grippers.\n\n![uploaded image](/media/?type=post&id=104230&key=user_uploads/2602106/4c624b0d-144a-4af0-8144-a88769012c9d)\n\nThat works if the object is rigid, predictable, and placed exactly where the robot expects it to be. It breaks down quickly when the task requires the kind of manipulation humans do every day: adjusting grip, feeling contact, using multiple fingers, handling soft objects, or recovering when something slips.\n\nWe started Proception because we kept running into the same bottleneck: humanoid robots will not become truly useful until they can manipulate the world with something much closer to a human hand.\n\nToday we are introducing ProHand 1.0, a high-dexterity robotic hand built for researchers and robotics companies working on contact-rich manipulation.\\\n\\\n<https://youtu.be/S61xWpz7_qM>\n\n## Why We Built a Human-Like Hand\n\nThe human hand is not just a gripper. It has more than twenty degrees of freedom, dense tactile feedback, tendon-driven actuation, and an incredible ability to adapt through contact.\n\nThat is what makes simple tasks deceptively hard for robots. Tying shoelaces, opening packaging, handling tools, plugging in cables, folding clothes, or repairing electronics are not just vision problems. They are contact problems.\n\nTo build ProHand, we worked closely with hand surgeons and designed the system around the structure of the human hand.\n\n![uploaded image](/media/?type=post&id=104230&key=user_uploads/2602106/7dacec7a-3a65-412f-8513-cef8caf8b27f)\n\nProHand includes:\n\n* **Twenty-two degrees of freedom**, with multiple joints per finger, enabling a wide range of human-like motions.\n* **Tendon-driven actuation**, where motors pull cables to move the fingers while keeping the hand lightweight and compact.\n* **A compact and robust mechanical design**, built to be impact tolerant, serviceable, and practical for real robotics research.\n* **Integrated skin-like sensors**, which detect contact and support grip control during manipulation.\n\nThe goal was not to build a hand that looks human for aesthetics. The goal was to build hardware that can interact with the world in the same manipulation regime as human hands.\n\n## The Bigger Problem Is Data\n\nDexterous manipulation is not only a hardware problem. It is also a data problem.\n\nAI has made enormous progress in vision and language because those fields had access to large-scale datasets. Robotics does not have the same advantage. Manipulation data is expensive, slow, and usually collected in labs through teleoperation.\n\nTeleoperation is useful, and ProHand supports standard teleoperation workflows out of the box. But it has two big limitations.\n\nFirst, it does not scale easily. Data collection is limited by how many robots you have and how much time operators can spend controlling them.\n\nSecond, it loses important human interaction signals. When someone teleoperates a robot, they are not directly touching the object. The robot sees motion commands, but it often misses the subtle pressure, contact, and adjustment strategies humans naturally use when manipulating objects.\n\nBecause ProHand is designed around human hand kinematics and skin-like sensing, we can also collect data directly from human hands.\n\nThat is why we built **ProGlove**.\n\n![uploaded image](/media/?type=post&id=104230&key=user_uploads/2602106/1ee06ef7-e3b4-422a-b38c-2987494df668)\n\nProGlove turns the same sensor skin used on ProHand into a wearable data collection system. A person can wear the glove, interact with real objects, and capture human manipulation data without needing a robot in the loop. Combined with a headset for visual context, researchers can collect real human hand interaction data and transfer those movements and skills to ProHand.\n\nOur bet is simple: the fastest path to dexterous robots is to build hardware close enough to the human hand that we can learn from human hands directly.\n\n## Shipping This Week\n\nProception has raised **$11 million in seed funding** led by **First Round Capital**, with participation from **Y Combinator** and **BoxGroup**. This allows us to expand the team, scale production, and keep building the hardware and data infrastructure needed for dexterous manipulation.\n\nOur team has designed consumer electronics at Apple that reached millions of users, built robotic systems at Tesla and early-stage startups, and spent years working on the messy details of real hardware: actuation, sensing, reliability, calibration, control, and data collection.\n\nWe are building ProHand in Mountain View, and the first batch of units is shipping this week to researchers and robotics companies.\n\nIf you are building dexterous manipulation systems, humanoid robots, teleoperation workflows, or robot learning pipelines, you can order ProHand on [our website](https://www.proception.ai/product/pro-hand/gen1).\n\nIf you want to help build the hands that make humanoid robots useful, we are hiring <https://www.proception.ai/careers>.\n\n## ",
+      "url": "https://www.ycombinator.com/launches/R78-proception-the-dexterous-robot-hand-we-wish-existed",
+      "votes": 7,
+      "created_at": "2026-06-29T15:46:59.992Z"
+    },
+    {
+      "id": 88112,
+      "title": "🦾 Proception.ai - World's most dexterous humanoid",
+      "tagline": "We make humanoids dexterous enough to thread a needle",
+      "body": "Our mission is to revolutionize humanoid robotics by developing robots capable of performing complex tasks, transforming how we interact with technology in industries like healthcare, manufacturing, and beyond.\n\n### **What We Do**\n\nAt Proception, we are developing advanced humanoid robotic hands and robots, starting with a high-precision hand for research. We’ve successfully built our first functional prototype in just 4 months—an incredible milestone that sets us on the path to shipping to researchers soon. Our unique approach to **data collection**—where we collect data through human interaction rather than teleoperating robots—has significantly increased the efficiency of our data gathering. This enables us to train more effective AI models for manipulation and task execution.\n\n<https://www.youtube.com/watch?v=cEo4WlCanMc>\n\n### **The Journey Ahead**\n\nOur robotic hands are just the beginning. In the next few years, we’ll expand from hands to fully autonomous humanoid robots capable of performing a wide range of tasks across industries. From healthcare and elder care to manufacturing and logistics, Proception’s robots will drive automation and unlock new efficiencies.\n\n### **Why We’re Different**\n\n![uploaded image](/media/?type=post&id=88112&key=user_uploads/2177365/6b25ce59-4945-4d41-8c32-2bd1379203d9)\n\n1. **Efficient Data Collection**: Unlike traditional teleoperation methods, we gather data through human-driven interactions, dramatically improving the efficiency of data collection and speeding up the training of AI models.\n2. **Execution**: In just 4 months since founding Proception, we’ve built a functional prototype of our humanoid hand, and we’re now preparing to ship it to research institutions in the near future.\n3. **Scalability**: Our robot is highly versatile and adaptable across a wide range of tasks, with a clear roadmap to scale from research applications to both industrial and household markets.\n\n![uploaded image](/media/?type=post&id=88112&key=user_uploads/2177365/c4f61f1e-d25c-4da2-b887-f72dd29bda8f)\n\n### **What’s Next**\n\nIn the coming 9 months, we will continue refining our robotic hand and prepare for the first shipments to research customers. We’ll also focus on further developing our AI software and preparing for the next phase: scaling to humanoid robots capable of performing real-world tasks. By years 2–3, we plan to deploy humanoid robots into industries that can benefit from automation and complex task execution.\n\n### **Backstory**\n\nMy journey into humanoid robotics began during my two years at Tesla, where I worked on the Tesla Optimus project. I developed a deep emotional connection to the potential of humanoid robots, which inspired me to pursue a path where I could bring that vision to life. Before Tesla, I worked at two startups, both of which successfully IPO’d. Those experiences taught me that the most challenging problems, especially in robotics, can only be solved through the agility and innovation of startups. That’s why I founded Proception—to take on these hard problems and push the boundaries of what’s possible with humanoid robots.\n\n### **Join Us on This Journey**\n\nJoin us in shaping the future of humanoid robotics. If you’re interested in learning more about our progress or exploring ways we can work together, let’s connect! Reach us at [**contact@proception.ai**](mailto:contact@proception.ai) or sign up at [proception.ai](https://proception.ai)\n\nTogether, we’re building the future—one robot at a time.",
+      "url": "https://www.ycombinator.com/launches/MvA-proception-ai-world-s-most-dexterous-humanoid",
+      "votes": 27,
+      "created_at": "2025-02-27T18:50:09.198Z"
+    }
+  ]
+}

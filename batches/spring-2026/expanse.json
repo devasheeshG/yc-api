@@ -1,0 +1,126 @@
+{
+  "id": 31516,
+  "name": "Expanse",
+  "slug": "expanse",
+  "former_names": [],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/af6cfe1f95da6fb2bfc1789fb605ed70b77da3b4.png",
+  "website": "https://expanse.sh",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "Expanse unlocks wasted GPU capacity. We recover idle compute through three capabilities: resource prediction (right-sizing job submissions before they reach the scheduler), optimisation suggestions (code and config changes researchers can apply themselves), and failure prediction (catching jobs that will fail before they consume hours of GPU time).\r\n\r\nWe’re four engineers. We ran HPC and GPU training workloads at the largest quant funds and national supercomputing centres. We faced this problem first hand and the only fix was to over-provision and burn millions. Ismaeel built the first multimodal HPC resource predictor as research at EPCC (Edinburgh’s Parallel Computing Centre), which beat every published baseline. This is the tool we wish we had.",
+  "one_liner": "Unlock wasted GPU capacity.",
+  "team_size": 4,
+  "industry": "B2B",
+  "subindustry": "B2B -> Infrastructure",
+  "launched_at": 1777849866,
+  "tags": [
+    "Deep Learning",
+    "B2B",
+    "Infrastructure",
+    "ML"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Spring 2026",
+  "status": "Active",
+  "industries": [
+    "B2B",
+    "Infrastructure"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/expanse",
+  "api": "https://devasheeshg.github.io/yc-api/batches/spring-2026/expanse.json",
+  "year_founded": 2025,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/expanse-compute",
+  "x_url": "https://x.com/ExpanseCompute",
+  "fb_url": null,
+  "cb_url": "https://www.crunchbase.com/organization/expanse",
+  "github_url": "https://github.com/expanse-labs",
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/af6cfe1f95da6fb2bfc1789fb605ed70b77da3b4.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [
+    "https://bookface-images.s3.us-west-2.amazonaws.com/attachments/1a2d766656b058e3ae5a7333ccf58b05bb9d8689.png"
+  ],
+  "primary_partner": {
+    "name": "David Lieb",
+    "url": "https://www.ycombinator.com/people/david-lieb"
+  },
+  "founders": [
+    {
+      "user_id": 3381342,
+      "full_name": "Ismaeel Bashir",
+      "title": "Founder/CEO",
+      "founder_bio": "Ismaeel is co-founder and CEO of Expanse. Built the first multimodal HPC resource predictor at EPCC (Edinburgh’s Parallel Computing Centre), beating every published baseline. Previously: ran large scale ML models at one of the world’s largest quantitative funds (QRT). Studied Computer Science at the University of Edinburgh.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/ismaeel-bashir/",
+      "x_url": "https://x.com/ismaeel_bashir_",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/3c4fa6230901fda37ce33a006271ece271e5e9e8.jpg"
+    },
+    {
+      "user_id": 3409042,
+      "full_name": "Nikodem Bieniek",
+      "title": "Founder",
+      "founder_bio": "Nikodem is co-founder and CTO of Expanse. Trained and optimised speech recognition models on GPU clusters. Previously: managed the platforms researchers and engineers depended on at one of the world’s largest hedge funds (Millennium). Studied Computer Science at the University of Edinburgh.",
+      "is_active": true,
+      "linkedin_url": "https://linkedin.com/in/nikodemb/",
+      "x_url": "https://x.com/nkdem_b",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/c2d55059ebf4b59335ad292b3cc38a1e9d667650.jpg"
+    },
+    {
+      "user_id": 3409418,
+      "full_name": "Yafet Melake",
+      "title": "Founder",
+      "founder_bio": "Yafet is co-founder and COO of Expanse. Built the first GNN-based cluster graph network for predicting SLURM queue wait times at EPCC (Edinburgh’s Parallel Computing Centre). Previously: tooling and infrastructure for researchers at one of the world’s largest quantitative funds (G-Research). Studied Computer Science at the University of Edinburgh.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/yafet-melake",
+      "x_url": "https://x.com/yafet_melake",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/db8ab1acbb09fe838ce4d380889c7d1c27bf0975.jpg"
+    },
+    {
+      "user_id": 2274795,
+      "full_name": "Eren Mendi",
+      "title": "Founder",
+      "founder_bio": "Eren is co-founder and CPO of Expanse. Built state-of-the-art decentralised foundation model training systems and performance models. Previously: prototyped emerging technologies in quantitative finance (G-Research). Studied Computer Science at the University of Edinburgh and Imperial College London.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/eren-mendi-929b55138",
+      "x_url": "https://x.com/erenzmendi03",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/af898412d2d555432b879560ffcdfde4fbb3e53a.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [
+    {
+      "title": "Why we started Expanse, and our $5.3M seed · Expanse Blog",
+      "url": "https://expanse.sh/blog/expanse-raises-5-3m-seed",
+      "date": "Sep 16, 2026"
+    },
+    {
+      "title": "What Y Combinator's Latest Batch Reveals About The Future",
+      "url": "https://www.forbes.com/sites/dariashunina/2026/06/04/what-y-combinators-latest-batch-reveals-about-the-future/",
+      "date": "Jun 08, 2026"
+    }
+  ],
+  "launches": [
+    {
+      "id": 100703,
+      "title": "Expanse - Unlock wasted GPU capacity",
+      "tagline": "Unlock wasted GPU capacity.",
+      "body": "**TL;DR**\n\nExpanse unlocks wasted GPU capacity. We’re the intelligence layer for compute infrastructure. Submit jobs with the right resources. Optimise them to run faster. Debug failures in seconds, not days. Works on cloud and on-prem HPC.\n\nWant to know how much more you can get out of your hardware? Schedule a call: <https://book.getexpanse.io>\n\n**Problem**\n\nRunning compute on a cluster means guessing memory, time, and GPUs before you submit. Get it wrong and your job fails mid-run. Over-guess and you pay for compute you never use. 30% of cloud spend is lost to over-allocation \\[1\\]. Microsoft Research found their own deep learning jobs hit 50% GPU utilisation or lower \\[2\\].\n\nSizing jobs takes decades of experience. Memory patterns, batching, GPU threading, CPU vectorisation. AI agents don’t have enough information to fix it either. SLURM and Kubernetes don’t expose enough structured data. Even strong platform teams are forced to choose: spend time debugging and optimising every job, or accept the waste. AI infrastructure spending will hit $2.52 trillion in 2026 \\[3\\]. The waste grows with every new cluster. This problem isn’t going away.\n\n**Solution**\n\nExpanse learns your cluster. We analyse your code and hardware telemetry, then track them over time. Our deep learning models build a picture of what your workloads actually need. Predictions get sharper with every job.\n\nOur models are deployed on your cluster. All analysis runs on your network. Your code and telemetry never leave your infrastructure. We can’t see your data, and you maintain full data sovereignty.\n\nOne command installs Expanse on your cluster. You get two tools.\n\n`expanse analyse` - for every job:\n\n* **Suggests the right resource configuration**\n* **Predicts failures from historical code and telemetry patterns**\n* **Surfaces code-level optimisations that increase efficiency**\n\n`expanse diagnose` - for every failure:\n\n* **Finds the root cause**\n* **Returns solution-oriented logs with the exact code and config changes to fix it**\n\nDays of debugging and optimising become seconds. Platform teams get what they need to do this in minutes instead of weeks.\n\n**Founders**\n\nWe're four engineers from the University of Edinburgh, all coming from top quant funds and national supercomputing centres. Ismaeel built the first multimodal HPC resource predictor at EPCC (Edinburgh's Parallel Computing Centre), beating every published baseline. Yafet built the first GNN cluster graph network for predicting SLURM queue wait times. Eren built decentralised foundation model training systems at Edinburgh. Niko trained large-scale speech ML models on GPU clusters and architected cloud and Kubernetes infrastructure at one of the largest hedge funds in the world. We left our jobs to fix this ourselves.\n\n**CTA / Ask**\n\nRunning compute and not getting enough out of what you’re paying for? Failing jobs, unclear errors, bills too high? We’d love to chat.\n\nKnow anyone in AI infrastructure (managing cloud and/or on-premise data centres), quant finance, drug discovery, or AI research labs? An intro would mean a lot :)\n\n**YC Deal**\n\nAll YC companies running serious ML training can contact us for a discounted pilot. We’ll find inefficiencies and wastage on your compute setup. Then we deploy Expanse, no changes to your workflows. You get more out of the hardware you’re paying for.\n\nReach out: [founders@expanse.sh](mailto:founders@expanse.sh) or <https://book.getexpanse.io>\n\nReferences\n\n\\[1\\] <https://grafana.com/blog/2023/03/03/how-to-optimize-resource-utilization-with-kubernetes-monitoring-for-grafana-cloud>\n\n\\[2\\] <https://www.microsoft.com/en-us/research/publication/an-empirical-study-on-low-gpu-utilization-of-deep-learning-jobs/>\n\n\\[3\\] <https://www.gartner.com/en/newsroom/press-releases/2026-1-15-gartner-says-worldwide-ai-spending-will-total-2-point-5-trillion-dollars-in-2026>",
+      "url": "https://www.ycombinator.com/launches/QCF-expanse-unlock-wasted-gpu-capacity",
+      "votes": 53,
+      "created_at": "2026-05-04T04:30:18.506Z"
+    }
+  ]
+}

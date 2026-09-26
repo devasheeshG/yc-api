@@ -1,0 +1,107 @@
+{
+  "id": 29569,
+  "name": "Miru",
+  "slug": "miru-ml",
+  "former_names": [
+    "Continuous AI",
+    "Miru ML",
+    "Miru",
+    "Miru ML"
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/5f8c54103232ce6ad4a91f33685eeaecbcd4d224.png",
+  "website": "https://www.mirurobotics.com",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "Miru makes it easy for robotics teams to manage, version, and deploy robot configurations. Developers use our well-documented APIs and UI components to automate configuration updates for both engineers and operators.\r\n\r\nIn the long term, we're building software infrastructure to accelerate the automation of the physical world.",
+  "one_liner": "Config Management for Robotics",
+  "team_size": 3,
+  "industry": "B2B",
+  "subindustry": "B2B -> Infrastructure",
+  "launched_at": 1722117145,
+  "tags": [
+    "Developer Tools",
+    "Robotics",
+    "DevOps"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Summer 2024",
+  "status": "Active",
+  "industries": [
+    "B2B",
+    "Infrastructure"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/miru-ml",
+  "api": "https://devasheeshg.github.io/yc-api/batches/summer-2024/miru-ml.json",
+  "year_founded": 2024,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/miruml",
+  "x_url": "https://x.com/mirurobotics",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": "https://github.com/miruml",
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/5f8c54103232ce6ad4a91f33685eeaecbcd4d224.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Aaron Epstein",
+    "url": "https://www.ycombinator.com/people/aaron-epstein"
+  },
+  "founders": [
+    {
+      "user_id": 620575,
+      "full_name": "Armel Talla",
+      "title": "Founder/CEO",
+      "founder_bio": "Armel is the Co-Founder and CEO of Miru.\n\nHe graduated from UT Austin with a B.S. in Computer Science and Mathematics. He previously founded Clips AI, an AI video dev tool that automatically repurposes long videos into clips. During college, Armel interned at Google and YouTube, focusing on building internal tools.",
+      "is_active": true,
+      "linkedin_url": "https://linkedin.com/in/armeltalla",
+      "x_url": "https://twitter.com/armelwtalla",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/40ee8e8adf3b9d90905f829608ed5f600d2b079b.jpg"
+    },
+    {
+      "user_id": 1035647,
+      "full_name": "Vedant Nair",
+      "title": "Founder",
+      "founder_bio": "Vedant is the Co-Founder and COO of Miru.\n\nHe graduated from UT Austin, where he studied Business and Computer Science. He previously founded Clips AI, an AI video developer tool that automatically repurposed long videos into clips. During college, he interned at Bain & Co. and EY-Parthenon, doing GTM consulting for software companies.",
+      "is_active": true,
+      "linkedin_url": "https://linkedin.com/in/vedantnair",
+      "x_url": "https://x.com/vedantnair__",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/2bf4c979b9371b48d25473b333207ae536ec3e6b.jpg"
+    },
+    {
+      "user_id": 1521401,
+      "full_name": "Benjamin Smidt",
+      "title": "Founder/CTO",
+      "founder_bio": "Ben is the Co-Founder and CTO of Miru. \n\nHe holds a B.S. in Electrical and Computer Engineering from UT Austin, where he initially spent two years studying Mechanical Engineering, igniting his passion for hardware and robotics. Prior to Miru, Ben founded Clips AI, where he developed production-ready AI models and video processing servers using Kubernetes.",
+      "is_active": true,
+      "linkedin_url": "https://linkedin.com/in/benjamin-smidt",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/dd7148f07187d171dea5d0364ead07b775dc74f5.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 82564,
+      "title": "Miru - Deployment infrastructure for Robotics and IoT 🦾",
+      "tagline": "Deploy software updates over the air to fleets of devices",
+      "body": "**tl;dr:** Miru helps robotics and IoT teams painlessly deploy software over the air, provision devices, and manage versioning for their fleets.\n\nFor engineers using Miru, _updating software on thousands of devices is as easy as pushing a change to GitHub._\n\n**Our Ask:** Engineers in robotics and IoT, [get started with Miru today!](https://www.miruml.com/)\n\n![uploaded image](/media/?type=post&id=82564&key=user_uploads/1035647/c64f81c9-695b-472e-bab9-5687c4eef19f)\n\n**❌ The Problem**\n\nRobotics and IoT companies don’t have robust, off-the-shelf DevOps tools.\n\nAs a result, to deploy their software, they’re forced to manually SSH/SCP into their devices or build a hacky solution internally.\n\n**But building this infrastructure is costly.** These companies often need to dedicate more than half of their software team to build and maintain their custom internal tools. This balloons engineering costs and decreases product velocity.\n\nIt’s one of the reasons **why many of these companies die.**\n\n**🦾 Miru**\n\nMiru helps engineers build and maintain their deployment pipelines, saving them months of work.\n\nWith Miru, you can:\n\n1. Push changes to GitHub, and let Miru handle building, staging, and deploying your software to your devices across the world\n2. Manage devices and track software versioning on a centralized dashboard\n3. Enjoy obsessive, fast, 24/7 customer support 🫡\n\n**Installation is easy.** If your device already uses Ubuntu, the Miru installation is just one command **🪄**\n\nMiru users have an unfair advantage. They enjoy reliable, scalable, and secure deployments _without all the pain of building it themselves_.\\\n\\\n<https://youtu.be/N0N6R5Gtjx4?si=2P6385myxlbDnB2j>\n\n🧍🏼🧍🏿🧍🏾 **About Us**\n\nHi 👋🏾 - we’re [Vedant](https://linkedin.com/in/vedantnair), [Armel](https://linkedin.com/in/armeltalla), and [Ben](https://linkedin.com/in/benjamin-smidt)!\n\n![uploaded image](/media/?type=post&id=82564&key=user_uploads/1035647/a48e7554-cf3c-493b-b5c7-d8aa5a03eb84)\n\nAfter meeting at our freshman dorm at UT Austin, we instantly clicked and became best friends. Whether we were playing intramural basketball or scaling our previous startup, [Clips AI](https://www.clipsai.com/), to 7000 MAUs in just three months, we've proven we make an exceptional team.\n\nOutside of Clips AI, Armel worked as a software engineer at Google and YouTube, focusing on building internal tools and infrastructure. Vedant brings experience in software GTM consulting from Bain & Co. and EY-Parthenon. Ben, our hardware fanatic, has a background in mechanical and electrical engineering, and he’s built production-ready AI and video processing infrastructure using Kubernetes.\n\nWe’re passionate about a future where robots can free humans from doing the dull, dirty, and dangerous tasks that dominate billions of people’s lives. We founded Miru to provide the infrastructure to accelerate this transition.\n\nWe’re obsessed with solving this problem. If you’re a software engineer in robotics or IoT who is struggling with deployment, we’d LOVE to make your life easier.\n\nJust reach out at \\[vedant\\] @ miruml \\[dot\\] com, or better yet, [start using Miru today](https://www.miruml.com/)",
+      "url": "https://www.ycombinator.com/launches/LTg-miru-deployment-infrastructure-for-robotics-and-iot",
+      "votes": 235,
+      "created_at": "2024-07-30T16:20:31.446Z"
+    }
+  ]
+}

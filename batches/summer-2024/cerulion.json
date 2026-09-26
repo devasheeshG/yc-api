@@ -1,0 +1,108 @@
+{
+  "id": 29781,
+  "name": "Cerulion",
+  "slug": "cerulion",
+  "former_names": [
+    "RenardOS"
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/336383ad58869871ce591b4e1b31dd374319435c.png",
+  "website": "https://www.cerulion.com",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "Cerulion is an open source operating system for robots built by 2 MIT robotics PhDs. Engineers at Amazon Robotics and Boston Dynamics AI Institute are using us to develop faster and ship more reliable robots than with ROS. With up to 1000x improvements in communications performance over state of the art, Cerulion is enabling the next generation of embodied AI.",
+  "one_liner": "Open source operating system for robots",
+  "team_size": 2,
+  "industry": "B2B",
+  "subindustry": "B2B -> Engineering, Product and Design",
+  "launched_at": 1720480188,
+  "tags": [],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": true,
+  "nonprofit": false,
+  "batch": "Summer 2024",
+  "status": "Active",
+  "industries": [
+    "B2B",
+    "Engineering, Product and Design"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/cerulion",
+  "api": "https://devasheeshg.github.io/yc-api/batches/summer-2024/cerulion.json",
+  "year_founded": 2024,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/cerulion",
+  "x_url": "https://x.com/CerulionInc",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/336383ad58869871ce591b4e1b31dd374319435c.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [
+    "https://bookface-images.s3.us-west-2.amazonaws.com/attachments/e451875fc867daa085cae77dc18c5b1caaed125f.png"
+  ],
+  "primary_partner": {
+    "name": "Diana Hu",
+    "url": "https://www.ycombinator.com/people/diana-hu"
+  },
+  "founders": [
+    {
+      "user_id": 1938980,
+      "full_name": "Lakshay Sharma",
+      "title": "Founder/CEO",
+      "founder_bio": "Lakshay is the cofounder/CEO of robotics middleware startup Cerulion. Prior to this, he studied computer engineering, astrophysics and robotics at the University of Pennsylvania, and researched robot motion planners at MIT.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/lakshay2010sharma/",
+      "x_url": "https://x.com/_lakshays_",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/ff9b45b0153f1674c489e44fd43563ce4e4baf51.jpg"
+    }
+  ],
+  "jobs": [
+    {
+      "id": 72837,
+      "title": "Founding Middleware Lead",
+      "url": "https://www.ycombinator.com/companies/cerulion/jobs/C21ngNY-founding-middleware-lead",
+      "location": "Mountain View, CA, US / Boston, MA, US",
+      "type": "Full-time",
+      "role": "Engineering",
+      "role_type": "Robotics",
+      "salary_range": "$145K - $180K",
+      "equity_range": "",
+      "experience": "3+ years",
+      "visa": "Will sponsor",
+      "skills": [
+        "Bash/Shell",
+        "C++",
+        "Git",
+        "Rust"
+      ]
+    }
+  ],
+  "news": [
+    {
+      "title": "Predicting AI’s future from Y Combinator’s new startup cohort - PitchBook",
+      "url": "https://pitchbook.com/news/articles/y-combinator-demo-day-ai-startups-analysis",
+      "date": "Sep 25, 2024"
+    }
+  ],
+  "launches": [
+    {
+      "id": 83665,
+      "title": "Cerulion 🤖 Fast, reliable, cross-platform robot middleware",
+      "tagline": "Cerulion enables lightning-fast, rock-solid communications for safe robots with an easy, cross-platform GUI.",
+      "body": "Robots are expensive and hard to develop/debug. [Cerulion](https://www.cerulion.com/) solves the robot tooling problem to cut down development times by up to 10x.\n\n# The Problem\n\nThe incredibly high capital costs required for robotics, combined with the inherently non-deterministic nature of embodied intelligence, result in an unpredictable system where even attempts, let alone failures, are cost-prohibitive.\n\n**Robots are expensive and hard.**\n\nAnd yet, despite time on hardware being such a precious resource, roboticists today are absolutely wasting 90% of it fighting against unoptimized tooling. Some common complaints are:\n\n* Needlessly complex to install, maintain, and document\n* Incredibly steep learning curve for non-transferable skills\n* Poor observability into a robot's belief\n* Artificial non-determinism induced by slow or unreliable message-passing\n* Unreliable network protocols and IPCs\n* System breakdown due to poor inter-robot communication\n* Unreliable logging and cumbersome/nondeterministic log replay\n* Wasting precious field time parsing 1000s of lines of runtime errors whooshing past the screen\n\nAnd the list goes on and on.\n\n**Robot tooling today is broken. Unacceptably so.**\n\n# Our Solution: Performance never looked this good!\n\n![uploaded image](/media/?type=post&id=83665&key=user_uploads/1938980/f6733a7c-7d31-4bf8-9198-d19e786c5650)\n\n* **Packaged as an app, rather than a CLI tool:** Instead of shipping as a bunch of CLI tools to be installed, patched, and reinstalled, Cerulion is an app you can download on Windows, Mac, or Linux. It will smartly detect and handle any dependencies as needed.\n* **Intuitive, cross-platform visualizer:** The sleek, easy-to-use GUI is the main way of communicating with your robot in the field, which means you can run it with minimal resources on your favorite long-lasting laptop with any OS, instead of **_that_** RGB laptop with a gaming GPU running Linux.\n* **Minimal boilerplate and setup:** The way you program robots in Cerulion is designed to get out of your way, so you can focus on the planner and perception algorithms instead of worrying about the inter-process comms, IP addresses, or network routes.\n* **Fast and reliable communication:** We leverage cutting-edge Rust-based networking and IPC stacks like [Zenoh](https://github.com/eclipse-zenoh/zenoh) and [IceOryx2](https://github.com/eclipse-iceoryx/iceoryx2), along with tried and tested C++ alternatives like [LCM](https://github.com/lcm-proj/lcm) and [IceOryx](https://github.com/eclipse-iceoryx/iceoryx). By ensuring communications don't fail silently and messages are delivered when expected, Cerulion eliminates nasty surprises in safety-critical scenarios.\n\n# Meet The Team\n\n![uploaded image](/media/?type=post&id=83665&key=user_uploads/1938980/62663160-4581-4de2-abb8-0bbb86179aa1)\n\nAs robotics PhD students at MIT, [Lakshay](https://www.linkedin.com/in/lakshay2010sharma/) and [Se Hwan](https://www.linkedin.com/in/sehwan-jeon/) have gathered years of experience (and frustration) working on robots, and want to see a world where you can take robot reliability for granted.\n\n# Our Ask\n\nHave experience with ROS or any other robot middleware? Did we miss something above that you really need? Send us a message at [founders@cerulion.com](mailto:founders@cerulion.com)!\n\nWe always love (and are happy to provide) warm intros to people working on robots and automation.\n\nAnd of course, if you need help with your robot system, or are curious about any of this, we're happy to chat!\n\nP.S. — Please star our [GitHub repo](https://github.com/cerulion-inc/cerulion)!",
+      "url": "https://www.ycombinator.com/launches/LlR-cerulion-fast-reliable-cross-platform-robot-middleware",
+      "votes": 26,
+      "created_at": "2024-09-02T15:47:55.198Z"
+    }
+  ]
+}

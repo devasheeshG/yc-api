@@ -1,0 +1,105 @@
+{
+  "id": 31345,
+  "name": "Replicas",
+  "slug": "replicas",
+  "former_names": [],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/45f1eda8aab66eabaa151ae4c6fdca3a6325a068.png",
+  "website": "https://replicas.dev",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "Replicas is a cloud coding agent that allows you to delegate tasks to Claude Code or Codex from the app, Slack, Linear, and more. Each task works inside of a sandboxed virtual machine, allowing teams to heavily parallelize work and burn through tickets.\r\n\r\nReplicas agents output higher quality PRs via feedback loops - each task automatically is notified and fixes CI failures and reads all code reviews. With Environments, engineering teams can configure agents to run their entire codebase locally, verify its work, and provide preview URLs.",
+  "one_liner": "Run any coding agent harness in the cloud",
+  "team_size": 2,
+  "industry": "B2B",
+  "subindustry": "B2B -> Engineering, Product and Design",
+  "launched_at": 1773355936,
+  "tags": [
+    "Developer Tools"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": true,
+  "nonprofit": false,
+  "batch": "Spring 2026",
+  "status": "Active",
+  "industries": [
+    "B2B",
+    "Engineering, Product and Design"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/replicas",
+  "api": "https://devasheeshg.github.io/yc-api/batches/spring-2026/replicas.json",
+  "year_founded": 2026,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/replicas/",
+  "x_url": "https://x.com/tryreplicas",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/45f1eda8aab66eabaa151ae4c6fdca3a6325a068.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Harj Taggar",
+    "url": "https://www.ycombinator.com/people/harj-taggar"
+  },
+  "founders": [
+    {
+      "user_id": 1688990,
+      "full_name": "Connor Loi",
+      "title": "Founder/CEO",
+      "founder_bio": "Building the best way to use background coding agents ;)\nprev helicone, td bank, and cohere :)",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/connor-loi/",
+      "x_url": "https://x.com/connortbot",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/210f1d94c31da97e75459a8f636111f867a16e8d.jpg"
+    },
+    {
+      "user_id": 2136272,
+      "full_name": "Saai Arora",
+      "title": "Founder/CTO",
+      "founder_bio": "CTO @replicas, Prev: General Context, Shopify, IBM and Autotrader\nCS Uwaterloo",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/saai-arora-2a94921b9/",
+      "x_url": "https://x.com/SaaiArora",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/8d1a3302b91e5db0f8c420e1d3fd7a81a76ef0bd.jpg"
+    }
+  ],
+  "jobs": [
+    {
+      "id": 92797,
+      "title": "Founding Engineer",
+      "url": "https://www.ycombinator.com/companies/replicas/jobs/1r7KcWj-founding-engineer",
+      "location": "San Francisco, CA, US",
+      "type": "Full-time",
+      "role": "Engineering",
+      "role_type": "Full stack",
+      "salary_range": "$150K - $250K",
+      "equity_range": "0.50% - 2.00%",
+      "experience": "Any (new grads ok)",
+      "visa": "Will sponsor",
+      "skills": []
+    }
+  ],
+  "news": [],
+  "launches": [
+    {
+      "id": 99287,
+      "title": "Replicas - End-to-End Background Coding Agents",
+      "tagline": "Background coding agents for engineering teams",
+      "body": "Hi there, I'm Connor from [Replicas](https://replicas.dev/) :)\n\nRecently, you might have seen Stripe and Ramp release blogs outlining their in-house background coding agents. This showed us that background agents, with the proper tooling, can be relied on to ship critical production code.\n\nReplicas is a background coding agent that can run your codebase locally.\n\nWe’re used by 20+ YC startups at all team sizes.\n\n![uploaded image](/media/?type=post&id=99287&key=user_uploads/1688990/b35f4253-6fd0-478b-a04f-26f73a18b625)\n\n**The Problem**\n\nBackground coding agents are a huge productivity boost for clearing tickets and shipping faster.\n\nThe existing solutions - CC/Codex on Cloud, Cursor Agents - lock you into one harness and give you **no control over the environment**.\n\nThis defeats the entire point of \"background\" agents. A powerful background agent should run everything locally, verify its work, and iterate until it's satisfied.\n\n**How Replicas Works**\n\n**Replicas** helps you delegate to as many background agents as you need:\n\n\\- Bring your own Claude/Codex credentials\n\n\\- Each agent gets a sandbox VM with your code cloned\n\n\\- The agent installs deps, spins up databases, runs services, and verifies its work locally\n\n\\- When it's done, it opens a PR for you to review\n\n![uploaded image](/media/?type=post&id=99287&key=user_uploads/1688990/e20b6968-523d-4376-a05c-ba175cc61611)\n\nReplicas can be triggered from Slack, Linear, GitHub (PR reviews, CI/CD failures), the Dashboard, or API.\n\nThe biggest difference is **Environments**. You can configure the following:\n\n\\- Files\n\n\\- Env vars\n\n\\- Start hooks\n\n\\- Warm hooks\n\n\\- Skills/MCPs\n\nIt's built so that its flexible to any kind of codebase, allowing Replicas to run everything locally just like a human engineer would.\n\n![uploaded image](/media/?type=post&id=99287&key=user_uploads/1688990/df185d7b-b90e-455f-9ff7-10dcefcfd8c7)\n\nReplicas can also create **Previews**:\n\n![uploaded image](/media/?type=post&id=99287&key=user_uploads/1688990/7be01ba9-b653-43f2-975d-234002802e15)\n\nMeaning you can check out services (e.g web app on `3000`) running on the sandbox's VM from your computer with just a click :)\n\nCheck out this writeup for Replicas V1 for more details:\n\n<https://www.replicas.dev/notes/replicas-v1>\n\n**Demo Video**\n\n<https://youtube.com/watch?v=uyH77T-pcXc>\n\n**What's Next**\n\n\\- **Automations + API**: Improving our API and adding an automations menu, e.g having Replicas run every night.\n\n\\- **Recursive**: Replicas can break down super complex tasks by creating more Replicas instances.\n\n\\- **Lowering Latency**: For larger teams, improving our warm pool and snapshotting infrastructure to make spinning up Replicas feel _instant_ (more than it already does)\n\n\\- **Long-term Memory**\n\n\\- and what our customers ask for :p\n\n**What I'm asking from you**\n\n\\- Sign up (<https://replicas.dev>) or reach out ([connor@replicas.dev](mailto:connor@replicas.dev))\n\n\\- Check out \\[this writeup\\](<https://www.replicas.dev/notes/replicas-v1>) for Replicas V1\n\n\\- Upvote if this resonates with you!",
+      "url": "https://www.ycombinator.com/launches/PpP-replicas-end-to-end-background-coding-agents",
+      "votes": 87,
+      "created_at": "2026-04-01T17:38:42.126Z"
+    }
+  ]
+}

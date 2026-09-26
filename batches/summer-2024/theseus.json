@@ -1,0 +1,134 @@
+{
+  "id": 29589,
+  "name": "Theseus",
+  "slug": "theseus",
+  "former_names": [],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/05b004a38c0a5df5a4e151b258151cd9a38f08c8.png",
+  "website": "https://theseus.us",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "Theseus builds visual navigation software for GPS-denied drone operations. Using onboard cameras, inertial sensors, and satellite reference imagery, our system computes position fixes entirely passively. The system is entirely self contained, can't be jammed and has no RF signature.",
+  "one_liner": "GPS Denied Navigation for Drones",
+  "team_size": 7,
+  "industry": "Industrials",
+  "subindustry": "Industrials -> Drones",
+  "launched_at": 1725406335,
+  "tags": [
+    "Robotics",
+    "Drones",
+    "Defense"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": true,
+  "nonprofit": false,
+  "batch": "Summer 2024",
+  "status": "Active",
+  "industries": [
+    "Industrials",
+    "Drones"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/theseus",
+  "api": "https://devasheeshg.github.io/yc-api/batches/summer-2024/theseus.json",
+  "year_founded": 2024,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/theseustech/",
+  "x_url": "",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/05b004a38c0a5df5a4e151b258151cd9a38f08c8.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Aaron Epstein",
+    "url": "https://www.ycombinator.com/people/aaron-epstein"
+  },
+  "founders": [
+    {
+      "user_id": 1290514,
+      "full_name": "Ian Laffey",
+      "title": "Founder",
+      "founder_bio": "GPS-denied nav for drones",
+      "is_active": true,
+      "linkedin_url": "https://linkedin.com/in/ian-laffey-943200247",
+      "x_url": "https://twitter.com/ilaffey2",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/0dea34f6fa9fe3e815c86e9a875ee467ffc01ab0.jpg"
+    },
+    {
+      "user_id": 917795,
+      "full_name": "Sacha Lévy",
+      "title": "Founder",
+      "founder_bio": "Sacha Lévy is Co-Founder and Chief Technology Officer of Theseus Technology Corporation, where he develops visual navigation systems that enable drones to operate autonomously without GPS.\n\nBefore founding Theseus, he was a PhD student in Computer Science at Yale University, where his research applied large language models to biological data and was published in top machine learning conferences. He holds a B.Eng. in Computer Engineering from McGill University.",
+      "is_active": true,
+      "linkedin_url": "https://linkedin.com/in/sacha-levy",
+      "x_url": "https://x.com/sachalevy3",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/d81061c1de4f0c0f74d5e91ca8625a9b5c3d1446.jpg"
+    }
+  ],
+  "jobs": [
+    {
+      "id": 92386,
+      "title": "Robotics Software Engineer, Localization",
+      "url": "https://www.ycombinator.com/companies/theseus/jobs/yUlD33Z-robotics-software-engineer-localization",
+      "location": "San Francisco, CA, US / Remote (US)",
+      "type": "Full-time",
+      "role": "Engineering",
+      "role_type": "Robotics",
+      "salary_range": "$140K - $250K",
+      "equity_range": "0.10% - 0.50%",
+      "experience": "Any (new grads ok)",
+      "visa": "US citizen/visa only",
+      "skills": [
+        "C++",
+        "Python",
+        "Linux"
+      ]
+    },
+    {
+      "id": 92621,
+      "title": "Forward Deployed Software Engineer",
+      "url": "https://www.ycombinator.com/companies/theseus/jobs/NYFHBhe-forward-deployed-software-engineer",
+      "location": "San Francisco, CA, US",
+      "type": "Full-time",
+      "role": "Engineering",
+      "role_type": "Full stack",
+      "salary_range": "$80K - $120K",
+      "equity_range": "0.10% - 0.50%",
+      "experience": "Any (new grads ok)",
+      "visa": "US citizen/visa only",
+      "skills": [
+        "C++",
+        "Python"
+      ]
+    }
+  ],
+  "news": [
+    {
+      "title": "Defense tech Theseus landed Y Combinator, the US Special Forces, and $4.3M from a tweet | TechCrunch",
+      "url": "https://techcrunch.com/2025/04/17/defense-tech-theseus-landed-y-combinator-the-us-special-forces-and-4-3m-from-a-tweet/",
+      "date": "Apr 17, 2025"
+    }
+  ],
+  "launches": [
+    {
+      "id": 83768,
+      "title": "Theseus: GPS Denied Navigation for Drones",
+      "tagline": "Our Visual Navigation System is a replacement for GPS that works with any drone.",
+      "body": "![uploaded image](/media/?type=post&id=83768&key=user_uploads/1290514/a1856391-04dc-473d-92dd-9ad6c8a8cb95)\n\nSix months ago we did a hackathon, this month we sold to SOCOM. Our Visual Navigation System (VNS) uses cameras, an inertial measurement unit, and pre-loaded satellite imagery to determine it’s position and send a fake GPS signal to any drone. Integrations typically take <30min.\n\n### How It Started\n\n![uploaded image](/media/?type=post&id=83768&key=user_uploads/1290514/3f680d0f-91e3-4f9e-bf5f-212a076df8fa)\n\nIn February, [Carl](https://www.linkedin.com/in/carlscho) was a Senior at Stanford, [Sacha](https://linkedin.com/in/sacha-levy) was a PhD student at Yale, and [Ian](https://linkedin.com/in/ian-laffey-943200247) was working with a British celebrity. After our post went viral, we spent weeks talking with troops on the ground, drone manufacturers, and DoD.\n\nWe learned that:\n\n\\- The front lines of Ukraine are 100% GPS-denied\n\n\\- Cheap, DIY drones are extremely effective but typically rely on GPS\n\n\\- Existing GPS alternatives are extremely heavy and extremely expensive\n\nWe set out to create a low-cost, low-weight replacement for GPS that works with any drone.\n\n### How It’s Going\n\n![uploaded image](/media/?type=post&id=83768&key=user_uploads/1290514/edd612ed-a0d4-421d-afe4-36931183b93f)\n\nOur first customer in the Special Forces has enabled us to push our VNS to its limits, and the results have been impressive. Here are a few excerpts from a memorandum written by the Captain we work with:\n\n_“Having tested the Theseus’ VizNav system for a week, I am convinced that their technology presents the best solution for a current, and ever-expanding urgent operational need.”_\n\n![uploaded image](/media/?type=post&id=83768&key=user_uploads/1290514/edd4eb3e-a568-4519-84a8-de2020556437)\n\n_“As a company, Theseus has shown a willingness to seek the ground truth from the operator and make improvements based on these recommendations immediately. The progress they have made with limited funding gives me incredible confidence that they act quicker and more efficiently than any other vendors we have worked with.”_\n\n![uploaded image](/media/?type=post&id=83768&key=user_uploads/1290514/7fe82322-4001-49c7-b9ab-255c2a9174d6)\n\nDue to the sensitive nature of our product, technical details and customer-specific information in this post will be limited. We are happy to discuss results in more detail privately.\n\n### Going Forward\n\n![uploaded image](/media/?type=post&id=83768&key=user_uploads/1290514/5acb4bc0-1658-47f2-83ef-38d0dd6d3601)\n\nAmerica is way behind. The current demand for drones in Ukraine is 1-2 million yearly. Every country in the world sees this and is in the process of building out its arsenal. Our product affordably enables an entirely new capability set for every one of these platforms.\n\nWe have sold units to multiple customers, have six-figure LOIs from large drone manufacturers, integrations scheduled, and eight figures in funding for our VNS requested by the DoD for FY25.\n\nThe West needs to build millions of drones, and all of those drones need Theseus.\n\n![uploaded image](/media/?type=post&id=83768&key=user_uploads/1290514/3f997243-9cf5-4868-9a58-fda72313a613)\n\n",
+      "url": "https://www.ycombinator.com/launches/Ln6-theseus-gps-denied-navigation-for-drones",
+      "votes": 57,
+      "created_at": "2024-09-04T22:35:57.651Z"
+    }
+  ]
+}

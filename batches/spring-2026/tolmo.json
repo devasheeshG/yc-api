@@ -1,0 +1,96 @@
+{
+  "id": 31506,
+  "name": "Tolmo",
+  "slug": "tolmo",
+  "former_names": [
+    "Droid Factory"
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/8b1fe60a254c3f83e0d218298337418aad753714.png",
+  "website": "https://www.tolmo.com",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "Tolmo is an agent-driven security platform that secures every layer — code, CI, cloud applications at the speed of AI changes.\r\n\r\nCodebases are growing faster than ever, at a rate humans can’t keep up with. Tolmo deploys fleets of AI security agents on a live production knowledge graph that connects data from cloud services, containers, databases, and third-party providers (Observability, Security, etc.).\r\n\r\nTolmo agents triage, verify impact, and remediate security issues autonomously, escalating to humans only when truly necessary.",
+  "one_liner": "Tolmo is the AI security platform that secures every layer of cloud…",
+  "team_size": 12,
+  "industry": "B2B",
+  "subindustry": "B2B -> Security",
+  "launched_at": 1781726326,
+  "tags": [
+    "DevSecOps",
+    "Security",
+    "AI"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Spring 2026",
+  "status": "Active",
+  "industries": [
+    "B2B",
+    "Security"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada",
+    "Remote",
+    "Partly Remote"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/tolmo",
+  "api": "https://devasheeshg.github.io/yc-api/batches/spring-2026/tolmo.json",
+  "year_founded": 2026,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/tolmohq/",
+  "x_url": "https://x.com/tolmhq",
+  "fb_url": null,
+  "cb_url": "https://www.crunchbase.com/organization/tolmo",
+  "github_url": "https://github.com/tolmohq",
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/8b1fe60a254c3f83e0d218298337418aad753714.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Nicolas Dessaigne",
+    "url": "https://www.ycombinator.com/people/nicolas-dessaigne"
+  },
+  "founders": [
+    {
+      "user_id": 207041,
+      "full_name": "Pierre Betouin",
+      "title": "Founder/CEO",
+      "founder_bio": "Pierre was leading security products at Datadog following the acquisition of Sqreen (W18) - a cybersecurity company providing a comprehensive security monitoring for cloud and web apps protecting over 800 customers in production.\n\nPierre previously spent 9 years at Apple, where he led the team in charge of security assessments for the Internet Services department, hacking products and designing protection.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/pbetouin/",
+      "x_url": "https://twitter.com/pbetouin",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/d773913accb3577e364f48d8247e9689aceedade.jpg"
+    },
+    {
+      "user_id": 3476457,
+      "full_name": "Vladimir de Turckheim",
+      "title": "Founder",
+      "founder_bio": "Vladimir (Vlad) was a Staff Engineer working on security products at Datadog. He joined following the acquisition of Sqreen (W18) where he was employee #4 in charge of Node.js instrumentation. He was a Node.js core collaborator for five years and has setup the whole Node.js security program.\n\nHe is also the founder of Heal.dev.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/vladimirdeturckheim/",
+      "x_url": "https://x.com/poledesfetes",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/25d9ce09a2a3f07ad97a622bed9a661b3710e706.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 103900,
+      "title": "Tolmo: Secure your software shipped at Claude Code pace",
+      "tagline": "Tolmo is your always-on fleet of security agents",
+      "body": "Hi everyone! I'm Vlad, co-founder of **Tolmo**, along with Jean-Baptiste Aviat, Pierre Betouin, and Arnaud Breton.\n\n![uploaded image](/media/?type=post&id=103900&key=user_uploads/3476457/8df11a35-45e9-4f77-95d6-0c8bede1dc1a)\n\n\n**Tolmo is an agent-native security platform.** We deploy fleets of AI security agents that continuously identify, triage, and remediate security issues across every layer: code, CI, cloud, and even spec documents. All of that at the speed AI ships software.\n\n<https://www.youtube.com/watch?v=nrOoCl0XRS8>\n\n**Why now?** Production environments are growing faster than humans can review and secure them: 200+ PRs/engineer/week is no longer an outlier. The old security playbook (manual review, ticket queues, alert triage) is fundamentally broken at that pace. At the same time, attackers are using AI agents to break into systems faster than ever, and offensive tooling is being created faster than defensive tooling. Attacking infrastructure has never been cheaper or easier.\n\n**How it works:** Our agents reason over a live production knowledge graph connecting your cloud services, containers, databases, and third-party providers. They identify, triage, and remediate autonomously. Escalating to a human only when truly necessary.\n\n**Who we are:** We're the team behind Datadog's security products and Sqreen (YC W18). We secured thousands of organizations at Datadog, and we've seen firsthand that existing solutions won't keep up with the security challenges introduced by coding agents.\n\n**Join the waitlist: [https://app.tolmo.com/waitlist](https://app.tolmo.com/waitlist)**",
+      "url": "https://www.ycombinator.com/launches/R1o-tolmo-secure-your-software-shipped-at-claude-code-pace",
+      "votes": 7,
+      "created_at": "2026-06-24T15:45:04.646Z"
+    }
+  ]
+}

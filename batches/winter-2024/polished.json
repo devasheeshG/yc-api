@@ -1,0 +1,116 @@
+{
+  "id": 29332,
+  "name": "Polished",
+  "slug": "polished",
+  "former_names": [
+    "Double",
+    "Pillar"
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/b6b130da6813f93f556cf04be9132b6ba506b4fc.png",
+  "website": "https://polished.ad",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "With Polished, you create finished ads (video or static) in minutes.\r\nThen you refine it in plain English, until it's exactly what you had in mind.",
+  "one_liner": "Generate ads. Iterate till perfect.",
+  "team_size": null,
+  "industry": "B2B",
+  "subindustry": "B2B -> Engineering, Product and Design",
+  "launched_at": 1701750687,
+  "tags": [
+    "Artificial Intelligence",
+    "Developer Tools",
+    "SaaS",
+    "B2B",
+    "Advertising"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Winter 2024",
+  "status": "Active",
+  "industries": [
+    "B2B",
+    "Engineering, Product and Design"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada",
+    "Remote",
+    "Partly Remote"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/polished",
+  "api": "https://devasheeshg.github.io/yc-api/batches/winter-2024/polished.json",
+  "year_founded": 2025,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "",
+  "x_url": "https://x.com/polishedads",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/b6b130da6813f93f556cf04be9132b6ba506b4fc.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [
+    "https://bookface-images.s3.us-west-2.amazonaws.com/attachments/a39acd1ac711d9cf14686bc12badc6db5739ba99.png"
+  ],
+  "primary_partner": {
+    "name": "Garry Tan",
+    "url": "https://www.ycombinator.com/people/garry-tan"
+  },
+  "founders": [
+    {
+      "user_id": 1289064,
+      "full_name": "JJ Maxwell",
+      "title": "Founder",
+      "founder_bio": "Building Polished. \n\nFormer CEO @ Double Finance, CTO of Liftoff Influence, co-founder of Jetfuel (acquired by Liftoff 2021), Facebook Messenger",
+      "is_active": true,
+      "linkedin_url": "https://linkedin.com/in/jj-maxwell-753b5026",
+      "x_url": "https://x.com/jjmaxwell4",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/b9d48456a5e2f3dd1d30067874a3fc409beeee5e.jpg"
+    },
+    {
+      "user_id": 376672,
+      "full_name": "Mark Wai",
+      "title": "Founder",
+      "founder_bio": "Building Polished\n\nPreviously Growth @ Tesla, Facebook",
+      "is_active": true,
+      "linkedin_url": "https://linkedin.com/in/markwai",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/e7835121f75384f2b6a95aa37523c3607b9931ae.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [
+    {
+      "title": "Direct indexing platform Double Finance raises $3.9M seed",
+      "url": "https://www.axios.com/pro/fintech-deals/2024/12/10/direct-indexing-platform-double-finance-raises-seed",
+      "date": "Dec 10, 2024"
+    }
+  ],
+  "launches": [
+    {
+      "id": 97986,
+      "title": "Pillar - Your app's copilot",
+      "tagline": "An open source copilot that turns user requests into completed actions, right inside your app.",
+      "body": "Hey everyone! We’re JJ and Mark, cofounders of [Pillar](https://trypillar.com) 👋\n\n**TL;DR: Pillar is an embedded AI copilot that executes tasks inside your product for users and agents.**\n\nUsers or agents can type what they want. The copilot carries it out **client-side in the browser**, using the user’s existing session, permissions, and security checks. You install the SDK via npm and register your existing frontend code as tools.\n\nExample: in a banking app, a user types _“send $200 to my cleaners.”_ Pillar finds the right recipient, navigates to the transfer flow, and pre-fills the form. The user still reviews and confirms. If your app requires 2FA for that acion, so does the copilot.\n\nDemo: <https://www.youtube.com/watch?v=ruNJ5OFuKsI>\n\n# The Problem\n\nTeams ship faster than ever. But when your changelog is 10x longer than it used to be, users can’t keep up.\n\n* **Discoverability breaks down:** the UI changes, features move, and people forget where things live.\n* **Friction turns into “support”:** users open tickets that aren’t really support tickets. The user wanted to do something your product already supported but couldn’t get there.\n* **Most products don’t have an “action layer”:** AI agents are starting to use web apps the same way users do: navigate, click, fill forms. Products need to prepare for this\n\n**Bottom line:** products need a reliable, permissioned way to execute actions end-to-end - not just document them.\n\n# How Pillar Works\n\nPillar turns a user request into action by combining planning with **in-browser execution**.\n\n1. **Plan:** Pillar determines which steps/tools to run\n2. **Execute:** your app runs those tools in the browser (navigation, API calls, state updates, form fills)\n3. **Confirm:** the user stays in control for sensitive actions.\n\nYou register tools inside your existing React components:\n\n![uploaded image](/media/?type=post&id=97986&key=user_uploads/376672/a918639c-e2a9-405b-9e4d-2f54acac8af0)\n\nWhat happens at runtime when a user types _“send $200 to my cleaners”_:\n\n* Pillar calls **search_recipients** with “cleaners”\n* Selects the right match\n* Calls **prefill_transfer** with the recipient + amount\n* User reviews and confirms in the existing flow\n\nBecause execution happens in the browser, tools run with the current user’s permissions and session. **Pillar can’t do anything the user can’t do.**\n\nPillar syncs with your help content (Zendesk, Intercom, Notion, Confluence, internal docs) so requests map to the right tools/flows. When it picks the wrong path, you flag it and the correction is captured so the same issue is less likely to repeat.\n\nSDKs are available for React and vanilla JavaScript. Registered tools can also be reused by other copilots/agents via WebMCP (navigator.modelContext).\n\n# Try It\n\nInstall: [trypillar.com](http://trypillar.com)\n\nWe also have live demos you can try right now - Pillar installed on open-source products:\n\n* Grafana ([trypillar.com/demos/grafana](https://trypillar.com/demos/grafana)): you can have Pillar build you a monitoring dashboard and set up alerts\n* Apache Superset ([trypillar.com/demos/superset](https://trypillar.com/demos/superset)): you can explore the names dataset and build a dashboard\n\n👉 Want help getting live? Reach out at [founders@trypillar.com](https://mailto:founders@trypillar.com)\n\n# Our Ask\n\n* If you lead product/engineering and users open tickets for things your product already does, we’d love to talk: [founders@trypillar.com](mailto:founders@trypillar.com)\n* If you know someone who fits that (founders, VP Product, Head of Support), intros are appreciated\n* Share this post. Follow us on LinkedIn and X.\n\n# Backstory\n\nWe built Pillar to solve our own problem. At our last company (Double Finance), we saw a pattern: users asked for outcomes we already supported, but still opened support tickets. We wanted a way to reuse the frontend code we’d already shipped, without rebuilding flows or adding new “automation” surfaces.\n\n_Pillar is what we wish we had._\n\n![uploaded image](/media/?type=post&id=97986&key=user_uploads/376672/597895ee-5fab-49bb-b55e-cabb1f3f6ff2)\n\n",
+      "url": "https://www.ycombinator.com/launches/PUQ-pillar-your-app-s-copilot",
+      "votes": 11,
+      "created_at": "2026-02-19T20:32:35.986Z"
+    },
+    {
+      "id": 82801,
+      "title": "Double - Design your own stock index",
+      "tagline": "Double automates your investments with zero AUM fees.",
+      "body": "![uploaded image](/media/?type=post&id=82801&key=user_uploads/1289064/c2a6166e-82a3-419a-9800-0648a58901ea)\n\n**TL; DR** — Design and invest in your own stock index that’s advised, managed, and tax-optimized by [Double](https://double.finance/).\n\nHistorically, access to sophisticated finance tools like direct indexing and tax loss harvesting has come at a steep cost and only through exclusive financial advisors. We are on a mission to revolutionize investing by providing world-class portfolio tools to everyday investors without any AUM fees. \n\n# Key Features\n\n* **Direct Index into 20+ ETFs:** Build an elite portfolio with the ability to tilt towards specific sectors, industries, themes, or even custom groupings like all YC publicly listed companies.\n* **Daily Tax Optimization, Rebalancing & Potential Tax Loss Harvesting**: Our optimization engine keeps your portfolio on track by factoring in drift, taxes and transaction costs. If your account qualifies, our tax-loss harvesting service aims to help you minimize your tax liability and maximize your after-tax returns.\n* **Dollar-cost averaging:** We allow users to move between positions at a set cadence, regardless of the market's performance, helping you reduce timing risks associated with active trading.\n\n# Example Use Cases\n\nWork for AAPL and want to diversify away from tech?\n\n* Buy a direct-indexed [S&P 500 Portfolio](https://app.double.finance/public/explore/3), remove AAPL entirely, and cut the rest of your tech exposure in half.\n\nDid you know AI was going to be a big deal before everyone else?\n\n* Double makes it easy to tilt your portfolio towards your hunches. Pick a handful of stocks set to benefit from the Inflation Reduction Act, or some that target the booming AI and semiconductor industry, or shift your portfolio towards the explosive meme growth of Zyn.\n\nFeeling confident in the overall market and ready to pile on the risk?\n\n* Follow [Hedgefundie’s Adventure](https://app.double.finance/explore/110), which uses 3x leverage in a Stock and Bond ETF to try and increase returns. Or pick from our smart screens that target top growing companies or even a basket of the [YC Public Companies](https://app.double.finance/public/explore/140).\n\nThink we’re headed for a recession and want to take some chips off the table? \n\n* You can invest in a version of [Ray Dalio’s All Weather Portfolio](https://app.double.finance/public/explore/108) comprising 5 ETFs or [John Bogles Majesty of Simplicity](https://app.double.finance/public/explore/105) and migrate between these Strategies and Bonds over time.\n\nBuild and backtest your own stock index!\n\n* Use our Stock and ETF Screeners to build your very own personalized portfolio.\n\n#### Fees\n\nDouble doesn’t charge AUM fees. Financial Advisors often charge around 1% a year for tools like Direct Indexing and Dollar Cost Averaging. In a sample $1M portfolio, these fees lead to a dollar cost of $1,800,000 or a 24.5% overall reduction in performance over 30 years, assuming 6% growth vs. 7% growth. We aim to eventually make money like the commission-free trading pioneers. Our custodian Apex Clearing charges some fees which we pass on to users which you can see [here](https://help.double.finance/en/articles/9450171-service-provider-fees). \n\n#### Additional Features\n\n* Backtest a custom stock grouping to see its historic performance.\n* Cash sweep available: Earn 4.5% interest on your uninvested cash (as of August 5th, 2024, not a guarantee of future rates)\n* Fractional investing: Invest in over 3,000 US stocks and 1,400 ETFs for as little as $5 per share.\n* Support for Personal, Joint, and Trust Accounts\n* Daily portfolio optimization and trade execution\n* Recurring or one-time deposits via ACH or Wire\n* ACAT Transfer in an existing brokerage account\n\n#### Get Started Today\n\nWe’re live at <https://double.finance>. Sign up for a Double account today and start building your own stock index. Please reach out to [founders@double.finance](mailto:founders@double.finance) with any feedback or questions!\n\n![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXctLsEGUWaE1ScP7EqAuz0sPPYQDg7Vt1Zlpn5Cx-sfubv0nJvIZertGsNS0zPWoWzzJSw-orkpmSTzIFepxiDziCKdJN6sMXMAS1GSYwcTfiyY3ZqlIA_db-gZX4rHTji2-dZPfMWgdz-qmvb7whdOackQ?key=nGDLEdHNSqYCi809_9DeNQ)\n\n",
+      "url": "https://www.ycombinator.com/launches/LXV-double-design-your-own-stock-index",
+      "votes": 58,
+      "created_at": "2024-08-07T00:27:48.572Z"
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "id": 32133,
+  "name": "Belvedir",
+  "slug": "belvedir",
+  "former_names": [
+    "Fractal",
+    "Fractal Research",
+    "Fractal Machine Research",
+    "Belvedir",
+    "Fractal Machine Research"
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/823732d3a67703ee105bf266f45c3e43c175ef96.png",
+  "website": "https://belvedir.ai/",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "Belvedir makes it cheap and easy for anyone to make custom AI models. We autonomously collect your data via trace SDK / app MCP / CUA agents and autonomously train custom models + harnesses + routers, privately deploy them, and recursively improve them as they are used. \r\n\r\nOur customers have seen 10x reductions in inference costs and 2x increases on benchmark scores.\r\n\r\nCustom AI models are going to win. Belvedir is the infrastructure needed to make trillions of them.",
+  "one_liner": "The custom AI model factory.",
+  "team_size": 1,
+  "industry": "B2B",
+  "subindustry": "B2B",
+  "launched_at": 1784319754,
+  "tags": [
+    "Machine Learning",
+    "AI"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Summer 2026",
+  "status": "Active",
+  "industries": [
+    "B2B"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/belvedir",
+  "api": "https://devasheeshg.github.io/yc-api/batches/summer-2026/belvedir.json",
+  "year_founded": 2026,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/belvedir/",
+  "x_url": "https://x.com/belvedir_ai",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/823732d3a67703ee105bf266f45c3e43c175ef96.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Harshita Arora",
+    "url": "https://www.ycombinator.com/people/harshita-arora"
+  },
+  "founders": [
+    {
+      "user_id": 2576778,
+      "full_name": "Zachary Yu",
+      "title": "Founder/CEO",
+      "founder_bio": "Founder at Belvedir.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/zacharyyu/",
+      "x_url": "https://x.com/thezacharyyu",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/cdfdf5e0aa8f760e0a5a920eaa5ad0f3b215ab37.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 109999,
+      "title": "Belvedir: Making private AI models cheap and easy so the world can have trillions of them",
+      "tagline": "Make a custom AI model that’s 10x cheaper and 2x better with less than 5 mins of set up",
+      "body": "Hey, I’m[ ](https://bookface.ycombinator.com/user/2576778)Zachary Yu, the founder of [Belvedir](https://belvedir.ai/). It’s nice to meet you!\n\n**TD;LR:** \n\nPrivate AI models are cheaper, better, faster, and protect your data. But right now they’re only used by big companies since they’re really difficult and expensive to make. Belvedir makes private AI models autonomously with less than 5 minutes of set up. By making it cheap and easy to make models, we hope people use Belvedir to create trillions of them.\n\nRight now, we’re live with 10 companies who are seeing up to 10x lower inference costs and 2x improved performance on benchmarks. \n\n<https://youtu.be/MXMfsqLFr3g> \n\n**How it works:**\n\n1. Get an API key from [Belvedir ](https://belvedir.ai/)and install our SDK\n2. Belvedir turns your traces and logs into organized training sets and RL environments\n3. We autonomously train models from your data and optimize harnesses on top of these models\n4. We make and run benchmarks on these new models and harnesses\n5. We deploy these models and give you an API key to access them through \n6. We give you a router that gradually send more traffic to your new model as it out performs your old one\n7. As you use the new model we collect more traces and logs\n8. The loop repeats\n\nYour data is only used for you. Your models are only accessible by you. We use LoRA and can charge by the token by hosting multiple adapters on one cluster (so no worries if you have spikey traffic). \n\n**About Me:**\n\nI’m Zachary Yu, the founder of [Belvedir](https://belvedir.ai/). Before this, I founded [Traverse](https://www.traverse.so/): a YC startup that sells RL environments to frontier labs, studied CS at UWaterloo, and made RL environments at Mercor.\n\n**Long Term Ambitions:**\n\nWe want to make private AI the default for every use case. Starting with startups / SMBs and then consumers. \n\nWe are bullish on a world where there are trillions of private AI models. We want to build the ecosystem where these models are made, hosted, and interact with each other.\n\n**Asks:**\n\n1. If you have a high inference bill, want better performance from your agent, or want to protect your data from frontier labs, **we can help you out**.\n2. We are looking to hire engineers who have worked on RL / optimization, model inference, training infra, or just have that dog in them\n\nContact us at [founders@fractalresearch.ai](mailto:founders@fractalresearch.ai) ",
+      "url": "https://www.ycombinator.com/launches/ScB-belvedir-making-private-ai-models-cheap-and-easy-so-the-world-can-have-trillions-of-them",
+      "votes": 64,
+      "created_at": "2026-08-11T22:00:00.240Z"
+    }
+  ]
+}

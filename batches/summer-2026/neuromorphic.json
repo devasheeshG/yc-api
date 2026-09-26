@@ -1,0 +1,104 @@
+{
+  "id": 32716,
+  "name": "Neuromorphic",
+  "slug": "neuromorphic",
+  "former_names": [],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/470f3b57cd018aad9c127e64e5b952d32a64d435.png",
+  "website": "https://www.neuromorphic.vision/",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "We are building robots that can work autonomously in existing wet labs. Unlike traditional lab automation, which requires dedicated equipment and fixed workflows, our robot moves between workstations, manipulates existing scientific equipment, transports lab materials, and executes experiments using the same lab infrastructure as a human technician. We make the robots easy to manage through natural interfaces like Slack, email, and phone. Our goal is to make deploying robots in wet labs as easy as onboarding a new employee, and to accelerate scientific research!",
+  "one_liner": "Building robots to automate wetlabs",
+  "team_size": 3,
+  "industry": "Industrials",
+  "subindustry": "Industrials -> Manufacturing and Robotics",
+  "launched_at": 1786056544,
+  "tags": [
+    "Artificial Intelligence",
+    "Hard Tech",
+    "Robotics",
+    "B2B",
+    "Biotech"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Summer 2026",
+  "status": "Active",
+  "industries": [
+    "Industrials",
+    "Manufacturing and Robotics"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/neuromorphic",
+  "api": "https://devasheeshg.github.io/yc-api/batches/summer-2026/neuromorphic.json",
+  "year_founded": 2026,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/neuromorphic-vision",
+  "x_url": "",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/470f3b57cd018aad9c127e64e5b952d32a64d435.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Diana Hu",
+    "url": "https://www.ycombinator.com/people/diana-hu"
+  },
+  "founders": [
+    {
+      "user_id": 3607343,
+      "full_name": "Vatan Aksoy Tezer",
+      "title": "Founder/CEO",
+      "founder_bio": "Founder at Neuromorphic. Previously Lead Robotics Engineer at Augmentus, deploying motion planning algorithms to production with sub-mm accuracy and leading a team of 5. Before that, built navigation stacks from scratch at KABAM Robotics (deployed 100+ robots) and scaled ASRS systems at Rapyuta Robotics (1000+ robots to production). Core maintainer of MoveIt at PickNik Robotics. MS in CS from Sabanci University, BS in Astronautical Engineering from Istanbul Technical University.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/vatanaksoytezer/",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/d22faa66df9b9d4a1f2250b01fe1287fe3e28347.jpg"
+    },
+    {
+      "user_id": 2794176,
+      "full_name": "Ege Doganay",
+      "title": "Founder/CTO",
+      "founder_bio": "Founder at Neuromorphic (YC S26). Robotics and AI research at Bilkent University. Research fellow at Nanyang Technological University. Published research in top AI and robotics conferences. Won HackMIT, Stanford XR, MIT Reality Hack.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/ege-doganay/",
+      "x_url": "https://x.com/_doganay_ege",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/dda0ccf712da9c5904e6a14ea227c1d7210f36b9.jpg"
+    },
+    {
+      "user_id": 3316337,
+      "full_name": "Cem Toker",
+      "title": "Founder/COO",
+      "founder_bio": "Founder at Neuromorphic. Co-founded ErgoFlow, building LLM routing and training acceleration. Previously developed static calibration algorithms for industrial robots at Zeeko achieving 30% higher precision. Engineering at Cambridge. ",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/cem-seref-toker",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/938e49a805b6e2d5c1ed6645ef6db6e8f54dcb9d.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 109550,
+      "title": "Neuromorphic - Building an embodiment-agnostic “brain” that makes robots fast to deploy",
+      "tagline": "We make robots smarter, and faster to deploy. Starting with wet labs!",
+      "body": "Hi everyone! We’re Cem, Ege, and Vatan, the founders of Neuromorphic 👋\\\n\\\n**TL;DR** Neuromorphic is building an embodiment-agnostic “brain” that makes robots fast to deploy, and easy to manage through natural interfaces like Slack, email, and phone. Our goal is to make deploying robots in wet labs and other physical industries as easy as onboarding a new employee.\n\n<https://www.youtube.com/watch?v=6T0BDyjakmo>\\\n\\\n**The Problem**\\\nTo make robotics mainstream, we believe two problems have to be resolved:\\\n1\\. Deployment: Robots are still too slow, expensive, and engineering-intensive to deploy and adapt to new tasks and environments.\\\n2\\. Interaction: Managing and controlling robots remains too technical.\\\n\\\n**What We’ve Built**\\\nNeuromorphic packages sensors, compute, and software into a “brain” that can be attached to any robot body. An onboard LLM orchestrator turns natural-language instructions into workflows made up of reusable robotic skills, such as navigating, picking up an object, opening a refrigerator, or inspecting an area. Individual skills can be of various types; they could be AI models we develop, like Vision-Language Models and Video Action Models, or just plain code. Sensor-based safety loops monitor every action to ensure reliable execution.\n\nWe are also giving robots emails, phone numbers, and Slack access to make human-robot interaction more intuitive than using dashboards. The robots then respond to queries and take actions using the onboard LLM.\\\n\\\n**Traction**\\\nWithin a week of our first conversation with a leading biotechnology company, we deployed our robot in their wet lab, which is capable of operating autonomously 24/7, and already completed over 1500 tasks.\\\n\\\n**The Team**\n\n![uploaded image](/media/?type=post&id=109550&key=user_uploads/3607343/b28b023b-f328-4c5d-9181-720e96e5b1a3)\n\n\\\nCem: Second-time founder and did robotics research at Cambridge University. Previously built LLM routing and training acceleration, and did precision robotics.\\\n\\\nVatan: Maintained multiple open-source robotics libraries, most notably MoveIt, one of the most popular motion-planning frameworks for robotics. Led various teams in robotics startups from Series A to Series C in Japan and Singapore. Deployed over a thousand robots.\\\n\\\nEge: Did Robotics and AI research at Bilkent University. Research fellow at Nanyang Technological University. Published research in top AI and robotics conferences. Won HackMIT in 2024.\\\n\\\nCem and Ege first met as teammates in the FIRST Robotics Competition. They reached out to Vatan for mentorship and robotics advice. We spent the next three years building robots and winning competitions together. We remained close and eventually reunited to start Neuromorphic!\\\n\\\n**Ask**\\\nWe're looking for warm intros to wet lab, biotech, and physical-industry operators. If you have a repetitive physical process and have wondered whether a robot could do it, email us at [founders@neuromorphic.vision](mailto:founders@neuromorphic.vision) or [book a call here](https://cal.com/team/neuromorphic/meet-the-founders-of-neuromorphic).",
+      "url": "https://www.ycombinator.com/launches/SUw-neuromorphic-building-an-embodiment-agnostic-brain-that-makes-robots-fast-to-deploy",
+      "votes": 73,
+      "created_at": "2026-08-10T15:00:00.364Z"
+    }
+  ]
+}

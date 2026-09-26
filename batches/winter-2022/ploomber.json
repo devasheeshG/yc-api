@@ -1,0 +1,92 @@
+{
+  "id": 25975,
+  "name": "Ploomber",
+  "slug": "ploomber",
+  "former_names": [],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/b5abaea13a47b9e7cb04c8d183b6a2056824f626.png",
+  "website": "https://ploomber.io/",
+  "all_locations": "New York City, NY, USA; New York, NY, USA; Remote",
+  "long_description": "We are building a cloud platform to help companies deploy and scale AI applications.",
+  "one_liner": "Heroku for AI",
+  "team_size": 7,
+  "industry": "B2B",
+  "subindustry": "B2B -> Engineering, Product and Design",
+  "launched_at": 1643229196,
+  "tags": [
+    "Developer Tools",
+    "Machine Learning",
+    "Analytics",
+    "AI"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Winter 2022",
+  "status": "Inactive",
+  "industries": [
+    "B2B",
+    "Engineering, Product and Design"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada",
+    "Remote",
+    "Fully Remote"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/ploomber",
+  "api": "https://devasheeshg.github.io/yc-api/batches/winter-2022/ploomber.json",
+  "year_founded": 2022,
+  "city": "New York City",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/ploomber",
+  "x_url": "https://twitter.com/ploomber",
+  "fb_url": "https://www.youtube.com/channel/UCaIS5BMlmeNQE4-Gn0xTDXQ",
+  "cb_url": "https://www.crunchbase.com/organization/ploomber",
+  "github_url": "https://github.com/ploomber",
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/b5abaea13a47b9e7cb04c8d183b6a2056824f626.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": null,
+  "founders": [
+    {
+      "user_id": 564961,
+      "full_name": "Eduardo Blancas",
+      "title": "Founder",
+      "founder_bio": "Eduardo Blancas is the co-founder and CEO of Ploomber, a technology company developing the most data scientist-friendly tooling on the planet. Originally from Mexico, Eduardo moved to the US in 2015 and spent some time in Chicago, New York, and Boston. Eduardo studied at Columbia University and Tec de Monterrey.",
+      "is_active": false,
+      "linkedin_url": "https://www.linkedin.com/in/edublancas",
+      "x_url": "https://twitter.com/edublancas",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/8d3de165ec32594a2ea0952f5edee76a60a86bab.jpg"
+    },
+    {
+      "user_id": 506869,
+      "full_name": "Ido Michael",
+      "title": "Founder",
+      "founder_bio": "Ido is a founded Ploomber to help data scientists build faster. He'd been working at AWS leading data engineering/science teams. Single handedly he built 100’s of data pipelines during those customer engagements together with his team. Originally from Israel, he came to NY for his MS at Columbia University. He decided to build Ploomber since he constantly found that projects dedicated about 30% of their time just to refactor the dev work (prototype) into a production pipeline. ",
+      "is_active": false,
+      "linkedin_url": "https://www.linkedin.com/in/ido-michael",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/62ff2c180ec1d3a578b30edc6d9241f1f5551fa9.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 78826,
+      "title": "Ploomber: Heroku for AI",
+      "tagline": "A platform to deploy AI and data applications quickly",
+      "body": "**tl;dr; **[**Ploomber**](https://www.platform.ploomber.io/register)** is a cloud platform that quickly deploys container-based AI and data applications (Streamlit, Shiny, Panel, Flask, FastAPI, etc.)**\\\n—\n\nHey all! We're [Eduardo](https://www.linkedin.com/in/edublancas) and [Ido](https://www.linkedin.com/in/ido-michael) from Ploomber, and we're excited to launch our cloud platform!\n\n**Problem**\n\nWith the rise of AI and data, many companies are deploying applications whose requirements differ from typical web applications. The most common differences are larger computational resources and libraries that many PaaS platforms do not allow to install (case in point: one of our customers migrated to our platform after several failed attempts to install a C++ library required for their Python app to run). These restrictions hinder the ability of many companies to ship complex AI and data applications.\n\n**Our Solution**\n\nOur container-based platform provides greater flexibility when deploying applications: you can quickly provision more resources and install anything your app requires to run.\n\nWe provide official support for frameworks like Streamlit, Shiny, Panel, Flask, and FastAPI, but you can use any framework you want.\n\nWe also provide a feature that stops your application automatically if it doesn't receive traffic and starts it again on an incoming request; this offers significant savings for many of our customers who deploy low-traffic applications.\n\n**How it works**\n\n![uploaded image](/media/?type=post&id=78826&key=user_uploads/564961/8070baa6-6dc5-468e-8041-cb35cf860f53)\n\nYou can deploy applications with the UI or via the command-line interface (you can also use the CLI to deploy on each commit to your git repository).\n\n**Live examples**\n\n![uploaded image](/media/?type=post&id=78826&key=user_uploads/564961/50219f4a-395d-4d0d-98cb-4e123ad50efa)\n\n[Arxiv Chat:](https://summer-wind-5194.ploomberapp.io/) a chatbot that allows you to search, ask questions, and download papers from Arxiv. \n\n[Analytical dashboard](https://broad-fire-8217.ploomberapp.io) built with Panel.\n\n[Flask app](https://wild-bonus-9050.ploomberapp.io/) with user authentication and API key management.\n\n**Try it out!**\n\n[Create an account](https://www.platform.ploomber.io/register) and check our [documentation](https://docs.cloud.ploomber.io/en/latest/intro.html) to get started!\n\n**We can help you migrate!**\n\nIf you already deployed an application, we can help you migrate at no cost! Please email us at [contact@ploomber.io](mailto:contact@ploomber.io)! We also have discounts for the YC community, so contact us!",
+      "url": "https://www.ycombinator.com/launches/KVO-ploomber-heroku-for-ai",
+      "votes": 10,
+      "created_at": "2024-02-27T20:05:32.375Z"
+    }
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "id": 31493,
+  "name": "Plena Health",
+  "slug": "plena-health",
+  "former_names": [],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/3904753c66e12d522cb76c36f26a8325b7a90c7e.png",
+  "website": "https://www.plena.health/",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "Plena is the AI operating system for specialty medical practices. We automate the administrative workflows that keep clinics running — referrals, fax intake, scheduling, procedure compliance, and collections — end to end, across all the systems a practice already uses. Unlike point solutions that cover a slice of the problem, Plena becomes the operating layer across the entire practice, connecting the systems, teams, and workflows that keep it running. In 10 months we've grown 17x and crossed seven figures in committed ARR across six specialties and eight states, with 80% of growth through word of mouth.",
+  "one_liner": "Plena is the AI operating system for specialty medical practices",
+  "team_size": null,
+  "industry": "Healthcare",
+  "subindustry": "Healthcare -> Healthcare Services",
+  "launched_at": 1780106406,
+  "tags": [],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Spring 2026",
+  "status": "Active",
+  "industries": [
+    "Healthcare",
+    "Healthcare Services"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/plena-health",
+  "api": "https://devasheeshg.github.io/yc-api/batches/spring-2026/plena-health.json",
+  "year_founded": 2025,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/plenahealth",
+  "x_url": "",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/3904753c66e12d522cb76c36f26a8325b7a90c7e.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Andrew Miklas",
+    "url": "https://www.ycombinator.com/people/andrew-miklas"
+  },
+  "founders": [
+    {
+      "user_id": 3415495,
+      "full_name": "Eyad Abdalla",
+      "title": "Founder",
+      "founder_bio": "Doctor's son, engineer by trade — Waterloo, then Datadog and Shopify. 3 years in specialty clinics convinced him they don't need more software. They need someone to do the work. Plena does it.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/eyadabd/",
+      "x_url": "https://x.com/eebadaeebada",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/ff050fe6f6a252b51a5776811aaa5445329a5992.jpg"
+    },
+    {
+      "user_id": 2250276,
+      "full_name": "Ahmed Al Mudarris",
+      "title": "Founder/CTO",
+      "founder_bio": "Co-founder & CTO of Plena. Started his career at a nuclear engineering startup, then built tier-zero infrastructure at AWS — the systems that can't go down. Doctor's son who took the MCAT before deciding to build for medicine, not practice it. Built Plena's platform end-to-end.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/ahmed-al-mudarris-11a5381bb/",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/fc64751642b4b38a074c12c4d9711317c7f57ae1.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 102388,
+      "title": "Plena Health: The AI operating system for specialty medical practices",
+      "tagline": "The full stack AI operating system for specialty medical practices",
+      "body": "**TL;DR**\n\nPlena is the full stack AI operating system for specialty medical practices. We automate the administrative work that keeps clinics running — referrals, fax intake, scheduling, procedure compliance, records, and collections. Everything that isn't the medicine.\n\n**In 8 months, we've grown 17x and crossed seven figures in contracted ARR.**\n\nSo far we cover six specialties across eight states, all on annual or multi-year contracts, with 80% of our growth through word-of-mouth.\n\n<https://youtu.be/xWw9kNYckHQ>\n\n**The Problem**\n\nMy mom is a doctor. Plena's office sits inside her clinic — she was our first user. I grew up watching her run a practice, and the pattern was the same in every clinic I later embedded in: a doctor's day eaten by everything that isn't medicine.\n\nIndependent specialty practices are squeezed. Staffing costs rising, reimbursements tightening, payers using automation to deny and downcode claims.\n\nMeanwhile, practices run critical workflows across EHRs, clearinghouses, portals, fax, spreadsheets, phones, and email. A single referral: read the fax, match the patient, extract clinical details, check insurance, update the EHR, attach documents, route tasks, chase missing info. That's one workflow. Practices run dozens daily.\n\nMost software adds another portal, another login, another vendor. Point solutions cover a slice. Staff stitch the rest together.\n\n\\\n**Why Point Solutions Can't Get You to Labor Replacement**\n\nThe real goal isn't automating one workflow. It's labor replacement — and you can't get there one feature at a time.\n\nNo single piece of software works for all specialty practices. Cardiology, GI, urology, ortho are too different from each other. Even two clinics in the same specialty are too different. Off-the-shelf can't cover the surface area.\n\nSo we took a Palantir-like approach: a base platform of reusable building blocks — workflow primitives, EMR integrations, agent harnesses — that lets us assemble exactly what each practice needs. Deep discovery, build to spec, stand it up in a day or two. Every engagement feeds the platform, so the next build is faster. That's the flywheel.\n\nAI is what makes this newly possible — final-mile customization at speed is exactly what AI is good at. And it's why we're an easy yes: no rip-and-replace, no retraining. We slot into what practices already run and take more off their plate over time.\n\n**How Plena Works**\\\nPlena automates workflows end-to-end across the systems a practice already uses — EHRs, fax, phones, clearinghouses, payer portals, patient communication. We don't replace those systems. We don't ask staff to learn a new one.\n\nSome competitors force practices to migrate into a walled garden — abandon the EMR, retrain the team, rebuild data flows. That's why their sales cycles are slow. We do the opposite: we live inside what's already there, and quietly take over the rote work end-to-end.\n\nCustomers start with one painful workflow — referrals, collections, scheduling — then expand as they see it work.\n\n\\\n**Where This Goes**\n\nWe start as an automation layer on top of what practices already have. Over time we cannibalize the rote work and the other vendors a practice is stitched together from — until the EHR is just a database we read and write to. From there, even the EHR becomes a turnkey switch instead of the migration nightmare it is today.\n\nThat's the system specialty practices end up running on.\n\n\\\n**Our Story**\n\nEyad and Ahmed were both raised in medicine — Eyad's mom and Ahmed's dad are doctors. The combination — engineers who grew up watching practices run — is why we kept seeing the operational problem when other founders saw something else.\n\nEyad is a Waterloo engineering grad — Datadog and Shopify before Plena, 3 years embedded in clinics. Ahmed built tier-zero infrastructure at AWS, with a background in nuclear systems before that. Specialty practices didn't need another lightweight tool — they needed infrastructure.\n\n\\\n**Our Ask**\n\nIntros to independent specialty practices, administrators, and physician owners — especially orthopedics, GI, dermatology, ophthalmology, ENT, urology, and multi-location groups. Best fit: high admin volume and disconnected systems.\n\n[eyad@plena.health](mailto:eyad@plena.health)\n\nEyad and Ahmed",
+      "url": "https://www.ycombinator.com/launches/QdQ-plena-health-the-ai-operating-system-for-specialty-medical-practices",
+      "votes": 53,
+      "created_at": "2026-06-01T19:17:08.692Z"
+    }
+  ]
+}

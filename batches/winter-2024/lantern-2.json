@@ -1,0 +1,103 @@
+{
+  "id": 29178,
+  "name": "Lantern",
+  "slug": "lantern-2",
+  "former_names": [],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/173b47e676be258f330e690587eca7beae572634.png",
+  "website": "http://lantern.dev",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "Lantern is the easiest way to build AI applications using Postgres.\r\n\r\nWe started Lantern because we believe AI is going to impact every single enterprise in every single industry. We want to allow every company to tap into their unstructured data to build better applications.\r\n\r\nWith Lantern Cloud, developers have access to everything they need to build an AI application: embedding generation, vector compression, vector search, efficient indexing, and more. All on top of the database they already know, Postgres, and using infrastructure that scales to billions.\r\n\r\nCheck out our code on Github: https://github.com/lanterndata/lantern",
+  "one_liner": "Postgres vector database extension to build AI applications",
+  "team_size": 3,
+  "industry": "B2B",
+  "subindustry": "B2B",
+  "launched_at": 1690583353,
+  "tags": [
+    "Artificial Intelligence",
+    "B2B",
+    "Open Source",
+    "Enterprise",
+    "Databases"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Winter 2024",
+  "status": "Inactive",
+  "industries": [
+    "B2B"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada",
+    "Remote",
+    "Partly Remote"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/lantern-2",
+  "api": "https://devasheeshg.github.io/yc-api/batches/winter-2024/lantern-2.json",
+  "year_founded": 2023,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/98218505",
+  "x_url": "https://twitter.com/lanterndb",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": "http://github.com/lanterndata",
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/173b47e676be258f330e690587eca7beae572634.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [
+    "https://bookface-images.s3.us-west-2.amazonaws.com/attachments/6cdefae03abf8dbedc86d007cacf0ee7f7b92f1c.png"
+  ],
+  "primary_partner": {
+    "name": "Gustaf Alstromer",
+    "url": "https://www.ycombinator.com/people/gustaf-alstromer"
+  },
+  "founders": [
+    {
+      "user_id": 343105,
+      "full_name": "Di Qi",
+      "title": "Founder",
+      "founder_bio": "I'm working on Lantern. We're building the best platform to develop AI applications. Before Lantern, I worked at Y Combinator, on my own startups, and at Facebook. I studied computer science at Princeton, and grew up in Americus, Georgia.",
+      "is_active": false,
+      "linkedin_url": "https://www.linkedin.com/in/di-qi/",
+      "x_url": "https://twitter.com/diqitally",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/f8599f150bb5f7cff3f5a71233fc21979ae0fcd3.jpg"
+    },
+    {
+      "user_id": 1518897,
+      "full_name": "Narek Galstyan",
+      "title": "Founder",
+      "founder_bio": "Now building the only database you'll need for your AI applications.\n\nI was an early engineer at Timescale, a billion-dollar Postgres company, where I contributed core features.\n\nI did my undergrad at Princeton, where I built a safe OS schedule in Rust for my thesis. More recently, I was a PhD Student at UC Berkeley working on distributed systems.",
+      "is_active": false,
+      "linkedin_url": "https://linkedin.com/in/ngalstyan",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/d4f84260559cbc42248a77a731aa7d3d3b1acb47.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [
+    {
+      "title": "YC’s latest Demo Day shows fascinating wagers on healthcare, chip design, AI and more | TechCrunch",
+      "url": "https://techcrunch.com/2024/04/04/ycs-latest-demo-day-shows-fascinating-wagers-on-healthcare-chip-design-ai-and-more/",
+      "date": "Apr 04, 2024"
+    }
+  ],
+  "launches": [
+    {
+      "id": 79083,
+      "title": "Lantern - Postgres vector database 🏮",
+      "tagline": "Lantern is a Postgres vector database that is scalable, cost-effective, and easy to use",
+      "body": "Hi! We’re Di and Narek. We’re building [Lantern](https://lantern.dev).\n\n## About Lantern\n\nLantern is a Postgres vector database that is easy to use, cost-effective, and scales to billions.\n\nAnyone using a standalone vector database such as Pinecone has to maintain a separate database for their other application needs. This adds complexity. With Lantern, you can run vector search in the database you already know and love, Postgres. In addition, Lantern is [orders](https://lantern.dev/pricing) of magnitude cheaper than Pinecone.\n\nWe recently released [product quantization](https://lantern.dev/blog/pq). This enables index compression so the index can use up to 90% less memory and cost an additional 90% less!\n\nWe support [embedding generation](https://lantern.dev/docs/develop/generate) with Open AI, Cohere, and open-source embedding models inside the database for one-off queries. For bulk transactions and managed columns, we support generating up to 2 million embeddings per hour.\n\n![uploaded image](/media/?type=post&id=79083&key=user_uploads/343105/9ef30a0c-40fe-4de5-b6e7-a64c313ed329)\n\nWe also support [external index creation](https://lantern.dev/blog/hnsw-index-creation), which offloads index creation to external machines to avoid expensive index creation processes causing downtime in production databases.\n\n## Get Started\n\nThe easiest way to get started is with [Lantern Cloud](https://lantern.dev), our managed Postgres service. To self-host or explore our source code, check out our [GitHub repo](http://github.com/lanterndata/lantern).\n\nIf you are currently using another vector database provider or another Postgres provider, we have tools to make migration seamless.\n\nWe have multiple customers using Lantern in production, and we’d love to have you give us a try too! We’re happy to answer any questions or help you get set up - reach out at [support@lantern.dev](mailto:support@lantern.dev) or on X at [@diqitally](https://twitter.com/diqitally).\n\n![](https://lh7-us.googleusercontent.com/olpVbw9LdPqQvlae8m2tpV7bEcDzlwVIuv0laDX55L0r130wsYWkV-lGIcsCletv4I6zgYADCQ_sHmjWtMNZNpJlUkM_g7Z6TpkZJtCO54acRTUMNAyTuPF4HQfT9Na2YWXWzWx19l4_jl5zNikU-bE)\n\n## About Us\n\nBefore Lantern, [Narek](https://linkedin.com/in/ngalstyan) was a PhD student in distributed systems at Berkeley and worked at Timescale, a billion-dollar Postgres company. [Di](https://www.linkedin.com/in/di-qi/) worked at Y Combinator as a software engineer, co-founded a YC-backed 15-minute delivery startup, and worked at Facebook Ads Ranking.",
+      "url": "https://www.ycombinator.com/launches/KZX-lantern-postgres-vector-database",
+      "votes": 49,
+      "created_at": "2024-03-05T21:29:57.288Z"
+    }
+  ]
+}

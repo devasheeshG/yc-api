@@ -1,0 +1,90 @@
+{
+  "id": 31023,
+  "name": "Inviscid AI",
+  "slug": "inviscid-ai",
+  "former_names": [],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/edd438978013e82ecd281b761baafad0dab9c68e.png",
+  "website": "https://inviscidai.com/",
+  "all_locations": "Singapore, Singapore; Remote",
+  "long_description": "Inviscid AI builds physics-informed AI solutions that transform how buildings and data centers operate. By combining real-time IoT sensor data with computational fluid dynamics (CFD) modeling, we create digital twins that simulate building performance in real time and autonomously optimize operations.\r\n\r\nOur platform optimizes airflow patterns and ventilation strategies to eliminate dead zones, improve air distribution, and reduce the load on mechanical systems. On the energy side, we minimize HVAC power consumption, reduce cooling costs, and lower overall operational expenses while maintaining optimal thermal comfort and indoor air quality. Beyond immediate operational efficiency, we optimize equipment scheduling and maintenance cycles by predicting system behavior under different conditions, allowing facilities managers to proactively address issues before they become problems.\r\n\r\nOur physics first approach ensures that we're not just optimizing against historical patterns, but optimizing based on a deep understanding of how air, heat, and energy actually move through your building, enabling us to find solutions that traditional rule-based or purely data-driven systems would miss.",
+  "one_liner": "Real-time Physics Simulations for Industrial Facilities & Data Centers",
+  "team_size": 2,
+  "industry": "Industrials",
+  "subindustry": "Industrials -> Energy",
+  "launched_at": 1769244149,
+  "tags": [],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Winter 2026",
+  "status": "Active",
+  "industries": [
+    "Industrials",
+    "Energy"
+  ],
+  "regions": [
+    "Singapore",
+    "Southeast Asia",
+    "Remote",
+    "Fully Remote"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/inviscid-ai",
+  "api": "https://devasheeshg.github.io/yc-api/batches/winter-2026/inviscid-ai.json",
+  "year_founded": 2025,
+  "city": "Singapore",
+  "country": "SG",
+  "linkedin_url": "https://linkedin.com/company/inviscid-ai",
+  "x_url": "",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/edd438978013e82ecd281b761baafad0dab9c68e.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Ankit Gupta",
+    "url": "https://www.ycombinator.com/people/ankit-gupta"
+  },
+  "founders": [
+    {
+      "user_id": 2566201,
+      "full_name": "Kabir Jain",
+      "title": "Founder/CEO",
+      "founder_bio": "I like physics and AI",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/kabir-jain-781a6525a",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/8d706dd634d225e95f024a467c2a9705078328a7.jpg"
+    },
+    {
+      "user_id": 2965234,
+      "full_name": "Ziming Qiu",
+      "title": "Founder/CTO",
+      "founder_bio": "I make simulations :).",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/qiu-ziming-1b746a276",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/68c0985a83fc0499721539da91ea610e5a39234a.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 98221,
+      "title": "Inviscid AI: Real-Time Physics Simulation For Digital Twins of Built Environments",
+      "tagline": "Real-time physics simulation that cut energy costs and accelerate design cycles",
+      "body": "TL;DR: We are creating real-time physics simulations & digital twins of physical spaces. 1000x faster than traditional solvers; fast enough to actually optimize your energy costs, design cycles, and live operations.\n\n---\n\nBuilding operations account for approximately **40%** of **total energy consumption** in the United States and the European Union. Of that, **HVAC** alone eats up roughly **40%,**  making heating and cooling the single largest energy end-use in the built environment. And yet, the physics tools to understand and optimize these systems in real time have never existed.\n\nTraditional CFD solvers take 8-12 hours per simulation. That's fine for final-stage validation. But it means you can never use simulation to answer questions like:\n\n* \"This data center row is running hot. What's the fastest fix that doesn't require new hardware?\"\n* \"Occupancy just spiked on floor 3. What should we do with the HVAC right now?\"\n* \"We're choosing between 40 thermal designs. Can we test them all this afternoon?\"\n\nThese are real-time decisions. You can't wait 12 hours for them. So today, operators guess, over-provision, and leave massive efficiency gains on the table. Not because they don't care, but because the physics was always too slow to be useful at the moment.\n\n**We fix that.** Our engine runs \\~1000x faster than traditional solvers using GPU accelerated numerical solvers or physics-informed neural operators, fast enough to turn simulation from a one-off analysis into a live, continuous control layer over physical systems. \n\n![uploaded image](/media/?type=post&id=98221&key=user_uploads/2566201/c345ead2-296e-43a5-b200-09bb372643eb)\n\nWe've achieved _state-of-the-art_ performance on standard Navier-Stokes benchmarks across multiple physics domains.\n\n![uploaded image](/media/?type=post&id=98221&key=user_uploads/2566201/3fa0a608-633c-4083-bcd9-1ebf3561d634)\n\n![uploaded image](/media/?type=post&id=98221&key=user_uploads/2566201/57760bd4-95fd-4a4b-aeb9-692c04c68cab)\n\nThis isn't a cheaper simulation. It's a fundamentally new capability: **real-time physics-aware control of the physical world.**\n\n### **What This Unlocks**\n\n* **Live Digital Twins:** Connect to your building's sensors and get a full spatial model of airflow, thermal loads, and energy draw - updating continuously, not a static snapshot. Instead of 5 temperature readings, you get the complete picture of what's happening across your entire facility, right now.\n* **Dynamic Optimization:** Your HVAC doesn't need to run on static schedules. With a live physics model, setpoints adjust automatically as occupancy, weather, and equipment state change. We're seeing 15–30% energy reduction - not from a one-time audit, but from continuous, physics-informed control.\n* **Instant What-If Scenarios:** \"What if we move this vent?\" \"What happens if we add 200 servers to this row?\" \"How does this layout perform at peak summer load?\" Answers in seconds, not days.\n* **Rapid Design Iteration:** Test hundreds of thermal, airflow, or structural configurations in the time it takes to run one traditional sim. Explore the full design space instead of picking 3 candidates and hoping.\n\n### **Who This Is For**\n\nWe built InviscidAI to power real-time decisions across any domain where physics matters:\n\n* **Facility Operators:** Optimize HVAC, ventilation, and energy usage across office buildings, warehouses, hospitals, and cleanrooms - dynamically, as conditions change.\n* **Data Center Teams:** Manage thermal loads and cooling in real time. Plan capacity expansions with instant physics feedback instead of week-long simulation cycles.\n* **Cold Storage Owners**: Understand their facility in real time, and prevent thermal failures and product loss.\n* **Hardware & Manufacturing Engineers:** Accelerate thermal, airflow, and structural design iteration from weeks to hours. Ship better products, faster.\n* **Building Owners & Developers:** Understand exactly how design choices affect energy performance before breaking ground - and keep optimizing after move-in.\n\n### **Where We're Going**\n\nHVAC and building operations are our starting point. Our end goal is to model all fields of physics - fluid dynamics, thermodynamics, electromagnetics, structural mechanics, and beyond - and deliver real-time digital twins for any physical system. We want every engineer, operator, and designer to have a live, physics-accurate model of whatever they're building or managing. If it obeys the laws of physics, we want to simulate it in real time.\n\n### **Our Ask**\n\nWe're deploying custom digital twins for enterprise clients. We're looking for introductions to:\n\n1. **Facilities & Operations Teams:** Anyone managing large buildings, campuses, or industrial facilities with high energy costs or thermal challenges.\n2. **Data Center Operators:** Teams dealing with cooling optimization, hot spots, or capacity planning.\n3. **Hardware Engineering Teams:** Engineers frustrated with slow CFD/thermal simulation cycles.\n4. **Building Developers & Owners:** Anyone who wants physics-informed design and continuous post-occupancy optimization.\n5. **Digital Twin / IoT Platforms:** If you're building monitoring infrastructure and need a real-time physics layer, let's partner.\n\nIf you have a physics problem that you want to solve faster, we want to hear about it.\n\nBook a time here: <https://calendly.com/kabir-inviscidai/30min>\n\n📧 [kabir@inviscidai.com](mailto:kabir@inviscidai.com) | 📞 +1(408) 303-9627 | 🌐 [www.inviscidai.com](http://www.inviscidai.com)\\\n\\\n<https://www.youtube.com/watch?v=ISM5gMWZQr4>",
+      "url": "https://www.ycombinator.com/launches/PYD-inviscid-ai-real-time-physics-simulation-for-digital-twins-of-built-environments",
+      "votes": 6,
+      "created_at": "2026-02-26T22:52:27.034Z"
+    }
+  ]
+}

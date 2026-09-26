@@ -1,0 +1,93 @@
+{
+  "id": 31261,
+  "name": "Control Seat",
+  "slug": "control-seat",
+  "former_names": [
+    "C42"
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/c9fbf6b23216653c383d7f0caea2def1b673a3a5.png",
+  "website": "https://www.controlseat.com",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "Control Seat builds the hardware and software that helps industrial teams see, understand, and run their operations.\r\n\r\nOur platform creates one clear source of truth across the plant. It connects the systems teams already use, brings control, monitoring, history, and machine health together, and adds an intelligence layer that continuously watches for meaningful changes. Teams can understand what happened, catch problems earlier, and act before they become downtime.\r\n\r\nThe result is fewer surprises, faster decisions, and less time spent piecing together information across disconnected tools.\r\n\r\nWe work with manufacturers, utilities, energy companies, and other industrial operators modernizing existing facilities or building new ones.",
+  "one_liner": "AI that runs factories. ",
+  "team_size": 2,
+  "industry": "Industrials",
+  "subindustry": "Industrials",
+  "launched_at": 1777448165,
+  "tags": [
+    "Workflow Automation",
+    "Monitoring",
+    "Industrial"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Summer 2026",
+  "status": "Active",
+  "industries": [
+    "Industrials"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/control-seat",
+  "api": "https://devasheeshg.github.io/yc-api/batches/summer-2026/control-seat.json",
+  "year_founded": 2025,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/control-seat",
+  "x_url": "",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/c9fbf6b23216653c383d7f0caea2def1b673a3a5.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Jared Friedman",
+    "url": "https://www.ycombinator.com/people/jared-friedman"
+  },
+  "founders": [
+    {
+      "user_id": 3064044,
+      "full_name": "Warren Shepard",
+      "title": "Founder/CEO",
+      "founder_bio": "Building a modern SCADA system to control and monitor factory hardware and replace legacy systems. Previously at Dartmouth ('26), SpaceX (Starlink), and Microsoft (security).",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/warren-shepard-493a37201/",
+      "x_url": "https://x.com/warrren_shepard",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/ff41fa222f3fc3b27bd9e580e1dee71f5754722d.jpg"
+    },
+    {
+      "user_id": 3132492,
+      "full_name": "Jack Grodnick",
+      "title": "Founder/CTO",
+      "founder_bio": "Building Control Seat, the AI-native controls and monitoring stack for industry. We help industrial teams connect plant systems, understand what changed, catch problems earlier, and run operations with fewer surprises. On leave from Dartmouth. Previously at Tesla, SpaceX, and Amazon.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/jack-grodnick/",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/b49172bc391f2b19dcde4aff68ff061ccd456a44.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 104972,
+      "title": "Control Seat: the operating system for the physical world.",
+      "tagline": "An AI-native controls (SCADA) platform and integration service.",
+      "body": "<https://youtu.be/DfSQ8L7d0BM?si=9Zp7BVPvCD_vB4ke>\\\n\\\n**THE PROBLEM**\n\nIndustrial control software still looks and feels like it was built in the Windows 95 era. Manufacturers spend weeks stitching together Programable Logic Controllers (PLCs), Supervisory Control and Data Acquisition (SCADA), HMIs, databases, and custom integrations just to get systems running. Additionally, legacy systems collect enormous amounts of high-quality data, but don’t do _anything_ with it, even though it could easily be used for things such as anomaly detection or optimization recommendations.\\\n\\\n**OUR SOLUTION**\n\nWe're building an AI-native platform to unify the industrial control stack, starting with SCADA and eventually extending down to PLC hardware and the devices on the factory floor. We offer both a product and a service:\n\n**1) Software**\n\nWe already built a full SCADA system to replace legacy platforms like Ignition, WinCC, and FactoryTalk. It’s AI native: users can use AI to generate controls screens in seconds (this used to take hours), write custom scrips/logical flows, and automatically detect issues before they become catastrophic. \\\n\\\nNot only is this a full SCADA system, but it can operate on top of an existing one so that users can take advantage of our “intelligence layer” without having to rip out their current infrastructure (people understandably don’t like doing this).\\\n\\\n**2) System Integration** \n\nWe’ve recently expanded to become an AI-native industrial integrator. Instead of just selling our software, we integrate it into our clients existing stack for them, and help them set up any other tools they need to run it. \n\nOver the past few months, we've spent hundreds of hours talking with controls engineers, manufacturers, operators, and system integrators. We already knew that industrial software was broken, but we also learned that even when better technology exists, people are understandably cautious about adopting it. These systems run critical infrastructure and reliability matters more than novelty. Change is slow, but we want to reindustrialize America now.\n\n**Instead of waiting for the industry to adopt an entirely new software stack, we're bringing our technology directly into customer projects today.**\n\nWhile larger firms can spend millions on integration services, smaller firms don’t have that kind of money. Traditional integrators use highly manual methods to set up their clients software stacks (which are also outdated). By leveraging AI, we’ll be able to set up the same systems at 10x the speed and charge way less. \n\n**Our ask: if you’re exploring controls/automation systems, PLC programming, SCADA systems, or system integration**, **we’d love to talk. Or, if you know any deep tech companies that want to set up a controls system, let us know!**\n\nSee more at <https://controlseat.com>.",
+      "url": "https://www.ycombinator.com/launches/RJ6-control-seat-the-operating-system-for-the-physical-world",
+      "votes": 4,
+      "created_at": "2026-07-09T14:31:33.522Z"
+    }
+  ]
+}

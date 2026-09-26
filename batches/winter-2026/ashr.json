@@ -1,0 +1,93 @@
+{
+  "id": 31139,
+  "name": "Ashr",
+  "slug": "ashr",
+  "former_names": [],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/36b682fdfb87515f8ca423d8a006eaac7229e134.png",
+  "website": "https://ashr.io",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "Ashr Manifold is a self-contained model training, hosting, observability, and continual learning platform for purpose-built open-weight models. \r\n\r\nStartups can use Manifold to post-train and manage fleets of continuously improving open-weight models without having a dedicated research team or infrastructure. Ultimately, this reduces operating costs and allows a greater degree of control over proprietary company knowledge.\r\n\r\nEnterprises can use Manifold to encode institutional judgements and priorities into open-weight models, reduce token costs, and manage every level of the AI life cycle, from data curation, to model serving on weights and infrastructure they own.",
+  "one_liner": "Enterprise post-training, monitoring, and continual learning platform",
+  "team_size": 2,
+  "industry": "B2B",
+  "subindustry": "B2B",
+  "launched_at": 1771535371,
+  "tags": [
+    "Artificial Intelligence",
+    "Deep Learning",
+    "Generative AI",
+    "Reinforcement Learning",
+    "Data Engineering"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Winter 2026",
+  "status": "Active",
+  "industries": [
+    "B2B"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/ashr",
+  "api": "https://devasheeshg.github.io/yc-api/batches/winter-2026/ashr.json",
+  "year_founded": 2025,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/ashr-io",
+  "x_url": "",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/36b682fdfb87515f8ca423d8a006eaac7229e134.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Harshita Arora",
+    "url": "https://www.ycombinator.com/people/harshita-arora"
+  },
+  "founders": [
+    {
+      "user_id": 1467144,
+      "full_name": "Rohan Kulkarni",
+      "title": "Founder/CEO",
+      "founder_bio": "Building custom models at Ashr Labs. Co-founder and CTO of Ask Geri (Acquired). Berkeley EECs. ",
+      "is_active": true,
+      "linkedin_url": "https://linkedin.com/in/rohankulkz",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/297857e249e4e8e3f4bce0f12fda39d67b33b506.jpg"
+    },
+    {
+      "user_id": 2584088,
+      "full_name": "Shreyas Kaps",
+      "title": "Founder",
+      "founder_bio": "Building Ashr Manifold to help teams build and host purpose-built and trained models",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/shreyas-kaps-5b1a4420b/",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/697406e5dc0beff2a338d68874683d7c8e1703c0.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 98286,
+      "title": "Ashr: Mimic Your Production Environment and Users to Catch Agent Fails",
+      "tagline": "Custom Tests and Evals Simulating Real User Behavior",
+      "body": "\nHi YC, we’re Shreyas and Rohan — two ex-Berkeley students building Ashr.\n\n**TL;DR :** Ashr catches bugs and validates agent response quality by mimicking the patterns and quirks of real users. Developers today struggle to simulate these conditions in tests, resulting in real-time fails and unexpected behavior. We integrate as an SDK within your codebase.\n\n<https://youtu.be/O_sTLTk906E>\n\n# The Problem\n\nAI automations are top of mind for every developer: large companies are integrating AI into older systems to stay technologically relevant, while AI-native companies are quickly emerging in every vertical. Unfortunately, most of these AI tools miss the mark: constant hallucinations, unexpected behavior, and dubious quality have eroded trust in agentic systems. In most cases, this is not because foundation models aren’t powerful enough, but because of subtle prompting, tooling, and scaffolding errors that only emerge with rigorous testing. The need for high volumes of realistic testing arises in many scenarios: we’ve spoken to companies who want to prove that their agents are capable of handling sensitive data to potential customers, developers who want to make their agents work better, and engineers who want to test edge-cases and new features but don’t have all the necessary tools.\n\nWe’ve seen teams confront this problem with a litany of half-measures: pushing to production and tanking user trust as a means of discovering bugs, half-baked test harnesses, and vibe-coded test suites that only scratch the surface. We built ashr to solve this.\n\n# Our Solution\n\nAshr is a modular testing and evaluation platform for your agentic system. We integrate as an SDK into your codebase, allowing you to request test suites and analyzing your agents’ output based off your tooling and ideal outputs. These tests mimic how real users utilize an agentic system: taking complex tool call paths, using obscure language with unclear instructions, and attempting to use restricted features. We develop environments, fine-tuned custom scorers, and stop at nothing to provide all the insights needed to bring your agent to a truly production-ready state.\n\nWe also work seamlessly with Claude Code and Cursor, allowing your coding agents to quickly prototype and test changes while receiving immediate feedback. Teams have run swarms of agents testing with ashr overnight, and have woken up to changes that reduced hallucinations and increased accuracy and user retention, all without writing a single line of code.\n\n# Our Ask\n\nIf you’re building agents, book a call today at [**https://ashr.io/**](https://ashr.io/). **All onboarding is done via call so we can ensure everyone is ready to go and start using as soon as possible.** In addition, we’d love feedback on our docs, opinions about the nature of test infra, and just chatting with a bunch of builders on how to make our product better.\n\nYou can reach us at [founders@ashr.io](mailto:founders@ashr.io)\n\n# The Team\n\n**We’re two young founders passionate about changing the world with agentic development**\n\n* **Rohan** built his first startup, an AI-native survey platform for old age homes, as a student at Berkeley, before exiting as part of an acquisition and joining YC.\n* **Shreyas** worked on AI-native workflows at Tessera Labs, mentored by a team of ex-Meta and Netflix research, and delivering value in the ERP transformations of Fortune 100 companies.",
+      "url": "https://www.ycombinator.com/launches/PZG-ashr-mimic-your-production-environment-and-users-to-catch-agent-fails",
+      "votes": 9,
+      "created_at": "2026-02-27T22:43:17.702Z"
+    }
+  ]
+}

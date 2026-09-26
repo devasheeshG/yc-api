@@ -1,0 +1,98 @@
+{
+  "id": 31248,
+  "name": "BeeSafe AI",
+  "slug": "beesafe-ai",
+  "former_names": [],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/3a94eb8ceff47b3a9989e9c3c4f0bff0ac9c2e0a.png",
+  "website": "https://beesafe.ai/",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "BeeSafe AI is building the frontier model layer for social engineering defense. Cyberattacks have moved from code to conversation: attackers now use AI to carry out long-term, trust-based manipulation across SMS, voice, email, and social platforms, often inside encrypted channels where defenders cannot see, detect, or stop them.\r\n\r\nBeeSafe changes that by deploying undercover AI agents that engage attackers directly, expose hidden infrastructure, and convert live adversarial conversations into actionable intelligence. Each engagement adds to BeeSafe's proprietary dataset of real attacker behavior and trains foundational models that continually learn about counter-persuasion, deception, and manipulation in the wild.\r\n\r\nBeeSafe is starting in financial crime, where banks already value our data against Authorized Push Payment (APP) fraud and money laundering, but the opportunity is far broader. The same data and models that uncover mule networks today can protect consumers, secure enterprises, and strengthen governments against the next generation of AI-powered social engineering attacks tomorrow.",
+  "one_liner": "Frontier AI Defenses for Social Engineering Attacks",
+  "team_size": 3,
+  "industry": "B2B",
+  "subindustry": "B2B -> Security",
+  "launched_at": 1770327115,
+  "tags": [],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Winter 2026",
+  "status": "Active",
+  "industries": [
+    "B2B",
+    "Security"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/beesafe-ai",
+  "api": "https://devasheeshg.github.io/yc-api/batches/winter-2026/beesafe-ai.json",
+  "year_founded": 2025,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/beesafe-ai",
+  "x_url": "",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/3a94eb8ceff47b3a9989e9c3c4f0bff0ac9c2e0a.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Jon Xu",
+    "url": "https://www.ycombinator.com/people/jon-xu"
+  },
+  "founders": [
+    {
+      "user_id": 286,
+      "full_name": "Daniel Spokoyny",
+      "title": "Founder/CEO",
+      "founder_bio": "I am a machine learning and security researcher with 10+ years in ML and NLP. I earned my PhD at CMU with research on novel transformer architectures, better training objectives, and evaluation benchmarks for reasoning.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/spokoyny/",
+      "x_url": "https://x.com/daniel_spokoyny",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/0df99e432cace13afae394421aaa72c3927d9c3d.jpg"
+    },
+    {
+      "user_id": 3268572,
+      "full_name": "Ariana Mirian",
+      "title": "Founder",
+      "founder_bio": "Cofounder at BeeSafe AI. I have over ten years of experience as a security research and measurement scientist, using large scale data to make better security decisions. I've worked in various organizations, such as Censys, Google Chrome, and UCSD, all of which have provided unique perspectives into security at scale to protect the end user. My goal is to make the Internet a safer place for everyone, regardless of background or technical expertise.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/arianamirian/",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/06d54df787963805facaeaffb57351bad78e5b56.jpg"
+    },
+    {
+      "user_id": 3152047,
+      "full_name": "Nikolai Vogler",
+      "title": "Founder/CTO",
+      "founder_bio": "CS PhD from UCSD and ex-CMU LTI. My objective is to reduce human-driven cyber risk after hearing so many stories from peers about how they’ve gotten scammed. I have worked in machine translation, optical character recognition, and document attribution, which was actually interrupted by a real-world ransomware attack.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/nikolai-vogler-3808a82b2",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/27e6b8765f3577595f09c193fa32720c34e81f6c.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 97562,
+      "title": "BeeSafe AI — Fraud Prevention Platform for Trust-Based Scams",
+      "tagline": "Stopping scams before they reach your customers",
+      "body": "![uploaded image](/media/?type=post&id=97562&key=user_uploads/3268572/9d3f5b62-fcc6-4c25-9f79-3c11e7a60a40)\n\n**TL;DR:** BeeSafe stops scams at the source by engaging with scammers to identify and shut down the fraudulent accounts they use for their operations. We are [Ariana Mirian](https://www.linkedin.com/in/arianamirian), [Nikolai Vogler](https://www.linkedin.com/in/nikolai-vogler), and [Daniel Spokoyny](https://www.linkedin.com/in/spokoyny), three PhD AI & security experts, and we pioneered the first AI system for engaging sophisticated, trust-based scammers—now we’re scaling it into a product that helps:\n\n* **Financial Services & Crypto** detect mule accounts for AML compliance\n* **Telecommunications** block suspicious inbound messages\n* **Government Agencies** take down cybercriminal operations\n\n**The Problem: The $12B Visibility Gap for Financial Institutions**\n\nHave you ever received a text like this?\n\n![uploaded image](/media/?type=post&id=97562&key=user_uploads/3268572/33ca436a-5f83-4652-ba59-bdba6898fb52)\n\nThis seemingly harmless message is the start of a sophisticated social engineering scam, sometimes referred to as “pig butchering”. Scammers strike up a conversation to build trust with their victims over time, eventually convincing them to authorize real-time, irreversible payments via P2P apps, crypto, or wire transfers:\n\n![uploaded image](/media/?type=post&id=97562&key=user_uploads/3268572/1e5c6c13-4a22-4cb0-840f-8bc24ec3fdc8)\n\n$12B was reported stolen in trust-based scams like this in the US last year, according to the FTC. With multilingual LLMs, deepfakes, and voice cloning, trust-based scam losses are skyrocketing.\n\nFinancial Services, Telcos, and Government Agencies have little visibility into trust-based scams because attackers bypass traditional fraud prevention systems (e.g. behavior-based anomaly detection):\n\n* **Off-Platform Trust Building:** Conversations are held across multiple, end-to-end encrypted platforms, leaving any one platform blind\n* **Authorized Transactions:** Victims are manipulated over time into trusting the attackers so they authorize transactions\n* **Reactive Investigations:** Enterprises only know about the scams after a victim reports lost money (if they report it at all)\n\n**The Solution: AI-Powered Scam Disruption**\n\nInstead of blocking scammers, our system intercepts and engages with them to extract intelligence, including financial mule accounts, fraudulent assets, malicious domains, crypto drainers, and other related infrastructure.\n\n![uploaded image](/media/?type=post&id=97562&key=user_uploads/3268572/59fdda02-ba50-4593-817a-68e8b7d5bca8)\n\nOur intel’s edge:\n\n* **Full Campaign Context:** we map the entire fraud operations, from initial message to financial exfiltration, allowing us to map patterns of attacks.\n* **Verified Data:** Our intelligence represents ground truth, and is not based on a probabilistic risk score. We minimize false positives by capturing details directly from the attackers.\n* **Real Time-Discovery:** all attacker infrastructure is discovered in real-time, preventing real-victim losses.\n\nWe provide instant access to high-fidelity fraud signals for B2B and deliver this to our customers in a way that does not add any friction to everyday users.\n\nWe have already enabled financial services and government agencies to identify and intercept scammers pre-transaction to prevent victim losses, with 10,000s of real scammer conversations across communication channels, and 1,000s of mule accounts + linked infrastructure already.\n\n**Our asks:**\n\nIf your organization and customers are facing trust-based fraud, we want to meet and see how BeeSafe can help.\n\nPlease reach out if you work in\n\n* anti-fraud, anti-money laundering, or compliance organization\n* consumer-facing fintechs, crypto exchanges, or telcos\n\nby sending us a message at [founders@beesafe.ai](mailto:founders@beesafe.ai) or visiting [beesafe.ai](http://beesafe.ai) to learn more.\n\n**About Us:** We are [Ariana Mirian](https://www.linkedin.com/in/arianamirian), [Nikolai Vogler](https://www.linkedin.com/in/nikolai-vogler), and [Daniel Spokoyny](https://www.linkedin.com/in/spokoyny) a team of three PhD founders from Carnegie Mellon and UC San Diego. We wrote the paper that introduced the first AI system for sophisticated, trust-based scams. We bring expertise in building AI systems for security—grounded in core machine learning research and real-world cybercrime defense—with industry research experience from Google, Microsoft, Censys, and major DoD-funded programs.",
+      "url": "https://www.ycombinator.com/launches/PNa-beesafe-ai-fraud-prevention-platform-for-trust-based-scams",
+      "votes": 21,
+      "created_at": "2026-02-06T17:43:15.281Z"
+    }
+  ]
+}

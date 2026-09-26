@@ -1,0 +1,104 @@
+{
+  "id": 29712,
+  "name": "Benchify",
+  "slug": "benchify",
+  "former_names": [],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/aa52a1a9c842c1d4e04662a2a7d816a9091d88c6.png",
+  "website": "https://www.benchify.com",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "Benchify provides an execution layer for healthcare contracts, applying contract logic across audits, claim processing, and optimization. Payments are calculated correctly today, while contract performance becomes measurable and improvable over time.",
+  "one_liner": "Executable healthcare contracts",
+  "team_size": 4,
+  "industry": "B2B",
+  "subindustry": "B2B",
+  "launched_at": 1722544425,
+  "tags": [
+    "Artificial Intelligence",
+    "Finance",
+    "B2B",
+    "Healthcare",
+    "Insurance"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Summer 2024",
+  "status": "Active",
+  "industries": [
+    "B2B"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/benchify",
+  "api": "https://devasheeshg.github.io/yc-api/batches/summer-2024/benchify.json",
+  "year_founded": 2024,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/benchifyinc/",
+  "x_url": "",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": "https://github.com/Benchify",
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/aa52a1a9c842c1d4e04662a2a7d816a9091d88c6.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [
+    "https://bookface-images.s3.us-west-2.amazonaws.com/attachments/463aa9117e0d0eaeb9290d9735da81d5f441ea88.png"
+  ],
+  "primary_partner": {
+    "name": "Nicolas Dessaigne",
+    "url": "https://www.ycombinator.com/people/nicolas-dessaigne"
+  },
+  "founders": [
+    {
+      "user_id": 1661832,
+      "full_name": "Juan Castaño",
+      "title": "Founder/CEO",
+      "founder_bio": "Juan Castaño is the co-founder and CEO of Benchify. Prior to Benchify, Juan bought and sold a business for 5x MOIC, created MVPs for 9+ clients as a UI/UX designer, devised GTM strategy at Instawork (Series C), initiated a growth product team at Klaviyo (pre-IPO), and advised on due diligence transactions at McKinsey & Company. Juan studied Economics and Human-centered design at Dartmouth and holds an MBA from MIT Sloan.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/juan-castano97/",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/1643d6d250cb2ac2cc93e0943b32a923467002fa.jpg"
+    },
+    {
+      "user_id": 1661865,
+      "full_name": "Max von Hippel",
+      "title": "Founder/CTO",
+      "founder_bio": "Max von Hippel holds a PhD in Computer Science from Northeastern University, focused on security and interactive theorem proving.  Before that, he completed a BS in Pure Mathematics at the University of Arizona.  But most importantly, he holds a Blue Belt from 10th Planet Jiu Jitsu.  Max grew up in Anchorage Alaska and is deeply passionate about software assurance (who isn't?).",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/max-von-hippel-3b90742a8/",
+      "x_url": "https://www.x.com/maxvonhippel",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/440e7dcc42e7f22354584acbb0e5d4bc626f742d.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 94193,
+      "title": "Benchify: Instant self-healing codegen",
+      "tagline": "Fix & bundle your generated code at lightspeed",
+      "body": "### **TL;DR**\n\nBenchify handles the middle mile of codegen ensuring that generated code just works and is instantly executable. It’s a one-line SDK call between LLM clients and sandboxes to deliver instant code repair, accelerated bundling, and observability.\n\n### **Who**\n\nAnyone depending on non-human-in-the-loop codegen: – app builders, dynamic websites, agents, etc.\n\n### **Problem**\n\nGenerated code breaks — constantly.\n\nOn top of normal bugs like duplicate function calls, parse errors, or missing or extra parens, AI systems introduce new ones, such as stray tool calls, /\\* rest of code goes here \\*/, and malformed diff applications. Running that code inside sandboxes only compounds the pain: every piece has to be perfect for execution to succeed, and the sandbox boot time delays the inevitable. Since all the sandboxes are just firecracker VMs designed to run anything, they’re not optimized for the common workflows builders actually care about. The result is slow setup, fragile execution, and painful feedback loops.\n\n* **Missed errors**: Users hit error screens as soon as code loads in the browser. \n* **Delayed generations**: LLM-based auto-healing stretches generation times, slowing iteration.\\\n  **Token burn**: Edge-case failures trigger endless retries that chew through tokens without progress.  Often bugs are inherently out-of-distribution and thus hard to fix with AI.\n* **Setup lag**: Sandboxes take 30-120s to boot before code even runs, adding cold-boot lag to the rep-cycle when there’s an error.\n* **Lost data:** Sandboxes don’t easily track errors and the errors or only show the first (breaking) bug, making it hard to detect all the errors in code at once to push improvements \n* **Templates:** The use of templates speeds up sandboxes but leads to even more brittleness as the template has to be in perfect lockstep with the codegen.\n\n \n\n### **Solution**\n\nBenchify combines **non-AI techniques** (static analysis + program synthesis) with **highly optimized infrastructure** to deliver _turn-key code_ — fixed and bundled — in O(1 second).\n\nIt drops in as a **one-line SDK call** between your LLM client and the sandbox. If you’re only doing front-end work, you can skip the sandbox entirely and render directly from Benchify’s bundled output.\n\n![uploaded image](/media/?type=post&id=94193&key=user_uploads/1661832/dcd85900-d61c-47e4-b71e-0ef6244e5fd0)\n\n**Code Repair**: Sub second fixes for parsing, dependency, CSS/Tailwind, type, and interaction errors (e.g. empty-Select) with more on the way. If there’s an issue you’re running into, let us know and we can add a fix!\n\n![uploaded image](/media/?type=post&id=94193&key=user_uploads/1661832/5d3a354c-69ee-4f5c-8437-0d0360f28874)\n\n**Bundling**: Build and dependency resolution in 1-3s.\n\n* _Front-end_: Returns code that instantly renders on client via our SDK.\n* _Full-stack_: Bundles code that executes in any sandbox (skipping slow dependency & build steps) — the only delay left is sandbox cold boot.\n\n![uploaded image](/media/?type=post&id=94193&key=user_uploads/1661832/10606bbc-8df4-43f8-a574-aa9f0bd97d26)\n\n**Observability**: Analytics on error patterns in generated code.\n\n**Product Demo** \n\nhttps://youtu.be/my7yzpp8AqY\n\n### **How it works**\n\nBenchify’s analysis engine detects bugs and dispatches them to a growing library of static repair strategies in a fraction of a second. Strategies are optimized for different bug types, and layered using an incremental parsing approach, since sometimes fixing one bug unlocks others.  Each candidate fix is re-analyzed, with the best one selected automatically provided it yields a strict improvement in the code.  The architecture builds on prior research in _program synthesis_ and _program repair_, where the idea is to have a collection of strategies that may or may not work at fixing different bug types, combined with an analysis and execution engine that can efficiently determine whether or not a strategy succeeded.\n\n### **Story**\n\nWe entered YC with a formal-methods-driven code review product. But unreliable LLM-generated test harnesses kept breaking it. Talking with builders made it clear: **the real bottleneck was brittle codegen itself.** We pivoted to focus entirely on making generated code self-healing.\n\n### **Ask**\n\nWe’re focused on app builders today, but our core tech generalizes: agents, self-updating sites, programmatic ads, and more.\n\nIf generated code is slowing you down, let’s talk.",
+      "url": "https://www.ycombinator.com/launches/OVF-benchify-instant-self-healing-codegen",
+      "votes": 36,
+      "created_at": "2025-09-29T17:06:35.366Z"
+    },
+    {
+      "id": 83014,
+      "title": "Benchify: Automatic code reviews that work",
+      "tagline": "Better testing without writing tests.",
+      "body": "![uploaded image](/media/?type=post&id=83014&key=user_uploads/1661832/cb65a61c-fa84-4ccf-a1d5-2f6bf33b88fa)\n\n# TL;DR\n\n[Benchify](https://www.benchify.com/) is a code review tool that uncovers real bugs by actually running your code on strategically generated inputs, using methods typically restricted to rocket science and chip design.  When errors are found, Benchify provides verified bugs, unit tests, and a patch (coming soon).\n\n# The problem\n\nEngineers (like you) spend almost half their time testing and debugging, which, let’s be honest, they’d rather spend doing literally anything else.\n\n* **Lower velocity:** Projects are delayed by testing & debugging\n* **Site outages:** Despite all the effort, critical errors slip through, leading to site outages and other failures\n* **Low test coverage:** Developing exhaustive tests is nearly impossible and generally put off for later…\n* **Shallow test depth:** Testing is limited to a few hard-coded cases\n\n# The solution\n\n![uploaded image](/media/?type=post&id=83014&key=user_uploads/1661832/ed5d818b-cba4-41cf-9ca7-f9b9ca419737)\n\nWe test your code using _magic_ (ok, formal methods) and deliver the results in an actionable comment on your PR.\n\n* **Automatic logical blueprint:** Benchify automatically writes a blueprint that says how your code is intended to function\n* **Run thousands of tests:** Benchify tests your code against the blueprint using thousands of strategically generated inputs\n* **Provide counterexamples:** Concrete, minimal counterexamples are provided when code fails so you can easily debug\n* **Generate unit tests:** We automatically translate counterexamples into unit tests for easy reproducibility and test-driven development\n* **Propose solutions:** When Benchify detects an error, it attempts to propose a solution, which it subjects to the same battery of tests as the original code\n\n## Does it work?\n\nThe testing techniques Benchify uses are typically leveraged for mission critical use cases, such as silicon chip design, rocket engineering, and high-speed trading. Our secret sauce is in making these techniques usable and actionable. \n\n# The Team\n\n![uploaded image](/media/?type=post&id=83014&key=user_uploads/1661832/09a8c140-f845-4f96-9113-6daac4963be2)\n\nMax and Juan first met as bright-eyed freshmen at Dartmouth College almost a decade ago and have been fast friends and on-and-off roommates since.  They’re deeply passionate about software assurance (who isn’t?) and excited to test your code.\n\n* [**Max**](https://www.linkedin.com/in/max-von-hippel-3b90742a8/) holds a PhD in Computer Science from Northeastern University, focused on security and interactive theorem proving. He has worked at NASA, the DoD 😉, and Galois. Most importantly, he holds a Blue Belt from 10th Planet Jiu Jitsu. \n* [**Juan**](https://www.linkedin.com/in/juan-castano97/) built and sold a business, helped companies like Instawork and Klaviyo grow, and advised on deals at McKinsey. Juan double-majored in Economics and survival skills at Dartmouth (okay, the second one isn’t official), and later picked up an MBA from MIT, where he unfortunately missed out on a chance to test his skills with the [pirate certificate](https://physicaleducationandwellness.mit.edu/about/pirate-certificate/).\n\n# Asks\n\n* Hop on a [call](https://calendly.com/d/cpyy-ffc-ynf/juan-max-30-min) with us to try out Benchify or talk about your frustrations with software testing\n* [Try out](http://www.benchify.com) our beta code reviewer and give us feedback\n* Shoot us an email at [hello@benchify.com](mailto:hello@benchify.com) with your biggest backend software testing pain points, and we’ll see if we can help out!",
+      "url": "https://www.ycombinator.com/launches/Law-benchify-automatic-code-reviews-that-work",
+      "votes": 45,
+      "created_at": "2024-08-13T23:22:03.337Z"
+    }
+  ]
+}

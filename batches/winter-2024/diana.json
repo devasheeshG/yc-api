@@ -1,0 +1,102 @@
+{
+  "id": 29404,
+  "name": "Diana",
+  "slug": "diana",
+  "former_names": [
+    "DianaHR"
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/020f142d48a9efde3733971776a68c441557dfe7.png",
+  "website": "https://getdiana.com/",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "The first business-ready OpenClaw platform. A secure AI assistant embedded directly into Slack.",
+  "one_liner": "Give Your Employee An Employee",
+  "team_size": 7,
+  "industry": "B2B",
+  "subindustry": "B2B",
+  "launched_at": 1706475260,
+  "tags": [
+    "Artificial Intelligence",
+    "Productivity",
+    "SMB",
+    "Operations",
+    "AI Assistant"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Winter 2024",
+  "status": "Active",
+  "industries": [
+    "B2B"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada",
+    "Remote",
+    "Partly Remote"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/diana",
+  "api": "https://devasheeshg.github.io/yc-api/batches/winter-2024/diana.json",
+  "year_founded": 2023,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/getdiana/",
+  "x_url": "https://x.com/getdiana",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/020f142d48a9efde3733971776a68c441557dfe7.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [
+    "https://bookface-images.s3.us-west-2.amazonaws.com/attachments/5188108d58ba66cadccba2f67ac385cbc19c6139.png",
+    "https://bookface-images.s3.us-west-2.amazonaws.com/attachments/0633e13cdc4f006028908d59a5ad054b4b713ab3.png"
+  ],
+  "primary_partner": null,
+  "founders": [
+    {
+      "user_id": 128506,
+      "full_name": "Upeka Bee",
+      "title": "Founder/CEO",
+      "founder_bio": "Upeka is the co-founder and CEO of Diana. Before Diana, she was Head of Engineering for Gusto's HR Platform, and before that, Salesforce and a string of startups.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/upeka/",
+      "x_url": "https://twitter.com/upekabee",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/4c99381b1238cb20482c9e6ec548e0acb1d74129.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [
+    {
+      "title": "DianaHR Raises $3.7M Seed Round to Redefine HR for Startups with AI Agents | DianaHR",
+      "url": "https://www.getdianahr.com/blog/dianahr-raises-3-7m-seed-round-to-redefine-hr-for-startups-with-ai-agents",
+      "date": "Sep 15, 2025"
+    }
+  ],
+  "launches": [
+    {
+      "id": 99731,
+      "title": "Diana - Give Your Employee An Employee",
+      "tagline": "The first business-ready OpenClaw platform. A governed AI assistant for every employee, embedded directly into Slack.",
+      "body": "Hey YC! 👋\n\nWe're [Upeka](https://x.com/upekabee) and [Dilan](https://x.com/dilan), co-founders of [Diana (W24)](https://x.com/getdiana).\n\nEvery OpenClaw today is an intern with root access and no oversight. ☠️🏴‍☠️\n\n**So we built the first one that has a boss.** 🦞\n\nDiana is a business-ready OpenClaw with a Governor monitoring every action - that can shut it down mid-task, before damage is done. \n\n<https://www.youtube.com/watch?v=sdka6JW9QK0>\n\n**TL;DR:**\n\n**🛡** Diana is a business-ready OpenClaw with a Governor monitoring every action\n\n**⚡** Connect 3,000+ tools via API, or log into any app via Browser Logins\n\n**🔒** Per-user credential isolation. Every employee gets their own sandboxed agent\n\n**🏗** Built by engineers from Google, Gusto, MIT, CMU, and Yale\n\n## **The Governor**\n\nHere's the thing about OpenClaw: it talks directly to your tools. Slack, Notion, your APIs. No filter. No oversight. If it hallucinates or gets prompt-injected, it acts on your systems before anyone can stop it.\n\n**Diana never talks to Slack, Notion, or your APIs directly.**\n\nEvery action routes through the Governor first. It checks intent, filters output, and watches for drift in real-time. If something is off, the Governor kills the action before it reaches your systems. Not after. Before.\n\nThe architecture:\n\n→ Slack ingress hits the Governor (trust boundary)\n\n→ Governor routes to isolated agent sandboxes\n\n→ Agent has zero DB access, zero secrets\n\n→ Every LLM and tool call goes back through the Governor\n\n→ Governor filters output before it reaches Slack\n\n## **3,000+ Integrations + Browser Logins**\n\nDiana connects to Slack, Google Workspace, HubSpot, Stripe, Notion, Linear, GitHub, and thousands more via API.\n\n**And if there is no API? Diana logs in with a browser, just like you would.**\n\nHRIS portals, benefits platforms, 401k providers, state registration websites. If you can click it, Diana can work it. All through the Governor.\n\n![uploaded image](/media/?type=post&id=99731&key=user_uploads/128506/e04c3454-71cc-4c21-a942-3ba81aa51cd3)\n\n## **Give Your Employee Their Own Employee**\n\nDon't replace your team. Give them superpowers.\n\nDiana is simple to install and use: Install to Slack → connect your tools → **just ask**:\n\n**_→_** _\"Show me our Hubspot pipeline by stage and expected close date\"_\n\n**_→_** _\"Build me a revenue dashboard in Google Sheets for our March Investor Update. Send me a revenue dashboard every month.\"_\n\n**_→_** _\"Review these 5 invoices against the tracking spreadsheet let me know if there are any discrepancies\"_\n\n**_→_** _\"Every Monday at 9am, send me a summary of the #general Slack channel from last week\"_\n\n**_→_** _\"Onboard Sarah Chen as Senior PM into HRIS Payroll. Here’s the offer letter.\"_\n\n**Diana works across finance, operations, sales, product, engineering, marketing, and HR. Built for every employee on earth. Hire humans, and help them to 10x.**\n\n![uploaded image](/media/?type=post&id=99731&key=user_uploads/128506/48d04c0d-9f5e-4983-80a5-d3a5382d8eb3)\n\n## **The Backstory**\n\nBefore Diana, we built DianaHR, a fractional HR service for SMBs. Running that business, we saw firsthand how much time operations teams waste on repetitive tasks: onboarding new hires into HRIS systems, chasing unsigned documents, answering the same benefits questions, filing state registrations.\n\nWhen OpenClaw exploded, we saw the opportunity: an AI agent that could actually do this work. But the security gaps were a dealbreaker for business use. So we built a Governor on top, added per-user credential isolation, and created Browser Logins so Diana could work with tools that don't have APIs.\n\nBacked by Y Combinator (W24), General Catalyst, and SNR Ventures. Built by a team from Google, Gusto, MIT, Carnegie Mellon, and Amazon.\n\n**And this is just the start. Our goal is an AI employee so trusted you can hand it an entire business function and let it run.**\n\n## **Our Asks**\n\n**Try Diana for free.** If you want an OpenClaw agent AND peace of mind: [**getdiana.com**](http://getdiana.com)\n\nFor YC founders we are giving one month free of our assistant tier. Ping me on Bookface or email for a code!\n\n**Feedback.** If you try Diana and something breaks or feels off, tell us. DM me on Slack, email [upeka@getdiana.com](mailto:upeka@getdiana.com), or find me on X at @upekabee\n\nLet's go. 💚\n\n![uploaded image](/media/?type=post&id=99731&key=user_uploads/128506/8868ea14-86aa-45c3-916e-6a194d45de54)\n\n",
+      "url": "https://www.ycombinator.com/launches/PwZ-diana-give-your-employee-an-employee",
+      "votes": 5,
+      "created_at": "2026-04-14T16:01:32.173Z"
+    },
+    {
+      "id": 77951,
+      "title": "✅ DianaHR - Give us your people ops and take back your time",
+      "tagline": "Put your company's people ops on autopilot and save 10+ hours a week",
+      "body": "Hey everyone! We are [Tim](https://www.linkedin.com/in/tim-kral-512b5b3/) and [Upeka](https://linkedin.com/in/upeka) and today we are launching [DianaHR.](https://getdianahr.com/) We offer businesses an expert HR and Operations team to **manage tedious people ops tasks.**\n\n**Tl;dr**\n\nWe are building a better way to support business owners with back-office tasks like compliance, HR, state registrations, employee onboarding/offboarding, and payroll and benefits administration. We add a human expert to your team, who'll run everything using your own software tools. Prices start at $99/month.\n\n**❌ The Problem** \n\nOnce you hire your \\~5th employee, you find yourself spending hours each week dealing with people ops - managing all the software yourself, spending hours on the phone with customer support, and pulling your hair trying to deal with those state registration letters. You signed up for a PEO hoping things will get better, but you don’t have any control and spend more hours dealing with their central hotline. \n\nAll you want is to focus on your business. And all this stuff gives you anxiety and you worry that you are doing something wrong. Just to make things worse, New York State has sent you a letter with a $10,000 fine.\n\n![uploaded image](/media/?type=post&id=77951&key=user_uploads/128506/d50c0995-aa60-4326-8160-f7426de967ad)\n\n**✨ Our Solution**\n\nMeet DianaHR. We offer you a fractional HR and Ops team that has seen it all. They will do what’s needed to keep you compliant, take busy work off your plate, and help you and your team focus on what matters - your business. Prices start at $99/month and are tailored based on your company's needs. Behind the scenes, we have a series of AI assistants to help scale our DianaHR experts. \n\n![uploaded image](/media/?type=post&id=77951&key=user_uploads/128506/026703cd-3aaa-439f-ac9f-e22d0ab601db)\n\n\\\n**🧑🏻‍🍳 Who We Are**\n\n![uploaded image](/media/?type=post&id=77951&key=user_uploads/128506/d91c3663-d7dd-4180-9ccc-2d902728af27)\n\nWe are Tim and Upeka. \n\nWe met at Carnegie Mellon 17 years ago. This is the third time we have worked together. \n\nBefore DianaHR, Upeka was at Gusto where she was the Head of Engineering for their HR platform. Her teams built the feature set that put Gusto on the map as an HR provider beyond payroll and benefits. Before that, she worked at Salesforce and other startups. \n\nTim was the VP of Engineering at Relay Payments, a FinTech startup. Before that, he worked as an engineer at Salesforce, Medium, and other startups. \n\n**🙌 Our Asks**\n\n* Share this with anyone you know who does compliance and HR back-office tasks and needs help! Book time [here](https://calendly.com/upeka/30min) to discuss. \n* You can follow us on [LinkedIn](https://www.linkedin.com/company/dianahr).\n\nEmail us to [founders@dianahr.ai](mailto:founders@dianahr.ai), for any questions.",
+      "url": "https://www.ycombinator.com/launches/KHH-dianahr-give-us-your-people-ops-and-take-back-your-time",
+      "votes": 52,
+      "created_at": "2024-01-30T02:40:38.048Z"
+    }
+  ]
+}

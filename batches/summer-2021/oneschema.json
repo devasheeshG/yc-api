@@ -1,0 +1,137 @@
+{
+  "id": 24404,
+  "name": "OneSchema",
+  "slug": "oneschema",
+  "former_names": [],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/0da6fd5bf7648bc26ba469b7a2a03b08186196dd.png",
+  "website": "https://www.oneschema.co",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "OneSchema Studio brings AI Cowork into your private cloud. Teams can clean and validate massive datasets at 1,000x the scale of generic AI tools - data never leaves your network, you pick the AI model, and proven work becomes a skill your whole team can reuse. It self-hosts natively on AWS, Azure, or GCP, gives you granular, role-based control over who can touch what data, and connects directly to the systems you already run - from Salesforce and Workday to SAP and Snowflake.",
+  "one_liner": "The AI Cowork for big data",
+  "team_size": 20,
+  "industry": "B2B",
+  "subindustry": "B2B -> Operations",
+  "launched_at": 1626328672,
+  "tags": [
+    "Artificial Intelligence",
+    "SaaS",
+    "B2B",
+    "Workflow Automation",
+    "AI"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": true,
+  "nonprofit": false,
+  "batch": "Summer 2021",
+  "status": "Active",
+  "industries": [
+    "B2B",
+    "Operations"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada",
+    "Remote",
+    "Partly Remote"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/oneschema",
+  "api": "https://devasheeshg.github.io/yc-api/batches/summer-2021/oneschema.json",
+  "year_founded": 2021,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/oneschema",
+  "x_url": "https://twitter.com/oneschema_co",
+  "fb_url": "https://www.facebook.com/OneSchema-145400804361261",
+  "cb_url": "https://www.crunchbase.com/organization/oneschema",
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/0da6fd5bf7648bc26ba469b7a2a03b08186196dd.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": null,
+  "founders": [
+    {
+      "user_id": 431865,
+      "full_name": "Andrew Luo",
+      "title": "Founder",
+      "founder_bio": "Co-founder of OneSchema",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/andrew-luo-6495704a/",
+      "x_url": "https://twitter.com/andrewjluo",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/a2ff370ad915adb90be4c01adca39b06083b381b.jpg"
+    }
+  ],
+  "jobs": [
+    {
+      "id": 74165,
+      "title": "Senior Software Engineer",
+      "url": "https://www.ycombinator.com/companies/oneschema/jobs/kvoGGnM-senior-software-engineer",
+      "location": "San Francisco",
+      "type": "Full-time",
+      "role": "Engineering",
+      "role_type": "Full stack",
+      "salary_range": "$135K - $200K",
+      "equity_range": "",
+      "experience": "3+ years",
+      "visa": "US citizen/visa only",
+      "skills": []
+    },
+    {
+      "id": 78794,
+      "title": "Head of Engineering",
+      "url": "https://www.ycombinator.com/companies/oneschema/jobs/4JJSgdx-head-of-engineering",
+      "location": "San Francisco, CA, US",
+      "type": "Full-time",
+      "role": "Engineering",
+      "role_type": "Engineering manager",
+      "salary_range": "$225K - $275K",
+      "equity_range": "",
+      "experience": "11+ years",
+      "visa": "US citizen/visa only",
+      "skills": []
+    },
+    {
+      "id": 79723,
+      "title": "Business Development Representative",
+      "url": "https://www.ycombinator.com/companies/oneschema/jobs/NPR2pGK-business-development-representative",
+      "location": "San Francisco, CA, US",
+      "type": "Full-time",
+      "role": "Sales",
+      "role_type": null,
+      "salary_range": "$80K - $100K",
+      "equity_range": "",
+      "experience": "1+ years",
+      "visa": "US citizen/visa only",
+      "skills": []
+    }
+  ],
+  "news": [
+    {
+      "title": "OneSchema Raises $6.3M from General Catalyst, Sequoia, and Y Combinator to Make Ingesting CSV Data Magical For Developers",
+      "url": "https://www.oneschema.co/blog/oneschema-announces-6m-fundraise",
+      "date": "Nov 16, 2022"
+    },
+    {
+      "title": "How OneSchema Raised $6.3 Million in Seed Funding Without a Pitch Deck",
+      "url": "https://www.businessinsider.com/oneschema-raised-seed-funding-without-pitch-deck-general-catalyst-sequoia-2022-11",
+      "date": "Nov 16, 2022"
+    }
+  ],
+  "launches": [
+    {
+      "id": 66712,
+      "title": "OneSchema: Embeddable CSV Importer for SaaS",
+      "tagline": "Product and engineering teams use OneSchema to save months of development time to build a CSV importer.",
+      "body": "Hi everyone, we’re Christina and Andrew, co-founders of [OneSchema](https://oneschema.co/). We’re very excited to share the launch of our new product line with you!\n\n## **Founders Backstory**\n\nAs a product manager and engineering manager, we both suffered through months of wasted engineering time building CSV importers instead of core product features. Even after launch, the [maintenance never seemed to end](https://www.oneschema.co/blog/csv-importer-cost) - parsing issues, performance improvements, and UX issues always seemed to pop up. \n\nWe decided to build OneSchema so product teams could focus on the features that matter most to their customers.\n\n## **What is OneSchema?**\n\nOneSchema is an embeddable CSV importer for SaaS companies. Product and engineering teams use OneSchema to save months of development and maintenance time and provide a best-in-class CSV import process for their customers. OneSchema cleans customer data during import, and offers helpful suggestions for resolving errors. \n\n![uploaded image](/media/?type=post&id=66712&key=user_uploads/431865/e31cbb2a-a4c0-4455-9a51-593e136d5367)\n\nOur product team is laser-focused on making data onboarding as fast and seamless as possible for your customers. We are a developer-first platform and have built OneSchema so you can have production-ready CSV import set up in less than a day.\n\n## **We'd love to hear from you!**\n\nWe’re excited to help companies deliver a delightful onboarding experience for their users. If you’re interested in learning more, feel free to [book a demo here](https://demo.oneschema.co/?utm_source=yc&utm_campaign=launchboard) or reach out to us at [founders@oneschema.co](mailto:founders@oneschema.co)",
+      "url": "https://www.ycombinator.com/launches/HM0-oneschema-embeddable-csv-importer-for-saas",
+      "votes": 20,
+      "created_at": "2022-10-14T03:54:17.378Z"
+    }
+  ]
+}

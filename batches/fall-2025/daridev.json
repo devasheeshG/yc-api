@@ -1,0 +1,102 @@
+{
+  "id": 30864,
+  "name": "dari.dev",
+  "slug": "daridev",
+  "former_names": [
+    "Dari"
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/db1cb9787e09629b6ccb1639f659a5f8d0bb21b1.png",
+  "website": "https://dari.dev",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "We let developers run more agents while keeping your token bill low. We train custom models to determine how we can maintain performance while reducing your token bill. \r\n\r\nIntegrate into your own apps, or use our router with Claude Code, Codex, or any agent of your choice. ",
+  "one_liner": "The Routing Layer for AI Agents",
+  "team_size": 2,
+  "industry": "B2B",
+  "subindustry": "B2B -> Engineering, Product and Design",
+  "launched_at": 1759188885,
+  "tags": [
+    "Developer Tools",
+    "B2B"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Fall 2025",
+  "status": "Active",
+  "industries": [
+    "B2B",
+    "Engineering, Product and Design"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/daridev",
+  "api": "https://devasheeshg.github.io/yc-api/batches/fall-2025/daridev.json",
+  "year_founded": 2025,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/usedari/",
+  "x_url": "https://x.com/daridotdev",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/db1cb9787e09629b6ccb1639f659a5f8d0bb21b1.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Harj Taggar",
+    "url": "https://www.ycombinator.com/people/harj-taggar"
+  },
+  "founders": [
+    {
+      "user_id": 870512,
+      "full_name": "Avyay Varadarajan",
+      "title": "Founder/CEO",
+      "founder_bio": "Building dari.dev. Previously CS @ Caltech, SWE @ Uber, ML @ Lakers, startups. ",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/avyayv/",
+      "x_url": "https://x.com/avyvar",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/884b1b579b56379ff3af578d2418d837f1073468.jpg"
+    },
+    {
+      "user_id": 2528047,
+      "full_name": "Benjamin Hong",
+      "title": "Founder/CTO",
+      "founder_bio": "Building dari.dev",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/benjaminyhong/",
+      "x_url": "https://x.com/benhong03",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/2c2c7ad088a41bdb8bec806722ed8ec8077d89ce.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 101252,
+      "title": "dari.dev - The easiest way to deploy your agents to production",
+      "tagline": "Get a versioned, stateful API for your long-running agent in 5 minutes",
+      "body": "Point our CLI at your agent project, run `dari deploy`and get a production-ready agent API.\n\n<https://youtu.be/Y6CdktXcF24>\n\n## What it is\n\n[dari.dev](http://dari.dev) turns an agent project into a **versioned, stateful API endpoint**. We’re building on top of the best open-source harnesses starting with **Pi**. Support coming soon for **Hermes** Agent. Book a call to deploy your proprietary harness.\n\n### How it works:\n\n* Drop a dari.yml + tools + skills at your repo root\n* “dari deploy .” uploads a snapshot and publishes a new version behind a stable agent URL\n* Clients open a **durable session** and stream multimodal events (text, files, images)\n* The platform runs the harness, spins up a sandbox workspace per session, and handles logs, retries, and credentials\n* New publishes create new versions. In-flight sessions stay pinned to the version they started on\n\n## The problem:\n\nIf you're building an agent right now, you're probably:\n\n* Stitching together durable execution + a sandbox provider + Postgres + a secret store yourself\n* Losing state when a turn crashes mid-execution\n* Shipping “agents” that can’t survive a 30-minute task\n* Rebuilding the same infra (auth, retries, workspace, logs) on every project\n\nMost agents break mid-task.\n\n## With [dari.dev](http://dari.dev):\n\n* **Durable sessions:** Long-running tasks survive crashes, restarts, and redeploys. Resume from the same session_id days/months/years later.\n* **Versioned deploys:** Every publish is a new version behind one stable URL. Roll forward without breaking live sessions.\n* **Bring your own sandbox:** Sandboxes run under your provider account and API key. You control limits and data. E2B today, Daytona / Blaxel / Modal coming soon.\n* **BYOK with OpenRouter / any OpenAI-compatible API endpoint:** Use your own key, pick your model, control spend, keep logs.\n* **Custom tools**: Drop Python or TypeScript tools under tools/&lt;name&gt;/. We run them with retry policies you define.\n\n**The API:**\n\nPublish once. Then, create a session and send messages + stream responses.\n\nWe provide full observability, session-level event logs, per-turn state, and workspace file outputs attached to the session lifecycle.\n\n## Why we built this\n\nWe started building browser automation agents and kept hitting the same missing primitive, a durable control plane underneath.\n\nWe built it for ourselves, then realized every other team shipping agents (coding, research, ops) is rebuilding the same layer.\n\nIf you’ve wired together durable execution + a sandbox provider + Postgres + a secret store just to run one agent in prod, this is for you.\n\n## Get access\n\n* App: [app.dari.dev](http://app.dari.dev), docs: [docs.dari.dev](http://docs.dari.dev)\n* Install the CLI, run `dari auth login`then publish from your repo\n* Pricing: Either you pay your providers directly (E2B + OpenRouter/OpenAI) or use our managed Anthropic/OpenAI/OpenRouter offerings. No markup from us initially.\n\nBook a call: calendly.com/avyay-dari/30min or email me at [avyay@dari.dev](mailto:avyay@dari.dev).",
+      "url": "https://www.ycombinator.com/launches/QL6-dari-dev-the-easiest-way-to-deploy-your-agents-to-production",
+      "votes": 4,
+      "created_at": "2026-05-12T22:10:48.140Z"
+    },
+    {
+      "id": 94481,
+      "title": "Dari - The easiest way to build reliable browser use agents",
+      "tagline": "Build browser agents that can cache workflow steps and handle two-factor authentication. ",
+      "body": "Hey everyone,\n\nWe’re [Ben](https://www.linkedin.com/in/benjaminyhong/) and [Avyay](https://www.linkedin.com/in/avyayv/), the cofounders of [Dari](https://www.usedari.com)!\n\n**Tl;dr**\n\nhttps://youtu.be/qE8wWHLhcv0\n\nWe've built the first browser automation platform reliable enough for production. While other agents fail on repetitive tasks, Dari caches successful workflows and handles 2FA automatically, making browser automation actually work for real businesses.\n\n![uploaded image](/media/?type=post&id=94481&key=user_uploads/870512/3189ec11-b583-4b3e-94a8-a489ace5f2a0)\n\n❌ **The Problem** / ✅ **Our Value**\n\nRunning regular browser use agents as-is has limited viability for repetitive tasks. They're too slow, too expensive, and too unreliable. And forget about authenticated sites: most agents can't handle 2FA at all.\n\nDari is different. We're purpose-built for production use, combining intelligent caching with automatic 2FA handling so your automations actually run reliably, day after day.\n\n![uploaded image](/media/?type=post&id=94481&key=user_uploads/870512/3282af1a-0e2b-4e5b-a6ef-24962de4c65e)\n\n**💪 Our 3 Core Strengths**\n\n**1. 🔒 2FA That Actually Works: Automate Authenticated Workflows**\n\n* **Universal 2FA support:** Automatically handles text message codes, TOTP authenticators, and email verification.\n\n**2. ⚡ Intelligent Caching: Fast and Reliable**\n\n* **Run once, cache forever:** After running a workflow with an LLM once, Dari can replay the workflow using deterministic DOM steps\n* **Fallback intelligence:** If a site changes, Dari automatically detects it, adapts, then caches the new path\n* **Why other agents fail:** Regular browser-use agents call LLMs on every single run. Dari only uses AI when needed.\n\n**3. 🧩 Built for Developers: Real Integration, Not Toys**\n\n* **Chat-to-automation:** Describe your workflow in plain English and get a working automation in seconds.\n* **API-first triggers:** Start workflows via POST request, integrate directly into your stack.\n* **Webhook & Wait:** Call your backend mid-workflow, run custom code, and continue the automation seamlessly.\n\n**💥 Real Impact**\n\n* A voice AI company automated data entry and form filling tasks, saving 10+ hours per week.\n\n**🧑‍💻🧑‍💻 How we got here**\n\nWe’re two Caltech CS grads who have previously worked on software at Amazon and Uber. \n\nWe’ve been building with browser use agents since the initial model releases and were constantly frustrated by how unreliable they were for production use-cases. We built Dari to fix the problems we’ve noticed since the start. \n\n**🎉 Get Started**\n\nSign up or schedule a demo at [usedari.com](http://usedari.com) or contact us at [founders@usedari.com](mailto:founders@usedari.com). ",
+      "url": "https://www.ycombinator.com/launches/OZt-dari-the-easiest-way-to-build-reliable-browser-use-agents",
+      "votes": 21,
+      "created_at": "2025-10-08T16:09:36.103Z"
+    }
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "id": 29187,
+  "name": "OpenPipe",
+  "slug": "openpipe",
+  "former_names": [],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/78827e9e8ab6d62b5e66b11dffea9ae771b7d97a.png",
+  "website": "https://openpipe.ai/",
+  "all_locations": "Seattle, WA, USA",
+  "long_description": "OpenPipe is an SDK that abstracts away fine-tuning custom models. We capture your existing provider’s prompt-completion pairs in the background and use them to create a new model that is faster, cheaper and often more accurate than the original.",
+  "one_liner": "Turn expensive prompts into cheap fine-tuned models",
+  "team_size": 2,
+  "industry": "B2B",
+  "subindustry": "B2B -> Engineering, Product and Design",
+  "launched_at": 1690818525,
+  "tags": [
+    "AIOps",
+    "Artificial Intelligence",
+    "Open Source"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Summer 2023",
+  "status": "Acquired",
+  "industries": [
+    "B2B",
+    "Engineering, Product and Design"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/openpipe",
+  "api": "https://devasheeshg.github.io/yc-api/batches/summer-2023/openpipe.json",
+  "year_founded": 2023,
+  "city": "Seattle",
+  "country": "US",
+  "linkedin_url": "",
+  "x_url": "https://twitter.com/OpenPipeAI",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": "https://github.com/openpipe/openpipe",
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/78827e9e8ab6d62b5e66b11dffea9ae771b7d97a.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Harj Taggar",
+    "url": "https://www.ycombinator.com/people/harj-taggar"
+  },
+  "founders": [
+    {
+      "user_id": 203501,
+      "full_name": "Kyle Corbitt",
+      "title": "Founder",
+      "founder_bio": "Repeat founder and former engineer at Google and YC. Led the Startup School team and built products that increased YC applications by over 40%.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/kcorbitt",
+      "x_url": "https://twitter.com/corbtt",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/61a7e3b87e48ae759ab6ad3f1abe5d76c39e6dbc.jpg"
+    },
+    {
+      "user_id": 323984,
+      "full_name": "David Corbitt",
+      "title": "Founder",
+      "founder_bio": "I'm a co-founder at OpenPipe, a platform for turning your slow and expensive prompts into cheap fine-tuned models. My cofounder and I wrote the first web agent that ran on GPT-4 (Taxy.AI) and I've been fine-tuning models since 2021.",
+      "is_active": true,
+      "linkedin_url": "https://linkedin.com/in/davidcorbitt",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/df70a826af6890cc6dc3e0aabda4ca6e185e8780.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [
+    {
+      "title": "Seattle startup OpenPipe raises $6.7M to help companies reduce costs for LLM models – GeekWire",
+      "url": "https://www.geekwire.com/2024/seattle-startup-openpipe-raises-6-7m-to-help-companies-reduce-costs-for-llm-development/",
+      "date": "Mar 26, 2024"
+    }
+  ],
+  "launches": [
+    {
+      "id": 74436,
+      "title": "OpenPipe: Convert expensive LLM prompts into fast, cheap fine-tuned models",
+      "tagline": "OpenPipe automatically captures your existing prompts and completions, then uses them to fine-tune a drop-in replacement. The replacement is faster, cheaper and often more accurate than your original prompt.",
+      "body": "Hi there! We’re Kyle and David, and we’re building [OpenPipe](https://openpipe.ai/). OpenPipe lets you capture your existing prompts and completions, and then use them to fine-tune a model specific to your use-case. Here’s how the process works:\n\n![uploaded image](/media/?type=post&id=74436&key=user_uploads/203501/750c83fe-b66d-40b8-bec3-63049b029360)\n\n## Problem: General-Purpose LLMs are slow and expensive\n\nBefore working on OpenPipe, we each ran into limitations of GPT-3.5 and GPT-4:\n\n* **David** built an app that required searching Reddit and classifying the results on user-specific dimensions. Because the set of possible results that GPT-3.5 had to classify was so large, each search cost multiple dollars!\n* **Kyle** built (and sold) a startup that involved translating official documents. It was difficult to express the specific requirements that official translations must comply with in a way that GPT-3.5 would reliably follow, but GPT-4 was too slow to provide a good user experience.\n\nWe’ve spoken with many other companies and these issues are common. Cost and latency are two major factors blocking production deployment of LLM-backed functionality.\n\n## Solution: Replace prompts with auto-deployed fine-tuned models\n\nSmall models fine-tuned on a specific prompt are highly performant and can excel at many tasks. They’re particularly good at data extraction and classification, even on tasks that need significant world knowledge.\n\nFor example, in [one project](https://github.com/OpenPipe/OpenPipe/tree/main/examples/classify-recipes) we built to classify recipes, our model was able to determine that a recipe that calls for sautéed mushrooms needs a stovetop, despite not being explicitly trained on that connection. It outperformed GPT-3.5 in classification accuracy and reached 95% of GPT-4’s performance.\n\nAnd not only does our fine-tuned model outperform GPT-3.5, it costs 50X less to run!\n\n![uploaded image](/media/?type=post&id=74436&key=user_uploads/203501/c4655ba3-5023-4010-9fae-ea71cc0e2ccb)\n\nWe’ve built infrastructure to make fine-tuning your own model extremely easy. The process works like this:\n\n* Develop a prototype of your LLM-powered feature using GPT-3.5 or 4 like normal.\n* Collect prompts and completions over time using our reporting SDK.\n* Once you have a few hundred to a few thousand completions recorded, kick off a training job in our UI.\n* A few hours later, your model will be ready. You can either download it and self-host, or host it with us.\n* Update your SDK’s URL to point to the new model. Keep your prompts and application code exactly the same — everything will just work!\n\n## Our Ask\n\n* If you’re prototyping or rolling out a product that is hurt by the slow responses or high costs of your existing LLM provider, talk to us.\n* If you know someone who is prototyping or rolling out AI-based functionality within a large company, link them to this post or just put them in contact with us directly.\n\nYou can reach us at [founders@openpipe.ai](mailto:founders@openpipe.ai). We’d love to help out if we can!",
+      "url": "https://www.ycombinator.com/launches/JMa-openpipe-convert-expensive-llm-prompts-into-fast-cheap-fine-tuned-models",
+      "votes": 99,
+      "created_at": "2023-08-28T14:59:50.515Z"
+    }
+  ]
+}

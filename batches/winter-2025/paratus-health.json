@@ -1,0 +1,97 @@
+{
+  "id": 30337,
+  "name": "Paratus Health",
+  "slug": "paratus-health",
+  "former_names": [
+    "Paratus"
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/fcaf4d4e89631a63bee94c1af531a630ac0f1858.png",
+  "website": "https://paratushealth.com/",
+  "all_locations": "New York City, NY, USA",
+  "long_description": "Voice agents for outpatient facilities. ",
+  "one_liner": "healthcare AI",
+  "team_size": 2,
+  "industry": "Healthcare",
+  "subindustry": "Healthcare -> Healthcare IT",
+  "launched_at": 1739954707,
+  "tags": [
+    "Sales",
+    "Sales Enablement",
+    "Digital Health",
+    "Healthcare IT"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Winter 2025",
+  "status": "Active",
+  "industries": [
+    "Healthcare",
+    "Healthcare IT"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": true,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/paratus-health",
+  "api": "https://devasheeshg.github.io/yc-api/batches/winter-2025/paratus-health.json",
+  "year_founded": 2024,
+  "city": "New York City",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/paratus-health/",
+  "x_url": "",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/fcaf4d4e89631a63bee94c1af531a630ac0f1858.png",
+  "app_video_url": null,
+  "dday_video_url": "https://bookface-images.s3.us-west-2.amazonaws.com/video_event/70/1741807853-4e74bb6851349ddc607610d367b3dd46/4d0f81547b253eff6f3f00ae0047ec04.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQC4NIECABPQ2AHNW%2F20260926%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260926T022130Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=86cbb20d88b2e69109d88b9b7fcece0130d70215465d9d7d5a152208ae83ec07",
+  "company_photos": [
+    "https://bookface-images.s3.us-west-2.amazonaws.com/attachments/b044e323692159f97fcd12881fd4c38108d67922.png"
+  ],
+  "primary_partner": {
+    "name": "Aaron Epstein",
+    "url": "https://www.ycombinator.com/people/aaron-epstein"
+  },
+  "founders": [
+    {
+      "user_id": 2004293,
+      "full_name": "Pablo Bermudez-Canete",
+      "title": "Founder/CEO",
+      "founder_bio": "Digital Healthcare | Stanford CS - AI | Spain",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/pablobermudezcanete?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/1142e0d8482be3da770fba2914975682f4f1fb26.jpg"
+    },
+    {
+      "user_id": 1786718,
+      "full_name": "Tannen Hall",
+      "title": "Founder/CTO",
+      "founder_bio": "Digital Healthcare | Stanford CS - AI",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/tannen-hall/",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/22564959168e9d076dcb70069660cc92637b541f.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 87836,
+      "title": "Paratus Health – Conversational Patient Intake",
+      "tagline": "A conversational agent that prescreens patients like an intake nurse.",
+      "body": "### **Introducing Paratus – AI-Powered Patient Intake**\n\n**TL;DR**\n\nPatients wait months for an appointment, often with no guidance or symptom tracking in the meantime. When they finally see a doctor, the first 5-10 minutes of the visit are wasted gathering history instead of diagnosing and treating.\n\n**Right now, there are only two ways to handle patient intake:**\n\n* **Static intake forms** – Miss key details, forcing doctors to play catch-up.\n* **Triage nurses** – Costly, difficult to scale, and still prone to oversight.\n\nParatus changes this. Our AI-powered intake assistant gathers symptoms, flags concerns, and delivers a structured clinical summary before the visit even starts—so doctors walk in fully informed.\n\nWatch our demo [here](https://youtu.be/KHh7fp5svY8).\n\n### **It’s Time for a New Wave of AI-Powered Intake**\n\n✅ **Conversational AI engages patients before their visit,** collecting deeper insights than any form ever could.\\\n✅ **Doctor-approved triage** – Uses **500+ Schmitt-Thompson protocols** and cross-checks medical literature.\\\n✅ **Instant structured reports** – Doctors walk in fully prepared with:\n\n* Symptom history & differential considerations\n* Next steps & testing recommendations\n* A pre-visit SOAP note for the EHR\n* A full conversation transcript for review\n\n**Think of it as a triage nurse who never misses a detail—at a fraction of the cost.**\n\n### **How It Works**\n\n1. **Instant Patient Connection** – The patient clicks an SMS link and connects with our AI assistant.\n2. **Conversational AI Consultation** – Our AI dynamically adapts to responses, uncovering key details just like a triage nurse.\n3. **Automated Pre-Visit Reports** – We run the full transcript through our fine-tuned LLM, extracting structured insights for the doctor.\n\n### **The Problem: Long Waits & Inefficient Intake**\n\n* **Months-long wait times** leave patients in limbo with no support.\n* **Doctors start visits blind**, leading to rushed decisions and missed symptoms.\n* **Triage nurses are expensive and inefficient**, yet essential for collecting high-quality data.\n\nParatus solves these problems, ensuring patients feel heard before their visit and doctors can focus on diagnosis, not data collection.\n\n### **What Patients Are Saying**\n\n_\"I called as a mother for my son’s ear pain. I was impressed by the AI’s clarity, empathy, and ability to ask the right questions. Honestly, it was better to talk to than a real nurse!\"_\n\n### **Why Us?**\n\nBest friends Tannen Hall and Pablo Bermudez-Canete, both AI students from Stanford, founded Paratus Health to fix a problem they experienced firsthand—the broken patient intake process.\n\nFor 11 years, Tannen watched his family members - and himself - grow sicker without a diagnosis for a rare disease. They endured months-long waits for every appointment, only to leave with more questions than answers. Each new doctor started from scratch, missing critical details that could have led to the right diagnosis sooner. By the time they finally got answers, it was too late to undo the damage.\n\nThat experience left Tannen frustrated with a system that forces patients to wait in limbo while their health deteriorates. He wrote about this problem in his Stanford application, and today, there is no one more determined to fix it.\n\nNow, he and Pablo are building Paratus, an AI-powered intake platform that ensures no patient is left waiting without support and no doctor walks in unprepared.\n\n![uploaded image](/media/?type=post&id=87836&key=user_uploads/1786718/3a9b560c-8f62-4376-9297-67a19ff14f04)\n\n### **Our Vision**\n\nA world where doctors walk in ready to diagnose, not gather symptoms- because every patient’s full story is already in their hands.\n\n### **Our Ask**\n\nWe’re currently running pilots and looking to connect with:\n\n* Hospitals\n* Physician offices\n* Outpatient facilities\n* Private clinics\n\nBook a demo [here](https://calendly.com/pablo-paratushealth/30min?month=2025-02)!\n\nIf you know someone who should see this, we’d love an introduction! Reach us at [pablo@paratushealth.com](https://mailto:pablo@paratushealth.com) or on [linkedin!](https://www.linkedin.com/company/paratushealth/)\n\n**Let’s fix patient intake - so doctors can focus on care.**",
+      "url": "https://www.ycombinator.com/launches/Mqi-paratus-health-conversational-patient-intake",
+      "votes": 94,
+      "created_at": "2025-02-19T22:11:23.963Z"
+    }
+  ]
+}

@@ -1,0 +1,118 @@
+{
+  "id": 28074,
+  "name": "Keep",
+  "slug": "keep",
+  "former_names": [
+    "Paladin"
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/ca57c15ee63fa6b716d10d0f8f29a5e1732f44e4.png",
+  "website": "https://www.keephq.dev",
+  "all_locations": "Tel Aviv-Yafo, Tel Aviv District, Israel; Remote",
+  "long_description": "Keep is an open-source AIOps platform. Keep acts as a single pane of glass to all your alerts from any monitoring tool and helps you turn 1000s into just 10s of meaningful alerts.\r\n\r\nKeep joined forces with Elastic on May 2025.",
+  "one_liner": "The open-source AIOps platform",
+  "team_size": 5,
+  "industry": "B2B",
+  "subindustry": "B2B -> Engineering, Product and Design",
+  "launched_at": 1674164403,
+  "tags": [
+    "SaaS",
+    "B2B",
+    "Open Source",
+    "Monitoring"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Winter 2023",
+  "status": "Acquired",
+  "industries": [
+    "B2B",
+    "Engineering, Product and Design"
+  ],
+  "regions": [
+    "Israel",
+    "Middle East and North Africa",
+    "Remote",
+    "Fully Remote"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/keep",
+  "api": "https://devasheeshg.github.io/yc-api/batches/winter-2023/keep.json",
+  "year_founded": 2023,
+  "city": "Tel Aviv-Yafo",
+  "country": "IL",
+  "linkedin_url": "https://www.linkedin.com/company/keepalerting",
+  "x_url": "https://twitter.com/keepalerting",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/ca57c15ee63fa6b716d10d0f8f29a5e1732f44e4.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Aaron Epstein",
+    "url": "https://www.ycombinator.com/people/aaron-epstein"
+  },
+  "founders": [
+    {
+      "user_id": 1194329,
+      "full_name": "Tal Borenstein",
+      "title": "Founder",
+      "founder_bio": "Formerly an engineering manager, now CEO. Tech-savvy with vast experience leading software teams of SaaS products.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/talbo",
+      "x_url": "https://twitter.com/talboren",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/efce62171280879cdbed15a6c634d821fbab1bc9.jpg"
+    },
+    {
+      "user_id": 1196207,
+      "full_name": "Shahar Glazner",
+      "title": "Founder",
+      "founder_bio": "Passionate about building stuff. Less is more. Long-distance runner.\nOccasionally (hopefully more) writes on shaharglazner.medium.com",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/shahar-glazner-29294654/",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/a59b17a4ebe14a0690f9119a56d1d26b7aaf9f17.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [
+    {
+      "title": "\n\tElastic - Elastic Completes Acquisition of Keep\n",
+      "url": "https://ir.elastic.co/news/news-details/2025/Elastic-Completes-Acquisition-of-Keep/default.aspx",
+      "date": "May 20, 2025"
+    },
+    {
+      "title": "Elastic and Keep join forces to help users manage alerts and automate workflows | Elastic Blog",
+      "url": "https://www.elastic.co/blog/elastic-and-keep-join-forces",
+      "date": "May 06, 2025"
+    },
+    {
+      "title": "אחרי 8200 ו-Y Combinator: הסטארטאפ הישראלי Keep נחשף עם גיוס הון ראשון",
+      "url": "https://www.geektime.co.il/keep-raises-seed-from-yc/",
+      "date": "Oct 15, 2024"
+    },
+    {
+      "title": "Keep's AIOps platform helps ops teams reduce alert fatigue | TechCrunch",
+      "url": "https://techcrunch.com/2024/10/15/keeps-aiops-platform-helps-ops-teams-reduce-alert-fatigue/",
+      "date": "Oct 15, 2024"
+    }
+  ],
+  "launches": [
+    {
+      "id": 70094,
+      "title": "Keep - Open source alerting CLI",
+      "tagline": "Open source alerting CLI for all observability tools, with a simple and intuitive (GitHub actions-like) syntax.",
+      "body": "Hey YC 👋, Shahar and Tal here 🚨\n\n![uploaded image](/media/?type=post&id=70094&key=user_uploads/1194329/3ba4c3ed-1965-4bf4-a261-985cecaff39e)\n\nWe are thrilled to share Keep with the YC community today!\n\n[Keep](https://github.com/keephq/keep) is an open-source alerting CLI alternative to Prometheus Alertmanager or Grafana Alerts, but for all observability tools, with a simple and intuitive (GitHub actions-like) syntax.\n\n**😫 Problem**\n\n* Engineering teams are frustrated with the explosion of tools that trigger alerts. On average, engineering teams have more than five tools that generate alerts.\n* Using proprietary vendor alerting/monitoring products locks you into the vendor, making it extremely challenging and time-consuming to migrate at a later stage.\n* Vendors today require you to send/integrate all your data, which is a big overhead when all you want to do is simple alerting.\n\n**🚨 Why Keep?**\n\n1. Simple and intuitive (GitHub actions-like) syntax.\n2. Declarative alerting that easily be managed and versioned in your source control and service repository.\n3. Alerts from multiple data sources for added context and insights.\n4. Freedom from vendor lock-in, making it easier to switch to a different observability tool if and when needed.\n\n💻 **Demo**\n\nPlay with Keep using our [Platform](https://platform.keephq.dev/)\\\n\\\n**🙏 Asks**\n\nTry out Keep and share your feedback on how it can be improved. Here’s our GitHub repo - <https://github.com/keephq/keep>\n\nHave any questions? Join our [Slack community](https://slack.keephq.dev/) and drop us a message",
+      "url": "https://www.ycombinator.com/launches/IEY-keep-open-source-alerting-cli",
+      "votes": 44,
+      "created_at": "2023-03-09T17:20:58.252Z"
+    }
+  ]
+}
