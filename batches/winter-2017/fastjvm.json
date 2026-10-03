@@ -1,0 +1,119 @@
+{
+  "id": 1510,
+  "name": "FastJVM",
+  "slug": "fastjvm",
+  "former_names": [
+    "Manycore",
+    "Manycore.io",
+    "Manycore",
+    "Inboxbooster"
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/d20c1dd1d05527f51041212802e5e737587823ff.png",
+  "website": "https://fastjvm.com",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "FastJVM analyzes JVM bytecode and applies provably safe optimizations such as automatic parallelization.\r\n\r\nOn some workloads it already delivers up to 10× speedups; the goal is to generalize these gains across the JVM.",
+  "one_liner": "Making the JVM faster",
+  "team_size": 3,
+  "industry": "B2B",
+  "subindustry": "B2B -> Marketing",
+  "launched_at": 1478578235,
+  "tags": [
+    "DevOps",
+    "Cloud Computing"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Winter 2017",
+  "status": "Active",
+  "industries": [
+    "B2B",
+    "Marketing"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada",
+    "Remote",
+    "Partly Remote"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/fastjvm",
+  "api": "https://devasheeshg.github.io/yc-api/batches/winter-2017/fastjvm.json",
+  "year_founded": 2016,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "",
+  "x_url": "",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": "https://github.com/fastjvm",
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/d20c1dd1d05527f51041212802e5e737587823ff.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": null,
+  "founders": [
+    {
+      "user_id": 181607,
+      "full_name": "Marcus Engene",
+      "title": "Founder",
+      "founder_bio": "",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/ehsmeng/",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/4a29f1cb1e4b56f5bd282ebb25a51254c2810346.jpg"
+    },
+    {
+      "user_id": 126917,
+      "full_name": "Nicolas Toper",
+      "title": "Founder",
+      "founder_bio": "I  like to build new things.\n\nMy blog : https://deviantabstraction.com",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/nicolas",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/18068284f67dbf5187f5c9bf072d2a66bcf73a0a.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [
+    {
+      "title": "How Inboxbooster Plans To Keep Your Emails Out Of The Spam Folder",
+      "url": "https://www.forbes.com/sites/davidprosser/2023/04/18/how-inboxbooster-plans-to-keep-your-emails-out-of-the-spam-folder/",
+      "date": "Apr 18, 2023"
+    }
+  ],
+  "launches": [
+    {
+      "id": 93514,
+      "title": "AUTODOC: Open-source AI writing your Javadoc",
+      "tagline": "open-source ai writing your javadoc",
+      "body": "\\\nWriting consistent Javadoc is tedious, and even AI coding assistants often skip or misfire on it. **Autodoc** automates the boring part: it scans your PRs, understands your code, and generates high-quality Javadoc so you don’t have to.\n\n## **Key Features**\n\n* ✨ **Understands Your Code** – Skips trivial getters and setters, focusing only on meaningful docs\n* 🔄 **PR-Native** – Runs on pull requests, adds docs in a clean commit.\n* 🎯 **Team-Ready** – Customize prompts for your standards.\n* 🚀 **Open Source** – Install, use, and improve it on GitHub.\n\nSo how does it actually work?\n\n## **How It Works**\n\nOpen a PR, and Autodoc gets to work. It scans the changed Java files, **adds contextual Javadoc where it’s missing**, and pushes a separate commit with the docs. **Reviewers see the docs right inside the PR and can refine them like any other code.**\n\n## **Get Started**\n\n👉[ Get started with Autodoc on GitHub](https://github.com/manycore-com/JavadocGithubAction?utm_source=chatgpt.com)\n\n_(Requires a valid Claude API account.)_\\\n\\\nBlog post: [https://deviantabstraction.com/2025/08/29/autodoc-ai-writing-your-javadoc](https://deviantabstraction.com/2025/08/29/autodoc-ai-writing-your-javadoc/%5C)\\\nGithub Repo: https://github.com/manycore-com/JavadocGithubAction",
+      "url": "https://www.ycombinator.com/launches/OKI-autodoc-open-source-ai-writing-your-javadoc",
+      "votes": 7,
+      "created_at": "2025-09-02T18:38:30.015Z"
+    },
+    {
+      "id": 70040,
+      "title": "Inboxbooster: Get back to the inbox",
+      "tagline": "We fix email in spam",
+      "body": "**Tl;dr; If you’re in spam or promotion,** [**Inboxbooster**](https://inboxbooster.com) **will fix it. Free** [**Sign up**](https://detector.inboxbooster.com/accounts/signup/)\n\n### **My newsletter is in promotion**\n\nHave you ever had that problem? Have you ever had your business revenue drops because of spam placements? Do you dread the promotion tab?\n\n![uploaded image](/media/?type=post&id=70040&key=user_uploads/126917/27d19339-a345-4256-840e-5faaa2f3ced6)\n\nIf this ever happened to you, you’ll love us. We’re fixing this email problem once and for all. Inboxbooster fixes email in spam and promotion.\n\n### **Why are you in spam?**\n\nSenders are in spam for a combination of:\n\n* **Incorrect Email DNS Setup**. The keywords are DKIM, SPF, and DMARC.\n* **Bad Reputation**. Mailbox providers score IPs and domains from their past behavior.\n* **Content Filter**, the content of your emails triggers the filters.\n\nUsually, the root cause is a combination of these factors, and they compound. For instance, your DMARC is wrongly set up and triggers Gmail to send all your emails to spam. Because nobody is marking the email as \"not spam,\" Gmail decides that your email is spam. Now your domain and your content have a bad reputation. You fixed your DMARC, but your emails are still going to spam because of what happened.\n\n### **How does Inboxbooster fix spam placements?**\n\nSpam filters work by scoring how people interact with your emails. Once in spam, your emails are interacted with much less. Hence they tend to stay in spam. This is this vicious cycle that Inboxbooster breaks.\n\nWe resolve this quandary by identifying the elements in your email triggering the spam filter and the root cause.\n\nThe first step is to send us your email: we’ll tell you where you’re in spam, promotion, and if you have any DNS issues. This is free.\n\n![uploaded image](/media/?type=post&id=70040&key=user_uploads/126917/4410a7b2-816a-4fb6-8f82-1e58aee86ca4)\n\nThen we’ll build a step-by-step solution guide with the root cause, the short-term fix, and the long-term fix.\n\n![uploaded image](/media/?type=post&id=70040&key=user_uploads/126917/ecec4fc4-4ade-403f-b097-991093fc528b)\n\nAlso, we love talking to you, so please [book some chat time with us](https://calendly.com/inboxbooster/inboxbooster-onboarding?).\n\n### **About Us**\n\nWe, [Nicolas](https://www.linkedin.com/in/nicolas/) and [Marcus,](https://www.linkedin.com/in/ehsmeng/) built this product. We are a proud two-people company. Nicolas is a deliverability expert. He co-founded an email delivery company and delivered more than 50 billion emails in his career. Marcus is a recognized CTO who co-founded Pond5.\n\n### **Our Asks**\n\nTry it, please with it, email us, and give us feedback\n\n[Sign up](https://detector.inboxbooster.com/accounts/signup/)",
+      "url": "https://www.ycombinator.com/launches/IDg-inboxbooster-get-back-to-the-inbox",
+      "votes": 15,
+      "created_at": "2023-03-09T01:01:12.292Z"
+    },
+    {
+      "id": 65940,
+      "title": "Inboxbooster: Free Inbox Monitoring",
+      "tagline": "We tell you where, when and why your emails are in spam. Free signup.",
+      "body": "# We tell you where, when and why your emails are in spam. Free signup\n\n# \n\n# **Problem**\n\nThis email is in spam in my mailbox but its open rate is good. What happened? Google moved some emails of this senders in spam.\n\n![uploaded image](/media/?type=post&id=65940&key=user_uploads/126917/e51821f0-901e-4f66-b729-16d8b2feda8a)\n\nFor marketer or a sales person, this is an obvious problem. Most of my emails could go to spam without me knowing. How do I know? What should I do? Inboxbooster is your answer.\n\n# **Effortless Deliverability Monitoring**\n\n[Inboxbooster](https://inboxbooster.com) will answer all these questions for you. Are you significantly in spam, for which templates, where and how to get out of the spambox.\n\n# **Setup**\n\nSetup is [super simple](https://inboxbooster.com/2022/07/15/installation/): create an account, add your unique deliverability beacon to your email and you’re done.\n\n**24/7 Alert**\n\nInboxbooster will alert you 24/7 when we detect a problem.\n\nOur [Free Edition](https://inboxbooster.com/2022/07/15/why/) works only for Gmail/Workspace and tells you if you’re in spam.\n\n[Sign up](https://detector.inboxbooster.com/accounts/signup/)",
+      "url": "https://www.ycombinator.com/launches/H9Y-inboxbooster-free-inbox-monitoring",
+      "votes": 22,
+      "created_at": "2022-09-09T00:01:56.590Z"
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "id": 31423,
+  "name": "BentoLabs AI",
+  "slug": "bentolabs-ai",
+  "former_names": [],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/7ff7747818f703617e1cd9444a5600eef3511337.png",
+  "website": "https://bentolabs.ai/",
+  "all_locations": "Bengaluru, KA, India",
+  "long_description": "BentoLabs is the monitoring and learning layer for long-running agents. We detect when agents silently fail or drift from the user's goal, system prompt, or tool contracts, show affected users and root cause, and suggest the prompt, skill, or harness fix.\r\n\r\nAs more teams deploy agents, keeping them reliable in production becomes mission-critical. Bento sits directly in the production loop and gives teams the operational leverage required to scale agent ecosystems without scaling human firefighting alongside them. The result is a system that turns opaque agents into agents that can be monitored, debugged, and improved continuously.\r\n\r\nThe founders learned this problem at Emergent (YC S24), where they built and operated production coding agents used by 5M+ users. Abhinav was hire #1 and helped Emergent hit SWE-Bench #1 and scale from $0 to $100M ARR in just 8 months. Kaushik was hire #2, led full-stack engineering at Emergent, and was key to building the infrastructure that made production agents reliable, observable, and debuggable. Bento's self-learning engine has also lifted ARC-AGI-3 (internal) by 2.6x and Terminal-Bench 2.0 (internal) from 42.2% to 52.4% pass@1 with the same model, tools, and budget.",
+  "one_liner": "Monitoring and learning layer for long-running agents",
+  "team_size": 5,
+  "industry": "B2B",
+  "subindustry": "B2B",
+  "launched_at": 1779852780,
+  "tags": [],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Spring 2026",
+  "status": "Active",
+  "industries": [
+    "B2B"
+  ],
+  "regions": [
+    "India",
+    "South Asia"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/bentolabs-ai",
+  "api": "https://devasheeshg.github.io/yc-api/batches/spring-2026/bentolabs-ai.json",
+  "year_founded": 2026,
+  "city": "Bengaluru",
+  "country": "IN",
+  "linkedin_url": "https://www.linkedin.com/company/bentolabs-ai",
+  "x_url": "https://x.com/BentoLabsAI",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/7ff7747818f703617e1cd9444a5600eef3511337.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [
+    "https://bookface-images.s3.us-west-2.amazonaws.com/attachments/528e9246c120a41e449e0581235ad09a8362c746.png"
+  ],
+  "primary_partner": {
+    "name": "Nicolas Dessaigne",
+    "url": "https://www.ycombinator.com/people/nicolas-dessaigne"
+  },
+  "founders": [
+    {
+      "user_id": 808941,
+      "full_name": "Kaushik ASP",
+      "title": "Founder",
+      "founder_bio": "Kaushik was hire #2 at Emergent (YC S24), where he led full-stack engineering, built the initial infrastructure for long-running agents, and shipped the mobile-dev agent that converted ~50% better than any other. Previously Decathlon, Pazcare, and Synup.",
+      "is_active": true,
+      "linkedin_url": "https://linkedin.com/in/kaushik-asp-b0b422bb",
+      "x_url": "https://x.com/kacppian",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/5b9a5d4f81f5ad88d6f3d161ff4638fc69ae02b8.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 102358,
+      "title": "BentoLabs AI: Monitoring and Learning layer for long-running agents",
+      "tagline": "Get model-jump-sized gains without changing the model: Your agents learn from every production failure",
+      "body": "# **BentoLabs AI: the monitoring and learning layer for long-running agents**\n\n**TL;DR**: BentoLabs AI is the monitoring and learning layer for long-running agents. We detect when agents silently fail or drift from the user's goal, system prompt, or tool contracts, show affected users and root cause, and suggest the prompt, skill, or harness fix. Run 101 is measurably better than run 1.\n\n<https://youtu.be/nu6Oir3OGSM>\\\n\\\nHello everyone, we're Abhinav and Kaushik, co-founders of BentoLabs AI.\n\nAfter spending two years at Emergent (YC S24), building and operating production coding agents used by 5M+ users, helping scale from 0 to $100M ARR and topping SWE-Bench twice. We realised as more teams deploy agents, keeping them reliable, observable, debuggable and continuously improving in production becomes mission-critical. Most teams don't have a system for it. They have engineers.\n\n### **The Problem:**\n\nMost production agents fail silently. You have 10,000 traces a day and zero visibility into reasoning drift until a support ticket pops up. That's the easier half! The harder problem is that nothing your agent figures out on one run carries into the next. An agent might solve a complex edge case on run 47, but because nothing carries forward, it burns your budget rediscovering the same fix on run 48.\n\nThis makes production teams spend hours reading logs in one tab just to manually patch prompts in another, on a loop that never closes.\n\n### **The Solution:**\n\n**BentoLabs AI** The monitoring and learning layer for long-running agents.\n\n**Monitoring:** BentoLabs finds every failure instance across your production traces, classifies it, and tracks it before the support ticket pops up.\n\n![uploaded image](/media/?type=post&id=102358&key=user_uploads/2390820/55f2be9c-2363-4f4d-b3cc-98e803c9dbe6)\n\n**Learning:** BentoLabs captures what your agent figures out on every run and makes sure it carries into the next one. Recurring failures get fixed once and stay fixed. Hard-won solutions become reusable. Run 101 starts from everything runs 1 through 100 learned, not from zero.\n\n![uploaded image](/media/?type=post&id=102358&key=user_uploads/2390820/84d43836-11f5-4684-9465-8b02ab715a52)\n\n### **The Proof:**\n\n**Terminal-Bench 2.0 (Internal Run):** we validated our recursive learning engine on Terminal-Bench 2.0, one of the most demanding agentic-shell benchmarks in the field today. Where the official Claude Sonnet 4.5 baseline scores 42.2% pass@1. Our agent scored 52.4%, with the same agent, same model, same budget.A +10.2 percentage-point lift, statistically significant (p &lt; 0.05), with 13 tasks showing wins ≥ +20 pp and only 3 showing losses ([Deep Dive](https://bentolabs.ai/blog/tb2-recursive-learning-lift))\n\n![uploaded image](/media/?type=post&id=102358&key=user_uploads/2390820/016f2897-dcb5-4137-a658-98e0e7ccf525)\n\n\\\n**ARC-AGI-3 (Internal Run):** To see our engine in action, we took on ARC-AGI-3 (25 interactive puzzle games, the hardest agent benchmark we could find). While frontier models score 0.2–0.3% out of the box, 3 games the agent had never solved across \\~30 prior runs were cracked for the first time. ([Deep Dive](https://bentolabs.ai/blog/self-learning-ai-agents-arc-agi))\n\n![uploaded image](/media/?type=post&id=102358&key=user_uploads/2390820/3c51a5a5-c620-41f6-9ae0-23d9f3dda903)\n\n**Why we're building BentoLabs**\n\nWe were the engineers who were the fix for the last 2 years at Emergent, where we spent thousands of hours staring at traces, and watching teams burn hours of their best engineers' time on patching prompts, correcting tool definitions and experimenting with different skills, hoping something will stick. We are building [BentoLabs AI](https://bentolabs.ai/) to move past this repetitive cycle.\n\nWe're already working with teams at unicorn scale. Every conversation with a team running agents in production confirms the same thing: the problem is universal. BentoLabs gives them the operational leverage to scale their agent ecosystems without scaling human firefighting alongside them.\n\nIf your engineers are doing the logs-and-patches rotation or your agents keep hitting the same failures, let's have a [chat.](https://cal.com/team/bentolabs-ai/platform-demo?overlayCalendar=true) Or Email: [abhinav@bentolabs.ai](mailto:abhinav@bentolabs.ai)/ [kaushik@bentolabs.ai](mailto:kaushik@bentolabs.ai)\n\n![uploaded image](/media/?type=post&id=102358&key=user_uploads/2390820/712dcafd-cfe4-42ab-8af8-30aadcbf545d)\n\n",
+      "url": "https://www.ycombinator.com/launches/Qcw-bentolabs-ai-monitoring-and-learning-layer-for-long-running-agents",
+      "votes": 83,
+      "created_at": "2026-06-01T05:47:59.520Z"
+    }
+  ]
+}

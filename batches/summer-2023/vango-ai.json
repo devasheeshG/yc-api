@@ -1,0 +1,104 @@
+{
+  "id": 28994,
+  "name": "Vango AI",
+  "slug": "vango-ai",
+  "former_names": [
+    "vango (like Vincent “Van Gogh” ☺️)",
+    "Vango AI",
+    "Vango",
+    "Vango AI",
+    "vango ai",
+    "Vango AI",
+    "Vango"
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/81c4b7cfa70455fe6fc21054b703c4fd719269b2.png",
+  "website": "https://vango.ai/",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "We built Vango excited by the future where generative visual AI models like stable diffusion dramatically reduce the barrier to create content. While spending 8 months building products for creatives, we found ourselves building hacky tools to address many of frustrations we had with visual AI. \r\n\r\nSo we decided to build the devtool we needed: Vango is a flexible evaluation platform that makes it 10x improve visual models. Developers using visual AI models at scale use Vango to learn quantitative ways to improve their model, saving them ~10 hours per week. \r\n\r\nMajor companies building visual products have already begun integrating diffusion models, including Adobe, Disney, Activision Blizzard, Canva, and Snap. By 2025, it is estimated that 1 billion images per day will be AI-generated. ",
+  "one_liner": "Development platform that makes it 10x easier to improve visual models",
+  "team_size": 2,
+  "industry": "B2B",
+  "subindustry": "B2B -> Engineering, Product and Design",
+  "launched_at": 1692068150,
+  "tags": [
+    "Developer Tools",
+    "Generative AI",
+    "Design",
+    "Gaming",
+    "AI"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Summer 2023",
+  "status": "Inactive",
+  "industries": [
+    "B2B",
+    "Engineering, Product and Design"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/vango-ai",
+  "api": "https://devasheeshg.github.io/yc-api/batches/summer-2023/vango-ai.json",
+  "year_founded": 2022,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "",
+  "x_url": "https://twitter.com/vango_ai",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": "https://github.com/vangoai",
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/81c4b7cfa70455fe6fc21054b703c4fd719269b2.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [
+    "https://bookface-images.s3.us-west-2.amazonaws.com/attachments/60c372889dcb9b710b5ae04465f07a2824210310.png"
+  ],
+  "primary_partner": {
+    "name": "Diana Hu",
+    "url": "https://www.ycombinator.com/people/diana-hu"
+  },
+  "founders": [
+    {
+      "user_id": 887154,
+      "full_name": "Eshaan Moorjani",
+      "title": "Founder",
+      "founder_bio": "Berkeley CS",
+      "is_active": false,
+      "linkedin_url": "https://www.linkedin.com/in/eshaan-moorjani",
+      "x_url": "https://twitter.com/eshaan_moorjani",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/260a03ad08f37a350a96f0a1b7fe7fac230a6bdd.jpg"
+    },
+    {
+      "user_id": 1255237,
+      "full_name": "Rajen Dey",
+      "title": "Founder",
+      "founder_bio": "Founder at vango.ai",
+      "is_active": false,
+      "linkedin_url": "https://www.linkedin.com/in/rajen-dey-2796941b3/",
+      "x_url": "https://twitter.com/Vijnej",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/8d2630551cbb97b556d0ccbae6aa7a1cc0e11da0.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 74170,
+      "title": "Vango 🎨 - Build with + evaluate Stable Diffusion fast",
+      "tagline": "Try Vango, the fastest way to build and analyze diffusion models! ",
+      "body": "**tl;dr:** _Vango makes it 10x easier to build and evaluate Stable Diffusion workflows in your app. Developers use Vango to deploy Stable Diffusion in minutes and achieve high-quality images faster than any existing solution._\n\n_Hello world_ — Eshaan and Rajen here!\n\n![uploaded image](/media/?type=post&id=74170&key=user_uploads/887154/c555fc75-23e2-4ba7-9384-8d74b8378765)\n\nWe’re thrilled to show y’all what we’ve been working on, let’s begin!\n\n### 🐷 Problem:\n\nWe’ve all seen how unique, highly customizable, and beautiful AI art can be — **but it’s incredibly tedious to deploy and maintain Stable Diffusion in your app.**\n\nBuilding apps on top of stable diffusion is an unnecessarily tedious and manual process. You have to:\n\n* **Select the right models, hyperparameters, and prompts:** These have huge impact on the content, quality, and style of outputs. To achieve the best results, developers spend hours testing each model, parameter, or prompt individually.\n* **Add guardrails:** Ensuring that your model does not generate unintended NSFW or discriminatory images takes hours of careful testing.\n* **Deploy on GPUs:** Like everything in AI right now, developers must obtain and configure a juicy high-VRAM GPU to run Stable Diffusion fast.\n\n  \n\n### **💜 Solution:**\n\n**Vango empowers developers to build and evaluate stable diffusion models faster than ever.**\n\n## 🧱 Build workflows & deploy as API\n\nWatch us build a corgi generator and deploy it as a scalable API in seconds.\n\n![uploaded image](/media/?type=post&id=74170&key=user_uploads/887154/36fc2f9f-0d81-4e81-aeca-f849103d2652)\n\n## 🤖 Perfect the hyper-parameters\n\n**Vango helps you evaluate models quantitatively.** Vango will track metrics across thousands of prompts — including NSFW content, crossed eyes, disfigured limbs/fingers, cropped faces, and prompt alignment.\n\n1. Specify your models (either as `.safetensors` or `.ckpt` file, Cog container, API endpoint, or Vango workflow)\n2. Provide us your prompts or _use one of our prompt datasets with thousands of examples_.\n3. Use our quantitative features to learn how models compare\n\n![uploaded image](/media/?type=post&id=74170&key=user_uploads/887154/dcd39f7d-6900-4402-91d7-8fc530ca3b0e)\n\nAnd for more granular analysis, you can filter all the images based on failure modes. In the video below, you can see us finding the images that have deformed hands.\n\n![uploaded image](/media/?type=post&id=74170&key=user_uploads/887154/6c83e176-d63b-4e23-8cbc-a5cac60bfb2f)\n\n### 🐻 About us:\n\nWe’re best friends, neighbors back home in Maryland, and college roommates (and literally sharing a triple in SF right now)! We’ve been doing class projects + side projects together for over 3 years now 🙉.\n\nEshaan has researched multimodal models at Berkeley AI Research (BAIR), low-compute visual detection systems at NASA JPL, and anomaly detection at Citadel Securities. And Rajen has built wide-ranging software at Amazon, Nuro, Two Sigma, and Solana.\n\nAnd we both graduated from UC Berkeley a year early to work on Vango! We discovered this problem while developing our own diffusion apps after noticing first-hand how AI can help creatives in VFX.\n\n### 📩 Asks:\n\nIf you are (or know anybody that is) building apps with stable diffusion, we’d love to chat and see how we can help! We’re currently onboarding our early partners.\n\nIf you’re interested, sign up for our waitlist [here](https://forms.gle/ExYEf2HTeNBWJfa19) or shoot us an email at [founders@vango.ai](mailto:founders@vango.ai).",
+      "url": "https://www.ycombinator.com/launches/JII-vango-build-with-evaluate-stable-diffusion-fast",
+      "votes": 33,
+      "created_at": "2023-08-16T21:38:41.929Z"
+    }
+  ]
+}

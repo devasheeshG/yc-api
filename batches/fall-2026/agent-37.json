@@ -1,0 +1,83 @@
+{
+  "id": 34893,
+  "name": "Agent 37",
+  "slug": "agent-37",
+  "former_names": [],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/ab818d15979a4594472be995a13a8be6107d4517.png",
+  "website": "https://www.agent37.com/cloud",
+  "all_locations": "New York City, NY, USA",
+  "long_description": "* Ready to Use Instantly: Skip the complex server setup. It comes pre loaded with top AI Agents (like Claude Code and Hermes) so your agents can start working immediately.\r\n\r\n* Keep Your Work Safe: Unlike other systems that delete everything when they finish a task, these sandboxes remember your files, code, and settings forever until you delete them.\r\n\r\n* Pay Only for What You Use: Stop paying for idle servers. You pay a tiny fee to store your files, but you only pay for compute power during the exact minutes your AI is actively running.\r\n\r\n* Zero Infrastructure Headaches: You don’t need to be a senior DevOps engineer or manage complex cloud networks. One simple command handles the entire backend for you.\r\n\r\n* Connect to Any App: Allow your AI agents to securely log into and interact with everyday tools like Slack, Gmail, and GitHub in just a few clicks.",
+  "one_liner": "Persistent sandboxes for agents like hermes, openclaw, claude code",
+  "team_size": 0,
+  "industry": "B2B",
+  "subindustry": "B2B -> Infrastructure",
+  "launched_at": 1789425415,
+  "tags": [
+    "Developer Tools",
+    "SaaS",
+    "B2B",
+    "AI"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Fall 2026",
+  "status": "Active",
+  "industries": [
+    "B2B",
+    "Infrastructure"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/agent-37",
+  "api": "https://devasheeshg.github.io/yc-api/batches/fall-2026/agent-37.json",
+  "year_founded": 2026,
+  "city": "New York City",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/agent37",
+  "x_url": "",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/ab818d15979a4594472be995a13a8be6107d4517.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Andrew Miklas",
+    "url": "https://www.ycombinator.com/people/andrew-miklas"
+  },
+  "founders": [
+    {
+      "user_id": 316679,
+      "full_name": "VISHNU KRISHNAPRASAD",
+      "title": "Founder/CEO",
+      "founder_bio": "Founder at Agent 37. Previously Senior Software Engineer at Amazon and Engineering Manager at Quantcast. Founded Real Voxel and Dota2Connect. Began career at ThoughtWorks, progressing from Application Developer to Senior Consultant. Master's in Information Science Management from Carnegie Mellon University.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/vishnukrishnaprasad/",
+      "x_url": "https://x.com/an_engineer_log",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/af07909e3a573c596618d0c014a2af0d27690338.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 117160,
+      "title": "Agent37: Host any agent harness",
+      "tagline": "Agent sandboxes that are 94% lower compute cost ",
+      "body": "Hi everyone, I'm Vishnu, founder of Agent37.\n\n**TL;DR:** Agent37 hosts any agent harness (Hermes, OpenClaw, Claude Code, Codex, or your own) so you can give each customer their own agent in an isolated sandbox, for over 95% less than most sandbox providers charge.\n\n![uploaded image](/media/?type=post&id=117160&key=user_uploads/316679/28b659ef-29c9-4364-849c-04dc75b73de9)\n\n\\\n**The problem**\n\nEvery team building an AI agent product needs the same thing underneath it: a private, always-on computer for each agent that keeps its files, wakes when someone messages it, and costs almost nothing while idle. Today there are two ways to get one, and both are bad.\n\nSome teams do it by hand. Chris Nguyen at ETEC+ used to spin up a VPS with a Hermes agent on it for each client and email it over, more than 30 times. Others build it themselves. Wes Merrill at Boon spent close to six months building a provisioning pipeline on Render. In his words: \"it was not fun.\"\n\nEither way, the time goes into plumbing instead of the product.\n\n**What we built**\n\n* Pick a template for any popular agent harness, or bring your own Docker image.\n* Each agent gets its own sandbox with persistent files, a browser, and Gmail, Slack, Notion, GitHub and 1,000+ other apps through Composio.\n* Every customer's agent is fully isolated from everyone else's.\n* Billing is per minute. An idle sandbox only costs its disk.\n* Our open-source starter kit is a white-label app with sign-up, an agent per customer, chat, files and integrations. Rebrand it and launch your own Instinct-style product in your niche.\n\n**What customers have done with it**\n\nBoon writes grant applications for nonprofits. They gave every client their own Hermes agent in 3 days. Their cost per agent went from $85/month to $4.94/month on equivalent hardware.\n\nETEC+ builds agents for Australian support, sales and ops teams. Chris's brief going in: \"Ideally I just want to sell, and not do any backend.\" Six days after picking up our starter kit, they had a branded product where clients sign up, pay, and get an always-on agent, and they moved their 30+ existing clients onto it.\n\n**Our ask**\n\nIf you've built an agent that works and you want to sell it to more than one customer, try us at [agent37.com](http://agent37.com). You get $2,500 in sandbox credits, worth over $50,000 of uptime on most other sandbox providers. And if you know someone who could use this, please send them our way.\n\n**About us:** Our goal is to make running agents affordable for everyone in the world. ",
+      "url": "https://www.ycombinator.com/launches/UTg-agent37-host-any-agent-harness",
+      "votes": 6,
+      "created_at": "2026-09-29T17:00:00.120Z"
+    }
+  ]
+}

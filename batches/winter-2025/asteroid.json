@@ -1,0 +1,104 @@
+{
+  "id": 30259,
+  "name": "Asteroid",
+  "slug": "asteroid",
+  "former_names": [
+    "Entropy Labs"
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/4598dd293d773fa0a9a1c72940f2f2e3153dda35.png",
+  "website": "https://asteroid.ai",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "Asteroid is the AI-powered integration layer for healthcare. One connector for EHRs, payer portals, and legacy desktop systems, with 100+ pre-built integrations that go live in days, not months. Built for developers and operations teams, with integrations that maintain themselves.",
+  "one_liner": "The integration layer for healthcare: EHRs, payer portals & more ",
+  "team_size": 8,
+  "industry": "B2B",
+  "subindustry": "B2B",
+  "launched_at": 1734639467,
+  "tags": [
+    "Artificial Intelligence",
+    "Robotic Process Automation",
+    "Health Tech",
+    "B2B",
+    "Automation"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Winter 2025",
+  "status": "Active",
+  "industries": [
+    "B2B"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/asteroid",
+  "api": "https://devasheeshg.github.io/yc-api/batches/winter-2025/asteroid.json",
+  "year_founded": 2024,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/asteroidai/",
+  "x_url": "https://x.com/asteroid_inc",
+  "fb_url": null,
+  "cb_url": "https://www.crunchbase.com/organization/asteroid-9e1c",
+  "github_url": "https://github.com/asteroidai",
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/4598dd293d773fa0a9a1c72940f2f2e3153dda35.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Harj Taggar",
+    "url": "https://www.ycombinator.com/people/harj-taggar"
+  },
+  "founders": [
+    {
+      "user_id": 1651915,
+      "full_name": "David Mlcoch",
+      "title": "Founder/CEO",
+      "founder_bio": "Co-founder and CEO of Asteroid.\n\nI have a background in AI (Edinburgh University), autonomous agents (Co-founder and CTO of Trident AI), robotics (CTU, NTU, TAU) and space (EUSPA, SpaceKnow). I like sports, history and building things.\n",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/davidmlcoch/",
+      "x_url": "https://x.com/MlcochDavid",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/a26cbf3a786ad8b0e9929f7d4d24e685714a3907.jpg"
+    },
+    {
+      "user_id": 1891505,
+      "full_name": "Joe Hewett",
+      "title": "Founder/CTO",
+      "founder_bio": "Co-founder and CTO of Asteroid. \n\nPreviously cybersecurity at Netcraft, where I created novel methods using LLMs to map and disrupt hundreds of millions of dollars of fraud. I have published academic work on the use of LLMs in cybersecurity",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/joehewett/",
+      "x_url": "https://x.com/simulated_land",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/425461b5427ba1aa60f5e01d3aceeb1696c688c4.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 96061,
+      "title": "Asteroid: AI Builder for complex Browser Agents",
+      "tagline": "Build self-healing AI browser agents in minutes. Ops build, developers deploy, Asteroid self-improves.",
+      "body": "### **TL;DR**\n\n**Asteroid** is the fastest way to build self-healing browser agents, no technical experience required. \\\n\\\nOur new **AI agent builder**, **Astro**, allows you to build **complex, multistep browser agents** by building an agent graph, writing prompts, adding tools, human in the loop and guardrails.\n\nThis makes Asteroid agents suitable for **mission-critical workflows**, and more than **25 businesses** already use them in healthcare, insurance, and beyond.\\\n\\\n**Astro** **is fully available, build your agent [here](https://platform.asteroid.ai/)!**\n\nhttps://youtu.be/ugY_qLTfmG8\n\n### **What is the problem?**\n\nStartups need to integrate with external portals (carriers, suppliers, healthcare) but can’t wait months for APIs.\n\nMany great browser-agent frameworks have emerged in the past year, but **non-technical teams still can’t build production-grade agents.**\n\nOperations leaders, PMs, and founders are the ones who **understand the workflows and edge cases** and _should_ be the builders. Relying on developers to constantly fix prompts for every new edge case isn’t sustainable.\n\n![uploaded image](/media/?type=post&id=96061&key=user_uploads/1651915/d73eee4d-bcc6-461f-953e-6fdd56374905)\n\n### **Solution: Astro - AI Builder for Complex Browser Agents**\n\nToday we’re launching **Astro**, our AI builder that lets anyone create **complex, self-healing browser agents in under 2 minutes**. Tell Astro what you want, for example _“Build an agent to pull patient data from this EHR”_, and it generates the full agent.\n\n![uploaded image](/media/?type=post&id=96061&key=user_uploads/1651915/53714daf-535a-450a-8a76-82eb70d43007)\n\n**Astro improves the agent using previous runs.** Behind the scenes, it writes code when needed, including Playwright scripts for deterministic steps, giving everyone code-level reliability.\n\n![uploaded image](/media/?type=post&id=96061&key=user_uploads/1651915/62627740-6f1e-47ce-a197-917e01ceade7)\n\nEvery part of the agent, including graphs, prompts, and model settings, is fully visible so you can make precise, surgical edits whenever needed.\n\n### **How does it work**\n\n1. **Build:** Non-technical teams create agents directly in the platform. Astro generates the prompts, agent graphs, and tools needed to handle even the most complex browser workflows.\n2. **Deploy:** Developers drop in a single code snippet to call the agent through Asteroid’s API/SDKs.\n3. **Supervise:** Monitor live sessions, review recordings, track performance, and trigger human-in-the-loop via Slack when needed.\n4. **Improve:** Non-technical teams update prompts and ship new agent versions instantly as workflows change.\n\n### **Ship your first agent today**\n\n**Astro** **is fully available, try it for free [here](https://platform.asteroid.ai/) or book a [demo](https://cal.com/asteroidai/15min) with a founder!**",
+      "url": "https://www.ycombinator.com/launches/OzN-asteroid-ai-builder-for-complex-browser-agents",
+      "votes": 228,
+      "created_at": "2025-12-09T22:31:58.000Z"
+    },
+    {
+      "id": 88012,
+      "title": "Asteroid: Browser Agents with Human Oversight",
+      "tagline": "Browser workflow automation for regulated industries",
+      "body": "**Asteroid makes browser automation seamless for regulated industries.** Not only developers but also non-technical teams can **build and run our browser agents with Asteroid**, turning 45-minute manual tasks into 2-minute automated processes.\n\nOur browser agents can navigate legacy portals, fill out forms, and extract data—all without brittle scripts, high costs, or maintenance headaches.\n\n![uploaded image](/media/?type=post&id=88012&key=user_uploads/1651915/50a0915f-b720-4fff-923b-0b84e6017098)\n\n### **The Problem**\n\nTraditional automation tools like RPA are too expensive for non-enterprise customers, **costing $10,000 per automation**. Meanwhile, scaleups especially in high-risk industries like insurance or healthcare lack the resources to maintain Selenium or Playwright scripts, as these frequently break due to UI changes and the automations need to be extremely reliable.\n\n### **The Solution**\n\nBrowser agents bridge this gap—offering the flexibility of scripting with the reliability of RPA. With 2025’s computer use models, **web automation is now 100x cheaper and more robust, unlocking thousands of new use cases.**\n\n### **How It Works**\n\n**Asteroid transforms any browser task into an agentic workflow.** Simply show Asteroid what to do—via a screen recording, SOP, or written instructions—and get an agentic workflow. You can then call it through our web UI or API.\n\nBehind the scenes, Asteroid spins up a secure, headless browser, handles authentication, executes workflows, and seamlessly integrates human review when needed—all without burdening your developers. We ensure the agent improves over time.\\\n🔗 [Watch Asteroid in action](https://www.youtube.com/watch?v=26uksP36xB4)\n\n![uploaded image](/media/?type=post&id=88012&key=user_uploads/1651915/fa0c7345-c244-4270-8c56-c905072f93ea)\n\n### **Highlighted Features**\n\n🔹 **API-First Automation** – Trigger a browser agent in a web UI or with a single API call—no need for complex scripts or RPA setups.\\\n🔹 **Human-in-the-Loop** – Automate only where it’s safe, with built-in escalation for manual review when needed.\\\n🔹 **Intelligent Guardrails** – Set rules like “Never click this button” or “Ask before submitting” to prevent errors.\\\n🔹 **Continuous Learning** – Asteroid evaluates every execution, adapting to website changes and improving over time using evaluations and backtesting.\n\n### **How We Got Here**\n\nWe’re both AI engineers who had to solve the same problem independently. Joe built AI systems that stopped $100M+ in fraud annually. David developed fraud investigation agents for fintechs.\n\nAfter years of building mission-critical automation, we learned that automation only works with intelligent guardrails, human oversight, and continuous learning.\n\nWe first built Asteroid as a developer tool for safe AI deployment—offering guardrails, human-in-the-loop workflows, and continuous evaluations. But we quickly realized:\n\n\\*\\*Browser agents need these safeguards even more.\\*\\*\\\n✅ **Guardrails** – \"Don’t click on this.\"\\\n✅ **Human oversight** – \"Ping me before you submit.\"\\\n✅ **Continuous learning** – \"The website changed—adapt.\"\n\nInstead of just developer tools, we’ve shifted to building browser agents with safety and reliability baked in!\n\n![uploaded image](/media/?type=post&id=88012&key=user_uploads/1651915/e9051949-8032-4fc5-951d-1fb8361ba3e1)\n\n### **Real-World Use Cases**\n\nWe’re working with customers to automate high-value workflows like:\n\n🔹 **Insurance Portal Automation** – Retrieve broker quotes across insurer portals—without manual input.\\\n🔹 **Supply Chain Scheduling** – Log into carrier platforms, retrieve GPS data, and schedule deliveries—seamlessly.\\\n🔹 **Expense Management** – Pull PDF bills from utility portals for expense tracking—without APIs.\n\n### **Who is Asteroid for?**\n\n🔹**Businesses with Heavy Manual Browser Workflows** – Automate large-scale data entry, form submissions, and repetitive portal interactions.\\\n🔹**Regulated Businesses using Legacy Systems** – Streamline automation for industries like insurance, healthcare and supply chain.\\\n🔹**AI Agent Startups** – Enable AI agents to reliably interact with legacy portals and automate browser tasks.\n\n### **Get Started**\n\n**Have a repetitive workflow you'd love to automate?** Let’s explore how Asteroid can help!\\\n🔹 [Schedule a demo](https://calendly.com/founders-asteroid-hhaf/30min?month=2025-02) to discuss your use case!\\\n🔹[Try our default agents](https://platform.asteroid.ai/) and see browser automation in action!",
+      "url": "https://www.ycombinator.com/launches/MtY-asteroid-browser-agents-with-human-oversight",
+      "votes": 19,
+      "created_at": "2025-02-25T16:20:12.618Z"
+    }
+  ]
+}

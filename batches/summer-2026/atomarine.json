@@ -1,0 +1,91 @@
+{
+  "id": 33607,
+  "name": "Atomarine",
+  "slug": "atomarine",
+  "former_names": [],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/6485491a38d727a14e926be75b62003c9f8fccff.png",
+  "website": "https://atomarine.co",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "We are building nuclear power delivery ships to power our floating compute barges at sea. Our systems are fully standalone, have better cooling, and avoid all the resource competition that leads to local community opposition. Our centralized manufacturing allows us to deploy anywhere on Earth, four times faster than on land.",
+  "one_liner": "Floating nuclear powered data centers at sea.",
+  "team_size": 2,
+  "industry": "Industrials",
+  "subindustry": "Industrials -> Energy",
+  "launched_at": 1784997775,
+  "tags": [
+    "Hard Tech",
+    "Energy"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Summer 2026",
+  "status": "Active",
+  "industries": [
+    "Industrials",
+    "Energy"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/atomarine",
+  "api": "https://devasheeshg.github.io/yc-api/batches/summer-2026/atomarine.json",
+  "year_founded": 2026,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/atomarine",
+  "x_url": "https://x.com/Atomarine_co",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/6485491a38d727a14e926be75b62003c9f8fccff.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Tyler Bosmeny",
+    "url": "https://www.ycombinator.com/people/tyler-bosmeny"
+  },
+  "founders": [
+    {
+      "user_id": 697566,
+      "full_name": "Dimitris Koutentakis",
+      "title": "Founder/CEO",
+      "founder_bio": "Co-founder & CEO at Atomarine. 4x MIT graduate. Previously Portfolio Management Associate at Arrowstreet Capital ($200B AUM), leading quantitative research on trade execution for $2B daily trades and broker selection across $180B annually. At Amazon, designed MILP optimization for electric fleet charging, quantifying $193M CapEx avoidance. MIT undergraduate, MEng in EECS, MS in Mech Eng, MBA from Sloan.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/dkoutentakis/",
+      "x_url": "https://x.com/_dkout",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/ce898826845045bb5604021ca44fae86ccf728df.jpg"
+    },
+    {
+      "user_id": 3640819,
+      "full_name": "Emile Germonpre",
+      "title": "Founder/CTO",
+      "founder_bio": "Co-founder at Atomarine (YC S26) || PhD in Nuclear Engineering + MSc in Chemical Engineering || Fulbright Scholar + Valedictorian of Ghent University's Engineering School",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/emile-germonpr%C3%A9-766045245/",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/e8bf85b0bc0d2e7dce9804086a8546a8d7738964.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 107426,
+      "title": "Atomarine: Floating Nuclear Data Centers",
+      "tagline": "Floating Nuclear Powered Data Centers At Sea",
+      "body": "\\*\\*We're building floating data centers on barges powered by nuclear ships at sea.\\*\\*\n\n<https://www.youtube.com/embed/unRTV4ZJXts?si=B5E5Z1xGe_NA7FLx>\n\n![uploaded image](/media/?type=post&id=107426&key=user_uploads/697566/5530961e-115c-4010-b749-b4de1a939afa)\n\n\n\\\n**TL;DR:** We move data center campuses offshore, away from communities, onto standardized barges we build on a single manufacturing line. That gets us near-free cooling, no interconnection queue, no local opposition, and 2x faster deployment. First gas-powered pilot ready by 2028.\n\nWhy now: AI has created unprecedented demand for compute and power that cannot be satisfied onshore.\n\n* Grid interconnection timelines are **approaching a decade**.\n* Data centers drive up the local cost of electricity, rent and land, and make water scarce. Community opposition rising from those reasons has **killed more than half of planned projects** since 2025.\n\nWhat we're building: standardized, plug-and-play data center barges, built on one manufacturing line and towed to site. Moving offshore gives us:\n\n* **No interconnection queue and no community impact** because our system operates standalone.\n* More **scalable architecture** that offers **faster deployment** and tighter-controlled deliverability due to centralized construction and repeated site licensing\n* **Lower energy cost** due to **less capacity overbuild** than onshore behind-the-meter and **cheaper financing** for repeatable manufacturing compared to on-site construction (financing = \\~2/3 of the lifetime cost of a nuclear project)\n* Virtually **free cooling** from seawater.\n\nTraction: We already have early partnerships in place across the two hardest parts of this build:\n\n* **Offshore design &amp; construction:** working with established offshore barge designer/builders.\n* **Nuclear power:** partnerships with multiple SMR vendors.\n\nWhy us: We're a two-founder team out of MIT with the exact mix this needs.\n\n* [@Emile Germonpre](https://bookface.ycombinator.com/user/3640819) has a PhD in nuclear engineering.\n* [@Dimitris Koutentakis](https://bookface.ycombinator.com/user/697566) has a BS/MEng in EECS, an MS in Mechanical Engineering, and an MBA, all from MIT, with deep connections to the Greek shipping industry.\n\n**Our ask:** We're looking for intros to decision-makers in compute infrastructure or data center development we can sell to, VPs of Data Center Construction, Directors of Infrastructure, and hyperscaler / neocloud teams. If that's you or someone you know, reach out at [dimitris@atomarine.co](mailto:dimitris@atomarine.co) &amp; [emile@atomarine.co](mailto:emile@atomarine.co).\n\n![uploaded image](/media/?type=post&id=107426&key=user_uploads/697566/f5ce89e6-1e1b-485f-8b35-0e8c5298287e)\n\n",
+      "url": "https://www.ycombinator.com/launches/Rwg-atomarine-floating-nuclear-data-centers",
+      "votes": 24,
+      "created_at": "2026-07-26T20:34:19.952Z"
+    }
+  ]
+}

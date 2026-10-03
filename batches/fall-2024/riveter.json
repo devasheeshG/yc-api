@@ -1,0 +1,125 @@
+{
+  "id": 30017,
+  "name": "Riveter",
+  "slug": "riveter",
+  "former_names": [
+    "Nervy",
+    "Haze AI",
+    "Lassen AI",
+    "Riveter AI"
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/ba11fcc185e7540e26d2fc388417c1e4c6dfad61.png",
+  "website": "https://www.riveterhq.com/",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "Riveter fully automates web data extraction, end to end. With a single API, agents can search, scrape, and structure data from the web. \r\n\r\nCustomers like Snapchat and OpenAI use us to enrich datasets using Riveter's AI search agents that combine data from the web with third party or internal data.  \r\n\r\nTheir AI agents, custom scrapers, and integrations pack the power of browser use and automation for search, at a cost that allows for scale. \r\n\r\nYou can even create a custom data API for repeated searches live in your app or internal databases. \r\n\r\nPerplexity and ChatGPT are great for single questions, but they can’t handle large amounts of data at once. And they’re working with a single agent and context window instead of one in every cell.\r\n\r\nAnd Riveter’s web browsing can go further—even reading PDFs and images that may contain answers. \r\n\r\nMost teams still spend hours (or hire UpWorkers/contractors) to manually copy product specs, check competitor pricing, pull custom KYB/KYC data to assess customer risk, or scrape filings. Or they spend months building web scrapers, and when that still doesn't work, they come to Riveter.\r\n\r\nOur founding team (Cody Watters - CTO, Abby Grills, CEO) brings deep product and engineering expertise from to YC-backed companies Gusto, Retool, and Middesk. ",
+  "one_liner": "Turn the web into structured data",
+  "team_size": 2,
+  "industry": "B2B",
+  "subindustry": "B2B -> Engineering, Product and Design",
+  "launched_at": 1731038423,
+  "tags": [
+    "Artificial Intelligence",
+    "B2B",
+    "E-commerce",
+    "Market Research",
+    "AI"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Fall 2024",
+  "status": "Active",
+  "industries": [
+    "B2B",
+    "Engineering, Product and Design"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/riveter",
+  "api": "https://devasheeshg.github.io/yc-api/batches/fall-2024/riveter.json",
+  "year_founded": 2024,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/riveter-hq/",
+  "x_url": "https://x.com/riveterhq",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/ba11fcc185e7540e26d2fc388417c1e4c6dfad61.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Diana Hu",
+    "url": "https://www.ycombinator.com/people/diana-hu"
+  },
+  "founders": [
+    {
+      "user_id": 2203245,
+      "full_name": "Abigail Grills",
+      "title": "Founder/CEO",
+      "founder_bio": "CEO at Riveter AI | Previously: Middesk, Gusto\nI have 10 years of product experience, including joining Gusto as an early PM and growing to lead Mid-Market Payroll. I've lead a number of 0 to 1 products including Gusto Time Tracking, State Payroll Tax Registration, and most recently, Address Risk at Middesk. I began my career at early stage consumer electronics startups, where I learned to wear many hats and fill gaps to make sure the job gets done.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/abigailgrills/",
+      "x_url": "https://x.com/AGrillz",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/0f383b1581d8d122b99830f5acd622903497c250.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 99741,
+      "title": "Riveter - Turn any prompt into a fully enriched dataset",
+      "tagline": "The web has the data you need. We build the list.",
+      "body": "Hey everyone! 👋\n\nWe're Abby and Cody, co-founders of [Riveter](https://riveterhq.com/) (F24). We both did 5+ years at Gusto, followed by Middesk and Retool, and watched the same painful problem play out across eng, data, ops, and growth teams: the information you need exists online, but getting it into a structured, usable dataset is brutally hard.\n\n**TL;DR: Write a prompt. Riveter builds the list and enriches it -- scraped live from the web. No stale databases, no stitching tools together.**\n\nTeams at OpenAI, Snap, and Fermat are already using Riveter to build datasets they couldn't justify building manually.\n\n**Ask:** We'd love to show you what Riveter can do for your use case. [Book 20 minutes with us](https://riveterhq.com/demo) and we'll give you 1,000 free credits to explore the platform.\n\n<https://youtu.be/KH0IELrOtLs>\n\n---\n\n**❌ The Problem**\n\nAlmost any list you could ever need can be derived from the web. Every law firm in California. Every vet practice by state. Every competitor's pricing page. The information is out there.\n\nThe problem is getting it out.\n\nCurrent options all hit the same wall:\n\n* **Data vendors** sell you records from a static index -- outdated the moment you buy them, and missing anything outside their database\n* **Clay and Parallel** pull from the same stale indexes. When we asked both to return all YC Winter 2026 companies, Parallel returned an incomplete dataset at a way higher cost. Clay returned \"Y Combinator\" as a company, along with results from other batches.\n* **ChatGPT and Claude** can reason about the web but can't handle the scale -- you can't ask an LLM to return thousands of enriched records reliably\n\nThe result: teams buy incomplete data, spend weeks building it manually, or go without.\n\n---\n\n**✅ Our Solution**\n\nRiveter agents navigate the web the way a researcher would -- running searches, visiting pages, reading results -- and return a fully structured, enriched dataset.\n\nWrite one prompt. Get thousands of rows.\n\n![uploaded image](/media/?type=post&id=99741&key=user_uploads/2203245/0293cc39-8404-4d03-bf11-2da4ad628033)\n\n\\\nDescribe what you want: _\"Return every dental practice in San Francisco, the dentists at each practice, and their contact details\"_\n\n1. Riveter agents search the web, visit pages, and compile the list -- live, not from a cached index\n2. Custom enrichments get layered on: lead scores, pricing data, contact info, whatever your workflow needs\n3. The result lands as a structured dataset, ready to use or pipe into your existing tools\n\nNo code required. Use it in-app, via API, or through our MCP server.\n\n---\n\n**🔍 Use Cases**\n\n**Sales and lead generation:** Find hyper-specific lists no vendor has pre-built. Every locksmith in the US. Every independent law firm in California. Every vet practice by state. Add enrichments in Riveter to qualify, score, and route them into your outreach.\n\n**Product data:** School logos, all attorneys at every AmLaw 100 firm, every menu item at every restaurant chain in a market. If it's on the web, Riveter can build it.\n\n**Market intelligence:** Track competitors and their pricing on a daily or weekly cadence. Especially common for e-commerce teams who need to move fast when something shifts.\n\n---\n\n**🙏 Our Ask**\n\n* [**Book 20 minutes with us**](https://riveterhq.com/demo) - tell us what you're building and we'll set up your first dataset together, plus 1,000 free credits on us\n* **Try it yourself** at [riveterhq.com](http://riveterhq.com) - free to get started [in-app](https://auth.riveterhq.com/sign-up), [via API](https://docs.riveterhq.com/), or [MCP.](https://docs.riveterhq.com/#description/mcp-server)\n* **Know a team** paying too much for stale data or drowning in manual research? Send this their way.\n\n---\n\n**👋 The Team**\n\n**Abby Grills (CEO)** - Previously at Gusto and Middesk across product and data workflows. Riveter is the tool she kept wishing existed.\n\n**Cody Watters (CTO)** - Previously at Gusto and Retool. Watched too much engineering time disappear into one-off data pipelines that should have been solved at the platform level.\n\nWe built Riveter because we kept hitting the same wall: the data we needed was obviously on the web, and there was no good way to get it out at scale.",
+      "url": "https://www.ycombinator.com/launches/Pwj-riveter-turn-any-prompt-into-a-fully-enriched-dataset",
+      "votes": 22,
+      "created_at": "2026-04-14T17:34:17.075Z"
+    },
+    {
+      "id": 94809,
+      "title": "🚀 Riveter API: Replace your entire scraper infrastructure with a single API",
+      "tagline": "Power your product with real data from the web.",
+      "body": "We’re excited to launch our most requested feature: the **Riveter API**.\n\nWeb data is one of the biggest unlocks for what’s now possible with AI. But retrieving and structuring that data for your product or agents is far more complicated than it should be.\n\n---\n\n### **The Problem**\n\nYou need data from the web to equip your agents with more information or pipe structured data directly into your product.\n\nBut when it comes to web scraping, the gap between _idea_ and _working solution_ is huge.\n\n* What starts as **“just a simple scraper” often turns into a patchwork of 5+ vendors** (SERP providers, proxy networks, headless browsers, scraper libraries, and infrastructure) leading to weeks or months of engineering effort.\n* Timelines creep, **engineering costs rise, and maintaining scrapers becomes an ongoing burden**. All of this distracts your team from building your _core product._\n\nhttps://youtu.be/1pFXQJExRGw\n\n---\n\n### **The Solution**\n\n**Riveter** is the all-in-one web search agent. Configuration is simple — your team defines what data they need, and Riveter handles everything else.\n\n* **Prompt-based configuration, tool selection, and custom formatting.** Tell Riveter what you need via a prompt, then select tools like web search, scraper, PDF reader, or image reader.\n* **Everything built in.** SERP/search, proprietary scrapers, proxy management, and browser infrastructure are fully integrated, so you don’t have to build or connect multiple systems.\n* **Structured, consistent output.** Apply custom tags or enums, specify date formats, or define JSON objects to get clean, predictable results every time.\n\nThe API routes data directly into your app — giving you real, grounded web data with minimal engineering overhead.\n\n### **How It Works**\n\nYou can either **create a project in Riveter** to reference in your API request, or **configure all input and output fields directly in the API call.**\n\n#### **Option 1: Creating an API request from a Riveter project**\n\nCreating a project allows you to test and refine prompts and formatting before fetching data via the API.\n\n**Best for:**\n\n* Running recurring or long-term data collection\n* Quickly testing and iterating on prompts and tools\n* Structuring data that needs to be ingested by code\n\n#### **Option 2: Configuring input/output fields directly in the API request**\n\nOn-the-fly configuration gives you the flexibility to change columns and prompts dynamically based on your inputs.\n\n**Best for:**\n\n* Giving AI agents access to create their own Riveter requests\n* Handling variable outputs - e.g., running an initial request with Riveter, then defining attributes to evaluate your product or dataset on\n\n### **Getting Started**\n\nWe can’t wait to see what you build with Riveter!\n\nHead to[ ](https://riveterhq.com?utm_source=chatgpt.com)[**riveterhq.com**](http://riveterhq.com) and click **Get Started** — your first 500 searches are free!\n\nNeed a hand?[ Grab time here](https://riveterhq.com/contact?utm_source=chatgpt.com) and we’ll help you get set up.",
+      "url": "https://www.ycombinator.com/launches/OfB-riveter-api-replace-your-entire-scraper-infrastructure-with-a-single-api",
+      "votes": 14,
+      "created_at": "2025-10-21T20:14:19.297Z"
+    },
+    {
+      "id": 93370,
+      "title": "Riveter ⚡ Thousands of AI search agents running in parallel",
+      "tagline": "Riveter automates web research for every row in your spreadsheet with just a prompt.",
+      "body": "We built Riveter because manual research sucks. And the slow, tedious process of collecting information from the internet takes people’s time away from doing great work.\n\n# **Why Riveter is great:**\n\n* We **simplified browser use to allow cheap web crawling** to be done at scale. \n* Our agent can make Google searches, view web pages, read PDFs and images, and **navigate to other pages** that might have better results. \n* It’s fast.\n* We give you sources, reasoning, and a record of the path the agent took to find the answer.\n* You’ll start seeing results within minutes of signing up.\n\n---\n\n---\n\n---\n\n---\n\n---\n\n#### https://youtu.be/oNSfKnLv-s4\n\n# **Why it matters:**\n\nMost teams still spend hours (or hire UpWorkers/contractors) to manually copy product specs, check competitor pricing, pull custom KYB/KYC data to assess customer risk, or scrape filings. \n\nPerplexity and ChatGPT are great for single questions, but they can’t handle large amounts of data at once. And they’re working with a single agent and context window instead of one in every cell.\n\nAnd Riveter’s web browsing can go further—even reading PDFs and images that may contain answers. \n\nWith Riveter, anyone can automate complex, auditable web research… without coding. \n\n#### \n\n# **How it works:**\n\n1. Upload your dataset (or prompt for Riveter to search & build you a dataset)\n2. Add a prompt for the new column\n3. Riveter’s agents search, navigate sites, read PDFs/images, and return structured outputs — with sources and reasoning for every cell.\n\n# **Traction:**\n\n* **2M+ searches automated** across customers\n* **Snap and Pietra** use Riveter for data that powers core product features\n* **Sunco** automated most of their product development research and supplier sourcing\n\n# **Who uses Riveter:**\n\n* **E-commerce:** Product specs, pricing, retailer research\n* **Sales/GTM:** Lead enrichment, market research, prospect discovery\n* **Finance:** Revenue announcements, SEC filings, fundraising data\n* **Risk/Compliance:** KYC/KYB checks, ownership verification, negative news screening\n* **Procurement:** Supplier research, competitive analysis\n\n# **About us:**\n\nCody Watters (Staff Engineer at Gusto → AI products at Retool) and Abby Grills (Mid-Market Payroll lead at Gusto → Product at Middesk) have a combined 20 years of experience building complex data systems.\n\n### **Try Riveter**\n\n**Free trial:** https://riveterhq.com\n\n**Book a demo:** https://riveterhq.com/contact\n\nIf your team does repetitive web research or builds fragile scrapers, we'd love your feedback on workflow templates and integrations.\n\n![uploaded image](/media/?type=post&id=93370&key=user_uploads/2203245/f392ac8e-5d55-405f-8d74-e8b7128f7633)\n\n---",
+      "url": "https://www.ycombinator.com/launches/OHy-riveter-thousands-of-ai-search-agents-running-in-parallel",
+      "votes": 45,
+      "created_at": "2025-08-27T20:15:28.319Z"
+    },
+    {
+      "id": 87785,
+      "title": "Riveter - AI data assistant for spreadsheets",
+      "tagline": "Clean, label, and enrich thousands of rows of data in minutes with ChatGPT-like prompts",
+      "body": "#### TL;DR ✨\n\nWith [Riveter](https://www.riveterhq.com/), you can automate data analysis in minutes—no complex setup needed. Just upload a spreadsheet, and Riveter handles the rest. ⚡\n\n✅ Search the web for answers\\\n✅ Clean & structure messy data\\\n✅ Label & categorize data instantly\\\n✅ Answer qualitative questions\n\nProduct, Ops, and GTM teams use Riveter for competitive research, pricing analysis, customer insights, analyzing channel partners, and more.\n\n<https://youtu.be/sJ4AcwTjzqo>\n\n#### The Problem: ⏰ Time wasted on manual data work\n\nCompanies spend countless hours on manual data work. Marketing teams spend $10k+ on incomplete datasets. Ops teams wait months for engineering support to build features that reduce manual data work. While ChatGPT helps with single queries, it breaks down with large datasets (and typically can’t make it past \\~10 rows). \n\nWe've seen teams spend:\n\n* 10+ hours/month on competitive research and market/pricing analysis–especially in consumer goods\n* 40+ hours per conference or event cleaning attendee data\n* Months waiting for engineering resources to analyze user segments\n\n#### The Solution: 🤖 Automate your data workflows in minutes\n\nRiveter brings AI-powered data enrichment to your spreadsheets. Upload any CSV and use natural language prompts to:\n\n**Enrich Data with Web Search** - Write \"find the industry for each company\" and Riveter automatically searches the web to fill new columns with accurate data.\n\n**Clean & Structure Data** - Transform messy data into consistent formats without complex Excel formulas. Simply describe what you need: \"Check the spelling and formatting of each company name. Return the correct spelling and format.\"\n\n**Analyze & Label at Scale** - Process thousands of rows in minutes. Label customer feedback, categorize products, or analyze competitors' features using natural language prompts.\n\n![uploaded image](/media/?type=post&id=87785&key=user_uploads/2203245/b36b88c9-51e4-4cfd-b66f-bb9ae3331ad2)\n\n#### Why Customers Choose Riveter 👩🏻‍💻\n\n* No technical setup or engineering required\n* Handles 200,000+ rows of data\n* Automated web search \n* Results in minutes, not days\n* Extremely easy to use\n\n#### About Us 📖\n\nWe’re **former engineers and PMs from Airbnb, Gusto, and Middesk.** We built Riveter because we were tired of:\n\n🔍 Manually labeling data to build fraud & risk products\\\n📝 Labeling endless user feedback\\\n📊 Analyzing competitors’ products—manually\n\nWe now use Riveter daily for tasks like sales, competitive analysis, and conference prep—and we’re excited for you to experience it, too.\n\n#### Get Started 🚀\n\nReady to streamline your data workflow? [Schedule a demo](https://cal.com/team/riveter/riveter-demo) to start your **free trial!**",
+      "url": "https://www.ycombinator.com/launches/Mpt-riveter-ai-data-assistant-for-spreadsheets",
+      "votes": 32,
+      "created_at": "2025-02-18T19:34:00.724Z"
+    },
+    {
+      "id": 85462,
+      "title": "Riveter 🔩 The copilot for corporate strategy",
+      "tagline": "Skip McKinsey - get expert analysis without the consultants.",
+      "body": "**TL;DR:** Riveter is the copilot for corporate strategy. We help growth stage companies like Gusto accelerate strategic decision making, using deep market research and analysis. \n\n#### About us\n\nAbby has 10 years of product experience, including Middesk and Gusto, where she was an early PM and led the Mid-Market Payroll team. Erica has 7 years of experience as a software engineer. She was an early engineer at Middesk, and before that, she was at Airbnb.\\\nWe’ve spent our careers exploring and executing on new product areas and expansion opportunities, and trying to optimize businesses’ results. **We’re building Riveter to help companies make better strategic decisions, faster.**\n\n<https://youtu.be/thmATCmTy5g>\n\n#### The problem\n\nGrowth stage, venture funded companies have two top concerns:\n\n1. How do we maintain growth at scale?\n2. Do our metrics align with public companies for a successful IPO?\n\nTo answer these questions, companies often do the following:\n\n* **Explore adjacent areas for expansion:** A commercial neobank might consider expanding to consumer\n* **Benchmark to similar companies:** Toast might compare their financials to Square's\n* **Track their market share:** A CRM might monitor competitors’ penetration across the market\n\n#### Our insights\n\n* Companies are hiring consulting firms that cost $1M+ and take months to provide a single report, which quickly becomes outdated.\n* Accessing key insights into public companies requires time consuming analysis due to inconsistencies across companies and obfuscation of important information.\n\n#### The solution\n\nRiveter automates the collection and analysis of private and public company data, **so you can focus on making the right strategic decisions, faster.** \n\n#### The product\n\n**The deepest analysis of public companies available**\n\nGet the data you wish Capital IQ gave you.\n\n* Get data on the usage of specific products, customer counts, retention, and more, in addition to standard metrics\n* Review metrics like gross margins, ACV, customer segment, CAC, CAC payback, Rule of 40, and more that have been automatically calculated for you, and are always up to date\n* Understand company-specific language and segmentation\n\n \n\n![uploaded image](/media/?type=post&id=85462&key=user_uploads/2203245/c283cf5c-4abf-471a-b8c3-b296996a768b)\n\n**Analysis of investor relations documents** \n\nRiveter summarizes key documents and artifacts, and extracts relevant quotes to save you time getting to the information you need.\n\n![uploaded image](/media/?type=post&id=85462&key=user_uploads/2203245/cd59d464-0ec8-436b-a2aa-0a60e031d077)\n\n\n**Search company documents and Riveter data**\n\nLooking to understand how a certain product is performing? Our AI analyst, Peter, allows you to ask specific questions, like how many American Express consumer cardholders there are.\n\n### Our ask\n\nAre you trying to make strategic decisions, but you or your team don’t have the time to perform in-depth analyses? We’d love to help. [Schedule a call with us](https://calendly.com/d/cmp9-ymp-zsy/riveter-demo-launch-yc) to discuss how we can aid in more informed decision making. You can reach out to us at [founders@riveterhq.com](mailto:founders@riveterhq.com).\n\nIf you have connections to any CorpDev or Strategic Finance teams in B2B SaaS, we’d love introductions to learn from them, or see if we can help. ",
+      "url": "https://www.ycombinator.com/launches/MEQ-riveter-the-copilot-for-corporate-strategy",
+      "votes": 220,
+      "created_at": "2024-11-11T20:42:33.180Z"
+    }
+  ]
+}

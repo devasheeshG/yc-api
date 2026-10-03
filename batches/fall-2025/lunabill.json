@@ -1,0 +1,97 @@
+{
+  "id": 30997,
+  "name": "LunaBill",
+  "slug": "lunabill",
+  "former_names": [],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/847fd92cf2043da7d18f115344b4d983d4eccc7c.png",
+  "website": "https://lunabill.com/",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "LunaBill is building AI Voice callers for healthcare billing teams. Insurance claim follow-up calls account for the 80% of the daily workload of a healthcare billing team, with each call averaging 30 minutes.\r\n\r\nSince our launch in July we are now at $764K in contracted ARR, of which $428K is live revenue and the rest will go live by January 2026. Our customers see a 10x increase in claims followed up per biller in the first week and we have converted 100% of pilots to paying customers. We have automated 50,000+ calls and signed partnerships with top healthcare systems in the country.\r\n\r\nThe founders have known each other for over a year. Suhail is a 2x founder, with 3+ years of experience building in healthcare including operating a medical billing company with 200+ healthcare clients. David founded Skiesoft, Taiwan’s biggest healthcare AI scribe company, used by thousands of healthcare professionals. He also worked as a data scientist at UCSF, building models to audit medical-coding accuracy. ",
+  "one_liner": "AI Voice callers for healthcare billing teams",
+  "team_size": 4,
+  "industry": "Healthcare",
+  "subindustry": "Healthcare -> Healthcare IT",
+  "launched_at": 1759865815,
+  "tags": [
+    "Generative AI",
+    "Health Tech",
+    "Healthcare",
+    "Healthcare IT",
+    "AI"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Fall 2025",
+  "status": "Active",
+  "industries": [
+    "Healthcare",
+    "Healthcare IT"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/lunabill",
+  "api": "https://devasheeshg.github.io/yc-api/batches/fall-2025/lunabill.json",
+  "year_founded": 2025,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/lunabill",
+  "x_url": "https://x.com/getlunabill",
+  "fb_url": "https://facebook.com/getlunabill",
+  "cb_url": "LunaBill",
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/847fd92cf2043da7d18f115344b4d983d4eccc7c.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [
+    "https://bookface-images.s3.us-west-2.amazonaws.com/attachments/6b3460a020d75171725dd147b989e86ada2034de.png",
+    "https://bookface-images.s3.us-west-2.amazonaws.com/attachments/1e8396d75481e1a29a5fbb988eb5e6a815277e16.png"
+  ],
+  "primary_partner": {
+    "name": "Aaron Epstein",
+    "url": "https://www.ycombinator.com/people/aaron-epstein"
+  },
+  "founders": [
+    {
+      "user_id": 2967362,
+      "full_name": "Suhail Parry",
+      "title": "Founder/CEO",
+      "founder_bio": "2x founder. Prior to LunaBill, I worked as a founding engineer at Knowext, building AI automation for various hospitals and later joined as an operator for Mediregi, an RCM company with 200+ healthcare clients.\n",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/suhailparry/",
+      "x_url": "https://x.com/bitcoinbasha",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/1df6ddff5a8137b351129554f324e4f433cedfa9.jpg"
+    },
+    {
+      "user_id": 1675564,
+      "full_name": "David Day",
+      "title": "Founder/CTO",
+      "founder_bio": "David previously founded Skiesoft, one of Taiwan’s biggest AI scribe company. He also worked at a data scientist at UCSF, building models to audit coding accuracy.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/daviddaytw/",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/8929d6b4215265460d650bc3a98cf353edefff27.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 95408,
+      "title": "LunaBill - AI Voice Callers for Healthcare Billing Teams",
+      "tagline": "Automating claim-status calls, follow-ups, and reprocessing, so your billing team can finally focus on revenue, not hold music.",
+      "body": "Hello YC! We’re Suhail Parry, David Day, and Yash Raj from LunaBill.\n\n_TL;DR:_ We built AI voice agents that automate insurance calls for healthcare billing teams. Fine-tuned on a dataset of over 1.2M call transcripts, our voice agents can handle insurance calls regarding claim-status inquiries, A/R recovery, and appeals follow-up.\n\n![uploaded image](/media/?type=post&id=95408&key=user_uploads/2978935/704621ef-8701-4468-9167-c84f44c67f0a)\n\n### **🚨 The Problem**\n\nEvery week, U.S. healthcare billing teams make tens of millions of calls to insurance companies to get claims paid.\\\nEach one averages **25 minutes**. That’s how hospitals unlock part of the **$260B in denied or delayed payments** every year.\n\nBut there’s a bottleneck:\n\n* Reps can only handle a few calls per hour.\n* Staffing is expensive and hard to scale.\n* Delays cost millions in unrecovered revenue.\n\nMeanwhile, every new hospital system or insurer integration compounds the complexity.\n\n### **💡 The Solution**\n\nLunaBill’s **AI voice callers** automate those phone conversations end-to-end.\n\nOur voice agents:\n\n* Handle **claim status checks, appeals follow-ups, and reprocessing calls** automatically.\n* **Connect to any billing software** and dial claims that need to be worked.\n* Run up to **100 concurrent agents** per client, like having a 100-person call center on demand.\n* Deliver post-call summaries with the to-do steps, integrated directly into workflows.\n\nThey’re **fine-tuned on 1.2M+ real call transcripts**, understand payer logic, and sound completely natural.\\\n🎧 [Listen](https://drive.google.com/file/d/1jxi7GRUV4h1YDX8XkEYQdFzepboOQLq8/view?usp=sharing) to a real AI insurance call, see if you can guess who’s human.\n\n### **⚡ Our Progress**\n\nTo date, LunaBill has automated **60,000+ insurance calls**, saving billing teams over **20,000 hours** and recovering **$30M+** in payments that would otherwise be lost.\n\nBillers now can complete 300+ claim follow-ups per day — up from about 25/day before LunaBill, a \\~12x productivity improvement.\n\nLunaBill has partnered with **top healthcare systems** and **three of the biggest enterprise billing companies** across the country.\n\n![uploaded image](/media/?type=post&id=95408&key=user_uploads/2978935/1f560e14-55c0-4cf7-be59-68fda8d58eb1)\n\n**👥 About Us**\n\n* **Suhail Parry (CEO)** — 2x founder, led billing ops for 200+ clinics.\n* **David Day (CTO)** — Former UCSF data scientist, founded **Skiesoft**, an AI medical scribe used by 120,000 users.\n* **Yash Raj (COO)** — Built AI consumer apps (10K+ users) and worked at **Mayo Clinic** on clinical AI research.\n\nWe first met at the Berkeley AI Hackathon, where we built an AI nurse. A few months later, we teamed up to tackle the biggest operational pain point we’d all lived through: **insurance phone calls**.\n\n### **🤝 Our Ask**\n\nWe’d love warm intros to:\n\n* **Hospital CFOs/CROs/revenue cycle leaders**\n* **Billing / RCM partners**\n* **YC startups selling to hospitals (EHRs, telehealth, marketplaces)** for integrations or co-GTM\n\nFor inquiries, email us at [founders@lunabill.com](https://mailto:founders@lunabill.com) \n\nVisit us at[ ](http://www.lunabill.com/)[Lunabill](http://www.lunabill.com). \\\nFollow us on Linkedin **👉** [LINK HERE](https://www.linkedin.com/company/lunabill/?viewAsMember=true)\n\nThanks for the support!",
+      "url": "https://www.ycombinator.com/launches/Ooq-lunabill-ai-voice-callers-for-healthcare-billing-teams",
+      "votes": 51,
+      "created_at": "2025-11-11T16:18:20.305Z"
+    }
+  ]
+}

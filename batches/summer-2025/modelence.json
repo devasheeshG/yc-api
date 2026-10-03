@@ -1,0 +1,94 @@
+{
+  "id": 30777,
+  "name": "Modelence",
+  "slug": "modelence",
+  "former_names": [],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/caf676672b230c36291913a0a2ddce1bd212e7b0.png",
+  "website": "https://modelence.com",
+  "all_locations": "San Francisco, CA, USA; Remote",
+  "long_description": "You built your product in a weekend and deployed to Vercel, Supabase, Railway or AWS. Now you need to figure out how to pick the right region, scale to multiple instances, add monitoring and alerts, and who to ping when something breaks… and you don't have a cloud engineer.\r\n\r\nWe spent a decade at our previous startup (CodeSignal), building a $500M platform while scaling to millions of users and customers like Meta & Netflix. Now we're standardizing how web applications are operated in production, so developers can build reliable production apps without becoming cloud infrastructure experts.\r\n\r\nModelence is a production cloud that's designed for enterprise-grade apps, abstracting away the infrastructure layer:\r\n- Deployments & hosting\r\n- Background jobs and persistence\r\n- File storage, real-time data and networking\r\n- Monitoring and alerts\r\n\r\nPlatforms like Vercel and Supabase are easy to start with, but most companies that start getting real customers eventually need a persistent backend where processes can run beyond just a few minutes at a time, unlike pure serverless. And low-level cloud platforms like AWS are meant to be operated by cloud engineers and are too complicated for engineers who want to focus on product rather than infra. Modelence is your managed backend infrastructure, built on decades of our experience operating web apps in the cloud.",
+  "one_liner": "Production infrastructure on autopilot",
+  "team_size": 3,
+  "industry": "B2B",
+  "subindustry": "B2B -> Infrastructure",
+  "launched_at": 1752778004,
+  "tags": [
+    "Developer Tools",
+    "Open Source",
+    "Infrastructure"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Summer 2025",
+  "status": "Active",
+  "industries": [
+    "B2B",
+    "Infrastructure"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada",
+    "Remote",
+    "Fully Remote"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/modelence",
+  "api": "https://devasheeshg.github.io/yc-api/batches/summer-2025/modelence.json",
+  "year_founded": 2025,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/modelence",
+  "x_url": "https://x.com/modelencecom",
+  "fb_url": "https://www.facebook.com/modelence",
+  "cb_url": "https://www.crunchbase.com/organization/modelence",
+  "github_url": "https://github.com/modelence",
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/caf676672b230c36291913a0a2ddce1bd212e7b0.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Tyler Bosmeny",
+    "url": "https://www.ycombinator.com/people/tyler-bosmeny"
+  },
+  "founders": [
+    {
+      "user_id": 2485356,
+      "full_name": "Aram Shatakhtsyan",
+      "title": "Founder/CEO",
+      "founder_bio": "Before Modelence, I co-founded CodeSignal (valued $500M) and spent a decade on building and scaling one of the largest skill assessment platforms, used by millions of users and companies like Uber, Zoom & Netflix.\n\n- ex-Principal Eng @ Intuit\n- ex-Co-Founder & CTO @ CodeSignal\n- Forbes 30u30 US & Canada, Enterprise Technology\n- Silver medalist of IOI 2007 / former competitive programmer",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/artahian/",
+      "x_url": "https://x.com/artahian",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/d60b0336e85dcf23221d37984f59e6c1dd63374f.jpg"
+    },
+    {
+      "user_id": 2538231,
+      "full_name": "Eduard Piliposyan",
+      "title": "Founder/CTO",
+      "founder_bio": "Co-Founder & CTO @ Modelence\n\nAn engineer and engineering manager with 18 years of experience. Was the founding engineer and Director of Engineering at CodeSignal.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/eduard-piliposyan",
+      "x_url": "https://x.com/ed_piliposyan",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/76f86fd3828b608f6c73c2bf5f1124ef485f7244.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 92593,
+      "title": "Modelence: all-in-one TypeScript platform for startups",
+      "tagline": "Ship production AI apps 10x faster with built-in auth, database and LLM integration",
+      "body": "You built the demo in a weekend. Now you need auth, a prod-grade database, real-time events, AI observability, cron jobs, email, monitoring… and you needed them yesterday.\n\nWe spent a decade building platforms while scaling to millions of users and enterprise customers. Now we put that into an open-source framework, so others wouldn’t have to do the same from scratch.\n\n![uploaded image](/media/?type=post&id=92593&key=user_uploads/2485356/d6404f4b-fb88-47d1-adcc-b895394e41af)\n\nModelence is a batteries-included framework that abstracts away boilerplate so you can just focus on building your product logic and nothing else - it’s like Next.js + Vercel + Supabase on a single platform, built for full-stack TypeScript.\n\nhttps://www.youtube.com/watch?v=S4f22FyPpI8\n\n**Why Modelence?**\n\nShipping production apps is much harder than building a prototype that runs locally and 95% of all production apps share the same building blocks. We did a massive amount of work on our previous platforms that was not specific to our product, and we’ve created Modelence to abstract that away:\n\n* Authentication\n* Database setup\n* Hosting / CDN\n* AI integration (LLM observability, prompts)\n* Real-time events\n* Cron jobs\n* Email service\n* Monitoring\n* Analytics\n* Admin dashboards\n\nAndrej Karpathy recently posted about this same exact problem - [**https://x.com/karpathy/status/1905051558783418370**](https://x.com/karpathy/status/1905051558783418370) and explained it further in his [**YC AI Startup School talk**](https://tinyurl.com/45xvsm3y).\n\n**Who is this for?**\n\nStartups that are shipping TypeScript production apps and want to focus on building their product without worrying about boilerplate, DevOps, infra and scaling.\n\n**Founders**\n\n* Aram S (ex-Principal Eng @ Intuit, co-founded [**CodeSignal**](https://codesignal.com/))\n* Eduard P, PhD (Founding Eng @ [**CodeSignal**](https://codesignal.com/))\n\n**Getting Started**\n\nModelence is open-source - go to https://modelence.com to create a free cloud environment and try it!",
+      "url": "https://www.ycombinator.com/launches/O5R-modelence-all-in-one-typescript-platform-for-startups",
+      "votes": 19,
+      "created_at": "2025-07-30T23:49:26.229Z"
+    }
+  ]
+}

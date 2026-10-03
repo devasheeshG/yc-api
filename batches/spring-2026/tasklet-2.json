@@ -1,0 +1,180 @@
+{
+  "id": 31470,
+  "name": "Tasklet",
+  "slug": "tasklet-2",
+  "former_names": [],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/81b17e42b6c7c39c503ac476a049465e7d2e530d.png",
+  "website": "https://tasklet.ai",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "AI chatbots can answer questions, but they can't do your work — they aren't connected to your tools, can't take actions, and stop running when you close the tab. Meanwhile, knowledge workers are still spending most of their day switching between dozens of SaaS apps, manually stitching together workflows that should be automated.\r\n\r\nTasklet is the AI agent that actually does the work. It connects to every tool you use — via thousands of built-in integrations, any HTTP API, or MCP servers — and takes real actions on your behalf: pulling reports, updating CRMs, triaging emails, processing data, and more. When it needs a UI, it generates one on the fly. When it needs to crunch numbers or do bulk operations, it writes and runs code in a cloud sandbox. When it needs to interact with a website that doesn't have an API, it uses a real browser. And because it runs in the cloud 24/7, you can set up triggers to have it take ongoing responsibility for workflows — not just do something once, but handle it going forward.\r\n\r\nThe product is deliberately simple: a chat interface where you talk to an extremely capable agent. But underneath that simplicity is a cloud-native agent runtime, best-in-class context engineering, a universal connections layer, and multi-model support that keeps us on the frontier as AI improves. \r\n\r\nWe think legacy SaaS is being unbundled by agents, and Tasklet is the operating system that ties it all together.",
+  "one_liner": "Agents that own the work",
+  "team_size": 8,
+  "industry": "B2B",
+  "subindustry": "B2B -> Productivity",
+  "launched_at": 1775251797,
+  "tags": [],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": true,
+  "nonprofit": false,
+  "batch": "Spring 2026",
+  "status": "Active",
+  "industries": [
+    "B2B",
+    "Productivity"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada",
+    "Remote",
+    "Partly Remote"
+  ],
+  "stage": "Growth",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": [
+    {
+      "question": "How did your company get started? (i.e., How did the founders meet? How did you come up with the idea? How did you decide to be a founder?)",
+      "answer": "We met at Firebase and continued working together at Google after the acquisition. In 2020 we left to start a company together, initially building an email client called Shortwave. While adding an AI agent to Shortwave in late 2024, we noticed something surprising: some users kept asking for the agent and integrations without the email client. They wanted a general-purpose AI agent that could connect to all their work tools — not just email. So in 2025 we made a bold bet, building Tasklet as a standalone cloud AI agent for knowledge work."
+    },
+    {
+      "question": "What's the history of your company from getting started until the present day? What were the big inflection points?",
+      "answer": "We founded the company in 2020 as a team of ex-Firebase/Google engineers. We initially built Shortwave, an AI-powered email client. After ChatGPT launched, we went all-in on AI and built a conversational assistant for email that showed real traction.\\\r\n\\\r\nIn fall 2024 we shipped a full AI agent inside Shortwave — and growth accelerated. We started adding integrations with CRMs, project management tools, and messaging apps, and were among the first products to support MCP. That's when something unexpected happened: users started telling us they wanted the agent and integrations but didn't care about the email client.\r\n\r\nSo in 2025 we made a bold move — we built Tasklet, a standalone cloud AI agent for knowledge work. We went from idea to first user in under 6 weeks, and it was a massive hit. Each new capability we shipped (v2 agent architecture, sandbox, computer use, triggers) accelerated growth further, and by January 2026 Tasklet alone was adding more monthly revenue than Shortwave had in its first 4 years."
+    },
+    {
+      "question": "What is the core problem you are solving? Why is this a big problem? What made you decide to work on it?",
+      "answer": "AI chatbots can answer questions, but they can't actually do your work. They aren't connected to your tools, they can't take actions, and they stop running the moment you close the tab. The result is that knowledge workers still spend most of their day switching between dozens of SaaS apps — pulling data from one, updating another, copy-pasting between tabs, and stitching together workflows manually.\\\r\n\\\r\nWe're building the AI agent that replaces all of that: one app that connects to every tool you use, runs 24/7 in the cloud, can use a computer, and can take ongoing responsibility for entire workflows."
+    },
+    {
+      "question": "What is your long-term vision? If you truly succeed, what will be different about the world?",
+      "answer": "In the long run, we believe most knowledge work will be done by AI agents, not humans. Tasklet is the operating system for that future — the place where you manage, direct, and collaborate with agents that handle your work across every tool.\r\n\r\nIf we truly succeed, the average knowledge worker will 10x their output not by working harder, but by delegating most of their routine work to agents that run 24/7. Legacy SaaS apps will fade into background infrastructure that agents access via API, and the human's job shifts from doing the work to directing it. We think this is as big a shift as the move from desktop software to cloud — and we're building the platform that makes it happen."
+    }
+  ],
+  "url": "https://www.ycombinator.com/companies/tasklet-2",
+  "api": "https://devasheeshg.github.io/yc-api/batches/spring-2026/tasklet-2.json",
+  "year_founded": 2025,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/taskletai/",
+  "x_url": "https://x.com/TaskletAI",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/81b17e42b6c7c39c503ac476a049465e7d2e530d.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [
+    "https://bookface-images.s3.us-west-2.amazonaws.com/attachments/8d5edbeb92eeab98b82eab9506397d176a5ac977.png"
+  ],
+  "primary_partner": {
+    "name": "Andrew Miklas",
+    "url": "https://www.ycombinator.com/people/andrew-miklas"
+  },
+  "founders": [
+    {
+      "user_id": 9178,
+      "full_name": "Andrew Lee",
+      "title": "Founder/CEO",
+      "founder_bio": "Current: founder at Tasklet\nFormerly: founder at Firebase & Shortwave\n",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/startupandrew/",
+      "x_url": "https://twitter.com/startupandrew",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/3f4f2dc761f3a9b6dfd2089cc1a88cc449023acc.jpg"
+    },
+    {
+      "user_id": 3465650,
+      "full_name": "Jonny Dimond",
+      "title": "Founder",
+      "founder_bio": "Putting agents to work @ Tasklet",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/jonnydimond/",
+      "x_url": "https://x.com/jonnydimond",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/f27ef0f6587f0bd991ebb2f466a430a8eedb6cf4.jpg"
+    }
+  ],
+  "jobs": [
+    {
+      "id": 92948,
+      "title": "Head of Design Engineering",
+      "url": "https://www.ycombinator.com/companies/tasklet-2/jobs/Qz919CA-head-of-design-engineering",
+      "location": "San Francisco, CA, US",
+      "type": "Full-time",
+      "role": "Design",
+      "role_type": "Product design",
+      "salary_range": "$300K - $450K",
+      "equity_range": "0.35% - 0.70%",
+      "experience": "6+ years",
+      "visa": "US citizenship/visa not required",
+      "skills": []
+    },
+    {
+      "id": 92949,
+      "title": "Software Engineer — AI Infra",
+      "url": "https://www.ycombinator.com/companies/tasklet-2/jobs/OXrYogv-software-engineer-ai-infra",
+      "location": "San Francisco, CA, US",
+      "type": "Full-time",
+      "role": "Engineering",
+      "role_type": "Backend",
+      "salary_range": "$225K - $425K",
+      "equity_range": "0.20% - 0.65%",
+      "experience": "11+ years",
+      "visa": "US citizenship/visa not required",
+      "skills": []
+    },
+    {
+      "id": 92950,
+      "title": "Software Engineer — Platform",
+      "url": "https://www.ycombinator.com/companies/tasklet-2/jobs/HUSklWt-software-engineer-platform",
+      "location": "San Francisco, CA, US",
+      "type": "Full-time",
+      "role": "Engineering",
+      "role_type": "Backend",
+      "salary_range": "$225K - $425K",
+      "equity_range": "0.20% - 0.65%",
+      "experience": "6+ years",
+      "visa": "US citizenship/visa not required",
+      "skills": []
+    },
+    {
+      "id": 94464,
+      "title": "Customer Success Engineer",
+      "url": "https://www.ycombinator.com/companies/tasklet-2/jobs/UcpBWuw-customer-success-engineer",
+      "location": "San Francisco, CA, US",
+      "type": "Full-time",
+      "role": "Support",
+      "role_type": null,
+      "salary_range": "$140K - $185K",
+      "equity_range": "",
+      "experience": "Any (new grads ok)",
+      "visa": "US citizen/visa only",
+      "skills": []
+    },
+    {
+      "id": 94748,
+      "title": "Software Engineer — Product",
+      "url": "https://www.ycombinator.com/companies/tasklet-2/jobs/8WgDV4q-software-engineer-product",
+      "location": "San Francisco, CA, US",
+      "type": "Full-time",
+      "role": "Engineering",
+      "role_type": "Full stack",
+      "salary_range": "$225K - $425K",
+      "equity_range": "0.20% - 0.65%",
+      "experience": "Any (new grads ok)",
+      "visa": "US citizenship/visa not required",
+      "skills": []
+    }
+  ],
+  "news": [],
+  "launches": [
+    {
+      "id": 99481,
+      "title": "Tasklet – The cloud agent OS for knowledge work",
+      "tagline": "AI agents that connect to all your tools, use computers in the cloud, and run automatically 24/7 to get real work done",
+      "body": "Hey YC! 👋\n\nWe're Andrew and Jonny, and we're building **Tasklet** — the cloud agent operating system for knowledge work.\n\nTasklet’s AI agents connect to every tool you use at work and actually get things done — pulling reports, updating CRMs, processing data, triaging emails, and more. They run 24/7 in the cloud and take ongoing responsibility for your workflows. We've grown &gt;**1,200% since January 1** to **$5M ARR** and just raised **$20M** from USV, Lightspeed, Jeff Dean, the Collison brothers, and others.\n\n<https://youtu.be/sriwtDYi6XQ>\n\n### ❌ The Problem\n\nAGI is here, but knowledge workers still spend their days switching between dozens of SaaS apps, manually copying data between tools, and stitching together workflows that should be automated.\n\nAI chatbots can answer questions, but they can't actually _do_ your work — they aren't connected to your tools, can't take real actions, and stop running when you close the tab.\n\n### 🛠 What We Built\n\nTasklet is a single, powerful AI agent that:\n\n* **Connects to everything** — thousands of built-in integrations, any HTTP API, any MCP server, or a full cloud browser for sites without APIs\n* **Takes real actions** — not just answering questions, but doing the work across all your tools\n* **Runs 24/7 in the cloud** — set up triggers (schedules, emails, Slack messages, webhooks) and Tasklet handles workflows autonomously, even when you're asleep\n* **Generates UIs on the fly** — need a dashboard, form, or visualization? It creates one instantly\n* **Writes and runs code** — crunches numbers, processes data, and handles bulk operations in a cloud sandbox\n* **Gets smarter over time** — we automatically improve your agents as new models & technologies come out.\n\nThe product is deliberately simple: a chat interface where you talk to an extremely capable agent. But underneath that simplicity is a cloud-native runtime, best-in-class context engineering, and a universal connections layer.\n\n### 📈 Traction\n\n* **&gt;1,200% growth** since January 1\n* **$5M ARR** and accelerating\n* Just raised **$20M** at a **$175M valuation** from **USV, Lightspeed, Jeff Dean, Patrick & John Collison, and others**\n\n### 👥 The Team\n\nAndrew previously founded **Firebase** (YC S11 — acquired by Google) and is back at YC to seize the moment. Jonny was an early Firebaser and the technical lead for Google Cloud Firestore. We lead a 9-person team in San Francisco with deep experience in agent systems, cloud infrastructure, and productivity tools from their time at Firebase, Google, Amazon, and OpenAI.\n\n### 🚀 Try Tasklet & Help us find talent\n\n👉 **Sign up at [tasklet.ai](http://tasklet.ai) and put your new AI agent to work.**\n\n👉 **We're hiring!** 11 open roles across engineering, design, marketing, and more. We’re offering a $20k referral bonus. [Check out our careers page.](https://tasklet.notion.site/Open-Positions-at-Tasklet-2a3688565308819fa2f7e9440b5729fa)\n\nWe'd love to hear what you think — drop a comment and tell us what’s working well & what isn’t.",
+      "url": "https://www.ycombinator.com/launches/PsX-tasklet-the-cloud-agent-os-for-knowledge-work",
+      "votes": 39,
+      "created_at": "2026-04-07T16:48:20.499Z"
+    }
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "id": 33177,
+  "name": "HyperProbe",
+  "slug": "hyperprobe",
+  "former_names": [
+    "HyperTest inc"
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/b4b91e0b78bbed1c83add57d22b06ab632567450.png",
+  "website": "https://hyperprobe.co",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "With tools like Cursor and Claude Code, writing software is no longer the bottleneck. Debugging is. Agents cannot fix production crashes using logs and traces that were sized for human eyeballs. The gap is missing data.\r\n\r\nHyperProbe allows agents to debug live software autonomously. Our SDK drops non-breaking probes straight into running services to read exact variable states from memory at the moment of failure, instead of reasoning backwards from flat logs.\r\n\r\nZero redeploys. Under 1% CPU overhead. Automatic PII redaction.\r\n\r\nWe turn 4-hour production war rooms into 10-minute automated resolutions. As agents write and operate more of the world's software, HyperProbe is the runtime observability layer that lets them understand what they built.\r\n\r\n",
+  "one_liner": "AI engineer that debugs and fixes production incidents in realtime",
+  "team_size": 8,
+  "industry": "B2B",
+  "subindustry": "B2B -> Engineering, Product and Design",
+  "launched_at": 1783455456,
+  "tags": [
+    "AIOps",
+    "Artificial Intelligence",
+    "Developer Tools",
+    "SaaS",
+    "DevOps"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Summer 2026",
+  "status": "Active",
+  "industries": [
+    "B2B",
+    "Engineering, Product and Design"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada",
+    "Remote",
+    "Partly Remote"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/hyperprobe",
+  "api": "https://devasheeshg.github.io/yc-api/batches/summer-2026/hyperprobe.json",
+  "year_founded": 2026,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "",
+  "x_url": "",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/b4b91e0b78bbed1c83add57d22b06ab632567450.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Brad Flora",
+    "url": "https://www.ycombinator.com/people/brad-flora"
+  },
+  "founders": [
+    {
+      "user_id": 3173209,
+      "full_name": "Shailendra Singh",
+      "title": "Founder/CEO",
+      "founder_bio": "Founder at HyperProbe. Also founded HyperTest. Previously headed and scaled engineering and product functions at a unicorn and few small startups.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/shailendra-singh-6540b8b/",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/804a582f290d73d89dadb5a73815fc0814ca121d.jpg"
+    },
+    {
+      "user_id": 417680,
+      "full_name": "Karan Raina",
+      "title": "Founder/CTO",
+      "founder_bio": "Founder and CTO at HyperTest (YC S26)\nMS CS Georgia Tech\n\n2nd time founder\nPreviously led a 50 member engineering team at Limetray",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/karanraina/",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/bd379360253464d14cb5b5a47a3911c2139eaa6d.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 110401,
+      "title": "Hyperprobe: On-call Agent for engineering teams",
+      "tagline": "The fastest way for coding agents to debug incidents live in production.",
+      "body": "# \\*\\*\\*\\*\n\n**TL;DR:** AI writes most of our code now. Debugging it when it breaks in production is still slow, because the value that explains the failure was never logged. HyperProbe is an on-call agent for engineering teams. It takes an open incident to a confirmed root cause by dropping read-only probes into your running service and capturing the exact variable state logs don't have. No redeploys, no restarting the app. \\\n\\\n📹 **Launch Video: [https://youtu.be/QtaZrQ8_Uk8](https://youtu.be/QtaZrQ8_Uk8)**\n\n**🚧 The Problem**\n\nTeam ships faster than ever with agents that write most of our code. This is already shrinking the useful context engineers need to debug AI written code. Not helped by the limited telemetry added in the same code by AI. So when something breaks in prod, the first instinct for engineers is to open logs or throw them to agents. But if the line you are looking for is not there, agents will start guessing the root cause on limited data, forcing engineers to collect more logs by redeploys.\n\nThe result: our best engineers become our on-call team, incidents stay open longer, and patches come from data that never capture production context, so issues recur.\n\nYou can see where that leads. In September last year, a public fintech in India paid out $5 million after failed transactions were incorrectly marked successful. NYSE the same year miscalculated price bands for 40 symbols, printing trades so wrong they had to be reversed. Same pattern: the code ran clean, wrote the wrong state, and neither logs nor traces could show it.\n\n ✅ **What Hyperprobe does**\n\nHyperProbe gives engineering teams an on-call agent that works the incident and takes it to a confirmed root cause, live in production.\n\n* **Plan:** the agent picks up the alert from PagerDuty, Datadog, or Slack, then reads your logs and traces to locate the file and line. The easy incidents resolve right here.\n* **Probe:** logs not enough? places read-only virtual breakpoints on the suspect lines and captures the exact variable state live, across services. No redeploys, no restarts. \n* **Confirm:** the diagnosis is verified against real captured evidence, not a guess. Your engineer gets a confirmed RCA and commits the fix.\n\nThere are two pieces. An SDK that runs inside your service, and an MCP server your coding agent talks to. The SDK is what makes setting probes (virtual breakpoints, log or metric) possible without a redeploy. \n\n### **🔍 A few examples**\n\n* **An intermittent 500 that won't reproduce locally:** catch it live with full variable state \n* **A third-party API misbehaving:** see the exact payload and response\n* **A function returns a wrong value with no error:** see what it computed and why\n* **Anything that only happens in prod:** stop redeploying with console.logs\n\n🚀 **The team**\n\nWe've both lived this problem. Shailendra ran production at scale. Karan was a senior architect at a SaaS company. Before this, both spent three years building production SDKs for a testing product, learning the hard parts of pulling real runtime state out of a running service without breaking it.\n\nEvery incident we watched came down to the same question: what was the actual value at the moment it broke. Nobody built it for the way engineers debug with coding agents now. So we did.\n\n![uploaded image](/media/?type=post&id=110401&key=user_uploads/3173209/ddf3d8d0-2bd4-4a8c-9547-fa5ea2496469)\n\n### **🎁 Why now**\n\nFor thirty years the expensive part of software was writing it, and every tool got built for that. Generation is now nearly free, but the cost didn't disappear. It moved downstream, to figuring out why the generated code broke in production.\n\nAnd that system is now mostly code no human wrote or holds in their head. When it breaks, the engineer has less context than ever, and their first move is already to hand it to the coding agent. That agent only has your logs and traces, so it guesses. We give it the evidence instead, captured live from the running code at the point of failure.\n\n### **🙏 Our ask**\n\n* If you're an engineer tired of the redeploy loop, debugging code you didn't write at 2 AM, try it on your own service.**,** first investigation in 10 min:[ https://docs.hyperprobe.co/quickstart](https://docs.hyperprobe.co/quickstart)\n* If your best engineers have become your on-call team and you want that fixed, let us work one real incident from your stack, free: <https://calendly.com/shailendra-hyperprobe/30min>",
+      "url": "https://www.ycombinator.com/launches/Sif-hyperprobe-on-call-agent-for-engineering-teams",
+      "votes": 82,
+      "created_at": "2026-08-17T15:30:20.732Z"
+    }
+  ]
+}

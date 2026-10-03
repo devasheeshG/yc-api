@@ -1,0 +1,100 @@
+{
+  "id": 30768,
+  "name": "Okibi",
+  "slug": "okibi",
+  "former_names": [],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/2add42dcef83667e3ac21f0eabb0f202583f5d0c.png",
+  "website": "https://okibi.ai",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "Okibi generates a CLI from any product's codebase, so AI agents can use it the way people do.\r\n\r\nAgents are becoming software's next customers. When one comes to a product to do a task or purchase and finds no doorway in, it moves on to the competitor whose CLI lets it through. Okibi turns products into CLIs and agents into customers.\r\n\r\nDoorDash, Mercury, Gusto, Ramp, and 30+ other companies have already launched first-party agent CLIs. Okibi is how every product gets one.",
+  "one_liner": "Turns products into CLIs and agents into customers",
+  "team_size": 2,
+  "industry": "B2B",
+  "subindustry": "B2B",
+  "launched_at": 1752707566,
+  "tags": [
+    "Developer Tools",
+    "SaaS",
+    "AI"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Summer 2025",
+  "status": "Active",
+  "industries": [
+    "B2B"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/okibi",
+  "api": "https://devasheeshg.github.io/yc-api/batches/summer-2025/okibi.json",
+  "year_founded": 2025,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/okibi-ai",
+  "x_url": "https://x.com/okibi_ai",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/2add42dcef83667e3ac21f0eabb0f202583f5d0c.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Gustaf Alstromer",
+    "url": "https://www.ycombinator.com/people/gustaf-alstromer"
+  },
+  "founders": [
+    {
+      "user_id": 539005,
+      "full_name": "Mahyad Ghassemi",
+      "title": "Founder/CEO",
+      "founder_bio": "2x YC founder building a web app to create AI coworkers using natural language, think of it as Lovable but specifically designed for AI agents.\n\npreviously built the first web browser designed for work with AI agents built in @SigmaOS (S21), used by 100,000+ people with 75,000 LLM requests per day.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/mahyad-ghassemi/",
+      "x_url": "https://twitter.com/MahyadGhassemi",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/fce85c1b4ac5ed873104ac712da55650c69516ff.jpg"
+    },
+    {
+      "user_id": 286297,
+      "full_name": "Saurav Mitra",
+      "title": "Founder/CTO",
+      "founder_bio": "Building Okibi (S25) to create AI coworkers using natural language, like Lovable but specifically designed for agents.\n\nPreviously built SigmaOS (S21), the agentic browser built for work. Used by 100,000+ people.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/thesauravmitra/",
+      "x_url": "https://www.twitter.com/thesauravmitra",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/65318fee772e03105f7ea545a50aff50921896a0.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 114523,
+      "title": "Okibi - Agent-ready CLIs",
+      "tagline": "Turn your product into a CLI, and agents into customers",
+      "body": "Hey everyone, we're Mahyad and Saurav, the founders of Okibi.\n\n**TL;DR** [Okibi.ai](http://Okibi.ai) turns your product into a CLI, so AI agents can use it just like your users do.\n\nAgents are becoming the main users of our apps and softwares, but most of those products still aren't designed to be fully usable by agents.\n\nDoorDash, Mercury, Gusto, and 30+ others have already launched agent-ready CLIs.\n\n**Okibi generates yours.**\n\n<https://youtu.be/LANzB5DZ7_s>\n\n### **Problem**\n\n**The shift.** Work has quietly moved into agentic tools like Claude and Codex. The person who used to open your app now sends their agent. Agents create 90% of new Supabase databases and 2/3 of Mintlify docs traffic.\n\n**The gap.** Agents can read everything, but signing up, configuring a project, or placing an order, is another story. With MCPs, you'll give the agent too many tools at once and it'll start using the wrong ones. With direct API calls, the agent has to individually call endpoints for complex workflows or polling loops.\n\n**The turn.** Claude Code and Codex proved it; agents do their best work in the terminal, and a CLI is how your product shows up there. No tools need to load up front, because agents can discover what they need when they need it through progressive disclosure with --help, and all complex workflows are pre-built so it doesn't have to figure it out on the fly.\n\n**The proof.** Companies are already shipping agent-ready CLIs. Even Notion, with one of the best-known MCP servers, shipped one.\n\nAn agent that struggles to use a product will go to a competitor that it won't struggle with.\n\n**Okibi is how you become that competitor.**\n\n### **How it works**\n\nBuilding a toy wrapper CLI is easy. Building an agent-ready production CLI is a different story.\n\n**Research.** Okibi **reads all of your APIs, SDKs, MCPs, and researches similar products** to yours and defines the standard for your product's commands.\n\n**Build.** We build your entire product as commands in a CLI, with structured JSON output, descriptive errors, and dry-runs with input validation.\n\n**Customize.** You can keep customizing the commands that are generated through our agent.\n\n**Verify.** This isn't just \"it compiles\". Commands run in a real sandbox, the outputs are checked, and **the CLI is fully evaled for agent use.**\n\n**Ship.** You get a compiled binary with a skill file baked in, so an agent that installs it already knows how to use your product.\n\n**Maintain.** Whenever your product updates, **Okibi mints the changes and maintains your CLI for you.**\n\n**Identity.** Even with a CLI, an agent can't set up an account for your user. With **Okibi Identity, the agent can set up the account** and continue working uninterrupted. And that's how you get agents as customers!\n\n![uploaded image](/media/?type=post&id=114523&key=user_uploads/539005/aaf9f512-390f-4a14-85ca-9bfb8db5a29c)\n\n### **About us**\n\nWe've been building software together for almost a decade, and this is our second YC startup. At SigmaOS (S21) we built the first browser with built-in agents. Since then, every time we wanted our agents to use a product, we generated a CLI for it, since MCPs weren't enough for the job. It happened enough times that we're now building it for everyone.\n\n### **Our ask to you**\n\nIf you are building a product that you want agents to use, **please reach out to us**! We would love to learn what you are building and how you are letting agents use your product.\n\nYou can also head over to [okibi.ai](http://okibi.ai) to turn your product into a CLI\n\nBook a call: <https://calendly.com/m-cal-uvfs/okibi-customer-call>\n\nEmail: [m@okibi.ai](mailto:m@okibi.ai)",
+      "url": "https://www.ycombinator.com/launches/Tn9-okibi-agent-ready-clis",
+      "votes": 34,
+      "created_at": "2026-09-10T14:09:32.663Z"
+    },
+    {
+      "id": 92336,
+      "title": "Okibi | The agent that builds agents 🤖",
+      "tagline": "Effortlessly build automations and agents using simple prompts",
+      "body": "Hey everyone 👋\n\nWe are [Mahyad](https://x.com/MahyadGhassemi) and [Saurav](https://x.com/thesauravmitra), the co-founders of [Okibi](https://okibi.ai)\n\n# TL;DR\n\n**Okibi is a web app that lets you create AI agents using natural language**. You can think of it as Lovable for Agents.\n\n**Our ask:** try it out [@ijustwannabuild.ai](https://ijustwannabuild.ai), and [book a call with us](https://calendly.com/d/cq3k-yhy-g6d/user-interviews)! We’d love your feedback and what kind of agents you need for your company\n\nhttps://youtu.be/3cZWA9SAohM\n\n# ❌ The problem and why we care to solve it\n\n![uploaded image](/media/?type=post&id=92336&key=user_uploads/539005/cd13cafb-1a52-4dba-a8d7-92d71516dbfa)\n\nThe two of us have been **building software for over 10 years** and **working together for the past 7.** Actually, This is also **our second YC startup together**. At our previous company, SigmaOS (S21), where we built the first browser with built-in agents, we **ran into a ton of repetitive tasks** and **had to build many agents for our own product**. Automating those tasks was **slow and complicated**. We often ended up doing things manually or relying on partial solutions like Zapier, Lindy, custom scripts, or hacked-together LLM tools. The agents we did build for our product also eventually became **messy and hard to maintain**.\n\nCreating AI agents typically requires **complex**, **time-consuming** **setup**, including **tool calls**, **LLM syntax management**, **multi-agent orchestration**, **browser use**, **human in the loop**, **evals**, and **hosting deployments**.\n\nSo, when building agents two primary challenges always come up:\n\n* Evals\n* Architecture and Infrastructure\n\n# **✅ How Okibi solves it for you**\n\n![uploaded image](/media/?type=post&id=92336&key=user_uploads/539005/e323bc33-463f-42f7-ad7a-daf85d3ceb03)\n\n\nOur web app provides a **chat interface and toolkit to easily create AI agents**. Just describe your agent in natural language, similar to vibe coding, and our app **automatically generates your agent's tool calls, human in the loop, browser use, and runs an initial eval on your agent.**\n\nWhether you're building an **internal workflow automation** to remove repetitive or time consuming tasks, or **launching a product with** **agents**, Okibi can help you build it.\n\nWe are currently **working with** **15 YC companies** from the current and previous batches to automate tasks like:\n\n* Pre-qualify companies with the right person at those companies to sell your product to\n* Generate invoices and update their invoice trackers based on email and contract\n* Pre-meeting prep for client or sales lead call\n* Generate pricing and proposal based on meeting notes and existing contracts\n\nhttps://www.loom.com/share/2c038ed7243a4984a0b8224c2e24eacb?sid=cec442cb-88cf-4b75-b9bf-84b7fa3618de\n\n# 🤖 Ready to start automating with agents?\n\nHead over to [ijustwannabuild.ai](https://ijustwannabuild.ai), and…\n\n![uploaded image](/media/?type=post&id=92336&key=user_uploads/539005/3a716ad3-1715-4646-a37a-80045f928406)\n\n",
+      "url": "https://www.ycombinator.com/launches/O1I-okibi-the-agent-that-builds-agents",
+      "votes": 155,
+      "created_at": "2025-07-21T21:10:06.804Z"
+    }
+  ]
+}

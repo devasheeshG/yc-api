@@ -1,0 +1,78 @@
+{
+  "id": 31199,
+  "name": "Emdash",
+  "slug": "emdash",
+  "former_names": [],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/65f0b89667ff290bb9620bcc2fa2d4c1e952c051.png",
+  "website": "https://emdash.com",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "Agent-first development environment. Emdash enables engineering teams to develop software faster, by running multiple coding agents in parallel. We're an open-source and provider-agnostic desktop application.",
+  "one_liner": "Open-source Agentic Development Environment",
+  "team_size": 2,
+  "industry": "B2B",
+  "subindustry": "B2B -> Productivity",
+  "launched_at": 1770661748,
+  "tags": [],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Winter 2026",
+  "status": "Active",
+  "industries": [
+    "B2B",
+    "Productivity"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/emdash",
+  "api": "https://devasheeshg.github.io/yc-api/batches/winter-2026/emdash.json",
+  "year_founded": 2025,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://linkedin.com/in/emdash-com",
+  "x_url": "https://x.com/emdashcom",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/65f0b89667ff290bb9620bcc2fa2d4c1e952c051.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Gustaf Alstromer",
+    "url": "https://www.ycombinator.com/people/gustaf-alstromer"
+  },
+  "founders": [
+    {
+      "user_id": 1755188,
+      "full_name": "Raban von Spiegel",
+      "title": "Founder/CEO",
+      "founder_bio": "orchestrating agents @ Emdash. Stanford Engineer. Previously founded Soff (YC S24). Research on software performance engineering at MIT CSAIL.",
+      "is_active": true,
+      "linkedin_url": "https://linkedin.com/in/raban",
+      "x_url": "https://x.com/rabanspiegel",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/4a2738613491f1a14c96ad928bc61d32d0983d89.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 97799,
+      "title": "Emdash - Open-source Agentic Development Environment (ADE)",
+      "tagline": "Run multiple coding agents in parallel.",
+      "body": "Hey YC! 👋 We’re Arne and Raban the we’re building [Emdash](https://emdash.sh). An [open-source](http://github.com/generalaction/emdash) desktop app that lets you work with multiple coding agents at once. We’re calling it an Agentic Development Environment (ADE).\n\n<https://youtu.be/jdIPf2cxf6w>\n\n💬 **Problem**\\\nEvery time we used a coding agent, we'd start a task and ... wait. We tried running multiple agents on the same repo and ended up with branch chaos and merge conflicts. When a new model dropped – Opus, Codex, Gemini flash, Kimi, whatever – we had no clean way to test it against our current setup on the same task. We were bouncing between terminals, GitHub, and our IDE.\\\n\\\n⏩ **Solution**\n\n![uploaded image](/media/?type=post&id=97799&key=user_uploads/1755188/dd08968b-2b60-4a85-b998-e8cc9d017dfc)\n\nEmdash is an environment for agentic development that lets you run multiple agents side-by-side safely, review what each one did in one place, and create a PR when it looks right.\n\n🔍 **How it works**\n\n* Start a task → Emdash spins up a new git worktree so nothing touches your main directory\n* Choose any agent, out of 20+ providers(incl. Claude Code, Codex, Gemini)\n* Run multiple agents at once without conflicts\n* Compare diffs, make quick manual edits if needed, and create a PR\n\n🧰 **What’s included**\n\n* Worktree isolation per agent\n* Issue handoff from Linear / Jira / GitHub\n* One place to review diffs and ship PRs\n* Lifecycle scripts + CI/CD hooks\n* Best-of-N comparisons\n* Integrated file editor + browser preview\n* Remote project access via SSH\n\nWe natively embed \\~20 agent providers (including Claude Code, Codex, Continue, and Codebuff), so you can use the latest models inside the same workflow.\n\nTo get started run `brew install –cask emdash`or download directly from[ GitHub releases](https://github.com/generalaction/emdash/releases). We’re available on macOS and Linux.\n\n**🙏 Our Asks**\n\n1. Try [Emdash](https://emdash.sh/) - it’s free and open-source\n2. Give us a star on [GitHub](http://github.com/generalaction/emdash) **🌟**\n\nQuestions or feedback? Join our [Discord](https://discord.gg/m9APwzK4qd) or email us at [founders@emdash.sh](mailto:founders@emdash.sh)\n\n— Arne & Raban\n\n![uploaded image](/media/?type=post&id=97799&key=user_uploads/1755188/b2b6adc8-60e6-4701-9643-fa622c4a5e96)\n\n",
+      "url": "https://www.ycombinator.com/launches/PRP-emdash-open-source-agentic-development-environment-ade",
+      "votes": 23,
+      "created_at": "2026-02-14T18:48:17.293Z"
+    }
+  ]
+}

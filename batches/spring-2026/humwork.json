@@ -1,0 +1,113 @@
+{
+  "id": 30646,
+  "name": "Humwork",
+  "slug": "humwork",
+  "former_names": [
+    "Qualify.bot"
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/63357814f2f59989ae18e2736412df94c2d8bc31.png",
+  "website": "https://humwork.ai",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "Humwork lets AI agents chat with human experts in real-time. When AI agents like Claude Code or OpenClaw hit a wall, Humwork's MCP server connects them to a verified domain expert in under 30 seconds. Our experts include senior engineers, lawyers, marketers, designers, and more.",
+  "one_liner": "Human experts as API for AI Agents",
+  "team_size": 2,
+  "industry": "B2B",
+  "subindustry": "B2B",
+  "launched_at": 1753843448,
+  "tags": [],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": true,
+  "nonprofit": false,
+  "batch": "Spring 2026",
+  "status": "Active",
+  "industries": [
+    "B2B"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/humwork",
+  "api": "https://devasheeshg.github.io/yc-api/batches/spring-2026/humwork.json",
+  "year_founded": 2025,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/humwork",
+  "x_url": "https://x.com/humworkai",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/63357814f2f59989ae18e2736412df94c2d8bc31.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [
+    "https://bookface-images.s3.us-west-2.amazonaws.com/attachments/ccfcdf7872e603a523ce955ee56808f8eef95f4d.png"
+  ],
+  "primary_partner": {
+    "name": "Tyler Bosmeny",
+    "url": "https://www.ycombinator.com/people/tyler-bosmeny"
+  },
+  "founders": [
+    {
+      "user_id": 107538,
+      "full_name": "Yash Goenka",
+      "title": "Founder/CEO",
+      "founder_bio": "Co-founder & CEO of Humwork, where AI agents hire human knowledge workers. Prev AI engineer and 2x founder. Patent holder for graphene supercapacitor manufacturing. Built first LLM startup in 2021. UC Berkeley grad.",
+      "is_active": true,
+      "linkedin_url": "https://linkedin.com/in/yashvg",
+      "x_url": "https://x.com/theyashgoenka",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/fb0ec215f5f41f89f32b38224f0258ef27750634.jpg"
+    },
+    {
+      "user_id": 1524523,
+      "full_name": "Rohan Datta",
+      "title": "Founder/CTO",
+      "founder_bio": "Co-founder & CTO of Humwork, where AI agents chat with human experts in realtime. Prev. data scientist at MicroGrid Labs and research at UC Berkeley. BS & MS from UC Berkeley.",
+      "is_active": true,
+      "linkedin_url": "https://linkedin.com/in/rohan-datta-2500",
+      "x_url": "https://x.com/OneRohanDatta",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/0d45663b6d125d757825d57e7e750a2d7e2aea6b.jpg"
+    }
+  ],
+  "jobs": [
+    {
+      "id": 94387,
+      "title": "Founding Engineer",
+      "url": "https://www.ycombinator.com/companies/humwork/jobs/9V8MtEV-founding-engineer",
+      "location": "San Francisco, CA, US",
+      "type": "Full-time",
+      "role": "Engineering",
+      "role_type": "Full stack",
+      "salary_range": "$90K - $140K",
+      "equity_range": "2.50% - 5.00%",
+      "experience": "3+ years",
+      "visa": "Will sponsor",
+      "skills": [
+        "PostgreSQL",
+        "Python",
+        "React Native",
+        "Next.js",
+        "LLMs",
+        "AI Agents"
+      ]
+    }
+  ],
+  "news": [],
+  "launches": [
+    {
+      "id": 99775,
+      "title": "Humwork - Connect AI agents with human experts in 30 seconds",
+      "tagline": "When AI agents hit a wall, Humwork connects them to a verified expert in real-time",
+      "body": "Hey everyone [👋](https://emojipedia.org/waving-hand)\\\n\\\nWe’re [Yash](https://www.linkedin.com/in/yashvg/) and [Rohan](https://www.linkedin.com/in/rohan-datta-2500/), co-founders of [Humwork](https://humwork.ai/).\n\n### **TL;DR:**\n\nHumwork is the real-time marketplace where AI agents call verified human experts when they get stuck. Add Humwork to any MCP-compatible agent, and when your coding agent, marketing agent, or research agent hits a wall, it gets connected to the right expert in under 30 seconds.\\\n\\\n<https://www.youtube.com/watch?v=Bqw_qP_jubA>\n\n\\\nHere’s the strange but true version of what we’re building: **AI agents will pay humans to chat with them.**\\\n\\\nThat sounds futuristic, but the need is already here. Anyone using tools like Claude Code, Lovable, or OpenClaw has seen the same failure mode. The agent gets 80% of the way there, then loops on the same bug, makes the same bad architectural guess five times, hallucinates an important legal nuance, misses the brand judgment call, or quietly produces something that looks right but is subtly wrong. If you’re not an expert yourself, you usually can’t even tell exactly where it went off the rails.\\\n\\\n**That is the gap Humwork fills.**\\\n\\\nWhen an agent gets stuck, it calls Humwork through MCP. We route it to the right verified expert in real time — a senior engineer, lawyer, marketer, designer, scientist, or other domain specialist — and the expert talks directly to the agent, not to the user. The answer gets pushed back into the agent’s context, and the work continues without the user leaving their workflow.\\\n\\\nIn practice, this means a coding agent stuck in a debugging loop can escalate to a senior engineer. A legal agent unsure whether a clause will actually hold up can escalate to a lawyer. A marketing agent that produced something polished but generic can escalate to someone with real taste and positioning judgment. Instead of failing silently or asking the user to rescue it, the agent gets expert help on demand.\\\n\\\nDevelopers and vibe coders hit this problem every day. A problem that a strong engineer can diagnose in a few minutes can send an agent into a 45-minute death spiral. And for non-technical builders, it’s even worse: the AI makes a mistake, but they don’t know enough to tell it how to recover. Their project stalls, not because the AI was useless, but because it needed one moment of human expertise.\\\n\\\n**Humwork gives AI agents a way to ask for expert help.**\n\nOur view is that this is where AI is going across all knowledge work. AI will do most of the execution, but humans will still sit at the edge for the hard decisions: architecture, compliance, judgment, taste, tradeoffs, and exceptions. Waymo has remote driver assistance for edge cases. We’re building the equivalent for AI agents.\n\nHumwork is live today. You can add one MCP server and give your agent an escalation path to verified experts in under a minute.\n\n### 💬 **Our Ask**\n\nIf you’re building with AI agents, try Humwork at [**humwork.ai**](http://humwork.ai).\n\nIf you’re building an AI agent product or running internal agents at your company, we’d love to talk about integrating Humwork as your human escalation layer.\n\nAnd if you’re an exceptional engineer, lawyer, marketer, designer, doctor, or domain expert who wants to get paid to help AI systems, we’d love to have you join the network.\n\nYou can reach us at [**founders@humwork.ai**](mailto:founders@humwork.ai) .\n\n### 👬 **The Team**\n\nYash and Rohan have been friends for 16 years, and both went to UC Berkeley for college.\\\n\\\nYash (CEO) was previously and AI engineer and is a 2x founder. He’s a patent holder for graphene supercapacitor manufacturing and built his first LLM startup in 2021. He studied Data Science at UC Berkeley.\\\n\\\nRohan (CTO) has worked as Data Scientist at Microgrid Labs and did drone imagine research at Berkeley. He’s previously built an AI voice calling platform that automated over 1 million minutes of phone calls. Rohan got his BS and MS in Civil Engineering from UC Berkeley.\n\n![uploaded image](/media/?type=post&id=99775&key=user_uploads/107538/63983a65-c01f-4094-bbd7-67b2d0542db6)\n\n![uploaded image](/media/?type=post&id=99775&key=user_uploads/107538/91c33ffc-ab44-44bf-b1d3-9bd756a08739)\n\n",
+      "url": "https://www.ycombinator.com/launches/PxH-humwork-connect-ai-agents-with-human-experts-in-30-seconds",
+      "votes": 25,
+      "created_at": "2026-04-15T15:01:29.397Z"
+    }
+  ]
+}

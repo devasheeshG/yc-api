@@ -1,0 +1,84 @@
+{
+  "id": 31111,
+  "name": "Envariant",
+  "slug": "envariant",
+  "former_names": [
+    "Facture"
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/abf1430afe9764675d165ce0908d003bf6893b19.png",
+  "website": "https://envariant.ai/",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "Envariant is an AI interpretability and reasoning SDK enabling foundation model builders to analyze, steer, and control their model's behaviors.",
+  "one_liner": "Interpretability and reasoning infra for foundation models.",
+  "team_size": 1,
+  "industry": "B2B",
+  "subindustry": "B2B",
+  "launched_at": 1772291164,
+  "tags": [],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Winter 2026",
+  "status": "Active",
+  "industries": [
+    "B2B"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": [
+    {
+      "question": "What is the core problem you are solving? Why is this a big problem? What made you decide to work on it?",
+      "answer": "Foundation models have proven powerful but volatile: they hallucinate, drift, and produce brittle outputs that block scientific and engineering workflows. The standard fixes are expensive, slow, and often destabilizing. They don't scale to the settings that matter most: multi-property, multi-scale tasks like generating new materials or optimizing genetic medicines, where verification itself is difficult, ambiguous, or costly. Teams end up trapped in \"guess and check\" loops — iterating on data and retraining instead of reasoning directly about model behavior. Persistent failure modes go undetected and creative opportunities inside models go unexploited."
+    }
+  ],
+  "url": "https://www.ycombinator.com/companies/envariant",
+  "api": "https://devasheeshg.github.io/yc-api/batches/winter-2026/envariant.json",
+  "year_founded": 2025,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/envariant/",
+  "x_url": "https://x.com/envariant",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/abf1430afe9764675d165ce0908d003bf6893b19.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Diana Hu",
+    "url": "https://www.ycombinator.com/people/diana-hu"
+  },
+  "founders": [
+    {
+      "user_id": 972303,
+      "full_name": "Varun Agarwal",
+      "title": "Founder/CEO",
+      "founder_bio": "Working on interpretability infrastructure for foundation models! My background is in AI and bioengineering research at places like Stanford, MIT, Inceptive, and NASA.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/varun-agarwal1/",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/4d4751c30b1662b34b948a5959ff3e27b59bad29.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 98301,
+      "title": "Envariant – The control layer for foundation models",
+      "tagline": "AI interpretability SDK to analyze, steer, and control model behavior",
+      "body": "**The Problem**\\\nFoundation models are powerful but volatile. They hallucinate, drift, and produce brittle outputs that block scientific and engineering workflows.\\\n\\\nThe standard fixes are expensive, slow, and often destabilizing. They don't scale to the settings that matter most: multi-property, multi-scale tasks like generating new materials or optimizing genetic medicines, where verification itself is difficult, ambiguous, or costly.\\\n\\\nTeams end up trapped in \"guess and check\" loops — iterating on data and retraining instead of reasoning directly about model behavior. Persistent failure modes go undetected, and creative opportunities inside models go unexploited.\\\n\\\n**What Envariant Does**\\\nEnvariant moves verification upstream — from the lab directly into the model's latent space. Our SDK exposes a compact set of primitives so you can specify a property and then reliably observe and control it:\n\n* **Detect**, measure, & causally trace properties and behaviors (hallucinations, safety, style, invariants)\n* **Reason** inductively, generalize, and steer behavior programmatically\n* **Extract** human-readable domain principles the model has learned\n* **Synthesize** targeted edge cases to rapidly improve capabilities\n\nNo bespoke engineering, heavy orchestration, or massive dataset requirements.\\\n\\\n**Results**\n\n![uploaded image](/media/?type=post&id=98301&key=user_uploads/972303/286868f9-7ff7-43de-95f6-ac0c3675e02e)\n\nWe started with failure mode detection: using one underlying primitive, we’ve reached SOTA performance in hallucination detection in text LLMs, real-time degradation detection in robotic VLAs, and antibody-binding prediction. We’re releasing a [beta of this for testing](https://huggingface.co/spaces/var764/envrnt-failure-detection) on March 3rd!\n\n**What’s Next**\n\nWe’ll be scaling up our failure mode detection, expanding this to general property detection and measurement, and releasing experiments & SOTA results across inductive reasoning, steering, and principle extraction this week. Long term, we want to remove the bottlenecks to progress by turning mechanistic understanding into actionable capabilities — enabling teams to reliably control behavior and accelerate discovery.\n\n**Our Ask**\\\nWe'd love intros to:\n\n**ML teams in deep tech and safety-critical verticals** — bio, materials science, physics simulation, robotics, autonomous systems, formal reasoning.\n\n**Teams building foundational AI** or sovereign/private-model deployments.\n\nReach out at [**founders@envariant.ai**](mailto:founders@envariant.ai) or visit [**envariant.ai**](http://envariant.ai). ",
+      "url": "https://www.ycombinator.com/launches/PZV-envariant-the-control-layer-for-foundation-models",
+      "votes": 17,
+      "created_at": "2026-03-01T02:08:21.563Z"
+    }
+  ]
+}

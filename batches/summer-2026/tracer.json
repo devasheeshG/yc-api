@@ -1,0 +1,81 @@
+{
+  "id": 33316,
+  "name": "Tracer",
+  "slug": "tracer",
+  "former_names": [],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/7ad5cca73c945be7e986c41180c71d7ef7a7b19c.png",
+  "website": "https://tracerml.ai",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "Tracer is an AI research lab building more capable and efficient AI through model coordination. We research adaptive inference, ensembling, and systems in which multiple open-source models work together to produce capabilities beyond any single model.\n\nOur work spans reasoning, code, research, and agentic systems, with the goal of making advanced intelligence more accessible and economical.",
+  "one_liner": "Combining open-source AI models for better answers at lower cost",
+  "team_size": 1,
+  "industry": "B2B",
+  "subindustry": "B2B",
+  "launched_at": 1785291116,
+  "tags": [
+    "Machine Learning",
+    "Open Source",
+    "AI"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Summer 2026",
+  "status": "Active",
+  "industries": [
+    "B2B"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/tracer",
+  "api": "https://devasheeshg.github.io/yc-api/batches/summer-2026/tracer.json",
+  "year_founded": 2026,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/116774192/",
+  "x_url": "https://x.com/tracerml",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/7ad5cca73c945be7e986c41180c71d7ef7a7b19c.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Diana Hu",
+    "url": "https://www.ycombinator.com/people/diana-hu"
+  },
+  "founders": [
+    {
+      "user_id": 1217984,
+      "full_name": "Adam Rida",
+      "title": "Founder/CEO",
+      "founder_bio": "I’m the founder of Tracer (S26), an AI research lab building more capable and efficient intelligence by coordinating open-source models.\n\nBefore Tracer, I built DeepRecall solo to €100k ARR in three months, scanning 100k+ marketplace products per day for product-safety risks.\n\nMy background is in applied machine learning and explainable AI. I was an AI PhD candidate at Sorbonne University, CNRS, and AXA, and previously worked at Société Générale, Rebellion Research, Qantev, and MFG Labs.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/adam-rida-581296142/",
+      "x_url": "https://x.com/_adamr_1",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/2fea71058220568dee5bc25f3d49796d0da28cad.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 108361,
+      "title": "Tracer: Fable-level AI at 1/3 the cost using open-weight models",
+      "tagline": "Adaptive AI systems that combine open-weight models for better answers at lower cost.",
+      "body": "Hi! I’m Adam, founder of Tracer.\n\nWe built **Echo**, an adaptive AI system built entirely from open-weight models. Instead of making you choose between models, Echo decides how much compute each request needs, which models should work on it, and how their answers should be combined.\n\n**Across our current eval mix, Echo reaches Fable-level performance at roughly 1/3 the inference cost.**\n\nToday, Echo is strongest on math, science, and the coding benchmarks we currently cover. Multilingual and broader knowledge performance still has room to improve, while longer-horizon coding and agentic evaluations are underway.\n\nEcho is continuously updated as we expand the model pool and improve ensembling and cross-model coordination.\n\n<https://youtu.be/hM0NypILdgw>\n\n## **Why we built Echo**\n\nThere are now dozens of strong models, each with different strengths, weaknesses, and prices.\n\nWe started with a simple experiment: what if you had a perfect oracle that always knew which model would perform best for each request?\n\nThe oracle was substantially stronger than any individual model in the pool.\n\nEcho is our attempt to recover that advantage without knowing the answer beforehand.\n\nInstead of picking one model for everything, Echo goes beyond routing and dynamically allocates compute across a pool of open-weight models behind a single interface.\n\n## **The result**\n\nWe evaluate Echo against frontier models across reasoning, math, coding, multilingual and other benchmarks.\n\nWe measure both **quality and the actual model inference cost used to produce the answers.**\n\n![uploaded image](/media/?type=post&id=108361&key=user_uploads/1217984/867cc6aa-16b8-4330-b497-c33d78e62b24)\n\nOn MATH-500, Echo reached **98.6% at $4.58**, compared with Claude Fable at **99.8% at $12.64**.\n\nOn LiveCodeBench, Echo reached **92.8% at $5.35**, compared with Claude Fable at **92.0% at $8.71**.\n\nThese results show where Echo is already strongest. LiveCodeBench is encouraging, but it does not capture the full difficulty of repository-level and agentic coding. We are currently running longer-horizon evaluations where Echo must plan, use tools, modify code, and recover from errors across multiple steps.\n\nThose results are visible in the Eval Observatory and are active areas of improvement.\n\nWe publish the underlying evaluations, including individual answers, costs, wins, and losses:\n\n**→[ Explore the Echo Eval Observatory](https://echo.tracerml.ai/eval?utm_source=chatgpt.com)**\n\n## **From open source to Echo**\n\nWe first explored this idea through Tracer's open-source work: learning from real AI workloads where expensive model calls are actually necessary and where cheaper paths are enough.\n\nThe project has now crossed **1,000 GitHub stars**, with developers using and experimenting with the approach in their own AI pipelines.\n\nEcho is the next step. Instead of optimizing individual calls with a routing layer, we're building one adaptive system that decides how intelligence should be allocated end to end.\n\n**→ [GitHub](http://github.com/adrida/tracer)**\n\n## **Every company’s AI traffic has a shape**\n\nOur public evaluations test Echo across a broad mix of general tasks. Production workloads are different.\n\nEvery company has its own traffic distribution and quality requirements. Some requests genuinely need expensive frontier-level intelligence. Many don’t.\n\nFor teams that work with us, Echo can be configured to learn the structure of their workload and identify where expensive intelligence is useful and where cheaper paths are enough.\n\n**Public Echo does not train on users’ private traces. Workload-specific learning is enabled only for teams that explicitly work with Tracer to configure it.**\n\nWe set up this optimization with each team around its workload, quality bar, and data requirements.\n\nThe goal is simple: **an AI system that continuously learns how to spend the minimum amount of inference required to maintain the quality you need.**\n\nThat means **\\~3x cheaper is not necessarily the ceiling for a real production workload.**\n\n## **Try Echo now**\n\nEcho is publicly available through a chat UI and an **OpenAI-compatible API**.\n\nYou can try it directly, connect an existing application by changing the base URL, or plug Echo into OpenCode and other agent harnesses.\n\nEcho is continuously updated as we improve model selection and ensembling.\n\n**→[ Try Echo now](https://echo.tracerml.ai)**\n\n## **We’re looking for teams with large inference workloads**\n\nIf your company is running meaningful LLM inference in production, we’d like to test Echo against your workload.\n\nWe’ll map the quality-cost frontier on your traffic and determine how much of your inference actually requires expensive intelligence.\n\nTeams can then work with us to activate private, workload-specific optimization.\n\n→ [**Optimize Echo for your workload**](https://cal.com/adam-rida-tracer/tracer-first-call)\n\n## **About Tracer**\n\nI’m **Adam Rida**, founder of Tracer. I was previously a PhD candidate at **Sorbonne University/CNRS**, where I conducted and published research in ML interpretability. Before founding Tracer, I built applied ML systems across finance, insurance, and supply chain, then grew [DeepRecall](http://deeprecall.io/) to \\~**€100k ARR as a solo founder in less than 3 months**.\n\nI’ve spent most of my career studying how models make decisions and turning that research into production systems.",
+      "url": "https://www.ycombinator.com/launches/SBl-tracer-fable-level-ai-at-1-3-the-cost-using-open-weight-models",
+      "votes": 18,
+      "created_at": "2026-07-31T21:01:56.160Z"
+    }
+  ]
+}

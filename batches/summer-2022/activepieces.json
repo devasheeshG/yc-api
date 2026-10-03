@@ -1,0 +1,96 @@
+{
+  "id": 26792,
+  "name": "Activepieces",
+  "slug": "activepieces",
+  "former_names": [],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/0e3da00ac0f6b66a7e896be53679d01b6fe5fd45.png",
+  "website": "https://www.activepieces.com",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "Activepieces is an open-source (MIT) business automation software.\r\nFor example, you can build automations to receive email and Slack notifications about new contacts add to your HubSpot CRM.",
+  "one_liner": "Open-source, AI-first and no-code business automation tool",
+  "team_size": 10,
+  "industry": "B2B",
+  "subindustry": "B2B -> Engineering, Product and Design",
+  "launched_at": 1657116357,
+  "tags": [
+    "Workflow Automation",
+    "Open Source",
+    "No-code",
+    "Enterprise Software",
+    "AI"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Summer 2022",
+  "status": "Active",
+  "industries": [
+    "B2B",
+    "Engineering, Product and Design"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada",
+    "Remote",
+    "Partly Remote"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/activepieces",
+  "api": "https://devasheeshg.github.io/yc-api/batches/summer-2022/activepieces.json",
+  "year_founded": 2022,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/activepieces/",
+  "x_url": "https://twitter.com/activepieces",
+  "fb_url": "https://www.facebook.com/activepieces",
+  "cb_url": "https://www.crunchbase.com/organization/activepieces",
+  "github_url": "https://github.com/activepieces/activepieces",
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/0e3da00ac0f6b66a7e896be53679d01b6fe5fd45.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Nicolas Dessaigne",
+    "url": "https://www.ycombinator.com/people/nicolas-dessaigne"
+  },
+  "founders": [
+    {
+      "user_id": 138932,
+      "full_name": "Ashraf Samhouri",
+      "title": "Founder/CEO",
+      "founder_bio": "Ended up responsible for growing our ARR so I guess I do sales from the perspective of a software engineer, on a mission to make AI a native part of enterprise through open source automation (aka Activepieces)",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/ashrafsam",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/e91e5e9ed7c7a1da6530ccd4dee552e196bbfe3d.jpg"
+    },
+    {
+      "user_id": 724168,
+      "full_name": "Mohammad AbuAboud",
+      "title": "Founder/CTO",
+      "founder_bio": "I love building cool stuff. Started programming at 13 and never looked back—turns out, breaking things is the fastest way to learn.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/mohammad-abuaboud/",
+      "x_url": "https://mobile.twitter.com/mabuaboud",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/b9a11f094d4568c74704be4223fe03b4eeeac74e.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 68665,
+      "title": "Activepieces – Open source alternative to Zapier",
+      "tagline": "No-code business automation that is open-source and can be self-hosted.",
+      "body": "**tl;dr** You can now host an equivalent software to Zapier to automate your work. You can automate your sales process, marketing operations or back-office without writing code (or with, if you’d like to).\n\n—\n\nHi everyone!\n\nWe're [Mohammad](https://www.linkedin.com/in/mohammad-abuaboud/) (ex-Google) and [Ashraf](https://www.linkedin.com/in/ashrafsam) (3x founder), and here is what we’re building 👇\n\n### 💔 **Problem**\n\nIt can quickly get **too expensive 💰** to use automation tools like Zapier, and if you can’t or hate to **send your data to 3rd parties** [**🔒**](https://emojipedia.org/locked/) it’s already challenging to use these tools.\n\n### 🕺 **Our Product**\n\nActivepieces is a no-code business automation tool. It’s open-source (MIT licensed) and can be self-hosted on your servers.\n\nHere is a 2-min video by our founding engineer Abdul, who’ll explain how to automate sending notifications about a new **Pipedrive** Person to **Slack** and **Email**.\n\nhttps://www.youtube.com/watch?v=IY4TI6jGBwM\n\n### ❇️ **Difference from Zapier**\n\nWhile Zapier offers a cloud service, Activepieces is:\n\n1. **Self-hosted:** You can keep your data on your servers (helpful for data privacy).\n2. **Open-source:** the platform and the connectors (don’t wait for us to build the connector).\n3. **Free** (helpful for .. your pocket).\n\n### 🖌️ **Use Cases**\n\nWe’re working with some users at companies to:\n\n* Automate lead flow: from blogs to MailChimp and CRMs.\n* Centralize notifications: from marketing/sales to Slack workspace.\n* Automate operations: a company is using us to convert pdfs to text, summarize them and submit them to their proofreading team.\n\n### 🟢 **Status**\n\nWe just launched with **15 apps** including OpenAI, HubSpot, MailChimp, Stripe, Pipedrive, Gmail, SendGrid — and adding more.\n\nOur focus is to build the free product and the community around it. Later, we’ll make money from enterprise features.\n\n### 🙏 **Our Ask**\n\nYou can try out Activepieces on the [Playground](https://demo.activepieces.com/sign-up?utm_source=launch&utm_medium=post&utm_campaign=launch_yc) and we’ll be happy if you give us a star ⭐ on our [GitHub repo](https://github.com/activepieces/activepieces)!\n\n### 🖇️ **All links**\n\n* Website: [www.activepieces.com](http://www.activepieces.com?utm_source=launch&utm_medium=post&utm_campaign=launch_yc)\n* Github repo (star us maybe?😳❤️): [https://github.com/activepieces/activepieces](https://github.com/activepieces/activepieces?utm_source=launch&utm_medium=post&utm_campaign=launch_yc)\n* Playground: [https://demo.activepieces.com](https://demo.activepieces.com/sign-up?utm_source=launch&utm_medium=post&utm_campaign=launch_yc)\n* Community (Discord): https://discord.gg/2jUXBKDdP8\n\nI’ll be happy to help anyone get set up (or grow out of Zapier): [founders@activepieces.com](mailto:founders@activepieces.com)",
+      "url": "https://www.ycombinator.com/launches/HrV-activepieces-open-source-alternative-to-zapier",
+      "votes": 45,
+      "created_at": "2023-01-24T18:10:00.535Z"
+    }
+  ]
+}

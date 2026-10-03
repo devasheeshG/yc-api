@@ -1,0 +1,100 @@
+{
+  "id": 27809,
+  "name": "EdgeBit",
+  "slug": "edgebit",
+  "former_names": [],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/129c0d512b87fa767fbbc001172d26269d9a0ab0.png",
+  "website": "https://edgebit.io",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "EdgeBit was acquired by FOSSA in July 2025: https://fossa.com/blog/fossa-acquires-edgebit/\r\n\r\nEdgeBit enables engineering teams to ship security updates 10x faster with confidence by automating dependency update analysis. Our platform turns weeks of manual review into minutes, helping teams find and fix security vulnerabilities while maintaining a secure, up-to-date software supply chain without compromising productivity.",
+  "one_liner": "Autofix your software dependencies",
+  "team_size": 5,
+  "industry": "B2B",
+  "subindustry": "B2B -> Security",
+  "launched_at": 1672965227,
+  "tags": [
+    "DevSecOps",
+    "B2B",
+    "Security"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Winter 2023",
+  "status": "Acquired",
+  "industries": [
+    "B2B",
+    "Security"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada",
+    "Remote",
+    "Partly Remote"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/edgebit",
+  "api": "https://devasheeshg.github.io/yc-api/batches/winter-2023/edgebit.json",
+  "year_founded": 2022,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/edgebit/",
+  "x_url": "https://twitter.com/EdgebitIO",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": "https://github.com/edgebitio/",
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/129c0d512b87fa767fbbc001172d26269d9a0ab0.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Gustaf Alstromer",
+    "url": "https://www.ycombinator.com/people/gustaf-alstromer"
+  },
+  "founders": [
+    {
+      "user_id": 230598,
+      "full_name": "Rob Szumski",
+      "title": "Founder",
+      "founder_bio": "Rob Szumski is CEO and co-founder of EdgeBit, the security platform that secures your software supply chain by focusing on code that is actually running. EdgeBit simplifies vulnerability management as it cuts through noise that distracts engineers merging code.\n\nRob was an early employee of CoreOS (YC S13) which popularized the immutable operating system and propelled Kubernetes/container tech into the mainstream. CoreOS was acquired by Red Hat in 2018, where Rob was a Director of Product.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/robszumski/",
+      "x_url": "https://twitter.com/robszumski",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/60e818e2ea2e9958d82e367fd34da1797653d7ce.jpg"
+    },
+    {
+      "user_id": 5721,
+      "full_name": "Eugene Yakubovich",
+      "title": "Founder",
+      "founder_bio": "Eugene is a long time hacker who likes to work at the application / operating systems boundary. In the past, he designed the foundational layers for high-frequency trading, contributed to the container runtimes, and implemented graph algorithms for continent size road networks.\n\nLately he has been on a mission to secure workloads and in 2022 he teamed up with Rob and Russell to tackle the problem, starting with fixing the vulnerability fire hose.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/eugene-yakubovich-4640604/",
+      "x_url": "https://twitter.com/eyakubovich",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/c569124aefb1e5e87e2e6cae1108ec324218e46d.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [
+    {
+      "title": "FOSSA Acquires EdgeBit: From Scanning to Updating",
+      "url": "https://fossa.com/blog/fossa-acquires-edgebit/",
+      "date": "Sep 28, 2025"
+    }
+  ],
+  "launches": [
+    {
+      "id": 69144,
+      "title": "EdgeBit - Secure your software supply chain",
+      "tagline": "Supply chain analysis that eliminates noise in vulnerability response",
+      "body": "tl;dr: [EdgeBit](https://edgebit.io) automatically inventories software dependencies, ensures they are trusted, and monitors vulnerabilities – securing your software supply chain. For security teams, we help you meet new compliance requirements about the libraries and packages in your products. For engineers, we make vulnerability investigation/patching streamlined, so you can get back to writing code.\n\nHi everyone, we are Rob, Russell and Eugene, the team behind [EdgeBit](https://edgebit.io).\n\nWe’re on a mission to make software secure by default. EdgeBit deeply understands how your app is built, what makes it up and how it’s running. That knowledge builds up trust to make developers lives easier, and your entire server fleet more secure.\n\n![uploaded image](/media/?type=post&id=69144&key=user_uploads/230598/b3341e0d-c53a-49b4-a31a-c5d9a5fa6c8c)\n\nLeft - [Eugene](https://www.linkedin.com/in/eugene-yakubovich-4640604/) - Chief Architect and low level hacker. He worked on pathfinding algorithms at Lyft, container networking at CoreOS and performance optimization in his high frequency trading days.\n\nCenter - [Rob](https://www.linkedin.com/in/robszumski/) - CEO and product leader. He was a Director of Product at Red Hat working on the OpenShift/Kubernetes platform after their acquisition of CoreOS (YC S13).\n\nRight - [Russell](https://www.linkedin.com/in/russellhaering/) - CTO and master of backend systems. He ran security engineering at Okta after their acquisition of ScaleFT, the zero trust access management startup he cofounded.\n\n## The Problem: securing software still feels like throwing problems over a wall\n\nSecurity teams have important work to do – meeting a maze of compliance rules against a constantly moving target of dependencies, frameworks and deployment platforms. Automation is key, but security teams aren’t experts in each app, so “open a ticket for any vulnerability found” is a typical workflow. This is a firehose for app teams, and tickets don’t contain the context needed for a speedy investigation.\n\n![uploaded image](/media/?type=post&id=69144&key=user_uploads/230598/201aef87-ad12-4842-9b9d-f423f8ccd315)\n\nLooking beyond compliance, real attacks are happening via software dependencies. For a single library, it’s tricky to securely download, integrate, sign and verify it…and very hard for 100s of dependencies across multiple apps. An enterprise can use [40,000 open-source software packages](https://www.theregister.com/2023/02/05/supply_chain_security_efforts/) each bringing another 77 dependencies.\n\nAn end-to-end system across the build→scan→run→monitor is required to stop these attacks. Dependencies are fragmented across OS packages, standalone binaries and containers, but a single view across all is required to understand the full attack surface.\n\n## EdgeBit: Map your supply chain from build to production in real time\n\n![uploaded image](/media/?type=post&id=69144&key=user_uploads/230598/9872f16b-3980-4c64-bf6f-fe47a5f82262)\n\nEdgeBit builds up context and trust by observing your software from build until deployment to your server fleet. How does it work? Install EdgeBit into your build pipeline and your server fleet/Kubernetes cluster via a tiny agent to immediately enable teams to bring vulnerabilities under control:\n\n* Security: track workload signatures, provenance and prevent malicious modification\n* Compliance: build a real time inventory tracked back to the software’s bill of materials (SBOM)\n* Engineering: prioritize vulnerability investigation based on deep context\n* Enterprises: track patching across teams. The next log4j will come, and it’s a huge endeavor without real time inventory across all tech stacks and packaging formats.\n\n## Try out EdgeBit\n\nSecurity teams can [install EdgeBit](https://edgebit.io) to track their supply chain and even help compliance managers do their job without getting engineering involved. Remove frustration from your vulnerability response program by connecting your teams together and take control back from noisy scanners.\n\nSecuring supply chains is just a step in our journey. Using trust profiles between systems is key to a zero trust security posture. We’d love to chat with you about acute compliance needs or long term security goals of your organization.",
+      "url": "https://www.ycombinator.com/launches/HzE-edgebit-secure-your-software-supply-chain",
+      "votes": 23,
+      "created_at": "2023-02-08T20:44:58.421Z"
+    }
+  ]
+}

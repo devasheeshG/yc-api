@@ -1,0 +1,122 @@
+{
+  "id": 30097,
+  "name": "Innate",
+  "slug": "innate",
+  "former_names": [],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/374e6b2cd282f5fe31c64fcc82aaebb3105153c9.png",
+  "website": "https://innate.bot",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "We make personal AI robots - general-purpose physical machines that anyone can teach with code, language and demonstrations.\r\n\r\nWe believe building open platforms like the first PCs this is the only way to bring the robotics future that we all want, where everyone can participate in the robotics revolution.",
+  "one_liner": "Personal AI Robots",
+  "team_size": 7,
+  "industry": "Consumer",
+  "subindustry": "Consumer -> Consumer Electronics",
+  "launched_at": 1730365227,
+  "tags": [
+    "Artificial Intelligence",
+    "Developer Tools",
+    "Hard Tech",
+    "Robotics"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": true,
+  "nonprofit": false,
+  "batch": "Fall 2024",
+  "status": "Active",
+  "industries": [
+    "Consumer",
+    "Consumer Electronics"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/innate",
+  "api": "https://devasheeshg.github.io/yc-api/batches/fall-2024/innate.json",
+  "year_founded": 2024,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/innate-bot",
+  "x_url": "https://x.com/innate_bot",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/374e6b2cd282f5fe31c64fcc82aaebb3105153c9.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Nicolas Dessaigne",
+    "url": "https://www.ycombinator.com/people/nicolas-dessaigne"
+  },
+  "founders": [
+    {
+      "user_id": 938249,
+      "full_name": "Axel Peytavin",
+      "title": "Founder/CEO",
+      "founder_bio": "CEO @Innate. Former researcher at Stanford HCI, The Ocean Cleanup",
+      "is_active": true,
+      "linkedin_url": "https://linkedin.com/in/axel-peytavin",
+      "x_url": "https://x.com/ax_pey",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/f87ffaf60cfa73031c4d08001d38c77d4b23ac75.jpg"
+    },
+    {
+      "user_id": 1831970,
+      "full_name": "Vignesh Anand",
+      "title": "Founder/CTO",
+      "founder_bio": "Former Stanford robotics graduate student. Former flight sciences intern at Archer. Also built high-powered rockets and underwater robots. Currently building the future of embodied AI with Innate",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/vignesh-anand-iitb/",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/7adac2bc127fc7a93bf960286b96991e5463f4df.jpg"
+    }
+  ],
+  "jobs": [
+    {
+      "id": 100520,
+      "title": "Operations Lead / Chief of Staff",
+      "url": "https://www.ycombinator.com/companies/innate/jobs/DLO4CJ6-operations-lead-chief-of-staff",
+      "location": "Bay Area",
+      "type": "Full-time",
+      "role": "Operations",
+      "role_type": null,
+      "salary_range": "",
+      "equity_range": "",
+      "experience": "8+ years",
+      "visa": "US citizen/visa only",
+      "skills": []
+    },
+    {
+      "id": 100521,
+      "title": "Marketing Intern",
+      "url": "https://www.ycombinator.com/companies/innate/jobs/PZV8HFZ-marketing-intern",
+      "location": "Bay Area",
+      "type": "Full-time",
+      "role": "Marketing",
+      "role_type": null,
+      "salary_range": "",
+      "equity_range": "",
+      "experience": "Any (new grads ok)",
+      "visa": "US citizen/visa only",
+      "skills": []
+    }
+  ],
+  "news": [],
+  "launches": [
+    {
+      "id": 85667,
+      "title": "Innate 🤖 Teach your own general-purpose robots",
+      "tagline": "Shipping assembled AI robots for builders of Silicon Valley!",
+      "body": "Innate builds **AI brains for general-purpose robots**, and **affordable embodiments** for consumers to experience the first AI robots.\n\nOur first product, **Maurice**, is a mobile robot with a trainable arm, designed for Silicon Valley builders to play with, customize and build on. It runs our AI brain that can navigate, perform physical tasks, interact with people, and reason.\n\n<https://youtu.be/gxRLFx4JjcQ>\n\nThe brain is **completely teachable**: You can prompt it, chat with it, and teach it physical tasks.\n\nIt takes **only 5 minutes** for you to write another prompt for Maurice to behave very differently, for example, performing security at home:\n\n<https://youtu.be/hGK0lIGT49E>\n\n# ⚙️ Under the hood\n\nIn the past 3 months, we created **our brain, an AI orchestrator** leveraging several of the most recent research publications in AI for manipulation, navigation, reasoning and planning.\n\nIt combines **9 different models** to create something that feels innately intelligent - like GPT, Gemini, Claude and Llama (Groq) got a body and learned to move. Maurice **constantly understands its environment**, makes decisions, remembers what is sees and where, and learns from you.\n\n![uploaded image](/media/?type=post&id=85667&key=user_uploads/938249/cc03013d-d569-4272-93d8-e7a3c7f0a6b8)\n\n**This system comprises:**\n\n🧠 A **multi-agent** orchestrator running specialized models locally and in cloud 🤖 **Real-time manipulation** models controlled by our own transformers\n\n🦾 A **full data pipeline** to collect arm data, train in the cloud, run inference on the platform\n\n💬 **A 100% interactive platform**, that can be steered vocally or through its prompts\n\n📈 An **eval pipeline** for our brain’s decision making, to progressively make it better\n\nMaurice learns your space, remembers context, and makes autonomous decisions about where, what to do next.\n\n**It’s also ready to build on:**\n\n* **All the compute required** is onboard (uses a Jetson Orin Nano)\n* Shipped with a **teleop arm** to train it quickly\n* **SDK to access the agent**, steer it, give it new functions to call\n\n  ![uploaded image](/media/?type=post&id=85667&key=user_uploads/938249/1459c238-8aff-4226-acec-5c3c3770f57c)\n\n\nAnd as a user, you can customize it, collect data quickly to train it, and even change the hardware.\n\n![uploaded image](/media/?type=post&id=85667&key=user_uploads/938249/1039d908-0523-43d5-a70e-8d6d00971063)\n\nThis allows Maurice (and future robots) to learn several kinds of physical tasks.\n\n![uploaded image](/media/?type=post&id=85667&key=user_uploads/938249/ed3e71f0-37cb-498d-8448-57f2ebb47178)\n\nFinally, Maurice is already reliable enough for us to do live, autonomous demos!\n\nWe're also developing a larger robot that can reach countertops. Our interoperable software ensures quick capability matching across all future embodiments using the Innate brain.\n\n# Our Ask: Join us into the **future**\n\nWe're making teachable robots accessible to builders now, because we believe it is the right way to tailor robots people want, for a reasonable price. Furthermore, the data we collect along the way, teaching our robots, will be useful for all future robots.\n\nOur first platform is for Silicon Valley builders who want to shape what teachable robots can do. Sign up for our waitlist [on our website.](https://innate.bot)\n\n1. **Join the community:** Builders, if you want to know more, join our Discord and / or get one, send us a DM at [@ax_pey](https://x.com/ax_pey) on X or at [axel@innate.bot](mailto:axel@innate.bot)\n2. **Intro us:** Our AI brain could be useful to an individual or company you know making robots? We’d love to chat!\n3. **I just want to chat! :** Great! Happy to! The best way is still through [X](https://x.com/ax_pey), [LinkedIn](https://www.linkedin.com/in/axel-peytavin/) or [email](https://mailto:axel@innate.bot)!\n\n# Who we are\n\nWe are Vignesh and Axel, two former Stanford grad students and researchers in AI for robotics and AI for HCI. We met almost a year ago working on a previous idea, and through several iterations of this project, we have come to trust our shared abilities to face the hard problems ahead to make general-purpose robotics accessible to everyone.\n\nThis company embodies our vision of bringing a technology that will be a major game-changer for humanity, in the hands of everyone. So that robots are made for humans, taught by humans.\n\n![uploaded image](/media/?type=post&id=85667&key=user_uploads/938249/8d097e3a-cf0a-4ef9-ac06-4b6397935231)\n\n_Us, 10mn before a successful live demo of our robot in front of 40 people, fixing an unexpected bug_\n\nThe future of robotics is teachable. It’s time to build it!",
+      "url": "https://www.ycombinator.com/launches/MHj-innate-teach-your-own-general-purpose-robots",
+      "votes": 44,
+      "created_at": "2024-11-18T19:25:14.391Z"
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "id": 33023,
+  "name": "Levocred AI",
+  "slug": "levocred-ai",
+  "former_names": [],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/4211252c17df7b0a89dc9c36ce49996bef59474d.png",
+  "website": "https://levocred.com/",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "Levocred AI is the Bloomberg of loans: AI agents that run and price a lender's book. One fund cut the time to mark its book from a week to two hours and now names us as data agent, the system of record, in its loan purchase agreements.\r\n\r\n$22T of US loans never trade because nobody can price them efficiently and defensibly. We fix pricing first by deploying inside lenders. Trading follows, the way it did for bonds.",
+  "one_liner": "The Bloomberg of Loans",
+  "team_size": 2,
+  "industry": "Fintech",
+  "subindustry": "Fintech",
+  "launched_at": 1782022398,
+  "tags": [
+    "Finance",
+    "B2B",
+    "Enterprise Software"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Summer 2026",
+  "status": "Active",
+  "industries": [
+    "Fintech"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/levocred-ai",
+  "api": "https://devasheeshg.github.io/yc-api/batches/summer-2026/levocred-ai.json",
+  "year_founded": 2026,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/levocred-ai",
+  "x_url": "",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/4211252c17df7b0a89dc9c36ce49996bef59474d.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Brad Flora",
+    "url": "https://www.ycombinator.com/people/brad-flora"
+  },
+  "founders": [
+    {
+      "user_id": 3179062,
+      "full_name": "Mohit Gupta",
+      "title": "Founder/CEO",
+      "founder_bio": "Employee #1 at a credit fund that went from $10M to $1B AUM. Managed $200M at 23, evaluated $100B of loans. Ex Morgan Stanley fixed income. CS @ IIT Bombay, Finance @ UC Berkeley. Now building the Bloomberg of loans.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/guptamohit2299/",
+      "x_url": "https://x.com/gupta_m0hit",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/3ec48e4ead1bd6681f312cacd75cb1ddb691cd74.jpg"
+    },
+    {
+      "user_id": 1978755,
+      "full_name": "Saksham Gupta",
+      "title": "Founder/CTO",
+      "founder_bio": "Founding engineer at a credit fund, where he built and scaled the trading and data infrastructure as the fund grew from $150M to $1B+ in AUM. EE @ IIT Kanpur",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/gupsak",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/d005e1efc44e74b6946d4413ff8c73a055def3b8.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 109810,
+      "title": "Levocred: AI platform for credit funds, fintechs and banks",
+      "tagline": "AI for credit funds, fintechs and banks",
+      "body": "---\n\n**TLDR:** Levocred AI (YC S26) is an AI-native platform for credit funds, fintechs and banks to automate workflows like back-office tasks, portfolio monitoring, compliance and underwriting. Live across multiple credit teams, running \\~$1Bn in receivables through the platform.\n\n\\*\\*Video:\\*\\*\\\n<https://youtu.be/OU_G096YPzo>\n\nThe winning teams will scale with token consumption, not headcount. Try it today: <https://www.levocred.ai/trynow>\n\n**The problem**\n\nCredit teams run on data scattered across 5-6 tools (CRM, LMS, data rooms, servicer reports) and endless spreadsheets. So highly-paid analysts become data janitors, copy-pasting between systems and rebuilding the same models — instead of the real job: underwriting and managing risk.\n\nIt's the same story across all of an analyst’s workflows (like new deals, monitoring, reporting, workouts). One example: to borrow against a credit facility (it’s like a credit card for fintechs with a limit typically in the $100Ms ), a team produces and verifies compliance certificates by hand. That's hours of Excel every time, so they draw less often than they should, leaving millions on the table.\n\n**What is Levocred?**\n\nLevocred is an AI employee for your credit team. It plugs into your loan tapes, credit agreements, servicer reports, and bank feeds, learns how you work, and runs the workflows your analysts do by hand today.\n\n* Analyzes new deals and drafts the investment memos\n* Monitors the portfolio, marks valuations, and answers questions in Slack (\"what's our exposure to X?\")\n* Produces and checks compliance certificates, and handles covenant and LP reporting\n\nWhy it works when nothing else has:\n\n* **It's AI-native, not a rules engine.** Older tools only work if you hand-code every rule, so they break on messy, real-world data. Levocred's agents read your actual documents and tapes and reason across them. We already run consumer, fintech, litigation finance, and MCA through the same engine.\n* **You stay in control** with full auditability and no waiting on a vendor's engineers\n* **It compounds.** Every document you load makes it smarter about your book. That data moat is yours. It’s why usage only grows.\n\nThe result: a draw that took a day of Excel takes minutes, monitoring runs continuously instead of monthly, and your team spends its time on judgment, not grunt work.\n\n**Team**\n\n* **Mohit Gupta (CEO)**: Studied CS at IIT Bombay (ranked 53rd of 1.2M in the JEE) and Finance at UC Berkeley. Founding engineer at a credit hedge fund, where he later managed a $200M book.\n* **Saksham (CTO)**: Previously Software Engineer at a credit fund, where he built and scaled infrastructure as the fund grew. Electrical &amp; Electronics from IIT Kanpur",
+      "url": "https://www.ycombinator.com/launches/SZ8-levocred-ai-platform-for-credit-funds-fintechs-and-banks",
+      "votes": 5,
+      "created_at": "2026-08-11T15:30:00.232Z"
+    }
+  ]
+}

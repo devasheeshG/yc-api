@@ -1,0 +1,95 @@
+{
+  "id": 31223,
+  "name": "Datoric",
+  "slug": "datoric",
+  "former_names": [
+    "Flow AI",
+    "Arzule"
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/fa894803120df3a3a9250c66e4232e33e2a223d0.png",
+  "website": "https://www.datoric.com",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "Datoric develops custom datasets for voice models, robotics, and world models, treating research, collection, verification, and production as one continuous process. We work closely with frontier model teams to turn emerging limitations and model failures into testable data hypotheses, while running our own experiments ahead of customer demand. This allows us to operationalize validated methods into repeatable collection systems at scale.\r\n\r\nData is collected through private invite-only applications separated by modality, customer, and trust level. Every submission remains linked to the contributor, device, task, session, consent, rights, and processing history that produced it, giving our internal QA and fraud models the context to detect problems that may appear legitimate in the finished file. Each collection reveals new failure cases and quality signals that improve the systems behind the next dataset.\r\n\r\nOnce a collection method is validated, we scale it up as a solution to the model failure and it also becomes a reusable data recipe for future custom projects or independently collected, rights-cleared data products. ",
+  "one_liner": "The secure training data R&D engine for physical AI",
+  "team_size": 2,
+  "industry": "B2B",
+  "subindustry": "B2B",
+  "launched_at": 1767154035,
+  "tags": [
+    "Artificial Intelligence",
+    "Machine Learning",
+    "Robotics",
+    "Data Labeling"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Summer 2026",
+  "status": "Active",
+  "industries": [
+    "B2B"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/datoric",
+  "api": "https://devasheeshg.github.io/yc-api/batches/summer-2026/datoric.json",
+  "year_founded": 2025,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/arzulehq/",
+  "x_url": "",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/fa894803120df3a3a9250c66e4232e33e2a223d0.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Harshita Arora",
+    "url": "https://www.ycombinator.com/people/harshita-arora"
+  },
+  "founders": [
+    {
+      "user_id": 1486120,
+      "full_name": "Nikhil Reddy",
+      "title": "Founder/CEO",
+      "founder_bio": "CEO @ Datoric. Prev Quant & SWE Intern. Math/Econ/CS @ UChicago; Bypassed Google OAuth 2.1 and QA systems on data annotation platforms to automate training tasks in 2023, then disclosed the loopholes to the affected platforms.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/nikhilrreddy",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/85cf42094155ddf41c9ca0e99b42a85e2ed763d1.jpg"
+    },
+    {
+      "user_id": 2310490,
+      "full_name": "Jeffrey Lin",
+      "title": "Founder/CTO",
+      "founder_bio": "CTO @ Datoric. Prev AI/ML & SWE Intern. Math & CS & Robotics at NYU. Created a bounding box algorithm for more efficient labeling as Head of Data for the NYU Robotics Team. ",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/jeffrey-lin-7abaab255/",
+      "x_url": "https://x.com/Jeffjinlin",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/4f3068998c884af4a2668f4da4bbe3efa8e796d3.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 108251,
+      "title": "Datoric | Trustworthy data for the next generation of models",
+      "tagline": "Collecting the human experience AI needs, securely.",
+      "body": "Datoric provides custom, security-first training data for voice models, robotics, and world models. Our private, project-specific contributor systems have led to a dramatic improvement in quality for customers and helped us generate nearly seven figures in revenue over the last 30 days.\n\n## **Our background**\n\nIn 2023, we built large-scale automations that completed paid LLM training tasks across major crowd-work platforms by bypassing QA testers. We earned six figures in three months, and even helped fix some of the vulnerabilities that we found. From this experience, we learned just how easily training data can be compromised, and how it can lead to unsafe model behavior.\n\n<https://youtu.be/GXuyd2PfsAY>\n\n## **The problem**\n\nLabs are searching for the high-quality, authentic human data their models need, but quality and provenance become harder to control at scale, especially when relying on outside data providers. Poor-quality or compromised data can distort model behavior, while unqualified contributors, automated submissions, unclear instructions, and weak consent records can still slip through QA. At the same time, data providers hold concentrated stores of customer data, contributor identities, and payments that attract fraud and security threats.\n\n## **What we built**\n\nDatoric manages the full collection process for multilingual speech, egocentric video, and action-conditioned data. We collect this data through more than 300,000 active contributors who record conversations, everyday tasks, and other project-specific activities through our private apps. Because Datoric has no public marketplace or open upload system, every collection can run inside its own isolated environment, keeping customer projects separate and limiting unauthorized access. Each recording also remains linked to the verified contributor who created it and the consent they provided. This blocks automated or manipulated submissions and protects quality throughout the collection process rather than leaving it to final QA.\n\n## **Traction**\n\nWe’ve seen a major uptick in quality compared to other providers, and in the last 30 days, Datoric has generated nearly seven figures in revenue.\n\n## **Our ask**\n\nWe would love introductions to teams building voice models, robots, or world models that need difficult, custom human-generated data.\n\nSend us your hardest collection specification at [**founders@datoric.com**](mailto:founders@datoric.com), or visit [**datoric.com**](http://datoric.com).",
+      "url": "https://www.ycombinator.com/launches/S9z-datoric-trustworthy-data-for-the-next-generation-of-models",
+      "votes": 4,
+      "created_at": "2026-07-29T16:22:25.416Z"
+    }
+  ]
+}

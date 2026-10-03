@@ -1,0 +1,78 @@
+{
+  "id": 31211,
+  "name": "Sazabi",
+  "slug": "sazabi",
+  "former_names": [],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/2fca2808f8b0ea2f65302051164b0360bec51746.png",
+  "website": "https://www.sazabi.com/",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "The AI-native observability platform for fast-moving engineering teams. Backed by tastemakers from the world's top AI companies: Vercel, Graphite, Daytona, Browserbase, LangChain, Mastra, Replit, and more.",
+  "one_liner": "The AI-native observability platform for fast-moving engineering teams",
+  "team_size": 10,
+  "industry": "B2B",
+  "subindustry": "B2B -> Infrastructure",
+  "launched_at": 1774488944,
+  "tags": [],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Spring 2026",
+  "status": "Active",
+  "industries": [
+    "B2B",
+    "Infrastructure"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/sazabi",
+  "api": "https://devasheeshg.github.io/yc-api/batches/spring-2026/sazabi.json",
+  "year_founded": 2025,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/sazabi/",
+  "x_url": "https://x.com/sazabi",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/2fca2808f8b0ea2f65302051164b0360bec51746.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Aaron Epstein",
+    "url": "https://www.ycombinator.com/people/aaron-epstein"
+  },
+  "founders": [
+    {
+      "user_id": 282099,
+      "full_name": "Sherwood Callaway",
+      "title": "Founder/CEO",
+      "founder_bio": "Sherwood Callaway is a 2x YC founder and software engineer with over ten years of experience in infrastructure, DevOps, and observability engineering roles top VC-backed startups, including Crunchbase and Brex. Currently, he is founder and CEO at Sazabi, the AI-native observability platform for fast-moving engineering teams. Sazabi is directly inspired by Sherwood's experience at Brex, where helped start the company's infrastructure and observability engineering teams.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/sherwoodcallaway/",
+      "x_url": "https://twitter.com/shcallaway",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/cff992998043fc6d5505a9c507528f4d1eb77ede.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 102391,
+      "title": "Sazabi - Datadog for the AI Era",
+      "tagline": "AI-native observability platform for fast-moving engineering teams",
+      "body": "# Sazabi - Datadog for the AI Era\n\n![uploaded image](/media/?type=post&id=102391&key=user_uploads/282099/bc8014f4-5e17-4c76-be1c-3bd2b6ba26ec)\n\nSazabi is a next-generation observability platform designed for fast-moving, AI-native engineering teams. If you're using Datadog, Sentry, Grafana, or Axiom today, you could be moving ten times faster with Sazabi. **Book a demo [here](https://calendly.com/d/cyn6-s9f-tfq/meet-sazabi).**\n\n### Rethinking Observability\n\nRight now, every engineering team in the world is coming to the same conclusion: it doesn't matter how fast you can ship if your app is constantly going down. The antidote to production instability is observability, but not the flavor we have today. \n\nLegacy observability platforms can’t keep up with the pace of modern AI-driven software development. They take hours or days to set up. They are complex and clunky to use. The alerts they give you are noisy and confusing. They aren't built to be used with agents.\n\nSazabi is what Datadog would look like if it were built in 2026 instead of 2010:\n\n* A simple chat-based user experience instead of endless dashboards. \n* Effortless agent-driven instrumentation that requires zero code or config changes. \n* Autonomous alerts that can contain all the relevant context and never misfire. \n*  A powerful CLI that gives your coding agent complete visibility into your observability data. \n*  Slack has the primary application entry point. \n* An AI agent that memorizes your codebase, architecture, traffic patterns, and past incidents.\n* Native integrations with every major cloud provider and hosting service.\n* A storage layer that uses AI for compression and is optimized specifically for agentic query patterns.\n\n![uploaded image](/media/?type=post&id=102391&key=user_uploads/282099/3e5d80bd-59bd-43b3-bc72-ae9edc68a2ed)\n\n### How It Works\n\nYou can get started with Sazabi in less than 15 minutes. There are just three steps:\n\n1. Connect your GitHub repository \n2. Install the Slack app \n3. Start sending logs\n\nFor legacy platforms, instrumentation is a headache. With Sazabi, it's effortless. We've got integrations with over 35 of the leading cloud hosting services, including Vercel, AWS, GCP, Temporal, Cloudflare, Neon, Supabase, and more. If we don't have a native integration, Sazabi can open a pull request with the necessary instrumentation changes. Our log intake is OpenTelemetry compatible.\n\n![uploaded image](/media/?type=post&id=102391&key=user_uploads/282099/563095d8-89fc-47cd-a4cf-94746d7540ff)\n\nAfter setup, a few things happen automatically: \n\n* Sazabi scans your logs and codebase to learn more about the system, registering all key services, components, and product features to a live status page that gives you an overall view of system health.\n* Sazabi's background agents begin monitoring your logs, codebase, and infrastructure for anomalies - everything from unfamiliar errors to traffic spikes to crash pods and failed deployments. \n* When an issue is detected, Sazabi sends you a rich Slack alert with all the relevant context, including the root cause.\n\n![uploaded image](/media/?type=post&id=102391&key=user_uploads/282099/f676f9dc-0af4-4c31-873f-abc1172484fe)\n\n![uploaded image](/media/?type=post&id=102391&key=user_uploads/282099/c81d2281-add8-4645-b873-524affd0d0ee)\n\nYou and anyone from your team can send Sazabi a follow-up message via Slack, CLI, Web, or MCP. Sazabi is great for ad hoc questions and queries too. Sazabi automations allow you to generate detailed reports at any cadence.\n\n![uploaded image](/media/?type=post&id=102391&key=user_uploads/282099/b8ab228d-23a7-40d2-960d-c469c6d25f19)\n\nAfter receiving an alert, you can fix it directly with just a click of a button. Sazabi will open the pull request against your repo. If you prefer to use a different coding agent, it’s easy to hand off context -  Sazabi has integrations with Cursor, Codex, and Claude Code.\n\n![uploaded image](/media/?type=post&id=102391&key=user_uploads/282099/a95e8ecc-befb-4e31-a7a9-5523adea2548)\n\n![uploaded image](/media/?type=post&id=102391&key=user_uploads/282099/be62eeb2-a73f-431a-b99a-64823dc8fdc2)\n\nTeams that use Sazabi are detecting issues they didn’t know they had and resolving incidents in minutes instead of hours.\n\n### Logs Are All You Need\n\nSazabi is based on a few big ideas. The most important one: “logs are all you need”. \n\n![uploaded image](/media/?type=post&id=102391&key=user_uploads/282099/135568da-6b42-4f54-8e27-2e9d9d349f46)\n\nWhat this means is that Sazabi doesn't require users to send metrics or traces. You only need to send us logs (stdout and stderr). Sazabi is able to answer complex queries, perform aggregations, profile endpoints, and trace requests through your entire system using just log data. The result is a much simpler instrumentation experience for you and your team, with all the power of a traditional observability platform.\n\n### What Makes Us Different\n\nA lot of companies are building in observability right now. How is Sazabi different?  Here’s how we think about the landscape:\n\n*  **AI SRE startups like Traversal and Resolve.** These sit on top of third-party systems like Datadog. It's an approach that makes sense for enterprises that rely on legacy tools, but not the best solution. Sazabi has its own storage layer.\n* **DIY solutions like Ramp’s “On-Call Assistant”.** It’s great to see so many companies building internal AI SREs. It proves demand, but it doesn't make sense for each company to build their own - especially when Sazabi is offering a better agent off-the-shelf.\n* **Legacy players like Datadog, Grafana, Sentry, and Axiom.** You can try to use Claude Code with the Datadog MCP, and it will work OK, but not great.  importantly, this approach isn't stateful. Each investigation is completely new. Sazabi, on the other hand, accumulates memory and constantly gets better. More fundamentally, all of these companies predate AI agents and are structurally misaligned with AI.\n* **LLM observability companies like Arize, Braintrust, LangChain, and Raindrop.** These are a narrow point solution for building and observing agents. Sazabi can do this too, but its scope is much broader than that. It's a general solution for observing any workload. We think that in the long-term there is no meaningful difference between observing agents and other types of software.\n\nSazabi's most important differentiator is our vertical integration. We're building every piece of the AI observability stack:\n\n* The interfaces\n* The agent\n* The storage layer\n\nThe allows us to do things our competitors fundamentally can't, like analyze and memorize every historical incident, or optimize our DB for the specific query patterns of our agent. It's an Apple-style approach to observability. \n\n### Where We Are Today\n\nSazabi is currently in closed alpha, but we’re growing fast. In the past month we’ve onboarded 35 new teams, run 8,000 background investigations, detected 2,000 issues, ingested 2 TB of logs, and opened 200 PRs.  \n\nSazabi is founded by Sherwood Callaway, a two-time YC founder who previously started the infrastructure and observability teams at Brex. We’re a team of nine engineers in total, including three early members of the Brex team and two former observability founders. \n\nOur investors include angels from top AI dev tools and infrastructure startups. To name a few:\n\n* Harrison Chase, CEO of LangChain\n* Merrill Lutsky, founder and CEO of Graphite\n* Ivan Burazin, founder and CEO of Daytona\n* Matt Biilmann, founder and CEO of Netlify\n* Paul Klein, founder and CEO of Browserbase\n\n### Our Ask\n\nSazabi is currently in closed alpha, but we’re onboarding new customers daily. Teams that sign up through Launch YC post skip to the front of the line. \n\n**Book a demo [here](https://calendly.com/d/cyn6-s9f-tfq/meet-sazabi).**\n\n[sherwood@sazabi.ai](mailto:sherwood@sazabi.ai)\n\n![uploaded image](/media/?type=post&id=102391&key=user_uploads/282099/5f60765a-676b-4887-87d2-ad833c48d4a9)\n\n",
+      "url": "https://www.ycombinator.com/launches/QdT-sazabi-datadog-for-the-ai-era",
+      "votes": 44,
+      "created_at": "2026-06-01T19:58:02.757Z"
+    }
+  ]
+}

@@ -1,0 +1,119 @@
+{
+  "id": 33969,
+  "name": "OpenTag",
+  "slug": "opentag",
+  "former_names": [
+    "Gini Agent",
+    "Gini",
+    "OpenTag",
+    "Open Tag"
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/3523399de943bf46e546a3bb703261d27fd2fa69.png",
+  "website": "https://www.tryopentag.com/",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "OpenTag is an AI coworker in your Slack with full context on your company. It answers questions and takes real work off your plate. It also keeps your wiki up to date automatically, so knowledge never goes stale.",
+  "one_liner": "Model Agnostic AI coworker in Slack",
+  "team_size": 3,
+  "industry": "B2B",
+  "subindustry": "B2B",
+  "launched_at": 1787093671,
+  "tags": [
+    "AIOps",
+    "Artificial Intelligence",
+    "B2B",
+    "Workflow Automation",
+    "Enterprise Software"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Summer 2026",
+  "status": "Active",
+  "industries": [
+    "B2B"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/opentag",
+  "api": "https://devasheeshg.github.io/yc-api/batches/summer-2026/opentag.json",
+  "year_founded": 2026,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/109881466",
+  "x_url": "",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/3523399de943bf46e546a3bb703261d27fd2fa69.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [
+    "https://bookface-images.s3.us-west-2.amazonaws.com/attachments/790aa3ec5de0bba9ece0a6519e8daba6f10a2cff.png"
+  ],
+  "primary_partner": {
+    "name": "Jared Friedman",
+    "url": "https://www.ycombinator.com/people/jared-friedman"
+  },
+  "founders": [
+    {
+      "user_id": 802295,
+      "full_name": "Tony Kam",
+      "title": "Founder/CEO",
+      "founder_bio": "Co-founder and CEO at OpenTag. Previously at Tesla and founded Lilac Labs (S24). Studied EECS at Berkeley.",
+      "is_active": true,
+      "linkedin_url": "https://linkedin.com/in/tonyshekkam",
+      "x_url": "https://twitter.com/kamikariat",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/79ba45d01b5c5889e6430069721b3a279fa04e29.jpg"
+    },
+    {
+      "user_id": 3880379,
+      "full_name": "Wilson Nguyen",
+      "title": "Founder",
+      "founder_bio": "Co-founder at OpenTag. Previously founding engineer at Lilac Labs (YC S24). Studied Computer Science at UC Berkeley.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/nguyenwilson/",
+      "x_url": "https://x.com/potatoparser",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/19a40eb53a4be1df58ecf47644f1c5154bd9ff7e.jpg"
+    },
+    {
+      "user_id": 1378729,
+      "full_name": "Shelden Shi",
+      "title": "Founder/CTO",
+      "founder_bio": "Co-Founder and CTO at OpenTag. Previously founded Lilac Labs (S24). Studied CS and CogSci at UC Berkeley.",
+      "is_active": true,
+      "linkedin_url": "https://linkedin.com/in/sheldenshi",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/92d85249cf52d37811253ebfde1164c62804c115.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 111999,
+      "title": "OpenTag - Model Agnostic Claude Tag",
+      "tagline": "AI Super Coworker in Slack.",
+      "body": "Hey everyone. You’ve might of heard of Open AI, Open Router, OpenCode, OpenWork….\n\nIntroducing [OpenTag](https://www.tryopentag.com/?utm_source=yc&utm_medium=referral&utm_campaign=yc-launch&utm_content=launch-page) - the model agnostic Claude Tag.\n\nWe started early access a 2 weeks ago and are live with 10 teams.\n\nIf you've seen Claude Tag, you know the interface: tag an AI in Slack, hand it a task, get the result in the thread. We think that's the right interface. We built OpenTag because we think the multiplayer harness should be model agnostic. When a better model ships, your coworker gets better the same day, benefiting from the performance and cost improvements.\n\nOpenTag is an AI coworker that lives inside of Slack. You invite it into the channels you want. It picks up how the company runs, how decisions are made, who owns what. It helps the team coordinate and builds automations for workflows that it sees as repetitive. It asks for tools and visibility the way an A-player hire does, and it tries to grow its own scope and agency. It starts as an intern and tries to earn the COO job. As it works, it writes a company wiki of how you actually run. That wiki compounds as a company brain, so OpenTag only gets sharper with time. Throw it anything. It does its best, and it asks for help when it’s blocked. The result lands in the thread, with sources, where the whole team can see it.\n\n**Four parts, one coworker:**\n\n1. **Ambient and proactive agents -** properly sandboxed with its own computer and browser, so you can trust them with actual tasks instead of babysitting chat windows.\n2. **A wiki that maintains itself —** no more stale handbooks. OpenTag writes down how the company actually runs and keeps it current. Teammates can read it. Agents can read it.\n3. **Automations that suggest themselves -** OpenTag watches how your team works and surfaces the repetitive stuff worth automating, so you're not designing workflows from a blank page.\n4. **Built for multiplayer** - OpenTag is designed with proper permissioning that matches how your team operates.\n\n**2 minutes to start.** Add OpenTag to Slack, invite it to the channels where work happens, give it a job. It’ll ask for the tools it needs (whatever the job touches). It only reads the channels you invited it to.\n\n**Built by software engineers who’ve shipped products used by millions.**\n\nThe three of us worked together at Lilac Labs (YC S24) and all went to Berkeley. Tony (CEO) was software at Tesla and Intel. Shelden (CTO) was at Flatiron Health, Roche, and Certik (cyber security). Wilson (Chief Engineer) was at Hewlett Packard Enterprise and Vestible, a regulated securities platform.\n\nOpenTag is the coworker we wanted at our last company, when we were the ones running every job.\n\n**Try OpenTag today**\n\nTry it at [www.tryopentag.com](http://www.tryopentag.com)\n\nTake 30 minutes with me: [book a demo.](https://cal.com/tony-kam-ympx2p/intro?overlayCalendar=true)\n\nWould love to hear your thoughts and feedback. You can email me at [tony@tryopentag.com](mailto:tony@tryopentag.com)\n\n![uploaded image](/media/?type=post&id=111999&key=user_uploads/802295/8d1c1925-f213-405e-bfd4-f9b9effd0095)\n\n",
+      "url": "https://www.ycombinator.com/launches/T8R-opentag-model-agnostic-claude-tag",
+      "votes": 6,
+      "created_at": "2026-08-25T22:00:00.175Z"
+    },
+    {
+      "id": 111423,
+      "title": "Gini: AI coworker that lives in Slack",
+      "tagline": "Does the work in your channels and turns what it learns into a company brain.",
+      "body": "Hi everyone, [Shelden](https://www.linkedin.com/in/sheldenshi), [Wilson](https://www.linkedin.com/in/nguyenwilson), and I ([Tony](https://www.linkedin.com/in/tonyshekkam/)) are cofounders of [Gini](https://ginicomputer.com/?utm_source=yc&utm_medium=referral&utm_campaign=yc-launch&utm_content=launch-page).\n\n[Gini](https://ginicomputer.com/?utm_source=yc&utm_medium=referral&utm_campaign=yc-launch&utm_content=launch-page) is a model agnostic proactive AI coworker that lives inside of Slack. You invite it into the channels you want. It picks up how the company runs, how decisions are made, who owns what. It helps the team coordinate and builds automations for workflows that it sees as repetitive. It asks for tools and visibility the way an A-player hire does, and it tries to grow its own scope and agency. It starts as an intern and tries to earn the COO job. As it works, it writes a company wiki of how you actually run. That wiki compounds as a company brain, so Gini only gets sharper with time. Throw it anything. It does its best, and it asks for help when it’s blocked. The result lands in the thread, with sources, where the whole team can see it.\n\n<https://www.youtube.com/watch?v=cJWkGjrSZQ8>\n\n**Four parts, one coworker:**\n\n1. **Ambient and proactive agents -** properly sandboxed with its own computer and browser, so you can trust them with actual tasks instead of babysitting chat windows.\n2. **A wiki that maintains itself —** no more stale handbooks. Gini writes down how the company actually runs and keeps it current. Teammates can read it. Agents can read it.\n3. **Automations that suggest themselves -** Gini watches how your team works and surfaces the repetitive stuff worth automating, so you're not designing workflows from a blank page.\n4. **Built for multiplayer** - Gini is designed with proper permissioning that matches how your team operates.\n\n**2 minutes to start.** Add Gini to Slack, invite it to the channels where work happens, give it a job. It’ll ask for the tools it needs (whatever the job touches). It only reads the channels you invited it to.\n\n**Built by software engineers who’ve shipped products used by millions.**\n\nThe three of us worked together at Lilac Labs (YC S24) and all went to Berkeley. Tony (CEO) was software at Tesla and Intel. Shelden (CTO) was at Flatiron Health, Roche, and Certik (cyber security). Wilson (Chief Engineer) was at Hewlett Packard Enterprise and Vestible, a regulated securities platform.\n\nGini is the coworker we wanted at our last company, when we were the ones running every job.\n\n**Try Gini today**\n\nTry it at [ginicomputer.com](https://ginicomputer.com/?utm_source=yc&utm_medium=referral&utm_campaign=yc-launch&utm_content=try-cta).\n\nTake 30 minutes with me: [book a demo.](https://cal.com/tony-kam-ympx2p/intro?overlayCalendar=true)\n\nWould love to hear your thoughts and feedback. You can email me at [tony@ginicomputer.com](mailto:tony@ginicomputer.com)\n\n![uploaded image](/media/?type=post&id=111423&key=user_uploads/802295/f974cf1c-1978-4418-a1e6-5fdc6de258f8)\n\n",
+      "url": "https://www.ycombinator.com/launches/Sz9-gini-ai-coworker-that-lives-in-slack",
+      "votes": 101,
+      "created_at": "2026-08-20T13:00:00.616Z"
+    }
+  ]
+}

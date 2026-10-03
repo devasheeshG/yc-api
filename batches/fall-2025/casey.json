@@ -1,0 +1,100 @@
+{
+  "id": 30924,
+  "name": "Casey",
+  "slug": "casey",
+  "former_names": [
+    "Clausee"
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/fa8267b34eb44ac708090ff04ca6eeef01fa75d3.png",
+  "website": "https://caseyinsure.com/",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "Casey is an AI-native commercial insurance brokerage. Our insurance brokers focus on client relationships and closing business, whilst our AI handles all the operational work behind the scenes.\r\n\r\n",
+  "one_liner": "Casey is an AI-native commercial insurance brokerage",
+  "team_size": 5,
+  "industry": "Fintech",
+  "subindustry": "Fintech -> Insurance",
+  "launched_at": 1759942019,
+  "tags": [],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Fall 2025",
+  "status": "Active",
+  "industries": [
+    "Fintech",
+    "Insurance"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/casey",
+  "api": "https://devasheeshg.github.io/yc-api/batches/fall-2025/casey.json",
+  "year_founded": 2025,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/casey-labs/",
+  "x_url": "",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/fa8267b34eb44ac708090ff04ca6eeef01fa75d3.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "David Lieb",
+    "url": "https://www.ycombinator.com/people/david-lieb"
+  },
+  "founders": [
+    {
+      "user_id": 2628780,
+      "full_name": "Maximilian Thoelen",
+      "title": "Founder",
+      "founder_bio": "Co-Founder @ Casey. Previously Chief of Staff at grape insurance, Switzerland’s leading insurtech scaleup. Ex-Amazon & private equity.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/maximilian-thoelen/",
+      "x_url": "https://x.com/MaxThoelen",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/ab6f4f68e4c4219d2c0cce3126c10272f68ea3c8.jpg"
+    },
+    {
+      "user_id": 3005184,
+      "full_name": "Nico Hänggi",
+      "title": "Founder",
+      "founder_bio": "Co-Founder @ Casey. Previously tech lead at grape insurance, Switzerland’s leading insurtech scaleup. Background in CS from ETH Zurich.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/nicohaenggi/",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/8051c94f33a8c0146c7e9d24393428fe2cd13553.jpg"
+    },
+    {
+      "user_id": 668452,
+      "full_name": "Pascal Küng",
+      "title": "Founder",
+      "founder_bio": "Co-Founder @ Casey. Previously VP of Engineering at grape insurance, Switzerland’s leading insurtech scaleup. Computer Science at ETH Zurich.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/pascalkueng/",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/10cd27424abb42336558672b61e68bbe0083ce68.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 94777,
+      "title": "Casey: The infrastructure layer for insurance distribution",
+      "tagline": "Helping commercial insurance brokers submit complex risks to insurance carriers",
+      "body": "**Casey automates the core submission infrastructure of commercial insurance**\n\n**TL;DR:** Commercial insurance is a $500B market - and the infrastructure behind it is still manual. Commercial brokers dealing with complex risks spend half their day not advising clients, but retyping the same data across PDFs, portals, and carrier forms. That manual submission workflow is the single largest bottleneck in insurance distribution, and nobody has successfully automated it for complex risks.\n\nThat’s where Casey comes in.\n\n### **What Casey does**\n\n* Ingests client + risk data directly from broker systems\n* Auto-fills carrier applications & required supplemental forms in one click\n* Handles carrier follow-up questions, automatically matching these to existing data\n* If new info is required, generates the request and sends it to the client\n* Once complete, sends the full submission package to any carrier\n\n**The user uploads the documents needed for submission, and our system creates a custom risk profile based on the required data:**\n\n![uploaded image](/media/?type=post&id=94777&key=user_uploads/2628780/565403c8-e7e8-46c2-bdeb-fd134aee604d)\n\n**The custom risk data is generated, the user uploads SOVs which they received from the client, and the custom risk data is populated:**\n\n![uploaded image](/media/?type=post&id=94777&key=user_uploads/2628780/fe84393a-fb93-4839-ac5e-606b0faa6723)\n\n**The required forms for the submission are completed with the required risk data:**\n\n![uploaded image](/media/?type=post&id=94777&key=user_uploads/2628780/394e0e97-7e12-4e43-ba01-1e47d5b08835)\n\n### **Why it matters**\n\nThe first wave of insurtech largely focussed on automating smaller, simpler risks. Casey is built for the complex, high-premium business that actually drives revenue. This automation infrastructure enables clients to receive policies in a matter of days, compared to what now takes &gt;1 month.\n\n![uploaded image](/media/?type=post&id=94777&key=user_uploads/2628780/e88a0a3b-c509-49bf-bb85-cad41a44e0c2)\n\n### **Our Story**\n\nWe’re [Max](https://www.linkedin.com/in/maximilian-thoelen/), [Nico](https://www.linkedin.com/in/nicohaenggi/) & [Pascal](https://www.linkedin.com/in/pascalkueng/) (left to right)\n\nWe previously built & scaled **Switzerland’s leading insurtech**, grape, as:\n\n* **Employee #1** - Head of Engineering (Pascal)\n* **Employee #2** - Tech Lead (Nico)\n* **Employee #10** - Chief of Staff (Max)\n\n![uploaded image](/media/?type=post&id=94777&key=user_uploads/2628780/9ad070fa-d6b6-41b8-a322-32f7353424a1)\n\n### **Our Ask**\n\nFurther intros to insurance brokerages who want to stop wasting time on manually filling out forms and pdfs, but instead want to focus on their clients.\n\n💻  Book a [demo](https://meetcasey.ai/)\n\n🌐 Follow Casey on [LinkedIn](https://www.linkedin.com/company/casey-labs/)",
+      "url": "https://www.ycombinator.com/launches/Oef-casey-the-infrastructure-layer-for-insurance-distribution",
+      "votes": 308,
+      "created_at": "2025-10-20T17:10:45.372Z"
+    }
+  ]
+}

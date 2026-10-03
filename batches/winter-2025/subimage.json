@@ -1,0 +1,119 @@
+{
+  "id": 30189,
+  "name": "SubImage",
+  "slug": "subimage",
+  "former_names": [],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/85fc2e3ee1b407fdf958403fc2fbd25fff6a7cac.png",
+  "website": "https://subimage.io",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "SubImage builds maps of your infrastructure to give you visibility on what assets you have and how they relate to each other. This enables any security team to deeply understand their environments and reduce risk.\r\n\r\nSubImage is a managed offering built around the Cartography open-source project, and is founded by members of Cartography's original team.",
+  "one_liner": "The Open-Core Security Graph",
+  "team_size": 4,
+  "industry": "B2B",
+  "subindustry": "B2B -> Security",
+  "launched_at": 1736799545,
+  "tags": [],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": true,
+  "nonprofit": false,
+  "batch": "Winter 2025",
+  "status": "Active",
+  "industries": [
+    "B2B",
+    "Security"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/subimage",
+  "api": "https://devasheeshg.github.io/yc-api/batches/winter-2025/subimage.json",
+  "year_founded": 2024,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/subimagesec",
+  "x_url": "https://x.com/subimagesec",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/85fc2e3ee1b407fdf958403fc2fbd25fff6a7cac.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [
+    "https://bookface-images.s3.us-west-2.amazonaws.com/attachments/de5f64252df97d0b747fd203f54b59f6ce9296a2.png"
+  ],
+  "primary_partner": {
+    "name": "Gustaf Alstromer",
+    "url": "https://www.ycombinator.com/people/gustaf-alstromer"
+  },
+  "founders": [
+    {
+      "user_id": 1645462,
+      "full_name": "Alex Chantavy",
+      "title": "Founder/CEO",
+      "founder_bio": "Co-founder & CEO at SubImage. Former Staff Engineer at Lyft: Created https://cartography.dev, the open source security graph. Built first-of-its-kind container scanning and remediation platform. Former Security Engineer on Microsoft Red Team: did cloud hacking before it was cool. Worked on [REDACTED] at the NSA.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/alexchantavy/",
+      "x_url": "https://twitter.com/alexchantavy",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/3f58380a1968d90842eb10d30199dc4bb3d225e2.jpg"
+    },
+    {
+      "user_id": 2387134,
+      "full_name": "Kunaal Sikka",
+      "title": "Founder/President",
+      "founder_bio": "Co-founder at SubImage. Previously Member of Technical Staff at Anthropic and Staff Engineer at Lyft. At Lyft, reported directly to CISO, new grad to Staff Engineer in 4 years. Architected SIEM, insider abuse, and vulnerability management platforms. Graduated from University of Washington CS in 2 years.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/kunaals/",
+      "x_url": "https://x.com/kunaalsikka",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/18be59b9dcd7652581e0ede30067d114ecaac56f.jpg"
+    }
+  ],
+  "jobs": [
+    {
+      "id": 107957,
+      "title": "Founding Engineer",
+      "url": "https://www.ycombinator.com/companies/subimage/jobs/NCTFgKK-founding-engineer",
+      "location": "San Francisco, CA, US",
+      "type": "Full-time",
+      "role": "Engineering",
+      "role_type": "Backend",
+      "salary_range": "$170K - $230K",
+      "equity_range": "0.50% - 1.00%",
+      "experience": "3+ years",
+      "visa": "US citizen/visa only",
+      "skills": [
+        "Python",
+        "Distributed Systems"
+      ]
+    }
+  ],
+  "news": [
+    {
+      "title": "We've raised $4.2M",
+      "url": "https://www.subimage.io/blog/funding/",
+      "date": "Oct 21, 2025"
+    },
+    {
+      "title": "Launch HN: SubImage (YC W25) – See your infra from an attacker's perspective | Hacker News",
+      "url": "https://news.ycombinator.com/item?id=43161332",
+      "date": "Feb 24, 2025"
+    }
+  ],
+  "launches": [
+    {
+      "id": 87887,
+      "title": "SubImage: Software that maps your infrastructure",
+      "tagline": "The open-core alternative to Wiz",
+      "body": "[SubImage](https://subimage.io) maps your infrastructure so that your security team can fix the most pressing risks first. It’s built on top of [Cartography](https://github.com/cartography-cncf/cartography), the open source security graph that we created and that 70+ companies use.\n\n![uploaded image](/media/?type=post&id=87887&key=user_uploads/1645462/73946b9a-a00f-4c1e-8401-1917b2600878)\n\n## **Problem**\n\nIn security, attackers often have to be right just once, but defenders have to be right all the time. \n\nThe scary thing is, given enough time, resources, and motivation, it is a near certainty that an attacker will break into your environment. You need to be ready with detections and controls to catch and evict them.\n\nHowever, most companies, even huge ones, are nowhere near ready for that. They are either inundated with data and stuck deciding what to fix next, or worse, have **poor to no visibility** on high impact risks.\n\nFurther, modern businesses often rely on dozens of cloud and SaaS platforms, so it’s very easy to lose track and make mistakes in configuring access permissions, networking, and other areas to inadvertently introduce an attack path.\n\n## **Solution**\n\nWe originally created Cartography in 2019 to help red teamers (professional corporate hackers) find the shortest paths to their targets. [At the time](https://news.ycombinator.com/item?id=19517977), there was nothing quite like it: other tools weren’t graph-based, didn’t cover the cloud, or weren’t open source.\n\nThe tool grew in popularity when defenders realized that **using an attacker’s mindset** to map out their infra was an immense boon to their work because it cut through the noise, exposing proven attack paths.\n\n![uploaded image](/media/?type=post&id=87887&key=user_uploads/1645462/030c8839-2635-45c8-beda-d6c9b11d1e32)\n\nCartography pulls metadata from multiple sources - SaaS, cloud service providers, a company’s internal services - and writes it to a graph database. This simple technique is incredibly powerful in finding otherwise unseen misconfigurations and attack paths in areas like access permissions, networking, and software vulnerabilities.\n\nSubImage is our fully-hosted solution that picks up where Cartography leaves off: it lets security teams immediately see and take action on the attack paths to their organization’s most sensitive data and secrets without needing to set up or maintain the database and sync jobs behind it.\n\nThe specific fix-action varies: smaller companies may prefer executing AWS CLI commands from an admin session, whereas larger corporations often require automated pull requests within their infrastructure-as-code repositories.\n\n![uploaded image](/media/?type=post&id=87887&key=user_uploads/1645462/d4628233-026a-4118-b6b5-1b41ace550e5)\n\n\n## **Demo: My Stripe API key was stolen**\n\n<https://youtu.be/RBCr35hb5Hk>\n\n## **Demo: Hack my company**\n\nOne of the most effective ways to secure yourself from hackers is to put yourself in their shoes and think about how they would exploit your environment. So, let’s plan an attack on one of SubImage’s storage buckets; it’s kind of like planning to break into a bank vault.\n\n<https://youtu.be/P_meu4_aIVA> \n\nThe above demo shows that we also provide customers access to the underlying graph database so that they can see the internals of our schema and more deeply understand their infra.\n\n## **Roadmap**\n\nOur north star is for security engineers to stop needing to constantly monitor whether infrastructure, new or old, has introduced a risk – we will do it for them.\n\nSpecifically, we plan to\n\n* Integrate with access management systems to **prune excessive permissions** and enforce that certain invariants are maintained\n* Continuously **alert on and remediate** risky infrastructure changes\n* **Show misconfigurations** in any cloud or SaaS based infrastructure, including vulnerability management\n\n## **Asks**\n\n1. If you’re a company that is building out your security team, we’d love to learn about your problems and work together. Let’s [meet](https://cal.com/team/subimage)!\n2. If you are struggling with security visibility or if any of this sounds interesting to you, check out [Cartography](https://github.com/cartography-cncf/cartography/). We would love to get your feedback and have you as part of our community: join the CNCF Slack workspace [here](https://communityinviter.com/apps/cloud-native/cncf) and then join the #cartography channel.\n\n## **Team**\n\n![uploaded image](/media/?type=post&id=87887&key=user_uploads/89898/0f181717-ad90-4cd8-a86c-67debce4c790)\n\nHi! We’re [Alex](https://www.linkedin.com/in/alexchantavy/) and [Kunaal](https://www.linkedin.com/in/kunaals/), and we’ve been working together since 2020 when we met at Lyft. Alex was the lead engineer on Lyft’s vulnerability management program, led penetration tests for Microsoft’s Red Team, and worked on \\[REDACTED\\] at the NSA. Kunaal was a Staff Engineer at Lyft and Member of Technical Staff at Anthropic, and has spent his career solving large security problems like insider abuse, vulnerability management, and architecting SIEMs.",
+      "url": "https://www.ycombinator.com/launches/MrX-subimage-software-that-maps-your-infrastructure",
+      "votes": 32,
+      "created_at": "2025-02-21T04:53:34.911Z"
+    }
+  ]
+}

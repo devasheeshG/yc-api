@@ -1,0 +1,147 @@
+{
+  "id": 13179,
+  "name": "Signadot",
+  "slug": "signadot",
+  "former_names": [
+    "blipbox",
+    "signadot"
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/768c0b0d1a92b7adab11c2cc4c95cefa19ffdf27.png",
+  "website": "https://www.signadot.com/",
+  "all_locations": "San Francisco, CA, USA; Remote",
+  "long_description": "Signadot is a Kubernetes-native platform that empowers AI coding agents to verify code at scale. Combining fast, scalable ephemeral environments with a validation framework built for complex distributed systems, Signadot ensures high-velocity code generation results in safely merged pull requests.",
+  "one_liner": "Scalable validation infrastructure for AI agents",
+  "team_size": 8,
+  "industry": "B2B",
+  "subindustry": "B2B -> Infrastructure",
+  "launched_at": 1614132625,
+  "tags": [
+    "Developer Tools",
+    "Kubernetes"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": true,
+  "nonprofit": false,
+  "batch": "Winter 2020",
+  "status": "Active",
+  "industries": [
+    "B2B",
+    "Infrastructure"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada",
+    "Remote",
+    "Fully Remote"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/signadot",
+  "api": "https://devasheeshg.github.io/yc-api/batches/winter-2020/signadot.json",
+  "year_founded": 2020,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/signadot/",
+  "x_url": "https://twitter.com/signadot",
+  "fb_url": null,
+  "cb_url": "https://www.crunchbase.com/organization/signadot",
+  "github_url": "https://github.com/signadot",
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/768c0b0d1a92b7adab11c2cc4c95cefa19ffdf27.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": null,
+  "founders": [
+    {
+      "user_id": 47401,
+      "full_name": "Arjun Iyer",
+      "title": "Founder",
+      "founder_bio": "My background is in distributed systems and Machine Learning. I graduated from IIT-Kharagpur and did my MS at UIUC. I've led large Engineering teams and am a lifelong learner. When not at work, I love to play tennis and spend time with my family!",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/arjun-iyer-916332/",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/e7b11fea5faf024a5866978618dafbf2b898dc1a.jpg"
+    },
+    {
+      "user_id": 419337,
+      "full_name": "Anirudh Ramanathan",
+      "title": "Founder",
+      "founder_bio": "Technical Leader with a focus on distributed systems. I am passionate about containers, k8s and building better tools for systems of the future.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/anirudhrx/",
+      "x_url": "https://twitter.com/foxish_",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/ced238b41c4f7370e222683fe270733177b147bc.jpg"
+    }
+  ],
+  "jobs": [
+    {
+      "id": 105467,
+      "title": "Developer Advocate (DevRel)",
+      "url": "https://www.ycombinator.com/companies/signadot/jobs/JE44NtI-developer-advocate-devrel",
+      "location": "CA / MX / US / BZ / CR / SV / GT / HN / NI / PA / AG / BS / BB / CU / DM / DO / Granada, AN, ES / Granada, Andalusia, ES / HT / JM / KN / LC / VC / TT / AR / BO / BR / CL / CO / EC / GY / PY / PE / SR / UY / VE / Remote (CA; MX; US; BZ; CR; SV; GT; HN; NI; PA; AG; BS; BB; CU; DM; DO; Granada, AN, ES; Granada, Andalusia, ES; HT; JM; KN; LC; VC; TT; AR; BO; BR; CL; CO; EC; GY; PY; PE; SR; UY; VE)",
+      "type": "Full-time",
+      "role": "Engineering",
+      "role_type": "Devops",
+      "salary_range": "$120K - $170K",
+      "equity_range": "",
+      "experience": "3+ years",
+      "visa": "US citizen/visa only",
+      "skills": [
+        "Kubernetes",
+        "Docker",
+        "Microservices",
+        "AI Agents"
+      ]
+    }
+  ],
+  "news": [
+    {
+      "title": "  The Next Key Innovation in the Shift-Left Movement by @ttunguz ",
+      "url": "https://tomtunguz.com/investing-in-signadot/",
+      "date": "Aug 30, 2022"
+    },
+    {
+      "title": "Y Combinator Alum Signadot raises $4M led by Redpoint Ventures to Reimagine Microservices Testing on Kubernetes",
+      "url": "https://www.prnewswire.com/news-releases/y-combinator-alum-signadot-raises-4m-led-by-redpoint-ventures-to-reimagine-microservices-testing-on-kubernetes-301488164.html",
+      "date": "Aug 30, 2022"
+    },
+    {
+      "title": "Signadot promises developers faster feedback loops – TechCrunch",
+      "url": "https://techcrunch.com/2022/02/23/signadot-promises-developers-faster-feedback-loops/",
+      "date": "Feb 23, 2022"
+    }
+  ],
+  "launches": [
+    {
+      "id": 90673,
+      "title": "🤖 SmartTests: AI powered Contract Testing",
+      "tagline": "Ridiculously simple way to catch API contract breakages before merging code",
+      "body": "Hey everyone! We’re [Arjun](https://www.linkedin.com/in/arjun-iyer-916332/) and [Anirudh](https://www.linkedin.com/in/anirudhrx/), co-founders of [Signadot](https://www.signadot.com/) and we’re simplifying the lives of developers building distributed cloud native applications.\n\n# **🎯tl;dr**\n\nSmartTests automatically catch breaking API changes in microservices without writing contracts or maintaining mocks. AI compares your new code against baseline behavior using real traffic and only flags changes that actually matter.\n\nDemo video: https://youtu.be/HHGgSKk2K_k\n\n# ❗️Problem\n\nMicroservices break each other all the time. A team changes their API response format, and suddenly three downstream services start failing in production. The usual solution is contract testing, but here's the reality: most teams either skip it entirely or abandon it after a few months.\n\nWhy? Current tools put the entire burden on developers. You have to write consumer contracts for every API interaction, maintain mock servers, and keep updating tests every time contracts change. It's exhausting busywork that pulls focus from shipping features. Teams know they should do it, but the tooling makes it feel like a second job.\n\n# **💡** Solution\n\nSmartTests flip the script on contract testing. Instead of forcing developers to predict every possible breaking change, we observe real API interactions and automatically catch contract violations. Write a simple test in Starlark, and our AI compares baseline behavior against your changes to spot what actually matters.\n\nNo mock servers to maintain. No contract files to update. No noise about irrelevant changes. Just fast, accurate feedback in your PRs that tells you when you're about to break something downstream.\n\n# 🏃How does it work?\n\nWhen you push code, SmartTests spin up lightweight sandboxes in your Kubernetes cluster and run your test scripts against both the new version and the baseline. These aren't mocked interactions—they're real API calls hitting real services in isolated environments.\n\nThe magic happens in the comparison. Our AI analyzes the responses from both versions and figures out which differences actually matter. Did you add a new optional field? Probably fine. Did you change a required field's data type? That's going to break things. The AI surfaces only the changes that could affect downstream services, so you get signal instead of noise.\n\n![uploaded image](/media/?type=post&id=90673&key=user_uploads/47401/298831aa-1812-4117-8461-1a77db646e8c)\n\n# **💯** Why did we build this?\n\nWe kept hearing the same story from engineering teams: \"We tried existing tools, but it was too much work to maintain.\" When developers abandon tools that should make their lives easier, the tool is the problem, not the developers.\n\nThe breaking point was talking to a team at a Series B company who had spent three months setting up comprehensive Pact tests, only to disable them six months later because they couldn't keep up with the maintenance burden. That's when I realized we needed to completely rethink the approach—AI could handle the heavy lifting leaving developers to focus on what they do best: building great software.\n\n# 👍 How do I get access?\n\nJust sign up using https://www.signadot.com/ and try our [Quickstart](https://www.signadot.com/docs/tutorials/quickstart/contract-testing) guide. Feedback is much appreciated!",
+      "url": "https://www.ycombinator.com/launches/NaT-smarttests-ai-powered-contract-testing",
+      "votes": 10,
+      "created_at": "2025-05-23T14:24:32.530Z"
+    },
+    {
+      "id": 74187,
+      "title": "Developer Environments built for Kubernetes",
+      "tagline": "Signadot helps developers building microservices ship features fast",
+      "body": "**tl;dr**: If you’re running microservices, you can now use Signadot to help developers ship features faster using lightweight dev environments. These environments spin up in seconds within a Kubernetes cluster **that you run** and scale well across hundreds of developers and microservices without incurring large infrastructure costs or maintenance burdens. These environments are built on top of “Sandboxes”, a new approach that is used in companies like [**Uber**](https://www.uber.com/blog/simplifying-developer-testing-through-slate/) and [**Lyft**](https://eng.lyft.com/scaling-productivity-on-microservices-at-lyft-part-3-extending-our-envoy-mesh-with-staging-fdaafafca82f) and we’re excited to make that available to everyone.\n\nWe launched about a year ago, with a focus on preview & test environments in Kubernetes. With our latest update, we’re adding the following new capabilities:\n\n* Developers can now run the **dev version of a microservice on their laptop** and seamlessly connect it to a shared Kubernetes cluster and start testing as though the whole application were running locally. They get 10x faster feedback by testing their changes in a live Kubernetes environment during active development. \n* Multiple such dev environments can be combined together to **test different microservices with each other** as they're being developed. This means developers can collaborate and get a feature spanning different microservices working end-to-end long before their code gets merged or hits a staging/production environment.\n\n### **How does it work?**\n\nJust as before, we use request routing (using a Service Mesh like [**Istio**](https://istio.io/) or a sidecar-based system that we built) to isolate these environments from one another in a shared Kubernetes cluster.\n\n![](https://ph-files.imgix.net/f5efe69b-ed3c-4306-af3e-c5d757877d7a.png?auto=compress&codec=mozjpeg&cs=strip&auto=format&fit=max)\n\nRead more about our launch [**here**](https://www.signadot.com/blog/bridging-the-gap-local-testing-in-shared-kubernetes-clusters), or watch a video of how teams use these dev environments here: [**https://www.youtube.com/watch?v=HXUmPJTdwm0**](https://www.youtube.com/watch?v=HXUmPJTdwm0\\*\\*)\n\n### **How do I get access**\n\nJust sign up using [**https://www.signadot.com/signup**](https://www.signadot.com/signup\\*\\*) and try one of our [**quickstart**](https://www.signadot.com/docs/quickstart) guides. Feedback is much appreciated!",
+      "url": "https://www.ycombinator.com/launches/JIZ-developer-environments-built-for-kubernetes",
+      "votes": 5,
+      "created_at": "2023-08-17T16:06:42.169Z"
+    },
+    {
+      "id": 65752,
+      "title": "Signadot: Ephemeral Test Environments built for Kubernetes",
+      "tagline": "Spin up lightweight environments to enable pre-merge testing for microservices. Discover issues before merging code and ship new features faster.",
+      "body": "### 😎 **TL;DR**\n\nWe’re building a Kubernetes-based solution that enables environments, called Sandboxes, to test your microservices early in the development lifecycle. Unlike traditional environments, Sandboxes are lightweight and spin up in seconds. This makes it cost-effective to create test environments for every pull request, branch, and commit.\n\n### 🤔 **The problem with traditional environments**\n\nMost engineering teams use pre-production environments, called staging environments, to test against real-world conditions. However, testing on staging introduces the following challenges:\n\n1. Staging environments are typically shared among engineering teams and regressions introduced here block other developers. This results in frequent roll backs to unblock others.\n2. Since commits from various teams are co-mingled on staging, breakages take a long time to troubleshoot and fix. As the engineering team grows, this problem only gets worse and development slows down.\n\n### **😅 Enter Signadot**\n\nWith Signadot, DevOps teams can set up lightweight environments, called Sandboxes, that can be used to test each pull request/commit. Teams run a suite of integration and end-to-end tests for each PR without impacting others. This helps find issues early that would otherwise be found in staging (or worse … in production!).\n\nOur CLI/YAML integrates with CI pipelines to automate the testing of Pull Requests. As shown in the image below, Sandboxes encapsulate “services-under-test” connected to other dependencies running in Kubernetes. Sandboxes are lightweight to spin up and cost-efficient at scale.\n\n![uploaded image](/media/?type=post&id=65752&key=user_uploads/47401/edb398f0-819b-43f3-9152-9ba015164069)\n\n### **🤓 How this helps your team:**\n\n* Minimize rollbacks on staging and production\n* Increase the frequency of production deployments\n* Save on infrastructure costs using lightweight Sandboxes\n\n### **🤩 Try us out!**\n\n1. [**Sign up for free**](https://www.signadot.com?utm_campaign=Launch%20YC&utm_source=yc&utm_medium=launchyc) **to start testing your microservices today**\n2. Join the discussion on testing strategies for microservices in our [Slack Community](https://signadotcommunity.slack.com/) or [GitHub Repo](https://github.com/signadot). You can also book a time to chat with one of our founders [here](https://calendly.com/signadot/demo).",
+      "url": "https://www.ycombinator.com/launches/H6W-signadot-ephemeral-test-environments-built-for-kubernetes",
+      "votes": 78,
+      "created_at": "2022-08-31T17:39:01.856Z"
+    }
+  ]
+}

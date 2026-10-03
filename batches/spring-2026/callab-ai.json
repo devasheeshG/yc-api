@@ -1,0 +1,121 @@
+{
+  "id": 31416,
+  "name": "Callab AI",
+  "slug": "callab-ai",
+  "former_names": [],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/aa8adf98dd895cf00084bc119e643a0794f80959.png",
+  "website": "https://callab.ai",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "58% of the $400B call center industry runs on on-prem phone systems, and until now bringing AI voice automation to them meant ripping out their entire infrastructure first. That's the largest unserved segment in the market. Callab AI connects directly to legacy PBX systems like Avaya, Cisco UCM, and Mitel, and automates up to 70% of call volume with zero migration needed.\r\n\r\nWe plug into these environments without requiring a rip-and-replace. We serve clients across three continents, including brands like Dunkin Donuts.",
+  "one_liner": "AI voice agents for on-prem telephony stack. ",
+  "team_size": 7,
+  "industry": "B2B",
+  "subindustry": "B2B -> Operations",
+  "launched_at": 1773416869,
+  "tags": [],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": true,
+  "nonprofit": false,
+  "batch": "Spring 2026",
+  "status": "Active",
+  "industries": [
+    "B2B",
+    "Operations"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada",
+    "Remote",
+    "Partly Remote"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/callab-ai",
+  "api": "https://devasheeshg.github.io/yc-api/batches/spring-2026/callab-ai.json",
+  "year_founded": 2024,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/104352862/",
+  "x_url": "https://x.com/callab_ai",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/aa8adf98dd895cf00084bc119e643a0794f80959.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [
+    "https://bookface-images.s3.us-west-2.amazonaws.com/attachments/bec80123dea6792e257e0f71182ccff3bd7496f5.png"
+  ],
+  "primary_partner": {
+    "name": "Tom Blomfield",
+    "url": "https://www.ycombinator.com/people/tom-blomfield"
+  },
+  "founders": [
+    {
+      "user_id": 1938837,
+      "full_name": "Haithem Kchaou",
+      "title": "Founder/CEO",
+      "founder_bio": "Second-time founder; scaled a mobile app to 200K+ downloads.\nLed a sovereign national AI initiative that provided free LLM access to over 300,000 students.\nCo-published 2 research papers on LLM fine-tuning and data collection.\nThomas Jefferson Scholar (top 2% of applicants).",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/haithemkchaou/",
+      "x_url": "https://x.com/haithemkchaou",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/8d88dc68bbf25d956eaec77521f0d1a0d66fdc3d.jpg"
+    },
+    {
+      "user_id": 1992756,
+      "full_name": "Chehir Dhaouadi",
+      "title": "Founder/CTO",
+      "founder_bio": "- Software engineer who built and scaled telecom and VoIP systems across the Middle East and North Africa.\n- Co-built a mobile app scaled to 200K+ downloads.\n- Deployed local LLM instances in a government datacenter to power free student access at national scale.\n- Co-published 2 research papers on LLM fine-tuning and data collection.\n- Trained over 300 developers.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/chehirdhawedi/",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/7031305811c8efd3ca070957d28ca356aca4fb33.jpg"
+    }
+  ],
+  "jobs": [
+    {
+      "id": 99950,
+      "title": "Growth Marketer",
+      "url": "https://www.ycombinator.com/companies/callab-ai/jobs/bJqHpCR-growth-marketer",
+      "location": "UA / PL / LT / EE / FR / ES / Remote (UA; PL; LT; EE; FR; ES)",
+      "type": "Full-time",
+      "role": "Marketing",
+      "role_type": null,
+      "salary_range": "$50K - $80K",
+      "equity_range": "",
+      "experience": "3+ years",
+      "visa": "US citizenship/visa not required",
+      "skills": []
+    },
+    {
+      "id": 102286,
+      "title": "Head of SDR",
+      "url": "https://www.ycombinator.com/companies/callab-ai/jobs/D1R25qE-head-of-sdr",
+      "location": "Remote",
+      "type": "Full-time",
+      "role": "Sales",
+      "role_type": null,
+      "salary_range": "$40K - $80K",
+      "equity_range": "",
+      "experience": "3+ years",
+      "visa": "US citizenship/visa not required",
+      "skills": []
+    }
+  ],
+  "news": [],
+  "launches": [
+    {
+      "id": 101754,
+      "title": "Callab AI - AI voice agents for legacy phone systems.",
+      "tagline": "AI voice agents for enterprise contact centers running on legacy phone infrastructure",
+      "body": "Hey YC,\n\nWe are Haithem and Chehir - co-founders of  [Callab AI](https://callab.ai/). \n\n**The problem**\n\nThe global call center industry is worth $400B, and about 58% of it still runs on on-prem PBX infrastructure like Cisco UCM, Mitel, and FreeSWITCH. These systems have been in place for 20 years, with millions invested in deploying and maintaining them. They work, and they're not going anywhere.\n\nAI voice agents have been built on top of cloud telephony providers, which means every solution on the market today requires the customer to already be on cloud phone systems. If you're running on-prem, you're locked out. The only option is a full migration to cloud, which typically takes 12 to 18 months, costs a fortune, and frequently fails. Meanwhile, these same companies are dealing with 30 to 40% agent attrition rates, rising labor costs, and customers who won't tolerate hold times. They want automation but they simply can't access it.\n\nThat's a massive segment of a $400B market sitting there with no solution available to them.\n\n**What we built**\n\nCallab AI is a cloud-based AI voice platform that connects directly to on-prem PBX systems via SIP trunk integration. The phone system stays exactly where it is, calls get routed to our AI agents, handled, and returned. No rip-and-replace, no migration, and we go live in one week.\n\nWe automate up to 70% of inbound call volume across use cases like call routing, appointment scheduling, order status, and customer inquiries. The hard part is the integration layer itself, which requires going deep into legacy telecom infrastructure that most teams don't want to touch. We built it to work with any telephony stack, and that's what makes this possible.\n\nWe're YC P25 and currently expanding into the US, focused on hospitality, logistics, retail chains, and property management. Healthcare and financial services are on the roadmap once we complete HIPAA compliance.\n\n![uploaded image](/media/?type=post&id=101754&key=user_uploads/1938837/5d95733e-2ac9-45b4-8f2b-5ef8a8a3b8ca)\n\n**How we got here**\n\nWe didn't set out to become the on-prem PBX company. We started building AI voice agents in the Middle East and Africa, where cloud telephony providers don't operate, SIP trunks are state-regulated, and every contact center runs legacy infrastructure. We had no choice but to build our integration layer to work directly with whatever phone system was already on the ground. After plugging into old telecom stacks, we realized the problem we solved out of necessity in MEA is the exact same problem sitting untouched in the US. The constraint that shaped our product in a harder market turned out to be a global advantage.\n\n**How you can help**\n\nIf you know anyone at a company running a legacy phone system or on-prem contact center, we'd love an intro. Hotels, restaurant groups, logistics operators, large retail, or property management are all ideal. Also happy to connect with anyone who's worked with managed service providers, value-added resellers, or sold into enterprise telecom IT. Drop me a note.",
+      "url": "https://www.ycombinator.com/launches/QTC-callab-ai-ai-voice-agents-for-legacy-phone-systems",
+      "votes": 14,
+      "created_at": "2026-05-22T15:09:13.748Z"
+    }
+  ]
+}

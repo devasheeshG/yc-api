@@ -1,0 +1,83 @@
+{
+  "id": 24485,
+  "name": "Cumbuca",
+  "slug": "cumbuca",
+  "former_names": [
+    "Comadre"
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/77e60a49b6259a7c45a281590f221925fc32c563.png",
+  "website": "https://www.cumbuca.com",
+  "all_locations": "São Paulo, SP, Brazil",
+  "long_description": "Cumbuca is an infratech bank for developers to build financial products with direct Central Bank connectivity. Instead of working around unreliable middleware, you get bare-metal access to Pix, payment initiation, and data APIs under our license, so you ship products faster and we handle the compliance. There's no vendor lock-in, and your service will never be disrupted by us. \r\n",
+  "one_liner": "Bare-metal access to Brazil's Open Finance and Pix systems",
+  "team_size": 5,
+  "industry": "Fintech",
+  "subindustry": "Fintech",
+  "launched_at": 1630087087,
+  "tags": [
+    "Fintech",
+    "B2B",
+    "API",
+    "Infrastructure"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Summer 2021",
+  "status": "Active",
+  "industries": [
+    "Fintech"
+  ],
+  "regions": [
+    "Brazil",
+    "Latin America",
+    "Remote",
+    "Partly Remote"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/cumbuca",
+  "api": "https://devasheeshg.github.io/yc-api/batches/summer-2021/cumbuca.json",
+  "year_founded": 2021,
+  "city": "São Paulo",
+  "country": "BR",
+  "linkedin_url": "https://www.linkedin.com/company/appcumbuca",
+  "x_url": "https://twitter.com/appcumbuca",
+  "fb_url": "https://www.facebook.com/appcumbuca",
+  "cb_url": "https://www.crunchbase.com/organization/comadre",
+  "github_url": "https://github.com/appcumbuca",
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/77e60a49b6259a7c45a281590f221925fc32c563.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": null,
+  "founders": [
+    {
+      "user_id": 358823,
+      "full_name": "Daniel Ruhman",
+      "title": "Founder",
+      "founder_bio": "Self taught developer, released first iPhone app when 14y - currently 23y. Dropped out of Computer Engineering degree in Brazil after brief time doing Cog Sci @ UC Berkeley to become an entrepreneur focused on improving the lives of Brazil's lower income population, and have been working with low income households and gig economy workers for the past 2.5 years.\nI’m a huge enthusiast on all things human behavior, gig economy, fintech, and above all in ways to unlock LATAM full potential.",
+      "is_active": true,
+      "linkedin_url": "http://linkedin.com/in/daniel-ruhman-0b739353",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/fcc3abc1228d6b693f4a49ff8febab0358a86f11.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 95950,
+      "title": "Cumbuca: The first proxy for the Brazilian regulated ecosystem",
+      "tagline": "Develop your own payments infra in Brazil using our license.",
+      "body": "Hey YC! 👋\n\nWe're Daniel, Bruno, and Pedro — founders of Cumbuca. We’re the first proxy for Brazil’s regulated ecosystem. After years of building fintechs in Brazil, we saw how painful it is to obtain a license or depend on PSPs and BaaS providers. Our previous B2C operation scaled to over a million accounts, and we suffered since a lot of our core product relied on partner infra, and it hurt us to not be able to solve the issues affecting our customers. We’ve been deeply involved with Open Finance since its earliest days — we were one of the first players in the ecosystem and became the **fourth ITP/PISP license ever issued in Brazil**, and after closing our B2C operation decided to pivot to B2B and build the financial infrastructure partner we always wished existed for ourselves.\n\nhttps://www.youtube.com/watch?v=F4_E2LYNBCQ\n\n## TL;DR\n\n**Cumbuca is the first regulatory proxy for Brazil's Open Finance and Pix ecosystem.** We give fintechs the same development freedom they'd have with their own license — direct API access, full operational control, custom infrastructure — while we handle compliance. No more choosing between years of licensing delays or surrendering control to third-party providers.\n\n**Ask:** Are you a global fintech looking to enter Brazil, or a payments company scaling beyond your current provider? Let's talk → [daniel@cumbuca.com](mailto:daniel@cumbuca.com)\n\n![uploaded image](/media/?type=post&id=95950&key=user_uploads/358823/0a8e01c7-dfb2-4489-aafa-c3e8f00a12bb)\n\n## ❌ The Problem\n\nBrazil is one of the most exciting fintech markets in the world — a forward-thinking Central Bank, Pix (the world's most successful instant payments system), and a mature Open Finance framework. Global fintechs want in.\n\nBut the path to market is brutal:\n\n**Option 1: Get your own license**\n\n* 12-24 months waiting for approval\n* Millions in regulatory capital\n* Constant compliance obligations\n* Need local expertise to navigate BACEN's evolving regulations\n\n**Option 2: Use a BaaS/OFaaS provider**\n\n* Fast time-to-market, but...\n* You're locked into their APIs and abstractions\n* Their maintenance windows = your downtime\n* Their support tickets = your customers waiting\n* Their roadmap = your product limitations\n* They use YOUR operational data for their own credit models\n\nFor companies serious about Brazil, neither option works. You either wait years or give up control of your destiny.\n\n---\n\n## 🛠 Our Solution: A Regulatory Proxy\n\nWe built something new: **a proxy that sits between your infrastructure and Brazil's regulated ecosystem.**\n\nHere's how it works:\n\n1. **You build your own infrastructure** using the exact same APIs that licensed institutions use\n2. **You send requests to our proxy**, which signs and forwards them under our license\n3. **You receive 1:1 responses** from the Central Bank ecosystem — no abstractions, no transformations\n\n**The key insight:** Instead of building \"Cumbuca APIs\" (which would impose our abstractions), we built a minimal regulatory layer. You develop against the official Open Finance and Pix specifications. When you're ready for your own license, you just swap our certificates for yours.\n\n**What you get:**\n\n* ⚡ **Immediate access** — start building today, not in 2 years\n* 🔧 **Full development freedom** — same API surface as licensed players\n* 🏗️ **Own your infrastructure** — build it yourself or use partner modules\n* 📊 **Own your data** — we don't use it for anything commercial\n* 🛡️ **Resolve issues directly** — no middlemen when problems arise\n* 🔄 **Future-proof** — migrate to your own license with minimal effort\n\n---\n\n## 👨‍💻 The Team\n\nWe didn't build Cumbuca from a whiteboard — we built it from scars.\n\n**Daniel Ruhman (CEO)** — Started coding as a kid after watching \"The Social Network.\" Dropped out of Computer Engineering to study at UC Berkeley. Built and pivoted through multiple startups: a gig economy platform, a Pix-native neobank for underserved Brazilians (Comadre), and a group expense app that grew to over 1 million accounts (Cumbuca B2C). Applied to YC 8 times before getting in.\n\n**Bruno Cury & Pedro Castilho (Co-founders)** — Together with Daniel, they became among the youngest statutory directors in Brazil's financial sector when they secured their first license in 2022. They've lived every pain point of building on Brazilian financial infrastructure.\n\nWe've assembled a dream team of Open Finance veterans:\n\n* **Gustavo Lino** (Head of Policy, Legal & Compliance) — Former President of INIT (Brazilian Association of Payment Initiators), board member of Open Finance Brazil\n* **Nic Marcondes** (Director of Open Finance) — Architect of the no-redirect payment flow (JSR), the technology behind Pix by Proximity. 5+ years building Open Finance before it officially existed.\n* **Ana Luisa Monteiro** (CFO) — Expert in Brazil's financial markets and regulated operations\n\n---\n\n## 🚀 Our Journey\n\n![uploaded image](/media/?type=post&id=95950&key=user_uploads/358823/7e9d0ec2-b17f-4efb-908c-9dd724d88dd1)\n\nThis is actually our **third pivot** — and it's working.\n\nWe were one of the first 5 companies to apply for a pure PISP license in Brazil. We co-founded INIT, the Payment Initiators Association. We operated over 1 million consumer accounts and learned firsthand how painful it is to depend on infrastructure you don't control.\n\nWhen our B2C monetization model failed (users only wanted Pix, not cards), we faced a choice: burn through our runway or leverage our real assets — our license and our team.\n\nWe chose to build the infrastructure partner we always wished existed.\n\n**The result:** Cumbuca has been profitable and cash-flow positive since August 2025 — just 3 months after pivoting to B2B.\n\n---\n\n## 🎯 Who We Work With\n\nCumbuca is **not a self-serve platform**. We work with:\n\n* **Global fintechs entering Brazil** — Series B+ companies that need more control than BaaS can offer\n* **Companies outgrowing their BaaS/OFaaS** — Ready to verticalize but don't want to wait for a license\n* **Companies in the licensing queue** — Start building and operating now, migrate when approved\n\nOur customers include credit companies using Open Finance data for underwriting, payment orchestrators, e-commerce giants, PFM apps, and investment aggregators.\n\n---\n\n## 🙏 Our Ask\n\n* **Entering Brazil?** Let's talk about how to launch without giving up control → [daniel@cumbuca.com](mailto:daniel@cumbuca.com)\n* **Know someone scaling in Brazilian payments?** Introduce us!\n* **Investor focused on LATAM fintech infra?** We'd love to connect.\n\n---\n\n## 🔗 Learn More\n\n* Website: [cumbuca.com](http://cumbuca.com)\n* Product Hunt: We're live — your upvote helps! 🚀\n\n---\n\nWe spent 7 years getting here. Now we're just getting started.\n\nDale. 🇧🇷\n\n— Daniel, Bruno, Pedro & the Cumbuca team",
+      "url": "https://www.ycombinator.com/launches/Oxa-cumbuca-the-first-proxy-for-the-brazilian-regulated-ecosystem",
+      "votes": 20,
+      "created_at": "2025-12-03T17:07:13.744Z"
+    }
+  ]
+}

@@ -1,0 +1,117 @@
+{
+  "id": 29650,
+  "name": "Sorcerer",
+  "slug": "sorcerer",
+  "former_names": [],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/543dab64586e13bb93c11e6012ecd070fb8c8a67.png",
+  "website": "https://sorcerer.earth",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "Sorcerer is deploying a global network of persistent airborne sensors to fuel advanced weather forecasting. Our high-altitude balloons collect 1000x more data than existing systems and are already used daily by meteorologists to track extreme weather across the US and Central America.",
+  "one_liner": "Building a nervous system for the atmosphere",
+  "team_size": 4,
+  "industry": "Industrials",
+  "subindustry": "Industrials -> Climate",
+  "launched_at": 1720630564,
+  "tags": [
+    "Artificial Intelligence",
+    "Hard Tech",
+    "Hardware",
+    "Climate",
+    "Aerospace"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Summer 2024",
+  "status": "Active",
+  "industries": [
+    "Industrials",
+    "Climate"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": [
+    {
+      "question": "What is the core problem you are solving? Why is this a big problem? What made you decide to work on it?",
+      "answer": "Hundreds of terabytes of weather data are collected from satellites, ground stations, airplanes and weather balloons every day. A typical weather satellite costs more than $100 million to launch, and the US National Weather Service spends over a billion dollars a year _just on its sparse network of weather balloon stations_. A small handful of organizations then pipe that data into billion-dollar supercomputers to run the world’s most expensive physics simulations four times a day. Despite this cost, there are still places in the US [**where we don't know what the temperature is going to be two days from now**](https://web.archive.org/web/20240705002110/https://www.washingtonpost.com/climate-environment/interactive/2024/how-accurate-is-the-weather-forecast/). And for the rest of the world that lacks adequate weather infrastructure? There’s always the [**weather rock**](https://en.wikipedia.org/wiki/Weather_rock). AI models are upending the expensive physics simulations. These models are more accurate, running at higher resolutions for a fraction of the cost. But, like most AIs, weather models are hungry for _data,_ and the reality is that most of the world isn’t covered despite the costly infrastructure.This is because _direct_ observation (as opposed to satellite observation) is both incredibly impactful but also incredibly expensive. This cost leaves **most of the Earth without in-situ observations**. Oceans have especially poor coverage, and no matter how good your model is, you still need to know what’s happening over the Pacific today to predict the weather in SF tomorrow. Sorcerer is deploying a global network of low-cost, persistent weather drones to provide real-time data in previously unreachable locations. Our system collects 30x more observations than the entire global observation infrastructure at 1% the cost. We use this data to train a weather model that’s already competitive with best-in-class traditional weather prediction, while being 10,000x cheaper."
+    }
+  ],
+  "url": "https://www.ycombinator.com/companies/sorcerer",
+  "api": "https://devasheeshg.github.io/yc-api/batches/summer-2024/sorcerer.json",
+  "year_founded": 2024,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/sorcerercorp",
+  "x_url": "",
+  "fb_url": null,
+  "cb_url": "https://www.crunchbase.com/organization/sorcerer",
+  "github_url": "https://github.com/sorcerer-corp",
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/543dab64586e13bb93c11e6012ecd070fb8c8a67.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [
+    "https://bookface-images.s3.us-west-2.amazonaws.com/attachments/ffc46de4c072ee18d52ad35baaaefdb696ca57f7.png"
+  ],
+  "primary_partner": {
+    "name": "Diana Hu",
+    "url": "https://www.ycombinator.com/people/diana-hu"
+  },
+  "founders": [
+    {
+      "user_id": 563504,
+      "full_name": "Austin Tindle",
+      "title": "Founder/CEO",
+      "founder_bio": "CEO at Sorcerer. Engineering and product leader of  decacorn hardware teams. Previously Head of Product at SumUp, led acquisition of Fivestars (YC W11).",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/austintindle",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/6907374cc6f41e1784fd922204f4bf1da1976e52.jpg"
+    },
+    {
+      "user_id": 1982858,
+      "full_name": "Maxmillion McLaughlin",
+      "title": "Founder/CTO",
+      "founder_bio": "CTO of Sorcerer. Previously, first hire at Urban Sky where I led development of high-resolution stratospheric imaging systems for mapping cities and tracking wildfires.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/maxmclau/",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/edec734a752bb1817cc9bc04e9089b0c5250788e.jpg"
+    },
+    {
+      "user_id": 1982860,
+      "full_name": "Alessandro Vecchi",
+      "title": "Founder/CPO",
+      "founder_bio": "CPO of Sorcerer. I was employee #3 at Urban Sky, where I built their mission control software (\"the best in the world\" - US Secretary of Defense) and prediction engine from the ground up. Over 5 years of experience working with/dealing with forecast and weather data. Building software products since I was in high school.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/avecchi/",
+      "x_url": "https://x.com/big_veech",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/665d0ba4bdc25d0c61592f32c2caa08dec803f04.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [
+    {
+      "title": "Y Combinator startup Sorcerer raises $3.9M to launch more weather balloon",
+      "url": "https://www.axios.com/pro/climate-deals/2025/06/12/sorcerer-seed-weather-balloons",
+      "date": "Jun 12, 2025"
+    }
+  ],
+  "launches": [
+    {
+      "id": 83172,
+      "title": "Sorcerer - Weather balloons that collect 1000x more data",
+      "tagline": "Sorcerer builds weather balloons that last for over six months, collecting 1000x more data per dollar from previously inaccessible regions.",
+      "body": "![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdhaRDb6jJZ-jlGUyRp-3-n13VeXn3891lqS1FiV2F80tyntvz2hIWMa4p-4IBuZ_jYh8C1Xg2_jlzBMtO-SSYSaiHp6nwjxQkUJ4iDx756wC7zfboXTd5DEVI3WaWNb0XbXGKK7w5rmDjUS4dW_8IbhaM?key=hflpXWIGtnGX0Lu39DmmlA)\n\nHey YC! We’re [Max](https://www.linkedin.com/in/maxmclau/), [Alex](https://www.linkedin.com/in/avecchi/), and [Austin](https://www.linkedin.com/in/austintindle/), the team behind [Sorcerer](https://sorcerer.earth).\n\n**The problem & background**\n\nHundreds of terabytes of weather data are collected from satellites, ground stations, airplanes, and weather balloons every day. In-situ weather observation has the most impact on weather models, but it’s incredibly expensive to collect. The US National Weather Service spends over a billion dollars annually _just on its network of weather balloons, stations, and aircraft sensors_. Despite this cost, there are still places in the US [where we don't know what the temperature will be two days from now](https://web.archive.org/web/20240705002110/https://www.washingtonpost.com/climate-environment/interactive/2024/how-accurate-is-the-weather-forecast/). And for the 80% of the world that lacks any weather infrastructure? There’s always the [weather rock](https://en.wikipedia.org/wiki/Weather_rock).\n\n**The solution**\n\nWe’re launching a global network of persistent weather balloons to provide real-time data in previously unreachable locations. Each balloon remains airborne for over six months, completing \\~30 laps around the globe while navigating between sea level and 65,000 feet. We’re able to collect 1000x more data per dollar than current systems, and we use this unique data to train AI weather models that are up to 50% more accurate than today’s best forecasts. \n\n<https://youtu.be/F_Di8cjaEUY>\n\n**The Team**\n\nAs founding engineer at aerospace startup [Urban Sky](https://www.urbansky.com/), Max developed the world’s first stratospheric ballooning systems for high-resolution imaging and wildfire tracking. As employee number three at Urban Sky, Alex built their mission control and flight prediction engine from the ground up (“the best in the world” - US Secretary of Defense). Austin was an ultralight flight instructor before he could legally drive and was most recently Head of Product at [SumUp](https://www.sumup.com/en-us/), shipping highly regulated hardware at scale.\n\n**How You Can Help**\n\n* **Industry intros:** We’d love to talk with aerospace, commercial aviation, ocean freight, logistics, and commodities trading execs (these folks think weather data is pretty neat)\n* **If you find one of our balloons near SF**: Sorry! It’s still a work in progress (and please get it back to us)\n\nWe’d also love to hear from you! Reach out any time at [austin@sorcerer.earth](mailto:austin@sorcerer.earth)  \n\nBest,\n\nMax, Alex, & Austin\n\n![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfcNhE481xXzkiV3QVQ7bg2bDc4PCU74OYnk6YZZJVbqnpL0CAUknXkFEocEj9MqXJOghGBGnQU0YWXMr9E2j-CeiVHbKLzwKy7PV33p0rM27WB1s_WpSsNZp7xV2fhDo5QnBEUXHJj501V8MDVTuF1-j0H?key=hflpXWIGtnGX0Lu39DmmlA)\n\n# ",
+      "url": "https://www.ycombinator.com/launches/LdU-sorcerer-weather-balloons-that-collect-1000x-more-data",
+      "votes": 84,
+      "created_at": "2024-08-19T16:13:50.662Z"
+    }
+  ]
+}

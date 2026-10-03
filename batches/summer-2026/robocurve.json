@@ -1,0 +1,87 @@
+{
+  "id": 33349,
+  "name": "Robocurve",
+  "slug": "robocurve",
+  "former_names": [
+    "Telos",
+    "Robocurve PBC"
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/1cfdafb2f71eef92d986496e842d5218b330742b.png",
+  "website": "https://robocurve.org",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "Robocurve builds open-source tools and independent benchmarks to measure how well robots can do real-world jobs. Instead of relying on unverified demo videos from frontier labs, we score their models on reproducible benchmarks that anyone can trust.\r\n\r\nToday there are no well-run, standardized robotics benchmarks. Labs evaluate in-house, and no independent group has stepped in to run continuous benchmarking as a service. The result is that no one actually knows how good anyone else is, or where the real frontier sits.\r\n\r\nGood benchmarks require operating and maintaining physical hardware and real-world setups. Simulation only goes so far, since models that look strong in sim can show large performance gaps once deployed in the real world. Building real-world benchmarks means coordinating job-domain experts, evals engineering, and hands-on robotics all at once.\r\n\r\nFrontier labs are targeting general-purpose robotics by 2028, yet the field of robotics evals barely exists. Whoever builds the trusted measure of robot capability becomes the reference everyone relies on. We combine backgrounds in AI evals and robotics to build and grow this field as fast as possible. We already shipped v1 of our open-source framework, Inspect Robots, and ran our first pilot scoring a frontier model on a real robot.",
+  "one_liner": "Evals for robots",
+  "team_size": 3,
+  "industry": "Industrials",
+  "subindustry": "Industrials -> Manufacturing and Robotics",
+  "launched_at": 1783378088,
+  "tags": [
+    "Artificial Intelligence",
+    "Hard Tech",
+    "Hardware",
+    "Robotics",
+    "Open Source"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Summer 2026",
+  "status": "Active",
+  "industries": [
+    "Industrials",
+    "Manufacturing and Robotics"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/robocurve",
+  "api": "https://devasheeshg.github.io/yc-api/batches/summer-2026/robocurve.json",
+  "year_founded": 2026,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/robocurve/",
+  "x_url": "https://x.com/robocurve",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/1cfdafb2f71eef92d986496e842d5218b330742b.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Ankit Gupta",
+    "url": "https://www.ycombinator.com/people/ankit-gupta"
+  },
+  "founders": [
+    {
+      "user_id": 2392672,
+      "full_name": "Jay Chooi",
+      "title": "Founder/CEO",
+      "founder_bio": "Founder and CEO of Robocurve. MA Statistics and BA CS/Math from Harvard. Jay builds evals of frontier AI and forecasts its progress. Previously Research Fellow at MATS, researcher at the UK AI Security Institute, and top contributor to Inspect Evals, the UK government's AI eval framework. Published at ACM EC, ICML, ACL, and EMNLP. Called the 2024 election correctly in all 50 states. Won a Rhodes Scholarship. Gold medal at the International Olympiad on Astronomy and Astrophysics.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/jeqcho/",
+      "x_url": "https://x.com/chooi_jeq",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/5df96d3283ec234b3a09c35933b2582a7ef1a067.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 112513,
+      "title": "Robocurve — Real-World Evaluations of Physical AI",
+      "tagline": "Real-world evals for robots",
+      "body": "Hi, I’m [Jay](https://www.linkedin.com/in/jeqcho/), co-founder of [Robocurve](http://robocurve.org). We measure and reports what frontier robots can actually do in the real world.\n\nOur launch video <https://youtu.be/Cjkt2ikvsiQ>\n\nFrontier labs are racing to build general-purpose robots within two years, yet no one knows what today's robots are truly capable of. Demo videos of robots performing narrow, cherry-picked tasks proliferate, but there are no rigorous, continuous, standardized benchmarks for robotics.\n\nRobocurve builds benchmarks for robots and the AI models that control them, to help the world understand how far robotics has come and how fast it's moving. Our benchmarks range from playing Jenga and making a sandwich to constructing a data center.\n\nGeneral-purpose robots could arrive before the end of the decade, with far-reaching implications: accelerated data center buildouts, explosive economic growth from a fully automated economy, and intensified geopolitical competition between the US and China. Real-world evaluations from Robocurve will help clarify the timeline to general-purpose robots so that society can prepare for their arrival well ahead of time.\n\n[Jay](https://www.linkedin.com/in/jeqcho/) is a Rhodes Scholar and a top contributor to UK AI Security Institute's Inspect Evals. He has published papers in ICML, EMNLP, ACL, ACM EC and his research has been featured in MIT Technology Review. Previously, he spent time at AWS Bedrock, MATS, and Harvard where he completed his BA and MA with a highest honors thesis on AI and democracy.\n\nIf you build robots or AI models, reach out! We'd love to put them to the test. Learn more at [robocurve.org](http://robocurve.org).",
+      "url": "https://www.ycombinator.com/launches/TGj-robocurve-real-world-evaluations-of-physical-ai",
+      "votes": 11,
+      "created_at": "2026-08-27T20:30:00.743Z"
+    }
+  ]
+}

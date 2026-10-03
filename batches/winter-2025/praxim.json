@@ -1,0 +1,94 @@
+{
+  "id": 30187,
+  "name": "Praxim",
+  "slug": "praxim",
+  "former_names": [],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/be59095cc480f86c19c6f83b000c574f9e8e3cd0.png",
+  "website": "https://www.praxim.ai/",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "Praxim is the agentic AI word editor that makes edits across your entire word document with formatting control, file and web context, and your personal preferences in mind. Simply tell Praxim what you'd like to do with your document and Praxim will implement your changes automatically. ",
+  "one_liner": "The agentic AI Word editor",
+  "team_size": 2,
+  "industry": "B2B",
+  "subindustry": "B2B -> Productivity",
+  "launched_at": 1740746196,
+  "tags": [
+    "Artificial Intelligence",
+    "SaaS",
+    "Consumer",
+    "B2B",
+    "Databases"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Winter 2025",
+  "status": "Active",
+  "industries": [
+    "B2B",
+    "Productivity"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/praxim",
+  "api": "https://devasheeshg.github.io/yc-api/batches/winter-2025/praxim.json",
+  "year_founded": 2025,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "",
+  "x_url": "",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/be59095cc480f86c19c6f83b000c574f9e8e3cd0.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Jared Friedman",
+    "url": "https://www.ycombinator.com/people/jared-friedman"
+  },
+  "founders": [
+    {
+      "user_id": 2305260,
+      "full_name": "Richie Hsiung",
+      "title": "Founder/CEO",
+      "founder_bio": "Richie is the Co-Founder of Praxim. He studied Math/CS/Philosophy at Yale.\n\nHe was a USA Math Olympian and won the American Invitational Math Examination with a perfect score. The AIME is now one of the most commonly used math benchmarks for AI models.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/richiehsiung/",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/7341d65d0715ab1a74119686556933478b7b9a77.jpg"
+    },
+    {
+      "user_id": 1276682,
+      "full_name": "Frank Li",
+      "title": "Founder/CTO",
+      "founder_bio": "Frank is the Co-Founder of Praxim. He studied pure mathematics and computer science at Yale.\n\nHe was a USA Math Olympian and an ML/AI researcher at the Yale NLP Lab and the Fields Institute in Toronto.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/frank-li-6866411b0/",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/2cba819b2c0e0553ef646f2aff372e31bae1b65f.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 94226,
+      "title": "Praxim - The Agentic AI Word Editor",
+      "tagline": "Transform Microsoft Word into an AI-native Word Editor",
+      "body": "https://youtu.be/ffplqbuzfT4\n\nHey Everyone! We’re Praxim.\n\n**The Problem:**\n\nMicrosoft Word serves over a billion users, but Copilot is still stuck in the Stone Age, requiring manual selection just to generate crude, format-ignoring block replacement edits completely devoid of context from your preferences, files, or the web.\n\n**The Solution:**\n\nWith a single prompt, Praxim makes edits across your entire document:\n\n* No required manual selection to edit\n* No more copy-pasting and context switching between different apps\n* No formatting worries\n* Takes into account your preferences\n\nPraxim knows exactly what to change and what to keep and edits with word-level granularity—precisely editing only what needs editing, not making brute block replacements.\n\nMost importantly, Praxim creates real Word formatting:\n\n* Actual lists, tables, and styles—not fake imitation structures that are actually just paragraphs\n* Maintain formatting, or even change it\n\nPull data, research, and edit all without leaving Word, with features that 10x your productivity:\n\n* File and Web context\n* Voice dictation at the speed of thought\n* Intuitive edit previews and clickable references that jump to the location in the document\n\nPraxim is already used for use cases from form filling with data from multiple sources to contract redlining with precise legal edits.\n\n**Why only now?** Programmers left the era crude AI assistance years ago with agentic code editors. Formatted document editing is a far harder technical problem—a single word is encoded by formatting and structural markup several orders of magnitude more complex than plaintext code, with countless ways to render correct text incorrectly. Semantic meaning and formatting both matter.\n\nPraxim for Word solves this, delivering a quantum leap over any other Word editing tool today. Start using Praxim today at [praxim.ai](http://praxim.ai)!",
+      "url": "https://www.ycombinator.com/launches/OVm-praxim-the-agentic-ai-word-editor",
+      "votes": 11,
+      "created_at": "2025-09-30T14:00:52.553Z"
+    }
+  ]
+}

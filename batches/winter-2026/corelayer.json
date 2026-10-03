@@ -1,0 +1,95 @@
+{
+  "id": 31241,
+  "name": "Corelayer",
+  "slug": "corelayer",
+  "former_names": [
+    "Sevvy"
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/7fc77bd9760310dfdeb4b8ba962b09280b614937.png",
+  "website": "https://www.corelayer.com",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "Corelayer is the AI-native platform for production software support, built for regulated industries like finance and healthcare. It continuously monitors alerts, logs, infrastructure, and underlying data for issues and uses agents to debug and suggest fixes.\r\n\r\nWe're helping SRE, production services, and on-call engineers at companies ranging from growth-stage fintechs to Fortune 500 financial institutions spend less time on support and more on high-leverage work.",
+  "one_liner": "AI production engineer for regulated industries",
+  "team_size": 3,
+  "industry": "B2B",
+  "subindustry": "B2B -> Engineering, Product and Design",
+  "launched_at": 1767713346,
+  "tags": [
+    "Developer Tools",
+    "B2B",
+    "Enterprise Software",
+    "AI"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Winter 2026",
+  "status": "Active",
+  "industries": [
+    "B2B",
+    "Engineering, Product and Design"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/corelayer",
+  "api": "https://devasheeshg.github.io/yc-api/batches/winter-2026/corelayer.json",
+  "year_founded": 2025,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/108275403",
+  "x_url": "https://x.com/CorelayerAI",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/7fc77bd9760310dfdeb4b8ba962b09280b614937.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Diana Hu",
+    "url": "https://www.ycombinator.com/people/diana-hu"
+  },
+  "founders": [
+    {
+      "user_id": 2897480,
+      "full_name": "Mitch Radhuber",
+      "title": "Founder/CEO",
+      "founder_bio": "Co-Founder & CEO @ Corelayer | Automating production software support and maintenance for the world’s most complex environments.\n\nPrev: software + data infra @ Goldman Sachs, CS @ UMich, astrophysics research @ Princeton",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/mitchellradhuber",
+      "x_url": "https://x.com/MRadhuber",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/e7590cd2fc3d3a9254fe52d5d01e6d5da3d0c35b.jpg"
+    },
+    {
+      "user_id": 2953500,
+      "full_name": "Shipra Jha",
+      "title": "Founder/CTO",
+      "founder_bio": "Co-Founder & CTO @ Corelayer | Building the AI-native operations layer for production software and data systems.\n\nPrev: software + data infra @ Goldman Sachs, cloud infra @ Oracle, CS @ CMU",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/shipra-jha-9b021859/",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/ebc2e5c8ebb0dde05bf8a9e100f7393778004685.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 96772,
+      "title": "Corelayer: AI on-call engineer for regulated industries",
+      "tagline": "Detect and fix production issues 15x faster",
+      "body": "Hey everyone! 👋\n\nWe’re [Mitch](https://www.linkedin.com/in/mitchellradhuber/) and [Shipra](https://www.linkedin.com/in/shipra-jha-9b021859/) - before Corelayer, we built data infrastructure at Goldman Sachs where we spent many late nights and weekends debugging systems that processed 100s of billions of rows a day.\n\n**TL;DR**\n\nWhen you’re on call in data-heavy, regulated industries like fintech, healthcare, or insurance, you need to inspect underlying data to debug production issues. We built a platform that monitors both infrastructure and data for anomalies and uses AI agents to debug and suggest fixes in minutes.\n\n[Corelayer Launch Video](https://youtu.be/yFZKJ9QRrr4)\n\n**On-call support is painful and expensive**\n\nAll engineers hate being on call. Production issues kill velocity, erode user trust, and become more and more costly as companies scale.\n\nFortune 100s spend **$100M+/year** on first-line-of-defense production support.\n\nSmaller companies can’t afford to burn **scarce engineering resources** on time-consuming support and maintenance.\n\n**The (sensitive) data problem**\n\nIf you’re a backend engineer at a fintech, you probably own a service that queries data, applies some business logic, and stores the result somewhere (i.e., a data pipeline).\n\nWhen this service is running in production, you’ll see two failure modes:\n\n1. Exceptions in logs and/or failing jobs\n2. Bad data produced by your service\n\n“Bad data” can mean anything from incorrect values to entirely missing or duplicated rows.\n\n**This is really common** in certain products and industries, but you’re totally blind to these errors without monitoring data for anomalies and querying data while debugging.\n\nIn regulated environments where this problem is prevalent, **production data is sensitive**, which is another constraint we have to solve for.\n\n**Corelayer solves this**\n\nWe continuously monitor logs, metrics, **and data** for anomalies and use AI agents to debug, root-cause, and suggest fixes for issues.\n\n![uploaded image](/media/?type=post&id=96772&key=user_uploads/2897480/fce0b569-7a89-41f5-8225-625e86092a04)\n\nWe also filter out false positives and group related issues to reduce alert noise.\n\n![uploaded image](/media/?type=post&id=96772&key=user_uploads/2897480/6b91dd40-c7c7-4ca9-97a4-f80eaaff537d)\n\nEvery team is different. We take feedback from human engineers so our agents learn your systems and improve over time.\n\n![uploaded image](/media/?type=post&id=96772&key=user_uploads/2897480/f5384b34-039b-40f5-ba00-4c1ede356893)\n\nData is especially sensitive in regulated industries. We’re SOC 2 compliant, offer **BYOC and** **on-prem deployments**, flexible LLM inference options, and expose an audit trail of each step performed by the agent with citations.\n\n**Our Asks**\n\nDoes your team deal with data or integrations and spend more time on production support than you’d like? [Let’s chat](https://cal.com/mitchrad/30min). \n\nCan you connect us with an engineering leader at a finserv, fintech, healthcare, or insurance company? Reach out at [founders@corelayer.com](mailto:founders@corelayer.com).\n\nThank you!\n\n![uploaded image](/media/?type=post&id=96772&key=user_uploads/2897480/18ce5a17-9fb2-42d6-8a39-0314da2f5f5d)\n\n",
+      "url": "https://www.ycombinator.com/launches/PAq-corelayer-ai-on-call-engineer-for-regulated-industries",
+      "votes": 108,
+      "created_at": "2026-01-14T03:12:36.330Z"
+    }
+  ]
+}

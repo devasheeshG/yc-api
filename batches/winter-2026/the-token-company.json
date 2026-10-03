@@ -1,0 +1,95 @@
+{
+  "id": 31250,
+  "name": "The Token Company",
+  "slug": "the-token-company",
+  "former_names": [
+    "Otsofy"
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/4b6d23e94e331354b9f326725df83ff557b97c1a.png",
+  "website": "https://thetokencompany.com",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "Compression middleware that removes context bloat in milliseconds, lowering costs and improving end-to-end latency.\r\n\r\nCompression is especially effective across natural language workloads. In a blind LLM arena case study with one of our customers, compressed requests increased user preference, lowered costs, and lifted purchase volume by 5%.",
+  "one_liner": "Compression middleware that improves LLM outputs",
+  "team_size": 2,
+  "industry": "B2B",
+  "subindustry": "B2B -> Infrastructure",
+  "launched_at": 1772525778,
+  "tags": [],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Winter 2026",
+  "status": "Active",
+  "industries": [
+    "B2B",
+    "Infrastructure"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada",
+    "Remote",
+    "Partly Remote"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": [
+    {
+      "question": "How did you decide to apply to Y Combinator? What was your experience applying, going through the batch, and fundraising at demo day?",
+      "answer": "I didn’t apply for the winter batch, but after the YC partners reached out and spoke with me, it seemed like the obvious choice. The batch has been awesome so far, and I’ve learned so much. Can’t wait for what’s to come :)"
+    },
+    {
+      "question": "What is the core problem you are solving? Why is this a big problem? What made you decide to work on it?",
+      "answer": "Context bloat and inefficient LLM inputs. We preprocess inputs to remove useless tokens from the context, which results in faster, cheaper, and more accurate LLM answers.\r\n\r\nCurrently, this is not being done practically anywhere, which means billions of dollars and quadrillions of tokens are being wasted.\r\n\r\nI decided to work on this because it is something much more fundamental than ordinary application layer companies, since it affects each one. And I like hard problems ;)"
+    },
+    {
+      "question": "What is your long-term vision? If you truly succeed, what will be different about the world?",
+      "answer": "The vision is to optimize every LLM request in the world at the token level before it reaches a model.\r\n\r\nEven if model labs dominate, there will still be multiple competing providers. We sit above them as a neutral efficiency layer, optimizing inputs across all models. Labs are incentivized to build bigger models and sell more tokens, not reduce usage across the ecosystem. As long as more than one lab exists, a cross-model optimization layer remains structurally defensible."
+    }
+  ],
+  "url": "https://www.ycombinator.com/companies/the-token-company",
+  "api": "https://devasheeshg.github.io/yc-api/batches/winter-2026/the-token-company.json",
+  "year_founded": 2025,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/the-token-company",
+  "x_url": "https://x.com/thetokenco",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/4b6d23e94e331354b9f326725df83ff557b97c1a.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Jared Friedman",
+    "url": "https://www.ycombinator.com/people/jared-friedman"
+  },
+  "founders": [
+    {
+      "user_id": 2949698,
+      "full_name": "Otso Veisterä",
+      "title": "Founder/CEO",
+      "founder_bio": "Founder of The Token Company",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/otso-veistera/",
+      "x_url": "https://x.com/OtsoVeistera",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/615a32b4673418ffea73a91c033ce04aac7726d9.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 98397,
+      "title": "The Token Company: Intelligent compression for LLM context bloat",
+      "tagline": "Intelligent compression for LLM context bloat",
+      "body": "Hey everyone,I’m Otso Veisterä, founder of The Token Company (YC W26).\n\n**TL;DR**\\\nWe build LLM input compression using a fast machine learning model (not a generative LLM). It removes useless tokens from prompts via a drop-in API—cutting token counts, latency, and costs while improving model performance. It compresses 100k tokens in under 100ms.\n\n<https://youtu.be/65ScMCGNPss>\n\n**The Problem**\\\nPrompts bloat with redundant tokens from chat history, RAG docs, or large inputs. This wastes context windows, drives up costs, slows inference, and weakens model outputs. Heavy users face high bills and must limit context to stay affordable.\n\n**The Solution**\\\nOur API compresses prompts intelligently, preserving semantic intent while stripping noise. Integration takes minutes.\\\nBenchmarks show accuracy gains (e.g., +2.7 percentage points on financial QA with up to 20% fewer tokens) and up to 37% faster end-to-end latency.\n\n**My Ask**\\\nIf you're running production LLMs and fighting context bloat, high costs, or latency, email me: [otso@thetokencompany.com](mailto:otso@thetokencompany.com)\\\n<https://thetokencompany.com>",
+      "url": "https://www.ycombinator.com/launches/Pb3-the-token-company-intelligent-compression-for-llm-context-bloat",
+      "votes": 25,
+      "created_at": "2026-03-03T16:18:10.552Z"
+    }
+  ]
+}

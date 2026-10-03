@@ -1,0 +1,80 @@
+{
+  "id": 30249,
+  "name": "HealthKey",
+  "slug": "healthkey",
+  "former_names": [],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/c1861589f70a31b85bd0f644259f89e147516204.png",
+  "website": "https://gethealthkey.com/",
+  "all_locations": "Austin, TX, USA",
+  "long_description": "HealthKey helps doctors offices generate more revenue by finding eligible patients for their clinical trials. We match at-risk patients with cutting-edge treatments, ultimately getting patients access to potentially life-changing treatments faster.\r\n\r\nBig Pharma pays a lot of money to clinics for each patient they enroll, but finding patients who qualify is an entirely manual process today. We use AI to prescreen doctors’ existing patients against Clinical Trials’ eligibility criteria, making enrollment fast and easy.",
+  "one_liner": "AI-powered Patient Identification for Clinical Trials",
+  "team_size": 10,
+  "industry": "Healthcare",
+  "subindustry": "Healthcare -> Healthcare IT",
+  "launched_at": 1737252261,
+  "tags": [],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Winter 2025",
+  "status": "Active",
+  "industries": [
+    "Healthcare",
+    "Healthcare IT"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/healthkey",
+  "api": "https://devasheeshg.github.io/yc-api/batches/winter-2025/healthkey.json",
+  "year_founded": 2025,
+  "city": "Austin",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/gethealthkey/",
+  "x_url": "https://x.com/HealthKey_HK",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/c1861589f70a31b85bd0f644259f89e147516204.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [
+    "https://bookface-images.s3.us-west-2.amazonaws.com/attachments/f514188146134d705f609597f14b2995f4bd5e94.png"
+  ],
+  "primary_partner": {
+    "name": "Tom Blomfield",
+    "url": "https://www.ycombinator.com/people/tom-blomfield"
+  },
+  "founders": [
+    {
+      "user_id": 105349,
+      "full_name": "Josh Sabol",
+      "title": "Founder/CEO",
+      "founder_bio": "Founder/CEO of HealthKey. Previously a Product Manager at AWS, helping automate the ~$20B supply chain at AWS. I was the 1st PM at Plate IQ (S15), a B2B accounting & payments tool, which 10x'ed during my tenure and recently raised a $160M Series B from FTV Capital. 🌐 https://sabol.io/",
+      "is_active": true,
+      "linkedin_url": "https://linkedin.com/in/joshsabol",
+      "x_url": "https://x.com/JoshSabol",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/e95ad93aa9652613ccb07b5849e1641f5b0901fe.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 87758,
+      "title": "HealthKey — AI-Powered Patient Identification for Clinical Trials",
+      "tagline": "Find 2x eligible patients in ½ the time",
+      "body": "Hi everyone, [Josh Sabol](https://www.linkedin.com/in/joshsabol/) here with [**HealthKey**](https://gethealthkey.com/) 👋\n\n### **TL;DR**\n\nHealthKey helps doctors offices generate more revenue by identifying patients who are eligible for clinical trials, and matches at-risk patients with cutting-edge treatments. Big Pharma pays _a lot_ of money to clinics for each patient they enroll, but _finding_ patients who qualify is an entirely manual process today. We use AI to prescreen doctors’ existing patients against Clinical Trials’ eligibility criteria, making enrollment fast and easy.\n\nAre you a **Clinical Operations Leader** or a **Principal Investigator**? Book a **15-min demo** here 👉 <https://cal.com/healthkey/30-min-yc-launch>\n\n<https://www.youtube.com/watch?v=Bm764eA6dhw>\n\n### **The Problem**\n\nPharma/Biotech/Medical Device companies (a.k.a. Sponsors) rely on doctors’ offices (a.k.a. Research Sites) to find patients for clinical trials. **Each enrolled patient can bring a site anywhere from $20,000 to $100,000**. The problem is finding qualified patients. **Doctors have to manually search through dense medical records** looking for extremely specific criteria, for [**example**](https://clinicaltrials.gov/study/NCT05683691#participation-criteria): “Prostate cancer in T2c stage, 20-80 cc in size determined via MRI.” **Existing search tools rely on simple data fields**, so they can’t handle these nuanced requirements. As a result, doctors manually sift through lists of 1000 patients with Prostate cancer only to discover \\~5 patients match all eligibility criteria. The result is **wasted time, missed revenue, and fewer patients** getting access to potentially life-changing trials.\n\n### **The Solution**\n\nOur solution works in two steps:\n\n**1. AI-Driven Prescreening**\n\nWe connect with clinics’ EHR system\\* directly to pull all medical records, including faxed PDFs. Then we use AI to compare each patient’s medical history against a trial’s specific eligibility criteria. For example: prostate cancer’s status, stage, size, and impression source. We repeat this for every criterion, across all trials, creating a carefully vetted list of potential candidates ranked by how likely they are to qualify.\n\n**2. Doctor Review**\n\nDoctors log in to our dashboard to view the prescreened patients. For each candidate, HealthKey highlights the key pieces of evidence—such as MRI details or encounter notes—so doctors can verify if a patient qualifies. This feedback loop improves our system, making it fast and easy to identify, qualify and enroll patients into clinical trials.\n\nDoctors can onboard in under a week with our existing integrations\\*, or we’ll integrate with any certified EHR for free. Clinics only pay when they successfully identify qualified patients!\n\n\\* Current Electronic Health Record (EHR) integrations include Athena, Veradigm Allscripts, Epic, NextGen, and MedConnect.\n\n![uploaded image](/media/?type=post&id=87758&key=user_uploads/105349/63655e71-0364-435d-a48a-5eba0690ed2a)\n\n### **Case Study: $1.4M in Missed Revenue at Urology Clinic**\n\nOne of our current partners is a +10 location urology practice. They have 4 research coordinators who each spend 3 hours every morning searching for trial candidates manually in their EHR. This manual screening is the most time-consuming part of their day.\n\nLast year, they actively recruited for 11 clinical trials. They missed their enrollment targets because they couldn't identify enough eligible patients, resulting in $1.4M in missed revenue.\n\nHealthKey has freed up countless hours of staff time, and has already identified 100s of eligible patients. With HealthKey's AI-powered Patient Identification, they're now positioned to meet enrollment targets and capture their full revenue opportunity.\n\n### **The Ask**\n\nAre you a **Clinical Operations Leader** or a **Principal Investigator**? Book a **15-min demo** here 👉 <https://cal.com/healthkey/30-min-yc-launch>\n\nFinding patients for clinical trials is an enormous pain. If you know decision-makers in any of these organizations, we’d be super grateful for an introduction! Email us at [founders@gethealthkey.com](mailto:founders@gethealthkey.com)\n\n1. Healthcare orgs that do Research or run Clinical Trials (Hospitals, Clinics, etc.)\n2. Research Sites / Site Networks\n3. Pharma companies\n4. Bio-tech companies\n5. Medical Device companies\n6. Durable medical goods providers\n\n### **Thanks!**\n\n![uploaded image](/media/?type=post&id=87758&key=user_uploads/105349/b24b4fef-e9fd-4794-9d64-441183e5d94f)\n\n",
+      "url": "https://www.ycombinator.com/launches/MpS-healthkey-ai-powered-patient-identification-for-clinical-trials",
+      "votes": 33,
+      "created_at": "2025-02-17T21:17:11.716Z"
+    }
+  ]
+}

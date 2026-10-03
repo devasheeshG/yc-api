@@ -1,0 +1,96 @@
+{
+  "id": 31152,
+  "name": "Fern",
+  "slug": "fern-bot",
+  "former_names": [
+    "ProactiveAI",
+    "Ishiki Labs",
+    "Fern (Formerly Ishiki Labs)"
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/937df36cb9a1992b6e2ab4f4415451f1ad6f7174.png",
+  "website": "https://fern.bot",
+  "all_locations": "",
+  "long_description": "Fern provides RL environments for robotics companies powered by a foundational world model. Companies can plug and play their robot policies completely in software with varying starting scenes of their production environment, and we'll produce RL heads on top of your existing policies to improve speed and success rate. Our customers get a continual learning flywheel where their production robots improve every week.",
+  "one_liner": "RL environments for robotics companies",
+  "team_size": 2,
+  "industry": "B2B",
+  "subindustry": "B2B -> Infrastructure",
+  "launched_at": 1768297786,
+  "tags": [
+    "Robotics",
+    "Infrastructure"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Winter 2026",
+  "status": "Active",
+  "industries": [
+    "B2B",
+    "Infrastructure"
+  ],
+  "regions": [
+    "Unspecified"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/fern-bot",
+  "api": "https://devasheeshg.github.io/yc-api/batches/winter-2026/fern-bot.json",
+  "year_founded": 2025,
+  "city": null,
+  "country": null,
+  "linkedin_url": "https://www.linkedin.com/company/fernbot",
+  "x_url": "https://x.com/ishikilabs",
+  "fb_url": null,
+  "cb_url": "https://www.crunchbase.com/organization/ishiki-labs ",
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/937df36cb9a1992b6e2ab4f4415451f1ad6f7174.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [
+    "https://bookface-images.s3.us-west-2.amazonaws.com/attachments/9aa481a01c92aff3ef9ad6396f367ccbff24cd03.png"
+  ],
+  "primary_partner": {
+    "name": "Gustaf Alstromer",
+    "url": "https://www.ycombinator.com/people/gustaf-alstromer"
+  },
+  "founders": [
+    {
+      "user_id": 2972207,
+      "full_name": "Amit Yadav",
+      "title": "Founder/CEO",
+      "founder_bio": "Cofounder and CEO at Ishiki Labs (W26). Previously: Research Scientist, first in LlaMA team training multimodal LLMs and then in Reality Labs at Meta training video assistant for smart glasses. PhD from Purdue University with 20+ publications at top conferences like CVPR, NeurIPS, and ICASSP",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/amit-kumar-singh-yadav",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/5df16b6162b4b3786dc3815473d7c24badaeff21.jpg"
+    },
+    {
+      "user_id": 3201791,
+      "full_name": "Robert Xu",
+      "title": "Founder",
+      "founder_bio": "Co-founder & CTO of Ishiki Labs (W26). Previously worked on multi-modal AI and Orion AR glasses at Meta and research infra at Citadel Securities.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/robert-xu/",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/0946e3006e82ae99c29383b458713393504b6926.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 97949,
+      "title": "Fern – Realtime Socially Aware AI for Meetings",
+      "tagline": "Fern joins every meeting as–either invisible copilot or active participant–so every conversation runs like a top 1% professional",
+      "body": "**TL;DR**\\\n[Fern](https://www.ishikilabs.ai/download) is a realtime AI that joins your meetings as either an invisible copilot or an active participant– your choice! It realtime proactively coaches you through every conversation so you always show up like a top 1% professional.\n\nHey everyone, we're Amit and Robert, cofounders of Ishiki Labs.\n\n**The Problem**\n\n_“AI meeting assistant” has become synonymous with a note-taker waiting to summarize at the end. That's not a meeting assistant. That's a fancier transcript._ \n\nBuilding a realtime AI meeting copilot is hard in two distinct ways.\n\nThe invisible assistant must understand the live meeting context at blazing speed and surface the right thing at the right moment – questions to ask, things you're missing, who you're talking to. Timing is everything. Current AI is purely reactive. Making AI an active participant in discussion is even harder. AI has no social awareness – every pause becomes a prompt, every gap an invitation to speak.\n\nAI that is socially aware and proactive is an unsolved problem. That's what we're building.\n\nThe cost of this gap is real. Cofounders, AEs, recruiters, investors – in discovery calls, sales meetings, investor conversations. The moments that matter most, and AI is absent from all of them.\n\n**How Fern Solves it**\n\n[Fern](https://www.ishikilabs.ai/download) joins your meetings as a true participant or an invisible copilot – your choice. It has two modes:\n\n**Full Presence**: Fern joins visibly, listens, and speaks up when invited. It offers realtime opinions, deep research, and can complete tasks like filing notes or sending emails on the spot. Built for internal product, engineering, and strategy meetings. Watch the demo- <https://www.youtube.com/watch?v=vRJfZDUHvSY>\n\n**Shadow Mode**: Silent and invisible to everyone else. You get a private realtime feed: live summaries, questions to ask, things you're missing, context on who you're talking to. A sharp colleague whispering in your ear – with fully customizable insights. Built for client calls, investor meetings, and any conversation where you want invisible support.\n\nBoth modes include a post-meeting summary, transcript, and full insights.\n\n**Team**\n\nWe're both ex-Meta. Amit is an AI Scientist from LLaMA (now Meta Super Intelligence Lab) and Reality Labs – PhD in AI, 20+ publications at NeurIPS/CVPR, trained multimodal assistants for smart glasses. Robert was systems and infra lead in Reality Labs, with four years building low-latency multimodal systems at Meta and Citadel Securities. \n\nOur mission: make AI socially timed and contextually aware – so every conversation you have runs like a top 1% professional.\n\n**Our Ask**\n\nDownload [Fern](https://www.ishikilabs.ai/download) and if you're a founder or AE who lives in high-stakes conversations and don’t want to settle for AI note-takers, reach out: [team@ishikilabs.ai](mailto:team@ishikilabs.ai)",
+      "url": "https://www.ycombinator.com/launches/PTp-fern-realtime-socially-aware-ai-for-meetings",
+      "votes": 26,
+      "created_at": "2026-02-19T15:09:16.569Z"
+    }
+  ]
+}

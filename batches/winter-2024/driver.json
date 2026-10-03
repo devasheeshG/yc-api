@@ -1,0 +1,114 @@
+{
+  "id": 29179,
+  "name": "Driver",
+  "slug": "driver",
+  "former_names": [
+    "Driver AI"
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/503cbea2a9e54ae2d0485232ac46582c406b25b7.png",
+  "website": "https://www.driver.ai/",
+  "all_locations": "Austin, TX, USA",
+  "long_description": "Driver is the context layer that translates your codebase into shared, structured understanding. By computing context ahead of time, Driver delivers symbol‑complete documentation, architecture maps, and history guides so teams and agents can reason across an entire codebase without guesswork.",
+  "one_liner": "Context for Codebases",
+  "team_size": 15,
+  "industry": "B2B",
+  "subindustry": "B2B",
+  "launched_at": 1706885806,
+  "tags": [],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Winter 2024",
+  "status": "Active",
+  "industries": [
+    "B2B"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada",
+    "Remote",
+    "Partly Remote"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": [
+    {
+      "question": "What is your long-term vision? If you truly succeed, what will be different about the world?",
+      "answer": "Innovators will make the world better, faster. People will attend fewer meetings. Documenting codebases will be quick and enjoyable. Companies will reallocate millions of tech discovery budget to building new things. Our kids won’t believe us when we tell them we once spent months getting up to speed on software we didn’t write."
+    }
+  ],
+  "url": "https://www.ycombinator.com/companies/driver",
+  "api": "https://devasheeshg.github.io/yc-api/batches/winter-2024/driver.json",
+  "year_founded": 2023,
+  "city": "Austin",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/driver-ai",
+  "x_url": "https://x.com/driver_ai_",
+  "fb_url": null,
+  "cb_url": "https://www.crunchbase.com/organization/driver-ai",
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/503cbea2a9e54ae2d0485232ac46582c406b25b7.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [
+    "https://bookface-images.s3.us-west-2.amazonaws.com/attachments/a700dfbc2581cbc23a388683c620f42cc9ae0741.png",
+    "https://bookface-images.s3.us-west-2.amazonaws.com/attachments/40abf55c858953c83f4df7cbc10e73d60e2f9380.png"
+  ],
+  "primary_partner": {
+    "name": "Tom Blomfield",
+    "url": "https://www.ycombinator.com/people/tom-blomfield"
+  },
+  "founders": [
+    {
+      "user_id": 342500,
+      "full_name": "Adam Tilton",
+      "title": "Founder",
+      "founder_bio": "Adam was the co-founder of Aktive, an embedded machine learning development platform that he sold to Nike in 2019, and Rithmio, which he sold to Bosch Sensortec in 2017 (part of the the BHI260AP). Adam did his B.S., M.S., and Ph.D. (abd) at the University of Illinois in Urbana Champaign in Mechanical Engineering, Computer Science, and Control and Estimation, respectively.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/adamktilton/",
+      "x_url": "https://twitter.com/adamtilton?lang=en",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/7dc752ac1341b8c0e602e044d7bc45b120a442d1.jpg"
+    },
+    {
+      "user_id": 1522141,
+      "full_name": "Daniel Hensley",
+      "title": "Founder",
+      "founder_bio": "Daniel was co-founder and Head of Engineering at Infinity AI. Before that, he helped run the boutique software engineering firm Edge Analytics. In 2017, Daniel completed a PhD at UC Berkeley, developing methods for Magnetic Particle Imaging. He then led software engineering at Magnetic Insight, a startup he and others spun out of Berkeley to commercialize this technology.",
+      "is_active": true,
+      "linkedin_url": "https://linkedin.com/in/daniel-hensley",
+      "x_url": "https://twitter.com/dw_hensley",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/c17cdff0ceda701bed4df1fcb08513449f58c99b.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [
+    {
+      "title": "Driver launches an AI-powered platform for creating technical documentation | TechCrunch",
+      "url": "https://techcrunch.com/2024/10/08/driver-launches-an-ai-powered-platform-for-creating-technical-documentation/",
+      "date": "Oct 08, 2024"
+    }
+  ],
+  "launches": [
+    {
+      "id": 99369,
+      "title": "Driver:  Context for Codebases",
+      "tagline": " Translate your codebase into shared, structured understanding (for humans and AI.)",
+      "body": "**The gist:** [Driver](https://www.driverai.com/) uses a compiler-inspired system to pre-compute exhaustive understanding of your codebases and serve it to AI coding agents via MCP. With Driver's content, Cursor, Claude Code, and Copilot never get lost or go down the wrong rabbit holes enabling you to build fearlessly at scale.\n\n> _\"We spend a ton of time on the planning and research phase of our agentic SDLC — Driver is where the real value is for us. It's helping our engineers dramatically on story tasking alone, and it's literally going viral inside our company. I have to tell my engineers to hold on while we get everything set up.\"_ — CTO, Leading E-commerce Fulfillment Platform\n\n---\n\nHi everyone, we're [Adam](https://www.linkedin.com/in/adamktilton/) and [Daniel](https://linkedin.com/in/daniel-hensley). We launched Driver on Bookface two years ago as a documentation tool. A lot has changed.\n\n## What actually happened in two years\n\nWe started by building a system to produces accurate, symbol-complete documentation. It became the source of truth for our customers across their engineering orgs.\n\nThis evolved quickly into AI agents reading the docs. Customers began checking our docs directly into their repos as markdown files making them available to Cursor and Claude Code.\n\nThe shift to context for agents unlocked value at a much larger scale: their agents could successfully complete tasks that they had previously failed at.\n\nWe hadn't built a documentation tool. We'd built the context layer.\n\n---\n\n## The problem\n\nAI agents fail on real codebases without context.\n\nAsk an agent to work in a 20M line repo. It iterates with grep, ls, repeated searches. It takes forever, is incomplete, and is wildly non-deterministic. That translates to frequent hallucinations, low trust, and outright task failure.\n\nTeams try to fix this with bigger context windows (doesn't scale), RAG methods (non-exhaustive, semantic limitations, poor scaling), or manual context gathering (burns hours per engineer per week, inconsistent and unmaintainable at scale). None of them work.\n\nWe took a different approach: pre-compute exhaustive understanding ahead of time, make this fully automated and always up-to-date, then serve it to agents through MCP.\n\n> \\_\"The better the documentation, the better the agent. Your context is better than anything else on the market.\"\\_— VP Engineering, Leading Financial Software Provider\n\n---\n\n## How it works\n\nAt the core is our Transpiler: an exhaustive compiler-inspired system combining static analysis with LLM generation. It produces:\n\n1. Symbol-complete documentation for every file\n2. Architecture overviews to guide agents and plan\n3. Dependency maps for reviews\n4. Commit-complete changelogs\n\nWe also build runtime sub-agents optimized to shape pre-computed context to the perfect package for a runtime task: _Joint_ optimization between compile-time and runtime.\n\nEvery file visited, every symbol documented, relationships preserved. All kept current automatically as code changes.\n\nWe expose this compiled output through carefully designed interface primitives callable via MCP or API.\n\n> _\"I refactored the entire 1M line codebase with Driver and Cursor and I have no idea what it does. And with Driver, have no need to. The first thing I do is ask Cursor to research with Driver's MCP.\"_ — Head of Data Engineering, Global Trading Firm\n\n---\n\n## Traction\n\nWe've deployed across **25+ enterprise customers**, including high-frequency trading firms and Fortune 500 companies, processing **over 200 million lines of code** in the last six months.\n\n---\n\n## Security\n\nSOC 2 Type II certified. Multi-tenant SaaS, single-tenant VPC, self-hosted options, and GovCloud available.\n\n---\n\n## How to get started\n\n1. **Connect your SCM:** Link Driver to GitHub, GitLab, Bitbucket or any other SCM system to ingest codebases and create context.\n2. **IdP & SSO:** Set up SSO, enable SCIM, and map IdP groups to Driver teams to provide access to context for your organization.\n3. **Integrate Context Anywhere:** User-authenticated access via MCP server for interactive agents, M2M authentication for headless agents, and REST API for server-side access.\n\n## Our Ask\n\nTry it on your codebase at [driver.ai](http://driver.ai) \n\n* **Large codebase and using Cursor/Claude Code?** We'll set up MCP tools and you'll see the difference in a day.\n* **Enterprise with dozens of internal systems?** We process all of them. Your agents get cross-repo context.\n* **Onboarding engineers to legacy code?** Architecture knowledge stops living in one person's head.\n\n> _\"Within five hours, I built a functioning prototype that touched almost every area of our back end. It was supposed to take six weeks.\"_ — Director of Product, Leading Payments Platform",
+      "url": "https://www.ycombinator.com/launches/Pqj-driver-context-for-codebases",
+      "votes": 8,
+      "created_at": "2026-04-06T16:19:29.885Z"
+    },
+    {
+      "id": 78100,
+      "title": "Driver AI: Understand millions of lines of code in minutes",
+      "tagline": "We help teams understand their business-critical systems at a fraction of the time and cost",
+      "body": "**The gist: **[**Driver AI**](https://www.driverai.com/)** is a tool that explains millions of lines of code in minutes instead of months. When you need to do technical discovery, you can use Driver AI’s interactive documentation to understand complex codebases at a fraction of the time and cost.**\n[ ](https://youtu.be/-L3gFO6k5lA?feature=shared)\n**—**\n\n**The Problem We Got Sick Of**\n\nHi everyone, we’re [Adam](https://www.linkedin.com/in/adamktilton/) and [Daniel](https://linkedin.com/in/daniel-hensley). We’ve spent our careers navigating complex codebases that had little to no documentation and, when it did, often written by engineers no longer with the company. Technical discovery has not only been maddening for us as engineers but also expensive and time-consuming for the business.\\\n\\\nIt costs teams roughly $500,000 and three months of discovery to unpack **one codebase**. Multiply that by the number of applications in an organization and you're looking at years of discovery and millions of dollars. Companies can’t invest that much into fully comprehending their existing technology stack, so they either abandon critical projects or the technical debt just keeps piling up.\n\n\\\n**How We’re Fixing It**\n\nDriver AI is a tool that uses LLMs to help teams quickly understand their business-critical systems. We use a simple three-step process:\n\n1. **Comprehend:** We ingest your existing codebases, organize them within our platform, and generate internal documentation at various levels of abstraction with LLMs. Our platform comprehends code regardless of language, age, or framework.\n\n   ![uploaded image](/media/?type=post&id=78100&key=user_uploads/342500/adb74cfd-ec9b-4328-90b9-b32095fa0c8e)\n\n2. **Explain:** Next, we provide interactive documentation that explains the capabilities of your codebases and how those capabilities are delivered. This documentation is written at the executive, business, and technical levels so anyone in the organization can understand it.\n\n   ![uploaded image](/media/?type=post&id=78100&key=user_uploads/342500/e3482466-ce38-44fe-a919-b88190999a99)\n\n3. **Accelerate Delivery:** Now that we’ve slashed the technical discovery process from months to days, you can deliver projects more quickly. Fueled by the context we provide, you can also make better-informed decisions about what to do next, including giving these explanations to LLMs and asking them to do things for you.\n\n   ![uploaded image](/media/?type=post&id=78100&key=user_uploads/342500/ea7b1c0e-268e-465b-838b-6f7593901523)\n\n\n### \n\n\\\n**Why This is Personal**\n\nWe’ve been building companies and software at the intersection of signal processing and machine learning for over a decade. Our third co-founder, Jimmy, has led finance and operations for some of the most successful technology companies in the world, from large global leaders to high-growth start-ups.\n\nAfter selling his last company, Adam led various software efforts in innovation at Nike. But he kept encountering the same problem: Nothing new could be built without a long and very expensive tech discovery process. It was maddening. He soon discovered this problem was everywhere—from enterprise IT to embedded software development teams—and with Jimmy and Daniel built Driver AI to fix it.\n\n\\\n**Our Ask**\n\nEmail [**adam.tilton@driverai.com**](mailto:adam.tilton@driverai.com) to try Driver AI and tell us what you think.\n\n* **Integrated Device Manufacturer?** Driver AI will consume HDL files, BSPs, and architecture documents to explain exactly how things work for your customers. You will win more sockets!\n* **Embedded engineer?** Driver AI will reference code, manuals, and specifications to create detailed notes on how to build applications. You will ship high-quality code faster!\n* **Enterprise IT leader?** Driver AI will consume thousands of internal codebases, summarize capabilities, and provide detailed documentation on how everything works. You will know what your code does!\n* **Consulting shop?** Driver AI will consume your client’s custom black box code and explain how it works and how to integrate with it. You will deliver value faster!",
+      "url": "https://www.ycombinator.com/launches/KJg-driver-ai-understand-millions-of-lines-of-code-in-minutes",
+      "votes": 26,
+      "created_at": "2024-02-02T16:59:49.484Z"
+    }
+  ]
+}

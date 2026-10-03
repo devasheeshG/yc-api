@@ -1,0 +1,88 @@
+{
+  "id": 31252,
+  "name": "Moda",
+  "slug": "moda",
+  "former_names": [],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/c76a18751e4b95b7b3cf621f7752449405d71aa5.png",
+  "website": "https://moda.dev",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "Moda is a harness engineering platform. It turns production traces into verified improvements for your agent harness: prompts, tools, skills, evals, and memory.\r\n\r\nThe infra problems we actually take: transfer what a frontier model learned onto an open-source one without losing performance, and stand up a model router for your own system and task. Same loop both times. Name the layer that broke, ship the change, replay it on old traffic before it goes out. We've built the infrastructure to tackle these harness problems at scale.\r\n\r\nWe do not sell a platform that solves every harness problem. We sell those jobs, on an agent already in production.",
+  "one_liner": "Harness Engineering Infrastructure that developers love.",
+  "team_size": 6,
+  "industry": "B2B",
+  "subindustry": "B2B -> Infrastructure",
+  "launched_at": 1769121297,
+  "tags": [],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Winter 2026",
+  "status": "Active",
+  "industries": [
+    "B2B",
+    "Infrastructure"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/moda",
+  "api": "https://devasheeshg.github.io/yc-api/batches/winter-2026/moda.json",
+  "year_founded": 2025,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/modaflows",
+  "x_url": "https://x.com/modaflows",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/c76a18751e4b95b7b3cf621f7752449405d71aa5.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Ankit Gupta",
+    "url": "https://www.ycombinator.com/people/ankit-gupta"
+  },
+  "founders": [
+    {
+      "user_id": 2168306,
+      "full_name": "Pranav Bedi",
+      "title": "Founder",
+      "founder_bio": "Building Moda",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/pranavbedi/",
+      "x_url": "https://x.com/pranavbedi",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/d8425262a777398964ce6f89f4a7e72a251417c5.jpg"
+    },
+    {
+      "user_id": 960726,
+      "full_name": "Mohammed Al-Rasheed",
+      "title": "Founder",
+      "founder_bio": "Building Moda",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/moalrs/",
+      "x_url": "https://x.com/qtreplayz",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/e8ae115b3efdfff558a55607a16b476cb3b69c7e.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 98435,
+      "title": "Moda: The Continual Learning Layer for AI Agents",
+      "tagline": "Turn production agent traces into validated improvements for your agent harness.",
+      "body": "We’re Mohammad and Pranav (Moda, W26). **We built monitoring & reliability for AI agents.**\n\n![uploaded image](/media/?type=post&id=98435&key=user_uploads/2168306/84330bae-242e-447d-a656-800061f4b1ac)\n\n**In production, AI agents fail silently all the time:** tool calls that error or time out, agents that claim they “did it” without actually doing it, prompt injections that cause data leakage, and long customer chats that hide the real issue. Most teams only find out after users complain, churn, or something breaks.\n\n<https://youtu.be/aKPDhL_AE4E>\n\n### **The problem:**\n\nWhen an agent fails, the “bug” is rarely one line of code. It might be a flaky tool, a prompt regression, a bad retrieval result, or a jailbreak attempt.\n\nBut most teams still debug agents by skimming transcripts, grepping logs, and hoping they notice the real issue. Previous tools were built for clicks, not for long, messy conversations with skills, MCP’s and tools.\n\nAs agents get more autonomous, this gets worse. Small changes in prompts, tools, or integrations can cause big reliability and security problems at scale.\n\n### **What we built:**\n\nModa is monitoring & reliability for AI agents. It turns conversations and tool traces into low-noise, actionable signals.\n\n**Trace-first drilldowns:** click from a metric or alert straight into the exact messages and tool calls that caused it.\n\n![uploaded image](/media/?type=post&id=98435&key=user_uploads/2168306/6e062a13-340e-452f-9676-2bdd790d94e4)\n\n**Conversation segmentation:** automatically splits long chats into topic segments so you can debug the right unit of work.\n\n![uploaded image](/media/?type=post&id=98435&key=user_uploads/2168306/90151d61-e51b-45da-ac29-72af5c8a31d6)\n\n**Failure detection:** flags tool-call errors, timeouts, and “claimed it worked” runs.\n\n![uploaded image](/media/?type=post&id=98435&key=user_uploads/2168306/335d8a83-6301-4d0e-af31-a75778cbbb0e)\n\n**Quality & safety signals:** highlights hallucinations, user frustration, and prompt injection attempts.\n\n![uploaded image](/media/?type=post&id=98435&key=user_uploads/2168306/7ee4b5f6-ddc0-47a3-9e9c-3538f6764acc)\n\n\\\n**Regression tracking:** measure the impact of prompt and harness changes, and catch regressions before customers do.\\\n\\\nWant to see Moda on your agent in production? Book a quick call: [https://moda.dev](https://moda.dev)\n\n### **About Us:**\n\n**Mohammad** built AI agents and infrastructure at **Shopify, Notion, and Clio**, shipping systems that scaled agents to real users.\n\n**Pranav** built data infrastructure at banks and insurance firms before diving into building AI agents at **Shopify** and **Cerebral Valley**\n\nWe both dropped out of University of Waterloo to solve what we believe to be the biggest problem in the next 10 years, AI systems are unreliable, Moda is going to solve that.\n\nVisit us at [https://moda.dev](https://moda.dev) | [pranav@modaflows.com](mailto:pranav@modaflows.com)",
+      "url": "https://www.ycombinator.com/launches/Pbf-moda-the-continual-learning-layer-for-ai-agents",
+      "votes": 122,
+      "created_at": "2026-03-04T02:01:23.769Z"
+    }
+  ]
+}

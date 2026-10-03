@@ -1,0 +1,114 @@
+{
+  "id": 29365,
+  "name": "Ellipsis",
+  "slug": "ellipsis",
+  "former_names": [
+    "BitBuilder",
+    "Ellipsis",
+    "ellipsis"
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/1fa4719de38384c762164e3dcd13cfaa014c5ba3.png",
+  "website": "https://ellipsis.dev",
+  "all_locations": "New York City, NY, USA",
+  "long_description": "Ellipsis is a cloud platform that allows engineering teams to deploy fleets of coding agents. Each agent gets an isolated sandbox, scoped permissions, and hard budget caps. Full observability included. Get started with a $100 credit at www.ellipsis.dev.\r\n\r\nYou can deploy agents for feature development, code review, and workflow automation. Creating an agent is simple: simply commit a YAML file to Github. Spawn agents from Github/Linear/Slack/etc., or via a REST API or our CLI. \r\n\r\nOrganizations get full observability and governance of their cloud coding agents.  Agent session logs are downloadable so companies own their own data.\r\n\r\nFull documentation: https://www.ellipsis.dev/docs",
+  "one_liner": "Cloud platform for coding agents",
+  "team_size": 2,
+  "industry": "B2B",
+  "subindustry": "B2B -> Engineering, Product and Design",
+  "launched_at": 1706288452,
+  "tags": [
+    "Artificial Intelligence",
+    "Developer Tools",
+    "Machine Learning",
+    "AI"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": true,
+  "nonprofit": false,
+  "batch": "Winter 2024",
+  "status": "Active",
+  "industries": [
+    "B2B",
+    "Engineering, Product and Design"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/ellipsis",
+  "api": "https://devasheeshg.github.io/yc-api/batches/winter-2024/ellipsis.json",
+  "year_founded": 2023,
+  "city": "New York City",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/ellipsis-dev/",
+  "x_url": "https://twitter.com/ellipsis_dev",
+  "fb_url": null,
+  "cb_url": "https://www.crunchbase.com/organization/bitbuilder-91a2",
+  "github_url": "https://github.com/ellipsis-dev",
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/1fa4719de38384c762164e3dcd13cfaa014c5ba3.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [
+    "https://bookface-images.s3.us-west-2.amazonaws.com/attachments/815be6dcb94c4c84b15bf95c9e73fd5d55148771.png"
+  ],
+  "primary_partner": null,
+  "founders": [
+    {
+      "user_id": 1449858,
+      "full_name": "Hunter Brooks",
+      "title": "Founder/CEO",
+      "founder_bio": "Building www.ellipsis.dev, a Managed Cloud Agents platform.\n----\n\nPreviously, I created a code generation product that dynamically created programming challenges used in technical interviews. I've worked as an ML Engineer at AWS and Amazon Ads, in addition to filling various engineering roles at companies like Brigit and Capital One.\n\nBefore that, I published in the field of Astrophysics.",
+      "is_active": true,
+      "linkedin_url": "https://linkedin.com/in/seanhunterbrooks",
+      "x_url": "https://twitter.com/hunterfromnyc",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/717c6b351e12433dc0220a43bc4f5478573447ef.jpg"
+    }
+  ],
+  "jobs": [
+    {
+      "id": 73519,
+      "title": "Founding AI Engineer",
+      "url": "https://www.ycombinator.com/companies/ellipsis/jobs/hOLJHSp-founding-ai-engineer",
+      "location": "New York, NY, US",
+      "type": "Full-time",
+      "role": "Engineering",
+      "role_type": "Backend",
+      "salary_range": "$100K - $200K",
+      "equity_range": "0.50% - 5.00%",
+      "experience": "1+ years",
+      "visa": "US citizen/visa only",
+      "skills": [
+        "Python"
+      ]
+    }
+  ],
+  "news": [
+    {
+      "title": "AI Coding Startups That Have Raised the Most From VCs Like A16z - Business Insider",
+      "url": "https://www.businessinsider.com/ai-code-startups-that-have-raised-the-most-vcs-a16z-2024-10#ellipsis-raised-a-2-million-seed-round-in-april-2024-as-part-of-y-combinators-w24-batch-12",
+      "date": "Oct 13, 2024"
+    },
+    {
+      "title": "Ellipsis raises a $2M Seed Round - Ellipsis.dev | Automated code reviews",
+      "url": "https://www.ellipsis.dev/blog/ellipsis-raises-a-2m-seed-round?utm_source=ycseedround",
+      "date": "Jun 19, 2024"
+    }
+  ],
+  "launches": [
+    {
+      "id": 78871,
+      "title": "🤖 Ellipsis: Automated code reviews & bug fixes",
+      "tagline": "We review pull requests and convert GitHub comments into working, tested code.",
+      "body": "**TL;DR**: [**Ellipsis**](https://ellipsis.dev?utm_source=launchyc&utm_medium=blog&utm_campaign=yc) is a devtool that converts technical instructions into working, tested code. Customers like PromptLayer and Warp use us to review code and fix bugs, [**and you can too**](https://ellipsis.dev?utm_source=launchyc&utm_medium=blog&utm_campaign=yc)!\n\n---\n\n---\n\n—\n\nHello world, [**Hunter**](https://www.linkedin.com/in/seanhunterbrooks/) and [**Nick**](https://www.linkedin.com/in/nsbradford/) here! We’re building [**Ellipsis**](https://ellipsis.dev?utm_source=launchyc&utm_medium=blog&utm_campaign=yc), an AI devtool that allows engineering teams to ship faster. Today, our customers use us to review pull requests and convert GitHub comments into working, tested code.\n\nBut that’s just the beginning; we’re on a mission to build the AI software engineer. Specifically, we’re automating tasks for the Full Stack Engineer role, starting in the Python and JavaScript/TypeScript ecosystem.\n\n![uploaded image](/media/?type=post&id=78871&key=user_uploads/1449858/918bc808-84a8-4fd5-b106-d4db0ced57ad)\n\n### **How does it work? 🧐**\n\nWorking with Ellipsis is like working with a remote colleague; simply tag it in Slack, GitHub, or Linear. \n\nYou can ask it to:\n\n* Create multi-file code changes from natural language requirements, such as a **bug reports** or **feature requests**\n* Review a pull request, checking for **best practices** and **custom rules**\n* Answer questions about a codebase during onboarding, development, and bug triaging\n* Create daily or weekly digests of the most important changes in your codebase\n* Automate tedious changes, such as **library upgrades** and **refactors**, to a large batch of files\n\nThe best part is that Ellipsis works in the cloud, not on your local laptop. This means developers can have Ellipsis working on multiple tedious tasks in parallel, while they handle the more complex work themselves.\n\nThe question we get most often is “does it work?”, so we invite you to start a [**7 day free trial**](https://ellipsis.dev?utm_source=launchyc&utm_medium=blog&utm_campaign=yc). Or [check](https://github.com/hyperdxio/hyperdx/pull/326) [out](https://github.com/jxnl/instructor/pull/467) [some](https://github.com/relari-ai/continuous-eval/pull/43) [examples](https://github.com/ion-design/numi/pull/1) from the open source community.\n\n### **About the team 🧙‍♂️**\n\n* [**Hunter**](https://www.linkedin.com/in/seanhunterbrooks/) previously created a code generation product that dynamically generated programming challenges used in technical interviews. He's worked as a ML Engineer at AWS and Amazon Ads, in addition to filling various engineering roles at companies like Brigit and Capital One. Before teaching himself to code, he published in the field of Astrophysics.\n* [**Nick**](https://www.linkedin.com/in/nsbradford/) most recently took an AI developer tool for codebase migrations from 0 to 1 as founding engineer of Grit. Previously, he researched LLM interpretability at Redwood Research, managed several teams at ML startup Hyperscience, and worked on trading algorithms at Bridgewater Associates.\n\n### **Our ask 🙏**\n\n* [**Try it out!**](https://ellipsis.dev?utm_source=launchyc&utm_medium=blog&utm_campaign=yc) Ellipsis will review your pull requests (and do a good job!) for 7 days **for free**.\n* Share this post with Engineering leaders interested in enforcing best practices or shipping faster.\n\nOur inbox is always open at [**team@ellipsis.dev**](mailto:team@ellipsis.dev). Here’s a blurb you can copy/paste:\n\n> [Ellipsis](https://ellipsis.dev?utm_source=launchyc&utm_medium=blog&utm_campaign=yc) is an AI devtool that reviews pull requests and converts GitHub comments into working, tested code. Customers like [PromptLayer](https://promptlayer.com/) and [Warp](https://www.joinwarp.com/) use them to ship faster because they spend less time reviewing changes and fixing bugs. You can get started with a 7 day trial immediately, or [schedule time](https://cal.com/hunter-brooks/15min) for a 15 minute demo.",
+      "url": "https://www.ycombinator.com/launches/KW7-ellipsis-automated-code-reviews-bug-fixes",
+      "votes": 81,
+      "created_at": "2024-02-28T22:06:45.566Z"
+    }
+  ]
+}

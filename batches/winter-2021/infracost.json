@@ -1,0 +1,117 @@
+{
+  "id": 23280,
+  "name": "Infracost",
+  "slug": "infracost",
+  "former_names": [],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/fe6b97eef16a2d22e437f6cf663c11b64b223fc8.png",
+  "website": "https://infracost.io",
+  "all_locations": "Remote",
+  "long_description": "Infracost shifts cloud costs left and makes FinOps proactive. It sits in the engineering workflow (CI/CD), and shows the cost impact of code changes (IaC) before the code is shipped to production. This catches costly mistakes before any money has been spent. It also checks to make sure all resources are tagged with your set tagging policy, and runs checks on the code against our FinOps policy packs, ensuring best practices are followed (e.g. using Graviton processors and storage lifecycle rules).\r\n\r\nThis creates a cost-aware engineering culture.",
+  "one_liner": "Shift FinOps Left: Proactively Find & Fix Cloud Cost Issues",
+  "team_size": 25,
+  "industry": "B2B",
+  "subindustry": "B2B -> Engineering, Product and Design",
+  "launched_at": 1613727779,
+  "tags": [
+    "Developer Tools",
+    "DevSecOps",
+    "FinOps",
+    "B2B",
+    "Open Source"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": true,
+  "nonprofit": false,
+  "batch": "Winter 2021",
+  "status": "Active",
+  "industries": [
+    "B2B",
+    "Engineering, Product and Design"
+  ],
+  "regions": [
+    "Remote",
+    "Fully Remote"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": [
+    {
+      "question": "How did your company get started? (i.e., How did the founders meet? How did you come up with the idea? How did you decide to be a founder?)",
+      "answer": "In our first startup, we built one of the first cloud cost management products, which was later acquired and is now part of the Flexera One product. That was back in 2012. The cloud cost management space hasn’t changed in 10 years. Every company still starts from the bills, meaning they look for issues and react. With Infracost, we wanted to apply the shift left philisophy, which worked great is security to cloud costs. That’s what Infracost has become - we [Shift FinOps Left](https://www.infracost.io/) into the engineering workflow."
+    },
+    {
+      "question": "How did you decide to apply to Y Combinator? What was your experience applying, going through the batch, and fundraising at demo day?",
+      "answer": "We applied to YC back in 2012. Back then there was 10,000 prices from AWS. Since then, [cloud costs have become very complex](https://www.infracost.io/blog/why-are-cloud-costs-so-complex/), and we now track nearly 4 million prices from AWS, Azure and GCP. YC was fantastic back then (we interviewed with PG), and it was even better when we got accepted into the W21 batch!"
+    },
+    {
+      "question": "How have you kept in touch with the YC community and continued to use YC resources & programs since the batch ended?",
+      "answer": "Our YC group keeps a monthly check-in going. It has been great to meetup on Zoom once a month to talk about any main issues, questions, learnings that any of the companies have had."
+    },
+    {
+      "question": "What is the core problem you are solving? Why is this a big problem? What made you decide to work on it?",
+      "answer": "Every single cloud cost management product out there is reactive in nature. Infracost is the only FinOps product that is designed with engineers in mind, making it easy for them to ship code fast, and keep within FinOps best practices before they merge their code. Things like:* Ensuring the right [cloud tags](https://www.infracost.io/docs/infracost_cloud/tagging_policies/) are set* Ensuring [FinOps best practices](https://www.infracost.io/docs/infracost_cloud/finops_policies/) are followed* [Budgets](https://www.infracost.io/docs/infracost_cloud/guardrails/) are checked before money has been spent* Data is integrated into Jira with our [FinOps for Jira](https://www.infracost.io/docs/infracost_cloud/jira_integration/) appAll within the engineering workflow (directly in a GitHub PR, or GitLab MR)."
+    }
+  ],
+  "url": "https://www.ycombinator.com/companies/infracost",
+  "api": "https://devasheeshg.github.io/yc-api/batches/winter-2021/infracost.json",
+  "year_founded": 2020,
+  "city": null,
+  "country": null,
+  "linkedin_url": "https://www.linkedin.com/company/infracost/",
+  "x_url": "https://twitter.com/infracost",
+  "fb_url": null,
+  "cb_url": "https://www.crunchbase.com/organization/infracost",
+  "github_url": "https://github.com/infracost",
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/fe6b97eef16a2d22e437f6cf663c11b64b223fc8.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Gustaf Alstromer",
+    "url": "https://www.ycombinator.com/people/gustaf-alstromer"
+  },
+  "founders": [
+    {
+      "user_id": 27702,
+      "full_name": "Ali Khajeh-Hosseini",
+      "title": "Founder",
+      "founder_bio": "Ali Khajeh-Hosseini is the co-founder of Infracost, where he leads Product and Customer Success. He has spent over a decade at the intersection of cloud infrastructure and cost optimization, including earning a PhD in cloud cost modeling—before \"FinOps\" was even a term. Prior to Infracost, Ali co-founded two cloud startups that were acquired. Today, he works closely with some of the world’s largest enterprises to make cloud costs actionable, automated, and developer-first.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/alikhajeh1/",
+      "x_url": "https://twitter.com/alikhajeh",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/9dff4980e6dddf8dec2391d264c782da12456fb5.jpg"
+    },
+    {
+      "user_id": 314766,
+      "full_name": "Alistair Scott",
+      "title": "Founder",
+      "founder_bio": "Co-founder of Infracost. Developer at heart. Love to ski and cook. Currently on a mission to cook a dish from every country in the world.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/aiscott/",
+      "x_url": "https://twitter.com/aliscott",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/66c3efde7d8da9ec5f81100fab0cfae450b727dd.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [
+    {
+      "title": "The next chapter in Shifting FinOps Left: Infracost has raised a $15 Million Series A - Infracost",
+      "url": "https://www.infracost.io/blog/infracost-has-raised-a-15-million-series-a/",
+      "date": "Nov 18, 2025"
+    },
+    {
+      "title": "Infracost: The “DevFinance” Cloud Cost-Management Solution We Were Looking For | by Bogomil Balkansky | Sequoia Capital Publication | Sep, 2021 | Medium",
+      "url": "https://medium.com/sequoia-capital/infracost-the-devfinance-cloud-cost-management-solution-we-were-looking-for-1cd75300a600",
+      "date": "Sep 23, 2021"
+    },
+    {
+      "title": "Infracost Raises $2.2m From Sequoia To Help Engineers Lower Their Cloud Computing Costs",
+      "url": "https://www.forbes.com/sites/frederickdaso/2021/09/23/infracost-raises-22m-from-sequoia-to-help-engineers-lower-their-cloud-computing-costs/",
+      "date": "Sep 23, 2021"
+    }
+  ],
+  "launches": []
+}

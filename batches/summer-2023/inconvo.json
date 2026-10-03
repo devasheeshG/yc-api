@@ -1,0 +1,120 @@
+{
+  "id": 29103,
+  "name": "Inconvo",
+  "slug": "inconvo",
+  "former_names": [
+    "ten.dev",
+    "Ten"
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/42126d50fed615bc74167d22b4985b25e9d25fad.png",
+  "website": "https://inconvo.com",
+  "all_locations": "Limerick, County Limerick, Ireland",
+  "long_description": "Inconvo is the open-source platform for building data agents on production data. With safe queries, permissions, and structured outputs.\r\n\r\nUse Inconvo to build and deploy data agents that query production databases and can be called directly from your application. You get safe query execution, permissions, stateful conversations, and observability out of the box.",
+  "one_liner": "Build chat-with-data agents for customer-facing applications",
+  "team_size": 2,
+  "industry": "B2B",
+  "subindustry": "B2B -> Engineering, Product and Design",
+  "launched_at": 1690946743,
+  "tags": [
+    "Artificial Intelligence",
+    "Developer Tools",
+    "Analytics",
+    "API"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Summer 2023",
+  "status": "Active",
+  "industries": [
+    "B2B",
+    "Engineering, Product and Design"
+  ],
+  "regions": [
+    "Ireland",
+    "Europe"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/inconvo",
+  "api": "https://devasheeshg.github.io/yc-api/batches/summer-2023/inconvo.json",
+  "year_founded": 2023,
+  "city": "Limerick",
+  "country": "IE",
+  "linkedin_url": "https://www.linkedin.com/company/inconvoai",
+  "x_url": "",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/42126d50fed615bc74167d22b4985b25e9d25fad.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": null,
+  "founders": [
+    {
+      "user_id": 1151062,
+      "full_name": "Eoghan Mulcahy",
+      "title": "Founder",
+      "founder_bio": "Co-founder of Inconvo ",
+      "is_active": true,
+      "linkedin_url": "https://linkedin.com/in/eoghan-mulcahy",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/7ff19867067d1703d0f567694ee725542cc8d350.jpg"
+    },
+    {
+      "user_id": 1153587,
+      "full_name": "Liam Mulcahy",
+      "title": "Founder",
+      "founder_bio": "Co-founder",
+      "is_active": true,
+      "linkedin_url": "https://linkedin.com/in/liam-mulcahy-418001174",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/8dc7299a418449aab17f1a5f3571248e5e83d537.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 97668,
+      "title": "📶 Inconvo: Open source AI agent for customer-facing chat-with-data",
+      "tagline": "The easiest way to add reliable chat-with-data to your product",
+      "body": "# TLDR;\n\nInconvo helps companies add chat-with-data agents to their product. We provide a platform for configuring agent rules and directions and a simple API endpoint to call them. We’re open source — check out our repository [here](https://github.com/inconvoai/inconvo). We also offer Inconvo cloud — check it out at [app.inconvo.ai](https://app.inconvo.ai)\n\n[**https://www.youtube.com/watch?v=sbDTAbVG-WQ**](https://www.youtube.com/watch?v=sbDTAbVG-WQ)\n\n# The problem:\n\nToday, many product teams are under pressure to add “data agents” to their apps that connect to live databases and answer user questions.\n\nChat-with-data demos are easy. Shipping one to real customers is hard.\n\nMost teams start with “LLM generates SQL + prompts,” then run into three issues:\n\n* **Data safety:** you can’t reliably stop the model from pulling the wrong rows, crossing tenants, or selecting sensitive columns.\n* **Business correctness:** metric definitions, allowed filters/enums, join paths, and formats get split across prompts which can confuse the model and drift over time.\n* **Boundaries:** because the model can generate arbitrary SQL, “only allow these joins/filters/columns” becomes brittle after-the-fact validation.\n\nThe result is a second system of guardrails and checks just to make it safe to ship.\n\n### The solution:\n\nInconvo flips the approach: constrain the agent up front instead of trying to rein it in after.\n\n* **A semantic model as the contract:** define approved tables/columns, metrics, filters/enums, and join paths in one place.\n* **Constrained query plans (not SQL):** the model outputs structured query plans which are validated against your semantic model before execution.\n* **Automatic access rules:** tenant scoping and field restrictions are enforced on every request with deterministic code not prompts.\n\nYou can call your data agent from your application in just a few lines of code:\n\n![uploaded image](/media/?type=post&id=97668&key=user_uploads/1151062/a427ef4c-552e-4a7e-8675-671a08023bbf)\n\n# Our ask:\n\nCheck out our repo and leave us a ⭐ on Github: [**https://github.com/inconvoai/inconvo**](https://github.com/inconvoai/inconvo)\n\nRun Inconvo OSS locally `npx inconvo@latest dev` Or sign up to our cloud for free [**https://app.inconvo.ai**](https://app.inconvo.ai)",
+      "url": "https://www.ycombinator.com/launches/PPI-inconvo-open-source-ai-agent-for-customer-facing-chat-with-data",
+      "votes": 6,
+      "created_at": "2026-02-10T17:40:07.857Z"
+    },
+    {
+      "id": 94541,
+      "title": "Inconvo ⚟: Build MCP servers for SaaS customers",
+      "tagline": "Make your existing data ready for AI apps like ChatGPT to use — quickly and securely.",
+      "body": "# **TL;DR**\n\nConnect your existing database + auth provider and launch an MCP server for your customers in a few minutes.\n\n[Watch me ship an MCP server and connect it to ChatGPT in 2.5 minutes](https://www.youtube.com/watch?v=4G41AQJZMO0)\n\n# The Problem\n\nA few days ago OpenAI announced Apps for ChatGPT — a new generation of apps you can chat with, right inside ChatGPT.\n\n**An MCP server is the foundation of every Apps SDK integration**. It exposes tools that the model can call, enforces authentication, and packages the structured data plus component HTML that the ChatGPT client renders inline.\n\nYou can build an MCP server in one of two ways:\n\nA)\n\n_Load all of your API endpoints into the MCP server as tools and have the client decide which aggregation of tools it should use to fulfil user requests._\n\nThis approach **works well if you already have a highly composable API** designed for data analysis — concretely the API expresses any combination of filters, sorts, and transformations in a structured way.\n\nHowever, most SaaS APIs are designed for record management, not data analysis or flexible retrieval. These APIs break down when presented with the wide array of potential user queries which come with a natural language input.\n\nB)\n\n_Build an AI agent attached to your database which takes in natural language and dynamically generates queries based on the input  — then attach the agent to your MCP as a tool._\n\nThis is **hard to build** because you need to handle conversation state, schema introspection, agent observability, multi-tenancy and query safety.\n\n**Luckily, with Inconvo we offer AI data agents as a service so you don’t need to worry about any of that.**\n\nOverall option B outperforms option A in power and flexibility, while eliminating the need for new API endpoints as user input cases grow.\n\n# Our Solution\n\n![uploaded image](/media/?type=post&id=94541&key=user_uploads/1151062/8f7eac8d-448f-4808-b34b-e3c7d0158a4f)\n\nWith Inconvo you can build a powerful AI agent for data analysis on top of your database and make it available to your users in your own app or the AI apps they already use like ChatGPT.\n\n### How it works\n\n1) Connect your existing database\n\n2) Link your existing authentication and set user data permissions scopes\n\n![uploaded image](/media/?type=post&id=94541&key=user_uploads/1151062/9e056431-135c-4066-b637-5f48d58cd1db)\n\n3) Launch a remote authenticated MCP server in a few clicks, which can be linked easily by your users to ChatGPT etc.\n\n![uploaded image](/media/?type=post&id=94541&key=user_uploads/1151062/0a85474a-2589-4033-afab-f8920ed79b61)\n\n### Inconvo handles the Details\n\nWe give you agent traces and logs for out of the box observability\n\n![uploaded image](/media/?type=post&id=94541&key=user_uploads/1151062/33078fb7-d7bf-43ea-9da1-bd7af1651e73)\n\nAnd a semantic layer so you can improve the data agents performance through context engineering without needing to write any extra code.\n\n![uploaded image](/media/?type=post&id=94541&key=user_uploads/1151062/19a1ea68-0999-4876-8cdb-8992d9bce1e7)\n\n\n# Ready to ship MCP servers for your customers?\n\nYou can **try inconvo today for free** by visiting [**https://inconvo.com**](https://inconvo.com) and creating an account.\n\nOr book a call: [**https://inconvo.com/demo**](https://inconvo.com/demo)",
+      "url": "https://www.ycombinator.com/launches/Oar-inconvo-build-mcp-servers-for-saas-customers",
+      "votes": 10,
+      "created_at": "2025-10-09T21:24:28.025Z"
+    },
+    {
+      "id": 93332,
+      "title": "Inconvo: AI agents for customer-facing analytics",
+      "tagline": "Build ChatGPT-style analytics into your product",
+      "body": "# **TL;DR:**\n\nInconvo makes it easy to build and deploy AI analytics agents into your SaaS products, so your customers can quickly interact with their data.\n\n# **Problem**\n\nSaaS products typically offer dashboards and reports, which work for high-level metrics but are clunky for drill-downs and slow for ad-hoc questions. \n\nModern users, shaped by tools like ChatGPT, now expect a similar degree of speed and flexibility when getting insights from their data. \n\nTo meet these expectations, you need to ship an AI analytics agent, but these are painful to develop and manage.\n\n# **Solution**\n\nInconvo is a platform built from the ground up for developers building AI agents for customer-facing analytics.\n\nWe make it simple for agents to access data by connecting to SQL databases.\n\n![uploaded image](/media/?type=post&id=93332&key=user_uploads/1151062/a56e965c-a51e-42ad-b63b-a8cdae08d317)\n\nWe provide a semantic model to create a layer that governs data access and defines business logic.\n\n![uploaded image](/media/?type=post&id=93332&key=user_uploads/1151062/8f7567c1-2926-4a1d-915d-5fb52444a9a6)\n\nWe support multi tenant databases by scoping the data an agent can see to specific tenants on a conversation basis.\n\n![uploaded image](/media/?type=post&id=93332&key=user_uploads/1151062/1ddec989-a3aa-4e3e-b2dd-0cc525fdc80b)\n\nWe offer a chat playground making it easy to test agents offline.\n\n![uploaded image](/media/?type=post&id=93332&key=user_uploads/1151062/edfcd6cf-e3b6-4157-9acf-6949259e1f6b)\n\nWe expose a developer-friendly API for easy integration and conversation logs to track user interactions. For observability we show a trace for each agent response, making agent behaviour easily debuggable.\n\n![uploaded image](/media/?type=post&id=93332&key=user_uploads/1151062/bd2f2ae8-a30f-4131-bb89-eac30a0a5821)\n\nHere’s a deeper dive demo video for interested developers showing how we create and call an agent via the API in \\~5 minutes.\n\nhttps://youtu.be/4wlZL3XGWTQ\n\n# Ask\n\nIf this problem is one you face, try us out!\n\n[Book a demo](https://inconvo.com/demo) or [Sign up for free](https://auth.inconvo.ai/en/signup).\n\n![uploaded image](/media/?type=post&id=93332&key=user_uploads/1151062/14c14e6a-af3a-4ebf-a99f-79829304ec03)\n\n",
+      "url": "https://www.ycombinator.com/launches/OHM-inconvo-ai-agents-for-customer-facing-analytics",
+      "votes": 8,
+      "created_at": "2025-08-26T14:03:59.256Z"
+    },
+    {
+      "id": 88017,
+      "title": "Inconvo: Ask-AI for customer-facing analytics",
+      "tagline": "Build an AI-first analytics experience your users will obsess over.",
+      "body": "# **TLDR;**\n\nInconvo **makes it easy for developers to add Ask AI for customer-facing analytics** so that users can ask questions on their data in natural language. \n\n[Watch our demo!](https://youtu.be/1kpS48ifOAY)\n\nWith Inconvo, shipping AI-first analytics is easy. Just send a user question to our API, and it will respond with a chart, table, or text.\n\n# **The Problem**\n\n**Ask-AI for customer-facing analytics should deliver on its promise of being intelligent**, capable of answering dynamic user questions and not limited to a set of basic canned prompts.\n\nBut, **building genuinely intelligent Ask-AI for customer-facing analytics is hard.**\n\nYou need…\n\n**An AI Agent** to dynamically retrieve relevant data that:\n\n* Automatically connects to your database.\n* Intelligently queries, joins, filters, and transforms data based on user questions.\n* Responds with answers in human-readable formats (text, chart, table).\n\n![uploaded image](/media/?type=post&id=88017&key=user_uploads/1151062/2afe2960-8150-4296-95e6-9c522ac7381d)\n\n**AI Evaluations** to measure you agent’s performance before and after deployment that:\n\n* Allows you to build a dataset of conversation-answer pairs for evaluation.\n* Assess your agent's ability to answer these evaluation pairs.\n\n![uploaded image](/media/?type=post&id=88017&key=user_uploads/1151062/0dec4f67-821f-46b1-af8a-bad3d9896a5a)\n\n**A Semantic Layer** to ensure accurate data retrieval that:\n\n* Maps user terminology to database field names.\n* Facilitates the creation of computed fields and alternative field labels.\n\n**Data Access Control** to restrict your AI agent’s database access that:\n\n* Allows you to turn off access to whole tables or individual columns.\n* Allows you to set if a table can be queried directly or only joined into.\n\n![uploaded image](/media/?type=post&id=88017&key=user_uploads/1151062/1b92ea04-f968-4ecb-b419-9495ae2b328b)\n\n**Multi-tenancy support to** ensure results are scoped to the requestor’s access that is:\n\n* Configurable on a per-request basis.\n* Defined by you based on your existing data structures.\n\n# **Our Solution**\n\n**Inconvo provides a single API call to power genuinely intelligent Ask AI for customer-facing analytics.**\n\n![uploaded image](/media/?type=post&id=88017&key=user_uploads/1151062/50ba0c22-7d2e-4ff4-bd4f-8ff457adb212)\n\nBehind [this API call](https://inconvo.ai/docs/api-reference/ask), Inconvo handles all the hard problems of Ask AI for customer-facing analytics.\n\n[Inconvo connects to your database](https://inconvo.ai/docs/guides/connect/) to automatically retrieve the right data to answer your users’ questions. Then, you’re in charge of presenting the API responses to your users in a way that fits your design.\n\n![uploaded image](/media/?type=post&id=88017&key=user_uploads/1151062/d9f04fae-8c25-4146-b940-f012a65b890c)\n\n**Inconvo is purpose-built to overcome the challenges of Ask-AI for customer-facing analytics**, providing tools that handle multi-tenancy, database access control, [AI evaluation](https://inconvo.ai/docs/guides/evaluate/), and a semantic layer.\n\n# **Our Asks**\n\n**Share** - talk to your friends and colleagues about Inconvo.\n\n**Connect** - ping [eoghan@inconvo.ai](mailto:eoghan@inconvo.ai) if you want to chat more or make an intro.\n\n**Engage** - [book a demo call](https://inconvo.ai/request-demo).",
+      "url": "https://www.ycombinator.com/launches/Mtd-inconvo-ask-ai-for-customer-facing-analytics",
+      "votes": 39,
+      "created_at": "2025-02-25T17:26:15.958Z"
+    }
+  ]
+}

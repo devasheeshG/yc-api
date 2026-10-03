@@ -1,0 +1,166 @@
+{
+  "id": 29120,
+  "name": "Morph",
+  "slug": "morph",
+  "former_names": [
+    "AutoInfra",
+    "Lingtual",
+    "innkeeper"
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/dedc5ca68422aae62a4f58f3a0823d0903b71997.png",
+  "website": "https://morphllm.com",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "Specialized inference, built for agent workloads\r\n\r\nFast Open-Source models: Kimi k3, Deepseek v4 flash, qwen 397b, at 200+ tps\r\nSpecialized models for applying edits, code search, compaction, and model routing",
+  "one_liner": "Fast Models Optimized for Coding Agents",
+  "team_size": 3,
+  "industry": "B2B",
+  "subindustry": "B2B -> Infrastructure",
+  "launched_at": 1686706939,
+  "tags": [
+    "Artificial Intelligence",
+    "Developer Tools",
+    "Generative AI",
+    "API",
+    "AI"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": true,
+  "nonprofit": false,
+  "batch": "Summer 2023",
+  "status": "Active",
+  "industries": [
+    "B2B",
+    "Infrastructure"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada",
+    "Remote",
+    "Partly Remote"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/morph",
+  "api": "https://devasheeshg.github.io/yc-api/batches/summer-2023/morph.json",
+  "year_founded": 2025,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/morphllm",
+  "x_url": "https://twitter.com/morphllm",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/dedc5ca68422aae62a4f58f3a0823d0903b71997.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Tom Blomfield",
+    "url": "https://www.ycombinator.com/people/tom-blomfield"
+  },
+  "founders": [
+    {
+      "user_id": 405977,
+      "full_name": "Tejas Bhakta",
+      "title": "Founder",
+      "founder_bio": "inference thats optimized for agents",
+      "is_active": true,
+      "linkedin_url": "https://linkedin.com/in/tejas-bhakta",
+      "x_url": "https://twitter.com/tejasybhakta",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/c6f50e938c0f7e3a90a8e68bbcc0f5d615160f77.jpg"
+    }
+  ],
+  "jobs": [
+    {
+      "id": 81462,
+      "title": "Founding Account Executive",
+      "url": "https://www.ycombinator.com/companies/morph/jobs/PSesvJB-founding-account-executive",
+      "location": "San Francisco, CA, US",
+      "type": "Full-time",
+      "role": "Sales",
+      "role_type": null,
+      "salary_range": "$80K - $140K",
+      "equity_range": "0.50%",
+      "experience": "1+ years",
+      "visa": "US citizen/visa only",
+      "skills": [
+        "Growth design"
+      ]
+    },
+    {
+      "id": 102427,
+      "title": "Member of Technical Staff",
+      "url": "https://www.ycombinator.com/companies/morph/jobs/0Z8vI3K-member-of-technical-staff",
+      "location": "San Francisco, CA, US",
+      "type": "Full-time",
+      "role": "Engineering",
+      "role_type": "Machine learning",
+      "salary_range": "$180K - $350K",
+      "equity_range": "0.40%",
+      "experience": "6+ years",
+      "visa": "US citizen/visa only",
+      "skills": []
+    }
+  ],
+  "news": [],
+  "launches": [
+    {
+      "id": 108269,
+      "title": "Kimi K3 on Morph: near-Fable performance at 1/5 the cost",
+      "tagline": "Live on OpenRouter and Vercel's AI Gateway",
+      "body": "Kimi K3 is now live on Morph.\n\n![uploaded image](/media/?type=post&id=108269&key=user_uploads/405977/9bf53656-3db4-42fe-92a9-48a4a412df40)\n\nMost open-weight models look promising in benchmarks, then fall apart in production: unreliable tool calls, weak long-context performance, or inconsistent outputs.\n\nGLM-5.2 and Kimi K3 are the first two I’ve tested that feel genuinely production-ready.\n\nIn our benchmarks, Kimi K3 approaches Fable-level performance at roughly half the cost of Opus. On Morph, it comes with:\n\n* 1M-token context\n* 90–200 output tokens/sec\n* Tool calling and structured outputs\n* OpenAI- and Anthropic-compatible APIs\n\nWe want to see how it performs on real workloads, not toy demos.\n\nIf you currently run Anthropic or OpenAI models in production, we’ll cover the cost of routing 5% of your production traffic to Kimi K3. Compare quality, latency, and cost against your existing model with minimal integration work.\n\nWe’d love brutally honest feedback: where it works, where it breaks, and what it would take for you to route more traffic to it.\n\nTry it here: <https://docs.morphllm.com/sdk/components/fast-models>\n\nComment or DM me if you want us to fund your production test.\n\n![uploaded image](/media/?type=post&id=108269&key=user_uploads/405977/cd809dfe-c7e5-406f-9707-f7c250c7113a)\n\n",
+      "url": "https://www.ycombinator.com/launches/SAH-kimi-k3-on-morph-near-fable-performance-at-1-5-the-cost",
+      "votes": 2,
+      "created_at": "2026-07-29T06:05:58.276Z"
+    },
+    {
+      "id": 104095,
+      "title": "Reflexes API: Catch what agent logs miss",
+      "tagline": "Most Agent failures are behavioral. Catch them at scale ",
+      "body": "Behavioral observability for AI agents, built and priced to run on millions of production turns.\n\nMost agent failures don’t show up as errors.\n\n![uploaded image](/media/?type=post&id=104095&key=user_uploads/405977/00b2cef4-ce0d-4a93-a145-0209d28eb3a6)\n\n\nThe API returns 200.\\\nThe tool call succeeded.\n\nBut the agent is looping. The user is frustrated. A jailbreak slipped through. The answer technically completed, but the experience failed.\n\nThat is the problem Reflexes solves.\n\nReflexes are fast classifiers that run on every turn of every agent conversation and catch the behavioral signals normal observability misses:\n\n* user frustration\n* infinite loops\n* jailbreak attempts\n* refusals\n* hallucinations\n* task failures\n* policy violations\n* custom signals specific to your product\n\nTraditional observability tells you when software breaks. Reflexes tells you when the agent experience breaks.\n\nThe reason this has not worked before is cost and latency. Frontier-model LLM-as-judge is fine for offline evals, but it is too slow and expensive to run across production traffic.\n\nReflexes are built and priced to run at scale: millions of turns, inline, across 100% of production conversations.\n\nUnder the hood, Reflexes uses a shared backbone with many small heads, so multiple behavioral signals can run on the same conversation without multiplying latency or cost.\n\nYou can use our default reflexes out of the box, or train a custom reflex for the failure modes that matter to your agent.\n\nWe built this after working with production agent teams and seeing the same pattern repeatedly: agents usually fail long before they throw an error.\n\nThey fail in the behavior.\n\nTry Reflexes: <https://www.morphllm.com/products/reflex>",
+      "url": "https://www.ycombinator.com/launches/R4x-reflexes-api-catch-what-agent-logs-miss",
+      "votes": 5,
+      "created_at": "2026-06-27T14:31:15.899Z"
+    },
+    {
+      "id": 98898,
+      "title": "FlashCompact: A specialized model for context compaction",
+      "tagline": "33k tok/sec context compaction for coding agents",
+      "body": "We built **FlashCompact** because context compaction is one of the most broken parts of modern coding agents.\n\nRight now, compaction is:\n\n* slow (often 2+ minutes)\n* lossy (kills useful context)\n* expensive (wastes tokens and steps)\n\nSo people avoid it… and agents degrade over time.\n\n---\n\n![uploaded image](/media/?type=post&id=98898&key=user_uploads/405977/77e4cb4f-c326-4f2b-8602-2aca1e0fa9c3)\n\n\n### What we built\n\nA **specialized model for context compaction**:\n\n* **33,000 tokens/sec throughput**\n* **200k → 50k tokens in \\~1.5s**\n* Designed specifically for agent workflows, not general summarization\n\nCompaction should feel invisible. This actually does.\n\n---\n\n### Why this matters\n\nWe analyzed **200+ real agent sessions** across **40+ top coding agent harnesses**.\n\nThe core insight:\n\n> Most context bloat comes from tool responses, not model generation.\n\nThat means naive summarization fails, because it compresses the wrong things.\n\nFlashCompact:\n\n* removes redundant tool output\n* preserves execution-relevant state\n* reduces context without hurting task performance\n\nResult:\n\n* no performance drop\n* fewer tokens\n* fewer steps\n\n---\n\n### The deeper point\n\nAgents don’t fail because models are weak.\n\nThey fail because their **context degrades over time**.\n\nIf you want agents to:\n\n* run longer\n* take more steps\n* stay coherent across complex tasks\n\nYou need **clean, compressed context**.\n\n<https://docs.morphllm.com/sdk/components/compact>",
+      "url": "https://www.ycombinator.com/launches/Pj8-flashcompact-a-specialized-model-for-context-compaction",
+      "votes": 6,
+      "created_at": "2026-03-18T14:42:28.223Z"
+    },
+    {
+      "id": 98329,
+      "title": "WarpGrep v2: Code Search Subagent -> #1 on SWE-Bench Pro",
+      "tagline": "Code search limits coding capabiltiies. Moving it out to a specialized model wins.",
+      "body": "### WarpGrep v2 is a fast code search subagent that works via parallel tool calls. Runs up to 36 grep/read tool calls in under 5s.\n\n![uploaded image](/media/?type=post&id=98329&key=user_uploads/405977/ba17c624-92ca-4502-8c56-00c22e31ad4e)\n\n### SWE-Bench Pro: WarpGrep v2\n\n#### Scores\n\n* Opus 4.6 → 55.4\n* GPT-5.3 Codex → 56.0\n* MiniMax 2.5 → 55.4\n* Opus 4.6 + WarpGrep → **57.5** (**+2.1**)\n* Codex 5.3 + WarpGrep → **59.1 (+3.1)**\n* MiniMax 2.5 + WarpGrep → **57.6** (**+3.7**)\n\n#### Efficiency\n\nTokens:\n\n* Input tokens: **\\~17% less** (Opus, Codex, MiniMax, etc..)\n* Output tokens: **13% less** (fewer turns)\n\nTurns (MiniMax):\n\n* Avg turns per task: **157 → 135**\n\nRuntime (Opus):\n\n* Opus 4.6: **518s**\n* Opus 4.6 + WarpGrep: **545s**\n* **178s saved** (**12% faster**)\n\nCost (Opus):\n\n* Opus 4.6: **$3.06**\n* Opus 4.6 + WarpGrep: **$2.51**\n* **$0.55 saved** (**15.6% cheaper**)\n\n#### TLDR\n\nWarpGrep v2 raises SWE-Bench Pro scores (**+2.1 Opus**, **+3.7 MiniMax**) while using **\\~17% fewer input tokens**, **13% fewer turns**, running **12% faster**, and costing **15.6% less**. The median WarpGrep codebase search takes 5s end to end compared to 75s for the Claude Code Explore subagent\n\nOn normal usage on production repos these numbers improve across the board \\~40% faster\n\n\\\ninstall it in your favorite coding agent here <https://www.morphllm.com/mcp>\n\nor integrate it into your product here <https://docs.morphllm.com/sdk/components/warp-grep/tool>",
+      "url": "https://www.ycombinator.com/launches/PZx-warpgrep-v2-code-search-subagent-1-on-swe-bench-pro",
+      "votes": 4,
+      "created_at": "2026-03-02T15:39:58.078Z"
+    },
+    {
+      "id": 95846,
+      "title": "WarpGrep: A 20x faster subagent to grep for code",
+      "tagline": "50% faster than Cognition's SWE-grep - improve Claude Code or Codex via MCP ",
+      "body": "**Problem**\\\nCoding agents don’t feel fast because they aren’t.\n\nIn our benchmarks, agents spend **60%+ of their time searching for the right code**, not generating any. They why they do more than you want, and break developer flow.\n\nThe bottleneck isn’t “agent intelligence.”\\\nIt’s **speed, context retrieval** and the **irrelevant code** that gets shoved into the prompt.\n\nMost agent stacks today are basically **sequential grep pipelines**:\n\n1. Ask the model where to look\n2. Call a tool\n3. Read output\n4. Repeat 10–20x\n\nIt’s slow, noisy, and compounds latency every step.\n\nWarpGrep is built to do that dirty job correctly and fast.\n\n**Our Insight**\n\n\\*\\*We value human attention.\\*\\*\\\nYou can’t build responsive coding agents until retrieval is treated as its own learning and inference optimization problem.\\\nWe optimized for a simple goal: keep both the developer and the agent inside the sub-10-second “flow window.” Anything slower and usage collapses.\n\n**What we built**\\\nWarpGrep is an RL-trained retrieval model designed specifically to be used as a tool by a coding agent. It operates under a strict budget:\n\n![uploaded image](/media/?type=post&id=95846&key=user_uploads/405977/cbc2f17d-1ff9-4d7c-bfa1-38d3d36b3ac7)\n\n* Up to eight parallel tool calls per turn (grep, glob, file read, semantic search)\n* A reward function that only cares about two things: did it fetch the correct files and did it hit the correct line ranges.\n\nWarpGrep is an expert at deciding what to grep, and what context is relevant for the task. That’s it. This combination reduces context rot by more than fifty percent in production and eliminates the “forty irrelevant files in your prompt” failure mode.\n\n**Performance**\\\nSWE-Grep runs at around 650 tokens per second on Cerebras.\\\nWarpGrep hits around 900 tokens per second on B200.\\\n\\\nWe worked closely with NVIDIA to optimize WarpGrep. CUDA gives us the stability and customization ability to push non-standard inference workloads for parallel search.\n\n![uploaded image](/media/?type=post&id=95846&key=user_uploads/405977/8e04cd3d-9646-4f25-a0f6-96d2a440471b)\n\n**RL Training**\\\nRL for MOEs is notoriously inefficient, so we built infrastructure to eliminate dead time:\n\n* Dedicated inference and training GPU pools, continuous rollout streaming to the trainer\n* Controlled policy staleness without collapsing effective sample size\n* Partial rollout interruption so slow sequences don’t stall sync\n* In-flight weight updates so vLLM workers ingest new weights mid-generation with only millisecond pauses\n\nThose optimizations delivered a 1.6 to 2.35 times training throughput boost with essentially no sample efficiency loss.\n\n**Why this matters**\\\nEvery company building coding agents is running into the same wall.\\\nOnce your agent touches a large codebase, retrieval dominates latency and derails reasoning.\\\nYou solve it by giving the agent a retrieval system that behaves like a specialist, not a bottleneck.\n\nIf you want an agent that actually performs on large codebases, doesn’t have crippling context rot, and stays within real-time latency, reach out!\n\nhttps://docs.morphllm.com/api-reference/endpoint/mcp\n\nhttps://docs.morphllm.com/sdk/components/warp-grep",
+      "url": "https://www.ycombinator.com/launches/Ovu-warpgrep-a-20x-faster-subagent-to-grep-for-code",
+      "votes": 17,
+      "created_at": "2025-11-28T19:27:09.731Z"
+    },
+    {
+      "id": 90352,
+      "title": "Morph: The \"other models\" you need to build coding agents like Cursor",
+      "tagline": "Instantly apply AI output into code and files (5000+ tok/sec). Build your own coding agents. ",
+      "body": "**TLDR: Morph: the “other models” you need to build the best coding agents like Cursor and Windsurf.**\n\n**Retrieve and rerank code, stuff context, and apply edits to files FAST. Relevant context, fast applies, every time.**\n\n**Morph Apply:** The fastest way to apply updates from Claude, GPT-4o, and others into any file - codebases, docs, etc - 5000+ tok/sec\n\n[Try API for Free →](https://morphllm.com/dashboard)\n\n![uploaded image](/media/?type=post&id=90352&key=user_uploads/405977/887a632b-bd61-4ace-9af5-d6abc166c319)\n\n> Benchmarked on a 9,000 token file, \\~2 seconds\n\n# **The Problem**\n\nThere’s no good way to apply edits that models want to make into files. Outputting the full file again is slow and expensive. Diff/Patch edits are brittle and a poor product experience.\n\nIn a production setting, AI agents need to update thousands of files. What about when you have a 50k token docx to update? Or when you need to be world-class at retrieving relevant info from a 500+ file repo?\n\n# **Solution:**\n\nMorph is the foundational infrastructure for AI Coding Agents that **_work and feel amazing_** _-_ not a quick demo.\n\n**~~Tired~~**~~: Chunked RAG and having Claude re-output full files~~\n\n**Wired**: Syntax-aware embeddings, reranking, and Fast Apply models = the perfect product experience\n\n**Cursor and Windsurf _roughly_ do this:**\n\n1. For a query, search for top-k relevant embeddings.\n2. Re-rank the corresponding content with a re-ranking model → stuff prompt using Claude/Gemini tool calls\n3. Use Claude/Gemini to generate small, focused changes\n4. Use a Fast Apply model to apply those changes back to the original file\n\n**We provide:**\n\n**Morph Apply**: _Fast Apply_ model: Merge updates from GPT-4o, Claude, and others into your files in under 2s (5000+ toks/second) \\\n**Morph Embeddings:** Syntax-aware embeddings, built for code\n\n**Morph Reranking:** Rerank functions/classes or file snippets to stuff your context with only the relevant context - every time.\n\n[Try it Now →](https://morphllm.com/dashboard)\n\n**Morph SDK:** Intelligently watch for file changes + smarter embeddings.\n\n![uploaded image](/media/?type=post&id=90352&key=user_uploads/405977/20ff3242-a426-4ec3-8c62-4e8633a5cc74)\n\n> Morph Fast Apply dropped errors by 8x vs. patch-based edits in our internal IDE and worked on our largest files - **Staff Eng @ Fortune-50**\n\nIf you’re building the Cursor for \\__\\_, or building agents that modify code:\n\nEmail us: [info@morphllm.com](mailto:info@morphllm.com)\n\n[Grab a Time Here](https://calendar.app.google/PW4nayCdGanN9iEKA)\\\nGet Started for Free: https://morphllm.com\n\n[Self Host Morph](https://morphllm.com/blog/self-hosting)",
+      "url": "https://www.ycombinator.com/launches/NVI-morph-the-other-models-you-need-to-build-coding-agents-like-cursor",
+      "votes": 31,
+      "created_at": "2025-05-13T16:56:19.950Z"
+    }
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "id": 30939,
+  "name": "Expected Parrot",
+  "slug": "expected-parrot",
+  "former_names": [
+    "Expected Parrot, Inc."
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/fb8df693185d3d01a607d26dc392fa6f5307be2a.png",
+  "website": "https://www.expectedparrot.com",
+  "all_locations": "Boston, MA, USA",
+  "long_description": "Expected Parrot helps companies simulate their customers with AI agents to explore pricing, product, marketing, communications and other scenarios at scale. Our open-source library and no-code web app let you design custom agent personas and conduct interviews and surveys with them using LLMs of your choice to generate results and reports. Everything is cached and reproducible, and you can send the same surveys to human respondents to validate results in the same interface.",
+  "one_liner": "Simulate your customers with AI agents",
+  "team_size": 5,
+  "industry": "B2B",
+  "subindustry": "B2B",
+  "launched_at": 1760614076,
+  "tags": [
+    "Generative AI",
+    "SaaS",
+    "Open Source"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Fall 2025",
+  "status": "Active",
+  "industries": [
+    "B2B"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada",
+    "Remote",
+    "Partly Remote"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/expected-parrot",
+  "api": "https://devasheeshg.github.io/yc-api/batches/fall-2025/expected-parrot.json",
+  "year_founded": 2024,
+  "city": "Boston",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/expectedparrot",
+  "x_url": "https://x.com/ExpectedParrot",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": "https://github.com/expectedparrot/edsl",
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/fb8df693185d3d01a607d26dc392fa6f5307be2a.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [
+    "https://bookface-images.s3.us-west-2.amazonaws.com/attachments/9f94adca79875ba4d2dea725280dab8492eae80c.png"
+  ],
+  "primary_partner": {
+    "name": "Pete Koomen",
+    "url": "https://www.ycombinator.com/people/pete-koomen"
+  },
+  "founders": [
+    {
+      "user_id": 696545,
+      "full_name": "Robin Horton",
+      "title": "Founder/CEO",
+      "founder_bio": "Prior to building E[P] I was as founding member of Uber's Legal Data team and spent 7 years managing cross-functional data reporting. Before joining Uber I was a tax and investment funds attorney at Ropes & Gray LLP and served as an Assistant Attorney General in Massachusetts prosecuting environmental and white collar crimes. Before law school I managed simulations contracts for Northrop Grumman. Harvard JD & Columbia BA (Math).\n\nHarvard JD, Columbia BA Math.",
+      "is_active": true,
+      "linkedin_url": "https://linkedin.com/in/robertahorton",
+      "x_url": "https://x.com/ExpectedParrot",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/3a1c76533e7aa2c5c12dbec40b19174023f4db09.jpg"
+    },
+    {
+      "user_id": 50096,
+      "full_name": "John Horton",
+      "title": "Founder/CTO",
+      "founder_bio": "Co-Founder of Expected Parrot. Professor at MIT Sloan. Economist. Former Army Officer. ",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/john-horton-48a75819/",
+      "x_url": "https://x.com/johnjhorton",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/b62d0cec76320c0a7050f9d7491a43c678e96cda.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 95172,
+      "title": "Expected Parrot: Simulate your customers with AI agents",
+      "tagline": "Meet Expected Parrot, the open-source framework for simulating your customers with AI agents.",
+      "body": "Hi everyone, we’re [Robin ](https://www.linkedin.com/in/robertahorton/)and [John](https://www.linkedin.com/in/john-horton-48a75819/), co-founders of [Expected Parrot](https://www.expectedparrot.com).\n\n**TLDR:**\n\nUser research is expensive, slow, and hard to do well. Expected Parrot makes it radically cheaper, faster and easier.\n\nWe let you simulate customers with AI agents—run surveys, test pricing, get reactions to new features—before spending money on conventional research or building the wrong thing. Our tools make it easy to optimally combine human and AI generated data to run the best possible versions of your experiments.\n\n[Expected Parrot: Simulate your customers.](https://youtu.be/wVggRUnIdnA)\n\n**How it works:**\n\nTurn your customer data into AI agent personas, then run them through surveys just like you would with real people. Get instant results you can compare directly to human responses. E\\[P\\] provides the open source tools and services to validate these simulated results to increase confidence.\n\nWe offer a web app (for PMs, designers, and researchers) and a Python library (for data scientists who want full control). Surveys are the interface—expressive, familiar, and perfect for comparing AI to real human data.\n\n**Use it for:**\n\n* Pricing strategy: simulate hundreds of variations, estimate revenue\n* Product testing: find confusion before you build\n* Message testing: iterate on positioning at machine speed\n* Policy and legal: explore stakeholder reactions to different arguments\n\n**Key features:**\n\nWe handle all the plumbing—prompt engineering, async execution, structured parsing, caching, API management. Researchers focus on questions, not debugging Python or juggling API keys. \n\nWith conventional research, you have an idea, you design a survey, launch it, wait 2 weeks and then learn you didn't quite ask the right question—and you spent several thousand dollars. With E\\[P\\], you can design a survey, generate agents, run the survey and get results in seconds.  \n\n**Traction:**\n\nWe’re working with tech companies like Upwork, a global consulting firm, and users in banking, entertainment, consumer products, government statistical agencies, and non-profits. Our open source tools are being taught in business and CS programs at many universities. \n\n**About us:**\n\n[Robin](https://www.linkedin.com/in/robertahorton/) (CEO), who led legal and regulatory data science at Uber, has seen firsthand how the right tools can unlock productivity. [John](https://www.linkedin.com/in/john-horton-48a75819/) (CTO), [a professor at MIT](https://scholar.google.com/citations?user=L_O2kH0AAAAJ&hl=en), was conducting research with his PhD students on how to use AI simulations in economics ([here](https://arxiv.org/abs/2508.17407), [here](https://arxiv.org/abs/2404.11794) and [here)](https://arxiv.org/abs/2301.07543) but found existing tools inadequate. We started building our tools because we needed them, and we started building the platform when we realized others needed them as well.\n\n**Get in touch:** [founders@expectedparrot.com](mailto:founders@expectedparrot.com) | [expectedparrot.com](http://expectedparrot.com)\n\nHere’s a quick demo of our tools:\n\n[Expected Parrot: Demo](https://youtu.be/SzhrhBZkfjo)",
+      "url": "https://www.ycombinator.com/launches/Ol2-expected-parrot-simulate-your-customers-with-ai-agents",
+      "votes": 93,
+      "created_at": "2025-11-04T22:53:55.562Z"
+    }
+  ]
+}

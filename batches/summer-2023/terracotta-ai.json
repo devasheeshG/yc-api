@@ -1,0 +1,110 @@
+{
+  "id": 29073,
+  "name": "Terracotta AI",
+  "slug": "terracotta-ai",
+  "former_names": [
+    "Monitaur",
+    "Monitaur (Pivoted)",
+    "Monitaur",
+    "OpsBerry AI (formally Monitaur)",
+    "OpsBerry AI"
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/7901d3a776bcd60d2813e642a8814ea750bb84ef.png",
+  "website": "https://tryterracotta.com",
+  "all_locations": "",
+  "long_description": "Terracotta AI is an AI-powered Infrastructure as Code PR reviewer for Terraform, OpenTofu, and CDK-TF code, making Infrastructure as Code changes more transparent, less risky, and faster.\r\n\r\nTerracotta stops your Infrastructure as Code deployments from becoming ticking time bombs every time you modify your environment with AI-driven, contextual feedback delivered directly to your pull requests.",
+  "one_liner": "AI-powered Infrastructure as Code PR reviews",
+  "team_size": 3,
+  "industry": "B2B",
+  "subindustry": "B2B -> Infrastructure",
+  "launched_at": 1686680826,
+  "tags": [
+    "Artificial Intelligence",
+    "Developer Tools",
+    "DevOps",
+    "Infrastructure"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Summer 2023",
+  "status": "Active",
+  "industries": [
+    "B2B",
+    "Infrastructure"
+  ],
+  "regions": [
+    "Remote",
+    "Partly Remote"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/terracotta-ai",
+  "api": "https://devasheeshg.github.io/yc-api/batches/summer-2023/terracotta-ai.json",
+  "year_founded": 2023,
+  "city": null,
+  "country": null,
+  "linkedin_url": "https://www.linkedin.com/company/tryterracotta",
+  "x_url": "https://x.com/tryterracotta",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": "https://github.com/enfraxyz",
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/7901d3a776bcd60d2813e642a8814ea750bb84ef.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [
+    "https://bookface-images.s3.us-west-2.amazonaws.com/attachments/eabe482f39bc0afc6cc8d9d7d476984b577f043f.png"
+  ],
+  "primary_partner": {
+    "name": "Garry Tan",
+    "url": "https://www.ycombinator.com/people/garry-tan"
+  },
+  "founders": [
+    {
+      "user_id": 925045,
+      "full_name": "Carlos Feliciano",
+      "title": "Founder",
+      "founder_bio": "Co-founder and CEO of Terracotta AI. Over a decade of experience in Infrastructure, monitoring, and operations at YC-backed startups and large enterprises. AWS Solutions Architect. Love PC gaming, fitness, the beach, and just good vibes!",
+      "is_active": true,
+      "linkedin_url": "https://linkedin.com/in/carlosfelicianoii",
+      "x_url": "https://twitter.com/gtlpanda",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/eeaf8878cafd92cf0af4729b52597c4c0f51b0a8.jpg"
+    },
+    {
+      "user_id": 539652,
+      "full_name": "Casey Wilcox",
+      "title": "Founder",
+      "founder_bio": "Co-founder and CTO of Terracotta AI. Building and programming for over a decade with experience in design and sales. ",
+      "is_active": true,
+      "linkedin_url": "https://linkedin.com/in/caseyatdash",
+      "x_url": "https://twitter.com/ioscasey",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/86c29171fe4871ba34126f17bcf0c69710b9a66c.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 91358,
+      "title": "Terracotta AI - AI agents for Infrastructure as Code workflows",
+      "tagline": "Intelligent preflight checks for your Infrastructure as Code workflows inside of your PR",
+      "body": "# **tl;dr**\n\nPlatform and DevOps teams are still catching Terraform issues after they break production. Terracotta AI brings AI-powered review directly into PRs, analyzing your code, state, and live cloud resources to prevent problems before any workflow triggers.\n\n**Try Terracotta AI for free at [https://tryterracotta.com](https://tryterracotta.com)!**\n\nhttps://www.youtube.com/watch?v=QyzyiJVeZqU\n\nhttps://www.youtube.com/watch?v=GuSfvcYllZo&t\n\n# **Problem**\n\nEven the simplest Terraform changes can break production in unexpected ways and can take a significant amount of time to debug and fix.\n\nPlatform teams have developed sophisticated DevOps practices, including module catalogs, compliance policies, and continuous integration/continuous delivery (CI/CD) pipelines.\n\nHowever, even with senior engineers reviewing pull requests (PRs), critical issues still slip through, including drift conflicts, hidden dependencies, and blast radius across services that you didn't know were connected.\n\nThe problem isn't a lack of processes. It's that humans can't consistently analyze Terraform changes against live cloud state, remote state, and downstream dependencies simultaneously. Traditional tools catch problems after the PR is approved or deployed, not before.\n\n# **Solution**\n\n![uploaded image](/media/?type=post&id=91358&key=user_uploads/925045/89ae62a4-eb80-4d9e-95d5-e2af0684740a)\n\nWe created a purpose-built AI agent for Infrastructure as Code (IaC) workflows that seamlessly integrates into your IaC pipeline, contextualizing and providing real-time feedback directly within your pull requests.\n\nTerracotta AI analyzes every Terraform change against the most critical contexts in your IaC deployment pipeline and provides accurate, contextual, actionable feedback inside of your PR:\n\n* **Your IaC code** — syntax, structure, linting, and more\n* **Local plan state** — what Terraform thinks will happen\n* **Live remote state** — What should be deployed\n* **Live cloud resources** — what actually is deployed\n\nWe instantly surface the issues that break production:\n\n* Drift and state mismatches\n* Threat vectors and misconfigurations\n* Hidden blast radius and downstream risk\n* Cost anomalies and compliance violations\n* Cross-PR conflicts for resource modifications\n\nEverything happens as soon as the PR opens, before any CI/CD workflow triggers, and serves as an early detection system for hidden risks and issues that might enter your production environment.\n\n# **Traction**\n\nWe're working with platform engineering and DevOps teams at SupportLogic, LaminatedLabs, and others who are catching issues they would have missed and deploying with confidence rather than crossing their fingers.\n\n\"Terracotta has helped my DevOps team ship Terraform faster and with more clarity. It catches cost impacts, exposed secrets, potential threat vectors, and even cross-PR conflicts before we trigger our CI/CD pipelines. It's been a huge win for both speed and compliance and an overall boost in confidence in helping manage Terraform across all our environments.\" - **Tyler Pinckard - Head of Software Engineering, DevOps & Security at SupportLogic**\n\n**SupportLogic Case study:** https://tryterracotta.com/case-study/supportlogic\n\n# **Our ask**\n\nIf your team is tired of Terraform, OpenTofu, and CDK-TF surprises in production, let's show you a 15-minute demo or sign up for a free 14 day trial at https://tryterracotta.com.\n\nEmail us: [founders@tryterracotta.com](mailto:founders@tryterracotta.com)",
+      "url": "https://www.ycombinator.com/launches/NlW-terracotta-ai-ai-agents-for-infrastructure-as-code-workflows",
+      "votes": 16,
+      "created_at": "2025-06-16T22:20:23.169Z"
+    },
+    {
+      "id": 82694,
+      "title": "OpsBerry AI - Secure your identity sprawl",
+      "tagline": "Defending against identity-driven breaches with AI. ",
+      "body": "![uploaded image](/media/?type=post&id=82694&key=user_uploads/925045/926203d7-e2a0-45cd-b97b-d38419a524b4)\n\n**TL; DR** —[OpsBerry AI](https://d2lssd04.na1.hs-sales-engage.com/Ctc/ZW+23284/d2LsSd04/Jks2-6qcW69sMD-6lZ3lyVmsNqH4X0sgdW5TPVYB7bLMr0W6gCpW-7YVgsNW1bvyKV6VTFTXVcRKMB84G-_WW68Bq2C90_lXpW6_BGLs6C_-0yW4lQkxg4FflCWW8rtXpw1ppdmgW2NfKVX6P8tfhW5nXNYm10nsb3W4lyMqq6LVSVZV_cQzJ8LnY0rW5Vt27w62FFv5W2Q4pWc4Z67KLW3kFQKk6ZC34bW68q3RQ3jfwPVW1ztCL98bbKldW685KMM36rzGDW8SMnJ02zDZD_f5nZ8xj04) is an Identity Security Posture Management Platform that uses AI trained with the latest cybersecurity and compliance frameworks to help organizations proactively control, secure, and defend their human and non-human identity sprawl against identity-driven attacks. We help security and engineering teams quickly unify, analyze, and remediate critical vulnerabilities in their identity sprawl into a single pane of glass across central cloud, identity, and ZeroTrust providers.\n\n# **The team**\n\n![uploaded image](/media/?type=post&id=82694&key=user_uploads/925045/f8edf5e2-f5ee-4acb-8df8-3284f47601f0)\n\n[**Carlos**](https://www.linkedin.com/in/carlosfelicianoii/) is the company's CEO. He handles the business end, infrastructure, security, architecture, and technical operations. He has over 15 years of experience in Cloud infrastructure, architecture, and observability. Before Y Combinator, Carlos was Director of Solutions Architecture and technical customer success at [OpsRamp](https://opsramp.com), multi-cloud and hybrid observability, and ITSM (acq. by HPE), helping enterprises like Micron, Dolby, Epsilon, and others architect end-to-end observability across their multi-cloud environments. Before that, Carlos was an engineering and technical support manager for [LogDNA](https://mezmo.com) (YC S15).\n\n[**Casey**](https://buildspace.so/) is the company's CTO. With over 16 years of experience architecting and shipping code for his business ventures, Casey started by building and selling Runescape bots when he was 12. This eventually led him into various software engineering roles at YC-backed startups like [Buildspace](https://buildspace.so) and Farmstead. Casey runs the product side of the house, handling UIUX design, software architecture, and development, and ultimately, shipping amazing enterprise code.\n\n# **What is causing the rapid increase in identity-driven breaches and why?**\n\nIdentity security is often overlooked and underestimated, leaving organizations vulnerable to unauthorized access, data breaches, and compliance failures. User-based identities are steadily growing annually at a 30% rate, with most employees having two or more identities that allow access to critical business and engineering systems, which is only part of it. NHIs, or Non-Human identities (think OAuth apps, API keys, Service Accounts, etc.), are increasing even faster at 50%, or said otherwise, four or more NHIs per every employee.\n\nIn 2023 alone, 84% of organizations suffered at least one identity-based attack, which averaged $4.5 million in cost. The number of breaches has grown at a steady 50% yearly since 2020 (Source: ISDA). That's not all; unrealized fallout from these breaches after the fact tends to include legal repercussions, loss of customers, increased security costs, higher insurance premiums, reputational repair, loss of intellectual property, and more.\n\n![](https://www.idtheftcenter.org/wp-content/uploads/2024/01/ITRC-DataBreachReport-2023-Infographic-H-1024x791.jpg.webp)\n\nUser identities are only one attack vector in your identity security posture; machine-based identities like API keys, OAuth apps, service identities, and other NHIs are critical attack vectors for businesses. Partially offboarded identities, orphaned human and non-human identities, identity privilege creep, overprivileged access, and shadow accounts that fly under the radar, like non-sso access, gen-AI tools, and other IT internal systems, eventually snowball out of control and exponentially increase the potential for identity-driven breaches across critical engineering and business environments.\n\nFor businesses struggling to maintain compliance and adhere to regulatory requirements, these unchecked identity issues lead to significant compliance and regulatory problems. Organizations face increased risks of failing audits, substantial fines, and even reputational damage due to their inability to manage and secure their identity sprawl effectively.\n\n# **How does OpsBerry solve this with AI?**\n\nOpsBerry AI defends against human and non-human identity breaches using AI to continuously discover, prioritize, and remediate vulnerabilities and risks in your identity sprawl. Our AI-powered identity security posture management platform, trained with popular cyber security and compliance frameworks, provides comprehensive visibility and contextualization across your user accounts, service accounts, API keys, OAuth apps, and more, keeping your organization safe from identity-driven attacks.\n\n# **How it works**\n\n![uploaded image](/media/?type=post&id=82694&key=user_uploads/925045/41846940-aa9e-44ae-948b-39ed31b48d7a)\n\n👀 **Automated Identity risk assessments**—We automatically gather all information about each identity and generate in-depth risk assessments with AI, instantly surfacing gaps, vulnerabilities, and threats.\n\n![uploaded image](/media/?type=post&id=82694&key=user_uploads/925045/019721bf-ba26-4e5d-abd6-af44511dabae)\n\n👥 **Shadow identities**—let AI surface the identities that hide in the shadows and quickly identify “unknown unknown” identity risks in your identity secure posture. Quickly surface and remediate shadow accounts across human and non-human identities, such as non-sso user accounts, API Keys and tokens, service accounts, orphaned identities, unmonitored privileged accounts, and more. This is the quickest way to transform hidden risks into strategic cost savings.\n\n![uploaded image](/media/?type=post&id=82694&key=user_uploads/925045/ecaaaa23-83bd-40d6-9f1e-d2c3a169e380)\n\n**🌱 Lifecycle management and remediation** are the easiest ways to control and secure your human and non-human identity posture. Drop-and-drop no-code automation lets you build streamlined self-service workflows to quickly onboard and offboard identities, remediate risks, and defend against identity-driven breaches.\n\nAnd much more in the works!\n\n![uploaded image](/media/?type=post&id=82694&key=user_uploads/925045/968ba4e4-c7d3-4379-b992-3f6781f46563)\n\n![uploaded image](/media/?type=post&id=82694&key=user_uploads/925045/dda6bfd7-7e40-42e1-aca1-1c14c25ec780)\n\n![uploaded image](/media/?type=post&id=82694&key=user_uploads/925045/119b7479-a979-48a4-ac8b-2d3b7c3a0fb0)\n\n# **Our ask**\n\nNeed help wrangle your identity sprawl with an identity security platform that’s like having your very own in-house identity security expert? We’d love to work with you!\n\nRegardless of your company size, industry, or role, if you’re serious about protecting against identity breaches and want to take real control of your identity sprawl, we’d love to chat and show you a demo! Email [carlos@opsberry.ai,](mailto:carlos@opsberry.ai) or you can even set a time on our [Calendly](https://calendly.com/opsberry/opsberry).\n\n# Socials\n\n[OpsBerry AI (Y S23)](https://opsberry.ai)\n\n[X](https://x.com/opsberryai)\n\n[Linkedin](https://www.linkedin.com/company/opsberryai)",
+      "url": "https://www.ycombinator.com/launches/LVm-opsberry-ai-secure-your-identity-sprawl",
+      "votes": 34,
+      "created_at": "2024-08-02T19:49:51.530Z"
+    }
+  ]
+}

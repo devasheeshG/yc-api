@@ -1,0 +1,111 @@
+{
+  "id": 28998,
+  "name": "Automorphic",
+  "slug": "automorphic",
+  "former_names": [
+    "Sibyl"
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/6632890863ba8f97b3c98f84ce71158a24887e9a.png",
+  "website": "https://automorphic.ai/",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "Automorphic has invented a way to infuse knowledge into LLMs via fine-tuning (surpassing context window limitations), enabling developers to rapidly iterate on and successively improve custom models cheaply and efficiently.",
+  "one_liner": "Infuse knowledge into language models with just 10 samples",
+  "team_size": 3,
+  "industry": "B2B",
+  "subindustry": "B2B",
+  "launched_at": 1691588844,
+  "tags": [
+    "AIOps",
+    "Deep Learning",
+    "Developer Tools",
+    "Infrastructure",
+    "AI"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Summer 2023",
+  "status": "Active",
+  "industries": [
+    "B2B"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/automorphic",
+  "api": "https://devasheeshg.github.io/yc-api/batches/summer-2023/automorphic.json",
+  "year_founded": 2023,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/automorphic",
+  "x_url": "https://twitter.com/AutomorphicAI",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": "https://github.com/automorphic-ai",
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/6632890863ba8f97b3c98f84ce71158a24887e9a.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Harj Taggar",
+    "url": "https://www.ycombinator.com/people/harj-taggar"
+  },
+  "founders": [
+    {
+      "user_id": 1146368,
+      "full_name": "Govind Gnanakumar",
+      "title": "Founder",
+      "founder_bio": "Often running away from robots (that I created). Building the next generation of artifical narrow intelligence.",
+      "is_active": true,
+      "linkedin_url": "https://linkedin.com/in/govind-gnanakumar",
+      "x_url": "https://twitter.com/sandkoan",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/2f073adeb6c9ba6591e097d17f81f051d0ae71ff.jpg"
+    },
+    {
+      "user_id": 1381983,
+      "full_name": "Maaher Gandhi",
+      "title": "Founder",
+      "founder_bio": "When not working on Automorphic, I'm building AI to beat me at chess",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/maaher-gandhi-31b40928b",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/38c64b0f499364e92826147408ed30c847ad9260.jpg"
+    },
+    {
+      "user_id": 1160097,
+      "full_name": "Mahesh Natamai",
+      "title": "Founder",
+      "founder_bio": "Building AI agents that can remember and self-improve like we can at Automorphic.",
+      "is_active": true,
+      "linkedin_url": "https://linkedin.com/in/mahesh-natamai-b17683188",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/c7ac55ddb274bbc274308cc40cf70b18aa906241.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [
+    {
+      "title": "Computer Science Was Too Slow, so I Dropped Out to Focus on My AI Startup",
+      "url": "https://www.businessinsider.com/computer-science-major-dropped-out-georgia-tech-build-ai-startup-2023-9",
+      "date": "Sep 24, 2023"
+    }
+  ],
+  "launches": [
+    {
+      "id": 74582,
+      "title": "Automorphic: Infuse knowledge into language models with just 10 samples",
+      "tagline": "Rapidly build and improve custom LLMs",
+      "body": "**TL;DR** - [Automorphic](https://automorphic.ai) enables developers to rapidly build and improve custom fine-tuned models. Using our LLM improvement platform, you can turn raw data into a secure, production-ready, self-improving LLM in minutes.\n\n—\n\nHey everyone! We’re Govind, Maaher, and Mahesh, from Automorphic. After experiencing the challenges of fine-tuning and refining language model systems, we’re on a mission to build an interactive LLM improvement platform that turns a tedious process into an addictive one.\n\n![uploaded image](/media/?type=post&id=74582&key=user_uploads/1381983/14e3e547-96a5-4a74-91b1-3ad11af28680)\n\n### **❌ The Problem:**\n\nIt takes engineers at companies like Google and Meta 12 to 18 months to take a model from research to production – and this isn’t because they run one tuning job and call it a day.\n\nThey apply a series of successive improvements that may start by supervised fine-tuning, then aligning to human preferences, then distillation and pruning unnecessary weights, and then once it’s met a certain quality threshold, they don’t just say it’s good enough. They continuously improve it with RLHF, periodic re-tunings to control for data drift, and so on.\n\nUnfortunately, such an elaborate process is unrealistic for most companies—they can’t wait a year to get a custom LLM to production even if they have the engineering talent.\n\n### **⭐️ Our Solution**:\n\nAutomorphic makes it easy for developers to continuously improve their custom LLMs.\n\n1. Upload your raw text data\n2. Start an initial fine-tuning run with your data, and continue to fine-tune as needed\n\n   ![uploaded image](/media/?type=post&id=74582&key=user_uploads/1381983/00398557-fca1-471a-9483-b5b75e506f0f)\n\n3. One line switch from the OpenAI API endpoint to ours\n4. Try inference on your model and improve it using RLHF\n\n   ![uploaded image](/media/?type=post&id=74582&key=user_uploads/1381983/cc6a2fe8-2b30-4a72-ada2-eeb960f6afc2)\n\n5. Use additional data to train adapters and combine and commute them however you want\n6. Publish your custom models to the [hub](https://automorphic.ai/hub), and try out existing models there\n\n   ![uploaded image](/media/?type=post&id=74582&key=user_uploads/1381983/fc5a26f7-f7aa-4984-bb8f-1e1fc8db427b)\n\n\nYou own the model weights, so you can train and run inference in your own cloud if you’d like.\n\n# **🙌** Our Ask:\n\nSign up for our [platform](https://automorphic.ai/signup) and train your first three models for free! We’d love feedback on how we can make your language model improvement experience better.\n\nIf there’s someone in your network like an ML engineer who works with LLMs, or folks looking to replace OpenAI / implement custom LLMs, we’d love to chat with them.\n\nHere’s a short blurb you can send them:\n\n> Automorphic, a YC-backed startup, enables developers to go from raw data to a continuously improving custom language model usable in production in minutes. They’d love to chat with ML engineers and companies looking to implement custom LLMs. Email them at [founders@automorphic.ai](mailto:founders@automorphic.ai), or book a meeting [here](http://calendly.com/automorphic)",
+      "url": "https://www.ycombinator.com/launches/JOw-automorphic-infuse-knowledge-into-language-models-with-just-10-samples",
+      "votes": 176,
+      "created_at": "2023-09-01T21:50:34.474Z"
+    }
+  ]
+}

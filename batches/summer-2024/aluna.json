@@ -1,0 +1,86 @@
+{
+  "id": 29723,
+  "name": "Aluna",
+  "slug": "aluna",
+  "former_names": [
+    "Fetchlab",
+    "Floc",
+    "FetchFlow",
+    "Fetchflow",
+    "Fortress",
+    "Nerve"
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/22ca86b49c410bca80db8c2184748994b96230ae.png",
+  "website": "https://alunadata.com",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "We work with health organizations, to build curated datasets and evals for health AI. Currently focused on Oncology. ",
+  "one_liner": "Data for biomedical AI",
+  "team_size": 3,
+  "industry": "B2B",
+  "subindustry": "B2B -> Engineering, Product and Design",
+  "launched_at": 1723763454,
+  "tags": [
+    "Artificial Intelligence"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Summer 2024",
+  "status": "Active",
+  "industries": [
+    "B2B",
+    "Engineering, Product and Design"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/aluna",
+  "api": "https://devasheeshg.github.io/yc-api/batches/summer-2024/aluna.json",
+  "year_founded": 2024,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/alunalabs/",
+  "x_url": "",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": "https://github.com/alunalabs",
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/22ca86b49c410bca80db8c2184748994b96230ae.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [
+    "https://bookface-images.s3.us-west-2.amazonaws.com/attachments/ad33511e190ab5621c219f0d95f7d9c9b3f93253.png"
+  ],
+  "primary_partner": null,
+  "founders": [
+    {
+      "user_id": 882982,
+      "full_name": "David Chu",
+      "title": "Founder/CEO",
+      "founder_bio": "Recent Brown CS-Econ grad, working with health data",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/dchu17/",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/86747e529a5cd7f0627819f5b6f5b10338bfb04c.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 83123,
+      "title": "🏰 Fortress – Manage isolated customer databases in your own cloud",
+      "tagline": "Offer data isolation at the level enterprises want with none of the DevOps.",
+      "body": "**TL;DR: 🏰** [Fortress](https://fortress.build) is an orchestration platform for SaaS applications, allowing them to easily manage a multi-instance database architecture (a hybrid of dedicated and shared instances) in **their own cloud**. \n\nIf you are a SaaS using (or migrating to) AWS/GCP/Azure for databases, [**_schedule a meeting!_**](https://calendly.com/david-fortress/30min)\n\n# **🚩 Problem:**\n\nAs a SaaS grows, they follow these two trends:\n\n1. They mature off 3rd party managed database platforms and move into their own cloud (onto an AWS/GCP/Azure) for cost, latency, and more control of their data.\n2. They move from a single shared database architecture to a multi-instance database architecture for performance, compliance, and due to data isolation requirements of enterprise.\n\nThese result in headaches for SaaS startups.\n\nExisting cloud-native database services not only have complex docs and SDKs, but orchestrating separate database instances requires additional DevOps: deployments, schema migrations, connection pooling, versioning across instances, etc.\n\n# **🏰 Introducing… Fortress**\n\nA database orchestrator that simplifies DevOps of managing a multi-instance database architecture on your private cloud. \n\n![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXeM89ZIOfe5fzfqrvvZR8QZeJT4VFxf-l8RkWKi2xhFmmA4xXoQv4Am8mqR_VJX0hZJEpkA0r_ThT4KFt5Fiyzp5QIJmgX0QmhytMyXt0Y58WePtvdi8-KCypPNLxQCOi1JvWuYpHkkNoAxOrJohjYBDDfF?key=9YIQrtfvHKcEq_yzYYr_RQ)\n\n* **☁️ In your own cloud:** Host your database instances in your own cloud for security and reduced vendor lock-in (and use your cloud credits!). _We also have a fully-managed service!_\n* **🛠️ Simplified DevOps**: Global schema migrations and rollbacks, versioning, and managed connection routing\n* **👥 Tenant Management**: APIs/SDKs to support easy provisioning of a dedicated instance for larger enterprise clients and easily add smaller clients to shared instances. \n* **✨ Developer-friendliness:** Easy-to-use client SDKs and ORM integrations. CLI and UI for admin.\n* **🚀 Flexible Deployment**: Deploy the database instance closer to your customer or to a specific region for compliance or reduced latency. \n* **🔒 Security**: Managed network isolation, custom Role-based Access Control for each database, encryption in transit and at rest, by default, simplified compliance audits, and easy tenant data deletion.\n* **🧤 White glove migration**: For now, we will do white glove migration to our platform (it’s fairly simple if you already use AWS/Azure/GCP for databases)\n\n \n\n![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXft6jhnrN1J9uZE177D6tv2SI0qcWg1GNRv2kkBnAiGjzXjr_wYgsDvYDVzL1OpdiNM1tV8DdMiGw186fGzUJnAk8fUk_wd1dijEkE6WL2Vf6XrbVsEh90LhdZz_5-Y6wvd0v8wVLmjpMj8UsphUgPP-GrQ?key=9YIQrtfvHKcEq_yzYYr_RQ)\n\n_Easily manage tenants, see their estimated usage, and what databases their data is in_\n\n![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXd9unp3fr994hjsN-JNeqKPVClbgUW4L_f0YU7rMk-OWVi54qo59PsYegIvfiEPGWgo6V-_8Sv1IlC-qr-S-PLZFNdmR7SnnnqnqB3eylgHOTVDJg8DGXlcPptDBsCC20KUNvw0JTlaWD9giMIYaGFI6ok?key=9YIQrtfvHKcEq_yzYYr_RQ)\n\n_Group databases by schemas to propagate schema migrations across groups (we handle rollbacks)_\n\n# **🌟 Future plans?**\n\n* Schema Branching (branch current schema states and or freeze them for development)\n* Zero-downtime schema migrations\n* Experimental: Storage-compute separation to allow scaling to near 0 with Postgres **in your own cloud**\n\n# ❓ **Ask:**\n\n1. If you work with customers who require dedicated db instances, chat with us! We'd like to learn more about your experiences with DevOps.\n2. Let us know if you know any CIOs and CISOs! Would love to [chat](https://calendly.com/david-fortress/30min)! \n3. [Try our early access?](https://calendly.com/david-fortress/30min) We are easy to set up if you use a cloud-native managed service!\n\n## **🙌 The Team: Recent Brown CS grads + open-source wiz.**\n\n![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXctX4mvcWdjP5D92rRncPsy8x0jSPrWal_YVuVfT18YYBP49Ab3z3wHex33NUj1alZgm2ZQcA8tl0-9S_cdVttkbRp_12gQX-PG7kGLM4SBgFmnG_uF6XypCC-bn8vyunrVzj0Wee2lUkyoI68qWI7Xx61L?key=9YIQrtfvHKcEq_yzYYr_RQ)\n\n[John](https://www.linkedin.com/in/john-finberg) + [Will](https://www.linkedin.com/in/willothy/) have been building software since 14\n\nJohn + [David](https://www.linkedin.com/in/dchu17/) were CS buddies @ Brown ",
+      "url": "https://www.ycombinator.com/launches/Lch-fortress-manage-isolated-customer-databases-in-your-own-cloud",
+      "votes": 104,
+      "created_at": "2024-08-16T19:26:58.371Z"
+    }
+  ]
+}

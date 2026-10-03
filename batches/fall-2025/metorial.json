@@ -1,0 +1,178 @@
+{
+  "id": 30960,
+  "name": "Metorial",
+  "slug": "metorial",
+  "former_names": [],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/7d6cf9656ff81c358bc8acc1f8b0221e2f963a06.png",
+  "website": "https://metorial.com",
+  "all_locations": "Vienna, Vienna, Austria; Remote",
+  "long_description": "Metorial gives every employee, agent, and AI client in your company one place to connect tools and skills. Governance, access control, and tracing included.",
+  "one_liner": "Agentic infrastructure to power AI-native companies.",
+  "team_size": 4,
+  "industry": "B2B",
+  "subindustry": "B2B",
+  "launched_at": 1759440132,
+  "tags": [],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": true,
+  "nonprofit": false,
+  "batch": "Fall 2025",
+  "status": "Active",
+  "industries": [
+    "B2B"
+  ],
+  "regions": [
+    "Austria",
+    "Europe",
+    "Remote",
+    "Fully Remote"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": [
+    {
+      "question": "How did your company get started? (i.e., How did the founders meet? How did you come up with the idea? How did you decide to be a founder?)",
+      "answer": "Tobias and Wen have been friends for over 10 years. They met in a top technical high school in Austria where they worked on many projects together. Later, they co-lead the technical development at Valicit, a ticketing startup based in Abu Dhabi."
+    },
+    {
+      "question": "What's the history of your company from getting started until the present day? What were the big inflection points?",
+      "answer": "When MCP was released, we quickly understood its value in offering a natural language interface for LLMs to execute external tools autonomously.\r\n\r\nBut when we tried to take MCP beyond client-side apps like Cursor, setting up the infra for security and scaling turned out to be a massive time sink.\r\n\r\nThatʼs when it clicked: developers like us need a turn-key solution to plug MCP into their agents.\r\n\r\nSo we pivoted from hacking infra together to building Metorial: the Vercel for MCP."
+    },
+    {
+      "question": "What is the core problem you are solving? Why is this a big problem? What made you decide to work on it?",
+      "answer": "Integrations transform LLMs from simple chatbots into agents that can perform real tasks.\r\n\r\nRecently, MCP has become the standard for connecting AI agents to external tools.\r\n\r\nMCP works great locally, but production deployments are painful.\r\n\r\nRunning MCP servers in production means managing Docker configs, handling OAuth flows, and debugging issues without proper observability.\r\n\r\nDevelopers want to ship agents now, not build infrastructure for months."
+    }
+  ],
+  "url": "https://www.ycombinator.com/companies/metorial",
+  "api": "https://devasheeshg.github.io/yc-api/batches/fall-2025/metorial.json",
+  "year_founded": 2025,
+  "city": "Vienna",
+  "country": "AT",
+  "linkedin_url": "https://www.linkedin.com/company/metorial/",
+  "x_url": "https://x.com/MetorialAi",
+  "fb_url": null,
+  "cb_url": "https://crunchbase.com/organization/metorial",
+  "github_url": "https://github.com/metorial",
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/7d6cf9656ff81c358bc8acc1f8b0221e2f963a06.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Andrew Miklas",
+    "url": "https://www.ycombinator.com/people/andrew-miklas"
+  },
+  "founders": [
+    {
+      "user_id": 851191,
+      "full_name": "Karim (Wen) Rahme",
+      "title": "Founder/CEO",
+      "founder_bio": "Founder & CEO @ Metorial",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/karim-rahme",
+      "x_url": "https://x.com/wen_rahme",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/b4648c7675ee6ff71c89f142a0b8fed51bec3068.jpg"
+    },
+    {
+      "user_id": 2756424,
+      "full_name": "Tobias Herber",
+      "title": "Founder/CTO",
+      "founder_bio": "Building Metorial, the integration layer for agentic AI. 3x founder. IEEE best paper author. Background in AI, distributed systems, and system software. I strive to build products that make difficult problems simple.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/tobias-herber/",
+      "x_url": "https://x.com/tobiasherber_",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/50372e7b1f97c09a8534fd3bf7417ec70be6de8e.jpg"
+    }
+  ],
+  "jobs": [
+    {
+      "id": 86643,
+      "title": "Founding Engineer",
+      "url": "https://www.ycombinator.com/companies/metorial/jobs/WPkk7Yk-founding-engineer",
+      "location": "Remote",
+      "type": "Full-time",
+      "role": "Engineering",
+      "role_type": "Backend",
+      "salary_range": "$100K - $180K",
+      "equity_range": "1.00% - 2.00%",
+      "experience": "3+ years",
+      "visa": "US citizenship/visa not required",
+      "skills": [
+        "Amazon Web Services (AWS)",
+        "Go",
+        "Rust",
+        "TypeScript",
+        "Distributed Systems"
+      ]
+    },
+    {
+      "id": 86644,
+      "title": "Backend Engineer",
+      "url": "https://www.ycombinator.com/companies/metorial/jobs/7617xcj-backend-engineer",
+      "location": "Remote",
+      "type": "Full-time",
+      "role": "Engineering",
+      "role_type": "Backend",
+      "salary_range": "$100 - $165",
+      "equity_range": "1.00% - 2.00%",
+      "experience": "3+ years",
+      "visa": "US citizenship/visa not required",
+      "skills": [
+        "Amazon Web Services (AWS)",
+        "Git",
+        "Go",
+        "JavaScript",
+        "SQL",
+        "Microservices",
+        "Serverless"
+      ]
+    },
+    {
+      "id": 86645,
+      "title": "Infrastructure/DevOps Engineer",
+      "url": "https://www.ycombinator.com/companies/metorial/jobs/FdUgKuI-infrastructure-devops-engineer",
+      "location": "Remote",
+      "type": "Full-time",
+      "role": "Engineering",
+      "role_type": "Devops",
+      "salary_range": "$100 - $170",
+      "equity_range": "1.00% - 2.00%",
+      "experience": "3+ years",
+      "visa": "US citizenship/visa not required",
+      "skills": [
+        "Amazon Web Services (AWS)",
+        "Git",
+        "Go"
+      ]
+    }
+  ],
+  "news": [
+    {
+      "title": "The Top Startups To Watch From Y Combinator’s Fall 2025 Batch",
+      "url": "https://www.forbes.com/sites/dariashunina/2025/11/13/the-top-startups-to-watch-from-y-combinators-fall-2025-batch/",
+      "date": "Nov 13, 2025"
+    }
+  ],
+  "launches": [
+    {
+      "id": 95390,
+      "title": "Magic MCP by Metorial - 600+ integrations for vibe coding, zero config required",
+      "tagline": "Connect any vibe coding tool or MCP client to 600+ integrations; zero configuration required.",
+      "body": "_Hey everyone! We’re Wen and Tobias and we build Metorial -- the enterprise-grade infra layer for MCP._\n\n### **TL;DR**\n\nMagic MCP let’s you connect any MCP client, like Cursor, Claude Code, or Claude Desktop, to more than 600 integrations ranging from Sentry or Linear all the way to Salesforce or QuickBooks.\n\n![uploaded image](/media/?type=post&id=95390&key=user_uploads/2756424/e30d0da9-7fc1-41dc-8673-6f49d6887c22)\n\n# **The Problem**\n\nMetorial provides infra for deploying, connecting to, and securing MCP servers for developers and enterprises. We are working with startups, unicorns, and fortune 500 companies to let them use MCP reliably and effectively. Metorial let’s them get AI agents into production in hours, not weeks.\n\nYet, many of our customers still struggle with the basics, like integrating MCP servers into Cursor and Claude Code. Today, we’re solving that.\n\n# **The Solution**\n\nMagic MCP let’s you connect vibe coding tools to 600+ integrations (you can even create your own MCP servers and deploy them to Metorial) -- zero configuration required.\n\nMagic MCP uses the same infra that already powers thousands of MCP server deployments. You get enterprise-grade security, scaling, and reliability, sub-second boot up times, and full observability.\n\n# **A Bit More About Metorial**\n\nWe handle all of the complicated parts of MCP so our customers get to enjoy the good parts. Enterprises love us because we solve security, scalability, and access control for MCP. Developers and startups love us because they can deploy MCP servers on our platform in just 3 clicks -- we even handle OAuth. Our SDKs let them connect their agents to MCP servers on Metorial in a single function call. Our serverless runtime is the only one that solves security for multi-tenancy, supports sub-second cold start, and does stateful hibernation for long-running connections.\n\n### **The Ask**\n\n**Struggling with MCP or building agents that need integrations?**\n\nTry [**metorial.com**](http://metorial.com). We can help you integrate Metorial or Magic MCP and add any MCP servers you need.\n\nBook a call: [**cal.com/karim-rahme/launch-yc**](https://cal.com/karim-rahme/launch-yc)\n\nEmail us: [**founders@metorial.com**](mailto:founders@metorial.com)",
+      "url": "https://www.ycombinator.com/launches/OoY-magic-mcp-by-metorial-600-integrations-for-vibe-coding-zero-config-required",
+      "votes": 11,
+      "created_at": "2025-11-12T15:44:18.214Z"
+    },
+    {
+      "id": 94458,
+      "title": "Metorial: Vercel for MCP",
+      "tagline": "We help devs connect their AI agents to external tools and data via MCP.",
+      "body": "# **TL;DR**\n\nMetorial gets AI agents into production in hours, not weeks. 600+ MCP servers, ready to deploy in just three clicks.\n\nWe're the **only** serverless MCP platform that can handle hibernation with sub-second cold starts as well as OAuth, enterprise-grade security, and per-user isolation.\n\nStarred by more than 3000 GitHub devs. Used by engineers at FAANG, the Big 4, and American Express. Currently piloting with leading startups and Fortune 500s.\n\n![uploaded image](/media/?type=post&id=94458&key=user_uploads/851191/b6d82eac-49d7-47f6-b4ab-5248ad638c76)\n\n### The Problem\n\nThe AI space is evolving rapidly; companies can’t afford to wast time building integrations. MCP has become the standard for connecting LLMs to external tools, but deploying MCP in production is painful. Running MCP servers yourself means managing Docker configs, handling OAuth flows, and debugging without observability. Writing serious integrations manually wastes weeks in digging through API documentation. **Developers want to ship agents now, not build infrastructure for months.**\n\n### Our Solution\n\nDeploy any of our 600+ MCP servers in just three clicks -- we even handle OAuth. Our SDKs let you connect your agents to the hosted MCP servers in a single function call. Our serverless runtime solves scaling and security issues for multi-tenant deployments by providing sub-second cold starts with per-user isolation.\n\nBuilding a complex agent with Metorial looks as simple as this:\n\n![uploaded image](/media/?type=post&id=94458&key=user_uploads/851191/33d8cc5b-5536-498a-ab88-987be2de7ebd)\n\n### Demo\n\n[https://youtu.be/\\_hAvxzTCLyQ](https://www.youtube.com/watch?v=_hAvxzTCLyQ)\n\n### Our Story\n\nWhen MCP was released, we quickly understood its value in offering a natural language interface for LLMs to execute external tools autonomously. But when we tried to take MCP beyond client-side apps like Cursor, setting up the infra for security, scaling, and per-user isolation turned out to be a massive time sink. That’s when it clicked: developers like us need a turn-key solution to plug integrations into their agents. So we pivoted from hacking infra together to building Metorial.\n\n### The Ask\n\n**Building AI agents or using MCP?**\n\nTry [**metorial.com**](http://metorial.com). We can help you integrate Metorial and add any MCP servers you need.\n\nBook a call: [**cal.com/karim-rahme/launch-yc**](https://cal.com/karim-rahme/launch-yc)\n\nEmail us: [**founders@metorial.com**](mailto:founders@metorial.com)",
+      "url": "https://www.ycombinator.com/launches/OZW-metorial-vercel-for-mcp",
+      "votes": 22,
+      "created_at": "2025-10-07T23:51:41.191Z"
+    }
+  ]
+}

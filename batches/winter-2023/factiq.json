@@ -1,0 +1,109 @@
+{
+  "id": 27939,
+  "name": "FactIQ",
+  "slug": "factiq",
+  "former_names": [
+    "Data Narratives",
+    "Defog.ai"
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/4eea8e74dd560d5b945e787263172d6a883e4e0a.png",
+  "website": "https://factiq.com/",
+  "all_locations": "Singapore, Singapore",
+  "long_description": "FactIQ gives AI agents access to clean and trustworthy data for investment research.\r\n\r\nWe source, clean and standardize data from company financials, market prices, economic series and satellite imagery. We make it absurdly obvious for any AI agent to accurately query this data. We currently have 100M+ data series covering US and Asia, and are adding new data every day. ",
+  "one_liner": "Investment research data for AI agents",
+  "team_size": 3,
+  "industry": "Fintech",
+  "subindustry": "Fintech -> Asset Management",
+  "launched_at": 1672890387,
+  "tags": [
+    "Artificial Intelligence",
+    "Investing",
+    "Data Visualization",
+    "AI Assistant"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Winter 2023",
+  "status": "Active",
+  "industries": [
+    "Fintech",
+    "Asset Management"
+  ],
+  "regions": [
+    "Singapore",
+    "Southeast Asia",
+    "Remote",
+    "Partly Remote"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/factiq",
+  "api": "https://devasheeshg.github.io/yc-api/batches/winter-2023/factiq.json",
+  "year_founded": 2023,
+  "city": "Singapore",
+  "country": "SG",
+  "linkedin_url": "https://www.linkedin.com/company/fact-iq",
+  "x_url": "https://x.com/tryfactiq",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/4eea8e74dd560d5b945e787263172d6a883e4e0a.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Brad Flora",
+    "url": "https://www.ycombinator.com/people/brad-flora"
+  },
+  "founders": [
+    {
+      "user_id": 218578,
+      "full_name": "Rishabh Srivastava",
+      "title": "Founder",
+      "founder_bio": "ML developer. Previously bootstrapped data APIs co to 100M+ monthly end users. I blog at rish.blog and am fairly active on Twitter (@rishdotblog)",
+      "is_active": true,
+      "linkedin_url": "https://linkedin.com/in/rishsriv",
+      "x_url": "https://twitter.com/rishdotblog",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/da382fe67f5b879cd48e2b87d121703505e0db99.jpg"
+    },
+    {
+      "user_id": 1153841,
+      "full_name": "Medha Basu",
+      "title": "Founder",
+      "founder_bio": "Co-Founder of Defog.ai. Former journalist/editor/content marketing person. Grew an enterprise content marketing firm from $0 to 7 figures in yearly revenue. Once interviewed a terrorist. ",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/medha-basu/",
+      "x_url": "http://twitter.com/medha_basu",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/758a7af2b0a8db506432903862bd9d289acd87ea.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [
+    {
+      "title": "How enterprises are using open source LLMs: 16 examples | VentureBeat",
+      "url": "https://venturebeat.com/ai/how-enterprises-are-using-open-source-llms-16-examples/",
+      "date": "Jan 29, 2024"
+    },
+    {
+      "title": "Tech in Asia - Connecting Asia's startup ecosystem",
+      "url": "https://www.techinasia.com/exclusive-combinator-leads-22m-sgbased-ai-analytics-firm",
+      "date": "Nov 22, 2023"
+    }
+  ],
+  "launches": [
+    {
+      "id": 68202,
+      "title": "Defog.ai - ChatGPT for data, embedded in your app",
+      "tagline": "Embed insights widgets in your apps and let users ask questions in natural language.",
+      "body": "Hey there! We’re [Medha](https://www.linkedin.com/in/medha-basu/) and [Rishabh](http://twitter.com/rishdotblog) from [Defog.ai](http://defog.ai/).\n\n### **TL;DR**\n\nDefog embeds in your app and lets your users query data in seconds, using everyday language. It’s like ChatGPT for data - right within your app. [**Sign up**](http://defog.ai/) **to get early access.** Or give it a try at [defog.ai/ask](http://defog.ai/ask).\n\n### **😤 The problem**\n\nInsights features within apps take a long time to build and get right.\n\nThis is because SaaS founders and product managers spend most of their time on improving their core product. Insights features are rarely top-of-mind, even though they increase user stickiness.\n\nMost teams tell themselves that they will eventually get to it. But they rarely do. The result is a hastily-built dashboard that provides limited insights to users.\n\n### 🎉 **Our solution**\n\nWe make it super easy to let your users ask questions in natural language and instantly get data and insights on your app.\n\n![uploaded image](/media/?type=post&id=68202&key=user_uploads/1153841/bd2e56ef-b1f8-4d38-b02a-1c851549def9)\n\nDefog embeds an intuitive Q&A-style interface for analytics in your app, and lets users query data in seconds.\n\nSome examples of how companies can use Defog:\n\n* Fintech companies could provide deep insights based on users’ transaction history.\n* Video meeting tools could extract common complaints across customer calls and make them easy to discover.\n* Social media platforms could replace generic analytics dashboards with more specific metrics.\n\n### **🪄 How it works**\n\n1. Give us the metadata of your database schema (if using SQL), or just unstructured data corpuses (if using APIs or text corpuses)\n2. Add our iframe or Javascript plugin to your app\n3. (optional) set up visual styling for how charts should look on our app\n4. Let your users ask questions of the data, and get insights in seconds\n\nWe’re powered by large language models that can search and visualise both structured data (like SQL databases or data warehouses) and unstructured data (like text in call transcripts).\n\nPS: We don’t compromise on privacy 🔐 Our model only needs access to your database schema to work, and not actual data about your customers.\n\n### **⚡ Our asks**\n\n* [Get early access](http://defog.ai/): Sign up to get early access if you’d like to embed Defog in your app\n* [Take it for a spin](http://defog.ai/csv): Ask Defog questions on your own datasets - or one of our pre-selected ones\n* [Share your feedback](https://defog.ai/contact/): If you have questions or feedback, we’d love to hear from you. Email us at founders\\[at\\]defog.ai or reach out to us on [Twitter](https://twitter.com/defogdata) or [LinkedIn](https://www.linkedin.com/company/defog-ai/).",
+      "url": "https://www.ycombinator.com/launches/Hk2-defog-ai-chatgpt-for-data-embedded-in-your-app",
+      "votes": 36,
+      "created_at": "2023-01-05T06:17:24.307Z"
+    }
+  ]
+}

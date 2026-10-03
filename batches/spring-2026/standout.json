@@ -1,0 +1,126 @@
+{
+  "id": 31402,
+  "name": "Standout",
+  "slug": "standout",
+  "former_names": [],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/0cae3b4c599e9e6ff92522ffbf541670c1a97669.png",
+  "website": "https://standout.work",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "Standout gives every talent and company an autonomous agent that represents them, assess the other side, and makes intros when it matters.\r\n\r\nWhy it matters? Because this is hiring today:\r\n- Talent use AI to apply to 100s of jobs - this is spam.\r\n- Founders/Recruiting send 100s of AI-generated messages to hire the same talent - this is spam.\r\n\r\nThis has to stop.\r\n\r\nTalent stays fully anonymous until they accept an intro. The best way for passively exploring the market and not missing a life changing opportunity.\r\n\r\nIn 1 month, 10k talent / 60 companies / 100 intros.",
+  "one_liner": "Agentic hiring marketplace",
+  "team_size": 5,
+  "industry": "B2B",
+  "subindustry": "B2B -> Recruiting and Talent",
+  "launched_at": 1773415057,
+  "tags": [],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": true,
+  "nonprofit": false,
+  "batch": "Spring 2026",
+  "status": "Active",
+  "industries": [
+    "B2B",
+    "Recruiting and Talent"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/standout",
+  "api": "https://devasheeshg.github.io/yc-api/batches/spring-2026/standout.json",
+  "year_founded": 2025,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/standoutwork",
+  "x_url": "https://x.com/standoutwork",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/0cae3b4c599e9e6ff92522ffbf541670c1a97669.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Aaron Epstein",
+    "url": "https://www.ycombinator.com/people/aaron-epstein"
+  },
+  "founders": [
+    {
+      "user_id": 2886794,
+      "full_name": "Alexis Aftalion",
+      "title": "Founder/CEO",
+      "founder_bio": "Co-Founder & CEO @ Standout. \nPreviously launched Zealy a linear for discord communities. Scaled it to 1.5M MAU and $3M ARR in 12 months. ",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/alexisaftalion",
+      "x_url": "https://x.com/alexisaftalion",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/27a8f4f2414687455fd2b531a9e0b54a982bc62f.jpg"
+    },
+    {
+      "user_id": 1349620,
+      "full_name": "Witold de La Chapelle",
+      "title": "Founder/CRO",
+      "founder_bio": "Co-Founder & CTO @ Standout\nBuilt a jobboard with 100k MAU, ex-Engineer @ Dropbox, Samsara, Chime",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/witold-dlc/",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/3b88168a15c629ba6eeac416dd6b5b416cc51612.jpg"
+    }
+  ],
+  "jobs": [
+    {
+      "id": 94229,
+      "title": "Founding AI Product Engineer",
+      "url": "https://www.ycombinator.com/companies/standout/jobs/IHasdYq-founding-ai-product-engineer",
+      "location": "San Francisco, CA, US",
+      "type": "Full-time",
+      "role": "Engineering",
+      "role_type": "Full stack",
+      "salary_range": "$160K - $240K",
+      "equity_range": "1.00% - 2.00%",
+      "experience": "Any (new grads ok)",
+      "visa": "Will sponsor",
+      "skills": []
+    },
+    {
+      "id": 102879,
+      "title": "Founding Sales / Talent Scout",
+      "url": "https://www.ycombinator.com/companies/standout/jobs/qyvBuwy-founding-sales-talent-scout",
+      "location": "San Francisco, CA, US",
+      "type": "Full-time",
+      "role": "Sales",
+      "role_type": null,
+      "salary_range": "$170K - $220K",
+      "equity_range": "0.10% - 0.20%",
+      "experience": "Any (new grads ok)",
+      "visa": "US citizen/visa only",
+      "skills": []
+    }
+  ],
+  "news": [],
+  "launches": [
+    {
+      "id": 102530,
+      "title": "Standout - A Talent Agent For Builders",
+      "tagline": "An autonomous agent doing intros between talent and startup founders from 1 single command",
+      "body": "**TL;DR:** Standout is a CLI that assesses how you actually build, then gets you introduced to the startups worth your next move.\n\nYou don't upload a resume. \n\nYou open your terminal, type 1 command **‘npx standout’** and show your work. \n\nThe CLI evaluates how you think, build, and debug, and turns that into a verified signal of what you can really do. When a role fits, your agent makes the intro. \n\nFree for talent, success-only for companies.\n\n<https://youtu.be/ZvcRQiwxBbU>\n\n**The Product:** **a CLI that proves you**\n\nResumes and LinkedIn are proxies. They tell a company what you claim, never what you can do. So we moved the assessment to where the work actually happens: the terminal.\n\nRun Standout in your CLI and it evaluates real skill, how you approach a problem, how you build, how you challenge AI. The output isn't a score on a test. It's a living profile of your capability that no resume can fake and no keyword filter can bury.\n\n![uploaded image](/media/?type=post&id=102530&key=user_uploads/2886794/22a37a4e-49e2-4da9-a649-9f7f04a2a78c)\n\nThat profile is the product. Everything else follows from it.\n\n**The CLI is what makes the intro real**\n\nOnce you're assessed, an autonomous agent represents you. It reads the roles that never hit the market, matches them against what you've actually proven, and only makes the intro when the fit is real.\n\nThe intro lands as a single message: who this is, what they can do (proven, not claimed), why they fit, why now. No applications. No cold outreach. No spam on either side.\n\n•⁠  ⁠Proof, not proxies — capability measured in the terminal, not inferred from a title.\n\n•⁠  ⁠Privacy by default — you stay invisible until you greenlight a role. Identity is never exposed without consent.\n\n•⁠  ⁠Intros in hours, not weeks — the assessment is already done, so the match is instant.\n\n•⁠  ⁠Aligned cost — free for talent, companies pay only on hire. No retainer, no exclusivity.\n\n![uploaded image](/media/?type=post&id=102530&key=user_uploads/2886794/4ce0af3f-d51b-4375-9715-48c2a7684e39)\n\n**Starting with the startup ecosystem**\n\nFounding engineers, early product hires, GTM leaders. The roles where the right person changes a company's trajectory and the wrong one sets it back six months.\n\nAlready representing 10,000+ builders, matched with 60+ startups from P26 pre-seed teams to Series B and unicorns.\n\nIf you are looking for the role that will define your next decade, open your terminal and prove your worth.\n\nIf your next five hires will define your company, plug Standout into your stack.",
+      "url": "https://www.ycombinator.com/launches/Qfi-standout-a-talent-agent-for-builders",
+      "votes": 8,
+      "created_at": "2026-06-04T14:58:17.999Z"
+    },
+    {
+      "id": 100833,
+      "title": "Standout - The Agentic Hiring Marketplace",
+      "tagline": "Talent and companies each get an agent that makes intros when it matters",
+      "body": "**TL;DR:** We're a talent agent connecting the world's best startup talent with the companies building what's next.\n\nWe don't sell software, we deliver introductions. Both sides get an autonomous agent that vets the other end and only makes the intro when the fit is real. Introductions in hours, not weeks. Free for talent, success-only for companies. One month in: 100 intros done.\n\nHiring is broken on both sides. We're rebuilding it around agents.\n\n<https://youtu.be/7LdjJO-ibdI>\n\n**❌ The Problem**\n\nHiring should match the right people to the right roles. It rarely does. Five failures repeat on every search, and almost no one escapes them.\n\n* **Spam** — Talent fire hundreds of AI applications. Recruiters fire hundreds of AI messages. Both inboxes drown in noise.\n* **Visibility** — Early stage founders struggle to reach the talent worth hiring. The best talent gets buried in the inbound. Both sides struggle to stand out.\n* **Asymmetry** — Talent see titles and comp bands. Founders see resumes and LinkedIn. Neither side sees what actually matters.\n* **Privacy** — Looking around means risking your current job. There's no way to say \"I'm open\" without saying \"I'm leaving”\n* **Cost** — Recruiters take 20–30% of first-year salary, after weeks of back-and-forth, and the role still goes to someone they didn't find.\n\n**✅ Our Solution**\n\nStandout is an agentic hiring marketplace. Talent and companies each get an autonomous agent that represents them, vets the other side, and only makes the intro when the fit is real.\n\n* **Spam, gone** — No applications, no cold outreach. The agent only surfaces matches when the fit is real.\n* **Visibility, restored** — We see the roles that never hit the market and bring them to the people they're meant for.\n* **Symmetric context** — Both sides see what actually matters. The intro lands as a single message: who this is, why they fit, why now.\n* **Privacy by default** — Talent stay invisible until they greenlight a role. Identity is never exposed without consent.\n* **Aligned cost** — Free for talent. Companies pay only on hire — no retainer, no exclusivity.\n\n![uploaded image](/media/?type=post&id=100833&key=user_uploads/2886794/19cf3727-8a22-4910-b69a-12bde13936c1)\n\n**Starting with the startup ecosystem**\n\nWe're starting with founding engineers, early product hires, and GTM leaders — the roles where the right person changes a company's trajectory and the wrong person sets it back six months.\n\nWe're already representing 10,000+ builders, matched with 60+ startups from P26 pre-seed teams to Series B unicorns.\n\nIf your next five hires will define your company, plug Standout into your stack.\n\nIf your next role will define your decade, get represented.\n\n**Our Ask**\n\n* **If you're a builder** — get represented at [standout.work](http://standout.work). Free, three-minute onboarding, and we start matching you the same day.\n* **If you're hiring** — book a demo at <https://cal.com/team/standout/hire>. We'll send you the first candidates within days.\n* **If you know someone** — a builder who deserves better than a job board, or a founder drowning in inbound send them our way.\n\n**The Team**\n\n**Alexis Aftalion** — Previously launched Zealy a linear for discord communities. Scaled it to 1.5M MAU and $3M ARR in 12 months.\n\n**Witold de La Chapelle** — Built a jobboard with 100k MAU, ex-Engineer @ Dropbox, Samsara, Chime.\n\n![uploaded image](/media/?type=post&id=100833&key=user_uploads/2886794/73e8595d-6a1f-4295-9a0f-47c591083490)\n\n",
+      "url": "https://www.ycombinator.com/launches/QEL-standout-the-agentic-hiring-marketplace",
+      "votes": 14,
+      "created_at": "2026-05-07T05:59:23.895Z"
+    }
+  ]
+}

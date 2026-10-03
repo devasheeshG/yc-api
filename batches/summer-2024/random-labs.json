@@ -1,0 +1,102 @@
+{
+  "id": 29634,
+  "name": "Random Labs",
+  "slug": "random-labs",
+  "former_names": [],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/fc21f071bc440027719fe93cbb326886a0f83528.png",
+  "website": "https://randomlabs.ai",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "Random Labs is building Slate. Slate is a coding agent designed to work with you for long hours on hard problems.",
+  "one_liner": "Random labs is building long running autonomous coding agents.",
+  "team_size": null,
+  "industry": "B2B",
+  "subindustry": "B2B -> Engineering, Product and Design",
+  "launched_at": 1725599788,
+  "tags": [
+    "Developer Tools",
+    "Open Source",
+    "AI",
+    "AI Assistant"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Summer 2024",
+  "status": "Active",
+  "industries": [
+    "B2B",
+    "Engineering, Product and Design"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": [
+    {
+      "question": "What is the core problem you are solving? Why is this a big problem? What made you decide to work on it?",
+      "answer": "We are making software engineering agents and code generation tools for every person. As more and more people realize they can code now, we will enable them to create. It’s a huge problem because there is infinite software to build if we want to improve life on earth, yet, theres nowhere near enough talent to build it. This tech will make it possible for anyone to create."
+    },
+    {
+      "question": "What is your long-term vision? If you truly succeed, what will be different about the world?",
+      "answer": "If we succeed, everyone will be able to code, and the number of software jobs available with grow by an insanely large number (10-20 million more devs)."
+    }
+  ],
+  "url": "https://www.ycombinator.com/companies/random-labs",
+  "api": "https://devasheeshg.github.io/yc-api/batches/summer-2024/random-labs.json",
+  "year_founded": 2024,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/in/mihir-chintawar-95008a1b9/",
+  "x_url": "https://x.com/0xrandomlabs",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": "https://github.com/entropy-research",
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/fc21f071bc440027719fe93cbb326886a0f83528.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Garry Tan",
+    "url": "https://www.ycombinator.com/people/garry-tan"
+  },
+  "founders": [
+    {
+      "user_id": 1255731,
+      "full_name": "Kiran (Random Labs)",
+      "title": "Founder/CEO",
+      "founder_bio": "Building code generation tools",
+      "is_active": true,
+      "linkedin_url": "https://linkedin.com/in/kiranillindala",
+      "x_url": "",
+      "avatar_thumb_url": "/avatars/thumb/missing.png"
+    },
+    {
+      "user_id": 969676,
+      "full_name": "Mihir Chintawar",
+      "title": "Founder/CTO",
+      "founder_bio": "CTO@Random Labs",
+      "is_active": true,
+      "linkedin_url": "https://linkedin.com/in/mihir-chintawar-95008a1b9",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/9bf3b3243eadb17f688b69d994091b7ad027232f.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 83813,
+      "title": "Random Labs: An open source software agent that lives in your codebase",
+      "tagline": "A 1,155,075 line codebase should feel like Playdough.",
+      "body": "**_Software is like playdough. It morphs into the creators desires._**\n\n**_Or at least it should._**\n\nThis is what fundamentally drives us as a company. We believe that software development should stay in the hands of people. We believe that there is near infinite software the world needs and that there are not enough developers to build it.\n\nThis leads us to the problem we are solving. _We are making it possible for the next 20 million engineers to come online._ We believe AI tools can be used to create jobs, not replace them. And we believe that open-source tools will continue to be the path forward for developers.\n\nMost software agent companies have deeply optimized for swe-bench. However, this is not a representative task. We are building tooling we actually use. It’s written parts of itself already and we are extremely excited to share it with you.\n\n**How are we building this?**\n\nOur approach is to start with the IDE. Developers are most comfortable in the ide, so that’s where we are starting. We are integrating our agent directly, and it is able to make changes across massive codebases (below is it writing a feature in the cal\\[.\\]com codebase which is 1,155,075 lines long at the time of writing).\n\nSo, we are making an agent that is capable of _living in your codebase_ with almost perfect context.\n\nIt’s not just autocomplete. It’s not just chat with your codebase. It’s something beyond a software workflow. Our tooling makes the code feel fluid.\n\n_And thats special._\n\nHere it is editing the codebase:\n\n![uploaded image](/media/?type=post&id=83813&key=user_uploads/1255731/4031240e-27ca-4452-9c69-a36670ddd18f)\n\n\nHere is the resulting component:\n\n![uploaded image](/media/?type=post&id=83813&key=user_uploads/1255731/60472093-b735-42ec-a6b5-36aa98691331)\n\n**Our ask!**\n\n1. If you’re interested in using our tool once it launches, please join the waitlist here: <https://akfucniuesi.typeform.com/to/xz8C2Jpg>\n2. If you’re interested in helping us build this, PLEASE reach out at [founders@randomlabs.ai](mailto:hello@randomlabs.ai)",
+      "url": "https://www.ycombinator.com/launches/Lnp-random-labs-an-open-source-software-agent-that-lives-in-your-codebase",
+      "votes": 44,
+      "created_at": "2024-09-06T05:56:13.070Z"
+    }
+  ]
+}

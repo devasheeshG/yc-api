@@ -1,0 +1,101 @@
+{
+  "id": 27941,
+  "name": "Sage AI",
+  "slug": "sage-ai",
+  "former_names": [
+    "Omnistore",
+    "Emblem",
+    "Semantic",
+    "Semantic Finance"
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/c9492b07bf996e987ccacc0cea4bd6811a5000d5.png",
+  "website": "https://sage-ai.dev",
+  "all_locations": "San Francisco, CA, USA; Remote",
+  "long_description": "Sage is a self-generating, self-maintaining knowledge base for your code with in-built chat, accelerating expertise, and comprehension of any codebase.\r\n\r\nDocumentation is perpetually stale, codebases become increasingly old, large, and complex, and knowledge remains siloed within individuals and teams. As a result, engineers take 8-12 months to become fully operational, enterprise code becomes slow and unmaintainable, and core knowledge is continually lost upon engineer turnover.\r\n\r\nSage is changing this reality. We take your code and automatically generate a symbol-level knowledge base that self-updates to remain forever fresh. We integrate with source control to pull your code and generate a symbolic graph representation of functions, classes, interfaces, types, etc., automatically determining the relevant context for each symbol, and using LLMs to annotate and propagate documentation via traversals of the symbol graph. \r\n\r\nSage revolutionizes the way teams and individuals interact with and understand their code, ensuring that knowledge is always accessible, up-to-date, and interactive.\r\n",
+  "one_liner": "Your self-generating, self-maintaining code knowledge base.",
+  "team_size": 2,
+  "industry": "B2B",
+  "subindustry": "B2B -> Engineering, Product and Design",
+  "launched_at": 1680142814,
+  "tags": [
+    "Developer Tools",
+    "SaaS",
+    "B2B",
+    "AI Assistant"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Winter 2023",
+  "status": "Active",
+  "industries": [
+    "B2B",
+    "Engineering, Product and Design"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada",
+    "Remote",
+    "Fully Remote"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/sage-ai",
+  "api": "https://devasheeshg.github.io/yc-api/batches/winter-2023/sage-ai.json",
+  "year_founded": 2023,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/sage-ai-dev/",
+  "x_url": "https://twitter.com/sage_ai_app",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": "https://github.com/sage-ai-dev",
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/c9492b07bf996e987ccacc0cea4bd6811a5000d5.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [
+    "https://bookface-images.s3.us-west-2.amazonaws.com/attachments/985b8e70f5898833eb06e94da4d87d4764003547.png"
+  ],
+  "primary_partner": {
+    "name": "Brad Flora",
+    "url": "https://www.ycombinator.com/people/brad-flora"
+  },
+  "founders": [
+    {
+      "user_id": 1185424,
+      "full_name": "Joshua Ying",
+      "title": "Founder",
+      "founder_bio": "Ex-Google co-founder at sage-ai.dev.\nLet's get in touch: joshua@emblem.software",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/joshua-ying-7a0032138/",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/fc598a613dd534053b950e77d38b34c0900ae89f.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 78163,
+      "title": "Sage AI - Your self-generating, self-maintaining code knowledge base",
+      "tagline": "We provide a platform that creates and updates symbol-level documentation with language-specific, cross-program context that you can talk to",
+      "body": "Hi everyone, we’re Akhil and Joshua and we're on a mission to accelerate expertise and comprehension of any codebase by providing a self-generating, self-maintaining code knowledge base.\n\n![uploaded image](/media/?type=post&id=78163&key=user_uploads/1192337/c88f4b22-6168-4ae1-9424-7944ba0ed16d)\n\n### 🧨 The Problem\n\nThe story of every software team is a constant struggle with knowledge friction and maintaining expertise in the code and surrounding systems.\n\nThese are the perennial issues we’re solving:\n\n* **Staleness:** Most documentation is perpetually stale and it slows development to keep it fresh.\n* **Complexity:** Code becomes more difficult to maintain and improve as it increases in age and size. This is the main reason enterprises with extremely large, old, and complex code can’t move fast.\n* **Fragmentation:** Code information is unversioned and unlinked across disparate platforms, so it’s often unclear what your Confluence article is referring to and whether it’s still applicable.\n* **Discoordination:** Information silos impede collaboration and lead to unnecessary repetition of work. Cross-team features and bugs are exponentially harder to implement and resolve.\n* **Underutilization:** Engineers are expected to take 8-12 months to fully onboard and usually experience a “sink-or-swim” strategy for ramping up a new team.\n* **Overdependence:** Core knowledge is continually lost as employees turnover. Raise your hand if you’ve ever needed to touch code that’s written by an engineer who left in 2014. 🙋\n\nWhether you’re a newly hired engineer, just moved teams, or need to touch code you’ve never seen before, it’s the steepest learning curve in software engineering. This is the skeleton-in-the-closet of software: your average engineer spends more than 40% of their 2-year-tenure “onboarding.”\n\n### 🎉 The Solution\n\n[Sage](https://www.ycombinator.com/companies/sage-ai) is changing this reality. We take your code and automatically generate a symbol-level knowledge base that self-updates to remain forever fresh.\n\nFirst, we integrate with source control to pull your code and generate a symbolic graph representation of functions, classes, interfaces, types, etc., automatically determining the relevant context for each symbol.\n\nWe then use LLMs to annotate and propagate documentation via traversals of the symbol graph, saturating knowledge across multiple traversals.\n\n![uploaded image](/media/?type=post&id=78163&key=user_uploads/1192337/14c14041-7efc-425c-9535-913fa9934ccb)\n\nWe're also exposing a configurable, deeply contextualized chat system that can derive higher-level purposes and objectives of program symbols and modules from its own knowledge base.\n\n![uploaded image](/media/?type=post&id=78163&key=user_uploads/1192337/a6b0701b-c4a8-42ad-9405-1d495ee05dad)\n\nIn the future, we'll let your engineers themselves improve the system, and integrate and link current knowledge systems such as Slack and Confluence. As its comprehension of your codebase grows, the quality of every downstream task improves automatic coding, testing, refactoring, bug fixing, vulnerability detection, and so on.\n\n### Our ask\n\n* If you are a software engineer and have struggled with documentation or onboarding in the past, sign up to try the platform at <https://sage-ai.dev>. We would love to get your feedback!\n* If you know any engineers or engineering managers who might be interested in using our platform with their teams, let us know at [founders@sage-ai.dev](mailto:founders@sage-ai.dev)\n* If you are developing AI systems that deal with codebases, let us know if you are interested in consuming docs and symbol graphs as an API.\n* Share any additional feedback in the comments!\n\nSage AI Team (Akhil and Joshua)",
+      "url": "https://www.ycombinator.com/launches/KKh-sage-ai-your-self-generating-self-maintaining-code-knowledge-base",
+      "votes": 39,
+      "created_at": "2024-02-05T17:43:51.471Z"
+    },
+    {
+      "id": 70729,
+      "title": "Semantic Finance: Real-time AI-powered financial news data",
+      "tagline": "We help firms understand the markets faster and better",
+      "body": "TL;DR: Semantic provides financial institutions a real-time news insights API for events that affect the financial markets. We use trade data, articles, social media engagement data, and breakthroughs in language models to filter the 99% of noise faster than the markets can react.\n\n—\n\n---\n\nHey YC, we’re Josh and Akhil, and we’re building Semantic.\n\nJosh (CEO) met Akhil (CTO) in high school and share a similar interest in how underutilized qualitative data is in financial markets.\n\nWe reconnected after a combined 7 years of experience in Software Engineering at companies such as Google, IBM, Squarespace, and Charles Schwab.\n\nWe’ve been studying how news impacts markets from a quantitative standpoint independently for years. Joshua developed an event-based trading algorithm that Ematiq proposed to implement during his time at Google.\n\n### **The Problem**\n\n\\\nAs trading firms spend tens of millions on microwave networks, racing for the fastest market data and order execution, GPT-4 has introduced a new race for relevant financial information retrieval and processing. Existing news feeds are too slow, unactionable, and noisy. They provide no additional information or filtering on the context, urgency, and market impact.\n\n### **The Solution**\n\n\\\nWe provide a novel insights layer on top of aggregated news and social media feeds, leveraging breakthroughs in LLMs’ (large language models) incredible semantic understanding of text to structure and automatically find the news that matters.\n\nWe monitor clustered mentions across multiple sources, engagement metrics over time, and anomalous price/volume changes to determine the market impact of events in real-time.\n\nOur primary offering is the **Semantic API**, which is article and tweet data that has been cleaned, filtered, and structured using LLMs.\n\n![uploaded image](/media/?type=post&id=70729&key=user_uploads/1192337/9ba82b9b-98ae-4ce5-8295-6a7c25e81ce5)\n\nYou can also receive alerts ahead of the market on events that matter with **Semantic Alerts**. Configure which priority levels activate Discord, Telegram, SMS, email, and phone calls.\n\n![uploaded image](/media/?type=post&id=70729&key=user_uploads/1192337/6a2d288e-0eb9-4eda-95cc-34045e4a01a2)\n\n### **Asks**\n\n* Do you know people at any trading platforms or institutions (hedge funds, prop shops, trading firms) that might benefit from low-latency financial news insights and alerting system?\n* Are you a trading platform or financial institution looking for configurable real-time financial news insights to surface to your customers?\n\n[Sign up for early access](https://semanticfinance.com/)!\n\nSemantic Team (Josh, Akhil)",
+      "url": "https://www.ycombinator.com/launches/IOn-semantic-finance-real-time-ai-powered-financial-news-data",
+      "votes": 30,
+      "created_at": "2023-04-03T23:14:29.451Z"
+    }
+  ]
+}

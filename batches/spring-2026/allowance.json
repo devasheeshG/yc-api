@@ -1,0 +1,78 @@
+{
+  "id": 31447,
+  "name": "Allowance",
+  "slug": "allowance",
+  "former_names": [],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/c21d6adefff883f7581e72ca876529eba262eb64.png",
+  "website": "https://useallowance.com/",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "Allowance lets AI agents make purchases on a user’s behalf without ever exposing your real card number.\r\n\r\nUsers approve purchases directly from their iPhone with customizable controls like spending limits, merchant restrictions, and expiration windows. Once approved, Allowance generates scoped, one-time payment credentials designed specifically for that transaction.\r\n\r\nThis enables AI agents to safely complete tasks like shopping, ordering food, booking reservations, or purchasing tickets while keeping humans in control of every payment.",
+  "one_liner": "The spend control layer for AI agents",
+  "team_size": 1,
+  "industry": "Fintech",
+  "subindustry": "Fintech -> Payments",
+  "launched_at": 1779136455,
+  "tags": [],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Spring 2026",
+  "status": "Active",
+  "industries": [
+    "Fintech",
+    "Payments"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/allowance",
+  "api": "https://devasheeshg.github.io/yc-api/batches/spring-2026/allowance.json",
+  "year_founded": 2026,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://x.com/dasmersingh",
+  "x_url": "https://x.com/dasmersingh",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/c21d6adefff883f7581e72ca876529eba262eb64.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Harj Taggar",
+    "url": "https://www.ycombinator.com/people/harj-taggar"
+  },
+  "founders": [
+    {
+      "user_id": 330737,
+      "full_name": "Dasmer Singh",
+      "title": "Founder/CEO",
+      "founder_bio": "Dasmer Singh is the founder of Allowance, a platform building programmable payment controls for AI agents. Previously he was Head of Product for Cash App Families, where he built financial products for teens and parents. Earlier he worked at Uber, Petal, and Venmo. He studied at Columbia University and Stanford Graduate School of Business.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/dasmer",
+      "x_url": "https://x.com/dasmersingh",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/a6fd23569b3f4da9576f64dd391ce6dc02aac5ff.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 101684,
+      "title": "Allowance: Virtual cards for AI agents",
+      "tagline": "Let AI shop for you without exposing your card.",
+      "body": "**TL;DR:** Allowance lets AI agents safely make purchases on behalf of users using one-time virtual cards with built-in guardrails.\n\n<https://youtu.be/i-V5uPtKEew>\n\n## The Problem\n\nAI agents can now browse websites, research products and complete real-world tasks autonomously, but they cannot complete purchases for you.\n\nUsing AI to buy something usually has meant pasting your real credit card into a prompt and giving an agent unrestricted spending access. That’s dangerous.\n\n## The Solution\n\nAllowance solves this by giving AI agents one-time virtual cards with approval controls and built-in limits. The AI agent never sees the user’s real card number.\n\nUsers can:\\\n• limit spending amounts\\\n• restrict purchases to specific merchants\\\n• approve or deny purchases in real time\\\n• revoke access anytime\\\n• continue using their existing credit cards and rewards\n\nThis unlocks entirely new use cases for AI-powered commerce:\\\n• planning and booking travel, hotels, and flights autonomously within user-defined limits\\\n• tracking products that are out of stock and instantly purchasing them when inventory returns\\\n• securely placing food orders, reservations, ticket purchases, and ecommerce checkouts on a user’s behalf\\\n• monitoring prices and automatically buying when something drops below a target price\\\n• using AI not just to research products, but to actually complete the purchase end-to-end\\\n• letting agents handle repetitive purchases and checkouts across the web\n\nThe recent progress in AI agents, new payment protocols, and browser automation makes it increasingly clear that agents will eventually transact across the internet on behalf of users. Safe guardrails and user-controlled payments infrastructure are the missing layer that makes this possible.\n\nI’ve been using Allowance to place real-world purchases through AI agents including food orders, reservations, and ecommerce checkouts using one-time virtual cards with approval controls.\n\n## The Ask\n\nTry the product, tell me what you’re using it for, how it could better fit into your life, and share feedback. Start here: [useallowance.com](https://useallowance.com/)\n\nI’d especially love to hear new ideas for agentic purchasing use cases and guardrails.\n\n## About Me\n\nI’m Dasmer, founder of Allowance.\n\nI started building Allowance after running into this problem myself while trying to book a reservation using OpenClaw. The agent successfully navigated the flow, but then asked me to paste in my credit card number to hold the reservation. That felt fundamentally wrong — and made it obvious the missing layer for agentic commerce was safe, user-controlled payments.\\\nBefore Allowance, I was Head of Product for Cash App Families, where I helped grow Cash App into the most popular debit card for teens in the US. Earlier in my career, I was also an early iOS engineer at Venmo.\n\n![uploaded image](/media/?type=post&id=101684&key=user_uploads/330737/fffdfc03-e875-4f97-bccf-c3dcaf1f7b30)\n\n",
+      "url": "https://www.ycombinator.com/launches/QS4-allowance-virtual-cards-for-ai-agents",
+      "votes": 62,
+      "created_at": "2026-05-22T06:02:12.944Z"
+    }
+  ]
+}

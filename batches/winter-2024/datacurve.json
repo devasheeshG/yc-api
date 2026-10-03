@@ -1,0 +1,96 @@
+{
+  "id": 29457,
+  "name": "Datacurve",
+  "slug": "datacurve",
+  "former_names": [
+    "Uncle GPT",
+    "Shipd"
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/2c88b32aafe01b51dcfae9875e84ed423eac2c51.png",
+  "website": "https://datacurve.ai/",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "We generate expert quality coding data at scale for fine-tuning LLMs\r\n",
+  "one_liner": "Frontier coding data for training and evaluating LLMs",
+  "team_size": 4,
+  "industry": "B2B",
+  "subindustry": "B2B",
+  "launched_at": 1709498358,
+  "tags": [],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Winter 2024",
+  "status": "Active",
+  "industries": [
+    "B2B"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Growth",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/datacurve",
+  "api": "https://devasheeshg.github.io/yc-api/batches/winter-2024/datacurve.json",
+  "year_founded": 2024,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/datacurveai",
+  "x_url": "https://twitter.com/datacurve_ai",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/2c88b32aafe01b51dcfae9875e84ed423eac2c51.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Garry Tan",
+    "url": "https://www.ycombinator.com/people/garry-tan"
+  },
+  "founders": [
+    {
+      "user_id": 620797,
+      "full_name": "Serena Ge",
+      "title": "Founder/CEO",
+      "founder_bio": "Started building software in high school - built a climbing training app with Team Canada athletes. Studied at Waterloo CS for a year then dropped out. Worked with the Cohere CTO on LLM reasoning and coding capabilities through synthetic data. Went to YC W24, pivoted 3 times until Datacurve. Now scaling high quality coding data production pipelines at Datacurve to enable next generation coding models",
+      "is_active": true,
+      "linkedin_url": "https://linkedin.com/in/serena-ge-4583731b4",
+      "x_url": "https://twitter.com/serenaa_ge",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/aead79f46a292e52fd9392fe0eb35f642c7a9af8.jpg"
+    },
+    {
+      "user_id": 1321018,
+      "full_name": "Charley Lee",
+      "title": "Founder",
+      "founder_bio": "Hacking on things since middle school. Went to Waterloo CS, interned at Google, then dove into AI research on multi-modal RL and training browser-use agents. Went through YC W24, pivoted a few times, and landed on Datacurve – now providing the data infrastructure for frontier LLMs.",
+      "is_active": true,
+      "linkedin_url": "https://linkedin.com/in/charley-lee",
+      "x_url": "https://x.com/charleyslee",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/a566a58790bbcd41c1aaf8044d52a863dab5f70b.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [
+    {
+      "title": "Datacurve raises $15 million to take on ScaleAI | TechCrunch",
+      "url": "https://techcrunch.com/2025/10/09/datacurve-raises-15-million-to-take-on-scaleai/",
+      "date": "Oct 09, 2025"
+    }
+  ],
+  "launches": [
+    {
+      "id": 79129,
+      "title": "Datacurve - High quality code data to train foundation models",
+      "tagline": "Providing code data by the best engineers, so you can build the most capable model",
+      "body": "Hi! We’re [Serena Ge](https://linkedin.com/in/serena-ge-4583731b4) and [Charley Lee](https://linkedin.com/in/charley-lee) from [Datacurve](https://datacurve.ai/)!\n\nDatacurve provides expert quality code data at scale from highly skilled software engineers.\n\n* **Generative AI dev-tool startups** use custom data for models to optimize for tasks such as code editing, design to code, PR generation, etc.\n* **Foundation model** **labs** need expert data to improve general model coding capabilities like code debugging, code completion, code explanation, and others.\n\n### **The Problem – Why getting high-quality code data is _so hard_**\n\nFrom our experience training models, we believe the biggest bottleneck of progressing vertical LLM capabilities is the lack of curated, high-quality training data.\n\nAcquiring this high-quality data is difficult because:\n\n1. **Consistent, high-quality code data cannot be synthetically generated or scraped**. Tasks are often too challenging or specific for even the most capable models, and even a few incorrect samples can noticeably worsen the final training results.\n2. **Hiring human annotators is tricky**. Manual data labeling en masse tends towards low-skill gig work; it’s difficult to hire and retain highly competent engineers as annotators.\n\n### **The Solution**\n\nWe solve the data problem with our gamified annotation platform that attracts the best engineers to come and solve fun coding problems. We have already brought on top competitive programmers, as well as highly competent engineers who have worked at companies like Amazon and AMD.\n\nIn general, we get great engineers who **1) already have good careers**, and **2) already enjoy doing programming challenges outside of work**. Our gamified platform pays them for solving problems, which they already do for fun.\n\n![uploaded image](/media/?type=post&id=79129&key=user_uploads/620797/f311b3ee-119f-4564-9ebb-f3e9342d2781)\n\nData for **AI dev-tool startups** to train use-case specific models:\n\n* UI design to React components generation\n* Framework-specific optimized code generation\n* Repository-wide automatic PRs from GitHub issues\n* Intelligent coding copilot integrated IDEs. Data for code completion and debugging\n\nFor **foundation model labs**, the kinds of data our platform creates are:\n\n* Refactoring code for readability\n* Improving code for performance\n* Code generation for difficult problems or new features\n* Debugging runtime errors\n* Code walkthrough and explanation\n\n### **Our Team’s story **[**🧗‍♀️**](https://emojipedia.org/woman-climbing)** → 👨‍💻 → 👴 →**[**📊**](https://emojipedia.org/bar-chart)\n\nIn high school, I built a climbing training app with World Cup climbers, used by 3700 athletes from over 17 countries. Using the app I made myself, I qualified for Nationals twice!\n\nThis building experience was so amazing that it made me decide to study CS at UWaterloo, where I kept bumping into [Charley Lee](https://linkedin.com/in/charley-lee) in AI reading groups and advanced CS classes. So we started building together:\n\nWhile Charley interned at Google, we made a planning tool called UncleGPT that reached 930 users who created 1.3k projects and sent 5.5k messages on our platform.\n\nI interned at Cohere, where I trained models to improve reasoning capabilities through solving algorithms and gameplay.\n\nWe’re 19 now and building Datacurve.\n\n![](https://media.discordapp.net/attachments/1015470040755208252/1214702964816617544/IMG_1056.png?ex=65fa134a&is=65e79e4a&hm=b953fe679d9e73169fd4de1755f0354dc17365f7faf8178c05771fc866bebcbd&)\n\n### **Our Ask**\n\n* If you need **custom data** for your application (e.g., code editing, design to code, etc.), we should talk!\n* If you can introduce us to more foundation model labs, that would be amazing. Feel free to email me at [serena@datacurve.ai](mailto:serena@datacurve.ai)!\n\n  Thanks for supporting us!",
+      "url": "https://www.ycombinator.com/launches/KaH-datacurve-high-quality-code-data-to-train-foundation-models",
+      "votes": 109,
+      "created_at": "2024-03-06T19:47:13.837Z"
+    }
+  ]
+}

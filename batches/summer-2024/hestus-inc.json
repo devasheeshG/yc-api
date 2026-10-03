@@ -1,0 +1,119 @@
+{
+  "id": 29737,
+  "name": "Hestus, Inc.",
+  "slug": "hestus-inc",
+  "former_names": [
+    "Kaiso",
+    "Hestus Inc"
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/f2dcfde1bafa60796981ae7624ad15e71586a290.png",
+  "website": "https://www.hestus.co",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "Hestus is AI-powered CAD software that speeds up hardware development. While engineers are typically quick at coming up with initial design concepts, they are bogged down getting from idea to the final design due to countless tedious and repetitive tasks. We are building CAD software that automates these mundane tasks and speeds up the design execution process, while letting engineers spend more time on the creative part of the design process.\r\n",
+  "one_liner": "An AI-powered CAD software",
+  "team_size": 3,
+  "industry": "B2B",
+  "subindustry": "B2B -> Engineering, Product and Design",
+  "launched_at": 1722282932,
+  "tags": [],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": true,
+  "nonprofit": false,
+  "batch": "Summer 2024",
+  "status": "Active",
+  "industries": [
+    "B2B",
+    "Engineering, Product and Design"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada",
+    "Remote",
+    "Partly Remote"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/hestus-inc",
+  "api": "https://devasheeshg.github.io/yc-api/batches/summer-2024/hestus-inc.json",
+  "year_founded": 2024,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/hestus-inc",
+  "x_url": "",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/f2dcfde1bafa60796981ae7624ad15e71586a290.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": null,
+  "founders": [
+    {
+      "user_id": 295796,
+      "full_name": "Sohrab Haghighat",
+      "title": "Founder/CEO",
+      "founder_bio": "Sohrab is a 2x YC founder, currently running Hestus, Inc (S24). Prior to that, Sohrab was founder and CEO of SpaceRyde (W19), a space transportation company, and ran the company for 6 years before selling the IP. Before starting SpaceRyde, Sohrab was an early employee of Cruise and ran Planning and Controls Teams.\nSohrab holds a PhD in Aerospace Engineering, has published 13 patents and 23 technical papers.  ",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/sohrabhaghighat/",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/313bc40c9476e7147d5e842b8bae9ad2b330cad9.jpg"
+    },
+    {
+      "user_id": 1979073,
+      "full_name": "Kevin Chu",
+      "title": "Founder/CTO",
+      "founder_bio": "Kevin is leading the engineering and product as the CTO at Hestus (S24).  Previously, he led Autonomous Vehicle engineering at Cruise, growing the team from 20 to 300 over seven years and holds a Robotics PhD from UCLA. He also worked in multiple robotics startups including energy and medical spaces",
+      "is_active": true,
+      "linkedin_url": "https://linkedin.com/in/kevin-chu-11a4511",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/72cc21db586a61f4bc4ee8969d5c6ce8f617529b.jpg"
+    }
+  ],
+  "jobs": [
+    {
+      "id": 91689,
+      "title": "Senior Software Developer",
+      "url": "https://www.ycombinator.com/companies/hestus-inc/jobs/FapkglH-senior-software-developer",
+      "location": "San Mateo, CA, US",
+      "type": "Full-time",
+      "role": "Engineering",
+      "role_type": "Full stack",
+      "salary_range": "$180K - $250K",
+      "equity_range": "",
+      "experience": "6+ years",
+      "visa": "US citizen/visa only",
+      "skills": []
+    },
+    {
+      "id": 91690,
+      "title": "Machine Learning Engineer",
+      "url": "https://www.ycombinator.com/companies/hestus-inc/jobs/qwD5liP-machine-learning-engineer",
+      "location": "San Mateo, CA, US",
+      "type": "Full-time",
+      "role": "Engineering",
+      "role_type": "Machine learning",
+      "salary_range": "$180K - $240K",
+      "equity_range": "",
+      "experience": "6+ years",
+      "visa": "US citizen/visa only",
+      "skills": []
+    }
+  ],
+  "news": [],
+  "launches": [
+    {
+      "id": 95212,
+      "title": "Hestus - AI for hardware development",
+      "tagline": "Hestus helps engineers work 2.5x faster with 4x fewer clicks",
+      "body": "Hi YC!\n\nThis is [Kevin](https://www.linkedin.com/in/kevin-chu-11a4511/) and [Sohrab](https://www.linkedin.com/in/sohrabhaghighat) from Hestus and we are building an AI for Hardware Design. \n\n# **TL;DR: There is no such thing like code completion for CAD, so we built it.**\n\nOur first tool, Sketch Helper, natively integrates into your CAD environment. It understands your design intent, and predicts your next move.\n\n* Makes sketching **2.5x faster**\n* Requires **4x fewer** clicks\n* Accept suggestions with a single key stroke\n* Over **1000 engineers** are already using it\n\n[**https://youtu.be/-I6IZCwt-rw**](https://youtu.be/-I6IZCwt-rw)\n\n# **Problem**\n\nMechanical engineers are fast at conceptual design but get buried in \"click-work.\"  Getting a concept ready for manufacturing takes countless, manual and error-prone clicks to assign constraints and dimensions.\n\nAs one of our users said: \n\n> Only a third of my time goes into real design work. The rest is just clicking through sketches and dimensions, and I can only click so fast. \n\n# **Solution**\n\nWe built “Sketch Helper,” a copilot for sketching in CAD. \n\nIt understands your design intent and proposes your next move, may it be adding constraints, missing dimensions, or even additional geometries to your sketch. You can preview any of the proposed changes in a red overlay and accept it with a single keystroke.\n\n![uploaded image](/media/?type=post&id=95212&key=user_uploads/295796/26c0f9a0-6a9e-43e5-abc3-aab8f5b9f773)\n\nNext, we are going to expand into full 3D and build “**Mate Helper**” and “**GD&T Helper**” to help not just with design but as well as design for manufacturing.\n\n# **The big vision**\n\nThe biggest problem in hardware is the silo between design and manufacturing, which leads to endless, costly iterations.\n\nThe push to reshore American manufacturing has hit a major bottleneck: we lack the deep bench of manufacturing experts we once had. As Tim Cook noted, the skilled tooling and manufacturing expertise is no longer concentrated here (https://youtu.be/_ng8xQ-SNGc?si=WzfP4aCJmec1lJo4&t=547).\n\nOur AI learns design intent by observing an engineer's actions in CAD. By starting with sketching, we are building the foundation model that understands why a part is designed a certain way.\n\nThis is the key to an AI that can provide real-time manufacturability feedback, bridging the gap between design and manufacturing and automating the tooling design process.\n\n# **Who we are why we are the team to crack this nut**\n\nWe’ve felt this pain firsthand. We (Kevin and Sohrab) were both early employees at Cruise. Kevin led the AV engineering team, scaling it from 20 to 300+ people. Sohrab founded the rocket company SpaceRyde (YC W19) securing millions in launch contracts and led laser tech development at Mitsubishi. We’ve built and shipped AI for self-driving cars, surgical robotics, and rocket launches. Now, we are fixing hardware development.\n\n# **Ask**\n\n* For Autodesk Fusion users: Please try [Sketch Helper](http://www.hestus.co/download). It's free and we guarantee it will make you faster.\n* For everyone else: What CAD platform do you or your team use? Reach\n\n  us out at [founders@hestus.co](mailto:founders@hestus.co). We are prioritizing our expansion based on your feedback.\n* If you are building hardware, we would love to hear about the biggest challenges that slow you down.\n\n![uploaded image](/media/?type=post&id=95212&key=user_uploads/295796/282427a7-5fd1-4532-bcf8-30182920c3a5)\n\n",
+      "url": "https://www.ycombinator.com/launches/Olg-hestus-ai-for-hardware-development",
+      "votes": 149,
+      "created_at": "2025-11-05T23:24:26.331Z"
+    }
+  ]
+}

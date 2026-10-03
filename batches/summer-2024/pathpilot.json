@@ -1,0 +1,91 @@
+{
+  "id": 29983,
+  "name": "PathPilot",
+  "slug": "pathpilot",
+  "former_names": [],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/e75c7444d35c6b426ac80829e6ed40b07d33577d.png",
+  "website": "https://www.getpathpilot.com/",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "Today, onboarding, servicing, and collections still depend on large human teams — which means operations scale linearly with loan volume. PathPilot deploys specialized AI agents that handle 60–80% of high-volume operational workflows, turning human-heavy processes into scalable software. These agents operate alongside internal teams — embedded directly into existing systems. This allows lenders to grow loan volume and revenue without proportional headcount growth. ",
+  "one_liner": "AI Agents for Lending Operations",
+  "team_size": 3,
+  "industry": "B2B",
+  "subindustry": "B2B",
+  "launched_at": 1724891975,
+  "tags": [
+    "Finance",
+    "B2B",
+    "Lending",
+    "AI"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Summer 2024",
+  "status": "Active",
+  "industries": [
+    "B2B"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/pathpilot",
+  "api": "https://devasheeshg.github.io/yc-api/batches/summer-2024/pathpilot.json",
+  "year_founded": 2024,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/getpathpilot",
+  "x_url": "",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/e75c7444d35c6b426ac80829e6ed40b07d33577d.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Brad Flora",
+    "url": "https://www.ycombinator.com/people/brad-flora"
+  },
+  "founders": [
+    {
+      "user_id": 254075,
+      "full_name": "Victor Laguna",
+      "title": "Founder/CTO",
+      "founder_bio": "Founder of PathPilot. Engineer with vast experience growing software products.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/vlaguna/",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/10fb6a951e54fa676974095d66e07580fc2e7b57.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 105486,
+      "title": "PathPilot - AI Platform for Lenders",
+      "tagline": "AI agents that help lenders grow without scaling operational headcount.",
+      "body": "Today, we’re launching PathPilot Agents for Lending: specialized AI agents that help consumer lenders automate origination, servicing, collections, and quality on their operations.\n\n## The problem\n\nConsumer lenders need to grow, but lending operations are still expensive, manual, and dependent on large internal teams and external vendors.\n\nBorrowers are often asked to submit the same information multiple times, wait for manual reviews, and navigate disconnected processes across origination, servicing, and collections.\n\nFor lenders, this means higher operating costs, slower decisions, inconsistent customer experiences, and difficulty scaling without adding more headcount.\n\nCurrent AI solutions are not enough. Without specialization, guardrails, and the right operational context, agent quality breaks down—especially in regulated, customer-facing workflows.\n\n## What we built\n\nPathPilot builds specialized AI agents for lending operations, powered by a proprietary harness that connects AI models directly to each lender’s workflows, systems, policies, and data.\n\nIt starts with the **Origination Agent**, which guides borrowers through WhatsApp or web forms, collects the right information, pre-verifies documents, and connects with underwriting, identity, and fraud systems to support faster decisions.\n\nOnce the loan is active, the **Servicing Agent** helps customers with payments, balances, questions, and account updates across voice, WhatsApp, chat, and email.\n\nWhen a payment is missed, the **Collections Agent** follows up compliantly, keeps full conversation and account context, connects with call center and CRM systems, and negotiates next steps to drive resolution.\n\nBehind every workflow, the **Audit and Quality Agent** reviews every interaction and action, identifies quality or compliance risks, and provides actionable feedback that helps both human teams and AI agents improve continuously.\n\n<https://www.youtube.com/watch?v=aAQ1mLB-qPo>\n\n## One agent or a coordinated workforce\n\nLenders can start with a single agent for one workflow or deploy a coordinated workforce of agents that work together and share context.\n\nFor example, the Origination Agent can pass a customer’s application history to the Servicing Agent. If the account later becomes delinquent, the Collections Agent can use the same operational context rather than starting the relationship from zero.\n\nThe Audit and Quality Agent works across the entire system, creating a continuous feedback loop that improves accuracy, customer experience, and compliance.\n\nBecause PathPilot is built on a modular framework, internal AI and engineering teams can extend, customize, and ultimately own the system as their capabilities grow.\n\nWe do not want lenders to become permanently dependent on another black-box vendor. We want to give them a reliable foundation for building and operating their own AI workforce.\n\n## Why we built this\n\nThe problem became personal when I tried to finance my first car after moving to the U.S.\n\nI had no local credit history and very little understanding of how the process worked. I went through a long and frustrating process in which multiple lenders manually reviewed my application, repeatedly requested information, and ultimately offered me a loan with very high fees.\n\nToday, as a real estate investor, I still experience many of the same problems when applying for a mortgage or refinancing a property. The process remains slow, repetitive, and difficult to navigate—even when you understand how lending works.\n\nThere needs to be a better way.\n\nBefore PathPilot, David and I spent years building and operating AI first products at Meta. We learned that making AI work reliably in production requires much more than choosing a model. It requires integrations, evaluations, guardrails, feedback loops, and deep operational context.\n\nWe started PathPilot to bring that infrastructure to lending—so lenders can operate more efficiently and borrowers can receive a faster, clearer, and more responsive experience.\n\n## Where we are today\n\nPathPilot agents are already supporting fintech lenders, BNPLs, embedded lending platforms, and collections organizations across the U.S. and Latin America.\n\nOur customers use PathPilot for workflows including conversational origination, document validation, servicing, collections, and quality assurance.\n\n## Our ask\n\nWe would love to speak with:\n\n* Consumer lenders, BNPLs, neobanks, and embedded lending companies\n* Operations, servicing, collections, risk, and compliance leaders\n* Lending platforms interested in offering specialized AI agents to their customers\n* Internal AI teams looking for a framework they can customize and eventually own\n\nBook a demo at [getpathpilot.com](http://getpathpilot.com).",
+      "url": "https://www.ycombinator.com/launches/RRO-pathpilot-ai-platform-for-lenders",
+      "votes": 10,
+      "created_at": "2026-07-13T16:26:42.554Z"
+    },
+    {
+      "id": 83625,
+      "title": "PathPilot: The AI model that understands session replay data",
+      "tagline": "Use our API to make your session replays useful",
+      "body": "At [PathPilot](https://www.getpathpilot.com/), we are building an AI model (called UXOB) that accurately captures how users interact with software products. We are now making UXOB available via API to a select group of early partners. Email [founders@getpathpilot.com](https://mailto:founders@getpathpilot.com) or [schedule a call](https://calendly.com/vlad-getpathpilot/30min) if you are interested in learning more. \n\n![uploaded image](/media/?type=post&id=83625&key=user_uploads/707937/0f538406-78a1-4406-a6bd-02bb499271ab)\n\n### What is it?\n\nUXOB is an AI model that ingests session replay files and generates user session data like narratives, summaries, tags, and alerts. \n\n![uploaded image](/media/?type=post&id=83625&key=user_uploads/707937/08220806-5300-45a6-b804-ef709e81b744)\n\n### Why are we building UXOB?\n\nMost session replays end up unused, despite containing invaluable information about user experiences. UXOB helps companies unlock the hidden potential of their user experience data to power new features and automation. \n\n### Who did we build UXOB for?\n\nUXOB is built for companies that offer session replays as part of their platform. Our API is designed to be compatible with rrweb-based providers, and we are expanding to other formats. We also support companies with an existing session replay provider that want to build custom automations or features based on their user journeys. \n\n### How do you get started?\n\nWe’re opening up UXOB to a select group of early partners. If you’re interested in incorporating AI-driven session replay observation into your product offering or internal workflows, get in touch with us at [founders@getpathpilot.com](mailto:founders@getpathpilot.com) or [book a time](https://calendly.com/vlad-getpathpilot/30min). \\\nThank you!\n\nVlad and Victor",
+      "url": "https://www.ycombinator.com/launches/Lkn-pathpilot-the-ai-model-that-understands-session-replay-data",
+      "votes": 58,
+      "created_at": "2024-08-30T19:19:31.594Z"
+    }
+  ]
+}

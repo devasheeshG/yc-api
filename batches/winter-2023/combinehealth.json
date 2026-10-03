@@ -1,0 +1,103 @@
+{
+  "id": 27966,
+  "name": "CombineHealth",
+  "slug": "combinehealth",
+  "former_names": [
+    "Oodles.ai",
+    "upTrain AI",
+    "UpTrain",
+    "UpTrain AI"
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/3300df884c68b249e62977103a165c1536ec5e0e.png",
+  "website": "https://www.combinehealth.ai/",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "Preventing revenue leakage in health systems using AI",
+  "one_liner": "Automating Healthcare Revenue Cycle Management with AI Workforce",
+  "team_size": 15,
+  "industry": "Healthcare",
+  "subindustry": "Healthcare -> Healthcare IT",
+  "launched_at": 1675744580,
+  "tags": [
+    "Artificial Intelligence",
+    "Machine Learning",
+    "Healthcare"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Winter 2023",
+  "status": "Active",
+  "industries": [
+    "Healthcare",
+    "Healthcare IT"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/combinehealth",
+  "api": "https://devasheeshg.github.io/yc-api/batches/winter-2023/combinehealth.json",
+  "year_founded": 2022,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/combine-health/",
+  "x_url": "",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": "https://github.com/uptrain-ai/uptrain",
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/3300df884c68b249e62977103a165c1536ec5e0e.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": null,
+  "founders": [
+    {
+      "user_id": 588096,
+      "full_name": "Sourabh Agrawal",
+      "title": "Founder",
+      "founder_bio": "Sourabh has been building and deploying machine-learning models for the last 8 years. Previously he co-founded Insane.ai (an AI-powered fitness app) - a seed-funded startup where he built state-of-the-art computer vision models, scaled the product to 150k+ users, and grew the team to 20+ members. Before starting up, Sourabh worked as an AI consultant at Bosch (autonomous driving) & a quant associate at Goldman Sachs. He graduated from IIT Bombay, where he studied Electrical Engineering.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/sourabh-agrawal-62932b175/",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/24492d8f269bdb121604a7a0991458c40d838bfe.jpg"
+    },
+    {
+      "user_id": 500862,
+      "full_name": "Shikha Mohanty",
+      "title": "Founder",
+      "founder_bio": "Shikha was a venture builder and SaaS investor in the past. She has worked with several deeptech companies in her previous work experience and has contributed to their growth journeys by providing support on their GTM startegy",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/shikhamohanty/",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/8a59dd62220d49df3b92feaa3bfabd8a04ab4040.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 77918,
+      "title": "UpTrain AI: Enterprise-grade tooling to ship LLM applications confidently",
+      "tagline": "Full-stack LLMOps platform for all your production needs 🔧",
+      "body": "**TLDR:** Hi, everyone. We are Shikha & Sourabh, and we help companies ship LLM applications confidently. We provide enterprise-grade tools to evaluate, experiment, monitor, and test LLM changes easily. We provide seamless collaboration, and [being OSS](https://github.com/uptrain-ai/uptrain), we provide tons of customization and self-hosting capabilities to satisfy your data governance needs.\n\n### **PROBLEM 🤔:**\n\n**“Building LLM prototypes is easy, but productionising them is damn hard.”** (You might have guessed it given we are building an LLMOps platform 😉). So, LLMs are unpredictable and dealing with them is complex and messy:\n\n1. You spend countless hours manually reading through your chatbot responses or analyzing the actions of your automation agents.\n2. Fixing the prompt to solve one failure case opens a can of worms and can make previous answers go bad.\n3. Improvements are always reactive - users complain, and then you go back and fix them, eroding their trust and your credibility. \n4. Collaborating with your team is messy - countless Google Docs and Slack channels are created to debug failure cases.\n\n### **SOLUTION 💡:**\n\nUpTrain provides the most advanced LLMOps platform to streamline the complete process. It goes beyond just giving scores or monitoring logs but provides a single platform to identify, debug, and collaborate to improve the accuracy of your LLM applications. \n\n* We give reliable scores over various metrics (both LLM-based and classical NLP ones) as well as allow you to define custom ones to evaluate your full LLM pipeline comprehensively.\n\n![uploaded image](/media/?type=post&id=77918&key=user_uploads/588096/c9c6e03f-be80-4799-a783-05074f0d72ea)\n\n* We run root cause analysis to identify if it is a retrieval issue, if your context requires reranking, if the LLM is unable to utilize the context, or if certain instructions are not being followed.\n\n![uploaded image](/media/?type=post&id=77918&key=user_uploads/588096/117c15f7-c03b-4821-b033-8ab4b0d6e3df)\n\n* State-of-the-art techniques for automated prompt optimization, automatic eval generation, finding common topics among failure cases, etc., to act as your LLMOps co-pilot.\n\n![uploaded image](/media/?type=post&id=77918&key=user_uploads/588096/e190b97e-49f9-45be-9dba-ec8233e3f2fe)\n\nBest of all, UpTrain is open-source under Apache 2.0 with more than 1700 GitHub stars and adoption among developers across multiple Fortune 500 companies. Being OSS, UpTrain has tons of customization options and can be deployed in your secure cloud environment, fulfilling your data governance requirements.\n\n### **OUR ASK 🙌:**\n\n1. If you are building LLM applications, we would love to get feedback on [our platform](https://uptrain.ai/).\n2. If you are doing evaluations with home-grown solutions, let us know what they are. We would be happy to add them to [our OSS](https://github.com/uptrain-ai/uptrain).\n3. Join [our Slack community](https://join.slack.com/t/uptraincommunity/shared_invite/zt-1yih3aojn-CEoR_gAh6PDSknhFmuaJeg) to stay updated on our progress.\n\nIf you want a demo or want to chat more, please [book a call here.](https://calendly.com/uptrain-sourabh/30min)",
+      "url": "https://www.ycombinator.com/launches/KGk-uptrain-ai-enterprise-grade-tooling-to-ship-llm-applications-confidently",
+      "votes": 40,
+      "created_at": "2024-01-29T15:19:58.364Z"
+    },
+    {
+      "id": 69166,
+      "title": "UpTrain - Open-source tool to observe your ML models ⚙️ 🔧",
+      "tagline": "Open-source Datadog for machine learning models ",
+      "body": "**TL;DR:** UpTrain is an open-source ML observability and refinement tool. It helps data scientists observe how their ML models are performing in production and continuously improve them over time by automatically retraining them on cases where the model accuracy was low.\n\n**Hi everyone!** Sourabh, Vipul, and Shikha here, and we’re the team behind UpTrain. \n\nSourabh (CEO), previously founder at fitness tech, where he spent most of his time improving their AI models rather than, well, working out 🏋️\n\nVipul (CTO), previously worked at Meta and Bytedance, where he was busy applying his doctorate knowledge (yes, the Ph.D. kind) to improve their ML models 🔭\n\nShikha (CMO), an ex-VC, where she witnessed the magnanimity of AI problems from the inside of her portfolio companies and this is where she got her eureka moment 🔔\n\n![uploaded image](/media/?type=post&id=69166&key=user_uploads/588096/a21aa066-6198-48c0-8c27-354f6e4ba73a)\n\n### **Problem (The Origin Story 📖)**\n\nDuring the last 7+ years of building and deploying ML models, we have been constantly frustrated due to a lack of good tools that could answer one simple question - “Are our models working as expected in production?“\n\nSourabh first experienced this issue while working on self-driving cars at a Fortune 500 company. Then again he faced similar issues at his startup. The only way the model issues were highlighted was through reading loads of customer complaints, and it was excruciating to see their (hard-earned) revenue churn due to model degradation **😩.** \n\nCoincidentally, Vipul was solving the same problem at the big techs, where he built internal observability tools and optimized model retraining processes. The three founders spoke to 100+ ML practitioners to validate their hypothesis and got a unanimous yes! In fact, during one of the user interviews, we learned that an innocuous bug in the model deployment code led to 3+ weeks of wasted debugging efforts and losses of millions of revenue dollars 🤯\n\nWe are building UpTrain to prevent you from experiencing the same agony!\n\n### **The Solution 💡**\n\nUpTrain is built specifically for Machine Learning. We natively support all the things an ML practitioner requires to observe and improve their models.\n\n✅ Complete visibility into your model’s online health via real-time dashboards \n\n✅ Automatically collects outliers and edge cases \n\n✅ Identifies data distribution shifts \n\n✅ Monitors quality of object embeddings\n\n✅ Model explainability \n\n✅ Continuously retrains and improves your model \n\nCherry on the cake, we are Open-source! Some of the biggest AI-first startups are adopting UpTrain to fulfill their ML observability needs.\n\n### **How to use UpTrain 🤔**\n\nInstall UpTrain from pip, just tell it what all you want to observe, and UpTrain handles all the complexities in the background. Something as simple as below:\n\n![uploaded image](/media/?type=post&id=69166&key=user_uploads/588096/3f9f9f08-df84-480d-af42-62a6af0950c2)\n\nWe DO NOT require you to change any part of your production pipelines and readily integrate with all major ML libraries and tools. In fact, we are running a limited beta program where we provide a no-strings-attached pilot and do all the heavy lifting to ensure seamless integration of UpTrain in your systems. Ping us to know more!\n\n### **Our Ask 🙌**\n\n* Interested? Try us [out](https://uptrain.ai/) or book a demo [here](https://calendly.com/uptrain-ai/30min?month=2023-02) 🔥\n* To follow our progress, do star our [project](https://github.com/uptrain-ai/uptrain) on Github (show us some love - it’s free ❤️) \n* Know someone who needs ML observability, connect us 🔗\n\nFeel free to reach out to any of us with questions, bugs, requests, etc. at [sourabh@uptrain.ai](mailto:sourabh@uptrain.ai)",
+      "url": "https://www.ycombinator.com/launches/Hza-uptrain-open-source-tool-to-observe-your-ml-models",
+      "votes": 169,
+      "created_at": "2023-02-09T18:18:08.592Z"
+    }
+  ]
+}

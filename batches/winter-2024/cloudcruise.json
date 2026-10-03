@@ -1,0 +1,127 @@
+{
+  "id": 29317,
+  "name": "CloudCruise",
+  "slug": "cloudcruise",
+  "former_names": [],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/71e4ab89282d96cbbe0eb42a1883f2331e1c77c3.png",
+  "website": "https://cloudcruise.com",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "Build healthcare browser automations faster. Run self-healing payer portal and EHR workflows on a fully managed infrastructure.",
+  "one_liner": "The developer platform for fast and reliable browser agents",
+  "team_size": 7,
+  "industry": "B2B",
+  "subindustry": "B2B",
+  "launched_at": 1708630326,
+  "tags": [],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": true,
+  "nonprofit": false,
+  "batch": "Winter 2024",
+  "status": "Active",
+  "industries": [
+    "B2B"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/cloudcruise",
+  "api": "https://devasheeshg.github.io/yc-api/batches/winter-2024/cloudcruise.json",
+  "year_founded": 2024,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/cloudcruise",
+  "x_url": "https://twitter.com/cloudcruise_app",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/71e4ab89282d96cbbe0eb42a1883f2331e1c77c3.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Pete Koomen",
+    "url": "https://www.ycombinator.com/people/pete-koomen"
+  },
+  "founders": [
+    {
+      "user_id": 1375772,
+      "full_name": "Adrian Ziegler",
+      "title": "Founder/CEO",
+      "founder_bio": "Co-founder at CloudCruise",
+      "is_active": true,
+      "linkedin_url": "https://linkedin.com/in/adrian-ziegler",
+      "x_url": "https://twitter.com/adrmtu",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/4c31719fc165999c5b2729042e4911086785bd3b.jpg"
+    },
+    {
+      "user_id": 1644801,
+      "full_name": "Felix Martin Eckert",
+      "title": "Founder/CTO",
+      "founder_bio": "Co-founder at CloudCruise",
+      "is_active": true,
+      "linkedin_url": "https://linkedin.com/in/felix-eckert-807095191",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/c54b3990a8ccf248f388aa6ca98de49adf9909ad.jpg"
+    }
+  ],
+  "jobs": [
+    {
+      "id": 107903,
+      "title": "Forward Deployed Operator",
+      "url": "https://www.ycombinator.com/companies/cloudcruise/jobs/d7yxx7Z-forward-deployed-operator",
+      "location": "San Francisco, CA, US",
+      "type": "Full-time",
+      "role": "Operations",
+      "role_type": null,
+      "salary_range": "$150K - $200K",
+      "equity_range": "0.10% - 0.50%",
+      "experience": "1+ years",
+      "visa": "US citizen/visa only",
+      "skills": []
+    }
+  ],
+  "news": [
+    {
+      "title": "We raised $5M to make healthcare browser automation reliable at scale - My Framer Site",
+      "url": "https://cloudcruise.com/blog/seed-round",
+      "date": "Mar 19, 2026"
+    },
+    {
+      "title": "AI and the Future of Human Productivity | Tech Times",
+      "url": "https://www.techtimes.com/articles/303834/20240422/ai-and-the-future-of-human-productivity.htm",
+      "date": "Apr 21, 2024"
+    },
+    {
+      "title": "Startups building AI assistants pop in latest YC batch",
+      "url": "https://www.bizjournals.com/sanfrancisco/inno/stories/news/2024/04/04/ai-assistants-y-combinator-demo-day.html",
+      "date": "Apr 04, 2024"
+    }
+  ],
+  "launches": [
+    {
+      "id": 103725,
+      "title": "CloudCruise - Build healthcare browser automations faster",
+      "tagline": "Run self-healing payer portal and EHR workflows on fully managed infrastructure",
+      "body": "Last month, we served 500,000+ browser automations for some of the fastest growing healthcare companies in the US. CloudCruise is now GA.\n\n**The problem with browser agents today**\\\nBuilding browser agents with current frameworks seems promising until you hit production. The observation-action loop - where LLMs observe, reason, and act at runtime - is slow, expensive, and hard to debug.\n\n**How CloudCruise works differently**\\\nCloudCruise solves this by generating deterministic automation workflows instead. Our platform uses two specialized agents: a Builder Agent that converts your business process description into a deterministic browser automation workflow, and a Maintenance Agent that fixes broken workflows once they’re in production.\n\nThe Builder Agent takes your workflow description (or an existing SOP) and generates an automation workflow. You watch it work in real-time and clarify edge cases. Credentials are stored securely in your vault.\n\nThe Maintenance Agent keeps scripts alive in production. When a payer portal changes its selectors, adds a popup, or goes down, the Maintenance Agent detects it, classifies the error, and fixes it automatically. Complex issues escalate to a human.\n\n**Why this architecture wins**\\\nLLM costs are amortized over thousands of runs instead of paid on every step. Once in production, workflows are versionable, behave consistently and run at browser-native speed.\n\n**Try It**\\\nIf you're building in healthcare, sign up at [app.cloudcruise.com](http://app.cloudcruise.com) and try us out. We're live with dozens of teams doing eligibility verification, prior auth, payment posting and more.\n\n—\\\nExplainer: <https://www.youtube.com/watch?v=RkBO8mjhPyA>\\\nProduct Walkthrough: <https://youtu.be/0ggfJ0Q2Szs>",
+      "url": "https://www.ycombinator.com/launches/Qyz-cloudcruise-build-healthcare-browser-automations-faster",
+      "votes": 0,
+      "created_at": "2026-06-23T03:55:25.154Z"
+    },
+    {
+      "id": 79207,
+      "title": "CloudCruise - Automation that works like humans do",
+      "tagline": "Automate repetitive work in your browser like generating leads, filling out forms or processing orders.",
+      "body": "![uploaded image](/media/?type=post&id=79207&key=user_uploads/682099/1d9ebede-6872-499f-835d-bb6ef6249f42)\n\n**😡 CloudCruise was created to solve our own problem!**\n\nWhile working on our previous idea, we spent 20 hours each week checking the websites of hundreds of companies to see if they met our target criteria.\n\nWe wanted to automate this process, but we couldn’t find any good options. APIs were too limited and none of the web automation tools worked.\n\nIt turned out that other founders were also looking for solutions to this problem. More generally, knowledge workers are spending hours doing repetitive tasks, which can’t be automated with current tools. We found HR teams filling out admin forms, Operations processing orders, and Sales manually prospecting. \n\n**☁️ CloudCruise automates repetitive work in the browser**\n\n[CloudCruise](https://cloudcruise.com/) processes a list of items with a step-by-step workflow. You can use our tool to grab any list on the web, or you can upload a CSV. \n\nWorkflows are made up of a series of actions like inputting text, clicking elements, or extracting data from a page. \n\nEach step can be LLM-powered, so CloudCruise can translate general instructions like “find contact page” to a click action and DOM element on any website. This works even if the website layout is unpredictable or DOM elements are rotated.\n\nCloudCruise works right next to you, in a tab of your browser. So you can either watch its progress or continue with other work as normal. \n\n**🧑‍🤝🧑 The Team**\n\nCo-founders [Adrian](https://linkedin.com/in/adrian-ziegler), [Felix](https://linkedin.com/in/felix-eckert-807095191) & [Vere](https://linkedin.com/in/felix-eckert-807095191) bonded at Stanford and Google. Previously, Adrian was building state-of-the-art computer vision models, Felix was researching new user interfaces for LLMs, and Vere was shipping billion-dollar products at YouTube Ads.\n\n![uploaded image](/media/?type=post&id=79207&key=user_uploads/682099/0bd2996e-34ef-4b3b-a16b-01291c5dc048)\n\n**Our Ask**\n\n* If you have a repetitive workflow you’d like to automate, join the [waitlist](https://cloudcruise.com/). We’re onboarding new users to the product every day. \n* We just launched a free Chrome extension that lets you grab & download a list from anywhere on the web. Check it out [here](https://chromewebstore.google.com/detail/cloudcruise/idegaiedponalbmkcpmmeimfjpfkhopn)!",
+      "url": "https://www.ycombinator.com/launches/KbX-cloudcruise-automation-that-works-like-humans-do",
+      "votes": 57,
+      "created_at": "2024-03-08T16:24:07.589Z"
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "id": 30475,
+  "name": "Morphik",
+  "slug": "morphik",
+  "former_names": [
+    "DataBridge"
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/1a260c523f9c222814023a16c76c6a2b22616cd5.png",
+  "website": "https://morphik.ai",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "Morphik helps Skilled Nursing and Senior Living organizations increase their NOI by automating repetitive manual tasks like AP, billing and collections, nurse admin work. ",
+  "one_liner": "AI workers for Skilled Nursing and Senior Living Operations",
+  "team_size": 2,
+  "industry": "B2B",
+  "subindustry": "B2B -> Operations",
+  "launched_at": 1745265466,
+  "tags": [
+    "B2B",
+    "Healthcare",
+    "AI"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Spring 2025",
+  "status": "Active",
+  "industries": [
+    "B2B",
+    "Operations"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/morphik",
+  "api": "https://devasheeshg.github.io/yc-api/batches/spring-2025/morphik.json",
+  "year_founded": 2025,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/morphik/",
+  "x_url": "https://x.com/morphik_ai",
+  "fb_url": null,
+  "cb_url": "https://www.crunchbase.com/organization/morphik",
+  "github_url": "https://github.com/morphik-org/morphik-core",
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/1a260c523f9c222814023a16c76c6a2b22616cd5.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Diana Hu",
+    "url": "https://www.ycombinator.com/people/diana-hu"
+  },
+  "founders": [
+    {
+      "user_id": 512728,
+      "full_name": "Adityavardhan Agrawal",
+      "title": "Founder",
+      "founder_bio": "Building Morphik. Prev @MongoDB, worked on scalable database algorithms. Graduated Cornell University in 2022.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/adityav369/",
+      "x_url": "https://x.com/Adityav369",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/fb9aa838ef8d3371e7208f80f13f7a889065f40c.jpg"
+    },
+    {
+      "user_id": 2039569,
+      "full_name": "Arnav Agrawal",
+      "title": "Founder",
+      "founder_bio": "I was one of 3 students in all of India to receive the Tata Scholarship, which allowed me to study Computer Science at Cornell. I dropped out to build Morphik after experiencing terrible RAG and enterprise search first-hand during my co-op at Amazon Robotics. While there, I developed a configuration compiler that sped-up deployment of the Sparrow and Cardinal stations to new locations. \n\nI also developed and taught a course in ML Operations and AI as an undergrad at Cornell.   ",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/arnavagrawal03/",
+      "x_url": "https://x.com/ArnavAgrawal03",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/0e61e95fdbc649a908333c2c39f4346205924ec7.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 90212,
+      "title": "Morphik: Open‑source multimodal RAG that works on technical docs",
+      "tagline": "Turn your complex private data into grounded answers",
+      "body": "Hey YC! 👋 We’re Adi and Arnav, co-founders of Morphik (https://morphik.ai).\n\n### **TL;DR**\n\n* **Problem:** Knowledge workers spend a lot of their time searching complex documentation with diagrams, tables, or spreadsheets, just to find relevant information. Text‑only RAG misses details, hallucinates, and provides half-baked responses.\n* **Solution:** Morphik embeds whole pages (image + text, no OCR), auto‑builds a knowledge graph, and serves it through a UI, SDK, or REST API. We have 90 % accuracy on arXiv QA (and we can fine-tune for your use case 🙂).\n\nWatch our demo video: https://www.youtube.com/watch?v=3adZQhm5JZY\n\n### **Problem**\n\nRAG breaks the moment documents stop being blobs of text.\n\n* Knowledge workers spend a lot of their time (people we spoke with said 50-70% time just in the research phase). eg. electrical engineers finding perfect PCB spec, pharma companies trying to search ELNs for similar experiments.\n* 80% of enterprise knowledge lives in diagrams, tables, images, CAD, scanned pdfs, not .txt.\n* “Multimodal” models still hallucinate or miss key context because the retrieval step sees only text, or they rely on tools to retrieve diagrams, or context. (https://docs.morphik.ai/blogs/gpt-vs-morphik-multimodal)\n* Teams glue together OCR, vector DBs, and regex‑heavy ETL that becomes a brittle monstrosity.\n\n### **Solution**\n\nDirectly embedding and search over page images\n\n![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdzvQJeEBmnvZI1Mkl2ZYCtsN0AG4Mx5JpcN4RtivMfndGshgTkj1uZcb8BkFAkXXNCpg9TPqeIKsqCXscaLzGDNO2e8TFn8naJPkJ_XtceDHlwNrAAcV69QGYlzSOwvdofI7FksQ?key=wmYsqYRKzN1ploJFaFpgwCeu)\n\nWhen you ingest in Morphik, in addition to OCR, we create direct embeddings for the image of a page (or frames in a video). When you ask “Colpali comparison to standard RAG”, the LLM sees the actual page image, so multimodal models can reason over arrows, labels, scales, and colours just like a human.\n\n### **Rules Engine**\n\n![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXcOXXa3wTpZV26zi8kaucVOt2QuUgKKfrdvlyqlFfeHmDUudWpNaS-r6KNm5--4Joz4rE5tsiu_NDqlHnRE914l7ad4YtKRRLc_X1gm7BteBR0aMN446aia7LGA1l7b2UJMor97?key=wmYsqYRKzN1ploJFaFpgwCeu)\n\nWhen ingesting, you can define rules for data extraction (which would again consider tables, diagrams), or define natural language rules for PII redaction, or content transformation.\n\n### **Deployment ready, scalable**\n\nMorphik comes built in with folder scoping, end user scoping, GPU accelerations, and fine grained permissions, so you can prototype and deploy with enterprise grade features. It’s end‑to‑end, so you don’t scramble to make duct tape fixes.\n\n### **One more thing…Morphik Research Agent**\n\n![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXcL9LvkrH861vRDhuFlYlBy0LsjlhMOYVBLRLdnj903G5L3QMgx12ziGZJhO_h2SzAakjD27e0Yeu4XZwmsE4Yv1BGNRj-OGc41i798xy_UW9MVHISzJy0GBrTsOWWqWBGdtGKhmg?key=wmYsqYRKzN1ploJFaFpgwCeu)\n\nOur research agent uses Morphik’s retrieval, graph, and extraction APIs as tools. It chains them automatically, jumping from doc to doc, node to node, seeing figures, till it finds the needle in the haystack, or has enough context to answer your questions. “Describe the third pin on the USBC21 diagram” will get the diagram, find the pin, jump to the table with pin descriptions, jump to page 13 to “find more details on page 13”.\n\n### **Why we might be interesting to you**\n\n* Building an internal ChatGPT over messy manuals? Morphik is the fastest way to ship something users _trust_.\n* Developing an AI product? Swap your vector‑DB‑plus‑duct‑tape stack for a single SDK call.\n* Researching graph‑RAG? CAG? We have it all.\n\n### **Our Ask 🙏**\n\n1. **⭐ Star / watch** https://github.com/morphik-org/morphik-core – open source momentum matters.\n2. **Introductions** to teams drowning in technical docs (healthcare, manufacturing, legal, electrical engineers).\n3. Tell us **what still hurts in your RAG stack**, comment, **DM, or email** [founders@morphik.ai](mailto:founders@morphik.ai) or [book a call](https://cal.com/adityavardhan-agrawal-x6jyhq/30min).\n\nThanks for reading!\n\nAdi & Arnav",
+      "url": "https://www.ycombinator.com/launches/NT2-morphik-open-source-multimodal-rag-that-works-on-technical-docs",
+      "votes": 71,
+      "created_at": "2025-05-09T14:13:45.820Z"
+    }
+  ]
+}

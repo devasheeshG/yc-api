@@ -1,0 +1,92 @@
+{
+  "id": 32625,
+  "name": "Qlo",
+  "slug": "qlo",
+  "former_names": [],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/6bdf97a8fbe4a8a51a745ce366d9c6c2bfc6d75c.png",
+  "website": "https://www.getqlo.com/",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "Qlo builds AI agents to run commercial insurance underwriting. We start by fully automating the operational work around risk decisions, become the system of record, and earn autonomy workflow by workflow toward the autonomous AI underwriter.\r\n\r\nWe’re rebuilding underwriting infrastructure from the ground up so human underwriters and AI agents can share the same accounts, rules, documents, permissions, and workflow state. \r\n\r\nWe believe every commercial insurance program will eventually be built and operated end to end by AI agents on Qlo.",
+  "one_liner": "Legora for commercial insurance carriers",
+  "team_size": 2,
+  "industry": "Fintech",
+  "subindustry": "Fintech -> Insurance",
+  "launched_at": 1786080312,
+  "tags": [
+    "Artificial Intelligence",
+    "Insurance",
+    "Enterprise Software"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Summer 2026",
+  "status": "Active",
+  "industries": [
+    "Fintech",
+    "Insurance"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/qlo",
+  "api": "https://devasheeshg.github.io/yc-api/batches/summer-2026/qlo.json",
+  "year_founded": 2025,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/getqlo/",
+  "x_url": "",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/6bdf97a8fbe4a8a51a745ce366d9c6c2bfc6d75c.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Gustaf Alstromer",
+    "url": "https://www.ycombinator.com/people/gustaf-alstromer"
+  },
+  "founders": [
+    {
+      "user_id": 1640725,
+      "full_name": "Ryan Hu",
+      "title": "Founder/CEO",
+      "founder_bio": "Founder of Qlo. Previously bootstrapped a B2B product studio to $500K ARR and built a commercial insurance marketplace that received an acquisition offer from a public insurer. Moved from Taiwan to build in the U.S. Studied Electrical Engineering at National Taiwan University before dropping out.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/chenshuohu/",
+      "x_url": "https://x.com/hcsfox",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/088d399ab10b6ca1a2786d60505cd551af8dd69a.jpg"
+    },
+    {
+      "user_id": 3743083,
+      "full_name": "Liv Huang",
+      "title": "Founder",
+      "founder_bio": "Co-Founder at Qlo. Previously Cloud Engineer at CuboAi, building scalable backend infrastructure and driving cross-functional AI adoption. Self-taught engineer with an academic background in Counseling and Educational Psychology.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/livhg",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/78b8b2063eb5fea134f67a8cc93fc8d3c4f45897.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 111422,
+      "title": "Qlo - AI agents that run commercial underwriting",
+      "tagline": "The underwriting system of record for the AI era",
+      "body": "**TL;DR:** Qlo uses AI agents to run commercial underwriting operations from submission to renewal. We rebuilt the underlying system so agents can operate across the entire workflow, not sit beside another legacy system. One enterprise client signed a two-year contract, went live in May, and has since tripled weekly primary quote throughput. The end state is autonomous underwriting that follows each company’s underwriting judgment and stays within the carrier’s appetite.\n\nToday, we’re launching the **Qlo Inbox Agent**.\n\n<https://youtu.be/aICb20uhqhU>\n\n### The Problem\n\nMore than $110B in commercial insurance premium flows through U.S. MGAs every year. Much of the work still begins with an email from a broker.\n\nCommercial underwriters can spend up to 80% of their day in the inbox, chasing missing applications, loss runs, and other submission documents. Even a submission with roughly $50K in annual premium can take 48 hours to turn into a quote.\n\nOnce the information arrives, teams still need to prepare the data, run the rater, and assemble the right endorsements and quote variants.\n\nWhen volume grows, teams add headcount. But underwriting judgment is hard to train and keep consistent. Costs rise, good submissions remain untouched, and inconsistent decisions can hurt loss ratios.\n\nMore premium left on the table, now with more people on payroll.\n\n### What We Built\n\nQlo runs the commercial underwriting workflow from submission to renewal. Specialized agents handle each operational step, while supervisor agents coordinate the work and communicate with the underwriter.\n\nThe Inbox Agent is one of those supervisors. An underwriter can message it from a phone like a teammate. It understands the instruction, calls the right subagents, and completes the work inside Qlo.\n\n**The underwriter makes the call. The agents make it happen.**\n\nOne of those subagents is the Rater Converter we launched on Bookface. It turns an existing rating spreadsheet into a validated digital worksheet the rest of the workflow can use.\n\nThis is what agent-compatible means to us: agents understand the workflow, have the right context, and can act across the system. Today, they execute the underwriter’s decisions. The end state is autonomous underwriting within each company’s judgment, appetite, and controls.\n\n**The party has begun. Let the agents dance on top of Qlo.**\n\nGuidewire and Vertafore helped define the last era of commercial insurance software. We’re building Qlo to define the next one.\n\n### Why Us\n\nBefore Qlo, Ryan spent 2.5 years building a commercial insurance marketplace and saw carrier-side systems up close. The company received acquisition terms from a public insurance company, and two founders who were customers there are now advisors to Qlo.\n\nLiv previously led backend at a Taiwanese baby-monitor company generating roughly $15M in annual revenue. Ryan and Liv had already built together before starting Qlo.\n\nWe build alongside experienced underwriters who want to help define how commercial insurance will operate in the AI era.\n\n### Our Ask\n\nWe’re looking for:\n\n* **Introductions to commercial MGAs and program administrators**, especially submission-heavy programs with complex rating files or underwriting teams hitting the limits of their current systems.\n* **Introductions to investors who understand commercial insurance** and see the same path toward autonomous underwriting.\n* **Insurance operators with strong opinions about the future of underwriting**. Even if you’re not looking for a new system, we’d still like to learn how your business works.\n\nIf you run an MGA or program, want to build with us, or see the same future as an investor, email us at [founders@getqlo.com](mailto:founders@getqlo.com).\n\nCommercial insurance moves slowly because **distribution beats architecture**.\n\nBut distribution eventually stops scaling when the architecture underneath it no longer works.\n\nThe system that solves the real problem will be adopted. Time will tell.\n\nWe’ll keep building.\n\n![uploaded image](/media/?type=post&id=111422&key=user_uploads/1640725/d836b808-6597-42f6-b85c-a1aed3413267)\n\n",
+      "url": "https://www.ycombinator.com/launches/Sz8-qlo-ai-agents-that-run-commercial-underwriting",
+      "votes": 34,
+      "created_at": "2026-08-20T15:00:00.451Z"
+    }
+  ]
+}

@@ -1,0 +1,99 @@
+{
+  "id": 29586,
+  "name": "Glasskube",
+  "slug": "glasskube",
+  "former_names": [],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/c9fd82d6ad8c83a6a8a30a2f1f88b9186d91f977.png",
+  "website": "https://distr.sh/",
+  "all_locations": "",
+  "long_description": "Managing enterprise software deployments shouldn’t feel like a balancing act. At Glasskube, we make deploying, managing, and updating software in on-premises, VPC, and air-gapped environments easier than ever.\r\n\r\nOur Mission:\r\nWe empower software vendors to deliver exceptional customer experiences with less complexity. Whether you’re onboarding new clients, rolling out updates, or troubleshooting issues, our Software Distribution Platform streamlines every step.\r\n\r\nThe founders have been best friends for over 15 years, lived together in college, and even had a startup together. Philip was the CTO of a European Kubernetes-based company that was acquired in 2022.",
+  "one_liner": "Ship self-hosted software with Distr",
+  "team_size": 3,
+  "industry": "B2B",
+  "subindustry": "B2B -> Infrastructure",
+  "launched_at": 1717765543,
+  "tags": [],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Summer 2024",
+  "status": "Active",
+  "industries": [
+    "B2B",
+    "Infrastructure"
+  ],
+  "regions": [
+    "Remote",
+    "Partly Remote"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/glasskube",
+  "api": "https://devasheeshg.github.io/yc-api/batches/summer-2024/glasskube.json",
+  "year_founded": 2023,
+  "city": null,
+  "country": null,
+  "linkedin_url": "https://www.linkedin.com/company/glasskube/",
+  "x_url": "https://twitter.com/glasskube",
+  "fb_url": null,
+  "cb_url": "https://www.crunchbase.com/organization/glasskube",
+  "github_url": "github.com/glasskube/distr/",
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/c9fd82d6ad8c83a6a8a30a2f1f88b9186d91f977.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [
+    "https://bookface-images.s3.us-west-2.amazonaws.com/attachments/0b8700a73e2c34eebf6bf37e4a3c8872ab0683d9.png"
+  ],
+  "primary_partner": {
+    "name": "Tyler Bosmeny",
+    "url": "https://www.ycombinator.com/people/tyler-bosmeny"
+  },
+  "founders": [
+    {
+      "user_id": 1278777,
+      "full_name": "Louis Weston",
+      "title": "Founder/President",
+      "founder_bio": "Business, Law, and Compliance background. Before Glasskube, I advanced from intern to legal counsel at a fintech startup with over 100 employees in three years, negotiating contracts with Apple, Deutsche Bank, and Volkswagen, and building a compliance and security system according to ISO standards.",
+      "is_active": true,
+      "linkedin_url": "https://linkedin.com/in/louiswaefler",
+      "x_url": "https://twitter.com/thekubernaut",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/768f7ef63d3b11aea7de2c8df2784e25d8de7190.jpg"
+    },
+    {
+      "user_id": 1910548,
+      "full_name": "Philip Miglinci",
+      "title": "Founder",
+      "founder_bio": "Open-Source and Kubernetes ❤️\n\nIronman finisher 🏊 🚴 🏃\n\nBefore working on Glasskube, I built:\n - Mission-critical alerting infrastructure in Europe as CTO\n - PCR testing and analytics software as part of my Master thesis\n",
+      "is_active": true,
+      "linkedin_url": "https://linkedin.com/in/pmigat",
+      "x_url": "https://twitter.com/pmigat",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/0e2d994dcc7cb590958470b860803e3445e8bcf4.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 90349,
+      "title": "Distr – The Open Source Control Plane for Self-Managed, BYOC, and On-Prem Deployments",
+      "tagline": "Connect Distr to GitHub and deploy anywhere in hours—not months.",
+      "body": "Hi everyone! We’re [Philip](https://www.linkedin.com/in/pmigat/) and [Louis](https://www.linkedin.com/in/louisnweston/), the co-founders of [Glasskube](https://glasskube.dev/) and we are excited to share Distr.\n\n![uploaded image](/media/?type=post&id=90349&key=user_uploads/1278777/8ef8adb5-e11a-40bf-9b04-efa9c19be58e)\n\n**TLDR:** Distr is an Open source control plane for AI companies. Our customers plug us into their existing CI/CD pipeline to offer BYOC and self-managed in hours, not months.\n\n**Distr is fully open source.** Check out our repository on [GitHub](https://github.com/glasskube/distr). (We'd appreciate a star 🌟)\n\n### **“Self-managed is making a big comeback.” — Shay Banon, Founder of Elastic**\n\n![uploaded image](/media/?type=post&id=90349&key=user_uploads/1278777/33f877d3-6adf-49eb-aa00-add8dcbcdde3)\n\nWe spoke with Shay earlier this month, and I couldn’t agree more.\n\n* Enterprises want control.\n* Data is valuable\n* Security concerns are rising\n* Data sovereignty is now critical, especially in the age of AI.\n\nThis shift has been building for a while and is accelerating rapidly, particularly in Europe, Singapore, and regulated industries around the world.\n\nIf you're building AI tooling and selling to large customers, how often have you been asked: _“Can we run this inside our VPC?”_\n\n### So why isn’t everyone offering self-managed?\n\nBig players like ClickHouse, Snowflake, and Redpanda figured it out early. But for smaller teams, supporting self-managed deployments often feels out of reach. Too much effort, not enough return.\n\nSelf-managed often means:\n\n* Too much complexity, too early.\n* Every customer wants something different.\n* Shipping updates is slow and painful.\n* You’re flying blind, no usage insights.\n* Troubleshooting without visibility is brutal.\n\n### \n\n### Our Solution\n\nDistr is your Open Source control plane for self-managed, BYOC, and on-prem deployments. It gives you everything you need out of the box to support self-managed customers without building a custom solution from scratch. Distr fits right into your existing stack and lets you onboard, update, and support self-managed customers in minutes, not months. Just connect your GitHub repo and you’re up and running.\n\n![uploaded image](/media/?type=post&id=90349&key=user_uploads/1278777/0a5b78df-5000-421a-8d6d-24a4f820b0db)\n\n* **Simple GitHub integration:** Connect your repo and start shipping in minutes.\n* **Works with your stack:** Supports Docker Compose, Terraform, Docker Swarm, and Kubernetes.\n* **Deploys anywhere:** AWS, GCP, Azure, on-prem, and even air-gapped environments.\n* **White-label customer portal:** Give your customers full control and visibility into their deployments.\n* **Built-in OCI registry:** Track image downloads and updates at the user and tag level.\n* **Advanced telemetry:** Collect detailed usage and performance metrics with OpenTelemetry.\n* **Flexible licensing:** Restrict access to versions and features with our Open Feature-compatible licensing server.\n* **API-first and automation-ready:** Fully integratable via API and SDK for custom workflows.\n\nhttps://youtu.be/FkSWkudlHJw\n\n### Coming soon:\n\n* Built in CVE scanning and automated security checks for all artifacts\n* HubSpot Integration\n* Workflows with Slack Notifications\n\n### First self managed customer?\n\nZero to one is the hardest. From your first PoC to a working Helm Chart and your first self-managed production deployment—we’ve done it all, many times over. That’s why we support you during your first self-managed customer and why using Distr is an unfair advantage.\n\n### Our Ask\n\n* [Try it for free](https://signup.distr.sh/signup.html) and give us feedback or\n* [Book a Demo](https://cal.glasskube.com/team/gk/demo)",
+      "url": "https://www.ycombinator.com/launches/NVF-distr-the-open-source-control-plane-for-self-managed-byoc-and-on-prem-deployments",
+      "votes": 19,
+      "created_at": "2025-05-13T16:30:04.177Z"
+    },
+    {
+      "id": 81592,
+      "title": "Glasskube - Open source package manager for Kubernetes",
+      "tagline": "Deploy, update, and configure Kubernetes packages 20x faster ",
+      "body": "Hi everyone! We’re [Philip](https://www.linkedin.com/in/pmigat/) and [Louis](https://www.linkedin.com/in/louisnweston/), the co-founders of [Glasskube](https://glasskube.dev/).\n\n**TLDR:** Glasskube is an open source package manager for Kubernetes that makes deploying, updating, and configuring packages on Kubernetes **20x faster than** tools like **Helm or Kustomize.** Inspired by the simplicity of Homebrew and npm, our goal is to build enterprise-ready infrastructure software that can run mission-critical workloads across the more than 3 million Kubernetes clusters globally.\n\n**Glasskube is fully open source.** Check out our repository on [GitHub](https://github.com/glasskube/glasskube). (We'd appreciate a star 🌟)\n\n![uploaded image](/media/?type=post&id=81592&key=user_uploads/1278777/b43af44c-5372-4995-a383-3a84cdc9941c)\n\n# **The Backstory & Problem**\n\nKubernetes packages have been growing rapidly, from around 100 packages in 2016 to over 800 packages on the CNCF landscape today. With more than 7 million developers working with Kubernetes, Helm, an open-source tool created during a hackathon nine years ago, has become the go-to solution. However, Helm struggles to keep up with the increasing demand, leading to complex workflows and non-standardized solutions.\n\nOver the past five years, writing and deploying packages on Kubernetes, we found ourselves defaulting to Helm despite its shortcomings due to a lack of alternatives. While working on other cloud-native projects, users consistently highlighted common pain points with Helm. This realization prompted us to tackle the larger issue of package management in Kubernetes, leading to the development of Glasskube.\n\n# **What is Glasskube?**\n\nGlasskube brings the experience of Homebrew or npm to your Kubernetes cluster. It simplifies installation, updates, and configuration, making it easier and faster to manage your packages.\n\n![uploaded image](/media/?type=post&id=81592&key=user_uploads/1278777/f1208e18-d6ab-40ca-ae88-9b1be886b50a)\n\n**Focusing on simplicity and reliability with our CLI and UI**\n\nEasily install packages in your cluster via the Glasskube UI, where all packages are conveniently located, eliminating the need to search for a Helm repository.\n\n**Safe Package Updates**\n\nPreview and perform pending updates to your desired version with a single click (or CLI command). All updates are pre-tested by the Glasskube test suite.\n\n**Package configurations**\n\nConfigure packages with typesafe input values via the UI or interactive CLI questionnaire. Inject values from other packages, ConfigMaps, and Secrets easily. No more untyped and undocumented values.yaml files.\n\n**GitOps Integration**\n\nAll Glasskube packages are custom resources, manageable via GitOps. We're also integrating with [renovate](https://github.com/renovatebot/renovate/issues/29322). \\\n\\\nRead also more about [dependency management](https://glasskube.dev/docs/design/dependency-management/), [multiple repositories and private packages](https://glasskube.dev/docs/design/repositories/) on our [website](https://glasskube.dev/).\n\nInterested? Check out our [Demo.](https://youtu.be/aIeTHGWsG2c)\n\n# **Our Vision**\n\nCurrently, we are focused on enhancing the user experience, aiming to save engineers as much time as possible by building on top of existing technologies. In the future, we plan to develop an entirely new packaging and bundling format for all cloud-native packages. This will provide package developers with a straightforward way to define how to install and configure packages, offer simple upgrade paths, and enable us to provide feedback, crash reports, and analytics to every developer working on Kubernetes packages, similar to how Android supports Play Store developers.\n\n# **Presignup - Glasskube Cloud**\n\nWe are currently working on Glasskube Cloud, for which you can now [pre-signup](https://glasskube.cloud/signup.html). Key features include:\n\n* Cloud Hosted Private Packages\n* Security Alerts and Update Notifications\n* Advanced GitOps Integrations (intelligent insights on upgrade success probability, smart config migration suggestions, enhanced open PRs showing detailed changes at manifest/resource level)\n\n# **Our Asks**\n\nWe love talking to engineers and anyone interested in DevOps who uses Kubernetes. You can schedule a call with Louis and Philip [here](https://cal.glasskube.eu/team/founder/30min).\n\nIf you find this interesting and would like to try it out:\n\n* Presignup for [Glasskube Cloud](https://glasskube.cloud/signup.html)\n* Check out our repository [on GitHub](https://github.com/glasskube/glasskube).",
+      "url": "https://www.ycombinator.com/launches/LE0-glasskube-open-source-package-manager-for-kubernetes",
+      "votes": 39,
+      "created_at": "2024-06-18T16:27:51.444Z"
+    }
+  ]
+}

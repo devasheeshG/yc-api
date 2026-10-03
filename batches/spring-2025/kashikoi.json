@@ -1,0 +1,84 @@
+{
+  "id": 30402,
+  "name": "Kashikoi",
+  "slug": "kashikoi",
+  "former_names": [
+    "EigenAI"
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/bcf95c28a8d2140be9982bdbaf6aa05199441da7.png",
+  "website": "https://www.getkashikoi.com",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "Kashikoi is a simulation engine to benchmark AI agents. We generate CPU friendly world models that autonomously interview agents and generate deep behavioral assessments. We built a similar technology at Moveworks which was used to ship 250+ enterprise agents to customers daily.",
+  "one_liner": "Simulation Engine for Benchmarking AI Products",
+  "team_size": 2,
+  "industry": "B2B",
+  "subindustry": "B2B",
+  "launched_at": 1748454120,
+  "tags": [
+    "Developer Tools",
+    "Generative AI",
+    "Machine Learning",
+    "AI"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Spring 2025",
+  "status": "Active",
+  "industries": [
+    "B2B"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/kashikoi",
+  "api": "https://devasheeshg.github.io/yc-api/batches/spring-2025/kashikoi.json",
+  "year_founded": 2025,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/kashikoi/",
+  "x_url": "",
+  "fb_url": null,
+  "cb_url": "https://www.crunchbase.com/organization/kashikoi",
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/bcf95c28a8d2140be9982bdbaf6aa05199441da7.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Nicolas Dessaigne",
+    "url": "https://www.ycombinator.com/people/nicolas-dessaigne"
+  },
+  "founders": [
+    {
+      "user_id": 267393,
+      "full_name": "Aaksha Meghawat",
+      "title": "Founder/CTO",
+      "founder_bio": "Founder, Kashikoi. Aaksha led the Simulation & Evaluation stack at Moveworks(ServiceNow) shipping 250+ customized enterprise ready agents to Fortune 500 and federal agencies. Aaksha has done award winning NSF sponsored research in Transformers at CMU (long before OpenAI made them cool). She shipped edge speech recognition models on 1bn+ iPhones (for the most esoteric dialects you can think of) at Apple. The innovation behind this was nominated for a Best Paper at Interspeech 2021.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/aaksham/",
+      "x_url": "https://x.com/aaksham",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/ef7784a42a7d61a3bbbf55314d4593da8456d7a1.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 90990,
+      "title": "Kashikoi - Simulation Engine for Benchmarking AI Agents",
+      "tagline": "Autonomously interview your Agents!",
+      "body": "Hey YC! \\\nWe are [Tim](https://www.linkedin.com/in/timmichaud/) and [Aaksha](https://www.linkedin.com/in/aaksham/) - cofounders of Kashikoi. [Kashikoi](https://www.getkashikoi.com) is a simulation engine to benchmark GenAI Agents. We generate CPU friendly world models that autonomously interview agents and generate deep behavioral assessments.\n\n# **The Problem**\n\nBuilding high-performing AI agents is becoming increasingly complex. Teams face many challenges:\n\n* Managing prompt bloat and keeping up with endless prompt tuning cycles.\n* Evaluating their agents (or competitors') meaningfully and efficiently.\n* Understanding agent performance in ways that reflect real-world values and expectations—not just public benchmarks.\n\nDespite growing interest and investment, most solutions rely heavily on prompt engineering, public benchmarks, or surface-level observability. These approaches often mislead more than they inform, creating a false sense of progress.\n\n# **The Solution**\n\n![uploaded image](/media/?type=post&id=90990&key=user_uploads/267393/5573f5c1-baf0-4fc5-b58f-d6fc289fb8f2)\n\nToday’s “LLMs” are adaptive systems which run test time adaptation loops behind that tiny “Thinking…” blinking on the screen. We are building a scalable version of test time adaptation and inference scaling a.k.a World Models that bring the power of these techniques to you.\n\nSimply put you can simulate highly customized benchmarks, diverse data and align your evaluations while maintaining all of these for the long run, all without writing prompts! Our world models unlock automatic prompt optimization and detecting regression test staleness as fun side effects.\n\nLLM based Systems are getting smarter and so should you using our World models!\n\nCheck out our simulation engine adaptively interviewing RAG Agents and multi-turn evaluation in action [here](https://www.loom.com/share/7b3bdb899b06433fbc0636df487c6133?sid=6dd87cdc-495e-48e4-bb7a-971b1430cae5).\n\n# Why Us\n\n* Tim and Aaksha used similar world models tech at Moveworks to massively reduce dev cycles for shipping 250+ customized enterprise ready agents.\n* Aaksha has done cutting edge research in Transformers at CMU (long before OpenAI made them cool). She shipped edge speech models on 1bn+ iPhones. The innovation behind these models was published as a paper at Interspeech 2021 and nominated for a Best Paper Award that same year.\n* Tim has found many high impact security vulnerabilities throughout his career. One of his top bug discoveries was in all Qualcomm GPS chips leading to a 50 mile 0-click exploit that had no mitigations. Tim has many [public CVEs](https://www.inulledmyself.com/2023/05/using-ai-to-find-software.html) for a variety of Apple products, including: Safari, MacOS, iOS, tvOS, & iTunes.\n\n# Our Ask\n\nSign up for our waitlist at [getkashikoi.com](http://getkashikoi.com), or email us at [founders@getkashikoi.com](mailto:founders@getkashikoi.com) if you or someone you know wants:\n\n* Instant evals on your agent (or a competitor’s 😉) and we’ll generate [such a report](https://www.notion.so/NewAgent-Benchmark-Report-1db104cde9e88066b62ac3d68fb6c878?pvs=21) for you.\n* Making advanced features—like automatic prompt optimization, world models, and inference scaling—work seamlessly for you.\n* Reliable prompt free evaluations that are aligned with your values and expectations (which we auto-encode in a special edge-friendly world model for you).\n* Don’t come to us if:\n  * You love writing prompts\n  * You trust public benchmarks\n  * You think that good observability is enough to make your agent win\n  * You aren’t ready to have an honest conversation about your agents’ performance\n* Jokes aside 😅, if you know enterprises building agents suffering from prompt bloat, please (pretty please 🥺) send them our way!",
+      "url": "https://www.ycombinator.com/launches/Nfa-kashikoi-simulation-engine-for-benchmarking-ai-agents",
+      "votes": 18,
+      "created_at": "2025-06-03T21:48:35.068Z"
+    }
+  ]
+}

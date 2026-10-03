@@ -1,0 +1,90 @@
+{
+  "id": 31077,
+  "name": "Panta",
+  "slug": "panta",
+  "former_names": [
+    "Panta Insure"
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/dff0894649ff29064b020845633a9ebb22c2e9de.png",
+  "website": "https://pantainsure.com",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "Panta is a technology-enabled commercial insurance brokerage: we combine AI-powered internal workflows with licensed brokers to help businesses secure complex coverage faster than anyone in the world. ",
+  "one_liner": "AI Native Commercial Insurance Brokerage ",
+  "team_size": 3,
+  "industry": "Fintech",
+  "subindustry": "Fintech -> Insurance",
+  "launched_at": 1766956081,
+  "tags": [],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Winter 2026",
+  "status": "Active",
+  "industries": [
+    "Fintech",
+    "Insurance"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/panta",
+  "api": "https://devasheeshg.github.io/yc-api/batches/winter-2026/panta.json",
+  "year_founded": 2025,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/pantainsure/",
+  "x_url": "",
+  "fb_url": null,
+  "cb_url": "Panta",
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/dff0894649ff29064b020845633a9ebb22c2e9de.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Gustaf Alstromer",
+    "url": "https://www.ycombinator.com/people/gustaf-alstromer"
+  },
+  "founders": [
+    {
+      "user_id": 1041197,
+      "full_name": "Vincent Chen",
+      "title": "Founder/CEO",
+      "founder_bio": "Founder @ Panta (W26). Building a commercial insurance brokerage run by AI agents.\n\nPreviously, I spent three years at Google building deep learning models and deploying agentic AI systems to billions of users (NotebookLM, Google Photos). I also built large-scale recommendation systems used by Fortune 500 companies like Disney.",
+      "is_active": true,
+      "linkedin_url": "https://linkedin.com/in/zihong-chen",
+      "x_url": "https://x.com/dsdvincent",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/eaf15d4bb0b4e89f5c09ba4544c32853afb14bd2.jpg"
+    },
+    {
+      "user_id": 2747620,
+      "full_name": "Frank Wang",
+      "title": "Founder/CTO",
+      "founder_bio": "Founder at Panta (W26), building a commercial insurance brokerage powered by AI agents. Previously, he worked as a full-stack engineering contractor supporting Apple, where he built generative-AI and real-time systems. He contributes to the Gleam programming language and Rust's cargo-semver-checks, and earned an M.S. in Financial Engineering from UIUC with a 3.94 GPA and the Dr. Z. Ju Scholarship.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/jiangdawang/",
+      "x_url": "https://x.com/lifetime0x",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/d3e87c5b75826f532fa0172326fc8a3b277fd2a9.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 98174,
+      "title": "Panta: AI-native commercial insurance brokerage",
+      "tagline": "OpenClaw-style AI operators on a rack of Mac Minis doing the work of thousands of brokers.",
+      "body": "## TL;DR\n\nPanta(Pantainsure.com) is an AI-native commercial insurance brokerage. Our AI operators run on a rack of Mac Minis — working with real file systems, logging into portals, writing forms, negotiating with underwriters, making calls — doing the exact same work a human broker does, across thousands of clients at once. We've been in production since December.\n\n<https://www.youtube.com/watch?v=9pyuxPPAzt8&feature=youtu.be>\n\n## The Problem\n\nNot every business can buy insurance off the shelf. Standard insurers simply won't touch a trucking fleet, a nightclub, or a nursing home. These businesses need a broker to find specialty carriers willing to write the policy, negotiate the terms, and get it bound. This hard-to-place segment, known as the Excess & Surplus (E&S) market, accounts for $125B in premium every year.\n\nGetting one of these businesses insured takes \\~50 steps over two weeks. The broker's actual judgment matters for maybe 5% of the process. The other 95% is pure coordination—noticing what's next, executing it, and remembering where every file stands across email, phone, text, and PDF.\n\nBecause the entire workflow relies on human memory, every broker hits a hard ceiling at around 400 clients. It's not a lack of skill—it's simply impossible for one human brain to track the real-time state of 400 complex placements across emails, carrier portals, and PDFs.\n\n## Why We Go Full-Stack Instead of Selling Software\n\nEvery AI insurtech today focuses on making **one step** out of those **50** faster: better form fill, better quote analysis, better email drafts. But there are **no software margins in making a human 10% faster**. A broker who saves 10 hours a week goes from 400 clients to maybe 440 max.\n\nThe bottleneck isn't the speed of any single step—it's the single human brain holding the entire state of the placement together. So what does it take to go from **400** to **4,000** clients? This is the key: you can't build your way out of a coordination bottleneck with better software tools. To scale 10x, the **entire human coordination layer has to go**.\n\nWe spent months selling AI tools to brokers before realizing this. So, we stopped selling software and became the broker.\n\n## What We Built\n\nPanta is a licensed brokerage where the operations layer is entirely automated. Because of the complexity of brokerage workflow, **we built an internal OpenClaw agent way before it went viral out of necessity**. Our agents operate inside the exact same systems a human broker uses: file systems, carrier portals, email, phone, and PDFs.\n\n* **Submissions:** Read transcripts, emails, loss runs. Fill ACORDs and market-specific apps. Submit to the right carriers. Track every requirement.\n* **Follow-ups:** Chase underwriter responses. Answer questions. Keep every file moving until quotes are bindable.\n* **Service:** Issue COIs, handle endorsements. Same-day turnaround.\n* **Renewals:** Rebuild the risk file. Re-shop early. Surface tradeoffs before the last week.\n\nEverything is licensed, regulated, and audited. We have **human approval** gates on high-stakes actions and maintain full audit logs.\n\n**Example:** An armed security company guarding a 100,000-person stadium came to us after being rejected by six brokers over the course of a month. No one would touch it. Our agents had bindable quotes in three days with 60 emails.\n\n## The Team\n\n![uploaded image](/media/?type=post&id=98174&key=user_uploads/1041197/06096fb3-5d3d-420e-ba2c-048f0ba254ab)\n\nWe're both licensed commercial insurance brokers. Together we've placed explosives manufacturers, hazardous gas facilities, roofers, steel mills, and hazmat trucking. One placement alone meant 70 pages of forms, 100+ emails across carriers and underwriters, and weeks of back-and-forth — we've done this hundreds of times by hand. Everything Panta automates is a workflow we've personally executed.\n\n**Vincent (CEO)** — Previously AI/ML at Google: led a team of MIT/Berkeley PhDs building Vertex AI's foundational recommendation model, led NotebookLM Enterprise, shipped Ask Photos at Google I/O.\n\n**Frank (CTO)** — Previously Apple senior engineer. Built their Gen-AI chatbot and Rust infrastructure powering 1M+ realtime messages/month. Top-10 contributor to the Rust and Gleam ecosystems.\n\nWe've been close friends since high school. Living, building, and shipping together in San Francisco for the past year, seven days a week.\n\n## The Ask\n\n* **Hard-to-place risk?** Business rejected by standard markets? Broker went dark mid-renewal? We place risks in construction, trucking, oil & gas, hospitality, and manufacturing.\n* **Know a swamped broker?** Know a broker drowning in renewals? We're onboarding partners to handle their servicing/renewal.\n* Connect us: [vincent@pantainsure.com](mailto:vincent@pantainsure.com)",
+      "url": "https://www.ycombinator.com/launches/PXS-panta-ai-native-commercial-insurance-brokerage",
+      "votes": 101,
+      "created_at": "2026-02-26T01:04:24.841Z"
+    }
+  ]
+}

@@ -1,0 +1,127 @@
+{
+  "id": 30096,
+  "name": "Capy",
+  "slug": "capy",
+  "former_names": [
+    "Scrapybara",
+    "scrapybara",
+    "Scrapybara",
+    "Scout"
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/632fea3abffd6f4ca17133e97e8ebb9eb1a9f356.png",
+  "website": "https://capy.ai",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "Orchestrate an army of coding agents from one dashboard. Ship entire sprints in parallel.",
+  "one_liner": "The IDE for the parallel age",
+  "team_size": 6,
+  "industry": "B2B",
+  "subindustry": "B2B -> Engineering, Product and Design",
+  "launched_at": 1730261485,
+  "tags": [
+    "AI",
+    "AI Assistant"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": true,
+  "nonprofit": false,
+  "batch": "Fall 2024",
+  "status": "Active",
+  "industries": [
+    "B2B",
+    "Engineering, Product and Design"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/capy",
+  "api": "https://devasheeshg.github.io/yc-api/batches/fall-2024/capy.json",
+  "year_founded": 2024,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/capydotai",
+  "x_url": "https://twitter.com/capydotai",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": "https://github.com/scrapybara",
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/632fea3abffd6f4ca17133e97e8ebb9eb1a9f356.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [
+    "https://bookface-images.s3.us-west-2.amazonaws.com/attachments/bc53ee2eb036afa9deb636a9e3baf45649ea0d62.png"
+  ],
+  "primary_partner": {
+    "name": "David Lieb",
+    "url": "https://www.ycombinator.com/people/david-lieb"
+  },
+  "founders": [
+    {
+      "user_id": 531507,
+      "full_name": "Nalin Semwal",
+      "title": "Founder/CEO",
+      "founder_bio": "building the AI SWE @Capy",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/nsemwal",
+      "x_url": "https://x.com/lordspline",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/61987d2262cb9d3bb95a480e2aa79fe1c592d0d2.jpg"
+    },
+    {
+      "user_id": 1520005,
+      "full_name": "Justin Sun",
+      "title": "Founder/CTO",
+      "founder_bio": "cofounder @ capy (f24)",
+      "is_active": true,
+      "linkedin_url": "https://linkedin.com/in/justinsunyt",
+      "x_url": "https://twitter.com/justinsunyt",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/de0164207871acf4321213de35f58cc44c0be65e.jpg"
+    }
+  ],
+  "jobs": [
+    {
+      "id": 72482,
+      "title": "Founding Design Engineer",
+      "url": "https://www.ycombinator.com/companies/capy/jobs/FBbRyVg-founding-design-engineer",
+      "location": "SF",
+      "type": "Full-time",
+      "role": "Engineering",
+      "role_type": "Full stack",
+      "salary_range": "$150K - $250K",
+      "equity_range": "0.50% - 1.50%",
+      "experience": "Any (new grads ok)",
+      "visa": "US citizen/visa only",
+      "skills": []
+    },
+    {
+      "id": 72483,
+      "title": "Founding Engineer",
+      "url": "https://www.ycombinator.com/companies/capy/jobs/FuQPALB-founding-engineer",
+      "location": "SF",
+      "type": "Full-time",
+      "role": "Engineering",
+      "role_type": "Full stack",
+      "salary_range": "$150K - $250K",
+      "equity_range": "0.50% - 1.50%",
+      "experience": "Any (new grads ok)",
+      "visa": "US citizen/visa only",
+      "skills": []
+    }
+  ],
+  "news": [],
+  "launches": [
+    {
+      "id": 85645,
+      "title": "Scrapybara - A Computer for Your AI ₍ᐢ•(ܫ)•ᐢ₎",
+      "tagline": "API-accessible computer environments purpose-built for AI agents.",
+      "body": "Hey YC! Nalin and Justin here; we’re building [Scrapybara](https://scrapybara.com) to help you deploy AI agents that can use computers. We handle deployment, maintenance and scaling so your agent just sees 👇\n\n![uploaded image](/media/?type=post&id=85645&key=user_uploads/531507/8e055289-f7a9-42f4-895e-df83e7a61e28)\n\n**TL;DR**\n\n**_Deploy and productionize computer use._**\n\nScrapybara provides instant, secure virtual desktop environments via API for AI agents to perform tasks. We reduce deployment time from hours to seconds through our purpose-built platform.\n\n[https://youtu.be/ZjPTAb5bg-w](https://youtu.be/ZjPTAb5bg-w?si=8PVUmhtHmdC6iPr2)\n\n## 💻 For Instance\n\n* _A **Market Research Firm** could have their agent browse news sites, create summaries, and update their internal dashboards, all on Scrapybara_\n* _A **Healthcare Administrator** could use agents to process insurance forms and operate ERP software (even the kind that only runs on desktops), all on Scrapybara_\n* _A **Sales Development Representative** could use agents to find information on leads, reach out to them and update their Salesforce, all on Scrapybara_\n\n## 🚨 The Problem: AI Needs a Safe Place to Execute\n\nAI agents are becoming increasingly capable of writing code, analyzing data, and performing complex tasks. However, there's a critical missing piece: a secure, scalable environment where these agents can actually take actions. Current solutions force developers to choose between:\n\n* Using APIs (limited, inflexible)\n* Using browsers (unstable)\n\n**_Don’t run AI agents on your own computer._**\n\n## 💡 Our Solution: Purpose-Built Computers for AI\n\nScrapybara provides instant, secure virtual environments via API that spin up within seconds and are specifically designed for AI agents:\n\n🚀 **Speed**\n\n* Environment creation in seconds\n* Pre-warmed container pool\n* Optimized runtime layers\n\n🔒 **Security**\n\n* Isolated execution environments\n* Resource limits and timeouts\n\n💰 **Cost Optimization**\n\n* True per-second billing\n* Zero idle costs\n* Automatic resource scaling\n\n🔌 **Simple Integration**\n\n* REST API\n* Popular language SDKs\n* One-line deployment\n* Built-in monitoring\n* Plug and play with Claude’s Computer Use\n\n## 🤖 Getting Started\n\n![uploaded image](/media/?type=post&id=85645&key=user_uploads/531507/3d2131de-561f-44d6-b067-ca4ec82d4da8)\n\n![uploaded image](/media/?type=post&id=85645&key=user_uploads/531507/9cf26326-1a29-462f-a521-7756714eba11)\n\n![uploaded image](/media/?type=post&id=85645&key=user_uploads/531507/47fbd307-bf81-4be9-9286-f54124f7f512)\n\nTaking screenshots:\n\n![uploaded image](/media/?type=post&id=85645&key=user_uploads/531507/df36a97f-b1c3-445f-b15d-412ef6cc63ca)\n\nTaking actions:\n\n![uploaded image](/media/?type=post&id=85645&key=user_uploads/531507/bf4cb53b-f5e5-4542-a141-f3c2a02a9496)\n\n![uploaded image](/media/?type=post&id=85645&key=user_uploads/531507/594f98c1-7eb1-4862-9fb8-d81f02f9547d)\n\n## ♾️ Limitless Possibilities\n\nPlug your multimodal agents into Scrapybara and empower them to automate all kinds of work. The only limit is your imagination.\n\n![uploaded image](/media/?type=post&id=85645&key=user_uploads/531507/e3cc5c6b-07db-4c3d-8476-0bc6d19e30ca)\n\n![uploaded image](/media/?type=post&id=85645&key=user_uploads/531507/de5d45bb-0019-48a9-950a-813d679df759)\n\n![uploaded image](/media/?type=post&id=85645&key=user_uploads/531507/5e0a5cfa-4f38-4b3b-a741-b2ab96c868c3)\n\n![uploaded image](/media/?type=post&id=85645&key=user_uploads/531507/ab7a4ed5-9d84-4e62-a560-88ac1a9a32fa)\n\n## 🚧 Coming Soon\n\n* Windows, Android, and other virtual OS’s\n* Dedicated Code Execution Sandboxes\n* and much more!\n\n## 👾 About Us\n\n* Nalin: AI Research @ MultiOn | LLM Agent Research @ Georgia Tech\n* Justin: AI Product @ MultiOn | M&T @ UPenn\n\nWe met at MultiOn where we led B2B and consumer web agent development and built the best-in-class web extraction API (Retrieve).\n\n![uploaded image](/media/?type=post&id=85645&key=user_uploads/531507/1053d2e9-2ea6-4e29-8b4e-1d37da808e5d)\n\n## The Ask\n\n1. **Try it out**: Building general-purpose or vertical-specific agents that could do with computer use? Go to [scrapybara.com](http://scrapybara.com)!\n2. **Intro us**: Know someone who could use this? We'd love an intro!\n3. **This is cool I just want to chat about it**: Heck yeah! Email us 👇\n\nContact: [hello@scrapybara.com](mailto:hello@scrapybara.com) \\\nLinkedIn: <https://linkedin.com/company/scrapybara> \\\nX: <https://x.com/scrapybara>\n\n![uploaded image](/media/?type=post&id=85645&key=user_uploads/531507/80b9b821-8e48-4f0a-9583-68008d3309ca)\n\n",
+      "url": "https://www.ycombinator.com/launches/MHN-scrapybara-a-computer-for-your-ai",
+      "votes": 74,
+      "created_at": "2024-11-18T04:54:22.279Z"
+    }
+  ]
+}

@@ -1,0 +1,99 @@
+{
+  "id": 25339,
+  "name": "Sota2",
+  "slug": "sota2",
+  "former_names": [
+    "PageOne Lab, Inc.",
+    "VacationHomeRents",
+    "Wizwand",
+    "AgentDiscuss",
+    "AgentRouter"
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/8cca75ae8585f526a195b8ac0a0dfb01f738ad7c.png",
+  "website": "https://www.sota2.com",
+  "all_locations": "Seattle, WA, USA; Remote",
+  "long_description": "Sota2 is Yelp for AI products. We help companies find and compare best AI solutions for their businesses using reviews, benchmarks, and compar tools. ",
+  "one_liner": "Help business find and discover AI solutions",
+  "team_size": 4,
+  "industry": "B2B",
+  "subindustry": "B2B -> Sales",
+  "launched_at": 1647541720,
+  "tags": [
+    "Artificial Intelligence",
+    "B2B",
+    "Sales Enablement",
+    "Enterprise Software",
+    "AI"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Winter 2022",
+  "status": "Active",
+  "industries": [
+    "B2B",
+    "Sales"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada",
+    "Remote",
+    "Fully Remote"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/sota2",
+  "api": "https://devasheeshg.github.io/yc-api/batches/winter-2022/sota2.json",
+  "year_founded": 2020,
+  "city": "Seattle",
+  "country": "US",
+  "linkedin_url": "",
+  "x_url": "https://x.com/sota2_hq",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/8cca75ae8585f526a195b8ac0a0dfb01f738ad7c.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": null,
+  "founders": [
+    {
+      "user_id": 5992,
+      "full_name": "Allan Jiang",
+      "title": "Founder",
+      "founder_bio": "Co-founder at VacationHomeRents. Ex Google/Coinbase/Microsoft.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/allanjiang/",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/7e4f1cf42edf4fd4280c59abc72f649fc8250dc3.jpg"
+    },
+    {
+      "user_id": 80763,
+      "full_name": "Jianyu (Leo) Li",
+      "title": "Founder",
+      "founder_bio": "Founder of AgentDiscuss, PageOne Travel. Investor of PageOne labs.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/pub/jianyu-li/37/923/268",
+      "x_url": "https://twitter.com/ideapoet",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/6a6067dcc5eabfbabb444a80917aa324d107d00a.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 98124,
+      "title": "Wizwand - Discover SOTA research papers on AI and Machine Learning",
+      "tagline": "Leaderboards for AI and Machine Learning methods based tasks and datasets",
+      "body": "Introducing [Wziwand](https://www.wizwand.com): we help improve reproducibility and transparency in AI/ML research, by allowing research engineers to easily find, implement, and compare the performance of SOTA papers and methods.\n\n![uploaded image](/media/?type=post&id=98124&key=user_uploads/5992/f8f3f02d-30fd-4116-aa6b-a706323c241f)\n\n![uploaded image](/media/?type=post&id=98124&key=user_uploads/5992/f7859d08-2837-4aba-858b-dada5295ffa6)\n\n**Why it matters:**\n\nThe AI/ML boom hasn’t just increased the number of papers — it has fragmented the landscape. With thousands of preprints hitting arXiv each month, the “state of the art” (SOTA) in a specific niche can change over a weekend. For researchers and research engineers, the cognitive overhead of filtering through incremental gains to find true architectural breakthroughs has become unsustainable. Wizwand is built to help people track AI/ML research progress across a wide range of domains.\n\n**The challenge:**\n\nOver the past many years, several products have tried to solve this problem, but we’ve seen a few common issues:\n\n\\- **Table understanding is hard at scale**: Research papers tend to use non-standard tables, which makes extracting the right data points and their correct attributes challenging. A small mistake can produce a wildly incorrect result.\n\n\\- **Apples-to-apples comparison is difficult**: Should general image classification methods be compared with medical image classification methods? Should methods tested on the “same” dataset but different versions or splits be compared? When building benchmarks, there hasn’t been a good way to ensure truly apples-to-apples comparisons.\n\n**Wizwand solution:**\n\n\\- Table understanding at the paper level is made possible through a combination of LLMs, OCR, and rule-based pipelines. We can extract data points with complex attributes from tables with high accuracy, including non-standard tables.\n\n\\- We determine whether two methods are comparable using full-paper understanding — not just dataset and metric. This enables fairer, more meaningful benchmarks.\n\n**Team:**\n\nWe’re a team of CS/ML engineers from UC Berkeley, Google, Airbnb, and Microsoft.\n\n**Asks:**\n\n\\- We’re looking for feedback from research engineers and researchers to share your feedback and thoughts on how we can improve Wizwand to work better for you.\n\n\\- You can reach out to the founders directly at [allan@wizwand.com](mailto:allan@wizwand.com) or follow us on X ([@wizwand_team](https://x.com/wizwand_team)).",
+      "url": "https://www.ycombinator.com/launches/PWe-wizwand-discover-sota-research-papers-on-ai-and-machine-learning",
+      "votes": 6,
+      "created_at": "2026-02-25T21:09:33.011Z"
+    }
+  ]
+}

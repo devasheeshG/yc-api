@@ -1,0 +1,96 @@
+{
+  "id": 25912,
+  "name": "Vessel",
+  "slug": "vessel",
+  "former_names": [
+    "Kin Finance",
+    "Kinit"
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/c41da58de5c2dc6a94cc622e5a9fd55538d62d3a.png",
+  "website": "https://vessel.dev",
+  "all_locations": "San Francisco, CA, USA; Remote",
+  "long_description": "Vessel is the developer-first, native integration platform for GTM tools. We make it easy for developers to integrate with your customer’s CRMs, Sales Engagement, Marketing Automation, Chat, Dialers, and more. Integrate in different ways customized for your use cases: \r\n\r\n- Speed: Use our Unified APIs to roll out many integrations quickly through a common data model and unified interface.\r\n- Depth: Use our actions API to build deeper integrations when working with entities custom to each app.\r\n- Ease: Use ETL to let us handle pulling and pushing customer data to your DB\r\n- Extensible: Support any integrations through our open-source integrations library\r\n\r\nBreadth and depth, make your integrations limitless.",
+  "one_liner": "Developer-first, native integration platform for GTM tools",
+  "team_size": 5,
+  "industry": "B2B",
+  "subindustry": "B2B -> Engineering, Product and Design",
+  "launched_at": 1647450085,
+  "tags": [
+    "Sales",
+    "API",
+    "Marketing",
+    "Customer Support",
+    "CRM"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Winter 2022",
+  "status": "Inactive",
+  "industries": [
+    "B2B",
+    "Engineering, Product and Design"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada",
+    "Remote",
+    "Fully Remote"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/vessel",
+  "api": "https://devasheeshg.github.io/yc-api/batches/winter-2022/vessel.json",
+  "year_founded": 2022,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/vesselapi",
+  "x_url": "https://twitter.com/vesselapi",
+  "fb_url": null,
+  "cb_url": "https://www.crunchbase.com/organization/vessel-7897",
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/c41da58de5c2dc6a94cc622e5a9fd55538d62d3a.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": null,
+  "founders": [
+    {
+      "user_id": 566414,
+      "full_name": "Avery Yip",
+      "title": "Founder",
+      "founder_bio": "Avery Yip is the co-founder of Vessel. Avery previously worked at Productiv as a backend/infra engineer in the SaaS management space. When he started at Productiv, it was Series A with less than 10 customers and he helped grow it to Series C with over 100 customers. He earned a degree in Computer Science & Data Science from UC Berkeley.",
+      "is_active": false,
+      "linkedin_url": "http://linkedin.com/in/averyyip",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/0adda0b3a568d308dd61e334a4e46a8835ee8065.jpg"
+    },
+    {
+      "user_id": 828021,
+      "full_name": "Zachary Kirby",
+      "title": "Founder",
+      "founder_bio": "Career Experience: Productiv (Series C) - FE Developer, Gusto - KP Engineering Fellow, FaceBook/Meta - FE engineering Intern\n\n|| Entrepreneurial Experience: KP Fellow, Accel Scholar, Glynn Capital Investment Fellow, Cal Hacks Executive Director\n\n|| Collegiate Experience: UC Berkeley - Computer Science",
+      "is_active": false,
+      "linkedin_url": "https://www.linkedin.com/in/zkirby/",
+      "x_url": "https://twitter.com/zkirby2020",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/1cd7e438a3c24f37c503c5bea095dd0bdd8d1644.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 64733,
+      "title": "Vessel: Easily integrate with your customer’s CRM",
+      "tagline": "Vessel allows developers to read and write to their customer’s CRM with one integration.",
+      "body": "### ⁉️ Problem\n\nFor products that need access to their customer’s CRM, having a breadth of integrations has become table-stakes. However, it is difficult to build CRM integrations in-house, because you need to:\n\n* support different types of authentication\n* understand the data model, APIs, and ever-changing specs of each CRM platform\n* handle platform limitations like API quotas and limited webhooks support\n* transform data from your customer’s CRM for use in your product\n\nCompanies are spending a lot of engineering resources building and maintaining CRM integrations in-house. For instance, we spoke to a company that built a HubSpot integration and had to turn it off because they didn’t have the resources to handle HubSpot’s API limits.\n\n### 💡 Solution\n\nVessel is the universal API for CRMs, making it easy for developers to build applications that integrate with their customer’s CRM.\n\n* A unified interface to read and write across 8 objects: Accounts, Leads, Contacts, Deals, Events, Notes, Tasks, [Users](https://vesseldocs.stoplight.io/docs/vessel/603bd0ce2abb1-get-all-users)\n* [Webhooks](https://vesseldocs.stoplight.io/docs/vessel/e1m6clym4s5ya-webhooks) to keep your data fresh without polling even if the end platform does not offer webhooks on certain objects.\n* A drop-in UI to securely connect your customer’s CRM to your product\n* Avoidance of rate limits for platforms you integrate with\n* Improved developer experience with strongly associated objects. You can easily identify all of the associated objects (e.g. going from leads -> accounts, accounts -> leads)\n\n### ⚡ Get started\n\nIf you’re looking to integrate CRMs into your product, book some time [here](https://calendly.com/vesselapi/vessel-demo) or send us an email with your use case at [founders@vessel.land](mailto:founders@vessel.land)! Learn more at <https://vessel.land>.",
+      "url": "https://www.ycombinator.com/launches/Gq5-vessel-easily-integrate-with-your-customer-s-crm",
+      "votes": 22,
+      "created_at": "2022-07-19T15:12:24.823Z"
+    }
+  ]
+}

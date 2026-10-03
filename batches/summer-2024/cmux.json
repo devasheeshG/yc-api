@@ -1,0 +1,145 @@
+{
+  "id": 29719,
+  "name": "cmux",
+  "slug": "cmux",
+  "former_names": [
+    "Manaflow"
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/f240894ee1866a817f8d66f9ed82314520294cbf.png",
+  "website": "https://www.cmux.com",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "An open source native macOS terminal built on Ghostty. Vertical tabs, notification rings when agents need attention, split panes, and a CLI for programmability.",
+  "one_liner": "Open source applied AI lab building next-gen devtools",
+  "team_size": 3,
+  "industry": "B2B",
+  "subindustry": "B2B",
+  "launched_at": 1715992295,
+  "tags": [
+    "Developer Tools",
+    "Open Source",
+    "AI"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": true,
+  "nonprofit": false,
+  "batch": "Summer 2024",
+  "status": "Active",
+  "industries": [
+    "B2B"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/cmux",
+  "api": "https://devasheeshg.github.io/yc-api/batches/summer-2024/cmux.json",
+  "year_founded": 2024,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/manaflow-ai",
+  "x_url": "https://x.com/manaflowai",
+  "fb_url": null,
+  "cb_url": "https://www.crunchbase.com/organization/manaflow",
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/f240894ee1866a817f8d66f9ed82314520294cbf.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": null,
+  "founders": [
+    {
+      "user_id": 760906,
+      "full_name": "Austin Wang",
+      "title": "Founder",
+      "founder_bio": "Building cmux.com, the open source terminal built for coding agents.\nCo-founder & CEO @ cmux / Physics @ Yale / Prev @ NASA JPL, Chess.com",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/austinwang115/",
+      "x_url": "https://x.com/austinywang",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/782676cba6b43bd804a55747bbfa4dbd0b710295.jpg"
+    },
+    {
+      "user_id": 785834,
+      "full_name": "Lawrence Chen",
+      "title": "Founder",
+      "founder_bio": "Building cmux.com, the open source terminal built for coding agents\nCo-founder of Manaflow / prev. Minion AI / Berkeley '24",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/lawrencecchen/",
+      "x_url": "https://x.com/lawrencecchen",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/983aa7cd00c0de514791fbb01a7830670d86f7e0.jpg"
+    }
+  ],
+  "jobs": [
+    {
+      "id": 106824,
+      "title": "Founding Engineer",
+      "url": "https://www.ycombinator.com/companies/cmux/jobs/RcX3bDA-founding-engineer",
+      "location": "San Francisco, CA, US",
+      "type": "Full-time",
+      "role": "Engineering",
+      "role_type": "Full stack",
+      "salary_range": "$130K - $170K",
+      "equity_range": "0.50% - 1.50%",
+      "experience": "Any (new grads ok)",
+      "visa": "Will sponsor",
+      "skills": []
+    },
+    {
+      "id": 106825,
+      "title": "Founding Designer",
+      "url": "https://www.ycombinator.com/companies/cmux/jobs/p21OZLR-founding-designer",
+      "location": "San Francisco, CA, US",
+      "type": "Full-time",
+      "role": "Design",
+      "role_type": "Product design",
+      "salary_range": "$130K - $170K",
+      "equity_range": "0.50% - 1.50%",
+      "experience": "Any (new grads ok)",
+      "visa": "Will sponsor",
+      "skills": []
+    },
+    {
+      "id": 107990,
+      "title": "Founding Chromium Engineer",
+      "url": "https://www.ycombinator.com/companies/cmux/jobs/T4rJNKX-founding-chromium-engineer",
+      "location": "San Francisco, CA, US",
+      "type": "Full-time",
+      "role": "Engineering",
+      "role_type": "Full stack",
+      "salary_range": "$130K - $170K",
+      "equity_range": "0.50% - 1.50%",
+      "experience": "Any (new grads ok)",
+      "visa": "Will sponsor",
+      "skills": [
+        "C++",
+        "Rust"
+      ]
+    }
+  ],
+  "news": [],
+  "launches": [
+    {
+      "id": 98405,
+      "title": "cmux: the open source terminal built for coding agents",
+      "tagline": "Native macOS Ghostty-based terminal with vertical tabs, notifications, and built-in browser",
+      "body": "**TL;DR**\n\ncmux is a Ghostty-based terminal with vertical tabs, notifications, and in-app browser, built for multitasking with coding agents.\n\ncmux is trusted by thousands of builders from Nvidia, Google, OpenAI, and more. In two weeks, we’ve gained 3.5k GitHub stars.\n\n<https://github.com/manaflow-ai/cmux>\n\n<https://www.youtube.com/watch?v=i-WxO5YUTOs>\n\n**Hey, we’re Austin and Lawrence.**\n\nThe future is pointing towards an IDE-less world. In fact, the best engineers have already stopped using VS Code and Cursor.\n\nBoris Cherny, the creator of Claude Code, has not opened an IDE since last November. No one knows what the best workflow looks like yet, but it has never been more urgent to experiment with AI or be left behind.\n\nBut our current tools aren’t built for this. If you try running multiple Claude Code or Codex sessions in a standard terminal, you’ll find yourself in the midst of chaos. On the flip side, GUI orchestrators lock you in and lack the flexibility for experimentation.\n\n**That’s why we built cmux: an open-source terminal primitive for exploring the future of agent-driven workflows.**\n\n![uploaded image](/media/?type=post&id=98405&key=user_uploads/760906/db7fb781-3b9c-464d-9363-8f25a7b4aa3c)\n\nWe wanted a lightning-fast native macOS (Swift/AppKit) terminal with features you need for managing fleets of coding agents:\n\n* Vertical tabs\n* Blue rings around panes that need attention\n* Built-in browser\n* Based on Ghostty\n\n![uploaded image](/media/?type=post&id=98405&key=user_uploads/760906/3128b3c6-1fba-4b9c-a287-13ef7c2d04ce)\n\n![uploaded image](/media/?type=post&id=98405&key=user_uploads/760906/0e4d8185-428a-458d-9b92-987a7189f889)\n\n![uploaded image](/media/?type=post&id=98405&key=user_uploads/760906/2d0b0af2-5317-419a-84af-c920874d961d)\n\ncmux also has a built-in CLI that allows coding agents to command cmux’s browser, create new workspaces, and start off other agents in new terminals. AI can use cmux exactly like you would.\\\n\\\n<https://www.youtube.com/watch?v=XKc1cVCFLDQ>\n\n**The zen of cmux**\n\ncmux is not prescriptive about how developers hold their tools. It's a terminal and browser with a CLI, and the rest is up to you.\n\ncmux is a primitive, not a solution. It gives you a terminal, a browser, notifications, workspaces, splits, tabs, and a CLI to control all of it. cmux doesn't force you into an opinionated way to use coding agents. What you build with the primitives is yours.\n\nThe best developers have always built their own tools. Nobody has figured out the best way to work with agents yet, and the teams building closed products definitely haven't either. The developers closest to their own codebases will figure it out first.\n\nGive a million developers composable primitives and they'll collectively find the most efficient workflows faster than any product team could design top-down.\n\ncmux is free, open-source (AGPL), and already trusted by thousands of builders from Nvidia, Google, OpenAI, and more. Developers build or port their own custom harnesses and orchestrators on top of cmux.\n\n<https://github.com/manaflow-ai/cmux>\n\n**Traction**\n\nIn two weeks, cmux grew from zero to 3.5k GitHub stars.\n\n![uploaded image](/media/?type=post&id=98405&key=user_uploads/760906/67e21a8c-3bc8-44e2-b310-9584a238775b)\n\nWe peaked at #2 on Hacker News: <https://news.ycombinator.com/item?id=47079718>\n\n![uploaded image](/media/?type=post&id=98405&key=user_uploads/760906/97569e3c-fdf9-4955-a675-4b64cc0919c2)\n\nOur X launch went viral: <https://x.com/lawrencecchen/status/2026729219154378912>\n\n![uploaded image](/media/?type=post&id=98405&key=user_uploads/760906/829277d1-b53c-4800-9f5c-1f449b2bbe62)\n\nMitchell Hashimoto, the creator of Ghostty and founder of HashiCorp, shouted out cmux on X.\n\n![uploaded image](/media/?type=post&id=98405&key=user_uploads/760906/ad536752-35d4-4ee0-9282-06d3a8feca23)\n\nNick Schrock, the creator of Dagster and GraphQL:\n\n![uploaded image](/media/?type=post&id=98405&key=user_uploads/760906/000699e9-4c69-471c-9096-678bd2ccd121)\n\nEdward Grefenstette, Director of Research at Google DeepMind:\n\n![uploaded image](/media/?type=post&id=98405&key=user_uploads/760906/e9c2b0b5-a3f5-4cee-bf61-87411a167143)\n\nMany Japanese fans:\n\n![uploaded image](/media/?type=post&id=98405&key=user_uploads/760906/4aa84dec-c312-4ad9-af6e-db89184e2f2f)\n\n**How you can help**\n\nStar our GitHub repo: <https://github.com/manaflow-ai/cmux>\n\nTry cmux: [https://www.cmux.com/](https://www.cmux.dev/) \n\nShare cmux with your friends: send feedback to [founders@manaflow.ai](mailto:founders@manaflow.ai).",
+      "url": "https://www.ycombinator.com/launches/PbB-cmux-the-open-source-terminal-built-for-coding-agents",
+      "votes": 735,
+      "created_at": "2026-03-03T17:31:16.700Z"
+    },
+    {
+      "id": 82289,
+      "title": "Manaflow - Build and manage your dream AI operations team",
+      "tagline": "Automate workflows involving data analysis, API calls, and business actions. ",
+      "body": "### **🛎️ TL;DR**\n\n* [**Manaflow**](https://manaflow.ai/) empowers **operation managers** to automate workflows involving data analysis, API calls, and business actions.\n* You can **command Manaflow agents in English** to execute recurring tasks and manage them on a spreadsheet interface. \n* Think of us as an **AI-first Zapier alternative** but with natural language and spreadsheets. \n* **Frustrated with repetitive manual tasks** in your business? We’ll automate them all for you. [**Let’s chat**](https://cal.com/team/manaflow/meeting)**.**\n\n### **🗂️ The Problem: Too much Excel, too much manual stuff, too much repetition**\n\nAre you tired of **juggling countless Excel files and manual workflows for your business**? Do these workflows prevent your business from scaling up?\n\nAfter **conducting over 250 calls**, we've discovered a recurring problem: **small-to-mid-sized businesses (SMBs)** rely heavily on folders of Excel files and third-party apps to **manually execute their day-to-day operations**, which is **time-consuming, error-prone, and a huge bottleneck to scaling**. \n\nFor instance, in freight forwarders, operations include managing client communications, inventory oversight, and coordinating delivery schedules, most of which are done manually. These **manual processes** not only **decelerate business growth** but also **heighten the risk of mistakes**.\n\nToday’s operation managers are blocked by a lack of **technical knowledge,** **customization,** **and** **simplicity** in current workflow automation builders.\n\n### **💡 Introducing MANAFLOW: Automate operations workflows with AI**\n\nWe are building **Manaflow** specifically for **underdog SMBs to scale** like their tech-enabled, big corporation counterparts, transforming manual spreadsheet and software tasks into **automated end-to-end workflows**.\n\nThe ideal way to execute workflows is not for a human to manually operate Excel sheets or interface with different software apps but for a human to **merely click a button**. \n\n**AI can own end-to-end technical workflows** and convert them into features, while **humans can oversee** them, update them as the business evolves, and tackle higher-level automations. Let’s see this in **action**.\n\n### **📕 Building a Basic Workflow on Manaflow**\n\nWe’ll begin by building a fun, basic workflow on Manaflow to **send payment reminders to clients** via email.\n\n[Manaflow Demo: Building Sending Payment Reminders Workflow](https://www.youtube.com/watch?v=TGbJN7pNb30)\n\nNext, we’ll go into more specific examples of potential use cases for business customers.\n\n### **📸 Manaflow Workflow #1: Watermark videos and send them to your clients via Gmail**\n\nOne of our customers uses Manaflow to take in unpolished videos from Google Drive, process them, watermark them with their logo, and then email the final products to their clients — **all in one click of a button**. \n\n[Manaflow Demo: Watermarking Video Workflow](https://www.youtube.com/watch?v=tTTTRrzICVg)\n\nThis has **cut their** **20-hour weekly manual workflow down to 20 minutes**, and Manaflow has become a core part of their operations.\n\n### **🛻 Manaflow Workflow #2: Find and email truckers for your shipment logistics**\n\nAnother customer uses Manaflow to find and email local trucking companies based on the shipment origin and final destination. \n\n[Manaflow Demo: Finding Truckers for Logistics Workflow](https://www.youtube.com/watch?v=9GsBHG3zm_I)\n\nThis has allowed them to gather rate quotations faster for their clients and has **reduced their manual operations by over 50%.**\n\n### **🙌 One more thing: Collaborate with all stakeholders, including us, to build automations**\n\nThere are countless workflow automations that you can build on Manaflow. We understand that people have many different ideas and love working in teams. So, we made **real-time collaboration** so all of you can build and automate workflows together on Manaflow.\n\n![uploaded image](/media/?type=post&id=82289&key=user_uploads/760906/1e1b585b-aa0e-4fa6-abf9-c3774e9bdfba)\n\nPartnering with us, you will also have **24/7 access to Manaflow’s engineering support staff.**\n\n### 👥 **OUR TEAM**\n\n[**Austin Wang**](https://www.linkedin.com/in/austinwang115/): Yale Physics, CS & Econ; Prev. SWE @ Google, NASA JPL, Chess.com, ML @ Datacy\\\n[**Lawrence Chen**](https://www.linkedin.com/in/lawrencecchen/): Berkeley CS; Prev. Founding Eng @ Minion AI, Berkeley RISE Lab\\\n[**Wesley Tjangnaka**](https://www.linkedin.com/in/wesleytjangnaka/): Stanford Math & CS; Prev. Stanford AI Research, ML @ Juniper Networks\n\n![uploaded image](/media/?type=post&id=82289&key=user_uploads/89898/2d6a0806-b347-4d6d-ac7f-cc69dae86325)\n\n**🙏 Our Ask**\n\n**If you are or know any** **operation managers or businesses** **that run on spreadsheets**, **please let us know or schedule a time with us** [**here**](https://cal.com/team/manaflow/meeting). Any intros or shoutouts would be super awesome and greatly appreciated.\n\nWe’d really appreciate a like and subscribe on our [YouTube](https://www.youtube.com/channel/UCAa89_j-TWkrXfk9A3CbASw), a follow on our [Twitter](https://x.com/manaflowai) and [LinkedIn](https://www.linkedin.com/company/manaflow-ai/), and some feedback on our [product](https://manaflow.ai/). \\\n\\\nThank you!",
+      "url": "https://www.ycombinator.com/launches/LPF-manaflow-build-and-manage-your-dream-ai-operations-team",
+      "votes": 918,
+      "created_at": "2024-07-19T22:13:47.678Z"
+    }
+  ]
+}

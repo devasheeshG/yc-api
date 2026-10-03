@@ -1,0 +1,134 @@
+{
+  "id": 24344,
+  "name": "WarpBuild",
+  "slug": "warpbuild",
+  "former_names": [
+    "Argonaut",
+    "WartpBuild"
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/dc34887fced4f954a1a9fd60de7afd828c9a1d74.png",
+  "website": "https://www.warpbuild.com",
+  "all_locations": "San Francisco, CA, USA; Remote",
+  "long_description": "Accelerate software development with WarpBuild.\r\nGet 2x faster, up to 90% cheaper CI in 30 seconds using WarpBuild for Github Actions.",
+  "one_liner": "Accelerate software development with WarpBuild's 10x faster CI infra.",
+  "team_size": 8,
+  "industry": "B2B",
+  "subindustry": "B2B -> Engineering, Product and Design",
+  "launched_at": 1626365093,
+  "tags": [
+    "Developer Tools",
+    "Generative AI",
+    "SaaS",
+    "Productivity",
+    "DevOps"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": true,
+  "nonprofit": false,
+  "batch": "Summer 2021",
+  "status": "Active",
+  "industries": [
+    "B2B",
+    "Engineering, Product and Design"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada",
+    "Remote",
+    "Fully Remote"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/warpbuild",
+  "api": "https://devasheeshg.github.io/yc-api/batches/summer-2021/warpbuild.json",
+  "year_founded": 2021,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/warpbuild/",
+  "x_url": "https://twitter.com/suryaoruganti",
+  "fb_url": null,
+  "cb_url": "https://www.crunchbase.com/organization/argonaut-862d",
+  "github_url": "https://github.com/organizations/WarpBuilds/",
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/dc34887fced4f954a1a9fd60de7afd828c9a1d74.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": null,
+  "founders": [
+    {
+      "user_id": 349815,
+      "full_name": "Surya Oruganti",
+      "title": "Founder",
+      "founder_bio": "I'm making WarpBuild - which provides fast, secure Github actions runners and AI powered software delivery insights. I love hikes, poker, board games, and adrenaline.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/suryaoruganti/",
+      "x_url": "https://twitter.com/suryaoruganti",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/9c36a14083521f77b95c21ba406072fcd0e243c4.jpg"
+    }
+  ],
+  "jobs": [
+    {
+      "id": 80216,
+      "title": "GTM Engineer",
+      "url": "https://www.ycombinator.com/companies/warpbuild/jobs/C2Vs70O-gtm-engineer",
+      "location": "IN / Remote (IN)",
+      "type": "Full-time",
+      "role": "Engineering",
+      "role_type": "Full stack",
+      "salary_range": "₹2.5M - ₹6M INR",
+      "equity_range": "0.10% - 1.00%",
+      "experience": "3+ years",
+      "visa": "US citizenship/visa not required",
+      "skills": [
+        "Marketing design"
+      ]
+    },
+    {
+      "id": 110902,
+      "title": "Senior Network Engineer",
+      "url": "https://www.ycombinator.com/companies/warpbuild/jobs/UCEOEhn-senior-network-engineer",
+      "location": "IN / Remote (IN)",
+      "type": "Full-time",
+      "role": "Engineering",
+      "role_type": "Devops",
+      "salary_range": "₹3M - ₹8M INR",
+      "equity_range": "0.10% - 0.20%",
+      "experience": "7+ years",
+      "visa": "US citizenship/visa not required",
+      "skills": [
+        "Python",
+        "Linux"
+      ]
+    },
+    {
+      "id": 110903,
+      "title": "Chief of Staff to the CEO",
+      "url": "https://www.ycombinator.com/companies/warpbuild/jobs/iqDrgII-chief-of-staff-to-the-ceo",
+      "location": "IN / Remote (IN)",
+      "type": "Full-time",
+      "role": "Operations",
+      "role_type": null,
+      "salary_range": "₹3M - ₹8M INR",
+      "equity_range": "0.10% - 0.25%",
+      "experience": "1+ years",
+      "visa": "US citizenship/visa not required",
+      "skills": []
+    }
+  ],
+  "news": [],
+  "launches": [
+    {
+      "id": 76905,
+      "title": "WarpBuild: Blazing fast x86-64 and ARM64 runners for Github actions",
+      "tagline": "Supercharge your development cycle with 30% faster runners in 2 minutes",
+      "body": "**WarpBuild provides blazing fast cloud CI runners that speed up of your builds by over 30%.**\n\nThis is a drop-in replacement for Github-hosted Actions runners (_including all pre-installed dependencies)_ that takes one line of code change to get started.\n\nOur mission is to deprecate this:\n\n![](https://imgs.xkcd.com/comics/compiling.png)\n\n## **Key benefits:**\n\nYour existing github actions will run without any changes. You will also get:\n\n* **x86-64 and arm** architecture runners\n* **30% faster** than GitHub Actions at half the price\n* **Secure** VM-level isolation for your workloads\n* **Easy debugging** - SSH into running Github actions workflows\n* **Fast IO** with SSD backed volumes\n* **Unlimited parallelization** for eliminating job queueing delays\n* **Automatic updates** of pre-installed toolchains saving maintenance if you are self-hosting runners\n* **Runs as a VM**, not in a container, for workloads that don’t work in `dind` or `kind` environments\n\n## **Use cases:**\n\n* **Plain ol’ Github actions**, but faster, cheaper, and awesomer\n* **Easy debugging:** ssh into a running workflow using `Action-Debugger`\n* **Nested virtualization** for running firecracker, VMs, custom hypervisors, inside of your workflow\n* **Running android emulators** in CI\n* Spinning up kubernetes clusters in testing pipelines",
+      "url": "https://www.ycombinator.com/launches/K0P-warpbuild-blazing-fast-x86-64-and-arm64-runners-for-github-actions",
+      "votes": 9,
+      "created_at": "2023-12-14T06:22:01.182Z"
+    }
+  ]
+}

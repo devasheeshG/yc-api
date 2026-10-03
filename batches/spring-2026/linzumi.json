@@ -1,0 +1,86 @@
+{
+  "id": 31046,
+  "name": "Linzumi",
+  "slug": "linzumi",
+  "former_names": [
+    "[Placeholder] Sean Grove NewCo"
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/5cfae971c0f6dc34ce7d88e4c9086b3ed9aa19e2.png",
+  "website": "https://linzumi.com",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "Linzumi is the chat your engineering team uses to direct dozens of AI coding agents.\r\n\r\nKick off work, review it, ship it. All from chat.\r\n\r\nSee every agent's work. Unblock the agents that need you from your laptop, your phone, the coffee line. Your teammates see it too.\r\n\r\nEvery decision your team makes compiles into a source of truth - what to build, why it changed, how your agents should act. That same source generates new work and verifies completed work.\r\n\r\nDeliberative alignment, repurposed from aligning LLMs to aligning companies.",
+  "one_liner": "Team chat to command all your company's coding agents",
+  "team_size": 3,
+  "industry": "B2B",
+  "subindustry": "B2B -> Engineering, Product and Design",
+  "launched_at": 1781215175,
+  "tags": [
+    "Artificial Intelligence",
+    "Developer Tools",
+    "Chat"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Spring 2026",
+  "status": "Active",
+  "industries": [
+    "B2B",
+    "Engineering, Product and Design"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada",
+    "Remote",
+    "Partly Remote"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/linzumi",
+  "api": "https://devasheeshg.github.io/yc-api/batches/spring-2026/linzumi.json",
+  "year_founded": 2025,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/linzumi",
+  "x_url": "https://x.com/linzumi_ai",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": "https://github.com/linzumi/",
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/5cfae971c0f6dc34ce7d88e4c9086b3ed9aa19e2.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Garry Tan",
+    "url": "https://www.ycombinator.com/people/garry-tan"
+  },
+  "founders": [
+    {
+      "user_id": 19683,
+      "full_name": "Sean Grove",
+      "title": "Founder/CEO",
+      "founder_bio": "Sean Grove builds systems that turn human intent into reliable software. At OpenAI he spent years in post‑training and alignment reasoning, helping develop model‑spec infrastructure and deliberative‑alignment techniques. He founded OneGraph (acquired by Netlify), was Principal Architect at Netlify, and now builds Linzumi.\n\nSean enjoys writing about himself in the third person. Sean hungry. Sean work hard.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/segrove/",
+      "x_url": "https://x.com/sgrove",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/191f665e0d237b1ec833317705481175705c4b40.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 103435,
+      "title": "Linzumi: team chat for directing AI coding agents",
+      "tagline": "Team chat for directing dozens of AI coding agents",
+      "body": "# Hi everyone, I'm Sean, and I’m launching Linzumi today\n\n**Linzumi is the team chat your engineering team uses to direct dozens of AI coding agents at once.** Kick off work, review it, ship it: all from chat. Try it at <https://linzumi.com>.\n\n> For a limited time, every team chat account also gets free daily access to state of the art open-weights intelligence, GLM 5.2 at high speed, through our partnership with [Wafer.ai](http://Wafer.ai).\n\n<https://www.youtube.com/watch?v=EM53ACaIHyg>\n\n## The problem\n\nThe bottleneck in software has moved. Execution is basically free now: AI agents can write, test, and ship code 24/7. _The new constraint is human decisions and verification_. Whoever surfaces the right decision to the right person at the right moment unlocks 10x throughput. Whoever doesn't watches their agent fleet stall.\n\nIf you've ever tried to keep three coding agents productive at once, you know the feeling. You jump between PR tabs, miss approvals buried in Slack, and find one agent has sat idle for 20 minutes waiting on a one-line decision. It's a fascinating moment to be building software: vastly easier and vastly harder at the same time.\n\n![uploaded image](/media/?type=post&id=103435&key=user_uploads/19683/9019e12e-5088-4b41-9321-28a417dade5a)\n\n## How Linzumi works\n\nConnect your machine, kick off work in chat, and review what every agent is doing from your laptop, your phone, or the coffee line. Works with Codex today, Claude Code coming soon. Your teammates see it all too: agent work is no longer buried in invisible terminals.\n\n<https://www.youtube.com/watch?v=AQP5tQGZ9Jc>\n\nBut the real unlock is underneath. As your team works, Linzumi keeps every decision close to the work itself: what to build, why it changed, who approved it, and what the agents should do next. The decision inbox surfaces only the calls that need a human, so instead of reconstructing context from terminals, PRs, chats, and memory, your team has one shared place to steer the whole fleet.\n\n_Continuous Context Compilation_\n\n<https://www.youtube.com/watch?v=TNJbWKYiDyc>\n\n## Backstory\n\nI'm a 3x YC founder. Before Linzumi I was at OpenAI on post-training and alignment research, where I worked on systems for making models follow written specs and produce more reliable reasoning. Working with coding agents on my own projects showed me the same kind of coordination problem at the team level: the agents could execute, but the bottleneck was deciding what should happen next and checking whether the result matched intent.\n\nThe mission now is to make everyone the CEO of their own 1,000-agent company: able to direct more work, make better decisions, and become the best version of themselves as a builder.\n\nWhen you combine that shared context with calibrated decisions, even the smallest form factor can do surprising amounts of work, like shipping a customer feature from your phone on the way to the meeting.\n\n_Hands-free work_\n\n<https://www.youtube.com/watch?v=pmqf3kwuOqI>\n\n## What we're asking for\n\nIf you run AI coding agents (or want to), try Linzumi at <https://linzumi.com>. It's free to get started and we'd love your feedback.\n\nWe're especially looking for:\n\n• Engineering teams running multiple coding agents who want to scale to dozens (honestly, thousands by end of year)\n\n• Founders who feel like the bottleneck in their own dev cycle\n\n• Anyone curious about better human-agent coordination for company-scale work\n\nDM me on X (@sgrove) or email [sean@linzumi.com](mailto:sean@linzumi.com). I read every reply.",
+      "url": "https://www.ycombinator.com/launches/QuJ-linzumi-team-chat-for-directing-ai-coding-agents",
+      "votes": 25,
+      "created_at": "2026-06-23T16:43:17.655Z"
+    }
+  ]
+}

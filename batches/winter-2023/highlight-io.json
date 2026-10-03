@@ -1,0 +1,104 @@
+{
+  "id": 28141,
+  "name": "highlight.io",
+  "slug": "highlight-io",
+  "former_names": [
+    "Highlight"
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/0d4301601e4f70936655aa2574a0bf0a798fe1bd.png",
+  "website": "https://www.highlight.io/",
+  "all_locations": "Seattle, WA, USA; Remote",
+  "long_description": "highlight.io is the open source, full-stack monitoring platform. With just a few lines of code, Highlight makes it easy to understand what's slowing down your users and swiftly address errors and regressions on your web app.  Imagine that you have a customer reporting an issue on your web app. With highlight.io, you can playback their exact interactions to reproduce the bug and get notified of any future errors that could happen.\r\n\r\nThat being said, we’re just getting started! We have plans to go way deeper into your observability stack to give you all of the visibility you need. Join us on this journey:\r\n- Star us on GitHub (https://github.com/highlight/highlight) to keep up with releases and news.\r\n- Join our Discord (https://highlight.io/community) to share product feedback and thoughts.\r\n",
+  "one_liner": "The open source, fullstack monitoring platform: stop guessing why…",
+  "team_size": 8,
+  "industry": "B2B",
+  "subindustry": "B2B -> Engineering, Product and Design",
+  "launched_at": 1675367373,
+  "tags": [
+    "Developer Tools",
+    "SaaS",
+    "B2B",
+    "Open Source",
+    "Monitoring"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Winter 2023",
+  "status": "Acquired",
+  "industries": [
+    "B2B",
+    "Engineering, Product and Design"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada",
+    "Remote",
+    "Fully Remote"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/highlight-io",
+  "api": "https://devasheeshg.github.io/yc-api/batches/winter-2023/highlight-io.json",
+  "year_founded": 2023,
+  "city": "Seattle",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/highlightrun",
+  "x_url": "https://twitter.com/highlightio",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/0d4301601e4f70936655aa2574a0bf0a798fe1bd.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Jared Friedman",
+    "url": "https://www.ycombinator.com/people/jared-friedman"
+  },
+  "founders": [
+    {
+      "user_id": 241768,
+      "full_name": "Jay Khatri",
+      "title": "Cofounder, CEO (acquired by LaunchDarkly)",
+      "founder_bio": "I currently run the Observability business at LaunchDarkly. I was the CEO at Highlight, which was acquired by LaunchDarkly in March of 2025. ",
+      "is_active": true,
+      "linkedin_url": "https://linkedin.com/in/jay-khatri",
+      "x_url": "https://twitter.com/theJayKhatri",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/b9f1e7513e56139706e0a7fa29cc2cf7701527f0.jpg"
+    },
+    {
+      "user_id": 1250975,
+      "full_name": "Vadim Korolik",
+      "title": "Founder",
+      "founder_bio": "Vadim Korolik is the founder and CTO of highlight.io, the open source session replay and error monitoring framework. A native of the Bay Area, Vadim previously worked at Pure Storage and drive.ai.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/vkorolik/",
+      "x_url": "https://twitter.com/vkorolik",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/310d5870d701e4759b843740c85bf40bcf26f3e4.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [
+    {
+      "title": "Highlight launches full-stack application monitoring platform, raises $8M | VentureBeat",
+      "url": "https://venturebeat.com/programming-development/highlight-launches-full-stack-application-monitoring-platform-raises-8m/",
+      "date": "Aug 15, 2023"
+    }
+  ],
+  "launches": [
+    {
+      "id": 68975,
+      "title": "highlight.io - Open-source session replay & error monitoring",
+      "tagline": "highlight.io is the open source, fullstack monitoring platform. We help engineers reproduce hard-to-crack issues, and understand how their product is used.",
+      "body": "![uploaded image](/media/?type=post&id=68975&key=user_uploads/241768/1b79410b-8b41-4e1e-8869-c4ccfe7d2130)\n\n## **TL;DR:**\n\n[highlight.io](http://highlight.io) is an open-source **session replay and error monitoring** tool that helps teams reproduce hard-to-crack issues and understand product usage. We enable developers to understand WHY bugs are thrown on their web apps to eliminate the noisy alerts they get from more traditional monitoring tools.\n\n[highlight.io](http://highlight.io) is already being used in production by **2k+ developers and 80+ companies**. Get started for free at [app.highlight.io](http://app.highlight.io) and give us a ⭐️ at [github.com/highlight/highlight](http://github.com/highlight/highlight).\n\n### **The Problem**\n\nHow many times have you gotten an alert from Bugsnag or Sentry, and dismissed it because you weren’t sure about what caused it? And how many of you have an endless backlog of errors that your team _should_ triage, but haven’t gotten to yet?\n\nWe’ve found that when debugging an issue or customer request, **the toolset that you use is responsible for delivering one thing only: context**. And if there’s any gaps in this context, engineers are left in the dark.\n\nTo solve this, at our last companies, we found a lot of value in instrumenting a session replay-like tool, (similar to Logrocket or Fullstory), paired with an error monitoring tool (like Bugsnag). In fact, we’ve built these sorts of tools ourselves to hackily solve the problem. Enter [highlight.io](http://highlight.io).\n\n### **The Solution: Session Replay 🤝 Error Monitoring**\n\nWith a simple `yarn/npm` import in your frontend and an optional import in your backend, [highlight.io](http://highlight.io) gives you session replay and error monitoring out of the box. This means that you can:\n\n* Replay exactly what a user was seeing at the time of an issue/bug.\n* Reproduce the browser dev-tools for every user session, including the network requests, errors, and more.\n* Access all of the errors and exceptions (both frontend and backend) thrown in your app, paired with session replay.\n\nLastly, given the privacy-sensitive nature of the product, we have a very powerful privacy API that you can take a look at in our docs [here](https://www.highlight.io/docs/session-replay/privacy).\n\n## **💬 What’s Next?**\n\nWe’re just getting started! We have plans to go way deeper into your observability stack to give you ALL of the visibility you need; that means logs, traces and more! Join us on this journey:\n\n* ⭐️ us on [GitHub](https://github.com/highlight/highlight) to keep up with releases and news.\n* Join [our Discord](https://highlight.io/community)!",
+      "url": "https://www.ycombinator.com/launches/HwV-highlight-io-open-source-session-replay-error-monitoring",
+      "votes": 60,
+      "created_at": "2023-02-02T19:04:50.853Z"
+    }
+  ]
+}

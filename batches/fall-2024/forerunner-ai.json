@@ -1,0 +1,89 @@
+{
+  "id": 30110,
+  "name": "Forerunner AI",
+  "slug": "forerunner-ai",
+  "former_names": [],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/683490b8ed63456c153999da3c193d23b5d08e78.png",
+  "website": "https://tryforerunner.com",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "Forerunner is the AI-powered platform for aircraft maintenance, repair, and overhaul.",
+  "one_liner": "AI that gets aircraft flying faster",
+  "team_size": 2,
+  "industry": "Industrials",
+  "subindustry": "Industrials -> Aviation and Space",
+  "launched_at": 1730181783,
+  "tags": [
+    "Airlines",
+    "Aerospace",
+    "AI"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Fall 2024",
+  "status": "Active",
+  "industries": [
+    "Industrials",
+    "Aviation and Space"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/forerunner-ai",
+  "api": "https://devasheeshg.github.io/yc-api/batches/fall-2024/forerunner-ai.json",
+  "year_founded": 2024,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/tryforerunner/",
+  "x_url": "https://x.com/TryForerunner",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/683490b8ed63456c153999da3c193d23b5d08e78.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": null,
+  "founders": [
+    {
+      "user_id": 695093,
+      "full_name": "Yash Kadadi",
+      "title": "Founder/CEO",
+      "founder_bio": "Prev. Software/Autonomy/ML at Anduril, SpaceX, and NASA |\nStanford BS CS '25, MS CS '26 (on leave)",
+      "is_active": true,
+      "linkedin_url": "https://linkedin.com/in/yashkadadi",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/61dd1e8893ca6d6f65f7d8d79f9c757baccc170c.jpg"
+    },
+    {
+      "user_id": 972066,
+      "full_name": "Will Nida",
+      "title": "Founder/CTO",
+      "founder_bio": "Stanford BS '25 (Physics + CS). Prev. Starship Propulsion Engineering @ SpaceX, Plasma Propulsion Research @ Stanford",
+      "is_active": true,
+      "linkedin_url": "https://linkedin.com/in/william-nida",
+      "x_url": "https://x.com/willnida0",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/088a3d13c32b1a604dc4303a36ba4d9d61b03e9c.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 85132,
+      "title": "Forerunner - Copilot for aerospace engineers",
+      "tagline": "Forerunner collaborates with engineers to accelerate development of defense tech, satellites, and rockets.",
+      "body": "### **BLUF**\n\n[Forerunner](https://tryforerunner.com) automates repetitive hardware engineering tasks, helping hardware teams speed up design iterations and stay aligned. Our AI-powered Slackbot integrates with software like Confluence and GitHub, enabling engineers to efficiently access the latest data (“What’s the current thrust on our Methalox engine?”), run calculations (“Solve for mass flow rate on the cold gas thruster”), and update files (“Update SRB design thrust with new test data”).\n\nWith Forerunner, engineers can focus on what matters: designing and building hardware systems.\n\n<https://youtu.be/0EsKdLXPFAs>\n\n### **The Ask – Refer Us**\n\nWe’d like to chat with any engineering leads at aerospace, defense, and hardware companies! \n\nEmail [yash@tryforerunner.com](mailto:yash@tryforerunner.com) if you or your friends are building cool hardware! \n\n### **Who we are**\n\nWe’re [Yash](http://linkedin.com/in/yashkadadi) and [Will](http://linkedin.com/in/william-nida)! We’re lifelong aerospace nerds. We’ve launched liquid biprop rockets and built CubeSats at Stanford, and we have deployed hardware and software at SpaceX (Starship and Starlink), Anduril (Altius), and NASA (ISS operations).\n\n### **Why this matters**\n\n![uploaded image](/media/?type=post&id=85132&key=user_uploads/695093/61c93aea-f5e3-4ed2-a5eb-c0b0788ada17)\n\n_An FPV drone carrying a warhead disables Russian armor. Credit: United24_\n\n[The world is on fire](https://www.cnn.com/2024/10/24/europe/ukraine-north-korean-troops-spotted-kursk-intl-latam/index.html), and we desperately need to fly the next generation of autonomous weapons, satellites, launch vehicles, hypersonics, and eVTOL aircraft. \n\nHowever, inefficient engineering software is slowing us down. We personally experienced the frustration of digging through hundreds of slides of primary structures analysis, setting up Excel hand-calcs with equations from Roark’s, and missing flight deadlines.\n\nTo accelerate the development of critical aerospace and defense hardware, we need to automate slow, tedious workflows for engineers. \n\n### **How we solve this**\n\nForerunner automates repetitive tasks in aerospace engineering. Today, Forerunner can:\n\n* Update turbopump design specs in Document A by querying and synthesizing test results from Documents B and C.\n* Size the mass budget for a comms satellite using techniques in The New SMAD. Generate compliant test plans based on [Air Force Space Command procedures](https://explorers.larc.nasa.gov/2019APSMEX/MO/pdf_files/SMC-S-016_05SEP2014.pdf).\n* Analyze assembly instructions for an arming fuse and generate an inspection plan for QA.\n* Track system-level requirements for a loitering munition; when new wingbox subsystem specs are uploaded, Forerunner flags and corrects any inconsistencies with system requirements.\n\n![uploaded image](/media/?type=post&id=85132&key=user_uploads/695093/7042fafb-b9b4-449a-9bac-9c11b3bf9309)\n\n",
+      "url": "https://www.ycombinator.com/launches/M96-forerunner-copilot-for-aerospace-engineers",
+      "votes": 39,
+      "created_at": "2024-10-29T20:49:59.814Z"
+    }
+  ]
+}

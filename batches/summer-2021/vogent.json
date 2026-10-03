@@ -1,0 +1,174 @@
+{
+  "id": 22694,
+  "name": "Vogent",
+  "slug": "vogent",
+  "former_names": [
+    "Monoid",
+    "Interlounge",
+    "Gallery",
+    "Brist",
+    "Monoid",
+    "Elto"
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/b16347eb61c894b16643b846e1734b737dee7d65.png",
+  "website": "https://vogent.ai",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "Vogent is an all-in-one platform for building voice agents by using intelligent building blocks, including IVR detection models, custom phone-ready LLMs, drag-and-drop conversational flow builders, and more. ",
+  "one_liner": "Build Voice AI Agents",
+  "team_size": 3,
+  "industry": "B2B",
+  "subindustry": "B2B",
+  "launched_at": 1628291828,
+  "tags": [
+    "Artificial Intelligence",
+    "SaaS",
+    "B2B",
+    "Sales",
+    "Operations"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Summer 2021",
+  "status": "Acquired",
+  "industries": [
+    "B2B"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada",
+    "Remote",
+    "Partly Remote"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/vogent",
+  "api": "https://devasheeshg.github.io/yc-api/batches/summer-2021/vogent.json",
+  "year_founded": 2020,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/vogent",
+  "x_url": "https://x.com/vogentai",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": "https://github.com/vogent",
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/b16347eb61c894b16643b846e1734b737dee7d65.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Diana Hu",
+    "url": "https://www.ycombinator.com/people/diana-hu"
+  },
+  "founders": [
+    {
+      "user_id": 539546,
+      "full_name": "Jagath Vytheeswaran",
+      "title": "Founder",
+      "founder_bio": "CEO @ Vogent\n\n",
+      "is_active": true,
+      "linkedin_url": "http://www.linkedin.com/in/jagathv",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/9614074aa61679f15addee54c3eb1cc261880eab.jpg"
+    },
+    {
+      "user_id": 434104,
+      "full_name": "Vignesh Varadarajan",
+      "title": "Founder",
+      "founder_bio": "CTO @ Elto\n\nPreviously:\nCS @ Caltech\nSoftware & Machine Learning @ Apple\nSoftware @ IBM",
+      "is_active": true,
+      "linkedin_url": "http://linkedin.com/in/vignesh-varadarajan-22469937/",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/738c0d3687a802593e0f9052c72df76aa411d68b.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 95431,
+      "title": "Vogent Voice Agent Wizard: build voice agents with just a description",
+      "tagline": "Create effective voice agents from scratch using a prompt and supporting files",
+      "body": "**TL;DR:** **Vogent's Voice Agent Wizard uses AI trained on thousands of real agent designs to generate complete, ready-to-deploy voice agents from a simple description and any relevant files**\n\nhttps://youtu.be/IKisqK4cO5U\n\nBuilding a performant voice AI agent today means weeks of trial and error—clicking through dashboards, configuring countless parameters, testing edge cases, and waiting on support tickets. By the time you've iterated your way to something that works, your competitors have shipped and your launch momentum is gone.\n\n**Introducing Vogent's Voice Agent Wizard.** Trained on thousands of real agent design processes, our wizard understands what makes voice agents work in production. Just describe what you want your agent to do, attach a few transcripts or conversation examples, and it builds a complete, production-ready voice agent in minutes—not weeks.\n\nThe wizard handles everything: reasoning through the right agent architecture for your use case, configuring optimal parameters, generating appropriate system prompts, and even anticipating edge cases based on patterns it's learned from real deployments. What used to take experienced engineers days of iteration now happens automatically.\n\nThe result? You can go from idea to deployed voice agent immediately. Test new use cases instantly. Iterate in real-time based on user feedback. Focus on building your product, not wrestling with infrastructure.\n\n**Try the Agent Wizard today at [app.vogent.ai](http://app.vogent.ai)**\n\n![uploaded image](/media/?type=post&id=95431&key=user_uploads/539546/0cb9a065-4760-44be-bdce-c3e00b4f1636)\n\n",
+      "url": "https://www.ycombinator.com/launches/OpD-vogent-voice-agent-wizard-build-voice-agents-with-just-a-description",
+      "votes": 9,
+      "created_at": "2025-11-12T15:44:28.405Z"
+    },
+    {
+      "id": 94839,
+      "title": "Vogent Turn: State-of-the-art Turn Detection for Voice AI",
+      "tagline": "Stop interrupting; teach your AI when to wait, and when to speak",
+      "body": "**TL;DR: Vogent-Turn-80M is a state-of-the-art turn-detection model that detects when users are done speaking with extraordinary accuracy, so your voice AI can stop interrupting.**\\\n\\\nhttps://youtu.be/XQeSUc2ID6g\n\nWhat makes conversation feel natural isn't just what we say; it's knowing when to speak and when to listen. Current voice AI systems struggle with this fundamental challenge, either interrupting users mid-thought or waiting awkwardly long after they've finished. The problem? Existing turn detection relies on either audio-only signals (missing semantic context) or text-only analysis (losing critical vocal cues). When a user says \"I'm flying from San Francisco...\" are they pausing to think, or done answering? Audio and text alone can't tell; but humans know instantly.\n\n**Introducing Vogent-Turn-80M**. Vogent-Turn-80M solves this by doing what humans do naturally: processing both how you're speaking and what you're saying simultaneously. Built on a streamlined 80M parameter architecture, our model fuses acoustic features from audio with conversational context from text, enabling it to understand that \"123 456\" with rising intonation means more is coming, while \"I'm departing from San Francisco\" is incomplete when asked about two airports. This multimodal approach achieves 94.1% accuracy while running in just \\~7ms on a T4 GPU—fast enough to feel completely natural in real-time conversations.\n\nThe result? Voice agents that finally feel like talking to a human. No more frustrating interruptions. No more awkward pauses. Just natural, flowing conversation that responds at the right moment, every time.\n\nHugging Face: https://huggingface.co/vogent/Vogent-Turn-80M\n\nGitHub: https://github.com/vogent/vogent-turn\n\nBlog Post: https://blog.vogent.ai/posts/voturn-80m-state-of-the-art-turn-detection-for-voice-agents\n\n![uploaded image](/media/?type=post&id=94839&key=user_uploads/539546/d4b5cab9-e1c3-47cf-bcc5-cc4d519a1d88)\n\n",
+      "url": "https://www.ycombinator.com/launches/Off-vogent-turn-state-of-the-art-turn-detection-for-voice-ai",
+      "votes": 8,
+      "created_at": "2025-10-23T14:37:17.278Z"
+    },
+    {
+      "id": 91917,
+      "title": "Vogent Voicelab: API to run top open-source voice models, like CSM-1B",
+      "tagline": "An API for fast, high-quality, and consistent text-to-speech generation from top open-source voice models, like Sesame CSM-1B, Dia, and more.",
+      "body": "We’re excited to launch **Vogent Voicelab (vogent.ai/voicelab): an optimized API to run top open-source voice models.**\n\nNew open-source text-to-speech models come out every week, with many ranking as state-of-the-art on popular benchmarks.\n\nHowever, most of these models are not readily usable for high-volume, low-latency inference. Additionally, some research preview models can struggle with hallucinations and inconsistent outputs. Finally, as with any model, hosting yourself and managing compute can be a headache.\n\nVoicelab solves these problems:\n\n1. Voicelab maintains a proprietary inference stack that is optimized to serve text-to-speech transformers efficiently and scalably.\n2. Voicelab post-trains select models to improve consistency and offer high-quality professional voice clones.\n3. Voicelab manages all compute, so you can pay for these models per-character instead of managing GPUs.\n\nAll of this is exposed through a standard text-to-speech API (with streaming/websocket support) and an online playground.\n\nDocs: [docs.vogent.ai/voicelab](http://docs.vogent.ai/voicelab)\n\nTTS Playground: [app.vogent.ai](http://app.vogent.ai)\n\nhttps://youtu.be/KMIVXYhb7lY\n\n![uploaded image](/media/?type=post&id=91917&key=user_uploads/539546/a6d5dd4f-0ed4-4ed9-9d69-8b12308b3e1d)\n\n",
+      "url": "https://www.ycombinator.com/launches/NuX-vogent-voicelab-api-to-run-top-open-source-voice-models-like-csm-1b",
+      "votes": 13,
+      "created_at": "2025-07-07T15:01:55.870Z"
+    },
+    {
+      "id": 89328,
+      "title": "Vogent: *Insanely* Realistic Voice Agents powered by Sesame",
+      "tagline": "Humanlike & realtime voice agents, powered by a re-engineered Sesame CSM-1B",
+      "body": "TL;DR: Make your voice agents _way_ more realistic and stop getting hangups. Check it out in action at or talk to it yourself by calling our AI Trump voice agent at (510) 315-0014 or [**vogent.ai/sesame**](http://vogent.ai/sesame)\n\nVogent powers millions of voice AI phone calls for healthcare, customer support, travel, and more.\n\nToday, we’re launching the **most realistic realtime voice engine** ever. It inserts natural pauses and disfluencies (“um”, “uh”) without being explicitly prompted, and is _uncannily_ good at cloning voices. Check it out in the videos below:\n\n<https://youtu.be/CbqTfVQGcd0>\n\n<https://youtu.be/QLiYmsw2-zk>\n\nHow did we do it?\n\nIf you’ve been online recently, you’ve probably come across Sesame’s super humanlike voice AI, and their open-source launch of CSM-1B, a 1B-parameter text-to-speech model.\n\nWe’ve spent the past couple of weeks rearchitecting CSM-1B from the ground-up to support realtime, low-latency inference, and we’ve finally cracked it. The results are pretty insane; it’s a step-function increase in realism (customer hangup rates have decreased by 60%+), and we made it available out-of-the-box.\n\nIf you want to create your own Sesame agents, sign up at [**app.vogent.ai**](http://app.vogent.ai), and select one of our Sesame voices. You can also use Sesame to clone new voices, as long as you have a 10-15 second reference clip.\n\nWe’re also releasing a realtime Sesame TTS soon; email [j@vogent.ai](mailto:j@vogent.ai) for beta access.",
+      "url": "https://www.ycombinator.com/launches/NEm-vogent-insanely-realistic-voice-agents-powered-by-sesame",
+      "votes": 97,
+      "created_at": "2025-04-08T03:58:15.504Z"
+    },
+    {
+      "id": 88533,
+      "title": "Vogent: Self-Learning Voice AI",
+      "tagline": "Vogent builds voice AI agents that design and improve themselves",
+      "body": "Announcing Vogent Self-Learning: 𝐀𝐈 𝐚𝐠𝐞𝐧𝐭𝐬 𝐭𝐡𝐚𝐭 𝐝𝐞𝐬𝐢𝐠𝐧 𝐚𝐧𝐝 𝐢𝐦𝐩𝐫𝐨𝐯𝐞 𝐭𝐡𝐞𝐦𝐬𝐞𝐥𝐯𝐞𝐬, learning from real failure cases and requiring no prompt engineering. No more need for hundreds of prompt iterations, or burning GPU (and human) hours on fine-tunes that don’t work.\n\nUsing reinforcement learning methods, like the kinds used by Deepseek and other research labs, our voice agents design themselves given call recordings, and improve themselves by evaluating every single dial and correcting bad behaviors.\n\nSign up by going to [app.vogent.ai](http://app.vogent.ai) and clicking “Self Learning”\n\n<https://www.youtube.com/watch?v=Bg6K3wXxozQ>",
+      "url": "https://www.ycombinator.com/launches/N1x-vogent-self-learning-voice-ai",
+      "votes": 12,
+      "created_at": "2025-03-12T19:11:45.614Z"
+    },
+    {
+      "id": 87288,
+      "title": "Vogent: Build Voice AI Agents, Fast",
+      "tagline": "Vogent is the all-in-one platform for building effective voice agents quickly",
+      "body": "**TL;DR**: [**Vogent**](https://vogent.ai/) is an all-in-one platform for building voice agents by using intelligent building blocks, including drag-and-drop conversational flow builders, IVR detection models, spelling-optimized voices, custom phone-ready LLMs, and more. Vogent is made for developers and no-code users alike.\n\n<https://youtu.be/mu1rHsGjiMU>\n\n# The Problem\n\nWe’ve spent the past year building high-volume voice AI agents for a number of big-ticket customers, including the second largest prescription network in the US, the biggest flight and hotel booking sites in Europe, top-10 health insurance companies, car dealership chains, and more.\n\nWhile the core voice agent cycle (STT-LLM-TTS-VAD) is a mostly solved problem at this point, the last-mile problem for making these agents performant was frustrating. We ended up building a lot of band-aids, and we decided to consolidate all of the tools that we used to build these agents into a self-serve platform for developers and non-developers alike.\n\n# How Vogent Works\n\nVoice AI isn’t new, and neither are platforms to build agents. Our approach is to also offer higher-level building blocks that make it easier to build performant agents that can handle complex tasks. These include:\n\n* Our drag-and-drop flow builder, which lets teams build agents that are both conversationally flexible and aligned to a task.\n* Our counterfactuals feature, which lets you test new agents on past calls\n* Our IVR detection model, which can tell the difference between a human or prerecorded message and navigate the latter\n* Custom, in-house voices that are optimized for realistic numbers and spelling\n* LLMs fine-tuned on millions of phone conversations that can be easily prompted to follow phone-call tasks\n\nAs well as other powerful abstractions.\n\nOur other focus is providing as much to developers as possible. We expose most of our platform through GraphQL and REST APIs, and we have a JS SDK that makes voice as easy to add to your product as any other AI modality. (Mobile SDKs in beta – email [j@vogent.ai](mailto:j@vogent.ai) for access!)\n\n# Get Started \n\n* Sign up now at [**https://vogent.ai**](https://vogent.ai) \n* Join our Discord - [**https://discord.gg/JmThYcyG**](https://discord.gg/JmThYcyG)\n* Follow us on X - [**x.com/vogentai**](http://x.com/vogentai) \n* Follow us on LinkedIn - [**linkedin.com/company/vogent**](http://linkedin.com/company/vogent) \n* Email us directly: [**j@vogent.ai**](mailto:j@vogent.ai) \n\n![uploaded image](/media/?type=post&id=87288&key=user_uploads/539546/65341827-c3b0-40fe-9fa1-e9fede328808)\n\n",
+      "url": "https://www.ycombinator.com/launches/Mhs-vogent-build-voice-ai-agents-fast",
+      "votes": 78,
+      "created_at": "2025-01-29T20:41:57.759Z"
+    },
+    {
+      "id": 80688,
+      "title": "Elto AI: The AI that makes phone calls",
+      "tagline": "Elto is an AI that talks on the phone, automating tasks in healthcare, operations, staffing, government, and more.",
+      "body": "**tl;dr:** Elto AI is a highly authentic, low-latency conversational AI that can make phone calls. Elto has automated phone calls to/for health systems, insurance providers, pharmacies, staffing agencies, municipalities, and more. Get a call from the AI at <https://elto.ai>!\n\n![uploaded image](/media/?type=post&id=80688&key=user_uploads/539546/d298a29f-a5c3-4cde-a2c4-d2455baa28be)\n\nElto is an end-to-end platform for training, deploying, and monitoring AI voice agents that make phone calls.\n\n### The Problem\n\nPhone calls are the most reliable way to execute tasks and receive information, whether it’s checking the status of an insurance claim or canvassing potential voters. Unfortunately, making phone calls is expensive, time-consuming, and resource-intensive; an offshore human caller can only make 100-300 dials a day, and increasing the number of humans dialing adds management burden. Making calls time-sensitive only adds to the operational complexity.\n\nOthers’ attempts to solve this problem with AI fall short; chaining together out-of-the-box API’s makes conversational agents that are difficult to train and **very** slow to respond.\n\n### Our Solution: Custom, Low-Latency Voice Agents\n\nIt took a while for us to get here -- we tried to get a version of this working a year ago by naïvely chaining together transcription, language, and text-to-speech services, but we ran into the problem that most AI voice agent solutions have: the latency was too high, instructing unspecialized models to execute tasks on the phone was difficult, and the realism was just not there.\\\n\\\nFast-forward a few months; our parallel dialer ([eltodialer.com](http://eltodialer.com)) was growing quickly, and we realized that it gave us what we needed to fix our earlier issues: from a small subset of consenting customers, we were able to gather troves of conversational data to train condensed, specialized models that were low-latency and worked well on the phone with prompting and few-shot fine-tuning. The dialer also gave us robust infrastructure for serving and monitoring hundreds of thousands of dials a day.\\\n\\\nWe've used that data and infrastructure to build an end-to-end in-house pipeline for training easy-to-teach, low-latency, realistic voice agents, and have worked with a handful of pilot customers to get the agents to execute tasks consistently. Elto's AI now runs tens of thousands of dials daily with no human oversight, automating work for verticals from logistics providers and healthcare payers to staffing solutions and municipalities, and more, with failure rates lower than those of human callers.\n\n![uploaded image](/media/?type=post&id=80688&key=user_uploads/539546/05909c0f-0456-453f-b49a-94de17a161ca)\n\n\\\n\\\nWe're now making the platform generally available on an invite basis. Sign up for an invite on the site!\\\n\\\nNote: we _do not_ support sales use-cases for Elto AI, due to TCPA regulations. Check out our parallel dialer ([eltodialer.com](http://eltodialer.com)) instead!",
+      "url": "https://www.ycombinator.com/launches/KzQ-elto-ai-the-ai-that-makes-phone-calls",
+      "votes": 22,
+      "created_at": "2024-05-07T20:02:59.841Z"
+    },
+    {
+      "id": 74607,
+      "title": "Elto: Human-in-the-loop AI call center (50% cheaper than typical call center/BPO)",
+      "tagline": "Powered by AI, Elto automates calls with intelligent agents and human interjection, translating to a 50% lower cost of operations.",
+      "body": "**TLDR:** [**Elto**](https://elto.ai) is a human-in-the-loop AI-powered call center. We automate phone call tasks in ops/support/etc. with AI, while employing a team to oversee the phone calls and interject when necessary. This enables us to offer call center services for a fraction of the price of normal BPO solutions (typically 50% off), while handling more complex tasks, maintaining higher quality conversations, and ramping up more quickly on a task than an AI alone could.\n\nHey everyone,\n\nWe’re excited to launch the evolution of [Elto](https://elto.ai), an AI that makes phone calls, with a great slate of pilot customers calling insurance, tax agencies, and more. Though our initial offering was primarily an AI agent to automate phone calls for ops/support tasks, we’re now expanding to a fully managed human-in-the-loop call center, to enable more complex call tasks and a quicker implementation cycle for the AI.\n\nIf you currently employ a BPO firm, call center, or dedicated team members for handling (non-sales) phone calls, our team will manage the task for 50% less. If you’re interested, please reach out to [**j@elto.ai**](mailto:j@elto.ai) and we can get started with a POC easily.\n\nNote: We do not support outbound sales tasks, due to TCPA regulations.",
+      "url": "https://www.ycombinator.com/launches/JPL-elto-human-in-the-loop-ai-call-center-50-cheaper-than-typical-call-center-bpo",
+      "votes": 13,
+      "created_at": "2023-09-04T17:27:53.447Z"
+    },
+    {
+      "id": 72727,
+      "title": "Elto - AI-powered parallel dialer",
+      "tagline": "10x your cold-call volume with AI",
+      "body": "TLDR: Elto dials up to 6 prospects at once, detects when a human picks up, and immediately drops the user into the call. Spend less time waiting on dial tones and voicemail, and more time on the phone with engaged prospects. \n\nHey everyone, \n\nWe’re Jagath and Vignesh, and we’re building Elto. Elto is an AI-powered parallel dialer that makes cold-calling _way_ less painful and more productive. \n\n**The Problem** \n\nCold-calling _sucks_. Sitting through dozens of dial-tones and voicemail inboxes can be exhausting and demoralizing, and while getting on the phone with an engaged prospect can be magical, it’s easy to go through multiple _days_ without a productive conversation. With a 3% pickup rate, for example, it can take **2 hours** of dialing to get a prospect on the phone (let alone a prospect who converts!).\n\n**The solution**: Elto **dials 6+ contacts in parallel, detects when someone answers, and connects the pickup to the user.** The rest of the calls disconnect immediately, so they can be re-dialed later.\n\n![uploaded image](/media/?type=post&id=72727&key=user_uploads/539546/969b79ec-53c4-4439-9a66-aa85c97fa272)\n\nUsing Elto increases the number of engaged leads on the phone in a single calling session by an **order of magnitude**. It also integrates seamlessly with your CRM (HubSpot, Salesforce, etc.) and/or SEP ([Apollo.io](http://Apollo.io), Salesloft, Outreach, etc.), so you can import contact lists/sequences/due call tasks and write call recordings, transcriptions, and dispositions back to your platform of choice.\n\n**Want to get started?** [Schedule a time to get set up.](http://calendly.com/elto/elto_get_started)",
+      "url": "https://www.ycombinator.com/launches/Iv1-elto-ai-powered-parallel-dialer",
+      "votes": 22,
+      "created_at": "2023-07-03T14:35:59.607Z"
+    }
+  ]
+}

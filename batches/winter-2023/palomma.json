@@ -1,0 +1,107 @@
+{
+  "id": 27714,
+  "name": "Palomma",
+  "slug": "palomma",
+  "former_names": [
+    "Pagaa"
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/6efa2d71f0a1a589e982662a2f6c1a1eab9c259b.png",
+  "website": "http://www.palomma.com/",
+  "all_locations": "Medellín, Antioquia, Colombia",
+  "long_description": "Palomma is building the AI-native bank for real estate in LatAm. We start with AI agents for property managers (leasing, sales, collections), then add payments to own the flow of rent. This unlocks credit and insurance products to monetize on the $235Bn of rental flows from tenants and landlords.",
+  "one_liner": "AI & financial services for real estate in LatAm, starting by rent",
+  "team_size": 8,
+  "industry": "Real Estate and Construction",
+  "subindustry": "Real Estate and Construction",
+  "launched_at": 1677732513,
+  "tags": [
+    "SaaS",
+    "Payments",
+    "Finance",
+    "B2B",
+    "AI"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Winter 2023",
+  "status": "Active",
+  "industries": [
+    "Real Estate and Construction"
+  ],
+  "regions": [
+    "Colombia",
+    "Latin America",
+    "Remote",
+    "Partly Remote"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/palomma",
+  "api": "https://devasheeshg.github.io/yc-api/batches/winter-2023/palomma.json",
+  "year_founded": 2023,
+  "city": "Medellín",
+  "country": "CO",
+  "linkedin_url": "https://www.linkedin.com/company/palomma/",
+  "x_url": "",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/6efa2d71f0a1a589e982662a2f6c1a1eab9c259b.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Brad Flora",
+    "url": "https://www.ycombinator.com/people/brad-flora"
+  },
+  "founders": [
+    {
+      "user_id": 981886,
+      "full_name": "Cipriano Echavarria",
+      "title": "Founder",
+      "founder_bio": "Colombian & Blue Devil (Go Duke!). Ex-Morgan Stanley, then helped scale Nubank into LatAm’s largest consumer bank.\n\nNow building the AI-native bank for real estate in LatAm, starting by rent.\n\nAvid soccer fan & squash player.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/cipriano-echavarria-3729a9105/",
+      "x_url": "https://twitter.com/ciprianoec11",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/9be39bfc98063743b27b2b6010d723f7fbeb7446.jpg"
+    },
+    {
+      "user_id": 1161238,
+      "full_name": "Nicolas Gomez del Campo",
+      "title": "Founder",
+      "founder_bio": "Mexican engineer building simpler bank payments for LatAm. I studied Computer Science at MIT and previously worked at JP Morgan developing systems for algorithmic trading. I enjoy training jiu jitsu in my free time.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/ngomezdelcampo/",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/70c7791ddaae161613ee7d1390e2bf5f784eb2e7.jpg"
+    },
+    {
+      "user_id": 1158727,
+      "full_name": "Felipe Monsalve",
+      "title": "Founder",
+      "founder_bio": "Felipe Monsalve is a technical co-founder at Palomma. He moved from Colombia for his Bachelor's in CS & Econ, and stayed for his Master's in CS. In between schooling, and over the summers, he's gotten industry experience @ Meta, Bloomberg, and a few US + Latin American startups. More recently, at MIT, Felipe worked on a system for medical reporting of human rights violations in places with poor healthcare access. He's passionate about new technology and its impact on individuals.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/felipemon/",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/5ded4d5d77d7c0ebf99f781150bb95c58c11a85f.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 70053,
+      "title": "Palomma 🕊️ - Frictionless Pay by Bank for LatAm",
+      "tagline": "Frictionless Pay by Bank for LatAm! ",
+      "body": "**TLDR**\n\n[Palomma](https://www.palomma.com/) helps online merchants and apps in LatAm save 70-80% on card processing fees and increase conversions, by enabling frictionless Pay by Bank for their customers (consumers and/or businesses).\n\n**The problem**\n\n1. Receiving card payments is expensive for merchants, it costs them between 2 to 5% per transaction\n2. Receiving the cheaper alternative, Pay by Bank, poses several frictions:\n   1. **Low conversion:** multiple steps are required to checkout via existing Pay by Bank solutions, resulting in a \\~40% failure rate\n   2. **Non-recurrent:** different from cards, existing Pay by Bank alternatives are hard to enable for recurring payments, requiring complex direct integrations with local banks\n   3. **Confirmation:** confirming a bank payment requires checking bank accounts in real-time, or trusting the proof of confirmation sent by the customer (fraud-prone)\n   4. **Reconciliation:** existing Pay by Bank data is cryptic: i.e., “68068407595”, making reconciliation difficult\n\n**The solution:**\n\nA single API and platform that allows online merchants or apps across LatAm (starting with Colombia) to receive frictionless Pay by Bank payments\n\n1. **Higher conversion:** 30-40% more conversion with frictionless Pay by Bank\n2. **Recurrent:** easily enable recurrent Pay by Bank payments\n3. **Confirmation:** allow your employees to instantly confirm bank payments via our dashboard and WhatsApp / email notifications\n4. **Easy reconciliation:** clearly identify each Pay by Bank payment in our dashboard\n\n![uploaded image](/media/?type=post&id=70053&key=user_uploads/981886/c6212d2c-0c67-4542-a1d7-0e4973f1567d)\n\n_PD: we´re also working on frictionless cash-out bank payments through our API & platform ;) 🔜_\n\n**Why are we building this?**\n\nDuring his time at Nubank, [Cipriano](https://www.linkedin.com/in/cipriano-echavarria-3729a9105/) personally saw the pain experienced by online merchants and apps with high card processing fees, and the friction around the cheaper, Pay by Bank alternatives.\\\n\\\nWith [Pipe](https://www.linkedin.com/in/felipemon/) & [Nico](https://www.linkedin.com/in/ngomezdelcampo/)´s tech, we´re changing that 🕊️\n\n**The ask:**\n\n1. If you’re an online merchant or app in LatAm looking to save on card processing fees, & receive Pay by Bank in a frictionless way, contact us: [cipriano@palomma.com](mailto:cipriano@palomma.com), or **\\+573146450404**\n2. Connect us to online merchants or apps in LatAm: [cipriano@palomma.com](mailto:cipriano@palomma.com), or **\\+573146450404**\n\n**YC deal:**\n\n1. **No fee:** 0$ in fees for the first 5000 transactions through Palomma for YC companies (or referrals of YC companies)",
+      "url": "https://www.ycombinator.com/launches/IDt-palomma-frictionless-pay-by-bank-for-latam",
+      "votes": 32,
+      "created_at": "2023-03-08T18:59:35.984Z"
+    }
+  ]
+}

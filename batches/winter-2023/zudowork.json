@@ -1,0 +1,132 @@
+{
+  "id": 27492,
+  "name": "zudo.work",
+  "slug": "zudowork",
+  "former_names": [
+    "Treasury",
+    "Nucleus",
+    "LazyEditor"
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/9b55d5948e24e4f011a2289892580ecd680e947a.png",
+  "website": "https://zudo.work/",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "Zudo.work builds and deploys AI agents that automate customer support, sales, and authorization workflows for warranty administrators in the home and auto markets.\r\n\r\nOur agents integrate across voice and internal system to handle high-volume service operations such as claims processing, coverage inquiries and authorizations — improving speed, accuracy, and operational efficiency.",
+  "one_liner": "AI Workers for Warranty",
+  "team_size": 3,
+  "industry": "B2B",
+  "subindustry": "B2B -> Operations",
+  "launched_at": 1680111928,
+  "tags": [
+    "AI"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": true,
+  "nonprofit": false,
+  "batch": "Winter 2023",
+  "status": "Active",
+  "industries": [
+    "B2B",
+    "Operations"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/zudowork",
+  "api": "https://devasheeshg.github.io/yc-api/batches/winter-2023/zudowork.json",
+  "year_founded": 2025,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "",
+  "x_url": "",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/9b55d5948e24e4f011a2289892580ecd680e947a.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Gustaf Alstromer",
+    "url": "https://www.ycombinator.com/people/gustaf-alstromer"
+  },
+  "founders": [
+    {
+      "user_id": 583810,
+      "full_name": "Akash Gupta",
+      "title": "Founder",
+      "founder_bio": "Akash Gupta graduated with distinction in chemical engineering and began his career as a process engineer at Shell. He later joined RBC Capital Markets as an Associate Strategist on the Commodities team before becoming a Y Combinator-backed founder, building zudo.work.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/akash-gupta-86580677/",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/3ccf18f92c3b0547435d37ddd6b640e998848c85.jpg"
+    }
+  ],
+  "jobs": [
+    {
+      "id": 69574,
+      "title": "Marketing Lead, Realtor Product",
+      "url": "https://www.ycombinator.com/companies/zudowork/jobs/dm2affP-marketing-lead-realtor-product",
+      "location": "San Francisco, CA, US / Remote (CA; US)",
+      "type": "Internship",
+      "role": "Marketing",
+      "role_type": null,
+      "salary_range": "$50K - $70K",
+      "equity_range": "",
+      "experience": null,
+      "visa": "Will sponsor",
+      "skills": [
+        "Marketing design"
+      ]
+    },
+    {
+      "id": 71910,
+      "title": "Founding Engineer",
+      "url": "https://www.ycombinator.com/companies/zudowork/jobs/oKk8BIi-founding-engineer",
+      "location": "Remote (Toronto, ON, CA; San Francisco, CA, US; New York, NY, US; Austin, TX, US; US; CA)",
+      "type": "Full-time",
+      "role": "Engineering",
+      "role_type": "Full stack",
+      "salary_range": "$90K - $110K",
+      "equity_range": "0.25% - 0.50%",
+      "experience": "3+ years",
+      "visa": "US citizen/visa only",
+      "skills": [
+        "MongoDB",
+        "TypeScript"
+      ]
+    },
+    {
+      "id": 76066,
+      "title": "Marketing Lead, Realtor Product",
+      "url": "https://www.ycombinator.com/companies/zudowork/jobs/3ill5wh-marketing-lead-realtor-product",
+      "location": "CA / US / Remote (CA; US)",
+      "type": "Contract",
+      "role": "Marketing",
+      "role_type": null,
+      "salary_range": "$50K - $70K",
+      "equity_range": "",
+      "experience": "1+ years",
+      "visa": "US citizenship/visa not required",
+      "skills": []
+    }
+  ],
+  "news": [],
+  "launches": [
+    {
+      "id": 80334,
+      "title": "🔎 Nucleus - LLM search across sales transcripts for Product Marketing teams",
+      "tagline": "LLM powered conversational search engine over sales calls that helps product marketing teams discover what to build and pitch at the speed of thought. ",
+      "body": "**tl;dr:** Product marketing teams spend hours listening to sales calls or using archaic keyword searches that often lead to false positives. We are building an LLM-powered search engine so Product Marketing teams can unlock the gold that exists in hundreds or thousands of sales calls. Nucleus automatically indexes and buckets hundreds of attributes per B2B client, such as objections, feature requests, and competitor mentions, to power your insights.\n\nHi everyone, we’re Akash, Nikhil, and Anirudh - the team behind Nucleus.\n\n![uploaded image](/media/?type=post&id=80334&key=user_uploads/583810/72ab75fc-307a-4e61-b6e9-bca1a0756bcb)\n\n# **🧨 The problem - hours spent listening to calls**\n\nProduct marketing teams spend hours listening to sales call recordings or painfully searching through transcripts by keywords to inform their sales pitch, marketing campaigns, upsells/cross-sells, and product roadmap. \n\nTake our client Jacob as an example. Jacob is a Product Marketing Manager who is responsible for positioning his product against competitors. He has to sit through call recordings to understand how prospects perceive competitors and how his company’s pitch is resonating with clients. He even hired a sales enablement analyst recently to organize calls and deliver insights to him.\n\n# 🎉 **The solution - ask Nucleus**\n\nNucleus empowers PMMs with **Revenue Reasoning** and **Revenue Observability** to convert thousands of sales calls into actionable insights.\n\nWith Nucleus Revenue Reasoning, product marketing teams can ask Nucleus a question in plain English like “Show me stage 1 prospects that were previously using Zoominfo for prospecting and what are their limitations with it?”. Nucleus will answer the question directly with LLM reasoning, along with supporting evidence from client calls.\n\n![uploaded image](/media/?type=post&id=80334&key=user_uploads/208653/ea5c36a8-aec6-4dac-828b-17f0abbcedb3)\n\nRather than relying on just keywords that often lead to false positives, with Nucleus Revenue Observability, Jacob can set up LLM-powered smart trackers that ping him in real-time when something he cares about happens in a call, such as when a prospect describes how they perceive a competitor. Nucleus’s LLMs go beyond archaic and often unfruitful keyword matching and instead reason over entire calls to deliver insights.\n\n![uploaded image](/media/?type=post&id=80334&key=user_uploads/208653/523b9be7-9531-457f-9e71-ea11e5c29e4b)\n\n# **👋 Asks**\n\n**Follow our journey on **[**Twitter**](https://twitter.com/NucleusLLM)** & **[**LinkedIn**](https://www.linkedin.com/company/nucleus-yc)**.**\n\n* If you are a B2B company that does more than 30 calls a week, [talk to us to see](https://calendly.com/akash-88/nucleus-ai) if we can be of help.\n* Share this post with your Product Marketing friends at B2B companies.\n\nThank You 🙏",
+      "url": "https://www.ycombinator.com/launches/Kti-nucleus-llm-search-across-sales-transcripts-for-product-marketing-teams",
+      "votes": 24,
+      "created_at": "2024-04-22T17:50:45.342Z"
+    }
+  ]
+}

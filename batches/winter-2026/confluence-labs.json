@@ -1,0 +1,91 @@
+{
+  "id": 31162,
+  "name": "Confluence Labs",
+  "slug": "confluence-labs",
+  "former_names": [
+    "Vector Labs",
+    "Confluence Labs",
+    "Vector Labs"
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/b3d31397146f8b236b2aea89ba80b15e787f9ad4.png",
+  "website": "https://confluence.sh",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "While modern AI excels in any area you can collect a lot of data for, it struggles in areas where data is sparse or costly to attain. Designing new molecules, discovering new physics, and engineering new materials are all domains where collecting data is extremely costly. \r\n\r\nWe dream of a world where AI accelerates research in all of these domains and creates a more abundant future for humanity, but the current technology is not there. That’s why we started Confluence Labs. \r\n\r\nWe are building AI that can design highly effective experiments in data-sparse domains and learn maximally from the data it already has.",
+  "one_liner": "AI models that learn from experience",
+  "team_size": 2,
+  "industry": "B2B",
+  "subindustry": "B2B",
+  "launched_at": 1771724903,
+  "tags": [],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Winter 2026",
+  "status": "Active",
+  "industries": [
+    "B2B"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/confluence-labs",
+  "api": "https://devasheeshg.github.io/yc-api/batches/winter-2026/confluence-labs.json",
+  "year_founded": 2025,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/confluence-labs/",
+  "x_url": "https://x.com/_confluencelabs",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/b3d31397146f8b236b2aea89ba80b15e787f9ad4.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Diana Hu",
+    "url": "https://www.ycombinator.com/people/diana-hu"
+  },
+  "founders": [
+    {
+      "user_id": 1164255,
+      "full_name": "Brent Burdick",
+      "title": "Founder/CEO",
+      "founder_bio": "24 yr old college drop out and self-taught engineer and researcher. ",
+      "is_active": true,
+      "linkedin_url": "",
+      "x_url": "https://x.com/BingBongBrent",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/dab9e10eb2ff34d57659a0d64d81733538270d80.jpg"
+    },
+    {
+      "user_id": 1165268,
+      "full_name": "Niranjan Baskaran",
+      "title": "Founder/CTO",
+      "founder_bio": "21 yrs old. Born in India. Won awards for my math research at ISEF. Got a full-ride to college in the US. Dropped out of Dartmouth to start an AI research lab.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/niranjan-baskaran-a906a5205/",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/e537e89515f68f0cb7d7fe17ca9e9a7f5b4c7712.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 98111,
+      "title": "Confluence Labs: an AI research lab focused on learning efficiency",
+      "tagline": "an AI research lab focused on learning efficiency",
+      "body": "Confluence Labs is coming out of stealth with **SOTA on ARC-AGI-2** with a score of **97.9%** at \\~$12 per task on the public eval. This is how we did it, why it matters, and what's next.\n\nARC-AGI-2 is a benchmark that tests an AI system's ability to solve novel reasoning tasks from just a few examples. It's considered one of the hardest AI benchmarks in the world. As recently as a year ago, even the best models scored in the single digits.\n\n![uploaded image](/media/?type=post&id=98111&key=user_uploads/1164255/2f4e4c89-6f96-48ca-93ea-a84eccc15092)\n\nWe've open sourced our SOTA solver. You can reproduce our results here: <https://github.com/confluence-labs/arc-agi-2>.\n\n**Our Approach – Program Synthesis driven by LLMs**\n\nLLMs are exceedingly good at writing code. We take the latest models and allow them to find the optimal solution by directing them to write code which describes the transformation represented by a particular ARC problem.\n\nThe principles of our approach can be boiled down to a few key ideas:\n\n1\\. Structure the problem such that it optimally resembles the underlying LLM's training data\n\n2\\. Enable long-horizon work on the problem so a model can continue to build on its past work\n\n3\\. Precisely structure the criteria of the solution and give the model a way to measure that\n\n**ARC-AGI-2 is Saturated – What Does This Mean for the World?**\n\nARC is a data efficiency benchmark. It measures how well you can make a prediction based on a few examples. Typical approaches to ARC-AGI have struggled because modern ML excels in areas where you can collect a lot of training data, but struggles in areas where data is sparse or costly to attain.\n\nWe think LLMs can be used in combination with discrete modeling to assist humans in data-sparse domains. We're most excited about the application of this to meaningful and challenging frontiers such as hardware engineering, drug design, and physics research.\n\n**What Does This Mean for Us?**\n\nOur core belief is that learning efficiency is the key bottleneck to solving the world's hardest problems. We think AI can help in data-sparse domains, and we're approaching this from 2 angles:\n\n1\\. **Hypothesis generation** – A hypothesis is a testable prediction about the world. If you optimally generate hypotheses, the results of your experiments are maximally informative, and you can reduce the time it takes to develop a new technology or solve a hard problem.\n\n2\\. **Data-Efficient Modeling** – By pushing the capabilities of both LLMs and discrete program search, we can make predictions with far less data and accelerate frontier research.\n\n**What's Next?**\n\nWe're going hard on developing our core technology, building out the team, and developing partnerships with researchers and engineers. We're looking for collaborators in hardware engineering, biology, materials science, and other fields where progress is gated by the cost of physical experiments. If that sounds like you or someone you know, reach out at [founders@confluence.sh](mailto:founders@confluence.sh).",
+      "url": "https://www.ycombinator.com/launches/PWR-confluence-labs-an-ai-research-lab-focused-on-learning-efficiency",
+      "votes": 12,
+      "created_at": "2026-02-23T23:01:25.287Z"
+    }
+  ]
+}

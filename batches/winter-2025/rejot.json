@@ -1,0 +1,95 @@
+{
+  "id": 30277,
+  "name": "ReJot",
+  "slug": "rejot",
+  "former_names": [],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/f75ba97279846098d21850986cc1298a5b21d9a0.png",
+  "website": "https://rejot.dev",
+  "all_locations": "Amsterdam, NH, Netherlands",
+  "long_description": "ReJot is building Fragno to let API companies go from simply exposing an API to offering drop-in integrations that work out of the box.\r\n\r\nFragno is an open‑source framework for packaging backend endpoints, data storage patterns, and frontend utilities into reusable building blocks. API providers ship full integrations, not just low‑level SDKs and docs.\r\n\r\nCustomers configure rather than write code, so integrations are both much faster to launch and far more consistent across customers.",
+  "one_liner": "We turn complex API integrations into drop‑in full‑stack libraries ",
+  "team_size": 2,
+  "industry": "B2B",
+  "subindustry": "B2B -> Engineering, Product and Design",
+  "launched_at": 1737760830,
+  "tags": [
+    "Developer Tools",
+    "API",
+    "Infrastructure",
+    "Databases"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Winter 2025",
+  "status": "Active",
+  "industries": [
+    "B2B",
+    "Engineering, Product and Design"
+  ],
+  "regions": [
+    "Netherlands",
+    "Europe"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/rejot",
+  "api": "https://devasheeshg.github.io/yc-api/batches/winter-2025/rejot.json",
+  "year_founded": 2024,
+  "city": "Amsterdam",
+  "country": "NL",
+  "linkedin_url": "https://www.linkedin.com/company/rejot/",
+  "x_url": "https://x.com/ReJotSync",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": "https://github.com/rejot-dev/",
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/f75ba97279846098d21850986cc1298a5b21d9a0.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [
+    "https://bookface-images.s3.us-west-2.amazonaws.com/attachments/68e338dd900d2b3b7d20081a394ee01f7ab156fd.png"
+  ],
+  "primary_partner": {
+    "name": "Harj Taggar",
+    "url": "https://www.ycombinator.com/people/harj-taggar"
+  },
+  "founders": [
+    {
+      "user_id": 2356635,
+      "full_name": "Wilco Kruijer",
+      "title": "Founder/CEO",
+      "founder_bio": "CEO & Co-founder at ReJot, previously worked on a distributed financial platform at Adyen. Interested in the relation between distributed data and software maintainability.",
+      "is_active": true,
+      "linkedin_url": "https://linkedin.com/in/wilcokruijer/",
+      "x_url": "https://twitter.com/WilcoKr",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/c559d7b970c16e5775029a16c951070b472d676c.jpg"
+    },
+    {
+      "user_id": 2377112,
+      "full_name": "Jan Schutte",
+      "title": "Founder/CTO",
+      "founder_bio": "CTO & Co-founder at ReJot, former Data Platform Engineer at Adyen, interested in distributed systems and database technologies. Current product is https://fragno.dev/",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/jan-schutte-183145135/",
+      "x_url": "https://x.com/Jan_Schutte",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/5b79dd57e3e607f50dbdb4bce0ff2926a9e3da01.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 88081,
+      "title": "ReJot - Enterprise Synchronization Engine",
+      "tagline": "Sync engine to share data across engineering teams in enterprises",
+      "body": "Hey everyone, we're Wilco & Jan, co-founders of ReJot! We're building a sync engine that helps big companies share data across engineering teams. We increase developer velocity and, most of all, ensure companies are not forced onto Kafka when they don't actually need event streaming.\n\n<https://www.youtube.com/watch?v=Ulxmwrp_N5Q>\n\n# The Problem\n\nGrowing companies are forced to adopt micro-services as their desire to give engineering teams autonomy increases. The number one reported problem in this architecture paradigm is **data silos**. Silos create high coordination overhead when integrating data from other engineering teams, slowing down development and delaying product launches.\n\nThe industry has defaulted to event streaming platforms like Kafka to enable teams to share data asynchronously. As a result, enterprise software architectures are pushed into an event-driven model. However, events come with inherent complexity—they encode **something happening** rather than **something being** (i.e., state).\n\n**We believe that events are used for no good reason other than the infrastructure forcing developers onto them.**\n\n# Solution\n\nReJot is a **sync engine** that enables sharing data between back-end services without the need for APIs or event streaming. We break data silos without forcing a paradigm shift from state to events.\n\nWe do this in the following way:\n\n* **Familiar Querying:** by syncing database-to-database, ReJot allows engineers to query data from other teams **directly from their own database**. Developers use what they know best: SQL queries.\n* **Sharing Data:** We realize that internal database schemas are sacred, and they should never be public directly. ReJot provides strong **data-sharing primitives**, allowing data owners to control _what_ and _how_ data is shared. Simplicity is key—setting up data publications in ReJot is trivial.\n* **Integration Flexibility:** Downstream teams don't necessarily need data in the same shape as the original source. SQL queries are used once more to transform the data to fit the integrating team's needs.\n* **Data Catalog**: Integrating data is impossible without first understanding what data is available. Our system overview maps an enterprise's software architecture through its databases, allowing the user to explore and search schemas to uncover opportunities for deep integration between products.\n\n![uploaded image](/media/?type=post&id=88081&key=user_uploads/2356635/d80813fb-077e-4916-98f0-bae320ddd57c)\n\n_\\[This overview shows how accounts owned by the accounting team are made public and integrated into the banking database by means of the \"Accounts Consumer\" integration.\\]_\n\n# Launching Today\n\nToday, we’re excited to launch the **open-source** Limited Access Preview of ReJot!\n\nOur control plane doubles as a database catalog, providing a unified view of all data stores within your organization. Connect Postgres databases to document your system architecture.\n\nIn the coming weeks we'll be rolling out ReJot's synchronization functionality to select users. As we scale our infrastructure, more users will be onboarded.\n\n![uploaded image](/media/?type=post&id=88081&key=user_uploads/2356635/c2ee7761-283c-4064-af0e-44984f23320a)\n\n# The Team\n\nWe met nearly 10 years ago in Amsterdam where we studied Computer Science together, and have been friends ever since.\n\n* Wilco (CEO) worked as a software engineer on Adyen's banking infrastructure. During a period of high growth he worked on the internal ledgering system and a framework to sync bank account data throughout the company, which inspired ReJot. He also has a background in software maintainability research.\n* Jan (CTO) was a data platform engineer for Adyen's big data platform. There, he managed infrastructure for 600+ ETL pipelines created by 50+ teams that produced hundreds of terabytes of data every week. Jan is a published AI researcher.\n\nThrough a shared passion of modern software technology and reducing complexity in enterprise systems we connected the dots to create ReJot's sync engine.\n\n# The Ask\n\n* _🔗_ Share this post! Do you know of any organizations struggling with their distributed architecture? Reach out to us at [founders@rejot.dev](mailto:founders@rejot.dev) —we’d love to help!\n* ⭐️ Star us on [GitHub](https://github.com/rejot-dev/rejot), follow us on [X](https://x.com/rejotsync) & [LinkedIn](https://www.linkedin.com/company/rejot)\n* 📧 Sign up for our [newsletter](https://rejot.dev/email-updates/)\n* 🌐 Connect your databases & learn more: <https://rejot.dev>\n\n![uploaded image](/media/?type=post&id=88081&key=user_uploads/2356635/98e4ff65-8266-448c-a2c9-637da1065625)\n\n",
+      "url": "https://www.ycombinator.com/launches/Muf-rejot-enterprise-synchronization-engine",
+      "votes": 84,
+      "created_at": "2025-02-26T21:55:32.444Z"
+    }
+  ]
+}

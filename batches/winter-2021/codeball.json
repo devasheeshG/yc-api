@@ -1,0 +1,91 @@
+{
+  "id": 23276,
+  "name": "Codeball",
+  "slug": "codeball",
+  "former_names": [
+    "Sturdy"
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/7d62c585a9fe59e3c1219d6a92a0309a2fee857d.png",
+  "website": "https://codeball.ai",
+  "all_locations": "Stockholm, Stockholm County, Sweden",
+  "long_description": "Codeball finds bugs in your Pull Requests, lets you ship faster and with higher confidence. The Codeball AI is trained on millions of code contributions to recognise risky code changes.",
+  "one_liner": "AI-Powered Code Review",
+  "team_size": 3,
+  "industry": "B2B",
+  "subindustry": "B2B -> Engineering, Product and Design",
+  "launched_at": 1614630374,
+  "tags": [
+    "Artificial Intelligence",
+    "Developer Tools",
+    "SaaS"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Winter 2021",
+  "status": "Inactive",
+  "industries": [
+    "B2B",
+    "Engineering, Product and Design"
+  ],
+  "regions": [
+    "Sweden",
+    "Europe"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/codeball",
+  "api": "https://devasheeshg.github.io/yc-api/batches/winter-2021/codeball.json",
+  "year_founded": 2020,
+  "city": "Stockholm",
+  "country": "SE",
+  "linkedin_url": "https://www.linkedin.com/company/sturdy-devtools",
+  "x_url": "",
+  "fb_url": null,
+  "cb_url": "https://www.crunchbase.com/organization/sturdy-52b3",
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/7d62c585a9fe59e3c1219d6a92a0309a2fee857d.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": null,
+  "founders": [
+    {
+      "user_id": 591904,
+      "full_name": "Kiril Videlov",
+      "title": "Founder",
+      "founder_bio": "Software Enthusiast. Love developer tools & automation",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/kirilv/",
+      "x_url": "https://twitter.com/krlvi",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/c2fd4b1891697cb734650e0797a953f7ecb2de20.jpg"
+    },
+    {
+      "user_id": 586182,
+      "full_name": "Gustav Westling",
+      "title": "Founder",
+      "founder_bio": "Stockholm, Sweden",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/gustavwestling/",
+      "x_url": "https://twitter.com/zegl",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/244d49dacc15bf0e90adf2d9dd3acde5044873b1.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 64214,
+      "title": "🧠 Codeball – AI Code Review",
+      "tagline": "Codeball approves Pull Requests that a human would have approved. Wait less for review, save time and money.",
+      "body": "Hey fellow builders!\n\nI'd like to show you something we recently built at Sturdy (W21).\n\n[**Codeball**](https://codeball.ai/) **is a code review AI which approves safe Pull Requests that a human would have approved.** We _hate_ waiting for reviews.\n\nThis started off as scratching our own itch in answering \"How predictable are programmers?\" Very predictable, turned out to be the answer.\n\n![uploaded image](/media/?type=post&id=64214&key=user_uploads/586182/2a1fd4ab-7a26-4a54-a9cd-a7ccc394aaed)\n\n## **🧠 How**\n\nCodeball is trained on over 1M Pull Requests, so it has seen tons of failure (shitty code) and success (decent code) patterns, making it really good at telling the difference.\n\nYou can play with it at [codeball.ai](https://codeball.ai) where you can do \"historical\" tests on GitHub repos to see what Codeball would have done.\n\nUsing AI for mundane reviews saves a bunch of time, but the part that's really cool is that once you stop rubber stamping every single PR, you pay more attention to the tricky ones.\n\n## **👉 Getting started**\n\n![uploaded image](/media/?type=post&id=64214&key=user_uploads/586182/956431aa-6b25-45dc-b343-fb9905cced54)\n\nYou can add Codeball to your repository as a [GitHub Action](https://github.com/sturdy-dev/codeball-action/) (takes like 2 minutes).\n\n_Try for free!_\n\n## **💻 What are developers saying?**\n\nCodeball is currently used by over 100 open-source repositories, including HUGE communities like gogs, kratos, and emqx!\n\n“This is incredible, don’t forget to charge us!” – CEO\n\n“I love it, developers are now trying to ‘cheat’ the system by creating smaller PRs, just like I’ve been telling them to!” – Senior Software Engineer\n\nAlso a bunch more in the [Hacker News thread](https://news.ycombinator.com/item?id=31533180) that made front page recently.",
+      "url": "https://www.ycombinator.com/launches/Ghi-codeball-ai-code-review",
+      "votes": 22,
+      "created_at": "2022-06-30T07:52:21.707Z"
+    }
+  ]
+}

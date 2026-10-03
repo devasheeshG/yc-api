@@ -1,0 +1,79 @@
+{
+  "id": 28826,
+  "name": "Talc",
+  "slug": "talc",
+  "former_names": [
+    "Homey"
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/c40e7adcc07e4afaf4ca793746aeb4e609ac24b0.png",
+  "website": "https://talc.ai",
+  "all_locations": "Seattle, WA, USA",
+  "long_description": "Talc helps hospitals pull events and data out of messy EHRs.",
+  "one_liner": "Event extraction for Medical Researchers",
+  "team_size": 3,
+  "industry": "B2B",
+  "subindustry": "B2B -> Engineering, Product and Design",
+  "launched_at": 1689292886,
+  "tags": [
+    "Artificial Intelligence"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Summer 2023",
+  "status": "Active",
+  "industries": [
+    "B2B",
+    "Engineering, Product and Design"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/talc",
+  "api": "https://devasheeshg.github.io/yc-api/batches/summer-2023/talc.json",
+  "year_founded": 2023,
+  "city": "Seattle",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/talc-ai/",
+  "x_url": "",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/c40e7adcc07e4afaf4ca793746aeb4e609ac24b0.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": null,
+  "founders": [
+    {
+      "user_id": 1274021,
+      "full_name": "Matt Lee",
+      "title": "Founder",
+      "founder_bio": "Ex-Airbnb, Ex-FB SWE.\n\nAt Facebook I worked on Election Integrity, using graph algorithms to detect coordinated activity, from foreign election interference to terrorist propaganda.\n\nAt Airbnb I worked on moonshots that will (maybe) ship late 2023.\n\nWhen I'm not working you can catch me snowboarding or climbing!",
+      "is_active": true,
+      "linkedin_url": "https://linkedin.com/in/mattllee",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/5e17e7344f2e6be40a57248a2ad39aa63755dcd9.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 73260,
+      "title": "Talc: Debugger for your LLMs",
+      "tagline": "Replay sessions, tweak inputs, and take the guesswork out of AI debugging.",
+      "body": "TL;DR:\n\n_We make it easy to debug and test LLM systems. Understand your AI by replaying sessions line by line and setting rules for it to follow moving forward._\n\nHey Everyone! We’re Matt & Max, the team behind [Talc.AI](https://talc.ai?utm_source=yc&utm_medium=referral&utm_campaign=launch-yc)\n\n![uploaded image](/media/?type=post&id=73260&key=user_uploads/1274021/e0fc1906-3bf6-4a91-9c68-c91f1a5b5b46)\n\n**Matt**: I’ve spent the last 6 years engineering at Facebook and Airbnb. At FB I worked on Election Integrity, developing new ways to detect foreign interference campaigns. Hit me up if you want to hear some war stories!\n\n**Max**: I found my passion for tech early, teaching myself to code when I was 13. This journey most recently brought me to being the technical lead for a 30 person org at Facebook that reviewed every major product launch. I love the challenge of trying to understand complex systems and want to help people do the same with Talc.\n\nWe’ve been friends for almost a decade and couldn’t be more excited to be doing this together.\n\n### The Problem\n\nDeveloping real LLM systems is still hard. Prompt engineering is full of trial and error, and debugging your chain and regression testing is a painful manual process.\n\n### The Solution\n\nReplay any session your AI has had and tweak it until it's perfect. No more copy and pasting into a playground – re-run your sessions exactly as they happened and deeply understand their possible outputs. Have a bug on message 20? Hop into that context immediately and start fixing it.\n\n![](https://lh6.googleusercontent.com/A8PxlLmIyUlxmpADBV6WOisxmZAZFraHnniUGf52CmR3IEPKY-mNdz_q3gTNMuD_EsJWu9Rhn25kfDR4Li5z_7mipCkugQOFCWjC_c9rG8q_jkEd0PGw19cf1kt1OyFLZeMAegwK0aNNo-qK2XzEVRI)\n\n> _Left: Walk through your AI message logs_\n\n> > _Right: Edit the inputs and prompts that went into each message, all auto-populated for you_\n\n![](https://lh4.googleusercontent.com/sv7qlXTg598CcU5TY_v3uN2tNqiQgEW9PwW6n5YrQgozYubSYIiEdlbhXZGKfdAxI4aL8AZ48KhMDxbT8xWyNNDeQcxZKHFlAQkq95-Wa93jVlmoTrr5Wmh0x1awwrl0elHkZa8CcPXvJpvaGhysw6k)\n\n_Test changes against your saved use cases for regression testing_\n\n**What we’re asking**\n\n* Is LLM debugging & testing holding you back? **Reach out to us** at [talc.ai](https://talc.ai?utm_source=yc&utm_medium=referral&utm_campaign=launch-yc) or [book time directly on our calendars](https://calendly.com/_mattlee/intro-to-talc-ai)!\n* Do you know anyone working on LLMs in production? We’d love to learn from them! [Help us get connected](mailto:founders@talc.ai?subject=Introducing%20you%20to%20the%20Talc%20AI%20team).\n* Share us with anyone who spends a lot of time debugging LLMs\n  * _Blurb_: [Talc.ai](https://talc.ai?utm_source=yc&utm_medium=referral&utm_campaign=launch-yc) launched an LLM debugger so you don’t have to copy context into openai playground or jupyter notebooks any more. Reach out via [founders@talc.ai](mailto:founders@talc.ai).",
+      "url": "https://www.ycombinator.com/launches/J3c-talc-debugger-for-your-llms",
+      "votes": 28,
+      "created_at": "2023-07-20T16:36:00.133Z"
+    }
+  ]
+}

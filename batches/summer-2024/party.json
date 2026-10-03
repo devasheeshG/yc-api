@@ -1,0 +1,92 @@
+{
+  "id": 29647,
+  "name": "Party",
+  "slug": "party",
+  "former_names": [
+    "Maitai"
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/338e5b72183a79e0cc2f337341f8e76e89c641a2.png",
+  "website": "https://party.build",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "Party is the secure workspace for your team and agents to build together, in the open. Agent Flows handle 95% of the work and your team can see it all happen and step in when needed to steer. It's built for teams, but caters to the solo builder as well. Use any harness/model - your keys or ours. Cost observability. Memory. Dual-level session sandboxing.\r\nSlack/Teams are comm-first with agents as second-class citizens. Party is work-first and the communication happens where the work is being done. Party is for teams who want to build better and faster than their competition. ",
+  "one_liner": "Secure multiplayer software factory for your whole team in minutes",
+  "team_size": 8,
+  "industry": "B2B",
+  "subindustry": "B2B -> Engineering, Product and Design",
+  "launched_at": 1716914094,
+  "tags": [
+    "Artificial Intelligence",
+    "Developer Tools",
+    "Productivity",
+    "Collaboration",
+    "AI"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Summer 2024",
+  "status": "Active",
+  "industries": [
+    "B2B",
+    "Engineering, Product and Design"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/party",
+  "api": "https://devasheeshg.github.io/yc-api/batches/summer-2024/party.json",
+  "year_founded": 2024,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/maitai-inc/",
+  "x_url": "",
+  "fb_url": null,
+  "cb_url": "https://www.crunchbase.com/organization/maitai-fbf8",
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/338e5b72183a79e0cc2f337341f8e76e89c641a2.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Nicolas Dessaigne",
+    "url": "https://www.ycombinator.com/people/nicolas-dessaigne"
+  },
+  "founders": [
+    {
+      "user_id": 213922,
+      "full_name": "Christian DalSanto",
+      "title": "Founder/CEO",
+      "founder_bio": "Founder and CEO @ Party, the multiplayer workspace for building. \nPreviously founded Maitai, led the AI engineering org at Presto (S10), and Big Bets team at Earnin. My thing is leading teams that build and scale new products alongside users.",
+      "is_active": true,
+      "linkedin_url": "https://linkedin.com/in/christian-dalsanto",
+      "x_url": "https://x.com/dalsanto_c",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/76da4d6ad72c409df7fcf91869de99f70fec020b.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [
+    {
+      "title": "Phonely’s new AI agents hit 99% accuracy—and customers can’t tell they’re not human | VentureBeat",
+      "url": "https://venturebeat.com/ai/phonelys-new-ai-agents-hit-99-accuracy-and-customers-cant-tell-theyre-not-human/",
+      "date": "Jun 03, 2025"
+    }
+  ],
+  "launches": [
+    {
+      "id": 83311,
+      "title": "Maitai - Reliable AI without the heavy lift",
+      "tagline": "Real-time autocorrections and load balancing to solve your LLM issues today + tailored models that improve over time.",
+      "body": "**TL;DR:** Maitai is an ultra-lightweight layer between your app and LLM providers, ensuring reliability and passive continuous improvement.\n\n[Try Maitai](https://portal.trymaitai.ai)\n\n# The Problem:\n\nGetting LLMs into production is complex and time-consuming. Teams today spend much of their time-fighting hallucinations, suboptimal output, and mitigating problems plaguing their providers. Though this is necessary for a production-ready application, it can be a massive distraction from building and expanding the core product, not to mention a sizable investment. Hallucinations can quickly deteriorate the user experience and are difficult or impossible to fully fix. Model outages or degraded performance make any meaningful traffic a nightmare. Consistent response times are usually only solved today with dedicated compute environments, which can be too costly for most companies to consider. The more you make progress on these issues, the more you become locked into a provider.\n\n# The Solution: A Dependable Middleman\n\nMaitai integrates seamlessly between the application and model providers to handle the heavy lifting behind the scenes. The result? Higher quality, reliable model output with passive incremental improvement - without any new code. We leverage our robust real-time evaluation engine to build a deep understanding of the customer's application, as well as the capabilities of all major models, in order to deliver consistent, dependable results. This abstraction layer is essential as the AI landscape evolves and new models emerge.\n\n![uploaded image](/media/?type=post&id=83311&key=user_uploads/213922/d9d0ba25-8ae2-48c4-b5ae-6a9f891d493c)\n\n**Real-time Evaluations**\n\nFor each application, we build an understanding of the expectations that the user has for each request. We then evaluate all model output to ensure it adheres to these expectations, in under 200ms. Detected faults can be surfaced to the user in a callback or webhook. Users can also allow Maitai to leverage these evals to autocorrect any faulty output we find, ensuring clean, reliable responses.\n\n_Example:_ One of our customers is a voice-ordering company for restaurants. They use Maitai to ensure the model always requests consent from the customer before sending a text message. Failure to do so would put them out of compliance with the Telephone Consumer Protection Act, resulting in heavy fines and lawsuits. Maitai has prevented this from happening 14 times.\n\n![uploaded image](/media/?type=post&id=83311&key=user_uploads/213922/858792ed-11e9-40b8-92c2-d46c244ae91b)\n\n**Highly-available Inference**\n\nAs AI adoption grows, all providers are having trouble keeping up with the demand. As we continuously profile all models we support, we see this manifest as outages and degraded performance many times throughout each day. Maitai uses our model health data to preemptively fall back to a similar model if we notice degraded performance or an outage. Avoid failed responses and get more consistent response times without shelling out hundreds of thousands of dollars on dedicated compute.\n\n![uploaded image](/media/?type=post&id=83311&key=user_uploads/213922/d10bbf2a-7fd4-47c3-8788-1a8aeffdeb0b)\n\n_Our health checks on gpt-4o from us-west2 show consistent performance only \\~90% of the time, with frequent spikes to 400%+ usual response times._\n\n**Passive Incremental Improvement**\n\nWith Maitai, you gain access to models that are higher quality than GPT-4o, 5x faster, and 10x cheaper — tailored specifically for your application. Our evaluation data not only allows us to immediately improve output quality and reliability, but also lends way to passively building application-specific models that are higher quality, more performant, and cost less than closed-source alternatives. Access the best models for your application, with updates as often as every few days.\n\n**Actionable Alerts**\n\nGet briefed on problems as they occur to quickly remedy a bad situation. Maitai surfaces real-time faults or session summaries right in Slack, then allows you to chat with your data to explore deeper. Never miss a chance to improve a potentially negative customer experience ever again.\n\n![uploaded image](/media/?type=post&id=83311&key=user_uploads/213922/c93ad111-9921-4213-a32e-4c13fcf00573)\n\n**Micron Thin**\n\nWe've invested heavily in making our presence as light as possible. Maitai adds <30ms to each request (and improving!). Get all the benefits of using Maitai without any drawbacks.\n\n# Our Ask:\n\n* If you're building with LLMs, let us help. It takes 2 minutes to integrate, and you can bring your own keys. We can even do it for you while you browse Slack/Reddit/HN. [Get Started](https://portal.trymaitai.ai)\n* Host LLMs or experts at fine-tuning? Let's chat!\n* Let us know your biggest problems building with LLMs.\n\n[founders@trymaitai.ai](mailto:founders@trymaitai.ai)\n\n![uploaded image](/media/?type=post&id=83311&key=user_uploads/213922/06d87dd9-3243-4c88-b4bd-5430256d5e79)\n\n",
+      "url": "https://www.ycombinator.com/launches/Lfj-maitai-reliable-ai-without-the-heavy-lift",
+      "votes": 69,
+      "created_at": "2024-08-22T17:08:56.471Z"
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "id": 31221,
+  "name": "Netter",
+  "slug": "netter",
+  "former_names": [
+    "Netter AI"
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/b2e86ec70fa3e3c6a1b8dc9f39e6aa2b5b7b5952.png",
+  "website": "https://netter.ai",
+  "all_locations": "Paris, Île-de-France, France",
+  "long_description": "Netter (YC P26) helps companies regain control over their data, so teams can pilot their activities with high precision.\r\n\r\nMost companies are sitting on years of valuable data, spread across different formats and disconnected tools that don't talk to each other.\r\n\r\nNetter brings technical capacity to companies that don't have an army of data engineers, and tackles their most complex data challenges.\r\n\r\n- A nursing home group was chasing unpaid invoices manually across disconnected tools. Netter centralized the collection workflows, automated reminders, real-time visibility, task routing.\r\n- A retail chain had years of loyalty card data sitting unused. Netter cross-referenced it with public demographic data to build precise customer segments and trigger the right promotions to the right people.\r\n",
+  "one_liner": "AI native Palantir for mid market.",
+  "team_size": 4,
+  "industry": "B2B",
+  "subindustry": "B2B -> Analytics",
+  "launched_at": 1778028550,
+  "tags": [],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Spring 2026",
+  "status": "Active",
+  "industries": [
+    "B2B",
+    "Analytics"
+  ],
+  "regions": [
+    "France",
+    "Europe"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/netter",
+  "api": "https://devasheeshg.github.io/yc-api/batches/spring-2026/netter.json",
+  "year_founded": 2026,
+  "city": "Paris",
+  "country": "FR",
+  "linkedin_url": "https://www.linkedin.com/company/netterai/?viewAsMember=true",
+  "x_url": "",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/b2e86ec70fa3e3c6a1b8dc9f39e6aa2b5b7b5952.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Nicolas Dessaigne",
+    "url": "https://www.ycombinator.com/people/nicolas-dessaigne"
+  },
+  "founders": [
+    {
+      "user_id": 2161871,
+      "full_name": "Samuel Ladroue",
+      "title": "Founder/CEO",
+      "founder_bio": "Co-founder & CEO at Netter (P26). Studied Mathematics and CS at Mines Paris.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/samuel-ladroue/",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/b4fc7698acbd3d39d4bda933e71eef20b2aaed4d.jpg"
+    },
+    {
+      "user_id": 3140846,
+      "full_name": "Amin Hamzaoui",
+      "title": "Founder",
+      "founder_bio": "Co-Founder & CTO at Netter AI (P26).",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/amin-hamzaoui/?locale=en_US",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/af3bee03340be578e87b958ef8671a2ff13cd4bc.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 101627,
+      "title": "Netter: Full stack data scientist agents",
+      "tagline": "Netter helps companies regain control over their data so teams can pilot their activities with high precision.",
+      "body": "**TL;DR**: We help mid-market companies (like nursing homes, logistics, retail) to crack their most painful data problems. From observability across sites and systems, to cash reconciliation workflows to occupancy rate prediction. We take care of cleaning the data and deploy the right outputs.\\\n\\\n[https://drive.google.com/file/d/1cuPoMAIceD2vlAWCkWIZ6uaNbs8W7ZmF/view](https://drive.google.com/file/d/1cuPoMAIceD2vlAWCkWIZ6uaNbs8W7ZmF/view?usp=sharing)\n\n**I - The problem**\n\nTraditional mid-market companies lack technical capacity to use the data they are sitting on.\n\nThey can’t hire an army of Data / Software Engineers so they loose precious margin points.\n\n**II - What we do**\n\nWe are building Netter to bring data excellence into their operations.\n\nNetter is a full stack data platform based on data scientists agents. \n\nWe connect to data sources, build pipelines and deploy use cases (operational apps, ML models, AI workflows). \n\nCompanies get a plug and play solution to pilot their activities with high precision.\n\n**III - Concrete examples**\n\nHere are three use cases we deployed at the 1st and 4th European Nursing Homes.\n\n**Receivables collection**: Payments and invoices lived in separate tools that didn't talk to each other. We first reconciled the two, then deployed a matching algorithm to automate the collection process through an intelligent workflow, one that follows business rules and triggers actions once its confidence threshold is reached.\n\n**HR anomaly detection**: Certain patterns were going completely unnoticed: recurring absenteeism, fixed-term contracts renewed on loop, abnormal overtime. We plugged a detection engine into their existing HR data, surfacing these weak signals continuously and suggesting action plans, before they turned into real hidden costs.\n\n**Occupancy rate prediction**: Nursing homes struggle to anticipate pressure on their beds, often because occupancy data isn't aggregated in real time. We deployed a forecasting model that consolidates occupancy by unit, predicts the next 24 hours, and gives teams early visibility to adjust resources before things get critical.\n\n[netter.ai](http://netter.ai)",
+      "url": "https://www.ycombinator.com/launches/QR9-netter-full-stack-data-scientist-agents",
+      "votes": 5,
+      "created_at": "2026-05-21T06:23:41.147Z"
+    }
+  ]
+}

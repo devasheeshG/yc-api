@@ -1,0 +1,107 @@
+{
+  "id": 23978,
+  "name": "Rootly",
+  "slug": "rootly",
+  "former_names": [],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/458bec513b681478458c39da4795bf6502d09edb.png",
+  "website": "https://rootly.com",
+  "all_locations": "San Francisco, CA, USA; Remote",
+  "long_description": "Rootly is a modern on-call and incident management platform used by top YC companies like Dropbox, Lattice, Webflow, Faire, but also Figma, LinkedIn, NVIDIA and 100s more.",
+  "one_liner": "AI-native on-call and incident response carefully crafted to help…",
+  "team_size": 75,
+  "industry": "B2B",
+  "subindustry": "B2B -> Infrastructure",
+  "launched_at": 1625761934,
+  "tags": [
+    "AIOps",
+    "Developer Tools",
+    "SaaS",
+    "B2B",
+    "Security"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": true,
+  "nonprofit": false,
+  "batch": "Summer 2021",
+  "status": "Active",
+  "industries": [
+    "B2B",
+    "Infrastructure"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada",
+    "Remote",
+    "Fully Remote"
+  ],
+  "stage": "Growth",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/rootly",
+  "api": "https://devasheeshg.github.io/yc-api/batches/summer-2021/rootly.json",
+  "year_founded": 2020,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/rootlyHQ",
+  "x_url": "https://twitter.com/rootlyHQ",
+  "fb_url": "https://www.facebook.com/rootlyhq",
+  "cb_url": "https://www.crunchbase.com/organization/rootly",
+  "github_url": "https://github.com/rootlyhq",
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/458bec513b681478458c39da4795bf6502d09edb.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Brad Flora",
+    "url": "https://www.ycombinator.com/people/brad-flora"
+  },
+  "founders": [
+    {
+      "user_id": 253182,
+      "full_name": "Quentin Rousseau",
+      "title": "Founder and CTO (YC S21)",
+      "founder_bio": "- Early Site Reliability Engineer (SRE) at Instacart and built resilient systems now handling millions of orders.\n- 2x Co-Founder at Rootly (YC S21) and PopSQL (YC S19).\n- Originally from France, loves rock climbing, and unsurprisingly great wine! ",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/quentinrousseau/",
+      "x_url": "https://twitter.com/quentinrousseau",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/536c75bad5843062fa9c976c9275d2c92bb929bf.jpg"
+    },
+    {
+      "user_id": 642689,
+      "full_name": "JJ Tang",
+      "title": "Founder",
+      "founder_bio": "Building Rootly - a modern on-call and incident management platform used by top YC companies like Dropbox, Lattice, Webflow, Faire, but also Figma, LinkedIn, and 100s more.\n\nOther than making Rootly my personality, I love cycling and my adorable dog, Nova.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/jjrichardtang/",
+      "x_url": "https://twitter.com/jjrichardtang",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/eea6e0e2123efec212779e52790c7ffccb20491a.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [
+    {
+      "title": "Incident response management platform Rootly secures $12M | TechCrunch",
+      "url": "https://techcrunch.com/2023/08/10/incident-response-management-platform-rootly-secures-12m/",
+      "date": "Aug 10, 2023"
+    },
+    {
+      "title": "Rootly nabs $3.2M seed to build SRE incident management solution inside Slack – TechCrunch",
+      "url": "https://techcrunch.com/2021/07/08/rootly-nabs-3-2m-seed-to-build-sre-incident-management-solution-inside-slack/",
+      "date": "Jul 08, 2021"
+    }
+  ],
+  "launches": [
+    {
+      "id": 66512,
+      "title": "🚒 Rootly - AI SRE, On-Call, Status Pages",
+      "tagline": "Top YC companies like DoorDash, Webflow, Dropbox, Replit, and 100s more all trust Rootly.",
+      "body": "## **TL;DR**\n\nRootly is the AI-native on-call and incident management platform that helps teams detect, manage, learn from, and resolve incidents faster—without leaving Slack or MS Teams. It brings Incident Response, On-Call, AI SRE agents, Status Pages, and Retrospectives into one purpose-built, end-to-end platform.\n\n![uploaded image](/media/?type=post&id=66512&key=user_uploads/642689/d1b534a4-b1f0-444d-b767-aab1d221e1cb)\n\n## **Problem**\n\nWe met at Instacart 🥕—where Quentin was the first SRE and JJ was leading product management efforts. As Instacart grew from a $1B to a $40B company, everything had to scale with it: infrastructure, teams, and the processes that keep the business running when things go wrong. With millions of orders flowing through the platform, incidents weren’t rare edge cases—they were an inevitable part of operating at that level. Checkout issues, platform outages, weird cascading failures at the worst possible times… we saw it all.\n\nWhat surprised us wasn’t that incidents happened. It was how quickly the _process_ broke down under pressure. Our manual way of responding—jumping between Slack, PagerDuty, Datadog, and a dozen dashboards—just wasn’t enough. Every incident started with the same scramble: spinning up channels, pulling people in, figuring out who’s running point, trying to keep comms coherent, and stitching together context from different tools and threads. It worked when the team was small and the system was simpler. At scale, it turned chaotic and inconsistent.\n\nAnd the hardest part wasn’t even the debugging. It was the inconsistency. You’d rely on runbook checklists and tribal knowledge, hoping someone remembered what to do next—who to page, which workflow to follow, how to communicate internally and externally, what steps to capture for the retrospective. In the moment, that’s a lot to ask. Afterward, it meant retros were slow (or skipped), action items drifted, and the same classes of incidents kept coming back because learning didn’t keep pace with growth.\n\n## **Solution**\n\nRootly gives you an end-to-end incident lifecycle—from first page to resolution to post-incident learning—built where teams actually operate (Slack & MS Teams), and it’s all powered by AI.\n\n<https://www.youtube.com/watch?v=56oyjjeNzqY>\n\n**Incident Response**\n\nRootly helps you declare incidents, spin up the right Slack channels and roles, coordinate responders, track tasks, and keep communication structured—while automating the operational “busywork” that normally slows teams down.\n\n**On-Call**\n\nRootly On-Call is built to notify the right person the first time, with scheduling and escalation that scales from a small team to a global org. It’s designed to be reliable and easy to use, with a beautiful mobile experience that makes getting paged somewhat enjoyable.\n\n**AI SRE Agents**\n\nRootly’s AI SRE agents help teams move faster during incidents by connecting the dots across signals like recent code changes, telemetry, and past incidents. Instead of starting from scratch every time, responders can quickly narrow in on probable causes, understand what changed, and get suggestions for fixes and next steps—along with the reasoning behind them.\n\n**Status Pages**\n\nRootly makes it easy to keep customers and stakeholders updated with public and private status pages, so incident comms don’t become another manual process during a high-stress event.\n\n**Retrospectives**\n\nRootly helps you turn incidents into learning. Create collaborative retros that teams can edit together, draft timelines and summaries faster, and track action items so the work actually gets done—not just written down.\n\n**AI everywhere responders actually feel it**\n\nDuring incidents, the biggest tax is cognitive load: listening, typing, summarizing, updating, and repeating yourself. Rootly uses AI to take that off the responder:\n\n* **AI Meeting Bot scribing:** Rootly can join your incident bridge, transcribe in real time, and capture key context so nothing gets lost.\n* **Instant catch-up:** Tag **@Rootly** in the incident channel to get a private, personalized summary of what’s happened so far, what’s been tried, and what’s next.\n* **Draft updates that match the audience:** Generate incident updates tailored to the recipient—customer-friendly language for external comms, crisp executive summaries for leadership, or detailed handoffs for engineering—so you’re not rewriting the same update five different ways.\n* **AI-generated retros:** Auto-draft retrospectives with timelines and context, then collaboratively refine and track action items to completion.\n* **Automated RCA:** Alerts, code changes, past incidents all analyzed at the speed of AI to determine probable root cause in minutes.\n\n**A full platform, or just what you need**\n\nUse Rootly as a complete incident management platform—or adopt products individually based on where you are today (Incident Response, On-Call, AI SRE, Status Pages, Retrospectives).\n\n## **Offer & Ask**\n\n* If you want to see how Rootly modernizes incident management end-to-end, book a demo and we’ll tailor it to your current stack and workflows.\n* If you’re a team with **&lt;25 employees**, we also offer **Pay What You Can** so you can get world-class incident management without the “enterprise price tag.”",
+      "url": "https://www.ycombinator.com/launches/HIm-rootly-ai-sre-on-call-status-pages",
+      "votes": 86,
+      "created_at": "2022-10-05T05:45:37.027Z"
+    }
+  ]
+}

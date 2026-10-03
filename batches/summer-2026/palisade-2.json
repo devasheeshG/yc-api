@@ -1,0 +1,83 @@
+{
+  "id": 33059,
+  "name": "Palisade",
+  "slug": "palisade-2",
+  "former_names": [],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/15205df0821b37ecf5cd82136bd682c2cb65c1b2.png",
+  "website": "https://palisade-ai.com/",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "",
+  "one_liner": "AI that finds and fixes OS-level vulnerabilities across device fleets",
+  "team_size": 1,
+  "industry": "B2B",
+  "subindustry": "B2B -> Security",
+  "launched_at": 1784742432,
+  "tags": [
+    "SaaS",
+    "B2B",
+    "Cybersecurity",
+    "AI"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Summer 2026",
+  "status": "Active",
+  "industries": [
+    "B2B",
+    "Security"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/palisade-2",
+  "api": "https://devasheeshg.github.io/yc-api/batches/summer-2026/palisade-2.json",
+  "year_founded": 2026,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/palisade-ai/",
+  "x_url": "",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/15205df0821b37ecf5cd82136bd682c2cb65c1b2.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Jon Xu",
+    "url": "https://www.ycombinator.com/people/jon-xu"
+  },
+  "founders": [
+    {
+      "user_id": 2688178,
+      "full_name": "Fnu Prince",
+      "title": "Founder",
+      "founder_bio": "Left Caltech at 18 to start Palisade (YC S26). Previously did red-teaming at 16, USACO Platinum/USAPhO HM/AIME, built my own OS for fun (pre-Claude/Codex)",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/fnu-prince-a98405276/",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/382f016fead85bdbb69a24e2165f092473c60b9c.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 106995,
+      "title": "Palisade - AI that detects and fixes OS vulnerabilities across every endpoint in minutes",
+      "tagline": "AI that finds and fixes OS-level vulnerabilities across device fleets",
+      "body": "**TL;DR:** For companies running large fleets of OS-level endpoints (running GPU clusters, having a network of cloud devices, or deploying on-device), Palisade detects and fixes operating-system vulnerabilities (privilege escalation, remote code execution, memory corruption) that are extremely hard to detect and mitigate without applying AI to kernel-level data (syscalls, eBPF traces, process/memory events, network packets). A fix that used to take weeks to roll out, Palisade now applies in minutes across every endpoint.\n\nHey YC! I'm Prince, an ML researcher and engineer who dropped out from Caltech at 18 to build Palisade.\n\n**What’s the problem:** Modern attacks increasingly target the operating system, but most security products only observe the network, cloud, or application layers. That leaves OS vulnerabilities among the hardest problems to detect and the slowest to remediate across a fleet.\n\n**Why I’m building this:** Since I was 16, I have done plenty of professional red-team and blue-team security work. One pattern kept showing up: OS-level vulnerabilities were consistently the hardest to handle. Detection required low-level visibility, and even after identifying a vulnerability, rolling out a mitigation across hundreds or thousands of machines often took weeks. My background in both machine learning and operating systems convinced me this didn't have to be a manual process, so I built Palisade to automatically detect and remediate these vulnerabilities at the kernel level across an entire fleet.\n\n**What Palisade does:** Palisade watches your systems at the kernel level—syscalls, eBPF traces, process and memory events, and network packets—and uses AI to find OS vulnerabilities other tools miss, then implement the fix automatically across every endpoint.\n\n![uploaded image](/media/?type=post&id=106995&key=user_uploads/2688178/fa8c6d6a-b058-4f44-87d0-5511d038718b)\n\n_The Palisade control plane, live against a real kernel (LSM-BPF). The live feed at the bottom: every row is a real syscall decision._\n\nThe vulnerabilities it catches are the ones you can't see from the app or network layer alone:\n\n* Privilege escalation\n* Remote code execution\n* Memory corruption\n\nMost are caught before an exploit ever happens, and the fix is applied immediately, fleet-wide. The same patch that used to take weeks now lands in minutes.\n\n![uploaded image](/media/?type=post&id=106995&key=user_uploads/2688178/2f4e756d-1348-44a2-bdce-bb3491925da5)\n\n_The host audit: real findings ranked by severity. The bottom one is the cloud-metadata exposure: the same path behind the Capital One breach. One click on **Apply fix** and it's installed as a kernel rule._\n\nPalisade can already detect and fix real problems:\n\n* CVE-2024-1086: use-after-free in the Linux kernel's netfilter (nf_tables); local privilege escalation to root\n* CVE-2025-6019: libblockdev/udisks privilege escalation to full root\n* CVE-2025-32463: sudo --chroot local privilege escalation to root\n\n**Who it's for:** Companies running a lot of OS-level endpoints, where a single kernel vulnerability multiplies across the whole fleet. Whether it’s network servers or GPUs, we have you covered.\n\n<https://youtu.be/CTVhq7jfTPY>\n\n**Our asks:**\n\n* Intros: if you run a large fleet of OS-level endpoints, or know a security/infra lead who does, I'd love an intro.\n* See the demo and tell me if you’d use it. Brutal feedback welcome.\n\n— [prince@palisade-ai.com](mailto:prince@palisade-ai.com), <https://calendly.com/prince-palisade-ai/30min>, DMs welcome",
+      "url": "https://www.ycombinator.com/launches/Rpj-palisade-ai-that-detects-and-fixes-os-vulnerabilities-across-every-endpoint-in-minutes",
+      "votes": 8,
+      "created_at": "2026-07-23T00:33:01.523Z"
+    }
+  ]
+}

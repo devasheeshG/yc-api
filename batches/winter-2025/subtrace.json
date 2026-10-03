@@ -1,0 +1,88 @@
+{
+  "id": 30204,
+  "name": "Subtrace",
+  "slug": "subtrace",
+  "former_names": [],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/e806fda08a2985d5611237545c62cc046d58b489.png",
+  "website": "https://subtrace.dev",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "Subtrace is a zero-code network tracer. It's like having an inspect element button for your whole infra: when you start a process with Subtrace, you'll see every HTTP request coming in and going out in realtime. Under the hood, it uses BPF to make this possible without any root privileges or code changes. We have ~2.5k stars on Github.",
+  "one_liner": "Zero code network tracer",
+  "team_size": 2,
+  "industry": "B2B",
+  "subindustry": "B2B -> Engineering, Product and Design",
+  "launched_at": 1733176117,
+  "tags": [],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Winter 2025",
+  "status": "Active",
+  "industries": [
+    "B2B",
+    "Engineering, Product and Design"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/subtrace",
+  "api": "https://devasheeshg.github.io/yc-api/batches/winter-2025/subtrace.json",
+  "year_founded": 2024,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/subtrace",
+  "x_url": "https://x.com/subtrace_dev",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": "https://github.com/subtrace/subtrace",
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/e806fda08a2985d5611237545c62cc046d58b489.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Brad Flora",
+    "url": "https://www.ycombinator.com/people/brad-flora"
+  },
+  "founders": [
+    {
+      "user_id": 211631,
+      "full_name": "Adhityaa Chandrasekar",
+      "title": "Founder/CEO",
+      "founder_bio": "Founder and CEO at Subtrace. Previously worked at Google as a software engineer on Kubernetes internals and GKE infra monitoring. University of Waterloo and IIT Madras alum.",
+      "is_active": true,
+      "linkedin_url": "https://linkedin.com/in/adtac",
+      "x_url": "https://x.com/adtac_",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/46bc290a8ecafa80c5345cc2018a122e43105d46.jpg"
+    },
+    {
+      "user_id": 1755130,
+      "full_name": "Sachin Sridhar",
+      "title": "Founder/CTO",
+      "founder_bio": "Cofounder and CTO at Subtrace. Previously a software engineer at Microsoft, where I worked on Power BI/Microsoft Fabric. Studied computer science at IIT Madras.",
+      "is_active": true,
+      "linkedin_url": "https://linkedin.com/in/sachin-sridhar",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/0873d91fe1d2045d4f4e18b0334e38c80c78dec1.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 87493,
+      "title": "Subtrace: Resolve production issues in minutes, not months",
+      "tagline": "Get full visibility into every backend request",
+      "body": "Hey, this is Adhityaa and Sachin 👋\n\nWe built Subtrace to give backend teams full visibility into every request—payload, latency, status, headers, logs—all in one place. YC companies like Trieve (W24) are already using Subtrace in production to improve their incident resolution time from months to minutes ([read their case study](https://subtrace.dev/customers/trieve)).\n\n# **Problem**\n\nToday's backend monitoring tools like Sentry and OpenTelemetry leave out the most crucial details of each request, forcing backend developers to search through logs to root cause issues.\n\n# **Solution**\n\nSubtrace brings every backend request into one clear, Chrome DevTools-like interface so that you can resolve issues fast—often before your first coffee. Here's how it works:\n\n**🔍 Search & Filter**\n\n![uploaded image](/media/?type=post&id=87493&key=user_uploads/211631/0efb0809-659a-415b-bd9b-7bc7b36c5f89)\n\n_Quickly search for the requests that matter using simple filters_\n\n**🔦 Inspect & Analyze**\n\n![uploaded image](/media/?type=post&id=87493&key=user_uploads/211631/741d090f-6392-4c95-9a2e-594d48148e3d)\n\n_Click any request to view full details like payload, headers, latency_\n\n**🎥 Record & Replay**\n\n![uploaded image](/media/?type=post&id=87493&key=user_uploads/211631/d740c6c4-d4ad-4390-948d-ac780ee8dbc2)\n\n_Reproduce issues easily by replaying prod requests elsewhere_\n\n**💬 Share & Collaborate**\n\n![uploaded image](/media/?type=post&id=87493&key=user_uploads/211631/7698ee18-733b-4601-b7b7-5a4e9425148d)\n\n_Share detailed snippets with your team to solve issues together_\n\nYou can get Subtrace working with just a single command.\n\nTry for yourself: [**Docs →**](https://docs.subtrace.dev)\n\n# **Team**\n\nWe met 10+ years ago as undergrads and we've been great friends ever since. Adhityaa went to **IIT Madras**, the **University of Waterloo** and worked at **Google**. Sachin went to **IIT Madras** and worked at **Microsoft**.\n\n![uploaded image](/media/?type=post&id=87493&key=user_uploads/211631/d6577599-ad96-407e-9745-be38eacb5975)\n\n![uploaded image](/media/?type=post&id=87493&key=user_uploads/211631/c7ce8553-c0bb-4a26-9f3a-1625ad6a98f0)\n\n\n# **Ask**\n\nAre you a backend / full stack developer? Do you run an engineering team?\n\nYC companies are already using Subtrace today, we think you'll love it.\n\nEmail [founders@subtrace.dev](mailto:founders@subtrace.dev) (or [submit this form](https://form.typeform.com/to/JoVcpdrn)) and we'll show you a demo!",
+      "url": "https://www.ycombinator.com/launches/MlB-subtrace-resolve-production-issues-in-minutes-not-months",
+      "votes": 42,
+      "created_at": "2025-02-07T07:42:14.178Z"
+    }
+  ]
+}

@@ -1,0 +1,123 @@
+{
+  "id": 29782,
+  "name": "Laminar",
+  "slug": "laminar",
+  "former_names": [
+    "Laminar AI"
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/f68c82dc13524e235198c783318ae1b1aa5d7432.png",
+  "website": "https://laminar.sh",
+  "all_locations": "London, England, United Kingdom",
+  "long_description": "Laminar is open-source observability for AI agents. Trace complex workflows, replay and debug agent runs, and detect anomalies across trajectories at scale.",
+  "one_liner": "Understand why your AI agent breaks. Iterate fast to fix it.",
+  "team_size": 6,
+  "industry": "B2B",
+  "subindustry": "B2B -> Engineering, Product and Design",
+  "launched_at": 1721337823,
+  "tags": [
+    "AIOps",
+    "Developer Tools",
+    "SaaS",
+    "B2B",
+    "AI"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Summer 2024",
+  "status": "Active",
+  "industries": [
+    "B2B",
+    "Engineering, Product and Design"
+  ],
+  "regions": [
+    "United Kingdom",
+    "Europe"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/laminar",
+  "api": "https://devasheeshg.github.io/yc-api/batches/summer-2024/laminar.json",
+  "year_founded": 2024,
+  "city": "London",
+  "country": "GB",
+  "linkedin_url": "https://www.linkedin.com/company/lmnr-ai/",
+  "x_url": "",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": "https://github.com/lmnr-ai/lmnr",
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/f68c82dc13524e235198c783318ae1b1aa5d7432.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Jared Friedman",
+    "url": "https://www.ycombinator.com/people/jared-friedman"
+  },
+  "founders": [
+    {
+      "user_id": 1771812,
+      "full_name": "Robert Kim",
+      "title": "Founder/CEO",
+      "founder_bio": "Co-founder and CEO @ Laminar (lmnr.ai). Previously, I interned at Palantir where I built semantic search package which now powers many internal AI teams and worked on resource allocation engine at core infrastructure team. I also interned at Bloomberg where I scaled market tick processing pipeline by 10x to 10M ticks/s.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/skull8888888/",
+      "x_url": "https://twitter.com/skull8888888888",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/b1164aa2d27587dbe70dd830f8ae356064e709d5.jpg"
+    },
+    {
+      "user_id": 1980084,
+      "full_name": "Din Mailibay",
+      "title": "Founder/CTO",
+      "founder_bio": "Co-founder and CTO at Laminar (laminar.sh). Previously, I have worked at Amazon for 2 years building and scaling critical payments infrastructure. Before that, I've spent a year creating ML infrastructure for a drug discovery biotech startup in Korea.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/dinmukhamedm",
+      "x_url": "https://twitter.com/din_mlb",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/c56af6f86306ce69d00244d2229612165fb00abc.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 98606,
+      "title": "Laminar – Understand why your agent failed. Iterate fast to fix it.",
+      "tagline": "Open-source observability platform for long-running agents — trace in one line, replay-debug from any step, detect patterns at scale.",
+      "body": "Hey everyone, Robert from Laminar (YC S24) here. The entire observability space was built for request-response LLM apps. Nobody was building for Agents that run for 40 minutes and fail in ways you can't reproduce. So we did.\n\n## Tracing that actually helps you understand what happened\n\nMost observability platforms just collect data and wait until you go look at it. And when you do, you get a tree of spans. You click into one, read it, go back, click the next one, try to hold the context in your head. For a simple LLM call, that's fine. For an agent that ran for 30 minutes and made 200 decisions, it's practically useless.\n\nWe built Laminar's tracing to give you as much information as quickly as possible.\n\nOur trace timeline and **reader mode** lay out the agent's reasoning and actions as a clean, readable feed.\n\n![uploaded image](/media/?type=post&id=98606&key=user_uploads/1771812/73741d82-1719-4062-8cc2-9bd8de880010)\n\nYou open a trace and immediately see what the agent did, what it was thinking, and where things went wrong (we also capture and show application level exceptions). For browser agents, we record **full browser sessions synced with traces**. You literally see what the agent saw at every step → <https://laminar.sh/shared/traces/16fcd540-9583-8bcb-f8e0-8b15ec92c58d>.\n\nIf a trace is too complex to parse visually, you can **chat with it**: ask questions about what happened in natural language, instead of manually digging through hundreds of steps. We take into account the whole context of the trace, not just a single span.\n\n![uploaded image](/media/?type=post&id=98606&key=user_uploads/1771812/87cc29b4-f5c3-4924-ab96-5c52af1fae76)\n\nWe can confidently say that we have the best tracing DX on the market. It’s one line of code to integrate. Laminar SDK auto-patches vast majority of AI frameworks and SDKs, including **Claude Agent SDK, AI SDK, LiteLLM, Browser Use, Stagehand, OpenHands SDK**, and much [more](https://docs.laminar.sh/tracing/integrations/openai). We are the only platform that traces **Claude Agent SDK sub-agents**. When Claude delegates work to sub-agents, you get full visibility into that entire chain, not just the top-level call. Here’s an example of a trace <https://laminar.sh/shared/traces/3f9219d0-8691-daf7-836a-8874ca4c1d9f>.\n\n## The debugger\n\nThis is the feature we wished existed when we were building agents ourselves. When your agent fails 15 minutes into a run, the normal workflow is: restart from scratch, wait for it to reach the same state, hope it reproduces the failure. That's insane.\n\nLaminar starts a local dev server that connects to our platform. You can run your agent directly from our UI, and when a run fails, you go to the exact step where it went wrong. You tweak your prompt or tool definitions right in the UI. And you rerun from that step — with full context preserved.\n\nHere's how it works under the hood: our tracing SDK sits right before the LLM call boundary. When you rerun from a step, we mock all the LLM calls that happened before that point, replaying their original responses. This means the agent walks through its prior steps instantly without actually calling any LLMs and spending any tokens — and crucially, it properly restores external state along the way. If your agent was controlling a browser, the browser gets back to the exact page and DOM state. If it was working in a sandbox, the sandbox is restored. By the time execution reaches your breakpoint, everything — conversation history, tool state, external environment — is exactly as it was. You tweak your prompt, hit rerun, and the agent picks up from there with the real world intact.\n\nHere’s a demo of Laminar debugger.\n\n<https://www.youtube.com/watch?v=iSw8MM6tRvY>\n\n## Signals\n\n![uploaded image](/media/?type=post&id=98606&key=user_uploads/1771812/19af455c-7dfa-46e7-aa40-fbac2b4696a6)\n\nIn development, you care about individual runs. In production, you have thousands of runs and the question changes — it's no longer \"why did this run fail,\" it's \"what's going wrong across all my runs and how often.\"\n\nThat's what Signals solve. You write a short natural language description of what you want to detect — something like \"agent gets stuck in a retry loop\" or \"user gets frustrated and rephrases their request.\" Laminar runs this against every trace, extracts matching events, and then clusters them into patterns. So instead of manually sampling traces hoping to spot trends, you get a structured view of what's actually happening. We use this ourselves to monitor our own agents, and it catches things we'd never find by skimming through traces.\n\n## SQL editor, evals, and more\n\nAll of your data lives is accessible with built-in SQL editor (both in UI and API). You can run arbitrary queries against your traces, spans, and events — build custom dashboards, do ad-hoc analysis, or bulk-create datasets from production traces. Those datasets plug directly into our evals pipeline, so you can run evaluations on real production data instead of synthetic test cases.\n\n## Laminar\n\nLeading agent companies like Browser Use, OpenHands, Rye.com, Alai and many more use Laminar in production. Laminar is fully open source and extremely fast (written in Rust). Self-host it anywhere or use our managed platform (<https://laminar.sh>).\n\n**Our ask:**\n\n* If you're shipping agents and debugging is painful, we'd love to help — [founders@lmnr.ai](mailto:founders@lmnr.ai)\n* Intros to teams running long running agents would be huge\n* Star us on GitHub: <https://github.com/lmnr-ai/lmnr>\n\n🔗 <https://laminar.sh>",
+      "url": "https://www.ycombinator.com/launches/PeQ-laminar-understand-why-your-agent-failed-iterate-fast-to-fix-it",
+      "votes": 5,
+      "created_at": "2026-03-09T00:35:53.684Z"
+    },
+    {
+      "id": 89930,
+      "title": "Laminar: The Missing Developer Tool for Browser Agents",
+      "tagline": "Laminar captures browser session recordings and syncs them with agent traces.",
+      "body": "Robert and Din from Laminar here. We created a new type of observability, which enabled us to build the SOTA open-source browser agent.\n\n# The Problem\n\nBrowser agents are powerful but notoriously difficult to develop and debug. When your agent fails, traditional traces just show a wall of text logs without context. You can't see what the agent was looking at when it made decisions, why it chose certain actions, or what exactly went wrong. It's like trying to debug a self-driving car without any camera footage – practically impossible.\n\nThis lack of proper observability tools has been the biggest barrier to building reliable browser agents.\n\n# The Solution\n\n![uploaded image](/media/?type=post&id=89930&key=user_uploads/1771812/0da20a73-6dc1-4d3d-8561-dc38dd8cb624)\n\nLaminar created the missing piece in browser agent development: complete visual context for every agent action and decision. Our platform records high-quality browser sessions and perfectly synchronizes them with agent traces. Now developers can:\n\n1. **See what the agent sees** - Watch the complete visual journey of your agent as it navigates websites\n2. **Pinpoint exact failure points** - Identify precisely where and why agents make mistakes\n3. **Debug with context** - Understand agent decisions with full visual and trace context\n\n# Results\n\nUsing our own tools, we built Index - open-source browser agent that achieves 92% on WebVoyager benchmark, setting a new state of the art. Index can handle everything from research tasks to complex automations in apps like Google Sheets. In other words, we created a reliable **API layer to any website** that you can simply prompt with natural language.\n\n# Integrations\n\nLaminar seamlessly integrates with AI browser frameworks like **Stagehand** and **Browser Use** - integration takes just 2 lines of code.\n\n# Ask\n\n* **Build better agents:** Try Laminar today for your browser and AI agent development => <https://lmnr.ai>\n* **Explore our open source agent:** Check out Index at [github.com/lmnr-ai/index](https://github.com/lmnr-ai/index)\n* **Dive into docs:** Comprehensive guides at <https://docs.lmnr.ai>\n\nWe're looking for early adopters and feedback! Reach out to us at [founders@lmnr.ai](mailto:founders@laminar.ai) and join our [discord](https://discord.com/invite/nNFUUDAKub).",
+      "url": "https://www.ycombinator.com/launches/NOU-laminar-the-missing-developer-tool-for-browser-agents",
+      "votes": 11,
+      "created_at": "2025-04-28T22:25:16.716Z"
+    },
+    {
+      "id": 83572,
+      "title": "Laminar - Open-source observability and analytics for complex LLM apps",
+      "tagline": "Observability and analytics which helps you track LLM apps in production.",
+      "body": "**tldr: Laminar is an open-source developer platform that provides full instrumentation of LLM applications and combines trace data with event-based analytics.**\n\n**—**\n\nHey everyone, we’re Robert, Din, and Temirlan. Previously, we built infrastructure at Palantir, Amazon, and Bloomberg — now, we’re building an open-source platform to help developers understand how their LLM apps perform in production.\n\n![uploaded image](/media/?type=post&id=83572&key=user_uploads/1771812/e4140bd4-1ae9-453d-8457-2564c3820cbc)\n\n# Why do LLM apps need observability from day 0?\n\n![uploaded image](/media/?type=post&id=83572&key=user_uploads/1771812/81e46417-9b77-4368-ab0f-c04b8b84556e)\n\nLLMs are stochastic, and designing robust software around them (e.g., RAG, Agents) is an iterative process. A great observability platform not only facilitates this process, but actually makes it more productive. Hence, many AI developers adopt observability tools early on.\n\nLaminar goes beyond single LLM call tracing and provides tools for entire app instrumentation and powerful UI for full trace visualization, trace search, and session grouping.\n\n## What is different about analytics for LLM apps?\n\n![uploaded image](/media/?type=post&id=83572&key=user_uploads/1771812/29d881c9-de4c-416a-be18-d17638d67135)\n\nLLM apps produce traces, which are essentially very rich text. Traditional event-based analytics tools are not built for extracting metrics from this kind of data.\n\nCurrently, AI devs spend a good chunk of their time manually inspecting traces to understand usage patterns of their LLM apps. As they scale, manual inspection is not feasible anymore.\n\nLaminar tackles this problem by using other LLMs to process rich text outputs in the background. With Laminar, developers can define custom events, such as “USER SENTIMENT,” to collect user sentiments and track this metric at scale as they deploy their LLM apps into production.\n\nEach event is linked to the trace that produced it, and developers can understand when and why certain semantic events have happened. It gives developers deeper understanding of the performance and usage of their LLM apps.\n\n## Our ask\n\n* Star our repo → <https://github.com/lmnr-ai/lmnr>\n* Start tracing and tracking events with a managed version of our open-source platform here → <https://www.lmnr.ai>\n* [Join our Discord](https://discord.com/invite/nNFUUDAKub)\n* Connect us with anyone who builds software around LLMs and would greatly benefit from a tool like this!",
+      "url": "https://www.ycombinator.com/launches/Ljw-laminar-open-source-observability-and-analytics-for-complex-llm-apps",
+      "votes": 17,
+      "created_at": "2024-08-29T15:16:33.971Z"
+    },
+    {
+      "id": 82294,
+      "title": "Laminar - Developer platform to ship reliable LLM agents 10x faster",
+      "tagline": "Combining orchestration, evals, data, and observability into a single platform.",
+      "body": "# tl;dr: Laminar is a developer platform that combines orchestration, evaluations, data, and observability to empower AI developers to ship reliable LLM applications 10x faster. Get started for free → [lmnr.ai.](https://www.lmnr.ai)\n\nHey everyone, we’re Robert, Din and Temirlan. Previously, we built infrastructure at Palantir, Amazon, and Bloomberg— now our goal is to help AI developers ship reliable LLM applications faster.\n\n![uploaded image](/media/?type=post&id=82294&key=user_uploads/1771812/1a4a4a99-7e50-4bcd-86ff-8d2a5474a091)\n\n# ❌ The Problem\n\nLLMs are stochastic, and designing robust software around them (e.g. LLM agents) demands rapid iteration on core logic and prompts, constant monitoring and a structured way of testing new changes. Existing solutions are vertical and the burden of maintaining “glue” between them is still on the developers, which inevitably slows them down.\n\n# ✅ Our Solution\n\nLaminar is a dev platform that combines orchestration, evaluations, data, and observability to help AI devs to ship reliable LLM applications 10x faster. We provide:\n\n* a GUI to build LLM applications as dynamic graphs with seamless local code interfacing.\n* an [open-source package](https://github.com/lmnr-ai/lmnr-python) to generate abstraction-free code from these graphs directly into developers' codebases.\n* a state-of-the art evaluation platform that lets devs build fast and custom evaluators without managing evaluation infrastructure themselves.\n* a data infrastructure with built-in support for vector search over datasets and files. Data can be easily ingested into LLMs and LLMs can write to the datasets, creating a self-improving data flywheel.\n* a low latency logging and observability infrastructure.\n\n# Orchestration\n\nAs devs, we love to code everything ourselves, but we’ve realized the fastest way of iterating on LLM application logic is via graph UI. So, we’ve built the ultimate LLM “IDE”, where you build your LLM applications as dynamic graphs. You can build cyclical flows, route to different tools, and collaborate with your teammates in real-time!\n\n![uploaded image](/media/?type=post&id=82294&key=user_uploads/1771812/be5a68c2-4440-4fd3-92e7-71c7436e13c8)\n\nGraphs can seamlessly interface with local code. “Function node” can call local functions on your server, right from our UI or our SDK. It’s a huge game changer for testing of LLM agents which call different tools and then circle the response back to LLMs. In the gif below, local function “save_result_to_db“, which runs on a server on my computer, is directly called from our UI.\n\n![uploaded image](/media/?type=post&id=82294&key=user_uploads/1771812/17ade57e-5551-4db3-a036-0bed9956a79e)\n\nUsing our [open-source package](https://github.com/lmnr-ai/lmnr-python), you can generate zero-abstraction code from graph definition, which exactly replicates the graph functionality. Code is generated as pure functions right inside your repo, and you have total freedom to modify it however you want. It is extremely valuable for the devs who are tired of frameworks with myriads of layers of abstraction.\n\n![uploaded image](/media/?type=post&id=82294&key=user_uploads/1771812/6955178c-ef6a-4b26-bac9-39fdebe6f1ac)\n\nYou can also deploy LLM pipelines as API endpoints on our infrastructure and easily call them via our Python/TS sdks.\n\n![uploaded image](/media/?type=post&id=82294&key=user_uploads/1771812/d071c79f-9b3c-4376-9de1-c9cccd401e6b)\n\n# Evaluations\n\n![uploaded image](/media/?type=post&id=82294&key=user_uploads/1771812/799c93b7-c273-4b65-ac0c-50a3e360952c)\n\nLaminar pipeline builder can be used to build custom and flexible evaluation pipelines that seamlessly interface with local code. You can start from something simple like exact matching and then build a custom LLM-as-a-judge pipeline tailored to your specific use case. You can upload large datasets and run evaluations on thousands of data points at the same time, and get all statistics about the run in real time. All of this without the pain of managing evaluation infrastructure yourself.\n\n# Observability\n\n![uploaded image](/media/?type=post&id=82294&key=user_uploads/1771812/f6d0e26d-60d7-4371-a558-a36006d8cd43)\n\nWhether you decide to host LLM pipelines on our platform or generate code from graphs, all pipeline runs are logged and you can easily inspect the traces in the convenient UI.\n\n# Conclusion\n\nLaminar aims to deliver the best developer experience for AI developers. We remove unnecessary friction and burden of managing infrastructure. We let you focus on building the best AI products and ship them 10x faster!\n\n# Our ask\n\n* Start building reliable LLM agents right now for free → <https://www.lmnr.ai>\n* Check out [open-source code gen package](https://github.com/lmnr-ai/lmnr-python)\n* Connect us with anyone who builds software around LLMs and would greatly benefit from a tool like this!\n* [Join our Discord](https://discord.com/invite/nNFUUDAKub)",
+      "url": "https://www.ycombinator.com/launches/LPK-laminar-developer-platform-to-ship-reliable-llm-agents-10x-faster",
+      "votes": 97,
+      "created_at": "2024-07-20T04:14:28.826Z"
+    }
+  ]
+}

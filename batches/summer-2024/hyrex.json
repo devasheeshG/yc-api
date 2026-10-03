@@ -1,0 +1,108 @@
+{
+  "id": 29660,
+  "name": "Hyrex",
+  "slug": "hyrex",
+  "former_names": [
+    "Kura"
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/c33003b33c54f32f641d1dd6956b58f331c3842d.png",
+  "website": "https://www.hyrex.io",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "Hyrex is a task orchestration framework that uses PostgreSQL (or Hyrex Cloud) as a durable task queue. Define tasks in Python or TypeScript, send them to be processed asynchronously, and let Hyrex handle the rest.\r\n\r\nHyrex tasks are COLD: Controllable, Observable, Large-Scale, and Durable!",
+  "one_liner": "The COLD Task Framework",
+  "team_size": 3,
+  "industry": "B2B",
+  "subindustry": "B2B -> Engineering, Product and Design",
+  "launched_at": 1724200248,
+  "tags": [
+    "AIOps",
+    "Developer Tools",
+    "Cloud Computing",
+    "Infrastructure"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Summer 2024",
+  "status": "Active",
+  "industries": [
+    "B2B",
+    "Engineering, Product and Design"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada",
+    "Remote",
+    "Partly Remote"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/hyrex",
+  "api": "https://devasheeshg.github.io/yc-api/batches/summer-2024/hyrex.json",
+  "year_founded": 2024,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/hyrex-labs",
+  "x_url": "https://x.com/hyrex_io",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": "https://github.com/hyrex-labs",
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/c33003b33c54f32f641d1dd6956b58f331c3842d.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [
+    "https://bookface-images.s3.us-west-2.amazonaws.com/attachments/29c89a57406f27700f9b8b7efac971895519ec3f.png"
+  ],
+  "primary_partner": {
+    "name": "Brad Flora",
+    "url": "https://www.ycombinator.com/people/brad-flora"
+  },
+  "founders": [
+    {
+      "user_id": 668182,
+      "full_name": "Mark Dawson",
+      "title": "Founder/CEO",
+      "founder_bio": "Software Engineer. Second time founder. Currently focused on AI + Cloud infrastructure.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/markedwarddawson/",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/6790b0a938ff2f969081aec2eac59e12ba759360.jpg"
+    },
+    {
+      "user_id": 1967655,
+      "full_name": "Trevor Reed",
+      "title": "Founder/CTO",
+      "founder_bio": "Co-founder at Hyrex, building the COLD task orchestration framework. Former Mars Rover driver at JPL with over 1km of drive distance on Mars and software engineer at Google processing worldwide YouTube data.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/trevorar",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/0f6e2f6d5eafc4fc06afb8ca024e54677782c091.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 93335,
+      "title": "Hyrex - The Open-Source COLD Task Framework",
+      "tagline": "Production-grade background tasks built on Postgres",
+      "body": "![uploaded image](/media/?type=post&id=93335&key=user_uploads/1967655/4c6a3685-1d2e-4f71-8808-ffcbd2a920a8)\n\n\\\nWe’re Mark and Trevor, founders of [Hyrex](https://hyrex.io). We’ve written a lot of software over the years at Google, NASA, and multiple startups. As our focus has shifted to scalable web apps, we’ve come to appreciate the magic of asynchronous background task queues. They make it easy to build lightning-fast apps that can scale dynamically, while ensuring that essential tasks are completed with full confidence, in priority order. This distributed approach is more important than ever for building dynamic AI agents, indexers, and web-first apps.\n\nHere’s a basic task orchestration architecture - you send tasks (i.e. function calls) to a queue, and workers pull them off and complete them in parallel.\n\n![uploaded image](/media/?type=post&id=93335&key=user_uploads/1967655/f29e6d7d-890b-4863-aa19-eea241e05714)\n\n**The Problem**\\\nUnfortunately, none of the existing frameworks supported everything on our checklist. As we talked with developers working on startups, we learned that most shared the same experience. Some frameworks require extensive code rewrites, while others are difficult to configure and debug, or simply unmaintained. Most lack a deep commitment to open-source, and many require dependencies on outdated or niche technologies. As you can probably guess by now, we decided to build our own!\\\n\\\n**Our Approach**\n\nWe started with a few core creative constraints.\n\n1. Only required dependency is a Postgres database.\n2. Existing functions can be converted to tasks using just a decorator/wrapper. No changes to your core code that lead to lock-in.\n3. Open-source first, with a higher-performance managed service with an identical SDK. Easy to switch back-and-forth.\n4. Can be set up and tested in minutes.\n\nAnd we ended up with Hyrex!\n\nIf you’ve used a task framework before, everything should work as you expect (and probably better)! If you’re new to task frameworks, everything you need to know is at [hyrex.io/docs](https://hyrex.io/docs)\n\n![uploaded image](/media/?type=post&id=93335&key=user_uploads/1967655/8472e657-3969-4e48-aa91-d4a8ecdc7f85)\n\n\\_(Hyrex Cloud in action)\\_\\\n\\\n**What is COLD?**\n\nWhy do we call ourselves “the COLD task framework”? For each function you wrap as a Hyrex task, you get 4 properties needed for production-grade systems:\n\n* **Controllable** - tasks can be sent from anywhere, anytime, with any configuration\n* **Observable** - tasks status, results, logs, and metadata are easily available via a UI or programmatically\n* **Large-scale** - workloads are horizontally scalable across any cloud infra (even multi-cloud)\n* **Durable** - workers are fault-tolerant and self-healing, and tasks can’t be dropped once they’re in the system\n\nWith these built-in properties, your Python/TypeScript functions are ready to send with confidence. You can run them on schedules and easily chain them together into task trees to build products like Deep Research and dynamic AI agents.\n\n![uploaded image](/media/?type=post&id=93335&key=user_uploads/1967655/a9e116eb-a557-4687-8f6a-fd8242f72e3d)\n\nHyrex open-source requires only a Postgres database to run. Hyrex Cloud ([hyrex.io/cloud](https://hyrex.io/cloud)) provides higher throughput, GitHub integration with automatic deployments when you push changes, and built-in scalable worker pools. Both options use the same SDKs, so you can easily switch at any time!\n\n**Hyrex Cloud pricing**\n\n* $200/month - individual plan (1 project + 1 worker)\n* $400/month - team plan (up to 5 members and 5 projects + 2 workers)\n\n**Our ask:**\n\n* Sign up for a 1:1 demo at [hyrex.io](http://hyrex.io)\n  * We’d love to chat directly and help write your first Hyrex task!\n* Try it out on your own!\n  * Build your first Hyrex task in minutes using our quickstart guides: https://hyrex.io/docs/learn/getting-started\n* Join our Discord ([discord.gg/hyrex](https://discord.gg/hyrex)) for questions and discussion",
+      "url": "https://www.ycombinator.com/launches/OHP-hyrex-the-open-source-cold-task-framework",
+      "votes": 17,
+      "created_at": "2025-08-27T13:44:23.405Z"
+    },
+    {
+      "id": 83339,
+      "title": "Kura | The AI DevOps Copilot",
+      "tagline": "Kura is an intelligent copilot that helps software teams manage and optimize their cloud infrastructure.",
+      "body": "**TL;DR:** [Kura](https://www.usekura.com/) integrates directly with services like AWS, helping software teams respond to incidents, provision infrastructure, and optimize complex cloud systems.\n\n![uploaded image](/media/?type=post&id=83339&key=user_uploads/1967655/a1945e14-3f49-4491-8e31-d40335e6f5ab)\n\nHello YC! We’re [Trevor](https://www.linkedin.com/in/trevorar) and [Mark](https://www.linkedin.com/in/markedwarddawson/), founders of Kura. After building distributed systems for a combined \\~15 years at places like Google and NASA, we know the challenges and triumphs of cloud-based products. We started Kura with the core belief that recent AI advancements can unlock the potential of software teams building on the cloud.\n\n# **What’s the problem?**\n\nAs web apps become increasingly core to the world, maintaining cloud infrastructure requires increasingly more time and resources.\n\n* Distributed systems are getting more complex than ever\n* Managed solutions trade off ease against control and cost\n* Cloud infra engineers are few and far between, leaving much of the work to teams who may not have extensive cloud experience\n\n# **What can Kura do?**\n\nKura is a chatbot and workspace that integrates directly with a live index of your cloud infra from services like AWS, GCP, and Azure.\n\n![uploaded image](/media/?type=post&id=83339&key=user_uploads/1967655/be157dd9-7ee9-48bf-af07-aca46efca63c)\n\n**Kura can answer questions about your cloud system**, providing links and live information for queries like:\n\n* “Is my main API cluster healthy?”\n* “Which container version is running in prod?”\n* “Can you help me deploy a new container via CDK?”\n\n**Kura can run pre-packaged and user-defined “runbooks”** to proactively surface issues via notifications. For example:\n\n* Scheduled checks for over/under-utilized computing resources\n* Discovering and surfacing cost spikes and trends\n* Searching for common security vulnerabilities\n\nWith Kura, software teams can build faster and more confidently on the cloud, all while maintaining full control of their critical infrastructure.\n\n# **Our ask:**\n\n* If your team is building on the cloud and would like to learn more or sign up as a pilot customer, please reach out to [founders@usekura.com](mailto:founders@usekura.com).\n* If you know software teams or developers running into roadblocks due to cloud complexity, please send this post their way - we’d love to chat and learn more!\n* Follow us at [@kura_labs](https://x.com/kura_labs) to follow along on the journey!",
+      "url": "https://www.ycombinator.com/launches/LgB-kura-the-ai-devops-copilot",
+      "votes": 57,
+      "created_at": "2024-08-23T01:15:08.727Z"
+    }
+  ]
+}

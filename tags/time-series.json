@@ -1,0 +1,412 @@
+[
+  {
+    "id": 490,
+    "name": "InfluxData",
+    "slug": "influxdata",
+    "former_names": [],
+    "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/52f8bfabfa73534a4e180ab67b04914310f2a95e.png",
+    "website": "https://influxdata.com",
+    "all_locations": "New York City, NY, USA; San Francisco, CA, USA; Remote",
+    "long_description": "InfluxData, the creators of InfluxDB, delivers a modern Open Source Platform built from the ground up for analyzing metrics and events (time series data) for DevOps and IoT applications. Whether the data comes from humans, sensors, or machines, InfluxData empowers developers to build next-generation monitoring, analytics, and IoT applications faster, easier, and to scale delivering real business value quickly. Based in San Francisco, InfluxData customers include Autodesk, Cisco, eBay, and Coupa. Visit https://www.influxdata.com.",
+    "one_liner": "The platform for building and operating time series applications.",
+    "team_size": 210,
+    "industry": "B2B",
+    "subindustry": "B2B -> Infrastructure",
+    "launched_at": 1354492765,
+    "tags": [
+      "Analytics",
+      "Open Source",
+      "Time Series",
+      "Databases"
+    ],
+    "tags_highlighted": [],
+    "top_company": false,
+    "isHiring": true,
+    "nonprofit": false,
+    "batch": "Winter 2013",
+    "status": "Active",
+    "industries": [
+      "B2B",
+      "Infrastructure"
+    ],
+    "regions": [
+      "United States of America",
+      "America / Canada",
+      "Remote",
+      "Fully Remote"
+    ],
+    "stage": "Growth",
+    "app_video_public": false,
+    "demo_day_video_public": false,
+    "app_answers": null,
+    "question_answers": null,
+    "url": "https://www.ycombinator.com/companies/influxdata",
+    "api": "https://devasheeshg.github.io/yc-api/batches/winter-2013/influxdata.json",
+    "year_founded": 2012,
+    "city": "New York City",
+    "country": "US",
+    "linkedin_url": "https://www.linkedin.com/company/influxdb",
+    "x_url": "https://twitter.com/InfluxDB?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor",
+    "fb_url": "https://www.facebook.com/influxdb/",
+    "cb_url": "https://www.crunchbase.com/organization/influxdb",
+    "github_url": "https://github.com/influxdata",
+    "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/52f8bfabfa73534a4e180ab67b04914310f2a95e.png",
+    "app_video_url": null,
+    "dday_video_url": null,
+    "company_photos": [],
+    "primary_partner": null,
+    "founders": [
+      {
+        "user_id": 35348,
+        "full_name": "Paul Dix",
+        "title": "Founder/CTO",
+        "founder_bio": "Co-founder and CTO of InfluxData, the company behind InfluxDB, an open source time series database. Creator of NYC Machine Learning Meetup, author of Service Oriented Design with Ruby, and series editor of Addison Wesley's Data & Analytics book and video series.",
+        "is_active": true,
+        "linkedin_url": "https://www.linkedin.com/in/pauldix/",
+        "x_url": "https://twitter.com/pauldix",
+        "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/08f7956ada5049ce69ab9169b75f8e3c0efe4f24.jpg"
+      }
+    ],
+    "jobs": [],
+    "news": [
+      {
+        "title": "InfluxData lands $51M to grow its time series database offerings • TechCrunch",
+        "url": "https://techcrunch.com/2023/02/13/influxdata-lands-51m-to-grow-its-time-series-database-offerings",
+        "date": "Feb 13, 2023"
+      },
+      {
+        "title": "InfluxDB IOx update adds SQL capabilities, real-time data functions - SiliconANGLE",
+        "url": "https://siliconangle.com/2023/01/13/influxdb-iox-update-adds-sql-capabilities-real-time-data-functions-reinvent/",
+        "date": "Jan 13, 2023"
+      },
+      {
+        "title": "Built-for-purpose databases tackle new-era enterprise challenges | VentureBeat",
+        "url": "https://venturebeat.com/data-infrastructure/built-for-purpose-databases-tackle-new-era-enterprise-challenges/",
+        "date": "Nov 28, 2022"
+      },
+      {
+        "title": "InfluxData raises $60 million for time-series database software | VentureBeat",
+        "url": "https://venturebeat.com/business/influxdata-raises-60-million-for-time-series-database-software/",
+        "date": "Feb 13, 2019"
+      }
+    ],
+    "launches": []
+  },
+  {
+    "id": 614,
+    "name": "PipelineDB",
+    "slug": "pipelinedb",
+    "former_names": [
+      "PipelineDB",
+      "Stride API"
+    ],
+    "small_logo_thumb_url": "/company/thumb/missing.png",
+    "website": "http://www.pipelinedb.com",
+    "all_locations": "Los Angeles, CA, USA",
+    "long_description": "PipelineDB is an open-source PostgreSQL extension that enables realtime reporting use cases by continuously aggregating large streams of time series data down into summary data. It shines the most at larger scales, where storing lots of raw time-series data and aggregating it over and over again becomes inefficient. The amount of value that PipelineDB adds is directly proportional to the amount of continuous aggregation that an analytics use case can benefit from. PipelineDB should be used for analytics use cases that only require summary data, like realtime reporting dashboards. PipelineDB is not a good fit for exploratory analytics on siloed datasets.\r\n",
+    "one_liner": "Open-source time-series data analytics extension for PostgreSQL",
+    "team_size": 2,
+    "industry": "B2B",
+    "subindustry": "B2B -> Infrastructure",
+    "launched_at": 1384978939,
+    "tags": [
+      "Open Source",
+      "Time Series"
+    ],
+    "tags_highlighted": [],
+    "top_company": false,
+    "isHiring": false,
+    "nonprofit": false,
+    "batch": "Winter 2014",
+    "status": "Acquired",
+    "industries": [
+      "B2B",
+      "Infrastructure"
+    ],
+    "regions": [
+      "United States of America",
+      "America / Canada"
+    ],
+    "stage": "Early",
+    "app_video_public": false,
+    "demo_day_video_public": false,
+    "app_answers": null,
+    "question_answers": null,
+    "url": "https://www.ycombinator.com/companies/pipelinedb",
+    "api": "https://devasheeshg.github.io/yc-api/batches/winter-2014/pipelinedb.json",
+    "year_founded": null,
+    "city": "Los Angeles",
+    "country": "US",
+    "linkedin_url": null,
+    "x_url": "https://twitter.com/pipelinedb",
+    "fb_url": "https://www.facebook.com/pipelinedb",
+    "cb_url": "https://www.crunchbase.com/organization/pipelinedb",
+    "github_url": null,
+    "logo_url": null,
+    "app_video_url": null,
+    "dday_video_url": null,
+    "company_photos": [],
+    "primary_partner": null,
+    "founders": [
+      {
+        "user_id": 409,
+        "full_name": "Derek Nelson",
+        "title": "Founder",
+        "founder_bio": null,
+        "is_active": true,
+        "linkedin_url": "https://www.linkedin.com/in/derekjn",
+        "x_url": null,
+        "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/9ffdc88614cd90705f8265814d96827a9fa5c6ad.jpg"
+      }
+    ],
+    "jobs": [],
+    "news": [],
+    "launches": []
+  },
+  {
+    "id": 21795,
+    "name": "QuestDB",
+    "slug": "questdb",
+    "former_names": [
+      "QuestDB Limited"
+    ],
+    "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/3aef5c655cdc851ccad387554c204466a87669e7.png",
+    "website": "https://questdb.com/",
+    "all_locations": "London, England, United Kingdom",
+    "long_description": "QuestDB is a high-performance open source database for the most demanding workloads. Native support for Parquet, Iceberg and SQL keeps your data portable, AI-ready, without vendor lock-in.\r\n\r\nQuestDB is designed from the ground up to operate as close to the hardware as possible - eliminating ingestion bottlenecks and lowering overall hardware requirements.\r\n\r\nQuestDB powers mission-critical infrastructure for companies in Capital Markets, Crypto, Space Exploration, Energy and Robotics/Physical AI.",
+    "one_liner": "High-performance time series database",
+    "team_size": 30,
+    "industry": "B2B",
+    "subindustry": "B2B -> Infrastructure",
+    "launched_at": 1593714682,
+    "tags": [
+      "Developer Tools",
+      "Analytics",
+      "Open Source",
+      "Time Series"
+    ],
+    "tags_highlighted": [],
+    "top_company": false,
+    "isHiring": true,
+    "nonprofit": false,
+    "batch": "Summer 2020",
+    "status": "Active",
+    "industries": [
+      "B2B",
+      "Infrastructure"
+    ],
+    "regions": [
+      "United Kingdom",
+      "Europe",
+      "Remote",
+      "Partly Remote"
+    ],
+    "stage": "Early",
+    "app_video_public": false,
+    "demo_day_video_public": false,
+    "app_answers": null,
+    "question_answers": null,
+    "url": "https://www.ycombinator.com/companies/questdb",
+    "api": "https://devasheeshg.github.io/yc-api/batches/summer-2020/questdb.json",
+    "year_founded": 2019,
+    "city": "London",
+    "country": "GB",
+    "linkedin_url": "https://www.linkedin.com/company/27032022/",
+    "x_url": "",
+    "fb_url": null,
+    "cb_url": "https://www.crunchbase.com/organization/quest-db",
+    "github_url": "https://github.com/questdb",
+    "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/3aef5c655cdc851ccad387554c204466a87669e7.png",
+    "app_video_url": null,
+    "dday_video_url": null,
+    "company_photos": [],
+    "primary_partner": {
+      "name": "Nicolas Dessaigne",
+      "url": "https://www.ycombinator.com/people/nicolas-dessaigne"
+    },
+    "founders": [
+      {
+        "user_id": 432980,
+        "full_name": "Nicolas Hourcard",
+        "title": "Founder",
+        "founder_bio": "Co-founder/CEO at QuestDB.",
+        "is_active": true,
+        "linkedin_url": "https://www.linkedin.com/in/nicolas-hourcard-cfa-b7349b37/",
+        "x_url": "https://twitter.com/nicolas_hrd",
+        "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/bc590513f179446e8d515ed72c65325fc50acdb4.jpg"
+      },
+      {
+        "user_id": 476995,
+        "full_name": "Tancrede Collard",
+        "title": "Founder",
+        "founder_bio": "Co-founder and head of product at QuestDB. Before that, I was running algorithmic trading desks at banks and cryptocurrency firms.",
+        "is_active": false,
+        "linkedin_url": "https://www.linkedin.com/in/tancrede-collard-35228926/",
+        "x_url": "https://twitter.com/TancThe",
+        "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/32e87775d59972e2b1ae146ed36ca880338b2cb6.jpg"
+      },
+      {
+        "user_id": 481865,
+        "full_name": "Vlad Ilyushchenko",
+        "title": "Founder",
+        "founder_bio": "Founder, CTO, QuestDB\n\n1997 - 2019 Software Engineer, Electronic Trading\n",
+        "is_active": true,
+        "linkedin_url": "https://www.linkedin.com/in/ilyushchenko/",
+        "x_url": "",
+        "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/1582960340135f206839659b3f73cc4c6dbfcc58.jpg"
+      }
+    ],
+    "jobs": [
+      {
+        "id": 109949,
+        "title": "Business Operations Manager",
+        "url": "https://www.ycombinator.com/companies/questdb/jobs/Qk0blm7-business-operations-manager",
+        "location": "New York, NY, US / London, England, GB / Remote (US)",
+        "type": "Full-time",
+        "role": "Operations",
+        "role_type": null,
+        "salary_range": "$85K - $140K",
+        "equity_range": "0.10% - 0.20%",
+        "experience": "5+ years",
+        "visa": "US citizen/visa only",
+        "skills": []
+      },
+      {
+        "id": 109950,
+        "title": "Sales Pioneer, North America",
+        "url": "https://www.ycombinator.com/companies/questdb/jobs/Te2LfsV-sales-pioneer-north-america",
+        "location": "New York, United States / Remote (New York, NY, US)",
+        "type": "Full-time",
+        "role": "Sales",
+        "role_type": null,
+        "salary_range": "$175K - $225K",
+        "equity_range": "0.25% - 0.40%",
+        "experience": "6+ years",
+        "visa": "US citizen/visa only",
+        "skills": []
+      },
+      {
+        "id": 109951,
+        "title": "Pre-Sales Engineer, North America",
+        "url": "https://www.ycombinator.com/companies/questdb/jobs/IPyIzny-pre-sales-engineer-north-america",
+        "location": "New York, United States / Remote (New York, NY, US)",
+        "type": "Full-time",
+        "role": "Sales",
+        "role_type": null,
+        "salary_range": "$150K - $210K",
+        "equity_range": "0.15% - 0.30%",
+        "experience": "3+ years",
+        "visa": "US citizen/visa only",
+        "skills": []
+      }
+    ],
+    "news": [
+      {
+        "title": "QuestDB snares $12M Series A with hosted version coming soon – TechCrunch",
+        "url": "https://techcrunch.com/2021/11/03/questdb-snares-12m-series-a-with-hosted-version-on-the-horizon/",
+        "date": "Nov 03, 2021"
+      }
+    ],
+    "launches": [
+      {
+        "id": 72748,
+        "title": "QuestDB - Purpose built database for financial market data",
+        "tagline": "High speed ingestion, millisecond queries, and open formats.",
+        "body": "### TL;DR\n\n[QuestDB Enterprise](https://questdb.io/enterprise) is now Generally Available. Everything from high-performance QuestDB Open Source, with advanced security and access features. Scale the globe with multi-primary writes and highly-available fault tolerance. Tiered storage and open formats, with Parquet files stored on Azure Blow or AWS S3.\n\n[Try the QuestDB Live Demo](https://demo.questdb.io/) with billions of rows!\n\nQuestDB Bring Your Own Cloud is now in Beta. We’ll announce GA in the coming months.\n\n![uploaded image](/media/?type=post&id=72748&key=user_uploads/432980/3963b213-4696-40ad-8e23-69cb912138d5)\n\n### The Problem\n\nExisting time-series databases lack performance and store data in their proprietary format, leading to vendor lock-in.\n\nNone is tailored for financial market data, which requires low-latency ingestion protocols, fast queries, and a dedicated set of features and functions.\n\n### The Solution\n\n**How does it work?**\n\nQuestDB is built from scratch for time series and financial market data. The data is natively indexed by timestamp and partitioned by time. Queries are multi-threaded and heavily optimized, leveraging modern CPU instructions (SIMD). QuestDB's ingestion speed can reach up to 4M rows/sec per instance.\n\nVendor lock-in is avoided since historical data is automatically transformed into Parquet format and stored on Object Store. QuestDB Enterprise can query real-time data and historical data seamlessly.\n\n![uploaded image](/media/?type=post&id=72748&key=user_uploads/432980/d26f7093-036a-41f3-9775-b19dff3c3cba)\n\nFeatures that make QuestDB the best fit for trading/crypto applications include:\n\n* Data deduplication that does not slow down ingestion\n* Materialized Views (can be cascaded and chained)\n* Native financial functions (vwap, order book fills, spread, weighted mid price etc…)\n* Data compression with ZFS and Parquet\n* Arrays to store order books (coming soon!)\n* Apache Arrow (ADBC) for data scientists (coming soon!)\n* Supports Postgres Wire and InfluxDB Line Protocol\n\n# Production Deployments & Flagship Customers\n\nOKX, B3 Exchange, Aquis Exchange (SIX Exchange), Mizuho Bank, Nomura (Laser Digital), One Trading, Energetech, AsiaNext, Airtel, XRP Ledger, Airbus, ABL Space Systems, Welwing Capital, Norlys Energy Trading, Beeks Group",
+        "url": "https://www.ycombinator.com/launches/IvM-questdb-purpose-built-database-for-financial-market-data",
+        "votes": 31,
+        "created_at": "2023-07-04T15:26:19.935Z"
+      }
+    ]
+  },
+  {
+    "id": 32484,
+    "name": "EdotEnv",
+    "slug": "edotenv",
+    "former_names": [],
+    "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/a53586c9aacc3d5c0003f5bde0beb3535a3613f6.png",
+    "website": "https://edotenv.com",
+    "all_locations": "San Francisco, CA, USA",
+    "long_description": "A Quant Neolab building toward RSI by leveraging markets as self-improving research environments.\r\n\r\nThey work with frontier AI labs and academic groups building research harnesses, evaluation benchmarks, and post-training environments.\r\n",
+    "one_liner": "Quant Neolab building self-improving agents from quant data",
+    "team_size": 2,
+    "industry": "B2B",
+    "subindustry": "B2B",
+    "launched_at": 1786503507,
+    "tags": [
+      "Reinforcement Learning",
+      "Time Series"
+    ],
+    "tags_highlighted": [],
+    "top_company": false,
+    "isHiring": false,
+    "nonprofit": false,
+    "batch": "Summer 2026",
+    "status": "Active",
+    "industries": [
+      "B2B"
+    ],
+    "regions": [
+      "United States of America",
+      "America / Canada"
+    ],
+    "stage": "Early",
+    "app_video_public": false,
+    "demo_day_video_public": false,
+    "app_answers": null,
+    "question_answers": null,
+    "url": "https://www.ycombinator.com/companies/edotenv",
+    "api": "https://devasheeshg.github.io/yc-api/batches/summer-2026/edotenv.json",
+    "year_founded": 2026,
+    "city": "San Francisco",
+    "country": "US",
+    "linkedin_url": "",
+    "x_url": "",
+    "fb_url": null,
+    "cb_url": null,
+    "github_url": null,
+    "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/a53586c9aacc3d5c0003f5bde0beb3535a3613f6.png",
+    "app_video_url": null,
+    "dday_video_url": null,
+    "company_photos": [],
+    "primary_partner": {
+      "name": "Jared Friedman",
+      "url": "https://www.ycombinator.com/people/jared-friedman"
+    },
+    "founders": [
+      {
+        "user_id": 2622651,
+        "full_name": "Rui Wang",
+        "title": "Founder/CEO",
+        "founder_bio": "I am Rui (pronounced \"ray\" like the fish). CEO of EdotEnv, a quant neolab making LLMs better at general research. We build environments, harnesses, and post-train models on quant-trading-inspired tasks. Ex-quant at G-Research. Applied Mathematics at ETH Zürich.",
+        "is_active": true,
+        "linkedin_url": "https://www.linkedin.com/in/rui-wang-456032198/",
+        "x_url": "https://x.com/RRicefan",
+        "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/c0681ade5300e908a4d3267d8ead62de1be2484e.jpg"
+      },
+      {
+        "user_id": 2995240,
+        "full_name": "Michael Zhang",
+        "title": "Founder/CTO",
+        "founder_bio": "CTO at EdotEnv, a quant neolab building toward RSI.\n\nPreviously@Etched: Designed LLM Inference System for SOHU chips\nPreviously@TransmarketGroup: Built automated high-frequency option trading strategies\n\nETH Zürich Alumni",
+        "is_active": true,
+        "linkedin_url": "https://www.linkedin.com/in/michael-zhang-845204232/",
+        "x_url": "https://x.com/Michaelz1914",
+        "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/01fb39f6e87e8fc6884b4a54b36981b4011bb42a.jpg"
+      }
+    ],
+    "jobs": [],
+    "news": [],
+    "launches": [
+      {
+        "id": 110398,
+        "title": "EdotEnv: Quant Neolab building towards RSI",
+        "tagline": "We turn markets into self-improving research environments for AI agents.",
+        "body": "EdotEnv (YC S26) is a Quant Neolab building toward RSI. They turn markets into self-improving research environments for AI agents.\n\nThe path to RSI is a continuous loop: agents conduct experiments, learn from the results, and autonomously become better at conducting the next round of research. For that loop to continue, each round must present a harder problem than the last.\n\nMarkets create this dynamic naturally. Every discovered inefficiency attracts competition, and every successful strategy makes future opportunities harder to find. Markets therefore provide an advancing frontier for self-improving agents.\n\nEdotEnv captures this process in multi-step environments where agents form hypotheses, design experiments, verify results and iterate. They use these environments to evaluate and post-train agents on increasingly difficult research tasks.\n\nThey work with frontier AI labs and academic groups building research harnesses, evaluation benchmarks, and post-training environments.\n\nEdotEnv's team previously worked in quantitative research at G-Research, high frequency options trading at TransMarket Group, and LLM inference research at Etched.\n\nIf you're working on RSI, RL, post-training, or AI for research, reach out to them at [info@edotenv.com](mailto:info@edotenv.com).\n\n![uploaded image](/media/?type=post&id=110398&key=user_uploads/89898/46b2eec2-b3c9-4467-b638-d9a51b2c39cd)\n\n",
+        "url": "https://www.ycombinator.com/launches/Sic-edotenv-quant-neolab-building-towards-rsi",
+        "votes": 4,
+        "created_at": "2026-08-13T21:30:00.360Z"
+      }
+    ]
+  }
+]

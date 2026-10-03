@@ -1,0 +1,94 @@
+{
+  "id": 30350,
+  "name": "TrainLoop",
+  "slug": "trainloop",
+  "former_names": [
+    "Phoenix"
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/4fad47355d59021d6d855bc4b2dc95cbc0ef2f1a.png",
+  "website": "http://trainloop.ai",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "TrainLoop makes it effortless for developers to supercharge LLM performance through reinforcement learning.",
+  "one_liner": "Reasoning Fine-Tuning",
+  "team_size": 6,
+  "industry": "B2B",
+  "subindustry": "B2B -> Engineering, Product and Design",
+  "launched_at": 1738700190,
+  "tags": [
+    "Developer Tools",
+    "Generative AI",
+    "Reinforcement Learning"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Winter 2025",
+  "status": "Active",
+  "industries": [
+    "B2B",
+    "Engineering, Product and Design"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/trainloop",
+  "api": "https://devasheeshg.github.io/yc-api/batches/winter-2025/trainloop.json",
+  "year_founded": 2025,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/trainloopai/",
+  "x_url": "https://x.com/TrainLoop_ai",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": "https://github.com/TrainLoop",
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/4fad47355d59021d6d855bc4b2dc95cbc0ef2f1a.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "David Lieb",
+    "url": "https://www.ycombinator.com/people/david-lieb"
+  },
+  "founders": [
+    {
+      "user_id": 1997228,
+      "full_name": "Jackson Stokes",
+      "title": "Founder/CEO",
+      "founder_bio": "Cofounder at TrainLoop, previously Google Gemini & AlphaFold performance ",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/jacksonstokes/",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/6830e129e7460fce6375e8137b2a667fbe01fa75.jpg"
+    },
+    {
+      "user_id": 681927,
+      "full_name": "Mason Pierce",
+      "title": "Founder/CTO",
+      "founder_bio": "My background is in applying AI models to business use-cases and have always found fine-tuning to be way harder than it should be - My mission is to unlock fine-tuning for all builders :)",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/malapier",
+      "x_url": "https://x.com/mlpierce22",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/e0708b326a808512f74417ba49da6268c9d5777f.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 87957,
+      "title": "TrainLoop: Unlock Next-Level Reasoning through Fine-Tuning",
+      "tagline": "Eliminate unwanted responses and match ideal outputs for your product. ",
+      "body": "# Unreliable RAG or code generation? We can help.\n\nReasoning models have been all the rage lately because they beat generic benchmarks. The problem is that your business isn’t a generic benchmark - it’s a set of specific vertical tasks like codegen, compliance, legal or healthcare. Massive companies like Google and OpenAI have internal tools to train their models, but those aren’t available to the people that need it: the developers deploying these models into production.\n\nWe’ve personally been involved on both sides: Jackson optimized the Gemini models at Google and Mason hit the limits of off shelf models while leading engineering at Second (YC W23).\n\nSo we created **TrainLoop**, packaging the same RL techniques big AI labs use into an accessible platform. Our process is three simple steps:\n\n1. **Data Curation:** Our lightweight SDK (just three lines of code) gathers training signals from actual usage.\n2. **Training:** We build a reward model that teaches your LLM what output you prefer.\n3. **Inference:** Deploy automatically and call your model via standard APIs.\n\n<https://youtu.be/XhbxHOzsxRE>\n\n# Ready to Level Up Your Model?\n\nIt’s time to move past “prompt-hell” and unreliable outputs. [**Join our alpha**](https://app.trainloop.ai/waitlist) to make your language model an expert in your business and unlock production-ready performance.",
+      "url": "https://www.ycombinator.com/launches/Msf-trainloop-unlock-next-level-reasoning-through-fine-tuning",
+      "votes": 32,
+      "created_at": "2025-02-24T16:02:19.658Z"
+    }
+  ]
+}

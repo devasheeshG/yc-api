@@ -1,0 +1,124 @@
+{
+  "id": 30775,
+  "name": "Fleetline",
+  "slug": "fleetline",
+  "former_names": [
+    "Axel AI"
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/8008d7d50f1ead47eae177bcede0c9d614312ad4.png",
+  "website": "https://fleetline.ai",
+  "all_locations": "New York City, NY, USA",
+  "long_description": "Fleetline is building the first complete-context algorithmic load planner for mid to large-sized trucking fleets. Today’s dispatchers face an overwhelming task: balancing regulations, customer demands, live fleet data, and individual driver needs, all while coordinating across siloed tools and teams. Mistakes run rampant, and each mistake is thousands of dollars. Even the select fleets using algorithms that have fleet-wide context struggle: the outputs are rigid, hard to interpret, and are blind to real-world nuances like driver preferences and schedule exceptions. Fleetline solves this by combining advanced optimization with LLMs that can easily adapt algorithms to each fleet’s needs and capture driver-specific information. The result is smarter planning truly optimized for every fleet and its drivers.",
+  "one_liner": "Optimizing fleet planning with data driven algorithms",
+  "team_size": 11,
+  "industry": "B2B",
+  "subindustry": "B2B -> Supply Chain and Logistics",
+  "launched_at": 1754335865,
+  "tags": [
+    "Artificial Intelligence",
+    "Logistics",
+    "Supply Chain",
+    "Data Science"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": true,
+  "nonprofit": false,
+  "batch": "Summer 2025",
+  "status": "Active",
+  "industries": [
+    "B2B",
+    "Supply Chain and Logistics"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/fleetline",
+  "api": "https://devasheeshg.github.io/yc-api/batches/summer-2025/fleetline.json",
+  "year_founded": 2025,
+  "city": "New York City",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/fleetlineai",
+  "x_url": "",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/8008d7d50f1ead47eae177bcede0c9d614312ad4.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Jared Friedman",
+    "url": "https://www.ycombinator.com/people/jared-friedman"
+  },
+  "founders": [
+    {
+      "user_id": 757578,
+      "full_name": "Saurav Kumar",
+      "title": "Founder/CEO",
+      "founder_bio": "Optimizing and automating dispatch ops @ Fleetline",
+      "is_active": true,
+      "linkedin_url": "https://linkedin.com/in/sauravml",
+      "x_url": "https://twitter.com/sauravml",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/39edd7839bf52e30dab32c05a547013c48aff70d.jpg"
+    },
+    {
+      "user_id": 2828390,
+      "full_name": "Veer Juneja",
+      "title": "Founder/COO",
+      "founder_bio": "Combining LLMs with traditional advanced optimization techniques to automate trucking dispatch operations. I studied philosophy @ USC. ",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/veer-juneja-67255417a/",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/fdc7a7c95b217654e469b590c4c9bbc9f06ba6a4.jpg"
+    }
+  ],
+  "jobs": [
+    {
+      "id": 85256,
+      "title": "Founding Engineer",
+      "url": "https://www.ycombinator.com/companies/fleetline/jobs/dVipAK8-founding-engineer",
+      "location": "New York, NY, US",
+      "type": "Full-time",
+      "role": "Engineering",
+      "role_type": "Full stack",
+      "salary_range": "$140K - $190K",
+      "equity_range": "0.50% - 1.00%",
+      "experience": "Any (new grads ok)",
+      "visa": "Will sponsor",
+      "skills": []
+    },
+    {
+      "id": 91065,
+      "title": "Founding Algorithm Developer",
+      "url": "https://www.ycombinator.com/companies/fleetline/jobs/az5DIjt-founding-algorithm-developer",
+      "location": "New York, NY, US",
+      "type": "Full-time",
+      "role": "Engineering",
+      "role_type": "Data science",
+      "salary_range": "$130 - $180",
+      "equity_range": "0.40% - 1.00%",
+      "experience": "Any (new grads ok)",
+      "visa": "US citizen/visa only",
+      "skills": []
+    }
+  ],
+  "news": [],
+  "launches": [
+    {
+      "id": 92822,
+      "title": "Fleetline 🚛 Optimizing Fleet Planning with Data Driven Algorithms",
+      "tagline": "Combining LLMs with advanced optimization to unlock algorithmic load planning for all fleets, in all situations ",
+      "body": "# TLDR:\n\nToday’s fleets are **stuck between two failing approaches to load planning**: human dispatchers drowning in complexity (driver preferences, regulatory constraints, shifting schedules, and more) or inflexible algorithms blind to tribal knowledge and driver nuance. We solve this by combining advanced optimization with LLMs that can adapt algorithms to deliver intelligent planning for real-world operations. \\\nhttps://youtu.be/9LHYILVw6ks\n\n# **💥 The problem:**\n\nPlanning just one week of routes for a 50-truck fleet involves **more possible combinations than there are grains of sand on Earth**. For humans, consistently piecing together reasonable combinations is difficult. Making optimal ones is impossible. Dispatchers juggle:\n\n* Regulatory constraints, like drivers’ hours of service\n* Complex forecasts, like considering the likelihood of receiving a load from a flaky customer\n* And human preferences, like a driver’s disdain for a specific commodity\n\nThis complexity forces fleets to effectively **silo their operations**—assigning each dispatcher a subset of trucks to manage. **Instead of coordinating as a cohesive operation, fleets become mini-operations, resulting in load mismatches and under-utilized capacity.** For a low-margin industry like trucking, those inefficiencies are the difference between making or missing payroll. \n\nIn response, some fleets have adopted expensive load planning algorithms. While these traditional solutions are a marginal improvement over manual work, they fail to meaningfully solve the problem. \n\nRigid algorithms operate like complete black boxes, often leaving dispatchers with a lack of confidence in their decisions. Deterministic algorithms cannot be responsive to the soft preferences of either the fleet or the driver. For example, dispatchers may have to reshuffle their planning board because an algorithm cannot optimize for a driver needing to be home early one day for his daughter’s recital. \n\nThat means the algorithm's recommendations are largely not followed or, if they are, drivers are left unhappy. With an active driver shortage, fleets can’t tolerate the latter. \n\nTrucking is a trillion-dollar industry, yet its biggest players have no good option for load planning. \n\n# **✅ The solution:**\n\n**Fleets no longer have to choose between two existentially threatening options with Fleetline.** By combining traditional advanced optimizations with LLMs, we created a solution that allows fleets to optimize their schedules while being adaptive to soft preferences and surprises. All users need to do is prompt our AI agent with any changes / added constraints to include in the optimization algorithm, and the load planning is re-done. \n\nFor example, if a driver at a fleet needs to make it back home by 2 PM on a given Tuesday to see his daughter’s recital, instead of manually scrambling the planning board, our AI agent can re-optimize around the new constraint. \n\nWe’re already working with large fleets in California and talking to others across the country.\n\n# **🏋️‍♂️ The team:**\n\nSaurav and Veer are lifelong friends who have been working on projects together since they were 14. Saurav graduated from UIUC and has worked at Icon, Meta, and Nvidia, and is a previous founder (Blast AI). Veer was pursuing his master’s at USC, was a nationally ranked high school and college debater, and is an exited founder. \n\nWe’re excited about building revolutionary tech for a trillion-dollar industry that is functionally the backbone of the country. \n\n# **📈 Vision:**\n\nA dynamic algorithm unlocked by LLMs will allow fleets of any size to find value in our optimization software. \n\n### **Our ask:**\n\nPlease let us know if you have any connections at all in the trucking or logistics space 🙂\\\nWould also love to talk to anyone who has built RL environments or dynamic programming algorithms at scale!\n\n\\\nContact us at [founders@fleetline.ai](mailto:founder@fleetline.ai) ",
+      "url": "https://www.ycombinator.com/launches/O98-fleetline-optimizing-fleet-planning-with-data-driven-algorithms",
+      "votes": 30,
+      "created_at": "2025-08-07T21:08:34.390Z"
+    }
+  ]
+}

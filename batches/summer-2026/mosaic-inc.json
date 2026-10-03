@@ -1,0 +1,92 @@
+{
+  "id": 32201,
+  "name": "Mosaic",
+  "slug": "mosaic-inc",
+  "former_names": [
+    "Synq Labs",
+    "Emergent Computing"
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/ccea1a14d9a796c8e8670b1aa85ebb489e030d7e.png",
+  "website": "https://mosaic.inc",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "Mosaic gives teams and their coding agents shared memory across every session, so everyone can understand what happened, why decisions were made, and pick up where someone else left off.\r\n\r\nWe started as a real-time coding environment where multiple people and their agents can work together live. It went viral, defined the multiplayer AI category, and inspired frontier labs like Anthropic.\r\n\r\nTogether, we’re building the infrastructure for people and agents to share context and work together.",
+  "one_liner": "Defining the frontier of multiplayer AI.",
+  "team_size": 2,
+  "industry": "B2B",
+  "subindustry": "B2B",
+  "launched_at": 1786309056,
+  "tags": [
+    "Artificial Intelligence"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Summer 2026",
+  "status": "Active",
+  "industries": [
+    "B2B"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/mosaic-inc",
+  "api": "https://devasheeshg.github.io/yc-api/batches/summer-2026/mosaic-inc.json",
+  "year_founded": 2026,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/124373945/",
+  "x_url": "https://x.com/mosaic_ide",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/ccea1a14d9a796c8e8670b1aa85ebb489e030d7e.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Tyler Bosmeny",
+    "url": "https://www.ycombinator.com/people/tyler-bosmeny"
+  },
+  "founders": [
+    {
+      "user_id": 1249641,
+      "full_name": "Shubham Patil",
+      "title": "Founder",
+      "founder_bio": "Co-Founder @ Mosaic",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/shubhampatilsd/",
+      "x_url": "https://x.com/shubhampatilsd",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/c818f32b76cdff4a81379a63c094a3d000adc530.jpg"
+    },
+    {
+      "user_id": 2918134,
+      "full_name": "Dorsa Rohani",
+      "title": "Founder",
+      "founder_bio": "Co-Founder @ Mosaic | NVIDIA, University of Toronto",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/dorsarohani/",
+      "x_url": "https://x.com/dorsa_rohani",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/a0468f97f1dd1a1dfff6cfcb46a74e7a6f74a676.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 111682,
+      "title": "Mosaic — Shared memory for your team's agents",
+      "tagline": "Sync all your teams' AI agent sessions, in one place.",
+      "body": "**TL;DR**\n\nYour team is running dozens of agents and not one of them knows what the others did. [Mosaic](https://mosaic.inc/) syncs every AI session your team runs - Claude Code, Codex, Cursor and more - into one shared place that any agent can use. \\~2,000 installs and 37 orgs actively syncing.\\\n\\\nIt started as a real-time coding environment where multiple people and their agents work together. We [**went viral**](https://x.com/dorsa_rohani/status/2074963064231952832?s=20), defined the multiplayer AI category, and this direction has since taken off: YC added multiplayer AI to its Request for Startups, and [Anthropic is validating](https://x.com/ClaudeDevs/status/2085817074816070014) the same direction. Then we took the feature users found most valuable — centralized agent sessions — and built the product around it, continuing to lead the category ever since.\\\n\\\nIDE Demo: <https://youtu.be/SQywbNRe2xk>\\\n\\\nAgent session sync demo: <https://youtu.be/QVzn-1vzpsY>\n\n### **The problem**\n\nEvery coding agent session starts from zero. No memory of what happened last session, why a decision was made, or where the last person stopped. Agents run in isolation, so the only handoff between them is ad-hoc glue that breaks the moment a team adds more agents. Teammates constantly redo work they can't see.\n\n**Mosaic** keeps the record of every agent session — what was tried, what changed, and why — and carries it from one session and one teammate to the next. Any teammate or agent picks up exactly where someone else left off instead of starting over.\n\nAs a whole, we believe the way people are thinking about multi-agent systems is wrong, and our direction is being validated in real time. Most systems copy the human org chart — specialized agents passing messages — but that structure only exists because humans can't share memory; the real unit isn't the agent, it's one shared context store every agent reads from and writes to. [Read our memo here](https://mosaic.inc/blog/memo).\n\n![uploaded image](/media/?type=post&id=111682&key=user_uploads/2918134/f7913654-964e-4579-9f66-45d531e3b009)\n\n### Who we are\n\nWe're two engineers who built and deployed multi-agent systems and hit this exact wall every time.\n\n\\- **Dorsa:** worked on frontier ML @ NVIDIA, Tenstorrent and Deep Genomics. A Transformer implementation of hers has [2,400+ stars](https://github.com/DorsaRoh/Machine-Learning) on Github. 11-time hackathon winner and one of Major League Hacking’s youngest [Top 50 Hackers](https://top.mlh.com/2023/profiles/dorsa-rohani) out of 150,000+ hackers worldwide.\n\n\\- **Shubham:** founding engineer @ Beem building multi-agent systems that reason over human intent. A serial hacker at heart, he reverse-engineered 70 campus kiosks at UCSD and chained their compute into a working distributed cloud platform.\n\n### **Our ask**\n\n* **Run multiple coding agents on your team? Try Mosaic and tell us what breaks!**\n* **Intros** to engineering teams where every developer already runs their own agent.\n* Reach us directly: [contact@mosaic.inc](https://mosaic.inc/)\n\nWe built Mosaic because we kept facing this problem ourselves. If you're living it too, we'd love to hear from you.",
+      "url": "https://www.ycombinator.com/launches/T3K-mosaic-shared-memory-for-your-team-s-agents",
+      "votes": 8,
+      "created_at": "2026-08-24T14:30:00.125Z"
+    }
+  ]
+}

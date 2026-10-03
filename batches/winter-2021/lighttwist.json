@@ -1,0 +1,84 @@
+{
+  "id": 22969,
+  "name": "LightTwist",
+  "slug": "lighttwist",
+  "former_names": [],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/f8ec12fb14b1244b971c7c93d53e48145c568d22.png",
+  "website": "https://lighttwist.com",
+  "all_locations": "Denver, CO, USA; Remote",
+  "long_description": "LightTwist let you record and stream your show in a realistic virtual studio, even if your guests and co-hosts are remote. All you need is a camera, a browser, and LightTwist.",
+  "one_liner": "Realistic virtual video studio to record and stream from your browser",
+  "team_size": 2,
+  "industry": "B2B",
+  "subindustry": "B2B -> Engineering, Product and Design",
+  "launched_at": 1616254222,
+  "tags": [
+    "Augmented Reality",
+    "Computer Vision",
+    "Design Tools"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Winter 2021",
+  "status": "Active",
+  "industries": [
+    "B2B",
+    "Engineering, Product and Design"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada",
+    "Remote",
+    "Fully Remote"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/lighttwist",
+  "api": "https://devasheeshg.github.io/yc-api/batches/winter-2021/lighttwist.json",
+  "year_founded": 2021,
+  "city": "Denver",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/lighttwist",
+  "x_url": "https://twitter.com/lighttwistapp",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/f8ec12fb14b1244b971c7c93d53e48145c568d22.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Garry Tan",
+    "url": "https://www.ycombinator.com/people/garry-tan"
+  },
+  "founders": [
+    {
+      "user_id": 553876,
+      "full_name": "Vikas Reddy",
+      "title": "Founder",
+      "founder_bio": "Vikas is the Founder and CEO of LightTwist. Prior to LightTwist, he was co-founder of RedLaser (barcode scanning price comparison app, acquired by eBay in 2010), and co-founder of computer vision startup Occipital where he built products like Structure Sensor and Canvas.\n\nHe graduated from the University of Michigan with a degree in Computer Science Engineering.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/vikasreddy/",
+      "x_url": "https://twitter.com/vikasreddy",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/96f32a7162210b0d720f24fbcdcced606a30e9bd.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 104358,
+      "title": "LightTwist - Record and stream in a realistic virtual studio, even if your guests and co-hosts are remote",
+      "tagline": "A virtual video studio that runs in Chrome",
+      "body": "Hi friends! Vikas here from LightTwist, excited to share our new launch!\n\n**Check out our 45 second launch video here**:[ https://www.youtube.com/watch?v=fYGvhRrOXBI](https://www.youtube.com/watch?v=fYGvhRrOXBI)\n\n**TL;DR:** LightTwist lets you record and stream in a realistic virtual studio, even if your guests and co-hosts are remote.\n\n**The problem**: Your video/podcast/webinar looks like a boring Zoom call. If you want to upgrade to something that looks like a real show you need to build out a physical video studio and bring people into it.\n\n**The solution:** LightTwist is a virtual video studio that runs in Chrome - all the heavy compute is done in the cloud using realtime computer vision, Unreal Engine 5, and WebRTC. This means you can record and stream your show, product announcement, or webinar in a realistic virtual studio, even if your guests and co-hosts are remote.\n\n**We’re launching publicly next week, July 1 at 9 am PT but wanted to give early access to YC!**\n\n**Launch YC special offer 1 (up to 10 spots) - Buy a Show!** Purchase [here](https://buy.stripe.com/9B6aEY7YX0Iv0Bo6Xz5c40b)\n\n* We’ll record and produce your WWDC style product announcement or podcast/YouTube show episode for $500.\n* Includes customized virtual studio with your branding and 2 months of LightTwist Studio.\n* We’re experimenting with a full service product which is why we’re offering this on Launch YC!\n\n**YC special offer 2 - 90% off LightTwist for 2 months!** Sign up [here](https://studio.lighttwist.com/onboarding/9996d28e-75a0-476b-ad7b-621d43200f95) (use promo code **LAUNCHYC2026**)\n\n* You can sign up, pick from a studio template and start recording or streaming.\n* I’ll personally help you get your studio set up! I’ll email you after you sign up to set up a time\n\n**Ask:** If there’s a creator or company you think would be a great fit, please let me know or have them email me at [vikas@lighttwist.com](mailto:vikas@lighttwist.com) !\n\n**How we got here:**\n\nI started LightTwist in 2021 after seeing how Industrial Light and Magic built a huge 360 surround stage for the Mandalorian show where they had a tracked camera and rendered the scene in realtime using Unreal Engine.\n\nI’ve started a few computer vision companies (RedLaser, a barcode scanning price comparison app -[acquired by eBay](https://www.wsj.com/articles/BL-DGB-15645), [Twindo.com](http://Twindo.com) - FKA Occipital), so I thought there had to be a way to make virtual production much more accessible using computer vision and software engineering.\n\nWe’ve gone through several iterations, started as an iOS app for filmmakers, built a macOS app to be an awesome virtual camera for Zoom/etc, but have gotten a lot more traction once we positioned LightTwist as a virtual video studio and rebuilt it to run in the cloud.\n\nWe’ve signed an enterprise customer using LightTwist to power their video streaming platform (not yet announced!), and we’ve been iterating with other creators and studios including building a gameshow for Jimmy Fallon’s video production company.\n\nWe’re excited to be rolling this out publicly!\n\n![uploaded image](/media/?type=post&id=104358&key=user_uploads/553876/8b670e29-4613-40a1-bfca-92be5d46d938)\n\n**Launch video here**: [**https://www.youtube.com/watch?v=fYGvhRrOXBI**](https://www.youtube.com/watch?v=fYGvhRrOXBI)",
+      "url": "https://www.ycombinator.com/launches/R9C-lighttwist-record-and-stream-in-a-realistic-virtual-studio-even-if-your-guests-and-co-hosts-are-remote",
+      "votes": 6,
+      "created_at": "2026-06-30T22:21:55.751Z"
+    }
+  ]
+}

@@ -1,0 +1,162 @@
+{
+  "id": 26793,
+  "name": "Windmill",
+  "slug": "windmill",
+  "former_names": [
+    "Windmill.dev"
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/65ba001ab4d9a51e57b2d599e1b3c910c0a39b01.png",
+  "website": "https://windmill.dev",
+  "all_locations": "Paris, Île-de-France, France",
+  "long_description": "Windmill is an open-source developer platform that turns scripts into workflows, internal tools, and full-stack apps.\r\n\r\nWrite scripts in Python, TypeScript, Go, Bash, Rust, SQL - Windmill auto-generates UIs from their parameters, handles dependencies, credentials, permissions, and scheduling so you focus on business logic, not infra.\r\n                                                                                     \r\nOpen-source alternative to Airflow, Temporal, Retool and n8n. Chain scripts into flows with branching, parallelism, retries. Build dashboards with the app builder. Trigger via cron, webhook, or UI. All-in-one runtime, editor, secret manager, and OAuth platform - enterprise-ready out of the box.\r\n                                                                                                                            \r\nStack: Rust / TypeScript + Svelte / PostgreSQL. Self-hostable, easy to deploy, built for performance and DX.",
+  "one_liner": "Open-source platform to turn scripts into internal apps & workflows",
+  "team_size": 7,
+  "industry": "B2B",
+  "subindustry": "B2B -> Infrastructure",
+  "launched_at": 1651798285,
+  "tags": [
+    "Developer Tools",
+    "SaaS",
+    "B2B",
+    "Workflow Automation",
+    "Open Source"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": true,
+  "nonprofit": false,
+  "batch": "Summer 2022",
+  "status": "Active",
+  "industries": [
+    "B2B",
+    "Infrastructure"
+  ],
+  "regions": [
+    "France",
+    "Europe",
+    "Remote",
+    "Partly Remote"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/windmill",
+  "api": "https://devasheeshg.github.io/yc-api/batches/summer-2022/windmill.json",
+  "year_founded": 2022,
+  "city": "Paris",
+  "country": "FR",
+  "linkedin_url": "https://www.linkedin.com/company/windmill-dev",
+  "x_url": "https://x.com/WindmillDev",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": "https://github.com/windmill-labs/windmill",
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/65ba001ab4d9a51e57b2d599e1b3c910c0a39b01.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [
+    "https://bookface-images.s3.us-west-2.amazonaws.com/attachments/8bae564e0c7ca477efb46466f76a9b96d0a3e84f.png"
+  ],
+  "primary_partner": {
+    "name": "Nicolas Dessaigne",
+    "url": "https://www.ycombinator.com/people/nicolas-dessaigne"
+  },
+  "founders": [
+    {
+      "user_id": 229730,
+      "full_name": "Ruben Fiszel",
+      "title": "Founder",
+      "founder_bio": "Ruben was top of his class MSc in CS at EPFL, did research on compilers from Scala to Hardware at Stanford, built the first open-source library for reinforcement learning for Java, , built distributed systems at scale at Palantir and ran the engineering team at a Multi-Party Computation startup. He is now building Windmill, an  open-source alternative to Retool, Pipedream, Airplane that contains the infra to run it and that you can deploy at scale.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/rubenfiszel/",
+      "x_url": null,
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/c8fbc73c8ea02cf3ca30ba2ae9aa7e3ab94e9df6.jpg"
+    }
+  ],
+  "jobs": [
+    {
+      "id": 93196,
+      "title": "Distributed Systems Engineer",
+      "url": "https://www.ycombinator.com/companies/windmill/jobs/HVVT6HN-distributed-systems-engineer",
+      "location": "Paris, IDF, FR / Paris, Île-de-France, FR / Remote (FR)",
+      "type": "Full-time",
+      "role": "Engineering",
+      "role_type": "Backend",
+      "salary_range": "€60K - €90K EUR",
+      "equity_range": "",
+      "experience": "3+ years",
+      "visa": "US citizenship/visa not required",
+      "skills": [
+        "PostgreSQL",
+        "Rust",
+        "TypeScript",
+        "Distributed Systems",
+        "Docker"
+      ]
+    },
+    {
+      "id": 93197,
+      "title": "Founding SDR",
+      "url": "https://www.ycombinator.com/companies/windmill/jobs/4swi05r-founding-sdr",
+      "location": "FR / Remote (FR; US)",
+      "type": "Full-time",
+      "role": "Sales",
+      "role_type": null,
+      "salary_range": "$50K - $100K",
+      "equity_range": "",
+      "experience": "1+ years",
+      "visa": "Will sponsor",
+      "skills": []
+    },
+    {
+      "id": 93198,
+      "title": "DevTool Growth Lead",
+      "url": "https://www.ycombinator.com/companies/windmill/jobs/t7ToQBK-devtool-growth-lead",
+      "location": "Paris, IDF, FR / Paris, Île-de-France, FR / Remote (FR)",
+      "type": "Full-time",
+      "role": "Marketing",
+      "role_type": null,
+      "salary_range": "€40K - €80K EUR",
+      "equity_range": "",
+      "experience": "Any (new grads ok)",
+      "visa": "US citizenship/visa not required",
+      "skills": [
+        "Branding",
+        "Growth design"
+      ]
+    },
+    {
+      "id": 93199,
+      "title": "Product Software Engineer",
+      "url": "https://www.ycombinator.com/companies/windmill/jobs/aXpL7BC-product-software-engineer",
+      "location": "Paris, IDF, FR / Paris, Île-de-France, FR / Remote (FR)",
+      "type": "Full-time",
+      "role": "Product",
+      "role_type": null,
+      "salary_range": "€50K - €90K EUR",
+      "equity_range": "",
+      "experience": "Any (new grads ok)",
+      "visa": "US citizenship/visa not required",
+      "skills": [
+        "CSS",
+        "Git",
+        "PostgreSQL",
+        "TypeScript",
+        "Svelte"
+      ]
+    }
+  ],
+  "news": [],
+  "launches": [
+    {
+      "id": 65264,
+      "title": "Windmill: Turn scripts into internal apps and workflows",
+      "tagline": "Fully open-source developer platform to turn any python, typescript, SQL into internal apps, integrations and workflows",
+      "body": "## Developer platform for APIs, background jobs, workflows and UIs\n\nWindmill is an open-source developer platform to quickly build production-grade internal apps, workflows and integrations from scripts in Python, Typescript, Go, Bash, SQL.\n\nOpen-source alternative to Airplane and Pipedream. Simplified Temporal with automatic app generation. Usable as a self-hosted AWS Lambda.\n\nSync your scripts from your GitHub repo or write them directly on Windmill, have them be converted to apps and no-code modules automatically. Use those apps as standalone (triggered on demand, by webhook or schedule) or build powerful flows using those scripts. The experience is similar to no-code tools except that at any point, any module can have its code inspected and tweaked. Leveraging the open-source community, we will build an exhaustive library of scripts for all APIs and generic tasks on [hub.windmill.dev](https://hub.windmill.dev/).\n\nYou may also wrap Windmill with your own frontend to provide automation as a feature on top of your own SaaS.\n\nFocus on your business logic for all kind of flows, Windmill is the platform to build, share and run them.\n\n## Active Founders\n\n**Ruben Fiszel**\n\nRuben was top of his class MSc in CS at EPFL, did research on compilers from Scala to Hardware at Stanford, built the first open-source library for reinforcement learning for Java, built distributed systems at scale at Palantir and ran the engineering team at a Multi-Party Computation startup. He is now building Windmill, an open-source alternative to Retool, Pipedream, Airplane that contains the infra to run it and that you can deploy at scale.\n\n### The sweet spot between low-code and code from scratch\n\n### Open-source and self-hostable alternative to Pipedream and Airplane. Simplified Temporal\n\nTo build internal apps for ops, integrations between services that cannot talk to each other directly, or to run background jobs that run your business logic and analytics, the two main options today are no-code solutions and old-fashioned, roll-your-own scripting. Both have problems, and our goal with Windmill is to find a new sweet spot between the two. No-code solutions are productive _if_ your problem matches the tool exactly - but if not, they are rigid, hard to extend and quickly become tech debt, annihilating their initial time advantage. Indeed, no-code is just code but made by an opinionated someone else and hidden as a blackbox with an UI.\n\nThe alternative is to do it the old-fashioned way, writing everything from scratch, both backend and frontend, perhaps deploying it on the latest flavor of serverless, and pray to never have to touch it again because that took way too much time and it has now became a burden that the ops and business team might poke you about regularly.\n\nFurthermore, the landscape of SaaS is specialized tools for everything—alerting, data analytics, administration panels, support management, integration between services—when it feels like a few scripts and some SQL would have been as good or even better and spared you the need of depending on one yet another tool. This could be even further facilitated if there was a way to import the right bunch of scripts from a fellow community of engineers, tweak it and deploy it like you can do in communities where automation can be shared as simple JSON files, for instance in the node-red or home assistant community… That’s the idea of Windmill: to bring back the power of scripting in an easy but high-scale production-grade way.\n\n## What are good use cases for Windmill\n\n1\\. The biggest pain we solve is to turn scripts that you would run on your own laptop as internal apps that you can share with your team.\n\n2\\. Avoid SQL queries to production in favor of templatized SQL made into apps instead (automatically!). Making live SQL queries is common in DevOps, support and ops in general. It can be very error-prone, stressful and inconvenient.\n\n3\\. Integrations between tools you already use but that are unable to talk to each other.\n\n4\\. Workflows, background jobs: code that runs very frequently to react to new events, transform data and run your business logic. Many companies are a frontend on top of a database, and that database is updated in the background. We make it possible to build those workflows from simple scripts so that you can build it faster, more reliable and easier to maintain.\n\n5\\. The last one only apply if you are a SaaS that wants to provide automation as a feature of your product, or a no-code tools yourself. Because we focused very much on the hard-engineering of orchestration and specs for workflows, you might simply want to wrap Windmill to offer it to your own clients.\n\n### Where is the catch, how do you make money\n\nWe make money from support, dual licensing of commercial licenses (for SaaS wrapping Windmill or for clients requiring it) and the hosted solution. On self-hosted, our Enterprise plan embedds:\n\n* SLA & Priority Support 24/7\n* Design partners for roadmap (priority on feature requests)\n* Enterprise-specific features (Audit logs, Distributed dependency cache backed by S3, SAML support etc.)\n\nWe are workflows experts and would be happy to support you to transition to clean code working on open-source software.\n\nYou can however self-host it for free forever as long as you do not go against the AGPL license (keep open-source or do not provide it as your service).\n\n![uploaded image](/media/?type=post&id=65264&key=user_uploads/229730/0fe6dab5-5378-4e2e-ad66-930378bbe8ac)\n\n![uploaded image](/media/?type=post&id=65264&key=user_uploads/229730/5d176de7-2303-49de-adb4-9bb98c559506)\n\n![uploaded image](/media/?type=post&id=65264&key=user_uploads/229730/e1d39016-bd36-4241-b0df-a5f7799ef4f5)\n\n**Docs:** [https://windmill.dev](https://windmill.dev/)\n\n**Hosted app:** [https://app.windmill.dev](https://app.windmill.dev/)\n\n**Self-host (star us!):** <https://github.com/windmill-labs/windmill#how-to-self-host>\n\n**Discord to chat with the team/community:** <https://discord.com/invite/V7PM2YHsPB>\n\n**Schedule a demo:** <https://www.windmill.dev/book-demo>\n\n**Windmill on HackerNews:**\n\n* [Aug 9 2022, HN Launch](https://news.ycombinator.com/item?id=32400849)\n* [May 12 2023, Before v2](https://news.ycombinator.com/item?id=35920082)\n* [Nov 22 2023, Why Windmill is the fastest self-hostable workflow engine?](https://news.ycombinator.com/item?id=38383138)",
+      "url": "https://www.ycombinator.com/launches/Gye-windmill-turn-scripts-into-internal-apps-and-workflows",
+      "votes": 17,
+      "created_at": "2022-08-10T13:00:24.836Z"
+    }
+  ]
+}

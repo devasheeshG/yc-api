@@ -1,0 +1,101 @@
+{
+  "id": 29277,
+  "name": "Basalt",
+  "slug": "basalt",
+  "former_names": [
+    "Basalt Tech"
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/bdc6db574181bc5f564f9fcdee3e3a8f66a68b75.png",
+  "website": "https://basalt.space/",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "Basalt is building Constellations as a Service, self-flying satellite constellations tailored for private enterprise and the government without any prior aerospace experience needed! Powered by our Diamond AI, Basalt provides a seamless experience, enabling users to fly and stream data and images from their own dedicated satellite constellation onto their phones and laptops.  \r\n\r\nBasalt received its seed investment as part of the Y Combinator W24 batch, and has since launched Spirit-EEL, the world's first AI-controlled satellite constellation.",
+  "one_liner": "Constellations as a Service",
+  "team_size": 10,
+  "industry": "Industrials",
+  "subindustry": "Industrials -> Aviation and Space",
+  "launched_at": 1706583323,
+  "tags": [
+    "Satellites",
+    "Aerospace",
+    "Automation",
+    "Defense",
+    "AI"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Winter 2024",
+  "status": "Active",
+  "industries": [
+    "Industrials",
+    "Aviation and Space"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada",
+    "Remote",
+    "Partly Remote"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/basalt",
+  "api": "https://devasheeshg.github.io/yc-api/batches/winter-2024/basalt.json",
+  "year_founded": 2023,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/basaltspace",
+  "x_url": "https://x.com/basaltspace",
+  "fb_url": "https://www.instagram.com/basaltspace/",
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/bdc6db574181bc5f564f9fcdee3e3a8f66a68b75.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [
+    "https://bookface-images.s3.us-west-2.amazonaws.com/attachments/9482e25ecc0eac97d7c8dc02f03c47fe3739d9d0.png"
+  ],
+  "primary_partner": {
+    "name": "Tyler Bosmeny",
+    "url": "https://www.ycombinator.com/people/tyler-bosmeny"
+  },
+  "founders": [
+    {
+      "user_id": 1408579,
+      "full_name": "Maximillian Bhatti",
+      "title": "Founder/CEO",
+      "founder_bio": "CEO & Co-Founder of Basalt    //    I was working at Caltech’s fusion lab when I was hired out of high school to work at MIT AeroAstro on their CubeSat mission.\n\nSince then, I’ve spent stints at The Aerospace Corporation and SpaceX working on distributed space systems and the American moon landing. Most recently, I dropped out to build Basalt. My hobbies include hiking and buying infinite whiteboards.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/maximillian-bhatti/",
+      "x_url": "https://x.com/basaltceo",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/fa5c88bf380ea1ee2c488803a898e62d87b310be.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [
+    {
+      "title": "Basalt Space and Bay Area Rivals Aim to End Starlink's Constellation Monopoly",
+      "url": "https://spacedaily.com/sd-n-basalt-space-and-bay-area-rivals-aim-to-end-starlinks-constellation-monopoly/",
+      "date": "May 05, 2026"
+    },
+    {
+      "title": "Welcome to the Great American Satellite Age | WIRED",
+      "url": "https://www.wired.com/story/welcome-to-the-great-american-satellite-age/",
+      "date": "May 04, 2026"
+    }
+  ],
+  "launches": [
+    {
+      "id": 79293,
+      "title": "Basalt Tech - Windows for Spacecraft",
+      "tagline": "Building the world’s first satellite operating system.",
+      "body": "<https://basalt.space>\n\n# **Windows for Spacecraft: Basalt Dispatch**\n\n![uploaded image](/media/?type=post&id=79293&key=user_uploads/1408579/b881339f-9903-4801-ada1-3aad37a29dd9)\n\n_Fig 1. - Dispatch simulation engine based on open source NASA code. The graphics have room for improvement!_\n\n**Dispatch** is the first satellite OS. It provides a common software infrastructure to allows fleets of dissimilar satellites to work together:\n\n* **Tasking**: Image geographic areas in visible, infrared, or radar.\n* **Radio and Telecom:** Manage in-orbit networks and signals intelligence collection.\n* **Orbital Security**: Monitor and inspect other space assets.\n\nNew or external software modules can also easily be integrated, rather than being rewritten for each individual satellite. \n\nThere are over 65,000 satellites licensed to be launched by 2030. That’s over $100B of assets whose value comes from the bytes of data they send down. Right now, that data pipeline includes email, whiteboards, and Excel.\n\n**Dispatch is here to change that, and bring autonomy into orbit, for every mission.**\n\n### **Background**\n\nFlight operations still rely on manual processes and highly custom software. While this is acceptable for single, high-value missions, the need to manage large, flexible satellite fleets challenges that status quo.\n\n![uploaded image](/media/?type=post&id=79293&key=user_uploads/1408579/d4de8161-592c-4be8-93fa-852119b3f0da)\n\n_Fig 2 - ESA Visualization of active and defunct satellites around Earth._\n\nThis type of modular software infrastructure has been implemented in-house before, usually on specific hardware. (Think individual custom OS’s before Windows.)\n\nRight now, there is no solution for space companies or government agencies other than to take on massive in-house development, or scale up their operations staff. This is the story we’ve heard over and over talking to flight directors and CEOs.\n\n**The innovation Dispatch brings is its universality - Dispatch allows this functionality to be brought to any space asset out-of-the-box.**\n\n### **Recent Progress**\n\n![uploaded image](/media/?type=post&id=79293&key=user_uploads/1408579/3e274d18-5163-4a31-aaff-cd4862d8b753)\n\n_Fig 3 - Alex and Max at the National University of Singapore. We are beginning an effort to revive one of their satellites with our software._\n\nOne month ago we wrote our first line of code. Today, after 2 weeks of travel, we have kicked off collaborations with some of the leading space systems institutions around the globe.\n\n* **Massachusetts Institute of Technology (MIT), United States**\n  * Industry presence in MIT AeroAstro’s Space Systems class, which trains the next generation of space engineers.\n  * Integration of MIT flight operations applications into OS.\n  * Ongoing collaboration with STAR Lab missions.\n* **University of Toronto, Canada**\n  * Project to revive HERON MkII on-orbit.\n  * Collaboration on software stacks for HERON and FINCH missions.\n* **National University of Singapore, Singapore**\n  * Project to revive Galassia-2 on-orbit.\n  * Operations and teaching software for STAR Centre missions and classes.\n* **Aarhus University, Denmark**\n  * Project to revive DISCO-1 on-orbit.\n  * Collaboration on operations software integrations for DISCO-2 and 3 missions.\n\nWe have a line of university space programs around the world waiting to talk to us, but had to pause for fundraising in San Francisco.\n\n**Just a handful of academic space programs function as the source of almost all engineering talent in the space industry.** These collaborations are invaluable for our journey towards product-market fit, and provide a platform to gain flight heritage for Basalt.\n\n### **About Us**\n\nIn 2020, [Alex](https://www.linkedin.com/in/alex-choi/) hired a 17-year old [Max](https://linkedin.com/in/maximillian-bhatti-1a9806266) to fix broken satellite radios in the back shed of a Los Angeles dentistry.\n\nOver the next few months, the duo would assemble a crack team of engineers in LA and Cambridge to bring MIT’s CubeSat program back to life. Six months later, the completed satellite was being integrated into the rocket for launch.\n\nWe have been close friends ever since, and have worked in research, commercial, and government space.\n\n### **Asks**\n\nCheck out our [website](https://basalt.space/)!\n\nInterested in how we can help streamline your mission? Set up a [meeting](https://basalt.space/contact).\n\nIf you’re in the govt. or commercial space industry, tell us what you’d like to see!\n\n* Reach out to: [founders@basalt.space](mailto:founders@basalt.space)\n* Phone number: (415) 385-7136",
+      "url": "https://www.ycombinator.com/launches/Kcv-basalt-tech-windows-for-spacecraft",
+      "votes": 15,
+      "created_at": "2024-03-12T13:30:27.452Z"
+    }
+  ]
+}

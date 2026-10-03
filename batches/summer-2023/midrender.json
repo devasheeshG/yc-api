@@ -1,0 +1,102 @@
+{
+  "id": 28930,
+  "name": "Midrender",
+  "slug": "midrender",
+  "former_names": [
+    "Haven",
+    "Revideo"
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/ae8f20158b0233edf45f926bd2ba47a325fa7fd6.png",
+  "website": "https://midrender.com",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "Midrender is a visual editor for creating motion graphics, powered by AI. Point the agent at your codebase, it reads your code, understands the feature, and creates an animated walkthrough you can ship. A full timeline and design editor lets you fine-tune every detail.",
+  "one_liner": "Turn product features into launch videos",
+  "team_size": 1,
+  "industry": "B2B",
+  "subindustry": "B2B -> Engineering, Product and Design",
+  "launched_at": 1688598945,
+  "tags": [
+    "Design",
+    "Design Tools",
+    "Video",
+    "Marketing",
+    "AI"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Summer 2023",
+  "status": "Active",
+  "industries": [
+    "B2B",
+    "Engineering, Product and Design"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/midrender",
+  "api": "https://devasheeshg.github.io/yc-api/batches/summer-2023/midrender.json",
+  "year_founded": 2023,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/haven-ml",
+  "x_url": "https://twitter.com/redotvideo",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": "https://github.com/redotvideo",
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/ae8f20158b0233edf45f926bd2ba47a325fa7fd6.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": null,
+  "founders": [
+    {
+      "user_id": 1910964,
+      "full_name": "Konstantin Hohr",
+      "title": "Founder",
+      "founder_bio": "Konstantin is the founder of Revideo. Previously, he studied computer science at RWTH Aachen while simultaneously working as a software engineer at Jodel, where he built content moderation and abuse detection systems. At DynamoAI (W22), he spearheaded development on vertical federated learning based products.",
+      "is_active": true,
+      "linkedin_url": "https://linkedin.com/in/konsti-h",
+      "x_url": "https://x.com/hkonsti_",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/2460ec366c0cb31c35af99c68b748be0c790cbb3.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 80105,
+      "title": "Revideo - Create videos with code",
+      "tagline": "An open source toolkit to build web-based video apps.",
+      "body": "### TLDR:\n\nWe are building [Revideo](https://re.video/), a web-based open-source framework that lets you create videos using the animation library Motion Canvas. It exposes basic video & audio editing functionality through a typescript API and lets you render videos with dynamic inputs. You can find our code on [**Github**](https://github.com/redotvideo/revideo)!\n\n### **The Problem:**\n\nWe believe that AI will drastically change how people produce video and that huge amounts of video will soon be created in an automated manner. Initially, we wanted to build applications in this space ourselves and started to work on a few ideas. For example, we worked on an AI-based app to automatically create highlight videos for Twitch streamers, as well as a platform that lets companies A/B test video ads.\n\nWhile building these products, we noticed that we weren’t really happy with the tooling we used. Most video editing frameworks lacked essential features, and the tools we liked were not open source. Therefore, we decided to build Revideo.\n\n### **The Solution:**\n\nWe built Revideo by extending the animation library Motion Canvas and adding features that are essential for automatically creating videos. These features include support for audio, substantially faster video rendering, and an API for programmatically rendering videos with dynamic inputs.\n\nHere is a code example of a basic video created with Revideo:\n\n![uploaded image](/media/?type=post&id=80105&key=user_uploads/1023703/4f0ca7c8-30c6-402a-a087-2b2829275c40)\n\nThe code above produces the following result:\n\n<https://youtu.be/FGeujyec7_g>\n\n### **Our Asks:**\n\n* Check out [Revideo](https://github.com/redotvideo/revideo) on Github and give us a ⭐ if you like it!\n* We’d love to chat with anyone building video products! If you are building one or know people who do, please reach out ❤️",
+      "url": "https://www.ycombinator.com/launches/Kq1-revideo-create-videos-with-code",
+      "votes": 12,
+      "created_at": "2024-04-11T15:49:45.395Z"
+    },
+    {
+      "id": 76501,
+      "title": "Haven: Fine-tune and run open source LLMs super fast ⚡",
+      "tagline": "Haven lets you build open source LLMs that are specialized for specific tasks",
+      "body": "# TLDR:\n\nWe are excited to launch [Haven](https://haven.run/)’s fine-tuning platform for open source LLMs!\n\n* Haven lets you fine-tune open source LLMs such as Llama or Mistral without writing code or setting up infrastructure. We charge $0.004/1k training tokens, and you get $5 in free credits after signing up\n* You can host models for testing with <1s cold start times. We achieve this by running hundreds of model adapters on a single GPU and hot-swapping them based on user requests (will write more about this in a blog post)\n\nYou can get started [**here**](https://app.haven.run/) - alternatively, reach out to [**hello@haven.run**](https://app.haven.run/) or watch our [demo](https://www.youtube.com/watch?v=XpyVKUyt7k8) if you want to learn more!\n\n### **The Problem**\n\nOver the last months, we’ve identified two big pain points that make it hard to work with open source models:\n\n1. Open source models work best when they are trained for specific use cases, but the fine-tuning process with existing tools is super annoying. We have found that most of our time is spent setting up infrastructure to go from finishing a training run to actually testing our models, rather than actually writing code and improving our models\n2. Hosting custom models is expensive. Running a single Llama-7B model in float16 requires at minimum an A10 GPU, which costs $700+ per month. To run ten or a hundred specialized models for common tasks, this would mean that we have a monthly AWS bill of $7,000 or $70,000, respectively.\n\n### **The Solution**\n\nHaven’s platform offers a super simple way to fine-tune models without managing infrastructure or writing code, and to test and run them with low costs and without any additional work.\n\nWe are able to provide a super short feedback loop of going from training to running a fine-tuned model by hosting multiple lora adapters in parallel. This makes it possible for us to host hundreds of fine-tuned models on-demand on a single GPU. For our users, this reduced model cold start times to <1s and internally, we are able to host a single fine-tuned model for a couple of dollars per month. We also enable our users to export their model weights to Huggingface, so that they can run models entirely on their terms.\n\n### **Our Ask**\n\nFeel free to check out our [**platform**](https://app.haven.run/) and give us feedback! After signing up, you’ll receive $5 in credits to train a couple of models :) We are also happy to answer questions at [**hello@haven.run**](https://app.haven.run/)",
+      "url": "https://www.ycombinator.com/launches/Jtt-haven-fine-tune-and-run-open-source-llms-super-fast",
+      "votes": 8,
+      "created_at": "2023-11-29T17:29:33.896Z"
+    },
+    {
+      "id": 73716,
+      "title": "🔮 Haven - Run LLMs on Your Own Cloud",
+      "tagline": "Haven makes it easy to deploy LLMs on your own infrastructure",
+      "body": "**TL;DR:** Haven makes it easy to deploy LLMs in your GCP / AWS environment. We provide the user experience of serverless solutions like Replicate or Huggingface Inference Endpoints - but instead of running your models on Haven’s servers, we just manage your infrastructure for you. This gives you full control over your data and you get to use your precious cloud credits!\n\n### **🤕 The Problem**\n\nMany companies want to use large language models but do not want to rely on third-party providers as it makes them dependent on external services and comes with significant privacy risks.\n\nHowever, deploying models in-house is just not easy: engineers have to figure out CUDA environments, write and containerize efficient serving code, and expose it as an API server. And let’s not even talk about scalability…\n\nHaven solves this problem. We offer the simplicity, reliability, and scalability of third-party providers while allowing our users to securely run models on their own infrastructure.\n\n### **🤯 How It Works**\n\nHaven is built on top of Kubernetes, which makes it easy to scale and reliable in production settings. Deploying a model with Haven consists of just three steps:\n\n**1\\. Upload a Service Account Key**\n\nUploading a service account key gives Haven permission to manage your cloud resources for you. Under the hood, Haven will now set up a Kubernetes cluster running in your cloud environment.\n\n![uploaded image](/media/?type=post&id=73716&key=user_uploads/1023703/6b35bcd0-f0f5-4f4b-b3ab-dbb6a46261ff)\n\n**2\\. Configure Your Deployment**\n\nYou can now choose your model, select the GPUs you want it to run on, and configure the scaling behavior of your deployment. Haven will accordingly set up the model in your Kubernetes cluster.\n\n![uploaded image](/media/?type=post&id=73716&key=user_uploads/1023703/59c94edb-14a5-4e4e-b173-a4b19223ebdb)\n\n**3\\. Enjoy Your Model**\n\nYour LLM is up and running in minutes! Our deployments offer super-fast inference and advanced features like input batching for efficient serving. This way, you can immediately integrate them into your application.\n\n![uploaded image](/media/?type=post&id=73716&key=user_uploads/1023703/773c461a-05ba-48b2-ba96-6b4c88d23cbf)\n\n### **💪 The Team**\n\nWe’re Konstantin and Justus. The two of us met as freshmen in college, and have since built multiple projects together.\n\n![uploaded image](/media/?type=post&id=73716&key=user_uploads/1023703/95a23ea8-c105-4d8d-af62-f2a527bb50f7)\n\n[Justus](https://www.linkedin.com/in/justus-mattern-a04230184/) is an AI researcher and has been working on LLMs since 2020. As a member of AI labs at UC Berkeley and ETH Zürich, he has published multiple papers at leading research conferences.\n\n[Konstantin](https://www.linkedin.com/in/konsti-h/) has already been a full-time software engineer before starting his university studies. At Germany’s biggest social networking company, he built infrastructure handling requests from millions of daily users.\n\n### **💜 Our Ask**\n\n**Sign up **[**here**](https://vkg6c80ex61.typeform.com/to/IMCFY5Cf)** to work with us!**\n\nWe are working closely with our users to fully understand the needs of companies aiming to integrate LLMs into their products. Beyond giving access to our deployment tool, we partner with early customers to evaluate their use cases and fine-tune models for their needs. If this sounds interesting, sign up for early access or contact us at [hello@haven.run](mailto:hello@haven.run)!\n\n**Refer us to companies looking to use LLMs!**\n\nIf you have connections at companies looking to use LLMs, we’d highly appreciate introductions! You can reach us at [hello@haven.run](mailto:hello@haven.run).",
+      "url": "https://www.ycombinator.com/launches/JAy-haven-run-llms-on-your-own-cloud",
+      "votes": 229,
+      "created_at": "2023-08-02T16:28:57.262Z"
+    }
+  ]
+}

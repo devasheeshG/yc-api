@@ -1,0 +1,123 @@
+{
+  "id": 27890,
+  "name": "Wild Moose",
+  "slug": "wild-moose",
+  "former_names": [
+    "Context AI"
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/fa6f0365e063d6abf85d22cf51d505e868af977e.png",
+  "website": "https://wildmoose.ai",
+  "all_locations": "New York City, NY, USA",
+  "long_description": "Wild Moose automatically kicks off any root-cause investigation to improve MTTR.\r\nOur AI triages issues, analyzes impact, and suggests next steps - all before human intervention is needed.",
+  "one_liner": "Automating root cause analysis with generative AI",
+  "team_size": 3,
+  "industry": "B2B",
+  "subindustry": "B2B -> Engineering, Product and Design",
+  "launched_at": 1675106023,
+  "tags": [
+    "Developer Tools",
+    "Generative AI",
+    "SaaS",
+    "B2B",
+    "AI"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Winter 2023",
+  "status": "Active",
+  "industries": [
+    "B2B",
+    "Engineering, Product and Design"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/wild-moose",
+  "api": "https://devasheeshg.github.io/yc-api/batches/winter-2023/wild-moose.json",
+  "year_founded": 2023,
+  "city": "New York City",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/wild-moose-ai",
+  "x_url": "",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/fa6f0365e063d6abf85d22cf51d505e868af977e.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [
+    "https://bookface-images.s3.us-west-2.amazonaws.com/attachments/3225de93482728857cea8dcee7b643093fc1979c.png"
+  ],
+  "primary_partner": {
+    "name": "Nicolas Dessaigne",
+    "url": "https://www.ycombinator.com/people/nicolas-dessaigne"
+  },
+  "founders": [
+    {
+      "user_id": 281723,
+      "full_name": "Yasmin Dunsky",
+      "title": "Founder",
+      "founder_bio": "Yasmin holds an MBA from Stanford, and has a successful track record in founding and leading ventures, including an ecosystem that trains thousands of female software developers across Israel. She served as an analyst for the Israeli Special Forces Intelligence and holds a BSc in Computer Science from The Hebrew University. ",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/yasmin-dunsky-519a4ab2/",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/3895cf2f614c1bce99c5ac84e28c5c38015fc8ea.jpg"
+    },
+    {
+      "user_id": 1157519,
+      "full_name": "Roei Schuster",
+      "title": "Founder",
+      "founder_bio": "I'm the CTO of Wild Moose. Before, I was a post-doc at the Vector Institute of AI, after completing a PhD at Cornell and Tel Aviv University. My research focused on security and privacy of AI, and particularly NLP. Before my that, I did my undergrad at the Technion, and served in IDF's 8200 alongside my cofounder Tom.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/roei-schuster-0ba818aa/",
+      "x_url": "https://twitter.com/RoeiSchuster",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/7a9f7889018f6476b021ae855e2340734dcc8813.jpg"
+    },
+    {
+      "user_id": 1159942,
+      "full_name": "Tom Tytunovich",
+      "title": "Founder",
+      "founder_bio": "Building software stuff since 2002. In the IDF's Intelligence Corps, in tiny startups and large corporations as software developer, architect, and engineering manager, as CTO of a nonprofit building technology with people who are homeless in NY, and now as co-founder of Wild Moose.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/tom-tytunovich-70a13886",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/961d3f09d5210698d6a78711e497937d27018563.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [
+    {
+      "title": "Site reliability engineering startup Wild Moose launches with $7M in funding - SiliconANGLE",
+      "url": "https://siliconangle.com/2025/10/28/site-reliability-engineering-startup-wild-moose-launches-7m-funding/",
+      "date": "Oct 28, 2025"
+    }
+  ],
+  "launches": [
+    {
+      "id": 80510,
+      "title": "Wild Moose Alert Enrichment: Solve production issues before they get to engineers",
+      "tagline": "Reduce MTTR with an AI agent that engages with logs, metrics, and code to kick off any investigation",
+      "body": "### **Problem:** Production chaos is real, and interferes with fast delivery\n\nThese days, there's immense pressure for organizations to constantly innovate. To achieve this, you need to aggressively minimize distractions. It's crucial to eliminate the constant stream of alerts, often leading to full nights of stressful debugging.\n\n### **Solution:** AI agents can knock down issues before they get to engineers\n\n**Our AI agent kicks off every investigation by querying logs, metrics, DBs, and code to surface information and resolve issues.** The initial steps in investigations are predictable and automatable, but they take time for a human to perform. We save that time. **In many companies this simple step already cuts MTTR by 50%.** \n\n[▶️▶️ Chat with us to join the beta.](https://calendly.com/wildmoose-yasmin/30-min)\n\n**How it works:**\n\n1. **Collects data from monitoring data sources**\\\n   When a new production issue is found, the moose kicks off by collecting data from your monitoring data tools, such as Datadog, Snowflake, New Relic, Cloudflare, etc.\n2. **Generates an enrichment report**\\\n   The moose runs an investigation in real-time, analyzing the data collected to present its findings.\n\n   ![uploaded image](/media/?type=post&id=80510&key=user_uploads/281723/a7ca493a-891b-4da7-8326-920b6f4a4025)\n\n3. **Concludes and recommends next steps**\\\n   The moose presents a summary of its findings along with recommended next steps, focusing on impact and mitigation.\n\n   ![uploaded image](/media/?type=post&id=80510&key=user_uploads/281723/30f636da-7ddf-45e0-bae4-493b21055e76)\n\n4. **Improves over time**\\\n   You can indicate what information was useful or ask the moose to fetch more. Based on this feedback and an underlying model of your system, our model learns over time the actions it should take in different scenarios.\n\n   ![uploaded image](/media/?type=post&id=80510&key=user_uploads/281723/65c3bd53-edd3-492d-bff1-7a27a0ea0fa3)\n\n\n### **Try it out and tell us what you think!**\n\n[▶️▶️ Let’s chat and get you on our beta.](https://calendly.com/wildmoose-yasmin/30-min)\n\n**We’re looking to work with companies that are making an effort to improve their reliability**, preferably companies that already measure MTTR or are interested in starting to do so. \n\n* **_You don’t have to prepare your data or monitoring tools_**. We know things are often messy - our model works just as well with data that is unstructured\n* **_You do need to have your logs and/or metrics stored in a SaaS platform_** (Datadog, New Relic, Coralogix, etc.).",
+      "url": "https://www.ycombinator.com/launches/KwY-wild-moose-alert-enrichment-solve-production-issues-before-they-get-to-engineers",
+      "votes": 36,
+      "created_at": "2024-04-30T15:03:33.825Z"
+    },
+    {
+      "id": 69325,
+      "title": "🔥 Wild Moose: Solve production incidents faster with Gen AI",
+      "tagline": "Helping on-call developers quickly identify the source of production incidents with conversational AI trained on their environment.",
+      "body": "**TL;DR When you’re on-call and everything’s on fire, instead of frantically sifting through logs and going through other people’s code, our moose just gives you the answers.** [**Chat with us**](https://calendly.com/wildmoose-yasmin/15min) **to try it out.**\n\n**—-**\n\n👋 We’re Tom, Yasmin, and Roei, founders of [Wild Moose](https://wildmoose.ai?utm_source=YC+newsletter&utm_medium=blog+post&utm_campaign=Launch+YC). \n\n![uploaded image](/media/?type=post&id=69325&key=user_uploads/281723/afaf46a4-84f9-46c1-b638-ee353587eaa5)\n\n[Yasmin](https://www.linkedin.com/in/yasmin-dunsky-519a4ab2/) has an MBA from Stanford and is a third-time founder & CEO. [Roei](https://www.linkedin.com/in/roei-schuster-0ba818aa/) got a PhD at Cornell University focusing on Large Language Models (LLMs), and [Tom](https://www.linkedin.com/in/tom-tytunovich-70a13886/) has had the dubious pleasure of fixing hundreds of incidents in production over his 15 years of engineering.\n\n### **The problem**\n\nWith developers spending over 30% of their time on production issues, and  incidents leading to millions in lost revenue, there’s no need to say much about the headache that is production debugging. Instead, we asked Midjourney what a developer dealing with a prod incident looks like:\n\n![uploaded image](/media/?type=post&id=69325&key=user_uploads/281723/a629390c-47b7-403e-bae9-d523c690b62d)\n\n### **Enters the moose**\n\nDebugging in production with our moose allows you to solve issues in minutes instead of hours, reducing MTTR 100x. It helps you avoid costly downtime, save time, and keep your SLAs in check. You’re able to:\n\n* 🕵️ Navigate through heaps of logs, metrics, and other people’s code\n* 🧠 Build queries like a pro for any observability tool (Elastic, Datadog, SQL DBs, etc.)\n* 🔀 Get next-step recommendations so you stay on track when the pressure is on and you’re flooded with data\n\n### **How it works**\n\n**💪 We help you hit the ground running –** unlike humans, our AI is happy to wake up at 2 AM and get cracking, instantly up to speed and ready with useful data on the state of the system\n\n![uploaded image](/media/?type=post&id=69325&key=user_uploads/281723/7468e24d-8b94-403d-a59e-98e0994ef3f6)\n\n**💪 You don't need to debug alone –** using Wild Moose is like having a fellow engineer take the grunt work off your hands. One who knows every part of the codebase, and who can process hours' worth of data in seconds\n\n![uploaded image](/media/?type=post&id=69325&key=user_uploads/281723/92cb41af-6553-48f8-9277-dff3f74b0eaa)\n\n**💪 Learn more from the incident –** some companies learn from their incidents, others are just gifted with many repeat opportunities… To help you belong to the former, we automate your postmortem generation\n\n![uploaded image](/media/?type=post&id=69325&key=user_uploads/281723/310efdc8-5c47-40a5-afcd-3203066cbc66)\n\n### **Our technology**\n\nBehind a conversational AI experience, lie our special-purpose large language models (LLMs). Having cracked the way LLMs can be fed code and logs in real-time, we design models that efficiently ingest the massive contextual data about a given incident. Crucially, we also validate the produced answers against the original sources of truth, giving you trustworthy information when you need it the most.\n\n### **We can help you fix production issues**\n\nIf your company has 25+ developers, you measure the cost of downtime, and your observability stack includes Datadog, Sentry, and/or Elastic, we would love to help you manage production issues! Just hop on a call with us [here](https://calendly.com/wildmoose-yasmin/15min) or reach out at [yasmin@wildmoose.ai](mailto:yasmin@wildmoose.ai).",
+      "url": "https://www.ycombinator.com/launches/I29-wild-moose-solve-production-incidents-faster-with-gen-ai",
+      "votes": 59,
+      "created_at": "2023-02-15T20:55:49.267Z"
+    }
+  ]
+}

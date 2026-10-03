@@ -1,0 +1,139 @@
+{
+  "id": 31366,
+  "name": "Nine Fives",
+  "slug": "nine-fives",
+  "former_names": [],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/12cace5da5d5e5852e19a386d33613f3f8222281.png",
+  "website": "https://ninefives.com/",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "Nine Fives produces modern radio frequency test equipment and solutions to disrupt the $130B test equipment industry. By combining modern electronics, AI ready test automation, and strategic supply chains, we’re equipping our customers to cut their time to market in half.",
+  "one_liner": "RF test equipment for next-gen spacecraft, drones, and cellphones",
+  "team_size": 2,
+  "industry": "Industrials",
+  "subindustry": "Industrials -> Manufacturing and Robotics",
+  "launched_at": 1775260036,
+  "tags": [
+    "Hard Tech",
+    "Aerospace",
+    "Telecommunications"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": true,
+  "nonprofit": false,
+  "batch": "Spring 2026",
+  "status": "Active",
+  "industries": [
+    "Industrials",
+    "Manufacturing and Robotics"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/nine-fives",
+  "api": "https://devasheeshg.github.io/yc-api/batches/spring-2026/nine-fives.json",
+  "year_founded": 2025,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/nine-fives/",
+  "x_url": "",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/12cace5da5d5e5852e19a386d33613f3f8222281.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Tom Blomfield",
+    "url": "https://www.ycombinator.com/people/tom-blomfield"
+  },
+  "founders": [
+    {
+      "user_id": 2413649,
+      "full_name": "Noah Levy",
+      "title": "Founder/CEO",
+      "founder_bio": "Calibrated largest phased array in SpaceX history, designed Starship primary RF hardware, worked on radar altimeter for Falcon 9 and S-Band Transceiver for Dragon 2 capsule. I am not a fan of modern RF test equipment from legacy vendors.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/noahmslevy/",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/4824d2f4b270789c6f137b5e6d9e0e7fb040ee1a.jpg"
+    },
+    {
+      "user_id": 3423274,
+      "full_name": "Andrew Kurtz",
+      "title": "Founder",
+      "founder_bio": "I spent the last 9 years as a mechanical engineer working on a wide variety of aerospace products. Now building better test equipment with Nine Fives",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/andrew-e-kurtz/",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/396d9cf39bf31b1e84877f58de6d522a30909c63.jpg"
+    }
+  ],
+  "jobs": [
+    {
+      "id": 97341,
+      "title": "Founding Electrical Engineer",
+      "url": "https://www.ycombinator.com/companies/nine-fives/jobs/hDQM135-founding-electrical-engineer",
+      "location": "San Mateo, CA, US",
+      "type": "Full-time",
+      "role": "Engineering",
+      "role_type": "Electrical",
+      "salary_range": "$170K - $200K",
+      "equity_range": "0.50% - 2.00%",
+      "experience": "3+ years",
+      "visa": "US citizen/visa only",
+      "skills": [
+        "Go",
+        "Python",
+        "Linux",
+        "Embedded Linux",
+        "Firmware",
+        "Prototyping",
+        "PCB design"
+      ]
+    },
+    {
+      "id": 99344,
+      "title": "Founding RF Engineer",
+      "url": "https://www.ycombinator.com/companies/nine-fives/jobs/dkS9aeZ-founding-rf-engineer",
+      "location": "San Mateo, CA, US",
+      "type": "Full-time",
+      "role": "Engineering",
+      "role_type": "Electrical",
+      "salary_range": "$170K - $200K",
+      "equity_range": "0.50% - 2.00%",
+      "experience": "3+ years",
+      "visa": "US citizen/visa only",
+      "skills": [
+        "Git",
+        "Go",
+        "MATLAB",
+        "Python",
+        "Embedded Linux",
+        "Firmware",
+        "PCB design",
+        "FPGAs",
+        "Altium"
+      ]
+    }
+  ],
+  "news": [],
+  "launches": [
+    {
+      "id": 101602,
+      "title": "Nine Fives - Simple, Networked, Driverless RF Test Equipment",
+      "tagline": "Test hardware for companies that can’t wait for their test equipment to catch up.",
+      "body": "**TL;DR: Nine Fives makes test equipment for manufacturers of radio devices in cellphones, drones, or satellites.**\n\n[https://www.youtube.com/watch?v=7vtMt6-0SvY](https://www.youtube.com/watch?v=7vtMt6-0SvY%3C/video%3E)\n\n**Problem:** You are a hardware engineer holding up a billion dollar satellite constellation or slipping a cellphone release date because the legacy test equipment in your production line was designed around the January 1997 revision of the USB Human Interface Device specification and the firmware hasn’t been updated since then.\n\nYour AI agent is blissfully unaware of how this thing works because the “documentation” is hidden in a PDF on a password protected FTP server. After the legacy vendor left your email on read for a week they gave you access and sent you a [VB.NET](http://VB.NET) script that they think should work. You ran it and now all 8 of that vendor’s devices in your rack have tried to enumerate as “COM11” in device manager. Now you have 8 broken pieces of equipment instead of just 1!\n\n**Solution:** We’re Noah Levy and Andrew Kurtz and we are building Nine Fives. Together we have spent a decade at SpaceX designing radio frequency hardware and test systems for multi-million dollar products. Our equipment is driverless, touchscreen enabled, and uses a single, machine-readable, API with both REST and SCPI endpoints.\n\nEvery module we build works as a standalone product, but if you use our rack-mountable data and power backplane then you can take advantage of our NineVue web-app for generating easy-to-maintain, machine-readable rack configuration and our [skill.md](http://skill.md) so that your AI agent can finally understand your test system and write your test software. \n\n**Get off the critical path and reduce your production readiness timeline from months to minutes.**\n\n![uploaded image](/media/?type=post&id=101602&key=user_uploads/2413649/0e5ea814-ed4c-4e37-be4c-2ea0f93f59a5)\n\n",
+      "url": "https://www.ycombinator.com/launches/QQk-nine-fives-simple-networked-driverless-rf-test-equipment",
+      "votes": 12,
+      "created_at": "2026-05-21T02:28:09.859Z"
+    }
+  ]
+}

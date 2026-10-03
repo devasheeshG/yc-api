@@ -1,0 +1,96 @@
+{
+  "id": 25738,
+  "name": "Hydra",
+  "slug": "hydra",
+  "former_names": [],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/87c0954c151aa7067e034d8de33b3174d43f5ff0.png",
+  "website": "https://hydra.so",
+  "all_locations": "San Francisco, CA, USA; Remote",
+  "long_description": "Hydra is a real-time analytics database management system for Postgres. We seperate compute from storage to offer software engineers serverless analytics with autoscale, write isolation, automatic caching, and more.\r\n\r\nShipping scalable projects on time series and event data has never been easier. Hydra is available for local development, cloud, and bare metal deployment.",
+  "one_liner": "Serverless Analytics on Postgres",
+  "team_size": 6,
+  "industry": "B2B",
+  "subindustry": "B2B -> Infrastructure",
+  "launched_at": 1642199733,
+  "tags": [
+    "Developer Tools",
+    "Analytics",
+    "Open Source",
+    "Data Engineering"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Winter 2022",
+  "status": "Acquired",
+  "industries": [
+    "B2B",
+    "Infrastructure"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada",
+    "Remote",
+    "Fully Remote"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/hydra",
+  "api": "https://devasheeshg.github.io/yc-api/batches/winter-2022/hydra.json",
+  "year_founded": 2021,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/hydradatabase",
+  "x_url": "https://twitter.com/hydradatabase",
+  "fb_url": null,
+  "cb_url": "https://www.crunchbase.com/organization/hydra-7681",
+  "github_url": "https://github.com/HydrasDB",
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/87c0954c151aa7067e034d8de33b3174d43f5ff0.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Tom Blomfield",
+    "url": "https://www.ycombinator.com/people/tom-blomfield"
+  },
+  "founders": [
+    {
+      "user_id": 54309,
+      "full_name": "Joseph Sciarrino",
+      "title": "Founder",
+      "founder_bio": "CEO, Hydra\nFormer PM @ MSFT Azure Open-Source Databases team.\nHeroku (W08) and Citus Data (S11) alum",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/jsciarrino12/",
+      "x_url": "https://twitter.com/JoeSciarrino",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/4f798def8e78bebf37b918e014a9a4d933b47fc2.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [
+    {
+      "title": "Microsoft backs open source PostgreSQL analytics extension • The Register",
+      "url": "https://www.theregister.com/2024/08/20/postgresql_duckdb_extension/",
+      "date": "Aug 20, 2024"
+    },
+    {
+      "title": "Hydra aims to be the open cloud data warehouse alternative to Snowflake – TechCrunch",
+      "url": "https://techcrunch.com/2022/07/01/hydra-aims-to-be-the-open-cloud-data-warehouse-alternative-to-snowflake/",
+      "date": "Jul 01, 2022"
+    }
+  ],
+  "launches": [
+    {
+      "id": 88443,
+      "title": "Hydra: Serverless Realtime Analytics on Postgres",
+      "tagline": "Unlock realtime analytics on live data in seconds",
+      "body": "![uploaded image](/media/?type=post&id=88443&key=user_uploads/54309/fc2a33f3-1607-4213-bee9-7fb9693b0f5f)\n\n**Hydra is Serverless Realtime Analytics on Postgres.**\n\nBy separating compute from storage, Hydra enables compute-isolated analytics and bottomless storage. It is designed for low latency applications built on time series and event data.\n\n# [**Try Now! (free)**](https://start.hydra.so/get-started)\n\n<https://youtu.be/mib8ehnMmC8>\n\n# **Enable in seconds**\n\n![uploaded image](/media/?type=post&id=88443&key=user_uploads/54309/42f17c01-89e7-47ae-ba01-f76bc23c864e)\n\nSet up is simple. To unlock serverless realtime analytics on Postgres, run:\n\n```\npip install hydra-cli\n```\n\nFor setup\n\n```\nhydra\n```\n\n1. fetch your hydra token, paste in to enable Hydra\n2. create analytics schema / tables and insert data ([**quickstart docs**](https://docs.hydra.so/intro/quickstart))\n3. _voila_ - run queries, get insights in milliseconds\n\n# **Problem**\n\nFor decades, there’ve been two core problems with analytics on Postgres:\n\n**Slow** - aggregates and complex queries can take minutes to return results from large data sets.\n\n**Resource Contention** - Expensive analytics queries hog Postgres’ RAM / CPU resources and impair transactional performance. In other words, the entire app slows down, which makes users unhappy.\n\n# **Solution**\n\n### **Fast**\n\nHydra returns analytics queries 400X faster than standard Postgres. Hydra uses duckdb to perform isolated serverless processing on these tables in Postgres. In fact, Hydra is faster than most specialized analytics databases.\n\nIf you’re running AWS RDS, AWS Aurora, Heroku Postgres, Supabase, Fly Postgres, Render Postgres, GCP Cloud SQL, etc.. you can improve expensive analytics queries by 400X by using Hydra.\n\n![uploaded image](/media/?type=post&id=88443&key=user_uploads/54309/3fb7dc1e-622a-4303-ba7a-f729f18ab019)\n\nfun fact: the Snowflake instance (128x4XL) in the benchmark is $100k / month.\n\n![uploaded image](/media/?type=post&id=88443&key=user_uploads/54309/5db5d184-2a69-4811-b14e-5ad433f4038c)\n\nThese are results from clickbench which represents a typical workload in the following areas: clickstream and traffic analysis, web analytics, machine-generated data, structured logs, and events data. The table consists of exactly 99 997 497 records — rather small by modern standards but allows tests to be performed in a reasonable time.\n\n### **Isolated, serverless processing**\n\nUsing Hydra there is no impact on Postgres’ RAM / CPU resources when reading from or writing to an analytics tables.\n\nAs a result, here are more cool things Hydra can do: zero-copy clones for scaling read replicas, automatic caching, write isolation, bottomless storage with high data compression, and more.\n\n# **How it works**\n\n![uploaded image](/media/?type=post&id=88443&key=user_uploads/54309/8d8999aa-a370-4f0f-9d99-badfe4621c97)\n\nHydra integrates duckdb execution and features with Postgres using [**pg_duckdb**](https://github.com/duckdb/pg_duckdb), an open-source project we co-developed with the creators of DuckDB.\n\n**FAQ:**\n\nyes, you can join between an analytic table and a standard row-based table.\n\nyes, you can write (insert & update) to analytics tables.\n\nyes, Hydra is identical to using standard postgres.\n\nyes, data inserted into an analytics table is automatically converted into analytics-optimized columnar format.\n\ntell Hydra you are creating an analytics table by including the ‘using duckdb’ keyword - that’s it.\n\n# **Hydra is best for**\n\nHydra is both a row and columnstore, so you can use it for standard Postgres work, like multitenant apps, as well as analytical work, like monthly reporting. Here are several cool Hydra use cases that blend both transactional & analytics — more in our [**use case docs**](https://docs.hydra.so/guides/usecase).\n\n* time series, logs, events, traces\n* monitoring & telemetry\n* financial services\n* observability & metrics\n* cybersecurity & fraud detection\n* web & product analytics\n* iot\n* realtime ml / ai\n\n# **ok, but why use postgres instead of … \\[insert favorite tech\\]?**\n\nIt’s true, there are many specialized analytics databases. reviewing the benchmark above, the majority of analytics databases are actually _slower_ than Hydra. Regardless, isolated analytics databases produce their own set of challenges and costs.\n\n### **data pipelines (etl)**\n\nTraditionally, an analytics database is isolated, and in most cases, engineers must set up data pipelines for data movement and transformation between Postgres, S3, and the analytics db. Pipelines aren’t cheap. Also, there’s pipeline latency bottlenecking how stale the analytics are. And when pipelines break — because they do — you’re stuck with downtime and wrong results.\n\nHydra side-steps the latency and costs of data pipelines entirely with full support for inserts and updates on columnar files in analytics tables.\n\n### **overweight design**\n\nMany use cases don’t justify a heavy setup. From our time working at Heroku, we saw many transactional apps that only need a couple high level aggregates and a few complex analytical queries to return quickly. Hardly OLAP (online analytical processing) and not really HTAP (hybrid transactional and analytical processing) - just apps in need of a speed boost.\n\nThe most heavyweight option, data warehouses like BigQuery, are good at “big queries”, but not great at smaller, rapid analytics queries that’re more common with applications, rather than monthly reporting.\n\nThese traditional approaches are too heavy, can be brittle, and introduce extra costs and latency your startup doesn’t need.\n\n# **do we have a hosted cloud offering?**\n\nYes, and [it’s awesome](https://start.hydra.so/get-started).\n\n# [**Try now!**](https://start.hydra.so/get-started)\n\n## **useful links**\n\n[**website**](https://www.hydra.so/), [**docs**](https://docs.hydra.so/overview), [**local dev guide**](https://docs.hydra.so/guides/local_development), [**analytics guide**](https://docs.hydra.so/guides/analytics), [**architecture**](https://docs.hydra.so/intro/architecture), [**changelog**](https://docs.hydra.so/changelog/changelog)\n\nIf you’ve made it this far here’s a pic of me (joe) and my cofounder (jd) in hood river, oregon. Building Hydra has been a wild ride, but we found a way to have fun.\n\n![uploaded image](/media/?type=post&id=88443&key=user_uploads/54309/69da46c2-bfc2-48c6-8ed3-2364e71c34fd)\n\n",
+      "url": "https://www.ycombinator.com/launches/N0V-hydra-serverless-realtime-analytics-on-postgres",
+      "votes": 8,
+      "created_at": "2025-03-11T12:27:09.916Z"
+    }
+  ]
+}

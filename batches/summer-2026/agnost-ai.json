@@ -1,0 +1,105 @@
+{
+  "id": 33019,
+  "name": "Agnost AI",
+  "slug": "agnost-ai",
+  "former_names": [],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/e1595f92ea75b1f367addedb5703852b1c7efded.png",
+  "website": "https://agnost.ai",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "Agnost AI reads every conversation a company's AI Agent has with its users to find where it's silently failing and then turns that same data into custom models that run the agent better, faster & cheaper than frontier models.",
+  "one_liner": "We find where AI agents fail, then train better models to run them.",
+  "team_size": 2,
+  "industry": "B2B",
+  "subindustry": "B2B -> Analytics",
+  "launched_at": 1783481375,
+  "tags": [
+    "Artificial Intelligence",
+    "Developer Tools",
+    "Machine Learning",
+    "Analytics",
+    "Monitoring"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Summer 2026",
+  "status": "Active",
+  "industries": [
+    "B2B",
+    "Analytics"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/agnost-ai",
+  "api": "https://devasheeshg.github.io/yc-api/batches/summer-2026/agnost-ai.json",
+  "year_founded": 2025,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://linkedin.com/company/agnostai",
+  "x_url": "https://x.com/agnostai",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/e1595f92ea75b1f367addedb5703852b1c7efded.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [
+    "https://bookface-images.s3.us-west-2.amazonaws.com/attachments/b09996d90ed38a4b5d62581651fffd7e0885e6b2.png"
+  ],
+  "primary_partner": {
+    "name": "Tyler Bosmeny",
+    "url": "https://www.ycombinator.com/people/tyler-bosmeny"
+  },
+  "founders": [
+    {
+      "user_id": 1987056,
+      "full_name": "Shubham Palriwala",
+      "title": "Founder/CEO",
+      "founder_bio": "Co-founder and CEO of Agnost AI.\nYoungest Engineer on Cisco's Analytics team, First Hire at Formbricks (Open-Source Qualtrics), wrote code in Bitcoin & other open-source projects across OWASP and the Linux foundation.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/shubhampalriwala/",
+      "x_url": "https://x.com/ShubhamInTech",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/16f7d9652057acfedcb3ad0c94ecab3e15758aba.jpg"
+    },
+    {
+      "user_id": 2055517,
+      "full_name": "Parth Ajmera",
+      "title": "Founder/CTO",
+      "founder_bio": "Co-Founder/CTO at Agnost AI. Graduated in Computer Science from IIT Madras, ranking 159 among over 1 million candidates. Previously led graphics engineering at Infurnia and built terabyte scaled data pipelines at Microsoft",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/parthajmera/",
+      "x_url": "https://x.com/prrthh132",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/93dc08b7da172c3288f1f798f2b9a0b27db75f16.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 111310,
+      "title": "Agnost AI: Turn Your Agent Traces Into a Faster, Cheaper, & more Accurate Custom Model",
+      "tagline": "We use your agent’s production traces to train a specialized model that performs better, responds faster, and costs less.",
+      "body": "Your agent logs aren’t just for debugging. They’re your training data.\\\nHey YC! We’re Shubham and Parth, childhood friends and founders of Agnost AI.\n\n**TL;DR**: Agnost AI uses your agent’s production traces to train a model specialized for your exact workload. Our first custom model for our customer delivered them a:\n\n* 22.9% higher task success,\n* 90.2% lower median latency, and\n* 94.5% lower cost than Opus 4.8.\n\nDemo: <https://youtu.be/R3NyWNYXHu4>\n\n### What we found\n\nA few weeks ago, we launched Agnost AI as product analytics for AI agents. We read conversations between users and agents to uncover failures, behavior drift, hallucinated links, frustration, and churn signals.\n\nWe expected to find bugs. Surprisingly, we also found a lot of infrastructure waste. Many customer-facing agents use frontier models for narrow, repetitive jobs:\n\n* Route a request to the correct tool\n* Have a narrow system prompt with the given inputs\n* Retrieve the relevant data from internal tool calls\n* Parse &amp; format the final response\n\nThe underlying frontier model can write code, solve advanced mathematics, understand biology, and reason across hundreds of domains. **Your agent uses a small, repeatable slice of that capability while paying frontier-model prices for every request.**\n\n### We trained a specialist\n\nWe used historical production traces to train our first workload-specific model for an early customer: **agnost-&lt;redacted>-0.1**\n\nWe evaluated it against Opus 4.8 on 780 held-out customer traces for an Identifier Extraction Agent. The results:\n\n* Task success: 71.5% → 87.9%, 22.9% relative improvement\n* Median latency: 4.80s → 0.47s, 90.2% lower\n* Tail latency: 11.20s → 1.35s, 87.9% lower\n* Cost per 1,000 completed tasks: $42.00 → $2.30, 94.5% lower\n\nThis is one model for one workload, not a claim that specialist models should replace frontier models everywhere.\n\nFrontier models remain the right choice for open-ended work. But once an agent’s production job becomes predictable, **paying for general intelligence on every request stops making sense**.\n\n### How it works\n\n1. Send your existing traces to Agnost through OpenTelemetry or our SDK.\n2. We identify the recurring workflows your agent performs.\n3. We create an eval set from held-out production traces.\n4. We train a specialist model on the historical workload.\n5. We benchmark it against your current model on success, latency, and cost.\n\nYou only consider switching when the specialist wins on your own workload. Your logs go from debugging data to evaluation data and finally to training data recursively.\n\n### Who we are\n\nWe’re childhood friends, eight years and counting.\n\n* Shubham: Youngest engineer on Cisco’s analytics team, first hire at Formbricks, and contributor to Bitcoin, OWASP, and the Linux Foundation.\n* Parth: IIT Madras CS, ranked 159 out of 1.5 million. Built Spark pipelines at Microsoft and led GPU technology at Infurnia.\n\n### Our ask\n\nIf you have meaningful daily traffic, send us an anonymized trace export. We’ll analyze the workload, build a held-out evaluation set, and tell you whether a specialist model is worth training. If it is, we’ll benchmark it against your current frontier model.\n\nEmail me at [shubham@agnost.ai](mailto:shubham@agnost.ai) or book a call at [call.agnost.ai](http://call.agnost.ai)\n\nMore about us at: [agnost.ai](https://agnost.ai)\n\n![uploaded image](/media/?type=post&id=111310&key=user_uploads/1987056/6599ed29-ddf9-4d02-9232-425af1535be7)\n\n",
+      "url": "https://www.ycombinator.com/launches/SxK-agnost-ai-turn-your-agent-traces-into-a-faster-cheaper-more-accurate-custom-model",
+      "votes": 96,
+      "created_at": "2026-08-20T16:00:00.252Z"
+    },
+    {
+      "id": 107260,
+      "title": "Agnost AI: Product Analytics for AI Agents",
+      "tagline": "We read every conversation your users have with your agents & chatbots and surface hidden insights & product feedback. We are working with teams at Google, Exa and Corgi",
+      "body": "**Your users are telling your agent exactly why they churn! You’re not listening.**\n\nHey YC! We’re Shubham and Parth, childhood friends, founders of **Agnost AI**.\n\n**TL;DR: Agnost AI reads every conversation your chat or voice agent has with your users. We show you what your users want, where they get frustrated, and why they leave.**\n\n**The feedback hiding in your logs becomes discoveries, evals, and fixes ready to ship. We’re already processing over 1 million events every day and growing.**\n\nTry us out at[ agnost.ai](http://agnost.ai)\n\n### <https://www.youtube.com/watch?v=gKyhf6rUELg>\n\n### **The problem**\n\nTraditional product analytics were built for clicks.\\\nObservability was built for token costs, latencies, and deterministic errors.\n\nBut every product is rapidly moving from UI to conversation, and agent failures don’t look like traditional failures. The LLM returns 200 OK and says “sorry, I can’t do that.” The real failures are hiding in your conversations:\n\n* “can it remember this for next time?” → feature request\n* “you said it’s done, but nothing happened” → bug\n* “i’ve told you this three times already” → frustration\n* “nvm i’ll just do it myself” → churn\n\nToday teams throw more evals at this. But evals only tell you whether you fixed something, not what to fix. You can’t write a test for a problem you haven’t discovered yet.\n\n### **How it works**\n\n1. **Install our skill:** 3 lines of code, or point your OpenTelemetry exporter at us. Any LLM, any framework. Add any custom metadata like user tier, model versions, etc. We’re at:[ docs.agnost.ai](http://docs.agnost.ai)\n2. **Every conversation becomes a signal:** feature requests, bugs, frustration, churn risk, failed upgrades. Detected for your product, with the exact users &amp; conversations behind each.\n3. **The insight becomes action:** when hundreds of users rageprompt at your agent due to a specific bug, Agnost AI hands you the insight with the exact conversations behind it: \n   * create an eval from it\n   * debug it,\n   * or let Agnost fix it itself: our GitHub app opens a PR, tested against your past conversations, so you know it works before it ships.\n\n   Your agent gets better every week.\n\n### **Who we are**\n\nChildhood friends, 8 years and counting.\n\n![uploaded image](/media/?type=post&id=107260&key=user_uploads/2055517/e3c2eaad-8b6e-4ec0-abfa-b16074688963)\n\n**Shubham**: Youngest engineer on Cisco’s analytics team, First Hire at Formbricks, Wrote code in Bitcoin, OWASP, and the Linux Foundation.\n\n**Parth**: IIT Madras CS (ranked 159 of 1.5M), built Spark pipelines at Microsoft, Led GPU tech at Infurnia (\\~$1M ARR).\n\n### **Our Asks**\n\n1. **Building a chat or voice agent?** Sign up &amp; I’ll personally find 3 insane things going on in your agent traces that you’d have no idea about.\n2. **Know a founder whose product is an agent?** Intro us, 40’ monitors (to monitor your agents) on us: [shubham@agnost.ai](mailto:shubham@agnost.ai)\n3. **Try it:** Free tier:[ agnost.ai](http://agnost.ai)",
+      "url": "https://www.ycombinator.com/launches/Ru0-agnost-ai-product-analytics-for-ai-agents",
+      "votes": 191,
+      "created_at": "2026-07-24T15:53:30.811Z"
+    }
+  ]
+}

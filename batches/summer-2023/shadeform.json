@@ -1,0 +1,130 @@
+{
+  "id": 29104,
+  "name": "Shadeform",
+  "slug": "shadeform",
+  "former_names": [],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/7a846e62f95a076c15722c84a203afd1fccb34a5.png",
+  "website": "https://www.shadeform.ai/",
+  "all_locations": "",
+  "long_description": "Teams struggling with GPU availability use our platform to unlock capacity immediately for their growing AI workloads. Shadeform has a unified, easy-to-use API and platform to access and provision GPUs and deploy models for inference to any provider. With our aggregated availability and pricing data, we can help ensure your on-demand inference and training jobs will run on time at optimal cost.",
+  "one_liner": "The GPU Cloud Marketplace",
+  "team_size": 11,
+  "industry": "B2B",
+  "subindustry": "B2B -> Engineering, Product and Design",
+  "launched_at": 1689812081,
+  "tags": [],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": true,
+  "nonprofit": false,
+  "batch": "Summer 2023",
+  "status": "Active",
+  "industries": [
+    "B2B",
+    "Engineering, Product and Design"
+  ],
+  "regions": [
+    "Unspecified"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/shadeform",
+  "api": "https://devasheeshg.github.io/yc-api/batches/summer-2023/shadeform.json",
+  "year_founded": 2023,
+  "city": null,
+  "country": null,
+  "linkedin_url": "https://www.linkedin.com/company/shadeformai/",
+  "x_url": "https://twitter.com/shadeformai",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": "https://github.com/shadeform",
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/7a846e62f95a076c15722c84a203afd1fccb34a5.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Diana Hu",
+    "url": "https://www.ycombinator.com/people/diana-hu"
+  },
+  "founders": [
+    {
+      "user_id": 1212177,
+      "full_name": "Ed Goode",
+      "title": "Founder",
+      "founder_bio": "CEO @ Shadeform. SWE with experience building distributed systems, compute orchestrators, and NLU & NLP services. Building a single control plane for the GPU market.",
+      "is_active": true,
+      "linkedin_url": "https://linkedin.com/in/ed-goode",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/fcb96378f379623f478f11ea6d2f3be3b3c68990.jpg"
+    },
+    {
+      "user_id": 430762,
+      "full_name": "Ronald Ding",
+      "title": "Founder",
+      "founder_bio": "CTO @ Shadeform. Former engineer and TL at Robinhood, AWS, and Microsoft working on large scale, distributed infrastructure.",
+      "is_active": true,
+      "linkedin_url": "https://linkedin.com/in/ronaldding",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/1deaec552b7f744f94d76b79ae296d69016a5577.jpg"
+    }
+  ],
+  "jobs": [
+    {
+      "id": 74148,
+      "title": "Founding Sales",
+      "url": "https://www.ycombinator.com/companies/shadeform/jobs/ZBDwwU6-founding-sales",
+      "location": "San Francisco, CA, US / Remote (US)",
+      "type": "Full-time",
+      "role": "Sales",
+      "role_type": null,
+      "salary_range": "$125K - $300K",
+      "equity_range": "",
+      "experience": "1+ years",
+      "visa": "US citizen/visa only",
+      "skills": []
+    },
+    {
+      "id": 74149,
+      "title": "Founding (Senior) Software Engineer",
+      "url": "https://www.ycombinator.com/companies/shadeform/jobs/2sDkjnk-founding-senior-software-engineer",
+      "location": "San Francisco, CA, US / Remote (US)",
+      "type": "Full-time",
+      "role": "Engineering",
+      "role_type": "Backend",
+      "salary_range": "$150K - $190K",
+      "equity_range": "",
+      "experience": "3+ years",
+      "visa": "Will sponsor",
+      "skills": []
+    },
+    {
+      "id": 74159,
+      "title": "Chief of Staff & Automation Lead",
+      "url": "https://www.ycombinator.com/companies/shadeform/jobs/u71t9AV-chief-of-staff-automation-lead",
+      "location": "San Francisco, CA, US / Remote (US)",
+      "type": "Full-time",
+      "role": "Operations",
+      "role_type": null,
+      "salary_range": "$100K - $160K",
+      "equity_range": "",
+      "experience": "1+ years",
+      "visa": "US citizen/visa only",
+      "skills": []
+    }
+  ],
+  "news": [],
+  "launches": [
+    {
+      "id": 73251,
+      "title": "Shadeform: Unifying ML infra across clouds - solving for the GPU shortage",
+      "tagline": "When companies need GPUs, they use Shadeform to access and deploy their workloads to any GPU provider with our unified compute platform and APIs.",
+      "body": "**TLDR:** Teams struggling with GPU availability use Shadeform to **unlock capacity immediately for their growing AI workloads**. Shadeform has a unified, easy-to-use API and platform to access and deploy GPU workloads to any provider. With our aggregated availability and pricing data, we can guarantee inference and training jobs will run on time at optimal cost.\n\n## **The Team**:\n\nWe are Ronald, Ed, and Zach (pictured in order)! We have built and operated critical cloud infrastructure services at AWS and Azure and know the pain of infra management as customers at Robinhood and Capital One. Our goal is to make multi-cloud ML infra simple and easy to use.\n\n![uploaded image](/media/?type=post&id=73251&key=user_uploads/1212177/989a4bdc-3ed1-4937-a76b-9e7f41496b3d)\n\n## **The Problem**: GPU Cloud Availability Shortage\n\n* **Explosion in ML training and inference** demands has resulted in massive GPU shortages; it's difficult and expensive to get GPUs on AWS, GCP, and Azure\n* **Smaller cloud providers are coming online** but have unstable capacity, disparate interfaces, and non-standard OS images preventing companies from adopting at scale\n\n## **The Solution**: Unified Platform for All GPU Providers\n\nShadeform allows you to deploy your inference and training jobs to any cloud provider. We have aggregated all providers, so you can launch your workloads anywhere with our platform and generalized APIs.\\\nWith Shadeform you can:\n\n* Manage GPU instances on every provider with a single control plane\n* Receive notifications, view pricing, and configure auto-reservations when the machines you need are available\n* One click deploy and SSH into machines with any provider\n* Use a unified, simple API\n\n### Deploy Anywhere\n\n![uploaded image](/media/?type=post&id=73251&key=user_uploads/1212177/d4dcc424-a5d6-4583-a5c4-b0d83aa51d71)\n\n### Notify and Auto-Reserve\n\n![uploaded image](/media/?type=post&id=73251&key=user_uploads/1212177/771abd62-79ff-477f-8f69-edd5da8ce8ed)\n\n## **The Goal**: Unify ML Infra Across Clouds\n\nWe are building towards a future where teams are never blocked by their current provider’s GPU capacity and features.\n\n## **The Ask**: Reach out today to access our platform: <https://shadeform.ai>\n\nWe’d love to integrate you with all GPU providers and provide you access to the machines you need, when you need them! Contact us at [founders@shadeform.ai](mailto:founders@shadeform.ai).",
+      "url": "https://www.ycombinator.com/launches/J3T-shadeform-unifying-ml-infra-across-clouds-solving-for-the-gpu-shortage",
+      "votes": 92,
+      "created_at": "2023-07-20T02:31:18.973Z"
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "id": 30822,
+  "name": "Lapis",
+  "slug": "lapis",
+  "former_names": [],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/df9bacd59e8691b297a03e4d95b6d05915aa8b7f.png",
+  "website": "https://www.trylapis.com/",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "Lapis builds, launches, and scales paid ad campaigns for DTC and SaaS businesses.\r\n\r\nLapis agents handle every step of the paid ads journey: writing ad copy (headlines and descriptions), generating the static images used in ads, deploying campaigns across paid channels, creating a custom landing page for each ad, and feeding real user interaction data back into a self-improving ads engine that gets better every day.\r\n\r\nWith Lapis, businesses can rapidly iterate on ads and A/B test at scale, free from the human design and creative bottlenecks that slow teams down. Using Lapis, companies can quantitatively improve their paid ads performance by up to 20x.\r\n\r\nLapis is used by 1,500+ marketing teams and 30+ enterprises, from Fortune 500 businesses to fast growing DTC businesses, and supports 10 languages including English, Spanish, and Italian.",
+  "one_liner": "AI that creates and runs ads, end-end",
+  "team_size": 5,
+  "industry": "B2B",
+  "subindustry": "B2B -> Marketing",
+  "launched_at": 1760555997,
+  "tags": [
+    "Artificial Intelligence",
+    "B2B",
+    "Marketing",
+    "Advertising",
+    "AI"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Fall 2025",
+  "status": "Active",
+  "industries": [
+    "B2B",
+    "Marketing"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/lapis",
+  "api": "https://devasheeshg.github.io/yc-api/batches/fall-2025/lapis.json",
+  "year_founded": 2025,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/lapislabs",
+  "x_url": "https://x.com/trylapis",
+  "fb_url": null,
+  "cb_url": "https://www.crunchbase.com/organization/lapis-labs",
+  "github_url": "https://github.com/trylapis",
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/df9bacd59e8691b297a03e4d95b6d05915aa8b7f.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Aaron Epstein",
+    "url": "https://www.ycombinator.com/people/aaron-epstein"
+  },
+  "founders": [
+    {
+      "user_id": 482153,
+      "full_name": "Varunram Ganesh",
+      "title": "Founder/CEO",
+      "founder_bio": "CEO of Lapis. Previously, I was Head of Growth at Warp (YC W23) where I built the sales and marketing functions from scratch and took Warp from 0 to $2.5M. I am an engineer and I did bitcoin research (wrote code) at the MIT Media Lab for two and a half years.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/varunramg/",
+      "x_url": "https://x.com/varunramg",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/0bd44afb838e64b0fc7617bff42e5638d566c1f1.jpg"
+    },
+    {
+      "user_id": 2840361,
+      "full_name": "Sai Surbehera",
+      "title": "Founder/CTO",
+      "founder_bio": "CTO at Lapis. Previously, I was an MLE at Walmart Tech where I built the recall and reranking algorithm for Walmart Search.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/saisamrit-surbehera/",
+      "x_url": "https://x.com/saibuilds",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/3a937dd319ce406fd497df61e128fffb70c71680.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 94694,
+      "title": "Lapis: The fastest, most accurate AI search analytics platform",
+      "tagline": "Full stack analytics platform that shows you what users are searching and helps you rank higher on ChatGPT, Claude, Perplexity, Gemini, and Grok.",
+      "body": "Hey everyone! We are [Varunram](https://www.linkedin.com/in/varunramg/) and [Sai](https://www.linkedin.com/in/saisamrit-surbehera/), and we’re building Lapis.\n\nThe way we access information is fundamentally changing and ChatGPT is the new default for a large number of people. Unlike Google which shows you a list of blue links to click on, ChatGPT adds additional context and traditional SEO elements like rank and authority are no longer relevant.\n\nHere’s a fun video that encapsulates this perfectly: https://youtube.com/shorts/A1zkkdpXsjM?si=TIR2PpnO9Du4DV2O\n\n# What is Lapis?\n\nLapis helps you rank on AI Search Engines (we currently support ChatGPT, Claude, Perplexity, Gemini, and Grok) without generating hundreds of blogs.\n\n![uploaded image](/media/?type=post&id=94694&key=user_uploads/482153/d7152bae-e95b-49de-b222-45d4b18a7359)\n\nWe manage to do this by extensively analyzing Model responses and a combination of real-time content fixes, technical SEO, and linking websites on domains that are mentioned in models.\n\n# Analyzing AI Search Models\n\nWe spend over 650M tokens a day understanding responses for our customers. We construct a super detailed graph of all websites that show up for a given question, analyze the referenced content, and organically insert content on similar pages. This gives us accurate knowledge on what works and what doesn’t work. We want to learn from the models themselves, not create a rough set of heuristics on what might work.\n\n![uploaded image](/media/?type=post&id=94694&key=user_uploads/482153/fd2bcb1a-26e6-4e76-bf93-34b66739c122)\n\n![uploaded image](/media/?type=post&id=94694&key=user_uploads/482153/cd700a82-7da5-4eb8-9002-fd9152235052)\n\n# Changing Website Content Dynamically\n\nWe dynamically change your website content in real time for AI Search Engines. If Lapis is deployed on a company that does payroll software and a user asks a model “What is the best payroll software”, we highlight them as being the best payroll software and if a user asks “Can you create a comparison table with the top 10 payroll softwares”, we can highlight exactly where the company shines wrt other payroll providers. This removes the guesswork from landing pages for sales and marketing teams, and users and AI Agents get the information they are looking for.\n\n![uploaded image](/media/?type=post&id=94694&key=user_uploads/482153/d950c296-eaf8-4146-bc19-2d5ef8b2b621)\n\n# Removing the black box from Technical SEO\n\nWe fully take care of Technical SEO. For long, SEO has been this black box which no one understands. We solve that through Lapis Agent, which can automatically add meta tags, title tags, Opengraph URLs, sitemaps, and much more. For marketers, this means they don’t have to write code or trouble the engineering team. This also means they don’t have to spend hours with SEO teams on something that can be easily automated.\n\n# Discovering Hidden Markets\n\nMany times, teams don’t know that there’s a huge untapped market waiting for them. With our extensive analysis of prompts, we show all the queries for which businesses are actually showing up for, which means teams get insights into verticals where there’s huge untapped potential.\n\nWe want businesses to understand AI Search without the buzzwords. We want them to organically position themselves for this new shift, and to do so without generating spam content that actively harms website reputation.\n\nWe support over a hundred fast growing startups like Warp, Reducto, and Greptile on Lapis, and if you’re a founder or marketer, I think you’ll find a ton of value in using us.\n\nAnd its free to start, so check it out at trylapis.com!",
+      "url": "https://www.ycombinator.com/launches/OdK-lapis-the-fastest-most-accurate-ai-search-analytics-platform",
+      "votes": 535,
+      "created_at": "2025-10-16T14:56:34.684Z"
+    }
+  ]
+}

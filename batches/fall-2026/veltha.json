@@ -1,0 +1,91 @@
+{
+  "id": 32352,
+  "name": "Veltha",
+  "slug": "veltha",
+  "former_names": [],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/086027e8af9fab6d08a460f136457d84dbf6f354.png",
+  "website": "https://veltha.ai/",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "Veltha is the AI native TPA starting with workers comp. We handle claim for insurance providers end to end.\r\n\r\nLearn more at https://veltha.ai",
+  "one_liner": "AI native TPA starting with workers comp",
+  "team_size": 2,
+  "industry": "Fintech",
+  "subindustry": "Fintech -> Insurance",
+  "launched_at": 1786650265,
+  "tags": [
+    "Fintech",
+    "Insurance"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Fall 2026",
+  "status": "Active",
+  "industries": [
+    "Fintech",
+    "Insurance"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/veltha",
+  "api": "https://devasheeshg.github.io/yc-api/batches/fall-2026/veltha.json",
+  "year_founded": 2026,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/130564928",
+  "x_url": "",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/086027e8af9fab6d08a460f136457d84dbf6f354.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Gustaf Alstromer",
+    "url": "https://www.ycombinator.com/people/gustaf-alstromer"
+  },
+  "founders": [
+    {
+      "user_id": 2366971,
+      "full_name": "Edin Citaku",
+      "title": "Founder/CEO",
+      "founder_bio": "Edin is CEO and co-founder of Veltha, building the AI adjuster for regulated insurance. Prior to Veltha he led Palantir's AI deployment at the german FBI. \nHe graduated with BSc and MSc in computer science at the TU Munich",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/edin-citaku-564000127",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/bdaf52429b81f014247f0a4fb52680e9164ce91a.jpg"
+    },
+    {
+      "user_id": 976541,
+      "full_name": "Roland Jaloszynski",
+      "title": "Founder/CTO",
+      "founder_bio": "Roland is a co-founder of Veltha, an AI-native TPA. He was previously a technical lead on mortgage underwriting automation at Palantir for a $642B servicer, compiling agency guidebooks into executable rules. He earned his computing degree from Poznan University of Technology while working as a software engineer at Amazon, LocalBini and DAC.digital.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/roland-jal",
+      "x_url": "https://x.com/RJaloszynski",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/1d12b27a5c3db72426424a70065a0a1a72eb1d87.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 111427,
+      "title": "Veltha: AI claims adjuster for regulated insurance",
+      "tagline": "Veltha reduces six hours of adjuster work to 10 minutes, with adjusters still making the final call",
+      "body": "**TL;DR: Veltha reads an entire claim file, flags what's missing, and applies the exact federal regulation that governs it, producing a citation-backed determination a human adjuster just signs off on. Work that took an adjuster \\~6 hours now takes \\~10 minutes.** Starting with workers' comp and crop insurance.\n\n<https://www.loom.com/share/9e9701f61bf4400890b4799fdda3d3ff>\n\n**The problem**\n\n1 in 4 claims adjusters expect to retire within five years. Experienced adjusters are retiring faster than carriers can replace them, and processing capacity is now the binding constraint on growth.\n\n**What we built**\n\nVeltha is an AI claims adjuster that runs the whole file end to end:\n\n* **Triage** - reads incoming claim emails and documents, classifies them, and routes each claim to the right workflow.\n* **Gap detection** - checks the file for missing documents and records, then requests them by email, phone, or fax and runs follow-up cadences until they land.\n* **Compliance review** - applies the relevant federal rulebook, and produces a determination where **every output element is tied to a source span and a specific regulatory provision.**\n\nThe adjuster's job shifts from _doing_ the claim to _reviewing_ Veltha's output. Less chasing. Faster decisions. Output that survives an audit.\n\n**What we understand that others don't: regulation is the moat, not the obstacle.** Horizontal platforms (Guidewire, Duck Creek) and generic AI-claims startups can summarize a claim file. They can't tell you _which_ provision triggered _which_ adjustment, with citations. We treat the federal rulebook as an anchor for the workflow we embed within the organisation. That's the difference between a summary a human re-does from scratch and an output an adjuster will actually sign.\n\n**Our ask**\n\nWe'd love intros to:\n\n* **Anyone in claims at a carrier, MGA, or TPA** - especially **workers' comp**\n* **People at large self-insured employers** with claims-heavy, high-risk workforces - Companies exactly like these are who we're built for: **Disney, Marriott, Ford, PG&amp;E, Caterpillar**. If you know someone at that kind of company, an intro is gold.\n\nReach us at [edin@veltha.ai](mailto:edin@veltha.ai) or ping us here. Thanks YC 🙏\n\n[veltha.ai](http://veltha.ai)",
+      "url": "https://www.ycombinator.com/launches/SzD-veltha-ai-claims-adjuster-for-regulated-insurance",
+      "votes": 9,
+      "created_at": "2026-08-21T01:30:00.652Z"
+    }
+  ]
+}

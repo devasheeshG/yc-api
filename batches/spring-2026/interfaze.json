@@ -1,0 +1,112 @@
+{
+  "id": 31386,
+  "name": "Interfaze",
+  "slug": "interfaze",
+  "former_names": [],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/cbbb1bb306037fdebdde3c7b1d20cb434879fb79.png",
+  "website": "https://interfaze.ai",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "Interfaze is an AI model built on a new architecture that merges specialized DNN/CNN models with transformers for tasks that require deterministic output and high consistency like Document intelligence, Object detection, Classification, Audio understanding and more.\r\n\r\nInterfaze outperforms large lab models like Gemini flash, Claude Sonnet and the GPT-5.4 mini series\r\n\r\nArchitecture paper: https://arxiv.org/abs/2602.04101\r\nFull open benchmarks: https://interfaze.ai/leaderboards",
+  "one_liner": "AI model built for high accuracy deterministic tasks",
+  "team_size": 5,
+  "industry": "B2B",
+  "subindustry": "B2B -> Infrastructure",
+  "launched_at": 1774812127,
+  "tags": [],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": true,
+  "nonprofit": false,
+  "batch": "Spring 2026",
+  "status": "Active",
+  "industries": [
+    "B2B",
+    "Infrastructure"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/interfaze",
+  "api": "https://devasheeshg.github.io/yc-api/batches/spring-2026/interfaze.json",
+  "year_founded": 2025,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/interfaze-ai",
+  "x_url": "https://x.com/interfaze_ai",
+  "fb_url": null,
+  "cb_url": "https://www.crunchbase.com/organization/jigsawstack",
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/cbbb1bb306037fdebdde3c7b1d20cb434879fb79.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [
+    "https://bookface-images.s3.us-west-2.amazonaws.com/attachments/e1b4669e7ba400f6249ca5fc9776423b8b2478f7.png"
+  ],
+  "primary_partner": {
+    "name": "Aaron Epstein",
+    "url": "https://www.ycombinator.com/people/aaron-epstein"
+  },
+  "founders": [
+    {
+      "user_id": 1618136,
+      "full_name": "Yoeven D Khemlani",
+      "title": "Founder/CEO",
+      "founder_bio": "8 years in edge computer vision research | 2nd time founder",
+      "is_active": true,
+      "linkedin_url": "https://linkedin.com/in/yoeven",
+      "x_url": "https://x.com/yoeven",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/48506dcf75872046a6d42638b3e2a07552e1a7ca.jpg"
+    },
+    {
+      "user_id": 2229538,
+      "full_name": "Harsha Vardhan Khurdula",
+      "title": "Founder/CTO",
+      "founder_bio": "Building https://interfaze.ai",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/harsha-vardhan-khurdula-99b400183/",
+      "x_url": "https://x.com/khurdula",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/9136e9e55a80d9ebea288f0e36dc19b8d9bd272f.jpg"
+    }
+  ],
+  "jobs": [
+    {
+      "id": 107799,
+      "title": "Applied AI Engineer & Researcher",
+      "url": "https://www.ycombinator.com/companies/interfaze/jobs/LYxZ0kI-applied-ai-engineer-researcher",
+      "location": "San Francisco, CA, US",
+      "type": "Full-time",
+      "role": "Engineering",
+      "role_type": "Machine learning",
+      "salary_range": "$150K - $350K",
+      "equity_range": "0.50% - 2.00%",
+      "experience": "1+ years",
+      "visa": "Will sponsor",
+      "skills": [
+        "C++",
+        "Rust",
+        "Torch/PyTorch",
+        "Docker",
+        "CUDA",
+        "Transformers"
+      ]
+    }
+  ],
+  "news": [],
+  "launches": [
+    {
+      "id": 99878,
+      "title": "Interfaze - Deterministic AI for developer tasks: OCR, Object detection, Web scraping, STT, Classification and more",
+      "tagline": "A new model architecture that outperforms SOTA LLMs on deterministic tasks that require high consistency and accuracy",
+      "body": "![uploaded image](/media/?type=post&id=99878&key=user_uploads/1618136/2310c230-6719-4913-ba16-43c8cab6c2d9)\n\n**tldr:** LLMs are built for human-in-the-loop tasks which are highly non-deterministic in nature. We built an AI model for tasks that require high accuracy and verifiable data you can build workflows around.\n\nInterfaze is an AI model built on a new architecture that combines specialized DNN+CNN models with transformers for developer tasks that require deterministic output and high consistency like:\n\n* Vision (OCR, Object detection, GUI) \n* Structured web extraction\n* Audio (STT, Diarization, Audio semantics)\n* Classification (Image, Text)\n* Web search and more\n\n**Try here:** <https://interfaze.ai>\n\nIf you’ve ever tried to build a production application using LLMs for tasks like OCR, web scraping, or strict structured data extraction, you already know the pain: hallucinated keys, broken JSON, hidden inaccurate data and massive latency spikes.\n\nYou usually end up chaining multiple open source models together just to get a reliable result but face challenges with scaling or being stuck with outdated models from providers like AWS, Azure and GCP.\n\n**Model comparison**\n\n![uploaded image](/media/?type=post&id=99878&key=user_uploads/1618136/b270b0f5-76f2-4d11-808a-d31f7e977b07)\n\n_Check out the latest benchmarks on our site [here](https://interfaze.ai)._\n\n**OCR example for KYC**\n\n![uploaded image](/media/?type=post&id=99878&key=user_uploads/1618136/619ba060-a307-46b5-8101-601b03aaa1c4)\n\nBeyond higher accuracy, now you get additional data that allows you to both validate your data and build reliable pipelines as a developer.\n\nA subset of the additional metadata you get when you run an OCR task 👇\n\n![uploaded image](/media/?type=post&id=99878&key=user_uploads/1618136/6f8e5580-492b-447f-bed4-c2cdc4470750)\n\n_Note: the confidence score value can be used to build verifiable systems. bounding boxes can be used to trace items for consistent tasks with guessing._\n\n**Web scraping for LinkedIn**\n\nWe all know how hard it is to scrape sites like LinkedIn, whether you are switching proxy providers, rewriting your scripts, or even getting your IP banned.\n\n![uploaded image](/media/?type=post&id=99878&key=user_uploads/1618136/7ad5d97e-a076-4698-91bd-5da3dcd5ff22)\n\n\nInterfaze is trained to work with the browser infra beyond just looking at pure html like traditional LLMs. Allowing it to learn new work around, rotate proxies when needed and figure out how to scrape any site under 30 seconds.\n\n**GUI/Computer use - Filling a form**\n\n![uploaded image](/media/?type=post&id=99878&key=user_uploads/1618136/cc344350-9e10-446c-89ee-f6c8db3d5602)\n\n**Object Detection - Construction site equipment check**\n\n![uploaded image](/media/?type=post&id=99878&key=user_uploads/1618136/eb58811e-5a6d-4563-b666-538255f5b630)\n\n**Architecture**\n\n![uploaded image](/media/?type=post&id=99878&key=user_uploads/1618136/08c716d5-e2b5-487e-bade-c469013f1a5a)\n\nWe spent a year researching a new architecture to solve this problem. We just couldn’t accept that attention is all you need, we think you need a new interfaze 😉\n\nFull paper: <https://arxiv.org/abs/2602.04101> (Accepted into IEEE CAI 2026)\n\n**Team**\n\n![uploaded image](/media/?type=post&id=99878&key=user_uploads/1618136/38e298b2-92cd-4476-8da0-913ba315bb75)\n\nI've been a developer and ML engineer for the past 8 years, working with ML models on the edge for real-world experiences like motion capture and navigation mapping to backend workflows like OCR, Web scraping pipelines, and more. Socials: [LinkedIn](https://www.linkedin.com/in/yoeven/?skipRedirect=true), [X](https://x.com/yoeven)\n\nHarsha has over 5 years of experience specializing in computer vision, reinforcement learning for SLMs, and AI research with multiple peer-reviewed papers. Socials: [LinkedIn](https://www.linkedin.com/in/harsha-vardhan-khurdula/), [X](https://x.com/khurdula)\n\nInterfaze X: <https://x.com/interfaze_ai><https://interfaze.ai/>\\\nInterfaze LinkedIn: <https://www.linkedin.com/company/interfaze-ai>\n\nSite: [https://interfaze.ai](https://interfaze.ai/)\n\nDocs: <https://interfaze.ai/docs>",
+      "url": "https://www.ycombinator.com/launches/Pyw-interfaze-deterministic-ai-for-developer-tasks-ocr-object-detection-web-scraping-stt-classification-and-more",
+      "votes": 32,
+      "created_at": "2026-04-20T15:59:34.348Z"
+    }
+  ]
+}
