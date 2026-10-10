@@ -1,0 +1,121 @@
+{
+  "id": 31458,
+  "name": "Reason Machines",
+  "slug": "reason-machines",
+  "former_names": [
+    "EasyClaw",
+    "Ara"
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/1f536d08b73147eb71c0665fe5c2d6c6ffed0663.png",
+  "website": "https://reasonmachines.com",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "Reason Machines builds Reason Agent, the autonomous software engineer for engineering teams. Reason connects to GitHub, reproduces bugs, writes code, passes tests, and ships review-ready pull requests with recordings and logs across cloud environments.",
+  "one_liner": "Reason Machines builds Reason Agent, the autonomous software engineer…",
+  "team_size": 2,
+  "industry": "B2B",
+  "subindustry": "B2B -> Productivity",
+  "launched_at": 1775160352,
+  "tags": [
+    "Developer Tools",
+    "Enterprise Software",
+    "Cloud Computing"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": true,
+  "nonprofit": false,
+  "batch": "Spring 2026",
+  "status": "Active",
+  "industries": [
+    "B2B",
+    "Productivity"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/reason-machines",
+  "api": "https://devasheeshg.github.io/yc-api/batches/spring-2026/reason-machines.json",
+  "year_founded": 2026,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/reasonmachines",
+  "x_url": "https://x.com/reasonmachines",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/1f536d08b73147eb71c0665fe5c2d6c6ffed0663.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [
+    "https://bookface-images.s3.us-west-2.amazonaws.com/attachments/e6483df4542e8fec3bc050b1bc1cf0562df4b238.png",
+    "https://bookface-images.s3.us-west-2.amazonaws.com/attachments/8caf159fde370af7bbd020dd2a597856e67f6aa5.png"
+  ],
+  "primary_partner": {
+    "name": "Aaron Epstein",
+    "url": "https://www.ycombinator.com/people/aaron-epstein"
+  },
+  "founders": [
+    {
+      "user_id": 1868530,
+      "full_name": "Adi Singh",
+      "title": "Founder/CEO",
+      "founder_bio": "co-founder & ceo @ Reason Machines\nEECS @ UC Berkeley, Cybernetics NTNU\nPrev built a rust based IDE from scratch\n21\n",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/adisinghlink",
+      "x_url": "https://x.com/xadisingh",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/39dc609171f30d0579beff3ad7feda1e12ddde45.jpg"
+    },
+    {
+      "user_id": 3131989,
+      "full_name": "Sven Myhre",
+      "title": "Founder/CTO",
+      "founder_bio": "co-founder @ Reason Machines (P26)\n-\nWith a background in EECS from UC Berkeley and scaling ML infra in industry, some notable milestones include winning 1st place in the Norwegian AI Championship 2025, having chaired Norway's largest AI student org and having ran ultramarathons (100km>).",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/svemyh",
+      "x_url": "https://x.com/svemyh",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/fe32f68ce79ac76c83594b8ea44b35b153f2e132.jpg"
+    }
+  ],
+  "jobs": [
+    {
+      "id": 102429,
+      "title": "Engineering Internship",
+      "url": "https://www.ycombinator.com/companies/reason-machines/jobs/r1SHuHh-engineering-internship",
+      "location": "San Francisco, CA, US",
+      "type": "Full-time",
+      "role": "Engineering",
+      "role_type": "Full stack",
+      "salary_range": "",
+      "equity_range": "0.50% - 2.00%",
+      "experience": "Any (new grads ok)",
+      "visa": "US citizen/visa only",
+      "skills": [
+        "PostgreSQL",
+        "React",
+        "Rust",
+        "TypeScript",
+        "Distributed Systems",
+        "LLMs",
+        "AI Agents"
+      ]
+    }
+  ],
+  "news": [],
+  "launches": [
+    {
+      "id": 102348,
+      "title": "Ara - The World's First Self-driving IDE",
+      "tagline": "The IDE that thinks ahead of you",
+      "body": "Hey everyone, we’re [Adi](https://www.linkedin.com/in/adisinghlink/) and [Sven](https://www.linkedin.com/in/svemy/) - cofounders of [Ara](https://ara.so/) 👋\\\n\\\n**tl;dr:** we built an IDE for the future\n\n<https://youtu.be/6ASb9QW2QEw>\\\n\\\n**the problem**\\\nThe bottleneck in development keeps moving. It used to be writing the code. Then agents solved that, and it became reviewing the code. Now what's left is planning the next step, and every IDE still waits.\n\n![uploaded image](/media/?type=post&id=102348&key=user_uploads/3131989/cb840d79-95f8-446d-b4cd-a60e9db72a85)\n\n**the solution** \\\nAra closes the loop. It proactively plans your next step, handing you proposals you can discard or send off to follow up on, with self-improving memory across all your tools and sessions, and full visibility across chats, files, browsers, terminals, and review panes.\n\n![uploaded image](/media/?type=post&id=102348&key=user_uploads/3131989/fc09658e-c84b-4e56-8b00-4485c3de72ae)\n\n\\\n**team**\\\nAdi and Sven both studied EECS at UC Berkeley. Adi worked in applied ML, at Scale AI and previously built an IDE company. Sven was an ML engineer on production systems and chaired Norway's largest student AI org. Serial hackathon winners, they've built and lived together across four cities and dropped out to build the IDE they always wanted.\n\nThe goal is an IDE that runs the development loop end to end, not one that waits for instructions.\n\n\\\n_The IDE for token-maxxers._\n\n![uploaded image](/media/?type=post&id=102348&key=user_uploads/3131989/eb3b255b-1cc1-4f77-a1c5-aa2f22227b7b)\n\n**our ask**\\\nTry it! [**Download Ara**](https://ara.so/) and email us at [founders@ara.so](mailto:founders@ara.so) with your feedback.",
+      "url": "https://www.ycombinator.com/launches/Qcm-ara-the-world-s-first-self-driving-ide",
+      "votes": 30,
+      "created_at": "2026-06-01T00:32:45.864Z"
+    }
+  ]
+}

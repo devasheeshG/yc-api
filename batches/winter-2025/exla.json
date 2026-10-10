@@ -1,0 +1,91 @@
+{
+  "id": 30284,
+  "name": "Exla",
+  "slug": "exla",
+  "former_names": [],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/94cd00784e37842fc455ee2fd7b22d487b0693cf.png",
+  "website": "https://exla.ai/",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "Exla is your 24/7 AI SRE agent. It reads your production logs, traces, and deploys, and holds full context on your codebase. It establishes a live baseline of normal behavior, so when something silently regresses, it catches the deviation immediately, pins it to the exact commit that caused it, and opens a fix PR. No paging a human at 3am, no digging through dashboards to find what changed.\r\n\r\nhttps://cal.com/exla-ai/schedule",
+  "one_liner": "Building agents that reads logs and fixes issues on your behalf.",
+  "team_size": 2,
+  "industry": "B2B",
+  "subindustry": "B2B -> Infrastructure",
+  "launched_at": 1740012412,
+  "tags": [
+    "Artificial Intelligence",
+    "Infrastructure"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Winter 2025",
+  "status": "Active",
+  "industries": [
+    "B2B",
+    "Infrastructure"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/exla",
+  "api": "https://devasheeshg.github.io/yc-api/batches/winter-2025/exla.json",
+  "year_founded": 2025,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/exla-corp",
+  "x_url": "https://x.com/exla_ai",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": "https://github.com/exla-ai",
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/94cd00784e37842fc455ee2fd7b22d487b0693cf.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Brad Flora",
+    "url": "https://www.ycombinator.com/people/brad-flora"
+  },
+  "founders": [
+    {
+      "user_id": 956313,
+      "full_name": "Viraat Das",
+      "title": "Founder/CEO",
+      "founder_bio": "CEO @ Exla. Previously machine learning engineer @ Amazon.",
+      "is_active": true,
+      "linkedin_url": "https://linkedin.com/in/viraatdas",
+      "x_url": "https://x.com/therealviraat",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/9056f9785492560382fac9defa19f98d3b453cc6.jpg"
+    },
+    {
+      "user_id": 2212412,
+      "full_name": "Pranav Nair",
+      "title": "Founder/CTO",
+      "founder_bio": "CTO at Exla. Previously an OS engineer at Apple leading sleep/hibernation for all Apple devices.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/pranavnair311/",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/45b540ae3ca67482fd629d374168e25e3e74bb7a.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 88090,
+      "title": "Exla – Run datacenter models on edge devices",
+      "tagline": "Optimize models to run on edge devices (e.g. Jetsons) with 3-20x faster inference and 80% less memory requirements",
+      "body": "Hey YC! We’re Viraat and Pranav – cofounders of Exla.\n\n![uploaded image](/media/?type=post&id=88090&key=user_uploads/2212412/6f2a4f23-207a-4ba8-84dd-1be1039c46f7)\n\n# **TL;DR**\n\nThe Exla SDK optimizes models for edge devices (e.g. NVIDIA Jetsons), **cutting memory usage by up to 80%, with 3-20x faster inference**. We’re focusing on optimizing and deploying **LLMs, VLMs, VLAs, and other CV models** on the edge.\\\n[Here’s Viraat showcasing our SDK](https://www.loom.com/share/d8fbb4faef87493c9806610fff6ff86c?sid=10b54831-159b-4157-95b7-8b9f7a5c8d8e)\n\n# **‼️ The Problem**\n\n**Frontier models are unlocking new applications on constrained edge devices** – Vision-Language Models in manufacturing defect detection, Vision-Language-Action Models to control robots via natural language, and LLMs to power in-car assistants are a few examples.\n\n**But these** **models are now shy of a _trillion_ parameters**, and with the emergence of inference-time scaling, **they are more computationally demanding than ever**. This limits their adoption to edge devices with beefy GPUs and sufficiently large VRAM, and even then, a Jetson Orin Nano Super is completely saturated attempting to run a 13B model, leaving little room for other tasks.\n\n# **🏎️ The Solution: The Exla SDK**\n\n**We’re building mixed-precision low-bit quantization software** to dramatically cut the compute footprint of these models, leading to **80% less memory usage, 3-20x faster inference**, and reduced energy consumption.\n\n**Today we’re starting with the Exla SDK** which applies our optimizations to a catalog of transformer-based and CV models, with growing support for your custom models. We’re primarily targeting deployment on NVIDIA Jetsons, followed by CPU-based platforms like Raspberry Pis and other embedded platforms.\n\n![uploaded image](/media/?type=post&id=88090&key=user_uploads/2212412/68c46641-ffb9-4dc9-a0a0-8facdba4e132)\n\nOur roadmap includes building custom silicon that takes advantage of the quirks of low bit compute – which we expect to bring in another order of magnitude in compute savings. _We’re bringing frontier models everywhere._\n\n# **🥷 The Team**\n\nWe met each other on the first day of college under questionable circumstances and have built several projects together since. Exla is the latest in that series!\n\n[Viraat](https://www.linkedin.com/in/viraatdas/) graduated in 2.5 years and joined Amazon as machine learning engineer, where he worked on building personalized search and infrastructure to optimize models. In a previous life, he used to marathon around the world. Now he marathons at home, coding.\n\n[Pranav](https://www.linkedin.com/in/pranavnair311/) previously worked at Apple as an OS engineer, hacking the iOS/macOS kernel to improve the sleep/wake experience for over a billion devices. In his non-existent free time, he tends to his 5 year old baby – an operating system he’s built from scratch.\n\n# **🙏 Our Ask!**\n\nPlease reach out to [**founders@exla.ai**](mailto:founders@exla.ai) if you’re facing issues optimizing your models on Jetsons, other edge devices, or on-prem deployments! We’re happy to onboard you to our private beta.\n\nWe’re particularly looking to solve model optimization at companies working on robotics, manufacturing & industrial automation, and camera-based systems – your help would make a world of difference <3",
+      "url": "https://www.ycombinator.com/launches/Muo-exla-run-datacenter-models-on-edge-devices",
+      "votes": 27,
+      "created_at": "2025-02-27T01:55:49.203Z"
+    }
+  ]
+}

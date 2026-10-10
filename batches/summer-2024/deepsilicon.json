@@ -1,0 +1,83 @@
+{
+  "id": 29747,
+  "name": "deepsilicon",
+  "slug": "deepsilicon",
+  "former_names": [],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/86bf1a250ebd174788e945f8cb80bbfa5fad5a1c.png",
+  "website": "https://www.deepsilicon.net/",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "",
+  "one_liner": "Software and hardware to run neural networks faster and cheaper",
+  "team_size": 2,
+  "industry": "Industrials",
+  "subindustry": "Industrials",
+  "launched_at": 1724647478,
+  "tags": [
+    "Edge Computing Semiconductors",
+    "Hard Tech",
+    "AI"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Summer 2024",
+  "status": "Inactive",
+  "industries": [
+    "Industrials"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada",
+    "Remote",
+    "Partly Remote"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/deepsilicon",
+  "api": "https://devasheeshg.github.io/yc-api/batches/summer-2024/deepsilicon.json",
+  "year_founded": 2024,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/deepsilicon/",
+  "x_url": "",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": "https://github.com/deepsilicon",
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/86bf1a250ebd174788e945f8cb80bbfa5fad5a1c.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Diana Hu",
+    "url": "https://www.ycombinator.com/people/diana-hu"
+  },
+  "founders": [
+    {
+      "user_id": 1269816,
+      "full_name": "Abhinav Reddy",
+      "title": "Founder",
+      "founder_bio": "Computer Science and Electrical Engineering.\nFocused on creating simple software and fast hardware for running neural networks.",
+      "is_active": false,
+      "linkedin_url": "https://www.linkedin.com/in/abhinav-reddy-387386262/",
+      "x_url": "https://x.com/abhireddy2004",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/70cc4f7cd720b9b145edb1547c6bc4ce0b5a88d1.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 83396,
+      "title": "deepsilicon: Running neural nets with 5x less RAM and up to 20x as fast",
+      "tagline": "We’re making hardware to run neural nets with orders of magnitude less latency, energy, and 5x less RAM. Right now, we’re proving it with software.",
+      "body": "![uploaded image](/media/?type=post&id=83396&key=user_uploads/1269816/61292aaf-ce8a-4b34-ac1a-688fe1bc6517)\n\n**👥 The Team**\\\nHi everyone, we’re running deepsilicon!\n\n**📉 The Problem**\\\nTransformer-based models have become increasingly crucial in various industries, from natural language processing to Vision Language Action models for robotics. However, the deployment and operation of these models, particularly those exceeding a few billion parameters, present significant challenges regarding hardware capabilities, energy consumption, and operational costs.\\\nTraditional approaches to this problem typically fall into two categories:\n\n1. Utilize massive, power-hungry GPU clusters to distribute the computational load.\n2. Compromise on model size and capabilities to fit within existing hardware constraints on the edge.\n\nBoth of these approaches have significant drawbacks. GPU clusters are expensive to acquire and operate, with substantial energy costs and complex cooling requirements. They also introduce latency issues due to inter-device communication and can’t be deployed on the edge. On the other hand, compromising on model size can limit the AI's capabilities and potential applications, putting organizations at a competitive disadvantage.\n\n\\\n📈 **The Solution**\\\nWe help eliminate the need for inefficient distributed computing and compromised model capabilities by providing a full-stack system where we run transformer-based models on a single chip, including existing hardware. Our solution can run on a custom ASIC, dramatically reducing power consumption and operational costs.\n\n<https://www.youtube.com/watch?v=MctVUhuXgeA>\n\n\\\n**_Here's why this is a game-changer:_**\n\n* **Immediate Deployment:** Your large-scale AI model can be operational on a single chip, eliminating the need for complex distributed setups. This means you can leverage the full power of multi-billion parameter models right from the start.\n* **Customization:** The chiplet architecture allows for near-infinite customization, enabling hardware/software co-design tailored to specific client needs.\n* **Efficiency:** Even on existing Nvidia hardware, our software provides a 5x reduction in memory usage\n* **Ease of Use:** Developers can switch their linear layer with our optimized version, dramatically simplifying the integration process and democratizing access to large-scale AI capabilities.\n\nIf you’re a YC company, we offer a 50% discount to help you train your model and deploy it on the device or the cloud!\n\n**🙏 How You Can Help**\\\nWe are looking for connections and collaborations to drive our mission forward. If you or anyone in your network is interested in learning more or helping out, we want to hear from you! We’re specifically looking to connect with:\n\n* Robotics, Drone, and Autonomous Vehicle Companies\n* People looking to train their own foundation model\n* Experts in edge AI deployment\n\nIf that’s you or someone you know, please email us at [founders@deepsilicon.net](mailto:founders@deepsilicon.net)!",
+      "url": "https://www.ycombinator.com/launches/Lh6-deepsilicon-running-neural-nets-with-5x-less-ram-and-up-to-20x-as-fast",
+      "votes": 38,
+      "created_at": "2024-08-26T17:39:52.197Z"
+    }
+  ]
+}

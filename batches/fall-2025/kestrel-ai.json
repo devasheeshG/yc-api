@@ -1,0 +1,94 @@
+{
+  "id": 30903,
+  "name": "Kestrel AI",
+  "slug": "kestrel-ai",
+  "former_names": [],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/a17c93b508bc423bb59667db4befdfd07cfd6f68.png",
+  "website": "https://usekestrel.ai/",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "Kestrel is the AI automation layer for platform engineering teams.\r\n\r\nPlatform teams use Kestrel to automate incident response, cloud provisioning, CI/CD, security, and developer requests across their stack.\r\n\r\nKestrel turns natural-language prompts into deterministic, production-ready workflows with 40+ integrations, 200+ pre-built actions, and support for custom HTTP and webhook actions.\r\n\r\nDeveloper-first, with a CLI, Python SDK, and MCP server to manage workflows from where platform teams already work.",
+  "one_liner": "AI Agents for Platform Engineering",
+  "team_size": 2,
+  "industry": "B2B",
+  "subindustry": "B2B -> Security",
+  "launched_at": 1761187283,
+  "tags": [
+    "AIOps",
+    "Developer Tools",
+    "DevOps",
+    "Infrastructure"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Fall 2025",
+  "status": "Active",
+  "industries": [
+    "B2B",
+    "Security"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/kestrel-ai",
+  "api": "https://devasheeshg.github.io/yc-api/batches/fall-2025/kestrel-ai.json",
+  "year_founded": 2025,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/kestrel-ai-security/",
+  "x_url": "https://x.com/kestrel__ai",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": "https://github.com/KestrelAI/Kestrel-Operator",
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/a17c93b508bc423bb59667db4befdfd07cfd6f68.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [
+    "https://bookface-images.s3.us-west-2.amazonaws.com/attachments/1567ed15193a6530e6a8ca6468ddada7553e0aa0.png"
+  ],
+  "primary_partner": {
+    "name": "Pete Koomen",
+    "url": "https://www.ycombinator.com/people/pete-koomen"
+  },
+  "founders": [
+    {
+      "user_id": 2950276,
+      "full_name": "Raman Varma",
+      "title": "Founder/CEO",
+      "founder_bio": "Co-founder & CEO. Prev: CS @ Berkeley; ML @ Sky Computing / BAIR labs, Square, Coursera; SWE @ Illumio.\nBuilding Kestrel – AI agents for platform engineering teams.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/ramanvarma/",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/b2b5f7e9806eb261a5342845ec47b959b65e467e.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 104092,
+      "title": "Kestrel - AI Agents for Platform Engineering",
+      "tagline": "Automate incident response, CI/CD, developer requests, security, and more with AI agents that build deterministic workflows across your platform stack.",
+      "body": "TL;DR: Kestrel turns natural-language prompts into deterministic, production-ready workflows that automate incident response, cloud provisioning, CI/CD, security, and developer requests. It supports 30+ integrations and is developer-first, with a CLI, Python SDK, and MCP server so you can manage workflows from where you (and your coding agents) already work. Build your first workflow in &lt;5 mins with $1,000 in usage credits at [usekestrel.ai](http://usekestrel.ai).\n\n<https://youtu.be/2y60CgQ-huM>\n\n**The Problem**\n\nCoding agents made every developer faster. But the platform team did not get faster with them.\n\nDevelopers now ship with Cursor/Claude/Codex and generate infrastructure, deployments, and provisioning requests at a rate no platform team was staffed for.\n\nAt illumio I once waited more than three weeks just to get Kafka clusters provisioned for a new service I was building. And provisioning is only part of it. The platform team is also on the hook for incident response when production breaks, repairing the CI/CD glue that ties the deployment pipeline together, platform security, and every \"can you just\" developer request in Slack.\n\nMost platform teams pick one of two bad options. They hand developers (and their agents) direct access to infra, CI/CD, and cloud accounts, and hope nothing breaks. Or they gatekeep and become the bottleneck every developer has to wait on.\n\nBuilding a platform that developers actually like has been a luxury only the largest engineering orgs could staff, and an understaffed platform effort usually does more harm than good.\n\n**The Solution**\n\nSee how it works: <https://youtu.be/g1dGUsuZgws>\n\nPlatform teams use Kestrel to automate incident response, cloud provisioning, CI/CD, security, developer requests, and more across their stack. You describe what you want to automate in plain English, and the Workflow Agent builds the whole thing. It draws from 140+ pre-built actions across 30+ integrations, plus custom HTTP APIs and webhooks for anything that isn't built in yet.\n\nOnce a workflow is configured it runs deterministically with no LLM deciding what to do at runtime.\n\nYou can define workflows that handle self-service developer requests without handing over the keys; scope who can trigger each workflow; fence it to specific clusters, cloud accounts, or repos; and require approval before anything touches production. Developers get a golden path without free rein, and the platform team keeps the guardrails without gatekeeping.\n\nKestrel analyzes your connected integrations and suggests ready-to-deploy workflows, and the Workflow Assistant turns your existing runbooks and scripts into production-ready automations, so you don't have to start from scratch: <https://youtu.be/IOoLb300rqE>\n\nEvery workflow you build in Kestrel is fully observable, with a dashboard that shows what's running, what's waiting on approval, and what failed; real-time step-level logs; and a failure diagnosis agent that fixes failed workflows for you: <https://youtu.be/SEInJ040ZVs>\n\nThe [Kestrel CLI](https://docs.usekestrel.ai/workflows/cli), [Python SDK](https://docs.usekestrel.ai/workflows/sdk), and [MCP server](https://docs.usekestrel.ai/workflows/mcp) let you and your coding agents build and manage workflows from the terminal and application code.\n\n**How It Works**\n\nFirst, connect your platform stack. Kestrel supports 30+ integrations across infrastructure, PaaS, AI compute, observability, on-call, networking, databases, CI/CD, and IaC:\n\n![uploaded image](/media/?type=post&id=104092&key=user_uploads/2950276/c11a044c-2df5-4c23-8035-5c23b99ad45c)\n\nThen, open the Workflow Agent and describe what you want to automate. Here are a few examples:\n\n* “When a PagerDuty alert fires for the production Kubernetes cluster, run root cause analysis, post the findings to #incidents in Slack, create a P1 Jira ticket, and apply the recommended fix after approval in Kestrel.”\n* “When a developer submits a cloud provisioning request in Slack, route it to the team lead for approval, provision the AWS resources with Terraform in the infra repo, and notify the developer once the pull request is merged.”\n\nEverything you do in the dashboard is available via the CLI/SDK/MCP. E.g. you can generate a workflow, activate it, and clear an approval from the terminal:\n\n![uploaded image](/media/?type=post&id=104092&key=user_uploads/2950276/e5c068f1-98e7-4e35-9e83-407f2d4807a6)\n\n**Ask**\n\nIf you're a platform engineer or eng leader tired of manually responding to developer requests, incidents, or CI/CD failures, you can try it yourself today with a 14-day free trial and $1,000 in usage credits. Use suggested workflows and the Workflow Assistant to build your first platform automations in minutes.\n\nIf you want to learn more about what onboarding looks like or dedicated infrastructure/on-prem deployment options, [book a demo](https://calendly.com/hello-usekestrel/30min) and I'll walk you through it.\n\n[Try Kestrel today](https://platform.usekestrel.ai/register)",
+      "url": "https://www.ycombinator.com/launches/R4u-kestrel-ai-agents-for-platform-engineering",
+      "votes": 20,
+      "created_at": "2026-07-01T23:54:04.445Z"
+    },
+    {
+      "id": 95330,
+      "title": "Kestrel: AI Copilot for Kubernetes Ops & Security",
+      "tagline": "Run Kubernetes securely and fix incidents in seconds, not hours.",
+      "body": "Hey everyone, we’re [Raman](https://www.linkedin.com/in/ramanvarma/) and [Evan](https://www.linkedin.com/in/evanchopra/) from Kestrel 👋\\\n\\\n**TL;DR:** Kestrel helps teams using Kubernetes detect, investigate, and fix issues without manual firefighting. It monitors cluster health and security 24/7, finds root causes, and generates ready-to-apply YAML fixes - so incidents get resolved before you even reach for your laptop.\\\n\\\nLaunch video: https://youtu.be/HA2YziEBMVw\n\n**Ask:** If your team runs Kubernetes, we’d love to hear from you! You can reach out to us at [raman@usekestrel.ai](mailto:raman@usekestrel.ai) or [book a demo here](https://calendly.com/raman-usekestrel/demo). Or get started in minutes with a [14-day trial](https://platform.usekestrel.ai/register)!\n\n# **The** **Problem**\n\nRunning Kubernetes at scale is **chaos**.\\\n\\\nAs founding engineers on the Kubernetes Security team at Illumio, we saw both startups and large **organizations struggle with its complexity and scale**. For example, network policies are so tricky that many teams default to allowing everything, and even basic ops tasks like debugging failed rollouts mean spending hours digging through logs and events just to find where things went wrong.\\\n\\\nOver time, this complexity compounds and clusters begin to drift - configs diverge, policies break, and “temporary” workarounds become production. And when something goes wrong, **engineers are buried under alerts and reports** from disconnected tools, trying to debug blind at 3 a.m.\n\n# **Our Solution**\n\nKestrel is redefining how teams manage Kubernetes with the **first agentic platform that unifies ops and security**. It replaces manual triage with autonomous investigations and human-in-the-loop remediations - so issues that used to take hours to debug can be understood and fixed in seconds.\n\n💬 **AI Chat Assistant**: Investigate **any Kubernetes issue** across all of your clusters in plain English - skip the complex queries and context switching, and get answers with ready-to-apply YAML fixes from a single point of command.\n\n![uploaded image](/media/?type=post&id=95330&key=user_uploads/2950276/4cabf3fd-7053-4e7b-8562-4feaa5f72df4)\n\n🚨 **Incident Response**: Kestrel continuously monitors your clusters to detect incidents, trace root causes, and generate **YAML fixes that can be applied with a single click**. It's like having a dedicated on-call SRE team - without the burnout or headcount.\n\n![uploaded image](/media/?type=post&id=95330&key=user_uploads/2950276/218cbd5b-4100-4341-a02b-4b8ff04d5a26)\n\n🌐 **Topology Map**: Visualize your Kubernetes infra with classified intra-cluster, cross-cluster, and external traffic overlaid in real time.\n\n![uploaded image](/media/?type=post&id=95330&key=user_uploads/2950276/280f095a-4030-46bf-824e-1f0d421cf761)\n\n⚠️ **Risk Assessments**: Launch a swarm of specialized AI agents that discover vulnerabilities and provide **exact remediation steps** across network security, RBAC, privilege escalation, container image security and more. Validate fixes with a single click.\n\n![uploaded image](/media/?type=post&id=95330&key=user_uploads/2950276/53b80638-b9b4-4986-be1d-7a5ed6db5571)\n\n# **The Team**\n\n[Raman](https://www.linkedin.com/in/ramanvarma/) and [Evan](https://www.linkedin.com/in/evanchopra/) were founding engineers on Illumio’s Kubernetes team, where they built distributed systems to secure clusters for Fortune 500 companies.\\\n\\\nRaman previously worked on ML systems research at Sky Lab and BAIR. Evan was a security researcher during his Master’s in Computer Science, focusing on the Signal Protocol.\n\n![uploaded image](/media/?type=post&id=95330&key=user_uploads/2950276/7eeab8b1-9e35-4d4a-bac4-41b196c89fc7)\n\n",
+      "url": "https://www.ycombinator.com/launches/Ona-kestrel-ai-copilot-for-kubernetes-ops-security",
+      "votes": 37,
+      "created_at": "2025-11-09T16:01:39.639Z"
+    }
+  ]
+}

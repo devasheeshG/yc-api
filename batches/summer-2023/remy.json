@@ -1,0 +1,95 @@
+{
+  "id": 28799,
+  "name": "Remy",
+  "slug": "remy",
+  "former_names": [
+    "Remy Security"
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/93b0f6a6d9697c73c56e4ffd40933940d124fb99.png",
+  "website": "https://www.startremy.com/",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "Remy automates insurance-related tasks for practices, starting with phone calls to verify patient benefits and check on claims.",
+  "one_liner": "Making it simpler for medical clinics to work with insurance",
+  "team_size": 4,
+  "industry": "Healthcare",
+  "subindustry": "Healthcare -> Healthcare Services",
+  "launched_at": 1687066070,
+  "tags": [
+    "Generative AI",
+    "Health Insurance",
+    "Operations",
+    "AI"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Summer 2023",
+  "status": "Inactive",
+  "industries": [
+    "Healthcare",
+    "Healthcare Services"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/remy",
+  "api": "https://devasheeshg.github.io/yc-api/batches/summer-2023/remy.json",
+  "year_founded": 2023,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://linkedin.com/company/remysec",
+  "x_url": "",
+  "fb_url": null,
+  "cb_url": "https://www.crunchbase.com/organization/remy-security",
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/93b0f6a6d9697c73c56e4ffd40933940d124fb99.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Tom Blomfield",
+    "url": "https://www.ycombinator.com/people/tom-blomfield"
+  },
+  "founders": [
+    {
+      "user_id": 1306652,
+      "full_name": "Sten Sjöberg",
+      "title": "Founder",
+      "founder_bio": "I'm co-founder and CEO at Remy Security. Before Remy, I was a security automation PM at Microsoft's security team. My team owned the product security review process including secure development lifecycle assessments, design reviews and penetration testing. Before Microsoft, I took all the security classes they offered to Princeton CS undergrads and published research in the Symposium on Usable Privacy and Security (SOUPS).",
+      "is_active": false,
+      "linkedin_url": "https://linkedin.com/in/stensjoberg",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/072e01c0b066b39f10c1f63b74e0ba49a33c2724.jpg"
+    },
+    {
+      "user_id": 1360703,
+      "full_name": "Kevin Kim",
+      "title": "Founder",
+      "founder_bio": "Founder @ Remy Security. Previously SWE at ExtraHop, Rice CS.",
+      "is_active": false,
+      "linkedin_url": "https://linkedin.com/in/kev3522",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/53399b4ef8d53a634b60b63ae8e619ad49d49c6b.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 72542,
+      "title": "Remy Security - AI-powered security design reviews",
+      "tagline": "Reduce the cost and effort of proactively securing product.",
+      "body": "Hi everyone! We’re [Sten](https://www.linkedin.com/in/stensjoberg/) and [Kevin](https://www.linkedin.com/in/minhwan/), founders of [Remy Security](https://www.remysec.com).\n\n**Remy helps security teams conduct security design reviews more quickly and effectively.** Using LLMs to analyze the design documents, Remy generates targeted insights and questions to raise to the authors.\n\n### Problem\n\nSecurity design reviews are essential during the software development cycle as they mitigate risks before they become problems down the line. It’s more expensive to address breaches than it is to look for potential weaknesses at design time.\n\n**It’s difficult and expensive to review designs.** The types of threats that the reviewer must consider are endless, and it’s easy to miss key risk areas even for experts. Security team and engineering team members must meet in order to discuss the design’s context and the risks that need to be addressed. Such meetings are expensive, time-consuming, and often disorganized.\n\n**Security teams are understaffed.** A 1:60 ratio is common for headcount between security and engineering staff. With such a skew, security teams often struggle to keep up with requests, forcing them to skip reviews or delay the development lifecycle.\n\n### Solution\n\nRemy finds designs that the security team should be aware of and makes a first pass at reviewing them using LLMs. It hands off its assessment to members of the security team, who make the final judgements on what questions/comments need to be raised in the document.\n\nUsers can view a list of designs to review, view their risk levels, and prioritize the most important ones to work on.\n\n![uploaded image](/media/?type=post&id=72542&key=user_uploads/1360703/5de6450e-ab7f-4fab-ae7f-8c1e9816da45)\n\nFor each document, Remy generates questions and feedback for you to send to the authors. Leveraging LLMs, Remy provides targeted insights into the specific risks of each design.\n\n![uploaded image](/media/?type=post&id=72542&key=user_uploads/1360703/767b3d20-1fb2-4a06-84e0-8c60a0f7aeac)\n\n![uploaded image](/media/?type=post&id=72542&key=user_uploads/1360703/d13cf468-9a97-446b-83e3-8d3aa3a4a254)\n\n### Asks\n\n* Do you work with security reviews? [Get in touch and let us know how we can help](https://www.notion.so/9d05093eec4642b7a433edad066b35ba?pvs=21) or [sign up for early access](https://remysec.com/early-access)!\n* Know someone who does security reviews? Please share this launch with them!",
+      "url": "https://www.ycombinator.com/launches/Is2-remy-security-ai-powered-security-design-reviews",
+      "votes": 30,
+      "created_at": "2023-06-26T15:44:30.053Z"
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "id": 27965,
+  "name": "Odigos Technologies Inc.",
+  "slug": "odigos-technologies-inc",
+  "former_names": [
+    "keyval",
+    "Odigos"
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/6519c1c9ffc92217f36449c3d731f02ef19aedb2.png",
+  "website": "https://odigos.io",
+  "all_locations": "Boston, MA, USA",
+  "long_description": "Odigos leverages eBPF technology to create an open-source solution that can automatically generate distributed traces for any application without any engineering work.\r\nDevelopers are struggling with extracting and delivering high-quality monitoring data.\r\nCurrently, building a pipeline is a manual process that takes months to implement, is an error-prone process that requires tons of code changes across multiple R&D teams, and demands collaboration.\r\n\r\n",
+  "one_liner": "Enterprise-Grade OpenTelemetry",
+  "team_size": 16,
+  "industry": "B2B",
+  "subindustry": "B2B -> Infrastructure",
+  "launched_at": 1671024247,
+  "tags": [],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Winter 2023",
+  "status": "Active",
+  "industries": [
+    "B2B",
+    "Infrastructure"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/odigos-technologies-inc",
+  "api": "https://devasheeshg.github.io/yc-api/batches/winter-2023/odigos-technologies-inc.json",
+  "year_founded": 2023,
+  "city": "Boston",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/odigoss/",
+  "x_url": "https://mobile.twitter.com/odigosio",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": "https://github.com/odigos-io/odigos",
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/6519c1c9ffc92217f36449c3d731f02ef19aedb2.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Diana Hu",
+    "url": "https://www.ycombinator.com/people/diana-hu"
+  },
+  "founders": [
+    {
+      "user_id": 1155692,
+      "full_name": "Ari Recht",
+      "title": "Founder",
+      "founder_bio": "",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/arirecht/",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/2395403e388818bc50cc8a6c553d51613d53e97d.jpg"
+    },
+    {
+      "user_id": 171492,
+      "full_name": "Eden Federman",
+      "title": "Founder",
+      "founder_bio": "I love eBPF and OpenTelemetry. Working on helping developers fix issues faster.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/edenfed/",
+      "x_url": "https://twitter.com/edenfed",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/3aab8057608e94e9958ef42f40a04311bee1c2e0.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 67880,
+      "title": "🔍 Keyval - Distributed traces for every application without code changes",
+      "tagline": "We help developers fix production issues faster",
+      "body": "Hi YC!\n\nWe're Ari and Eden, the founders of [Keyval](https://keyval.dev/).\\\nOdigos, our open-source project, boosts your existing monitoring tools by automatically generating distributed traces for all your applications within minutes.\n\n![uploaded image](/media/?type=post&id=67880&key=user_uploads/171492/8220e796-3f4d-456f-9040-8e69c20591f0)\n\nCheck out our [video](https://www.youtube.com/watch?v=9d36AmVtuGU)\n\n### **The Problem**\n\nDistributed traces are the most effective signal to monitor distributed applications, but they are also the most difficult to implement.  Unlike metrics or logs, the real value of distributed tracing occurs only after implementing it across multiple applications successfully.  If just one of your applications does not produce distributed tracing, the entire context propagation is broken and the value of the traces drops significantly.\n\n### **The Solution**\n\nOdigos, our open-source project, helps developers fix production issues faster by boosting existing monitoring tools, and automatically providing them with distributed traces, within minutes.\n\nA quick installation scans and recognizes all your applications, auto-instruments them, and deploys the required collectors. This is all done automatically - all you need to do is:\n\n1. Select your target applications\n2. Select a backend you want to send the information to\n\nThat’s it!\n\n### **Why developers choose to work with Odigos:**\n\n✨ **Immediately and automatically** get distributed traces for newly-deployed application\\\n🏆 **Eliminate blind spots**! Gain confidence and understand what is (and what isn’t) covered by your existing monitoring tools\\\n🚀 **Ease of use** – one-step installation completed within minutes\\\n**⚖️ Auto-scaled collectors/agents** - deployed and scaled according to the amount of traffic generated by your applications\n\n### **Try it yourself**\n\nCheck out our [GitHub repository](https://github.com/keyval-dev/odigos), and our [getting started guide](https://odigos.io/docs/getting-started/).\n\nWe are also maintainers of OpenTelemetry auto-instrumentation for Go applications. Feel free to contact us at [founders@keyval.dev](mailto:founders@keyval.dev) with any questions regarding monitoring / eBPF / OpenTelemetry.\n\nWe’d love to invite you to our office in San Francisco for lunch and a demo, book a time with us [here](https://calendly.com/edenfed) 😃",
+      "url": "https://www.ycombinator.com/launches/Heq-keyval-distributed-traces-for-every-application-without-code-changes",
+      "votes": 84,
+      "created_at": "2022-12-14T14:44:22.319Z"
+    }
+  ]
+}

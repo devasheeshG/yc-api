@@ -1,0 +1,91 @@
+{
+  "id": 24195,
+  "name": "Tarsal",
+  "slug": "tarsal",
+  "former_names": [
+    "V-diff",
+    "vdiff"
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/75747b61e59eadbd8831c406fbe1beed2fd4957b.png",
+  "website": "https://www.tarsal.co/",
+  "all_locations": "New York City, NY, USA; San Francisco, CA, USA; Remote",
+  "long_description": "Tarsal is a data pipeline custom built for security teams. As security data grows 25% year over year, security teams desperately need access to best-in-class data infrastructure. Tarsal bridges the gap between the modern data stack and security teams, pioneering the modern security data stack. \r\n",
+  "one_liner": "Data pipeline for your security data lake.",
+  "team_size": 10,
+  "industry": "B2B",
+  "subindustry": "B2B -> Security",
+  "launched_at": 1680491615,
+  "tags": [
+    "B2B",
+    "Cybersecurity",
+    "Big Data",
+    "Data Engineering"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Summer 2021",
+  "status": "Acquired",
+  "industries": [
+    "B2B",
+    "Security"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada",
+    "Remote",
+    "Fully Remote"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/tarsal",
+  "api": "https://devasheeshg.github.io/yc-api/batches/summer-2021/tarsal.json",
+  "year_founded": 2021,
+  "city": "New York City",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/tarsal/",
+  "x_url": "https://twitter.com/tarsalhq",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/75747b61e59eadbd8831c406fbe1beed2fd4957b.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": null,
+  "founders": [
+    {
+      "user_id": 504645,
+      "full_name": "Sunny Rekhi",
+      "title": "Founder",
+      "founder_bio": "cofounder/CEO of Tarsal (acq)",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/sunny-rekhi/",
+      "x_url": "https://twitter.com/sunnyrekhi",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/7871e148fe5e8bc56d0a7ff53112f6ed73439faa.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [
+    {
+      "title": "Tarsal Raises $6 Million for Security Data Movement Platform - SecurityWeek",
+      "url": "https://www.securityweek.com/tarsal-raises-6-million-for-security-data-movement-platform/",
+      "date": "Mar 21, 2024"
+    }
+  ],
+  "launches": [
+    {
+      "id": 71058,
+      "title": "Tarsal: Data pipeline built for modern security teams",
+      "tagline": "Run your SIEM on a generic data lake with one-click connectors that normalize your logs to a unified schema",
+      "body": "### **TL;DR:**\n\n[**Tarsal**](https://tarsal.co) **is the first data pipeline built for modern security teams.** We’re like Fivetran or Segment, but built for security teams.\n\nTarsal provides:\n\n\\- one-click ingestion and normalization for all security logs (e.g multi-cloud infra, Okta, Duo, Slack, CrowdStrike, etc.)\n\n\\- normalization _across_ sources for easy correlation\n\n\\- detections as code\n\n\\- a vendor-agnostic pipeline so you can use the best log destination for the job (supported destinations include Snowflake, S3, Databricks, Splunk, DataDog, etc.)  \n\n### 👤 **The Team**\n\n[**Sunny Rekhi**](https://www.linkedin.com/in/sunny-rekhi/) **(CEO)** was previously an infrastructure + backend engineer at TikTok and Uber, where he worked on high scale data systems.\n\n[**Manny Gundampalli**](https://www.linkedin.com/in/manny-gundampalli-6a982019b/) **(CTO)** was previously a data infrastructure engineer at Plaid, where she worked on Plaid’s highest volume ML pipelines.\n\n### **❌ The Problem**\n\n**Security data has become unmanageable.**\n\n![](https://lh4.googleusercontent.com/48OpE_QVew8YK5ESoSSTbQC9_FXZWfbtePb8yXmZlY7vpDTBGjNbqb7rCW4XRM4BzJtnUng2CeOGYkrqzO3VHXonj_23Q99TUIGRqOHDqZxNC7RdXz-W1sBM78XNig5TovQL1n5S8TtaeKgVdII8W2AtGQ=nw)\n\n* There’s no standard for how security data is defined, so security teams have to write complex queries to account for all the variations.\n* There’s no consistent way to get your log data: some vendors expose a REST API, others expose a GraphQL API. Some give you JSON data, some give you unstructured text. Schematized data is rare.\n* There’s _a lot_ of it. Security data is growing at 23% CAGR, and log storage costs are incredibly high.\n\n## **✨ Our Solution**\n\n[**Tarsal**](https://tarsal.co) is the first data pipeline built for modern security teams. With zero-hassle, one-click connectors, security teams can ingest normalized data and route it to the destination of their choice.\n\n**Our unified schema is specifically designed to reduce the complexity in incident response.** By normalizing a set of standard fields across all log sources, security teams no longer have to write complex queries to track an incident across their systems. Query once against Tarsal fields — let us figure out how that maps back to the original data.\n\n**We save you money on log storage costs by letting you route logs to the cheapest destination.** With data growing 23% year over year, organizations face ballooning infrastructure cost. Tarsal lets you filter + route logs to any of our supported destinations, including major SIEMs, Amazon S3, or a modern data warehouse like Snowflake, BigQuery, or Databricks.\n\n**Tarsal lets you write real-time detections as code.** Write expressive and flexible detections in Python for needs specific to your enterprise. Benefit from pre-built detections that are mapped to specific threats.\n\n**We alert you if anything breaks in your log ingestion.** Rest assured that you’re collecting the data you’d need during an incident. Set up Slack or PagerDuty alerts if any of your logs stop syncing over.\n\n![](https://lh6.googleusercontent.com/s_iuAJD6ZiI_jJBjGYE8ndHSN0grI-BEHRg_unkfAwwFlRvqhiWxfDPsNQ14mUlakvOPbedvfdc_ITMJfFlT3KdMUYolC43L-wwZx39-LbomTRhIstS4EofeIhj2WWBFLqCZEnaoCwbV9DL9_0FP-zKCbw=nw)\n\n### **🎉 Interested?**\n\nEmail us at [founders@tarsal.co](mailto:founders@tarsal.co) and we’ll give you a link to sign up. You can also a book a call with me [here](https://calendly.com/rohit-rekhi/30min) to learn more.",
+      "url": "https://www.ycombinator.com/launches/IU6-tarsal-data-pipeline-built-for-modern-security-teams",
+      "votes": 58,
+      "created_at": "2023-04-19T14:52:36.010Z"
+    }
+  ]
+}

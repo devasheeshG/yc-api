@@ -1,0 +1,95 @@
+{
+  "id": 30270,
+  "name": "G LNK",
+  "slug": "g-lnk",
+  "former_names": [
+    "G LNK Inc."
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/30e81e807267eac09097c7b4e6fc47510c7e0c54.png",
+  "website": "https://glnkco.com/",
+  "all_locations": "New York City, NY, USA",
+  "long_description": "G LNK is an AI-powered platform simplifying how healthcare companies connect with the relevant medical professionals. Our proprietary matching and ranking models instantly identify the most qualified experts, accelerating drug development and commercialization. Designed with compliance at its core, G LNK ensures every connection meets strict regulatory and ethical standards—empowering companies to innovate faster with confidence.",
+  "one_liner": "Simplifying Collaboration for Healthcare Organizations & Professionals",
+  "team_size": 2,
+  "industry": "B2B",
+  "subindustry": "B2B",
+  "launched_at": 1738929097,
+  "tags": [
+    "SaaS",
+    "Health Tech",
+    "B2B",
+    "Digital Health",
+    "AI Assistant"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Winter 2025",
+  "status": "Active",
+  "industries": [
+    "B2B"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/g-lnk",
+  "api": "https://devasheeshg.github.io/yc-api/batches/winter-2025/g-lnk.json",
+  "year_founded": 2024,
+  "city": "New York City",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/104871545/",
+  "x_url": "",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/30e81e807267eac09097c7b4e6fc47510c7e0c54.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Harj Taggar",
+    "url": "https://www.ycombinator.com/people/harj-taggar"
+  },
+  "founders": [
+    {
+      "user_id": 2366179,
+      "full_name": "Rayan Ghandour",
+      "title": "Founder/CEO",
+      "founder_bio": "Co-Founder & CEO @ G LNK (W25)\n\nRayan graduated from UChicago with degrees in Chemistry and Economics and built his expertise in the healthcare sector at PwC's pharma and life sciences consulting practice. There, he specialized in healthcare collaboration and compliance solutions. Rayan was recognized as the top consulting analyst in the US for leading automation technologies in pharmaceutical compliance.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/rayan-ghandour-75191618a/",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/d29c6f257f11e2748bf793707dde0cb0fa1f68b4.jpg"
+    },
+    {
+      "user_id": 2360566,
+      "full_name": "Raouf Abujaber",
+      "title": "Founder/CTO",
+      "founder_bio": "Co-Founder & CTO @ G LNK (W25)\n\nRaouf brings three years of advanced research experience from AxLab, where he specialized in developing neural network architectures for multimodal human-computer interaction systems with adaptive reinforcement learning algorithms. His multidisciplinary background includes degrees in Computer Science, Economics, and Astrophysics.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/raouf-abujaber-169330256/",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/f96950e12f5ae9eaf69b43d9678d33f7ee9f42ff.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 88235,
+      "title": "G LNK - Simplifying collaboration between Pharma & Healthcare professionals",
+      "tagline": "Meet G LNK, the AI one-stop shop for all medical interactions",
+      "body": "Hey YC!\n\nWe’re [Raouf](https://bookface.ycombinator.com/user/2360566) and [Rayan](https://bookface.ycombinator.com/user/2366179) — co-founders of G LNK\n\n**TL;DR**\n\nG LNK is an AI-powered platform that connects Pharma companies with doctors & researchers. Rayan worked on this as a consultant, where Pharma companies spent billions annually just to determine how much to pay doctors while staying within regulatory guidelines. Using LLMs, we’re automating the end-to-end process—from identifying candidates to compensation and compliance.\\\n<https://youtu.be/16oP6roNnZk>\n\n**Problem**\n\nPharma companies spend over **$70 billion annually** on engaging doctors & researchers, yet a lot of that money is wasted on outdated and manual processes:\n\n* **Outsourcing is expensive and slow**: Companies spend millions on third parties (consulting, recruiting, and regulatory firms)  just to find the right experts and to know how much to pay them compliantly.\n* **Compliance risks are high**: Payment miscalculations can lead to regulatory violations and hefty fines\n* **Data is scattered**: Contracts, payments and compliance tracking are spread across disconnected systems, making transparency and oversight difficult\n\n<https://youtu.be/qDdFbMWO6eU>\n\n**Solution**\n\n**G LNK automates Pharma companies' entire healthcare professional (HCP) engagement process**—from identifying suitable doctors to engaging them. Here’s how it works:\n\n1. **Identify HCPs:**\n   * Identify a doctor from our database of over 3.2 million user profiles (growing 250% MoM).\n   * Alternatively, if you know who you want to engage, simply upload the doctor’s CV and we will take care of the rest.\n2. **Calculate Compensation:**\n   * Instantly determine their compensation rates.\n   * Adjust the rates dynamically based on factors such as service type and travel requirements.\n3. **Engage Directly:**\n   * Contact the selected doctors directly through our platform.\n4. **Ensure Compliance:**\n   * Maintain regulatory compliance and prevent compliance violations before they happen.\n   * Leverage real-time data from trusted sources like NIH, PubMed, CBS, CMS, and more.\n\nThis step-by-step solution replaces multiple vendors with a single AI-powered platform, ensuring efficient, compliant, and cost-effective HCP engagement.\n\n**Additional Features**\n\n* **Built-in CRM** to track all HCP engagements\n* **Comprehensive financial tracking**, including:\n  * All Transfer of Value payments made to HCPs (date, purpose, associated drug)\n  * Drug coverage breakdown\n  * Monthly payment summaries\n  * Payment analysis by Therapeutic Area\n* **Tailored recommendations** for grants, conferences, and publications for HCPs\n* **Centralized database** of regulations and Codes of Conduct across 150+ countries\n\n**Team**\n\nRayan and Raouf have known each other for over a decade, with their professional relationship cementing itself during their time as researchers at the University of Chicago.\n\n**Rayan (CEO)** worked as a Life-Sciences Consultant at PwC and was recognized as top consulting analyst in the US for pioneering automation in pharmaceutical compliance. He holds degrees in Chemistry & Economics at UChicago, where he was one of the youngest biochemistry researchers at Pritzker School of Engineering.\n\n**Raouf (CTO)** worked as a ML-researcher at AxLab, where he specialized in developing neural network architectures for multimodal human-computer interaction with adaptive reinforcement learning. He has a multidisciplinary background, with degrees in Computer Science, Astrophysics, & Economics from UChicago\n\n![uploaded image](/media/?type=post&id=88235&key=user_uploads/2366179/8a3b2573-1a0d-499b-b252-94260eb9ca1d)\n\n**We are on a mission to help Pharma companies cut costs, enhance accuracy with better benchmarking, and save valuable time. By streamlining these critical processes, we empower Pharma to focus more resources on manufacturing, distribution, and supply—accelerating the delivery of life-changing treatments to those who need them most.**\n\n**Our Asks**\n\nWe would really appreciate introductions to anyone working in the Pharma industry or any health-related verticals. Additionally, if you know any physician/research communities, we would love to talk and learn more!",
+      "url": "https://www.ycombinator.com/launches/Mx9-g-lnk-simplifying-collaboration-between-pharma-healthcare-professionals",
+      "votes": 14,
+      "created_at": "2025-03-03T23:58:34.131Z"
+    }
+  ]
+}

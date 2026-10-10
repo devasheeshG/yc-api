@@ -1,0 +1,106 @@
+{
+  "id": 31227,
+  "name": "Sequence Markets",
+  "slug": "sequence-markets",
+  "former_names": [],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/80a96ab006079967d4861f55c708c029f8a76a6f.png",
+  "website": "https://sequencemkts.com/",
+  "all_locations": "Toronto, ON, Canada",
+  "long_description": "Sequence Markets lets traders execute across crypto exchanges, prediction markets, and tokenized-asset venues from one system.\r\n\r\nWe built proprietary low-latency infrastructure and routing software so users can package one market view into one trade with the speed, access, and transparency execution requires.",
+  "one_liner": "Low-latency execution across crypto, prediction, and tokenized assets",
+  "team_size": 5,
+  "industry": "Fintech",
+  "subindustry": "Fintech",
+  "launched_at": 1767826402,
+  "tags": [],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Winter 2026",
+  "status": "Active",
+  "industries": [
+    "Fintech"
+  ],
+  "regions": [
+    "Canada",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": [
+    {
+      "question": "How did your company get started? (i.e., How did the founders meet? How did you come up with the idea? How did you decide to be a founder?)",
+      "answer": "In August 2025, we had a macro view we wanted to express across multiple digital markets at once.\r\n\r\nThat meant a prediction-market leg on the catalyst, onchain exposure in the rails we thought would benefit, tokenized-asset exposure where it fit, and liquidity sourced through the best venue available. Instead of one system, we had to manually stitch together venues, APIs, chains, contracts, and liquidity sources. That process was fragmented, slow, and exhausting.\r\n\r\nSequence came from that frustration. We built it so users can take one market view and turn it into one trade."
+    },
+    {
+      "question": "What's the history of your company from getting started until the present day? What were the big inflection points?",
+      "answer": "We had already hacked together terminal workflows to trade different views, but when we wanted one system that could connect us across every market we cared about, it simply did not exist.\r\n\r\nEverything was siloed. The products we found were either built only for TradFi, only for crypto, only for prediction markets, or only for tokenized assets. None of them let us express one market view across all of those markets in one place.\r\n\r\nThat was the gap we decided to solve. Sequence Markets is the system we wanted to use ourselves: one place to turn one market view into one trade across fragmented digital markets."
+    },
+    {
+      "question": "What is the core problem you are solving? Why is this a big problem? What made you decide to work on it?",
+      "answer": "Digital markets are fragmented across exchanges, onchain venues, spot markets, perps, prediction markets, and tokenized assets.\r\n\r\nTo put on one trade today, users still have to jump between separate venues and workflows by hand, use trading platforms that do not provide the programmatic access or control they need, or rely on dealer-style workflows with little transparency.\r\n\r\nThat leads to worse execution, more operational drag, and less visibility into what actually happened. We decided to work on it because we ran into that problem directly.\r\n\r\nIf users are going to express one market view across fragmented markets, they cannot be bottlenecked by execution. In execution, speed, access, and transparency matter. That is what Sequence provides."
+    },
+    {
+      "question": "What is your long-term vision? If you truly succeed, what will be different about the world?",
+      "answer": "Crypto is just the beginning. More and more markets are getting added into the same digital market stack, but the infrastructure connecting them is still fragmented.\r\n\r\nWhen Sequence succeeds, users will not have to think venue by venue, chain by chain, or contract by contract. They will express one market view, and the system will turn it into the best executable path across crypto, prediction markets, and tokenized assets.\r\n\r\nIf your intent is to do something in a market, you should be able to do it."
+    }
+  ],
+  "url": "https://www.ycombinator.com/companies/sequence-markets",
+  "api": "https://devasheeshg.github.io/yc-api/batches/winter-2026/sequence-markets.json",
+  "year_founded": 2026,
+  "city": "Toronto",
+  "country": "CA",
+  "linkedin_url": "https://www.linkedin.com/company/sequence-markets",
+  "x_url": "https://x.com/sequencemarkets",
+  "fb_url": null,
+  "cb_url": "https://www.crunchbase.com/organization/sequence-markets",
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/80a96ab006079967d4861f55c708c029f8a76a6f.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [
+    "https://bookface-images.s3.us-west-2.amazonaws.com/attachments/0080c2a816798106940f03f8ac9d01dc22a6793f.png"
+  ],
+  "primary_partner": {
+    "name": "Brad Flora",
+    "url": "https://www.ycombinator.com/people/brad-flora"
+  },
+  "founders": [
+    {
+      "user_id": 3183596,
+      "full_name": "Peter Bai",
+      "title": "Founder/CEO",
+      "founder_bio": "I LOVE MARKETS RAHHHH\n\nGrew up around exchange infrastructure, got hired by the Toronto Stock Exchange at 17, and joined a $13B fund's trading team a year later. ",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/peter-bai/",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/1699cc49e60bb5d5d722c78b2cb4b58479c99dee.jpg"
+    },
+    {
+      "user_id": 2660299,
+      "full_name": "Muhammad Awan",
+      "title": "Founder/CTO",
+      "founder_bio": "Former founding engineer at Boardy AI, and earlier worked on radar, sonar, and industrial ML at UTEX, including defect-detection technology for Boeing and SpaceX hardware. Now building Sequence Markets, unified execution infrastructure for digital asset markets.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/muhammad-awan0",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/22cafd1f1365c15ac9b7aa40cfde843c3bad4a86.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 98437,
+      "title": "Sequence Markets: trade across exchanges, prediction markets, and tokenized venues from one system",
+      "tagline": "Low-latency trading infrastructure for fragmented digital markets",
+      "body": "Hey everyone 🚀\n\nWe're Muhammad & Peter - co-founders of Sequence Markets.\n\n**TL;DR**\n\nMarkets are becoming more fragmented than ever. New exchanges, new venues, new markets, and new contracts keep appearing every day. Finding the best price is hard enough. Expressing one trade across all of them is even harder.\n\nSequence lets users package one market view into one trade from one system. Under the hood, we built proprietary low-latency infrastructure, routing software, and venue connectivity so users get the speed, access, and transparency execution requires.\n\n**Our Launch Video:** <https://www.youtube.com/watch?v=0CgTRZo3hPA&vq=hd1080>\n\n❌ **The problem**\n\nExecution is still fragmented across exchanges, onchain venues, spot markets, perps, prediction markets, and tokenized assets.\n\nThat means:\n\n* Hopping between venues to find the best execution path\n* Managing hedge legs and risk across separate systems\n* Stitching together APIs, wallets, dashboards, and workflows by hand\n* Poor visibility into what actually happened after the trade\n\nThe result is worse execution, more operational drag, and less control.\n\n🐂 **The solution**\n\n**What Sequence enables:**\n\n* Package one market view into one trade\n* Route across fragmented venues from one system\n* Manage hedge legs and risk in one workflow\n* Track execution reporting and improve fill quality over time\n* Run via terminal + API + SDK / MCP for humans, algos, and agent workflows\n\n**What makes this possible:**\n\nUnder the hood, we built proprietary low-latency infrastructure, routing software, and venue connectivity. On benchmark routes, our network is up to 2.5x faster than public-internet paths, and our internal latency is roughly 2 microseconds. That lets us support even latency-sensitive users like market makers, so the bottleneck is not our system.\n\nInternal benchmark tests also show meaningful improvements in execution quality, including lower slippage and lower execution drag versus public-internet routing on benchmarked paths.\n\nWe are starting with crypto, where the pain is already real, and extending the same system across prediction markets and tokenized assets over time.\n\n**Early proof:**\n\n* 150+ signups in the first week after launch\n* $104B in reported trading volume across the signup base\n* Over $10M in test volume completed on the platform in 2 weeks\n\n**The ask**\n\nWe're onboarding early users and would love intros to:\n\n* Funds, market makers, and active trading teams\n* Prosumers and investors trading across multiple venues\n* Builders and anyone who wants to trade through AI agents, API, SDK, or MCP workflows\n\n**Links**\n\n**Website:** <https://sequencemkts.com>\n\n**Contact:** [founders@sequencemkts.com](mailto:founders@sequencemkts.com)\n\n**Book a product call:** <https://calendly.com/d/cybb-9gw-629/sequence-markets-meeting>\n\n**Team**\n\nMuhammad is a Waterloo engineer and former founding engineer at a unicorn who builds the low-level systems behind Sequence.\n\nPeter was hired by the Toronto Stock Exchange at 17 and joined a $13B fund's trading team a year later.\n\n![uploaded image](/media/?type=post&id=98437&key=user_uploads/3183596/8fbee4c0-495b-498e-9127-d04e15405ac6)\n\n",
+      "url": "https://www.ycombinator.com/launches/Pbh-sequence-markets-trade-across-exchanges-prediction-markets-and-tokenized-venues-from-one-system",
+      "votes": 107,
+      "created_at": "2026-03-04T22:03:13.711Z"
+    }
+  ]
+}

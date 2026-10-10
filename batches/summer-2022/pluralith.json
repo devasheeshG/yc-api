@@ -1,0 +1,98 @@
+{
+  "id": 26900,
+  "name": "Pluralith",
+  "slug": "pluralith",
+  "former_names": [],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/e7957008ca3bafd61f38b146c1fef179229d84a4.png",
+  "website": "https://www.pluralith.com",
+  "all_locations": "Vienna, Vienna, Austria; New York, NY, USA",
+  "long_description": "Pluralith automates compliance by documenting cloud infrastructure directly from the codebase. Companies like Jefferson Health pay us to automate their infrastructure compliance and save 5h a week per infrastructure engineer.\r\n\r\nMore simply put: We generate infrastructure diagrams directly from Terraform state.",
+  "one_liner": "Automated infrastructure compliance and documentation",
+  "team_size": 2,
+  "industry": "B2B",
+  "subindustry": "B2B -> Infrastructure",
+  "launched_at": 1657804203,
+  "tags": [
+    "Developer Tools",
+    "DevSecOps",
+    "SaaS"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Summer 2022",
+  "status": "Active",
+  "industries": [
+    "B2B",
+    "Infrastructure"
+  ],
+  "regions": [
+    "Austria",
+    "United States of America",
+    "Europe",
+    "America / Canada",
+    "Remote",
+    "Partly Remote"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/pluralith",
+  "api": "https://devasheeshg.github.io/yc-api/batches/summer-2022/pluralith.json",
+  "year_founded": 2022,
+  "city": "Vienna",
+  "country": "AT",
+  "linkedin_url": "https://www.linkedin.com/company/pluralith",
+  "x_url": "https://twitter.com/PluralithApp",
+  "fb_url": null,
+  "cb_url": "https://www.crunchbase.com/organization/pluralith",
+  "github_url": "https://github.com/Pluralith",
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/e7957008ca3bafd61f38b146c1fef179229d84a4.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [
+    "https://bookface-images.s3.us-west-2.amazonaws.com/attachments/603a5608ccc4a80b5b89729d00106eb942d1574f.png"
+  ],
+  "primary_partner": {
+    "name": "Nicolas Dessaigne",
+    "url": "https://www.ycombinator.com/people/nicolas-dessaigne"
+  },
+  "founders": [
+    {
+      "user_id": 690046,
+      "full_name": "Daniel Putzer",
+      "title": "Founder",
+      "founder_bio": "dev",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/danielputzer/",
+      "x_url": "https://twitter.com/danceladus",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/4ac50a0c8e065d2f3de7f02a6d7c63fe0ab1e9b8.jpg"
+    },
+    {
+      "user_id": 1012880,
+      "full_name": "Philipp Weber",
+      "title": "Founder",
+      "founder_bio": "Building Pluralith",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/philipp-weber-a8517b231/",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/9c679d454ea367a6d7598db186b1f76063d6e968.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 65103,
+      "title": "Pluralith - Automated Terraform Infrastructure Visualization & Documentation",
+      "tagline": "Never spend a second drawing infra diagrams again. Completely automate your infra docs and compliance materials.",
+      "body": "Hi we are Dan and Phi…\n\n![uploaded image](/media/?type=post&id=65103&key=user_uploads/690046/00d3f03c-7be2-4245-be6a-b1ac5931d882)\n\n… and we are building Pluralith!\n\n![uploaded image](/media/?type=post&id=65103&key=user_uploads/690046/f7d9a731-4769-423f-9dfd-7bdf920137e6)\n\n### **TL;DR**\n\nTitle says it all. Pluralith lets you generate instant infrastructure diagrams from your Terraform codebase, locally (for development) and in CI (for documentation). [**Try it out here!**](https://docs.pluralith.com)\n\n![uploaded image](/media/?type=post&id=65103&key=user_uploads/690046/9884a243-92d0-46ea-92f7-7dcd0cedb91c)\n\n### **Watching > Reading**\n\nSo here’s a [freshly baked demo](https://youtu.be/Jbbil9kA-EE) just for you!\n\n![uploaded image](/media/?type=post&id=65103&key=user_uploads/690046/42257960-a912-40f1-acb6-f089d4da1153)\n\n### **The Problem(s)**\n\n**Problem 1**: Infrastructure documentation is super important and often even required for proper compliance, but can be really time intensive and nobody wants to do it. So you’ve got two options:\n\n→ Stay compliant and have good docs **BUT** loads of dev hours spent on them\n\n→ No/few dev hours spent on docs **BUT** break compliance and no docs when you need them\n\n**Problem 2**: Terraform is awesome, but can become quite messy and intransparent at scale. Understanding what is actually going on requires digging through loads of code and terminal output. Again, lots of dev hours lost here.\n\n![uploaded image](/media/?type=post&id=65103&key=user_uploads/690046/1fc7af56-e700-4227-bcb9-0fc872b49446)\n\n### **The Solution: Enter Pluralith**\n\n**_Pluralith completely automates problem 1 away._**\n\nRun it in CI, automate parts of your compliance process and always have up-to-date infra diagrams whenever you need them. We throw them into PR comments and have a dedicated markdown integration so you can plug it straight into your existing docs (ReadMes, Confluence etc.). We do change highlighting, drift detection, cost calculations and compliance checks (coming soon) and keep a history of all this stuff in your Dashboard for you so you have a perfect record on how your infra changes over time.\n\n**_Pluralith alleviates problem 2._**\n\nReplace miles of terminal output on a terraform plan with a comprehensive diagram that shows you what your infrastructure looks like, how it’ll change on apply, how much it’ll cost and wether it breaks compliance (coming soon). All you have to do is run `pluralith plan` instead.\n\n![uploaded image](/media/?type=post&id=65103&key=user_uploads/690046/079e25e0-225e-443b-b052-3eaab564aa50)\n\n### **How It Works**\n\n**Locally**: Download our desktop app and follow it’s setup guide. In a minute you should be able to run `pluralith plan` in any of your Terraform project directories and get a diagram instantly.\n\n**In CI**: The illustration below says it all. Set up Terraform in your pipeline, run Pluralith and there you go. Right now we have dedicated integrations for _GitHub Actions_ and _Gitlab CI._ (Many more to come)\n\n![uploaded image](/media/?type=post&id=65103&key=user_uploads/690046/42ca4f68-1bff-48c5-a0c0-e9b1c3786746)\n\n![uploaded image](/media/?type=post&id=65103&key=user_uploads/690046/0f6a5cbc-52d6-4a6c-bfdf-bb4672190d94)\n\n### **Help Us Out?**\n\n→ [**Give it a run**](https://docs.pluralith.com) (either in CI or locally) and let us know all the ways our stuff broke through the emails below!\n\n→ Our open source CLI is looking for some stars. [**Give it a star!**](https://github.com/Pluralith/pluralith-cli)\n\n→ If you are a DevOps professional → [**Pick any slot on here!**](https://calendly.com/dantheputzer/meet) We’d be stoked to chat about the infra landscape!\n\nIf there are any questions or anything else we can assist with, shoot us an email at [dan@pluralith.com](mailto:dan@pluralith.com) or [phi@pluralith.com](mailto:phi@pluralith.com)!\n\nCheers,\n\nDan and Phi\n\n![uploaded image](/media/?type=post&id=65103&key=user_uploads/690046/952c66c1-40c8-41b8-a31c-50dbbacb5c7b)\n\n",
+      "url": "https://www.ycombinator.com/launches/Gw3-pluralith-automated-terraform-infrastructure-visualization-documentation",
+      "votes": 48,
+      "created_at": "2022-08-03T16:42:45.345Z"
+    }
+  ]
+}

@@ -1,0 +1,109 @@
+{
+  "id": 30652,
+  "name": "OnDeck AI",
+  "slug": "ondeck-ai",
+  "former_names": [],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/9fb6ad4cbd4cdfac49ff1b40404d7053d5789883.png",
+  "website": "https://www.ondeckai.com",
+  "all_locations": "Vancouver, BC, Canada",
+  "long_description": "OnDeck is the infrastructure layer that makes Vision Language Models accessible and scalable for enterprise. Our model, Perception-0, let organizations instantly find any object, behavior or event, in any footage, without needing to train a model or collect any training data.\r\n\r\nThe Pain: Creating vision models usually takes months: collecting training data, training, then deployment.  Worse yet: \r\n+ it’s often impossible to get enough data for a specific task, and \r\n+ even the best cv models struggle to generalize across diverse camera setups, workflows and environments. \r\n\r\nTo overcome these blockers, we bet early on the power of VLMs and built a vision engine that can generalize across any task and doesn’t need any training data. We published a NeurIPS workshop paper showing our new methods with VLMs beat traditional CV even at niche tasks. Now, our model Perception-0 beats the best VLMs including Gemini at long video understanding.\r\n\r\nOur current customers include:\r\n- National Defense Organizations\r\n- Robotics Research\r\n- Security cameras\r\n- Behaviour analysis for port monitoring\r\n- Off-shore oil & gas monitoring",
+  "one_liner": "Analyze any footage, without training a model",
+  "team_size": 7,
+  "industry": "B2B",
+  "subindustry": "B2B -> Analytics",
+  "launched_at": 1755488960,
+  "tags": [
+    "Machine Learning",
+    "SaaS",
+    "Computer Vision",
+    "B2B",
+    "Video"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": true,
+  "nonprofit": false,
+  "batch": "Summer 2025",
+  "status": "Active",
+  "industries": [
+    "B2B",
+    "Analytics"
+  ],
+  "regions": [
+    "Canada",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/ondeck-ai",
+  "api": "https://devasheeshg.github.io/yc-api/batches/summer-2025/ondeck-ai.json",
+  "year_founded": 2025,
+  "city": "Vancouver",
+  "country": "CA",
+  "linkedin_url": "https://www.linkedin.com/company/ondeckai/",
+  "x_url": "",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/9fb6ad4cbd4cdfac49ff1b40404d7053d5789883.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Brad Flora",
+    "url": "https://www.ycombinator.com/people/brad-flora"
+  },
+  "founders": [
+    {
+      "user_id": 1161477,
+      "full_name": "Alexander Dungate",
+      "title": "Founder/CEO",
+      "founder_bio": "Solving vision @ OnDeck. BSc in CS + biology, National Geographic Explorer.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/alexander-dungate/",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/2cb92fb1e2f11f9bd040c8681d3875328c486091.jpg"
+    },
+    {
+      "user_id": 1148628,
+      "full_name": "Sepand Dyanatkar",
+      "title": "Founder/CTO",
+      "founder_bio": "Solving vision.  Masters @ Cambridge in multi-agent RL. Research in swarm robotics for space, and built software at Amazon and the European Space Agency. ",
+      "is_active": true,
+      "linkedin_url": "https://linkedin.com/in/sepandd",
+      "x_url": "https://x.com/SepandD",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/9b396c35a4599135d95d8b377d1bace2b0ca3453.jpg"
+    }
+  ],
+  "jobs": [
+    {
+      "id": 81971,
+      "title": "Founding Engineer",
+      "url": "https://www.ycombinator.com/companies/ondeck-ai/jobs/IQTL9o5-founding-engineer",
+      "location": "Vancouver, BC, CA / Vancouver, British Columbia, CA",
+      "type": "Full-time",
+      "role": "Engineering",
+      "role_type": "Full stack",
+      "salary_range": "$100K - $200K CAD",
+      "equity_range": "0.10% - 1.50%",
+      "experience": "Any (new grads ok)",
+      "visa": "US citizenship/visa not required",
+      "skills": []
+    }
+  ],
+  "news": [],
+  "launches": [
+    {
+      "id": 93172,
+      "title": "OnDeck AI - Analyze any video, without training a model.",
+      "tagline": "We let organizations instantly find any object, behavior or event, in any footage, without needing to train a model or collect any training data.",
+      "body": "Hey everyone 👋\n\nWe’re Alexander and Sepand, cofounders of [OnDeck AI](https://ondeckai.com).\n\n### TL;DR\n\nOnDeck lets you analyze any video, without training a model. Instantly find any event, behaviour, or object without needing any training data.\n\n### Ask:\n\n**Do you know anyone who needs to analyze tons of video or imagery? Please introduce us!**  [alexander@ondeck-ai.com](mailto:alexander@ondeck-ai.com)\n\n\\[[https://youtu.be/MafiM94IkV8\\\\\\]](https://youtu.be/MafiM94IkV8%5C%5D)\n\n### The Pain:\n\nCreating vision models can take months of engineering time: collecting training data, training, then deployment.  Worse yet: \n\n* it’s often impossible to get enough data for a specific task, and \n* even the best cv models struggle to generalize across diverse camera setups, workflows and environments.\n\n \n\n### Our Magic:\n\nTo overcome these blockers, we bet early on the power of VLMs and built a vision engine that can generalize across any task and doesn’t need any training data. We **published a NeurIPS workshop paper** showing our new methods with VLMs beat traditional CV even at niche tasks.\n\nWhy this is good:\n\n* We never train on customer data, unlocking sensitive use cases.\n* Deploy instantly and skip months of R&D.\n* Identify things that have never been seen before.\n* Unlike traditional cv, OnDeck can **_understand_** qualitative behaviour and sequences of events.\n\nThis summer we’ve analyzed thousands of hours of footage across:\n\n* Fleets of Autonomous Surface Vessels \n* Robotics Research\n* Security cameras \n* Behaviour analysis for port monitoring\n* Off-shore oil & gas monitoring\n\n### The Team:\n\nSepand (CTO) has a Master in ML from Cambridge and worked at the European Space Agency, Amazon, and swarm robotics research labs. We both studied cs in university together and we’ve been best friends since grade 6. We originally started OnDeck to automate fisheries monitoring (counting fish in video 🐠). We generated six-figure revenue before pivoting in January.\n\n![uploaded image](/media/?type=post&id=93172&key=user_uploads/1161477/796316a1-6848-4ece-a2b3-cc5e56514825)\n\n**Ask: Do you know anyone with loads of video or imagery to analyze? Please introduce us!\\\n\\\nPing us anytime:** [alexander@ondeck-ai.com](mailto:alexander@ondeck-ai.com) / [ondeckai.com](http://ondeck-ai.com) / [Linkedin](https://www.linkedin.com/company/ondeckai/) / [Twitter](https://x.com/ondeckai)",
+      "url": "https://www.ycombinator.com/launches/OEm-ondeck-ai-analyze-any-video-without-training-a-model",
+      "votes": 34,
+      "created_at": "2025-08-20T01:13:05.704Z"
+    }
+  ]
+}

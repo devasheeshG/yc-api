@@ -1,0 +1,94 @@
+{
+  "id": 31226,
+  "name": "Libra Robotics",
+  "slug": "libra-robotics",
+  "former_names": [],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/e588f98ac537da3d55ea3c2b43b0bd505524c7f8.png",
+  "website": "https://www.librabots.com/",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "We’re building collaborative robotic crews for large-scale infrastructure projects, including solar farms and data centers.\r\n\r\n002C: “002A, 5.3 mm left.”\r\n002B: “002A, you’re running low. Next pallet is on the way.”\r\n002C: “Am I clear to come in?”\r\n002A: “Aligned. Panel released. You’re clear.”\r\n002C: “Fastening.”\r\n002B: “Next load arriving now.”\r\n\r\nThis isn’t a human crew talking. It’s three robots building a utility-scale solar farm together. \r\n\r\nOur AI control system enables specialized robots to collaborate, learn reusable construction skills, like alignment, fastening, and manipulation, and transfer them across workflows, from solar farms to data centers. 🚧 🦺 ",
+  "one_liner": "Robotic crews for large-scale infrastructure construction",
+  "team_size": 2,
+  "industry": "Industrials",
+  "subindustry": "Industrials -> Manufacturing and Robotics",
+  "launched_at": 1783647531,
+  "tags": [
+    "Hard Tech",
+    "Robotics",
+    "Construction",
+    "Energy",
+    "AI"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Summer 2026",
+  "status": "Active",
+  "industries": [
+    "Industrials",
+    "Manufacturing and Robotics"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/libra-robotics",
+  "api": "https://devasheeshg.github.io/yc-api/batches/summer-2026/libra-robotics.json",
+  "year_founded": 2025,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/librabots",
+  "x_url": "",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/e588f98ac537da3d55ea3c2b43b0bd505524c7f8.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Tyler Bosmeny",
+    "url": "https://www.ycombinator.com/people/tyler-bosmeny"
+  },
+  "founders": [
+    {
+      "user_id": 3178817,
+      "full_name": "Jermaine Zhao",
+      "title": "Founder/CEO",
+      "founder_bio": "EE & ME @ Stanford\nFull-stack Robotics Engineer\nFounder @ Libra Robotics\nGo to sleep. Wake up. The solar farm is built.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/jermaine-zhao-9439202a2/",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/54d431097cd70fba6fbe8902e21879a923482e82.jpg"
+    },
+    {
+      "user_id": 2782328,
+      "full_name": "Yaojing Huang",
+      "title": "Founder/COO",
+      "founder_bio": "Stanford Civil Engineering+CS | PhD defended in Construction Robotics\n\nDissertation on shared robotic platforms and reusable construction skills across tasks. Research at Center for Integrated Facility Engineering and the Stanford Robotics Center; taught Stanford’s Construction Robotics course; worked with 40+ contractors and robotics companies worldwide.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/yaojing-h-0b903620b/",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/9f3184f01d6822e5211831c041bd669f65ee31b5.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 111169,
+      "title": "Libra Robotics: Robots That Build Solar Farms Together",
+      "tagline": "Multiple robots coordinating as one crew to automate solar installation",
+      "body": "**002C:** “002A, 5.3 mm left.”\n\n**002B:** “002A, you’re running low. Next pallet is on the way.”\n\n**002C:** “Am I clear to come in?”\n\n**002A:** “Aligned. Panel released. You’re clear.”\n\n**002C:** “Fastening.”\n\n**002B:** “Next load arriving now.”\n\nThis isn’t a human crew talking.\n\n**It’s three robots building a solar farm together.**\n\n**TL;DR: Libra Robotics is building robotic crews for utility-scale solar. Most robots automate a task; Libra automates the installation workflow. Our specialized robots work together to transport modules, pick and place them, align them with millimeter-level precision, fasten them, and inspect the result.**\n\nWe believe the right unit of automation for solar isn’t a single robot - it’s the crew. Utility-scale solar module installation is highly repetitive but deeply interconnected: every module has to be staged, transported, picked, positioned, aligned, fastened, and inspected, repeated across millions of modules on a single project. Automating only one of those steps still leaves people and equipment coordinating everything around it.\n\nSo we built a robotic crew. LIBRA-002A picks, aligns, and places modules; LIBRA-002B autonomously stages and transports them; and LIBRA-002C follows behind to fasten them. The robots communicate continuously, share task state, coordinate handoffs, and assist one another to keep the installation workflow moving as one system.\n\nIn just 10 weeks, Libra has secured **20+ MW of planned deployments**, **7+ GW of customer LOIs (\\~$56M in potential deployment value)**, and is **fully booked for pilots through March 2027**. Demand already exceeds the capacity of our current robot fleet, so we’re building more robots for upcoming deployments.\n\n**▶ Watch how it works:** <https://youtu.be/GGWhvq3RGRU>\n\n# \n\n### **Why Solar**\n\nUtility-scale solar is one of the clearest places to start.\n\nContractors already face persistent labor shortages, just as electricity demand is accelerating from data centers, AI infrastructure, and new industrial loads. Global **data center electricity demand** alone is expected to nearly double by 2030, adding roughly **465 TWh of annual demand**. Nearly half of that growth is expected to be met by renewable energy, with solar playing a major role.\n\nA single project can stretch across hundreds of acres and require crews to install millions of modules, often in remote environments and 100°F+ heat.\n\nBut installing a solar module isn’t one task. It’s a sequence: **stage → transport → pick → place → align → fasten → inspect.** Each step depends on the one before it.\n\nThat makes solar particularly well suited for a coordinated robotic crew.\n\n### **Why a Crew**\n\nMost construction robots automate a single task. But solar farms are built by crews because the work itself is interconnected: if transportation falls behind, installation stops; if placement is inaccurate, fastening stops; and if one machine operates faster than the rest of the workflow, it simply creates another bottleneck.\n\n**Our approach is to optimize the crew, not just the individual robot.** Specialized robots can coordinate around the workflow, rebalance work when one part falls behind, and scale throughput by adding additional robots where they are needed.\n\nThis also avoids trying to build one giant machine that does everything. Each robot can remain relatively specialized while the capabilities of the crew expand over time.\n\n### **What We Built**\n\n**We built a coordinated robotic system for utility-scale solar installation.** LIBRA-002A picks modules from the staging area, positions them on the structure, and performs millimeter-level alignment. LIBRA-002B autonomously transports and stages modules to keep installation moving. LIBRA-002C follows behind to fasten each module in place.\n\nThe robots operate as one system. They continuously share task state, coordinate handoffs, and communicate when each step is complete. The system knows when a module is arriving, when placement and alignment are finished, and when the fastening robot is clear to move in.\n\nThe architecture is designed to scale with the jobsite. More transportation, installation, or fastening robots can be added as throughput requirements increase, while new capabilities can be introduced without redesigning the entire system. Over time, this also enables 24/7 continuous operation, with robotic crews keeping material and installation work moving through the night.\n\nWe deliver the system through **Robot-as-a-Service**. Libra provides the robotic crew, deployment, supervision, and maintenance. Contractors don’t purchase robots or take on upfront robotics CapEx - they simply pay for the work performed.\n\n## \n\n### **Where We Are**\n\nIn just 10 weeks:\n\n* Evolved from **LIBRA-001A**, our first installation robot, into the **002-series - a coordinated three-robot crew** for transportation, installation, and fastening\n* Deployed our robots on **real commercial utility-scale solar jobsites** in California.\n* **Demonstrated the system live** to **50+ leading EPCs and solar developers.**\n* Secured **20+ MW of planned deployments**\n* Secured **7+ GW of customer LOIs (\\~$56M in potential deployment value)**\n* Built a pilot calendar **fully booked through March 2027 (5+ projects)**\n* Customer demand now exceeds the capacity of our current robot fleet\n\n### **Where This Goes**\n\nOur near-term north star is simple:\n\n**You go to bed, and by the time you wake up, the solar farm is built.**\n\nWe’re starting with solar, and that’s where we’re focused today: building robotic crews that can eventually transport, install, fasten, and inspect modules continuously, day and night.\n\nOver time, the same capabilities - mobility, material handling, manipulation, fastening, inspection, and coordination - can extend to other construction and infrastructure workflows.\n\nOur long-term vision is to deploy robotic crews anywhere in the world, making critical infrastructure possible in places that are too remote, dangerous, labor-constrained, or uneconomical to develop today.\n\n**We want a future where robotic crews can turn deserts into oases.**\n\n### **About Us**\n\n**We’ve spent years building robots for the real world and studying how to make them actually work in construction.**\n\n**Jermaine Zhao** built **three generations of autonomous agricultural robots from scratch** and deployed them on commercial farms, working end-to-end across mechanical design, electronics, perception, communication, controls, and autonomy. He trained across mechanical engineering, electrical engineering, and computer science at Stanford.\n\n**Yaojing Huang** defended her Stanford PhD in **Construction Robotics**, with a background in **Civil Engineering and Computer Science**. Her dissertation focused on enabling a **shared robotic platform** and **reusable construction skills** to **generalize across multiple construction tasks** and jobsite scenarios. She conducted research at Stanford’s **Center for Integrated Facility Engineering** and the **Stanford Robotics Center**, helped teach Stanford’s **Construction Robotics** course, and has worked with **40+ contractors and construction robotics companies worldwide**.\n\n![uploaded image](/media/?type=post&id=111169&key=user_uploads/3178817/a9f7150d-3b49-4a0f-8659-cbf1a26eab42)\n\n### **How Can You Help**\n\nIf you’re a **utility-scale solar EPC or developer**, send us your next project. We’ll do a robotic-crew feasibility assessment and show you where Libra can automate the workflow.\n\nIf you’re a roboticist, construction innovator, or builder who wants to bring robots into the real world of construction, come build with us.\n\n**Jermaine Zhao: [jermaine@librabots.com](mailto:jermaine@librabots.com). Cell: 650-546-9548**\n\n**Yaojing Huang: [yjh@librabots.com](mailto:yjh@librabots.com)**",
+      "url": "https://www.ycombinator.com/launches/Sv3-libra-robotics-robots-that-build-solar-farms-together",
+      "votes": 374,
+      "created_at": "2026-08-18T15:06:00.036Z"
+    }
+  ]
+}

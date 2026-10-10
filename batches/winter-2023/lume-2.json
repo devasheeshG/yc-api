@@ -1,0 +1,122 @@
+{
+  "id": 27697,
+  "name": "Lume",
+  "slug": "lume-2",
+  "former_names": [
+    "Abyssinia"
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/053379bcb6d2f8ca33ff9eb81f1d899a06a6872a.png",
+  "website": "https://www.lume.ai",
+  "all_locations": "",
+  "long_description": "Lume speeds up customer implementation with AI. Lume helps teams analyze, map, and ingest customer data up to 87% faster, accelerating time-to-revenue.",
+  "one_liner": "Speed up customer implementation with AI",
+  "team_size": 5,
+  "industry": "B2B",
+  "subindustry": "B2B -> Engineering, Product and Design",
+  "launched_at": 1675974530,
+  "tags": [
+    "SaaS",
+    "B2B",
+    "Data Engineering",
+    "Infrastructure",
+    "AI"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Winter 2023",
+  "status": "Acquired",
+  "industries": [
+    "B2B",
+    "Engineering, Product and Design"
+  ],
+  "regions": [
+    "Unspecified"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/lume-2",
+  "api": "https://devasheeshg.github.io/yc-api/batches/winter-2023/lume-2.json",
+  "year_founded": 2022,
+  "city": null,
+  "country": null,
+  "linkedin_url": "https://www.linkedin.com/company/lume-ai/",
+  "x_url": "https://twitter.com/TryLume",
+  "fb_url": null,
+  "cb_url": "https://www.crunchbase.com/organization/lume-ee1a",
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/053379bcb6d2f8ca33ff9eb81f1d899a06a6872a.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [
+    "https://bookface-images.s3.us-west-2.amazonaws.com/attachments/a4a09c0df0505d292ec360324b588ebb509217e1.png"
+  ],
+  "primary_partner": {
+    "name": "Brad Flora",
+    "url": "https://www.ycombinator.com/people/brad-flora"
+  },
+  "founders": [
+    {
+      "user_id": 1157038,
+      "full_name": "Robert Ross",
+      "title": "Founder",
+      "founder_bio": "Co-Founder of Lume (W23) || Stanford CS ",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/robertross04",
+      "x_url": "https://twitter.com/imrobertross",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/5e7508e23027231f8a8a622784d767f645ba2af1.jpg"
+    },
+    {
+      "user_id": 1159508,
+      "full_name": "Nicolas Machado",
+      "title": "Founder",
+      "founder_bio": "Co-Founder of Lume (W23), Stanford AI, Brazilian.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/machado-nicolas",
+      "x_url": "https://twitter.com/machado___nic",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/b9c71f39931d9c5a32bd9eafa8eb0f2fbf504d6f.jpg"
+    },
+    {
+      "user_id": 1141304,
+      "full_name": "Nebyou Zewde",
+      "title": "Founder",
+      "founder_bio": "Co-Founder of Lume, Stanford CS AI, Ethiopian ",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/nebyou-zewde-b6ba02157/",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/ea4b965b24c80d662cb2560764c500023276586c.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [
+    {
+      "title": "General Catalyst and Khosla Ventures back data mapping startup Lume | TechCrunch",
+      "url": "https://techcrunch.com/2024/11/12/general-catalyst-and-khosla-ventures-back-data-mapping-startup-lume/",
+      "date": "Nov 12, 2024"
+    }
+  ],
+  "launches": [
+    {
+      "id": 81770,
+      "title": "Lume: Automate data mappings using AI",
+      "tagline": "Ingest client data, normalize data from different sources, and build data pipelines, automatically.",
+      "body": "**TL;DR**\n\nLume helps teams map data between systems with AI. If your team spends time mapping data for customer data onboarding, data normalization between systems, or mapping for data integrations, we can help! Please go to our [website and sign up](https://www.lume.ai/?utm_source=ycombinator&utm_medium=social&utm_campaign=launch_yc_5_24) for a free trial.\n\n—-\n\nHi everyone! We are Nicolas, Nebyou, and Robert, the founders of Lume. We are on a mission to automate the painstakingly manual process of data mapping, after experiencing this frustration as engineers ourselves. We have onboarded several customers who are growing and are excited to help more teams use AI in their data mapping workflows.\n\n![uploaded image](/media/?type=post&id=81770&key=user_uploads/1159508/77b12bac-08ae-40df-9984-f0cbc0f10c1d)\n\n**🧨 Problem**\n\nThe usual mapping process involves a labor-intensive cycle: analyzing data to determine what's relevant, selecting the appropriate properties, developing the mapping logic, and constantly updating mappers to accommodate schema changes in source or target systems. This process, we learned, takes days, weeks, or even months for most teams, and automating it has traditionally been borderline impossible due to unique differences in data.\n\n**✨ Solution**\n\nLume uses AI to automatically map data between any start and end schema, whether it is customer data, external sources, or anything else. Lume provides this via an API and a no-code platform where you can generate mapping logic, review and edit it, and manage multiple data pipelines. Whether you want to onboard customer data, normalize data from multiple sources, or create auto-mapping UIs over Lume, Lume delivers. With automated transformations and data delivery, error and type checking, auto-maintenance with schema inference, and execution via an API or a no-code App for different use cases, teams can spend more time delivering their core value to customers instead of wrangling and manually mapping data.\n\n**🚀 Key Features**\n\n* ✨ Generate mapping logic in seconds: via our API or the Lume app, simply pass in a sample of your source data and a target format, and Lume will generate the mappings.\n* 🛠️ Edit mapping logic: review and edit the mapping logic and mapped data as needed to ensure you have the desired outcome. Leverage tools ranging from natural language all the way to full code edits to edit the mappers quickly and easily.\n* ✅ Deploy mappers: Use the mappers deterministically in your code via our API or the app, allowing you to reliably move data between schemas as you scale your data pipelines.\n* 🤖 Auto-maintain mappers: Lume detects changes in your schemas, notifying you and allowing you to use AI to update the mapping logic, effectively automating your maintenance.\n* 📊 Manage and organize mappers: use Lume’s dashboard to have visibility over all of your mappers and live data pipelines.\n* 📑 Handle any format: Lume supports JSON, CSV, XLS, PDF, and other formats! You can move data through the API or the app.\n* 🔮 Upcoming: adding custom logic with lambda functions, custom validation rules, python SDK, transferring your existing mappings when migrating to Lume, and more.\n\n**⚙️ How it works**\n\n* To create mappers: specify your target structure and provide a sample of source data. This can be done via the Lume API or the Lume Platform.\n\n![uploaded image](/media/?type=post&id=81770&key=user_uploads/1159508/d27fd09d-3943-4748-817a-cb16a4b5952a)\n\n* ✨ Lume’s AI system creates the mappings between any two schemas, ranging from simple 1-1 mappings, time-series aggregations, complex calculations, and ontology classifications.\n* Use the generated mappings and mapping logic: Use the Lume API or the Lume Platform to upload new incoming data and retrieve the corresponding output mapped data and mapping logic. Your data has just been automatically mapped with AI!\n\n  ![uploaded image](/media/?type=post&id=81770&key=user_uploads/1159508/c25b7d28-9b19-49b5-b103-ad8a69ef21e7)\n\n* For creating robust data pipelines, review and edit the generated mapping logic before running production data. Once saved, you can confidently use these mappers as deterministic pipelines. This is helpful for your data integrations between systems.\n\n![uploaded image](/media/?type=post&id=81770&key=user_uploads/1159508/c9f8696c-e294-4c01-b602-aa16f3635f21)\n\n![uploaded image](/media/?type=post&id=81770&key=user_uploads/1159508/b2766b97-2eda-4dca-baf5-9f87ffb22d8d)\n\n* Alternatively, build on top of the Lume API to deploy your own auto-mapper UI to allow customers to self-onboard.\n\n**💡 Use Cases**\n\nLume handles three core use cases:\n\n* Onboarding Client Data\n* Normalizing Data from Multiple Sources\n* One to Many Integrations\n\nHere are three customer success stories:\n\n* For a growth-stage battery analytics company, mapping each customer’s sensor data went from 2 weeks to 1.5 hours with Lume.\n* For a large HR analytics platform, Lume mapping accuracy reached 95% for their most recent batch of integrations, saving them weeks of onboarding time for mapping and classifying data from incoming systems.\n* For an early-stage financial product startup, Lume is handling \\~500 live data pipelines that are externally facing, constantly mapping and adapting to new incoming data.\n\nAll of these have the common theme of having to map data between unique schemas, where even discrepancies as minor as column name variations make this process time-consuming and near-impossible to automate. This gets even worse at scale. Clients previously were allocating engineers, customer success teams, or offshore labor to analyze incoming data, map the data, and route it to their new systems. This process used to take up to multiple months for some teams, costing significant time and money.\n\nWe serve multiple industries ranging from ecommerce, insurance, manufacturing, and financial products.\n\n**👨‍💻Meet the Team**\n\n![uploaded image](/media/?type=post&id=81770&key=user_uploads/1159508/fe023d78-6ef6-49c3-b202-d264bc80270e)\n\nMy co-founders Nebyou Zewde (right), Robert Ross (middle), and I (left) all met during our first year at Stanford. As engineers ourselves, we’ve spent plenty of time grudgingly going over the manual task of mapping data. We quickly learned that we were not the only ones who faced this problem - most companies spend too much time on this. As AI grads, and with a fire for this problem, we built Lume AI. We are part of the Y Combinator W23 batch, and we’re excited to be launching here.\n\n**🙏 Our ask**\n\n* Sign up for a free trial to get started by [visiting our website](https://www.lume.ai/?utm_source=ycombinator&utm_medium=social&utm_campaign=launch_yc_5_24) or [booking a call here](https://cal.com/team/lume/intro). We’ll get you on a Slack and onboarded quickly.\n* Share this with anyone who works on data mapping for customer onboarding, data normalization, or moving data between any two systems. We support a variety of use cases.\n* Upvote and share this post!\n\n**💥 The Deal**\n\nMention you saw Lume via Launch YC, and we will give you a 50% discount for your first 6 months. We also offer a free pilot.",
+      "url": "https://www.ycombinator.com/launches/LGs-lume-automate-data-mappings-using-ai",
+      "votes": 40,
+      "created_at": "2024-06-26T17:31:22.598Z"
+    },
+    {
+      "id": 70009,
+      "title": "Lume - No-code tool to create and maintain custom data integrations",
+      "tagline": "Lume uses AI to automatically transform data between any start and end schema.",
+      "body": "**TL;DR**\n\nLume helps engineering teams build and maintain custom data integrations with no code. If you spend countless hours manually transforming data for custom integrations, we can help! Please go to our [website](https://www.lume.ai/?utm_source=ycombinator&utm_medium=social&utm_campaign=launch_yc_5_23) and sign up for our private beta.\n\n—-\n\n---\n\nHi everyone! We are Nicolas, Nebyou, and Robert, the founders of Lume. We are on a mission to empower companies to focus on delivering their core value proposition rather than spending time on data integrations and transformations. \n\n![uploaded image](/media/?type=post&id=70009&key=user_uploads/1157038/0a606e9a-7357-4f36-bd06-be63bddcd635)\n\n**🧨 Problem** \n\nEngineers spend countless hours manually transforming data for custom integrations or pay large amounts to consulting firms to do the same. Dynamic schemas from different clients or apps require engineers to build and maintain custom integration pipelines one by one, and companies spend days, weeks, and even months building integrations. Lume is tackling this problem head-on. \n\n**✨ Solution**\n\nLume uses AI to automatically transform data between _any_ start and end schema and pipes the data directly to your desired destination. Lume provides this through a no-code platform where you can build and maintain your custom data integrations. Whether you want to map multiple sources to your internal unified schema or connect to your third-party apps without manual mapping, Lume delivers. With automated transformations and data delivery, backtesting and data quality checks, and version control, engineers can spend more time delivering their core value to customers instead of wrangling and manually mapping data. \n\n**⚙️ How it works**\n\n* You connect your custom schemas and authenticate into your desired apps.\n* Lume’s AI system creates the transformations between any two schemas, ranging from internal schemas to structured third-party apps.\n* Once you validate the transformed data, Lume will pipe the correct data to your specified destination.\n\nWe can connect to your data warehouse and leverage its compute to keep your data in-house.\n\n**Common Use Cases:**\n\n* Internal: Transforming separate data sources into one unified internal ontology\n  * Ex: a unified schema between Salesforce, Hubspot, Quickbooks, and Pipedrive.\n* External: Custom syncs between your SaaS apps\n  * Ex: Enrich CRM data from multiple sources before sending it to your BI tool\n* Onboarding: Mapping prospective client data to fit your product’s input schema\n  * Ex: Consulting firms mapping each new clients’ unique ERP schemas to their internal ontology on Snowflake.\n* Migration: Creating custom integration pipelines between competitor products to yours \n  * Ex: New productivity tool startup creates an “Import from Notion/Evernote” for newly converted users.\n\n**👨‍💻Meet the Team**\n\n![uploaded image](/media/?type=post&id=70009&key=user_uploads/1157038/86b2a6a9-5fb4-4300-be17-30125bdb80fa)\n\nMy co-founders Nicolas Machado (right), Nebyou Zewde (middle), and I (left) all met during our first year at Stanford, where we received our undergraduate and Master's degrees in computer science with a focus on Artificial Intelligence. With experience working at both unicorn startups and big tech companies, our team has knowledge and experience building and deploying applied machine learning systems.\n\n**🙏 Our ask**\n\n* Sign-up for our [private beta](https://www.lume.ai/?utm_source=ycombinator&utm_medium=social&utm_campaign=launch_yc_5_23) if you want to try Lume and see a demo.\n* Share this with anyone that works on custom data integrations.\n* Upvote and share this post!\n\n**💥 The Deal**\n\n**Sign-up before demo day for a 50% discount for the first year!**",
+      "url": "https://www.ycombinator.com/launches/IDB-lume-no-code-tool-to-create-and-maintain-custom-data-integrations",
+      "votes": 251,
+      "created_at": "2023-03-07T18:12:57.774Z"
+    }
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "id": 31530,
+  "name": "Avea Robotics",
+  "slug": "avea-robotics",
+  "former_names": [],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/8bbc0f67672c28c5bc0d90aef4a3427383e238ac.png",
+  "website": "https://www.avearobotics.com",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "We built the fastest software to control robots from anywhere in the world. We make it possible for robotics companies to keep their robots at 100% uptime, and intervene instantly when a failure occurs. ",
+  "one_liner": "The human-in-the-loop system for robots",
+  "team_size": 2,
+  "industry": "Industrials",
+  "subindustry": "Industrials -> Manufacturing and Robotics",
+  "launched_at": 1779165169,
+  "tags": [],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Spring 2026",
+  "status": "Active",
+  "industries": [
+    "Industrials",
+    "Manufacturing and Robotics"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/avea-robotics",
+  "api": "https://devasheeshg.github.io/yc-api/batches/spring-2026/avea-robotics.json",
+  "year_founded": 2026,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/avea-robotics/",
+  "x_url": "https://x.com/AveaRobotics",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/8bbc0f67672c28c5bc0d90aef4a3427383e238ac.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Harj Taggar",
+    "url": "https://www.ycombinator.com/people/harj-taggar"
+  },
+  "founders": [
+    {
+      "user_id": 2215628,
+      "full_name": "Ary Indarapu",
+      "title": "Founder/CEO",
+      "founder_bio": "Ary is the co-founder and CEO of Avea Robotics. His mission is to accelerate the future of autonomous robotics by getting robots out of the lab and into the field.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/aryanindarapu/",
+      "x_url": " https://x.com/aryind_",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/e1e9550f0a3ea56d52319495e2e27e34621e309d.jpg"
+    },
+    {
+      "user_id": 2249924,
+      "full_name": "Vikram Vadrevu",
+      "title": "Founder/CTO",
+      "founder_bio": "Co-founder of Avea Robotics, building high-performance, low-latency software for modern robots. Aerospace + embedded software engineer from UIUC; previously wrote flight software for NASA and DoD satellites. Interested in robotics, physical AI, infrastructure, composite materials, and the state of the world.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/vikramvadrevu",
+      "x_url": "https://x.com/vikramvadrevu",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/60917f4e7be5b5cd940400b71a1e875d78e26503.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 102363,
+      "title": "Avea Robotics - The human-in-the-loop system for robots",
+      "tagline": "Remote teleop intervention to keep your robots at 100% uptime",
+      "body": "Hi! We’re Ary and Vikram. We graduated from UIUC and moved to SF last summer with a mission to get robots out of the lab and into the field, doing real work. Now, we’re at 18k MRR and helped deploy nearly 30 robots!\n\n![uploaded image](/media/?type=post&id=102363&key=user_uploads/2215628/e3932dd6-69d1-46d6-b42c-568c050068b4)\n\n**What’s the problem?**\n\nRobots aren't perfect- they make mistakes and get stuck in edge cases. That means lost time, and on a factory floor or inside a logistics warehouse, that can translate to thousands of lost dollars. Keeping on-site staff on standby just to babysit them kills ROI and the deployment.\n\n**What’s the solution?**\n\nOur product, Sentinel, allows operators to remotely teleop their robots so they can intervene and keep robots running at 100% uptime. Our software is ultra low-latency, meaning operators can react to the environment in near real-time.\n\nWith Sentinel, robotics companies can unlock the path to scaling their deployments.\n\n**Launch Video: [https://youtu.be/dKEbWlZocJQ](https://youtu.be/dKEbWlZocJQ)**\n\n**Our take:** Robotic AI models will never get better if they just sit in the lab. Deployments are the bottleneck for autonomous robots; that’s why we’re building Avea! \n\n**Asks:** We want to talk to more robotics companies! If you or someone you know is an operator at a robotics company that uses teleoperation, please reach out.",
+      "url": "https://www.ycombinator.com/launches/Qd1-avea-robotics-the-human-in-the-loop-system-for-robots",
+      "votes": 13,
+      "created_at": "2026-06-01T15:10:19.277Z"
+    },
+    {
+      "id": 101616,
+      "title": "Avea Robotics - Control robots from ANYWHERE in the world",
+      "tagline": "Ultra low-latency VR teleoperation to help you scale your robots.",
+      "body": "**TLDR;** Avea builds ultra low-latency teleop software that allows robotics companies to remotely control their robots using VR headsets.\n\n![uploaded image](/media/?type=post&id=101616&key=user_uploads/2215628/66a8757b-ba8a-4a6c-b573-688aba5ad815)\n\n**What’s the problem?**\n\nWhen autonomous robots get stuck during deployment, teleoperation is used to recover them and capture that edge case. Today, that means keeping on-site staff on standby just to babysit deployments. It’s not scalable and hurts ROI, causing deployments to stall.\n\nOther remote teleop softwares are clunky and unreliable for real-time control.\n\n**What’s the solution?**\n\nSentinel allows operators to remotely teleop their robots so they can intervene when autonomy breaks down. Our software has ultra low-latency, meaning operators can react to the environment in near real-time. \n\nWith Sentinel, robotics companies can unlock the path to scaling their deployments.\n\n**Demo Video: [https://youtu.be/dKEbWlZocJQ](https://youtu.be/dKEbWlZocJQ)**\n\n**A bit about us:**\n\n* We moved to SF right after graduating from UIUC last year to work on Avea\n* We’ve been doing robotics since high school (shoutout FIRST!)\n* We're on a mission to get robots out of the lab and into the real world\n\n**Asks:** We want to talk to more robotics companies! If you or someone you know is an operator at a robotics company, please reach out.",
+      "url": "https://www.ycombinator.com/launches/QQy-avea-robotics-control-robots-from-anywhere-in-the-world",
+      "votes": 16,
+      "created_at": "2026-05-20T01:41:28.008Z"
+    }
+  ]
+}

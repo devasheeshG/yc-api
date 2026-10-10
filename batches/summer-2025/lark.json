@@ -1,0 +1,105 @@
+{
+  "id": 30630,
+  "name": "Lark",
+  "slug": "lark",
+  "former_names": [],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/d081c0c274bbf68a2b6814e7891694bfd2e2c515.png",
+  "website": "https://getlark.ai/",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "Lark lets teams write end-to-end tests in plain English. Validate dashboards, APIs, SDKs, and full product flows without maintaining fragile test code. Run continuously on feature branches, in CI, or in production.",
+  "one_liner": "The E2E testing layer for AI-driven development",
+  "team_size": 5,
+  "industry": "B2B",
+  "subindustry": "B2B -> Engineering, Product and Design",
+  "launched_at": 1755281037,
+  "tags": [
+    "Artificial Intelligence",
+    "Developer Tools",
+    "B2B",
+    "DevOps",
+    "Automation"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Summer 2025",
+  "status": "Active",
+  "industries": [
+    "B2B",
+    "Engineering, Product and Design"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/lark",
+  "api": "https://devasheeshg.github.io/yc-api/batches/summer-2025/lark.json",
+  "year_founded": 2025,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/lark-ai/",
+  "x_url": "https://x.com/uselark_ai",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/d081c0c274bbf68a2b6814e7891694bfd2e2c515.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [
+    "https://bookface-images.s3.us-west-2.amazonaws.com/attachments/dde1456e1891c9345ebb69dffab5223aaacd994a.png"
+  ],
+  "primary_partner": {
+    "name": "Brad Flora",
+    "url": "https://www.ycombinator.com/people/brad-flora"
+  },
+  "founders": [
+    {
+      "user_id": 242901,
+      "full_name": "Vijit Dhingra",
+      "title": "Founder",
+      "founder_bio": "Vijit is the co-founder of Lark. \n\nHe previously spent five years at a Stripe as a tech lead where he built their usage based billing product and other payments infrastructure. He also contributed to testing infra at Stripe to improve developer productivity and product reliability. ",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/vijitdhingra/",
+      "x_url": "https://x.com/VijitDhingra1",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/849364ab5c5c0f34e874a00a2bb15cc5967a68f0.jpg"
+    },
+    {
+      "user_id": 923500,
+      "full_name": "Jack Brown",
+      "title": "Founder",
+      "founder_bio": "Jack is the co-founder of Lark.\n\nPreviously, Jack built usage-based billing at Stripe to support the complex pricing models of the worlds biggest AI companies. Prior to his previous role, Jack led engineering teams at fast-growing startups, where he built developer tooling infrastructure to improve developer productivity.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/jackcbrown/",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/c34bd17fd36246287d0b0df7be2df253d0bd7192.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 95995,
+      "title": "Lark: Stripe without the workarounds",
+      "tagline": "Delete your billing code",
+      "body": "**Problem** 🔴\n\nToo often, customers tell us they use Stripe for billing but when I ask how they manage their credits or track usage, I always hear the same answer: “we built it in-house”. These pricing models are not edge-cases. They’re the new normal in the age of AI.\n\n**Solution** ⚒️\n\n[uselark.ai](https://uselark.ai) is a modern billing platform with the flexibility to support any pricing model (credit-based, usage-based, hybrid, dimensional, token-based, etc…) at any scale (**10x more** than Stripe).\n\nWhether you’re building an AI powered API or a B2B SaaS product, Lark provides everything (including checkout + customer-facing portal) you need to implement complex billing logic without the hassle.\n\nA few nice things about us -\n\n* You don't have to manage any webhooks or store custom billing state (like stripe customer id) in your database\n* Our APIs are simple. You don't have to integrate with a separate checkout API. We also provide [frontend SDKs](https://docs.uselark.ai/guides/subscriptions/feature_access/) to check billing state (like remaining credits, feature access)\n* Seamless pricing changes that automatically apply to your customers without involving engineers\n* We also help you track margins & LLM costs per customer for AI applications\n\n📘 **Quickstart**: https://docs.uselark.ai/\n\n![uploaded image](/media/?type=post&id=95995&key=user_uploads/923500/df8c7258-bc58-4c50-99a2-79b06af9fd50)\n\n**Checkout + customer-facing portal included**\n\nNo separate APIs, state management, or webhooks\n\n![uploaded image](/media/?type=post&id=95995&key=user_uploads/923500/6adaf51f-5012-4edd-b7f8-773cf5688eff)\n\nCustomer-facing portal includes real-time usage and subscription management\n\n![uploaded image](/media/?type=post&id=95995&key=user_uploads/923500/062c65c1-3ddf-409b-bfad-aaf95f24c116)\n\n**Scalability**\n\nLark supports up to 1M events per second so you don’t have to worry about pre-aggregating your data.\n\n![uploaded image](/media/?type=post&id=95995&key=user_uploads/923500/79359907-1af9-4baa-a5c4-cac78402715e)\n\n**Team**\n\n[Vijit](https://www.linkedin.com/in/vijitdhingra/) and [Jack](https://www.linkedin.com/in/jackcbrown/) both previously built the [usage based billing](https://stripe.com/billing/usage-based-billing) and [customer portal](https://docs.stripe.com/customer-management) product at Stripe.",
+      "url": "https://www.ycombinator.com/launches/OyJ-lark-stripe-without-the-workarounds",
+      "votes": 25,
+      "created_at": "2025-12-04T22:37:50.310Z"
+    },
+    {
+      "id": 93109,
+      "title": "Lark: AI Agents for Billing",
+      "tagline": "We build AI agents to solve billing issues for subscription companies. ",
+      "body": "**TL;DR** \n\nLark helps subscription companies automate customer billing support inquiries, manage chargebacks, and prevent fraud.\n\nhttps://youtu.be/gmg8HxjaS1Q\n\n**Problem**\n\nBilling your customers is hard.\n\nTeams spend tens of hours every week attending to billing support inquiries and customers often wait days to receive a response. You also have to worry about fraud and chargebacks.\n\nAll of this is distracting for your team and no one likes working on this. Ignoring the issue leads to frustrated customers, risk of being banned from your payment processor, and lost revenue.\n\n**Solution**\n\nLark provides AI agents that automate all of this for you.\n\nOur agents integrate with your billing provider, support system (e.g. zendesk), and data sources to gather context about the customer and take actions on your behalf. The agents’ decisions are evaluated against strong guardrails to ensure their actions are safe and follow your policies.\n\n**Team**\n\n[Vijit](https://www.linkedin.com/in/vijitdhingra/) and [Jack](https://www.linkedin.com/in/jackcbrown/) both previously built the usage based billing product and customer portal for a large billing provider. Jack has solved billing issues at several startups. \n\n**Our Ask**\n\nIf you’re tired of dealing with billing issues or know someone who is, we’d love to chat! We’re currently working with a few large consumer companies and are actively looking to onboard more customers. We’re also happy to chat about anything in the billing space!\n\n**Contact Info**\n\n[founders@uselark.io](mailto:founders@uselark.io)\n\n[Book time here](https://calendly.com/founders-uselark/lark-chat)",
+      "url": "https://www.ycombinator.com/launches/ODl-lark-ai-agents-for-billing",
+      "votes": 43,
+      "created_at": "2025-08-18T19:33:29.250Z"
+    }
+  ]
+}

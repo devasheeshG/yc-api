@@ -1,0 +1,83 @@
+{
+  "id": 28107,
+  "name": "SuperAPI",
+  "slug": "superapi",
+  "former_names": [
+    "Super API"
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/c11e1c8d036fe535bd716bcbde93721f71fc8801.png",
+  "website": "https://trysuperapi.com",
+  "all_locations": "Bengaluru, KA, India",
+  "long_description": "SuperAPI is a programmable API gateway that makes all your fetch APIs cacheable, reducing the response time 10x. \r\nOur customers use SuperAPI to cache their critical APIs without spending 6-9 months rewriting their code. ",
+  "one_liner": "Programmable API gateway that makes APIs cacheable",
+  "team_size": 2,
+  "industry": "B2B",
+  "subindustry": "B2B -> Infrastructure",
+  "launched_at": 1678580832,
+  "tags": [
+    "Developer Tools",
+    "API"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Winter 2023",
+  "status": "Active",
+  "industries": [
+    "B2B",
+    "Infrastructure"
+  ],
+  "regions": [
+    "India",
+    "South Asia"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/superapi",
+  "api": "https://devasheeshg.github.io/yc-api/batches/winter-2023/superapi.json",
+  "year_founded": 2022,
+  "city": "Bengaluru",
+  "country": "IN",
+  "linkedin_url": "",
+  "x_url": "",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/c11e1c8d036fe535bd716bcbde93721f71fc8801.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Brad Flora",
+    "url": "https://www.ycombinator.com/people/brad-flora"
+  },
+  "founders": [
+    {
+      "user_id": 11606,
+      "full_name": "Adithya Kavuluru",
+      "title": "Founder",
+      "founder_bio": "",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/adithya-kavuluru/",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/4c69f11a7eebcee347981c305880b9ce8dbcd8cb.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 70198,
+      "title": "SuperAPI - Make all your fetch APIs cacheable",
+      "tagline": "We help make your APIs much faster by making them cacheable ",
+      "body": "### **✨ TL;DR**\n\nSuperAPI is a programmable API gateway that makes all your fetch APIs cacheable, and makes sure your cached API responses never goes stale.\n\nHey everyone - it’s Aditya and Adithya here introducing **SuperAPI**.\\\n\\\n—\n\n### **🤯 Problem**\n\nA lot of application APIs are considered non-cacheable either because:\n\n1. the underlying data changes frequently\n2. they use GraphQL making it difficult to cache\n3. they’re REST APIs that fetch using POST because they have their search parameters within the body\n\nMost applications in this situation do not cache their API responses, and end up serving APIs with a high latency, or setup multiple clusters close to their users to give them low latencies.\n\n# **💡 Solution**\n\nSuperAPI makes such APIs cacheable by monitoring your incoming **POST / PUT / PATCH** API calls, and your database updates to invalidate stale data and keep your API cache fresh.\n\nBecause we listen to your database changes, SuperAPI can also update your cache in-place. This means, any updates in your database will only modify the relevant portions of your cached API responses.\n\nThis reduces the amount of computations on your database & compute instances, helping reduce your cloud spend.\n\n# **🚀 How does SuperAPI work?**\n\nSuperAPI can either be deployed as a separate API gateway, or can run on top of other caching providers like **Cloudflare & Cloudfront.**\n\nThis API gateway listens to all incoming update API calls (POST / PUT / PATCH), and invalidates any API cache that could go stale as a result of this incoming update API call.\n\nWe also have a tiny docker container running within your network that listens to your database updates (using the replication stream or database triggers), which helps us catch any invalidations coming from internal cron jobs & batch processes.\n\nRead more about how SuperAPI works [here](https://trysuperapi.com/blog/how-does-superapi-work-clet0rvf1446071ko73x4q6qtr).\n\n![uploaded image](/media/?type=post&id=70198&key=user_uploads/11606/c7fdb60e-043e-49d6-b23b-e6123de076e6)\n\n# **📜 How did we get here?**\n\nBoth of us founders worked together at a Tiger Global backed Indian tech company before starting on SuperAPI.\n\nI was the first engineer there, and built out majority of the product & platform for the first couple of years. For the next 2 years, I was heading the engineering team, growing the team from 6 engineers to \\~55 engineers, designers & PMs.\n\nAditya was heading the platform engineering team, where he built a majority of the infrastructure to scale the platform and bring down the API latencies to less than 50ms.\n\nWe’ve been obsessed with API latencies since our time working together, and are using a lot of learnings from back then to build out SuperAPI.\n\n# ❓ **Asks**\n\nIf you are looking to **reduce your API latencies**, let’s talk. Drop us a note at: [founders@trysuperapi.com](mailto:founders@trysuperapi.com).",
+      "url": "https://www.ycombinator.com/launches/IGE-superapi-make-all-your-fetch-apis-cacheable",
+      "votes": 190,
+      "created_at": "2023-03-12T00:34:19.620Z"
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "id": 27960,
+  "name": "Radical",
+  "slug": "radical",
+  "former_names": [
+    "Radical Inc."
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/d6c4df45192bc64b3d0c669324d48fcd4465995d.png",
+  "website": "https://www.radicalaero.com/",
+  "all_locations": "Seattle, WA, USA",
+  "long_description": "Radical’s StratoSats are autonomous platforms that provide satellite-like services on demand. They fly within Earth’s atmosphere to provide persistent, high performance infrastructure across applications in earth observation, connectivity, and more. Unlike satellites, StratoSats navigate freely without the need for rocket launches or orbits - reducing costs, increasing flexibility, and ensuring customers get the targeted coverage they need.",
+  "one_liner": "Building persistent, high-performance infrastructure in the sky",
+  "team_size": 6,
+  "industry": "Industrials",
+  "subindustry": "Industrials -> Aviation and Space",
+  "launched_at": 1672782390,
+  "tags": [
+    "Drones",
+    "Satellites",
+    "Aerospace"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Winter 2023",
+  "status": "Active",
+  "industries": [
+    "Industrials",
+    "Aviation and Space"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/radical",
+  "api": "https://devasheeshg.github.io/yc-api/batches/winter-2023/radical.json",
+  "year_founded": 2022,
+  "city": "Seattle",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/radicalaero",
+  "x_url": "https://twitter.com/radicalaero",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/d6c4df45192bc64b3d0c669324d48fcd4465995d.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Jared Friedman",
+    "url": "https://www.ycombinator.com/people/jared-friedman"
+  },
+  "founders": [
+    {
+      "user_id": 1045182,
+      "full_name": "James Thomas",
+      "title": "Founder",
+      "founder_bio": "Co-Founder & CEO at Radical (W23) - Radical makes high altitude solar-powered aircraft. Our aircraft are able to fly continuously in the stratosphere without landing. They provide an inexpensive, zero-emissions way to connect and observe earth like never before. Prior to this I worked at Amazon Prime Air for six years (doing aerodynamics and aircraft design for delivery drones).",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/james0thomas/",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/0b7c185c49f67aa098d46078a656757ddd68860c.jpg"
+    },
+    {
+      "user_id": 1094918,
+      "full_name": "Cyriel Notteboom",
+      "title": "Founder",
+      "founder_bio": "Co-Founder & CTO at Radical (W23) - Radical makes high altitude solar-powered aircraft. Our aircraft are able to fly continuously in the stratosphere without landing. They provide an inexpensive, zero-emissions way to connect and observe earth like never before. Prior to this I worked at Amazon Prime Air for six years (mechanical design, structural analysis and optimization of delivery drones).",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/cyriel-notteboom/",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/52ba6749c239ca49f3b800e92c8ca7c455d74f72.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [
+    {
+      "title": "Radical thinks the time has come for solar-powered, high-altitude autonomous aircraft | TechCrunch",
+      "url": "https://techcrunch.com/2024/04/24/radical-thinks-the-time-has-come-for-solar-powered-high-altitude-autonomous-aircraft/amp/",
+      "date": "Apr 24, 2024"
+    }
+  ],
+  "launches": [
+    {
+      "id": 68187,
+      "title": "Radical ✈️ High-altitude solar-powered aircraft",
+      "tagline": "Solar aircraft for connectivity, observation, and sensing, from the stratosphere",
+      "body": "Hi [👋](https://emojipedia.org/waving-hand/#:\\~:text=A%20hand%20waving%20most%20commonly,to%20Emoji%201.0%20in%202015.) [James](https://www.linkedin.com/in/james0thomas/) and [Cyriel](https://www.linkedin.com/in/cyriel-notteboom/) here to introduce [Radical](https://www.radicalaero.com/)!\n\nRadical makes high altitude solar-powered aircraft. Our aircraft are able to fly continuously in the stratosphere without landing. They provide an inexpensive, zero-emissions way to connect and observe earth like never before.\n\n![uploaded image](/media/?type=post&id=68187&key=user_uploads/1045182/65f89115-af17-4432-ae79-3fcbeb7b2bc5)\n\n### **Why Solar aircraft?**\n\nOur aircraft is designed to fly over specific areas for months, carrying various payloads for tasks like imagery, sensing, and telecommunications. What we’re building behaves like a drone in some ways, and like a satellite in other ways. Much like satellites, we’re able to provide service for long periods of time, but we’re also much closer to users (we fly at around 70,000 ft / 20 km altitude) and able to maneuver or remain over an area of interest. This makes what we’re building really well suited to applications that require continuous coverage or high-resolution/bandwidth data. Applications include:\n\n* Providing cell service or internet coverage\n* Aerial imagery and mapping\n* Meteorology and atmospheric sensing\n* Emergency response\n\n![uploaded image](/media/?type=post&id=68187&key=user_uploads/1045182/893208ea-fa0f-46bc-9dc7-b93042439b94)\n\n### **How it works**\n\nOur aircraft is battery electric and driven by propellers. It has a large wing for high aerodynamic efficiency and to generate the necessary lift required to fly in the thin air of the stratosphere. The wing is covered in solar cells, during the day, these power the aircraft and charge its batteries. Through the night, battery energy is deployed to continue flight. We repeat this process daily, enabling us to fly for many months without needing to land. Ultimately, battery cycle life is what limits our aircraft’s flight endurance - and we can land, carry out simple maintenance tasks and then re-launch to continue flying.\n\n### **Ask**\n\nWe’re hiring and working with customers! If you’re interested in making use of this technology or working on challenging physics technology then get in touch!",
+      "url": "https://www.ycombinator.com/launches/Hjn-radical-high-altitude-solar-powered-aircraft",
+      "votes": 37,
+      "created_at": "2023-01-04T19:12:42.475Z"
+    }
+  ]
+}

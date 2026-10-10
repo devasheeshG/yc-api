@@ -1,0 +1,117 @@
+{
+  "id": 30904,
+  "name": "Tensr",
+  "slug": "tensr",
+  "former_names": [
+    "Core",
+    "Tensr",
+    "Core"
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/7f3743327b1fc85ded6caddbd532e0c600eb2cb0.png",
+  "website": "https://tensr.com/",
+  "all_locations": "Emeryville, CA, USA",
+  "long_description": "Robotic factories that build robotics in the US. Currently operating a 12,000 sqft factory in the Bay Area and actively manufacturing customer orders for some of the largest robotics companies in the US and the International Space Station.\r\n\r\nWe’re a group of Berkeley graduate robotics researchers who previously won a full scale autonomous IndyCar competition at 160mph.",
+  "one_liner": "Robotic factories that build robots",
+  "team_size": 7,
+  "industry": "Industrials",
+  "subindustry": "Industrials -> Manufacturing and Robotics",
+  "launched_at": 1763065446,
+  "tags": [
+    "Deep Learning",
+    "Hardware",
+    "Robotics",
+    "Automation",
+    "Industrial"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Summer 2026",
+  "status": "Active",
+  "industries": [
+    "Industrials",
+    "Manufacturing and Robotics"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/tensr",
+  "api": "https://devasheeshg.github.io/yc-api/batches/summer-2026/tensr.json",
+  "year_founded": 2025,
+  "city": "Emeryville",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/tensrinc/",
+  "x_url": "",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/7f3743327b1fc85ded6caddbd532e0c600eb2cb0.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Nicolas Dessaigne",
+    "url": "https://www.ycombinator.com/people/nicolas-dessaigne"
+  },
+  "founders": [
+    {
+      "user_id": 2763027,
+      "full_name": "Eric Berndt",
+      "title": "Founder/CEO",
+      "founder_bio": "Robotic factories that build robots in the US. Prev Robotics researcher @ UC Berkeley where I raced autonomous Indy500 cars at 160mph",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/ekberndt/",
+      "x_url": "https://x.com/ekberndt",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/8136fef854af650d0b22ac083d6585e09121a8ed.jpg"
+    },
+    {
+      "user_id": 916548,
+      "full_name": "Adith Sundram",
+      "title": "Founder/CTO",
+      "founder_bio": "Founder @ Tensr. Robotics, ML and Controls @ UC Berkeley",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/adithsundram",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/dd20d8f9a84f4b33da6805740257605ff2175494.jpg"
+    },
+    {
+      "user_id": 2763062,
+      "full_name": "C.K. Wolfe",
+      "title": "Founder",
+      "founder_bio": "Founder, Tensr. CS PhD (AI, Robotics), UC Berkeley. Former Technical Program Manager, UC Berkeley robotics lab under Berkeley AI Research (BAIR). Secured $17M+ in DARPA and industry sponsorship across Stanford and UC Berkeley via AI Racing Tech (2024). Team Manager during top-ranked U.S. league season. Editor-in-Chief of UC Berkeley BAIR’s official AI research publication (BAIR Blog).",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/ckwolfe/",
+      "x_url": "https://x.com/ckwolfeofficial",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/9656e4b1ee0b0c58c5a7df8df5bcb18614685e68.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 112228,
+      "title": "Tensr - Robotic Factories that Build Robots from Humanoids to Robots for the International Space Station",
+      "tagline": "Robotic Factories that Build Robots",
+      "body": "Robotic factories building robots. Today we have a 12,000 sqft factory in the Bay Area manufacturing everything from full humanoids to robots for the International Space Station.\n\nOur thesis: Revitalizing domestic manufacturing means driving costs down through automation. We are building an autonomous factory that is able to autonomously process a new order end to end from prototyping to large batch production. That means supply chain management, design for manufacturing, industrial machine retooling, robotic adaptation, quality inspection, packaging, and logistics all automated. Goal: Create a factory that can autonomously go from placed customer order to completed unit scale manufacturing run in 24 hours.\n\nWe are currently manufacturing production runs from top labs, full humanoids, and even have a partnership to manufacture robotics for the International Space Station. We've also built supply chain relationships in electronics, actuators, SMT, computing, pneumatics, and raw material suppliers.\n\nA snippet of some of our machines in the factory:\n\n![uploaded image](/media/?type=post&id=112228&key=user_uploads/2763027/777065e0-e83d-4501-8799-8c490e883851)\n\n![uploaded image](/media/?type=post&id=112228&key=user_uploads/2763027/30775e59-e171-4949-b959-3dc06ffa5322)\n\n## **Manufacturing at the Core**\n\nThis isn't just a robotic manipulation company. Its a manufacturing company.\n\nInternally we have pipelines autonomous building large databases of actuators, and raw tracking and trying to predict what items will need to order now to meet our next day targets.\n\n## **The Harness**\n\nThe entire factory is a data harness we can \"backprop\" learnings through from errors in the customer designs, failed supply chain prediction, slow retoolings, to inaccurate robotic manipulation. Our core belief is that robotic machine learning should not rely on human data to scale but instead learn to improve from its own mistakes in the real world in real time. This closes the manufacturing data gap that currently limits large-scale factory automation.\n\n![uploaded image](/media/?type=post&id=112228&key=user_uploads/2763027/2baf7c74-80e3-49bb-a6bf-712ce0fb30fc)\n\n![uploaded image](/media/?type=post&id=112228&key=user_uploads/2763027/4ed0acb3-e1bc-4210-b4d0-b3f3614bc8da)\n\n## **Any Robot Anywhere**\n\nOur thesis is simple. We should be able to make an robot for any environment whether that be a humanoid for the factory floor or a robot for Low Earth Orbit. We currently have a partnership with the ISS to manufacture a robots for the space station.\n\nNASA Houston, Johnson Space Center\n\n![uploaded image](/media/?type=post&id=112228&key=user_uploads/2763027/e4558cfa-cf98-447a-acaf-7e83650e73a7)\n\n## **Team**\n\nAt heart we're a team of Roboticists. Before Tensr we were the leads for a Berkeley lab's autonomous racing team where we raced autonomous full-scale IndyCars at over 160mph as the ML, Sim, and Robotic Controls leads.\n\n![uploaded image](/media/?type=post&id=112228&key=user_uploads/2763027/c3772faa-f515-4ee0-b32e-2e586b3ae8e3)\n\nWe previously worked in industrial automation, aerospace manufacturing, medical device manufacturing, Berkeley AI Research (BAIR), physics simulation, and secured $17M+ in DARPA / industry sponsorship for UC Berkeley / Stanford research.\n\nOur founding engineers range from Berkeley Robotics PhD, ex-NASA, to 10+ years of manufacturing experience.\n\n## A Better World\n\nOn a personal note, not only do I believe we have the opportunity to build a great business but also to make a positive impact on the world. Automate away environmentally harmful materials, eliminate waste 0.1% at a time, and drive steady-state COGS toward only the fundamental inputs (materials and electricity), unlocking strong margins while collapsing the price of everyday goods / cost of living.\n\nLets build a better world :)\n\nA full view of our vision here:[ tensr.com/whitepaper](https://www.tensr.com/whitepaper)",
+      "url": "https://www.ycombinator.com/launches/TC8-tensr-robotic-factories-that-build-robots-from-humanoids-to-robots-for-the-international-space-station",
+      "votes": 6,
+      "created_at": "2026-08-25T21:00:00.441Z"
+    },
+    {
+      "id": 95506,
+      "title": "Tensr: Building Autonomous Robotic Factories",
+      "tagline": "Building fully autonomous robotic factories that make scaling hardware as effortless as scaling on AWS",
+      "body": "We're building fully autonomous robotics factories at Tensr to create the AWS of manufacturing. Our factories will receive on-demand orders from customers and spin up robots to operate industrial machinery, package, and ship the finished product all in 24 hours.\n\n![uploaded image](/media/?type=post&id=95506&key=user_uploads/2763027/704a7eb3-1ffc-4fc3-b806-32f3fd256418)\n\n[**https://youtu.be/HLijIfoDfpA**](https://youtu.be/HLijIfoDfpA)\n\n**Problem**\n\nMoving fast in manufacturing today doesn't exist. Iterating designs for manufacturing takes months of back and forth getting samples from China and pre-ordering manufacturing capacity several months before the holiday rush, only then to wait several weeks for shipping praying there isn't a strike at the docks. At the same time we see the complete collapse of America industrial capacity as American workers and experience leave the field and contracts are sent overseas.\n\n**Solution**\n\nWith the robotics revolution, for the first time it is possible to fully reimagine the factory floor - moving from rigid lines to modular stations, even in high mix settings. However, we believe that automating manufacturing is more than just deploying a foundation model or a humanoid into an existing factory.\n\nFactories need to be designed from the ground up _around_ robots, not the other way around.\n\nOver the past few weeks we turned our living room into an autonomous factory floor, with stations for CNC, moving stock, and a focus on assembly. After demo day, we'll expand to a full manufacturing facility, and start supporting batch orders of all sizes from other companies throughout the country. Currently we also are in talks to provide our own assembly models to other distributors.\n\n![uploaded image](/media/?type=post&id=95506&key=user_uploads/2763027/706f70f4-47a7-4466-8281-5cf6d081da43)\n\n![uploaded image](/media/?type=post&id=95506&key=user_uploads/2763027/e6420b31-3e74-49d3-b751-c901c5379665)\n\n**Team**\n\nWe're a battle-hardened team of UC Berkeley graduate robotics researchers (from Berkeley AI Research (BAIR)) who met in a lab, previously worked on and managed multiple DARPA contracts and led an autonomous IndyCar team where we raced full scale autonomous Indycars at 160mph (250kmh) as the Machine Learning, Simulation/Team Manager, and Robotics Control leads respectively.\n\n\\- [Eric Berndt](https://x.com/ekberndt) - MS/BS EE/CS, UC Berkeley, CoFounder + CEO\n\n\\- [Adith Sundram](https://www.linkedin.com/in/adithsundram/) - MS/BS ME, UC Berkeley, CoFounder + CTO\n\n\\- [C.K. Wolfe](https://x.com/ckwolfeofficial) - Current PhD AI/Robotics, UC Berkeley, CoFounder\n\nIn addition, our team brings direct operational experience from Rockwell Automation (industrial automation), aerospace manufacturing, and FDA-regulated medical-device production\n\n![uploaded image](/media/?type=post&id=95506&key=user_uploads/2763027/f907544d-cb70-45d2-b043-708a6739e40c)\n\n**Our Ask**\n\nWe're offering early manufacturing / prototyping pilots for hardware companies of all sizes as the new year starts and we open our first facility. If you or anyone you know fits in this bucket, reach out to [**founders@tensr.com**](mailto:founders@tensr.com)!\n\n![uploaded image](/media/?type=post&id=95506&key=user_uploads/2763062/4e53c620-4423-4e57-b0cf-a25b750d0539)\n\n",
+      "url": "https://www.ycombinator.com/launches/OqQ-tensr-building-autonomous-robotic-factories",
+      "votes": 365,
+      "created_at": "2025-11-14T01:26:45.320Z"
+    }
+  ]
+}

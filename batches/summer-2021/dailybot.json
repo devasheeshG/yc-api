@@ -1,0 +1,119 @@
+{
+  "id": 24153,
+  "name": "Dailybot",
+  "slug": "dailybot",
+  "former_names": [
+    "DailyBot"
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/f727e5abc1675504008ed497195c21034c360412.png",
+  "website": "https://www.dailybot.com/",
+  "all_locations": "Remote, OR, USA; Remote",
+  "long_description": "Dailybot is the coordination platform for software teams where people and AI agents work side by side.\r\n\r\nAs engineering teams increasingly operate alongside multiple AI agents — coding agents, incident responders, research assistants — the gap between what's being worked on and what the team can actually see has become a critical problem. Dailybot closes that gap.\r\n\r\nTeams use Dailybot to run async standups, check-ins, retros, and custom workflows directly inside Slack, Microsoft Teams, Google Chat, and Discord. In Dailybot 3, those capabilities now extend to AI agents: every agent can report progress, surface blockers, and be monitored in a dedicated observability layer — all attributed to the humans who delegated the work.\r\n\r\nThe platform combines four capabilities: structured check-ins and forms in chat, AI-powered summaries and blocker detection, no-code workflow automation, and agent infrastructure (API, CLI, open-source skill pack, fleet monitoring). Leaders get a proactive view of what people and agents accomplished together — without adding meetings or dashboards to check.\r\n\r\nDailybot is SOC 2 and GDPR compliant, backed by Y Combinator (S21), and trusted by teams at IBM, Samsung, Pixar, and 8,000+ teams worldwide.",
+  "one_liner": "Make all team work visible — people and AI agents",
+  "team_size": 11,
+  "industry": "B2B",
+  "subindustry": "B2B -> Productivity",
+  "launched_at": 1625092395,
+  "tags": [
+    "Artificial Intelligence",
+    "Developer Tools",
+    "SaaS",
+    "Collaboration",
+    "AI Assistant"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Summer 2021",
+  "status": "Active",
+  "industries": [
+    "B2B",
+    "Productivity"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada",
+    "Remote",
+    "Fully Remote"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/dailybot",
+  "api": "https://devasheeshg.github.io/yc-api/batches/summer-2021/dailybot.json",
+  "year_founded": 2021,
+  "city": "Remote",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/dailybot/",
+  "x_url": "https://twitter.com/dailybot",
+  "fb_url": "https://www.facebook.com/HeyDailybot",
+  "cb_url": "https://www.crunchbase.com/organization/dailybot",
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/f727e5abc1675504008ed497195c21034c360412.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": null,
+  "founders": [
+    {
+      "user_id": 207324,
+      "full_name": "Mauricio Morales",
+      "title": "Founder",
+      "founder_bio": "CEO at DailyBot\n\nMauricio has been building internet products for over 15y. MsC and MBA. He has been involved in product management at different startups and helped build tech companies that have scaled rapidly and were acquired. He's lived in 3 countries.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/maomorales/",
+      "x_url": "https://twitter.com/maomorales",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/0c8c909c734290d1b7b36a9c93d2c2aa7f12e5c3.jpg"
+    },
+    {
+      "user_id": 391363,
+      "full_name": "Sergio Florez",
+      "title": "Founder",
+      "founder_bio": "CTO at DailyBot — leading and building unique conversational experiences for asynchronous work. \n\nSergio is a computer science engineer, MSc in data science and passionate entrepreneur, with talent and more than 10y of experience building digital businesses. He's in the search of the ideation of disruptive business models as agents of change and success.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/xergioalex/",
+      "x_url": "https://twitter.com/XergioAleX",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/c5d98fc547869ed7e082728e254f86af1044bb15.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [
+    {
+      "title": " DailyBot 2.0 - Make your chat 10x better | Product Hunt",
+      "url": "https://www.producthunt.com/posts/dailybot-2-0",
+      "date": "Jul 07, 2021"
+    }
+  ],
+  "launches": [
+    {
+      "id": 109411,
+      "title": "Dailybot CLI: Your AI agents now report to the team",
+      "tagline": "An open-source CLI and skill that turns private agent work into team updates, approvals, and workflows in chat",
+      "body": "Hey everyone! we’re Mauricio and Sergio, co-founders of Dailybot (YC S21).\n\n**What Dailybot is**: a place for team updates, check-ins, and coordination inside Slack, Microsoft Teams, Discord, and Google Chat. For people and AI agents.\n\n**TL;DR**: we built an open-source CLI so people, scripts, and AI agents can drive Dailybot from the terminal. Updates, check-ins, chat messages, forms, and more land where the team already works: Slack, Microsoft Teams, Discord, or Google Chat. **Ask:** ask your agent to try our skill ([**www.dailybot.com/skill.md**](http://www.dailybot.com/skill.md)), run one workflow that matches how your team actually works, and tell us which one helped you move forward today.\n\nDailybot skill: [**https://www.dailybot.com/skills/agent-skill/#install**](https://www.dailybot.com/skills/agent-skill/#install)\n\n**Demo**\n\n[**Dailybot CLI + Agent Skill: Connect your AI coding agent to your team**](https://www.youtube.com/watch?v=rwopfsPzgSQ)\n\n\\\n**The problem**\n\nTeams are getting real work done with coding agents and scripts. A lot of that work still finishes in a private session. The rest of the team only hears about it if someone rewrites it into Slack or a standup.\n\nSo you get the usual mess: invisible agent work, stale status during a release, approvals bouncing between tools, and check-ins that someone rebuilds by hand for every new project.\n\n**What we shipped**\n\nDailybot CLI. Same Dailybot account and team feed you already use, now from the command line. A few workflows we’re highlighting:\n\n1. Agent update to team chat — done / next / blockers show up in the feed, without a human rewrite\n2. One status message that stays current — one release/status message you keep updating, instead of a pile of outdated posts\n3. Simple approvals in chat — approve/reject in Slack or Teams; your system gets the result and work continues\n\nThere’s more under the hood (forms, check-in creation, agent inbox, activity into reports, kudos, teams, workflows). We’re leading with the ones that produce a visible team result fast.\n\n**Installing the CLI**\n\nEasiest path: pass the skill to your agent and ask it in plain language, e.g. “post a team update that we finished the CLI install path” – [**https://www.dailybot.com/skill.md**](https://www.dailybot.com/skill.md)\n\n**How we got here**\n\nWe’ve been building Dailybot for hybrid teams for a while: async check-ins, reports, and coordination inside chat. As our own team (and customers) started running agents all day, the gap got obvious: agents ship work, humans still retype the update.\n\nThe CLI is our answer to that gap. A bridge into the place the team already coordinates.\n\n**Our ask**\n\n1. Install and try one workflow: [**https://www.dailybot.com/skills/agent-skill/#install**](https://www.dailybot.com/skills/agent-skill/#install)\n2. Reply with the workflow you’d want documented/explored next\n3. If useful, intros to eng teams already running agents in production (contact our founders)\n\nThanks,\\\nMauricio &amp; Sergio",
+      "url": "https://www.ycombinator.com/launches/SSh-dailybot-cli-your-ai-agents-now-report-to-the-team",
+      "votes": 22,
+      "created_at": "2026-08-05T16:22:36.120Z"
+    },
+    {
+      "id": 70494,
+      "title": "Dailybot+ AI 🧠 The assistant and toolkit for modern teams",
+      "tagline": "Meet Dailybot, a ChatGPT assistant and AI workflow builder for your work chat",
+      "body": "Hi! We are Mauricio Morales and Sergio Florez, the founders of [Dailybot](https://www.dailybot.com/product/ai?utm_source=YCLaunch).\n\nDailybot+ AI is a toolkit for modern work: a ChatGPT Assistant and an AI Workflow automation tool that takes asynchronous work and in-chat collaboration to another level. Compatible with Slack, Microsoft Teams, Google Chat, or Discord.\n\n### **The Problem**\n\nAI is the future, yes. But many people lack the knowledge and resources to effectively incorporate AI into their daily workflow, resulting in missed opportunities for creating impactful use cases.\n\n### **Our Solution**\n\nDailybot provides a chat assistant and platform that simplifies the integration of AI into daily workflows. With our technology, anyone can access an AI assistant (ChatGPT) in the work chat, and can also implement use cases that leverage the power of AI.\n\n![uploaded image](/media/?type=post&id=70494&key=user_uploads/207324/1d5a25dc-bc23-4f36-8315-61af16175cf6)\n\nWe provide key building blocks for you to combine and build multiple use cases on top of your chat workspace.\n\nThe building blocks of Dailybot are: **Check-ins** for stand-ups or recurring surveys; **Forms** for any data collection; **Chat Commands** for in-chat customization; **Workflows** for setting up triggers/actions; and the **AI engine**.\n\nThe Dailybot Workflows provide a Zapier-like interface where users can define triggers and actions (one or multiple) that should run.\n\n![uploaded image](/media/?type=post&id=70494&key=user_uploads/207324/7c533a87-fd19-4145-a9c9-4450a49a0e53)\n\nThe Actions can be AI content generation, sending messages (DMs or channels), sending emails, or triggering other building blocks of Dailybot.\n\n![uploaded image](/media/?type=post&id=70494&key=user_uploads/207324/dc811400-636e-4ffb-8773-aaefa373ddc2)\n\n### **A Few Examples**\n\n* You run a **Daily Stand-up** (built with Check-ins), then, **when a blocker is reported**, an **AI Workflow is run**. It analyzes the blocker and then suggests the employee ideas for solving the issue/bocker.\n* You create a **Form** that will be triggered with the in-chat command named “**product release**”, when the Form is completed an **AI Workflow is run**. It analyzes all the content of the release form **and generates a press release** that is posted into the #releases channel.\n* You create an **anonymous survey to monitor team morale**. The **AI analyzes all the responses** and sends a summary to the head of HR (via email or DM).\n\nWe're passionate about making remote work easier and more efficient and our goal is to make DailyBot the best companion for your team’s work.\n\n**Our Ask:**\n\nWe’d love to hear your ideas on what type of AI-powered daily workflows (in chat) will add value to your team, feel free to share the feedback at [support@dailybot.com](mailto:support@dailybot.com)\n\nWe offer a Free Trial, [**Try Dailybot here**](https://www.dailybot.com/product/ai?utm_source=YCLaunch).",
+      "url": "https://www.ycombinator.com/launches/IL0-dailybot-ai-the-assistant-and-toolkit-for-modern-teams",
+      "votes": 40,
+      "created_at": "2023-03-23T15:06:42.817Z"
+    },
+    {
+      "id": 64310,
+      "title": "DailyBot 🤖 daily stand-ups, automation and chat assistant for work",
+      "tagline": "⚡️ On a mission to provide one-click workflows for team collaboration and productivity via chat",
+      "body": "👋 Mauricio and Sergio from [@DailyBot](https://www.dailybot.com/) here.\n\n### **TL;DR**\n\nDailyBot is a bunch of useful add-ons for your chat platform. Plug it into your chat and make Async Work a breeze for your team:\n\n* 1- Running async Daily Stand-ups, natively integrated in the chat\n* 2- Cutting unnecessary meetings with more types of recurring check-ins\n* 3- Spreading love and team recognition with DailyBot Kudos\n* 4- Socializing better with watercooler prompts and random 1:1 coffees\n\nAnd developers can build simple in-chat functions for their day-to-day operations, without the need to learn chat-platform-specific APIs.\n\nAvailable on Slack, Discord, MS Teams, G Chat.\n\n### **The problem**\n\nAsync work is the new way of working for many teams. Most teams use chat in any form with tools like Discord, Slack and others. As chat becomes the main app that workers interact with everyday, it becomes necessary to give it more purposes.\n\nNew purposes include workflows like team check-ins, surveys, platform notifications, tools for social engagement, or custom commands to trigger actions.\n\nCreating all this setup is a hustle:\n\n* 1- You have to use many apps, bots, plugins\n* 2- There is a lot of context switching, management overhead, more subscription fees, and more app fatigue for workers\n* 3- Most bots are not designed for protecting security and privacy\n\n# **DailyBot is the solution**\n\nWe are building the first super-bot for your chat. DailyBot comes with a bunch of use cases and features, all-in-one. Some workflows include:\n\n**Check-ins:** track automatically what your team is up to. You can run async and written updates, agile daily stand-ups, retrospectives, or periodic check-ins like 1:1s.\n\n![uploaded image](/media/?type=post&id=64310&key=user_uploads/207324/06136816-f0a8-4324-8e8b-db4bb9a0aa81)\n\n**Kudos**: give kudos and celebrate actions that contribute to better team culture. Create rewards and have fun activities with your team based on our leaderboard.\n\n![uploaded image](/media/?type=post&id=64310&key=user_uploads/207324/b523b354-332f-4d1e-9617-996320210eb7)\n\n**Forms**: create all-purpose forms that people can respond to in chat or on the web. Automate vacation requests, recurring feedback forms, and more.\n\n![uploaded image](/media/?type=post&id=64310&key=user_uploads/207324/91614956-ebf2-45e0-b746-678fac7349ec)\n\n**Custom commands**: create commands to increase your team’s productivity in less than a minute. Virtual coffees, birthday reminders, watercoolers, pomodoro timers, your own chat-ops and more.\n\n![uploaded image](/media/?type=post&id=64310&key=user_uploads/207324/974d041a-a4b9-4c5a-a1c0-2b810e40ec29)\n\n### **Security by design and SOC2 compliance**\n\nMost apps take a lot of permissions to access data from your chat. This becomes concerning when you are using dozens of apps to build your team workflows. We are designing DailyBot as a privacy & security first company.\n\nDailyBot only requests the minimal API permissions from your chat. It can only process messages that are directed to the bot.\n\nWe are SOC2 Type II compliant, giving confidence to small and big companies about our work and data management practices.\n\n**Join Us!**\n\nGet started for free. Go to [www.dailybot.com](http://www.dailybot.com) and install DailyBot on your chat (2-min setup). We have a bookface deal for our fellow YC members.\n\nSee you on the other side!\n\nPs: Join our [Discord community](https://discord.gg/StjtJ5u7QF) and follow us on [Twitter](https://twitter.com/dailybot) and [LinkedIn.](https://www.linkedin.com/company/dailybot) ;)",
+      "url": "https://www.ycombinator.com/launches/GjG-dailybot-daily-stand-ups-automation-and-chat-assistant-for-work",
+      "votes": 50,
+      "created_at": "2022-07-04T18:21:28.389Z"
+    }
+  ]
+}

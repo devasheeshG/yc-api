@@ -1,0 +1,96 @@
+{
+  "id": 29516,
+  "name": "Million",
+  "slug": "million",
+  "former_names": [
+    "Million.js",
+    "Million",
+    "Same"
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/cf5c5c98069c0ec6b53c093dd68742e6a1c17ae9.png",
+  "website": "https://million.dev",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "Remember the first time you hit  and your code actually worked? Something that didn't exist before, now alive on your screen.\r\n\r\nToday, coding agents can do that, orders of magnitude faster. But their verification is shallow at best. The faster agents generate code, the wider the gap grows. Nothing verifies software at the speed agents ship code.\r\n\r\nWe believe verification unlocks long-horizon coding agents: agents that run for days and prove their work as they go.",
+  "one_liner": "Tools for agent verification",
+  "team_size": 5,
+  "industry": "B2B",
+  "subindustry": "B2B -> Engineering, Product and Design",
+  "launched_at": 1703896590,
+  "tags": [
+    "Artificial Intelligence"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Winter 2024",
+  "status": "Active",
+  "industries": [
+    "B2B",
+    "Engineering, Product and Design"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada",
+    "Remote",
+    "Partly Remote"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/million",
+  "api": "https://devasheeshg.github.io/yc-api/batches/winter-2024/million.json",
+  "year_founded": 2023,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/millionco",
+  "x_url": "https://x.com/milliondotjs",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": "https://github.com/millionco",
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/cf5c5c98069c0ec6b53c093dd68742e6a1c17ae9.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Jared Friedman",
+    "url": "https://www.ycombinator.com/people/jared-friedman"
+  },
+  "founders": [
+    {
+      "user_id": 1524896,
+      "full_name": "Aiden Bai",
+      "title": "Founder/CEO",
+      "founder_bio": "i'm a huge web performance + react internals nerd",
+      "is_active": true,
+      "linkedin_url": "https://linkedin.com/in/aidenbai",
+      "x_url": "https://twitter.com/aidenybai",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/dee865b1959af761ca0e2fac249b1312a1dba2b1.jpg"
+    },
+    {
+      "user_id": 1159798,
+      "full_name": "Nisarg Patel",
+      "title": "Founder",
+      "founder_bio": "working on million.dev",
+      "is_active": true,
+      "linkedin_url": "https://linkedin.com/in/nisargptel",
+      "x_url": "https://twitter.com/nisargptel",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/7090b0053cfe6b0fe6dc04d57c1f83d9380dfcb6.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 78916,
+      "title": "Million Lint – Grammarly for performance",
+      "tagline": "A VSCode extension that identifies slow code and suggests fixes. ",
+      "body": "Hey YC! I’m [Aiden](https://twitter.com/aidenybai), founder of [Million](https://million.dev/) — we’re building a tool that helps fix slow React code. Here is a quick demo: [ ](https://www.youtube.com/watch?v=k-5jWgpRqlQ&ab_channel=AidenBai)\n\nFixing web performance issues is hard. Every developer knows this experience: we insert console.log everywhere and catch some promising leads, but nothing happens before \"time runs out.\" Eventually, the slow/buggy code never gets fixed, problems pile up on a backlog, and our end users are hurt.\n\nWe started Million to fix this. A VSCode extension that identifies slow code and suggests fixes (like Grammarly, for performance!) The website is here: <https://million.dev/blog/lint> \n\nI realized this was a problem when I tried to write an optimizing compiler for React in high school (src: <https://github.com/aidenybai/million>). It garnered a lot of interest (14K+ stars) and usage, but it didn't solve all user problems.\n\nTraditionally, devtools either hinge on full static analysis OR runtime profiling. We found success in a mixture of the two with dynamic analysis. During compilation, we inject instrumentation where it's necessary.\n\nFrom there, the runtime collects this info and feeds it back into VSCode. This is a great experience! Instead of switching around windows and trying to interpret flamegraphs, you can just see it inline with your code.\n\nWe are still in the very early days of experimentation! Million Lints focuses on solving unnecessary re-renders right now and will move on to handling slow-downs arising from the React ecosystem: state managers, animations, bundle sizes, waterfalls, etc. Our eventual goal is to create a toolchain that keeps your whole web infrastructure fast, automatically - frontend to backend.\n\nIn the next few weeks, we're planning to open source (MIT) the Million Lint compiler and the VSCode extension. \n\nTo earn a living, we will charge a subscription model for customized linting. We believe this aligns our incentives with yours: we only make money when we make your app faster.\n\nWe'd love to know your thoughts – happy to answer :)",
+      "url": "https://www.ycombinator.com/launches/KWq-million-lint-grammarly-for-performance",
+      "votes": 27,
+      "created_at": "2024-02-29T20:35:04.594Z"
+    }
+  ]
+}

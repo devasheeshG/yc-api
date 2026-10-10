@@ -1,0 +1,92 @@
+{
+  "id": 35950,
+  "name": "Resin Technologies",
+  "slug": "resin-technologies",
+  "former_names": [],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/bc5f059ee240037dfd1bb651a9c69886e3dceef6.png",
+  "website": "https://resineda.com/",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "Resin is an AI-native ECAD tool. It lets engineers:\r\n- research designs\r\n- generate schematics\r\n- generate any symbols/footprints\r\n- route simple to complex boards\r\n\r\n",
+  "one_liner": "Resin helps engineers design electronics faster and more reliably",
+  "team_size": 0,
+  "industry": "B2B",
+  "subindustry": "B2B -> Engineering, Product and Design",
+  "launched_at": 1791317892,
+  "tags": [
+    "Artificial Intelligence",
+    "Hardware",
+    "Electronics"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Fall 2026",
+  "status": "Active",
+  "industries": [
+    "B2B",
+    "Engineering, Product and Design"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/resin-technologies",
+  "api": "https://devasheeshg.github.io/yc-api/batches/fall-2026/resin-technologies.json",
+  "year_founded": 2026,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/resin-technologies/",
+  "x_url": "https://x.com/ResinEDA",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/bc5f059ee240037dfd1bb651a9c69886e3dceef6.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Andrew Miklas",
+    "url": "https://www.ycombinator.com/people/andrew-miklas"
+  },
+  "founders": [
+    {
+      "user_id": 501763,
+      "full_name": "Anmol Jawandha",
+      "title": "Founder/CEO",
+      "founder_bio": "Founder at Resin Technologies. Previously AI Lead, startup founding engineer.\nEngineering Physics @ UBC",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/anmol-jawandha-42aaa9a2/",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/8d9df2d2b7b64556f9595769af859cc848facadb.jpg"
+    },
+    {
+      "user_id": 3781045,
+      "full_name": "Koosha Rezaiezadeh",
+      "title": "Founder/CTO",
+      "founder_bio": "Founder at Resin Technologies (YC F26). I'm 30 years old with 40 years of experience! Previously Senior Product Engineer at Intelligent Haptronic Solutions for 6 years and Senior Robotics Engineer at A&K Robotics. Earlier electronics engineer at Bosch on driver assistance systems. BSc Engineering Physics from UBC. IPHO gold medalist and a nuclear physics researcher in a past life",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/koosha-rezaiezadeh-92a64294",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/c291f20b901d6dd83d0c7af10fe692a113b558e2.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 120163,
+      "title": "Resin - Codex for electronics",
+      "tagline": "AI-native ECAD that allows engineers to design PCB chips faster and more reliably",
+      "body": "Hey YC! We’re Koosha and Anmol, the founders of Resin. We’re building an AI-native PCB design tool that helps engineers turn ideas into working electronics faster and more reliably.\n\n**Demo: [https://www.youtube.com/watch?v=JByTuaHHHGg](https://www.youtube.com/watch?v=JByTuaHHHGg)**\n\nMandatory GIF:\n\n![uploaded image](/media/?type=post&id=120163&key=user_uploads/501763/ddae1ba4-75e5-43a7-9a30-fe4fa392848f)\n\n**Problem we’re solving**\n\n* **PCB design is slow and manual:** Engineers can spend weeks reading datasheets, finding components, drawing schematics, and routing connections on traditional design tools. \n* **Design mistakes are expensive:** A design error that only gets surfaced _after_ fabrication can require redesigning and manufacturing the board again, adding weeks/months of delay and cost.\n* **Requires expertise:** Good board design takes years of experience to master, so many smaller companies can't do it in-house. Resin makes it accessible to experts and non-experts (including hobbyists) alike.\n\n**How Resin solves this problem**\n\nResin brings AI into a complete ECAD workspace to increase engineering velocity &amp; design reliability:\n\n* **Draft and review schematics:** Describe your requirements. Resin researches parts, drafts schematics, and documents its design decisions. It also reviews existing designs to help catch mistakes before manufacturing.\n* **Find or generate any part:** Tell Resin which component you need. It searches millions of parts, analyzes them deeply and generates accurate symbols and footprints.\n* **Route boards:** Connect selected signals or your whole board with our proprietary routing engine. We’re especially excited about this one!\n* **In the cloud and collaborative:** Resin runs fully in the cloud, and allows seamless collaboration across multiple users!\n* **Prepare for manufacturing:** Check component pricing and availability, manage your bill of materials, and export manufacturing files.\n* **Stay in control:** Resin is a complete EDA workspace with full schematic, PCB tooling (**and not a mere chatbot!**). Users can delegate entire workflows to AI or get hands-on with individual components, connections, and traces. Every AI change is editable and auditable.\n* **Bring existing work into Resin:** We have full support for project &amp; library imports from Altium &amp; KiCad so you can continue existing projects in Resin! There are more integrations on the way!\n* **MCP compatible:** Work from Claude Code, Codex, etc.\n\n**Team**\n\nWe’ve been long time friends — we met in college where we studied Engineering Physics together! Koosha has tons of electronics and hardware experience, having designed very complex hardware at Bosch, Kodak, IHS. Anmol mostly recently led the FDE team at [you.com](http://you.com) and was an early member at various successful AI startups.\n\n**Our Asks**\n\n**Are you or your team building hardware with PCBs? Sign up with this link to get started with some bonus credits [https://resineda.com/signup?promo=YC2026](https://resineda.com/signup?promo=YC2026)!** We’ll reach out for an onboarding!\n\n**Know someone who designs electronics? We’d love intros** to other founders, electrical engineers, hardware leads whether they’re building robots, drones, medical devices, industrial equipment, or consumer products. \n\n**Contact**: Email [anmol@resineda.com](mailto:anmol@resineda.com), text 415 425 4809, or DM me on bookface!",
+      "url": "https://www.ycombinator.com/launches/VG7-resin-codex-for-electronics",
+      "votes": 2,
+      "created_at": "2026-10-07T17:00:00.135Z"
+    }
+  ]
+}

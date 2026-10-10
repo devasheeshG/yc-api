@@ -1,0 +1,94 @@
+{
+  "id": 30921,
+  "name": "Compyle",
+  "slug": "compyle",
+  "former_names": [
+    "SmartAppetite"
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/d64e6601db5d659b1726d0d5ea126494391f5f62.png",
+  "website": "https://compyle.ai",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "Compyle is a less autonomous coding agent that asks before it acts. We're like Cursor or Claude Code - but you won't need to rewrite your codebase every time you use it for more than a small task.\r\n\r\nWe built Compyle because we were frustrated with the direction other coding agents are headed. They're all racing to be more autonomous, running for hours without human input.\r\n\r\nThis doesn't work for real production code. When agents run autonomously, they make countless small decisions that pile up in your codebase. Engineers lose ownership - they don't know what was implemented, can't effectively debug or maintain it, and struggle to build on top of it. The code becomes a black box, and they're forced to throw it away.\r\n\r\nCompyle keeps engineers in the driver's seat.",
+  "one_liner": "The coding agent that actually collaborates with you",
+  "team_size": 2,
+  "industry": "B2B",
+  "subindustry": "B2B -> Engineering, Product and Design",
+  "launched_at": 1760115390,
+  "tags": [
+    "Artificial Intelligence",
+    "Developer Tools",
+    "AI"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Fall 2025",
+  "status": "Active",
+  "industries": [
+    "B2B",
+    "Engineering, Product and Design"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/compyle",
+  "api": "https://devasheeshg.github.io/yc-api/batches/fall-2025/compyle.json",
+  "year_founded": 2025,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/compyle-ai",
+  "x_url": "https://x.com/compyle_ai",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/d64e6601db5d659b1726d0d5ea126494391f5f62.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Andrew Miklas",
+    "url": "https://www.ycombinator.com/people/andrew-miklas"
+  },
+  "founders": [
+    {
+      "user_id": 2234809,
+      "full_name": "Jonathan Miranda",
+      "title": "Founder/CEO",
+      "founder_bio": "Jonathan is co-founder and CEO of Compyle.\n\nHe studied Computer Science and Economics at Johns Hopkins University, where he led multiple AI research projects for the CS department and developed snake robots. He also founded Hopkins Deliveries, a campus food delivery service that built cost-effective tele-operated delivery robots. \n\nBefore Compyle, Jonathan was founding engineer #4 at Hadrius (YC W23), where he built core AI systems powering compliance at thousands of businesses today.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/miranda-jonathan/",
+      "x_url": "https://x.com/jonathan_mir12",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/7eeff7c340ac579069cf815a16f9f37401340c42.jpg"
+    },
+    {
+      "user_id": 2179876,
+      "full_name": "Mark Nazzaro",
+      "title": "Founder/CTO",
+      "founder_bio": "Mark is the Co-founder and CTO of Compyle. \n\nPreviously the second engineer at Hadrius, he helped scale the company to its Series A, led engineers, and built much of the core AI product. Before that, at arXiv, he led the move to the cloud and launched its first major UI change in decades.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/marknazzaro/",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/9e14c4ace460dcf1ac5c7eb146a7f4b447efb780.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 94565,
+      "title": "Compyle - Lovable for Software Engineers",
+      "tagline": "The first coding agent that actually stops and asks questions",
+      "body": "**TL;DR**\n\nCompyle is the coding agent that actually collaborates. It doesn’t just guess what you mean - it asks, plans, and checks in before writing a single line of code. That means you can trust it with bigger and more ambiguous projects than any other coding agent.\n\nhttps://youtu.be/iNQ8G4k03gc\n\n🙏 **Our ask**\n\n**Try our beta today at [compyle.ai](http://compyle.ai)** and let us know what you ship! \n\nJust connect your Github, select your repos, and create a task to get started.\n\n❌ **The Problem**\n\nToday’s coding agents - like Codex, Claude Code, and Devin - excel at small, well-defined tasks. Their autonomous design works best for jobs that need little clarification, such as updating libraries or making simple UI edits.\n\nBut full autonomy becomes a weakness for open-ended work like building new features or products. These agents often press ahead despite unclear or conflicting requirements - and even when they succeed, the resulting code may be hard for teams to understand.\n\nGood engineers know to clarify requirements before coding, check in with product owners to confirm goals, and collaborate with peers to ensure quality. Coding agents should do the same.\n\n🚀 **How Compyle solves this**\n\nCompyle keeps you in full control through a question-driven approach. You describe the task, then Compyle asks questions until it understands what you want to build. It produces research and planning artifacts before writing any code.\n\nDuring implementation, Compyle validates its changes against your decisions. If something doesn't match up, it stops and asks rather than pushing forward. You stay in the driver's seat the entire time.\n\n![uploaded image](/media/?type=post&id=94565&key=user_uploads/2234809/82738600-0f9c-4de5-ab79-57f7cb4424bb)\n\n\n**Our story**\n\nBefore Compyle, we were building SmartAppetite (AI agents for insurance). Using tools like Claude Code and Cursor, we had a demo in days - then spent weeks cleaning up a codebase we no longer fully understood.\n\nWe had to pause feature development just to refactor. That pain is why we built Compyle.",
+      "url": "https://www.ycombinator.com/launches/ObF-compyle-lovable-for-software-engineers",
+      "votes": 38,
+      "created_at": "2025-10-10T21:28:16.037Z"
+    }
+  ]
+}

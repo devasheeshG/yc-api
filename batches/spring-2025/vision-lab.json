@@ -1,0 +1,130 @@
+{
+  "id": 30542,
+  "name": "Vision Lab",
+  "slug": "vision-lab",
+  "former_names": [
+    "Comply Genie",
+    "Vision Nexus",
+    "LineWise"
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/f9c8aab3bb47bc9402833acb64276f52de063681.png",
+  "website": "https://thevisionlab.ai/",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "We capture and structure real factory workflows at scale by combining first-person industrial video with SOP-level process knowledge.\r\n\r\nThis enables robotics and AI labs to train on real production data, not just controlled lab environments.",
+  "one_liner": "Industrial data layer for robotics training",
+  "team_size": 11,
+  "industry": "Industrials",
+  "subindustry": "Industrials -> Manufacturing and Robotics",
+  "launched_at": 1743036496,
+  "tags": [
+    "Robotics",
+    "Manufacturing",
+    "Data Engineering",
+    "AI"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Spring 2025",
+  "status": "Active",
+  "industries": [
+    "Industrials",
+    "Manufacturing and Robotics"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/vision-lab",
+  "api": "https://devasheeshg.github.io/yc-api/batches/spring-2025/vision-lab.json",
+  "year_founded": 2025,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/vision-lab-ai",
+  "x_url": "",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/f9c8aab3bb47bc9402833acb64276f52de063681.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [
+    "https://bookface-images.s3.us-west-2.amazonaws.com/attachments/27f8fa04b65e99bdb2ebabb86e73fd71f35f9bb5.png",
+    "https://bookface-images.s3.us-west-2.amazonaws.com/attachments/35658d6d055e51d7f572f0d0813d8eb3a9b7bf76.png"
+  ],
+  "primary_partner": {
+    "name": "Tom Blomfield",
+    "url": "https://www.ycombinator.com/people/tom-blomfield"
+  },
+  "founders": [
+    {
+      "user_id": 2371704,
+      "full_name": "Tanachart (James) Kujareevanich",
+      "title": "Founder/CEO",
+      "founder_bio": "James is the co-founder and CEO at Vision Lab. MBA from MIT. Former McKinsey Ops consultant.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/tanachartkujareevanich/",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/a51605bd53380345564966573f52709d42356d3c.jpg"
+    },
+    {
+      "user_id": 2373140,
+      "full_name": "Zhichu Ren",
+      "title": "Founder/CTO",
+      "founder_bio": "Zhichu is the co-founder and CTO at Vision Lab. MIT PhD. Built robotics automation for materials research.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/zhichu-ren/",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/98ef468f54a1e6b309dcae7ccfd3531eacb003e8.jpg"
+    },
+    {
+      "user_id": 2547908,
+      "full_name": "Will Wenbo Zhang",
+      "title": "Founder",
+      "founder_bio": "Will is the co-founder and CPO at Vision Lab. MSE in AI & Robotics at UPenn GRASP Lab. Former founding engineer at Greyscale AI and Bestmow.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/wenbo-zhang6",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/dae0fb87a14c53d5de2764acef1e34263c5c100a.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [
+    {
+      "title": "Vision lab raises $6m to bring real-world factory data to robotics foundation models · vision lab",
+      "url": "https://thevisionlab.ai/articles/seed-2026",
+      "date": "Jun 15, 2026"
+    },
+    {
+      "title": "Race Capital - Our Investment in Vision Lab: The Industrial Data Layer for Physical AI",
+      "url": "https://race.capital/blog/our-investment-in-vision-lab-the-industrial-data-layer-for-physical-ai",
+      "date": "Jun 15, 2026"
+    }
+  ],
+  "launches": [
+    {
+      "id": 99007,
+      "title": "Vision Lab: The Industrial Data Layer for Robotics",
+      "tagline": "Aggregating the Largest Manufacturing Process Data for Robotics Training",
+      "body": "## **TL;DR**\n\nWe capture and structure real factory workflows at scale, pairing first-person industrial video with SOP-level process knowledge, so robotics and AI labs can train models on the data that actually exists inside production environments, not just lab demos. We are already working with 2 frontier AI labs.\n\n🎥 **Our 60-second Product Launch**:\\\n<https://www.youtube.com/watch?v=u2CyfEnYY5A>\n\n## **THE PROBLEM**\n\nThe robotics industry is being trained mostly on lab demos, even though robots will ultimately need to operate in messy, high-variance real factories. The industry has **less than 0.3% of the data it needs**, and almost none of it comes from real factory environments.\n\nWhy?\n\n**Industrial data does not exist at scale**\\\nIt cannot be scraped or passively collected. It has to be captured inside real factories, on real production lines, during real operations.\n\n**Raw footage is not enough**\\\nUnstructured industrial video is noise. Models need process context: what step is happening, in what order, with what tools, and whether it was done correctly.\n\n**Crowdsourcing cannot solve it**\\\nUnderstanding industrial actions requires factory expertise. Anyone can label an object; far fewer can distinguish whether a torque check, weld, inspection, or setup sequence was performed correctly.\n\n---\n\n## **THE SOLUTION**\n\nVision Lab solves the industrial data problem by building:\n\n**The most diverse industrial dataset**\\\nSOP-structured production data spanning cutting-edge environments like biotech, EV manufacturing, semiconductors, and medical devices, as well as large-scale manufacturing.\n\n**Industrial access at scale**\\\nA network of **2,000+ factories across 50+ industries in 27 countries**, with operators and factory owners embedded in the capture process so every sequence, tool, and technique is recorded correctly at the source.\n\n**A proprietary VLM for industrial settings**\\\nA temporal VLM trained on SOP-paired industrial footage to understand not just what is happening, but the **order, timing, and correctness** of real industrial processes. Our state-of-the-art VLM outperforms Gemini by **2.5x on temporal understanding in industrial settings**.\n\n---\n\n## **PARTNER WITH US**\n\nIf you believe the next decade of robotics and world models will depend on **real-world industrial data, not just compute**, we’d love to talk.\n\nVision Lab partners with robotics labs, frontier AI teams, and manufacturers to build the default industrial data layer for robotics.\n\n**Contact:** [founders@thevisionlab.ai](mailto:founders@thevisionlab.ai)\\\n**More info**: [www.thevisionlab.ai](http://www.thevisionlab.ai)\n\n![uploaded image](/media/?type=post&id=99007&key=user_uploads/2371704/81b524d4-30fd-40cf-9b55-6cacc2bcaffb)\n\n",
+      "url": "https://www.ycombinator.com/launches/Pkt-vision-lab-the-industrial-data-layer-for-robotics",
+      "votes": 18,
+      "created_at": "2026-03-23T17:15:21.041Z"
+    },
+    {
+      "id": 90196,
+      "title": "LineWise - AI Copilot for Manufacturers",
+      "tagline": "AI that troubleshoots your production line",
+      "body": "### **TL;DR**\n\nLineWise is building an AI assistant for manufacturing teams to get their production lines back up and running - fast.\n\nWe connect siloed factory data (PLCs, maintenance logs, manuals) to triage faults, guide technicians to fixes, and capture every resolution for smarter troubleshooting in the future.\n\n🎥 **Our 60-second Product Launch:\\\n[https://youtu.be/DfnmQ4k8q-k](https://youtu.be/DfnmQ4k8q-k)**\n\n### **THE PROBLEM**\n\nWhen a line goes down, it can take **hours** to identify the problem. Engineers and technicians chase PLC logs, flip through outdated manuals, and rely on the one person who “just knows.” While production stalls, tribal knowledge disappears, and the same issues repeat.\n\n### **THE SOLUTION**\n\nLineWise centralizes critical knowledge by integrating siloed data from IoT sensors, maintenance records, and machine manuals. It ranks the most likely causes and guides the team to a fix in just **minutes**. But the best part? It remembers every issue for next time and advocates for preventative actions.\n\n---\n\n### **How LineWise Works**\n\n🔧 Upload an error code image or describe the issue in a message.\n\n🤖 The AI provides a refocused problem statement for confirmation.\n\n📊 The AI dynamically ranks possible hypotheses of causes by probability.\n\n🧠 A human validates each hypothesis to identify the true cause.\n\n🛠️ Resolve the issue by following a step-by-step guide.\n\n🔍 Conduct further investigation to uncover the root cause.\n\n📚 Enrich the knowledge base with insights from the issue and resolution.\n\n---\n\n### **Join Us to Revolutionize Manufacturing**\n\nLineWise partners with forward-thinking manufacturers to minimize unplanned downtime, empower frontline teams, and unlock the value of siloed data within a company. \n\nIf that sounds like you, we’d love to talk.\n\n🔧 **Want to see LineWise in action?** Contact: [info@linewise.io](mailto:info@linewise.io)\n\n![uploaded image](/media/?type=post&id=90196&key=user_uploads/2371704/9ed0ed2e-2221-436f-8407-534f1abd18a2)\n\n",
+      "url": "https://www.ycombinator.com/launches/NSm-linewise-ai-copilot-for-manufacturers",
+      "votes": 37,
+      "created_at": "2025-05-07T23:13:06.095Z"
+    }
+  ]
+}

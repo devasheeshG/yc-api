@@ -1,0 +1,104 @@
+{
+  "id": 30720,
+  "name": "Autosana",
+  "slug": "autosana",
+  "former_names": [],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/5c7dda83aa113d5017c2cb187435ccccb356bd6a.png",
+  "website": "https://autosana.ai",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "Autosana is the end-to-end testing layer for your coding agents, across iOS, Android, and Web apps.\r\n\r\nStep away from your laptop. Come back to full-stack features built and tested end-to-end, production ready.\r\n\r\nAutosana creates, updates, and runs tests automatically from your code diffs. Locally, it loops with your coding agent until every test passes. In PRs, it loops with cloud agents and shows video proof of your new feature or bug fix working end-to-end.\r\n\r\nNo setup, no maintenance, just tests evolving with your codebase. Ship with confidence.",
+  "one_liner": "AI agents for E2E testing across mobile & web",
+  "team_size": 5,
+  "industry": "B2B",
+  "subindustry": "B2B -> Engineering, Product and Design",
+  "launched_at": 1751416575,
+  "tags": [
+    "Artificial Intelligence",
+    "Developer Tools",
+    "B2B",
+    "Enterprise Software"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Summer 2025",
+  "status": "Active",
+  "industries": [
+    "B2B",
+    "Engineering, Product and Design"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/autosana",
+  "api": "https://devasheeshg.github.io/yc-api/batches/summer-2025/autosana.json",
+  "year_founded": 2025,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/autosana/",
+  "x_url": "https://x.com/autosanaai",
+  "fb_url": null,
+  "cb_url": "https://www.crunchbase.com/organization/autosana",
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/5c7dda83aa113d5017c2cb187435ccccb356bd6a.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [
+    "https://bookface-images.s3.us-west-2.amazonaws.com/attachments/4dc6458135f7441d899916ffc7de13b7663dc0b6.png"
+  ],
+  "primary_partner": {
+    "name": "Tyler Bosmeny",
+    "url": "https://www.ycombinator.com/people/tyler-bosmeny"
+  },
+  "founders": [
+    {
+      "user_id": 1097474,
+      "full_name": "Yuvan Sundrani",
+      "title": "Founder/CEO",
+      "founder_bio": "Lifetime builder. \nHuge superhero fan, started with builds ranging from co2-powered web-shooters to wrist-mounted flamethrowers.\nCo-founded a contact sharing app in 2020. Engineer #1 to CPO at martech startup (~7 fig ARR). Engineer #1 at AI-therapy startup.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/yuvan-sundrani/",
+      "x_url": "https://x.com/YSundrani79540",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/af4f532a5f0f722ad68b16cc54c824938e57bee3.jpg"
+    },
+    {
+      "user_id": 1097137,
+      "full_name": "Jason Steinberg",
+      "title": "Founder",
+      "founder_bio": "Co-Founder @ Autosana\nPlayed club hockey at the University of Maryland. Worked on the founding team of multiple mobile-first startups and wore many hats. Went on a two-month bike trip across America after graduation, and now making mobile QA a heck of a lot easier.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/jason-steinberg-6018261b6/",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/254bd31ab6d07bc741353a9b74ea77d95aacdc15.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 100020,
+      "title": "Autosana 2.0: The E2E validation layer for mobile & web apps",
+      "tagline": "Close the E2E testing and QA loop with your coding agents across iOS, Android, and web apps",
+      "body": "Coding tools have 10x’d not only dev speed, but also the surface area for bugs. The bottleneck has shifted to validating that features and fixes _actually_ work. \n\nYour team is probably spending hours doing at least one of these things:\n\n* Manually testing for regressions\n* Writing and maintaining brittle E2E test scripts\n* Saying “f\\*ck it, ship it,” way too often\n\nAll while still having users complain about bugs that slip into prod…\n\n“Can’t my coding agent just write my E2E tests for me?”\n\nSure - but now you’re stuck maintaining them as your app evolves - broken selectors, missing element IDs, new user journeys, non-deterministic environments, evolving infra requirements…\n\nNot to mention the cases that are nearly impossible to test with scripts in the first place: Apple Pay, in-app browser flows, complex swipes, drag-and-drop, magic links, OAuth, cross-app auth, etc…\n\nThis is why we built **Autosana** - **the agentic E2E testing layer to close the loop with your coding agents.** Fully vision based, testing your app like humans would. \n\n* Get onboarded seamlessly via our [MCP](https://docs.autosana.ai/mcp-setup)\n* Runs locally and in our cloud for multi-env testing\n* Code review + E2E testing in your PR with video proof\n* Tests evolving with your codebase, creating & running tests based on PR context and code diffs\n* Works across iOS, Android, mobile web, and desktop web\n\n[**\\[demo\\]**](https://youtu.be/DcCf6Knt5LY)\n\nGet started today @ [autosana.ai](https://autosana.ai)",
+      "url": "https://www.ycombinator.com/launches/Q1E-autosana-2-0-the-e2e-validation-layer-for-mobile-web-apps",
+      "votes": 9,
+      "created_at": "2026-04-21T23:31:01.594Z"
+    },
+    {
+      "id": 91958,
+      "title": "Autosana - AI QA Agent for Mobile Apps",
+      "tagline": "Autosana catches bugs in iOS and Android apps before users do.",
+      "body": "Hey guys!\n\nWe’re Uv and Jason from Autosana 🌊\n\nWe’re building a QA agent that tests mobile apps like a real user. We’re on a mission to make flaky selector-based test scripts (or worse, manual regression testing) things of the past.\n\n[Demo here :)](https://www.youtube.com/watch?v=zsY22nvcVLU)\n\n# **TL;DR**\n\n* Cloud-hosted mobile QA agent (iOS and Android)\n* Natural language → simulated user flows\n* Integrates into CI/CD\n* Saves 8+ eng. hours per deployment\n\n# **Problem**\n\n**Dev Tools Have Evolved — QA Tools Haven’t**\n\nTools like Cursor and Claude Code boost dev speed by 10x, but lack the runtime context to write E2E tests, especially for complex and non-deterministic flows.\n\n**The QA Bottleneck**\n\nMaintaining traditional end-to-end scripts using frameworks like Appium, Espresso, and XCUITest wastes valuable engineering resources (trust us, we’ve been there).\n\nThese tests are tedious to write, brittle, and routinely break with UI changes. Many mobile teams ($100B+ companies included) have abandoned them and rely on manual QA.\n\n# **Solution**\n\nWe started Autosana to fix the QA bottleneck and help mobile teams ship faster without fear of breaking things.\n\nJust describe your test flows with natural language, as if you’re talking to your own **in-house QA Engineer**. No code, no infra setup, no dependence on flaky element selectors, and no more manual work.\n\n![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXcjScvXfMAllmoIBOAw31yGfHnfgGPt1V2yHBXQfJBTgIg-hFIAaTelmPZb0FJTtGFKjQd8PY-Ia55kJPaoYXTRneqpG3mgKr5bvV3dvZnvPxxdrVW2S2WqHsfzq8RiEToivqsjlg?key=-q2ZKYYIwen11jHmsUW6pg)\n\nOur agent tests your app like a real user, as **part of your CI/CD** pipeline or on a schedule, and **reports to the team when bugs are found**.\n\nAutosana supports both iOS and Android, and is framework-agnostic (we support React Native, Flutter, Swift, Kotlin, you name it…).\n\n**Mobile QA shouldn’t be hard. We’re on a mission to fix the bottleneck between mobile development and testing.**\n\nHave a bug-free day (or many bug-free days, with Autosana &lt;3)\n\n[autosana.ai](http://autosana.ai)\n\n![uploaded image](/media/?type=post&id=91958&key=user_uploads/1097474/10f8ca06-2216-4458-a6fa-11a60c43ff50)\n\n",
+      "url": "https://www.ycombinator.com/launches/NvC-autosana-ai-qa-agent-for-mobile-apps",
+      "votes": 84,
+      "created_at": "2025-07-08T15:59:20.183Z"
+    }
+  ]
+}

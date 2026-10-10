@@ -1,0 +1,104 @@
+{
+  "id": 30456,
+  "name": "Tinfoil",
+  "slug": "tinfoil",
+  "former_names": [],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/1fb98a08722d6b4a90ad914611f5c3579c0f3558.png",
+  "website": "https://tinfoil.sh",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "Tinfoil makes it easy to make your AI workloads secure and provably private. You get the privacy of on-prem deployments, while running on the cloud. It's like end-to-end encrypted messaging but for your AI applications. \r\n\r\nWe’ve built a full-stack platform on top of the latest NVIDIA GPUs offering confidential computing capabilities, meaning that you don’t have to trade off performance for privacy. We integrate a suite of recent advances in secure hardware technologies, in particular NVIDIA’s confidential compute mode available on Hopper and Blackwell. When combined with Tinfoil’s software stack, companies can prove their security claims like \"we can't see and don’t log your queries.” Tinfoil guarantees that all data always stays private and cannot be accessed by anyone other than the end user -- not even by Tinfoil or the cloud provider it’s processed on. Everything can be made end-to-end encrypted and private with Tinfoil. \r\n\r\nThe founding team combines deep academic and industry experience in security and Internet protocols. Tanya was previously a systems engineer at Cloudflare, where she built Internet security protocols used by billions, and contributed to the Workers AI platform. Jules and Sacha hold PhDs from MIT, where they worked on secure hardware, cryptography, and privacy technologies. Jules has also worked at NVIDIA on their confidential computing team. Tinfoil was born from our personal frustration with the false choice between access to powerful AI and the massive data privacy implications of deeply integrated AI.\r\n\r\nAI is a universal tool that becomes part of our personal lives and business workflows. In the process, it needs access to all personal, private, and proprietary data. Right now, the only solutions are data processing agreements (i.e., \"pinky promises\"), band-aids like PII redaction that don't work in practice, or AI locally/on-prem, which doesn't scale. Tinfoil promises to unlock significantly deeper AI adoption and integrations by making it easy to obtain true privacy, just as TLS on the Internet enabled e-commerce to flourish by securing credit cards on the network.\r\n\r\nToday we offer several self-serve products: \r\n\r\n- A consumer-facing chatbot that keeps your chats end-to-end encrypted and provides zero-access inference with powerful open-source models like Kimi, Gemma, and GLM. You can try it out for free: https://chat.tinfoil.sh\r\n\r\n- A developer-friendly API that allows you to build AI applications where all user data is kept private and we as the inference provider cannot see any of the prompts. Our SDKs make sure that all relevant security measures are checked for you before even sending a single byte of data. Learn more:https://docs.tinfoil.sh \r\n\r\n- An advanced confidential computing platform we call Tinfoil Containers that allows you to secure any Docker application. We make it easy to deploy your own logic and applications inside secure enclaves and prove to the world what code is running inside. This enables attested workloads and publicly verifiable privacy policies for sensitive applications. Learn more: https://tinfoil.sh/containers ",
+  "one_liner": "Encrypted AI with verifiable privacy",
+  "team_size": 5,
+  "industry": "B2B",
+  "subindustry": "B2B -> Security",
+  "launched_at": 1744845895,
+  "tags": [
+    "Artificial Intelligence",
+    "Developer Tools",
+    "Security",
+    "Privacy",
+    "Cloud Computing"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Spring 2025",
+  "status": "Active",
+  "industries": [
+    "B2B",
+    "Security"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/tinfoil",
+  "api": "https://devasheeshg.github.io/yc-api/batches/spring-2025/tinfoil.json",
+  "year_founded": 2024,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/Tinfoil/",
+  "x_url": "https://x.com/TinfoilAI",
+  "fb_url": null,
+  "cb_url": "https://www.crunchbase.com/organization/tinfoil",
+  "github_url": "https://github.com/tinfoilsh",
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/1fb98a08722d6b4a90ad914611f5c3579c0f3558.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Diana Hu",
+    "url": "https://www.ycombinator.com/people/diana-hu"
+  },
+  "founders": [
+    {
+      "user_id": 1678261,
+      "full_name": "Tanya Verma",
+      "title": "Founder/CEO",
+      "founder_bio": "Co-founder @ Tinfoil | Systems, Cryptography and AI @ Cloudflare | CubeSats & CS @ UIUC",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/tanya-verma-130a23124/",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/71e19f53dbd482777277fb5c1899f8ee0808a80f.jpg"
+    },
+    {
+      "user_id": 2554847,
+      "full_name": "Jules Drean",
+      "title": "Founder",
+      "founder_bio": "Jules has an MIT PhD in secure hardware and confidential computing. He has industry experience working at Microsoft Research and NVIDIA on the technologies underlying Tinfoil. During his PhD, Jules has built secure enclaves from the ground up and studied how to attack and defend these systems against advance microarchitectural attacks. His work also looked at using trusted hardware to securely deploy advanced cryptographic primitives such as FHE and MPC.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/jdrean",
+      "x_url": "https://x.com/julesdrean",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/6e2e2ad4734fda8e101f5d5cfb506c5944356a36.jpg"
+    },
+    {
+      "user_id": 2540941,
+      "full_name": "Sacha Servan-Schreiber",
+      "title": "Founder",
+      "founder_bio": "Co-founder of Tinfoil | PhD at MIT in cryptography\n\nPersonal website: sachaservanschreiber.com ",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/sacha-servan-schreiber-308341305",
+      "x_url": "https://x.com/sachaservan",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/33096fdaf7641b0498b900f6e2b99c126f850834.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 90590,
+      "title": "Tinfoil: Verifiable Privacy for Cloud AI",
+      "tagline": "We host models and AI workloads on the cloud while guaranteeing zero data access and retention",
+      "body": "Sending your most sensitive or proprietary data to OpenAI et al?\n\nSick of deals getting stalled during enterprise or government security reviews?\n\nHate deploying on various configurations of on-prem infrastructure environments?\n\nSay less ✋\n\nWe’re [Tanya](https://www.linkedin.com/in/tanya-verma-130a23124/), [Jules](https://www.linkedin.com/in/jdrean/), [Sacha](https://www.linkedin.com/in/sacha-servan-schreiber-308341305/) and [Nate](https://www.linkedin.com/in/nate-sales/) from[ Tinfoil](https://tinfoil.sh/). What we’re building at Tinfoil sidesteps these concerns because we can host models while guaranteeing zero data access and retention.\n\nWe let you run powerful models like Llama, Deepseek R1 on cloud GPUs without you having to trust us – or the cloud provider – with your private data.\n\nSince AI performs better the more context you give it, we think solving AI privacy will unlock more valuable AI applications, just how TLS on the Internet enabled e-commerce to flourish knowing that your credit card info wouldn't be stolen by someone sniffing internet packets.\n\nhttps://youtu.be/wnwI22qT-QQ\n\n**Who we are**\n\nWe come from backgrounds in cryptography, security, and infrastructure. Jules did his PhD in trusted hardware and confidential computing at MIT, and worked with NVIDIA and Microsoft Research on the same, Sacha did his PhD in privacy-preserving cryptography at MIT, Nate worked on privacy tech like Tor, and I (Tanya) was on Cloudflare's cryptography team.\n\n We were unsatisfied with band-aid techniques like PII redaction (which is actually undesirable in some cases like AI personal assistants) or “pinky promise” security through legal contracts like DPAs. We wanted a real solution that replaced trust with provable security, and addressed our personal frustration with the false choice between exploring cutting-edge AI capabilities and personal privacy.\n\n![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXcicUJrVGkJrvHFqW2CaNEpGzvSfbjySaAR3k-Q8fbf56JtXg8xAJa5MJrYn-RIdJjFirmZ4khWay_UpV6WhnZKZEE9ApI5HX97jRKGw4mJOTblXrujRY_9xcCvGPL139p2QaKd1g?key=xi6EV3GMAYXvlmorGP948w)\n\n**The magic sauce**\n\nRunning models locally or on-prem is an option, but can be expensive and inconvenient. Fully Homomorphic Encryption (FHE) is not practical for LLM inference for the foreseeable future. The next best option is using secure enclaves: a secure environment on the chip that no other software running on the host machine can access. This lets us perform LLM inference in the cloud while being able to prove that no one, not even Tinfoil or the cloud provider, can access the data. And because these security mechanisms are implemented in hardware, there is minimal performance overhead.\n\nUp until recently, secure enclaves were only available on CPUs. But NVIDIA confidential computing recently added these hardware-based capabilities to their latest GPUs, making it possible to run GPU-based workloads in a secure enclave.\n\nBelieve it when you see it, but Tinfoil has negligible performance overhead despite the strong security & privacy guarantees.\n\n**Getting Started**\n\n**The best part is you can start using confidential AI chat and inference with Tinfoil today!**\n\n**Try our private chat: [tinfoil.sh/chat](http://tinfoil.sh/chat).**\n\n[**https://www.youtube.com/watch?v=FuFszT0_vXk**](https://www.youtube.com/watch?v=FuFszT0_vXk)\n\n**Build with our API:** Drop-in replacement for the OpenAI chat-completions API with Tinfoil\n\n![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfBq_bx4bvZAzdB9BTzMg9KSE8UB2bKQO5uqfF5eoZkEWZFUtlbFnZpeD-m_PwaCVgUWftTt3QDLTW-r84u2dvUEGQ0ddbbQuq082ClI48l2cY4jWX-kWG1G6ZfwjNh8GN-EdAVJg?key=xi6EV3GMAYXvlmorGP948w)\n\nWe support several popular open source models like Deepseek R1 70B, Llama3.3 70B, Mistral 3.1 24B. Missing your favorite model? Just ask us to add it!\n\nTry out our free version running Llama3.3 70B in [Colab](https://colab.research.google.com/drive/1DhpUSmSWjxERnEo3U0qyAyApfcdIhvMv?usp=sharing).\n\nSee how Nate psychoanalyzes himself by sending all his iMessage chats to Tinfoil!\n\nhttps://www.loom.com/share/2381c02ba51043528c6d3bdf61270bc0?sid=9ea0e955-ae68-4ce4-9c86-d06cab18d25c\n\n**Deploy your AI Application**: Make your AI application enterprise-ready in a matter of minutes. Here's a demo of how you can use Tinfoil to run a deepfake detection service that could run securely on people's private videos:\n\nhttps://www.youtube.com/watch?v=_8hLmqoutyk\n\nWe encourage you to be skeptical of our privacy claims. Verifiability is our answer. It’s not just us _saying_ it’s private; the hardware and cryptography let _you_ check. Here’s a guide that walks you through the verification process:[ ](https://docs.tinfoil.sh/verify)https://docs.tinfoil.sh/verification/attestation-architecture.\n\n**The Ask**\n\nIf you think this sounds interesting, or too good to be true, contact us at [**founders@tinfoil.sh**](mailto:founders@tinfoil.sh)**!**\n\nWe’d love to hear from you, whether you’re a:\n\n* startup looking to sell into regulated industries\n* government agency that does everything on-prem but doesn’t trust your AI team to handle sensitive data\n* neocloud trying to secure enterprise customers in regulated industries that don’t migrate from the big clouds to you\n* company providing your employees dead-simple confidential LLM chat app\n\nYou can also learn more on our [**blog**](https://tinfoil.sh/blog), and subscribe to our [**LinkedIn**](https://www.linkedin.com/company/tinfoil/) and [**Twitter**](https://x.com/TinfoilAI) to follow updates!",
+      "url": "https://www.ycombinator.com/launches/NZ8-tinfoil-verifiable-privacy-for-cloud-ai",
+      "votes": 43,
+      "created_at": "2025-05-21T14:22:18.121Z"
+    }
+  ]
+}

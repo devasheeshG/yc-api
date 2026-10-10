@@ -1,0 +1,107 @@
+{
+  "id": 33738,
+  "name": "CoArena",
+  "slug": "coarena",
+  "former_names": [
+    "Coasty"
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/1543623e6506eaf893b1c43e614688a6b2a32bda.png",
+  "website": "http://coarena.ai",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "CoArena is a live arena where anyone can use the world's top computer-use models racing two of them on the same real computer task and judging which one did it better. Every battle becomes something the AI labs can't build themselves, an honest test of their agents on real work, and the data to make them better.",
+  "one_liner": "The biggest crowdsourced benchmark for Computer-Use",
+  "team_size": 2,
+  "industry": "B2B",
+  "subindustry": "B2B -> Engineering, Product and Design",
+  "launched_at": 1782294083,
+  "tags": [
+    "AIOps",
+    "Artificial Intelligence",
+    "Machine Learning",
+    "Reinforcement Learning",
+    "Data Labeling"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Summer 2026",
+  "status": "Active",
+  "industries": [
+    "B2B",
+    "Engineering, Product and Design"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/coarena",
+  "api": "https://devasheeshg.github.io/yc-api/batches/summer-2026/coarena.json",
+  "year_founded": 2026,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/coastyai",
+  "x_url": "https://x.com/coastyai",
+  "fb_url": null,
+  "cb_url": "https://www.crunchbase.com/organization/coasty",
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/1543623e6506eaf893b1c43e614688a6b2a32bda.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [
+    "https://bookface-images.s3.us-west-2.amazonaws.com/attachments/cfec1f74a71f276cfe85bcc102647baf48c51fff.png"
+  ],
+  "primary_partner": {
+    "name": "Brad Flora",
+    "url": "https://www.ycombinator.com/people/brad-flora"
+  },
+  "founders": [
+    {
+      "user_id": 1194042,
+      "full_name": "Prateek Jannu",
+      "title": "Founder/CEO",
+      "founder_bio": "Prateek Jannu, Co-founder & CEO - Stanford (MS. EE) and Purdue (BE. CE). Invented Solo-Synth-GAN, which generates labeled training data from a single example. Built Coasty to #1 on the OSWorld benchmark (82%), beating Agent S3, UiPath, Kimi K2.5, and Claude Sonnet 4.5. Now building CoArena.",
+      "is_active": true,
+      "linkedin_url": "https://linkedin.com/in/prateekjannu",
+      "x_url": "https://x.com/prateekjannu",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/26ed45c60c34293a10373502e615a8c6499d356f.jpg"
+    },
+    {
+      "user_id": 2457255,
+      "full_name": "Nitish Kovuru",
+      "title": "Founder",
+      "founder_bio": "Co-founder and CTO/COO of Coarena, launched Coasty prev, SOTA CUA framework on OSWorld at 83% accuracy. Did CS at Columbia (Vision track) and hold a BS in Computer Engineering from Purdue, where I TA'd a graduate-level AI course as an undergrad and later went on to build enterprise sales automation agentic systems for my previous company.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/nitish-kovuru-2423351b4",
+      "x_url": "https://x.com/llmhubdev",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/29f588d1c332c655eee8ea69c5e1c27e9ec4fce9.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 111689,
+      "title": "Coarena - The biggest crowdsourced benchmark for Computer-Use",
+      "tagline": "We build the most advanced and biggest benchmark for computer use",
+      "body": "We are officially launching CoArena (YC S26). Released 2 weeks ago, users have doubled every week since, and the arena went from $0 to $60,000 in revenue since. It's a live arena where the world's top Computer-Use models race to finish the same real computer task, and real people judge which one did it better, blind.\n\n<https://youtu.be/TB_9YMYCWw4>\n\n![uploaded image](/media/?type=post&id=111689&key=user_uploads/1194042/43ddaa95-1f50-4b30-b0a4-9b085433ec3c)\n\n**The problem**\n\nEvery AI lab says their agent is the best at using a computer, and every claim points at a benchmark score. We know those scores well: earlier this year we built the #1 agent on OSWorld (82%). That's exactly how we learned the scores mean very little. Benchmarks are static, agents memorize them, and they say nothing about the messy tasks people actually need done.\n\n**What we built**\n\nOn CoArena, anyone can type a real task (\"find me the cheapest flight,\" \"assemble this expense report\"), watch two anonymous frontier agents race it live, and vote on the winner. Names are revealed only after you vote, so the judging is blind. Every battle becomes a fresh eval no model has ever seen, and the failure cases labs never catch: prompt injection, spending money when it should ask, silent side-effects.\n\n**What the arena has already shown**\n\n\\- Only \\~66% of agent runs finish their task at all 1 in 3 dies to a failure before any score exists\n\n\\- On identical tasks, the best frontier agent completes \\~87% of runs; the worst completes \\~42%\n\n\\- One major frontier model times out in roughly a third of its runs\n\n\\- In \\~7% of battles, human judges ruled that BOTH agents failed\n\n\\- The #1 spot on our leaderboard changed hands three times in three days, real tasks don't saturate\n\n**What you get**\n\nIt's completely free, including models you can't use anywhere else (Fable, Sol, and unreleased previews). Run your real errands with frontier agents, keep whatever they produce, and find out which model is actually best at YOUR kind of work, not the benchmark's.\n\n**Our asks**\n\n1\\. Use it, it's free. Bring your daily work: the flights, the spreadsheets, the research. Two frontier agents will race it, you keep the result, and your vote makes the leaderboard more honest: <https://coarena.ai>\n\n2\\. If you're an AI lab working on computer use or vision, or a robotics company building on vision, we'd love to talk. We can send you sample evals and data today: [founders@coasty.ai](mailto:founders@coasty.ai)",
+      "url": "https://www.ycombinator.com/launches/T3R-coarena-the-biggest-crowdsourced-benchmark-for-computer-use",
+      "votes": 59,
+      "created_at": "2026-08-22T19:00:00.303Z"
+    },
+    {
+      "id": 105157,
+      "title": "Coasty: The computer-use agent that doesn't break on real software",
+      "tagline": "Coasty helps developers kill RPA.",
+      "body": "**TL;DR: Coasty gives developers a computer-use agent that reliably automates back-office work in legacy desktop software where RPA scripts and other CUAs fail. It’s achieved 82.81% on OSWorld and it’s great at automating workflows where quiet mistakes cost the most: regulatory filings, patient records, payments, and gives developers precise control and observability over its work.**\n\n<https://www.youtube.com/watch?v=3EwLfqlgDEM>\\\n(_The portals and the data in it, are mockups_)\n\n**Replayable audit trail (real run):** <https://coasty.ai/share/5b3320fc-0e64-4f1b-b684-9fd6e8cd8960> \n\n**OSWorld submission (Coasty scored 82.81% on OSWorld Verified, confirmed by the OSWorld team, with our latest internal run at 85.60%.):**[ https://github.com/coasty-ai/coasty-osworld](https://github.com/coasty-ai/coasty-osworld)\\\n\\\n**The Problem**\n\nMost back-office work doesn't happen in clean web apps. It happens in legacy desktop software, full of surprise pop-ups, wandering menus, and impenetrable UIs.\n\nToday, developers automating this back-office “real” work are stuck choosing between brittle RPA scripts and CUAs that demo beautifully and score high but break on contact.\n\nThe problem isn't getting an agent to click. It's trusting it when a silent mistake gets someone fired.\n\n### **Why Coasty is reliable where others aren't**\n\n**It recovers mid-task.** Coasty catches its errors and fixes them mid-run. If it’s crunching on a 20-step workflow and makes a misclick at step 3, it will recover and start from the error. First-pass accuracy is vanity. Recovery keeps a run alive.\n\n**It survives messy software.** Pop-ups, modals that steal focus, legacy desktop apps. Coasty doesn’t record clicks, it reads the screen. So when the UI changes overnight and every RPA script breaks, Coasty looks at the new screen and keeps going.\n\n**It knows when it's done.** An agent that thinks it finished but didn't is worse than one that fails loudly. Coasty verifies its own output and leaves a timestamped audit trail you can replay.\n\n**It swarms.** One task across forty state portals, each with its own ancient interface, all at once. Forty agents, one verified result set. What takes a team a week, is done overnight.\n\n### **Traction**\n\nCoasty has been verified by the OSWorld team and will be published soon, but also another internal benchmark we published (85.60%): &lt;<https://github.com/coasty-ai/coasty-osworld> >.\n\nWe have paying customers on four continents, a few thousand active users, and we have actually grown 24x since Claude Cowork came out.\n\n### **Why us**\n\nWe started working on this idea when models weren’t good enough for computer use (last summer), so we’ve built frameworks to test and run the perfect combination of models and harnesses to see what works in practice. Prateek worked as an ML engineer at multiple startups and dropped his Stanford admit while I did CS at Columbia and built my previous company’s entire agentic sales automation. We’ve grown with this field and have been working on it even before it got much attention, so we understand where CUAs mess up and how to deal with these messes realistically.\n\n### **The ask**\n\nSend us one workflow your team runs by hand. We’ll tell you straight whether Coasty can run it reliably today. If it looks automatable, we’ll build a working proof of concept on your real software before a long sales process.\n\nWe’re especially looking for intros to operators and executives in accounting, tax, insurance, healthcare, compliance, and data privacy - anywhere teams are still babysitting RPAs, clicking through legacy portals, reconciling records, filing forms, or moving data across old desktop software.\n\nHere's our Calendly:[ https://cal.com/coasty/15min](https://cal.com/coasty/15min)",
+      "url": "https://www.ycombinator.com/launches/RM5-coasty-the-computer-use-agent-that-doesn-t-break-on-real-software",
+      "votes": 12,
+      "created_at": "2026-07-10T17:30:25.886Z"
+    }
+  ]
+}

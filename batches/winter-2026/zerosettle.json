@@ -1,0 +1,88 @@
+{
+  "id": 31119,
+  "name": "ZeroSettle",
+  "slug": "zerosettle",
+  "former_names": [],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/452371c9b837fb899ab50db5096bb04a576b19fb.png",
+  "website": "https://zerosettle.io",
+  "all_locations": "San Diego, CA, USA",
+  "long_description": "ZeroSettle is a mobile SDK that switches customers from App Store billing to direct billing. It takes 15 minutes to set up and immediately unlocks zero App Store fees, higher retention/conversion, and instant payouts.",
+  "one_liner": "Drop-in Direct Billing SDK for In-App Purchases",
+  "team_size": 2,
+  "industry": "Fintech",
+  "subindustry": "Fintech -> Payments",
+  "launched_at": 1770252325,
+  "tags": [],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Winter 2026",
+  "status": "Active",
+  "industries": [
+    "Fintech",
+    "Payments"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/zerosettle",
+  "api": "https://devasheeshg.github.io/yc-api/batches/winter-2026/zerosettle.json",
+  "year_founded": 2026,
+  "city": "San Diego",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/zerosettle",
+  "x_url": "https://x.com/zerosettle",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/452371c9b837fb899ab50db5096bb04a576b19fb.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Brad Flora",
+    "url": "https://www.ycombinator.com/people/brad-flora"
+  },
+  "founders": [
+    {
+      "user_id": 1356034,
+      "full_name": "Gabe Roeloffs",
+      "title": "Founder/CEO",
+      "founder_bio": "Used to work on operating systems @ Apple (yes, all of them). And now I help mobile developers improve their net margins by avoiding the 30% App Store commission. ",
+      "is_active": true,
+      "linkedin_url": "https://linkedin.com/in/gabe-roeloffs",
+      "x_url": "https://x.com/gaberoeloffs",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/2e8a22408939b5d83117c9dba239b62b16180f54.jpg"
+    },
+    {
+      "user_id": 3203152,
+      "full_name": "Ryan Elliott",
+      "title": "Founder/CTO",
+      "founder_bio": "Building and scaling ZeroSettle: the future of mobile gaming payments. Previous systems software engineer at Apple.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/ryanelliott-10",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/9c91ea19ee288c4712457f948e7ca7944d65b89a.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 98611,
+      "title": "ZeroSettle - Keep More of Your Mobile App Revenue with Drop-In Direct Billing",
+      "tagline": "Skip the App Store fees, boost retention, and get instant payouts.",
+      "body": "### **TL;DR**\n\nMy co-founder and I are two former Apple software engineers who built ZeroSettle, a drop-in direct billing SDK for mobile apps. It takes 15 minutes to set up and developers immediately start enjoying zero App Store fees, higher user retention, and instant payouts.\n\n<https://youtu.be/EiTbDMyE7as>\n\n# **Why Now?**\n\nZeroSettle was born out of the famous Epic v Apple lawsuit in May 2025 that required Apple to allow developers to offer direct billing. This unlocked $150B+ of annual in-app purchase volume overnight - every single mobile app leader is currently looking for ways to take advantage of this.\n\n### **The Problem**\n\nMobile developers are not fond of Apple’s 30% fee. Direct billing is the clear alternative, but we’ve heard from mobile leaders that implementing it without hurting conversion is quite difficult. After all, customers are pretty familiar with the Apple flow they’ve used for the last decade plus. On top of that, rolling your own cross platform subscription management system is fraught with peril.\n\n### **The Solution**\n\nThe ZeroSettle SDK provides drop-in, intuitive UI flows that help developers offer direct billing to their users. These take just 15 minutes of engineering work to set up! Each use case increases margins or LTV (or both!) and avoids conversion concerns. \\\nHere's a few examples of the UI flow we provide:\n\n**Switch & Save Campaigns**\n\nZeroSettle intelligently shows offers to users to encourage them to switch to direct billing in exchange for a discount. This shows to users who have been subscribed for a given amount of time (default 60 days), and that's configurable in the dashboard. Everyone wins - more affordable plans for users and massive margin improvements for devs.\n\n![uploaded image](/media/?type=post&id=98611&key=user_uploads/1356034/fef706dd-144a-40ba-b56c-e935468bde1c)\n\n**Native Feeling Web Checkout Flows**\n\nFor in-app consumables (like coins and gems), developers can support web checkout directly and keep all of their revenue. ZeroSettle displays a browser sheet that looks native and customers can use Apple Pay and Google Pay inside of it.\n\n![uploaded image](/media/?type=post&id=98611&key=user_uploads/1356034/4f3f40ba-7e93-4e88-8da0-e8bf9e104a0a)\n\n**Smart Cancellation Flows**\n\nOne of the best aspects of direct billing is the fact that devs have full control over the cancellation flow. This provides a great opportunity to improve LTV by offering discounts to users who attempt to cancel, or even letting them pause their existing subscription.\n\n![uploaded image](/media/?type=post&id=98611&key=user_uploads/1356034/7ed26f99-1360-4bcb-a04c-39fdb7ee1fd4)\n\n**Billing Engines**\n\nWhen it comes to billing engines, we offer developers two options:\\\n\\\n**1. Use ZeroSettle’s built in Billing Engine**\\\nYou can think of the ZeroSettle Billing Engine as functionally equivalent to the App Store billing system today, but cheaper. Just like Apple, ZeroSettle acts as the MoR and charges a **5% + 50c** commission instead of **30%**. ZeroSettle handles all the chargeback fraud and customer support behind the scenes.\\\n\\\n**2. Bring Your Own Stripe**\\\nIf a developer wants to be their own MoR, they can connect their Stripe account. This means the developer handles chargeback fraud and customer support. With BYOS, ZeroSettle charges a flat **0.5%** fee when ZeroSettle’s intelligent offers successfully switch a user to direct billing.\n\n# **Sound Interesting?**\n\nIf you’re a mobile developer interested in avoiding the App Store and/or Google Play fees, go ahead and create an account at [zerosettle.io](https://zerosettle.io). And if you know a mobile developer that you’d like to help make a lot more money, send them our way! We support Swift, Kotlin, Flutter, and React Native across iOS and Android. The best part? It’s completely free to use and try out in sandbox mode. \n\nIf you have any questions, please don’t hesitate to reach out to [founders@zerosettle.io](mailto:founders@zerosettle.io) or or (805) 215-0740.\n\n![uploaded image](/media/?type=post&id=98611&key=user_uploads/1356034/26467ff1-47a5-4621-aa40-80c4f5c373fb)\n\n",
+      "url": "https://www.ycombinator.com/launches/PeV-zerosettle-keep-more-of-your-mobile-app-revenue-with-drop-in-direct-billing",
+      "votes": 12,
+      "created_at": "2026-03-09T07:07:30.387Z"
+    }
+  ]
+}

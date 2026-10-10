@@ -1,0 +1,90 @@
+{
+  "id": 28180,
+  "name": "Texel.ai",
+  "slug": "texel-ai",
+  "former_names": [
+    "Aimoji (TBD)"
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/b7fa956db067e60a154f7f7120ecc4d4cdc7062f.png",
+  "website": "https://texel.ai",
+  "all_locations": "Remote",
+  "long_description": "Texel is a platform that enables developers to generate hardware-accelerated APIs for running AI pipelines 10 times faster, including image and video applications. For example, developers can use the latest NVIDIA GPUs or Google TPUs without having to become hardware experts themselves.",
+  "one_liner": "Run AI pipelines 10x faster",
+  "team_size": 2,
+  "industry": "B2B",
+  "subindustry": "B2B -> Infrastructure",
+  "launched_at": 1677097746,
+  "tags": [],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Winter 2023",
+  "status": "Active",
+  "industries": [
+    "B2B",
+    "Infrastructure"
+  ],
+  "regions": [
+    "Remote",
+    "Fully Remote"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/texel-ai",
+  "api": "https://devasheeshg.github.io/yc-api/batches/winter-2023/texel-ai.json",
+  "year_founded": 2023,
+  "city": null,
+  "country": null,
+  "linkedin_url": "https://www.linkedin.com/company/texel-ai",
+  "x_url": "",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/b7fa956db067e60a154f7f7120ecc4d4cdc7062f.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Brad Flora",
+    "url": "https://www.ycombinator.com/people/brad-flora"
+  },
+  "founders": [
+    {
+      "user_id": 1188792,
+      "full_name": "Rahul Sheth",
+      "title": "Founder",
+      "founder_bio": "Rahul is co-founder and CEO of Texel.ai. He worked on Bitmoji at Snapchat for almost 8 years after completing a Computer Science PhD at Stanford in character animation and physics simulation. He is interested in scalable systems for computer graphics and artificial intelligence.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/rbsheth/",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/d80fcd35e61a1a54ba0d1cf93c7abc12013304f7.jpg"
+    },
+    {
+      "user_id": 1244135,
+      "full_name": "Eli Semory",
+      "title": "Founder",
+      "founder_bio": "Eli is the Co-founder and CTO of Texel.ai. He worked at Snapchat for the last 5 years, building one of the worlds largest graphics GPU deployments. At Texel.ai he's solving the next big problems in Generative AI enabling new and exciting large scale applications.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/eli-semory-8697b15/",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/bb93a6a1c498e9e49bcf0522ec55d0b6e7334e7a.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 69917,
+      "title": "Texel: Optimizing AI and video pipelines",
+      "tagline": "Helping businesses make their GPU-based AI infrastructure 10x more efficient",
+      "body": "**tl;dr: Texel makes your AI infrastructure 10x more efficient. We do this by providing tools and APIs that allow you to quickly encode or decode media and optimize models for inference.**\\\n\\\n💸 **The problem:**\\\nMany companies run inference on media, to do things like generate images or detect events in scenes. **Running inference is expensive both in compute and cost, and video decoding and encoding is too.**\n\nMost developers use the best tools available to optimize inference and media processing in isolation, but shuffling the data between these pipelines is slow. As an example, four different inference pipelines means first decoding a video frame and then sending it to each of four GPUs running different models and finally compositing all the frames before re-encoding.\n\n**😎 The solution:**\n\n![uploaded image](/media/?type=post&id=69917&key=user_uploads/1188792/4bdc96f4-6c64-44a8-bc65-c07bd88e8437)\n\nVanilla PyTorch running Stable Diffusion (left), Texel-accelerated version (right)\\\n\\\nWe optimize the entire pipeline for you, from input to inference to output, by providing APIs that allow you to control the features you want to activate and taking care of the data flow and scaling behind the scenes. You can bring your own custom models that we optimize, cutting down on inference time and reducing GPU memory size. If you want to just optimize inference, training on media, or encode a video, that’s totally fine and we can do that for you! \n\nIn the example mentioned above, the video decode, all four models, and the video encode would be streamlined to run on as few GPUs as possible. **With these optimizations, editing images and videos with AI can become real-time.** **You’ll also save money by using less GPUs.**\n\n**📖 The story:**\n\n![uploaded image](/media/?type=post&id=69917&key=user_uploads/1188792/97257823-69f1-4c89-a8b4-af5bae7b0b92)\n\nRahul (left) and Eli (right) spent years working together building one of the world’s largest GPU-based services at scale while at Snapchat and discovered many optimization techniques. **We built out and ran a fleet of thousands of GPUs serving hundreds of millions of daily active users generating over one billion images per day in real-time.** **Our optimizations saved the company over $20 million a year in operational costs.** AI is taking the world by storm and mainly runs on GPUs, so we saw an opportunity to use our expertise and build the best product in the space.\n\n**🔧 How it works:**\n\nWe deploy your models and provide an API for you to control them and run your inference faster. You can also add rendering, video encoding, or any other GPU-based workflow and it will be accelerated. The deployment can be hosted or on-premise, depending on your needs.\n\n**🙏 Our asks:**\n\n* Please reach out to us at [founders@texel.ai](mailto:founders@texel.ai) if:\n  * You are running inference and/or processing video/image data and are interested in optimization\n  * You want to try our API out and want to request an API key\n  * Would like to introduce us to others that want to optimize their MLOps and/or VideoOps",
+      "url": "https://www.ycombinator.com/launches/IBh-texel-optimizing-ai-and-video-pipelines",
+      "votes": 19,
+      "created_at": "2023-03-03T17:03:24.107Z"
+    }
+  ]
+}

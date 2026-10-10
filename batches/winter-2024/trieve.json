@@ -1,0 +1,107 @@
+{
+  "id": 29379,
+  "name": "Trieve",
+  "slug": "trieve",
+  "former_names": [
+    "Arguflow"
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/e020de4d43f09ae8fc176bd79fd704be218893b7.png",
+  "website": "https://trieve.ai",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "Infrastructure for search teams building retrieval and RAG. Trieve combines search language models with tools for tuning ranking and relevance.\r\n\r\nBuilding excellent search is difficult and can take months to implement then even more time to maintain. Trieve offers production-ready infrastructure that works out of the box to help search teams build adjustable AI search and RAG into their products. With tools for custom models, relevancy weighting, date-recency biasing, semantic full-text hybrid search, recommendations, and more Trieve covers the full spectrum of what a team wants from their discovery infrastructure. ",
+  "one_liner": "All-in-one API for search, RAG, & recommendations",
+  "team_size": 7,
+  "industry": "B2B",
+  "subindustry": "B2B -> Infrastructure",
+  "launched_at": 1709233497,
+  "tags": [
+    "Developer Tools",
+    "Open Source",
+    "API",
+    "Search",
+    "AI"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Winter 2024",
+  "status": "Acquired",
+  "industries": [
+    "B2B",
+    "Infrastructure"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": [
+    {
+      "question": "What is your long-term vision? If you truly succeed, what will be different about the world?",
+      "answer": "Power every retrieval experience on the internet"
+    }
+  ],
+  "url": "https://www.ycombinator.com/companies/trieve",
+  "api": "https://devasheeshg.github.io/yc-api/batches/winter-2024/trieve.json",
+  "year_founded": 2023,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/trieveai/",
+  "x_url": "https://twitter.com/trieveai",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": "https://github.com/devflowinc/trieve",
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/e020de4d43f09ae8fc176bd79fd704be218893b7.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Pete Koomen",
+    "url": "https://www.ycombinator.com/people/pete-koomen"
+  },
+  "founders": [
+    {
+      "user_id": 1655076,
+      "full_name": "Nick Khami",
+      "title": "Founder/CEO",
+      "founder_bio": "Find me at https://github.com/skeptrunedev . My primary hobbies are reading progression fantasy, riding motorcycles, and running. ",
+      "is_active": true,
+      "linkedin_url": "https://linkedin.com/in/nicholas-khami-5a0a7a135",
+      "x_url": "https://twitter.com/skeptrune",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/7b50f2ec9e0f2ceff369f57009958e67d682ca5c.jpg"
+    },
+    {
+      "user_id": 1655175,
+      "full_name": "Denzell Ford",
+      "title": "Founder/CTO",
+      "founder_bio": "Find me at https://github.com/cdxker. I'm mostly active on x",
+      "is_active": true,
+      "linkedin_url": "https://linkdin.com/in/denzell-ford",
+      "x_url": "https://twitter.com/cdxker",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/cd5cbf22ed11a4cfd6f8c6a76af57272a04a0299.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [
+    {
+      "title": "Trieve Secures $3.5M to Power AI Search and RAG — Trieve",
+      "url": "https://trieve.ai/trieve-fundraise-announcement/",
+      "date": "Sep 11, 2024"
+    }
+  ],
+  "launches": [
+    {
+      "id": 78949,
+      "title": "Trieve 🔎 Infrastructure for search teams",
+      "tagline": "We want to power every search bar on the internet.",
+      "body": "Howdy, y’all!\n\nWe’re [Denzell](https://linkedin.com/in/denzell-ford) and [Nick](https://github.com/skeptrunedev), founder engineers of [Trieve](https://trieve.ai/).\n\n![uploaded image](/media/?type=post&id=78949&key=user_uploads/1655175/c03dd5a8-16e9-4d39-8885-fdbb3d7e0626)\n\n**Trieve offers source-available all-in-one infrastructure for entire search teams. Engineers implement a pipeline that connects their data source to our backend then non-technical staff can fine-tune relevance using included frontends.**\n\nCustomers have the option to either **(1)** use the managed cloud version of the software suite or **(2)** buy a license to host it themselves in their own cloud or on-premise.\n\nWe want to power every search bar on the internet.\n\n### Problem - Poor search quality, lack of modularity, inaccessibility\n\n1. Engineers first have to build APIs on top of DBs and AI models which then need to be maintained, scaled, and improved.\n2. Engineers then need to build UI's for tuning which then need to be maintained, scaled, and improved.\n3. Improving retrieval quality requires hiring more engineers such that you have enough bandwidth to both maintain and improve your custom and complex infrastructure.\n4. Ineffective spend of your search budget as you have to hire engineers to build and maintain things before you can even start adjusting retrieval quality.\n\n### Solution - Quality retrieval & source-available license\n\nTrieve provides a complete infrastructure suite that is both easy for a single engineer to integrate and allows businesses to hire more non-technical staff who can use the included front-end tools for fine-tuning relevance.\n\nWith Trieve's solution, businesses can get more value out of their search budget whether it's $10k or $10M.\n\n### WE have two asks!\n\n1. Could you introduce us to developers and teams building search and relevancy into their products?\n2. [Can you star our GitHub](https://github.com/devflowinc/trieve)?\n\n![uploaded image](/media/?type=post&id=78949&key=user_uploads/1655175/b72dc26d-867b-4637-8df5-111b2f869fa0)\n\n### About us\n\nDenzell and I are software engineers who walked into this problem trying to build semantic search for a knowledge management system that helped business teams argue better.\n\nWhen we went to go sell the arguing app we found out that the underlying search infrastructure was what people really wanted to buy.\\\n\\\n[founders@trieve.ai](https://mailto:founders@trieve.ai)",
+      "url": "https://www.ycombinator.com/launches/KXN-trieve-infrastructure-for-search-teams",
+      "votes": 137,
+      "created_at": "2024-03-01T18:52:01.827Z"
+    }
+  ]
+}

@@ -1,0 +1,129 @@
+{
+  "id": 29105,
+  "name": "FlowiseAI",
+  "slug": "flowiseai",
+  "former_names": [],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/430a7c6b91b2b976c63ca3ebab6cfe4e2a6371d4.png",
+  "website": "https://flowiseai.com",
+  "all_locations": "Remote",
+  "long_description": "Flowise uses low-code approach that enable developers to manage the whole lifecycle of building LLMs apps in production. From protoyping, evaluation, to iterations.",
+  "one_liner": "Open source GenAI development platform",
+  "team_size": 5,
+  "industry": "B2B",
+  "subindustry": "B2B -> Engineering, Product and Design",
+  "launched_at": 1688552847,
+  "tags": [
+    "Artificial Intelligence",
+    "Developer Tools",
+    "Generative AI",
+    "Open Source"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Summer 2023",
+  "status": "Acquired",
+  "industries": [
+    "B2B",
+    "Engineering, Product and Design"
+  ],
+  "regions": [
+    "Remote",
+    "Fully Remote"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": [
+    {
+      "question": "How did your company get started? (i.e., How did the founders meet? How did you come up with the idea? How did you decide to be a founder?)",
+      "answer": "Back in Feb 2023, we've been building apps using open source frameworks like LangChain, HuggingFace, etc.We wanted a quicker way to build prototype without having to write repetitive code. We also want a better visualization of the whole LLM flow.Hence, the idea of Flowise was born."
+    },
+    {
+      "question": "What is the core problem you are solving? Why is this a big problem? What made you decide to work on it?",
+      "answer": "Recent advancement of large language models like ChatGPT is revolutionizing every industry. But how do people from less tech-savvy background be able to learn it, and use it for their own use cases?This is why we made Flowise just like LEGO[🧩](https://emojipedia.org/puzzle-piece/). Flowise let you connect different components like PDF loader, OpenAI Embeddings, Pinecone vector database and build your own ChatGPT on your own documents, without any code. You learn at the same time as you build!"
+    }
+  ],
+  "url": "https://www.ycombinator.com/companies/flowiseai",
+  "api": "https://devasheeshg.github.io/yc-api/batches/summer-2023/flowiseai.json",
+  "year_founded": 2023,
+  "city": null,
+  "country": null,
+  "linkedin_url": "https://www.linkedin.com/company/flowiseai",
+  "x_url": "https://twitter.com/FlowiseAI",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": "https://github.com/FlowiseAI",
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/430a7c6b91b2b976c63ca3ebab6cfe4e2a6371d4.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [
+    "https://bookface-images.s3.us-west-2.amazonaws.com/attachments/710e491e2514993ee7527b8a9fd11894a7721990.png"
+  ],
+  "primary_partner": {
+    "name": "Harj Taggar",
+    "url": "https://www.ycombinator.com/people/harj-taggar"
+  },
+  "founders": [
+    {
+      "user_id": 1358352,
+      "full_name": "Henry Heng",
+      "title": "Founder",
+      "founder_bio": "Cofounder of Flowise. Ex-software engineer @FidelityInvestment",
+      "is_active": true,
+      "linkedin_url": "https://linkedin.com/in/zhenjing-heng-henry",
+      "x_url": "https://twitter.com/henryhengzj",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/b0ff871bb8ebe5923516f186dd30fa89a1b27661.jpg"
+    },
+    {
+      "user_id": 1393783,
+      "full_name": "Chung Yau Ong",
+      "title": "Founder",
+      "founder_bio": "Cofounder of Flowise.",
+      "is_active": true,
+      "linkedin_url": "https://linkedin.com/in/chung-yau-ong-1407701a9",
+      "x_url": "https://twitter.com/ChungYauOng",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/f43413f8d8df9a38d744580487818074e61ed022.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [
+    {
+      "title": "Open100: Top 100 Open Source achievements",
+      "url": "https://www.benchcouncil.org/evaluation/opencs/annual.html#Achievements",
+      "date": "Nov 01, 2023"
+    },
+    {
+      "title": "Top trending early-stage open-source startups by GitHub star growth in Q3 2023 - Runa Capital",
+      "url": "https://runacap.com/ross-index/q3-23/",
+      "date": "Nov 01, 2023"
+    },
+    {
+      "title": "GenOs Index - The June Edition: 5 Emerging Trends among Generative AI Open Source Projects - Decibel",
+      "url": "https://www.decibel.vc/articles/genos-index-the-june-edition-5-emerging-trends-among-generative-ai-open-source-projects",
+      "date": "Jun 14, 2023"
+    }
+  ],
+  "launches": [
+    {
+      "id": 90360,
+      "title": "Flowise 3.0 - Build AI Agents, Visually",
+      "tagline": "Build any agentic system from just an idea",
+      "body": "# Flowise 3.0\n\nhttps://youtu.be/-h4WQuzRHhI\n\nFor the first time, anyone can build AI agents from just an idea. Simply describe what you want to create, and a draft will be generated for you.\n\nFlowise provides modular building blocks for you to build any agentic systems, from simple compositional workflows to autonomous agents. Some common patterns are:\n\n* Chaining\n* Routing\n* Parallelization\n* Hierarchy\n* Looping\n* Iteration\n\n![uploaded image](/media/?type=post&id=90360&key=user_uploads/1358352/68095851-704f-4f14-b1cf-dfcfc56b4009)\n\nEach LLM/Agent has the following augmentations to enable flexible multi agents architecture:\n\n* Memory\n* Retrieval(RAG)\n* Tool\n* Centralized State\n* Structured Output\n\n🙋‍♂️ **Human in the Loop**:\n\nThis is a core aspect of an agentic system, allowing humans to review tasks performed by agents, or to approve/reject tool calls by agents. For example, reviewing actions before sending an email or booking an appointment.\n\n![uploaded image](/media/?type=post&id=90360&key=user_uploads/1358352/a08091a2-93cb-493f-858e-a851bcd3d12d)\n\n📝 **Form Input**:\n\nIn addition to the standard chat interface, workflows can also be triggered through a form-based interface. This is ideal for workflows that don't require back-and-forth communication between the user and agents.\n\n![uploaded image](/media/?type=post&id=90360&key=user_uploads/1358352/bba6f3b4-3d95-4699-bcdc-b6c2485f1fa2)\n\n🔍 **Observability**:\n\nGain full visibility into execution traces to debug issues and optimize performance. You can share traces publicly, allowing others to review, approve, or provide feedback.\n\n![uploaded image](/media/?type=post&id=90360&key=user_uploads/1358352/4e8ed542-c2f8-424c-8ef2-0c60c059199a)\n\n✅ **Flow Validation**:\n\nDesigning complex workflows can be challenging. Flow validation helps minimize misconfigurations and human errors by automatically checking for common issues.\n\n![uploaded image](/media/?type=post&id=90360&key=user_uploads/1358352/80943e44-97d6-4012-ae6e-407bde108b9d)\n\n# Try it out\n\nEverything is open source, give a star on our [Github](https://github.com/FlowiseAI/Flowise) repo ✨\n\n```\n$npm install -g flowise\n$npx flowise start\n```\n\nOr try it out for free on [Flowise Cloud](https://cloud.flowiseai.com) ☁️\n\n![uploaded image](/media/?type=post&id=90360&key=user_uploads/1358352/f366ab3a-a6c9-47ba-807c-bf94d8122e76)\n\nFlowise is used by Fortune 500 companies such as Thermo Fisher, Deloitte, Accenture, AWS, and many others. We are continuously pushing the frontier of generative AI development platform.",
+      "url": "https://www.ycombinator.com/launches/NVQ-flowise-3-0-build-ai-agents-visually",
+      "votes": 18,
+      "created_at": "2025-05-13T18:37:51.183Z"
+    },
+    {
+      "id": 72776,
+      "title": "Flowise - Low-code LLM apps builder",
+      "tagline": "An open source drag & drop tool to build your customized LLM flow",
+      "body": "### **☕️TL;DR**\n\n[**Flowise**](https://flowiseai.com/) **is an open source drag & drop tool to build your customized LLM flow.**\n\n**We provide a visual interface to let you build backends for LLM apps used for QnA, summarization and analysis on your own data.**\n\n![uploaded image](/media/?type=post&id=72776&key=user_uploads/1358352/f29f7b92-9f41-4257-b293-046eb46d9b84)\n\n👋 This is [Henry](https://www.linkedin.com/in/zhenjing-heng-henry/) and [Yau](https://www.linkedin.com/in/chung-yau-ong-1407701a9/), co-founders of Flowise. We’re on a mission to make it easy for people with no-code background to learn and build AI apps.\n\n### **🤔 Problem**\n\nRecent advancement of large language models like ChatGPT is revolutionizing every industry. But how do people from less tech-savvy background be able to learn it, and use it for their own use cases?\n\n### **✨ Solution**\n\nJust like LEGO[🧩](https://emojipedia.org/puzzle-piece/), Flowise let you connect different components like PDF loader, OpenAI Embeddings, Pinecone vector database and build your own ChatGPT on your own documents. You learn as you build!\n\n### **⚙️ How it works**\n\n**Chatflow**\n\nDrag & drop any component to the canvas and interact with it in real-time.\n\n![uploaded image](/media/?type=post&id=72776&key=user_uploads/1358352/064c1f3e-83c2-489f-a115-b7efdd74289f)\n\n**API/Embed**\n\nUse the flow as an API or embed into your application.\n\n![uploaded image](/media/?type=post&id=72776&key=user_uploads/1358352/4c5d5d78-eedd-48b0-91cf-e0c7fa1bac53)\n\n**Tool**\n\nCreate your own tool and let agent automatically use it. For instance, get stock prices and add it to Airtable/Gsheets.\n\n![uploaded image](/media/?type=post&id=72776&key=user_uploads/1358352/558cf99b-b199-48d9-a0fa-d1500a30ec7d)\n\n**Extensible**\n\nFlowise is built to be extensible. Developers can easily customize their integrations by using libraries/frameworks such as LangChain, LlamaIndex, HuggingFace, etc.\n\n### **🙏Ask**\n\n* Star Flowise [Github](https://github.com/FlowiseAI/Flowise) and let us know what you’d like us to build next\n* Follow us on [Twitter](https://twitter.com/FlowiseAI) to keep up with the latest updates\n* Hop into our 2k+ [Discord](https://discord.com/invite/jbaHfsRVBW) community\n* We want to offer cloud-hosted solution, let us know your [thoughts](https://fmhvbn0ukuf.typeform.com/to/Zn6A7fb4)!\n\n[🚩](https://emojipedia.org/triangular-flag/) We just crossed **10k** stars on Github!\n\n![uploaded image](/media/?type=post&id=72776&key=user_uploads/1358352/7719ac4f-6699-4cdf-8d52-9ff7c63a596d)\n\n",
+      "url": "https://www.ycombinator.com/launches/Ivo-flowise-low-code-llm-apps-builder",
+      "votes": 70,
+      "created_at": "2023-07-05T16:02:36.118Z"
+    }
+  ]
+}

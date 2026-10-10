@@ -1,0 +1,92 @@
+{
+  "id": 31372,
+  "name": "Trellis",
+  "slug": "trellistech",
+  "former_names": [
+    "Trellis Tech",
+    "Trellis",
+    "trellis"
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/d4edc07d052fa88205fcd9e264fc066ce8d0f11f.png",
+  "website": "https://trellistech.com",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "Trellis is building toward a new hospitality platform: one that does not just help guests find homes, but actually operates them with agents. \r\n\r\nOur first wedge is short-term rental property managers, replacing their fragmented stack across guest messages, tasks, cleaners, maintenance, vendors, and owner updates with agents that run operations end-to-end. \r\n\r\nIn two months, we’ve grown to $500k ARR across 35 customers and 3000 listings, growing around 15% week over week, with one customer already running day-to-day operations with no human involved.",
+  "one_liner": "Agents that run short-term rental operations end-to-end",
+  "team_size": 5,
+  "industry": "B2B",
+  "subindustry": "B2B -> Operations",
+  "launched_at": 1775519659,
+  "tags": [],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Spring 2026",
+  "status": "Active",
+  "industries": [
+    "B2B",
+    "Operations"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/trellistech",
+  "api": "https://devasheeshg.github.io/yc-api/batches/spring-2026/trellistech.json",
+  "year_founded": 2026,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/trellis-str/",
+  "x_url": "",
+  "fb_url": null,
+  "cb_url": "https://www.linkedin.com/company/trellis-str/",
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/d4edc07d052fa88205fcd9e264fc066ce8d0f11f.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Nicolas Dessaigne",
+    "url": "https://www.ycombinator.com/people/nicolas-dessaigne"
+  },
+  "founders": [
+    {
+      "user_id": 3088252,
+      "full_name": "Lodovico Benvenuti",
+      "title": "Founder/CEO",
+      "founder_bio": "Hi, I’m Lodo.\n\nI believe the next decade of software belongs to systems that grow around you, not tools you adapt to. Static SaaS is dying. The future is AI-native software that learns, builds, and evolves with every customer. \n\nI’m building that future for hospitality with Trellis: an AI-native operating system that learns how each operator runs, then builds the workflows and nterfaces needed to execute the business. \n\nWe don't sell software with AI, we sell AI that builds your software",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/lodovico-benvenuti-11678224a/",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/76068eb1afdf7783f31464f18e8ade6db8633b65.jpg"
+    },
+    {
+      "user_id": 2866294,
+      "full_name": "Jan Sahagun",
+      "title": "Founder/COO",
+      "founder_bio": "Hey, I'm Jan.\nEx hockey player who turned his athlete's mindset into sales.\nIn under 2 years in STR tech I closed $2M worldwide and built an STR media platform from scratch.\n\nWe're currently building the future of short-term rentals to give property managers the last piece of software they'll ever need.\nNot another tool with AI bolted on but an AI that builds their software.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/jan-sahagun-escosa?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/ad8201c4b64acf9962d89811a67eee1e806942fc.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 100011,
+      "title": "Trellis: Autonomous Agents for Short Term Rentals",
+      "tagline": "Run all your operations end to end across every tool in your stack.",
+      "body": "Hi, we’re [Lodovico Benvenuti](https://www.linkedin.com/in/lodovico-benvenuti-11678224a/) and [Jan Sahagun](https://www.linkedin.com/in/jan-sahagun-escosa?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app), and we’re building Trellis, AI agents that run operations for short-term rental property managers.\n\nOur Launch Video: <https://www.youtube.com/watch?v=Zki0_icE3Xw>\n\n### The problem\n\nShort-term rental operations break as companies scale.\n\nAs you add listings, coordination explodes across guest messaging, cleaning, maintenance, and homeowners. Work ends up spread across 5 to 10 disconnected tools, duck-taped together by burnt-out teams, constantly firefighting issues, with information inevitably falling through the cracks.\n\nQuality drops, reviews follow, and growth stalls.\n\nThis is because managing a property is complex. Let’s say the guest calls about a broken shower. The operator has to identify the reservation in the PMS, search a separate knowledge base for context, collect photos, and create a task in another system.\n\nThen check a workforce tool for availability, reprioritize tasks, dispatch a technician, follow up with the guest, and later log costs, update accounting, and notify the homeowner. All this across 5-10 systems of record.\n\nThe core issue is simple: no software has full operation context to control operations end to end.\n\n### What we built\n\nTrellis provides AI agents that run operations across the entire stack.\n\nThe agent communicates with guests, dispatches and coordinates cleaners and maintenance, files claims and costs, and follows up until issues are fully resolved.\n\nIt connects to PMSs, messaging channels, and internal tools, but more importantly, it maintains full operational context: who the guest is, what property they’re in, what the issue is, what’s already been tried, who is available, what tasks are in progress, and what needs to happen next.\n\nInstead of passing information between tools, the agent owns the entire workflow from first message to resolution and reporting.\n\nWhen agents take over operations, execution becomes consistent and verifiable. That shifts control of the guest experience from marketplaces back to operators, who can now deliver reliable service at scale, build real brands, and own demand.\n\n### Our background\n\nBefore Trellis, Lodo built AI customer service agents for short-term rentals at Conduit (YC W24). He also scaled a property management company to \\~$2M revenue and 150+ listings. With trellis we are now running their operations with 1 person.\n\nJan spent years in the trenches of the STR industry: leading early sales at multiple AI tools for property managers, building an STR tech media platform (STR Tech Report), consulting across the space, attending 20+ industry events, and speaking with thousands of property managers along the way. That journey earned him deep trust and relationships throughout the STR world.\n\n---\n\nIf you run a property management company, we’d love to show you Trellis.\n\n![uploaded image](/media/?type=post&id=100011&key=user_uploads/3088252/1e4e4529-0d4f-433d-bb57-66119f1505da)\n\n",
+      "url": "https://www.ycombinator.com/launches/Q15-trellis-autonomous-agents-for-short-term-rentals",
+      "votes": 21,
+      "created_at": "2026-04-22T00:09:17.166Z"
+    }
+  ]
+}

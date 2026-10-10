@@ -1,0 +1,95 @@
+{
+  "id": 31004,
+  "name": "Dome",
+  "slug": "dome",
+  "former_names": [],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/7dc9ddeb09c634cfdedc5563ec8d3c525a7e8189.png",
+  "website": "https://domeapi.io",
+  "all_locations": "",
+  "long_description": "Dome makes it easy to build on prediction markets like Polymarket and Kalshi. We provide the developer infrastructure to access, analyze, and build on prediction markets. \r\n\r\nWith our unified API, developers can access live and historical data, including granular datasets not available natively, across multiple platforms at once. Dome makes it simple to trade, embed market data into products, and deploy strategies across multiple platforms through one interface.\r\n",
+  "one_liner": "A unified API for prediction markets, like Kalshi and Polymarket",
+  "team_size": 2,
+  "industry": "B2B",
+  "subindustry": "B2B -> Infrastructure",
+  "launched_at": 1759389556,
+  "tags": [],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Fall 2025",
+  "status": "Inactive",
+  "industries": [
+    "B2B",
+    "Infrastructure"
+  ],
+  "regions": [
+    "Unspecified"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/dome",
+  "api": "https://devasheeshg.github.io/yc-api/batches/fall-2025/dome.json",
+  "year_founded": 2025,
+  "city": null,
+  "country": null,
+  "linkedin_url": "https://www.linkedin.com/company/dome-api",
+  "x_url": "https://x.com/getdomeapi",
+  "fb_url": null,
+  "cb_url": "https://www.crunchbase.com/organization/dome-71a6",
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/7dc9ddeb09c634cfdedc5563ec8d3c525a7e8189.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [
+    "https://bookface-images.s3.us-west-2.amazonaws.com/attachments/f779f08359195f56e77527d17921850518036cf6.png"
+  ],
+  "primary_partner": {
+    "name": "Tom Blomfield",
+    "url": "https://www.ycombinator.com/people/tom-blomfield"
+  },
+  "founders": [
+    {
+      "user_id": 2118203,
+      "full_name": "Kurush Dubash",
+      "title": "Founder",
+      "founder_bio": "Kurush is the co-founder and CEO of Dome.\n\nHe's an engineer with a degree from Berkeley and has a deep expertise in blockchain and prediction markets.\n\nAs a founding engineer at Alchemy, he spent over four years helping scale the company from 10 to 250 people and a $10B valuation. He and his co-founder worked closely with Polymarket, one of Alchemy’s largest blockchain customers, to build custom infrastructure that ensured they scaled seamlessly during the 2024 election.",
+      "is_active": false,
+      "linkedin_url": "https://www.linkedin.com/in/kurushdubash",
+      "x_url": "https://twitter.com/kurushdubash",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/3b3511a70fd162b26f3c15906f828a3d4063ba9d.jpg"
+    },
+    {
+      "user_id": 2830840,
+      "full_name": "Kunal Roy",
+      "title": "Founder",
+      "founder_bio": "Founding Engineer Alchemy, prev Engineer at Cruise, Google. \n\nHe's an engineer with a degree from Berkeley and has a deep expertise in blockchain and prediction markets.\n\nKunal spent 5+ years as a founding engineer at Alchemy where he helped grow the company from 10 to 250 people and a $10 billion valuation. He and his co-founder we personally responsible for helping Polymarket scale on the blockchain during the 2024 election. Together they are building domeapi.io, the prediction market api",
+      "is_active": false,
+      "linkedin_url": "https://www.linkedin.com/in/kunal-roy-772a0672/",
+      "x_url": "https://x.com/princeofbothell",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/72906da4fa0849b693a62ebaeeb75a17c4c5bf05.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [
+    {
+      "title": "The Top Startups To Watch From Y Combinator’s Fall 2025 Batch",
+      "url": "https://www.forbes.com/sites/dariashunina/2025/11/13/the-top-startups-to-watch-from-y-combinators-fall-2025-batch/",
+      "date": "Nov 13, 2025"
+    }
+  ],
+  "launches": [
+    {
+      "id": 95017,
+      "title": "Dome - A unified API for prediction markets",
+      "tagline": "Trade and analyze data across multiple platforms at once",
+      "body": "Hi everyone - we’re [Kurush](https://www.linkedin.com/in/kurushdubash/) and [Kunal](https://www.linkedin.com/in/kunal-roy-772a0672/) - and we’re building [Dome](http://domeapi.io) 👋\n\n# **TL;DR**\n\n**Dome is a unified API for prediction markets, like Polymarket and Kalshi.** We allow users to trade and analyze data across multiple platforms at once. Over 50+ developers are already building on Dome.\n\n**Ask:** Building or trading in prediction markets? Contact [kurush@domeapi.com](mailto:kurush@domeapi.com) or [DM](https://x.com/kurushdubash) us.\n\nhttps://youtu.be/eYWb3hpxSnE\n\n**Prediction Markets**\\\nPrediction markets are a new financial instrument that combines news, polls, and expert opinions into a single value that represents the market’s view of an event’s odds. In the past few years, platforms like Polymarket and Kalshi have processed tens of billions in volume, giving real-time insight into collective public belief.\n\n# Problem\n\n_Fragmented_**\\\nThe same markets are scattered across multiple platforms**. Fragmented formats and liquidity make them difficult to analyze or trade efficiently.\n\n_Siloed Data_**\\\nAccessing reliable data is a challenge.** Every platform exposes different pieces of information, in different formats, leaving traders without a unified historical view.\n\n_Infrastructure_\\\n**Primitive tools build primitive products.** Developers do not have the adequate infrastructure to grow this ecosystem. \n\n# Solution\n\n**One Market View**\\\nDome unifies prediction markets across platforms into a single, consistent interface.\n\n* Matches **identical markets** across multiple platforms\n* Streams **real-time data** through one API \n* **Integrate once** to access every platform\n\n![uploaded image](/media/?type=post&id=95017&key=user_uploads/2118203/4a1a329b-1d58-468e-b76a-f18aa9ee4ee4)\n\n**Complete Data**\\\nDome delivers both **real-time** and **historical data** across every platform, giving traders and developers the insight to analyze past performance and react **instantly** to shifting markets. \n\n![uploaded image](/media/?type=post&id=95017&key=user_uploads/2118203/e56f0e0a-6179-4dd6-8d84-a46a94f9736a)\n\n**Empowered Builders**\\\nDome gives developers the tools to build exponentially on top of prediction markets.\n\n* **Multi-language SDKs** for effortless development\n* **Real-time** streaming architecture for live insights and updates\n* Unified **on-chain** and off-chain data pipeline for consistent accuracy\n\n# The Team\n\n![uploaded image](/media/?type=post&id=95017&key=user_uploads/2118203/b610baf1-35a7-4db8-90f3-2f84eff1519e)\n\n[**Kurush**](https://www.linkedin.com/in/kurushdubash/) (CEO) - Kurush is an engineer with deep expertise in blockchain infrastructure and prediction markets. As a founding engineer at [Alchemy](http://alchemy.com), he spent over four years helping scale the company from 10 to 250 people and a $10B valuation. He and his co-founder worked closely with Polymarket, one of Alchemy’s largest blockchain customers, to build custom infrastructure that ensured they scaled seamlessly during the 2024 election.\n\n[**Kunal**](https://www.linkedin.com/in/kunal-roy-772a0672/) (CTO) **-** Kunal spent 5+ years as a founding engineer at Alchemy and has comprehensive experience in scalable infrastructure having worked extensively on blockchain integrations across chains, virtual machines, and rollups. Early in his career at Google, he worked on internal B2B payment systems, helping move nine figures monthly across global regions.",
+      "url": "https://www.ycombinator.com/launches/OiX-dome-a-unified-api-for-prediction-markets",
+      "votes": 68,
+      "created_at": "2025-10-29T22:29:23.067Z"
+    }
+  ]
+}

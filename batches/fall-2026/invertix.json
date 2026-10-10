@@ -1,0 +1,100 @@
+{
+  "id": 35355,
+  "name": "Invertix",
+  "slug": "invertix",
+  "former_names": [],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/c2332aa776f979c1ef83d3026fd24932b6576eea.png",
+  "website": "https://www.invertix.ai",
+  "all_locations": "Munich, BY, Germany",
+  "long_description": "The next constraint is not intelligence, it is the energy and operational cost of running it.\r\nWe deploy custom AI models inside critical infrastructure companies that ingest SCADA data, work orders, human interventions,  operational data no public model has seen, grounded in physics-informed neural networks and differentiable simulators. \r\nThis creates a flywheel: more operator data → better process understanding → more efficient operations → cheaper energy → cheaper AI → more deployment → more data. \r\n\r\nhttps://www.youtube.com/watch?v=0uDH6pMn5OE\r\n\r\nAI compute doubles every 2.2 years. Data center demand grows from 415 to 945 TWh by 2030. Without near-zero energy cost, AI remains limited by human infrastructure. We are the layer that runs AI at zero energy cost.\r\nEnergy is a $10 trillion market. The infrastructure layer doesn't exist yet. \r\nWe are building it.",
+  "one_liner": "Energy Superintelligence, AI that operates critical infrastructure",
+  "team_size": 8,
+  "industry": "Industrials",
+  "subindustry": "Industrials -> Energy",
+  "launched_at": 1789740763,
+  "tags": [
+    "Artificial Intelligence",
+    "Solar Power",
+    "Infrastructure"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Fall 2026",
+  "status": "Active",
+  "industries": [
+    "Industrials",
+    "Energy"
+  ],
+  "regions": [
+    "Germany",
+    "Europe"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/invertix",
+  "api": "https://devasheeshg.github.io/yc-api/batches/fall-2026/invertix.json",
+  "year_founded": 2026,
+  "city": "Munich",
+  "country": "DE",
+  "linkedin_url": "",
+  "x_url": "",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/c2332aa776f979c1ef83d3026fd24932b6576eea.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [
+    "https://bookface-images.s3.us-west-2.amazonaws.com/attachments/e09c46b000c5ff25f7042e775e76c8f61773eba1.png"
+  ],
+  "primary_partner": {
+    "name": "David Lieb",
+    "url": "https://www.ycombinator.com/people/david-lieb"
+  },
+  "founders": [
+    {
+      "user_id": 2057026,
+      "full_name": "Joseph Perrotta",
+      "title": "Founder/CEO",
+      "founder_bio": "CEO at Invertix. Ex pro volleyball player, at 18 sold more than $17M of houses.\nPreviously at Cubbit, where they raised $25M. ",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/joseph-perrottaa",
+      "x_url": "https://x.com/josephperrotta_?s=11",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/4c94847dab0f5d6b7a96ecfa63944ac1372b58ca.jpg"
+    },
+    {
+      "user_id": 2234234,
+      "full_name": "Kaan Durmaz",
+      "title": "Founder/CTO",
+      "founder_bio": "Co-founder & CTO at Invertix. Previously worked in computer vision, differential privacy and ai for chemistry. ",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/kdurmaz/",
+      "x_url": "https://x.com/kdurmazx",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/c13c2bd6f00b49f60836de5dce5ee88f099e7656.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [
+    {
+      "title": "Invertix Labs launch",
+      "url": "https://www.youtube.com/watch?v=0uDH6pMn5OE",
+      "date": "Sep 18, 2026"
+    }
+  ],
+  "launches": [
+    {
+      "id": 116072,
+      "title": "Invertix: Energy Superintelligence",
+      "tagline": "Building AI agents to operate the world's energy infrastructure and data centers",
+      "body": "Hey YC, we’re Joseph and Kaan.\n\nWe’re building **Energy Superintelligence: swarms of coordinated AI agents to operate energy infrastructure and data centers, carrying out work across entire organizations.**\n\nEnergy is one of the bottlenecks to scaling intelligence. Our vision is agents coordinating humans and other agents to operate, maintain, and build energy infrastructure worldwide, with applications extending to data centers.\n\n<https://www.youtube.com/watch?v=0uDH6pMn5OE>\n\n**How we got here**\n\nWe reached out to roughly 5,000 people in energy and had over 400 conversations. The same problem kept appearing: people were manually connecting fragmented data, investigating faults, and coordinating work across departments.\n\n**What we’re building**\n\nOur engineers work inside energy companies to map their data, workflows, responsibilities, and operating procedures. We combine that knowledge with an energy-specific ontology, giving specialized agents a shared understanding of the business and procedures they can follow. We see the same opportunity in data center operations: connecting equipment, maintenance procedures, suppliers, and on-site teams so agents can coordinate real work.\n\nThe system we’re building connects four things:\n\n1. **Onology:** equipment, telemetry, documents, contracts, and people in one connected model.\n\n   ![uploaded image](/media/?type=post&id=116072&key=user_uploads/2057026/a14398e1-34a7-4399-a75f-c2ce6eb631c3)\n\n2. **AI Employees:** agents use different tools, correlate evidence across assets, and review each other’s findings. \n\n   ![uploaded image](/media/?type=post&id=116072&key=user_uploads/2057026/70610c1d-cc3e-4c13-a96e-38a1acc6777f)\n\n3. **Physical execution:** agents coordinate interventions with humans, incorporate field observations, and verify production recovery.\n\n   ![uploaded image](/media/?type=post&id=116072&key=user_uploads/2057026/7c425af9-22cb-44ec-9da9-dd79ce445a54)\n\n4. **Sofware builder:** We allow technical and non technical builders to build on top of the platform. creating visualizations, agents, ML models, all using the data of the platform and centered intelligence.\n\n   ![uploaded image](/media/?type=post&id=116072&key=user_uploads/2057026/8abcc1a0-1a6d-44cf-8da9-74dbef23944d)\n\n\nOur ambition is coordinated agents at every critical infrastructure company in the world, helping produce more energy and accelerate intelligence.\n\nWe believe **Energy Superintelligence is a necessary step toward ASI.**\n\n**The founding team**\n\n_17th of December 2026 - YC Mountain View_\n\n![uploaded image](/media/?type=post&id=116072&key=user_uploads/2057026/a7dc00e4-7377-4136-8b3e-a57e081e523b)\n\n* **Nicole:** our first hire; black-hole physics, Max Planck research with Nobel laureates, and surgical robotics at Harvard Med.\n* **Menelaos:** led TUM ai E-Lab; Siemens and TUM ML research.\n* **Nicolas:** previously built and raised for his deeptech startup; leads GTM with Joseph.\n* **Simon:** EX JetBrains, leads product and agent systems.\n* **Pietro:** Leads FDE, Early hire at a startup that raised $30M.\n* **Vishisht:** Cambridge &amp; UPenn Research; first hire at an a16z-backed startup.\n\nWe’re deployed Autonomously across **\\~2 GW**, signing two of the largest utilities in the world, with interest from **30+ energy companies**. And are woking with partners that have over **50 GW**\n\n**Our ask:** introductions to operations leaders at utilities, energy asset owners, O&amp;M companies, and data center operators, especially in the US.",
+      "url": "https://www.ycombinator.com/launches/UC8-invertix-energy-superintelligence",
+      "votes": 6,
+      "created_at": "2026-09-28T07:00:00.116Z"
+    }
+  ]
+}

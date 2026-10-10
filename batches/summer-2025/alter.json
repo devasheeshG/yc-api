@@ -1,0 +1,96 @@
+{
+  "id": 30651,
+  "name": "Alter",
+  "slug": "alter",
+  "former_names": [
+    "Alter AI"
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/3a30946452aaca1a7c8b4b8fefafd9807f194243.png",
+  "website": "https://alterauth.com",
+  "all_locations": "New York City, NY, USA",
+  "long_description": "Alter is a zero-trust identity and access control platform purpose-built for AI agents. It wraps every tool call in strong authentication, fine-grained authorization, and real-time guardrails, so agents can move fast without breaking things.\r\n\r\nEach request is verified at the parameter level, authorized against granular policies, executed with least-privilege access, and fully audited in real time. Unsafe actions, whether it’s a rogue DROP TABLE or a payment above policy limits, are blocked before they touch production. Behind the scenes, Alter manages credentials, issuing ephemeral, scope-narrowed access for every interaction, then rotating or expiring it in seconds. The result: no long-lived secrets, no blind spots, and no surprises in audit.\r\n\r\nWith Alter, teams can move fast on AI agent initiatives while staying fully compliant with SOC 2, HIPAA, GDPR, and internal security standards. A CISO-ready dashboard delivers real-time visibility, detailed audit logs, and compliance-ready controls, removing silos, eliminating excessive permissions, and providing complete oversight of every agent workflow.",
+  "one_liner": "Privileged Access Management for AI Agents",
+  "team_size": 2,
+  "industry": "B2B",
+  "subindustry": "B2B -> Security",
+  "launched_at": 1752476002,
+  "tags": [
+    "AIOps",
+    "Developer Tools",
+    "DevSecOps",
+    "Security",
+    "AI"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Summer 2025",
+  "status": "Active",
+  "industries": [
+    "B2B",
+    "Security"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/alter",
+  "api": "https://devasheeshg.github.io/yc-api/batches/summer-2025/alter.json",
+  "year_founded": 2025,
+  "city": "New York City",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/alterai-dev",
+  "x_url": "https://x.com/alter_ai_labs",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/3a30946452aaca1a7c8b4b8fefafd9807f194243.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Jon Xu",
+    "url": "https://www.ycombinator.com/people/jon-xu"
+  },
+  "founders": [
+    {
+      "user_id": 736424,
+      "full_name": "Srikar Dandamuraju",
+      "title": "Founder/CEO",
+      "founder_bio": "Co-Founder & CEO of Alter (YC S25), a zero-trust identity and access control platform for AI agents. Former Platform Lead at Goldman Sachs, where I scaled GSAM’s post-trade infrastructure from single to multi-cluster and helped launch the GM Card. Before that, software engineer at Addepar and Clear Street.\n",
+      "is_active": true,
+      "linkedin_url": "https://linkedin.com/in/srikar-d-473390136",
+      "x_url": "https://x.com/realsreeks",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/cab46acc391807e07306cfd19067daaf2b55c346.jpg"
+    },
+    {
+      "user_id": 1363069,
+      "full_name": "Kevan Dodhia",
+      "title": "Founder/CTO",
+      "founder_bio": "Co-founder and CTO of Alter (YC S25), a zero-trust identity and access control platform for AI agents. Previously technical co-founder of Compute.ai, where we built a compute engine 5x faster than EMR Spark and sold into highly regulated enterprises like LSEG. Compute.ai was acquired by Terizza in 2025.",
+      "is_active": true,
+      "linkedin_url": "https://linkedin.com/in/kevan-dodhia-760183129",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/ab81ff957341010eea7e1ee52d81382311c83b1c.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 93044,
+      "title": "Alter –  Identity and Access Control Platform To Secure Agents",
+      "tagline": "Build secure, compliant agents without the fear of breaking production",
+      "body": "### **TL;DR**\n\nAlter sits in the middle of every AI agent interaction, verifying identity and applying fine-grained RBAC & ABAC to check every parameter against policy. It instantly rejects dangerous actions and provides clear audit trails logging every request/response and decision.\\\n\\\nInterested? Learn more and request beta access at [alterai.dev](http://alterai.dev)\n\nDon’t want to read? Here is a video explaining what we do in a nutshell\n\n[Identity And Access Control Platform To Secure Agents | Alter (YC S25)](https://www.youtube.com/watch?v=UX0ACmMXpMg)\n\n**The Problem**\n\n**Dangerous:** Long-lived credentials and over-scoped service accounts mean a single leak can give an agent the keys to production letting it run destructive commands, exfiltrate sensitive data, or trigger costly transactions.\\\n**Opaque:** Scattered logs and siloed security make it impossible to trace “which agent did what, with which parameters” when something goes wrong, leaving teams blind in audits or incident response.\\\n**Slow:** Security reviews drag on for weeks because least-privilege and policy checks are hard to implement at scale, delaying projects and eroding velocity.\\\n**Overexposed:** Agents often get blanket root access, with no guardrails to stop prompt-injection or malicious payload swaps, so one bad input can become a catastrophic action.\\\n**The result:** enterprises face agents that _can_ and _do_ take unsafe actions in production, forcing teams to choose between unacceptable risk or shelving AI initiatives entirely.\\\n**\\\nOur Solution**\n\nAlter is the safest way to run AI agents in production without giving them blanket credentials or risking compliance breaches. From one central control layer, organizations can:\n\n* Host or connect to all their tools. We support MCP and Native tools (A2A coming soon)\n* Approve or deny any agent request in real time, with identity verification baked into every call.\n* Apply parameter-level RBAC & ABAC so dangerous actions like drop table commands in prod, during a freeze never reach production.\n* Instantly grant seconds-lived, scope-narrowed tokens so agents get only the access they need, only for that task.\n* Remove the need for long-lived API keys entirely, eliminating one of the biggest security liabilities.\n* See exactly what every agent did, when, and with what parameters, all in one CISO-ready dashboard.\n* Pass SOC 2, HIPAA, and GDPR audits without slowing down because compliance controls run automatically in the background.\n* Scale to any number of agents and tools without creating security silos or over-permissive access.\n\n### **The Team**\n\nWe are Srikar and Kevan.\\\n\\\nWe previously built enterprise-grade infrastructure at ComputeAI and Goldman Sachs, powering mission-critical systems for the London Stock Exchange and the Apple Card launch. Now we’re using that experience to make AI agents safe for production by giving them only the access they need and only for as long as they need it.\\\n**\\\nOur Ask**\n\nWe’re looking to connect with:\n\n* Engineering and security leaders running AI agents in production\n* Enterprises in regulated industries (finance, healthcare, government) with strict compliance requirements\n* Startups building AI-first products that need zero-trust access controls\n* Infosec teams looking to eliminate long-lived credentials and enforce least-privilege by default\n\nAs a bonus, we have also partnered with former OpenAI cybersecurity experts to provide you with ongoing red teaming, catching prompt-injection, data exfiltration, and other exploits before attackers can.\n\nIf you or someone you know is interested, please reach out to us at [**founders@alterai.dev**](mailto:founders@alterai.dev) or book a time to chat.",
+      "url": "https://www.ycombinator.com/launches/OCi-alter-identity-and-access-control-platform-to-secure-agents",
+      "votes": 30,
+      "created_at": "2025-08-15T19:42:34.047Z"
+    }
+  ]
+}

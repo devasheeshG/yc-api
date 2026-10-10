@@ -1,0 +1,96 @@
+{
+  "id": 29504,
+  "name": "Quivr",
+  "slug": "quivr",
+  "former_names": [],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/55e2d5d59eda45392b5f80742e4d67462860257e.png",
+  "website": "https://www.quivr.app/",
+  "all_locations": "Paris, Île-de-France, France",
+  "long_description": "Quivr is an AI-powered customer support tool that helps teams draft responses, automate replies, and resolve tickets directly inside platforms like Zendesk or other helpdesk solutions.\r\n\r\nThe platform augments agent productivity by reducing repetitive work and accelerating resolution time.",
+  "one_liner": "AI-powered auto-resolutions and reply suggestions for customer…",
+  "team_size": 5,
+  "industry": "B2B",
+  "subindustry": "B2B -> Productivity",
+  "launched_at": 1706766974,
+  "tags": [],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Winter 2024",
+  "status": "Active",
+  "industries": [
+    "B2B",
+    "Productivity"
+  ],
+  "regions": [
+    "France",
+    "Europe",
+    "Remote",
+    "Partly Remote"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/quivr",
+  "api": "https://devasheeshg.github.io/yc-api/batches/winter-2024/quivr.json",
+  "year_founded": 2024,
+  "city": "Paris",
+  "country": "FR",
+  "linkedin_url": "https://www.linkedin.com/company/getquivr/",
+  "x_url": "https://twitter.com/quivr_brain",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": "https://github.com/quivrhq/quivr",
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/55e2d5d59eda45392b5f80742e4d67462860257e.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Nicolas Dessaigne",
+    "url": "https://www.ycombinator.com/people/nicolas-dessaigne"
+  },
+  "founders": [
+    {
+      "user_id": 1620232,
+      "full_name": "Stan Girard",
+      "title": "Founder/CTO",
+      "founder_bio": "Co-founder @Quivr ",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/stan-girard/",
+      "x_url": "https://twitter.com/_stangirard",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/2d81a743794e40879c9d6a387e8b2cdea96dec72.jpg"
+    },
+    {
+      "user_id": 1649681,
+      "full_name": "Antoine Dewez",
+      "title": "Founder/CPO",
+      "founder_bio": "Co-founder @Quivr. ",
+      "is_active": true,
+      "linkedin_url": "https://linkedin.com/in/antoine-dewez-367774157",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/dfb1ee4176bbd4b6ad1d1caaba6db84d692b3b94.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [
+    {
+      "title": "Quivr launch 5,000 Vector databases on Supabase.",
+      "url": "https://supabase.com/customers/quivr",
+      "date": "Sep 05, 2023"
+    }
+  ],
+  "launches": [
+    {
+      "id": 78445,
+      "title": "🧠 Quivr: Open source, chat-powered second brain with 28k+ ⭐",
+      "tagline": "We help enterprises build chat assistants connected to their data.",
+      "body": "Hey guys! [Stan Girard](https://linkedin.com/in/stanislas-girard), [Brian Laleye](https://linkedin.com/in/brian-laleye-31433386), and [Antoine Dewez](https://linkedin.com/in/antoine-dewez-367774157) here — best friends for 20+ years, GenAI geeks, and co-founders building [Quivr](https://www.quivr.app/)!\n\n**TL;DR:** **Quivr** is an **open source RAG framework with 28k+ Github 🌟**, connected to company data. For example, companies use us to deploy an HR chatbot for their employees.\n\n<https://www.youtube.com/watch?v=jvNYWiXvkds>\n\n### **❌ Problem: Searching in company’s information takes 20% of employee’s time**\n\nEmployees tend to find themselves in at least one of these situations in a week:\n\n* Need urgent information from an unavailable colleague.\n* Are always asked for the same information\n* Don’t know where to search the information they need\n\n❗ **Worse, they don’t even know if the information exists in the company**\n\n### **And decisions proceed despite bad information**\n\n**💢 Impacts:**\n\n* Decisions can be made without having the relevant information\n* Simple tasks are executed asynchronously while waiting for the answer\n* Information doesn’t travel across teams\n\n### **✅ Solution: Quivr is an AI open-source platform where enterprises connect their tools, docs, APIs, and databases to chat with them.**\n\nEffortlessly retrieve any available information and let Quivr generate new usable content.\n\nFor example, Quivr enables them to:\n\n* Automatically write an email without making an effort to provide context.\n* Extract actionable information from a huge database.\n* Summarise an endless document to get its essence.\n\n### **🧠 How it works:**\n\nThe app can be deployed to the [**cloud**](https://quivr.app/) or [**self-hosted**](https://github.com/stangirard/quivr) on existing infrastructure to answer any data privacy concerns.\n\n* Create Brains that connect to:\n  * APIs\n  * Databases\n  * Documents\n  * Tools\n* Ask a question to:\n  * A specific Brain\n  * All your Brains and let Quivr find the best one\n* Chat with your answer\n\n### **🔨 The Founding Team**\n\nWe’re 3 French guys (with a good accent) who have been friends, coworkers, founders, and open-source enthusiasts! Before starting Quivr, **Brian** co-founded two companies with one exit & grew in less than a year a new division to 1M in revenue in his previous company. **Antoine** graduated from La Sorbonne with a focus on history and political science before transitioning into engineering. He was the first front-end developer at a company that saw a 15-fold increase in GMV over two years. **Stan** is a DevOps Expert & Engineering Manager turned Head of GenAI in a web dev agency with $100M of turnover while leading the GenAI Thought Leadership of the group.\n\n![](https://bookface.ycombinator.com/media/?type=post&id=78445&key=user_uploads/1620232/b8cedb2f-7b07-4e8c-9dd3-a49afaa0f451)\n\n### **🙏 Ask**\n\nWe’d love to be introduced to a friend or colleague who works in a company of 100+ people and has issues finding information.",
+      "url": "https://www.ycombinator.com/launches/KPF-quivr-open-source-chat-powered-second-brain-with-28k",
+      "votes": 57,
+      "created_at": "2024-02-15T16:08:12.839Z"
+    }
+  ]
+}

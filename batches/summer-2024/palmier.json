@@ -1,0 +1,105 @@
+{
+  "id": 29786,
+  "name": "Palmier",
+  "slug": "palmier",
+  "former_names": [
+    "ProteusAI",
+    "Palmier",
+    "Sado"
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/0186f2775062552b28ed6bdc42f5d5e89590738e.png",
+  "website": "https://www.palmier.io",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "Palmier Pro is a video editor built for AI, where Claude and Codex can edit your timeline directly: trimming, reordering, and generating footage. We used it to make 15+ cinematic AI launch videos for YC companies and it's now open-source and free to download at palmier.io.",
+  "one_liner": "Video editor built for AI",
+  "team_size": 2,
+  "industry": "Consumer",
+  "subindustry": "Consumer -> Content",
+  "launched_at": 1724450208,
+  "tags": [
+    "SaaS",
+    "Consumer",
+    "Video",
+    "AI"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Summer 2024",
+  "status": "Active",
+  "industries": [
+    "Consumer",
+    "Content"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/palmier",
+  "api": "https://devasheeshg.github.io/yc-api/batches/summer-2024/palmier.json",
+  "year_founded": 2024,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/palmier-io",
+  "x_url": "",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": "https://github.com/palmier-io/palmier-pro",
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/0186f2775062552b28ed6bdc42f5d5e89590738e.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [
+    "https://bookface-images.s3.us-west-2.amazonaws.com/attachments/ab56a1648caef11eac4909233133f022b09e4131.png"
+  ],
+  "primary_partner": null,
+  "founders": [
+    {
+      "user_id": 1645879,
+      "full_name": "Marcos Rico Peng",
+      "title": "Founder/CEO",
+      "founder_bio": "After graduating Berkeley in three years, I worked for a year and a half as an infra engineer at LinkedIn. Now co-founder and CEO of Palmier, building something people want! Documented my journey as a professional swimmer training to make the Paris Olympics on YouTube [155k+].",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/marcosricopeng/",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/4961a13a98fa80328cc405c4fcc17e7a4848259a.jpg"
+    },
+    {
+      "user_id": 1960944,
+      "full_name": "Harrison Tin",
+      "title": "Founder/CTO",
+      "founder_bio": "cofounder of palmier.\n\nprev microsoft, studied eecs at uc berkeley.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/harrison-tin-a260321b3/",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/425a469fe6f38aa6954d42c3622d02b857fcc04f.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 103383,
+      "title": "Palmier Pro — an open source video editor your agents can operate",
+      "tagline": "The fastest way to generate and edit videos using AI",
+      "body": "Hey everyone, we're Marcos and Harrison, co-founders of Palmier (YC S24).\\\n\\\n**TL;DR**\\\nPalmier Pro is a video editor built for AI, where Claude and Codex can edit your timeline directly: trimming, reordering, and generating footage. We used it to make 15+ cinematic AI launch videos for YC companies and it's now open-source and free to download at [palmier.io](http://palmier.io).\\\n\\\n**The Problem**\\\nMaking AI videos today means bouncing between tools constantly.\\\nGeneration.\n\n* You generate a clip in Runway or Higgsfield, import it into Premiere, realize one section doesn't work, go back to the generation tool, regenerate, reimport. That loop repeats dozens of times per video.\n\nIteration.\n\n* Because generation and editing live in separate apps, your workspace is a mess and it becomes extremely hard to keep track of good takes, bad takes, reference images, and reference videos.\n\nRepetition.\n\n* You still spend hours sorting through footage, finding the right takes, and manually adding keyframes, effects, and captions. It eats into your productivity and leaves you with less time for the actual creative work.\n\n\\\n**Our Solution**\\\nWe built a full-fledged professional video editor with two things in mind.\n\nWe made AI video a primitive, not an add-on. For each clip, we track the prompt, model, and references so you can iterate directly inside the timeline instead of bouncing between apps.\n\nWe made everything operable by AI. By using our built-in agent, or connecting to yours via MCP, AI agents can help:\n\n* Save hours of work by automating the grunt work in editing: finding key moments in long videos, captions, file organization, and more.\n* Create first draft edits from your footage. The tools let AI understand your videos and draft a first cut directly in the timeline.\n* Use AI generation models to create footage, b-roll, sound effects, voiceovers, and music and drop it directly into your project.\n\n\\\n<https://youtu.be/yPm224dLmVI>\n\n\\\n**Asks**\n\nDownload Palmier Pro at [palmier.io](http://palmier.io) — it's free and open source.\n\nFollow us on [X](https://x.com/) and [LinkedIn](https://linkedin.com/).\n\nIf you work a lot with AI video or are looking to explore it, we would love to chat. You can reach us at [founders@palmier.io](mailto:founders@palmier.io).\n\n![uploaded image](/media/?type=post&id=103383&key=user_uploads/1645879/a49f9c7d-0c0f-4dbf-a1ee-4b35b425f612)\n\n",
+      "url": "https://www.ycombinator.com/launches/QtT-palmier-pro-an-open-source-video-editor-your-agents-can-operate",
+      "votes": 18,
+      "created_at": "2026-06-16T19:59:43.822Z"
+    },
+    {
+      "id": 83365,
+      "title": "Palmier - AI that understands any codebase",
+      "tagline": "Be a 10x developer with Palmier",
+      "body": "![uploaded image](/media/?type=post&id=83365&key=user_uploads/1645879/276b05df-577c-4821-b64d-a8a5e6ca80ef)\n\n**☕ tl;dr**: [Palmier](https://www.palmier.io/) is an **AI** tool that **understands any codebase**.\n\n* **Automates code reviews**, **bug detection**, and **code optimization** and implements them for you.\n* Context-aware **code explanations** **and** **natural language** code **search**.\n\nBy the time you finish reading this launch, you could’ve setup **Palmier** already! Reach out to [founders@palmier.io](mailto:founders@palmier.io) and/or sign up to the waitlist [here](https://docs.google.com/forms/d/e/1FAIpQLSdFMLX009lTuWnseUHcwFWLq04-BQP-sW9Ytl3I5UBz-iQC5w/viewform) to get started.\n\n# **🔒 Problem**\n\nDevelopers spend only about 30% of their time actually building new features, with the rest of their day taken up by tedious but necessary tasks like understanding code, fixing bugs, and reviewing other people's code. And this only gets worse as the codebases and teams get larger. Furthermore, context switches get more frequent, and general productivity starts to decline.\n\n# **🔑 Solution**\n\nPalmier tackles this by having an individually trained AI model for each unique codebase. This ensures the most accurate and precise understanding of the code.\n\nPalmier lives in your GitHub repository, and thoroughly checks every PR request:\n\n* Palmier automatically creates a concise yet precise description of the changes being made, trains on every past PR made, and opens issues for the most accurate context. No more guessing games trying to find why a change was implemented.\n\n  ![uploaded image](/media/?type=post&id=83365&key=user_uploads/1645879/576e5722-9289-4f48-b894-a8e20662c982)\n\n* Palmier scans your changes and suggests improvements: this can be as simple as variable name changes to more complex changes, such as performance optimizations. With a couple of clicks, you can implement these suggestions and commit them without leaving GitHub.\n\n  ![uploaded image](/media/?type=post&id=83365&key=user_uploads/1645879/4f35aa2d-445f-4ce4-9e79-e2c260aa64db)\n\n* Palmier will scan CI/CD issues and suggest fixes to failed tests that are related to the code changes (coming soon).\n\nWith Palmier chat, you can onboard any codebase 10x quicker. Whether it’s understanding what certain code does, how it interacts with other components, or where in your code a certain feature is implemented, Palmier gives you the most accurate answers and avoids hallucinating by always citing its sources.\n\n![uploaded image](/media/?type=post&id=83365&key=user_uploads/1645879/6536e3cb-8477-47b8-85aa-0bd178dd01f4)\n\n# \n\n# **🚀 The Team**\n\n![uploaded image](/media/?type=post&id=83365&key=user_uploads/1645879/5ce7d590-a9d3-464c-81a3-53f7e30fb4a8)\n\n[Marcos](https://www.linkedin.com/in/marcosrico) CEO (left), [Harrison](https://www.linkedin.com/in/harrison-tin-a260321b3/) CTO (right)\n\nThe Palmier team consists of Marcos and Harrison, both graduates of UC Berkeley with degrees in Electrical Engineering and Computer Science. With experience working at big tech like LinkedIn and Microsoft, we started Palmier to tackle the productivity problems we personally faced while working there: large code review cycles, many review iterations, and onboarding never-ending codebases. We are both extremely passionate about improving software developers’ lives and are on a mission to make every developer do what we love doing most - building! Feel free to reach out to any of us at any time! We'd love to chat.\n\n# **🙏 Asks**\n\n* Try out Palmier! You can [schedule a call](https://calendar.app.google/u5pUgv7nkqBLHMMw9) with the founders, reach out to us at [founders@palmier.io](mailto:founders@palmier.io) or sign up for the waitlist [here.](https://docs.google.com/forms/d/e/1FAIpQLSdFMLX009lTuWnseUHcwFWLq04-BQP-sW9Ytl3I5UBz-iQC5w/viewform) We’d love to talk to you and how we can make this customized for your use case!\n* If you know any engineers in large development teams who work with large codebases and push and review PRs often, please connect us with them!\n  * Copy & paste blurb: A YC company named Palmier has developed an AI code expert that will automatically review your PRs. It’ll save tons of time for you. You can grab a time [here](https://calendar.app.google/u5pUgv7nkqBLHMMw9) for a demo from the founders.\n\nApproved open-source repositories can install for free! Just reach out to us [founders@palmier.io](mailto:founders@palmier.io)\n\n![uploaded image](/media/?type=post&id=83365&key=user_uploads/1645879/7e357e4c-4b82-498d-b6d5-b046a8693a37)\n\n",
+      "url": "https://www.ycombinator.com/launches/Lgb-palmier-ai-that-understands-any-codebase",
+      "votes": 471,
+      "created_at": "2024-08-24T17:29:02.951Z"
+    }
+  ]
+}

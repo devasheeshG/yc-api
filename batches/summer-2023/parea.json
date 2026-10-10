@@ -1,0 +1,111 @@
+{
+  "id": 28846,
+  "name": "Parea",
+  "slug": "parea",
+  "former_names": [
+    "OptimusPrompt",
+    "Parea AI",
+    "Parea",
+    "Parea AI"
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/32972e7b6074f606373a477c496dcde4a5e81219.png",
+  "website": "https://www.parea.ai",
+  "all_locations": "New York City, NY, USA",
+  "long_description": "Parea AI is the essential developer platform for debugging and monitoring every stage of LLM application development. We provide testing, evaluation, and monitoring in one unified platform. These capabilities help developers get visibility into LLM responses, quickly test and optimize prompts, and ensure customers get the best user experience.",
+  "one_liner": "Test, evaluate & observe your LLM applications",
+  "team_size": 2,
+  "industry": "B2B",
+  "subindustry": "B2B -> Operations",
+  "launched_at": 1685551349,
+  "tags": [
+    "Developer Tools",
+    "Generative AI",
+    "SaaS",
+    "DevOps",
+    "Monitoring"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Summer 2023",
+  "status": "Active",
+  "industries": [
+    "B2B",
+    "Operations"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/parea",
+  "api": "https://devasheeshg.github.io/yc-api/batches/summer-2023/parea.json",
+  "year_founded": 2023,
+  "city": "New York City",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/parea-ai",
+  "x_url": "https://twitter.com/PareaAI",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": "https://github.com/parea-ai",
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/32972e7b6074f606373a477c496dcde4a5e81219.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": null,
+  "founders": [
+    {
+      "user_id": 699950,
+      "full_name": "Joel Alexander",
+      "title": "Founder",
+      "founder_bio": "Senior Software Engineer at Lyft.\nJ.P. Morgan TMT Investment Banking.\nBA @ Columbia University.\nMSc @ New York University",
+      "is_active": true,
+      "linkedin_url": "https://linkedin.com/in/ajoeljr",
+      "x_url": "https://twitter.com/joel_a_wilde",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/7fdaebd022c79889e713b8b3d9e023ba6a0e1b65.jpg"
+    },
+    {
+      "user_id": 501039,
+      "full_name": "Joschka Braun",
+      "title": "Founder",
+      "founder_bio": "Published my first paper in the highest-ranked number theory journal at age 17. Continued to pursue math until my M.Sc. from NYU as a Fulbright scholar. Noticed AI has more real world applications than math and started researching applications of deep learning to medical imaging at Covera Health. Built semantic search systems and automatic code generation software at Jina AI.\n\nhttps://joschkabraun.com",
+      "is_active": true,
+      "linkedin_url": "https://linkedin.com/in/joschkabraun",
+      "x_url": "https://twitter.com/joschkabraun",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/9a835cbd9621cf7321af15246517e2417f3c0063.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [
+    {
+      "title": "Y Combinator Demo Day 2023: Our favorites Day 2 | TechCrunch",
+      "url": "https://techcrunch.com/2023/09/07/ycombinator-demo-day-two-summer-2023/",
+      "date": "Sep 07, 2023"
+    }
+  ],
+  "launches": [
+    {
+      "id": 82145,
+      "title": "Parea AI - Aligned & reliable LLM evaluations",
+      "tagline": "Automatically create LLM-based evals aligned with human judgement",
+      "body": "**tl;dr:** [Parea AI](https://www.parea.ai/) automates the creation of evals for your AI products. We achieve this by bootstrapping an evaluation function with human annotations. Allowing you to automagically turn “vibe checks” into scalable and reliable evaluations aligned with human judgment.\n\n# **😩 The Problem**\n\n![uploaded image](/media/?type=post&id=82145&key=user_uploads/501039/78024ed1-9aa2-4be8-a022-359d82b9ac59)\n\nEvaluating free-form text is often only possible by humans reviewing outputs or using LLMs to evaluate them. The former is laborious, slow, and expensive, while the latter often fails to evaluate the outputs correctly. For LLM evaluations to work properly, one needs to prompt engineer them; i.e., they require their own optimization process.\n\n# **🚀 The Solution**\n\n![uploaded image](/media/?type=post&id=82145&key=user_uploads/501039/b7c1f4c7-b654-40e6-9e1d-84ab93f4ad5f)\n\nThe best [LLM evals](https://joschkabraun.com) are adapted to your particular business use case & data. We've developed a method for uploading human annotations (via CSV or using our [Annotation Queue](https://docs.parea.ai/manual-review/queue)) and bootstrapping an evaluation to mimic the annotations. To create a human-aligned eval, you need as few as 20 sample annotations. Using your new LLM eval is as easy as copying the code into your codebase or using it directly via Parea's API. Check out [our docs](https://docs.parea.ai/manual-review/bootstrapped-eval) to see the complete workflow.\n\n# **🙏 Our Ask**\n\n* **Get started** on [**our free tier,**](https://app.parea.ai/sign-up) or [**book a chat**](https://calendly.com/parea-ai/chat) to discuss how we can help you evaluate your AI app!\n* **Support our** [**launch** **tweet**](https://x.com/JoschkaBraun/status/1812884216444510233) and follow us on [**LinkedIn**](https://www.linkedin.com/company/parea-ai/) and [**Twitter**](https://x.com/PareaAI)\n* **Share Parea** **AI** with anyone you know who is facing challenges [evaluating AI & LLM systems](https://joschkabraun.com).",
+      "url": "https://www.ycombinator.com/launches/LMv-parea-ai-aligned-reliable-llm-evaluations",
+      "votes": 8,
+      "created_at": "2024-07-15T16:47:45.697Z"
+    },
+    {
+      "id": 73431,
+      "title": "Parea AI – DataDog for LLM apps",
+      "tagline": "Parea AI helps developers ideate, evaluate, and manage LLM-powered applications to consistently deliver quality user experiences.",
+      "body": "**TL;DR:** [**Parea AI**](https://www.parea.ai/?utm_source=yc&utm_medium=post&utm_campaign=launch_yc&utm_content=tldr) is the essential developer platform for debugging and monitoring every stage of LLM application development. We provide debugging, testing, evaluation, and monitoring in one unified platform. These capabilities help developers get visibility into LLM responses, quickly test and optimize prompts, and ensure customers get the best user experience.\n\n![uploaded image](/media/?type=post&id=73431&key=user_uploads/699950/7cd2fa60-436e-46c0-b266-b88f3fd66b8c)\n\n### 🤔 **The Problem**\n\nLLMs hold infinite promise, but translating this potential into practical applications can be complex. Crafting precise prompts or building effective chains, tracking their performance, and optimizing them currently involves a disparate array of tools and a steep learning curve, leading to decreased productivity and increased time to market. This trial-and-error process can become taxing; in the words of one of our customers, **\"reading 1000s of words from ChatGPT outputs a day takes the fun out of building**.**\"**\n\n### 💡 **The Solution**\n\nParea was conceived to streamline this journey by simplifying the entire process of creating and managing LLM-powered systems. Our intuitive UI enables developers to **debug and test** their **prompts/chains**, offering deep visibility into the best-performing changes that dramatically improve LLM responses. The built-in Lab module lets you **compare various prompts, models, and parameter configurations side by side**, transforming rigorous testing into an insightful and fun task. Post-deployment, our robust **API ensures you have comprehensive analytics**, performance insights, and a complete tracking system for optimizing your application to excel in delivering user experiences.\n\n### 🚀 **Who is it for:**\n\nParea is for developers, AI enthusiasts, and organizations with a vision to leverage the power of LLMs. Whether you're a small team working on an LLM-driven product or a large company developing complex LLM-powered applications, **Parea simplifies the process and accelerates your time-to-productivity**.\n\n### 🎉 **Meet the Parea team**\n\nJoel and Joschka met in New York City and bonded over philosophy, learning, and of course, start-ups!\n\nJoel is a true Renaissance man. His quest has led him from a published microbiology researcher to International Politics at the Council of Foreign Relations, to learning Russian in Moscow, working on &gt;$100B of M&A deals at J.P Morgan, and most recently honing his self-taught coding skills as a SWE at Lyft. With Parea AI, he's committed to enhancing the productivity of every AI builder.\n\n[Joschka](https://joschkabraun.com) is our Wunderkind. He published a paper in the highest-ranked Journal for Number Theory at age 17, graduated college at 19, took a gap year to do Kung Fu in China, then completed his Master's at NYU as a Fulbright scholar. Joschka spent the last 3 years on the AI/ML frontline doing computer vision at Covera Health, and semantic search & LLMs at Jina. Parea was born to tackle the issues he'd faced in debugging and building LLM applications like DevGPT.\n\n![uploaded image](/media/?type=post&id=73431&key=user_uploads/699950/4bdf0da2-6bfd-4139-8f0c-ea7e826fd062)\n\n### ❤️ **Our Ask**\n\nWe invite you to explore [Parea’s](https://www.parea.ai?utm_source=yc&utm_medium=post&utm_campaign=launch_yc2&utm_content=cta) capabilities for your LLM solution and join our welcoming community. Follow us on [Twitter](https://twitter.com/PareaAI) and on [LinkedIn](https://www.linkedin.com/company/parea-ai/).\n\nIf you have any questions or would like a personalized onboarding session for your team, write us at [founders@parea.ai](mailto:founders@parea.ai)",
+      "url": "https://www.ycombinator.com/launches/J6N-parea-ai-datadog-for-llm-apps",
+      "votes": 128,
+      "created_at": "2023-07-26T03:34:53.972Z"
+    }
+  ]
+}

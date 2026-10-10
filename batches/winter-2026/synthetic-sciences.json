@@ -1,0 +1,96 @@
+{
+  "id": 31181,
+  "name": "Synthetic Sciences",
+  "slug": "synthetic-sciences",
+  "former_names": [
+    "InkVell"
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/d12b5cddde967f28e71a5bdfa173bbd8e7a0b10c.png",
+  "website": "https://syntheticsciences.ai/",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "Synthetic Sciences is a research lab building infrastructure for scientific superintelligence. Empirical science is bottlenecked by verification that is slow, expensive, and imperfect. We work on tooling, evals, training environments, algorithms, and models that make autonomous science possible.",
+  "one_liner": "Infrastructure for Autonomous Science",
+  "team_size": 2,
+  "industry": "B2B",
+  "subindustry": "B2B -> Engineering, Product and Design",
+  "launched_at": 1770489645,
+  "tags": [],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Winter 2026",
+  "status": "Active",
+  "industries": [
+    "B2B",
+    "Engineering, Product and Design"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/synthetic-sciences",
+  "api": "https://devasheeshg.github.io/yc-api/batches/winter-2026/synthetic-sciences.json",
+  "year_founded": 2025,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/synsci",
+  "x_url": "https://x.com/SynScience",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": "https://github.com/synthetic-sciences",
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/d12b5cddde967f28e71a5bdfa173bbd8e7a0b10c.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Gustaf Alstromer",
+    "url": "https://www.ycombinator.com/people/gustaf-alstromer"
+  },
+  "founders": [
+    {
+      "user_id": 2581686,
+      "full_name": "Aayam Bansal",
+      "title": "Founder/CEO",
+      "founder_bio": "Built COVID-19 helpline infrastructure for Indian govt serving 50k+ people daily\nPatented (US, SG, IND) and Sold Orthopaedic AISock for 5-figures at 17\nPublished at NeurIPS, ICML, ICLR, AAAI, CVPR & other A* conferences\n\nPrev: aisock (Acq.), Z-Fellows, Emergent Ventures",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/aayambansal/",
+      "x_url": "https://x.com/aayambansal",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/a8d0df5f64e75745de4e4b1b943ddbf7f0459d29.jpg"
+    },
+    {
+      "user_id": 1441373,
+      "full_name": "Ishaan Gangwani",
+      "title": "Founder/CTO",
+      "founder_bio": "International Olympiad in Artificial Intelligence 2025 (HM).\nUSACO Platinum division (top 0.01% of competitive programmers globally).\n\nPrev: IOAI '25; Z-Fellows; Emergent Ventures",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/ishaan-gangwani-3a7792241/",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/e1be13bfebc500d9569596d86efa347dd69024d0.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [
+    {
+      "title": "Indian teens among youngest founders to get accepted into Y Combinator W26 - The Economic Times",
+      "url": "https://economictimes.indiatimes.com/ai/ai-insights/indian-teens-among-youngest-founders-to-get-accepted-into-y-combinator-w26/articleshow/125788177.cms?from=mdr",
+      "date": "Dec 08, 2025"
+    }
+  ],
+  "launches": [
+    {
+      "id": 98217,
+      "title": "Synthetic Sciences – AI Co-Scientists for End-to-End Scientific Research",
+      "tagline": "Cursor for Scientific Research.",
+      "body": "Hi! We’re Aayam and Ishaan, co-founders of [Synthetic Sciences](https://syntheticsciences.ai/).\n\n# **TL;DR**\n\nSynthetic Sciences is a platform where scientists delegate complex research tasks to AI co-scientists that handle the full research loop: **literature → hypotheses → experiments → results → paper drafts**.\n\nOver the last year, AI has been showing some traction in math research. Math gets the coverage because it’s easy to measure. But there is a non-trivial unlock to be made in accelerating the rest of science – ML research, computational biology, proteomics - where the tooling hasn't caught up yet.\n\n**Launch Video:** <https://www.youtube.com/watch?v=uHOmeCnV1HU>\n\n# **The Problem**\n\nScientific research is a marathon of iterations. Read hundreds of papers. Form hypotheses. Design and run experiments. Wait. Analyze. Write. Revise. Submit. Each cycle compounds.\n\nThe existing tooling doesn't help. AI “literature review” tools surface papers but don't carry context forward into your code or experiments. Jupyter, W&B & others track runs but are siloed from your literature and writing. Writing happens in isolation, even though it could be steering decisions earlier.\n\nResearch is a long chain of context-dependent steps, and our tools treat each one like it’s isolated. Every iteration forces you to rebuild state: what you read, what you tried, why you chose this method, what failed, what changed.\n\nA single research question becomes months of fragmented work scattered across tools, tabs, and time zones. And it's all on you. Every step requires your attention, your context, your time.\n\nYou can't parallelize yourself. If we could accelerate scientific research the way we’ve accelerated software engineering in the last 24 months we are guaranteed to see science breakthroughs that will massively benefit humanity.\n\n# **Our Solution**\n\nPoint synsci at a research question, a repo, or a dataset. Our AI co-scientists autonomously:\n\n* Search + synthesize literature grounded in your project\n* Generate high-quality hypotheses + idea trees tied to prior work\n* Design experiment plans + GPU job specs\n* Write and run code (Python, R, ML pipelines) in containerized environments\n* Launch and monitor experiments on serverless GPUs & GPU clusters\n* Output publication-ready drafts: LaTeX, figures, slides\n\nWe’ve mostly tested synsci on ML research so far, but we’re rapidly expanding across domains. It’s already strong in computational biology research: on BixBench Verified, our biology mode achieves state-of-the-art performance (92%).\n\n![uploaded image](/media/?type=post&id=98217&key=user_uploads/1441373/0d71bacf-1ac6-4ee5-973e-42a543973d04)\n\n# **Flywheel Mode: Own Your Models**\n\nIf you have users, you already have the rarest ingredient in AI: proprietary signal. Every correction, accept/reject, trace, and outcome becomes training data. Everyone has access to the same models and can buy the same tokens. Nobody else can buy your users, your logs, and your feedback loops. \n\nStrong open-weight models now make it possible to beat frontier performance on your specific tasks through post-training (SFT + RL). However, the problem is everything around the model: data plumbing, evals, deployment, and compute. That friction keeps most teams renting intelligence by the token instead of owning it.\n\nFlywheel Mode makes the loop painless. We handle the glue code and ship the workflow end-to-end across 20+ compute providers and hundreds of built-in skills. Use your AI co-scientists to run the full loop: train, evaluate, deploy, iterate.\n\n![uploaded image](/media/?type=post&id=98217&key=user_uploads/1441373/ea6a1549-dd1f-40e3-bd36-ae627be085b0)\n\n# **Our Story**\n\nWe met doing ML research at NUS, CMU and MIT CSAIL & published together at NeurIPS, ICML, and AAAI workshops. Ishaan came from competitive programming (top-ranked in India for IOAI Team Selection, USACO Platinum). Aayam previously built, patented & sold an AI orthopaedic sock and built COVID-19 infra serving 50k+ users daily. \n\n# **Our Ask**\n\n* **Try it:**[ ](https://app.syntheticsciences.ai)[syntheticsciences.ai](http://syntheticsciences.ai) - $5 in free credits when you sign up!\n* **If you’re a CTO / Head of R&D / research lead** and want to accelerate R&D with AI co-scientists, we’d love to talk.\n* **RL environments for scientific research:** We're building LHRL environments to post-train models on ML research workflows. If you're an AI lab interested in process-oriented data, let's talk.",
+      "url": "https://www.ycombinator.com/launches/PY9-synthetic-sciences-ai-co-scientists-for-end-to-end-scientific-research",
+      "votes": 20,
+      "created_at": "2026-02-26T18:00:26.592Z"
+    }
+  ]
+}

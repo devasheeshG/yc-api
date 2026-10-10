@@ -1,0 +1,101 @@
+{
+  "id": 26655,
+  "name": "Instant",
+  "slug": "instant",
+  "former_names": [],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/5ee33d4dd08812f99b8d82ea64b812f8d2810e88.png",
+  "website": "https://instantdb.com",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "Give your AI a real backend. You get auth, permissions, storage, presence, and everything you need to ship apps your users will love.",
+  "one_liner": "The best backend for AI-coded apps",
+  "team_size": 4,
+  "industry": "B2B",
+  "subindustry": "B2B -> Engineering, Product and Design",
+  "launched_at": 1660785340,
+  "tags": [
+    "Developer Tools"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Summer 2022",
+  "status": "Acquired",
+  "industries": [
+    "B2B",
+    "Engineering, Product and Design"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/instant",
+  "api": "https://devasheeshg.github.io/yc-api/batches/summer-2022/instant.json",
+  "year_founded": 2022,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "",
+  "x_url": "",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/5ee33d4dd08812f99b8d82ea64b812f8d2810e88.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Jared Friedman",
+    "url": "https://www.ycombinator.com/people/jared-friedman"
+  },
+  "founders": [
+    {
+      "user_id": 10917,
+      "full_name": "Joe Averbukh",
+      "title": "Founder",
+      "founder_bio": "I truly believe each one of us has the ability to create the world they want to see. I love working with optimistic and principle-oriented people.\n\nIn 2020 I left Airbnb to build with my best friend. We followed two rules initially 1) Build something we want for ourselves and 2) Make something more ambitious than previously. In 2021 we added a third rule, 3) Make it a business. To that end we launched Jobsearch.dev, ExportHealth, Zeneca, Consistent, and then Instant, the modern Firebase",
+      "is_active": true,
+      "linkedin_url": "http://www.linkedin.com/in/joeaverbukh",
+      "x_url": "https://twitter.com/JoeAverbukh",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/ddbe9640b5ba45835afc1dde352efcae3bc9ec99.jpg"
+    },
+    {
+      "user_id": 62197,
+      "full_name": "Stepan Parunashvili",
+      "title": "Founder",
+      "founder_bio": "I work with people I will be friends with for a lifetime. I love hacking. I started off my career building a startup in China, and soon joined Wit.ai to work on an API for natural language processing. We used a suite of interesting tools, like Clojure, which heavily influenced my software design philosophy. We were acquired by Facebook. After 4 years, I had a stint at Airbnb, and decided to start Instant with my best friend. I also love to write; you can read some essays on my blog: stopa.io",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/stepan-parunashvili-65698932/",
+      "x_url": "https://twitter.com/stopachka",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/7dc5b126f9c5ae3d98e9e7fc5a89ce056ab20f75.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [
+    {
+      "title": "The Instant team joins OpenAI",
+      "url": "https://www.instantdb.com/essays/instant_team_joins_openai",
+      "date": "Aug 21, 2026"
+    },
+    {
+      "title": "Instant harkens back to a pre-Google Firebase | TechCrunch",
+      "url": "https://techcrunch.com/2024/10/02/instant-harkens-back-to-a-pre-google-firebase",
+      "date": "Oct 02, 2024"
+    }
+  ],
+  "launches": [
+    {
+      "id": 65461,
+      "title": "⚡️Instant: The Modern Firebase",
+      "tagline": "Graph database on the client",
+      "body": "Hello hello! We’re [Stopa](https://stopa.io) and [Joe](http://www.joeaverbukh.com/), and we’re excited to share [Instant](https://instantdb.com)!\n\nInstant is the graph-based successor to Firebase. We make it easy to build realtime and collaborative applications like Figma or Notion.\n\n**Some quick context on us:** We have 15 years of technical experience between the two of us. We both worked at Facebook and Airbnb as senior and staff engineers. It was at Facebook we saw how a graph-based solution with an expressive permission layer allowed engineers to ship fast and at scale. We want to bring the same experience to all developers around the world.\n\nSome people think realtime and collaboration are nice-to-haves, and place it at the bottom of their to-implement list. But if you think about it, multiplayer experiences are what separates the good apps from the best. It’s why Notion beats Evernote, and why Figma beats Sketch.\n\nFeatures like realtime, collaboration, offline mode, and optimistic updates will be table stakes for applications of the future. At present though, implementing these features is difficult due to edge cases and added complexity. Only a few products offer great multiplayer experiences, and these are usually bespoke solutions from a team of engineers at top-tech companies.\n\nInstant handles this complexity for you via a graph-based database on the client + an expressive permissions layer. This gives you a Firebase-like experience AND support for relationships between data. This combination provides multiplayer out of the box and enables developers to move fast.\n\nIt’s still early days, we have much to build. We’re currently free to use and will roll out paid plans in the future. **You can already start building with Instant today at** [**https://instantdb.com**](https://instantdb.com)\n\nIf you sign up, we’ll personally reach out and answer any questions you have with building on Instant. We really excited to bring this to you all, and look forward to what you build!",
+      "url": "https://www.ycombinator.com/launches/H1p-instant-the-modern-firebase",
+      "votes": 42,
+      "created_at": "2022-08-18T15:16:07.461Z"
+    }
+  ]
+}

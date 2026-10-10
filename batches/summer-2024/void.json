@@ -1,0 +1,95 @@
+{
+  "id": 29960,
+  "name": "Void",
+  "slug": "void",
+  "former_names": [
+    "Glass"
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/0ab88e3a4fc8224ae094d26b68f966408fe4cf3f.png",
+  "website": "https://useglass.ai",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "Void is an open source code editor with features similar to Cursor and GitHub Copilot. Unlike other tools, Void lets developers keep their data completely private by connecting directly to any LLM.",
+  "one_liner": "The open source Cursor alternative",
+  "team_size": 2,
+  "industry": "B2B",
+  "subindustry": "B2B -> Engineering, Product and Design",
+  "launched_at": 1726250392,
+  "tags": [
+    "Artificial Intelligence",
+    "Developer Tools"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Summer 2024",
+  "status": "Active",
+  "industries": [
+    "B2B",
+    "Engineering, Product and Design"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/void",
+  "api": "https://devasheeshg.github.io/yc-api/batches/summer-2024/void.json",
+  "year_founded": 2024,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://linkedin.com/company/voideditor",
+  "x_url": "https://x.com/thevoideditor",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": "https://github.com/voideditor/void",
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/0ab88e3a4fc8224ae094d26b68f966408fe4cf3f.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [
+    "https://bookface-images.s3.us-west-2.amazonaws.com/attachments/7bd912674ec2956ed721dc02fec7cfd0b2ba7de0.png"
+  ],
+  "primary_partner": {
+    "name": "Jared Friedman",
+    "url": "https://www.ycombinator.com/people/jared-friedman"
+  },
+  "founders": [
+    {
+      "user_id": 1324771,
+      "full_name": "Andrew Pareles",
+      "title": "Founder/CEO",
+      "founder_bio": "Former quantum computing. CS, Physics, Math at Cornell.",
+      "is_active": true,
+      "linkedin_url": "https://linkedin.com/in/andrew-pareles",
+      "x_url": "https://x.com/andrew_pareles",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/a4377934cc3196fe2791dbb8733156403da0d9d8.jpg"
+    },
+    {
+      "user_id": 1368831,
+      "full_name": "Mathew Pareles",
+      "title": "Founder/CTO",
+      "founder_bio": "Former materials science research. Physics and CS at Cornell. ",
+      "is_active": true,
+      "linkedin_url": "https://linkedin.com/in/mathew-pareles/",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/090db01fe52b67b04c6c2c8aed12b70c02276098.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 84053,
+      "title": "Void: The open source Cursor alternative",
+      "tagline": "AI code editor with advanced AI features and privacy.",
+      "body": "**_TL;DR:_** [Void](http://voideditor.com/) is the open source Cursor alternative. It offers the AI features of modern AI coding tools, while allowing you to host your own AI model locally and keep your data private. Check us out on [GitHub](http://github.com/voideditor/void)!\n\n![uploaded image](/media/?type=post&id=84053&key=user_uploads/1324771/56eae9a0-49fd-499f-b101-3e15e81914a9)\n\n# About us\n\nHi everyone, we’re [Mat](https://linkedin.com/in/mathew-pareles/) and [Andrew](https://linkedin.com/in/andrew-pareles), and we’re the team behind Void. Mat’s been prompting Transformers since before GPT3 became mainstream, and Andrew did quantum computing research at JHU APL. We’re best friends who have been programming together since we were 8. \n\n![uploaded image](/media/?type=post&id=84053&key=user_uploads/1324771/30b62998-29ed-447f-883b-f0875c3d1ffa)\n\n_left to right: Mat (CTO), Andrew (CEO)_\n\n# ❌ The problem: the leading AI IDE is closed source\n\nCursor is a closed-source AI editor, which means you need to send your private data through their API every time you use it. This leads to obvious privacy concerns. It’s also expensive for developers, and it means people don’t have many choices for a great AI coding experience.\n\nWe think the future of AI should be open. You should be able to use whatever model you like and not be locked into using a private company’s API.\n\n# ✅ The solution: open source\n\nThe solution: create an open-source alternative. This way, you can choose to self-host or communicate directly with any model you like, anywhere you like. \n\nThere are lots of benefits to open-sourcing besides privacy, too: on Void, you can access community-made AI features and gain full access to all your prompts.\n\n# Key features\n\nWe’re building a lot. Here are the features we’re most excited about:\n\n* **File system awareness:** Void can answer questions about your entire codebase. It builds an index of all your files and uses it automatically, so you don’t manually select relevant files.\n* **View and edit underlying prompts:** Void lets you open up the hood and view/edit every single prompt in your chat history. This is really important if you want to understand how the LLM got its answer, and it’s lacking in most closed-source tools.\n* **Fast edits across 1000s of lines:** Even if your file is thousands of lines long, Void applies changes almost instantly. We prompt the AI to make changes the way a human would instead of rewriting the whole file.\n\n![uploaded image](/media/?type=post&id=84053&key=user_uploads/1324771/48310318-059a-4844-8d75-a0c71e2a8385)\n\n* **Full privacy / data control:** All of Void’s prompt-building is done on your own computer. This means you can self-host your own model and have your data never leave your network. Or, you can connect directly to Claude, GPT, or Gemini, and not worry about sending your company data through a middle layer of communication.\n\nWe think the future of AI is open, and we’re excited about building it.\n\n# **🙏 Asks**\n\n* Check out the [**Void editor**](http://voideditor.com/) and star us on GitHub!\n* If you’re interested in helping us build, join our [Discord](https://discord.gg/PspNkKG5wt) or shoot us an email. We rely on contributions, even small ones, and we’ll help you get up and running as a contributor!\n* Please share this post! Help spread the word that we’re building an open source Cursor alternative.",
+      "url": "https://www.ycombinator.com/launches/Lrh-void-the-open-source-cursor-alternative",
+      "votes": 80,
+      "created_at": "2024-09-16T16:23:29.559Z"
+    }
+  ]
+}

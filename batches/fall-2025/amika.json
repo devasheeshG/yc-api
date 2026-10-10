@@ -1,0 +1,104 @@
+{
+  "id": 31010,
+  "name": "Amika",
+  "slug": "amika",
+  "former_names": [
+    "Fixpoint"
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/c42840d914de4ea4ec78f647bf0db2e93434ca5d.png",
+  "website": "https://www.amika.dev/",
+  "all_locations": "New York City, NY, USA",
+  "long_description": "Amika is infra to build your software factory.\r\n\r\nWe give your team sandboxed AI coding agents in the cloud: the same infrastructure Ramp, Coinbase, and Stripe built in-house. Kick off work from a web UI, CLI, Slack, or API. Use your preferred coding agent (Claude Code, Codex, etc.). Each agent understands your codebase, runs autonomously, and ships real PRs with live previews of the apps it changed. Use it as your daily driver or plug it into your own code-gen pipeline via API.",
+  "one_liner": "Infra to build your own software factory",
+  "team_size": 2,
+  "industry": "B2B",
+  "subindustry": "B2B -> Infrastructure",
+  "launched_at": 1759722442,
+  "tags": [
+    "Machine Learning",
+    "B2B",
+    "Infrastructure",
+    "AI"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Fall 2025",
+  "status": "Active",
+  "industries": [
+    "B2B",
+    "Infrastructure"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/amika",
+  "api": "https://devasheeshg.github.io/yc-api/batches/fall-2025/amika.json",
+  "year_founded": 2023,
+  "city": "New York City",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/amikadev/",
+  "x_url": "https://x.com/amikadev",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": "https://github.com/gofixpoint/amika",
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/c42840d914de4ea4ec78f647bf0db2e93434ca5d.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Tom Blomfield",
+    "url": "https://www.ycombinator.com/people/tom-blomfield"
+  },
+  "founders": [
+    {
+      "user_id": 101903,
+      "full_name": "Dylan Mikus",
+      "title": "Founder/CEO",
+      "founder_bio": "Making infra for software factories. Helping people spin up sandboxed coding agents, and then control the interactively or programmatically so they can automate their entire SDLC.\n\nCMU grad in comp sci and ML\n2x YC founder",
+      "is_active": true,
+      "linkedin_url": "https://linkedin.com/in/dbmikus",
+      "x_url": "https://twitter.com/dbmikus",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/10786d1817ed7d689f6f3313f3b2c73f38c9f9a5.jpg"
+    },
+    {
+      "user_id": 1013839,
+      "full_name": "Jakub Cichon",
+      "title": "Founder/CTO",
+      "founder_bio": "co-founder / CTO at Amika. Building infra for software factories. \n\n2x YC founder.",
+      "is_active": true,
+      "linkedin_url": "https://linkedin.com/in/jakub-cichon-14016a3b",
+      "x_url": "https://x.com/jdcamika",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/095af1aef16261010001d5599b3059bc222330e3.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 103929,
+      "title": "Amika - the operating system for AI agents to write and verify code",
+      "tagline": "Run fleets of human-in-the-loop or background coding agents inside cloud computers. Let them automate coding and verify it's correct.",
+      "body": "Software isn't a craft anymore, it's a manufacturing problem.\n\nAt Amika, we're building **the open source operating system for coding agents to automate their work**, like how the factory automated manufacturing.\n\n**Amika gives each agent a cloud computer, and lets you build automated or human-in-the-loop workflows for agents to write code and prove that the code is correct.**\n\nA couple of examples:\n\n\\- Have Amika monitor production and auto-fix errors, testing the fix against your real app\n\n\\- Add Amika to shared customer Slack channels. Auto-implement customer requests and share a live preview the updated app with them\n\nCheck out some more examples in our video 👇\n\n<https://youtu.be/GxqFsiBNbww>\n\n# The problem\n\nAI coding agents made code generation cheap. Producing correct code at scale, with real quality controls, is still unsolved. You're left with a tradeoff: pore over every change and go slow, or vibe-code and ship slop.\n\nCoding agents are useful, but the surrounding system is missing.\n\n\\- They lack the right **dev environment to verify their work**\n\n\\- They lack the right **context to understand the full problem**\n\n\\- They lack **deterministic guardrails controlling what they can change**\n\n\\- They produce 10x more code, but teams lack **a system for 10x more review**\n\n# How Amika solves this\n\nAmika composes 5 primitives into its agent operating system:\n\n1\\. **Sandboxed environments**: isolated cloud computers with the repos, tech stack, MCP servers, skills, and context an agent needs.\n\n2\\. **Workflows**: programs as code or markdown files that define when an agent runs and what job it does.\n\n3\\. **Deterministic guardrails**: rules enforced on every code change, like \"do not cross this module boundary\" or \"every database query must include a customer ID filter.\"\n\n4\\. **Automated verification**: test, review, fix, and merge loops that check the work against your real tech stack before it ships.\n\n5\\. **Audit trails**: the agent chat session, code changes, which checks passed, and what the run cost.\n\n![uploaded image](/media/?type=post&id=103929&key=user_uploads/101903/a1246cf3-1ed1-435d-94fb-2cb7437b4995)\n\nAmika works with your existing coding agent subscriptions (Claude Code, Codex, etc.) so **you're not locked into one vendor**. Start agents from the web, Slack, GitHub, the CLI, or the API. At any point, a human can take over the sandbox and inspect the running apps, or drive from their own code editor.\n\nBecause each sandbox runs your full stack, you review the agent's work in a live preview of your real app, plus the verification artifacts it produced, like screen captures or API test requests, instead of poring over the diff line by line.\n\nWith Amika's workflows and environments, you can spend time building higher level loops for your agent to write and verify code, speeding up your product development.\n\n![uploaded image](/media/?type=post&id=103929&key=user_uploads/101903/60e16093-3dcf-4285-b73b-998c74507145)\n\n![uploaded image](/media/?type=post&id=103929&key=user_uploads/101903/3b84372e-0a00-46a3-afd1-d711547c256b)\n\n# Who we are\n\nWe're [Jakub](https://www.linkedin.com/in/jakub-c-14016a3b/) and [Dylan](https://www.linkedin.com/in/dbmikus/), two time YC cofounders.\n\n![uploaded image](/media/?type=post&id=103929&key=user_uploads/101903/497da8a5-bfa8-407e-98f6-b613d9389b50)\n\nWe pivoted our YC company to bet on this, and we already use Amika for the majority of our PRs. We're building it in the open: each primitive ships as open source, and our cloud platform packages the whole operating system into a software factory for teams.\n\n# Our ask\n\n\\- Sign up for a **free two-week trial at [amika.dev](https://www.amika.dev/)**\n\n\\- Dig into the **open source repo** on GitHub: <https://github.com/gofixpoint/amika>\n\n\\- If you want **help setting up your software factory**, book at demo at <https://cal.com/amika-dev/30min>\n\n![uploaded image](/media/?type=post&id=103929&key=user_uploads/101903/3e200f7d-2b3f-4e3e-99f3-d0249987c72c)\n\n",
+      "url": "https://www.ycombinator.com/launches/R2H-amika-the-operating-system-for-ai-agents-to-write-and-verify-code",
+      "votes": 18,
+      "created_at": "2026-06-24T17:06:48.500Z"
+    },
+    {
+      "id": 94868,
+      "title": "Fixpoint - Uber for AI trainers and human-in-the-loop supervisors",
+      "tagline": "Fixpoint helps AI data companies automate sourcing, vetting, and all HR for your expert annotator teams",
+      "body": "Hello, world! We’re [Jakub](https://www.linkedin.com/in/jakub-c-14016a3b/) and [Dylan](https://www.linkedin.com/in/dbmikus/), the co-founders of [Fixpoint](https://fixpoint.co/).\n\n**Fixpoint helps AI training data companies hire the expert humans that create AI training data**.\n\nAI needs human experts to teach it new skills and benchmark its performance: PhDs for science, lawyers for contract review, etc. But finding and vetting these experts is time-consuming, and without properly vetting experts, you’re paying for bad data!\n\nFixpoint automates this process, connecting companies with verified experts at the push of a button, so you can focus on creating quality AI training data instead of recruiting.\n\n[Launch Video](https://youtu.be/9TCgpe0tT3w)\n\n**We have two products:**\n\n1. **Worker Vetting API** - Plug Fixpoint’s API into your onboarding workflow and vet the credentials and backgrounds of workers. **Catch 10x the worker fraud!**\n2. **White-Glove Expert Staffing** - When you need annotators fast, Fixpoint can source and hire a team of qualified experts. **Staff a team of 100s in just a couple weeks.**\n\n**Our track record:**\n\n* We’ve caught 10x the fraudulent applicants for top AI data companies\n* We’re partnered with data companies to staff teams for the top AI labs\n* We are GDPR ready and SOC 2 certification is underway\n\nUltimately, we're building the platform for \"human data ops\". Just as chip designers use TSMC for chip manufacturing, AI companies can use Fixpoint for the human expertise and tools needed to create specialized training data and evals.\n\n# Our ask\n\nSend us an email at [**founders@fixpoint.co**](mailto:founders@fixpoint.co) or [**grab a demo**](https://cal.com/fixpoint/demo) if:\n\n* You’re an AI data company or RL company and need a team of expert annotators\n* You’re an enterprise that needs to eval or benchmark your AI agents in a specialized domain (healthcare, legal, etc.)\n* You’re on the “human data” team at a model lab and have trouble managing experts or their data\n* You don’t fit in the above, but you or someone you know could use our services!\n\n# About us\n\nWe’re [Jakub](https://www.linkedin.com/in/jakub-c-14016a3b/) and [Dylan](https://www.linkedin.com/in/dbmikus/). We’re second time YC founders who’ve worked together since we met at Oscar Health in 2018. We’ve built everything from search systems, to chatbots, to data infrastructure, to AI web research agents.\n\n![uploaded image](/media/?type=post&id=94868&key=user_uploads/101903/ad8316ad-d855-46de-9ffc-67bb1fd62847)\n\n",
+      "url": "https://www.ycombinator.com/launches/Og8-fixpoint-uber-for-ai-trainers-and-human-in-the-loop-supervisors",
+      "votes": 25,
+      "created_at": "2025-10-23T21:41:36.522Z"
+    }
+  ]
+}

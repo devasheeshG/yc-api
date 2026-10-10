@@ -1,0 +1,84 @@
+{
+  "id": 33672,
+  "name": "Grep AI",
+  "slug": "grep-ai",
+  "former_names": [
+    "GREP",
+    "GREP.ai"
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/2d86a599f458e2be0f1c7c75f915dda507376482.png",
+  "website": "https://grep.ai",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "Grep AI is the fastest way to create, optimize, and deploy agents for tedious, complex operational work that slows down your business. Our self-improving agents learn from every run, making them smarter and cheaper as you scale. IG.com a global retail brokerage used our agents to review compliance alerts and now 80% of their customers onboad without manual intervention, doubling first trades and propelling them to a FTSE 100 company. \r\n\r\nCustomers including Airwallex, Worldpay, Citizens Bank, FV Bank and Shopmonkey have used our agents to automate over 250,000 of operational work across compliance, onboarding, underwriting, corporate due diligence, document verification, merchant categorization, market and competitive research, rev ops and much more.\r\n\r\nWe founded Grep AI after experiencing firsthand how manual workflows can prevent a business from growing when we ran the platform team at Brex. We're now on a mission to rid businesses of tedious, repetitive so their employees can focus on the most high leverage tasks that matter.",
+  "one_liner": "Self-improving agents that automate tedious operational work",
+  "team_size": 6,
+  "industry": "B2B",
+  "subindustry": "B2B -> Productivity",
+  "launched_at": 1790019866,
+  "tags": [
+    "Artificial Intelligence",
+    "Fintech"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Fall 2026",
+  "status": "Active",
+  "industries": [
+    "B2B",
+    "Productivity"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/grep-ai",
+  "api": "https://devasheeshg.github.io/yc-api/batches/fall-2026/grep-ai.json",
+  "year_founded": 2023,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/grep-ai",
+  "x_url": "https://x.com/grepdotai",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": "https://github.com/parcha-ai",
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/2d86a599f458e2be0f1c7c75f915dda507376482.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Garry Tan",
+    "url": "https://www.ycombinator.com/people/garry-tan"
+  },
+  "founders": [
+    {
+      "user_id": 21987,
+      "full_name": "AJ Asver",
+      "title": "Founder/CEO",
+      "founder_bio": "Building AI agents for high-stakes work you can't afford to get wrong at Grep AI. I previously led AI/ML-related products at Coinbase and Brex. My first startup, Scoopler (YC S08), was acquired by Google, where I worked on integrating AI into Google Photos and Android phones/tablets.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/ajasver",
+      "x_url": "https://x.com/_aj",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/38a64413832ff8af8962fa805c240f6e699bb884.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 117558,
+      "title": "Grep AI: Self-improving agents that get smarter and cheaper at the same task",
+      "tagline": "Create an agent in minutes. It gets smarter and cheaper with every run.",
+      "body": "Hey everyone!\n\nWe’re AJ and Miguel from Grep AI. We’re building self-improving agents for tedious, repetitive work that’s slowing down your business. [IG.com](http://IG.com), a UK-based online brokerage, used our agents to automate 80% of onboarding, unlocking a record year of growth that led to their graduation to the FTSE 100.\n\nLaunch video: <https://youtu.be/s9NEm6rRcCA>\n\n**The problem: repetitive work that requires judgment and expertise is still too hard to automate and scale.**\n\nAt Brex, we had 2,000 businesses waiting to onboard because we needed to manually review each one to verify they had a physical address. Fast-growing companies are full of tedious, repetitive tasks like this that become a bottleneck to growth, but require research, judgment, and some expertise.\n\nBut getting an agent to accurately and efficiently complete a task that requires automation, investigation, and some judgment thousands of times is still a challenge.\n\nHard-coded LLM workflows like LangGraph and n8n are cheaper to scale, but can’t adapt to edge cases. E.g., the business has a physical address on Google Maps, but it’s actually a mailbox in a co-working facility.\n\nGeneral-purpose agents like Codex, Cowork, and Copilot are much better at handling exceptions, but when performing repetitive tasks, they waste expensive tokens reasoning through the workflow as if they were a new employee. Enterprises often offshore these types of tasks at $6-$12/hr, so if the agent costs $4/tasks they are not going to use it.\n\n**Grep AI: Self-improving agents that get smarter and cost less with every run.**\n\nGrep AI is a managed agent platform that lets you create, optimize, and deploy self-improving agents to automate repetitive work in minutes without writing any code. Our agents learn from every run, getting smarter and costing less as you scale them.\n\nHow Grep AI works:\n\n* **Create an agent in minutes** with just a prompt and any useful docs. Grep uses deep research, a library of more than 300 built-in skills, and over 100 data integrations to make each agent an expert out of the box.\n\n  ![uploaded image](/media/?type=post&id=117558&key=user_uploads/21987/30597b7c-03c9-4bc6-aa9d-542b42f8b550)\n\n* **Frontier or open-source models:** Unlike OpenAI’s Agent API or Claude Managed Agents, you aren’t locked into one model provider.\n* **Self-improving harness:** Our harness learns as it repeats a task, moving repeatable steps from frontier LLM calls into workflows and code, so it gets smarter and cheaper with every run.\n* **Secure sandbox:** Agents run in a secure sandbox with a file system, audit logs, access controls, and cost caps included.\n* **Run from anywhere:** Use agents manually in our app, or via schedules and monitors, batches, API, MCP, and TypeScript and Python SDKs.\n* **Stay in control:** Manage your agent workforce with a central dashboard to monitor cost, accuracy, and auditability.\n\n  ![uploaded image](/media/?type=post&id=117558&key=user_uploads/21987/e63bf34e-dfd1-42cf-94cc-68ee90612083)\n\n\n**How companies use Grep AI**\n\nCompanies like Airwallex, Citizens Bank, Worldpay, Global Payments, and Shopmonkey use Grep for business due diligence, underwriting, document verification, HR operations, GTM ops, competitive intelligence, and social and market research. \n\nIn six months we’ve saved these companies over 150,000 hours of work\n\n**Why us?**\n\n**AJ** led AI/ML products at Coinbase and Brex. His first startup was acquired by Google, where he worked on Google Photos and Android.\n\n**Miguel** led Platform Engineering at Brex across ML, data, financial infrastructure, and compliance operations tooling. Before that, he led data science at Twitter.\n\nWe met at Brex in 2020, where we scaled the customer base 10x in a year with automation across risk, compliance, customer support, and operations, before AI agents existed. That experience inspired us to start working on AI agents for compliance teams in 2023. Then we took everything we learned from building agents and turned it into a managed agent platform to scale any repetitive work.\n\n**Do you have any repetitive operations/back-office work that’s slowing down your company?**\n\n* Go to <https://grep.ai> or point your coding agent there to get started.\n* Book an onboarding call with us here: <https://calendly.com/grepai/grep-onboarding>\n* Or reach out to [founders@grep.ai](mailto:founders@grep.ai), and we’ll help you tune an agent for your workflow.",
+      "url": "https://www.ycombinator.com/launches/Ua6-grep-ai-self-improving-agents-that-get-smarter-and-cheaper-at-the-same-task",
+      "votes": 10,
+      "created_at": "2026-10-05T14:00:00.178Z"
+    }
+  ]
+}

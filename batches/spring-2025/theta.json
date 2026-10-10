@@ -1,0 +1,104 @@
+{
+  "id": 30488,
+  "name": "Theta",
+  "slug": "theta",
+  "former_names": [
+    "Handler AI",
+    "Theta Software"
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/bef5c2a34194462b75e30c574accec7a94eef920.png",
+  "website": "https://thetasoftware.com",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "",
+  "one_liner": "Specialized AI for Every Job",
+  "team_size": 7,
+  "industry": "B2B",
+  "subindustry": "B2B",
+  "launched_at": 1746731099,
+  "tags": [
+    "Artificial Intelligence",
+    "Reinforcement Learning",
+    "B2B"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Spring 2025",
+  "status": "Active",
+  "industries": [
+    "B2B"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/theta",
+  "api": "https://devasheeshg.github.io/yc-api/batches/spring-2025/theta.json",
+  "year_founded": 2025,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/try-theta-software/",
+  "x_url": "https://x.com/trytheta",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/bef5c2a34194462b75e30c574accec7a94eef920.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Garry Tan",
+    "url": "https://www.ycombinator.com/people/garry-tan"
+  },
+  "founders": [
+    {
+      "user_id": 537913,
+      "full_name": "Rayan Garg",
+      "title": "Founder/CEO",
+      "founder_bio": "Cofounder @ Theta",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/rayan-garg/",
+      "x_url": "https://x.com/RayanGarg",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/c149d47b48ed70e9578a05089862fe95b2a34f09.jpg"
+    },
+    {
+      "user_id": 1027108,
+      "full_name": "Tanmay Sharma",
+      "title": "Founder/CPO",
+      "founder_bio": "Co-founder @ Theta",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/tanmayxsharma/",
+      "x_url": "https://x.com/tsha444",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/587a5a95d8b018cf50a39e232bd35ba6813223fc.jpg"
+    },
+    {
+      "user_id": 1962783,
+      "full_name": "Gurvir Singh",
+      "title": "Founder/CTO",
+      "founder_bio": "Co-founder @ Theta",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/gurvir-s/",
+      "x_url": "https://x.com/_gurvir_",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/ba15e188b5b6aa70b51f319fdb6e33bb73acb28c.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 90230,
+      "title": "Theta: Self-Learning for AI Agents",
+      "tagline": "An Intelligent Memory Layer for Real-time Learning",
+      "body": "### **TL;DR**\n\nTheta is building self-learning and real-time adaptation for AI agents.\n\nWe’re starting with an intelligent memory layer so agents can remember and learn from previous interactions. With a simple four-line addition to your existing code, our memory layer uses real-time learning to analyze every run for mistakes and optimizations. The relevant insights are then passed on to your agent during future runs. \n\nWe’ve already improved the accuracy of OpenAI Operator by 43% with 7x fewer steps taken. If you’re building AI agents where reliability and speed are priorities, book a meeting [here](https://calendly.com/d/cndj-84h-9qz) or contact us at [founders@thetasoftware.ai](mailto:founders@thetasoftware.ai).\n\n\\\nhttps://youtu.be/TRNWfhyUI4E\n\n### **The Current Approach**\n\nAgents struggle to adapt to complex, real-world workflows. Workflows are dynamic, but agents remain static.\n\n* They get stuck in loops, repeating mistakes and requiring constant human guidance in the right direction. Your prompts get longer and longer as you try to hard-code solutions.\n* Even when your agent successfully completes a task, this long process starts all over again for any future run. Starting a new Cursor chat or Operator session means losing all of the insights and “aha moments” your agent had.\n\nLearning is fundamentally iterative, but agents can’t learn because they have no memory across runs.\n\n### **How Theta Works**\n\nTheta is building the infrastructure for agents to self-learn and adapt in real-time. The first component is an intelligent memory layer that learns from your agent’s previous runs. Just add four lines of code to your agent stack to get started:\n\n* At the end of the current run, Theta generates and embeds an analysis of your agent’s trajectory. It identifies critical steps and assesses overall performance.\n* Before the next run, Theta generates a detailed plan based on the specified task. It gathers relevant insights and optimizations based on previous runs.\n* With real-time learning, the memory layer continues to improve with more runs—meaning your agent gets better and better with zero human intervention.\n\nUsing this memory layer, we were able to improve the accuracy of OpenAI Operator by 43%. With optimized trajectories, Operator also took 7x fewer steps, resulting in better speed and cost.\n\n### **Our Ask**\n\nIf you’re building agents that need to perform dynamic, real-world workflows at the highest accuracy and speed, reach out to [founders@thetasoftware.ai](mailto:founders@thetasoftware.ai) or book some time [here.](https://calendly.com/d/cndj-84h-9qz)\n\n### **Our Team**\n\nRayan has previously done ML research as Head of Product at DeepSilicon. He’s been childhood friends with Tanmay since third grade, who previously built an AI browser and developed browser agents at MultiOn. During Rayan’s freshman year of college, he met Gurvir, who built distributed ML systems at Cornell, focusing on post-training and RL.",
+      "url": "https://www.ycombinator.com/launches/NTK-theta-self-learning-for-ai-agents",
+      "votes": 48,
+      "created_at": "2025-05-08T22:13:52.982Z"
+    }
+  ]
+}

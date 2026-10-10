@@ -1,0 +1,93 @@
+{
+  "id": 29308,
+  "name": "atopile",
+  "slug": "atopile",
+  "former_names": [],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/bc01556ac42a30413be04851c543100ade541b52.png",
+  "website": "http://atopile.io",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "atopile is a new language to design electronic circuit boards with code. We replace point and click graphical interfaces with code to bring software level automation and reuse to the field of hardware design. Our project is open source on GitHub! https://github.com/atopile/atopile",
+  "one_liner": "We make tools to design electronics circuit boards with code",
+  "team_size": 5,
+  "industry": "B2B",
+  "subindustry": "B2B -> Engineering, Product and Design",
+  "launched_at": 1709142669,
+  "tags": [],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": true,
+  "nonprofit": false,
+  "batch": "Winter 2024",
+  "status": "Active",
+  "industries": [
+    "B2B",
+    "Engineering, Product and Design"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/atopile",
+  "api": "https://devasheeshg.github.io/yc-api/batches/winter-2024/atopile.json",
+  "year_founded": 2023,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/99142194/",
+  "x_url": "https://twitter.com/atopile_io",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/bc01556ac42a30413be04851c543100ade541b52.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Jared Friedman",
+    "url": "https://www.ycombinator.com/people/jared-friedman"
+  },
+  "founders": [
+    {
+      "user_id": 1631898,
+      "full_name": "Narayan Powderly",
+      "title": "Founder",
+      "founder_bio": "If something sucks, fix it. I love building tools that solve real problems, at Tesla I increased the rate at which we could build prototypes by 10x, at our company atopile we are making tools to bring the speed of software development to hardware engineering.",
+      "is_active": true,
+      "linkedin_url": "https://linkedin.com/in/narayan-powderly-21949a180",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/480962a00ad9418cb69382301c80ec1e9dab44eb.jpg"
+    }
+  ],
+  "jobs": [
+    {
+      "id": 95654,
+      "title": "Member of Technical Staff",
+      "url": "https://www.ycombinator.com/companies/atopile/jobs/R9fCx9Y-member-of-technical-staff",
+      "location": "San Francisco, CA, US",
+      "type": "Full-time",
+      "role": "Engineering",
+      "role_type": "Full stack",
+      "salary_range": "$180K - $300K",
+      "equity_range": "0.10% - 1.00%",
+      "experience": "3+ years",
+      "visa": "Will sponsor",
+      "skills": []
+    }
+  ],
+  "news": [],
+  "launches": [
+    {
+      "id": 78992,
+      "title": "atopile - a new language to design electronic circuit boards with code",
+      "tagline": "We are bringing design reuse, version control, and automation to hardware design",
+      "body": "Hi Everyone, we are Matt, Narayan, and Tim and we are building a new programming language to automate hardware design.\n\n### **TLDR;** [atopile](http://atopile.io/) is a new language + toolchain to **design electronic circuit boards with code**.\n\nBy using code instead of graphical user interfaces, we finally bring **design reuse**, **version control,** and **automation** to hardware design.\n\n![uploaded image](/media/?type=post&id=78992&key=user_uploads/333030/65a69aca-5a22-4af8-9b16-21b76934d36e)\n\n### Our ask 📣\n\n* If you love programming, git, and electronics, try [**using atopile**](https://github.com/atopile/atopile) to design your next circuit board\n* If you know firmware engineers, test teams, validation teams or people who need to create lots of high-quality repetitive designs quickly - [**please introduce us**](mailto:founder@atopile.io)**.**\n\n### The problem\n\nWe love designing hardware. But existing design tools are slowing us down. The key reason is that in hardware design, everything is done manually: Electronic schematics are drawn by hand, files are exported through a series of clicks, and circuit boards are validated for weeks on the test bench. When systems become complex, this process becomes hugely time-consuming and error-prone. \n\nImagine writing an entire complex software program using only assembly code. This is what designing hardware feels like today.\n\n### The solution\n\n![uploaded image](/media/?type=post&id=78992&key=user_uploads/333030/7f5d19f8-f3b0-4eab-958a-f28875b60ce0)\n\natopile is a new programming language to describe electronics with code. Instead of drawing the product itself, you can now capture your product requirements using atopile source code. From there, our compiler builds and validates the product manufacturing files for you. Not only is this faster and more reliable but it also lets you use advanced software development tools such as code editors, git, GitHub, GitLab, Continuous Integration, and copilot to design hardware.\n\nAfter [**launching on Hacker News**](https://news.ycombinator.com/item?id=39263854) and getting hundreds of downloads, we have seen a glimpse of an exciting future: our users have created new designs in atopile, used GitHub for version control, shared their work on our Package Manager, and used Continuous Integration to generate their manufacturing files automatically. Our most active users have also made contributions to our codebase, which we are super thankful for!\n\nEarly on, we decided to make atopile open-core. Our goal is to create a new industry standard for describing hardware. With an open-core approach, our users have guaranteed access to their code. Our plan is to generate revenue with enterprise-targeted features, in a model similar to GitLab.\n\n**Our code is on GitHub **[**here**](https://github.com/atopile/atopile)** and we have up-to-date docs **[**here**](https://atopile.io/getting-started/)**.**\n\n### Who we are\n\n![uploaded image](/media/?type=post&id=78992&key=user_uploads/333030/62696c0f-2b40-45d4-a8f4-8bb108672f51)\n\n[Matt](https://linkedin.com/in/matthew-wildoer-467a4992), [Narayan](https://linkedin.com/in/narayan-powderly-21949a180), and [Tim](http://https//www.linkedin.com/in/timotheepeter/) are life-long inventors, engineers, and now second-time founders. We have been engineers at companies including **Tesla, DJI,** and **Lilium**. We’ve worked on teams including [the 25-guns](https://twitter.com/elonmusk/status/1324283305789812736?lang=en), created prototyping facilities under executive mandate, and led critical software projects where the daily cost-of-delay ran into the millions.\n\nThe three of us met as we were building up a maker space in the Bay Area. After a few discussions, we quickly started putting together a prototype of the atopile compiler. We knew this had the potential to change hardware design after we compiled our first electronic printed circuit board.\n\n### ✉️ We are excited for the adventure ahead! Please email us at [founders@atopile.io](mailto:founders@atopile.io) to get in touch.",
+      "url": "https://www.ycombinator.com/launches/KY4-atopile-a-new-language-to-design-electronic-circuit-boards-with-code",
+      "votes": 39,
+      "created_at": "2024-03-04T01:53:11.213Z"
+    }
+  ]
+}

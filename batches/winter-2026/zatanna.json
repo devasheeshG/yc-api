@@ -1,0 +1,88 @@
+{
+  "id": 31131,
+  "name": "Zatanna",
+  "slug": "zatanna",
+  "former_names": [],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/d44e6f61cb5ed4a97d1177fa88df6f8b04c87366.png",
+  "website": "https://www.zatanna.ai/",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "Zatanna creates APIs for software that doesn't have any, by reverse engineering back ends of web-based cloud and on-prem software. ",
+  "one_liner": "Turning all software into agent-first APIs",
+  "team_size": 2,
+  "industry": "B2B",
+  "subindustry": "B2B -> Engineering, Product and Design",
+  "launched_at": 1770919305,
+  "tags": [],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Winter 2026",
+  "status": "Active",
+  "industries": [
+    "B2B",
+    "Engineering, Product and Design"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/zatanna",
+  "api": "https://devasheeshg.github.io/yc-api/batches/winter-2026/zatanna.json",
+  "year_founded": 2025,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/108413116/admin/dashboard/",
+  "x_url": "",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/d44e6f61cb5ed4a97d1177fa88df6f8b04c87366.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Jared Friedman",
+    "url": "https://www.ycombinator.com/people/jared-friedman"
+  },
+  "founders": [
+    {
+      "user_id": 2956000,
+      "full_name": "Alex Blackwell",
+      "title": "Founder/CTO",
+      "founder_bio": "CTO @ Zatanna (w26). Prev at Pikkit bypassing anti-bots",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/alex-blackwell-506228206/",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/aeb37b409c895d9191052003be6ba835312e06dd.jpg"
+    },
+    {
+      "user_id": 1805672,
+      "full_name": "Tarun Vedula",
+      "title": "Founder/COO",
+      "founder_bio": "CEO @ zatanna | uw madison ",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/tarunvedula/",
+      "x_url": "https://x.com/TarunVedula",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/9edff7d3b9fc114c8752be393ec742bd85c5c606.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 98664,
+      "title": "Zatanna | APIs for AI agents",
+      "tagline": "Zatanna creates faster, cheaper, and more reliable APIs for AI agents",
+      "body": "Hey YC!\n\nWe’re [Rithvik](https://www.linkedin.com/in/rithvik-vanga-0824a5225/), [Alex](https://www.linkedin.com/in/alex-blackwell-506228206/), and [Tarun](https://www.linkedin.com/in/tarunvedula/), the team behind [Zatanna](https://www.linkedin.com/company/usezatanna/).\n\n**TL;DR:** Today, most AI companies rely on slow, brittle, and unreliable computer-use agents to interact with software that has no API.  Zatanna solves this with faster, cheaper, and more reliable APIs for AI agents by reverse engineering requests and taking care of antibot infrastructure. \n\n[Video Link](https://www.youtube.com/watch?v=HUCOKVn-atM)\n\n**The Problem:**\n\nA huge amount of valuable business software still has no usable API. So when AI companies need their agents to interact with ERPs, PMS systems, portals, marketplaces, or other operational websites, they often fall back to browser automation.\n\nThat means the agent is stuck looking at screens, clicking buttons, waiting for pages to load, dealing with logins, handling UI changes, and breaking every time the workflow shifts. It is fine for showing that something is possible. It is terrible when the workflow actually matters.\n\nTeams end up spending an absurd amount of engineering time maintaining brittle browser automations instead of building product and serving customers.\n\n**The Solution:**\n\nZatanna runs these workflows at the request layer.\n\nWe observe how a workflow works once, reconstruct the underlying request sequence, and host it as a clean API that any agent can call. Instead of navigating a browser, the agent just hits an endpoint.\n\nThat makes the workflow:\n\n* faster\n* cheaper\n* more reliable\n* much easier to maintain at scale\n\nWe also handle the painful infrastructure required to keep these workflows alive in production:\n\n* session and credential management\n* request sequencing\n* proxy networks and traffic distribution\n* retries, monitoring, and recovery\n\nToday we’re already supporting customers where either throughput or reliability is mission-critical, from high-volume consumer platforms to operationally sensitive industries like logistics.\n\n**Where we’re seeing this most:**\n\n* ERPs like SAP\n* PMS / POS systems\n* insurance/benefits/claims portals\n* marketplaces(checkout flows)\n* operational websites with no APIs\n* basically anywhere the current solution is scraping or browser automation\n\n**Why we’re doing this:**\n\nWe started in vertical AI and ran into this problem ourselves. The model layer kept getting easier. Software access was the real bottleneck. A huge amount of engineering effort went into keeping integrations alive instead of improving the actual agent.\n\nSo we decided to build the thing we wished we had.\n\n**What we’re looking for:**\n\nIf you’re building something that depends on browser automation or computer-use agents for integrations, especially where reliability, speed, or cost matter, we’d love to take a look at the workflow.\n\nBook a call [here](https://zatanna.cal.com/tarun/30min?user=tarun&overlayCalendar=true) or email [**tarun@zatanna.ai**](mailto:tarun@zatanna.ai)",
+      "url": "https://www.ycombinator.com/launches/PfM-zatanna-apis-for-ai-agents",
+      "votes": 11,
+      "created_at": "2026-03-10T17:01:30.330Z"
+    }
+  ]
+}

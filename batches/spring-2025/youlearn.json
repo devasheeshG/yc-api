@@ -1,0 +1,113 @@
+{
+  "id": 30442,
+  "name": "YouLearn",
+  "slug": "youlearn",
+  "former_names": [
+    "YouLearn",
+    "Hanji"
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/d95a92c88005262cd010ecec020011f74b07cf63.png",
+  "website": "https://www.youlearn.ai/",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "YouLearn is an AI tutor for college students. It turns your learning materials into concise notes, an AI tutor you can talk to, and personalized tests.",
+  "one_liner": "AI tutor for each student. ",
+  "team_size": 4,
+  "industry": "Education",
+  "subindustry": "Education",
+  "launched_at": 1745603860,
+  "tags": [
+    "AI-Enhanced Learning",
+    "Education",
+    "AI"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Spring 2025",
+  "status": "Active",
+  "industries": [
+    "Education"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/youlearn",
+  "api": "https://devasheeshg.github.io/yc-api/batches/spring-2025/youlearn.json",
+  "year_founded": 2024,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/youlearnai",
+  "x_url": "",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/d95a92c88005262cd010ecec020011f74b07cf63.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "David Lieb",
+    "url": "https://www.ycombinator.com/people/david-lieb"
+  },
+  "founders": [
+    {
+      "user_id": 1378551,
+      "full_name": "David Yu",
+      "title": "Founder/CEO",
+      "founder_bio": "David founded YouLearn, an AI tutor used by millions of students, and grew education content to 300M+ views by teaching students how to study smarter.\n\nDavid previously led tech and marketing at TWA and taught AI to 1,000+ students while in college.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/david-yu-871202244/",
+      "x_url": "https://x.com/1davidyu1",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/0e871281da6dbfea109ee577cd6d924f6ce37f41.jpg"
+    },
+    {
+      "user_id": 1380304,
+      "full_name": "Achyut Krishna Byanjankar",
+      "title": "Founder/CTO",
+      "founder_bio": "Co-founder of YouLearn.\nInterned as a SWE at Evitar Labs.\nStudied CS at Michigan State University.\nBuilt 6 Al apps in 6 weeks with 300k+ impressions.\nCreated Apollo, 130k+ views, ft. on LangChain & Vercel.",
+      "is_active": true,
+      "linkedin_url": "https://linkedin.com/in/achyut-byanjankar",
+      "x_url": "https://x.com/achyut_benz",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/021e068c731c3c17e10c53ba298865ff50b85fc5.jpg"
+    },
+    {
+      "user_id": 1380693,
+      "full_name": "Soami Kapadia",
+      "title": "Founder/CIO",
+      "founder_bio": "Co-Founder of Hanji.\nPreviously interned at Groq, where I created an open-source repo with 900+ stars.\nRanked Top 50 nationally in speedcubing.",
+      "is_active": true,
+      "linkedin_url": "https://linkedin.com/in/soamikapadia",
+      "x_url": "https://x.com/KapadiaSoami",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/375f4df429c0f5a76d4c796c8acec078e3adc803.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 108085,
+      "title": "Hanji - Turn your hardest documents into reliable data",
+      "tagline": "We turn scanned, faxed, and handwritten documents into structured data with a pipeline tuned for the accuracy, speed, and cost you need.",
+      "body": "Hey everyone 👋, we’re David, Soami, and Achyut from [Hanji](https://hanji.dev/). \\\n\\\nAt YouLearn, we processed **70M pages for 2.5M users.** To handle 500 page textbooks, handwritten notes, and scanned documents with broken tables, we built our own document parser. We launched it as an API and didn’t expect healthcare, government, and insurance teams to be the first to reach out. But after talking with them, **we realized they still couldn’t find a pipeline they could rely on in production.** \n\n<https://youtu.be/S5OVXZVv61A>\n\n### **Problem**\n\nAs companies process more documents with hard formats, **they either build in-house and take on the cost of maintaining it, or use a provider and accept tradeoffs they cannot control.**\n\n* **Build:** It can work at a certain scale, but as volume increases and harder formats come in, your team has to keep fixing the pipeline. Over time, you end up maintaining something that was never your product.\n* **Buy:** Providers can work too, but you have to accept tradeoffs you cannot change. They may cost too much, take too long at higher volumes, or miss important cases that your team then has to fix.\n\nIn both scenarios, your team pays for these tradeoffs through more engineering time, slower workflows, or lower margins.\n\n### **Our Solution**\n\n**Hanji tunes the document pipeline to your workflow,** so you don’t have to maintain it yourself or accept fixed tradeoffs.\n\nSend us your hardest docs, and we’ll take care of the rest by tuning your pipeline **to the accuracy, speed, and cost you need.** And when human review is still necessary in your document workflow, we’ll improve that process too, such as by adding field-level confidence scores and review flags.\n\n### **Benchmark**\n\nEven before tuning, **Hanji holds the highest text accuracy across five providers** on our benchmark: 400 human-verified pages spanning seven document types.\n\n![uploaded image](/media/?type=post&id=108085&key=user_uploads/1378551/eb2e7fbd-b541-4b77-93fe-e29fb3af7948)\n\n_Text accuracy, 400 human-verified pages, 95% CIs. Full methodology [here](https://hanji.dev/bench)._\n\n### **Results**\n\nAfter tuning Hanji to each customer’s document workflow, one YC healthcare company improved their text accuracy from **71% on our first pass to 96.5% within a few days.** Another reduced its end-to-end latency from **1.5 minutes to under 1 minute** with Hanji extracting **78/78 fields** containing payer to member ID associations across 53 packets. And another company **reduced its projected processing costs by 75%** after we implemented a routing step that found the relevant forms in every packet.\n\nIn each case, we started with their own documents, tuned the pipeline around what matters for their workflow, and kept improving it as new failures appeared.\n\n### **Our Ask**\n\n**Try your hardest docs in the playground [here](https://hanji.dev/dashboard/playground),** then [book a call](https://cal.com/team/youlearnai/hanji-intro) to see how we can improve your accuracy, speed, or review process.\n\nProcessing regulated documents? [Book a call](https://cal.com/team/youlearnai/hanji-intro). For PHI documents, we can sign a BAA and enable access the same day.\n\nFor any other questions or feedback, email us directly at [founders@hanji.dev](mailto:founders@hanji.dev).",
+      "url": "https://www.ycombinator.com/launches/S7J-hanji-turn-your-hardest-documents-into-reliable-data",
+      "votes": 16,
+      "created_at": "2026-07-28T17:32:44.891Z"
+    },
+    {
+      "id": 90256,
+      "title": "YouLearn - An AI tutor personalized to each student",
+      "tagline": "YouLearn turns your learning materials into concise notes, an AI tutor you can talk to, and personalized tests",
+      "body": "Hey everyone! We’re [Achyut](https://www.linkedin.com/in/achyut-byanjankar/), [David](https://www.linkedin.com/in/david-yu-871202244/), and [Soami](https://www.linkedin.com/in/soamikapadia/) from [YouLearn](https://www.youlearn.ai/).\n\n# **TL;DR**\n\nYouLearn is an AI tutor personalized to each student. In the last **eight months**, we’ve grown from **$1K to $70K MRR**, with **150,000 monthly active users**, by providing concise notes, an AI tutor you can talk to, and personalized tests based on your learning materials.\n\nhttps://youtu.be/wVkQXY49JiE\n\n# **📍 How we started**\n\nWe met two weeks into college and started hacking on projects in our dorm. By sophomore year, we were fed up with watching **long, outdated lecture videos** and reading **dense textbooks**, only to forget a few days later. Generic AI tools gave **quick answers**, but those shortcuts left us with only **surface-level understanding**. We kept **cramming before exams**, forgetting most of it soon after, and repeating the same cycle.\n\n# **💻 What we built**\n\nOut of that frustration, we built **YouLearn**. Upload any learning material, and YouLearn turns it into **clear notes**, an **AI tutor** that walks you through the topic, and **adaptive quizzes** to help you remember. Learning is now **faster, easier, and more memorable.**\n\n![uploaded image](/media/?type=post&id=90256&key=user_uploads/1378551/166ca331-2283-486c-a7a4-074ae4ea4c86)\n\n# **🧑‍🎓 Why students choose YouLearn**\n\n* **Designed by students, for students:** As recent undergrads, we lived the stress of college life, so we built YouLearn’s AI tutor and quizzes to solve these challenges.\n* **Everything in one place:** One upload instantly delivers notes, an AI tutor, and quizzes. No more bouncing between ChatGPT, Quizlet, Notion, etc.\n* **Made for exam success:** Take practice tests with full answer breakdowns, track your progress, and pinpoint your weak spots (e.g, “Review Page 42, paragraph 1”).\n\n# **📚 Building a better way to study**\n\nToday, over **150,000 students use YouLearn each month** to study smarter, with more than **2.2 million+ learning materials uploaded.** One med student told us he didn’t think AI could do this until he started **acing exams with perfect scores** across multiple courses. His friend jumped from **60% to 90%** using YouLearn, and now **four of his classmates have upgraded**. As he puts it:\n\n> I got better grades than people that went to class. Because literally for me, it's my tutor.\n\nThis is just the start. We believe **every student will have a personal AI tutor**, and we’re building the one they’ll never want to miss a class on.\n\n# **🙏 Our ask**\n\nIf you're a student or learning something new, try [YouLearn](https://www.youlearn.ai/) and share your feedback at [founders@youlearn.ai](mailto:founders@youlearn.ai) :)\n\n![uploaded image](/media/?type=post&id=90256&key=user_uploads/1378551/18df7d7a-a9b5-4b1a-8c1b-aeeba480dab8)\n\n",
+      "url": "https://www.ycombinator.com/launches/NTk-youlearn-an-ai-tutor-personalized-to-each-student",
+      "votes": 129,
+      "created_at": "2025-05-09T23:00:17.603Z"
+    }
+  ]
+}

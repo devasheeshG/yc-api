@@ -1,0 +1,122 @@
+{
+  "id": 31260,
+  "name": "Copperlane",
+  "slug": "copperlane",
+  "former_names": [
+    "Sevenfold",
+    "Rhombal",
+    "Coevolved"
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/f6c74fb63a006045b5124e1949931ca658a4aafd.png",
+  "website": "https://www.copperlane.ai",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "Copperlane helps mortgage lenders accelerate the loan process and reduce mistakes in an application. We use AI agents to understand an applicant's profile, verify their documents, and complete initial underwriting tasks.",
+  "one_liner": "Agentic Mortgage Origination",
+  "team_size": 3,
+  "industry": "Fintech",
+  "subindustry": "Fintech -> Credit and Lending",
+  "launched_at": 1768253497,
+  "tags": [],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": true,
+  "nonprofit": false,
+  "batch": "Winter 2026",
+  "status": "Active",
+  "industries": [
+    "Fintech",
+    "Credit and Lending"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/copperlane",
+  "api": "https://devasheeshg.github.io/yc-api/batches/winter-2026/copperlane.json",
+  "year_founded": 2025,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/copperlane/",
+  "x_url": "https://x.com/copperlaneai",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/f6c74fb63a006045b5124e1949931ca658a4aafd.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Harshita Arora",
+    "url": "https://www.ycombinator.com/people/harshita-arora"
+  },
+  "founders": [
+    {
+      "user_id": 1705932,
+      "full_name": "Athan Zhang",
+      "title": "Founder/CEO",
+      "founder_bio": "Cofounder & CEO @ Copperlane",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/athanzhang/",
+      "x_url": "https://x.com/athanzxyt",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/b2fada970b561d35b032565902b9cb852620f0fb.jpg"
+    },
+    {
+      "user_id": 3082094,
+      "full_name": "Brianna Lin",
+      "title": "Founder",
+      "founder_bio": "Co-Founder & COO @ Copperlane | UPenn M&T",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/brianna-lin/",
+      "x_url": "https://x.com/briannajlin",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/e148d2875818d32cc7e0c320484c5f1107da51b8.jpg"
+    }
+  ],
+  "jobs": [
+    {
+      "id": 111227,
+      "title": "Founding Software Engineer",
+      "url": "https://www.ycombinator.com/companies/copperlane/jobs/RW3yRBp-founding-software-engineer",
+      "location": "San Francisco, CA, US",
+      "type": "Full-time",
+      "role": "Engineering",
+      "role_type": "Backend",
+      "salary_range": "$140K - $220K",
+      "equity_range": "0.50% - 2.00%",
+      "experience": "1+ years",
+      "visa": "US citizen/visa only",
+      "skills": [
+        "Amazon Web Services (AWS)",
+        "PostgreSQL",
+        "Python",
+        "React",
+        "TypeScript"
+      ]
+    }
+  ],
+  "news": [],
+  "launches": [
+    {
+      "id": 98441,
+      "title": "Copperlane - AI Native Mortgage Loan Origination",
+      "tagline": "We help mortgage lenders close loans faster",
+      "body": "Hey! We’re [Athan](https://www.linkedin.com/in/athanzhang/) and [Brianna](https://www.linkedin.com/in/brianna-lin/), the cofounders of [Copperlane](https://www.copperlane.ai/) (YC W26).\n\nCopperlane helps **mortgage lenders originate loans faster and eliminate intake errors**. Our AI agent Penny proactively closes loans by optimizing rate pricing, directing borrowers, and verifying docs. Loan officers receive complete files and can focus on bringing in new deals.\n\n[Copperlane Launch Video](https://youtu.be/-7Z8CI0O-GE)\n\n**The Problem**\n\nIt costs lenders $11,800 to originate a single mortgage. Most of that money is burned during intake:\n\n* Loan officer labor\n* Lost loans from confusing applications, back-and-forth, and bad rates\n* Costly mistakes from poorly structured files\n\nAll of these issues share the same root cause: people miss things. Borrowers upload the wrong documents, and lenders have to chase down borrowers to clarify details. This happens on almost every loan, every day, across 8 million loans a year.\n\n**Our Solution**\n\nCopperlane is an **AI-native loan origination system** powered by our agent, Penny, who behaves like a real loan officer by:\n\n1. Pulling borrower documents, reading them, and checking borrower loan eligibility\n2. Answering borrower questions live and helping them complete the loan application correctly\n3. Flagging missing documents or conflicting information and following up with borrowers\n4. Generating Letters of Explanation and building context around the applicant's financial profile\n\nPenny delivers complete, organized files to Loan Officers, so they can spend more time closing and bringing in business.\n\n**The Team**\n\nWe’re friends from the same hometown area, and we both come from mortgage families. \n\n* **Athan Zhang - CEO:**\n\n  Studied CS at Princeton. Ex-quant developer and 2x founding team at startups.\n* **Brianna Lin - COO:**\n\n  Studied CS and Finance at Penn M&T. Ex-Wall St. trader and 1st hire at prev. startup\n\n![uploaded image](/media/?type=post&id=98441&key=user_uploads/3082094/6e5874c4-9e0e-4bf0-9695-6cf967dbce94)\n\n**Our Ask**\n\nIf you KNOW ANYONE in mortgage lending who's frustrated with origination costs, cycle times, or loan fallout, we'd really appreciate an intro. ❤️\n\nYou can reach us at [founders@copperlane.ai](mailto:founders@copperlane.ai), or book a demo at [copperlane.ai](http://copperlane.ai). Thanks for reading! :)\n\nCarpe diem,\n\nAthan and Brianna",
+      "url": "https://www.ycombinator.com/launches/Pbl-copperlane-ai-native-mortgage-loan-origination",
+      "votes": 16,
+      "created_at": "2026-03-04T07:38:43.342Z"
+    },
+    {
+      "id": 97631,
+      "title": "Q2Q - AI Native Deal Sourcing for Private Equity",
+      "tagline": "We help deal teams find acquisition targets faster",
+      "body": "Hey! We’re [Brianna](https://www.linkedin.com/in/brianna-lin/) and [Claire](https://www.linkedin.com/in/claire-wu-2b30b6184/), cofounders of [Q2Q](https://www.tryq2q.com/) (YC W26).\n\nAt Q2Q, **you tell us the types of companies you want to buy, and we'll get qualified meetings booked for you**. Behind the scenes, we find private companies and run personalized outreach to get you first calls scheduled with off-market opportunities.\n\n[Q2Q Launch Video](https://youtu.be/am_2jrJbvWQ)\n\n**The Problem**\n\nProprietary sourcing is extremely manual for deal teams. Firms typically hire a mini army of juniors to do it for them, and the quality of output is inconsistent.\n\n* It takes a ton of time to hire and train analysts to run sourcing\n* Sourcing is a repetitive loop… research the company, write a custom email, then cold reach out to them\n* The entire industry relies on the same databases, so owners get flooded with the same generic outreach\n\n**Q2Q’s Solution**\n\nWe’re your team of AI analysts that gets you first calls booked with companies you want to buy. We handle:\n\n1. **Sourcing:** Tell us about your thesis. We’ll go find and qualify companies that match your buying criteria. \n2. **Outreach:** We pull owner contact info and research each company across the web and their socials to customize each outreach message.\n3. **AI Phone Agent:** Our AI agent can directly dial business owners and ask for their availability and contact info for a first meeting.\n4. **Bookings:** As owners respond, we book the intro calls for you. You can see meetings populate on your calendar with notes prepared by our team.\n\n**The Team**\n\nWe met through Penn’s M&T Program, where we both studied CS and Finance in Wharton.\n\n* **Brianna Lin - CEO**\n\n  Previously at a software PE buyout shop and Jefferies\n* **Claire Wu - CTO**\n\n  Worked as a hedge fund engineer and in product at Qualtrics\n\n![uploaded image](/media/?type=post&id=97631&key=user_uploads/3082094/ca53e7e8-7862-4c76-a580-b99052252693)\n\n**Our Ask**\n\nIf you answer “yes” to any of these, we’d appreciate your help!:\n\n* Can you introduce us to anyone in private equity, M&A, or the independent sponsor space who runs outbound deal sourcing?\n* Can you introduce us to any MBA friends or search fund guys looking for acquisitions?\n\nYou can reach us at [brianna@tryq2q.com](mailto:brianna@tryq2q.com) or [claire@tryq2q.com](mailto:claire@tryq2q.com), or sign up for a demo at [tryq2q.com](http://tryq2q.com). Thanks for reading! :)",
+      "url": "https://www.ycombinator.com/launches/POh-q2q-ai-native-deal-sourcing-for-private-equity",
+      "votes": 52,
+      "created_at": "2026-02-08T19:11:32.904Z"
+    }
+  ]
+}

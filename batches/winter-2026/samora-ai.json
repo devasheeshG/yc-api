@@ -1,0 +1,99 @@
+{
+  "id": 31206,
+  "name": "Samora AI",
+  "slug": "samora-ai",
+  "former_names": [
+    "Samora.ai"
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/6eaba07a75fd30d319628002a37abd8993ba036e.png",
+  "website": "https://samora.ai/",
+  "all_locations": "",
+  "long_description": "Samora runs multilingual voice operations for organizations with high-volume calling without requiring engineering teams, call centers, or AI expertise.\r\n\r\nMany important tasks still depend on phone calls, including customer support, outreach, follow-ups, screening, and intake. But voice AI often fails in production because real callers interrupt, go off-script, switch languages mid-sentence, and speak in local dialects. Teams also worry about safety and compliance, especially when an agent can accidentally make the wrong promise.\r\n\r\nSamora solves this with voice agents that sound local and follow strict rules. Samora agents handle inbound and outbound calls, collect information, and update internal systems like CRMs, ticketing tools, and ATS platforms. When a call becomes sensitive or uncertain, the agent hands off to a human. It can also follow up over WhatsApp, SMS, or email when needed.\r\n\r\nWith Samora, teams get:\r\n1. Voice agents that work in real conversations, including dialects and code-switching\r\n2. Strict safety controls so agents don’t make unauthorized offers, discounts, or promises\r\n3. Calls that result in completed actions, system updates, and safe human handoff",
+  "one_liner": "Multilingual voice agents that outperform humans",
+  "team_size": 8,
+  "industry": "B2B",
+  "subindustry": "B2B",
+  "launched_at": 1770130182,
+  "tags": [],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Winter 2026",
+  "status": "Active",
+  "industries": [
+    "B2B"
+  ],
+  "regions": [
+    "Remote",
+    "Partly Remote"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/samora-ai",
+  "api": "https://devasheeshg.github.io/yc-api/batches/winter-2026/samora-ai.json",
+  "year_founded": 2025,
+  "city": null,
+  "country": null,
+  "linkedin_url": "https://www.linkedin.com/company/107151277",
+  "x_url": "",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/6eaba07a75fd30d319628002a37abd8993ba036e.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Tyler Bosmeny",
+    "url": "https://www.ycombinator.com/people/tyler-bosmeny"
+  },
+  "founders": [
+    {
+      "user_id": 709287,
+      "full_name": "Kartik Sawhney",
+      "title": "Founder/CEO",
+      "founder_bio": "Engineer turned product manager turned founder. Building multilingual voice agents that automate workflows and escalate to humans when needed. Stanford CS, experience at Microsoft, IBM and Uber, scaled products to 500k+ users from 80+ countries.",
+      "is_active": true,
+      "linkedin_url": "https://linkedin.com/in/kartiksawhney",
+      "x_url": "https://twitter.com/kartiks22",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/dfdd2b176795b0f6a346d1b07121a3718635ab61.jpg"
+    },
+    {
+      "user_id": 1193557,
+      "full_name": "Vineeth Kumar",
+      "title": "Founder/CTO",
+      "founder_bio": "Co-founder at Samora AI, a platform for businesses to build voice AI agents for automated communication. Former first engineer at a fintech startup where he helped grow the product from 0 to 50k+ users. Previously co-founded a design & development agency in college and launched an edtech startup, Audify. CS graduate from BITS Pilani.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/vineeth-kumar/",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/dfc58347f7f57f81437d515a1cba6cc0562baf61.jpg"
+    },
+    {
+      "user_id": 1013600,
+      "full_name": "Shakul Raj Sonker",
+      "title": "Founder/COO",
+      "founder_bio": "Building multilingual AI voice agents for real-world business operations. Previously, co-founded an AI-driven accessibility platform, funded and supported by Microsoft, GSMA, UNICEF, and Meta. Studied Maths and CS at Ashoka University and worked as a AI engineer at a fintech.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/shakul-sonker-672626121",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/d4e49aee53522860ed293ab2f244de0e882b0e93.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 98385,
+      "title": "Samora: Multilingual and Production Grade Voice Agents",
+      "tagline": "Natural sounding multilingual voice agents, built for reliability",
+      "body": "# **TL;DR**\n\n[Samora](https://samora.ai/) runs multilingual, domain-aware AI voice agents for real inbound and outbound phone calls. We own deployment, monitoring, compliance guardrails, observability, and human escalation so companies don’t have to operate voice agents themselves.\n\n Our Launch Video: <https://youtu.be/YgXGz0OOvG8>\n\n# **The Problem**\n\nPhone calls still power core workflows: customer support, collections, verification, recruiting, outreach, feedback, and much more.\n\nIn production, calls are unpredictable. People interrupt. They switch languages mid-sentence. They use dialects. Audio quality is inconsistent. There is background noise. Networks drop. Conversations are policy-sensitive, and one wrong response can create compliance risk.\n\nVoice AI platforms make it easier to build agents. But once live, someone still has to manage runtime behavior, monitor edge cases, enforce policies, investigate failures, and handle escalation.\n\nMost teams do not want to build an internal AI voice operations function.\n\nWe learned this the hard way while scaling a voice agent to thousands of users across India as part of a national helpline. Linguistic diversity, code-switching, choppy lines, and local infrastructure constraints quickly exposed the gap between a working demo and a production system. Reliability, observability, and controlled escalation became non-negotiable.\n\n \n\n# **The Solution**\n\nSamora operates multilingual AI voice agents in production environments.\n\nWe handle:\n\n* Code-switching and dialect-heavy conversations\n* Strict policy enforcement and compliance controls\n* CRM, ATS, and ticketing integrations\n* Turn-level observability and structured explainability\n* Managed human escalation using trained Samora human operators when conversations become sensitive or uncertain\n\nCalls are fully logged and auditable. Customers can see what the agent heard, what rule was applied, what action was taken, and why it escalated.\n\nToday, Samora supports paying customers across financial services, recruitment, healthcare, consumer goods, automotive, and government workflows. In production, we have achieved 80 percent First Contact Resolution in support use cases, a 12 percent lift in collection rates for an auto finance company, and reached 100,000+ candidates while saving 1,700 recruiter hours.\n\n**_Most pilots go live in under a week._**\n\n If you operate high call volumes and do not want to own deployment, monitoring, and escalation of AI voice agents, reach us at [founders@samora.ai](mailto:founders@samora.ai).\n\n\\\nWe welcome introductions to teams facing similar challenges.\n\n ",
+      "url": "https://www.ycombinator.com/launches/Par-samora-multilingual-and-production-grade-voice-agents",
+      "votes": 56,
+      "created_at": "2026-03-03T05:16:24.363Z"
+    }
+  ]
+}

@@ -1,0 +1,121 @@
+{
+  "id": 31212,
+  "name": "Constellation Space",
+  "slug": "constellation-space",
+  "former_names": [
+    "Constellation"
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/507992dfdd26c7120b018a48e02b63f2dbff68b3.png",
+  "website": "https://constellation.space/",
+  "all_locations": "Seattle, WA, USA",
+  "long_description": "Constellation Space is building the autonomous infrastructure layer for the next generation of space networking. As satellite constellations rapidly scale from hundreds of nodes to tens of thousands, traditional ground-based orchestration fundamentally breaks down. ConstellationOS bridges this gap by providing zero-intervention network handoffs, predictive thermal load-balancing, and sub-second optical routing.\r\n\r\nOur founding team spent years building and operating satellite systems at SpaceX, Blue Origin, and NASA. We started Constellation to solve the problem we kept running into: reactive monitoring doesn't scale.\r\n\r\nWe are building the sub-second routing protocols and hyperscale load-balancing infrastructure that will manage the future of off-world telecommunications and compute. \r\n\r\nhello@constellation-io.com",
+  "one_liner": "AI operating system for mega-scale satellite networks. ",
+  "team_size": 4,
+  "industry": "B2B",
+  "subindustry": "B2B -> Analytics",
+  "launched_at": 1766273553,
+  "tags": [],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Winter 2026",
+  "status": "Active",
+  "industries": [
+    "B2B",
+    "Analytics"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/constellation-space",
+  "api": "https://devasheeshg.github.io/yc-api/batches/winter-2026/constellation-space.json",
+  "year_founded": 2025,
+  "city": "Seattle",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/constellation-io",
+  "x_url": "",
+  "fb_url": null,
+  "cb_url": "https://www.crunchbase.com/organization/constellation-space",
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/507992dfdd26c7120b018a48e02b63f2dbff68b3.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Jared Friedman",
+    "url": "https://www.ycombinator.com/people/jared-friedman"
+  },
+  "founders": [
+    {
+      "user_id": 3119155,
+      "full_name": "Kamran Majid",
+      "title": "Founder/CEO",
+      "founder_bio": "CEO @ Constellation | ex. SpaceX, NASA",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/kamran-majid/",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/0b55aba3060972ad1893265732935d1836f5c9eb.jpg"
+    },
+    {
+      "user_id": 1939138,
+      "full_name": "Laith Altarabishi",
+      "title": "Founder",
+      "founder_bio": "Building Constellation - AI for satellite mission assurance.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/laithaustin/",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/d5074d3252031ff6085f40f1dd5ea189f3a32f3b.jpg"
+    },
+    {
+      "user_id": 3119165,
+      "full_name": "Raaid Kabir",
+      "title": "Founder",
+      "founder_bio": "building constellation | prev. @ blue origin",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/raaid-kabir/",
+      "x_url": "https://x.com/raaidkabir",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/53a5212c96991869ce04abca0f964331c59f64e3.jpg"
+    },
+    {
+      "user_id": 1939094,
+      "full_name": "Omeed Tehrani",
+      "title": "Founder/COO",
+      "founder_bio": "co-founder of constellation space ",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/omeedtehrani",
+      "x_url": "https://x.com/omeedtehrani",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/39db054c865b934cc65c9d52710716dfb9157636.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [
+    {
+      "title": "Meet The New Y-Combinator Startups Poised To Change Tech",
+      "url": "https://www.forbes.com/sites/dariashunina/2026/03/16/21-most-promising-startups-from-y-combinators-latest-batch/",
+      "date": "Mar 16, 2026"
+    },
+    {
+      "title": "Startup Radar: Meet 5 new early stage tech companies in Seattle – GeekWire",
+      "url": "https://www.geekwire.com/2025/startup-radar-meet-5-new-early-stage-tech-companies-building-in-seattle/",
+      "date": "Nov 21, 2025"
+    }
+  ],
+  "launches": [
+    {
+      "id": 96699,
+      "title": "Constellation — The Operating System for Space",
+      "tagline": "We're building AI for satellite mission assurance. ",
+      "body": "## **TL;DR**\n\nConstellation is an AI-powered operating system for satellite constellation management. We predict link failures before they happen (90%+ accuracy) and autonomously reroute traffic in under 2 seconds—zero data loss, zero human intervention.\n\n<https://youtu.be/QCmIZzADXzI>\n\n---\n\n## **The Problem**\n\nThere are 10,000 satellites in orbit today. There will be 70,000 by 2030.\n\nNetwork failures already cost the industry **$2.5 billion per year**—and the old model of managing these networks manually doesn't scale to thousands of satellites.\n\nToday's satellite operators are stuck in reactive mode: something breaks, engineers scramble, data gets lost, SLAs get violated. The tools were built for a world with dozens of satellites, not thousands.\n\nAs constellations grow, the complexity compounds. Weather events, atmospheric interference, traffic spikes, hardware degradation—all happening across a global network, 24/7. No human team can monitor and respond fast enough.\n\n---\n\n## **The Solution**\n\nConstellationOS is an AI-driven operating system that makes satellite networks autonomous and resilient.\n\n**What it does:**\n\n* **Ingests telemetry** from satellites, ground stations, and weather systems—over 100,000 messages per second\n* **Predicts failures** using advanced ML models (atmospheric, signal quality, network topology, traffic patterns)\n* **Autonomously acts** to reroute traffic, execute handoffs, and rebalance load—all in under 2 seconds\n\nThink of it as autopilot for your satellite network. We give you a 5-minute early warning window before failures happen, then handle the response automatically.\n\n**The result:** Zero data loss. Zero human intervention. Massive cost savings.\n\n![uploaded image](/media/?type=post&id=96699&key=user_uploads/3119155/e124d84e-3575-4be4-8460-e95f51f36d54)\n\n---\n\n## **Why Us**\n\nOur team has worked on this exact problem for years at **SpaceX**, **Blue Origin**, and **NASA**. We've seen firsthand how current tools break down at scale—and we've built the systems that need to replace them.\n\n![uploaded image](/media/?type=post&id=96699&key=user_uploads/3119155/dddc1558-c6af-474e-8c06-11bf56e91b0f)\n\nWe're not theorizing about satellite operations. We've lived it.\n\n---\n\n## **Traction**\n\nWe're currently in the design partner phase testing with a couple of commercial/government operators.\n\n---\n\n## **Ask**\n\nIf you're **operating a satellite constellation**—whether defense, commercial broadband, Earth observation, or IoT—we'd love to talk.\n\nWe're looking for design partners who want to move from reactive firefighting to proactive, autonomous network management.\n\n**Book a call:** <https://calendly.com/kamran-constellation-io/15-minute-demo-call>\\\n**Say hi!:** [hello@constellation-io.com](https://mailto:hello@constellation-io.com)\n\n---\n\nWe're Constellation, and we're building the operating system for space.\n\n---\n\n---\n\n---\n\n---\n\n![uploaded image](/media/?type=post&id=96699&key=user_uploads/3119155/124cef60-6956-4d35-b28f-21d6da6f7329)\n\n—\n\nKamran Majid, Raaid Kabir, Omeed Tehrani, Laith Altarabishi (Constellation, W26)",
+      "url": "https://www.ycombinator.com/launches/P9f-constellation-the-operating-system-for-space",
+      "votes": 46,
+      "created_at": "2026-01-12T08:11:01.884Z"
+    }
+  ]
+}

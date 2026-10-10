@@ -1,0 +1,87 @@
+{
+  "id": 31186,
+  "name": "End Close",
+  "slug": "end-close",
+  "former_names": [],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/702a69de8be0ca705211d6f2e524faee924e5bb8.png",
+  "website": "https://endclose.com",
+  "all_locations": "",
+  "long_description": "End Close builds automatic reconciliation for payments companies like fintechs, marketplaces, banks and payroll companies. Reconciliation helps companies track every dollar and resolve every exception, ensuring they have no money loss, can report audit ready financials, and stay compliant.\r\n\r\nSean (CEO) spent the last 6 years building the reconciliation org at Modern Treasury (S18), processing a trillion dollars in payments across 40 banks with 99.995% automation. Fast growing companies like Modern Treasury are forced to build a solution in-house or buy a legacy solution. End Close provides a modern reconciliation system that works with a company's existing stack and is managed by AI agents.\r\n\r\nException handling is where 99% of the manual work happens today, payment ops teams spend hours gathering context across various data sources to investigate each ticket. End Close provides an AI ops agent that connects to a company's data warehouse, invoicing platform and payment processors to triage and resolve issues without human intervention.\r\n\r\nLegacy providers only provide reconciliation for month end close applications. End Close continuously reconciles with developer friendly APIs, allowing teams to integrate real time payments data within their products to create product experiences for customers like faster balance top-ups, instant trading etc. \r\n\r\nNew payment rails and agent-to-agent payments are increasing online transaction volumes, making reconciliation a growing challenge for companies. David (CTO and 2nd time YC founder) most recently built these kinds of high-scale ingestion pipelines when starting and leading error tracking at PostHog (W20), the fastest growing product in the company's history.",
+  "one_liner": "AI powered reconciliation for high-volume payments companies",
+  "team_size": 2,
+  "industry": "B2B",
+  "subindustry": "B2B -> Finance and Accounting",
+  "launched_at": 1771459857,
+  "tags": [],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Winter 2026",
+  "status": "Active",
+  "industries": [
+    "B2B",
+    "Finance and Accounting"
+  ],
+  "regions": [
+    "Unspecified"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/end-close",
+  "api": "https://devasheeshg.github.io/yc-api/batches/winter-2026/end-close.json",
+  "year_founded": 2026,
+  "city": null,
+  "country": null,
+  "linkedin_url": "https://www.linkedin.com/company/endclose",
+  "x_url": "https://x.com/endclosehq",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/702a69de8be0ca705211d6f2e524faee924e5bb8.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Brad Flora",
+    "url": "https://www.ycombinator.com/people/brad-flora"
+  },
+  "founders": [
+    {
+      "user_id": 348419,
+      "full_name": "Sean Bolton",
+      "title": "Founder/CEO",
+      "founder_bio": "Sean is the co-founder and CEO of End Close.\n \nSean was the third hire at Modern Treasury (S18) where he spent 6 years as the tech lead of payments engineering before building and running the reconciliation org. While there he scaled the product to $350B in annual payments volume and $1T in annual reconciliation volume with 99.995% automation.\n",
+      "is_active": true,
+      "linkedin_url": "https://linkedin.com/in/boltonsean",
+      "x_url": "https://x.com/SeanBolton",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/a6c165b218a771e49fc13565d7af6281baaacfd4.jpg"
+    },
+    {
+      "user_id": 85503,
+      "full_name": "David Newell",
+      "title": "Founder",
+      "founder_bio": "David is the co-founder and CTO of End Close.\n\nBefore End Close, David was the team lead at PostHog (W20) for the error tracking product which became the fastest growing in the companies history. David previously founded Unflow (S19) and has worked as a product engineer at Intercom and Basecamp.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/dnewell1/",
+      "x_url": "https://x.com/DavidNewell95",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/6937245c87524ff51e10e25cb81d87012974e3fe.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 98256,
+      "title": "End Close: Solving payments reconciliation with AI Agents",
+      "tagline": "AI powered reconciliation at scale",
+      "body": "**TLDR**\n\nEnd Close is building automatic reconciliation for payments companies, replacing manual ops work with AI agents that automatically investigate and resolve every exception.\n\nOur team has 6 years of experience building systems to reconcile a trillion dollars annually.\n\n<https://youtu.be/5xral3GHBVs>\n\n**The Problem**\n\nEvery day, ops teams at payments companies spend hours manually investigating exceptions - transactions that didn't match, funds that can't be accounted for, discrepancies across banks, processors, and ledgers. Legacy reconciliation tools weren't built for this. They were designed for month-end close, not real-time fintech infrastructure. And the cost of getting it wrong is real: lost money, unreliable financials, and compliance exposure.\n\n**The Solution**\n\nEnd Close continuously ingests records from your banks, processors, and data warehouse - so exceptions are caught as soon as they arise, not weeks later during month-end close.\n\nAnd unlike most reconciliation tools that only tell you something is wrong, our AI agent handles exceptions end-to-end before they have time to compound - pulling context from connected systems, finding the root cause, and resolving them without looping in your team. Hours of manual investigation become minutes of autonomous work, with full transparency into every decision.\n\n![uploaded image](/media/?type=post&id=98256&key=user_uploads/348419/736cf82d-73f6-460b-9223-a963e79187e9)\n\n![uploaded image](/media/?type=post&id=98256&key=user_uploads/348419/0bda9aa6-2278-40a3-9a62-86649664fbf0)\n\n**About Us**\n\nSean and David are the co-founders of End Close.\n\nSean spent 6 years building the reconciliation org at Modern Treasury (S18) where he was the 2nd engineering hire, processing a trillion dollars in payments across 40 banks with 99.995% automation. He has built high volume ACH and Wire origination systems and is the primary contributor of the popular open-sourced LedgerSync library for integrating with legacy ERP providers.\n\nDavid is a second time founder, having previously gone through YC S19 with Unflow, helped creators earn $100k+ selling live classes online during COVID. Since then he led the error tracking team at PostHog (W20). He was responsible for launching and growing the product to thousands of customers in its first 6 months, the fastest growing in the company’s history. He also has experience as a product engineer at Intercom and Basecamp\n\n![uploaded image](/media/?type=post&id=98256&key=user_uploads/348419/a80251f9-c9b1-4dd7-933d-7b839bc0d243)\n\n**Our Asks**\n\nIf you team is unhappy with legacy solutions like Blackline or your ops team is wasting time manually reconciling payments, [talk to us today](https://calendly.com/sean-endclose/end-close-book-a-demo)",
+      "url": "https://www.ycombinator.com/launches/PYm-end-close-solving-payments-reconciliation-with-ai-agents",
+      "votes": 10,
+      "created_at": "2026-02-27T07:25:56.636Z"
+    }
+  ]
+}

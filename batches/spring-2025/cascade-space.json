@@ -1,0 +1,120 @@
+{
+  "id": 30556,
+  "name": "Cascade Space",
+  "slug": "cascade-space",
+  "former_names": [
+    "Heliosphere Network Corporation"
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/36e55270dbc5bebe580db836e83f643f2121440a.png",
+  "website": "https://cascadespace.com",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "Cascade Space is building the commercial alternative to the Deep Space Network. Our first ground station, Earth Station Zero, will be online and downlinking data from the Moon in 2026, with plans to scale to a full global network by 2028.",
+  "one_liner": "Commercial alternative to the Deep Space Network",
+  "team_size": 7,
+  "industry": "Industrials",
+  "subindustry": "Industrials -> Aviation and Space",
+  "launched_at": 1746647881,
+  "tags": [
+    "Hard Tech",
+    "Hardware",
+    "SaaS",
+    "Aerospace",
+    "Industrial"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": true,
+  "nonprofit": false,
+  "batch": "Spring 2025",
+  "status": "Active",
+  "industries": [
+    "Industrials",
+    "Aviation and Space"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/cascade-space",
+  "api": "https://devasheeshg.github.io/yc-api/batches/spring-2025/cascade-space.json",
+  "year_founded": 2025,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/cascade-space/",
+  "x_url": "https://x.com/cascade_space",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/36e55270dbc5bebe580db836e83f643f2121440a.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Tom Blomfield",
+    "url": "https://www.ycombinator.com/people/tom-blomfield"
+  },
+  "founders": [
+    {
+      "user_id": 222992,
+      "full_name": "Jacob Portukalian",
+      "title": "Founder/CEO",
+      "founder_bio": "Cascade was founded by Jacob Portukalian, architect of comms systems at SpaceX, Tyvak, and Astra. He has assembled a team of elite space engineers to scale communications infrastructure for the next generation of space exploration companies.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/jacob-portukalian",
+      "x_url": "https://x.com/jportukalian",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/ec0d743fbdca8073e2272c94f64f25dc2b4502bc.jpg"
+    },
+    {
+      "user_id": 2222230,
+      "full_name": "Arlen Abraham",
+      "title": "Founder",
+      "founder_bio": "Arlen is a deep generalist who thrives at the interfaces between hardware, software/firmware, product, and business. He brings a wealth of technical and leadership experience, not only from the aerospace industry, but also from consumer goods, communications, and energy.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/arlenabraham/",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/33d4c97f7c373e420260fa770b8870398e382c7e.jpg"
+    }
+  ],
+  "jobs": [
+    {
+      "id": 94460,
+      "title": "Senior Mechanical Engineer",
+      "url": "https://www.ycombinator.com/companies/cascade-space/jobs/oD1pldv-senior-mechanical-engineer",
+      "location": "San Francisco, CA, US",
+      "type": "Full-time",
+      "role": "Engineering",
+      "role_type": "Mechanical",
+      "salary_range": "$150 - $190",
+      "equity_range": "",
+      "experience": "3+ years",
+      "visa": "US citizen/visa only",
+      "skills": []
+    }
+  ],
+  "news": [],
+  "launches": [
+    {
+      "id": 96236,
+      "title": "Cascade Designer - Spacecraft communication system design software",
+      "tagline": "Elite company tools designed for tiny teams",
+      "body": "https://youtu.be/cPNXStE7LcE\n\nCascade Space was founded to build the ground station company of the future. But lack of large dishes is not the only thing broken about space communications, so are the design tools. \n\nIndustry standard spreadsheets are painful to build and maintain and error prone, but they can at least get you started. That said, they completely break down once you need to predict how your spacecraft will perform in real world dynamic environments, analyzing multiple variations of a system, or sharing and keeping the design updated across teams.\n\n![uploaded image](/media/?type=post&id=96236&key=user_uploads/222992/5bdf36f9-9f71-4796-9f12-ecbeba37d8c4)\n\nEvery space company eventually starts to build internal tooling to parse 3D antenna patterns and scripts to evaluate link performance over given flight trajectories. This is usually unplanned work done by RF engineers that takes months to get even a rudimentary implementation up and running. This software is very bespoke and often brittle, and makes the tight timelines of early stage companies even tighter.\n\nAcross the industry this work gets duplicated over, and over, and over. \n\n**Enter Cascade Designer**. The pipeline is already built. Start by designing your system in a graphical interface, get your link margin with a single button click. \n\n![uploaded image](/media/?type=post&id=96236&key=user_uploads/222992/7e4a5642-dc70-4093-a7d5-5a2b1802cda3)\n\nNext, analyze entire trajectories with a single API call. \n\n![uploaded image](/media/?type=post&id=96236&key=user_uploads/222992/980c9907-784c-4861-8758-b6341afd2721)\n\nDesigns can be shared with anyone on your team through our interface\n\n![uploaded image](/media/?type=post&id=96236&key=user_uploads/222992/bec0b967-999c-4089-849f-d0c547431498)\n\nWe built this out because the customers of the best ground network need the best design tools, but we didn’t just build this for our ground station customers. Anyone designing a spacecraft for any orbit using any ground station can use it. \n\nVisit our website to learn more and book your demo: https://cascade.space/designer/",
+      "url": "https://www.ycombinator.com/launches/P2C-cascade-designer-spacecraft-communication-system-design-software",
+      "votes": 18,
+      "created_at": "2025-12-16T12:01:40.937Z"
+    },
+    {
+      "id": 90423,
+      "title": "Cascade Space - Deep space communications as a service",
+      "tagline": "Your next lunar mission just got easier!",
+      "body": "# tl;dr\n\nCascade Space is building a turn-key communications system for lunar and deep space missions. Our ground station network and integrated software tools work together to maximize uptime and availability, while reducing spacecraft iteration cycles from weeks to hours. \n\n![uploaded image](/media/?type=post&id=90423&key=user_uploads/222992/7b3a56ce-8dc0-48db-a2e5-3badb2afd893)\n\n**Why are we building this and why now?**\n\nThe Deep Space Network (DSN), NASA’s global network of ground terminals for communicating with deep space probes, is [oversubscribed by 40% and in desperate need of upgrades.](https://newspaceeconomy.ca/2024/09/02/nasas-deep-space-network-challenges-and-the-road-ahead/) The DSN is all but unavailable for most commercial operations. Companies with missions going to the Moon and beyond have to deal with a patchwork of individual dish operators for every mission, each with bespoke hardware, specs, and interfaces. Furthermore, many of these commercial providers are not able to handle the demand and [operational failures also can lead to loss of mission](https://www.astroforge.com/updates-collection/odint-mission-debrief).\n\n![uploaded image](/media/?type=post&id=90423&key=user_uploads/222992/c6aa8968-e567-42e5-8866-866414630f22)\n\n**Comms system design is fraught with peril**\n\nThe spacecraft comms system design is tightly coupled to the available ground network. Engineers spend hundreds of hours poring over datasheets, on the phone with vendors and suppliers, and endless email threads, only to put all this data into a giant spreadsheet to make sense of it. Every iteration requires not only painful attention to detail, but also in-depth esoteric knowledge of how radio frequency systems and channel coding schemes work in order to accurately predict in-flight performance. Simple misunderstandings can lead to catastrophic errors in design and configuration.\n\n![uploaded image](/media/?type=post&id=90423&key=user_uploads/222992/1623d16f-4789-4793-892f-2c7adffc84a7)\n\n**End-to-end comms system validation often doesn’t happen**\n\nFully integrated testing between the spacecraft and ground terminal is typically cost prohibitive. Instead, engineers compare spec sheets and email configurations to the ground operators, and hope it works in flight (spoiler alert: it often doesn’t). It is routine for spacecraft to fly having never done an end-to-end test of their system with ground terminal representative hardware. The whole process is subject to human error from end to end. \n\n**This approach to space communications does not scale**\n\nCommercial space ventures beyond low earth orbit have already pushed existing infrastructure to its breaking point, and demand for deep space comms support is expected to grow exponentially over the next decade. We will not have a spacefaring future for humanity until communications for spacecraft become as easy as signing up for cable internet. \n\n**We are redefining the process, starting with spacecraft design**\n\nBetter comms starts at the beginning, in the early trade study and design phase. We are replacing industry-standard spreadsheets with a modern software tool that lets you see how your system will perform with our ground network in real time.\n\n![uploaded image](/media/?type=post&id=90423&key=user_uploads/222992/4873c5a0-9288-48fe-8d2e-a3a32f3fcad0)\n\n**Test as you fly, fly as you test**\n\nYou don’t rise to the level of your expectations, you fall to the level of your testing. We ship you a “ground station in a box,” identical to hardware we’ve installed at the ground stations you will be using, and provide you with a test plan that you can use to test your entire system end to end, with both the space vehicle and the ground terminal in the loop. \n\n**Launch with confidence**\n\nFly and operate your spacecraft. Use our API to schedule passes on our network, track your spacecraft, stream data, monitor the ground site, and access recordings.\n\n![uploaded image](/media/?type=post&id=90423&key=user_uploads/222992/2b01ca98-b6d7-4f8b-9af5-5b93b0613ef0)\n\n**We are rolling out our preliminary network rapidly**\n\nWe start by partnering with owners of dishes that are currently unused for any other telemetry applications. This allows us to build out the product and acquire customers with a minimal amount of capital. As we build out the network, we will further expand our network by strategically building our own ground stations in key locations. Our first downlink only ground stations are expected to come online in 2025, with more to follow in 2026.\n\n**We are passionate about your mission success**\n\n[Jacob](https://bookface.ycombinator.com/company/30556) and [Arlen](https://bookface.ycombinator.com/user/2222230) have solved many of these exact problems at company level scales in previous roles. Jacob was RF system architect at SpaceX and Arlen has built complex hardware/software systems his entire career. Collectively they have spent hundreds of hours in mission control, many of those hours dealing with anomalies and outright failures. They are both passionate about building the culture of excellence at Cascade that is required for flawless mission execution.\n\n**If you are struggling with comms for your upcoming mission, drop us a line. We can help.**\n\nhttps://cascade.space/",
+      "url": "https://www.ycombinator.com/launches/NWR-cascade-space-deep-space-communications-as-a-service",
+      "votes": 84,
+      "created_at": "2025-05-15T14:54:19.097Z"
+    }
+  ]
+}

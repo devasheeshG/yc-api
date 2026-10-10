@@ -1,0 +1,122 @@
+{
+  "id": 28659,
+  "name": "PeerDB",
+  "slug": "peerdb",
+  "former_names": [
+    "PeerDB Inc"
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/4a83477f0ae90481f26400baea36bd4c2fed890a.png",
+  "website": "https://peerdb.io/",
+  "all_locations": "",
+  "long_description": "At PeerDB, we are building a fast, simple and the most cost effective way to stream data from Postgres to Data Warehouses, Queues and Storage engines. If you are running Postgres at the heart of your data-stack and move data at scale from Postgres to any of the above targets, PeerDB can provide value.\r\n\r\n\r\nWe support different modes of streaming - log based (CDC), cursor based (timestamp or integer) and XMIN based. Performance wise, we are 10x faster than existing tools. Features wise, we support native Postgres features such as comprehensive set of data-types incl. jsonb/arrays/postgis, efficiently streaming toast columns, schema changes and so on.",
+  "one_liner": "Fast, native ETL for Postgres 🐘 🚀",
+  "team_size": 2,
+  "industry": "B2B",
+  "subindustry": "B2B -> Analytics",
+  "launched_at": 1686776037,
+  "tags": [
+    "Developer Tools",
+    "Open Source",
+    "Data Engineering",
+    "Enterprise Software",
+    "Databases"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Summer 2023",
+  "status": "Acquired",
+  "industries": [
+    "B2B",
+    "Analytics"
+  ],
+  "regions": [
+    "Remote",
+    "Partly Remote"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": [
+    {
+      "question": "What is the core problem you are solving? Why is this a big problem? What made you decide to work on it?",
+      "answer": "Existing ETL tools primarily focus on supporting a wide range of data-stores. However, they fall short in providing a rich experience for any two specific data-stores. This becomes evident when your workloads need scale or have demanding feature requirements. It is common for such users to try out these tools and fail – tools not meeting their performance and reliability SLAs or lacking the required features. Such users resort to developing their own in-house solutions, investing a lot of time and resources. This was a common pattern across various customers at our previous companies (Microsoft, Google)"
+    }
+  ],
+  "url": "https://www.ycombinator.com/companies/peerdb",
+  "api": "https://devasheeshg.github.io/yc-api/batches/summer-2023/peerdb.json",
+  "year_founded": 2023,
+  "city": null,
+  "country": null,
+  "linkedin_url": "https://www.linkedin.com/company/peerdb",
+  "x_url": "https://twitter.com/PeerDBInc",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/4a83477f0ae90481f26400baea36bd4c2fed890a.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Diana Hu",
+    "url": "https://www.ycombinator.com/people/diana-hu"
+  },
+  "founders": [
+    {
+      "user_id": 728174,
+      "full_name": "Sai Srirampur",
+      "title": "Founder",
+      "founder_bio": "Building world’s best data-movement experience for Postgres. Ex-Microsoft - Headed Solutions Engineering all up for PostgreSQL on Azure, Ex-Citus Data (YCS11 acq. Microsoft) - Early Engineer, IIIT-H Alumnus, He/His",
+      "is_active": true,
+      "linkedin_url": "https://linkedin.com/in/sai-krishna-s-1741b019",
+      "x_url": "https://twitter.com/saisrirampur",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/3b5faa67a88cc0f276aeb999922dbb9c96ce2114.jpg"
+    },
+    {
+      "user_id": 311868,
+      "full_name": "Kaushik Iska",
+      "title": "Founder",
+      "founder_bio": "Working on PeerDB to make the Postgres ETL story stellar. Previous work experience includes leading teams at Google, Palantir, Safegraph.",
+      "is_active": true,
+      "linkedin_url": "https://linkedin.com/in/kaushikiska",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/cd7eaf287a144feb541e7737067323cf99cfe845.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [
+    {
+      "title": "Real-time database startup ClickHouse acquires PeerDB to expand its Postgres support | TechCrunch",
+      "url": "https://techcrunch.com/2024/07/30/real-time-database-startup-clickhouse-acquires-peerdb-to-expand-its-postgres-support/",
+      "date": "Jul 30, 2024"
+    },
+    {
+      "title": "PeerDB raises $3.6 million seed funding to revolutionize data movement for PostgreSQL",
+      "url": "https://blog.peerdb.io/peerdb-raises-3-6-million-seed-funding-to-revolutionize-data-movement-for-postgresql",
+      "date": "Apr 11, 2024"
+    },
+    {
+      "title": "PeerDB raises $3.6M to accelerate PostgreSQL data movement - SiliconANGLE",
+      "url": "https://siliconangle.com/2024/04/11/peerdb-raises-3-6m-accelerate-postgresql-data-movement/",
+      "date": "Apr 11, 2024"
+    },
+    {
+      "title": "Launch HN: PeerDB (YC S23) â Fast, Native ETL/ELT for Postgres | Hacker News",
+      "url": "https://news.ycombinator.com/item?id=36895220",
+      "date": "Jul 26, 2023"
+    }
+  ],
+  "launches": [
+    {
+      "id": 72937,
+      "title": "PeerDB - Modern ETL in minutes, with SQL",
+      "tagline": "Data store-first ETL/ELT, enabling 10x faster syncs and transforms",
+      "body": "## **TL;DR**\n\nPeerDB is a Postgres-compatible SQL interface to seamlessly integrate multiple data stores. It enables data engineers to sync, transform and query data across their stores using simple SQL commands. PeerDB takes a data store native approach in engineering — enabling 10x faster ETL/ELT.\n\n## **Problem**\n\nExisting ETL/ELT tools primarily focus on supporting a wide range of connectors at the expense of delivering high-quality ones. This becomes evident when your workloads need scale or have demanding feature requirements. While Sai was working at Microsoft, it was common to see large enterprise customers try out the existing ETL tools and fail – as the tools were not meeting performance and reliability SLAs or were lacking the required features. Customers spent significant time and resources to build and manage in-house data pipelines.\n\n## **Our Solution**\n\n### Data-store nativity at its core, enabling 10x faster ETL/ELT\n\nPeerDB takes a data store-first approach to data movement. It supports highly adopted stores and implements multiple infrastructural and data store native optimizations – providing a blazing-fast and feature-rich ETL experience.\n\nWe are starting our journey by providing the world's best data integration/ETL experience for **PostgreSQL,** [one of most used and popular databases](https://db-engines.com/en/ranking_trend/system/PostgreSQL). For example, on Postgres we parallelize initial load for larger tables using CTID scans. This yields orders of magnitude speedups - Syncing 100s of GB reduces from days to minutes.\n\nOur architecture is designed for real-time syncs, which enables 10x faster Change Data Capture with data freshness of a few seconds even at large throughputs (10k+ tps). For example, in a sync from Postgres to BigQuery or Snowflake, PeerDB is 10 times faster than other tools and provides <30s data-freshness guarantees.\n\n![uploaded image](/media/?type=post&id=72937&key=user_uploads/728174/dc134471-e0d0-48c5-bbda-6d2ec339c421)\n\n### SQL as the ETL/ELT standard\n\nThe Postgres-compatible SQL layer for ETL makes the life of data engineers very easy. They can develop pipelines using a framework they are familiar with, without needing to deal with custom UIs and REST APIs. They can use [Postgres' 1000s of integrations](https://github.com/PeerDB-io/peerdb#postgres-compatible-sql-interface-to-do-etl) to build and manage ETL.\n\nWe extend Postgres' SQL grammar with a few new intuitive SQL commands to enable real-time data streaming across stores. As we evolve, we will make this grammar richer and the standard for ETL/ELT.\n\n## **Our Asks**\n\nIf PostgreSQL is a critical component of your data stack and you are running into challenges moving data in and out of Postgres, reach out to us at [founders@peerdb.io](mailto:founders@peerdb.io) or join our waitlist at <http://peerdb.io/> We would love to collaborate!\n\nAlso check out PeerDB’s Open Source repo - <https://github.com/PeerDB-io/peerdb> (don’t hesitate to leave us a star!)\n\n## **Finally, a bit about us**\n\nWe are Sai and Kaushik. We've been best buddies for the past 15 years now. We were roommates back in undergrad and actively collaborated since then. Now we have decided to start a business together! 🙂\n\n![uploaded image](/media/?type=post&id=72937&key=user_uploads/728174/4795901c-d1ac-4e3e-b565-7113c9ef3ca0)\n\nPrior to PeerDB, Sai worked at Microsoft leading Solutions Eng. for all PostgreSQL services on Azure. He was an early engineer at Citus Data (YC S11) and saw it through the Microsoft acquisition. Prior to PeerDB, Kaushik built operating systems and led data teams at Google, Safegraph and Palantir. He also represented India in ACM ICPC World Finals. With our diverse and complementary experiences, we are excited and confident to build the next-generation ETL/ELT!",
+      "url": "https://www.ycombinator.com/launches/IyP-peerdb-modern-etl-in-minutes-with-sql",
+      "votes": 60,
+      "created_at": "2023-07-11T16:24:18.528Z"
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "id": 29803,
+  "name": "Ionworks",
+  "slug": "ionworks",
+  "former_names": [
+    "Ionworks Technologies Inc"
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/9d19f43559a7c58d6263bc07ad06e83fd4ad1f0a.png",
+  "website": "https://ionworks.com/",
+  "all_locations": "Remote",
+  "long_description": "Every battery company spends tens of millions of dollars a year on experiments. Simulations that replace experiments reduce these costs but are currently underutilized in industry because they are hard to create and run. We make simulations accessible to every engineer, by helping them to create models from their own data, then run large scale simulations in the cloud to explore the full design space.",
+  "one_liner": "Simulation software used by leading battery and automotive companies",
+  "team_size": 5,
+  "industry": "Industrials",
+  "subindustry": "Industrials -> Energy",
+  "launched_at": 1721785352,
+  "tags": [],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Summer 2024",
+  "status": "Active",
+  "industries": [
+    "Industrials",
+    "Energy"
+  ],
+  "regions": [
+    "Remote",
+    "Fully Remote"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/ionworks",
+  "api": "https://devasheeshg.github.io/yc-api/batches/summer-2024/ionworks.json",
+  "year_founded": 2023,
+  "city": null,
+  "country": null,
+  "linkedin_url": "https://www.linkedin.com/company/ionworks-technologies/",
+  "x_url": "https://x.com/ionworks_",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/9d19f43559a7c58d6263bc07ad06e83fd4ad1f0a.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Gustaf Alstromer",
+    "url": "https://www.ycombinator.com/people/gustaf-alstromer"
+  },
+  "founders": [
+    {
+      "user_id": 1162906,
+      "full_name": "Valentin Sulzer",
+      "title": "Founder/CEO",
+      "founder_bio": "Created PyBaMM, the world's leading open-source battery simulation software. Now building Ionworks to make it accessible to every single battery engineer around the world. Previously PhD (Maths) at Oxford + 4 years engineering research at University of Michigan and Carnegie Mellon",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/valentinsulzer/",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/e9adfbe113b899a61410d2cb6a8fd0ae001fe4c2.jpg"
+    },
+    {
+      "user_id": 1931768,
+      "full_name": "Rob Timms",
+      "title": "Founder",
+      "founder_bio": "Co-Founder and CTO at Ionworks, building the modern software stack for batteries, powered by PyBaMM. Core developer of the leading open-source battery modelling package PyBaMM. Ex-Oxford mathematician. ",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/robertwtimms/",
+      "x_url": "https://twitter.com/robertwtimms",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/9e2678fd548a911437faf13c76ee1801bc36d0b6.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 82425,
+      "title": "Ionworks - Build and run battery simulations at scale",
+      "tagline": "Digitize your battery experiments to accelerate R&D.",
+      "body": "We provide battery-simulation-as-a-service to help battery engineers accelerate their battery design cycles by replacing experiments with simulations. We’re building this on top of [**PyBaMM,**](https://github.com/pybamm-team/PyBaMM) the world’s leading open-source battery modeling software, which was created by our team and is now used by most battery engineering teams around the world.\n\n**Our ask:** If you are a battery engineer or know one, reach out to [**info@ionworks.com**](mailto:info@ionworks.com) for a demo\n\n**Meet the team**\n\nWe ([**Valentin**](https://www.linkedin.com/in/valentinsulzer/), [**Rob**](https://www.linkedin.com/in/robertwtimms/), [**Tom**](https://www.linkedin.com/in/tom-tranter-355a1033/)) have PhDs in Maths/Chemical Engineering from Oxford/East Anglia/Leeds & UCL, and a collective 20 years of experience working on physics-based battery simulations. As academics, we were frustrated by the scientific reproducibility crisis, so we created an open-source project to share our research and hold ourselves accountable. This turned out to be something people wanted, and PyBaMM has now grown to become the leading open-source battery simulation package used by engineers in battery companies and academic labs around the world. We’re now building Ionworks to scale up this success and bring the power of digital design to every single battery engineer.\n\n![uploaded image](/media/?type=post&id=82425&key=user_uploads/1162906/8c9248b2-33cb-4cd1-a577-f564bb1f0ce6)\n\n**The Need**\n\nBatteries are a crucial technology underpinning the electrification of every application ranging from EVs to grid storage. This makes the battery market worth _$150b today (1.5% of global GDP)_, with projected growth to $680b in 10 years (4% of projected global GDP). However, batteries still need to improve massively to meet a difficult set of demands: **higher energy and power density, faster charge times, lower cost, longer lifetimes, and better safety.**\n\n![uploaded image](/media/?type=post&id=82425&key=user_uploads/1162906/ba1d3286-9e94-4cf5-a24a-8f886d18dbdd)\n\n**Why designing better batteries is difficult**\n\nBatteries come in all shapes and sizes, with complex and nonlinear effects of design inputs on performance outputs. As a result, battery engineering teams build and test thousands of physical prototypes to find the optimal design for their application. This is an expensive and time-consuming process (up to $1000 and 2 years for each individual test), which leads to **$100m/5 year battery development cycles**. This makes batteries the bottleneck in many product development cycles, such as new laptops and electric cars.\n\n**The Solution**\n\nWe’re doing for batteries what CFD (computational fluid dynamics) did for aerodynamics and CAD (computer-aided design) did for structural and electrical engineering: **move the design problem into the digital world**. Generic engineering software already exists but requires specialist knowledge and decades of experience to build battery-specific models. We’re building software that makes this process available to any battery engineer. Our solution is built for the cloud, providing the interfaces and cost models to do this at scale.\n\n![uploaded image](/media/?type=post&id=82425&key=user_uploads/1162906/00b0d1e5-e12b-4f4d-9eb7-a3e7d9deb650)\n\n**How it works**\n\nWe move battery design into the digital world using the following process:\n\n1. Collect a small amount of experimental data\n2. Parameterize (i.e. train) the physics-based model to find the parameter values that best match the experimental data\n3. Use the generated parameters to virtually explore the entire space of designs and operating conditions\n4. Pick the best candidates from the virtual experiments and test those in the physical world to validate the simulation results\n\nThe underlying physics-based models are old-school partial differential equations that describe the chemical reactions, lithium transport, and heat exchange happening inside a battery. These models generalize well from their training data, which allows us to build accurate models from small amounts of data. **Our secret sauce is that we’ve built software that makes steps 2 and 3 fast and robust.**\n\n![uploaded image](/media/?type=post&id=82425&key=user_uploads/1162906/8cd0cdec-18b1-4468-87fe-245207c3aad3)\n\n**Ask**\n\n* If you are a battery engineer or know one, reach out to [**info@ionworks.com**](mailto:info@ionworks.com) for a demo\n* Submit a [**PyBaMM Testimonial**](https://forms.gle/mZnbRFWFQdj48RFT6) for a chance to win some [swag](https://numfocus.myspreadshop.com/pybamm+logo-A65835f9218539517e7310303?productType=812&sellable=xr4nBeRpbRhJJX4enQn7-812-7)\n* Star [**PyBaMM on GitHub**](https://github.com/pybamm-team/PyBaMM)",
+      "url": "https://www.ycombinator.com/launches/LRR-ionworks-build-and-run-battery-simulations-at-scale",
+      "votes": 46,
+      "created_at": "2024-07-24T20:31:12.823Z"
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "id": 29046,
+  "name": "Elythea",
+  "slug": "elythea",
+  "former_names": [],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/bd032cddcdb63dd5b12b5be82827d23e79135094.png",
+  "website": "https://elythea.org/",
+  "all_locations": "San Diego, CA, USA",
+  "long_description": "Over 80% of maternal mortalities were preventable with earlier intervention. Currently, doctors miss >50% of moms who have life-threatening complications and wait until labor to start doing manual risk assessments, at which point it's too late.\r\n\r\nElythea's proprietary ML models catch life-threatening obstetric complications (like postpartum hemorrhage, preeclampsia/eclampsia, emergency c-section, preterm labor, and more) as soon as the first visit. We automatically analyze relevant demographic and clinical risk factors, flag high-risk patients, and provide evidence-based interventions, giving doctors months in advance to intervene and prevent complications from ever happening.\r\n\r\nOur global clinical studies have shown that we can catch 3x more complications than clinical judgment 10x sooner. ",
+  "one_liner": "ML to predict and prevent pregnancy complications ",
+  "team_size": 2,
+  "industry": "Healthcare",
+  "subindustry": "Healthcare",
+  "launched_at": 1691977453,
+  "tags": [
+    "Health Tech",
+    "Digital Health",
+    "Women's Health",
+    "AI",
+    "ML"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Summer 2023",
+  "status": "Active",
+  "industries": [
+    "Healthcare"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/elythea",
+  "api": "https://devasheeshg.github.io/yc-api/batches/summer-2023/elythea.json",
+  "year_founded": 2023,
+  "city": "San Diego",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/elythea/",
+  "x_url": "",
+  "fb_url": null,
+  "cb_url": "https://www.crunchbase.com/organization/elythea",
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/bd032cddcdb63dd5b12b5be82827d23e79135094.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [
+    "https://bookface-images.s3.us-west-2.amazonaws.com/attachments/4083a31fd1a4daa7be3cc76af34a7d013be86f8d.png"
+  ],
+  "primary_partner": null,
+  "founders": [
+    {
+      "user_id": 483063,
+      "full_name": "Reetam Ganguli",
+      "title": "Founder",
+      "founder_bio": "Got into Med school at Brown at 17, was studying to be an OBGYN, and dropped out to do Elythea. 1st authored 20+ publications, including multiple Nature journals. Previously founded and scaled a medical education organization across 30+ countries.",
+      "is_active": true,
+      "linkedin_url": "https://linkedin.com/in/reetamganguli",
+      "x_url": "https://twitter.com/ReetamGanguli",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/d4d58e1c64c1467a1d228bf705923115214b09e4.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 74096,
+      "title": "Elythea: Preventing maternal mortality with ML",
+      "tagline": "80%+ of pregnancy deaths are preventable. We use ML to catch and prevent life-threatening complications starting from the 1st visit.",
+      "body": "# **🏆 TL;DR:**\n\nDoctors miss >50% of the life-threatening complications of pregnancy. We are an ML platform that integrates into the EHR to flag high-risk patients as early as their 1st visit, so doctors can intervene months before delivery.\n\n### **❌ The Problem**\n\nOver 80% of cases of maternal mortality are preventable with earlier intervention (CDC). Risk assessments in the status quo have low high-risk detection rates, which hurt a doctor’s ability to administer preventative care and ensure safe, healthy deliveries. \n\n**Doctors currently miss more than 50% of patients who have life-threatening complications and wait until labor to start doing manual risk assessments, at which point it's too late.**\n\nEach of these complications cost providers between $3K-15K per case and can cost payors up to $75k per case. \n\n**These major pregnancy complications cost insurers >$55B annually**!\n\n**📚Quick Quiz**: Hemorrhage (excessive bleeding) is the #1 killer of moms during labor. What percent of all moms that hemorrhage do you think doctors currently identify as high risk?\n\n**✔️Answer**: 22%. Yep, in 2023, doctors have to manually tabulate a risk assessment when patients are on the delivery bed and still fail to classify >75% of hemorrhage cases as high risk. Elythea catches 2x-3x more hemorrhaging patients as early as the first visit, evolving over the course of a pregnancy with patient visits.\n\n### **🌟 Our Solution**\n\n![uploaded image](/media/?type=post&id=74096&key=user_uploads/483063/6201ae97-898f-4d97-a435-839e7178f7a1)\n\nEarlier intervention and improved clinical preparation have been shown to **prevent nearly two-thirds of severe maternal complications**. Elythea's ML models flag high-risk patients as soon as the first visit and evolve over the course of a pregnancy.\n\n**We automatically analyze relevant demographic and clinical risk factors, flag high-risk patients, and provide evidence-based interventions, giving doctors weeks to months in advance to intervene and prevent complications from ever happening**.\n\nWe predict risk for conditions like postpartum hemorrhage, preeclampsia/eclampsia, emergency C-section, preterm labor, and more.\n\nWe have completed prospective international clinical studies across USA, Cameroon, and Nigeria demonstrating that our models have better performance than current gold-standard clinical tools. **Our global clinical studies have shown that we can catch 2-3x more moms with complications than current clinical risk assessments >10x sooner.**\n\n### **📖 The Backstory**\n\nReetam was on the medical school track to be a high-risk obstetrician and read all the standard OBGYN medical textbooks. He came across this problem after interviewing 80+ obstetric providers, where the vast majority pointed him toward the direction of postpartum hemorrhage and hypertensive complications. \n\n**Reetam** previously founded Junior Medical Academy, a global medical education nonprofit accessible to students across 30+ countries, and Survivor Central, a national platform matching survivors of sexual assault/domestic violence with medical/legal/financial resources. He has 1st authored >15 accepted medical publications, including in multiple Nature Journals. He studied cancer engineering at Brown and left medical school to work on Elythea full-time. \n\n### **🙏 Asks**\n\n* **Share this post!** We want to help as many high-risk moms as possible, any intro helps!\n* Connect us with **Providers** (obstetricians and MFM doctors, obstetric private practices, and hospital C-suite executives) \n* Connect us with **Health Plans**\n* Connect us with innovative maternity care startups that can benefit from our AI models!\\\n  \\\n  _\\* quick blurb to copy & paste:_ \\\n  I came across Elythea, a YC S23 startup that uses ML to predict and prevent pregnancy complications as soon as the 1st visit! They integrate into EHR systems and flag complications like hemorrhage, preeclampsia, preterm labor, and emergency C-sections, helping to prevent them from happening. Check them out at <http://elythea.org/> or contact them at [info@elythea.org](mailto:info@elythea.org) to learn more!",
+      "url": "https://www.ycombinator.com/launches/JH6-elythea-preventing-maternal-mortality-with-ml",
+      "votes": 140,
+      "created_at": "2023-08-15T01:22:26.863Z"
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "id": 30160,
+  "name": "Quantstruct",
+  "slug": "quantstruct",
+  "former_names": [],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/64b5db172bf1cde01b3812d4221d26658881fead.png",
+  "website": "https://quantstruct.com",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "Quantstruct automatically creates and improves product documentation, implementation guides, and changelogs for API & SDK products, web-based enterprise software, and internal applications.\r\n\r\nQuantstruct identifies gaps in your knowledge base based on each product release or unfulfilled customer query. It uses multiple AI agents to search existing knowledge sources, test existing docs for validity and style guidelines, and clicks, scrolls, and uses enterprise software through a web browser to generate docs with embedded screenshots and video recordings. Quanstruct is available as a cloud service to start, targeting technical writers, content writing, professional services, and product teams.\r\n\r\nTraditional generative AI tools risk hallucinating critical API & SDK fields, even with RAG based approaches. Purely agent-based approaches risk providing unpredictable output that can diverge from desired documentation processes. Finally, no company’s review and publishing workflow is the same. Quantstruct is the easiest way to onboard and customize AI agents to continuously improve your documentation based on your customer needs and product evolution. https://quantstruct.com",
+  "one_liner": "AI documentation engineer – test & autoimprove stale product docs",
+  "team_size": 2,
+  "industry": "B2B",
+  "subindustry": "B2B",
+  "launched_at": 1736668232,
+  "tags": [
+    "Artificial Intelligence",
+    "Developer Tools",
+    "B2B",
+    "API",
+    "Automation"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Winter 2025",
+  "status": "Active",
+  "industries": [
+    "B2B"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/quantstruct",
+  "api": "https://devasheeshg.github.io/yc-api/batches/winter-2025/quantstruct.json",
+  "year_founded": 2025,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/quantstruct",
+  "x_url": "https://x.com/quantstruct",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": "github.com/quantstruct",
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/64b5db172bf1cde01b3812d4221d26658881fead.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Garry Tan",
+    "url": "https://www.ycombinator.com/people/garry-tan"
+  },
+  "founders": [
+    {
+      "user_id": 120963,
+      "full_name": "Sarthak Srinivas",
+      "title": "Founder/CEO",
+      "founder_bio": "Cofounder of Quantstruct (YC W25). Built an agent developer platform from 0 to mid-$X million as product lead while onboarding multiple Fortune 100 companies at Moveworks. Published and reviewed 1000s of documentation guide updates to support customers and internal teams, before realizing agent-based workflows could do his job. Ex-Kleiner Perkins fellow. Published research with Google Glass inventor (who coined “wearable computing”) at Georgia Tech.",
+      "is_active": true,
+      "linkedin_url": "https://linkedin.com/in/sarthaksrinivas",
+      "x_url": "https://x.com/sarthaksrinivas",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/53c8d474f7b538952351293be7419ca04ffed1f7.jpg"
+    },
+    {
+      "user_id": 1091044,
+      "full_name": "Newman Hu",
+      "title": "Founder/CTO",
+      "founder_bio": "Co-founder of Quantstruct. We're building AI agents to create the best documentation for your product. Newman previously built search infrastructure at Moveworks and Replit (YC W18), where he managed mission critical platforms powering Gen AI experiences for Fortune 500 companies. EECS @ Berkeley",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/newmanhu/",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/88254d54a8617f62e7b8bcf5ecd8f107a1e630eb.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 87136,
+      "title": "Quantstruct 🤖 – Improve Your Technical Docs 24x7 with AI Agents",
+      "tagline": "Kill documentation debt, update docs automatically, research & validate docs",
+      "body": "# **tl;dr**\n\nQuantstruct is an AI technical writer that improves your documentation 24x7 with agents to research, test, and update your docs. We already work with hypergrowth companies like [Vapi (YC W21)](https://vapi.ai) and enterprises who build API & SDK products, visual software, and platforms where nurturing a vibrant developer and partner community with bespoke docs helps you win.\n\n[Sign up to get onboarded](https://quantstruct.com) today!\n\n<https://youtu.be/smbT-M3F1vs>\n\n## **Problem**\n\nThe best product & customer teams stomach some difficult truths to serve their customers today:\n\n1. **Product & customer education demands active effort** from product and engineering experts with limited time\n2. **Teams need to understand too much** source code, support, communication threads & product specs to properly guide customers\n3. **High-quality docs require 100% validation** to test code snippets, external links, accessibility guidelines, take screenshots, and other references. Traditional Gen AI falls short.\n4. **Helping customers supersedes keeping docs up to date**\n\nThe result? **Documentation debt** - where your product and technical docs & implementation plans go increasingly out of sync.\n\nWe felt this pain thousands of times previously, when we helped Fortune 500 customers integrate with 100s of enterprise software platforms that were poorly documented. We saw how **documentation debt** could escalate customer support issues and lead to customers not adopting and championing the platform.\n\nWe also saw how paying down documentation debt could amplify each team’s impact, inspire customer love, and help nurture a community of strongly activated champions.\n\n## **Solution**\n\nQuantstruct connects to your docs platform, GitHub, and Slack to continuously update your docs\n\n1. When a **PR** occurs, Quantstruct works behind the scenes and notifies you about a companion docs update\n2. Each type of doc update can be configured with tools and agents to\n   * _Check WCAG accessibility guidelines_\n   * _Check broken links_\n   * _Take screenshots and videos_\n   * _Generate system architecture diagrams_\n   * _Validate code blocks_\n   * _and much, much more._\n3. You can manually edit the doc or provide high-level instructions, and Quantstruct updates and publishes the necessary sections without work\n4. Quantstruct’s platform will take care of the hard bits of coordinating multiple agents, self-evaluating and improving performance, following your specific review & publishing workflows\n\n## **The ask**\n\nSign up for [Quantstruct](https://quantstruct.com), and install our GitHub and Slack apps to get started! You can also reach out to [founders@quantstruct.com](mailto:founders@quantstruct.com) to guide you through the onboarding process.\n\n# **The team**\n\n**Sarthak** has worked at growth-stage companies like Moveworks as a Kleiner Perkins product fellow, where he built an agent developer platform from 0 to $2+ million.\n\n**Newman** has built search infrastructure at Moveworks and Replit (YC W18), where he managed mission-critical platforms powering Gen AI experiences for Fortune 100 companies.\n\nBoth are published researchers and patent holders from **Georgia Tech CS** and **Berkeley EECS,** respectively.\n\nWe’ve spent our careers building for developers at enterprise software companies and deeply empathize with the pressures that support, customer success, product, and GTM teams face to build world-class developer products and ecosystems.\n\n![uploaded image](/media/?type=post&id=87136&key=user_uploads/120963/9b5326c4-b1e2-4845-ae3f-1ac50417a262)\n\n",
+      "url": "https://www.ycombinator.com/launches/MfQ-quantstruct-improve-your-technical-docs-24x7-with-ai-agents",
+      "votes": 78,
+      "created_at": "2025-01-24T17:03:08.473Z"
+    }
+  ]
+}

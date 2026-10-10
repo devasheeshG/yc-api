@@ -1,0 +1,103 @@
+{
+  "id": 30762,
+  "name": "KERNEL",
+  "slug": "kernel",
+  "former_names": [
+    "Kernel"
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/0b651ae4215e55c6eec3b366c18c9dcdd7838a97.png",
+  "website": "https://www.kernel.sh",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "Kernel is crazy fast, open source infra for AI agents to access the internet 🧠🕸️\r\n- Built on unikernels for crazy fast cold starts and low resource usage\r\n- Sub-150ms cold starts on managed headful browsers\r\n- Built-in stealth mode with residential proxies and automatic CAPTCHA solving\r\n- Full observability: session recording, live view, and full logs\r\n- Persistent sessions that maintain cookies and auth across invocations\r\n- Native support for all browser and computer use frameworks\r\n- SOC 2 compliant and HIPAA-ready\r\n\r\nTrusted by Cash App, Rye, and 1000+ others. Backed by Accel & Y Combinator (S25).",
+  "one_liner": "Crazy fast, open source infra for AI agents to use the Internet",
+  "team_size": 22,
+  "industry": "B2B",
+  "subindustry": "B2B -> Infrastructure",
+  "launched_at": 1753229701,
+  "tags": [
+    "Artificial Intelligence",
+    "Developer Tools",
+    "Cloud Computing",
+    "Infrastructure"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Summer 2025",
+  "status": "Active",
+  "industries": [
+    "B2B",
+    "Infrastructure"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada",
+    "Remote",
+    "Partly Remote"
+  ],
+  "stage": "Growth",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/kernel",
+  "api": "https://devasheeshg.github.io/yc-api/batches/summer-2025/kernel.json",
+  "year_founded": 2025,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/trykernel",
+  "x_url": "https://x.com/usekernel",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": "https://github.com/onkernel",
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/0b651ae4215e55c6eec3b366c18c9dcdd7838a97.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Tyler Bosmeny",
+    "url": "https://www.ycombinator.com/people/tyler-bosmeny"
+  },
+  "founders": [
+    {
+      "user_id": 101761,
+      "full_name": "Catherine Jue",
+      "title": "Founder/CEO",
+      "founder_bio": "Co-Founder and CEO @ Kernel. Previously co-founder @ Sway Finance (S16)",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/juecd",
+      "x_url": "https://twitter.com/juecd__",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/76b95b6560f6faac427383c9b5fe708d1421927d.jpg"
+    },
+    {
+      "user_id": 26604,
+      "full_name": "Rafael Garcia",
+      "title": "Founder/CTO",
+      "founder_bio": "Co-founder and CTO at Kernel. We're making browser infra fast.\n\nPreviously co-founder and CTO at Clever (S12, exited for $500m).",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/rafgarcia/",
+      "x_url": "https://twitter.com/rfgarcia",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/70c4b460440085cf060e26d5a87677498f80b80b.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [
+    {
+      "title": "We’ve raised $22m to scale our browser infrastructure platform for AI agents",
+      "url": "https://blog.onkernel.com/series-a-announcement/",
+      "date": "Oct 09, 2025"
+    }
+  ],
+  "launches": [
+    {
+      "id": 92607,
+      "title": "Kernel: Crazy Fast Browser Infrastructure",
+      "tagline": "Browsers-as-a-service for web automations and AI agents",
+      "body": "Hey everyone! We’re Catherine and Raf, the founders of Kernel.\n\nhttps://youtu.be/vexAn3_KYvc\n\n# **🤝 TLDR:**\n\nWe make an API to instantly launch browsers in the cloud so AI can use the internet just like humans do.\n\n# **🚀 What’s Kernel?**\n\nKernel is the best place in the world to launch web agents and browser automations. We handle the hard parts of running browser infrastructure in the cloud so you don’t have to: spinning up browsers quickly, responsive read/write live view, logs, headless vs. headful mode, residential proxies, and more.\n\nOur edge is an infrastructure platform that’s **flexible, observable, and insanely fast** from day one:\n\n* **Performance** - web automations and Computer Use agents can launch and connect to Kernel browsers in 300 milliseconds\n* **Isolation x telemetry** - Kernel browsers run in isolated virtual machines and ship with live views & replays so you can see exactly what your agent saw and take control when needed\n* **Agent runtime** - launch your web agent on Kernel’s code execution platform to seamlessly connect it to a browser in the cloud\n* **Simple, clear pricing** - pay only for the resources you use. Our straightforward pricing model makes it easy to predict usage costs\n\n![uploaded image](/media/?type=post&id=92607&key=user_uploads/101761/f06a340f-9752-48c9-a20a-f952e18c403e)\n\n# **⚡️ How does it work?**\n\nKernel’s API makes it simple to launch browsers in the cloud and automate anything on the internet. **We work with any browser/web agent framework**: **Playwright, Puppeteer, Browser Use, Magnitude, and more.** Users love our platform for:\n\n* Instant **browser spin-ups** on-demand\n* **VM logs & read/write live view**\n* Video **replays**\n* **Browser session** reuse\n* **Residential proxies** and auto-CAPTCHA solvers\n* **Turn any agent into a https endpoint** — we host your agent, you invoke it on-demand with a prompt\n* & much more soon!\n\n# **👨‍💻👩‍💻 The Team**\n\nRaf and Catherine started Kernel from the shared belief that cloud infrastructure can be 100x better. We believe that well-designed, opinionated tooling unlocks superpowers, and we’re passionate about building best-in-class infrastructure for the next generation of AI applications.\n\nBefore starting Kernel, Raf was the co-founder/CTO of Clever (YC S12), which exited for $500m in 2021. Catherine was the co-founder of Sway Finance (YC S16) and most recently led Cash App’s team of forward deployed engineers and Cash App’s docs platform.\n\n# **🙏 Our Ask**\n\nIf you:\n\n* Run **browser automations**\n* **Built a web agent locally** and want to run it in production\n* Maintain **browser containers** but want to outsource the infrastructure because it’s not core to your IP\n\nCheck out [our platform](https://www.onkernel.com/) to sign-up, or schedule a demo with us [here](https://calendly.com/d/cwr7-xxq-m45).\n\n![uploaded image](/media/?type=post&id=92607&key=user_uploads/101761/bdc37fff-37ff-4eea-8a25-8bb544e1ba51)\n\n",
+      "url": "https://www.ycombinator.com/launches/O5f-kernel-crazy-fast-browser-infrastructure",
+      "votes": 34,
+      "created_at": "2025-07-31T16:55:43.448Z"
+    }
+  ]
+}

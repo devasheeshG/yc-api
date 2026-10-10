@@ -1,0 +1,103 @@
+{
+  "id": 22986,
+  "name": "OpenCode",
+  "slug": "opencode",
+  "former_names": [
+    "Anomaly Innovations",
+    "SST",
+    "Serverless Stack"
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/a12e9098cbcd6d2919062aedf0b50e9d7b6c11e3.png",
+  "website": "https://opencode.ai",
+  "all_locations": "Toronto, ON, Canada; Remote",
+  "long_description": "Built by Anomaly, makers of sst.dev, opennext.js.org, openauth.js.org, models.dev, and more.",
+  "one_liner": "The open source AI coding agent",
+  "team_size": 24,
+  "industry": "B2B",
+  "subindustry": "B2B -> Infrastructure",
+  "launched_at": 1610830891,
+  "tags": [
+    "Developer Tools",
+    "Open Source"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Winter 2021",
+  "status": "Active",
+  "industries": [
+    "B2B",
+    "Infrastructure"
+  ],
+  "regions": [
+    "Canada",
+    "America / Canada",
+    "Remote",
+    "Fully Remote"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/opencode",
+  "api": "https://devasheeshg.github.io/yc-api/batches/winter-2021/opencode.json",
+  "year_founded": 2010,
+  "city": "Toronto",
+  "country": "CA",
+  "linkedin_url": "https://www.linkedin.com/company/opencode-co",
+  "x_url": "https://x.com/opencode",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": "https://github.com/anomalyco",
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/a12e9098cbcd6d2919062aedf0b50e9d7b6c11e3.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Harj Taggar",
+    "url": "https://www.ycombinator.com/people/harj-taggar"
+  },
+  "founders": [
+    {
+      "user_id": 19096,
+      "full_name": "Jay V",
+      "title": "Founder",
+      "founder_bio": "Founder at Anomaly",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/jayair/",
+      "x_url": "https://x.com/jayair",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/556f6212499ab16d4cfb5e304fced15beb3151c2.jpg"
+    },
+    {
+      "user_id": 360122,
+      "full_name": "Frank Wang",
+      "title": "Founder",
+      "founder_bio": "Founder at SST",
+      "is_active": true,
+      "linkedin_url": "https://linkedin.com/in/fanjiewang/",
+      "x_url": "https://twitter.com/fanjiewang/",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/7575ecdfe819a1e7b437347fc28475c228f1cc4e.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [
+    {
+      "title": "Serverless Stack raises $1M for open-source application framework – TechCrunch",
+      "url": "https://techcrunch.com/2021/07/23/serverless-stack-raises-1m-for-open-source-application-framework/?tpcc=ECTW2020",
+      "date": "Jul 23, 2021"
+    }
+  ],
+  "launches": [
+    {
+      "id": 71041,
+      "title": "OpenNext — Deploy Next.js apps to AWS",
+      "tagline": "OpenNext lets you deploy a Next.js app to your AWS account with just 3 commands.",
+      "body": "**TL;DR:** _OpenNext is an open-source serverless adapter for Next.js. You can use it to deploy Next.js 13 apps to your AWS account._\n\nHi all! Today we are launching OpenNext — [https://open-next.js.org](https://open-next.js.org/). An open-source serverless adapter for Next.js. It allows you to deploy Next.js apps _serverlessly_ outside of Vercel.\n\n(We created a silly video to celebrate the launch 🤪)\n\n<https://youtu.be/k_8lBdPC3gk>\n\n### Problem\n\nEven though Next.js is designed to run in a serverless environment and does on Vercel; they make it really hard to self-host Next.js with serverless. It requires you to reverse engineer how Vercel does things internally. There have been many attempts to fix this. But most of these projects have either failed or have ended up as closed source paid services that are often buggy. [Learn more about the problem](https://open-next.js.org/).\n\n### How it works\n\nSo we decided to bring the community together and build an open-source serverless adapter for Next.js.\n\nOpenNext works by running `next build` and transforming the output to a format that can be deployed to AWS. [Learn more about how it works](https://github.com/serverless-stack/open-next#how-does-opennext-work).\n\n### Get started\n\nOpenNext generates an output that is framework agnostic but the easiest way to use it is with [SST](https://sst.dev/).\n\n* `npx create-next-app`\n* `npx create-sst`\n* `npx sst deploy`\n\nCheck out our tutorial to get started — [**https://docs.sst.dev/start/nextjs**](https://docs.sst.dev/start/nextjs) and join us on Discord if you have any questions — <https://discord.gg/sst>\n\n---",
+      "url": "https://www.ycombinator.com/launches/ITp-opennext-deploy-next-js-apps-to-aws",
+      "votes": 19,
+      "created_at": "2023-04-18T17:29:31.976Z"
+    }
+  ]
+}

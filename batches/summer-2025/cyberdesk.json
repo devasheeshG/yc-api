@@ -1,0 +1,108 @@
+{
+  "id": 30647,
+  "name": "Cyberdesk",
+  "slug": "cyberdesk",
+  "former_names": [],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/b6deea0aa4e96211ac35f75ade0705df19758a8e.png",
+  "website": "https://www.cyberdesk.io",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "Cyberdesk is the first self learning computer use agent for developers to automate desktop workflows. \r\n\r\nFor example, one of our customers is building an AI agent for hospital patient intake, and they’re using us to automate an entire team of people manually clicking and typing into a desktop app to book appointments. \r\n\r\nWe launched mid July, and our agent is already operating in production environments, creating appointments in electronic health record apps and processing files in legacy ERPs.\r\n\r\nWe’ve built the first computer use agent that memorizes tasks and repeats them quickly while still adapting to unexpected changes on the screen. A good analogy is to how humans use computers: once we get used to an app, we use it much faster, while still adapting to random popups and crashes. This new paradigm for computer use will be needed by every company automating human workflows on computers.\r\n\r\nMahmoud previously built robotic process automation solutions impacting 20K+ employees at a Fortune 100 company. He also built AI & ML solutions at Baylor College of Medicine Neuroscience & Texas Children's Hospital + co-published a paper at the Rice Networks Group. \r\n\r\nAlan is ex-NASA and previously dropped out to be the first founding engineer at a PearX startup. He is a second time founder, having previously built and scaled a consumer AI app to thousands of paying users.\r\n\r\nComputer-use agents will automate the $6T dollars spent on enterprise knowledge work and Cyberdesk will be the platform to power this.\r\n\r\nWe’d love to talk with you!\r\nhttps://cal.com/mahmoud-al-madi-klrs5s/30min",
+  "one_liner": "Self learning computer use agent for developers",
+  "team_size": 2,
+  "industry": "B2B",
+  "subindustry": "B2B -> Engineering, Product and Design",
+  "launched_at": 1749659433,
+  "tags": [
+    "Artificial Intelligence",
+    "Developer Tools",
+    "Robotic Process Automation",
+    "Workflow Automation",
+    "Enterprise Software"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Summer 2025",
+  "status": "Active",
+  "industries": [
+    "B2B",
+    "Engineering, Product and Design"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": [
+    {
+      "question": "How did your company get started? (i.e., How did the founders meet? How did you come up with the idea? How did you decide to be a founder?)",
+      "answer": "We met 2 years ago, connecting over our shared experiences at Rice, and our love of building things. We both ended up living at the same Hacker House in Menlo Park, called Incepto! We started Cyberdesk with the realization that it’s really hard to build a great computer use agent, especially when it comes to reliability, speed, and cost. We both lived in a 9×9 Airbnb room with a tiny bed and a single desk (we call it the Cyberdesk lol) and got Cyberdesk off the ground, building the MVP in a 6 days and getting a paid customer the next day through a cold email. \\\r\n\\\r\nCyberdesk was built to solve all three of the core problems with off the shelf computer use models: speed, reliability, and cost. We’re excited to deploy this architecture to the world and become the best developer framework for computer use."
+    },
+    {
+      "question": "How did you decide to apply to Y Combinator? What was your experience applying, going through the batch, and fundraising at demo day?",
+      "answer": "From the moment we started working together, we knew we wanted to go through YC together. It was a little over a month before the deadline for Summer 2025 came out when we started working together, so we got to work! We launched, got paid customers, and built out our infrastructure fast. A month later, we interviewed in person and got the call from Jon Xu the same night that we got in! It was one of the happiest days of our lives."
+    },
+    {
+      "question": "What's the history of your company from getting started until the present day? What were the big inflection points?",
+      "answer": "We started working together in late March (2025), with a shared goal of solving deep developer problems around computer use. We started off with an idea to help developers spin up virtual desktops for computer use agents in a single line of code. We shipped an MVP in 5 days and got a paid customer the next day through a cold email. For the next month, we kept shipping and looking for customers, and applied to YC with this idea. We found the product had interest from hobbyist developers, but for companies, there was much less pull because companies often already have VM infrastructure they are happy with. \\\r\n\\\r\nSo we made the call to pivot. We talked to over 100 developers in the computer use and robotic process automation space, and heard the same thing over and over: automating Windows desktops is an important yet extremely tedious process. You create a script once, then it breaks every time something changes in the app or a popup happens. Computer use agents were meant to solve that pain but even they were slow, costly, and non deterministic. That’s how we came up with the idea for what Cyberdesk is today - a layer on top of computer use agents that helps it memorize tasks it’s done before and repeat it consistently, 3 - 5x faster, and cheaply, while still falling back to computer use during popups and anomalies. We built an MVP in a week, and got our first pilot a week later. \\\r\n\\\r\nSince then we’ve been rapidly building out the product and closing more deals with startups and companies in healthcare, construction, accounting, and more, all of them using our agent to automate manual computer work they’ve struggled to automate before. "
+    },
+    {
+      "question": "What is the core problem you are solving? Why is this a big problem? What made you decide to work on it?",
+      "answer": "For a developer team to automate legacy desktop apps with poor APIs, they’ve often resorted to building brittle automation scripts (either in Python or using a legacy RPA tool like UiPath) or hiring unreliable remote workers to click on remote desktops. As they need to support more and more software and versions of that software, the development and maintenance times exponentially increases. \\\r\n\\\r\nEvery company in the world has repetitive manual desktop work that is bogging them down. On top of that, companies building AI agents are increasingly having to interface with desktop apps to perform full human workflows. This problem is pervasive and we’re excited to solve it."
+    },
+    {
+      "question": "What is your long-term vision? If you truly succeed, what will be different about the world?",
+      "answer": "Traditional robotic process automation is a $6 billion industry, yet it only services a tiny fraction of desktop tasks that can now be automated by our agent. In the long term, our agent will automate every manual computer task."
+    }
+  ],
+  "url": "https://www.ycombinator.com/companies/cyberdesk",
+  "api": "https://devasheeshg.github.io/yc-api/batches/summer-2025/cyberdesk.json",
+  "year_founded": 2025,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/cyberdeskhq",
+  "x_url": "https://x.com/CyberdeskHQ",
+  "fb_url": null,
+  "cb_url": "https://www.crunchbase.com/organization/cyberdesk-9e2a",
+  "github_url": "https://github.com/cyberdesk-hq/cyberdesk",
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/b6deea0aa4e96211ac35f75ade0705df19758a8e.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [
+    "https://bookface-images.s3.us-west-2.amazonaws.com/attachments/f97e92ea8e68598a95edd550d0062da113b863a0.png",
+    "https://bookface-images.s3.us-west-2.amazonaws.com/attachments/afa862d3c6811c2f8fa968b87c2ce6d4508a98df.png"
+  ],
+  "primary_partner": {
+    "name": "Jon Xu",
+    "url": "https://www.ycombinator.com/people/jon-xu"
+  },
+  "founders": [
+    {
+      "user_id": 1707002,
+      "full_name": "Mahmoud Al-Madi",
+      "title": "Founder/CEO",
+      "founder_bio": "Mahmoud graduated from Rice University with a degree in Electrical Engineering where he built AI & ML solutions at Baylor College of Medicine Neuroscience & Texas Children's Hospital + co-published a paper at the Rice Networks Group.\n\nAfter Rice, Mahmoud built RPA solutions impacting 20K+ employees at a Fortune 100 company, which inspired him to cofound Cyberdesk to build a computer use agent developers can use to automate desktop workflows.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/mahmoudalmadi/",
+      "x_url": "https://x.com/mahmoudalmadi_",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/61b7bae3551c4559b2db78736f13d61532e2c0b0.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 92540,
+      "title": "Cyberdesk - The computer use agent for developers to automate legacy Windows apps",
+      "tagline": "Automate legacy apps like EHRs, ERPs, and more with just a prompt and an API call to our agent",
+      "body": "Hey everyone! We’re Mahmoud and Alan, co-founders of Cyberdesk.\n\n**🏆 TL;DR:**\n\nWe’re building a computer use agent for developers to automate legacy Windows apps like EHRs, ERPs, and more. Just write your task in plain English, and call our API to trigger our agent. Our agent is designed to follow memorized steps reliably, only falling back to computer use models during expected popups.\n\nhttps://www.youtube.com/watch?v=yCDGsiCNb3E\n\n**❌ The Problem**\n\nDevelopers in industries like healthcare, supply chain, and beyond often work with clients who have old, legacy Windows software. Today, to work with these clients, they probably:\n\n* Hire unreliable offshore teams to manually click through remote desktops\n* Write fragile automation scripts that break on popups and need constant fixes\n* Skip the integration entirely—leaving valuable customers behind\n\n**✨ Our Solution**\n\nJust write your task in plain English, and our computer use agent will run it reliably, cheap, and fast, on any Windows PC (cloud or on prem).\n\nExample: entering patient data into OpenDental, a legacy dental EHR (real use case from one of our customers)\n\n1. **Write the task** (”Log in to Opendental, click Patients, find this dropdown, etc”), then just call our API to trigger the workflow\n2. **Our agent learns the task.** Every time it repeats the task, it does it 100% deterministically, upwards of 3x faster, and almost zero cost\n3. **If something unexpected happens** (like a popup), our system falls back to the computer use agent, and memorizes that trajectory too\n\n![uploaded image](/media/?type=post&id=92540&key=user_uploads/1707002/d09c26db-4734-4c16-8324-e5e0657e6512)\n\n**💯 The Team**\n\nMahmoud (CEO) previously scaled robotic process automation solutions to 20k employees at a Fortune 100. Alan (CTO) is ex-NASA and built a computer use agent at his previous startup.\n\n**Book a demo with us, or intro us to AI companies in regulated industries who need to integrate into legacy desktop apps!**\n\n* Book demo: https://cal.com/mahmoud-al-madi-klrs5s/30min\n* Our website: https://cyberdesk.io\n* Email us: mahmoud \\[at\\] cyberdesk \\[dot\\] io\n\n![uploaded image](/media/?type=post&id=92540&key=user_uploads/1707002/ca98113f-44e9-44ce-ab9b-20e5ea40354a)\n\n",
+      "url": "https://www.ycombinator.com/launches/O4a-cyberdesk-the-computer-use-agent-for-developers-to-automate-legacy-windows-apps",
+      "votes": 34,
+      "created_at": "2025-07-29T15:47:24.669Z"
+    }
+  ]
+}

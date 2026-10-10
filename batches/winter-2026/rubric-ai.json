@@ -1,0 +1,81 @@
+{
+  "id": 31280,
+  "name": "Rubric AI",
+  "slug": "rubric-ai",
+  "former_names": [
+    "Bazaar AI"
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/76cd968796cb7fcfbf591c0c9f9bb7cdf5683449.png",
+  "website": "",
+  "all_locations": "New York City, NY, USA",
+  "long_description": "Rubric AI (backed by Y Combinator) is the reasoning and verification infrastructure for AI. We're building the human and computational layer that turns expert judgment into training signals for the world's most consequential AI systems.",
+  "one_liner": "Reasoning and verification infra for AI",
+  "team_size": 1,
+  "industry": "B2B",
+  "subindustry": "B2B",
+  "launched_at": 1772427101,
+  "tags": [],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Winter 2026",
+  "status": "Active",
+  "industries": [
+    "B2B"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada",
+    "Remote",
+    "Partly Remote"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/rubric-ai",
+  "api": "https://devasheeshg.github.io/yc-api/batches/winter-2026/rubric-ai.json",
+  "year_founded": 2025,
+  "city": "New York City",
+  "country": "US",
+  "linkedin_url": "",
+  "x_url": "https://x.com/rubric_ai",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/76cd968796cb7fcfbf591c0c9f9bb7cdf5683449.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Gustaf Alstromer",
+    "url": "https://www.ycombinator.com/people/gustaf-alstromer"
+  },
+  "founders": [
+    {
+      "user_id": 606516,
+      "full_name": "Pragya Saboo",
+      "title": "Founder/CEO",
+      "founder_bio": "cofounder at Rubric AI; previously product at Asana, Oscar Health, and Apella",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/pragyasaboo/",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/3e3ff98a3daf0b4465d4b36b64ca30b6837ead28.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 98690,
+      "title": "Rubric AI",
+      "tagline": "Reasoning and Verification for AI Agents",
+      "body": "Hi YC! 👋 \n\nI’m Pragya, co-founder of Rubric AI. \n\n**Tl;dr:**\n\nRubric AI is building the human and computational layer that turns expert judgment into training signals for frontier models and agents. We believe that shaping the world's most consequential AI systems requires both purpose-built training environments and exceptional judgment.\n\n**Launch Video:**\n\n<https://www.youtube.com/watch?v=_9EzHGu5y5E>\n\n**The Problem** \n\nThere are now over 10,000 vertical AI companies deploying in specialized domains. They all face the same problem: generalist models can't reliably handle high-stakes, judgment-heavy work. While AI agents look impressive in demos, they frequently fail at runtime by selecting the wrong tools, failing to verify steps, or lacking the ability to recover from errors. These companies need their agents to reason and execute like domain experts, but the infrastructure to make that happen doesn't exist.\n\n**The Solution** \n\nRubric builds runtime reasoning infrastructure that turns expert judgment into training signals for frontier models and agents. We build purpose-built reasoning environments, curate expert-verified reasoning traces, and plug in at test time to guide agents on how to reason, when they select tools, how they verify intermediate steps, and when they must escalate to a human, turning generalist agents into domain specialists.\n\n**The Team** \n\nOur co-founder Pragya has spent the last decade building complex products from scratch and scaling them. She was a product lead at Oscar Health through their IPO, built computer vision software for operating rooms at Apella, grew a women's health startup to profitability, and drove new product lines at Asana.\n\nOur founding team brings deep domain expertise across healthcare, coding, and finance, along with years of experience building large-scale infrastructure. We've shipped in high-stakes domains and know how to build for the scale this problem demands.\n\n**Ask**\n\n1. If you're deploying AI agents in a specialized domain and need them to reason like experts, we'd love to talk. Reach out at [team@therubric.ai](mailto:team@therubric.ai).\n2. If you're a domain expert in healthcare, finance, life sciences, legal, coding, or other high-stakes fields and want to shape how the next generation of AI systems learn to reason, we'd love to hear from you. Reach out at [team@therubric.ai](mailto:team@therubric.ai).",
+      "url": "https://www.ycombinator.com/launches/Pfm-rubric-ai",
+      "votes": 14,
+      "created_at": "2026-03-11T17:36:10.140Z"
+    }
+  ]
+}

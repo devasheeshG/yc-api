@@ -1,0 +1,105 @@
+{
+  "id": 29750,
+  "name": "winfunc",
+  "slug": "winfunc",
+  "former_names": [
+    "Stition",
+    "Asterisk"
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/758cce64094ba9a7250a8b613b368074620a74f5.png",
+  "website": "https://winfunc.com",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "Winfunc (winfunc.com) is an AI Hacker that autonomously finds, verifies, and patches security vulnerabilities in codebases, just like a human security engineer would. \r\n\r\nWinfunc can find business logic errors with context-aware scanning and automate the full auditing cycle to generate reports with zero false positives.\r\n\r\nWinfunc's agent has found vulnerabilities in Google, Supabase, Sentry, Cal, Gumroad, Bun, Hoppscotch, etc.",
+  "one_liner": "ai-native security engineering for mission critical codebases",
+  "team_size": 2,
+  "industry": "B2B",
+  "subindustry": "B2B -> Security",
+  "launched_at": 1723094847,
+  "tags": [
+    "Artificial Intelligence",
+    "SaaS",
+    "B2B",
+    "Security",
+    "AI"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Summer 2024",
+  "status": "Active",
+  "industries": [
+    "B2B",
+    "Security"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/winfunc",
+  "api": "https://devasheeshg.github.io/yc-api/batches/summer-2024/winfunc.json",
+  "year_founded": 2024,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/winfunc",
+  "x_url": "https://x.com/winfunc",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": "https://github.com/winfunc",
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/758cce64094ba9a7250a8b613b368074620a74f5.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [
+    "https://bookface-images.s3.us-west-2.amazonaws.com/attachments/6ff376ba6239359fd82e52f00898c3d24ba45dc8.png"
+  ],
+  "primary_partner": {
+    "name": "Diana Hu",
+    "url": "https://www.ycombinator.com/people/diana-hu"
+  },
+  "founders": [
+    {
+      "user_id": 1378207,
+      "full_name": "Mufeed VH",
+      "title": "Founder/CEO",
+      "founder_bio": "founder/hacker at winfunc.\n\nwebsite: mufeedvh.com\ngithub: github.com/mufeedvh",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/mufeed-vh/",
+      "x_url": "https://twitter.com/mufeedvh",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/26370ebfa125cc4425cfac841e698261a9937b41.jpg"
+    },
+    {
+      "user_id": 629782,
+      "full_name": "Vivek R",
+      "title": "Founder/CTO",
+      "founder_bio": "CTO @ Asterisk. Previously, Vivek built secure, fault tolerant distributed systems for leading POS validators handling a total stake of $2B+, did IoT protocol optimization research for startups, contributor to GStreamer - the leading multimedia framework used by Google, Apple, etc, helped Fortune 100 companies with their infrastructure strategy and optimization.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/123vivekr",
+      "x_url": "https://twitter.com/veev3x",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/de2b3ae0262c681b5388927081725e25a91adcc1.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [
+    {
+      "title": "Devika Creator Launches Asterisk, YC-backed AI Agent Startup",
+      "url": "https://analyticsindiamag.com/ai-news-updates/devika-creator-launches-asterisk-yc-backed-ai-agent-startup/",
+      "date": "Aug 12, 2024"
+    }
+  ],
+  "launches": [
+    {
+      "id": 82844,
+      "title": "Asterisk: AI-automated Security team",
+      "tagline": "Automatically find, exploit, and patch security vulnerabilities across your digital assets with zero false positives.",
+      "body": "**TL;DR**: [Asterisk](https://asterisk.so/) is an AI “hacker” with the ability to find, exploit, and patch security loopholes across your digital assets. It does all of this with no user intervention and generates a report with zero false positives. ([example](https://demo.asterisk.so/?report_id=776e01e4-22a2-44bd-afc5-229ec115e1b1))\n\n![uploaded image](/media/?type=post&id=82844&key=user_uploads/629782/0cd6877d-6d46-4428-ae29-236edb91393e)\n\n# **The Problem**\n\n* Almost 95% of potential vulnerabilities raised by static security tools (SAST) are **false positives**, and security engineers spend a lot of time filtering them out.\n* Current security tech **cannot detect business logic bugs** - think of vulnerabilities like unauthorized access, privilege escalation, and bugs that would rack up your AWS/API bills.\n\n# **Solution**\n\n* **Verification:** Asterisk verifies a vulnerability by spinning up a sandbox, running the software being scanned, and attempts to exploit the bug. If Asterisk flags a vulnerability, you can be sure it's real.\n* **Context-aware Threat Modeling:** Asterisk understands your codebase and can thus emulate a malicious hacker by coming up with attack scenarios, like the recent CrowdStrike incident.\n\n# **Our Team**\n\nWe are [Mufeed](https://www.linkedin.com/in/mufeed-vh/), [Asjid](https://www.linkedin.com/in/asjidkalam/) and [Vivek](https://www.linkedin.com/in/123vivekr/). All of us have a background in security research and systems engineering.\n\n![uploaded image](/media/?type=post&id=82844&key=user_uploads/629782/4120e7a5-43bf-4fa1-9352-699f902b32c9)\n\n**Mufeed**: represented 🇮🇳 at WorldSkills CTF, 🥇 medalist - IndiaSkills CTF, 🥉 medalist - BRICS Skills CTF\n\n**Asjid**: 🥈 medalist - IndiaSkills, ex-security research engineer at Emirates National Bank (UAE)\n\n**Vivek**: ex-distributed systems/platforms engineer at Chorus One (one of the biggest POS validators)\n\nOur team has helped secure Google, Mastercard, Okta, Nvidia, Microsoft, etc. We are also the team behind [Devika,](https://github.com/stitionai/devika) the open-source alternative to Devin with over 18K stars on GitHub.\n\n# **Our Ask**\n\nIf you're looking for a **complete security audit** of your digital assets or want to talk about anything security, email us ([hello@asterisk.so](mailto:hello@asterisk.so)) or book a demo ([asterisk.so/demo](http://asterisk.so/demo)).",
+      "url": "https://www.ycombinator.com/launches/LYC-asterisk-ai-automated-security-team",
+      "votes": 205,
+      "created_at": "2024-08-08T07:20:52.225Z"
+    }
+  ]
+}

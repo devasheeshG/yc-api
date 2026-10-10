@@ -1,0 +1,83 @@
+{
+  "id": 30821,
+  "name": "Efference",
+  "slug": "efference",
+  "former_names": [
+    "Remnant Robotics"
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/54d1482241918ee48c1c994945fd8c443280d29b.png",
+  "website": "https://efference.ai",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "",
+  "one_liner": "",
+  "team_size": 12,
+  "industry": "Industrials",
+  "subindustry": "Industrials -> Manufacturing and Robotics",
+  "launched_at": 1762259214,
+  "tags": [
+    "Robotics",
+    "Computer Vision"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Fall 2025",
+  "status": "Active",
+  "industries": [
+    "Industrials",
+    "Manufacturing and Robotics"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/efference",
+  "api": "https://devasheeshg.github.io/yc-api/batches/fall-2025/efference.json",
+  "year_founded": 2025,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "",
+  "x_url": "https://x.com/EfferenceAI",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/54d1482241918ee48c1c994945fd8c443280d29b.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Pete Koomen",
+    "url": "https://www.ycombinator.com/people/pete-koomen"
+  },
+  "founders": [
+    {
+      "user_id": 1945409,
+      "full_name": "Gianluca Bencomo",
+      "title": "Founder/CEO",
+      "founder_bio": "-",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/gianluca-bencomo-326469133",
+      "x_url": "https://x.com/gianlucabencomo/",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/abf3b37c947d65d07ff29aff6adf54e459eb04ac.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 95175,
+      "title": "Efference - Helping robots see like humans do",
+      "tagline": "Efference is building the most intelligent robotic camera on the market -- at half the cost. ",
+      "body": "![uploaded image](/media/?type=post&id=95175&key=user_uploads/1945409/8214e17c-76b2-4c77-9b83-f11af13ff298)\n\nHey YC, I’m Gianluca. I’m building robotic cameras (stereo cameras) that treat vision as a software problem, not a hardware problem – just like humans do.\\\n\\\nWe are actively taking pre-orders with delivery in March: https://efference.ai/preorder\n\n[**https://youtu.be/0v0p2t3y4fI**](https://youtu.be/0v0p2t3y4fI)\n\nMany robotics founders that I talk to are frustrated with current stereo cameras. They are expensive, require calibration, and still produce unreliable depth measurements despite their costs. Vision shouldn’t be an additional bottleneck when training robotic policies is already hard enough.\n\nOur insight is that humans don’t have precise sensors: our eyes are noisy and imprecise but we run extremely sophisticated algorithms on top of them. Robotics already embraced this philosophy for arms (_cheap hardware + great algorithms_ → \\[Zhao et al., 2023\\]). We’re applying it to cameras by developing better algorithms.\n\nWhat we built:\n\n* A 3D perception model that combines stereo triangulation + learned priors about objects and environments.\n* It runs in real time (unlike current neural depth approaches).\n* We are distilling the model into our own hardware and shipping model wrappers for Realsense/ZED cameras so you can run these cameras better.\n\nCheck out the designs (going into production soon):\n\n[**https://www.youtube.com/watch?v=oOmf4k2ZwaY**](https://www.youtube.com/watch?v=oOmf4k2ZwaY)\n\n**Does it work?**\n\nSelf-Driving: [**https://www.youtube.com/watch?v=0f058JAk64A**](https://www.youtube.com/watch?v=0f058JAk64A)\n\nRobotic Manipulation (via Functional Manipulation Benchmark): [**https://www.youtube.com/watch?v=GyV12gqGOMY**](https://www.youtube.com/watch?v=GyV12gqGOMY)\n\nAnd many more demos coming to the YouTube channel: [https://www.youtube.com/@Efference](https://www.youtube.com/@Efference%5C)\n\n**Why do we need this?**\n\nConverting a vehicle to full autonomy can cost upwards of **$100,000**. The economics are terrible: the sensor stack dominates lifetime cost, keeping cost-per-mile high and slowing deployment. A stereo-vision stack like ours cuts that cost by **10–100×**. Lower integration cost → cheaper replacements → larger fleets → autonomy that scales. We know we can drive a car using a stereo camera because that is what humans use. It’s just a matter of getting the camera to work as well as the one humans have.\n\nThe same dynamic applies to humanoids, perhaps at an even greater scale. Companies like Unitree ship tens of thousands of robots every year, all with stereo cameras, and consumers often complain about quality. We’re building a camera that is both **affordable and usable**, so teams can actually build with it. As humanoid production scales to millions of units per year, we hope to be the camera that scales with it.\n\nIn urban drone environments, GPS fails. Reliable RGB-D depth enables SLAM, safe navigation, and collision avoidance; critical for companies like Skydio operating in urban valleys. Again, drones are another vertical that requires thousands of cameras per year that are cheap and effective.\\\n\\\n**Additional Background**\n\nAny two-dimensional image is consistent with an infinite number of possible 3D worlds. “Seeing” is not just recording sensory input but resolving ambiguity; selecting the _most probable_ world given the available evidence **\\[Born & Bencomo, 2021\\]**.\n\nHumans and nearly every other mammal have evolved the same solution to this problem over the past 500 million years of evolution: stereo triangulation + data-driven inference. We integrate every available depth cue – shadows, perspective, occlusions, and much more – along with what we know about objects and the environment to accurately represent 3D scenes and act accordingly.\n\nRobots do not do this, but they need to.\\\n\\\n**Team**\n\n![uploaded image](/media/?type=post&id=95175&key=user_uploads/1945409/2474fb24-fae7-4604-a549-2a875fad6452)\n\nI spent the past four years at Princeton (on-leave from PhD) studying foundational topics in machine learning and neuroscience. I funded my research by writing two successful NSF grants to build biologically-inspired vision models based on the **fruit fly connectome** where the general research direction for myself and certainly my collaborators was the question of **“how do we make this fruit fly live inside a computer simulation?”**\n\nPrior to Princeton, I spent two years at Harvard Medical School studying visual decision-making in primate models and publishing influential theoretical work on **dopamine’s role in schizophrenia and its effects on visual perception**. I did my undergraduate degree in Biochemistry and got to do some cool non-vision work at the NASA Jet Propulsion Laboratory, figuring out a **new way of converting CO2 into O2 on Mars** that recycled water and did not require heat (e.g. MOXIE).\n\nGenerally, I like to work on really hard problems.\n\n**The Ask**\n\nIf you’re a roboticist, I’d love to learn what vision requirements matter most to you. If you know teams in autonomous vehicles, drones, or humanoid robotics, and believe this product is cool, sharing / intros would mean a lot.\n\nWe are actively taking pre-orders with delivery in March: https://efference.ai/preorder\n\nThank you — Gianluca.\n\n**\\[Born & Bencomo, 2021\\] [https://karger.com/bbe/article-abstract/95/5/272/47302/Illusions-Delusions-and-Your-Backwards-Bayesian](https://karger.com/bbe/article-abstract/95/5/272/47302/Illusions-Delusions-and-Your-Backwards-Bayesian)**\n\n**\\[Zhao et. al., 2023\\] [https://arxiv.org/abs/2304.13705](https://arxiv.org/abs/2304.13705)**",
+      "url": "https://www.ycombinator.com/launches/Ol5-efference-helping-robots-see-like-humans-do",
+      "votes": 122,
+      "created_at": "2025-11-04T22:53:53.320Z"
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "id": 30276,
+  "name": "General Trajectory",
+  "slug": "general-trajectory",
+  "former_names": [],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/4c79fb57c52ab75fc14e93779100504407b5e064.png",
+  "website": "https://www.generaltrajectory.com/",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "General Trajectory is using AI to solve the world's most important problems, from autonomous defense to scientific R&D.",
+  "one_liner": "AI for the physical world",
+  "team_size": 1,
+  "industry": "Industrials",
+  "subindustry": "Industrials -> Manufacturing and Robotics",
+  "launched_at": 1738545890,
+  "tags": [
+    "Robotics",
+    "AI"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Winter 2025",
+  "status": "Active",
+  "industries": [
+    "Industrials",
+    "Manufacturing and Robotics"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/general-trajectory",
+  "api": "https://devasheeshg.github.io/yc-api/batches/winter-2025/general-trajectory.json",
+  "year_founded": 2024,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://linkedin.com/company/generaltrajectory",
+  "x_url": "https://x.com/gentrajectory",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/4c79fb57c52ab75fc14e93779100504407b5e064.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [
+    "https://bookface-images.s3.us-west-2.amazonaws.com/attachments/4a09fcc4294bb183b611351cfbd5c9e4d1bb97cb.png",
+    "https://bookface-images.s3.us-west-2.amazonaws.com/attachments/203af2059eae51bdf6c7d474ffde4132486c0709.png"
+  ],
+  "primary_partner": {
+    "name": "Harj Taggar",
+    "url": "https://www.ycombinator.com/people/harj-taggar"
+  },
+  "founders": [
+    {
+      "user_id": 1366241,
+      "full_name": "Joshua Belofsky",
+      "title": "Founder/CEO",
+      "founder_bio": "Recent graduate focusing on AI for the physical world. Background is in academic ML research.",
+      "is_active": true,
+      "linkedin_url": "https://linkedin.com/in/joshua-belofsky-25328523b",
+      "x_url": "https://x.com/joshuabelofsky",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/4f608bc7f9da030e188bbc67691c92726b24e872.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 96524,
+      "title": "🤖 General Trajectory - A Foundation Model for Humanoid Robots",
+      "tagline": "Reward-guided imitation learning for dexterous manipulation",
+      "body": "<https://youtu.be/iIdum8FrMIw>\n\n## What is it?\n\nA foundation model that helps humanoid robots pick up unseen objects and perform real-world work. It generalizes to novel objects and scenes, including cases where prior SoTA models achieve 0% success.\n\n![uploaded image](/media/?type=post&id=96524&key=user_uploads/1366241/6cbcabb4-44fe-4d86-8b20-4b5220709f58)\n\n## The problem\n\nHumanoid robots can do backflips and kung fu, but still struggle with economically useful work. Dexterous manipulation is the main bottleneck to useful physical labor.\n\n## Our approach\n\nWe collect an efficient set of human demonstrations and train a reward model to improve the base model's grasps.\n\n![uploaded image](/media/?type=post&id=96524&key=user_uploads/1366241/86269800-22b9-4a15-bf3c-7d63285ea25d)\n\nThe result is strong generalization: up to 63% gains on difficult objects where the best baselines achieve 0%, while maintaining near-perfect performance on standard objects. Full details are available in our [technical post](https://www.generaltrajectory.com/technical-update).\n\nThe physical world is 80% of global GDP. We believe this research represents progress toward a future in which AI systems are not limited to computer work.\n\n## Open-source\n\nWe open-sourced our teleop stack!\n\n<https://github.com/GeneralTrajectory/dex-teleop>\n\nIt uses vision + wrist trackers instead of data gloves → about **$500** in hardware vs. **\\~$5,000**.\n\n![uploaded image](/media/?type=post&id=96524&key=user_uploads/1366241/aeeb02d9-821a-44b5-bef0-f491af1fa15a)\n\n## Call to action\n\nIf you are interested in AI for the physical world (scientific R&D, defense, etc.), please reach out!\n\n* Website: <https://generaltrajectory.com>\n* X: <https://twitter.com/gentrajectory>",
+      "url": "https://www.ycombinator.com/launches/P6q-general-trajectory-a-foundation-model-for-humanoid-robots",
+      "votes": 15,
+      "created_at": "2026-01-05T15:51:54.579Z"
+    },
+    {
+      "id": 88311,
+      "title": "General Trajectory – Reasoning Models for Robotics",
+      "tagline": "Bringing AI into the physical world",
+      "body": "# **TL;DR**\n\nWe’re training models that can reason through physical tasks using chain-of-thought to automate traditionally difficult work in industrial environments like warehouses and manufacturing facilities.\n\n![uploaded image](/media/?type=post&id=88311&key=user_uploads/1366241/ed2288b5-baa9-4959-896d-cd75e4074858)\n\n# How it works\n\nWe fine-tune vision-language models to output low-level robotic controls across primary tasks in logistics: mixed-sku palletization, item picking, sorting, and packing.\n\nBefore predicting the next action, our model is explicitly trained to `<think></think>` about its next step. This allows it to reason through long-horizon tasks.\n\n<https://youtu.be/axgbhBkkuQQ>\n\n# RL from Verifiable Rewards\n\nOur fine-tuned model is then rolled out in Nvidia’s Isaac Sim where it generates reasoning + action traces that get scored using simple verifiers. This continues to improve the model using photorealistic data without any human in the loop.\n\n![uploaded image](/media/?type=post&id=88311&key=user_uploads/1366241/db7af549-6c06-433d-a8da-16d6dffd5737)\n\n# Our ask\n\nWe see logistics as an entry point to even greater automation across industries. Soon you will be able to tell AI to do any physical tasks in the same way current systems can handle the cognitive ones.\n\nIf you have any tasks you’d like to automate or know of anyone interested in working on embodied AI, please reach out: [joshua@generaltrajectory.com](mailto:joshua@generaltrajectory.com)\n\n# The Team\n\n![uploaded image](/media/?type=post&id=88311&key=user_uploads/1366241/ed970f7d-fd66-473d-9c72-17cc18dedb5d)\n\nJoshua studied CS & neuroscience at the University of Chicago but spent most of his time outside of class doing ML research. He first joined NASA Ames Research Center and later worked at Caltech. His [research](https://scholar.google.com/citations?user=RoD9hE8AAAAJ&hl=en) focused on generally capable AI agents and reasoning.",
+      "url": "https://www.ycombinator.com/launches/MyN-general-trajectory-reasoning-models-for-robotics",
+      "votes": 15,
+      "created_at": "2025-03-06T15:48:57.648Z"
+    }
+  ]
+}

@@ -1,0 +1,105 @@
+{
+  "id": 32154,
+  "name": "Zomma",
+  "slug": "zomma",
+  "former_names": [],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/019855257e473ab4938156b12e16e4a3214a2f51.png",
+  "website": "https://zommalabs.com",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "Zomma is building the AI workforce for financial services with computer-use agents that onboard like humans and scale like compute. Its agents handle KYC reviews, transaction alerts, and disputes on the same screens human analysts use, no integration.",
+  "one_liner": "The AI BPO for financial servies, run by computer-use agents",
+  "team_size": 5,
+  "industry": "B2B",
+  "subindustry": "B2B",
+  "launched_at": 1783572526,
+  "tags": [
+    "Artificial Intelligence",
+    "Robotic Process Automation",
+    "Finance",
+    "B2B",
+    "Workflow Automation"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Summer 2026",
+  "status": "Active",
+  "industries": [
+    "B2B"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/zomma",
+  "api": "https://devasheeshg.github.io/yc-api/batches/summer-2026/zomma.json",
+  "year_founded": 2026,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/zomma",
+  "x_url": "https://x.com/ZommaLabs",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/019855257e473ab4938156b12e16e4a3214a2f51.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [
+    "https://bookface-images.s3.us-west-2.amazonaws.com/attachments/b2b79e62b805cf93e198d9b3d4b6342664e73d7c.png"
+  ],
+  "primary_partner": {
+    "name": "Brad Flora",
+    "url": "https://www.ycombinator.com/people/brad-flora"
+  },
+  "founders": [
+    {
+      "user_id": 3128623,
+      "full_name": "Jihyun Kim",
+      "title": "Founder/CEO",
+      "founder_bio": "Founder at Zomma (YC S26). Launched $1B Hedge Fund as the Founding Team and Head of Product. Scaled Asia's largest wealth tech (now $10B+ AUM). Second time founder. Ex-Goldman Sachs. Cornell and NYU Abu Dhabi.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/kimjihyun/",
+      "x_url": "https://x.com/jihprobs",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/67617ac3a534465e42aa00e5e395beaed235f970.jpg"
+    },
+    {
+      "user_id": 3597712,
+      "full_name": "Varun Arumugam",
+      "title": "Founder",
+      "founder_bio": "Founder at Zomma (YC S26). Previously Founding ML Engineer at Bronco AI building agents for chip design verification. SWE at Apple on verification infrastructure. MS and BS in Electrical and Computer Engineering from UT Austin.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/varunarumugam/",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/526b6e3a7761d998cfb1049aab57c89fa1f3cd11.jpg"
+    },
+    {
+      "user_id": 3627790,
+      "full_name": "Cashel Fitzgerald",
+      "title": "Founder/CTO",
+      "founder_bio": "Co-founder at Zomma. Master's in Computer Science from Cornell. Built SOTA aerial object detection systems at Modern Intelligence. Previously engineered backend systems at 8am supporting $300M+ annual revenue and $20B+ yearly transactions. Trains VLMs for computer use.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/cashelfitzgerald",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/69c3f4c9b45abfcd2073a8a53036f40eba0a1ce1.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 110619,
+      "title": "Zomma: AI operations employees for finance back offices",
+      "tagline": "Computer-use agents that work cross-border transaction alert investigations end to end: collect evidence, produce an assessment, draft an RFI.",
+      "body": "We're building Zomma: AI operations employees for finance back offices, starting with cross-border transaction alert investigations.\n\n**TL;DR:** Zomma agents work directly inside the software your ops team already uses. No APIs, no integrations. For every cross-border alert, the agent gathers the evidence, writes the draft assessment, and drafts the RFI, end-to-end. Running live compliance-ops pilots with a US RIA and a $10B AUM wealth tech. 92% on OSWorld.\n\n<https://www.youtube.com/watch?v=oDXDKH_tYhg>\n\n## **The problem**\n\nCross-border payments trip more monitoring rules than anything else in the queue: sanctions name hits on foreign counterparties, high-risk corridors, first-time beneficiaries. Most alerts are false positives (McKinsey: over 90% in transaction monitoring), but every one still needs to be investigated. 20 to 60 minutes per case, across five or six systems, several with no API at all. And the evidence that clears them sits in foreign company registries and local-language adverse media. \n\nSo review capacity scales the only way it can: hiring. When hiring lags volume, alerts pile into backlogs that take months to clear, and backlogs are what regulators fine: $3.8B in AML penalties last year alone.\n\n## **What Zomma does**\n\nZomma agents work the queue on the same screens your analysts use: case manager, screening tool, admin panel, inbox, web search. Onboarding looks like hiring: an SOP and a login.\n\nOn a transaction monitoring alert, the agent\n\n* pulls the KYC profile and payment history\n* verifies the invoice and researches the counterparty, including registries you can only search by hand\n* writes a case-specific assessment with every claim cited to the source screen\n* drafts the RFI when documents are missing\n\nEvery step is logged and replayable: timestamped screenshots of every page checked, numbered citations, explicit no-match statements, a screen-by-screen trail an examiner can follow.\n\n## **Why start with cross-border alerts**\n\nIf an employee can do it on a screen, Zomma can learn it: the rest of the compliance queue, payment disputes, client onboarding, trade ops. Cross-border alerts come first because they have the exact shape our agents are best at: high-volume, parallelizable work that needs real reasoning but follows a defined workflow to a documented disposition. They're also the hardest cases to automate any other way: the evidence lives in registries and portals that will never have APIs. And agents scale with the queue: a volume spike means provisioning two more that afternoon; a BPO batch takes a month to train.\n\nComputer-use agents only recently got accurate enough to trust with a live queue, which is why we're building this now. Our state-of-the-art computer-use harness with our procedural and workflow memory system scores 92% on OSWorld.\n\n## **Team**\n\n* **Jihyun (CEO):** founding team at a Blackstone-backed hedge fund, scaled Asia's largest wealth tech, Goldman engineer.\n* **Cash (CTO):** backend systems behind $20B+ in yearly transactions, trains VLMs for computer use.\n* **Varun (CPO):** high-performance infra at Apple, design-verification agents at Bronco AI (YC S23).\n\nSend us \\~100 closed cross-border alerts and we'll show you what the agent would have done with them, or book a call: zommalabs.com/call.",
+      "url": "https://www.ycombinator.com/launches/SmB-zomma-ai-operations-employees-for-finance-back-offices",
+      "votes": 76,
+      "created_at": "2026-08-18T16:00:00.082Z"
+    }
+  ]
+}

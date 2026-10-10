@@ -1,0 +1,101 @@
+{
+  "id": 31292,
+  "name": "Aurorin CAD",
+  "slug": "aurorin-cad",
+  "former_names": [
+    "Rapid CAD",
+    "Aurorin"
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/f33a496f7311dedfd5027e589663789820e95b21.png",
+  "website": "https://aurorincad.com",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "There are 2 problems:\r\n\r\nThe first, CAD software is slow and the second, designing with it is a tedious process with many steps. Aurorin solves both of these problems by being a CAD software built from the ground up on a modern tech stack with AI at its heart.\r\n\r\nBuilding the CAD kernel lets us fully leverage AI while modernizing execution speed. Almost all existing CAD software (Solidworks, NX, Creo, Catia, Fusion 360, Onshape etc) use the same couple of underlying CAD kernels built in the 80's. It's common for these programs to take 4 hours to open a file.\r\n\r\nAurorin uses a custom parametric and B-Rep driven CAD Kernel built to take full advantage of modern CPUs and GPUs and be AI native.",
+  "one_liner": "Claude code for Mechanical Engineers",
+  "team_size": 1,
+  "industry": "B2B",
+  "subindustry": "B2B -> Engineering, Product and Design",
+  "launched_at": 1769109612,
+  "tags": [],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": true,
+  "nonprofit": false,
+  "batch": "Winter 2026",
+  "status": "Active",
+  "industries": [
+    "B2B",
+    "Engineering, Product and Design"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/aurorin-cad",
+  "api": "https://devasheeshg.github.io/yc-api/batches/winter-2026/aurorin-cad.json",
+  "year_founded": 2026,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/aurorin-cad/",
+  "x_url": "https://x.com/aurorincad?s=21",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/f33a496f7311dedfd5027e589663789820e95b21.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Jared Friedman",
+    "url": "https://www.ycombinator.com/people/jared-friedman"
+  },
+  "founders": [
+    {
+      "user_id": 2811605,
+      "full_name": "Michael Baron",
+      "title": "Founder/CEO",
+      "founder_bio": "Founder of Aurorin, 3x SpaceX intern, prev Apple Intern.\n\nBefore starting Aurorin, Michael worked on Raptor combustion simulation, Dragon Guidance, Navigation & Control, and Starshield flight software at SpaceX, as well as GPU driver performance at Apple.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/michael-andrew-baron/",
+      "x_url": "https://x.com/nominalaviator?s=21",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/fff2b6020076e2a93f1d4cd5e694baf2db3d0f7d.jpg"
+    }
+  ],
+  "jobs": [
+    {
+      "id": 92565,
+      "title": "Founding Engineer",
+      "url": "https://www.ycombinator.com/companies/aurorin-cad/jobs/R3tKam9-founding-engineer",
+      "location": "San Francisco, CA, US",
+      "type": "Full-time",
+      "role": "Engineering",
+      "role_type": "Full stack",
+      "salary_range": "$120K - $160K",
+      "equity_range": "3.00% - 4.00%",
+      "experience": "Any (new grads ok)",
+      "visa": "Will sponsor",
+      "skills": [
+        "C++",
+        "Swift",
+        "GPU Programming",
+        "CAD Design"
+      ]
+    }
+  ],
+  "news": [],
+  "launches": [
+    {
+      "id": 98144,
+      "title": "Aurorin CAD - The Next Generation Mechanical CAD Software",
+      "tagline": "Create in seconds what takes over 20 minutes in SolidWorks or NX",
+      "body": "# \\*\\*\\*\\*\n\n**TL;DR**: New native CAD software with crazy fast execution speed and a tightly integrated agent to help engineers design way faster. Download for Mac or Windows at[ ](https://www.aurorincad.com/)<https://www.aurorincad.com>\n\n<https://youtu.be/BkNunCBk_3o>\n\nHey everyone, I’m [@Michael Baron](https://bookface.ycombinator.com/user/2811605), the founder of [@Aurorin CAD](https://bookface.ycombinator.com/company/31292), a new CAD software built from the ground up to fix 2 major problems:\n\n* CAD is really slow\n* CAD is tedious\n\n**No more tedious work**\n\nAurorin can create parts in seconds that takes 20 minutes with Solidworks.\n\nBuilding the CAD kernel from the ground up lets us create a much better AI interface than is possible in a traditional kernel. That is why we have decided to build a new kernel instead of using an existing one or making a plugin for existing software. This approach allows us to seamlessly combine traditional UI editing with a chat interface to design even highly complex parts at incredible speed.\n\n**Speed**\n\nIt’s common for existing software to take 4 hours to open CAD assemblies.\n\nAlmost all existing CAD software (Solidworks, NX, Creo, Catia, Fusion 360, Onshape etc) use the same couple of underlying CAD kernels built in the 80s.\n\nAurorin uses a custom parametric and B-Rep driven CAD Kernel built to take full advantage of modern hardware.\n\n**The team** \n\nBefore starting Aurorin, I worked at SpaceX on Raptor combustion simulation, Dragon guidance, navigation & control, and Starshield flight software. I also worked on GPU driver performance at Apple.\n\n**The Asks**\n\nDo you know a hardware company that wants to ship faster? We’re looking for more companies to use Aurorin for rapid prototyping alongside their existing CAD or make the switch for a much faster hardware development cycle.\n\nAre you a design engineer who’s annoyed with CAD? We’d love to hear your feedback on what we’re building.\n\nI’d really appreciate an email at [michael@aurorincad.com](mailto:michael@aurorincad.com)",
+      "url": "https://www.ycombinator.com/launches/PWy-aurorin-cad-the-next-generation-mechanical-cad-software",
+      "votes": 39,
+      "created_at": "2026-02-24T18:07:44.660Z"
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "id": 27821,
+  "name": "PoplarML",
+  "slug": "poplarml",
+  "former_names": [
+    "Poplar"
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/e108e35156cecf90efeb1f504d510fca87ce7b44.png",
+  "website": "http://poplarml.com",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "PoplarML lets you deploy any machine learning model to a fleet of GPUs as a ready-to-use and scalable API endpoint with one command.",
+  "one_liner": "Deploy Machine Learning Models with One Command",
+  "team_size": 2,
+  "industry": "B2B",
+  "subindustry": "B2B -> Engineering, Product and Design",
+  "launched_at": 1674681330,
+  "tags": [
+    "AIOps",
+    "Artificial Intelligence",
+    "Machine Learning",
+    "B2B",
+    "API"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Winter 2023",
+  "status": "Active",
+  "industries": [
+    "B2B",
+    "Engineering, Product and Design"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/poplarml",
+  "api": "https://devasheeshg.github.io/yc-api/batches/winter-2023/poplarml.json",
+  "year_founded": 2022,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/poplarml/",
+  "x_url": "https://twitter.com/PoplarML",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/e108e35156cecf90efeb1f504d510fca87ce7b44.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": null,
+  "founders": [
+    {
+      "user_id": 522488,
+      "full_name": "Danna Liu",
+      "title": "Founder",
+      "founder_bio": "Co-Founder of PoplarML, Previously Research @ Snap, SWE @ Stripe, Coinbase, Microsoft, PagerDuty",
+      "is_active": true,
+      "linkedin_url": "https://linkedin.com/in/dnaliu",
+      "x_url": "https://twitter.com/dnaliu17",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/f8031b2bc79dd8cb941d56543eeafeb8ed6f8cc6.jpg"
+    },
+    {
+      "user_id": 556433,
+      "full_name": "Evan Chu",
+      "title": "Founder",
+      "founder_bio": "Co-Founder @ PoplarML. Previously SWE @ Stripe, Amazon, AWS",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/evan-j-chu/",
+      "x_url": "https://twitter.com/evan_j_chu",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/30d3a5d172cfeb2c14891b4ab942650f2de5090b.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 69447,
+      "title": "🌳 PoplarML – Deploy machine learning models with one command",
+      "tagline": "Deploy any machine learning model to a fleet of GPUs as a ready-to-use and scalable API endpoint with one command",
+      "body": "👋 Hey Everyone, this is Danna and Evan, and we’re super excited to introduce PoplarML!\n\n### 📖 **TL;DR**\n\nBuilding deployment infrastructure for machine learning models is difficult and time-consuming. With PoplarML, you can replace that process with one simple command. We handle all of the infrastructure to deploy and serve at scale, enabling you to focus on building your product.\n\n### ❌ **The Problem**\n\nAI-powered products have grown in popularity but many are deterred by the challenges to bring their models to life. Deploying a machine learning model to production is complex and requires a heavy engineering lift. Building the infrastructure to support ML models takes days, increasing the time to ship your product. \n\n## ⚡ **The Solution**\n\nPoplarML helps teams easily deploy custom machine-learning models to production. With one simple CLI command, you can turn your model into an API endpoint that you can integrate with the rest of your product. Our endpoints come with auto-scaling out of the box, ensuring low-latency when there are bursts of requests to your model.\n\nPoplarML can deploy any custom model, regardless of the framework used. Some examples of models that our customers have deployed on PoplarML are: \n\n* Flan-T5-XXL\n* Whisper\n* Stable-Diffusion-2\n\n### 🤖 **How it Works**\n\n1. ✏️ Define a Load and Predict function in a [main.py](http://main.py) file\n2. 💻 Use our CLI tool to pick a GPU instance and deploy your model\n3. 🚀 Use the returned API endpoint in your product\n\n![uploaded image](/media/?type=post&id=69447&key=user_uploads/522488/30758efd-4ce3-48d0-94be-e43093ad027f)\n\n### 💡 **Why PoplarML was Built**\n\nWe have personally felt the pain of deploying models to production and have previously built ML deployment infrastructure at companies such as Amazon and Snapchat. With PoplarML, we would like to provide a better and more streamlined experience for ML development. \n\n### **🙌 Our Asks**\n\n* Reach out via our [contact us](https://poplarml.com/contact.html) form or book a time directly on our [calendly](https://calendly.com/poplarml/15min) if you want to try PoplarML\n* Share this with anyone you know building AI-powered products or companies\n* Upvote and share this post!",
+      "url": "https://www.ycombinator.com/launches/I47-poplarml-deploy-machine-learning-models-with-one-command",
+      "votes": 297,
+      "created_at": "2023-02-20T18:57:45.405Z"
+    }
+  ]
+}

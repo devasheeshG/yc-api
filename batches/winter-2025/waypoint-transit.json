@@ -1,0 +1,86 @@
+{
+  "id": 30281,
+  "name": "Waypoint Transit",
+  "slug": "waypoint-transit",
+  "former_names": [],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/01d8fc8778559bd4b0a49a7f77d4d7cd0c4c3f19.png",
+  "website": "https://waypointtransit.com",
+  "all_locations": "",
+  "long_description": "Waypoint Transit is an AI city planner that generates civil infrastructure studies. Cities spend $50B/year on planning. With Waypoint, cities can generate reports in months rather than years, and at 30% of the cost.\r\n\r\nVarun and Ryan met at Stanford, where they graduated with degrees in CS and EE respectively. Before founding Waypoint, Varun worked on AI at Microsoft and Ryan worked on chip design at Apple.\r\n\r\nUS cities are facing three major crises: congestion, budget deficits, and climate change. At the same time, city governments are understaffed and frequently need to contract work out to expensive consultants. Leveraging recent advancements in AI, we empower cities to reduce their costs, build infrastructure, and respond to problems quickly.\r\n\r\nIn the United States, state and local governments spend $50B/year on planning. Through automation, we can redefine the existing transportation and urban planning consulting markets.\r\n\r\nFor more information, visit waypointtransit.com or contact us at contact@waypointtransit.com.",
+  "one_liner": "We automate urban planning so cities can build cheaper and faster.",
+  "team_size": 2,
+  "industry": "Government",
+  "subindustry": "Government",
+  "launched_at": 1738877677,
+  "tags": [],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Winter 2025",
+  "status": "Active",
+  "industries": [
+    "Government"
+  ],
+  "regions": [
+    "Unspecified"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/waypoint-transit",
+  "api": "https://devasheeshg.github.io/yc-api/batches/winter-2025/waypoint-transit.json",
+  "year_founded": 2024,
+  "city": null,
+  "country": null,
+  "linkedin_url": "https://www.linkedin.com/company/waypoint-transit/",
+  "x_url": "",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/01d8fc8778559bd4b0a49a7f77d4d7cd0c4c3f19.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Brad Flora",
+    "url": "https://www.ycombinator.com/people/brad-flora"
+  },
+  "founders": [
+    {
+      "user_id": 846930,
+      "full_name": "Varun Tandon",
+      "title": "Founder/CEO",
+      "founder_bio": "Co-founder and CEO of Waypoint Transit. Previously, led applied ML initiatives at Microsoft. Worked on diffusion models and LLM/LMMs for flagship Office products, including Copilot, Designer, and PowerPoint.\n\nB.S. and M.S. in Computer Science from Stanford University. \n",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/vrntandon/",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/44656c913398c4cfc5e63ee2d03e6859ecce0839.jpg"
+    },
+    {
+      "user_id": 2273724,
+      "full_name": "Ryan Johnston",
+      "title": "Founder/CTO",
+      "founder_bio": "Co-founder and CTO of Waypoint Transit. Previously, chip design synthesis CAD at Apple. Then developed novel real-time transit signage for his hometown; this project eventually became Waypoint. \n\nB.S. and M.S. in Electrical Engineering from Stanford University.\n",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/ryan-johnston-b919a7180/",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/1a4a99bcbfa65575242dafdc5584ba0bad896274.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 87795,
+      "title": "Waypoint Transit 🚄 –  The AI City Planner",
+      "tagline": "We automate urban planning so cities can build infrastructure cheaper and faster.",
+      "body": "**TLDR;** Waypoint is an AI city planner that generates infrastructure planning studies. American municipalities spend $50B/year on planning. With Waypoint, plans are completed faster and at lower cost, reducing project timelines from years to months.\n\n[Our Demo](https://www.youtube.com/watch?v=doRIYg9vi7A)\n\n## **The Problem**\n\nCities in the US spend **approximately $50B** annually on planning, studies, and engineering designs. These reports can take as long as 4 years to complete, and they’re often done by consultants.\n\nStudies are crucial first steps to securing state/federal funding and must happen before any construction can begin. They might look at where bus service needs improvement, which roads need bike lanes, or how to make school routes safer for kids walking to class.\n\nHere's the thing - when you look at what these consultants actually do, you find civil engineers doing **repetitive data entry, manipulation, and visualization**. And despite cities nationwide conducting very similar studies, consulting firms don't seem to be getting any more efficient at producing them.\n\n![uploaded image](/media/?type=post&id=87795&key=user_uploads/846930/25bfbaab-c13c-4167-bbf6-296174f18759)\n\n## **Our Solution**\n\nWe're using AI to automate planning, **starting with transportation consulting**. We help cities build better infrastructure **faster and at lower cost**. We work with cities just like traditional consultants, but use AI to do the heavy lifting instead of manual work. It turns out our model produces better plans at 30% of the cost and in a fraction of the time.\n\nSome work our AI city planner is doing today:\n\n* **Literature review** that looks at thousands of documents to find relevant best practices and plans from other cities\n* **Data unification** that combines satellite imagery, GIS mapping data, and Excel spreadsheets into a single source of truth\n* **Tables, charts, and interactive maps** to visualize infrastructure and transportation data\n* **Recommendations** that ensure compliance with municipal codes\n* **Report writing** tailored to city government\n\n## **Why We’re Working On This**\n\nWe love cities and public transportation, but we're concerned about their future in the US. Cities urgently need new transportation infrastructure to address growing congestion and climate change. However, limited staff and budgets mean they're not moving fast enough. We believe AI can help by reducing costs and expanding cities' capacity to get things done.\n\n## **Our Ask**\n\nIf you work on transportation in a city government, transit agency, or DOT, we’d love to connect to potential customers or advisors! You can reach us at [contact@waypointtransit.com](https://mailto:contact@waypointtransit.com).\n\n![uploaded image](/media/?type=post&id=87795&key=user_uploads/846930/235b5029-d63b-4cff-a8f8-f5fe15ba9052)\n\n_Varun and Ryan are Stanford engineering grads who previously worked on AI at Microsoft and chip design at Apple._",
+      "url": "https://www.ycombinator.com/launches/Mq3-waypoint-transit-the-ai-city-planner",
+      "votes": 76,
+      "created_at": "2025-02-19T15:07:18.492Z"
+    }
+  ]
+}

@@ -1,0 +1,113 @@
+{
+  "id": 28815,
+  "name": "Atla",
+  "slug": "atla",
+  "former_names": [
+    "Atla",
+    "atla",
+    "Atla",
+    "atla"
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/f7e8e61ea6d3f763043392069ac87464fc6db2af.png",
+  "website": "https://www.atla-ai.com/",
+  "all_locations": "London, England, United Kingdom",
+  "long_description": "Find and fix your agent’s most critical failures in hours, not days.\r\n\r\nAtla helps developers cut time spent on manually reviewing traces. Atla’s LLM judge evaluates your agent step-by-step, uncovers error patterns across runs, and suggests specific fixes—so you know exactly what to fix and why.\r\n\r\nAtla supports the most popular agent frameworks teams build with, including LangChain, CrewAI, and OpenAI Agents. With real-time monitoring, automated error detection, and prompt experimentation, Atla gives teams the visibility and control needed to confidently ship agentic systems that work. \r\n\r\nWe’re a team of researchers, engineers, entrepreneurs and operational leaders. Our expertise in evals was honed through training our own purpose-built LLM Judges, Selene and Selene Mini, which are available open-source and have been downloaded 60,000+ times.",
+  "one_liner": "The improvement engine for AI agents",
+  "team_size": 10,
+  "industry": "B2B",
+  "subindustry": "B2B",
+  "launched_at": 1687465633,
+  "tags": [
+    "AIOps",
+    "Artificial Intelligence",
+    "Developer Tools",
+    "Analytics",
+    "AI"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Summer 2023",
+  "status": "Inactive",
+  "industries": [
+    "B2B"
+  ],
+  "regions": [
+    "United Kingdom",
+    "Europe"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/atla",
+  "api": "https://devasheeshg.github.io/yc-api/batches/summer-2023/atla.json",
+  "year_founded": 2023,
+  "city": "London",
+  "country": "GB",
+  "linkedin_url": "https://www.linkedin.com/company/atla-ai",
+  "x_url": "https://x.com/Atla_AI",
+  "fb_url": null,
+  "cb_url": "https://www.crunchbase.com/organization/atla-037f",
+  "github_url": "https://github.com/atla-ai/",
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/f7e8e61ea6d3f763043392069ac87464fc6db2af.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Harj Taggar",
+    "url": "https://www.ycombinator.com/people/harj-taggar"
+  },
+  "founders": [
+    {
+      "user_id": 1125799,
+      "full_name": "Maurice Burger",
+      "title": "Founder",
+      "founder_bio": "Co-founder of Atla (S23). Startup veteran @ Syrup, Trim, and Merantix. Masters in CS @ University of Pennsylvania. Half an MBA @ Harvard Business School.",
+      "is_active": false,
+      "linkedin_url": "https://www.linkedin.com/in/maurice-burger/",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/a2469ba280fe36958a607550e4d8c469166187fe.jpg"
+    },
+    {
+      "user_id": 946667,
+      "full_name": "Roman Engeler",
+      "title": "Founder",
+      "founder_bio": "Co-founder & CTO of atla (S23). AI safety researcher @ MATS. MSc. Robotics @ ETH, Stanford, Imperial.",
+      "is_active": false,
+      "linkedin_url": "https://linkedin.com/in/roman-engeler-54416212b",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/66d764f35f54a4b1f23c31849de201dfdecd99f4.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [
+    {
+      "title": "Atla wants to build text-generating AI models with ‘guardrails’ | TechCrunch",
+      "url": "https://techcrunch.com/2023/12/05/atla-wants-to-build-text-generating-ai-models-with-guardrails/",
+      "date": "Dec 05, 2023"
+    }
+  ],
+  "launches": [
+    {
+      "id": 93580,
+      "title": "Atla: The improvement engine for AI agents",
+      "tagline": "We help teams building AI agents find and fix recurring failures.",
+      "body": "Hey everyone! [Roman](https://www.linkedin.com/in/roman-engeler-54416212b/) here, cofounder of Atla.\n\n# **TL;DR**\n\nAtla helps teams building AI agents find and fix recurring failures. Instead of just surfacing endless traces, Atla automatically identifies the patterns behind failures and suggests targeted fixes.\n\n**Ask:** Building agents? Try us at [atla-ai.com](http://atla-ai.com) to find your agent’s most critical issues and ship improvements in hours, not days. \n\n# https://youtu.be/LtvKBJKPxKE?feature=shared\n\n# **❌ The Problem**\n\nAgents are complex black boxes, chaining together plans, tool calls, and agent-to-agent interactions. For this reason:\n\n* Failures hide inside long traces and are difficult to spot at scale.\n* Current solutions that just display traces without identifying issues are not enough.\n\nWe’ve spoken to over 100 teams who experience similar pains of digging through thousands of traces without clear signal, and fixing one issue only to have another pop up. This slows down shipping and erodes trust in the system.\n\n# **🛠 Our Solution**\n\nAtla turns all that noise into actionable insights:\n\n1. **Error annotation**: We automatically flag errors at the step level to find the root cause of a failed run.\n2. **Pattern detection**: We cluster those errors across traces to surface the recurring, high-impact failures.\n3. **Actionable fixes**: For each failure mode, Atla generates targeted recommendations specific enough to implement as small pull requests.\n\nThe result: instead of chasing symptoms, you can focus on the 2–3 failures that actually move the needle.\n\n# 📈 **Impact so far**\n\n* A legal AI startup used in over 15 countries now spots prompt failures in days instead of weeks with Atla.\n* A fast-growing productivity AI startup doubled the number of improvements shipped with Atla.\n\n# **👷 Why Us**\n\nBefore starting Atla, I led product and engineering at two fast-growing startups and researched iterative self improvement of large language models at the Stanford Existential Risks Initiative.\n\nAt Atla, we’re a small, highly technical team of AI researchers and engineers obsessed with evaluation and reliability. We previously trained Selene, an LLM-as-a-Judge model downloaded 60k+ times.\n\n![uploaded image](/media/?type=post&id=93580&key=user_uploads/946667/61832c56-f4fa-4c93-a623-eb6c31f5b1f8)\n\n# 🙏 **Our Ask**\n\nIf you’re building agents, we’d love for you to **try Atla**: https://www.atla-ai.com/\n\nKnow teams building agents? Please **share this post** with them!\n\nThank you!",
+      "url": "https://www.ycombinator.com/launches/OLM-atla-the-improvement-engine-for-ai-agents",
+      "votes": 79,
+      "created_at": "2025-09-04T15:03:23.275Z"
+    },
+    {
+      "id": 88045,
+      "title": "Selene - The World’s Most Accurate LLM-as-a-Judge",
+      "tagline": "Half of AI’s answers are brilliant, half aren’t. We trained a model to tell them apart.",
+      "body": "### **TL;DR**\n\nMeet Selene, a state-of-the-art LLM Judge trained specifically to evaluate AI responses. Selene is the best model on the market for evals, beating all frontier models from leading labs across 11 commonly used benchmarks for evaluators. Today, we are releasing:\n\n* API/SDK - Integrate Selene into your AI workflow\n* Alignment Platform - Build custom evaluation metrics for your use case\n\n[Get started using Selene for free.](https://www.atla-ai.com/sign-up?utm_source=ycombinator&utm_medium=community&utm_campaign=SU_YC_launchyc_communitypost_sel1launch_)\n\n![uploaded image](/media/?type=post&id=88045&key=user_uploads/1125799/e44a5253-3117-4849-9c36-3f55ea2345a3)\n\nWatch our demo [here](https://youtu.be/5A8-XqUoNBc).\n\n### **The Problem**\n\nGenerative AI is unpredictable. Even the best models occasionally hallucinate, contradict themselves, or produce unsafe outputs. Many teams rely on the same general-purpose LLMs to evaluate AI outputs, but these models weren’t trained to be judges. That leads to:\n\n* **Inaccurate evaluations** and inefficient iteration cycles in development\n* **Risky, unpredictable** AI behavior in production\n\n### **Our Solution**\n\n* **A SOTA model for evals**: Selene outperforms all frontier models (OpenAI’s o-series, Claude 3.5 Sonnet, DeepSeek R1, etc.) across 11 benchmarks for scoring, classifying, and pairwise comparisons.\n\n  ![uploaded image](/media/?type=post&id=88045&key=user_uploads/1125799/8aec7a55-9ec9-4c98-86ae-ed3293fa3988)\n\n* **A platform to align our evaluator**: Adapt Selene to your exact evaluation criteria—like “detect medical advice,” “flag legal errors,” or “judge whether the agent upgraded its workflow correctly.”\n\n  ![uploaded image](/media/?type=post&id=88045&key=user_uploads/1125799/ae45cd9b-5315-4d1b-a5e5-971c1da285d4)\n\n\nSelene works seamlessly with popular frameworks like DeepEval (YC W25) and Langfuse (YC W23) — just add it to your pipeline. And it runs faster than GPT-4o and Claude 3.5 Sonnet.\n\n### **Who We Are & Why We’re Building This**\n\nWe’re a small, highly technical team of AI researchers and engineers, with folks from leading AI labs and startups. Our mission is to enable the safe development of AGI. As models grow more powerful, **we need a ‘frontier evaluator’ that keeps pace with frontier AI**. We see Selene as a stepping stone toward scalable oversight of powerful AI.\n\n![uploaded image](/media/?type=post&id=88045&key=user_uploads/1125799/c1aa726d-219c-46ca-b99f-e14279c499b2)\n\n### **Our Ask**\n\n[**Try Selene for free**](https://www.atla-ai.com/api) → Integrate our API into your eval pipeline.\n\n[**Try our Alignment Platform**](https://www.atla-ai.com/sign-up?utm_source=ycombinator&utm_medium=community&utm_campaign=SU_YC_launchyc_communitypost_sel1launch_) → Craft a custom eval for your application.\n\n[**Discord**](https://discord.com/invite/qFCMgkGwUK?utm_source=ycombinator&utm_medium=community&utm_campaign=_YC_launchyc_communitypost_sel1launch_) → Leave feedback, get to know us, and brainstorm cool ideas.\n\n![uploaded image](/media/?type=post&id=88045&key=user_uploads/1125799/8b5d8436-9914-4e22-a4d6-47f4fdf842fe)\n\n",
+      "url": "https://www.ycombinator.com/launches/Mu5-selene-the-world-s-most-accurate-llm-as-a-judge",
+      "votes": 56,
+      "created_at": "2025-02-26T12:41:49.232Z"
+    }
+  ]
+}

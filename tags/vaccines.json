@@ -1,0 +1,86 @@
+[
+  {
+    "id": 32587,
+    "name": "TareBio",
+    "slug": "tarebio",
+    "former_names": [],
+    "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/9e770bbea41518001119968d389d0d3e35ce7abe.png",
+    "website": "https://tarebio.com/",
+    "all_locations": "San Francisco, CA, USA",
+    "long_description": "Our platform develops personalized or population-level vaccines for any disease in weeks by changing only one input: the immune imprint. Instead of trying to predict which antigens might work, we read out immune cells already fighting the disease in the body and reverse-engineer antigens that activate them. We've already run our platform end-to-end and created a vaccine that cured cancer in mice.",
+    "one_liner": "Vaccines for any cancer or infection in weeks.",
+    "team_size": 1,
+    "industry": "Healthcare",
+    "subindustry": "Healthcare -> Drug Discovery and Delivery",
+    "launched_at": 1785462754,
+    "tags": [
+      "Vaccines",
+      "Synthetic Biology",
+      "Biotechnology"
+    ],
+    "tags_highlighted": [],
+    "top_company": false,
+    "isHiring": false,
+    "nonprofit": false,
+    "batch": "Summer 2026",
+    "status": "Active",
+    "industries": [
+      "Healthcare",
+      "Drug Discovery and Delivery"
+    ],
+    "regions": [
+      "United States of America",
+      "America / Canada"
+    ],
+    "stage": "Early",
+    "app_video_public": false,
+    "demo_day_video_public": false,
+    "app_answers": null,
+    "question_answers": null,
+    "url": "https://www.ycombinator.com/companies/tarebio",
+    "api": "https://devasheeshg.github.io/yc-api/batches/summer-2026/tarebio.json",
+    "year_founded": 2026,
+    "city": "San Francisco",
+    "country": "US",
+    "linkedin_url": "https://www.linkedin.com/company/tarebio/",
+    "x_url": "",
+    "fb_url": null,
+    "cb_url": null,
+    "github_url": null,
+    "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/9e770bbea41518001119968d389d0d3e35ce7abe.png",
+    "app_video_url": null,
+    "dday_video_url": null,
+    "company_photos": [
+      "https://bookface-images.s3.us-west-2.amazonaws.com/attachments/96525419f2b8f6b4da09d8c897eb1c8553bef26f.png"
+    ],
+    "primary_partner": {
+      "name": "Ankit Gupta",
+      "url": "https://www.ycombinator.com/people/ankit-gupta"
+    },
+    "founders": [
+      {
+        "user_id": 431020,
+        "full_name": "Eta Atolia",
+        "title": "Founder/CEO",
+        "founder_bio": "Founder & CEO, TareBio (YC S26). MD-PhD from UCLA-Caltech, where she built a novel platform that develops vaccines for any cancer or infection in weeks, funded by the Gates Foundation. BS in Biology from MIT. Conducted research at the Koch Institute, Harvard Medical School, and the Weizmann.\n\nSelect Awards: UCLA MD-PhD Merit Scholar, UCLA TDG Senior Fellow, MIT iGEM Gold Medal, MIT IDEAs winner, MIT Dean Advisory Group, WhiteHouse Science Fair, Bessie Lawrence Scholar, Intel STS Finalist",
+        "is_active": true,
+        "linkedin_url": "https://www.linkedin.com/in/eta-atolia/",
+        "x_url": "https://x.com/eatolia",
+        "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/1b89afa4d7ba0012222ebc57912ad8e652db40bd.jpg"
+      }
+    ],
+    "jobs": [],
+    "news": [],
+    "launches": [
+      {
+        "id": 108804,
+        "title": "TareBio: Vaccines for any cancer or infection in weeks",
+        "tagline": "We make personalized or population-level vaccines reverse-engineered from the immune system. We have already cured cancer in mice and are vaccinating our first patient within the year.",
+        "body": "**TL;DR:** Our platform develops **personalized** or **population-level** vaccines for **_any_ disease** in weeks by **changing _only one input_**: the immune imprint. Instead of trying to predict which antigens might work, we read out immune cells already fighting the disease in the body and reverse-engineer antigens that activate them. We've already run our platform end-to-end and created a vaccine that cured cancer in mice. We will be vaccinating our first patient within the year.\n\n![uploaded image](/media/?type=post&id=108804&key=user_uploads/431020/46cdbd4d-72d9-4231-a781-01a886dd82a4)\n\nView our launch video here: <https://www.youtube.com/watch?v=ty7jA8ecY2o>\n\n**The vaccine bottleneck**\n\nFor 200+ years, vaccines have been designed using the same workflow: study a pathogen or tumor, _predict_ which antigens might trigger protection, vaccinate, and hopefully generate a good immune response. This works for simpler infections. It has struggled for decades on complex diseases like HIV, TB, Hep C, and nearly _every cancer_. Currently, vaccine design is treated as a prediction problem.\n\n**What we do differently**\n\nInstead, we treat it as a readout problem. The **immune system has _already solved_** antigen selection in the body, it knows what it's responding to and the best immune cells for the job. So, we flip the whole process around:\n\n1. Capture the immune cells already responding to a cancer or infection, the \"**immune imprint**\"\n2. Use this imprint to directly identify, or “**reverse engineer**”, activating antigens\n3. Build a **vaccine** from those antigens\n\n![uploaded image](/media/?type=post&id=108804&key=user_uploads/431020/31744f0e-4a44-4aa9-aa2e-29d174a8d30a)\n\nThe same platform works for **_any_ disease** by changing one input: the immune imprint. Function over prediction, no constrained search space, and the output is a vaccine that can generate durable immunity in the body, not a transient antibody conjugate or cellular therapy.\n\n**Proof**\n\nWe built the full platform in mice and ran it end-to-end: identified antigens from the immune imprint of the cancer, designed a vaccine from them, and **cured lymphoma in mice.** Nothing about the technology is specific to lymphoma, it generalizes to any cancer or infection. We are using our technology to create both personalized (n=1) and population-level vaccines.\n\n**Why us**\n\nI'm Eta Atolia, founder and CEO. I built this platform over the last 8 years as part of my MD-PhD at UCLA-Caltech with funding from The Gates Foundation. Before this, I did my undergrad at MIT with most of my time dedicated to cancer immunotherapy and infectious disease research at the Koch and HMS. Our scientific advisory board includes Darrell Irvine, PhD (Vice Chair of Immunology at Scripps, Former MIT Professor of 22 years, world-renowned vaccine engineer) and Manish Butte, MD, PhD (Chief of Immunology at UCLA and expert rare disease clinician).\n\n**Our ask**\n\nWe are actively working with organizations and individuals to create both population-level vaccines and personalized treatments.\n\nHelpful things as we build:\n\n* If you have **patient tumor** **or** **blood samples**, please reach out.\n* Intros to **biotech + pharma** and **vaccine teams** for partnerships.\n* **Immunologists, oncologists, infectious disease specialists,** and **ML engineers** who want to build this with us.\n\nIf any of this resonates, reach out at [contact@tarebio.com](mailto:contact@tarebio.com).\n\n![uploaded image](/media/?type=post&id=108804&key=user_uploads/431020/e32e6406-ca9a-4740-9a77-48dd31f02e7f)\n\n",
+        "url": "https://www.ycombinator.com/launches/SIu-tarebio-vaccines-for-any-cancer-or-infection-in-weeks",
+        "votes": 12,
+        "created_at": "2026-08-04T14:27:01.936Z"
+      }
+    ]
+  }
+]

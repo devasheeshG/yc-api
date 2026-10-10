@@ -1,0 +1,83 @@
+{
+  "id": 28779,
+  "name": "Metoro",
+  "slug": "metoro",
+  "former_names": [],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/6fa41154d43a3a3e4861f884623a00efb64e06f5.png",
+  "website": "https://metoro.io",
+  "all_locations": "London, England, United Kingdom",
+  "long_description": "Metoro is an AI SRE for teams running on Kubernetes. Run one command to get autonomous root causing and automatic fix PRs. Batteries included, telemetry is set up automatically. Go from nothing to production ready in < 5 minutes.",
+  "one_liner": "AI SRE For Teams on Kubernetes",
+  "team_size": 2,
+  "industry": "B2B",
+  "subindustry": "B2B -> Engineering, Product and Design",
+  "launched_at": 1689872648,
+  "tags": [
+    "Developer Tools",
+    "Kubernetes",
+    "DevOps",
+    "AI"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Summer 2023",
+  "status": "Active",
+  "industries": [
+    "B2B",
+    "Engineering, Product and Design"
+  ],
+  "regions": [
+    "United Kingdom",
+    "Europe"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/metoro",
+  "api": "https://devasheeshg.github.io/yc-api/batches/summer-2023/metoro.json",
+  "year_founded": 2023,
+  "city": "London",
+  "country": "GB",
+  "linkedin_url": "https://www.linkedin.com/company/98393849",
+  "x_url": "https://x.com/metoro_ai",
+  "fb_url": null,
+  "cb_url": "https://www.crunchbase.com/organization/metoro",
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/6fa41154d43a3a3e4861f884623a00efb64e06f5.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Diana Hu",
+    "url": "https://www.ycombinator.com/people/diana-hu"
+  },
+  "founders": [
+    {
+      "user_id": 1239892,
+      "full_name": "Chris Battarbee",
+      "title": "Founder",
+      "founder_bio": "I'm one of the founders of Metoro - We're building an AI SRE for teams running in Kubernetes. You can go from nothing to full observability with auomatically detected bugs in < 5 minutes.\n\nBefore Metoro, I worked at Palantir as a Software Engineer where I built out Foundry's compute platform.\n",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/chrisbattarbee",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/985bf4795fe9866de28c1514eefc1540407fd2a7.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 73574,
+      "title": "Metoro: Debug production systems faster with AI",
+      "tagline": "Metoro surfaces relevant metrics and logs, performs root cause analysis and suggests remediations",
+      "body": "**tl;dr:** Metoro is an AI agent which helps you debug production systems. Ask Metoro for help and it will surface relevant metrics and logs, perform root cause analysis and suggest remediations. It plugs into your existing observability stack (like DataDog, Grafana, Elastic, etc.) and debugs your system with you.\n\nHi everyone! We’re Chris and Tom, the team behind Metoro. We’re software engineers who have worked on complex distributed systems at Palantir and Jump Trading and are building the debugging tool we wish we had.\n\n## The Problem: Debugging production systems is hard\n\nProduction systems are complex. It’s difficult to identify the metrics and logs that are relevant to the bug you’re hunting. This problem gets worse if you didn't write the code in the first place, or are unfamiliar with the system.\n\n## The Solution: An interactive debugging agent that investigates with you\n\n[Metoro](https://metoro.io/) acts like an experienced engineer. It understands your system and debugs your services one by one, updating its hypothesis as it discovers new information.\n\nWhen it’s done, the investigation results are presented to you in an interactive dashboard for you to explore. This includes a root cause hypothesis, potential remediations and relevant logs and metrics for each service it looked at.\n\nMetoro reads data from your existing observability stack. No application or infra changes needed.\n\n### Ask: How you can help\n\n* We're signing up teams from startups/scale-ups. If you'd like to try it or know people who would, please shoot us a mail at [founders@metoro.io](mailto:founders@metoro.io) or book a demo call <https://calendly.com/chris-battarbee/15-minute>\n* Check out our [website](https://metoro.io). We’d love your feedback!\n* **Upvote and share this post!**",
+      "url": "https://www.ycombinator.com/launches/J8g-metoro-debug-production-systems-faster-with-ai",
+      "votes": 58,
+      "created_at": "2023-07-30T09:08:46.501Z"
+    }
+  ]
+}

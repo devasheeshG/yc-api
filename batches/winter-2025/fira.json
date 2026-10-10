@@ -1,0 +1,87 @@
+{
+  "id": 30356,
+  "name": "Fira",
+  "slug": "fira",
+  "former_names": [],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/8180359e4edaaddd169f88aafc0eb2338fe0116f.png",
+  "website": "https://firaresearch.com/",
+  "all_locations": "London, England, United Kingdom",
+  "long_description": "Fira accelerates financial research for investment analysts by instantly searching and analyzing thousands of pages of company filings and earnings reports, delivering source-cited answers and verifiable calculations.\r\n\r\nOur mission is to build a comprehensive research platform that integrates seamlessly with internal and external data sources, handles research and analysis, generates investment documents, and automates repetitive workflows. This frees investment professionals to focus on what matters most: building relationships and making strategic decisions.",
+  "one_liner": "Financial research platform for investment firms",
+  "team_size": 4,
+  "industry": "B2B",
+  "subindustry": "B2B -> Finance and Accounting",
+  "launched_at": 1736800806,
+  "tags": [],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Winter 2025",
+  "status": "Active",
+  "industries": [
+    "B2B",
+    "Finance and Accounting"
+  ],
+  "regions": [
+    "United Kingdom",
+    "Europe"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/fira",
+  "api": "https://devasheeshg.github.io/yc-api/batches/winter-2025/fira.json",
+  "year_founded": 2025,
+  "city": "London",
+  "country": "GB",
+  "linkedin_url": "https://www.linkedin.com/company/fira-ai/",
+  "x_url": "",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/8180359e4edaaddd169f88aafc0eb2338fe0116f.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Gustaf Alstromer",
+    "url": "https://www.ycombinator.com/people/gustaf-alstromer"
+  },
+  "founders": [
+    {
+      "user_id": 626328,
+      "full_name": "Alex Tkachenko",
+      "title": "Founder/CEO",
+      "founder_bio": "CEO at Fira. Previously founded Hashscan, blockchain analytics startup. Created Hodler, crypto portfolio tracker app (sold in 2022).",
+      "is_active": true,
+      "linkedin_url": "https://linkedin.com/in/alextcn",
+      "x_url": "https://twitter.com/jackqack",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/ecacd180334e9fbb9ad246e686cc2478f815800b.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 100809,
+      "title": "Fira MCP: Financial datasets in Claude and Excel",
+      "tagline": "Connect SEC filings, UK Companies House, market data and earnings transcripts to your AI with source-cited answers",
+      "body": "Reliable financial data access and trust in outputs are still the bottleneck in adopting AI in banking, consulting and investment firms. We built Fira MCP to solve that, starting from for teams adopting Claude. Our data connector lets your AI read and cite SEC and international filings, UK Companies House, market data, and earnings transcripts. It works with Claude, Claude for Excel, ChatGPT, and Copilot, while setup takes 3 minutes and it's free to try - <https://firaresearch.com/mcp>.\n\n<https://youtu.be/JoEY1imdVhw>\n\n### Problem\n\nMany banking, consulting, and investment firms are moving day-to-day AI work to Claude. But reliable data access and trust in the outputs are still the bottleneck.\n\n### Solution - Fira MCP\n\nFira MCP plugs directly into Claude, ChatGPT, Copilot, and Claude for Excel as a data connector. Your AI gets access to filings, transcripts, and market data, with numbers linked back to the exact paragraph or row in the source document. It handles scanned PDFs, nested tables, and works across tens of documents in a single research thread.\n\n## Available datasets\n\n* **SEC Filings** — 8,000+ active US companies (10-K, 10-Q, 8-K, and more)\n* **UK Companies House** — 5M+ private companies, including scanned accounts\n* **International filings** — 10,000+ companies across 50+ countries\n* **Earnings call transcripts** — full transcripts with analyst Q&A\n* **Market data** — 20+ years of daily stock and FX, US and global\n* **Custom datasets** — proprietary and third-party integrations for enterprise\n\n### Use cases\n\n**I. Peer comparison in Excel** — pull financials, strategy, and risk factors across competitors directly from filings.\n\n![uploaded image](/media/?type=post&id=100809&key=user_uploads/626328/99b5fdce-2a4b-4053-a6c1-6b94ec87d578)\n\n**II. Corporate structure mapping** — trace ownership and financials through complex group structures from UK filings.\n\n![uploaded image](/media/?type=post&id=100809&key=user_uploads/626328/c1665625-8a07-414d-ac76-b7ecd356b12b)\n\n**III. Earnings call analysis** — review management commentary and analyst Q&A for sentiment and evasive answers.\n\n![uploaded image](/media/?type=post&id=100809&key=user_uploads/626328/7fb98502-0b18-4486-b7f7-5b6655161588)\n\n**IV. Document verification** — cross-reference every number against source, catch rounding deltas and inconsistencies.\n\n![uploaded image](/media/?type=post&id=100809&key=user_uploads/626328/c11d5c2d-d1d3-4328-a4bb-63dd13aba8d6)\n\n### Asks\n\nLooking to connect with finance professionals (banking, PE, credit, hedge funds, wealth) who want their AI assistant to actually do useful work.",
+      "url": "https://www.ycombinator.com/launches/QDx-fira-mcp-financial-datasets-in-claude-and-excel",
+      "votes": 14,
+      "created_at": "2026-05-05T19:11:01.299Z"
+    },
+    {
+      "id": 88048,
+      "title": "Fira: Agentic AI Analyst",
+      "tagline": "Accelerating financial analysts with source-cited insights and verified calculations from complex company filings",
+      "body": "**Fira** is building an agentic AI analyst for financial research and automation, starting with UK investment firms. Today, we accelerate analysts with source-cited insights and verified calculations from complex company filings.\n\n<https://youtu.be/a8C9TifdUOg>\n\n# Problem\n\nAnalysts at investment banks and boutique M&A firms waste tons of time digging through hundred-page annual reports to prepare pitch decks and models. General LLM tools aren't good enough for the job — lacking accuracy, domain-specific data, and output verification. The problem extends to senior professionals who need to quickly understand new topics deeply while staying grounded in truthful data sources.\n\n---\n\n# Solution\n\nFira saves analysts time by instantly searching, analyzing and citing UK company filings. It reads multiple filings and reports (including 500 page long and scanned documents) to provide source-cited answers and verifiable calculations. We cover hundreds of public UK companies, integrate with Companies House for private company data, and allow to upload your documents.\n\n---\n\n# Use cases\n\n**I. Breakdown detailed financial and operational KPIs in seconds**\n\n![uploaded image](/media/?type=post&id=88048&key=user_uploads/626328/d03ed2eb-89ea-49f2-af3e-895cf89dd3a7)\n\n**II. Perform general research on data scattered across reports and filings**\n\n![uploaded image](/media/?type=post&id=88048&key=user_uploads/626328/af63b5d1-c1ba-4551-9168-91c8b3a8ca8f)\n\n**III. Fira calculates financial metrics it can't find, providing transparency in formula and variables used**\n\n![uploaded image](/media/?type=post&id=88048&key=user_uploads/626328/d65b3dba-a6ce-4653-86e9-9ddedcb5d0a4)\n\n# Asks\n\nLooking to connect with senior professionals and analysts at investment banks, M&A advisory firms, hedge funds, and wealth management firms. Especially in the UK. If you work in finance or know someone who does, we'd love an intro. Book a demo [here](https://firaresearch.com) or email us at [alex@firaresearch.com](mailto:alex@firaresearch.com).\n\n# About us\n\nAlexey and Alex are both technical founders, met 9 years ago at university and been close friends since.\n\nAlexey was CTO and co-founder of [resume.io](http://resume.io), one of the largest resume builder websites (acquired in 2021). He’s also an author of wouter, a React router library with 7k stars and 580k downloads/month, and a regular tech conference speaker.\n\nAlex was the founder and CEO of Hashscan, on-chain user analytics startup. Previously, he built a popular crypto porftolio tracker app Hodler (sold in 2022).\n\n![uploaded image](/media/?type=post&id=88048&key=user_uploads/626328/13c0b9c8-06c4-4307-b446-8edc81b35aab)\n\n# Links\n\nWebsite: <https://firaresearch.com>\n\nLinkedIn: <https://www.linkedin.com/company/fira-ai/>",
+      "url": "https://www.ycombinator.com/launches/Mu8-fira-agentic-ai-analyst",
+      "votes": 35,
+      "created_at": "2025-02-26T01:51:02.509Z"
+    }
+  ]
+}

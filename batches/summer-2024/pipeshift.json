@@ -1,0 +1,117 @@
+{
+  "id": 29950,
+  "name": "Pipeshift",
+  "slug": "pipeshift",
+  "former_names": [
+    "Xylem AI",
+    "Pipeshift AI"
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/6dc8136429eadec250bda86f1102143f81a24beb.png",
+  "website": "https://pipeshift.com",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "Pipeshift helps engineering teams run real-time inference in production. We offer optimized runtimes to meet latency/throughput SLAs, paired with infrastructure orchestration that auto-scales and routes workloads across clusters and regions at cost-effective rates.",
+  "one_liner": "Ultra-low latency inference cloud for real-time workloads",
+  "team_size": 10,
+  "industry": "B2B",
+  "subindustry": "B2B -> Infrastructure",
+  "launched_at": 1717199794,
+  "tags": [
+    "AIOps",
+    "Artificial Intelligence",
+    "Infrastructure",
+    "AI",
+    "ML"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Summer 2024",
+  "status": "Active",
+  "industries": [
+    "B2B",
+    "Infrastructure"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada",
+    "Remote",
+    "Partly Remote"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/pipeshift",
+  "api": "https://devasheeshg.github.io/yc-api/batches/summer-2024/pipeshift.json",
+  "year_founded": 2024,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://linkedin.com/company/pipeshift",
+  "x_url": "https://x.com/pipeshiftai",
+  "fb_url": null,
+  "cb_url": "https://www.crunchbase.com/organization/pipeshift",
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/6dc8136429eadec250bda86f1102143f81a24beb.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [
+    "https://bookface-images.s3.us-west-2.amazonaws.com/attachments/7bbe0c7a8e3c5d237daced05c9c6ccf3e3d2c253.png"
+  ],
+  "primary_partner": {
+    "name": "Tyler Bosmeny",
+    "url": "https://www.ycombinator.com/people/tyler-bosmeny"
+  },
+  "founders": [
+    {
+      "user_id": 951072,
+      "full_name": "Arko C",
+      "title": "Founder/CEO",
+      "founder_bio": "CEO @ Pipeshift.\nBuilding scalable infrastructure for open source AI workloads.",
+      "is_active": true,
+      "linkedin_url": "https://linkedin.com/in/arkoc",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/9876982b24706efd78662ca96b583422f5125e9a.jpg"
+    },
+    {
+      "user_id": 960185,
+      "full_name": "Enrique Ferrao",
+      "title": "Founder/CTO",
+      "founder_bio": "CTO @ Pipeshift. Focused on squeezing out max LLM performance from GPUs",
+      "is_active": true,
+      "linkedin_url": "https://linkedin.com/in/enrique-ferrao",
+      "x_url": "https://x.com/FerraoEnrique",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/a33343830babab394b79c61cdb3cffd378b0f8f5.jpg"
+    },
+    {
+      "user_id": 960170,
+      "full_name": "Pranav Reddy",
+      "title": "Founder/CIO",
+      "founder_bio": "CIO @ Pipeshift. Making LLMs go brrrr at Pipeshift",
+      "is_active": true,
+      "linkedin_url": "https://linkedin.com/in/pranavreddyg",
+      "x_url": "https://x.com/pranavreddyg",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/b8b0ad79f3f331999efdd9b6b917e168ce8ed31e.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [
+    {
+      "title": "Democratising Access To Open-Source GenAI With Pipeshift",
+      "url": "https://www.forbes.com/sites/davidprosser/2025/01/23/democratising-access-to-open-source-genai-with-pipeshift/",
+      "date": "Jan 23, 2025"
+    }
+  ],
+  "launches": [
+    {
+      "id": 83260,
+      "title": "Pipeshift AI - Fine-tuning and inference for open-source LLMs",
+      "tagline": "Replace GPT/Claude in production with specialized LLMs that are fine-tuned on your context, offering higher accuracy, lower latencies and model ownership.",
+      "body": "**_TL;DR:_** Pipeshift is the cloud platform for finetuning and inferencing open-source LLMs, helping teams get to production with their LLMs faster than ever. With Pipeshift, companies making >1000 calls/day on frontier LLMs can use their data and logs to replace GPT/Claude with specialized LLMs that offer higher accuracy, lower latencies, and model ownership. [_Connect with us._](https://cal.com/arkoc/pipeshift)\n\n![uploaded image](/media/?type=post&id=83260&key=user_uploads/951072/55b3d2ab-6279-4002-9bc7-2e7527c8578b)\n\n# **🧨 The Problem: Building with Open-source LLMs is hard!**\n\nThe open-source AI stack is missing, forcing most teams to experiment by **duct-taping things like TGI/vLLM but having nothing ready for production.** As you scale, it requires expensive ML talent, long build cycles, and constant optimizations.\n\nThe **gap between open-source and closed-source models is shrinking** (Meta's Llama 3.1 405B is a testament to that)! And open-source LLMs offer multiple benefits over their closed-source counterparts:\n\n🔏 Model ownership and IP control\\\n🎯 Verticalization and customizability\\\n🏎️ Improved inference speeds and latency\\\n💰 Reduction of API costs at scale\n\n# **🎉 The Solution: Heroku/Vercel for Open-source LLMs**\n\nPipeshift is the **cloud platform for fine-tuning and inferencing open-source LLMs**, helping developers get to production with their LLMs faster than ever.\n\n**🎯 Fine-tune Specialized LLMs**\\\nRun multiple LoRA-based fine-tuning jobs to build specialized LLMs.\n\n**⚡️ Serverless APIs of Base and Fine-tuned LLMs**\\\nRun inference for your fine-tuned LLMs and pay as per your token usage.\n\n**🏎️ Dedicated Instances for High Speed and Low Latency**\\\nUse our optimised inference stack to get max throughputs and utilisation on GPUs.\n\n[Product Demo: https://youtu.be/z8z5ILyXxCI](https://youtu.be/z8z5ILyXxCI)\n\n_Our inference stack is one of the best globally, hitting **150+ tokens/sec on 70B parameter LLMs** without any model quantization. And, since our private beta access was opened (<2 weeks back), we have already seen **25+ LLMs being fine-tuned with over 1.8B tokens in training data** across 15+ companies._\n\n![uploaded image](/media/?type=post&id=83260&key=user_uploads/951072/b91ba4bb-dca1-4567-8a0c-cf637e03b561)\n\n# **👋 Ask: How you can help**\n\nIf you’re building an AI co-pilot/agent/SaaS product and **are looking to move to open-source LLMs** or know someone who’s looking to do that same, then [book a call](https://cal.com/arkoc/pipeshift) or mail us at [_founders@pipeshift.ai_](mailto:founders@pipeshift.ai) - whichever you’d like!",
+      "url": "https://www.ycombinator.com/launches/Leu-pipeshift-ai-fine-tuning-and-inference-for-open-source-llms",
+      "votes": 703,
+      "created_at": "2024-08-21T01:29:39.204Z"
+    }
+  ]
+}

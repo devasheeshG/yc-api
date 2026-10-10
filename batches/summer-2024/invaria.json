@@ -1,0 +1,102 @@
+{
+  "id": 29641,
+  "name": "Invaria",
+  "slug": "invaria",
+  "former_names": [
+    "Patchwork",
+    "Patchwork Technologies"
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/07b72c4e012c5010eb399d3c3541a6ce75e1383e.png",
+  "website": "https://invaria.com",
+  "all_locations": "London, England, United Kingdom",
+  "long_description": "Invaria automates logging from code to storage. We make it possible to automatically add actionable, structured event logs across your entire codebase. OTel is automated instrumentation for the ideal world, Invaria is for everyone else.\r\n\r\nInvaria was founded by three engineers who know what good looks like when it comes to observability, but also know it's takes a lot of dev effort to do manually. ",
+  "one_liner": "The next generation logging and observability platform",
+  "team_size": 3,
+  "industry": "B2B",
+  "subindustry": "B2B -> Engineering, Product and Design",
+  "launched_at": 1723390201,
+  "tags": [
+    "Artificial Intelligence",
+    "Developer Tools",
+    "DevOps"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Summer 2024",
+  "status": "Inactive",
+  "industries": [
+    "B2B",
+    "Engineering, Product and Design"
+  ],
+  "regions": [
+    "United Kingdom",
+    "Europe"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/invaria",
+  "api": "https://devasheeshg.github.io/yc-api/batches/summer-2024/invaria.json",
+  "year_founded": 2024,
+  "city": "London",
+  "country": "GB",
+  "linkedin_url": "https://www.linkedin.com/company/104537093",
+  "x_url": "",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": "https://github.com/Patchwork-Tech/",
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/07b72c4e012c5010eb399d3c3541a6ce75e1383e.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": null,
+  "founders": [
+    {
+      "user_id": 1666763,
+      "full_name": "Ben Hall",
+      "title": "Founder",
+      "founder_bio": "Working on something new - keen to connect with hardware-turned-software engineers.\n\nPrior to Invaria, Ben spent almost 5 years at Palantir, mixing code and sales. Most recently he led the company's zero-to-one effort in the EMEA Utilities sector – an engineer in the deep end of sales. He was founding Principal Engineer at deep tech startup, Oxford Flow. The startup spun out of Oxford Uni's aerospace lab, where he had carried out his PhD research in jet engine aerodynamics. ",
+      "is_active": false,
+      "linkedin_url": "https://www.linkedin.com/in/benjaminfhall",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/41887e5f58a5aa5f8393c5a5806b1eb53f1ccbc4.jpg"
+    },
+    {
+      "user_id": 1709643,
+      "full_name": "Sam Kramer",
+      "title": "Founder",
+      "founder_bio": "Prior Invaria, Sam spent six years at Palantir, splitting his time equally between product and business development. Sam has done everything from fixing availability bugs in Paxos protocol implementations to running relationships with customer IT. ",
+      "is_active": false,
+      "linkedin_url": "https://www.linkedin.com/in/samuel-kramer-4263189a/",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/ab9b5d7feb0a5eb63f9b9370418678626ad1d503.jpg"
+    },
+    {
+      "user_id": 1977434,
+      "full_name": "Alex Maass",
+      "title": "Founder",
+      "founder_bio": "Prior to Invaria, Alex spent 9 years at Palantir as a Forward Deployed Engineering Lead and as a Production Engineering Manager. He has led globally distributed teams to deliver client facing projects across diverse industries. As a Production Engineering Manager, Alex led and grew the EMEA team and was responsible for special projects with some of Palantir's most critical clients. Prior to Palantir, Alex had hardware engineering internships at Nvidia and MSI.",
+      "is_active": false,
+      "linkedin_url": "https://www.linkedin.com/in/alexmaass/",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/8b8a67597097e5d98338cd1a415343f56f869aae.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 83144,
+      "title": "Patchwork Technologies: Automated logging from code to storage",
+      "tagline": "We make it simple to implement actionable, context-rich logging across your entire codebase.",
+      "body": "[Patchwork](https://getpatchwork.io/) automates logging from code to storage. Developers no longer need to manually write or re-write logs — Patchwork does it for them. Actionable, context-rich, secure logs can become the new standard across your entire codebase.\n\nThe product currently works with Java, Go, Python, Ruby, TypeScript, JavaScript, Scala, and Kotlin.\n\n<https://youtu.be/70Pnfu8HHHQ>\n\n# **The Problem with Logs**\n\nManually instrumenting code with logging is time-consuming and tedious. Unlike building features, logging doesn’t earn promotions. Logs are written by developers but consumed by SREs and security engineers once in production.\n\nPicture this: a critical incident strikes at 2 AM. Your SREs are scrambling, frantically searching through a mess of inconsistent logs, trying to piece together what went wrong. Sound familiar? That’s because logging, as it stands today, is broken.\n\nEmpires like Splunk have been built on the premise that messy logs are a fact of life and you therefore need to fork out for best-in-class indexing and querying. We say it’s time to tackle this problem at the source.\n\n![uploaded image](/media/?type=post&id=83144&key=user_uploads/1666763/dc25e534-00d3-4b8d-91ab-dba6bf902905)\n\n**Patchwork: Logging, _Un_\\-imagined**\n\nWith Patchwork, developers can focus on building features while our product ensures that every log is context-rich, actionable, and secure. Developers can un-imagine logs, forever.\n\nPatchwork works in the background, reviewing your existing codebase and stepping in during continuous integration to ensure that your new code meets your engineering standards.\n\nOur product is flexible, but in our experience, good logs:\n\n* Are context-rich and actionable,\n* Explain what the failed method was attempting (the intent),\n* Provide the context in which it failed (the state of all relevant variables),\n* Use a structured format,\n* Handle sensitive information gracefully (never include tokens/passwords, label or exclude, e.g., personal information).\n\nOur mission is to provide a few-click, automated journey to implement logging from code through to storage.\n\n# **Our Ask: Give an SRE a Hug**\n\nAnd then, help them out by giving them our email – [founders@getpatchwork.io](mailto:founders@patchwork.io). We’d love to connect with Senior SREs and VPs of Engineering – in our experience, they really get it.\n\nCheck out how we think at our [blog.](https://www.getpatchwork.io/post/the-problem-with-logs)\n\n![uploaded image](/media/?type=post&id=83144&key=user_uploads/1666763/fee73b48-c706-4393-a215-ff9dace4edfe)\n\n# **Our Story**\n\nThe Patchwork founders ([Ben](https://www.linkedin.com/in/benjaminfhall/), [Sam,](https://www.linkedin.com/in/sam-kramer-4263189a/) and [Alex](https://www.linkedin.com/in/alexmaass/)) met while working at Palantir. That translates to _met while delivering product and outcomes to demanding customers, at massive data and infra scale, under tight timelines_. Late-night debugging sessions at Palantir taught us that good logs are priceless.\n\n![uploaded image](/media/?type=post&id=83144&key=user_uploads/1666763/25c4d414-95ab-4572-bb3a-05f90868ced0)\n\n# ",
+      "url": "https://www.ycombinator.com/launches/Ld2-patchwork-technologies-automated-logging-from-code-to-storage",
+      "votes": 29,
+      "created_at": "2024-08-17T00:34:12.169Z"
+    }
+  ]
+}

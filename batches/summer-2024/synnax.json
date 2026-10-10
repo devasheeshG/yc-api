@@ -1,0 +1,105 @@
+{
+  "id": 29591,
+  "name": "Synnax",
+  "slug": "synnax",
+  "former_names": [
+    "Synnax Labs"
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/3f41b3aa61848ecb2a662ed36b6f5712b21849a8.png",
+  "website": "https://www.synnaxlabs.com/",
+  "all_locations": "Denver, CO, USA",
+  "long_description": "We build software that helps hardware teams quickly and clearly evaluate how a component (engine, battery, valve, etc.) or process (assembly line, manufacturing plant) performs. We prevent mistakes, reduce costs, and accelerate time-to-market. Our platform unifies industrial control with sensor data storage and automated post-processing, delivering an end-to-end operations and observability stack. To put it comparatively, take LabVIEW, InfluxDB, and Grafana, wrap them into a single package, add a bit of magic, and you get Synnax.",
+  "one_liner": "Unified Hardware Control and Data Processing Software",
+  "team_size": 5,
+  "industry": "B2B",
+  "subindustry": "B2B -> Infrastructure",
+  "launched_at": 1721072332,
+  "tags": [],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Summer 2024",
+  "status": "Active",
+  "industries": [
+    "B2B",
+    "Infrastructure"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": [
+    {
+      "question": "How did your company get started? (i.e., How did the founders meet? How did you come up with the idea? How did you decide to be a founder?)",
+      "answer": "During his time in industry, Emiliano witnessed outdated control software and bad data review processes lead to multi-million dollar failures of critical path hardware. Frustrated with proprietary file formats, slow data pipelines, and unintuitive, complex tools like LabVIEW, he set out to built a modern control and data processing stack for hardware. Patrick and Elham were Emiliano’s first beta testers on the University of Michigan’s student rocketry team. They played an essential role in early iterations of the product, giving feedback through experience gained during their internships at SpaceX, NASA JPL, and MIT’s Lincoln Labs. Over time, their conviction in the problem Synnax is solving and the quality of the product grew. In early 2024, they joined forces as co-founders."
+    }
+  ],
+  "url": "https://www.ycombinator.com/companies/synnax",
+  "api": "https://devasheeshg.github.io/yc-api/batches/summer-2024/synnax.json",
+  "year_founded": 2024,
+  "city": "Denver",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/synnaxlabs/",
+  "x_url": "https://x.com/synnaxlabs",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/3f41b3aa61848ecb2a662ed36b6f5712b21849a8.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Brad Flora",
+    "url": "https://www.ycombinator.com/people/brad-flora"
+  },
+  "founders": [
+    {
+      "user_id": 529055,
+      "full_name": "Emiliano Bonilla",
+      "title": "Founder/CEO",
+      "founder_bio": "Co-Founder & CEO at Synnax. I'm classically trained in Aerospace Engineering and have a passion for building and selling great software to improve the way teams develop hardware. I led a team in the development of data processing tools for the first launches of Firefly Aerospace's Alpha rocket, one of the few new-space companies to repeatedly reach orbit. I've also worked on automous electric vehicle prototypes and developed banking software for European startups.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/emiliano-bonilla-8a0a95187/",
+      "x_url": "https://x.com/Emilbon99",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/d183df7517e069107156814da52dd26b4b9e82dd.jpg"
+    },
+    {
+      "user_id": 1849518,
+      "full_name": "Patrick Dotson",
+      "title": "Founder/COO",
+      "founder_bio": "Co-Founder & COO at Synnax. I worked on propulsion systems for the Starship program at SpaceX and have experience in both hardware and software engineering. I graduated from the University of Michigan with a degree in aerospace engineering.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/patrick-dotson/",
+      "x_url": "https://x.com/pj_dotson",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/eb84bf453eff4df1402b984a4acc4e85e58e04a1.jpg"
+    },
+    {
+      "user_id": 2215787,
+      "full_name": "Elham Islam",
+      "title": "Founder/CTO",
+      "founder_bio": "Co-Founder & CTO at Synnax. I wrote flight software for the Mars Sample Return Lander at NASA JPL and developed embedded control systems for laser communication at MIT Lincoln Laboratory. I studied computer engineering at the University of Michigan.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/elham-islam-/",
+      "x_url": "https://x.com/ElhamIslam_",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/15129d123788fa6e760ef0a1ac1be47c44f62ea2.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 82381,
+      "title": "Synnax - The software infrastructure for operating & observing complex hardware",
+      "tagline": "Detect anomalies, build mission control interfaces, and automate at scale.",
+      "body": "### **Summary**\n\nTeams operating hardware from rockets to manufacturing lines use outdated, unintuitive control software that disregards the importance of rapid, quality data processing. This leads to unexpected downtime, disastrous anomalies, and delayed development.\\\n\\\n[Synnax](https://synnaxlabs.com) delivers a modern mission control stack with integrated data storage & processing. Wrap [LabVIEW](https://www.ni.com/en/shop/labview.html?cid=PSEA-7013q000001fLK5AAM-CONS-GOGSE_161597904920&utm_keyword=labview&gad_source=1&gclid=CjwKCAjwhvi0BhA4EiwAX25ujz2zA6xF3VRQaQaUKSnIWT-PQLXdmQGvejLgYkhZ7wgR4DdhgZxLyRoClgkQAvD_BwE#521715&s_kwcid=AL!6304!3!691563588228!b!!g!!labview), [Snowflake](https://www.snowflake.com/en/), and [Grafana](https://grafana.com/) into a single package, tune it for hardware, and you get Synnax.\n\n### **The Problem**\n\nWe’re a group of Aerospace Engineers hailing from NASA JPL, SpaceX, and Firefly Aerospace. (From left to right: [Patrick Dotson,](https://www.linkedin.com/in/patrick-dotson/) [Elham Islam](https://www.linkedin.com/in/elham-islam-/), and [Emiliano Bonilla](https://www.linkedin.com/in/emiliano-bonilla-8a0a95187/))\n\n![uploaded image](/media/?type=post&id=82381&key=user_uploads/529055/2aa036ec-8e14-4f42-b5e3-7715e93d17a1)\n\nWe’ve seen the best engineers blow up multi-million dollar systems because their mission control software didn’t give them a comprehensive picture of how their hardware was behaving. A director of test & launch operations once told our team:\n\n> It’s amazing what people guess at just because loading data is so hard\n\nTo put their quote in context, here’s what the leading aerospace control software, LabVIEW, shows as a UI screenshot on their landing page:\n\n![uploaded image](/media/?type=post&id=82381&key=user_uploads/529055/fe8ee6b7-a6bb-43c6-8cda-ee5c596d40b8)\n\nRemember [Scratch](https://scratch.mit.edu/about) or [Lego Mindstorms](https://www.nxtprograms.com/help/learn.html) from elementary school? LabVIEW is kind of like that, except people use it to fly humans to space. LabVIEW and its cross industry counterparts (such as [AVEVA Scada](https://www.aveva.com/en/solutions/operations/scada/) and [Rockwell FactoryTalk](https://www.rockwellautomation.com/en-us/products/software/factorytalk.html)) were first developed in the 20th century and have evolved little since. These tools come with:\n\n* Outdated, unintuitive user interfaces\n* High price tags\n* Closed ecosystems with no integrations\n* Poor documentation\n* Expensive certifications\n\n**Most importantly, they disregard the importance of tightly integrated and automated data processing that drives the innovation of today’s software giants.** Most solutions spit out massive CSV files or mindlessly write data to an SQL table. They’re disorganized, difficult to locate, inaccessible to most engineers, and are challenging to integrate with analysis tools.\n\n### **Our Solution - The Product**\n\nAt Synnax, we’re building a modern alternative to tools like LabVIEW by developing tightly integrated hardware control, sensor data storage, and automated post-processing software. Here’s our UI:\n\n![uploaded image](/media/?type=post&id=82381&key=user_uploads/529055/012764f7-8440-406b-b51e-fc82ee687b6c)\n\nWe deliver:\n\n* Intuitive interfaces for humans to manually operate everything from automotive test stands to manufacturing lines.\n* Tools for categorizing and reviewing historical data.\n* Automated post-processing and report generation pipelines.\n* Direct integration with existing sensor systems so teams don’t need to buy new hardware.\n* A simple API for writing automated control sequences in Python, C++, and TypeScript.\n\nIt’s this easy to open a valve based on temperature in Synnax:\n\n![uploaded image](/media/?type=post&id=82381&key=user_uploads/529055/197cb0a0-dc36-41fb-a273-816dd06d67f8)\n\nHere’s a comparable sequence in LabVIEW:\n\n![uploaded image](/media/?type=post&id=82381&key=user_uploads/529055/64d695d8-a786-49a1-975d-cecb7facf9f7)\n\n### **Our Solution - The Tech**\n\nWe’ve built one of the fastest time-series database engines available. Synnax can stream millions of samples per second in real time, making it possible to control systems with extremely tight timing requirements, such as starting a rocket engine.\n\n### **Our Solution - The Impact**\n\nBy bringing together hardware control and sensor data processing, organizations operating large, complex systems tighten the feedback loop between recording sensor data and using it to make actionable decisions.\n\nWith Synnax, teams:\n\n* Reduce risk by detecting and reacting to anomalies in real time.\n* Spend less time developing in-house data processing solutions.\n* Reduce the manual labor involved in extracting insights from sensor data.\n\n### **Our Asks**\n\nDo you work on hardware and need updated control software? Do you know someone who does? Let us know at [founders@synnaxlabs.com](mailto:founders@synnaxlabs.com).",
+      "url": "https://www.ycombinator.com/launches/LQj-synnax-the-software-infrastructure-for-operating-observing-complex-hardware",
+      "votes": 32,
+      "created_at": "2024-07-23T20:54:19.457Z"
+    }
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "id": 30452,
+  "name": "Better Auth",
+  "slug": "better-auth",
+  "former_names": [],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/1f768f164c4dd92121e70abbd42713af3118834a.png",
+  "website": "https://better-auth.com/",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "Better Auth is a comprehensive authentication framework for TypeScript that lets you implement everything from simple auth flows to enterprise-grade systems directly on your own database, embedded in your backend. It’s loved by developers all over the world and endorsed by leading voices in the ecosystem.\r\n\r\nOn top of the framework, Better Auth also provides an infrastructure layer to help you scale with user management and analytics, bot and fraud detection, transactional email and SMS, global session storage and more.",
+  "one_liner": "The authentication framework for TypeScript",
+  "team_size": 4,
+  "industry": "B2B",
+  "subindustry": "B2B -> Security",
+  "launched_at": 1744888506,
+  "tags": [
+    "Developer Tools",
+    "Security",
+    "Open Source"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Spring 2025",
+  "status": "Active",
+  "industries": [
+    "B2B",
+    "Security"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada",
+    "Remote",
+    "Partly Remote"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/better-auth",
+  "api": "https://devasheeshg.github.io/yc-api/batches/spring-2025/better-auth.json",
+  "year_founded": 2025,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/better-auth",
+  "x_url": "https://twitter.com/better_auth",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": "https://github.com/better-auth",
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/1f768f164c4dd92121e70abbd42713af3118834a.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Pete Koomen",
+    "url": "https://www.ycombinator.com/people/pete-koomen"
+  },
+  "founders": [
+    {
+      "user_id": 1184116,
+      "full_name": "Bereket Engida",
+      "title": "Founder/CEO",
+      "founder_bio": "I’ve spent the past few years building developer tools and contributing to open source projects, mostly in TypeScript - including libraries like Better Call, Better Fetch, Loglib and Better Auth. Before that, I worked across several products, which is where I first got obsessed with making dev infra more usable. I care a lot about good DX, clean APIs, and building things that actually ship.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/bekacru/",
+      "x_url": "https://x.com/bekacru",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/da6169f6f81e9fa0e7fd8311a4df990285887bbf.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [
+    {
+      "title": "Better Auth is joining Vercel",
+      "url": "https://better-auth.com/blog/better-auth-joins-vercel",
+      "date": "Jul 07, 2026"
+    },
+    {
+      "title": "Better Auth, an authentication tool by a self-taught Ethiopian dev, raises $5M from Peak XV, YC | TechCrunch",
+      "url": "https://techcrunch.com/2025/06/25/this-self-taught-ethiopian-dev-built-an-authentication-tool-and-got-into-yc/",
+      "date": "Jun 25, 2025"
+    }
+  ],
+  "launches": [
+    {
+      "id": 90320,
+      "title": "Better Auth - The Authentication Framework for TypeScript",
+      "tagline": "The fastest growing Auth framework for TypeScript: 13K stars + 100K weekly downloads!",
+      "body": "Hey! 👋 We’re building Better Auth - a comprehensive, framework-agnostic authentication framework for TypeScript. It lets you roll your own auth directly on your backend and database, without relying on 3rd party services. From basic sign-ins to complex enterprise systems all with great DX.\n\nhttps://www.youtube.com/watch?v=j_HjHmprVOs\n\nAuth has been a pain point for many developers in the TypeScript ecosystem for a while. Other open-source libraries require a lot of additional code for anything beyond basic authentication. So, we set out to build a comprehensive auth library - framework-agnostic, with a robust set of features out of the box, a plugin ecosystem for everything else you might need, and great documentation.\n\n![uploaded image](/media/?type=post&id=90320&key=user_uploads/1184116/dec3dc74-8395-4d83-b062-c2f3271b8164)\n\nSince launching v1 just 5 months ago:\n\n* **13K+ GitHub stars** and **350K+ monthly npm downloads**\n* We've grown into one of the **most influential** and **well-loved** open source projects in the TypeScript ecosystem.\n* Used in production by great teams including YC companies and major OSS projects including [folo](https://github.com/RSSNext/Folo), [same](https://same.new/), [dokploy](https://github.com/Dokploy/dokploy), [zero](https://github.com/Mail-0/Zero), [onejs](https://github.com/onejs/one) and many more.\n* We’re the recommended auth library by **Next.js, Nuxt, Astro**, and other top JS frameworks.\n* A thriving community with **5K+ members on Discord,** **7K+ followers on X**, and a growing ecosystem of adjacent libraries built by community members.\n* Featured by creators like Theo, Dev Ed and more\n\nTo take it further, and after seeing the pain points of our current users, we're building an **infrastructure layer** on top of the framework to extend the library with functionality we can't offer through the framework alone:\n\n* A comprehensive admin dashboard with user management & analytics\n* Bot/fraud/abuse detection\n* Global session storage\n* and more…\n\nTo be clear – we’re not building a third-party auth service. Our goal is to make rolling your own auth so ridiculously easy that you’ll never need one.\n\nGet started with the library here: [better-auth.com/docs/installation](http://better-auth.com/docs/installation)\n\nJoin the waitlist for infra: http://better-auth.build/\n\nStar the repo: https://github.com/better-auth/better-auth",
+      "url": "https://www.ycombinator.com/launches/NUm-better-auth-the-authentication-framework-for-typescript",
+      "votes": 2195,
+      "created_at": "2025-05-13T13:36:07.545Z"
+    }
+  ]
+}

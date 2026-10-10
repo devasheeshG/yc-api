@@ -1,0 +1,81 @@
+{
+  "id": 30923,
+  "name": "Frontier Computing",
+  "slug": "frontier-computing",
+  "former_names": [],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/a10237e5548f0937c67885cb916abadcaa74cc08.png",
+  "website": "https://frontier.site",
+  "all_locations": "London, England, United Kingdom",
+  "long_description": "Frontier is first to grow biological brains at scale, serving biological neural nets with substrate-level colocation of memory and compute, enabling highly cost effective training of large parameter count models.\r\n\r\nWhile academia has traditionally been limited to ~1M neurons in vitro, Frontier has built a pathway to scale to 100M+ neurons by circumventing traditional scaling challenges in biological culture, demonstrating this strategy's functionality by training a biological brain using this scaling primitive to play Frogger.\r\n\r\nFrontier is now growing exascale compute clusters to produce substrates capable of long-horizon language reasoning while operating at much higher sample efficiencies than traditional architectures, and collocating memory with compute to enable significantly larger parameter counts than would be tractable for training within traditional compute clusters.",
+  "one_liner": "Frontier grows scalable biological brains as an ML training substrate",
+  "team_size": 3,
+  "industry": "Industrials",
+  "subindustry": "Industrials",
+  "launched_at": 1788161513,
+  "tags": [
+    "Hard Tech",
+    "Hardware",
+    "AI"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Summer 2026",
+  "status": "Active",
+  "industries": [
+    "Industrials"
+  ],
+  "regions": [
+    "United Kingdom",
+    "Europe"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/frontier-computing",
+  "api": "https://devasheeshg.github.io/yc-api/batches/summer-2026/frontier-computing.json",
+  "year_founded": 2025,
+  "city": "London",
+  "country": "GB",
+  "linkedin_url": "",
+  "x_url": "",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/a10237e5548f0937c67885cb916abadcaa74cc08.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Harshita Arora",
+    "url": "https://www.ycombinator.com/people/harshita-arora"
+  },
+  "founders": [
+    {
+      "user_id": 2627752,
+      "full_name": "Michael Domarkas",
+      "title": "Founder/CEO",
+      "founder_bio": "19 y/o ex-Cambridge natural scientist\n\nprev growing brains in my bedroom\n\nnow growing exascale brains for continual learning",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/michael-domarkas-621aa8262",
+      "x_url": "https://x.com/MichaelDmrks",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/dbc0487122f2a39f809799e732a7b1e3cb67b540.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 112791,
+      "title": "Frontier Computing – Growing biological brains at scale",
+      "tagline": "We colocate memory with compute in biological tissue, so you can train larger models at lower cost",
+      "body": "TL;DR – We're deploying exascale biocomputing clusters, growing biological systems with memory baked into compute at the substrate level, enabling training of models at parameter counts that would otherwise be inaccessible under traditional GPU architecture-constrained approaches.\n\n![uploaded image](/media/?type=post&id=112791&key=user_uploads/2627752/445c283b-feb2-4b6b-9d2c-ab2cf60edc7d)\n\nHey all, we're Frontier Computing, and we’re excited to announce that we are growing the first large-scale neuronal tissues for ML training and inference!\n\nFrontier is launching its 500M biological neurone cluster by January 2027, which will be 2500x larger than the next-largest publicly available system in the biocomputing space that companies are currently restricted to building on. \\\n\\\nWe'll continue to launch increasingly larger iterations of our substrate to circumvent the challenges of GPU parallelisation seen in roofline analysis across computation/computation/memory, colocating memory with compute in biological neurones to circumvent the infra problem of GPU networking for model training and inference, enabling inference time training at scale on biocompute, at much lower cost than traditional GPU approaches.\n\n# **❌** The Problem\n\nBiological brain tissue is already being bought and sold, including being trained for a range of tasks from gaming environments to next-token prediction, but the scaling limits of the underlying wetware have acted a fundamental barrier to useful economic output.\n\nAcademia has previously been unable to exceed a \\~1M neurone scale due to \"the vascularisation problem\", where neurones cannot grow past a geometric limit imposed by insufficient oxygen access in cells that are increasingly far away from active supply.\n\n# **✨** Our solution\n\nFrontier has developed a novel neuronal tissue culture approach to engineer large-scale brain systems that exceed traditional scaling limits of neuronal tissue culture.\n\nThis enables us to scale past traditional wetware substrate sizes, supporting much larger biological neural nets with correspondingly greater parameter counts, increasing the complexity of task environments these systems can represent, and using their larger geometric size to provide physically larger surfaces for I/O and informationally rich encode and decode.\n\nWe provide the substrate, interfacing and cloud infrastructure to enable third parties to train on our systems, taking advantage of the inference-time training capacities of biological neurones, the sample efficiency, the capacity to exist in an abstraction layer above backprop, and the opportunity to perform RL on models in excess of sizes that would be traditionally accessible on GPU hardware due to memory bandwidth issues that we circumvent through colocating memory and compute within neuronal tissues.\n\n## **🏆** What we've achieved so far\n\n\\- We have proven out the first scalable culture system for biocompute, and demonstrated its computational capacities by training our system to play the arcade game Frogger\n\n\\- Demonstrated tail-end capabilities in sample efficiency, with 1 hour of real-time learning producing 92% peak cross rate (over a 25-game sample) in our Frogger environment\n\n\\- Raised a 10M pre-seed round to produce early scale up our team and wetlab work, led by General Catalyst with participation from LocalGlobe, Amino Collective, Kaya, Long Journey Ventures, Off Piste Capital, SVA and more angels and firms that we are very excited to have on board\n\n\\- Begun build out of a 100M and a 500M biological neurone system, live EOY 2026\n\n## **🔜** What's next\n\n\\- Demonstrating SOTA task performance of biohybrid models using our larger-scale substrates\n\n\\- Launching our API library to enable our customers to implement their own models and RL environments via our platform\n\n\\- Iterating towards post-neocortex-scale build outs to further enhance computational capacities of biocompute\n\n## **👥** Our Team\n\n[Michael](https://www.linkedin.com/in/michael-domarkas/), CEO, is a Cambridge Natural Scientist who first learnt programming at 8 through C# Unity game development, competed in maths/chess/bio competitions nationally throughout high school, and has been culturing neuronal tissues for the past two years, starting from $20K USD in grant funding at 17 from Emergent Ventures. He has built the first scalable neuronal culture platform for biocomputation and validated performance via reinforcement learning on this substrate.\n\n## **🙏** Asks\n\nJoin the team! We're hiring across the stack for neurobiologists, RL researchers, electrical engineers, and biochemists, accepting both direct applications and referrals. Feel free to get in touch at the link below:\n\n<https://frontier.site/careers>\n\nIf you're interested in working at the _frontier_ of biocomputing and scaling the fundamental wetware primitives humanity has access to, Frontier Computing is building out the leading platform in the space. We’re looking forward to collaborating with you.",
+      "url": "https://www.ycombinator.com/launches/TLD-frontier-computing-growing-biological-brains-at-scale",
+      "votes": 21,
+      "created_at": "2026-08-31T17:00:00.185Z"
+    }
+  ]
+}

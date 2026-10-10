@@ -1,0 +1,98 @@
+{
+  "id": 28416,
+  "name": "Pierre",
+  "slug": "pierre",
+  "former_names": [
+    "Umbrella Company"
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/b78dca2b9a7dd83a3f06b2d4efd75eb21f68233b.png",
+  "website": "https://pierre.co",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "We are re-building code hosting, code review, and CI primitives from the metal, for the next generation of professional developers: Small, focused teams, working closely, augmented by AI.",
+  "one_liner": "Pierre is a new, opinionated, git platform.",
+  "team_size": 10,
+  "industry": "B2B",
+  "subindustry": "B2B -> Engineering, Product and Design",
+  "launched_at": 1677182558,
+  "tags": [
+    "AI-Enhanced Learning",
+    "Developer Tools",
+    "B2B",
+    "Productivity",
+    "Collaboration"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Winter 2023",
+  "status": "Active",
+  "industries": [
+    "B2B",
+    "Engineering, Product and Design"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada",
+    "Remote",
+    "Partly Remote"
+  ],
+  "stage": "Growth",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/pierre",
+  "api": "https://devasheeshg.github.io/yc-api/batches/winter-2023/pierre.json",
+  "year_founded": 2023,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "",
+  "x_url": "https://x.com/pierredotco",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/b78dca2b9a7dd83a3f06b2d4efd75eb21f68233b.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Nicolas Dessaigne",
+    "url": "https://www.ycombinator.com/people/nicolas-dessaigne"
+  },
+  "founders": [
+    {
+      "user_id": 1253715,
+      "full_name": "Jacob Thornton",
+      "title": "Founder",
+      "founder_bio": "Jacob Thornton has been doing software development in the bay area for over a decade, as an early employee at startups like Twitter, Medium, and Coinbase.\n\nDuring this time he contributed to several large open source projects (most notably as the co-creator of Twitter Bootstrap), given talks around the world (https://www.youtube.com/watch?v=UIDb6VBO9os), and written several chapters in technical books (beautiful javascript, if Hemingway wrote javascript).",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/jacob-thornton-13a6a5162/",
+      "x_url": "https://twitter.com/fat",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/12170102c839a10c7f7a28f061f7b97c3d70f378.jpg"
+    },
+    {
+      "user_id": 46928,
+      "full_name": "Ian Ownbey",
+      "title": "Founder",
+      "founder_bio": "I have worked for a number of consumer tech companies ranging from Twitter in 2010 to Coinbase in 2018. I started as a backend engineer using Ruby on Rails and then eventually moved up the stack to iOS engineering, React Native engineering and now mostly React. I enjoy hanging out with my cat when not working.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/ian-ownbey-4aa5ba117",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/beda0dcd17ad0f5ebb42b391b4c8c1b7cc8560f1.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 69619,
+      "title": "Pierre - A new way to review code",
+      "tagline": "Pierre enables engineers, designers and business team members to discuss new features before they're merged.",
+      "body": "Hi Everyone —\n\nWe are Ian and Jacob, and we are on a mission to modernize code reviews. Sign up for the alpha on [**HeyPierre.app**](http://heypierre.app/)\n\n![uploaded image](/media/?type=post&id=69619&key=user_uploads/46928/b1f1d6e0-88b1-4a2e-b17c-0d5982d2543d)\n\nJacob (CEO) and Ian (CTO) met as early engineers at Twitter 14 years ago.\n\nJacob is the co-creator of Bootstrap (one of the largest and most popular open source communities on GitHub) and later went on to work as one of the first engineers at Medium. Ian was the first intern at Twitter, dropping out of college at 19 to TL the Twitter platform team.\n\nJacob and Ian co-founded a mobile app called Bumpers in 2016, which was eventually acquired by Coinbase. For the next 5 years, they led the Product Platform team at Coinbase and were the company-wide web and mobile DRIs.\n\n### Github doesn’t solve today’s biggest engineering problems\n\nIn the decade+ since Github was built, tools that prioritize real time collaboration and discussion (Figma, Notion, and Linear) have exploded in popularity, but the circa-2006 code review experience hasn’t materially changed.\n\nWe’re building a new way to review code, and we’re starting with pull requests. As engineers with more than 15 years of experience, we’ve seen firsthand how cumbersome a pull request review is using Github — often, pull requests lack necessary context, take too long to approve, and cannot be viewed by non-engineers for feedback. Github’s comment features make it difficult to manage a conversation over time, and discussion is lost when engineers switch to Slack or Hangouts.\n\n### Your code, conversations, and collaborators. Together.\n\nPierre enables engineers to shape the way that their code is reviewed. We’re starting with two of the biggest problems that engineers have:\n\n1. How do you set better context?\n2. How do you better manage discussions?\n\nWe’re taking features of the products you love most — the organized chats of iMessage, the real time collaboration of Figma, and the narrative structure of Notion — and we’re bringing it to code reviews.\n\n![uploaded image](/media/?type=post&id=69619&key=user_uploads/46928/2f0b02fe-d44b-4605-a704-f66aa7736c4f)\n\nUsing Pierre, code review creators can:\n\n* Set context next to the code\n* Reorganize diffs intuitively\n* Break up large pull requests into digestible bites\n\nAnd code reviewers can:\n\n* Be anyone — no more waiting for the bug bash to get design and product feedback\n* Comment on anything — code, images or text\n* Conduct real-time conversations right next to the code\n* Get up-to-speed on changes more quickly\n\n### Why we built Pierre\n\nWe’ve been intimately using GitHub since it’s inception (Ian’s user id is #91). There’s been a lot to love about GitHub over the years, but innovation on the core experience is lagging and other pieces of our toolchain are making us expect more. This is only exasperated by Ian living in NYC and Jacob in SF.\n\nEngineers deserve a realtime, collaborative software platform optimized for productivity - instead of a slow, feed-based social network for coding.\n\n### Try Pierre Out!\n\n* Head to [**HeyPierre.app**](http://heypierre.app/) and sign up for our waitlist. We’re in closed alpha, but we can’t wait for you to try us out.\n* We’re looking for a handful of fast growing teams (with \\~25-50 engineers) to pilot us. If you know a team that could be a good fit, email [rachel@heypierre.app](mailto:rachel@heypierre.app). **Earn a $200 referral bonus for each paying team you bring in.**",
+      "url": "https://www.ycombinator.com/launches/I6t-pierre-a-new-way-to-review-code",
+      "votes": 67,
+      "created_at": "2023-02-23T20:27:31.367Z"
+    }
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "id": 30744,
+  "name": "SigmanticAI",
+  "slug": "sigmanticai",
+  "former_names": [
+    "BitForge (in process of incorporating as SigmanticAI Inc due to trademark)"
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/551c81e2cf1198e6431c7a170e74ee43deff6f61.png",
+  "website": "https://www.sigmanticai.com",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "SigmanticAI is building an AI-native hardware development assistant that automates the entire RTL design flow, from natural language to synthesizable HDL and testbenches, inside a seamless VSCode fork. Powered by fine-tuned Verilog LLMs, reinforcement learning, and real compiler feedback, SigmanticAI iteratively refines code until it compiles and passes synthesis, no matter how complex the design. It’s like the Cursor for HDL design. \r\n\r\nIn addition to code generation, SigmanticAI can generate token-level annotations and onboarding documents to accelerate ramp-up for new engineers. With support for both cloud and on-prem deployment, it integrates with existing EDA tools to dramatically reduce debug time, improve collaboration, and accelerate hardware design across teams",
+  "one_liner": "The Cursor for Chip Design - Delivering Silicon-Ready Chip Designs…",
+  "team_size": 2,
+  "industry": "B2B",
+  "subindustry": "B2B -> Engineering, Product and Design",
+  "launched_at": 1752688016,
+  "tags": [
+    "Hard Tech",
+    "Hardware",
+    "B2B",
+    "AI",
+    "AI Assistant"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Summer 2025",
+  "status": "Active",
+  "industries": [
+    "B2B",
+    "Engineering, Product and Design"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/sigmanticai",
+  "api": "https://devasheeshg.github.io/yc-api/batches/summer-2025/sigmanticai.json",
+  "year_founded": 2025,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/sigmanticai",
+  "x_url": "",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/551c81e2cf1198e6431c7a170e74ee43deff6f61.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [
+    "https://bookface-images.s3.us-west-2.amazonaws.com/attachments/c9b026b6fd12edf22493d5be3a803d35dec493c9.png"
+  ],
+  "primary_partner": {
+    "name": "Diana Hu",
+    "url": "https://www.ycombinator.com/people/diana-hu"
+  },
+  "founders": [
+    {
+      "user_id": 1546753,
+      "full_name": "Rohil Khare",
+      "title": "Founder",
+      "founder_bio": "I’m Rohil Khare, Co-Founder of SigmanticAI. I studied EECS at UC Berkeley and previously worked at Amazon. In high school, I filed provisional patents in IoT as an early innovator, and since then I’ve worked at multiple startups at the intersection of hardware and machine learning. At Berkeley, I conducted research at BAIR and the Architecture Group, and published at ICRA. Now, at SigmanticAI, I’m building AI-native tooling that accelerates the creation of custom chip designs and silicon.\n\n\n\n\n\n",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/rohil-khare/",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/0a747020d8797a7663560faf0d3ee7f8f8a38a67.jpg"
+    },
+    {
+      "user_id": 2407642,
+      "full_name": "Tamzid Razzaque",
+      "title": "Founder",
+      "founder_bio": "I'm Tamzid Razzaque, Co-Founder of SigmanticAI. I studied EECS at UC Berkeley, with a focus on integrating AI applications with custom hardware design. I am continuing this passion at YC. I previously worked at Apple on custom circuits and researched at BWRC and BETR on custom FPGA accelerators.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/tamzid-razzaque/",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/cdb0ba93640f4645566485e8ec147cbe34380085.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 92212,
+      "title": "SigmanticAI - The Cursor for Hardware Design",
+      "tagline": "Suite of AI Agents and Tools to Accelerate HDL (Hardware Description Language) Design",
+      "body": "Hey YC! We're Tamzid and Rohil from [SigmanticAI](https://www.sigmanticai.com/).\n\n**The Problem with Creating Custom Hardware**\n\n* HDL tooling hasn’t changed much since the '90s: still slow, manual, and fragmented\n* Debugging eats up majority of hardware dev time\n* There's no seamless AI-native experience for building and reasoning about HDL\n\n---\n\n**Our Solution**\n\n_SigmanticAI_. What it can do:\n\n* **Natural language to synthesizable Verilog + testbenches**\n* **RL-driven debugging** loop\n* Built-in **onboarding**, codebase **annotation**, and **spec** documentation **generation**\n* LLM-powered on both **cloud** and **fully air-gapped/on-prem** deployments\n* **Seameless** integration with **VScode** + your **existing synthesis tools** from Cadence, Synopsys, etc.\n\nWe’ve already made a RISCV CPU start to finish with it, onboarded our first paying customer, and are getting 90%+ accuracy on the VerilogEval benchmark (NVIDIA framework)\n\n---\n\n**Demo video\\\n[https://youtu.be/Cq3hpMflIA8](https://youtu.be/Cq3hpMflIA8)**\n\n---\n\n**Asks!**\n\n* We want to talk to:\n  * Anyone **working** **with** **FPGAs, custom chips, ML accelerators, or RISC-V** cores\n  * Anyone **working in EDA** \n  * Anyone **working with fine tuned LLMs for hardware**\n* **Try us out! Thank you!**\n  * [https://www.sigmanticai.com](https://www.sigmanticai.com%EF%BF%BC%EF%BF%BC)\n\n**Who We Are**\n\nWe’ve spent years working on both LLMs and hardware. After working at Apple (Tamzid) and Amazon (Rohil) and research in FPGA mapping and LLaMA fine-tuning, we realized the real bottleneck in hardware design is tooling. We’ve built custom CPUs, worked with EDA stacks, and experienced the pain firsthand. Conversations with engineers at Northrop Grumman, SciEngines, and Quadric made it clear: hardware desperately needs a smarter workflow.\n\n![uploaded image](/media/?type=post&id=92212&key=user_uploads/2407642/74a5aa7d-62e0-47f9-9e95-9bc55e7c49f1)\n\n![uploaded image](/media/?type=post&id=92212&key=user_uploads/2407642/85c5143a-36c1-43aa-84ed-eebdfd014498)\n\n",
+      "url": "https://www.ycombinator.com/launches/NzI-sigmanticai-the-cursor-for-hardware-design",
+      "votes": 50,
+      "created_at": "2025-07-16T19:05:10.461Z"
+    }
+  ]
+}

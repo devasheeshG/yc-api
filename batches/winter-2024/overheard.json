@@ -1,0 +1,89 @@
+{
+  "id": 29466,
+  "name": "Overheard",
+  "slug": "overheard",
+  "former_names": [
+    "FlowState",
+    "Unidata",
+    "OpenFoundry"
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/c8cc29d94168b1ca418d0d8737e0185bb99095a7.png",
+  "website": "https://withoverheard.com",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "Tell Overheard what you're deciding, like how to fix churn or which feature to build next. It writes the interview, talks to your customers by voice, and comes back with answers.\r\n\r\nMost teams make these calls without hearing from customers because setting up interviews takes weeks and nobody owns it. Overheard gets you answers in days - no researcher needed.\r\n\r\nTeams use Overheard to find out why customers churn, test concepts and prototypes, set pricing, and run win/loss interviews.",
+  "one_liner": "Know what your customers want, because they told you.",
+  "team_size": 2,
+  "industry": "B2B",
+  "subindustry": "B2B",
+  "launched_at": 1711038198,
+  "tags": [
+    "Artificial Intelligence",
+    "SaaS",
+    "Design",
+    "Feedback",
+    "Market Research"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Winter 2024",
+  "status": "Active",
+  "industries": [
+    "B2B"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/overheard",
+  "api": "https://devasheeshg.github.io/yc-api/batches/winter-2024/overheard.json",
+  "year_founded": 2024,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/openfoundry/",
+  "x_url": "",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/c8cc29d94168b1ca418d0d8737e0185bb99095a7.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [
+    "https://bookface-images.s3.us-west-2.amazonaws.com/attachments/27c11fb5234a50d85c2c46de8652ecf148ba0f12.png"
+  ],
+  "primary_partner": {
+    "name": "David Lieb",
+    "url": "https://www.ycombinator.com/people/david-lieb"
+  },
+  "founders": [
+    {
+      "user_id": 1579075,
+      "full_name": "Tyler Lehman",
+      "title": "Founder/CEO",
+      "founder_bio": "I'm the founder and CEO of Overheard. I was previously a PM at Meta, where I built API products and developer platforms for WhatsApp and Instagram. Before that, I worked on business and product analytics at Airbnb and LinkedIn. I also spent a few years as a consultant at Bain and as a full stack software engineer building information management software for libraries and universities.",
+      "is_active": true,
+      "linkedin_url": "https://linkedin.com/in/tyler-lehman",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/f25b9343fe2c45422ec26407bae8f32beaa1f388.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 79580,
+      "title": "Overheard (formerly OpenFoundry): Know what your customers want, because they told you.",
+      "tagline": "AI that interviews your customers by voice.",
+      "body": "**Update (September 2026):** We've moved on from open source AI infrastructure. Tell Overheard what you're deciding, like how to fix churn or which feature to build next. It talks to your customers by voice and comes back with an answer, with every point linked to the moment a customer said it. Check it out at [withoverheard.com](http://withoverheard.com). The original OpenFoundry launch post is below.\n\n# **tl;dr**\n\nHi everyone! We’re [Tyler Lehman](https://www.linkedin.com/in/tyler-lehman/) and [Arthur Chi](https://www.linkedin.com/in/arthur-chi-000/) from OpenFoundry. **We’re building the fastest developer experience for building on open source AI.** Imagine Hugging Face if it were built from the ground up for startups instead of ML researchers.\n\n**Our first product ([live on GitHub](https://github.com/openfoundry-ai/model_manager)) is a command-line tool to deploy open source models onto your own cloud with a single line of code.**\n\n![uploaded image](/media/?type=post&id=79580&key=user_uploads/1579075/6f0eccb2-7717-484c-8b4e-070258698d0c)\n\n[Here’s a demo](https://www.youtube.com/watch?v=49ay9Gqbc1U) where we ship Microsoft’s Phi-2 model to our cloud. A couple of lines of code to deploy, and in just minutes the server is ready for inference.\n\n# **🔮 Open source AI is the future**\n\nAI is the new layer in the tech stack. It’s as big a shift as cloud and mobile were two decades ago. **We believe open source AI will dominate this market**. Open source is catching up to the competition, and there’s a compelling business case for it: it’s faster &amp; cheaper for many use cases, it can be self-hosted, and it reduces platform risk.\n\n# **❌ But there’s a big problem: the developer experience is _rough_**\n\nAs great as open source models have become, the developer experience around them is bad. You have to cobble many components together and must trudge through poor documentation, flaky APIs, hacked-together solutions, and clunky cloud configs. **All of this slows developers down.**\n\nIn contrast, closed source companies like OpenAI provide an easy developer platform that just works out of the box with almost zero effort.\n\n**We’ve talked to many startups who are interested in moving more of their workloads onto open source models, but they feel stuck** with their expensive closed source solutions because it’s so painful to switch.\n\n# **✅ We’re solving this by making the experience effortless**\n\nOpenFoundry makes working with open source AI awesome so that it’s as easy to fine-tune, deploy, and scale products on open source models as it is on OpenAI.\n\n![uploaded image](/media/?type=post&id=79580&key=user_uploads/1579075/8a7ebec0-82cc-44e3-b7b2-8a8dab90b519)\n\nWith OpenFoundry, you’ll be able to:\n\n* **Ship to your cloud in just a few lines of code** _\\[We’re starting here!\\]_\n* **Find the best models, datasets, and practices for your use cases**\n* **Prototype and fine-tune in minutes**\n\nWithin the first week of launching we **already have customers putting critical workloads into production with our first product**. Several customers have even asked to invest in us, which we see as a clear sign that we’re building something important that people want.\n\n# **💪 We’ve done this before**\n\n**We built developer tools and communities at our previous jobs!** Prior to YC, Tyler built developer platforms for Instagram and WhatsApp that are used by more than a million developers. Arthur built large-scale APIs at Slack for products used by more than 350K customers.\n\n![uploaded image](/media/?type=post&id=79580&key=user_uploads/1579075/66b3d66c-f252-49d5-b466-e198fcc4da2b)\n\nWe’ve spent the last several months building products with open source AI and know first-hand the challenges of getting everything to work together. We’re excited to build a first-class developer experience to make building on AI faster.\n\n# **🎤 Our ask**\n\nWe’re excited to talk to more startups building with AI who are already using open source models or are interested in learning how to build on them!\n\nWe’d love to chat! You can reach us at [tyler@withoverheard.com](mailto:tyler@withoverheard.com)\n\nYou can also find us at [openfoundry.ai](http://www.openfoundry.ai) and [github.com/openfoundry-ai.](http://github.com/openfoundry-ai)",
+      "url": "https://www.ycombinator.com/launches/KhY-overheard-formerly-openfoundry-know-what-your-customers-want-because-they-told-you",
+      "votes": 59,
+      "created_at": "2024-03-21T17:29:36.118Z"
+    }
+  ]
+}

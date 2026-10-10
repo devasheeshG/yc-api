@@ -1,0 +1,96 @@
+{
+  "id": 26902,
+  "name": "Maya Labs",
+  "slug": "maya-labs",
+  "former_names": [],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/93bc27dea8b2f9bdbb3b58f34271dadc324cdf6d.png",
+  "website": "https://mayalabs.io",
+  "all_locations": "Bengaluru, KA, India",
+  "long_description": "Applied research lab on a mission to build machines which can program themselves to do any task.",
+  "one_liner": "Building self-programming machines",
+  "team_size": 5,
+  "industry": "B2B",
+  "subindustry": "B2B -> Productivity",
+  "launched_at": 1657029012,
+  "tags": [
+    "Artificial Intelligence",
+    "Generative AI",
+    "Robotic Process Automation",
+    "B2B"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Summer 2022",
+  "status": "Active",
+  "industries": [
+    "B2B",
+    "Productivity"
+  ],
+  "regions": [
+    "India",
+    "South Asia"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/maya-labs",
+  "api": "https://devasheeshg.github.io/yc-api/batches/summer-2022/maya-labs.json",
+  "year_founded": 2020,
+  "city": "Bengaluru",
+  "country": "IN",
+  "linkedin_url": "",
+  "x_url": "https://twitter.com/MayaLabsIO",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": "https://github.com/mayahq",
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/93bc27dea8b2f9bdbb3b58f34271dadc324cdf6d.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": null,
+  "founders": [
+    {
+      "user_id": 272578,
+      "full_name": "Sibesh Kar",
+      "title": "Founder",
+      "founder_bio": "Trying to build machines which can program themselves to do any task. ",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/sibeshkar/",
+      "x_url": "https://twitter.com/sibeshkar",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/c196e49d6285d159a9eb2938f86cb5560de01c69.jpg"
+    },
+    {
+      "user_id": 276514,
+      "full_name": "Shubham Mishra",
+      "title": "Founder",
+      "founder_bio": "Reliability, Server infrastructure, networking, distributed systems and everything else at Maya Labs. \nEx Ford Mobility India (Infra and Product). Ex Hyperloop India University Team.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/shbhmshr/",
+      "x_url": "https://twitter.com/shbhmmshr",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/a40bcc8b092d6ea5c37aebf1b9155ddf508be9c8.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [
+    {
+      "title": "7 AI startups that stood out in YC's Summer '22 batch",
+      "url": "https://techcrunch.com/2022/09/08/7-ai-startups-that-stood-out-in-ycs-summer-22-batch/?tpcc=tcplustwitter",
+      "date": "Sep 08, 2022"
+    }
+  ],
+  "launches": [
+    {
+      "id": 65194,
+      "title": "🛠️ 🧠 Maya Labs : Build custom software in minutes, using natural language",
+      "tagline": "We're building a new way to program a machine using just natural language - starting off with a fast way to build internal tools by describing them in English.",
+      "body": "Hi, we are Sibesh and Shubham, founders of Maya Labs. We are on a mission to teach machines how to code - starting off with a fast way to build internal tools in minutes using just natural language. Here’s an early look :\n\n![uploaded image](/media/?type=post&id=65194&key=user_uploads/272578/a3e654bf-56a0-48e4-abeb-8922bc23b8b0)\n\nA longer 5-min demo [here](https://www.youtube.com/watch?v=NPm0idKktzs) :\n\nToday, you can build one particular type of custom app well using Maya that let's you :\n\n1. **Fetch custom data** : Configure setup + query custom data from an external source (currently we do SQL, Gsheets, Notion, Airtable etc, but are expanding fast)\n2. **Visualize it** : Plot and visualize it in a custom table, line chart or bar graph\n3. **Perform actions** : Select and act on a particular data item (send a custom email, upload a file, trigger an API, update a DB item)\n\nMaya incrementally generates programs & shows results in response to steps you type in English, so the whole experience doesn’t feel like debugging someone else’s code. It’s possible to modify, delete & debug the natural language parts and Maya responds instantly - which makes it possible to hold and move around the _natural language program_ in your head. Checkout an early version of the docs [here](https://mayalabs.io/docs). We intend to keep it just one page long.\n\nThere’s still a lot to figure out and we’re trying to nail the experience for this one narrow use case first. When this works, we’ll try to extend it to just about any task you can think of - web navigation, connecting APIs, platform robots, RPA, home automation. Here’s a [show reel](https://mayalabs.io/library) of what else you can build manually with Maya today.\n\n**Who is this for?**\n\nMost internal tool builders are used by developers to build software for others on the product/ops/growth/sales/data teams, but we think this is a way for the user of the tool to also be the creator.\n\n**How does this work?**\n\nWe use a combination of conditional logic, neural search/classification, fine-tuned language models and template generation to make this work **predictably** and **reliably** in response to words you type/modify. We generate programs in a custom flow-based programming language that lets us express a wide range of behaviours with a smaller program length and visual DAGs. We also created our own benchmark to measure how well machines are at generating code (see our paper on this [here](https://blogs.mayalabs.io/benchmark)).\n\n**About us** :\n\nWe met in college many years back while starting Hyperloop India, the first Indian team at the SpaceX Hyperloop Competition - and have worked on-and-off on various projects since, sharing a common interest for hard engineering problems. Program synthesis is the hardest of them all - if software is eating the world, and you could build software that could build other software, why work on anything else?\n\nWe’ve been tinkering on this for years. Many Python libraries, papers, toy environments and product iterations later, we think we finally have an angle of attack that has a chance of working.\n\n**Ask** :\n\n1. Help us test our system! If you’d like to play around with or think someone in your team might benefit - send me a mail at sibesh\\[at\\]mayalabs\\[dot\\]io.\n2. Improve Maya with useful data - Let me know if you think a particular kind of program pattern we could teach Maya would be useful for you and a wide variety of other similar users.\n3. Introduce us to product/ops/growth/sales/data teams in your org who would like to build custom internal tools themselves without engineering effort\n4. Hit me up to learn more about our approach! Program synthesis, robot-run economies, programs that build other programs (including the YCombinator function haha)",
+      "url": "https://www.ycombinator.com/launches/GxW-maya-labs-build-custom-software-in-minutes-using-natural-language",
+      "votes": 53,
+      "created_at": "2022-08-08T10:17:18.639Z"
+    }
+  ]
+}
