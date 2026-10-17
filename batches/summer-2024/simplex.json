@@ -1,0 +1,116 @@
+{
+  "id": 29296,
+  "name": "Simplex",
+  "slug": "simplex",
+  "former_names": [
+    "Simplex",
+    "Pansimulate"
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/556d5a66ef0386d859db3ad9f500ceeadf756032.png",
+  "website": "https://simplex.sh",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "Simplex builds AI agents to handle provider enrollment end-to-end. We automate pulling provider data from CAQH, filling out enrollment forms + uploading licenses via payor portals/email/phone, updating applications when returned for corrections, and performing effective date follow-ups until a final determination is made, all autonomously.",
+  "one_liner": "AI agents to enroll providers with payors",
+  "team_size": 2,
+  "industry": "B2B",
+  "subindustry": "B2B -> Engineering, Product and Design",
+  "launched_at": 1723709594,
+  "tags": [
+    "Machine Learning",
+    "Robotic Process Automation",
+    "B2B",
+    "AI"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Summer 2024",
+  "status": "Active",
+  "industries": [
+    "B2B",
+    "Engineering, Product and Design"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/simplex",
+  "api": "https://devasheeshg.github.io/yc-api/batches/summer-2024/simplex.json",
+  "year_founded": 2024,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/usesimplex",
+  "x_url": "https://x.com/usesimplex",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/556d5a66ef0386d859db3ad9f500ceeadf756032.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [
+    "https://bookface-images.s3.us-west-2.amazonaws.com/attachments/023924cfc3ff92ee7ef40347a383d95811798be6.png"
+  ],
+  "primary_partner": {
+    "name": "Aaron Epstein",
+    "url": "https://www.ycombinator.com/people/aaron-epstein"
+  },
+  "founders": [
+    {
+      "user_id": 1588677,
+      "full_name": "Shreya Karpoor",
+      "title": "Founder/CEO",
+      "founder_bio": "Shreya is the co-founder and CEO of Simplex. She holds a BS and MEng in Electrical Engineering and Computer Science from MIT. She previously built software at Tesla and researched dexterous robotic manipulation at MIT.",
+      "is_active": true,
+      "linkedin_url": "https://linkedin.com/in/shreya-karpoor",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/2ea7b8584bb0c1fd567102ce20a5cf745915ce09.jpg"
+    },
+    {
+      "user_id": 910356,
+      "full_name": "Marco Nocito",
+      "title": "Founder/CTO",
+      "founder_bio": "Marco is the co-founder and CTO of Simplex. He holds a BS and MEng in Computer Science from MIT. He previously built machine learning models to generate synthetic data at Waymo and built data infrastructure tooling at Viam and Bloomberg.",
+      "is_active": true,
+      "linkedin_url": "https://linkedin.com/in/marco-nocito/",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/dba39276e5b4d649b475457eb63e059283e2a78e.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 90728,
+      "title": "Simplex - enterprise-grade web agents",
+      "tagline": "AI agent companies automate legacy portals using our SDKs.",
+      "body": "Simplex builds enterprise-grade web agents that companies use to integrate with legacy portals. We handle everything from building the web agents for you to integrating directly with your existing software stack like forward deployed engineers.\n\nCustomers use Simplex in production right now to:\n\n* submit information from outbound calls into freight software\n* edit and download their customers’ invoices\n* fetch websites’ internal APIs\n* and more.\n\nhttps://youtu.be/97gX3I9PMZ0\n\n# The Problem\n\nLegacy portals aren’t well suited for web agent automation — portals are unintuitive to navigate and functionality is often broken.  Existing web agents like Operator lack fine-grained control over agent behavior and can’t consistently perform these critical legacy workflows.\n\nA fully autonomous AI might fail to reach the desired page, get stuck pressing a broken button, or mistype critical information like an invoice amount or a shipping address. Without control over agent behavior and clear observability during workflows, web agents are blocked from being used during production in these critical scenarios.\n\n# The Solution\n\nSimplex is the production-grade web agent platform that enables AI agents to reliably do work on legacy portals at scale. You can see a live demo of Simplex below – the demo is at 1x speed.\n\nhttps://youtu.be/4VSexxYptV4\n\nWe’ve engineered Simplex to give AI agent developers control, transparency, and reliability. With Simplex you can:\n\n* easily **integrate with your existing stack** – pass the results from LLM calls, databases, your existing agents into Simplex\n* **cache element actions** for speed and consistent performance\n* build **strong evals** to stress-test your workflows at scale and emulate production conditions\n* scale up to **100s of concurrent browser sessions** while handling CAPTCHAs, 2FA, and website authentication on your customers’ portals\n* ensure **no incorrect actions** are taken — if you prompt our agents to click on elements that don’t exist on the page, we'll raise an exception\n* debug with shareable **session replays** and **detailed agent logs**\n\n# The Team\n\n[Shreya Karpoor](https://www.linkedin.com/in/shreya-karpoor/) and [Marco Nocito](https://www.linkedin.com/in/marco-nocito/) are MIT grads who’ve spent years doing computer vision work at Waymo, Tesla, and within MIT labs. They’re excited to use their expertise to bring reliable web agents into widespread production.\n\n# \n\n# Our Ask\n\n* [Book a call here](https://cal.com/marco-nocito-kon7ng/30min) if you want to request API access.\n* [Visit our website here](https://www.simplex.sh/) to see a live demo of Simplex.",
+      "url": "https://www.ycombinator.com/launches/NbM-simplex-enterprise-grade-web-agents",
+      "votes": 17,
+      "created_at": "2025-05-27T14:42:32.436Z"
+    },
+    {
+      "id": 87190,
+      "title": "Simplex - Web automation for developers",
+      "tagline": "API to automate manual workflows on the web",
+      "body": "**TL;DR:**\n\n* Simplex is an API that allows you to automate manual workflows on the web. For example, a customer uses us to autonomously purchase materials from Amazon, poll their email inbox for tracking information, then update their internal documentation with that tracking info every six hours.\n* Book [time with us here](https://calendly.com/simplex-interest/marco-chat) if we can help you automate your business.\n\nHi everyone, we’re [Shreya](https://www.linkedin.com/in/shreya-karpoor/) and [Marco](https://www.linkedin.com/in/marco-nocito/), two MIT grads building Simplex.\n\nTeams are often burdened by manual tasks that have to be repeated thousands of times per month — for example, populating spreadsheets with information from recent emails. From our experience, we found that asking AI agents to solve these problems just didn’t work. They often didn’t follow the same path when we asked them to do the same thing twice, and we couldn’t control any of the actions they took when they made a mistake.\n\nSo we built Simplex to inject intelligence into repeatable, known workflows to help you automate your manual tasks.\n\nWith Simplex, writing a function to pull tracking information from your email is as easy as this:\n\n![uploaded image](/media/?type=post&id=87190&key=user_uploads/910356/27f7171e-7a04-408e-84f9-d7596b9a2e5b)\n\n**Watch a quick demo here:**\n\n<https://www.loom.com/share/9d99e4fdf9e14487ba340d5565c123a2?sid=1d3b2dd6-5e78-4370-bbca-1949fc72eb8e>\n\nA few reasons customers love Simplex:\n\n* **Straight-forward, reliable intelligence:** We break up your web workflows into smaller, more atomic actions (click, type, extract) to enforce while allowing you to leverage the intelligence of AI.\n* **Extract anything on the web:** We’ve built our own vision system to more accurately extract small icons, text, images, or even entire sections of a page.\n* **Run on any site, even internal tooling:** We store your credentials securely to handle website authentication, meaning you can use Simplex on any website or private tooling you have access to.\n* **No need to deal with browser infrastructure yourself:** We handle all the infrastructure, hosting, and scheduling, letting you run these workflows asynchronously at scale.\n\nPeople have requested Simplex to:\n\n* **act as procurement software:** automatically order parts and update internal spreadsheets with delivery information across multiple vendors (Amazon, DigiKey, etc.)\n* **scrape financial information for their hedge fund clients:** pull daily headlines and perform sentiment analysis across hundreds of financial websites for quantitative analysis research\n* **autonomously update their internal database of products:** aggregate manufacturer marketing information for over 2,000,000+ retail products\n* **do the work of an entire data collection team:** collect grant and award information from over 700 government websites\n* and more…\n\n## Our Ask\n\n* We’re looking to onboard teams, especially those that are burdened by manual processes or need to scrape hundreds of thousands of websites. Book a [meeting with us](https://calendly.com/simplex-interest/marco-chat) for a demo and API access. We’re happy to write your first automation for you.",
+      "url": "https://www.ycombinator.com/launches/MgI-simplex-web-automation-for-developers",
+      "votes": 15,
+      "created_at": "2025-01-27T15:36:17.454Z"
+    },
+    {
+      "id": 83077,
+      "title": "Simplex: on-demand photorealistic vision datasets",
+      "tagline": "Receive millions of high quality images and labels for training your AI models.",
+      "body": "**TL:DR;** Simplex creates photorealistic vision datasets rendered from 3D scenes for AI model training. Submit a request [on our website](https://simplex.sh/#data-request-form) to receive high-quality data and labels.\n\n![uploaded image](/media/?type=post&id=83077&key=user_uploads/1588677/826c7bea-8936-451d-97ff-895bc8ca6c38)\n\n**Data request for the above sample:** _“Generate images and labels of a home kitchen with household objects on a center table. I need a variety of household objects in a variety of lighting conditions. Our desired labels are semantic segmentation and depth maps.”_\n\nHi everyone, we’re [**Shreya**](https://www.linkedin.com/in/shreya-karpoor/) and [**Marco**](https://www.linkedin.com/in/marco-nocito/), two MIT grads building Simplex.\n\nCollecting vision data for model training is time-consuming, costly, and often unsafe. Shreya spent over 200 hours physically operating a robot to collect image training data during her research at MIT. Marco worked on machine learning for synthetic data at Waymo to solve this exact problem.\n\nWe realized data scarcity wasn’t just an issue in robotics – it affects any company training vision models. When fine-tuning foundation models or building a new dataset from scratch, teams must curate existing data or label and collect data themselves. \n\nWe resolve the data scarcity problem by generating photorealistic ground truth labeled datasets for **any scenario**. We can generate **millions of varied images** **from 3D scenes** using our physics engine pipeline.\n\nHere’s how you’d use Simplex:\n\n1. Fill out our data request form [here](https://simplex.sh/#data-request-form) – it takes less than a minute. \n2. Give us feedback on a few sample image/label pairs that we generate. Repeat if necessary.\n3. Once you’re satisfied, download your complete dataset.\n\nWe support semantic segmentation, captions, simulated LiDAR, depth maps, and bounding boxes. You can generate large volumes of randomized scenes or provide a CAD/phone scan model for more specific scenes.\n\n# **Our Ask**\n\n* If you or someone you know needs vision data, fill out our 30-second data request [form.](https://www.simplex.sh/#data-request-form) We’re taking a limited number of early customers.\n* If you have a more complicated request or would otherwise like to contact us, email [shreya@simplex.sh](https://mailto:shreya@simplex.sh).\n\n# **The Team**\n\n![uploaded image](/media/?type=post&id=83077&key=user_uploads/1588677/d2e5778c-86c2-4c7b-bc75-3c73aefff883)\n\n[**Shreya**](https://www.linkedin.com/in/shreya-karpoor/): Computer science (BS and MEng) at MIT, software engineer at Tesla and Viam. Built simulation pipelines for locomotion and dexterous manipulation research at MIT. \\\n[**Marco**](https://www.linkedin.com/in/marco-nocito/): Computer science (BS and MEng) at MIT, software engineer at Waymo, Bloomberg, and Viam. Built machine learning models to generate synthetic data at Waymo.",
+      "url": "https://www.ycombinator.com/launches/Lbx-simplex-on-demand-photorealistic-vision-datasets",
+      "votes": 407,
+      "created_at": "2024-08-15T14:29:52.537Z"
+    }
+  ]
+}

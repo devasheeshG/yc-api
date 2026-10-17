@@ -1,0 +1,123 @@
+{
+  "id": 31333,
+  "name": "PerfectBit, Inc.",
+  "slug": "perfectbit-inc",
+  "former_names": [
+    "Gikl, Inc",
+    "PerfectBit"
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/900c210e3f57ee42221dbb5ea21f81418b553e70.png",
+  "website": "https://perfectbit.ai",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "PerfectBit builds learned policies for robots that do real work. We train manipulation and control policies that hold up outside the lab, in the unstructured environments where real tasks actually happen. Founded by two alumni of Meta's Superintelligence org: Péter Vajda led Media GenAI foundation-model R&D (Emu, Movie Gen, image and video editing), and Seiji Yamamoto led teams in the Core Llama group across LLM pre-training and post-training, inference optimization, and computer vision. We're early, deliberately quiet about the details, and hiring the first researchers who will shape what this becomes. San Francisco, on-site.",
+  "one_liner": "Robotics",
+  "team_size": 3,
+  "industry": "Industrials",
+  "subindustry": "Industrials -> Manufacturing and Robotics",
+  "launched_at": 1773359306,
+  "tags": [
+    "Artificial Intelligence",
+    "Machine Learning",
+    "Robotics"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": true,
+  "nonprofit": false,
+  "batch": "Spring 2026",
+  "status": "Active",
+  "industries": [
+    "Industrials",
+    "Manufacturing and Robotics"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/perfectbit-inc",
+  "api": "https://devasheeshg.github.io/yc-api/batches/spring-2026/perfectbit-inc.json",
+  "year_founded": 2026,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/perfectbit",
+  "x_url": "https://x.com/PerfectbitAI",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/900c210e3f57ee42221dbb5ea21f81418b553e70.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Garry Tan",
+    "url": "https://www.ycombinator.com/people/garry-tan"
+  },
+  "founders": [
+    {
+      "user_id": 3007971,
+      "full_name": "Seiji Yamamoto",
+      "title": "Founder",
+      "founder_bio": "Led teams in the Core Llama group at Meta Superintelligence Labs. Senior Staff Research Scientist across 9 years at Meta spanning LLM pre-training and post-training, inference optimization, full-duplex speech models, and computer vision vision models. Before tech: PhD in Physics, published in Proceedings of the National Academy of Sciences and Physical Review Letters, co-authored with Fields Medalist. Educated at Stanford, Rice, Columbia, post-doc at a National Lab. ",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/seiji-yamamoto-a630897/",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/b3404aa262c227d308c4e89f01657ebd082beaef.jpg"
+    },
+    {
+      "user_id": 45070,
+      "full_name": "Peter Vajda",
+      "title": "Founder",
+      "founder_bio": "\nI worked as Director of Media Generation at Meta before 2026 for 11 years.\nI was managing the Media GenAI foundation model research and development, including efficient media generation, text to image generation (Emu), image editing, Movie gen, text to video, video editing and character consistent image and video generation. Previously, led efficient deep learning for computer vision teams supporting on-device models for AR/VR. \nI was Assistant Professor at Stanford University",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/p%C3%A9ter-vajda-9a03aaa/",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/0315fd092411900f3bed846cb6807bfb6d6290d6.jpg"
+    }
+  ],
+  "jobs": [
+    {
+      "id": 96987,
+      "title": "Hiring Research Scientists and Research Engineers at PerfectBit",
+      "url": "https://www.ycombinator.com/companies/perfectbit-inc/jobs/snGw8px-hiring-research-scientists-and-research-engineers-at-perfectbit",
+      "location": "San Francisco, CA, US",
+      "type": "Full-time",
+      "role": "Engineering",
+      "role_type": "Machine learning",
+      "salary_range": "$100K - $300K",
+      "equity_range": "0.10% - 3.00%",
+      "experience": "Any (new grads ok)",
+      "visa": "US citizen/visa only",
+      "skills": [
+        "C++",
+        "Python",
+        "Deep Learning",
+        "Reinforcement learning (RL)",
+        "Computer Vision",
+        "CAD Design",
+        "Blender",
+        "LLMs",
+        "Transformers",
+        "AI Agents",
+        "Multimodal AI",
+        "Diffusion Models"
+      ]
+    }
+  ],
+  "news": [],
+  "launches": [
+    {
+      "id": 101365,
+      "title": "PerfectBit: AI Training data, correct by construction",
+      "tagline": "Specialized data for the world's most powerful models.",
+      "body": "# **TL;DR**\n\n_PerfectBit creates high-quality training data that's correct by construction. We verify against physics simulators, scientific databases, formal proof systems. It's what models need to cure hallucination, close common-sense gaps, and reach superintelligence. Reinforcement Learning from Verified Rewards (RLVR) was an early step in this direction. We go further. LLMs, robotics, AI for Science, and more._\n\n<https://youtu.be/RrFKfbO6XlY>\n\n# **The problem: the failures standing between today's models and superintelligence**\n\nFrontier labs are bottlenecked on four data problems:\n\n* **Hallucination.** Models trained on noisy web scrapes produce confident, fluent statements that are wrong.\n* **Common-sense failure.** Models that solve graduate-level math still trip on trivial problems for a five-year-old.\n* **Information scarcity.** Scientific facts, formal derivations, peer-reviewed findings — they're a thin minority of tokens in any open-web scrape, drowned out by orders of magnitude of recipes, marketing copy, forum chatter, and AI-generated slop. Scaling the scrape doesn't change the ratio.\n* **Human annotation doesn't scale.** It's slow, expensive, and capped at human ability — superintelligence won't come from labeling at human throughput.\n\n# **What we do**\n\n* PerfectBit creates high-quality training data that's correct by construction. Every sample is generated against an oracle — physics simulator, scientific database, formal proof system — and verified before it ships, in text, code, image, audio, or video. For LLMs, we project observations about the world into natural language; for verticals like robotics and AI-for-science, we ship purpose-built datasets.\n\n# **Why us**\n\nWe've trained the models we're now building data for.\n\n* **Peter Vajda** — Former **Director of Media Generation at Meta**. Eleven years at Meta. Most recently led Media GenAI foundation-model R&amp;D: **Emu** (text-to-image), image editing, **Movie Gen**, text-to-video, video editing, character-consistent generation. Earlier led efficient deep learning for computer vision powering on-device Augmented Reality and Virtual Reality (AR/VR) models. **Assistant Visiting Professor at Stanford** before Meta. PhD in Computer Science.\n* **Seiji Yamamoto** — Led teams in the **Core Llama group at Meta Superintelligence Labs**. Nine years at Meta as a **Senior Staff Research Scientist** across LLM pre- and post-training, inference optimization, full-duplex speech, and computer vision. **PhD in Physics**, publications in **Proceedings of the National Academy of Sciences** and **Physical Review Letters** (co-authored with a Fields Medalist). Stanford, Rice, Columbia; postdoc at a National Lab.\n\nBetween us: foundation-model training across text, image, video, and speech, shipped to billions of users — plus scientific chops to design the verifier stacks.\n\n# **We’d love to talk more**\n\nWe're talking to a small number of frontier AI labs about pilot engagements.\n\n* **Heads of data / data partnerships** at frontier labs\n* **Research leads** running pre-training, mid-training, post-training, or reasoning programs and shopping for a corpus that doesn't exist yet\n* **Model-training teams** preparing a next-gen training run who want a correct-by-construction supplement in the mix\n* **Researchers in formal methods, scientific computing, or domain-specific simulators** who want to contribute a verifier stack — we'd love to talk\n\nWe're also **hiring research scientists and engineers in San Francisco** (in-person). If you've shipped foundation-model training, built formal/simulation tooling or spent time developing AI training data at production scale, please reach out.\n\n# **Contact**\n\n* **Web:** [**https://perfectbit.ai**](https://perfectbit.ai)\n* **Email:** [**founders@perfectbit.ai**](mailto:founders@perfectbit.ai)\n* **Founders:** Peter Vajda, Seiji Yamamoto",
+      "url": "https://www.ycombinator.com/launches/QMv-perfectbit-ai-training-data-correct-by-construction",
+      "votes": 8,
+      "created_at": "2026-05-14T19:03:28.026Z"
+    }
+  ]
+}

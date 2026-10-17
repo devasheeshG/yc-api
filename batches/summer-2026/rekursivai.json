@@ -1,0 +1,105 @@
+{
+  "id": 31555,
+  "name": "rekursiv.ai",
+  "slug": "rekursivai",
+  "former_names": [
+    "rekursiv"
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/f8606b08cc0428757361006dc3171d7b460ae47e.png",
+  "website": "https://rekursiv.ai",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "We're scaling self-improving AI scientist teams to ideate/experiment/discover, generating new knowledge autonomously. Their discoveries reduced ARC-1/2 costs by 10,000× while maintaining state-of-the-art accuracy and yielded material advances on combinatorial ML problems.\r\n\r\nWe believe that AI is bounded not by compute, but ideas. Scaling to millions of sessions of discovery enables leveraging its own discoveries and presents a novel training source capable of ushering a new era of self-reliant foundational models.",
+  "one_liner": "Scale AI scientists whose own breakthroughs accelerate the next.",
+  "team_size": 5,
+  "industry": "B2B",
+  "subindustry": "B2B -> Productivity",
+  "launched_at": 1784428991,
+  "tags": [
+    "Artificial Intelligence",
+    "Deep Learning",
+    "Machine Learning"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Summer 2026",
+  "status": "Active",
+  "industries": [
+    "B2B",
+    "Productivity"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada",
+    "Remote",
+    "Partly Remote"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": [
+    {
+      "question": "What is the core problem you are solving? Why is this a big problem? What made you decide to work on it?",
+      "answer": "AI research is bottlenecked by humans. Every advance in ML still runs through a small number of researchers who can only devise and test ideas so fast. Experiments take days, most fail, and the field's progress is gated by how quickly a limited pool of experts can iterate.\r\n\r\nWe think this is the single biggest lever on the future of AI. Our thesis is that AI progress isn't bounded by compute or data, but it's bounded by the rate at which good ideas get devised and tested. Compute keeps scaling, but the human idea-generation loop doesn't. If you could automate the loop itself: hypothesize, experiment, learn, and repeat, then you could compound discoveries far faster than any human team.\r\n\r\nWe decided to work on it because we've lived the bottleneck. Between us we spent \\~30 years doing ML research at Google, DeepMind, and Luma AI. We kept hitting the same wall: the hard part was never running the code, it was the slow, serial process of engineering the training loops to inform what to try next.\r\n\r\nWhen we built a system that could run that loop autonomously, we found we could shorten the gap between having an idea and knowing whether it was a good one. This has allowed us to explore many exciting ideas that we would have otherwise not tried because it was too time-consuming for us. The results convinced us a self-improvement loop now possible, and that we're the ones to build it."
+    },
+    {
+      "question": "What is your long-term vision? If you truly succeed, what will be different about the world?",
+      "answer": "Long-term, we're building autonomous AI scientists and scaling them from one to millions: a fleet running the scientific method in parallel, each discovery accelerating the next.\r\n\r\nAnd this process will start to compound. Each new method our scientists invent makes the next round of research faster and cheaper, a self-improving loop where discovery accelerates discovery. Concretely, that means a world where breakthroughs that would have taken a field a decade happen in months, where the cost of pushing the frontier drops by orders of magnitude, and where a small team can direct the research output of an entire institution. We start with ML research because it's the loop closest to us and the one that speeds up all the others: an AI scientist that improves AI compounds fastest of all."
+    }
+  ],
+  "url": "https://www.ycombinator.com/companies/rekursivai",
+  "api": "https://devasheeshg.github.io/yc-api/batches/summer-2026/rekursivai.json",
+  "year_founded": 2026,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/rekursiv-ai/",
+  "x_url": "https://x.com/hyperparticle",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": "https://github.com/rekursiv-ai",
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/f8606b08cc0428757361006dc3171d7b460ae47e.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Jared Friedman",
+    "url": "https://www.ycombinator.com/people/jared-friedman"
+  },
+  "founders": [
+    {
+      "user_id": 3527624,
+      "full_name": "Joshua Dillon",
+      "title": "Founder",
+      "founder_bio": "Ex-Google, Ex-Deepmind, Ex-LumaAI staff research scientist for a combined total of 14 years. Led foundational model pre-training at Luma AI. Creator of TensorFlow Probability (1M+ downloads / month), built Veo's first prototype, contributor to Gemini and VideoPoet (ICML 2024 Best Paper). 11,600+ citations.\n\nNow co-founder of rekursiv.ai, automating the science of ML research.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/jvdillon/",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/a33102fd458800ada457193e9d61bd8e1fadc988.jpg"
+    },
+    {
+      "user_id": 3527564,
+      "full_name": "Dan Kondratyuk",
+      "title": "Founder",
+      "founder_bio": "Ex-Google, Ex-LumaAI scientist for a combined total of 7 years. First author of VideoPoet (ICML 2024 Best Paper), led the World Models team at Luma, and built large-scale multimodal LLMs and diffusion models for image, video, audio, and text.\n\nNow co-founder of rekursiv.ai, automating the science of ML research.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/dankondratyuk/",
+      "x_url": "https://x.com/hyperparticle",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/d45c58f9c92bb89b4f492a735fdc90392813af11.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 106821,
+      "title": "rekursiv.ai: AI scientists that invent new knowledge",
+      "tagline": "Scale AI scientists whose own breakthroughs accelerate the next.",
+      "body": "Hey YC! We're [Josh](https://rekursiv.ai/josh) and [Dan](https://rekursiv.ai/dan), co-founders of [rekursiv.ai](http://rekursiv.ai) 🧪.\n\n[rekursiv.ai](http://rekursiv.ai) builds fleets of **AI scientists** that do ML research on their own: they come up with ideas, run thousands of experiments in parallel, learn from the results, and accelerate their own discoveries. In a few days of self-directed research, they invented ideas and algorithms that **matched state-of-the-art accuracy on ARC-AGI of frontier LLMs at up to 10,000× lower cost**, and became the first system to hit **100% on Sudoku** with a neural network trained only on input-output pairs.\n\n![uploaded image](/media/?type=post&id=106821&key=user_uploads/3527564/0444a495-03fa-4f41-9762-ba134521b2f4)\n\n**Why this matters.**\n\nAI research is bottlenecked by humans. Every advance still runs through a small number of researchers who can only devise and test ideas so fast. Compute keeps scaling; the human idea-generation loop doesn't. We believe **AI progress isn't bounded by compute, it's bounded by the rate at which good ideas get tried and tested**. So instead of scaling one model, we built a system that generates and tests ideas on its own.\n\n**It already works.**\n\nIn a few days of self-directed research, our AI scientists set a groundbreaking records on hard benchmarks.\n\n* On **ARC-AGI** (easy for humans, hard for AI), our AI scientists matched top frontier LLM models at up to **10,000× lower cost**.\n* On **Sudoku**, they achieved 100% accuracy by running hundreds of experiments over a few days, wrote 100k+ lines of their own code, and invented a new inference method (_Hypothesis-Pinning Search_).\n* Every gain came from ideas and algorithms **the system invented itself**. It even debugged its own training bugs and abandoned its own ideas that led to dead ends.\n\nFull write-ups: [ARC-AGI](https://rekursiv.ai/blog/pushing-limits-arc-agi/) · [Sudoku](https://rekursiv.ai/blog/100-percent-accuracy-on-sudoku/)\n\n![uploaded image](/media/?type=post&id=106821&key=user_uploads/3527564/676b13b6-cc1b-4545-8d14-cc7ae1e9b5a5)\n\n**Who we are.**\n\nWe're two ML researchers with 21 years of combined experience at **Google DeepMind and Luma AI**. We spent our careers building frontier generative models. Now we're pointing that experience at a harder problem: AI that discovers on its own.\n\n* **Josh Dillon** — Staff Research Scientist at **Google Research &amp; DeepMind for 13 years**, then led foundational-model pre-training at **Luma AI**. Created **TensorFlow Probability** (\\~1M downloads/month).\n* **Dan Kondratyuk** — First author of **VideoPoet (ICML 2024 Best Paper)**. Co-developed the models powering **Luma's Dream Machine** and led Luma's realtime World Models team. Previously 5 years at **Google Research**.\n\n**What's next.**\n\nWe're pointing the system at harder, more varied challenges and building a platform to share results in real time. The bottleneck now is experiment scale: the more experiments we run, the more discoveries the our AI teams can make. We plan to scale from a few AI scientists to millions, each discovery accelerating the next, until the rate of scientific progress is no longer limited by the number of human researchers.\n\n**Asks.**\n\n* **Got a hard problem or benchmark?** If you have a benchmark or research problem you'd love an autonomous team of scientists to attack, we want to hear it. Email [contact@rekursiv.ai](mailto:contact@rekursiv.ai).\n* **Researchers &amp; engineers:** We're hiring **Founding Scientists** and **Engineers** (Bay Area or remote). If you love running thousands of experiments and figuring out what the results mean, reach out at [hiring@rekursiv.ai](mailto:hiring@rekursiv.ai)\n* **Just want to nerd out about autonomous science?** Drop us a line, always happy to chat.\n\n— Josh &amp; Dan, [rekursiv.ai](http://rekursiv.ai)",
+      "url": "https://www.ycombinator.com/launches/Rmv-rekursiv-ai-ai-scientists-that-invent-new-knowledge",
+      "votes": 7,
+      "created_at": "2026-07-22T14:06:11.738Z"
+    }
+  ]
+}

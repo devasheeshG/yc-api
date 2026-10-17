@@ -1,0 +1,105 @@
+{
+  "id": 25905,
+  "name": "Bracket",
+  "slug": "bracket",
+  "former_names": [
+    "Palette Financial",
+    "Inc.",
+    "Palette"
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/743850446c402a0284c29ccc61272697d62fc139.png",
+  "website": "https://www.usebracket.com/",
+  "all_locations": "New York City, NY, USA; Los Angeles, CA, USA",
+  "long_description": "Bracket is the two-way data pipeline between popular business tools and backend databases. When ops teams update data in Salesforce or Airtable, and engineers update data in the database, Bracket connects the two sources to reflect the same information. ",
+  "one_liner": "Two-way syncs between business tools and your database",
+  "team_size": 3,
+  "industry": "B2B",
+  "subindustry": "B2B -> Engineering, Product and Design",
+  "launched_at": 1641941124,
+  "tags": [
+    "SaaS",
+    "B2B",
+    "Data Engineering"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Winter 2022",
+  "status": "Acquired",
+  "industries": [
+    "B2B",
+    "Engineering, Product and Design"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada",
+    "Remote",
+    "Partly Remote"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/bracket",
+  "api": "https://devasheeshg.github.io/yc-api/batches/winter-2022/bracket.json",
+  "year_founded": 2021,
+  "city": "New York City",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/use-bracket",
+  "x_url": "https://twitter.com/usebracket",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/743850446c402a0284c29ccc61272697d62fc139.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": null,
+  "founders": [
+    {
+      "user_id": 1760203,
+      "full_name": "Vinesh Arun",
+      "title": "Founder",
+      "founder_bio": "Founder @ Bracket. Formerly at Shipper (YC W19) and Oliver Wyman",
+      "is_active": false,
+      "linkedin_url": "https://www.linkedin.com/in/vinesharun/",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/cf4a3af30b304d1f27cd4ad2cbfb7a303c9d02d8.jpg"
+    },
+    {
+      "user_id": 842541,
+      "full_name": "Kunal Garg",
+      "title": "Founder",
+      "founder_bio": "Building @ Bracket.\n\nPreviously: Brokerage Ops Engineering @ Wealthfront, Product/Engineering @ Redfin, Internal Tooling Engineering @ Facebook\n\nPassionate about real estate investing, fintech/financial literacy, quality design, concussion therapy, Catan, biking and volleyball.",
+      "is_active": false,
+      "linkedin_url": "https://www.linkedin.com/in/kunalrgarg/",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/8b8f89b18fb9abaa0e39a7991dfd9bbbc9bc74d6.jpg"
+    },
+    {
+      "user_id": 678518,
+      "full_name": "Ian Yanusko",
+      "title": "Founder",
+      "founder_bio": "Building two-way data syncs @ Bracket (W22). Previously Product @ Shipper Indonesia, Fellow @ Alter Global, and Research Associate @ Cornerstone/\n\nPassionate about bikes, mycology, Catan, and my synth.",
+      "is_active": false,
+      "linkedin_url": "https://www.linkedin.com/in/ian-yanusko-6b240591/",
+      "x_url": "https://twitter.com/IanYanusko",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/1c621d3cf0d77ed92abaad134b555e2e0314c165.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 74154,
+      "title": "Bracket - Sync Salesforce & Postgres: Heroku Connect alternative for any SaaS",
+      "tagline": "Two way syncs between business tools and your database",
+      "body": "**Tl;dr:** [**Bracket**](https://app.usebracket.com) syncs data bidirectionally between tools like Salesforce & databases like Postgres — think Heroku Connect between any SaaS tool and any database or warehouse. For companies that collect customer-relevant information in SaaS tools, Bracket is the simplest way for engineers to get this data in front of customers in real time.\n\n—\n\nHey everyone! We’re Vinesh, Ian, and Kunal and we’re building Bracket.\n\n![](https://lh5.googleusercontent.com/xrZwklibKE9wZuf_lyCSiei3Nt082k0IncnOuMZsmtUqwLV_JLbWEPilfCw1HJ41-GfqJg7XruoZP4cigIcN3RfnS7vKItZsqlzx8uyAMRBJs1dQItNfvU8E8f9I7qWzJZZHT1NhxwblRHAdUajPh4s)\n\n### **The problem**\n\nCompanies often need a way to manually adjust the info that a lead or customer sees - think of the sales team of a software company that wants to customize a demo environment for a high-value lead, or the ops team of a car rental company that needs to manage which cars are available for customers to book. \n\nThe job of designing, implementing, and championing a fix falls to engineering. Engineers can either build a custom UI for their teammates, or connect with the tools they already use, like Salesforce or Airtable. \n\nThere are a few problems with this:\n\n1. Custom UIs run against the grain of the tools that business teams already use and can even require double data entry on the part of those teams. This leads to low adoption. \n2. This leads most engineers to integrate with their business teams’ existing tools. However, setting up real-time two-way syncs is a highly technical challenge that can take entire quarters of implementation time.\n\nIn short, custom-built solutions lead to low adoption, and built-from-scratch integrations with business teams’ tools can take months of engineering effort.\n\n### **How we solve it**\n\n**Using two-way syncs, Bracket is the easiest way to keep data in sync between business teams’ existing tools, like Salesforce, and databases, like Postgres.** \n\nThis creates a win-win-win. Using the Salesforce <> Postgres example:\n\n* Engineering gets to build on top of Postgres and doesn’t have to deal with the Salesforce API (we do that for you). Engineering also meets business teams where they are, optimizing adoption.\n* Customer-facing business teams (e.g. Sales, CX) continue to leverage Salesforce, a familiar, highly productive tool with tons of features and a strong community, and can trust that their data is fresh.\n* Customers - seeing fresh, personalized data - get the best UX possible, increasing lead conversion and paid retention.\n\n \n\nOur new web app works with Salesforce and Postgres along with other connectors (like  Airtable, Google Sheets, MySQL and more).\n\n![](https://lh4.googleusercontent.com/plJHt6uWnEfHvqApcTBso-yoZ9penLWsS7gyG4usf8avqWinfSaNtFVRLwV4Hd7eFAcmJ-A-ueNFIgpiv33S4TlCZGBd_OyOzauJWPKPKRj3r_-PSyKQMxoqJqQ5T03cd7LPWWLlg_9DJ0marOEavuM)\n\n### **Demo:**\n\n[ ](https://www.youtube.com/watch?v=sRkaAa667T0)\n\n### **Differences from Heroku Connect?**\n\n1. **Built for your tech stack:** We support beyond just Heroku Postgres. Not only do we support any hosted Postgres, but we also have two-way syncs with other databases and warehouses.\n2. **Active Development:** Heroku Connect hasn’t been updated in years and has no new features on their official roadmap. Bracket continues to develop around the modern stack.\n3. **Uses cases across teams:** We’ve built two-way syncs for CRMs like Salesforce but also other products like Airtable, Google Sheets, and more.\n4. **Price:** We’re far cheaper than Heroku Connect, which can run north of $50k / year.\n\n### **Our ask:**\n\nIf you want to try this yourself, get started[ **here**](https://app.usebracket.com)\n\nOtherwise, if you:\n\n1. Are looking for two-way syncs between other tools and want us to build it\n2. Know any data engineers at mid-market / enterprise companies to make an intro\n3. Have any other questions, please reach out to [founders@usebracket.com](mailto:founders@usebracket.com)",
+      "url": "https://www.ycombinator.com/launches/JI2-bracket-sync-salesforce-postgres-heroku-connect-alternative-for-any-saas",
+      "votes": 28,
+      "created_at": "2023-08-16T13:53:42.831Z"
+    }
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "id": 28841,
+  "name": "Baud",
+  "slug": "baud",
+  "former_names": [
+    "Neuralyze",
+    "Cerelyze",
+    "Zener",
+    "Front",
+    "Zener",
+    "SuperCraft",
+    "Ponder",
+    "SuperCraft",
+    "Baud Labs"
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/2ea89d0878c367c79b3a58c19eb1323a648e3f38.png",
+  "website": "https://baudlabs.ai",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "Novel AI hardware built from first principles to let companies train, fine-tune, and deploy frontier models with orders of magnitude better performance than incumbents",
+  "one_liner": "AI chips for ultra-fast training and inference",
+  "team_size": 3,
+  "industry": "Industrials",
+  "subindustry": "Industrials",
+  "launched_at": 1688534176,
+  "tags": [
+    "Artificial Intelligence",
+    "Hard Tech",
+    "Semiconductors"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Summer 2026",
+  "status": "Active",
+  "industries": [
+    "Industrials"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/baud",
+  "api": "https://devasheeshg.github.io/yc-api/batches/summer-2026/baud.json",
+  "year_founded": 2026,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/baud-labs-ai/",
+  "x_url": "",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/2ea89d0878c367c79b3a58c19eb1323a648e3f38.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Diana Hu",
+    "url": "https://www.ycombinator.com/people/diana-hu"
+  },
+  "founders": [
+    {
+      "user_id": 1348413,
+      "full_name": "Sarang Zambare",
+      "title": "Founder/CEO",
+      "founder_bio": "Multi-time founder with 4 patents and 7+ years in deep learning and AI hardware. ML lead for Peloton Guide from concept to 100,000+ devices shipped. Previously founding ML engineer at Peloton and Caper (acquired by Instacart). Also a certified pilot.",
+      "is_active": true,
+      "linkedin_url": "https://linkedin.com/in/sarang-zambare",
+      "x_url": "https://twitter.com/sarangz11",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/d9ae5ac000c0c036f4b5022a8dd94a1b90a9e2a9.jpg"
+    },
+    {
+      "user_id": 3805085,
+      "full_name": "Eric Taylor",
+      "title": "Founder & Chief Hardware Architect",
+      "founder_bio": "Experienced ASIC Architect with over a decade of industry experience, including four tape-outs, two major IP releases, two patents, and a publication. Prior roles at NVIDIA, Freescale/NXP, Arteris IP, and Enfabrica.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/eric-taylor-995b923b/",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/54e1b3deed285b11303c26e69ac744fbf80d5f4c.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 104577,
+      "title": "Baud - AI Chips for Accelerated Training and Inference",
+      "tagline": "Novel AI hardware and developer platform, co-designed from first principles to let businesses create frontier models with orders of magnitude better performance than incumbents",
+      "body": "**TL;DR**\n\nBaud is building a new chip for training and inference of large AI models\n\nWe have developed a new arithmetic representation of neural networks that does not contain multiplications. Our silicon is architected specifically for this representation and doing this lets us train and serve AI faster and more efficiently than incumbents.\n\n![uploaded image](/media/?type=post&id=104577&key=user_uploads/1348413/43bfbd38-2274-4963-b225-3714d18f7c65)\n\n\\\n\\\n**Our Team** \n\n* **Sarang Zambare**, multi-time founder with 4 patents and 7+ years in deep learning and AI hardware. ML lead for Peloton Guide from concept to 100,000+ devices shipped and founding engineer at Caper (acquired by Instacart) building edge deep learning models.\n* **Eric Taylor**, ex-NVIDIA chip design veteran with a decade of experience including 4 tape-outs on leading process nodes, two major IP releases, multiple patents and publications, prior roles at NVIDIA, Freescale/NXP, Arteris IP, and Enfabrica.\n\n\\\n\\\n**The Problem**\n\nWe are living in exciting times where humanity has figured out a way to turn sand and sunlight into machines of scientific discovery.\n\nBut creating and serving these machines aka frontier AI models, is extremely capital intensive.\n\nNVIDIA’s publicly documented training recipe of the Nemotron model took **6144 H100 GPUs**, going on for around 3 months, drawing around **4.3 megawatts** of electricity.\n\n![uploaded image](/media/?type=post&id=104577&key=user_uploads/1348413/eddfed11-11fd-41b3-bbc2-8bb950078002)\n\nThat's **$44M in rentals or $245M in capex** plus an ungodly number of developer hours standing up distributed training. Models like Claude Opus 4.6 surprised the world, and that's just the beginning. But at these numbers, **only a handful of teams on Earth control the frontier in AI** and have a shot at a new opus-level moment in other domains like robotics, world models, drug discovery, material science, physics, simulation, the list goes on.\\\n\\\nCurrent attempts at solving this such as Cerebras, Groq, Etched, D-Matrix and 50 other chip startups are only attacking the silicon side and leaving the fundamental math side of the problem untouched, because they are focused on inference and hence have to run existing model weights.\n\nWhen we looked deeper, we found that if you let go of the constraint of running existing model weights, a radically different silicon architecture becomes possible, with an order of magnitude better performance.\n\nWe think we're just scratching the surface of what's possible when you co-design the hardware with the model architecture.\n\nAnd that’s what we are betting the farm on.\n\n**Solution**\n\nWe have developed a new way to represent neural network architectures that eliminates multiplications from both the forward and backward passes, and also compresses the weights by more than 10x without any loss in intelligence. The catch is that you need to train the model in this representation, or start with a base model that is also in this representation.\n\nBoth during training and inference, our chip does not need multiplier circuits.\n\nThis makes our individual cores drastically smaller and simpler than say GPU’s tensor cores or the PEs in TPU’s systolic arrays.\n\nWhich means we can pack way more compute and SRAM on the die and move way more weights for the same memory bandwidth.\n\nThis makes our chip faster, less power hungry and simpler to build.\\\n\\\nWe provide a developer platform based on our hardware that makes creation of frontier AI frictionless and economical to serve, so businesses of all sizes can start owning their intelligence.\\\n\\\n**We are live already**\n\n![uploaded image](/media/?type=post&id=104577&key=user_uploads/1348413/fb27985c-5941-4f2b-aac1-a81378047b7c)\n\nOur first chip is validated on the Global Foundries 12nm process and on schedule for tape-out by the end of this year.\\\n\\\nOur training and inference service is already live on a cluster of FPGAs running the chip architecture in emulation.\\\n\\\nUsing FPGA emulation, we've developed a compiler and a distributed training stack that converts any PyTorch exportable model to our format with bit exact results in most cases, including popular opensource architectures such as GLM, Qwen, Gemma, DeepSeek, Flux, Wan and others.\\\n\\\nYou can checkout a small demo of our chip running in emulation on a single FPGA here: <https://baudlabs.ai/demo>\n\n**Our partner program**\\\n\\\nBaud is now working with design partners who can test our systems and help smooth out the developer experience, in exchange for reserved capacity on our first cluster for training and inference.\\\n\\\nCapacity is limited. Contact us if you are training something new or are tired of paying through the nose for intelligence that you do not own.\\\n\\\n<https://baudlabs.ai/partner>\n\n![uploaded image](/media/?type=post&id=104577&key=user_uploads/1348413/7e141e34-4913-4656-b502-b1b7201eeb73)\n\n",
+      "url": "https://www.ycombinator.com/launches/RCj-baud-ai-chips-for-accelerated-training-and-inference",
+      "votes": 98,
+      "created_at": "2026-07-06T15:52:27.467Z"
+    }
+  ]
+}

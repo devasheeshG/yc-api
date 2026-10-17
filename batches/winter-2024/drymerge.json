@@ -1,0 +1,133 @@
+{
+  "id": 29184,
+  "name": "DryMerge",
+  "slug": "drymerge",
+  "former_names": [],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/d1f059f261793064d1e71c446f372bef42ee5e12.png",
+  "website": "https://www.drymerge.com",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "We create AI agents that constantly monitor emails, calendar, calls, or wherever else companies have relationship data and organize it into CRM records as meticulously as a great rep would.\r\n\r\nWe build these agents on top of the DryMerge platform, a tool to build AI agents that integrate with business apps and work in the background.\r\n",
+  "one_liner": "AI that updates your CRM for you",
+  "team_size": 4,
+  "industry": "B2B",
+  "subindustry": "B2B",
+  "launched_at": 1701198714,
+  "tags": [
+    "Artificial Intelligence",
+    "CRM",
+    "Automation"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": true,
+  "nonprofit": false,
+  "batch": "Winter 2024",
+  "status": "Active",
+  "industries": [
+    "B2B"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/drymerge",
+  "api": "https://devasheeshg.github.io/yc-api/batches/winter-2024/drymerge.json",
+  "year_founded": 2023,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/98894763/",
+  "x_url": "",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/d1f059f261793064d1e71c446f372bef42ee5e12.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Jared Friedman",
+    "url": "https://www.ycombinator.com/people/jared-friedman"
+  },
+  "founders": [
+    {
+      "user_id": 1523010,
+      "full_name": "Samuel Brashears",
+      "title": "Founder",
+      "founder_bio": "CTO DryMerge, formerly Cerebras Systems and Hive AI.",
+      "is_active": true,
+      "linkedin_url": "https://linkedin.com/in/samuel-brashears000",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/727ecda8a8e5bcfcc8e9c55938be592d588b0c9d.jpg"
+    }
+  ],
+  "jobs": [
+    {
+      "id": 70506,
+      "title": "Founding Fullstack Engineer",
+      "url": "https://www.ycombinator.com/companies/drymerge/jobs/Tned0vP-founding-fullstack-engineer",
+      "location": "San Francisco, CA, US",
+      "type": "Full-time",
+      "role": "Engineering",
+      "role_type": "Full stack",
+      "salary_range": "$115K - $175K",
+      "equity_range": "1.00% - 2.00%",
+      "experience": "Any (new grads ok)",
+      "visa": "US citizen/visa only",
+      "skills": [
+        "JavaScript",
+        "Rust"
+      ]
+    },
+    {
+      "id": 76735,
+      "title": "Sales Development Representative",
+      "url": "https://www.ycombinator.com/companies/drymerge/jobs/oM6myJT-sales-development-representative",
+      "location": "San Francisco, CA, US",
+      "type": "Full-time",
+      "role": "Sales",
+      "role_type": null,
+      "salary_range": "$80K - $120K",
+      "equity_range": "0.25% - 0.75%",
+      "experience": "1+ years",
+      "visa": "US citizen/visa only",
+      "skills": []
+    }
+  ],
+  "news": [
+    {
+      "title": "Announcing our $2.2M Seed Round",
+      "url": "https://drymerge.com/blog/announcing-our-seed-round",
+      "date": "Sep 16, 2024"
+    },
+    {
+      "title": "DryMerge promises to connect apps that normally don't talk to each other — and when it works, it's great | TechCrunch",
+      "url": "https://techcrunch.com/2024/09/15/drymerge-promises-to-connect-apps-that-normally-dont-talk-to-each-other-and-when-it-works-its-great/",
+      "date": "Sep 15, 2024"
+    }
+  ],
+  "launches": [
+    {
+      "id": 89149,
+      "title": "DryMerge - AI that updates your CRM for you.",
+      "tagline": "AI agents that monitor your customer interactions and organize them into CRM records.",
+      "body": "Hey everybody! We’re super excited to announce that you no longer have to update your CRM. \n\n**TL;DR:** AI agents that monitor your customer interactions across every channel — from call transcripts to Slack messages — and organize them into CRM records. We eliminate manual data entry for reps and make your CRM a perfect source of truth.\n\nIf you’re interested in perfect CRM data with no manual effort, book a meeting with us [here](https://cal.com/edwardfrazer/drymerge-consultation).\n\n<https://youtu.be/nLkEsqRNO6c>\n\n## **The Problem**\n\nCRMs like Salesforce and HubSpot are only useful when populated with really good data. Without good data, pretty much every CRM feature like reporting, forecasting, automation, etc. becomes either useless or actively harmful. The problem is that updating the CRM with good data is **hard**, and **traditional methods don’t work.**\n\n\\\nThere’s two main ways CRMs get updated today:\n\n1. A rep manually writes notes, updates deal stages, fills in custom fields, and generally does a whole lot of data entry.\n2. A CRM integration ‘captures’ activity from email/calendar and copy pastes it into the CRM automatically.\n\nBut _both of these fail_. Why?\n\nCRM integrations don’t organize data. They copy-paste unstructured data into your CRM, but to be _useful_ data needs to be structured & organized into records (new contacts, deal stage updates, intelligent notes, custom field changes, etc). Activity capture is not good at that.\n\nReps can organize data into records, but, like many highly manual & repetitive things, they _hate_ it and are bad at it. Human CRM updates become very error-prone and inconsistent (or nonexistent).\n\n**The Solution**\n\n<https://youtu.be/WtH2W81lnQs>\n\nWe create AI agents that constantly monitor your emails, calendar, calls, or wherever else you have relationship data and organize it into CRM records as meticulously as a great rep would.\n\nThis looks like enriching and creating contacts, writing detailed & specific notes, associating related records, updating deal stages, scoring leads, etc.\n\nThe agents work in the background — you never have to touch our UI or touch your CRM; just work as you would normally and our agents keep track of everything.\n\nWe integrate with over 50 business apps and CRMs like Salesforce, HubSpot, Pipedrive, and Zoho. We add new integrations quickly!\n\nOur agents are tailored to your deal process and the information you want to record. \n\n* For example, one of our B2B SaaS customers really cares about creating notes after calls with information like what connectors an enterprise is using and whether they’re self-hosting or not. They want the notes associated with the correct opportunity, account, & all stakeholder contacts.\n* On the other hand, financial services firms we work with have tons of domain-specific custom fields, custom objects, and deal stages they want to populate from email exchanges.\n\nSince our agents follow arbitrary plain English instructions, we can accommodate almost every deal process.\n\n## **How did we arrive at this problem?**\n\nOur core product is a platform to build integrated AI agents that work in the background. Over the last 10 months, by far the most popular use-case we served were agents to update CRMs. We leaned into this demand and designed towards making these agents great. They’re capable of operating in very large CRMs with > 99% reliability on updates.\n\n## **The Ask**\n\nIf you have CRM data problems (either because you don’t update the CRM or your reps struggle with it), feel free to grab some time [here](https://cal.com/edwardfrazer/drymerge-consultation)! Let’s chat :) \n\nIf you know any RevOps or Sales Ops leaders who struggle with keeping their CRM up to date, we’d really appreciate an intro ([founders@drymerge.com](mailto:founders@drymerge.com))!",
+      "url": "https://www.ycombinator.com/launches/NBt-drymerge-ai-that-updates-your-crm-for-you",
+      "votes": 10,
+      "created_at": "2025-04-01T14:28:33.618Z"
+    },
+    {
+      "id": 78755,
+      "title": "🚀 DryMerge: Automate work with plain English",
+      "tagline": "Describe your frustrating or repetitive workflow and get an automated solution in seconds.",
+      "body": "**TL;DR:** [DryMerge](https://drymerge.com/) lets you automate workflows with plain English. Some interesting examples…\n\n* “Whenever I get an email from a potential customer, add them to HubSpot and send me a text”\n* “Summarize the conversation I had with Sam on Slack and email it over to Henry.”\n* “Whenever I finish a Google Meet with a client, update the call notes and next steps in Salesforce.”\n\nTry us out [**here**](https://auth.drymerge.com/en/signup) **for free!** Get in touch at [founders@drymerge.com](mailto:founders@drymerge.com).\n\n![uploaded image](/media/?type=post&id=78755&key=user_uploads/865934/9a408a09-72af-4d80-bbf1-d1ada107b407)\n\n### Our Goal\n\nWe want to help knowledge workers take back the **5 weeks a year** they spend switching between tools and handling repetitive tasks. We do this by letting you make automations in a chat, with plain simple language. Here’s how it works.\n\n* After you say what you want to automate, DryMerge makes a plan, breaks the task up into simple steps, and, if needed, makes the automation automatically respond to events.\n* DryMerge integrates with tools like Slack, Gmail, Google Sheets, Google Meet, SMS, HubSpot, Salesforce, Notion, and GitHub to automate work across tools. We’re adding more integrations fast!\n* DryMerge knows about your team so you can say things like “Text Julie a summary of my recent conversation with John on Slack” and watch it actually happen.\n\n![uploaded image](/media/?type=post&id=78755&key=user_uploads/865934/dc55a4ff-fa9d-4049-8231-7758c5aa56aa)\n\n### Why?\n\nThere are many automation platforms out there, but we’re the first to take “plain English” seriously. [Sam](https://linkedin.com/in/samuel-brashears000) and I ([Edward](https://linkedin.com/in/edward-frazer)) hate struggling with deceptively complicated no-code builders and fidgeting with flaky scripts. We want to build a product that makes powerful software _extremely_ easy to use for people who find working with today's automation tools challenging. \\\n\\\nWe think the best way to do that is by letting people use their software with plain language.\n\nWe’ve known each other since 4th grade and worked at places like Stripe, Hive, Facebook, and AWS. We’re so excited to launch this product and help you automate!\n\n![uploaded image](/media/?type=post&id=78755&key=user_uploads/865934/3484b9a7-3229-435b-a2ed-3db33e5072a2)\n\nIf you’d like to try us out, please do [here](https://drymerge.com/app)! We’re also available at [founders@drymerge.com](mailto:founders@drymerge.com) or to meet [here](https://cal.com/edwardfrazer+sambrashears/meet).",
+      "url": "https://www.ycombinator.com/launches/KUF-drymerge-automate-work-with-plain-english",
+      "votes": 109,
+      "created_at": "2024-02-26T17:30:03.132Z"
+    }
+  ]
+}

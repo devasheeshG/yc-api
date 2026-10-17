@@ -1,0 +1,137 @@
+{
+  "id": 29957,
+  "name": "Anglera",
+  "slug": "anglera",
+  "former_names": [
+    "Angler"
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/a2dfb2adf611e11737fa14a1b9b4be581858cfc3.png",
+  "website": "https://www.anglera.com/",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "At Anglera, we're developing a suite of AI agents to help e-commerce companies run their operations more efficiently. Our flagship agent helps our customers onboard, enrich, and manage their product data, reducing time per product from 15 mins down to 5 seconds.\r\n\r\nWe previously developed ML to automatically enrich millions of products at Uber Eats, and we're now on a mission to automate the most common manual workflows for every e-commerce business.",
+  "one_liner": "AI-Powered Product Data Enrichment",
+  "team_size": 6,
+  "industry": "B2B",
+  "subindustry": "B2B -> Retail",
+  "launched_at": 1719875304,
+  "tags": [
+    "Artificial Intelligence",
+    "Machine Learning",
+    "SaaS",
+    "B2B",
+    "E-commerce"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": true,
+  "nonprofit": false,
+  "batch": "Summer 2024",
+  "status": "Active",
+  "industries": [
+    "B2B",
+    "Retail"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/anglera",
+  "api": "https://devasheeshg.github.io/yc-api/batches/summer-2024/anglera.json",
+  "year_founded": 2024,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/anglera/",
+  "x_url": "",
+  "fb_url": null,
+  "cb_url": "https://www.crunchbase.com/organization/anglera",
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/a2dfb2adf611e11737fa14a1b9b4be581858cfc3.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Aaron Epstein",
+    "url": "https://www.ycombinator.com/people/aaron-epstein"
+  },
+  "founders": [
+    {
+      "user_id": 1164027,
+      "full_name": "Amay Aggarwal",
+      "title": "Founder/CEO",
+      "founder_bio": "Amay is the Co-Founder of Anglera. \nHe graduated from Stanford with Bachelor's & Master's degrees, specializing in AI/ML.\nPreviously, he led Catalog AI efforts to onboard, enrich, & standardize millions of products sold on Uber Eats.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/amayaggarwal/",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/3b3efa8fd2d4d81bb68515971d014bc0e51d048d.jpg"
+    },
+    {
+      "user_id": 497318,
+      "full_name": "Ray Iyer",
+      "title": "Founder/CTO",
+      "founder_bio": "Ray is the Co-Founder of Anglera. He graduated from Stanford with a BS and MS in Computer Science, specializing in Systems & AI. Previously, he launched the first CPG Ads products at Uber Eats, and worked in engineering roles at Meta, Verkada, & Microsoft.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/~iyer",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/556924594c0533b9f4e05f5ef281f52bb996f327.jpg"
+    }
+  ],
+  "jobs": [
+    {
+      "id": 83916,
+      "title": "Forward Deployed Engineer",
+      "url": "https://www.ycombinator.com/companies/anglera/jobs/zm2yMzn-forward-deployed-engineer",
+      "location": "San Francisco, CA, US",
+      "type": "Full-time",
+      "role": "Engineering",
+      "role_type": "Backend",
+      "salary_range": "$125K - $160K",
+      "equity_range": "0.25% - 0.75%",
+      "experience": "1+ years",
+      "visa": "US citizen/visa only",
+      "skills": [
+        "Python",
+        "SQL"
+      ]
+    },
+    {
+      "id": 96228,
+      "title": "Growth Lead",
+      "url": "https://www.ycombinator.com/companies/anglera/jobs/0EcFRvd-growth-lead",
+      "location": "San Francisco, CA, US",
+      "type": "Full-time",
+      "role": "Marketing",
+      "role_type": null,
+      "salary_range": "$80K - $120K",
+      "equity_range": "",
+      "experience": "1+ years",
+      "visa": "US citizen/visa only",
+      "skills": []
+    }
+  ],
+  "news": [],
+  "launches": [
+    {
+      "id": 91364,
+      "title": "Anglera: AI Product Data Enrichment",
+      "tagline": "We're building the product data infrastructure for the future of AI-driven commerce",
+      "body": "**TLDR:** Anglera is the foundational AI layer that transforms messy product data into structured, searchable, enriched content at scale.\n\n🎥 **See our AI agents in action**: https://youtu.be/zlLaT-Uv9Xs\n\n---\n\n### **🔥 The Problem**\n\nWhile everyone's building AI apps, there's a massive infrastructure gap underneath: **product data is broken at scale.**\n\n* **Poor Discoverability** - 20% of searches return zero results due to missing/inconsistent information\n* **Low Conversion** - Data errors cause 23% loss in impressions and 14% drop in conversions\n* **Slow Time-to-Market -** Weeks of delays getting new products live due to manual data entry\n\n**Result:** Billions in lost revenue from broken infrastructure.\n\nThe tech stack looks like this today:\n\n```\nBeautiful frontend shopping UI/UX\n↓\nIntelligent search & discovery algorithms\n↓\nMessy, unstructured product data ← ✨ We fix this\n```\n\n### **🧠 Our Approach**\n\nWe've built AI agents that automatically transform any product data source into clean, structured, enriched content:\n\n* **Input:** Messy spreadsheets, PDFs, images, brand websites, supplier feeds \n* **Output**: Complete, enriched product catalogs, continuously optimized for AI discoverability\n* **Scale:** Process thousands of SKUs in seconds, not weeks.\n\n---\n\n### **🎯 Why Now?**\n\nTwo massive shifts are happening simultaneously:\n\n1. **AI Search Explosion:** ChatGPT, Perplexity, and others are becoming primary product discovery channels\n2. **Agentic Commerce:** AI agents are starting to make purchases autonomously\n\n---\n\n### **🤝 The Founding Story**\n\n![uploaded image](/media/?type=post&id=91364&key=user_uploads/1164027/c4bc63d9-8268-43bc-8c95-118fbac2588b)\n\n**Amay** and **Ray** - Stanford AI grads who lived this pain at Uber Eats scale:\n\n* **Amay:** Led Catalog AI, enriching millions of SKUs\n* **Ray:** Led CPG Ads, scaling product-driven ad campaigns\n\nNow we're bringing that same level of sophistication to every retailer.\n\n---\n\n### **🔮 The Vision**\n\nImagine a world where:\n\n* Every product is instantly discoverable by AI agents\n* Product information flows seamlessly between systems\n* New products go to market in hours, not months\n\n---\n\n### **🙏 Our Ask**\n\nWe're looking for connections to:\n\n* **Technical leaders** at retailers/marketplaces dealing with product information challenges\n* **AI shopping, search, or marketplace founders** who might benefit from what we're building\n\n\\- Amay, Ray & the Anglera Team\n\nWebsite: [www.anglera.com](https://www.anglera.com)\n\nEmail: [founders@anglera.com](https://founders@anglera.com)",
+      "url": "https://www.ycombinator.com/launches/Nlc-anglera-ai-product-data-enrichment",
+      "votes": 13,
+      "created_at": "2025-06-17T13:40:54.115Z"
+    },
+    {
+      "id": 82584,
+      "title": "🛍️ Anglera: The smartest way to manage e-commerce products",
+      "tagline": "Turn complex product data into high-converting listings in seconds",
+      "body": "**TLDR**: [Anglera](https://www.anglera.com) is an AI-powered platform designed to help e-commerce companies manage their product data. We empower brands, retailers, and marketplaces to effortlessly onboard, enrich, and list hundreds of product SKUs. This saves time and improves sales. Contact us to learn more: [amay@anglera.com](mailto:amay@anglera.com)\n\n### **👋 Who we are**\n\nHello! We’re [Amay](https://www.linkedin.com/in/amayaggarwal/) & [Ray](https://www.linkedin.com/in/\\~iyer), and we’re on a mission to redefine how e-commerce companies manage their product data.\n\n![uploaded image](/media/?type=post&id=82584&key=user_uploads/1164027/42a17226-77c0-4c1d-8fb9-cab72b34aaf6)\n\nWhether you’re a brand, retailer, or marketplace, we know that dealing with e-commerce products can be challenging. We faced this problem first-hand at Uber Eats, where we built tech to enhance millions of listings uploaded by our restaurant and retail partners.\n\n### **🔍 Problem**\n\nMost rapidly growing e-commerce companies spend several hours each week managing their products across sales channels. Teams drown in spreadsheets, manually adding descriptions, images, and attributes for hundreds of items. This time-consuming process diverts focus away from actually growing their core business.\n\n### **💡 Solution**\n\nWe’re tackling the $20B Product Information Management (PIM) industry by building the smartest platform for managing e-commerce product data.\n\n<https://youtu.be/D3jKEOzbD-s>\n\nAnglera empowers every e-commerce business with their own AI catalog ‘expert’ trained on thousands of top-converting product listings. We not only help our customers onboard new products faster, but also improve all of their listings to drive better sales.\n\n**Key Features:**\n\n* **✅ Faster Time-To-Market**: Instantly onboard products from any source (Website URL, Spreadsheet, PDF, etc.)\n* **​✅ Better Sales**: Automatically enrich descriptions, images, & attributes to drive conversion\n* **✅ Wider Reach**: Start selling on new channels with just one click (Shopify, Amazon, etc.)\n\nWe measure success for our customers with two simple metrics: 1) $ increase in sales, and 2) # of hours saved.\n\n### **🙏 Asks**\n\n1. **Let’s chat** if you're a brand/retailer/marketplace looking to improve how you manage your product listings. Happy to share data-driven learnings from years of experience working on this at Uber Eats.\n2. **Introduce us** to any e-commerce companies in your network. Whether it's a friend running their own brand or someone who works at a larger retailer or marketplace, we’d love to connect.\n\nContact: [amay@anglera.com](mailto:amay@anglera.com) | Website: [www.anglera.com](http://www.anglera.com) | Calendar: [Book Time](https://calendly.com/amay-anglera/15-min)",
+      "url": "https://www.ycombinator.com/launches/LU0-anglera-the-smartest-way-to-manage-e-commerce-products",
+      "votes": 45,
+      "created_at": "2024-07-30T21:50:52.321Z"
+    }
+  ]
+}

@@ -1,0 +1,104 @@
+{
+  "id": 31303,
+  "name": "Condor Energy",
+  "slug": "condor-energy",
+  "former_names": [],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/8fb409eebab1bce05d1234942c6f03c6739eec60.png",
+  "website": "https://www.condor.energy",
+  "all_locations": "Paris, Île-de-France, France",
+  "long_description": "Condor helps large electricity consumers - C&I and data centers - cut electricity costs by helping the grid.\r\nWe are former electricity traders and energy physicists. We build an AI-powered software that our clients use to optimize their energy procurement - making sure they always have access to cheap & reliable power.",
+  "one_liner": "Software for enterprise energy procurement.",
+  "team_size": 3,
+  "industry": "Industrials",
+  "subindustry": "Industrials -> Energy",
+  "launched_at": 1770133131,
+  "tags": [],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Winter 2026",
+  "status": "Active",
+  "industries": [
+    "Industrials",
+    "Energy"
+  ],
+  "regions": [
+    "France",
+    "Europe"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/condor-energy",
+  "api": "https://devasheeshg.github.io/yc-api/batches/winter-2026/condor-energy.json",
+  "year_founded": 2026,
+  "city": "Paris",
+  "country": "FR",
+  "linkedin_url": "https://www.linkedin.com/company/condorenergy",
+  "x_url": "",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/8fb409eebab1bce05d1234942c6f03c6739eec60.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Jared Friedman",
+    "url": "https://www.ycombinator.com/people/jared-friedman"
+  },
+  "founders": [
+    {
+      "user_id": 3197643,
+      "full_name": "Jean Costa de Beauregard",
+      "title": "Founder/CEO",
+      "founder_bio": "CEO of Condor Energy - building the OS for next-gen energy procurement. Hydropower lover and energy nerd.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/jean-costa-de-beauregard/",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/9cbd1b6bf2c113a14f4d71d74b18b45cb8761990.jpg"
+    },
+    {
+      "user_id": 3206910,
+      "full_name": "Clément Grivel",
+      "title": "Founder/CTO",
+      "founder_bio": "CTO @ Condor Energy (building the energy intelligence platform for large consumers)",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/clément-grivel/",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/4533f0cf4aae009a44bc7d859bf1b6cc481c0582.jpg"
+    },
+    {
+      "user_id": 3206915,
+      "full_name": "Florian Pérocheau",
+      "title": "Founder",
+      "founder_bio": "CPO @ Condor Energy (YC W26). Currently building software to redefine how enterprises consume and procure electricity. Former equity quant and power trader.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/florian-perocheau/",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/b99f3340b13cee6ed7714549a6b9bcf121652db4.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [
+    {
+      "title": "Condor Energy scrute avec l'IA les coûts des entreprises énergivores - GreenUnivers",
+      "url": "https://www.greenunivers.com/2026/04/condor-energy-scrute-avec-lia-les-couts-des-entreprises-energivores-421552/",
+      "date": "Apr 19, 2026"
+    }
+  ],
+  "launches": [
+    {
+      "id": 98121,
+      "title": "Condor Energy - powering next-gen electricity supply",
+      "tagline": "AI-powered cockpit for electricity procurement",
+      "body": "Hey, we’re [Clément](https://www.linkedin.com/in/clement-grivel/), [Jean](https://www.linkedin.com/in/jean-costa-de-beauregard/) and [Florian](https://www.linkedin.com/in/florian-perocheau/) - electricity nerds building Condor Energy. We met in France, where Florian used to trade power, and Clément and Jean worked together on hydropower plants.\\\n\\\n**TL;DR:** Condor Energy builds software for next-generation electricity supply. We help C&I customers, data center operators and their utilities cut electricity bills by up to 20% and de-risk their operations. We’re live with a leading data center operator, large retail chains and European industrial companies.\n\n<https://youtu.be/HAFYJAKjK3U>\n\n❌ **The problem**\n\nWe realized that as the grid moves towards renewables, large energy consumers like data centers would need better tools for their electricity management. We interviewed 200+ companies spending €Ms/y on power, and we realized this was a consistent problem.\n\n* Electricity costs are no longer “price \\* volume”: they depend on location, time of day, peaks, imbalance, regulation…\n* Large energy consumers must leverage highly complex options and invest $Ms : on-site generation and storage, long-term contracts, RECs, demand-response programs…\n* Yet, they still manage power on incorrect spreadsheets, manual forecasting, wrong data and simplistic simulations.\n\nAnd these errors lead to misinformed Capex investments, delayed interconnection, higher energy costs and unstable grids.\n\n**🧠 The solution**\\\nToday, Condor works with large companies in Europe, and we’re launching in the US. They currently use our software for their:\n\n* Hedging: a large European industrial simulates and tracks its hedge portfolios to secure long-term energy costs.\n* Budgeting: a major retail chain forecasts PPAs and Spot market exposure over all of its stores, and then verifies its invoice.\n* Investment: a leading data center operator with complex procurement optimizes its energy spending by simulating on-site & off-site investments.\n\n\\\nHere’s what Condor does for them:\n\n* Monitor and forecast their day-to-day energy needs and costs, on each facility and in total.\n* Improve their energy procurement and plan their investments based on accurate data, simulations and forecasts.\n* Plan their operations and steer their behind-the-meter assets directly via our platform.\n\nBecause we centralize and curate all their energy data (consumption, market, contracts, regulation…), our customers use Condor to make better decisions - saving millions and de-risking their operations.\n\n**Our ask:** If you are a business in the US or in France spending more than €1M/y on electricity, we can help you improve your energy procurement.\\\nVisit [condor.energy](http://condor.energy) to book a demo - or send an email to [jean@condor.energy](mailto:jean@condor.energy).",
+      "url": "https://www.ycombinator.com/launches/PWb-condor-energy-powering-next-gen-electricity-supply",
+      "votes": 23,
+      "created_at": "2026-02-24T01:27:21.232Z"
+    }
+  ]
+}

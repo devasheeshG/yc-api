@@ -1,0 +1,87 @@
+{
+  "id": 24817,
+  "name": "Bytebot",
+  "slug": "bytebot",
+  "former_names": [
+    "tantl",
+    "SaveCmd",
+    "Tantl"
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/98cd71fc795fe80387da92b38a105f7c275db52d.png",
+  "website": "https://www.bytebot.ai/",
+  "all_locations": "Boston, MA, USA; Remote",
+  "long_description": "Bytebot simplifies and streamlines the development of computer use agents with a ready made container for desktop automation, including APIs for mouse movements, keyboard input, and screenshot capture. \r\n\r\nThe container enables developers to build robust, dynamic computer use agents that can be configured and run anywhere.",
+  "one_liner": "Bytebot is the open source container for AI desktop agents.",
+  "team_size": 3,
+  "industry": "B2B",
+  "subindustry": "B2B -> Engineering, Product and Design",
+  "launched_at": 1628647063,
+  "tags": [
+    "Generative AI",
+    "Robotic Process Automation",
+    "SaaS",
+    "AI",
+    "AI Assistant"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Summer 2021",
+  "status": "Acquired",
+  "industries": [
+    "B2B",
+    "Engineering, Product and Design"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada",
+    "Remote",
+    "Fully Remote"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/bytebot",
+  "api": "https://devasheeshg.github.io/yc-api/batches/summer-2021/bytebot.json",
+  "year_founded": 2021,
+  "city": "Boston",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/bytebot-ai/",
+  "x_url": "",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/98cd71fc795fe80387da92b38a105f7c275db52d.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": null,
+  "founders": [
+    {
+      "user_id": 3186,
+      "full_name": "Carl Atupem",
+      "title": "Founder",
+      "founder_bio": "Founder, CEO at Bytebot\n",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/carl-atupem-94873245/",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/d1bd41b13aeeacc95fe6ba041fb95af8c8650f0f.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 81738,
+      "title": "Bytebot: The easiest way to get web data",
+      "tagline": "AI-powered scraping automations that evolve with the sites you target. Get the data you need with just a URL and a prompt.",
+      "body": "![uploaded image](/media/?type=post&id=81738&key=user_uploads/3186/9e3e30fb-3ddb-47e7-aabf-860697f5ffb5)\n\n**TL;DR**\n\nBytebot uses AI to handle web data extraction and form filling. Developers use us to save time and effort, writing robust web scraping and automation logic that is reusable across many websites. Get started [here](http://app.bytebot.ai/auth/sign-up), and book some time with us [here](https://calendly.com/bytebot/bytebot-overview?back=1&month=2024-03).\n\n**❌ The Problem**\n\nBrowser scraping and web automation can be incredibly time-consuming and complex, often requiring a detailed and deep understanding of the web elements involved. Traditional methods are slow to iterate and can be difficult to scale, especially for startups and large companies.\n\nToday, you might:\n\n* Spend hours building scripts, hunting through HTML for the right selectors/xpaths\n* Waste effort debugging and maintaining scripts that break after page layout changes\n* Struggle with captchas, IP address rotation\n\n**💫 The Solution**\n\nBytebot simplifies and streamlines browser automation by translating your natural language prompts into intricate web tasks, from data extracting to website monitoring to form filling.\n\nBenefits include: \n\n* Eliminating time spent hunting for selectors or xpaths, as you can just prompt what you would like to happen instead\n* Allowing you to design scripts with  prompts that are reusable across multiple websites or domains\n* Providing robust and self-healing scripts that can adapt to website layout changes or updates\n\n![uploaded image](/media/?type=post&id=81738&key=user_uploads/3186/cb84607a-1f46-48f4-ad7b-c1c5f61dda6d)\n\n**⚒️How It Works**\n\nBytebot lets developers focus more on the prompting and less on the maintenance. Instead of writing complex scripts, you simply describe what you want to do, like _\"Add the item to the shopping cart\"_ or “_Login in with these credentials_“ and Bytebot handles the rest.\n\n![uploaded image](/media/?type=post&id=81738&key=user_uploads/3186/5317da8e-9760-4477-9a23-45ea0db84bc8)\n\nBehind the scenes, Bytebot takes a snapshot of a given webpage and leverages LLMs to translate prompts into the appropriate browser actions.\n\n![uploaded image](/media/?type=post&id=81738&key=user_uploads/3186/27874219-8f4a-4fcd-8480-21d039d83be6)\n\n**Speeding Up Automations**\n\nBytebot significantly speeds up the development cycle. Faster iterations enable companies to test and experiment with workflows without lengthy setup times. This increase in efficiency leads to higher ROI, as teams can focus on high-impact projects instead of getting bogged down by repetitive tasks.\n\n<https://youtu.be/v2e3Z3suQTs>\n\n**Versatile for All Users**\n\n Bytebot is designed for users of all technical levels:\n\n* **For Companies with Existing Infrastructure:** If your company already has a mature Puppeteer or Playwright setup, Bytebot integrates seamlessly. You can quickly hook Bytebot into your existing scripts without overhauling your current system.\n* **For Companies Needing Browser Support:** If you don't want to manage browser infrastructure, our Hosted Browser API has you covered. We'll handle running the browser, and you can interact with Bytebot without worrying about captchas and IP address rotation.\n*  **For Non-Technical Users:** For the quickest setup and experimentation, our Playground (coming soon!) offers a no-code UI, with a live browser view.\n\n**🙏Our Asks**\n\n* [Sign up](http://app.bytebot.ai/auth/sign-up) to try Bytebot! Our tiered [pricing](https://www.bytebot.ai/#pricing) has options for individual engineers and companies of all sizes.\n* Follow Us on [LinkedIn](https://www.linkedin.com/company/bytebot-ai) and [Twitter](https://twitter.com/bytebot_ai) for new features, updates, and industry insights.\n* Share Bytebot with anyone who is looking to streamline their web automation.\n* If you have a few minutes to chat about Bytebot, book a time [here](https://calendly.com/bytebot/bytebot-overview?back=1&month=2024-03).",
+      "url": "https://www.ycombinator.com/launches/LGM-bytebot-the-easiest-way-to-get-web-data",
+      "votes": 61,
+      "created_at": "2024-06-25T18:02:20.114Z"
+    }
+  ]
+}

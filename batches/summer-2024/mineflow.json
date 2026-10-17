@@ -1,0 +1,103 @@
+{
+  "id": 29774,
+  "name": "Mineflow",
+  "slug": "mineflow",
+  "former_names": [],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/ed607e65537f111a39e5fd0ab221ec114e01bb3e.png",
+  "website": "http://mineflow.ai/",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "Mineflow is an AI platform for mineral exploration. We generate predictions for mineral deposit shapes and locations, empowering mining companies from initial exploration to advanced feasibility studies.\r\n\r\nGeologists need to know precisely where their deposits are because drilling is expensive. In early trials with a lithium mining company, we found that Mineflow predicts the shape of hard rock lithium deposits more than an order of magnitude more accurately than our competitors.\r\n\r\nRyan received a BS in Artificial Intelligence from Carnegie Mellon's School of Computer Science where he helped teach both the grad-level Deep Learning course and the grad-level Search Engines course. He built ML models at Google in the Display Ads optimization org for 2 years and launched products that generated ~125m USD in ARR.",
+  "one_liner": "Mineflow predicts the shape and location of mineral deposits",
+  "team_size": 2,
+  "industry": "Industrials",
+  "subindustry": "Industrials",
+  "launched_at": 1723534292,
+  "tags": [],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": true,
+  "nonprofit": false,
+  "batch": "Summer 2024",
+  "status": "Active",
+  "industries": [
+    "Industrials"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": [
+    {
+      "question": "What is your long-term vision? If you truly succeed, what will be different about the world?",
+      "answer": "The discovery rate of economically viable mineral deposits near the earth's surface is declining each year. As the \"low-hanging fruit\" is claimed and mined, we’ll increasingly need to drill deeper to retrieve critical minerals like gold, copper, and lithium. While mining companies today can afford to drill hundreds of holes to precisely model a deposit at a depth of 200 meters, the cost of drilling will rise sharply as we go deeper. This means fewer holes can be drilled, necessitating more powerful deep learning models to accurately predict the shape and location of these deeper mineral deposits. Mineflow will lead the way in developing a family of foundation models for predicting the earth's subsurface composition and structure. Ultimately, I hope every mining company will use Mineflow's models to guide their exploration with precision."
+    }
+  ],
+  "url": "https://www.ycombinator.com/companies/mineflow",
+  "api": "https://devasheeshg.github.io/yc-api/batches/summer-2024/mineflow.json",
+  "year_founded": 2024,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/mineflowai",
+  "x_url": "",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/ed607e65537f111a39e5fd0ab221ec114e01bb3e.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [
+    "https://bookface-images.s3.us-west-2.amazonaws.com/attachments/0205d8b54b41ab67700f97885fc8445e80f65a8b.png",
+    "https://bookface-images.s3.us-west-2.amazonaws.com/attachments/7298b2944e4935a799fbbf826d17ab3770528f5d.png"
+  ],
+  "primary_partner": {
+    "name": "David Lieb",
+    "url": "https://www.ycombinator.com/people/david-lieb"
+  },
+  "founders": [
+    {
+      "user_id": 1928886,
+      "full_name": "Ryan Goggins",
+      "title": "Founder/CEO",
+      "founder_bio": "studied AI at CMU in SCS, built ML models for Google Ads, now trying to predict the shape of mineral deposits underground",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/rgoggins",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/76de56057f619b5b96a7f65152564b82821db55c.jpg"
+    }
+  ],
+  "jobs": [
+    {
+      "id": 69084,
+      "title": "Founding Machine Learning Engineer",
+      "url": "https://www.ycombinator.com/companies/mineflow/jobs/sJbXTyi-founding-machine-learning-engineer",
+      "location": "San Mateo, CA, US",
+      "type": "Full-time",
+      "role": "Engineering",
+      "role_type": "Machine learning",
+      "salary_range": "$80K - $150K",
+      "equity_range": "",
+      "experience": "Any (new grads ok)",
+      "visa": "US citizen/visa only",
+      "skills": [
+        "C++",
+        "Python"
+      ]
+    }
+  ],
+  "news": [],
+  "launches": [
+    {
+      "id": 83015,
+      "title": "⛏️ Mineflow - AI mineral exploration",
+      "tagline": "Mineflow takes your mining exploration data and trains a custom AI model to accurately predict the shape and location of mineral deposits, reducing drilling costs significantly",
+      "body": "---\n\nHey YC! I'm Ryan from [Mineflow](http://mineflow.ai/).\n\nQuick backstory: I've always been fascinated by how mining companies discover deposits. That passion led me to leave Google after two years of working on deep learning for ads to start Mineflow. I’m convinced that mineral exploration is as much a statistics problem as it is a geology problem, and early feedback from lithium mining companies suggests I might be on the right track!\n\n### The problem\n\nAccurately predicting deposit shapes is critical for geologists because each drill hole can cost tens of thousands of dollars. However, **traditional computational models fall short** because they:\n\n1. Can't incorporate highly multimodal data\n2. Don’t learn from data across multiple exploration sites\n3. Rely on naive algorithms for their inferences\n\nAs a result, mining companies often **drill thousands of holes** before an exploration site becomes operational, driving up costs.\n\n### The solution\n\nMineflow lets geologists **upload any dataset from their exploration sites**. Then, Mineflow **builds a custom AI model to predict the shape and location of mineral deposits**. By training a deep learning model on the whole dataset, Mineflow is able to make predictions with **an order of magnitude of accuracy more than our competitors**. As a result, Mineflow can significantly reduce the number of drill holes needed, saving mining companies millions in exploration costs.\n\nWe can produce predictions in 2 dimensions (think overhead, bird' s-eye view) and 3 dimensions (think 3D grid of cubes).\n\n3D gold deposit we are modeling:\n\n![uploaded image](/media/?type=post&id=83015&key=user_uploads/1928886/685a3a98-f1f5-4959-b7ed-a6f4b6876b01)\n\n2D prospectivity map we produced for an exploration project:\n\n![uploaded image](/media/?type=post&id=83015&key=user_uploads/1928886/d99c6c6b-8737-4ab0-a761-4058c33653ed)\n\n### Team\n\n[Ryan](https://www.linkedin.com/in/rgoggins) earned a BS in Artificial Intelligence from Carnegie Mellon SCS and built ML models for the Google Display Ads optimization team for two years. While at Google, he launched products and deep learning models that generated \\~$125m USD of ARR.\n\n![uploaded image](/media/?type=post&id=83015&key=user_uploads/1928886/697e9e0b-3f28-4ef6-b9c0-0a2b4e789e37)\n\n### Ask\n\nIf you know anyone in mineral exploration or oil and gas exploration, I'd love to [connect](https://www.linkedin.com/in/rgoggins/) with them to see how Mineflow can help. Grab space on my calendar [here](https://calendly.com/ryan-mineflow/30min).",
+      "url": "https://www.ycombinator.com/launches/Lax-mineflow-ai-mineral-exploration",
+      "votes": 36,
+      "created_at": "2024-08-13T23:23:41.164Z"
+    }
+  ]
+}

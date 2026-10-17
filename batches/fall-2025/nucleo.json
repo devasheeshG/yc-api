@@ -1,0 +1,89 @@
+{
+  "id": 30933,
+  "name": "Nucleo",
+  "slug": "nucleo",
+  "former_names": [],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/c489d64c631359b79077be36194f234ac5e83b2c.png",
+  "website": "https://nucleoresearch.com/",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "We help oncologists and radiologists extract insights from CT scans to support tumor characterization and treatment.\r\n\r\nThe hospitals we work with include Stanford Hospital, Cedars-Sinai, UCI Health, and Weill Cornell.",
+  "one_liner": "The first Agentic platform for Oncology",
+  "team_size": 2,
+  "industry": "Healthcare",
+  "subindustry": "Healthcare",
+  "launched_at": 1761179954,
+  "tags": [],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Fall 2025",
+  "status": "Active",
+  "industries": [
+    "Healthcare"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada",
+    "Remote",
+    "Partly Remote"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/nucleo",
+  "api": "https://devasheeshg.github.io/yc-api/batches/fall-2025/nucleo.json",
+  "year_founded": 2025,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/nucleoresearch",
+  "x_url": "https://x.com/nucleo_research",
+  "fb_url": "https://www.facebook.com/profile.php?id=61581747160051",
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/c489d64c631359b79077be36194f234ac5e83b2c.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Nicolas Dessaigne",
+    "url": "https://www.ycombinator.com/people/nicolas-dessaigne"
+  },
+  "founders": [
+    {
+      "user_id": 1402780,
+      "full_name": "Angelica Iacovelli",
+      "title": "Founder/CEO",
+      "founder_bio": "Angelica Iacovelli is the CEO and co-founder of Nucleo. \n\nPreviously, she was a researcher at Stanford University, where she worked on cardiovascular modeling, simulating blood flow dynamics using GNNs, LSTMs, and Transformers. The models are now part of NVIDIA’s scientific libraries. \n\nShe holds BS+MS in Mathematical Engineering from Politecnico di Milano and completed a research exchange at IIT Madras. ",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/angelica-iacovelli-490a8a1a7/",
+      "x_url": "https://x.com/AngelicaIAC",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/1645aa2b505b09627ac92eea2c76c935191857c3.jpg"
+    },
+    {
+      "user_id": 2780313,
+      "full_name": "Luca Pegolotti",
+      "title": "Founder/CTO",
+      "founder_bio": "I am a researcher in Applied Mathematics and AI for healthcare by training. I hold degrees from Politecnico di Milano, Italy (BSc) and EPFL, Switzerland (MSc and PhD), and have conducted research at the Stanford School of Medicine during my PhD and as a Postdoc. Before founding Nucleo, I was part of Apple Health AI, where I worked on physics-informed machine learning.\n\nI've published papers on computational methods, cardiovascular system modeling, and AI for medical images and optical sensors.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/luca-pegolotti/",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/b5e086e7f4a53cbb724ecdb29b136009832e322a.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 95157,
+      "title": "Nucleo: Automated Cancer Diagnostics",
+      "tagline": "We help oncologists and radiologists extract insights from CT scans to characterize and treat tumors.",
+      "body": "[Nucleo](https://www.youtube.com/watch?v=gR84avz0zkc)\n\n**👉 [Learn more about Nucleo](https://nucleoresearch.com/)**\n\n**👉 [Contact us](mailto:angelica@nucleoresearch.com)**\n\n### **Problem**\n\nCancer is not only a biological disease; it is a **logistical failure**.\n\nCancer is responsible for 1 in 6 deaths \\[1\\]. ≃ 20% of those deaths happen simply because proven treatments start too late. The latest registry data show that the median **diagnostic interval** in the United States is about 36 days \\[2,3\\], while the median **time-to-treatment** initiation is roughly 32-41 days (≈38 days on average) \\[4,5\\]. So a typical American with cancer waits ≈ 9-11 weeks (65-80 days) before therapy actually starts.\n\nA four-week delay after diagnosis adds 6–13% relative mortality; risk rises another ≈8 % for each additional 4 weeks (e.g. 12-week delay ≈ +26-30 % mortality) \\[6\\].\n\nBy automating key tasks in the oncological workflow we plan to cut 9-11 weeks to ≤ 10 days.\n\n### **Solution**\n\nThe doctor imports the CT scan. Our AI-powered software automatically extracts key oncological metrics such as sarcopenia, body composition assessment, lesion volume, and target vs. non-target lesion classification.\n\nSome results:\n\n* Our segmentation is 2,500x faster than the manual one.\n* We achieved State-of-the-art performance in sarcopenia detection.\n* Our validation studies show a 98% agreement between Nucleo and medical experts.\n\n![uploaded image](/media/?type=post&id=95157&key=user_uploads/1402780/31d40150-99ff-47c2-84d9-f8afa4191632)\n\n### **Our Team**\n\n[Angelica](https://www.linkedin.com/in/angelica-iacovelli-490a8a1a7/) was previously researching at Stanford University, where she worked on cardiovascular modeling, simulating blood flow dynamics using GNNs, LSTMs, and Transformers. The models are now part of NVIDIA’s scientific libraries. She holds BS+MS in Mathematical Engineering from Politecnico di Milano and completed a research exchange at IIT Madras. In 2025, she was recognized as one of the 11 most influential Italians under 35 in software.\n\n[Luca](https://www.linkedin.com/in/luca-pegolotti/) is a researcher in Applied Mathematics and AI for healthcare. He holds degrees from Politecnico di Milano (BSc) and EPFL, Switzerland (MSc and PhD), and conducted research at the Stanford School of Medicine during his PhD and postdoctoral studies. Before founding Nucleo, he was part of Apple Health AI, where he worked on physics-informed machine learning.\n\n**👉 [Contact us](mailto:angelica@nucleoresearch.com)**\n\n**👉 [Learn more about Nucleo](https://nucleoresearch.com/)**\n\n![uploaded image](/media/?type=post&id=95157&key=user_uploads/1402780/e3439ac4-596d-4a9a-bde6-0324ea458ddc)\n\n### **References**\n\n\\[1\\] World Health Organization. _Cancer_. [**https://www.who.int/news-room/fact-sheets/detail/cancer**](https://www.who.int/news-room/fact-sheets/detail/cancer**) (2024).\n\n\\[2\\] Caplan, L. Delay in breast cancer: implications for stage at diagnosis and survival. _Front. Public Health_**2**, 87 (2014).\n\n\\[3\\] Wattacheril, J. _et al._ Lag times in diagnosis and treatment of colorectal cancer. _Aliment. Pharmacol. Ther._**28**, 1166–1174 (2008).\n\n\\[4\\] Cone, E. B. _et al._ Assessment of time-to-treatment initiation and survival in a cohort of patients with common cancers. _JAMA Netw. Open_ **3**, e2030072 (2020).\n\n\\[5\\] Khorana, A. A. _et al._ Time to initial cancer treatment in the United States and association with survival over time: an observational study. _PLoS ONE_ **14**, e0213209 (2019).\n\n\\[6\\] Hanna, T. P. _et al._ Mortality due to cancer treatment delay: systematic review and meta-analysis. _BMJ_ **371**, m4087 (2020).",
+      "url": "https://www.ycombinator.com/launches/Okn-nucleo-automated-cancer-diagnostics",
+      "votes": 66,
+      "created_at": "2025-11-04T22:38:12.112Z"
+    }
+  ]
+}

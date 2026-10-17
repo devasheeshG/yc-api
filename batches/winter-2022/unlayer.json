@@ -1,0 +1,107 @@
+{
+  "id": 25522,
+  "name": "Unlayer",
+  "slug": "unlayer",
+  "former_names": [],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/fcefc5d17d05bbb0fe7c4b9b5875db24dc093a45.png",
+  "website": "https://unlayer.com",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "Unlayer helps companies add AI-powered content creation into their products without building it from scratch. Developers can embed visual builders for emails, pages, popups, and documents, then connect them to AI agents, templates, asset storage, exports, and APIs. We give teams the building blocks to let users and AI workflows create, edit, personalize, translate, and ship content directly inside their own product.",
+  "one_liner": "AI-powered content creation infrastructure for apps",
+  "team_size": 35,
+  "industry": "B2B",
+  "subindustry": "B2B -> Productivity",
+  "launched_at": 1644263477,
+  "tags": [
+    "Artificial Intelligence",
+    "Developer Tools",
+    "SaaS",
+    "Design Tools",
+    "AI Assistant"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Winter 2022",
+  "status": "Active",
+  "industries": [
+    "B2B",
+    "Productivity"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada",
+    "Remote",
+    "Partly Remote"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/unlayer",
+  "api": "https://devasheeshg.github.io/yc-api/batches/winter-2022/unlayer.json",
+  "year_founded": 2017,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/unlayer/",
+  "x_url": "https://twitter.com/unlayerapp",
+  "fb_url": "https://www.facebook.com/unlayer",
+  "cb_url": null,
+  "github_url": "https://github.com/unlayer",
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/fcefc5d17d05bbb0fe7c4b9b5875db24dc093a45.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [
+    "https://bookface-images.s3.us-west-2.amazonaws.com/attachments/924f8b7578a775a2708d8d52957fb146f20f3132.png"
+  ],
+  "primary_partner": {
+    "name": "Brad Flora",
+    "url": "https://www.ycombinator.com/people/brad-flora"
+  },
+  "founders": [
+    {
+      "user_id": 105300,
+      "full_name": "Adeel Raza",
+      "title": "Founder",
+      "founder_bio": "I'm a serial technology entrepreneur with strong product focus.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/adeelr/",
+      "x_url": "https://twitter.com/adeelraza",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/c256c8b582e82d21fc788b7b62ffd519e22590e2.jpg"
+    },
+    {
+      "user_id": 118900,
+      "full_name": "Muhammad Umair Siddique",
+      "title": "Founder",
+      "founder_bio": "",
+      "is_active": true,
+      "linkedin_url": "https://linkedin.com/in/umairsiddique",
+      "x_url": "https://twitter.com/umairsiddique",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/f37a4b5a14da90ea421b007669006f7f5d3ba8cc.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 105004,
+      "title": "Elements by Unlayer - Open-source React components for emails, pages, and PDFs",
+      "tagline": "Elements lets developers and AI agents create emails, web pages, and PDFs from the same React codebase.",
+      "body": "**TL;DR:** We’re launching Unlayer Elements, an open-source React content layer that lets developers and AI agents create emails, web pages, and PDFs from the same codebase. Write once in React, render everywhere.\n\nToday, we’re launching something new and open source:\n\n# Unlayer Elements\n\nAn open-source React content layer for developers and AI agents to create emails, web pages, and PDFs from the same codebase.\n\nGitHub: <https://github.com/unlayer/elements>\\\nDocs: <https://docs.unlayer.com/elements>\\\nDemo: <https://youtu.be/-ZoMlPYUbtk>\n\n## **The Problem**\n\nEvery SaaS product eventually needs content creation.\n\nAt first, it’s just one transactional email.\n\nThen it becomes welcome emails, password resets, receipts, invoices, reports, landing pages, PDFs, internal templates, previews, exports, and visual editing.\n\nMost teams end up maintaining separate systems for each output:\n\n* one system for email templates\n* one system for web pages\n* one system for PDFs\n* one system for visual editing\n* one system for exports\n\nThe content is often similar, but the implementation is different.\n\nThis becomes even more important now that AI agents are generating more code and content. Agents can create fast, but teams still need the output to be structured, reusable, version-controlled, and production-ready.\n\n![uploaded image](/media/?type=post&id=105004&key=user_uploads/105300/5911c2cd-ca33-48e8-86ff-72e1ce4fcfe7)\n\n## **What We Built**\n\nWe built Unlayer Elements: open-source React components for creating emails, web pages, and PDFs from the same codebase.\n\nDevelopers can use familiar components like:\n\n* &lt;Email>\n* &lt;Page>\n* &lt;Document>\n* &lt;Row>\n* &lt;Column>\n* &lt;Heading>\n* &lt;Paragraph>\n* &lt;Button>\n* &lt;Image>\n* &lt;Custom>\n\nEach output mode is tuned for where the content will live:\n\n* &lt;Email> renders email-safe table HTML\n* &lt;Page> renders responsive web HTML\n* &lt;Document> renders print-ready HTML for PDFs and documents\n\nSame component system. Different surfaces.\n\nA few examples of what you can build:\n\n* Transactional emails\n* Landing pages\n* Web versions of emails\n* Invoices\n* Receipts\n* Reports\n* Internal template galleries\n* PDF documents\n* AI-generated content flows\n\nElements also connects with the broader Unlayer platform. Developers can define content structure in code, and when visual editing is needed, teams can bring that work into Unlayer’s Builder so marketers, admins, or end users can edit without touching code.\n\n## **Our Ask**\n\nWe’re open sourcing this early because we want feedback from people building with React, Next.js, email, PDFs, templates, and AI-generated content.\n\nWe’d love for you to:\n\n1. Try it and tell us what feels useful or missing.\n2. Star the GitHub repo if you want to support the project.\n3. Share examples of emails, pages, PDFs, invoices, reports, or AI-generated content workflows you’d want Elements to support.\n\nGitHub: <https://github.com/unlayer/elements>\\\nDocs: <https://docs.unlayer.com/elements>\n\nWould love feedback from the YC community.\n\nEmail: [founders@unlayer.com](mailto:founders@unlayer.com)",
+      "url": "https://www.ycombinator.com/launches/RJc-elements-by-unlayer-open-source-react-components-for-emails-pages-and-pdfs",
+      "votes": 5,
+      "created_at": "2026-07-08T19:42:04.469Z"
+    },
+    {
+      "id": 102816,
+      "title": "Unlayer: AI-powered content creation for your product",
+      "tagline": "Let your users create beautiful emails, pages or documents with AI.",
+      "body": "**TL;DR:** [**Unlayer**](https://unlayer.com) is an AI-powered content creation platform for developers. It gives you **embeddable builders**, templates, APIs, and AI toolkit so your users can create **emails**, **pages**, **documents**, and other content directly **inside your product**.\n\n<https://youtu.be/qp9t74G4VyM>\n\n—\n\n## The Problem\n\nAlmost every software product eventually needs users to create content.\n\nEmails, landing pages, proposals, invoices, documents, announcements, templates, PDFs, and more.\n\n![uploaded image](/media/?type=post&id=102816&key=user_uploads/105300/df31db0c-923c-4ac3-977d-bd881f9586d1)\n\nAt first, this looks like “just add an editor.” Then you need responsive rendering, templates, merge tags, asset management, permissions, versioning, exports, personalization, localization, and now AI generation.\n\nA small feature quietly becomes an entire content creation platform.\n\n—\n\n## What We Built\n\n**Unlayer gives developers the building blocks to add AI-powered content creation into their own products.**\n\nYou can embed visual builders for emails, pages, popups, and documents, then connect them to templates, file storage, exports, APIs, and AI workflows.\n\nYour users can visually create and edit content. Your AI agents can generate, personalize, translate, and modify that content through APIs and skills.\n\n![uploaded image](/media/?type=post&id=102816&key=user_uploads/105300/c9995728-e131-44cd-93cc-d295f255cf1b)\n\nOver time, Unlayer has grown to **1,000+ customers**, from startups to teams at **Netflix**, **Fidelity**, **Bank of America**, **Mastercard, Twilio, Chargebee**, and others.\n\nThat has given us a front-row seat into the same pattern: almost every product eventually needs users or AI to create content inside the product itself.\n\n—\n\n## Why AI Changes This\n\nContent creation is moving from manual editing to assisted and automated workflows.\n\nA user should be able to say:\n\n* **_“Create a launch email for this feature.”_**\n* **_“Translate this landing page into Spanish.”_**\n* **_“Turn this proposal into a branded PDF.”_**\n* **_“Personalize this announcement for each customer segment.”_**\n\n![uploaded image](/media/?type=post&id=102816&key=user_uploads/105300/639a8626-7790-4094-b684-c4800407a6c6)\n\nBut for AI to do this well inside a product, it needs more than a text box. It needs access to templates, design structure, brand rules, assets, exports, and the final builder where humans can review and edit.\n\nThat is what we are building with Unlayer.\n\n—\n\n## Our Vision\n\nWe think the future of content creation inside software has two interfaces:\n\n1. A visual builder for people\n2. An action layer for AI agents\n\nPeople should be able to drag, drop, edit, approve, and fine tune.\n\nAI should be able to create, rewrite, personalize, translate, export, and eventually ship content automatically.\n\nUnlayer is the infrastructure layer that connects both.\n\n—\n\n## Backstory\n\nWe started Unlayer because we kept seeing teams rebuild the same content creation stack over and over.\n\n**Email HTML is painful**. Landing pages need **forms** and scripts. Documents need **PDF generation**. Templates need **permissions**. Assets need **storage**. Every product needs customization. And now AI needs to work across all of it.\n\nWe have spent years solving these problems so other teams do not have to.\n\n![uploaded image](/media/?type=post&id=102816&key=user_uploads/105300/87ce4023-46cd-4d48-8e8a-06774d6c6bc4)\n\n—\n\n## Our Ask\n\nIf your product has users creating emails, pages, documents, templates, or customer-facing content, Unlayer will be useful for you. [Try it out](https://unlayer.com/)",
+      "url": "https://www.ycombinator.com/launches/QkK-unlayer-ai-powered-content-creation-for-your-product",
+      "votes": 17,
+      "created_at": "2026-06-09T21:37:01.868Z"
+    }
+  ]
+}

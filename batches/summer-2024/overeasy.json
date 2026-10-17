@@ -1,0 +1,86 @@
+{
+  "id": 29387,
+  "name": "Overeasy",
+  "slug": "overeasy",
+  "former_names": [
+    "Dataneko",
+    "Redshift AI",
+    "Overeasy",
+    "Cracked"
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/c8560d87b5573f416977e37be1347248f3ec6fd7.png",
+  "website": "https://overeasy.sh/",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "",
+  "one_liner": "",
+  "team_size": 2,
+  "industry": "B2B",
+  "subindustry": "B2B",
+  "launched_at": 1722555710,
+  "tags": [
+    "Artificial Intelligence",
+    "Generative AI",
+    "AI"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Summer 2024",
+  "status": "Active",
+  "industries": [
+    "B2B"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/overeasy",
+  "api": "https://devasheeshg.github.io/yc-api/batches/summer-2024/overeasy.json",
+  "year_founded": 2024,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "",
+  "x_url": "",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/c8560d87b5573f416977e37be1347248f3ec6fd7.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Diana Hu",
+    "url": "https://www.ycombinator.com/people/diana-hu"
+  },
+  "founders": [
+    {
+      "user_id": 1037258,
+      "full_name": "Kelly Lu",
+      "title": "Founder/CPO",
+      "founder_bio": "I'm Kelly! I care about empathetic code and design. Previously, CS at MIT, infrastructure at Discord, computer graphics at MIT CSAIL, computational design at the MIT Media Lab.",
+      "is_active": true,
+      "linkedin_url": "https://linkedin.com/in/kellylu1",
+      "x_url": "https://twitter.com/skyflylu",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/532a9651bff68c579a18975a1ef53d0a495a7b5f.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 82664,
+      "title": "🥚Overeasy – Go from idea to CV model 100x faster",
+      "tagline": "Overeasy lets you build task specific CV models from unstructured image data.",
+      "body": "**TLDR:** Today, we’re launching IRIS, an AI agent that automatically labels your visual data with prompting, so you can develop computer vision models faster.\n\n<https://youtu.be/aa10GQpWY4A>\n\n# **Problem: Labeling data is slow and expensive**\n\n**1. Modern datasets are exploding in scale 📈**\n\nPrevious large datasets like COCO had 3M+ annotations across 300k+ images. Now, models train on datasets like FLD-5B with over 5B+ annotations across 126M+ images — a 1000x increase in scale!\n\n**2. Synthetic Annotations are the only way to keep up 🤖**\n\nSynthetic annotation pipelines can 100x your annotation speed while maintaining label quality. Frontier models like LLama 3.1 and SAM2 have shown that strong synthetic data pipelines are necessary for state-of-the-art performance.\n\n# **Solution: Introducing IRIS, your AI Agent for Computer Vision**\n\nTransform your workflow with IRIS:\n\n* **Auto-annotate** millions of images instantly: IRIS automatically selects the best zero-shot models for your use case.\n* **Iterate** on annotations with prompts and visual hints: Tell IRIS what it got wrong, and it can go back and fix its mistakes!\n* **Train and deploy** CV models with a single click.\n\n# **Benchmarks**\n\nWe’ve been pushing the boundaries of zero-shot object detection models. IRIS’ zero-shot object detection achieves state-of-the-art performance on COCO and LVIS.\n\n![uploaded image](/media/?type=post&id=82664&key=user_uploads/1037258/d5d1b0a4-f387-48de-ab9f-e184ce5c58c6)\n\nWe’re excited to see how much IRIS will improve in the coming months!\n\n# **About Us**\n\n👋 Hey, it’s Ani and Kelly! \n\n![uploaded image](/media/?type=post&id=82664&key=user_uploads/1037258/5523c67a-da49-48db-8992-980441b53d29)\n\nWe met while running HackMIT three years ago, one of the largest undergraduate hackathons. Since then, we’ve both done computer vision research, and spend a lot of time thinking about dataset curation and labeling.\n\n[Ani](https://linkedin.com/in/anirudh-rahul-34a2bb195): Has worked on high performance trading systems at Jane Street and Five Rings, and has done computer vision research at MIT. \n\n[Kelly](https://linkedin.com/in/kellylu1%F0%9F%8C%B1): Has worked on revenue infrastructure and checkout flow optimization at Discord, and has conducted computer vision and computational design research at MIT.\n\n# **Ask**\n\nIf you think you could benefit from speedier labeling and training, we would love to [talk](https://docs.google.com/forms/d/e/1FAIpQLSdnthcpcuWOQUf0kbcaPwk17E-WVUv3sXiBsF3Yv-3XfcMA6A/viewform) (or, chat with us live on [overeasy.sh](http://overeasy.sh) 👀).",
+      "url": "https://www.ycombinator.com/launches/LVI-overeasy-go-from-idea-to-cv-model-100x-faster",
+      "votes": 66,
+      "created_at": "2024-08-02T01:27:04.473Z"
+    }
+  ]
+}

@@ -1,0 +1,106 @@
+{
+  "id": 29745,
+  "name": "Sharpe",
+  "slug": "sharpe",
+  "former_names": [
+    "January",
+    "Lumenary",
+    "Lumenary, Inc.",
+    "Lumenary"
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/ed377f5e3e709abc9139475076cec71316b01c06.png",
+  "website": "https://sharpe.sh",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "Sharpe helps traders go from idea to profit in minutes with AI, bundling petabytes of market data with high-performance infrastructure.",
+  "one_liner": "Agents for quantitative research and financial data science.",
+  "team_size": 3,
+  "industry": "B2B",
+  "subindustry": "B2B -> Analytics",
+  "launched_at": 1722638950,
+  "tags": [
+    "Finance",
+    "Analytics",
+    "Big Data",
+    "Data Engineering",
+    "AI"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Summer 2024",
+  "status": "Active",
+  "industries": [
+    "B2B",
+    "Analytics"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/sharpe",
+  "api": "https://devasheeshg.github.io/yc-api/batches/summer-2024/sharpe.json",
+  "year_founded": 2024,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/sharpe011235",
+  "x_url": "",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/ed377f5e3e709abc9139475076cec71316b01c06.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": null,
+  "founders": [
+    {
+      "user_id": 308988,
+      "full_name": "Vivek Hazari",
+      "title": "Founder",
+      "founder_bio": "Vivek is a co-founder of Sharpe. Vivek spent 2 years at Palantir Technologies, where he worked across the commercial business, and later help found and lead a team to aid the development of AIP. He studied Computer Science and Philosophy at Dartmouth College, where he did research on applications of language models.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/vivekhaz/",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/0cf7befe3f5ca27609ce2af3997c897f306b3e72.jpg"
+    },
+    {
+      "user_id": 1131934,
+      "full_name": "Daniel DiPietro",
+      "title": "Founder",
+      "founder_bio": "Dan is the co-founder of Sharpe. Previously, Dan worked at Jane Street, where he built capital allocation optimizations used in production to invest billions of dollars of assets, as well as an options tool used to execute >$100m of trades annually. He has published multiple first-author publications in high-impact venues like NeurIPS and CoRL. Dan moonlights as a botanist and published a best-selling botanical textbook on carnivorous plants while studying at Dartmouth College.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/daniel-dipietro/",
+      "x_url": "https://twitter.com/dandipietro1",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/b72974d4717fb918125809f70966e2f04f32fc1e.jpg"
+    },
+    {
+      "user_id": 1944134,
+      "full_name": "John McCambridge",
+      "title": "Founder/CPO",
+      "founder_bio": "CTO of Sharpe & former high-frequency trading engineer - I like to fly (and jump from) small aircraft, build rockets with kitchen chemicals, visit vulnerable endpoints, and play poker - Born in New Zealand, raised in Scottish Highlands.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/johnmccambr",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/d068cf589b32c00f9e6b858284fcb48465e279f2.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 91284,
+      "title": "Solar: An infinite canvas for vibe-coding production apps",
+      "tagline": "We build the most complicated full-stack apps, faster than anywhere else.",
+      "body": "## TL;DR\n\nSolar lets small teams collaborate with AI agents to build and deploy production apps in minutes. Like Figma, but no mockups—just real software with live data and backend Python functionality. Built by our full-stack AI agent, powered by your imagination.\n\nhttps://youtu.be/Gl03z0M8BWk\n\n## Why this, and why us?\n\nHi everyone! We’re Vivek, Dan, John, and Ziray: the team behind [Lumenary](http://www.lumenary.com). We met each other during our first few weeks at Dartmouth and have been best friends ever since. We’ve lived together, worked together, traveled the world together, and have even summited some notable peaks together (don’t ask about Mount Shasta).\n\nOur team brings together engineering from Palantir, Jane Street, IMC Trading, and Flatiron Health. We’ve built enterprise-grade AI products, a capital allocation system that controls billions, a data engine that processes petabytes–we _all_ build and deploy software _quickly_ in contexts _where it cannot fail_.\n\nSolar began as an internal tool that we used to ship enterprise demos faster than any tool on the market. We decided to productize and focus on Solar completely.\n\n![uploaded image](/media/?type=post&id=91284&key=user_uploads/1944134/0e7139b1-e4ab-4818-b5c5-040e6c1e6d37)\n\n## The Problem\n\nWe’re a team of four engineers who’ve used nearly every AI-powered app builder. Projects started off great, but we found ourselves in an endless loop of “revert, and try again.” Most of our time was spent waiting and hoping as the LLM made changes one-at-a-time.\n\nEven when the app seemed to work, it was unclear what were real features versus frontend demoware. We lacked an understanding of the architecture, dataflow, and what vulnerabilities were left open. It felt like these platforms had prioritized making neat frontends and bolted on real functionality as an afterthought.\n\n![uploaded image](/media/?type=post&id=91284&key=user_uploads/1944134/f231fdfb-a63c-4006-a269-db8dd2df2376)\n\n## What we do\n\nWe loved three things:\n\n* Figma’s flexibility — work on many designs with many people\n* Cursor’s power — write production code with LLMs\n* Retool’s safety — ship apps that you know work\n\nWe combined those to make Solar.\n\nSolar’s AI agents collaborate alongside you on a multiplayer canvas. You can see the relationships and data flow between database tables, backend Python logic, and frontend pages.\n\n![uploaded image](/media/?type=post&id=91284&key=user_uploads/1944134/12b01a63-bcd6-430d-bb33-4b274d542423)\n\nSolar makes apps production-worthy by combining LLM-generated code with deterministic code generation for databases, services, and authentication. This makes your apps maintainable and deployable past the MVP, and able to integrate nicely with existing infrastructure.\n\nWe’re the most agentic platform on the market: Solar will read logs, interact with your application, and work for minutes or even hours unattended to get it perfect.\n\n## Our Ask\n\nSign up at https://solarapp.dev and try building an app.",
+      "url": "https://www.ycombinator.com/launches/NkK-solar-an-infinite-canvas-for-vibe-coding-production-apps",
+      "votes": 27,
+      "created_at": "2025-06-13T15:20:00.950Z"
+    }
+  ]
+}

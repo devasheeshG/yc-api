@@ -1,0 +1,96 @@
+{
+  "id": 31165,
+  "name": "IncidentFox",
+  "slug": "brownie",
+  "former_names": [
+    "Brownie"
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/43fb964e8e0ca12dcc1000b4c4c2d6be7ffc203e.png",
+  "website": "https://incidentfox.ai",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "AI SRE agents that automatically learn each customer’s system so they work just like an in-house engineer.",
+  "one_liner": "AI SRE agent that triages, coordinates, and fixes production incidents",
+  "team_size": 2,
+  "industry": "B2B",
+  "subindustry": "B2B -> Infrastructure",
+  "launched_at": 1771353224,
+  "tags": [
+    "AIOps",
+    "Artificial Intelligence",
+    "Developer Tools"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Winter 2026",
+  "status": "Active",
+  "industries": [
+    "B2B",
+    "Infrastructure"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/brownie",
+  "api": "https://devasheeshg.github.io/yc-api/batches/winter-2026/brownie.json",
+  "year_founded": 2025,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/incidentfox/",
+  "x_url": "https://x.com/incidentfox",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": "https://github.com/incidentfox/incidentfox",
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/43fb964e8e0ca12dcc1000b4c4c2d6be7ffc203e.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [
+    "https://bookface-images.s3.us-west-2.amazonaws.com/attachments/7a65d44099243d6d951e4e99e1e1e11e7a489905.png"
+  ],
+  "primary_partner": {
+    "name": "Diana Hu",
+    "url": "https://www.ycombinator.com/people/diana-hu"
+  },
+  "founders": [
+    {
+      "user_id": 1146198,
+      "full_name": "Jimmy Wei",
+      "title": "Founder/CEO",
+      "founder_bio": " Chiehmin (Jimmy) Wei is a co-founder of IncidentFox. Before IncidentFox, Jimmy was a software engineer at Roblox, where he architected a real-time communication feature reaching 11.7M+ users, and at Facebook AI Research (FAIR), where he built conversational AI infrastructure and set new research baselines with Transformer models. He holds an M.S. from Cornell University and a B.S. in Computer Science from Bucknell University.",
+      "is_active": true,
+      "linkedin_url": "https://linkedin.com/in/chiehmin-wei",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/98daac7c797ee12d1d4782adddd38231d21056a0.jpg"
+    },
+    {
+      "user_id": 2091321,
+      "full_name": "Long Yi",
+      "title": "Founder/CTO",
+      "founder_bio": "Long Yi is the co-founder of IncidentFox, an AI-powered SRE platform for automated incident investigation and infrastructure management.\nPreviously, he built large-scale distributed systems at Roblox, managing database and search infrastructure handling over 1.5 million queries per second. \nHe holds a B.S. from Brandeis University, where he conducted research in audiovisual signal processing and neural modeling.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/long-yi-b221b2183/",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/0e2b5e314557a818ba205643be47cf15fc6f9dc8.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 97928,
+      "title": "IncidentFox. The AI SRE who never drops context.",
+      "tagline": "Auto-learns your stack, builds its own integrations, and gets smarter after every incident.",
+      "body": "Hey everyone 👋\n\nWe're [Long](https://www.linkedin.com/in/long-yi-b221b2183/) and [Jimmy](https://www.linkedin.com/in/chiehmin-wei/) — co-founders of IncidentFox.\n\n**TL;DR**\n\nAI SRE tools fail without deep context about _your_ systems — and that context lives in integrations nobody has time to build. IncidentFox auto-discovers what each team needs, generates the integrations, and ships with 300+ tools built in. Setup takes less than a day, not months.\n\n👉 Try it: <https://incidentfox.ai>\n\n👉 Open source (Apache 2.0): <https://github.com/incidentfox/incidentfox>\n\n👉 Launch video: <https://youtu.be/TaTpN0JwNYE>\n\n**❌ The Problem: Without the right integrations, your AI has no context**\n\nEvery AI SRE tool connects to Slack, reads your Confluence, queries your Datadog. That part is solved.\n\nHere's what isn't: when the AI actually needs to debug something, it doesn't have the right tools.\n\nYour payments team runs a custom Kafka pipeline with internal dashboards. Your infra team uses a homegrown deployment system. Your ML team has proprietary model serving. Each team's stack is different — and the AI has no way to query any of it.\n\nThe traditional fix? Hand-build integrations (MCP servers) for every team.\n\nBut this creates a new problem:\n\n* Who decides what integrations each team needs? You might know your own team's stack — but when you're debugging another team's service at 3 AM, you don't know theirs.\n* So every team needs to sacrifice an engineer to build and maintain their own integrations. That's expensive, slow, and doesn't scale.\n* Most teams never get around to it. The AI stays half-useful.\n\n**Integration is the bottleneck.** Not the AI model. Not the monitoring data. The integrations.\n\n**🦊 IncidentFox: We auto-build the integrations for you**\n\nIncidentFox is an AI SRE that lives where your team already works — Slack, Microsoft Teams, or Google Chat. It doesn't just connect to your existing tools — it figures out what tools each team needs and builds them automatically.\n\n![uploaded image](/media/?type=post&id=97928&key=user_uploads/1146198/102ebfb0-a3c9-45c5-b993-89e39b94e13b)\n\n**1. Auto-discovers and generates integrations**\n\nIncidentFox analyzes your codebase, infrastructure, and incident history to identify gaps — then auto-generates the tools to fill them. No engineer needs to hand-build MCP servers. No team needs to sacrifice headcount on integration work.\n\nA new team onboards? IncidentFox studies their stack and proposes tools specific to their services — with human approval before anything goes live.\n\n**2. Per-team configuration — because every team is different**\n\nYour payments team and your ML team don't use the same stack. Why would they use the same AI SRE config?\n\nEach team gets their own:\n\n* Tools — enable only what's relevant; disable what isn't\n* Prompts — fully open source and exposed to engineers. Inject your domain knowledge directly\n* Knowledge base — learned from that team's incidents, runbooks, and services\n\nOne team's \"config drift\" is another team's \"model drift.\" IncidentFox understands the difference.\n\n**3. Continuously evaluates and self-improves**\n\nAfter every incident, IncidentFox:\n\n* Detects gaps — \"I couldn't query service X's health endpoint\"\n* Auto-generates the missing tool\n* Evaluates its own investigation quality against the actual resolution\n* Updates prompts and knowledge — with human review\n\nIt gets measurably better every week. Not because you tuned it — because it tuned itself.\n\n**4. 300+ integrations included on day one**\n\nWhile it auto-builds what's missing, you're not starting from zero. Kubernetes, AWS, Grafana, Prometheus, Datadog, Elasticsearch, PagerDuty, GitHub — all built in. Integration time is under a day, not months.\n\n**🧠 Why this matters**\n\n**Integrations** — Traditional: Hand-built per team. Each team sacrifices an engineer. IncidentFox: Auto-discovered and auto-generated. Human approves.\n\n**Multi-team scaling** — Traditional: Breaks — you can't know every team's stack. IncidentFox: Per-team config. Each team's AI knows their stack.\n\n**Domain knowledge** — Traditional: Black box prompts, hope it works. IncidentFox: Open source prompts. Engineers inject and edit freely.\n\n**Over time** — Traditional: Stagnates unless manually updated. IncidentFox: Self-evaluates, finds gaps, improves continuously.\n\n**Setup** — Traditional: Months of custom integration work. IncidentFox: &lt; 1 day. 300+ tools out of the box.\n\n**📊 Results**\n\n* 85–95% reduction in alert noise through intelligent correlation\n* Hours → minutes for incident investigation\n* Zero-config onboarding — Docker in 5 min, production K8s in 30 min\n\n![uploaded image](/media/?type=post&id=97928&key=user_uploads/1146198/844d70ec-e308-472c-9bc4-f212cd954153)\n\n**🔒 Enterprise-ready, open-source**\n\n* Open source — Apache 2.0, no vendor lock-in\n* SOC 2 compliant, SSO/OIDC, RBAC, audit logs\n* Self-hosted, on-prem, or managed SaaS\n* Bring your own LLM keys (OpenAI, Claude, Gemini, etc.)\n\n**👬 The Team**\n\n[**Jimmy (CEO)**](https://www.linkedin.com/in/chiehmin-wei/) — Previously at Roblox, where he built social communication features (in-experience calling for 100M+ DAU). Before that, worked at Meta FAIR on multiparty conversational AI, with published research. Cornell CS. Serial founder — previously CTO at a startup in Outlier Ventures' DeFi accelerator.\n\n[**Long (CTO)** ](https://www.linkedin.com/in/long-yi-b221b2183/)— Previously at Roblox, where he built database infrastructure supporting 100M+ daily active users on the Stateful Infra team. Experienced the chaos of on-call firsthand — which is why we're building this. Brandeis CS + Neuroscience + Business.\n\nWe've lived on both sides: Jimmy built the AI systems, Long was the SRE drowning in incidents. IncidentFox is what happens when you combine both.\n\n![uploaded image](/media/?type=post&id=97928&key=user_uploads/1146198/261f0711-50aa-4a0f-b6c9-9cdc7c853dbc)\n\n\n**🙏 Our Asks**\n\n* Try IncidentFox — self-serve at [incidentfox.ai](https://incidentfox.ai) or star us on [GitHub](https://github.com/incidentfox/incidentfox)\n* Intros to engineering teams spending too much time on on-call\n  * [Book a demo with us](https://calendly.com/d/cxd2-4hb-qgp/30-minute-demo-call-w-incidentfox)\n* Feedback from SREs and infra engineers — [founders@incidentfox.ai](mailto:founders@incidentfox.ai)\n\nThanks for reading ❤️",
+      "url": "https://www.ycombinator.com/launches/PTU-incidentfox-the-ai-sre-who-never-drops-context",
+      "votes": 5,
+      "created_at": "2026-02-18T01:06:25.804Z"
+    }
+  ]
+}

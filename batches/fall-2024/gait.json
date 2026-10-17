@@ -1,0 +1,99 @@
+{
+  "id": 30028,
+  "name": "Gait",
+  "slug": "gait",
+  "former_names": [],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/7dd4a0ac111eef37a235327e872f43f243700db2.png",
+  "website": "https://getgait.com",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "Ever been confused by a block of AI-generated code? Gait is a Cursor and VS Code extension that will let you view the prompt that generated code. Continue off of your coworker's conversations, view analytics on your AI codegen use, and more!",
+  "one_liner": "Building Dev Infra for AI Software Engineers",
+  "team_size": 2,
+  "industry": "B2B",
+  "subindustry": "B2B",
+  "launched_at": 1728969633,
+  "tags": [
+    "Developer Tools",
+    "AI"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Fall 2024",
+  "status": "Inactive",
+  "industries": [
+    "B2B"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": [
+    {
+      "question": "How did your company get started? (i.e., How did the founders meet? How did you come up with the idea? How did you decide to be a founder?)",
+      "answer": "We met over the summer while interning together at Jane Street! "
+    },
+    {
+      "question": "What is your long-term vision? If you truly succeed, what will be different about the world?",
+      "answer": "In a future with gait, AI-coding will be a multiplayer experience"
+    }
+  ],
+  "url": "https://www.ycombinator.com/companies/gait",
+  "api": "https://devasheeshg.github.io/yc-api/batches/fall-2024/gait.json",
+  "year_founded": 2024,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/gaitinc/",
+  "x_url": "https://twitter.com/getgait",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": "https://github.com/gait-ai",
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/7dd4a0ac111eef37a235327e872f43f243700db2.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Pete Koomen",
+    "url": "https://www.ycombinator.com/people/pete-koomen"
+  },
+  "founders": [
+    {
+      "user_id": 2250609,
+      "full_name": "Alex Hsia",
+      "title": "Founder",
+      "founder_bio": "Former Dev at Jane Street, Mercury, and CMU CS. Building better devtools to connect developers and AI codegen ",
+      "is_active": false,
+      "linkedin_url": "https://www.linkedin.com/in/ahsia/",
+      "x_url": "https://twitter.com/AlexYHsia",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/d804a117dac0c081e88a5ca5692a7727bc00f06c.jpg"
+    },
+    {
+      "user_id": 887567,
+      "full_name": "Kyle Li",
+      "title": "Founder",
+      "founder_bio": "Former dev at Jane Street, Stripe, and Columbia CS. Building better tools to connect developers and AI codegen.",
+      "is_active": false,
+      "linkedin_url": "https://www.linkedin.com/in/kyleli626/",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/654aef32533998157d4b99b87b1ab59bfea22f1e.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 84753,
+      "title": "gait - The open-source collaboration layer for AI coding assistants",
+      "tagline": "Share AI codegen chats, continue off of coworker's conversations, and view analytics on AI codegen use.",
+      "body": "# **TL;DR**\n\nGait is the open-source collaboration layer for AI codegen. With gait, developers can view the prompts that generated a piece of code, continue off of coworker's conversations, and view analytics on AI codegen use. Watch our demo [here](https://youtu.be/GcQMSbYBS28) (1:35)\n\n# **The Problems**\n\nAI codegen tools are built for individuals, not teams, and code is read more than it is written. Increasingly, understanding and editing become the limiting factors in a team’s velocity, not generation.\n\n🧐 AI-generated code is hard to understand\n\n* We use Cursor to ship quickly, but AI diffs are often destructive, large, and opaque. **Prompts serve as automatic documentation.**\n\n📈 It’s hard to understand AI’s impact on your codebase\n\n* gait is the first layer of observability, giving oversight into your and your team’s use of AI and its impact on productivity.\n\n# **Our Solution**\n\n**Code annotations** - Have you ever been confused by a block of AI-generated code? Hover over any piece of AI-generated code to see the prompts that created it. It’s like a better git blame. Coming soon: Github integration.\n\n![uploaded image](/media/?type=post&id=84753&key=user_uploads/2250609/9c4f6b1e-7e49-46bb-9d80-f1adcd4e2101)\n\n**Analytics on your AI Codegen -** Use gait to analyse and understand your AI codegen usage. Find out your stats here: <https://getgait.com/getting-started>\n\n![uploaded image](/media/?type=post&id=84753&key=user_uploads/2250609/3ef7f787-3fc8-4d90-b605-057da669ed7e)\n\n**Manage chats like diffs** - choose which chats you’d like to include with git-like semantics. Stage and unstage chats, and view the chats associated with a commit or a PR. \n\n![uploaded image](/media/?type=post&id=84753&key=user_uploads/2250609/05602727-387c-4be5-b162-e336ebdec8fb)\n\n# **Our vision**\n\nAI coding assistants are single-player right now and focus only on generating new code. **AI coding tools produce flashy demos and v0s but are not as helpful for coding in production**. We want to improve collaboration and the entire software lifecycle: not just generating code but also reviewing and editing it. \n\nWe also want to redefine the code repository - what would your repo look like if it were designed for AI? We think this means incorporating all the context AI needs to make edits. This includes your prompts right now, but imagine your SWE agent making edits with automatic access to design docs, Jira tickets, and API specs. \n\n# **The Team**\n\nHi everyone! We’re [Alex](https://www.linkedin.com/in/ahsia/) and [Kyle](https://www.linkedin.com/in/kyleli626/), the cofounders of gait.\n\nWe’re CMU and Columbia dropouts who met this summer while working at Jane Street. We’ve also worked at Stripe (Kyle) and Mercury (Alex). \n\nKyle’s looking for a squash partner, and you can find Alex at the 3rd Street Boxing Gym.  \n\n![uploaded image](/media/?type=post&id=84753&key=user_uploads/2250609/9d203bd8-4685-431f-af13-31a9c6adec53)\n\n# **Our ask**\n\n**Try us out!** \n\nSearch “gait” in the extension marketplace. Click install.\n\nStart coding, and gait will capture your chats automatically!\n\n**Keep in touch!** \n\nIf you’re building a coding assistant or AI agent, we’d love to integrate with you. Please reach out! \n\nIf you manage a team of engineers and think this could be helpful, let’s talk! If you have any questions or feedback or want to just talk shop, we’d love to hear from you.\n\nFor more information: [getgait.com](https://getgait.com)\n\nEmail us at [founders@getgait.com](mailto:founders@getgait.com). \n\nJoin our discord: <https://discord.gg/yKvt3mWyM4>\n\nContribute to gait: <https://github.com/gait-ai/gait>",
+      "url": "https://www.ycombinator.com/launches/M2z-gait-the-open-source-collaboration-layer-for-ai-coding-assistants",
+      "votes": 17,
+      "created_at": "2024-10-15T07:42:04.586Z"
+    }
+  ]
+}

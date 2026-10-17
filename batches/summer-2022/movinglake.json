@@ -1,0 +1,107 @@
+{
+  "id": 27177,
+  "name": "MovingLake",
+  "slug": "movinglake",
+  "former_names": [
+    "Moving Lake"
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/ca7dff480b4b49f376fc3b90d1adc3c17872277f.png",
+  "website": "https://movinglake.com",
+  "all_locations": "Mexico City, CDMX, Mexico; Remote",
+  "long_description": "MovingLake is Fivetran for event-driven architectures. Companies such as Casai use our product to obtain orders and price changes in real time.",
+  "one_liner": "Realtime Data Connectors",
+  "team_size": 3,
+  "industry": "B2B",
+  "subindustry": "B2B -> Engineering, Product and Design",
+  "launched_at": 1657821965,
+  "tags": [
+    "SaaS",
+    "B2B",
+    "Analytics",
+    "API",
+    "Data Engineering"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Summer 2022",
+  "status": "Active",
+  "industries": [
+    "B2B",
+    "Engineering, Product and Design"
+  ],
+  "regions": [
+    "Mexico",
+    "Latin America",
+    "Remote",
+    "Fully Remote"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/movinglake",
+  "api": "https://devasheeshg.github.io/yc-api/batches/summer-2022/movinglake.json",
+  "year_founded": 2022,
+  "city": "Mexico City",
+  "country": "MX",
+  "linkedin_url": "https://www.linkedin.com/company/movinglake",
+  "x_url": "https://twitter.com/MovingLake",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/ca7dff480b4b49f376fc3b90d1adc3c17872277f.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Nicolas Dessaigne",
+    "url": "https://www.ycombinator.com/people/nicolas-dessaigne"
+  },
+  "founders": [
+    {
+      "user_id": 200174,
+      "full_name": "Andres Paez",
+      "title": "Founder",
+      "founder_bio": "Worked as a Software Engineer and Product Manager at Amazon Prime, Google Search and Google Cloud Platform for about 7 years. Have worked as the CTO of Casai and Valoreo for the last 3 years starting technology teams from scratch leading software engineers, hardware engineers, software managers, data engineers, data scientists, IT professionals, DevOps engineers, product managers and product designers.\n\n",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/andrespaezmartinez/",
+      "x_url": "https://twitter.com/APaezMx",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/224e0603789e0166a5ffd26612b9fe00f2bf79fb.jpg"
+    },
+    {
+      "user_id": 1104191,
+      "full_name": "Edgar Cabrera",
+      "title": "Founder",
+      "founder_bio": "About ten years of Sofware Engineer Experience at startups of several stages. I have worked in developing products from scratch until they become scalable, robust systems. I love the feeling of my work bringing value to others.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/edgarcabrera-dev/",
+      "x_url": "https://twitter.com/aleandros",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/c2dc5600f1710409129ac66012541518e8ca9acd.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 71150,
+      "title": "MovingLake - Vertical-first, realtime, AI-enabled data platform",
+      "tagline": "LLM-enabled data connectors, transformations and visualizations for e-commerce, hospitality and more",
+      "body": "Hi!\\\n**We are now launching our LLM-enabled BI tool which allows all of our clients to query their databases by using prompts in plain english.**\n\n![uploaded image](/media/?type=post&id=71150&key=user_uploads/200174/8c06ceeb-4d8f-48ac-a152-3535bfb76eb6)\n\nHappy to announce that MovingLake user’s can not only get their data centralized in their data warehouse, but we are now enabling an end-to-end business intelligence experience where in a matter of minutes you can get the data flowing AND get the dashboards going.\n\nThis is important because not all of our clients are friendly with SQL or with BI tools. Letting them access their data in a secure way and using plain english questions is a game changer for them.\n\n**Ask**\n\nWe are looking to integrate to other data connector tools and companies as well as other data products to be able to give the most value faster to our clients. Please reach out if this would be interesting to your company.\\\n\\\nWe are available at [andres@movinglake.com](mailto:andres@movinglake.com) and [edgar@movinglake.com](mailto:edgar@movinglake.com) ",
+      "url": "https://www.ycombinator.com/launches/IVa-movinglake-vertical-first-realtime-ai-enabled-data-platform",
+      "votes": 17,
+      "created_at": "2023-04-24T19:26:45.556Z"
+    },
+    {
+      "id": 64655,
+      "title": "MovingLake: Realtime, event-driven data connectors",
+      "tagline": "Proprietary data connectors which feed both data and transactional systems",
+      "body": "Hey YC!\n\n[Edgar Cabrera](https://www.linkedin.com/in/edgarcabrera-dev/) and [I](https://www.linkedin.com/in/andrespaezmartinez/) are excited to launch [Moving Lake](https://movinglake.com/) today.\n\n**TLDR: MovingLake aims to do ETLs for event-driven architectures. Power your data warehouse as well as your microservices using the same API connectors.**\n\n### ⚠️ **What’s the Problem?**\n\nAfter talking to dozens of data engineers as well as technology stakeholders, and from our past experience, we uncovered a set of intertwined problems with current data connectors:\n\n1. A data connector does not provide data to transactional systems. This can lead to duplication of integration work plus lack of reliability between different sources of data. For machine learning this can be real trouble\n2. API integrations done in house are flaky and require a lot of investment in development and maintenance\n3. Event-driven architectures are reimplementing over and over again the same pieces of infrastructure such as schedulers, pollers and webhook receivers\n4. Batch extractors can skip states and so end up with missing data. For example if I have a booking business and a reservation gets cancelled 10 minutes after created, the batch pipeline will only see the cancelled state but not the created state.\n5. Running automations and other workflows is impossible with batch data connectors.\n\n### 👍 **What’s the solution?**\n\n**Realtime, event-driven, deduplicated, replayable, ELT friendly and SDK ready connectors which feed both data and transactional systems at the same time.**\\\nWe are rolling out connector for APIs which give you the ability to add any number of destinations including data and backend systems. We provide on top of that transformations for the data side so that you get the data in nicely formatted tables. Plus we also aim to provide easy to use SDKs so that consuming MovingLake’s webhooks is as easy and fast as possible.\\\n\\\n❓ **What’s the ask?**\n\nDo you have recurring issues with data reliability? Do you end up writing batch scripts to recover lost data from webhooks? Do you struggle with running your machine learning models from batch pipeline’s data? Reach out to [founders@movinglake.com](mailto:founders@movinglake.com) or contact us through our [website](https://movinglake.com/contact-us).\\\n\\\nThanks!",
+      "url": "https://www.ycombinator.com/launches/Gop-movinglake-realtime-event-driven-data-connectors",
+      "votes": 166,
+      "created_at": "2022-07-15T16:27:46.974Z"
+    }
+  ]
+}

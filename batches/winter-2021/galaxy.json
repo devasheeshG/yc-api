@@ -1,0 +1,91 @@
+{
+  "id": 23305,
+  "name": "Galaxy",
+  "slug": "galaxy",
+  "former_names": [
+    "Lucky Card",
+    "Galaxy",
+    "Lucky Card",
+    "Blade",
+    "Galaxy",
+    "Blade",
+    "GalaxySDK",
+    "Galaxy",
+    "Swizzle"
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/0da58d4ab6362afcfb9c0b023f7f423544c6a7e7.png",
+  "website": "https://launchpointhq.com",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "",
+  "one_liner": "",
+  "team_size": 2,
+  "industry": "B2B",
+  "subindustry": "B2B -> Infrastructure",
+  "launched_at": 1617697652,
+  "tags": [
+    "Developer Tools",
+    "Gaming"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Winter 2021",
+  "status": "Inactive",
+  "industries": [
+    "B2B",
+    "Infrastructure"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/galaxy",
+  "api": "https://devasheeshg.github.io/yc-api/batches/winter-2021/galaxy.json",
+  "year_founded": 2020,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "",
+  "x_url": "",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/0da58d4ab6362afcfb9c0b023f7f423544c6a7e7.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Harj Taggar",
+    "url": "https://www.ycombinator.com/people/harj-taggar"
+  },
+  "founders": [
+    {
+      "user_id": 263116,
+      "full_name": "Adam Neuwirth",
+      "title": "Founder",
+      "founder_bio": "Co-founder at https://launchpointhq.com",
+      "is_active": false,
+      "linkedin_url": "https://www.linkedin.com/in/adambn/",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/4c0864f90d5b0d9c2400139ff59dbd81083ea44b.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 70127,
+      "title": "Galaxy 🕹️ - Social multiplayer for games",
+      "tagline": "Add clans & community to any game in under an hour.",
+      "body": "**The Problem:** Mobile games are fun for a while, but players get bored quickly (especially when it’s singleplayer)\n\n**The Solution:** Competing with friends makes games way more interesting\n\n![uploaded image](/media/?type=post&id=70127&key=user_uploads/263116/31b26d16-89c8-4088-80a4-8d47611a6919)\n\nGalaxy is a free SDK that adds **community** to any single or multiplayer game (in less than an hour). \n\n* _Clans_: Players can create, join, and recruit teams. They compete against other teams and can chat with the group.\n* _Real Friends_: Players can sync their contacts and easily see/interact with their friends on leaderboards.\n* _Avatars_: Demonstrating the authenticity of opponents amplifies the feeling of winning. It also provides an optional revenue stream to games who want to sell cosmetics.\n* _Powerful Leaderboards:_ Configure & manage leaderboards from a dashboard. Set up automatic prizes, repeating tournaments, ban users, customize UI, and more.\n\nPlayers love it. Session length increases by \\~1m55s and D7 retention rises by as much as 37%. Additionally, teams encourage players to invite their friends who don’t already play the game - leading to free user growth as well. Here’s a graph from one of our customers after they added Clan leaderboards:  \n\n![uploaded image](/media/?type=post&id=70127&key=user_uploads/263116/a21e9395-7c8f-4bdd-b6bf-48c1949b33a9)\n\nBut what about implementation? We’ve worked hard to make it as simple as possible to implement. Here’s the steps:\n\n1. Call ReportScore()\n2. Call ShowLeaderboard()\n\nThat’s it! The UI is customizable, localized and works on mobile or web.\n\nWe’re already working with 115 games and serving over 250,000 end users. You can [sign up](https://galaxysdk.com) for free or [book a call](https://calendly.com/adambn/galaxy-sdk) if you’re interested.",
+      "url": "https://www.ycombinator.com/launches/IF5-galaxy-social-multiplayer-for-games",
+      "votes": 49,
+      "created_at": "2023-03-10T02:32:14.148Z"
+    }
+  ]
+}

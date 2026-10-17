@@ -1,0 +1,102 @@
+{
+  "id": 30325,
+  "name": "Roark",
+  "slug": "roark",
+  "former_names": [
+    "Roark AI"
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/6f767546eea69824b40dd475b83ae01dafa05b12.png",
+  "website": "https://roark.ai",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "Roark helps teams test, monitor, and improve their voice agents.\r\n\r\nVoice AI is exploding, but reliability is still the #1 challenge. Teams spend hours manually testing agents and still miss failures. In the last 6 months, Roark has processed over 10M minutes of calls, powering monitoring and simulation for teams across the Voice AI ecosystem (including YC companies).\r\n\r\nWe close that gap by combining:\r\n\r\n 📊 Monitoring & Evaluation - 40+ built-in metrics (latency, instruction-follow, sentiment, etc.), custom dashboards, alerts, and the ability to define your own. Up to 15 speakers with automatic speaker identification.\r\n 🎭 Simulations & Personas - end-to-end phone/WebSocket simulations for inbound and outbound agents, with configurable personas (accents, languages, speech & behavior profiles). Define tests as conversations with a graph-based approach, so you can easily branch into edge cases and variants.\r\n 🔁 Full lifecycle loop - failed calls automatically become repeatable tests, so every failure makes your agent stronger.\r\n\r\nRoark is the missing QA layer for Voice AI - helping teams ship agents they can trust.",
+  "one_liner": "Test, monitor, and improve your voice agents",
+  "team_size": 3,
+  "industry": "B2B",
+  "subindustry": "B2B -> Analytics",
+  "launched_at": 1737797905,
+  "tags": [
+    "Analytics",
+    "AI",
+    "Conversational AI"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Winter 2025",
+  "status": "Active",
+  "industries": [
+    "B2B",
+    "Analytics"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/roark",
+  "api": "https://devasheeshg.github.io/yc-api/batches/winter-2025/roark.json",
+  "year_founded": 2025,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/106073945",
+  "x_url": "https://x.com/roarkanalytics",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": "https://github.com/roarkhq",
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/6f767546eea69824b40dd475b83ae01dafa05b12.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [
+    "https://bookface-images.s3.us-west-2.amazonaws.com/attachments/7d8432d508c98941a2f2c053c1a579106909c1a3.png"
+  ],
+  "primary_partner": {
+    "name": "Gustaf Alstromer",
+    "url": "https://www.ycombinator.com/people/gustaf-alstromer"
+  },
+  "founders": [
+    {
+      "user_id": 91038,
+      "full_name": "James Zammit",
+      "title": "Founder/CEO",
+      "founder_bio": "James Zammit (CEO) is an infrastructure and AI engineer with 10+ years of experience. Previously a Senior Engineer at AngelList, he built core portfolio infrastructure as the company grew from $10B to $124B in assets under management, and led the development of Relay, an AI-powered portfolio manager processing thousands of financial documents each month. He also co-founded a startup showcased at Google I/O 2016 in partnership with Firebase, and received scholarships from Meta and Apple.\n",
+      "is_active": true,
+      "linkedin_url": "https://linkedin.com/in/zammitjames",
+      "x_url": "https://x.com/zammitjames",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/7c1041ab46bdf1f351b525d1b02e5c949bb10518.jpg"
+    },
+    {
+      "user_id": 320609,
+      "full_name": "Daniel Gauci",
+      "title": "Founder/CTO",
+      "founder_bio": "Daniel Gauci (CTO) is a software engineer with 10+ years of experience. Previously a Senior Engineer at Akiflow (YC S20), he helped scale the company to $1.5M ARR and over 10,000 customers. Daniel spent seven years at Casumo, leading the development of a mobile app used by millions of players, significantly contributing to the company’s growth to over $50M ARR.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/gaucidaniel/",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/045f1f81ef3751897dcbae72acf3a1197e3b9d3d.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [
+    {
+      "title": " Roark: Test, monitor, and improve your voice agents | Product Hunt",
+      "url": "https://www.producthunt.com/products/roark-yc-w25?launch=roark",
+      "date": "Aug 26, 2025"
+    }
+  ],
+  "launches": [
+    {
+      "id": 87658,
+      "title": "Roark - The Observability & Testing Platform for Voice AI",
+      "tagline": "Replay real production calls against your latest agent changes, catch failures, and track sentiment.",
+      "body": "## **TL;DR**\n\nRoark is an observability and testing platform for Voice AI that shows you whether your agent meets its goals, tracks how customers feel, and lets you replay real calls on your latest changes.\n\nIf you’re building voice AI agents and want a faster, smarter way to test and improve them, we’d love to connect! Email [james@roark.ai](mailto:james@roark.ai) or [book a time here](https://calendly.com/james-roark/book-a-demo).\n\n![uploaded image](/media/?type=post&id=87658&key=user_uploads/91038/0caf0c5a-2421-4fcf-8b6a-2867de8d581f)\n\n_(Replay real calls without picking up the phone.)_\n\n## **The Problem: Testing Voice AI Is Painfully Manual**\n\nOnce a voice agent is live, teams have no easy way to test updates. Every time you tweak a prompt or logic, you have to manually call the bot, hoping to catch issues before customers do.\n\n* Does the agent follow the right flow? You don’t know unless you re-run conversations by hand.\n* Did a change break something? You won’t find out until users complain.\n* How do customers actually experience the bot? Traditional testing tools only analyze text transcripts, missing tone, hesitation, or frustration.\n\nVoice AI teams, especially in healthcare, legal, and customer support need real-world validation for every change they ship. But existing testing tools rely on scripted test cases that don’t reflect real interactions, leading to blind spots and regressions.\n\n## **The Solution**\n\nRoark lets you replay real production calls against your newest AI logic, so you can test changes before they go live. No more manually dialing your bot or relying on outdated scripted tests - get real-world validation instantly.\n\nHow It Works:\n\n1. Capture real-world calls: Automatically ingest production conversations from your existing voice AI setup (integrates seamlessly with VAPI, Retell, or custom APIs).\n2. Replay calls on your updated agent: Our system re-runs the same user inputs, sentiment, and tone against your latest agent, cloning the original caller’s voice for more realistic testing.\n3. Evaluate goal completion: Define key objectives (e.g., “Did the agent confirm insurance?”) and automatically flag failures or missteps.\n4. Monitor sentiment & vocal cues: Detect frustration, long pauses, sighs, and hesitation - signals that text-based evaluations miss.\n5. Track performance with reports & dashboards: Visualize conversation flows, track drop-offs, and measure key metrics with Mixpanel-style analytics.\n6. Get real-time alerts: Set up custom monitoring for compliance violations, negative sentiment spikes, or repeated failures.\n\nRoark gives AI teams the same confidence in testing, iteration, and monitoring that software engineers had for years with modern dev tools.\n\nCheck out our demo below!\n\n<https://youtu.be/eu8mo28LsTc?feature=shared>\n\n## **Why We Built Roark**\n\nWe first ran into this problem while building a voice agent for a dental clinic. Patients kept reporting issues, getting stuck in loops, failing to confirm insurance, or receiving irrelevant responses. But the only way to test fixes was to call the bot ourselves or read through hundreds of transcripts, hoping to spot patterns. It was frustrating, slow, and unreliable.\n\nAfter talking to other teams working on Voice AI, we realized this problem was universal - everyone was struggling to validate their AI’s performance efficiently. That’s when we decided to build Roark.\n\n## **Team**\n\nWe’re engineers who have built and scaled complex systems at high-growth companies:\n\nJames Zammit (CEO) – Infra and AI engineer with 10+ years of experience. Previously at AngelList, where he worked on core infrastructure as the company scaled from $10B to $124B in assets under management and led the development of Relay, an AI-powered portfolio manager. Co-founded three startups, one of which partnered with Firebase and was showcased at Google I/O 2016.\n\nDaniel Gauci (CTO) – Software engineer with 10+ years of experience. Previously at Akiflow (YC S20) as part of the mobile development team, helping the company reach $1.5M ARR and 10,000+ customers. Spent 7 years at Casumo, leading the development of the mobile app used by millions of players helping the company reach $50M+ ARR.\n\n## **Try it out!**\n\nIf your team is tired of manually testing voice AI updates and wants a faster, more reliable way to validate changes, email us at [founders@roark.ai](mailto:founders@roark.ai) or [book a demo here](https://calendly.com/james-roark/book-a-demo) - we’d love for you to try out Roark.\n\n![uploaded image](/media/?type=post&id=87658&key=user_uploads/91038/b44daa71-7f56-4c40-9c89-8dd4edf07bd3)\n\n",
+      "url": "https://www.ycombinator.com/launches/Mnq-roark-the-observability-testing-platform-for-voice-ai",
+      "votes": 39,
+      "created_at": "2025-02-13T19:09:59.210Z"
+    }
+  ]
+}

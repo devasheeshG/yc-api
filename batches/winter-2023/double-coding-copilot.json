@@ -1,0 +1,95 @@
+{
+  "id": 27763,
+  "name": "Double – Coding Copilot",
+  "slug": "double-coding-copilot",
+  "former_names": [
+    "Double"
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/50e5a1022a2437ff5f516fa3afe9ed74fb7be3f4.png",
+  "website": "https://double.bot",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "Do you run into these problems with Github Copilot?\r\n- Bad completions that break your train of thought when you’re writing comments?\r\n- Doesn’t close brackets, or adds too many closing brackets?\r\n- Functions, variables, and libraries not being auto-imported after accepting a suggestion?\r\n- Multi-cursor mode not working?\r\n- Wish copilot could name your variables?\r\n- Wish copilot could trigger in the middle of a line?\r\n- Want to stop wasting time with GPT3.5 chat and default to GPT4?\r\n\r\nDouble is an high quality alternative to Copilot inside VS Code, engineered for performance. It’s designed with great craftsmanship by people who care a lot about getting the small details right.",
+  "one_liner": "AI coding copilot engineered for performance",
+  "team_size": 2,
+  "industry": "B2B",
+  "subindustry": "B2B -> Engineering, Product and Design",
+  "launched_at": 1679084003,
+  "tags": [
+    "Artificial Intelligence",
+    "Developer Tools",
+    "SaaS",
+    "Chatbot",
+    "Enterprise"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Winter 2023",
+  "status": "Active",
+  "industries": [
+    "B2B",
+    "Engineering, Product and Design"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/double-coding-copilot",
+  "api": "https://devasheeshg.github.io/yc-api/batches/winter-2023/double-coding-copilot.json",
+  "year_founded": 2022,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/double-ai",
+  "x_url": "https://twitter.com/double_ide",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/50e5a1022a2437ff5f516fa3afe9ed74fb7be3f4.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Jared Friedman",
+    "url": "https://www.ycombinator.com/people/jared-friedman"
+  },
+  "founders": [
+    {
+      "user_id": 1166534,
+      "full_name": "Wesley Yue",
+      "title": "Founder",
+      "founder_bio": "– Founder at Double\n– Previously co-founder at Ninja (last mile robotics turned into full stack grocery delivery), and a bunch of robotics teams (Waymo, Kodiak, Kitty Hawk)\n – Engineering at Waterloo",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/wesleyyue/",
+      "x_url": "https://twitter.com/WesleyYue",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/f12ff285166d59a73c88cebaaa56572712dec746.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 74210,
+      "title": "Double 🔍 Background research on sales prospects by searching the web with LLMs",
+      "tagline": "Sales teams use Double to do background research on prospects. Instead of googling prospects one by one, Double uses language models to search the web and compile an answer, with citations.",
+      "body": "# **TL;DR**\n\nIf you’re looking to answer questions about your sales prospects using information that’s on the web (news articles, LinkedIn profiles, company websites, financial filings, press releases), Double can look it up for you and use it to answer your questions in bulk.\n\n<https://www.youtube.com/watch?v=NeEMBCSZnYc>\n\n# **Researching and qualifying your sales prospects takes forever**\n\n* The information you need to qualify your leads lives in news articles, job posts, LinkedIn profiles, company websites, OpenCorporate, Crunchbase and other aggregators\n* Most of this can be manually Google’d, but doing so, plus reading it and formatting it the way you want it, takes time\n\n# **Background research your sales prospects by searching the web with LLMs**\n\n* Double searches the web using LLMs to compile verifiable answers. Every answer includes citations to reputable sources\n\n# **Companies use Double to answer hyper-focused qualifying questions**\n\n* Let’s say you’re selling tools for remote work, and you’re targeting remote-first companies.\n* Crunchbase/Linkedin/etc don’t have filters for “Remote-First?”, so you either:\n  * Broadly target companies and hope they do _some_ remote work – leads to poor conversion 🤞\n  * Or, google each company one by one and look at their job openings – tedious 😔\n* Instead, Double can search the web with language models and compile a verifiable answer with **citations**! 🔥\n\n# **Repeat Founders from Waterloo**\n\nBefore Double, we:\n\n* studied engineering at Waterloo\n* worked on autonomous vehicles at Waymo and Tesla, and\n* built Ninja, Canada’s first 10-minute delivery service. Ninja raised $2M and offered deliveries in 2 cities with a team of 80+ couriers before it was acquired in 2022.\n\n# **Let us automate your manual prospecting processes!**\n\n* Got a question you want answered about your prospects, or looking to save time in your prospecting process? Book a product tour with us!\n* Tell us about the most manual, time-consuming part of your sales process",
+      "url": "https://www.ycombinator.com/launches/JIw-double-background-research-on-sales-prospects-by-searching-the-web-with-llms",
+      "votes": 12,
+      "created_at": "2023-08-18T05:51:59.351Z"
+    },
+    {
+      "id": 70385,
+      "title": "Double — Internet-capable GPT bots to automate repetitive work",
+      "tagline": "Double is an assistant that can use Google to do research like: Which of these people are executives that work in finance, according to their linkedin profile?",
+      "body": "# **TL;DR**\n\n# If you have a task that involves _search google_ → _read links_ → _answer question,_ Double can automate it for you.\n\n![uploaded image](/media/?type=post&id=70385&key=user_uploads/1247275/8551fc0f-01d6-44ec-b9db-9ef2a5516e50)\n\n# **What can you do with Double**\n\n* Given a list of chiropractor websites, find how many chiropractors work there. Don’t count admin staff\n* Given a list of business names, find their websites, addresses, and phone numbers\n* Given a list of Etsy stores, find the main category of the products they sell\n* Given a list of websites of recently funded startups, is this a business that does outbound B2B sales? (that would be interested in our b2b sales prospecting product?)\n\n# **Roadmap**\n\n* Our bots are essentially read-only on the web today, but we’re working on abilities to navigate the web and click buttons to do things like login and submit forms (helpful for things that don’t have an API!)\n* Parsing PDFs as an input\n* Calling REST APIs. On top of Google Search, Web Scraping, and GPT, we’ll be adding a plugin to make REST API calls, which will unlock every API and the ability to chain arbitrary code execution by calling your code on [repl.it](http://repl.it)\n\n# **Team**\n\nBefore Double, we :\n\n* Studied engineering at Waterloo\n* Worked on autonomous vehicles at Waymo and Tesla, and\n* Built Ninja, Canada’s first 10-minute delivery service. Ninja raised $2M and offered deliveries in 2 cities with a team of 80+ couriers before it was acquired in 2022\n\n# **Ask:**\n\n* Got a process you want to automate? [Try Double for free today](https://www.usedouble.com/), or reach out to us if you need a hand setting up\n* Share our [Twitter launch thread](https://twitter.com/geepytee/status/1636066726973702149?s=20) and our website on your Twitter, LinkedIn, Tiktok, or other social media! It really helps!",
+      "url": "https://www.ycombinator.com/launches/IJF-double-internet-capable-gpt-bots-to-automate-repetitive-work",
+      "votes": 39,
+      "created_at": "2023-03-17T20:06:09.828Z"
+    }
+  ]
+}

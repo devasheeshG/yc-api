@@ -1,0 +1,98 @@
+{
+  "id": 32624,
+  "name": "Fabraix",
+  "slug": "fabraix",
+  "former_names": [],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/d3d83aa2013bbe6b22b37f316b294d0c717eea35.png",
+  "website": "https://fabraix.com",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "Fabraix builds state-of-the-art AI red-teaming agents that continuously detect security vulnerabilities in customer-facing AI. Our product, Nyx, has already found vulnerabilities in agents at dozens of Fortune 500 companies. On AgentHarm, the leading benchmark for offensive AI security, Nyx achieved a 78% attack success rate, compared with 67% for GPT-5.6 Sol.\r\n\r\nAI agents can change more often than teams can test them. A new model, prompt, tool, permission, or data source can change what an agent does, even when the application code stays the same. And AI is also increasing how much software companies produce and how often it changes. We built Nyx to automate the work required to red-team AI agents. It is multi modal by design and interacts with the target indirectly through controlled replicas of SaaS products and websites that we maintain, placing malicious payloads in webpages, documents, files, messages, and tool outputs to test how an agent behaves under different conditions.\r\n\r\nNyx often finds its first vulnerability within minutes or hours rather than days or weeks. Because the work is fully automated, companies can repeat the test with every change and at a much lower cost than what a 7-figure red-teaming (and point-in-time) engagement would require.\r\n\r\nWe're also the team behind ACE (Adversarial Cost to Exploit), a benchmark that measures AI security in terms of how much it costs attackers to break an AI system; providing a game-theoretic framework to understand how motivated a rational attacker would be in exploiting the system.",
+  "one_liner": "The world's frontier hacker of AI agents.",
+  "team_size": 2,
+  "industry": "B2B",
+  "subindustry": "B2B -> Security",
+  "launched_at": 1783913331,
+  "tags": [
+    "Artificial Intelligence",
+    "Reinforcement Learning",
+    "Cybersecurity"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Summer 2026",
+  "status": "Active",
+  "industries": [
+    "B2B",
+    "Security"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/fabraix",
+  "api": "https://devasheeshg.github.io/yc-api/batches/summer-2026/fabraix.json",
+  "year_founded": 2026,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/fabraix/",
+  "x_url": "https://x.com/FabraixHQ",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/d3d83aa2013bbe6b22b37f316b294d0c717eea35.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Jon Xu",
+    "url": "https://www.ycombinator.com/people/jon-xu"
+  },
+  "founders": [
+    {
+      "user_id": 693526,
+      "full_name": "Ahmed Aly",
+      "title": "Founder/CEO",
+      "founder_bio": "Co-founder @ Fabraix, building a frontier hacker agent that finds failure modes and security exploits in AI systems before real users do. Previously the first data scientist at Sequoia-backed Two, where he built AI systems for adversarial environments from scratch and scaled them to process $1B+ in annual B2B transactions, averting $50M in losses for multiple Fortune 150 companies. A published researcher with multiple papers in Q1 journals and a UCL PhD drop-out.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/ahmed-a-657264b4/",
+      "x_url": "https://x.com/zachdotai",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/72bc6e2cde8727671fbf9c026c0c9a0ffcc80f4f.jpg"
+    },
+    {
+      "user_id": 2769430,
+      "full_name": "Ibrahim Abdu",
+      "title": "Founder/CTO",
+      "founder_bio": "Red-teamed AI agents in Meta's Privacy org; built an SRE agent triaging 3M+ errors/month, saving 10,000+ engineering hours a year. Built a compiler for insider-trading detection at TradingHub: $100M+ in daily trades; Oxford PPE, top 8% of cohort.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/i-a-7352b7137/",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/e3d923fd8bbb4ccfb176340c73f6ebc968516321.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [
+    {
+      "title": "Meet The YC Startups Betting On What Comes Next",
+      "url": "https://www.forbes.com/sites/dariashunina/2026/09/03/meet-the-yc-startups-betting-on-what-comes-next/",
+      "date": "Sep 03, 2026"
+    }
+  ],
+  "launches": [
+    {
+      "id": 106270,
+      "title": "Fabraix: The Frontier Agent that Hacks Customer-facing AI.",
+      "tagline": "Fabraix builds AI red-teaming agents that continuously detect security vulnerabilities in customer-facing AI. We already found vulnerabilities in agents at dozens of Fortune 500 companies.",
+      "body": "**TL;DR**: Fabraix builds AI red-teaming agents that continuously detect security vulnerabilities in customer-facing AI. Our product, Nyx, has already found vulnerabilities in agents at dozens of Fortune 500 companies, and hits a 78% attack success rate on AgentHarm (leading offensive AI security benchmark) vs. 67% for GPT-5.6 Sol.\n\n**Ask**: If your team ships customer-facing AI agents (chat, voice, browser, or coding) and needs to continuously test them for security vulnerabilities, find us at [founders@fabraix.com](mailto:founders@fabraix.com).\n\n<https://www.youtube.com/watch?v=WHmJIMIuAEM>\n\n**The Problem**\n\nAI agents introduce new vulnerabilities not present in traditional software..\n\nIn order for agents to be truly useful, they must be trusted to interact with untrusted surfaces like MCPs, websites and files, take real actions, and have access to confidential data. You can’t tell your defenses are sound by just reading your prompts since the agent's behaviour is not deterministic. The best thing to do is run your agent and really try to break it.  \n\nDoing this red-teaming process manually is time consuming, costly, and you are unlikely to catch everything. And as soon as the agent is updated, you need to repeat it. Security teams simply don’t have the bandwidth to keep up with the rapid deployment inside organisations.\n\n**Our Solution**\n\nNyx is our red-teaming agent that tests customer-facing AI agents, via direct interaction and also indirectly via its environment. It requires no access to your agent’s source code in order to test.\n\nNyx is highly adaptive when attacking. Rather than cycling through hard coded payloads like existing tools, it dynamically adjusts its attack strategies based on your agents defenses and responses. It probes your agent over a wide surface area of attack vectors, and deep dives This adaptive approach makes it 20x more effective as a red-teamer compared to other solutions.\n\nWe maintain a library of over 10,000 attack strategies and jailbreaks. These are high level strategies which are used by Nyx to generate dynamic adaptive attacks, over multiple turns. \n\nEvery finding includes the attack steps, the agent’s responses, and the resulting failure for you to reproduce. You can then rerun the same test after a release to check whether the failure remains fixed. \n\nOn the AgentHarm benchmark, Nyx achieved a 78% attack success rate, compared with 67% for GPT-5.6 Sol. Nyx has also found exploitable failures in public-facing agents operated by dozens of Fortune 500 companies.\n\nWe also built ACE (Adversarial Cost to Exploit), a benchmark that measures AI security in terms of how much it costs attackers to break an AI system; providing a game-theoretic framework to understand how motivated a rational attacker would be in exploiting the system.\n\n**The Team**\n\nWe both have a lot of experience building and securing AI agents at scale.\n\nIbrahim built AI agents at Meta that diagnosed and fixed production errors. Before that, he built compilers and database engines in Fintech. He graduated from Oxford in the top 8% of his cohort.\n\nAhmed led international payments fraud team at Monzo. Before that, he was the first data scientist at a Sequoia-backed startup, where he built its fraud engine from scratch into processing more than $1B in annual B2B transactions and preventing tens of millions in losses for Fortune 150 companies. He has published several peer-reviewed research papers in Q1 journals.\n\nWe previously worked together, and have known each other for almost four years.\n\n![uploaded image](/media/?type=post&id=106270&key=user_uploads/693526/5f437cbd-2009-40cc-8c69-746da9ea8300)\n\n**The Ask**\n\nIf you ship a customer-facing (chat, voice, browser, or coding) agent, we can help you find all the failure modes and built a self-healing loop to discover, triage, and maintain secure AI agents.\n\n[founders@fabraix.com](mailto:founders@fabraix.com)",
+      "url": "https://www.ycombinator.com/launches/Re2-fabraix-the-frontier-agent-that-hacks-customer-facing-ai",
+      "votes": 127,
+      "created_at": "2026-07-20T15:06:58.917Z"
+    }
+  ]
+}

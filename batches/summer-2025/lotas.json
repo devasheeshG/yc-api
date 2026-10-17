@@ -1,0 +1,95 @@
+{
+  "id": 30638,
+  "name": "Lotas",
+  "slug": "lotas",
+  "former_names": [],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/b64e79cf442071bbe251c8f19acacccc3dbf1fea.png",
+  "website": "https://www.lotas.ai",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "Quantitative trading",
+  "one_liner": "AI for quantitative trading",
+  "team_size": 2,
+  "industry": "B2B",
+  "subindustry": "B2B -> Analytics",
+  "launched_at": 1754374450,
+  "tags": [
+    "Artificial Intelligence",
+    "Developer Tools",
+    "Data Science",
+    "Data Visualization"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Summer 2025",
+  "status": "Active",
+  "industries": [
+    "B2B",
+    "Analytics"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/lotas",
+  "api": "https://devasheeshg.github.io/yc-api/batches/summer-2025/lotas.json",
+  "year_founded": 2025,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/lotas/",
+  "x_url": "https://x.com/lotas_ai",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": "https://github.com/lotas-ai",
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/b64e79cf442071bbe251c8f19acacccc3dbf1fea.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [
+    "https://bookface-images.s3.us-west-2.amazonaws.com/attachments/674a3c65b711a03e0a53e55c2f405314328629c9.png"
+  ],
+  "primary_partner": {
+    "name": "Ankit Gupta",
+    "url": "https://www.ycombinator.com/people/ankit-gupta"
+  },
+  "founders": [
+    {
+      "user_id": 1845082,
+      "full_name": "Jorge Guerra",
+      "title": "Founder/CEO",
+      "founder_bio": "Founder/CEO Lotas — quantitative trading with AI\nHarvard '24",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/jorge-o-guerra",
+      "x_url": "https://x.com/jorgeguerrajr",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/c9188857caef45433587c3241d504b930d7b6921.jpg"
+    },
+    {
+      "user_id": 1846075,
+      "full_name": "William Nickols",
+      "title": "Founder/CTO",
+      "founder_bio": "Founder/CTO Lotas — quantitative trading with AI\nHarvard '24",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/willnickols/",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/4224a64ec156b9f0c6f404911435d3f531a7524c.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 92746,
+      "title": "Lotas — Cursor for Data Science",
+      "tagline": "Building a secure, AI-native IDE for data scientists",
+      "body": "Hey everyone! We’re Jorge and Will from Lotas. We’re building a secure, AI-native IDE for data science—and as a first step, we’ve built an AI coding assistant into RStudio (think Cursor for RStudio). We’re looking for RStudio users, data scientists, and students who want to code way faster and are excited to see AI integrated into data science workflows.\n\nhttps://www.youtube.com/watch?v=c47Ch1kB0eU\n\n❌ Problem\n\nRStudio is used by about 5 million data scientists and academics, but they currently lack a coding assistant within their IDE. Developers in other environments benefit from tools like Cursor and Windsurf, but R users don’t have an equivalent tool that’s truly integrated into their day-to-day workflow. And more broadly, data science teams need an AI-native environment that understands notebooks, dataframes, plots, and multi-language workflows—without forcing work into the cloud or tools they don’t use.\n\n✅ Solution\n\nWe’re building a secure, AI-native IDE for data science that is context-aware (files, variables, terminals), can read and write code, run analyses, and interpret textual or visual output across R and Python to start. While we build this IDE, we’ve shipped Rao: a fork of RStudio with an embedded AI assistant that is aware of the user’s local context (both files and variable environment), can read and write files, can run code or commands, and can interpret textual or visual output. It works with the file formats RStudio users already rely on (R, notebooks including RMDs and QMDs, Python, Stan, etc.), so you can iteratively perform entire data analyses inside your preferred IDE today—and help us design the next one.\n\n👨‍🎓 Who we are\n\nBoth of us were PhD students at Harvard. Jorge was in the biophysics program and Will was in the biostatistics program where most people used RStudio every day. We saw how integrated coding assistants were taking off in other IDEs, but RStudio integrations lagged behind. Many R users were copying and pasting code from ChatGPT to build their workflows, which was slow and fragile. Other AI data science tools are either (1) built on the web or in environments people don’t already use, (2) completely focused on Python notebooks, or (3) weak package-based assistants with limited functionality. We’re closing these gaps—first with Rao, and next with a purpose-built IDE for data science.\n\n🚀 Try Rao & get early access\n\nYou can download Rao, watch our demo, and work through example use cases. If you’re interested in a secure, AI-native IDE for data science, contact us for an early preview!\\\n\\\n✉️ **Contact**\\\nYou can reach us at [founders@lotas.ai](mailto:founders@lotas.ai) and follow us on [LinkedIn](https://www.linkedin.com/company/lotas/) and [X](https://x.com/lotas_ai).\n\n![uploaded image](/media/?type=post&id=92746&key=user_uploads/1845082/a6d066f2-358c-46b1-959e-6e2618b44df4)\n\n",
+      "url": "https://www.ycombinator.com/launches/O7u-lotas-cursor-for-data-science",
+      "votes": 14,
+      "created_at": "2025-08-05T16:49:32.810Z"
+    }
+  ]
+}

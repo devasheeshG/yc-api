@@ -1,0 +1,91 @@
+{
+  "id": 35191,
+  "name": "Munito AI",
+  "slug": "munito-ai",
+  "former_names": [
+    "zugzug.ai"
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/287fb0bcb8cbc376d57a3e34f3cd0cdda9966268.png",
+  "website": "https://munito.ai",
+  "all_locations": "Paris, Île-de-France, France; Remote",
+  "long_description": "Munito is an open-model inference provider for Europe, private by default. Its API lets users choose their models and keep inference and storage in the EU. \r\nFounded by the former inference lead at Mistral AI, Munito is built on one belief: open and independent intelligence, both models and inference, is key to economic growth and prosperity.",
+  "one_liner": "Open-model inference provider for Europe, private by default.",
+  "team_size": 1,
+  "industry": "B2B",
+  "subindustry": "B2B -> Engineering, Product and Design",
+  "launched_at": 1791574997,
+  "tags": [
+    "Artificial Intelligence",
+    "Enterprise",
+    "Infrastructure"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Fall 2026",
+  "status": "Active",
+  "industries": [
+    "B2B",
+    "Engineering, Product and Design"
+  ],
+  "regions": [
+    "France",
+    "Europe",
+    "Remote",
+    "Fully Remote"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": [
+    {
+      "question": "How did your company get started? (i.e., How did the founders meet? How did you come up with the idea? How did you decide to be a founder?)",
+      "answer": "I led inference at Mistral AI, where my team built its API and inference products, and I built Le Chat's Deep Research. Before that, I spent five years at Airbnb, where I built Hosting Services from scratch and grew it to become a global product.\r\n\r\nAt Mistral, we built everything in-house, because no independent European provider could handle our scale. I kept seeing the same thing: in Europe, inference is a side product. Cloud providers sell it next to their VMs, and model labs sell it for their own models. At the same time, open models became really good.\r\n\r\nThis is why I started Munito: the best open models, run in Europe, behind an API you already know how to use."
+    },
+    {
+      "question": "What is the core problem you are solving? Why is this a big problem? What made you decide to work on it?",
+      "answer": "Companies in Europe want to use the best open models at scale, but they also need privacy and control over where their data is processed. Today it's hard to get both. Most large providers are not European, and EU processing is quite often an extra option instead of the default. There are few European providers, and many of them can't handle real scale.\r\n\r\nAnd this problem grows every month. More and more sensitive data goes through AI models in products, agents and internal tools. Users and regulators ask where it's processed and stored, and companies don't want their AI to depend on one cloud or one model lab.\r\n\r\nI saw this from inside at Mistral, where we had to build everything in-house. Munito gives companies open models at scale, with inference and storage in the EU and privacy by default: no data retention, no training on their data. Sovereignty, without running your own GPUs."
+    },
+    {
+      "question": "What is your long-term vision? If you truly succeed, what will be different about the world?",
+      "answer": "I believe that open and independent intelligence, both models and inference, is key to economic growth and prosperity in the world and the region.\r\n\r\nIf Munito succeeds, anyone building with AI can run the best open models privately, in the region they choose, without depending on one cloud or one model lab. Munito rents GPUs across many vetted data centers and clouds, and we’re building a self-improving inference stack, so running open models gets faster and cheaper over time."
+    }
+  ],
+  "url": "https://www.ycombinator.com/companies/munito-ai",
+  "api": "https://devasheeshg.github.io/yc-api/batches/fall-2026/munito-ai.json",
+  "year_founded": 2026,
+  "city": "Paris",
+  "country": "FR",
+  "linkedin_url": "https://linkedin.com/company/munito-ai",
+  "x_url": "https://x.com/munitoai",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": "https://github.com/munitoai/",
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/287fb0bcb8cbc376d57a3e34f3cd0cdda9966268.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [
+    "https://bookface-images.s3.us-west-2.amazonaws.com/attachments/f32f459cbefecb7f733c988913aa3690d8ad3fb8.png"
+  ],
+  "primary_partner": {
+    "name": "Aaron Epstein",
+    "url": "https://www.ycombinator.com/people/aaron-epstein"
+  },
+  "founders": [
+    {
+      "user_id": 2088690,
+      "full_name": "Alexey Eryshev",
+      "title": "Founder/CEO",
+      "founder_bio": "Founder at Munito AI.\nI led inference at Mistral AI, where my team built its API and inference products, and I built Le Chat's Deep Research. Before that, I spent five years at Airbnb, where I built Hosting Services from scratch and grew it to a global product.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/alexeyeryshev",
+      "x_url": "https://x.com/alexeyeryshev",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/d01ad026718a1d4bfcc97df015c0c5ded6c49bda.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": []
+}

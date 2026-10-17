@@ -1,0 +1,94 @@
+{
+  "id": 25720,
+  "name": "Convoy",
+  "slug": "convoy-2",
+  "former_names": [
+    "Frain Technologies"
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/2ef5e56e5aadbe1bd56567cef7d719b7f1e4c6b7.png",
+  "website": "https://getconvoy.io",
+  "all_locations": "London, England, United Kingdom; LA, Nigeria; Remote",
+  "long_description": "We are building Convoy for engineering teams that value efficiency, especially during this bear market. \r\n\r\nYou might already know about API Gateways. Convoy is exactly that for webhooks.\r\n\r\nEngineering teams today use Convoy to securely send, receive and manage millions of webhooks reliably with robust support for retries, rate limiting, static IPs, circuit breaking, rolling secrets and more.\r\n\r\nWe know both receiving and sending webhooks can become a lot of work to manage, we have built a product to enable engineers to build and ship highly scalable stripe-like webhooks infrastructure.",
+  "one_liner": "Webhooks Gateway for outgoing and incoming webhooks.",
+  "team_size": 8,
+  "industry": "B2B",
+  "subindustry": "B2B -> Engineering, Product and Design",
+  "launched_at": 1643184279,
+  "tags": [
+    "Developer Tools",
+    "B2B",
+    "Open Source"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Winter 2022",
+  "status": "Active",
+  "industries": [
+    "B2B",
+    "Engineering, Product and Design"
+  ],
+  "regions": [
+    "United Kingdom",
+    "Nigeria",
+    "Europe",
+    "Africa",
+    "Remote",
+    "Fully Remote"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/convoy-2",
+  "api": "https://devasheeshg.github.io/yc-api/batches/winter-2022/convoy-2.json",
+  "year_founded": 2021,
+  "city": "London",
+  "country": "GB",
+  "linkedin_url": "https://www.linkedin.com/company/convoy-webhooks/",
+  "x_url": "https://twitter.com/getconvoy",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/2ef5e56e5aadbe1bd56567cef7d719b7f1e4c6b7.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": null,
+  "founders": [
+    {
+      "user_id": 273666,
+      "full_name": "Subomi Oluwalana",
+      "title": "Founder",
+      "founder_bio": "Subomi Oluwalana is the Co-founder and CEO of Convoy. Subomi is a software engineer and entrepreneur. Nothing excites him more than bringing ideas to life. Originally, He graduated from Landmark University where he received a Bachelor in Accounting & Finance.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/subomi-oluwalana-one/",
+      "x_url": "https://twitter.com/subomiOluwalana",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/20c7e9b0237512da0bb9c8abd88521cbe43ac047.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 72597,
+      "title": "Nohooks: Webhooks for platforms without webhooks",
+      "tagline": "Receive real-time notifications of events from supported apps like Notion, Render and Digital Ocean. Powered by Convoy.",
+      "body": "![uploaded image](/media/?type=post&id=72597&key=user_uploads/357104/239f25e6-9726-4a95-8100-b4e04df0405e)\n\nToday, we are excited to share our new tool: [nohooks.io](http://nohooks.io). Nohooks is a service that offers webhooks functionality even on platforms that do not have native webhooks support. With Nohooks, developers can receive real-time notifications of events from the list of supported apps ([DigitalOcean](https://www.digitalocean.com/), [Notion](https://notion.so/) and [Render](https://render.com/) as of this [launch](https://getconvoy.io/blog/convoy-launch-week)).\n\n![uploaded image](/media/?type=post&id=72597&key=user_uploads/357104/c9767c6b-6fce-42dc-93d5-39b8bfdd658f)\n\nWebhooks are a way for one application to notify another application when a specific event happens. By setting up a webhook, developers can receive real-time updates whenever a user takes a specific action, such as deploying a new service or adding a new contact to your CRM. However, not all platforms support webhooks, which can be a problem for developers who need to receive real-time updates.\n\nNohooks solves this problem by acting as an intelligent polling system, that retrieves resources from the public API of these apps, determines whether there was an update and generates a webhook event depending on the type of update. It uses [Convoy](https://getconvoy.io/) to power its webhooks delivery and debugging dashboard.\n\n![uploaded image](/media/?type=post&id=72597&key=user_uploads/357104/fab69289-51b5-4756-9536-5341f7139c15)\n\nWith Nohooks, you can link multiple Render accounts and Notion workspaces and multiple destination endpoints as well. To get started, create an account here, and watch this demo video to learn how to set up your account to receive events.\n\n### **Use Cases**\n\n1. With Render webhook events, you can hook into the lifecycle of your services and service deployments to perform post-deployment actions, trigger continuous delivery pipelines etc.\n2. With Notion webhook events, you can sync any Notion Database to Airtable, Mailchimp, Intercom, or any CRM you choose. You can sync Notion Events to anything like Zapier or [Trigger.dev](http://Trigger.dev) for any kind of automation you desire.\n3. With DigitalOcean webhook events, you can into the lifecycle of your droplets to carry out post-deployment automation similar to Render. We plan to support many more resources in DigitalOcean in subsequent releases.\n\nThat’s it, friends, go and automate. We can’t wait to see what you build with this!\n\nIf you need any help or want to see us support new services, you can email us at [support@nohooks.io](mailto:support@nohooks.io) or join our [Slack Community](https://join.slack.com/t/convoy-community/shared_invite/zt-xiuuoj0m-yPp\\~ylfYMCV9s038QL0IUQ) to ask questions.",
+      "url": "https://www.ycombinator.com/launches/Isv-nohooks-webhooks-for-platforms-without-webhooks",
+      "votes": 12,
+      "created_at": "2023-06-28T13:40:13.909Z"
+    },
+    {
+      "id": 65789,
+      "title": "Convoy: Open Source Webhooks Proxy",
+      "tagline": "Convoy is an open-source webhooks proxy that enables you to receive and publish webhook events reliably.",
+      "body": "**TL;DR: Convoy provides a reliable webhooks proxy that can ingest webhooks from all your providers and replay them to your backend as well as publish webhook events from your systems to your customers.**\n\nHey YC 👋🏾\n\nI am Subomi, and I am building [Convoy](https://getconvoy.io) alongside Emmanuel.\n\n**The Problem**\\\nToday, webhooks power critical business workflows that, if broken, will have a direct impact on customers’ experience. Usually, developers spend time building reliable webhook ingestion services and reliable webhook dispatching services for API providers. This time is wasted effort that can be spent building necessary infrastructure instead of building your product. Secondly, the tooling becomes fragmented for dispatching and receiving webhook events. We are working on Convoy to solve precisely this using a consistent toolchain to receive, publish and debug webhook events.\n\n**Our Solution**\\\nEnter Convoy, a service available as an open-source project and a cloud platform. There are two types of projects in Convoy; an incoming project and an outgoing project. In an incoming project, we provide a unique URL per provider to receive events, and in an outgoing project, we provide a REST API to receive events from your services and publish them to the outside world.\n\n**How it works?**\n\nYou can see a demo [here](https://www.youtube.com/watch?v=DSIet81oBsg).\n\n**Asks**\n\n1. If you’re building an API that sends out webhooks and/or a service that relies on webhooks from third-party providers, you can get started for free by either [self-hosting](https://getconvoy.io/docs/deploy/overview) or using our [cloud platform](https://dashboard.getconvoy.io/signup).\n2. If you have vast experience running webhooks infrastructure (either incoming or outgoing), please join us on [slack](https://convoy-community.slack.com/join/shared_invite/zt-xiuuoj0m-yPp\\~ylfYMCV9s038QL0IUQ#/shared-invite/email). We’d love to learn from you!\n3. If you have further questions and would love to learn more, you can book a meeting with the [founders.](https://calendly.com/subomioluwalana/30-minute-meeting)\n\nThank you!",
+      "url": "https://www.ycombinator.com/launches/H77-convoy-open-source-webhooks-proxy",
+      "votes": 36,
+      "created_at": "2022-09-01T20:15:33.795Z"
+    }
+  ]
+}

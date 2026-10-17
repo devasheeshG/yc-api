@@ -1,0 +1,97 @@
+{
+  "id": 30406,
+  "name": "BitBoard",
+  "slug": "bitboard",
+  "former_names": [
+    "Realm"
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/74d921a27f5f4254a29834c03d8bfeb6cd8b878c.png",
+  "website": "https://bitboard.work",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "Data analysis with AI agents is great until you realize you want to set up a recurring report or collaborate with your team. We built an agent-first workbook so you don’t have to roll your own dashboards or fumble around in a rigid BI tool.\r\n\r\nConnect your agent of choice to BitBoard and it can generate connected charts, SQL, code, and commentary in a notebook-style UI you can share with your team.",
+  "one_liner": "Let your agent build dashboards and reporting.",
+  "team_size": 2,
+  "industry": "B2B",
+  "subindustry": "B2B -> Analytics",
+  "launched_at": 1746992332,
+  "tags": [
+    "B2B",
+    "Analytics",
+    "Data Visualization",
+    "AI"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Spring 2025",
+  "status": "Active",
+  "industries": [
+    "B2B",
+    "Analytics"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/bitboard",
+  "api": "https://devasheeshg.github.io/yc-api/batches/spring-2025/bitboard.json",
+  "year_founded": 2025,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/bitboardhq",
+  "x_url": "https://x.com/bitboardhq",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/74d921a27f5f4254a29834c03d8bfeb6cd8b878c.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [
+    "https://bookface-images.s3.us-west-2.amazonaws.com/attachments/861196e852bda17e4029bce7d4bf94a5dc91dd2e.png"
+  ],
+  "primary_partner": {
+    "name": "David Lieb",
+    "url": "https://www.ycombinator.com/people/david-lieb"
+  },
+  "founders": [
+    {
+      "user_id": 2002154,
+      "full_name": "Connor Jones",
+      "title": "Founder/CEO",
+      "founder_bio": "Co-Founder & CEO @ BitBoard. \n\nEx-Forward, BlackRock, Columbia Engineering.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/connorandrewjones/",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/5fbe6de4ee5d3c3e64dc17cf6cca43d8958dc06b.jpg"
+    },
+    {
+      "user_id": 1576262,
+      "full_name": "Ambar Choudhury",
+      "title": "Founder/CTO",
+      "founder_bio": "Co-Founder & CTO @ BitBoard, an AI-first analytics workbook that lets you load and transform data with SQL, python, and your favorite coding agent. Handle complex modeling and analysis 10x faster without giving up control when you need it.\n\nI was the first engineer at Forward, a national AI-enabled primary healthcare system. Before that, I worked on government-facing technology at Palantir. \n\nI like creating products that empower people, and technology that scales. \n",
+      "is_active": true,
+      "linkedin_url": "https://linkedin.com/in/ambar-choudhury-92681038",
+      "x_url": "https://x.com/ambarc",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/c8dde4a359f0f46f3fc9faca9f72385cc56cce9d.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 100824,
+      "title": "BitBoard: Analytics workspace for agents",
+      "tagline": "Build hosted dashboards and analysis with your favorite AI chat or coding agent.",
+      "body": "**TL;DR**\n\nUsing your go-to AI chat or coding agent for data analysis is great until you want to set up a recurring report or collaborate with your team.\n\nWe built an analytics layer for your favorite AI tools to generate hosted reports and live dashboards.\n\nGet started in minutes, for free at [app.bitboard.work](http://app.bitboard.work)\n\n![uploaded image](/media/?type=post&id=100824&key=user_uploads/2002154/615b65c7-eb00-480f-ba27-cceabe248a50)\n\n**Problem**\n\nThe most capable AI tools still treat data analysis as ephemeral, making durable reporting and collaboration a nightmare.\n\nLegacy BI tools weren’t intended for AI users, so they bolt on clumsy chatbots and can’t offer meaningful control to the agents you’re actually using.\n\n**How BitBoard works**\n\nConnect your preferred AI chat or coding agent to BitBoard to build living dashboards and analysis you can share with your team. BitBoard works with any MCP client, including Claude, Claude Code, ChatGPT, and Cursor.\n\nHosted workbooks let your agent pull data, build visualizations, and add commentary by writing SQL, code, and markdown that’s stored and executed within the workbook.\n\nWork in BitBoard is traceable and repeatable. Logic and outputs are persisted and named so context isn't lost in chat threads or terminals.\n\nAnalysis stays fast and cheap as the workbook grows. Small queries stay local, results are cached until the underlying data changes, and your warehouse only returns the rows each query needs.\n\n**Connecting your data**\n\nWant to get started with minimal setup? Just push data from your agent to piggyback off of your agent’s existing connections and we’ll host it.\n\nFor ongoing access to live data, securely connect to your apps, databases, and data warehouse from a single point in BitBoard.\n\n**Onboard in minutes, for free**\n\n1. Connect your AI chat or coding agent to BitBoard via MCP. Works with any MCP client, including Claude, Claude Code, ChatGPT, and Cursor.\n2. Push data from your agent. We'll host it, no setup required.\n3. When you want live data, configure connections to your apps, databases, and warehouse from a single point in BitBoard.\n\nTry pointing your agent at BitBoard for your next KPI review, product analytics investigation, or post-mortem.\n\n**Ask**\n\n* Try it out at [app.bitboard.work](http://app.bitboard.work)\n* Email us with questions and feedback at [founders@bitboard.work](mailto:founders@bitboard.work)\n* [Book a call ](https://bitboard.work/contact)if you need help with a specific use case.\n\n![uploaded image](/media/?type=post&id=100824&key=user_uploads/2002154/6191878d-f4f7-4f05-988f-d2dfb103788f)\n\n",
+      "url": "https://www.ycombinator.com/launches/QEC-bitboard-analytics-workspace-for-agents",
+      "votes": 8,
+      "created_at": "2026-05-06T21:45:16.447Z"
+    }
+  ]
+}

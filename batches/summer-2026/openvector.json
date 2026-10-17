@@ -1,0 +1,97 @@
+{
+  "id": 31301,
+  "name": "OpenVector",
+  "slug": "openvector",
+  "former_names": [
+    "TeleOps",
+    "BotZero",
+    "Foveal"
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/54df715903ce304e2b9e3b2fe1f375caf7811ea6.png",
+  "website": "https://openvector.com",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "OpenVector transforms any existing camera into an automated 24/7 workforce without requiring new hardware. We've built the world's fastest vision-language model inference engine that allows users to simply describe a task in plain English and automatically build a custom AI vision model to monitor their feed. When it detects an important physical event—like a stalled production cycle, a safety violation, or a waiting customer—it operates a computer just like a human to take immediate action. It integrates with legacy systems, makes calls, sends emails, updates a POS/CRM, or triggers webhooks in real time. OpenVector enables any camera to do real work.",
+  "one_liner": "AI that turns any camera to an autonomous worker with real-time vision",
+  "team_size": 4,
+  "industry": "B2B",
+  "subindustry": "B2B -> Infrastructure",
+  "launched_at": 1785369468,
+  "tags": [
+    "Robotics",
+    "Computer Vision",
+    "Infrastructure",
+    "Industrial"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Summer 2026",
+  "status": "Active",
+  "industries": [
+    "B2B",
+    "Infrastructure"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/openvector",
+  "api": "https://devasheeshg.github.io/yc-api/batches/summer-2026/openvector.json",
+  "year_founded": 2026,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://linked.com/in/openvectorlabs",
+  "x_url": "https://x.com/openvectorlabs",
+  "fb_url": "https://www.facebook.com/profile.php?id=61591381283372",
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/54df715903ce304e2b9e3b2fe1f375caf7811ea6.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Jon Xu",
+    "url": "https://www.ycombinator.com/people/jon-xu"
+  },
+  "founders": [
+    {
+      "user_id": 633157,
+      "full_name": "Andrey Gizdov",
+      "title": "Founder/CEO",
+      "founder_bio": "Dropped out of PhD. Computer Vision @ Harvard.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/andreygizdov/",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/994295941ffb048fecb964921a35db1494d051b3.jpg"
+    },
+    {
+      "user_id": 2384953,
+      "full_name": "Vishal Urlam",
+      "title": "Founder",
+      "founder_bio": "CMU'23, ECE'20 | MIT GrandHack '25 | Kellogg Design Challenge '23",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/vishal-urlam/",
+      "x_url": "https://x.com/vishalurlam",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/398802b070ebc9a50a9873e3441541de12ccedfb.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 108360,
+      "title": "OpenVector - Self-improving AI that turns any camera into an autonomous worker.",
+      "tagline": "Most cameras just record. We give them the ability to do real work.",
+      "body": "**TLDR;** OpenVector turns existing cameras into an automated 24/7 workforce. Describe a task in plain English, and it auto-builds a custom vision model that takes real-time actions on a computer when it spots an event.\n\n**Ask;** If you or someone you know runs physical operations (manufacturing, logistics, retail, security) and wants to automate visual tasks without buying new hardware, we’d love to connect!\n\n**Our Launch Video:**\n\n<https://www.youtube.com/watch?v=36OaIJ4FPZ8>\n\n**Our Team:**\n\nOpenVector was founded by a team of builders and engineers obsessed with bringing self-improving visual intelligence to the physical world.\n\n* [Andrey Gizdov](https://www.linkedin.com/in/andreygizdov/), CEO, dropped a fully-funded **PhD** scholarship from Fulbright, worth **$170,000**, with invitations at **Harvard and MIT**, where he worked on real-time vision models.\n* [Vishal Urlam](https://www.linkedin.com/in/vishal-urlam/), CTO, previously automated camera systems and network protocols for Tata, the **second-largest network infrastructure in the world**. CMU embedded systems engineer.\n\n**Problem**:\n\nMany important business moments happen in the physical world: Someone tailgates. A production cycle stalls. A worker skips a step in the manufacturing process. A customer arrives, and no one responds. There are over 1 billion cameras worldwide, but they only record it for later. For physical operations, the best technology available to catch these events in real-time has been a human staring at a monitor.\n\n**Solution:**\n\nOpenVector is an AI that brings action to any camera.\n\n* **Plain English to AI Model:** No coding or expensive setup. Simply describe your task in plain English, and OpenVector automatically builds the best AI vision model for it, and watches your camera feeds 24/7. It’s an app that takes 2 minutes to download and set up, and works with any camera.\n* **Acts Like a Human:** OpenVector operates a computer just like a human based on what it sees.\n* **Legacy Integration:** It automatically integrates with your existing systems to make a call, send an email, update your POS or CRM, or trigger a webhook the second an event happens.\n* **Zero New Hardware:** Works entirely with the cameras you already have installed (custom end-to-end solutions also available).\n\n**We’ve Already Started:**\n\nOpenVector is already live and seeing use cases across security, retail, manufacturing, and logistics. We are tracking production cycle efficiency directly from existing CCTV, ensuring good-manufacturing-practices, and catching physical design errors.\n\n**Now Onboarding:**\n\nOpenVector is ready to deploy on your camera feeds today. Contact us if you’re tired of cameras that only watch and want them to actually do work for you. [founders@openvector.com](mailto:founders@openvector.com)\n\n![uploaded image](/media/?type=post&id=108360&key=user_uploads/633157/46faabca-90e0-4c69-a364-138588d733d5)\n\n",
+      "url": "https://www.ycombinator.com/launches/SBk-openvector-self-improving-ai-that-turns-any-camera-into-an-autonomous-worker",
+      "votes": 16,
+      "created_at": "2026-07-31T18:00:43.590Z"
+    }
+  ]
+}

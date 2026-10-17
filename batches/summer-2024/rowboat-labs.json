@@ -1,0 +1,104 @@
+{
+  "id": 29951,
+  "name": "Rowboat Labs",
+  "slug": "rowboat-labs",
+  "former_names": [
+    "RowBoat Labs"
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/8c4e76ac514dde1b24f29f53724cc0f032c90a91.png",
+  "website": "https://www.rowboatlabs.com",
+  "all_locations": "Bengaluru, KA, India; Remote",
+  "long_description": "Rowboat is an AI coworker for everyday work - email, meetings, projects, and people. It builds a local knowledge graph from your work and uses it to draft emails, prep meetings, track projects, and get work done on your own computer. It comes with batteries included - meeting note capture, in-app browsing, search, and app integrations - plus MCP support for custom tools.",
+  "one_liner": "Open-source AI coworker with memory ",
+  "team_size": 3,
+  "industry": "Consumer",
+  "subindustry": "Consumer",
+  "launched_at": 1723615480,
+  "tags": [
+    "Productivity",
+    "Open Source",
+    "AI Assistant"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Summer 2024",
+  "status": "Active",
+  "industries": [
+    "Consumer"
+  ],
+  "regions": [
+    "India",
+    "South Asia",
+    "Remote",
+    "Fully Remote"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/rowboat-labs",
+  "api": "https://devasheeshg.github.io/yc-api/batches/summer-2024/rowboat-labs.json",
+  "year_founded": 2024,
+  "city": "Bengaluru",
+  "country": "IN",
+  "linkedin_url": "https://www.linkedin.com/company/rowboat-labs/",
+  "x_url": "https://x.com/rowboatlabshq",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": "https://github.com/rowboatlabs/rowboat",
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/8c4e76ac514dde1b24f29f53724cc0f032c90a91.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Tyler Bosmeny",
+    "url": "https://www.ycombinator.com/people/tyler-bosmeny"
+  },
+  "founders": [
+    {
+      "user_id": 189004,
+      "full_name": "Arjun Maheswaran",
+      "title": "Founder/CEO",
+      "founder_bio": "Building Rowboat. Previously co-founded Agara AI (acquired by Coinbase). Ex-Twitter. ",
+      "is_active": true,
+      "linkedin_url": "https://linkedin.com/in/arjunmaheswaran",
+      "x_url": "https://twitter.com/segmenta",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/38d4e161e8555a535628f2d0009b45fa977801bc.jpg"
+    },
+    {
+      "user_id": 2094073,
+      "full_name": "Ramnique Singh",
+      "title": "Founder",
+      "founder_bio": "Co-founder at RowBoat Labs. Helping companies supercharge CX using LLMs.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/ramnique",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/2d40ef90b40e63de1f4b45cea972300dc268904b.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 106800,
+      "title": "Rowboat – Your AI coworker, with memory",
+      "tagline": "Open-source, local-first alternative to Claude Desktop: an AI coworker with a memory of your work as plain Markdown, and work surfaces you can build yourself.",
+      "body": "**TL;DR**\n\nRowboat is an open-source AI coworker with two parts. (1) Memory: it turns your email, meetings, and notes into a living knowledge graph, saved as plain Markdown files on your disk. (2) Work surfaces: a built-in email client, meeting notetaker, notes, and browser, plus apps you can build or install from the community. The assistant helps inside the work itself, not just in chat.\n\n16,600+ GitHub stars - Front page of Hacker News twice in 2026.\n\n<https://github.com/rowboatlabs/rowboat> ·[ https://www.rowboatlabs.com](https://www.rowboatlabs.com)\n\n<https://www.youtube.com/watch?v=et5yQABJ3xI>\n\nHey, we're Arjun and Ramnique.\n\nAt our previous startup, we built a deep-learning product for enterprise support reps at Fortune 100 brands like P&amp;G. The models took live notes, suggested replies, and recommended actions while reps were on calls or handling emails. Coinbase acquired us in 2021. One lesson stuck: it's not enough for the AI to be right. The help has to show up where the work is happening.\n\nSo we built Rowboat around what we call \"work surfaces\": dedicated areas for email, meetings, notes, browser, and parallel coding, where the assistant helps inside the workflow itself rather than only through chat.\n\n* **Email client:** Rowboat has a simple email client that sorts incoming emails into important vs. everything else, and pre-creates drafts for important emails. As you edit and send emails, it takes notes on your style, so future drafts get closer to your voice.\n* **Meeting notes:** We built a Granola-style local meeting notetaker. Notes are stored as plain Markdown files on your machine. After a meeting, Rowboat feeds the notes back into the knowledge graph and updates the relevant people, project, and topic notes.\n* **Browser:** We added a built-in browser, isolated from your main one, where you can log in only to the accounts you want the assistant to help with. The assistant uses browser-use skills to navigate websites.\n* **Parallel coding:** The code-mode inside Rowboat lets you spin up multiple instances of Claude Code or Codex and either work with them directly or let Rowboat use your work context to orchestrate them. We built an ACP (Agent Client Protocol) client in Rowboat for this.\n* **Notes:** Rowboat has an Obsidian-style local note-taking system. It comes with graph view, bases view, and voice notes. You can also sync Google Docs files and edit them inside Rowboat.\n\nAn example email work surface - triage plus pre-drafted replies in your voice:\n\n![uploaded image](/media/?type=post&id=106800&key=user_uploads/189004/b957ae9a-2186-42a4-a0cd-3e56554221c7)\n\nYou can also build your own work surfaces inside Rowboat (web apps). Each app gets its own UI and a background agent, and can use all of Rowboat's tools, product integrations, and your work memory. For instance: an app to manage GitHub activity, project tracking, or ads campaign management. There are a few community apps at launch that you can search and install. Publishing your own is one click from inside Rowboat: connect your GitHub and it creates the repo and registers the app for you.\n\n![uploaded image](/media/?type=post&id=106800&key=user_uploads/189004/1c8fea41-3dbe-4a41-8202-9a1564531d71)\n\nAll of this is powered by the Brain: a knowledge graph of your work that Rowboat builds and maintains automatically, so every surface starts with full context. We did a Show HN on it a few months back: <https://news.ycombinator.com/item?id=46962641>.\n\n![uploaded image](/media/?type=post&id=106800&key=user_uploads/189004/ed015055-6816-4b6f-b9de-ab17364f7ddf)\n\nAs an example that ties some of these together: you can create an app inside Rowboat that collects feature requests from your email, meetings, and Slack and ranks them, then uses Claude Code to draft a first version of the top-ranked feature, pulling prior context about it from your knowledge graph.\n\nRowboat is local-first: data is stored as plain Markdown files you can read, edit, or delete anytime. It is Apache-2.0 and works with any LLM, including local models through Ollama or LM Studio. You can also use your ChatGPT subscription. It works on Mac, Windows and Linux.\n\n**Shipped in public**\n\nEvery major Rowboat release has launched on Hacker News:\n\n* **Rowboat CLI** (Nov 2025): front page, 131 points. A Claude Code-style CLI agent for everyday work, two months before Anthropic's Cowork.\n* **Rowboat Knowledge** (Feb 2026): front page, 205 points, #1 on GitHub Trending. A living knowledge graph as plain Markdown, two months before Karpathy's viral LLM-wiki post.\n* **Rowboat Work Surfaces** (Jul 2026): front page, 219 points.\n\n![uploaded image](/media/?type=post&id=106800&key=user_uploads/189004/8a836991-df20-47b8-a5a0-eb4a07f3fb1e)\n\n![uploaded image](/media/?type=post&id=106800&key=user_uploads/189004/cfd23cbb-905a-499f-9f67-60ae77b0f219)\n\n**How you can help**\n\n* Try it:[ https://www.rowboatlabs.com](https://www.rowboatlabs.com) (Mac, Windows, and Linux)\n* Star the repo:[ https://github.com/rowboatlabs/rowboat](https://github.com/rowboatlabs/rowboat)\n* Send it to one friend who lives in email and meetings",
+      "url": "https://www.ycombinator.com/launches/Rma-rowboat-your-ai-coworker-with-memory",
+      "votes": 12,
+      "created_at": "2026-07-21T16:59:26.062Z"
+    },
+    {
+      "id": 83046,
+      "title": "RowBoat Labs - LLM agents for human-like customer support",
+      "tagline": "Faster resolutions and improved customer satisfaction with AI.",
+      "body": "**Tl;dr:** [RowBoat](https://www.rowboatlabs.com/) is a pre-trained customer support LLM agent that seamlessly plugs into your systems, handles customer conversations, and performs tasks just like an expert human agent would.\n\n# **Problem**\n\nCustomer support is one of those rare opportunities for a brand to connect directly with its users. The best brands know this and invest heavily in coaching their human agents to deliver a great support experience.\n\nBut when it comes to automated support, most solutions rely on LLMs that aren’t specially designed for customer support and can’t learn from experience. This often leaves users stuck with impersonal and long FAQ-style responses in small chat windows, often missing the help they actually need.\n\nInternal teams might see some early wins with a public LLM + RAG setup, but that progress usually hits a wall fast. Before long, engineers are spending more time debugging common LLM issues instead of focusing on what actually matters: delivering great customer support. As a result, customer satisfaction rates (measured by surveys) get nowhere close to that of human agents.\n\n# **Solution**\n\nRowBoat is built and fine-tuned specifically for customer support\n\n* **Pre-Trained:** RowBoat is trained on a vast corpus of support conversations and further refined through self-play. It's like hiring a highly experienced customer support agent right from day one.\n* **Brand-Aligned:** RowBoat automatically indexes your public and internal knowledge, fine-tuning itself to align with your brand.\n* **Continuous Improvement:** RowBoat learns from every user interaction. When connected to your user metrics, such as resolution rates, RowBoat critiques its own performance to optimize for them continuously.\n\n… for internal engineering teams to build exceptional customer experience\n\n* **Plug & Play:** A drop-in replacement for GPT-4+ class LLMs, RowBoat offers immediate improvements in resolution accuracy. Our SmartRAG system readily integrates with your existing Elasticsearch or embedding-based retrieval systems for improved grounding.\n* **Tool Use & Personalization:** Equipped with a library of predefined functions, RowBoat can interact with and perform tasks on internal and external APIs. This makes RowBoat’s conversations highly contextualized to the user. \n* **Self-hostable:** RowBoat can be hosted inside your company’s cloud, especially for privacy-sensitive use cases.\n\nSeamless conversations…\n\n![uploaded image](/media/?type=post&id=83046&key=user_uploads/189004/99fef1b6-674c-4deb-902b-15ecdc895efe)\n\n… with continuous coaching\n\n![uploaded image](/media/?type=post&id=83046&key=user_uploads/189004/cdb3fce5-1446-45c0-afaa-fa8b49135deb)\n\n# **Who we are**\n\nWe're a team of three engineers who have worked together for the last 7 years. [Arjun](https://linkedin.com/in/arjunmaheswaran) co-founded Agara, a customer support AI startup where [Ramnique](https://www.linkedin.com/in/ramnique) and [Akhilesh](https://www.linkedin.com/in/akhilesh-sudhakar/) were part of the founding team. In 2021, Agara was acquired by Coinbase, where we built their automated customer support. We have published research and hold patents on LLMs, Reinforcement Learning, embeddings, and customer support.\n\n# **Our Ask**\n\nIf your company has a customer support function, we’d love to connect with your CX or engineering team. Please reach out to us at [founders@rowboatlabs.com](mailto:founders@rowboatlabs.com). We’ll bring an LLM agent trained for your brand to our call 😊\n\n![uploaded image](/media/?type=post&id=83046&key=user_uploads/2094077/7073cc25-f959-458c-a8e2-bcac591dfd2f)\n\n",
+      "url": "https://www.ycombinator.com/launches/LbS-rowboat-labs-llm-agents-for-human-like-customer-support",
+      "votes": 27,
+      "created_at": "2024-08-14T19:39:27.540Z"
+    }
+  ]
+}

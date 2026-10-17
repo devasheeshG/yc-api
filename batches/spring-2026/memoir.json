@@ -1,0 +1,82 @@
+{
+  "id": 31335,
+  "name": "Memoir",
+  "slug": "memoir",
+  "former_names": [
+    "Tachyon",
+    "Agentsite",
+    "Agentsight",
+    "Recon"
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/db5e3e6f38c3e09bc340d492006001bcc103b8d3.png",
+  "website": "https://www.trymemoir.ai/",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "Memoir is building a persistent and proactive AI teammate that helps an entire company keep up with its own progress. Think Instinct but for enterprise. We’re starting with product changes. When engineering ships something, Memoir understands who it affects and creates what each audience needs: a walkthrough for a customer, launch materials for a product marketer, or a technical explanation for another engineering team. It chooses the format and timing, then delivers the approved material in Slack. Nobody has to ask it to start.\r\n\r\nWe’re beginning with hands-on deployments, learning how each company works and where people depend on one another. That understanding will let Memoir expand beyond product releases to customer commitments, business decisions, and changes across departments. The idea grew from conversations with product marketers struggling to keep up with engineering, and the possibility of extending a proactive personal AI teammate to an entire business. \r\n\r\nOur ambition is a company where every important change sets the right communication in motion: the people affected receive something made for them, when they need it, without someone having to coordinate every handoff. As AI makes individual teams faster, Memoir helps that speed carry through the whole company.",
+  "one_liner": "Everything your team ships, explained to everyone it affects.",
+  "team_size": 1,
+  "industry": "B2B",
+  "subindustry": "B2B",
+  "launched_at": 1778812476,
+  "tags": [],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Spring 2026",
+  "status": "Active",
+  "industries": [
+    "B2B"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/memoir",
+  "api": "https://devasheeshg.github.io/yc-api/batches/spring-2026/memoir.json",
+  "year_founded": 2026,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/memoir-ai",
+  "x_url": "",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/db5e3e6f38c3e09bc340d492006001bcc103b8d3.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Andrew Miklas",
+    "url": "https://www.ycombinator.com/people/andrew-miklas"
+  },
+  "founders": [
+    {
+      "user_id": 1037475,
+      "full_name": "Maanav Agrawal",
+      "title": "Founder/CEO",
+      "founder_bio": "CEO / Founder @ Memoir. BS/MCS from UIUC. Prev @ IMC Trading and PwC. 3x National Speech & Debate Finalist. ",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/maanav-agrawal/",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/00967367a13c6779be9a426384092dd896ca5f7d.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 102386,
+      "title": "Memoir: AI CMO for software companies",
+      "tagline": "The new era of product marketing for fast-moving engineering teams",
+      "body": "# \\*\\*\\*\\*\n\n**TL;DR:** AI marketing service for product-led software companies. We produce marketing artifacts at the same time you ship code. We turn your real product into social posts and demo videos in your voice automatically. Think of it as a clone of you that's also marketing your company at the same time.\\\n\\\n<https://youtu.be/qAfRjaRQw3g>\n\n**We'd love to meet:**\n\n    **•    Technical founders who want to build in public** \n\n    **•    Devtool/B2B SaaS teams** where features ship weekly but marketing ships quarterly. We close that gap.\n\n    **•    Operators who've run GTM for devtools at scale** — we'd love to hear what worked and what didn't.\n\nReach out: [maanav@trymemoir.ai](mailto:maanav@trymemoir.ai) · [jason@trymemoir.ai](mailto:jason@trymemoir.ai) · DM on Bookface · <https://calendly.com/maanav-memoir/30min>\n\n**Why this exists**\n\nThe technical teams who build the best products are often the worst at marketing them. Not because they don't care, but because the existing marketing stack is built for someone else. Demo tools cost $30K/year and require sales calls. Social tools want briefs and brand guidelines. Agencies want six-week timelines. Meanwhile, the engineer-founder ships features into a void.\n\nNow that the cost of development is so low, the biggest differentiator is no longer product, its distribution and how well you can capture your target audience. This only happens if you build in public.\n\nThe gap isn't talent or budget, it's that marketing infrastructure hasn't caught up with how technical teams actually work.\n\nMemoir is one system. It reads your repo, drives your live staging app with an AI agent, generates branded demo videos with synthetic data so dashboards look real and narrates them in a voice cloned from yours. Then it drafts posts for X / LinkedIn / HN in your writing voice (learned from how you've posted before) and ships them to your audience after you approve them. The output is indistinguishable from how you'd write and record it yourself, if you had the time.\n\n**How we got here**\n\nJason and I met as interns at IMC Trading. We both wanted to build in devtools, and our first attempt was Memoir as an AI company brain, a knowledge base that synced with your code so internal docs stayed current. Real problem on paper, and people nodded when we described it. But nobody felt urgency about it. Stale docs are annoying, but they don't make you feel like you're losing\n\nWhat we kept noticing while building that, though, was a different pain that _did_ make founders feel like they were losing. We kept hearing the same thing from every successful founder and mentor: build in public, share your product, post consistently. And we kept failing to do it. Not because we didn't want to, but because we'd rather keep building than figure out what to post.\n\nWe watched it happen around us. The teams getting real inbound weren't always the ones with the best product, they were the ones whose founders showed up online. Jason had run a reselling business in high school and scaled multiple social accounts to real followings, so he'd seen distribution work firsthand. I've always been obsessed with marketing strategy, partly because my dad's in the space, partly because I've watched so many teams get ahead of others because of their marketing.\n\n**What's there today**\n\nWe ingest code changes to post product updates, create custom demo videos, and turn relevant current events into advertisements. We currently handle X, Linkedin, and Hackernews posting.\n\n**Why us**\n\nTwo technical founders who got tired of watching engineering-led companies stay invisible. If you've watched a great product fail to find its audience, or you're running one right now and feeling that exact thing, reach out.\n\n![uploaded image](/media/?type=post&id=102386&key=user_uploads/1037475/05714953-7bfc-4d85-b7dc-4b6b0775ecdb)\n\n",
+      "url": "https://www.ycombinator.com/launches/QdO-memoir-ai-cmo-for-software-companies",
+      "votes": 11,
+      "created_at": "2026-06-01T18:59:03.691Z"
+    }
+  ]
+}

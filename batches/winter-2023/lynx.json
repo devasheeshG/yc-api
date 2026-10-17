@@ -1,0 +1,105 @@
+{
+  "id": 27713,
+  "name": "Lynx",
+  "slug": "lynx",
+  "former_names": [
+    "Myly",
+    "CodeComplete AI",
+    "CodeComplete"
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/87bf8e05766a109cbdca1dfc5bfa3fa7f69f32d8.png",
+  "website": "https://uselynx.ai",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "Lynx is an AI platform that investigates and resolves engineering issues directly in your environment, from data anomalies to production outages. When incidents arise, Lynx will automatically gather information, pinpoint root causes, and execute solutions. Lynx makes incident resolution faster and more reliable, so teams can minimize downtime and focus on building.",
+  "one_liner": "AI platform for investigating and resolving engineering incidents",
+  "team_size": 5,
+  "industry": "B2B",
+  "subindustry": "B2B -> Engineering, Product and Design",
+  "launched_at": 1675473274,
+  "tags": [
+    "Artificial Intelligence",
+    "Developer Tools",
+    "DevOps",
+    "AI Assistant"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Winter 2023",
+  "status": "Inactive",
+  "industries": [
+    "B2B",
+    "Engineering, Product and Design"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada",
+    "Remote",
+    "Partly Remote"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/lynx",
+  "api": "https://devasheeshg.github.io/yc-api/batches/winter-2023/lynx.json",
+  "year_founded": 2023,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "",
+  "x_url": "",
+  "fb_url": null,
+  "cb_url": "https://www.crunchbase.com/organization/codecomplete-ai",
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/87bf8e05766a109cbdca1dfc5bfa3fa7f69f32d8.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": null,
+  "founders": [
+    {
+      "user_id": 471786,
+      "full_name": "Max Lu",
+      "title": "Founder",
+      "founder_bio": "Founder / CEO at Lynx",
+      "is_active": false,
+      "linkedin_url": "https://www.linkedin.com/in/max-lu-a881b249/",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/79ad3c95f1f37d0dff46a8d912bafb7a7a2f898f.jpg"
+    },
+    {
+      "user_id": 1160505,
+      "full_name": "Lydia Ding",
+      "title": "Founder",
+      "founder_bio": "Founder / COO at Lynx",
+      "is_active": false,
+      "linkedin_url": "https://www.linkedin.com/in/lydia-ding/",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/091567207db64e1702fa104875db11a631a42f51.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 87299,
+      "title": "Lynx: AI Incident Resolution for Eng Teams",
+      "tagline": "Meet Lynx, the platform to help engineers resolve oncall incidents faster!",
+      "body": "[Lynx](https://uselynx.ai) is an AI-powered incident resolution platform that helps engineers diagnose and resolve on-call issues faster. If you’ve ever been woken up at 2 AM for a production incident and spent hours piecing together logs, metrics, and documentation, Lynx can help. Sign up on our [website](https://www.uselynx.ai/getstarted), reach out to us at [founders@uselynx.ai](mailto:founders@uselynx.ai), or schedule a time with us on [Calendly](https://calendly.com/codecompleteai/lynx-demo).\n\n### The Problem\n\nSoftware engineering has evolved, but on-call hasn’t. Even with the best observability tools, finding the root cause is slow and frustrating: systems grow more complex, documentation becomes scattered, and tribal knowledge gets lost as engineers leave the company.\n\nCompanies need a faster, more intelligent way to diagnose and resolve issues.\n\n### Our Solution\n\nLynx is an AI-powered **incident resolution platform** that allows engineers to easily investigate and resolve issues directly in their development environment.\n\nCheck out our product [demo](https://youtu.be/atzdMyd7PG0)!\n\nWhen incidents arise, **Lynx will automatically gather information, pinpoint root causes, and perform actions to help fix the issue**. Lynx lives on your dev server, so it can connect with all the tools and integrations in your environment. You can directly run code or execute commands on the Lynx platform in order to resolve your issues.\n\n[Lynx Demo - Directly Resolve Incidents](https://youtu.be/TbvYtI5SstQ)\n\nWe built out chain-of-thought command execution so Lynx can automatically generate queries step-by-step and retrieve all the context it needs.\n\n[Lynx Demo - Chain of Thought Command Execution](https://youtu.be/EANK62F75Pc)\n\nWe implemented several safeguards to ensure Lynx only executes read-only commands, but if you want a bit more control, you can opt to manually approve each command before it runs:\n\n[Lynx Demo - Manual Command Execution](https://youtu.be/oGUpwGSPdVQ)\n\nLynx focuses on helping engineers **resolve** incidents instead of just managing them.\n\n### Why We’re Building This\n\nWe started by building self-hosted, fine-tuned AI coding assistants, but we quickly realized coding was just a fraction of an engineer’s workflow. Teams spend just as much—if not more—time testing, debugging, and deploying.\n\nWe saw an opportunity to apply AI beyond generating new code, with on-call standing out as a major pain point. Engineers were losing hours digging through logs, retracing past incidents, and manually correlating data across tools.\n\nLynx was created to streamline incident resolution, but it goes beyond just on-call incidents. Our vision is to create an AI agent that can understands all the ins and outs of your tech stack so it can predict, investigate, and resolve any technical issue.\n\n### **Ask: How you can help**\n\nIf your team has a heavy on-call burden, we'd love to chat about your workflows and pain points.\n\n* Try out our product! Sign up for our waitlist: <https://www.uselynx.ai/getstarted>\n* Introduce us to engineering leaders or teams who might benefit from Lynx.\n\nQuestions? Visit our [website](https://uselynx.ai/), reach out to [founders@uselynx.ai](mailto:founders@uselynx.ai), or schedule a time with us on [Calendly](https://calendly.com/codecompleteai/lynx-demo).\n\n![uploaded image](/media/?type=post&id=87299&key=user_uploads/471786/1e163e61-6d72-4178-b08b-2342f1ad445d)\n\n",
+      "url": "https://www.ycombinator.com/launches/Mi3-lynx-ai-incident-resolution-for-eng-teams",
+      "votes": 23,
+      "created_at": "2025-01-30T14:29:09.564Z"
+    },
+    {
+      "id": 69046,
+      "title": "CodeComplete - GitHub Copilot for Enterprise",
+      "tagline": "AI coding assistant for enterprise that is self-hosted to protect their IP and fine-tuned to their codebases",
+      "body": "### **TLDR**\n\n[CodeComplete](http://codecomplete.ai) is GitHub Copilot for Enterprise. Large companies can't use Copilot because of the security and privacy risks, so we're building a self-hosted version that’s also fine-tuned to the company's codebase. \n\n**If you (or if you know anyone else who):**\n\n* **Would like to use Copilot at work but cannot, or**\n* **Would like a version of Copilot that’s fine tuned to your enterprise codebase**\n\nPlease reach out to us at [founders@codecomplete.ai](mailto:founders@codecomplete.ai) or schedule a time with us on [Calendly](https://calendly.com/lydia-codecomplete/intro). \n\n—\n\n---\n\nHi everyone, we’re Max and Lydia, and we’re building CodeComplete: an AI-powered code assistant built for enterprise companies. We’re incredibly excited about the advances in generative AI and are on a mission to transform the way developers work. Our code completion product is the first in a suite of AI-powered dev tools we’d like to build. \n\n### **The problem**\n\nWe love GitHub Copilot, but in order to use it, you need to send your code to GitHub, Microsoft, and OpenAI. Many large enterprise companies strictly forbid this due to **security and privacy concerns**, so they cannot leverage AI-powered dev tools to multiply their productivity.\n\nAlso, the underlying **Copilot model is not tuned to your codebase**, so you don't always get relevant suggestions. It’s best practice for developers to use their company’s frameworks and libraries. However, without fine tuning, code generation models can suggest generic code, which decreases legibility and introduces technical debt, performance issues, and security holes in the codebase.\n\n### **The solution**\n\nCodeComplete is a **self-hosted AI coding assistant tool that's fine tuned to your codebase**. We train powerful code generation base models on your codebase so we can deliver more relevant suggestions. We deploy these models directly on-premises or in your own cloud, so your valuable intellectual property stays with your company. With CodeComplete, your team can leverage cutting-edge AI technology to be more productive, quickly ramp up developers, and write better code while staying security compliant.\n\n**Demo**\n\n![uploaded image](/media/?type=post&id=69046&key=user_uploads/1160505/0dbe9136-8d6c-415f-a09e-c6f81bba8ddb)\n\n### **Why we’re building this**\n\nMax wanted to use GitHub Copilot at Meta, but leadership explicitly blocked him from doing so. We believe AI-powered dev tools are the future, and we think they can be especially powerful and deliver value at larger companies. We want to set companies up for success in the long run by helping the millions of developers at these companies leverage new AI technology.\n\n**Buy vs. Build**\n\nThis is not a core competency for many large enterprises. Buying a solution will save millions by freeing up engineering resources and catapulting dev velocity. \n\n### **Ask: How you can help**\n\n* Connect us to an engineering leader at a large company that needs our product. [Email us](mailto:founders@codecomplete.ai)!\n* Connect us to engineers who really want to use Copilot but cannot. [Email us](mailto:founders@codecomplete.ai)!\n* Try out our product. Sign up on our [website](https://www.codecomplete.ai/)!\n* **We will provide a $500 referral bonus if your referral becomes a paying customer.**",
+      "url": "https://www.ycombinator.com/launches/Hxe-codecomplete-github-copilot-for-enterprise",
+      "votes": 45,
+      "created_at": "2023-02-06T14:02:26.861Z"
+    }
+  ]
+}

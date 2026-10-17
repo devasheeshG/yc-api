@@ -1,0 +1,118 @@
+{
+  "id": 31147,
+  "name": "Salus",
+  "slug": "salus",
+  "former_names": [],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/ab475a73fae950cedb2c238eb5a23d6a709d5cb2.png",
+  "website": "https://www.usesalus.ai/",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "Your agent processed a refund without looking up the order ID, costing you thousands. You only found out three hours later from a support ticket. Evals, output scoring, and observability can reduce the likelihood of mistakes like these occurring - but there's no solution that inspects and prevents an action as it’s about to execute. Salus does that.\r\n\r\nWe’ve built an API that wraps around your agent and checks its actions at run time, blocking incorrect ones and providing immediate feedback to guide retries. ",
+  "one_liner": "Guardrails to validate your agent's actions before they execute",
+  "team_size": 2,
+  "industry": "B2B",
+  "subindustry": "B2B -> Infrastructure",
+  "launched_at": 1770354850,
+  "tags": [
+    "Artificial Intelligence",
+    "Developer Tools",
+    "B2B",
+    "API",
+    "Infrastructure"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": true,
+  "nonprofit": false,
+  "batch": "Winter 2026",
+  "status": "Active",
+  "industries": [
+    "B2B",
+    "Infrastructure"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/salus",
+  "api": "https://devasheeshg.github.io/yc-api/batches/winter-2026/salus.json",
+  "year_founded": 2026,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/salus-dev/",
+  "x_url": "",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/ab475a73fae950cedb2c238eb5a23d6a709d5cb2.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Ankit Gupta",
+    "url": "https://www.ycombinator.com/people/ankit-gupta"
+  },
+  "founders": [
+    {
+      "user_id": 2134297,
+      "full_name": "Vedant Singh",
+      "title": "Founder/CTO",
+      "founder_bio": "Building to validate your AI agent's actions before they execute\n\nAI researcher and formerly @Stanford CS",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/thevedantsingh/",
+      "x_url": "https://x.com/thevedants1",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/bb85a6b93f54bf5dfe9bf73ff7696fb9b3b03f51.jpg"
+    }
+  ],
+  "jobs": [
+    {
+      "id": 95662,
+      "title": "Founding GTM / BDR — AI Agent Infrastructure",
+      "url": "https://www.ycombinator.com/companies/salus/jobs/S2nl2Hx-founding-gtm-bdr-ai-agent-infrastructure",
+      "location": "San Francisco, CA, US / Remote (San Francisco, CA, US)",
+      "type": "Contract",
+      "role": "Sales",
+      "role_type": null,
+      "salary_range": "$35 - $45 / hourly",
+      "equity_range": "",
+      "experience": "Any (new grads ok)",
+      "visa": "US citizen/visa only",
+      "skills": []
+    },
+    {
+      "id": 110168,
+      "title": "Founding SWE / MLE",
+      "url": "https://www.ycombinator.com/companies/salus/jobs/6xN06s6-founding-swe-mle",
+      "location": "San Francisco, CA, US / New York, NY, US / Remote (US)",
+      "type": "Full-time",
+      "role": "Engineering",
+      "role_type": "Machine learning",
+      "salary_range": "$250K - $500K",
+      "equity_range": "0.50% - 2.00%",
+      "experience": "1+ years",
+      "visa": "Will sponsor",
+      "skills": [
+        "Python",
+        "TypeScript",
+        "LLMs",
+        "AI Agents"
+      ]
+    }
+  ],
+  "news": [],
+  "launches": [
+    {
+      "id": 97574,
+      "title": "Salus - Runtime guardrails that validate AI agent actions before they execute",
+      "tagline": "Salus checks your agent's actions, blocking incorrect ones and providing feedback to guide retries",
+      "body": "### **TL;DR:**\n\n**Salus is an API that wraps around your agent and checks its actions at runtime, blocking incorrect ones and providing immediate feedback to guide retries.**\n\nWe’re Kevin and Vedant, former roommates at Stanford who studied CS, now building Salus full-time.\n\n### 😔**The problem:** \n\nYour agent processed a refund without looking up the order, costing you thousands. It emailed your top lead using hallucinated data, ruining the deal. You only found out three hours later from a support ticket or an angry email.\n\nEvals, output scoring, and observability are all necessary—but all reactive. They can reduce the likelihood of these problems occurring, but there's no solution that inspects an action as it’s about to execute. Salus does that.\n\n**Ask:** If you are deploying agents and want to improve their correctness we’d love to help. Book a demo [here](https://calendly.com/d/cycy-fbc-fyj/salus-demo), and we can onboard you immediately with just a pip install and a few lines of code.\n\n### 💻 **Our Solution:** \n\n<https://youtu.be/uyl5NJTY5Cg>\n\n**How Salus validates an action:**\n\n1. Actions must be **grounded in evidence**: Salus maintains an evidence cache for each run that every proposed action is validated against. Evidence includes all outputs from prior tool calls and the entire conversation history.\n2. It must **adhere to policy**: Write constraints in YAML, markdown, or plain English. Salus compiles them into runtime checks that are version-controlled, diffable, and shadow-testable\n3. And **more**: PII detection, budget/loop protection, idempotency, human-in-the-loop escalation, content moderation\n\n**Self-repairing:** When Salus blocks an action, the agent receives structured feedback to guide a retry. In our benchmarks, **58%** of blocked actions recover and complete the task correctly.\n\n### 📊 **Benchmarks:** \n\nWe tested Salus on τ²-bench and ODCV-Bench. On τ²-bench, agents with Salus follow policies more reliably, at up to **60% lower cost**. On ODCV-Bench, Salus **reduced misalignment by 52%** on average across 12 frontier models (see below).\n\n![uploaded image](/media/?type=post&id=97574&key=user_uploads/1940292/e48b27f6-2e13-4d40-a9a4-13135ff981bc)\n\n### ➕ **Other Features:** \n\nWhile we believe the missing piece is runtime validation, we know **evals and observability** are crucial. That’s why we incorporate all three in **one centralized product**. Using templates and LLMs, we generate thousands of both adversarial and realistic evals that have full context of your agent’s domain.\n\nContact us: [founders@usesalus.ai](https://founders@usesalus.ai)\n\n![uploaded image](/media/?type=post&id=97574&key=user_uploads/1940292/cc3d0be7-941f-46ef-be8f-1294b9148073)\n\n",
+      "url": "https://www.ycombinator.com/launches/PNm-salus-runtime-guardrails-that-validate-ai-agent-actions-before-they-execute",
+      "votes": 30,
+      "created_at": "2026-02-06T11:20:42.138Z"
+    }
+  ]
+}

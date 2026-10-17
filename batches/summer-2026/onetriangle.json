@@ -1,0 +1,108 @@
+{
+  "id": 31074,
+  "name": "OneTriangle",
+  "slug": "onetriangle",
+  "former_names": [
+    "EvalAI",
+    "TrustAI Labs",
+    "TrustAI"
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/75197a50573558e4b8c16932b7db7c7c11f235a4.png",
+  "website": "https://onetriangle.ai/",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "Inference has surpassed training as AI’s largest compute cost, accelerated by increasing demand for AI and agents. By using proprietary KV cache transfer tech, OneTriangle has cut inference costs by 20% and time by 40% compared to present standards.",
+  "one_liner": "The cheapest, fastest inference cloud",
+  "team_size": 4,
+  "industry": "B2B",
+  "subindustry": "B2B -> Infrastructure",
+  "launched_at": 1783378352,
+  "tags": [
+    "Artificial Intelligence",
+    "Open Source",
+    "Infrastructure"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Summer 2026",
+  "status": "Active",
+  "industries": [
+    "B2B",
+    "Infrastructure"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": [
+    {
+      "question": "How did your company get started? (i.e., How did the founders meet? How did you come up with the idea? How did you decide to be a founder?)",
+      "answer": "Hi, we’re Hannah and Medha! Three years ago, we met at MIT, and now are co-founding OneTriangle. Hannah loves scaling companies and Medha loves making ideas become real products. Together, we built OneTriangle to push the limits on latency, cost, and quality. "
+    },
+    {
+      "question": "What is your long-term vision? If you truly succeed, what will be different about the world?",
+      "answer": "We believe the future of AI will be defined by intelligence and trust. AI agents will reliably carry out human intent while recognizing and refusing actions that are unsafe, unlawful, or harmful. With the rate of advancing ML systems, we will bridge this ever-increasing gap. We provide a compliance standard for all agents to follow, ensuring that humans and agents are perfectly aligned in their intentions."
+    }
+  ],
+  "url": "https://www.ycombinator.com/companies/onetriangle",
+  "api": "https://devasheeshg.github.io/yc-api/batches/summer-2026/onetriangle.json",
+  "year_founded": 2026,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/trustaiinference/",
+  "x_url": "https://x.com/OneTriangleAI",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/75197a50573558e4b8c16932b7db7c7c11f235a4.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [
+    "https://bookface-images.s3.us-west-2.amazonaws.com/attachments/f775cf723e5a0f2258a41df7227d4243e4b2b3b5.png",
+    "https://bookface-images.s3.us-west-2.amazonaws.com/attachments/d28c1c890fcf41f1e457a449b678b33930d05cb5.png"
+  ],
+  "primary_partner": {
+    "name": "Ankit Gupta",
+    "url": "https://www.ycombinator.com/people/ankit-gupta"
+  },
+  "founders": [
+    {
+      "user_id": 2573695,
+      "full_name": "Hannah Chung",
+      "title": "Founder/CEO",
+      "founder_bio": "MIT CS & Econ → @Virtu Financial →  Fastest, Cheapest Lightweight Inference @OneTriangle\n",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/hannahchung1/",
+      "x_url": "https://x.com/hannah_chuu",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/a97b9b67d35f8f68aeebc4b930d52ab56e6b4e49.jpg"
+    },
+    {
+      "user_id": 2043461,
+      "full_name": "Medha Venkatapathy",
+      "title": "Founder/CTO",
+      "founder_bio": "Hi! I studied physics + cs at mit, and we're building the cheapest/fastest inference with KV cache transferability. In my free time, I like to bike and get lost.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/medhav/",
+      "x_url": "https://x.com/medha_rv",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/543ebe65ad3407ffb95c2dd2e5183140b298be3f.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 111487,
+      "title": "OneTriangle - The fastest, cheapest inference, powered by KV cache transfer",
+      "tagline": "Lightweight novel inference ",
+      "body": "**TL;DR:** OneTriangle is building the cheapest, fastest inference. We cut inference prefill costs by 20% and time-to-first-token by 40%, letting you get large-model quality at small-model cost.\n\nVideo: <https://youtu.be/HKe2EZUdNHo>\n\n**Team**\n\nWe’re Hannah (CEO) and Medha (CTO), MIT CSAIL grads building with a team of 4 MIT engineers spanning ex-DeepMind and Jane Street, Physics and Astronomy Olympiad medalists, and NeurIPS/ICML authors. \n\n**The Problem**\n\nInference is expensive. \n\n• You’re forced into a bad tradeoff. You need the decoding power of large models, but you have the budget for small ones.\n\n• Prefill is the hidden tax. For long-context and agentic workloads, prefill dominates cost and latency, and everyone just eats it.\n\n**Our Solution**\n\nOneTriangle transfers the KV cache between models, something that has never been done in production. We prefill on a small model, strip the positional encoding, map the cache into the large model’s space, and restore relative importances. The result:\n\n• 20% lower prefill costs\n\n• 40% faster TTFT\n\n• Large-model quality at small-model cost\n\nWe beat out NVIDIA’s KV cache transfer paper by getting a lower KL divergence score in 2 weeks.\n\n![uploaded image](/media/?type=post&id=111487&key=user_uploads/2573695/e64727d6-a7b1-404a-bfbb-22ad2b941142)\n\n\\\nNo API changes, no quality cliff, and we’re upstreaming it into vLLM so the fastest path to cheap inference is the infrastructure you already run.\n\n**Why Now**\n\nInference has surpassed training as AI’s largest compute cost, and it’s accelerating with demand for agents that generate 10x the tokens a chat session does. Inference already eats up to 90% of total compute cost, over $600 billion is going into AI data centers this year alone. Every team pushing the frontier is bottlenecked by the same thing: serving costs.\n\n\\\n**The Future**\n\nOur bet is that model-mixing becomes the default serving pattern: small models handle prefill and routine tokens, large models handle the hard ones, and the cache moves freely between them. Whoever owns the transfer layer owns the economics of inference. We are the future of lightweight, fast inference.",
+      "url": "https://www.ycombinator.com/launches/T0B-onetriangle-the-fastest-cheapest-inference-powered-by-kv-cache-transfer",
+      "votes": 10,
+      "created_at": "2026-08-21T02:30:02.532Z"
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "id": 22743,
+  "name": "Segments.ai",
+  "slug": "segments-ai",
+  "former_names": [],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/ac88c08aefaf0753bc9d29d8d7ced656148b852c.png",
+  "website": "https://segments.ai",
+  "all_locations": "Brussels, Brussels, Belgium; Remote",
+  "long_description": "[Segments.ai](http://segments.ai/) is helping robotics and automotive companies label their multi-sensor data for AI training and validation. Our platform enables customers to efficiently annotate their point cloud and image data, accelerating their path to autonomy.\r\n\r\nWe're a fast-growing, remote-first YC startup with a lean team and healthy runway. [Segments.ai](http://segments.ai/) is used by large organizations as well as innovative startups building the next generation of autonomous drones, delivery robots, self-driving cars, and more.",
+  "one_liner": "Build better computer vision models by building better datasets",
+  "team_size": 8,
+  "industry": "B2B",
+  "subindustry": "B2B -> Engineering, Product and Design",
+  "launched_at": 1615300374,
+  "tags": [
+    "Deep Learning",
+    "Developer Tools",
+    "Computer Vision"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Winter 2021",
+  "status": "Acquired",
+  "industries": [
+    "B2B",
+    "Engineering, Product and Design"
+  ],
+  "regions": [
+    "Belgium",
+    "Europe",
+    "Remote",
+    "Fully Remote"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": [
+    {
+      "question": "What's the history of your company from getting started until the present day? What were the big inflection points?",
+      "answer": "In 2020, [Segments.ai](http://Segments.ai) launched as a data labeling solution designed explicitly for segmentation. Initially, we had many customers in the robotics and autonomous driving industries. This stimulated us to address the complex needs of autonomous navigation, leading us to introduce point cloud support.Through close collaboration with our customers, we quickly realized that manually labeling multiple modalities can be time-consuming, costly, and ineffective. Therefore, we shifted our focus towards providing multi-sensor support by integrating built-in projection steps and automation.HISTORY* Founded in early 2020 by Otto Debals (CEO) and Bert De Brabandere (CTO) after finishing their PhDs and gaining experience in the (automotive) industry* Funded in 2021 by YCombinator and other VC funds, including Merus Capital, Volta Ventures.* [Segments.ai](http://Segments.ai) is ISO27001 certified, GDPR compliant and EU based* We hired our first employee in 2021 and our first employee in the USA (where the majority of our customers are based) in 2023."
+    },
+    {
+      "question": "What is the core problem you are solving? Why is this a big problem? What made you decide to work on it?",
+      "answer": "Automotive and robotics companies increasingly use lidar, radar, and camera sensors during labeling and deployment. The more sensors they use, the more accurate and robust their ML models become.[Segments.ai](http://Segments.ai) is designed to address the challenges faced by ML engineers. According to a recent study, more than 70% of ML engineers spend over 50% of their time building training data. Using additional sensors can further increase the budget and time for development and training. With [Segments.ai](http://Segments.ai), you streamline this process, saving both time and resources.[Segments.ai](http://Segments.ai) is committed to providing the best solutions for computer vision engineers and data scientists working in autonomous robotics. You can label all your data in a single interface and seamlessly integrate it with your pipelines and infrastructure, making it easier to build multi-sensor data models at scale."
+    }
+  ],
+  "url": "https://www.ycombinator.com/companies/segments-ai",
+  "api": "https://devasheeshg.github.io/yc-api/batches/winter-2021/segments-ai.json",
+  "year_founded": 2020,
+  "city": "Brussels",
+  "country": "BE",
+  "linkedin_url": "https://www.linkedin.com/company/segmentsai/",
+  "x_url": "https://twitter.com/SegmentsAI",
+  "fb_url": null,
+  "cb_url": "https://www.crunchbase.com/organization/segments-ai",
+  "github_url": "https://github.com/segments-ai",
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/ac88c08aefaf0753bc9d29d8d7ced656148b852c.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Harj Taggar",
+    "url": "https://www.ycombinator.com/people/harj-taggar"
+  },
+  "founders": [
+    {
+      "user_id": 600471,
+      "full_name": "Otto Debals",
+      "title": "Founder",
+      "founder_bio": "CEO & co-founder of Segments.ai. Studied mathematical & electrical engineering, and obtained a PhD in signal separation / multilinear algebra. During my PhD, launched Investimize (a financial robo-advisor) together with my current cofounder Bert and also pursued CFA level I. Spent 2 years afterwards at McK - supporting >15 projects across different functions, industries and regions. Launched Segments.ai in Jan 2020. Passionate about whisky, F1 and long-distance running!",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/otto-debals/",
+      "x_url": "https://twitter.com/ottodebals",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/47e795756a420d12b1582ff63804fd9108810de8.jpg"
+    },
+    {
+      "user_id": 282465,
+      "full_name": "Bert De Brabandere",
+      "title": "Founder",
+      "founder_bio": "Founder at Segments.ai, PhD from KU Leuven, Computer Vision and Machine Learning. All the way from Belgium.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/bert-de-brabandere/",
+      "x_url": "https://twitter.com/BBrabandere",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/a0fe615dd7be5eba5cb70ea901becd8dec905462.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": []
+}

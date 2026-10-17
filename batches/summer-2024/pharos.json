@@ -1,0 +1,102 @@
+{
+  "id": 29857,
+  "name": "Pharos",
+  "slug": "pharos",
+  "former_names": [
+    "Integral"
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/b6bc69e6d80f63ab6e42521e8b3794045119a54b.png",
+  "website": "https://pharos.health/",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "Pharos automates hospital quality reporting, saving millions in labour costs and helping to prevent avoidable patient harm. \r\n\r\nToday, clinicians spend thousands of hours manually pulling complex facts out of medical records for mandatory reporting and quality improvement.\r\n\r\nOur AI pulls those facts out of unstructured medical records automatically. We automate reporting and show staff where avoidable patient harm is happening.",
+  "one_liner": "Helping hospitals identify and prevent avoidable harm using AI",
+  "team_size": 5,
+  "industry": "Healthcare",
+  "subindustry": "Healthcare -> Healthcare IT",
+  "launched_at": 1722645222,
+  "tags": [
+    "Healthcare",
+    "AI"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Summer 2024",
+  "status": "Active",
+  "industries": [
+    "Healthcare",
+    "Healthcare IT"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": [
+    {
+      "question": "How did your company get started? (i.e., How did the founders meet? How did you come up with the idea? How did you decide to be a founder?)",
+      "answer": "Felix and Matthew worked together for nearly 5 years at [Vital.io](http://Vital.io), a company deploying AI models into hospitals. While piloting clinical adoption of a predictive sepsis model, they realized that enabling quality staff with AI represents a huge opportunity to improve patient outcomes."
+    },
+    {
+      "question": "What is your long-term vision? If you truly succeed, what will be different about the world?",
+      "answer": "We believe in a future where AI catches medical mistakes everywhere in the hospital, before they become serious. We want to be the lighthouse for our hospitals, supporting clinicians and reducing patient harm."
+    }
+  ],
+  "url": "https://www.ycombinator.com/companies/pharos",
+  "api": "https://devasheeshg.github.io/yc-api/batches/summer-2024/pharos.json",
+  "year_founded": 2024,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/104694129",
+  "x_url": "",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/b6bc69e6d80f63ab6e42521e8b3794045119a54b.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Jared Friedman",
+    "url": "https://www.ycombinator.com/people/jared-friedman"
+  },
+  "founders": [
+    {
+      "user_id": 1071896,
+      "full_name": "Felix Brann",
+      "title": "Founder/CEO",
+      "founder_bio": "CEO at Pharos. Previously VP Data Science at vital.io and VP Quantitative Research at JP. Morgan. \n\nObsessed with sepsis: https://ai.jmir.org/2024/1/e49784 ",
+      "is_active": true,
+      "linkedin_url": "https://linkedin.com/in/felix-brann",
+      "x_url": "https://x.com/felix_brann",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/59f18f5df5bf9592d0597244f3304221e98bcdff.jpg"
+    },
+    {
+      "user_id": 1071901,
+      "full_name": "Matthew Jones",
+      "title": "Founder/CTO",
+      "founder_bio": "Founder and CTO at Pharos, preventing avoidable harm in hospitals using AI. Previously part of the founding team of Market2x, a rural trucking marketplace and optimisation platform in New Zealand.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/matthewrj",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/f9eca52b981b51998b94cdf496a277206ad87afc.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 83321,
+      "title": "🏥 Pharos - Automate reporting and prevent patient harm with AI",
+      "tagline": "We automate medical quality reporting, and show hospital teams where and why patient harm is happening.",
+      "body": "**tl;dr:** _The data hospital teams need to improve patient safety is buried in unstructured medical records. Today, clinicians spend thousands of hours manually ‘abstracting’ it for reporting and analysis. We automate the entire process and use the data to show them where and why avoidable harm is happening._\n\nHi folks! We’re Felix and Matthew, and we’re building [Pharos](https://pharos.health/).\n\n![uploaded image](/media/?type=post&id=83321&key=user_uploads/1071896/62d84f34-3817-4a5b-a0cd-dd33696a375f)\n\n## The problem:\n\nAvoidable harm happens in hospitals **all the time**. Wards are busy, clinician turnover is high, and an aging population means increasingly complex patients. Sepsis alone kills 350,000 patients a year in the US, and a significant number of those deaths are preventable.\n\nHospitals have teams dedicated to preventing harm. They track avoidable events, identify the process failures that cause them, and report performance data to clinical registries. This means identifying harm events, risk factors and process adherence from patient journeys composed of pages of unstructured clinical notes.\n\nToday, this is an entirely manual process. Producing structured quality metrics from a single complex patient case can take up to **8 hours of clinical time**. A single hospital can spend **$5m per year** extracting this data, and it still arrives weeks after discharge, on a small sample of their patients.\n\n## The solution:\n\nOur AI extracts the data quality teams need from **every patient record in real-time**. It produces verifiable quality metrics, with references into the original medical record.\n\n![uploaded image](/media/?type=post&id=83321&key=user_uploads/1071896/846b2e48-6ec0-4dd0-bbce-aaccf821b343)\n\nWe use this data to:\n\n* **Automate reporting** for clinical registries and value-based reimbursement contracts, saving thousands of clinical hours.\n* **Identify and surface process failures** that are contributing to patient harm, letting teams take action on issues like sepsis, hospital-acquired infections, and pressure ulcers.\n* **Measure the impact of quality improvement projects** in real-time rather than months after implementation.\n\n## Why us?\n\n[Felix](https://linkedin.com/in/felix-brann) and [Matthew](https://www.linkedin.com/in/matthewrj) spent the past 5 years deploying patient and clinician-facing AI into over 70 hospitals together.\n\nAs VP of Data Science, Felix published papers in major medical journals on sepsis prediction and medical record summarization using LLMs. Matthew has years of experience integrating software into EHRs and previously built another startup from inception to international expansion.\n\nAlex joined the team after working as a doctor in the UK and then as a medical AI researcher at Imperial College London and Meta’s Reality Labs. He experienced this problem firsthand, spending years of his residency frustrated at the manual abstraction required for quality improvement.\n\nWe believe enabling quality teams with AI represents a huge opportunity to save lives and prevent harm.\n\n## Our ask:\n\nPlease reach out to [felix@pharos.health](mailto:felix@pharos.health) if you know the following people!\n\n* Anyone working at a senior level at a US hospital (we’ll ask them for an intro to their quality team)\n* Anyone working in healthcare with a title that includes “Quality”, “Patient Safety,” or “(Sepsis, Stroke, …) Coordinator”\n* Academics and clinicians working at the intersection of data and clinical quality",
+      "url": "https://www.ycombinator.com/launches/Lft-pharos-automate-reporting-and-prevent-patient-harm-with-ai",
+      "votes": 73,
+      "created_at": "2024-08-22T20:11:27.515Z"
+    }
+  ]
+}

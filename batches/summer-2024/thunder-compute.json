@@ -1,0 +1,153 @@
+{
+  "id": 29767,
+  "name": "Thunder Compute",
+  "slug": "thunder-compute",
+  "former_names": [
+    "Thunder"
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/2623539c5a9dddb54681db96f38cf2be0f9428d9.png",
+  "website": "https://www.thundercompute.com",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "Thunder Compute is a systems research lab with commercial focus. We productionize GPU virtualization research to provide step-change improvements in utilization to our cloud offering and partner GPU fleets.",
+  "one_liner": "GPUs for Agents",
+  "team_size": 10,
+  "industry": "B2B",
+  "subindustry": "B2B -> Infrastructure",
+  "launched_at": 1723245936,
+  "tags": [
+    "Artificial Intelligence",
+    "Developer Tools",
+    "Data Science",
+    "Cloud Computing",
+    "Infrastructure"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": true,
+  "nonprofit": false,
+  "batch": "Summer 2024",
+  "status": "Active",
+  "industries": [
+    "B2B",
+    "Infrastructure"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": [
+    {
+      "question": "How did your company get started? (i.e., How did the founders meet? How did you come up with the idea? How did you decide to be a founder?)",
+      "answer": "Carl Peterson and Brian Model met as freshmen at Georgia Tech and became close friends. The idea for Thunder Compute sparked from Brian's experience in his Systems for AI lab, where researchers made GPU reservations weeks in advance via Google Sheets, severely hindering research progress. This inefficiency inspired us to explore ways to improve GPU access."
+    }
+  ],
+  "url": "https://www.ycombinator.com/companies/thunder-compute",
+  "api": "https://devasheeshg.github.io/yc-api/batches/summer-2024/thunder-compute.json",
+  "year_founded": 2022,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/thundercompute/",
+  "x_url": "https://x.com/ThunderCompute",
+  "fb_url": null,
+  "cb_url": "https://www.crunchbase.com/organization/thunder-9b4c",
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/2623539c5a9dddb54681db96f38cf2be0f9428d9.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [
+    "https://bookface-images.s3.us-west-2.amazonaws.com/attachments/d3fd827d18b35d35d4f3861cffb2a960801078b5.png"
+  ],
+  "primary_partner": {
+    "name": "Aaron Epstein",
+    "url": "https://www.ycombinator.com/people/aaron-epstein"
+  },
+  "founders": [
+    {
+      "user_id": 1276433,
+      "full_name": "Carl Peterson",
+      "title": "Founder/CEO",
+      "founder_bio": "CEO of Thunder Compute, formerly Management Consultant at Bain",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/cpeterson42",
+      "x_url": "https://twitter.com/carl_petey",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/64f0d31897538a58874ce79d46b9d3390a4e51f9.jpg"
+    },
+    {
+      "user_id": 1989859,
+      "full_name": "Brian Model",
+      "title": "Founder/CTO",
+      "founder_bio": "CTO of Thunder Compute, formerly Quantitative Developer at Citadel Securities",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/brian-model/",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/c3c91379c7fd849da36c768aedd80a5f6151a624.jpg"
+    }
+  ],
+  "jobs": [
+    {
+      "id": 79986,
+      "title": "Cloud Infrastructure Engineer",
+      "url": "https://www.ycombinator.com/companies/thunder-compute/jobs/dtlQhtw-cloud-infrastructure-engineer",
+      "location": "San Francisco, CA, US",
+      "type": "Full-time",
+      "role": "Engineering",
+      "role_type": "Full stack",
+      "salary_range": "$1",
+      "equity_range": "",
+      "experience": "1+ years",
+      "visa": "US citizen/visa only",
+      "skills": [
+        "Go",
+        "Kubernetes",
+        "Python",
+        "Linux"
+      ]
+    },
+    {
+      "id": 82422,
+      "title": "Systems Software Engineer (C++)",
+      "url": "https://www.ycombinator.com/companies/thunder-compute/jobs/SZq8TQx-systems-software-engineer-c",
+      "location": "San Francisco, CA, US",
+      "type": "Full-time",
+      "role": "Engineering",
+      "role_type": "Backend",
+      "salary_range": "$1",
+      "equity_range": "",
+      "experience": "1+ years",
+      "visa": "US citizen/visa only",
+      "skills": [
+        "C++",
+        "TCP/IP",
+        "Linux",
+        "Distributed Systems"
+      ]
+    }
+  ],
+  "news": [
+    {
+      "title": "Thunder Compute raises $13M to squeeze more work out of idle GPUs - SiliconANGLE",
+      "url": "https://siliconangle.com/2026/08/19/thunder-compute-raises-13m-squeeze-work-idle-gpus/",
+      "date": "Aug 19, 2026"
+    },
+    {
+      "title": "Thunder Compute Raises $500K to Advance GPU Access for AI Developers | citybiz",
+      "url": "https://www.citybiz.co/article/575672/thunder-compute-raises-500k-to-advance-gpu-access-for-ai-developers/",
+      "date": "Jul 10, 2024"
+    }
+  ],
+  "launches": [
+    {
+      "id": 82910,
+      "title": "Thunder Compute: Launch GPU instances in one click for 80% less",
+      "tagline": "Self-serve GPUs in VS Code with persistent storage, snapshots, and hot-swappable hardware, for 80% less than AWS",
+      "body": "![uploaded image](/media/?type=post&id=82910&key=user_uploads/1276433/30b5b896-6109-4aa6-8a05-fb9a138f61a8)\n\n### **The backstory**\n\nHi everyone, we’re Carl and Brian, aka the team behind [Thunder Compute.](https://thundercompute.com)\n\n![uploaded image](/media/?type=post&id=82910&key=user_uploads/1276433/07db7c92-f1f2-4356-80f8-9dabf9c2fbcd)\n\nBefore Thunder Compute, [Carl](https://www.linkedin.com/in/cpeterson42) was a Management Consultant at Bain & Company, and [Brian](https://www.linkedin.com/in/brian-model/) was a Quantitative Developer at Citadel Securities. Carl and Brian met at Georgia Tech and have been close friends for over 6 years.\n\n### **Problem**\n\nGPU access sucks. Today’s options are expensive and hard to use. Developers are crowded out of the market by large corporations and can’t get the GPUs they need for reasonable prices. Even if you can afford GPUs, they are scarce and hard to use.\n\n### **Solution**\n\nThunder Compute sells cloud GPUs for the lowest rates on the market and provides a simple interface to access them.\n\nYou can connect in one click through VSCode, without SSH. We have “prototyping” mode, with prices 50% lower than anywhere else, and “production” mode, with higher uptime and multi-GPU nodes.\n\n### **Our offer**\n\nSimple: low-cost, easy GPUs. \\\n\\\nIf you’re looking for a better GPU cloud, join Thunder Compute’s public beta today at [www.thundercompute.com](https://www.thundercompute.com).\\\n\\\nIf you have questions, need technical support, or want to rant about the current state of GPUs, join our discord at [**https://discord.gg/nwuETS9jJK**](https://discord.gg/nwuETS9jJK) or contact us at [**founders@thundercompute.com.**](https://mailto:founders@thundercompute.com/)",
+      "url": "https://www.ycombinator.com/launches/LZG-thunder-compute-launch-gpu-instances-in-one-click-for-80-less",
+      "votes": 50,
+      "created_at": "2024-08-11T14:49:40.486Z"
+    }
+  ]
+}

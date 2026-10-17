@@ -1,0 +1,109 @@
+{
+  "id": 30533,
+  "name": "Pelica",
+  "slug": "pelica",
+  "former_names": [
+    "Cue",
+    "Delty AI",
+    "Delty"
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/01b4aaee846929d39e6331c0fdbf8fdf6ea08da6.png",
+  "website": "https://www.pelica.com/",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "Pelica helps risk-bearing healthcare organizations improve quality performance, close care gaps, and lower administrative cost using specialized AI agents. Built for health plans, IPAs, MSOs, ACOs, and risk-bearing medical groups, Pelica unifies claims, EHR, pharmacy, lab, and ADT data into one live member record, then gives quality, risk adjustment, pharmacy, provider network, and care management teams agents that carry work through to completion. Pelica currently serves more than 350,000 members.",
+  "one_liner": "AI agents for risk-bearing healthcare organizations",
+  "team_size": 5,
+  "industry": "Healthcare",
+  "subindustry": "Healthcare -> Healthcare IT",
+  "launched_at": 1746945144,
+  "tags": [
+    "Artificial Intelligence",
+    "B2B",
+    "Healthcare",
+    "Healthcare IT",
+    "AI"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Spring 2025",
+  "status": "Active",
+  "industries": [
+    "Healthcare",
+    "Healthcare IT"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/pelica",
+  "api": "https://devasheeshg.github.io/yc-api/batches/spring-2025/pelica.json",
+  "year_founded": 2025,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/pelica-health",
+  "x_url": "https://x.com/pelica_ai",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/01b4aaee846929d39e6331c0fdbf8fdf6ea08da6.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [
+    "https://bookface-images.s3.us-west-2.amazonaws.com/attachments/3592a4cddd99c429a1de41b044ad4421f8715704.png"
+  ],
+  "primary_partner": {
+    "name": "Nicolas Dessaigne",
+    "url": "https://www.ycombinator.com/people/nicolas-dessaigne"
+  },
+  "founders": [
+    {
+      "user_id": 1494518,
+      "full_name": "Lalit Kundu",
+      "title": "Founder/CEO",
+      "founder_bio": "building healthcare's AI operating system\n\nPreviously grew to Staff Engineer at Google within 6 years, where I led a 45+ engineer org to deliver $XX-B ARR solutions. Before that, I built core payments infrastructure for Google Pay India.\n\nProgrammer at heart, ACM-ICPC World Finalist and coach for India’s IOI team (8 medals).",
+      "is_active": true,
+      "linkedin_url": "https://linkedin.com/in/lalitkundu",
+      "x_url": "https://x.com/lalitkundu_lk",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/c49bb02edfac8334428f26fd9054e287fbf8eb19.jpg"
+    },
+    {
+      "user_id": 365863,
+      "full_name": "Catherine Zhao",
+      "title": "Founder/COO",
+      "founder_bio": "Building Pelica.\n\nPrev Google APM & SWE (building YouTube, ChromeOS, image & video GenAI infra, enterprise AI agents). Always volunteering in healthcare (clinical research, memory care, medical assistant at a free clinic). And the first job I ever got paid to do was a caricature artist at an amusement park!",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/cat-catherine-zhao",
+      "x_url": "http://x.com/cthrnzh",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/b8e37abb070b42100857cbdd9d26a87ead838541.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 103962,
+      "title": "Pelica: the AI operating system for value-based care",
+      "tagline": "AI agents that capture the risk, close the gaps, and make the calls, so small teams can keep whole populations healthy.",
+      "body": "Hey everyone 👋 We’re Lalit and Catherine, co-founders of Pelica Health.\n\n## **TL;DR**\n\nPelica is the AI operating system for value-based care. We pull claims, EHR, pharmacy, lab, and hospital feeds into **one canonical record**, then run AI copilots that read and write to it: risk adjustment, Stars and quality, pharmacy, provider network, and care management, plus an AI data analyst you can ask anything in plain English. The copilots **do the operational work themselves**: capturing HCCs in real time, closing gaps once across every payer, and making outreach calls in the member’s language. HIPAA-compliant, SOC 2 Type II, and RADV-defensible.\n\nWe’re live with a physician-led IPA in New York, one of the largest independent medical groups in the Northeast: **2,500+ hours saved** and higher CMS Star Ratings so far.\n\n▶️ Watch their story: <https://youtu.be/2CGmyif9Yd4>\n\n![uploaded image](/media/?type=post&id=103962&key=user_uploads/1494518/e873acc4-f206-4eca-8617-9bf7f70f3b62)\n\n_An AI agent works one gap end to end: provider office, pharmacy, the member in their language, the payer portal, then a live call. Closed in 3 minutes of staff time._\n\n## **🚩 The problem**\n\nValue-based care pays a medical group or health plan to keep a whole population healthy, and billions in CMS bonuses ride on it. The teams who own those contracts decide whether the org makes money, and they cannot operate:\n\n• Their data lives in 8 to 15 systems. By the time a problem surfaces, the submission window has closed.\n\n• Risk calls a member. Quality calls the same member. The practice calls again, sometimes in a language the member doesn’t speak.\n\n• The best predictive model is worthless if it never reaches the provider.\n\n• The rules keep moving. Hybrid HEDIS is retiring into ECDS volumes many times higher per measure, and the V28 phase-in costs the average MA plan about 3% of RAF.\n\nEvery new gap gets a new point vendor, each with its own portal, data model, and login. These teams do not need another point tool. They need an operating system.\n\n## **🛠️ What we built**\n\nOne canonical record, with an AI workforce next to every team. Six copilots:\n\n• **Risk Adjustment:** real-time HCC capture with trumping logic and RADV-defensible chain of custody on every code.\n\n• **Quality and Stars:** gap closure unified across every payer, with year-round forecasting for the post-hybrid HEDIS world.\n\n• **Pharmacy and Part D:** PDC lift on the three triple-weighted measures that move Stars the most.\n\n• **Provider Network:** auto-built practice agendas that cut meeting prep from 90 minutes to 15.\n\n• **Care Management:** ADT-driven transitions-of-care worklists, with no duplicate calls across teams.\n\n• **AI Data Analyst:** plain-English questions against the record, in place of the BI ticket queue.\n\n![uploaded image](/media/?type=post&id=103962&key=user_uploads/1494518/13a2d9aa-5ac8-4ab4-bf2c-b61fe8bccb56)\n\n_Risk Adjustment: the agent works the EHR and payer portals like a person and captures a defensible HCC._\n\n![uploaded image](/media/?type=post&id=103962&key=user_uploads/1494518/cfb57b8c-bf75-43d1-9dc3-d29da891d8e9)\n\n_AI Data Analyst: ask your RAF in plain English, get an answer and a chart in seconds._\n\n![uploaded image](/media/?type=post&id=103962&key=user_uploads/1494518/4bbf9afb-abc0-4221-9e5b-bf4602654e32)\n\n_Provider Network: reps walk in prepped, and the visit is captured into tasks automatically._\n\nIt runs on the systems VBC teams already use: Epic, Cerner, Athena, eCW, payer SFTP, PBM feeds, ADT, and labs, with SMART-on-FHIR overlays in Epic and Athena. A new source onboards in days, and the copilots start working the day after.\n\n## **📈 Early proof**\n\nThat physician-led IPA went from three uncoordinated calls per member to one outreach, in the right language, that closed three gaps at once. No new headcount. One of their leaders put it simply: “You don’t just get software, you get partners.”\n\n## **👫 Why us**\n\nCatherine and I met at YouTube and have built large-scale systems together since. We saw the same gap from two sides: clinical AI that could not operate, and operations software that could not reason clinically.\n\n• **Catherine** led AI work on Gemini and enterprise agents at Google, did clinical AI research at Stanford School of Medicine, and saw front-line care at clinics in California and New Hampshire. BA in Computer Science from Dartmouth.\n\n• **Lalit** spent 8 years building software for regulated industries at Google and YouTube, most recently as engineering and ML lead on YouTube Payments, running a 45-person team on products driving $16B+ in revenue. Wharton MBA, ACM-ICPC World Finalist.\n\nBacked by Y Combinator, SurgePoint Capital, Upside Partnership, ISEED Ventures, and Progressive Ventures.\n\n## **🙏 Our ask**\n\n• Warm intros to VPs of Risk Adjustment, Stars, Quality, or Pharmacy at MA plans, IPAs, MSOs, or ACOs.\n\n• Intros to ACO executive directors running MSSP or REACH.\n\n• If you run risk-bearing contracts at a health plan, IPA, MSO, ACO, or medical group, email [lalit@pelica.com](mailto:lalit@pelica.com) or book a demo at cal.com/pelica/pelica.\n\nFollow us on [LinkedIn](https://www.linkedin.com/feed/update/urn:li:activity:7475922350316732416/) and [X](https://x.com/cthrnzh/status/2070159740295160294), and learn more at [pelica.com](http://pelica.com).",
+      "url": "https://www.ycombinator.com/launches/R2o-pelica-the-ai-operating-system-for-value-based-care",
+      "votes": 7,
+      "created_at": "2026-06-25T15:23:01.235Z"
+    },
+    {
+      "id": 90407,
+      "title": "Pelica - the operating system for value-based care",
+      "tagline": "Transform Value Based Care with AI Agents",
+      "body": "Hey everyone 👋 we're [Lalit](http://linkedin.com/in/lalitkundu) &amp; [Catherine](http://linkedin.com/in/cat-catherine-zhao), co-founders of [Pelica Health](https://pelica.com).\n\n## TL;DR\n\n**🚀 Pelica is the operating system for value-based care.** One canonical record across claims, EHR, pharmacy, lab, and ADT, with six AI copilots reading and writing to it. Risk adjustment, Stars, pharmacy, network, care management, plus an AI Data Analyst. HIPAA-compliant, RADV-defensible, real-time.\n\nUse Pelica to:\n\n* Capture HCCs in real time, before the submission window closes\n* Close Stars gaps once, across every payer, with no duplicate outreach\n* Lift PDC on the three triple-weighted measures that move Stars more than anything else\n* Replace 8 to 15 point vendors with one shared record\n* Cut per-practice meeting prep from 90 minutes to 15\n\n**VBC teams using Pelica run risk, quality, pharmacy, and care management from one record**. A physician-led IPA in New York went from three uncoordinated calls per member to one outreach in the right language that closed three gaps at once. No new headcount.\n\nIf you run risk-bearing contracts at a health plan, IPA, MSO, ACO, or medical group, email [lalit@pelica.com](mailto:lalit@pelica.com) or book a demo at [cal.com/pelica](https://cal.com/pelica/pelica-demo).\n\n## 🚩 The Problem\n\nVBC teams own the contracts that decide whether the org makes money. They cannot operate. Today:\n\n* Data lives in 12 places. By the time a problem surfaces, the submission window has closed.\n* Risk calls a member. Quality calls the same member. The practice calls again. Sometimes in a language the member doesn't speak.\n* The best predictive model is useless if it never reaches the provider.\n* Hybrid HEDIS is retiring. ECDS volumes run 35 to 75 times higher per measure. The old infra was not built for it.\n* V28 phase-in finishes in 2026. The average MA plan loses roughly 3% of RAF.\n\nPoint vendors keep stacking up. One for retrospective coding. One for HEDIS. One for adherence. One for ADT. Each with its own portal, its own data model, its own login.\n\nVBC teams need more than another point tool. They need an operating system.\n\n## 🛠️ Our Solution\n\nWe built Pelica, an AI operating system for value-based care. Three layers, six copilots, one canonical record.\n\n* **🌐 HIPAA + SOC 2 Type II:** Tenant-isolated, encrypted end-to-end, zero-retention with every LLM provider in use.\n* **🔌 Connects to every system:** Epic, Cerner, Athena, eCW, payer SFTP, PBM feeds, ADT, labs. SMART-on-FHIR overlays in Epic and Athena.\n* **⚡ Live in weeks, not quarters:** A new data source onboards in days. Copilots start working the day after.\n\nWhat Pelica can do:\n\n* **🧾 Risk Adjustment Copilot:** Real-time HCC capture with trumping logic, MAO-004 awareness, and RADV-defensible chain-of-custody on every code.\n* **⭐ Quality &amp; Stars Copilot:** Unified gap closure across every payer, with year-round glide-path forecasting for the post-hybrid HEDIS world.\n* **💊 Pharmacy &amp; Part D Copilot:** PDC lift on the three triple-weighted measures. The 5 points that separate 4-star from 2-star.\n* **🤝 Provider Network Copilot:** Auto-generated practice agendas. Meeting prep from 90 minutes to 15.\n* **🏥 Care Management Copilot:** ADT-driven TOC worklists, 5-day follow-up tracking, no duplicate calls across teams.\n* **📊 AI Data Analyst:** Plain-English questions against the canonical record. Replaces the BI ticket queue.\n\nA Director of Risk Adjustment told us: \"**Our data lives in twelve places. By the time we know there's a problem, the submission window has closed**.\" A Stars Program Manager told us: \"We are solving the same problem five times.\" Same root cause. One shared record fixes both.\n\n## 👫 The Team\n\nCatherine and Lalit met at YouTube and have been building large-scale systems together ever since. They saw the same gap from two sides: clinical AI that could not operate, and operations AI that could not reason clinically.\n\n**Catherine led AI work on Gemini and enterprise AI agents at Google**. She did clinical AI research at Stanford School of Medicine and saw front-line patient care at clinics in California and New Hampshire. BA in Computer Science from Dartmouth.\n\n**Lalit spent 8 years building software for regulated industries at Google and YouTube**. He was Engineering and ML lead on YouTube Payments, running a 45-plus person team in Commerce Billing on products driving $16B+ in revenue. Wharton MBA. ACM-ICPC World Finalist.\n\nBacked by Y Combinator, SurgePoint Capital, Upside Partnership, ISEED Ventures, and Progressive Ventures.\n\n![uploaded image](/media/?type=post&id=90407&key=user_uploads/1494518/dc1935e3-d2b0-4d83-9f63-b5cd8ae73e7b)\n\n## Asks\n\n* Intros to VPs of Risk Adjustment, Stars, Quality, or Pharmacy at MA plans, IPAs, MSOs, or ACOs.\n* Intros to ACO executive directors running MSSP or REACH.\n* Follow us on [LinkedIn](https://www.linkedin.com/company/pelica-health), [X](https://x.com/pelica_health), and learn more at [pelica.com](https://pelica.com).",
+      "url": "https://www.ycombinator.com/launches/NWB-pelica-the-operating-system-for-value-based-care",
+      "votes": 108,
+      "created_at": "2025-05-15T04:56:03.275Z"
+    }
+  ]
+}

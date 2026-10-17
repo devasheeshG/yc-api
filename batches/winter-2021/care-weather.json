@@ -1,0 +1,105 @@
+{
+  "id": 22870,
+  "name": "Care Weather",
+  "slug": "care-weather",
+  "former_names": [],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/6bd70155aa26748f0d48ecc4507276f1f296e759.png",
+  "website": "https://www.careweather.com",
+  "all_locations": "Orem, UT, USA",
+  "long_description": "Care Weather collects the highest-accuracy global weather data to help governments and shipping companies adapt to extreme weather. The data is collected by Care Weather’s unique flat-panel radar satellite, which is 1000X more cost effective because it’s vertically integrated, gets more solar power, and sails on top of the atmosphere for a closer view of the surface. Our team includes CEO Patrick Walton (NASA Earth science fellow) and CTO Alex Laraway (mach 4 rockets). In the last 4 months, we built and launched the smallest radar satellite ever. We have $35M worth of LOIs, including one from the Air Force and others from cargo shippers. Care Weather is backed by Boost VC, Kickstart Seed Fund, Y Combinator, and more.",
+  "one_liner": "The highest-accuracy global weather data from low-cost flat satellites",
+  "team_size": 2,
+  "industry": "Industrials",
+  "subindustry": "Industrials -> Aviation and Space",
+  "launched_at": 1692679539,
+  "tags": [
+    "Hard Tech",
+    "Space Exploration",
+    "Satellites",
+    "Weather",
+    "Agriculture"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Winter 2021",
+  "status": "Active",
+  "industries": [
+    "Industrials",
+    "Aviation and Space"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/care-weather",
+  "api": "https://devasheeshg.github.io/yc-api/batches/winter-2021/care-weather.json",
+  "year_founded": 2019,
+  "city": "Orem",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/careweather/",
+  "x_url": "https://twitter.com/CareWeather",
+  "fb_url": "https://www.facebook.com/careweather",
+  "cb_url": "https://www.crunchbase.com/organization/care-weather",
+  "github_url": "https://github.com/careweather",
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/6bd70155aa26748f0d48ecc4507276f1f296e759.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Aaron Epstein",
+    "url": "https://www.ycombinator.com/people/aaron-epstein"
+  },
+  "founders": [
+    {
+      "user_id": 349337,
+      "full_name": "Patrick Walton",
+      "title": "Founder",
+      "founder_bio": "Co-founder, CEO, and project engineer at Care Weather. As project engineer, he funded, architected, licensed, and operates the company's five satellites on orbit. He has an M.S. and B.S in electrical and mechanical engineering from BYU. As an undergrad, he started BYU's nationally-recognized rocketry club and won $1M from NASA to lead a team of 20 in launching BYU’s first two satellites.",
+      "is_active": true,
+      "linkedin_url": "http://linkedin.com/in/mpatrickwalton",
+      "x_url": "https://twitter.com/mpatrickwalton",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/6b962ec93a7e9abecbabe4a774212b4ea13e09c6.jpg"
+    },
+    {
+      "user_id": 378778,
+      "full_name": "Alex Laraway",
+      "title": "Founder",
+      "founder_bio": "Alex is a full-stack aerospace engineer. He single-handedly designed and built multiple record-breaking satellites that are on orbit now. Alex got his B.S. in manufacturing from BYU. His space experience goes back to age 10 machining high-altitude rockets on a lathe in his garage and flying them at Mach 4 to the edge of space. ",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/alex-laraway-8ba461169/",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/ed7677fc465451b242ff816051231980ca11208a.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [
+    {
+      "title": "YC’s latest Demo Day shows fascinating wagers on healthcare, chip design, AI and more | TechCrunch",
+      "url": "https://techcrunch.com/2024/04/04/ycs-latest-demo-day-shows-fascinating-wagers-on-healthcare-chip-design-ai-and-more/",
+      "date": "Apr 04, 2024"
+    },
+    {
+      "title": "Utah Company Improving Ocean Weather Forecasting Through Its Satellites - Governor's Office of Economic Opportunity",
+      "url": "https://business.utah.gov/innovation-center/utah-company-improving-ocean-weather-forecasting-through-its-satellites/",
+      "date": "Sep 25, 2023"
+    }
+  ],
+  "launches": [
+    {
+      "id": 79524,
+      "title": "Care Weather 🌎 🛰️ Highest-accuracy global weather data from low-cost satellites",
+      "tagline": "We help weather-sensitive organizations adapt to increasingly extreme weather.",
+      "body": "Hi everyone! We’re [Alex](https://www.linkedin.com/in/alex-laraway-8ba461169/) and [Patrick](http://linkedin.com/in/mpatrickwalton) from [Care Weather](https://www.careweather.com/). We’re leveraging SpaceX rideshare and 5G electronics to make a swarm of low-cost satellites that get 17X more accurate global weather data.\n\n![uploaded image](/media/?type=post&id=79524&key=user_uploads/349337/502dc652-58a2-489c-928c-3cedb21358be)\n\n_(Left) Alex with with a flight-ready satellite. (Right) Patrick testing the latest satellite._\n\n### [🌪️](https://emojipedia.org/tornado) **Problem**\n\nWeather is quietly [costing billions](https://www.ncei.noaa.gov/access/billions/) across the economy. For example:\n\n* ✈️ A recent supertyphoon damaged $200M of Air Force planes in Guam ([JTWC](https://www.metoc.navy.mil/jtwc/products/atcr/2018atcr.pdf)).\n* 🚢 Ocean cargo ships reroute around so many unpredicted cyclones that they lose $60M of voyage time per ship per year.\n\nIt may seem like your weather app has tons of data to prevent this, but weather apps pretend predicted data is real. Those predictions are based on limited, inaccurate measurements from aging government satellites. Other solutions (weather stations, balloons, drones) aren’t scalable.\n\n![uploaded image](/media/?type=post&id=79524&key=user_uploads/349337/5ce389df-7421-4592-aa8c-dc75b9ba0e7b)\n\n### **🌎 🛰️ Solution**\n\nAfter studying with a NASA expert, we invented a modernized radar satellite, called [Veery](https://careweather.com/tech). We can mass produce Veery at low cost and get orders of magnitude more truth data. Veery’s flat form factor gives it way more solar power and lets it sail on top of the atmosphere for a closer view of the surface. Veery will map ocean surface vector winds, soil moisture, and sea ice globally, every hour, with 100 m - 6 km resolution.\n\n![uploaded image](/media/?type=post&id=79524&key=user_uploads/349337/fe836808-1163-4870-b7d1-7849bbbadb47)\n\n### **🚀 Traction**\n\nIn the last four months, we built and launched the smallest radar satellite in history! And we did it with pre-seed funding and a team of two. In the same timeframe, we received $50M worth of LOIs from the Air Force, the National Weather Service, and several maritime companies.\n\n![uploaded image](/media/?type=post&id=79524&key=user_uploads/349337/563a1d03-1716-4c5d-a467-4ad4ff993d97)\n\n![uploaded image](/media/?type=post&id=79524&key=user_uploads/349337/20167ab2-c237-4521-995e-2b2b114502c8)\n\n### **Asks**\n\nHelp us build a disaster-free future!\n\n* Follow us on [Twitter](https://twitter.com/CareWeather) and [LinkedIn](https://www.linkedin.com/company/careweather/).\n* If you work with weather data or in a weather-sensitive business, [sign up for our waitlist](https://careweather.com/waitlist)! We’ll have pilot data this Fall.",
+      "url": "https://www.ycombinator.com/launches/Kge-care-weather-highest-accuracy-global-weather-data-from-low-cost-satellites",
+      "votes": 15,
+      "created_at": "2024-03-20T14:47:16.636Z"
+    }
+  ]
+}

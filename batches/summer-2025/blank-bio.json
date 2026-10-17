@@ -1,0 +1,100 @@
+{
+  "id": 30613,
+  "name": "Blank Bio",
+  "slug": "blank-bio",
+  "former_names": [
+    "Orthrus Bio"
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/7849a6bd6406353cb8f9f09c914d22bd1f4c0650.png",
+  "website": "http://blank.bio/",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "Blank Bio is an applied AI research lab focused on increasing the success rates of clinical trials. We do this by training RNA foundation models that learn the patterns that shape disease progression and patient response to treatment. We aim to help pharma make more informed decisions in clinical trials by capturing the biology that makes each patient’s tumour unique. \r\n\r\nWe’re a technical team of AI scientists and engineers from companies including Recursion, Deep Genomics, DeepMind, and Amazon, and institutions including Memorial Sloan Kettering Cancer Centre, Stanford, and the Vector Institute.",
+  "one_liner": "RNA intelligence for precision medicine",
+  "team_size": 6,
+  "industry": "Healthcare",
+  "subindustry": "Healthcare -> Therapeutics",
+  "launched_at": 1754432955,
+  "tags": [],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Summer 2025",
+  "status": "Active",
+  "industries": [
+    "Healthcare",
+    "Therapeutics"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/blank-bio",
+  "api": "https://devasheeshg.github.io/yc-api/batches/summer-2025/blank-bio.json",
+  "year_founded": 2025,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/blank-bio",
+  "x_url": "https://x.com/blankbio_",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/7849a6bd6406353cb8f9f09c914d22bd1f4c0650.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Ankit Gupta",
+    "url": "https://www.ycombinator.com/people/ankit-gupta"
+  },
+  "founders": [
+    {
+      "user_id": 1842799,
+      "full_name": "Jonny Hsu",
+      "title": "Founder/CEO",
+      "founder_bio": "Working on foundation models for RNA therapeutics.\n\nI was an early employee at Valence Discovery, a biotech startup that spun out from Mila. I led product and strategy. Valence was acquired by Recursion (NASDAQ: RXRX) in May 2023. I stayed on afterwards to help build out the AI research engine of Recursion called Valence Labs.\n\nBiochemist by training | Waterloo graduate ",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/jonathanhsuuw/",
+      "x_url": "https://x.com/hsu_jonny",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/e344c95d233072e70c9247179c68e5bb754c8300.jpg"
+    },
+    {
+      "user_id": 957982,
+      "full_name": "Philip Fradkin",
+      "title": "Founder",
+      "founder_bio": "Building AI for the most designable molecule in the world: RNA\n\nPublished at top ML & Bio conferences including best paper at Foundation models for science @ Neurips. Built self-supervised learning applications for RNA, small molecules, and phenomics. Playing long term games in ML for Biology.\n\nOne of the first employees at Deep Genomics. PhD from University of Toronto. ",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/philip-fradkin-330a417b/",
+      "x_url": "https://twitter.com/phil_fradkin",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/132a39b69c850b07a47f1abfa89bfe7925685490.jpg"
+    },
+    {
+      "user_id": 2772703,
+      "full_name": "Ian Shi",
+      "title": "Founder/CTO",
+      "founder_bio": "Building foundational models for RNA therapeutics at Blank Bio.\n\nJust defended my PhD in CS at the University of Toronto. Published at ICML, NeurIPS, Nature Comms; used 4 GPUs to pre-train an mRNA foundation model that beat competitors using months of compute on thousands of H100s. Now scaling our models to unlock new possibilities in the RNA therapeutic space.\n\nPreviously at Amazon building software, interned at Pinterest and Amazon as a research scientist in between.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/ruian-shi-4b5215b9/",
+      "x_url": "https://x.com/ianshi3",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/623d250731fb8addca53515c234d4051d6ab00d8.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 92787,
+      "title": "Blank Bio - Computational toolkit for RNA therapeutics",
+      "tagline": "Building foundation models to design better RNA therapeutics, starting with mRNA design. ",
+      "body": "Hey everyone, we’re [Jonny](https://www.linkedin.com/in/jonathanhsuuw/), [Ian](https://www.linkedin.com/in/ruian-shi-4b5215b9/), and [Phil](https://www.linkedin.com/in/philip-fradkin-330a417b/), co-founders of [Blank Bio](https://www.blank.bio/) 👋\n\nWe’ve spent decades applying machine learning to biology across academia (Ph.D.’s at the University of Toronto) and industry (Recursion, Deep Genomics, Amazon). \n\nhttps://youtu.be/7lULj-S-MgQ?feature=shared\n\n**TLDR:** \n\n* mRNA enables programmable, personalized medicine, from gene therapies to cancer vaccines. But with more possible sequences than stars in the universe, brute-force design is impossible.\n* We built a state-of-the-art RNA foundation [model](https://www.biorxiv.org/content/10.1101/2024.10.10.617658v3) to predict and design high-performing sequences, letting pharma **simulate costly experiments** and speed up timelines. \n* Our open-source models are used by Sanofi and GSK, and we’re working with the Arc Institute to power next-gen virtual cell models.\n* mRNA design is just the beginning. We’re expanding to applications like target identification, biomarker discovery, patient stratification, and more\n\n**Asks:** We’re looking to connect with pharma and biotech companies working on mRNA-based therapeutics (i.e. Moderna, BioNTech, Orbital etc.), CRISPR therapeutics (Scribe, Intellia, Editas, etc.), and biomarker discovery.\n\n📤If you know anyone in those spaces, we’d love an intro: [jonathan@blank.bio](mailto:jonathan@blank.bio) 📤\n\n**Who are we?**\n\n![uploaded image](/media/?type=post&id=92787&key=user_uploads/1842799/964fb41d-c751-418d-aecb-5dbbd0fc7405)\n\n* **Jonny**: One of the first employees at Valence Discovery, an AI for drug discovery company spun out of Mila. Acquired by Recursion (NASDAQ: RXRX). Biochemist by training (Waterloo) \n* **Ian**: 10 years of experience in comp bio. Prev. researcher at Memorial Sloan Kettering Cancer Centre (now leading the charge on cancer vaccines) and engineer at Amazon. Has a PhD in computer science (University of Toronto)\n* **Phil**: 12 years of experience in ML for bio. Spent 4 years at Deep Genomics, where he was one of the first employees. Has a PhD in computational biology (University of Toronto)\n\nPhil and Jonny previously worked together at Recursion. Ian and Phil have been collaborating for 5 years throughout their PhDs, doing ML research specifically for RNA biology. See preprints on early versions of the [model](https://www.biorxiv.org/content/10.1101/2024.10.10.617658v3) + [benchmark](https://www.biorxiv.org/content/10.1101/2025.07.05.662870v1). \n\n**What’s the problem?** \n\nmRNA is composed of four nucleotides (A, C, G, U). For the average mRNA therapeutic, there are \\~10²⁷⁰⁹ possible combinations. This is unimaginably larger than the number of stars that exist in the known universe. \n\nA suboptimal sequence can kill your drug discovery program, costing pharma companies billions of dollars. But testing all of the possible sequences is impossible. How can you design the best sequence? \n\n**What are we building?** \n\nA family of RNA-specific foundation models that simulate costly and time-consuming experiments, predicting key properties like **expression** (how much protein is made from the mRNA) and **stability** (how long it stays in the body) before experiments ever begin. \n\nWe’ve currently got the best **RNA foundation model**. It’s outperforming 59 models from leading research labs and companies. At 10M parameters, it’s lightweight and fast enough to run predictions on hundreds of sequences in seconds. The open-source model is already being used by **Sanofi and GSK**, and we’re also collaborating with the **Arc Institute** to bring our RNA embeddings into the next generation of virtual cells. \n\n**What’s next?** \n\n* We’re establishing a set of scaling laws that will bring a GPT-3 moment to RNA.  \n* We’re curating one of the largest transcriptomic annotation datasets in the world to power model training\n* As we improve the model, we’re expanding beyond mRNA design into a broader RNA toolkit, tackling problems like:\n  * Target ID\n  * Novel biomarker discovery \n  * Cell-type-specific mRNA design\n  * …and more 👀\n\nHere’s a peek into the vision that we’re building towards.\n\nhttps://youtu.be/ZgI7WJ1SygI\n\n**Our Ask**\n\n* Follow us on [LinkedIn](https://www.linkedin.com/company/blank-bio) and[ X](https://x.com/blankbio_) \n* Share this post! \n* We’re looking to connect with pharma and biotech companies working on mRNA-based therapeutics (i.e. Moderna, BioNTech, Orbital, etc.), CRISPR therapeutics (Scribe, Intellia, Editas, etc.), and RNA biomarkers. An intro to anyone at these types of organizations would be huge. Please drop an email to [jonathan@blank.bio](mailto:jonathan@blank.bio)",
+      "url": "https://www.ycombinator.com/launches/O8Z-blank-bio-computational-toolkit-for-rna-therapeutics",
+      "votes": 28,
+      "created_at": "2025-08-06T16:09:31.289Z"
+    }
+  ]
+}

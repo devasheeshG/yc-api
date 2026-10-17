@@ -1,0 +1,102 @@
+{
+  "id": 25342,
+  "name": "Stably AI (Orca)",
+  "slug": "stably-ai-orca",
+  "former_names": [
+    "Lovecast",
+    "UpArrow",
+    "UpDragon",
+    "Stably",
+    "Stably AI"
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/7522b24d3853d0b79cebe72798f4a3a33c54ac27.png",
+  "website": "http://onorca.dev/",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "Orca is an ADE built for engineers who run 10 to 100 coding agents at once. Termina-based. Any coding agent. Bring your own subscription (Claude Code, Codex etc). Mobile app included. Browser, CUA, Mobile emulator, and other. Minimal yet powerful.\r\n\r\nIncludes CLI to let agents control it\r\n\r\nhttps://github.com/stablyai/orca",
+  "one_liner": "We make Orca, MIT open source terminal-based agent orchestrator",
+  "team_size": 25,
+  "industry": "B2B",
+  "subindustry": "B2B -> Engineering, Product and Design",
+  "launched_at": 1645204142,
+  "tags": [
+    "Artificial Intelligence",
+    "Developer Tools",
+    "SaaS",
+    "DevOps",
+    "Web Development"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Winter 2022",
+  "status": "Active",
+  "industries": [
+    "B2B",
+    "Engineering, Product and Design"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada",
+    "Remote",
+    "Partly Remote"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/stably-ai-orca",
+  "api": "https://devasheeshg.github.io/yc-api/batches/winter-2022/stably-ai-orca.json",
+  "year_founded": 2022,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/90996500",
+  "x_url": "https://x.com/orca_build",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": "https://github.com/stablyai/orca",
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/7522b24d3853d0b79cebe72798f4a3a33c54ac27.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Brad Flora",
+    "url": "https://www.ycombinator.com/people/brad-flora"
+  },
+  "founders": [
+    {
+      "user_id": 854517,
+      "full_name": "Jinjing Liang",
+      "title": "Founder/CEO",
+      "founder_bio": "Building OSS Devtools for 100x builders \n- Orca - Agent IDE for 100× builders https://github.com/stablyai/orca \n- Stably - AI testing platform https://www.stably.ai \n\nPrev senior engineer @Google Chrome. 2x founder and Cornell alum. ",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/jinjingliang/",
+      "x_url": "https://x.com/JinjingLiang",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/b229ed178a317af7ee19f1ba641bf66b8f2bdefd.jpg"
+    },
+    {
+      "user_id": 831615,
+      "full_name": "Neil Parker",
+      "title": "Founder",
+      "founder_bio": "Building OSS Devtools for 100x builders\n- Orca - Agent IDE for 100× builders https://github.com/stablyai/orca\n\nPrev TL @Uber\n2x founder and Cornell alum.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/neilwilliamparker/",
+      "x_url": "https://x.com/nwparker_",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/06e849215a8e84189e6715a0f8bb8fb0ea6bedf6.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 91969,
+      "title": "Stably - Tests Every Code Change Like Your Best Engineer Would",
+      "tagline": "AI agent for testing your PRs and releases",
+      "body": "**Tl;dr**\n\nWe've built an AI testing agent that lets anyone on your team—engineers, PMs, and QA—create and maintain tests without writing code.\\\n\\\n❌ The Problem / ✅ Our Value\n\nStop shipping bugs. Stop waiting for tests. Stop fixing broken test suites.\n\nStably is an AI QA engineer that understands your product, tests intelligently, and integrates seamlessly into your workflow.\\\nhttps://youtu.be/p-cjcxjTH-E\n\n## 💪 Our 3 Core Strengths\n\n### **1. ⚡ Speed: 10x Faster Testing**\n\n* **Smart test selection:** Our AI analyzes PR diffs and runs only affected tests—when you change checkout, we test checkout, not your entire suite\n* **Automated test creation:** Tests that once took hours of hand-coding in Playwright or Cypress now generate automatically in under 10 minutes.\n* **Intelligent caching:** Tests run in cached Playwright until your app changes, then auto-heal\n\n### 2. 🎯 **Accuracy: AI That Actually Understands Your Product**\n\n* **99.7% assertion accuracy** by learning from your Notion docs, Google Drive specs, PostHog recordings, and Git history\n* **Context-aware testing:** Tell Stably \"test checkout with expired coupons\" in plain English—it knows what checkout means in YOUR app\n* **Catches real bugs:** Not just UI changes, but actual business logic failures\n\n### 3. 🧩 **Easy Integration: Works for Everyone, Everywhere**\n\n* **No-code for all teams:** PMs describe tests in English, QAs point-and-click to show flows, and engineers get PR-ready tests\n* **One-click GitHub app** or use our API for GitLab, local CLI, and Cursor MCP (upcoming)\n* **Human-in-the-loop:** When AI needs help, anyone can step in and show it what to do—no coding required\n\n## 💥 Real Impact\n\n* [**OpenArt**](https://openart.ai/) scaled from $0 to $16M ARR with just 10 employees using Stably\n* [**Tofu**](https://tofuhq.com) saves 40+ engineering hours per week after migrating from Playwright\n* Multiple customers replaced six-figure QA contracts, cutting testing costs by 80%\n\n> \"I actually love testing now after switching to Stably\" — Senior Engineer, Curebase (YC W18)\n\n## 👩🏻‍💻🧑‍💻 About Us\n\n[**Jinjing**](https://www.linkedin.com/in/jinjingliang/) (CEO): Built the testing & release infrastructure that ships Google Chrome to billions of users\n\n[**Neil**](https://www.linkedin.com/in/neilwilliamparker/) (CTO): One of Uber's youngest Tech Leads; led multiple large-scale ML projects on Uber's Safety team\n\nWe've assembled a team of PhD graduates specializing in AI’s application in software reliability, plus ex-founders who've previously built and sold an AI startup.\n\n## 🎉 Launch Week Special\n\n**We're looking for teams who:**\n\n* Wait too long for PR tests to run\n* Have PMs/QAs who want to contribute to testing but can't code\n* Are tired of updating tests every time they ship\n\n**Get the first month free on our starter plan. Just mention \"YC Launch\" when signing up.**\n\nSign up or schedule a demo at [stably.ai](https://www.stably.ai/?utm_source=launch-yc&utm_medium=link&utm_campaign=launch-yc-07-2025&utm_id=launch-yc-07-2025) or contact us at [jinjing@stably.ai](https://mailto:jinjing@stably.ai)",
+      "url": "https://www.ycombinator.com/launches/NvN-stably-tests-every-code-change-like-your-best-engineer-would",
+      "votes": 337,
+      "created_at": "2025-07-09T02:42:30.339Z"
+    }
+  ]
+}

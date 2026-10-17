@@ -1,0 +1,109 @@
+{
+  "id": 29725,
+  "name": "Promi",
+  "slug": "promi",
+  "former_names": [],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/cd853bd5965534bc6ccb3bd2ebe20fdb00753e2c.png",
+  "website": "https://www.trypromi.com/",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "Promi provides product feedback in the form of customer interviews, URL walkthroughs, heatmaps, and more by creating digital twins of your existing customers. We ingest data from Posthog, Intercom, Stripe, etc. to create your personas from real product usage data. By factoring in how your customers actually interact with product features, we provide much more relevant and insightful feedback on what you are building.\r\n\r\nWe aren't trying to replace user research, but in our experiences most products don't have the time or budget to talk to real users. Getting synthetic feedback is the next best thing, and can/should be a part of launching any products.",
+  "one_liner": "Providing quick product and design feedback via digital twins",
+  "team_size": 2,
+  "industry": "B2B",
+  "subindustry": "B2B -> Engineering, Product and Design",
+  "launched_at": 1722224133,
+  "tags": [],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Summer 2024",
+  "status": "Active",
+  "industries": [
+    "B2B",
+    "Engineering, Product and Design"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada",
+    "Remote",
+    "Partly Remote"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": [
+    {
+      "question": "How did your company get started? (i.e., How did the founders meet? How did you come up with the idea? How did you decide to be a founder?)",
+      "answer": "We both worked at Uber prior to Promi, where Peter led product for discounts across Uber Eats and Rides. Jiaxin worked on Uber’s core AI team. Peter had the idea for Promi after having seen how wasteful discounts were for the business, and how impactful certain features could be for making discounts more efficient and ROI positive."
+    }
+  ],
+  "url": "https://www.ycombinator.com/companies/promi",
+  "api": "https://devasheeshg.github.io/yc-api/batches/summer-2024/promi.json",
+  "year_founded": 2024,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/promi-discounts",
+  "x_url": "",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/cd853bd5965534bc6ccb3bd2ebe20fdb00753e2c.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [
+    "https://bookface-images.s3.us-west-2.amazonaws.com/attachments/069ac1b233beda635b9fbe834d4d2b9836ea8163.png"
+  ],
+  "primary_partner": null,
+  "founders": [
+    {
+      "user_id": 1824823,
+      "full_name": "Peter Moot",
+      "title": "Founder",
+      "founder_bio": "Co-founder @ Promi. Prior to Promi I led product for discounts at Uber. I have a degree in economics and computer science from Harvard.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/petermoot/",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/8577a489f437d55b1fd2c75b527eb94303959dff.jpg"
+    },
+    {
+      "user_id": 1337968,
+      "full_name": "Jiaxin Lin",
+      "title": "Founder/CTO",
+      "founder_bio": "Co-founder of Promi. Most of my career has been working on recommendation / personalization systems in the e-commerce space.\n\nAvid coder and lifelong learner.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/jiaxinlin/",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/f10e7580ed6acbc79a917f03688e735b896b499c.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [
+    {
+      "title": "13 companies from YC Demo Day 1 that are worth paying attention to | TechCrunch",
+      "url": "https://techcrunch.com/2024/09/25/13-companies-from-yc-demo-day-1-that-are-worth-paying-attention-to/",
+      "date": "Sep 25, 2024"
+    }
+  ],
+  "launches": [
+    {
+      "id": 109513,
+      "title": "Promi: Evaluate your product concepts with digital twins of your customers",
+      "tagline": "We simulate your real customers using your 1st party data for product feedback before you build.",
+      "body": "**TL;DR: Promi builds simulated versions of your real users from your product analytics data (Posthog, Stripe, Intercom, etc.). Run your next ideas past them: flows, copy, pricing, onboarding, and see where your users would hesitate, what they'd skip, and why, before anyone writes code.**\n\n<https://youtu.be/VH7s2ATqMBU>\n\nHi! Peter here, cofounder of Promi (S24)\n\n## **The problem**\n\nReal user feedback is the gold standard for deciding what to build and almost nobody gets it, because it's slow and expensive. So teams substitute: survey panels, ICP interviews, and lately AI personas prompted with a demographic sketch. All of them share the same flaw — they don't know _your_ users. The result is confident feedback with no context, and ideas that ship blind anyway.\n\n## **How Promi works**\n\nConnect your product analytics tools. Promi builds behavioral profiles of your actual user segments, not personas, not survey panels, and turns them into simulated users. Describe a proposed change: a flow, copy, pricing, onboarding, and they react the way your real segments tend to: where they'd hesitate, what they'd skip, and why.\n\n## **Why we're building this**\n\nI spent 5 years as a PM at Uber, where real user feedback was the gold standard nobody had time or budget for — so most ideas shipped blind. When we did get feedback, 9 times out of 10 we preferred existing customers over a generic ICP, because real users knew _why_ they used the product. AI feedback needs that same context, so we built Promi to have it: simulated users trained on your customers' actual behavior.\n\nEvery product decision deserves real user feedback. We're making that the default instead of the luxury.\n\n## **Our ask**\n\n**If you're a product team with 3+ months of session data and ideas you're actively debating, reach out — we're onboarding design partners now.** We'll build simulated versions of your users and run your next ideas past them. Then judge us on one thing: did it surface something true about your users that a generic AI couldn't? You know your users; you'll know fast whether our simulations ring true.\n\nSchedule a call: <https://calendly.com/pmoot/promi-overview>\n\n Website: <https://www.trypromi.com> Email: [peter@usepromi.com](mailto:peter@usepromi.com)",
+      "url": "https://www.ycombinator.com/launches/SUL-promi-evaluate-your-product-concepts-with-digital-twins-of-your-customers",
+      "votes": 4,
+      "created_at": "2026-08-06T17:40:12.477Z"
+    },
+    {
+      "id": 82565,
+      "title": "Promi - AI powered discounts for ecommerce merchants",
+      "tagline": "Send smarter discounts",
+      "body": "**tl;dr:** [Promi](https://www.usepromi.com/) helps ecommerce merchants send smarter discounts by leveraging AI to dynamically update discounts and optimize for clearing inventory, varying discount values across products for first order, holiday, etc. campaigns, and better communicating discounts across your website via price strikethroughs and other UI components.\n\nWe are available on the [Shopify app store](https://apps.shopify.com/promi-discounts)!\n\n<https://youtu.be/HsVv82xmyNw?si=nr-sLwtCLy18wddi>\n\n👬 **Meet Our Team**\n\n![uploaded image](/media/?type=post&id=82565&key=user_uploads/1824823/cc9ee0e3-efbb-4a81-a5b1-7d442bc0ac28)\n\n[_Peter_](https://www.linkedin.com/in/petermoot/)_: The Discount Guru_\n\nPeter is coming from Uber, where he was the product lead overseeing discounts across Eats and Rides. While there, he launched many of the features we are now building into Promi today. He has a degree in economics from Harvard and would love to talk with you about your pricing and discount strategy.\n\n[_Jiaxin_](https://www.linkedin.com/in/jiaxinlin/)_: The AI mastermind_\n\nJiaxin was the tech lead and founding engineer at Uber’s knowledge graph platform, focusing on recommendations and personalization. Before Uber, Jiaxin worked in AI at Google’s Shopping Recommendations team.\n\n**❌ The Problem**\n\nMost retailers spend 5-10% of their gross merchandise value on discounts to acquire new customers, celebrate holidays, hit sales targets, clear inventory, etc. However, choosing the right discount often involves guesswork. More sophisticated merchants look at what worked well in the past, but they don’t have the time or means to granularly optimize their discounts across products and users, or dynamically update the offers based on order trends. Additionally, many retailers don’t communicate savings available via discount codes on their website until checkout, causing a drop in customer conversion.\n\n# **💡 Our Solution**\n\nPromi enhances discount performance by addressing key issues:\n\n* **Dynamic Updates**: AI-driven adjustments ensure efficient inventory clearance without over-discounting. Specify the volume, timeframe, and pricing guardrails, and Promi will continuously monitor and update discounts.\n* **Improved Communication**: Discounts are displayed site-wide using deep links for price changes and other UI components.\n* **Variable Discounts**: We vary discount values across products to take advantage of differences in profit margins and prices, all under a single code. Your email sign-up and member-only campaigns just got a lot more profitable\n\nThese solutions improved Uber's discount efficiency by more than 40%. Stay tuned for upcoming features like personalized discounts, performance measurement dashboards, and experiment setups!\n\n![uploaded image](/media/?type=post&id=82565&key=user_uploads/1824823/8e18f1bb-1e59-4555-9384-3a6b3bca6f45)\n\n**🙏 Ask: Check out Promi!**\n\nIf you run a Shopify store or know someone who does, we'd love to chat. Email us at [peter@usepromi.com](mailto:peter@usepromi.com).\n\nSee our website and app listing below:\n\n* <https://www.usepromi.com/>\n* <https://apps.shopify.com/promi-discounts>",
+      "url": "https://www.ycombinator.com/launches/LTh-promi-ai-powered-discounts-for-ecommerce-merchants",
+      "votes": 31,
+      "created_at": "2024-07-30T18:39:55.548Z"
+    }
+  ]
+}

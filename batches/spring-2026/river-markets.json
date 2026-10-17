@@ -1,0 +1,95 @@
+{
+  "id": 31450,
+  "name": "River Markets",
+  "slug": "river-markets",
+  "former_names": [
+    "Centos Group"
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/1d52c6b2c2316334447d190e02bf6f2665c34ccb.png",
+  "website": "https://www.rivermarkets.com",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "River Markets is the prime brokerage for prediction markets. We aggregate every major event-contract venue into one account, giving professional traders best execution, portfolio and order management systems, and a unified API.",
+  "one_liner": "Prime brokerage for prediction markets",
+  "team_size": 2,
+  "industry": "Fintech",
+  "subindustry": "Fintech",
+  "launched_at": 1779315257,
+  "tags": [],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Spring 2026",
+  "status": "Active",
+  "industries": [
+    "Fintech"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/river-markets",
+  "api": "https://devasheeshg.github.io/yc-api/batches/spring-2026/river-markets.json",
+  "year_founded": 2026,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/rivermarkets",
+  "x_url": "https://x.com/river_markets",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/1d52c6b2c2316334447d190e02bf6f2665c34ccb.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Harj Taggar",
+    "url": "https://www.ycombinator.com/people/harj-taggar"
+  },
+  "founders": [
+    {
+      "user_id": 3335672,
+      "full_name": "Oscar Levy",
+      "title": "Founder/CEO",
+      "founder_bio": "Co-Founder at River Markets. Previously quant at BlackRock managing models trading $6B, Sandbar Asset Management ($2B AUM hedge fund). MA Financial Engineering from UC Berkeley.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/oscar-levy/",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/5ee34e4d67951d74d4882edd7b3796095aeaf9e1.jpg"
+    },
+    {
+      "user_id": 3278185,
+      "full_name": "Antonin Parrot",
+      "title": "Founder/CTO",
+      "founder_bio": "Co-founder of River Markets, the prime broker for prediction markets. I have a background in engineering and CS, and I've been working as a quant at a high frequency option market making trading shop.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/antonin-parrot-a16625196",
+      "x_url": "https://x.com/antonin_parrot",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/c716d5d3820514c6c82f6b43e1183454ebd08b63.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [
+    {
+      "title": "Exclusive: River Markets announces $8.5 million seed round to build prediction market trading tools for institutions | Fortune",
+      "url": "https://fortune.com/2026/08/11/exclusive-river-markets-seed-round-prediction-market-trading-tools-institutions/",
+      "date": "Aug 11, 2026"
+    }
+  ],
+  "launches": [
+    {
+      "id": 101842,
+      "title": "River Markets - The prime broker for prediction markets",
+      "tagline": "River Markets allows funds and pro traders to focus on alpha by handling their execution and trading infrastructure",
+      "body": "**TL;DR**\n\nRiver Markets is the prime broker for prediction markets. Trade across Kalshi, Polymarket, Polymarket US and Novig with smart order routing and advanced execution: icebergs, pegs, stop-losses, and take-profits. Manage orders, P&amp;L, and risk across venues from a single view. Use our API, with one ticker schema across exchanges, to run systematic strategies without rebuilding connectors.\n\n**Ask**:  If you’re a fund or professional trader interested in prediction markets, we’d love to talk. Reach us at [contact@rivermarkets.com](mailto:contact@rivermarkets.com)\n\n<https://www.youtube.com/watch?v=J-YJlAgkYCA>\n\n**Problem**\n\nFor hedge funds and pro traders, prediction markets are a pain to trade:\n\n* **Existing platforms are built for retail :** Traders juggle tabs, work limit orders venue by venue, and babysit fills trade by trade. Hours that should go to alpha go to ops.\n* **Liquidity is fragmented.** Exchanges have different prices on the same market, and there's no way to trade on both books at the best price.\n* **API integrations are a nightmare :** Constantly changing and breaking, systematic traders end up spending more time fixing exchange connectors than producing alpha\n\n**How we solve it**\n\nRiver Markets is the advanced trading platform for prediction markets. \n\nOne account, every venue, professional tooling.\n\n**Trading Terminal**\n\n* Advanced execution: icebergs, pegs, take-profits, stop-losses\n* Smart order routing: trade assets with the same resolutions on all exchanges, at the best price. **This alone improves pricing by up to 50%.**\n* Unified OMS: place, edit, and cancel orders across venues from a single Multi-Book view that handles hundreds of markets at once\n* P&amp;L attribution\n* Sub-accounts to separate strategies or desks\n\n![uploaded image](/media/?type=post&id=101842&key=user_uploads/3335672/edc9538a-d8f9-4e7c-882c-271ea89a0d9d)\n\n**Institutitional grade API**\n\n* Infrastructure built for institutional-grade latency\n* Unified asset ID system across venues, so you write integration code once\n* Historical orderbook and trade data\n* Same advanced order types as the terminal: pegs, icebergs, SL/TP\n\n**Traction** \n\n* **$50M+** traded on the platform\n* **200% week-over-week growth** since the start of April\n* Used by **3 of the top 10 traders on Kalshi and Polymarket**, plus several quant funds running on our API\n\n### **Who we are**\n\nBefore River Markets, **Oscar** built models trading multi-billion dollar portfolios at BlackRock. **Antonin** built high-frequency trading strategies at Valkyrie.\n\nWe started writing prediction-market algorithms on nights and weekends and realized two things: this asset class is maturing faster than anything we've seen before, and the infrastructure gap between it and traditional markets is the only thing keeping professional capital out. We're closing that gap.\n\nCheck out our website : [rivermarkets.com](http://rivermarkets.com)",
+      "url": "https://www.ycombinator.com/launches/QUc-river-markets-the-prime-broker-for-prediction-markets",
+      "votes": 15,
+      "created_at": "2026-05-26T05:44:45.533Z"
+    }
+  ]
+}

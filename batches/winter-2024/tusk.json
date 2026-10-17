@@ -1,0 +1,103 @@
+{
+  "id": 29310,
+  "name": "Tusk",
+  "slug": "tusk",
+  "former_names": [],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/cb011897f099f9342d33ca8a6bad3b4388ee0a54.png",
+  "website": "https://usetusk.ai",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "Tusk (YC W24) is an AI agent that helps developers generate unit and integration tests with codebase context. Tusk sits in CI and provides automatic coverage whenever software engineers raise a PR. Engineering teams use Tusk to prevent critical regressions while increasing test coverage.",
+  "one_liner": "AI agent that generates unit and integration tests",
+  "team_size": 4,
+  "industry": "B2B",
+  "subindustry": "B2B -> Engineering, Product and Design",
+  "launched_at": 1700257117,
+  "tags": [
+    "Artificial Intelligence",
+    "Developer Tools",
+    "Open Source"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Winter 2024",
+  "status": "Inactive",
+  "industries": [
+    "B2B",
+    "Engineering, Product and Design"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/tusk",
+  "api": "https://devasheeshg.github.io/yc-api/batches/winter-2024/tusk.json",
+  "year_founded": 2023,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/usetusk",
+  "x_url": "https://twitter.com/usetusk",
+  "fb_url": null,
+  "cb_url": "https://www.crunchbase.com/organization/tusk-5ac6",
+  "github_url": "https://github.com/Use-Tusk",
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/cb011897f099f9342d33ca8a6bad3b4388ee0a54.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [
+    "https://bookface-images.s3.us-west-2.amazonaws.com/attachments/5bc24e53a8e8fc811d7effd50d89b49888984223.png"
+  ],
+  "primary_partner": {
+    "name": "Harj Taggar",
+    "url": "https://www.ycombinator.com/people/harj-taggar"
+  },
+  "founders": [
+    {
+      "user_id": 317259,
+      "full_name": "Marcel Tan",
+      "title": "Founder/CEO",
+      "founder_bio": "Marcel is the co-founder and CEO of Tusk. Prev. technical PM for 6sense's AI email product, which he took from $300K to $8.9M TCV in a year. Working hard to help engineering leaders prevent regressions. Graduated from UC Berkeley. Hacking on projects with Sohil since college. Saved a bar from going out of business once. Former Company Commander of 300 officers in the Singapore Police Force.",
+      "is_active": false,
+      "linkedin_url": "https://linkedin.com/in/marcel-tan",
+      "x_url": "https://twitter.com/Marcel7an",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/361449205682ded23e527500ce4acc8623346a9e.jpg"
+    },
+    {
+      "user_id": 279891,
+      "full_name": "Sohil Kshirsagar",
+      "title": "Founder/CTO",
+      "founder_bio": "Sohil is the co-founder and CTO of Tusk. Previously a Senior Software Engineer at Aspire, where he led the workflow orchestration and automations team that powered millions of influencer collaborations. Now working hard to help engineers focus their time on fulfilling work. Graduated from UC Berkeley with a degree in Electrical Engineering and Computer Science. Built the most popular online prop bets game for the Super Bowl in a weekend.",
+      "is_active": false,
+      "linkedin_url": "https://linkedin.com/in/sohil-kshirsagar",
+      "x_url": "https://twitter.com/sohilkshirsagar",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/d186b38f6ae12a278b2a74cad805928c2d722328.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 87010,
+      "title": "Tusk 🐘 - AI Agent for Generating Unit/Integration Tests",
+      "tagline": "Anticipate and prevent bugs with AI-powered unit/integration tests in your CI",
+      "body": "Hey everyone, we’re Sohil and Marcel, the founders of [Tusk](https://usetusk.ai) (YC W24).\n\nTusk is an AI agent that **generates unit and integration tests** for your PRs.\n\nWe’re the team that built the first publicly available AI coding agent in the market. Now we’re focused on taking on the tedious software engineering work that developers dread the most — writing automated tests.\n\n<https://youtu.be/OK_uhIGEQ0Y?feature=shared>\n\n## Problem\n\nIt goes without saying that writing tests is important for maintaining high code quality in any engineering organization.\n\nHowever, any software engineer who has had to hastily meet product deadlines knows that writing unit and integration tests is the first thing to go. Their main priority in this case is to ship the feature as fast as possible.\n\nThe problem is that the lack of tests then results in **customers complaining about bugs** in the feature. And all too often the blame is assigned to engineering leadership for not caring enough about quality.\n\nWe know how painful this experience is from our previous jobs. We’ve experienced instances of forgone tests leading to embarrassing bugs, including one that ruined a live demo for a high-value pilot customer (who you can guess didn’t convert).\n\n## Solution\n\nWe built [Tusk](https://usetusk.ai/) to provide EMs and senior engineers in charge of quality efforts a way to **ship fast while improving code quality**. Our AI agent generates unit and integration tests using your codebase context and business logic.\n\nTusk functions as a non-blocking PR check that suggests **happy path and edge case tests** that have not been covered by the existing test suite. Our agent shows you which tests have passed or failed and allows you to incorporate the test cases into the PR with one click.\n\n![uploaded image](/media/?type=post&id=87010&key=user_uploads/317259/da66276a-94e5-4cf0-8cf7-b9e0e5635fe6)\n\nEngineering teams at companies like DeepLearning.AI, Wyndly, and Afterword use Tusk to prevent bugs while increasing test coverage.\n\n> Tusk is the first AI tool that noticeably accelerated our dev cycle. By scaling our testing infra, it's given us confidence to ship faster and been instrumental in helping our lean team scale across 3 stacks. Of all the AI tools being built right now, I'm most excited about Tusk.\n\n– Zack Moy, Co-Founder & CTO at [Afterword](https://afterword.com/)\n\n> Edge cases that are not covered can cause the most critical issues. By using Tusk, our team gains an additional guardian to protect our product from the threats of edge cases.\n\n– Amo Chen, Senior Backend Engineer at [DeepLearning.AI](http://DeepLearning.AI)\n\n> Our priority as a fast-shipping product team is making sure we get high quality code out the door quickly. Tusk has been instrumental in helping our engineering team increase test coverage with minimal effort.\n\n– Aakash Shah, Founder & CEO at [Wyndly](https://www.wyndly.com/) (YC W21)\n\n## Why Use Tusk\n\nTusk surpasses other test generation and code review tools in these ways:\n\n**We run the tests we generate**. Tusk runs the tests it generates in an ephemeral sandbox and iterates on its output so you can be confident that its tests are checking for relevant happy path and edge cases. Code review tools do not do this, which results in vague comments that are hard to trust.\n\n**Optimized for test generation quality**. 69% of Tusk-generated test suites are incorporated into customers’ PRs. We use more compute to reason through test scenarios. AI copilots in your IDE are optimized for latency as opposed to quality when generating tests.\n\n**Developer-centric, fully customizable**. Tusk puts engineers in control by allowing them to accept/decline the generated tests and customize configs to meet your team's testing guidelines (how to mock, using factories, avoiding specific directories, etc.).\n\nRead [our documentation](https://docs.usetusk.ai/automated-tests/overview) to learn more.\n\n## Interested?\n\nTusk is now available for growth-stage and enterprise companies looking to auto-generate tests for their PRs and/or backfill tests for their monolith.\n\n[Apply for access](https://tally.so/r/nP29pQ) to see how Tusk can help your team ship faster but safer.",
+      "url": "https://www.ycombinator.com/launches/MdO-tusk-ai-agent-for-generating-unit-integration-tests",
+      "votes": 39,
+      "created_at": "2025-01-21T17:31:55.265Z"
+    },
+    {
+      "id": 78780,
+      "title": "🐘 Tusk - AI coding agent that completes your chores",
+      "tagline": "We complete annoying tasks from ticket to PR, helping engineers avoid context-switching.",
+      "body": "**tl;dr**: [Tusk](https://usetusk.ai) is an AI coding agent that completes annoying tickets, letting software engineers focus on more important work. Simply assign a ticket to Tusk. Our AI will traverse your codebase for context and then create a pull request (PR).\n\n![uploaded image](/media/?type=post&id=78780&key=user_uploads/317259/6868cbd5-72a5-495b-b4df-022d6b53d313)\n\nHey everyone! We’re Sohil and Marcel.\n\nWe’re on a mission to boost developer productivity and satisfaction by automating the day-to-day tasks that bog down software engineers.\n\n# Problem\n\nSoftware engineers are often assigned menial “product quality” tickets and bugs that require them to context-switch from more important, interesting work.\n\n**15-20% of all tickets** in the typical 2-week sprint are chores like fixing bugs and polishing up UI. Additionally, there are similar tickets in every company’s graveyard backlog that rarely ever get cleared.\n\nThe result? A simple engineering task that should’ve taken 15 minutes to complete sometimes ends up taking 3 weeks to get done, or not at all.\n\nWhile it makes sense for engineers to deprioritize these tasks, this work is important for ensuring that customers have a delightful, bug-free user experience. Janky UX on an ongoing basis causes “**death by a thousand cuts**” for customers, leading to churn.\n\n# Solution\n\n[Tusk (YC W24) Demo](https://youtu.be/W0O3p5EIO1I?feature=shared)\n\n[Tusk](https://usetusk.ai/) is an AI coding agent that completes product quality tickets and bug fixes, letting your software engineers focus on more important work.\n\nWe integrate with Linear, Jira, Notion, and GitHub so that engineers can **go from ticket to PR** with one click of a button. We’re fully embedded into your engineering workflow so you don’t have to change how you work.\n\nWith Tusk, engineers no longer need to context-switch to do something simple like adding a confirmation modal or fixing a page index bug for table pagination.\n\n### How Tusk works\n\n* **Simply assign a ticket to Tusk**. Our AI agent will traverse your codebase for context and create a PR for the ticket.\n* **Tusk will** **regenerate code to address PR reviews** left by engineers and errors in automated checks.\n* **Tusk investigates complex tasks** and provides a branch and advice to save engineers time even if it can’t create a PR.\n* **Beta**: If your team deploys a preview environment for every PR, Tusk will do an end-to-end test of the change and record a testing video.\n\n# Our story\n\n![uploaded image](/media/?type=post&id=78780&key=user_uploads/317259/51f7aee6-bf8d-400d-a07f-b09da476bce6)\n\n[Sohil](https://www.linkedin.com/in/sohil-kshirsagar/) was previously a Senior Software Engineer at Aspire. Because of his product-mindedness, he was usually the first engineer to complete product quality tickets. Sohil was also the first person to tell you that **these chores distracted him** from working on more important tasks.\n\n[Marcel](https://www.linkedin.com/in/marcel-tan/) was formerly a Product Manager for 6sense’s AI email product. He often made product decisions that were outside of the initial PRD due to customer feedback. However, he risked distracting his engineers by pulling these ad hoc tickets into the current sprint.\n\nWe both deeply wished there was a way to **protect engineers’ uninterrupted coding blocks**, while also raising the quality bar of our products. Today we’re using Tusk to help build our own product.\n\n# Get early access\n\nWe’re already helping companies like Wefunder (YC W13), Toolbox (YC S20), and HitPay (YC S21) automate up to 20 engineering tickets monthly.\n\n**Apply to get early access** **to Tusk** **on** [**this form**](https://tally.so/r/w4xOpA). We’ll give the first 50 companies who sign up free customization of your AI agent and a white-glove onboarding.",
+      "url": "https://www.ycombinator.com/launches/KUe-tusk-ai-coding-agent-that-completes-your-chores",
+      "votes": 71,
+      "created_at": "2024-02-27T00:05:02.472Z"
+    }
+  ]
+}

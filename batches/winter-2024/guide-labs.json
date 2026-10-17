@@ -1,0 +1,93 @@
+{
+  "id": 29328,
+  "name": "Guide Labs",
+  "slug": "guide-labs",
+  "former_names": [
+    "Guide Labs Inc"
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/0fe96eb46b8e36c878f7362b2ef9b57395fe8a11.png",
+  "website": "https://www.guidelabs.ai/",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "Guide Labs builds frontier AI models and agents that you can learn from, audit, and steer. \r\nOur first model, Steerling-8B, is the first and largest inherently interpretable model: it can trace any output to training data, concepts inside the model, and the input, all without sacrificing performance.",
+  "one_liner": "Frontier models and agents you can learn from, audit, and steer.",
+  "team_size": 6,
+  "industry": "B2B",
+  "subindustry": "B2B -> Infrastructure",
+  "launched_at": 1709806941,
+  "tags": [
+    "Artificial Intelligence"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Winter 2024",
+  "status": "Active",
+  "industries": [
+    "B2B",
+    "Infrastructure"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/guide-labs",
+  "api": "https://devasheeshg.github.io/yc-api/batches/winter-2024/guide-labs.json",
+  "year_founded": 2023,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/guide-labs",
+  "x_url": "https://twitter.com/guidelabsai",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/0fe96eb46b8e36c878f7362b2ef9b57395fe8a11.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Nicolas Dessaigne",
+    "url": "https://www.ycombinator.com/people/nicolas-dessaigne"
+  },
+  "founders": [
+    {
+      "user_id": 79482,
+      "full_name": "Julius Adebayo",
+      "title": "Founder/CEO",
+      "founder_bio": "I am a machine learning researcher working on interpretable AI systems.",
+      "is_active": true,
+      "linkedin_url": "https://linkedin.com/in/juliusadebayo",
+      "x_url": "https://twitter.com/juliusadml",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/dba29dced9838bc5736f2b09f8b8c5b5aa8ab381.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [
+    {
+      "title": "Guide Labs debuts a new kind of interpretable LLM | TechCrunch",
+      "url": "https://techcrunch.com/2026/02/23/guide-labs-debuts-a-new-kind-of-interpretable-llm/",
+      "date": "Feb 23, 2026"
+    },
+    {
+      "title": "Guide Labs Open Sources an Interpretable 8B Language Model - The Silicon Valley Post",
+      "url": "https://svpost.com/articles/guide-labs-steerling-8b-launch/",
+      "date": "Feb 23, 2026"
+    }
+  ],
+  "launches": [
+    {
+      "id": 79741,
+      "title": "Guide Labs: Interpretable foundation models",
+      "tagline": "Foundation models that can explain their reasoning, and are easy to align",
+      "body": "At [Guide Labs](https://www.guidelabs.ai/), we build interpretable foundation models that can reliably explain their reasoning and are easy to align.\n\n### **The Problem: foundation models are black-boxes and difficult to align**\n\nCurrent transformer-based large language models (LLMs) and diffusion generative models are largely inscrutable and do not provide reliable explanations for their output. In medicine, lending, and drug discovery, it is not enough to only provide an answer; domain experts would also like to know **_why_** the model arrived at its output.\n\n* **Current foundation models don’t explain their outputs**. Would you trust a black-box model to propose medications for your illness or decide whether you should get a job interview?\n* **You can't debug a system you don't understand**: When you call a model API and the response is incorrect, what do you do? Change the prompt? What part of your prompt should you change? Switch to a new model API?\n* **Difficult to reliably align or control model outputs**: Even when you've identified the cause of the problem. How do you control the model so that it no longer makes the mistake you identified?\n\n### **Our Solution**\n\n**We’ve developed interpretable foundation models that can explain their reasoning, and are easy to align.**\n\nThese models:\n\n* provide human-understandable explanations;\n* indicate what part of the prompt is important; and,\n* specify which tokens led to the model's output.\n\nUsing all these explanations, we can:\n\n* identify the part of the prompt that causes the model to err;\n* isolate the samples that cause those errors; and,\n* use explanations to control and align the model to fix its errors.\n\n### **About Us**\n\nWe are  interpretability researchers and engineers that have been responsible for major advances in the field. We have set out to rethink the way machine learning models, AI agents, and systems broadly are developed.\n\n### **Our Ask**\n\nPlease reach out to us at [info@guidelabs.ai](mailto:info@guidelabs.ai).",
+      "url": "https://www.ycombinator.com/launches/Kk9-guide-labs-interpretable-foundation-models",
+      "votes": 68,
+      "created_at": "2024-03-27T14:56:29.406Z"
+    }
+  ]
+}

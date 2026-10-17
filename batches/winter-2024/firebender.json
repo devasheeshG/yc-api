@@ -1,0 +1,106 @@
+{
+  "id": 29352,
+  "name": "Firebender",
+  "slug": "firebender",
+  "former_names": [],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/b5e800727a4c7a60598b63b6fc7236d263fae085.png",
+  "website": "https://firebender.com",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "Firebender is the most powerful coding agent for Android engineering. \r\n\r\nOne-click install from the IntelliJ plugin marketplace to your IDE. It has context over your codebase and lets you use the best models for asking questions, debugging code, and writing full features.\r\n\r\nUnlike other AI assistants, Firebender has access to the emulator, compose previews, and LSP tools like finding usages, renaming variables/functions. It continuously stays up to date with the latest Android SDKs, libraries, and best practices, providing more accurate and relevant assistance for Android development.",
+  "one_liner": "Most powerful coding agent for Android engineers",
+  "team_size": 1,
+  "industry": "B2B",
+  "subindustry": "B2B -> Engineering, Product and Design",
+  "launched_at": 1707094110,
+  "tags": [
+    "Artificial Intelligence",
+    "AI Assistant"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": true,
+  "nonprofit": false,
+  "batch": "Winter 2024",
+  "status": "Active",
+  "industries": [
+    "B2B",
+    "Engineering, Product and Design"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/firebender",
+  "api": "https://devasheeshg.github.io/yc-api/batches/winter-2024/firebender.json",
+  "year_founded": 2023,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/firebender-com/",
+  "x_url": "http://x.com/firebender_com",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": "https://github.com/firebenders",
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/b5e800727a4c7a60598b63b6fc7236d263fae085.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Gustaf Alstromer",
+    "url": "https://www.ycombinator.com/people/gustaf-alstromer"
+  },
+  "founders": [
+    {
+      "user_id": 451682,
+      "full_name": "Aman Gottumukkala",
+      "title": "Founder",
+      "founder_bio": "Aman is the cofounder of Firebender, an AI-powered coding assistant built exclusively for Android Studio.\n\nBefore Firebender, Aman was a 2020 Kleiner Perkins Eng fellow and the 3rd engineer at Paradigm, where he built trading and internal data infrastructure from scratch, automated Ethereum derivative trading strategies yielding 20%, and published novel zero-knowledge cryptography research.\n\nHe interned at Google, Instagram, Twitch, and Microsoft in college.",
+      "is_active": false,
+      "linkedin_url": "https://linkedin.com/in/amangotchu",
+      "x_url": "https://twitter.com/amangotchu",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/527bc6ba2f7ca56f3a971fa3d8e499eeb0bb2952.jpg"
+    },
+    {
+      "user_id": 829883,
+      "full_name": "Kevin Tang",
+      "title": "Founder/CTO",
+      "founder_bio": "Previously, Kevin was a software engineer at Two Sigma where he architected and built service infrastructure for modeling, trading, and engineering teams (scale ~10K CPUs, ~1PB RAM). Kevin learned to program by creating Roblox games in high school; one of his games had 2,000 concurrent players and featured on the front page.",
+      "is_active": true,
+      "linkedin_url": "https://linkedin.com/in/distributed",
+      "x_url": "https://x.com/kevo1ution",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/7bbc443ef4e2a920a00a376e5885f8295d52531f.jpg"
+    }
+  ],
+  "jobs": [
+    {
+      "id": 79060,
+      "title": "Founding Engineer (Generalist)",
+      "url": "https://www.ycombinator.com/companies/firebender/jobs/yisDXr5-founding-engineer-generalist",
+      "location": "San Francisco, CA, US",
+      "type": "Full-time",
+      "role": "Engineering",
+      "role_type": "Full stack",
+      "salary_range": "$180K - $250K",
+      "equity_range": "1.00% - 3.00%",
+      "experience": "Any (new grads ok)",
+      "visa": "Will sponsor",
+      "skills": []
+    }
+  ],
+  "news": [],
+  "launches": [
+    {
+      "id": 84402,
+      "title": "🔥 Firebender - The best AI assistant for Android Studio",
+      "tagline": "Meet Firebender, Android Studio's missing AI assistant.",
+      "body": "Hey everyone! We’re Aman and Kevin from [Firebender](https://firebender.com/), building the best AI tools for Android developers.\n\n**TLDR:** [Firebender](https://firebender.com/) is a **free** and **privacy-first** Android Studio AI assistant.\n\n### **🎥 Firebender in Action**\n\n<https://youtu.be/It-TD_95yNk>\n\n### **🛠️ Problem**\n\n* **Inefficient Workflows**: Constantly switching between Android Studio and ChatGPT is annoying, disrupts your development flow, and reduces productivity.\n* **AI Assistants are shit**: General-purpose AI coding tools don't integrate relevant Android-specific contexts like Logcat and the emulator. Some flat-out don’t work in Android Studio at all.\n\n  _“Gemini and Copilot are comically bad. I never use them”_ - Android Tech Lead at GoodRx\n* **Outdated Android Training Data**: Leading AI models have a knowledge cutoff that lags behind Android's fast-paced, often backward-incompatible changes. This gap leads to incorrect AI code suggestions for updated SDKs, libraries, architecture patterns, and UI frameworks like Jetpack Compose.\n\n  _“GPT4 and Claude were clueless about the Android UI framework we use. We had to build an in-house context retrieval system to make AI coding useful.”_ - Senior Staff Android Eng at Airbnb\n\n### **🔥 Our Solution - Firebender**\n\n* **Android Studio Plugin:** One click [install](https://plugins.jetbrains.com/plugin/25224-firebender) from IntelliJ marketplace.\n* **Talk to your codebase**: AI chat window for comprehensive assistance with your codebase, logs, profiler, and emulator.\n\n  ![uploaded image](/media/?type=post&id=84402&key=user_uploads/451682/07fb823c-fd19-4659-8c42-6a98d523a6aa)\n\n* **Fast Edit**: Enables quick, context-aware code modifications directly in your current file.\n\n  ![uploaded image](/media/?type=post&id=84402&key=user_uploads/451682/7bd9e58e-fd4f-4983-9967-a882197fb9d9)\n\n* **Up-to-date Android Knowledge**: Firebender scrapes real-time knowledge from the latest SDKs, libraries, repos, and docs into context.\n* **Free &amp; Privacy First**: We do **not log, store, or persist your code**.\n\nAn iOS developer with 10 years of experience built his first Android app in just 3 weeks using Firebender—a task that had taken him 3 months for iOS.\n\n_\"There was no way I could've built it as fast as I did without Firebender\"_ - iOS Eng at Sinai Health\n\n### **🤷 Why we built Firebender**\n\nA few months ago, we were developing Firebender OS - an AI-powered fork of Android. We rooted Pixel 8s and created an AI assistant that activates by holding the power button. It automated tasks like drafting calendar invites from messages and opening relevant apps based on your location and schedule. Despite using it every day, we realized the added value wasn't sufficient. We didn’t love the product.\n\nThroughout this process, we constantly struggled without a good AI coding assistant for Android development. Existing tools have shockingly poor Android support, focusing instead on other IntelliJ IDEs and languages. This gap revealed a clear opportunity so we pivoted immediately to building Firebender, the best AI coding assistant for Android developers.\n\n### 🙏 **Our Asks**\n\n* [Try Firebender](https://plugins.jetbrains.com/plugin/25224-firebender/versions/stable) for Android Studio\n* Share Firebender with your Android developer friends!",
+      "url": "https://www.ycombinator.com/launches/LxK-firebender-the-best-ai-assistant-for-android-studio",
+      "votes": 50,
+      "created_at": "2024-09-30T22:22:09.047Z"
+    }
+  ]
+}

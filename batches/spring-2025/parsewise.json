@@ -1,0 +1,142 @@
+{
+  "id": 30453,
+  "name": "Parsewise",
+  "slug": "parsewise",
+  "former_names": [],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/7f1c0c72a7f623d3b80ce3fbde35d6d196e31e5c.png",
+  "website": "https://parsewise.ai",
+  "all_locations": "London, England, United Kingdom",
+  "long_description": "Parsewise provides multi-document processing and analysis that you can embed in your own product.\r\n\r\nOperations teams use our platform for oversight and control over their fleet of AI agents, and our MCP to make Claude work at scale with traceability.\r\nTech teams use our API to replace complex processing pipelines resolving values across documents.\r\n\r\nWe help customers assess complex risk at scale: manage casualty, specialty, KYC, and financial risks, so teams can act faster and defend their decisions with confidence.",
+  "one_liner": "Multi-document processing for your risk teams, AI agents, pipelines",
+  "team_size": 6,
+  "industry": "B2B",
+  "subindustry": "B2B",
+  "launched_at": 1745096268,
+  "tags": [
+    "Documents",
+    "Artificial Intelligence",
+    "Finance",
+    "API",
+    "Insurance"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": true,
+  "nonprofit": false,
+  "batch": "Spring 2025",
+  "status": "Active",
+  "industries": [
+    "B2B"
+  ],
+  "regions": [
+    "United Kingdom",
+    "Europe",
+    "Remote",
+    "Partly Remote"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/parsewise",
+  "api": "https://devasheeshg.github.io/yc-api/batches/spring-2025/parsewise.json",
+  "year_founded": 2024,
+  "city": "London",
+  "country": "GB",
+  "linkedin_url": "https://www.linkedin.com/company/parsewise",
+  "x_url": "https://x.com/parsewise",
+  "fb_url": null,
+  "cb_url": "https://www.crunchbase.com/organization/parsewise",
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/7f1c0c72a7f623d3b80ce3fbde35d6d196e31e5c.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [
+    "https://bookface-images.s3.us-west-2.amazonaws.com/attachments/ce5c8bcf5ae259dd9fc9ee95f9b1aad22f751e20.png",
+    "https://bookface-images.s3.us-west-2.amazonaws.com/attachments/008597abe694b4661688d888a0b0b50e2a0fb91a.png"
+  ],
+  "primary_partner": {
+    "name": "Nicolas Dessaigne",
+    "url": "https://www.ycombinator.com/people/nicolas-dessaigne"
+  },
+  "founders": [
+    {
+      "user_id": 1723779,
+      "full_name": "Max Hofer",
+      "title": "Founder/CEO",
+      "founder_bio": "On a mission to end data monkey work. \nFormer Bain consultant with deep expertise in enterprise data workflows and a PhD in applied ML.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/mwhofer/",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/9b31762b1842413440fc93f48220dba18019a750.jpg"
+    },
+    {
+      "user_id": 1910315,
+      "full_name": "Greg Csegzi",
+      "title": "Founder/CTO",
+      "founder_bio": "Bridging reliability for AI driven extractions.\nEx-Palantir, experience in life sciences, insurance, manufacturing",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/gergely-csegzi-553b1aa5",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/549bea3c58990168865b1ba6d92a2e2869e8a673.jpg"
+    }
+  ],
+  "jobs": [
+    {
+      "id": 79985,
+      "title": "Founding Engineer",
+      "url": "https://www.ycombinator.com/companies/parsewise/jobs/rgv8l5D-founding-engineer",
+      "location": "London, England, GB",
+      "type": "Full-time",
+      "role": "Engineering",
+      "role_type": "Full stack",
+      "salary_range": "£80K - £100K GBP",
+      "equity_range": "0.50% - 1.00%",
+      "experience": "3+ years",
+      "visa": "US citizenship/visa not required",
+      "skills": []
+    },
+    {
+      "id": 95780,
+      "title": "Forward Deployed Engineer",
+      "url": "https://www.ycombinator.com/companies/parsewise/jobs/F27C7eN-forward-deployed-engineer",
+      "location": "London, England, GB",
+      "type": "Full-time",
+      "role": "Engineering",
+      "role_type": "Full stack",
+      "salary_range": "£80K - £100K GBP",
+      "equity_range": "0.50% - 1.00%",
+      "experience": "3+ years",
+      "visa": "US citizenship/visa not required",
+      "skills": [
+        "Amazon Web Services (AWS)",
+        "Python",
+        "React",
+        "Terraform",
+        "AI Agents"
+      ]
+    }
+  ],
+  "news": [],
+  "launches": [
+    {
+      "id": 101959,
+      "title": "Parsewise - API for agentic multi-document processing",
+      "tagline": "Give your apps full value provenance for reasoning across documents!",
+      "body": "Hello from Greg, Max and the Parsewise team! 👋\n\n# **TL;DR**\n\n[Parsewise](https://www.parsewise.ai/api?utm_source=launchyc&utm_medium=referral&utm_campaign=api_launch) turns multiple documents into a single structured response. Cross-document entity linking, contradiction detection, bounding boxes and UI toolkit to show it all included.\n\n[See it live!](https://www.youtube.com/watch?v=F1cSuZal03s)\n\n**The Problem**\n\nToday, you have to build and maintain complex document processing pipelines with changing business rules. You parse, classify, and rely on structured responses from LLMs or IDP tools (e.g., Reducto) to get individual extraction results that you piece together with other bits of information. There’s no reliable way to catch when information contradicts itself, which is risky. Finally, you build a custom verification UI for your operations team to deal with LLM mistakes.\n\n**The Solution**\n\nWe provide an API to abstract all that away into a single call. You provide multiple documents and the desired output to get back a response with resolved values, flagged contradictions, and full traceability across documents / pages that you can display in your own app.\n\n![uploaded image](/media/?type=post&id=101959&key=user_uploads/1910315/a837442e-b7af-4113-acfd-699fc5074dff)\n\n**Get Started**\n\n=======================================================\n\n  Sign up with free credits: [https://www.parsewise.ai/get-started](https://www.parsewise.ai/get-started?utm_source=launchyc&utm_medium=referral&utm_campaign=api_launch)\\\n  (use the [Agents.md](https://api.parsewise.ai/AGENTS.md) for a 1m integration)\n\n=======================================================\n\n**Story Time**\n\nWhy are we working on this, how we got to where we are, who we are working with, and where we are headed.\n\nGreg was at Palantir trying to make sense of various Japanese insurance documents and realizing that any processing pipeline built around it was highly custom, time-consuming, and brittle. Max was on the human operator side at Bain &amp; Co, realizing that the technology was being held back due to a trust problem.\n\nWe realized that there is this powerful new capability for general reasoning (and thus processing). Models are getting extremely good at interpreting complex documents (shout-out to the Gemini model family) and perform better than most OCR-type solutions on the market.\n\nSo we set out to build the layer that comes on top:\\\n1\\. Provide mapping from user intent to a dynamic ontology\\\n2\\. Use the now-abundant intelligence to reason across documents to get to the right results\\\n3\\. Provide the provenance trace and validation UX that is required in many use cases\n\nWe are working with leading customers, both small and large, like UBS, Compre Group, Thinksurance, and more. They rely on Parsewise to streamline submission intake, claim portfolio risk assessment, etc., for both API based integrations and operational workflows.\n\nWith this launch, we are inviting developers to build more reliable and delightful workflows around their unstructured data processing. As we scale, we are excited to be helping with the end-to-end integration and deterministically filling forms, mapping to 3rd party APIs and web portals.\n\n\\\nSee more at [https://www.parsewise.ai/api](https://www.parsewise.ai/api?utm_source=launchyc&utm_medium=referral&utm_campaign=api_launch)\n\n![uploaded image](/media/?type=post&id=101959&key=user_uploads/1910315/97f9bee1-d6f5-42ee-ab1f-14f178b5b826)\n\n",
+      "url": "https://www.ycombinator.com/launches/QWV-parsewise-api-for-agentic-multi-document-processing",
+      "votes": 6,
+      "created_at": "2026-05-26T14:44:21.064Z"
+    },
+    {
+      "id": 90400,
+      "title": "Parsewise: Extract Validated Data from Complex Documents 🔬",
+      "tagline": "Turn complex documents into validated information that business users can trust.",
+      "body": "Hi everyone, we’re [Max](https://www.linkedin.com/in/mwhofer/) and [Greg](https://www.linkedin.com/in/gergely-csegzi/), and we’re building [Parsewise](https://parsewise.ai/) 👋\n\n👉🏻 Watch the video: https://youtu.be/ZFNH0M6Q3fw\n\n**❌ The Problem**\n\nBusiness experts waste hours each week on **manual, repetitive data tasks**. Extracting and validating information from complex documents is slow and error-prone. As a result, analytics, benchmarking, and reporting **processes are brittle and expensive**.\n\n**Current AI solutions** like ChatGPT are black boxes that generate **unreliable outputs**. Intelligent document processing tools require technical expertise, resulting in limited productivity gains.\n\n**The data monkey era is over!** We believe that business experts have struggled with complex documents long enough. We 10x their productivity while improving the quality of their outputs.\n\n**✅ The Parsewise Solution**\n\nParsewise extracts trusted information from complex documents, supported by these core features:\n\n* **End-to-end Traceability**: We trace every single output (text, number, date, etc.) to its exact source and highlight it with bounding boxes. _No more black boxes._\n* **Granular Human Control**: Business experts directly review and modify data extraction logic and consistency check strategies. _No more re-prompting._\n* **Exhaustive Processing**: Our agents exhaustively parse data, proactively flagging issues. _No more second-guessing._\n\n👉🏻 Parsewise is easy to use: https://youtu.be/69kEn5cYbvA\n\n**💬 What Our Users Are Saying**\n\n_“We have cut the analysis process from weeks to days, and most importantly, we have more confidence in the results than before.”_\n\n* Head of Family Office\n\n_“The processing took a while, but the results are perfect. We ran the same test with Snowflake’s Document AI, and it was frankly disappointing.”_\n\n* Lead Data Analyst at a Large Asset Manager\n\nWe have helped **cut week-long processes relying on parsing complex documents into hours**.\n\n**🤝 The Team**\n\nWe met studying CS at Oxford University in 2017.\n\n**Max (CEO)**: Ran his first business at 12, founded a data science consultancy next to his PhD, and conducted &gt;20 PE due diligence projects at Bain. BSc, MSc, and PhD in CS and Econ.\n\n**Greg (CTO)**: Built the earliest production AI use cases at Palantir, with top project conversion, working in life sciences and insurance, having been deployed to 6 countries. Ask me about parsing manga-style insurance documents 😉\n\n**🚀 Call to Action: Free a Data Monkey**\n\nWe’re **live with pilot customers**, looking to **free more human data monkeys** of their lousy work!\n\nThe most relevant industries and teams are:\n\n* Industries: Investment management, reinsurance, life sciences\n* Teams: Risk & compliance, analytics, data & AI engineers\n\nContact us at [founders@parsewise.ai](mailto:founders@parsewise.ai) for more information and a demo.",
+      "url": "https://www.ycombinator.com/launches/NW4-parsewise-extract-validated-data-from-complex-documents",
+      "votes": 81,
+      "created_at": "2025-05-14T17:25:55.072Z"
+    }
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "id": 30261,
+  "name": "Lucid",
+  "slug": "lucid",
+  "former_names": [],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/1d7946ea974cf7a753814028e684ac774c9c4073.png",
+  "website": "https://lucid.ai",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "We are building universe simulations powered by interactive video models.\r\n\r\nWe train video models that simulate hyper-realistic environments with immersive control, replacing hard-coded game or physics engines with dynamic neural networks.\r\n\r\nWe built the fastest action-conditioned diffusion video model (running at 20+fps on a 4090 gaming gpu) to simulate minecraft. It is 5x faster than other minecraft World Models and was trained with 100x less resources. Our unique insight was relying on aggressive compression in our tokenizer (128x versus the traditional 8x), and because attention scales quadratically with # of tokens our model can run blindingly faster.\r\n\r\nNow we’re training a hyper realistic world model!",
+  "one_liner": "interactive video models",
+  "team_size": 3,
+  "industry": "Consumer",
+  "subindustry": "Consumer",
+  "launched_at": 1738541860,
+  "tags": [],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": true,
+  "nonprofit": false,
+  "batch": "Winter 2025",
+  "status": "Active",
+  "industries": [
+    "Consumer"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada",
+    "Remote",
+    "Partly Remote"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/lucid",
+  "api": "https://devasheeshg.github.io/yc-api/batches/winter-2025/lucid.json",
+  "year_founded": 2024,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "",
+  "x_url": "",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/1d7946ea974cf7a753814028e684ac774c9c4073.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Aaron Epstein",
+    "url": "https://www.ycombinator.com/people/aaron-epstein"
+  },
+  "founders": [
+    {
+      "user_id": 1134468,
+      "full_name": "Rami Seid",
+      "title": "Founder/CTO",
+      "founder_bio": "A high school dropout who got his first internship as an MLE at a robotics lab, I went on to become the CTO of a govtech contracting company. After that, I cofounded my own telecommunications company while doing ML work on the side. Now I'm building a universe simulator at Lucid.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/rami-mohammed-seid/",
+      "x_url": "https://x.com/rami_mmo",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/581c59e8f0c2b52af465f64bb8b3807a50b49d44.jpg"
+    }
+  ],
+  "jobs": [
+    {
+      "id": 78799,
+      "title": "Member of Technical Staff",
+      "url": "https://www.ycombinator.com/companies/lucid/jobs/j3REzcP-member-of-technical-staff",
+      "location": "San Francisco, CA, US",
+      "type": "Full-time",
+      "role": "Engineering",
+      "role_type": "Machine learning",
+      "salary_range": "$150K - $250K",
+      "equity_range": "0.50% - 1.50%",
+      "experience": "Any (new grads ok)",
+      "visa": "US citizen/visa only",
+      "skills": [
+        "Python",
+        "Distributed Systems",
+        "Deep Learning"
+      ]
+    }
+  ],
+  "news": [],
+  "launches": [
+    {
+      "id": 87783,
+      "title": "Lucid: Generative Simulations powered by Fast World Models",
+      "tagline": "Unbounded video games and fully differentiable reinforcement learning gyms",
+      "body": "Hey YC! We’re **Alberto and Rami**, the founders of **Lucid**.\n\n<https://youtu.be/fnoyvrGOwIA>\n\nWe’re building generative simulations powered by fast world models. Instead of using traditional game engines with hard-coded physics, our models **learn to simulate reality from pixels**, enabling **real-time interactive environments**. With it we will train robots in their own imaginations and make unbounded gaming experiences. We trained the fastest world model ever seen to simulate minecraft end-to-end (20+fps on a gaming GPU).\n\n### **The Problem: Game Worlds Are Static & Expensive to Build**\n\nModern game development is **slow, expensive, and constrained**:\n\n* **GTA V took 3 years, 1,000 employees, and $100M+** to build—AAA game budgets are skyrocketing and they’re not getting any better.\n* Despite the price tag, these games are inherently **static**, with **predefined** environments, objects, and interactions.\n* Players can’t truly shape the world—every door, street, and event is **pre-scripted**.\n\nMeanwhile, **robotics** faces its own **bottleneck**—AI models trained in simulators (MuJoCo, Isaac Sim, Gazebo) **fail to generalize to the real world (Sim2Real gap)** because today’s simulations are **hand-coded approximations** of physics rather than learned from real-world data.\n\n### **Our Solution: Generative World Models**\n\nLucid replaces **traditional game engines** with a **generative simulation engine** that **learns from data** rather than being manually programmed.\n\n* **Every frame is generated in real-time**, conditioned on player actions.\n* **Trained on video, not game scripts**—our models learn the rules of physics **directly from pixels** rather than hardcoded logic.\n* **Infinite, dynamic game worlds**—players can generate and explore entirely new environments just from a text prompt or sample concept art.\n\n### **A Neural Minecraft Simulator**\n\nWe trained a neural network to **simulate Minecraft end-to-end**—every pixel is generated in real-time, learned from **200 hours of gameplay.**\n\n* **Runs at 20+ FPS on an NVIDIA 4090—5× faster than existing world models (Decart’s Oasis <4 FPS).**\n* Aggressive latent compression—we utilize a VAE with 128x spatial compression allowing us to vastly reduce the amount of tokens needed to represent a single frame\n\n### **What’s Next? Training on the Real World**\n\nWe’re now training our models on **real-world video data** to build a **general-purpose universe simulator** for:\n\n* **Gaming:** The last game engine humanity ever needs—generating unique environments dynamically from simple text or multimodal prompts.\n* **Robotics:** Simulations that actually **match reality**—training embodied AI models in diverse, realistic environments. A fully differentiable, learned simulation framework for reinforcement learning.\n\n### **Want to learn more?**\n\n* **Are you working on AI/robotics and need high-fidelity simulations?** We’re selecting early partners to **fine-tune** **LoRAs** on domain-specific data.\n* **Want to explore the future of generative gaming?** Sign up for **early access to Lucid v2**\n\n**Let’s connect!** Reach us at [**alberto@lucidsim.co**](mailto:alberto@lucidsim.co) or sign up at [lucidsim.co](http://lucidsim.co)",
+      "url": "https://www.ycombinator.com/launches/Mpr-lucid-generative-simulations-powered-by-fast-world-models",
+      "votes": 30,
+      "created_at": "2025-02-18T18:41:34.976Z"
+    }
+  ]
+}

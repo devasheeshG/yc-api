@@ -1,0 +1,87 @@
+{
+  "id": 30702,
+  "name": "TwentyTwo",
+  "slug": "twentytwo",
+  "former_names": [
+    "Muon",
+    "Mohi"
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/5be6b2304553a4bca9bfa1f2953ae02638a8d430.png",
+  "website": "https://twentytwo.bio/",
+  "all_locations": "New York City, NY, USA",
+  "long_description": "AI is making biology easy to engineer. Life-saving drugs and therapies are accelerating, but so is the ability for bad actors to create a pandemic. TwentyTwo is working on the defensive stack to prevent the next pandemic.",
+  "one_liner": "AI infrastructure for biosecurity",
+  "team_size": 3,
+  "industry": "Healthcare",
+  "subindustry": "Healthcare -> Industrial Bio",
+  "launched_at": 1753262535,
+  "tags": [
+    "Artificial Intelligence",
+    "Synthetic Biology",
+    "Biotech",
+    "Compliance",
+    "Security"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Summer 2025",
+  "status": "Active",
+  "industries": [
+    "Healthcare",
+    "Industrial Bio"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/twentytwo",
+  "api": "https://devasheeshg.github.io/yc-api/batches/summer-2025/twentytwo.json",
+  "year_founded": 2025,
+  "city": "New York City",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/mohi-inc",
+  "x_url": "",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/5be6b2304553a4bca9bfa1f2953ae02638a8d430.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Tyler Bosmeny",
+    "url": "https://www.ycombinator.com/people/tyler-bosmeny"
+  },
+  "founders": [
+    {
+      "user_id": 1970485,
+      "full_name": "Evan Seeyave",
+      "title": "Founder/CEO",
+      "founder_bio": "kurzgesagt and mango enjoyer",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/evanseeyave",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/8d3154cafebe2dd909cd3639d2d5f15c0758ee9e.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 92831,
+      "title": "Mohi: Debugging assistant for AI agents",
+      "tagline": "Don’t know why your agent messed up? Neither do we. But Mohi will show you exactly where your agents went wrong - and why.",
+      "body": "Hey folks! 👋\n\nWe’re building Mohi, a debugging assistant for AI agents. If you've ever spent hours scrolling through 500+ LLM calls asking “what the hell happened?” — this is for you.\n\nhttps://youtu.be/UzQZlUdZ59s\n\n### The Problem\n\nAgents are complicated — tools, memory, web search, nested loops, and hallucinations. And when something breaks, it’s like untangling spaghetti. You’re stuck scrolling through flat logs, guessing which of the _35_ steps silently failed.\n\nIt's slow, brittle, and makes you second-guess your whole stack.\n\n### **The Fix**\n\nMohi makes debugging agents **_fast_**, and **_actually usable_**.\n\nJust tag key steps in your agent with our lightweight SDK (think: tool calls, memory access, context switches, decision logics), and we build a clean visual graph of what happened under the hood. Then we go a step further and show you:\n\n* where your agent last succeeded\n* where it went off the rails (hallucinated, failed tool, wrong branch)\n* and how to re-run broken steps with new inputs\n\nIt’s not just observability. It's a diagnosis.\n\n### **Who We Are**\n\nPreviously, Hao worked on AI and distributed systems observability at AWS, and Evan worked on automated testing at Google and AI evaluations at SecureBio. We met at MIT and worked on a bunch of projects together, eventually building agents ourselves and seeing firsthand how painful debugging can be — so we built Mohi to fix it.\n\n![uploaded image](/media/?type=post&id=92831&key=user_uploads/1675765/aa1f6344-8ce0-4ad5-a5ba-0e203412791a)\n\n### **Our Ask**\n\nIf you’re building complex agents — we’d love to chat!\n\n→[ https://trymohi.com/](https://trymohi.com/)\n\n→ [founders@trymohi.com](mailto:founders@trymohi.com)",
+      "url": "https://www.ycombinator.com/launches/O9H-mohi-debugging-assistant-for-ai-agents",
+      "votes": 4,
+      "created_at": "2026-02-07T00:21:30.007Z"
+    }
+  ]
+}

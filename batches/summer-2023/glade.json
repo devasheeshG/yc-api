@@ -1,0 +1,102 @@
+{
+  "id": 28938,
+  "name": "Glade",
+  "slug": "glade",
+  "former_names": [],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/39e64fe4e49894144581ae2ef69befe4cb83f6b8.png",
+  "website": "https://gladestudio.ai/",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "Glade is helping everyone build games with AI. GladeCore powers hundreds of studios and developers with locally powered AI NPCs that include TTS, STT, emotional tuning, and RAG. GladeKit is Cursor for Games - an AI agent that lives directly in your game engine and builds games for you. ",
+  "one_liner": "Build games at the speed of thought",
+  "team_size": 3,
+  "industry": "B2B",
+  "subindustry": "B2B",
+  "launched_at": 1687994809,
+  "tags": [
+    "Generative AI",
+    "Consumer",
+    "Entertainment",
+    "Gaming",
+    "AI"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Summer 2023",
+  "status": "Active",
+  "industries": [
+    "B2B"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada",
+    "Remote",
+    "Partly Remote"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/glade",
+  "api": "https://devasheeshg.github.io/yc-api/batches/summer-2023/glade.json",
+  "year_founded": 2023,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/gladegamestudio",
+  "x_url": "https://x.com/GladeStudio",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/39e64fe4e49894144581ae2ef69befe4cb83f6b8.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [
+    "https://bookface-images.s3.us-west-2.amazonaws.com/attachments/a26e6511816713a17d7f2cec1d66dc6d5d18441c.png"
+  ],
+  "primary_partner": {
+    "name": "Diana Hu",
+    "url": "https://www.ycombinator.com/people/diana-hu"
+  },
+  "founders": [
+    {
+      "user_id": 424004,
+      "full_name": "Daniel Fang",
+      "title": "Founder",
+      "founder_bio": "Daniel is the CEO and co-founder of Glade. He has years of experience working in banking, strategic finance, and venture capital. He has previously worked at Navan, Ocean Tomo, and Goldman Sachs.",
+      "is_active": true,
+      "linkedin_url": "https://linkedin.com/in/danielfang7",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/2d257131f2a20e76faf35a42e3d3955091e1c875.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [
+    {
+      "title": "Our favorite startups from YC's Summer 2023 Demo Day, Day 1 | TechCrunch",
+      "url": "https://techcrunch.com/2023/09/06/ycombinator-demo-day-one-summer-2023/",
+      "date": "Sep 06, 2023"
+    }
+  ],
+  "launches": [
+    {
+      "id": 98702,
+      "title": "GladeKit: AI agent for game development",
+      "tagline": "AI agent that understands your Unity project and builds directly inside it (Unreal Engine next)",
+      "body": "GladeKit is an AI agent that understands your Unity project and can create systems, modify scenes, and fix bugs directly inside your engine. It doesn’t just generate code snippets - it takes direct action inside your project.\n\n**Demo**: <https://youtu.be/nzyCk8rsrdw?si=nfMdivnegZ0R94tW>\n\n# **The problem**\n\nMost AI tools for game development don’t see your scene hierarchy, prefabs, or existing systems, so developers end up copying code into Unity, wiring components together, fixing errors, and repeating the process.\n\nThis constant context switching slows down shipping real gameplay.\n\n# **The solution: an engine-aware AI agent**\n\nGladeKit connects directly to your Unity project and understands the full context of your game. It reads your scripts, assets, scene hierarchy, and components, then plans and executes changes directly inside the engine.\n\nWhat that looks like in practice:\n\n* 150+ native Unity actions: create prefabs, wire up Animator Controllers, configure physics, build UI, set up lighting, bake NavMeshes - all from natural language\n* Full project awareness: the AI sees your scene hierarchy, active errors, render pipeline, selected objects, and script content before it does anything\n* Three modes built for different workflows: Agent, Debug, and Ask\n* Turn-by-turn revert: every change the AI makes is tracked and reversible, with a built-in script diff viewer so you see exactly what changed\n\nYou describe what you want, and GladeKit builds it inside your project.\n\n# **How it works**\n\nGladeKit indexes your Unity project and builds a structured understanding of:\n\n• Scripts and APIs\n\n• Scene hierarchy and GameObjects\n\n• Prefabs, assets, and components\n\nWhen you request a change (for example: “Create a player controller with WASD movement” or “Fix this null reference error”), it generates a plan and applies the required changes directly to the project.\n\n# **The ask**\n\n1. If you’re building a game in Unity, we’d love for you to try GladeKit.\n2. If you know indie studios or teams experimenting with AI dev tools, intros would be hugely appreciated.\n\nTry it for free here:\n\n<https://www.gladekit.com>\n\n![uploaded image](/media/?type=post&id=98702&key=user_uploads/424004/56ba163b-c05d-45b7-a278-2107abed2ba8)\n\n",
+      "url": "https://www.ycombinator.com/launches/Pfy-gladekit-ai-agent-for-game-development",
+      "votes": 5,
+      "created_at": "2026-03-12T15:09:48.531Z"
+    },
+    {
+      "id": 72665,
+      "title": "Glade - Enterprise grade platform for financial planning",
+      "tagline": "We helps companies build, manage, and visualize their financial plan in real-time",
+      "body": "**_Tl;dr:_** _Finance teams spend 75% of their time on manual processes, and existing tools in the market are extremely difficult to adopt. Glade is a user-first, fully integrated platform that helps enterprises and scaling companies streamline their financial planning, reporting, and analytics. Check out our_ [_website_](https://gladetool.com) _to learn more._\n\nHi everyone, we’re Daniel and Aaron, the co-founders of Glade!\n\n![uploaded image](/media/?type=post&id=72665&key=user_uploads/424004/0b41811b-ce06-4f98-9c81-60bded2fe769)\n\n### **🧨 Problem: Financial Planning is Painful and Tedious**\n\nWithin growing companies and enterprises, there is no single source of truth for financial data, and finance teams are wasting too much time on manual tasks. Daniel was a finance manager at his last company and spent hours every day manually preparing data and handling simple requests from business partners. \n\nExisting tools are also extremely difficult to adopt and implement. Daniel’s previous company implemented Anaplan and paid hundreds of thousands each year for it, yet only one person in his entire company learned how to properly use it. \n\n### **🚀 Solution: A User-First, AI-Powered Financial Platform**\n\nGlade helps companies build, manage, and visualize their financial plan in real-time. \n\nUnlike existing enterprise tools, we fully integrate with all business apps (such as Netsuite, Workday, and Snowflake) to automate the flow of data directly from these apps to your team’s Google Sheets and Excel models. Through our integrations and data enrichment, Glade serves as the central source of truth for all financial data within a company. \n\nOur platform also empowers leaders across the company to make informed decisions and stay aligned. By leveraging AI, we allow users to self-serve financial data through our platform and use natural language to create custom, board deck-ready visualizations in seconds. Want to check how your business is performing in the APAC region? Just ask Glade: “How has my revenue trended in APAC over the last 3 months?” Using AI, we will produce a high-quality chart for you in seconds.\n\n![uploaded image](/media/?type=post&id=72665&key=user_uploads/424004/75f11c06-8d2a-42e8-adc9-08f67408016f)\n\nUsing Glade, companies: \n\n✔️ Speed up financial planning, month-end close, and investor/board deliverables by 2x \n\n✔️ Improve reporting and forecast accuracy by eliminating errors from manual data pulls  \n\n✔️ Align leaders and teams across the company to financial objectives\n\n### **💲Opportunity Size:**\n\nThe total addressable market for enterprise financial planning is $50B. Anaplan is a leader in the space, with a market capitalization of almost $10B. \n\nHowever, with a recorded NPS of -38 and poor user adoption across its customers, legacy enterprise tools like Anaplan are bound to be replaced. \n\n### **❔Our Ask:**\n\nConnect us to CEOs, CFOs, and finance leaders in your network. To contact us, [click here](mailto:daniel@gladetool.com)\n\nIntroduce us to any warm connections you have in fast-growing companies or enterprises. [click here](mailto:daniel@gladetool.com)\n\nAre you a founder and interested in using our software to improve your financial planning process? To schedule a meeting with Glade, [click here](https://calendly.com/danielglade/30min)",
+      "url": "https://www.ycombinator.com/launches/Iu1-glade-enterprise-grade-platform-for-financial-planning",
+      "votes": 21,
+      "created_at": "2023-06-29T22:04:03.669Z"
+    }
+  ]
+}

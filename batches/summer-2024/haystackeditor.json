@@ -1,0 +1,95 @@
+{
+  "id": 29797,
+  "name": "Haystack",
+  "slug": "haystackeditor",
+  "former_names": [
+    "Haystack Software"
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/988853e97230d398301aa8250ff990964f2f4620.png",
+  "website": "https://haystack.sh/",
+  "all_locations": "New York City, NY, USA",
+  "long_description": "Haystack automatically learns real customer journeys from production traffic, figures out which ones a code change could affect, and replays them in isolated copies of production to catch regressions before they ship.\r\n\r\nWhen something breaks, Haystack shows exactly what changed across the UI, network calls, and events, then gives the failure back to your coding agent to fix and rerun. Teams get high-fidelity QA without having to write or maintain test cases.",
+  "one_liner": "Replay real customer journeys against every change before you ship",
+  "team_size": 2,
+  "industry": "B2B",
+  "subindustry": "B2B -> Engineering, Product and Design",
+  "launched_at": 1722315932,
+  "tags": [
+    "Artificial Intelligence",
+    "Developer Tools",
+    "B2B",
+    "Productivity"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Summer 2024",
+  "status": "Active",
+  "industries": [
+    "B2B",
+    "Engineering, Product and Design"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/haystackeditor",
+  "api": "https://devasheeshg.github.io/yc-api/batches/summer-2024/haystackeditor.json",
+  "year_founded": 2024,
+  "city": "New York City",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/104745614",
+  "x_url": "https://x.com/AkshaySubr42403",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/988853e97230d398301aa8250ff990964f2f4620.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "David Lieb",
+    "url": "https://www.ycombinator.com/people/david-lieb"
+  },
+  "founders": [
+    {
+      "user_id": 2258920,
+      "full_name": "Akshay Subramaniam",
+      "title": "Founder/CEO",
+      "founder_bio": "Co-founder of Haystack Software. Enjoys building emulators, video games, and productivity software. \n\nPreviously was a software engineer at Figma, where I led the multi-edit launch and helped launch Find and Replace, accessibility in FigJam, and more!",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/akshay-s-152126139/",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/472b417ade90b938dedd2e61598178f0fd4ab91c.jpg"
+    },
+    {
+      "user_id": 1976192,
+      "full_name": "Jake Yatvitskiy",
+      "title": "Founder/CTO",
+      "founder_bio": "Cofounder of Haystack Software. Experienced with AI and Cloud technologies. Previously worked in the High-Performance Computing division at AWS and received a Master's Degree in Machine Learning from Columbia University",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/jake-yatvitskiy/",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/f833acc97764c214609c48402678478634c1e8b4.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 83226,
+      "title": "Haystack Editor: An AI-powered code editor built on top of a digital canvas",
+      "tagline": "Haystack automates the tedious parts of software development so that engineers can focus on the important stuff!",
+      "body": "**TL;DR:** Navigating and refactoring in codebases sucks! No engineer likes going through mountains of files to find the right spots where they want to make changes and then do the complicated plumbing to make those changes work.\n\n[Haystack](https://haystackeditor.com/) is a standalone code editor that makes this much faster so engineers can focus on actually writing code. In Haystack, users can explore and edit their code on a 2D canvas with a navigational copilot assisting them every step of the way.\n\n![uploaded image](/media/?type=post&id=83226&key=user_uploads/1538506/57802433-cc2e-4a5a-992e-ad67c23a570c)\n\n**Our Ask**: Engineers have really enjoyed the smooth experience of editing their codebase in Haystack. Join them at [https://haystackeditor.com](https://haystackeditor.com/)! It takes just a single click to import your VS Code extensions and settings, so you can get to coding straight away.\n\nHi everyone! We’re [Akshay Subramaniam](https://www.linkedin.com/in/akshay-s-152126139/) and [Jake Yatvitskiy](https://www.linkedin.com/in/jake-yatvitskiy/), and we’re building Haystack.\n\n![uploaded image](/media/?type=post&id=83226&key=user_uploads/1538506/1c4592f6-265d-44af-b2d6-80b8f1664504)\n\n**The Problem:**\\\nHaystack was born out of our frustrations with working in large and mature codebases, specifically with navigating and editing functional flows. A great example of a functional flow is the code flow for adding an item to the Amazon shopping cart — from the database layer all the way to the frontend UI.\n\nOftentimes dealing with such flows would involve navigating a maze of files and functions, and making any edits would involve a lengthy process of doing corresponding downstream/upstream plumbing.\\\n\\\n**The Solution:**\n\nHaystack attempts to address this in the following ways:\n\n1. It allows you to explore your codebase as a directed graph of functions, classes, etc, on the canvas. We feel like this better fits how your mind understands your codebase and helps you find and alter functional flows more intuitively.\n2. It has a navigational copilot that makes edits across files or functions much easier. After you make some changes, Haystack will try to predict your next action and create functions/methods or refactor upstream/downstream code for you. Haystack will surface these speculative edits on the canvas in a way that you can easily dismiss or incorporate them, allowing you to make large-scale changes with a few clicks or keystrokes.\n\n[See Haystack in action!](https://www.youtube.com/watch?v=c2uZnR5D_cc)\\\n\\\n\\\n**Our Ask, Again:**\\\nDownload and use Haystack at <https://haystackeditor.com/>!",
+      "url": "https://www.ycombinator.com/launches/LeM-haystack-editor-an-ai-powered-code-editor-built-on-top-of-a-digital-canvas",
+      "votes": 22,
+      "created_at": "2024-08-20T16:49:36.240Z"
+    }
+  ]
+}

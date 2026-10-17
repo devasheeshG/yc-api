@@ -1,0 +1,94 @@
+{
+  "id": 30314,
+  "name": "Pinch",
+  "slug": "pinch",
+  "former_names": [
+    "Duo Labs"
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/c2b1286659e2efa47062a920134725070dce12f1.png",
+  "website": "https://startpinch.com",
+  "all_locations": "VC, Spain; Remote",
+  "long_description": "Video/audio dubbing that preserves your tone and timing.  Real-time speech translation for any online meeting.",
+  "one_liner": "AI Voice Translation for live conversations or media",
+  "team_size": 3,
+  "industry": "B2B",
+  "subindustry": "B2B -> Productivity",
+  "launched_at": 1737597498,
+  "tags": [
+    "Telecommunications",
+    "AI"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Winter 2025",
+  "status": "Active",
+  "industries": [
+    "B2B",
+    "Productivity"
+  ],
+  "regions": [
+    "Spain",
+    "Europe",
+    "Remote",
+    "Fully Remote"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/pinch",
+  "api": "https://devasheeshg.github.io/yc-api/batches/winter-2025/pinch.json",
+  "year_founded": 2025,
+  "city": null,
+  "country": "ES",
+  "linkedin_url": "https://www.linkedin.com/company/105586682",
+  "x_url": "https://x.com/startpinch",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": "https://github.com/pinch-eng",
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/c2b1286659e2efa47062a920134725070dce12f1.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [
+    "https://bookface-images.s3.us-west-2.amazonaws.com/attachments/b9f61de36e6d518a1d8f6da8659e52f8d92e9663.png",
+    "https://bookface-images.s3.us-west-2.amazonaws.com/attachments/fc76f45db3f73049d4d8127fd885077788c52abb.png"
+  ],
+  "primary_partner": null,
+  "founders": [
+    {
+      "user_id": 1002282,
+      "full_name": "Christian Safka",
+      "title": "Founder/CEO",
+      "founder_bio": "Co-Founder & CEO @ Pinch\n\nPreviously founding engineer -> Head of ML @ Tavus (S21)\nEx-PM @ Microsoft\nZero to one software and ML products for 10 years",
+      "is_active": true,
+      "linkedin_url": "https://linkedin.com/in/christiansafka",
+      "x_url": "https://x.com/christiansafka",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/f1bb7ecdfd2f6727a89c8cfc8b7140547afef6f4.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 93183,
+      "title": "Pinch Desktop - Voice translation for real-time conversations",
+      "tagline": "Attend meetings in any language, on any platform.",
+      "body": "Hey everyone! We just launched our Mac app designed to make every meeting as natural as it would be in your native language.  The app transcribes and translates all audio you hear, and allows you to decide when to translate your voice as speech into the meeting.\n\nIt's invisible to others (like Granola), and works everywhere without any meeting bots. Try it at [**startpinch.com**](http://startpinch.com)!\n\nHere’s a live demo, without cuts: \\\n[**https://youtu.be/ltM2p-SosLc**](https://youtu.be/ltM2p-SosLc)\n\n**Our story**\n\nWhen we first launched Pinch, we shipped a video conferencing solution with a human-like AI interpreter that was an active participant in your call. Our users hold the spacebar down while speaking to the translator, and when they release the spacebar the translator speaks out to the entire room.\n\nThat design was intentional - it puts the task of context selection on the user and prevents people from interrupting each other (only one person can press spacebar at a time).  It also comes with heavy tradeoffs, such as longer meeting lengths and friction with first-time users.\n\n**Why we're excited about the desktop app:**\n\n1. No vendor lock-in, invisible to others, and works everywhere - just select Pinch Microphone.\n2. Fast transcription+translation means you can understand what's going on in real-time and interrupt where necessary.\n3. After you start speaking, the others will hear your translated audio as fast as we can generate it, without interrupting your flow.\n\nThe last few months, our focus has been on building a translation model and UX that would support fast and accurate cross-lingual meetings, and we’re incredibly excited to open the public beta today.\n\nJoin the MacOS beta at [**startpinch.com**](http://startpinch.com)\n\n![uploaded image](/media/?type=post&id=93183&key=user_uploads/1002282/795fd05a-a176-44e2-ba6a-c6afc13cd20f)\n\n",
+      "url": "https://www.ycombinator.com/launches/OEx-pinch-desktop-voice-translation-for-real-time-conversations",
+      "votes": 19,
+      "created_at": "2025-08-20T14:28:50.672Z"
+    },
+    {
+      "id": 87820,
+      "title": "Pinch - Immersive real-time translation",
+      "tagline": "Video conferencing with real-time voice translation",
+      "body": "Hey everyone, we’re Christian and Keyu — co-founders of [Pinch](https://startpinch.com).\\\n\\\n**TL;DR**\\\nPinch is an online meeting platform that enables immersive international video calls. Our platform translates your voice in real-time so you can speak and understand over 30 languages. Watch our demo [here](https://youtu.be/Cu7KlbZ3gjw), or try it for free on our [website](https://startpinch.com).\n\n**The problem**\\\nWe’ve felt first-hand how language barriers can actively limit a team’s productivity. High bandwidth communication is vital for collaboration, and while we’ve all moved from IRC → VoIP → Video Conferencing, the existing translation tools still operate in low-bandwidth mediums (mostly caption transcriptions). This makes conversations difficult because 1) converting audio to text before translation is slower, 2) you lose all information of how something was said, and 3) you’re no longer having a face-to-face meeting.\\\n\\\n**Our solution**\\\nWe knew there had to be a better way to connect across different languages and cultures, so we started building Pinch. Shortly after, we found out how challenging translation truly was.  Balancing latency/accuracy for chunk-based audio translation, capturing inflection and tonality per statement, handling culturally specific phrasing, and making a seamless meeting experience are all unsolved problems we're taking on. \\\n\\\nWe’re currently in public beta with our own meeting platform, supporting live use-cases in personal connections (e.g. meeting in-laws for the first time), as well as business (foreign clients, international sales, inter-team comms.).\\\n\\\n👥 **Our team**\\\n[Christian](https://linkedin.com/in/christiansafka) — 10 years of experience launching software and AI-native products 0→1, ex-TPM at Microsoft and most recently the Head of ML at Tavus (YC S21).\\\n[Keyu](https://www.linkedin.com/in/keyu-chen-3a3026143/) — Multimodal and computer vision researcher for over 7 years, working across academia and industry.\n\n![uploaded image](/media/?type=post&id=87820&key=user_uploads/89898/790a942f-0522-46b9-ab92-ce14b69c8abf)\n\nWe met at Tavus, and together have led engineering, research, and product teams from seven countries!\\\n\\\nAfter a long experience building conversation AI video/audio, we're incredibly excited to see what these technologies can unlock for human<>human communication.\\\n\\\n🙏 **Our Ask**\n\n* **Try Pinch!** You can demo it alone or invite a friend to a call for the full experience: <https://startpinch.com>\n* **Share this post!** Do you know anyone in your network facing language barriers?\n* **Let us know how we’re doing.** You can reach us at [founders@startpinch.com](mailto:founders@startpinch.com)\n\n![uploaded image](/media/?type=post&id=87820&key=user_uploads/1002282/e8fe6fc5-8ab5-4688-a342-98024c780599)\n\n",
+      "url": "https://www.ycombinator.com/launches/MqS-pinch-immersive-real-time-translation",
+      "votes": 30,
+      "created_at": "2025-02-19T16:53:02.664Z"
+    }
+  ]
+}

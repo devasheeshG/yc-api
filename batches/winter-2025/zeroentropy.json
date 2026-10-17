@@ -1,0 +1,94 @@
+{
+  "id": 30241,
+  "name": "ZeroEntropy",
+  "slug": "zeroentropy",
+  "former_names": [],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/6b2774c0442b4c923fff05f20dbced23d34ad02f.png",
+  "website": "https://www.zeroentropy.dev",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "We are on a mission to build the world’s most accurate, fastest, and cheapest task-specific models for every production AI system.\r\n\r\nMost AI products, whether copilots, agents, or search systems, depend on frontier LLMs to handle every step of their pipeline. \r\n\r\nYet, the vast majority of these steps are narrow, repeatable workloads: reranking, embedding, classification, routing, query rewriting, context compression, where frontier intelligence is overkill. \r\n\r\nRunning them on general-purpose models is slow and expensive, capping what production AI can achieve. \r\n\r\nThat is why we're building ZeroEntropy: to train small, task-specific models that replace frontier LLMs on these workloads, and empower developers to ship AI products that are more accurate, faster, and cheaper.",
+  "one_liner": "Artificial Specialized Intelligence",
+  "team_size": 6,
+  "industry": "B2B",
+  "subindustry": "B2B -> Infrastructure",
+  "launched_at": 1734458813,
+  "tags": [],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Winter 2025",
+  "status": "Acquired",
+  "industries": [
+    "B2B",
+    "Infrastructure"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/zeroentropy",
+  "api": "https://devasheeshg.github.io/yc-api/batches/winter-2025/zeroentropy.json",
+  "year_founded": 2024,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/zeroentropy-inc/",
+  "x_url": "https://x.com/zeroentropy_ai",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/6b2774c0442b4c923fff05f20dbced23d34ad02f.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Harj Taggar",
+    "url": "https://www.ycombinator.com/people/harj-taggar"
+  },
+  "founders": [
+    {
+      "user_id": 1276815,
+      "full_name": "Ghita Houir Alami",
+      "title": "Founder/CEO",
+      "founder_bio": "cofounder & CEO @ ZeroEntropy (YC W25)\n-\nmoroccan founder with 2 masters in applied maths from École Polytechnique and UC Berkeley\n",
+      "is_active": true,
+      "linkedin_url": "https://linkedin.com/in/ghita-houir-alami",
+      "x_url": "https://www.x.com/ghita__ha",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/3ebf1da0eb7840d99a4bd3a9f6f96b6308ac3a1a.jpg"
+    },
+    {
+      "user_id": 1802968,
+      "full_name": "Nicholas Pipitone",
+      "title": "Founder/CTO",
+      "founder_bio": "Cofounder & CTO @ ZeroEntropy (YC W25) -\n\nMy background is in theoretical mathematics and computer science.\n\nDropped out of CMU to pursue startups. Worked on low-level C/C++/Assembly/GPU Code. CTO and/or main dev for 5 different startups. Created stat-arb algorithms and audited blockchains for bug bounties and hedge fund due diligence.\n\nBuilt the AI @ myko.ai, manifestapp.xyz, magibook.co",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/nicholas-pipitone-5736a2107/",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/197d304a6357753e3e49aba63fb45294d50fabbc.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [
+    {
+      "title": "Moroccan founder raises $4.2M for her YC-backed startup building the next layer of AI search  | TechCrunch",
+      "url": "https://techcrunch.com/2025/07/09/moroccan-founder-raises-4-2m-for-her-yc-backed-startup-building-the-next-layer-of-ai-search/",
+      "date": "Jul 09, 2025"
+    }
+  ],
+  "launches": [
+    {
+      "id": 86779,
+      "title": "ZeroEntropy 🔎 - Advanced AI Search Over Complex Documents",
+      "tagline": "ZeroEntropy is the first search engine designed from the ground up to answer natural language queries by deeply understanding the language in long, complex documents.",
+      "body": "Hey there YC!\n\nWe’re [**Ghita**](https://www.linkedin.com/in/ghita-houir-alami/) and [**Nicholas**](https://www.linkedin.com/in/nicholas-pipitone-5736a2107/), the founders of ZeroEntropy.\n\n![uploaded image](/media/?type=post&id=86779&key=user_uploads/1276815/916d931e-36dd-4c92-828a-e98d35fadf6a)\n\n**We are on a mission to build the world’s most accurate search engine over complex and unstructured documents, behind a simple API.**\n\n👉 _If you are building RAG, a search bar, or search tools for your AI Agents, please reach out to us here_ [_founders@zeroentropy.dev_](https://mailto:founders@zeroentropy.dev)\n\n<https://youtu.be/VxwnZDlEz2U>\n\n# **Why?**\n\nMost AI products - whether Q&A bots or AI agents - depend on retrieval systems to provide relevant context from knowledge bases.\n\nYet, the vast majority of these systems rely on basic semantic or hybrid search methods, which still frequently fail.\n\nThese mistakes lead to inaccurate responses and hallucinations by LLMs, frustrating developers and end users alike.\n\nThat’s why we’re building ZeroEntropy: to add intelligence to retrieval, and empower developers to build reliable and accurate AI products!\n\n# **A few common failure modes**\n\nThe most common examples are:\n\n* **Negated Queries**, like: _“Which electric vehicle articles **do not** include any reference to Elon Musk?”._\n* **Multi-Hop Queries**, like:_“Where was the suspect who was identified in the report born?”_\n* **Fuzzy Filtering Queries**, like: _“What diagnostic methods are suggested for early-stage cancer, in papers **that mention a sample size of over 2000**?”_\n\nThese types of queries are common in industries like legal, healthcare and manufacturing, where documents are very complex. Semantic similarity and keyword-based approach fail on all these examples. You can read more about why [**here**](https://medium.com/@zeroentropy/agi-requires-better-retrieval-not-just-better-llms-72f5288c37ef).\n\n# **Our Solution**\n\nSearch AI agents can solve these complex queries. Not only can they understand the user’s intent, but also route each query to the most suitable retrieval system, ensuring precise and relevant answers. Moreover, they adapt and personalize their performance over time, continuously improving with use.\n\nAll of this capability is accessible through a simple API that you can try out [here](https://dashboard.zeroentropy.dev).\n\n# **We need you!**\n\n👉 If you are building RAG, a search bar, or search tools for your AI Agents, please reach out to us here: [founders@zeroentropy.dev](mailto:founders@zeroentropy.dev)\n\n👉 Give our [product](https://dashboard.zeroentropy.dev) a try, and join our [Slack](https://join.slack.com/t/zeroentropy-community/shared_invite/zt-2venuk3yt-Of\\~\\~NtGIQn_hsD_QJe4fkQ) to follow our journey!\n\n# **About us**\n\nWe both have a background in math and AI: Ghita has two masters in Applied Maths from Ecole Polytechnique (Paris) and from UC Berkeley, and Nicholas grew up doing math and coding competitions at CMU before becoming the CTO of several startups.\n\nWe’ve both experienced the pain of building great retrieval systems from working as AI engineers and researchers in several industries from healthcare, to finance, to B2B SaaS, and consumer AI.\n\n# **PS/Fun Fact**\n\nIn case you’re curious about our name, in information retrieval, entropy refers to the expected variability of information contained in a variable or message. ZeroEntropy refers to knowing exactly what the message contains and is associated to a high predictability, low chaos state. In physics, absolute zero entropy is impossible to achieve. But we’ll try!",
+      "url": "https://www.ycombinator.com/launches/MZf-zeroentropy-advanced-ai-search-over-complex-documents",
+      "votes": 133,
+      "created_at": "2025-01-13T21:18:03.258Z"
+    }
+  ]
+}

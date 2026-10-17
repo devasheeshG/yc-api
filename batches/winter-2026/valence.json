@@ -1,0 +1,98 @@
+{
+  "id": 31194,
+  "name": "Valence",
+  "slug": "valence",
+  "former_names": [],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/355e8c5b3746af19fb0b6ef6149b2028474fbf0a.png",
+  "website": "https://valence.trade",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "Valence is a unified trading platform for prediction markets. We provide infrastructure to aggregate and execute contracts across Kalshi, Polymarket, and other platforms, surface arbitrage and mispricing opportunities in real time, and give systematic traders the API and backtesting tools they need to build and execute data-driven strategies on anything.",
+  "one_liner": "Unified prediction markets trading platform",
+  "team_size": 3,
+  "industry": "Fintech",
+  "subindustry": "Fintech -> Consumer Finance",
+  "launched_at": 1772497537,
+  "tags": [],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Winter 2026",
+  "status": "Active",
+  "industries": [
+    "Fintech",
+    "Consumer Finance"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/valence",
+  "api": "https://devasheeshg.github.io/yc-api/batches/winter-2026/valence.json",
+  "year_founded": 2026,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "",
+  "x_url": "https://x.com/ValenceTrade",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/355e8c5b3746af19fb0b6ef6149b2028474fbf0a.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Diana Hu",
+    "url": "https://www.ycombinator.com/people/diana-hu"
+  },
+  "founders": [
+    {
+      "user_id": 1419388,
+      "full_name": "Neo Wang",
+      "title": "Founder",
+      "founder_bio": "Sports Enthusiast",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/nwatx/",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/5850dd38cc0e2b32423946ef504e10bd0c6e3b01.jpg"
+    },
+    {
+      "user_id": 2566102,
+      "full_name": "Daniel Kasabov-Nouvion",
+      "title": "Founder",
+      "founder_bio": "LoL Grinder",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/daniel-kasabov-nouvion-a717931a8/",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/333ad2b4134d2793ed10494315b4cf017e1d589e.jpg"
+    },
+    {
+      "user_id": 3207929,
+      "full_name": "Arthur Zhou",
+      "title": "Founder",
+      "founder_bio": "setwithfriends enjoyer",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/arthurzhou",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/f1b0e49ab1cb4bd83d57867e6aa48531e59b0234.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 98484,
+      "title": "Valence: Unified prediction markets trading platform",
+      "tagline": "Trade across every prediction market using one interface and API",
+      "body": "# Valence - The Trading Superapp for Prediction Markets 📈\n\nTrade across every prediction market from one interface\n\n**Neo, Daniel, Arthur**\n\n[Valence](https://valence.trade/)\n\n---\n\nHey YC! We're **Neo**, **Daniel**, and **Arthur** from Valence and we're building the trading superapp for prediction markets. We sit across all the exchanges and provide customizable trading terminals, APIs, data, and execution. Our software works for both individuals and teams.\n\n**Over 1B contracts have been traded through our platform.**\n\n🔗 [valence.trade](http://valence.trade)\n\n**Ask:** Building or trading in prediction markets? We'd love to hear from you: [**founders@valence.trade**](mailto:founders@valence.trade)\n\n---\n\n# TL;DR\n\nValence is one interface for every prediction market. Trade across Kalshi, Polymarket, and [**Crypto.com**](http://Crypto.com) with one unified orderbook. Monitor P&L, risk, balances, and positions across all exchanges in one spot. Use our API to write strategies that integrate with our global interface.\n\n---\n\n# Problem ❌\n\n**Fragmented liquidity:** With more exchanges appearing faster than ever, liquidity becomes more scattered. This creates market inefficiencies for traders. With variable fee structures, rules, and settlement risks across multiple markets, execution becomes less about \"what is correct\" and more about managing multiple interfaces, inconsistent risks, and higher time-to-trade.\n\n**Underdeveloped tooling:** Most exchanges are not focused on providing great trading infrastructure, since most users are retail-focused. This creates a major barrier for serious traders and teams trying to enter or scale in the space. Valence fills this gap — we provide the trading terminals, APIs, and execution infrastructure that the exchanges themselves don't. Instead of building the same connectors and infrastructure for every exchange, traders can execute across all platforms with one click and focus on what actually matters: trading.\n\n**No unified data layer:** There is a lack of fundamental things like data and matching identical markets across multiple platforms. With Valence's API and verification process, traders can determine which tickers are the same, and use one API to access every platform, backtest, and run in production. With full access to historical data and proprietary datasets, Valence already powers the very highest volume traders on some of these exchanges.\n\n---\n\n# Solution ✅\n\nThe setup process to trade across dif\n\nferent exchanges is annoying, and oftentimes traders find themselves writing the same infrastructure. Valence offers a web-based terminal and APIs to provide a frictionless experience to trade across infinite exchanges, with unified views. We support both systematic and manual trading — also at the same time.\n\n**Valence Terminal**\n\n* Unified orderbook across all exchanges — see every venue in one view\n* Smart routing to get you the cheapest contracts across all venues\n* Live monitoring of all P&L, risk, balances, and positions\n* Fast click-trading with built-in data feeds\n* Automated trading assistance — detect potentially harmful situations and cancel orders\n\n  ![uploaded image](/media/?type=post&id=98484&key=user_uploads/1419388/9bfacd69-145c-4b93-b11a-f81471653366)\n\n\n**Valence API for Developers**\n\n* Connect once, trade everywhere — one standardized API across every exchange\n* Cross-platform ticker matching so you always know when two exchanges list the same market\n* Full historical data and proprietary datasets for backtesting\n* Build and deploy your own strategies with template engines and custom services\n\n![uploaded image](/media/?type=post&id=98484&key=user_uploads/1419388/e8f60f0e-b2ac-4607-ac50-39b68530306b)\n\n**Discovery**\n\n* Find opportunities across platforms you might not even be watching\n* Access proprietary datasets across sports, politics, and more\n\n![uploaded image](/media/?type=post&id=98484&key=user_uploads/1419388/7366a047-e13e-45ea-a43f-e860b1da1f3b)\n\n---\n\n# Traction 📊\n\nOver **1B contracts** traded through our platform. We grew from 7M contracts in September to 250M in December 2025 — nearly **30× in four months**.\n\nProminent traders (top 3) on the Kalshi public leaderboard uses Valence, trading over 100M contracts a month on our platform. We've helped another team **scale their P&L by 5×** simply by enabling them to take more trades and source more liquidity.\n\nOur users consistently see **200%+ month-over-month volume/profit growth** after switching to Valence.\n\n---\n\n# Who This Is For 💬\n\n**Active prediction market traders** — You're tired of juggling tabs across Kalshi, Polymarket, and other exchanges. You want one place to see everything and execute everywhere.\n\n**Systematic / algo traders** — You're building strategies and need a reliable API that works across every exchange without writing separate connectors for each one.\n\n**Trading teams** — You want a shared interface where your team can collaborate, monitor positions, and trade together.\n\n**Curious about prediction markets** — You've been interested but the fragmented UX and lack of tooling has kept you out. Valence makes it easy to get started.\n\nIf any of this is you, reach out: [**founders@valence.trade**](mailto:founders@valence.trade)\n\n---\n\n# Team 🧑‍💻\n\n**Neo** previously interned at Citadel Securities as a quantitative developer, and also at DRW and Cubist Systematic Strategies on strategy and research efforts. Neo was also a former director of the USACO Guide (\\~100K users, 1700+ GitHub stars).\n\n**Arthur** interned twice at Jane Street as a trading intern, working on research projects involving monetization improvements. He represented the United States at international Bridge competitions and qualified for USAMO (top 250) and was a USACO Platinum Competitor. He can also get over 180 in Zetamac!\n\n**Daniel** interned at IMC Trading and Citadel in both hardware and software engineering, and at ARM on systems research. He designed an ethernet MAC that outperforms IEEE specifications and contributed to the CXL specification at ARM.\n\n---\n\n**Try Valence → [valence.trade](http://valence.trade)**\n\n---",
+      "url": "https://www.ycombinator.com/launches/PcS-valence-unified-prediction-markets-trading-platform",
+      "votes": 12,
+      "created_at": "2026-03-05T01:31:55.007Z"
+    }
+  ]
+}

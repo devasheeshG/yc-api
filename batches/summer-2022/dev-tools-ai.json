@@ -1,0 +1,108 @@
+{
+  "id": 27264,
+  "name": "Dev Tools AI",
+  "slug": "dev-tools-ai",
+  "former_names": [
+    "Dev Tools",
+    "Dev Tools AI",
+    "Radiant"
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/52816343555456026d1de1250894ad8361d57799.png",
+  "website": "https://dev-tools.ai",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "We help scale automation leveraging LLMs and computer vision",
+  "one_liner": "AI powered web & mobile automation",
+  "team_size": 2,
+  "industry": "B2B",
+  "subindustry": "B2B -> Engineering, Product and Design",
+  "launched_at": 1655134557,
+  "tags": [
+    "Artificial Intelligence",
+    "B2B",
+    "Productivity",
+    "Enterprise"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Summer 2022",
+  "status": "Inactive",
+  "industries": [
+    "B2B",
+    "Engineering, Product and Design"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada",
+    "Remote",
+    "Partly Remote"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/dev-tools-ai",
+  "api": "https://devasheeshg.github.io/yc-api/batches/summer-2022/dev-tools-ai.json",
+  "year_founded": 2022,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/radiant-company",
+  "x_url": "",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": "https://github.com/dev-tools-ai",
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/52816343555456026d1de1250894ad8361d57799.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Aaron Epstein",
+    "url": "https://www.ycombinator.com/people/aaron-epstein"
+  },
+  "founders": [
+    {
+      "user_id": 1076464,
+      "full_name": "Chris Navrides",
+      "title": "Founder",
+      "founder_bio": "Chris Navrides was the VP of engineer at test.ai, which is built the first AI based mobile & web testing solution. Before that, Chris worked at Google on automation testing for Google Play and mobile ads, and Dropbox on their mobile platform team. Chris received his Bachelors and masters from Colorado School of Mines. \n",
+      "is_active": false,
+      "linkedin_url": "https://linkedin.com/in/chris-navrides",
+      "x_url": null,
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/0261062d4e349bcba6e9052c5592f23be6d149f3.jpg"
+    },
+    {
+      "user_id": 1075325,
+      "full_name": "Etienne DEGUINE",
+      "title": "Founder",
+      "founder_bio": "Worked on ML products at Google (Google Translate, Display ads), Hover (photogrammetry), test.ai (visual testing AI).\nGraduated with a Masters from Cambridge University and Telecom ParisTech (French national engineering school of telecommunications)",
+      "is_active": false,
+      "linkedin_url": "https://www.linkedin.com/in/etiennedeguine",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/1fc7c4df625df6a003a4af0d91968b97327f3231.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 70620,
+      "title": "🚀 Reviewify.io - AI powered code reviews",
+      "tagline": "Get in-line code review comments in seconds, powered by GPT-4",
+      "body": "TL;DR -  We are building [reviewify.io](http://reviewify.io) - automatic code review for every pull request, powered by GPT-4. Installation takes just 10 seconds, and you can start automatically receiving comments & suggestions.\n\n# **Problem**\n\nYou want to make sure the code written by yourself and team is awesome. But having a code review can slow things down, especially if you only have a few Sr Engineers to review for everyone, and you don’t want their time wasted for obvious issues like not having null checks, or ordering imports.\n\n# **Solution**\n\nWe use GPT, combined with custom review samples, to automatically run code reviews and post the comments in minutes on the PR.\n\n[![Reviewify Demo](https://videoapi-muybridge.vimeocdn.com/animated-thumbnails/image/b48f4158-e90b-42bc-8052-326c02dcc157.gif?ClientID=vimeo-core-prod&Date=1680109610&Signature=3d65ab548135d7de88de0442d6b11d451c863e4c)](https://vimeo.com/812887518)\n\n# **Ask**\n\n* Try it out and leave reactions to the comments it generates so we can improve the system\n* If there are other features that would add value to you, please let us know (ex: Static analysis, code dependency report, integration into IDEs so comments can be seen at code time, etc).\n\nThanks,\n\nChris & Etienne",
+      "url": "https://www.ycombinator.com/launches/IN2-reviewify-io-ai-powered-code-reviews",
+      "votes": 50,
+      "created_at": "2023-03-29T17:24:52.596Z"
+    },
+    {
+      "id": 65540,
+      "title": "Dev Tools AI 🤖 CoPilot for UI Testing",
+      "tagline": "We make writing UI automation tests as easy so you can solve bigger problems",
+      "body": "# **TL;DR**\n\n[Dev Tools](https://www.dev-tools.ai/) is a library that makes it easy to write web tests in your existing framework by drawing a box over a screenshot instead of building a locator.\n\n![uploaded image](/media/?type=post&id=65540&key=user_uploads/1076464/6cf84e73-20ac-4ca5-994d-329f77e7b325)\n\n\n# **🤕Problem**\n\nWriting end to end tests is difficult and time consuming. It takes forever to dig into the page code to build the right XPath or locator. And even when these are found, they are likely to change over time as the product continues development.\n\n# **⚡️Our solution**\n\nWe use computer vision to look at the screen, like an end user, and find the element you want to interact with. Then, in real-time, we find the element and return it so all your existing automation can keep working with it. We make this easy to use by extending Selenium with a `findByAI()` method where you just put a human readable name and let the AI do the hard work.\n\nWe even let you see the elements from within your IDE!\n\n![uploaded image](/media/?type=post&id=65540&key=user_uploads/1076464/bb8100b8-b570-4aeb-8bae-fd49cd8d470d)\n\n# **🎉 Bonus Features**\n\n### Work on Games\n\nTraditional automation has trouble working with games as most games render within a canvas element. Because we only use the screenshot, and not page source, we can play games like LooneyToons!\n\n![uploaded image](/media/?type=post&id=65540&key=user_uploads/1076464/3feb64e1-36cd-47c0-93f5-a8c3e98d10d1)\n\n### Crawl for Errors\n\nMonkey Testing for errors comes standard with Android, but there isn’t a default one for Web. We added that functionality to our SDK so that you simply call `scan_domain()` and it will crawl your page and look for errors like broken links, 404s, console errors, etc. Learn more in our [blog](https://www.dev-tools.ai/blog/site-sacnner) about the feature.\n\n# **Our Ask - Try it out and give us feedback**\n\nIf you write or have written Selenium or UI tests, we would love your feedback on the tool.\n\nJoin us on [Discord](https://discord.gg/2J9WEYdq5C), or follow us on [Linkedin](https://www.linkedin.com/company/dev-tools-ai)!\n\nIf you have any questions or automation challenges, reach out to us anytime! [chris@dev-tools.ai](mailto:chris@dev-tools.ai) & [etienne@dev-tools.ai](mailto:etienne@dev-tools.ai)",
+      "url": "https://www.ycombinator.com/launches/H36-dev-tools-ai-copilot-for-ui-testing",
+      "votes": 53,
+      "created_at": "2022-08-22T17:01:29.766Z"
+    }
+  ]
+}

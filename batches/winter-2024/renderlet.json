@@ -1,0 +1,87 @@
+{
+  "id": 29502,
+  "name": "renderlet",
+  "slug": "renderlet",
+  "former_names": [
+    "Coordinate Labs",
+    "Renderlet"
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/8c34b0727ce76497f1f02b8f378c53e7f5d7ab8f.png",
+  "website": "http://renderlet.com",
+  "all_locations": "New York City, NY, USA",
+  "long_description": "renderlet is a framework that makes it easy to develop interactive applications.\r\n\r\nBuilding applications with high-performance graphics is very hard – existing tools are cumbersome and aren’t truly platform agnostic, leading to frequent rework. \r\n\r\nWith renderlet, developers can write high-level code to describe 2D and 3D graphics without having to use low-level, platform-specific APIs.\r\n\r\nrenderlet automatically compiles graphics code to WebAssembly and embeds a portable rendering engine inside any app, enabling graphics to safely and automatically render on any platform’s GPU.\r\n\r\nOur runtime is open-source: https://github.com/renderlet/wander",
+  "one_liner": "Build interactive applications that run anywhere",
+  "team_size": 2,
+  "industry": "B2B",
+  "subindustry": "B2B -> Engineering, Product and Design",
+  "launched_at": 1708655277,
+  "tags": [
+    "Developer Tools",
+    "Design Tools",
+    "Data Visualization"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Winter 2024",
+  "status": "Active",
+  "industries": [
+    "B2B",
+    "Engineering, Product and Design"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada",
+    "Remote",
+    "Partly Remote"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/renderlet",
+  "api": "https://devasheeshg.github.io/yc-api/batches/winter-2024/renderlet.json",
+  "year_founded": 2024,
+  "city": "New York City",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/renderlet",
+  "x_url": "",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": "https://github.com/renderlet/",
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/8c34b0727ce76497f1f02b8f378c53e7f5d7ab8f.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Jared Friedman",
+    "url": "https://www.ycombinator.com/people/jared-friedman"
+  },
+  "founders": [
+    {
+      "user_id": 1759368,
+      "full_name": "Sean Isom",
+      "title": "Founder/CEO",
+      "founder_bio": "Sean is the Founder of renderlet. He previously built Developer Platforms at Adobe as a Lead Engineer and Sr. Engineering Manager, building the core infrastructure that powers apps like Photoshop and Acrobat. He has over a decade of technical experience in browsertech and real-time graphics and is currently involved in standardization efforts for WebAssembly’s WASI GPU support.",
+      "is_active": true,
+      "linkedin_url": "https://linkedin.com/in/isom",
+      "x_url": "https://twitter.com/theisomizer",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/a3cfd53d423d8c2e04727b0f7566266acbefa8b1.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 79415,
+      "title": "renderlet: Making graphics programming easy",
+      "tagline": "Write graphics code that automatically runs anywhere",
+      "body": "**Building interactive graphics is really hard**. Developers need expert-level knowledge of GPU programming just to build code that is not portable to new environments such as Web or Mobile or reusable across applications.\n\nRenderlet is a WebAssembly framework for **writing graphics code that runs anywhere**. Describe your graphics pipeline using a **higher-level abstractions** and use renderlet to generate low-level, cross-platform rendering code.\n\nWith renderlet, developers can easily embed GPU-accelerated 2D and 3D graphics into cross-platform applications.\n\n![uploaded image](/media/?type=post&id=79415&key=user_uploads/1759368/4ce27e3c-1c68-456d-a0bd-eedd272c1712)\n\n## How it works\n\nWith renderlet, **we compile graphics to portable WebAssembly modules** and provide a runtime that abstracts away the underlying GPU architecture to the code.\n\nDevelopers can take advantage of modern technologies like **WebGPU** without having to learn the intricacies of yet another standard. 2D and 3D graphics are fully decoupled from the application and device and can ship decoupled from the applications code in a format that **runs anywhere**.\n\nRenderlet is:\n\n* A **compiler** that takes a high-level specification of your graphics pipeline - including custom assets, functions, and libraries - and builds self-contained WebAssembly rendering modules\n* A  **renderer**, _wander_, that embeds into any application on any platform that and safely runs rendering modules with the GPU\n* A **visual editor** that makes it easy to build entire graphics and visualization pipelines out of reusable rendering modules\n\n**Anybody should be able to build interactive applications** without having to be a graphics programming expert.  \n\n## About Us\n\n[Sean Isom](https://linkedin.com/in/isom) previously built developer platforms at Adobe as a Lead Engineer and Sr. Engineering Manager. He helped bring products to the cloud and web using tools like WebAssembly and is currently involved in standardization efforts for WebAssembly GPU support.\n\n![uploaded image](/media/?type=post&id=79415&key=user_uploads/1759368/36bcf46c-edd6-4b90-9124-45c3c81ec64b)\n\n## What’s next?\n\nOur cross-platform rendering engine, **wander**, is open source: <https://github.com/renderlet/wander/> \n\nWe’re kicking off with a **live demo** today of renderlet at Wasm I/O!  <https://2024.wasmio.tech/sessions/paint-by-numbers-high-performance-drawing-in-wasm/> \n\nWant more info on cross-platform graphics? **Get in touch**! - [sean@renderlet.com](mailto:sean@renderlet.com) ",
+      "url": "https://www.ycombinator.com/launches/Ket-renderlet-making-graphics-programming-easy",
+      "votes": 36,
+      "created_at": "2024-03-15T16:53:22.280Z"
+    }
+  ]
+}

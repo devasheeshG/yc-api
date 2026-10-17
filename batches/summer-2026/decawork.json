@@ -1,0 +1,95 @@
+{
+  "id": 33047,
+  "name": "Decawork",
+  "slug": "decawork",
+  "former_names": [],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/44fee5cae005d704af84e7ed5ed7418d4ca0580c.png",
+  "website": "https://decawork.ai/",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "An agent’s access should depend on the task it is doing. The same action can be appropriate for one task and wrong for another. Access decisions need to adapt in real time as the agent works, but companies can’t turn every business judgment into a fixed rules or have people manually approve every step.\r\n\r\nWe train small, company-specific models that approve AI actions in real time. They consider the company’s policies and interests, the agent’s current task, and its past actions to decide whether each proposed action should be allowed. Access is specific to the task at hand and reassessed as the agent works.\r\n\r\nCompanies will rent intelligence from AI labs or run open-source models to power their agents. They’ll own the models that keep their entire AI workforce acting in their interests. Decawork is building those models.",
+  "one_liner": "Training company-specific models that approve AI actions.",
+  "team_size": 2,
+  "industry": "B2B",
+  "subindustry": "B2B -> Infrastructure",
+  "launched_at": 1785265630,
+  "tags": [
+    "Artificial Intelligence",
+    "B2B",
+    "Security",
+    "Infrastructure"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Summer 2026",
+  "status": "Active",
+  "industries": [
+    "B2B",
+    "Infrastructure"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/decawork",
+  "api": "https://devasheeshg.github.io/yc-api/batches/summer-2026/decawork.json",
+  "year_founded": 2026,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/decawork-ai/",
+  "x_url": "https://twitter.com/decawork",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/44fee5cae005d704af84e7ed5ed7418d4ca0580c.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [
+    "https://bookface-images.s3.us-west-2.amazonaws.com/attachments/bea64bca8f89d0506e06952dbd00022b772363d1.png"
+  ],
+  "primary_partner": {
+    "name": "Brad Flora",
+    "url": "https://www.ycombinator.com/people/brad-flora"
+  },
+  "founders": [
+    {
+      "user_id": 1632535,
+      "full_name": "Aman Raj",
+      "title": "Founder/CEO",
+      "founder_bio": "- Built AI compliance platform at Barclays used by internal teams globally\n- Founded a fintech and scaled it to 52K families and $1.5M AUM\n- Led product at a consumer AI startup, scaled to 100K+ MAU (Google Play Best App 2024)\n- IIT Kharagpur",
+      "is_active": true,
+      "linkedin_url": "https://linkedin.com/in/aman-raj-84636a158",
+      "x_url": "https://x.com/arxneo14",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/2ae56b87789485359a28cd015856039060019efe.jpg"
+    },
+    {
+      "user_id": 1049492,
+      "full_name": "Sarthak Aggarwal",
+      "title": "Founder/CTO",
+      "founder_bio": "- AI systems at NVIDIA (deployed at OpenAI, Meta)\n- Enterprise AI at Ema (used by Microsoft, Hitachi)\n- Led Conquest, Asia's largest student-run accelerator\n- Google Code-In Global Winner + Open source since the age of 12\n- BITS Pilani",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/sarthak-agg/",
+      "x_url": "https://x.com/_sarthak4",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/f93e2ff857332071c545c3c16f569835408cf579.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 109883,
+      "title": "Decawork - Training company-specific models that approve every AI action",
+      "tagline": "Our small AI models decide agent access in real time, task by task, based on your company’s interests.",
+      "body": "Hi everyone 👋 - we're Aman and Sarthak, founders of Decawork.\\\n\\\n**TL;DR:** AI agents shouldn’t have permanent access to company systems. The same action can be appropriate for one task and wrong for another, but companies can’t turn every business judgment into fixed rules or manually approve every step. Decawork trains small, company-specific AI models that approve every agent action in real time, based on company policies and interests, the agent’s task, and its past actions. Access is granted for the task at hand and revoked when it’s done.\\\n\\\nLaunch video: [Watch it here](https://www.youtube.com/watch?v=SanpHIyFcV4)\\\n\\\n🚧 **The Problem &amp; Why now?**\\\nCompanies are putting long-running, more autonomous agents to work on broader tasks and goals. These agents need access to critical company systems, but their actions can be unpredictable and may not serve the company’s interests.\n\nOpenAI’s agents have already hacked Hugging Face during testing with reduced safeguards. Replit’s agent deleted data from a live application’s database.\n\nAn agent’s access should depend on the task it is doing. The same action can be appropriate for one task and wrong for another. Permanent access lets an agent keep using permissions even when they are no longer appropriate for its task.\n\nAs agents take on more work independently, access decisions need to happen in real time. But companies can’t turn every business judgment into a fixed rule or have people manually approve every step.\\\n\\\n✅ **How we solve this?**\\\nDecawork gives AI agents access for the task at hand and revokes it when the task is done.\n\n* Connect your agents. Route API requests and MCP tool calls through Decawork to see activity and manage access in one place.\n* Set company policies. Write policies in plain English, specify when human approval is required, and connect your existing identity and IT service management systems.\n* Deploy a company-specific policy model. We deploy small models that approve actions in real time using your company’s policies and priorities, task context, and past actions. Your agents do the work. Decawork evaluates each proposed action and enforces the access decision before it runs.\n\n🚀 **Team**\\\nSarthak built AI systems at NVIDIA that were deployed at OpenAI and Meta, and worked on enterprise AI agents at Ema.\n\nAman built the AI compliance platform at Barclays used by internal teams globally, then led product at a consumer AI startup serving 100K+ monthly users, hand-wiring credentials for the agents he shipped.\n\nEvery one of those deployments came down to the same questions: what can it access, who approved it, and what did it do? We kept solving agent access by hand - so we quit to build the system we wished we’d had.\n\n![uploaded image](/media/?type=post&id=109883&key=user_uploads/1632535/0ef2784e-ab45-422f-91b9-960473f11dd5)\n\n🙏 **Our Ask**\n\n* If you’re on an IT team or know someone who’s worried about AI agents accessing or misusing company systems, talk to us: <https://decawork.ai/cal> or [founders@decawork.ai](mailto:founders@decawork.ai)",
+      "url": "https://www.ycombinator.com/launches/SaJ-decawork-training-company-specific-models-that-approve-every-ai-action",
+      "votes": 152,
+      "created_at": "2026-08-12T16:30:00.369Z"
+    }
+  ]
+}

@@ -1,0 +1,104 @@
+{
+  "id": 29812,
+  "name": "ZeroPath",
+  "slug": "zeropath",
+  "former_names": [],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/fd70ee2d072b5f54e3fd3fc0e2531e49708b3fa7.png",
+  "website": "https://zeropath.com",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "ZeroPath is a developer tool that autonomously detects, verifies, and submits fixes for vulnerabilities in your code. Engineers can use ZeroPath to find security problems that they might only otherwise catch in pentests or from bug bounty researchers.",
+  "one_liner": "Automatically find and fix your software vulnerabilities",
+  "team_size": 10,
+  "industry": "B2B",
+  "subindustry": "B2B -> Security",
+  "launched_at": 1718222641,
+  "tags": [
+    "Artificial Intelligence",
+    "Developer Tools",
+    "B2B",
+    "Security",
+    "Cybersecurity"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Summer 2024",
+  "status": "Active",
+  "industries": [
+    "B2B",
+    "Security"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/zeropath",
+  "api": "https://devasheeshg.github.io/yc-api/batches/summer-2024/zeropath.json",
+  "year_founded": 2024,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/zeropathai",
+  "x_url": "https://x.com/zeropathAI",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": "https://github.com/zeropathai",
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/fd70ee2d072b5f54e3fd3fc0e2531e49708b3fa7.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "David Lieb",
+    "url": "https://www.ycombinator.com/people/david-lieb"
+  },
+  "founders": [
+    {
+      "user_id": 2021206,
+      "full_name": "Dean Valentine",
+      "title": "Founder",
+      "founder_bio": "ZeroPath founder",
+      "is_active": true,
+      "linkedin_url": "",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/d4aa118f45ea9f67b3ca5bb4aa5d886701b03b48.jpg"
+    },
+    {
+      "user_id": 2049348,
+      "full_name": "Raphael Karger",
+      "title": "Founder",
+      "founder_bio": "CTO at ZeroPath. Former Google Security Engineer and BishopFox Consultant.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/raphael-karger/",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/db088b311094bb1d324eed9d1fde67f15d0cd2f6.jpg"
+    },
+    {
+      "user_id": 2021191,
+      "full_name": "Etienne Lunetta",
+      "title": "Founder",
+      "founder_bio": "COO at ZeroPath. Former Co-Founder at Mevlink, acquired by bloXroute Labs in 2023.",
+      "is_active": true,
+      "linkedin_url": "",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/69f8b695e026ab2db3939b185d23a01ceef56eb8.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 82258,
+      "title": "🛡️ ZeroPath - Autonomous vulnerability patching",
+      "tagline": "Detect and fix your web application's exploitable security issues without config.",
+      "body": "📝 TL;DR: [ZeroPath](https://zeropath.com/) is a GitHub app that detects, verifies, and issues pull requests for security vulnerabilities in your code.\n\n![uploaded image](/media/?type=post&id=82258&key=user_uploads/2021206/183871ce-a1b3-4db9-a320-ce73defc63c3)\n\n### 💡 Why We Built This:\n\nAs security engineers and developers, we've seen firsthand how challenging it is for businesses to secure their products. Existing Static Application Security Testing (SAST) tools overwhelm teams with false positives and fail to remediate the real vulnerabilities they do find. We built ZeroPath to allow fast-moving teams to write secure code without having to configure or review a scan dashboard.\n\n![uploaded image](/media/?type=post&id=82258&key=user_uploads/2021206/9f2ff51d-2c6b-4ad5-b7c3-4c48e26fc0e9)\n\n### 🛠 How It Works:\n\n1. Executes regular vulnerability scans of your source code\n2. Integrates with GitHub to scan pull requests for vulnerabilities\n3. Uses advanced LLMs to significantly reduce false positives\n4. Generates patches for vulnerabilities identified\n5. Automatically issues pull requests to patch them\n\n### 💪 Why ZeroPath:\n\n* Integrates with your existing SAST - **removes** **85% of false positives**\n* Reduces vulnerability remediation time by up to **90%**\n* Enables natural language modification of patches, just tag @zeropath-ai in PRs (including your own!)\n* Supports complex, multi-file changes seamlessly\n* Prevents SAST vendor lock-in\n\n### 👥 Our Team:\n\n* [Nathan](https://linkedin.com/in/nathan-hrncirik): Ex-Tesla Red Team Engineer, $100k+ in bug bounties\n* [Raphael](https://linkedin.com/in/raphael-karger): Ex-Google Security Engineer, 12 security researcher hall of fames\n* [Dean](https://www.linkedin.com/in/dean-valentine-3b7583313/) & [Etienne](https://www.linkedin.com/in/etienne-lunetta-574065313/): Founders of Mevlink (acquired by Bloxroute in 2023)\n\n## 💰 YC Launch Deal: 50% off for 12 months\n\n* $20/month per contributing developer (reg. $40)\n* Use code LAUNCHYC at checkout, **valid until 8/15**\n\n### 🙏 How You Can Help:\n\nWe're eager for your insights on our product, feature ideas, and security needs - whether through trying our GitHub app, scheduling a meeting, or sharing feedback.\n\n* [Install our GitHub app](https://zeropath.com/)\n* [Schedule a meeting to discuss your application security needs](https://cal.com/zeropath/30min)\n* [Share your feedback](mailto:hello@zeropath.com)\n\n### 🚀 Get started in 30 seconds: <https://github.com/apps/zeropath-ai/installations/new>\n\n📅 Want to learn more? Schedule a demo: <https://cal.com/zeropath/30min>\n\n![uploaded image](/media/?type=post&id=82258&key=user_uploads/2021206/c947eed7-8cdb-43e0-b330-0c5e36c86ef5)\n\n",
+      "url": "https://www.ycombinator.com/launches/LOk-zeropath-autonomous-vulnerability-patching",
+      "votes": 47,
+      "created_at": "2024-07-18T18:38:13.935Z"
+    }
+  ]
+}

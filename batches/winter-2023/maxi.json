@@ -1,0 +1,83 @@
+{
+  "id": 28089,
+  "name": "Maxi",
+  "slug": "maxi",
+  "former_names": [
+    "Leather",
+    "Thread"
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/74fe59b0fad86e3ef763c2294a3eb1d69431df2b.png",
+  "website": "https://www.usemaxi.app",
+  "all_locations": "New York City, NY, USA",
+  "long_description": "Maxi is an iMessage-based, AI-native agent for your personal finances. It connects to all your accounts (secure read-only access) and Gmail and proactively texts you to help cancel subscriptions, identify split expenses, and send Venmo requests (on your behalf). It also tracks your net worth, reminds you about bills, and keeps you in line with your budgets.",
+  "one_liner": "AI Agent for your personal finances",
+  "team_size": 2,
+  "industry": "Fintech",
+  "subindustry": "Fintech -> Consumer Finance",
+  "launched_at": 1674772876,
+  "tags": [
+    "Artificial Intelligence",
+    "Fintech",
+    "Consumer Finance",
+    "AI Assistant"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Winter 2023",
+  "status": "Active",
+  "industries": [
+    "Fintech",
+    "Consumer Finance"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/maxi",
+  "api": "https://devasheeshg.github.io/yc-api/batches/winter-2023/maxi.json",
+  "year_founded": 2023,
+  "city": "New York City",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/maxi-app/",
+  "x_url": "",
+  "fb_url": null,
+  "cb_url": "https://www.crunchbase.com/organization/thread-6984",
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/74fe59b0fad86e3ef763c2294a3eb1d69431df2b.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": null,
+  "founders": [
+    {
+      "user_id": 817842,
+      "full_name": "Akeem Williams",
+      "title": "Founder",
+      "founder_bio": "Building cool things :) \nEx-Microsoft / Morgan Stanley",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/akeem-williams-aa88b5140/",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/a5b2d0e4b19bc359f06d6479435b692a2c82d1e5.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 69972,
+      "title": "Thread - Incident management for large enterprises",
+      "tagline": "We take the best practices from Amazon and Microsoft and make them available to all engineering organizations.",
+      "body": "Hi everyone! We’re Yuheng, Akeem, and Harsha, the co-founders of Thread.\n\n**tldr: Thread is incident management for large enterprises. We take the best practices from Amazon and Microsoft and make them available to all engineering organizations.**\n\n### **Problem ❌:**\n\nIncidents are the most stressful part of any live production service, and engineers are often ill-prepared for dealing with them… especially in large enterprises. As enterprises move to the cloud and microservice architecture, embrace remote work, and pick up increasingly more tooling for incidents, engineers face growing difficulty identifying and resolving complex system issues.\n\n* APMs, such as Datadog and New Relic, **overwhelm engineers with data and lack contextual information, making problem-solving a challenge.**\n* Customer support help desks, like Zendesk, **often provide inadequate information when creating tickets, leading to a frustrating cycle of questions for engineers.**\n* Alerting and ITSM tools, such as Pagerduty and ServiceNow, **alert engineering teams but often lack the necessary context for efficient issue resolution.**\n\nNot to mention, leadership still lacks visibility into incident details and progression.\n\nIt's like trying to solve a puzzle with missing pieces and no picture on the box.\n\n### **Solution 💡:**\n\nThe gold standard for incident management workflows is straightforward to describe, but it is incredibly difficult to implement in practice, especially at enterprise scale.\n\nThe four pillars are:\n\n**Detection**: identifying the bug using either a monitoring tool or a customer service tool\n\n**Routing**: getting the ticket to the right person that can solve the issue, using paging tools and communication tools\n\n**Resolution**: using context-providing tools like session replays and streamlined data providers to help solve the issue\n\n**Learning**: identifying the root cause of the issue and generating future workflows to more adeptly solve the problem (or prevent it from happening again)\n\nEnter **Thread:**\n\n![uploaded image](/media/?type=post&id=69972&key=user_uploads/1146884/e2dd7ee3-17c8-45d5-a047-eb5305106c76)\n\nThread offers engineers a customized configuration management database with runbooks, past tickets, monitoring data, and recommended actions for diagnosing and resolving incidents.\n\nWe also provide real-time updates and summaries to leadership and stakeholders during critical incidents, identifying bottlenecks in workflows to prevent future issues.\n\nWhy settle for a single tool that might not fit all your needs? Our platform allows teams to bring in their favorite tools to create a tailor-made solution.\n\n![uploaded image](/media/?type=post&id=69972&key=user_uploads/1146884/417624ff-51f1-426f-93ef-8c792f1758f7)\n\n### **Why us?**\n\nWe’re 3 ex-Microsoft/Amazon engineers who built these tools and processes on our respective teams (Microsoft Store and Prime Video). We want to take what we learned and build an even better solution for the millions of engineers out there, so no one has to face the existential dread of on-call panic ever again.\n\n### **Our Ask ❤️:**\n\nIf you or anyone in your network knows a VP/Director of Engineering at a large enterprise, around fortune 500 level, (**bonus points if their org currently uses tools like ServiceNow**) who would be open to using a 3rd party tool to improve their incident management, processes, and/or learnings, **we’d love an intro.**\n\nIf you have enterprise-level experience with **any of the above tools, we want to hear from you!** We're always striving to improve our integrations and bridge any gaps in the incident management process. Share your experiences with us!\n\nReach out to us at [**founders@usethread.io**](mailto:founders@usethread.io)! We’d love to chat!",
+      "url": "https://www.ycombinator.com/launches/ICa-thread-incident-management-for-large-enterprises",
+      "votes": 730,
+      "created_at": "2023-03-06T19:49:50.961Z"
+    }
+  ]
+}

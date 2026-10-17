@@ -1,0 +1,82 @@
+{
+  "id": 32227,
+  "name": "Context.dev",
+  "slug": "contextdev",
+  "former_names": [],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/fe20b06c889ed9f1a1b7d9b0ecf522c8e057d68b.png",
+  "website": "https://context.dev",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "Context.dev gives AI agents structured data from any website through a single API.\r\n\r\nWe help developers build smarter agents & products that depend on accurate, fresh web data.\r\n\r\nIf you need structured data from the internet, you need Context.dev\r\n\r\nProud to power agentic products at Mintlify, Super, Vizzy, Klarna, and 600+ other companies. ",
+  "one_liner": "We give AI agents realtime web context via API",
+  "team_size": 6,
+  "industry": "B2B",
+  "subindustry": "B2B -> Infrastructure",
+  "launched_at": 1780323126,
+  "tags": [
+    "Artificial Intelligence",
+    "B2B",
+    "APIs"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Summer 2026",
+  "status": "Active",
+  "industries": [
+    "B2B",
+    "Infrastructure"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/contextdev",
+  "api": "https://devasheeshg.github.io/yc-api/batches/summer-2026/contextdev.json",
+  "year_founded": 2025,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/contextdev/",
+  "x_url": "https://x.com/getcontextdev",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/fe20b06c889ed9f1a1b7d9b0ecf522c8e057d68b.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Jon Xu",
+    "url": "https://www.ycombinator.com/people/jon-xu"
+  },
+  "founders": [
+    {
+      "user_id": 2538368,
+      "full_name": "Yahia Bakour",
+      "title": "Founder/CEO",
+      "founder_bio": "Founder at Context.dev, building the future of web context for AI.\n\nPreviously Principal SWE/Manager at Sunrun. Ex-Amazon SDE2, tech lead on tier-1 retail checkout platform.  Co-founder at StockAlarm.io (acquired), scaled to 225K+ users, 100K+ daily notifications.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/yahia-bakour/",
+      "x_url": "https://x.com/mynameisyahia",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/6b419df2397373e6789300f64b85611798b1b6f2.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 109242,
+      "title": "Context.dev: Live web data API for AI agents",
+      "tagline": "One API to collect, structure, and continuously refresh internet data for AI",
+      "body": "Hello!\n\nYahia here, founder of [Context.dev](https://link.context.dev/yc) (YC S26).\n\n**TL;DR:** [Context.dev](https://link.context.dev/yc) turns the live web into structured data for AI agents and applications. Trusted by Mintlify, Passionfroot, Rho, and more than 400 customers.\n\nThe web was built for humans to browse, not agents to understand.\n\nOnce an AI product needs live internet data, its team often ends up maintaining browsers, proxies, crawlers, parsers, queues, retries, caches, and multiple data vendors.\n\nWe built Context.dev so that entire workflow starts with one API.\n\n<https://youtu.be/c2mVWBJmBtQ>\n\n**How it works**\n\nGive Context.dev the sources your product cares about and tell us what context you need. We collect it, structure it, and keep it current without your team building the infrastructure underneath.\n\n* Send URLs, domains, companies, websites, sitemaps, or files.\n* Get back clean Markdown, screenshots, company data, or structured JSON matching your schema.\n* Use Batches to process large workloads and Monitors to keep information current.\n* We handle the browsers, proxies, rendering, extraction, caching, retries, and queues underneath.\n\nHere’s what customers are already using it for:\n\n* **Soria** monitors hundreds of healthcare and financial sources.\n* **Murph** structures data on 2M+ foods, supplements, and tests.\n* **Mintlify** turns GitHub repositories into custom branded documentation.\n* **Executor** discovers and structures API docs across 3,000+ integrations.\n* **Dench** monitors social platforms for leads, generating $3M+ in pipeline.\n* More stories at [context.dev/customers](http://context.dev/customers)\n\nYour team builds the product. Context.dev keeps it connected to the live web.\n\n**The team**\n\nI’m Yahia Bakour, founder of[ Context.dev](https://link.context.dev/yc). Before this, I led engineering at Sunrun, worked at Amazon, and built and sold two startups.\n\nI started [Context.dev ](https://link.context.dev/yc)after watching teams repeatedly rebuild, and get stuck maintaining, the same web data infrastructure.\n\nToday, our team of 4 is building the context layer between the internet and every agent or application that needs to understand it.\n\nModels are no longer the main bottleneck for intelligent knowledge work. Context is.\n\n**Our ask to you**\n\nIf you’re building an AI product that needs internet data at scale, **please reach out**. We would love to learn what you’re building and where the existing tools fall short.\n\nYou can also try the API with 500 free credits and no credit card at [**Context.dev**](https://link.context.dev/yc)\n\nSchedule a call: <https://link.context.dev/chat>\\\nEmail: [yahia@context.dev](mailto:yahia@context.dev)",
+      "url": "https://www.ycombinator.com/launches/SPy-context-dev-live-web-data-api-for-ai-agents",
+      "votes": 113,
+      "created_at": "2026-08-05T18:02:48.007Z"
+    }
+  ]
+}

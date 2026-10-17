@@ -1,0 +1,91 @@
+{
+  "id": 32253,
+  "name": "Touchmark",
+  "slug": "touchmark",
+  "former_names": [],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/fac4fb7e32c7424e6eea88690415f386be2f5832.png",
+  "website": "https://touchmark.ai",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "Buy tokens over a time window from the provider of your choice at a price fixed today - 10-30% off the on-demand price. If your plans change - resell your reserved capacity to another buyer.",
+  "one_liner": "Market for future inference capacity",
+  "team_size": 2,
+  "industry": "B2B",
+  "subindustry": "B2B -> Infrastructure",
+  "launched_at": 1781312801,
+  "tags": [
+    "Artificial Intelligence",
+    "Infrastructure"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Summer 2026",
+  "status": "Active",
+  "industries": [
+    "B2B",
+    "Infrastructure"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/touchmark",
+  "api": "https://devasheeshg.github.io/yc-api/batches/summer-2026/touchmark.json",
+  "year_founded": null,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/touchmark-ai",
+  "x_url": "https://x.com/TouchmarkAI",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/fac4fb7e32c7424e6eea88690415f386be2f5832.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Brad Flora",
+    "url": "https://www.ycombinator.com/people/brad-flora"
+  },
+  "founders": [
+    {
+      "user_id": 1998938,
+      "full_name": "Ilia Bolgov",
+      "title": "Founder/CEO",
+      "founder_bio": "Co-founder of Touchmark. Product @ Revolut, Maths @ Imperial College London.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/ilia-bolgov-8683b0254",
+      "x_url": "https://x.com/iliabolgov",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/3922ff830a5e34f8d4d4a2a31ed11113a28e954e.jpg"
+    },
+    {
+      "user_id": 3532865,
+      "full_name": "Roman Yanushevskyi",
+      "title": "Founder/CTO",
+      "founder_bio": "Co-Founder at Touchmark. Previously 2x Quantitative Research intern at Citadel Securities, AI Engineering intern at Lovable. Math and CS graduate from the National University of Singapore. IOI gold medalist.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/roman-yanushevskyi/",
+      "x_url": "https://x.com/ryanushevskyi",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/c1c4b14a1f4d9113b9badc24e14f63df1cde9840.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 110492,
+      "title": "Touchmark: Market for future inference capacity",
+      "tagline": "Buy tokens in advance with flexibility to resell unused capacity up to 30%+ off - or more for larger orders via direct quotes",
+      "body": "**TL;DR:** We are building a market for future inference capacity. You buy tokens for a model over a time window from the provider of your choice at a price fixed today (up to 30% off - or more for larger orders via direct quotes). If your plans change, you will be able to resell your reserved capacity to another buyer.\n\n<https://youtu.be/nMaDr46NU5I>\n\n**Problem**\n\nToken spend is growing and it’s growing fast. Out of 100+ companies we spoke to, most are trying to cut their inference costs.\n\nReserved capacity guarantee deals provide discounts + certainty, but are negotiated bilaterally, take time, and are **hard to switch from** - as a buyer you commit by prepayment, which you lose if you switch to a different provider, or in some cases even a different model.\n\nWhat if a buyer could:\n\n1. See all possible discounted capacity deals in one place\n2. Buy with a click of a button\n3. Have an option to resell to another buyer with another click of a button\n\n**But why would model providers (sellers) want this?**\n\nIn short:\n\n1. Model providers’ goal is to maximise GPU utilization - the more information they have about future demand, the better they can allocate capacity.\n2. Selling future capacity is an excellent way to finance GPU compute - dilution-free and interest-free\n3. Extra distribution channel for enterprise buyers\n\n**What if a new model comes out but I already bought capacity for the older one?**\n\nContracts for “Best model in class” allow you to buy frontier model capacity in advance. And even if you're holding a contract on an older model when a new generation ships - far from every application needs the frontier, so you can list your capacity for resale.\n\n**What if I am a _very large_ buyer and these discounts are not enough?**\n\nWe are launching Requests for Quotes (RFQs) - as a buyer you can create a request for capacity you need and let providers bid to offer you the best price.\n\n**Team**\n\nIlia: Maths &amp; Finance @ Imperial, Product (Wealth &amp; Trading) @ Revolut\n\nRoman: CS + Math @ NUS, IOI gold, 2x Quant Research @ Citadel Securities, AI engineer @ Lovable\n\n**If you're a company buying tokens or a model provider, email us at [contact@touchmark.ai](mailto:contact@touchmark.ai) or sign up at[ https://app.touchmark.ai/signup](https://app.touchmark.ai/signup)**\n\n_Capacity transactions on Touchmark are limited to commercial producers and commercial end users in the wholesale capacity market. Sellers offer capacity to Buyers that purchase it to consume or use in connection with the Buyers' commercial operations. Some contracts are available only in the primary markets._",
+      "url": "https://www.ycombinator.com/launches/Sk8-touchmark-market-for-future-inference-capacity",
+      "votes": 26,
+      "created_at": "2026-08-14T13:43:29.567Z"
+    }
+  ]
+}

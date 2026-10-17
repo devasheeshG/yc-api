@@ -1,0 +1,110 @@
+{
+  "id": 31130,
+  "name": "AutoSitu",
+  "slug": "autositu",
+  "former_names": [
+    "MirageDoodle, Inc."
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/2e152edb1a93ed2437635e5b7630e93b7466a400.png",
+  "website": "https://autositu.com/",
+  "all_locations": "",
+  "long_description": "At AutoSitu, we’re building the AI operating system for the built world—coordinated AI agents that work across development, design, review, and construction.\r\n\r\nOur agents analyze complex plans, requirements, and project documentation in minutes—surfacing critical issues, doing the heavy lifting, and escalating the decisions that require human expertise.\r\n\r\nFrom site feasibility and entitlement risk to QA/QC, code compliance, constructability, quantity takeoff, and scope analysis, AutoSitu helps cities, architects, engineers, developers, and construction teams identify problems earlier and move projects forward with greater speed and confidence.\r\n\r\nWe serve as a strategic AI partner to forward-thinking public agencies and AEC organizations across the country and are backed by Y Combinator (W26).",
+  "one_liner": "The AI operating system for the built world",
+  "team_size": 2,
+  "industry": "B2B",
+  "subindustry": "B2B -> Legal",
+  "launched_at": 1765384359,
+  "tags": [
+    "Real Estate",
+    "Construction"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": true,
+  "nonprofit": false,
+  "batch": "Winter 2026",
+  "status": "Active",
+  "industries": [
+    "B2B",
+    "Legal"
+  ],
+  "regions": [
+    "Unspecified"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/autositu",
+  "api": "https://devasheeshg.github.io/yc-api/batches/winter-2026/autositu.json",
+  "year_founded": 2025,
+  "city": null,
+  "country": null,
+  "linkedin_url": "https://www.linkedin.com/company/autositu",
+  "x_url": "https://x.com/autositu",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/2e152edb1a93ed2437635e5b7630e93b7466a400.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Gustaf Alstromer",
+    "url": "https://www.ycombinator.com/people/gustaf-alstromer"
+  },
+  "founders": [
+    {
+      "user_id": 2244794,
+      "full_name": "George Zhai",
+      "title": "Founder/CEO",
+      "founder_bio": " A Georgia Tech graduate, he has worked on autonomous cars, boats, and robotic systems, consistently pushing the boundaries of autonomy. George is known for rapidly engineering novel, highly cost-effective solutions—bridging advanced AI with real-world applications from self-driving vehicles to scalable automation.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/george-zhai-213373141/",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/cf0e4132604adf2118f1615ebdb01200d627e35d.jpg"
+    },
+    {
+      "user_id": 2679474,
+      "full_name": "Xuanshu (Asher) Lin",
+      "title": "Founder/CEO",
+      "founder_bio": "Lin combines a background in Urban Planning and Architecture from the University of Michigan, bringing policy insight and design expertise to AutoSitu. He leads product strategy focused on zoning and site plan compliance, with hands-on experience across projects in Champaign–Urbana and Detroit’s Joe Louis Greenway. An APA Planning and Design Competition Honorable Mention recipient, Lin works to make compliance faster, clearer, and more accountable.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/linxis01/",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/ee2422c34e717053bb0930aa325aac8545fb9e55.jpg"
+    }
+  ],
+  "jobs": [
+    {
+      "id": 97187,
+      "title": "Founding Engineer - Arkhe",
+      "url": "https://www.ycombinator.com/companies/autositu/jobs/CvB6tcr-founding-engineer-arkhe",
+      "location": "San Francisco, CA, US / Remote (US)",
+      "type": "Full-time",
+      "role": "Engineering",
+      "role_type": "Full stack",
+      "salary_range": "$120K - $250K",
+      "equity_range": "1.00% - 3.00%",
+      "experience": "Any (new grads ok)",
+      "visa": "US citizen/visa only",
+      "skills": [
+        "TypeScript",
+        "Distributed Systems"
+      ]
+    }
+  ],
+  "news": [],
+  "launches": [
+    {
+      "id": 97122,
+      "title": "AutoSitu: AI-native Development Plan Review for Faster Approvals",
+      "tagline": "Pre-validates submissions against jurisdiction requirements and patterns so teams submit cleaner sets and cities review faster",
+      "body": "**TL;DR:** Hi YC! We’re Lin and George, founders of AutoSitu. We’re building software that automatically reviews site and building plan sets in minutes and surfaces what a city is likely to flag before you submit.\n\n**🧱 Problem**\\\nIn real estate, _time kills deals_ — and permitting/review is one of the biggest sources of delay and variance.\\\nMost projects go through **2–3 resubmittal cycles**, adding **3–9 months**.\n\n* Developers: **$50k–$250k+** in carrying costs while projects sit in review\n* Architecture teams: **80–200 hours** of unplanned work per resubmittal\\\n  → at **\\~$130/hr**, that’s **$10k–$25k+** of margin erased on fixed-fee work 🐌\n\n**⚡ Solution**\\\nAutoSitu is an AI-powered development plan review engine that flags the issues that typically surface later — **before submission**, when fixes are cheap.\n\nTeams use AutoSitu to:\n\n* reduce city comments **50–70%**\n* cut resubmittals from **2–3 → 0–1**\n* shorten approvals by **3–6 months+**\n\n**💰 Impact**\\\nThat’s **$100k–$400k** in avoided carrying costs for developers and **$10k–$25k** in preserved fee margin per project for architecture teams.\n\n👋 **Backstory**\\\nLin worked across **20+ U.S. public and private projects** in planning and architecture, sitting on **both sides of the table**, and repeatedly hearing the same question from teams and clients: _why does review take so long when the issues are so predictable?_\n\nGeorge spent years building automation systems in robotics and AI, turning processes that took **weeks of manual effort** into scalable pipelines, cutting costs from **$50k to $2k** while keeping humans in the loop.\n\nAutoSitu started from a shared realization: permit review isn’t slow because people aren’t trying, it’s slow because the same checks are repeated manually, at scale, with no early signal.\n\n[🎥 **Launch Video**: https://youtu.be/77ErS3Ja4Ho](https://youtu.be/77ErS3Ja4Ho)\n\n🤝 **Ask / CTA**\n\nIf you’re an **architecture/development** team, we’d love to **apply the same playbook from our successful deployments** to your next submission, we’ll help you run AutoSitu end-to-end on a real plan set.\n\n**Reach us** at [**founders@autositu.com**](mailto:founders@autositu.com) or [DM](https://www.linkedin.com/company/autositu).\\\n**Visit us: [https://autositu.com/](https://autositu.com/)**\n\n![uploaded image](/media/?type=post&id=97122&key=user_uploads/2679474/04e7826b-9b84-4745-9714-a57ac24f95d1)\n\n",
+      "url": "https://www.ycombinator.com/launches/PGU-autositu-ai-native-development-plan-review-for-faster-approvals",
+      "votes": 6,
+      "created_at": "2026-01-26T21:00:55.911Z"
+    }
+  ]
+}

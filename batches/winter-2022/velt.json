@@ -1,0 +1,197 @@
+{
+  "id": 25663,
+  "name": "Velt",
+  "slug": "velt",
+  "former_names": [
+    "Snippyly Inc.",
+    "Snippyly",
+    "Velt",
+    "Velt: Collaboration SDK"
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/36bc77538c7b2b901965b5e1ff49fe05b84cc1f1.png",
+  "website": "https://velt.dev",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "For most of software's history the hard part was making things. Writing the code, drafting the document, putting the report together. That is the part that is getting cheap. An agent can now produce in an afternoon what used to take a team a month.\r\n\r\nWhat doesn't get cheaper is verifying it. Someone still has to look at what the machine did, decide whether it's right, and answer for that decision later. Output goes up, review capacity doesn't, and that is where the work now piles up.\r\n\r\nVelt is the infrastructure for that step, and it treats agents and people as the same kind of reviewer. A review agent takes the first pass and catches what a machine can catch. A person makes the call on what actually matters. Both work on the same object, in the same thread, under the same rules. Only after approval is the change applied, through your own webhook, and every decision is recorded, so you can always show who allowed what and when.\r\n\r\nTeams build this themselves and it takes about two quarters. Comments, approvals, review agents, notifications, audit trails: the boring parts nobody thinks about until they're three months in. With Velt it's a few components you drop into a React, Next, Vue, or Angular app.",
+  "one_liner": "SDK for adding an agent and human governance layer to your product",
+  "team_size": 15,
+  "industry": "B2B",
+  "subindustry": "B2B -> Productivity",
+  "launched_at": 1646206414,
+  "tags": [
+    "Developer Tools",
+    "SaaS",
+    "Collaboration",
+    "Compliance",
+    "AI"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": true,
+  "nonprofit": false,
+  "batch": "Winter 2022",
+  "status": "Active",
+  "industries": [
+    "B2B",
+    "Productivity"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada",
+    "Remote",
+    "Partly Remote"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/velt",
+  "api": "https://devasheeshg.github.io/yc-api/batches/winter-2022/velt.json",
+  "year_founded": 2020,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/veltjs/",
+  "x_url": "https://twitter.com/veltjs",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": "https://github.com/velt-js",
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/36bc77538c7b2b901965b5e1ff49fe05b84cc1f1.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Jared Friedman",
+    "url": "https://www.ycombinator.com/people/jared-friedman"
+  },
+  "founders": [
+    {
+      "user_id": 195692,
+      "full_name": "Rakesh Goyal",
+      "title": "Founder",
+      "founder_bio": "I am the co-founder & CEO of Velt. Previously, I was a Product Manager at Google for 9 yrs. I've launched strategic products like AR in Google Maps & Search.\n\nNothing great was ever built alone. Technology has made the world a small place. It enables people to work together no matter where they are. This was never possible before. Velt will make the world more collaborative & build more great things. \n\nI grew up in India & now live in San Francisco. I love camping 🏕 & star gazing 🌌",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/rmgoyal/",
+      "x_url": "https://twitter.com/rakesh_goyal",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/130b61c6f2fe2f7eb4bec4c6108ba11a13e07db4.jpg"
+    }
+  ],
+  "jobs": [
+    {
+      "id": 64525,
+      "title": "Software Engineer (Frontend)",
+      "url": "https://www.ycombinator.com/companies/velt/jobs/B263s2e-software-engineer-frontend",
+      "location": "IN / Remote (IN)",
+      "type": "Full-time",
+      "role": "Engineering",
+      "role_type": "Full stack",
+      "salary_range": "₹2M - ₹3M INR",
+      "equity_range": "0.50% - 1.00%",
+      "experience": "3+ years",
+      "visa": "US citizen/visa only",
+      "skills": [
+        "Angular",
+        "Node.js",
+        "TypeScript"
+      ]
+    }
+  ],
+  "news": [
+    {
+      "title": "A Y Combinator-backed startup called Velt wants to make more apps collaborative",
+      "url": "https://techcrunch.com/2023/12/04/a-y-combinator-backed-startup-called-velt-wants-to-make-more-apps-collaborative/",
+      "date": "Dec 04, 2023"
+    }
+  ],
+  "launches": [
+    {
+      "id": 111289,
+      "title": "Superflow AI: QA agents for your website",
+      "tagline": "AI agents that QA every page of your website",
+      "body": "## TL;DR\n\nAI made creating websites fast. Checking still costs what it always did. [Superflow](https://usesuperflow.ai/) closes that gap: it turns your QA checklist into AI agents.\n\n* They sweep every page of your site and handle the black and white issues: a dead link, a typo, a form that doesn't submit, a layout that breaks a written brand guideline.\n* You handle taste: the calls with no reference to check against, like whether a design direction is right or a page is good enough to ship. An agent can flag a page. Only a person can approve one.\n* They learn from every review, so the hundredth site gets checked better than the first.\n* Teams tell us the agents catch about 90% of what they used to find by hand. The other 10% needed a person all along.\n\n## Demo\n\n<https://www.youtube.com/watch?v=x8g5jZ2vKno>\n\n## The problem\n\nAn agency founder told us, \"We're never changing our QA process. It's tight.\"\n\nThen he sent us the checklist: 400 rows. Ten people clicking through every page by hand.\n\nWe ran our agents on one of his live sites. First finding: placeholder text, live for months. It was on the checklist. Row 212.\n\nChecklists don't fail because they're wrong. They fail because a human is on row 212 at 9pm on a Friday.\n\nAnd the misses that hurt aren't broken links:\n\n* A phone number in the header that doesn't match the footer.\n* \"Award winning\" on a site with no award. In dental, that's a regulator problem.\n* A previous client's name in a testimonial because the page was cloned.\n\nCreating a site collapsed to an afternoon. Checking it didn't budge.\n\n## How it works\n\n* Upload your checklist as is: spreadsheet, PDF, or doc. No reformatting.\n* Superflow turns it into a set of agents, including any custom checks on your list.\n* They run in parallel on every page, phone and desktop. A full site takes minutes.\n* Every finding is pinned on the page with a screenshot, so if the layout shifts later you still have the picture.\n* It fits your process: custom statuses, private team comments (agent findings stay team-only until you clear them), two way sync with your task tool, and a daily recap.\n* Agents learn. Reject a finding and it stops coming back. Catch a miss yourself and it becomes a check on every site after.\n\n## Backstory\n\nLast week we moved our own site from Framer to Next.js.\n\nThe step that used to eat the timeline, clicking through every page to catch what silently broke, our own agents did before sign off.\n\nThe build took a week. We were live in two, start to finish.\n\nCreating done by AI. Checking done by agents. Judgment kept by people.\n\n## Ask\n\nTry [Superflow](https://usesuperflow.ai/) on one page of your own site. No card, no login for reviewers.",
+      "url": "https://www.ycombinator.com/launches/Swz-superflow-ai-qa-agents-for-your-website",
+      "votes": 2,
+      "created_at": "2026-08-18T15:55:44.561Z"
+    },
+    {
+      "id": 99540,
+      "title": "Velt Cursor plugin: Add Real-Time Collaboration to your App in 10 mins",
+      "tagline": "/install-velt. One command. Add CRDT, comments, activity logs, and notifications to your app in one command.",
+      "body": "Type **/install-velt**. The agent reads your codebase, asks which features you want, and scaffolds everything.\n\nComments that attach to specific elements. Real-time editing (CRDT). Presence. Cursors. Notifications. Activity logs. All wired up. Working app.\n\nAdding collaboration features looks like a weekend project. It's not.\n\nComments that anchor to elements. CRDT editing that doesn't corrupt data. Live cursors. Notifications. Activity logs. Each one is simple alone. Together they touch auth, state, routing, permissions, websockets. Get the order wrong and nothing works.\n\nMost teams skip it or spend months on it. Regret both.\n\nWe encoded 140+ implementation rules into the plugin so the agent doesn't make those mistakes. It also includes two MCP servers and a velt-expert agent persona for architecture questions.\n\n→ Watch the demo: <https://www.youtube.com/watch?v=-7we6P5w6I8>\n\n→ Cursor Directory: <https://cursor.directory/plugins/velt>\n\n→ Cursor plugin: <https://github.com/velt-js/velt-plugin-cursor>\n\n→ Claude Code plugin: <https://github.com/velt-js/velt-plugin-claude>\n\n→ Docs: <https://docs.velt.dev/get-started/plugins>\n\nIf you try **/install-velt** on an existing project and something breaks, tell us. That's the case we most want to stress test.",
+      "url": "https://www.ycombinator.com/launches/PtU-velt-cursor-plugin-add-real-time-collaboration-to-your-app-in-10-mins",
+      "votes": 6,
+      "created_at": "2026-04-07T20:19:13.619Z"
+    },
+    {
+      "id": 99380,
+      "title": "Velt Activity Logs: Audit trail for humans and AI agents",
+      "tagline": "One audit trail for every action in your product. Who did what, and when.",
+      "body": "\n![uploaded image](/media/?type=post&id=99380&key=user_uploads/195692/08763c82-d915-4369-8e0d-2d5a820be7de)\n\nRight now, most products have no idea what their AI agents did yesterday.\n\nThat's going to seem crazy in two years.\n\nEvery SaaS product is adding AI agents that write, edit, and approve things. But only human actions produce an audit trail. AI agents just act. No record. No attribution. No proof a human reviewed the output.\n\nThis breaks the moment a customer's compliance team asks one question: \"Did a human approve this?\"\n\n**What we built:**\n\nVelt is a collaboration infrastructure SDK. Comments, presence, real-time editing (CRDT), recording, notifications. Activity Logs is the newest piece.\n\n→ Auto-captures comments, reactions, recordings, CRDT edits. Zero config. \n\n→ createActivity() for your own events. One function call. \n\n→ AI agents produce the same record as humans. Same schema. Same attribution. \n\n→ Immutable by default. SOC 2 Type II. HIPAA with BAA.\n\nAgent acted → Human reviewed → Decision recorded. The pair is the proof.\n\n**Ask:**\n\nIf your enterprise buyers are asking for proof of human oversight over AI, we built this for you. Try it and tell us what's missing.\n\n<https://velt.dev/activity-logs>",
+      "url": "https://www.ycombinator.com/launches/Pqu-velt-activity-logs-audit-trail-for-humans-and-ai-agents",
+      "votes": 5,
+      "created_at": "2026-04-02T19:32:54.147Z"
+    },
+    {
+      "id": 98498,
+      "title": "Velt Claude plugin: Add Real-Time Collaboration to your App in 10 mins",
+      "tagline": "Claude Code plugin that adds CRDT, comments, presence, and notifications to your app in one command.",
+      "body": "Building collaboration features from scratch is one of those problems that looks simple and isn't.\n\nCRDT for live sync. Presence to show who's online. Comments that attach to specific elements. Notifications. Permissions. \n\nIt compounds fast. Most teams either skip it or spend months on it and regret both decisions.\n\nWe've been building this infrastructure for 4 years. Varonis, Pendo, HeyGen, Freshworks, Trumpet already use it in production.\n\nToday we're launching a Claude Code plugin that installs all of it in under 10 minutes.\n\nYou run one command. It asks which features you want. \n\nYou give it your API key. It installs, configures, and wires everything together.\n\nThat's it.\n\n→ Watch the demo: <https://www.youtube.com/watch?v=JpfKRu65DTk>\n\n→ Get started: <https://velt.dev/>\n\n→ Docs: <https://docs.velt.dev/get-started/plugins>\n\nWe're a small team and we read every message. \n\nIf you try it and something doesn't work, tell us.",
+      "url": "https://www.ycombinator.com/launches/Pcg-velt-claude-plugin-add-real-time-collaboration-to-your-app-in-10-mins",
+      "votes": 3,
+      "created_at": "2026-03-05T17:38:44.587Z"
+    },
+    {
+      "id": 94308,
+      "title": "Velt: Multiplayer Editing Toolkit for React Flow (Build Multiplayer Agent Workflows)",
+      "tagline": "Add multiplayer editing capability in minutes.",
+      "body": "If you are building AI agents and AI workflow builders inside your product, then you are most likely using[ React Flow](https://reactflow.dev/) to power these experiences. Now with[ Velt](https://www.linkedin.com/company/veltjs/), within a few minutes you could make these workflows multiplayer just like Figma's FigJam! We’ve created a purpose-built plugin for React Flow that makes any react flow implementation multiplayer out of the box.\n\n![uploaded image](/media/?type=post&id=94308&key=user_uploads/195692/38bab09b-d530-458b-9c03-25444a9d5758)\n\n**Velt does the heavy lifting:**\n\n* fully managed ultra low latency backend\n* real-time merges and conflict resolution (CRDT via Yjs)\n* offline support\n* presence indicators\n* slack-style huddle\n* figma-style comments and notifications\n* custom encryption for additional security\n\nYou can focus on delivering epic value to your users. No more building complex infra from scratch.\n\n**Demo**\n\n* [Demo video](https://www.youtube.com/watch?v=mgz0jOCLyUA)\n* [Live Demo](https://velt-reactflow-crdt-demo.vercel.app/)\n* [Sample code](https://github.com/velt-js/velt-reactflow-crdt-demo)\n* [Docs](https://docs.velt.dev/realtime-collaboration/crdt/setup/reactflow)\n\n**Customers**\n\nWe power multiplayer experiences for companies like **Heygen**, **Pendo**, **Runway**, **Vellum** etc\n\n### [**Try today**](https://velt.dev/multiplayer-editing)",
+      "url": "https://www.ycombinator.com/launches/OX6-velt-multiplayer-editing-toolkit-for-react-flow-build-multiplayer-agent-workflows",
+      "votes": 8,
+      "created_at": "2025-10-03T01:06:50.117Z"
+    },
+    {
+      "id": 84853,
+      "title": "Velt: Tiptap Comments",
+      "tagline": "Enable comments and collaboration in your Tiptap editor.",
+      "body": "With [**Tiptap Comments Extension**](https://www.npmjs.com/package/@veltdev/tiptap-velt-comments), you can add Google Docs-style overlay comments to your Tiptap editor. Here is a [**demo video.**](https://www.youtube.com/watch?v=PIWBwV3IHok) You can [**try it here.**](https://documentation-app-demo.vercel.app/)\n\n![](https://bookface.ycombinator.com/media/?type=post&id=84853&key=user_uploads/195692/d711f012-f784-4ed9-b481-5ee328b75f07)\n\nIt's fully customizable and comes with a lot of powerful built-in features like attachments, mentions, recording, notifications and more.\n\nAdding comments and notification features have shown to boost engagement and growth with platforms. If you use Tiptap in your product, you could enable powerful collaborative experiences using [Velt](https://velt.dev/).\n\n### **Installation**\n\nYou can install the NPM package [here.](https://www.npmjs.com/package/@veltdev/tiptap-velt-comments)\n\n### **Supported Frameworks**\n\nAll major JS frameworks like React, Next, Angular, Vue, Svelte.\n\n### **More about Velt SDK**\n\nWith Velt SDK you can add powerful collaboration features to your product extremely fast.\n\nThe SDK provides **fullstack components**:\n\n* UI and behavior are fully customizable to match your product's needs\n* fully-managed on a scalable realtime backend\n\nFeatures include:\n\n* **Comments** like Figma, [Frame.io](http://Frame.io), Google Docs, Sheets and more\n* **Recording** like Loom (audio, video, screen)\n* **Huddle** like Slack (audio, video, screensharing)\n* In-app and off-app **notifications**\n* **@mentions** and assignment\n* **Presence**, **Cursors**, **Live Selection**\n* **Live state sync** with Single Editor mode\n* **Multiplayer editing** with conflict resolution\n* **Follow mode** like Figma\n* ... and so much more",
+      "url": "https://www.ycombinator.com/launches/M4b-velt-tiptap-comments",
+      "votes": 14,
+      "created_at": "2024-10-17T22:07:51.992Z"
+    },
+    {
+      "id": 84000,
+      "title": "Embedded Recording SDK by Velt",
+      "tagline": "Add AI powered Loom-style recording to your product!",
+      "body": "We're excited to launch [**Embedded Recording in the Velt SDK**](https://velt.dev/recording). Build AI-powered Loom-style recording features (voice, video, and screen) **into your product** in minutes. It automatically generates summaries and transcriptions.\n\n![uploaded image](/media/?type=post&id=84000&key=user_uploads/195692/5f8d698a-2c7e-4d5e-bba5-4add9671cbee)\n\n# **Why this matters:**\n\nYour users are probably already using tools like Loom to communicate. That's time and data they could be spending in your product. Keep your users in your product with native communication features and boost engagement. It's a win for everyone.\n\n# **Products that benefit:**\n\n* Ticketing tools _(Jira, Linear)_\n* Project management tools _(Asana, ClickUp)_\n* Email marketing tools _(Apollo, Customer.io )_\n* Sales tools _(Salesforce, Hubspot)_\n* Development tools _(Github for code reviews)_\n\n# **How it works:**\n\nVelt is a JS SDK that handles everything—UI/UX, full functionality, backend server, and storage. No configuration is needed. You can fully customize it to fit your brand. It works with Next.js, React, Angular, and more.\n\n4 easy steps to get started (see [docs](https://docs.velt.dev/async-collaboration/recorder/setup)):\n\n1. Initialize Velt SDK\n2. Add the recorder components\n3. Customize\n4. That's it!\n\n# **Key Features:**\n\n* Native voice, video, and screen recording\n* AI transcriptions and summaries\n* Built-in recording and playback UI\n* Cross-browser and device compatibility\n* Fully customizable\n* Fully managed and scalable storage and backend",
+      "url": "https://www.ycombinator.com/launches/Lqq-embedded-recording-sdk-by-velt",
+      "votes": 10,
+      "created_at": "2024-09-13T02:03:03.103Z"
+    },
+    {
+      "id": 79688,
+      "title": "Velt: Full-stack Comments SDK",
+      "tagline": "Build powerful commenting features into your SaaS product crazy fast.",
+      "body": "**TL;DR:** Build powerful commenting features into your SaaS product crazy fast. Make it just as collaborative as the big dogs—Google Docs, Sheets, Figma, Frame io... Keep your users collaborating in your app instead of Slack or Zoom. Watch your engagement soar.\n\n[**Demo Video**](https://www.youtube.com/watch?v=27tIG8jEAbc)\n\n![uploaded image](/media/?type=post&id=79688&key=user_uploads/195692/3b9b3bc9-6a81-4e98-82e8-abb2d917f9b5)\n\n### **🤔 Why?**\n\nYour customers want to have discussions within your product – feedback, questions, ideas. Since they can’t do it in your product, they move off-platform to slack, emails, zoom etc.. It's friction for your customers (and you'll watch their engagement drop.)\n\nLuckily, the solution is simple. Add a comment layer across your product. Let customers comment and discuss anywhere, without opening up Slack or Gmail.\\\n\\\nI know what you're thinking. \"How am I going to build that? That's months of engineering and product effort we haven't scoped in.\"\n\n### **✅ Solution**\n\nWe built a complete full-stack Comments feature components for any SaaS product. Embed it anywhere and enable experiences you see in your favorite products like Google Docs, Figma, Sheets and more.\n\nBackend, Frontend - all included.\n\n### **✅ Products that benefit from commenting**\n\n* _Video tools: Frame-by-frame feedback on videos_\n* Documentation tools: Inline comments for better edits\n* _Analytics / Data tools: Questions answered directly on charts and tables_\n* Design tools: Review design assets\n* Form builders, CRMs and so many more\n\n### **🚀 Key Features**\n\n* Commenting Styles: Google Sheets, Google Docs, Notion, Figma, [Frame.io](http://Frame.io), Charts, etc.\n* Loom-style audio, video, screen recording\n* Task management: Statuses, Priority, approval, @ mention\n* Intelligence: AI categorization, AI transcription\n* Customize layout, css & behavior\n* In-app notifications, email notifications, realtime Webhooks\n* Performant and Robust: Buttery smooth. Binds and adapts to changes in your DOM and data.\n\n### **🚀 Try here:** [**https://velt.dev/comments**](https://velt.dev/comments)",
+      "url": "https://www.ycombinator.com/launches/KjI-velt-full-stack-comments-sdk",
+      "votes": 8,
+      "created_at": "2024-03-25T21:40:45.302Z"
+    },
+    {
+      "id": 79200,
+      "title": "Superflow: Frame by frame review on Lottie files",
+      "tagline": "Get approvals with fewer rounds of reviews and ship more assets fast!",
+      "body": "We fixed the mess of Lottie animation reviews. Frame-by-frame comments mean you ship more animations faster. [Here](https://drive.usesuperflow.com/lottie?id=YVUxTXhLUDByY2EyVVh3S2k4YmxfXzMzYmQzYjg3ZWM3ZjI2NTUxOTQxYjMyMjQ2ZjJhOTAxX19sb3R0aWU%3D&version=v1&_gl=1\\*59beb5\\*_gcl_au\\*MTc5OTQ4OTk4OS4xNzA3NzA3MTc4) is a live demo.\n\n![uploaded image](/media/?type=post&id=79200&key=user_uploads/195692/caa35638-b3e5-4704-9cf3-be7fc8e57db9)\n\nOur mission is to make every creator 10x. We believe creators build the future and your time is precious. Superflow makes you a 10x creator: create 10x more, create 10x better work, grow 10x.\n\n**🤔 Why are we building this?**\n\nWe built this because the old way sucked. Screenshots, endless emails, live meetings just to tweak an animation... that's not how things should work in 2024. So we fixed it!\n\n**✅ Solution**\n\nSuperflow lets creative teams review and provide frame-by-frame feedback on Lottie files.\n\nThis enables you to get approvals with fewer rounds of reviews so that you can get back to animating. With Superflow, you deliver more beautiful animations at light speed.\n\n**🚀 Key Features**\n\n* Pinpoint feedback on frames and individual elements.\n* Voice, Video + AI notes for when typing is too slow.\n* Built-in task management to streamline the process.\n* Works on all devices and browsers.\n* Integrates with your existing tools: Asana, ClickUp, Monday, Slack, you name it.\n* Built-in approval flow just like Docusign.\n* Share easily with a click and get notified when someone visits.\n\n[**Get started**](https://usesuperflow.com/lottie-files-review), it’s free.",
+      "url": "https://www.ycombinator.com/launches/KbQ-superflow-frame-by-frame-review-on-lottie-files",
+      "votes": 7,
+      "created_at": "2024-03-08T03:28:50.378Z"
+    },
+    {
+      "id": 66899,
+      "title": "Superflow: Comment and collaborate directly on your product!",
+      "tagline": "Comment and collaborate on your staging and prod websites.",
+      "body": "![uploaded image](/media/?type=post&id=66899&key=user_uploads/195692/536286e1-bb3b-475f-a06a-b7a9d275aac7)\n\n_(_[_demo video)_](https://www.youtube.com/watch?v=cdnfBEw8TfI)\n\n[SuperFlow](https://usesuperflow.com/) makes it super easy to comment on live websites just like you comment on Figma. You can use is to get Copy or UI feedback right on the website you are building. Feedback can be provided in rich formats like audio and video. The best part is that you and your clients don’t need a browser extension.\n\nSuperFlow brings collaboration to wherever you are. Everything is just weaved into one cohesive experience. We have curated the best features of top products like Slack, Loom, Figma into one tool.\n\n### **👩🏼‍💻Who this is for**\n\nWeb agencies, freelancers, product or design teams.\n\n### **Key problems**\n\n* Scattered feedback across emails, slack etc.\n* Endless back and forth, screenshots, unnecessary meetings etc.\n* Clients have to install & learn new tools.\n\n### **📝 Use cases**\n\n* Get copy or UI feedback from clients.\n* Assign tasks to internal team members.\n\n### **💵 Value**\n\n* Reduce website review cycles and ship faster.\n\n### **🙏 Our ask**\n\n* Try our product [**usesuperflow.com**](http://usesuperflow.com) before 31st oct and get 40% off for a year.\n* Share this post with web agencies or freelancers you know build websites.\n\n### **Setup**\n\n**Step 1: Install JS tag on client website in 10 secs.**\n\nYou can just install a JS tag in the footer of the website. \n\n![image.png](https://codahosted.io/docs/TJ6E9cySHQ/blobs/bl-XGbnRxc0Ty/6140d41636b973449d24659aeacab52fd67900c5654c7c113ffc4ad3bf5306eeed19b1162a8b3ccde2cfa635c642722135a4d4a2a87642b35d5f4ec7b6325a88fecd86969d39bd8043dde97a4cf4f9c00515efb075c175855fcb3da704047bd6edbd9efc)\n\n**Step 2: Turn on review mode by adding ?review=true to the URL.**\n\nYou can then turn the review mode on or off on demand by adding **“?review=true”** to the URL. The comments will not be visible to a regular website visitor.\n\n![image.png](https://codahosted.io/docs/TJ6E9cySHQ/blobs/bl-WB9sVT7ZmM/5570471db96e4ea68d9d74f0835939d91e707a467094fd00c51b9eb97542df4a9a84996faeccd683f74aab60fda711f099cf8e9568c42c86c9dd28eef6ef1b80a1ac503d3fb04104fa11b10b749058363a6b3ad58d51f58a20f1483ca8f276fe07d44cfc)\n\n### **🔥 Top features**\n\n**1. Comment on live website, just like Figma:**\n\n![image.png](https://codahosted.io/docs/TJ6E9cySHQ/blobs/bl-NDI5rEj4Ae/8c9caf47c3a53155af4d62231f4d767096816c6d91ba0306fce57e04b642ecb3e5bd70514556c11fb51189d028ea5cb34356c5a0eeff686a40289176667f86af011dd92122307ac44176b1b46c7d7c449652d008714c34e435bc8b41f9fa0bb810973eb3)\n\n**2. Record your screen & camera just like Loom (& attach it to a DOM element).**\n\n![image.png](https://codahosted.io/docs/TJ6E9cySHQ/blobs/bl-JCblThJt6X/57029764bf3d09a31f0a0d1bcaadfac8a927f26b8a63a34ab1236ca4490454ad7c70a081861e6e4b277d5e920e409af0c7a18a6db1be2ac823ba50e3cfc9a5a957bf8ae09430389015c9c72d969ff467cbc01a75320a63735e073d370371dc2d59dc52e9)\n\n**3. Manage tasks across projects in one place.**\n\n![image.png](https://codahosted.io/docs/TJ6E9cySHQ/blobs/bl-eFWGPbIP0M/2e74eaed9a5b399778c9521b9c65a0682fdd12c879322c8dcf4a8ce5e403f5a9b53516680ed1f4b1ad3655c55820b95a233b0a9e074aa9c8fcd4b56fa355607e6648216389a985f7a0a240dd0a55840bbb78b2225e2fea42c0970ace85763b76f8785c7e)\n\n**4. Start live audio/video huddle or screensharing just like Slack.**\n\n![image.png](https://codahosted.io/docs/TJ6E9cySHQ/blobs/bl-XBrG5e-yJd/fa5e98c2123e926dd9f3199da059dbc03e0dfd31c1f25ffdfa582150df6b53b92847bd8a7c005cfdba9c1cdbf0b375e0a757e59679d39f62c465c6a3f0b4936077e41ba5155058db8dae976623f327f1f68288483a1eef47751f1d252e09fb9712d85c8c)\n\n**5. Personalized Slack & email notifications.**\n\n![image.png](https://codahosted.io/docs/TJ6E9cySHQ/blobs/bl-OkDBML4l8F/f1bb3bd394f220a23f2e7b454de8ec767c322dac395eddbffdcf0beece7775d08797d40c89282e889abb5e5915b492b8db98cb12a1847492859dfc18bafa94fd06df75266314f7e71aa5b7a8bcc122e919cbc5f5280aceb9b31c90e13f32a269da77cef5)\n\n**6. Add internal comments for team & external ones for clients.**\n\n![image.png](https://codahosted.io/docs/TJ6E9cySHQ/blobs/bl-ECwdHMSTuh/81021b5d9a38077d7650507ff098d256af6cee5751f22b1c0da8f08b027eb0ef49ba9545316ee9b4ed4d70c17f7e0f98c41d78a7524437b660e213ba2f623b0e01834ef467c04069952f603cc48837e657130abd66a548c3e92ba6a5812574862ec11e5e)\n\n",
+      "url": "https://www.ycombinator.com/launches/HP1-superflow-comment-and-collaborate-directly-on-your-product",
+      "votes": 14,
+      "created_at": "2022-10-25T03:03:03.856Z"
+    }
+  ]
+}

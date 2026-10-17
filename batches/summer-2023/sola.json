@@ -1,0 +1,100 @@
+{
+  "id": 28996,
+  "name": "Sola",
+  "slug": "sola",
+  "former_names": [
+    "AdMagic"
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/0ab41e90328883754ecff618e23fa11d9632ee43.png",
+  "website": "https://www.sola-solutions.com/",
+  "all_locations": "New York City, NY, USA",
+  "long_description": "Sola is copilot for workflow automation. \r\n\r\nWe help automation-minded teams build robust robotic agents to handle tedious tasks via LLMs and computer vision, smoothly integrated into their standard workflow. \r\n\r\nOur tooling makes it easy for companies to automate data entry/scraping in manual filing and processing flows. Go from a screen recording to a bot in any desktop or browser workflow; develop logic and watch logic self-develop in the face of new events!",
+  "one_liner": "Copilot for Robotic Process Automation",
+  "team_size": 5,
+  "industry": "B2B",
+  "subindustry": "B2B",
+  "launched_at": 1690480911,
+  "tags": [
+    "Artificial Intelligence",
+    "Robotic Process Automation",
+    "Workflow Automation",
+    "Automation"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": true,
+  "nonprofit": false,
+  "batch": "Summer 2023",
+  "status": "Active",
+  "industries": [
+    "B2B"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Growth",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/sola",
+  "api": "https://devasheeshg.github.io/yc-api/batches/summer-2023/sola.json",
+  "year_founded": 2023,
+  "city": "New York City",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/98128293/",
+  "x_url": "https://twitter.com/Sola_Solutions",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/0ab41e90328883754ecff618e23fa11d9632ee43.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Diana Hu",
+    "url": "https://www.ycombinator.com/people/diana-hu"
+  },
+  "founders": [
+    {
+      "user_id": 1317145,
+      "full_name": "Jessica Wu",
+      "title": "Founder",
+      "founder_bio": "",
+      "is_active": true,
+      "linkedin_url": "https://linkedin.com/in/jessica-wu-9824431ab",
+      "x_url": "https://twitter.com/jess123555",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/48d7a2d5cdcfcaa80fe92e70128a64d150ff6f6d.jpg"
+    },
+    {
+      "user_id": 787351,
+      "full_name": "Neil Deshmukh",
+      "title": "Founder",
+      "founder_bio": "",
+      "is_active": true,
+      "linkedin_url": "https://linkedin.com/in/neildeshmukh",
+      "x_url": "https://twitter.com/NeilDeshmukh",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/da3fc432de1d9b29f157266ba4b97c8cd6fa5738.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [
+    {
+      "title": "Sola Solutions raises $21 million for enterprise AI | Fortune",
+      "url": "https://fortune.com/2025/08/14/sola-solutions-ai-startup-raised-21-million-andreessen-sarah-guo/",
+      "date": "Aug 14, 2025"
+    }
+  ],
+  "launches": [
+    {
+      "id": 73648,
+      "title": "🤖 Sola - Build AI agents in copilot",
+      "tagline": "Meet Sola, your co-pilot for Robotic Process Automation!",
+      "body": "**tl;dr:** _Sola is copilot for Robotic Process Automation. We help automation-minded teams visually script bots that emulate human behavior to automate data entry, scraping, and filing flows using LLMs and computer vision._\n\nHey everyone! We’re Jess and Neil, the founders of Sola.\n\n![uploaded image](/media/?type=post&id=73648&key=user_uploads/1317145/8edcf728-fa9a-4c2d-be38-a425e3a3a809)\n\nConsider a scenario: A manual, repetitive workflow demands that you extract information from a customer ticket, use this to lodge a legal application within their respective state, and then retain and store the resulting confirmation details.\n\nDeveloping engineering solutions for such workflow automation often brings unexpected overhead:\n\n* Engineers must map all error paths before deployment, often necessitating weeks or even months of rigorous testing, with frequent reengineering required as elements evolve — _what happens when the government filing sites crash or change?_\n* Continued investment in monitoring is crucial to maintain a working solution.\n* Increasingly tight security measures in browser and desktop applications make request-based automation increasingly challenging.\n\nConsidering these challenges in our scenario of building out the state-specific application processes, it makes more sense to automate from a _client-side perspective_.\n\nHowever, existing process automation solutions are reliant on integrations, non-generalizable, not self-healing, and often tough to use…\n\n### The Solution 🦾\n\nNow, **imagine going from a screen recording to a process-automating bot in seconds!** Sola RPA can do exactly this, empowering a future where data entry, scraping, and filing tasks are no longer a hassle, but handled efficiently by agents and citizen developers. Structured as a co-pilot tool, Sola bots are seamlessly integrated into the existing workflow, learning new branches and behavior automatically!\n\nWith the above scenario, internal tooling teams are able to now immediately deploy bots for each state-specific filing workflow, where the bot learns automatically from the human stepping in as it runs into errors.\n\nUsing state-of-the-art AI and computer vision, our tooling makes it easy for companies to automate data entry/scraping in legal, financial, and healthcare flows. We’ve built our tool with intuitive usability at its core, allowing users to **visually script** bots in a Figma-esque workflow that can extrapolate to new data (think Excel macros, but generalized)!\n\n![uploaded image](/media/?type=post&id=73648&key=user_uploads/1317145/64327f3b-dab9-4b3f-b7fb-96a9e44e4fcc)\n\nCheck out some of our case studies! For example,\n\n* We help an SMB unicorn [deploy bots for legal incorporation flows](https://www.sola-solutions.com/product/legal-filing) in each state.\n* We help a hedge fund [automate account interactions in desktop financial software](https://www.sola-solutions.com/product/desktop), where there’s no API to interface with, and [schedule scraping of unstructured data](https://www.sola-solutions.com/product/knowledge-extraction) to track expirations of securities.\n* We work with a scaling neobank to [scrape information on legacy financial government portals](https://www.sola-solutions.com/product/scraping-systems) for loan assessments from databases.\n\n![uploaded image](/media/?type=post&id=73648&key=user_uploads/1317145/b3692f9c-19bc-4256-87fd-f7cc0c4b9cab)\n\n### The Team\n\nJess and Neil have been best friends since their freshman year at MIT, and have worked together a ton even before Sola.\n\nNeil has researched CV and LLMs while studying CS at MIT (at the MIT-IBM Watson + Quest for Intelligence Labs) focusing on multimodal RL models, and built out ML at startups in areas including computational biology, fraud detection, healthcare, and agriculture.\n\nJess has studied math and CS at MIT, most recently having spent her time working in finance (at Citadel Securities, Goldentree AM, Thrive Capital, and some other hedge funds), and she’s also worked on startups in med-tech, fashion, and crypto, doing a mix of design work and engineering.\n\nDrawing from their wealth of experience in AI research, engineering, and design, as well as first-hand frustration with repetitive workflows in finance and healthcare, they’re on a mission to tackle the challenge of solving tedious flows in an intuitive way!\n\n### The Ask\n\nWe’d love to help automate your workflows!\n\nIf you’re a company thinking about robotic process automation or manual outsourcing as you scale, reach out to [founders@sola-solutions.com](mailto:founders@sola-solutions.com) and we’d love to chat about working together, as we onboard a limited number of design partners early on! :)",
+      "url": "https://www.ycombinator.com/launches/J9s-sola-build-ai-agents-in-copilot",
+      "votes": 691,
+      "created_at": "2023-08-01T15:57:28.435Z"
+    }
+  ]
+}

@@ -1,0 +1,104 @@
+{
+  "id": 31184,
+  "name": "Assemble",
+  "slug": "assemble",
+  "former_names": [
+    "Serin",
+    "Standard Interaction"
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/fdaeafd72d237eaf328842585365c3b7ce49cb7c.png",
+  "website": "https://www.assemble.ai/",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "Assemble accelerates IT teams by performing development work inside core enterprise systems like ERP, CRM, and HRIS. Our agents help IT teams scope dependencies, build logic, and validate changes across your systems.",
+  "one_liner": "Autonomous IT Delivery",
+  "team_size": 4,
+  "industry": "B2B",
+  "subindustry": "B2B",
+  "launched_at": 1783894724,
+  "tags": [
+    "Artificial Intelligence",
+    "SaaS",
+    "Enterprise Software"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Summer 2026",
+  "status": "Active",
+  "industries": [
+    "B2B"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/assemble",
+  "api": "https://devasheeshg.github.io/yc-api/batches/summer-2026/assemble.json",
+  "year_founded": 2026,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/use-assemble",
+  "x_url": "https://x.com/assembleagents",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/fdaeafd72d237eaf328842585365c3b7ce49cb7c.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Ankit Gupta",
+    "url": "https://www.ycombinator.com/people/ankit-gupta"
+  },
+  "founders": [
+    {
+      "user_id": 1578320,
+      "full_name": "Aliyan Ishfaq",
+      "title": "Founder/CEO",
+      "founder_bio": "cs/ai @ stanford | prev. SAIL, LangChain",
+      "is_active": true,
+      "linkedin_url": "https://linkedin.com/in/aliyan-ishfaq",
+      "x_url": "https://x.com/MAliyanIshfaq",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/e4fa658850fbf6eb187933c123d915d40d059d30.jpg"
+    },
+    {
+      "user_id": 1804823,
+      "full_name": "Shaurnav Ghosh",
+      "title": "Founder/CTO",
+      "founder_bio": "Building Assemble.\nSAIL Researcher. Previously at AWS, Apple. Stanford CS BS/MS.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/shaurnav-ghosh/",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/e26c4f24efcca55ac87f67e85a7c991281951379.jpg"
+    },
+    {
+      "user_id": 3118829,
+      "full_name": "Shrish Janarthanan",
+      "title": "Founder/CPO",
+      "founder_bio": "CS @ Stanford. Cyber Security @ KPMG. Mayfield Fellow. Building AI for IT Teams. ",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/shrishj/",
+      "x_url": "https://x.com/shrishj5",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/6a6deb9a94d9a3b0b11ae04c5d045d3c8d4e5888.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 105577,
+      "title": "Assemble: Agents for Enterprise IT",
+      "tagline": "Agents that perform IT implementations across ERPs, CRMs, and HRIS platforms.",
+      "body": "Hi, we’re Assemble!\n\nWe build agents for IT teams that manage enterprise systems like ERP, CRM, and HRIS platforms. Think Salesforce, SAP, Workday, NetSuite, and custom applications. \n\nThese **platforms keep the world’s businesses running every day**, yet they are painful to configure as the business evolves. With custom logic, integrations, and processes built up over years, IT implementations can take months or even years.\n\nAssemble helps IT teams understand these dependencies, make changes, and test the result, all while keeping a clear agent trace. Teams can review the work, approve it, and roll it back when needed. We are building Assemble to help IT teams deliver complex transformation projects with both speed and control.\n\n**Demo**\n\n<https://www.loom.com/share/cf221032f60b48c9a0f0bd04dcc41041>\n\nThe demo shows Assemble migrating trade-show accounts from HubSpot to Salesforce and setting up APEX automation for hot leads. The agent completes the work end-to-end, creating an audit trail for every action letting the user revert individual changes or restore the Salesforce to an earlier snapshot.\n\n**Why we started Assemble**\n\nWe learned about the problem space after talking to more CIOs and VPs of IT. Companies are already using AI to ask questions about their core business stack. The real challenge is to have safe-execution inside these core systems, letting IT move just as fast as the business.\n\n![uploaded image](/media/?type=post&id=105577&key=user_uploads/1578320/4aa47909-92cb-46a2-9479-917d889f318c)\n\nShrish (left): Cyber Security at KPMG, Mayfield Fellow. \n\nAliyan (center): Researcher at Stanford AI Lab, Applied AI Engineer at Langchain, built products used by 100k+ people\n\nShaurnav (right): AI Engineer at Amazon and Apple. Researcher at Stanford AI Lab\n\nWe have worked on long-running agents and are excited to apply that experience to enterprise IT.\n\n**Asks:**\n\n1. If your company uses Salesforce, NetSuite, Workday, ServiceNow, SAP, or similar systems, we’d love to learn how your IT / business systems team handles changes today. **Are they backlogged? We might be able to help!**\n2. If you know someone who leads IT, Business Systems, or Enterprise Applications at a scaling company, we’d be very grateful for an intro!\n\nTalk to us at [founders@assemble.ai](mailto:founders@assemble.ai)",
+      "url": "https://www.ycombinator.com/launches/RSr-assemble-agents-for-enterprise-it",
+      "votes": 4,
+      "created_at": "2026-07-13T16:23:12.785Z"
+    }
+  ]
+}

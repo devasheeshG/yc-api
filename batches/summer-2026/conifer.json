@@ -1,0 +1,92 @@
+{
+  "id": 33936,
+  "name": "Conifer",
+  "slug": "conifer",
+  "former_names": [],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/1cd2adb8270db80170ab62b4140817892372538a.png",
+  "website": "https://www.conifer.build",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "There are thousands of models, providers, and harnesses, each with its own pricing and strengths, leaving an overwhelming number of choices when it comes to managing token spend and intelligence. Conifer uses intelligent routing and orchestration logic to handle the full path of each query: model selection, provider choice, and cache management. It all runs inside your existing harness, so tools like Claude Code and Codex work without changing your setup. By centralizing where inference occurs, Conifer lets companies save on their inference bill while leaving teams free to focus on what they are building.",
+  "one_liner": "Least cost routing system to reduce 70%+ token spend",
+  "team_size": 4,
+  "industry": "B2B",
+  "subindustry": "B2B",
+  "launched_at": 1783524440,
+  "tags": [
+    "Artificial Intelligence",
+    "Developer Tools",
+    "B2B",
+    "Security"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Summer 2026",
+  "status": "Active",
+  "industries": [
+    "B2B"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/conifer",
+  "api": "https://devasheeshg.github.io/yc-api/batches/summer-2026/conifer.json",
+  "year_founded": 2026,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/coniferbuild/posts/?feedView=all",
+  "x_url": "https://x.com/coniferbuild",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/1cd2adb8270db80170ab62b4140817892372538a.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Gustaf Alstromer",
+    "url": "https://www.ycombinator.com/people/gustaf-alstromer"
+  },
+  "founders": [
+    {
+      "user_id": 2679506,
+      "full_name": "Charles Muehlberger",
+      "title": "Founder/CTO",
+      "founder_bio": "Founder at Conifer. Engineering researcher at Princeton, accelerating multi-modal inference on edge devices and designing physics simulation software for coupled laser reservoirs and machine learning with physical neural networks. Previously built custom edge AI devices for RF-based brain injury modeling at DoW, and helped engineer the world record holding fastest electric speedboat at PES.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/charlesmuehl/",
+      "x_url": "https://x.com/charles_v11",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/409f2cd05975613a17cb1fd3e79e3a7f552feca0.jpg"
+    },
+    {
+      "user_id": 3664042,
+      "full_name": "Michael Jeffords",
+      "title": "Founder/CGO",
+      "founder_bio": "Co-founder at Conifer (YC S26). Previously co-founded The HeartCheck Foundation, scaling free hypertension screenings to 20+ barbershops and over 10,000 individuals. Engineered an ML-driven computer vision pipeline using pose estimation for early-onset ALS and Parkinson's detection. Former clinical researcher at the Dell Med Institute of Vascular Surgery and UTHSC, specializing in hematopoetic stem cell transplantation, achieving infiltration levels >90% in mouse models. ",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/michael-bryan-jeffords/",
+      "x_url": "https://x.com/michaelbjeff",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/58eb17d9512cddea2d8c88e01b06698b9d88a191.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 105897,
+      "title": "Conifer: Local-first least cost routing system",
+      "tagline": "Stop paying cloud prices for every token. We route 80% of requests to your hardware at no cost",
+      "body": "Hi all 👋, We’re Michael and Charles, founders of Conifer.\n\n**TLDR:** Conifer is one interface for both local and cloud models, available today as **Juniper**, our consumer-facing app. It routes each request to the most cost-effective option, beginning with your own hardware. Most requests are processed locally without API fees, reducing paid token volume by up to 80%.\n\n**📺 Launch Video:**[ https://www.youtube.com/watch?v=QLVNISmtet0](https://www.youtube.com/watch?v=QLVNISmtet0)\n\n**❓ The problem**: Model labs direct every request to the cloud, with no incentive to route your queries to a cheaper competitor or a free, on-device model. That may benefit them, but it’s unnecessarily costly for you. Whether it’s a simple typo fix or a complex architecture problem, the request is sent to a data center, exposing your data to third parties and increasing your monthly spend. This quickly adds up for teams running coding agents, customer support, and other high-volume workloads. When handling financials, patient records, or customer data, teams must also trust that a cloud provider’s security is as robust as promised.\n\n![uploaded image](/media/?type=post&id=105897&key=user_uploads/3664042/6dbc9654-b4df-453d-a02e-3ea71302316d)\n\n**🔨 What Conifer does:** Conifer routes every request from the bottom up:\n\nTier 0: Your own hardware, with $0 in API fees\n\nTier 1: An efficient cloud model\n\nTier 2: A frontier model for the most demanding queries\n\nThe majority of requests are processed locally, ensuring that cloud pricing applies only when actually necessary, drastically reducing paid token volume. Additionally, Conifer consolidates disparate subscriptions, dashboards, and API keys within a single unified interface.\n\nFor sensitive workloads 🕵️, **local-only mode** disables cloud routing entirely, so all conversations and data remain completely on-device.\n\n🏃‍♂️ **Ensuring the local tier is fast enough:** This routing only works if the local tier is reliable, so we built Conifer's inference engine from the ground up in Rust. On Apple Silicon, decode speeds reach up to 60% faster than llama.cpp.\n\n![uploaded image](/media/?type=post&id=105897&key=user_uploads/3664042/79b464dc-667b-48af-a1ba-5cdd089b1dc8)\n\nOn-device operation with Conifer is now the default starting point for inference, rather than a feature limited to hobbyist use.\n\n**Asks:**\n\n1. Try Juniper with a one-click download @[ conifer.build](http://conifer.build), or reach out to us at [contact@conifer.build](mailto:contact@conifer.build) to have a model running in under two minutes.\n2. Introduce us to teams with high monthly token spend. If teams are incurring significant API costs and want to optimize unit economics without rebuilding their stack, we would like to connect.",
+      "url": "https://www.ycombinator.com/launches/RY1-conifer-local-first-least-cost-routing-system",
+      "votes": 10,
+      "created_at": "2026-07-15T22:29:01.603Z"
+    }
+  ]
+}

@@ -1,0 +1,110 @@
+{
+  "id": 30514,
+  "name": "Scalar Field",
+  "slug": "scalar-field",
+  "former_names": [],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/7b28fd1bee5f680014678e8985405788a687849f.png",
+  "website": "https://www.scalarfield.io/",
+  "all_locations": "",
+  "long_description": "We’re building the agentic trading desk for the new operating system of markets.\r\n\r\nI used to be a trader at Tower Research and Goldman Sachs, and I’m building Scalar Field with my co-founder Ramakant, who led engineering teams at Microsoft.\r\n\r\nWe’ve both spent our careers at the intersection of finance and technology, and we’re using that experience to rethink how markets are analyzed, tested, and traded in the age of agents.\r\n\r\nScalar Field is built around a simple belief: over the next few years, agents will not just help people research markets — they will actively participate in them.\r\n\r\nThey will monitor news, parse filings, track sentiment, test hypotheses, rebalance portfolios, and execute trades. They will turn ideas into strategies, and strategies into live portfolios.\r\n\r\nBut today’s financial infrastructure was not built for that world.\r\n\r\nTerminals are dashboards. Backtesting tools are fragmented. Execution systems are separate. Market data is hard to unify. And most platforms still assume the human is the only decision-maker.\r\n\r\nScalar Field changes that.\r\n\r\nWe’re building an agentic trading platform where users can create financial agents that research data, backtest strategies, monitor market events, and trigger trades when specific conditions are met.\r\n\r\nThe long-term vision is agentic ETFs: portfolios created, managed, and rebalanced by agents around any idea, narrative, event, or market signal.\r\n\r\nScalar Field lets users go from thesis to backtest to live portfolio in one place.\r\n\r\nIt is infrastructure for the agentic trading era.\r\n",
+  "one_liner": "Your Agentic Trading Desk — Building the next era of agentic…",
+  "team_size": 3,
+  "industry": "Fintech",
+  "subindustry": "Fintech",
+  "launched_at": 1746086893,
+  "tags": [],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": true,
+  "nonprofit": false,
+  "batch": "Spring 2025",
+  "status": "Active",
+  "industries": [
+    "Fintech"
+  ],
+  "regions": [
+    "Unspecified"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/scalar-field",
+  "api": "https://devasheeshg.github.io/yc-api/batches/spring-2025/scalar-field.json",
+  "year_founded": 2025,
+  "city": null,
+  "country": null,
+  "linkedin_url": "https://www.linkedin.com/company/scalarfield/",
+  "x_url": "https://x.com/scalar_field_",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/7b28fd1bee5f680014678e8985405788a687849f.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Tom Blomfield",
+    "url": "https://www.ycombinator.com/people/tom-blomfield"
+  },
+  "founders": [
+    {
+      "user_id": 1377681,
+      "full_name": "Amandeep Singh",
+      "title": "Founder/CEO",
+      "founder_bio": "An ex-trader building the future of trading terminals. ",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/amandeep-singh0/",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/42f53e84f768fbe086bdfe721e658f3fe2c0a447.jpg"
+    },
+    {
+      "user_id": 593693,
+      "full_name": "Ramakant Yadav",
+      "title": "Founder/CTO",
+      "founder_bio": "Building the new era of agentic trading",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/ramakant-yadav1/",
+      "x_url": "https://x.com/yoursRY",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/9f4db489a75670053bce8dcaa8106e27f8bd5b13.jpg"
+    }
+  ],
+  "jobs": [
+    {
+      "id": 95826,
+      "title": "Digital Native Community, Social & Creator Growth Internship",
+      "url": "https://www.ycombinator.com/companies/scalar-field/jobs/O0pkhfz-digital-native-community-social-creator-growth-internship",
+      "location": "US / Remote (US)",
+      "type": "Internship",
+      "role": "Marketing",
+      "role_type": null,
+      "salary_range": "",
+      "equity_range": "",
+      "experience": null,
+      "visa": "US citizen/visa only",
+      "skills": []
+    }
+  ],
+  "news": [],
+  "launches": [
+    {
+      "id": 106006,
+      "title": "Scalar Field | The agentic trading desk",
+      "tagline": "Build, backtest, and deploy trading agents across equities, options, prediction markets, and on-chain assets.",
+      "body": "# Scalar Field: The agentic trading desk\n\nHi all,\n\nWe’re Aman and Ramakant, founders of Scalar Field.\n\nI previously worked as a trader at Tower Research and Goldman Sachs. Ramakant led engineering teams at Microsoft. We’ve both spent our careers at the intersection of finance and technology, and we’re now building the infrastructure financial agents need to operate in markets.\n\n**TL;DR:** Scalar Field lets you turn an investment idea into research, a backtest, and a live trading agent in one place. Agents can use LLMs for research and reasoning, then run strategies through an event-driven execution layer with approximately **300 ms event-to-trade latency**.\n\n<https://youtu.be/Uhd-RtQ1XjM>\n\n## The problem\n\nOver the next few years, agents will not just help people research markets. They will actively participate in them.\n\nThey will monitor news, parse filings, analyze data, test hypotheses, manage portfolios, and execute trades.\n\nBut today’s financial infrastructure was not built for this.\n\nMarket data is fragmented across providers. Research and backtesting happen in separate systems. Execution requires another set of integrations. Most financial platforms are dashboards designed for humans, not infrastructure designed for agents.\n\nThere is also a more fundamental problem: most AI-agent frameworks assume every action should begin with an LLM call.\n\nAn event occurs. The agent sends context to a model. The model reasons about it, chooses a tool, and eventually places a trade.\n\nThat is often the wrong modality for trading agents.\n\nLLM calls are costly and introduce significant latency. A trading agent cannot call a language model every time a price changes, a signal fires, or a portfolio needs to be rebalanced.\n\nLLMs are useful for interpreting unstructured information, researching ideas, and developing strategies. They should not have to sit in the critical path of every trade.\n\n## What Scalar Field does\n\nScalar Field separates the agent’s reasoning layer from its execution layer.\n\nAgents can use LLMs where intelligence and interpretation are valuable. They can then convert those decisions into deterministic, event-driven strategies that continuously monitor markets and execute without another LLM call at every step.\n\nScalar Field handles:\n\n* Financial data and research compute\n* Python-based strategy development and backtesting\n* Event and schedule-based strategy triggers\n* Persistent agent state\n* Portfolio allocation and position tracking\n* Risk and execution checks\n* Order routing and reconciliation\n* Real-time performance and NAV tracking\n\nThis lets users go from thesis to backtest to live portfolio without stitching together data providers, compute infrastructure, agent frameworks, and brokerage APIs.\n\n## Where agents can trade\n\nScalar Field currently supports:\n\n* **Robinhood** — US equities and ETFs\n* [**Public.com**](http://Public.com) — US equities and options\n* **Polymarket** — prediction markets\n* **Jupiter DEX** — Solana tokens and tokenized assets\n* **Alpaca** — US equities and options\n\nWe also support paper trading through Alpaca and Polymarket, so users can test agents before allocating real capital.\n\n**Hyperliquid support for crypto perpetual futures and spot is coming soon.**\n\n## What you can build\n\nFor example, you could build an agent that:\n\n* Tracks which public companies are increasing AI capital expenditure, then continuously rebalances into the companies investing most aggressively in data centres, chips, and AI infrastructure.\n* Monitors insider purchases across thousands of companies, tests whether purchases by CEOs or directors predict future returns, and automatically trades only when the historical signal is strong enough.\n* Reacts to market-moving events such as earnings surprises, inflation data, interest-rate decisions, breaking news, or sudden changes in prediction-market probabilities.\n* Watches every live sports game and trades when the market overreacts, for example, when the team that started as the favourite falls behind early but its estimated win probability begins to recover.\n* Runs a simple deterministic rule, such as buying a stock when a predefined signal crosses a threshold, without making an LLM call at all.\n* Or goes much deeper: trains a transformer on historical market data, uses the model to generate signals in real time, and automatically executes trades when those signals meet the strategy’s risk and confidence requirements.\n\nOur long-term vision is **agentic portfolios**: portfolios created, managed, and continuously rebalanced by agents around any thesis, narrative, event, or market signal.\n\nWe believe agents will become some of the largest participants in financial markets. But that will not happen by simply connecting a generic LLM-agent framework to a brokerage API.\n\nTrading agents need infrastructure that combines intelligence with financial data, event-driven compute, persistent state, portfolio management, risk controls, and low-latency execution.\n\nThat is what we’re building with Scalar Field.\n\n## Asks\n\n1. **Try Scalar Field** and tell us what breaks, what is missing, and what trading agent you would build first.\n2. **Introduce us to quantitative traders, developers, and investment teams** experimenting with AI-driven research, portfolio management, or automated execution.\n\nYou can try it at [**scalarfield.io**](http://scalarfield.io).",
+      "url": "https://www.ycombinator.com/launches/RZm-scalar-field-the-agentic-trading-desk",
+      "votes": 1413,
+      "created_at": "2026-07-16T14:01:12.958Z"
+    },
+    {
+      "id": 90206,
+      "title": "Scalar Field: Reinventing the Trading Terminal, One Intelligent Agent at a Time",
+      "tagline": "Test any market hypothesis instantly — and intelligently.",
+      "body": "Hey YC! I’m [Aman](https://www.linkedin.com/in/amandeep-singh0/) (ex-trader from Tower Research and Goldman Sachs), building **Scalar Field** with my co-founder [Ramakant](https://www.linkedin.com/in/ramakant-yadav1/) (ex-Microsoft).\n\nhttps://www.youtube.com/watch?v=oOwJB5R4HxA\n\n### **The Problem We're Solving**\n\nWhy does anyone log in to a trading terminal like Bloomberg or FactSet?\n\nBecause — whether consciously or subconsciously — there’s a **hypothesis in their mind**. Something they're trying to validate as they jump across **charts, news, fundamentals, and macros**.\n\nBut here’s the issue: **Terminals today are built like giant dashboards**.\\\nWhat traders and analysts actually want is to **test and validate ideas**, not just observe data. So we asked ourselves — why not **rebuild the terminal from scratch** to do exactly that?\n\n---\n\n### **What We’re Building**\n\nAt **Scalar Field**, we’re reimagining the trading terminal from the ground up using **intelligent agents**. We started with retail traders as a way to build credibility with institutions—and already have around 800 paying traders, over 34,000 signups, and **$74,000** in monthly revenue.\n\nOur goal is simple:\\\n**Let users test any market hypothesis instantly — and intelligently.**\n\nWe’re building a terminal that can:\n\n→ **Run compute-heavy backtests** across multiple datasets (fundamentals, prices, macro, alternative data)\\\n→ **Spin up agents** that reorganize dashboards based on new signals or events\\\n→ **React to live market changes** and even **initiate trades** when conditions match your criteria\\\n→ **Persist memory across sessions** — so your research trail is never lost\\\n→ **Chain multi-hop workflows:** e.g., _If ETF flows spike and earnings surprises drop, highlight affected sectors and show next trade ideas_\n\nIt’s not just data access — it’s **agent-driven insight and action**.\n\n---\n\n### **🚀 Try it Now: [Scalar Field](https://scalarfield.io)**\n\n---\n\n### **🎁 YC Deal**\n\nWe’re offering **2 months of Pro+ free** to all **YC X25 founders and alums**.\\\nUse code **YCOMBINATOR** or just email us: [**founders@scalarfield.io**](mailto:founders@scalarfield.io)\n\n---\n\n### **What We’re Looking For:**\n\n* **Feedback** from LLM / infra builders\n* **Warm intros** to PMs, RIAs, analysts, or macro researchers\n* **Ideas** on scaling persistent memory + multi-hop reasoning\n\nWe’d love to hear your thoughts!\n\n— **Aman & Ramakant**\\\n📧 [founders@scalarfield.io](mailto:founders@scalarfield.io)",
+      "url": "https://www.ycombinator.com/launches/NSw-scalar-field-reinventing-the-trading-terminal-one-intelligent-agent-at-a-time",
+      "votes": 1119,
+      "created_at": "2025-05-08T19:00:08.256Z"
+    }
+  ]
+}

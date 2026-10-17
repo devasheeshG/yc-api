@@ -1,0 +1,111 @@
+{
+  "id": 30247,
+  "name": "Osmosis",
+  "slug": "osmosis",
+  "former_names": [
+    "Gulp"
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/0e0e653e5da051b7c87a56070249ad76479b0594.png",
+  "website": "https://osmosis.ai/",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "Osmosis is a post-training platform that helps companies fine-tune language models using reinforcement learning. We work with fast-growing AI companies to train task/domain-specific models that beat foundation models on performance, cost, and latency. Our platform handles compute orchestration, reward modeling, and training run observability as a CLI-based product usable by developers and agents. ",
+  "one_liner": "Reinforcement Learning (RL) for AI Agents",
+  "team_size": 6,
+  "industry": "B2B",
+  "subindustry": "B2B",
+  "launched_at": 1737656598,
+  "tags": [
+    "Artificial Intelligence",
+    "Machine Learning",
+    "Reinforcement Learning",
+    "Infrastructure"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": true,
+  "nonprofit": false,
+  "batch": "Winter 2025",
+  "status": "Active",
+  "industries": [
+    "B2B"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/osmosis",
+  "api": "https://devasheeshg.github.io/yc-api/batches/winter-2025/osmosis.json",
+  "year_founded": 2024,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/osmosis-ai/",
+  "x_url": "https://x.com/osmosis_ai",
+  "fb_url": null,
+  "cb_url": "https://www.crunchbase.com/organization/gulp-ai",
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/0e0e653e5da051b7c87a56070249ad76479b0594.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Brad Flora",
+    "url": "https://www.ycombinator.com/people/brad-flora"
+  },
+  "founders": [
+    {
+      "user_id": 695591,
+      "full_name": "Kasey Zhang",
+      "title": "Founder/CEO",
+      "founder_bio": "Currently: osmosis.ai \n\nPreviously: gaming founder, VC",
+      "is_active": true,
+      "linkedin_url": "https://linkedin.com/in/kasey-zhang",
+      "x_url": "https://x.com/_WEEXIAO",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/89bfeaa626b0c7c6444e4634610ad1c228392c9f.jpg"
+    },
+    {
+      "user_id": 1479747,
+      "full_name": "Andy Lyu",
+      "title": "Founder/CTO",
+      "founder_bio": "Defining how real time systems should be built. Previously worked on data architecture and ecosystem at TikTok recommendations as the 5th and youngest US hire",
+      "is_active": true,
+      "linkedin_url": "https://linkedin.com/in/baiqingl",
+      "x_url": "https://x.com/viewerisland",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/4acaad1754ca9e5bf80ca3d25cdc86b8226565d6.jpg"
+    }
+  ],
+  "jobs": [
+    {
+      "id": 88480,
+      "title": "Machine Learning Engineer ",
+      "url": "https://www.ycombinator.com/companies/osmosis/jobs/N17l8oV-machine-learning-engineer",
+      "location": "San Francisco, CA, US",
+      "type": "Full-time",
+      "role": "Engineering",
+      "role_type": "Machine learning",
+      "salary_range": "$180K - $250K",
+      "equity_range": "",
+      "experience": "1+ years",
+      "visa": "US citizen/visa only",
+      "skills": [
+        "Reinforcement learning (RL)"
+      ]
+    }
+  ],
+  "news": [],
+  "launches": [
+    {
+      "id": 87475,
+      "title": "Osmosis: Unlocking Real-Time Learning for AI Agents",
+      "tagline": "Osmosis gives AI agents the ability to learn like DeepSeek R1, all in real-time ",
+      "body": "What if AI agents could immediately learn from their mistakes?\n\n## TL;DR\n\nWhile AI agent capabilities continue to improve, the agentic workflows remain brittle since agents aren’t able to learn from tasks in real-time. Osmosis is a framework that helps your AI agents learn in real-time (similar to DeepSeek R1’s post-training loop) in order to make them better, faster, and more responsive.\n\nOn the first run, we scored 21.5% accuracy, which is 60% better than base 4o performance (16X more expensive!). **This means that even on a first run, we're 25X+ more cost effective than base 4o - and that would be significantly better on a second run.** We also averaged 7.5 steps per task while OpenAI Operator averaged 67 steps per task (faster and cheaper!).\n\nIf you’re building AI agents and want to make them better, faster, and more responsive, we’d love to chat! Email [kasey@gulp.ai](mailto:kasey@gulp.ai) or book time [here](https://calendly.com/kasey-gulp/).\n\n## The Problem\n\nAI agents still struggle with novel and complex (multi-step) tasks. Even OpenAI Operator (current state-of-the-art) just scores 58% accuracy on the WebArena benchmark. The worst part is that agents make the same mistakes again and again!\n\nAnd even when agents can solve a task, there’s generally a lack of optimization in their process. This ends up negatively affecting performance while also driving up inefficient inference costs for users.\n\n## The Solution\n\nOsmosis builds and maintains a ‘library’ of an agent’s previous interactions. It’s a super simple two line addition in a developer’s agent infrastructure that:\n\n* Ingests and understand a user’s prompt\n* Queries a vector database to search for similar past scenarios\n* Recommends a relevant plan of action for the task\n* Quantifies an agent’s performance when it finishes, and embeds the assessment\n\nJust like that, we have a flow that enables agents to learn in real-time with each successive task!\n\nHere’s a head-to-head (Operator versus Claude 3.5 Sonnet + Osmosis):\n\n<https://www.youtube.com/watch?v=uhFuT8VD9tk>\n\n**Osmosis was 3X faster and 6X more efficient in the number of steps taken!**\n\n## Our Ask\n\nIf you (or anyone you know) are building AI agents and struggling with accuracy, speed, or cost, we’d love to chat and see how we can help! Please reach out at [kasey@gulp.ai](mailto:kasey@gulp.ai), or book some time directly [here](https://calendly.com/kasey-gulp/).\n\n## The Team\n\nWe’ve (Kasey and Andy) known each other for over a decade!\n\n[Kasey](https://www.linkedin.com/in/kasey-zhang/) (CEO) previously co-founded and ran a gaming startup for two years before it was acquired. From there, he worked at various VC firms focusing on AI and data investments before deciding to jump back into building.\n\n[Andy](https://www.linkedin.com/in/baiqingl/) (CTO) previously worked at TikTok, where he joined as an early member of the data infrastructure team and eventually became a tech lead, running data infrastructure for recommendations across the core TikTok app, Shop, Live, and more.\n\n![uploaded image](/media/?type=post&id=87475&key=user_uploads/695591/d662049a-cf42-4d21-bc5f-08643fd3be5e)\n\n",
+      "url": "https://www.ycombinator.com/launches/Mkt-osmosis-unlocking-real-time-learning-for-ai-agents",
+      "votes": 155,
+      "created_at": "2025-02-06T19:22:40.649Z"
+    }
+  ]
+}

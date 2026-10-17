@@ -1,0 +1,98 @@
+{
+  "id": 30899,
+  "name": "Sciloop",
+  "slug": "sciloop",
+  "former_names": [
+    "SciLoop"
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/f01d1e4f95660e72f930c4f8b2542e2224dc9107.png",
+  "website": "https://sciloop.dev",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "Sciloop creates expert-level math and physics problems that frontier AI models can't solve, then sells the data to AI labs for training and evaluation. Our problems are created by IPhO and IMO medalists — the top 0.01% of STEM talent globally. On our benchmark, models like GPT 5.4 Pro and Gemini 3.1 Pro score 0-5% on our hardest problems. We work with AI labs to supply continuous, fresh training data that pushes the frontier of mathematical and scientific reasoning. Founded by Bilal and Osman, International Physics Olympiad medalists from MIT with hands-on ML research experience at MIT CSAIL.\r\n",
+  "one_liner": "Expert STEM reasoning data for frontier AI labs.",
+  "team_size": 6,
+  "industry": "B2B",
+  "subindustry": "B2B -> Infrastructure",
+  "launched_at": 1761248663,
+  "tags": [
+    "Marketplace",
+    "Data Labeling",
+    "Big Data",
+    "AI"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Fall 2025",
+  "status": "Active",
+  "industries": [
+    "B2B",
+    "Infrastructure"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/sciloop",
+  "api": "https://devasheeshg.github.io/yc-api/batches/fall-2025/sciloop.json",
+  "year_founded": 2025,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/sciloop-labs",
+  "x_url": "https://x.com/SciloopAI",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/f01d1e4f95660e72f930c4f8b2542e2224dc9107.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [
+    "https://bookface-images.s3.us-west-2.amazonaws.com/attachments/fed7f882927e8fb06da3fa37372d4882ade38f87.png",
+    "https://bookface-images.s3.us-west-2.amazonaws.com/attachments/7236dec827b854b72e6c08d373f971278c84b65f.png"
+  ],
+  "primary_partner": {
+    "name": "Aaron Epstein",
+    "url": "https://www.ycombinator.com/people/aaron-epstein"
+  },
+  "founders": [
+    {
+      "user_id": 1933114,
+      "full_name": "Bilal Asmatullah",
+      "title": "Founder/CEO",
+      "founder_bio": "Co-founder of Sciloop (YC F25), On Leave From MIT\nInternational Physics Olympiad ’22 medalist.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/bilal-asmatullah-8705692b4/",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/bf61bc3516b5794d469bbefebfcaa598357a1e97.jpg"
+    },
+    {
+      "user_id": 2718484,
+      "full_name": "Osman Siddique",
+      "title": "Founder",
+      "founder_bio": "CTO and co-founder of Sciloop (YC F25). \nCS student at MIT (on leave). Medalist and two-time highest national scorer at the 2022 International Physics Olympiad.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/osman-siddiquer",
+      "x_url": "https://x.com/OsmanSiddiquer",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/65092c9b010287aa5db264ecfeb813617bfb76af.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 94951,
+      "title": "Sciloop: The AI Scientific Researcher",
+      "tagline": "Come up with novel hypotheses, run experiments, analyze results, and write the paper — all automatically.",
+      "body": "**TL;DR: We’re making the AI that does your research for you.[ Book a call.](https://calendly.com/osman-sciloop/30min)**\n\nHi.\n\nWe’re building **Sciloop**, a platform that automates the entire scientific research loop from hypothesis generation to experiment design, execution, analysis, iteration, and drafting real research papers.\n\nhttps://youtu.be/GNM8iA6p9Ao\n\n**Our Story:**\n\nWe’re Bilal and Osman, IPhO medalists and former MIT students with 4 years of experience applying ML in various research domains. While working at MIT CSAIL, we saw how large language models could help with literature review and even generate new hypotheses. Stanford’s recent study ([Can LLMs Generate Novel Research Ideas?](https://arxiv.org/abs/2409.04109))  showed that LLM-generated hypotheses can be more novel than those from domain experts. We saw the same in our own work.\n\n![uploaded image](/media/?type=post&id=94951&key=user_uploads/2718484/3a420779-570b-4a69-b3ee-628644695a3e)\n\nBut after generating ideas, everything slowed down. We spent hours designing experiments, writing code, debugging compute setups, and rerunning failed jobs that could crash after 12 hours. Even with tools like Cursor that helped us code faster, the overall loop from idea to insight was still painfully manual. Researchers everywhere face this same bottleneck.\n\nSo we asked ourselves: what if the research loop itself could be automated?\n\nSo we built **Sciloop**. It takes a research intent — a question or hypothesis — and automatically designs, runs, and monitors experiments in parallel on our own managed cloud compute. It tracks metrics, analyzes results, recommends next steps, and finally drafts a paper summarizing methods and findings. Sciloop turns days of busywork into hours of progress.\n\nOur goal is simple: **to completely automate scientific discovery**. The next decade will see a century of progress packed into a few years. As AI grows smarter and more accessible, its biggest impact will be speeding up science — finding new cures, discovering better materials, and driving breakthroughs in physics and math.\n\nThat’s our north star. But we’re not waiting for the future. We’re helping ML researchers move faster **right now**, automating the parts of their workflow that slow them down most. Sciloop is already being used in MIT research groups and by early partners working on real ML problems.\n\nIf you’re a company, research lab, or ML team struggling with model performance, experimentation speed, or scaling research, we’d love to work with you. Our goal is to deliver concrete improvements on your research challenges today.\n\n🚀 **The Ask - Let’s Make Research Self-Improving!**\n\nIf you’re working on ML research that could move faster, **book a quick chat** at https://calendly.com/osman-sciloop/30min or email us at [**team@sciloop.dev**](mailto:team@sciloop.dev).\n\nWe help brilliant research ideas stop gathering dust. This is for anyone who:\n\n* Runs **university or industry ML labs** drowning in experiments.\n* Is a **research student** buried under mountains of code and papers.\n* Leads a **company dreaming of R&D** but lacking scientists or resources.\n* Has a **head full of creative ideas** but no time to bring them to life.\n\nLet’s collaborate and accelerate your research—together.\n\n\\[1\\][ Can LLMs Generate Novel Research Ideas? A Large-Scale Human Study with 100+ NLP Researchers](https://arxiv.org/abs/2409.04109)",
+      "url": "https://www.ycombinator.com/launches/OhT-sciloop-the-ai-scientific-researcher",
+      "votes": 33,
+      "created_at": "2025-10-29T01:25:09.249Z"
+    }
+  ]
+}

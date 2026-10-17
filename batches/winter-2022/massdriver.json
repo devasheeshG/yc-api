@@ -1,0 +1,111 @@
+{
+  "id": 26303,
+  "name": "Massdriver",
+  "slug": "massdriver",
+  "former_names": [
+    "Massdriver",
+    "Inc",
+    "Massdriver",
+    "Massdriver",
+    "Inc"
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/5883f8852f673efcb705f840a66ea4747e755db5.png",
+  "website": "https://massdriver.cloud",
+  "all_locations": "Los Angeles, CA, USA; Remote",
+  "long_description": "Massdriver is an internal developer platform and platform orchestrator. Platform teams publish the Terraform, OpenTofu, and Helm they already write to a catalog; developers and AI agents provision from it with policy enforced before every deploy. Self-hosted or managed.\r\n\r\nPlatform teams encode their security, compliance, and cost requirements into the modules once. Developers and AI agents pick from the catalog, policy runs before anything is created, and every deploy is recorded with who proposed and who approved it.\r\n\r\nMassdriver generates an ephemeral pipeline per deploy, so there are no standing CI/CD pipelines to maintain. Run it self-hosted, on-prem, or in your cloud.",
+  "one_liner": "Internal developer platform for Terraform, OpenTofu and Helm",
+  "team_size": 4,
+  "industry": "B2B",
+  "subindustry": "B2B -> Engineering, Product and Design",
+  "launched_at": 1642195888,
+  "tags": [
+    "Developer Tools",
+    "DevSecOps",
+    "Kubernetes"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Winter 2022",
+  "status": "Active",
+  "industries": [
+    "B2B",
+    "Engineering, Product and Design"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada",
+    "Remote",
+    "Fully Remote"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/massdriver",
+  "api": "https://devasheeshg.github.io/yc-api/batches/winter-2022/massdriver.json",
+  "year_founded": 2021,
+  "city": "Los Angeles",
+  "country": "US",
+  "linkedin_url": "https://linkedin.com/company/massdriver",
+  "x_url": "https://twitter.com/massdriver",
+  "fb_url": null,
+  "cb_url": "https://www.crunchbase.com/organization/massdriver",
+  "github_url": "https://github.com/massdriver-cloud",
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/5883f8852f673efcb705f840a66ea4747e755db5.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Aaron Epstein",
+    "url": "https://www.ycombinator.com/people/aaron-epstein"
+  },
+  "founders": [
+    {
+      "user_id": 920899,
+      "full_name": "Cory O'Daniel",
+      "title": "Founder",
+      "founder_bio": "CEO / Co-founder @ Massdriver. DevTools and platform engineering enthusiast. I've been building teams/startups, developing, and managing cloud operations for over 20 years. Creator of the Bonny, an Elixir-based Kubernetes operator framework. A proponent of Friday deploys.",
+      "is_active": true,
+      "linkedin_url": "https://linkedin.com/in/coryodaniel",
+      "x_url": "https://twitter.com/coryodaniel",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/a1c4ea587234a794049b969c86558ea6fb4bf3d2.jpg"
+    },
+    {
+      "user_id": 922334,
+      "full_name": "Chris Hill",
+      "title": "Founder",
+      "founder_bio": "Software developer and operations engineer with extensive experience in Kubernetes and cloud-based technologies (AWS and GCP). Passionate about scalable system design - declarative, repeatable infrastructure, automated testing, monitoring and observability.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/christopher-hill-265282127/",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/362d1f40781d07214ef3432011b0c1c71b2228d5.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [
+    {
+      "title": "Announcing our $8m Series Seed - Massdriver Blog",
+      "url": "https://blog.massdriver.cloud/posts/announcing-our-series-seed-round/",
+      "date": "Aug 22, 2023"
+    },
+    {
+      "title": "Massdriver wants to abstract away infrastructure to let devs focus on coding – TechCrunch",
+      "url": "https://techcrunch.com/2022/08/19/massdriver-wants-to-abstract-away-infrastructure-to-let-devs-focus-on-coding/",
+      "date": "Aug 19, 2022"
+    }
+  ],
+  "launches": [
+    {
+      "id": 66021,
+      "title": "🧑‍🚀 Massdriver - Production-ready cloud infrastructure in minutes",
+      "tagline": "Massdriver handles the boring parts of cloud infrastructure management and DevOps so your team can focus on building great products.",
+      "body": "**tl;dr Engineers spend 20-30% of their time reading cloud documentation and fidgeting with tools like Terraform or doing 'ClickOps.' With Massdriver, engineers can provision secure, production-ready cloud infrastructure in minutes without cloud expertise using a simple diagramming interface.**\n\nHey all, we’re Cory, Chris, and David, the team behind [Massdriver.](https://massdriver.cloud) We’re on a mission to radically simplify cloud infrastructure management and ‘DevOps.’\n\n## 😢 The Problem\n\nFor many organizations, DevOps is no longer a set of practices and culture. It’s a separate team with its own backlog slowing down your product development. Software today isn’t simply code on a computer. It’s a series of ~~tubes~~ APIs and services stitched together with YAML, tools like Terraform, and complex IAM rules. A bunch of boring plumbing that is slowing down your feature velocity.\n\n## 🪄 Our Solution\n\nMassdriver is a visual development platform that lets engineers focus on what services they need from the cloud and easily connect them without worrying about implementation details. Massdriver takes care of secret management, provisioning, parity, best practices, and IAM so your team can focus on your product. Our infrastructure and application bundles are open source, so you can modify them as your organization evolves or create your own and extend the platform.\n\n## ⚙ How It Works\n\nDevelopers can quickly connect dozens of pre-built infrastructure and application bundles designed by industry experts to provision secure production-ready infrastructure in minutes. Massdriver focuses on developer needs, not the implementation details of infrastructure, making it easy for developers of any caliber to get great infrastructure instantly.\n\nOur pre-built infrastructure bundles can be forked and modified, and the community can also design their own bundles using Terraform and Helm to extend the platform.\n\n![uploaded image](/media/?type=post&id=66021&key=user_uploads/920899/fea74a72-ac18-49a6-bdc5-f8e8af425525)\n\n## 🚀 Out of This World Features\n\n* Parity management with replication support for infrastructure and applications between regions, environments, and cloud accounts\n* Integrated secret management that injects credentials directly into your applications environment variables\n* Automated principle of least privilege for IAM\n* Dozens of best-practice reference architecture infrastructure bundles to get started, each open-sourced and designed by industry experts\n* Compliance and security scanning for official infrastructure bundles\n* Activity and audit logs of every change to ease your path to compliance\n* Visually compare differences between environments like staging and production or between deployments\n* Integrated alerting and monitoring\n* Application support for containerized and serverless workloads\n* Enterprise-ready deployments for SaaS products - your product in your customer's cloud account today.\n\n## 🙏 Asks\n\nTry it out! Feel free to register on the site and try it out; no credit card is required. If you like it, we have a _stellar_ [deal](https://bookface.ycombinator.com/deals/1318?query=mass) for all YC companies.\n\nJoin us on [GitHub](https://github.com/massdriver-cloud/docs/discussions/9), or DM us on [Twitter](https://twitter.com/massdriver)!\n\nIf you have 10 minutes to chat about Massdriver, please book a time with me [here](https://calendly.com/coryodaniel/10min-intro) 😊",
+      "url": "https://www.ycombinator.com/launches/HAr-massdriver-production-ready-cloud-infrastructure-in-minutes",
+      "votes": 55,
+      "created_at": "2022-09-13T15:07:52.872Z"
+    }
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "id": 29450,
+  "name": "Aqua Voice",
+  "slug": "aqua-voice",
+  "former_names": [
+    "Aqua AI"
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/4d22bb000a0037079229fda6aeaac2b72cceaff1.png",
+  "website": "https://aquavoice.com",
+  "all_locations": "New York City, NY, USA",
+  "long_description": "Super fast AI dictation that lets you talk into any text field -- Cursor, Gmail, Slack, even your terminal. It starts up in under 50ms, inserts text as fast as 450ms, and has state-of-the-art accuracy. Write 4x faster anywhere with Aqua. 🌊",
+  "one_liner": "Frontier Voice Input - write 4x faster than typing.",
+  "team_size": 5,
+  "industry": "Consumer",
+  "subindustry": "Consumer",
+  "launched_at": 1711068147,
+  "tags": [
+    "Artificial Intelligence",
+    "Consumer",
+    "Productivity",
+    "AI"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Winter 2024",
+  "status": "Active",
+  "industries": [
+    "Consumer"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/aqua-voice",
+  "api": "https://devasheeshg.github.io/yc-api/batches/winter-2024/aqua-voice.json",
+  "year_founded": 2023,
+  "city": "New York City",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/aqua-voice",
+  "x_url": "https://twitter.com/aquavoice",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": "https://github.com/aqua-voice",
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/4d22bb000a0037079229fda6aeaac2b72cceaff1.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": null,
+  "founders": [
+    {
+      "user_id": 1652937,
+      "full_name": "Finnian Brown",
+      "title": "Founder/CEO",
+      "founder_bio": "CEO @ Aqua Voice / Harvard '19",
+      "is_active": true,
+      "linkedin_url": "https://linkedin.com/in/finn-brown-3b0b56113",
+      "x_url": "https://twitter.com/finnatsea",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/5102886199024b4f77cd8b7d0ce9a89cb3dd0fea.jpg"
+    },
+    {
+      "user_id": 1653094,
+      "full_name": "Jack McIntire",
+      "title": "Founder/CTO",
+      "founder_bio": "CTO @ Aqua Voice",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/jack-mcintire-789bb223b/",
+      "x_url": "https://www.twitter.com/jtmcintire",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/3031203c332e096e4907ef3f05b21f102901d0e4.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [
+    {
+      "title": "Finding your academic voice: faster, healthier writing with AI speech recognition",
+      "url": "https://www.nature.com/articles/d41586-025-02418-9",
+      "date": "Aug 19, 2025"
+    },
+    {
+      "title": "Aqua Voice shows just how good Mac dictation could be",
+      "url": "https://9to5mac.com/2025/08/15/aqua-voice-shows-just-how-good-mac-dictation-could-be-if-apple-just-tried/",
+      "date": "Aug 15, 2025"
+    },
+    {
+      "title": "Improving Productivity With Aqua Voice: A Go-To Speech-to-Text Tool - Productivity Academy",
+      "url": "https://productivity.academy/news/speech-text-aqua/",
+      "date": "Apr 11, 2025"
+    }
+  ],
+  "launches": [
+    {
+      "id": 86308,
+      "title": "Aqua Voice Desktop: Write clear, well-formatted text using only your voice.",
+      "tagline": " Voice-native text editor that lets you dictate using natural language commands.",
+      "body": "[Aqua Voice Desktop](https://withaqua.com/) lets you create and edit clear, well-formatted text with your voice.\n\n<https://www.youtube.com/watch?v=yFtMQdLwLGA>\n\nHey, this is Finn from Aqua Voice. I’m excited to show you what we’re building.\n\n> This feels like upgrading voice dictation on my Mac _making it work how it should work_.\n\nThe desktop experience is the best way to use Aqua yet. It lets you talk easily into any app and comes with:\n\n\\- **Fine-tuning:** can have up to 800 custom words/phrases at a time, no pronunciation tuning required.\n\n\\- **Context Awareness:** automatically identifies relevant words and phrases in the active application. This uses system accessibility APIs (not screenshots, like some others) and is heavily processed on device before inference to preserve privacy.\n\n\\- **Command recognition:** the system now shows you what it's going to do before it does it. \"Deleting…\" or \"Adding to list…\" or \"Fixing Spelling…\"\n\n![uploaded image](/media/?type=post&id=86308&key=user_uploads/1652937/f10f3395-e52f-487a-a34f-10b598444c68)\n\nWe've also spent a ton of time getting **better out-of-the-box accuracy.** Our core transcription engine is the most accurate real-time system that we know of. **We scored 3.2% WER on Librispeech clean, significantly better than the next best real-time system we tested (Google) at 5.5%.** We also released a benchmark that tests accuracy & human-friendly formatting which showed that out of the box, Wispr Flow makes 10x as many mistakes as Aqua Voice for emails and technical writing. The full write-up including audio and code is available [here](https://withaqua.com/blog/benchmark-nov-2024).\n\n![uploaded image](/media/?type=post&id=86308&key=user_uploads/1652937/9762e173-97c9-46b5-9e2e-e7e8ea073105)\n\nEveryone uses dictation for different reasons - I started in sixth grade (dyslexic) with Dragon Professional and always wanted it to be more than a clunky substitute for the keyboard. Hopefully Aqua Desktop can be that for some of you.\n\n\\-Finn",
+      "url": "https://www.ycombinator.com/launches/MS4-aqua-voice-desktop-write-clear-well-formatted-text-using-only-your-voice",
+      "votes": 23,
+      "created_at": "2024-12-13T21:06:31.018Z"
+    },
+    {
+      "id": 79717,
+      "title": "🎙️ Aqua Voice - Voice-only text editor",
+      "tagline": "Dictation as seamless as talking to a professional writer",
+      "body": "Edit: Check us out on [Hacker News](https://news.ycombinator.com/item?id=39828686) (currently #1)!\n\n**TLDR:** [**Aqua**](https://withaqua.com/) is a voice-native text editor. Imagine dictating to a professional writer who can clean up your phrasing, fill in words, and understand your intent.\n\n🟩 Watch our demo video [here](https://www.youtube.com/watch?v=qwSAKg1YafM):\n\n**🔴 Problem**\n\nDictation still **sucks**:\n\n* It's not very accurate.\n* You have to learn specialized commands.\n* Edits require the keyboard.\n\n[**Finnian Brown**](https://linkedin.com/in/finn-brown-3b0b56113) has never been a very good speller (he’s dyslexic) and has been using dictation software since the sixth grade, when his dad got him set up on Dragon Dictation to write papers for school. It's always been easier for him to dictate—despite the janky software.\n\nDictation has remained surprisingly rigid in the era of LLMs. They make a lot of mistakes (see Siri lmao). All existing dictation services rely on learning a set of specialized commands.\n\nThey struggle to distinguish between filler phrases/commentary and stuff you actually want to write down.\n\n**🌎 Aqua**\n\nAqua innovates on this paradigm by fusing real-time audio and an LLM to understand your intent. It does as much of the writing and formatting as you ask it to.\n\n**Accuracy is King 👑** - Better than Whisper! - we use an MoE transcription architecture to have a lower WER than Whisper-largev3 in real-time.\n\n**Think Don’t Type 🧠** - Aqua can execute arbitrary commands. You don’t need the keyboard. Most people talk **twice as fast** as they can type.\n\n**Make Writing Chill 🏝️** - Aqua reacts naturally to feedback and can recover from mistakes if you tell it to!\n\n![uploaded image](/media/?type=post&id=79717&key=user_uploads/1653094/f99f4176-5433-45ca-89be-738edeb4746c)\n\n🙏 **Asks**\n\nTry Aqua Voice! No account is needed; just head over to <https://withaqua.com>. If you like it, sign up for $10/month after a 1000-token free trial.",
+      "url": "https://www.ycombinator.com/launches/Kjl-aqua-voice-voice-only-text-editor",
+      "votes": 48,
+      "created_at": "2024-03-26T18:07:25.698Z"
+    }
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "id": 30233,
+  "name": "Inversion Semiconductor",
+  "slug": "inversion-semiconductor",
+  "former_names": [
+    "Axiom Semiconductor Inc.",
+    "Axiom Semiconductor"
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/f8f65cc20ede5375e5fb2b79c8dcf6d37b04f4c2.png",
+  "website": "https://www.inversionsemi.com",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "Inversion Semiconductor is developing the next-generation chip fabrication machine, to create the most powerful chips 15x faster. Our vision is to reshore advanced chip fabrication capabilities in the West.\r\n\r\nWe're building a lithography machine. Lithography uses light to pattern circuit features on silicon. We're scaling transistors to their physical limits by shrinking particle accelerators 1000x, to create a high power light source. \r\n\r\nUsing our light source we will double transistor density for a given numerical aperture and 3x throughput.",
+  "one_liner": "Manufacturing the most powerful chips, 15x faster",
+  "team_size": 9,
+  "industry": "Industrials",
+  "subindustry": "Industrials -> Manufacturing and Robotics",
+  "launched_at": 1740019402,
+  "tags": [
+    "Hardware",
+    "Manufacturing",
+    "Semiconductors"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Winter 2025",
+  "status": "Active",
+  "industries": [
+    "Industrials",
+    "Manufacturing and Robotics"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/inversion-semiconductor",
+  "api": "https://devasheeshg.github.io/yc-api/batches/winter-2025/inversion-semiconductor.json",
+  "year_founded": 2024,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/inversion-semiconductor/",
+  "x_url": "https://x.com/inversionsemi",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/f8f65cc20ede5375e5fb2b79c8dcf6d37b04f4c2.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Aaron Epstein",
+    "url": "https://www.ycombinator.com/people/aaron-epstein"
+  },
+  "founders": [
+    {
+      "user_id": 1787486,
+      "full_name": "Rohan Karthik",
+      "title": "Founder/CEO",
+      "founder_bio": "Co-founder & CEO of Inversion Semiconductor (W25), developing next-gen semiconductor lithography machines. \nMasters in Mechanical Engineering from Imperial College London & Royal Academy of Engineering awardee. \nPreviously automated chip design at Arm and led the Karman Space Programme to build record-breaking high power rockets. ",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/rohan-karthik-60a0b61b7/",
+      "x_url": "https://x.com/rohankarthik_?s=11&t=VBdqSXL_9iUGm2d8V2oKBg",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/640f0673236b8d2a684219c698df989fd02754dc.jpg"
+    },
+    {
+      "user_id": 2326493,
+      "full_name": "Daniel Vega",
+      "title": "Founder/CTO",
+      "founder_bio": "Co-founder & CTO of Inversion Semiconductor (W25), developing next-gen lithography machines. \nMasters in Applied Physics from University College London, with a focus on applications of particle physics. \nPreviously created novel ML models for stability optimization of tabletop particle accelerators at CERN, and developed particle accelerators for cancer treatment at Lumitron Technologies\n",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/daniel-r-vega/",
+      "x_url": "https://twitter.com/daniel_r_vega",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/95a252674e588a5c32406c68d263bbce51435bf5.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 87848,
+      "title": "Inversion Semiconductor – Scaling Chips to their Physical Limits",
+      "tagline": "Manufacturing the most powerful chips 15x faster",
+      "body": "# Scaling Chips to their Physical Limits\n\nImagine a chip fabrication machine that produces the most powerful chips 15x faster.\n\nSeven months ago, Rohan was automating chip design at Arm while finishing his master’s in Mechanical Engineering at Imperial College London. Meanwhile, Daniel was creating novel ML models for stability optimization of tabletop particle accelerators at CERN. All while completing his master’s in Applied Physics at University College London.\n\nWe realized that we could build a novel lithography machine, to truly kill Moore’s Law. And we could do this by shrinking particle accelerators 1000x, to build a high power light source driven by laser wakefield acceleration (LWFA). \n\nHere’s a concept video of how our lithography machine will work:\n\n<https://youtu.be/kNx7mCVQ304>\n\n# Background\n\nLithography is the process of using light to pattern circuit features on silicon. It’s the most important step in making chips. \n\nWith a monopoly on advanced lithography machines, ASML produces 13.5 nm “EUV” light by blasting tin droplets and directing the light on to a wafer using mirrors. However, advanced chips constantly demand finer circuit features. To improve resolution, ASML enlarges its mirrors, a trade-off that significantly increases system complexity and cost.\n\nOver the next decade ASML targets 1 kW of EUV light out, with 1 MW of power in. We aim to achieve 10 kW of even shorter-wavelength light. This will also enable our light source to power multiple lithography machines, unlocking billions in annual revenue gains for fabs.\n\n# Currently\n\nWe aim to generate the required high power light using “tabletop” particle accelerators capable of accelerating electrons to extremely high energies over centimeters, rather than the kilometers needed for large accelerators at CERN and SLAC. We’ll do this using plasma waves (wakefields) driven by a high power laser. \n\nSo far we have:\n\n* Set-up a mini laser lab in the basement of the YC office, to test our novel laser stability algorithms\n* Developed initial LWFA prototypes to generate small-wavelength light.\n\nWe’ve secured a strategic partnership with the world’s leading research group for LWFA development – Lawrence Berkeley National Lab and the Berkeley Laser Lab Accelerator (BELLA). Our collaboration, dubbed the Laser Undulator eXperiment (LUX) or BELLA-LUX (Beautiful Light), is initially focused on improving laser stability and testing light generation using our prototypes.\n\n![uploaded image](/media/?type=post&id=87848&key=user_uploads/1787486/4977528a-59c0-47a9-944f-0cf3211ffa2c)\n\n![uploaded image](/media/?type=post&id=87848&key=user_uploads/1787486/757f3d74-9e83-4864-bd8b-6d105de5d7a5)\n\n# Next Steps\n\nDuring the BELLA-LUX collaboration, we aim to build a high power, tunable light source – STARLIGHT. We are currently exploring early applications to accelerate technical development towards lithography. Companies like Tesla and Applied Materials are interested in potential applications for industrial x-ray imaging and semiconductor mask inspection.\n\nOur goal is to generate 1 kW of soft x-ray light (20nm – 6 nm). If successful, this milestone will pave the way for a user facility, where booking beam time will be as simple as reserving a SpaceX launch—using your credit card. \n\nSimultaneously, we will develop novel mirror systems to reflect and focus generated x-ray light. This will allow us to demonstrate silicon patterning with our initial LITH-0 system, powered by STARLIGHT.\n\n# Asks\n\nIf you know incredible plasma / particle accelerator scientists or lithography engineers, we’d love an introduction.\n\nIntros to VPs / C-Suite at semiconductor manufacturing companies\n\nGot spare laser system parts (optics, gratings, actuators etc)? We’ll take them.\n\n[Lab snacks](https://neil.computer/notes/thorlabs-lab-snacks/)\n\n![uploaded image](/media/?type=post&id=87848&key=user_uploads/1787486/f67b95de-7fd7-46e5-9b82-f26ad0b04ade)\n\n![uploaded image](/media/?type=post&id=87848&key=user_uploads/1787486/11a71540-2837-40cd-a44d-937e09753418)\n\n",
+      "url": "https://www.ycombinator.com/launches/Mqu-inversion-semiconductor-scaling-chips-to-their-physical-limits",
+      "votes": 54,
+      "created_at": "2025-02-20T03:24:56.576Z"
+    }
+  ]
+}

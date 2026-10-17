@@ -1,0 +1,81 @@
+{
+  "id": 30125,
+  "name": "Synth",
+  "slug": "synth-3",
+  "former_names": [],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/72c8ca1f80fbcb63a0a616d53bce31153601a954.png",
+  "website": "https://www.usesynth.ai",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "Choose a coding agent harness, model, and task dataset and optimize context and prompts to get the best performance for long-horizon tasks",
+  "one_liner": "Prompt and Context Optimization for Coding Agents",
+  "team_size": 2,
+  "industry": "B2B",
+  "subindustry": "B2B -> Infrastructure",
+  "launched_at": 1729021221,
+  "tags": [
+    "Reinforcement Learning",
+    "AI"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Fall 2024",
+  "status": "Active",
+  "industries": [
+    "B2B",
+    "Infrastructure"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/synth-3",
+  "api": "https://devasheeshg.github.io/yc-api/batches/fall-2024/synth-3.json",
+  "year_founded": 2024,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/105503800",
+  "x_url": "https://x.com/UseSynth",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": "https://github.com/synth-laboratories",
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/72c8ca1f80fbcb63a0a616d53bce31153601a954.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Pete Koomen",
+    "url": "https://www.ycombinator.com/people/pete-koomen"
+  },
+  "founders": [
+    {
+      "user_id": 2210691,
+      "full_name": "Josh Purtell",
+      "title": "Founder/CEO",
+      "founder_bio": "Josh is the founder and CEO of Synth.\n\nBefore Synth, Josh was employee #3 and research scientist at Basis, which uses AI agents to automate accounting tasks. Previously, he built out the ML core of a Cyber Threat Intelligence SaaS product at Halborn, a cyber security startup that acqui-hired his startup Politeia. He founded Politeia while wrapping up a Math undergrad at Yale, where he did time-series ml research for fun.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/joshua-purtell/",
+      "x_url": "https://x.com/JoshPurtell",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/a7308f11e9b3a936bc55aa7b591edf71b042a061.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 85819,
+      "title": "Synth: Automated Training for Vertical AI Agents",
+      "tagline": "Making developing and maintaining a SOTA AI system simpler.",
+      "body": "Hi, I’m Josh, founder of Synth.\n\n**TL;DR**\n\nWe log what your agent is doing, identify where it’s coming up short, and fine-tune the AI models your agent uses to prevent those failures.\n\nYou add a few decorators to your code, run your agent, and get back fine-tuned models (via OpenAI or the provider of your choice) that perform better. Our product, when applied to SWE-Agent, an academic baseline, delivers a **33%** relative improvement on the [SWE-Bench agent benchmark](https://www.swebench.com) with just 100 training data points. [ ](https://www.youtube.com/watch?v=DwC8iBLpWdU&feature=youtu.be)\n\n**Why is this important?**\\\nTeams want to deploy software that automates economically meaningful tasks over multiple steps. Iterating on those systems is hard: an agent taking 100 steps to complete a task will often create a newspaper’s worth of text data over just one task run, and reviewing a representative evaluation dataset can be daunting. Moreover, getting language models to demonstrate context-specific agentic behavior - such as following strong plans and making the best use of their environment - can be challenging, just with manual prompt tweaking. \n\nWorking as an agent researcher at a startup automating accounting tasks, I struggled to parse through the reams of logs my systems would generate every time I wanted to test a potential improvement. Manually tweaking dozens of prompts and reasoning about how changes would propagate through the system was also difficult— and, for many problems, ineffective. As agents are deployed in more challenging applications and to more customers, these problems will grow. Agent developers need a tool that scales with their agent’s complexity and scope in order to build state-of-the-art systems.\n\n**Our solution**\\\nSynth works in 3 steps\n\n1. Communicate: We summarize your agent’s logs to help you understand how it’s performing at a glance.\n2. Flag: We identify common failure modes your agent is demonstrating.\n3. Address: We fine-tune base models your agent uses to address AI-related issues and suggest changes to your code when gaps in agent scaffolding are the root cause.\n\nWe worked with a startup that was working on automating code generation to increase their agent’s success rate at an editing task from ~**85% to 100%** on a representative evaluation set.\n\n**Why Now?**\\\nDevelopers and researchers have been building AI agents with language models for years, but only somewhat recently have base models provided a strong enough foundation to enable the most ambitious applications.\n\nMoreover, some of the most powerful and consistent approaches for tuning agents to address domain-specific challenges— the ones powering Synth— have only been published in the last year or so. The market is ready for our solution, as is the research literature.\n\n**Team**\\\nI recently worked at [Basis](https://www.getbasis.ai), a startup automating accounting tasks with AI agents, as a researcher developing and maintaining pipelines and agents used to serve top accounting firms. While there, I had the opportunity to publish [academic research](https://arxiv.org/abs/2406.11695) on the topic of agent optimization at EMNLP, a respected AI conference.\n\nBefore Basis, I built a startup doing ML for cyber with some friends that got acqui-hired right out of the gate for a modest amount. Before then, I studied math and machine learning at Yale.\n\n**Ask**\\\nSend folks building agents our way at [founders@usesynth.ai.](https://mailto:founders@synth.ai) We’d love to talk to anyone using AI agents to solve hard, multi-step tasks - the more ambitious and complex the approach, the better.\n\n![uploaded image](/media/?type=post&id=85819&key=user_uploads/89898/5d64c8db-48e1-423a-a020-f5ace9ea7b82)\n\n",
+      "url": "https://www.ycombinator.com/launches/MKB-synth-automated-training-for-vertical-ai-agents",
+      "votes": 82,
+      "created_at": "2024-11-23T14:56:40.105Z"
+    }
+  ]
+}

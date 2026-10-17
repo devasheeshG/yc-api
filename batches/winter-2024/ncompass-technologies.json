@@ -1,0 +1,124 @@
+{
+  "id": 29266,
+  "name": "nCompass Technologies",
+  "slug": "ncompass-technologies",
+  "former_names": [
+    "nCompass"
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/ec22cfec2eb1602e4ae48a85862a05e4be149771.png",
+  "website": "https://www.ncompass.tech",
+  "all_locations": "New York City, NY, USA; Remote",
+  "long_description": "Identifying performance bottlenecks and strategizing ways to solve them takes 4-8x longer than actually writing the code to fix them. We're building an agent that is an expert at analyzing the performance GPU systems like inference engines at all levels of the stack - from CPU-GPU interactions down to GPU kernels. \r\n\r\nPairing our agent with Cursor / Claude Code allows you to automate both the reasoning and code implementation steps of performance optimization. What used to take weeks can now be done in days. \r\n\r\nAlong with our AI agent, we have features such as running diffs on system traces as well as sharing and collaboration features that make our VSCode extension the most powerful way to work on performance optimization. ",
+  "one_liner": "Optimize performance on GPUs - 10x faster",
+  "team_size": 3,
+  "industry": "B2B",
+  "subindustry": "B2B -> Engineering, Product and Design",
+  "launched_at": 1708296726,
+  "tags": [
+    "Artificial Intelligence",
+    "Developer Tools",
+    "Hardware",
+    "Open Source"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Winter 2024",
+  "status": "Active",
+  "industries": [
+    "B2B",
+    "Engineering, Product and Design"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada",
+    "Remote",
+    "Fully Remote"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/ncompass-technologies",
+  "api": "https://devasheeshg.github.io/yc-api/batches/winter-2024/ncompass-technologies.json",
+  "year_founded": 2024,
+  "city": "New York City",
+  "country": "US",
+  "linkedin_url": "https://linkedin.com/company/ncompass-technologies",
+  "x_url": "https://x.com/nCompass_tech",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": "https://github.com/nCompass-tech/ncompass",
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/ec22cfec2eb1602e4ae48a85862a05e4be149771.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "David Lieb",
+    "url": "https://www.ycombinator.com/people/david-lieb"
+  },
+  "founders": [
+    {
+      "user_id": 1641909,
+      "full_name": "Aditya Rajagopal",
+      "title": "Founder",
+      "founder_bio": "I am a recent PhD graduate from Imperial College London with experience in machine learning algorithms, compilers and hardware architectures. I've worked in compiler teams at Qualcomm and Huawei as well as served as a reviewer for ICML. \n\nMy co-founder and I are building nCompass which is a platform for accelerating and hosting both open-source and custom large AI models. Our focus is on providing rate unlimited and low latency large AI inference with only one line of code.",
+      "is_active": true,
+      "linkedin_url": "https://linkedin.com/in/adityarajagopal",
+      "x_url": "https://twitter.com/adityaraja0",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/876200e803e3ef7a2ad5002de91ade8b69727fab.jpg"
+    },
+    {
+      "user_id": 1641938,
+      "full_name": "Diederik Vink",
+      "title": "Founder",
+      "founder_bio": "I'm a recent Imperial College London PhD Graduate where I specialized in reconfigurable hardware architectures for accelerated machine learning and reduced precision training algorithms. I have worked as an AI feasibility consultant prototyping and evaluating AI spin-outs.\nWe are building nCompass, a platform for accelerating and hosting both open-source and custom large AI models. Our focus is on providing rate-unlimited and low latency large AI inference with only one line of code.",
+      "is_active": true,
+      "linkedin_url": "https://linkedin.com/in/diederik-vink",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/b8908fb19fec87f0d24a131953b55da0b1a0217b.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 98338,
+      "title": "nCompass - Optimize performance on GPUs, 10x faster",
+      "tagline": "Automate performance optimization at all levels of the AI infrastructure stack",
+      "body": "Hey everyone,\n\n**tldr;**\n\nI’m Aditya, co-founder of [nCompass Technologies](https://ncompass.tech). We’re building a developer tool that unifies profiling, trace collaboration and trace analysis of AI systems. We automate performance optimization of AI systems across all levels of the infrastructure stack.\n\nUsing this tool, we implemented a Hopper GEMM kernel that outperformed NVIDIA's CUTLASS GEMMs by 3%, within a day - this took us months before.\n\nCheckout our product demo below. It’s free to use and you can get started today in **VS Code, Cursor or Claude Code** - [Quick Start](https://docs.ncompass.tech/quick-start)\n\n<https://www.youtube.com/watch?v=Q3Pq-BPU2Ec>\n\n**THE PROBLEM**\n\nIdentifying the root cause of performance bottlenecks is 4-8x slower than writing the code to fix them.\n\nIf you are optimizing a system like vLLM, you have to:\n\n* Run a profile and then copy a giant trace file to your local machine just to view it.\n* Spend hours identifying opportunities for performance improvement.\n* If this involves writing a kernel, you profile the kernel, spend hours or days digging through ncu traces that are massive data dumps.\n* Then you identify your bottlenecks and formulate a plan.\n\nRunning this loop till you have a performant system can take weeks, even months.\n\n**OUR SOLUTION**\n\nBy building an AI agent that can analyze profiling data as well as interact with a bank of deep technical knowledge and expertise, we’re automating the process of identifying performance bottlenecks.\n\nNow in a single VSCode interface, you can:\n\n* Open and view trace files\n* Use our novel tools like trace diffs to analyze them\n* Generate share links to easily share traces with team members\n* Feed source + profiling data to our AI agent and get back actionable analysis on how you can optimize the performance of your system.\n\nThis applies to both systems and GPU kernel level analysis and our agent integrates directly into Cursor / Claude Code, so you never have to leave your normal workflow!\n\n**Anyone** can now write both correct and performant code with AI!\n\n**ASKS**\n\n**Install our VSCode extension** and start optimizing your systems performance!\n\n* [Quick Start](https://docs.ncompass.tech/quick-start)\n* [Detailed Docs](https://docs.ncompass.tech)\n\n**We also offer FDE services** - if you would like us to step in and analyze your system’s performance and provide you with an analysis of how much we could improve it by - reach out at [hello@ncompass.tech](https://mailto:hello@ncompass.tech)\n\n![uploaded image](/media/?type=post&id=98338&key=user_uploads/1641909/fc628a90-5565-43db-8aff-7c61e476e976)\n\n",
+      "url": "https://www.ycombinator.com/launches/Pa6-ncompass-optimize-performance-on-gpus-10x-faster",
+      "votes": 19,
+      "created_at": "2026-03-02T17:12:19.098Z"
+    },
+    {
+      "id": 84604,
+      "title": "nCompass Technologies: Reliable LLM API with no rate-limits",
+      "tagline": "The most cost-effective way to setup and scale up your AI infrastructure.",
+      "body": "# **Tl;dr:**\n\nWe’ve built an AI model inferencing system that can serve requests at scale like no other and now we’re releasing it to the public as a **rate-limit-free API**. We serve any open-source LLM and can also deploy optimized versions of your custom fine-tuned LLM with cost-effective autoscaling. [Sign up here](https://console.ncompass.tech/login), create an API key, get $100 of credit on us, and run as many requests as you like!\n\n# **The Problem**\n\nDeploying AI models in production requires expensive infrastructure. Serving more than \\~10req/s using open source inference engines like vLLM on a single GPU results in terrible quality of service. Time-to-first-token skyrockets to more than 10s, and end-to-end latency degrades even more!\n\n**The common solution**: horizontally scale up GPUs.\n\n**The problem**: GPU’s are expensive and hard to find.\n\n# **Why should you care**\n\n1. **API user:** These high infrastructure costs are the reason you suffer rate limits when using existing API providers.\n2. **Deploying on-prem:** Your infrastructure costs might be the reason a PoC doesn’t move to production.\n\n# **Our Solution**\n\nWe’ve built an AI inference serving system that can sustain 100s of requests per second while maintaining a time-to-first-token of <1s on \\~30% fewer GPUs when compared to NVIDIA’s NIMs containers and up to **2x fewer GPUs** when compared to vLLM.\n\nThis enables us to provide a rate-limit-free API while maintaining a high quality of service. Alternatively, we can provide this as a cost-effective on-prem deployment solution, ensuring your infrastructure costs don’t blow up with requests served. We support any open source model and can host your custom fine-tuned model as an API with autoscaling enabled as well.\n\n# **Tutorials**\n\n* [**Sign Up**](https://www.loom.com/share/bac5c44a8e694b5783f3ba7c777ce40a?sid=6226613a-2cd6-45e6-bfc3-ac0381198b2a)\n* [**Models and Pricing**](https://www.loom.com/share/f7dc12aefe304399a3975feef7e38938?sid=34c2a174-4050-40bc-b65a-844d3002e48c)\n* [**Run Inference**](https://www.loom.com/share/0933dc3fa2ba442fa789286ef75e09b8?sid=74266aa3-f24e-46d7-bcce-1f3c61d7d82e)\n\n# **Shout out**\n\nTo be able to build such a scalable and available system, we needed a top-quality hardware provider. We wanted to use this as an opportunity to shout out [Ori Global Cloud](https://www.ori.co/), a key partner in this journey, to enable a serverless Kubernetes platform for AI inference at scale. [Ori Serverless Kubernetes](https://www.ori.co/serverless-kubernetes) is an infrastructure service that combines powerful scalability, simple management, and affordability to help AI-focused startups realize their wildest AI ambitions. [Reach out to Ori](https://www.ori.co/gpu-request) for exclusive GPU cloud deals!\n\n# **Asks**\n\n* Use our self-serve console (<https://console.ncompass.tech/login>) to create an account and start running with $100 of credit.\n* Book a demo (<https://calendar.app.google/3jRDwcstFQvsbqnR8>) if you would like to discuss an on-prem solution. YC deals apply!\n\nOur pricing is transparent and can be found here: <https://console.ncompass.tech/public-pricing>",
+      "url": "https://www.ycombinator.com/launches/M0a-ncompass-technologies-reliable-llm-api-with-no-rate-limits",
+      "votes": 37,
+      "created_at": "2024-10-09T14:26:51.395Z"
+    },
+    {
+      "id": 81420,
+      "title": "nCompass Technologies: Realtime audio denoising",
+      "tagline": "nCompass's newest model is a realtime audio denoiser that can remove voices from the background of audio streams.",
+      "body": "**tl;dr** nCompass has released the world’s first **Realtime Audio Denoising API** that can remove background voices from your audio stream in real time. Try it out for free on our website [here](https://www.ncompass.tech/about).\n\nToday, the world is increasingly interacting with AI models using voice. Apps and tools that rely on voice input need to be able to successfully separate background voices from the main speaker’s voice. However, this is not the case with existing voice AI products such as Deepgram’s speech-to-text (STT) converter.\n\nCheck out this demo below that shows how using nCompass’s denoiser can enable transcription tools (such as Deepgram’s STT) to be used in previously unusable scenarios.\n\n![uploaded image](/media/?type=post&id=81420&key=user_uploads/1641909/61bc7f02-4a23-4ab2-b7fc-cd2a8ad3b01e)\n\nWe have two versions of this denoiser that you can try out for free on our [website](https://www.ncompass.tech/about).\n\n1. [Offline denoising + transcription](https://www.ncompass.tech/cleaner_transcription/interactive_demo) mode, which generates cleaner transcriptions when paired with any speech-to-text provider.\n2. [Realtime audio denoising,](https://www.ncompass.tech/realtime_denoising/interactive_demo) which can take in an audio stream and remove background voices in real time. You can now get the sound quality of a private booth, regardless of where you are!",
+      "url": "https://www.ycombinator.com/launches/LBE-ncompass-technologies-realtime-audio-denoising",
+      "votes": 24,
+      "created_at": "2024-06-11T16:23:04.390Z"
+    },
+    {
+      "id": 79124,
+      "title": "nCompass Technologies - Low-latency deployment of AI models made easy",
+      "tagline": "nCompass is an API that requires only one-line-of-code to integrate low latency versions of open-source/custom models into your AI pipeline.",
+      "body": "**tl;dr** If unpredictable response times and rate limits of OpenAI are causing your tool’s user experience to suffer, [nCompass](https://ncompass.tech/) allows you to effortlessly tap into the world of open-source AI models while ensuring that the served models meet your target budget and performance requirements.\n\n—\n\nHey all, we are [Diederik](https://linkedin.com/in/diederik-vink) and [Aditya](https://linkedin.com/in/adityarajagopal), the co-founders of [nCompass](https://ncompass.tech/), a platform for simplified hosting and acceleration of open-source and custom LLMs.\n\n### **The Problem**\n\nLLM-based products that use closed-source model providers like OpenAI suffer from slow response times and rate limits. \n\nOpen-source models are a great alternative, but hosting a model yourself is a lot of extra work and maintenance which distracts you from your core business.\n\n### **Our solution**\n\nnCompass provides an API that allows you to integrate accelerated versions of any open-source or custom model of your choice into your AI pipeline. We support OpenAI style chat templates, work with all web frameworks, and have a time-based pricing model that results in a predictable compute cost for users.\n\n### **How it works**\n\nWe serve models to users with a simple 3-step process:\n\n1. Select your desired open-source / custom model\n2. Provide your performance requirements\n3. Set a budget you are not willing to exceed\n\nWe set up the deployment that meets these requirements and provide you with a single API Key that you can then use to integrate the model with a single line of code.\n\nWe support any model currently hosted on Hugging Face, with some highlights being: \n\n* **Mistral-7B :** 160ms Time-To-First-Token @ 86 tok/s\n* **Mixtral-8x7B :** 300ms Time-To-First-Token @ 64 tok/s\n\n### **Demo**\n\n<https://www.youtube.com/watch?v=sdHVji8QGOg> \n\nAlso, check out our [GitHub](https://github.com/nCompass-tech/nCompass) repository for code examples.\n\n### **The team**\n\nSince we met in undergrad (9 years ago) through to our PhDs at Imperial College London, we’ve worked on every project together. Our PhDs focused on hardware acceleration of large-scale machine learning models covering all levels of the stack from algorithms and compilers down to digital hardware design.\n\n![uploaded image](/media/?type=post&id=79124&key=user_uploads/1641909/8f0f2b1e-8c86-4269-828e-a90176159dd6)\n\n### **Asks**\n\n* Book a [demo](https://calendar.app.google/eLCRjByYErh9X2hh9) \n* **Warm intros** to anyone you know who requires accelerated and/or hosted versions of open-source models.\n\nOur emails are [aditya.rajagopal@ncompass.tech](mailto:aditya.rajagopal@ncompass.tech) and [diederik.vink@ncompass.tech](mailto:diederik.vink@ncompass.tech)",
+      "url": "https://www.ycombinator.com/launches/KaC-ncompass-technologies-low-latency-deployment-of-ai-models-made-easy",
+      "votes": 97,
+      "created_at": "2024-03-06T18:41:41.718Z"
+    }
+  ]
+}

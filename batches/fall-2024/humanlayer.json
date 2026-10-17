@@ -1,0 +1,126 @@
+{
+  "id": 30129,
+  "name": "HumanLayer",
+  "slug": "humanlayer",
+  "former_names": [],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/c0e8c91e4e2daba204d6976544012b6209d006fa.png",
+  "website": "https://humanlayer.com",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "HumanLayer is a multiplayer coding agent IDE+cloud that works seamlessly from your workstation to anywhere you want to run background agents. It brings agent sessions, plan artifacts, and code diffs together in one place for you team to collaborate and ship. It's built in composable pieces to meet software factory builders where they already are - you can BYO compute, dev environment setup, and harness, or use our full integrated stack.",
+  "one_liner": "The multiplayer control plane for your software factory",
+  "team_size": 2,
+  "industry": "B2B",
+  "subindustry": "B2B -> Engineering, Product and Design",
+  "launched_at": 1727921167,
+  "tags": [
+    "Artificial Intelligence",
+    "Developer Tools"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": true,
+  "nonprofit": false,
+  "batch": "Fall 2024",
+  "status": "Active",
+  "industries": [
+    "B2B",
+    "Engineering, Product and Design"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": [
+    {
+      "question": "What is your long-term vision? If you truly succeed, what will be different about the world?",
+      "answer": "HumanLayer will be the single place where software construction and collaboration happens. Every engineer will ship faster not by replacing humans with AI, but by giving humans the most effective leverage points. Check out <https://hlyr.dev/ace-fca> for more details."
+    }
+  ],
+  "url": "https://www.ycombinator.com/companies/humanlayer",
+  "api": "https://devasheeshg.github.io/yc-api/batches/fall-2024/humanlayer.json",
+  "year_founded": 2023,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/humanlayer-dev/",
+  "x_url": "https://twitter.com/humanlayer_dev",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": "https://github.com/humanlayer",
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/c0e8c91e4e2daba204d6976544012b6209d006fa.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Nicolas Dessaigne",
+    "url": "https://www.ycombinator.com/people/nicolas-dessaigne"
+  },
+  "founders": [
+    {
+      "user_id": 1459029,
+      "full_name": "Dexter Horthy",
+      "title": "Founder/CEO",
+      "founder_bio": "Coined the term Context Engineering in April 2025, ranting about coding agents ever since. Started coding in high school at NASA JPL. Spent 7 years as Engineer, SE, PM, Exec at Replicated, a series C dev tools startup. I worked on container orchestrators, helped teams like Hashicorp, DataStax, and H2O.ai deliver and ship their on-prem k8s products.\n\n",
+      "is_active": true,
+      "linkedin_url": "https://linkedin.com/in/dexterihorthy",
+      "x_url": "https://twitter.com/dexhorthy",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/92f896139dcd3579fc7d508f11a5ec34fdf643a9.jpg"
+    }
+  ],
+  "jobs": [
+    {
+      "id": 84491,
+      "title": "Founding Product Engineer",
+      "url": "https://www.ycombinator.com/companies/humanlayer/jobs/oBCZzc7-founding-product-engineer",
+      "location": "San Francisco, CA, US",
+      "type": "Full-time",
+      "role": "Engineering",
+      "role_type": "Full stack",
+      "salary_range": "$180K - $250K",
+      "equity_range": "1.00% - 3.00%",
+      "experience": "6+ years",
+      "visa": "US citizen/visa only",
+      "skills": [
+        "Amazon Web Services (AWS)",
+        "Bash/Shell",
+        "Go",
+        "PostgreSQL",
+        "React",
+        "Redis",
+        "Rust",
+        "TypeScript",
+        "Elasticsearch",
+        "Linux",
+        "Distributed Systems",
+        "Prototyping",
+        "Figma"
+      ]
+    }
+  ],
+  "news": [
+    {
+      "title": "It’s Time To Put Humans Back In The Software - DEV Community",
+      "url": "https://dev.to/dailycontext/its-time-to-put-humans-back-in-the-software-factories-3cjh",
+      "date": "Jul 01, 2026"
+    },
+    {
+      "title": "The four startups from YC's Fall batch that enterprises should pay attention to | TechCrunch",
+      "url": "https://techcrunch.com/2024/12/07/the-four-startups-from-ycs-fall-batch-that-enterprises-should-pay-attention-to/",
+      "date": "Dec 07, 2024"
+    }
+  ],
+  "launches": [
+    {
+      "id": 85104,
+      "title": "HumanLayer - Human-in-the-loop for AI Agents and beyond",
+      "tagline": "Approval queues, escalations, and human oversight for every automated process.",
+      "body": "Hi 👋 I’m Dex, and I’m building HumanLayer.\n\nHumanLayer lets your software contact humans for feedback, input, and approvals. It’s perfect for\n\n1. Implementing manual approval steps for software- and human-driven workflows\n2. Oversight of autonomous AI agents\n3. Managing the transition between the two\n\nHumanLayer has clients for Python and Typescript and lets you manage approvals across Slack, SMS, email, and other channels. For AI agents, HumanLayer is designed to work with any framework + LLM.\n\nYou can try it today at [humanlayer.dev](https://humanlayer.dev).\n\n<https://www.youtube.com/watch?v=5sbN8rh_S5Q>\n\n> _Ever since I got hands-on with HumanLayer, I’m asking my whole team to think more about Agentic AI workflows - I used to think agents were not worth the effort to get them to production-grade reliability, but now I'm stoked on what is possible when you bring humans into the loop_\n>\n> _–_ Vaibhav Gupta _, Founder_ @ [Boundary](https://www.ycombinator.com/companies/boundary) _(YC W23)_\n\n### Why HumanLayer\n\nBefore HumanLayer, I was building autonomous AI agents. Our idea for an MVP was an agent that would coordinate with humans in Slack and could do basic cleanup, like dropping any Snowflake/SQL table that hadn’t been queried in 90+ days. We had already built a platform to generate recommendations, but we wanted to push the limits of agent frameworks, **we wanted the agent to be able to actually do the work, not just generate the recommendations**.\n\nOf course, we weren’t comfortable with an AI application running raw SQL unsupervised, especially if it had access to drop tables, so we wired in some basic human approval steps.\n\nFrom there, I realized that **the most useful functions we can give to any software are also the most risky**. This is especially true for non-deterministic systems driven by LLMs. I realized that anyone who wants to build agents that do meaningful things will need tools for approval and oversight. So, I started hacking on HumanLayer to enable teams to safely build high-impact agents and put them to work [ambiently and autonomously](https://theouterloop.substack.com/p/openais-realtime-api-is-a-step-towards) in the background.\n\n### Use Cases\n\nWhether you’re hard-leaning into AI or not, HumanLayer helps you build impactful automation that you can ship with confidence because you have humans in the loop for the critical operations. Forget months of tuning or broken use cases on every iteration; **build confidence incrementally** as you observe and test your apps in production (safely!).\n\n* **Internal Automations** - review/approve outbound emails or automated infrastructure changes\n* **Dynamic Data Labeling** - think [RLHF](https://en.wikipedia.org/wiki/Reinforcement_learning_from_human_feedback) driven by the experts in your company - Use collected human feedback for **benchmarking** human vs. AI performance and for **fine-tuning** AI agents\n* **Ship fast and iterate** - Roll out advanced AI features to customers without needing to get to “perfect.” Human review guarantees nothing bad can happen without needing to spend months on evals, tuning, and prompt engineering. Then, iterate based on how your agents behave in production.\n* **Customer-facing** **control and visibility** - help your customers build trust in automations by giving them hooks to approve/review your app’s actions\n\n> _Really enjoying playing with @humanlayer_dev - instead of the manual outreach grind, I just hang out in slack and give my agent feedback as it finds new leads_\n>\n> – Tom Granot, founder, <https://syntaxcinema.dev>\n\n### \n\n### Quick Example\n\nIntegrate HumanLayer into your **python** or **typescript** app using a decorator or webhooks.\n\n![uploaded image](/media/?type=post&id=85104&key=user_uploads/1459029/2ea2f1d9-c06d-4e03-a64e-62c650e1743c)\n\nTo let AI apps contact a human for natural language feedback/input, just pass the `human_as_tool()` function into an AI agent’s tool set.\n\n![uploaded image](/media/?type=post&id=85104&key=user_uploads/1459029/4035e3d6-b850-4e14-b1b1-a64193cb5d75)\n\n### Team\n\n![uploaded image](/media/?type=post&id=85104&key=user_uploads/1459029/f649e7e6-c37d-48d4-88ee-4d265c4983d4)\n\nI’m [Dex](https://linkedin.com/in/dexterihorthy). I am obsessed with helping devs everywhere deliver safe + impactful AI agents.\n\nI spent the last 7 years at <https://replicated.com> where I helped great developer teams like DataStax and H2O.ai build and launch the kubernetes-native versions of their self-hosted products. I worked on container orchestrators, led product teams, and founded the GTM org.\n\nI can’t wait to build the future of AI Agents with y’all.",
+      "url": "https://www.ycombinator.com/launches/M8e-humanlayer-human-in-the-loop-for-ai-agents-and-beyond",
+      "votes": 48,
+      "created_at": "2024-10-29T14:15:47.455Z"
+    }
+  ]
+}

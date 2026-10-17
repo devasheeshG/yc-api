@@ -1,0 +1,101 @@
+{
+  "id": 30509,
+  "name": "Boost Robotics",
+  "slug": "boost-robotics",
+  "former_names": [],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/4ab11f23c518bbbd560df743f85f60218829e65f.png",
+  "website": "https://www.boostrobotics.ai",
+  "all_locations": "Boston, MA, USA",
+  "long_description": "Boost Robotics is building autonomous mobile manipulation robots to remotely perform manual tasks in data centers. \r\n\r\nThe surge in AI applications is pushing data centers to scale faster than they can manage, leading to suboptimal operations and staffing shortages amid rising power and compute demands.\r\n\r\nWe save data centers millions in insurance premiums and SLA violations by increasing the frequency of inspection and maintenance while reducing the time it takes to triage and address failures.",
+  "one_liner": "Robots for the inspection and maintenance of data centers",
+  "team_size": 2,
+  "industry": "Industrials",
+  "subindustry": "Industrials -> Manufacturing and Robotics",
+  "launched_at": 1748984174,
+  "tags": [
+    "Artificial Intelligence",
+    "Hard Tech",
+    "Hardware",
+    "Robotics",
+    "Infrastructure"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Spring 2025",
+  "status": "Active",
+  "industries": [
+    "Industrials",
+    "Manufacturing and Robotics"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": [
+    {
+      "question": "How did your company get started? (i.e., How did the founders meet? How did you come up with the idea? How did you decide to be a founder?)",
+      "answer": "We met as engineering school freshmen at Carnegie Mellon University in 2015, when we both joined the same competitive Bhangra dance team. Over the next 10 years, we have lived together, performed and won awards at Bhangra competitions, worked together in school projects, and both received separate robotics Master’s degrees from CMU’s Robotics Institute. In every context we have worked together, we have found ways to grow, overcome challenges, and succeed. We’re excited to take the next step with this venture."
+    }
+  ],
+  "url": "https://www.ycombinator.com/companies/boost-robotics",
+  "api": "https://devasheeshg.github.io/yc-api/batches/spring-2025/boost-robotics.json",
+  "year_founded": 2025,
+  "city": "Boston",
+  "country": "US",
+  "linkedin_url": "https://linkedin.com/company/boost-robotics",
+  "x_url": "",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/4ab11f23c518bbbd560df743f85f60218829e65f.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [
+    "https://bookface-images.s3.us-west-2.amazonaws.com/attachments/3e373405fcdb24fc612d085c8d27845b37501b94.png"
+  ],
+  "primary_partner": {
+    "name": "Diana Hu",
+    "url": "https://www.ycombinator.com/people/diana-hu"
+  },
+  "founders": [
+    {
+      "user_id": 973181,
+      "full_name": "Hardik Singh",
+      "title": "Founder/CEO",
+      "founder_bio": "Co-Founder @ Boost Robotics.\n\nMS in Robotic Systems Development @ CMU Robotics Institute. Commencement speaker at CMU SCS Masters Ceremony.\n\nI've worked on nearly every robot you can think of: autonomous drones, rovers, tractors, hexapods, quadrupeds, and robot arms - both cobot and industrial.\n\nRobots are hard. Building a talented team greater than the sum of its parts is the only way to do it.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/hardiksingh",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/a81e9e30f870f18ad982d9ab996528d35300c310.jpg"
+    },
+    {
+      "user_id": 2564407,
+      "full_name": "Hans Kumar",
+      "title": "Founder/CTO",
+      "founder_bio": "Co-Founder at Boost Robotics. Previously at Boston Dynamics and Carnegie Mellon Robotics Institute. Eagles fan and Taco Bell fan.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/kumarhans/",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/085ccf5a8fc02e387262789439bdd65ac582ed38.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 91007,
+      "title": "Boost Robotics - Robots for the inspection and maintenance of data centers",
+      "tagline": "Physical Agents for Digital Infrastructure",
+      "body": "Hello!\n\nWe are [Hans](https://www.linkedin.com/in/kumarhans) and [Hardik](https://www.linkedin.com/in/hardiksingh) - longtime friends and co-founders of Boost Robotics.\n\n**TL;DR**\n\nBoost Robotics builds autonomous mobile manipulation robots that can inspect and physically interact with data center infrastructure.\n\nInstead of dispatching technicians for every cable check, reboot, or hardware swap, data centers can now triage and resolve issues through “robot remote hands”. When not performing interventions, the robots continuously provide 24/7 security monitoring and operational analytics.\n\nhttps://www.youtube.com/watch?v=SVqbUd1crU0\n\n🚨 **The Problem**\n\nAs AI infrastructure continues to scale up, data center physical operations are becoming increasingly difficult:\n\n* **Growth bottleneck:** AI demand is scaling faster than the operational capacity to support it.\n* **Increasingly Remote Locations:** Data centers are being built near cheaper power sources in sparsely populated areas—often with limited access to skilled labor.\n* **Competition:** Hyperscalers are looking for every possible edge. Downtime means SLA violations and lost revenue.\n* **Hazardous Environments:** Maintenance involves high-voltage power and toxic liquid coolants.\n\nNow more than ever, robots are gaining the dexterity and generality to solve these critical problems.\n\n🤖 **The Solution**\n\nWe are building a general purpose robot to handle a variety of use cases in data centers. \n\n* Predict, find, and solve issues faster, even when you’re not physically on-site. \n* Enable one skilled technician to debug multiple issues across multiple sites through context-aware teleoperation, and eventually autonomy.\n* Provide 24/7 security monitoring and inventory management, simplifying compliance and financial audits while collecting data for your data center digital twin models.\n\n**Early Renderings of our Robot**\n\n![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfjbzl61UaeLu1lIocEDGGwIyFhxHWCF9OIaKZb85nQ4MS-muTqxZDodGZE1IyiKbf8Ryo1f5n_tcic5oV284i0IvnG_4D1V3X2lxolzUC32Nrc4yeRF1uAHrxs71tU3NEnXoT-2g?key=m-hLuOQB66mOy66_Sg1ptQ)\n\n**Bi-Manual Teleoperation of the Manipulation Subsystem**\n\n![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdqZfjtJGw48PJmg0KUnARoJVCpa29xC7wyK_3JTD7SuCact7vXgAA9csNhLUSKxNknFKbE9xTIsr6Uk5qwVUXSLJdd2QuRUt8EiSbtaFKRofi4p9PJVw8_jp8WkYIMcyr5GwXk?key=m-hLuOQB66mOy66_Sg1ptQ)\n\n# **👥 The Team**\n\nWe met as engineering school freshmen at Carnegie Mellon University in 2015, when we both joined the same competitive Bhangra dance team. Over the next 10 years, we lived together, worked together in school projects, and both received Master’s degrees from CMU’s Robotics Institute. We always knew we would start a company together.\n\n![uploaded image](/media/?type=post&id=91007&key=user_uploads/2564407/f3defc57-762e-47f4-9bfa-4a346913346b)\n\nHardik was previously robotics team lead at an agtech startup where he pivoted the team to a new product and made sales within 1 month. He was selected as commencement speaker for the CMU School of Computer Science Masters ceremony by his professors in recognition of his leadership.\n\nHans was previously a Staff Software Engineer at Boston Dynamics, where he worked on productizing computer vision algorithms for the Spot inspection robot. Before that, he built GPS-denied drone autonomy at a startup and conducted legged robotics research at CMU’s Robotics Institute.\n\n**Our Ask**\n\nWe're actively seeking forward-thinking data centers to pilot our autonomous robotics platform at their facilities. \n\nReach out to us at [**founders@boostrobotics.ai**](mailto:founders@boostrobotics.ai) — let’s shape the future of data center operations together.\n\n![uploaded image](/media/?type=post&id=91007&key=user_uploads/2564407/6f2eb4dc-5340-46dc-a264-fdf00f57c8ce)\n\n",
+      "url": "https://www.ycombinator.com/launches/Nfr-boost-robotics-robots-for-the-inspection-and-maintenance-of-data-centers",
+      "votes": 73,
+      "created_at": "2025-06-04T02:59:25.110Z"
+    }
+  ]
+}

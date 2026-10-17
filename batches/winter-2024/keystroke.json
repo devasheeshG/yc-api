@@ -1,0 +1,96 @@
+{
+  "id": 29270,
+  "name": "Keystroke",
+  "slug": "keystroke",
+  "former_names": [
+    "Buster"
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/cf87214e16d20d148922c10192f5ccf83e32f1f8.png",
+  "website": "http://keystroke.ai",
+  "all_locations": "Salt Lake City, UT, USA",
+  "long_description": "Keystroke is an all-in-one platform for building internal agents and workflows. \r\n\r\nIt's built from the ground up with coding agents in mind. Build agents and workflows as TypeScript in your own repo, then deploy them to a web app where your whole team can use them.",
+  "one_liner": "An all-in-one platform for building internal agents & workflows",
+  "team_size": 4,
+  "industry": "B2B",
+  "subindustry": "B2B -> Analytics",
+  "launched_at": 1698776495,
+  "tags": [
+    "Artificial Intelligence",
+    "Developer Tools",
+    "Generative AI",
+    "Workflow Automation",
+    "Automation"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Winter 2024",
+  "status": "Active",
+  "industries": [
+    "B2B",
+    "Analytics"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/keystroke",
+  "api": "https://devasheeshg.github.io/yc-api/batches/winter-2024/keystroke.json",
+  "year_founded": 2023,
+  "city": "Salt Lake City",
+  "country": "US",
+  "linkedin_url": "",
+  "x_url": "https://x.com/KeystrokeAI",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/cf87214e16d20d148922c10192f5ccf83e32f1f8.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Jared Friedman",
+    "url": "https://www.ycombinator.com/people/jared-friedman"
+  },
+  "founders": [
+    {
+      "user_id": 699099,
+      "full_name": "Blake Rouse",
+      "title": "Founder/CEO",
+      "founder_bio": "Blake Rouse is the co-founder and CEO of Keystroke. Previously, he led product development at a bootstrapped analytics startup (DataSpark, acqd by Threecolts). Blake is originally from South Carolina. He studied Product Management and Computer Science at BYU for three years before dropping out to start Keystroke.",
+      "is_active": true,
+      "linkedin_url": "https://linkedin.com/in/cblakerouse",
+      "x_url": "https://twitter.com/cblakerouse",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/8852f81710eef3189468f9aeade63952d9babfd1.jpg"
+    },
+    {
+      "user_id": 830598,
+      "full_name": "Dallin Bentley",
+      "title": "Founder",
+      "founder_bio": "All things AI",
+      "is_active": true,
+      "linkedin_url": "https://linkedin.com/in/dallinbentley",
+      "x_url": "https://twitter.com/dalbentley",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/243363943a7a9ccbaf8b4ae87b177729e40dbbc0.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 105225,
+      "title": "Keystroke - open sourcing our internal agents & automations platform",
+      "tagline": "An all-in-one platform for building internal agents & workflows.",
+      "body": "**_tl;dr:_** Keystroke is an all-in-one platform for building internal agents and workflows. It's built from the ground up with coding agents in mind. Build agents and workflows as TypeScript in your own repo, then deploy them to a web app where your whole team can use them.\n\nTry it free: <https://keystroke.ai/> \\\nGitHub: <https://github.com/keystrokehq/keystroke>\n\n### why we built keystroke (our pivot story)\n\nHey everyone, we’re [Blake](https://x.com/cblakerouse) and [Dallin](https://x.com/dalbentley) from [Keystroke](https://keystroke.ai/home). Keystroke is a recent pivot from Buster, our original YC W24 idea.\n\n![uploaded image](/media/?type=post&id=105225&key=user_uploads/699099/e5ee8874-7b36-45d5-b9cd-f0f96cd14846)\n\nAt Buster, we spent a lot of time building internal agents and automations. We used visual platforms like n8n and Gumloop, as well as code-first tools like Trigger.dev, Mastra, and several of Vercel’s open frameworks. We genuinely liked many of them, but kept encountering two different problems:\n\n1. Visual tools gave us integrations, credentials, hosting, and an application the rest of the team could use. They were fast initially, but became difficult to maintain as the systems grew. Tests and typechecks were limited, JSON blobs were hard to review, and debugging failures was painful.\n2. Code-first tools gave us ordinary TypeScript, tests, npm packages, and a codebase that coding agents could work with directly. But after building something, we were deploying it to infrastructure rather than an application people could use. We still needed to configure the chat UI, streaming, credentials, integrations, run history, permissions, and sharing ourselves.\n\nSo, we started building the thing we wish existed: a code-first framework that made it stupid easy to build complex agents and AI systems, with a web app for teams to collaborate on top.\n\nWe liked it so much that we decided to pivot away from Buster and focus on building Keystroke full time.\n\n## keystroke rebuilt our W24 idea in 5 minutes\n\nWith Keystroke, I was able to rebuild our original startup’s product (an AI data analyst) in \\~5 minutes.\n\nI pointed Cursor at our old Buster repo and it was able to:\n\n* spin up a local Keystroke project\n* rebuild the OG Buster agent w/ memory, its own file system, etc\n* connect our Postgres DB, PostHog, Metabase, and Slack\n* build skills for using each of the data sources\n* explore our DB and add schema docs to the file system\n* build a workflow to keep schema docs synced\n* name the agent \"Delbert\"\n* then pushed him up to the Keystroke app\n\nSince then, Delbert has been answering ad-hoc questions for me in Slack on a regular bases. He builds me metabase dashboards when I need them. He sets his own triggers, reviews key metrics periodically, and pings me in Slack if anything looks off.\n\n## how keystroke works\n\nIn Keystroke, workflows are ordinary async TypeScript: a ‘for’ loop is an actual ‘for’ loop, inputs use Zod schemas, and everything you build can be tested with Vitest. Our managed runtime makes workflows durable across errors, sleeps, approval steps, and process restarts.\n\nAgents wrap Vercel’s AI SDK and can use workflows, actions, other agents, MCP servers, and integrations as tools. They also include memory, a persistent filesystem, web search, triggers, and optional VM sandboxes.\n\nDeployed agents and workflows instantly appear in the web app with a chat UI, workflow visualizations, input forms, sharing, credential management, integrations, and logs.\n\n**The entire platform was built from the ground of with coding agents in mind**. Your coding agent can use the CLI to scaffold a local directory with a Keystroke project and an [AGENTS.md](http://AGENTS.md). Then, it can build whatever agent or AI system you want, search our docs, run tests, and push what you build up to the Keystroke platform.\n\n## \n\n![uploaded image](/media/?type=post&id=105225&key=user_uploads/699099/d6f73f5f-ba9d-43e4-8c8e-167b770bbe65)\n\n## **our asks**\n\n**Try it:** get started at [keystroke.ai](http://keystroke.ai) with $20 in free credits\n\n**Share feedback:** we’re in open alpha, please tell us what breaks\n\n**Star us on Github:** we’re open source, check out the code on [GitHub](https://github.com/keystrokehq/keystroke)\n\n**Reach out:** want to chat? email us at [team@keystroke.ai](mailto:team@keystroke.ai)",
+      "url": "https://www.ycombinator.com/launches/RNB-keystroke-open-sourcing-our-internal-agents-automations-platform",
+      "votes": 9,
+      "created_at": "2026-07-10T19:26:21.580Z"
+    }
+  ]
+}

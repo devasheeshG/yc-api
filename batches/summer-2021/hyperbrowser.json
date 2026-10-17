@@ -1,0 +1,147 @@
+{
+  "id": 24206,
+  "name": "Hyperbrowser",
+  "slug": "hyperbrowser",
+  "former_names": [
+    "Supernote",
+    "MetricFlow",
+    "Metlo"
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/f3b213c6492ebfd585bec4644b94f381db09e0e4.png",
+  "website": "https://hyperbrowser.ai",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "Hyperbrowser.ai is the internet infrastructure for AI agents. We provide instant, scalable browser infra with built-in CAPTCHA solving, proxy management, and anti-bot detection. \r\n\r\nDevelopers use us to power their AI agents for data collection, testing, and web automation at scale. We're backed by YC, Accel, SV Angel, and others.",
+  "one_liner": "Web infra for AI agents",
+  "team_size": 4,
+  "industry": "B2B",
+  "subindustry": "B2B -> Security",
+  "launched_at": 1628188883,
+  "tags": [
+    "Developer Tools",
+    "B2B",
+    "AI"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": true,
+  "nonprofit": false,
+  "batch": "Summer 2021",
+  "status": "Active",
+  "industries": [
+    "B2B",
+    "Security"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada",
+    "Remote",
+    "Partly Remote"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/hyperbrowser",
+  "api": "https://devasheeshg.github.io/yc-api/batches/summer-2021/hyperbrowser.json",
+  "year_founded": 2021,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/hyperbrowser",
+  "x_url": "https://x.com/hyperbrowser",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": "https://github.com/hyperbrowserai",
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/f3b213c6492ebfd585bec4644b94f381db09e0e4.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Diana Hu",
+    "url": "https://www.ycombinator.com/people/diana-hu"
+  },
+  "founders": [
+    {
+      "user_id": 233736,
+      "full_name": "Shri Sukhani",
+      "title": "Founder",
+      "founder_bio": "Founder, CEO @ Hyperbrowser. Previously, Eng at Meta.",
+      "is_active": true,
+      "linkedin_url": "https://linkedin.com/in/shrisukhani",
+      "x_url": "https://twitter.com/SukhaniShri",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/2f3240bc666e1dfca46ebfcd404ae37b74a306a7.jpg"
+    },
+    {
+      "user_id": 556017,
+      "full_name": "Akshay Shekhawat",
+      "title": "Founder",
+      "founder_bio": "Founder @ hyperbrowser.ai",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/akshay-shekhawat/",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/58c28996848605d8a210a90cbcc336cdf54ac647.jpg"
+    }
+  ],
+  "jobs": [
+    {
+      "id": 75560,
+      "title": "Growth Engineer Intern",
+      "url": "https://www.ycombinator.com/companies/hyperbrowser/jobs/1LZDDAF-growth-engineer-intern",
+      "location": "IN / Remote (IN)",
+      "type": "Internship",
+      "role": "Engineering",
+      "role_type": "Full stack",
+      "salary_range": "₹25K - ₹200K INR",
+      "equity_range": "",
+      "experience": null,
+      "visa": "US citizen/visa only",
+      "skills": [
+        "JavaScript",
+        "Python",
+        "React",
+        "TypeScript",
+        "Growth design",
+        "Next.js"
+      ]
+    }
+  ],
+  "news": [],
+  "launches": [
+    {
+      "id": 89908,
+      "title": "HyperAgent: Open Source AI Browser Automation Framework",
+      "tagline": "Automate the Web with LLMs",
+      "body": "**TL;DR / Summary:**\n\nHyperagent is the AI-native browser automation framework - think Playwright supercharged with AI. No more brittle scripts, just powerful natural language commands.\n\nHyperAgent gives you:\n\n* 🤖 **AI Commands**: Simple APIs like [page.ai](http://page.ai)(), page.extract() and executeTask() for any AI automation\n* ⚡ **Fallback to Regular Playwright**: Use regular Playwright when you don’t need AI\n* 🥷 **Stealth Mode** – Avoid detection with built-in anti-bot patches\n* ☁️ **Cloud Ready** – Instantly scale to hundreds of sessions via [Hyperbrowser](https://app.hyperbrowser.ai/)\n* 🔌 **MCP Client** – Connect to external tools for full workflows (e.g. writing web data to Google Sheets)\n\n⭐ **Check it out and give it a star on Github!**\n\n<https://github.com/hyperbrowserai/HyperAgent>\\\n\\\n<https://www.youtube.com/watch?v=0bHC1i1aRhI>\\\n\\\n**Browser Automation Is Broken**\n\nWe built HyperAgent because **browser automation is broken.** We've all been there – spending hours writing scripts that shatter the moment a website changes. With AI agents becoming mainstream, we need automation that's as adaptive as they are, and doesn’t break every time a css class changes.\n\nWith HyperAgent, we’re adding AI to your existing toolkit, wrapping playwright in simple, natural language commands that just work. So you can have the best of both worlds - keep what you love about playwright and automate the rest with AI.\n\n**HyperAgent Quickstart**\n\nTo use HyperAgent on an existing page, you can simply call [**page.ai**](http://page.ai):\n\n```\nawait page.ai(\"Find a route from Miami to New Orleans, and provide the detailed route information.\")\n```\n\n![uploaded image](/media/?type=post&id=89908&key=user_uploads/556017/f6d70ca6-70cf-4dff-a206-9263341cd681)\n\nThis will go to google maps, enter in the origin and destination, then return the route back.\n\nTo extract information from a page, call **page.extract:**\n\n```\nawait page.extract(“find the major cities that this path goes through\")\n```\n\n![uploaded image](/media/?type=post&id=89908&key=user_uploads/556017/2ca8cdba-b651-44e4-af20-9bdc7d1e0393)\n\n**Built-in Stealth Mode**\n\nHyperAgent comes with patches for stealth browsing so you don’t have to worry about getting blocked. For maximum stealth, use Hyperbrowser - it’s free to start.\n\n**Infinitely Extensible with MCP servers**\n\nWant to give HyperAgent access to custom tools or integrate with other apps? HyperAgent is an MCP client and offers infinite extensibility with any MCP server.\n\n**Scale to 100s of Concurrent Agents**\n\nUsing HyperAgent on HyperBrowser you can scale to 100s of concurrent agent runs in seconds. No need to worry about the underlying infrastructure.\n\n# Try It Today\n\n🚀 GitHub: <https://github.com/hyperbrowserai/hyperagent>\n\n![uploaded image](/media/?type=post&id=89908&key=user_uploads/556017/6aa560db-eee6-4bb6-9a9c-38c51fadb03d)\n\n",
+      "url": "https://www.ycombinator.com/launches/NO8-hyperagent-open-source-ai-browser-automation-framework",
+      "votes": 19,
+      "created_at": "2025-04-28T15:08:07.451Z"
+    },
+    {
+      "id": 89020,
+      "title": "Hyperpilot: AI Browser Agent Playground by Hyperbrowser",
+      "tagline": "Experience the future of the Agentic Web for Free with HyperPilot",
+      "body": "# **TL;DR / Summary:**\n\nAI Browser Agents are powerful but costly/hard to access. HyperPilot lets you try all the leading browser agents (CUA, Claude CU, Browser Use) for free. It's built on Hyperbrowser, our infra that lets you build agents with a free API key + 5 lines of code.\n\n<https://www.youtube.com/watch?v=1AbjFhf2T0k>\n\n**Why**\n\nAI browser agents like OpenAI's CUA and Anthropic's Claude Computer Use promise to revolutionize web automation. But getting hands-on experience is tough. Tools are limited, complex, or expensive – OpenAI's Operator preview costs $200/month just to try. How can you explore this future without breaking the bank?\n\n# **What**\n\nWe're launching [HyperPilot](http://pilot.hyperbrowser.ai): A free, easy-to-use playground where you can directly interact with and compare different AI browser agent models. See firsthand what they can really do.\n\nHyperPilot isn't just a demo; it’s a fully functional browser agent playground that runs entirely on [Hyperbrowser](https://hyperbrowser.ai) - our robust and scalable browser infrastructure designed specifically for AI agents.\n\n# **Who is this for? What should you do with it?**\n\n### **Everyone**\n\nTry it out for yourself. See what the future of Browser Agents actually holds. Check out Claude Computer Use, OpenAI’s CUA, and more. If you get inspired by what you see, we’d love to hear from you and help in any way we can! Reach out to us at [founders@hyperbrowser.ai](mailto:founders@hyperbrowser.ai)\n\n_(Hyperbrowser booking Kendrick Lamar concert tickets)_\n\n![uploaded image](/media/?type=post&id=89020&key=user_uploads/233736/c8e39379-b378-45a7-a97b-7caafc1df810)\n\n### **Developers**\n\nUse HyperPilot to rapidly prototype your agents, prompts, and automations. Everything you see in HyperPilot is powered by Hyperbrowser infrastructure along with OpenAI, Anthropic, and Google DeepMind’s models.\n\nWant to build this magic into your own apps? With Hyperbrowser, you can get started using OpenAI’s CUA, Anthropic’s Claude Computer Use, and more with just a free API key and 5 lines of code.\n\nCheck out the docs here:\n\n* [Claude Computer Use on Hyperbrowser](https://docs.hyperbrowser.ai/agents/claude-computer-use)\n* [OpenAI CUA on Hyperbrowser](https://docs.hyperbrowser.ai/agents/openai-cua)\n\nGet your free API key here: <https://hyperbrowser.ai>\n\n_(Claude computer use on Hyperbrowser in 5 lines of code)_\n\n![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXcqYG4wQaP9VTtLxvuXkLewpbDHxUCaWa2JU8rfhb9HYJBzLjuSViGyIoV-0jhpI8-w113eSxlPbYeQpQveCIKKX25CKV1DkgyCJ9DN1PTeoQf9cU1PX-T-QvuimhOskpAY1aIF?key=SWtClCBzkj7TSIatblqhIGY5)\n\n# **Our Asks**\n\n🆓 Try the leading AI browser agents for FREE on HyperPilot: [pilot.hyperbrowser.ai](http://pilot.hyperbrowser.ai)\\\n🛠️ Developers, get your free API key and start building: <https://hyperbrowser.ai>\\\n🔥 Share your favorite models and use cases with us on [LinkedIn](http://linkedin.com/company/hyperbrowser) and [X](http://x.com/hyperbrowser)",
+      "url": "https://www.ycombinator.com/launches/N9o-hyperpilot-ai-browser-agent-playground-by-hyperbrowser",
+      "votes": 78,
+      "created_at": "2025-03-26T21:21:30.836Z"
+    },
+    {
+      "id": 88849,
+      "title": "Hyperbrowser MCP Server - Connecting AI to the Web 🌐 🤖",
+      "tagline": "Connect LLMs to the web for research, coding, and automation",
+      "body": "**TL;DR:**\n\nGive your LLMs / IDEs superpowers by connecting them to the web with Hyperbrowser's MCP. Unlock deep research, coding with live documentation, data extraction, and browser automation capabilities in 2 minutes. Install in seconds with `npx -y hyperbrowser-mcp` and use with Claude Desktop, Cursor, Windsurf, or your favorite MCP client.\n\n**ASK:** Building AI agents, developer tools, or research applications? Email us at [shri@hyperbrowser.ai](mailto:shri@hyperbrowser.ai) or [akshay@hyperbrowser.ai](mailto:akshay@hyperbrowser.ai)\n\n<https://www.youtube.com/watch?v=HUA4uPwcS8U>\n\n## ❌ The Problem\n\nLLMs are powerful but isolated. They can't:\n\n* Access real-time web information\n* Interact with websites to complete tasks\n* Generate code using up-to-date documentation (even OpenAI API calls are sometimes botched)\n* Extract structured data from multiple sources in real-time\n\n## 🛠️ Our Solution\n\nHyperbrowser MCP Server connects LLMs directly to the web through Anthropic's Model Context Protocol.\n\n`$ npx -y hyperbrowser-mcp`\n\n**Our MCP Server exposes 7 powerful tools:**\n\n\\- **Web data tools:** scrape_webpage, crawl_webpages, extract_structured_data, search_with_bing\n\n\\- **Browser automation:** browser_use_agent, openai_computer_use_agent, claude_computer_use_agent\n\nYour favorite MCP client can use the web data tools to surf the web for real-time information and data + use the browser automation tools to take actions like ordering a pizza or commenting on a GitHub pull request.\n\n## 💡 What You Can Build\n\n* **Deep Research in Cursor:** Claude, Cursor, and Windsurf can use Hyperbrowser's MCP server to do extremely deep research on any topic. No need for $200/mo ChatGPT Pro.\n* **Faster coding with AI:** Generate working code with current API docs, automate code reviews, build integrations\n* **Extract Data:** Convert web content to structured datasets, right in your claude app\n* **Automate Tasks:** Test applications, submit forms, automate UI tests\n\nCheck out this video of my cofounder vibe coding a whole game with Cursor and Hyperbrowser's MCP Server:\n\n<https://www.youtube.com/watch?v=wT89pY6zW4o>\n\n## 🙏 Our Asks\n\n* **Try it out!** Get a free API key at [app.hyperbrowser.ai](http://app.hyperbrowser.ai) and install in your clients (instructions here - [github.com/hyperbrowserai/mcp](http://github.com/hyperbrowserai/mcp))\n* **Share this post** with AI devs and researchers\n* **Connect with us** at [shri@hyperbrowser.ai](mailto:shri@hyperbrowser.ai) and [akshay@hyperbrowser.ai](mailto:akshay@hyperbrowser.ai)\n* **Follow us** at [x.com/hyperbrowser](http://x.com/hyperbrowser) and [linkedin.com/company/hyperbrowser](http://linkedin.com/company/hyperbrowser)\n* **Join our community** on Discord - <https://discord.gg/zsYzsgVRjh>\n\n![uploaded image](/media/?type=post&id=88849&key=user_uploads/233736/98d7ef01-89f4-475b-af5b-90679a5f3097)\n\n",
+      "url": "https://www.ycombinator.com/launches/N73-hyperbrowser-mcp-server-connecting-ai-to-the-web",
+      "votes": 93,
+      "created_at": "2025-03-21T00:51:31.528Z"
+    },
+    {
+      "id": 87074,
+      "title": "Hyperbrowser - Web infrastructure for AI agents",
+      "tagline": "AI’s Gateway to the Web",
+      "body": "## TL;DR\n\nHyperbrowser is AI's gateway to the web. We make it dead simple to give your AI agents reliable, scalable scraping and browser automation capabilities without getting blocked or dealing with infra headaches. One API call to HB gives you a browser session with built-in stealth mode, proxy rotation, automatic CAPTCHA solving, session management, session recordings etc. Hyperbrowser is the only browser platform that lets your agents spin up 100s of concurrent browsers with sub-second start times.\n\n<https://www.youtube.com/watch?v=LZIPzjyEuGU>\n\n## Why is this important? And why now?\n\nThe web wasn't built for AI—but AI needs the web. In 2025, Agents are finally here. We've met so many companies building web-based agents who keep running into the same problems:\n\n* They keep getting blocked\n  * Websites detect and shut down automation, making it hard to scale AI-driven browsing.\n* Web automation at scale is a nightmare to manage\n  * Managing browser infrastructure is expensive, slow, and unreliable—especially when running thousands of concurrent sessions\n* High latency\n  * High latency creates a terrible user experience and leads to frustration\n\nThe future is AI-driven agents that browse, transact, and take action. Hyperbrowser enables Agents to reliably interact with the web.\n\n## Our Solution\n\n**Core Infrastructure**\n\n* Launch thousands of undetectable browsers in <1s\n* Built-in anti-detection & stealth mode - bypasses anti-bot systems and fingerprinting\n* Automated CAPTCHA solving\n* Ultra-low latency globally distributed infrastructure\n\n**Developer Experience**\n\n* Multiple levels of abstraction:\n\n```\n// High-level API for instant results\nconst data = await client.scrape.startAndWait({\n  url: \"https://example.com\",\n  solveCaptchas: true\n});\n\n// Or fine-grained control when you need it\nconst session = await client.sessions.create();\nconst browser = await connect({ \n  browserWSEndpoint: session.wsEndpoint \n});\n```\n\n* Full compatibility with Puppeteer, Playwright, and Selenium\n* Comprehensive session management and monitoring\n* Live stream APIs for real-time session data\n* Native integrations with LangChain, LlamaIndex, and more\n\n**Infrastructure & Scaling**\n\n* Instant browser session startup (<1s)\n* Scale from 1 to 1000s of concurrent sessions\n* Flexible pricing tiers to match your needs\n* No infrastructure management required\n\n## What People Are Building with Hyperbrowser\n\n* Web research agents automating sales and marketing research\n* AI agents booking flights and analyzing markets in real-time\n* Testing teams running 500+ concurrent browser sessions\n* Companies collecting training data for AI models at scale\n* Automated KYC/KYB processes with built-in compliance\n\n## Get Started\n\n* Try it free at <https://hyperbrowser.ai> \n* Join our Discord - <https://discord.com/invite/zsYzsgVRjh>\n* Follow us on X - [x.com/hyperbrowser](http://x.com/hyperbrowser)\n* Follow us on LinkedIn - [linkedin.com/company/hyperbrowser](http://linkedin.com/company/hyperbrowser)\n* Email us directly: [akshay@hyperbrowser.ai](mailto:akshay@hyperbrowser.ai) or [shri@hyperbrowser.ai](mailto:shri@hyperbrowser.ai)\n\n![uploaded image](/media/?type=post&id=87074&key=user_uploads/556017/8dc23770-3861-4ce3-8426-ef5be417d5d6)\n\n",
+      "url": "https://www.ycombinator.com/launches/MeQ-hyperbrowser-web-infrastructure-for-ai-agents",
+      "votes": 92,
+      "created_at": "2025-01-23T02:44:54.888Z"
+    }
+  ]
+}

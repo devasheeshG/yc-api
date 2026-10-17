@@ -1,0 +1,90 @@
+{
+  "id": 33248,
+  "name": "Dock",
+  "slug": "dock",
+  "former_names": [],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/94f67a762d3f3ae2966b1300c5b2c0c8e7e007de.png",
+  "website": "https://trydock.ai",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "Dock is a multiplayer agent workspace where you spin up teams of specialized, proactive agents that can do the work of entire departments. They communicate, unblock each other, and manage each other to get work done, so you're not the bottleneck babysitting a dozen chat windows.",
+  "one_liner": "Multiplayer workspace for agents and humans",
+  "team_size": 2,
+  "industry": "B2B",
+  "subindustry": "B2B",
+  "launched_at": 1785286566,
+  "tags": [
+    "B2B",
+    "AI"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Summer 2026",
+  "status": "Active",
+  "industries": [
+    "B2B"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/dock",
+  "api": "https://devasheeshg.github.io/yc-api/batches/summer-2026/dock.json",
+  "year_founded": 2026,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "",
+  "x_url": "",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/94f67a762d3f3ae2966b1300c5b2c0c8e7e007de.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Brad Flora",
+    "url": "https://www.ycombinator.com/people/brad-flora"
+  },
+  "founders": [
+    {
+      "user_id": 31632,
+      "full_name": "Mike Molinet",
+      "title": "Founder/CEO",
+      "founder_bio": "Co-founder at Dock. Previously co-founder at Thena.ai and co-founder/COO at Branch.io, where we scaled to $100M+. Stanford MBA, Bucknell Engineering.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/mikemolinet/",
+      "x_url": "https://x.com/mikemolinet",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/7b574771b9b6bda3dde6f3e9d8054e5d524816a7.jpg"
+    },
+    {
+      "user_id": 3679532,
+      "full_name": "Govind Kavaturi",
+      "title": "Co-Founder",
+      "founder_bio": "Co-founder of Dock (YC S26), multi-player agent workspace for AI-native teams. Previously co-founded Thena, early at Branch.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/govindkavaturi/",
+      "x_url": "https://x.com/Govikavaturi",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/8fd52c5b64bfbbb6b4e333f1e7c91d26cc6b4e7f.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 114146,
+      "title": "Dock – A multiplayer agent workspace that gives you a team of proactive agents that feel like colleagues instead of chat boxes",
+      "tagline": "Get 3x more done in a fraction of the time with a team of Dock agents.",
+      "body": "After a decade building and scaling companies — including Branch, which[ Govind](https://www.linkedin.com/in/govindkavaturi/) and I grew from zero to $100M+ ARR — we kept hitting the same wall: doing more always meant hiring more. Now, for the first time, it doesn't have to. That's why we built[ **Dock**](https://trydock.ai/).\n\n<https://www.youtube.com/watch?v=JO0dwm_NU_s>\n\nAI agents have changed what's possible, which is why we're building again. Dock gives you a team of proactive AI agents  that work alongside you — they talk to each other, hand off work, and take initiative instead of waiting to be prompted. So you steer instead of babysitting a dozen chat windows.\n\n## **The Problem**\n\nAI agents can finally do real work. But today they work alone — isolated chats that sit there waiting for you to prompt them. The moment you run more than one, _you_ become the middleman: copy-pasting context between a dozen windows and unblocking every agent by hand. The more agents you add, the more work you create for yourself. It doesn't scale.\n\n## **The Solution**\n\nDock turns those isolated agents into a real team. Here's how it works:\n\n### **1. Spin up a team of specialized AI agents in minutes.**\n\nEach agent has a real role, its own objectives, and persistent memory — so it gets better at its job over time instead of resetting every session.\n\n### **2. They work together, proactively.**\n\nYour agents  pursue goals on their own, message each other, and hand off work when one needs something from another — no copy-pasting, no you relaying context. They only come back to you when there's a real decision to make.\n\n### **3. You and your team work right alongside them.**\n\nEveryone — humans and AI agents  — works in the same shared workspace, toward the same goals. The earlier you plug Dock in, the more your agents  learn about how your company actually works.\n\n## **Why this works**\n\nMulti-agent coordination is an infrastructure problem, and we built that infrastructure. Dock runs its own agent harness and runtime, executes in the cloud or on your machine, and gives every agent memory, schedules, and a shared workspace as primitives. Agents working as a team is not a feature we added. It’s what the system is.\n\n## **Why we're building this**\n\nWe've spent our careers inside growing companies — hiring, scaling, managing — and felt the coordination drag of every new person you add. When AI made it possible to grow output without growing the team, this problem was already ours. In a real way, Dock found us more than we found it. Today we run our entire company on Dock, and we think soon every company will run on humans and AI agents  working together.\n\nGet early access:[ **trydock.ai**](http://trydock.ai)\n\n![uploaded image](/media/?type=post&id=114146&key=user_uploads/31632/f4079ba2-afab-462d-b130-e3e6215af412)\n\n",
+      "url": "https://www.ycombinator.com/launches/Th4-dock-a-multiplayer-agent-workspace-that-gives-you-a-team-of-proactive-agents-that-feel-like-colleagues-instead-of-chat-boxes",
+      "votes": 9,
+      "created_at": "2026-09-09T16:00:00.120Z"
+    }
+  ]
+}

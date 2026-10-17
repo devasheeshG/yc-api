@@ -1,0 +1,80 @@
+{
+  "id": 28865,
+  "name": "Hegel AI",
+  "slug": "hegel-ai",
+  "former_names": [
+    "Moxi: Model Exchange Infrastructure"
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/d4c1505ac12ec772ffd315c1efa3139c51ae9e35.png",
+  "website": "https://hegel-ai.com",
+  "all_locations": "New York City, NY, USA",
+  "long_description": "We build tools for developing applications with generative AI models. Whether you are using LLMs, vector databases, and text-to-image models like Stable Diffusion, our tools help you find the right model, prompt, configuration and consistently monitor their behaviors in production.\r\n\r\n---\r\n\r\n**PromptTools**: the first open-source, developer-focused SDK for experimenting with and evaluating prompts, models, and vector databases. You can try the repo here: https://github.com/hegelai/prompttools. If you're building with LLMs and struggling with evaluation, reach out and we can help.",
+  "one_liner": "Open source tools for developing generative AI applications",
+  "team_size": 2,
+  "industry": "B2B",
+  "subindustry": "B2B -> Infrastructure",
+  "launched_at": 1690471692,
+  "tags": [],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Summer 2023",
+  "status": "Active",
+  "industries": [
+    "B2B",
+    "Infrastructure"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/hegel-ai",
+  "api": "https://devasheeshg.github.io/yc-api/batches/summer-2023/hegel-ai.json",
+  "year_founded": 2023,
+  "city": "New York City",
+  "country": "US",
+  "linkedin_url": "",
+  "x_url": "",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/d4c1505ac12ec772ffd315c1efa3139c51ae9e35.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Harj Taggar",
+    "url": "https://www.ycombinator.com/people/harj-taggar"
+  },
+  "founders": [
+    {
+      "user_id": 1424101,
+      "full_name": "Kevin Tse",
+      "title": "Founder",
+      "founder_bio": "Building open-source developer tools for large language models at Hegel AI.\n\nHappy to connect and chat about how your company is using AI and LLMs!",
+      "is_active": true,
+      "linkedin_url": "https://linkedin.com/in/kevin-tse-35051367",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/4bb49f02a2ada149717f9ffc989cc10d608f0233.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 73501,
+      "title": "Hegel AI: Open source tools for language model evaluation",
+      "tagline": "Experiment with models, prompts, and vector databases in just a few lines of code",
+      "body": "**TL;DR** [Hegel AI](https://hegel-ai.com/) is building developer tools for LLM and prompt evaluation and continuous testing, with over a thousand downloads per week since launch. We’re a team of ex-PyTorch engineers from Meta and Google.\n\n# The Problem\n\n_Is Llama 2 really better? Is GPT-4 getting worse?_ Developers building with language models are constantly facing challenges with (1) model drift (2) new models and (3) insufficient evaluation systems. Besides academic metrics and “eyeballing it”, there’s no existing solution for continuous LLM regression testing or experimentation.\n\n![uploaded image](/media/?type=post&id=73501&key=user_uploads/1324508/f9481110-9296-4fb1-b5ab-68ce35d6bdfc)\n\nWhat’s more, the complexity of LLMs and related tools like vector databases make it hard for developers to set up honest apples-to-apples comparisons for their use case.\n\n![uploaded image](/media/?type=post&id=73501&key=user_uploads/1324508/e7dc639a-27c3-4849-8245-9bda29648954)\n\n# Our Mission\n\nWe want to make high quality evaluation and testing systems available to everyone, which is why we’re building an open source platform for language model evaluation. Developers can use our product to [monitor GPT-4 regressions](https://github.com/hegelai/prompttools/blob/main/examples/notebooks/GPT4RegressionTesting.ipynb), audit models for safety, and [measure performance of vector databases](https://github.com/hegelai/prompttools/blob/main/examples/notebooks/ChromaDBExperiment.ipynb). \n\n# How it works\n\nDevelopers come to our product with some test cases, and an idea of the models or vector databases they want to evaluate. We handle all of the testing infrastructure to help them (1) set up experiments across models/DBs in notebooks and (2) scale those experiments into reusable test suites. \n\n![uploaded image](/media/?type=post&id=73501&key=user_uploads/1324508/da633110-74ba-449b-b4f1-017ad8ec6ffd)\n\n\\\nWe support multiple strategies for evaluation: auto-eval by another model, systematic evaluations like structured output validation or semantic similarity to an expected output, or even through gathering human feedback with our notebook UI.\n\n![uploaded image](/media/?type=post&id=73501&key=user_uploads/1324508/13b7aa5e-e9d8-43de-b191-6d5c5fc1f04a)\n\n# The Team\n\n![uploaded image](/media/?type=post&id=73501&key=user_uploads/1324508/6dbe38e4-9070-464e-b06b-55ac3d21be7f)\n\n[Kevin Tse](https://www.linkedin.com/in/kevin-tse-35051367/) and [Steven Krawczyk](https://www.linkedin.com/in/steventkrawczyk/) met 9 years ago when we started our undergraduate studies at the University of Chicago. We crossed paths again years after graduation when we were both working on [PyTorch](https://github.com/pytorch/pytorch), an open-source deep learning library, at Meta and Google. We worked on the core library, data loading, and the XLA compiler library. Prior to that, we worked at Amazon and Bridgewater Associates.\n\n# Testimonials\n\n_It’s hard to convince senior management that investing in LLMs is worth it, without doing expensive experimentation on my own._\n\n* _Soma Szabo, Data Science Manager at McMaster-Carr_\n\n_If you are doing anything remotely related to prompting, you'd know how frustrating & inefficient it is to compare between prompts. I, for one, am using it to make my life easier in building Watto AI._\n\n* _Rishabh Panwar, Co-Founder & CEO, Watto AI_\n\n# Asks\n\n* Install the [Python library](https://pypi.org/project/prompttools/) and try it yourself!\n* Give us a star on [GitHub](https://github.com/hegelai/prompttools) and [join our Discord community](https://discord.gg/72a9xh5Z7P).\n* [Contact us](mailto:team@hegel-ai.com) if you want enterprise support for experimentation or early access to our hosted UI and observability tools",
+      "url": "https://www.ycombinator.com/launches/J7V-hegel-ai-open-source-tools-for-language-model-evaluation",
+      "votes": 88,
+      "created_at": "2023-07-27T15:26:58.756Z"
+    }
+  ]
+}

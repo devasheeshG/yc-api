@@ -1,0 +1,112 @@
+{
+  "id": 31151,
+  "name": "Sparkles",
+  "slug": "sparkles",
+  "former_names": [
+    "Litmus",
+    "Flics"
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/2fa726d414c3f4d378fa6af116bb14e3abb29e0f.png",
+  "website": "https://sparkles.dev",
+  "all_locations": "London, England, United Kingdom",
+  "long_description": "Sparkles is like Lovable for existing projects, so even Sharon from Marketing can change the button styling on the front page without going back and forth with the dev team.\r\n\r\nSomeone technical connects their GitHub to Sparkles, sets up the repository and environment variables, and then anyone on the team with a @yourcompany.com email can log in on Sparkles and create pull requests without needing to know what Git is.",
+  "one_liner": "Make everyone on your team an engineer",
+  "team_size": 1,
+  "industry": "B2B",
+  "subindustry": "B2B -> Engineering, Product and Design",
+  "launched_at": 1768436882,
+  "tags": [],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": true,
+  "nonprofit": false,
+  "batch": "Winter 2026",
+  "status": "Active",
+  "industries": [
+    "B2B",
+    "Engineering, Product and Design"
+  ],
+  "regions": [
+    "United Kingdom",
+    "Europe"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/sparkles",
+  "api": "https://devasheeshg.github.io/yc-api/batches/winter-2026/sparkles.json",
+  "year_founded": 2025,
+  "city": "London",
+  "country": "GB",
+  "linkedin_url": "https://www.linkedin.com/company/sparkles-dev",
+  "x_url": "https://x.com/Sparklesdotdev",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/2fa726d414c3f4d378fa6af116bb14e3abb29e0f.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Jared Friedman",
+    "url": "https://www.ycombinator.com/people/jared-friedman"
+  },
+  "founders": [
+    {
+      "user_id": 2590397,
+      "full_name": "Ai Daniil Bekirov",
+      "title": "Founder/CEO",
+      "founder_bio": "20 | 🇺🇦\n\nI dropped out of University College London to build Sparkles (W26).\n\nPreviously worked at Iterate.com (founded by Jonas who was previously the co-founder and CTO of Monzo. Backed by OpenAI, Index etc.) and StructuredAI (F25)",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/aidaniilbekirov/",
+      "x_url": "https://x.com/aidaniil",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/f07af39014457a4d2ff63358c4e3ccd33c6c034a.jpg"
+    }
+  ],
+  "jobs": [
+    {
+      "id": 107152,
+      "title": "Founding Engineer (London)",
+      "url": "https://www.ycombinator.com/companies/sparkles/jobs/ttwqpbX-founding-engineer-london",
+      "location": "London, England, GB / San Francisco, CA, US",
+      "type": "Full-time",
+      "role": "Engineering",
+      "role_type": "Full stack",
+      "salary_range": "£100K - £150K GBP",
+      "equity_range": "1.00% - 2.00%",
+      "experience": "Any (new grads ok)",
+      "visa": "Will sponsor",
+      "skills": [
+        "TypeScript"
+      ]
+    },
+    {
+      "id": 107153,
+      "title": "Founding GTM (London)",
+      "url": "https://www.ycombinator.com/companies/sparkles/jobs/vDlglwX-founding-gtm-london",
+      "location": "London, England, GB / San Francisco, CA, US",
+      "type": "Full-time",
+      "role": "Marketing",
+      "role_type": null,
+      "salary_range": "£70K - £100K GBP",
+      "equity_range": "0.50% - 0.70%",
+      "experience": "Any (new grads ok)",
+      "visa": "Will sponsor",
+      "skills": []
+    }
+  ],
+  "news": [],
+  "launches": [
+    {
+      "id": 97488,
+      "title": "Sparkles - Lovable for existing projects",
+      "tagline": "Make everyone on your team an engineer ✨",
+      "body": "Hey, I’m **Dan** - Founder of **Sparkles (W26)**\n\n![uploaded image](/media/?type=post&id=97488&key=user_uploads/2590397/2522ae4d-df6f-4327-bdf4-03a05bc9493b)\n\n**Sparkles is like Lovable for existing projects**, so even your hypothetical Sharon from Operations can change the button styling on the front page without going back and forth with the dev team.\n\n[Sparkles launch video](https://youtu.be/v6u7wlGYPIU)\n\n**The problem**\n\nIf you’ve ever tried onboarding a non-technical person onto Claude Code / Cursor / Codex, you’ve definitely heard at least one of these:\n\n* “I think I pushed the `.env` to GitHub… is that bad?”\n* “Terminal is asking for my password but nothing is showing—my keyboard broke.”\n* “It tells me to run `git push --force`… is that like a Star Wars thing ?”\n* “Do I run `npm install` every time I open the laptop?”\n\nThis is what happens when a non technical person interacts with the CLI and dev server. It is a non user friendly environment that takes time to learn.\n\n**The Solution**\n\n![uploaded image](/media/?type=post&id=97488&key=user_uploads/2590397/943d834c-9a37-4152-b3ec-3c015f87bb9f)\n\nSparkles is a web platform that fully abstracts from local development. Your GTM/Designer/Marketing team don’t need to know what is git, what is a cli, what is a dev server etc. They will see a lovable-like UI with the preview and the chatbox, so they can ship the updates as fast as they can type ✨\n\nWhen someone makes a change on Sparkles they have an option to “upload” the changes, which essentially creates a Github PR for your engineer to review.\n\nWe are working on Enterprise level rulesets for PR creation, commit batching etc, so you don’t have to review thousands of PRs if you have a bigger team.\n\n**The Team**\n\n* Ai Daniil Bekirov - CEO\n\n  Legally AI. UCL dropout. Prev @ [iterate.com](http://iterate.com), StructuredAI (F25)\n\n**The ask**\n\nIf you want to cut down your backlog, or have non engineers who want to use cutting edge AI tools without the _steep_ learning curve, we’d love to talk. Intros to VPs of Operations, Marketing and Sales are appreciated 🙏\n\n**Email:** [dan@sparkles.dev](mailto:dan@sparkles.dev)\n\n![uploaded image](/media/?type=post&id=97488&key=user_uploads/2590397/84685a34-3e29-4220-a0d6-474197cc61ff)\n\n",
+      "url": "https://www.ycombinator.com/launches/PMO-sparkles-lovable-for-existing-projects",
+      "votes": 164,
+      "created_at": "2026-02-04T07:27:06.748Z"
+    }
+  ]
+}

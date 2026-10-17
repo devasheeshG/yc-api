@@ -1,0 +1,88 @@
+{
+  "id": 31484,
+  "name": "AbInitio Bio",
+  "slug": "abinitio-bio",
+  "former_names": [],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/a7b4f70c5d14e24fb5773ec42e56d354595bd134.png",
+  "website": "https://www.abinitio-bio.com",
+  "all_locations": "Boston, MA, USA",
+  "long_description": "Abinitio Bio builds foundation models for biomanufacturing, validated against wet lab data. Our first model, Echo, predicts manufacturing outcomes more accurately than standard models, and any pharma or CDMO can adapt it to their own workflow instantly. By making process decisions that take 6-18 months today in hours, we help teams avoid the cost of delay on a single program. ",
+  "one_liner": "The Intelligence layer for Drug Manufacturing",
+  "team_size": 2,
+  "industry": "Healthcare",
+  "subindustry": "Healthcare -> Drug Discovery and Delivery",
+  "launched_at": 1778703313,
+  "tags": [],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Spring 2026",
+  "status": "Active",
+  "industries": [
+    "Healthcare",
+    "Drug Discovery and Delivery"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/abinitio-bio",
+  "api": "https://devasheeshg.github.io/yc-api/batches/spring-2026/abinitio-bio.json",
+  "year_founded": 2026,
+  "city": "Boston",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/abinitio-bio/?viewAsMember=true",
+  "x_url": "",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/a7b4f70c5d14e24fb5773ec42e56d354595bd134.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Nicolas Dessaigne",
+    "url": "https://www.ycombinator.com/people/nicolas-dessaigne"
+  },
+  "founders": [
+    {
+      "user_id": 3323269,
+      "full_name": "Daniel Mukasa",
+      "title": "Founder/CEO",
+      "founder_bio": "Founder & CEO at AbInitio Bio (YC P26). Postdoctoral Fellow at MIT focused on AI and drug discovery. Previously AI/ML intern at Merck working on antibody therapeutic design. PhD in Applied Physics and Materials Science from Caltech.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/daniel-mukasa-2a8927120/",
+      "x_url": "https://x.com/DanielMukasa1",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/97cb9523df465c7fd42886512eaf77dd6c280f80.jpg"
+    },
+    {
+      "user_id": 3776060,
+      "full_name": "Nisha Gopal",
+      "title": "Founder",
+      "founder_bio": "Founder CSO at Abinitio Bio (YC P26). Biochemist with 14 years of experience, Stanford PhD, former research scientist at the The Broad Institute of Harvard and MIT",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/gopalnisha",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/d0efc53b1dc5276797580b4e04d7fdbc1c6022a5.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 101683,
+      "title": "AbInitio Bio - Frontier foundation models for biomanufacturing",
+      "tagline": "Foundation models for Biomanufacturing ",
+      "body": "**TL;DR:** Biomanufacturing is bottlenecked by experiments that take years and don't transfer across products. We're building foundation models for biological manufacturing, validated against wet lab data, so decisions that take 6-18 months today can be made in hours, saving $100M+ per program.\n\n![uploaded image](/media/?type=post&id=101683&key=user_uploads/3323269/c03e8ad1-e7f1-4b0c-8417-b22137f847af)\n\n**The problem**\n\nBiologics development is one of the slowest, lowest-yield engineering disciplines in the modern economy. A single CHO cell line campaign costs $5-10M and 12-18 months. Multispecific antibody programs routinely fail at CMC. Every month of delay on a blockbuster costs pharma $100M+ in lost revenue.\n\nEvery product team rebuilds the same process knowledge from scratch because:\n\n* nothing transfers across products, scales, or sites\n* the data that exists sits trapped in PDFs, batch records, and proprietary silos\n* existing tools optimize one product at a time and need expert tuning\n* AI-for-bio has focused on drug discovery and overlooked the value in manufacturing\n\nPharma spends over $100B annually on biologics development and manufacturing, and ships processes with yields and timelines that haven't fundamentally shifted in a decade.\n\n**What we built**\n\n**The first foundation models for biomanufacturing**, designed to close the data gap incumbents can't.\n\nOur first model, Echo, predicts manufacturing outcomes more accurately than standard hybrid models, and any pharma or CDMO can adapt it to their workflow instantly. We're extending the same architecture to cell line engineering, multispecific developability and CMC risk, and upstream aggregation (HMW%) prediction.\n\nThe complex biologics wave is the immediate wedge: 600+ molecules in active clinical trials, \\~15 approved, and a CMC-heavy profile that punishes one-product-at-a-time tooling. Foundation models that transfer across products are the only way to keep up.\n\n**Our story**\n\nI'm Daniel Mukasa, founder and CEO. I’ve spent much of my career at Caltech, Merck, MIT, and the Broad doing drug discovery, just to watch our carefully optimized drugs get killed by manufacturing problems. I’m building the tools we need to fix that across the full biomanufacturing stack.\n\n**Our ask**\n\n**Pharma, biotech, and CDMO intros**. Specifically, cell line development, process development, and CMC leads working on biologics, multispecific, cell and gene therapies, and AAV delivery systems. Also open to BD conversations with platform companies sitting on proprietary process data. \n\nreach us at founders@abinitio-bio.com",
+      "url": "https://www.ycombinator.com/launches/QS3-abinitio-bio-frontier-foundation-models-for-biomanufacturing",
+      "votes": 19,
+      "created_at": "2026-05-22T18:47:27.191Z"
+    }
+  ]
+}
