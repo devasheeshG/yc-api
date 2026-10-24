@@ -1,0 +1,81 @@
+{
+  "id": 37863,
+  "name": "Kiwi",
+  "slug": "kiwi",
+  "former_names": [],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/6492ecdf3ad27ca28600ae19b9da5cbf338cadc3.png",
+  "website": "https://withkiwi.ai/",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "While engineering teams have become fully AI-native, GTM teams have fallen behind. Teams struggle with continuous enablement of their teams, keeping context, agent skills, and connectors up to date with shifting GTM states and strategies, as well as accuracy, when operators can't trust their agents because the data is incomplete, inconsistent, or unreliable. With Kiwi, every agent is self-improving, and cites the SQL query and data snapshot pulled from the Kiwi GTM brain used to produce every output. Kiwi enables GTM teams to be fully AI-native. ",
+  "one_liner": "Kiwi is your GTM agent's favorite data engineer.",
+  "team_size": 2,
+  "industry": "B2B",
+  "subindustry": "B2B -> Operations",
+  "launched_at": 1792546887,
+  "tags": [
+    "Collaboration",
+    "AI"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Fall 2026",
+  "status": "Active",
+  "industries": [
+    "B2B",
+    "Operations"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/kiwi",
+  "api": "https://devasheeshg.github.io/yc-api/batches/fall-2026/kiwi.json",
+  "year_founded": 2026,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/search/results/all/?keywords=Kiwi+AI&origin=RICH_QUERY_TYPEAHEAD_HISTORY&heroEntityKey=urn%3Ali%3Aorganization%3A146593407&position=0",
+  "x_url": "https://x.com/with_kiwi_ai",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/6492ecdf3ad27ca28600ae19b9da5cbf338cadc3.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Charlie Warren",
+    "url": null
+  },
+  "founders": [
+    {
+      "user_id": 1678005,
+      "full_name": "Melanie Chen",
+      "title": "Founder/CEO",
+      "founder_bio": "Founder/CEO at Kiwi (YC F26). Previously Head of Post Sales at Chalk AI (8th employee, scaled FDE org + hired account teams), founding engineer at two seed-stage startups, data infra engineer at Plaid, and studied CS at MIT. ",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/-melaniechen-/",
+      "x_url": "https://x.com/__melchen__",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/caa806518ebd66bc254c1cb06027aef0d2ee39ad.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 124027,
+      "title": "Kiwi 🥝: your GTM agent’s data engineer",
+      "tagline": "We help GTM teams build agents that they can trust. ",
+      "body": "Hi, I’m [Melanie](https://www.linkedin.com/in/-melaniechen-/?isSelfProfile=true) and I’m the founder of[ Kiwi](https://withkiwi.ai/). \n\n<https://withkiwi.ai/> | [linkedin](https://www.linkedin.com/company/kiwi-ai-inc/) | [x/twitter](https://x.com/with_kiwi_ai)\n\n### Tl;dr\n\nKiwi makes GTM agents self-improving and accurate, without having to hire data engineers. Every agent run can cite the SQL query it ran over the GTM data lake as evidence, and every decision or approval in the agent workflow powers evals that improve the agent. \n\nIf you or another GTM team that you know is struggling to use agents in their day-to-day workflows and keeps falling back to repetitive, manual tasks, [trykiwi.now](http://trykiwi.now). \n\n<https://youtu.be/xozh9X5Hkd8>\n\n### The problem\n\n6 months ago, I was leading the post-sales team at a startup, and I hit a breaking point. I had spent 20 hours that week reviewing and fixing the work that my GTM teams’ agents had done. Despite spending hours each week on enablement, I always felt behind. Every week, the industry was moving forward with some new technique to best use agents efficiently and effectively, but onboarding the entire GTM organization onto a new workflow each week was impossible. On top of that, even when everyone had migrated to the new workflow, their agents were still generating slop because the underlying data wasn’t correct, and there was no way to ask the agents to show their work on each run. I started talking to other GTM teams, and now after learning from over 100 different companies, I’ve learned that there are two main obstacles keeping most GTM teams from becoming successfully agentic: \n\n1. Continuous enablement: Teams can easily adopt one skill, but as soon as operators fork the skills or context, it gets impossible to audit who’s using what agents where and for what and how successfully, or to push new changes to everyone’s agents. \n2. The data: when the underlying data infrastructure doesn’t exist, there is no way that agents can know how and where to fetch the data they need for a workflow.\n\n### Kiwi handles the continuous enablement and maintenance of agents, as well as the data engineering, for you.\n\nAt Kiwi, we believe that an agent is only as good as the data that you give it. So, we sync all of the data from the tools in your GTM tool stack into a data lake. When you build an agent on Kiwi, we break it down into agent steps and human checkpoints, and every agent step that requires external data will show the SQL query that the agent runs under the hood, as well as a snapshot of the data pulled. \n\n![uploaded image](/media/?type=post&id=124027&key=user_uploads/1678005/27c31990-4696-41f4-b615-1ce6f5042a82)\n\nEvery checkpoint approval, feedback, or decline is also stored in the data lake, in addition to agent run parameters, so that Kiwi can detect shifts in your agent usage and suggest improvements. In addition, you can test agent changes against the data from historical runs. \n\n![uploaded image](/media/?type=post&id=124027&key=user_uploads/1678005/dea0699c-9987-4995-aa2d-7ec7da0f0d06)\n\nWith Kiwi, your GTM team can become fully AI-native without having to hire even more cooks in the kitchen or build out more surface area for your team to maintain. \n\n### Why us\n\nThe Kiwi team has spent years building data infrastructure that has powered billions of ACH and debit transactions at companies like Plaid, Jane Street, and Chalk, and experienced the pains of enablement firsthand. We’re building the platform that we wish we had, and could not find on the market. \n\n### Our Ask\n\nIf you or someone you know is struggling with how to make their GTM teams AI-native, we’d love an introduction! Reach out at [trykiwi.now](http://trykiwi.now), or email me at [melanie@withkiwi.ai](mailto:melanie@withkiwi.ai) !",
+      "url": "https://www.ycombinator.com/launches/WGR-kiwi-your-gtm-agent-s-data-engineer",
+      "votes": 23,
+      "created_at": "2026-10-22T13:00:00.180Z"
+    }
+  ]
+}

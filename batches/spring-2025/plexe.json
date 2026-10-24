@@ -1,0 +1,103 @@
+{
+  "id": 30400,
+  "name": "Plexe",
+  "slug": "plexe",
+  "former_names": [],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/4911874a37ff01bfa27bb33e5f83f49e6970068e.png",
+  "website": "https://plexe.ai",
+  "all_locations": "London, England, United Kingdom",
+  "long_description": "Plexe builds predictive ML models from a problem description. It connects to data sources, conducts experiments, evaluates and deploys the models to an API endpoint.",
+  "one_liner": "Open-source agents to build predictive ML models from a prompt",
+  "team_size": 2,
+  "industry": "B2B",
+  "subindustry": "B2B -> Engineering, Product and Design",
+  "launched_at": 1745031118,
+  "tags": [
+    "Machine Learning",
+    "Data Science",
+    "AI"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": true,
+  "nonprofit": false,
+  "batch": "Spring 2025",
+  "status": "Active",
+  "industries": [
+    "B2B",
+    "Engineering, Product and Design"
+  ],
+  "regions": [
+    "United Kingdom",
+    "Europe"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/plexe",
+  "api": "https://devasheeshg.github.io/yc-api/batches/spring-2025/plexe.json",
+  "year_founded": 2025,
+  "city": "London",
+  "country": "GB",
+  "linkedin_url": "https://www.linkedin.com/company/plexe-ai/",
+  "x_url": "https://x.com/PlexeAI",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": "https://github.com/plexe-ai/",
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/4911874a37ff01bfa27bb33e5f83f49e6970068e.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Nicolas Dessaigne",
+    "url": "https://www.ycombinator.com/people/nicolas-dessaigne"
+  },
+  "founders": [
+    {
+      "user_id": 2260416,
+      "full_name": "Vaibhav Dubey",
+      "title": "Founder/CEO",
+      "founder_bio": "I make AI create AI.",
+      "is_active": true,
+      "linkedin_url": null,
+      "x_url": "https://x.com/VaibhavMDubey",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/3ef2a9cbf97215a02c0cd71bfe9793e95f7182c3.jpg"
+    }
+  ],
+  "jobs": [
+    {
+      "id": 78821,
+      "title": "Forward Deployed Engineer",
+      "url": "https://www.ycombinator.com/companies/plexe/jobs/eocGfXv-forward-deployed-engineer",
+      "location": "IN / Remote (IN)",
+      "type": "Full-time",
+      "role": "Engineering",
+      "role_type": "Full stack",
+      "salary_range": "₹1.5M - ₹3M INR",
+      "equity_range": "0.01% - 0.03%",
+      "experience": "3+ years",
+      "visa": "US citizenship/visa not required",
+      "skills": []
+    }
+  ],
+  "news": [
+    {
+      "title": "10 Most Exciting AI Agent Startups at YC Demo Day Spring Cohort 2025 - Business Insider",
+      "url": "https://www.businessinsider.com/y-combinator-yc-demo-day-spring-ai-agent-startups-2025-6",
+      "date": "Jun 11, 2025"
+    }
+  ],
+  "launches": [
+    {
+      "id": 90589,
+      "title": "Plexe - Build ML models from a prompt",
+      "tagline": "Plexe is an open-source agent that turns natural language task descriptions into trained machine learning models.",
+      "body": "We’re Vaibhav and Marcello. We’re building Plexe, an open-source agent that turns natural language task descriptions into trained ML models.\n\nhttps://youtu.be/CwNX0aU9MsE\n\n## **🤔 1. Problem**\n\nLots of great use cases for ML models in businesses never materialize because ML projects are messy and convoluted. You spend months finding the data, cleaning it, experimenting with models and deploying them to production, only to find out that the project has been binned due to taking so long. At a previous employer, we witnessed a team of 10 ML engineers spend 2 years and $3M building models for a project that never saw the light of day. \n\nThere are several tools for “automating” ML, but it still takes teams of ML experts to actually productionize something of value. And we can’t keep throwing LLMs at every ML problem. Why use a generic 10B parameter language model, if a logistic regression trained on your data could do the job better?\n\n## **✅ 2. Solution**\n\nStep 1: Connect your data sources\\\nStep 2: Describe your problem statement\\\nStep 3: Use the deployed model via API\n\nhttps://youtu.be/zByvH0wTSuE\n\n## **🚀 3. How does it work?**\n\nPlexe uses a self-correcting team of ML engineering agents to research, experiment, evaluate, refine, and deploy the best performing model over an API endpoint. It connects to data sources, discovering relevant fields, and autonomously building the model. Think of it like your own ML helper helping you go from idea to deployed models 10x faster.\n\nhttps://youtu.be/bUwCSglhcXY\n\n## **👋 4. Team**\n\n[Vaibhav Dubey](https://bookface.ycombinator.com/user/2260416) (ex-Proofpoint, Expedia, Imperial College London) and [Marcello De Bernardi](https://bookface.ycombinator.com/user/2337737) (ex-AWS, Expedia, Oxford) met 6 years ago while building a chatbot that served 9+ million customers of a large bank. Since then, they’ve built enterprise-scale ML solutions that serve billions of predictions per day for millions of users worldwide.\n\n![uploaded image](/media/?type=post&id=90589&key=user_uploads/2260416/4e5a0513-e013-4adc-9520-ebde07c44981)\n\n## **🙏 5. Our ask**\n\n* We’d love to get in touch with any companies that have a lot of data but have not been able to build ML features on top of them!\n* If you’re an individual who believes that the future of ML development is autonomous and open source, check out our agent: https://github.com/plexe-ai/plexe\n\nGet in touch with us: [founders@plexe.ai](mailto:founders@plexe.ai) ",
+      "url": "https://www.ycombinator.com/launches/NZ7-plexe-build-ml-models-from-a-prompt",
+      "votes": 67,
+      "created_at": "2025-05-21T01:44:48.117Z"
+    }
+  ]
+}

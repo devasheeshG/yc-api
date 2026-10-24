@@ -1,0 +1,111 @@
+{
+  "id": 30287,
+  "name": "Calltree",
+  "slug": "calltree",
+  "former_names": [
+    "Scotty AI",
+    "Calltree AI"
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/e2ad0fe64b625227762a6c6a44c1872475df287d.png",
+  "website": "https://calltree.ai",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "Calltree makes enterprise-grade AI support reps for call centers. Our AI reps take voice calls and chats like other AI support agents but can also use internal enterprise tools like a homegrown CRM or internal dashboards, like the highly trained humans working there today.",
+  "one_liner": "Enterprise-grade AI support reps for call centers",
+  "team_size": 14,
+  "industry": "B2B",
+  "subindustry": "B2B",
+  "launched_at": 1738270018,
+  "tags": [
+    "Generative AI",
+    "SaaS",
+    "B2B",
+    "Customer Service",
+    "AI"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": true,
+  "nonprofit": false,
+  "batch": "Winter 2025",
+  "status": "Active",
+  "industries": [
+    "B2B"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/calltree",
+  "api": "https://devasheeshg.github.io/yc-api/batches/winter-2025/calltree.json",
+  "year_founded": 2025,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/calltree-ai/",
+  "x_url": "",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/e2ad0fe64b625227762a6c6a44c1872475df287d.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Brad Flora",
+    "url": "https://www.ycombinator.com/people/brad-flora"
+  },
+  "founders": [
+    {
+      "user_id": 73858,
+      "full_name": "Kun Qian",
+      "title": "Founder/CEO",
+      "founder_bio": "Kun, co-founder and CEO of Calltree AI, previously a product leader at AWS where he focused on contact center solutions. During his tenure, he built and scaled multiple product lines that achieved tens of millions in ARR. Drawing from deep insights into contact center operations and analytics, Kun co-founded Calltree AI to empower contact centers with the data-driven insights they need to optimize operations and reduce costs.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/qian-kun/",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/735bebfe8244e66524a9e47ee24a1800e00d2a31.jpg"
+    },
+    {
+      "user_id": 818746,
+      "full_name": "Robertson Taylor",
+      "title": "Founder/CRO",
+      "founder_bio": "Worked on applied multimodal AI with large enterprises at Marqo. Worked on ML for high cardinality anomaly detection that was deployed into fortune 100 companies and banks while at AWS. Led platform teams at Hopper. Georgia Tech CS grad, worked on HPC research.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/robertsonotaylor/",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/313949bd6392817fcb06c69c12bace2133903ad2.jpg"
+    }
+  ],
+  "jobs": [
+    {
+      "id": 88609,
+      "title": "AI Operations Analyst",
+      "url": "https://www.ycombinator.com/companies/calltree/jobs/qNST1yz-ai-operations-analyst",
+      "location": "San Francisco, CA, US",
+      "type": "Full-time",
+      "role": "Operations",
+      "role_type": null,
+      "salary_range": "$70K - $100K",
+      "equity_range": "",
+      "experience": "Any (new grads ok)",
+      "visa": "US citizen/visa only",
+      "skills": []
+    }
+  ],
+  "news": [],
+  "launches": [
+    {
+      "id": 87336,
+      "title": "Calltree - AI Agent That Optimizes Enterprise Call Center Workflows",
+      "tagline": "AI operations analyst for enterprise call center workflows",
+      "body": "TLDR: Cutting just 1 second off each customer call can save enterprise call centers millions of dollars. Calltree helps enterprises' VP of Operations understand how to make their call center more efficient. Our AI agent analyzes millions of minutes of call center recordings to find inefficiencies in workflows and quantifies the cost of each action. For example, when a rep is handling a credit card dispute, Calltree can identify that reps spend 30 seconds per call on manual data gathering and data entry, propose a solution, and measure the opex savings. Calltree surfaces these insights in an analytics tool and generates reports, making it easy for operation leaders to build business cases to prioritize improvements, realizing millions in opex savings.\n\nAsk: If cutting every second matters to your call center, please email us [kun@calltree.ai](mailto:kun@calltree.ai) and [rob@calltree.ai](mailto:rob@calltree.ai) or [book a demo here.](https://calendly.com/kun-calltree/30min) \n\n[Checkout our launch video!](https://youtu.be/v-9hFgH_gCI)\n\n**The Problem**\n\nLarge enterprises track every second of a phone call because **reducing average call time** can save millions of dollars each year. However, enterprises don't have a scalable way to find these inefficiencies. Manual time studies (in person shadowing call center reps, etc.) are tedious, unscalable, and expensive. \n\n**What Are Screen Recordings?**\n\nMany contact centers don’t just record the audio of customer calls; they also capture **everything the rep does on their screen** for training, compliance, and quality assurance. **Less than 1% of these screen recordings** are ever reviewed by a manager or analyst and **miss 99% of calls**. This leads to blind spots and missed opportunities for massive cost savings.\n\n**Our Solution**\n\n* **AI agent that finds workflow inefficiencies** (e.g., toggling between multiple systems to complete a single task).\n* **Quantify the time and cost** of each action (e.g., “Switching between these five legacy apps costs 20 seconds per call → $5M/year”).\n* **Operation leaders use these insights** to build quick business cases to fix inefficiencies. After changes are implemented, Calltree measures the impact pre- and post-fix to **prove cost reductions**.\n\n**Our team**\n\n![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdf17k-TMCzITHR-cAuUjxmf1XRQMpsQRvVeVslxQKILE2Jv6xHq2NSXtJWSM1WyEDXZBON4FJ1U7A77AKzZt7VvkUe7HGq8ozwJT3lf8O4nUgM8CwHtfhZ60iIsEanYT077wTjFA?key=5B91WL3MPEXhLdY8htNQCHC6)\n\n* **Kun** led product at AWS’ contact center solution, working with hundreds of large enterprises such as Capital One, Intuit, and Adobe.\n* **Rob** specializes in multimodal search for video and audio, previously helped companies like Walmart and Etsy fine tune embedding models.\n* After seeing how **little** of these screen recordings ever got analyzed—despite their huge potential value—we decided to automate that process end-to-end.\n\n**Our Ask**\n\n* Follow us on [LinkedIn](https://www.linkedin.com/company/calltree-ai), and [book a demo](https://calendly.com/kun-calltree/30min) with our team.\n* Share this post! -  Do you know anyone in your network who is a VP of Operations, VP of call center operations, VP of Contact Center? Please share this post (or our demo video below!)\n* Learn more at [calltree.ai](https://calltree.ai)",
+      "url": "https://www.ycombinator.com/launches/Mie-calltree-ai-agent-that-optimizes-enterprise-call-center-workflows",
+      "votes": 23,
+      "created_at": "2025-01-31T19:55:57.857Z"
+    }
+  ]
+}

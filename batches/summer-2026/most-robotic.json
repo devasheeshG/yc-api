@@ -1,0 +1,95 @@
+{
+  "id": 31341,
+  "name": "Most Robotic",
+  "slug": "most-robotic",
+  "former_names": [
+    "Instance"
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/16ccadcbd2ec474ed470efbc872763f4a7984ec0.png",
+  "website": "https://mostrobotic.com/",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "We're a robotics research lab pushing what's possible with physical AI.\r\n\r\nWe're MIT computer scientists & friends since middle school, with robotics research backgrounds and industry experience at NASA JPL, SpaceX, and AWS.",
+  "one_liner": "Research lab building the most robotic household in the world",
+  "team_size": 2,
+  "industry": "Industrials",
+  "subindustry": "Industrials -> Manufacturing and Robotics",
+  "launched_at": 1782761102,
+  "tags": [
+    "Robotics",
+    "AI"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Summer 2026",
+  "status": "Active",
+  "industries": [
+    "Industrials",
+    "Manufacturing and Robotics"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/most-robotic",
+  "api": "https://devasheeshg.github.io/yc-api/batches/summer-2026/most-robotic.json",
+  "year_founded": 2026,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/mostrobotic/",
+  "x_url": "https://twitter.com/mostrobotic",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/16ccadcbd2ec474ed470efbc872763f4a7984ec0.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [
+    "https://bookface-images.s3.us-west-2.amazonaws.com/attachments/5d0a5df4551ace828d9502da4d71b644d4143a15.png"
+  ],
+  "primary_partner": {
+    "name": "Ankit Gupta",
+    "url": "https://www.ycombinator.com/people/ankit-gupta"
+  },
+  "founders": [
+    {
+      "user_id": 3107325,
+      "full_name": "Claire Mao",
+      "title": "Founder/CEO",
+      "founder_bio": "MIT Math + CS. Aerospace research @ MIT Media Lab; prev @ NASA JPL",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/clairemao-/",
+      "x_url": "https://x.com/clairemao78",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/8bc8742026b7ae3d795367ca9cbc052f0035d9c3.jpg"
+    },
+    {
+      "user_id": 2386225,
+      "full_name": "Lucy Cai",
+      "title": "Founder/CTO",
+      "founder_bio": "MIT CS + AI. Robotics research @ MIT LIS Lab; prev @ SpaceX, Amazon (AWS)",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/lucy-cai/",
+      "x_url": "https://x.com/LucyCai9",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/7e3c58d6a8b486439a545ea902cf0dd6981d51ed.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 105382,
+      "title": "Instance: Automated evaluation for robot policies, starting with the success detector",
+      "tagline": "Today, evaluating a robot policy means humans have to watch the robot roll out, mark success, and reset the scene – we're automating that.",
+      "body": "**TL;DR:** We’re **automating robot evaluation**– the loop where you wait for your robot to roll out, judge its success, and then reset the scene. Today, we’re launching step one: a **success detector** that automatically tells you whether your robot actually completed its task. Book a demo with [founders@instancelabs.ai](mailto:founders@instancelabs.ai) and we’ll visit your office to show you how it works!\n\n<https://youtu.be/EqxkPffnUKk>\n\n**The problem**\n\nIn Lucy’s robotics research this past year, she **spent way too much time being a babysitter for her robot**. Her project was to get a humanoid to find objects around a room, so her days went like this: start a rollout, watch the robot open all the drawers in the room for 30 minutes, mark success/fail in a spreadsheet, then get up, close all the drawers, and put the objects back where they started. Then do it again, and again, and again. Some days ended with back pain, and for weeks she couldn’t work on anything else because she was stuck doing exactly this.\n\nThat was one robot, in one lab, running a single policy. Industry teams run fleets of robots across dozens of policies, with **multiple people assigned to sit and watch each one**. Every robotics team we’ve talked to has some version of this– and it will only grow as robot foundation models scale.\n\n**Our solution**\n\nInstance is building the **autonomous evaluation rig for robot learning**: your robot rolls out, we judge success, a second robot resets the scene, and the next rollout starts– with no humans in the loop at all.\n\nToday, we’re starting with the success judge. Point us at a task description and your video rollouts, and we return a verdict with detailed subtask captions. We benchmarked our verifier against 10,000+ held-out, human-labeled episodes across 7 robot platforms, and it resulted in **higher accuracy than Claude Opus 4.8, at a fraction of the latency.**\n\n**Try it**\n\nTry it at [demo.instancelabs.ai](http://demo.instancelabs.ai) – drop in a video, or record one from your phone and watch it get verified live.\n\n**Team**\n\nWe’re Claire and Lucy, MIT grads and friends since middle school! \n\nClaire studied math and CS at MIT. At NASA JPL, she built software to simulate planetary atmospheres, and at the MIT Media Lab, she researched sustainable propulsion for spaceflight. She loves working where software meets the physical world.\n\nLucy studied CS at MIT and completed her MEng in MIT's Learning and Intelligent Systems lab. She’s an experienced robotics researcher, and has in the past worked on satellite software at SpaceX, LLM unit testing at Amazon, and brain computer interfaces at Blackrock Neurotech.\n\n**Our ask**\n\nIf you are:\n\n* training robot policies\n* running evals\n* deploying robots in the real world\n* or can intro us to someone who is,\n\nEmail us ([founders@instancelabs.ai](mailto:founders@instancelabs.ai)) to book a demo. We’d love to swing by your office with sweet treats to show you how it works!\n\n![uploaded image](/media/?type=post&id=105382&key=user_uploads/3107325/d03f1074-ae6e-4ab3-acdd-81ff69be93b6)\n\n",
+      "url": "https://www.ycombinator.com/launches/RPi-instance-automated-evaluation-for-robot-policies-starting-with-the-success-detector",
+      "votes": 36,
+      "created_at": "2026-07-13T20:48:30.605Z"
+    }
+  ]
+}

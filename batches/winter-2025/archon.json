@@ -1,0 +1,139 @@
+{
+  "id": 30307,
+  "name": "Archon",
+  "slug": "archon",
+  "former_names": [
+    "NEXUS"
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/a035400f6acd84a35dea2f9fb7832b054c02ed12.png",
+  "website": "https://archon.inc",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "Archon helps software companies sell to the government by cutting the required federal compliance timeline (called FedRAMP) down from 16 to 6 months and cuts costs by $1M per company. \r\n\r\nEmail us at inquiries@archon.inc",
+  "one_liner": "We help software companies sell to government.",
+  "team_size": 3,
+  "industry": "Government",
+  "subindustry": "Government",
+  "launched_at": 1738095676,
+  "tags": [
+    "GovTech",
+    "Compliance",
+    "Cybersecurity",
+    "Cloud Computing"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": true,
+  "nonprofit": false,
+  "batch": "Winter 2025",
+  "status": "Active",
+  "industries": [
+    "Government"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": [
+    {
+      "question": "How did your company get started? (i.e., How did the founders meet? How did you come up with the idea? How did you decide to be a founder?)",
+      "answer": "We came to YC planning to build AI agents that would speed up government workflows. But, we realized that we’d be spending more of our time on government compliance, than on our actual product. Currently, companies seeking FedRAMP certification face two bad options: spend millions of dollars on consultants, or use loophole solutions that lock them into unfavorable terms. We're building the solution we wish existed - a straightforward path that helps software companies build lasting government partnerships."
+    }
+  ],
+  "url": "https://www.ycombinator.com/companies/archon",
+  "api": "https://devasheeshg.github.io/yc-api/batches/winter-2025/archon.json",
+  "year_founded": 2024,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/getarchon/",
+  "x_url": "https://x.com/archoninc",
+  "fb_url": null,
+  "cb_url": "https://www.crunchbase.com/organization/archon-technologies-9074",
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/a035400f6acd84a35dea2f9fb7832b054c02ed12.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Gustaf Alstromer",
+    "url": "https://www.ycombinator.com/people/gustaf-alstromer"
+  },
+  "founders": [
+    {
+      "user_id": 1220402,
+      "full_name": "George Parks",
+      "title": "Founder/CEO",
+      "founder_bio": "CEO of Archon. Previously a tech policy analyst at the U.S. Department of State, informing diplomats on trends in AI, Quantum, and VR/XR. Originally a software engineering consultant. Studied CS at Georgia Tech.\n",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/george-parks/",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/a00f68f05f36874e6552433e262e98e436a1173e.jpg"
+    }
+  ],
+  "jobs": [
+    {
+      "id": 77338,
+      "title": "Founding Engineer, Infrastructure",
+      "url": "https://www.ycombinator.com/companies/archon/jobs/iSDasJM-founding-engineer-infrastructure",
+      "location": "San Francisco, CA, US",
+      "type": "Full-time",
+      "role": "Engineering",
+      "role_type": "Devops",
+      "salary_range": "$130K - $210K",
+      "equity_range": "0.50% - 1.50%",
+      "experience": "Any (new grads ok)",
+      "visa": "US citizen/visa only",
+      "skills": [
+        "Microsoft Azure",
+        "Groovy",
+        "Kubernetes"
+      ]
+    },
+    {
+      "id": 77339,
+      "title": "Software Engineer, Security",
+      "url": "https://www.ycombinator.com/companies/archon/jobs/n9cvKhD-software-engineer-security",
+      "location": "San Francisco, CA, US",
+      "type": "Full-time",
+      "role": "Engineering",
+      "role_type": "Backend",
+      "salary_range": "$120K - $170K",
+      "equity_range": "0.25% - 0.75%",
+      "experience": "Any (new grads ok)",
+      "visa": "US citizen/visa only",
+      "skills": [
+        "Docker",
+        "Software Security"
+      ]
+    },
+    {
+      "id": 77340,
+      "title": "Software Engineer, Full Stack",
+      "url": "https://www.ycombinator.com/companies/archon/jobs/R6DSmps-software-engineer-full-stack",
+      "location": "San Francisco, CA, US",
+      "type": "Full-time",
+      "role": "Engineering",
+      "role_type": "Full stack",
+      "salary_range": "$120K - $170K",
+      "equity_range": "0.25% - 0.75%",
+      "experience": "Any (new grads ok)",
+      "visa": "US citizen/visa only",
+      "skills": []
+    }
+  ],
+  "news": [],
+  "launches": [
+    {
+      "id": 87386,
+      "title": "Archon: Fast-track selling software to government",
+      "tagline": "Get the cybersecurity requirements you need to sell software to government.",
+      "body": "We’re George and Sam—co-founders of Archon, and former government staffers. \n\n**TL;DR:** Our free-to-integrate SDK gives you all the cybersecurity requirements you need to sell to government faster and cheaper. This saves companies $1M (2/3rds of the cost) and reduces the timeline from 16 to 6 months. \n\n**Problem: The government software market is locked behind an opaque, million-dollar compliance process (called FedRAMP) that favors big incumbents with lots of time.**\n\n**Solution:** Our SDK provides compliant-out-of-the-box implementations of all the compliance features you need to sell to government – authentication, logging, access control, etc. You can integrate it into your existing codebase in a week, and we handle all of the obscure compliance restrictions so you don’t have to. \n\n![uploaded image](/media/?type=post&id=87386&key=user_uploads/2110890/2caad249-0936-4910-9a4e-12ad4425e4f5)\n\nIf you want to sell your software to government agencies, start exploring our SDK [here.](https://archon.inc/docs)\n\n\\\n**We condense the FedRAMP process into 4 steps.**\n\n1. Integrate our free SDK (what we’re launching today)\n2. Self-serve onboarding; then we prepare your 700-page security package\n3. Get an audit\n4. Wait for the Federal authorization board to approve your audit\n\nA typical Series A startup spends $1.5M on consultants and 1.5 years on the first 2 steps. Archon’s SDK cuts the integration timeline down to 1 week. We also know many startups that never sold their software to the government because the barrier was just too high. **Yet, the government’s IT spending accounts for 20% of the entire U.S. software market.** It’s our mission to eliminate these compliance hurdles and bring much-needed innovation from small tech to the federal sector. \n\n![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXcz8xKiHOkcrclWYcEfAY2gc_hB1s4NlkbyEpQMLR9RNfngWF5EKYxG6N7b67Ix_5A7xxplmqU3xUvP65S-RAl4BSWsBuHJ0sy1duVwFAvZXXZ7xTPG9XPF4LZufVFMc5eQ-a-qrQ?key=gLGrgddQZLJJWptIH4zDOWpy)\n\n**Context:**\n\nWe came to YC planning to build AI agents that would speed up government workflows. But, we realized that we’d be spending more of our time on government compliance, than on our actual product. Currently, companies seeking FedRAMP certification face two bad options: spend millions of dollars on consultants, or use loophole solutions that lock them into unfavorable terms. We're building the solution we wish existed - a straightforward path that helps software companies build lasting government partnerships.\n\n**Team:**\n\n* **George Parks:** Advised diplomats on emerging technologies at State.\n* **Sam Jung:** Previously at State, advised the U.S. AI Safety Institute.\n\n# **OUR ASK:**\n\n* **Anyone looking to sell software to the government, or get FedRAMP**, we’d be grateful for an introduction. Email us at [founders@archon.inc](mailto:founders@archon.inc)\n* **If you want to sell to government, what technology do you use?** Our SDK is only available for NodeJS to start. Let us know what tech stack you use with [this form.](https://forms.office.com/r/m5vPfmqVP3)",
+      "url": "https://www.ycombinator.com/launches/MjS-archon-fast-track-selling-software-to-government",
+      "votes": 26,
+      "created_at": "2025-02-03T21:39:28.653Z"
+    }
+  ]
+}

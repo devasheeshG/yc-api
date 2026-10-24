@@ -1,0 +1,113 @@
+{
+  "id": 30675,
+  "name": "BootLoop",
+  "slug": "bootloop",
+  "former_names": [
+    "BootLoop",
+    "BootLoop, Inc."
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/93ce55100656a6ea0aa0d88dd475881eab4f5632.png",
+  "website": "https://bootloop.ai/",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "BootLoop is building the first AI agent to write and test firmware on real hardware. Existing AI coding assistants fail completely with embedded systems, but our agent ingests datasheets, schematics, and other design files to write firmware in your style and automatically test it on your hardware.",
+  "one_liner": "Firmware in minutes, not months - rigorously tested on real hardware",
+  "team_size": 3,
+  "industry": "B2B",
+  "subindustry": "B2B -> Engineering, Product and Design",
+  "launched_at": 1752184530,
+  "tags": [],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": true,
+  "nonprofit": false,
+  "batch": "Summer 2025",
+  "status": "Active",
+  "industries": [
+    "B2B",
+    "Engineering, Product and Design"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/bootloop",
+  "api": "https://devasheeshg.github.io/yc-api/batches/summer-2025/bootloop.json",
+  "year_founded": 2025,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/bootloop/",
+  "x_url": "https://x.com/BootLoopAI",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/93ce55100656a6ea0aa0d88dd475881eab4f5632.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Diana Hu",
+    "url": "https://www.ycombinator.com/people/diana-hu"
+  },
+  "founders": [
+    {
+      "user_id": 2669426,
+      "full_name": "Noah Pacik-Nelson",
+      "title": "Founder/CEO",
+      "founder_bio": "Noah is the co-founder and CEO of BootLoop. He was a researcher in Accenture’s AI Refinery, building agents for the Fortune 500. Prior, he worked on neuromorphic computing and ultra-low power AI at Accenture Labs and the MIT Media Lab. As CTO of the Ventilator Project, he led work on an FDA-authorized ventilator featured in the Smithsonian and winner of the Autodesk Excellence Award. He has three patents and seven papers across digital signal processing, energy harvesting, and 3D printing.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/noah-pacik-nelson/",
+      "x_url": "https://x.com/noahpaciknelson",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/4c1659b02d0630daa923798c26e8883cdd2e635b.jpg"
+    },
+    {
+      "user_id": 2776384,
+      "full_name": "Chris Markus",
+      "title": "Founder/CTO",
+      "founder_bio": "Co-founder and CTO of BootLoop. Former lead software engineer for SpaceX's Starship booster catch system. Built SpaceX’s Raptor engine firmware from first fire to flight. Before SpaceX, a visiting researcher at MIT Media Lab designing EEG electronics and firmware lead for an FDA-authorized ventilator.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/chris-markus/",
+      "x_url": "https://x.com/chrism4rkus",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/5fa411b468423de69dd459d112be13a462571f87.jpg"
+    }
+  ],
+  "jobs": [
+    {
+      "id": 93355,
+      "title": "Founding Embedded Engineer",
+      "url": "https://www.ycombinator.com/companies/bootloop/jobs/ZEkiBte-founding-embedded-engineer",
+      "location": "San Francisco, CA, US",
+      "type": "Full-time",
+      "role": "Engineering",
+      "role_type": "Embedded systems",
+      "salary_range": "$180K - $280K",
+      "equity_range": "1.50% - 3.00%",
+      "experience": "3+ years",
+      "visa": "US citizen/visa only",
+      "skills": [
+        "C",
+        "C++",
+        "Embedded Linux",
+        "Firmware",
+        "Microcontrollers",
+        "FPGAs"
+      ]
+    }
+  ],
+  "news": [],
+  "launches": [
+    {
+      "id": 92063,
+      "title": "BootLoop - AI Agent for Firmware & Embedded Software",
+      "tagline": "AI that writes, tests, and debugs firmware on real hardware in minutes.",
+      "body": "## **TL;DR**\n\nAll modern hardware needs firmware but it’s expensive, time-consuming and bugs in the field can lead to multi-million dollar recalls. BootLoop is building an AI agent to deliver custom firmware, fully tested on your hardware, in minutes not months. Our team built the firmware for SpaceX’s Raptor engine from first fire to flight, made brain-computer interfaces at MIT, and is _embedding_ that experience into our agent.\n\n**Ask:** Are you building hardware or do you know someone who is? Email us at [founders@bootloop.ai](mailto:founders@bootloop.ai) to be added to our pilot program. See below for details.\n\nhttps://www.youtube.com/watch?v=GBI1fkx5Bss\n\n## **❌ The Problem**\n\nAll modern hardware needs firmware, but writing firmware is hard. It’s difficult to debug and tricky to validate and chip datasheets can reach upwards of 3000 pages. On top of that, there’s a shortage of qualified firmware engineers. As hardware gets more complex, the time and cost to write firmware for it goes up exponentially.\n\n**The problems are staggering:**\n\n* The hardware world is **incredibly fractured** - over 65 different major manufacturers, producing over 80,000 unique chips, each of which has different software stacks, different frameworks, and different capabilities\n* Modern hardware requires sophisticated networking stacks, power optimization, and advanced security, driving up complexity\n* Firmware engineers are hard to find - **you can't major in firmware engineering** - and even the most attractive engineering companies take up to **6 months to find a qualified engineer**\n\n## **🤖 Our Solution**\n\nWe’re building an AI agent specifically for firmware and embedded software development, with the context and tooling needed to write low-level code and validate it on hardware in real-time.\n\n**Key capabilities of our Agent:**\n\n* **Deep hardware understanding:** Ingests your documentation, datasheets, schematics, system diagrams, existing codebases, and more…\n* **Hardware interaction:** Talks directly with your boards and test equipment like oscilloscopes, logic analyzers, and hardware debuggers\n* **Real testing:** Validates code on actual hardware or in simulation\n* **Framework expertise:** Writes in your language and style using your preferred embedded frameworks and proprietary libraries\n* **ITAR compliance:** The first ITAR-capable coding agent, opening massive aerospace and defense markets\n\n**Pilot program:** Our team will work with you as forward-deployed engineers on a specific firmware problem. We’ll use our agent internally to deliver aerospace-grade code FAST, with a human validating every line. After the pilot, we’ll deploy your custom version of the BootLoop agent for your future firmware needs.\n\n## **👥 The Team**\n\n**Chris Markus (CTO)** - Former **lead software engineer for SpaceX's Starship booster catch system**. He also built SpaceX’s **Raptor engine firmware from first fire to flight**. Before SpaceX, he was a visiting researcher at MIT Media Lab designing EEG electronics and firmware lead for an FDA-authorized ventilator.\n\n**Noah Pacik-Nelson (CEO)** - Formerly at Accenture’s AI Refinery, he **built agents for Fortune 500 companies**. Prior, he researched neuromorphic computing and ultra-low power edge AI at Accenture Labs. He has **patents and papers across AI adaptation, digital signal processing, and energy harvesting** and was a visiting researcher at the MIT Media Lab, building brain-computer interfaces for ALS patients.\n\n## **🙏 Our Ask**\n\n**If you're building hardware (or know someone who is), we'd love to add you to our pilot program.** Email us at [founders@bootloop.ai](mailto:founders@bootloop.ai) to get on the list.\n\nDuring the pilot, we’ll create your firmware FAST, using the BootLoop agent internally while reviewing every line by hand to ensure it meets our rigorous standards.\n\n**Currently Onboarding:**\n\n* Deep tech companies\n* Aerospace & defense contractors\n* Medical device manufacturers\n* Robotics companies\n* IoT hardware developers\n\n![uploaded image](/media/?type=post&id=92063&key=user_uploads/2669426/4b1f40ab-f41d-4013-bdd5-a557a8faf4a3)\n\n",
+      "url": "https://www.ycombinator.com/launches/Nwt-bootloop-ai-agent-for-firmware-embedded-software",
+      "votes": 74,
+      "created_at": "2025-07-11T14:54:46.832Z"
+    }
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "id": 31209,
+  "name": "AxionOrbital Space",
+  "slug": "axionorbital-space",
+  "former_names": [],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/45756da0fcb8d428dd8a6d3aaccf624ef98863b9.png",
+  "website": "https://axionorbital.space/",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "AxionOrbital Space builds foundation models that enable continuous visibility through clouds and darkness. Legacy optical satellites are rendered useless 70% of the time by weather and night cycles, while Synthetic Aperture Radar (SAR) produces data that is unintelligible to humans and breaks standard vision pipelines.\r\n\r\nWe solve this by translating raw radar backscatter into analysis-ready optical imagery in real-time. Our proprietary architecture uses deterministic one-step diffusion to transform complex radar signals into clear, photorealistic images. This enables persistent, 24/7 situational awareness for defense, commodities trading, and disaster response, guaranteeing visibility even when the sky is blocked.",
+  "one_liner": "Foundation models for 24/7 Earth Observation",
+  "team_size": 2,
+  "industry": "Industrials",
+  "subindustry": "Industrials -> Aviation and Space",
+  "launched_at": 1766035351,
+  "tags": [],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Winter 2026",
+  "status": "Active",
+  "industries": [
+    "Industrials",
+    "Aviation and Space"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": [
+    {
+      "question": "What is your long-term vision? If you truly succeed, what will be different about the world?",
+      "answer": "We will replace passive optical satellites as the primary mode of Earth observation. By bridging the interpretability gap, we make SAR the global default for critical monitoring ; delivering continuous, 24/7 intelligence at 1/100th the cost of current tasking. Crucially, this efficiency decoupling means humanity can monitor the entire planet with fewer, more capable sensors, drastically reducing hardware congestion in Low Earth Orbit. We are building a future where planetary visibility is not a luxury dependent on the weather, but an omnipresent utility available anytime, anywhere."
+    }
+  ],
+  "url": "https://www.ycombinator.com/companies/axionorbital-space",
+  "api": "https://devasheeshg.github.io/yc-api/batches/winter-2026/axionorbital-space.json",
+  "year_founded": 2025,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/axion-orbital/",
+  "x_url": "https://x.com/axionorbital",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/45756da0fcb8d428dd8a6d3aaccf624ef98863b9.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [
+    "https://bookface-images.s3.us-west-2.amazonaws.com/attachments/9ec7569115a16494ea4fff1678fe8410c5099e96.png",
+    "https://bookface-images.s3.us-west-2.amazonaws.com/attachments/746df44185c55faf1d8e1acda9b27575133cc01d.png"
+  ],
+  "primary_partner": {
+    "name": "Tyler Bosmeny",
+    "url": "https://www.ycombinator.com/people/tyler-bosmeny"
+  },
+  "founders": [
+    {
+      "user_id": 2760886,
+      "full_name": "Dhenenjay Yadav",
+      "title": "Founder/CEO",
+      "founder_bio": "Co-founder & CEO of AxionOrbital Space - Building Foundation models for 24/7 Earth Observation | Computer Vision Research | Ex- IIMA, ISRO | RL Enthusiast | Ex-Esports (PUBG) | Built UAVs in the past",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/dhenenjay-yadav/",
+      "x_url": "https://x.com/dhenenjay",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/f731bc6af568636f7e5ae065c8b3d832e00daa5b.jpg"
+    },
+    {
+      "user_id": 3189834,
+      "full_name": "Atharva Peshkar",
+      "title": "Founder/CTO",
+      "founder_bio": "Co-founder & CTO of AxionOrbital Space - Building Foundation models for 24/7 Earth Observation | Computer Vision Research | Ex- Harvard | CS PhD @ CU Boulder",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/atharva-peshkar-43a104b7",
+      "x_url": "https://x.com/atharva_peshkar",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/da1d88ea72a5f46d5014e83f806eb34bc636c013.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 96547,
+      "title": "AxionOrbital Space : SOTA Foundation Models for 24/7 Earth Observation",
+      "tagline": "Introducing Orion : The most advanced SAR-to-Optical Model ever built ~ FID=30.24 || SSIM=0.6",
+      "body": "Visibility is everything. It drives defense strategies, market predictions, and disaster response. Being able to see the ground truth, regardless of weather or time of day is how modern intelligence information asymmetry is created. Yet, 70% of the time the world is effectively blind. Clouds, smoke, and darkness render standard optical satellites useless two-thirds of the time.\n\nToday, we are changing that. We are introducing **ORION**.\n\n![uploaded image](/media/?type=post&id=96547&key=user_uploads/2760886/7df2ec94-f4be-4b48-8aa5-122a80822ded)\n\nORION is the most advanced Earth Observation model ever created, making continuous visibility possible. It has a FID score of **30.24**, beating the current SOTA C-DiffSET by **19.23%** on the MSAW benchmark. It also crushed every competitor with a SSIM score of **0.60**.\n\nIt eliminates the critical visibility gap and removes the physical constraints of traditional Earth Observation. Our model converts **RADAR (SAR)** into very high resolution optical satellite imagery which is fully anchored in the radar signal and instantly understandable to humans.\\\n\\\nThis unlocks total **Planetary Awareness**. Orion pierces through smoke, clouds, and night to create a seamless 24/7 stream of high res optical imagery.\n\nBy transforming complex radar signals into clear visual data, we enable industry grade alpha for hedge funds/HFTs, situational awareness for defense, crop monitoring for agriculture, and intelligent planning for urban planners.\\\n\\\n[Axion Launch Video](https://youtu.be/qWYjqk26V20)\n\n**We are releasing Orion with capabilities that redefine the state-of-the-art:**\n\n* **Unmatched Fidelity:** Orion achieved the highest ever FID score of **30.24**, surpassing the current SOTA (C-DiffSET) by **19.23%** on the MSAW benchmark. We do not hallucinate buildings; our physically anchored priors reveal the ground truth exactly as it exists. We also achieved a new SOTA SSIM score of **0.60**\n* **Real-Time Latency:** While standard diffusion models take a few seconds to generate an image, Orion runs in **0.06 seconds**. \n* **Total Visibility:** Whether it is 3 AM, raining, or covered in smoke, Orion maintains full operational visibility.\n\n**We built Orion to power the world’s most critical operations:**\n\n* **For Defense & Intelligence:** Operators can track vehicle/troop movement in total darkness or through heavy smoke during reconnaissance operations.\n* **For Traders:** Analysts can measure global oil supply by analysing oil rigs and wells 24/7, rather than relying on outdated clear-sky data.\n* **For Agriculture & Climate:** Agencies can map flood lines through heavy storm clouds to coordinate disaster response instantly, rather than waiting for weather conditions to improve.\n\n**The Team** We are Computer Vision researchers who have lived this problem.\n\n* [**Dhenenjay Yadav**](https://www.linkedin.com/in/dhenenjay-yadav/)** (CEO):** ML Engineer at ISRO, RL Researcher at IIMA\n* [**Atharva Peshkar**](https://www.linkedin.com/in/atharva-peshkar-43a104b7/)** (CTO):** PhD CS (CU Boulder), Researcher at Harvard VCG.\n\n**Our Ask** We are deploying via API or on-prem/edge for enterprise clients. We are looking for introductions to enterprises who require continuous visibility:\n\n1. **Defense & Intelligence:** Decision-makers requiring 24/7 ISR capabilities.\n2. **Finance:** HFTs and Commodity Traders needing an edge in supply chain monitoring.\n3. **Satellite Data Aggregators/Analytics** : If you buy SAR/Optical data and sell data products.\n4. **SAR/Optical Satellite Providers:** If you own a constellation, let’s partner up.\n5. **Agri/Climate/Others** : If you are anyone who uses high res, high frequency satellite images, feel free to dm us.\n\n**Check Axion here:**[ https://axionorbital.space/](https://axionorbital.space/)",
+      "url": "https://www.ycombinator.com/launches/P7D-axionorbital-space-sota-foundation-models-for-24-7-earth-observation",
+      "votes": 230,
+      "created_at": "2026-01-06T19:18:05.835Z"
+    }
+  ]
+}

@@ -1,0 +1,103 @@
+{
+  "id": 26732,
+  "name": "BricksAI",
+  "slug": "bricksai",
+  "former_names": [
+    "Bricks",
+    "Bricks Cloud Technologies",
+    "Bricks",
+    "BricksLLM",
+    "Bricks"
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/44f40e7576a25af3cfc86cc12b6a9b787a7e9a2c.png",
+  "website": "https://www.trybricks.ai/",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "BricksAI is an open-source AI gateway that helps you manage how each of your services is calling different LLM providers.\r\n\r\nYou can create API keys with rate-limits, spend-limits, and expiration dates, then use them to make requests to different LLMs. With our SSO dashboard, you also get (1) role-based access control, and (2) fine-grained metrics (e.g. cost, number of requests, tokens) over each API key.",
+  "one_liner": "Streamlining LLM application management for enterprises",
+  "team_size": 2,
+  "industry": "B2B",
+  "subindustry": "B2B -> Infrastructure",
+  "launched_at": 1692903729,
+  "tags": [
+    "Developer Tools",
+    "B2B"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Summer 2022",
+  "status": "Inactive",
+  "industries": [
+    "B2B",
+    "Infrastructure"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/bricksai",
+  "api": "https://devasheeshg.github.io/yc-api/batches/summer-2022/bricksai.json",
+  "year_founded": 2022,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "",
+  "x_url": "",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/44f40e7576a25af3cfc86cc12b6a9b787a7e9a2c.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": null,
+  "founders": [
+    {
+      "user_id": 991808,
+      "full_name": "Spike Lu",
+      "title": "Founder",
+      "founder_bio": "Emory University - Class of 2019\nSenior Software Engineer at Unity Technologies - 2019 - 2022",
+      "is_active": false,
+      "linkedin_url": "http://linkedin.com/in/spike-lu-38227b105",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/817e16bf6200d5b6aabff2fbc8e6e6ca8b360723.jpg"
+    },
+    {
+      "user_id": 1109574,
+      "full_name": "Donovan So",
+      "title": "Founder",
+      "founder_bio": "hi",
+      "is_active": false,
+      "linkedin_url": "https://www.linkedin.com/in/donovanso/",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/f17567a5b90d99bec76614af844477bd36ac28d4.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 76778,
+      "title": "🧱 BricksAI Cloud - Simple cost control & monitoring for LLMs",
+      "tagline": "We help engineers protect and track their GenAI expenses",
+      "body": "**Tl;dr**: Are you finding it difficult to track your LLM costs per project/user? Do you want to set a custom rate/spend-limit for each project/user?\n\n**Create a **[**free account**](https://www.trybricks.ai/sign-in)** and try us out today 😄**\n\nHey everyone, this is [**@Spike Lu**](http://linkedin.com/in/spike-lu-38227b105) and [**@Donovan So**](https://www.linkedin.com/in/donovanso/)! We're excited to share that we've launched [BricksAI Cloud](https://www.trybricks.ai/).\n\n# **The Problem**\n\nA lot of enterprise features are still missing from today's LLM providers, particularly:\n\n1. there isn't a good way of controlling LLM spendings in a granular way (e.g. per user/project/env/feature etc.)\n2. there isn't a good way of monitoring LLMs in a granular way\n\nBut building an LLM wrapper in-house takes away valuable engineering time from shipping features that actually drive business value.\n\n# **The solution**\n\nBricksAI Cloud is an [open-core](https://github.com/bricks-cloud/BricksLLM) SaaS solution that protects and monitors your LLM usage. We're a proxy, so instead of using API keys from your providers, you'd create and use Bricks API keys that come with custom limits (e.g. expiry date, rate-limit, or spend-limit).\n\n[**Demo video**](https://www.loom.com/share/fe0553312e8a4378b3467c12f22e8714?sid=39bbbec1-da60-4054-899a-9ce991b068a9) ⭐\n\n![uploaded image](/media/?type=post&id=76778&key=user_uploads/1109574/8811f428-392d-4533-973d-516979be917d)\n\nWe currently have official support OpenAI and Anthropic, meaning you’ll be able to accurately track your token usage and cost without any configuration. We also support integrations with custom models.\n\nOver the past few months, we have streamlined LLM operations for a wide range of clients, including a late-stage sustainability tech startup, a major leadership training nonprofit, a top European travel agency, and multiple AI startups.\n\nNow, we're opening up our tool to the world with the launch of BricksAI Cloud. We'd love to see how it can transform your GenAI stack.\n\n# **The ask**\n\n1. Star us on [**Github**](https://github.com/bricks-cloud/BricksLLM) ⭐\n2. Create a [free account](https://www.trybricks.ai/sign-in) and try us out today. _Heads up: we require a 15-min account activation call, this helps us get to know your use case better. Don’t worry, it’s super quick and casual!_\n3. Questions? Feedback? Feature requests? [Book a call with us](https://calendly.com/spike-at-bricks/coffee-chat-with-spike) or email [founders@bricks-tech.com](mailto:founders@bricks-tech.com).",
+      "url": "https://www.ycombinator.com/launches/JyM-bricksai-cloud-simple-cost-control-monitoring-for-llms",
+      "votes": 9,
+      "created_at": "2023-12-11T21:19:06.212Z"
+    },
+    {
+      "id": 74841,
+      "title": "BricksAI🔐: A simple OpenAI access manager for enterprises",
+      "tagline": "BricksAI helps enterprises develop LLM apps more securely",
+      "body": "**Tl;dr:** [BricksAI](https://www.trybricks.ai/) helps enterprises develop LLM apps more securely. We do this through an access manager that can set a spend limit, rate limit and expiration date on individual API keys. \n\n**The Problem: OpenAI does not provide enterprise level security features**\n\n> _“You wouldn’t believe how many organizations are building OpenAI wrappers.”_\n>\n> _\\- A machine learning director at a unicorn startup._\n\nOpenAI does not have enterprise-level security features. A lot of companies need to build enhanced security features on top of what OpenAI offers before using them.\n\n> “We simply assign each team an OpenAI key”\n>\n> \\- A senior engineer working at a public fintech company.\n\nDeveloping OpenAI applications often means that developers have to share OpenAI key credentials with each other to speed up development.\n\nThere are several risks and drawbacks associated with this approach:\n\n* **Increased likelihood of security breaches**: more than 50% of breaches happen due to shared secrets\n* **No cost visibility**: no way of knowing what constitutes a $20k OpenAI bill\n* **No access control**: no source of truth for OpenAI access\n* **Degraded production performance**: OpenAI has an organization-level rate limit. One team’s experimentation with OpenAI could impact the performance of production OpenAI applications if not properly rate limited.\n\nAzure OpenAI service helps fill some of the gaps but this product is simply not available to users of GCP and AWS for competitive reasons.\n\n**The Solution: A self-hosted OpenAI access manager**\n\n[BricksAI](https://www.trybricks.ai/) checks all requests between your applications and different LLMs. We ensure every call is authorized, and does not exceed any traffic and cost limits.\n\nYou can create a custom API key with a **rate-limit**, **spend-limit**, and **expiration date** either programmatically or through our UI:\n\n![](https://lh6.googleusercontent.com/2PBxx_RzNu9dsiySB2IXD4ySeziMayS-afN25SnUBofJEuRla9tBclCHbLg1OGdj_87mHcr3NSI4SMgTkEUtSRHIQr0yLgK1Ty0ZZWnvKSAi4tCEcktVTexY0RkVakz6krMl7mU2m2CO0tvGxJ3W_7g)\n\nThen use the API key to access an LLM like you normally would. When a key reaches its limit (e.g. has expired), our gateway blocks off your requests:\n\n![](https://lh3.googleusercontent.com/nJ4yb431KR5fhWm-5SHhrxEddPFtRWb5kUD4z7Gw2i3gnn3IO4_p7a2aeIqPQhLyW2l1XOx_0J-nv_rVmPv8KHR7adRa3uVd6bzgBbYPPmlfCOhjUoIZe9qIOqrEX3Kd4A8kOmcH9zqcC9yonuZich8)\n\nIn addition, our enterprise offering includes \n\n* **SSO**: SSO integration\n* **Dashboard**: Dashboard view of the keys created\n* **Analytics**: Analytics on usage and cost by team and service\n* **Access Control**: Access control over who can view and create keys\n\n![](https://lh6.googleusercontent.com/B1ecI3KdyzeqrdPU6JRoYflPXpt-y3YiRGuf3wE0_n6gJZxKZX6bxnHCFXFvSh4Rf5MsCTXNWpZEEIsXnsSiEyBqCJ9_GIVaRyWb8BoT6xjITG2pN1SMtiuDLJCryMENyfbPY_Y-2vAfW0fgUjMRuZg)\n\n**Who are we?**\n\n![](https://lh3.googleusercontent.com/QVEctbu3DQ5cZPDkK_P_-9KGBcMg64t7qzcFlEpbO_EpUefLvVcu5ApqHH6oZYx0x8hBDxZdX7PdngRjIkCXp_6ALUFsAn9ZCrB636TWAQ2o5pr1J7z-GVEoYgplvK__JBvVpVnXdnv7Fq5KQXqQJdI)\n\n[Spike](https://www.linkedin.com/in/spike-lu-38227b105/) (on the right) was a senior software engineer at Unity for three years. He worked on an internal API gateway used by hundreds of developers.\n\n[Donovan](https://www.linkedin.com/in/donovanso/) (on the left) was a software engineer at Credit Suisse, building internal tools dealing with financial instruments used by institutional investors.\n\nWhile working on our previous [AI powered Figma to code idea](https://www.figma.com/community/plugin/1178847414663679049/Bricks---AI-Powered-Design-to-TailwindCSS-Code), we realized that developing applications using OpenAI credentials is easy to get started but poses huge security risks. After constantly hearing news about [leaked OpenAI keys](https://www.darkreading.com/application-security/cybercrooks-scrape-openai-keys-pirate-gpt-4), we are inspired to create a solution that helps make OpenAI development safer at enterprises.  \\\n\\\n**Interested in learning more?**\n\n* 📅 [Book a call](https://calendly.com/spike-at-bricks/quick-chat?month=2023-09)\n* ✉️ Email us at [spike@bricks-tech.com](mailto:spike@bricks-tech.com)\n* 🤝 Connect with us on [LinkedIn](https://www.linkedin.com/in/spike-lu-38227b105/)",
+      "url": "https://www.ycombinator.com/launches/JT7-bricksai-a-simple-openai-access-manager-for-enterprises",
+      "votes": 50,
+      "created_at": "2023-09-13T21:28:53.172Z"
+    }
+  ]
+}

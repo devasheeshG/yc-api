@@ -1,0 +1,98 @@
+{
+  "id": 31296,
+  "name": "Unifold",
+  "slug": "unifold",
+  "former_names": [],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/710f285bfbafa7ec0d7936331011b69c72d32a9f.png",
+  "website": "https://unifold.io",
+  "all_locations": "New York City, NY, USA",
+  "long_description": "Launch crypto deposits in minutes. \r\n\r\nUnifold is a developer-first API + SDK that makes it easy for any app to accept on-chain deposits – across any chain and token – with less than 10 lines of code. We handle the full deposit flow so teams can ship faster and give users a smooth experience that actually works.\r\n\r\nIf you’re building a consumer-facing on-chain product and want best-in-class deposits (or want to support more chains fast), we’d love to work with you.\r\n",
+  "one_liner": "Multi-chain deposit and payment infrastructure",
+  "team_size": 3,
+  "industry": "Fintech",
+  "subindustry": "Fintech -> Payments",
+  "launched_at": 1771008732,
+  "tags": [],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Winter 2026",
+  "status": "Active",
+  "industries": [
+    "Fintech",
+    "Payments"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/unifold",
+  "api": "https://devasheeshg.github.io/yc-api/batches/winter-2026/unifold.json",
+  "year_founded": 2026,
+  "city": "New York City",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/unifoldio",
+  "x_url": "https://x.com/unifold_io",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/710f285bfbafa7ec0d7936331011b69c72d32a9f.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Brad Flora",
+    "url": "https://www.ycombinator.com/people/brad-flora"
+  },
+  "founders": [
+    {
+      "user_id": 2866477,
+      "full_name": "Timothy Chung",
+      "title": "Founder/CEO",
+      "founder_bio": "Co-founder of Unifold (W26), we’re building crypto → stablecoin deposit and payment infrastructure for fintechs and marketplaces. Previously, I co-founded Streambird, a wallet as a service identify platform that was acquired by MoonPay; the product later became MoonPay Wallets. Before Streambird, I worked for Polymarket and Instabase (4th engineer).\n\nStudied Computer Science at Columbia & Cambridge",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/timchunght",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/6cf30b909ec53e3451047689d17824de6eb63673.jpg"
+    },
+    {
+      "user_id": 2866736,
+      "full_name": "Hau Chu",
+      "title": "Founder/Chief Engineer",
+      "founder_bio": "Graduated from Cornell Tech. Building a universal on-chain deposit infrastructure that \n1. Easily onboard all customers from all ecosystems to your platform and maximize user/trading volume.\n2. Super seamless user/dev experience to use our product with the least amount of crypto knowledge. Unifold handles the complexity for you.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/hauchu1998",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/e13d163f0f7ace926997cfc1348caddeb3268dd2.jpg"
+    },
+    {
+      "user_id": 2943389,
+      "full_name": "Quang Huynh",
+      "title": "Founder/CTO",
+      "founder_bio": "A full-stack engineer with 15+ years of experience across fintech, healthcare, and web3. Most recently spent 2.5 years at MoonPay building consumer app, wallets and identity SDKs. Previously co-founded a web2/web3 wallets/authentication startup that was acquired after 1.5 years, led mobile engineering at stc pay (Saudi Arabia's first fintech unicorn) serving 3.5M+ customers, and built patient administration software generating ~£30M+ revenue for UK healthcare providers.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/quang-huynh-468488305/",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/fa554cf808a57da11c6a1fa0015eb0e3d509de96.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 97814,
+      "title": "Unifold – Universal deposit infrastructure for on-chain apps",
+      "tagline": "Accept on-chain deposits across any chain/token with one API",
+      "body": "**TL;DR**\n\nUnifold is a **developer-first API + SDK** that makes it easy for any app to accept on-chain deposits – across any chain and token – with **less than 10 lines of code**. We handle the full deposit flow so teams can ship faster and give users a smooth experience that actually works.\n\nIf you’re building a consumer-facing on-chain product and want best-in-class deposits (or want to support more chains fast), we’d love to work with you.\n\n![uploaded image](/media/?type=post&id=97814&key=user_uploads/2866477/a3a77b36-7d14-4161-a12e-f9afd25df662)\n\n## **The Problem**\n\nEvery modern blockchain app – prediction markets, exchanges, DeFi protocols, consumer platforms – hits the **same bottleneck**: deposits are slow, fragile, and a terrible experience.\n\nUsers don’t care about chain IDs or token standards, they just want to fund their account and use your product. But today, many platforms still force users through a maze of:\n\n* chain switching prompts\n* manual bridging flows\n* token approvals\n* figuring out whether their **USDC is the “right” USDC** (Solana vs Base vs Arbitrum vs Ethereum)\n\nThat confusion kills deposits. Users drop off not because they _don’t want_ to engage – but because the onboarding itself feels like a blocker. This is especially true for _time-sensitive_ products like prediction markets where speed _is_ product. By the time funds show up, the opportunity has passed.\n\n## **Why This Happens**\n\nMulti-chain deposits are _hard_. Tokens like USDC exist on dozens of networks with different contracts, wrapped versions, and incompatible standards. A user might hold “USDC” on one chain, but the platform only supports it on another. That mismatch turns a simple deposit into a support ticket and a lost user.\n\nExisting tooling tackles parts of this (bridges, chain selectors, etc.), but none give platforms a **single, unified deposit layer** with consistent UX and routing logic built in. Developers end up re-implementing the same plumbing over and over.\n\n## **Our Story**\n\nBefore Unifold, we built **wallet-as-a-service infrastructure** and were acquired by a leading crypto payments company, where we helped onboard **30M+ users** and supported major on-chain apps like **Phantom** and **Polymarket**.\n\nWhen we later left the acquiring company, we began prototyping a consumer prediction market with a better on-chain UX. We expected trading to be the tough part, but during testing, users kept talking about how unusually smooth the deposit experience felt compared to everything else they had used in crypto. Then another prediction market reached out, currently **top 3 in weekly transactions behind Kalshi and Polymarket (Feb 2026)**, asking if they could use our deposit flow. \n\nThat was the “aha” moment: even great on-chain products lose users at the _funding step_ because existing deposits are still fragmented and painful.\n\n## **Solution**\n\n<https://youtu.be/D5y9xklqaFI>\n\nSo we built **Unifold**, a universal deposit infrastructure for any internet platform that wants to accept on-chain money.\n\nUnifold gives developers a single integration that handles deposits end-to-end:\n\n* **cross-chain routing**\n* **gas abstraction**\n* **compliance checks**\n* **settlement**\n* **crypto + fiat deposits**\n\nYou can integrate in **less than 10 lines of code**, run it fully **headless** or with a customizable UI, and ship deposits natively across:\n\n* **Web (React/NextJS)**\n* **React Native (Expo)**\n* **iOS (Swift)**\n* **Android (Kotlin)**\n\nWe’re already working with ecosystems that don’t have strong deposit/onboarding support from existing providers, including **Algorand, MegaETH, and Thru**, and we’re excited to support more as they launch.\n\nMost existing crypto deposit solutions are still **sales-driven**, gated behind volume minimums and long onboarding cycles. We’re building Unifold to be the opposite: **best-in-class docs, a clean integration, and a self-serve dashboard** so even small teams can get started fast.\n\nIf Stripe made it easy to accept card payments, **Unifold makes it easy to accept on-chain deposits.**\n\n## **What our users (developers) are saying**\n\n[**Alpha Arcade**](https://www.alphaarcade.com/) (Prediction Market on Algorand)\n\nAfter integrating Unifold (30 minutes after checking the docs)\n\n_“I just integrated the modal into our app locally and successfully deposited to Algorand wallet from Solana wallet. VERY smooth!! good shit” -_ Head of Engineering of Alpha Arcade\n\n[**Lofty.ai**](http://Lofty.ai) (On-chain Nasdaq for real estate, YC S19)\n\n_“HOLY that is smooth” -_ Co-founder of [**Lofy.ai**](http://Lofy.ai)\n\n## **Ask / Call to Action**\n\nIf you’re building a consumer-facing on-chain product and want to give your users the best deposit experience or want to support more chains without rebuilding your stack, we’d love to work with you.\n\nFor more information, check us out at <https://unifold.io>.\n\nDM us at [**https://x.com/unifold_io**](https://x.com/unifold_io) or reach out at [**hello@unifold.io**](mailto:hello@unifold.io) – we’re actively onboarding design partners.\n\nWant to test out our deposit flows and provide feedback?\n\n1. <https://ycstack.unifold.io> (deposit, buy tokens, play to win - Polygon)\n2. <https://megaeth.unifold.io> (deposit to the latest L1 blockchain - MegaETH)\n3. <https://trade.veromarket.xyz> (our prediction market with the deposit flow - USDC Solana)\n\n## **The Team**\n\nWe are Timothy Chung, Quang Huynh, and Hau Chu, co-founders of Unifold.\n\nTimothy studied computer science at Cambridge and Columbia. Timothy was also involved in the early days of Polymarket and co-led the initiative for a CBDC for the US Marshal Islands out of MIT. Afterwards, Timothy cofounded Streambird with Quang, the wallet as a service that was later acquired by a leading crypto payment company. Together, they built infrastructure that onboarded 30M+ users onto on-chain apps like Phantom and Polymarket.\n\nQuang has 6+ years of experience building consumer-facing crypto and fintech products, from co-founding a wallet infrastructure startup (later acquired) to crafting authentication flows, consumer mobile apps, and UI/UX experiences that onboarded 30M+ users onto different platforms.\n\nHau has been building blockchain infrastructure since 2023 while completing his master’s at Cornell Tech. He worked at Solana Labs and later worked with Tim and Quang to scale wallets and DeFi infrastructure across 10+ blockchains.",
+      "url": "https://www.ycombinator.com/launches/PRe-unifold-universal-deposit-infrastructure-for-on-chain-apps",
+      "votes": 139,
+      "created_at": "2026-02-17T09:19:25.023Z"
+    }
+  ]
+}

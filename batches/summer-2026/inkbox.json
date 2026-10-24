@@ -1,0 +1,104 @@
+{
+  "id": 33014,
+  "name": "Inkbox",
+  "slug": "inkbox",
+  "former_names": [
+    "Inkbox (Vectorly Inc)"
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/59d6214df81a05c739db52287017ae33c8c45f0d.png",
+  "website": "https://inkbox.ai",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "For your AI agents to behave like teammates, we give them persistent identities with their own email, phone, and iMessage. We also provide them an agent-to-agent channel, so they can communicate for task delegation.",
+  "one_liner": "The identity and communication layer for AI agents",
+  "team_size": 3,
+  "industry": "B2B",
+  "subindustry": "B2B -> Infrastructure",
+  "launched_at": 1782881612,
+  "tags": [
+    "Developer Tools",
+    "Infrastructure",
+    "AI"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Summer 2026",
+  "status": "Active",
+  "industries": [
+    "B2B",
+    "Infrastructure"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/inkbox",
+  "api": "https://devasheeshg.github.io/yc-api/batches/summer-2026/inkbox.json",
+  "year_founded": 2025,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/inkbox-ai",
+  "x_url": "https://x.com/inkbox_ai",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/59d6214df81a05c739db52287017ae33c8c45f0d.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Tyler Bosmeny",
+    "url": "https://www.ycombinator.com/people/tyler-bosmeny"
+  },
+  "founders": [
+    {
+      "user_id": 778892,
+      "full_name": "Ray Liao",
+      "title": "Founder/CEO",
+      "founder_bio": "PhD in Computer Science from MIT. Previously cofounder/CTO at Empallo, an AI-powered virtual clinic for cardiovascular care.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/ruizhi-liao/",
+      "x_url": "https://x.com/rayruizhiliao",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/af788a5cd4056a418504ce1f6575ee97d05e4f22.jpg"
+    },
+    {
+      "user_id": 2770188,
+      "full_name": "Dima Vremenko",
+      "title": "Founder",
+      "founder_bio": "Co-founder at Inkbox. Previously Research Associate at Harvard Medical School, where he built ML pipelines for clinical prediction models using gigapixel pathology images and EHRs, co-authored 6 publications, and contributed to an R01 NIH Grant. BS in Biochemistry and Computer Science from Northeastern.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/dimavrem/",
+      "x_url": "https://x.com/DVremenko",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/03bf2d678fb1434af863ffe50748028f1b1ddf01.jpg"
+    },
+    {
+      "user_id": 2773563,
+      "full_name": "Alex Wilcox",
+      "title": "Founder/CTO",
+      "founder_bio": "Cofounder at Inkbox. Previously ML engineering and computer networking research. MS in CS and dual BS in Math and Econ from Northeastern University.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/alxwlcx",
+      "x_url": "https://x.com/alxwlcx",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/aed3f2339877d7f84f73c49b3b73598cee41245b.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 104960,
+      "title": "Inkbox: Give your AI agents email, phone, iMessage, and an internet address",
+      "tagline": "The identity and communication layer for AI agents",
+      "body": "**TL;DR:** Inkbox is the identity and communication layer for AI agents: giving agents their own email, phone, iMessage, and internet address. Inkbox pulls together what your agent sees across email, calls, iMessage, and more, so your agent can act on the full context.\n\nHey YC! We're Ray, Alex, and Dima building Inkbox.\n\n**How we got here**\n\nA few months ago we were building web-automation agents. Every time an agent needed to log into a portal, it had to receive a confirmation email or get a 2FA code. And when we were away from our desks, we wanted to seamlessly contact the agents themselves: text them, check in, get a reply. We ended up stitching together services like Gmail, Twilio, and ngrok: separate services, each built for humans, none of them sharing any identity or context. \n\nThat's the problem we set out to fix. We didn't need another email or voice API. We needed one service to tie its identity together with rich context. So we built it.\n\n[**Launch video**](https://www.youtube.com/watch?v=oJKl6tPHxRA)\n\n**What Inkbox does**\n\nOur API gives every agent:\n\n* A unique email inbox (+ custom domain)\n* A phone number that can call and text\n* iMessage\n* A persistent internet address (HTTPS tunnel) to receive internet traffic, like webhooks\n* An encrypted credential vault with TOTP/2FA\n\n**Who we are**\n\n* Ray (CEO): CS PhD from MIT; previously cofounded Empallo, an AI virtual clinic for cardiovascular patients.\n* Alex (CTO): MS in CS @ Northeastern. Previously ML engineering and computer networking research.\n* Dima (CAIO): built ML pipelines on gigapixel pathology images at Harvard Medical School; co-author on 6+ peer-reviewed publications.\n\n[**Quick demo with Claude**](https://www.youtube.com/watch?v=MTVkW_EG-Y4): Watch Claude Code provision an email, phone, and iMessage in a Minute.\n\n**Our ask**\n\n* **Try it**. Drop Inkbox into your preferred agent harness: we have plugins for[ Hermes](https://github.com/inkbox-ai/hermes-agent-plugin),[ OpenClaw](https://github.com/inkbox-ai/openclaw-plugin),[ Claude Code](https://github.com/inkbox-ai/claude-code-plugin), and[ Codex](https://github.com/inkbox-ai/codex-plugin). Each one runs a wizard that provisions Inkbox resources for your agent.\n* **Ask your agent to self signup**. _Sign up for an Inkbox email account by following the guide at[ https://inkbox.ai/docs/get-started/agent-signup.md](https://inkbox.ai/docs/get-started/agent-signup.md) and refer to[ https://inkbox.ai/llms.txt](https://inkbox.ai/llms.txt) for full documentation._\n* **Intros**. We'd love intros to teams running fleets of agents that each need their own identity to act in the real world: reaching out to people and businesses (email/phone/iMessage), holding their own accounts, and authenticating with a built-in credential vault.\n\nContact Ray at [ray@inkbox.ai](mailto:ray@inkbox.ai). Would love your feedback.",
+      "url": "https://www.ycombinator.com/launches/RIu-inkbox-give-your-ai-agents-email-phone-imessage-and-an-internet-address",
+      "votes": 21,
+      "created_at": "2026-07-08T00:25:54.653Z"
+    }
+  ]
+}

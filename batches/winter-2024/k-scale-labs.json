@@ -1,0 +1,106 @@
+{
+  "id": 29523,
+  "name": "K-Scale Labs",
+  "slug": "k-scale-labs",
+  "former_names": [
+    "dpsh"
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/9a76d2d8803d634b3e622a584f55e531a3e72f45.png",
+  "website": "https://kscale.dev/",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "We're building humanoid robots to do most of what you find boring or tedious. We have an open-source design which we are releasing to the public, which is capable of walking, talking and manipulating objects.",
+  "one_liner": "Open-source humanoid robots",
+  "team_size": 10,
+  "industry": "Consumer",
+  "subindustry": "Consumer -> Consumer Electronics",
+  "launched_at": 1711580332,
+  "tags": [
+    "Machine Learning",
+    "Robotics",
+    "Consumer",
+    "AI"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Winter 2024",
+  "status": "Inactive",
+  "industries": [
+    "Consumer",
+    "Consumer Electronics"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/k-scale-labs",
+  "api": "https://devasheeshg.github.io/yc-api/batches/winter-2024/k-scale-labs.json",
+  "year_founded": 2024,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/kscale/",
+  "x_url": "https://twitter.com/kscalelabs",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": "https://github.com/kscalelabs",
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/9a76d2d8803d634b3e622a584f55e531a3e72f45.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Harj Taggar",
+    "url": "https://www.ycombinator.com/people/harj-taggar"
+  },
+  "founders": [
+    {
+      "user_id": 216598,
+      "full_name": "Benjamin Bolte",
+      "title": "Founder",
+      "founder_bio": "AI researcher @ OpenAI, fmr. Tesla, Meta, Google and Amazon",
+      "is_active": false,
+      "linkedin_url": "https://linkedin.com/in/benjaminbolte",
+      "x_url": "https://twitter.com/benjamin_bolte",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/8a2681a62183e56fe3557cdbbbf57fc2e3eed5b8.jpg"
+    },
+    {
+      "user_id": 1963405,
+      "full_name": "Matthew Freed",
+      "title": "Founder",
+      "founder_bio": "MechE + AI",
+      "is_active": false,
+      "linkedin_url": "",
+      "x_url": "https://twitter.com/mattfreed",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/bf71707e2370d20249f9a01a3806c01a878ce0fc.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [
+    {
+      "title": "The Open-Source Robotics Startup That Caught OpenAI’s Eye — The Information",
+      "url": "https://www.theinformation.com/articles/open-source-robotics-startup-caught-openais-eye",
+      "date": "May 16, 2025"
+    },
+    {
+      "title": "X",
+      "url": "https://twitter.com/Scobleizer/status/1766365088129368113",
+      "date": "Mar 08, 2024"
+    }
+  ],
+  "launches": [
+    {
+      "id": 79758,
+      "title": "K-Scale Labs 🤖 Open-source humanoid robots for everyone",
+      "tagline": "Meet Stompy, the world's first open-source general-purpose humanoid robot",
+      "body": "At [K-Scale Labs](https://kscale.dev/), we are building the world’s first open-source general-purpose humanoid robot.\n\n### The Problem\n\nIn recent years, domains like NLP and computer vision have benefited enormously from the [bitter lesson](http://www.incompleteideas.net/IncIdeas/BitterLesson.html) that general methods that are able to leverage computation are ultimately the most effective. The ability to scrape the internet for large, in-the-wild datasets has brought these fields from working well on academic benchmarks to becoming useful real-world products.\n\nHowever, although [there is evidence](https://robotics-transformer-x.github.io/) that the same scaling laws likely apply to robotics as well, the field is stymied by lack of access to the same large, in-the-wild datasets that work well in other domains, resulting in foundation models with poor cross-embodiment and out-of-distribution generalization. While there has been a [surge of investment](https://agilityrobotics.com/news/2023/opening-robofab-worlds-first-factory-for-humanoid-robotsnbsp-xxna2-g9mhr-rnk52) in trying to grow these datasets, we view the [capital-intensive](https://www.therobotreport.com/figure-raises-70m-to-commercialize-humanoids/), [factory-first](https://www.prnewswire.com/news-releases/figure-announces-commercial-agreement-with-bmw-manufacturing-to-bring-general-purpose-robots-into-automotive-production-302036263.html) approach as unlikely to generate the scale and diversity of data required to make these robotics foundation models match the state-of-the-art seen in other fields.\n\n### Our Solution\n\nWe designed and built a fully-featured humanoid robot that anyone with a 3D printer and some time can build on their own. We are releasing it for anyone to build themself, along with an operating system that will enable the robot to perform basic task and learn from experience.\n\n![uploaded image](/media/?type=post&id=79758&key=user_uploads/216598/4ba0e510-77a0-4703-8df4-4d04593c537a)\n\nOur robot, Stompy, is a 4-foot humanoid robot featuring the claw gripper from the recent [Universal Manipulation Interface](https://umi-gripper.github.io/) paper, designed so that each part fits on a 256 × 256 3D printer bed, with a total bill of materials costing less than $10,000. We’re using carbon fiber PAHT, but in principle, any reasonably strong plastic could be used instead. Our actuators are quasi-direct drives with between 6:1 and 8:1 reduction ratios, meaning that all the joints on our robot are low-inertia and back-drivable, with nominal torque values from 3-12 Nm. Each robot features a hot-swappable 48V 15Ah battery pack, which can power it for over an hour.\n\nWe started designing Stompy from scratch shortly after the start of the YC batch. In the last three months, we built five different iterations of the hardware as we’ve ironed out issues with assembly, part reliability, motor torque, and gripper design. Having worked with a number of robots in my professional career, including the Stretch from Hello Robot, the Spot from Boston Dynamics, and the early prototypes of the Optimus from Tesla, I feel confident saying that we have the best general-purpose hardware design for our BOM cost - and we are going to give it away for free.\n\n![Image](https://pbs.twimg.com/media/GILolqbaEAAzDUv?format=jpg&name=large)\n\nAdditionally, we have built the software tooling to train policies in simulation, using simulators like Isaac from Nvidia, and translate those policies to the robot. This enables anyone to get started developing models for simple tasks for free. We will also release the VLM we’ve trained in-house as a foundation model for the robot perception stack, enabling developers to learn task-specific policies in a data-efficient manner.\n\n![uploaded image](/media/?type=post&id=79758&key=user_uploads/216598/2379dd19-b364-4990-958c-007b258bc1d7)\n\n### About Us\n\nOur CEO ([Ben](https://bookface.ycombinator.com/user/216598/linkedin_redirect?key=f2e912c331dc16e3f6c704008aeced6a0055e4ec)) is a robotics researcher and engineer who has worked on robotics foundation models at Tesla and Meta AI. At Tesla, he wrote the CUDA kernel behind the voxel occupancy network, which served as the first perception foundation model to run in the Optimus. At Meta, his papers on speech and robotics representation learning have been cited over 2000 times.\n\n### Our Ask\n\nIf you are interested in either building, buying, or developing a humanoid robot, please send an email to [ben@kscale.dev](mailto:ben@kscale.dev) with your request. We’re working towards a future where anyone with a few 3D printers and some scrappiness can start a robot factory, and anyone who wants a humanoid robot will be able to get one.",
+      "url": "https://www.ycombinator.com/launches/KkQ-k-scale-labs-open-source-humanoid-robots-for-everyone",
+      "votes": 82,
+      "created_at": "2024-03-27T23:01:52.242Z"
+    }
+  ]
+}

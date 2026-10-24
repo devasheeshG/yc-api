@@ -1,0 +1,103 @@
+{
+  "id": 29276,
+  "name": "Carousel Technologies",
+  "slug": "carousel-technologies",
+  "former_names": [],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/be51ba4d9e1b18ab8424b80f2db46f49c4a22fa9.png",
+  "website": "https://usecarousel.com",
+  "all_locations": "New York City, NY, USA",
+  "long_description": "Carousel is an AI assistant for Excel that builds spreadsheets & models in minutes, not hours.\r\n\r\nCarousel can:\r\n\r\n- Create & edit Excel models of any complexity, including but not limited to: multi-statement financial models with several tabs, FP&A templates based on raw revenue and cost data, scientific data analyses, and more\r\n\r\n- Take in data from PDFs, CSVs, presentations, and images, and build the data into your Excel directly\r\n\r\n- Walk you through complex spreadsheet architecture and each cell's precedents and dependents\r\n\r\n- Format your models tastefully & professionally\r\n\r\n- Build chart dashboards to visualize your data\r\n\r\nIt's more useful than the last intern you hired.",
+  "one_liner": "AI Assistant for Excel",
+  "team_size": 4,
+  "industry": "B2B",
+  "subindustry": "B2B -> Finance and Accounting",
+  "launched_at": 1707782877,
+  "tags": [
+    "Finance",
+    "B2B",
+    "Enterprise Software"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Winter 2024",
+  "status": "Active",
+  "industries": [
+    "B2B",
+    "Finance and Accounting"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada",
+    "Remote",
+    "Partly Remote"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/carousel-technologies",
+  "api": "https://devasheeshg.github.io/yc-api/batches/winter-2024/carousel-technologies.json",
+  "year_founded": 2023,
+  "city": "New York City",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/carousel-tech/",
+  "x_url": "https://www.x.com/usecarousel",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/be51ba4d9e1b18ab8424b80f2db46f49c4a22fa9.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Jared Friedman",
+    "url": "https://www.ycombinator.com/people/jared-friedman"
+  },
+  "founders": [
+    {
+      "user_id": 857855,
+      "full_name": "Daniel Wolf",
+      "title": "Founder",
+      "founder_bio": "Making spreadsheets less painful",
+      "is_active": true,
+      "linkedin_url": "https://linkedin.com/in/daniel-wolf-6242431b1",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/e0b96012bc90a1f87b8fe13bbac44dc2fb61fc7b.jpg"
+    },
+    {
+      "user_id": 1640043,
+      "full_name": "Jude Rizzo",
+      "title": "Founder",
+      "founder_bio": "Founder @ Carousel, former math/physics student",
+      "is_active": true,
+      "linkedin_url": "https://linkedin.com/in/jude-rizzo-aa71aa207",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/5fa048f3dea7a5876f83fb4763983b502644221e.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 90376,
+      "title": "🧮⚡ Carousel: The AI Assistant For Excel",
+      "tagline": "Build Excel models in minutes, not hours.",
+      "body": "Hi YC! We're Jude & Daniel, and we’ve built Carousel - an AI assistant that transforms how people work in Excel.\n\n# **The Problem: Excel is Powerful but Painful**\n\nExcel remains the universal language of business despite being:\n\n* **Time-consuming**: Building models takes hours of manual work\n* **Error-prone**: Manual data entry and complex formulas lead to mistakes\n* **Intimidating**: Mastering Excel formulas takes years\n\nProfessionals spend countless hours battling spreadsheets instead of focusing on decision-making.\n\n# **Our Solution: Your Personal Excel Intern**\n\nCarousel is an AI assistant that builds spreadsheets & models in minutes, not hours. \n\nhttps://www.youtube.com/watch?v=8_MWw1lMrzQ\n\nWe've built four core features:\n\n**🤖 Carousel Chat** - Build complete multi-tab models from scratch with conversational prompts. No Excel expertise required. [Models that took hours to spin up now take minutes.](https://youtu.be/dQJbqbEJIiY)\n\n**⚡ Quick Fix** - Select any range, hit Ctrl+Enter, and describe what you want. [Format tables, add analytics, or restructure data instantly.](https://youtu.be/BeXluYKKArM)\n\n**🔍 Model Walkthrough** - Understand complex formulas in plain English. [Model Walkthrough rewrites formulas by swapping cell references like S&U_Sheet!K7 with Transaction Closing Costs (4%).](https://youtu.be/sG3s4Bz1sM0)\n\n**📄 File Context** - Stop doing manual data entry. [Carousel pulls information from your documents and puts them into your Excel file live, complete with automatic source citations.](https://youtu.be/jDx9lNbgLMk)\n\nUnlike your last intern, Carousel is competent, doesn’t complain when asked to fix spreadsheet formatting, and doesn’t need a return offer.\n\nCarousel is what Microsoft’s Copilot for Excel promised to be.\n\n# **Who's It Made For?**\n\nCarousel is designed for anyone who spends significant time in Excel:\n\n* **Financial analysts** building complex financial models\n* **Marketing managers** analyzing campaign performance data\n* **Operations leaders** creating forecasts and tracking KPIs\n* **Product managers** organizing feature roadmaps\n* **Scientists** analyzing experimental data\n* **Consultants** preparing client deliverables\n\n# **Why We Made Carousel**\n\nExcel hasn't fundamentally changed in decades, yet it remains central to how teams & businesses operate. \n\nWe built Carousel to bridge the gap between Excel's insane professional capabilities and its usability challenges.\n\n# **Try Carousel Today**\n\nOur open beta starts today for both individuals and enterprise teams. We'd love your feedback!\n\nIf you spend more than 10 hours a week in Excel or know someone who does, we'd love to chat: [founders@usecarousel.com](mailto:founders@usecarousel.com)\n\n[**www.usecarousel.com**](http://www.usecarousel.com)\n\n![uploaded image](/media/?type=post&id=90376&key=user_uploads/857855/84e41b9e-92f3-41a5-b916-bf73501e30ba)\n\n",
+      "url": "https://www.ycombinator.com/launches/NVg-carousel-the-ai-assistant-for-excel",
+      "votes": 22,
+      "created_at": "2025-05-14T00:15:47.757Z"
+    },
+    {
+      "id": 78887,
+      "title": "📊 👀 Carousel: Track changes for PowerPoint & Excel",
+      "tagline": "Making it easier to review deliverables with high-fidelity change tracking",
+      "body": "Hi! We’re [Jude](https://linkedin.com/in/jude-rizzo-aa71aa207) & [Daniel](https://linkedin.com/in/daniel-wolf-6242431b1), and we’re the co-creators of [Carousel](https://www.carouseltech.io/), a change-tracking tool for PowerPoint & Excel.\n\n \n\n**Investment bankers & consultants don’t use PowerPoint like you do:**\n\nFor most investment banking or consulting projects, the final deliverable is a PowerPoint deck.\n\n \n\nTo make sure the final draft of that deck is perfect, it goes through multiple rounds of review, feedback, & edits.\n\n \n\nThis means that many bankers and consultants spend hours squinting at different decks to see if the footnote on pg. 57 was updated correctly or if all the companies in a table on pg. 34 have uniform EBITDA adjustments.\n\n \n\nSmall details matter a lot, so teams often have to check over hundred-page decks from scratch. This review process is tedious & prone to mistakes.\n\n \n\n**Track deck & model changes with one click:**\n\n \n\nCarousel is a PowerPoint & Excel add-in that captures all the changes made to your team’s materials from shell to client PDF.\n\n \n\n**Carousel tells you exactly WHO changed WHAT and WHEN.** With one click, the add-in highlights everything that changed between any two versions of the model or deck (in your current window, without having to open another file).\n\n \n\n# It’s like Word’s track changes on steroids.\n\n \n\n![uploaded image](/media/?type=post&id=78887&key=user_uploads/857855/b80c80b4-4489-4207-be22-dc1681bc6eb6)\n\n \n\nBefore this, Daniel worked at Bank of America & Elliott Management, where he spent many hours pushing the boundaries of what was possible in PowerPoint & Excel.\n\n \n\nJude was pursuing a Master’s Degree in Mathematics from Cornell with a focus on ML.\n\n \n\nWe realized that PowerPoint & Excel could be a much more pleasant experience for power users with the right tools.\n\n \n\n**If you or someone you know spends more than 15 hours per week in PowerPoint or Excel, **[**let’s chat**](https://calendly.com/daniel-carouseltech)**.**\n\n \n\n ",
+      "url": "https://www.ycombinator.com/launches/KWN-carousel-track-changes-for-powerpoint-excel",
+      "votes": 41,
+      "created_at": "2024-02-29T06:51:51.211Z"
+    }
+  ]
+}

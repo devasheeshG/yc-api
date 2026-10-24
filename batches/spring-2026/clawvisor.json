@@ -1,0 +1,78 @@
+{
+  "id": 31554,
+  "name": "Clawvisor",
+  "slug": "clawvisor",
+  "former_names": [],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/7b7343f0662dc74045154f30ca2872d79b80c650.png",
+  "website": "https://clawvisor.com",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "Clawvisor lets AI agents use apps like Gmail, Slack, and Google Drive without going rogue or ever seeing your credentials. You approve tasks once. Clawvisor enforces them on every request.",
+  "one_liner": "The Authorization Layer for AI Agents",
+  "team_size": 1,
+  "industry": "B2B",
+  "subindustry": "B2B -> Security",
+  "launched_at": 1778081648,
+  "tags": [],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Spring 2026",
+  "status": "Active",
+  "industries": [
+    "B2B",
+    "Security"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/clawvisor",
+  "api": "https://devasheeshg.github.io/yc-api/batches/spring-2026/clawvisor.json",
+  "year_founded": 2026,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "",
+  "x_url": "https://x.com/clawvisor",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/7b7343f0662dc74045154f30ca2872d79b80c650.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Garry Tan",
+    "url": "https://www.ycombinator.com/people/garry-tan"
+  },
+  "founders": [
+    {
+      "user_id": 18959,
+      "full_name": "Eric Levine",
+      "title": "Founder",
+      "founder_bio": "Founder of Clawvisor (P26). Previously: co-founder at Berbix (S18), acquired in 2023 by Socure; Trust & Safety engineering at Airbnb; Visiting Group Partner at Y Combinator.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/levineericj/",
+      "x_url": "https://x.com/ericlevine",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/2082522a9ca705ce9879c4f4ac9d76ce7f37d0a4.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 100899,
+      "title": "Clawvisor — The Authorization Layer for AI Agents",
+      "tagline": "Give agents access without giving them the keys.",
+      "body": "TL;DR: Clawvisor lets AI agents use apps like Gmail, Slack, and Google Drive without going rogue or ever seeing your credentials. You approve tasks once. Clawvisor enforces them on every request.\n\n[_Launch video_](https://www.youtube.com/watch?v=2UWv557dg6M)\n\nWe're at the start of something on the scale of the industrial revolution. Agents will draft our emails, run our reports, manage our calendars, ship our code. A single person with a capable agent can get done in an afternoon what used to take a team a week. The leverage is almost unlimited.\n\nBut outside of coding agents, few people are actually using them, at least not for anything that matters. We’ve seen what can go wrong. Mass-deleted inboxes, dropped production databases, sent emails that can't be undone. It's what happens when a long-running agent's instructions drift and it starts going rogue with hallucinated goals. The blast radius is whatever permissions you gave it, and granting access to \"delete emails\" covers both cleaning up spam and wiping your entire inbox. If you work in a regulated industry, at a security-conscious company, or you’re paying attention, agents are off the table.\n\nWe need a way to bring agents to the world safely. Something that lets you point one at your actual inbox, your actual calendar, your actual codebase, and trust it to do the work without trusting it with the keys. The capability is already here. We just have to make it safe to use.\n\nThat’s why I built Clawvisor.\n\n**The Problem**\n\n* OAuth scopes are too coarse for nondeterministic agents. \"Read access\" means both \"triage recently received emails\" and \"exfiltrate an archive of the whole inbox\".\n* Approving every action causes fatigue. You stop reading and start blindly clicking “approve”.\n* Credentials end up everywhere. API keys scattered across .env files, config directories, messaging apps.\n* Today’s default approach is basically YOLO.\n\n**The Solution**\n\nClawvisor sits between your agent and your data. You ask your agent to do work. Your agent declares a task. You approve it once. Clawvisor enforces it on every request.\n\n* No credential exposure. Keys stay in a vault. The agent never sees them.\n* Real-time policy enforcement. Requests that don’t match the task get blocked.\n* Context-aware guardrails. Agents can only act on data they actually retrieved.\n* Full audit trail. Every action and decision is logged.\n\nFor example, if you approve an agent to “check today’s calendar” and it tries to pull 5 years of events? Blocked.\n\nApprovals happen per task, not per action, so you avoid fatigue. Each task is also scored for risk, so you know when to pay extra attention.\n\nIt’s agent-agnostic by design. If your agent can talk HTTP, it can use Clawvisor. OpenClaw, Claude Code, Claude Cowork, Hermes, Perplexity Computer are all supported. BYOA.\n\n[_Demo video_](https://youtu.be/83oP_vOmpBk)\n\n**The Team**\n\nPreviously I cofounded Berbix (S18, acquired for $70M in 2023) building best-in-class identity verification. Prior to that, I led the Airbnb Trust & Safety engineering team building systems and tools to catch bad actors before they could cause damage.\n\n**The Ask**\n\nIf you’ve avoided giving agents access to real data, this is why Clawvisor exists. Try it today.\n\n* Get up-and-running in minutes: <https://clawvisor.com>\n* Self-host or read the source: <https://github.com/clawvisor/clawvisor>\n\n![uploaded image](/media/?type=post&id=100899&key=user_uploads/18959/0c865792-dbf3-48de-a32f-5f975df88ba7)\n\n",
+      "url": "https://www.ycombinator.com/launches/QFP-clawvisor-the-authorization-layer-for-ai-agents",
+      "votes": 13,
+      "created_at": "2026-05-07T14:14:25.350Z"
+    }
+  ]
+}

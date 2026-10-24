@@ -1,0 +1,87 @@
+{
+  "id": 27915,
+  "name": "Rainmaker",
+  "slug": "rainmaker",
+  "former_names": [],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/4513fcb84fa72bcdfce26d3a22b34e43edaa1e49.png",
+  "website": "http://www.rainmaker.nyc",
+  "all_locations": "",
+  "long_description": "Rainmaker is an account abstraction-based crypto wallet that makes DeFi investing simple and fast. Set up a wallet with just an email, instantly deposit funds from your bank or credit card, and invest in DeFi without gas fees.",
+  "one_liner": "DeFi for Everyone",
+  "team_size": 2,
+  "industry": "Fintech",
+  "subindustry": "Fintech -> Consumer Finance",
+  "launched_at": 1678219500,
+  "tags": [],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Winter 2023",
+  "status": "Inactive",
+  "industries": [
+    "Fintech",
+    "Consumer Finance"
+  ],
+  "regions": [
+    "Unspecified"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/rainmaker",
+  "api": "https://devasheeshg.github.io/yc-api/batches/winter-2023/rainmaker.json",
+  "year_founded": 2022,
+  "city": null,
+  "country": null,
+  "linkedin_url": "https://www.linkedin.com/company/87153326",
+  "x_url": "https://twitter.com/RainmakerWallet",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/4513fcb84fa72bcdfce26d3a22b34e43edaa1e49.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Harj Taggar",
+    "url": "https://www.ycombinator.com/people/harj-taggar"
+  },
+  "founders": [
+    {
+      "user_id": 69513,
+      "full_name": "Carlos Reyes Stoneham",
+      "title": "Founder",
+      "founder_bio": "Founder of Rainmaker. Previously PM & Engineer.",
+      "is_active": false,
+      "linkedin_url": "https://www.linkedin.com/in/carlosreyes1/",
+      "x_url": "https://twitter.com/theczarlos",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/57ba8115a38a4be91e6e1cec6b9b63af0ea8c91a.jpg"
+    },
+    {
+      "user_id": 1298997,
+      "full_name": "Brent Traut",
+      "title": "Founder",
+      "founder_bio": "Co-founder of rainmaker.nyc • Previously Apple, Microsoft, Pinterest, Hashflow, and lifetime startup hacker",
+      "is_active": false,
+      "linkedin_url": "https://www.linkedin.com/in/btraut/",
+      "x_url": "https://twitter.com/btraut",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/3cd4728077c82e2dea0e855e3d6ea898eb67ca0e.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 70781,
+      "title": "Rainmaker - DeFi for everyone",
+      "tagline": "We’ve built the best crypto wallet for the next generation of DeFi, removing unnecessary technical nuances and simplifying complex concepts.",
+      "body": "**The Overview**\n\nRainmaker is the fastest, simplest way to invest in and manage DeFi positions. Our mobile-first, account abstraction based crypto wallet enables 1-click, gas-less entry into advanced investment strategies.\n\n**The Team**\n\nBrent and Carlos are DeFi veterans with over a decade of experience building crypto and consumer products.\n\n![uploaded image](/media/?type=post&id=70781&key=user_uploads/69513/bdd065f3-0f9a-4a62-a732-85a0d614c7d5)\n\nBrent was previously the VP of engineering at Hashflow where he scaled trading volume from under $200M/yr to over $12B/yr. Carlos previously led Consumer Growth at LinkedIn Learning where he added over $14M in revenue in under two years.\n\nOutside of their previous employment both Brent and Carlos have been building automated systems for personal DeFi investing for years, working on everything from arbitrage to MEV.\n\nAs the founders built more and more custom software to facilitate trading, they came to the realization that all of this software should be packaged together and made more accessible to a wider range of users. Ultimately this became Rainmaker.\n\n**The Problem**\n\nWhile owning tokens like BTC and ETH has become common, putting these tokens to use via DeFi remains prohibitively difficult for most people due to the complexity of the tooling and ecosystems. As a result, people leave money on the table, or worse, mismanage their investments and lose money.\n\nWe think about the complexity of investing in DeFi in three parts:\n\n1. Setup, tooling, and education.\n2. On-ramping\n3. Investing\n\nInvesting in DeFi starts with basic wallet setup which comes with a learning curve too steep for most. Users need to navigate seed phrases, security hygiene, fiat onramps, gas fees, token allowances, and so much more.\n\n![uploaded image](/media/?type=post&id=70781&key=user_uploads/69513/bfdf639d-335d-4c0e-81e3-165254696c5d)\n\nIf a user is motivated enough to make it past setup and funding, it’s still difficult to securely discover, enter, and manage complex DeFi strategies. Users often accidentally take on positions with unclear risk, sacrifice security and decentralization for convenience, or just hold tokens without earning any yield.\n\nUltimately the goal of investors is to execute on their investing thesis, and the complexities of the tooling and protocol interactions have merely been “part of the process”.\n\n**The Product**\n\nRainmaker is an account-abstraction-based mobile crypto wallet that reduces the lengthy and complex process of investing in DeFi to just a few taps. What used to take hours of work and months of research now takes seconds.\n\n<https://youtu.be/1A79Ef9Fyco>\n\nWe leverage MPC and smart contracts to allow users to safely self-custody funds with just an email login. Instant onramps enable users to go straight from their bank accounts to DeFi.\n\nWhile simple onboarding is critical to help more users feel comfortable interacting with DeFi, Rainmaker’s real magic is how we leverage account abstraction to create the world's best DeFi integrations.\n\nNative integrations with top protocols like Lido, Stargate, Synapse, Vector, and many more allow users to enter and exit DeFi strategies with one-click and no gas fees.\n\n![uploaded image](/media/?type=post&id=70781&key=user_uploads/69513/6c26ca83-8a21-4fb5-8259-4d15d3a453f3)\n\nPosition automations precisely track key metrics like gains/losses, rewards collected/expected, and changes in underlying risk (TVL, unique wallets connect, APY variance) all while regularly compounding rewards for maximum capital efficiency.\n\nRainmaker takes seconds to set up and is available across iOS, Android, and web.\n\n**The Ask**\n\nIf you’re a DeFi investor, we’d love to hear about the strategies you’re currently leveraging or are interested in!\n\nYou can schedule a call with us or email us at [founders@rainmaker.nyc](mailto:founders@rainmaker.nyc).\n\nCheck us out at: <https://www.rainmaker.nyc>",
+      "url": "https://www.ycombinator.com/launches/IPd-rainmaker-defi-for-everyone",
+      "votes": 48,
+      "created_at": "2023-04-05T22:28:17.586Z"
+    }
+  ]
+}

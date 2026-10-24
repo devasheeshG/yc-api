@@ -1,0 +1,97 @@
+{
+  "id": 30747,
+  "name": "Convexia",
+  "slug": "convexia",
+  "former_names": [],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/c68bf871c0fe363c6048343df283d9282ab990f4.png",
+  "website": "https://convexia.bio",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "An AI-maximalist pharma platform. We use agents to buy drugs, run clinical trials, and sell for a profit. 10x faster and 20x leaner than incumbents.\r\n\r\nSourcing Agent: Mines public/private databases and unstructured global data to surface overlooked preclinical candidates.\r\nScientific Agent: Runs comp bio models (ESM-3, RFdiffusion, Boltz-2, AlphaFold) to assess safety and efficacy in silico.\r\nCommercial Agent: Analyzes FDA incentives, pricing dynamics, TAM, competitive landscape, and payer alignment.\r\nClinical Agent: Runs digital twin simulations, evaluates CRO/CMC risk, and builds trial plans to Phase 1.\r\nPoS Agent: Evaluates the most critical factors that impact the likelihood of clinical trial success. \r\n\r\nBuilt by 2 Stanford CS students who have built 3 startups together before. ",
+  "one_liner": "The world's first AI-maximalist pharma company",
+  "team_size": 4,
+  "industry": "Healthcare",
+  "subindustry": "Healthcare -> Drug Discovery and Delivery",
+  "launched_at": 1752301183,
+  "tags": [
+    "AI-powered Drug Discovery",
+    "Biotech",
+    "Drug Delivery"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Summer 2025",
+  "status": "Active",
+  "industries": [
+    "Healthcare",
+    "Drug Discovery and Delivery"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": [
+    {
+      "question": "How did your company get started? (i.e., How did the founders meet? How did you come up with the idea? How did you decide to be a founder?)",
+      "answer": "Ayaan and Rahul met at an entrepreneurship conference in 8th grade and have been building together ever since. By the end of high school, they’d launched two startups. At Stanford, they built a third, recently acquired. Now they’re on their fourth venture - and this is the one they believe can be a unicorn."
+    }
+  ],
+  "url": "https://www.ycombinator.com/companies/convexia",
+  "api": "https://devasheeshg.github.io/yc-api/batches/summer-2025/convexia.json",
+  "year_founded": 2025,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/convexia-bio",
+  "x_url": "",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/c68bf871c0fe363c6048343df283d9282ab990f4.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Ankit Gupta",
+    "url": "https://www.ycombinator.com/people/ankit-gupta"
+  },
+  "founders": [
+    {
+      "user_id": 2433930,
+      "full_name": "Ayaan Parikh",
+      "title": "Founder/CEO",
+      "founder_bio": "Building agents to find and acquire early-stage drug assets. \n \nStanford CS + Bio\n\nBuilt 3 healthtech startups (telemedicine, addiction recovery, hydroponic systems). \n\nPublished 4 papers on molecular dynamics. \n\nBiotech VC and consulting experience. ",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/ayaan-parikh",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/ae7004ae9a37271f3847d9919c6c0cd92a310ac2.jpg"
+    },
+    {
+      "user_id": 2712957,
+      "full_name": "Rahul Vijayan",
+      "title": "Founder/CTO",
+      "founder_bio": "Building agents to find and acquire early-stage drug assets.\nStanford CS + Econ  \nBuilt 3 healthtech startups (telemedicine, gamified recovery, hydroponic systems).",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/rahulvijayan28/",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/b62fd8479d819d4020ab4de6ddaa6a655eccfd2a.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 92466,
+      "title": "Convexia: World’s First AI-Maximalist Pharma Company",
+      "tagline": "AI agents that search and evaluate early-stage drugs",
+      "body": "Hey 👋 We’re [Ayaan](https://www.linkedin.com/in/ayaan-parikh/) and [Rahul](https://www.linkedin.com/in/rahulvijayan28/) — Stanford CS dropouts who’ve exited 3 startups together.\n\nOur 4th startup is [Convexia](https://www.convexia.bio/), an AI-maximalist pharma company. We buy drugs, run clinical trials, and then sell for profit.\n\n🎥 [Launch Video](https://www.youtube.com/watch?v=oFaM-ceSGok)\n\n# **Problem**\n\nPharma is the most bloated, antiquated trillion-dollar industry on the planet.\n\nLife-saving drugs are overlooked, abandoned, or shelved because diligence is still done by hand. Slow, costly, and outdated.\n\n# **Our Solution**\n\nWe use agents to operate 10x faster and 20x leaner. Convexia’s AI agents autonomously handle:\n\n* **Sourcing** – Find hidden early-stage drugs from around the world.\n* **Scientific diligence** – Evaluate drug viability with leading computational biology tools\n* **Market analysis** – Model market size, competition, and IP positioning\n* **Clinical operations** – Simulate trials, flag CMC issues, and discover CROs\n* **Business development** – Match each drug to the right buyer\n\nTest our agents here: https://www.convexia.bio/playground \n\n![uploaded image](/media/?type=post&id=92466&key=user_uploads/2433930/cb571daa-a456-472c-a8fe-b370b2e3b50e)\n\n# **Our Ask**\n\nBefore buying and selling drugs ourselves, we are running pilots with early customers who want to accelerate their search and evaluation processes.\n\n📅 Book a call [here](https://calendly.com/ayaan-convexia/demo). \n\nHere’s who we’re looking to meet—see if anyone’s in your network [here](https://www.linkedin.com/search/results/people/?currentCompany=%5B%22434006%22%2C%2221263%22%2C%2211127960%22%2C%2277579063%22%2C%2218268402%22%2C%223204230%22%2C%2234756183%22%2C%222673956%22%2C%2210317593%22%2C%2286884606%22%2C%2238336%22%2C%2219031898%22%2C%224990022%22%2C%221337177%22%2C%228013%22%2C%2226195%22%2C%226761%22%2C%22617961%22%2C%2212150%22%2C%2248171%22%2C%2211647%22%2C%226866%22%2C%2213476%22%2C%225239%22%2C%227635%22%2C%2233408697%22%2C%223235%22%2C%221893%22%2C%225482%22%2C%222068%22%2C%221663%22%2C%221304385%22%2C%221773%22%2C%221603%22%2C%221399%22%2C%2291149342%22%2C%221642%22%2C%2216233341%22%2C%221485%22%2C%221486%22%2C%222227%22%2C%221406%22%2C%222276%22%2C%221602%22%2C%221204%22%2C%222281734%22%2C%2229088045%22%2C%221185%22%2C%229215024%22%5D&industry=%5B%2215%22%2C%2212%22%5D&network=%5B%22F%22%5D&origin=FACETED_SEARCH&sid=a*t).\n\n* Small/mid pharma companies (Incyte, Nimbus, Roivant SubCos)\n* Biotech VCs (Versant, Atlas, RA Capital)\n* Computational biotechs (Recursion, Insitro, Owkin)\n* Operators who’ve brought drugs to market\n\n# Reach us: [founders@convexia.bio](mailto:founders@convexia.bio)",
+      "url": "https://www.ycombinator.com/launches/O3O-convexia-world-s-first-ai-maximalist-pharma-company",
+      "votes": 34,
+      "created_at": "2025-07-26T01:34:30.747Z"
+    }
+  ]
+}

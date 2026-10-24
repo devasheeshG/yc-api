@@ -1,0 +1,98 @@
+{
+  "id": 28967,
+  "name": "MantleBio",
+  "slug": "mantlebio",
+  "former_names": [
+    "DryBox Bio"
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/15716b62f7c6d475631f039d985c650683ee0837.png",
+  "website": "https://www.mantlebio.com",
+  "all_locations": "",
+  "long_description": "Mantle brings modern data engineering to the lab to help scientists turn insights into world-changing breakthroughs.",
+  "one_liner": "Transform scientific data into discoveries",
+  "team_size": 7,
+  "industry": "B2B",
+  "subindustry": "B2B",
+  "launched_at": 1689053097,
+  "tags": [
+    "SaaS",
+    "Biotech",
+    "Data Science"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Summer 2023",
+  "status": "Inactive",
+  "industries": [
+    "B2B"
+  ],
+  "regions": [
+    "Unspecified"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/mantlebio",
+  "api": "https://devasheeshg.github.io/yc-api/batches/summer-2023/mantlebio.json",
+  "year_founded": 2023,
+  "city": null,
+  "country": null,
+  "linkedin_url": "https://www.linkedin.com/company/mantlebio/",
+  "x_url": "https://twitter.com/mantlebio",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/15716b62f7c6d475631f039d985c650683ee0837.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": null,
+  "founders": [
+    {
+      "user_id": 876391,
+      "full_name": "Emily Damato",
+      "title": "Founder",
+      "founder_bio": "CEO and Co-Founder of MantleBio, modern data engineering for biotech. Previously developed software at GRAIL, Arsenal Bio, and The Broad Institute. MIT Computer Science and Biology. 10+ years at the intersection of computer science and life science.",
+      "is_active": false,
+      "linkedin_url": "https://linkedin.com/in/emily-damato-36932523",
+      "x_url": "https://twitter.com/damato_emily",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/78b9808f1e62aa083dd6d0e1a05e6d7d56f2169d.jpg"
+    },
+    {
+      "user_id": 1435929,
+      "full_name": "Madeline Schade",
+      "title": "Founder",
+      "founder_bio": "CTO and Co-Founder of MantleBio. Previously worked as a software engineer at Google, Arsenal Bio and GRAIL.",
+      "is_active": false,
+      "linkedin_url": "https://linkedin.com/in/madeline-schade",
+      "x_url": "https://twitter.com/SchadeMadeline",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/e8c503fd7daf298aa41440bb472880783bf8898c.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 82415,
+      "title": "MantleBio - Helping scientists transform data into discoveries",
+      "tagline": "Modern data engineering, now available free for the scientific community",
+      "body": "TL;DR: [Mantle](https://mantlebio.com/) makes data engineering easy (and sometimes fun) for scientists.\n\n**Today, we are excited to announce the launch of Mantle’s free plan, now available to the scientific community. Get started **[**here**](https://mantlebio.com/get-started/)**!**\n\n# 💻  Why does biology need better data engineering?\n\nBiotech generates very big, very complex data. A single DNA sequencing experiment can create 7 TB of data, and generating high-throughput multi-modal data is becoming the norm. Recent breakthroughs in computer science and ML have incredible potential to accelerate life science research. \n\nElectronic lab notebooks (ELNs), like Benchling, help organize research in the wet lab. However, biotech lacks tools to organize and analyze data from instruments, CROs, and public databases.\n\n**Does this sound familiar?**\n\n* Storing experimental metadata in file paths\n  * Writing regex scripts to parse metadata out of those file paths\n  * Regex scripts break when the file path format changes\n* Running bioinformatics scripts locally on a laptop\n  * Not being able to process data when the computational scientist is on vacation\n  * Losing analyses when the computational scientist loses their laptop on vacation\n* Analyzing datasets one by one in a desktop application\n  * Not being able to compare data between teams because each person made the graph slightly differently\n  * Spending a weekend regenerating all of the graphs consistently, and finding several copy-and-paste errors made on the data that was submitted to the grant application last week\n\nAt Mantle, we think science deserves better.\n\n# 🔬 What can you do with Mantle?\n\n**Instant Insights**\n\nMake decisions quickly and confidently. See everything in one place, in real time.\n\n![uploaded image](/media/?type=post&id=82415&key=user_uploads/876391/0e8966ed-9477-45c2-ba61-408feb3884e8)\n\n**Modern Data Management**\n\nDon’t let unscalable spreadsheets and inflexible databases slow down your research. Scientific research requires rapid iteration and experimentation, and Mantle’s data lake can keep up.\n\n![uploaded image](/media/?type=post&id=82415&key=user_uploads/876391/7aeaa967-f989-4112-9a74-e6b343c4f57a)\n\n**Bring Your Code**\n\nEffectively leveraging computation, data science, and ML separates the next generation of biotech companies from the last. Mantle hosts the infrastructure to help connect no-code users and great-code writers.\n\n![uploaded image](/media/?type=post&id=82415&key=user_uploads/876391/6f1860f2-4570-4fa1-8a14-b4fea6961f0c)\n\n# 🌎 How does it work?\n\nMantle is a data infrastructure layer (the “mantle” 🙂 🌎) for biological data analysis.\n\n![uploaded image](/media/?type=post&id=82415&key=user_uploads/876391/45cbb641-63e7-4475-8f46-35af154abca9)\n\n* **Import** data from ELNs (e.g. Benchling), instruments (e.g. Illumina), CROs, and more\n* **Process** data reproducibly with bioinformatics pipelines and Jupyter Notebooks\n* In a private **data lake**, find, organize, and analyze data of any type and scale\n* **Insights** are accessible to no-code users through real-time visualizations\n* **Data Science & ML** results can be easily shared and traced back to raw data\n\n**Why doesn’t biology use “normal” data engineering tools?**\n\n* **The data is different.** General-purpose tools are designed for consistently structured tabular data. Biology generates data with frequently changing metadata in biology-specific formats. _Mantle’s data lake stores data of any scale, format, or type in a single place._\n* **The ecosystem is different.** Tools that are not designed for biology don’t prioritize integrations with other tools in the science ecosystem. _Mantle has off-the-shelf integrations with standard life science tools._\n* **The processing is different.** Tabular data can typically be processed with simple transformations. Preprocessing genomics data can take dozens of hours and careful parameter tuning. _Custom and off-the-shelf bioinformatics pipelines can be run reproducibly through Mantle, with or without code._\n\n# 👋 Help us close the gap between data and discovery\n\n![uploaded image](/media/?type=post&id=82415&key=user_uploads/876391/e731a73f-ecf6-4bc2-b601-ed42ee8fb6a9)\n\nWe love data engineering, and we love helping scientists. If you’d like to, here are some ways you can help us:\n\n* **Give Mantle a try!**\n  * Get started [here](https://mantlebio.com/get-started/) for free.\n* **Let us know what you think!**\n  * If you want to chat or see a demo, please reach out to me here: [emily@mantlebio.com](mailto:emily@mantlebio.com)\n  * If you would like help debugging a weird AWS error, please reach out to my co-founder here: [madeline@mantlebio.com](mailto:madeline@mantlebio.com) \n  * We are celebrating this launch with a Computation & Biology happy hour at our SF office on August 13. Space is limited; please RSVP [here](https://lu.ma/jraavbdm).\n* **Learn with us!**\n  * Check out our blogs on [bioinformatics engineering](https://blog.mantlebio.com/p/intro-to-bioinformatics-engineering), [ELNs](https://blog.mantlebio.com/p/eln-breakdown-scale-scope-and-science), and [more](https://blog.mantlebio.com/).\n  * Check out our upcoming [workshops and events](https://lu.ma/mantlebio).\n* **Share this post!**\n  * If you enjoyed reading this, your friends might too 😀\n\nThank you!",
+      "url": "https://www.ycombinator.com/launches/LRH-mantlebio-helping-scientists-transform-data-into-discoveries",
+      "votes": 13,
+      "created_at": "2024-07-25T14:07:49.934Z"
+    },
+    {
+      "id": 72941,
+      "title": "🔬 MantleBio: Scaling data driven discovery for biotech",
+      "tagline": "Our data platform helps scientists and computational biologists manage and analyze high-throughput experiments",
+      "body": "Hi everyone, we’re [Emily](https://www.linkedin.com/in/emily-damato-36932523/) and [Madeline](https://www.linkedin.com/in/madeline-schade/) from [MantleBio](http://mantlebio.com)!\n\nMantleBio is a modern data engineering platform for life science research and computational biology. While software like Benchling helps organize research in the wet lab, MantleBio powers research in the dry lab. Our platform helps biotech companies leverage advances in computational science and machine learning with tools built for biotech.\n\nIf you’re a computational biologist or work with biological data we would love to chat. Contact us at [mantlebio.com](http://mantlebio.com) or [info@mantlebio.com](mailto:info@mantlebio.com).\n\n### The Problem\n\nBiotech generates a tremendous amount of data. High-throughput sequencing and screening have become the norm, R&D groups can generate terabytes of data per day, and biotech is estimated to have the largest volume of data of any industry by [2025](https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.1002195).\n\nRecent breakthroughs in computer science and machine learning have the opportunity to profoundly impact scientific research. However, the majority of biotech companies lack the tools or software team necessary to fully utilize these advances and the data they have.\n\nWithout implementing the best data practices, biotech companies are often unable to find past results, reproduce analyses, or integrate multiomic datasets. This can be a bottleneck for future experiments and jeopardize regulatory filings. Meanwhile, generic data management software fails to address the complexities specific to life science. MantleBio bridges this gap, accelerating data driven discovery with tools built for biotech.\n\n![uploaded image](/media/?type=post&id=72941&key=user_uploads/1435929/28c97902-c13b-461a-917e-17858a41d971)\n\n### Our Solution\n\n* Simplify multiomics with centralized data management.\n  * Other systems require scientists to design their own schemas. We collaborate with experts to create domain-aware data models available off the shelf.\n  * Our API, CLI, and UI make datasets easily accessible to no-code users and computational scientists.\n* Automate the analysis of routine workflows. Start a DNA sequencing run, grab coffee, and receive the results in your inbox.\n  * We connect to Benchling, Notion, BaseSpace and other systems to read experimental data from the source. Our API and data transformation pipelines allow custom integrations with even the most difficult laboratory instruments.\n* Create bioinformatics pipelines in minutes, not days.\n  * Computational biologists can create production pipelines directly in MantleBio without managing cloud infrastructure or writing Docker files.\n* Prepare for the next IND filing or FDA audit with reproducible datasets and analyses.\n  * MantleBio automatically records a version history for all datasets. The platform captures inputs, processing, and outputs of all analyses, creating a connected and auditable graph of everything in the computational lab.\n\n![uploaded image](/media/?type=post&id=72941&key=user_uploads/1435929/c5949154-a9ed-49a9-9fa5-37c572dc06ad)\n\n## About Us\n\nMadeline is a software engineer with experience as a full-stack engineer at multiple biotech companies and at Google working on large data pipelines. At GRAIL she developed an EDC that supported one of the largest clinical trials ever performed (over 200k patients), and at Google worked on a system supporting 10 billion queries per day. She studied computer science and computer engineering at UC Santa Cruz, where she did research in large distributed systems.\n\nEmily is a “full-stack computational biologist”. Her software experience includes back-end, full-stack, and machine learning. She has done biology research at MIT in both the wet lab and dry lab, and in industry has worked in drug discovery, cell therapy, diagnostics, molecular dynamics simulations, and patient health records.\n\nEmily and Madeline met while working as software engineers at GRAIL, a cancer diagnostic company. From there they both went to Arsenal Bio, a cell therapy company. They realized these biotech companies had common data management needs, but there was no common tool available. They started MantleBio to make the best data engineering practices accessible to all life science research.\n\n### Want to learn more?\n\nContact us at [mantlebio.com](http://mantlebio.com) or [info@mantlebio.com](mailto:info@mantlebio.com).\n\nWe love helping scientists. If you have questions about your current data practices (e.g.“will this scale?”) we also do free data infrastructure reviews.",
+      "url": "https://www.ycombinator.com/launches/IyT-mantlebio-scaling-data-driven-discovery-for-biotech",
+      "votes": 45,
+      "created_at": "2023-07-11T17:43:56.253Z"
+    }
+  ]
+}

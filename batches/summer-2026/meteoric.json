@@ -1,0 +1,92 @@
+{
+  "id": 31249,
+  "name": "Meteoric",
+  "slug": "meteoric",
+  "former_names": [],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/d2429e5b744af3176c949e0f696004529640d5c5.png",
+  "website": "https://meteoric.earth/",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "Meteoric is building drones that clear clouds over solar farms and ultimately weaken severe storms and hurricanes.",
+  "one_liner": "Drones that clear clouds over solar farms and weaken hurricanes",
+  "team_size": 2,
+  "industry": "Industrials",
+  "subindustry": "Industrials -> Climate",
+  "launched_at": 1786601879,
+  "tags": [
+    "Hard Tech",
+    "Renewable Energy",
+    "ClimateTech"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Summer 2026",
+  "status": "Active",
+  "industries": [
+    "Industrials",
+    "Climate"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/meteoric",
+  "api": "https://devasheeshg.github.io/yc-api/batches/summer-2026/meteoric.json",
+  "year_founded": 2026,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://uk.linkedin.com/company/meteoric-inc",
+  "x_url": "",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/d2429e5b744af3176c949e0f696004529640d5c5.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Gustaf Alstromer",
+    "url": "https://www.ycombinator.com/people/gustaf-alstromer"
+  },
+  "founders": [
+    {
+      "user_id": 2005935,
+      "full_name": "Mete Karslioglu",
+      "title": "Founder/CEO",
+      "founder_bio": "Building drones that clear clouds over solar farms and ultimately weaken severe storms and hurricanes. \nPreviously developed spray nozzles to brighten clouds (MCB) at the Cambridge Centre for Climate Repair. \nCambridge MEng in Aerospace, Energy & Mechanical Engineering \n",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/mete-karslioglu/",
+      "x_url": "https://x.com/MeteKarsli0glu",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/b998b2251a59ddfe79caef102ec082aabdfe46ae.jpg"
+    },
+    {
+      "user_id": 2007524,
+      "full_name": "Eric Nilsson",
+      "title": "Founder/CTO",
+      "founder_bio": "Co-founder and CTO at Meteoric (S26). We build drones that clear clouds over solar farms and ultimately weaken hurricanes. \nPreviously worked on capacitive sensing for digital microfluidics at the University of Cambridge.\nCambridge MEng in Engineering, specialised in Electrical & Electronic Engineering, Information & Computer Engineering, Instrumentation & Control.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/eric-nilsson-2b3775254/",
+      "x_url": "https://x.com/eric_nilsson_",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/9396f9942c88c3920b9d6d17d32c28275e141a56.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 111583,
+      "title": "Meteoric — Drones that clear clouds over solar farms and ultimately weaken hurricanes",
+      "tagline": "Meteoric is building drones that reduce the reflectivity of clouds above solar farms and ultimately reduce the intensity of severe storms and hurricanes.",
+      "body": "![uploaded image](/media/?type=post&id=111583&key=user_uploads/2005935/6f49c082-1391-4bb6-939f-8f92d0dee7a0)\n\n**TL;DR:** Meteoric is building drones that fly into clouds and reduce their reflectivity without spraying any chemicals. We're starting with clearing overcast clouds above utility-scale solar farms to increase their annual generation by 10–30% with no new infrastructure. Our long-term goal is to scale this system to weaken severe storms and hurricanes. First large-scale cloud clearing flight in 2027 and first storm flight in 2028.\n\nHey everyone! We’re [Mete](https://www.linkedin.com/in/mete-karslioglu) and [Eric](https://www.linkedin.com/in/eric-nilsson-2b3775254), and we’re building drones to engineer clouds.\n\n![uploaded image](/media/?type=post&id=111583&key=user_uploads/2005935/5c79de40-e828-4e83-aff5-e1ae0feb3dc4)\n\n⚡ **Starting with solar**\n\nAI has created an enormous demand for power, and solar is scaling exponentially. [US utility-scale solar capacity is set to double by 2030](https://cleanpower.org/resources/market-pulse-utility-scale-solar-summer-2026), and [the world will add 2+ TW](https://www.iea.org/reports/renewables-2025/renewable-electricity) over the same period.\n\nBut building new capacity is getting harder and less profitable. Only [\\~14% of US utility-scale solar projects](https://emp.lbl.gov/queues) actually get built and [773 GW is already waiting in interconnection queues](https://emp.lbl.gov/queues). \n\nAt the same time, generation costs are rising as tax credits are overhauled and tariffs increase material prices. This makes each additional MWh generated from an existing plant more valuable.\n\n[Low and mid-level overcast clouds cut incoming sunlight by 73–82%](https://www.sciencedirect.com/science/article/pii/0038092X80903916) while they’re overhead. We recover that without building new infrastructure. \n\n🌤 **What we're building**\n\nFleets of 10s-100s of autonomous drones that fly into low and mid-altitude clouds (1–5 km) over a solar farm and alter the water droplets that form them without using any chemicals. This reduces their reflectivity and brings back measurable amounts of sunlight to the panels below.\n\nOur cloud-loss model shows that this process can increase annual generation from existing assets by 10–30% across major US grid regions, worth \\~$5,000–28,000/MW, without building any new infrastructure.\n\n⚙️ **Traction**\n\n* Built a working prototype that dissipated an artificial cloud by 13% in cloud-chamber tests\n* Built a cloud-loss model that quantifies how much generation a given US solar plant is losing to the clouds we can treat\n\n👉 **Why now**\n\n* Cloud access got \\~97% cheaper: conventional seeding aircrafts cost $2,000+/hr; electric drones are at $30–60/hr. \n* AI is transforming weather forecasting: DeepMind's weather models produce [15-day forecasts in less than a minute](https://deepmind.google/blog/weathernext-ai-model-achieves-breakthrough-in-forecasting-cyclones/) and [outperform traditional physics-based models on more than 90% of benchmarks](https://developers.google.com/weathernext/guides/evals).\n\n🎯 **Weakening storms and hurricanes**\n\nOur ultimate goal is to reduce the intensity of severe storms and hurricanes.\n\nSevere weather has already cost the US [$31.9B in the first half of 2026](https://www.climatecentral.org/climate-services/billion-dollar-disasters), and from 2020 to 2024 severe storms, floods, and tropical cyclones caused [an average of \\~$121B/yr in losses](https://www.ncei.noaa.gov/access/billions/summary-stats). Severe storms alone generated [$50B+/yr in insured losses for the past three years](https://www.iii.org/press-release/triple-i-severe-convective-storms-generate-more-than-50b-in-insured-losses-for-third-consecutive-year-041326). There's now [a billion-dollar weather disaster every 16 days vs. every 82 days in the 1980s](https://www.ncei.noaa.gov/access/billions/climatology).\n\nGlobally, these disasters caused [over $2T in damage in the past decade](https://iccwbo.org/news-publications/policies-reports/new-report-extreme-weather-events-cost-economy-2-trillion-over-the-last-decade) and claimed [more than 2 million lives in the past 50 years](https://news.un.org/en/story/2023/05/1136897). \n\nClearing stable overcast clouds is our first major technical milestone. It will prove we can reliably alter clouds at scale. From there, we’ll expand our fleets and control systems to reduce the intensity of severe storms and hurricanes. First storm operation targeted for late 2028.\n\n👥 **Team**\n\nWe're two Cambridge engineers with backgrounds in weather engineering and droplet-control systems:\n\nMete (CEO): Master's research on making clouds more reflective using seawater spray nozzles at the Cambridge Centre for Climate Repair (funded by ARIA, UK's DARPA). MEng from Cambridge in aerospace/aerothermal, energy, and mechanical engineering.\n\nEric (CTO): Master's research on microfluidic chips that control water, and built droplet-removal technology for LiDAR lenses. MEng from Cambridge in electrical, control, and computer engineering. Placed 4th nationally in the British Physics Challenge.\n\n🙏 **We'd love to hear from you if you:**\n\n* work in disaster response or severe weather at the state or federal level (FEMA, state EMs, NOAA, NWS)\n* run hail suppression programs (North Dakota, Texas, Alberta)\n* own, manage, build, or operate utility-scale solar plants (especially in Texas, northern US, UK, or northern Europe)\n* work in weather modelling / meteorology / atmospheric science (especially in hurricane or storm research)\n* are engineers with experience in drones or high-voltage systems / power electronics\n\nReach us at [team@meteoric.earth](mailto:team@meteoric.earth)\n\n![uploaded image](/media/?type=post&id=111583&key=user_uploads/2005935/c0a9ce1e-492d-4687-8c6d-4d53a7bf67b2)\n\n",
+      "url": "https://www.ycombinator.com/launches/T1j-meteoric-drones-that-clear-clouds-over-solar-farms-and-ultimately-weaken-hurricanes",
+      "votes": 19,
+      "created_at": "2026-08-21T20:00:00.552Z"
+    }
+  ]
+}

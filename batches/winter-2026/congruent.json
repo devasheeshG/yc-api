@@ -1,0 +1,77 @@
+{
+  "id": 31196,
+  "name": "Congruent",
+  "slug": "congruent",
+  "former_names": [],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/a7c888706d93f04e768a791ada75bb06e4605041.png",
+  "website": "https://congruent.io",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "At Congruent, we build radars for end-to-end autonomous systems. The most advanced autonomous systems are trained as a single neural network from raw sensor data to navigation actions. For a sensor to be included in these pipelines sensor stacks requires two key properties: access to raw sensor data and a high-fidelity sensor simulator. Current automotive radars have neither, they output heavily processed point clouds and no raw radar simulator exists for driving scenes. Congruent solves both problems: a radar architecture that exposes raw data, paired with a world model based radar simulator. Radar is the only depth sensor at a price point that scales to every car on the road and works in all weather conditions. Congruent is building the radar compatible with the training architectures that will make mass-market vehicles autonomous.",
+  "one_liner": "AI native radars for self-driving cars",
+  "team_size": 2,
+  "industry": "Industrials",
+  "subindustry": "Industrials",
+  "launched_at": 1771538111,
+  "tags": [],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Winter 2026",
+  "status": "Active",
+  "industries": [
+    "Industrials"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/congruent",
+  "api": "https://devasheeshg.github.io/yc-api/batches/winter-2026/congruent.json",
+  "year_founded": 2025,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/congruent-sensing/",
+  "x_url": "",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/a7c888706d93f04e768a791ada75bb06e4605041.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Brad Flora",
+    "url": "https://www.ycombinator.com/people/brad-flora"
+  },
+  "founders": [
+    {
+      "user_id": 1953552,
+      "full_name": "Clement Barthes",
+      "title": "Founder/CEO",
+      "founder_bio": "ex-head of autonomy at Zendar\nex-CTO at Safehub, making smart sensors to evaluate building damage after earthquakes\nex-Research Engineer and Lab Manager at UC Berkeley - PEER lab",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/clement-barthes-44470a10b/",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/cd43a7f8be63e763107dc19e4356ce099ccb5aaa.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 98073,
+      "title": "Radars for end-to-end autonomy",
+      "tagline": "The radar to unlock mass-market self-driving cars",
+      "body": "**TL;DR:** Everyone wants an autonomous car, but today they are cost prohibitive because they rely on multiple lidars. The answer is radar, it's tens of dollars, already in most cars, and works in all weather. The problem: no one has built a radar compatible with end-to-end training, which is how all modern autonomous vehicles learn to drive. We built the radar hardware and radar simulator to change that.\n\n<https://youtu.be/gxdcpLKO_xA>\n\nToday, a robotaxi costs hundreds of thousands of dollars, largely because it relies on lidar, an expensive sensor that works but doesn't scale. **Radar costs tens of dollars per unit, is already in 90% of US cars**, and works in rain, snow, fog, and dust where lidar and cameras degrade. The problem is that no one has built a radar that is compatible with how autonomous vehicles are actually trained.\n\n**The state of the art in autonomy is end-to-end training:** a single neural network learns driving actions directly from raw sensor data. Inclusion in end-to-end training requires two things from each sensor: access to raw data and a high-fidelity simulator. Cameras have both. Lidars have both. Radars have neither. Every automotive radar on the market throws away over 99% of the raw data before the model sees it, and no existing world model is able to simulate radar data.\n\n**Self-driving requires multi-sensor redundancy** and depth sensing that cameras alone cannot provide, but camera-radar fusion can. An OEM that adopts Congruent's radar can train a single end-to-end system on several cameras and radars together, reaching full self-driving, at a sensor cost low enough to ship in every vehicle they make.\n\nWe are Clement Barthes and Evan Carnahan, two PhDs who met as research engineers building radar perception pipelines for autonomous vehicles. Clement earned his doctorate in Structural Mechanics from UC Berkeley and developed advanced sensor systems for automotive and structural health monitoring applications. Evan earned his doctorate from UT-Austin, where he built physics-learned models for multi-sensor satellite data. We launched Congruent because we kept running into the same wall: **radar has the physics to enable mass-market autonomy, but no one was building the hardware and simulation tools to make it usable in modern training architectures… until now**.\n\n**If you are at an OEM, tier-one supplier, or AV company working on sensor architecture or end-to-end training, let’s get in touch !  [info@congruent.io](mailto:info@congruent.io)**\n\n![uploaded image](/media/?type=post&id=98073&key=user_uploads/1953552/87d983de-4b46-4ea3-ad8a-44bedfb39325)\n\n",
+      "url": "https://www.ycombinator.com/launches/PVp-radars-for-end-to-end-autonomy",
+      "votes": 7,
+      "created_at": "2026-02-23T08:45:40.368Z"
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "id": 34629,
+  "name": "Simulithic",
+  "slug": "simulithic",
+  "former_names": [],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/58a972cb3cb171dd4300267d241cc6705539f906.png",
+  "website": "https://simulithic.com",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "AI made writing code fast. Testing it is still slow. Simulithic sends AI users through your app on every device, browser and account type your customers use, so you can ship as fast as you can code, without writing or maintaining a single test.",
+  "one_liner": "AI users that test your app on every device and browser",
+  "team_size": 2,
+  "industry": "B2B",
+  "subindustry": "B2B -> Engineering, Product and Design",
+  "launched_at": 1786468833,
+  "tags": [
+    "Developer Tools",
+    "Infrastructure",
+    "AI"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Fall 2026",
+  "status": "Active",
+  "industries": [
+    "B2B",
+    "Engineering, Product and Design"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/simulithic",
+  "api": "https://devasheeshg.github.io/yc-api/batches/fall-2026/simulithic.json",
+  "year_founded": 2026,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/simulithic",
+  "x_url": "https://x.com/Simulithic",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/58a972cb3cb171dd4300267d241cc6705539f906.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Aaron Epstein",
+    "url": "https://www.ycombinator.com/people/aaron-epstein"
+  },
+  "founders": [
+    {
+      "user_id": 3193634,
+      "full_name": "Ryan Ning",
+      "title": "Founder/CEO",
+      "founder_bio": "Founder at Simulithic (YC F26). Previously SWE @ Uber, Shopify, and AI research @ University of Toronto.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/ryan-ning",
+      "x_url": "https://www.x.com/itsnotryan",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/628c2499d502329da53cf7f64acf3a68ca2f3031.jpg"
+    },
+    {
+      "user_id": 3193667,
+      "full_name": "Satyam Singh",
+      "title": "Founder/CTO",
+      "founder_bio": "Founder at Simulithic (YC F26). Previously Software Engineer at Ramp and Bree (YC S21).",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/satyamsingh2003/",
+      "x_url": "https://x.com/klauscodes",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/ba6dd9d5649f6faf1a161ed1c7bde1642911590c.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 123207,
+      "title": "Simulithic — AI users that test your app on every device and browser.",
+      "tagline": "Verify code works as fast as agents write it. ",
+      "body": "Hey everyone! We're [Ryan](https://www.linkedin.com/in/ryan-ning) and [Satyam](https://www.linkedin.com/in/satyamsingh2003).\n\n**TL;DR:** Simulithic sends AI agents through your app the way real users do, on every device, browser, and account type. No test scripts to write, nothing to maintain, and you hear about broken flows before your users do.\n\n**The problem: Verification is the new bottleneck**\n\nEvery engineering team is limited by how fast it can verify what it built works. \n\nFor decades, writing code was the slow part, so nobody noticed.\n\nAI changed that. Agents now write code in minutes, but checking it still means hand-written Playwright tests, or worse, manual clicking before every deploy.\n\nThis means teams can generate 10x more code but can't ship 10x more, because every change still has to be verified. And the faster code gets written, the bigger this gap becomes.\n\nWe believe the teams that win will be the ones that can verify as fast as they can build.\n\nThat's what Simulithic does.\\\n<https://youtu.be/u7nAthxNX0c>\n\n**How Simulithic works**\n\n* **Maps every user flow with one command.** Point Simulithic at your app and AI agents explore it like real users, discovering flows on their own. No more manually write test scripts or describing every flow.\n* **Tests where your users actually are.** Every device (iOS, Android, macOS, Windows), browser, account type, and network speed your customers use.\n* **No maintenance.** When the UI changes, the agents adapt. Nothing to rewrite.\n* **Runs everywhere you ship.** While you code, as the end-to-end step in CI/CD, and continuously in production, checking your live flows every day.\n* **Alerts you in Slack** before your users notice something broke.\n\n**The team**\n\n**Ryan (CEO)** was an engineering intern at Uber and Shopify and researched AI agent design, implementation, and evaluation at the University of Toronto as an undergrad.\n\n**Satyam (CTO)** was an engineering intern at Ramp and Bree (YC S21). He's won 41 of 51 hackathons, including NASA Space Apps (first ever Canadian team to win out of 15,444 teams globally), and was an MLH Top 50 Hacker.\n\nTogether we built GitWrap, a Spotify Wrapped for GitHub used by 100,000+ developers, and kept hitting this testing problem every time we shipped at every company we worked at. \n\n**Our ask**\n\n* If your team is shipping fast and still hand-writing Playwright tests / manually clicking through flow heavy apps, [**book a 20-min demo**](https://cal.com/ryan-ning/20min).\n* Email us directly at [**ryan@simulithic.com**](mailto:ryan@simulithic.com).\n* Know an engineering team drowning in manual QA verification? We'd love an intro.\n\nThank you! ",
+      "url": "https://www.ycombinator.com/launches/W3D-simulithic-ai-users-that-test-your-app-on-every-device-and-browser",
+      "votes": 82,
+      "created_at": "2026-10-21T16:02:18.580Z"
+    }
+  ]
+}

@@ -1,0 +1,106 @@
+{
+  "id": 33179,
+  "name": "Verdict Machine",
+  "slug": "verdict-machine",
+  "former_names": [
+    "TxAI"
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/efc3c74e529cc296ebd75ff470655d005300ddf0.png",
+  "website": "https://verdictmachine.com",
+  "all_locations": "Tel Aviv-Yafo, Tel Aviv District, Israel",
+  "long_description": "Verdict Machine uses AI to understand each financial institution's complete on-chain environment, assess its cyber risk and generate tailored controls. The same live model powers transaction prevention, continuous cyber diligence, security posture and cost-efficient wallet screening. Before execution, Verdict Machine evaluates proposed transactions against the institution's active policies.\n\nIn our first weeks, we started POCs with asset managers and digital-asset infrastructure providers whose systems move billions of dollars every week for financial institutions. We're now in active evaluations with digital-asset teams at some of the world's largest banks.\n\nThe founding team launched and led blockchain security at Check Point (NASDAQ: CHKP).",
+  "one_liner": "AI cybersecurity for financial institutions' digital assets",
+  "team_size": 4,
+  "industry": "B2B",
+  "subindustry": "B2B -> Security",
+  "launched_at": 1786374737,
+  "tags": [
+    "Crypto / Web3",
+    "Security",
+    "AI"
+  ],
+  "tags_highlighted": [
+    "Crypto / Web3"
+  ],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Summer 2026",
+  "status": "Active",
+  "industries": [
+    "B2B",
+    "Security"
+  ],
+  "regions": [
+    "Israel",
+    "Middle East and North Africa"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/verdict-machine",
+  "api": "https://devasheeshg.github.io/yc-api/batches/summer-2026/verdict-machine.json",
+  "year_founded": 2026,
+  "city": "Tel Aviv-Yafo",
+  "country": "IL",
+  "linkedin_url": "https://www.linkedin.com/company/verdict-machine/",
+  "x_url": "",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/efc3c74e529cc296ebd75ff470655d005300ddf0.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Brad Flora",
+    "url": "https://www.ycombinator.com/people/brad-flora"
+  },
+  "founders": [
+    {
+      "user_id": 85721,
+      "full_name": "Dan Danay",
+      "title": "Founder/CEO",
+      "founder_bio": "Co-founder and CEO at Verdict Machine (YC S26). Previously Head of Blockchain Security at Check Point (NASDAQ:CHKP), launching their digital assets division. Founded keyTango (MPC-powered crypto clearing house) and Airmada (YC W16, automated drone stations). MIT Sloan MBA. Captain in Israeli Navy, commanded missile ship and naval electronics school.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/dandanay/",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/821ae7bdee6621edf11f400f8aee456ae9e5b649.jpg"
+    },
+    {
+      "user_id": 3784711,
+      "full_name": "Isaac Grossman",
+      "title": "Founder",
+      "founder_bio": "Co-founder and CTO at Verdict Machine (YC S26). Previously VP Engineering at Fhenix, where he led development of an FHE-enabled L2, and at SCRT Labs, where he helped scale Secret Network to a top-100 crypto asset. Co-founded keyTango, an MPC-powered crypto clearing house.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/itzik-grossman",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/729b4a4e5f449d069ff7dde45b6a9d7af5cb6e7c.jpg"
+    },
+    {
+      "user_id": 3784793,
+      "full_name": "Liran Kogan",
+      "title": "Founder/CPO",
+      "founder_bio": "Co-founder and CPO at Verdict Machine (YC S26). Previously launched and led blockchain-security products at Check Point (NASDAQ: CHKP), and led payments and FX products at Payoneer (NASDAQ: PAYO). NYU + INSEAD.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/liran-kogan/",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/b8ffca19f9687957470301ec575fb6f9cab05b65.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 110493,
+      "title": "Verdict Machine: AI cybersecurity for financial institutions’ digital assets",
+      "tagline": "AI that understands each institution's complete on-chain environment, assesses its cyber risk, and generates tailored controls to prevent hacks",
+      "body": "Hey all! We are Dan, Liran, and Isaac. Before Verdict Machine, we launched blockchain security at Check Point (NASDAQ: CHKP).\n\n**TL;DR:** Blockchain is becoming critical infra for all finance. More than $3.4B in digital assets was stolen in 2025. Verdict Machine is AI cybersecurity for financial institutions' digital assets. We use AI to understand each institution's environment, assess cyber risk and generate tailored controls that prevent hacks.\n\n**Building for:** banks, asset managers, DeFi protocols and infra, companies that use stablecoins or RWAs. If that’s you, email us at [founders@verdictmachine.com](mailto:founders@verdictmachine.com).\n\n<https://youtu.be/dYmEjST7Nc8>\n\n### Signed is not safe\n\nSophisticated hackers don’t need to compromise a wallet to steal funds. They only need to trick an authorized operator into approving one malicious transaction.\n\nOn-chain, settlement is final. There is no chargeback and no reversal. The security decision has to happen before the transaction executes.\n\nAttackers are sophisticated and see the entire institution, while existing security tools see fragments:\n\n* Hidden dependencies. Vendors, protocols, bridges and infrastructure are assessed separately or not at all.\n* Limited context. Controls check a transaction, not the institution behind it.\n* Stale controls. Rules are written once and reviews run once, while the institution and its risk keep changing.\n\n \n\n### How Verdict Machine works\n\nVerdict Machine uses AI to secure each client end to end.\n\n**Inventory.** It builds the complete inventory of a client’s on-chain environment: assets, wallets, smart contracts, users, vendors, counterparties, and transaction patterns.\n\n**Posture.** It quantifies cyber risk and recommends tailored controls to minimize exposure.\n\n**Enforce controls.** Before execution, it evaluates each proposed transaction to prevent attacks in real time.\n\nThe same live model powers every workflow:\n\n**Real time prevention.** Security and compliance teams secure their most critical transactions.\n\n**Continuous cyber diligence.** Asset managers and risk teams underwrite the cyber risk of protocols, vendors, and counterparties before and after capital is deployed.\n\n**Wallet screening.** Payments and stablecoin teams screen for fraud, unauthorized transactions, and risky wallets.\n\n### Why now\n\nInstitutions are racing to launch stablecoin and tokenized-asset products. MiCA and DORA are in force, so the people who own this risk now have to show their work. Attackers punish under-protected organizations.\n\nFireblocks and Chainalysis reached $8B valuations for digital asset custody and compliance. Cybersecurity for on-chain finance is a bigger opportunity. Every financial institution is going to use digital assets and therefore will require digital-asset cybersecurity.\n\n### Traction\n\nWe left Check Point the day before Y Combinator started. We already have POCs with asset managers and digital-asset infrastructure providers moving billions of dollars weekly for financial institutions, and we are in active evaluations with a digital-asset team at one of the world's largest banks.\n\n### Why us\n\nWe previously launched and led blockchain security at Check Point (NASDAQ: CHKP). Our CTO Isaac is a cyber veteran from Matzov, Israel’s cryptography unit. We are crypto natives with many years building infra for crypto and fintech. We built Verdict Machine to bring AI-native, institution-specific security to on-chain finance.\n\nManaging or deploying crypto, stablecoins, or tokenized assets? Talk to us.\n\n[verdictmachine.com](http://verdictmachine.com) · [founders@verdictmachine.com](mailto:founders@verdictmachine.com)",
+      "url": "https://www.ycombinator.com/launches/Sk9-verdict-machine-ai-cybersecurity-for-financial-institutions-digital-assets",
+      "votes": 24,
+      "created_at": "2026-08-17T15:00:01.008Z"
+    }
+  ]
+}

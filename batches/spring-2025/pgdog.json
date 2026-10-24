@@ -1,0 +1,100 @@
+{
+  "id": 30448,
+  "name": "PgDog",
+  "slug": "pgdog",
+  "former_names": [],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/e611bab66e36c7b14163abfaf0665e260a2ac3e2.png",
+  "website": "https://pgdog.dev",
+  "all_locations": "San Francisco, CA, USA; Remote",
+  "long_description": "PgDog is an application for sharding PostgreSQL. It understands SQL and can distribute queries automatically between databases. It's built for managed databases, like AWS RDS, and doesn't require any changes to application code or schema.\r\n\r\nIn addition to sharding, PgDog is a load balancer and pooler, so it can act as a replacement for PgBouncer, RDS Proxy, and other Postgres scaling products. It brings the simplicity and performance of HTTP load balancing to the database.\r\n\r\nBuilt from the experience of sharding Postgres at Instacart during peak growth in 2020, PgDog is the answer to the old question: does Postgres scale? It does now.",
+  "one_liner": "Scaling engine for PostgreSQL",
+  "team_size": 3,
+  "industry": "B2B",
+  "subindustry": "B2B -> Infrastructure",
+  "launched_at": 1745009582,
+  "tags": [
+    "Databases"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": true,
+  "nonprofit": false,
+  "batch": "Spring 2025",
+  "status": "Active",
+  "industries": [
+    "B2B",
+    "Infrastructure"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada",
+    "Remote",
+    "Fully Remote"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/pgdog",
+  "api": "https://devasheeshg.github.io/yc-api/batches/spring-2025/pgdog.json",
+  "year_founded": 2025,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/pgdog/",
+  "x_url": "",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": "https://github.com/pgdogdev/pgdog",
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/e611bab66e36c7b14163abfaf0665e260a2ac3e2.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Garry Tan",
+    "url": "https://www.ycombinator.com/people/garry-tan"
+  },
+  "founders": [
+    {
+      "user_id": 989617,
+      "full_name": "Lev Kokotov",
+      "title": "Founder/CEO",
+      "founder_bio": "Second time technical founder, sharded Postgres at Instacart in 2020 during peak growth. Previously built PostgresML (AI + PostgreSQL = 🚀).",
+      "is_active": true,
+      "linkedin_url": "https://linkedin.com/in/levkk",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/981db84827f7a8a66abe5b0836d254f245380246.jpg"
+    }
+  ],
+  "jobs": [
+    {
+      "id": 78009,
+      "title": "Founding Software Engineer",
+      "url": "https://www.ycombinator.com/companies/pgdog/jobs/uWymUYy-founding-software-engineer",
+      "location": "San Francisco, CA, US / CA, US / OR, US / Remote (San Francisco, CA, US; CA, US; OR, US)",
+      "type": "Full-time",
+      "role": "Engineering",
+      "role_type": "Full stack",
+      "salary_range": "$150K - $225K",
+      "equity_range": "1.00% - 3.00%",
+      "experience": "3+ years",
+      "visa": "US citizen/visa only",
+      "skills": [
+        "PostgreSQL",
+        "Rust"
+      ]
+    }
+  ],
+  "news": [],
+  "launches": [
+    {
+      "id": 90596,
+      "title": "PgDog: Scaling PostgreSQL",
+      "tagline": "Proxy for scaling Postgres without app changes or database extensions.",
+      "body": "Hey YC,\n\nI’m Lev and I invented time travel… for your database.\n\n“Huh?”\n\n**TLDR:** PgDog is a proxy for scaling PostgreSQL. It can load balance traffic and shard databases, without changes to app code or using database extensions. What does this have to do with time travel? Keep reading.\n\nhttps://www.youtube.com/watch?v=trSVJel3gyc\n\n# ❌ The Problem\n\nScaling Postgres is a full time job. Your app is writing data but the database can’t keep up. You’re adding more databases and thinking of breaking the app into services to spread the load.\n\nPgDog is for you if:\n\n* You had an outage caused by a bad query\n* Your database is unpredictable; app latency and uptime are all over the place\n* You know more about Postgres internals (like vacuum) than you’d like, and you just want it to work so you can go back to building your product\n\nAnd you catch yourself day dreaming about the good old days, when you were pre-PMF and your DB was at 10% CPU.\n\n# 👷 The Solution\n\nDatabase problems should be solved at the database layer. PgDog is a load balancer, connection pooler, bouncer, and sharder. It speaks fluent SQL and understands every single Postgres query. It uses this knowledge to:\n\n* Distribute queries between shards, horizontally scaling your relational database\n* Load balance traffic between replicas\n* Block or rewrite queries you don’t like, e.g. queries that forgot an index or are missing the customer_id and were about to leak data\n\nWith PgDog, your DB is young again and ready to grow 10x. Written in Rust, for security and performance, PgDog is fully tested and ready for production.\n\n# 🙏 The Ask\n\nIf any of this sounds familiar, **get in touch!** I’m happy to come work for you to fix your DB. I’ll stay in the basement and make PgDog scale Postgres, while you work on your startup.\n\nYou’re my ideal design partner if:\n\n* Postgres is your production database (naturally)\n* Despite your troubles, you love it and want to do more with it\n* You believe in first principles solutions to hard problems\n\n![uploaded image](/media/?type=post&id=90596&key=user_uploads/989617/91f087f7-4175-47fe-9753-57ed4e9bda62)\n\nEmail [lev@pgdog.dev](mailto:lev@pgdog.dev), join our [Discord](https://discord.gg/CcBZkjSJdd), and give us a star on [GitHub](https://github.com/pgdogdev/pgdog). Everything we build is open source.\n\n# 👬 The Team\n\nI’m a second time technical founder (previously co-founded [PostgresML](https://github.com/postgresml/postgresml)) and started the Instacart storage infra team. I scaled 100TB+ databases when Instacart grew 5x in 3 months. This is my second pet-inspired project for scaling Postgres (have you heard of [pgcat](https://github.com/postgresml/pgcat)?)\n\n![uploaded image](/media/?type=post&id=90596&key=user_uploads/989617/86ff8181-b991-4bf9-bd05-8b0a387ed978)\n\n",
+      "url": "https://www.ycombinator.com/launches/NZE-pgdog-scaling-postgresql",
+      "votes": 40,
+      "created_at": "2025-05-21T17:22:59.749Z"
+    }
+  ]
+}

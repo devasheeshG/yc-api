@@ -1,0 +1,100 @@
+{
+  "id": 29825,
+  "name": "Sepal AI",
+  "slug": "sepal-ai",
+  "former_names": [],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/78c48b77fe0ad236d148f827dd2ba0b86450afd3.png",
+  "website": "https://www.sepalai.com",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "Sepal is a data research company on a mission to advance human knowledge and capabilities through safe AI.\r\n\r\nWe partner with the world’s leading AI labs and enterprises to help their models get better at the tasks people actually want them to do.\r\n\r\nWe’ve built a Cloud-Native Agent Dataset Factory which turns the process of generating evaluation and training data from manual, inconsistent, and labor-intensive into something automated, standardized, and scalable.\r\n\r\nSepal AI was founded in 2024 by engineers and operators from Vercel and Turing. We went through Y Combinator, raised several million dollars from leading investors, and already count multiple Fortune 500s and top AI research labs as paying customers.",
+  "one_liner": "Data Development for Advanced AI",
+  "team_size": 15,
+  "industry": "B2B",
+  "subindustry": "B2B",
+  "launched_at": 1722966351,
+  "tags": [
+    "AIOps",
+    "Reinforcement Learning",
+    "Data Labeling",
+    "AI"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Summer 2024",
+  "status": "Acquired",
+  "industries": [
+    "B2B"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada",
+    "Remote",
+    "Partly Remote"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/sepal-ai",
+  "api": "https://devasheeshg.github.io/yc-api/batches/summer-2024/sepal-ai.json",
+  "year_founded": 2024,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/sepalai/",
+  "x_url": "https://x.com/sepal_ai",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/78c48b77fe0ad236d148f827dd2ba0b86450afd3.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Tyler Bosmeny",
+    "url": "https://www.ycombinator.com/people/tyler-bosmeny"
+  },
+  "founders": [
+    {
+      "user_id": 1996512,
+      "full_name": "Robi Lin",
+      "title": "Founder",
+      "founder_bio": "Co-Founder @ Sepal AI\n\nBuilt the enterprise workflow products and fulfillment strategy at Turing.com. Scaled Turing’s LLM trainer business line from 50 to 800+ onboarded developers in 5 months for foundational LLM and enterprise customers. Previously was at Bain & Co.\n",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/robert-lin1/",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/4668b119bdaddeda68e7781c88272985fc03575c.jpg"
+    },
+    {
+      "user_id": 860488,
+      "full_name": "Kat Hu",
+      "title": "Founder",
+      "founder_bio": "Cofounder @ Sepal AI\n\nBuilt Turing’s Foundational LLM trainer business GTM. Ran orgs of 500+ AI trainers & built corresponding operations for scale. Previously was at McKinsey.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/kathleenhu/",
+      "x_url": "https://www.twitter.com/katqhu1",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/0060040b5fd066406e4be3460a6c0d0209a59029.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [
+    {
+      "title": "Sepal AI supports the launch of Anthropic's Claude 3.7 Sonnet with Pre-launch Testing",
+      "url": "https://x.com/sepal_ai/status/1894157588142690695",
+      "date": "May 01, 2025"
+    }
+  ],
+  "launches": [
+    {
+      "id": 82824,
+      "title": "🌱 Sepal AI - Confidently deploy your AI models",
+      "tagline": "We build benchmarks, evals, & training datasets for enterprises.",
+      "body": "# **Tl;dr:** Sepal provides frontier data and tooling for advancing responsible AI development.\n\n# **__________________________________________________________**\n\n[Sepal AI](https://www.sepalai.com/?ref=launch_yc) is on a mission to advance human knowledge and capabilities with the responsible development of artificial intelligence.\n\n# **🧐 Responsibly advance human knowledge with AI? What does that mean?**\n\nWe believe in a world where AI advances scientific research and empowers economic growth. \n\nTo achieve that future, AI product & model builders need:\n\n1. **Golden Datasets and Frontier Benchmarking:** To iteratively measure model performance on specific use cases.\n2. **Training Data:** To improve model capabilities using fine-tuning and RLHF.\n3. **Safety / Red-teaming:** To measure and forecast the safety of LLMs before putting them out in the wild.\n\n# **__________________________________________________________**\n\n# ⚠️ **Okay, well why does it matter?**\n\nFrontier data for AI development is vital for safe deployment & scaling. However, developing this data is difficult. \n\nMost frontier data requires domain knowledge that can be hard to source and curate (e.g., finance, medical, physics, biology, etc.). Publicly available benchmarks (e.g., MMLU, GPQA, MATH, etc.) are contaminated and too general to be useful to actual product & model builders.\n\n# **__________________________________________________________**\n\n# **🌱 How do we do this?**\n\nWe’ve built Sepal AI - the data development platform that enables you to curate useful datasets.\n\n**The Platform:** We bring data generation tooling, human experts, synthetic data augmentation, and rigorous quality control into one platform so you can manage the production of high-quality datasets.\n\n![uploaded image](/media/?type=post&id=82824&key=user_uploads/860488/81dd4889-9694-4c67-8505-389edf7c3361)\n\n**Our Expert Network:** We’ve built a network of 20k+ experts across STEM and professional services (think academic PhDs, business analysts, medical professionals, marketing and finance consultants) to support campaign design & data development. \n\nSample engagements we’ve run:\n\n* **🧬 Cell and Molecular Biology Benchmark:** An original benchmark to evaluate complex reasoning across models. Produced by a team of PhD biologists from top institutions in the US.\n* **💼 Finance Q&A + SQL Eval:** A Golden Dataset to test the ability of an AI agent to query a database and produce human-expert-level answers to complex finance questions.\n* **📏 Uplift Trials & Human Baselining:** End to end support for conducting secure in-person evaluations on model performance. \n* _…. \\[insert your custom use case next?\\]_\n\n# **__________________________________________________________**\n\n# **🙏 Asks:**\n\n1. If you are building an AI application and need to measure or improve your model, or\n2. If you are a researcher at an AI lab building or evaluating models for new capabilities / risk areas, or\n3. If you’re passionate about the development of AI, AI safety, or evals in general…\n\nLet’s chat — please check us out at [www.sepalai.com](http://www.sepalai.com) \n\n# **__________________________________________________________**\n\n# **👪 Our team:**\n\n![uploaded image](/media/?type=post&id=82824&key=user_uploads/860488/a1187807-573a-4248-9181-6378d6e2b042)\n\nMeet [Kat](https://www.linkedin.com/in/kathleenhu/) (on the left), [Robi](https://www.linkedin.com/in/robert-lin1/) (in the middle), [Fedor](https://www.linkedin.com/in/f3d0r/) (on the right)!\n\nRobi and Kat previously built the technical LLM training business for Turing. Kat on the go-to-market & operations side. Robi on the product & fulfillment side. Fedor is a long-time close friend - he was an early engineer at Vercel & Newfront where he built out foundational infrastructure.\n\nSay hi: [founders@sepalai.com](mailto:founders@sepalai.com).",
+      "url": "https://www.ycombinator.com/launches/LXs-sepal-ai-confidently-deploy-your-ai-models",
+      "votes": 51,
+      "created_at": "2024-08-07T18:46:33.791Z"
+    }
+  ]
+}

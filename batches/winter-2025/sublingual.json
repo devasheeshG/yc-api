@@ -1,0 +1,94 @@
+{
+  "id": 30216,
+  "name": "Sublingual",
+  "slug": "sublingual",
+  "former_names": [
+    "Khipu"
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/c536945e04bdc8b405d2bb35c81631f9b7c3c738.png",
+  "website": "https://sublingual.ai/",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "Our desktop app helps teams stay focused on shipping.",
+  "one_liner": "Daily productivity tracker",
+  "team_size": 2,
+  "industry": "B2B",
+  "subindustry": "B2B",
+  "launched_at": 1740613527,
+  "tags": [
+    "Developer Tools",
+    "Open Source",
+    "Infrastructure",
+    "AI"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Winter 2025",
+  "status": "Inactive",
+  "industries": [
+    "B2B"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/sublingual",
+  "api": "https://devasheeshg.github.io/yc-api/batches/winter-2025/sublingual.json",
+  "year_founded": null,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "",
+  "x_url": "",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/c536945e04bdc8b405d2bb35c81631f9b7c3c738.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Harj Taggar",
+    "url": "https://www.ycombinator.com/people/harj-taggar"
+  },
+  "founders": [
+    {
+      "user_id": 2378452,
+      "full_name": "Matthew Tang",
+      "title": "Founder/CEO",
+      "founder_bio": "recommendation systems, computer vision, deep learning theory",
+      "is_active": false,
+      "linkedin_url": "https://www.linkedin.com/in/mhtang2/",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/a8999b6b3036091766eabf43e32d32bab7872005.jpg"
+    },
+    {
+      "user_id": 2000233,
+      "full_name": "Dylan Bowman",
+      "title": "Founder",
+      "founder_bio": "Background: LLM research in defense contracting and deployment safety.",
+      "is_active": false,
+      "linkedin_url": "https://www.linkedin.com/in/dylan-bowman-68a56218b/",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/779188a524ab36421995729be2db856fc8c916c1.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 88096,
+      "title": "Sublingual: LLM evals for lazy devs",
+      "tagline": "Sublingual is an open-source LLM observability and evals platform that requires zero code changes to integrate. Instantly plug into a full suite of analysis tools with just one pip install—nothing else.",
+      "body": "We've all done it: skipping evals, testing on vibes, and ripping it straight to prod. Integrating observability and evals can be a lot of work, which is why **Sublingual** gives you deep insights into how your LLMs perform without touching your code. It works across a wide range of environments, capturing extensive logs including LLM interactions, inputs, outputs, and server call data. Just pip install subl and you’re live.\n\n<https://www.youtube.com/watch?v=yoki32IJXBg>\n\n# **How we got here:**\n\nWe’ve spent years building and researching LLM applications, and we’ve seen firsthand how developers handle evaluation: sifting through logs, relying on intuition, and struggling with the friction of integrating existing observability tools when they just want to focus on building. Through conversations with numerous founders, we've learned that they're often too busy building to establish robust evaluation systems. So, they end up relying on a couple vibe tests before crossing their fingers and pushing to prod.\n\nThat’s why we built **Sublingual**—effortless LLM observability that works out of the box. No code changes, no distractions, just the insights you need to ship with confidence.\n\n# **Our approach:**\n\n* **Minimize onboarding overhead:** We’ve hacked away at the complexity of automating integration so you can start collecting insights instantly. Our design prioritizes minimal friction, ensuring observability works out of the box without interrupting your workflow.\n* **Minimize intrusiveness:** Disentangle logging and LLM serving logic to ensure logging server failures never impact LLM serving reliability. Sublingual is designed to be plugged in or removed without affecting any functionality of your code.\n* **Easy local hosting:** Our tool and stored logs are entirely local, so there’s no risk of data leakage.\n* **Code insights:** We use a mix of static and dynamic code analysis to deeply understand your program, extracting details that other platforms can’t like automatically finding prompt templates.\n\n# **Our ask:**\n\nTry it out right now, it will take less than a minute! If you don’t like it, just uninstall and your code will be exactly the same as before.\n\n⭐ Give our project a star 😊\n\n🧑‍💻 **GitHub:** <https://github.com/sublingual-ai/sublingual> \n\n🔗 **Website:** <https://sublingual.ai>\n\n![uploaded image](/media/?type=post&id=88096&key=user_uploads/2378452/c93b335e-b796-4b1d-92e8-db8367a16634)\n\n# **Our team:**\n\n![uploaded image](/media/?type=post&id=88096&key=user_uploads/2378452/8af49103-a15c-4959-b35d-d7aea830135f)\n\n[Dylan](https://www.linkedin.com/in/dylan-bowman-68a56218b/) (CTO): previously LLM research at UIUC Kang Lab and Dept. of Defense\n\n[Matthew](https://www.linkedin.com/in/mhtang2/) (CEO): previously TikTok ML on the recommendation algorithm and ads engine, LLM research for rec-sys at Nextdoor\n\nContact us:\n\n📧 founders@sublingual.ai",
+      "url": "https://www.ycombinator.com/launches/Muu-sublingual-llm-evals-for-lazy-devs",
+      "votes": 44,
+      "created_at": "2025-02-27T01:56:08.363Z"
+    }
+  ]
+}

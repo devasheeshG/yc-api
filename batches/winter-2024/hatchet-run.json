@@ -1,0 +1,95 @@
+{
+  "id": 29433,
+  "name": "Hatchet",
+  "slug": "hatchet-run",
+  "former_names": [
+    "Hatchet Technologies",
+    "Inc."
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/5e540520fafc66c31f803395b8f5603e6765d484.png",
+  "website": "https://hatchet.run",
+  "all_locations": "New York City, NY, USA",
+  "long_description": "Hatchet is an orchestration platform for managing and observing AI agents, background tasks, and mission-critical workflows. Our mission is to provide developers with a simple, powerful, and reliable orchestration layer, enabling them to focus on building great applications.",
+  "one_liner": "The orchestration platform for teams who ship.",
+  "team_size": 7,
+  "industry": "B2B",
+  "subindustry": "B2B -> Infrastructure",
+  "launched_at": 1709312849,
+  "tags": [
+    "Developer Tools",
+    "Open Source",
+    "Infrastructure"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Winter 2024",
+  "status": "Active",
+  "industries": [
+    "B2B",
+    "Infrastructure"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/hatchet-run",
+  "api": "https://devasheeshg.github.io/yc-api/batches/winter-2024/hatchet-run.json",
+  "year_founded": 2023,
+  "city": "New York City",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/hatchet-run",
+  "x_url": "https://twitter.com/hatchet_dev",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": "https://github.com/hatchet-dev",
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/5e540520fafc66c31f803395b8f5603e6765d484.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "David Lieb",
+    "url": "https://www.ycombinator.com/people/david-lieb"
+  },
+  "founders": [
+    {
+      "user_id": 363082,
+      "full_name": "Alexander Belanger",
+      "title": "Founder/CEO",
+      "founder_bio": "Co-founder & CEO at Hatchet (W24), previously co-founder & CTO at Porter (S20). M.S. in Physics, B.A. in Physics and Computer Science from the University of Pennsylvania. \n\nAlways happy to chat anything devtools, OSS, infrastructure!  ",
+      "is_active": true,
+      "linkedin_url": "https://linkedin.com/in/alexander-belanger-aa3974135",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/dcd99d9baed3140b5158d3e00172acbd3c38202a.jpg"
+    },
+    {
+      "user_id": 491474,
+      "full_name": "Gabe Ruttner",
+      "title": "Founder",
+      "founder_bio": "Co-founder & CTO at Hatchet (W24), previously co-founder & CTO at ClearMix (S20). Masters in CS/AI from Cornell. Always game to chat anything dev tools, OSS, AI Architecture!\n\n",
+      "is_active": true,
+      "linkedin_url": "https://linkedin.com/in/gruttner",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/9d541cd209f295191f2aab598e156d38bd01d8bf.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 79258,
+      "title": "Hatchet - Background task orchestration and visibility platform",
+      "tagline": "We help engineers run fast and reliable background tasks",
+      "body": "**tl;dr** - At a certain scale, all applications need a task queue - think Celery for Python, BullMQ for Node.js, and Sidekiq for Rails. [Hatchet](https://hatchet.run) is an [open-source](https://github.com/hatchet-dev/hatchet), managed task queue focused on scale, reliability, and improved developer experience. \n\n<https://youtu.be/3myPYVyaqwM>\n\n**The problem**\n\nBuilding a reliable application is difficult — network connections can fail or be interrupted, the application could run out of memory, or a bad commit on production can take down your entire service. To reduce the pressure on APIs, task queues are typically used to offload different parts of the application logic to other services in the system.\n\nHowever, these queues introduce more points of failure — they require new infrastructure, a new set of integrations to monitor and debug your tasks, and are difficult to use in development. As applications begin to scale, application developers are forced to implement solutions to avoid queue overflow and overcrowding and to think about how to optimize their queues.\n\nWith LLM APIs — which are high latency and highly variable in response quality — these problems are even worse. It’s now typical to ingest, sync, vectorize, and index the entirety of multiple data sources on account creation, and as LLM systems get more agentic, developers need to chain together unreliable LLM calls to fulfill requests. These requests are often slow and without the right architecture delivering a responsive and reliable user experience is challenging.\n\n**The solution**\n\nHatchet is an **end-to-end platform** for task orchestration. It includes a web UI for monitoring tasks, an API for interacting with tasks and workflows, and SDKs for Python, Typescript, and Golang.\n\n![uploaded image](/media/?type=post&id=79258&key=user_uploads/363082/1617c928-fc04-4482-9b13-98c342e14694)\n\nHatchet has all the features you’d expect — like **retries, timeouts**, and **cron schedules** — along with features that developers are usually asked to build, like handling different **fairness and concurrency patterns**, **durable execution**, and **result streaming**.\n\n**The team**\n\nWe’re both ex-CTOs and founders of multiple YC-funded companies — [Alexander](https://linkedin.com/in/alexander-belanger-aa3974135) was co-founder and CTO at [Porter](https://porter.run) (S20) while [Gabe](https://linkedin.com/in/gruttner) was co-founder and CTO at [Clearmix](https://www.ycombinator.com/companies/clearmix) (also S20). Before that, Alexander got his Master’s in Physics from UPenn while Gabe got his Master’s in AI from Cornell.\n\nAlexander started working on this after years of wrangling task queues and distributed systems at both Porter and [Oneleet](https://oneleet.com), where he experienced the issues of building complex task orchestration and workflows. Gabe came at this from another perspective, having spent the last few years working with ML and more recently LLM stacks, where he saw the architectural problems that many of these applications have.\n\nWe immediately bonded over our excitement about what infrastructure will look like as AI becomes core to nearly every business.\n\n![uploaded image](/media/?type=post&id=79258&key=user_uploads/363082/e77d894d-1e99-4128-9bff-65f905d97571)\n\n**How do I get started?**\n\nHatchet is fully open source with an [invite-only cloud offering](https://hatchet.run/request-access). Feel free to request access or check out the [self-hosting Hatchet](https://docs.hatchet.run/self-hosting) docs.\n\nIf you’re dealing with observability problems in your queue, are running batch processing of documents for LLM workflows, or are experiencing queue fairness problems in multi-tenant apps, we’d love to chat.\n\nAnd if you have any questions — or you’re just interested in distributed systems, task queues, and scheduling — we have a [public Discord](https://discord.gg/ZMeUafwH89). See you there!",
+      "url": "https://www.ycombinator.com/launches/KcM-hatchet-background-task-orchestration-and-visibility-platform",
+      "votes": 57,
+      "created_at": "2024-03-11T14:21:38.752Z"
+    }
+  ]
+}

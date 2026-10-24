@@ -1,0 +1,94 @@
+{
+  "id": 31226,
+  "name": "Libra Robotics",
+  "slug": "libra-robotics",
+  "former_names": [],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/e588f98ac537da3d55ea3c2b43b0bd505524c7f8.png",
+  "website": "https://www.librabots.com/",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "Infrastructure faces rapid expansion and labor shortages. Today, robots struggle to scale to meet customers’ high-mix work needs. Libra builds AI that engineers robots for new tasks across embodiments. We go from each new infra task to field-deployable robots 10x faster. Today, our robots are working on solar farms and piloting in data centers. Contractors pay for completed work as a service, not robots.",
+  "one_liner": "The robot workforce for infrastructure of the AI era",
+  "team_size": 2,
+  "industry": "Industrials",
+  "subindustry": "Industrials -> Manufacturing and Robotics",
+  "launched_at": 1783647531,
+  "tags": [
+    "Hard Tech",
+    "Robotics",
+    "Construction",
+    "Energy",
+    "AI"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Summer 2026",
+  "status": "Active",
+  "industries": [
+    "Industrials",
+    "Manufacturing and Robotics"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/libra-robotics",
+  "api": "https://devasheeshg.github.io/yc-api/batches/summer-2026/libra-robotics.json",
+  "year_founded": 2025,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/librabots",
+  "x_url": "",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/e588f98ac537da3d55ea3c2b43b0bd505524c7f8.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Tyler Bosmeny",
+    "url": "https://www.ycombinator.com/people/tyler-bosmeny"
+  },
+  "founders": [
+    {
+      "user_id": 3178817,
+      "full_name": "Jermaine Zhao",
+      "title": "Founder/CEO",
+      "founder_bio": "Full-stack robotics engineer with an EE & ME background from Stanford. Built and deployed robots across industrial automation, agriculture, and utility-scale solar. Founder of Libra Robotics.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/jermaine-zhao-9439202a2/",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/54d431097cd70fba6fbe8902e21879a923482e82.jpg"
+    },
+    {
+      "user_id": 2782328,
+      "full_name": "Yaojing Huang",
+      "title": "Founder/COO",
+      "founder_bio": "Stanford Civil Engineering+CS | PhD defended in Construction Robotics\n\nDissertation on shared robotic platforms and reusable construction skills across tasks. Research at Center for Integrated Facility Engineering and the Stanford Robotics Center; taught Stanford’s Construction Robotics course; worked with 40+ contractors and robotics companies worldwide.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/yaojing-h-0b903620b/",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/9f3184f01d6822e5211831c041bd669f65ee31b5.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 122276,
+      "title": "Libra Robotics: The robot workforce for infrastructure",
+      "tagline": "One intelligence layer, many robots. Across solar farms, data centers, and beyond.",
+      "body": "Hey everyone 👋 We're Jermaine and Yaojing, co-founders of Libra Robotics. **We'll present &amp; demo at YC's F26 Demo Day!** If you're attending, we'd love to connect.\n\n**TL;DR:** Infrastructure faces rapid expansion and labor shortages. Today, robots struggle to scale to meet customers’ high-mix work needs. Libra builds AI that engineers robots for new tasks across embodiments. We go from each new infra task to field-deployable robots 10x faster. Today, our robots are working on solar farms and piloting in data centers. Contractors pay for completed work as a service, not robots.\n\n<https://www.youtube.com/watch?v=a4ZwGmqNMMU&amp;feature=youtu.be>\n\n\\[A simplified walkthrough of how Libra’s AI takes a real data center customer's task from initial requirements to robotic deployment - autonomously designing, simulating, testing, and improving along the way.\\]\n\n**The Problem**\n\nInfrastructure has a labor shortage. Robotics has a scalability problem.\n\nUnlike factories, infrastructure work is high-mix: tasks, designs, and environments constantly change. Single-task robots need custom engineering per task; general-purpose robots need enormous data to become reliable. **Neither scales to thousands of changing tasks.**\n\n**Our Approach**\n\nInstead of building one robot that does everything, we build **reusable robotic capabilities and AI that engineers them into new tasks.**\n\nMany infrastructure tasks share the same physical challenges: handling heavy components, precise positioning, alignment, and fastening. We've built a common set of robotic capabilities around these operations, designed to work across different robots and installation tasks.\n\nOur hardware-agnostic AI selects the right robot configuration and tooling, reuses existing skills, and engineers what is missing for each new task, reducing the need for custom engineering.\n\nIt validates solutions in simulation, then autonomously designs and runs physical experiments on our in-house robotic testbeds, stress-testing solutions against real-world variability (such as unexpected obstacles, changing environmental conditions, etc.). When a test fails, the system **diagnoses the failure, recovers, and iterates autonomously** - without human engineers in the loop. Through **recursive self-improvement (RSI)**, it continuously refines its approach toward field-ready performance.\n\n**Every task adds reusable knowledge, making the next one faster and cheaper to automate.**\n\n**GTM &amp; Traction**\n\n**We deploy AI-powered robot crews to perform infrastructure work**, starting with solar installation and data center electrical work, including prefab MEP and busway installation. \n\n**We're already beyond the lab:**\n\n→ **Robots already deployed** on real solar construction sites\n\n→ **Signed commercial agreements** for solar installation\n\n→ **Data center pilots underway** for MEP automation\n\nWe land with one high-value task, then expand into more work for the same customer. Our goal is to achieve 100 million hours of robotic work annually by 2031.\n\n![uploaded image](/media/?type=post&id=122276&key=user_uploads/3178817/7e72e897-d6d4-4ed6-a547-0f5889a68de0)\n\n\\[Libra’s robots in action on solar farms\\]\n\n**Who We Are**\n\nYaojing did her Stanford PhD on the exact problem Libra solves: one shared robotic platform with reusable skills that generalizes across construction tasks. She has worked with 40+ contractors and construction robotics companies.\n\nJermaine previously led a team to build and deploy autonomous agricultural harvesting robots from the ground up, tackling complex manipulation, precision harvesting, and multi-robot coordination in unstructured real-world environments. He brings end-to-end experience turning robotics research into reliable, field-deployed systems.\n\n**Our Ask**\n\nWe're looking for introductions to:\n\n* **Data center GCs, EPCs &amp; Prefab contractors** interested in deploying robots for prefab MEP installation, busway installation, and other electrical fit-out tasks.\n* **Solar EPCs &amp; installers** with upcoming utility-scale projects interested in robotic installation.\n* **Robotics engineers &amp; researchers** working on sim-to-real, autonomous robot engineering, and multi-embodiment learning who want to build with us.\n* **Investors** who are interested in backing the robot workforce companies for AI era.\n\nKnow someone we should talk to? We'd love an introduction!\n\nReach us at [founders@librabots.com](mailto:founders@librabots.com).",
+      "url": "https://www.ycombinator.com/launches/VoC-libra-robotics-the-robot-workforce-for-infrastructure",
+      "votes": 14,
+      "created_at": "2026-10-15T15:49:58.924Z"
+    }
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "id": 30212,
+  "name": "superglue",
+  "slug": "superglue",
+  "former_names": [
+    "index commerce",
+    "index labs"
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/0d8702327beeb6c4e9700c883d54481531ce4f3b.png",
+  "website": "https://superglue.ai/",
+  "all_locations": "BY, Germany",
+  "long_description": "superglue learns how your systems work from your company's knowledge and performs the implementation that normally requires human coordination and engineering work.\r\n\r\nImplement NetSuite, Sage Intacct, SAP, Business Central or Acumatica in days. Agents map and migrate legacy data, configure the system, and keep data in sync post go-live.\r\nConnect ERP, CRM, databases, and internal systems to AI platforms like Claude. Create governed data access for AI agents and track data usage across your org.\r\nConnect customer systems, import historical data and get new integrations live in hours. Let agents manage the entire implementation process end-to-end.\r\n",
+  "one_liner": "connect, migrate and implement enterprise systems",
+  "team_size": 6,
+  "industry": "B2B",
+  "subindustry": "B2B -> Engineering, Product and Design",
+  "launched_at": 1737761136,
+  "tags": [
+    "Open Source",
+    "API",
+    "Enterprise",
+    "Enterprise Software",
+    "AI"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Winter 2025",
+  "status": "Active",
+  "industries": [
+    "B2B",
+    "Engineering, Product and Design"
+  ],
+  "regions": [
+    "Germany",
+    "Europe"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/superglue",
+  "api": "https://devasheeshg.github.io/yc-api/batches/winter-2025/superglue.json",
+  "year_founded": 2024,
+  "city": null,
+  "country": "DE",
+  "linkedin_url": "https://www.linkedin.com/company/superglue-ai/",
+  "x_url": "https://x.com/superglue_d",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": "https://github.com/superglue-ai/superglue",
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/0d8702327beeb6c4e9700c883d54481531ce4f3b.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Tom Blomfield",
+    "url": "https://www.ycombinator.com/people/tom-blomfield"
+  },
+  "founders": [
+    {
+      "user_id": 1344607,
+      "full_name": "Adina Goerres",
+      "title": "Founder/CEO",
+      "founder_bio": "Building superglue. Previously worked on GTM at Scalable Capital and commercial projects at Farfetch. \nMaster's from TUM and CDTM",
+      "is_active": true,
+      "linkedin_url": "https://linkedin.com/in/adinagoerres",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/7932b8e0bb09ab91d8cc2fea13a8c28c8eaa1f0c.jpg"
+    },
+    {
+      "user_id": 2247582,
+      "full_name": "Stefan Faistenauer",
+      "title": "Founder/CTO",
+      "founder_bio": "Building superglue, an open source tool to automate data transformation. Former Software engineer and Google APM with a master’s from Stanford.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/stefan-faistenauer/",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/d0d1e1fd0231fdc4becb81cb5fe69f015e34c682.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 87434,
+      "title": "superglue 🍯 - Open Source Data Translation",
+      "tagline": "Get data from any system in exactly the format you need.",
+      "body": "**Tl;dr** [superglue](https://superglue.cloud/) translates data from any system into exactly the format you need. It’s an open source proxy that automatically extracts, maps and transforms data so developers don’t have to write and maintain complex integration code. \n\n**Other tools say \"Use our API\". superglue says \"Use any API, in any way you want\".**\n\n[Find us on GitHub.](https://github.com/superglue-ai/superglue)\n\n![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXejwKUtg5vNmIUFVD-naIZc3NVJVO4nIxzG1bVC5SkaA8g5JuhP7I9QWTBXPVCbKQdc6OY7bgFgVuJPf99JjYyBK3Y2TDpGG_ehUirAvBmANq8dkq9EpyY-72Dn56s6dW3LA6n82g?key=X6C0DCn4htyY5GQ3HDPmoqgF)\n\n# **Why it matters**\n\nMost companies struggle with data integration challenges daily. Energy providers pull meter readings from thousands of devices, fashion marketplaces standardize product data from various retailers, and fintech companies normalize transaction data across payment systems. Each system speaks its own language, forcing developers to write and maintain custom code to transform and normalize data. It's a massive waste of engineering resources and slows down business innovation.\n\n# **What we’re building**\n\n_superglue_ is an intelligent proxy server that automatically transforms data from external APIs into your desired format, eliminating the need for custom mapping code. By sitting between your application and APIs, it allows developers to define data structures once and apply consistent transformations across all integrations, turning complex data integration from a weeks-long project into a minutes-long configuration. The superglue proxy can sit outside your codebase - particularly good for legacy systems that are brittle and hard to change.\n\n**Key features**\n\n* **One-off LLM-powered translations**: Generate deterministic, high-performance translation code.\n* **Self-healing**: Detect format changes and update translations automatically\n* **Fast deployment**: Supports most APIs and data formats out of the box\n* **For enterprise**: Hosting, logging, retries, caches, access control\n\n## **Get Started**\n\n1. [Get access](https://superglue.cloud/) to our hosted version or install superglue as a lightweight local proxy\n2. Pick an API / data source to connect to\n3. Define your desired data output format\n\n![uploaded image](/media/?type=post&id=87434&key=user_uploads/1344607/34c24883-0af1-4dd0-89a7-4493b1913ddb)\n\n4. Let superglue handle transformations and schema enforcement\n\n![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfITHd_G-ZeA03HGoDOL8Oql_Jb4Pu50FWrLhRVldLEMgSyUN-cMsaY6T-Vx3xqEpyLz-6zWnejpU_1siA-1-LLX7okg-r2YqTaeDcU3xuAkAbgvGfWmVi4i-yyCVOuKaeQWGajlA?key=X6C0DCn4htyY5GQ3HDPmoqgF)\n\n<https://youtu.be/Bzbw3Oh9zIg>\n\n**How is this different from connector platforms and unified APIs?**\n\nUnlike platforms that offer predefined APIs for specific verticals and require developers to adapt to their specifications, _superglue_ provides universal data transformation that works with any API or data source. We give developers complete flexibility to transform data however they want, without vendor lock-in. Where other platforms support a limited set of integrations, _superglue_ can transform data from literally any source - whether it's a well-known API or a custom internal system - putting developers in full control of their data pipelines.\n\n**What if I want to own the integrations I build?**\n\nYou totally can with _superglue_. As an open-source solution, we provide full transparency and the ability to modify transformation logic at any level, ensuring you're never trapped in a black box. Unlike closed integration platforms, you own 100% of the integration logic. You can host the entire solution on your own infrastructure, with full access to source code and transformation rules.\n\n# **Get superglued**\n\nAre you currently building integrations, onboarding customers via integrations or too strapped to integrate them? Email us at [founders@superglue.cloud](https://mailto:founders@superglue.cloud), we’re happy to help.\n\nHave you built data-heavy integrations in the past? We want to speak to you!\n\nOtherwise get started on [Github](https://github.com/superglue-ai/superglue) or [book a demo](https://cal.com/teamindex/superglue-demo).\n\n# **About us**\n\n[Stefan](https://www.linkedin.com/in/stefan-faistenauer/) and [Adina](https://www.linkedin.com/in/adinagoerres/) first met in 2019 while studying in Munich. Their shared experience in the integration space led them to superglue.\n\n![uploaded image](/media/?type=post&id=87434&key=user_uploads/1344607/b7871bfd-f80c-48d4-90fc-aa1cb4b170c9)\n\n",
+      "url": "https://www.ycombinator.com/launches/MkE-superglue-open-source-data-translation",
+      "votes": 35,
+      "created_at": "2025-02-05T16:56:51.804Z"
+    }
+  ]
+}

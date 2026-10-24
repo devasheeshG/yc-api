@@ -1,0 +1,107 @@
+{
+  "id": 30506,
+  "name": "Klavis AI",
+  "slug": "klavis-ai",
+  "former_names": [],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/81ca0035244a123067c03e5df2d892bbd9cb7d00.png",
+  "website": "https://www.klavis.ai/",
+  "all_locations": "",
+  "long_description": "Powering frontier AI labs with complex, long-horizon agentic coding and tool-use data.",
+  "one_liner": "High Quality Coding & Agentic Data for AI labs",
+  "team_size": 3,
+  "industry": "B2B",
+  "subindustry": "B2B",
+  "launched_at": 1744314522,
+  "tags": [],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": true,
+  "nonprofit": false,
+  "batch": "Spring 2025",
+  "status": "Active",
+  "industries": [
+    "B2B"
+  ],
+  "regions": [
+    "Remote",
+    "Partly Remote"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/klavis-ai",
+  "api": "https://devasheeshg.github.io/yc-api/batches/spring-2025/klavis-ai.json",
+  "year_founded": 2025,
+  "city": null,
+  "country": null,
+  "linkedin_url": "https://www.linkedin.com/company/klavis-ai/",
+  "x_url": "https://x.com/Klavis_AI",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/81ca0035244a123067c03e5df2d892bbd9cb7d00.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Diana Hu",
+    "url": "https://www.ycombinator.com/people/diana-hu"
+  },
+  "founders": [
+    {
+      "user_id": 259581,
+      "full_name": "Xiangkai Zeng",
+      "title": "Founder/CEO",
+      "founder_bio": "Co-founder @ Klavis AI. Previously Senior Software Engineer on Google Gemini at Google Deepmind. Co-authored Gemini paper. I have a CS MS from Carnegie Mellon University. I have a Bachelor of Engineering in Computer Science and Technology from Beihang University.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/xiangkai-zeng/",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/eb1115c160fcd8f55fa8766dd367ebe4a3c01115.jpg"
+    },
+    {
+      "user_id": 1906804,
+      "full_name": "Zihao Lin",
+      "title": "Founder/CTO",
+      "founder_bio": "Co-Founder at Klavis AI \n\n1. Senior Software Engineer at Lyft, tech lead at Lyft recommendation team and Nordstrom data infra team, building product supports millions of users in the last 5 years.\n2. CS MS from Northeastern University, Bachelor of Engineering in Computer Science and Technology from Beihang University.\n3. The President of the Computer Science Student Council (CSSC) at Beihang University. Research Experience at the NLP Lab and Internship at Baidu.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/zihao-lin-14137716b/",
+      "x_url": "https://x.com/ZihaoLin685013",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/40360171acdbf43a63483b9fb4bc81f2334ae43b.jpg"
+    }
+  ],
+  "jobs": [
+    {
+      "id": 96767,
+      "title": "Founding Engineer",
+      "url": "https://www.ycombinator.com/companies/klavis-ai/jobs/tEVtDPg-founding-engineer",
+      "location": "San Francisco, CA, US / Remote (US)",
+      "type": "Full-time",
+      "role": "Engineering",
+      "role_type": "Machine learning",
+      "salary_range": "$150K - $200K",
+      "equity_range": "0.50% - 1.00%",
+      "experience": "3+ years",
+      "visa": "US citizen/visa only",
+      "skills": [
+        "Python",
+        "Machine Learning",
+        "LLMs",
+        "AI Agents"
+      ]
+    }
+  ],
+  "news": [],
+  "launches": [
+    {
+      "id": 90202,
+      "title": "Klavis AI: Open Source MCP integrations for AI Applications",
+      "tagline": "Klavis AI is open source MCP integrations for AI Applications. Our API provides hosted, secure MCP servers, eliminating auth management and client-side code.",
+      "body": "![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfaf-JCp7xVd7cfcFqnv8fCZLojSwklRbqBbGneCbhutbc4iEcgcNNQ46j73KsOKaN3qH5fhVCVUQQpp696KnBWJfz5DnhcuS5nqKod2-9Fn2p-LJ3Yd9rEM9zIJg11ce5bTmkp-Q?key=HpOTxrRvVOxut3yp-iTaNhMb)\n\nHey Everyone 👋,\n\nWe are [Xiangkai](https://www.linkedin.com/in/xiangkai-zeng/) and [Zihao](https://www.linkedin.com/in/zihaolin123/) - co-founders of [Klavis AI](https://www.klavis.ai/).\n\n**TL;DR**\n\nKlavis AI provides [open source](https://github.com/Klavis-AI/klavis) MCP integration for AI applications. Integrate enterprise-grade MCP servers with your AI application in a minute, and scale to millions of users using our open-source, hosted MCP servers with multi-tenancy auth, and skip MCP client-side development hassle.\n\n**Ask:** Can you introduce us to companies working on AI agents and applications that need different external integrations? Contact us at [xiangkaiz@klavis.ai](mailto:xiangkaiz@klavis.ai).\n\nLaunch video: https://youtu.be/HFn5xWC6cAk\n\n**The Problem**\n\n* **Missing Native Authentication & User-based Authentication:** Lack of built-in and user-based authentications in MCP servers creates security risks and adds development complexity, hindering production use.\n* **Lack of Enterprise-Grade Servers:** Available MCP servers are frequently underdeveloped personal projects, lacking stability, features, and remote capabilities essential for enterprise environments.\n* **Client-Side Connection Barrier**: Accessing MCP servers requires developing the clients, creating technical overhead and hindering adoption, especially for existing function calling infrastructures that lack native MCP support.\n\n**The Solution**\n\n![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXcq7Lridm_hh7ACd4DFh6Zcsc38dMU3Kp8X9MdK55P_JuQVQ-ZMA6Pc75Qs7C0wc3vDdjlMOVmTCHNVZ-5MUpNbrLibGrFzzcARZme9csIpjPP5yENtddc01TW1newc1A1pGFepKw?key=HpOTxrRvVOxut3yp-iTaNhMb)\n\nKlavis AI solves these problems by:\n\n* **Secure, Enterprise-Grade Hosted Servers:** Launch stable, enterprise-grade MCP servers instantly via API. Our hosted solution includes built-in OAuth & multi-tenancy auth, eliminating security gaps and complexity.\n* **Skip Client Development Hassle:** Use our API to connect any remote MCP servers from your existing backend, or let users interact immediately through our pre-built Web, Slack, and Discord clients.\n* **Trust Through Open Source:** Our MCP servers and clients are open source, ensuring transparency and fostering community trust.\n\n**Concrete Example**\n\nImagine you want your AI agent to interact with your company's Jira. Instead of building a custom Jira integration and wrestling with authentication, use Klavis AI. With simple API calls, you instantly get a secure, hosted Jira MCP server ready to go. It handles OAuth and user-level authentications automatically, letting your AI securely query tickets right away – no MCP client coding required.\n\n**Why Us**\n\n![uploaded image](/media/?type=post&id=90202&key=user_uploads/259581/6621b1de-ea41-46f4-bc9e-97b0676a7c97)\n\nXiangkai previously worked as a Senior Software Engineer on the Google Gemini at Google Deepmind. His work involves building the function calling infrastructure for Gemini and supporting multiple Gemini agentic feature launches. The challenges in the MCP space resonate strongly with his background, and he's very excited to bring his insights and energy to accelerate innovation here.\n\nZihao previously worked on Lyft’s Rider team and Nordstrom’s analytical data platform team, with expertise in scaling systems for millions of users and NLP background from University and Master studies.\n\n**🙏 Our Asks**\n\n* **Share & Intro:** Can you share this post and introduce us to companies working on AI agents and applications that need different external integrations?\n* **Connect:** Email me at [xiangkaiz@klavis.ai](mailto:xiangkaiz@klavis.ai) if you’d like to learn more or chat.",
+      "url": "https://www.ycombinator.com/launches/NSs-klavis-ai-open-source-mcp-integrations-for-ai-applications",
+      "votes": 187,
+      "created_at": "2025-05-08T15:47:33.275Z"
+    }
+  ]
+}

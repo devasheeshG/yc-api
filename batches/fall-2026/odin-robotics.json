@@ -1,0 +1,92 @@
+{
+  "id": 36444,
+  "name": "Odin Robotics",
+  "slug": "odin-robotics",
+  "former_names": [],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/3df37a1fb66526c47cc75fbebe1f480c83847131.png",
+  "website": "https://odin-robotics.com",
+  "all_locations": "ZH, Switzerland",
+  "long_description": "Odin Robotics deploys robot arms in small and mid-sized factories to do repetitive manual work, like machine tending and packing. They work alongside existing machines and people, so factories don't have to redesign their lines. With deterministic controls and learned skills, they're both reliable and flexible.",
+  "one_liner": "Robot arms that do repetitive manual work in existing factories.",
+  "team_size": 2,
+  "industry": "Industrials",
+  "subindustry": "Industrials -> Manufacturing and Robotics",
+  "launched_at": 1792472507,
+  "tags": [
+    "Robotics",
+    "Manufacturing",
+    "Industrial"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Fall 2026",
+  "status": "Active",
+  "industries": [
+    "Industrials",
+    "Manufacturing and Robotics"
+  ],
+  "regions": [
+    "Switzerland",
+    "Europe"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/odin-robotics",
+  "api": "https://devasheeshg.github.io/yc-api/batches/fall-2026/odin-robotics.json",
+  "year_founded": 2026,
+  "city": null,
+  "country": "CH",
+  "linkedin_url": "",
+  "x_url": "",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/3df37a1fb66526c47cc75fbebe1f480c83847131.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Andrew Miklas",
+    "url": "https://www.ycombinator.com/people/andrew-miklas"
+  },
+  "founders": [
+    {
+      "user_id": 3760526,
+      "full_name": "Samriddhi Singh",
+      "title": "Founder/CEO",
+      "founder_bio": "Co-founder at Odin Robotics (YC F26).\nEE@ETH\nHacked my school for a high school project. National silver science medal\nFounder and ex-CEO of GirlsCanCode \n5x hackathon winner (in a row)",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/samriddhi-simi-s-1240321b5/",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/8109231b9098d0f0cc33ff205f7c1a7dc308194f.jpg"
+    },
+    {
+      "user_id": 3340308,
+      "full_name": "Alper Sametoglu",
+      "title": "Founder/CTO",
+      "founder_bio": "Co-founder at Odin Robotics (YC F26).\nPreviously Space Systems @ ETH Zurich\nBuilt rockets, satellite engines and now robots",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/alper-sametoglu",
+      "x_url": "https://x.com/alperbuilds",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/d39d50f306c66f1dc32520ce47af876c1700110e.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 124228,
+      "title": "Odin Robotics: Robot arms that do repetitive manual work in existing factories",
+      "tagline": "AI-powered robotic automation that adapts to your factory, not the other way around",
+      "body": "**TL;DR:** We put robot arms into existing factories to automate repetitive work: machine tending, packing, and palletizing. They fit into the line you already have and adapt as your work changes.\n\nHi! We are [Alper](https://www.linkedin.com/in/alper-sametoglu) and [Samriddhi](https://linkedin.com/in/samriddhi-simi-s-1240321b5/), co-founders at [Odin Robotics](https://odin-robotics.com/).\n\n<https://www.youtube.com/watch?v=K-Mein4nAlA>\n\n**Why the work stays manual** \n\nTraditional automation means rebuilding the factory around the robot. It's built for one product running the same way millions of times. Most factories don't work like that. They run many products, change over often, and handle parts that never show up exactly the same way twice. Robots that only follow a fixed program break the moment anything changes, so the work stays manual.\n\n**What's in the demos**\n\n* **Machine tending:** fully automated tending of a CNC mill. The robot loads raw parts, runs the cycle and unloads finished parts, with no operator needed.\n* **Conveyor packing:** food containers picked off a moving conveyor and packed into totes in real time.\n\n**Our approach** \n\nThe best software combines deterministic code, trained models, and LLMs. Robotics is no different. Programmed controls run the steps that must be exact every time: machine doors, fixtures, safety zones. Learned skills handle everything that varies: new parts, mixed products, cluttered bins, and items that are soft or irregular. Our robots don't need every part perfectly placed. They handle the real variation of a working factory. Every deployment adds reusable skills and machine integrations, so each new factory goes live faster than the last.\n\n**How to work with us**\n\n1. **Show us the job:** the task, a photo or video of the setup, and current volume.\n2. **We scope it:** scope, price, timeline, and safety guardrails, agreed up front.\n3. **We deliver the full setup:** robot, end effector, sensors, and integration, installed on the existing line.\n\n**Team**\n\nSimi founded GirlsCanCode at 13 and grew it into a government-funded program. She has worked on robots ranging from humanoids to industrial arms, and left Electrical Engineering at ETH Zurich to build Odin.\n\nAlper worked at a manufacturing intelligence startup in high school, built supersonic rockets and satellite propulsion valves, then turned down NASA JPL to deploy robots on Earth.\n\n**Our ask:** Run or know a factory with repetitive loading, packing, or palletizing work? \n\nSend us the job, and we'll show you how it can be automated 📩 [**founders@odin-robotics.com**](mailto:founders@odin-robotics.com) ",
+      "url": "https://www.ycombinator.com/launches/WJg-odin-robotics-robot-arms-that-do-repetitive-manual-work-in-existing-factories",
+      "votes": 5,
+      "created_at": "2026-10-23T14:00:00.092Z"
+    }
+  ]
+}

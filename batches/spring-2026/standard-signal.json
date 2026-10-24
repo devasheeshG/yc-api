@@ -1,0 +1,78 @@
+{
+  "id": 31330,
+  "name": "Standard Signal",
+  "slug": "standard-signal",
+  "former_names": [],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/4a8bb04e2bfc061803541bd6c36efdf20229704c.png",
+  "website": "https://standardsignal.com",
+  "all_locations": "New York City, NY, USA",
+  "long_description": "Standard Signal is the first hedge fund that researches and executes trades purely with AI. Our custom models discover and trade on new fundamental truths about the world before humans can.",
+  "one_liner": "Hedge fund where AI researches and executes every trade end-to-end",
+  "team_size": 1,
+  "industry": "Fintech",
+  "subindustry": "Fintech -> Asset Management",
+  "launched_at": 1775159965,
+  "tags": [],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Spring 2026",
+  "status": "Active",
+  "industries": [
+    "Fintech",
+    "Asset Management"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/standard-signal",
+  "api": "https://devasheeshg.github.io/yc-api/batches/spring-2026/standard-signal.json",
+  "year_founded": 2026,
+  "city": "New York City",
+  "country": "US",
+  "linkedin_url": "",
+  "x_url": "https://x.com/StandardSignal",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/4a8bb04e2bfc061803541bd6c36efdf20229704c.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Pete Koomen",
+    "url": "https://www.ycombinator.com/people/pete-koomen"
+  },
+  "founders": [
+    {
+      "user_id": 984097,
+      "full_name": "Michael Royzen",
+      "title": "Founder/CEO",
+      "founder_bio": "Founder & CEO at Standard Signal (YC P26), building the first hedge fund where AI runs everything from research to the actual trade execution end-to-end.\nPreviously co-founder & CEO at Phind (YC S22), where I built the first AI search engine and trained LLMs that beat GPT-4 on HumanEval (2024) and had the #1-ranked open-source coding model on Hugging Face for 6 months in 2023.\nUT Austin Turing Scholar '22\nPreviously an undergrad NLP researcher, as well as ML at Lyft, Cloudflare, and Microsoft.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/michaelroyzen/",
+      "x_url": "https://twitter.com/michaelroyzen",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/706f8f788e198ff32880b7ca40d15459d1f60a6e.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 102374,
+      "title": "Standard Signal - Hedge fund where AI researches and executes every trade",
+      "tagline": "Standard Signal is the first hedge fund that researches and executes trades purely with AI. Our custom models discover and trade on new fundamental truths about the world before humans can.",
+      "body": "# Standard Signal — the first hedge fund where AI does the trading\n\n## TL;DR\n\nStandard Signal is a hedge fund where AI researches the world and makes the trades — end-to-end, no human in the loop. The strategy is trading live today and has a Sharpe ratio above 3. We share full performance with qualified investors on request. We're opening to a small number of early investors.\n\n![uploaded image](/media/?type=post&id=102374&key=user_uploads/984097/cfad05e9-3b5e-4838-beb9-e91854aa0183)\n\n_The system trades on its own, with every decision logged and auditable in real time._\n\n## The problem\n\nThe most valuable trading is still done by hand.\n\nThe fast end of the market is a latency arms race — won by whoever has the lowest-latency infrastructure, not the best ideas. We don't play there. The real money is in big, asymmetric bets on shifts in the world that nobody else has priced in yet.\n\nBut that kind of trading is bottlenecked by people. The standard workflow is a human spending hours or days researching, forming a thesis, and wiring up a strategy by hand. It's slow, it doesn't scale, and it's capped by how fast one person can read, reason, and react.\n\n## Why now\n\nAI recently crossed a threshold. It can now take in what's happening in the world, reason over it, and act in seconds — collapsing a loop that used to take humans hours or days.\n\nThe catch is that research was never the hard part; judgment is. Off-the-shelf models are strong analysts and weak traders. Closing that gap is the whole game, and it's what we've built.\\\n\\\nThe way we close it is reinforcement learning. Our thesis is that judgment is learnable: trading, like math and code, comes with an objective scorecard — the market eventually grades every call as right or wrong. So rather than prompt a general-purpose model and hope, we train one directly on that signal, rewarding the judgment that compounds and penalizing the rest, until knowing when _not_ to trade is as sharp as knowing when to. The model doesn't just read the world — it has learned, from outcomes, how to act on it.\n\n## Traction\n\nThe strategy trades live today. In our live track record to date, it has run a Sharpe ratio above 3. Full performance figures are available to qualified investors on request. Every decision the system makes is fully auditable, and hard risk limits are enforced by our infrastructure rather than by the model.\n\n## Team\n\nMichael Royzen previously founded Phind, one of the earliest consumer AI chat companies, which built the first AI search engine — before ChatGPT — and scaled it to 150M+ searches. The team has trained some of the best AI models in the world, which is exactly the capability this fund is built on.\n\n![uploaded image](/media/?type=post&id=102374&key=user_uploads/984097/5942f9b5-982e-4cb6-a44f-40d2bedaccc3)\n\n## Why we'll win\n\nWe operate like an AI startup, not a quant shop: extreme focus, high talent density, and a lot of compute.\n\nThere are millions of tradeable securities, and other funds will eventually adopt AI too. Our edge is being first in a small number of the highest-value strategies. Being first gives us the most data on how our own trades move the market, which compounds: better data → better models → the most informed participant → better data.\n\nThe incumbents are handing us the window. The biggest players are still skeptical of letting AI drive real trading decisions. We think they're wrong, and their hesitation is our head start. The next RenTech will look more like an AI lab than a traditional quant shop — and we intend to be it.\n\n## The ask\n\nWe're opening to a limited number of accredited investors. Our full fee and redemption terms are set out in our offering documents and are available to qualified investors on request — early investors lock in our most founder-friendly pricing. If that's you, or you can introduce us to someone, reach out.\n\n---\n\n_This page is for informational purposes only and is not an offer to sell, or a solicitation of an offer to buy, any security or interest in any fund. Any such offer will be made only to eligible investors and only through definitive confidential offering documents, which should be read in their entirety before investing._",
+      "url": "https://www.ycombinator.com/launches/QdC-standard-signal-hedge-fund-where-ai-researches-and-executes-every-trade",
+      "votes": 36,
+      "created_at": "2026-06-01T16:25:17.059Z"
+    }
+  ]
+}

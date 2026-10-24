@@ -1,0 +1,99 @@
+{
+  "id": 25969,
+  "name": "Shaped",
+  "slug": "shaped",
+  "former_names": [
+    "shaped.ai Inc."
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/241b1f1931647920258ef5ae6571461ada0b62f1.png",
+  "website": "https://shaped.ai",
+  "all_locations": "New York City, NY, USA",
+  "long_description": "Connect your data. Train your models. Query text, user or session context and retrieve relevant results in milliseconds. Explore our case studies to see how we’ve helped leading brands drive significant engagement and revenue: https://www.shaped.ai/case-study. ",
+  "one_liner": "The real-time retrieval engine for search, feeds, and agents.",
+  "team_size": 25,
+  "industry": "B2B",
+  "subindustry": "B2B -> Infrastructure",
+  "launched_at": 1646119340,
+  "tags": [
+    "Search",
+    "AI",
+    "Recommendation System"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Winter 2022",
+  "status": "Active",
+  "industries": [
+    "B2B",
+    "Infrastructure"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Growth",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/shaped",
+  "api": "https://devasheeshg.github.io/yc-api/batches/winter-2022/shaped.json",
+  "year_founded": 2021,
+  "city": "New York City",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/shapedai",
+  "x_url": "https://twitter.com/shapedai",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/241b1f1931647920258ef5ae6571461ada0b62f1.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Brad Flora",
+    "url": "https://www.ycombinator.com/people/brad-flora"
+  },
+  "founders": [
+    {
+      "user_id": 812951,
+      "full_name": "Tullie Murrell",
+      "title": "Founder/CEO",
+      "founder_bio": "CEO of Shaped. \nPreviously an AI researcher at Facebook AI Research (FAIR).\nCreator of PyTorchVideo & original core contributor to PyTorch Lightning.\nPassionate about anything AI, machine-learning and statistics.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/tullie/",
+      "x_url": "https://twitter.com/tulliemurrell",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/0b422fcadf175caaedc3de64e8d33a973558dd6e.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [
+    {
+      "title": "Shaped Raises Series A, Launches Self-Serve Platform to Power the Future of AI-Driven Recommendations & Search | Shaped Blog",
+      "url": "https://www.shaped.ai/blog/shaped-raises-series-a",
+      "date": "Jul 17, 2024"
+    }
+  ],
+  "launches": [
+    {
+      "id": 97225,
+      "title": "ShapedQL: The SQL engine for search, feeds, and AI agents",
+      "tagline": "Connect your data. Train your models. Query text, user or session context and retrieve relevant results in milliseconds.",
+      "body": "Hi everyone 👋\\\n\\\nI'm Tullie, the founder of [Shaped](https://www.shaped.ai/).\\\n\\\n**TL;DR**\\\n\\\nToday we’re launching ShapedQL, a new language purpose built for agents, feeds and search. We built ShapedQL because we realized that while retrieval has become easier (thanks to Vector DBs), ranking and relevance are still incredibly hard.\\\n\\\nLaunch video: <https://www.youtube.com/watch?v=Owj_uSUPNaU>\\\n\\\n**Problem ❌**\\\n\\\nMost engineering teams we talk to are stuck maintaining a \"Frankenstein\" stack. To build a \"For You\" feed or give an AI Agent personalized memory, they have to glue together a vector database, a feature store (like Redis), a reranking service, and thousands of lines of Python spaghetti code.\\\n\\\n**Solution ✅**\\\n\\\nWe built ShapedQL to turn that \"house of cards\" into a single interface.\n\n![uploaded image](/media/?type=post&id=97225&key=user_uploads/812951/eed67b43-7c3b-4b0f-819a-5bbd31db2732)\n\nShapedQL is a domain-specific SQL dialect that compiles down to a high-performance, multi-stage ranking pipeline. With a single query, you can define the four stages of modern relevance:\\\n**1. Retrieve:** Fetch candidates from multiple sources (Hybrid Search, Collaborative Filtering, Trending).\\\n**2. Filter:** Apply hard constraints (e.g., \"in stock\" or \"within 50 miles\").\\\n**3. Score:** Rank results using real-time ML models (optimizing for clicks, purchases, or watch time).\\\n**4. Reorder:** Enforce diversity so your users (or Agents) don't see the same 5 items repeatedly.\n\nWe're seeing teams reduce 2,000+ lines of maintenance code down to \\~30 lines of ShapedQL, while shipping features like \"Cart Upsell\" or \"Conversational Recommendations\" in days instead of months.\n\nIf you're not a fan of SQL we also have Python or Typescript SDKs, perfect for a real-time production integration.\n\n![uploaded image](/media/?type=post&id=97225&key=user_uploads/812951/d3cc12cc-3c74-448b-adf0-ae65d9359b79)\n\n**Ask 💬**\\\n\\\n**1.** We have a Product Hunt launch at this link: <https://www.producthunt.com/products/shaped>. Any support or and upvote would be greatly appreciated!\\\n\\\n**2.** Please try out our interactive demo at [playground.shaped.ai](https://playground.shaped.ai), we’d love to hear any feedback on the new language. Were you able to easily make a query? Do the docs make sense? What is it missing?\\\n\\\n**3.** If the problems above resonates and you’re struggling to get true relevance from your vector store or current retrieval system, please get in touch! Book on this calendar here: <https://www.shaped.ai/contact> and mention you’re from YC. I’ll make sure to jump on the call to help you out myself.\n\n![uploaded image](/media/?type=post&id=97225&key=user_uploads/812951/bb70b2b7-780a-4da6-a13f-511015e09776)\n\n",
+      "url": "https://www.ycombinator.com/launches/PI9-shapedql-the-sql-engine-for-search-feeds-and-ai-agents",
+      "votes": 15,
+      "created_at": "2026-01-28T00:44:48.253Z"
+    },
+    {
+      "id": 88281,
+      "title": "Shaped — Value Modeling for Search and Recommendation Systems",
+      "tagline": "A control panel for your business objectives",
+      "body": "# **TL;DR**\n\nWe’ve built Shaped Value Modeling, a framework that enables real-time optimization of recommendation and search ranking models for multiple objectives. It allows teams to blend different objectives (e.g. relevance, conversions, diversity) and dynamically run AB tests that drive business outcomes (with built in analytics tooling). Our community has seen awesome results, so we’re excited to bring this framework to the masses!\n\nWatch our demo [here](https://youtu.be/gYLmtMR-N4I).\n\n**Key Features:**\n\n* **Multi-objective optimization:** Combine multiple models and signals (e.g., click prediction, purchase likelihood, content quality) into a single, customizable scoring function.\n* **Dynamic ranking logic:** Define and adjust ranking objectives as your business needs change using a simple python DSL.\n* **Real-time API:** Modify ranking scores on the fly with simple API calls, enabling rapid experimentation and A/B testing.\n* **Easy to integrate:** Connect and deploy rapidly with direct integration to your existing data sources.\n* **Explainability:** Gain insights into why certain items rank higher through interpretable scoring logic, and a built in analytics platform out of the box.\n\n![uploaded image](/media/?type=post&id=88281&key=user_uploads/857360/543b423e-521a-491d-808b-0bd914f06c23)\n\n**Why This Matters:**\n\n* Rapid iteration: Experiment with new ranking strategies and adapt to changing business needs without lengthy retraining cycles.\n* Improved control: Fine-tune your ranking algorithms with precision and transparency.\n* Better alignment: Optimize for multiple KPIs simultaneously, ensuring your recommendations drive both engagement and business value.\n\n**How it Works:**\n\n1.Train separate models for different objectives (e.g., LightGBM for click prediction, BERT4Rec for purchase likelihood).\n\n2\\. Define a \"value model\" that combines these models using mathematical expressions and custom logic. Let's say we have a lightgbm click-through-rate model called ctr_model and a transformerd based next purchase model called purchase_model, you can create an ensembled value model as follows:\n\n```\nvalue_model = 0.5 * ctr_model + 0.5 * purchase_model + log(item.quality_score)\n```\n\n3\\. Dynamically adjust the value_model via API calls to optimize for different goals or user segments:\n\n```\n{\n  \"user_id\": \"83NSLX\",\n  \"config\": {\n    \"value_model\": \"0.3 * ctr_model + 0.7 * purchase_model\"\n  }\n}\n```\n\n\\\nHow our customers are using value modeling:\n\n* **Marketplaces:** Dynamically mix personalized scores with a geo-location penalizer to connect users with nearby items.\n* **E-commerce:** Balance purchase intent, engagement, and product quality.\n* **Content platforms:** Implement time-decay, boost high-quality content, and personalize recommendations.\n* **Social media:** Dynamically switch between personalized and trending models.\n\n# **Our ask**\n\nIf you know decision-makers in any of these types of organisations, we’d be super grateful for an introduction at [daniel@shaped.ai](mailto:daniel@shaped.ai)\n\n1. Marketplaces\n2. E-commerce\n3. Content platforms\n4. Social Media\n\nFor more information see our website [here](https://www.shaped.ai/value-modelling) and developer docs [here](https://docs.shaped.ai/docs/model_creation_guides/value-modeling)\n\n[Get a demo](https://meetings.hubspot.com/matt2900/meet-with-shaped-?uuid=4076ed73-5725-4ee7-ac01-2e1869237a18) if you’re interested in testing value modeling!",
+      "url": "https://www.ycombinator.com/launches/Mxt-shaped-value-modeling-for-search-and-recommendation-systems",
+      "votes": 8,
+      "created_at": "2025-03-05T15:46:26.414Z"
+    }
+  ]
+}

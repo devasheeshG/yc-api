@@ -1,0 +1,104 @@
+{
+  "id": 36774,
+  "name": "ObsessionDB",
+  "slug": "obsessiondb",
+  "former_names": [],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/4d02f08af0be569fcf511900d03b0d8eccfdf473.png",
+  "website": "https://obsessiondb.com",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "ObsessionDB is a real-time data warehouse that makes your data stack agent-ready. Your agents can ingest and query vast amounts of data in seconds, without the scary infra bill. Powered by our own more efficient fork of ClickHouse®.",
+  "one_liner": "Real-time data warehouse for agents",
+  "team_size": 5,
+  "industry": "B2B",
+  "subindustry": "B2B -> Infrastructure",
+  "launched_at": 1792056940,
+  "tags": [
+    "Analytics",
+    "Big Data",
+    "Databases"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Fall 2026",
+  "status": "Active",
+  "industries": [
+    "B2B",
+    "Infrastructure"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada",
+    "Remote",
+    "Partly Remote"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/obsessiondb",
+  "api": "https://devasheeshg.github.io/yc-api/batches/fall-2026/obsessiondb.json",
+  "year_founded": 2026,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/obsession-db",
+  "x_url": "https://x.com/ObsessionDB",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": "https://github.com/obsessiondb",
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/4d02f08af0be569fcf511900d03b0d8eccfdf473.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Christopher Golda",
+    "url": "https://www.ycombinator.com/people/christopher-golda"
+  },
+  "founders": [
+    {
+      "user_id": 1006862,
+      "full_name": "Rafael Aviles",
+      "title": "Founder/CEO",
+      "founder_bio": "Co-Founder & CEO at ObsessionDB. Bootstrapped our previous company to $1.5 M ARR and ran it profitably for 4 years, serving 5 billion real-time API requests per month. We ran data workloads at petabyte scale. Previously worked with the data team at enterprises like Wendy's, Victoria's Secret, FOX, Disney, Axel Springer, and Groupon.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/avilesco/",
+      "x_url": "https://x.com/avilesrafa",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/d37da273557c89396660d9bd178877a0bb6742ef.jpg"
+    },
+    {
+      "user_id": 364520,
+      "full_name": "Marc Höffl",
+      "title": "Founder",
+      "founder_bio": "Founder at ObsessionDB. Serial founder with 4 companies, including Frens (acquired by Swyke) and Laserfocus (YC W20). Previously CTO at Numia building real-time blockchain data infrastructure. Founded Gambify in 2014, soccer app scaled to 6 figure players with support from German National Team. Engineering Manager at Localytics. MS in Data Science from KTH Stockholm, MS in Cloud Computing from TU Berlin.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/marc-h%C3%B6ffl/",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/9e312a2474088fbaaa2cd8982da7b2589589ad8b.jpg"
+    },
+    {
+      "user_id": 3960852,
+      "full_name": "Marc Leuthardt",
+      "title": "Founder",
+      "founder_bio": "Co-Founder at ObsessionDB (YC F26). Previously co-founded Numia, scaling blockchain infrastructure to serve billions of monthly requests across 100+ blockchains. Co-founded and CTO at Frens (acquired by Swyke), autonomous infra validating 70+ blockchains. Co-founded and CTO at Lokalportal, led a team of 25. Degree in chemistry and economics. For a year spent a few mornings a week in a highschool chemistry lab to blow up things with students.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/marc-leuthardt",
+      "x_url": "https://x.com/marcmacmac",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/bf248e989f02f62d53fdcd4cb8a26f9f63a224e8.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 122342,
+      "title": "ObsessionDB: a real-time data warehouse built for agents",
+      "tagline": "Give your agents the data stack they need",
+      "body": "Hi YC, we are Marc, Rafael, and Marc - co-founders of ObsessionDB.\n\n**TL;DR:** ObsessionDB is a real-time data warehouse that makes your data stack agent-ready. Your agents can ingest and query vast amounts of data in seconds, without the scary infra bill.\n\n<https://youtu.be/1AFlb772hl4>\n\n**Why now**\n\nAgents are the new heaviest users of your data warehouse. They generate data nonstop, scan it millions of times a day, and provision their own infra. Existing data warehouses and data platforms weren't built for these workloads. We see this as a generational opportunity, and we're building it.\n\nWarehouses and data platforms like Snowflake, BigQuery, and Databricks are built for batch jobs and get expensive fast at this volume. Operational, transactional databases fall short. Without a scalable, cost-effective solution, teams end up rationing their data instead of building on it.\n\nCompanies shouldn't fear their fast-growing data.\n\n**What ObsessionDB does**\n\nObsessionDB allows data teams to ingest, process, and query all their growing data:\n\n* **Agent data to insights:** messy transcripts, logs, and traces become structured, queryable data as they arrive, fast, in real time\n* **Real-time analytics** on huge, fast-moving datasets\n* **Real-time customer-facing APIs** served directly on that data, fast enough to power products, not just dashboards\n* **Scale without the bill scaling with it:** Built on top of our own compute-storage implementation for ClickHouse t\n\n**In production today**\n\n* **We are processing millions of real-time API requests for our customers,** turning their AI agents' session transcripts into live, queryable data and building real-time APIs on top.\n* Our biggest customer moved off Elasticsearch and now serves real-time APIs on **50TB of data**, ingesting **hundreds of thousands of events per minute**.\n\n**Why us: we've already run this at petabyte scale**\n\nAt our last company, we built real-time blockchain APIs on **petabytes of data** and hit a wall with every warehouse on the market, both on cost and on speed. So we took the open-source ClickHouse® engine, forked it, and rebuilt it with compute and storage separated: one copy of the data on cheap object storage, with stateless compute on top. ObsessionDB is that system, productized and built for the agent era.\n\n**Our ask**\n\n* **Building with AI agents and sitting on a growing pile of transcripts, traces or logs?** Let us help you extract more value.\n* Is Postgres getting too slow for your analytical workloads? Talk to us.\n* **Paying too much for Snowflake, BigQuery, Databricks, or ClickHouse Cloud?** We can help you cut it in half; reach out.\n* **Intros** to teams drowning in agent-generated or growing data.\n\n📩 [**founders@obsessiondb.com**](mailto:founders@obsessiondb.com) · 📅 [Book a call](https://calendar.app.google/aos9HWQh41RsVspy9)",
+      "url": "https://www.ycombinator.com/launches/VpG-obsessiondb-a-real-time-data-warehouse-built-for-agents",
+      "votes": 22,
+      "created_at": "2026-10-20T14:00:00.069Z"
+    }
+  ]
+}

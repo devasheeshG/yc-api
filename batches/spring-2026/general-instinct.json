@@ -1,0 +1,106 @@
+{
+  "id": 31456,
+  "name": "General Instinct",
+  "slug": "general-instinct",
+  "former_names": [
+    "Bitstream"
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/e506831e9805799a19c0fa94ac85f0578ee4374e.png",
+  "website": "https://general-instinct.com/",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "Making robot post-training and deployment scalable.",
+  "one_liner": "Deployment infrastructure for Physical AI",
+  "team_size": 2,
+  "industry": "Industrials",
+  "subindustry": "Industrials -> Manufacturing and Robotics",
+  "launched_at": 1779088548,
+  "tags": [
+    "Robotics",
+    "AI"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Spring 2026",
+  "status": "Active",
+  "industries": [
+    "Industrials",
+    "Manufacturing and Robotics"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada",
+    "Remote",
+    "Partly Remote"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/general-instinct",
+  "api": "https://devasheeshg.github.io/yc-api/batches/spring-2026/general-instinct.json",
+  "year_founded": 2026,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/general-instinct/",
+  "x_url": "https://x.com/gen_Instinct",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/e506831e9805799a19c0fa94ac85f0578ee4374e.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Nicolas Dessaigne",
+    "url": "https://www.ycombinator.com/people/nicolas-dessaigne"
+  },
+  "founders": [
+    {
+      "user_id": 2022270,
+      "full_name": "Bill Jiao",
+      "title": "Founder/CEO",
+      "founder_bio": "worked on Siemens' first multimodal foundation model, secured 2 patents on tardigrade proteins as a junior in high school, now building edge intelligence for physical AI.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/zhandong-jiao",
+      "x_url": "https://x.com/BillJiao930",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/524ded9c0f2c5c51662b75aa35a6b47d0230b153.jpg"
+    },
+    {
+      "user_id": 2697564,
+      "full_name": "Guanming Wang",
+      "title": "Founder/CTO",
+      "founder_bio": "Ex Google DeepMind reinforcement learning researcher with robotics research published at ICRA at age 17. Previously conducted robotics research at UCL robotics institute and Tsinghua University.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/guanming-wang",
+      "x_url": "https://x.com/Guanming717",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/229264e545e631dc6b28622345796c47929eedd6.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [
+    {
+      "title": "General Instinct on X: \"What about dis-assembling?\n\nExcited to share some results (more coming next week!) deploying pi0.7 on a AI hardware dis-assembling task partnering with @physical_int. The robot autonomously removes retaining bars, riser boards, and fans with only 1.5 hours of post-train.\" / X",
+      "url": "https://x.com/gen_instinct/status/2108343157167706141",
+      "date": "Oct 08, 2026"
+    },
+    {
+      "title": "General Instinct on X: \"Introducing InstinctFlash, the unified open-source physical AI model runtime for fast, efficient inference. \n\nEnd-to-end robot policies don't fit on the edge. VLAs are already extremely slow to run on-device, but WAMs are even slower, taking 20-50 steps to even de-noise a si… / X",
+      "url": "https://x.com/gen_instinct/status/2102442304011370921",
+      "date": "Sep 22, 2026"
+    }
+  ],
+  "launches": [
+    {
+      "id": 101508,
+      "title": "General Instinct - The deployment layer for physical intelligence",
+      "tagline": "Deploy frontier AI models onto constrained edge hardware for robots, drones, and physical AI systems.",
+      "body": "# \\*\\*\\*\\*\n\n**TL;DR**: General Instinct distill, quantize, and deploy large frontier AI onto limited hardware on drones, old PCs, and robots.\n\n![uploaded image](/media/?type=post&id=101508&key=user_uploads/2022270/81b34033-67b0-41d9-9f7a-563ed2884da3)\n\n**Problem**:\n\nPhysical AI (robots, drones, IoT) teams can now get frontier models to do impressive things in the lab. The hard part is getting those models to work reliably in production.\n\nSome common patterns:\n\n1\\. Models works well in the cloud, but fails on edge in production.\n\n2\\. Custom use-cases like robots operating in the wild or in space requires on device inference.\n\n3\\. Using Gemini for everything is simply too expensive.\n\nWe built a custom, no code pipeline to solve this problem.\n\n**What we’re building:**\n\nOur first product: **Instinct Edge**. Give us a model, a target device, and a latency budget. We return an offline runtime that hits the budget on hardware like Jetson, mobile NPUs, ARM CPUs, Apple Neural Engine, and Snapdragons.\n\nUnder the hood, this combines compression recipes, custom CUDA / Metal / ARM NEON kernels, and a continuous data-to-serving pipeline.\n\nOne production example: a multimodal classifier on Jetson Orin NX with 111 ms cold start, 100% of decisions inside a 150 ms budget, and zero cloud calls.\n\n**How you can help**:\n\nIf you or anyone you know are running large vision models on edge and are having problems fitting them onto your hardware, let us know by emailing [founders@general-instinct.com](mailto:founders@general-instinct.com)!\n\n<https://youtu.be/oBtQofpfgHM>",
+      "url": "https://www.ycombinator.com/launches/QPE-general-instinct-the-deployment-layer-for-physical-intelligence",
+      "votes": 10,
+      "created_at": "2026-05-19T06:17:38.703Z"
+    }
+  ]
+}

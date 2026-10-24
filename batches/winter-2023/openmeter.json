@@ -1,0 +1,112 @@
+{
+  "id": 27877,
+  "name": "OpenMeter",
+  "slug": "openmeter",
+  "former_names": [
+    "Tailfin",
+    "OpenMeter",
+    "OpenMeter.io"
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/926363f3ba3f7c82e427f22950ca596e978572b5.png",
+  "website": "https://openmeter.io",
+  "all_locations": "",
+  "long_description": "OpenMeter's mission is to standardize metering with the goal of becoming the data source for AI and API monetization. We've built an open-source platform that processes billions of events into our usage lake in a matter of seconds, which acts as the backbone that serves revenue and efficiency teams.",
+  "one_liner": "Usage Metering, AI & API Monetization",
+  "team_size": 7,
+  "industry": "B2B",
+  "subindustry": "B2B -> Infrastructure",
+  "launched_at": 1675969599,
+  "tags": [],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Winter 2023",
+  "status": "Acquired",
+  "industries": [
+    "B2B",
+    "Infrastructure"
+  ],
+  "regions": [
+    "Remote",
+    "Partly Remote"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/openmeter",
+  "api": "https://devasheeshg.github.io/yc-api/batches/winter-2023/openmeter.json",
+  "year_founded": 2023,
+  "city": null,
+  "country": null,
+  "linkedin_url": "https://www.linkedin.com/company/openmeter",
+  "x_url": "https://twitter.com/openmeterio",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": "https://github.com/openmeterio",
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/926363f3ba3f7c82e427f22950ca596e978572b5.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Harj Taggar",
+    "url": "https://www.ycombinator.com/people/harj-taggar"
+  },
+  "founders": [
+    {
+      "user_id": 112934,
+      "full_name": "Peter Marton",
+      "title": "Founder",
+      "founder_bio": "Hi, I'm Peter. I worked on Stripe's usage and cost platform and built Netflix's serverless infrastructure. Earlier, I co-founded RisingStack, a Node.js performance monitoring company. I recently co-founded OpenMeter.io to help AI & API companies monetize their usage.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/petermarton",
+      "x_url": "http://twitter.com/slashdotpeter",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/44bf01f55cf0dbad0476a7b85cf94133125b4bcd.jpg"
+    },
+    {
+      "user_id": 1163072,
+      "full_name": "Andras Toth",
+      "title": "Founder",
+      "founder_bio": "Andras is coming from an enterprise cloud and Kubernetes platform company Banzai Cloud (acquired by Cisco) where he mainly worked on the company's service mesh product, Backyards (renamed to Calisti). Previously, he worked at DataCamp and RisingStack & participated in Google Summer of Code two times.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/andrás-tóth/",
+      "x_url": "https://twitter.com/tthndrs",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/9bc89451e32d3a425e16471d76e864fb1d723ddc.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [
+    {
+      "title": "Kong Acquires OpenMeter to Bring API and AI Monetization to the Agentic Era  | Kong Inc.",
+      "url": "https://konghq.com/blog/news/kong-acquires-openmeter",
+      "date": "Sep 03, 2025"
+    },
+    {
+      "title": "OpenMeter makes it easier for companies to track usage-based billing | TechCrunch",
+      "url": "https://techcrunch.com/2024/03/12/openmeter-makes-it-easier-for-companies-to-track-usage-based-billing/",
+      "date": "Mar 12, 2024"
+    }
+  ],
+  "launches": [
+    {
+      "id": 72230,
+      "title": "OpenMeter.io: Real-time and scalable OSS metering",
+      "tagline": "Usage Metering for AI, Billing, Infrastructure, and IoT use-cases.",
+      "body": "[OpenMeter.io](http://OpenMeter.io) is an open-source real-time usage metering solution to power SaaS, Billing, and IoT use cases. OpenMeter can collect and meter millions of events per second. It integrates seamlessly with cloud infrastructure components, making it an ideal solution for DevTool, AI, and IoT applications with Usage-Based-Pricing (UBP) or event-driven analytics requirements.\n\nCheck out [OpenMeter on GitHub](https://github.com/openmeterio/openmeter)\n\n![uploaded image](/media/?type=post&id=72230&key=user_uploads/1163072/fb0d1720-b48f-4e25-bf33-03306006f9c7)\n\n### **Why does it matter?**\n\nAs the PLG (Product-Led Growth) motion gains momentum and the macroeconomic landscape limits growth potential with seat-based pricing, many companies are adopting usage-based pricing models, requiring accurate metering. Looking ahead, it is expected that the majority of SaaS products will offer AI capabilities. To effectively cover costs and generate revenue, these companies must meter AI usage and attribute it to their customers.\n\n[See common OpenMeter Use Cases](https://openmeter.io/use-cases?utm_source=newsletter&utm_medium=email&utm_campaign=yc)\n\n### **The Metering Challenge**\n\nUsage metering requires accurately processing **large volumes** of events in **real-time** to power billing use cases and modern data-intensive applications like DevTool, AI, and IoT.\n\nIt’s challenging for engineers to balance out scale, accuracy, latency, and cost as:\n\n* [🎈](https://emojipedia.org/balloon/) Monitoring systems fall short in terms of accuracy and consistency necessary for billing\n* 💸 Scaling databases to handle large volumes of writes and real-time queries can be expensive\n* [⏳](https://emojipedia.org/hourglass-not-done/) Warehouses processing leads to stale usage data and longer feedback cycles\n* [💼](https://emojipedia.org/briefcase/) Building out streaming aggregation requires experience in handling idempotency and failures\n\nCompanies need to extract usage data from various cloud infrastructure components (Kubernetes, AWS, etc.), vendors (OpenAI, Twilio, etc.), and hardware components to attribute metered usage to their customers.\n\n### **The Solution: OpenMeter**\n\n![uploaded image](/media/?type=post&id=72230&key=user_uploads/1163072/c04f742b-747e-4490-b2b4-57f162d55f4b)\n\n[Watch the demo video](https://www.loom.com/share/bc1cfa1b7ed94e65bd3a82f9f0334d04)\n\nA real-time, open-source, and infrastructure-first metering solution that you can start quickly and grow with rapidly:\n\n* **Real-time Metering**: Instant aggregations and queries\n* **Scalable Ingestion**: Handles millions of usage events per second\n* **Accurate**: Precise metering for billing and industry use-cases\n* **Fault Tolerant**: Built-in idempotency, event backfills, and meter resets\n* **Infrastructure plugins**: Usage ingestion plugins for Kubernetes, AWS, etc.\n* **RevOps plugins**: Integrations for Billing (Stripe), CRM, and data warehouses\n\nWe aim to make OpenMeter the standard to collect and share usage across many solutions and providers.\n\n[Check out OpenMeter on GitHub](https://github.com/openmeterio/openmeter)\n\n### **About the Tech**\n\nUnder the hood, OpenMeter harnesses the power of Kafka to deliver billing-grade and scalable metering. Its idempotent event ingestion uses the CloudEvents specification managed under CNCF. The usage metering aggregations are configurable, which allows tracking specific event properties on various time windows. OpenMeter is available on GitHub (published under the Apache 2.0 Open Source license).\n\n[Check out the OpenMeter Examples](https://github.com/openmeterio/openmeter/tree/main/examples)\n\n### **Join the OSS Community**\n\n* [Follow OpenMeter on GitHub](https://github.com/openmeterio/openmeter)\n* [Check out the Roadmap](https://openmeter.io/?utm_source=newsletter&utm_medium=email&utm_campaign=yc#roadmap)\n* [Contact Us](https://us10.list-manage.com/contact-form?u=c7d6a96403a0e5e19032ee885&form_id=fe04a7fc4851f8547cfee56763850e95)\n\nOpenMeter is built with ❤️ by Tailfin and experience from Netflix, Banzai Cloud, and Stripe.",
+      "url": "https://www.ycombinator.com/launches/In0-openmeter-io-real-time-and-scalable-oss-metering",
+      "votes": 77,
+      "created_at": "2023-06-13T14:39:57.994Z"
+    },
+    {
+      "id": 69167,
+      "title": "Tailfin - Maximize revenue with usage-based pricing",
+      "tagline": "Tailfin unlocks revenue by identifying and pricing sales opportunities.",
+      "body": "B2B SaaS companies see up to 25% revenue increase by adopting usage-based or hybrid pricing models, but realizing this potential requires the right tools and insights. This is where [Tailfin](https://tailfin.cloud?utm_source=bookface&utm_medium=post&utm_campaign=launch1) has you covered.\n\nThis is Andras and Peter - coming from Stripe, Netflix, Banzai Cloud, and Cisco; we understand that unlocking the full revenue potential requires to:\n\n* Identify revenue opportunities and forecast over-usage to start the sales cycle early\n* Find customers ready to be converted to enterprise plans\n* Forecast usage and revenue to price deals accordingly\n\n![uploaded image](/media/?type=post&id=69167&key=user_uploads/112934/0aa156bf-ec1b-48b3-a713-639a51217424)\n\n## 💸 The Challenge\n\nWith the rise of Product-Led-Growth (PLG), pay-as-you-go is becoming the dominant pricing model, but unfortunately, many SaaS companies miss out on revenue opportunities. For example, enterprise customers often underestimate their usage and pre-purchase too little credit, leaving you with the dilemma of offering your service for free or renegotiating the deal. Moreover, self-serve customers may outgrow their plans without you knowing, and customer success and support may not prioritize users according to their spending and future potential.\n\n## 🐬 Our Solution\n\nTailfin is a monetization platform explicitly designed for usage-based pricing. We help businesses to maximize revenue by providing insights about customers and highlighting opportunities so your sales and customer success teams can be data-driven.\n\n![uploaded image](/media/?type=post&id=69167&key=user_uploads/112934/92610c86-d525-4e40-9e52-cf924668dcac)\n\nTailfin provides:\n\n* Subscription predictions like detecting overage before it happens so you can outreach and start the sales process in time.\n* Price simulations to calculate historical and future revenue based on usage and different pricing models.\n* Accurate metering with high-frequency event aggregation; can include events such as API calls, disk storage usage, or other product-related actions that could result in charges.\n* Real-time dashboard and APIs to extract usage and revenue data\n\n## [🐋](https://emojipedia.org/whale/) Sign up\n\nDon’t leave revenue on the table. Ask for a demo today:\n\n<https://calendly.com/tailfin-cloud/founders>  or email me at [peter@tailfin.cloud](mailto:peter@tailfin.cloud)\n\n[https://tailfin.cloud](https://tailfin.cloud/?utm_source=bookface&utm_medium=post&utm_campaign=launch1) \n\nBest,\n\nTailfin Founders, Andras & Peter",
+      "url": "https://www.ycombinator.com/launches/Hzb-tailfin-maximize-revenue-with-usage-based-pricing",
+      "votes": 99,
+      "created_at": "2023-02-09T18:55:55.742Z"
+    }
+  ]
+}

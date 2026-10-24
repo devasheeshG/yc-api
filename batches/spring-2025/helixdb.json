@@ -1,0 +1,104 @@
+{
+  "id": 30432,
+  "name": "HelixDB",
+  "slug": "helixdb",
+  "former_names": [],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/64b0b8869e482d2c399a6856e5127933c31381bd.png",
+  "website": "https://helix-db.com",
+  "all_locations": "London, England, United Kingdom",
+  "long_description": "As AI agents replace traditional software, they need a way to store, recall, and reason over contextual data. HelixDB gives them all of that in one system. We’re building the knowledge infrastructure every AI agent will depend on.",
+  "one_liner": "The fastest & most scalable graph-vector database on the market",
+  "team_size": 6,
+  "industry": "B2B",
+  "subindustry": "B2B -> Engineering, Product and Design",
+  "launched_at": 1747978820,
+  "tags": [
+    "Developer Tools",
+    "Open Source",
+    "Infrastructure",
+    "AI",
+    "Databases"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Spring 2025",
+  "status": "Active",
+  "industries": [
+    "B2B",
+    "Engineering, Product and Design"
+  ],
+  "regions": [
+    "United Kingdom",
+    "Europe",
+    "Remote",
+    "Partly Remote"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/helixdb",
+  "api": "https://devasheeshg.github.io/yc-api/batches/spring-2025/helixdb.json",
+  "year_founded": 2025,
+  "city": "London",
+  "country": "GB",
+  "linkedin_url": "https://www.linkedin.com/company/helixdb/",
+  "x_url": "https://x.com/helixdb",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": "https://github.com/HelixDB/helix-db",
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/64b0b8869e482d2c399a6856e5127933c31381bd.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": null,
+  "founders": [
+    {
+      "user_id": 1342245,
+      "full_name": "George Curtis",
+      "title": "Founder/CEO",
+      "founder_bio": "CEO & Co-Founder of HelixDB, a graph-vector database for building RAG.",
+      "is_active": true,
+      "linkedin_url": "https://linkedin.com/in/george-curtis-12b232a5",
+      "x_url": "https://x.com/georgecurtiss",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/798e68bcfd436f7772a4c61133638d2dde6c0de4.jpg"
+    },
+    {
+      "user_id": 1335533,
+      "full_name": "Xavier Cochran",
+      "title": "Founder",
+      "founder_bio": "The \"rust guy\". Building HelixDB.",
+      "is_active": true,
+      "linkedin_url": "https://linkedin.com/in/xaviercochran",
+      "x_url": "https://x.com/xav_db",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/3f8da8079cb678cdbf47207673bb3c7c705639db.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [
+    {
+      "title": "Fondo | HelixDB Launches: The Database for RAG & AI",
+      "url": "https://www.tryfondo.com/blog/helixdb-launches?utm_term=launchblogs-helix&utm_campaign=Launch%20Blogs&utm_content=334218246&utm_medium=social&utm_source=twitter&hss_channel=tw-1250676001727639553",
+      "date": "May 29, 2025"
+    },
+    {
+      "title": "Build MCP AI Agents with NoCode PLUS: Native graph-vector database, Use MCP servers with Claude on web",
+      "url": "https://www.theunwindai.com/p/build-mcp-ai-agents-with-nocode",
+      "date": "Apr 14, 2025"
+    }
+  ],
+  "launches": [
+    {
+      "id": 90705,
+      "title": "HelixDB - The database for RAG & AI",
+      "tagline": "HelixDB is a graph-vector database that brings structure to your un-structured data for RAG and AI applications. ",
+      "body": "Hi everyone 👋\n\nWe’re [George](https://www.linkedin.com/in/george-curtis-12b232a5/) and [Xav](https://www.linkedin.com/in/xaviercochran/) – co-founders of [HelixDB](https://www.helix-db.com)\n\n# TL;DR\n\n**HelixDB is an open-source graph-vector database that brings structure to your un-structured data for RAG and AI applications.**\n\n**_ASK:_** Can you introduce us to people/companies that are working on Graph/Hybrid RAG that could benefit from better performance or less overhead in their development cycles? Contact me at [george@helix-db.com](https://mailto:george@helix-db.com)\n\nhttps://youtu.be/V5viTRj2h68\n\n# ❌ The Problem\n\nAI is changing at a rapid rate which is fundamentally changing technology. This new tech **_needs_** new infrastructure.\n\nEveryone is trying to build AI applications, which often involve dedicated data retrieval for their specific use case. Building these retrieval systems is hard. Previously, we’ve relied solely on vector databases to retrieve semantic matches on tiny snippets of text data. But, this technology is shifting and is relying more heavily on connected data, which comes with better context.\n\nBut building these retrieval systems often involve:\n\n1. **Vector databases**\n2. **Graph databases**\n3. Bespoke **middleman/syncing** software\n\nThese setups are complicated, take a lot of time, engineering expertise, and create huge amounts of overhead which makes maintaining them very time consuming and expensive.\n\n# ✅ Our Solution\n\nHelixDB integrates semantic meaning (through its vector types) with relationships to other data (graph types), a similar model to how we structure information in our brains.\n\n![uploaded image](/media/?type=post&id=90705&key=user_uploads/1342245/468263b3-fb06-4efe-9352-4c30923c6d10)\n\nThis makes it the best solution for making AI retrieval engines for agents and LLMs.\n\nHow we currently do this:\n\n1. Seamlessly integrate **vector types** into your **knowledge graph**\n2. **Type-safe query language** that guides developers and agents to write correct queries before they are executed\n3. **Extreme speeds** outperforming industry leaders by 1-3 orders of magnitude\n\nHow we’re going to make it better:\n\n1. **MCP tools** that allow agents to walk the graph themselves, deciding at each step how to traverse the graph based on the schema and available data.\n2. Built-in **ingestion pipelines** for multi-modal data.\n3. Built-in **embedding-models** bringing immediate structure to your knowledge graph.\n\nTo get setup, follow the guide in our README:\\\n[HelixDB Github](https://github.com/helixdb/helix-db)\n\n# 🙏🏻 Our Ask\n\n* Can you introduce us to people/companies that are working on Graph/Hybrid RAG that could benefit from better performance or less overhead in their development cycles? Get them to [book a call](https://cal.com/georgec/30min) or email [george@helix-db.com](https://mailto:george@helix-db.com)\n* If you have a Github account, then [give us a star 🌟](https://github.com/HelixDB/helix-db)\n\nYour help and support makes a huge difference for this project. **Thank you!**",
+      "url": "https://www.ycombinator.com/launches/Naz-helixdb-the-database-for-rag-ai",
+      "votes": 160,
+      "created_at": "2025-05-24T19:55:54.908Z"
+    }
+  ]
+}

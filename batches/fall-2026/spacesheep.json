@@ -1,0 +1,86 @@
+{
+  "id": 38953,
+  "name": "Spacesheep",
+  "slug": "spacesheep",
+  "former_names": [
+    "spacesheep"
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/2cb23e26aad8ff71438bd185c90588109bbf3d5f.png",
+  "website": "https://spacesheep.dev/",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "Agents now write faster than anyone can read. Spacesheep is where their work lands: any agent turns a session's output into a space that your team takes in at a glance. It works with the agents you already use, and has its own agent built in.\r\n\r\nTeams work on it together: comment on the exact spot, @mention a teammate, or ask @spacesheep and an agent makes the change live on every screen. Every change is a version, and every space is searchable by meaning, for people and agents alike. Spaces can show live data streamed from servers and sensors, and connect to the tools your team already uses.\r\n\r\nTeams use it for research, design docs, dashboards, slides and internal apps.",
+  "one_liner": "Documents of the future: the collaboration surface for people and…",
+  "team_size": 2,
+  "industry": "B2B",
+  "subindustry": "B2B -> Productivity",
+  "launched_at": 1792552707,
+  "tags": [
+    "Developer Tools",
+    "Generative AI",
+    "Consumer",
+    "Productivity",
+    "Collaboration"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Fall 2026",
+  "status": "Active",
+  "industries": [
+    "B2B",
+    "Productivity"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/spacesheep",
+  "api": "https://devasheeshg.github.io/yc-api/batches/fall-2026/spacesheep.json",
+  "year_founded": 2026,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "",
+  "x_url": "",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": "https://github.com/spacesheep-dev",
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/2cb23e26aad8ff71438bd185c90588109bbf3d5f.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Pete Koomen",
+    "url": "https://www.ycombinator.com/people/pete-koomen"
+  },
+  "founders": [
+    {
+      "user_id": 836233,
+      "full_name": "Michael Makarov",
+      "title": "Founder/CEO",
+      "founder_bio": "Founder/CEO of Spacesheep (YC F26). Previously MTS at Anthropic, where I built the internal app deployment framework and the first version of CC Artifacts. Before that, staff engineer at Pinecone and Twitter.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/micmakarov/",
+      "x_url": "https://x.com/micmakarov",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/92e445a52e3cb719e2bb362afdcaaa50379410f3.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 124256,
+      "title": "Spacesheep 🐑: Documents of the future",
+      "tagline": "A new surface where people understand and work with AI.",
+      "body": "Hey everyone, I'm Michael, the founder of [Spacesheep](https://spacesheep.dev) (F26).\n\n## TL;DR\n\n**Spacesheep: documents of the future.** Spaces are the place your teams and agents can be productive. Your AI makes the space; your team reads it, comments on it and builds on it.\n\nAsk the AI you already use: \"Use spacesheep.dev and give a visual explanation of how GPUs work.\" You get a document, a mockup, a dashboard, an app or art. Share it with specific people, your team, or publicly.\n\nOur launch video:\n\n<https://youtu.be/cFVCDSs-GZs>\n\nAgents make our work more productive. Their output keeps growing, but our ability to read stays the same. We're building a new surface where people understand and work with AI.\n\nSpacesheep in 90 seconds:\n\n<https://www.youtube.com/watch?v=vKQtOTrRBBA>\n\n## Why we're building it\n\nAgent use pushes productivity, but we get constantly burned out by relentless walls of AI-generated text. We don't believe a chat interface is the final evolution of human-computer interaction. Agents know how to shape information for humans, and that shape is not a wall of text. The full story: [spacesheep.dev/why](https://spacesheep.dev/why)\n\n## What we built\n\nIf you can imagine it, you can sheep it. Information can take many more shapes than a page. With one prompt, create and share designs, styled documents, dashboards and vibe-coded apps your team and customers work in together.\n\n### Dashboards and live data\n\nCited, charted, and kept current. Machines and services stream numbers straight into the space, like [a thermal camera on an AI chip's board](https://spacesheep.dev/@yaroslavvb/thermal-master-p3-live-camera-stream) at 25 frames a second while GPU experiments run, or [an AI Foundry lab dashboard](https://spacesheep.dev/@yaroslavvb/aifoundry-lab-dashboard).\n\n![uploaded image](/media/?type=post&id=124256&key=user_uploads/836233/70f6f951-c043-4261-af2a-4379d7cfed7c)\n\n\n### Investigations\n\nTurn agent output into dashboards and stories people actually understand. For example, [YC by the numbers](https://spacesheep.dev/@misha/yc-by-the-numbers): we pointed an agent at YC's public directory, 6,305 startups over 21 years, and it came back as one story in six eras, from consumer web to agents and robots.\n\n![uploaded image](/media/?type=post&id=124256&key=user_uploads/836233/74805160-58ea-40a9-b983-15b2d92b1491)\n\n\n### Interactive designs\n\n[An interactive map of the ET-SoC-1 chip](https://spacesheep.dev/@yaroslavvb/et-soc1-chip-diagram) you can click through and comment on, from the whole chip down to a single vector unit. Each space is designed from scratch for what's in it. No templates.\n\n![uploaded image](/media/?type=post&id=124256&key=user_uploads/836233/c7047d56-9b60-4933-a50c-97fe3927c356)\n\n\n### Apps, CRMs and forms\n\nTeams build their own internal apps, CRMs and forms, even games: for productivity, for fun, or for working with suppliers and customers. Everyone edits the same records, and there are no servers to run.\n\n### Collaborate\n\nJump on a space with your team and your AI. Comment on the exact line. Write @spacesheep and the AI fixes the space while everyone watches. Every version is kept.\n\n![uploaded image](/media/?type=post&id=124256&key=user_uploads/836233/e1e00c9c-53c7-4a5b-873e-a8e58e31dba4)\n\n\nThis is how James Briggs uses it to stay in the loop while Claude Code writes his code: plans, code explainers and reviews he can actually read.\n\n<https://www.youtube.com/watch?v=lJVcc4O-7ck>\n\n### Never lose a link\n\nAsk in your own words and the space is there. State-of-the-art search, built by former Pinecone engineers.\n\n### Use your AI. Or ours.\n\nClaude Code, Codex, Cursor, ChatGPT, Grok and open-source harnesses like opencode all publish to the same space. Or use Spacesheep's own AI on the dashboard, in Slack and more.\n\n### Own your data\n\nYour spaces are yours. Every space and every version syncs to your own Google Drive or GitHub, so you can read them anywhere, take them with you, and never depend on us to keep them.\n\n## About me\n\nFounder/CEO of Spacesheep (YC F26). Previously MTS at Anthropic, where I built the internal app deployment framework and the first version of CC Artifacts. Before that, staff engineer at Pinecone and Twitter.\n\n## Our ask\n\n* **Try it.** Ask your agent to \"share this to spacesheep.dev\" and send the link to your team.\n* **Design partners.** Know an organization that wants to use Spacesheep? Introduce us.\n* **Feedback:** [feedback@spacesheep.dev](mailto:feedback@spacesheep.dev) or [@micmakarov](https://x.com/micmakarov) on X\n* **YC founders:** a year of the Team plan for up to 15 members. Redeem it on Bookface.",
+      "url": "https://www.ycombinator.com/launches/WK8-spacesheep-documents-of-the-future",
+      "votes": 31,
+      "created_at": "2026-10-23T18:00:00.398Z"
+    }
+  ]
+}

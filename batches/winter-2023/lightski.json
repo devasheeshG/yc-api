@@ -1,0 +1,99 @@
+{
+  "id": 28361,
+  "name": "Lightski",
+  "slug": "lightski",
+  "former_names": [
+    "Codex",
+    "Lightski",
+    "Streamstraight"
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/4f913750d13336c120035ae29b41b164fc9638be.png",
+  "website": "https://www.lightski.com",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "Lightski implements AI agents to replace document-heavy enterprise workflows. One document-heavy customer now processes intake in 10 minutes instead of 2 days, with a > 5x decrease in cost. \r\n\r\nTo do so, we audit and rebuild the entire substrate your business runs on, native to AI. From document-heavy intake to back-office execution, automatically drive your top line with Lightski agents.",
+  "one_liner": "Transform Document Workflows with AI Agents",
+  "team_size": 1,
+  "industry": "B2B",
+  "subindustry": "B2B -> Engineering, Product and Design",
+  "launched_at": 1678895856,
+  "tags": [
+    "Developer Tools",
+    "Generative AI",
+    "SaaS",
+    "B2B"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Winter 2023",
+  "status": "Active",
+  "industries": [
+    "B2B",
+    "Engineering, Product and Design"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/lightski",
+  "api": "https://devasheeshg.github.io/yc-api/batches/winter-2023/lightski.json",
+  "year_founded": 2023,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "",
+  "x_url": "https://twitter.com/lightskis",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/4f913750d13336c120035ae29b41b164fc9638be.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": null,
+  "founders": [
+    {
+      "user_id": 68558,
+      "full_name": "Hansen Qian",
+      "title": "Founder",
+      "founder_bio": "Hansen is the the cofounder of Lightski. Previously, Hansen was a founding engineer and engineering manager at Affinity CRM.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/hansenq",
+      "x_url": "https://www.twitter.com/hansenq",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/dd1fcb67de3a48912de62aae07dd6cb1b79badaa.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [
+    {
+      "title": "Una apuesta de Y Combinator que impulsa la IA generativa | Emprendedores",
+      "url": "https://www.expansion.com/expansion-empleo/emprendedores/2023/05/03/645247fee5fdeaa9148b4653.html",
+      "date": "May 04, 2023"
+    }
+  ],
+  "launches": [
+    {
+      "id": 87552,
+      "title": "Lightski",
+      "tagline": "Audit and rebuild the entire substrate your business runs on, natively with AI.",
+      "body": "Don't just automate tasks. We audit and rebuild the entire substrate your business runs on, natively with AI. From document-heavy intake to back-office execution, automatically drive your top line with Lightski agents.\n\n![uploaded image](/media/?type=post&id=87552&key=user_uploads/68558/97044200-bcd0-4229-84c4-217b3e952f28)\n\nIf you’re a company looking to pilot a plan for your entire team, please email [founders@lightski.com](mailto:founders@lightski.com). ",
+      "url": "https://www.ycombinator.com/launches/Mm8-lightski",
+      "votes": 41,
+      "created_at": "2025-02-10T17:57:02.574Z"
+    },
+    {
+      "id": 80683,
+      "title": "Lightski - Embed an AI data scientist in your app",
+      "tagline": "Embedded data analytics more powerful than Tableau and Looker by pairing AI with code execution",
+      "body": "**tl;dr:** Lightski helps you build an analytics experience for your users that answers any arbitrary question about their data. We provide embedded data analytics more powerful than Tableau and Looker by pairing AI with code execution, which eliminates hallucinations.\n\n## Why?\n\nBefore YC, I was an engineering manager at Affinity CRM, where we spent six figures on an embedded analytics solution. Even then, our users were never happy; they either didn’t know how to navigate the complex UI or wanted even more advanced analytics. Most customers ended up exporting the data themselves and running their own analysis (not an ideal solution).\n\nRecent AI advancements remove this trade-off, enabling a natural language interface and powerful code-based analysis. We started Lightski to quickly give your users the full power of a data scientist, without needing to know a line of code.\n\n## User Experience\n\nWith Lightski, you’re able to embed an AI Data Scientist in your app, pre-loaded with your users’ data. Your users can then explore a dataset however they want; in response, we generate and execute code to perform analyses, such as:\n\n* Create custom graphs, charts, and dashboards\n* Perform arbitrary filters, group-bys, and aggregations\n* Transform or clean data for a custom CSV export\n\nAnything that a data scientist can accomplish in code can now be accomplished with Lightski. Best of all, your users won’t even know we’re powering the experience—you can quickly re-theme our UI with your design system.\n\n![uploaded image](/media/?type=post&id=80683&key=user_uploads/68558/dea1307b-ab28-464c-acf0-f89373cf1dfe)\n\n## Under the Hood\n\nWe rely heavily on state-of-the-art LLM models to guide the analysis, but there’s a lot of other capabilities built in-house that power the experience:\n\n* Secure and isolated per-user code execution environments\n* Native connectors for the most common databases\n* Code-based ETL, for flexible data pre-processing and transformation\n* Support for image generation and CSV export\n* Embeddable streaming UI that supports custom theming\n\nWe’re building fast and will also soon launch:\n\n* Interactive charts and even more customizable dashboards\n* Direct API access to our safe code execution environments and ETL pre-processing features\n* Guided assistants, for less technically-savvy users\n\nand much more! Let us know if you’re interested in any of these and we’ll prioritize it for you.\n\n## Get a Demo\n\nThe fastest way to get access to Lightski is by [signing up for our waitlist](https://forms.gle/Sj239WNvp5ZTLJGX6) or emailing [founders@lightski.com](mailto:founders@lightski.com)—we’ll help you format your data into a clean schema, and get Lightski embedded in your app within the day. Email us with any questions or feedback!",
+      "url": "https://www.ycombinator.com/launches/KzL-lightski-embed-an-ai-data-scientist-in-your-app",
+      "votes": 32,
+      "created_at": "2024-05-07T17:04:06.921Z"
+    }
+  ]
+}

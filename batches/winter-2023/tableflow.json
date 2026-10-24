@@ -1,0 +1,96 @@
+{
+  "id": 27897,
+  "name": "TableFlow",
+  "slug": "tableflow",
+  "former_names": [
+    "Inquery"
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/fad6d127e5843dda3d9f06585de22ad73a6df795.png",
+  "website": "https://tableflow.com",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "TableFlow builds AI teammates for data tasks, helping operations and data teams automate the messy, manual tasks buried in PDFs, spreadsheets, images, and emails.",
+  "one_liner": "AI Teammates for Data Tasks",
+  "team_size": 2,
+  "industry": "B2B",
+  "subindustry": "B2B -> Operations",
+  "launched_at": 1676487521,
+  "tags": [
+    "Documents",
+    "SaaS",
+    "Data Engineering",
+    "Automation",
+    "AI"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Winter 2023",
+  "status": "Active",
+  "industries": [
+    "B2B",
+    "Operations"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/tableflow",
+  "api": "https://devasheeshg.github.io/yc-api/batches/winter-2023/tableflow.json",
+  "year_founded": 2022,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/tableflowhq",
+  "x_url": "https://x.com/tableflow",
+  "fb_url": null,
+  "cb_url": "https://www.crunchbase.com/organization/tableflow",
+  "github_url": "https://github.com/tableflowhq",
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/fad6d127e5843dda3d9f06585de22ad73a6df795.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Brad Flora",
+    "url": "https://www.ycombinator.com/people/brad-flora"
+  },
+  "founders": [
+    {
+      "user_id": 405594,
+      "full_name": "Mitch Patin",
+      "title": "Founder",
+      "founder_bio": "Co-founder and CEO at TableFlow. Early engineer at Bolt (transitioned to product). First product hire at Heymarket.\n",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/mitchpatin/",
+      "x_url": "https://twitter.com/mitchpatin",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/1951bf8df013b0f7a0a692a6e5c288aa4392e57c.jpg"
+    },
+    {
+      "user_id": 1166460,
+      "full_name": "Eric Ciminelli",
+      "title": "Founder",
+      "founder_bio": "Co-founder and CTO at TableFlow. Early engineer on the commerce team at Facebook. First full-stack engineering hire at Heymarket.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/ericciminelli/",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/2387b88cd77c1ab73a503d75967f5c28c5365823.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 73464,
+      "title": "🛶 TableFlow: AI Document Processing",
+      "tagline": "Extract, transform, and validate data from any file: CSV, PDF, and more",
+      "body": "### TL;DR\n\nTableFlow enables enterprises to extract and transform unstructured data from CSVs, PDFs, images, and web pages. Instead of spending time on manual data entry and validation, teams use TableFlow to automate these tasks with AI.\n\n![uploaded image](/media/?type=post&id=73464&key=user_uploads/405594/c161bc5a-7c2f-45d1-8e93-39ea826fc6a6)\n\nHi everyone, we’re Eric and Mitch from [TableFlow](http://tableflow.com)! 👋\n\n### Problem\n\nMany companies rely on spreadsheets, PDFs, and other file types to import partner or customer data, which exists in a variety of formats. This difficult and time-consuming process often leads to companies relying on a combination of in-house tooling and manual work to migrate the data. This becomes even more problematic when ingesting hundreds or thousands of files a week.\n\n### Solution\n\nTableFlow handles the file import process with automated pipelines that use AI to map, extract, transform, and validate data.\n\n**How it works:**\n\n1. Define your destination schema in our app. These are the columns and data types that you want to transform data to.\n2. Import a file via our API.\n3. Receive a webhook when the file finishes processing (takes \\~10 seconds, even with 100k+ records). This will include any errors, such as a required field being missing.\n4. Optional: Review the imported data in our application before continuing.\n5. Import the cleaned, transformed data into your system.\n\n[Demo Video](https://www.loom.com/share/a07bfd2c55454127afa44df31a973c81?sid=42c402db-1ee5-4886-a009-484bcdc1df3a)\n\n### TEAM\n\nWe met while working at Heymarket, a Series-A startup in SF. Mitch was the first product hire, and Eric was the first full-stack engineer. During our two years there, we co-owned many projects and defined many of the engineering & product processes to help the company scale. We became friends outside of the office by talking about startups, tennis, pickleball, and mountain biking.\n\n[Mitch](https://www.linkedin.com/in/mitchpatin/) started his career as an engineer before moving to the dark side (product 😛). He previously worked at GE Digital and Bolt and founded a company focused on B2B payments.\n\n[Eric](https://www.linkedin.com/in/ericciminelli/) is a software engineer who previously worked at Facebook and myMatrixx and co-founded a company that created a search engine for car shopping online.\n\n### Asks\n\n💌 If your team handles recurring imports of data in different schemas and formats, we’d love to hear about the problems you’ve encountered. Just leave your info [here,](https://tableflow.com/join-waitlist) and we’ll reach out!",
+      "url": "https://www.ycombinator.com/launches/J6u-tableflow-ai-document-processing",
+      "votes": 122,
+      "created_at": "2023-07-26T20:36:20.772Z"
+    }
+  ]
+}

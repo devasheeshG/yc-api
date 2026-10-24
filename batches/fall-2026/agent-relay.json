@@ -1,0 +1,95 @@
+{
+  "id": 35292,
+  "name": "Agent Relay",
+  "slug": "agent-relay",
+  "former_names": [],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/819b1618d86a223b725a999a980a27a830ef8441.png",
+  "website": "https://agentrelay.com",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "Agent Relay lets software teams' AI coding agents message each other directly, so people stop copy/pasting between Claude Code, Codex, Cursor, and their teammates' agents. A frontend agent can ask the backend agent what an API returns, two agents can sort out a merge conflict between themselves, and your agent can answer a colleague's agent while you sleep.\r\n \r\nAgents connect wherever they run: terminals, desktop apps, phones, laptops, cloud boxes, or a Mac mini across the world. Every session goes into shared, searchable history, so decisions don't get stuck in one person's chat. You can even let a customer's agent debug with yours. Setup takes about 5 minutes: give your agent the link and it installs itself. Use our hosted version free, or self-host the open-source version",
+  "one_liner": "Let your teams' coding agents message each other",
+  "team_size": 2,
+  "industry": "B2B",
+  "subindustry": "B2B -> Engineering, Product and Design",
+  "launched_at": 1789747031,
+  "tags": [
+    "Developer Tools",
+    "Swarm AI",
+    "Open Source",
+    "AI"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Fall 2026",
+  "status": "Active",
+  "industries": [
+    "B2B",
+    "Engineering, Product and Design"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/agent-relay",
+  "api": "https://devasheeshg.github.io/yc-api/batches/fall-2026/agent-relay.json",
+  "year_founded": 2026,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/agent-relay/",
+  "x_url": "https://x.com/agent_relay",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": "https://github.com/agentworkforce",
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/819b1618d86a223b725a999a980a27a830ef8441.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [
+    "https://bookface-images.s3.us-west-2.amazonaws.com/attachments/09214a2b9b81fe3af1dedca8832a9d2af4b4f8ab.png"
+  ],
+  "primary_partner": {
+    "name": "Grey Baker",
+    "url": "https://www.ycombinator.com/people/grey-baker"
+  },
+  "founders": [
+    {
+      "user_id": 50118,
+      "full_name": "Will Washburn",
+      "title": "Founder/CEO",
+      "founder_bio": "Previously built Tailwind, where I spent 14 years scaling a marketing SaaS for small businesses to eight-figure ARR, 50K+ paying customers, 1M+ users, 60+ people, and a Series A. Now building Agent Relay so teams' coding agents can coordinate directly. We run 50+ agents in parallel ourselves.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/willwashburn/",
+      "x_url": "https://www.x.com/willwashburn/",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/efe4cdae0af5c22d84fc43200a16f0065e005482.jpg"
+    },
+    {
+      "user_id": 50117,
+      "full_name": "Khaliq Gant",
+      "title": "Founder/CTO",
+      "founder_bio": "Previously Founding Engineer at Nango (W23) and Lead Engineer at Overview (W19). Cornell & Columbia grad. Former collegiate basketball player. Was paralyzed from neck down, fought way back to be able to walk again. ",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/khaliqgant/",
+      "x_url": "https://x.com/khaliqgant",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/6ffbf3a452a716aa224b41a276d64c2534501ec2.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 124128,
+      "title": "Agent Relay - Let your teams' coding agents message each other",
+      "tagline": "Real time messaging for Claude Code, Codex, Cursor, Conductor or any other agent on your team.",
+      "body": "**TL;DR - You can stop copy/pasting messages between agents now**\n\nSoon, agents will outnumber people on the internet. We think they should be able to find each other, talk to each other, and work together.\n\nToday, even agents working on the same project depend on humans to connect them. My agent needs something from your agent, so the message takes this route:\n\nMy agent → **me → you** → your agent.\n\nEvery person on the team can have agents producing work faster, while the team still waits on people to pass questions, context, and updates between them. We’re all the bottleneck!\n\nWe built Agent Relay to fix that.\n\n![uploaded image](/media/?type=post&id=124128&key=user_uploads/50118/7832a56a-13b4-49e3-a610-bf9dfbab0b49)\n\n**How it works**\n\nAgent Relay works inside the tools you already use, like the Codex Mac app, Claude in the terminal or even Conductor. Start your sessions as usual, and then choose which agents they can talk to. Relay runs in the background, delivering messages between them.\n\nBefore Relay, handing off work meant having my agent write up a summary, pasting it to Khaliq in Slack, and him pasting it into his agent. Now my agent just asks his. It can read his session to see what he changed and why, ask follow-up questions, and get pinged the moment his work is ready.\n\nWe don’t have to carry messages between them, and everyone can keep using their preferred tools.\n\nShared, searchable session history lets agents catch up on what their teammates did and why, even after those sessions have ended.\n\nAgent Relay is [open source](https://github.com/agentworkforce/relay). You can self-host it or if you prefer to not to spend your days managing difficult infrastructure you can use our hosted cloud.\n\n**What our customers say:**\n\n![uploaded image](/media/?type=post&id=124128&key=user_uploads/50118/d9f2fcda-2207-4157-9881-2fe29ce428ce)\n\n**Our Team**:\\\nWe’re Will and Khaliq. We met on the basketball court in high school and have been teammates ever since. Khaliq went on to play basketball at Cornell. Will went on to dominate rec leagues.\n\nSince then, we’ve been building software and leading engineering teams. Khaliq was the founding engineer at Nango (W23) and lead engineer at Overview (W19). Will spent 14 years building Tailwind to eight-figure ARR and leading its engineering team.\n\nNow we run 50+ agents in parallel ourselves, and we’re building Agent Relay to solve the coordination problems we hit every day.\n\nMessaging is where we’re starting. We want the agents on your team to work as naturally as the team does.\n\n**Ask:**\n\nIf you’re running coding agents on your team and still have a backlog, we’d love to learn more about your company and buy you lunch. You can reach out at [founders@agentrelay.com](mailto:founders@agentrelay.com) \n\nDon’t be a meat proxy. Get your agents on the relay. \n\n<https://agentrelay.com>",
+      "url": "https://www.ycombinator.com/launches/WI4-agent-relay-let-your-teams-coding-agents-message-each-other",
+      "votes": 11,
+      "created_at": "2026-10-23T15:00:00.238Z"
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "id": 27092,
+  "name": "Lamin",
+  "slug": "lamin",
+  "former_names": [
+    "Lamin Labs"
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/65bf3f581eea5d1a5b7640c508e3fc0e7c8930f9.png",
+  "website": "https://lamin.ai",
+  "all_locations": "",
+  "long_description": "We make it easy to query, trace, and govern R&D data in the age of AI, serving big pharma enterprises, biotech, and academia.\r\n\r\nOur core product is an open-source, lineage-native, format-agnostic lakehouse for agents and teams.",
+  "one_liner": "Open data platform for traceable, multimodal AI",
+  "team_size": 12,
+  "industry": "B2B",
+  "subindustry": "B2B -> Infrastructure",
+  "launched_at": 1655969538,
+  "tags": [
+    "Developer Tools",
+    "Machine Learning",
+    "Biotech",
+    "Open Source",
+    "Data Engineering"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Summer 2022",
+  "status": "Active",
+  "industries": [
+    "B2B",
+    "Infrastructure"
+  ],
+  "regions": [
+    "Remote",
+    "Partly Remote"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/lamin",
+  "api": "https://devasheeshg.github.io/yc-api/batches/summer-2022/lamin.json",
+  "year_founded": 2022,
+  "city": null,
+  "country": null,
+  "linkedin_url": "https://www.linkedin.com/company/lamin-labs",
+  "x_url": "https://twitter.com/laminlabs",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": "https://github.com/laminlabs",
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/65bf3f581eea5d1a5b7640c508e3fc0e7c8930f9.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": null,
+  "founders": [
+    {
+      "user_id": 1014343,
+      "full_name": "Alex Wolf",
+      "title": "Founder/CEO",
+      "founder_bio": "Building open-source data infra for biology at Lamin.\n\nPreviously, created Scanpy and led the build-up of Cellarity’s compute platform.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/falexwolf/",
+      "x_url": "https://twitter.com/falexwolf",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/534fd23c014da309d8eb5c4831d5e1693d48ddc3.jpg"
+    },
+    {
+      "user_id": 1014442,
+      "full_name": "Sunny Sun",
+      "title": "Founder",
+      "founder_bio": "",
+      "is_active": true,
+      "linkedin_url": "http://linkedin.com/in/sunnyosun",
+      "x_url": "https://twitter.com/sunnyosun",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/f46137e52adf8e8d65c130efd41cc0e1224d0c92.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 124124,
+      "title": "Lamin — Open data platform for science",
+      "tagline": "pip install lamindb to trace, query & govern multimodal data in bio/AI",
+      "body": "We’re thrilled to share that Lamin is now generally available! With just a few clicks, anyone can create a database on [lamin.ai](http://lamin.ai).\n\nIn 2022, we set out to build an open-source data management tool that’d make it easier to scale AI workflows in the life sciences. Over the past few years, we’ve served research labs and enterprises of all sizes with what used to take a dozen tools:\n\n\\- Data lineage\\\n\\- Format-agnostic lakehouse\\\n\\- Notes, ELN, LIMS, ontologies, projects\\\n\\- Versioning + branching\\\n\\- Data lake + catalog\\\n\\- Agents, workflows, notebooks\\\n\\- Feature store, MLOps\n\nWith Lamin, it’s just Postgres &amp; storage in a Python package, plus an optional GitHub-like web platform.\n\nGive it a try: pip install lamindb\n\n<https://youtu.be/CFW80-O1YAE>\n\nRepo: <https://github.com/laminlabs/lamindb>\n\nPost: <https://blog.lamin.ai/lamin>",
+      "url": "https://www.ycombinator.com/launches/WI0-lamin-open-data-platform-for-science",
+      "votes": 4,
+      "created_at": "2026-10-22T15:28:46.644Z"
+    }
+  ]
+}

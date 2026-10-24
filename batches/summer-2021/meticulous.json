@@ -1,0 +1,131 @@
+{
+  "id": 24508,
+  "name": "Meticulous",
+  "slug": "meticulous",
+  "former_names": [],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/4ce6aef4dc5475edfb21a97203439220a785f2b5.png",
+  "website": "https://www.meticulous.ai",
+  "all_locations": "London, England, United Kingdom",
+  "long_description": "Meticulous is a tool to automatically catch UI bugs in your web application with zero-effort. Install our JavaScript snippet onto production or staging and dev environments, which records user sessions by collecting clickstream and network data. When you post a pull request, Meticulous selects a subset of sessions which are relevant and simulates these against the frontend of your application. Meticulous takes screenshots at key points and detects any visual differences. It posts those diffs in a comment for you to inspect in a few seconds. \r\n\r\nThis eliminates the setup and maintenance burden of UI testing. ",
+  "one_liner": "Automated e2e screenshot testing without writing or maintaining tests",
+  "team_size": 15,
+  "industry": "B2B",
+  "subindustry": "B2B -> Engineering, Product and Design",
+  "launched_at": 1626192599,
+  "tags": [
+    "Developer Tools",
+    "Hard Tech",
+    "SaaS"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": true,
+  "nonprofit": false,
+  "batch": "Summer 2021",
+  "status": "Active",
+  "industries": [
+    "B2B",
+    "Engineering, Product and Design"
+  ],
+  "regions": [
+    "United Kingdom",
+    "Europe"
+  ],
+  "stage": "Growth",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/meticulous",
+  "api": "https://devasheeshg.github.io/yc-api/batches/summer-2021/meticulous.json",
+  "year_founded": 2021,
+  "city": "London",
+  "country": "GB",
+  "linkedin_url": "",
+  "x_url": "https://twitter.com/meticulousgabe",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/4ce6aef4dc5475edfb21a97203439220a785f2b5.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Jared Friedman",
+    "url": "https://www.ycombinator.com/people/jared-friedman"
+  },
+  "founders": [
+    {
+      "user_id": 155134,
+      "full_name": "Gabriel Spencer-Harper",
+      "title": "Founder",
+      "founder_bio": "Working on software to catch bugs in web applications with zero-effort from developers. \n\nI used to be a software engineer at Opendoor and Dropbox.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/gabrielsharper",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/21c231501ab487aeebd423be36b5cc509779ee42.jpg"
+    }
+  ],
+  "jobs": [
+    {
+      "id": 76182,
+      "title": "Software Engineer",
+      "url": "https://www.ycombinator.com/companies/meticulous/jobs/rCpqot1-software-engineer",
+      "location": "London, England, GB",
+      "type": "Full-time",
+      "role": "Engineering",
+      "role_type": "Full stack",
+      "salary_range": "£150K - £300K GBP",
+      "equity_range": "",
+      "experience": "3+ years",
+      "visa": "US citizenship/visa not required",
+      "skills": []
+    },
+    {
+      "id": 84407,
+      "title": "Founding Account Executive",
+      "url": "https://www.ycombinator.com/companies/meticulous/jobs/sbhnrba-founding-account-executive",
+      "location": "San Francisco",
+      "type": "Full-time",
+      "role": "Operations",
+      "role_type": null,
+      "salary_range": "$280K - $400K",
+      "equity_range": "",
+      "experience": "3+ years",
+      "visa": "US citizen/visa only",
+      "skills": []
+    },
+    {
+      "id": 103470,
+      "title": "GTM Operator",
+      "url": "https://www.ycombinator.com/companies/meticulous/jobs/z7lJd1E-gtm-operator",
+      "location": "London / San Francisco",
+      "type": "Full-time",
+      "role": "Operations",
+      "role_type": null,
+      "salary_range": "£60K - £120K GBP",
+      "equity_range": "",
+      "experience": "Any (new grads ok)",
+      "visa": "US citizen/visa only",
+      "skills": []
+    }
+  ],
+  "news": [
+    {
+      "title": "The ex-Palantir and Dropbox duo helping the likes of ElevenLabs, Notion and Wiz ship AI-generated code faster | Sifted",
+      "url": "https://sifted.eu/articles/ex-palantir-dropbox-elevenlabs-notion-wiz-ship-ai-generated-code",
+      "date": "Jul 22, 2026"
+    }
+  ],
+  "launches": [
+    {
+      "id": 64757,
+      "title": "Meticulous: The easiest way to write end-to-end tests",
+      "tagline": "Create end-to-end tests without writing (or maintaining) code",
+      "body": "Hey there!\n\nI'm Gabe and I'm super excited to share [Meticulous](https://meticulous.ai/) with you today, the easiest way to create end-to-end tests, without writing (or maintaining) any code.\n\nWhat is Meticulous?\n\nMeticulous is a CLI tool with ‘record’, ‘simulate’ and ‘test’ commands. The record command opens an instrumented browser which records your actions as you interact with your web application. Watch the record command below:\n\n![uploaded image](/media/?type=post&id=64757&key=user_uploads/155134/7b3e6754-07fe-424f-9896-1ba0b78f513a)\n\nThe simulate command re-executes the recorded sequence of actions on a URL of your choice, like localhost . A test consists of a recording ID (which identifies the recording to simulate on the new version of code) and a simulation ID. Tests are defined and maintained in a meticulous.json file. Meticulous takes a visual snapshot at the end of each simulation and a test fails if there is a discrepancy between the two snapshots.\n\n![uploaded image](/media/?type=post&id=64757&key=user_uploads/155134/cda27a4d-831e-4a25-b884-20583a4832f2)\n\nWatch the test command in action below:\n\n![uploaded image](/media/?type=post&id=64757&key=user_uploads/155134/484ba0aa-628b-4885-a341-f55e4a2daf2b)\n\n### What about flows that mutate state?\n\nImagine a test that simulates a user signing up to your application. You can't sign up twice with the same email address. Traditionally you have two options: 1) Write a mock for the network call 2) Introduce a mechanism for resetting state after each test execution. Meticulous solves this problem by providing an option to automatically mock out all network calls, eliminating the need for either of these approaches. This option should be used if you wish to isolate the frontend.\n\n### How can I try this?\n\nSign up [here](https://app.meticulous.ai/) and try out the product (no credit card required), or check out the [docs](https://docs.meticulous.ai) here.\n\nOn a related note, I started offering testing office hours to YC founders. I’d be happy to help you out, even if you’re not a YC founder and it's just to strategize around your testing strategy. Just email [gabe](mailto:gabe@meticulous.ai) with the title ‘Testing office hours request’.",
+      "url": "https://www.ycombinator.com/launches/GqT-meticulous-the-easiest-way-to-write-end-to-end-tests",
+      "votes": 42,
+      "created_at": "2022-07-20T12:56:06.488Z"
+    }
+  ]
+}

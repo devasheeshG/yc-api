@@ -1,0 +1,92 @@
+{
+  "id": 24507,
+  "name": "Warrant",
+  "slug": "warrant",
+  "former_names": [],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/0463ea40224ab10e82c931c492806150172da7a0.png",
+  "website": "https://warrant.dev/",
+  "all_locations": "Los Angeles, CA, USA; San Francisco, CA, USA; Remote",
+  "long_description": "Warrant is an open source authorization service that helps developers implement and enforce access control in their applications. Warrant serves as a dedicated, centralized platform for handling user authorization and access control so engineering teams can focus on building their core products.",
+  "one_liner": "Authorization and access control as a service.",
+  "team_size": 3,
+  "industry": "B2B",
+  "subindustry": "B2B -> Infrastructure",
+  "launched_at": 1625099356,
+  "tags": [
+    "Developer Tools",
+    "B2B",
+    "Open Source",
+    "API"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Summer 2021",
+  "status": "Acquired",
+  "industries": [
+    "B2B",
+    "Infrastructure"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada",
+    "Remote",
+    "Fully Remote"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/warrant",
+  "api": "https://devasheeshg.github.io/yc-api/batches/summer-2021/warrant.json",
+  "year_founded": 2021,
+  "city": "Los Angeles",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/warrant-dev",
+  "x_url": "https://twitter.com/warrant_dev",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": "https://github.com/warrant-dev",
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/0463ea40224ab10e82c931c492806150172da7a0.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": null,
+  "founders": [
+    {
+      "user_id": 171102,
+      "full_name": "Aditya Kajla",
+      "title": "Founder",
+      "founder_bio": "Co-Founder at Radial (https://radialhq.ai/)\n\nPreviously co-founded Warrant (S21, acquired by WorkOS). Before that, built products & software infrastructure at Lyft, Medallia and Yahoo.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/akajla",
+      "x_url": "https://twitter.com/akajla09",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/396bf0a1a91e38b66348cf09cd25cb8cd77425d3.jpg"
+    },
+    {
+      "user_id": 234741,
+      "full_name": "Karan Kajla",
+      "title": "Founder",
+      "founder_bio": "Co-founder at Radial. Previously co-founder at Warrant (S21), acq. by WorkOS. Prior to that built product and analytics platforms at AppLovin & AppFolio. Tennis player, music producer, and guitar enthusiast.",
+      "is_active": true,
+      "linkedin_url": "https://linkedin.com/in/kkajla/",
+      "x_url": "https://twitter.com/KaranKajla",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/cf3960f98780b1748c5eb672c9eba95b9aeccf1e.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 70447,
+      "title": "Warrant - Open source application authorization and access control",
+      "tagline": "Build compliant, auditable, production-ready permissions, role based access control, and more in minutes instead of months.",
+      "body": "![uploaded image](/media/?type=post&id=70447&key=user_uploads/234741/7662bcdc-8497-4a8c-a0c6-428ddc3bffe0)\n\nHey everyone! We’re Aditya and Karan! 👋\n\nWarrant is an open source **authorization service** that **helps developers implement and enforce secure, compliant access control in their applications.** It abstracts away the complexity of building application authorization and access control so developers can instead focus on building core product features.\n\nOur cloud-first, API-first approach has enabled us to build a highly-scalable and performant service that now processes millions of customer API calls per month. Today, we’re excited to announce that Warrant is officially [open source](https://github.com/warrant-dev/warrant)! ⭐️\n\n### The Problem\n\nDevelopers, we’ve all been there. What started as a simple _isAdmin_ flag to distinguish between internal and external users — just so you could release that _one_ internal-only feature — has grown into a nightmare to maintain. It’s now a hodgepodge of booleans, database flags, and a halfway built role based access control system that not only slows down your team’s day-to-day development velocity, but also opens up your company to a slew of [costly security vulnerabilities waiting to be exploited](https://www.hackerone.com/press-release/organizations-paid-hackers-235-million-these-10-vulnerabilities-one-year-4).\n\n![uploaded image](/media/?type=post&id=70447&key=user_uploads/234741/60544231-1dac-4013-8872-c97b83878da3)\n\nWhat’s more? Your customers are now requesting the ability to self-manage their team’s roles and permissions, so you’ll be spending another 1-2 months building the APIs, UIs, etc. for this risky, non-differentiating feature.\n\nIn short, application authorization and access control is difficult to build and even trickier to maintain as a company’s product evolves and its needs change.\n\n### The Solution\n\nTo help developers quickly build world-class access control, Warrant provides three things:\\\n(1) **A centralized datastore for storing your application’s authorization policies and related data.** Warrant’s management dashboard and APIs make it dead-simple to safely modify authorization policies globally or for a single user or tenant in real-time. With Warrant, updating policies for all users as your product changes becomes a breeze.\n\n(2) **A real-time, low latency access control service for enforcing authorization policies in your application at runtime.** With official Warrant SDKs available for the most popular server-side languages and frontend frameworks, checking if a user has access becomes as easy as a call to Warrant’s _check_ method.\n\n(3) **A library of thoughtfully designed, authorization-specific UI components** that help with building self-service permission management flows, granting/denying access to privileged pages/UIs, displaying audit logs to users, and more. These components are **customizable and _permission-aware_**, so developers can drop them into any application.\n\n### What’s Next?\n\nJoin us on our journey to solve authorization and access control for all developers:\n\n* Give us a 🌟 [on GitHub](https://github.com/warrant-dev/warrant) and tell us what you’d like us to build next\n* Give us a follow [on Twitter](https://twitter.com/warrant_dev) to keep up with the latest Warrant features\n* Come discuss everything authz/access control in our [Slack community](https://join.slack.com/t/warrantcommunity/shared_invite/zt-12g84updv-5l1pktJf2bI5WIKN4_\\~f4w)\n* Try out our managed cloud service, [Warrant Cloud](https://app.warrant.dev/signup)",
+      "url": "https://www.ycombinator.com/launches/IKF-warrant-open-source-application-authorization-and-access-control",
+      "votes": 25,
+      "created_at": "2023-03-21T14:59:40.890Z"
+    }
+  ]
+}

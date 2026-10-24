@@ -1,0 +1,89 @@
+{
+  "id": 29728,
+  "name": "expand.ai",
+  "slug": "expand-ai",
+  "former_names": [
+    "ExpandAI"
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/cbb3378711a3516d3cc0bdd3c41a57f151832b9b.png",
+  "website": "https://expand.ai/",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "Let your agent fetch and crawl with SOTA extraction.",
+  "one_liner": "Lossless web data.",
+  "team_size": 3,
+  "industry": "B2B",
+  "subindustry": "B2B",
+  "launched_at": 1725734595,
+  "tags": [
+    "Developer Tools",
+    "Infrastructure"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Summer 2024",
+  "status": "Active",
+  "industries": [
+    "B2B"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": [
+    {
+      "question": "How did your company get started? (i.e., How did the founders meet? How did you come up with the idea? How did you decide to be a founder?)",
+      "answer": "Tim has been working on developer tools for the last 8 years, being founding engineer at [Prisma](https://prisma.io/) and then founding [Stellate](https://stellate.co/).When building AI apps, he found that oftentimes getting the right data was the blocker to get started with the project.That’s why he’s building [expand.ai](http://expand.ai) - to enable anyone to use the web as a data source to power their AI apps."
+    }
+  ],
+  "url": "https://www.ycombinator.com/companies/expand-ai",
+  "api": "https://devasheeshg.github.io/yc-api/batches/summer-2024/expand-ai.json",
+  "year_founded": 2024,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/use-expand-ai/",
+  "x_url": "https://x.com/getexpandai",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": "https://github.com/expandai",
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/cbb3378711a3516d3cc0bdd3c41a57f151832b9b.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [
+    "https://bookface-images.s3.us-west-2.amazonaws.com/attachments/3d23be7a597aa6e4551e86d055ffdc34068fa564.png"
+  ],
+  "primary_partner": {
+    "name": "Nicolas Dessaigne",
+    "url": "https://www.ycombinator.com/people/nicolas-dessaigne"
+  },
+  "founders": [
+    {
+      "user_id": 12878,
+      "full_name": "Tim Suchanek",
+      "title": "Founder/CEO",
+      "founder_bio": "Founder expand.ai",
+      "is_active": true,
+      "linkedin_url": "https://linkedin.com/in/tim-suchanek-08219346",
+      "x_url": "https://twitter.com/timsuchanek",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/979e8c187da289c0e6acea569cad855a4e310b8f.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 121522,
+      "title": "Expand Fetch: Reading glasses for your AI agent",
+      "tagline": "Send a URL. Get accurate Markdown, the hidden JSON and a snapshot you can cite.",
+      "body": "Hi everyone! 👋 I'm Tim, founder of Expand, and today we're launching Expand Fetch.\n\n**TL;DR:** Send a URL, get back Markdown written by Iris, our own vision model. It keeps the tables, icons and hidden JSON other tools drop, and every line links back to where it came from. On our benchmark, agents answer 74% of questions from our Markdown. The next best API gets 55%. Live today, $1 per 1,000 fetches.\n\n<https://youtu.be/qQCqpShmrLA>\n\n## **🚨 The problem**\n\nYour agent has an IQ of 500, but fails at basic questions about the web.\n\nWeb Markdown APIs drop icons, break tables and miss the JSON in the page. So your agent answers wrong, with confidence. And you can't tell whether the page didn't load or the conversion dropped it. The workaround is a full browser per page, which is slow and expensive.\n\nWe tried fixing it with heuristics. It's whack-a-mole. The rule that drops a footer deletes a company's address on one page and ships 100,000+ tokens of trash on the next.\n\n## **🚀 Expand Fetch**\n\nOne API call gets you:\n\n* **👁️ Iris:** our vision model sees the rendered page and writes frontier quality Markdown. Tables stay tables. Navigation and footers go to an appendix.\n* **🩻 X-Ray:** finds the useful JSON hidden in the page, like coordinates or flight gates.\n* **🕰️ Wayback Machine:** every fetch is a snapshot you own. Every line links back to its spot on the page.\n* **🔦 Highlights:** ask a question, get only the passages that answer it. Over 95% fewer tokens.\n\nPlus **Crawl** for whole sites and **WebSync** to follow every change.\n\n![uploaded image](/media/?type=post&id=121522&key=user_uploads/12878/bc51849e-4cb3-44e4-9301-fecce93b599f)\n\nOr paste this into your coding agent and it sets itself up:\n\n> Set up <https://expand.ai/start.md>\n\n## **📊 Benchmarks**\n\nExisting Markdown benchmarks assume a page has one main content, like reader mode. The web doesn't work like that. Iris sorts every element into preserve, prune or appendix, and on our validation set it beats Jev on F1, 92.7% to 69.6%.\n\n![uploaded image](/media/?type=post&id=121522&key=user_uploads/12878/b146a886-44d4-45de-bf32-953958a5360c)\n\nThen the test that matters. We built MDBench with our customers: 1,094 questions on 326 hard pages. Expand is also the only API we tested that returns the hidden JSON.\n\n![uploaded image](/media/?type=post&id=121522&key=user_uploads/12878/100dfebd-bfad-4abd-96cb-a4d5afb61b24)\n\n## **👶 About us**\n\nExpand is an applied research lab. We want to make the web queryable like a database, and found we first need to see it. Iris took us a year of sweat and tears. I've spent 10 years in developer tools, as founding engineer at Prisma and founder of Stellate.\n\n## **📢 Ask**\n\nIf you, or anyone you know, has struggled with the quality of web data, including for your own agents, please reach out at [tim@expand.ai](mailto:tim@expand.ai). Send me a page your agent gets wrong, and I'll show you what Expand returns.\n\nTry it at [expand.ai](http://expand.ai) with $10 in free credits, or [join the waitlist](https://expand.ai/blog/announcing-expand-fetch#waitlist) if you want to query the web like a database.",
+      "url": "https://www.ycombinator.com/launches/Vc2-expand-fetch-reading-glasses-for-your-ai-agent",
+      "votes": 4,
+      "created_at": "2026-10-12T00:25:58.796Z"
+    }
+  ]
+}

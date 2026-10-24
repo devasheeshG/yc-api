@@ -1,0 +1,91 @@
+{
+  "id": 35290,
+  "name": "Antropi Robotics",
+  "slug": "antropi-robotics",
+  "former_names": [],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/b8c101f20a3b29a6ae368d81297168e49391e75a.png",
+  "website": "https://www.antropi.world/",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "",
+  "one_liner": "Autonomous CNC factories for faster hardware",
+  "team_size": 0,
+  "industry": "Industrials",
+  "subindustry": "Industrials -> Manufacturing and Robotics",
+  "launched_at": 1786284917,
+  "tags": [
+    "Robotics",
+    "Manufacturing"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Fall 2026",
+  "status": "Active",
+  "industries": [
+    "Industrials",
+    "Manufacturing and Robotics"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/antropi-robotics",
+  "api": "https://devasheeshg.github.io/yc-api/batches/fall-2026/antropi-robotics.json",
+  "year_founded": null,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/antropi-robotics/",
+  "x_url": "",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/b8c101f20a3b29a6ae368d81297168e49391e75a.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Nicolas Dessaigne",
+    "url": "https://www.ycombinator.com/people/nicolas-dessaigne"
+  },
+  "founders": [
+    {
+      "user_id": 2771579,
+      "full_name": "Naman Gupta",
+      "title": "Founder/CEO",
+      "founder_bio": "Founder at Antropi Robotics.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/namangupta24/",
+      "x_url": "https://x.com/namaangupta",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/198dcb03b52084327028f3f0ed3bbe71ee8f2090.jpg"
+    },
+    {
+      "user_id": 2771603,
+      "full_name": "Shubh Agarwal",
+      "title": "Founder/CTO",
+      "founder_bio": "Founder at Antropi Robotics.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/shubhagarwal566/",
+      "x_url": "https://x.com/Shubh__Agarwal_",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/595067adc4990aba2aa8149c62d3b0ae87788190.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 123265,
+      "title": "Antropi Robotics | CNC parts in days, from autnomous factories",
+      "tagline": "Turning your designs into precision metal parts in days",
+      "body": "👋 **Hey Everyone!** I’m Naman. My best friend Shubh and I are building **Antropi Robotics**.\n\n**We make inspected CNC parts for hardware teams.** Our first factory is live and already shipping parts to customers with **lead times under 7 days**.\n\n**Our goal:** a network of autonomous factories across the US, making and delivering parts locally in as little as 24 hours.\n\n<https://www.youtube.com/watch?v=V4Ll5DZSP0I>\n\n## ⚙️ Problem\n\nBefore starting Antropi, I spent six months running my dad’s CNC machining business in India. The biggest lesson was simple: **automating the machine is not the same as automating the factory.**\n\nA CNC machine can cut automatically. But someone still has to plan the job, load the machine, inspect the part, and decide what to do when something goes wrong.\n\nFor hardware teams, this becomes a familiar cycle. Prepare drawings. Request quotes. Go back and forth on manufacturing details. Wait for a production slot. Wait for the parts.\n\n**Every week spent waiting is a design iteration you don’t get before your next demo.**\n\nAdding a robot to load the machine fixes one step. It does not tell the factory whether the part is correct, or what should happen next.\n\n## 🤖 Solution\n\nWe’re building **dark factories: autonomous factories designed to run 24/7.** Our Factory OS connects job planning, CNC machines, robots, and inspection into one system.\n\nSoftware turns CAD into machining programs and checks them in simulation, with an engineer approving them before production.\n\nRobots load and unload. Machines cut. **Every part is inspected.**\n\nInspection feeds back into production, so the system can make supported corrections or stop the machine before a problem repeats.\n\n![uploaded image](/media/?type=post&id=123265&key=user_uploads/2771579/275935ea-e97d-40e7-b0fa-cc9d04977486)\n\nFor you, it’s simple: upload your CAD, confirm your requirements, and receive inspected parts with an inspection report.\n\n**You buy parts. We handle the factory.**\n\nWe’re also building agent ordering through our MCP server and a **Rush option** for priority production.\n\n![uploaded image](/media/?type=post&id=123265&key=user_uploads/2771579/c7d0124b-0e12-4a10-b4ca-322ecac60205)\n\n\n## 🌎 Vision\n\n**One factory is the start. The network is the point.**\n\nOur long-term plan is hundreds, eventually thousands, of microfactories across the US, close to the teams building hardware. The same Factory OS will coordinate production across the network.\n\nAutonomy removes waiting inside the factory. Local production puts the finished part closer to you.\n\nThe target: **American-made precision at China-competitive prices**, with local delivery in as little as 24 hours for supported parts.\n\nShenzhen-like speed, without needing to build in Shenzhen.\n\n![uploaded image](/media/?type=post&id=123265&key=user_uploads/2771579/e012541d-ba88-4809-9423-a1935c878aec)\n\n\n## 🛠️ We’ve spent nine years getting hardware built.\n\nShubh and I met in college in 2017. We both studied computer science, built Mars rovers together, and competed internationally. We also spent plenty of days in CNC shops waiting for parts.\n\nBefore running my dad’s business, I was the first employee and Chief of Staff at Accio Robotics, a warehouse automation company in India, participating in its journey from the first product through scaling and acquisition.\n\nShubh completed his Master’s in Robotics at the University of Pennsylvania, working with robotic manipulators. After his master’s, we started Antropi.\n\nWe have experienced this problem as the people waiting for parts and as the people responsible for making them.\n\n**Now we’re building the factories we wish we’d had.**\n\n## 🙌 Ask\n\n**Need CNC parts?** Send us your most challenging part and we’ll get it done. \n\n👉 [www.antropi.shop](http://antropi.shop)\n\n**Know a team scaling production?** We’d appreciate introductions to hardware or procurement teams at Series B+ companies in computing infrastructure, robotics, medical devices, and energy.\n\nWe’re happy to start with one part and earn the next order.\n\n**Naman &amp; Shubh**\n\nAntropi Robotics",
+      "url": "https://www.ycombinator.com/launches/W49-antropi-robotics-cnc-parts-in-days-from-autnomous-factories",
+      "votes": 6,
+      "created_at": "2026-10-19T18:00:00.087Z"
+    }
+  ]
+}

@@ -1,0 +1,111 @@
+{
+  "id": 25831,
+  "name": "mutable.ai",
+  "slug": "mutable-ai",
+  "former_names": [
+    "MetaMagic",
+    "MutableAI",
+    "mutble.ai"
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/5e9d67f4f9b4fe022f90fe7c836e1fa021382d31.png",
+  "website": "https://mutable.ai",
+  "all_locations": "San Francisco, CA, USA; Pittsburgh, PA, USA; Remote",
+  "long_description": "Mutable.ai is automating corporations starting by automating software and software understanding. Our product auto wiki (https://wiki.mutable.ai/kubernetes/kubernetes, https://twitter.com/mutableai/status/1744426997575553413) turns code into wikipedia style articles with citations to the code is the best way to understand complex technologies",
+  "one_liner": "Artificially Intelligent Corporations",
+  "team_size": 7,
+  "industry": "B2B",
+  "subindustry": "B2B",
+  "launched_at": 1645727988,
+  "tags": [
+    "Developer Tools",
+    "Productivity",
+    "AI"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Winter 2022",
+  "status": "Acquired",
+  "industries": [
+    "B2B"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada",
+    "Remote",
+    "Fully Remote"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/mutable-ai",
+  "api": "https://devasheeshg.github.io/yc-api/batches/winter-2022/mutable-ai.json",
+  "year_founded": 2021,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/mutableai/",
+  "x_url": "https://twitter.com/mutableai",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/5e9d67f4f9b4fe022f90fe7c836e1fa021382d31.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": null,
+  "founders": [
+    {
+      "user_id": 904867,
+      "full_name": "Omar Shams",
+      "title": "Founder",
+      "founder_bio": "Omar is the founder of Mutable.ai. He was a researcher at DeepMind, publishing on Reinforcement Learning & GraphNets in NeurIPS. Omar was also part of a small team that developed a music recommender, which tied with Amazon Music in a live bake-off, and he has three patents in the recommender space. In a previous life, Omar was a theoretical physicist working on black holes and particle physics.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/omar-s-baa4ba61/",
+      "x_url": "https://x.com/smahsramo",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/e24085d979bb7d41437562186028f4ce77854b03.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 82174,
+      "title": "Mutable.ai: A living expert on your codebase",
+      "tagline": "A living expert on your repo with full awareness of your codebase",
+      "body": "# Mutable ai is a living expert on your repo with full awareness of your codebase\n\nWe created an AI expert on your codebase with _infinite effective context length_ by creating an always up-to-date wiki on your codebase (language models are really good at using language to navigate codebases it turns out!)\n\nSee the chat in action on [ollama](https://wiki.mutable.ai/ollama/ollama):\n\n![uploaded image](/media/?type=post&id=82174&key=user_uploads/904867/ac16cfe8-73d9-45ea-93b4-bc0666ee73a7)\n\nThe wikis have citations to your code, code diagrams, ability to revise it with AI, and it’s always up to date. Here is an [example](https://wiki.mutable.ai/ollama/ollama):\n\n![uploaded image](/media/?type=post&id=82174&key=user_uploads/904867/2dab2550-772e-4987-bd8d-95aa105bfb1d)\n\nPR bot that summarizes changes to the wiki with a nice diff view:\n\n![uploaded image](/media/?type=post&id=82174&key=user_uploads/904867/73d44099-d131-494a-9420-3a1a9ebf213b)\n\n![uploaded image](/media/?type=post&id=82174&key=user_uploads/904867/6de4274c-3880-457d-83a2-431cfc99ffca)\n\n",
+      "url": "https://www.ycombinator.com/launches/LNO-mutable-ai-a-living-expert-on-your-codebase",
+      "votes": 6,
+      "created_at": "2024-07-16T16:57:06.712Z"
+    },
+    {
+      "id": 80195,
+      "title": "Auto Wiki v2 by Mutable.ai: Convert your codebase into a wiki style article now with diagrams",
+      "tagline": "Now featuring code diagrams and the ability to use AI to revise your wiki.",
+      "body": "[Mutable.ai](http://Mutable.ai) is excited to introduce Auto Wiki v2! Our technology transforms your codebase into Wikipedia-style articles. Now featuring code diagrams and the ability to use AI to revise your wiki, it’s our favorite way to learn about new codebases and maintain up-to-date documentation.\\\n\\\nCheck out our release video for more information: <https://www.youtube.com/watch?v=HiP563Q9Sws>\n\nGetting started is easy: simply visit [wiki.mutable.ai](http://wiki.mutable.ai/), pick the repo you are interested in, and let our AI take care of the rest. Our new basic tier costs just $2/repo/month, and for a limited time, you can use the coupon code XDOTCOM to generate them for $1/mo.\n\nWe made a number of improvements with your feedback in mind, including:\n\n* Code diagrams generated in Mermaid\n* Filter and search for your wiki\n* AI revision with instruction\n* Manual edits to revise wikis\n* Better underlying model\n* Private repo support that follows the permissions of the repo\n* Wiki is updated automatically every month and with each commit with our upcoming PR bot.\n\nPlease note you will only be able to edit a wiki if you’re a contributor or sponsor of a repo.\n\nThank you!\n\nPS Here are some more example v2 wikis:\n\n<https://wiki.mutable.ai/princeton-nlp/SWE-agent>\n\n<https://wiki.mutable.ai/bitcoin/bitcoin>\n\n<https://wiki.mutable.ai/karpathy/llm.c>\n\n<https://wiki.mutable.ai/openai/transformer-debugger>\n\n<https://wiki.mutable.ai/tensorflow/tensorflow>\n\n<https://wiki.mutable.ai/Significant-Gravitas/AutoGPT>",
+      "url": "https://www.ycombinator.com/launches/KrT-auto-wiki-v2-by-mutable-ai-convert-your-codebase-into-a-wiki-style-article-now-with-diagrams",
+      "votes": 7,
+      "created_at": "2024-04-15T22:02:03.263Z"
+    },
+    {
+      "id": 77591,
+      "title": "Auto Wiki: Turn your repo into a wiki with AI",
+      "tagline": "Auto Wiki generates a wiki style website based on your repo",
+      "body": "Mutable.ai is proud to introduce Auto Wiki, which lets you generate a Wiki-style website to document your codebase. Citations link to code, with clickable references to each line of code being discussed. Here are some examples of popular projects: \\\n\\\nReact: <https://wiki.mutable.ai/facebook/react>\\\nOllama: <https://wiki.mutable.ai/jmorganca/ollama>\\\nKubernetes: <https://wiki.mutable.ai/kubernetes/kubernetes>\\\nD3: <https://wiki.mutable.ai/d3/d3>\\\nBitcoin: <https://wiki.mutable.ai/bitcoin/bitcoin>\\\nTerraform: <https://wiki.mutable.ai/bitcoin/bitcoin>\n\n![uploaded image](/media/?type=post&id=77591&key=user_uploads/904867/af4c7637-aa61-4979-97ee-35370632ed8a)\n\nAuto Wiki makes it easy to see at a high level what a codebase is doing and how the work is divided. In some cases, we’ve identified entire obsolete sections of codebases by seeing a section for code that was no longer important. Auto Wiki relies on our citations system which cuts back on hallucinations. The citations link to a precise reference or definition, meaning the wiki generation is grounded on the basis of the code being cited rather than free-form generation. \n\n[ ](https://www.youtube.com/watch?v=HiP563Q9Sws])\n\\\nWe're running Auto Wiki on the most popular 1,000 repos on GitHub. If you want us to generate a wiki of a public repo for you, send us a note at [info@mutable.ai.](mailto:info@mutable.ai) The wikis take time to generate as we are still ramping up our capacity, but we’ll reply that we’ve launched the process and then come back with a link to your wiki when it’s ready. \\\n\\\nFor private repos, you can use [wiki.mutable.ai](http://wiki.mutable.ai) to generate them simply by signing in, authorizing the repo, and paying for generation. We also offer private deployments with our model for enterprise customers; ping us at [info@mutable.ai](mailto:info@mutable.ai). \\\n\\\nAnyone who already has access to a repo through GitHub will be able to view the wiki, only the person generating the wikis needs to pay to create them. Pricing starts at $4 and ramps up by $2 increments depending on how large your repo is. In an upcoming version of Auto Wiki, we’ll include other sources of information relevant to your code and generate architectural diagrams. Please check out Auto Wiki and let us know your thoughts! Thank you!",
+      "url": "https://www.ycombinator.com/launches/KBT-auto-wiki-turn-your-repo-into-a-wiki-with-ai",
+      "votes": 6,
+      "created_at": "2024-01-18T18:58:45.562Z"
+    },
+    {
+      "id": 73630,
+      "title": "Mutable.ai: The AI-powered platform for software teams",
+      "tagline": "Build and understand software using just English",
+      "body": "Introducing [app.mutable.ai](http://app.mutable.ai) for codebases. We help you develop software by using (1) AI codegen to create features, (2) AI enhanced explanation and search, (3) Suggest improvements to your code, (4) Seamlessly switch from your laptop to the cloud and back with our cli tool.\n\nComing soon: auto standup, auto bug identification, auto wiki creation, and a revamped VS Code extension + a new Jetbrains extension.\n\n[ ](https://youtu.be/SdAteyB4-Uw)",
+      "url": "https://www.ycombinator.com/launches/J9a-mutable-ai-the-ai-powered-platform-for-software-teams",
+      "votes": 10,
+      "created_at": "2023-08-01T01:31:03.790Z"
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "id": 31284,
+  "name": "Origami Robotics",
+  "slug": "origami-robotics",
+  "former_names": [],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/483745ec0ce0b61b675293fca49bf8749c113c1d.png",
+  "website": "https://www.origami-robotics.com",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "We are building a \"manipulate anything\" model with the robot hardware that embodies it. We designed a hand-based data-collection device and a high DOF, direct drive robotic hand that match each other exactly, enabling us to eliminate embodiment gap and collect real-world data and deploy it directly. We want to scale real world manipulation data by deploying our devices \"in the wild\" like manufacturing factories, logistic centers to collect Tesla like data, use these data to train our model and then provide automation solutions to these industries.",
+  "one_liner": "Manipulate Anything Robot",
+  "team_size": 5,
+  "industry": "Industrials",
+  "subindustry": "Industrials",
+  "launched_at": 1770611317,
+  "tags": [],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Winter 2026",
+  "status": "Active",
+  "industries": [
+    "Industrials"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/origami-robotics",
+  "api": "https://devasheeshg.github.io/yc-api/batches/winter-2026/origami-robotics.json",
+  "year_founded": 2026,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/origami-robotics-inc",
+  "x_url": "",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/483745ec0ce0b61b675293fca49bf8749c113c1d.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [
+    "https://bookface-images.s3.us-west-2.amazonaws.com/attachments/6764d2f825d2e2985e0d2dced9cc05f29cd656be.png"
+  ],
+  "primary_partner": {
+    "name": "Ankit Gupta",
+    "url": "https://www.ycombinator.com/people/ankit-gupta"
+  },
+  "founders": [
+    {
+      "user_id": 411575,
+      "full_name": "Quanting(Daniel) xie",
+      "title": "Co-founder",
+      "founder_bio": "Roboticist (CMU RI); Building manipulate anything model",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/quanting-xie/",
+      "x_url": "https://x.com/DanielXieee",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/97aff2005fe2b9ab948aa971ee88ab60d399530d.jpg"
+    },
+    {
+      "user_id": 1760667,
+      "full_name": "Ryan Xie",
+      "title": "Founder/COO",
+      "founder_bio": "Serial hardware company founder. Working on something in physical AI space now",
+      "is_active": true,
+      "linkedin_url": "https://linkedin.com/in/quanliang-ryan-xie",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/9997dfd0459dc3de14e8a7179a6f4e08e72fbd4c.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 98503,
+      "title": "Origami Robotics: Make AI to Learn Physical Skills Easier than Ever",
+      "tagline": "Robotic hand and Data Collection Device Designed for Robot Learning",
+      "body": "![uploaded image](/media/?type=post&id=98503&key=user_uploads/1760667/cab991fb-9782-494c-ac5d-e8c4d6263e58)\n\n## **TL;DR**\n\nOrigami Robotics builds **high-DOF hand with in-joint motors** and co-designed data-collection glove that matches each other exactly. This eliminates embodiment gap, enabling us to collect real-world data and deploy it directly to the hardware.\n\nWe already sold our hands to Physical AI Labs like Amazon to push frontier of general manipulation further.\n\nVideo: <https://youtu.be/S8D1kfZfutI>\n\nHi, We are Daniel and Ryan.\n\nDuring Daniel’s Phd’s period when he studied robot manipulation in CMU Robotics Institute, he has been kept run into the same wall. There are no existing robotic hand that is truly designed for learning, and a severe lack of high-quality manipulation data. The large transmission(Checkout Daniel’s [Dexterity Deadlocks](https://www.origami-robotics.com/blog/dexterity-deadlocks.html) Blog) often found in current robotic hands making dynamics of the hand extremely hard to model. And the embodiment gap(different kinematics, contacts, and sensing of the robotic and human hand) make the distribution of the data collected for training and real world deploying too large for any policy to pick up skills and do real useful tasks.\n\nTo solve this, Daniel teamed up with his brother Ryan, a fellow robot enthusiast and serial robotics entrepreneur. Together, Origami decided to build our own robotic hardware and find a way to scale up high-quality robotic data. By optimizing miniature motor design and co-designing our data-collection glove alongside our robotic hand, We minimized sim-real and embodiment gap that has been haunting the robotic research community. Now, we can scale up high-quality data collection for dexterous, real-world tasks.\n\nWith Origami Robotics’s Hand, you can enjoy the benefits of easily transferring learned skills from simulation to real-world scenarios. You can also leverage the thousands of hours of minimum-embodiment real data we’ve collected to train the exact manipulation policies you need.\n\n**Let’s fold some origamis and a better future together!**\n\n## **ASK**\n\nPlease like and share this post with anyone you think we should connect with, whether they are a robotics researcher or an industry professional looking for automation solutions. We would love to talk!\n\nEmail: founders@origami-robotics.com",
+      "url": "https://www.ycombinator.com/launches/Pcl-origami-robotics-make-ai-to-learn-physical-skills-easier-than-ever",
+      "votes": 17,
+      "created_at": "2026-03-05T19:50:14.928Z"
+    }
+  ]
+}

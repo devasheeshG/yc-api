@@ -1,0 +1,122 @@
+{
+  "id": 28070,
+  "name": "Clad",
+  "slug": "clad",
+  "former_names": [],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/5ab0e3d7b0de12617818a986b541a5e524c146ae.png",
+  "website": "https://withclad.com/",
+  "all_locations": "New York City, NY, USA",
+  "long_description": "Clad is project management and billing software for infrastructure.\r\n\r\nThe world is rebuilding its internet and power networks. The utilities, internet companies, and contractors tasked with this work face immense pressure to deliver.\r\n\r\nBut their tools haven’t caught up. Contractors struggle to grow, constrained by cashflow. Operators fly blind, lacking real time visibility into issues. \r\n\r\nClad unifies project operations and finance to automate project tracking, payments, and permitting.\r\n\r\nWith Clad, contractors grow faster and improve their margins. Operators execute smoothly. And everyone can focus on what’s most important - building.",
+  "one_liner": "Project management software for building infrastructure.",
+  "team_size": 7,
+  "industry": "Real Estate and Construction",
+  "subindustry": "Real Estate and Construction -> Construction",
+  "launched_at": 1672801770,
+  "tags": [
+    "Marketplace",
+    "SaaS",
+    "Construction",
+    "B2B",
+    "Collaboration"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": true,
+  "nonprofit": false,
+  "batch": "Winter 2023",
+  "status": "Active",
+  "industries": [
+    "Real Estate and Construction",
+    "Construction"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/clad",
+  "api": "https://devasheeshg.github.io/yc-api/batches/winter-2023/clad.json",
+  "year_founded": 2022,
+  "city": "New York City",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/withclad/",
+  "x_url": "",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/5ab0e3d7b0de12617818a986b541a5e524c146ae.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Jared Friedman",
+    "url": "https://www.ycombinator.com/people/jared-friedman"
+  },
+  "founders": [
+    {
+      "user_id": 448610,
+      "full_name": "Jason Rudin",
+      "title": "Founder",
+      "founder_bio": "Jason is the founder and CEO of Clad, project management and billing software for infrastructure. Prior to Clad, Jason was a Product Manager at Instagram and consultant at McKinsey. A New York - San Francisco boomerang, Jason loves a Broadway show just as much as a weekend in the woods.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/jasonrudin/",
+      "x_url": "https://twitter.com/jasonrudin",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/c7adb75cd4b5f53965e972f582139018100f49ff.jpg"
+    }
+  ],
+  "jobs": [
+    {
+      "id": 61046,
+      "title": "Software Engineer",
+      "url": "https://www.ycombinator.com/companies/clad/jobs/YHGyRSf-software-engineer",
+      "location": "New York, NY, US",
+      "type": "Full-time",
+      "role": "Engineering",
+      "role_type": "Full stack",
+      "salary_range": "$180K - $250K",
+      "equity_range": "0.25% - 0.80%",
+      "experience": "6+ years",
+      "visa": "US citizen/visa only",
+      "skills": []
+    },
+    {
+      "id": 94205,
+      "title": "Account Executive",
+      "url": "https://www.ycombinator.com/companies/clad/jobs/YsnUPA9-account-executive",
+      "location": "New York, NY, US",
+      "type": "Full-time",
+      "role": "Sales",
+      "role_type": null,
+      "salary_range": "$120K - $140K",
+      "equity_range": "",
+      "experience": "1+ years",
+      "visa": "US citizen/visa only",
+      "skills": []
+    }
+  ],
+  "news": [],
+  "launches": [
+    {
+      "id": 93588,
+      "title": "Clad Locates: AI for Infrastructure Contractors",
+      "tagline": "Clad Locates helps excavators submit and track 811 tickets.",
+      "body": "I’m excited to announce our newest product - [**Clad Locates**](https://www.withclad.com/locates/overview)\n\n**Clad Locates is an AI-assisted tool that helps contractors create and manage utility locate requests (811 tickets).** \n\nWe’re live in Alabama right now, and will expand to more states soon.\n\n### The Problem\n\nContractors dig all the time - to place internet cables, upgrade pipes, build fences, and more. \n\nBefore a contractor can begin excavating, they are required to call in a utility locate request. This is to make sure the contractor digs safely - that they won’t hit a gas pipe, for example.\n\n![uploaded image](/media/?type=post&id=93588&key=user_uploads/448610/eb053624-67ff-4b07-8abf-d10ece228cb4)\n\nFor contractors, handling these tickets is critically important, but a pain:\n\n1. Submitting tickets takes a lot of time and distracts project managers from higher value work.\n2. Making sure tickets don’t expire is also necessary, so contractors avoid a ‘down day’ (a day where they can’t work, due to an expired 811 request). \n\nWith 43M tickets submitted last year by tens of thousands of contractors, this is not a small problem.\n\nSo we decided to fix it.\n\n### We’ve made handling locates a breeze for contractors\n\nhttps://youtu.be/Y04NyOXGt2o\n\nWe built Clad Locates to make it fast and easy to submit and track 811 tickets.\n\n1. **AI-driven narratives -** We use AI to eliminate the most time consuming part of submitting a ticket, writing a ‘narrative,’ (to describe the path that a contractor will excavate.\n2. **Bulk Submission -** Clad connects with the state 811 systems to submit tickets automatically, 1 ticket at a time or 15 all at once.\n3. **Automated Tracking -** We get data from the state 811 systems to build an automated automated tracker to monitor when areas are ready to dig, and when tickets will be expiring.\n4. **Expiration Notifications** - To prevent ‘down days,’ Clad notifies contractors when tickets are expiring and need to be renewed. Soon, contractors will be able to renew tickets directly from Clad. \n\n### Join our waitlist and reach out!\n\nReach out to us at jason@withclad.com, or sign up on our [website](https://www.withclad.com/locates/overview) to learn more.",
+      "url": "https://www.ycombinator.com/launches/OLU-clad-locates-ai-for-infrastructure-contractors",
+      "votes": 11,
+      "created_at": "2025-09-04T19:23:52.719Z"
+    },
+    {
+      "id": 69535,
+      "title": "Clad - Software to manage telecom subcontractors",
+      "tagline": "We help telecom companies lay fiber faster with software to bid, manage, and pay their construction subcontractors.",
+      "body": "> _tl;dr:_ [_Clad_](https://www.withclad.com?utm_source=launch_yc&utm_medium=link_in_post&utm_campaign=022223_launchyc) _is a subcontractor management platform. We help telecom companies construct their networks faster, cheaper, and with fewer costly issues. Clad does this by streamlining everything from bidding through payments, all in one system._ \n\n> _Know anyone who works at a telco or data center?_ [_Reach out_](mailto:jason@withclad.com)_!_\n\n### The Problem\n\nDemand for high speed internet is accelerating, driven by the rise of remote work alongside new public and private investment. As a result, ISPs, data centers, and other operators are rapidly expanding their networks. \n\nTelcos rely on contractors to get this construction done. And with the rapid growth in deployments, there’s more need for them than ever before. As a result, telcos are struggling to find and retain enough high quality contractors, putting budgets and timelines at risk.\n\nIt’s no surprise telcos are having a tough time - the way they work with their subcontractors is broken at every step of construction:\n\n![](https://lh6.googleusercontent.com/T6CNj3VYdBdETF7lwV9IKA95DtBujw8pMwGmLEi3qpbrgmZidTyIJwn-NEh1WiEjORDd6hCEmT7L6cKdGhuDOjE7EcBcb_WOQciZj0f9Fwbc2j6Y-8Abh8TomWsj7ScYzKpt7qyqKi8BZbo_Va3cByQ)\n\n### Enter: Clad\n\nClad is a subcontractor management platform tailor-made for telecom construction. We streamline how telecom companies bid out and qualify subcontractors, track construction progress, and create, approve, and pay invoices too.\n\nOur entire goal is to eliminate the time consuming back-office functions that come from working with subcontractors. \n\nCurious how? Take a look 👇\n\nWith Clad, telcos get out of email and spreadsheets - speeding projects up, saving money, and getting the insights to improve construction over time:\n\n![](https://lh3.googleusercontent.com/ZFyNTkN1ZWfSZ60KsUFm_ibKme0xQLMg600PJ1dR0nF3_sjSrhFZQyCw6jHCP6QOJX85VotA6K2sbE0u-mN6-FlJt-XlcrXmYAiOGXnmP34rvHK8nIoThCUeV6UumCuj3Rh0iGlg-Y4xq-CgTz_Yj7U)\n\n_I’m_ [_Jason_](https://www.linkedin.com/in/jasonrudin/)_, and I started Clad because growing up, I saw first-hand how time consuming and painful it can be to work with subcontractors. When I was younger, my mom worked at a telco. I’d regularly hear stories about projects that were delayed or over budget because of miscommunications or errors with contractors. Last year I met two friends in telco who were complaining about the same problems as my mom. Hearing that, I dug in to learn more, and was shocked to learn that not much had changed in the decades since then. I’m building Clad to change this status quo._\n\n_I’m excited to build Clad because today, it remains too hard to build new things. And with high quality effective tools, we can get more done, faster._\n\n### You can help!\n\n1. **Share this post** - you never know who knows someone in telecom\n2. **Connect** Clad to General Contractors, ISPs, data centers, or anyone else in telecom construction at [jason@withclad.com](mailto:jason@withclad.com)\n\n_Thanks!_",
+      "url": "https://www.ycombinator.com/launches/I5X-clad-software-to-manage-telecom-subcontractors",
+      "votes": 116,
+      "created_at": "2023-02-22T14:42:46.583Z"
+    }
+  ]
+}

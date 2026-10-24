@@ -1,0 +1,105 @@
+{
+  "id": 31128,
+  "name": "Cumulus Labs",
+  "slug": "cumulus-labs",
+  "former_names": [
+    "Cumulus"
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/a985c19aae7a6332fcfc82b7724dd2f4276053d2.png",
+  "website": "https://cumuluslabs.io",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "Cumulus Labs lets engineering teams ship AI in production without needing a dedicated ML platform team. Right now, companies building AI products are forced to stitch together separate vendors for routing, observability, evaluation, fine-tuning, and inference. This fragmented approach is brittle, expensive, and is a common reason enterprises fail with AI.  \r\n\r\nWe replace that entire stack with a single unified platform. Developers can keep their existing code while instantly upgrading to a unified platform that handles routing, semantic caching, continuous shadow evaluation, simulated data, and one-click fine-tuning. \r\n\r\nBehind the platform is Ion, our proprietary inference engine running on a custom NVIDIA Grace GPU fleet. Ion uses in-house custom GPU kernels to deliver 30 to 50 percent more throughput than standard vLLM or SGLang, giving our customers SOTA inference economics.",
+  "one_liner": "The Fastest Multimodal Inference OS",
+  "team_size": 2,
+  "industry": "B2B",
+  "subindustry": "B2B -> Infrastructure",
+  "launched_at": 1768427687,
+  "tags": [],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": true,
+  "nonprofit": false,
+  "batch": "Winter 2026",
+  "status": "Active",
+  "industries": [
+    "B2B",
+    "Infrastructure"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada",
+    "Remote",
+    "Partly Remote"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": [
+    {
+      "question": "How did your company get started? (i.e., How did the founders meet? How did you come up with the idea? How did you decide to be a founder?)",
+      "answer": "been building robots together since we were 7\r\n\r\n![uploaded image](/media/?key=user_uploads/3182820/83506448-2b7e-4c23-b2b4-2fa9392fb1f4)\r\n\r\n"
+    }
+  ],
+  "url": "https://www.ycombinator.com/companies/cumulus-labs",
+  "api": "https://devasheeshg.github.io/yc-api/batches/winter-2026/cumulus-labs.json",
+  "year_founded": 2025,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/cumuluscomputelabs/",
+  "x_url": "https://x.com/CumulusLabsIO",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/a985c19aae7a6332fcfc82b7724dd2f4276053d2.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Jon Xu",
+    "url": "https://www.ycombinator.com/people/jon-xu"
+  },
+  "founders": [
+    {
+      "user_id": 3182820,
+      "full_name": "Veer Shah",
+      "title": "Founder/CEO",
+      "founder_bio": "Veer studied Computer Science at the University of Wisconsin—Madison, graduating in December 2025. During college, he worked at an aerospace startup where he led a Space Force SBIR contract for military satellite communications and contributed to several NASA SBIR programs, two of which were commercialized and are currently being flight tested in space. Before college, he captained his FIRST Robotics Team 5422: Stormgears, qualifying for Worlds all four years.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/veer-shah-62aa8526a/",
+      "x_url": "https://x.com/VeerCumulus",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/14641c5aafe5fe4f4de8632583b7f289dd169ac9.jpg"
+    }
+  ],
+  "jobs": [
+    {
+      "id": 99054,
+      "title": "Founding Engineer — ML Platforms Engineer",
+      "url": "https://www.ycombinator.com/companies/cumulus-labs/jobs/xfY8M84-founding-engineer-ml-platforms-engineer",
+      "location": "San Francisco, CA, US",
+      "type": "Full-time",
+      "role": "Engineering",
+      "role_type": "Backend",
+      "salary_range": "$150K - $300K",
+      "equity_range": "1.00% - 5.00%",
+      "experience": "3+ years",
+      "visa": "US citizen/visa only",
+      "skills": [
+        "Distributed Systems",
+        "Software Architecture"
+      ]
+    }
+  ],
+  "news": [],
+  "launches": [
+    {
+      "id": 96856,
+      "title": "Cumulus Labs ☁️ | Supercharge Your Training & Inference",
+      "tagline": "Meet Cumulus, the GPU cloud where you’re charged by physical resource usage for 50-70% savings.",
+      "body": "## **TL;DR**\n\nCumulus is a performant GPU cloud that preemptively optimizes your training and inference workloads across our global supply of multi-tenant clusters. The result: we **save you 50-70%** through charging by physical resources used, provide faster inference with ultra-low cold starts, and ensure zero time spent debugging infrastructure.\n\n**Ask**: If you’re training models or serving inference workloads, frustrated with GPU costs and performance, let us optimize your **LLMs, LoRAs, vision models, and more.**\n\n**Website:** <https://cumuluslabs.io>\\\n**Docs:** <https://docs.cumuluslabs.io>\n\nLaunch Video: <https://www.youtube.com/watch?v=duQwV50GKXc>\n\n## **The Problem**\n\nAI teams are bleeding money and time on GPU infrastructure:\n\n* **Massive waste**: Teams pay for idle GPUs sitting at 30-40% utilization because scaling is unpredictable\n* **Infrastructure hell**: Engineers spend weeks configuring Kubernetes, debugging OOM errors, and managing failovers instead of building models\n* **Cold start latency**: Inference workloads take 10-30+ seconds to spin up, killing user experience\n* **Vendor lock-in**: Once you commit to a cloud provider, switching costs make it nearly impossible to optimize for price or performance\n* **Skyrocketing costs**: Companies burn through runway 2-3x faster than planned because GPU bills spiral out of control\n\nEvery hour debugging infrastructure is an hour not spent improving your models. Every dollar wasted on idle GPUs is a dollar not spent on growth.\n\n---\n\n## **The Solution**\n\n**Cumulus is a GPU optimization layer that makes compute cheap, fast, and invisible.**\n\nWe aggregate compute from everywhere—big cloud providers, trusted data centers, individual hosts—into a single unified pool. Then we do three things no one else does:\n\n# **1. Predictive Packing & Live Migration (Training/Fine-tuning)**\n\nYour training jobs are intelligently packed alongside other workloads to maximize GPU utilization. As your job runs, we predict resource usage and **live-migrate you to faster or cheaper clusters** without interruption. No more paying for an entire H100 when you only need 40% of it.\n\n# **2. Execution State Capture & Global CDN (Inference)**\n\nWe capture your model's live execution state (VRAM, memory, loaded weights) and replicate it across our global compute CDN. When a request comes in, we serve from the closest cluster with **ultra fast cold starts**—no more waiting 30 seconds for a job to spin up. We have tested with **LLMs, vision models, LORAs, and many others.**\n\n# **3. Intelligent Scheduling & Auto-Recovery**\n\nOur scheduler constantly monitors your jobs, diagnoses failures, and auto-recovers without manual intervention. The Cumulus prediction system learns your usage patterns over time and pre-allocates resources before you need them.\n\n**The bottom line:** _You write 20 lines of config. We handle everything else._\n\nOur Demo: <https://www.youtube.com/watch?v=J0KRFWE3-fg>\n\n## **The Team**\n\n![uploaded image](/media/?type=post&id=96856&key=user_uploads/3177002/fbef3bec-137d-4275-8433-8a1ccfad47a5)\n\n(winning the science fair in 4th grade for a robot that solved Rubik’s cubes)\n\n**Veer Shah** (Founder)\\\nLed a Space Force program and worked on ML workloads at an aerospace startup supporting NASA missions, where infrastructure needed to be both performant and secure. \n\n**Suryaa Rajinikanth** (Founder)\\\nBuilt custom GPU compute solutions at TensorDock, then moved to Palantir where he built critical infrastructure for the US Government. Deep expertise in distributed systems and resource optimization.\n\nWe met as third graders and have been building together our whole lives. We've seen the GPU infrastructure problem from both sides: Suryaa from the provider side at TensorDock, Veer from the customer side running mission-critical ML workloads. We started Cumulus Labs because we knew exactly what the industry needed—and no one was building it.\n\n## **What We're Looking For**\n\n**If you're training models or serving inference workloads**, frustrated with vendor lock-in, or simply paying too much for your GPUs, reach out.\n\n**Know AI/ML teams experience any of these issues?** Connect them with us.\n\nWe optimize LLMs, LoRAs, vision models, and more.\n\nWe'd love your feedback on which features matter most.\n\n---\n\n## **Get In Touch**\n\nJoin the waitlist: <https://cumuluslabs.io>\\\nContact us: [founders@cumuluslabs.io](mailto:founders@cumuluslabs.io)\\\nBook a demo: [Here](https://calendar.app.google/NepPaCiZxCTM9vyUA)\n\n---\n\n---\n\n---\n\n---\n\n---\n\n---\n\n---\n\n---\n\n---\n\nHuge thanks to partners, our batch-mates, and everyone who's helped so far.\n\nLet's make AI infrastructure invisible.\n\n— Veer, Suryaa, and the Cumulus team\n\n![uploaded image](/media/?type=post&id=96856&key=user_uploads/3177002/3045bccb-ce6f-4d07-b8dd-37c34772ce14)\n\n",
+      "url": "https://www.ycombinator.com/launches/PCC-cumulus-labs-supercharge-your-training-inference",
+      "votes": 41,
+      "created_at": "2026-01-16T07:57:30.095Z"
+    }
+  ]
+}
