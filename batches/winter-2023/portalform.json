@@ -1,0 +1,80 @@
+{
+  "id": 27928,
+  "name": "Portalform",
+  "slug": "portalform",
+  "former_names": [
+    "Portalform",
+    "Fiber",
+    "Looooooops",
+    "David"
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/f5af53645d0c8a5e381e823c37447e8c67bdbba2.png",
+  "website": "https://portalform.com/",
+  "all_locations": "Ashburn, VA, USA",
+  "long_description": "Coming soon",
+  "one_liner": "Build and host internal tools",
+  "team_size": 4,
+  "industry": "B2B",
+  "subindustry": "B2B -> Infrastructure",
+  "launched_at": 1676832111,
+  "tags": [],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Winter 2023",
+  "status": "Active",
+  "industries": [
+    "B2B",
+    "Infrastructure"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/portalform",
+  "api": "https://devasheeshg.github.io/yc-api/batches/winter-2023/portalform.json",
+  "year_founded": 2022,
+  "city": "Ashburn",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/in/felipearp/",
+  "x_url": "",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/f5af53645d0c8a5e381e823c37447e8c67bdbba2.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": null,
+  "founders": [
+    {
+      "user_id": 203888,
+      "full_name": "Felipe Aragão",
+      "title": "Founder",
+      "founder_bio": ":)",
+      "is_active": true,
+      "linkedin_url": "https://linkedin.com/in/felipearp",
+      "x_url": "https://x.com/felipap",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/41b3d9d1cf6c76e9e1aeb0fb4d35e5fd0df33c36.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 70073,
+      "title": "Fiber: The API data you need, straight from your database",
+      "tagline": "We keep your database in sync with your customers' third-party data",
+      "body": "_TLDR: Fiber syncs customers’ data from popular APIs straight into your database to power your SaaS integrations. We help your team skip months of development (and years of maintenance), and focus on what really matters: your core product and features._\n\nHey, [Felipe here](https://www.linkedin.com/in/felipearp/). I’m a software engineer who spent the last 3+ years building apps and plugins for e-commerce companies. Project after project, I was shocked at the amount of boilerplate required just to reliably sync from 3rd-party APIs. I decided to start Fiber to solve this problem and help SaaS companies ship faster.\n\nLet me explain: 👇\n\n## **The Problem**\n\nIf you’re building a SaaS tool, you’re probably hoping to ship some integrations next quarter. To do so, your team will have to write a ton of code to authenticate, paginate, backfill, and listen for changes on each API you’re reading from. Once all this work is done, you will need to worry about hosting, maintaining and scaling this integration pipeline… _forever_. 😱\n\nIf your API vendor is in a fragmented vertical such as finance or HRIS, you are probably better off using a unified API to skip most of this integration trouble. Otherwise, if you need deep integrations with unique tools, you’re out of luck. You had to do all this work from scratch.\n\n**_But now…_** you can use Fiber! 🌀\n\n## **The Solution**\n\nFiber is an ETL service that is laser-focused on the needs of _developers_ (no offense to data people). We help you skip the work of pulling users’ data from 3rd-party APIs (eg. their Quickbooks reports, Salesforce accounts, Github issues etc), and just consume it straight from your main database:\n\n![uploaded image](/media/?type=post&id=70073&key=user_uploads/203888/dfc9f660-4146-4ece-9146-b1b83d0a928f)\n\n_(Yes, we have a great dashboard too, but you don’t even need to use it!)_\n\nHere are all the required steps:\n\n1. Register your database with us. (We will walk you through creating a database user that can’t access any of your existing, sensitive information.)\n2. Choose which third-party API to pull data from, and which of their resources you need.\n3. Hit the Fiber API whenever a client connects your SaaS to this third-party tool.\n\nThat’s it. You can now focus on your core products, knowing the user data you need will be kept up-to-date inside your database. 🤘\n\n## **The Ask**\n\nAre you or someone you know building a SaaS? Let’s chat! You can [pick a time here](https://calendly.com/portalform/25min) or email me directly at felipe@portalform.com.",
+      "url": "https://www.ycombinator.com/launches/IED-fiber-the-api-data-you-need-straight-from-your-database",
+      "votes": 288,
+      "created_at": "2023-03-10T19:39:28.255Z"
+    }
+  ]
+}

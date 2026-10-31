@@ -1,0 +1,94 @@
+{
+  "id": 35422,
+  "name": "Praxis",
+  "slug": "praxis",
+  "former_names": [],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/aac3b9688bfcfe828ca1449c50d9d85d7e55ad89.png",
+  "website": "https://runpraxis.ai",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "At Praxis, we’ve built AI agents that run law firm operations, from first inquiry to paid invoice. Agents do the admin end to end, and the lawyer supervises and approves every step. Firms reply in minutes, onboard clients in days instead of weeks, and spend their time practicing law.\r\n\r\nLawyers spend 62% of their day on admin nobody pays for: intake, conflict checks, chasing documents, engagement letters, follow-ups, billing. Every hour on admin is an hour a client waits, and clients go to the firm that answers first. One law firm owner shared: “Every month we lose 3-5 clients, $10k each, because we’re 3 paralegals to handle the process, it’s too slow.”\r\n\r\nWe’re live with law firms across the US.",
+  "one_liner": "AI agents that run law firm operations.",
+  "team_size": 2,
+  "industry": "B2B",
+  "subindustry": "B2B -> Legal",
+  "launched_at": 1792015189,
+  "tags": [
+    "Legal",
+    "LegalTech",
+    "AI"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Fall 2026",
+  "status": "Active",
+  "industries": [
+    "B2B",
+    "Legal"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/praxis",
+  "api": "https://devasheeshg.github.io/yc-api/batches/fall-2026/praxis.json",
+  "year_founded": 2026,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/runpraxis/",
+  "x_url": "https://x.com/runpraxis",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/aac3b9688bfcfe828ca1449c50d9d85d7e55ad89.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [
+    "https://bookface-images.s3.us-west-2.amazonaws.com/attachments/d0cdfd40eb2852393a040ce80a4ee3e6dbedea22.png"
+  ],
+  "primary_partner": {
+    "name": "Nicolas Dessaigne",
+    "url": "https://www.ycombinator.com/people/nicolas-dessaigne"
+  },
+  "founders": [
+    {
+      "user_id": 1081032,
+      "full_name": "Diana Khramina",
+      "title": "Founder/CEO",
+      "founder_bio": "Founder at Praxis. Previously GTM Lead of AI Agent at Gorgias, scaling from 0 to 1,000+ paying customers and $8M ARR in under 1 year. Before that, Chief of Staff to the CEO at Gorgias and Senior Consultant at McKinsey & Company. Started career in M&A and Private Equity at Edmond de Rothschild and ISAI.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/diana-khramina/",
+      "x_url": "https://x.com/KhraminaDianka",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/d96d7e2b7bfeb19c00836c5e0f39242f026764e0.jpg"
+    },
+    {
+      "user_id": 2657898,
+      "full_name": "Maxence Guegnolle--Santi",
+      "title": "Founder/CTO",
+      "founder_bio": "Founder at Praxis. Previously AI Engineer at SightCall building multimodal knowledge platforms and video analysis pipelines. Data Engineer at BlaBlaCar, Uber and iOS developer at NextDNS. Studied CS at Ecole 42 & Stony Brook.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/mguegnol",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/0719136e19552a321bd45160e11f7909a15584f5.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 122246,
+      "title": "Praxis: AI agents that run law firm operations, from first inquiry to paid invoice",
+      "tagline": "Agents do the work, the lawyer approves every step, and clients get served first.",
+      "body": "Hi, we’re [Maxence](https://www.linkedin.com/in/mguegnol/) and [Diana](https://www.linkedin.com/in/diana-khramina/), co-founders of [Praxis](https://runpraxis.ai/).\n\n**TL;DR: At Praxis, we’ve built agents that run law firm admin tasks end to end. Agents do the work, and the lawyer supervises and approves every step. Firms reply in minutes, onboard clients in days instead of weeks, and spend their time practicing law.**\\\n\\\n[https://drive.google.com/file/d/1lxtcy55l5t2dvd82J1_px194DW-Y6RXl/view](https://drive.google.com/file/d/1lxtcy55l5t2dvd82J1_px194DW-Y6RXl/view?usp=drive_link)\n\n\\\n**Why we built Praxis**\n\nLaw firms spend 62% of their time on admin tasks they don’t bill. Client data lives in tools that don’t talk to each other, and legal assistants copy data from one system to another and chase documents by email for weeks. To keep up, law firms hire more assistants.\n\nThis is how costs grow with every new client, and the firm still moves slowly. Replies slow down, follow-ups slip, and clients go to the law firm that serves them first. One firm told us it loses at least $350k a year in clients this way.\n\n**Product**\n\nAt [Praxis](https://runpraxis.ai/), we’ve built AI agents that run law firm operations, from first inquiry to paid invoice. Agents do the admin end to end, and the lawyer supervises and approves every step.\\\n\\\nHere’s how it works:\n\n* **Win:** every inquiry answered in minutes, qualified against your rules and conflict-checked, with the engagement letter drafted for your approval.\n* **Onboard:** client data and documents collected and verified at upload. Missing or outdated ones are chased automatically, so work starts in days, not weeks.\n* **Run:** tasks tracked, clients and counterparties chased for the next step, and the client follows progress live in their portal.\n* **Get paid:** invoices are sent, tracked and chased until paid.\n\nFirms reply faster, stop paying people to copy-paste, and spend their time practicing law.\\\n\\\n➡️ **Sign up to get early access to Praxis today at [runpraxis.ai/waitlist](https://runpraxis.ai/waitlist).**\n\n\\\n**Market &amp; timing**\n\nLegal is a \\~$1T services market that's still only 4% software. Every knowledge industry we've digitized flipped that ratio. Legal hasn't yet.\n\nThe first AI wave (Harvey, Legora) created huge market excitement around AI for law firms, but they went after the legal work at large firms: contract review and drafting. Client operations at small and mid-sized firms remain underserved and incumbents like Clio or 8am struggle to become fully AI-native.\n\n**About Us**\n\nWe’re a team of builders who’ve scaled fast-growing startups and worked hands-on with law firms. We believe lawyers shouldn’t be buried in low-value work. They should make the judgment calls, while clients feel every bit of the speed. 💨\n\n**— [Diana](https://www.linkedin.com/in/diana-khramina/), CEO.** Scaled Gorgias's AI Agent from 0 to 1,000+ paying customers in under a year, and worked with law firms at McKinsey.\n\n**— [Maxence](https://www.linkedin.com/in/mguegnol/), CTO.** AI &amp; Data Engineer at Uber and BlaBlaCar, companies serving 100+ million people and he comes from a family of lawyers.\n\n![uploaded image](/media/?type=post&id=122246&key=user_uploads/1081032/d806f71c-3888-429e-b484-22c466c8448b)\n\n",
+      "url": "https://www.ycombinator.com/launches/Vni-praxis-ai-agents-that-run-law-firm-operations-from-first-inquiry-to-paid-invoice",
+      "votes": 9,
+      "created_at": "2026-10-15T16:00:00.155Z"
+    }
+  ]
+}

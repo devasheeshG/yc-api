@@ -1,0 +1,96 @@
+{
+  "id": 35258,
+  "name": "Mirrors",
+  "slug": "mirrors",
+  "former_names": [],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/e98a564b21ba044528e16126406d35b7464044b7.png",
+  "website": "https://www.mirrors.dev",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "Production AI agents keep making the same mistakes. The usual fix is another line in the system prompt. Over time, the agent carries instructions for dozens of situations, even when it's doing something simple, and every correction becomes another thing to maintain.\r\n\r\nMirrors helps developers maintain production agents by turning recurring mistakes into targeted corrections. Mirrors surfaces recurring mistakes across your production runs. You write a correction, choose the situations where it applies, and preview which past conversations it would have reached. Once activated, Mirrors adds it to your agent only in those situations. You can then compare outcomes with and without the correction to see whether it helped. Unlike skills, the agent doesn't decide what to load. The scope you set does.\r\n\r\nCorrections live in one place, scoped to the right accounts and workflows. Mirrors connects through an SDK and works with any agent framework, and your application keeps control of its model calls and tools.\r\n\r\nWe're building Mirrors for engineering teams running customer-facing agents.",
+  "one_liner": "Fix recurring AI agent mistakes with real-time guidance",
+  "team_size": 2,
+  "industry": "B2B",
+  "subindustry": "B2B -> Engineering, Product and Design",
+  "launched_at": 1789011304,
+  "tags": [
+    "AIOps",
+    "Developer Tools",
+    "B2B",
+    "Infrastructure",
+    "AI"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Fall 2026",
+  "status": "Active",
+  "industries": [
+    "B2B",
+    "Engineering, Product and Design"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/mirrors",
+  "api": "https://devasheeshg.github.io/yc-api/batches/fall-2026/mirrors.json",
+  "year_founded": 2026,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/runmirrors/",
+  "x_url": "https://x.com/mirrorsdotdev",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/e98a564b21ba044528e16126406d35b7464044b7.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [
+    "https://bookface-images.s3.us-west-2.amazonaws.com/attachments/d29b93262a911b75f36289e28863218346e9644c.png"
+  ],
+  "primary_partner": {
+    "name": "Andrew Miklas",
+    "url": "https://www.ycombinator.com/people/andrew-miklas"
+  },
+  "founders": [
+    {
+      "user_id": 3174410,
+      "full_name": "Aryan Singhal",
+      "title": "Founder/CEO",
+      "founder_bio": "Co-Founder & CEO @ Mirrors (YC F26). Published six AI/ML research papers in high school at top AI conferences such as NeurIPS and EMNLP. Prev. ML research at UT Austin and UCSB.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/aisinghal",
+      "x_url": "https://x.com/ai_singhal",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/fdc726196feb99cd0b97b4d0a2fa4012a5a31466.jpg"
+    },
+    {
+      "user_id": 2651108,
+      "full_name": "Aditya Gupta",
+      "title": "Founder/CTO",
+      "founder_bio": "Founder at Mirrors (YC F26). Studied Computer Engineering at Purdue.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/aditya-gupta-6a771a231/",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/cf8b548328700bfef2f9889935d095003aac92eb.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 124031,
+      "title": "Mirrors: Fix recurring AI agent mistakes with real-time guidance",
+      "tagline": "Stop playing whack-a-mole with your agents",
+      "body": "Hey YC! We’re [Aryan](https://www.linkedin.com/in/aisinghal) and [Aditya](https://www.linkedin.com/in/aditya-gupta-6a771a231/), the founders of [Mirrors](https://mirrors.dev?utm_source=launchyc). Mirrors helps developers maintain production AI agents by turning recurring mistakes into targeted corrections they can preview, apply, and measure.\n\n<https://youtu.be/pC8PkI86RGE>\n\n### Your system prompt is becoming a history of everything your agent got wrong.\n\nYour support agent repeats troubleshooting steps the customer already tried. You add a line to the prompt. It keeps pushing a retention offer after the customer declines. You add another.\n\nAfter enough fixes, the agent is carrying instructions for dozens of situations, even when it’s doing something simple.\n\nAs those corrections spread across prompts and skills, there’s more to maintain: where each instruction belongs, which accounts it applies to, and whether it actually helps.\n\n![uploaded image](/media/?type=post&id=124031&key=user_uploads/3174410/cd6215f1-3b79-4ec5-998d-c420a31dbcc8)\n\n_That’s the agent in our launch video: covered in sticky notes, trying to follow them all._\n\n### How Mirrors works\n\nMirrors surfaces recurring mistakes across your production runs. Say your support agent keeps restarting troubleshooting instead of building on what the customer has already tried. In Mirrors, you write a correction:\n\n> _Before suggesting troubleshooting, check which steps the customer has already completed. Acknowledge the results and continue from there._\n\nChoose the situations where it applies, then preview which past conversations it would have reached. Once activated, Mirrors adds it to your agent only in those situations. Afterward, compare outcomes with and without the correction to see whether it helped.\n\n![uploaded image](/media/?type=post&id=124031&key=user_uploads/3174410/6ee1d95c-0fa9-4168-aca3-dd3c848b776b)\n\nCorrections live in one place, scoped to the right accounts and workflows. When requirements change, you update one correction instead of juggling versions of your entire prompt.\n\n![uploaded image](/media/?type=post&id=124031&key=user_uploads/3174410/cfe19c14-61e8-4540-9177-5ca4c710d518)\n\nMirrors connects through an SDK and works with any agent framework. Your application keeps control of its model calls and tools.\n\n### Why we're building this\n\nOne of our design partner's agent hit 75 errors editing a single travel guide. The rule telling it to stop was already in its prompt four times. More instructions weren't the fix. Getting the right one to the agent at the right moment was.\n\nWe're building Mirrors so improving your agent doesn't leave you with an ever-growing collection of prompt patches to maintain.\n\n### The team\n\n* **Aryan (CEO):** Published six AI/ML research papers in high school, including at NeurIPS and EMNLP. Previously did ML research at UT Austin and UCSB.\n* **Aditya (CTO):** Built computer vision and agent workflows at multiple startups serving thousands of sessions per week at sub-second latency.\n\n### Our ask\n\nTired of playing whack-a-mole with your agent? Bring us one failed run.\n\n[**Book a time with us**](https://cal.com/aryan-singhal/mirrors) or email [**devs@runmirrors.com**](mailto:devs@runmirrors.com). We’ll work through what went wrong and how Mirrors can help.\n\n[mirrors.dev](https://mirrors.dev?utm_source=launchyc)",
+      "url": "https://www.ycombinator.com/launches/WGV-mirrors-fix-recurring-ai-agent-mistakes-with-real-time-guidance",
+      "votes": 14,
+      "created_at": "2026-10-30T15:00:00.126Z"
+    }
+  ]
+}

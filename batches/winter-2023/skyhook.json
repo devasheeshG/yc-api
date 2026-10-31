@@ -1,0 +1,90 @@
+{
+  "id": 28192,
+  "name": "Skyhook",
+  "slug": "skyhook",
+  "former_names": [
+    "Koala Ops"
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/c4df2dc3a8591521492f4797ca92971742623b68.png",
+  "website": "https://skyhook.io",
+  "all_locations": "Tel Aviv-Yafo, Tel Aviv District, Israel",
+  "long_description": "We make running services on Kubernetes as easy as Heroku, but on your cloud and with all the flexibility and power of Kubernetes. Companies use Skyhook so that they don't have to hire dedicated infrastructure engineers.\r\n\r\nAlthough 50-70% of organizations have already adopted Kubernetes, most developers agree that it is too complex and difficult to manage. It is intended to be extremely flexible in order to solve pretty much everyone’s needs, but it can take a ton of work and many auxiliary tools to get there.\r\n\r\nAs companies grow, they spend a lot on DevOps or Platform Engineers that try to reduce the burden on developers by gluing together all the 3p tools via custom internal tools.\r\n\r\nWe are building an “internal developer platform” out of the box, with best practices and golden paths for building and operating services on Kubernetes.\r\n\r\nWe do the research on the latest and greatest tools in the extremely vibrant ecosystem, and automatically integrate for you the tools you want to use.\r\n\r\nWe operate on our customers code and in your Cloud environment, so they never locked in and never restricted, as is common with classic PaaS offerings.\r\n\r\nIf you prefer a fully hosted environment like Heroku, Fly or Vercel, we’ll host a cluster for you and offer you a one-click migration to your own cluster when you want.",
+  "one_liner": "PaaS-like experience with the power of Kubernetes, on your cloud",
+  "team_size": 7,
+  "industry": "B2B",
+  "subindustry": "B2B -> Engineering, Product and Design",
+  "launched_at": 1677416596,
+  "tags": [
+    "Developer Tools",
+    "SaaS",
+    "B2B",
+    "Kubernetes",
+    "DevOps"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Winter 2023",
+  "status": "Active",
+  "industries": [
+    "B2B",
+    "Engineering, Product and Design"
+  ],
+  "regions": [
+    "Israel",
+    "Middle East and North Africa",
+    "Remote",
+    "Partly Remote"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/skyhook",
+  "api": "https://devasheeshg.github.io/yc-api/batches/winter-2023/skyhook.json",
+  "year_founded": 2023,
+  "city": "Tel Aviv-Yafo",
+  "country": "IL",
+  "linkedin_url": "https://www.linkedin.com/company/skyhook-io",
+  "x_url": "",
+  "fb_url": null,
+  "cb_url": "https://www.crunchbase.com/organization/skyhook-io",
+  "github_url": "https://github.com/skyhook-io",
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/c4df2dc3a8591521492f4797ca92971742623b68.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [
+    "https://bookface-images.s3.us-west-2.amazonaws.com/attachments/01183b0b057b61e1d3b92a001dc8882ec033a95c.png"
+  ],
+  "primary_partner": {
+    "name": "Nicolas Dessaigne",
+    "url": "https://www.ycombinator.com/people/nicolas-dessaigne"
+  },
+  "founders": [
+    {
+      "user_id": 1233800,
+      "full_name": "Nadav Erell",
+      "title": "Founder",
+      "founder_bio": "Experienced Software Engineer and team leader, with a passion for technology, product and strategy.\n\nSpent 9 years at Google working on Identity and Authentication, internal Google User Analytics, Notifications infrastructure, and Google Cloud, with multiple roles as TL / Architect.\n\nStudied Computer Science and Electrical and Computer Engineering (double degree) at Ben-Gurion University, graduating Summa Cum Laude in both.\n\nServed as an Intelligence Analyst in Unit 8200 in the Israeli Army.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/nadav-erell/",
+      "x_url": "https://twitter.com/nadaverell",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/77bd824548fd700e13ef12c5620d8ff8a63df0e4.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 69952,
+      "title": "Skyhook - Kubernetes the easy way 🚀",
+      "tagline": "We make running services on Kubernetes as easy as Heroku, but on your cloud and with all the flexibility and power of Kubernetes.",
+      "body": "**TL;DR; We help you set up production-ready services in minutes instead of days and weeks, with all the tools you need and Kubernetes best practices out of the box, so that you can focus on your code. [Talk to us](https://calendly.com/oded-koalaops/meeting) to learn more!**\n\n**Also, if you need help with migrating/working with Kubernetes please [contact us ](https://mailto:founders@skyhook.io)for a free consultation. We’d love to learn and help.**\n\nHi everyone, we’re Oded Regev and Nadav Erell, the founders of [Skyhook](https://www.skyhook.io/?utm_source=ycombinator&utm_medium=website&utm_campaign=yclaunch).\n\n![uploaded image](/media/?type=post&id=69952&key=user_uploads/1233799/182a0cd6-8737-48d0-9543-543907a62b1b)\n\n[**Nadav, CTO**](https://www.linkedin.com/in/nadav-erell/) formerly a Staff Software Engineer and an experienced team leader and architect at Google. Deep technical experience building scalable, robust systems in cloud native environments.\n\n[**Oded, CEO**](https://www.linkedin.com/in/odedregev/) founded and led Cherrypick Consulting for 7 years with diverse customers including Gong.io, Mixtiles, Outbrain, OpenWeb and many more. \n\n# The Problem\n\nAlthough [50-70%](https://www.cncf.io/reports/cncf-annual-survey-2022/) of organizations have already adopted Kubernetes, most developers agree that it is too complex and difficult to manage. It is intended to be extremely flexible in order to solve pretty much everyone’s needs, however, it can take a ton of work and many auxiliary tools to get there.\n\nAs companies grow, they spend a lot on DevOps or Platform Engineers that try to reduce the burden on developers by gluing together all the 3rd party tools via custom internal tools.\n\n# Our Solution\n\nWe give you an “internal developer platform” out of the box, with best practices and golden paths for building and operating services on Kubernetes.\n\n![uploaded image](/media/?type=post&id=69952&key=user_uploads/1233799/9f8423a0-3f16-48f6-911c-d8e6234bfbc1)\n\nWe do the research on the latest and greatest tools in the extremely vibrant ecosystem, and automatically integrate for you the tools you want to use.\n\nWe operate on your code and in your Cloud environment, so you’re never locked in and never restricted, as is common with classic PaaS offerings.\n\nIf you prefer a fully hosted environment like Heroku, Fly or Vercel, we’ll host a cluster for you and offer you a one-click migration to your own cluster whenever you want.\n\n# **Our Ask 🙏**\n\n[Contact us](https://mailto:founders@skyhook.io) - We have a few last slots left in our beta - we’d love to see if we can help you step up your Kubernetes game or migrate, so that you can focus on building your own product instead of configuring YAML files and tools all day.\n\n### **We also offer free Kubernetes consultation!**\n\nPlease [contact us](https://mailto:founders@skyhook.io) or [book time](https://calendly.com/nadaverell) - we’d love to assist, even if you don’t end up using our product. Learning about real-life challenges that you are facing and trying to help you navigate them helps inform our roadmap and focus.",
+      "url": "https://www.ycombinator.com/launches/ICG-skyhook-kubernetes-the-easy-way",
+      "votes": 49,
+      "created_at": "2023-03-05T21:35:40.921Z"
+    }
+  ]
+}

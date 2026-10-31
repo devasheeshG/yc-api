@@ -1,0 +1,94 @@
+{
+  "id": 30623,
+  "name": "Playgent",
+  "slug": "playgent",
+  "former_names": [
+    "Pharmie AI"
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/5ad8d62052816b9ab3349fc92ba2137b2b1edb02.png",
+  "website": "https://useplaygent.com",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "When enterprise agents fail in production, the conditions that caused the failure are critical: user state, data, tool calls, and context. Without a way to recreate these conditions, teams can't fix what broke.\r\n\r\nPlaygent provides infrastructure to create high-fidelity sandbox environments for AI agents. Our environments come packaged as a single MCP url where tool calls are mocked, authentication is abstracted away, and test data can be initialized via natural language or JSON specifications.\r\n\r\nTeams can use Playgent to reproduce production failures in safe, scoped environments that accurately reconstruct state. Finally, export runs as OTel traces from Playgent's environment to plug directly into your observability tools or RL pipelines.",
+  "one_liner": "Sandboxes for AI agents",
+  "team_size": 2,
+  "industry": "Healthcare",
+  "subindustry": "Healthcare -> Healthcare IT",
+  "launched_at": 1754457298,
+  "tags": [
+    "SaaS",
+    "Infrastructure",
+    "AI"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Summer 2025",
+  "status": "Active",
+  "industries": [
+    "Healthcare",
+    "Healthcare IT"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/playgent",
+  "api": "https://devasheeshg.github.io/yc-api/batches/summer-2025/playgent.json",
+  "year_founded": 2025,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/useplaygent",
+  "x_url": "",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/5ad8d62052816b9ab3349fc92ba2137b2b1edb02.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Tyler Bosmeny",
+    "url": "https://www.ycombinator.com/people/tyler-bosmeny"
+  },
+  "founders": [
+    {
+      "user_id": 2671843,
+      "full_name": "Neer Jain",
+      "title": "Founder/CEO",
+      "founder_bio": "Hey I'm Neer, cofounder of Playgent. We're building an Sandboxes for Agents!\n\nIn college, I studied Math, Business, and CS at UT Austin and worked in product and engineering roles at multiple early stage AI startups. At Visa, I launched features used by thousands of banks and built internal tools.\n\nFeel free to reach out -- neer@useplaygent.com",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/neer-jain/",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/27de95e4ccb8ea8f4a00c5acf84b72064dbd0cdd.jpg"
+    },
+    {
+      "user_id": 969465,
+      "full_name": "Aniruddh Sriram",
+      "title": "Founder/CTO",
+      "founder_bio": "Hi! I’m Aniruddh - co-founder of Playgent! We are building sandboxes for AI agents. I did 4 years of NLP research with publications in EMNLP/ACL and was on-route to pursue a PhD when I decided to join YC.\n\nIn my free time, I like writing articles on Medium, playing basketball, and doing acrylic art.\n\nYou can reach me at aniruddh@useplaygent.com!",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/aniruddh-sriram/",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/f137d83046edc10cc83d2700771d9c031fb2cbfa.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 92806,
+      "title": "Pharmie AI - Your AI Pharmacy Technician",
+      "tagline": "AI voice/text agents that handle pharmacy admin so staff don’t have to",
+      "body": "We’re excited to share Pharmie, an AI assistant for pharmacists. Check out our [launch video](https://youtu.be/pFKd8YJ6vsQ) and [website](https://www.pharmie.app/)!\n\n**The Problem**\n\nPharmacies are overwhelmed with phone calls about refills, insurance questions, chasing doctors, and handling appointment logistics. This nonstop volume creates constant interruptions, forcing pharmacists and technicians to multitask and context-switch throughout the day. As a result, staff burn out quickly, turnover is high, and time is lost retraining replacements.\n\n**What’s Pharmie?**\n\n**Pharmie is your always-on AI pharmacy assistant.** It never gets tired, works autonomously, and plugs directly into your pharmacy management system to streamline communication and boost efficiency.\n\nPharmie can:\n\n* **Answer inbound calls 24/7:** no more missed calls or hold times\n* **Process refills, transfers, and appointments:** fully automated, no staff intervention needed\n* **Verify insurance and handle patient questions:** from copays to medication availability\n* **Upsell pharmacy services:** intelligently offers vaccines, delivery, or sync programs based on the conversation and patient history\n\n**How It Works**\n\nPharmie seamlessly integrates with your existing pharmacy management system (PMS) to automate phone calls, refills, and patient communication.\n\nDuring onboarding, we work closely with you to:\n\n* Connect to your PMS or set up secure workflows if a direct integration isn’t available\n* Give Pharmie pharmacy-specific information like store hours, address, staff names, services offered, and policies\n* Train Pharmie on your workflows (e.g. how you handle refills, transfers, insurance, and voicemails)\n* Customize messaging for promotions, vaccine reminders, and targeted outreach campaigns\n* Set up call routing and escalation rules to transfer to your team when needed\n\nWe’re already in production at 4 locations, cutting phone volume by 70% and helping teams focus on patient care instead of call chaos.\n\n**The Team**\n\nAniruddh and Neer met freshman year of high school and instantly bonded over their love for math and science. Since then, they’ve worked on all types of projects together from personal gadgets to sophisticated sports betting models that generated 6-figure profit.\n\n![uploaded image](/media/?type=post&id=92806&key=user_uploads/2671843/472d3c8e-7a05-494f-8149-e7fdd21b5942)\n\nIf you know a pharmacist or work with pharmacies, shoot us a message at [**founders@pharmie.app**](mailto:founders@pharmie.app)",
+      "url": "https://www.ycombinator.com/launches/O8s-pharmie-ai-your-ai-pharmacy-technician",
+      "votes": 43,
+      "created_at": "2025-08-07T00:47:21.168Z"
+    }
+  ]
+}

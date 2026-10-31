@@ -1,0 +1,92 @@
+{
+  "id": 30992,
+  "name": "Amera",
+  "slug": "amera",
+  "former_names": [],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/07c1dd923ce928d5a06d772f09a234366daa3513.png",
+  "website": "https://amerahealthsolutions.com/",
+  "all_locations": "New York City, NY, USA",
+  "long_description": "Amera automates claims processing for health insurance payers. We turn messy claim inputs (PDFs, bills, receipts, EDI and non-standard submissions) into structured data that plugs into existing systems. This cuts manual entry and exception handling, speeding up operations and reducing cost.\r\n\r\nWe are already working with payers / plan administrators representing ~100k members, giving them access to more affordable care options.",
+  "one_liner": "Automating claims processing workflows for health insurance payers.",
+  "team_size": 12,
+  "industry": "Fintech",
+  "subindustry": "Fintech -> Insurance",
+  "launched_at": 1762373612,
+  "tags": [],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Fall 2025",
+  "status": "Active",
+  "industries": [
+    "Fintech",
+    "Insurance"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada",
+    "Remote",
+    "Partly Remote"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/amera",
+  "api": "https://devasheeshg.github.io/yc-api/batches/fall-2025/amera.json",
+  "year_founded": 2025,
+  "city": "New York City",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/amerahealthsolutions",
+  "x_url": "",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/07c1dd923ce928d5a06d772f09a234366daa3513.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [
+    "https://bookface-images.s3.us-west-2.amazonaws.com/attachments/2218f6504fbb0a874bfbfd62ac4a5feb2973f75a.png"
+  ],
+  "primary_partner": {
+    "name": "Nicolas Dessaigne",
+    "url": "https://www.ycombinator.com/people/nicolas-dessaigne"
+  },
+  "founders": [
+    {
+      "user_id": 2745859,
+      "full_name": "Deep Kapur",
+      "title": "Founder/CEO",
+      "founder_bio": "Building infrastructure to make health plans more cost-effective. Background in distributed systems, cloud infra, and healthtech. Previously product lead for market expansion at Rupa Health.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/deepkkapur/",
+      "x_url": "https://x.com/deepkkapur",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/aaae77fd43441ccb1d6b1bba7732cc1c69373886.jpg"
+    },
+    {
+      "user_id": 273206,
+      "full_name": "Louise Tanski",
+      "title": "Founder",
+      "founder_bio": "Cofounder of Amera. \n\nBuilt my first company, an analytics platform for eCommerce brands, in college and sold it to Moonshot Brands. Led core product at Rupa Health. ",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/louise-tanski/",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/80531531cf060a8be3a9604a6b560bbe2ca275aa.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 95250,
+      "title": "Amera - Automating health insurance claims processing",
+      "tagline": "Amera automates claims processing workflows for health insurance payers, cutting manual work and reducing cost.",
+      "body": "Hey everyone, we’re [Deep](https://www.linkedin.com/in/deepkkapur/) and [Louise](https://www.linkedin.com/in/louise-tanski/), co-founders of [Amera](https://amerahealthsolutions.com/).\n\n**TL;DR:** Amera automates claims processing workflows for health insurance payers: \n\n* Reducing plan admin costs by 20-30%\n* Processing claims in minutes vs weeks\n* Providing members with clarity and confidence in what’s covered and what they owe\n\nWe are already working with payers representing tens of thousands of members, giving them access to more affordable and transparent care options.\n\n![uploaded image](/media/?type=post&id=95250&key=user_uploads/2745859/a9f8a106-37a8-4025-84d7-96858702f15d)\n\nhttps://youtu.be/iSqBPqwWwAA\n\n**Healthcare in the US costs way more than it should.**\n\nHealth insurance costs are rising twice as fast as inflation. American families now pay over $30,000 a year for coverage they’re unhappy with. 160 million Americans get insurance through their employer, and to control these costs, many large companies (&gt;250 employees) [self-insure](https://www.healthcare.gov/glossary/self-insured-plan/) - they pay employees' medical claims directly instead of buying traditional insurance from carriers like UnitedHealth or Cigna. But the infrastructure powering these plans is decades old - some core systems still run on COBOL. This legacy stack makes operations manual and expensive, blocking adoption of affordable plan designs or AI-driven automation that could lower costs.\n\n![uploaded image](/media/?type=post&id=95250&key=user_uploads/2745859/82de5250-de61-4b34-9ab4-f0d48503615e)\n\n**Amera is building the modern system-of-record for health insurance administration.** \n\nAmera converts messy claims data from any source into structured data that existing systems can use. From there, we automate repetitive back-office work - validation, reconciliation, and stop-loss reporting - cutting manual effort from hours to seconds and making the processes transparent for the first time.\n\n![uploaded image](/media/?type=post&id=95250&key=user_uploads/2745859/2670349e-9739-426a-b8d2-1c6986a6edfc)\n\nWhy is this hard? Health insurance tech has loose standards. Every plan runs on bespoke systems that cannot talk to each other. Claims arrive in hundreds of formats - EDI, PDFs, fax, proprietary systems - making automation nearly impossible without a unified data layer.\n\nWe’ve built the most comprehensive set of schemas for healthcare docs, designed to map to hundreds of custom formats and be fully interoperable. This makes it easy for us to layer new automation on top of existing systems. \n\n**Team**\n\n![uploaded image](/media/?type=post&id=95250&key=user_uploads/2745859/d1d0a543-8c24-4992-a152-a943133917c6)\n\nWe both went to Penn and later worked together at Rupa Health, where we saw firsthand how outdated health insurance infrastructure makes it nearly impossible to deliver affordable, flexible coverage. \n\nWe’re second time founders that have built and exited companies in workflow automation and healthtech, and spent months working with payers and plan administrators before starting Amera to rebuild the foundation healthcare runs on.\n\n**Our ask**\n\nConnect us with decision-makers in the self-insured ecosystem - especially TPAs, stop-loss carriers, or benefits advisors.",
+      "url": "https://www.ycombinator.com/launches/OmI-amera-automating-health-insurance-claims-processing",
+      "votes": 30,
+      "created_at": "2025-11-06T17:03:24.976Z"
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "id": 27971,
+  "name": "Arroyo",
+  "slug": "arroyo",
+  "former_names": [],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/1a7f1c3e5b076e80781490318e3dfe43f0db3a2b.png",
+  "website": "https://www.arroyo.dev",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "Arroyo is a serverless stream processing platform built on top of the open-source Arroyo streaming engine. We allow companies to transform, filter, aggregate, and join their Kafka streams in real-time just by writing SQL. We charge purely based on usage, with no fixed costs or clusters to manage.\r\n\r\nIn 2025, Arroyo was acquired by Cloudflare and now powers Cloudflare Pipelines",
+  "one_liner": "Cloud-native stream processing",
+  "team_size": 2,
+  "industry": "B2B",
+  "subindustry": "B2B -> Infrastructure",
+  "launched_at": 1674589009,
+  "tags": [
+    "Developer Tools",
+    "SaaS",
+    "Open Source",
+    "Cloud Computing"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Winter 2023",
+  "status": "Acquired",
+  "industries": [
+    "B2B",
+    "Infrastructure"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/arroyo",
+  "api": "https://devasheeshg.github.io/yc-api/batches/winter-2023/arroyo.json",
+  "year_founded": 2022,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "",
+  "x_url": "https://twitter.com/ArroyoSystems",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/1a7f1c3e5b076e80781490318e3dfe43f0db3a2b.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Diana Hu",
+    "url": "https://www.ycombinator.com/people/diana-hu"
+  },
+  "founders": [
+    {
+      "user_id": 61370,
+      "full_name": "Micah Wylde",
+      "title": "Founder",
+      "founder_bio": "Micah was previously tech lead for streaming compute at Splunk and Lyft, where he built real-time data infra powering Lyft's dynamic pricing, ETA, and safety features. He spends his time rock climbing, playing music, and bringing real-time data to companies that can't hire a streaming infra team.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/wylde/",
+      "x_url": "https://twitter.com/mwylde",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/4045d99fbf85dd9b5551c8d3ce5084cfd118be76.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 69175,
+      "title": "Arroyo - Serverless stream processing",
+      "tagline": "Build real-time data pipelines in SQL without a real-time platform team",
+      "body": "Hey everyone, we’re Micah and Jackson, and we’re building Arroyo. Arroyo is the easiest way to build powerful streaming ⚡️ data pipelines. Just connect your Kafka, then you can filter, aggregate, window, and join your event data in real time with sub-second results. We fully manage the infrastructure, autoscale with your data, and charge based on usage with no fixed costs.\n\n![uploaded image](/media/?type=post&id=69175&key=user_uploads/61370/f468f5b0-8088-4982-abd8-a45e143f02a8)\n\n## **💥 The problem: real-time data processing is too hard.**\n\nMany companies have adopted Kafka to collect and route their event data. But if they want to actually _do_ anything complex with that data, their options today are to use a complex solution like Flink or dump it in a data warehouse for batch processing.\n\n## **⚡️ The solution**\n\nAfter leading streaming teams at Lyft and Splunk, we’ve seen how critical real-time data can be. At Lyft this infrastructure was vital to the operation of the product, powering features like dynamic pricing, ETAs, safety, and fraud. We’re working to bring it to everyone by solving the hard infrastructure and UX problems of existing solutions.\n\nIt’s three steps to get started writing real-time queries:\n\n1. Tell us how to connect and authenticate against your Kafka cluster\n2. Configure the source and sink topics\n3. Write SQL\n\nFrom there, our system will compile your query into an efficient dataflow program that responds to events within milliseconds and pushes results to Kafka. We charge purely on usage (based on data in, query complexity, and window sizes) with no minimums. Our system automatically scales with your data volume, and there’s no need to manage clusters or provision fixed infrastructure.\n\n![uploaded image](/media/?type=post&id=69175&key=user_uploads/61370/8789103e-9032-4cf3-bc1e-3f9bcf03a026)\n\n## **What can you use this for?**\n\n* Compute real-time ML features\n* Detect fraud and abuse as it happens\n* Turn your daily analytics jobs into real-time queries\n* Filter/redact/aggregate your logs before indexing, or turn them into metrics\n* Reduce costs in your data warehouse by pre-aggregating before ingestion\n\n## **The backstory**\n\nMicah spent four years at Lyft and Splunk building streaming platforms on top of Apache Flink and Kubernetes. Teams shipped impactful features backed by that infrastructure, but it still wasn’t easy enough for non-experts to adopt. Users wanted the same UX they had for batch: just write SQL, don’t worry about operations, scale, or the nuances of the infra. But the underlying tech wasn’t good enough.\n\nWe started Arroyo because we believe this goal is now achievable, but it requires looking beyond existing technology like Flink. That’s why we’re building a new, cloud-native stream processing engine in Rust. We’ve designed it from the ground up for near-instant rescaling and recovery even with very large windows (something that can take hours with Flink!) by separating storage and compute. And by leveraging WASM for user-defined functions, we can run user code efficiently and securely.\n\n## **Get in touch!**\n\nIf you use a stream processing system like Flink or Spark Streaming, or would like to make use of your event data in Kafka, we’d love to talk! We’re excited help you solve your real-time data problems or turn an existing batch workflow into a streaming pipeline. Reach us at [founders@arroyo.systems](mailto:founders@arroyo.systems).",
+      "url": "https://www.ycombinator.com/launches/Hzj-arroyo-serverless-stream-processing",
+      "votes": 29,
+      "created_at": "2023-02-09T20:11:44.194Z"
+    }
+  ]
+}

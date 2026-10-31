@@ -1,0 +1,95 @@
+{
+  "id": 22665,
+  "name": "Waypoint",
+  "slug": "waypoint",
+  "former_names": [
+    "Metaccountant",
+    "Marketbase"
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/6bbc4ee18717a8743a3b77c32098b2eeafb4fe72.png",
+  "website": "https://www.usewaypoint.com",
+  "all_locations": "United States; Remote",
+  "long_description": "Waypoint combines a modern email API with a visual template builder so teams can ship faster.\r\n\r\nAlternative to SendGrid, MailGun, or Postmark.",
+  "one_liner": "The email API built for product teams",
+  "team_size": null,
+  "industry": "B2B",
+  "subindustry": "B2B",
+  "launched_at": 1620188785,
+  "tags": [
+    "SaaS",
+    "B2B",
+    "Design",
+    "Email",
+    "APIs"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Winter 2021",
+  "status": "Active",
+  "industries": [
+    "B2B"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada",
+    "Remote",
+    "Fully Remote"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/waypoint",
+  "api": "https://devasheeshg.github.io/yc-api/batches/winter-2021/waypoint.json",
+  "year_founded": null,
+  "city": null,
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/usewaypoint/",
+  "x_url": "http://twitter.com/usewaypoint",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/6bbc4ee18717a8743a3b77c32098b2eeafb4fe72.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": null,
+  "founders": [
+    {
+      "user_id": 18473,
+      "full_name": "Jordan Isip",
+      "title": "Founder",
+      "founder_bio": "Product designer with over 15 years of experience helping grow and develop new products within large organizations and small startups.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/jordanisip/",
+      "x_url": "https://twitter.com/fixie",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/020ecb15b8964c8d3fb37590cde5f487ee58ae3a.jpg"
+    },
+    {
+      "user_id": 16349,
+      "full_name": "Carlos Rodriguez-Rosario",
+      "title": "Founder",
+      "founder_bio": "Puerto Rican, now living in Portland, OR. Interested in payments, taxes compliance, infrastructure as a service, messaging tools.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/carlosrr/",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/0a37d1ae0b568d543e18d9f896090989a415cf7b.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 71975,
+      "title": "Waypoint – a refreshingly simple way to send data-rich transactional emails",
+      "tagline": "Software teams use Waypoint to build, orchestrate, deliver, and monitor email notifications – with little to no code.",
+      "body": "### **Hi 👋**\n\nWe’re Jordan and Carlos and we’re excited to share our new product called [Waypoint](https://www.usewaypoint.com/). Waypoint makes it easy for software teams to design, orchestrate, monitor product-triggered emails. Think of it as an email delivery service that is geared for data-rich transactional emails (like order confirmations, reminders, receipts, alerts, and other system notifications).\n\n### **The problem**\n\nAdding data-rich email notifications to software in 2023 is still a pain. Most email tools are repurposed marketing email builders for templates with little to no dynamic data. This means getting data into branded templates and setting up logic around them (eg. delays) still requires significant code within your code base. Additionally, existing tools are lacking from an observability standpoint which makes it difficult for developers to test and debug.\n\nWhile it’s easy to hate on emails, the truth is that emails still act as the ‘[glue of UX](https://www.usewaypoint.com/blog/transactional-emails-the-glue-of-ux-for-marketplaces)’ for most platforms and it is often the key to onboarding and engaging users.\n\n### \n\n### **The solution**\n\n\\\n**Demo video (4.5 min)**\n\n<https://www.youtube.com/watch?v=VVz4cupc8gA>\n\n\\\n**Design**\n\n![uploaded image](/media/?type=post&id=71975&key=user_uploads/18473/8cfed776-9039-4bee-8f46-0d679c59d098)\n\n* Create templates that match your brand in minutes.\n* Use our block-based template builder that works seamlessly with [Liquid templating](https://liquidjs.com/) and [Markdown](https://www.markdownguide.org/).\n* Build with confidence knowing templates render well across clients and devices.\n\n\\\n**Orchestrate**\n\n![uploaded image](/media/?type=post&id=71975&key=user_uploads/18473/610a5230-8d68-4cd8-b6a2-3924c2cd6731)\n\n* Trigger templates and workflows using our simple [developer friendly API](https://www.usewaypoint.com/docs).\n* Automate workflows with conditionals and delays using a visual builder.\n* Deliver emails reliably through world-class infrastructure.\n\n\\\n**Monitor**\n\n![uploaded image](/media/?type=post&id=71975&key=user_uploads/18473/aa5c76c1-3ae6-4c24-9c22-587d837d450e)\n\n* See a full timeline of events. From initial trigger to clicks.\n* Be informed of bounces or any other exceptions.\n* Log a receipt of the full email content and data variables for every mail.\n\n\\\n**Customer quote**\n\n> _\"Waypoint team and support surpassed our expectations, ensuring a seamless transition from Sendgrid. Their liquid templating simplified the conversion of our existing emails, and since migrating, their service has been flawless. Our emails no longer end up in spam folders, leading to an impressive increase in our onboarding conversion rates. Waypoint's fast and reliable deliverability has taken our account verification success from below 50% to nearly 100%.”_\n\n– Dallin Dyer, CTO of [Dree.com](http://Dree.com)\n\n### \n\n### **Interested?**\n\nWe’d love to help. [Request access](https://www.usewaypoint.com/access) on [Waypoint](https://www.usewaypoint.com/) and mention ‘Launch YC’ to get to the front of the waitlist.",
+      "url": "https://www.ycombinator.com/launches/Iit-waypoint-a-refreshingly-simple-way-to-send-data-rich-transactional-emails",
+      "votes": 22,
+      "created_at": "2023-06-01T13:45:13.152Z"
+    }
+  ]
+}

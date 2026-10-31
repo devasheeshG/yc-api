@@ -1,0 +1,102 @@
+{
+  "id": 34926,
+  "name": "Orgo",
+  "slug": "orgo",
+  "former_names": [],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/2e545998082b7c19d428d475144fca56ffb388bb.png",
+  "website": "https://www.orgo.ai",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "Orgo is the simplest way to give your AI employees their own secure, persistent cloud computers. Over 1000 teams use Orgo to run AI workers.",
+  "one_liner": "Computers for Agents",
+  "team_size": 0,
+  "industry": "B2B",
+  "subindustry": "B2B -> Infrastructure",
+  "launched_at": 1792474206,
+  "tags": [
+    "Developer Tools",
+    "Cloud Computing",
+    "AI"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Fall 2026",
+  "status": "Active",
+  "industries": [
+    "B2B",
+    "Infrastructure"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/orgo",
+  "api": "https://devasheeshg.github.io/yc-api/batches/fall-2026/orgo.json",
+  "year_founded": null,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/orgoai/",
+  "x_url": "https://x.com/orgo",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": "https://github.com/OrgoAI",
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/2e545998082b7c19d428d475144fca56ffb388bb.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Andrew Miklas",
+    "url": "https://www.ycombinator.com/people/andrew-miklas"
+  },
+  "founders": [
+    {
+      "user_id": 3656742,
+      "full_name": "Spencer Kinney",
+      "title": "Founder/CEO",
+      "founder_bio": "Founder @ Orgo - give your AI agent a computer. Z Fellow. Prev JPMorgan.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/spencerkinney/",
+      "x_url": "https://x.com/spncrk",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/f9a4b888e3965c9b81e38a46c084a509144ad787.jpg"
+    },
+    {
+      "user_id": 1351160,
+      "full_name": "Nick Vasilescu",
+      "title": "Founder/COO",
+      "founder_bio": "Co-founder at Orgo, cloud computers for AI agents. Previously ran computeruse.agency, building Computer-Use Agents for businesses. BS Molecular Biology, NU. MS Innovation Design, WSU.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/nickvasilescu/",
+      "x_url": "https://x.com/nickvasiles",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/ca4aa18c206acc66c3e4d1ecceee251f5517a7f2.jpg"
+    },
+    {
+      "user_id": 1335153,
+      "full_name": "Tiger Wang",
+      "title": "Founder/CTO",
+      "founder_bio": "Co-founder CTO at Orgo. UIUC Math&CS.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/tigeryw",
+      "x_url": "https://x.com/tigerywang",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/21e865d6c8a8093da860f9dd49037fa4b32d0dda.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 123737,
+      "title": "Orgo - Computers for Agents",
+      "tagline": "Orgo gives AI agents their own cloud computers.",
+      "body": "**TL;DR: Orgo gives AI agents their own cloud computers. Persistent desktops, ready in seconds, that work with any model or agent.**\n\nWhether you're building an AI employee, an always-on assistant or an agent connected to hardware, it needs a computer to run tools, keep files and use software. Orgo gives it one, and we already run thousands of desktops in production.\n\nBuilding that yourself means months of work on VMs, desktop streaming, storage, snapshots, isolation and autoscaling before your agent does anything useful. With Orgo, you launch a desktop in seconds and get back to building your agent.\n\n![uploaded image](/media/?type=post&id=123737&key=user_uploads/3656742/39fcbc6a-54d0-4d01-b1dc-733b90957d9d)\n\n_^ A few fun examples above of AI agents using remote computers from Orgo, along with a couple of GPU demos (Minecraft and UE5) from our GPU desktop beta._\n\n**What you get:**\n\n* **Full GUI desktops, ready in seconds:** browser, apps, terminal, and persistent files.\n* **Templates:** set up apps and settings once, then reuse them for every new computer.\n* **Clone and resize:** duplicate and fork any computer, or change CPU and RAM live.\n* **Live view:** watch your agent in your browser, sign in to apps for it, or take control.\n* **Scale:** add computers, adjust resources, and manage team access from one dashboard and API.\n* **Simple API**: create, manage, and control cloud computers via API, CLI, MCP, or SSH.\n\n---\n\nWorks with any model (Claude, GPT, Gemini) and any agent framework. Agent-ready desktops with a full API, CLI, and MCP. Folks love running agents like Hermes, OpenClaw, or Codex directly on the computer, so they keep working when your laptop is closed. See all features at [docs.orgo.ai](http://docs.orgo.ai).\n\nLinux and Windows are live in our self-serve console, with plans starting at $29/month. Mac and GPU desktops are in closed beta, and you can reach out if you need custom hardware or devices\n\n_Docs: [https://docs.orgo.ai/api-reference/introduction](https://docs.orgo.ai/api-reference/introduction)_\n\n_X: @Orgo ([https://x.com/Orgo](https://x.com/Orgo))_",
+      "url": "https://www.ycombinator.com/launches/WBl-orgo-computers-for-agents",
+      "votes": 5,
+      "created_at": "2026-10-21T18:52:17.507Z"
+    }
+  ]
+}

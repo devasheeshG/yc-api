@@ -1,0 +1,74 @@
+{
+  "id": 35751,
+  "name": "Rystic",
+  "slug": "rystic",
+  "former_names": [
+    "Rystic, Inc."
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/bfa5e505d77a3f64c4f5ed8941cc14f8318a3a34.png",
+  "website": "https://rystic.ai",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "",
+  "one_liner": "Train models and test agents in high-fidelity simulated environments",
+  "team_size": 2,
+  "industry": "B2B",
+  "subindustry": "B2B -> Engineering, Product and Design",
+  "launched_at": 1790916343,
+  "tags": [
+    "Developer Tools",
+    "B2B",
+    "Enterprise Software",
+    "AI"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Fall 2026",
+  "status": "Active",
+  "industries": [
+    "B2B",
+    "Engineering, Product and Design"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/rystic",
+  "api": "https://devasheeshg.github.io/yc-api/batches/fall-2026/rystic.json",
+  "year_founded": 2026,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/rystic/",
+  "x_url": "https://x.com/RysticAI",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/bfa5e505d77a3f64c4f5ed8941cc14f8318a3a34.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Grey Baker",
+    "url": "https://www.ycombinator.com/people/grey-baker"
+  },
+  "founders": [],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 125187,
+      "title": "Rystic: Test your AI agents with local copies of Slack, Stripe, and Google Drive 🧪",
+      "tagline": "Test your agent in a simulated world before unleashing it on the real one.",
+      "body": "Hey everyone, we’re [Evan Whitehouse](https://www.linkedin.com/in/evwhitehouse/) and [Zachary Kiihne](https://www.linkedin.com/in/zachary-kiihne-56b944129) from Rystic 👋.\\\n\\\n**TL;DR**\n\nRystic gives your agent working copies of the tools it acts on: Slack, Stripe, Google Drive, and 14 more. Your tests can check what the agent actually _did_, not just what it said. Each copy keeps its state, runs locally or in CI, and is checked against the real service every day .\\\n\\\nEvery test job gets its own isolated copy, so tests run in parallel: **50 Stripe test jobs finished in 19 seconds, compared with 40+ minutes on shared real-API sandboxes.**\n\n![uploaded image](/media/?type=post&id=125187&key=user_uploads/1541344/455d2179-8995-42bb-afcf-20ed45dfef14)\n\n**Asks**: Building an agent that acts on real systems? Try free on [rystic.ai](http://rystic.ai). For custom environments, including internal services, get in touch at [founders@rystic.ai](mailto:founders@rystic.ai).\n\n**The Problem**\n\nAt a previous job, the first agent we gave write access to GitHub flooded our CI runners by creating hundreds of PRs within a few minutes. There was no way to iterate on our agent without running it against our production systems.\\\n\\\nWhen giving an agent write access to a system with real consequences, how can you trust that they’ll behave properly?\n\n<https://youtu.be/8dvzTRv_la8>\n\n**How We Solve It**\n\nRystic can simulate an API or Web app as a lightweight binary. Run it anywhere and get behavior that matches the real thing. These simulators are stateful: delete data, query it, and you’ll get the same error the real service returns.\n\nA simulator also lets you test things you never could with the real API. What happens when latency triples? What if the data feed’s websocket connection drops in the middle of placing an order? With a simulator, you can script the failure cases that matter and prove you handle them correctly.\n\nWe use these to create an environment which can be seeded with either real trace data or synthetic data, so you can validate your agents’ actions and their impacts before you release them.\n\n**Why You Can Trust It**\n\nHow do you know the simulator behaves like the real thing? We check every simulator against the real service daily and publish the results. Our simulator matches Stripe on [99.1% of 1,813 checks](https://www.rystic.ai/simulators), and every known difference is listed.\n\n![uploaded image](/media/?type=post&id=125187&key=user_uploads/1541344/8c3c4791-70e6-4a1f-9331-68b7a680742b)\n\n**Catalog**\n\n![uploaded image](/media/?type=post&id=125187&key=user_uploads/1541344/b5629ce4-59fa-468a-99db-e07e63172d5a)\n\n**The Team**\\\nWe met all the way back in 2016 when we were up and coming professional Magic: the Gathering players. We practiced together and spent over a year on the same pro team. Evan finished 2018 ranked #2 on the SCG tour, the largest independent circuit; Zach made the Top 8 at three Pro Tours, the game's premier event. Then we both pivoted into software engineering.\n\nSince then, Evan graduated with honors from Columbia CS and helped build Roblox’s service mesh from 0→1, supporting hundreds of millions of concurrent requests. Zach has spent 5 years at Google, and shipped AI integrations in Gmail and Google Docs to billions of people.\n\nWe learned to win at Magic by finding the edge cases everyone else missed, so we’re building Rystic the same way.",
+      "url": "https://www.ycombinator.com/launches/WZ9-rystic-test-your-ai-agents-with-local-copies-of-slack-stripe-and-google-drive",
+      "votes": 38,
+      "created_at": "2026-10-26T23:00:00.281Z"
+    }
+  ]
+}

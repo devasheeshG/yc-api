@@ -1,0 +1,92 @@
+{
+  "id": 36147,
+  "name": "Reconero",
+  "slug": "reconero",
+  "former_names": [],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/b80e05ae693ed71f511c4061b98e40ea8c93e882.png",
+  "website": "https://reconero.com",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "Officers join the force to protect their communities, yet over 40% of their day is eaten by paperwork that keeps them behind a desk. The burden reaches beyond lost time. Burnout is driving officers out of the force, leaving those who remain carrying an even heavier workload.\r\n\r\nReconero is built to give that time back. By automating reports, forms, analytics, and more, we help officers finish their administrative paperwork faster, spend more time serving their communities, and protect the time they have with their families.",
+  "one_liner": "Reconero helps police officers automate their workflows with AI",
+  "team_size": 2,
+  "industry": "Government",
+  "subindustry": "Government",
+  "launched_at": 1791833877,
+  "tags": [
+    "SaaS",
+    "GovTech",
+    "Data Visualization",
+    "AI"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Fall 2026",
+  "status": "Active",
+  "industries": [
+    "Government"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/reconero",
+  "api": "https://devasheeshg.github.io/yc-api/batches/fall-2026/reconero.json",
+  "year_founded": 2026,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/reconero",
+  "x_url": "",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/b80e05ae693ed71f511c4061b98e40ea8c93e882.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Grey Baker",
+    "url": "https://www.ycombinator.com/people/grey-baker"
+  },
+  "founders": [
+    {
+      "user_id": 3396155,
+      "full_name": "Riwan Azeroual",
+      "title": "Founder/CEO",
+      "founder_bio": "previously built a sentiment analysis company that generated $150k ARR, interned at Safran Electronics & Defense and Europrop International. Created the open-source exploit \"PirateStealer\" that helped ElectronJS (used by OpenAI, Discord, etc) fix code injection.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/riwan-azeroual-19398a359/",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/a25d46c33453e66c2da0eacaf5f07f14d15477be.jpg"
+    },
+    {
+      "user_id": 3640723,
+      "full_name": "Edward \"JiuJiu\" Liu",
+      "title": "Founder/CTO",
+      "founder_bio": "Left CS/Eng @ Stanford to build for the police",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/edward-liu-5030a0282/",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/7fecb24a0266b53ddb28a03095d65f78d90b76bb.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 125459,
+      "title": "Reconero: AI that does police paperwork so officers can keep their communities safe",
+      "tagline": "Reconero automates administrative workflows for law enforcement with AI",
+      "body": "**TL;DR:** Reconero is an AI platform for police departments. Reconero answers policy and law questions in seconds, reviews hours of bodycam footage and pulls out the key moments, and drafts reports from the video. It sits on top of existing records and dispatch systems, so deployment is seamless and pain-free.\n\n**Launch Video:** <https://youtu.be/lFBvZeNyzJM>\n\n**Hi! We’re Edward and Riwan. We built Reconero, a platform for law enforcement that automates administrative workflows with AI.**\n\n**The problem**\n\nOfficers spend a huge share of every shift on work that isn't policing. Studies have estimated roughly 40% of an officers work is spent behind a desk.\n\n* **Paperwork.** After a DUI arrest, an officer may owe an incident report, a crash report, an implied-consent form and a toxicology request before the end of the shift. Each form repeats the same facts in a different layout.\n* **Footage.** A single stop can produce 30 to 40 minutes of bodycam video. Finding the one moment you need means scrubbing through it by hand, and that's before CCTV, dash cam and interview-room footage.\n* **Answers.** \"Which forms do I need?\" and \"What does policy say here?\" often means a call to a sergeant or digging through general orders mid-shift.\n* **Data.** Command staff want a simple answer, like DUI arrests by month or where incidents cluster, but have to wait days for someone to pull a report.\n\n**Reconero**\n\n* **Ask anything, by voice or text.** \"I responded to a fatal DUI crash. What forms do I need?\" Reconero answers in seconds and cites your department's policy and state law.\n* **Reviews every kind of video.** Bodycam, CCTV, dashcam and interview recordings. Reconero scans the whole recording, finds every key moment (sobriety tests, searches, arrests) and timestamps each one, so officers jump straight to it.\n* **Writes the paperwork.** Reconero drafts the report narrative from the footage, with each line linked to its timestamp. It also picks the right forms for the case and fills them in. The officer reviews and signs.\n* **Any graph from any question.** Ask in plain English and get charts of arrests, case clearance and hotspots in seconds.\n* **Sits on top of your RMS and CAD.** Reconero reads the systems you already have. No migration, no rip and replace.\n\n**Team**\n\nRiwan Azeroual and Edward \"JiuJiu\" Liu started Reconero to give officers back the hours they lose to paperwork. Riwan was in defense at Safran and JiuJiu was studying CS/Eng at Stanford. Reconero is shaped by conversations with over 100 officers about exactly where their time goes.\n\n**Our ask**\n\n* **Intros:** Know a chief or decision-maker at an agency? We’d love to connect!\n* **Chiefs and command staff:** Book a demo at [**reconero.com**](http://reconero.com)\n* **Officers:** If you've ever lost an evening to paperwork, reply or email [contact@reconero.com](mailto:contact@reconero.com). We want to hear if we can help you.",
+      "url": "https://www.ycombinator.com/launches/WdX-reconero-ai-that-does-police-paperwork-so-officers-can-keep-their-communities-safe",
+      "votes": 5,
+      "created_at": "2026-10-30T18:00:00.226Z"
+    }
+  ]
+}

@@ -1,0 +1,133 @@
+{
+  "id": 28037,
+  "name": "Diffuse Bio",
+  "slug": "diffuse-bio",
+  "former_names": [],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/961a0aa4b25ffd0049a0526af8ad2406763125f4.png",
+  "website": "http://diffuse.bio",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "Diffuse is building generative AI for protein design. Our mission is to build AI systems that engineer new and useful proteins with unprecedented control and accuracy. Our team has been behind breakthroughs in AI protein design for the past 7 years, including the first experimental validation of AI-generated proteins and diffusion models for protein structure and sequence. ",
+  "one_liner": "Generative AI for protein design",
+  "team_size": 10,
+  "industry": "Healthcare",
+  "subindustry": "Healthcare -> Drug Discovery and Delivery",
+  "launched_at": 1673220633,
+  "tags": [
+    "AI-powered Drug Discovery",
+    "Deep Learning",
+    "Generative AI",
+    "Machine Learning",
+    "Biotech"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": true,
+  "nonprofit": false,
+  "batch": "Winter 2023",
+  "status": "Active",
+  "industries": [
+    "Healthcare",
+    "Drug Discovery and Delivery"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada",
+    "Remote",
+    "Partly Remote"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/diffuse-bio",
+  "api": "https://devasheeshg.github.io/yc-api/batches/winter-2023/diffuse-bio.json",
+  "year_founded": 2022,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "",
+  "x_url": "",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/961a0aa4b25ffd0049a0526af8ad2406763125f4.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": null,
+  "founders": [
+    {
+      "user_id": 459396,
+      "full_name": "Namrata Anand",
+      "title": "Founder",
+      "founder_bio": "I’m a bioengineer / computer scientist who’s worked on problems at the intersection of machine learning and biology. For the past several years, I’ve been working on re-envisioning the computational protein design toolkit with AI. Some highlights are the first crystal structures of AI-designed proteins and diffusion models for protein structure generation. ",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/namrata-a-427807188/",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/c568c0115ac04f5eeda9ed9ac55bb03c82d123dc.jpg"
+    }
+  ],
+  "jobs": [
+    {
+      "id": 57697,
+      "title": "ML Research Engineer",
+      "url": "https://www.ycombinator.com/companies/diffuse-bio/jobs/xqlE8GS-ml-research-engineer",
+      "location": "Menlo Park, CA, US / Remote (US; CA)",
+      "type": "Full-time",
+      "role": "Engineering",
+      "role_type": "Machine learning",
+      "salary_range": "$90K - $130K",
+      "equity_range": "0.10% - 0.60%",
+      "experience": "3+ years",
+      "visa": "Will sponsor",
+      "skills": [
+        "Python",
+        "Deep Learning",
+        "Machine learning"
+      ]
+    },
+    {
+      "id": 57699,
+      "title": "Software Engineer",
+      "url": "https://www.ycombinator.com/companies/diffuse-bio/jobs/vOf4HTO-software-engineer",
+      "location": "Menlo Park, CA / Remote (US)",
+      "type": "Full-time",
+      "role": "Engineering",
+      "role_type": "Full stack",
+      "salary_range": "$90K - $130K",
+      "equity_range": "0.05% - 0.60%",
+      "experience": "3+ years",
+      "visa": "US citizen/visa only",
+      "skills": [
+        "C++",
+        "Google Cloud",
+        "Python",
+        "SQL",
+        "Google App Engine"
+      ]
+    }
+  ],
+  "news": [
+    {
+      "title": "Scientists use new A.I. tech to fight diseases - YouTube",
+      "url": "https://www.youtube.com/watch?v=bJ_Zw99TZ_w&t=168s",
+      "date": "Feb 14, 2023"
+    },
+    {
+      "title": "A.I. Turns Its Artistry to Creating New Human Proteins - The New York Times",
+      "url": "https://www.nytimes.com/2023/01/09/science/artificial-intelligence-proteins.html",
+      "date": "Jan 09, 2023"
+    }
+  ],
+  "launches": [
+    {
+      "id": 69997,
+      "title": "🧪 ⚛️ Diffuse Bio: Generative AI for protein design",
+      "tagline": "At Diffuse, we build new therapeutics, vaccines, and enzymes with AI!",
+      "body": "Hi 👋🏾 I’m Namrata, founder of ⚛️⚛️⚛️ **Diffuse Bio!** ⚛️⚛️⚛️\n\nAt Diffuse, we computationally design therapeutics, vaccines, and enzymes better, faster, and cheaper — but most importantly, we generate **molecules that simply can’t be designed with existing methods today**.\n\n### The Problem:\n\nProteins are macromolecules that mediate a significant fraction of the cellular processes that underlie life. An important task in bioengineering is designing proteins with specific 3D structures and chemical properties which enable targeted functions. \n\nSo far, computational protein design methods have had some success — but have enormous limitations, the primary one being **low success in downstream validation experiments**. These methods are also painfully slow and scale poorly.\n\n### What we do:\n\nFor the past several years, I’ve been working on **re-envisioning the computational protein design toolkit with AI** in my PhD and beyond, with the goal of overcoming these challenges. Some highlights are the first crystal structures of [AI-designed proteins](https://www.nature.com/articles/s41467-022-28313-9) (i.e. experimental validation) and the **first diffusion models** for [protein structure and sequence generation](https://nanand2.github.io/proteins). Below you can see one of our early models producing structures unconditionally from noise!\n\n![uploaded image](/media/?type=post&id=69997&key=user_uploads/459396/08cd90de-6450-4ebe-8873-a77d625e0ed1)\n\nNow, we’re **scaling up these methods** and **applying them to grand challenge problems in molecular design**. We’re able to handle a whole array of protein engineering tasks at the _push of a button_ — from loop redesign and sequence engineering, all the way to binder design and _de novo_ structure generation. \n\n### Curious to learn more?\n\nCheck out our coverage in the [**New York Times**](https://www.nytimes.com/2023/01/09/science/artificial-intelligence-proteins.html#:\\~:text=Namrata%20Anand%2C%20a%20former%20Stanford%20University%20researcher.%20She%20is%20now%20building%20a%20company%20in%20generative%20A.I.%20protein%20design) and [**NBC news**](http://bit.ly/3JjgVKL), and get in touch at [info@diffuse.bio](mailto:info@diffuse.bio)!\n\n### We’d love your help!\n\n* If you’re working on any protein or molecular engineering problem, we’d love to hear from you!\n* We’d love **intros to pharma and biotech companies** working on problems in protein therapeutics, antigen design, and enzyme design. \n* We’d also love intros to any companies (preferably early stage) doing **high-throughput protein characterization** **assays** (yeast display, phage display, etc).\n* Sign up [here](https://docs.google.com/forms/d/e/1FAIpQLSdamv0S3LB2cyVLJXT6QdCG2g71Lobwkw59qTYGullYgqg7bw/viewform?usp=sf_link) to **beta test** our first-gen protein design software!",
+      "url": "https://www.ycombinator.com/launches/ICz-diffuse-bio-generative-ai-for-protein-design",
+      "votes": 65,
+      "created_at": "2023-03-07T05:47:09.229Z"
+    }
+  ]
+}

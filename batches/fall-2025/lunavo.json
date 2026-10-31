@@ -1,0 +1,93 @@
+{
+  "id": 30865,
+  "name": "Lunavo",
+  "slug": "lunavo",
+  "former_names": [],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/3ddcb85e74794b0138c39337072b830c38a4934f.png",
+  "website": "https://lunavo.ai",
+  "all_locations": "BY, Germany",
+  "long_description": "We build AI that runs carrier operations.\r\n\r\nLunavo is the AI assistant for carriers. It plugs directly into their existing toolstack, understands their processes, and monitors all incoming data and requests. Lunavo runs end-to-end backoffice operations, handling repetitive tasks, resolving issues autonomously, and escalating only what matters.\r\n\r\nLunavo helps carriers scale operations without scaling headcount.",
+  "one_liner": "Lunavo is the AI assistant for carriers.",
+  "team_size": 2,
+  "industry": "B2B",
+  "subindustry": "B2B -> Supply Chain and Logistics",
+  "launched_at": 1762148896,
+  "tags": [
+    "Logistics",
+    "Transportation",
+    "Operations",
+    "AI Assistant"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Fall 2025",
+  "status": "Active",
+  "industries": [
+    "B2B",
+    "Supply Chain and Logistics"
+  ],
+  "regions": [
+    "Germany",
+    "Europe"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/lunavo",
+  "api": "https://devasheeshg.github.io/yc-api/batches/fall-2025/lunavo.json",
+  "year_founded": 2025,
+  "city": null,
+  "country": "DE",
+  "linkedin_url": "https://www.linkedin.com/company/lunavo-ai",
+  "x_url": "",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/3ddcb85e74794b0138c39337072b830c38a4934f.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "David Lieb",
+    "url": "https://www.ycombinator.com/people/david-lieb"
+  },
+  "founders": [
+    {
+      "user_id": 2673176,
+      "full_name": "Felix Lösch",
+      "title": "Founder/CEO",
+      "founder_bio": "Co-Founder & CEO of Lunavo | Building AI that runs carrier operations\n\nEx-McKinsey and former Managing Director at a Series A robotics logistics startup, where he scaled commercial and operations functions.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/felix-loesch",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/3943632025f5bce2ff8c24966ec5eb97c306e1af.jpg"
+    },
+    {
+      "user_id": 2331002,
+      "full_name": "Niclas Heun",
+      "title": "Founder/CTO",
+      "founder_bio": "Co-Founder & CTO @ Lunavo | Building AI that runs carrier operations.\n\nHe studied CS at the Technical University of Munich and the University of Waterloo, graduating top of his class. He previously worked as an AI researcher on model robustness and led teams developing AI for shop-floor operations for Siemens.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/heun",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/f9fcec95d0ff97373166d4466a58c892da81f1d2.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 95229,
+      "title": "Lunavo - The AI assistant for trucking carrier operations",
+      "tagline": "AI that runs your backoffice - so your team can run logistics.",
+      "body": "Hi everyone, we’re Niclas and Felix, and we’re launching Lunavo!\n\n**TLDR:**\n\nLunavo is the AI assistant that automates the backoffice of trucking carriers so teams can focus on customers and growth.\n\n_Launch Video:_\n\nhttps://youtu.be/fKWHgdt8hv0 \n\n**The problem:**\n\nTrucking carriers coordinate complex operations to transport goods from A to B , but they spend most of their time on repetitive admin work like entering orders, updating portals, and checking systems. Most communication is still handled manually.\n\nThis creates two problems. First, teams waste hours on busywork instead of managing operations. Second, the noise makes it nearly impossible to spot issues that need attention until it's too late. A delayed pickup, missing document, or customer escalation only gets noticed when it's already urgent.\n\nThe real complexity isn't in data entry. It's in catching and resolving issues early: rerouting around delays, finding backup capacity, flagging exceptions before they cascade. Carriers need visibility and time to handle what matters, not endless manual updates.\n\nWe sat with dispatchers managing hundreds of shipments a day and saw their inbox and phone effectively act as their task managers.\n\n·   Many handle between 50 and 100 emails per hour, and most of them are repetitive.\n\n·   Teams constantly pull data from emails, PDFs, and portals into their Transport Management System (TMS).\n\n·   They often jump between ten or more tools that don't communicate properly with each other.\n\nCompanies end up paying skilled employees to move data between tools instead of running logistics\n\n**Our solution:**\n\nLunavo integrates into a carrier's existing systems as an AI teammate. When a new order arrives, it automatically extracts details, updates the TMS, and confirms with the customer. Dispatchers see: \"New order from Customer X confirmed and scheduled.\"\n\n**The system handles routine work while monitoring for exceptions** like delayed pickups, missing documents, or customer escalations, surfacing issues before they become urgent. It understands task dependencies and escalates only what needs human judgment.\n\nBecause logistics workflows often depend on implicit knowledge, our system can understand customer workflows and adapt to it. Our agents self-improve through dispatcher feedback, company documentation, and user-defined rules, automatically adapting to each customer's unique requirements without manual reconfiguration.\n\nLunavo manages to understand incoming documents, extract relevant information, challenges the inputs on plausibility and integrates them into the TMS. In case of anomalies, the system loops in the dispatcher:\n\n![uploaded image](/media/?type=post&id=95229&key=user_uploads/2331002/607a54fb-83cd-423d-8c36-312523817e4b)\n\n**_Before Lunavo_**_:_ A driver is delayed. The dispatcher has to (1) log into the GPS portal, (2) inform the customer with an update, (3) manually update the TMS, and (4) update the customer's portal for delivery time. This takes up to 15 minutes of work.\n\n**_With Lunavo:_** Lunavo detects the truck's GPS delay. It _automatically_ emails the customer, updates their portal, and sends a single notification to the dispatcher to keep him in the loop: \"Driver 5 is delayed 30m. Customer X has been notified. No action needed.\"\n\n![uploaded image](/media/?type=post&id=95229&key=user_uploads/2331002/bdb58f1b-2c10-4e29-b485-d64718f81c6f)\n\nLunavo helps trucking companies scale operations without scaling headcount.\n\n**About us:**\n\n![uploaded image](/media/?type=post&id=95229&key=user_uploads/2331002/531e2a61-c332-4ee9-ae0a-520a28e47341)\n\nWe're Felix and Niclas, founders of Lunavo. Together, we've spent the past years at the intersection of logistics and AI.\n\n·   **Felix** worked with logistics and supply chain companies at McKinsey and later built a robotics logistics company in Germany, spending five years deeply embedded in the industry.\n\n·   **Niclas** studied Computer Science at the Technical University of Munich and the University of Waterloo, focusing on AI security and applied machine learning\n\n**Our ask:**\n\nIf you work in logistics or know someone running operations in road transportation, we would love to connect.\n\nYou can reach us at felix.loesch@lunavo.ai or visit [www.lunavo.ai](http://www.lunavo.ai).",
+      "url": "https://www.ycombinator.com/launches/Olx-lunavo-the-ai-assistant-for-trucking-carrier-operations",
+      "votes": 23,
+      "created_at": "2025-11-05T22:21:16.901Z"
+    }
+  ]
+}

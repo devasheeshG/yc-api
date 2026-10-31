@@ -1,0 +1,94 @@
+{
+  "id": 34897,
+  "name": "AnyAlpha",
+  "slug": "anyalpha",
+  "former_names": [],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/16d8f89e75a1b0b3b62443d7ba1069722a5f4591.png",
+  "website": "https://anyalpha.ai/",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "AnyAlpha is the agentic trading platform. It turns your trading idea into an agent that trades it for you, 24/7.\r\n\r\nStart with an idea. AnyAlpha builds the agent on institutional-grade data, backtests it on historical data, and trades it live on multiple exchanges. We're starting with prediction markets, with more asset classes to follow.",
+  "one_liner": "The agentic trading platform",
+  "team_size": 2,
+  "industry": "Fintech",
+  "subindustry": "Fintech",
+  "launched_at": 1792643362,
+  "tags": [
+    "Fintech",
+    "Marketplace",
+    "Consumer Finance",
+    "Trading"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Fall 2026",
+  "status": "Active",
+  "industries": [
+    "Fintech"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/anyalpha",
+  "api": "https://devasheeshg.github.io/yc-api/batches/fall-2026/anyalpha.json",
+  "year_founded": 2026,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/anyalpha-ai",
+  "x_url": "https://x.com/AnyAlphaAI",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/16d8f89e75a1b0b3b62443d7ba1069722a5f4591.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [
+    "https://bookface-images.s3.us-west-2.amazonaws.com/attachments/4946b45c615d85402b14c13995474f7af2be9f4d.png"
+  ],
+  "primary_partner": {
+    "name": "Nicolas Dessaigne",
+    "url": "https://www.ycombinator.com/people/nicolas-dessaigne"
+  },
+  "founders": [
+    {
+      "user_id": 1353596,
+      "full_name": "Shirley (Shiyi) Peng",
+      "title": "Founder/CEO",
+      "founder_bio": "Co-founder and CEO @ AnyAlpha. Shirley studied computer science at the University of Waterloo and built trading systems at companies including Coinbase and LSEG. Before AnyAlpha, she created MasterInterview, a top-10 GPT in OpenAI’s GPT Store, and she and co-founder Jerry bootstrapped their own apps to $500K ARR.",
+      "is_active": true,
+      "linkedin_url": "https://linkedin.com/in/shiyi-peng",
+      "x_url": "https://x.com/shiyi_peng",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/0d77408441533ba0f6304f18f854a49598ca68ad.jpg"
+    },
+    {
+      "user_id": 2970583,
+      "full_name": "Jerry Miao",
+      "title": "Founder/CTO",
+      "founder_bio": "Co-founder and CTO @ AnyAlpha. Jerry studied computer science at UC Berkeley and spent six years as a solo quant, building his own data, models, backtests and execution. Trading his own money, he grew $50K to seven figures, about 85% a year.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/binxumiao/",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/fc86c682d1658cf7e38353bdc49322f9bb0eb954.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 124520,
+      "title": "AnyAlpha: The agentic trading platform",
+      "tagline": "AnyAlpha turns your trading idea into an agent that trades it for you, 24/7.",
+      "body": "**TL;DR**\n\n* Start with an idea; AnyAlpha works it out with you and builds the agent\n* Backtest it on historical data before it trades\n* Trade live 24/7, on multiple exchanges\n\nWe're starting with prediction markets, then every asset class.\n\n👉 Try it on iOS: <https://apps.apple.com/us/app/anyalpha/id6762422950>\n\n### **❌ The problem**\n\nEveryone has ideas about what happens next: a rate cut, a playoff game, an election, a product launch, a storm. Turning an idea into a trade is the hard part. You have to find the markets that move with it, decide when to buy and sell, check whether it would have worked before, and then watch the market until the moment comes.\n\nSo people do the research by hand from data sites, news, X and Discord, and they trade when they happen to be on their phone. Most ideas never become a trade, and the ones that do are rarely tested first. This is hardest in prediction markets, where information is far more scattered than in stocks, so that's where we're starting.\n\n**🎬 Launch Video**: <https://youtu.be/r21TNgB58lM>\n\n### **✅ How it works**\n\n1. **Start with an idea.** Talk it through with AnyAlpha, and refine it as you go.\n2. **AnyAlpha builds the agent.** It finds the markets that move with your idea and decides when to trade them, running on institutional-grade data and the trading infra we built.\n3. **Backtest.** See how your agent would have done on historical data before it goes live.\n4. **Go live.** Your agent watches the market 24/7 and trades every time its conditions are met.\n\n### **🎯 One example**\n\nOne of our users came up with this idea: **“The most hyped NFL team on social media is overpriced.”**\n\nTheir agent:\n\n1. **Tracks the hype** — follows social attention around NFL teams on X, Reddit and TikTok.\n2. **Checks the price** — compares Kalshi/Polymarket prices with its estimated win probabilities.\n3. **Sets the rules** — defines when social attention and market prices should trigger a trade.\n4. **Tests the thesis** — backtests the strategy across past NFL seasons.\n5. **Takes the other side** — trades against teams it identifies as overpriced, and keeps checking as sentiment and prices change.\n\n![uploaded image](/media/?type=post&id=124520&key=user_uploads/1353596/3ea911d9-3899-4bbd-bf9e-b799b408e74a)\n\n### 🔭 **Our Vision:**\n\n**Autonomous agents will be the fundamental units of trading. AnyAlpha is the platform to create, test, run, and combine them.**\n\n### **👋 Who we are**\n\nWe met at a poker tournament at Microsoft five years ago and have built together for three years, bootstrapping multiple apps to $500K ARR.\n\n**Shirley (CEO, UWaterloo CS):** crypto trading infra at Coinbase, trading terminal at LSEG.\n\n**Jerry (CTO, UC Berkeley CS):** solo quant for 5+ years. Grew $50K of his own money to seven figures, about 85% a year.\n\n### **🙏 Our ask**\n\n* **Trade?** Download [AnyAlpha on iOS ](https://apps.apple.com/us/app/anyalpha/id6762422950)and build your first agent.\n* **Power trader?** We'd love to talk with you one-on-one. Email Shirley directly at shirley@anyalpha.ai.\n* **Data provider?** We're adding data sources for our agents, and we'd love to talk: shirley@anyalpha.ai.",
+      "url": "https://www.ycombinator.com/launches/WOO-anyalpha-the-agentic-trading-platform",
+      "votes": 16,
+      "created_at": "2026-10-26T18:00:00.173Z"
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "id": 30355,
+  "name": "assistant-ui",
+  "slug": "assistant-ui",
+  "former_names": [],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/11f41b527f94c63e7d0ee1e19db038344f713a8f.png",
+  "website": "https://assistant-ui.com",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "assistant-ui helps frontend developers add AI chat to their apps. Our product is used by several dozen companies, like LangChain, Stack AI, Browser Use, and Athena Intelligence. We're building an open source Typescript/React library and a backend as a service, with first class integrations into popular agent frameworks like LangGraph and Vercel AI SDK.",
+  "one_liner": "Open Source React.js Library for AI Chat",
+  "team_size": 3,
+  "industry": "B2B",
+  "subindustry": "B2B -> Infrastructure",
+  "launched_at": 1738873528,
+  "tags": [
+    "Developer Tools",
+    "Generative AI",
+    "Chat",
+    "Web Development",
+    "AI Assistant"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Winter 2025",
+  "status": "Active",
+  "industries": [
+    "B2B",
+    "Infrastructure"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/assistant-ui",
+  "api": "https://devasheeshg.github.io/yc-api/batches/winter-2025/assistant-ui.json",
+  "year_founded": 2024,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://linkedin.com/company/assistant-ui",
+  "x_url": "https://x.com/assistantui",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": "https://github.com/assistant-ui",
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/11f41b527f94c63e7d0ee1e19db038344f713a8f.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [
+    "https://bookface-images.s3.us-west-2.amazonaws.com/attachments/ad1f668d6df40ad631ffb47c3e83f2c68a3d35a3.png"
+  ],
+  "primary_partner": {
+    "name": "Jared Friedman",
+    "url": "https://www.ycombinator.com/people/jared-friedman"
+  },
+  "founders": [
+    {
+      "user_id": 1152943,
+      "full_name": "Simon Farshid",
+      "title": "Founder/CEO",
+      "founder_bio": "Simon is the Founder and CEO of assistant-ui. He previously co-founded READO, a book recommendation engine, and grew it to 140k MAUs. Simon started coding at age 12 and has won 8 hackathons in 5 countries.",
+      "is_active": true,
+      "linkedin_url": "https://linkedin.com/in/simon-farshid",
+      "x_url": "https://twitter.com/simonfarshid",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/af1d0d9c7c17a63007af5dd69ffcd511a7d9bd4e.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 87644,
+      "title": "💬 assistant-ui - Open Source Typescript/React Library for AI Chat",
+      "tagline": "The UX of ChatGPT in your own app, connected to your own AI agents.",
+      "body": "Hi YC! I’m Simon, building **assistant-ui**, an open source Typescript/React library for AI chat.\n\nHundreds of projects use assistant-ui to build in-app AI assistants, including companies like:\n\n![Logos of LangChain, AthenaIntelligence, Browser Use, Stack AI](https://bookface.ycombinator.com/media/?type=post&id=87644&key=user_uploads/1152943/d3eda556-de8c-4404-b4be-c0295f9aeb8e)\n\nWith >50k+ monthly downloads, assistant-ui is the most popular UI library for AI chat.\n\n## **Getting Started**\n\nYou can get started by running **\\`npx assistant-ui create\\`** (new project) or **\\`npx assistant-ui init\\`** (existing project) in your terminal.\n\n![Gif showing the setup process, which takes under 30 seconds](https://bookface.ycombinator.com/media/?type=post&id=87644&key=user_uploads/1152943/17c78ae1-d8cf-4fc4-a8aa-056fe449da02)\n\n## **Features**\n\n* **Pre-built components**, fully customizable\n* **Connects to your backend**\n  * We have first class integration for **AI SDK** and **LangGraph** or build your own\n* **Generative UI**: Map LLM tool calls and JSONs to custom UI components\n* **Frontend Tool Calls:** Let LLMs take action in your frontend app\n* **Human Tool Calls:** Human approvals and input collection\n* **Chat history and analytics** via assistant-cloud (the hosted offering)\n\n## **Customization**\n\nThe API of assistant-ui is inspired by libraries like **Radix UI** and **cmdk**. Instead of a single monolithic chat component, we give you composable primitives and a great starter configuration. You have full control over the look and feel of every pixel while leaving auto-scrolling, LLM streaming and accessibility to us.\n\n![Photo showing the modular component structure. ComposerPrimitive.Input is the chat input field, ComposerPrimitive.Send is the send button.](/media/?type=post&id=87644&key=user_uploads/1152943/d8eacc69-2d94-4c43-8fab-2dcac5e7f029)\n\nSample customization to make a perplexity lookalike:\n\n![Perplexity lookalike Chat UI](/media/?type=post&id=87644&key=user_uploads/1152943/16e96ae2-d563-4f6c-9047-6c3485a1cb3d)\n\n## **Demo Video**\n\n[Demo Video](https://youtu.be/9eLKs9AM4tU?si=jm9GzoFAcyM_tPT-)\n\n## **About**\n\nI’ve wanted to build my own dev tool company since high school. Last year, I built the first version of assistant-ui because I needed the UX of ChatGPT in my own app. The app I was building didn’t work out, but few friends asked me about the chat UI. Since then, AI chat has became increasingly popular as a means for delegating tasks to AI agents. My focus is on enabling human <> agent collaboration through better UX and AX (agent experience).\n\n![Photo of Simon, the founder](https://bookface.ycombinator.com/media/?type=post&id=87644&key=user_uploads/1152943/d43c8332-b160-40d8-8f27-849bd82806e3)\n\n## **Ask**\n\n* [Check out example demos](https://www.assistant-ui.com/)\n* [Star us on GitHub](https://github.com/assistant-ui/assistant-ui)\n* [Join our Discord](https://discord.com/invite/S9dwgCNEFs)\n* [Book a sales call](https://cal.com/simon-farshid/assistant-ui)",
+      "url": "https://www.ycombinator.com/launches/Mnc-assistant-ui-open-source-typescript-react-library-for-ai-chat",
+      "votes": 30,
+      "created_at": "2025-02-13T15:37:24.704Z"
+    }
+  ]
+}

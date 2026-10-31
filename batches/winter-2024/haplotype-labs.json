@@ -1,0 +1,100 @@
+{
+  "id": 29484,
+  "name": "Haplotype Labs",
+  "slug": "haplotype-labs",
+  "former_names": [],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/d7043e2a3ba867786a1c7649c0cda610207599ea.png",
+  "website": "https://www.haplotypelabs.com/",
+  "all_locations": "San Francisco, CA, USA; Remote",
+  "long_description": "We're building the HaploHub: a SaaS platform for genetic testing labs, concierge medical practices, and payer/providers to: \r\n * predict disease risk for their patients based on proprietary or publicly available genetic models\r\n * securely host, manage, and interrogate the genetic data of their population\r\n * generate reports and run the most common inference algorithms (phasing, imputation, ibd, etc.) without writing code \r\n\r\n",
+  "one_liner": "Personalized prevention using genetics and AI",
+  "team_size": 1,
+  "industry": "Healthcare",
+  "subindustry": "Healthcare -> Diagnostics",
+  "launched_at": 1707335059,
+  "tags": [],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": true,
+  "nonprofit": false,
+  "batch": "Winter 2024",
+  "status": "Active",
+  "industries": [
+    "Healthcare",
+    "Diagnostics"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada",
+    "Remote",
+    "Fully Remote"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/haplotype-labs",
+  "api": "https://devasheeshg.github.io/yc-api/batches/winter-2024/haplotype-labs.json",
+  "year_founded": 2024,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/haplotype-labs/",
+  "x_url": "",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/d7043e2a3ba867786a1c7649c0cda610207599ea.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": null,
+  "founders": [
+    {
+      "user_id": 1647013,
+      "full_name": "Mike Polcari",
+      "title": "Founder/CEO",
+      "founder_bio": "Mike is the founder of Haplotype Labs.\nPreviously, Mike served as the VP & Chief Architect at 23andMe. Mike's tenure at 23andMe spanned a 15+ year category-defining journey from Series A through IPO.\nPrior to 23andMe, Mike was an early engineer at Salesforce.com and developed technology at Merrill Lynch.\nMike holds a BS in CS from Cornell, a MS in Biomedical Informatics from Stanford, and multiple patents related to cloud computing, security, genetics, and machine learning.",
+      "is_active": true,
+      "linkedin_url": "https://linkedin.com/in/polcari",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/0a5fe507f8ed320d33aa54b4ed1815adca6b60ff.jpg"
+    }
+  ],
+  "jobs": [
+    {
+      "id": 66442,
+      "title": "Founding Member(s) of Technical Staff",
+      "url": "https://www.ycombinator.com/companies/haplotype-labs/jobs/EfF0ixF-founding-member-s-of-technical-staff",
+      "location": "Berkeley, CA, US / Remote (US)",
+      "type": "Full-time",
+      "role": "Engineering",
+      "role_type": "Full stack",
+      "salary_range": "$60K - $240K",
+      "equity_range": "",
+      "experience": "6+ years",
+      "visa": "US citizen/visa only",
+      "skills": [
+        "Amazon Web Services (AWS)",
+        "Google Cloud",
+        "Python",
+        "Docker",
+        "Bioinformatics",
+        "Biostatistics",
+        "Genomics"
+      ]
+    }
+  ],
+  "news": [],
+  "launches": [
+    {
+      "id": 79664,
+      "title": "Haplotype Labs - Personalized prevention using genetics and AI",
+      "tagline": "Our product, the HaploHub, makes the world's best genetic risk models available to precision prevention programs, clinical trials, and genetic testing labs using any laboratory, microarray or next generation sequencing technology.",
+      "body": "Hi! I’m [Mike](https://linkedin.com/in/polcari), founder of [Haplotype Labs](https://www.haplotypelabs.com). At Haplotype Labs, we believe that more precise prevention and screening will lead to longer healthspan and lower healthcare costs. \n\n![uploaded image](/media/?type=post&id=79664&key=user_uploads/1647013/730b958e-b667-4136-968b-5543aa5b9090)\n\nWe're building the HaploHub: a software platform that helps genetic testing labs, clinical trials, and prevention-focused medical practices to deploy **AI models that use genetics to predict, detect, and prevent disease**.\n\nI joined 23andMe after Series A and helped take it public after over 15 years as VP / Chief Architect. The technology that my team and I developed at 23andMe has delivered more genetic risk reports to more patients than any other in the world, but the translation to patient outcomes remains unsolved. At Haplotype Labs, we are working to close that gap and accelerate the translation of polygenic risk scores into improved healthspan for patients. We’re building the tech I wish I’d had at 23andMe and making it broadly available to the clinic.\n\n**_Precision_ Preventative Care**\n\nPreventative care programs currently stratify patients into risk categories for various conditions based on imperfect but still useful risk factors like demographics and family history. Patient stratification allows a care provider to optimize the financial expense and negative side effects of any given prevention program. For example, people with a family history of colon cancer are typically screened more frequently.\n\nDriven by falling prices of sequencing and improved model power, preventative care is on the cusp of broadly adopting genetic risk models as a means to further personalize these prevention programs and extend healthspan. These models can also play a role in the discovery of new medicines, and can accelerate clinical trials.\n\nPublished methods are improving rapidly and new models are published consistently. However, it is difficult to correctly and reliably compare the performance of these models or deploy them at scale.\n\n**Advanced technology made simple**\n\nWe're building the HaploHub: an easy-to-use SaaS platform for genetic testing labs, concierge medical practices, clinical trials, consumer brands, and payers/providers to:\n\n* predict disease risk for their patients based on proprietary or 4000+ publicly available genetic models using any genome-wide germ-line or methylation assay\n* securely host, manage, and interrogate the genetic data of their population\n* run the most common inference algorithms (phasing, imputation, ibd, etc.) without writing code\n* transition to low-pass sequencing and save 50-90% on sequencing costs\n\n**Get in touch!**\n\nWe’re eager to get this technology out into the world! We would love to speak with concierge practitioners, clinical trial investigators, or anyone interested in using genetics to extend health span. If that sounds like you, please reach out!\n\n[yclaunch@haplotypelabs.com](mailto:yclaunch@haplotypelabs.com)",
+      "url": "https://www.ycombinator.com/launches/Kiu-haplotype-labs-personalized-prevention-using-genetics-and-ai",
+      "votes": 11,
+      "created_at": "2024-03-25T15:28:50.228Z"
+    }
+  ]
+}

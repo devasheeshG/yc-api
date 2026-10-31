@@ -1,0 +1,91 @@
+{
+  "id": 35261,
+  "name": "Asakana",
+  "slug": "asakana",
+  "former_names": [],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/b17bfb784fbfd8ce18bf9fc551a8a6c2a2c68f02.png",
+  "website": "https://www.asakana.co/",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "Restaurants send orders to food distributors by email, text, and photo. Someone at the distributor retypes every one of them into the ERP. Asakana does that entry instead: orders land in the ERP already entered, and anything unclear goes to a person before it goes in. Live at US seafood distributors today, returning 40%+ of order-desk time to selling. Founded by a seafood distributor and a Gemini builder.",
+  "one_liner": "Automating away manual admin for food distributors: texts to ERP",
+  "team_size": 4,
+  "industry": "B2B",
+  "subindustry": "B2B -> Supply Chain and Logistics",
+  "launched_at": 1788189674,
+  "tags": [
+    "SaaS",
+    "Food & Beverage"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Fall 2026",
+  "status": "Active",
+  "industries": [
+    "B2B",
+    "Supply Chain and Logistics"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/asakana",
+  "api": "https://devasheeshg.github.io/yc-api/batches/fall-2026/asakana.json",
+  "year_founded": 2025,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/asakana",
+  "x_url": "",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/b17bfb784fbfd8ce18bf9fc551a8a6c2a2c68f02.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Grey Baker",
+    "url": "https://www.ycombinator.com/people/grey-baker"
+  },
+  "founders": [
+    {
+      "user_id": 2626949,
+      "full_name": "Yudai Matsuoka",
+      "title": "Founder/President",
+      "founder_bio": "Fish-lover🐟 / Ex-Fisherman / Ex-McKinsey. \n\n- Tuna Distributor: Mitsubishi Corporation (Tokyo)\n- Fisherman: Yellowtail fish farm (Kagoshima, Japan)\n- Consultant: McKinsey (Tokyo, New York)\n- MBA: Columbia Business School / UC Berkeley Haas",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/yudai-matsuoka/",
+      "x_url": "https://x.com/asa_sakana_fish",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/ff46b74b7650c8f47e27ea55d3058e50ec7897bd.jpg"
+    },
+    {
+      "user_id": 2103989,
+      "full_name": "Benjamin Solis-Cohen",
+      "title": "Founder/CTO",
+      "founder_bio": "Co-founder at Asakana. Previously senior AI research engineer at Google launching Gemini in Chrome and computer use agents (e.g. Project Mariner back in 2024). Contributed to the first Gemini Computer Use model paper. 8 years at Google spanning Ads ML and AI research.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/bsoliscohen/",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/388993f3bff5ce56aeeba560e6f088831a2797cd.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 122477,
+      "title": "Asakana: Automating sales and the entire back office for food distributors",
+      "tagline": "Asakana translates texts, calls and handwritten notes from restaurants directly into existing ERPs, including orders, credit memos, returns. Restaurants and distributors change nothing. ",
+      "body": "**TL;DR:** Food distributors still receive orders from old-school restaurants via text, phone and handwritten notes, and a rep manually retypes every one into a legacy ERP. Asakana reads those messages and does the entry automatically. Restaurants and reps keep working the way they do today. In production at a US food distributor.\n\n<https://youtu.be/XONUcUsuxSY>\n\n**The problem**\n\nA food distributor runs on messages. Restaurants order by text, phone, WhatsApp, a photo of a handwritten note, often not in English. They report an incorrect, short, or damaged delivery the same way. A rep or an admin staff member reads every one of those messages and enters it by hand into an ERP or spreadsheet: the order, the return, the credit memo.\n\nOne of our customers receives about 60 orders a day this way, some over 75 lines. A sales rep reads each one, works out which of 10 salmon items \"salmon\" means, and types it into the ERP line by line. Then the credit requests from yesterday's deliveries, each one a return and a credit note typed in by hand. Reps there spend about 30% of their day on this.\n\nApps and portals tried to replace this manual work, but old school restaurants and distributor’s sales reps never learned them, so the retyping remained. The US has more than 27,000 food distributors and their 100,000 sales reps and back-office staff suffer from painful manual work like this.\n\n![uploaded image](/media/?type=post&id=122477&key=user_uploads/2103989/75737558-db33-4f61-b265-2230e25c9ef6)\n\n**What Asakana does**\n\nAsakana does the manual work so reps can focus on selling. Restaurants and reps keep working the way they do today. Three steps, the same for every workflow:\n\n* Read messy information: spreadsheets, PDFs, handwritten notes, and messages, down to the photo of the handwritten invoice a driver brings back from a delivery.\n* Understand your business: customer habits, product shorthand, and unwritten rules. \"Same as last Friday\" is order SO-78211. \"AC\" means albacore tuna. Salmon is always skin-on.\n* Connect to your systems: work directly with your existing ERP and tools.\n\nAnything unclear goes to a person before it goes in. The rep gets one email notification per task: what was entered and anything to keep an eye on.\n\nWorkflows we automate this way:\n\n* Order entry\n* Credit memos and returns\n* Upsell suggestions\n* Cutoff reminders\n* Past-due collections\n* PO creation\n* New customer discovery\n\nChinese, Korean, Spanish, Japanese: read the way they were written, with the shorthand and nuance of each language, and matched to the item in the English catalog.\n\nAnything that moves by hand from a message into a system or a spreadsheet, we automate.\n\n**The team**\n\nWe're Yudai and Ben. Yudai was a fisherman and a seafood distributor (Mitsubishi Corporation), where he did this manual work himself, then at McKinsey transformed companies that still ran on it. Ben spent 8 years at Google as a senior AI research engineer on Project Mariner and Gemini.\n\n![uploaded image](/media/?type=post&id=122477&key=user_uploads/2103989/00516563-7bf8-455c-8256-40d8ce2b5667)\n\n**Our ask**\n\nIf you work at or know a food distributor please reach out.\n\nWebsite: [asakana.co](https://www.asakana.co/?utm_source=launch_yc&utm_medium=referral&utm_campaign=yc_launch_202610)\n\nEmail: [yudai_matsuoka@asakana.co](mailto:yudai_matsuoka@asakana.co)\n\nBook a call: <https://calendly.com/yudai_matsuoka-asakana/30min>\n\nYudai and Ben",
+      "url": "https://www.ycombinator.com/launches/VrR-asakana-automating-sales-and-the-entire-back-office-for-food-distributors",
+      "votes": 64,
+      "created_at": "2026-10-16T19:00:00.208Z"
+    }
+  ]
+}

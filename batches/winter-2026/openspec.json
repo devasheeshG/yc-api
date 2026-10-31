@@ -1,0 +1,81 @@
+{
+  "id": 31116,
+  "name": "OpenSpec",
+  "slug": "openspec",
+  "former_names": [
+    "FISSION",
+    "OpenSpec",
+    "openspec"
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/b6c411bb6889813a0a977496d80f091ebb000aac.png",
+  "website": "http://openspec.dev",
+  "all_locations": "Sydney, NSW, Australia",
+  "long_description": "OpenSpec is an open-source, spec-driven framework. We help developers plan complex features by creating lightweight spec documents that serve as durable context for their coding agents.\r\n\r\nWith 20k+ GitHub stars, we’re one of the leading spec-driven frameworks, used by thousands of developers and teams to plan and ship with the coding agent of their choice.\r\n\r\nOur philosophy is simple: keep planning lightweight and iterative, and match how software actually gets built, messy, evolving, and real, without dragging teams into rigid, bureaucratic workflows.",
+  "one_liner": "Plan mode for complex features",
+  "team_size": null,
+  "industry": "B2B",
+  "subindustry": "B2B",
+  "launched_at": 1772742267,
+  "tags": [],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Winter 2026",
+  "status": "Active",
+  "industries": [
+    "B2B"
+  ],
+  "regions": [
+    "Australia",
+    "Oceania"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/openspec",
+  "api": "https://devasheeshg.github.io/yc-api/batches/winter-2026/openspec.json",
+  "year_founded": 2025,
+  "city": "Sydney",
+  "country": "AU",
+  "linkedin_url": "",
+  "x_url": "",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/b6c411bb6889813a0a977496d80f091ebb000aac.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Jared Friedman",
+    "url": "https://www.ycombinator.com/people/jared-friedman"
+  },
+  "founders": [
+    {
+      "user_id": 2771497,
+      "full_name": "Tabish Bidiwale",
+      "title": "Founder",
+      "founder_bio": "Building OpenSpec, the open-source spec-driven framework that makes AI coding reliable on complex work. 20k+ GitHub stars.\n\nPreviously Team Lead at Q-CTRL. Joined as an early engineer and built the core platform and multiple products from seed to a $113M Series B.\n\nWhile at Q-CTRL, I saw coding agents recreate the same failure mode as human teams: misalignment. Existing tooling wasn’t built for that shift, which led me to building OpenSpec.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/tabishbidiwale/",
+      "x_url": "https://x.com/0xTab",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/955c9d15119b9f27c3f350d9adb40a8a68663c6c.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 98556,
+      "title": "OpenSpec: The Spec Framework for Coding Agents",
+      "tagline": "27k+ stars. The open-source spec layer for AI-assisted development",
+      "body": "Hey, everyone, I'm Tabish, and I’m the founder of [OpenSpec](https://openspec.dev/)!\n\n**TL;DR:** OpenSpec is an open-source spec framework that captures what you're building, why, and how, before your coding agent writes a line of code. 27k+ GitHub stars in under six months.\n\n[\\[Launch Video\\]](https://youtu.be/N-MftbmnmMo)\n\n### The Problem\n\nGenerating code is now cheap. Correctness is still expensive.\n\nEngineers don't distrust AI-generated code because models aren't capable. They distrust it because they can't reliably get the output they actually wanted. Did the agent meet my requirements? Handle edge cases? Fit my architecture?\n\nThe bottleneck isn't the model. It's underspecification.\n\n### How It Works\n\nOpenSpec adds a spec layer to your codebase: an openspec/ folder in your repo with two parts.\n\n**A spec library** (openspec/specs/) that documents how your system actually works, organized by capability. Living documentation that your agents and your team can always reference.\n\n**A changes system** (openspec/changes/) where each feature you build gets a proposal, design, implementation tasks, and spec deltas showing exactly how the requirements will change. When you ship, the deltas merge back into the spec library, so it grows with your codebase.\n\nEverything is markdown. Checkable into Git. Always accessible by your coding agent. We provide integrations with 20+ AI tools (Claude Code, Cursor, Windsurf, Copilot, and more) so your agents help you create, evolve, and manage specs through slash commands and skills.\n\n* **Your thinking persists.** Unlike plan mode, specs don't vanish when you close the chat.\n* **Iterate across sessions.** Evolve specs, keep the context.\n* **Changes are cheap here.** Expensive in code.\n\nWe're seeing teams shift from code review to _plan review_. It's easier to read a markdown spec than a large diff, and writing one forces real thought about the problem.\n\n### Backstory\n\nI was a team lead at a quantum computing startup. Turns out, managing coding agents is a lot like managing a team. Things break when there's no alignment on what you're building and why. Coding agents can't read your mind. That's still your job. We're building the workspace where that job gets done.\n\n### Ask\n\n**If your team has adopted AI coding tools but you're finding it harder to stay aligned, that's exactly the problem we're solving.** Code review feels heavier, agents produce work that doesn't quite fit, and your codebase is changing faster than anyone can track.\n\n* **Try it yourself:** OpenSpec takes less than a minute to set up. Use it on your next feature: [github.com/Fission-AI/OpenSpec](https://github.com/Fission-AI/OpenSpec)\n* **Engineering teams working on large or multi-repo codebases:** We're building Workspaces for teams that need deeper collaboration, customization, and multi-repo planning. If that sounds like you, we want to build it with you. Reach out at [tabish@openspec.dev](mailto:tabish@openspec.dev).\n* **Know an eng lead figuring out how to make AI coding work across their team?** We'd love an intro.\n\n**Website:** [openspec.dev](http://openspec.dev) **Email:** [tabish@openspec.dev](mailto:tabish@openspec.dev)\n\n![uploaded image](/media/?type=post&id=98556&key=user_uploads/2771497/52c10f89-0332-4d48-8df7-49e9091d942c)\n\n",
+      "url": "https://www.ycombinator.com/launches/Pdc-openspec-the-spec-framework-for-coding-agents",
+      "votes": 77,
+      "created_at": "2026-03-06T22:33:21.404Z"
+    }
+  ]
+}

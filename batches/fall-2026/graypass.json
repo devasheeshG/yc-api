@@ -1,0 +1,105 @@
+{
+  "id": 37435,
+  "name": "GrayPass",
+  "slug": "graypass",
+  "former_names": [],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/824e97773961053f47e92f9a1a6fd805d2328d0b.png",
+  "website": "https://graypass.com/",
+  "all_locations": "Toronto, ON, Canada",
+  "long_description": "Login tells you who signed in. GrayPass helps apps check who’s behind sensitive actions and whether they’re authorized before those actions go through.\r\n\r\nIt combines identity, device and session context with behavioral signals like typing rhythm, cursor movement and scrolling. Before a sensitive action goes through, GrayPass evaluates that evidence against your team’s policy and returns a decision: allow, challenge, hold or deny. Your app enforces the decision.\r\n\r\nThis applies to actions like exporting sensitive data, changing admin permissions or allowing an AI agent to act on someone’s behalf. Allowed actions receive short-lived, signed proof tied to the exact action and your app.\r\n\r\nYour existing login and authentication stack stays in place.",
+  "one_liner": "Verify the expected person is still in control before sensitive…",
+  "team_size": 2,
+  "industry": "B2B",
+  "subindustry": "B2B -> Infrastructure",
+  "launched_at": 1789869580,
+  "tags": [
+    "Biometrics",
+    "Identity",
+    "Infrastructure"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Fall 2026",
+  "status": "Active",
+  "industries": [
+    "B2B",
+    "Infrastructure"
+  ],
+  "regions": [
+    "Canada",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/graypass",
+  "api": "https://devasheeshg.github.io/yc-api/batches/fall-2026/graypass.json",
+  "year_founded": 2025,
+  "city": "Toronto",
+  "country": "CA",
+  "linkedin_url": "https://www.linkedin.com/company/graypass",
+  "x_url": "https://x.com/graypassinc",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/824e97773961053f47e92f9a1a6fd805d2328d0b.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [
+    "https://bookface-images.s3.us-west-2.amazonaws.com/attachments/48514b7baa4f379e077c2d2d12a82ebd8ae031f4.png"
+  ],
+  "primary_partner": {
+    "name": "Max Kolysh",
+    "url": null
+  },
+  "founders": [
+    {
+      "user_id": 1531836,
+      "full_name": "Arav Mathur",
+      "title": "Founder/CEO",
+      "founder_bio": "Founder/CEO at GrayPass (YC F26). University of Waterloo CS. Founded my first startup at 15 and raised $30K. Launched a fashion app that reached 3K users in 3 weeks and generated 1M+ views on social media. Served as the sole growth engineer at Stan ($40M ARR). At 16, developed dubbing and translation tools for creators including Logan Paul, Yes Theory and GothamChess. Now building GrayPass to help apps verify who's behind sensitive actions and whether they're authorized, even after login.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/aravmathur/",
+      "x_url": "https://x.com/aravmathur23",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/d0532c0b2de20032b2205d049f1f59bf9049dd28.jpg"
+    },
+    {
+      "user_id": 3483494,
+      "full_name": "Aditya Ranjan",
+      "title": "Founder/COO",
+      "founder_bio": "Founder/COO @ GrayPass (YC F26) | Making human agency legible. Previously studied Neuroscience @ McGill. Conducted neurosurgical research at SickKids, with work published in Springer Nature. Granted a fellowship @ UBC to develop longitudinal transformer models predicting epilepsy outcomes from MRI scans. Founded an organization developing seizure-detection technology for epilepsy applications. Created brain tumour segmentation algorithms for UPenn BraTS challenges alongside EPFL researchers. ",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/ad1tyaranjan",
+      "x_url": "https://x.com/ad1tyaranjan",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/fdf5b6e06af9375cb8bc6e94648303ce942a314f.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [
+    {
+      "title": "GrayPass Introduces Post-Login Security to Check Who Is Still in Control Before Critical Actions | Markets Insider",
+      "url": "https://markets.businessinsider.com/news/stocks/graypass-introduces-post-login-security-to-check-who-is-still-in-control-before-critical-actions-1036654166",
+      "date": "Oct 22, 2026"
+    },
+    {
+      "title": "Small Business Security Now Depends On What Happens After Login",
+      "url": "https://www.forbes.com/sites/terdawn-deboe/2026/09/23/small-business-security-now-depends-on-what-happens-after-login/",
+      "date": "Sep 23, 2026"
+    }
+  ],
+  "launches": [
+    {
+      "id": 125311,
+      "title": "GrayPass: The most dangerous actions happen after login.",
+      "tagline": "We help your company stop unauthorized people, bots, and AI agents before they move money, export data, or change permissions.",
+      "body": "Your app knows who logged in. But does it know who's **actually** in control when someone moves money or exports customer data?\n\nThat's the problem GrayPass (YC F26) is solving.\n\nGrayPass has already processed over **900,000 sessions** across its customers' apps and generated **$50K in revenue** so far this month.\n\nBefore sensitive actions like moving money, exporting customer data, or changing admin permissions, GrayPass helps apps verify who's in control and whether they're authorized to take that action.\n\nGrayPass works _alongside_ existing login systems, combining signals like typing rhythm, cursor movement, and scrolling with device and session information. Based on the rules each company sets, it tells the app whether to allow the action, request additional verification, put it on hold, or deny it. The app enforces that decision.\n\nAs the internet becomes increasingly agentic, apps need to know when an agent is acting and whether it has permission to do so. GrayPass helps them do both.\n\nBecause knowing who logged in isn't the same as knowing who's taking action.\\\n\\\n<https://youtu.be/nbik49wExXE>",
+      "url": "https://www.ycombinator.com/launches/Wb9-graypass-the-most-dangerous-actions-happen-after-login",
+      "votes": 38,
+      "created_at": "2026-10-29T02:00:21.735Z"
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "id": 37005,
+  "name": "Verdun",
+  "slug": "verdun",
+  "former_names": [],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/3746c317ac24f2b0122040095c3cecb0332727b6.png",
+  "website": "https://verdun.ai",
+  "all_locations": "Los Angeles, CA, USA",
+  "long_description": "Traditional security camera monitoring is vaporware. Your sites aren't actually being protected. \r\n\r\nA monitoring center's video alarm queue is managed by operators who are flooded by alarms during peak activity - meaning it often takes 20+ minutes for them to even see your alarm.\r\n\r\nWhen you call an airline and get placed on hold for a long time only for an offshore operator to tell you he can't solve your problems, this is the security equivalent. \r\n\r\nWe've built the world's most advanced monitoring center run by AI agents identify threatening behavior and context before escalating to our highly trained professional operators to dispatch guards and police. \r\n",
+  "one_liner": "The world's most advanced security monitoring service",
+  "team_size": 6,
+  "industry": "B2B",
+  "subindustry": "B2B -> Security",
+  "launched_at": 1792693117,
+  "tags": [
+    "Machine Learning",
+    "Computer Vision",
+    "AI"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Fall 2026",
+  "status": "Active",
+  "industries": [
+    "B2B",
+    "Security"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada",
+    "Remote",
+    "Partly Remote"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/verdun",
+  "api": "https://devasheeshg.github.io/yc-api/batches/fall-2026/verdun.json",
+  "year_founded": 2026,
+  "city": "Los Angeles",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/verdunai",
+  "x_url": "",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/3746c317ac24f2b0122040095c3cecb0332727b6.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Charlie Warren",
+    "url": null
+  },
+  "founders": [
+    {
+      "user_id": 233941,
+      "full_name": "Sonny Tai",
+      "title": "Founder/CEO",
+      "founder_bio": "Founder at Verdun. Previously founded and led Actuate (computer vision for physical security) as CEO for 7 years. Former US Marine Corps Captain and Afghanistan veteran. ",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/sonny-tai-51281515/",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/651db6ffa2a0fea90043f76cef39f45569718e9e.jpg"
+    },
+    {
+      "user_id": 3663890,
+      "full_name": "Tung Thanh Hoang",
+      "title": "Founder/CTO",
+      "founder_bio": "Founder at Verdun. Previously Senior Software Engineer - AI at LinkedIn, where he built Function Calling for LinkedIn's 8B foundation model that outperformed GPT-4o on the Berkeley Function Calling Leaderboard. Led Continued Pre-Training and large-scale retrieval systems. PhD in Applied Mathematics from UIC.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/thoang3/",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/d569b35c6e80bbfba1ca1d1478d1c4a6c0cb6f6b.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 125298,
+      "title": "Verdun: AI video monitoring with human operators",
+      "tagline": "The world's most advanced security monitoring service",
+      "body": "Hi everyone, we’re Sonny and Tung, the founders of Verdun.\n\n**TL;DR:** Verdun is a remote video monitoring service. AI agents review every camera alarm then escalate real threats to trained operators who coordinate police or guard response. \n\n**Video:** <https://youtu.be/UmI3OZjt4Ac>\n\n**The problem:** Most commercial properties have cameras, and almost nobody is watching them. Even the cameras that are monitored aren’t being watched effectively, because monitoring centers are poorly equipped to handle peak activity. \n\nMonitoring centers can’t instantly add headcount when alarms spike, so they mute noisy sites and bulk dismiss alarms hoping that they didn’t just wave off a true threat. \n\nVerdun’s AI agents monitor security cameras for businesses and analyze behavior and context before escalating high probability threats to our trained operators. Unlike traditional video analytics, which flag every person or vehicle that crosses the frame, our agents judge whether the activity is normal for that site and time of day.\n\n**How it works:**\n\n* **AI triage:** false alarms are dismissed with the reason written down, and real threats are flagged in seconds.\n* **Trained human operators:** An operator trained on your site’s protocol confirms the threat, pulls up the live view, and decides the response: a voice-down, a call to your contacts, or police or guard dispatch.\n* **Voice-down:** AI voice agents and operators warn intruders off through on-site horn speakers.\n* **Reporting:** camera health, incident breakdowns, response times and a full log of every single agent and operator decision.\n\n**About us:** Sonny is a former U.S. Marine officer and repeat founder who previously scaled a computer vision object detection company to over 100,000 cameras. \n\nTung holds a PhD in applied math, is a National Math Olympiad Gold Medalist, and was a senior AI engineer at LinkedIn, VergeSense (YC S17) and WeWork.\n\n**Our ask:** intros to multi-site businesses with cameras (especially car dealership groups) and to security dealers and integrators who sell monitoring. Email [sonny@verdun.ai](mailto:sonny@verdun.ai).",
+      "url": "https://www.ycombinator.com/launches/Waw-verdun-ai-video-monitoring-with-human-operators",
+      "votes": 4,
+      "created_at": "2026-10-28T18:30:00.135Z"
+    }
+  ]
+}

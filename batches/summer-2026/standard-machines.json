@@ -1,0 +1,80 @@
+{
+  "id": 32517,
+  "name": "Standard Machines",
+  "slug": "standard-machines",
+  "former_names": [],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/20aa62fc0a930e7bfdba7047f185bab421afd2b2.png",
+  "website": "https://standardmachines.com",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "We build environments and evaluations to train and evaluate models on advanced chip design.",
+  "one_liner": "Teaching AI to Design Chips",
+  "team_size": null,
+  "industry": "B2B",
+  "subindustry": "B2B",
+  "launched_at": 1785623138,
+  "tags": [
+    "Semiconductors",
+    "AI"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Summer 2026",
+  "status": "Active",
+  "industries": [
+    "B2B"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/standard-machines",
+  "api": "https://devasheeshg.github.io/yc-api/batches/summer-2026/standard-machines.json",
+  "year_founded": 2026,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/standardmachines/",
+  "x_url": "https://x.com/stanmachines",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/20aa62fc0a930e7bfdba7047f185bab421afd2b2.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Ankit Gupta",
+    "url": "https://www.ycombinator.com/people/ankit-gupta"
+  },
+  "founders": [
+    {
+      "user_id": 1978488,
+      "full_name": "Jacob Peake",
+      "title": "Founder/CEO",
+      "founder_bio": "Founder at Standard Machines. \nEx GPU Architect at Apple.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/jacob-peake/",
+      "x_url": "https://x.com/jacobpeake",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/1e58da36d411b29af7b6af0bb04427b019ed414f.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 111880,
+      "title": "Standard Machines. Teaching AI to Design Advanced Chips.",
+      "tagline": "Standard Machines builds environments to train and evaluate models on advanced chip design tasks. We work with frontier labs to push their model capabilities.",
+      "body": "**The Idea**\n\nAdvancement in AI relies on chips. Transformers won because they mapped well to GPUs. Frontier Labs are now co-designing their own silicon to maximize intelligence/joule.\n\nIt takes years and 100s of experts to bring a chip from architecture through tape-out.\n\nOur goal as a company is to push the frontier of AI on chip design tasks - enabling advanced chips to be taped-out by small teams in months.\n\nWe also believe this is the path forward to achieving true recursive self-improvement (RSI). Where AI designs better chips and better chips train more intelligent AI.\n\nTo achieve this, we're building **RL Environments For Long-Horizon Chip Design.**\n\nOur environments enable 1000s of parallel rollouts for training on chip design tasks. We also curate a private held-out test set for performing evals in the environment to compare model capabilities.\n\n![uploaded image](/media/?type=post&id=111880&key=user_uploads/1978488/da8f5344-b2f0-4613-b8ef-5ee18a23300c)\n\n---\n\n**What Exists**\n\nChip design should be a perfect domain for this type of RL. Instead:\n\n\\- The academic benchmarks are one-shot puzzles of \\~100 lines, and they're in every training set.\n\n\\- The field's de facto standard (NVIDIA's CVDP) has saturated - going from 34% to 97% once agents could iterate against the grader.\n\n\\- The published tasks are short-horizon and graded by running testbenches. In one study, designs that passed their bundled testbenches 95-97% of the time were only \\~20% correct under formal checking.\n\nAnd none of it resembles the real loop: months of work, tools in the loop, and hard trade-offs between latency, throughput, area, and power.\n\n---\n\n**What We Build**\n\nOur RL Environment is designed for long-horizon chip design tasks.\n\n\\- **Long-horizon.** One episode is the real loop: choose a microarchitecture, write the RTL, simulate, synthesize, check timing and power, revise.\n\n\\- **Reliable grading.** Every task is an executable contract with exact checking. No LLM judge anywhere in the reward path. Correctness is a hard gate: a fast, small, wrong chip earns zero.\n\n\\- **Physics as the yardstick.** Every task ships with a computed speed-of-light bound: the best the physics of the task allows. Scores are reported as a fraction of that bound, so they're comparable across tasks.\n\n\\- **The full trade-off.** Real chips are trade-offs. We record area, power, latency, and throughput as an unreduced vector - labs can scalarize this into a terminal reward for training however they want.\n\n\\- **Deterministic.** Every graded result replays bit-identically on another machine.\n\n---\n\n**Why Now**\n\nChip Design is increasingly something the frontier labs care about. They are all designing their own custom inference chips. Anthropic is already hiring chip-design RL engineers at $500-850k to build these types of environments in-house - and there’s currently no yardstick that hasn’t been saturated.\n\n---\n\n**Who We Are**\n\nI was the first intern &amp; youngest hire into GPU Architecture at Apple, working with industry-leading architects.\n\nI've seen how leading-edge chips get designed end-to-end: what the loop looks like, and how the power/perf/area trade-offs actually get graded.\n\nOur environments run that same loop &amp; formalize that grading.\n\n**Asks**\n\nIf you’re working on RL, post-training, or data at a lab or neolab, or interested in post-training models for chip-design capabilities. Please reach out, [founders@standardmachines.com](https://www.standardmachines.com/launch).\n\n---\n\n---\n\n---\n\nRead our full launch post, [here](https://standardmachines.com/launch).\n\n\\- [Jacob](https://x.com/jacobpeake)",
+      "url": "https://www.ycombinator.com/launches/T6W-standard-machines-teaching-ai-to-design-advanced-chips",
+      "votes": 22,
+      "created_at": "2026-08-24T17:21:03.769Z"
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "id": 38556,
+  "name": "Cesara",
+  "slug": "cesara",
+  "former_names": [
+    "Fireheart"
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/180f52381396ddece16d163f3ca2e8585f872871.png",
+  "website": "https://cesara.com",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "",
+  "one_liner": "Faster & accurate transactions for health systems",
+  "team_size": 0,
+  "industry": "Healthcare",
+  "subindustry": "Healthcare",
+  "launched_at": 1792499143,
+  "tags": [
+    "Healthcare",
+    "AI"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Fall 2026",
+  "status": "Active",
+  "industries": [
+    "Healthcare"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/cesara",
+  "api": "https://devasheeshg.github.io/yc-api/batches/fall-2026/cesara.json",
+  "year_founded": null,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/cesarapbc",
+  "x_url": "",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/180f52381396ddece16d163f3ca2e8585f872871.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Pete Koomen",
+    "url": "https://www.ycombinator.com/people/pete-koomen"
+  },
+  "founders": [
+    {
+      "user_id": 768398,
+      "full_name": "Xinan Rahman",
+      "title": "Founder/CEO",
+      "founder_bio": "Co-Founder @ Cesara. \n\nPreviously founded @ Auctor; Agents for enterprise software implementations; Seed and Series A led by Sequoia. Privileged to partner with undisclosed F500s, NTT Data, Valiantys, ServiceRocket, Ravus, etc.\n\n",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/xinanrahman/",
+      "x_url": "https://x.com/xinanrahman",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/ec644834339b02159d61c5c299aca366f9a32c0f.jpg"
+    },
+    {
+      "user_id": 1550618,
+      "full_name": "Junwoo Lee",
+      "title": "Founder/CTO",
+      "founder_bio": "Cesara",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/junwoo-lee/",
+      "x_url": "",
+      "avatar_thumb_url": "/avatars/thumb/missing.png"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 123728,
+      "title": "Cesara: AI agents that make sure every healthcare transaction is paid per contract",
+      "tagline": "Every healthcare transaction checked against the contract, with underpayments recovered automatically",
+      "body": "**TL;DR:** Every healthcare transaction should be paid according to the contract. Today, billions aren't. Cesara reads a health system's payer contracts and checks every claim against them when it's submitted. When a payment comes back short, Cesara automatically files the appeal with the contract clause attached and recovers the money. \\\n\\\n<https://www.youtube.com/watch?v=IDbQo3WsSGY>\n\n### The problem: contracts change, but team capacity doesn't\n\nPayer contracts keep changing. Amendments, fee schedule updates and annual rate increases all change what a hospital should be paid partway through the year. Every change has to be loaded and checked by hand. Revenue cycle and managed care teams can't keep up, so underpayments only show up months later in spreadsheets, after the payment has posted. **Health systems lose $40B+ a year from contractual underpayments.**\n\n### How Cesara works\n\n* **Every contract in one place.** Cesara pulls rates, carve-outs, stop-loss terms and rate increases from the contracts themselves. It keeps them in sync with Epic, your contract management system, SharePoint, payer email and your chargemaster.\n* **Every claim checked when it's submitted.** Cesara calculates the expected payment up front. Say a payer pays $42,000 on a claim where the contract's stop-loss clause means $78,000 is owed. Your team sees the gap right away, with the clause attached.\n* **Automatic recovery.** Cesara files each appeal with the contract excerpt and the payer's remittance (835) attached. It tracks the appeal until the money is recovered and the claim is closed.\n* **Better contract negotiations.** Your team can ask its contracts anything in plain language and model proposed rates before signing. They walk into payer meetings with payment trends and evidence ready.\n\n### Enterprise grade from day one\n\nCesara is built for health systems, not retrofitted for them. It connects to Epic, your contract management system, SharePoint, payer email, Waystar and Availity, and it posts work to Teams and Slack.\n\n* **Rolled out in phases.** Cesara first runs alongside your current process to prove its accuracy on your own claims. Next it recommends actions for your team to approve. Then it recovers underpayments automatically within limits you set.\n* **Every action traceable.** Each underpayment, appeal and recovery links to the contract clause behind it, and every action is logged.\n* **Your team reviews exceptions, not every claim.** Anything above your approval threshold goes to your team before Cesara acts on it.\n\nWant a free audit of your claims? [**team@cesara.com**](mailto:team@cesara.com)",
+      "url": "https://www.ycombinator.com/launches/WBc-cesara-ai-agents-that-make-sure-every-healthcare-transaction-is-paid-per-contract",
+      "votes": 7,
+      "created_at": "2026-10-22T19:01:00.068Z"
+    }
+  ]
+}

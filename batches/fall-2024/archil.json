@@ -1,0 +1,98 @@
+{
+  "id": 30045,
+  "name": "Archil",
+  "slug": "archil",
+  "former_names": [
+    "Neptune Storage",
+    "Regatta Storage"
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/0695554aaa43f831a6d970c73486aad8f7a9101f.png",
+  "website": "https://archil.com",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "Archil transforms S3 buckets into a 30x faster, unlimited, local disk. Archil enables AI, analytics, and serverless applications to instantly access massive data sets without waiting for data transfer. Researchers use Archil for shareable, local storage of data set and model versions that never runs out of capacity.",
+  "one_liner": "The high-performance file system that connects AI to data",
+  "team_size": 11,
+  "industry": "B2B",
+  "subindustry": "B2B -> Infrastructure",
+  "launched_at": 1727196277,
+  "tags": [
+    "Developer Tools",
+    "Machine Learning",
+    "Big Data",
+    "Infrastructure",
+    "AI"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Fall 2024",
+  "status": "Active",
+  "industries": [
+    "B2B",
+    "Infrastructure"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Growth",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/archil",
+  "api": "https://devasheeshg.github.io/yc-api/batches/fall-2024/archil.json",
+  "year_founded": 2024,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/archil",
+  "x_url": "https://x.com/archildata",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/0695554aaa43f831a6d970c73486aad8f7a9101f.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Nicolas Dessaigne",
+    "url": "https://www.ycombinator.com/people/nicolas-dessaigne"
+  },
+  "founders": [
+    {
+      "user_id": 2542,
+      "full_name": "Hunter Leath",
+      "title": "Founder/CEO",
+      "founder_bio": "I'm building Archil, a cloud file system with unlimited capacity, local-like performance, and instant access to massive data sets in your S3 buckets. I've spent the past 9 years building cloud storage products at AWS and Netflix, and I'm thrilled that teams can finally stop managing disks.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/hleath/",
+      "x_url": "https://x.com/jhleath",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/211cb23fe3bd004ef4434c9069d5d0694c5b647e.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [
+    {
+      "title": "Archil - All of your data, on every instance, instantly",
+      "url": "https://archil.com/post/archil-file-system-to-data-company",
+      "date": "Jun 02, 2025"
+    },
+    {
+      "title": "The Quest for a Distributed POSIX-Compatible Filesystem",
+      "url": "https://materializedview.io/p/the-quest-for-a-distributed-posix-fs",
+      "date": "Dec 05, 2024"
+    }
+  ],
+  "launches": [
+    {
+      "id": 85093,
+      "title": "Archil: Transform S3 into an infinite, local file system",
+      "tagline": "AI and analytics teams use Archil to instantly access massive S3 data sets, without waiting for data transfer or worrying about capacity.",
+      "body": "_TL;DR:  Archil transforms S3 buckets into infinite, local file systems. It’s 30x faster than accessing S3 directly, and 90% cheaper than manually managing EBS disks. Archil provides instant access to data in S3, and it powers AI applications that can’t wait for massive data sets to download. Archil doesn’t require code changes because it’s just a file system. You can try it today at [archil.com](https://archil.com)._\n\nI’m Hunter, the founder of Archil. I’ve spent the past 9 years building cloud storage products on the frontier of what’s possible – leading both Amazon’s Elastic File System product and Netflix’s cloud storage team. During this time, I worked with thousands of application developers, cloud teams, and software providers to deeply understand how they use storage.\n\nHere's the problem: I found that AI and analytics teams love storing their data in S3 because it’s low-cost and scalable, but their applications can only use this data once it’s in a local file system. As a result, these teams are constantly moving data back and forth from their local instance file systems to S3. For larger data sets, applications can wait for hours to download and decompress data before starting. Unlike S3, local file systems have a limited amount of capacity that you can’t easily change after creation, they don’t support sharing data, and they’re 10x more expensive.\n\nArchil transforms your existing S3 buckets into a new kind of infinite, local file system. With Archil, your applications can instantly use petabyte-scale data sets in S3 without waiting for manual data download. Archil automatically scales with your data, and you only pay for the data you’re actively using – 90% cheaper than using EBS. With Archil’s shared, high-speed cache, all your instances and containers can take advantage of 30x faster, consistent reads and writes. When you’re done editing data, it automatically flows back to S3 within a few minutes, so you can easily share results with teammates. Archil has full POSIX compatibility (including renames, appends, and locking), so it’s already compatible with your applications – no code changes needed. Teams move faster when they use Archil because they don’t have to build custom data movement infrastructure.\n\n[Check out how easy Archil is to set up and use.](https://www.tella.tv/video/cm2num964000e03jng6jl5d9c/view)\n\nWe are really excited about how Archil will help teams simplify their data management. We are currently working with: AI teams who want to start model inference without waiting for downloads to complete, researchers who want to experiment on models and create new versions without running out of disk capacity, analytics teams who want to speed up their batch pipelines, and cloud teams who want lower-cost local storage without worrying about utilization. We’d love to work with you, too. If you have any questions, feel free to email me at [hleath@archil.com](https://mailto:hleath@archil.com). You can try Archil today by signing up at [archil.com](https://archil.com).\n\nLet’s build the future of the cloud together.\n\n![uploaded image](/media/?type=post&id=85093&key=user_uploads/2542/df85a282-87df-4986-b3c7-9cb58acc84ab)",
+      "url": "https://www.ycombinator.com/launches/M8T-archil-transform-s3-into-an-infinite-local-file-system",
+      "votes": 65,
+      "created_at": "2024-10-28T17:59:23.946Z"
+    }
+  ]
+}

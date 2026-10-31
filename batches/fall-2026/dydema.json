@@ -1,0 +1,93 @@
+{
+  "id": 35392,
+  "name": "Dydema",
+  "slug": "dydema",
+  "former_names": [],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/85eacc9eef1101a2060cf6b9873797fd43445325.png",
+  "website": "https://dydema.com/",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "We’re building a brain-computer interface anyone can wear, so you can use a computer at the speed of thought. To get there, we’re recording brain data at model company scale.",
+  "one_liner": "A consumer brain-computer interface you can map to anything.",
+  "team_size": 2,
+  "industry": "Consumer",
+  "subindustry": "Consumer",
+  "launched_at": 1790760468,
+  "tags": [
+    "Hardware",
+    "Neurotechnology",
+    "Neuroinformatics",
+    "Consumer",
+    "AI"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Fall 2026",
+  "status": "Active",
+  "industries": [
+    "Consumer"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/dydema",
+  "api": "https://devasheeshg.github.io/yc-api/batches/fall-2026/dydema.json",
+  "year_founded": 2026,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/dydema",
+  "x_url": "https://x.com/DydemaNeuro",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/85eacc9eef1101a2060cf6b9873797fd43445325.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Aaron Epstein",
+    "url": "https://www.ycombinator.com/people/aaron-epstein"
+  },
+  "founders": [
+    {
+      "user_id": 2801705,
+      "full_name": "Julian Weaver",
+      "title": "Founder/CEO",
+      "founder_bio": "Founder & CEO at Dydema. We’re building personal, programmable brain-computer interfaces. Prev. founding engineer at Syntra (YC S24) and co-founder of Longhorn Neurotech (200+ members). Led EEG/fMRI AI research; dual BS in CS and neuroscience @ age 20, UT Austin.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/julian-weaver/",
+      "x_url": "https://x.com/juliver",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/72c5843bb2a1b13ad8c4e88550b29be6e3e22009.jpg"
+    },
+    {
+      "user_id": 1675405,
+      "full_name": "Christopher Oosthuizen",
+      "title": "Founder/CTO",
+      "founder_bio": "Founder and CTO at Dydema. Previously: Founding Software Engineer at Syntra, ML researcher at UH SAIL, and Studied CS at University of Houston.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/christopher-oosthuizen-0151a9211",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/25ab33adbc087fc87c8d3463396b31e5dd319bcd.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 125458,
+      "title": "Dydema: Personal, programmable brain-computer interfaces",
+      "tagline": "Control your computer with a thought, no surgery required",
+      "body": "**TL;DR:** Dydema is building personal, programmable brain-computer interfaces- a headset plus the AI models behind it. You pick a thought and bind it to whatever you want, like a key in a game or a command to an agent. No surgery required. Our models already run on research headsets, and we’re designing our own consumer hardware.\n\n<https://youtu.be/zJCDVuodHzk>\n\nHey y’all! We’re [Julian Weaver](https://bookface.ycombinator.com/user/2801705) and [Christopher Oosthuizen](https://bookface.ycombinator.com/user/1675405), the founders of [Dydema](https://bookface.ycombinator.com/company/35392).\n\nBrain-computer interfaces have mostly lived in labs. We want one you can order online, take out of the box, set up in a few minutes and use with any app on your computer, like a keyboard or a mouse. You decide which thoughts it listens for (imagined movements, for instance) and what each one does. The agent in the video is one example; it works the same way with games, tools, robots, and whatever else you hook it up to.\n\n**Where we are**\n\n* After a few minutes of setup, our general decoding models work on someone they’ve never seen before, and on our benchmarks they beat models trained only on that person’s own data.\n* We’re pushing on how many distinct thoughts the models can be programmed to tell apart, and how fast they decode each one. Every new differentiable thought is another key on the keyboard.\n* We’re training the models to hold up on cheaper sensors and designing our headset around them.\n\nWe treat BCI as a machine learning problem, which mostly means needing lots of brain data. So we’re building the infrastructure to record more of our own. We’ve accumulated, cleaned and standardized \\~14.6 years (128k hours) of EEG data, and we’re starting to record in real world contexts. People have debated for years about whether EEG models scale, and so far ours keep getting better with more labeled data.\n\nComputers keep getting smarter, but the way we tell them what we want hasn’t changed in decades. Long term, we want a brain-computer interface that anyone can buy and use to communicate with computers and each other, faster than talking. We’ll keep posting demos as we go!\n\n![uploaded image](/media/?type=post&id=125458&key=user_uploads/2801705/ece4b187-376e-4844-b520-1e4439de5354)\n\n**About us**\n\n* [Julian](https://bookface.ycombinator.com/user/2801705) (CEO) graduated from UT Austin at 20 with degrees in CS and neuroscience. While there, he co-founded Longhorn Neurotech, which he grew into one of the largest student neurotech research orgs in the world (200+ members), and he led EEG/fMRI ML interpretability research.\n* [Chris](https://bookface.ycombinator.com/user/1675405) (CTO) was an ML researcher at UH SAIL, where he built state-of-the-art GraphRAG systems and worked on reducing LLM hallucinations. He’s been programming his whole life, and wrote his own programming language from scratch in high school.\n* We’ve been best friends since freshman year of high school, and we were both founding engineers at [Syntra (YC S24)](https://bookface.ycombinator.com/company/29987).\n\n**Asks**\n\n* Building something that could take a thought as an input (games, agents, robotics)? We’d love to talk.\n* If you have brain datasets, we want them!\n* We’ll be hiring more hardware engineers soon. If you know anyone who’s built wearables or low-noise biosignal hardware, please send them our way.\n* Want to try our rig? Let us know!\n\nCheers y’all,\\\nJulian &amp; Chris\n\nReach us at [founders@dydema.com](mailto:founders@dydema.com).\n\n![uploaded image](/media/?type=post&id=125458&key=user_uploads/2801705/2776a055-6898-4da2-b427-9e9bbb02c1d0)\n\n",
+      "url": "https://www.ycombinator.com/launches/WdW-dydema-personal-programmable-brain-computer-interfaces",
+      "votes": 7,
+      "created_at": "2026-10-30T17:00:00.280Z"
+    }
+  ]
+}

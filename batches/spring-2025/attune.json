@@ -1,0 +1,98 @@
+{
+  "id": 30449,
+  "name": "Attune",
+  "slug": "attune",
+  "former_names": [],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/8df0ce49cc11e96b09c8980da86ed900b39fe9dc.png",
+  "website": "https://attunehq.com",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "Attune makes blazingly fast build tools that require zero migration effort.\r\n\r\nAs AI enables developers to write code faster than ever, slow builds are increasingly becoming the bottleneck in development velocity. Developers regularly lose hours of productivity every day waiting for their builds. Imagine being able to write code in 1 minute, but needing to wait 30 minutes to compile, deploy, and test it.\r\n\r\nExisting solutions either require painful migrations to new tools (e.g. Bazel) or rely on just using bigger servers to run your builds. Instead, we do native, first-class integrations into compilers and build systems.\r\n\r\nWith Attune, you don't need to integrate a new tool. Just make a one-line change from `cargo build` to `hurry cargo build` for 20x faster builds.\r\n\r\nEliza (ex-Google) and Xin worked together for 3 years at FOSSA, where Eliza was Head of Engineering and Xin was Head of Product. Eliza brings a decade of programming languages and build systems expertise, while Xin brings a decade of experience building developer tools products, most recently as VP of Product at Teleport (S15). Having experienced the pain of slow builds firsthand across hundreds of production codebases, we're building the solution we've always wanted.",
+  "one_liner": "Faster builds, zero effort.",
+  "team_size": 3,
+  "industry": "B2B",
+  "subindustry": "B2B -> Engineering, Product and Design",
+  "launched_at": 1747089464,
+  "tags": [
+    "Developer Tools",
+    "Infrastructure"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": true,
+  "nonprofit": false,
+  "batch": "Spring 2025",
+  "status": "Active",
+  "industries": [
+    "B2B",
+    "Engineering, Product and Design"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/attune",
+  "api": "https://devasheeshg.github.io/yc-api/batches/spring-2025/attune.json",
+  "year_founded": 2025,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/attunehq",
+  "x_url": "https://x.com/attunehq",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": "https://github.com/attunehq",
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/8df0ce49cc11e96b09c8980da86ed900b39fe9dc.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Diana Hu",
+    "url": "https://www.ycombinator.com/people/diana-hu"
+  },
+  "founders": [
+    {
+      "user_id": 429685,
+      "full_name": "Xin Ding",
+      "title": "Founder/CEO",
+      "founder_bio": "Xin is the cofounder and CEO of Attune.\n\nBefore Attune, Xin was the VP of Product at Teleport (S15), where he built the product and design teams. He helped scale the company to unicorn status and its new SaaS offering from 0 to 8-figures in ARR. Prior to that, he joined FOSSA at seed stage and scaled it from 0 to 8-figures in ARR. Xin has a proven track record of leading early-stage developer tools startups through hypergrowth phases by building products developers actually want to use.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/xinding3/",
+      "x_url": "https://x.com/xinding33",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/27d43ba54caa28758ab512279cab9d31b56897e1.jpg"
+    }
+  ],
+  "jobs": [
+    {
+      "id": 78125,
+      "title": "Founding Software Engineer",
+      "url": "https://www.ycombinator.com/companies/attune/jobs/ZWLdtj8-founding-software-engineer",
+      "location": "San Francisco, CA, US",
+      "type": "Full-time",
+      "role": "Engineering",
+      "role_type": "Backend",
+      "salary_range": "$150K - $200K",
+      "equity_range": "0.50% - 1.00%",
+      "experience": "3+ years",
+      "visa": "US citizen/visa only",
+      "skills": [
+        "Rust"
+      ]
+    }
+  ],
+  "news": [],
+  "launches": [
+    {
+      "id": 90363,
+      "title": "Attune - Faster Builds, Zero Effort",
+      "tagline": "Attune makes blazingly fast build tools that require zero migration effort.",
+      "body": "Hey everyone, we’re Eliza and Xin, cofounders of Attune.\n\n# ⚡️ TL;DR\n\nAttune makes blazingly fast build tools that require zero migration effort. Built by developers with a decade of experience in build systems and developer tools.\n\nIf you or someone you know is suffering from slow builds, we’d love to help! \n\nContact us at [founders@attunehq.com](mailto:founders@attunehq.com).\n\n![uploaded image](/media/?type=post&id=90363&key=user_uploads/429685/31b348ca-dc4a-4649-8886-fc28ed78e37a)\n\n# ❌ The Problem\n\nAs AI enables developers to write code faster than ever, slow builds are increasingly becoming the bottleneck in development velocity. Developers regularly lose hours of productivity every day waiting for their builds. Imagine being able to write code in 1 minute, but needing to wait 30 minutes to compile, deploy, and test it.\n\nExisting solutions either require painful migrations to new tools (e.g. Bazel) or rely on just using bigger servers to run your builds.\n\n# ✅ Our Solution\n\nWe’re building drop-in replacements for existing build tools that dramatically speed up build times with zero migration effort. Simply prefix your existing build commands with hurry and get faster builds through incremental builds, remote execution, distributed caching, and a whole suite of other language-native and compiler-native optimizations.\n\nhttps://www.youtube.com/watch?v=DxM5Dj6ikVc\n\nFor example, instead of running cargo build, now you can run hurry cargo build for up to 20x faster builds.\n\nThat's it. No migration headaches, no complex configuration, and no learning a new tool and rewriting your build files.\n\nNow available for Rust, with Docker and additional language support launching soon.\n\n# 👷‍♀️👷‍♂️Our Team\n\nEliza (ex-Google) and Xin worked together for 3 years at FOSSA helping customers analyze and secure their build systems. Eliza was Head of Engineering and Xin was Head of Product. Eliza brings a decade of programming languages and build systems expertise, while Xin brings a decade of experience building developer tools products, most recently as VP of Product at Teleport (S15). We’ve seen the pain of slow builds firsthand across hundreds of production codebases, we're building the solution we've always wanted.\n\n# 🙏 Our Ask\n\nTired of waiting on builds? We'd love to show you how much time Attune can save your team.\n\nReach out to us at [founders@attunehq.com](mailto:founders@attunehq.com).",
+      "url": "https://www.ycombinator.com/launches/NVT-attune-faster-builds-zero-effort",
+      "votes": 49,
+      "created_at": "2025-05-13T17:46:08.929Z"
+    }
+  ]
+}

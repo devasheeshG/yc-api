@@ -1,0 +1,118 @@
+{
+  "id": 29181,
+  "name": "Event Horizon Labs",
+  "slug": "event-horizon-labs",
+  "former_names": [
+    "EmergentAGI",
+    "SciPhi"
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/952b6381b227fe13913d082e7f9bdec4731e8adb.png",
+  "website": "https://www.ehl.markets/",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "We are scaling autonomous research, Markets are our verification loop: agents turn hypotheses into strategies, test them, and compound what survives. \r\n",
+  "one_liner": "AI research lab automating all of investing",
+  "team_size": 10,
+  "industry": "Fintech",
+  "subindustry": "Fintech -> Asset Management",
+  "launched_at": 1710132587,
+  "tags": [
+    "Finance",
+    "Investing",
+    "AI"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": true,
+  "nonprofit": false,
+  "batch": "Winter 2024",
+  "status": "Active",
+  "industries": [
+    "Fintech",
+    "Asset Management"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/event-horizon-labs",
+  "api": "https://devasheeshg.github.io/yc-api/batches/winter-2024/event-horizon-labs.json",
+  "year_founded": 2023,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "",
+  "x_url": "",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/952b6381b227fe13913d082e7f9bdec4731e8adb.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "David Lieb",
+    "url": "https://www.ycombinator.com/people/david-lieb"
+  },
+  "founders": [],
+  "jobs": [
+    {
+      "id": 89199,
+      "title": "Founding Research Engineer",
+      "url": "https://www.ycombinator.com/companies/event-horizon-labs/jobs/WTS8qWs-founding-research-engineer",
+      "location": "San Francisco, CA, US",
+      "type": "Full-time",
+      "role": "Engineering",
+      "role_type": "Backend",
+      "salary_range": "$150K - $200K",
+      "equity_range": "1.00% - 3.00%",
+      "experience": "3+ years",
+      "visa": "US citizen/visa only",
+      "skills": [
+        "Python",
+        "Machine Learning"
+      ]
+    },
+    {
+      "id": 90937,
+      "title": "Founding Software Engineer",
+      "url": "https://www.ycombinator.com/companies/event-horizon-labs/jobs/xGQicps-founding-software-engineer",
+      "location": "San Francisco, CA, US",
+      "type": "Full-time",
+      "role": "Engineering",
+      "role_type": "Backend",
+      "salary_range": "$150K - $200K",
+      "equity_range": "1.00% - 3.00%",
+      "experience": "3+ years",
+      "visa": "US citizen/visa only",
+      "skills": [
+        "Kubernetes",
+        "Python"
+      ]
+    }
+  ],
+  "news": [],
+  "launches": [
+    {
+      "id": 88711,
+      "title": "R2R: Open-Source Agentic Retrieval System with Deep Research API",
+      "tagline": "Enterprise-grade Deep Research API for Your Data plus the Web",
+      "body": "### TL;DR\n\n**R2R** is an open-source system that extends beyond conventional RAG by adding autonomous research capabilities across your documents and the web. After processing large document collections in production environments, we developed the Deep Research API to help applications better connect and synthesize information from multiple sources. R2R is available as both a cloud service and self-hostable solution.\n\n**Cloud App Signup:** [app.sciphi.ai](http://app.sciphi.ai) (generous free tier, no credit card required)\\\n**GitHub:** [R2R](https://github.com/SciPhi-AI/R2R)\n\n### Demo\n\n![uploaded image](/media/?type=post&id=88711&key=user_uploads/372342/15328b62-f902-4d58-b559-8360b3468618)\n\n### The Problem\n\nTraditional RAG systems have fundamental limitations:\n\n* They match queries to documents but lack multi-step reasoning\n* Complex questions require manual investigation across multiple sources\n* Information synthesis remains a largely human task\n* Citation tracking and verification are often missing\n* The reasoning process remains opaque\n\nThese limitations create inefficiencies when dealing with complex information needs.\n\n---\n\n### Our Solution\n\nThe Deep Research API provides:\n\n* Multi-step reasoning across documents and web sources\n* Knowledge graph generation to establish connections between information\n* Chained research workflows for exploring complex topics\n* Citation-backed answers with source attribution\n* Real-time visibility into the agent's thinking process\n* RESTful endpoints for straightforward integration\n\n---\n\n![uploaded image](/media/?type=post&id=88711&key=user_uploads/372342/9d86d7c9-d1df-4d47-a3ad-b126b12c3941)\n\n---\n\n# **Key Features**\n\n**Research Capabilities**\n\n* Research Agent: Advanced reasoning with computational tools\n* Extended Thinking: Configurable reasoning depth with model support\n* Citation Tracking: Source attribution for verification\n\n**Platform Components**\n\n* Multimodal Ingestion: Support for .txt, .pdf, .json, .png, .mp3, and more\n* Hybrid Search: Semantic and keyword search with reciprocal rank fusion\n* Knowledge Graphs: Entity and relationship extraction\n* User/Document Management: Authentication and collection organization\n\n### Why Now?\n\nLLMs are evolving toward better reasoning, but simply uploading all data to models is costly and error-prone. Agentic RAG solves the \"when/what to retrieve\" challenge, ensuring LLMs access the right information, especially for enterprise applications with diverse data. Teams need less DevOps and faster market entry without debugging embeddings or managing infrastructure.\n\n---\n\n### Our Ask\n\nAre you building advanced AI solutions that demand deeper reasoning over your own data? Tired of kludging multiple services together?\n\n* **Sign up** at [app.sciphi.ai](http://app.sciphi.ai) (free tier included).\n* **Dive into repo** on [Github](https://github.com/SciPhi-AI/R2R)\n* **Book an exploratory call** [here](https://calendly.com/owen-uzg/sciphi-demo)\n\n---\n\n### About Us\n\nWe’re a team of AI veterans who contributed heavily to the open-source R2R project. Seeing how complicated “truly agentic” retrieval can be, we launched **SciPhi Cloud**—so you can enjoy advanced retrieval and multi-step reasoning at scale without the infrastructure burden.",
+      "url": "https://www.ycombinator.com/launches/N4p-r2r-open-source-agentic-retrieval-system-with-deep-research-api",
+      "votes": 18,
+      "created_at": "2025-03-17T18:17:03.540Z"
+    },
+    {
+      "id": 79568,
+      "title": "SciPhi - Build, deploy, and optimize AI retrieval",
+      "tagline": "An open source platform that enables developers to build the best RAG system.",
+      "body": "**TL;DR**: [SciPhi](https://www.sciphi.ai/) is a **cloud platform** that simplifies the deployment and optimization of production-ready Retrieval-Augmented Generation (**RAG**) pipelines for developers. Built on top of the robust **open source** **R2R** framework, SciPhi enables builders to focus on creating innovative applications rather than managing infrastructure.\n\n[**SciPhi Cloud Demo**](https://www.youtube.com/watch?v=ANWAGCzGQUU&ab_channel=redfauna101)\n\n**The Problem**\n\nRAG is fundamentally a search problem, and search at scale is hard. While deploying a basic RAG pipeline is relatively straightforward, scaling it to meet the diverse needs of a growing user base and/or dataset presents significant challenges. As indexed data grows, query times can slow down, leading to a diminished user experience. Further, different users will have varying complaints about system performance, depending on their specific use case and data set.\n\n**📦 SciPhi's Solution**\n\n* Seamless deployment of RAG pipelines to the cloud in just a few clicks\n* Customizable configurations via an intuitive config.json file to specify vector DB, embedding settings, LLMs, etc.\n* Secure secret management to encrypt and store API keys and other sensitive info\n* Automatic scaling to handle increased traffic and data volumes as your app grows\n* Built-in monitoring, logging, and A/B testing to gain insights and optimize performance ￼\n\n![uploaded image](/media/?type=post&id=79568&key=user_uploads/372342/4fa047ca-3982-4c2d-b0f9-f1ea5d48c348)\n\n![uploaded image](/media/?type=post&id=79568&key=user_uploads/372342/0f4b026d-ba30-4526-ba9d-5d3019a76df2)\n\n![uploaded image](/media/?type=post&id=79568&key=user_uploads/372342/3208055b-d3f6-43b8-b8dc-394621376af4)\n\n![uploaded image](/media/?type=post&id=79568&key=user_uploads/372342/2f7fc1cf-3fb1-4909-a61c-e6e8814946a5)\n\n**Meet the Founder**\n\nSciPhi was founded by [Owen](https://www.linkedin.com/in/owencolegrove/) (CEO), who brings a unique perspective to the world of RAG. With a PhD in particle physics and experience creating quantitative research strategies at Citadel, Owen understands the challenges of working with large-scale data systems. As a second-time founder, he grew frustrated by the lack of tooling available to optimize RAG pipelines while building an open-source semantic search engine+agent. This experience started him on the path to creating SciPhi.\n\n**Our Ask**\n\n* 🚀 Sign up for early access at [app.sciphi.ai/login](https://app.sciphi.ai/login)\n* 💬 Join our [Discord](https://discord.gg/p6KqD2kjtB) community to connect with other RAG enthusiasts\n* [⭐](https://emojipedia.org/star) Check out the [R2R Github repository](https://github.com/SciPhi-AI/R2R/tree/main) and leave us a star\n* 🙌 Share this post with developers and teams looking to harness RAG in production\n\nWe're on a mission to empower developers to build state-of-the-art RAG pipelines. If that resonates, come build the future with us! Reach out to [founders@sciphi.ai](mailto:founders@sciphi.ai) to chat.",
+      "url": "https://www.ycombinator.com/launches/KhM-sciphi-build-deploy-and-optimize-ai-retrieval",
+      "votes": 89,
+      "created_at": "2024-03-21T14:18:21.767Z"
+    }
+  ]
+}

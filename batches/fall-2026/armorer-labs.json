@@ -1,0 +1,93 @@
+{
+  "id": 35126,
+  "name": "Armorer Labs",
+  "slug": "armorer-labs",
+  "former_names": [],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/9fd9c58c48b1017644c81d6d495140aab28b5782.png",
+  "website": "https://armorerlabs.com",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "Armorer helps companies in regulated industries ship their own AI agents faster and keep them secure in production.\n\nMost security tools flag an issue and file a ticket. Armorer assesses your agent and simulates attacks to find the real issues. Then it creates a verified fix that stops the attack without breaking the business, ready for your approval in about 4 hours.\n\nIn production, Armorer checks every agent action in milliseconds, with no GPU needed. It detects malicious behavior such as prompt injection, goal hijacking and data leaks, then allows, holds or denies the action.\n\nArmorer's detection models beat every other detector we tested on six public benchmarks. Armorer is 22% more accurate than JEV while being 88x faster, so users won't feel the delay.\n\nWe spent years building and evaluating AI security systems together at AWS, including its first customer-facing AI security agent, which scaled to 100k+ customers. Armorer is backed by Paul Vixie, an internet pioneer inducted into the Internet Hall of Fame in 2014.",
+  "one_liner": "Continuous security verification for AI agents in regulated industries",
+  "team_size": 2,
+  "industry": "B2B",
+  "subindustry": "B2B -> Security",
+  "launched_at": 1792423718,
+  "tags": [
+    "Developer Tools",
+    "DevSecOps",
+    "Cybersecurity",
+    "AI"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Fall 2026",
+  "status": "Active",
+  "industries": [
+    "B2B",
+    "Security"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/armorer-labs",
+  "api": "https://devasheeshg.github.io/yc-api/batches/fall-2026/armorer-labs.json",
+  "year_founded": 2026,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/armorer-labs/",
+  "x_url": "https://x.com/Armorer_Labs",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": "https://github.com/ArmorerLabs",
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/9fd9c58c48b1017644c81d6d495140aab28b5782.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Kulveer Taggar",
+    "url": null
+  },
+  "founders": [
+    {
+      "user_id": 3565232,
+      "full_name": "Daniel Begimher",
+      "title": "Founder/CEO",
+      "founder_bio": "Co-founder of Armorer Labs. Previously led the global Application Security technical field community at AWS, where he led development of AWS Security Incident Response's AI-powered investigative agent from early development through public launch. Author of SIR-Bench - evaluation method for security agents; author of ASH code scanner (200K+ monthly clones); co-created ThreatForest, selected for Black Hat USA 2026 briefing. Led incident response for Fortune 500 breaches and red-team operations.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/begimher",
+      "x_url": "https://x.com/begimher",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/65ec4b4f705715309b8e611b94be913d1dd8b4bb.jpg"
+    },
+    {
+      "user_id": 2650696,
+      "full_name": "Cristian Leo",
+      "title": "Founder/CTO",
+      "founder_bio": "Co-Founder of Armorer Labs (YC F26). Led AI security science at AWS, building and evaluating AI systems for security.\n\nHe is the creator of ThreatForest, the first open source automated threat modeling agent, and a co-author of SIR-Bench, a benchmark for evaluating AI security investigations. He is a Black Hat and re:Invent speaker.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/cristian-leo",
+      "x_url": "https://x.com/cristian_le0",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/4915942599f3bc8c2903c0737b6be6746b2d15a9.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 123364,
+      "title": "Armorer Labs: Continuous security verification for AI agents in regulated industries",
+      "tagline": "Continuous security verification for AI agents in regulated industries",
+      "body": "Armorer helps companies in regulated industries ship their own AI agents faster and keep them secure in production.\n\n**TL;DR: For regulated companies building their own agents, Armorer finds real security issues in those agents and fixes them without interrupting the business.**\n\n“The problem I have with most security solutions is they come along and give me another problem to go and fix. You’ve actually solved the problem.” Gaetan Licci, Director of Engineering, Just Eat Takeaway\n\n**Security and engineering leaders in companies building their own agents: book a demo** → https://armorer-labs-inc.cal.com/armorer-labs/launch-demo · founders@armorerlabs.com\n\nhttps://youtu.be/fkqdK47PEeM\n\n## Team\n\nWe spent years building and evaluating AI security systems together at AWS.\n\n- Daniel Begimher (CEO) has worked in security since 2012. He led the development and security of AWS’s first customer-facing AI security agent, scaling to 100k+ customers, and created ASH, an open-source security scanner with 200K+ monthly clones.\n- Cristian Leo (CTO) led AI security science at AWS, training ML and AI models for cyber applications. He has published novel research in the AI security space and has open-sourced more than 30 machine-learning models from first principles.\n\nTogether we published several papers on AI security, including SIR-Bench, a benchmark for evaluating AI security agents, and ThreatForest, our Black Hat USA 2026 talk on AI threat modeling from source code.\n\n## The problem\n\nEarlier this year, researchers found a security flaw in a fintech's spreadsheet AI agent. One line of hidden white text made the agent send a company's confidential financials to an outside server, with no approval step.\n\nThen, in July, OpenAI’s agents broke out of their sandbox and hacked into Hugging Face’s servers. Neither agent was broken. Each did what agents do: read whatever is in front of it, follow instructions and finish the task.\n\nAt the same time, AI models are getting more and more capable of finding security issues. Anthropic’s Claude Mythos found thousands of zero-day vulnerabilities and developed exploits for many of them with no human steering. Attackers can point the same kind of models at your agents. This brings challenges to organizations that want to move fast and adopt more agentic capabilities.\n\nBut finding issues is only half the job: nearly 2 in 3 high-risk AI vulnerabilities go unresolved (Cobalt, 2026).\n\n## How it works\n\n1. **Detect.** Armorer scans your agent's code and maps what it can reach: its tools, permissions, identities and data.\n2. **Assess.** Armorer simulates attacks to find the issues that are real.\n3. **Fix.** Armorer generates the smallest fix as a PR or runtime protection policy. Armorer then shows the attack fails and the agent still does its job.\n4. **Protect.** In production, Armorer checks every agent action in milliseconds, with no GPU needed. It detects malicious behavior such as prompt injection, goal hijacking and data leaks, then allows, holds or denies the action.\n\nOnboarding takes under 30 minutes, and Armorer runs in your cloud or on-premises, including air-gapped environments. Your team approves each verified fix with one click. Every finding and fix is mapped to ISO/IEC 42001 and AIUC-1 controls, so the same work helps you prepare for certification.\n\n## Why this is different\n\nArmorer is the continuous security layer for rapidly evolving agent applications. It doesn’t just identify gaps; it fixes and verifies them. Most security tools flag an issue and file a ticket. Armorer flags it and fixes it, then verifies every fix against your real workflows, because a fix that breaks the business isn’t a fix.\n\n“If modern AI were a powerful car, then agentic AI would be a powerful self-driving car whose decisions and outcomes could not be fully predicted in advance,” said Paul Vixie, an internet pioneer inducted into the Internet Hall of Fame in 2014. “We can’t make agentic AI safe using detailed lists of what can and cannot be done, which is why Armorer Labs is working in terms of verifiable generalities. I’m happy to be one of Armorer’s advisors and investors.”\n\n## Proof\n\nArmorer’s detection models beat every other detector we tested on six public benchmarks (Jayavibhav, deepset, S-Labs, xTRam1, jackhhao and Gretel). Armorer is 22% more accurate than JEV while being 88x faster, so users won’t feel the delay. High-risk AI findings take a median of 36 days to resolve (Cobalt, 2026). Armorer has a verified fix ready for your approval in about 4 hours.\n\nArmorer vs. JEV benchmark:\n\nhttps://youtu.be/OvSvxQ7LqI4\n\n**Stop collecting findings. Start closing them without interrupting the business.**\n\n**Book a demo:** https://armorer-labs-inc.cal.com/armorer-labs/launch-demo · founders@armorerlabs.com",
+      "url": "https://www.ycombinator.com/launches/W5k-armorer-labs-continuous-security-verification-for-ai-agents-in-regulated-industries",
+      "votes": 75,
+      "created_at": "2026-10-21T14:00:00.189Z"
+    }
+  ]
+}

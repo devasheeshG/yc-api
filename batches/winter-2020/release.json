@@ -1,0 +1,116 @@
+{
+  "id": 13234,
+  "name": "Release",
+  "slug": "release",
+  "former_names": [
+    "TBD - Project Spacedust"
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/0e6c64767a125ee87298d334abf30db7dd217302.png",
+  "website": "https://release.com",
+  "all_locations": "Los Angeles, CA, USA",
+  "long_description": "Release delivers staging environments as a service. With Release a staging environment is automatically generated with every Pull Request which removes the bottleneck most companies have when they only have a single staging environment. ",
+  "one_liner": "Environments as a service",
+  "team_size": 26,
+  "industry": "B2B",
+  "subindustry": "B2B -> Engineering, Product and Design",
+  "launched_at": 1583358161,
+  "tags": [
+    "Developer Tools",
+    "SaaS",
+    "Kubernetes"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Winter 2020",
+  "status": "Active",
+  "industries": [
+    "B2B",
+    "Engineering, Product and Design"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Growth",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/release",
+  "api": "https://devasheeshg.github.io/yc-api/batches/winter-2020/release.json",
+  "year_founded": 2019,
+  "city": "Los Angeles",
+  "country": "US",
+  "linkedin_url": "",
+  "x_url": "",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/0e6c64767a125ee87298d334abf30db7dd217302.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": null,
+  "founders": [
+    {
+      "user_id": 423512,
+      "full_name": "David Giffin",
+      "title": "Founder",
+      "founder_bio": "",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/david-giffin-5190846/",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/456ac8587aaa760e533039c83ad51b93b363ea06.jpg"
+    },
+    {
+      "user_id": 19885,
+      "full_name": "Erik Landerholm",
+      "title": "Founder",
+      "founder_bio": "",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/elanderholm/",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/cfa84526d2fa22b306dbd54d460b4fd07181d6c0.jpg"
+    },
+    {
+      "user_id": 19884,
+      "full_name": "Tommy McClung",
+      "title": "Founder",
+      "founder_bio": "",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/tmcclung/",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/57b25bca00e5ea78532dac3e0774fa30db75548c.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [
+    {
+      "title": "Environments-as-a-service platform ReleaseHub raises $20M | VentureBeat",
+      "url": "https://venturebeat.com/2021/10/05/environments-as-a-service-platform-releasehub-raises-20m/",
+      "date": "Oct 05, 2021"
+    }
+  ],
+  "launches": [
+    {
+      "id": 74153,
+      "title": "Release AI — Talk to your Infrastructure",
+      "tagline": "Engage in meaningful conversations with your AWS account and your K8s infrastructure.",
+      "body": "[**Release**](https://release.com) helps developers get their amazing ideas out into the world faster. 🚀 When it comes to developers, DevOps has turned into an additional hurdle on the path to delivering product features. Originally, DevOps was meant to empower developers with operational tasks, but instead, it evolved into a team that controls access and holds the keys to the information and systems needed to deploy and release quickly. \n\n📣 In every organization, a handful of exceptional DevOps 👨‍💻 engineers become the oracles of knowledge and the entire team relies heavily on their expertise. However, reliance on a few go-to experts inevitably becomes a bottleneck on the team's speed and ability to ship. Don’t you wish you had your expert DevOps engineer on a speed-dial, without actually bugging them? \n\n🤖 Introducing **Release AI**—a powerful tool that allows anyone using the Release CLI to get go-to DevOps engineers’ answers, without tying up the experts’ time. Developed with developers and engineers in mind, Release AI extends the capabilities of OpenAI's GPT-4 public LLM with our extensive expertise in DevOps, providing you with relevant context, control, and content tailored to your organization's unique needs.\n\n👷‍♂️ In its initial phase, Release AI provides \"read-only\" access to both AWS and Kubernetes. This lets you engage in meaningful conversations with your AWS account and your K8s infrastructure. Looking forward, we plan to add more tools for commonly used systems, along with the introduction of write access, which will allow you to automate an even broader range of your 🤹‍♀️ daily tasks.\n\nHere are some examples of what you can do with Release AI:\n\n🐳 **Talk to your Kubernetes clusters**\n\n![uploaded image](/media/?type=post&id=74153&key=user_uploads/423512/d5b71075-1a25-4f12-a49f-0a95aa14d4c9)\n\n🧑‍💻 **Talk to your AWS infrastructure**\n\n![uploaded image](/media/?type=post&id=74153&key=user_uploads/423512/9fcdd298-b284-4fdc-96d9-f33eed3d2dab)\n\n💰 **Keep track of your AWS spend**\n\n![uploaded image](/media/?type=post&id=74153&key=user_uploads/423512/8a11fe73-1851-4908-b27c-43bd5a57d9fb)\n\n⏰ **Create Cron Jobs and Reminders**\n\n![uploaded image](/media/?type=post&id=74153&key=user_uploads/423512/19ce66c3-4694-41f7-9ef2-0eae0ead7dc4)\n\nWe have a [Slack community that you can join](https://join.slack.com/t/release-ai/shared_invite/zt-20dxgp2o0-ePCXzsag6l8_i4HwOgRItg) to talk about Release AI. We also wrote a 🚀 [quick-start guide](https://docs.release.com/release-ai/quickstart) to help you get started.\n\n# Our Ask 🙏\n\n[Try it out!](https://beta.release.com/ai/register) We would love your feedback as we are enhancing Release AI, reach out to us with any feature requests or crazy ideas that Release AI could do for you. We hope you enjoy using Release AI! ❤️\n\n— The Release Team",
+      "url": "https://www.ycombinator.com/launches/JI1-release-ai-talk-to-your-infrastructure",
+      "votes": 17,
+      "created_at": "2023-08-16T16:51:19.699Z"
+    },
+    {
+      "id": 73732,
+      "title": "Instant Datasets — Production data for development",
+      "tagline": "The easiest way to develop with production data",
+      "body": "At [Release](https://release.com) we help “virtualize” your environment, so you can quickly reproduce it for various purposes: remote development, testing, staging, or even running production. Our platform serves as a one-stop shop for all of your environment requirements. We have taken our most popular feature and are now offering it as a stand-alone product for free!\n\n⚡️Instant Datasets is one of the most popular features of the Release platform because we make the management of pools of data easy. Release’s Instant Datasets workflow means you don’t need to worry about managing the creation of databases from snapshots. As new snapshots arrive they will automatically be incorporated in your dataset. Instant Datasets allows you to easily create multiple pools of datasets and distribute them to your teams and it cleans _🧹_ up after itself.\n\n![](https://4032318958-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F-M1neGLLQ0sDXeK6ooSo%2Fuploads%2FuFlNpsifRLmeTcT73L4S%2FScreenshot%20from%202022-05-03%2011-59-14.png?alt=media&token=b4529430-e7d6-4767-a10b-aa3493a5f51d)\n\n_Using the built-in replication functionality of services like RDS, Instant Data sets creates pools of databases for use wherever production data is needed._\n\n📀 Data is one of the most important aspects of any environment. Without real data to support it, the code or running containers lose much of their usefulness. Often, the complexities and burden of distributing production or production-like data is an “exercise left to the reader” when looking for providers of environments or a development platform as a service. **Your ephemeral environments are only as good as your data!** At Release we built a version of Instant Datasets, day 1 for this very reason. **We are now making it available as a stand-alone product** for you to incorporate into any local development process, ci/cd pipeline, etc!\n\n![uploaded image](/media/?type=post&id=73732&key=user_uploads/19885/644c642f-b0e7-43a8-b3bb-448466031ba9)\n\n_Dataset with one in use, one starting up, and one available for someone to use_\n\nSetting up and using Instant Datasets is super simple:\n\n✅ **Create a Release Instant Datasets account** [**here**](https://beta.release.com/instantdatasets/register)\n\n✅ **Create a cloud integration**\n\n![](https://lh6.googleusercontent.com/3STD6S6crrkGBxL6aCHoSnwL-IjTFkSst_fhdIYfPD7IMU6WxQOkSDH2iQYJjMINA8Gjn06eLSLryyizQ8G6Rd3ojR6-9mSp7_VlO4qe-D5K4wNKDbmbi7novSesgN36EZMPk9IHdVH-sgNH6D9aPGQ)\n\n_Cloud Integrations are how Release talks to your cloud provider on your behalf_\n\n✅ **Create a dataset**\n\n![](https://lh3.googleusercontent.com/nFZIdkEW320QyNNKumPmVO4iIaqEn2ZFZhTnAS7zqfWzDnmamR_-Rsr07n10EK5sP7rWJVP4BZSH_YYhT0WZlZLkXz4otjEv8t0-8FLRvXTbA2DZwrI7TYmIfynQIgtplP2ngL2OMHSP1XUn0MAIWNo)\n\n_Release lets you control cost, security and performance of you dataset_\n\n🏁 **Checkout a database and use it in your environment for as long as you need it**\n\n![](https://lh5.googleusercontent.com/3DP_hXM8pCFjWAGo6jpK1eKHM3qMu3sWdcPSJWzkTMboho8nI8aFh1HRIfNCplYbGdMgYLhkdgL6s6ixavx597PSOJxByen1wRRsINuj1upAxO1EPuF0S9pW8o1pAxQ99IKqnZzmixt1dd_idPJkVpk)\n\n![](https://lh3.googleusercontent.com/b0SiudL37kwJyHl2_wED4gOGv4GvQcustSeSu4Y_-TIaVTCA6g8GcmJGD1YpCBX3ehZV8n69soCZZDocrcFfV4CTt57Dlp2BiP2wHwMb3jWLeGxuPhIsuYyllHL51bTNdbsIOkjg8n33c48TYO0Wt5U)\n\n_Release provides you with everything you need to connect to your dataset_\n\nWe wrote a 🚀 [quick-start guide](https://docs.release.com/release-instant-datasets/quickstart) and made a 👣 [walkthrough video](https://vimeo.com/849156936) to help you get started.\n\n❓ Although the standalone Instant Datasets has a few limitations compared to the Release platform version, we are actively working on resolving them in the upcoming weeks. Currently, we support RDS and Aurora in AWS, with Google Cloud support coming soon. Additionally, we will be adding the capability to pause databases on a schedule to save resources and money, as well as the ability to cleanse production data before creating a pool of databases. All of these features exist in the Release platform and are being added to the stand-alone product currently.\n\n### Our Ask 🙏\n\n**Please give Instant Datasets a **[**try**](https://beta.release.com/instantdatasets/register)**!** Our customers, as well as the team at Release, have found it incredibly valuable to build and test with production-like data. In fact, it's how we develop all our products, including Release. From the very beginning, we recognized the importance of having production-like data to create the best possible development platform. We would love your feedback. We hope you enjoy using Instant Datasets too! ❤️\n\n— The Release Team",
+      "url": "https://www.ycombinator.com/launches/JBE-instant-datasets-production-data-for-development",
+      "votes": 20,
+      "created_at": "2023-08-02T19:58:30.541Z"
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "id": 26663,
+  "name": "Denormalized",
+  "slug": "denormalized",
+  "former_names": [
+    "Probably Nothing Labs"
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/b63e1460304048d366b7e3939ef213373a7766f2.png",
+  "website": "https://www.denormalized.io/",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "Denormalized is a serverless real-time data platform that allows users to query data quickly while eliminating the need to manage complex infrastructure. It enhances developer productivity by automating schema inference from sample data and simplifying data stream creation allowing engineers to go from idea to production fast. Denormalized supports SQL for data transformations without needing complex stream processing systems like Flink.",
+  "one_liner": "serverless platform for real-time data",
+  "team_size": 2,
+  "industry": "B2B",
+  "subindustry": "B2B -> Infrastructure",
+  "launched_at": 1658936956,
+  "tags": [
+    "Analytics",
+    "Infrastructure"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Summer 2022",
+  "status": "Inactive",
+  "industries": [
+    "B2B",
+    "Infrastructure"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/denormalized",
+  "api": "https://devasheeshg.github.io/yc-api/batches/summer-2022/denormalized.json",
+  "year_founded": 2022,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/probably-nothing-labs",
+  "x_url": "",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/b63e1460304048d366b7e3939ef213373a7766f2.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": null,
+  "founders": [
+    {
+      "user_id": 698248,
+      "full_name": "Amey Chaugule",
+      "title": "Founder",
+      "founder_bio": "Spent 10+ years working at the intersection of ML & Data Infra.\n\nWorking on Uber's Marketplace Dynamics 2016-2020 was an honour of a lifetime. I can nerd out about pricing algorithms and marketplace optimizations till kingdom come.",
+      "is_active": false,
+      "linkedin_url": "https://www.linkedin.com/in/ameychaugule/",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/54b9fb4c7224819d06fcba138730d3e1a8c7da88.jpg"
+    },
+    {
+      "user_id": 9674,
+      "full_name": "Matt Green",
+      "title": "Founder",
+      "founder_bio": "Data things.",
+      "is_active": false,
+      "linkedin_url": "https://www.linkedin.com/in/mgreen9",
+      "x_url": "https://twitter.com/IAmMattGreen",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/fa894df0a424af40b0b1ffd5873da1acccb76b08.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 64973,
+      "title": "Probably Nothing Labs - Databricks for Web3",
+      "tagline": "Real-time Indexer-as-a-Service to help Web3 teams power data backends for their apps in days",
+      "body": "**🤔 The Problem**\n\nIndexing public blockchains is a major pain!\n\nEngineers need to build resilient poll loops around chain specific validators that request, parse, and track raw blocks, transactions and event logs as they arrive. This work requires in-depth knowledge of specific protocols, smart contract ABIs, and stateful stream processing (not to mention handling chain re-org or tracking the mempool). All of this work just to build a backend for your Uniswap position tracking dashboard or that Instagram for NFTs app.\n\nNevermind having to build systems to monitor individual positions for collateral drops in DeFi lending protocols. \n\n**🤌 Our Solution**\n\nWe built **Gigabrain**, a best-in-class blockchain indexer with support for Ethereum and Solana. Using advanced stateful streaming techniques, Gigabrain is able to parse, index, and store transactions within seconds of blocks being confirmed. In addition, we’ve created a versioned registry of all smart contracts on Ethereum as well its L2s.\n\nWith Gigabrain you can —\n\n* Run **complex stateful aggregations** for **on-chain events** as soon as - or before - they show up on the blockchain.\n* Never have to worry about keeping track of contract specific ABIs with our **Smart Contract Registry**.\n* **Run live SQL** against the **Ethereum mempool** (we use a globally distributed set of nodes that we manage ourselves).\n* Run **large scale analytics** against our datalake as well as **power robust data backends** for your own Web3 apps.\n\n[🎬](https://emojipedia.org/clapper-board/) **The Demo**\n\nCheck out our [short demo on Loom](https://www.loom.com/share/d4784d7e2a9f4503bd2beab5e070e840).\n\n**📞 Our Ask**\n\nIf you or anyone else in your network -\n\n* Need to work with on-chain data at scale or in real-time\n* Parse a wide array of smart contract specific on-chain events\n* Have the need to build sophisticated on-chain monitoring solutions for DeFi protocols or NFT Marketplaces\n\nPlease get in touch with us!\n\n**Amey**: [amey@probablynothinglabs.xyz](mailto:amey@probablynothinglabs.xyz) , **Telegram**: @ambrood, **Discord**: ambrood#9366\n\n**Matt**: [matt@probablynothinglabs.xyz](mailto:matt@probablynothinglabs.xyz), **Telegram**: @mgreenn, **Discord**: mattt#2076",
+      "url": "https://www.ycombinator.com/launches/Gtx-probably-nothing-labs-databricks-for-web3",
+      "votes": 18,
+      "created_at": "2022-07-28T14:40:55.685Z"
+    }
+  ]
+}

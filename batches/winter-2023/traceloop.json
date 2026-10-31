@@ -1,0 +1,100 @@
+{
+  "id": 27678,
+  "name": "Traceloop",
+  "slug": "traceloop",
+  "former_names": [
+    "Rovie",
+    "Vecinity",
+    "Enrolla",
+    "Traceloop",
+    "traceloop"
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/284ee8dcb70cf1539c35db6e20ec3370746244d6.png",
+  "website": "https://www.traceloop.com",
+  "all_locations": "Tel Aviv-Yafo, Tel Aviv District, Israel",
+  "long_description": "Traceloop gives you full visibility into every prompt, response, and failure. Track quality, detect drift, and stop hallucinations before they reach your users. Powered by OpenTelemetry, integrated in one line.",
+  "one_liner": "Know what your LLM is doing — and why it’s failing",
+  "team_size": 9,
+  "industry": "B2B",
+  "subindustry": "B2B",
+  "launched_at": 1675081598,
+  "tags": [
+    "Developer Tools",
+    "Generative AI",
+    "SaaS",
+    "Open Source"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Winter 2023",
+  "status": "Acquired",
+  "industries": [
+    "B2B"
+  ],
+  "regions": [
+    "Israel",
+    "Middle East and North Africa",
+    "Remote",
+    "Partly Remote"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/traceloop",
+  "api": "https://devasheeshg.github.io/yc-api/batches/winter-2023/traceloop.json",
+  "year_founded": 2023,
+  "city": "Tel Aviv-Yafo",
+  "country": "IL",
+  "linkedin_url": "https://www.linkedin.com/company/traceloop/",
+  "x_url": "https://twitter.com/traceloopdev",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": "https://github.com/traceloop",
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/284ee8dcb70cf1539c35db6e20ec3370746244d6.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Aaron Epstein",
+    "url": "https://www.ycombinator.com/people/aaron-epstein"
+  },
+  "founders": [
+    {
+      "user_id": 1024399,
+      "full_name": "Nir Gazit",
+      "title": "Founder/CEO",
+      "founder_bio": "Ex-Google, formerly chief architect at Fiverr. Over 15 years of experience building software. M.Sc in CS from the Hebrew University in Jerusalem.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/nirga/",
+      "x_url": "https://twitter.com/nir_ga",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/483f839d66f4002bc68a9689f77f47805741480c.jpg"
+    },
+    {
+      "user_id": 1054307,
+      "full_name": "Gal Kleinman",
+      "title": "Founder",
+      "founder_bio": "Formerly an R&D Group Manager @ Fiverr. Tech savvy with a vast experience leading software development projects from SaaS products and experiences to Data & ML infrastructure.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/gal-kleinman-16898384/",
+      "x_url": "https://twitter.com/GalKlm",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/5524a403dd9b534f881c200ba4ddb5bedbfe43ec.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 90818,
+      "title": "Traceloop: LLM Reliability Platform, powered by OpenTelemetry",
+      "tagline": "Know what your AI Agent is doing — and why it’s failing",
+      "body": "**TLDR**: [Traceloop](https://www.traceloop.com/?utm_source=YCLaunch) helps teams test, troubleshoot, and improve AI agents with automated performance evaluations, ensuring reliability before and after every release. We bring the same rigor to AI that developers expect from the rest of their stack.\n\n---\n\nHi everyone, we’re Nir and Gal, co-founders of [Traceloop](https://www.traceloop.com/?utm_source=YCLaunch), and we're part of the Y Combinator Winter 2023 batch.\n\n🚨 **Problem**\n\nBuilding and deploying AI agents today often feels like guesswork. Public model benchmarks don’t predict how well an AI will perform in real-world applications, and businesses are stuck in a cycle of trial and error, tweaking prompts and manually testing. But as AI agents become more complex and critical, these outdated methods just don't cut it. When AI misfires — hallucinating, taking wrong actions, or producing unpredictable outputs — users disengage instead of filing bug reports.\n\nAt [Traceloop](https://www.traceloop.com/?utm_source=YCLaunch), we believe **prompt engineering shouldn't be a guessing game**. We need to bring the same quality assurance processes to AI that we’ve come to expect from software engineering.\n\n🧠 **Solution**\n\n![uploaded image](/media/?type=post&id=90818&key=user_uploads/1024399/2e0c1c99-adce-411c-948b-1e0263e8ca47)\n\nTraceloop provides **evaluations** and **real-time monitoring** for AI agents, reducing the guesswork and ensuring performance is consistent before reaching end users. Our open-source foundation, [OpenLLMetry](https://github.com/traceloop/openllmetry) and [Hub](https://github.com/traceloop/hub), collects LLM interactions at scale and our our commercial platform is now helping businesses:\n\n* **Train evaluators** to catch hallucinations and detect quality issues.\n* **Experiment** with different models to choose the right one for your use case.\n* **Monitor and Evaluate AI agent performance** in real-time or during CI.\n\nWe help teams **reduce risk, accelerate iteration**, and ensure that their agents behave as expected in production environments.\n\n🎯 **Asks**\n\n⭐ Star us [OpenLLMetry](https://github.com/traceloop/openllmetry) and [Hub](https://github.com/traceloop/hub) on GitHub and follow us on [Twitter](https://x.com/traceloopdev)!\n\nIf you're building LLM apps, we'd love to show you how Traceloop can help improve your agent’s performance and reliability. [Reach out](https://calendly.com/d/cq42-93s-kcx) and let’s explore how we can help.\n\nIf you know teams working with AI, please forward this to them!",
+      "url": "https://www.ycombinator.com/launches/Nco-traceloop-llm-reliability-platform-powered-by-opentelemetry",
+      "votes": 29,
+      "created_at": "2025-05-28T17:04:16.342Z"
+    }
+  ]
+}

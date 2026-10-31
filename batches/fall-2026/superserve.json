@@ -1,0 +1,74 @@
+{
+  "id": 37602,
+  "name": "Superserve",
+  "slug": "superserve",
+  "former_names": [],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/30c23ee4b16858a917c5254b034633777d99a5f2.png",
+  "website": "https://superserve.ai",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "Superserve gives every AI agent its own computer in the cloud. Each one is an isolated VM that starts in under 50ms, sleeps between turns, and picks up exactly where it left off, for hours, weeks or indefinitely.\r\n\r\nTraditional cloud infrastructure was built to run one app for many users. Agents flip that. Each agent needs its own isolated machine where it can write and run code, use tools and work on its own for long stretches. Everything it produces has to persist the whole time, the way your laptop keeps your work.\r\n\r\nThat means agent computers have to be stateful, secure and cheap to run. For agents that talk to customers, they also have to start, sleep and wake almost instantly.\r\n\r\nFast - Machines start in under 50ms, either cold or from a template with your repo and dependencies already loaded. You don't need to keep a pool of servers running and waiting.\r\n\r\nPersistent - Paused machines keep their full memory and disk state at zero compute cost. They can resume or fork from that exact state. Pausing and resuming is fast enough that a machine can sleep between inference calls and wake on the next turn. Agents can run Docker, databases, browsers or any other service inside.\r\n\r\nSecure - Every machine is a microVM with its own kernel. You can program the rules for what traffic can come in and go out, and they're enforced at the network boundary where the agent can't reach them. API secrets are handled at the network layer too, so they never enter the machine. Every action is logged for audits.\r\n\r\nTeams building coding agents, autonomous workers, and eval or RL training environments use Superserve to give every agent session or rollout its own machine, with no infrastructure to manage.\r\n\r\nWe run 100K+ machines every week for teams including Lindy and Y Combinator.",
+  "one_liner": "Virtual machines for long-running agents",
+  "team_size": 3,
+  "industry": "B2B",
+  "subindustry": "B2B -> Infrastructure",
+  "launched_at": 1793143459,
+  "tags": [
+    "Cloud Computing",
+    "Infrastructure",
+    "AI"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Fall 2026",
+  "status": "Active",
+  "industries": [
+    "B2B",
+    "Infrastructure"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada",
+    "Remote",
+    "Partly Remote"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/superserve",
+  "api": "https://devasheeshg.github.io/yc-api/batches/fall-2026/superserve.json",
+  "year_founded": 2025,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/super-serve-ai",
+  "x_url": "https://x.com/superserve_ai",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": "https://github.com/superserve-ai",
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/30c23ee4b16858a917c5254b034633777d99a5f2.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Max Kolysh",
+    "url": null
+  },
+  "founders": [
+    {
+      "user_id": 427644,
+      "full_name": "Pavitra Bhalla",
+      "title": "Founder/CEO",
+      "founder_bio": "Founder & CEO of Superserve. \n\nAs Staff Software Engineer at Dosu, he built code-reasoning agents used by 200K engineers, including teams at HashiCorp, Datadog and LlamaIndex. Giving every agent session a secure environment with a codebase, bash and tools was hard infra work, so he started Superserve to make it easy. \n\nBefore that, he was Founding Engineer and Director of Engineering at Long-Term Stock Exchange (YC S17), building capital markets software used by 50,000 startups.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/pavitrabhalla/",
+      "x_url": "https://x.com/pavitrabhalla",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/e449a44b42e942b5fe06659e0b63aa60f8a2afbf.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": []
+}

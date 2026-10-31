@@ -1,0 +1,97 @@
+{
+  "id": 31325,
+  "name": "Surtr Defense Systems",
+  "slug": "surtr-defense-systems",
+  "former_names": [
+    "Overwatch Systems",
+    "Parallax"
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/ab5a7de765aab31de659bc6429451ecb734f5da7.png",
+  "website": "https://surtrdefense.com",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "Surtr builds ParallaxOS, the open operating system for counter-UAS. It takes sensor data from any radar, RF detector, camera, or acoustic array and fuses it into a single unified picture with AI-driven threat classification and engagement recommendations. One interface, any hardware, human in the loop.",
+  "one_liner": "The hardware-agnostic operating system for drone defense",
+  "team_size": 2,
+  "industry": "Industrials",
+  "subindustry": "Industrials -> Defense",
+  "launched_at": 1778573258,
+  "tags": [],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Spring 2026",
+  "status": "Active",
+  "industries": [
+    "Industrials",
+    "Defense"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/surtr-defense-systems",
+  "api": "https://devasheeshg.github.io/yc-api/batches/spring-2026/surtr-defense-systems.json",
+  "year_founded": 2026,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/surtr-defense-systems/",
+  "x_url": "https://x.com/surtrdefense",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/ab5a7de765aab31de659bc6429451ecb734f5da7.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Andrew Miklas",
+    "url": "https://www.ycombinator.com/people/andrew-miklas"
+  },
+  "founders": [
+    {
+      "user_id": 679653,
+      "full_name": "Anshul Ahluwalia",
+      "title": "Founder/CEO",
+      "founder_bio": "Ex Shield-AI Autonomy Engineer working on building open & modular C2 for Counter UAS",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/anshul-ahluwalia-17658264/",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/6a20e16eff2335e51f70f393b84179b4fc849444.jpg"
+    },
+    {
+      "user_id": 3421205,
+      "full_name": "Cameron Fiore",
+      "title": "Founder/CTO",
+      "founder_bio": "Building a hardware-agnostic, AI operating system for air defense. Before Surtr, I was an an autonomy engineer at Anduril and Shield AI, where I worked on missile defense systems and robot teaming in contested environments.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/camfiore/",
+      "x_url": "https://x.com/cam_fiore",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/bff72c22089a586864267add9be8d49f18c357a0.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [
+    {
+      "title": "Exclusive: Surtr Raises $5M Seed for C-UAS Integration",
+      "url": "https://www.tectonicdefense.com/exclusive-surtr-raises-5m-seed-for-c-uas-integration/",
+      "date": "Jul 07, 2026"
+    }
+  ],
+  "launches": [
+    {
+      "id": 101258,
+      "title": "Surtr Defense Systems",
+      "tagline": "An Open Operating System for Counter-UAS",
+      "body": "TLDR: We solve the interoperability problem in drone defense by being the operating system people actually trust and want to integrate with\n\n**What We Do**\n\nSurtr builds ParallaxOS, the open operating system for counter-UAS. It takes sensor data from any radar, RF detector, camera, or acoustic array and fuses it into a single unified picture with AI-driven threat classification and engagement recommendations. One interface, any hardware, human in the loop.\n\n**Demo Video**\n\n<https://www.youtube.com/watch?v=knoUepYwVmI>\n\n**Backstory**\n\nMy cofounder Cam and I are both autonomy engineers. I was at Shield AI building autonomy for Group 3 & Group 5 aircrafts. Cam was at Anduril doing the same.\n\nWe both saw the same problem from the inside: integrating sensors and effectors into existing C2 platforms is painful. The incumbent system uses a proprietary SDK with a revocable license where they alone decide who counts as \"compatible.\" Primes don't want to build on that. One OEM Cam worked with on Golden Dome refused to integrate, so the C2 vendor had to hire a third party to hack the data off the radar. More time, more money, worse product.\n\nParallaxOS is designed to be completely open. Anyone integrating with us has full transparency as to how their sensor/effector data is being used and where it’s being stored.\n\n**Asks**\n\n1\\. **Intros to defense program managers** working C-UAS (Army, SOCOM, Air Force, Navy, allied forces, etc.). Especially anyone evaluating or frustrated with current integration timelines.\n\n2\\. **Intros to sensor/effector hardware companies** (radar, RF, EO/IR, EW, kinetic defeat). We integrate with any hardware that has an API. Every partner that plugs in makes the ecosystem stronger for everyone.\n\n3\\. **Intros to anyone with firsthand experience operating C-UAS systems.** We want to hear what's broken from the people who use it.",
+      "url": "https://www.ycombinator.com/launches/QLC-surtr-defense-systems",
+      "votes": 8,
+      "created_at": "2026-05-13T06:04:46.304Z"
+    }
+  ]
+}

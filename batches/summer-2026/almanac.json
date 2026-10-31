@@ -1,0 +1,101 @@
+{
+  "id": 32588,
+  "name": "Almanac",
+  "slug": "almanac",
+  "former_names": [],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/04034530613a233afe0d28a52bcfd6e9943b7ea7.png",
+  "website": "https://usealmanac.com",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "Almanac is an AI agent that deeply understands your work.\r\n\r\nToday people rely on a stack of productivity tools to hold the context of their work including todo lists, issue trackers, wikis, and CRMs. All of them have to be updated by hand, and none were built for AI. \r\n\r\nAlmanac maintains its own self-updating productivity suite for you. This gives it an absurdly good understanding of your work, based on which it proactively gets things done for you.\r\n\r\nAlmanac starts with individuals, but it's built for teams. As more of a team connects their work, the agent gains shared context across everyone, so it understands not just what you're doing but how the whole team's work fits together.",
+  "one_liner": "Organizing company knowledge",
+  "team_size": 3,
+  "industry": "B2B",
+  "subindustry": "B2B",
+  "launched_at": 1784235632,
+  "tags": [
+    "Generative AI",
+    "AI",
+    "AI Assistant"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Summer 2026",
+  "status": "Active",
+  "industries": [
+    "B2B"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/almanac",
+  "api": "https://devasheeshg.github.io/yc-api/batches/summer-2026/almanac.json",
+  "year_founded": 2025,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/usealmanac/",
+  "x_url": "https://x.com/usealmanac",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/04034530613a233afe0d28a52bcfd6e9943b7ea7.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Harshita Arora",
+    "url": "https://www.ycombinator.com/people/harshita-arora"
+  },
+  "founders": [
+    {
+      "user_id": 2550783,
+      "full_name": "Rohan Sharma",
+      "title": "Founder/CEO",
+      "founder_bio": "Cofounder at Almanac. ML research at the Vector Institute, CMU and MIT. MEng in Computational Science from Harvard, BTech from IIT Delhi.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/rohan-sharma-b6275219b/",
+      "x_url": "https://x.com/rohansharma0509",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/a414112b79dc50429aa2b090b2c58b1a3114d38c.jpg"
+    },
+    {
+      "user_id": 2557429,
+      "full_name": "Kushagra Chitkara",
+      "title": "Founder/COO",
+      "founder_bio": "Cofounder at Almanac. Masters in Data Science from Harvard '25, Bachelors in Electrical from IIT Kharagpur '23.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/kushagra-chitkara-2b3226192",
+      "x_url": "https://x.com/kushagrchitkar",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/a782605dfc529d9f7a47e2f0399e2cf9cf525470.jpg"
+    },
+    {
+      "user_id": 2251543,
+      "full_name": "Divit Sheth",
+      "title": "Founder/CTO",
+      "founder_bio": "Cofounder at Almanac. Previously Senior Software Engineer at Arcesium. BE in Electrical and Electronics Engineering from BITS Pilani with a minor in Data Science.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/divit-sheth/",
+      "x_url": "https://x.com/divitsheth007",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/93674e13d8af5f7bcc49866d253a7ccba619b8d4.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 106258,
+      "title": "Almanac: The agent with a company brain",
+      "tagline": "Almanac works with its own browser and terminal, signed into the accounts you connect.",
+      "body": "There's a new kind of agent.\n\nIt exists on its own computer, connected to your tools, with a living brain of everything you and your company know.\n\nIntroducing Almanac, the agent with a company brain.\n\n<https://youtu.be/UZVOJTQhW1I?is=Bb0d2--YkZYf7xdp>\n\nAlmanac works with its own browser and terminal, signed into the accounts you connect. Everything in your tools compiles into a wiki that it reads before every task. Your teammates' Almanacs share that wiki. You text it work. It texts you when it's done.\n\n![uploaded image](/media/?type=post&id=106258&key=user_uploads/2550783/615174e2-3d24-480d-a8f5-7c849c5a24b9)\n\n**What we hand ours**\n\n* Divit has it gather feedback from our customer Slack channels and file GitHub issues, with screenshots and reproduction steps.\n* Kushagra connected his Chase account. It inspects recurring charges and cancels subscriptions he doesn't use.\n* Before meetings, it sends us a brief built from our past emails and calendar. After, it drafts the follow-up. The draft is usually good enough to send.\n* It watches our production environment. When something trivial breaks, it fixes it and raises a PR.\n* It buys our dinner. At this point it suggests the order.\n\n**It knows when to stop.** At a login, a payment, or a decision it shouldn't make alone, it pings you or hands you the live browser.\n\n![uploaded image](/media/?type=post&id=106258&key=user_uploads/2550783/9b85821d-c37b-4da7-87a9-6218d731ad53)\n\n**Automations are just sentences.** \"Whenever a customer reports a bug, check whether anyone else has reported it, reproduce it, and update the GitHub issue.\" Say it once. There's no workflow builder.\n\n**The brain is shared.** Your teammates' Almanacs read and write the same wiki. So can your other agents: Claude Code and Codex can start caught up on your company. \\\n\\\n**Our bet.** We're Rohan, Kushagra, and Divit. We grew up together in India and met 11 years ago preparing for the JEE. Since then: machine-learning research and engineering across Vector Institute, CMU, MIT, Harvard, and Arcesium. From the start we've had one bet: AI will need a context layer, and it takes the shape of a wiki. For the last year and a half we've built agent wikis for Harvard, for NASA, and once, an attempt at the whole internet. We are, perhaps predictably, obsessed with wikis. Almanac is that bet, pointed at your company.\n\n![uploaded image](/media/?type=post&id=106258&key=user_uploads/2550783/7bab1366-3e4c-4140-829d-e1bc9666d9ab)\n\nText it your first task tonight. See what's done by morning.\\\n\\\nTry it out today: <https://usealmanac.com>",
+      "url": "https://www.ycombinator.com/launches/Rdq-almanac-the-agent-with-a-company-brain",
+      "votes": 36,
+      "created_at": "2026-08-13T15:37:10.813Z"
+    }
+  ]
+}

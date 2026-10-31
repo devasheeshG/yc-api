@@ -1,0 +1,105 @@
+{
+  "id": 31306,
+  "name": "Martini",
+  "slug": "martini",
+  "former_names": [],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/db10d91f7f05057c62a3c61e66da7a84cd7591fb.png",
+  "website": "https://martini.film",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "Martini is a collaborative, AI-native platform for professional filmmaking in the era of generative media.\r\nBy integrating the best generative models into professional workflows, we enable world-class creatives to harness generative AI as a legitimate medium for film.",
+  "one_liner": "AI Video Production for Professionals",
+  "team_size": 2,
+  "industry": "B2B",
+  "subindustry": "B2B -> Engineering, Product and Design",
+  "launched_at": 1768440972,
+  "tags": [
+    "Generative AI",
+    "Entertainment",
+    "Design Tools",
+    "Video",
+    "Media"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Winter 2026",
+  "status": "Active",
+  "industries": [
+    "B2B",
+    "Engineering, Product and Design"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada",
+    "Remote",
+    "Partly Remote"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/martini",
+  "api": "https://devasheeshg.github.io/yc-api/batches/winter-2026/martini.json",
+  "year_founded": 2025,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/martini-film/",
+  "x_url": "https://x.com/martini_film",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/db10d91f7f05057c62a3c61e66da7a84cd7591fb.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Jared Friedman",
+    "url": "https://www.ycombinator.com/people/jared-friedman"
+  },
+  "founders": [
+    {
+      "user_id": 2701033,
+      "full_name": "Koh Terai",
+      "title": "Founder/CEO",
+      "founder_bio": "Cannes-screened cinematographer. Stanford Design. CS background.\n\nBuilding professional filmmaking tools for the generative era of film.\n\nwww.kohterai.com",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/kohterai/",
+      "x_url": "https://x.com/koh_terai",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/ea60b4986e5230db97a4fc79168553b3bdb662ef.jpg"
+    },
+    {
+      "user_id": 3120681,
+      "full_name": "Long Hoang",
+      "title": "Founder/CTO",
+      "founder_bio": "Turns Martinis into Films.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/longh/",
+      "x_url": "https://x.com/beertocode",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/40688ee2ac0332a852379ed14c725913d4ade66a.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 125185,
+      "title": "Martini Bar: AI video production infrastructure",
+      "tagline": "Give Claude a real workspace for making videos",
+      "body": "**TL;DR:** Martini Bar gives AI agents and vibe coded tools **one video production workspace** for **collaboration**, **asset management**, and **cost tracking**. It’s Martini’s **API**, **MCP**, and **CLI** product for serious video teams.\n\n**Ask:** If you build your own AI video tools or make video with agents, connect to Martini Bar this week at [https://www.martini.film/bar](http://martini.film/bar%5D\\(https://www.martini.film/bar\\)) and tell us what's missing.\n\n<https://youtu.be/nNKBL_w36ag>\n\n---\n\n# **🍸 The problem**\n\nProfessionals are making AI videos for TV spots, episodic series and brand campaigns. Many teams run workflows on pipelines and tools they stitched together: a script breakdown tool built with Claude Code, a character library built with Lovable.\n\nIt’s great that people are building their own video tools.\n\n**But three things are hard to build right:**\n\n1. **Collaboration.** An agent's output is a folder of files. Vibe coded tools tend to be for one user.\n2. **Provenance.** Generative AI video requires lots of iteration. You end up with a mess of assets at the end of production.\n3. **Billing.** You have no idea how much everything ended up costing.\n\nWe fix this.\\\n\\\nOne studio told us,\n\n> **What takes us three days in other tools took five hours in Martini.\"**\n\n---\n\n---\n\n---\n\n# **🛠️ Our solution**\n\n![uploaded image](/media/?type=post&id=125185&key=user_uploads/2701033/26d0cdb0-9b2e-4ad4-a387-d359e1ea358e)\n\nThink about what Supabase did for vibe-coded apps.\\\nMartini Bar does that for AI video. We’re the backbone behind your tools and agents, so you can focus on building what’s unique for your team.\n\n1. **Your team and agents work together.** Everyone works on one canvas and timeline. Everyone can see and edit the same materials.\n\n   ![uploaded image](/media/?type=post&id=125185&key=user_uploads/2701033/7539906f-9c6f-4774-9001-77f0222d0d2b)\n\n2. **Every shot remembers how it was made.** It keeps the model, prompt, references, every take that was tried, the edits on top, and the person or agent behind each one.\\\n     \\\n   Every project can build on the last project, instead of being a one-off.\n\n   ![uploaded image](/media/?type=post&id=125185&key=user_uploads/2701033/ca220adb-5892-4dd9-8480-48bcc8d310da)\n\n3. **Actually understand how much you’re spending.** You can break spend down by person, agent, project and model, and set caps per member and per project.\n\n   ![uploaded image](/media/?type=post&id=125185&key=user_uploads/2701033/46a3553a-22c9-4c2c-81a5-6b0ea3f4e195)\n\n4. **Bonus: bring your own fal API key.** Know exactly what you’re paying for with your own API key for generative models.\n\n---\n\n# **🎬 Made with Martini:**\n\n* An animated series with 1M+ views\n* TV commercials airing internationally\n* Shows for TV networks\n* Short-form content for viral consumer apps\n\n# **⚙️ How it works**\n\nVisit [**https://www.martini.film/bar**](http://martini.film/bar%5D\\(https://www.martini.film/bar%5C) and get started for free and connect your apps and agents to a real video workspace.\n\n---\n\n# **👋 Who we are**\n\nKoh is a professional cinematographer whose work has screened at [Cannes' Directors' Fortnight](https://www.quinzaine-cineastes.fr/en/film/grand-bouquet). Long was the first growth engineer at [Supabase](https://supabase.com/). Hundreds of films have been made with Martini, airing as TV commercials, gallery work and viral shorts.\n\n# **❓ FAQ**\n\n* **Do I need to have built my own tools?**\\\n  No. Everything works in the Martini app too. Martini Bar is for when you want your own tools or agents to work on the same shots.\n* **Which agents does Martini Bar work with?**\\\n  Claude Code, Codex, Cursor, Claude and ChatGPT, through our MCP server. Your own code can use the HTTP API (TypeScript and Python clients) or the CLI.\n* **What does \"bring your own fal key\" mean?**\\\n  Generations bill to your fal.ai account at fal's prices. For models that aren't on fal, you use olives, Martini's credits.\n* **Can my editor still finish in Premiere or Resolve?**\\\n  Yes. Martini exports XML to Premiere Pro and DaVinci Resolve.\n\n👉 **Get started at [https://www.martini.film/bar](http://martini.film/bar%5D\\(https://www.martini.film/bar%5C)**, or email [founders@martini.film](mailto:founders@martini.film)",
+      "url": "https://www.ycombinator.com/launches/WZ7-martini-bar-ai-video-production-infrastructure",
+      "votes": 5,
+      "created_at": "2026-10-26T20:56:25.206Z"
+    },
+    {
+      "id": 97320,
+      "title": "Martini: AI Video Production for Professionals",
+      "tagline": "Your Film Set for AI Videos",
+      "body": "**TLDR:** _Martini is a collaborative, professional workspace for creating high-quality AI videos. It’s a film set for AI video production._\n\n<https://youtu.be/E4-astm3zyI>\n\n# **🍸 Introduction**\n\nWe’re [Koh](https://www.linkedin.com/in/kohterai/) and [Long](https://www.linkedin.com/in/longh/) from Martini.\n\nGenerative AI video still feels like the wild west.\n\nBrave members of the creative community are embracing this new medium.\\\n\\\nBut making a great AI video still feels like fighting the tool rather than using it. Most AI tools are built around prompting and seeds—not the way filmmakers actually think.\n\nKoh is a [professional cinematographer](https://www.quinzaine-cineastes.fr/en/film/grand-bouquet). He knows filmmakers live and breathe on film sets – a space for intentionality, collaboration, and control. Not endless prompts. So we built Martini to give filmmakers an environment to direct and shoot their generative AI films.\n\nWe shared Martini with a few filmmaker friends. Then more. Today over [200 films](https://www.madewithmartini.com/) have been made with Martini. They’ve aired as TV Commercials, been displayed as artwork, and have gone viral online.\n\n![uploaded image](/media/?type=post&id=97320&key=user_uploads/2701033/3a701a0c-9b24-4e63-bdf0-96cac0be92bf)\n\nOur users are filmmakers, artists, serious production teams, and anyone daring enough to take on the challenge of creating AI video.\n\n---\n\n---\n\n# **🍸 Martini is the go-to platform for AI video production**\n\n**Professional Control**\\\nGet the exact shot you want, not just the one the model hands you. Step into virtual worlds and compose shots using camera position, lenses, and movement — not just prompts and frames.\n\n![uploaded image](/media/?type=post&id=97320&key=user_uploads/2701033/41b4eb79-44ac-41fc-948f-dcde5b23ad60)\n\n_Step into any image or video to reframe and reshoot_\n\n**Streamlined Production Pipeline**\\\nTeams are forced to MacGyver their workflows across a mess of tools. Martini brings image, video, and world models directly into the editing process.\n\n![uploaded image](/media/?type=post&id=97320&key=user_uploads/2701033/3791bdb8-2631-4b1e-8ecf-e0165913cf3f)\n\n_Built in timeline for creating rough assemblies, exportable as XML_\n\n**Production as a Team Sport**\\\nVideo production is collaborative. Different professionals bring different expertise. Martini supports real-time collaboration—sharing prompts, edits, and feedback—so teams can explore ideas together the way they do in tools like **Figma, but for generative film**.\n\n![uploaded image](/media/?type=post&id=97320&key=user_uploads/2701033/f2e831c6-9f6a-4336-9df0-2b6799d6210a)\n\n# Interested?\n\nIf you’re a filmmaker, studio, or creative agency taking AI video seriously, book a demo session with us.\\\n\\\n👉 [**\\[ Book Demo Session \\]**](https://form.typeform.com/to/VVwyeUrj) 👈",
+      "url": "https://www.ycombinator.com/launches/PJg-martini-ai-video-production-for-professionals",
+      "votes": 23,
+      "created_at": "2026-01-30T05:50:02.004Z"
+    }
+  ]
+}

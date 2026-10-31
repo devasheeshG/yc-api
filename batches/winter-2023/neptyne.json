@@ -1,0 +1,104 @@
+{
+  "id": 27831,
+  "name": "Neptyne",
+  "slug": "neptyne",
+  "former_names": [],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/4bba48abf01450796ed84c6bb6dcb5adc2044c9a.png",
+  "website": "https://neptyne.com",
+  "all_locations": "New York City, NY, USA",
+  "long_description": "Neptyne is the first natively programmable spreadsheet, with a full Python environment, just like a Jupyter notebook. And we built in AI to make it easy to use, even if you’re not a Python expert. Neptyne turns anyone who can use Excel into a programmer.\r\n\r\nAt Google, Douwe launched products to millions in Search, Mobile and workplace. He founded multiple startups, and published a book on deep learning. 4 years ago Douwe rejoined Google, where he met his cofounder Jack and the rest of the team.\r\n\r\nNeptyne launched on Hacker News in February 2023, and since then users have made thousands of spreadsheets.  People have built everything from option trading systems to machine learning classifiers using Neptyne.",
+  "one_liner": "The programmable spreadsheet.",
+  "team_size": 4,
+  "industry": "B2B",
+  "subindustry": "B2B",
+  "launched_at": 1675313769,
+  "tags": [
+    "Generative AI",
+    "Data Science",
+    "Data Visualization"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Winter 2023",
+  "status": "Inactive",
+  "industries": [
+    "B2B"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada",
+    "Remote",
+    "Partly Remote"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/neptyne",
+  "api": "https://devasheeshg.github.io/yc-api/batches/winter-2023/neptyne.json",
+  "year_founded": 2022,
+  "city": "New York City",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/neptyne/",
+  "x_url": "https://twitter.com/neptynehq",
+  "fb_url": null,
+  "cb_url": "https://www.crunchbase.com/organization/neptyne",
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/4bba48abf01450796ed84c6bb6dcb5adc2044c9a.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Jared Friedman",
+    "url": "https://www.ycombinator.com/people/jared-friedman"
+  },
+  "founders": [
+    {
+      "user_id": 178715,
+      "full_name": "Douwe Osinga",
+      "title": "Founder",
+      "founder_bio": "\"Solving hard problems using software that lead to real products used by lots of people\" Founder of 4 companies, ex-Google. Like travel and living in different countries.",
+      "is_active": false,
+      "linkedin_url": "https://www.linkedin.com/in/douweosinga",
+      "x_url": "https://twitter.com/dosinga",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/0943ece6f991641579b53b475690849ec09b5304.jpg"
+    },
+    {
+      "user_id": 1156805,
+      "full_name": "Jack Amadeo",
+      "title": "Founder",
+      "founder_bio": "Jack is cofounder and CTO of Neptyne (W23), the programmable spreadsheet. Prior to Neptyne, Jack worked at Sidewalk Labs building generative design for cities, at Compass building the real estate platform for the 21st century, and at Bloomberg building communication systems.\n\nJack is a New England native who now lives in Brooklyn with his wife and son, and likes to sometimes run marathons.",
+      "is_active": false,
+      "linkedin_url": "https://www.linkedin.com/in/jackamadeo/",
+      "x_url": "https://twitter.com/jackamadeo",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/678b06fb3d4a690640113ec636d29969334e416c.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [
+    {
+      "title": "Python Comes to Google Sheets - The New Stack",
+      "url": "https://thenewstack.io/python-comes-to-google-sheets/",
+      "date": "Oct 19, 2023"
+    },
+    {
+      "title": "Neptyne is building a Python-powered spreadsheet for data scientists | TechCrunch",
+      "url": "https://techcrunch.com/2023/03/27/y-combinator-backed-neptyne-is-building-a-python-powered-spreadsheet-for-data-scientists/",
+      "date": "Mar 27, 2023"
+    }
+  ],
+  "launches": [
+    {
+      "id": 70264,
+      "title": "Neptyne - The spreadsheet reimagined for the AI era",
+      "tagline": "Our Python-based spreadsheet is built from the ground-up for both human and AI collaboration, to go from raw data to useful insights and visualizations at lightning speed.",
+      "body": "Hello everyone, we are Douwe and Jack, and we're the founders of [Neptyne](https://neptyne.com/). We’re on a mission to create the world's most productive data platform. We really like spreadsheets and love programming and our product combines the two in quite a literal sense.\n\nNeptyne provides a new approach to working with data that combines the ease of use of spreadsheets with the power of data science tools such as Pandas and notebooks. By leveraging AI, Neptyne makes this unified approach accessible to everyone, eliminating the limitations of spreadsheets and reducing the complexity of using advanced data tools.\n\n![uploaded image](/media/?type=post&id=70264&key=user_uploads/178715/71682cab-9b0c-47d9-a074-706623f8b2cd)\n\n**So how does this work?** Of course, you can ask the AI for simple things, like ‘add a profit column’ or ‘create a map showing where the customers are’. But it really shines when you ask the AI to change existing code. If you have a complicated calculator predicting revenue that takes into account four factors, ask it to add a fifth or change the weighting.\n\nOr let’s say you have a powerful, pandas-based pivot table that summarizes the data by product and region. With Neptyne, you can ask the AI to modify the pivot table calculation to include or exclude specific products or change the grouping criteria, such as by product category instead of an individual product. The calculations are updated in real-time, allowing you to quickly explore different options and gain new insights from the data.\n\nIt's like having a co-worker next to you who knows Python well and can help you write new code, change existing code or even explain what’s going on.\n\nIn order to learn about the appetite for a Python-based spreadsheet environment, we launched a version of Neptyne on Hacker News a few weeks ago without the AI-based features. Thousands tried the product, and from that audience, an enthusiastic group of power users emerged. They're using Neptyne to build financial trading applications, personal fitness tracking, and Twitter bot automation.\n\nCheck out [our launch post on Hacker News](https://news.ycombinator.com/item?id=34818706) for more discussion on Neptyne \n\n**Our ask:**\n\nTake 3 minutes to go through our tutorial <https://neptyne.com/neptyne/tutorial> and get inspired to build your next thing.",
+      "url": "https://www.ycombinator.com/launches/IHI-neptyne-the-spreadsheet-reimagined-for-the-ai-era",
+      "votes": 37,
+      "created_at": "2023-03-14T14:49:06.460Z"
+    }
+  ]
+}

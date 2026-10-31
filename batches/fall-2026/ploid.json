@@ -1,0 +1,92 @@
+{
+  "id": 35587,
+  "name": "Ploid",
+  "slug": "ploid",
+  "former_names": [],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/bb8cfe58317eeba078abcb4a9b1d2c14affb42f9.png",
+  "website": "https://ploid.com",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "Ploid is the AI-native people data infrastructure for developers and companies building products, workflows, and agents around people.\r\n\r\nWe've built an index of 2B+ people across professional and social sources, giving developers one API to search for people, enrich profiles, find emails and phone numbers, resolve identities, and retrieve up-to-date information from across the web. Unlike traditional people databases built around static records, Ploid combines its massive people index with real-time retrieval and identity resolution, delivering fresh, reliable information whenever it's needed. From sales and recruiting to customer intelligence, trust and safety, and AI agents, Ploid replaces fragmented data providers with a single infrastructure layer.\r\n\r\n2B+ people. One API. Built for AI.",
+  "one_liner": "The people data company for the agent era",
+  "team_size": 2,
+  "industry": "B2B",
+  "subindustry": "B2B -> Sales",
+  "launched_at": 1791218821,
+  "tags": [
+    "Sales",
+    "API",
+    "AI"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Fall 2026",
+  "status": "Active",
+  "industries": [
+    "B2B",
+    "Sales"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/ploid",
+  "api": "https://devasheeshg.github.io/yc-api/batches/fall-2026/ploid.json",
+  "year_founded": 2025,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/ploidai/",
+  "x_url": "https://x.com/ploid_ai",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": "https://github.com/ploidcom",
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/bb8cfe58317eeba078abcb4a9b1d2c14affb42f9.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Aaron Epstein",
+    "url": "https://www.ycombinator.com/people/aaron-epstein"
+  },
+  "founders": [
+    {
+      "user_id": 2606122,
+      "full_name": "Emmanuel Hernandez",
+      "title": "Founder/CEO",
+      "founder_bio": "Co-founder and CEO of Ploid, a YC-backed people data and intelligence platform built on a proprietary index of more than 2 billion people, it powers natural language search, contact enrichment, and live crawling of any website. Before Ploid, Manny was the youngest engineer at Wander, where he worked on AI/ML recommendations, and he did LLM research at NYU. He grew up in the Chicago suburbs, and has lived in New York, Shanghai, and San Francisco. He also writes about the philosophy of AI.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/mannymarciano/",
+      "x_url": "https://x.com/m9rcn",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/5ce7725b2937be06df53b3043fd9bc2b53bbc881.jpg"
+    },
+    {
+      "user_id": 3200378,
+      "full_name": "Kamran Karic",
+      "title": "Founder/COO",
+      "founder_bio": "Kamran did STEM Olympiad in Germany, selected as one of the top scorers out of 1,000+ students nationwide, and won two gold medals (math and science) against 5,000+ competitors. Received the City of Sarajevo's April 6th Youth Award. Previously did neuroscience research at Tsinghua University. ",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/kamran-karic-2840a0243",
+      "x_url": "https://x.com/kmkaric",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/0501ae8dc53ac8d80a1f6f831819f169064ae53f.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 125286,
+      "title": "Ploid | People data infrastructure for AI agents and software",
+      "tagline": "Search, enrich, and resolve identities across 2B+ people through one API.",
+      "body": "**TL;DR: Ploid gives your product or agent live, accurate data on any person. You can search, enrich, find emails and phones, social media, and match identities across 2B+ people with one API, CLI or MCP.**\n\n\\\nHey everyone! We're [Emmanuel Hernandez](https://www.linkedin.com/in/mannymarciano/) and [Kamran Karic](http://www.linkedin.com/in/kamran-karic-2840a0243) from [Ploid](http://ploid.com/) .\n\n<https://youtu.be/IzQw0jGMPQw>\n\n(Platform: Creating a Dataset)\n\n<https://youtu.be/6TEHG6dDuSU>\n\n(Playground: Submitting a Search API Request)\n\n**Why did we built this?** We noticed the same problem everywhere: people's data was either outdated, scattered across the internet, too expensive, or incredibly difficult to access. This made it hard for companies to build great products and deliver accurate results to their customers. What stood out to us was that almost every data provider was building for humans, especially sales and GTM teams, but almost no one was building for AI agents. We believe agents are the future, and they need reliable, up-to-date information about people to actually do their jobs well.\n\nSo we started building Ploid. We became obsessed with collecting, connecting, and making people's data accessible at scale. What started as a simple idea has grown into a database of over 2 billion people, making Ploid one of the largest people-data platforms in the world. And we're just getting started.\n\n**What Ploid does**\n\n* **Search** for people in plain English or with structured filters\n* **Enrich** profiles with work history, emails, phone numbers and social profiles\n* **Match identities**, so a name, email, LinkedIn and X handle all resolve to the same person\n* **Pull fresh data live** when you ask, instead of returning a months-old record\n* **Plug in anywhere:** REST API, CLI and MCP, so your agents can use it directly\n\n**Who uses it? Companies** that rely on people's data to power their products and services. From sales and recruiting platforms to customer intelligence and AI agents, they depend on accurate, up-to-date information about people to deliver better results to their customers.\n\n**Team**\n\n* **Manny (CEO/CTO):** AI researcher at NYU. \\\n  **Kamran (COO):** represented Bosnia and Herzegovina at the STEM Olympiad in Germany and won 2 golds (math and science) against 5,000+ competitors. Did neuroscience research at Tsinghua. Got the City of Sarajevo's April 6th Youth Award.\n\n**YC deal**: 50% off of any yearly plan! **Sign up at [ploid.com](http://ploid.com) and text Kamran or me!** \n\n**Our asks**\n\n1. **Building anything that touches people data** (sales, recruiting, CRM, agents)? Try Ploid free and tell us what breaks.\n2. **Intros** to heads of data or product at sales and recruiting platforms.\n3. Reach us at [manny@ploid.com](mailto:manny@ploid.com) / [kamran@ploid.com](mailto:kamran@ploid.com), or DM us here.",
+      "url": "https://www.ycombinator.com/launches/Wak-ploid-people-data-infrastructure-for-ai-agents-and-software",
+      "votes": 10,
+      "created_at": "2026-10-28T17:30:00.065Z"
+    }
+  ]
+}

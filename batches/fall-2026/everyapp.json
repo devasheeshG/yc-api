@@ -1,0 +1,84 @@
+{
+  "id": 36088,
+  "name": "EveryApp",
+  "slug": "everyapp",
+  "former_names": [
+    "Every App",
+    "OpenSEO"
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/4748ea4cce3f5b77e3f8a5d77e2720edaffb5983.png",
+  "website": "https://everyapp.com",
+  "all_locations": "",
+  "long_description": "EveryApp is building open source alternatives to every SaaS. It’s a platform to host these open source apps and personal software. Everything runs behind one secure sign-in in your own Cloudflare account.",
+  "one_liner": "Make every app open source",
+  "team_size": 2,
+  "industry": "B2B",
+  "subindustry": "B2B",
+  "launched_at": 1790725906,
+  "tags": [
+    "Developer Tools",
+    "Open Source",
+    "Marketing"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Fall 2026",
+  "status": "Active",
+  "industries": [
+    "B2B"
+  ],
+  "regions": [
+    "Remote",
+    "Partly Remote"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/everyapp",
+  "api": "https://devasheeshg.github.io/yc-api/batches/fall-2026/everyapp.json",
+  "year_founded": 2026,
+  "city": null,
+  "country": null,
+  "linkedin_url": "https://linkedin.com/company/openseo-so/",
+  "x_url": "https://x.com/openseo_so",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": "https://github.com/every-app/every-app",
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/4748ea4cce3f5b77e3f8a5d77e2720edaffb5983.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Charlie Warren",
+    "url": null
+  },
+  "founders": [
+    {
+      "user_id": 475238,
+      "full_name": "Ben Senescu",
+      "title": "Founder/CEO",
+      "founder_bio": "Building OpenSEO. Prev. Senior SWE at Klaviyo.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/bensenescu/",
+      "x_url": "https://x.com/bensenescu",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/c60beebb7c0a1370bd1ebb2c85047797c20a2d7f.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 124258,
+      "title": "EveryApp - Make every app open source",
+      "tagline": "Every tool your business runs on, built by your agent, owned by you",
+      "body": "**TL;DR:** EveryApp is building open source alternatives to every SaaS. It’s a platform to host these open source apps and personal software. Everything runs behind one secure sign-in in your own Cloudflare account.\\\n\\\n<https://youtu.be/krDediTp0MI>\n\n**The problem**\n\n“SaaS is dead.”; “Per-seat pricing sucks.” Blah blah blah.\n\n1. People aren’t taking full advantage of agents capabilities because there is too much friction to put web apps &amp; custom agents on the internet\n2. 99% of businesses need the same set of basic tools and the tools need to be rebuilt to work with their agents\n\n**Solution**\n\n1. Standardize how to build and deploy web applications &amp; agents for internal use.\n2. Build open source versions of every SaaS.\n\n**\\\nEveryApp**\n\nEveryApp makes two things easy: hosting open-source apps, and hosting custom apps you build with your agent. Your team accesses and manages them through the EveryApp Gateway. \n\nToday, we’re launching the self hosted version.  Anyone comfortable with coding agents can self host in a few minutes. More on the Managed Service below. \n\n_Secure by default_\n\n* Every request passes through the Gateway. Apps have no public address. \n* Connect an API once. Apps ask for access, and the Gateway makes the call, so no app ever holds your keys.\n* Secured behind Cloudflare Access.\n\n_Scales from zero to infinity_\n\n* Fully serverless, in your own Cloudflare account.\n* Apps cost $0 if they aren’t used. \n* Scale up to Cloudflare’s scale if needed.\n* $5/month for Cloudflare Paid Plan which can host hundreds of apps.\n\n_Standardized_\n\n* When you add an app, it’s immediately accessible through the Every App MCP Gateway.\n* You don’t need to think about infra. Everything must run Cloudflare’s cloud primitives like KV and R2. \n* When building something new, use our preferred tech stack and component library so you don’t need to define patterns yourself.\n\n**Managed EveryApp**\n\nWe'll make money by providing this as a managed service. This will start at $10/month, but scale with their usage. First party apps will be pre-loaded. \"Custom Deploys\" will be one click or agent managed and all the integrations will be pre-configured.\n\n**OpenSEO &amp; more**\n\nI first launched EveryApp in January. It was just the Gateway with no useful apps, nobody had a reason to trust it, and building an app on it was still hard.\n\nSo, I set out to build a standalone product that was compelling. That ended up being OpenSEO which now has over 24,000 GitHub stars and thousands of customers who love it.\n\nCoding agents got a lot better since then too. We’re starting to take on building every SaaS that millions of businesses need. In the meantime, building your own app on EveryApp is now something you can do in a few hours while multitasking. \n\n**Team**\n\nBen Senescu - Prev. Senior SWE at Klaviyo &amp; Founding Eng. building Agents for Compliance\n\n**Ask**\n\n* Star the repo:[ https://github.com/every-app/every-app](https://github.com/every-app/every-app)\n* Try porting an internal app to EveryApp\n* Tell us what we should open source next.",
+      "url": "https://www.ycombinator.com/launches/WKA-everyapp-make-every-app-open-source",
+      "votes": 21,
+      "created_at": "2026-10-26T17:00:00.174Z"
+    }
+  ]
+}

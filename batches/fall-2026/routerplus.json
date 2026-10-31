@@ -1,0 +1,95 @@
+{
+  "id": 36908,
+  "name": "RouterPlus",
+  "slug": "routerplus",
+  "former_names": [
+    "Evo",
+    "EVO"
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/6bb3c1b091b775faf5b88bf2fdc28cd10b50bb08.png",
+  "website": "https://routerplus.com",
+  "all_locations": "Bengaluru, KA, India",
+  "long_description": "RouterPlus is a marketplace for AI inference. We find the right AI model for a team's product, then get it served at the team's scale, at the best price.\r\n\r\nMost teams that run AI in production pay for a top model on every task, when a cheaper model can do most of the work. The same model can also cost twice as much depending on which provider runs it, and many providers fail at peak traffic.\r\n\r\nRouterPlus tests models on a team's own traffic and recommends one. Providers then compete for the workload. We check that the chosen provider can hold the team's real peak, and we keep a second provider ready as a backup. Teams call the model through one API.\r\n\r\nOur largest customer runs 3 million agent conversations a day on RouterPlus.",
+  "one_liner": "Marketplace for AI inference: the right model at the best price",
+  "team_size": 3,
+  "industry": "B2B",
+  "subindustry": "B2B",
+  "launched_at": 1793169017,
+  "tags": [
+    "Developer Tools",
+    "Marketplace",
+    "B2B",
+    "AI"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Fall 2026",
+  "status": "Active",
+  "industries": [
+    "B2B"
+  ],
+  "regions": [
+    "India",
+    "South Asia"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/routerplus",
+  "api": "https://devasheeshg.github.io/yc-api/batches/fall-2026/routerplus.json",
+  "year_founded": 2026,
+  "city": "Bengaluru",
+  "country": "IN",
+  "linkedin_url": "https://www.linkedin.com/company/116059407",
+  "x_url": "https://x.com/useRouterPlus",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/6bb3c1b091b775faf5b88bf2fdc28cd10b50bb08.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Christopher Golda",
+    "url": "https://www.ycombinator.com/people/christopher-golda"
+  },
+  "founders": [
+    {
+      "user_id": 857346,
+      "full_name": "Alok Bishoyi",
+      "title": "Founder/CEO",
+      "founder_bio": "Founder at RouterPlus (YC F26).  Previously Managing Director at AWL Inc, scaling physical edge AI deployments across Japan, SEA, and MENA at over 10000+ sites. Early-stage investor at Day Zero Ventures, backing YC companies and portfolio totaling $300M+ raised. IIT Bombay.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/alok-bishoyi",
+      "x_url": "https://x.com/alokbishoyi97",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/cadccb2b4cdc713dbfd76f25e77a8d714b956321.jpg"
+    },
+    {
+      "user_id": 3545698,
+      "full_name": "Lakshmi Narayana",
+      "title": "Founder/CTO",
+      "founder_bio": "Founder at RouterPlus F26 (AI Inference tailored for your workloads). Prev: first hire and CTO at Trupeer AI, took it 0 → $4M ARR owning eng, product, hiring, and growth. Before that, four years at Samsung in South Korea building GPU infra for their ML platform. BS in Computer Science, IIT Bombay.\n\nHappy to talk GPU infra and inference cost",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/lakshmi-narayana-ln/",
+      "x_url": "https://x.com/XLN1999",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/70296d11d4ea9d7df0ea08526727b621acd45d04.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 125320,
+      "title": "RouterPlus: Better inference pricing, latency and capacity for AI teams",
+      "tagline": "The marketplace for your inference needs",
+      "body": "**TL;DR:** RouterPlus finds the cheapest AI model that works on your own traffic, then has inference providers compete to serve it. You get inference sourced at the best price and capacity sized for your peak traffic, all in one API\n\n**If inference cost, performance or capacity is holding you back, [book a call](https://cal.com/team/routerplus/platform-demo) or email us at [founders@routerplus.com](mailto:founders@routerplus.com)**\n\n\\\n<https://www.youtube.com/watch?v=PTKXCIPFLrU&amp;feature=youtu.be>\n\n**The problem:** Teams running AI in production often pay for a frontier model on every task when a cheaper model can do most of the work. The same model costs widely different and exhibits different behavior through different providers\n\n**What we do:** RouterPlus is a managed inference marketplace. We test models on your own traffic and find the best one for your workload. Then providers compete for your workload. We check that the provider can handle your real peak, keep a backup provider ready, and give you one API to call. Think Costco for inference: we pool demand so providers compete for bigger deals and teams get better terms.\n\n**In practice:**\n\n* A consumer app with \\~3M messages/day switched from a closed model to an open one through us and got 25% lower P95 latency, lower cost and better quality.\n* A fast-growing AI assistant company came to us after two outages in one week. We sourced capacity for peaks of 15× their average and set up a backup provider.\n* We pooled demand from several teams into one deal. The provider filled its GPUs and each team got better terms.\n\n**Team:**\n\n![uploaded image](/media/?type=post&id=125320&key=user_uploads/857346/1548c24a-3f12-491b-b87d-46a287c65104)\n\n* **Alok:** ex-Managing Director at AWL Inc, scaled edge AI deployments to 10,000+ sites across Japan, SEA and MENA; early-stage investor at Day Zero Ventures; IIT Bombay.\n* **Lakshmi:** first hire and CTO at Trupeer AI (0 → $4M ARR); 4 years building GPU infra for Samsung's ML platform in Korea; IIT Bombay CS.\n\n**Our ask:** If inference cost, latency or capacity is holding you back, [**book a call**](https://cal.com/team/routerplus/platform-demo) or email us at [founders@routerplus.com](mailto:founders@routerplus.com)  Tell us what you're running and where you're hitting limits.",
+      "url": "https://www.ycombinator.com/launches/WbI-routerplus-better-inference-pricing-latency-and-capacity-for-ai-teams",
+      "votes": 49,
+      "created_at": "2026-10-29T14:00:00.106Z"
+    }
+  ]
+}

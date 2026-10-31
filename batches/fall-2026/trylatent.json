@@ -1,0 +1,73 @@
+{
+  "id": 36347,
+  "name": "Latent",
+  "slug": "trylatent",
+  "former_names": [
+    "latent"
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/21bc57f59a4d430a3377808350ec1df0915386dd.png",
+  "website": "http://runlatent.ai/",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "Latent catches wrong or unsupported LLM answers before they reach your users. Instead of running a second model to check every output, it reads the model's own internal state as it generates, so every request is verified with no added latency, no extra inference cost, and nothing leaving your deployment. Teams running LLMs in production, in finance, legal, healthcare and customer support, get a review queue of the answers most likely to be wrong, calibrated to their own model and traffic, with a plain explanation of why each one was flagged.",
+  "one_liner": "Catch wrong LLM answers before your customers do",
+  "team_size": 1,
+  "industry": "B2B",
+  "subindustry": "B2B -> Security",
+  "launched_at": 1791243197,
+  "tags": [
+    "AI"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Fall 2026",
+  "status": "Active",
+  "industries": [
+    "B2B",
+    "Security"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/trylatent",
+  "api": "https://devasheeshg.github.io/yc-api/batches/fall-2026/trylatent.json",
+  "year_founded": 2026,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/runlatent",
+  "x_url": "https://x.com/runlatentai",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/21bc57f59a4d430a3377808350ec1df0915386dd.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [
+    "https://bookface-images.s3.us-west-2.amazonaws.com/attachments/c1b0002c0ecf5d467cc3f45b070da5afc1a5ae12.png"
+  ],
+  "primary_partner": {
+    "name": "Harj Taggar",
+    "url": "https://www.ycombinator.com/people/harj-taggar"
+  },
+  "founders": [],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 123748,
+      "title": "Latent - Stop hallucinations before they reach your customers",
+      "tagline": "Catch your AI's wrong answers before your customers see them.",
+      "body": "Hey everyone! I'm [Vedant Gaur](https://www.linkedin.com/in/vedantgaur/) from [Latent](https://runlatent.ai/).\n\n**TL;DR: Latent catches your AI's wrong answers before your users see them. It reads signals inside the model while it answers, scores every response, and stops the ones about to be wrong. It works with any model and costs over 500x less than an LLM judge.**\n\nWebsite: [runlatent.ai](http://runlatent.ai)\\\nStart free: [app.runlatent.ai](http://app.runlatent.ai)\n\n[Demo](https://youtu.be/Dd8cez0CIDY)\n\n![uploaded image](/media/?type=post&id=123748&key=user_uploads/1788540/af18344d-59fb-4a63-9f84-65e38f95a216)\n\n**The Problem:**\n\nAI fails quietly. A model gives a fluent, confident answer that's wrong: the wrong dosage, a refund policy that doesn't exist, a clause that isn't in the contract. Latency is fine, the dashboard is green, and the model passed last week's evals. You find out when a customer does.\n\nThe usual fix is a second LLM that re-reads the output. That's slow and expensive, so most teams only check a sample, and everything outside it ships unchecked. In healthcare, finance, insurance, and legal, that gap is what keeps AI out of production.\n\n**What We're Doing:**\n\n**1. Reading the model while it answers**\\\nLatent scores every answer from signals inside the model. On self-hosted models, a read-only hook reads the hidden state as tokens are generated, with no added latency. On API models like GPT, Claude, and Gemini, a lightweight reader model scores each answer in milliseconds.\n\n**2. Stopping wrong answers before anyone sees them**\\\nYou decide what happens per model: hold the answer and show a fallback, re-ask a stronger model, or send it to a review queue with the reason attached. About 95% of what Latent flags is a real error.\n\n**3. Checking every answer instead of a sample**\\\nOur classifier costs over 500x less than an LLM judge, so you can run it on all of your traffic. That catches 4x more hallucinations than checking a sample.\n\n**4. Getting sharper on your data**\\\nEvery answer your team confirms or clears becomes a label, so Latent calibrates to your traffic and improves the more you use it.\n\n**5. Fitting into your stack**\\\n\\`pip install runlatent\\` wraps the model calls you already make, or you can point traffic at our OpenAI-compatible gateway. Self-hosted models run it as a vLLM plugin. Use it hosted, or run everything in your own cloud with nothing leaving your environment.\n\n**The team:**\n\nI'm a solo founder. At Penn (M&amp;T), I published interpretability research at ACL, EMNLP, and NeurIPS on what a model's internals reveal that its outputs don't. Latent is the production version of that work. Before this, I worked on post-training at Amazon and Robinhood.\n\n**Asks:**\n\nIf this sounds like your stack, I'd love to work with you. Reach out if you're:\n\n* Running long-running agents, where one bad step early can derail everything after it.\n* Doing research or continual learning, and want a signal the moment a model starts going wrong.\n* Shipping AI in healthcare, finance, insurance, legal, or anywhere else a wrong answer is expensive.\n* Paying for LLM judges or human review and want to cut that bill.\n\nIntros help too. If you know someone leading AI at a company in one of those industries, I'd be grateful for a connection.\n\nEmail me at [vedant@runlatent.ai](mailto:vedant@runlatent.ai), or book time at [runlatent.ai](http://runlatent.ai).",
+      "url": "https://www.ycombinator.com/launches/WBw-latent-stop-hallucinations-before-they-reach-your-customers",
+      "votes": 21,
+      "created_at": "2026-10-21T19:00:00.152Z"
+    }
+  ]
+}

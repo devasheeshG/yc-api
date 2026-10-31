@@ -1,0 +1,101 @@
+{
+  "id": 36345,
+  "name": "Shire Intelligence",
+  "slug": "shire-intelligence",
+  "former_names": [],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/ddb902daa9bf41440f3e332ac02be9ee50de271c.png",
+  "website": "https://shireintelligence.com/",
+  "all_locations": "Myrtle Beach, SC, USA",
+  "long_description": "Shire is an AI floor manager for full-service restaurants, running on the cameras they already have. It sees what a great manager sees: a guest ready to order, a table waiting on the check, a four-top that needs clearing, a server that is double booked. Then it acts, alerting staff in the moment and seating each new party with the server who has room. A POS only knows what gets typed into it. Shire knows what is happening in the room, so wait-time quotes, staffing, and pricing run on real turn times.",
+  "one_liner": "Shire uses CCTV to run restaurants in real time.",
+  "team_size": 4,
+  "industry": "Consumer",
+  "subindustry": "Consumer -> Food and Beverage",
+  "launched_at": 1789786177,
+  "tags": [
+    "Deep Learning",
+    "Food Tech"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Fall 2026",
+  "status": "Active",
+  "industries": [
+    "Consumer",
+    "Food and Beverage"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/shire-intelligence",
+  "api": "https://devasheeshg.github.io/yc-api/batches/fall-2026/shire-intelligence.json",
+  "year_founded": 2026,
+  "city": "Myrtle Beach",
+  "country": "US",
+  "linkedin_url": "",
+  "x_url": "",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/ddb902daa9bf41440f3e332ac02be9ee50de271c.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Grey Baker",
+    "url": "https://www.ycombinator.com/people/grey-baker"
+  },
+  "founders": [
+    {
+      "user_id": 3074299,
+      "full_name": "Cameron Kuperman",
+      "title": "Founder/CEO",
+      "founder_bio": "Founder @ Shire Intelligence (F26)\n\nWorked in restaurants for several years, previously conducted spintronics research on the inverse Stern-Gerlach effect. Triple major in Math, ECE, and CS at Duke.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/cameron-kuperman",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/be63cc665b0c3fb3250323017c7c25d10b76a0e4.jpg"
+    },
+    {
+      "user_id": 3018981,
+      "full_name": "Harshith Guduru",
+      "title": "Founder/CTO",
+      "founder_bio": "Founder @ Shire Intelligence (F26). \n\nPrevious SWE intern at Walmart Global Tech and Bastazo. Published RL cybersecurity research and Graph cancer research to Nature. Double major in CS and EE at Duke.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/harshith-guduru",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/cd503a039ca9f2441428f76d5a005ba89a728d23.jpg"
+    },
+    {
+      "user_id": 3133566,
+      "full_name": "Alex Tabaku",
+      "title": "Founder/CFO",
+      "founder_bio": "Founder @ Shire Intelligence\n\nWorked in restaurants for four years, previously worked on VLA model research on path finding for identical, clustered objects. Studied Mechanical Engineering and Math @ Clemson.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/alex-tabaku",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/2d1f6273711d0c1ba4d6540113c81a3e255e9aca.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 125566,
+      "title": "Shire Intelligence: Giving restaurants software eyes",
+      "tagline": "Shire uses CCTV to run restaurants in real time.",
+      "body": "**Shire (YC F26)** turns existing restaurant cameras into a real-time operations layer, giving every restaurant the equivalent of five great general managers. **Shire is live in 13 restaurants and is rapidly growing.**\\\n\\\n<https://youtu.be/WyPUArKoZLg>\n\nRestaurants depend on great managers to keep service running smoothly. They watch the floor, notice when guests need attention, keep servers from getting overwhelmed, and make hundreds of small decisions throughout a shift.\n\nBut even the best manager can't watch every table at once. Guests wait to order, dirty tables sit empty, and one server gets slammed while another has nothing to do.\n\nTraditional restaurant software doesn't solve this. A POS knows when an order was entered or a check was closed, but almost nothing about what happens in between.\n\n**Shire gives restaurant software eyes.**\n\nUsing cameras restaurants already have, Shire understands what's happening across the dining room and helps staff respond in real time. It can:\n\n* Notify servers when guests are ready to order or pay\n* Alert staff when tables need clearing\n* Seat parties based on each server's live workload\n* Help restaurants optimize staffing, reservations, pricing, and table turns using what actually happens during service\n\nThis also unlocks a new kind of restaurant software. No more estimating wait times from historical averages: Shire can see how far tables are through their meals. Instead of staffing around last week's sales, restaurants can make decisions based on actual workloads and service patterns.\n\nWe believe restaurant software should do more than record transactions. It should understand what's happening in the restaurant and help run it.\n\n**Built by restaurant operators, for restaurant operators**\n\nWe're Math, EECS, and MechE dropouts who have spent years working in restaurants. Cameron and Alex have known each other since kindergarten and spent years working together in restaurants. Alex went on to manage two large restaurants, while Cameron worked on the front lines of service. Harshith brings deep technical experience, having published graph research in _Nature_ and built reinforcement learning systems for real-world operations at Bastazo. After a year of building together, the three of us left Duke and Clemson to work on Shire full-time.\n\n**Early results**\n\nAcross the restaurants that are live, Shire has reduced table turn time by **12%** on average.\n\nWe're now looking to partner with more restaurant owners, operators, restaurant groups, and POS distributors who want to run more efficient restaurants.\n\n🌐[ ](https://shireintelligence.com/)<https://shireintelligence.com>\n\n✉️ [founders@shireintelligence.com](mailto:founders@shireintelligence.com)",
+      "url": "https://www.ycombinator.com/launches/WfG-shire-intelligence-giving-restaurants-software-eyes",
+      "votes": 2,
+      "created_at": "2026-10-30T21:00:00.081Z"
+    }
+  ]
+}

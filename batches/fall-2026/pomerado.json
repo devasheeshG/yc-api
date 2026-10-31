@@ -1,0 +1,96 @@
+{
+  "id": 36016,
+  "name": "Pomerado",
+  "slug": "pomerado",
+  "former_names": [
+    "Toolsmith"
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/4d4ea3739a0bbffad42b3f827b3d69b5ad605a8f.png",
+  "website": "https://www.pomerado.ai",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "Pomerado turns any website into an API / MCP in minutes. Connect your agents to legacy portals, consumer websites, and internal tools. \r\n\r\nWhy Pomerado:\r\n    • 7x faster than browser agents on customer workflows\r\n    • 100x cheaper than browser agents\r\n    • Self healing, deterministic APIs\r\n    • Universal website coverage\r\n    • Hosting, authentication, and permissions handled\r\n\r\nCustomers can use us to:\r\n    • automate back office workflows on legacy systems (ERP, EHR, CRM)\r\n    • speed up customer integrations for forward deployments\r\n    • connect enterprise assistants to internal tools\r\n    • supercharge personal assistants with fast and reliable browser use\r\n\r\nWe’re ex-McKinsey and Scale AI. We drove enterprise agent deployments at F500s and orgs like the Mayo Clinic. We saw how legacy systems block agent development and AI transformations; Pomerado turns those systems into AI-native components automatically.",
+  "one_liner": "Turn any website into an MCP for your agents, in minutes",
+  "team_size": 2,
+  "industry": "B2B",
+  "subindustry": "B2B -> Infrastructure",
+  "launched_at": 1791788322,
+  "tags": [
+    "Developer Tools",
+    "B2B",
+    "Workflow Automation",
+    "API",
+    "AI"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Fall 2026",
+  "status": "Active",
+  "industries": [
+    "B2B",
+    "Infrastructure"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/pomerado",
+  "api": "https://devasheeshg.github.io/yc-api/batches/fall-2026/pomerado.json",
+  "year_founded": 2026,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/pomerado/",
+  "x_url": "https://x.com/home",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/4d4ea3739a0bbffad42b3f827b3d69b5ad605a8f.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Aaron Epstein",
+    "url": "https://www.ycombinator.com/people/aaron-epstein"
+  },
+  "founders": [
+    {
+      "user_id": 2657756,
+      "full_name": "Akshay Manglik",
+      "title": "Founder/CEO",
+      "founder_bio": "Co-founder & CEO at Pomerado (YC F26). Previously Applied AI Engineer at Scale AI, where I built frontier agents for enterprises in telecom, finance, and healthcare, such as the Mayo Clinic.\n\nLed Scale's research on agentic trace analysis for recursive agent optimization. Published ML research in Nature Communications and NeurIPS IAB workshop.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/akshay-manglik/",
+      "x_url": "https://x.com/akshay_manglik",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/6ff94e97b1746aa73487deb7f786228af7de43f4.jpg"
+    },
+    {
+      "user_id": 4166436,
+      "full_name": "Alan Ma",
+      "title": "Founder",
+      "founder_bio": "Co-founder at Pomerado (YC F26). Previously Business Analyst at McKinsey, setting Data and AI strategy for F500 companies. Mathematics and Computer Science at Columbia",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/ajma867/",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/6a24f3d62778bfb1147f0ff82b10cbe2322cc3fb.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 124783,
+      "title": "Pomerado - The faster, cheaper, and more reliable alternative to browser use",
+      "tagline": "Connect agents to any website. No API needed. Open source.",
+      "body": "**TL; DR: Pomerado turns any website into an API / MCP, in minutes. We are the faster** (2-4x)**, cheaper** (10-1000x)**, and more reliable** (+30%) **alternative to browser use.**\n\nTry for free at <https://pomerado.ai>. Check out the open source at <https://github.com/Pomerado/pomerado>.\n\n![uploaded image](/media/?type=post&id=124783&key=user_uploads/2657756/1dc85ff4-215b-4477-914e-9b740d2ce2b7)\n\nHi everyone! We’re [@Alan Ma](https://bookface.ycombinator.com/user/4166436) and [@Akshay Manglik](https://bookface.ycombinator.com/user/2657756) from [@Pomerado](https://bookface.ycombinator.com/company/36016).\n\n**The Problem**\n\n**For agents to be effective, they need to be able to interact with human websites and tools.**\n\n**But most of the websites that matter have no API / MCP**. Popular consumer websites, legacy (insurance, vendor, logistics, payer) portals, EMRs, and government websites all only work through a browser, where computer use can be brittle, slow, and difficult to scale.\n\n**There is no reliable or reproducible method for agents to use these websites.**\n\n[@Alan Ma](https://bookface.ycombinator.com/user/4166436) and I are ex-McKinsey and ex-Scale AI, where we were forward-deployed with Fortune 500 companies in finance, healthcare, and software, including orgs like the Mayo Clinic. **In our experience building enterprise agents, integrations with legacy systems were a major bottleneck**: without them, agents could not pull data or take actions on behalf of users, undermining speed and accuracy. Creating these integrations required extensive planning, time, and money - delaying agent builds and requiring more devs.\n\n<https://youtu.be/z9gO7npwxDQ>\n\n**The solution**\n\nPomerado lets you or your agent create a hosted API or MCP:\n\n* 🏎️ **Fast, cheap, and reliable:** Our deterministic integrations are significantly faster (2-4x), cheaper (10-1000x), and more reliable (+30%) than browser use\n* ⚒️ **No-lift MCP creation**: Create integrations from a single prompt, and manage the process from Codex or Claude. Get new APIs in under 30 minutes\n* 💻 **Hosting:** Our platform seamlessly handles hosting, scaling, and authentication, with secure login storage and automatic 2FA\n* 🧰 **Automatic maintenance:** Our self healing APIs identify site changes and automatically kick off repairs, saving dev time\n* 📂 **Open source**: Pomerado is open-source, so you can create your own local integrations. Check it out here: <https://github.com/Pomerado/pomerado>\n\nWe deliver reliable and reproducible tools for any website, ready for your agent in minutes. Empower your agents to take actions across legacy web portals, consumer websites, and your internal tools.\n\n![uploaded image](/media/?type=post&id=124783&key=user_uploads/2657756/91c0ce98-9049-4c31-a82e-bc682fc5f749)\n\n**Our asks:**\n\n* **Try our product:** Sign up at [www.pomerado.ai](http://www.pomerado.ai) and start using Pomerado in your everyday lives. Alan’s been using his to try and find an apartment. Feel free to give us feedback in our community [Discord](https://discord.gg/Q2Z7BSvkV) or at [founders@pomerado.ai](mailto:founders@pomerado.ai)\n* **Check out and star our open-source repo**: <https://github.com/Pomerado/pomerado>\n* **Intros to teams building agents:** If you or any teams you know are building AI in legacy or integration heavy spaces (personal assistants, insurance, healthcare, AR/AP, legal, logistics), please reach out to us - [akshay@pomerado.ai](mailto:akshay@pomerado.ai), or (408) 621-7150",
+      "url": "https://www.ycombinator.com/launches/WSd-pomerado-the-faster-cheaper-and-more-reliable-alternative-to-browser-use",
+      "votes": 25,
+      "created_at": "2026-10-25T19:00:00.240Z"
+    }
+  ]
+}

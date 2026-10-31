@@ -1,0 +1,94 @@
+{
+  "id": 36840,
+  "name": "Axonnic",
+  "slug": "axonnic",
+  "former_names": [],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/f269fdfc703083f216ecc708a1d72e1eec821657.png",
+  "website": "https://www.axonnic.com",
+  "all_locations": "San Francisco, CA, USA; Remote",
+  "long_description": "Axonnic is building the missing data layer for dexterous robotics. Our wearable EMG technology captures human intent, effort and force directly from muscle activity as people demonstrate physical tasks. By revealing the physical signals that video cannot capture, Axonnic gives AI models the data they need to learn more precise and dexterous behaviour. Beyond robotics, this creates a foundation for new forms of human–computer interaction in which technology can understand and respond directly to human movement and intent.",
+  "one_liner": "Bringing human dexterity to every robot",
+  "team_size": 2,
+  "industry": "Industrials",
+  "subindustry": "Industrials -> Manufacturing and Robotics",
+  "launched_at": 1793084250,
+  "tags": [
+    "Neurotechnology",
+    "Robotics",
+    "Data Labeling"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Fall 2026",
+  "status": "Active",
+  "industries": [
+    "Industrials",
+    "Manufacturing and Robotics"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada",
+    "Remote",
+    "Fully Remote"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/axonnic",
+  "api": "https://devasheeshg.github.io/yc-api/batches/fall-2026/axonnic.json",
+  "year_founded": 2026,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/axonnic/",
+  "x_url": "",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/f269fdfc703083f216ecc708a1d72e1eec821657.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Aaron Epstein",
+    "url": "https://www.ycombinator.com/people/aaron-epstein"
+  },
+  "founders": [
+    {
+      "user_id": 3348643,
+      "full_name": "Maxim Williams",
+      "title": "Founder/CEO",
+      "founder_bio": "Founder of Axonnic. Oxford MBiol Biology and author of research on HD-sEMG. Previously built internal tools at Skyscanner and early employee at Voxblock, working across PCB development, supply chain and its Series A fundraise.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/maxim-williams",
+      "x_url": "https://x.com/maximSwilliams",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/35a9d12ee3a2d0e8c892eb64c0b09032883c0af7.jpg"
+    },
+    {
+      "user_id": 2010370,
+      "full_name": "Arsh Patankar",
+      "title": "Founder/CTO",
+      "founder_bio": "Dev -> Medic -> Founder\nOxford 22-26",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/arshpatankar",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/34dad28d1dffe5bf725dd91165fdd62cac46838e.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 125564,
+      "title": "Axonnic: Muscle-sensing sleeves for robot training",
+      "tagline": "Track finger movement and estimate fingertip force while people work.",
+      "body": "**We’re building training data for dexterous robots by recording the muscle signals behind skilled human hand movements.**\n\nWe’re Max and Arsh, founders of Axonnic (YC F26). Our wearable forearm sleeve reads electrical activity from muscles to track finger movements and estimate fingertip force, while leaving the hands completely free.\n\n<https://youtu.be/iyKoL_kfyKU>\n\nVideo shows where a hand moves. EMG adds information about muscle activation and effort, including when the hand is hidden from view.\n\n![](https://ph-files.imgix.net/8d8d84de-dce6-4fde-9d52-8dede1c7c5ae.png?auto=compress,format&codec=mozjpeg&cs=strip)\n\nWhen the hand goes inside the box, camera-based tracking loses sight of it. Axonnic keeps decoding finger movement from forearm EMG. We’ve also demonstrated live control of a robotic hand from those signals.\n\nWe synchronize EMG with video and hand pose to build training datasets from skilled people doing real work. The tasks we’re targeting include guiding fabric through a sewing machine, handling an electrician’s tools, and positioning small parts during delicate assembly.\n\n**Why we’re building this**\n\nMax studied Biology (MBiol) at Oxford, where his research on high-density surface EMG alignment earned the highest research mark in his cohort. He is now publishing that work as a first-author paper. He saw Skyscanner grow from its early days into a unicorn through to its sale, and also built internal tools there. As an early employee at Voxblock, he worked across PCB development and supply chain.\n\nArsh studied medicine at Oxford, has published clinical research, and has worked on machine learning for cancer and stroke imaging. He also wrote control software for OxRAM’s undergraduate quadruped robot and previously helped build Medical Advice GPT, which passed 10,000 user interactions. His background brings together machine learning, robotics and biological systems.\n\nSleeves are shipping and paid pilots are underway with our first design partners. We’re opening a few more spots.\n\nBuilding robot hands, training robotics models, or running a factory with a dexterous task you can’t automate? We want to hear from you.\n\n**Get in touch:** [info@axonnic.com](mailto:info@axonnic.com)\n\n[axonnic.com](http://axonnic.com)\n\n**Human skill. Robot scale.**",
+      "url": "https://www.ycombinator.com/launches/WfE-axonnic-muscle-sensing-sleeves-for-robot-training",
+      "votes": 54,
+      "created_at": "2026-10-30T13:00:00.290Z"
+    }
+  ]
+}

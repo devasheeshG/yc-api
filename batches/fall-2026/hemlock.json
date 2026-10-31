@@ -1,0 +1,81 @@
+{
+  "id": 35522,
+  "name": "Hemlock",
+  "slug": "hemlock",
+  "former_names": [],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/9593981f6acf78f7e8d4417ca9346aed3d279da4.png",
+  "website": "https://hemlock.inc",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "At Hemlock, we equip workers around the globe with EMG wearables to generate force/contact-annotated egocentric video data to give physical AI models a sense of touch from human data. Force + contact dynamics, collected at scale.",
+  "one_liner": "Force + contact dynamics collected at scale for training physical AI.",
+  "team_size": 1,
+  "industry": "Industrials",
+  "subindustry": "Industrials -> Manufacturing and Robotics",
+  "launched_at": 1786491305,
+  "tags": [
+    "Hard Tech",
+    "Hardware"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Fall 2026",
+  "status": "Active",
+  "industries": [
+    "Industrials",
+    "Manufacturing and Robotics"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/hemlock",
+  "api": "https://devasheeshg.github.io/yc-api/batches/fall-2026/hemlock.json",
+  "year_founded": 2025,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/hemlock-industries-inc",
+  "x_url": "",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/9593981f6acf78f7e8d4417ca9346aed3d279da4.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Nicolas Dessaigne",
+    "url": "https://www.ycombinator.com/people/nicolas-dessaigne"
+  },
+  "founders": [
+    {
+      "user_id": 2947535,
+      "full_name": "Julian Olschwang",
+      "title": "Founder/CEO",
+      "founder_bio": "Founder at Hemlock. CMU Electrical and Computer Engineering dropout. Previously built GANs for military robotic data generation at the UCLA Biomechatronics Lab.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/julian-olschwang",
+      "x_url": "https://x.com/j_olschwang",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/75fddadf0197d758db2bdf896d761e96ca70acbf.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 124952,
+      "title": "Hemlock: The missing force signal in robotic training data",
+      "tagline": "We collect egocentric video data + force and contact dynamics derived from workers' muscular signals. Adding Hemlock's force data to human training demos improved pi0.5's success by 10x and Gemini Argon's by 2.7x on force-sensitive manipulation tasks.",
+      "body": "## TL;DR:\n\n**For robots to be effective, they need to understand real world force and contact dynamics.**\n\nWe equip workers with EMG wearables and egocentric video gear to analyze their muscular signals and generate the force/contact data needed to **train physical AI models to use their hands the same way skilled workers do**. \n\n![uploaded image](/media/?type=post&id=124952&key=user_uploads/2947535/4f8a50ae-f121-473e-a450-1d2a5726b1cd)\n\nAdding Hemlock's force data to human training demos **improved Pi0.5's success** **on egg pick-and-place by** **10x** and **Gemini 4 Argon's success** **on a lightbulb screwing task by** **2.7x**. If you or anybody you know is working on robotic dexterous manipulation or training physical AI models, [**please get in touch ASAP :)**](mailto:julian@hemlock.inc)\n\n![uploaded image](/media/?type=post&id=124952&key=user_uploads/2947535/33e3ff55-81e7-402f-80fb-fadf63fa0317)\n\n## **The Problem 🤖**\n\nToday’s robotics companies and frontier physical AI model labs are spending **hundreds of millions** on egocentric video data to train their systems to perform tasks in place of humans. However, whether the deployment site is somebody’s kitchen or an automotive assembly line, successful task execution depends on an understanding of force and contact dynamics. \n\n**Currently, there’s no good way to get this data into a model.**\n\n1. Tactile gloves occlude the user’s hands. \n2. Instrumenting the environment isn’t scalable. \n3. Video alone drops this information entirely.\n\nAnd thus, Hemlock was born.\n\n<https://youtu.be/adox0I2cmBE>\n\n## Hemlock - The Missing Piece 🧩\n\nHemlock equips skilled workers with egocentric video capture gear and our proprietary EMG wearable - the Bracelet. We read their muscular activity while they do their day-to-day work to understand how they apply force with their fingers, move their hands, and manipulate objects and tools. \n\nWe turn a day of work into rich tactile information used to improve robotic AI models’ dexterous manipulation capabilities. Any industry. Any task.\n\nWe recently collected a few minutes of human demonstration data on a basic egg pick-and-place task, using it to finetune **Pi0.5** twice: **once only with video and once with video + Bracelet data**. \n\nSuccess rates shot up **10x**.\n\nWe then decided to up the ante: same idea, except screwing in a lightbulb using **a humanoid hand** and **Google’s Gemini 4 Argon model**.\n\nUp **2.7x**.\n\nCheck out the full videos [here](https://hemlock.inc/#case-study) ;)\n\n## The Ask ⁉️\n\n**If you are:**\n\n1. **working on physical AI foundation models,**\n2. **involved in data ops at robotics/physical AI companies,**\n3. **working on robotic manipulation,**\n4. **automating a force-sensitive task for a deployment,**\n5. **friends with anybody fitting the criteria above,**\n\n   **please [shoot me an email](mailto:julian@hemlock.inc). I’d love to discuss your data needs and any intros would be greatly appreciated 🙏**\n\n## BTS 🎬\n\nHey everybody, \n\nI’m Julian Olschwang:\n\n* Prev. @ CMU ECE+Robotics &amp; UCLA Biomechatronics\n* 4 patents in wearable tech\n* Elbow deep in circuits from 11 years old\n\nVery blessed to be building among such talented folks. Much love to you all!\n\n![uploaded image](/media/?type=post&id=124952&key=user_uploads/2947535/316a1dfe-2951-4f42-a9cf-3406e20ce1e3)\n\n",
+      "url": "https://www.ycombinator.com/launches/WVM-hemlock-the-missing-force-signal-in-robotic-training-data",
+      "votes": 73,
+      "created_at": "2026-10-27T18:00:00.325Z"
+    }
+  ]
+}

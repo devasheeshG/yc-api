@@ -1,0 +1,16 @@
+{
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/.DS_Store": true,
+        "**/uv.lock": true,
+        "**/Thumbs.db": true,
+        "**/__pycache__": true,
+        "**/.venv": true,
+        "**/.vscode": true,
+        "**/node_modules": true,
+        "**/dist": true,
+        "**/pnpm-lock.yaml": true
+    }
+}

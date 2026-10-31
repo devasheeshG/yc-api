@@ -1,0 +1,93 @@
+{
+  "id": 33144,
+  "name": "Grip",
+  "slug": "grip",
+  "former_names": [],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/a6be2671c5d4e3adfe916a4a59aad4680c7cc9d3.png",
+  "website": "https://www.griprobotics.ai",
+  "all_locations": "Zürich, ZH, Switzerland",
+  "long_description": "Grip is a robotics company building intelligent robotic systems for waste and recycling. We are starting with organic waste, where removing contaminants from messy, constantly changing streams remains difficult and highly manual. Our technology combines learning-based manipulation and custom hardware to identify and pick objects, learning from real-world operating data, including every successful and failed grasp, to become more reliable and adaptable over time. This helps waste operators reduce manual sorting, recover more valuable material, lower contamination, and deploy automation flexibly across facilities. Over time, Grip aims to expand beyond organics and build the intelligent manipulation layer for trash in general, making waste processing and the circular economy more efficient and scalable.",
+  "one_liner": "Robots for waste manipulation",
+  "team_size": 4,
+  "industry": "Industrials",
+  "subindustry": "Industrials -> Manufacturing and Robotics",
+  "launched_at": 1785254669,
+  "tags": [
+    "Robotic Process Automation",
+    "Sustainability"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Summer 2026",
+  "status": "Active",
+  "industries": [
+    "Industrials",
+    "Manufacturing and Robotics"
+  ],
+  "regions": [
+    "Switzerland",
+    "Europe"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/grip",
+  "api": "https://devasheeshg.github.io/yc-api/batches/summer-2026/grip.json",
+  "year_founded": 2026,
+  "city": "Zürich",
+  "country": "CH",
+  "linkedin_url": "https://www.linkedin.com/company/griprobotics",
+  "x_url": "",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/a6be2671c5d4e3adfe916a4a59aad4680c7cc9d3.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [
+    "https://bookface-images.s3.us-west-2.amazonaws.com/attachments/f0ba95cdc010ecb5489de28455277fd61e5501df.png"
+  ],
+  "primary_partner": {
+    "name": "Jared Friedman",
+    "url": "https://www.ycombinator.com/people/jared-friedman"
+  },
+  "founders": [
+    {
+      "user_id": 3678212,
+      "full_name": "Jonas Gruetter",
+      "title": "Founder/CEO",
+      "founder_bio": "Former robotics researcher, published at ICRA. Ex-Gravis Robotics, Robotic Systems Lab, and Ursa Mining. Now building robots to solve fundamental societal problems.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/jonasgrutter/",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/81ff3bd631bc4b7206041d530bc182993fddd8fc.jpg"
+    },
+    {
+      "user_id": 3678142,
+      "full_name": "Stanislaw Piasecki",
+      "title": "Founder/CTO",
+      "founder_bio": "Co-founder at Grip. Previously founding engineer at URSA Mining, building autonomous excavators with custom control circuits, RL simulators, and multi-sensor perception systems. Built autonomous interceptor drones at CDDS, autonomous race cars at AMZ and quadruped robotics at ANYbotics. MS in Computational Science & Engineering from ETH Zürich.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/stanislaw-piasecki/",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/253c9593fed9e59498847d4c158543099816d8f1.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 111317,
+      "title": "Grip - Robotics for Waste Management",
+      "tagline": "Robots that sort any waste and recover recyclables, learning from every grasp.",
+      "body": "Hi everyone - Stan and Jonas here, founders of **Grip**. We build intelligent robots that sort _any_ waste, not just the clean, predictable objects existing systems are limited to. We're starting with plastic contamination in organic waste.\\\n\\\n<https://youtu.be/qIJ4a49WxpI>\n\n**The problem**\n\nWe didn't start with a thesis, we found it on sorting lines, after visiting waste facilities across several countries:\n\n* **Contamination is existential.** Plastic that organic-waste facilities can't remove gets shredded, processed, and spread onto agricultural soil. Operators spend up to 30% of operating costs fighting it and still fall short. Even Germany's 0.1% limit for plastic in finished compost is a tacit admission that full removal isn't possible with today's tools.\n* **The labor force is aging and shrinking.** The picking work is unpleasant and turnover is brutal. Operators increasingly aren't choosing between people and robots. They're choosing between robots and nobody.\n* **Dangerous items cause fires.** Batteries, propane tanks, and vapes slip through and ignite during handling and shredding: 448 reported fires at US and Canadian waste facilities in 2025, \\~$2.5B in damage, and insurers are walking away. At the same time trash sorting is sitting in the top 5 of US deadliest occupations.\n\n**What we built**\n\nThe hard part isn't the gripper. It's that waste never looks the way you planned. Objects arrive crushed, folded, tangled, half-buried, and moving. Put today's sorting robots in front of this and they break.\n\nWe're building one manipulation system that picks whatever shows up, at the front of the line where the material is most chaotic and existing automation stops. That means chaotic scene understanding, robust grasp planning, and hardware built for real waste streams: our custom three-way gripper is designed to maximize throughput, taking out as much contamination per cycle as possible.\n\nOur rugged hardware matters, but intelligence is the product. Every pick generates data no other system ever encounters: what the robot saw, what it tried, how the material responded, whether it worked.\n\n![uploaded image](/media/?type=post&id=111317&key=user_uploads/3678142/bc867fdc-9225-4b85-83f9-f83433465d5b)\n\n**Why now**\n\nWaste policy has moved from vague ambition to enforceable deadlines:\n\n* Separate bio-waste collection is now mandatory across the EU. More material, and more contamination, every year.\n* New EU fertiliser rules just cut permitted impurities in compost and digestate, with national limits like Germany's stricter still.\n* The US is real: California mandated a 75% cut in landfilled organics, missed it, and enforcement is ramping. At the same time, landfills near major cities are filling up, and that pressure is pushing more and more US municipalities to collect organic waste separately. More material, more contamination, more facilities that need to sort it.\n\nMore than 6,500 biowaste plants and thousands of recycling facilities across Europe and North America face this with no robot that can touch it. That's Grip.\n\n**Why us**\n\nWe've built autonomous race cars, quadrupeds, drones, and excavators, robots that operate in dirt, weather, and chaos rather than controlled labs. Grip is that experience applied to an industry where physical intelligence removes a real bottleneck.\n\n**Our ask**\n\nWe'd love intros to:\n\n* Owners and operators of composting, anaerobic-digestion, and organic-waste facilities\n* Owners and operators of MRFs and recycling facilities\n* Regulators and experts shaping contamination limits and recycling standards\n\nIf someone runs a facility and will show us their hardest sorting problem, we'll get on a plane.\n\n[**griprobotics.ai**](http://griprobotics.ai)",
+      "url": "https://www.ycombinator.com/launches/SxR-grip-robotics-for-waste-management",
+      "votes": 15,
+      "created_at": "2026-08-19T13:00:00.941Z"
+    }
+  ]
+}

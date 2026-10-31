@@ -1,0 +1,91 @@
+{
+  "id": 35265,
+  "name": "Hopper",
+  "slug": "hopper",
+  "former_names": [],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/6640b732eb4efe17f2fb11ff75f6f6bc14184872.png",
+  "website": "https://withhopper.com",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "Hopper trains open-weight models on your production traces, then serves and improves them against your live traffic.",
+  "one_liner": "Inference and post-training for realtime agents",
+  "team_size": 2,
+  "industry": "B2B",
+  "subindustry": "B2B -> Infrastructure",
+  "launched_at": 1788561875,
+  "tags": [
+    "Infrastructure",
+    "AI"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Fall 2026",
+  "status": "Active",
+  "industries": [
+    "B2B",
+    "Infrastructure"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/hopper",
+  "api": "https://devasheeshg.github.io/yc-api/batches/fall-2026/hopper.json",
+  "year_founded": 2026,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/143037522",
+  "x_url": "https://x.com/hopper_research",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/6640b732eb4efe17f2fb11ff75f6f6bc14184872.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Charlie Warren",
+    "url": null
+  },
+  "founders": [
+    {
+      "user_id": 612777,
+      "full_name": "Pavan Katta",
+      "title": "Founder/CEO",
+      "founder_bio": "CEO at Hopper (YC F26). Previously led post-training at Salient ($60m series a from a16z). Electrical Engineering from IIT Madras",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/pavankatta1998/",
+      "x_url": "https://x.com/PavanKatta1998",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/b574e6a60c5a077b24959ebb5528296ed6bb9cb8.jpg"
+    },
+    {
+      "user_id": 2168649,
+      "full_name": "Jashwanth Pedapudi",
+      "title": "Founder/CTO",
+      "founder_bio": "CTO at Hopper (YC F26). Previously kernels engineer at Meta Reality Labs. Electrical Engineering from IIT Madras",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/jashwanth12/",
+      "x_url": "https://x.com/jashwanth_p",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/68915ff570196397487cc4d5d9f4b60d93624720.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 124883,
+      "title": "Hopper – Fast, open-source inference for real-time agents",
+      "tagline": "Hopper trains open-weight models on your production traces, then serves and improves them against your live traffic.",
+      "body": "Hey YC, we are an inference company that works exclusively with realtime agent companies.\n\nWe do two things for our customers today:\n\n1. **Optimize inference** to make voice agents an order of magnitude faster and cost-efficient.\n2. **Post-train open source STT, TTS, and speech LLMs** on your production calls, then serve and improve them against your live traffic.\n\n## **⚙️ Models**\n\nWe currently provide the following models:\n\n1. **LLM:** Gemma 4 31B at 80ms TTFT (7x faster and 4x less expensive than GPT 4.1)\n2. **TTS:** Qwen 3 TTS at 150ms TTFA (10x less expensive than ElevenLabs)\n3. **STT:** Nemotron 3.5 ASR (2x faster, 8x less expensive than Deepgram Nova-3)\n\nReal-time voice is one of the most latency-sensitive applications today. Voice agent companies already use techniques like interim STT transcripts, TTS caching, and filler greetings to shave off hundreds of milliseconds. Reducing LLM latency from 800 ms to under 100 ms would be a step change.\n\n## **🤝 How we work with you**\n\nHere is our typical working pipeline with a voice agent company:\n\n1. **Inference:** Optimize and deploy the model in required regions. We continually monitor the deployment to hit a 98% KV cache hit rate and catch tool and reasoning leakages.\n2. **Evals:** Sometimes you’d want something better than the base models. First step here is building evals. You give us your system prompt, then we sit with your engineers and co-design your first eval.\n3. **Post-train:** For LLMs this looks like improved instruction following and better tool calling; for TTS this can improve pronunciation of specific words like a company name, slower speed for alphanumerics, or even something broader like \"I want my TTS to be more emotive and happier.\"\n\n## **💪 Our Team**\n\nPavan ran voice inference at Salient powering millions of calls a day. Jashwanth wrote inference kernels for Quest 3 at Meta Reality Labs.\n\n## **🌲 What we believe**\n\n**1. Voice models are going to be priced out of the compute market.** An STT or TTS model is less than 2B parameters, which is 2GB at FP8 precision. An H100 and a B200 have 80GB and 192GB of HBM respectively. More than 95% of memory is unutilized. You might have seen in the news recently that memory shortages are spiking up prices of electronics, including PS5s; it's the same HBM. Of course, this can't go on forever, and the more lucrative LLM workloads will occupy the frontier compute, leading to two things:\n\n* Voice models will move to cheaper GPUs like L4, RTX 3090s, and Jetsons.\n* Cost per hour of STT and TTS will fall 100x by 2028.\n\n**2. Currently, less than 5% of voice workloads are on open source. This'll be north of 90% by 2028.** Why is that?\n\n* Latency is one of the persistent technical challenges in voice, and you'd get 5-10x lower latencies by using smaller open source models.\n* Your lead qualification bot doesn't need the capacity to do frontier math; it needs to be good at following instructions in your prompt. This means every company will have its own voice models that are exactly tuned to perform well in their domain.\n* We're hearing from many of our customers that long-term they are uncomfortable sending their traffic to ElevenLabs et al. This is due to  the fact that ElevenLabs, Cartesia, and Deepgram have their own voice agent products, which directly compete with their customers. From a customer's POV, they are funding their competitors with millions in revenue and their data.\n\n## **🙏 Asks**\n\nIf you know a voice agent company or a use case that benefits from this work, let's talk. [https://withhopper.com/talk-to-us](https://withhopper.com/talk-to-us?from=hero)",
+      "url": "https://www.ycombinator.com/launches/WUF-hopper-fast-open-source-inference-for-real-time-agents",
+      "votes": 47,
+      "created_at": "2026-10-26T19:00:00.274Z"
+    }
+  ]
+}

@@ -1,0 +1,107 @@
+{
+  "id": 27919,
+  "name": "Helicone",
+  "slug": "helicone",
+  "former_names": [
+    "Prompt Zero",
+    "TableTalk",
+    "Valyr"
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/0fd0f837e64cef0930fd804e4345c0342b9a2827.png",
+  "website": "https://www.helicone.ai/",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "Helicone.ai is creating an advanced observability platform tailored for developers working with Large Language Models (LLMs). Our goal is to simplify and enhance the operational side of deploying these models, making it easier for developers to monitor, manage, and optimize their AI applications at scale. Helicone provides a unified view of performance, cost, and user interaction metrics for various LLM providers, like OpenAI, Anthropic, and LangChain, empowering developers to make their LLM deployments more efficient, reliable, and cost-effective.\r\n\r\n### Key Features\r\n\r\n1. **Centralized Observability**: Our platform captures and visualizes detailed logs and metrics across all LLM deployments. With tools for prompt management, performance tracing, and debugging, Helicone provides real-time insights into the inner workings of your LLMs.\r\n\r\n2. **LLM Performance Optimization**: Helicone supports prompt experimentation, success rate tracking, and fine-tuning, allowing you to continuously improve response quality and efficiency. This level of insight makes it easier to deliver high-performing, cost-effective AI applications.\r\n\r\n3. **Flexible Data Management**: We understand that data privacy is critical. Helicone supports deployment options for dedicated instances, hybrid cloud integrations, or self-hosted environments, allowing clients to maintain control over their data and ensuring compliance with privacy standards.\r\n\r\n### Built for Developers and Data Scientists\r\n\r\nHelicone is designed to meet the needs of engineers and data scientists who require transparency and control over their LLMs. From chatbots to document processing systems, Helicone equips you with the insights needed to track costs, understand user interactions, and optimize outputs—all from one intuitive platform.\r\n\r\nBy combining observability with LLM-specific insights, Helicone is redefining AI monitoring, empowering developers to deploy and scale their AI models with confidence.",
+  "one_liner": "LLM Observability for Developers",
+  "team_size": 5,
+  "industry": "B2B",
+  "subindustry": "B2B -> Analytics",
+  "launched_at": 1675832219,
+  "tags": [
+    "AIOps",
+    "Developer Tools",
+    "Analytics",
+    "Open Source"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Winter 2023",
+  "status": "Acquired",
+  "industries": [
+    "B2B",
+    "Analytics"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/helicone",
+  "api": "https://devasheeshg.github.io/yc-api/batches/winter-2023/helicone.json",
+  "year_founded": 2023,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/92878545",
+  "x_url": "https://twitter.com/helicone_ai",
+  "fb_url": null,
+  "cb_url": "https://www.crunchbase.com/organization/helicone",
+  "github_url": "https://github.com/Helicone/helicone",
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/0fd0f837e64cef0930fd804e4345c0342b9a2827.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Nicolas Dessaigne",
+    "url": "https://www.ycombinator.com/people/nicolas-dessaigne"
+  },
+  "founders": [
+    {
+      "user_id": 1178880,
+      "full_name": "Justin Torre",
+      "title": "Founder/CEO",
+      "founder_bio": "Justin is the founder of Helicone, a company dedicated to improving the lives of developers using LLMs. With 5+ years of experience tinkering and hacking on various projects, Justin has honed his technical skills and understands the critical elements of good software infrastructure.\n\nBefore starting Helicone, Justin was a developer evangelist and teacher at Apple, where he developed a deep passion for supporting developers and their success. ",
+      "is_active": false,
+      "linkedin_url": "https://www.linkedin.com/in/justintorre/",
+      "x_url": "https://twitter.com/justinstorre",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/462b226661ccd47ff9b2af84b4a222ba7dbd1c36.jpg"
+    },
+    {
+      "user_id": 1203799,
+      "full_name": "Barak Oshri",
+      "title": "Founder",
+      "founder_bio": "Barak is a co-founder at Helicone. Previously, he was a machine learning engineer at Sisu Data building scalable machine learning workflows for enterprise customers. Before that, he did research at the Stanford AI Lab and was a teaching assistant at Stanford, where he graduated from his MS and BS degrees. In his spare time, Barak bikes around the bay and sits for long hours at coffee shops.",
+      "is_active": false,
+      "linkedin_url": "https://www.linkedin.com/in/boshri/",
+      "x_url": "https://twitter.com/barakoshri",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/9a0e6414fc92986720b17bc028dc9f4ae9c055d0.jpg"
+    },
+    {
+      "user_id": 1180638,
+      "full_name": "Scott Nguyen",
+      "title": "Founder",
+      "founder_bio": "https://www.scottn.dev/",
+      "is_active": false,
+      "linkedin_url": "https://www.linkedin.com/in/snguy/",
+      "x_url": "https://twitter.com/NguyenScott7",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/0afb45f0cedb8142b1f050e548c5f5461895c6a7.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 69629,
+      "title": "Helicone - Open-source observability platform for generative AI",
+      "tagline": "Log requests made to OpenAI and track costs, result quality, and latency with one line of code",
+      "body": "**TL;DR Instead of building tools to monitor your generative AI product, use Helicone to get instant observability of your requests.**\n\nHey everyone, we are the team behind [Helicone](http://www.helicone.ai/).\n\n**Scott**  brings UX and finance expertise: 4+ years across Tesla, Bain Capital, and DraftKings.\n\n**Justin** brings platform and full-stack expertise: 7+ years across Apple 🍎, Intel, and Sisu Data.\n\nWe’re on a mission to make it extremely straightforward to **observe** and **manage** the use of language models.\n\n## **❌ The Problem**\n\nYou’re using generative AI in your product and your team needs to build internal tools for it:\n\n* You want an **admin mode** to **visualize** outputs, conversations, or prompt chains\n* You don’t know the **unit economics** of your product, like the average cost of a user or conversation\n* Your usage grows and you’re quickly **running into rate limits** with your provider, but your errors are opaque\n* You don’t know **when it’s time to fine-tune** your model and when you would get cost-savings from it\n\n## 🪄 **Our Solution**\n\nHelicone logs your completions and tracks the metadata of your requests. It is an analytics interface for understanding your metrics broken down by users, models, and prompts with visual cards. It caches your completions to save on bills, and helps you overcome rate limits with intelligent retry techniques.\n\n![uploaded image](/media/?type=post&id=69629&key=user_uploads/1203799/6118a1c6-83ab-4f6d-a671-6c835bda3698)\n\n## ⚙️ How it works\n\n🎩 **Integrate Helicone with one line of code**\n\nHelicone is a proxy service that executes and logs your requests, secured by Cloudflare workers around the globe to add [less than a scratch](https://docs.helicone.ai/how-it-works/latency) to your overall latency.\n\nPlug Helicone into wherever you are calling OpenAI with a [**single line of code**](https://docs.helicone.ai/quickstart/integrate-in-one-line-of-code) by changing the base URL, and immediately get a visual experience for your requests.\n\n![uploaded image](/media/?type=post&id=69629&key=user_uploads/1203799/6230af56-0e40-4c3e-a72c-996b6cc142dd)\n\n🔖 **Customize requests with properties**\n\nAppend custom information like the user, conversation or session id to group requests, then instantly get metrics like the total latency, the users disproportionately driving your OpenAI costs, or the average cost of a user session.\n\n📥 **Setup caching and retries**\n\nEasily cache your completions so that duplicate requests don’t drive up your bill. Customize your cache for your application’s unique requirements. This removes the latency overhead when you’re experimenting to make development faster.\n\nConfigure retry rules when you run into rate limits, or even route your request to another provider when your service is down.\n\n![uploaded image](/media/?type=post&id=69629&key=user_uploads/1203799/00d73946-0303-4024-9fc3-da961f05275b)\n\n## Get started **in seconds**\n\n* Try it **for free** at [helicone.ai](http://helicone.ai)\n* Book a call with the team [on our calendly](https://calendly.com/d/4hs-9jb-b96/helicone-intro)\n* Join our [Discord community](http://discord.gg/zsSTcH2qhG)\n* Email the team at [help@helicone.ai](mailto:help@helicone.ai)\n* We’re open source! Check out and support our repository at [github.com/Helicone/helicone](http://github.com/Helicone/helicone) ⭐",
+      "url": "https://www.ycombinator.com/launches/I73-helicone-open-source-observability-platform-for-generative-ai",
+      "votes": 52,
+      "created_at": "2023-02-23T23:15:47.567Z"
+    }
+  ]
+}

@@ -1,0 +1,106 @@
+{
+  "id": 29753,
+  "name": "Autumn Labs",
+  "slug": "autumn-labs",
+  "former_names": [],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/5df469af020f91ac0b4d19796abb3d31c3518288.png",
+  "website": "https://www.autumnlabs.io/",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "Autumn Labs delivers a developer-friendly platform for monitoring and managing modern manufacturing lines. Seamlessly integrating with robotic stations—automated test stations, robotic assembly cells, and industrial arms—it ensures full traceability, live data monitoring, and secure data transport. We prioritize streamlining factory operations, boosting production quality, and preventing supply chain disruptions, all while offering an effortless onboarding experience for engineers and manufacturers.",
+  "one_liner": "Datadog for industrial robots",
+  "team_size": 3,
+  "industry": "Industrials",
+  "subindustry": "Industrials -> Manufacturing and Robotics",
+  "launched_at": 1724817075,
+  "tags": [
+    "Hardware",
+    "Robotic Process Automation",
+    "SaaS",
+    "Robotics",
+    "Manufacturing"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Summer 2024",
+  "status": "Active",
+  "industries": [
+    "Industrials",
+    "Manufacturing and Robotics"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada",
+    "Remote",
+    "Partly Remote"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/autumn-labs",
+  "api": "https://devasheeshg.github.io/yc-api/batches/summer-2024/autumn-labs.json",
+  "year_founded": 2023,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "",
+  "x_url": "",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/5df469af020f91ac0b4d19796abb3d31c3518288.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Harj Taggar",
+    "url": "https://www.ycombinator.com/people/harj-taggar"
+  },
+  "founders": [
+    {
+      "user_id": 991674,
+      "full_name": "Prathik Muppidi",
+      "title": "Founder/CEO",
+      "founder_bio": "University of Waterloo Mechatronics Engineering, ex-Google Engineer",
+      "is_active": true,
+      "linkedin_url": "https://linkedin.com/in/prathikmuppidi",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/ae728870bbb8d337d10dc9aecf09f3058982fe3b.jpg"
+    },
+    {
+      "user_id": 1250574,
+      "full_name": "Harsh Bhatt",
+      "title": "Founder/CTO",
+      "founder_bio": "Ex. Apple | Mechatronics Engineering @ University of Waterloo",
+      "is_active": true,
+      "linkedin_url": "https://linkedin.com/in/harshmbhatt",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/f9cfe0f35ded2657954fedd4b377c34d61c80e6c.jpg"
+    },
+    {
+      "user_id": 309960,
+      "full_name": "Sam Monga",
+      "title": "Founder/CTO",
+      "founder_bio": "Hardware software engineer",
+      "is_active": true,
+      "linkedin_url": "https://linkedin.com/in/sammonga",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/ba15caa4ff5b343488e5acfc1fd1063b92da206c.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 83709,
+      "title": "Autumn Labs - Monitoring platform for industrial robots and manufacturing",
+      "tagline": "Detect machine downtime, process quality, and factory issues — in real time. ",
+      "body": "**tl;dr:** [Autumn Labs](https://www.autumnlabs.io/) delivers a unified platform to monitor and manage modern factories. Our SDK seamlessly integrates with manufacturing systems (test stations, assembly robots, industrial arms, and manual stations) to provide real-time monitoring, control, and production data management. The result? Lower operation costs, higher product quality, and a smoother production line.\n\n🍁 = 🤖 + 🏭 + 📊\n\n### **Problem - Advanced Machines, Outdated Infrastructure**\n\nThe adoption of robots in manufacturing is exploding, especially to keep up with producing increasingly more complex products and shortages in skilled labor. However, the infrastructure in which these robots would be deployed is still years behind.\n\nWithout effective systems, manufacturing physical products might seem like an insurmountable black box, especially when they are made in factories on another continent where critical information is only reported via spreadsheets every other week.\n\nThe past: [_src_](https://www.youtube.com/watch?app=desktop&v=xqPfY8S5HJ4)\n\n![uploaded image](/media/?type=post&id=83709&key=user_uploads/991674/84c0d0be-c84c-4872-84f8-20aa591d28a6)\n\nToday: [_src_](https://www.youtube.com/watch?app=desktop&v=luFGI13Mv8o)\n\n![uploaded image](/media/?type=post&id=83709&key=user_uploads/991674/2da6a941-47af-48e3-aaf4-4ddee5351437)\n\nBut the manufacturing data is always lagging and still looks like this:\n\n![uploaded image](/media/?type=post&id=83709&key=user_uploads/991674/5472966f-362b-483b-9117-37b4730a3676)\n\n### **Solution - Seamless Integration, Real-time insights**\n\nAutumn Labs provides an SDK that’s easy to integrate into any robotic architecture, enabling seamless monitoring and management of machines and, ultimately, the factory in which they reside. This way, robotic integrators and developers have a standard platform where they pull and push critical data that’s specific to their machine’s tasks. Both factory operations and engineering teams are able to get actionable data they need to improve production utilizations and process quality.\n\n_A Unified Platform for Hybrid Factories:_\n\nOur platform is built for hybrid factory lines, too, allowing for seamless integration of manual human assembly stations. Factory personnel can now get a holistic view of your factory's performance—robotic or not.\n\n![uploaded image](/media/?type=post&id=83709&key=user_uploads/991674/8d55d085-5141-4c8e-a11f-d4751a050099)\n\nWith Autumn Labs, you can track, triage, and push fixes for:\n\n1. Robotic assembly stations/cells\n2. Automated test stations\n3. Palletizing robots\n4. Manual assembly stations\n\n### **Traction - Real Results, Real Impact:**\n\nAutumn Labs is already monitoring and managing 50+ automated factory stations in 4 different consumer electronics factory lines across multiple companies and contract manufacturers. There’s a good chance that a product you use today has gone through our platform.\n\nWhy our customers love us:\n\n1. Clear insights into Manufacturing Value Added (MVA) costs\n2. Increased machine utilization\n3. Rapid improvements in production quality\n4. Enhanced product development cycles\n\n### **Meet the Founders**\n\nWe’re [Sam](https://www.linkedin.com/in/sammonga/), [Harsh](https://www.linkedin.com/in/harshmbhatt/), and [Pra](https://www.linkedin.com/in/prathikmuppidi/)[thik](https://www.linkedin.com/in/harshmbhatt/) — Mechatronics engineers from the University of Waterloo with decades of combined experience at Apple (iPhone), Google (Nest), and Meta (Oculus). After countless sleepless nights fixing robotic assembly lines and test stations, we decided it was time to create the ultimate tool for manufacturing. We’re building the solution we wish we had back then.\n\n![uploaded image](/media/?type=post&id=83709&key=user_uploads/991674/4ecd6fa2-6352-46ae-a602-f69219f0fe93)\n\n### **Our Ask - Let's Transform Manufacturing Together**\n\nKnow someone struggling to get real-time data from robots, test stations, or factories? Let’s talk. Reach us at [founders@autumnlabs.io](mailto:founders@autumnlabs.io)",
+      "url": "https://www.ycombinator.com/launches/Lm9-autumn-labs-monitoring-platform-for-industrial-robots-and-manufacturing",
+      "votes": 35,
+      "created_at": "2024-09-03T16:30:31.314Z"
+    }
+  ]
+}

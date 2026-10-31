@@ -1,0 +1,108 @@
+{
+  "id": 36972,
+  "name": "Composal",
+  "slug": "composal",
+  "former_names": [
+    "Vex",
+    "VEX"
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/5e1f6f0a97f11c72c78bdc6875df0e065a154770.png",
+  "website": "https://composal.com",
+  "all_locations": "London, England, United Kingdom",
+  "long_description": "Check features, not code. Composal sends a swarm of agents to use your product like your users do. They test real flows and edge cases to show you what works, what breaks, and if it’s ready to ship.",
+  "one_liner": "Swarms of agents acting like users to find bugs before release",
+  "team_size": 3,
+  "industry": "B2B",
+  "subindustry": "B2B -> Engineering, Product and Design",
+  "launched_at": 1791500162,
+  "tags": [
+    "Developer Tools",
+    "DevSecOps",
+    "Cloud Computing",
+    "AI"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Fall 2026",
+  "status": "Active",
+  "industries": [
+    "B2B",
+    "Engineering, Product and Design"
+  ],
+  "regions": [
+    "United Kingdom",
+    "Europe"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/composal",
+  "api": "https://devasheeshg.github.io/yc-api/batches/fall-2026/composal.json",
+  "year_founded": 2026,
+  "city": "London",
+  "country": "GB",
+  "linkedin_url": "https://www.linkedin.com/company/composalai",
+  "x_url": "https://x.com/ComposalAI",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": "https://github.com/ComposalAI",
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/5e1f6f0a97f11c72c78bdc6875df0e065a154770.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [
+    "https://bookface-images.s3.us-west-2.amazonaws.com/attachments/8a8943f0f606411b7455071e5ea75ff6ec5668ad.png"
+  ],
+  "primary_partner": {
+    "name": "Pete Koomen",
+    "url": "https://www.ycombinator.com/people/pete-koomen"
+  },
+  "founders": [
+    {
+      "user_id": 239422,
+      "full_name": "Pandelis Zembashis",
+      "title": "Founder/CEO",
+      "founder_bio": "I'm co-founder and CEO of Composal. We help engineering teams continually test and validate what they build: our agents use the product, check real user flows and discover bugs before release. Previously, as CTO at Cosine, I built AI coding agents and the infrastructure behind them, including one of the first CLI harnesses, sandboxed execution from scratch and large-scale repository mirroring for data generation and model training. Now I help teams validate software at scale.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/pandelis",
+      "x_url": "https://x.com/pandelisz",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/2a55b3f5f6b672b3b8e37a486a15ce014683193a.jpg"
+    },
+    {
+      "user_id": 986471,
+      "full_name": "Jonathan Davies",
+      "title": "Founder/CTO",
+      "founder_bio": "Co-Founder and CTO of Composal. Previously Senior Software Engineer at PapayaDash. Before that built software for Telefonica, Mitie, and Vodafone",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/jonathan-m-davies/",
+      "x_url": "https://x.com/jonathandavies",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/b5db544d164e39b3c1e12d9c67fdd8b2afca5015.jpg"
+    },
+    {
+      "user_id": 858028,
+      "full_name": "Jan Moehlmann",
+      "title": "Founder",
+      "founder_bio": "Founder at composal.ai (YC F26). Previously built commercial functions at 11x, Encord, Tractable",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/jan-moehlmann-a3a23352/",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/87e329af0bcb6d6044e4730950672716003130fc.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 125454,
+      "title": "Composal: A swarm of agents that tests your product like real users",
+      "tagline": " Catch bugs before your users do",
+      "body": "Composal sends a swarm of agents through your product to check that users can still do what they came to do. When something breaks, it captures a recording, logs and steps to reproduce, so your coding agent can make the fix and Composal can verify it.\n\nWe're Pandelis, Jonathan and Jan, the founders of Composal (YC F26). We're building the verification scaffolding for autonomous software factories: the part of the loop that is still reliant on humans today, checking whether what the agents built actually works.\n\n<https://youtu.be/MmnVcWLlnAQ>\n\n### The Problem\n\nCoding agents have made building cheap. Checking has not kept up. Teams tell us about features that pass CI and get approved by a review bot, then fail the first time a real person tries them. So someone still clicks through every flow by hand before a release, or skips it and hears about the bug from a customer.\n\nEnd-to-end test suites were supposed to solve this. In practice they are tedious to write, they break every time the UI changes, and they are the first thing to rot. As agents raise the pace of shipping, that gap widens every week.\n\n### How Composal works\n\nGive Composal an environment to test and the credentials it needs. Our agents learn your product by using it, mapping features and exploring user journeys in parallel with different roles and goals.\n\nFor example, testing an invitation flow means following what happens to the person receiving the invite: can they join the right workspace and reach the features they need? A successful API response only answers part of that question.\n\nWhen an agent finds a problem, Composal captures the evidence. Your coding agent uses it to investigate and make a fix, then runs the scenario again to confirm the result. What Composal learns becomes product knowledge and repeatable scenarios that keep running as your product changes.\n\nWe call this **Continual Agent Verification**: checking that users can still accomplish their goals as the product evolves.\n\n![uploaded image](/media/?type=post&id=125454&key=user_uploads/239422/b7775a00-5c12-4e9b-811d-63d111ca960d)\n\n\nCI checks code, CD ships it, Continual Agent Verification checks that user goals still work as the product changes.\n\n### Why we're working on this\n\nPandelis spent the last few years building coding agents as CTO at Cosine (YC W23). That team was no different from the teams we talk to now: ship a feature, test what changed, move on, then onboard a customer and find that a flow nobody had touched in weeks was broken. The agents kept getting faster. The checking stayed manual. Composal is the tool we wished we had.\n\n### Who we are\n\n* **Pandelis Zembashis**: previously CTO at Cosine, where he built one of the first CLI agent harnesses, sandboxed execution from scratch, and large-scale repository mirroring for model training.\n* **Jonathan Davies**: built mission-critical software for Telefónica, Vodafone and Mitie.\n* **Jan Moehlmann**: built commercial functions at 11x, Encord (YC W21) and Tractable.\n\nWe worked closely together at previous startups in London, and we keep hearing the same question from customers: how do you know an agent's work is ready for your users?\n\n### Where this goes\n\nOur ambition is a self-healing software factory: you set the direction and agents carry the work from idea through building, testing and shipping, then keep improving the product. Verification is the first step, because nothing else in that loop can be trusted without it. \n\nBuild, Verify, Ship, Improve: a fault is caught and healed without stopping the loop.\n\n### Try it on a feature you're about to ship\n\nIf your team uses coding agents and still checks their work by hand, we'd like to test an upcoming feature with you.\n\n[**Start at**](https://composal.com/?utm_source=ycombinator&utm_medium=launch&utm_campaign=launch_yc) [**composal.com**](http://composal.com) to run your first discovery, or book a call with us directly and we would be happy to setup your first batch of tests for you.\n\n— Pandelis, Jonathan and Jan",
+      "url": "https://www.ycombinator.com/launches/WdS-composal-a-swarm-of-agents-that-tests-your-product-like-real-users",
+      "votes": 17,
+      "created_at": "2026-10-30T01:00:00.123Z"
+    }
+  ]
+}

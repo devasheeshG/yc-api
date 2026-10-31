@@ -1,0 +1,94 @@
+{
+  "id": 37238,
+  "name": "Terse",
+  "slug": "useterse",
+  "former_names": [
+    "Terse Inc. dba Terse AI"
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/cd6be2cf6a34817d94716dd43cba7de917787b78.png",
+  "website": "https://www.useterse.ai/",
+  "all_locations": "New York City, NY, USA",
+  "long_description": "We build infrastructure to power agentic systems such as software factories, multiplayer agent frameworks and agent coordination.",
+  "one_liner": "Durable state for AI agents",
+  "team_size": 2,
+  "industry": "B2B",
+  "subindustry": "B2B -> Infrastructure",
+  "launched_at": 1790745772,
+  "tags": [
+    "API",
+    "Infrastructure",
+    "AI"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Fall 2026",
+  "status": "Active",
+  "industries": [
+    "B2B",
+    "Infrastructure"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/useterse",
+  "api": "https://devasheeshg.github.io/yc-api/batches/fall-2026/useterse.json",
+  "year_founded": 2025,
+  "city": "New York City",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/terse-inc",
+  "x_url": "https://x.com/IncTerse",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": "https://github.com/TerseAI/durable-actors",
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/cd6be2cf6a34817d94716dd43cba7de917787b78.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Aaron Epstein",
+    "url": "https://www.ycombinator.com/people/aaron-epstein"
+  },
+  "founders": [
+    {
+      "user_id": 213528,
+      "full_name": "Thomas Elias Karatzas",
+      "title": "Founder/CEO",
+      "founder_bio": "Founder at Terse AI. Previously Staff Engineer at Apple for 7 years, working on Siri and Apple Intelligence. Earlier founded Know Your VC (acquired by RateMyInvestor). Software Engineering degree from McGill University.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/thomas-karatzas-a3015a94/",
+      "x_url": "https://x.com/karatzas_thomas",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/8dad0537303f1f75e956ab8e949aa67c25a10c1a.jpg"
+    },
+    {
+      "user_id": 4004194,
+      "full_name": "Olivier Simard-Morissette",
+      "title": "Founder/CTO",
+      "founder_bio": "Founder at Terse AI (YC F26). Previously Principal Software Engineer at Pigeon (YC W23) and Senior Software Engineer at Squarespace and The New York Times. ",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/olism/",
+      "x_url": "https://x.com/oliviersm199",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/d54e4534691360fc80d558e0622c9457684b7278.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 125318,
+      "title": "Durable Actors: The perfect primitive for Multiplayer AI and Agent Coordination",
+      "tagline": "OSS alternative to Durable Objects",
+      "body": "Hey everyone, Thomas &amp; Olivier here, founders of Terse (<https://www.useterse.ai/>).\\\n\\\nWe are building the next Agent Infra company and we are announcing our first product: Durable Actors. An open source alternative to Durable Objects.\\\n\\\nStar us on Github! <https://github.com/TerseAI/durable-actors>\\\n\\\nDurable Actors help you build real-time applications like chat systems (e.g. ChatGPT, Codex), collaboration tools (e.g. Notion), and agent swarms (e.g. Devin).\n\nThey provide _stateful serverless functions_, a foundational building block that abstracts away persistence, coordination, and infrastructure challenges in distributed systems.\\\n\\\nWhy is this useful? It reduces complexity tremendously and It saves you a lot of money!\\\n\\\nOur actors go dormant and back up in S3 when not in use. So agents only incur cost when your users are getting value from them. Because each actor has its own database and websocket server, we remove a ton of pressure from your main DB as well as your websocket server and you can scale those down.\\\n\\\nIn addition to being cost efficient, they are the perfect tool for building agentic applications. You no longer need to store JSONB in your Postgres DB, no more complicated websocket logic, it handles race conditions elegantly and helps keeps your REST API fully stateless.\\\n\\\nHere is me with a whiteboard explaining why this is the future of multiplayer infra:\\\n<https://youtu.be/UNaG-PLw17s>\\\n\\\nAnd here is a demo using Durable Actors to make a mini-lovable.\\\n<https://www.youtube.com/watch?v=wpF3VTmljqM>\\\n\\\nWho Are We?\\\n\\\nI was previously at Apple for 7 years as a Staff Engineer working on the platform for Siri and Apple Intelligence. \\\n\\\nOlivier was a Tech Lead at SquareSpace and the New York Times building highly scalable data pipelines for marketing teams. \n\n\\\nWe met in at @McGill University and have stayed close friends since. We won several hackathons together, and even worked on a project that had 15K MAU.\\\n\\\nWhy are we building this?\\\n\\\nIn 2021, Swift released actors. It was game changing for my team where threads competing for resources/data races were our #1 source of bugs.\\\n\\\nAgents are becoming like threads now. We have many of them doing work at the same time, and they sometimes need to share a CRM record, a code base etc… It’s a very similar problem!\\\n\\\nThe actor model is a perfect fit for this. It only allows one agent in the actor at a time, preventing race conditions at the core of it.\\\n\\\nI came across this problem when looking to have 10 agents do work on a large CSV. I was using Postgres to store a shared state variable, and the snapshotting system was serving stale data to half of the agents causing duplicate work to happen. I quickly realized, there was no existing tool to solve this problem outside of locks in front of Postgres, which is essentially System-R.\\\n\\\nI then came across Durable Objects, and found the magic line “Designed to give serverless functions state”. It then hit me this was the correct architecture for this. Cloudflare forces you to go through there workers platform to access this functionality and has insane lock in. I then realized we needed another alternative. That alternative is now Durable Actors.",
+      "url": "https://www.ycombinator.com/launches/WbG-durable-actors-the-perfect-primitive-for-multiplayer-ai-and-agent-coordination",
+      "votes": 4,
+      "created_at": "2026-10-29T19:30:00.301Z"
+    }
+  ]
+}

@@ -1,0 +1,105 @@
+{
+  "id": 28968,
+  "name": "Trainy",
+  "slug": "trainy",
+  "former_names": [
+    "AB Labs"
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/78fb6a9f034f5447cc3472b66f6c660fdf0cfa60.png",
+  "website": "https://trainy.ai/",
+  "all_locations": "San Francisco, CA, USA; Remote",
+  "long_description": "Goodbye Slurm, Hello Konduktor.\r\n\r\nTrainy Konduktor is a software platform for AI teams to schedule workloads with priority, control resource allocation, and improve GPU reliability. With Konduktor, teams submit jobs to a healthy pool of GPUs, assign job priority with a simple user interface, and never worry about hardware faults again.",
+  "one_liner": "Infrastructure for managing GPU clusters for training/serving.",
+  "team_size": 3,
+  "industry": "B2B",
+  "subindustry": "B2B",
+  "launched_at": 1687891811,
+  "tags": [
+    "Developer Tools",
+    "Machine Learning",
+    "SaaS",
+    "Infrastructure"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Summer 2023",
+  "status": "Active",
+  "industries": [
+    "B2B"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada",
+    "Remote",
+    "Fully Remote"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/trainy",
+  "api": "https://devasheeshg.github.io/yc-api/batches/summer-2023/trainy.json",
+  "year_founded": 2023,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/trainy-ai/about/",
+  "x_url": "https://twitter.com/TrainyAI",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": "https://github.com/Trainy-ai/",
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/78fb6a9f034f5447cc3472b66f6c660fdf0cfa60.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Diana Hu",
+    "url": "https://www.ycombinator.com/people/diana-hu"
+  },
+  "founders": [
+    {
+      "user_id": 509361,
+      "full_name": "Roanak Baviskar",
+      "title": "Founder",
+      "founder_bio": "Studied CS & Mathematics at UC Santa Cruz. Led Audio team at Hive AI, where we trained and deployed 500M parameter-scale models to production.",
+      "is_active": true,
+      "linkedin_url": "https://linkedin.com/in/roanakb",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/5b4b5bdb3a6c92540c471e0ac581790dcb5bba8a.jpg"
+    },
+    {
+      "user_id": 1404133,
+      "full_name": "Andrew Aikawa",
+      "title": "Founder",
+      "founder_bio": "Co-founder and CTO at Trainy building a training platform to make deep learning go faster. Previously a lead Machine Learning Engineer for Hive AI's object detection products. I completed my Physics Ph.D. UC Berkeley '22 where my thesis focused on applying computer vision and deep learning on nanoscience. Physics & Computer Science B.A. UC Berkeley '17.",
+      "is_active": true,
+      "linkedin_url": "https://linkedin.com/in/asai",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/870dd300be109c4ae6d065c20bc6114a5a646b21.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 97424,
+      "title": "🪐 Pluto – OSS experiment tracker for Neptune users",
+      "tagline": "Neptune-compatible experiment tracking, built for teams running AI workloads",
+      "body": "[**→ Try the live playground**](https://demo.pluto.trainy.ai/o/dev-org/projects/my-ml-project) – explore Pluto with real sample experiments, no signup required.\n\nNeptuneAI is shutting down on March 5th after being acquired by OpenAI. We built Pluto so you can migrate safely without rushing.\n\n---\n\n### **👋 Who we are**\n\nHey YC, we're Roanak and Andrew! We founded Trainy to help AI teams efficiently manage and utilize GPU infrastructure. When we heard Neptune was shutting down, our customers started panicking about losing years of experiment history and having to rewrite their logging code on a tight deadline.\n\nSo we built Pluto.\n\n![uploaded image](/media/?type=post&id=97424&key=user_uploads/509361/6cbcdb3e-6f5f-4f7f-8855-58001d921c66)\n\n### **🔥 The problem**\n\nNeptune's March 5th shutdown is forcing research teams into one of the worst kinds of migrations: rushed, high-stakes, and hard to verify.\n\nMost alternatives require you to:\n\n* Rewrite your logging code\n* Lose your historical runs (or spend days exporting and reformatting)\n* Hope the new tool handles your multi-GPU workloads the same way\n\nAnd you have to do all of this before March 5th or your data gets deleted.\n\n### **🛠 How Pluto solves it**\n\n**1. Dual-log to both platforms simultaneously**\n\n[Add one import](https://docs.trainy.ai/pluto/neptune-migration), keep your existing Neptune code running, and Pluto logs side-by-side. Validate that everything matches on your real training workloads before you cut over.\n\n**2. Export your Neptune history**\n\nPluto includes [a Neptune exporter](https://docs.neptune.ai/transition_hub/migration/to_pluto) that brings your old runs into Pluto. Years of experiment data, preserved.\n\n**3. Built for the workloads Neptune users actually run**\n\nWe're optimizing for what Neptune users loved: UI responsiveness at scale, reliable logging throughput under multi-node/multi-GPU workloads, and the ability to track thousands of per-layer metrics without lag.\n\n**Deployment options:**\n\n* **Self-hosted** – for sensitive data or air-gapped environments, instructions in [server readme](https://github.com/Trainy-ai/pluto-server)\n* **Hosted** – $250/seat/month (free for existing Trainy customers)\n\n---\n\n### **🙏 Our ask**\n\n**If you're a Neptune user, please try Pluto with dual-logging before the March shutdown.**\n\nWe're specifically looking for feedback on:\n\n* Anything that would block your cutover\n* Features you rely on that we're missing\n* UI/performance differences at scale\n\n**Early Bird offer:** Start dual-logging in the next 2 weeks → **3 months hosted free**.\n\n👉 Once you’ve made an account on [pluto.trainy.ai](http://pluto.trainy.ai), email [roanak@trainy.ai](mailto:roanak@trainy.ai) or [grab a time to chat](https://calendly.com/roanak/trainy-demo) and we’ll add seats/storage.\n\n---\n\n### **🔗 Links**\n\n* [**Playground**](https://demo.pluto.trainy.ai/o/dev-org/projects/my-ml-project) – try it now\n* [**Quickstart**](https://docs.trainy.ai/pluto/quickstart) – get running in 5 minutes\n* [**GitHub**](https://github.com/Trainy-ai/pluto) – Apache-2.0 (client), AGPL-3.0 ([server](https://github.com/Trainy-ai/pluto-server)) ⭐\n\nWe're listed on[ **Neptune's official transition hub**](https://docs.neptune.ai/transition_hub/migration/to_pluto).\n\nThank you!",
+      "url": "https://www.ycombinator.com/launches/PLM-pluto-oss-experiment-tracker-for-neptune-users",
+      "votes": 10,
+      "created_at": "2026-02-04T22:26:06.748Z"
+    },
+    {
+      "id": 72587,
+      "title": "🚅 Trainy - Identify bottlenecks, boost training",
+      "tagline": "Dashboards to help ML engineers training large models isolate performance bottlenecks and boost training speed.",
+      "body": "**tl;dr** We help ML engineers training large models isolate performance bottlenecks during training. Trainy summarizes profiling information during large distributed training so that you know exactly what is limiting the speed of your model training.\n\nHello everyone, we are Andrew and Roanak, ML engineers from the bay. We’ve experienced firsthand the challenges of distributed training and getting the most out of your compute resources. That’s why we are building tools to help ML engineers training large models optimize training speed and take the guesswork out of estimating the time and cost of training.\n\n![uploaded image](/media/?type=post&id=72587&key=user_uploads/1404133/cde44cc9-7436-422f-b0fd-c7c3f2a94ff2)\n\n# **The Problem**\n\nDistributed training has enabled the training of ever-growing generative AI models. However, gains in speed are not simply proportional to the number of GPUs recruited and can quickly have diminishing returns depending on infrastructure and the model being trained. Tools now mainly focus on profiling a few GPUs, but become unwieldy the moment you scale beyond the 10 GPU mark.\n\n# **Our Solution**\n\nWe created a dashboard to display timing information across many GPUs. It’s a graph interface built on top of Tensorboard and PyTorch Profiler, existing tools familiar to ML engineers.\n\n![uploaded image](/media/?type=post&id=72587&key=user_uploads/1404133/729377af-3ca9-499b-acf7-1e2f1f569940)\n\n# **How it works**\n\nWe summarize profiling information over many GPUs in a few key views that help ML developers identify where in the ensemble of GPUs there are inefficiencies. Statistics about computation, communication, and memory operations across many GPUs isolate straggling GPUs. Distributed training can only proceed as fast as the slowest GPU participating. By isolating slow outliers, an ML developer can zoom in on the operations running on the straggling GPU and make optimizations to their code to balance timings across GPUs and lower resource idling.\n\n# **The Ask**\n\nWe’d love for you to try out our profiler if you are training your own models. <https://github.com/Trainy-ai/nodify>\n\nAlso join our community if you want to stay up to date with the development of our tools. <https://discord.com/invite/d67CMuKY5V>",
+      "url": "https://www.ycombinator.com/launches/Isl-trainy-identify-bottlenecks-boost-training",
+      "votes": 21,
+      "created_at": "2023-06-27T19:06:48.265Z"
+    }
+  ]
+}

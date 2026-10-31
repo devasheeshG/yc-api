@@ -1,0 +1,93 @@
+{
+  "id": 28959,
+  "name": "sizeless",
+  "slug": "sizeless",
+  "former_names": [
+    "sizeless GmbH"
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/90ad40c9214ea17e0132605fba1e092c86e8b9a0.png",
+  "website": "https://www.sizeless.co",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "sizeless is the spatial AI to plan, build, and maintain the world's infrastructure by automating the 3D documentation and planning of the world’s underground infrastructure. Construction crews capture a short smartphone video of a construction site and get an automated, millimeter-precise digital twin with automatic part identification. We compress weeks of manual surveying and back-office planning work into hours. Our documentation and planning platform is currently in production: we have signed 7 paid pilots in 3 months with a potential ACV of $1.4M. \r\n\r\nsizeless (https://sizeless.co) spun out of research in robotics and spatial AI: co-founders Cornelius von Einem (PhD, ETH Zürich) and Roger de Belsunce (Physics & AI postdoc at MIT) lead the technology, while Julius Schilling (insurance, Aon) leads the commercial side. sizeless is building the proprietary training-data layer that all construction robots will run on.",
+  "one_liner": "The spatial AI to plan, build and maintain the world's infrastructure",
+  "team_size": 4,
+  "industry": "Real Estate and Construction",
+  "subindustry": "Real Estate and Construction",
+  "launched_at": 1691128419,
+  "tags": [
+    "Computer Vision",
+    "Real Estate",
+    "Construction",
+    "AI"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Summer 2023",
+  "status": "Active",
+  "industries": [
+    "Real Estate and Construction"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada",
+    "Remote",
+    "Partly Remote"
+  ],
+  "stage": "Early",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/sizeless",
+  "api": "https://devasheeshg.github.io/yc-api/batches/summer-2023/sizeless.json",
+  "year_founded": 2023,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/sizeless-ai",
+  "x_url": "",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/90ad40c9214ea17e0132605fba1e092c86e8b9a0.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": null,
+  "founders": [
+    {
+      "user_id": 1260496,
+      "full_name": "Roger de Belsunce",
+      "title": "Founder",
+      "founder_bio": "PhD in astrophysics from University of Cambridge",
+      "is_active": true,
+      "linkedin_url": "https://linkedin.com/in/rogerdb",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/1721d9c98133ce985f909f4100bac939d563d2a2.jpg"
+    },
+    {
+      "user_id": 1260577,
+      "full_name": "Cornelius von Einem",
+      "title": "Founder",
+      "founder_bio": "Cofounder of sizeless (S23). Previously Researcher @ ETH Zurich working on Computer Vision and Robotics",
+      "is_active": true,
+      "linkedin_url": "https://linkedin.com/in/corneliuseinem",
+      "x_url": "https://twitter.com/cornelius_einem",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/fe512b64dfa383e361e6a5217f64635d3c6d193c.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 114663,
+      "title": "sizeless - Spatial AI for underground infrastructure 🚧",
+      "tagline": "Turn a 10-minute phone video of an open trench into engineering-grade documentation",
+      "body": "Hey everyone 👋\n\nWe're Julius, Cornelius and Roger — the founders of sizeless.\n\n**TL;DR**\n\nsizeless turns a smartphone video of an open trench into the documentation utilities and contractors are legally required to produce: a 3D model, CAD/BIM plans, and the quantities they bill from. Today that takes months and a surveyor. We do it in hours, from a video the crew films themselves.\n\n![uploaded image](/media/?type=post&id=114663&key=user_uploads/1260577/02c85a25-fa1a-43a2-ad56-6e571b257b37)\n\n### **Problem ❌**\n\nEverything under a street — gas, water, power, heat, fiber — must be documented when it is built or repaired. That documentation is still done by hand: schedule a surveyor, drive out, measure with a tape or a GPS rover, write it on paper, go back to the office and draw it. Then the next contractor does the same thing again, for their own pipe, in the same trench.\n\nOur average customer **waits 6 months** for documentation and spends around **$4M a year per German city** on it.\n\nAnd once the trench is backfilled, nobody can check whether the numbers were right. One person's reading, one moment, unrepeatable. That is why crews keep hitting lines that \"aren't there\".\n\n![uploaded image](/media/?type=post&id=114663&key=user_uploads/1260577/f446f4ae-943d-4c83-ba7e-c48b9220eca7)\n\n### **Solution ✅**\n\nThe crew films the open trench with a phone for about 10 minutes. Then:\n\n**Our SLAM engine** builds a metric 3D model from that video — no surveyor, no scanner, and it works without GPS in basements and house connections\n\n**Our vision engine** recognises the components — pipe types, diameters, fittings, couplings — and attributes them\n\n**Our agent** produces what the customer actually files: CAD/BIM, GIS, quantities, and invoice-ready numbers\n\n![uploaded image](/media/?type=post&id=114663&key=user_uploads/1260577/bbaddb8c-abbf-43ad-8866-025cde7bb93b)\n\nThe crew also talks while filming, and that goes into the record:\n\n> _\"There was a gas pipe crossing, so we had to lay this pipe approximately\\\n> 50 cm below it.\"_\n\nNo point cloud and no plan ever captures the _reason_ for a deviation — and once the trench is closed, it is gone for good. That sentence, anchored to the exact position in 3D, is the part nobody else has.\n\n**Where we are:** seven paid pilots in three months, the first converted to an annual contract, working with utilities and contractors on district heating in Germany.\n\n**Why now:** phones do metric 3D capture, reconstruction got cheap, and vision-language models read attributes rather than just detecting boxes. And the long game: construction robots are coming, and nobody holds the training data for what is underground. That is the layer we are building.\n\n### **Ask 💬**\n\n**Intros to utilities, municipal works, or civil and pipeline contractors** - Europe or the US\n\n**Anyone who has sold into municipalities or utilities:** how did you shorten those cycles?\n\n**Founders in construction tech, geospatial or robotics** — would love to compare notes\n\nIf you know someone running a **family construction business**, that is often our fastest door in\n\nYou can reach us at [julius@sizeless.co](mailto:julius@sizeless.co) (commercial) or [cornelius@sizeless.co](mailto:cornelius@sizeless.co) (technical).\n\n### **Team**\n\n**Julius** (CEO) — ex-Chief of Staff to the CEO at Aon.\n\n**Cornelius** (CTO) — PhD in robotics and computer vision at ETH Zürich's Autonomous Systems Lab. Built perception systems for railways, and a wearable navigation system for blind users.\n\n**Roger** (Science lead) — professor of physics &amp; AI. Spent a decade recovering 3D structure from sparse, noisy measurements; in his case, mapping the universe.\n\n_Fun fact: the hardest part of our capture pipeline is not the maths, it is that trenches are wet, muddy, and full of moving excavators — which breaks every off-the-shelf 3D reconstruction method we tried._",
+      "url": "https://www.ycombinator.com/launches/TpP-sizeless-spatial-ai-for-underground-infrastructure",
+      "votes": 29,
+      "created_at": "2026-09-10T18:00:52.630Z"
+    }
+  ]
+}
