@@ -1,0 +1,85 @@
+{
+  "id": 37602,
+  "name": "Superserve",
+  "slug": "superserve",
+  "former_names": [],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/30c23ee4b16858a917c5254b034633777d99a5f2.png",
+  "website": "https://superserve.ai",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "Superserve gives every AI agent its own computer in the cloud. Each one is an isolated VM that starts in under 50ms, sleeps between turns, and picks up exactly where it left off, for hours, weeks or indefinitely.\r\n\r\nTraditional cloud infrastructure was built to run one app for many users. Agents flip that. Each agent needs its own isolated machine where it can write and run code, use tools and work on its own for long stretches. Everything it produces has to persist the whole time, the way your laptop keeps your work.\r\n\r\nThat means agent computers have to be stateful, secure and cheap to run. For agents that talk to customers, they also have to start, sleep and wake almost instantly.\r\n\r\nFast - Machines start in under 50ms, either cold or from a template with your repo and dependencies already loaded. You don't need to keep a pool of servers running and waiting.\r\n\r\nPersistent - Paused machines keep their full memory and disk state at zero compute cost. They can resume or fork from that exact state. Pausing and resuming is fast enough that a machine can sleep between inference calls and wake on the next turn. Agents can run Docker, databases, browsers or any other service inside.\r\n\r\nSecure - Every machine is a microVM with its own kernel. You can program the rules for what traffic can come in and go out, and they're enforced at the network boundary where the agent can't reach them. API secrets are handled at the network layer too, so they never enter the machine. Every action is logged for audits.\r\n\r\nTeams building coding agents, autonomous workers, and eval or RL training environments use Superserve to give every agent session or rollout its own machine, with no infrastructure to manage.\r\n\r\nWe run 100K+ machines every week for teams including Lindy and Y Combinator.",
+  "one_liner": "Virtual machines for long-running agents",
+  "team_size": 3,
+  "industry": "B2B",
+  "subindustry": "B2B -> Infrastructure",
+  "launched_at": 1793143459,
+  "tags": [
+    "Cloud Computing",
+    "Infrastructure",
+    "AI"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Fall 2026",
+  "status": "Active",
+  "industries": [
+    "B2B",
+    "Infrastructure"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada",
+    "Remote",
+    "Partly Remote"
+  ],
+  "stage": "Early",
+  "partners": "Max",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/superserve",
+  "api": "https://devasheeshg.github.io/yc-api/batches/fall-2026/superserve.json",
+  "year_founded": 2025,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/super-serve-ai",
+  "x_url": "https://x.com/superserve_ai",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": "https://github.com/superserve-ai",
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/30c23ee4b16858a917c5254b034633777d99a5f2.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Max Kolysh",
+    "url": null
+  },
+  "founders": [
+    {
+      "user_id": 427644,
+      "full_name": "Pavitra Bhalla",
+      "title": "Founder/CEO",
+      "founder_bio": "Founder & CEO of Superserve. \n\nAs Staff Software Engineer at Dosu, he built code-reasoning agents used by 200K engineers, including teams at HashiCorp, Datadog and LlamaIndex. Giving every agent session a secure environment with a codebase, bash and tools was hard infra work, so he started Superserve to make it easy. \n\nBefore that, he was Founding Engineer and Director of Engineering at Long-Term Stock Exchange (YC S17), building capital markets software used by 50,000 startups.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/pavitrabhalla/",
+      "x_url": "https://x.com/pavitrabhalla",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/f7944bce64fd7b71bb24b880f4db81f9c964d624.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 125689,
+      "title": "Superserve: Virtual machines for long-running agents",
+      "tagline": "Cloud VMs for running complex environments across many agent sessions",
+      "body": "Hi YC! I am Pavitra, founder of Superserve.\\\n\\\nWe give every agent session its own computer in the cloud, with the whole application environment it needs to build, run, and test software.\n\n**We already run over 100K machines every week for teams including Lindy and Y Combinator.**\\\n\\\n<https://www.youtube.com/watch?v=h8uXUiT-aFU>\n\n### **The problem**\n\nSay your agent is fixing a bug in a web app. It needs the code, dependencies, database, and browser to check its work. If you come back tomorrow with feedback, that work should still be there.\n\nGiving every session that environment means managing startup delays, preserving state, controlling access, and paying for machines while they wait. Across many sessions, that becomes substantial infrastructure work.\n\n### **Our solution**\n\n**Superserve handles that infrastructure for you.** Every session gets an isolated VM with your application already set up. It starts quickly, keeps the agent’s files, memory, and processes between turns, and can pause with no compute charges.\n\n### **How we compare**\n\n* **Fastest cold-start** and **snapshot start** on[ AI Sandbox Bench](https://aisandboxbench.com/): **0.52s** and **0.55s** median, respectively.\n* **#1 sandbox provider and #2 overall** on[ DevTool Arena](https://devtoolarena.com/codex/api?utm_source=chatgpt.com), which measures how well Codex discovers and uses developer tools.\n* Beats **E2B, Daytona, Modal, Vercel, Cloudflare, and Google Cloud Run** on time to first successful command in[ ComputeSDK’s 100-machine burst benchmark](https://www.computesdk.com/benchmarks/sandboxes/burst-tti?utm_source=chatgpt.com), with a **0.37s** median.\n* One of our customers benchmarked their workload as **77% cheaper on Superserve than their previously custom built EC2-based sandbox.**\n\n### **How Superserve works**\n\n**Run your whole application.** Put your repo, dependencies, Docker services, databases, and browser into a template. Every session starts with the environment the agent needs to build, run, and test software, faster than any other VM.\n\n**Keep the work between turns.** Pause a machine with its files, memory, and processes intact, then resume that state when the agent has more work. Machines can stay paused indefinitely. Compute charges stop while paused; stored state is billed only for what you use, not what’s allocated on the disk.\\\n\\\n**Fork a machine to explore in parallel.** Create independent copies of a paused machine, including its files, memory, and processes. Agents can try different fixes or run evals and RL rollouts from the same starting point, without rebuilding the environment. Each copy keeps its work separate.\n\n**Control what the agent can access.** Every machine is a microVM with its own kernel. You control the VMs network ingress and egress, which services the agent exposes, and we enforce the rules outside the VM (and the agent’s boundary). Managed API credentials are brokered on outgoing requests and kept outside the agent’s environment.\n\n### **Our background**\n\nI was a founding staff SWE at Dosu, building code-reasoning agents used by 200K engineers, including teams at HashiCorp, Datadog, and LlamaIndex. Giving every agent session a secure environment with the codebase, bash, and tools it needed took substantial infrastructure work. I started Superserve to make that part easy.\n\nBefore Dosu, I was a founding engineer and Director of Engineering at Long-Term Stock Exchange (YC S17), building capital markets software used by 50,000+ startups.\n\nI’m building Superserve with Alejandro and Amit. Alejandro led the Kubernetes platform at Oracle. Amit built the copy-on-write storage engine in our Firecracker fork, so machines can share a template while keeping each agent’s work separate.\n\n### **Our ask**\n\n**If you’re building coding agents, AI teammates, or eval and RL environments, talk to us.**\n\n[**Book a 25-minute call**](https://calendly.com/superserve-ai/25-min) or email [**founders@superserve.ai**](mailto:founders@superserve.ai). We’ll review your current setup, benchmark your workload, and work on the Superserve integration with you.\n\nPrefer to get started yourself? [docs.superserve.ai](https://docs.superserve.ai)",
+      "url": "https://www.ycombinator.com/launches/WhF-superserve-virtual-machines-for-long-running-agents",
+      "votes": 16,
+      "created_at": "2026-11-02T14:00:00.315Z"
+    }
+  ]
+}

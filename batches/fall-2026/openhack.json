@@ -1,0 +1,85 @@
+{
+  "id": 37864,
+  "name": "OpenHack",
+  "slug": "openhack",
+  "former_names": [],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/3665e2fbd95736778f3748429060face49d74d6d.png",
+  "website": "https://openhack.com",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "OpenHack is an always on AI Security Engineer. OpenHack understands your business, system design and developer intent like a real security engineer. It ingests all this context to find the hardest vulnerabilities through AI codebase scanning, AI pentesting and Supply Chain Security. It verifies and prioritizes vulnerabilities automatically, and filters out false positives like a real security engineer drastically reducing overhead.",
+  "one_liner": "Always-on AI security engineer",
+  "team_size": 1,
+  "industry": "B2B",
+  "subindustry": "B2B -> Security",
+  "launched_at": 1790387763,
+  "tags": [
+    "DevSecOps",
+    "Cybersecurity",
+    "AI"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Fall 2026",
+  "status": "Active",
+  "industries": [
+    "B2B",
+    "Security"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada",
+    "Remote",
+    "Partly Remote"
+  ],
+  "stage": "Early",
+  "partners": "Max",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/openhack",
+  "api": "https://devasheeshg.github.io/yc-api/batches/fall-2026/openhack.json",
+  "year_founded": 2025,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/openhackai",
+  "x_url": "https://twitter.com/openhack",
+  "fb_url": "https://www.facebook.com/openhackai",
+  "cb_url": null,
+  "github_url": "https://github.com/openhackai",
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/3665e2fbd95736778f3748429060face49d74d6d.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Max Kolysh",
+    "url": null
+  },
+  "founders": [
+    {
+      "user_id": 318539,
+      "full_name": "Ananay Arora",
+      "title": "Founder/CEO",
+      "founder_bio": "Founder/CEO at OpenHack (YC F26). \n\nHacking for over 12 years, with bug bounties from Meta, Apple, Perplexity, YC, Department of Homeland Security and more. Author of CVE-2026-36755. \n\nPreviously SWE @ Apple and Cybersecurity @ ASU.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/ananay",
+      "x_url": "https://twitter.com/ananayarora",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/d72b9a8183ee048345720aed35bf764c7239d713.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 125918,
+      "title": "OpenHack: Always on AI Security Engineer",
+      "tagline": "Find, verify, prioritize and fix the most complex vulnerabilities automatically",
+      "body": "<https://www.youtube.com/watch?v=wypshdV_04o&amp;vq=4k>\n\n**What is OpenHack?**\n\nOpenHack is an always-on AI security engineer. It learns your codebase, infrastructure and business logic like a real security engineer; scans your code for the hardest logic based vulnerabilities, and alerts you about vulnerabilities it has verified as real and exploitable.\n\nOpenHack is trusted by Pocket, HydraDB, Docura Health, OpenSEO, Hue, Melty and more.\n\nBook a demo: <https://openhack.com/demo>\n\n**Launch offer:** Free **Claude Mythos** Scanning until November 11, 2026!\n\n**Catastrophic vulnerabilities that OpenHack found for our customers:**\n\n* **Full account takeover.** Retrieved all sensitive user data and logged in as any user on the platform.\n* **GitHub org takeover.** Chained multiple vulnerabilities to get admin access to a company's GitHub organization, including the ability to delete it.\n* **Payment and billing bypass.** Exploited business logic flaws to use paid features forever, for free.\n* **Cloud storage exposure.** Found unauthorized access to S3 buckets at Papermark, a platform used by Fortune 500 companies. Their team fixed it quickly and the advisory is public:[ https://openhack.com/advisories/OH-2026-001](https://openhack.com/advisories/OH-2026-001)\n\nNone of these were caught by code review or traditional scanners.\n\n**How OpenHack works under the hood**\n\nOpenHack built a custom harness refined over months. It’s easy to make a harness that satisfies the basics, but building one that can do recon, hunting, validation, verification, triaging, fixing properly is extremely hard. We constantly refined our harness and outperformed Github CodeQL, Semgrep and Snyk on the OWASP benchmark.\n\n![uploaded image](/media/?type=post&id=125918&key=user_uploads/318539/393c6475-8ad4-4ae8-84ef-47fe77006a14)\n\nWe’re also actively working on PentestBench, a more relevant benchmark for pentesting that works on extremely complicated logic bugs requiring a full exploitation chain.\n\n**Why we built this**\n\nHey! I’m Ananay Arora. I've been finding security vulnerabilities for over 12 years, with bounties from Meta, Apple, Perplexity, DHS, Y Combinator and more.\n\nEvery time, the bug was simple once you understood what the system was _supposed_ to do. Scanners don't understand that. They pattern-match, flood you with false positives, and miss the logic bugs that actually get you breached. And now attackers are using AI too.\n\nSo we built OpenHack to hunt for bugs the way a real security engineer would, with full context about your business.\n\n**What OpenHack offers**\n\n* **AI code scanning** that understands your business logic, system design and what your developers meant to build\n* **AI pentesting** of your live app, chaining findings together the way a real attacker would\n* **OpenHack Blueprint**: A tool to map out your entire infrastructure + codebase deployment, like you would on a whiteboard\n* **OpenHack Assistant:** Ask and take action on anything and everything regarding your security posture\n* **Supply chain and secrets scanning** across your dependencies\n* **Automatic verification**, so you only see real, prioritized vulnerabilities, not a pile of false positives\n* **Linear and Slack integrations**, so findings land where your team already works\n* **Agent MCP Integration**: all of OpenHack can be accessed with any of your favorite agents and be used to fix vulnerabilities lightning fast  \n* **Compliance reports and a Vanta integration**, so you can get through enterprise security reviews faster (we personally help with these too!)\n* **AI and/or human pentests**, with founder-led support over Slack, phone and email ([**Sample Pentest Report**](https://openhack.com/sample-pentest-report.pdf)**)**\n\n**Want OpenHack on your codebase?**\n\n* Book a demo: <https://openhack.com/demo>\n* Email me directly: [ananay@openhack.com](mailto:ananay@openhack.com)\n* Signup on <https://openhack.com>",
+      "url": "https://www.ycombinator.com/launches/Wkw-openhack-always-on-ai-security-engineer",
+      "votes": 37,
+      "created_at": "2026-11-03T13:00:00.475Z"
+    }
+  ]
+}

@@ -1,0 +1,106 @@
+{
+  "id": 29183,
+  "name": "Navier AI",
+  "slug": "navier-ai",
+  "former_names": [
+    "NavierAI"
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/013b05510174120a0b1551eb38a764500bbd5525.png",
+  "website": "http://navier.ai",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "Navier AI is building the first Agent-Driven Engineering platform.\r\n\r\nWe believe engineers should focus on designing great products, not wrestling with simulation software.\r\n\r\nNavier AI makes it simple to run CFD simulations at scale through our web-based platform built on OpenFOAM, the industry-standard solver for CFD. Our AI agents autonomously handle the complex, time-consuming steps of simulation—from geometry cleanup and meshing to solver configuration and cloud resource management.\r\n\r\nBy automating the tedious parts of the workflow, we enable engineering teams to move faster, explore more design possibilities, and spend their time on high-value engineering decisions.",
+  "one_liner": "Agent-Driven Engineering",
+  "team_size": 7,
+  "industry": "Industrials",
+  "subindustry": "Industrials -> Aviation and Space",
+  "launched_at": 1708536461,
+  "tags": [
+    "Aerospace",
+    "AI",
+    "Automotive"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": true,
+  "nonprofit": false,
+  "batch": "Winter 2024",
+  "status": "Active",
+  "industries": [
+    "Industrials",
+    "Aviation and Space"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "partners": "Jared",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/navier-ai",
+  "api": "https://devasheeshg.github.io/yc-api/batches/winter-2024/navier-ai.json",
+  "year_founded": 2023,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/navier-ai/about/",
+  "x_url": "https://x.com/NavierAI",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/013b05510174120a0b1551eb38a764500bbd5525.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Jared Friedman",
+    "url": "https://www.ycombinator.com/people/jared-friedman"
+  },
+  "founders": [
+    {
+      "user_id": 1393398,
+      "full_name": "Cameron Flannery",
+      "title": "Founder",
+      "founder_bio": "Cameron is an Aerospace Engineer and the cofounder of Navier AI. Cameron has built rocket engines, satellites, hydrofoiling containerships, and autonomous trucks in his career at some of the top engineering companies in the world. \n\nFormerly at SpaceX, Tesla, Aurora Innovation, Astranis, and Boundary Layer Technologies.",
+      "is_active": true,
+      "linkedin_url": "https://linkedin.com/in/cameronflannery",
+      "x_url": "https://twitter.com/cmflanne",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/985b89b1aca704cafbe63c9597fbc148a50491f9.jpg"
+    },
+    {
+      "user_id": 1438060,
+      "full_name": "Evan Kay",
+      "title": "Founder",
+      "founder_bio": "Evan is an Aerospace Engineer and the co-founder of Navier AI. Evan formerly worked at SpaceX and General Atomics, where he was designing and metal 3D printing rocket engine and aircraft components. Prior to Navier AI, Evan was also a hard tech investor at Anzu Partners, where he invested in early-stage industrial technologies.",
+      "is_active": true,
+      "linkedin_url": "https://linkedin.com/in/evankay1",
+      "x_url": "https://twitter.com/Evan_Kay",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/3ab60b72932efe798ad5b4dbffb6f0b8db7f4d6e.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [
+    {
+      "title": "AI engineering startup Navier raises $5.6M seed for hardware design",
+      "url": "https://www.axios.com/pro/enterprise-software-deals/2025/12/15/navier-ai-engineering-hardware-design",
+      "date": "Dec 15, 2025"
+    },
+    {
+      "title": "Rescale and Navier AI Partner to Accelerate Computational Engineering with AI Physics - Rescale",
+      "url": "https://rescale.com/blog/rescale-and-navier-ai-partner-to-accelerate-computational-engineering-with-ai-physics/",
+      "date": "Mar 13, 2024"
+    }
+  ],
+  "launches": [
+    {
+      "id": 126410,
+      "title": "△ Prism by Navier AI: Agents for hardware engineering",
+      "tagline": "Agents that build CAD, run simulations, and write engineering reports",
+      "body": "Hey everyone 👋\n\nWe're Cameron and Evan from Navier (W24). Today we're releasing a new product, **Prism**, the AI platform for hardware engineering.\n\n## **TL;DR**\n\nPrism is a desktop app where AI agents do hardware engineering end to end. Describe the part or the analysis study you need, and agents build the CAD, run physics simulations, write code, and hand back the engineering report. **It's free to try on Windows, macOS and Linux.**\n\n**Ask:** If you design hardware, download Prism at [navier.ai/prism/download](http://navier.ai/prism/download), point it at a real problem, and tell us where it works and where it falls short: [founders@navier.ai](mailto:founders@navier.ai)\n\n![uploaded image](/media/?type=post&id=126410&key=user_uploads/1393398/51dc15cb-ff76-4c14-8047-0b3d3d6e13b6)\n\n## **❌ The problem**\n\nHardware engineers should spend their time engineering. Instead, one design study often crosses half a dozen tools: CAD, meshers, solvers, scripts, and slides. Every step is manual, and every handoff between tools is done by hand.\n\n* **Manual setup and post-processing:** cleaning up geometry, setting up meshes and boundary conditions, babysitting solver runs, and post-processing solver results\n* **Manual handoffs:** exporting and re-importing geometry, rebuilding the sim setup for a modified variant, and copying plots into slides\n* **Fewer designs explored:** a single study can take days, so teams pick a direction early, test a handful of variants, and find problems in physical testing or leave untapped performance on the table\n\n## **✅ How Prism works**\n\n**1. Describe your engineering work in plain language.** \"Design a cooling module for this drone\" with a CSV of constraints, or \"Generate a Cl–Cd curve for this wing\". Prism handles everything from one-off simulations to complex design exploration across multiple engineering domains.\n\n**2. Agents run workflows end to end.** In our drone example it built the CAD for a cooling module, ran CFD in OpenFOAM and a modal analysis in CalculiX, checked manufacturability, and wrote a report recommending a design and next steps.\n\n**3. Run agents in parallel.** Split a design space across several agents and explore more variants at once.\n\n![uploaded image](/media/?type=post&id=126410&key=user_uploads/1393398/56b62f3e-5fbc-4089-a485-9b9d00fd3ecc)\n\n**4. Review everything.** Every script, assumption, mesh and solver input is a file in your project, so you can check the work the way you'd check a colleague's.\n\n![uploaded image](/media/?type=post&id=126410&key=user_uploads/1393398/b9e5eac9-b021-4bb7-b889-83d8a327bc2a)\n\n**Under the hood:** 13 physics solvers (OpenFOAM, SU2, CalculiX, Elmer, code_aster, Project Chrono, Yade and more, plus Ferro, our GPU-native FEA solver), built-in 3D viewers for STEP files and results, and plugins for Onshape, GitHub, Atlassian, and more. Your geometry and simulation files stay on your machine.\n\n![uploaded image](/media/?type=post&id=126410&key=user_uploads/1393398/662c0438-e2eb-4085-a087-9d3e1294151d)\n\n## **💡 Why we built it**\n\nBetween us we've worked at SpaceX, General Atomics, Aurora, and Astranis, and we kept watching great engineers lose hours a week to point-and-click busy work. Cameron hit this hardest while leading vehicle engineering on hydrofoiling boats. To speed up simulation loops, he spent years scripting together CAD and simulation tools into a custom pipeline. Even then, the loop was so slow and fragile that the simulation workflow, not the engineering, became the constraint on the pace of iteration\n\nIt clicked when we gave our agent one prompt, \"Generate a Cl–Cd curve for this new fixed-wing drone design,\" and left it overnight. It planned its own mesh-independence study, ran 40 CFD simulations, checked convergence, and we woke up to a clean curve.\n\n## **🎁 Offer for YC companies**\n\n### 50% off the annual plan for your first year: [YC Deal Link](https://deals.ycombinator.com/deals/20810) \n\n### **🙏 Our ask**\n\n1. **Mechanical, thermal, aero and structures engineers:** try Prism on a study you'd normally run by hand and tell us where it works well and where it gets things wrong.\n2. **Intros:** we'd love to meet engineering leads at hardware companies, YC or not.\n3. **Tell us what to add next:** which solver, CAD tool or plugin should Prism support?\n\nReach us at [founders@navier.ai](mailto:founders@navier.ai) \n\n## **👫 The founders**\n\n**Cameron Flannery:** Starlink avionics at SpaceX, autonomous trucks at Aurora, and GNC at Astranis.\n\n**Evan Kay:** Propulsion R&amp;D for the Raptor 1 and 2 rocket engines at SpaceX, and metal additive manufacturing at General Atomics.",
+      "url": "https://www.ycombinator.com/launches/Wss-prism-by-navier-ai-agents-for-hardware-engineering",
+      "votes": 3,
+      "created_at": "2026-11-03T16:59:35.364Z"
+    }
+  ]
+}

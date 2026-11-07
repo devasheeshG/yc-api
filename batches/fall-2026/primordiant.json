@@ -1,0 +1,110 @@
+{
+  "id": 35652,
+  "name": "Primordiant",
+  "slug": "primordiant",
+  "former_names": [
+    "SuperRadiant",
+    "Primordiant (Formerly SuperRadiant)"
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/15a7e2a5caa04595d7620cd8161f3b2cffd00a51.png",
+  "website": "https://primordiant.com",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "Every instance of intelligence occurring in nature is embodied. Scientific intelligence is no different. We are building general-purpose robotic experimentalists: systems that unite scientific reasoning and physical action to iterate toward discovery by observing, hypothesizing and experimenting.",
+  "one_liner": "Embodied Scientific Intelligence",
+  "team_size": 3,
+  "industry": "Industrials",
+  "subindustry": "Industrials -> Manufacturing and Robotics",
+  "launched_at": 1788918386,
+  "tags": [
+    "Robotics",
+    "Energy",
+    "Advanced Materials",
+    "AI",
+    "Biotechnology"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Fall 2026",
+  "status": "Active",
+  "industries": [
+    "Industrials",
+    "Manufacturing and Robotics"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "partners": "Aaron",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/primordiant",
+  "api": "https://devasheeshg.github.io/yc-api/batches/fall-2026/primordiant.json",
+  "year_founded": 2026,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/superradiant/",
+  "x_url": "https://x.com/primordiant",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/15a7e2a5caa04595d7620cd8161f3b2cffd00a51.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [
+    "https://bookface-images.s3.us-west-2.amazonaws.com/attachments/0fdde8c9f16afd7cc12bd170bdeebde94754b105.png"
+  ],
+  "primary_partner": {
+    "name": "Aaron Epstein",
+    "url": "https://www.ycombinator.com/people/aaron-epstein"
+  },
+  "founders": [
+    {
+      "user_id": 3125500,
+      "full_name": "Owen Tower",
+      "title": "Founder/CEO",
+      "founder_bio": "Founder at Primordiant (formerly SuperRadiant). PhD in Physics from Brown, where he invented novel algorithms to discover phase transitions in random-field Ising models, in addition to using micro and nanofluidics to study analogous system experimentally. Research experience at NASA JPL and CERN/LHC. Trained in nanofabrication, microfluidics, and ML methods including PINNs and reinforcement learning.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/owen-tower-270630133?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
+      "x_url": "https://x.com/owentower1",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/70a067e2bb7ef406f9c749791c05d5312086e47e.jpg"
+    },
+    {
+      "user_id": 3083156,
+      "full_name": "Cooper Niu",
+      "title": "Founder/CTO",
+      "founder_bio": "Founder of Primordiant. PhD in Physics from Brown University. Researches LLM and AI agents for scientific discovery. Created ALBERT, an autonomous AI particle physicist that proposes, verifies, and iteratively refines physical theories; given only pre-1990 data, it recovered the top quark’s mass and properties in under an hour. Previously worked on neutrino physics with the NOvA experiment at Fermilab and on LHC experiments at CERN.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/cooper-niu",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/9ff31e1e94545e82247fe8f4a13b65e32eceda53.jpg"
+    },
+    {
+      "user_id": 2759626,
+      "full_name": "Benedict Quartey",
+      "title": "Founder",
+      "founder_bio": "CS PhD from Brown. Pioneered generally capable yet verifiable robot autonomy, combining foundation models with symbolic planning and spatial world models so robots can follow open-ended instructions with guarantees. Built LIMP (ICRA 2025; best paper finalist, TAMP@ICRA), the first system to do this in real-world environments without prebuilt maps, and PACTS (IROS 2026), learned skills that compose zero-shot. Previously at the Boston Dynamics Robotics & AI Institute.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/benedictquartey",
+      "x_url": "https://x.com/Benedict_Q",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/a1b9e290e4926a87fa1477ca9d2d8d77e235d399.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 125694,
+      "title": "Primordiant: Programmable access to flexible scientific experimentation at scale",
+      "tagline": "On-demand experimentation in scientific data centers, run by self-evolving robot scientists, for the discoveries of tomorrow.",
+      "body": "**TL;DR:** We're building general-purpose robot scientists that learn new tasks, adapt as experiments change, and improve on their own. We give people and AI agents **programmable access to physical experimentation at scale**, either in our labs or with our robots on-site in theirs. \n\n<https://www.youtube.com/watch?v=Yd6z26toh6w>\n\n**The problem**\n\nAI models can now propose hypotheses and design experiments. Testing them still depends on human hands, or rigid lab automation scripted for custom machines that run inflexible scientific protocols. Discovery moves as fast as physical experimentation, and today those are slow, manual, and hard to scale. \n\n**Our solution**\n\nScience needs experimentalists that **iterate as fast as a machine and adapt as readily as human scientists**. Primordiant's robots plan experiments, run them, observe what happens, and decide what to try next, closing the loop between reasoning and physical action . **Instead of building a new machine for every task, we're building generalist robot scientists that can take on whatever comes next**, and improve with every experiment. We’re firm believers in the Bitter Lesson, and we believe general purpose robots are the pathway to scaling scientific discovery.\n\n**What we've built so far**\n\n\\- We designed and built our first robot in less than 3 weeks and took it to an early client's wet lab (They gave it a skull with goggles. We approve.) \n\n![uploaded image](/media/?type=post&id=125694&key=user_uploads/2759626/82db9ca3-e7f1-421d-99d6-22b8cc3e57db)\n\n\\- We opened our own lab in Mountain View, where we're working with a second client to synthesize and test heat-resistant polymer coatings proposed by AI models.\n\n\\- A few weeks earlier, we ran our very first experiments from a makeshift materials lab in our Airbnb, in our pajamas :)\\\n\\\n**What comes next**: \\*\\*Scientific Data Centers!\\*\\*\\\nCompute became a utility once data centers let anyone use a server through an API. We think experimentation is next. We imagine **data-center-sized laboratories full of general-purpose robot scientists**, where anyone can call up a physical experiment as easily as a cloud GPU, and run it at a scale no human lab could match.\\\n\\\n**Team**\n\nWe are three Brown PhDs who have spent years building the core pieces: robots that act reliably in the real world, AI that does real science, and hands-on experimental physics. \n\n* [**Owen Tower**](https://linkedin.com/in/owen-tower-phd-270630133) **(PhD, Experimental Physics, Brown):** Studied topological phase transitions under Nobel Laureate Mike Kosterlitz, developing new algorithms and nanofluidic experiments for random-field Ising models. Ex **NASA JPL**, **CERN**.\n* [**Cooper Niu**](https://www.linkedin.com/in/cooper-niu) **(PhD, Theoretical Physics, Brown):** Created **ALBERT**, an AI particle physicist that **recovered the top quark's mass and properties from pre-1990 data in under an hour**. Ex **Fermilab**, **CERN**.\n* [**Benedict Quartey**](https://www.linkedin.com/in/benedictquartey) **(PhD, Robotics, Brown):** Pioneer in **generally capable yet verifiable robot autonomy**. Created **LIMP** (ICRA 2025) one of the first systems that enabled robots to follow open-ended instructions with guarantees in the real-world. Ex **Boston Dynamics Robotics &amp; AI Institute**.\n\n\\\n**Our ask**\\\nIf you lead R&amp;D in **biotech, chemistry, materials, semiconductors** and want to run more experiments, faster, we'd love to put a robot scientist in your lab or run your experiments in ours. If you need high quality experimental data for scientific foundation models we would love to chat.\\\n\\\nHow to get in touch:\\\n 📩[ founders@primordiant.com](mailto:founders@primordiant.com)",
+      "url": "https://www.ycombinator.com/launches/WhK-primordiant-programmable-access-to-flexible-scientific-experimentation-at-scale",
+      "votes": 10,
+      "created_at": "2026-11-03T19:00:00.293Z"
+    }
+  ]
+}

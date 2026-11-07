@@ -1,0 +1,83 @@
+{
+  "id": 35223,
+  "name": "OpenLake Technologies",
+  "slug": "openlake-technologies",
+  "former_names": [],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/b1d7d1c63b80a9929499e7b55e2263eaf7cb1a4f.png",
+  "website": "https://openlakehq.com",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "Own your Intelligence. OpenLake is a real time inference platform which improves your model quality in real time. Plug in your datasets, RL environments and conversations. Get the intelligence your company deserves without needing an AI research lab. \r\n\r\nPick an open model like Kimi K3 or GLM 5.3 and deploy it in one click. OpenLake keeps your model upto date with real time data sources, so the model you run tomorrow is more accurate than the last. ",
+  "one_liner": "OpenLake deploys, trains, and serves models that update in real time.",
+  "team_size": 2,
+  "industry": "B2B",
+  "subindustry": "B2B",
+  "launched_at": 1793817363,
+  "tags": [
+    "Generative AI",
+    "SaaS",
+    "Big Data",
+    "Infrastructure"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Fall 2026",
+  "status": "Active",
+  "industries": [
+    "B2B"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "partners": "Pete",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/openlake-technologies",
+  "api": "https://devasheeshg.github.io/yc-api/batches/fall-2026/openlake-technologies.json",
+  "year_founded": 2026,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/openlake-technologies",
+  "x_url": "",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/b1d7d1c63b80a9929499e7b55e2263eaf7cb1a4f.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Pete Koomen",
+    "url": "https://www.ycombinator.com/people/pete-koomen"
+  },
+  "founders": [
+    {
+      "user_id": 1781887,
+      "full_name": "Arnav Balyan",
+      "title": "Founder/CEO",
+      "founder_bio": "Founder at OpenLake Technologies (YC F26). Previously Sr. Software Engineer at Uber leading efficiency initiatives for distributed infrastructure. Previously research on autoregressive models at MIT. PMC member and committer Apache Livy and committer Apache Gluten and Paimon.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/arnavbalyan/",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/a8eb051502a6e7c083a03476f56ad25a953ecd2d.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 126417,
+      "title": "OpenLake: Fast inference for self improving models",
+      "tagline": "OpenLake lets companies deploy, train, and serve models that keep improving.",
+      "body": "**TL;DR: Today we are introducing OpenLake, an inference platform that automatically post trains your models for you.**\n\nHi everyone! I’m [Arnav](https://www.linkedin.com/in/arnavbalyan/), excited to share [OpenLake](https://openlakehq.com/)!\n\n**The Problem:**\\\nFoundation models are trained on the public world. What makes your company different, its data, its people, its customers' problems, is never seen by frontier models. Bringing that knowledge into a model has meant building an AI research lab. Compute, training infrastructure, evaluation, and a team to run all of it.\\\n\\\nThis work does not end here. New user conversations constantly flow in and require constant data preparation, training, evaluation and deployment. OpenLake removes that cycle.\\\n\\\n**How it works:**\\\nChoose an open model such as DeepSeek V4 or GLM 5.3 and deploy it on OpenLake. Plug in your datasets, RL environments and data sources. OpenLake post trains the model continuously as new data arrives and serves the improved model in place. A/B test every new version against previous versions.\\\n\\\n**What you get:**\\\nTrained model checkpoints belong to you, ready to export and download. Better performance on the tasks you care about, not on public benchmarks. On average, OpenLake models cut serving costs in half.\\\n\\\n**Why we built it:**\\\nI'm Arnav, I built core infrastructure behind Uber’s data and AI systems, powering products used by millions of people. We soon realized models are usually not a problem, keeping them up to date efficiently is. Closing this gap should not require every company to build an AI research lab. So we built the platform that does it for them.\\\n\\\n**Bring your inference to OpenLake**\n\nOpenLake is available today at [openlakehq.com](http://openlakehq.com). [Book a call](https://openlakehq.com/new-meeting) to reduce inference bills and improve model quality for your workloads. Teams running models in production can reach us at [arnav@openlakehq.com](mailto:arnav@openlakehq.com).\n\n<https://www.youtube.com/watch?v=tQvVAS5eXk8>\\\n**Own your intelligence.**",
+      "url": "https://www.ycombinator.com/launches/Wsz-openlake-fast-inference-for-self-improving-models",
+      "votes": 51,
+      "created_at": "2026-11-05T00:00:00.102Z"
+    }
+  ]
+}

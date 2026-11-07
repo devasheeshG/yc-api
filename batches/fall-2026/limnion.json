@@ -1,0 +1,85 @@
+{
+  "id": 33243,
+  "name": "Limnion",
+  "slug": "limnion",
+  "former_names": [],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/717af69f91680aebaf844c3d21687d8e728c80c2.png",
+  "website": "https://limnion.ai",
+  "all_locations": "Seattle, WA, USA; Remote",
+  "long_description": "Limnion is building an open-standards telemetry storage platform for observability at scale, including agentic workflows. Siglake is the open-source project that sits at the heart of it, designed around OTel, Parquet, and Iceberg. No proprietary storage, no vendor lock-in.",
+  "one_liner": "Telemetry storage for the agentic era.",
+  "team_size": 3,
+  "industry": "B2B",
+  "subindustry": "B2B -> Infrastructure",
+  "launched_at": 1793384261,
+  "tags": [
+    "Open Source",
+    "Infrastructure",
+    "Databases"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Fall 2026",
+  "status": "Active",
+  "industries": [
+    "B2B",
+    "Infrastructure"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada",
+    "Remote",
+    "Fully Remote"
+  ],
+  "stage": "Early",
+  "partners": "Andrew",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/limnion",
+  "api": "https://devasheeshg.github.io/yc-api/batches/fall-2026/limnion.json",
+  "year_founded": 2026,
+  "city": "Seattle",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/limnion",
+  "x_url": "",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/717af69f91680aebaf844c3d21687d8e728c80c2.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Andrew Miklas",
+    "url": "https://www.ycombinator.com/people/andrew-miklas"
+  },
+  "founders": [
+    {
+      "user_id": 57320,
+      "full_name": "Todd Persen",
+      "title": "Founder",
+      "founder_bio": "Founder/CEO of Limnion. Previously Co-founder/CEO of Era Software (acq ServiceNow) and Co-founder/CTO of InfluxData (YC W13).",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/toddpersen",
+      "x_url": "https://twitter.com/toddpersen",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/2102e09e3c169b8ebb85c798d8614930680ef7f7.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 125687,
+      "title": "Limnion: Telemetry storage built for the agentic era",
+      "tagline": "The open foundation for building agent-first observability.",
+      "body": "**Modern observability is dying.**\n\n<https://youtu.be/eE0DmtIGSsw>\n\nLimnion is building telemetry storage for the agentic era. Our open-source foundation, Siglake, stores your logs and traces in open formats in your own cloud storage, so your AI agents can query them directly with SQL. No vendor lock-in, no proprietary API in the way. Here’s why I think this is what observability needs.\n\nGone are the days of humans building dashboards by hand, scrubbing through log lines, and manually tuning alert thresholds. Agents are becoming the primary consumers of telemetry — and when you actually need to look at a dashboard, an agent can create one on the fly. My prediction: 90% of human-centric observability work disappears within two years.\n\nObservability isn’t becoming less valuable — it’s more valuable than ever. What’s changing is who it’s for. The tooling we have today was built for one job: making vast amounts of data understandable to humans. Once humans are no longer the primary consumers, the entire paradigm changes.\n\nTraditional observability won’t disappear, but will instead shrink into something much narrower: a thin governance layer. Humans will still watch the handful of genuinely critical systems and keep an eye on the agentic layer itself to make sure it’s doing its job. Someone has to watch the watchers. Everything else migrates to agent-native platforms.\n\nThe stakes are big. Gartner expects observability platforms to be a \\~$14B market by 2028 — Datadog alone is guiding to \\~$4.5B in revenue this year — and 44% of Gartner clients already spend more than $1M a year on observability. My bet is that most of that value migrates to the agentic layer, leaving legacy observability as a governance market that’s a fraction of its current size.\n\nThat migration is the opportunity — and today’s vendors are on the wrong side of it. Observability vendors, by and large, extract enormous sums for walled gardens that were never built for agentic consumption. They are not — and never will be — incentivized to give your agents wide-open access to the underlying data. Their business model depends on keeping it locked in.\n\nThe agentic era needs the opposite: telemetry storage that’s open by design and built for agents first. That’s Siglake.\n\nSiglake stores telemetry in purely open formats — Parquet, Iceberg, Arrow — and makes it queryable with SQL by default. Your data lives in your own object storage, readable by Siglake, any Iceberg engine, or your agents directly. Pull it into DuckDB, feed it into a Spark pipeline, or consume a live Arrow stream to drive custom anomaly detection that feeds your agents for proactive monitoring.\n\n![uploaded image](/media/?type=post&id=125687&key=user_uploads/57320/9965b1ba-0608-4672-b5de-8ee004bdf5cb)\n\nCompanies are already weighing their observability spend against competing AI budgets and realizing that an open, agent-native backend compounds their AI investment instead of competing with it. Siglake is Apache 2.0, and it will stay that way — the open core of the platform we’re building at Limnion.\n\nI’ve spent \\~15 years in this space. I co-founded InfluxData (YC W13) and Era Software (acquired by ServiceNow), built observability products for Cloud Foundry at Pivotal, and served as CTO of Hydrolix. I’ve watched this same pattern repeat at company after company — it’s why I’m building Limnion and making Siglake open-source.\n\nIf you’re rethinking your observability stack for the agentic era — or you just want to argue with the thesis — I’d love to talk. Siglake is on [GitHub](https://github.com/siglake/siglake), and you can reach me anytime at [todd@limnion.ai](mailto:todd@limnion.ai).",
+      "url": "https://www.ycombinator.com/launches/WhD-limnion-telemetry-storage-built-for-the-agentic-era",
+      "votes": 4,
+      "created_at": "2026-11-05T16:00:00.187Z"
+    }
+  ]
+}

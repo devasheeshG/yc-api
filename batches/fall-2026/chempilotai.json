@@ -1,0 +1,105 @@
+{
+  "id": 34696,
+  "name": "ChemPilot.ai",
+  "slug": "chempilotai",
+  "former_names": [],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/4c3f8543148c3a53ebe369d21ece622228018917.png",
+  "website": "https://chempilot.ai/",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "ChemPilot accelerates the discovery and development of next generation defense materials using AI and data from our automated wet lab. Developing a new material today takes 10+ years of trial and error. We compress that to months by screening for what can actually be made, then closing the loop: every lab result feeds back into the models so the next round is faster and smarter.\r\n\r\nSam, Ofir and Maor spent two years researching these materials at the Technion lab of our CSO, Prof. Alon Grinberg Dana (former MIT postdoc), working directly with defense primes and government R&D agencies. Together we bring chemical engineering, computational chemistry and AI, plus the production systems to put them to work. ChemPilot spun out of that research.\r\n\r\nThe West’s defense and dual-use industrial base runs on materials with fragile, sole-source and often adversarial supply chains. Demand for new capability is surging, and materials still take decades to develop. We’re building a new kind of chemical prime: one that can discover, develop and ultimately manufacture the materials the West needs, securely, fast and at cost.",
+  "one_liner": "Discover novel defense related materials/molecules.",
+  "team_size": 3,
+  "industry": "Industrials",
+  "subindustry": "Industrials -> Defense",
+  "launched_at": 1791753586,
+  "tags": [
+    "Robotics",
+    "Workflow Automation",
+    "Aerospace",
+    "Advanced Materials",
+    "Defense"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Fall 2026",
+  "status": "Active",
+  "industries": [
+    "Industrials",
+    "Defense"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "partners": "Aaron",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/chempilotai",
+  "api": "https://devasheeshg.github.io/yc-api/batches/fall-2026/chempilotai.json",
+  "year_founded": 2026,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "",
+  "x_url": "",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/4c3f8543148c3a53ebe369d21ece622228018917.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Aaron Epstein",
+    "url": "https://www.ycombinator.com/people/aaron-epstein"
+  },
+  "founders": [
+    {
+      "user_id": 4000868,
+      "full_name": "Sam Cogan",
+      "title": "Founder/CEO",
+      "founder_bio": "Founder at ChemPilot.ai. MSc in Biochemical Engineering from Technion. Love competing, both in business and in any sport.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/sam-cogan-16435916b/",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/52cee213d8d6c3ed123701998ac0813c86155160.jpg"
+    },
+    {
+      "user_id": 4006886,
+      "full_name": "Maor Goldman",
+      "title": "Founder",
+      "founder_bio": "Founder at ChemPilot.ai | Ethical Hacker | BS Computer Engineering from Technion | Served in 8200 ",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/maor-goldman-03b43a119/",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/cfb6b71947255e63c3da4ad31df3bcdb630bad8a.jpg"
+    },
+    {
+      "user_id": 4003220,
+      "full_name": "Ofir Simhi",
+      "title": "Founder/CTO",
+      "founder_bio": "Founder and CTO at ChemPilot.ai. Previously a full-stack developer, one of the first developers in an acquired startup (Skiff, acquired by Notion), and a main developer in another acquired startup (StoreMaven, acquired by Zynga). \nBSc. in Biochemical Engineering.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/ofir-simhi-b8098a196/",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/a3d87d13345612a8a48e34155eb8d933ed91977a.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 125701,
+      "title": "ChemPilot: Building an autonomous lab to discover the next generation of defense materials",
+      "tagline": "Building a new chemical company for the critical materials the West needs",
+      "body": "Hey everyone, we’re Sam, Ofir and Maor, founders of ChemPilot (YC F26).\n\nWe are building a new kind of chemical prime: one that can autonomously discover, develop and ultimately manufacture the critical chemicals and materials the West needs. \n\nChemPilot grew out of two and a half years of academic research by Sam and Ofir in the Technion lab of our CSO, Prof. Alon Grinberg Dana. During that research, we collaborated with a top defense prime and government R&amp;D agencies to discover critical chemicals and materials using AI. We saw how urgently better materials were needed, and how slowly they were being developed.\n\nOur models needed experimental data to predict what would work. That data was locked inside companies or had never been collected. Generating new data and testing candidates through defense primes and outsourced labs was too slow to support the pace of development we needed. We needed our own ability to generate high-quality experimental data at scale. That’s why we’re building an autonomous lab!\n\nMaor joined the research effort a year ago, bringing his background in computer science and electrical engineering. Together, we began building the models, software and automation that would become ChemPilot.\n\n<https://youtu.be/q5YMnXcxaIY?si=FkYf1ep25-kvI6vB>\n\nOur AI agents research the chemistry, design new molecules and optimize formulations using predictive models and physics-based simulation, then build experimental protocols. Our lab makes and tests the candidates. Every result, failures included, feeds back into our models and informs the next experiment.\n\nOur first lab is already running experiments, with robots working alongside our scientists. We’re automating it step by step toward full autonomy: AI deciding what to make next, and robots running experiments around the clock to produce consistent, traceable data at a scale we couldn’t imagine achieving manually.\n\nWe’re starting with polymers, coatings, resins and composites. Each program builds data and capabilities that help us develop the next product, growing a portfolio of high-performance materials on one platform. Our work on energetic materials and propellants is currently partnership-led, with plans to bring those capabilities into our own lab next.\n\nOur future should be determined by how quickly we can invent and build, not what others are willing to supply.\n\nOur asks:\n\n* R&amp;D and materials leaders at defense, aerospace or chemical companies: tell us the material you wish existed or optimized.\n* Robotics and lab-automation builders: if you’ve built autonomous labs or robotic systems for chemistry and materials, we’d love to talk.\n\nReach us at [sam@chempilot.ai](mailto:sam@chempilot.ai).",
+      "url": "https://www.ycombinator.com/launches/WhR-chempilot-building-an-autonomous-lab-to-discover-the-next-generation-of-defense-materials",
+      "votes": 5,
+      "created_at": "2026-11-03T16:30:00.131Z"
+    }
+  ]
+}

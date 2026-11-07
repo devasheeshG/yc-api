@@ -1,0 +1,90 @@
+{
+  "id": 35095,
+  "name": "Taan.ai",
+  "slug": "taanai",
+  "former_names": [],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/e81be68dcd0ecbbf3a0f1bdcbf4488f4e6bdcc21.png",
+  "website": "https://taan.ai/",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "Taan builds foundation music models that do what you tell them to, when you tell them to. We're starting with music for video. Give Taan a video and it watches it, then composes an original score that follows the emotion and timing of every cut. If the scene is tense for 10 seconds and then turns happy, the music changes at that exact moment. You get back a fully mixed .mp4. Agents and apps call Taan through our API, so any video tool can add scored, synced music with one call. \r\n\r\nToday's music models can make catchy tracks, but you can't steer them. Ask for \"violin at exactly the 11th second\" and they usually skip it. We trained Taan from the ground up for control. \r\n\r\nWe measured Taan on prompt adherence and instruction success. And against every leading model we tested, Taan was at least 4x better.  \r\n\r\nWe work with teams building video agents, ad and creative tools, micro-dramas and games. We're musicians and ML researchers. Adithya (CEO) comes from eight generations of Indian classical musicians, tours as a metal guitarist, has done music ML research since 2023, and has filed two patents on music generation architectures. Devansh (CTO) did signal-processing research at IIT Kanpur and was previously an ML engineer at American Express.",
+  "one_liner": "the most precise & controllable foundation music models ",
+  "team_size": 0,
+  "industry": "B2B",
+  "subindustry": "B2B",
+  "launched_at": 1793427352,
+  "tags": [
+    "Generative AI"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Fall 2026",
+  "status": "Active",
+  "industries": [
+    "B2B"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "partners": "Aaron",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/taanai",
+  "api": "https://devasheeshg.github.io/yc-api/batches/fall-2026/taanai.json",
+  "year_founded": 2026,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "",
+  "x_url": "https://x.com/taan_ai",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/e81be68dcd0ecbbf3a0f1bdcbf4488f4e6bdcc21.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Aaron Epstein",
+    "url": "https://www.ycombinator.com/people/aaron-epstein"
+  },
+  "founders": [
+    {
+      "user_id": 2396279,
+      "full_name": "Adithya Rohith",
+      "title": "Founder/CEO",
+      "founder_bio": "Touring rock/metal musician, from a lineage of Indian classical musicians (8th generation). 2 patents + 1 paper in music ML. \n\nCo-founder & CEO @ Taan.ai",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/adithya-ai-music/",
+      "x_url": "https://x.com/mp3addi",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/3e9777366fad552d81100483b0997fbb723b1dfb.jpg"
+    },
+    {
+      "user_id": 2233316,
+      "full_name": "Devansh Gupta",
+      "title": "Founder/CTO",
+      "founder_bio": "Founder at Taan.ai. Previously ML Engineer Intern at American Express, where he built early default risk prediction models using XGBoost and active learning. Studying Data Science at IIT Kanpur.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/devansh-gupta-158809252/",
+      "x_url": "https://x.com/Devvgupta44",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/26fe4fa7a4d8b0099e0e7b2c47705609c48bf1b1.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 125938,
+      "title": "Taan AI: The most controllable foundation music model",
+      "tagline": "Foundation music models that do what you tell them to, when you tell them to.",
+      "body": "**TL;DR:** Taan is a foundation music model built for control and multimodal inputs. Hum a melody, name exact notes, or give it an image, a MIDI file, a video, or a script, and Taan creates music fit perfectly to your context and timing. Apps and agents can use it with one API call.\n\nVIDEO:[ https://youtu.be/-pt7OGoNZ7g](https://youtu.be/-pt7OGoNZ7g)\n\n**The problem**\n\nToday's music models can make catchy tracks, but you can't steer them. Ask to \"bring in the violin at exactly the 11th second \" expecting the music to exactly fit your video and they usually skip it. You end up regenerating over and over and hoping one take fits. That's fine for a background playlist, but not when you have a specific idea in your head or a video that needs music to change at an exact moment.\\\n\\\n **What Taan does**\n\n* Anything is the prompt. Taan can process any multimodal input to make the right music for its context. \n* Ideal for music in video. Taan can watch your video, finds the cuts and the mood, and composes a score that fits in one shot.\n* Direct it in plain English, or don't. \"Make the first 8 seconds tense, pause for 2 seconds, then turn uplifting.\" Or send no instructions and let Taan decide from your input.\n* Granular control and edits. \"Make the violin happier and start it 3 seconds earlier.\" Taan changes just that part and keeps the rest of the track.\n* Yours to use. Every track is original, comes with downloadable stems, and is trained on 100% licensed music.\n* Built for agents. Video tools and agents call Taan through our API and MCP and get synced, mixed music back.\n\n**Taan v1-preview is tuned for orchestral and cinematic music today, with more genres on the way.**\n\n**The benchmarks**\\\nWe gave leading music models 250 timing prompts, like \"introduce the violin at exactly the 11th second\" or \"bring in the drums after 5 seconds, then pause for 2 seconds at the 10th second.\" Every model was scored with the same detectors and the same tolerance:\n\n* Instruction success: Taan 80.1%, ElevenLabs 28.9%, Google Lyria 23.9%, Suno 22.0%\n* Timed events landing within ±500ms: Taan 73.2%, ElevenLabs 12.8%, Google Lyria 8.6%, Suno 6.8%\n* Instructed events left out entirely: Taan 0%. The other models mostly skip the event instead of placing it.\n\nFull results:[ https://taan.ai/research/control-benchmarks/](https://taan.ai/research/control-benchmarks/)\n\n**The team**\\\n We're musicians and ML researchers.\n\n* Adithya (CEO): comes from eight generations of Indian classical musicians and has toured as a metal guitarist. He has done music ML research since 2023 and has filed two patents on music generation architectures.\n* Devansh (CTO): Stats/DS major and signal-processing research at IIT Kanpur, previously an ML engineer at American Express.\n\n**Our ask**\n\n* Try it: make your own track at[ ](http://app.taan.ai/)[app.taan.ai](http://app.taan.ai). Input anything and see what comes back or make music for a video you’re currently editing \n* Building a DAW, creator tool, video agent, ad tool, micro-drama app or game? We'd love to talk. Email [founders@taan.ai](mailto:founders@taan.ai).\n* Got a video that needs a score? Send it over and we'll make the music for free.",
+      "url": "https://www.ycombinator.com/launches/WlG-taan-ai-the-most-controllable-foundation-music-model",
+      "votes": 26,
+      "created_at": "2026-11-05T17:00:00.224Z"
+    }
+  ]
+}
