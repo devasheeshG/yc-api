@@ -1,0 +1,88 @@
+{
+  "id": 36776,
+  "name": "UXDuck",
+  "slug": "uxduck",
+  "former_names": [
+    "uxduck"
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/fe3dd63fd9bab004c38089f8c0ed95063c64bb18.png",
+  "website": "https://uxduck.com",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "Starting with a modern interface for drones that users can build on and adapt. \r\n\r\nWorks with planes, copters, rovers, boats and submarines.\r\n\r\nTry it in 5 seconds with simulated drones - https://uxduck.com/",
+  "one_liner": "Build better drones. Run better missions.",
+  "team_size": 1,
+  "industry": "Industrials",
+  "subindustry": "Industrials -> Drones",
+  "launched_at": 1791414783,
+  "tags": [
+    "Developer Tools",
+    "Hardware",
+    "AI"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Fall 2026",
+  "status": "Active",
+  "industries": [
+    "Industrials",
+    "Drones"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "partners": "Nicolas",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/uxduck",
+  "api": "https://devasheeshg.github.io/yc-api/batches/fall-2026/uxduck.json",
+  "year_founded": 2026,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/uxduck",
+  "x_url": "https://x.com/uxduckhq",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": "https://github.com/uxduckhq",
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/fe3dd63fd9bab004c38089f8c0ed95063c64bb18.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [
+    "https://bookface-images.s3.us-west-2.amazonaws.com/attachments/2613251451b22c97eb8941369c1714c38afeb86b.png",
+    "https://bookface-images.s3.us-west-2.amazonaws.com/attachments/1f456c834733deafa0c3f7796b69e274cfbd76e4.png"
+  ],
+  "primary_partner": {
+    "name": "Nicolas Dessaigne",
+    "url": "https://www.ycombinator.com/people/nicolas-dessaigne"
+  },
+  "founders": [
+    {
+      "user_id": 358054,
+      "full_name": "Ben Butterworth",
+      "title": "Founder/CEO",
+      "founder_bio": "12th employee at Helsing ($18B AI defence company) - built C2 and edge AI applications. Then became tech lead at stealth defense startup, joining as SWE #1. Scaled company to 70 people and 1000+ drones, used operationally with success. Works closely with soldiers from various countries. CS from Imperial College London and MIT.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/bbutterworth/",
+      "x_url": "https://x.com/uxduck",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/ae2d6893cdf098bf4b2e43735ba0fe47d30fde4a.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 127423,
+      "title": "UXDuck - the AI-native software for the next billion drones",
+      "tagline": "Open-source software to simulate and orchestrate fleets of drones, rovers and other custom hardware.",
+      "body": "UXDuck is AI-native software for teams building and operating custom drones, from planes to submarines. Fly a simulator in your browser in 5 seconds at [uxduck.com](http://uxduck.com), then download the app to connect your own vehicles.\n\n![uploaded image](/media/?type=post&id=127423&key=user_uploads/358054/0bbdf5f8-0b21-4415-8e1a-8cf263bd34e7)\n\nDrone production in Ukraine has increased 1000x in 4 years and is [projected to double again, to 20 million a year](https://www.kyivpost.com/post/80328). The rest of the world is only just catching up, for defense and civilian use. Yet most teams still fly them with Mission Planner, QGroundControl or half-baked internal tools that don't move fast enough.\n\n<https://youtu.be/uuqWIZNMrN0>\n\n### What is UXDuck\n\n**With UXDuck, you can:**\n\n* Debug and configure your drone with UXDuck AI, or your own agent via MCP.\n* Run simulations and practice in your browser without installing anything.\n* Connect your vehicles, including several at once, and see their parameters, telemetry, messages and camera feeds in one app.\n* Plan missions with waypoints and fences, for data collection, surveillance or cargo delivery.\n* Use custom firmware: bring your own simulator build, MAVLink messages and parameter descriptions.\n\n[UXDuck Core is open source](https://github.com/uxduckhq/uxduck-core). You can build on it rather than start again with the connections, parameters, telemetry and MCP.\n\nUXDuck has clocked **more than 500 hours of simulated flights**, excluding testing and development.\n\n![uploaded image](/media/?type=post&id=127423&key=user_uploads/358054/3142a8b3-d990-4cce-9cf2-57c364a52dc1)\n\n### Why I built UXDuck\n\nI was the **12th UK employee (January 2022) at Helsing, an $18B defense company**, and then the first software engineer on a drone program that scaled from 0 to 1000s of drones **and hundreds of millions of dollars in revenue**.\n\nI integrated hardware (IMUs, GNSS, thermal and optical cameras and more) and software and noticed repetitive integration work that was duplicated for every drone. Hardware would have quirks and bugs, incorrectly following standards, resulting in performance or quality issues that only get discovered mid-air or in hostile conditions.\n\nTeams building specialized hardware all repeat the same work: integrating sensors, testing changes, preparing missions, monitoring flights and working out what happened afterwards. UXDuck lets them focus on what's different, like fulfillment, routing, redundancy or taking off and landing from a vessel.\n\nI'm building the software I wish we had when building and operating drones.\n\n### Dogfooding on real hardware\n\nNo one drone fits every mission, and no company can build them all. We've already remotely controlled a rover across countries, so UXDuck develops and tests on real vehicles, not just simulation.\n\nUXDuck will be the standard software for the next billion drones, connecting sensors, radios, frames and ground station hardware.\n\n**Building or operating custom drones? Email [hello@uxduck.com](mailto:hello@uxduck.com) or [book a call](https://cal.com/team/uxduck).**",
+      "url": "https://www.ycombinator.com/launches/X9D-uxduck-the-ai-native-software-for-the-next-billion-drones",
+      "votes": 51,
+      "created_at": "2026-11-11T15:00:00.154Z"
+    }
+  ]
+}

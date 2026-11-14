@@ -1,0 +1,97 @@
+{
+  "id": 36348,
+  "name": "antimattr",
+  "slug": "antimattr",
+  "former_names": [],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/3266646a9815f7e3ed31c088c4008df6e8fb0101.png",
+  "website": "https://www.antimattr.one/project-mnemosyne",
+  "all_locations": "San Francisco, CA, USA; Remote",
+  "long_description": "antimattr is building the hardware interface for human–agent interaction: an AI wearable system made up of a smart ring and voice-isolating earbuds.\r\n\r\nVoice is the fastest way to instruct an AI agent, but most people won’t use it in public because it’s noisy and unreliable. We think voice AI adoption is held back by hardware, not by model quality.\r\n\r\nThe earbuds use our proprietary voice isolation to capture your voice clearly anywhere, whether that’s a loud pub, a factory floor or a busy street. That means clear calls and dictation/transcription you can trust.\r\n\r\nThe ring is a discreet way to control your agents. Tap to capture a thought, trigger a workflow, or record/summarise a conversation into a searchable personal memory.",
+  "one_liner": "voice-first hardware interface for human-agent interaction",
+  "team_size": 2,
+  "industry": "Consumer",
+  "subindustry": "Consumer -> Consumer Electronics",
+  "launched_at": 1786922449,
+  "tags": [
+    "Hard Tech",
+    "Hardware",
+    "Consumer",
+    "AI",
+    "AI Assistant"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Fall 2026",
+  "status": "Active",
+  "industries": [
+    "Consumer",
+    "Consumer Electronics"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada",
+    "Remote",
+    "Fully Remote"
+  ],
+  "stage": "Early",
+  "partners": "Nicolas",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/antimattr",
+  "api": "https://devasheeshg.github.io/yc-api/batches/fall-2026/antimattr.json",
+  "year_founded": 2025,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/antimattr",
+  "x_url": "https://x.com/antimattr_one",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/3266646a9815f7e3ed31c088c4008df6e8fb0101.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Nicolas Dessaigne",
+    "url": "https://www.ycombinator.com/people/nicolas-dessaigne"
+  },
+  "founders": [
+    {
+      "user_id": 3579391,
+      "full_name": "Sridipto Ghosh",
+      "title": "Founder/CEO",
+      "founder_bio": "Founder at antimattr (YC F26). Previously co-founder/CEO at Snipe, scaled $250k revenue in 15 months. IIT (BHU) grad.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/sridiptoghosh/",
+      "x_url": "https://x.com/sridipto_ghosh",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/ef946f5d0ea3fd89a9a53227943f1adbbf065e8a.jpg"
+    },
+    {
+      "user_id": 3675155,
+      "full_name": "Sirsho C",
+      "title": "Founder/CTO",
+      "founder_bio": "co-founder and CTO at antimattr (YC F26).\npreviously co-founder & CTO at Snipe, bootstrapped to $250K ARR in 15 months.\nCS grad, KIIT '23.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/sirsho29",
+      "x_url": "https://x.com/sirsho29",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/f16ad0222ac433c63083d645d565f1889d16be58.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 128645,
+      "title": "antimattr - voice-first hardware interface for human-agent interaction",
+      "tagline": "earbuds that only hear your voice, and a ring that controls your AI",
+      "body": "**TLDR**; We are building a voice-first hardware interface to interact with your agents: earbuds that isolate your voice from the noise around you and a ring that controls your agents. We have already sold our first batch of hardware and have 2,000+ pre-orders.\n\n<https://youtu.be/3ff3iUaQm0E>\n\n**\\[problem\\]**\n\nFor the last year, while building with voice AI, we kept running into something strange. Voice models work perfectly at home, in a quiet room with no noise. But the moment you step outside, they fall apart. The problem was the background noise. As a result, word error rates go as high as 30%, and the transcription ends up being wrong. Voice models are good enough - the bottleneck is the noise around in real-life environments.\n\n**\\[what we are building\\]**\n\nWe are building a voice-first hardware interface to interact with your agents: earbuds that isolate your voice from the noise around you and a ring that controls your agents.\n\n* The earphones use proprietary voice isolation to filter out close to 90 dB of background noise and reduce word error rate from 30% \\[AirPods\\] to &lt;5%. So, you can take a clear call from a loud pub, dictate with real accuracy, or even transcribe your calls.\n* The ring acts as the perfect controller, allowing you to see and trigger your agents and see what they are up to, right at your fingertips.\n* Together, this is the hardware interface for voice.\n\n![uploaded image](/media/?type=post&id=128645&key=user_uploads/3579391/c7b01141-d325-41af-99ee-996a898001d3)\n\n**\\[our story\\]**\n\nWe spent a year building with voice AI there and kept running into the same problem. Voice models work well in quiet rooms but struggle in real-world environments. Background noise can push word error rates above 30%, and as high as 34% on AirPods. We came to believe the models are good enough and the bottleneck is the audio coming in.\n\nEarly on, so in January and February, we focused on customer conversations to understand the problem better. Our first prototype paired earbuds with a camera. Users didn't find the camera useful, but they valued the voice isolation, so we focused the product there. Feedback from these users led to the ring. Some wanted an easier way to see what their agents were doing, get notified when one was stuck, and talk to it quickly.\n\nIn April, we went to China and met nearly 150 manufacturers before finding partners willing to build with us. Our first batch shipped in June and sold out. We got an interview for the YC summer batch in June but didn’t make it.\n\nIn July, we moved to the US with less than 3 months’ runway left, and we're now part of Y Combinator's Fall 2026 batch.\n\n**\\[team\\]**\n\n* Sridipto studied metallurgical/manufacturing engineering from IIT-BHU.\n* Sirsho studied CS/AI and has built autonomous cars and robots.\n* They together built a bootstrapped company to $250k revenue in a year and sold to Fortune 500s, including Mars, Fertin Pharma, etc. They served close to 10m+ users.\n\n**\\[our ask\\]**\n\n* If you are someone who runs a lot of agents, we would love to speak to you.\n* Reserve yours at <https://www.antimattr.one/project-mnemosyne>\n* Reach us at [founders@antimattr.one](mailto:founders@antimattr.one)",
+      "url": "https://www.ycombinator.com/launches/XSv-antimattr-voice-first-hardware-interface-for-human-agent-interaction",
+      "votes": 18,
+      "created_at": "2026-11-13T15:00:00.182Z"
+    }
+  ]
+}

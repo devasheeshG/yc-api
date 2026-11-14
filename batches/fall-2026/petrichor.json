@@ -1,0 +1,104 @@
+{
+  "id": 34794,
+  "name": "Petrichor",
+  "slug": "petrichor",
+  "former_names": [
+    "Qokedas",
+    "Petrichor Bio"
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/fdb7aea2b5558307f53190af023d8e6a2c7ac3be.png",
+  "website": "https://petrichorbio.com/",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "Real biology requires a wet lab, and building one takes years and a team most AI companies don't have. Petrichor runs their experiments at scale and sends back the dense, clean data their models need to learn from.",
+  "one_liner": "Wet lab infrastructure that turns AI experiments into training data.",
+  "team_size": 3,
+  "industry": "B2B",
+  "subindustry": "B2B",
+  "launched_at": 1785795073,
+  "tags": [
+    "Deep Learning",
+    "AI"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Fall 2026",
+  "status": "Active",
+  "industries": [
+    "B2B"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "partners": "Grey",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/petrichor",
+  "api": "https://devasheeshg.github.io/yc-api/batches/fall-2026/petrichor.json",
+  "year_founded": 2026,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/qokedas",
+  "x_url": "https://x.com/qokedas",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/fdb7aea2b5558307f53190af023d8e6a2c7ac3be.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Grey Baker",
+    "url": "https://www.ycombinator.com/people/grey-baker"
+  },
+  "founders": [
+    {
+      "user_id": 3617571,
+      "full_name": "Wilhelm Hedenskog",
+      "title": "Founder/CEO",
+      "founder_bio": "19, CEO @ Petrichor Bio / Previously a YC Fellow",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/wilhelm-hedenskog",
+      "x_url": "https://x.com/wilhelmmlem",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/157a79378e0efe5f73cb698b47bf9df85e3db1e5.jpg"
+    },
+    {
+      "user_id": 3624555,
+      "full_name": "Jesper Johansson",
+      "title": "Founder",
+      "founder_bio": "Co-Founder @  Petrichor Bio, 19\n",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/jesper-johansson-783000419/",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/d40811bde6c49e10bd321d9693db53c7c61daebf.jpg"
+    },
+    {
+      "user_id": 3979219,
+      "full_name": "Elias Reinfeldt",
+      "title": "Founder",
+      "founder_bio": "Co-Founder @ Petrichor Bio, 19",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/elias-reinfeldt",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/384e4657f9e0135ec0345d48ba028bde5f1ac9e2.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 127853,
+      "title": "Petrichor - A wet lab for frontier AI labs",
+      "tagline": "We run the experiments that make AI models good at biology.",
+      "body": "Petrichor is a wet lab for frontier AI labs. They send us experiments, we run them in parallel and return the data from every step.\\\nHi everyone, I'm Wille, CEO of Petrichor (F26), building this with my cofounders Elias and Jesper.\n\n**Why**\\\nCode and math improved fast because a model can check its own answer. In biology the answer comes out of an experiment, so how many experiments get run sets the limit on how good models can get. We think biology is the most important field AI will touch and at the same time the most data constrained one.\n\n**What we're building**\\\nFrontier labs are all going after biology and need far more experiments than they can run themselves, so we run them. Models use the lab directly through our Python library, writing each experiment as a job and submitting it themselves. We capture as much data as we can from every run, so labs end up with the best possible training data for improving their models. Customers own all the data we produce for them, and we never share it or train on it. Every experiment is run by people on our team for safety reasons, and we'll only hand execution over to robots once we're sure that's safe.\n\n![uploaded image](/media/?type=post&id=127853&key=user_uploads/3617571/52f0801c-6b7f-4883-9d0b-921b58ac393c)\n\n_(Yes, we know that's not how you hold a pipette. Turns out AI can't hold one yet, not even in a picture, lol)_\n\n**Team**\n\nWe're three 19 year olds from Gothenburg, Sweden. We went to high school together and moved to the Bay Area for YC.\n\nIf you work on biology at an AI lab, email me at [wilhelm@petrichorbio.com](mailto:wilhelm@petrichorbio.com)",
+      "url": "https://www.ycombinator.com/launches/XG9-petrichor-a-wet-lab-for-frontier-ai-labs",
+      "votes": 3,
+      "created_at": "2026-11-10T23:00:00.152Z"
+    }
+  ]
+}

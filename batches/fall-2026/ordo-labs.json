@@ -1,0 +1,106 @@
+{
+  "id": 35421,
+  "name": "Ordo Labs",
+  "slug": "ordo-labs",
+  "former_names": [
+    "Ordo Labs Sweden AB"
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/5db3ba9e7d7bb9c75e6f53fd5737442d244c4f85.png",
+  "website": "https://ordolabs.ai/",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "Ordo lets regulated labs delegate analysis, quality checks and report drafting to AI agents. We turn each lab’s checking rules into workflows, with source-linked results for scientists to review and approve.\n\nWe have two paid pilots with labs in the US and Europe. Pilot results show 90%+ less time spent on post-analysis work.\n\nOur ambition is to make lab software perform more of the work scientists currently do manually, expanding across analytical methods, report types and sites.\n\nAgents do the work, scientists sign.",
+  "one_liner": "Regulated lab software, rebuilt around AI agents",
+  "team_size": 4,
+  "industry": "Healthcare",
+  "subindustry": "Healthcare -> Drug Discovery and Delivery",
+  "launched_at": 1794236148,
+  "tags": [
+    "Biotech",
+    "Compliance",
+    "Automation",
+    "AI"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Fall 2026",
+  "status": "Active",
+  "industries": [
+    "Healthcare",
+    "Drug Discovery and Delivery"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "partners": "Nicolas",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/ordo-labs",
+  "api": "https://devasheeshg.github.io/yc-api/batches/fall-2026/ordo-labs.json",
+  "year_founded": 2026,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/weareordo",
+  "x_url": "",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/5db3ba9e7d7bb9c75e6f53fd5737442d244c4f85.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Nicolas Dessaigne",
+    "url": "https://www.ycombinator.com/people/nicolas-dessaigne"
+  },
+  "founders": [
+    {
+      "user_id": 3352553,
+      "full_name": "Sebastian Apelgren",
+      "title": "Founder/CEO",
+      "founder_bio": "Co-founder & CEO at Ordo Labs. Former lead quantitative researcher at Handelsbanken, one of the largest Nordic banks. Studied Engineering Mathematics at KTH Royal Institute of Technology and quantitative finance at the National University of Singapore.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/sebastian-apelgren/",
+      "x_url": "https://x.com/SebApelgren",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/c09a074272b75aa9a317a849893380643980af9f.jpg"
+    },
+    {
+      "user_id": 1765148,
+      "full_name": "Kristina Hoang",
+      "title": "Founder/CPO",
+      "founder_bio": "Co-founder & CPO at Ordo Labs. Previously co-founded SecureTag, a pharma authentication platform piloted with Uganda's National Drug Authority to fight counterfeit medicine. She has spent years building software for regulated pharma workflows. MS in Industrial Engineering & Management and MS in Machine Learning from KTH.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/kristina-hoang/",
+      "x_url": "https://x.com/kristinahoang_",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/1177083ec0ed87990a4fe1a55d021c874c8d1af7.jpg"
+    },
+    {
+      "user_id": 3366294,
+      "full_name": "Adam Tovatt",
+      "title": "Founder/CTO",
+      "founder_bio": "Co-founder & CTO at Ordo Labs. Co-founded Sakur, a software consultancy serving YC companies and European fintechs. Previously lead backend engineer at Careless, an AI-first UK insurance broker. Backend engineer at Redeye as well as Tradera, the largest Nordic secondhand marketplace. Has shipped production systems across insurance, lending and debt management.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/adamtovatt",
+      "x_url": "https://x.com/adamtovatt",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/fac0bd9b00976f3edce4950a8b3fd7ccc04888dd.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 127291,
+      "title": "Ordo Labs: The AI-native OS for regulated labs",
+      "tagline": "We help the labs behind your medicines deliver study results 10x faster.",
+      "body": "Every medicine you've taken was tested in a regulated lab, where scientists still analyze data, check QC and write reports by hand. Ordo does that work for them. In **paid pilots in the US and Europe**, labs cut post-analysis time by **90%+**.\n\n<https://www.youtube.com/watch?v=yiwjgTE4gfs>\n\n**The problem** \n\nIn regulated labs, every result must be traceable, every system validated and every change approved by QA. Generic AI tools can't meet that bar, so scientists at CROs and CDMOs still do most of this work manually.\n\n**What Ordo does** \n\nOrdo brings lab data together, runs the analysis, checks results against each lab's own QC checklists, and drafts study reports with tables, figures and exact source references. Scientists and QA sign off on every result.\n\nCompliance is built in from the start. Each lab gets its own deployment built to be validated, every decision is recorded, and updates reach production only after the lab's QA approves them.\n\n**Where we're going** \n\nEvery new workflow runs on the same validated foundation. The more a lab validates on Ordo, the more Ordo can run on its own, until it handles most of the daily scientific work in regulated labs.\n\n**The team**\n\n**Sebastian** was lead quantitative researcher at Handelsbanken, one of the largest Nordic banks. **Kristina** co-founded SecureTag, a pharma authentication platform piloted with Uganda's National Drug Authority. **Adam** co-founded Sakur, a software consultancy for YC companies and European fintechs, and led backend engineering at Careless, an AI-first UK insurance broker.\n\nAdvised by lab executives and shaped by interviews with 100+ scientists.\n\n**Run a GxP-regulated lab? Email us at [founders@ordolabs.ai](mailto:founders@ordolabs.ai).** We'd love to show you Ordo.",
+      "url": "https://www.ycombinator.com/launches/X75-ordo-labs-the-ai-native-os-for-regulated-labs",
+      "votes": 7,
+      "created_at": "2026-11-09T15:30:00.090Z"
+    }
+  ]
+}

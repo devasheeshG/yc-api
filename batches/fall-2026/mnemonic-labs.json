@@ -1,0 +1,90 @@
+{
+  "id": 37962,
+  "name": "Mnemonic Labs",
+  "slug": "mnemonic-labs",
+  "former_names": [],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/e5f7a89d552157aad112afb87b14467de9e747dd.png",
+  "website": "https://mnemoniclabs.ai/",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "Mnemonic Labs (YC F26) is a neolab founded by two brothers who are Olympiad finalists and MIT graduates; Kalki made $20M in annual PnL at 22 at Tower and Videh was the youngest quant at Citadel at 19. Just as LLMs and scaling laws quickly dominated all other NLP approaches, we're building world models that will dominate both human and machine traders.",
+  "one_liner": "OpenAI for Financial Markets",
+  "team_size": 2,
+  "industry": "B2B",
+  "subindustry": "B2B",
+  "launched_at": 1794432815,
+  "tags": [
+    "AI"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Fall 2026",
+  "status": "Active",
+  "industries": [
+    "B2B"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "partners": "Max",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/mnemonic-labs",
+  "api": "https://devasheeshg.github.io/yc-api/batches/fall-2026/mnemonic-labs.json",
+  "year_founded": 2026,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/mnemonic-labs/",
+  "x_url": "https://x.com/videhps/",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/e5f7a89d552157aad112afb87b14467de9e747dd.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Max Kolysh",
+    "url": null
+  },
+  "founders": [
+    {
+      "user_id": 852204,
+      "full_name": "Videh Seksaria",
+      "title": "Founder/CEO",
+      "founder_bio": "Founder at Mnemonic Labs. Previously a QR at Citadel and Walleye. SB in Math with Computer Science from MIT at 19. 2x USACO, 1x USAPhO Finalist\n\n",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/videh-s/",
+      "x_url": "https://twitter.com/videhps",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/bd7544fea08de3c78e74087492f73831a3f09292.jpg"
+    },
+    {
+      "user_id": 3993735,
+      "full_name": "Kalki Seksaria",
+      "title": "Founder/Chief Scientist",
+      "founder_bio": "Founder at Mnemonic Labs. Previously Quant at Tower Research Capital. BS in Math from MIT. 3x USACO Finalist, 2x USNCO Finalist",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/kalki-seksaria-92262240b",
+      "x_url": "https://x.com/bayesiankalki",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/7be6570b552995392003936eea689d50e7e2a65c.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 128546,
+      "title": "Mnemonic Labs - OpenAI for Financial Markets",
+      "tagline": "Training a Foundation Model for Quant Trading",
+      "body": "We’re Mnemonic Labs - a neolab training a foundation model for quant trading that learns directly from market activity. In &lt;6 weeks we’ve built our training pipeline and model architecture. Our current training run uses over 25TB of tokens.\n\n**Our Story**\n\nWe met 28 years ago shortly after Videh was born (we’re brothers!). We’re Olympiad finalists (5x USACO combined) and MIT graduates. Kalki made $20M in annual PnL at 22 at Tower Research and Videh was the youngest quant at Citadel at 19. Over the past ten years, we’ve been part of quant trading’s evolution from linear models to trees and now neural networks.\n\nWhen we were in college the largest datasets in the world were financial markets and internet advertising. We wanted to build the coolest models, so we picked the former. And then internet scale pre-training and RLVR happened and suddenly general purpose language models were being trained on orders of magnitude more data than any individual domain. It seemed inevitable that robotics would have its own ChatGPT moment and we founded Mnemonic to make it happen.\n\nOur robotics research made us realize that no one - including ourselves - was thinking about financial markets correctly. Done right, we can build a model with a scaling law in markets that automatically learns new strategies and trades as it scales.\n\n**Our Bets**\n\nWe’re all-in on the Bitter Lesson - that all hardcoded priors inevitably become constraints. We believe (ironically) that the Bitter Lesson is one prior always worth following.\n\nText is a universal prior that can represent anything. Where text is the most effective representation, LLMs are most useful - like coding and math. But in spatial and dynamic modalities the most capable models eschew text. AlphaFold learns the geometry of proteins from amino acid sequences and molecular structures. Self-driving cars learn the dynamics of the road from video and driving trajectories. Financial markets are another such domain.\n\nSecond, we believe a small, elite team will win. We’ve seen that trading firms are incredible short term optimizers but not built for risky research-heavy bets. New desks need to be profitable in a year or are fired; already profitable desks don’t want to jeopardize their $50M annual bonuses chasing something new. \n\nTrading is “out of distribution” for the foundation labs. Just as Google famously could be the world’s greatest hedge fund if they wanted to, so could the foundation labs. But, like Google, we think they’ll stay out of this market so they can eat everything else instead.\n\n**Asks**\n\nWe love learning from interesting people! Reach out at founders@mnemoniclabs.ai.\n\nPictured below, us during our brief love affair with robotics.\n\n![uploaded image](/media/?type=post&id=128546&key=user_uploads/3993735/4c8ead03-e7e9-40f8-b92d-32f65342644b)\n\n",
+      "url": "https://www.ycombinator.com/launches/XRK-mnemonic-labs-openai-for-financial-markets",
+      "votes": 29,
+      "created_at": "2026-11-13T19:00:00.383Z"
+    }
+  ]
+}

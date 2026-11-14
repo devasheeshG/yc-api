@@ -1,0 +1,91 @@
+{
+  "id": 35784,
+  "name": "Vorelios",
+  "slug": "vorelios",
+  "former_names": [],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/511019d13a19f348d6a7c3fc8a084d6b838d2243.png",
+  "website": "https://vorelios.com",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "Vorelios is a research lab developing AI that understands physics and engineers autonomously, from an objective to the system that achieves it. We want to turn humanity's greatest ambitions into tractable engineering problems, accelerate the technologies that transform civilization, and discover the ones no one has imagined yet.",
+  "one_liner": "AI that can engineer anything",
+  "team_size": 2,
+  "industry": "Industrials",
+  "subindustry": "Industrials",
+  "launched_at": 1786417769,
+  "tags": [
+    "Hard Tech",
+    "AI"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Fall 2026",
+  "status": "Active",
+  "industries": [
+    "Industrials"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "partners": "Aaron",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/vorelios",
+  "api": "https://devasheeshg.github.io/yc-api/batches/fall-2026/vorelios.json",
+  "year_founded": 2026,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/vorelios/",
+  "x_url": "https://x.com/vorelios",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": "https://github.com/Vorelios",
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/511019d13a19f348d6a7c3fc8a084d6b838d2243.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Aaron Epstein",
+    "url": "https://www.ycombinator.com/people/aaron-epstein"
+  },
+  "founders": [
+    {
+      "user_id": 3436435,
+      "full_name": "Daniel McNeil",
+      "title": "Founder/CEO",
+      "founder_bio": "Founder & CEO @ Vorelios, 19. Training AI models to solve engineering. Prev Physics @ UF.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/daniel-t-mcneil/",
+      "x_url": "https://x.com/danielmcneil_",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/5a92d929211b36b88d6c35a868b3899d8cd34e03.jpg"
+    },
+    {
+      "user_id": 3674969,
+      "full_name": "Krish Kapadia",
+      "title": "Founder/CTO",
+      "founder_bio": "Founder & CTO of Vorelios, 19. Trying to solve engineering. Previously AI & cyber-physical systems research @ UF.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/krish-r-kapadia/",
+      "x_url": "https://x.com/krish_k07",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/43ed1c90aace7dbdeb6ce18434b60c07cc5faab8.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 125713,
+      "title": "Vorelios: AI that can engineer anything",
+      "tagline": "Solving engineering, then using it to solve everything else",
+      "body": "Hi everyone! We’re Daniel and Krish, the founders of Vorelios.\n\n**TL;DR:** Vorelios is a research lab building AI that can engineer anything. Our model takes a design’s geometry and predicts its fluid, thermal, and structural behavior in seconds instead of hours or days of simulation, and uses those predictions to invent and improve designs autonomously. We’re expanding it to more domains as we go.\n\n<https://www.youtube.com/watch?v=7_CMTf_Z-SE>\n\n**The problem**\n\nWe already understand the physics behind many of the technologies we want to build. But knowing the equations doesn’t give us a working design. Computing how a single design will behave can take hours or days of simulation, and finding one that works means investigating many possibilities. That process can take years, so we only explore a small fraction of what could work.\n\nAI can explain the physics and propose designs, but evaluating those designs still depends on the same expensive simulations. Most AI for simulation today trains a separate model for each problem and only works on designs close to what it was trained on. We’re building one model that learns how physics actually works, so it can predict how completely new designs will behave and use those predictions to engineer them.\n\n**Where we are**\n\n* **It works from CAD.** Give it clean geometry and operating conditions, and it predicts the full physical fields in a fraction of a second.\n* **It’s tested on real, full-scale designs,** not simplified shapes or isolated components.\n* **It’s built for designs it hasn’t seen.** Public benchmarks mostly test designs similar to the training data. When we tested on families of designs outside the training set, every model we tried failed, including our own previous architecture, which was state of the art on those benchmarks. Our current model does substantially better, and closing the rest of that gap is the center of our research.\n* **It’s one model across physics.** The same model predicts fluid flow, heat transfer, and structural behavior, and we’re expanding it to more domains as we go.\n* **It has started designing on its own.** In our first end-to-end runs, the system took a written spec, searched thousands of candidate designs with the model, and refined the best ones with no human in the loop. An independent solver confirmed the designs consistently beat a typical candidate, with the model’s predictions within a few percent.\n\n**How we’re approaching it**\n\n* **Data.** There’s no internet’s worth of physics data to learn from. We have to generate it through simulation, but today’s solvers were built for engineers checking one design at a time. We’re building the entire pipeline from the ground up for AI, from generating geometry to running the simulations, so it runs automatically and produces physics data with a scale and breadth that has never existed.\n* **Architecture.** A model can predict familiar designs accurately and still get the physics wrong on something new. But engineering means inventing new things. We’re designing models that have to learn how physics actually works instead of finding shortcuts, so they can make reliable predictions for new designs. Getting there depends as much on the architecture as on the training data.\n* **Breadth.** Engineers use separate tools for different kinds of physics, even though those effects interact in the same design. Our model already predicts fluid, thermal, and structural physics together. As we add more domains, each one builds on what the model has learned from the others.\n\n**Where we’re going**\n\nWe want to turn humanity’s hardest moonshots into tractable engineering problems. If years of engineering can happen in a fraction of the time, projects that are too complex or expensive to attempt today become practical to pursue. We could explore far more ways to make them work, figure out how to build technologies people have spent decades trying to build, and discover inventions no one has imagined yet.\n\n**The team**\n\nWe’re Daniel McNeil (CEO) and Krish Kapadia (CTO), both 19. Daniel studied physics at the University of Florida, where Krish did research in AI and cyber-physical systems.\n\nWe started Vorelios because we want to see the future we imagine become real within our lifetimes. We see engineering as the biggest bottleneck to getting there. So we set out to solve it.\n\n**Our ask**\n\nWe’re looking for exceptional AI researchers, and for engineers and researchers in numerical solvers and CFD. If you know someone whose work you really respect, we’d appreciate an intro. You can reach us at [founders@vorelios.com](mailto:founders@vorelios.com).",
+      "url": "https://www.ycombinator.com/launches/Whd-vorelios-ai-that-can-engineer-anything",
+      "votes": 17,
+      "created_at": "2026-11-03T22:00:00.336Z"
+    }
+  ]
+}

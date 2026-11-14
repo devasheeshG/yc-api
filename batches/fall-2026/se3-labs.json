@@ -1,0 +1,71 @@
+{
+  "id": 34898,
+  "name": "SE3 Labs",
+  "slug": "se3-labs",
+  "former_names": [],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/9a66a484e10ea17972fe78ce644666d531e75814.png",
+  "website": "https://se3labs.ai",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "We build real-world RL environments for robots. Starting with tasks from industry partners, we test policies on real robots and identify where they fail. We use those failures to decide what data to collect and curate for the next policy update.\r\n\r\nNext, we're setting up physical sandboxes at partner sites, so policies can train on the exact tasks and conditions they'll face in deployment.",
+  "one_liner": "Real-World RL Environments for Physical AI",
+  "team_size": 3,
+  "industry": "B2B",
+  "subindustry": "B2B",
+  "launched_at": 1794245405,
+  "tags": [
+    "Robotic Process Automation",
+    "Enterprise",
+    "AI"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Fall 2026",
+  "status": "Active",
+  "industries": [
+    "B2B"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Growth",
+  "partners": "David",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/se3-labs",
+  "api": "https://devasheeshg.github.io/yc-api/batches/fall-2026/se3-labs.json",
+  "year_founded": 2026,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/144003194/",
+  "x_url": "https://x.com/se3labs",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/9a66a484e10ea17972fe78ce644666d531e75814.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "David Lieb",
+    "url": "https://www.ycombinator.com/people/david-lieb"
+  },
+  "founders": [],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 127560,
+      "title": "SE3 Labs - Real-World RL Environments for Robot Models",
+      "tagline": "Real-World RL Environments for Robot Models",
+      "body": "**TL;DR: [SE3 Labs](https://se3labs.ai) builds real-world RL environments for robot models. We turn workflows from factories and hotels into repeatable tasks for training and evaluation, helping model teams move from capability to usability.**\n\n<https://www.youtube.com/watch?v=o5g-44iYAVY>\n\nHi everyone! We’re Mark, Conan and Paige, the team behind SE3 Labs.\n\n**The problem**\n\nInteractive environments and verifiable feedback have become important drivers of LLM post-training. Robot models need a similar learning loop in the physical world: attempt real tasks, learn from failures, and verify that improvements hold up beyond the lab.\n\nBut physical environments are much harder to scale than software environments. Every attempt requires a robot, a task setup, a reliable way to check success, and a reset before the next trial. This makes real-world evaluation costly and difficult to scale. Testing whether a robot can complete a benchmark task in the real world is already hard, let alone whether it can do useful work under deployment conditions.\n\n**What we provide**\n\nSE3 builds end-to-end real-world RL environments that move robot models from capability to usability. Think of it as a physical workbench where models can practice tasks that matter to end customers and receive feedback.\n\nWe help businesses to diagnose and improve robot learning policies. In return, they provide access to real workflows that we turn into repeatable tasks and RL environments. We handle site access, task setup, policy runs, human corrections, and resets.\n\nWe also work with model teams to define task verifiers: checks that determine whether a job was completed correctly and support reward signals for learning. Teams use failures to guide model updates, then test those updates on held-out variations.\n\n**Example environments**\n\nOur U.S. site network spans three types of environments and continues to expand:\n\n* **Automotive &amp; industrial facilities:** Assembly, insertion, and machine tending, with variations in parts, positioning, and tolerances.\n* **Battery, recycling &amp; food-processing facilities:** Environments for picking, sorting, and material handling.\n* **Hotels &amp; resorts:** Environments with real hospitality layouts, objects, and operating requirements.\n\n![](https://bookface.ycombinator.com/media/?type=post&id=127560&key=user_uploads/1856868/c75ac65f-cdaa-42c4-bb48-986d861feeab)\n\nStart with one policy and one task. We run it on a real robot and collect demonstrations, corrections, and evaluation results to guide fine-tuning. We then evaluate the updated policy against the same task criteria before testing across new objects or layouts.\n\n**Our team**\n\nPaige Xu previously co-founded OpenMind, where she helped deploy robots in factories. Mark Chen brings experience from Amazon FAR and robotics research at Stanford. Conan Yu built a data infrastructure company serving IMC Trading and OpenSea. \n\n**Who we’d love to meet**\n\n* Model teams evaluating policy robustness and real-world generalization\n* Simulation teams working to measure sim-to-real transfer\n* Operators of factories, hotels, and other physical sites interested in becoming site partners and receiving automation support\n\nMark, Conan and Paige",
+      "url": "https://www.ycombinator.com/launches/XBQ-se3-labs-real-world-rl-environments-for-robot-models",
+      "votes": 3,
+      "created_at": "2026-11-09T22:17:10.344Z"
+    }
+  ]
+}

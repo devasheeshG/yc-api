@@ -1,0 +1,87 @@
+{
+  "id": 31318,
+  "name": "Databuddy",
+  "slug": "databuddy",
+  "former_names": [],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/41cf5cb7088967b39be98f97d7bb5d8f97df5aac.png",
+  "website": "https://www.databuddy.cc",
+  "all_locations": "San Francisco, CA, USA; Remote",
+  "long_description": "Databuddy gives you your very own data analyst, always watching over your data, combining all your context to investigate and paint a full picture on every product issue that emerges in real-time; conversion drops, user frustration and churn.\r\n\r\nIt makes your product better without needing to have you look at a dashboard and spend hours figuring out the why. one click to install or switch from any dated analytics provider.",
+  "one_liner": "AI Data Analyst for fast-growing teams",
+  "team_size": 1,
+  "industry": "B2B",
+  "subindustry": "B2B -> Analytics",
+  "launched_at": 1791412796,
+  "tags": [
+    "B2B",
+    "Analytics",
+    "Data Engineering",
+    "Infrastructure",
+    "AI"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Fall 2026",
+  "status": "Active",
+  "industries": [
+    "B2B",
+    "Analytics"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada",
+    "Remote",
+    "Fully Remote"
+  ],
+  "stage": "Early",
+  "partners": "Pete",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/databuddy",
+  "api": "https://devasheeshg.github.io/yc-api/batches/fall-2026/databuddy.json",
+  "year_founded": 2025,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/trydatabuddy",
+  "x_url": "https://www.twitter.com/trydatabuddy",
+  "fb_url": null,
+  "cb_url": "https://www.crunchbase.com/organization/databuddy",
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/41cf5cb7088967b39be98f97d7bb5d8f97df5aac.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Pete Koomen",
+    "url": "https://www.ycombinator.com/people/pete-koomen"
+  },
+  "founders": [
+    {
+      "user_id": 2755916,
+      "full_name": "Issa Nassar",
+      "title": "Founder",
+      "founder_bio": "Building the coolest analytics platform that handles your analytics for you.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/issanassar",
+      "x_url": "https://x.com/izadoesdev",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/91c0735889e9859c7981c36fd71679fb069d9050.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 126368,
+      "title": "Databuddy: Product analytics for founders without a data team",
+      "tagline": "Visitors, signups, funnels and revenue in one dashboard, with an AI analyst that shows the query behind every answer.",
+      "body": "Hey YC! I'm [Issa](https://www.linkedin.com/in/issanassar), founder of [Databuddy](https://www.databuddy.cc).\n\n**TL;DR:** Databuddy is product analytics for founders without a data team. One script gives you visitors, signups, funnels, revenue, errors and Web Vitals in one dashboard. Databunny, the built-in AI analyst, answers questions about your numbers and shows you the query behind every answer.\n\nLaunch video: <https://x.com/izadoesdev/status/2108216140610543810>\n\n## The problem\n\nCollecting data is easy. Understanding it isn't.\n\nA typical early-stage stack looks like this: Google Analytics for traffic, PostHog or Mixpanel for product events, Sentry for errors, Stripe for revenue. Every tool answers part of the question, none of them talk to each other, and turning it into an actual answer (\"did that launch bring paying users?\") needs someone who can write SQL. Most startups don't have that person, so they collect everything and decide on gut feel.\n\n## What Databuddy does\n\n* **One cookieless script.** Real-time visitors, sessions, custom events, funnels, goals, error tracking, Web Vitals and feature flags, all from the same install.\n* **Revenue next to traffic.** See which referrers, pages and campaigns brought paying customers, not just visits.\n* **Databunny, the AI analyst.** Ask in plain words and open the query it ran before you trust the number. On Business and Scale it checks your metrics every day or week and posts real changes to Slack with the next step.\n* **Works from your editor.** Sign in from Claude Code, Codex, Cursor or any MCP client, and your agent can pull traffic, read investigations, and set up funnels, goals and flags for you.\n\n## Traction\n\n* #5 Product of the Day on Product Hunt\n* Our YC announcement on X passed 800K views\n\n_\"Actually game changing going from Framer analytics to @trydatabuddy. We're such happy customers.\"_ John Yeo, Co-Founder, Autumn\n\n_\"I've tried a BUNCH of analytics providers. Databuddy does things I didn't even know are possible. So far 10x better than anything I personally have ever tried.\"_ Michael Chomsky, Context.dev\n\n## Pricing\n\nFree up to 10,000 events a month, then from $9.99 a month. No credit card, no sales call.\n\n## About me\n\nI'm a solo founder. I started building Databuddy in Palestine and I'm now building it full time in YC F26.\n\n## Our ask\n\n* **Try it:** [databuddy.cc](http://databuddy.cc) is free to start.\n* **Switching from Google Analytics, PostHog or Plausible?** Email me at [issa@databuddy.cc](mailto:issa@databuddy.cc) and I'll help you move over.\n* **Know a founder flying blind on their numbers?** Send them my way",
+      "url": "https://www.ycombinator.com/launches/WsC-databuddy-product-analytics-for-founders-without-a-data-team",
+      "votes": 7,
+      "created_at": "2026-11-05T15:00:00.077Z"
+    }
+  ]
+}

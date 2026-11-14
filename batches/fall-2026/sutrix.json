@@ -1,0 +1,92 @@
+{
+  "id": 36576,
+  "name": "Sutrix",
+  "slug": "sutrix",
+  "former_names": [],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/10aa0357ff173a9e31708ec1fdba33b53c40c20f.png",
+  "website": "https://www.sutrix.ai/",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "Sutrix turns messy data from EHRs, clinical notes, wearables, and surveys into clean, study-ready datasets allowing healthcare research teams to deliver tailored patient care faster.\r\n\r\nBefore a clinical study can start, research staff spend weeks pulling patient data from disconnected systems like the EHR, REDCap, and wearable platforms, reading notes chart by chart, and reconciling conflicting entries in spreadsheets. Sutrix automates that work by deploying AI systems within each team’s own environment, linking patient records across sources, applying the study's rules, and flagging unclear cases for staff to review.\r\n\r\nPaying research teams at 10+ institutions cut data prep by 80% going from months per study to weeks.\r\n\r\nWe're brothers who've built together for 4 years. We first solved this problem doing forward-deployed work at HSS, where we built an injury surveillance system now used by 700+ teams. Ritvik's clinical research at HSS and Emory showed us every research team has the same bottleneck. Supratik previously founded Kairo (a16z Speedrun, exited) and built production AI agents at Amazon.",
+  "one_liner": "Deployed AI to turn EHR data into study-ready datasets ",
+  "team_size": 2,
+  "industry": "Healthcare",
+  "subindustry": "Healthcare -> Healthcare IT",
+  "launched_at": 1791849574,
+  "tags": [
+    "Healthcare",
+    "Healthcare IT"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Fall 2026",
+  "status": "Active",
+  "industries": [
+    "Healthcare",
+    "Healthcare IT"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "partners": "Harj",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/sutrix",
+  "api": "https://devasheeshg.github.io/yc-api/batches/fall-2026/sutrix.json",
+  "year_founded": 2026,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/sutrix-ai",
+  "x_url": "",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/10aa0357ff173a9e31708ec1fdba33b53c40c20f.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Harj Taggar",
+    "url": "https://www.ycombinator.com/people/harj-taggar"
+  },
+  "founders": [
+    {
+      "user_id": 3672292,
+      "full_name": "Ritvik Panuganti",
+      "title": "Founder/CEO",
+      "founder_bio": "B.S. Neuroscience, Georgia Tech. Published clinical researcher at Hospital for Special Surgery, Emory, and Georgia Tech. Built a multi-sport injury surveillance system at HSS now running across 700+ teams and 30+ tournaments. Led a 300-participant IRB-approved concussion study at GT and prepared a VR concussion assessment tool for FDA 510(k) submission.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/ritvik-panuganti-739822273/",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/5d9d8f4035f0b26dade992ecbcd9e433f849d5b3.jpg"
+    },
+    {
+      "user_id": 3047383,
+      "full_name": "Supratik Panuganti",
+      "title": "Founder/CTO",
+      "founder_bio": "Previously founded and exited an AI security company backed by a16z Speedrun. Software engineer at Amazon. Georgia Tech CS + Math (dropped out).",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/supratik-panuganti-4732532a4/",
+      "x_url": "https://x.com/supratikp07",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/a6275e789bb0dd1dc558b95e798ad95027248bbe.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 125317,
+      "title": "Sutrix: AI that turns patient data into study-ready datasets",
+      "tagline": "Cut data prep time by 80% for healthcare research teams.",
+      "body": "Hey YC community! 👋\n\nWe’re [Ritvik](https://www.ycombinator.com/founders/ritvik-panuganti) and [Supratik](https://www.ycombinator.com/founders/supratik-panuganti), brothers and co-founders of [Sutrix](https://www.ycombinator.com/companies/sutrix). We turn EHR records, surveys, and wearable data into analysis-ready datasets for healthcare research teams.\n\n### **TL;DR**\n\nPatient records documents care as it happened, but the information a study needs is often scattered across notes, visits and systems. Each study has its own criteria, time windows and outcome definitions. When those requirements change or new data arrives, teams have to rework datasets, delaying answers about which treatments work best and for whom. Sutrix deploys AI software to turn the team’s existing data into study-ready datasets. It flags unclear cases for review with supporting evidence and lets teams reuse the preparation workflow across analyses as records or study definitions change. Across 10+ institutions, it has cut data preparation time by 80%, helping teams build evidence faster for more personalized care.\n\n**_Ask:_** Know a healthcare research team spending more time preparing data than analyzing it? We’d love an intro: [founders@sutrix.ai](mailto:founders@sutrix.ai).\n\nCheck out our launch video 👇\n\n<https://www.youtube.com/watch?v=j-EwkyX0_0o>\n\n**❌ The problem**\n\nHealthcare research teams have no shortage of patient data. However, it is scattered across EHRs, clinical notes, surveys, and wearables, with different identifiers, codes, units, and time points. Bringing it together requires understanding what each record means. An unusual measurement could be a unit mismatch or an entry error. A blank response could be missing or intentionally skipped. Those cases need different handling, and the wrong choice can change the results.\n\nEach study adds its own definitions of which patients qualify, which observations count, and how outcomes are calculated. Teams need to trace those decisions to source records and study rules, apply them to new data, and revisit them when the study changes. That repeated interpretation and checking keeps studies waiting for months, even when the analysis itself is straightforward.\n\n### **What Sutrix does**\n\nSutrix carries your study’s definitions through the full workflow: pulling records, preparing the analysis table, reviewing exceptions, and keeping it up to date.\n\n**_1. Connect and reconcile the source data_**\n\nSutrix brings together patient data from EHRs, clinical notes, surveys, wearables, and other study sources. It links each patient’s records and standardizes codes, units, and formats.\n\n![uploaded image](https://lh3.googleusercontent.com/d/1td_wwCkgXfQg7x8dollFcpB9WB58ye08)\n\nInspect the source, rule, and conversion behind a prepared value. Unclear cases go to your team for review, with the evidence attached.\n\n**_2. Build the dataset your study needs_**\n\nApply a saved definition set or specify the study’s rules. Sutrix builds the cohort, derives the required variables, and produces the analysis table with one row per patient, visit, or time period.\n\n![uploaded image](https://lh3.googleusercontent.com/d/1vHPjU2XMtMYabn8Rim-dmS2soUaP39wc)\n\nWhen new records arrive, run them through the same preparation rules. When definitions change, update the rules and regenerate the affected cohort, variables, or time windows. Then run the analysis on the revised dataset.\n\n### **Results**\n\nAcross **10+ institutions**, we’ve cut data cleaning and preparation time by **80%**, giving healthcare research teams a faster path to the evidence they need to tailor care for patients.\n\n### **Why us**\n\nWe’ve built together for four years. Before [Sutrix](https://www.sutrix.ai/), we built an injury surveillance system at Hospital for Special Surgery (HSS), now used by 700+ teams. We saw this preparation work firsthand and fixed it.\n\n[**Ritvik**](https://www.linkedin.com/in/ritvik-panuganti-739822273/) **(CEO):** Published clinical researcher at HSS, Emory, and Georgia Tech. Led a 300-participant, IRB-approved concussion study.\n\n[**Supratik**](http://www.linkedin.com/in/supratik-panuganti-4732532a4) **(CTO):** Founded and exited a company backed by a16z Speedrun, built production AI agents at Amazon, and left Georgia Tech at 18.\n\n### **🙏 Our ask**\n\nIf you run or support a healthcare research team, we’d love to talk. If you know someone who does, we’d appreciate an intro.\n\nEmail us at [founders@sutrix.ai](mailto:founders@sutrix.ai)\n\n![Sutrix](/media/?type=post&id=125317&key=user_uploads/3047383/7538cdd8-c7ff-4bc1-961a-ffef648a6bf2)\n\n[Linkedin Launch](https://lnkd.in/p/g8q4qHJh) | [X Launch](https://x.com/supratikp07/status/2117617804740268223?a=HYaiv2tAzlBjKAT-iSQ&s=20) | [Instagram Launch](https://www.instagram.com/reel/DfSDwJQO54u/?utm_source=ig_web_copy_link&rpxt=MWQ1ZGUxMzBkMA==&srtk=MWQ1ZGUxMzBkMA==)",
+      "url": "https://www.ycombinator.com/launches/WbF-sutrix-ai-that-turns-patient-data-into-study-ready-datasets",
+      "votes": 8,
+      "created_at": "2026-11-03T14:00:00.121Z"
+    }
+  ]
+}

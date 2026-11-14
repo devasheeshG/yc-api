@@ -1,0 +1,103 @@
+{
+  "id": 37401,
+  "name": "Theseus Robotics",
+  "slug": "theseus-robotics",
+  "former_names": [],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/7e2fc8bde838b206a0f59886a05a00e2d3d89335.png",
+  "website": "https://theseus.bot/",
+  "all_locations": "ZH, Switzerland",
+  "long_description": "Theseus Robotics creates the OS & Physical AI to deploys humanoids to automate menial tasks in supermarkets. During the day, our robotics pick orders for e-grocery orders. Overnight, they restocks shelves with goods from the back warehouse. ",
+  "one_liner": "Humanoids to restock retail shelves & pick orders",
+  "team_size": 7,
+  "industry": "Industrials",
+  "subindustry": "Industrials -> Manufacturing and Robotics",
+  "launched_at": 1791578688,
+  "tags": [
+    "Hard Tech",
+    "Robotics",
+    "Retail Tech"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Fall 2026",
+  "status": "Active",
+  "industries": [
+    "Industrials",
+    "Manufacturing and Robotics"
+  ],
+  "regions": [
+    "Switzerland",
+    "Europe"
+  ],
+  "stage": "Early",
+  "partners": "Kulveer",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/theseus-robotics",
+  "api": "https://devasheeshg.github.io/yc-api/batches/fall-2026/theseus-robotics.json",
+  "year_founded": 2026,
+  "city": null,
+  "country": "CH",
+  "linkedin_url": "https://www.linkedin.com/company/theseus-robotics-ag",
+  "x_url": "",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/7e2fc8bde838b206a0f59886a05a00e2d3d89335.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Kulveer Taggar",
+    "url": null
+  },
+  "founders": [
+    {
+      "user_id": 4007490,
+      "full_name": "Samarth Malhotra",
+      "title": "Founder/CEO",
+      "founder_bio": "Founder/CEO at Theseus Robotics. Previously founded and scaled Parts World USA from sub-$100k to $3M revenue in 4 years by building global supply chains across China, India, Vietnam, Malaysia & USA. Founded Jumps Tronic (hardware manufacturing). Worked on ML at Facebook and HP. BS in Computer Science from Carnegie Mellon; Dropped out of ETH Zürich.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/sam-malhotra",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/403466207082fcec6636388b8a98bc53905bd948.jpg"
+    },
+    {
+      "user_id": 3185593,
+      "full_name": "Kristof Floch",
+      "title": "Founder/CTO",
+      "founder_bio": "Founder/CTO at Theseus Robotics, developing AI for humanoids that restock shelves and pick grocery orders. Previously VP of Technology at ETH Robotics Club, leading 120 robotics students across six teams. Researched high-performance learning-based control at ETH Zürich and SZTAKI. First-author publications in IEEE TCST and at ECC. ETH Zürich Excellence Scholar in Robotics, Systems and Control.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/kristof-floch",
+      "x_url": "https://x.com/kristof_floch",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/0b4fc486294601139a191d8aea184d2510aa5880.jpg"
+    },
+    {
+      "user_id": 4027568,
+      "full_name": "Ádám Weinhardt-Kovács",
+      "title": "Founder/CPO",
+      "founder_bio": "Founder/CPO at Theseus Robotics. Previously robotics engineer at Flink Robotics, where he led deployment of a pick-and-place system at live sorting centers achieving 800 picks/hour matching human performance. Designed full robotic work-cells and built custom pneumatic grippers. Published ML research on vehicle dynamics at IFAC SYSID 2024. MA in Robotics from ETH Zürich.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/adam-weinhardt/",
+      "x_url": "https://x.com/AdamWeinhardt",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/49ba95ea880e2aa533b2c69d0ea69f567dcda74d.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 127027,
+      "title": "Theseus Robotics: Humanoids for the Retail Aisle",
+      "tagline": "Robotic In-Store Order Picking & Shelf Replenishment",
+      "body": "**TL;DR:** **We deploy humanoids into supermarkets to restock them overnight &amp; pick orders during the day. We build the OS &amp; AI Models to convert any off the shelf wheeled humanoid into a restocking robot. 2 robots are in live deployments, with pilots lined up for upto 10 more robots in 2027.**\n\nAll clips below are from our Zürich deployment:\\\n<https://www.youtube.com/watch?v=UnGv_iXk7Cc>\n\n**Why we automate this**\n\nThere are over 100,000 large grocery stores in the US and Europe. Supermarkets spend over $60bn per year to restock them by hand. Somebody has to open hundreds of cartons, wheel them onto the floor and fill every shelf. It's heavy, repetitive work, mostly at night, and stores struggle to keep people doing it.\n\n**What we’ve built**\n\nWe build the OS &amp; AI Models for this task. We buy proven wheeled, two-armed robots and build the brain that makes them useful in a real store: \n\n* **Perception** that finds the right spot to grasp, pick &amp; place each product dynamically\n* **Learned skills** for picking and placing thousands of different products, from yogurt cups to cases of water, in completely different shelf environments\n* **Store integration** that reads the delivery list and the planogram, rotates stock, and gives a store a real-time vision of what is on its shelves\n* **Seamless Teloperation** that allows us to deploy fast &amp; collect data to scale autonomy rapidly\n\n**Where we are**\n\n* Restocking upto **400 units/hour**\n* Order picking upto **40 units/hour**\n* Deployed in **2 stores**\n\n**Stuff about us**\n\n* **Samarth (CEO)** previously scaled an ecommerce business to $3M in revenue  \\\n  **Kristóf (CTO)** published leading research on mixing learning-based &amp; classic control\n* **Ádám (CPO)** deployed robots in warehouses matching human pace at 800 picks an hour\n* **Jianwen Cao (CRO)** drove our robot policies to 99% success rates with interference rob\n\n**Asks**\n\n* **Store operations, in-store logistics and COO/CIO team intros** at grocers, fashion stores and drugstores in the US, Switzerland and Germany: we're allocating 2027 pilot slots now. Book 30 min [here](https://theseus-robotics.cal.com/samarth/30-mins-with-samarth) or get in touch with us - [samarth@theseus.bot](mailto:samarth@theseus.bot)",
+      "url": "https://www.ycombinator.com/launches/X2p-theseus-robotics-humanoids-for-the-retail-aisle",
+      "votes": 16,
+      "created_at": "2026-11-07T16:32:07.565Z"
+    }
+  ]
+}

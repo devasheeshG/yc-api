@@ -1,0 +1,92 @@
+{
+  "id": 36513,
+  "name": "Graphide",
+  "slug": "graphide",
+  "former_names": [],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/6a8a1620a1957b907f1e344c44b332ea9f5af430.png",
+  "website": "https://graphide.com",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "Graphide CI runs your CI 10-20× faster than GitHub runners on enterprise deployments, and our 24/7 agents optimize the CI itself, not just the machines. For teams with big CI bills that haven't been optimized, we cut costs 70%+ and take over the ongoing work of optimizing CI, so you can focus on your product.\r\n\r\nWe're faster and cheaper because we own both the hardware and the optimizations and configs that run on it, which lets us do what owning only one could not. A graph of the codebase runs only the tests each change can reach, and we run your tests in parallel, so your CI is limited only by the length of your longest test. Our agents then tune machines, caches and test splits as you add more tests and code over time. We also patch the tests themselves, fixing flakes and adding our own libraries so they run faster and more reliably.\r\n\r\nCoding agents now write more code than teams can check, making verification the new bottleneck. CI is where we start, but we also cover the rest of the verification stack. Our PR review agent runs the old and new code in live environments, finding bugs and proving them by writing tests (50% more bugs found than Greptile on our benchmarks, with 35% fewer false positives). Our visualizer shows data flows and graph-based diffs so you can understand a PR in seconds.\r\n",
+  "one_liner": "10-20× faster CI runners + 24/7 agent cutting bloated CI bills 70+%",
+  "team_size": 2,
+  "industry": "B2B",
+  "subindustry": "B2B",
+  "launched_at": 1792011169,
+  "tags": [
+    "Generative AI",
+    "DevOps",
+    "AI"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Fall 2026",
+  "status": "Active",
+  "industries": [
+    "B2B"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "partners": "Christopher",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/graphide",
+  "api": "https://devasheeshg.github.io/yc-api/batches/fall-2026/graphide.json",
+  "year_founded": 2026,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "",
+  "x_url": "",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/6a8a1620a1957b907f1e344c44b332ea9f5af430.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Christopher Golda",
+    "url": "https://www.ycombinator.com/people/christopher-golda"
+  },
+  "founders": [
+    {
+      "user_id": 3181407,
+      "full_name": "Dan McGee",
+      "title": "Founder/CEO",
+      "founder_bio": "CEO and co-founder of Graphide. Ran a software automation business in high school, then studied EECS and Business at UC Berkeley through the M.E.T. program. While at Illumio as an intern, built Matrix, the policy simulation platform Illumio uses today, orchestrating networks of 300+ VMs and simulating attacks across them. Left Berkeley to start Graphide.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/danielmcgeemarin/",
+      "x_url": "https://x.com/mcgeedan42",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/fd08847f20ace1f6114a0632f93b1c496d7e6bc1.jpg"
+    },
+    {
+      "user_id": 4059215,
+      "full_name": "Benjamin McIntyre",
+      "title": "Founder/CTO",
+      "founder_bio": "Founder at Graphide. Founded and led the University of Cincinnati Linux and FOSS club, growing it to over 100 students. Previously ran tech operations for a political campaign, building custom voter outreach systems. Studying Computer Engineering and Mathematics at UC.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/mcintyre-benjamin/",
+      "x_url": "https://x.com/benmac06",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/2dc1da136afd39fe5e59a7ee405a29baa5c3ccfc.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 127299,
+      "title": "Graphide: A CI runner 10x+ faster than GitHub, often under a minute",
+      "tagline": "16 of 24 CI jobs we benchmarked finished in under a minute, with identical results. Change one line to switch.",
+      "body": "Hey everyone, we're [Dan](https://www.linkedin.com/in/danielmcgeemarin) and [Ben](https://www.linkedin.com/in/mcintyre-benjamin), cofounders of Graphide. We've been building things together since middle school in Cincinnati, and today we are launching our CI runner!\n\nEngineers now run fleets of coding agents, all opening and merging PRs at once. Every one of those PRs waits on CI, often several times as the agent pushes, fails, fixes and pushes again. Several customers have told us that before swapping to our runner, a basic feature with a 30 minute CI run would sit in that loop for upwards of 3–6 hours. With fast CI, that same team can now build an entire product in a few days.\n\n**TL;DR:** [Graphide](https://graphide.com) is a GitHub Actions runner that combines hardware and software fixes to make your CI faster than either can alone. On our benchmarks, 16 of 24 CI jobs finished in under a minute, oftentimes like in Trivy's case going from a 25 minute build to sub 30 seconds, with identical results.\n\n**Is CI slowing down your agents? Switch to Graphide at [graphide.com](https://graphide.com). Onboarding takes 2 minutes.**\n\n<https://youtu.be/n0J3zTovx2Q>\n\n**The benchmark**\n\nWe ran 24 real CI jobs from open-source projects on Graphide, including 7 from our F26 batchmates, and compared each against that project's own recent GitHub runs. Every job ran its full test suite, with no tests skipped. 16 finished in under a minute, and 19 ran 10x+ faster, up to 50x.\n\n![uploaded image](/media/?type=post&id=127299&key=user_uploads/3181407/05b8c810-cece-42e2-9d73-be49e72a4e43)\n\n**Our F26 batchmates**\n\nOur batchmates repos are newer, so their CI starts out shorter, but it still got 6–18x faster!\n\n![uploaded image](/media/?type=post&id=127299&key=user_uploads/3181407/d5e1c572-4090-405e-a35f-9eca05c82b19)\n\n_GitHub times are the median of each project's recent runs. Graphide times are the median of 5 runs._\n\n**How we get there**\n\nYour CI time is its critical path: boot + install + compile + your longest test lane. Faster hardware shortens each step a little. We go after the whole path:\n\n* **Warm machines.** Your job starts on a machine that's already booted, with your dependencies and build cache ready.\n* **Parallelism.** We split your tests across many lanes, so the run ends when your longest test does, not when the whole suite does.\n* **Resizing lanes.** Lanes grow and shrink with the work, so you get far more vCPUs without paying for idle ones.\n* **Linux Kernel/Testing Library/Compiler:** Our patches here allow for us to reduce compile and run times.\n\nWe work by starting with plain runners, and then applying our speedups over the course of the day in order to make sure nothing breaks with your CI. Every speedup also goes into a shared library, so each new repo starts faster than the last.\n\n**Optional: pruning.** All the numbers above run every test. If you turn pruning on, we map which tests each file can affect and skip the ones your change can't reach. That cuts costs by roughly another 50-70%.\n\n**Security**\n\nEvery job runs in its own microVM, created for that job and destroyed when it ends. Nothing carries over between jobs, repos or customers.\n\n**Pricing**\n\nPay as you go at $0.003 per vCPU-minute, we also offer fixed plans with unlimited usage if you reach out to us! (also comes along with our PR review bot) [See pricing](https://graphide.com/pricing).\n\n**Team**\n\n* [**Dan McGee**](https://www.linkedin.com/in/danielmcgeemarin) **(CEO)** left Berkeley EECS to start Graphide. At Illumio he built Matrix, the policy simulation platform Illumio still uses, which runs networks of 300+ VMs and simulates attacks across them.\n* [**Ben McIntyre**](https://www.linkedin.com/in/mcintyre-benjamin) **(CTO)** has been writing editor tooling since he was 12. He studies Computer Engineering and Math at the University of Cincinnati, where he founded the Linux &amp; FOSS club.\n\n**Our ask**\n\n* **Is CI slowing your team or your agents down?** Switch at [graphide.com](https://graphide.com), or email [**dan@graphide.com**](mailto:dan@graphide.com) and we'll help you migrate.\n* **Know an eng lead whose CI is slow or expensive?** We'd love an intro.\n* **If you need a more custom solution, or have an insane CI bill due to misconfigured tests** We are also happy to help here!\n\nQuestions about how it works? Email us or reach out on LinkedIn!\n\n— [Dan](https://www.linkedin.com/in/danielmcgeemarin) &amp; [Ben](https://www.linkedin.com/in/mcintyre-benjamin)",
+      "url": "https://www.ycombinator.com/launches/X7D-graphide-a-ci-runner-10x-faster-than-github-often-under-a-minute",
+      "votes": 10,
+      "created_at": "2026-11-11T19:00:00.110Z"
+    }
+  ]
+}

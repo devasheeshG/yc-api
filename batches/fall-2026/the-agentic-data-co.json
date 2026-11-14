@@ -1,0 +1,92 @@
+{
+  "id": 37566,
+  "name": "The Agentic Data Co.",
+  "slug": "the-agentic-data-co",
+  "former_names": [],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/72ebbcacfd48c52bf6fc298c17ddf035a00bbc08.png",
+  "website": "https://theagenticdatacompany.com",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "We design and collect audio datasets for training speech models.",
+  "one_liner": "Training data for speech models",
+  "team_size": 2,
+  "industry": "B2B",
+  "subindustry": "B2B",
+  "launched_at": 1788964517,
+  "tags": [
+    "AI",
+    "Conversational AI",
+    "ML"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Fall 2026",
+  "status": "Active",
+  "industries": [
+    "B2B"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "partners": "Christopher",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/the-agentic-data-co",
+  "api": "https://devasheeshg.github.io/yc-api/batches/fall-2026/the-agentic-data-co.json",
+  "year_founded": 2026,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/theagenticdataco/",
+  "x_url": "https://x.com/agenticdataco",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": "https://github.com/The-Agentic-Data-Co",
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/72ebbcacfd48c52bf6fc298c17ddf035a00bbc08.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Christopher Golda",
+    "url": "https://www.ycombinator.com/people/christopher-golda"
+  },
+  "founders": [
+    {
+      "user_id": 736135,
+      "full_name": "Christian Vestergaard",
+      "title": "Co-Founder",
+      "founder_bio": "Co-founder of The Agentic Data Company.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/chrisvestergaard/",
+      "x_url": "https://x.com/CVestergaard_",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/9b7c98c539ead059320476be40f4613119e293e8.jpg"
+    },
+    {
+      "user_id": 3402778,
+      "full_name": "Matias Voldby Drejer",
+      "title": "Co-founder",
+      "founder_bio": "Co-Founder at The Agentic Data Company. Prev. Head of Growth & Ops at Female Invest (S21).",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/matiasdrejer/",
+      "x_url": "https://x.com/matiasdrejer",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/ae175fc5bc0b93d49ea06bf770fb6a53f4fbc2eb.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 128282,
+      "title": "The Agentic Data Company - Real-world speech data and RL environments for speech models",
+      "tagline": "Teaching speech models to sound and act human",
+      "body": "#### TL;DR\n\nWe design and collect datasets of how people actually speak in real life, and we build RL environments so speech models can sound and act human. Our open-source dataset has been the #1 audio dataset on Hugging Face for about 2 months, and the turn-taking model we trained on it ranks #1 on Sesame's TurnBench.\n\n**Ask:** Building a foundational speech model? We'd love to meet you: [matias@theagenticdatacompany.com](mailto:founders@theagenticdatacompany.com)\n\n<https://youtu.be/oLP84ur80Zk>\n\n#### The problem\n\nSpeech models have made huge progress in the last year, but conversations still feel robotic, and the models break down on real-world agentic tasks. A model is only as good as its data, and speech data mostly can't be scraped or generated synthetically. Humans have to create it. Today that means gig workers, which works for grading code or math. But how people speak depends entirely on the setting: a support call sounds nothing like talking to a friend. Data alone also won't get speech models to the next level. Code and text models improved by training in RL environments, and speech models need the same thing.\n\n#### What we do\n\n* **Real-world speech datasets:** We build everyday apps that plug into conversations people already have and record them with clear consent. That gives us real speech in real environments, at a fraction of the cost of gig-based vendors.\n* **Audio-native RL environments:** We build RL environments for speech where models train on agentic tasks, perception, dialogue and tool use all at once, with no human in the loop. Imagine worlds for airlines, hotels, personal agents, and much more.\n\n#### Team\n\nMatias and Christian met 7 years ago working in London. They've been friends ever since. Christian founded and sold his last company, Postbuddy. Matias built data science and the growth engine at Female Invest (YC S21), which grew to 1M women and 85K paying members. Named one of Denmark's top 20 marketing talents by M Talent.",
+      "url": "https://www.ycombinator.com/launches/XN4-the-agentic-data-company-real-world-speech-data-and-rl-environments-for-speech-models",
+      "votes": 3,
+      "created_at": "2026-11-11T22:30:00.471Z"
+    }
+  ]
+}

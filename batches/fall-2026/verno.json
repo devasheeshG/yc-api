@@ -1,0 +1,95 @@
+{
+  "id": 35949,
+  "name": "Verno",
+  "slug": "verno",
+  "former_names": [],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/74ef12c285d4addcc60a88f490fbbb178260035f.png",
+  "website": "https://verno-ai.com",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "Every refinery, chip fab and power plant is built from thousands of engineering documents that are supposed to agree, and engineers still keep them in sync by hand. Verno is AI for how the physical world gets built. An engineer describes a change, and Verno edits the P&ID in the native CAD file, carries the change through line lists and other downstream documents, and checks every one against engineering rules before the engineer approves it. On drawings already issued for construction, it has caught errors like one tank with three different design pressures across three documents. We're starting with process EPCs in oil and gas, chemicals, semiconductors, pharma, and food and beverage, then expanding into water and power.",
+  "one_liner": "AI engineering industrials like chip fabs, refineries and power plants",
+  "team_size": 4,
+  "industry": "Industrials",
+  "subindustry": "Industrials",
+  "launched_at": 1793725102,
+  "tags": [
+    "Manufacturing",
+    "Energy",
+    "AI",
+    "Industrial"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Fall 2026",
+  "status": "Active",
+  "industries": [
+    "Industrials"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada",
+    "Remote",
+    "Partly Remote"
+  ],
+  "stage": "Early",
+  "partners": "Christopher",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/verno",
+  "api": "https://devasheeshg.github.io/yc-api/batches/fall-2026/verno.json",
+  "year_founded": 2026,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/verno-inc",
+  "x_url": "",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/74ef12c285d4addcc60a88f490fbbb178260035f.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Christopher Golda",
+    "url": "https://www.ycombinator.com/people/christopher-golda"
+  },
+  "founders": [
+    {
+      "user_id": 3999430,
+      "full_name": "Oliver Wesche",
+      "title": "Founder/CEO",
+      "founder_bio": "Founder at Verno. Previously Machine Learning Engineer at Blue Origin, where he built AI/ML platforms for rocket manufacturing and operations. Before that, ML Engineer at Asurion, where he built the company's flagship generative AI chatbot serving 5000+ agents and millions of customers, driving $6M in annual savings. MBA from Harvard Business School. Aerospace Engineering degree from UAH.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/oliver-wesche/",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/8a66d1843ed4ce9fc4c7e373358ddb0d32b4af53.jpg"
+    },
+    {
+      "user_id": 4012705,
+      "full_name": "Ujjawal Madan",
+      "title": "Founder/CTO",
+      "founder_bio": "Founder at Verno. Previously Principal Data Scientist and Senior Manager at Asurion, where he spent 4+ years scaling from Data Scientist to Principal, leading AI/ML initiatives. Former AI Engineer at Promise (YC18). Georgia Tech M.S.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/ujjawalmadan/",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/0061fcd82d40d53263c66a3abe7441bf4a090f3e.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 125783,
+      "title": "Verno: AI that edits and checks the engineering documents behind every industrial plant",
+      "tagline": "AI for how the physical world gets built",
+      "body": "**TL;DR: Every refinery, chip fab, pharma plant and power facility starts as thousands of engineering documents that engineers keep in sync by hand. Verno is AI for how the physical world gets built. Today it edits and checks those documents, so one change carries through the whole project and errors get caught on paper instead of in the field.**\n\n<https://youtu.be/H2ggcgIyQ7U>\n\n**Here's the actual product, unedited: Verno checking a full set of P&amp;IDs and engineering deliverables for errors across documents.**\n\n<https://youtu.be/W8YOmgQCQEg>\n\nHi everyone! We're Oliver and Ujjawal, building Verno.\n\n**Why we're building this**\n\nAt Blue Origin I built ML systems for rocket manufacturing, and watched great engineers spend more time on documents than on engineering. Process EPCs, the firms that design refineries, chemical plants, chip fabs, pharma and food plants, have the same problem at a much bigger scale.\n\nEvery plant project runs on thousands of interconnected documents. At the center is the P&amp;ID (piping and instrumentation diagram): the master map of every tank, pump, pipe, valve and sensor in the plant. Engineers call it the bible of a facility, because nearly everything downstream is built from it.\n\nChanging it today is slow. An engineer redlines a PDF, hands it to a drafter, waits, checks the result, and sends it back when something's off. Then every downstream document gets updated by hand. Miss one, and the error shows up in the field. Engineering design is a $130B+ industry in the US alone, and a lot of it goes into this loop.\n\n**What Verno does today: engineers make the change directly**\n\nWe started with the P&amp;ID because it matters most. Most tools for engineering documents read drawings. Verno edits them.\n\n* **Describe the change, and it's made.** An engineer says \"add a bypass valve here,\" and Verno edits the native CAD file. No redline, no handoff, no waiting on a drafting cycle.\n* **Downstream documents follow.** Line lists and other affected documents update to match, across CAD, Excel, PDF and Word. Nothing to migrate.\n* **Every change is checked against engineering rules:** a pump needs suction and discharge, a control valve needs its instrument loop, a spec change needs a break.\n* **Catches errors across documents,** like a relief valve set higher than the pipe it sits on can handle.\n* **Engineers stay in control.** They approve every change and stamp the drawings.\n\nDays of back-and-forth become minutes.\n\n**Where we're starting, and where we're going**\n\nWe're starting with process EPCs in oil and gas, chemicals, semiconductors, pharma, food and beverage, and plastics, where the need is biggest.\n\nWe've also shown internally that Verno can generate lists, datasheets and even P&amp;IDs from scratch, and we'll bring that to customers after our current pilot. From there, we're expanding into water and power, and into the rest of the drawings every project depends on: process flow diagrams, utility flow diagrams, single-line diagrams, loop diagrams and beyond.\n\nThe goal: become the IDE for engineering documents, the place where every drawing and document a project needs gets created, changed and checked, so engineers spend their time on engineering, not paperwork.\n\n**Who we are**\n\nWe've been friends for years. We've traveled the world together and worked side by side on the same engineering and AI teams.\n\n![uploaded image](/media/?type=post&id=125783&key=user_uploads/3999430/0db028b4-a954-4ded-bb45-5f5a06c58638)\n\n* **Oliver Wesche (CEO):** ML Engineer at Blue Origin, where I was the sole architect of the AI that decides what gets built next across every Blue Origin factory, and built tools to speed up engineering documentation (where Verno came from). Before that I built Asurion's flagship generative AI system for contact center agents, serving 5,000+ agents and saving $6M a year. Harvard Business School, aerospace engineering at UAH.\n* **Ujjawal Madan (CTO):** was a world-class professional musician touring internationally before he taught himself to code, then earned an M.S. from Georgia Tech, one of the top engineering programs in the country. He was an AI Engineer at **Promise (YC W18)**, where he built document extraction and voice AI used by state agencies, and is now a Principal at Asurion, where he built production voice agents for Verizon and AT&amp;T handling \\~50K customers a day.\n\n**Our ask**\n\n* **Work at a process EPC or owner-operator? Book a 30-minute demo to see a P&amp;ID change carry through your downstream documents: [https://calendly.com/oliver-verno-ai/verno-customer-demo](https://calendly.com/oliver-verno-ai/verno-customer-demo)**\n* **Know engineering managers, design leads, or process and piping engineers** in oil and gas, chemicals, semis, pharma, food and beverage, plastics, water or power? We'd love an intro.\n* Or email me directly: [**oliver@verno-ai.com**](mailto:oliver@verno-ai.com)",
+      "url": "https://www.ycombinator.com/launches/Wil-verno-ai-that-edits-and-checks-the-engineering-documents-behind-every-industrial-plant",
+      "votes": 28,
+      "created_at": "2026-11-04T15:00:00.097Z"
+    }
+  ]
+}

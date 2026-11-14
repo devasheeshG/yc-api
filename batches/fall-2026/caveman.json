@@ -1,0 +1,72 @@
+{
+  "id": 37038,
+  "name": "Caveman",
+  "slug": "caveman",
+  "former_names": [],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/255bbf73f87bb02fde740dd7da4814d8d2b5f4e1.png",
+  "website": "https://caveman.so",
+  "all_locations": "Amsterdam, NH, Netherlands",
+  "long_description": "Caveman is the optimization stack for AI agents. It observes real agent workloads, finds cost and performance inefficiencies, tests improvements, and safely deploys the ones that work.",
+  "one_liner": "Caveman cuts what AI agents cost without making them dumber.",
+  "team_size": 1,
+  "industry": "B2B",
+  "subindustry": "B2B",
+  "launched_at": 1791916413,
+  "tags": [
+    "Developer Tools",
+    "Open Source",
+    "Infrastructure",
+    "AI"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Fall 2026",
+  "status": "Active",
+  "industries": [
+    "B2B"
+  ],
+  "regions": [
+    "Netherlands",
+    "Europe"
+  ],
+  "stage": "Early",
+  "partners": "Max",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/caveman",
+  "api": "https://devasheeshg.github.io/yc-api/batches/fall-2026/caveman.json",
+  "year_founded": 2026,
+  "city": "Amsterdam",
+  "country": "NL",
+  "linkedin_url": "https://www.linkedin.com/company/caveman-so/",
+  "x_url": "",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": "https://github.com/caveman-ai",
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/255bbf73f87bb02fde740dd7da4814d8d2b5f4e1.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Max Kolysh",
+    "url": null
+  },
+  "founders": [],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 128480,
+      "title": "Caveman (F26) - The joke with 120k GitHub stars is now the most efficient coding agent",
+      "tagline": "Every coding agent in one app. 21% cheaper than Codex on Terminal-Bench 4, 76% cheaper than Claude Code across connected apps.",
+      "body": "Hey everyone, I’m Julius, and I’m building Caveman (F26) on my own. You may have already heard about us for getting 120k GitHub stars when we made Claude speak like a Caveman to save you tokens.  \n\nShort version: Caveman Code is an app, on Mac or in the browser, where Claude, Codex and Cursor work side by side on the subscriptions and keys you already pay for. The thing that is special here is we’ve spent months building out specialized infrastructure within the harness to determine exactly what context is relevant and the most efficient way for the harness to interact with any kind of data. Caveman read less not only speak less. \\\n\\\nWith the same model, my agent got through a day of work across connected apps for 76% less than Claude Code. It’s free if you bring your own keys and logins.\n\nHere’s a quick demo: <https://youtu.be/HulMprQd_j4>\n\n**How this started**\n\nSeven months ago my AI bill was bigger than my grocery bill and as a uni student, this really sucked and made me incredibly frustrated. Mostly as a joke, I wrote one markdown file that made Claude talk like a caveman: “Why use many token when few do trick.” Someone I’d never met posted it on Hacker News. It hit #1, and 120,000 GitHub stars later it’s my full-time job. I ran some benchmarks and came to the realization that hey, this saves a ton of tokens on chat-style conversations while also making it more legible. \\\n\\\nOver time though as model work became more and more agentic, it stopped moving the bill as much as before. When I measured it on Claude Opus 5.5, what the agent says was less than a tenth of the cost. Most of the cost comes from the harness, meaning the prompt, the tools and the loop around the model. The harness decides how much the model has to re-read on every request. So I built my own harness, and then an app around it.\n\n**What it does**\n\nYou plug in what you already have (virtually any subscription)\n\nA “Chief” runs your chats for you. You tell it what you want done, and it starts the chats, answers their questions and reports back when it’s finished. Again, this is where that secret sauce of Caveman comes in where it’s about higher information density, typical AI chats are terrible with this so building a new paradigm for this felt right.\n\nPR review wasn’t built for the agentic era either. With people shipping 100k+ lines of codes per day, the cognitive load became too severe. That’s why in Caveman Code, every pull request comes with a short guide. It gives you a one-line summary, the one decision that actually needs you, and then each change as before, after and why and what the change brings in high-level next to the code that produced it.\n\nAgents can use any computer. On a Cloud computer (still in beta), they drive a desktop and a browser to check their own work. This works across every computer you sync up, your phone/mac can control other macs and your mac can control cloud VM’s and vice versa.\n\nTo finally put an end to people walking around with their laptop open, the moment you shut your lid we transfer all your chats to the cloud so they can run autonomously.\n\n**The numbers with the same model just a different harness**\n\n* Terminal-Bench 4 on GPT-6.1 Sol: 21% cheaper with 31% fewer tokens, and both solved 90 of 192 runs.\n* Terminal-Bench 4 on Claude Opus 5.5: 14% cheaper with 22% fewer tokens, and Caveman solved 97 compared to Claude Code’s 83. \n* Day-long sessions across connected apps on Opus 5.5: 76% cheaper with 83% fewer tokens, and Caveman passed all 48 steps to Claude Code’s 46.\n\nThese are my own runs, at list price, with no router. Many more optimizations are coming. I wrote up where the savings come from here: <https://caveman.so/news/introducing-caveman-code>\n\n**Media** \n\nCaveman has been covered by Fortune, 404 Media, Hackaday and Decrypt, cited by Adobe Research, Elastic, and A/B tested by JetBrains.\n\n**What I’d love from you**\n\n1. Try it and tell me what breaks. You can download it at <https://caveman.so/download>, or sign up at <https://app.caveman.so/signup> and use it in your browser.\n2. If your team is paying a real agent bill, email me at [juliusbrussee@caveman.so](mailto:juliusbrussee@caveman.so) and I’ll set it up with you myself.\n\nMe reply fast. Me prefer Caveman comms.",
+      "url": "https://www.ycombinator.com/launches/XQG-caveman-f26-the-joke-with-120k-github-stars-is-now-the-most-efficient-coding-agent",
+      "votes": 4,
+      "created_at": "2026-11-13T01:00:00.429Z"
+    }
+  ]
+}

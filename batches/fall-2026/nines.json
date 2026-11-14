@@ -1,0 +1,92 @@
+{
+  "id": 37733,
+  "name": "Nines",
+  "slug": "nines",
+  "former_names": [],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/658b6cc2519f771f07c3a2cd54b6805628ebadc8.png",
+  "website": "https://ninesrobotics.ai/",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "Nines builds autonomous robots, and the models that run them, for data centers.\r\n\r\nThe AI buildout is the biggest construction project of our lifetime, and the physical work inside it is still done by hand. Every GPU rack needs thousands of fiber connections matched, inserted, and verified before a hall goes live. After that, every building needs people on site around the clock to swap drives, transceivers, and fans.\r\n\r\nWith our robots operators bring capacity online faster, with fewer errors and less downtime.",
+  "one_liner": "Robot pit crew for AI data centers",
+  "team_size": 2,
+  "industry": "Industrials",
+  "subindustry": "Industrials -> Manufacturing and Robotics",
+  "launched_at": 1794452505,
+  "tags": [
+    "Robotics",
+    "AI"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Fall 2026",
+  "status": "Active",
+  "industries": [
+    "Industrials",
+    "Manufacturing and Robotics"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "partners": "Pete",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/nines",
+  "api": "https://devasheeshg.github.io/yc-api/batches/fall-2026/nines.json",
+  "year_founded": 2026,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/ninesrobotics",
+  "x_url": "https://x.com/ninesrobotics",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/658b6cc2519f771f07c3a2cd54b6805628ebadc8.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Pete Koomen",
+    "url": "https://www.ycombinator.com/people/pete-koomen"
+  },
+  "founders": [
+    {
+      "user_id": 659497,
+      "full_name": "Taerim Eom",
+      "title": "Founder/CEO",
+      "founder_bio": "Founder/CEO at Nines (YC F26). \n\nPreviously at Patreon, Perfect Match, HomeRoom(YC W22). Cornell CS.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/taerimeom/",
+      "x_url": "https://x.com/taerimcreates",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/68d923628648bb94791efddcdf65fb579de2823c.jpg"
+    },
+    {
+      "user_id": 1033991,
+      "full_name": "Tiantian Li",
+      "title": "Founder/CTO",
+      "founder_bio": "Founder/CTO at Nines (YC F26). Previously at Meta, Xerox PARC. Cornell CS",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/tianx2-li",
+      "x_url": "https://x.com/tianx2li",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/7e8ec5194d4e1954c60b50033076706082eee4ba.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 128545,
+      "title": "Nines: Autonomous robots for AI data centers",
+      "tagline": "Robot pit crew for AI data centers",
+      "body": "Hey everyone, we are Taerim and Tiantian, and we are building Nines.\n\n<https://www.youtube.com/watch?v=b9PAOiSU7ek>\n\nAI data centers are being built faster than they can be staffed, and in places where technicians don’t live. Every one of them still depends on a person walking to a rack. That costs money in two ways:\n\n* **Downtime.** An idle GPU node is lost revenue.\n* **Speed.** Build-outs went from 3 years to a 6-month target, but the work inside the rack still moves at human speed.\n\nWhat we’re building:\n\nOn new buildouts, our robots handle the commissioning work, like patching fiber across thousands of ports. On live sites, they handle the maintenance that costs operators money when a node sits idle: swapping drives, reseating optics, restarting servers. \n\n[@Tiantian Li](https://bookface.ycombinator.com/user/1033991) and I believe compute is going to places humans can’t or won’t go, and the data centers there will have to run themselves. We’re building toward that one piece at a time. \n\nToday, AI models only optimize themselves in software. Soon, data center orchestration software will detect when a training run needs a new network layout or more storage, and send the physical work straight to our robot fleet.\n\nWe're building the automation layer for server rooms: a fully software-defined, physically adaptive AI factory where AI can manage and optimize its own hardware. Fiber patching is step one, and we're building the rest.\n\nIf you build or operate AI data centers, we’d love to chat. Or, if you know people at data center operators, we’d appreciate an intro. \n\nWho we are:\n\nWe have spent our careers on hard physical and scaling problems. @Tiantian ran large-scale inference at Meta, and watched data center construction and maintenance become the limit on compute. @Taerim has spent her career shipping 0-to-1 systems, including taking Patreon’s livestream from the first line of code to millions of users.\n\nFollow along on X for our updates:[ https://x.com/ninesrobotics](https://x.com/ninesrobotics) @ninesrobotics",
+      "url": "https://www.ycombinator.com/launches/XRJ-nines-autonomous-robots-for-ai-data-centers",
+      "votes": 4,
+      "created_at": "2026-11-13T18:00:00.437Z"
+    }
+  ]
+}

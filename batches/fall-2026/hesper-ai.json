@@ -1,0 +1,95 @@
+{
+  "id": 36086,
+  "name": "Hesper AI",
+  "slug": "hesper-ai",
+  "former_names": [],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/22aa0e43c8572c7233989f7b9c4d18841280c577.png",
+  "website": "https://gethesperai.com",
+  "all_locations": "New York City, NY, USA",
+  "long_description": "Hesper AI builds AI agents that investigate P&C insurance claims end to end.\r\n\r\nHesper’s agents read the claim file, detect tampered documents, verify facts, check coverage, flag inconsistencies, and produce an audit-ready case file in minutes, so insurers can check every claim. \r\n\r\nWe work with Claims and SIU orgs at Carriers, MGAs and TPAs,",
+  "one_liner": "AI Claims Investigator for Insurance",
+  "team_size": 3,
+  "industry": "Fintech",
+  "subindustry": "Fintech -> Insurance",
+  "launched_at": 1788805829,
+  "tags": [
+    "Insurance",
+    "Fraud Detection",
+    "AI"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Fall 2026",
+  "status": "Active",
+  "industries": [
+    "Fintech",
+    "Insurance"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "partners": "Nicolas",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/hesper-ai",
+  "api": "https://devasheeshg.github.io/yc-api/batches/fall-2026/hesper-ai.json",
+  "year_founded": 2026,
+  "city": "New York City",
+  "country": "US",
+  "linkedin_url": "https://linkedin.com/company/hesperai",
+  "x_url": "",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/22aa0e43c8572c7233989f7b9c4d18841280c577.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [
+    "https://bookface-images.s3.us-west-2.amazonaws.com/attachments/5ca8ebd84e7156b5e441163d33d15b54026132e9.png"
+  ],
+  "primary_partner": {
+    "name": "Nicolas Dessaigne",
+    "url": "https://www.ycombinator.com/people/nicolas-dessaigne"
+  },
+  "founders": [
+    {
+      "user_id": 675827,
+      "full_name": "Pankaj Dhariwal",
+      "title": "Founder/CEO",
+      "founder_bio": "Previously Engineering Manager at Nanonets(YC W17), where he built Flow (Accounts Payable product) from scratch to $200K ARR and scaled the engineering team from 7 to 25. Earlier, first engineer on the Export-Import team at Shipsy, building the global container tracking and ETA prediction system from the ground up. \n\nDual degree in Electronics & Economics from BITS Pilani.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/pankaj-dhariwal/",
+      "x_url": "https://x.com/Pankaj_Dhariwal",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/5fd48563dab99d3645e4c2b77229cca94318288e.jpg"
+    },
+    {
+      "user_id": 559900,
+      "full_name": "Nitish Badu",
+      "title": "Founder/COO",
+      "founder_bio": "Nitish Badu is the Co-founder/COO of Hesper AI.\n\nPreviously, he scaled revenue at Nanonets (YC W17) to $4M in ARR, where he built out the GTM motion, outbound and partnerships. He has approximately 4 years of experience driving go-to-market and revenue for B2B AI companies.\n\nBefore that, he was GTM Lead at Super.AI. He holds a degree from BITS Pilani.",
+      "is_active": true,
+      "linkedin_url": "https://linkedin.com/in/nitish-badu-529b28165/",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/69238018c926d7c71b158727d1a9b0265d6fe175.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 126204,
+      "title": "Hesper AI: AI agents that work every insurance claim end to end",
+      "tagline": "Every claim worked, not just processed. The full workup on every claim in minutes, with proof behind every output",
+      "body": "We’re Pankaj and Nitish, co-founders of Hesper AI 👋\n\n**TL;DR:** Hesper’s AI agents do the full workup on every insurance claim: read the documents, run the database checks, call the provider, search the web, and hand the adjuster a decision with proof behind every flag. Minutes instead of days, at a fraction of the $1,500 to $2,500 per claim it costs to outsource. If you know anyone who runs claims at a carrier, TPA or MGA, we’d love an intro: [founders@gethesperai.com](mailto:pankaj@gethesperai.com)\n\n<https://youtu.be/XGc5tiN-7Kg?si=X7u6fTBk7WI94GVP>\\\n\\\n**❌ The problem**\n\nClaims teams can process 100 files a day. They can’t work 100 files a day.\n\nWorking one file properly means calling the provider, verifying their license, reading every invoice line, checking where the photos were taken, searching the parties online, and chasing the documents that never arrived. That is hours of work per claim, and outsourcing it costs $1,500 to $2,500 per claim. So it only happens on the handful of claims that look bad enough to justify it. The rest get a glance and a payment.\n\nThis was not solvable with software before. A model could score a claim, but someone still had to make the calls, read the 200 pages and chase the records. Agents can do that part now.\n\n**✅ What we built**\n\nA team of AI agents, each working one piece of the claim and sharing what it finds with the others:\n\n* Document agents read every page (invoices, estimates, medical records, police reports) and check them against each other\n* Verification agents check providers and licenses against databases\n* A doc collection agent emails, texts and calls the parties for anything missing\n* A GPS agent finds where a photo was taken, even with no metadata\n* A social mapping agent finds connections between the parties on a claim\n* Medical agents review records and medical necessity\n\nThings the agents have caught recently:\n\n🧾 A repair invoice with its total edited after it was issued, and another generated by AI with no real shop behind it\\\n📞 A clinic claim where the agent called the clinic and found the patient was never seen there\\\n📍 Damage photos taken 40 miles from the reported loss location\n\nEvery flag links back to the page, record or call it came from, so the adjuster can check it in seconds. The adjuster makes the final call, and every decision trains the agents. Models built on insurance data. SOC 2, HIPAA, GDPR.\n\n**📈 Where we are**\n\nClaims worth more than $5M already processed. We are live in production with paying customers, and running pilots with carriers, MGAs and TPAs. Our agents have handled everything from pet claims to homeowners claims after Hurricane Isaias. Works across every P&amp;C line.\n\n**💬 Our ask**\n\nIntros to anyone with these titles at a carrier, TPA, MGA or pet insurer:\n\n* Head of Claims, VP Claims, Chief Claims Officer\n* SIU Director\n* Claims Operations lead\n* COO at a TPA\n\nIf that’s you, book a demo at [gethesperai.com](http://gethesperai.com) or email [founders@gethesperai.com](mailto:pankaj@gethesperai.com). And tell them not to worry about hallucinations: every flag comes with the evidence it was built on.\n\n**👥 Team**\n\nPankaj was an engineering manager at Nanonets (YC W17), where he built the AP automation product from zero and grew engineering from 7 to 25. Nitish drove $4M+ ARR at Nanonets and 5x pipeline growth at [Super.AI](http://Super.AI), and runs GTM at Hesper. We talked to 25 claims teams before writing a line of Hesper. Every one said the same thing: we know which claims look off, we have nobody with time to work them.",
+      "url": "https://www.ycombinator.com/launches/WpY-hesper-ai-ai-agents-that-work-every-insurance-claim-end-to-end",
+      "votes": 16,
+      "created_at": "2026-11-05T18:00:00.187Z"
+    }
+  ]
+}

@@ -1,0 +1,125 @@
+{
+  "id": 33838,
+  "name": "Simantic",
+  "slug": "simantic",
+  "former_names": [],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/12eef74104b6e57636a6f0d2305e3a2d18d5c2e5.png",
+  "website": "https://simantic.com",
+  "all_locations": "Waterloo, ON, Canada",
+  "long_description": "Simantic is modernizing the embedded firmware industry with hardware simulation developed for the adoption of AI in hardware engineering. Simantic gives both humans and AI the visibility into hardware previously limited by the physical world.",
+  "one_liner": "Firmware simulation for AI agents",
+  "team_size": 4,
+  "industry": "B2B",
+  "subindustry": "B2B -> Engineering, Product and Design",
+  "launched_at": 1782327485,
+  "tags": [
+    "Developer Tools",
+    "Hardware",
+    "Semiconductors",
+    "Electronics",
+    "AI"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": true,
+  "nonprofit": false,
+  "batch": "Fall 2026",
+  "status": "Active",
+  "industries": [
+    "B2B",
+    "Engineering, Product and Design"
+  ],
+  "regions": [
+    "Canada",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "partners": "Aaron",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/simantic",
+  "api": "https://devasheeshg.github.io/yc-api/batches/fall-2026/simantic.json",
+  "year_founded": 2025,
+  "city": "Waterloo",
+  "country": "CA",
+  "linkedin_url": "https://www.linkedin.com/company/simantic",
+  "x_url": "",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/12eef74104b6e57636a6f0d2305e3a2d18d5c2e5.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Aaron Epstein",
+    "url": "https://www.ycombinator.com/people/aaron-epstein"
+  },
+  "founders": [
+    {
+      "user_id": 3082935,
+      "full_name": "Seungmin Hong",
+      "title": "Founder/CEO",
+      "founder_bio": "Founder at Simantic (YC F26). Previously firmware engineer at Tesla, Simbe Robotics, and Rapyuta Robotics. ML at Ericsson. BASc Computer Engineering from University of Waterloo.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/shong0504",
+      "x_url": "https://x.com/shong0504",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/dc234bdf0e7d060cf24bf13d252ce7311c2e3ce0.jpg"
+    },
+    {
+      "user_id": 3729139,
+      "full_name": "Ahnaf Shahriar",
+      "title": "Founder/CTO",
+      "founder_bio": "Founder at Simantic (YC F26). Previously Embedded Software Engineer at Neuralink (Implant/Charger) and AI Hardware Engineer at Tesla (Dojo/Autopilot). Computer Engineer from the University of Waterloo.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/ahnaf-s",
+      "x_url": "https://x.com/enough_ahnaf",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/7d91d8988fc211a1d486d15228c422801d7cf268.jpg"
+    }
+  ],
+  "jobs": [
+    {
+      "id": 98191,
+      "title": "Lead Simulation Researcher (Electronics / Firmware)",
+      "url": "https://www.ycombinator.com/companies/simantic/jobs/UKriFvb-lead-simulation-researcher-electronics-firmware",
+      "location": "Waterloo, Ontario, CA / San Francisco, CA, US",
+      "type": "Full-time",
+      "role": "Engineering",
+      "role_type": "Electrical",
+      "salary_range": "$200K - $300K",
+      "equity_range": "2.00% - 5.00%",
+      "experience": "6+ years",
+      "visa": "Will sponsor",
+      "skills": [
+        "Assembly",
+        "C",
+        "C#",
+        "C++",
+        "Verilog",
+        "GPU Programming",
+        "Firmware",
+        "FPGAs"
+      ]
+    }
+  ],
+  "news": [
+    {
+      "title": "Simantic scales from Waterloo startup to global AI hardware innovator | Waterloo News | University of Waterloo",
+      "url": "https://uwaterloo.ca/news/simantic-scales-waterloo-startup-global-ai-hardware",
+      "date": "Jul 31, 2026"
+    }
+  ],
+  "launches": [
+    {
+      "id": 125708,
+      "title": "Simantic: Firmware Simulation for AI Agents",
+      "tagline": "Firmware validation at the speed of software",
+      "body": "Hey everyone, we’re Seungmin and Ahnaf, the founders of Simantic.\n\nSimantic is building the simulation layer for AI to test and validate firmware at the speed of software.\n\n<https://youtu.be/tIrz-o43ig0>\n\n**The Problem**\\\nFrontier AI models have made code generation for firmware cheap and effortless, but firmware testing still relies on manual hardware debugging using expensive equipment running software from over a decade ago. Simantic is modernizing the firmware test workflows with simulation made for the era of coding agents.\n\nWe’re developing the runtime context that AI models need to verify mission-critical firmware behavior, without being bounded by the limitations of hardware.\n\n**Our Solution**\n\nWe built the world’s first agent-first firmware simulator. We provide multiple interfaces to the simulator, so you can use it from anywhere. Here are the interfaces you can use Simantic with:\n\n* **Cloud Sim** is the first virtual devboard you can program and run entirely from your terminal with zero setup, using simple curl commands. All you need is the MCU model and compiled ELF binary.\\\n  \\\n  In addition to the curl API, we developed these interfaces:\n  * TypeScript SDK (<https://www.npmjs.com/package/@simantic/cloud-sim>)\n  * MCP (<https://www.npmjs.com/package/@simantic/cloud-sim-mcp>)\n\n    ![uploaded image](/media/?type=post&id=125708&key=user_uploads/3082935/ee71038c-cdef-4a4d-add6-ba7668a02648)\n\n    You can try out Cloud Sim here: <https://simantic.com/cloud-sim>\n* **Simantic Bot** is the first AI code reviewer made for firmware. The reviewer agent identifies the hardware platform, build system, and the changes are made in the code based on the diffs and comments. What makes it different from other code reviewer bots is that it actually runs your code on a simulated version of the microcontroller, and inputs to peripherals like CAN, UART, Ethernet, and BLE can be simulated according to different scenarios.\\\n  \\\n  Here is a short demo of Simantic Bot:\\\n  <https://youtu.be/kBK1ZjGWWbQ?si=aJxnbBQjZBPxvt4i>\n* **Pyrite** is our frontier firmware simulation model, currently available to select partners and users. You gain full access to the binary so users can run simulations locally, and develop applications like CI/CD pipelines, or agent harnesses with. Please contact us directly for access.\n\n**The Team**\n\n**Seungmin (CEO)** studied Computer Engineering at the University of Waterloo. Previously working at Tesla as a Firmware Engineer on the Keys &amp; Authentication team, and the Prototype Engineering team building early prototypes of the Cybertruck and Cybercab. Seungmin also worked across multiple robotic startups in the Bay Area and Tokyo as an Embedded Firmware Engineer.\n\n**Ahnaf (CTO)** studied Computer Engineering at the University of Waterloo. Previously working at Neuralink as an Embedded Software Engineer, building wireless chargers for the brain implant chips. Ahnaf built AI chips as an AI Hardware Engineer on the Autopilot team at Tesla, designed chips at NXP Semiconductors, and developed wireless firmware for Onsemi.\n\nWhile working at these companies, we came across the same problem: the hardware testing loop is too slow, and engineering teams are being bottlenecked by hardware in firmware testing and validation. As firmware development workflows are moving towards AI generated code, firmware testing is still manually done on physical hardware, like Hardware-in-the-loop (HIL) setups or on development boards.\n\nWe came to the same conclusion, that hardware teams needed a better way to test firmware in an AI driven workflow. We founded Simantic to build the simulation environment that enables AI agents to run and test firmware, without being limited by physical hardware.\n\n![uploaded image](/media/?type=post&id=125708&key=user_uploads/3082935/a537c777-0d8a-46ba-903d-ee66f59a3220)\n\n**Our Ask**\n\nAre you building embedded systems in automotive, robotics, or aerospace? Contact us at [founders@simantic.dev](mailto:founders@simantic.dev), or go to <https://simantic.com/>. ",
+      "url": "https://www.ycombinator.com/launches/WhY-simantic-firmware-simulation-for-ai-agents",
+      "votes": 11,
+      "created_at": "2026-11-03T20:00:00.223Z"
+    }
+  ]
+}

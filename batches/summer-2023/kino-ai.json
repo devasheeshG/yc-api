@@ -1,0 +1,110 @@
+{
+  "id": 28707,
+  "name": "Kino AI",
+  "slug": "kino-ai",
+  "former_names": [],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/a0a46950ff7350dee9729b6aa2da1c83cce56306.png",
+  "website": "https://kino.ai",
+  "all_locations": "Boston, MA, USA",
+  "long_description": "Kino lets you make videos with your teammates and your agents. Your footage, your edit, and your review notes live in one project, so Claude Code or Codex works on the same timeline as your team. Companies use Kino to keep all their footage in one searchable place, have agents cut new videos every day, and send review links to get feedback. ",
+  "one_liner": "A video editor your team and coding agents work in together",
+  "team_size": 4,
+  "industry": "B2B",
+  "subindustry": "B2B -> Productivity",
+  "launched_at": 1689168813,
+  "tags": [
+    "Entertainment",
+    "Video",
+    "AI",
+    "AI Assistant"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": true,
+  "nonprofit": false,
+  "batch": "Summer 2023",
+  "status": "Active",
+  "industries": [
+    "B2B",
+    "Productivity"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "partners": "Jared",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/kino-ai",
+  "api": "https://devasheeshg.github.io/yc-api/batches/summer-2023/kino-ai.json",
+  "year_founded": 2022,
+  "city": "Boston",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/kino-ai/",
+  "x_url": "https://twitter.com/trykino",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/a0a46950ff7350dee9729b6aa2da1c83cce56306.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [
+    "https://bookface-images.s3.us-west-2.amazonaws.com/attachments/52609552ecc219aa286d083e6762bd2c7d259e8c.png"
+  ],
+  "primary_partner": {
+    "name": "Jared Friedman",
+    "url": "https://www.ycombinator.com/people/jared-friedman"
+  },
+  "founders": [
+    {
+      "user_id": 312544,
+      "full_name": "Luke Igel",
+      "title": "Founder",
+      "founder_bio": "MIT '23. Formerly NASA JPL, SpaceX, Slack, CSM, KoKo.",
+      "is_active": true,
+      "linkedin_url": "https://linkedin.com/in/igel",
+      "x_url": "https://twitter.com/lukeigel",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/a9a158b88470f651167c3e4c3e4fc38f56a0cde4.jpg"
+    }
+  ],
+  "jobs": [
+    {
+      "id": 85108,
+      "title": "Founding Engineer",
+      "url": "https://www.ycombinator.com/companies/kino-ai/jobs/4ur7YIG-founding-engineer",
+      "location": "San Francisco, CA, US",
+      "type": "Full-time",
+      "role": "Engineering",
+      "role_type": "Full stack",
+      "salary_range": "$120K - $185K",
+      "equity_range": "0.75% - 2.50%",
+      "experience": "3+ years",
+      "visa": "Will sponsor",
+      "skills": []
+    }
+  ],
+  "news": [],
+  "launches": [
+    {
+      "id": 128027,
+      "title": "Kino: Store, edit and review video with Claude Code and Codex",
+      "tagline": "A video editor where your team and your agents work on the same timeline",
+      "body": "**TL;DR:** Kino lets you make videos with your teammates and your agents. Footage storage, a full video editor and review links are bundled into one, so Codex / Claude Code work on the same timeline as your team. The editor is free at <https://kino.ai>.\n\n<https://www.youtube.com/watch?v=YcPB7zKRn9c>\n\nHi YC! I'm Luke from Kino. We made the launch video above entirely in Kino, and it has passed 2.1 million views [on X](https://x.com/lukeigel/status/2115876931749200320).\n\n**The problem**\n\nOpus 5.5 can edit videos and make great motion graphics now. But with a raw agent harness, you need to describe tiny edits either in words or in quick one-off UIs, you can't refer to footage shared across your devices, and you can't work with teammates the way you do in Google Docs or Figma.\n\n![](https://files.kino.ai/templates/catalog/launch-yc-20261109/kino-store-edit-review-vignettes.png)\n\n**What Kino does**\n\nKino is code-first. All editing, all motion graphics, all dragging of timeline items around and all teammate comments are expressed as code, built on Remotion. This was hard to get right, as we found ourselves building a what-you-see-is-what-you-get editor for React, which we then turned into a video editor. So you can drag and nudge anything your agent made without prompting again. It is also fully collaborative and real-time, so you can see your teammates' cursors and which part of the timeline they're watching. For our launch video I had 5+ agents editing the timeline concurrently while my friend Donald had his swarm working a few minutes further down.\n\nEverything you import gets transcribed, embedded, described, and face-detected, so your agents can find the right footage. We built custom decoders for professional codecs such as ProRes, BRAW and R3D, which means you can drag a 250GB ProRes clip from your new iPhone right into your Kino timeline.\n\nEverything in Kino has a URL: projects, clips, footage, comments and replies, even a single frame and the line of code that draws it. I paste Kino links into my agent constantly, whether it's making sure Codex knows exactly which timeline item I am referring to or which teammate's comment needs fixing.\n\nYou don't need footage to start. Give Kino your company URL or past work and it has something to build from, and <https://kino.ai/templates> has formats you can reuse. You can also ask the agent to turn a finished project into a template for next time.\n\n![](https://bookface.ycombinator.com/media/?type=post&id=128027&key=user_uploads/312544/b707dc44-fcb5-44ae-811c-ffaacb8c4e53)\n\n**How teams use it**\n\nReducto's founders and head of growth made the launch video for their new model, r-1 mini, in one Kino project in just over a day: <https://x.com/trykino/status/2118398159068246021>\n\n![](https://files.kino.ai/templates/catalog/launch-yc-20261109/reducto-r1-mini-v2.gif)\n\nWe have teams managing their whole company's media in Kino, spinning up agents to make new videos every day, then using review links to flag issues. One founder ships ads like this: each day he uses Kino's YouTube support to find b-roll he is allowed to use, he edits something, his co-founder leaves notes such as \"we need to use this clip instead\" and his agent applies them. If you have footage sitting on a phone or SD card, plug it in and Kino indexes everything and lays out a first stringout.\n\n**Where we came from**\n\nOur [first YC launch in 2023](https://www.ycombinator.com/launches/IzQ-kino-ai-silicon-valley-meets-hollywood) proclaimed that Kino was \"Silicon Valley meets Hollywood.\" It was more like Palantir for Hollywood; we ran bespoke on-prem Kino deployments with our team of forward deployed engineers on shows like Survivor and A24's Beef. It was a rush, but it felt like the slowest way to improve video editing for the whole world. So in 2025, we rebuilt Kino as a true editor, and we took a bet on coding-as-editing.\n\n**Pricing**\n\nThe full editor is free, including unlimited imports and exports, real-time collaboration and MCP access for your own agent. Pro is $25 per editor per month and adds unlimited MCP tool calls, share links, more storage, YouTube search, and the ability to edit alongside your team. Kino is a desktop app for now, with browser support coming soon.\n\n**Our ask**\n\n* Making a launch or Demo Day video? Send me a Drive link to your raw footage and I'll send back a Kino project link with a full library and a rough cut.\n* Download Kino at <https://kino.ai>, point Claude Code or Codex at it, and tell us what breaks.",
+      "url": "https://www.ycombinator.com/launches/XIx-kino-store-edit-and-review-video-with-claude-code-and-codex",
+      "votes": 27,
+      "created_at": "2026-11-11T00:41:20.248Z"
+    },
+    {
+      "id": 73000,
+      "title": "📸 Kino AI - Silicon Valley meets Hollywood",
+      "tagline": "Kino automatically organizes footage so filmmakers can edit faster.",
+      "body": "Hey! [Wes](https://www.linkedin.com/in/wesleyblock/) and [Luke](https://www.linkedin.com/in/igel/) here! We’re building software for filmmakers at [Kino AI](https://kino.ai).\n\nLuke Igel and I actually started our entrepreneurial journey as amateur documentary filmmakers. We met as freshman at MIT in 2018 and have been friends ever since. In November 2020, we began working together on a [feature-length documentary film](https://regressions.net) about the history of MIT and technology in the United States. It’s called MIT:Regressions.\n\n![uploaded image](/media/?type=post&id=73000&key=user_uploads/1357272/52fb4698-dd83-4a2b-8d92-5c62be30347e)\n\nMaking Regressions inspired us to build tools that help professional storytellers.\n\n### **Cool…but what’s the problem?**\n\nImagine watching this footage and transcribing all of the slated information by hand.\n\n![uploaded image](/media/?type=post&id=73000&key=user_uploads/1357272/43e60a01-2a4a-4ab2-a5be-7db2bbeec90e)\n\nPeople have to do this - and much more - to organize the troths of footage that go into a movie, or a commercial, or a trailer, or a YouTube video, or a…you get the point.\n\nThe process of manually logging this _metadata_ is expensive and time consuming, and mistakes can be catastrophic.\n\n# What does Kino do?\n\nKino automatically infers metadata and uses it to label and organize footage, saving hours every day for assistant editors. We transcribe audio and “describe” the video and turn an unstructured mountain of footage into a useful index. And it all happens locally on the editor’s machine.\n\n![uploaded image](/media/?type=post&id=73000&key=user_uploads/1357272/f705576a-30de-41fe-ae3a-f74397903714)\n\nOur first feature lets users use natural language to find specific moments within their entire footage library. Check out this [demo video](https://www.youtube.com/watch?v=lwon6fWvmco)!\n\n### Want to use Kino at your company?\n\nWe’re running pilots with production companies, creative agencies, and corporate video teams. Please contact sales: [sales@trykino.com](mailto:sales@trykino.com)\n\nConnect with us!\n\n* Sign up for our mailing list! ([https://kino.ai)](http://trykino.com)\n* Follow us on Twitter! ([twitter.com/trykino](http://twitter.com/trykino))\n* Follow us on Instagram! ([instagram.com/try.kino](http://instagram.com/try.kino))\n* Or reach out directly. We appreciate introductions to media professionals, and always welcome words of encouragement. Drop us a note at [hello@trykino.com](mailto:hello@trykino.com)\n\n![uploaded image](/media/?type=post&id=73000&key=user_uploads/1357272/0cafe0de-299d-4421-aa52-7809250926e0)\n\n\\-Wes and Luke",
+      "url": "https://www.ycombinator.com/launches/IzQ-kino-ai-silicon-valley-meets-hollywood",
+      "votes": 167,
+      "created_at": "2023-07-12T19:02:29.659Z"
+    }
+  ]
+}

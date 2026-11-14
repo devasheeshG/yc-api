@@ -1,0 +1,82 @@
+{
+  "id": 37600,
+  "name": "Redoubt Insurance",
+  "slug": "redoubt-insurance",
+  "former_names": [],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/1ee4cc24084cdd9a8a0fe0d70982248244d6fd3a.png",
+  "website": "https://www.redoubt.insure",
+  "all_locations": "Salt Lake City, UT, USA",
+  "long_description": "Redoubt is a commercial insurance agency for small businesses. We believe our customers are our most important business partners, and they deserve our full attention. Machines can already handle the boring parts, the next step is to continually learn from experience. ",
+  "one_liner": "Commercial insurance for small businesses",
+  "team_size": 0,
+  "industry": "Fintech",
+  "subindustry": "Fintech -> Insurance",
+  "launched_at": 1787707764,
+  "tags": [
+    "Insurance",
+    "AI"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Fall 2026",
+  "status": "Active",
+  "industries": [
+    "Fintech",
+    "Insurance"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "partners": "Charlie",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/redoubt-insurance",
+  "api": "https://devasheeshg.github.io/yc-api/batches/fall-2026/redoubt-insurance.json",
+  "year_founded": 2026,
+  "city": "Salt Lake City",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/redoubt-insurance/",
+  "x_url": "",
+  "fb_url": "https://www.facebook.com/profile.php?id=61591630963138",
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/1ee4cc24084cdd9a8a0fe0d70982248244d6fd3a.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Charlie Warren",
+    "url": null
+  },
+  "founders": [
+    {
+      "user_id": 801143,
+      "full_name": "Andre Beukers",
+      "title": "Founder/CEO",
+      "founder_bio": "Founder/CEO at Redoubt Insurance, fanatic about building intelligent systems.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/andre-beukers/",
+      "x_url": "https://x.com/BeukersAndre",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/a0e0be126fe9f6f88bf03d07f9b56a70f2eb0d9b.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 125578,
+      "title": "Redoubt: Commercial insurance for small businesses, placed by software, serviced by a person",
+      "tagline": "An insurance agency that runs itself, starting with commercial auto for small fleets.",
+      "body": "**TL;DR:** Redoubt is an autonomous insurance company. Our software does the agency work: it finds who needs coverage, collects what underwriters ask for, picks the carriers likely to say yes, compares quotes, and handles certificates, policy changes, and renewals. That leaves the human part, explaining the tradeoffs and staying on the account when it gets hard, to a person who has time for it. We started with commercial auto for small trucking fleets.\n\n## The problem\n\nSmall business owners rarely buy insurance because they want to. Someone is blocking them until they show a certificate: a freight broker won't book the load, a GC won't let them on site, the state won't issue the authority, the dealer won't release the truck. They don't know what the policy covers, what the carrier needs, or whether their risk is insurable at all.\n\nAgencies that serve them well do it by hand. Across our first 12 accounts we averaged 13 texts, 3 emails, and 15 minutes on the phone per business before the first email to an insurer, and the underwriting back-and-forth came after that. Self-serve insurtechs cut that cost by serving low complexity accounts. The owners we work with don't want a form. They want someone to talk to.\n\n## What we do\n\nRedoubt automates everything except the relationship.\n\n* **Find.** We ingest the full FMCSA corpus (carrier census, insurance filings, safety records), so we know when a trucking business needs coverage and whether it fits the carriers we can place with, before we ever call.\n* **Prepare.** Public records plus the owner's texts and documents become a carrier-ready underwriting package. On one trucking submission that went from about 20 minutes of agent work to 2.\n* **Place.** We submit to the carriers most likely to accept the risk, compare the quotes, and bind.\n* **Service.** Certificates, endorsements, and renewals are handled by the same system, so the agent's time stays with the customer.\n\nEvery quote, rejection, and underwriter question is recorded as structured knowledge about carrier appetite. We get better at bringing carriers the businesses they want, and at telling an owner early when a risk won't place.\n\n## Why me\n\nI'm Andre, sole founder. Before Redoubt I built the system at Enzo that reads home health charts and returns ICD-10 billing codes, bringing a $50 to $60 per chart expert task down to about $7. At Meta I wrote the multi-task training pipeline for the EMG wristband's gesture models. Before that I published on human memory and neural networks during my PhD at Princeton University. Commercial insurance placement is the same shape of problem: expensive expert judgment inside a regulated process, where the inputs are messy and the rules are learnable.\n\nI'm a licensed agent and I run the agency myself, every day, on the software I build.\n\n## Where we are\n\nWe have access to carriers in all 50 states across a wide range of classes, and we are placing commercial auto for small fleets today, with cargo, general liability, and workers comp behind it.\n\n## Ask\n\n**If you own trucks, vans, or other business vehicles and need coverage, whether for the first time or at renewal, we'd like to quote it.** Call or text **(385) 375-7655** or start at [**redoubt.insure**](https://www.redoubt.insure)\n\nIf you know a small business owner stuck waiting on a certificate, send them our way.\n\nInvestors: book time at <https://calendar.app.google/ptpyfvJdyavGVvmD9> or email [investors@redoubt.insure](mailto:investors@redoubt.insure).",
+      "url": "https://www.ycombinator.com/launches/WfS-redoubt-commercial-insurance-for-small-businesses-placed-by-software-serviced-by-a-person",
+      "votes": 3,
+      "created_at": "2026-11-09T19:00:00.182Z"
+    }
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "id": 37071,
+  "name": "Acyclic Labs",
+  "slug": "acyclic",
+  "former_names": [],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/e0ab38690d05797c7ccebecaf6f40e8c72b69516.png",
+  "website": "https://acyclic.dev",
+  "all_locations": "London, England, United Kingdom",
+  "long_description": "We’re building the foundations of agent swarms that can materially accelerate all work: benchmarks to measure model capabilities, models trained to coordinate thousands of agents, RL environments to improve them, and infrastructure that can put a datacenter’s worth of compute behind a single conversation within seconds.\r\n\r\nBoth founders graduated top 10% from Cambridge. Ram is a published ML researcher and Varun worked at the frontier of parallel programming languages and shipped enterprise multi-agent systems at Palantir and Tracelight. We realised that agents were good enough to solve most use cases. So why couldn’t we run thousands of them at once and finish hours of work in minutes?",
+  "one_liner": "Benchmarks, RL envs and infra for scaling agent swarms",
+  "team_size": 2,
+  "industry": "B2B",
+  "subindustry": "B2B -> Infrastructure",
+  "launched_at": 1791261091,
+  "tags": [
+    "Swarm AI",
+    "Open Source",
+    "Data Engineering",
+    "Infrastructure",
+    "AI"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Fall 2026",
+  "status": "Active",
+  "industries": [
+    "B2B",
+    "Infrastructure"
+  ],
+  "regions": [
+    "United Kingdom",
+    "Europe"
+  ],
+  "stage": "Early",
+  "partners": "Aaron",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/acyclic",
+  "api": "https://devasheeshg.github.io/yc-api/batches/fall-2026/acyclic.json",
+  "year_founded": 2026,
+  "city": "London",
+  "country": "GB",
+  "linkedin_url": "https://www.linkedin.com/company/112651593/",
+  "x_url": "",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": "https://github.com/acyclic-labs",
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/e0ab38690d05797c7ccebecaf6f40e8c72b69516.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Aaron Epstein",
+    "url": "https://www.ycombinator.com/people/aaron-epstein"
+  },
+  "founders": [
+    {
+      "user_id": 3653810,
+      "full_name": "Ram Vinjamuri",
+      "title": "Founder/CEO",
+      "founder_bio": "Ram is a founder of Acyclic Labs. He started in ML research: his Cambridge dissertation on transfer learning for low-resource Vedic Sanskrit beat the state of the art and was published at ACL WiNLP. \n\nAt Palantir, he was an FDE shipping multi-agent systems for clinical trial design. That work convinced him there are huge gains in scaling beyond the model. At Acyclic, he is building the infrastructure that lets agent swarms turn complex, long-running tasks from days into hours.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/ram-vinjamuri/",
+      "x_url": "https://x.com/ramv2003",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/232c674f93e4e84353b72971c84b9fdebb331bbe.jpg"
+    },
+    {
+      "user_id": 2012796,
+      "full_name": "Varun Latthe",
+      "title": "Founder/CTO",
+      "founder_bio": "Co-founder of Acyclic Labs (YC F26).\n\nAt Cambridge, my research focused on building an auto-parallel programming language. I then worked on agent architecture and an Excel engine at Tracelight (https://tracelight.ai).\n\nAt Acyclic, I’m building infrastructure that extracts implicit parallelism from agent workflows, turning them into efficient swarms for lower cost and latency.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/varun-l/",
+      "x_url": "https://x.com/var1377",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/748349d818f1366c42481e7045a3c41cccbffd5c.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 128640,
+      "title": "Acyclic Labs: Building the foundations for AI swarms",
+      "tagline": "Infrastructure, benchmarks, RL environments and models for AI agents working together at scale.",
+      "body": "**TL;DR: We’re building models and RL environments to train agents to work swarm efficiently, benchmarks to measure their performance, and infrastructure to run them at scale.**\n\nvideo link: <https://www.youtube.com/watch?v=kBTQD1hAuyE>\n\nWe’re building the foundations of agent swarms that can materially accelerate **all** work: benchmarks to measure model capabilities, models trained to coordinate thousands of agents, RL environments to improve them, and infrastructure that can put a datacenter’s worth of compute behind a single conversation within seconds.\n\nWe both graduated top 10% from Cambridge. Ram is a published ML researcher and Varun worked at the frontier of parallel programming languages and shipped enterprise multi-agent systems at Palantir and Tracelight. We realised that agents were good enough to solve most use cases. So why couldn’t we run thousands of them at once and finish hours of work in minutes?\n\nWe started by building [open-source infrastructure](https://acyclic.dev/github) capable of running 10,000 agents in a single session. But scaling the number of agents exposed a deeper problem: today’s models struggle to coordinate, and swarms can perform worse than a single agent.\n\nThis led us to build SwarmBench, an independent benchmark measuring how well models delegate tasks to other agents and ability to speculate i.e. anticipating upcoming work and starting agents on it early. Our evaluations isolate these coordination bottlenecks across different swarm architectures and model flavours. Can thousands of Opus 5.5 agents working together outperform a single instance? Our benchmarks shows that more isn’t always better: performance depends on the type of workload (not necessarily scale) where coordination failures can consistently erase the benefits of scale.\n\n![uploaded image](/media/?type=post&id=128640&key=user_uploads/3653810/4c5b7069-853e-4a32-ae81-c83c86f92fed)\n\nCheck out initial public findings now[ acyclic.dev/benchmarks](http://acyclic.dev/benchmarks)\n\nFinally, we’re building swarm coordination RL environments and have begun to train models to work better together. Our benchmarks expose gaps in how models delegate tasks and explore competing approaches in parallel. We turn those failures into training environments, then benchmark again to measure improvement. We’re building a continuous loop for improving swarm coordination: measure, train, repeat.\n\n**If you’re training models, building with agents, or investing in the future of AI, we’d love to hear from you: [ram@acyclic.dev](mailto:ram@acyclic.dev).**",
+      "url": "https://www.ycombinator.com/launches/XSq-acyclic-labs-building-the-foundations-for-ai-swarms",
+      "votes": 23,
+      "created_at": "2026-11-13T00:00:00.231Z"
+    }
+  ]
+}

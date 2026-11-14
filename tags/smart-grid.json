@@ -1,0 +1,97 @@
+[
+  {
+    "id": 35520,
+    "name": "Evardi",
+    "slug": "evardi",
+    "former_names": [
+      "Evardi Inc."
+    ],
+    "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/a85f77006a403a25551aac949ce21876d2c6b48f.png",
+    "website": "https://evardi.ai/",
+    "all_locations": "San Francisco, CA, USA",
+    "long_description": "At least 94% of US outage minutes start on the distribution grid, and most utilities are blind between the substation and the meter. Evardi builds a live model of a utility’s network from data it already has, matching every meter to its transformer and using virtual meters to show load and solar on every transformer. On top of that model, our AI agents do the engineering work utilities need at the grid edge: checking switching orders, finding outages after extreme weather and planning for new load from DERs and data centers. Because the model sees every transformer, it will also help utilities decide when new wires are really needed, and how distribution load can free up transmission for new data centers. We’re working with utilities across the globe that together serve over 10 million customers.",
+    "one_liner": "Agents that engineer the grid edge",
+    "team_size": 4,
+    "industry": "Industrials",
+    "subindustry": "Industrials -> Energy",
+    "launched_at": 1793761024,
+    "tags": [
+      "Smart Grid",
+      "Energy",
+      "AI"
+    ],
+    "tags_highlighted": [],
+    "top_company": false,
+    "isHiring": false,
+    "nonprofit": false,
+    "batch": "Fall 2026",
+    "status": "Active",
+    "industries": [
+      "Industrials",
+      "Energy"
+    ],
+    "regions": [
+      "United States of America",
+      "America / Canada"
+    ],
+    "stage": "Early",
+    "partners": "Nicolas",
+    "app_video_public": false,
+    "demo_day_video_public": false,
+    "app_answers": null,
+    "question_answers": null,
+    "url": "https://www.ycombinator.com/companies/evardi",
+    "api": "https://devasheeshg.github.io/yc-api/batches/fall-2026/evardi.json",
+    "year_founded": null,
+    "city": "San Francisco",
+    "country": "US",
+    "linkedin_url": "https://www.linkedin.com/company/evardi-energy/",
+    "x_url": "https://x.com/evardienergy",
+    "fb_url": null,
+    "cb_url": null,
+    "github_url": null,
+    "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/a85f77006a403a25551aac949ce21876d2c6b48f.png",
+    "app_video_url": null,
+    "dday_video_url": null,
+    "company_photos": [],
+    "primary_partner": {
+      "name": "Nicolas Dessaigne",
+      "url": "https://www.ycombinator.com/people/nicolas-dessaigne"
+    },
+    "founders": [
+      {
+        "user_id": 2002846,
+        "full_name": "Diva Shah",
+        "title": "Founder/CEO",
+        "founder_bio": "Diva is the co-founder and CEO @ Evardi. Before Evardi, she worked in Kenya Power’s grid operations room, studied utility integrations for Autodesk, and consulted for energy clients at Deloitte.",
+        "is_active": true,
+        "linkedin_url": "https://www.linkedin.com/in/diva-shah/",
+        "x_url": "https://x.com/_divashah__",
+        "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/70229102d535e0e0daf501adf912eed4217b8ef9.jpg"
+      },
+      {
+        "user_id": 2597203,
+        "full_name": "Aarya Borele",
+        "title": "Founder/CTO",
+        "founder_bio": "Aarya is the co-founder and CTO @ Evardi. Before Evardi, she did fuels research at Oleo and Lawrence Berkeley National Lab, worked in energy operations at Weatherford and ONGC, and built a biodiesel plant from scratch.",
+        "is_active": true,
+        "linkedin_url": "https://www.linkedin.com/in/aarya-borele-17536a1a7/",
+        "x_url": "https://x.com/AaryaBorele",
+        "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/17540f5d0679b7b0b9998d83c7a9108d96cfadde.jpg"
+      }
+    ],
+    "jobs": [],
+    "news": [],
+    "launches": [
+      {
+        "id": 126664,
+        "title": "Evardi: Agents that engineer the grid edge",
+        "tagline": "Helping utilities prevent outages and restore power faster",
+        "body": "tl;dr: Evardi builds AI agents that engineer the grid edge: the transformers and local lines where rooftop solar, batteries, EVs and data centers connect.\n\n<https://youtu.be/Xztpv94BkL8>\n\nHey everyone! We're Diva and Aarya. Blackouts have affected both our families, in Kenya and India, and working inside utilities showed us how hard their teams work with tools that stop at the substation. So we built Evardi.\n\nOutages cost Americans up to $121B in a single year, and most of them start below the substation, where utilities have limited real-time data. After a storm, a feeder comes back on while transformers behind it stay dark. A switching order relies on a switch that's already failed twice. A meter mapped to the wrong transformer sends crews to the wrong street. Evardi catches all of these, and more. \n\nEvardi turns the data a utility already collects into a live digital twin of its network. On top of it, our physics-based models:\n\n* **See every transformer.** Every meter is matched to the right transformer, and every transformer gets a virtual meter, with no new hardware.\n* **Find outages earlier.** Signals already streaming in show which transformers are still dark after a storm and who's affected.\n* **Test every plan.** Every outage, maintenance window and new connection is tested on the twin before it happens. Studies that take engineers days run in under two minutes.\n* **Check every switching step.** Orders are drafted from the utility's own history, switches that have failed before are flagged, and every step is simulated before it reaches the field crew.\n\nIn case studies, Evardi restored power to 63% more customers and pinpointed the source of outages 10x more often. We are working with utilities across the globe serving nearly 10 million customers.\n\nLearn more at [evardi.ai](http://evardi.ai).\n\n**Do you work in operations, outage response or grid planning at a utility, or know someone who does?** Please connect them with us at [**diva@evardi.ai**](mailto:diva@evardi.ai), we'd love to chat!",
+        "url": "https://www.ycombinator.com/launches/Wwy-evardi-agents-that-engineer-the-grid-edge",
+        "votes": 11,
+        "created_at": "2026-11-05T22:00:00.139Z"
+      }
+    ]
+  }
+]
