@@ -1,0 +1,96 @@
+{
+  "id": 32197,
+  "name": "Evident Machines",
+  "slug": "evident-machines",
+  "former_names": [
+    "Buildbox"
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/295be512801662b8dbfc7a0247cb6e74b367b70c.png",
+  "website": "https://evidentmachines.com/",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "Evident Machines builds benchmarks and RL environments for AI doing real-world electrical engineering. We test models on complete engineering workflows, from design and simulation to physical experiments in our SF lab. We turn these experiments into training data and environments for frontier AI labs, with the goal of enabling AI to design, test and improve real hardware.",
+  "one_liner": "Real-world benchmarks and RL environments for electrical engineering",
+  "team_size": 2,
+  "industry": "B2B",
+  "subindustry": "B2B",
+  "launched_at": 1785235599,
+  "tags": [
+    "Hardware",
+    "Machine Learning",
+    "Robotics",
+    "Electronics",
+    "AI"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Fall 2026",
+  "status": "Active",
+  "industries": [
+    "B2B"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "partners": "Jon",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/evident-machines",
+  "api": "https://devasheeshg.github.io/yc-api/batches/fall-2026/evident-machines.json",
+  "year_founded": 2026,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/evidentmachines/",
+  "x_url": "",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/295be512801662b8dbfc7a0247cb6e74b367b70c.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Jon Xu",
+    "url": "https://www.ycombinator.com/people/jon-xu"
+  },
+  "founders": [
+    {
+      "user_id": 949567,
+      "full_name": "Trishala Jain",
+      "title": "Founder/CEO",
+      "founder_bio": "Cofounder of Evident Machines. prev Gemini for Science @ Google Labs. EECS @ UC Berkeley MET",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/trishalajain7",
+      "x_url": "https://x.com/hitrishala",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/7a5e330324e6dd361ae48aa82067939a009ccf81.jpg"
+    },
+    {
+      "user_id": 1420688,
+      "full_name": "Mark Nour",
+      "title": "Founder/CTO",
+      "founder_bio": "Co-Founder of Evident Machines. Prev Berkeley AI Research, Netflix, Google Cloud",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/marknour",
+      "x_url": "https://x.com/marknnour",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/323f622e4eed0bc38d339836f485ea55736eca72.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 129254,
+      "title": "Evident Machines: Training AI on real-world EE tasks at a physical lab bench",
+      "tagline": "Real-world benchmarks & RL envs for electrical engineering",
+      "body": "Hey YC! We’re Mark and Trishala, founders of[ Evident Machines](https://evidentmachines.com/).\n\nWe’re introducing [FrontierEE Bench](https://evidentmachines.com/frontier-ee-bench/), the first benchmark to test frontier AI capability on real-world electrical engineering work at a physical lab bench.\n\n**The real world is messy.** Measurements are noisy, components vary, and circuits behave in ways a simulation does not capture. In EE, today’s frontier AI models are trained exclusively in simulation and lack the nuance needed to run real-world EE workflows at scale.\n\n**We built our own electronics lab and a custom harness to investigate that gap.** In our lab, models control instruments, direct experiments, and iterate on physical measurements. Human operators carry out requested wiring and probe changes. We record their decisions, measurements, and experimental outcomes. \n\n![uploaded image](/media/?type=post&id=129254&key=user_uploads/949567/b96dfecf-d684-40ad-867f-3c5dfba61455)\n\n[**FrontierEE Bench**](https://evidentmachines.com/frontier-ee-bench/) **is a collection of 10 EE tasks that run flawlessly in simulation and fail in the physical world.** Across disciplines like mixed-signal circuits, power systems, and electromechanics the average model pass rate was just 29.3%, with Fable 5.2 reaching a 36.7% pass rate. Models most commonly failed by building open circuits, ignoring stored charge, attempting to bypass current limits, and calculating component properties from incomplete models.\n\n**All of the model failures we discover become RL environments for the frontier labs to train on.** We’re building the training infra for autonomous hardware R&amp;D by shaping the models to design, test, and iterate on nuanced EE experiments. \n\n![uploaded image](/media/?type=post&id=129254&key=user_uploads/949567/f12e844e-6821-457d-b4be-7d41eac7e551)\n\nTrishala worked on AI tools for scientists on the Gemini for Science team at Google Labs/Deepmind. Mark brings AI research and benchmarking experience from Berkeley Artificial Intelligence Research (BAIR), alongside infrastructure engineering experience at Netflix and Google. We’re both engineers (EE &amp; CS) from UC Berkeley excited about making AI a meaningful collaborator at the lab bench. \n\n**We’d love your help:**\n\n* **AI research and evaluations:** We’d appreciate introductions to teams interested in evaluating or training models on experimental engineering work.\n* **EE expertise:** If you have a challenging engineering problem that could become a meaningful evaluation, we’d love to collaborate.",
+      "url": "https://www.ycombinator.com/launches/Xck-evident-machines-training-ai-on-real-world-ee-tasks-at-a-physical-lab-bench",
+      "votes": 11,
+      "created_at": "2026-11-18T14:00:00.128Z"
+    }
+  ]
+}

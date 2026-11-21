@@ -1,0 +1,73 @@
+{
+  "id": 35091,
+  "name": "Ample Computer",
+  "slug": "ample-computer",
+  "former_names": [],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/20a58a6cb709fda329d24b263a54b787cd53d4bc.png",
+  "website": "https://ample.computer/",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "Vibecoding has made creating software easy, but launching a real app still means wiring up 5-10 separate cloud services, which stops most new builders. Ample is the one-stop cloud for agents to ship complex web apps. \r\n\r\nAdd Ample to Claude or ChatGPT, tell your agent to \"deploy on Ample\", and get a live URL in seconds. Ample reads your codebase, works out what infrastructure it needs, and sets up compute, database, storage, CDN, domain and email, with payments, text and analytics next. We then monitor, patch and scale your app so you never have to migrate it.\r\n\r\nRavi and Ishan led product and infrastructure engineering for the Shopify App Store, a platform of 25,000 apps used by 5 million merchants and processing $1B in GMV a year. We're doing for software what Shopify did for e-commerce, so that anyone with a computer or even a phone can deploy, share and sell ambitious software from any AI platform.",
+  "one_liner": "The one-stop cloud for agents to ship complex web apps",
+  "team_size": 2,
+  "industry": "B2B",
+  "subindustry": "B2B -> Infrastructure",
+  "launched_at": 1794340768,
+  "tags": [
+    "B2B",
+    "Cloud Computing",
+    "Infrastructure",
+    "AI"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Fall 2026",
+  "status": "Active",
+  "industries": [
+    "B2B",
+    "Infrastructure"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "partners": "Christopher",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/ample-computer",
+  "api": "https://devasheeshg.github.io/yc-api/batches/fall-2026/ample-computer.json",
+  "year_founded": 2026,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "",
+  "x_url": "",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/20a58a6cb709fda329d24b263a54b787cd53d4bc.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Christopher Golda",
+    "url": "https://www.ycombinator.com/people/christopher-golda"
+  },
+  "founders": [],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 128401,
+      "title": "Ample: the one-stop cloud for agents to ship complex web apps.",
+      "tagline": "Tell your agent \"deploy on Ample\" and get compute, database, storage, CDN, domain, email, and more in one place.",
+      "body": "Ample is the one-stop cloud for agents to ship complex web apps. Add Ample to Claude or ChatGPT, tell your agent to \"deploy on Ample\", and get a live URL in seconds, with compute, database, storage, CDN, domain and email already set up. Try it at [ample.computer](http://ample.computer).\n\n![uploaded image](/media/?type=post&id=128401&key=user_uploads/427042/165618a8-2738-42b4-825b-2ca5865f6fe5)\n\nVibecoding has made creating software easy. Launching it is still hard. We asked an agent to launch a basic booking app for a salon, the kind that needs a database, image handling and email, and it told us to set up almost 10 different services. An engineer can work through that. Most of the people learning to make software today can't, so their apps never leave the chat window.\n\n<https://youtu.be/vVdcc9Bhu1k>\n\n### What is Ample\n\n**With Ample, you can:**\n\n* Go from \"deploy\" to a live URL in seconds. Ample reads your codebase, works out what infrastructure it needs, provisions it on our servers and deploys your app.\n* Get the whole cloud in one place: compute, database, storage, CDN, domain and email. Payments, text and analytics are next.\n* Skip the sign-ups, API keys and config for 5-10 separate services. Your agent asks Ample for what the app needs.\n* Leave the upkeep to us. We monitor, patch and scale your app so you never have to migrate it.\n* Make it yours. Rename your URL, move to your own domain, and edit the design from your dashboard.\n\n**We launched to YC founders on November 3 and passed 4,000 users in 13 days.** The first 1,000 took 7 days. The next 1,000 took 3.\n\n![uploaded image](/media/?type=post&id=128401&key=user_uploads/427042/a1e1ea99-5ed4-4c9e-9617-83bd4f35a364)\n\n### What people are building\n\nEach builder uses 8-10 pieces of infrastructure that would normally come from about 10 separate vendors. None of them set any of it up. Their agent asked Ample for it.\n\n* **An online store in Algeria.** SA Collection sells women's fashion in Arabic and French, with prices in dinars and cash on delivery. In one 18-hour stretch it had 307 shoppers, most of them from Instagram, and 55 order or checkout submissions.\n* **A women's business fair in Quibdó, Colombia.** The organizer built the registration site herself. It takes applications for stalls, artist spots and volunteers, and drew about 220 visitors and 30 submissions in 16 hours.\n* **A music archive for a church.** Kimbazik preserves the hymns of the Kimbanguist church, with search, playlists and favorites. Behind it are a web app, an API, an audio-processing worker and a Postgres database, with Google sign-in.\n\n### Why we built Ample\n\nWe met at Shopify, where we led product and infrastructure engineering for the Shopify App Store, **a platform of 25,000 apps used by 5 million merchants and processing $1B in GMV a year.** Ravi was a Director of Product at Shopify and Indeed, and founded and sold Athleague. Ishan was a Staff Developer at Shopify building developer tools, and led the launch of GameStop's NFT marketplace.\n\nAt Shopify we saw what happens when you remove the technical barriers to e-commerce: people who had never run a store started businesses. Software is at the same point now. Agents can write the app, and the cloud is what stands between that app and its first user.\n\nWe're building Ample to do for software what Shopify did for e-commerce, so that anyone with a phone can deploy, share and sell what they make.\n\n**Building something with an agent? Sign up at [ample.computer](http://ample.computer), or add the Ample connector to Claude or the Ample plugin to ChatGPT and tell your agent to deploy.**",
+      "url": "https://www.ycombinator.com/launches/XOz-ample-the-one-stop-cloud-for-agents-to-ship-complex-web-apps",
+      "votes": 15,
+      "created_at": "2026-11-17T18:30:00.265Z"
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+"""Typed Python client for the unofficial Y Combinator companies API."""
+
+from .client import YCClient
+from .models import (
+    AppAnswer,
+    Company,
+    CompanyIndustry,
+    CompanyStage,
+    CompanyStatus,
+    CompanySubindustry,
+    Founder,
+    Job,
+    JobExperience,
+    JobRole,
+    JobType,
+    JobVisa,
+    Launch,
+    Meta,
+    MetaEntry,
+    News,
+    Partner,
+    QuestionAnswer,
+)
+
+__all__ = [
+    "AppAnswer",
+    "CompanyIndustry",
+    "CompanyStage",
+    "CompanyStatus",
+    "CompanySubindustry",
+    "YCClient",
+    "Company",
+    "Founder",
+    "Job",
+    "JobExperience",
+    "JobRole",
+    "JobType",
+    "JobVisa",
+    "Launch",
+    "Meta",
+    "MetaEntry",
+    "News",
+    "Partner",
+    "QuestionAnswer",
+]

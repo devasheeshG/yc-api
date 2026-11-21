@@ -1,0 +1,91 @@
+{
+  "id": 31365,
+  "name": "Incandor",
+  "slug": "incandor",
+  "former_names": [],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/897d4bcd4f8d8953ac74712b5cc1711e4eb40c78.png",
+  "website": "https://www.incandor.com",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "As AI agents become increasingly autonomous, they're gaining access to the most sensitive systems inside the enterprise. Yet today's security tools were built to control who has access, not understand what they're actually doing with it.\r\n\r\nFounded by Stanford engineers, Incandor has raised an $8 million seed round led by Andreessen Horowitz (a16z), with backing from security leaders at Datadog and Plaid, the co-founder of Okta, and three Oscar winners.",
+  "one_liner": "Incandor is building the next generation of security for a world run…",
+  "team_size": 3,
+  "industry": "B2B",
+  "subindustry": "B2B",
+  "launched_at": 1778822795,
+  "tags": [
+    "Security",
+    "Cybersecurity"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Spring 2026",
+  "status": "Active",
+  "industries": [
+    "B2B"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "partners": "David",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/incandor",
+  "api": "https://devasheeshg.github.io/yc-api/batches/spring-2026/incandor.json",
+  "year_founded": null,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "",
+  "x_url": "",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/897d4bcd4f8d8953ac74712b5cc1711e4eb40c78.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "David Lieb",
+    "url": "https://www.ycombinator.com/people/david-lieb"
+  },
+  "founders": [
+    {
+      "user_id": 3296850,
+      "full_name": "Matthew Yekell",
+      "title": "Founder/CEO",
+      "founder_bio": "Founder at Incandor. Previously at Vista Equity Partners, Stanford Management Company, and Cboe Global Markets. Stanford CS.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/matthew-yekell-399866166/",
+      "x_url": null,
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/2ece86c26db4ba9237767eca78d14771be087b8c.jpg"
+    },
+    {
+      "user_id": 3296866,
+      "full_name": "Luc Rosenzweig",
+      "title": "Founder/CTO",
+      "founder_bio": "Founder at Incandor. Previously founding engineer at a robotics startup and systems researcher at Stanford under Prof. Kayvon Fatahalian, focusing on GPUs, robotics, and simulation. Interned on graphics and systems at NVIDIA (Vulkan drivers), Epic Games (rendering), and Apple (Metal). Stanford CS '25.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/luc-rosenzweig/",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/e337dc2561e4d8ec05e9cd1008e4a09e8be13384.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 101742,
+      "title": "Incandor - Behavioral intelligence for fraud detection",
+      "tagline": "Real-time visibility into who's actually operating every account on your platform",
+      "body": "Hi all,\n\nWe're Matthew and Luc, two Stanford grads building Incandor (YC P26).\n\n<https://youtu.be/dWrp82VkDbA>\n\n**TL;DR**: Banks verify identity at account creation, but have no continuous signal for who's actually operating an account afterward. Incandor builds that layer – a behavioral identity per session, persistent across the accounts, devices, and credentials a fraudster cycles through.\n\n## **The Problem**\n\nBanks have built layers of defense – KYC pipelines, device fingerprinting, transaction monitoring, rules engines built over decades. Fraud and money laundering are still a multi-hundred-billion dollar problem.\n\nEvery defense was built around identity, but **identity has become a commodity**:\n\n* **Attackers buy verified IDs in bulk**, pass document checks, rotate devices, and stay under transaction thresholds by design\n* **A mule operator running 40 accounts under 40 different identities** can look like 40 unrelated people to every system you have\n* **Coordinated rings move money across your platform sharing no transactions, no devices, no names** – invisible to rules engines until it's too late\n\nBanks have strong verification at account creation and strong monitoring of transactions, but no continuous, identity-level signal in between. Incandor is that layer.\n\n## **The Solution**\n\n**Incandor analyzes how people physically interact with their devices (taps, clicks, scrolls, etc.) and turns every session into a behavioral point**. Every human creates a unique cluster. We then place all these points in a map to provide a population view of all users.\n\nIncandor allows banks to reconcile the operators of accounts through their behavior alone. From this, we can identify the most common patterns among fraud rings:\n\n* **We can detect when the person operating an account changes mid-life**, a tell-tale sign of a mule handoff, resale of accounts, account takeover, or other bespoke coordinated activity.\n* Detecting when account changes hands isn’t enough, though – **we can identify the operator behind that behavior and inspect their activity across the platform**.\n* **We can see when someone is operating multiple accounts** – very typical for coordinated fraud or money laundering.\n* After a confirmed fraud case, banks can flag the operator so that if they attempt to return to the platform, **we can block banned operators during onboarding or if they later take over another account**.\n\nWe’ve designed this system so that banks can integrate the navigation of Incandor’s behavioral map into their own workflows which may also contain transaction linking and other linking signals.\n\nIntegration is simply a matter of deploying our SDK which sends us these behavioral telemetry signals. Once signals are in, our API for interacting with the map becomes live.\n\n**We collect only behavioral signals – not what users type, read, or view.** Behavior alone enables operator-level reconciliation, and keeps user data private by design.\n\n## **The Ask**\n\nWe're onboarding early customers and would love intros to any of the following at commercial and consumer banks, fintechs, neobanks, or digital banks:\n\n* Chief Risk Officers / Chief Compliance Officers\n* Heads of Fraud / Financial Crime / AML\n* Fraud engineers or investigators\n* CEOs / CTOs at Series A-E fintechs\n\nReach out directly at [matthew@incandor.com](mailto:matthew@incandor.com) or [luc@incandor.com](mailto:luc@incandor.com) :)",
+      "url": "https://www.ycombinator.com/launches/QT0-incandor-behavioral-intelligence-for-fraud-detection",
+      "votes": 32,
+      "created_at": "2026-05-21T22:27:38.929Z"
+    }
+  ]
+}

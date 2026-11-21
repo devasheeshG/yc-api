@@ -1,0 +1,90 @@
+{
+  "id": 35257,
+  "name": "Nodus Compute",
+  "slug": "nodus-compute",
+  "former_names": [
+    "Nodus"
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/cf5d37476e8f7b170957ddb85fd0254d52fa2634.png",
+  "website": "https://www.nodus-compute.ai/",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "GPU capacity is sold like real estate: locked up, prepaid and idle half the time. Nodus makes it liquid, runs any AI workload on it through one execution layer, and puts research agents on every run to make the next one cheaper. More workloads mean better research, and better research means cheaper compute, a loop no single-product cloud can match.",
+  "one_liner": "Maximize the AI you get from your Infrastructure",
+  "team_size": 2,
+  "industry": "B2B",
+  "subindustry": "B2B",
+  "launched_at": 1788063210,
+  "tags": [],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Fall 2026",
+  "status": "Active",
+  "industries": [
+    "B2B"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "partners": "Andrew",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/nodus-compute",
+  "api": "https://devasheeshg.github.io/yc-api/batches/fall-2026/nodus-compute.json",
+  "year_founded": 2026,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/nodus-compute",
+  "x_url": "https://x.com/nodus_compute",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": "https://github.com/nodus-compute/",
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/cf5d37476e8f7b170957ddb85fd0254d52fa2634.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Andrew Miklas",
+    "url": "https://www.ycombinator.com/people/andrew-miklas"
+  },
+  "founders": [
+    {
+      "user_id": 1792661,
+      "full_name": "Viswa Kotra",
+      "title": "Founder",
+      "founder_bio": "Founder at Nodus Compute (YC F26). Previously at Citadel Securities, Snowflake, Scale AI. ",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/viswa-kotra",
+      "x_url": "https://x.com/viswa_kotra",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/a0f2d4b476bbec956abef5900346a59c67258655.jpg"
+    },
+    {
+      "user_id": 2410885,
+      "full_name": "Pranav Varshney",
+      "title": "Founder",
+      "founder_bio": "Founder at Nodus Compute (YC F26). Previously at Google, Uber, Scale AI, & AWS. ",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/pvarshh",
+      "x_url": "https://x.com/pvarshh",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/a0ba07e21403033e8b96bfd650c021bf227174ee.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 126302,
+      "title": "Nodus Compute | Get more AI from the GPUs that already exist",
+      "tagline": "The AI buildout runs on debt. The fix isn't more GPUs. It's getting more AI out of the ones that already exist.",
+      "body": "**TL;DR:** The world is borrowing hundreds of billions of dollars to build GPUs, and the average GPU is busy 5% of the time. Nodus Compute gets more AI out of the GPUs that already exist. We fill idle hours with useful work, pack more models and jobs onto every card, and run training, RL, agents and inference on one platform.\n\n<https://www.youtube.com/watch?v=P00rkHZenU8>\n\n### The AI buildout is running on debt\n\nMore than **$500 billion** of debt has gone into AI infrastructure (\\[Forbes\\](<https://www.forbes.com/sites/mayrarodriguezvalladares/2026/10/22/the-half-trillion-dollar-silicon-gamble-inside-the-ai-debt-boom/>)). Data centers are financed against GPUs that lose value every year, on the bet that those GPUs stay busy.\n\nThey don't. Across tens of thousands of clusters, average GPU utilization was **5%** (\\[Cast AI, 2026\\](<https://cast.ai/press-release/2026-state-of-kubernetes-optimization-report/>)).\n\nEvery idle hour is interest paid on hardware that produced nothing. The industry's answer is to borrow more and build more. Overclocking makes the car faster. Building more cars doesn't help either. **The seats are still empty.**\n\n### The answer isn't more GPUs. It's more AI per GPU.\n\nIf the GPUs that already exist did twice the work, that would be like doubling the world's compute without another loan. That's the company we're building, and it's why we run our own research lab.\n\n### Our research\n\nOur lab works on one number: **useful AI per paid GPU-hour.** What we're working on:\n\n\\- **Many models, fewer GPUs.** Serving lots of models from a shared pool of GPUs, instead of giving every model a GPU of its own.\n\n\\- **Instant model switching.** Letting a GPU change the model it serves almost instantly, so no GPU has to sit reserved for one model.\n\n\\- **Idle gaps become output.** Filling the quiet time behind live traffic with batch work, and running RL rollouts and training on the same GPUs.\n\n\\- **AI writing faster GPU code.** Agents that write, test and keep only the GPU kernels that actually run faster.\n\nIn our launch video, one H100 pretrains an LLM while that same model plays Super Mario, on the same GPU at the same time.\n\n### What you can do with Nodus today\n\n\\- **Fill the GPUs you have.** Enroll your machines, see how busy they really are, and route your work to them first. Turn on idle capacity, and other teams' jobs fill the gaps while you earn credits.\n\n\\- **Run every AI workload in one place.** Training, RL and evals, agent sandboxes, inference and GPU workspaces. Interrupted runs pick up from their last checkpoint, so paid hours are never thrown away.\n\n\\- **Get compute when you need it.** On demand from RTX cards to B300s, or reserved GPUs and clusters. Drive it all from Claude Code, Codex or Cursor.\n\n### Who we are\n\nWe're Viswa and Pranav. We met at Scale AI. Viswa worked at Citadel Securities and Snowflake. Pranav built infrastructure at AWS, Google and Uber.\n\n**More than 200 teams have joined since we launched in October**\n\n### Our ask\n\nIf you run a data center or a GPU fleet, finance one, or train and serve models on one, let's find out how much more AI you can get out of it.\n\nBook a call at [https://nodus-compute.ai/book/](https://nodus-compute.ai/book/\\)**)\n\nThe world doesn't need more GPUs. It needs more AI from the ones it has. **Squeeze every bit of AI from your infrastructure.**",
+      "url": "https://www.ycombinator.com/launches/Wr8-nodus-compute-get-more-ai-from-the-gpus-that-already-exist",
+      "votes": 7,
+      "created_at": "2026-11-09T20:30:00.165Z"
+    }
+  ]
+}

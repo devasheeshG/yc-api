@@ -1,0 +1,90 @@
+{
+  "id": 34901,
+  "name": "Outworld Labs",
+  "slug": "outworld-labs",
+  "former_names": [],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/e97ce26caf41d900b85740f8c55310298325be3f.png",
+  "website": "https://outworldlabs.com",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "Outworld Labs is building a simulation platform for training and evaluating robot foundation models. The platform is built on a brand new physics engine designed from the ground up for dexterous manipulation. It enables researchers to easily create realistic environments, reconstruct and augment real-world data, and improve their models through large-scale simulation without the cost of physical robots and real-world data collection.",
+  "one_liner": "Robotics simulation indistinguishable from reality",
+  "team_size": null,
+  "industry": "B2B",
+  "subindustry": "B2B",
+  "launched_at": 1794474124,
+  "tags": [
+    "Robotics"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Fall 2026",
+  "status": "Active",
+  "industries": [
+    "B2B"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "partners": "Pete",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/outworld-labs",
+  "api": "https://devasheeshg.github.io/yc-api/batches/fall-2026/outworld-labs.json",
+  "year_founded": 2026,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/outworld-labs/",
+  "x_url": "https://x.com/outworldlabs",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/e97ce26caf41d900b85740f8c55310298325be3f.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Pete Koomen",
+    "url": "https://www.ycombinator.com/people/pete-koomen"
+  },
+  "founders": [
+    {
+      "user_id": 3924082,
+      "full_name": "Matei Gardea",
+      "title": "Founder/CEO",
+      "founder_bio": "Co-founder at Outworld Labs. Previously did robotics research at BAIR, worked in banking at the Royal Bank of Canada, and also served as Head TA for one of the largest undergrad classes at UC Berkeley. BA/MEng EECS at UC Berkeley.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/matei-gardea/",
+      "x_url": "https://x.com/mateigardea",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/6225ea67dc60ae59862fbab8e5bbf0c062a1ea7c.jpg"
+    },
+    {
+      "user_id": 3727308,
+      "full_name": "Daniel Grant",
+      "title": "Founder/CTO",
+      "founder_bio": "Co-founder of Outworld Labs. Prior research with BAIR, the Oxford Robotics Institute, Google DeepMind and NASA's Advanced Supercomputing Division. Master's in EECS from Cal, BA in Math and CS from Bowdoin, visiting scholar at Oxford.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/djrgrant",
+      "x_url": "https://x.com/danieljgrant",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/da76f683be0fcf72c8ddcdc4acae733c0a64e9b4.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 128638,
+      "title": "Outworld Labs: Simulation for training and evaluating robot foundation models",
+      "tagline": "Robotics simulation indistinguishable from reality",
+      "body": "Hi! We’re Matei and Daniel, the founders of [Outworld Labs](https://outworldlabs.com/). We’re building a simulation platform for training and evaluating robot foundation models.\n\n<https://youtu.be/mnklLUU5Bdk>\n\nCollecting robot training data and testing models is expensive and difficult to scale. It requires physical robots, human operators, and repeated task setup and resets. Simulation could make both faster and cheaper, but inaccurate physics and limited environment diversity make it difficult to transfer simulated results to real robots. Complex and unintuitive tools also make setting up, scaling, and debugging simulations difficult.\n\nWe’re building Horizon to address these problems. At its core is a new physics engine designed from the ground up for dexterous manipulation. Alongside it, we’re building tools to create realistic environments, reconstruct and augment real-world data, and run simulation, training, and evaluation workloads at scale—all in one platform.\n\nOur goal is to help robotics teams generate more diverse training data and reliably evaluate models across tasks, objects, and environments, with less reliance on physical robots and manual data collection.\n\nWe met during our master’s in EECS at UC Berkeley. If you’re building robot foundation models or working on robot training and evaluation, we’d love to hear about your workflow and explore how we could help.",
+      "url": "https://www.ycombinator.com/launches/XSo-outworld-labs-simulation-for-training-and-evaluating-robot-foundation-models",
+      "votes": 2,
+      "created_at": "2026-11-12T22:37:00.181Z"
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "id": 35059,
+  "name": "Central Blue",
+  "slug": "central-blue",
+  "former_names": [],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/f3677cc5165f14459d957f9c303ce436693b0f18.png",
+  "website": "https://www.centralblue.ai/",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "Spacecraft today have to generate all their own power, which caps what can be built and operated in orbit. Central Blue is building the power grid for space: satellites that collect sunlight and beam power by laser to receiver panels on other spacecraft.\r\n\r\nOur first power-beaming prototype is nearly complete in Seattle, with a laser-powered propulsion demonstration planned with Wave Motion Launch Technologies. Our CORE software will let the power satellites detect faults and recover on their own, keeping the grid running around the clock.",
+  "one_liner": "The power grid for space: we build power-beaming satellites.",
+  "team_size": 2,
+  "industry": "Industrials",
+  "subindustry": "Industrials -> Aviation and Space",
+  "launched_at": 1794778898,
+  "tags": [
+    "Space Exploration",
+    "Aerospace",
+    "Defense"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Fall 2026",
+  "status": "Active",
+  "industries": [
+    "Industrials",
+    "Aviation and Space"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "partners": "Max",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/central-blue",
+  "api": "https://devasheeshg.github.io/yc-api/batches/fall-2026/central-blue.json",
+  "year_founded": 2026,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://linkedin.com/company/centralblue",
+  "x_url": "https://x.com/centralblue_inc",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": "https://github.com/Central-Blue",
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/f3677cc5165f14459d957f9c303ce436693b0f18.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Max Kolysh",
+    "url": null
+  },
+  "founders": [
+    {
+      "user_id": 740114,
+      "full_name": "Brian Wu",
+      "title": "Founder/CEO",
+      "founder_bio": "In high school I blew up a chemistry lab fume hood while building solid rocket motors in my free time. As a kid, I watched Curiosity launch to Mars in 2011 from Florida, and fifteen years later, I was at NASA JPL teaching Perseverance how to navigate visually. After Stanford, Apple, and autonomy startups for drones and space rovers, I’m now building the power grid for space.\n\nBorn & raised in NYC. Obsessed with squash, skiing, flying, & of course space.",
+      "is_active": true,
+      "linkedin_url": "https://linkedin.com/in/brianywu/",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/9e31e1a5193a0765947b7d0510a25f682b2cce19.jpg"
+    },
+    {
+      "user_id": 4022476,
+      "full_name": "Jeewoo Choi",
+      "title": "Founder/CTO",
+      "founder_bio": "When I was 15, I built my first EMP out of junkyard parts, invested $10k in Tesla, and purchased my first car for $2,000. Did Stanford MechE BS then MechE MS. Now I'm making the power grid for space at Central Blue. CTO.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/jeewoo-choi-058180195/",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/fa738e725082ea11af7086d1fb10f1810f8acf91.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 128677,
+      "title": "Central Blue: The Power Grid for Space",
+      "tagline": "Satellites that beam power to other spacecraft by laser",
+      "body": "Central Blue is building satellites that collect sunlight and beam power by near-infrared laser to other spacecraft. Dedicated receiver panels turn that light into electricity. Our ambition is to power an entire civilization in space.\n\nhttps://youtu.be/LfYRo4W2amo\n\nToday, most spacecraft have to bring their own power supply. Solar arrays and batteries add mass that could otherwise go to cameras, instruments, or engines. A satellite in low Earth orbit can spend [around 35 minutes](https://hesperia.gsfc.nasa.gov/rhessidatacenter/instrument/definitions.html) of an orbit in Earth’s shadow, running on batteries until sunlight returns.\n\nBuying extra power could let a satellite map more flooded roads after a storm or operate its electric thrusters for longer, even in Earth’s shadow. Factories in orbit could buy electricity for robots assembling spacecraft too large to launch in one piece, then buy more as they grow. At a lunar base, the grid could power life support, heat habitats, and keep research equipment running through [nights lasting about two weeks](https://www.nasa.gov/centers-and-facilities/marshall/four-teams-win-prizes-to-advance-energy-technology-for-moon-missions/).\n\n### Building the grid\n\nOur first power-beaming prototype is nearly complete in Seattle, with a demonstration planned for early December. Our demo partner, Wave Motion Launch Technologies, is providing the thruster; our kilowatt-class fiber laser will heat a graphite block inside it to about 1,000°C. The block stores that heat; opening a valve sends gas through it and out of a nozzle, producing thrust. This demonstration will test how beamed energy can power propulsion directly.\n\nNext, we plan to beam power to drones and remote sites, including disaster-relief zones and field bases where hauling fuel is difficult. Those tests will let us refine the lasers, receivers, and beam tracking needed for space. The grid’s planned rollout begins with links between satellites in low Earth orbit, then reaches spacecraft flying closer to Earth, and eventually the Moon.\n\nA grid running around the clock needs satellites that can recover safely without waiting for Earth. We plan to use CORE (Cognitive Onboard Resilience Engine), our spacecraft recovery software, for that job and are preparing to flight-test it with [Satlyt](https://satlyt.ai/).\n\n### The people building it\n\nWe’re Brian Wu and Jeewoo Choi. We met six years ago studying engineering at Stanford.\n\nBrian got hooked on space exploration watching Curiosity launch for Mars and later worked at NASA JPL on visual navigation for Perseverance. His experience also includes AI at Apple and robotics at Field AI. He holds BS and MS degrees in computer science from Stanford.\n\nJeewoo grew up learning English through books about Apollo and Voyager. At Boeing Defense, Space & Security, he worked on thermal, airflow, and environmental testing. He holds BS and MS degrees in mechanical engineering from Stanford.\n\n**Spacecraft builders and operators: if power is holding back your next mission, tell us how much you need and when.**\n\n**[founders@centralblue.ai](mailto:founders@centralblue.ai)** · [centralblue.ai](https://www.centralblue.ai/)",
+      "url": "https://www.ycombinator.com/launches/XTR-central-blue-the-power-grid-for-space",
+      "votes": 26,
+      "created_at": "2026-11-16T20:00:00.507Z"
+    }
+  ]
+}

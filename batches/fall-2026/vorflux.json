@@ -1,0 +1,104 @@
+{
+  "id": 33574,
+  "name": "Vorflux",
+  "slug": "vorflux",
+  "former_names": [],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/376bda82fa73bd6edadb1859b1ee16cb3d4d1558.png",
+  "website": "https://vorflux.ai",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "Vorflux is a cloud-based AI coding agent for teams that takes work from an idea, ticket, or message through planning, implementation, review, testing, and a pull request.\r\n\r\nIts harness coordinates parallel agents, uses different models for planning and adversarial review, and retains codebase knowledge across sessions. Each team's repository and full stack run on dedicated compute, where QA agents test the application in a real browser and record video evidence.\r\n\r\nVorflux connects to tools such as GitHub, GitLab, Linear, Slack, Figma, and Jira, as well as cloud infrastructure and observability tools. Teams can bring their own models, with tasks routed to the best-value model. Vorflux also helps teams set up the harness and work through their first backlog.",
+  "one_liner": "A cloud-based AI coding agent for teams",
+  "team_size": null,
+  "industry": "B2B",
+  "subindustry": "B2B -> Engineering, Product and Design",
+  "launched_at": 1794214000,
+  "tags": [
+    "Developer Tools",
+    "B2B",
+    "Enterprise Software",
+    "AI"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Fall 2026",
+  "status": "Active",
+  "industries": [
+    "B2B",
+    "Engineering, Product and Design"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "partners": "Garry",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/vorflux",
+  "api": "https://devasheeshg.github.io/yc-api/batches/fall-2026/vorflux.json",
+  "year_founded": 2026,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/vorflux/",
+  "x_url": "https://x.com/vorfluxai",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/376bda82fa73bd6edadb1859b1ee16cb3d4d1558.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Garry Tan",
+    "url": "https://www.ycombinator.com/people/garry-tan"
+  },
+  "founders": [
+    {
+      "user_id": 2770758,
+      "full_name": "Haritha Elango",
+      "title": "Founder",
+      "founder_bio": "Co-founder @Vorflux, ex-Databricks",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/haritha-elango-24a4b1a5",
+      "x_url": "https://x.com/harithaelango",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/a75163b902fc47782446815d4bd5270da4b98873.jpg"
+    },
+    {
+      "user_id": 371546,
+      "full_name": "Anant Nag",
+      "title": "Founder",
+      "founder_bio": "Co-founder of Vorflux (YC F26), a cloud-based AI coding agent that takes teams from an idea or ticket to a tested pull request. Previously a Staff Software Engineer at Databricks, with earlier engineering roles at Rubrik, Rippling, and LinkedIn.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/anantnag91/",
+      "x_url": "https://x.com/nntnag17",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/a441012bcede511f3c2c926cc71622db381769b9.jpg"
+    },
+    {
+      "user_id": 1403,
+      "full_name": "Prasanna S",
+      "title": "Founder",
+      "founder_bio": "Co-founder at Vorflux. Previously co-founder and CTO at Rippling (W17), scaling it from founding through $13B+ valuation. First engineer on Zenefits Payroll as Director of Engineering. Earlier founded LikeALittle (YC W11). Software developer at Microsoft, intern at Google. B.Tech CS from NIT Trichy.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/myprasanna",
+      "x_url": "https://www.twitter.com/myprasanna",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/9327a97d795ee8dd97c1c27aea5ee5db90d8800d.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 127825,
+      "title": "Vorflux 2.0: Autobots",
+      "tagline": "24x7 coworkers that live in Slack.",
+      "body": "Today we're launching Vorflux 2.0: AutoBots, 24x7 coworkers that live in Slack.\n\nI previously co-founded [Rippling](https://www.rippling.com/), now $10B+, with an engineering team of 1000s. In 15 years of running companies and eng teams I've never seen engineering change this fast: IDE autocomplete > CLI > cloud agents > multiplayer Slack bots.\\\n\\\n<https://www.youtube.com/watch?v=QbiQ7EORbLg>\n\\\nLocalhost coding gives you a parallelism of \\~5. Cloud coding agents took it to \\~20. Models deliver predictably now, so the bottleneck to parallelism is everything around them: starting the work, keeping track of it and pinging the right people for approvals.\n\nPeople assigned tasks to Vorflux 1.0 from Slack and Linear and reviewed the work there. You still had to start each task and keep track of it, or start everything and suffer the noise. Vorflux 2.0 AutoBots are plugged into your data watching things and proactively find areas to work on, with  a PM layer on top, and common sense.\n\nIn this new world humans do the 0 to 1 work and agents do the 1-100. Lots of intent is obvious. Everyone wants user errors fixed, APIs faster, and customer support answered and complaints fixed. You don't need a human in the loop before you start.\n\n**You still have to be choosy and mind the noise, so every AutoBot:**\n\n* Picks the highest-impact work first.\n* Learns over time and scales up as its work gets accepted.\n* Scales down when nobody engages.\n* Sends daily reports and follows up with the right people on the team for approvals.\n\n**Here's how we build now:**\n\n1. Start a project in a Slack channel and drop in all the context: specs, work items, mocks, ideas.\n2. The Project Manager AutoBot works with you to break it down and assign owners.\n3. It keeps track of every stream of work.\n4. Every day it reports progress % and blockers.\n\n**Hire from our directory of opinionated AutoBots, or make a new one with a goal:**\n\n* **On-call:** triages Sentry and PagerDuty alerts and investigates before an engineer is looped in\n* **CI:** keeps speeding up your builds.\n* **Project manager:** holds a whole project in one Slack channel and reports progress and blockers every day, with automated follow-ups.\n* **Customer experience:** reads the call transcript and screen recording, finds the TODOs and asks if it can pick up the work.\n\nBring your Codex or Claude Code subscriptions and Vorflux is practically free.\n\nWe recently closed a $15M seed round backed by [Y Combinator](https://www.ycombinator.com/), [Peak XV Partners](https://www.peakxv.com/) and [Alliance DAO](https://alliance.xyz/) and other incredible angel investors.\n\nOur north star is to build a self driving company and maximize leverage.\n\nComment below with the AutoBot you'd like to try and we'll double your credits.\n\nHappy to walk you through it and see if we can help: <https://calendly.com/myprasanna/vorflux>\n\n**Build a self-driving company 🫡**",
+      "url": "https://www.ycombinator.com/launches/XFh-vorflux-2-0-autobots",
+      "votes": 27,
+      "created_at": "2026-11-10T18:20:38.710Z"
+    }
+  ]
+}

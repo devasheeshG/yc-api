@@ -1,0 +1,74 @@
+{
+  "id": 35982,
+  "name": "Routant",
+  "slug": "routant",
+  "former_names": [
+    "AlphaDI Labs"
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/447dd9475c7b300e10d5e9da6bfeb6b3c50ed0d3.png",
+  "website": "https://routant.ai/",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "AI agents won’t stay inside the companies that build them. The most valuable agents will work across company boundaries, inside customers’ private systems. In those environments, intelligence is no longer the barrier to deployment. Trust and access are. Routant is the zero-trust access layer for this new agentic world. Vendors integrate once, while customers retain governance over every deployment, deciding what agents can access and which actions need human review, with a complete audit trail of every action.",
+  "one_liner": "Last mile deployment and connectivity for Agents as a Service",
+  "team_size": 0,
+  "industry": "B2B",
+  "subindustry": "B2B -> Infrastructure",
+  "launched_at": 1793325617,
+  "tags": [
+    "AIOps",
+    "Cybersecurity",
+    "AI"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Fall 2026",
+  "status": "Active",
+  "industries": [
+    "B2B",
+    "Infrastructure"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "partners": "Charlie",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/routant",
+  "api": "https://devasheeshg.github.io/yc-api/batches/fall-2026/routant.json",
+  "year_founded": null,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "",
+  "x_url": "",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/447dd9475c7b300e10d5e9da6bfeb6b3c50ed0d3.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Charlie Warren",
+    "url": null
+  },
+  "founders": [],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 125699,
+      "title": "Routant — Let AI agents into your apps, on your rules",
+      "tagline": "Selective, secure access for AI agents to exactly the apps and data you choose",
+      "body": "**TL;DR**\n\nRoutant lets AI agents work inside your apps and private systems, with access rules you control. Choose which tools an agent can use, require approval for sensitive actions, and review what it did.\n\n<https://youtu.be/3cYCNFWQjuc>\n\n**The Problem**\n\nAn AI agent is only useful if it can get into the systems where the work happens: your inbox, your database, your payment provider, a customer's internal tools. Today, giving it that access is all or nothing.\n\nAn agent connected to your email can read messages it has no reason to see. An IT agent troubleshooting a production issue may need access to infrastructure far beyond the affected system. And a company deploying support agents across customers needs to navigate a different set of private networks, credentials, and security policies for every environment.\n\nTeams stitch together VPNs, custom integrations, credentials, and approval workflows to make this work. They often rely on prompt instructions or scattered configuration files to limit what agents can do, but these aren't reliable security boundaries. The result is that agents either get too much access, creating unnecessary risk, or too little, leaving humans to do the work themselves.\n\n**Our Solution**\n\nRoutant sits between your agents and the systems they use, and enforces your rules on every request.\n\n* Connect once: agents reach your apps through a single MCP endpoint. Private and on-prem systems connect through an outbound-only gateway, with no inbound ports to open.\n* Selective access: an agent only sees the tools and data you've granted. For example, your assistant can handle work email while messages from friends stay invisible to it.\n* Approvals for what matters: sensitive actions are held until someone approves them, and disallowed actions are blocked outright.\n* A full record: every request and decision is logged, so you can see exactly what the agent did.\n\nBecause the rules live in Routant and are built into the access itself, they hold no matter what the prompt says. For companies building agents, each customer sets its own rules, so you integrate once instead of rebuilding access for every customer.\n\n**Why We’re Building This**\n\nI’m Aditya, the founder of Routant. Before this, I built ML pricing models as a quantitative options trader at IMC and studied computer science at Princeton.\n\nWorking with automated trading systems taught me that software needs explicit authority to act, controls around consequential decisions, and a record of what happened.\n\nAI agents need those controls as they start working inside other companies’ systems. We’re building Routant to make that access practical.\n\n**Our Ask**\n\nKnow a security leader putting AI agents into production? We’d appreciate an introduction.\n\nIf you’re a CTO or CISO deciding what those agents can access in your systems, we’d love to show you Routant.\n\nBook a demo at [routant.ai](http://routant.ai)",
+      "url": "https://www.ycombinator.com/launches/WhP-routant-let-ai-agents-into-your-apps-on-your-rules",
+      "votes": 9,
+      "created_at": "2026-11-02T23:00:00.220Z"
+    }
+  ]
+}

@@ -1,0 +1,112 @@
+{
+  "id": 37105,
+  "name": "Tilion",
+  "slug": "tilion",
+  "former_names": [],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/119cb04a763e823c00332f94249a1f95dc277724.png",
+  "website": "https://tilion.com",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "we build self-healing browser infrastructure that runs millions of agent operations a day without supervision. \r\n\r\nteams use it for large-scale data collection, agentic workflows, continuous monitoring, and anything else that requires acting on the web at volume.\r\n",
+  "one_liner": "Super fast, unblockable browser infra for agents",
+  "team_size": 4,
+  "industry": "B2B",
+  "subindustry": "B2B -> Infrastructure",
+  "launched_at": 1789207215,
+  "tags": [
+    "B2B",
+    "Infrastructure"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Fall 2026",
+  "status": "Active",
+  "industries": [
+    "B2B",
+    "Infrastructure"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "partners": "Christopher",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/tilion",
+  "api": "https://devasheeshg.github.io/yc-api/batches/fall-2026/tilion.json",
+  "year_founded": 2026,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/tiliondev/",
+  "x_url": "https://x.com/tiliondev",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": "https://github.com/tiliondev",
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/119cb04a763e823c00332f94249a1f95dc277724.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Christopher Golda",
+    "url": "https://www.ycombinator.com/people/christopher-golda"
+  },
+  "founders": [
+    {
+      "user_id": 2899189,
+      "full_name": "Arman Luthra",
+      "title": "Founder/CEO",
+      "founder_bio": "co-founder and ceo, tilion",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/armanluthra/",
+      "x_url": "https://x.com/armanluthra_",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/34aec92b369d6bc7f6e6ac16012f97f32cd6b00f.jpg"
+    },
+    {
+      "user_id": 4010260,
+      "full_name": "Md Shahrier Islam Arham",
+      "title": "Founder/CTO",
+      "founder_bio": "co-founder and cto, tilion\n",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/shahrierislamarham",
+      "x_url": "https://x.com/shahrier_arham",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/d5a48ecf444676901358f5877217a054fb4cd8c3.jpg"
+    },
+    {
+      "user_id": 813280,
+      "full_name": "Kazi Fardinul Hoque",
+      "title": "Founder",
+      "founder_bio": "co-founder, tilion",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/kazi-fardinul-hoque",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/fbc8e1b5a2d183a188e9e010c3a1ced2e8e1e04b.jpg"
+    },
+    {
+      "user_id": 4005998,
+      "full_name": "Abdul Basit Tonmoy",
+      "title": "Founder/CPO",
+      "founder_bio": "co-founder, tilion",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/abdul-basit-tonmoy/",
+      "x_url": "https://x.com/basittonmoy",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/558829018df03fb6d5408d120566d397ba2913af.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 129581,
+      "title": "Tilion: Superfast, Unblockable Browser Infrastructure for Agents",
+      "tagline": "Let your agents can go anywhere on the web and finish every task",
+      "body": "tl;dr: Tilion is the fastest and stealthiest browser infrastructure in the world. Type \"setup [tilion.com](http://tilion.com)\" into your agent and it can go anywhere on the web.\n\nThe internet is the best thing we have built. Most of what humanity knows sits on it, and anyone can walk in. Agents can now use it too, and the web treats them as second-class. Every agent works for a person, so whatever the web keeps from an agent it keeps from that person.\n\n![uploaded image](/media/?type=post&id=129581&key=user_uploads/2899189/d49c2308-a37a-4344-8221-fa3efe46dd6e)\n\n**The problem**\n\nTo do anything on the web, an agent needs a browser. Most sites worth visiting sit behind Cloudflare, DataDome, Akamai or a CAPTCHA, and those systems can't tell your agent from a scraper. The agent gets a block page, reads it as if it were the content, and the task fails without anyone noticing.\n\nTeams building agents fight this themselves. They rent proxies, solve CAPTCHAs, patch fingerprints, and redo all of it every time a site changes. Scaling is another big problem all together. \n\n<https://youtu.be/V2NlqvpqpzQ>\n\n**Why nobody had fixed it**\n\nGetting through is stealth, and getting through fast is speed. Browser providers pick one, because stealth is paid for in time: real browsers, warm profiles, residential IPs, waiting out challenges. Speed comes from deleting all of that, which is exactly what bot detection looks for.\n\nAn agent runs in a loop, twenty page loads for one task, with a person waiting at the end. It needs both.\n\n**What we built**\n\nTilion runs on Fortress, our open-source build of Chromium. We fix the fingerprint inside the browser's C++, so there is no script layer for a site to detect. Fortress has 200,000+ installs. \n\nOn top of it we run self-healing infrastructure that handles proxies, CAPTCHAs, fingerprints and site changes, across millions of agent operations a day, along with our custom architecture which makes it fast. Super fast. \n\n**The numbers**\n\nTilion is number one on the public ComputeSDK browser benchmarks for agent action speed, for spin-up time, and for getting into protected sites.\n\n![uploaded image](/media/?type=post&id=129581&key=user_uploads/2899189/2dbf7567-ad0c-4c97-9531-c6ae03138d76)\n\n![uploaded image](/media/?type=post&id=129581&key=user_uploads/2899189/4089ed9f-4a62-47e0-a31c-9f7da2f007da)\n\n![uploaded image](/media/?type=post&id=129581&key=user_uploads/2899189/fd163c05-7d46-4d6a-9b16-0de431476dd1)\n\n**Try it**\n\nType \"setup [tilion.com](http://tilion.com)\" into your agent. That's all.\n\nSoon, billions of agents working for people will show up at the web's door. Tilion lets them in.",
+      "url": "https://www.ycombinator.com/launches/Xi1-tilion-superfast-unblockable-browser-infrastructure-for-agents",
+      "votes": 10,
+      "created_at": "2026-11-18T18:40:50.704Z"
+    }
+  ]
+}

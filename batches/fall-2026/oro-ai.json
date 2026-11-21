@@ -1,0 +1,93 @@
+{
+  "id": 35521,
+  "name": "ORO AI",
+  "slug": "oro-ai",
+  "former_names": [],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/b66a9717c54294ba9f6e296bb8c04f9c3da74d27.png",
+  "website": "https://www.oroagents.com",
+  "all_locations": "Vancouver, BC, Canada",
+  "long_description": "ORO AI is an applied AI research lab building high-fidelity simulation environments to teach AI to run autonomous businesses. We ground these simulation in real data to teach AI the tacit knowledge required to run safe and profitable businesses.\r\n\r\nOur first public benchmark, SMB Bench, puts a frontier model in charge of a produce wholesaler's buying desk for a simulated 90-day quarter, where shortages and supplier failures have delayed effects. The report, leaderboard and every run are available: https://oroagents.com/benchmarks/smb-bench\r\n\r\nSMB Bench is a step toward our longer-term goal of having AI as an independent economic actor.",
+  "one_liner": "Teaching AI the judgment to run businesses",
+  "team_size": 2,
+  "industry": "B2B",
+  "subindustry": "B2B -> Engineering, Product and Design",
+  "launched_at": 1788891308,
+  "tags": [
+    "Deep Learning",
+    "Reinforcement Learning",
+    "AI"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Fall 2026",
+  "status": "Active",
+  "industries": [
+    "B2B",
+    "Engineering, Product and Design"
+  ],
+  "regions": [
+    "Canada",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "partners": "Christopher",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/oro-ai",
+  "api": "https://devasheeshg.github.io/yc-api/batches/fall-2026/oro-ai.json",
+  "year_founded": 2026,
+  "city": "Vancouver",
+  "country": "CA",
+  "linkedin_url": "https://www.linkedin.com/company/oro-agents",
+  "x_url": "https://x.com/oroagents/",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/b66a9717c54294ba9f6e296bb8c04f9c3da74d27.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Christopher Golda",
+    "url": "https://www.ycombinator.com/people/christopher-golda"
+  },
+  "founders": [
+    {
+      "user_id": 1611976,
+      "full_name": "Shardul Bansal",
+      "title": "Founder/CEO",
+      "founder_bio": "Founder at ORO AI. \n\nPreviously founding engineer at Crucible Labs, building on Bittensor. Before that, was at AWS Cloud Map, helping scale API throughput 4x. \n\nComputer Science @ University of Toronto, early undergrad researcher, working on evals for distributed training.",
+      "is_active": true,
+      "linkedin_url": "https://linkedin.com/in/shardul-bansal",
+      "x_url": "https://x.com/shardiban",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/33579527290d4e233dbf8baf1dea15dfed86d0a7.jpg"
+    },
+    {
+      "user_id": 3911452,
+      "full_name": "Seth Schilbe",
+      "title": "Founder/CTO",
+      "founder_bio": "Founder/CTO at ORO AI.\n\nPreviously Senior Software Engineer at AWS, leading distributed systems projects across ECS and AWS Cloud Map.\n\nEarlier, co-founded HomeWurk, building a two-sided marketplace for local services. Targeting low skilled contract work for high school and university students looking to make extra money while in school.\n\nAttended UWaterloo and have a degree in Software Engineering from University of New Brunswick.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/sethschilbe/",
+      "x_url": "https://x.com/SethSchilbe",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/1fcf06e15eb1fdd11fb7fe14450cd655aae55f3b.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 129244,
+      "title": "ORO AI: Training AI to run profitable businesses",
+      "tagline": "Simulated businesses for training models to learn from the consequences of their decisions.",
+      "body": "**A business doesn’t stop when an agent finishes a task.** As models take on longer stretches of knowledge work, the cost of their mistakes compounds. A decision that looks good today can create problems that only become clear weeks later.\\\n<https://youtu.be/leZE1K1BCw0>\n\n## Why this judgment is hard to learn\n\nMuch of business judgment lives in experienced operators’ heads. Learning it means dealing with incomplete feedback, demand censoring and consequences that might not show up for weeks. A purchasing cut can look good today and cost you a customer next month. We build simulated businesses where models make decisions and we can measure the underlying conditions and consequences. We use the data to identify the exact gaps in model behaviour and capabilities that need to be closed to align the models’ decisions with the goals and constraints of the business.\n\n## What we’re building\n\nSMB Bench is our first public business environment. We put 16 frontier models in charge of a produce wholesaler’s buying desk for 90 simulated days.\n\nEach morning starts with fresh context and the notes the agent saved. It reads business records, places orders and decides how to keep customers supplied. Earlier shortages can reduce future customer orders, while suppliers can become less reliable. The simulations are grounded in data and experience from our industry partners.\n\nWe score profit over the quarter and compare each model with a simple formula under the same conditions. **On average, only three beat it.** Even more important, all models failed to learn from the delayed consequences of their actions and adjust their strategy.\n\nWe’re post-training an open model to show that our simulation can teach the behavior we see frontier models lack today.\n\nWe’re Seth Schilbe and Shardul Bansal. We met at AWS, where Seth architected ECS’s networking substrate and led teams of engineers across networking and automation. Shardul worked on scaling high-throughput infrastructure and before that wrote some of the first evaluations for Bittensor. We started in environment design by running an open-source agent competition, which taught us how agents find and exploit weaknesses in an environment. We bring that experience to building environments that reward the judgment we want models to develop.\n\nModel builders can use these environments to identify deficiencies in their agents and create training data. We’re building toward models that can take responsibility for a business function, then an entire business. Our ambition is for AI-run businesses to create as much value in the economy as today’s small businesses.\n\n## Our Ask\n\n**If you know people** working on post-training or building autonomous agents for ultra-long horizon tasks, we’d appreciate an introduction.\n\n**If you’re working on these problems**, we’d love to discuss your training and evaluation needs or get you access to SMB Bench.\n\n**Contact:** [team@oroagents.com](mailto:team@oroagents.com)\\\n**Explore our work:** [SMB Bench](https://oroagents.com/benchmarks/smb-bench)",
+      "url": "https://www.ycombinator.com/launches/Xca-oro-ai-training-ai-to-run-profitable-businesses",
+      "votes": 34,
+      "created_at": "2026-11-18T18:00:00.099Z"
+    }
+  ]
+}
