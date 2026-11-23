@@ -176,7 +176,7 @@ Both SDKs are fully typed, support async, and wrap every endpoint. See [Python S
 
 API endpoint: https://devasheeshg.github.io/yc-api/meta.json
 
-- Last updated: November 22, 2026 at 03:53 AM UTC
+- Last updated: November 23, 2026 at 04:31 AM UTC
 - Companies: 6407
 - Batches: 51
 - Industries: 59
@@ -281,7 +281,7 @@ API endpoint: https://devasheeshg.github.io/yc-api/meta.json
 | Drones | 25 | https://devasheeshg.github.io/yc-api/industries/drones.json |
 | Drug Discovery and Delivery | 62 | https://devasheeshg.github.io/yc-api/industries/drug-discovery-and-delivery.json |
 | Education | 125 | https://devasheeshg.github.io/yc-api/industries/education.json |
-| Energy | 61 | https://devasheeshg.github.io/yc-api/industries/energy.json |
+| Energy | 62 | https://devasheeshg.github.io/yc-api/industries/energy.json |
 | Engineering, Product and Design | 635 | https://devasheeshg.github.io/yc-api/industries/engineering-product-and-design.json |
 | Finance and Accounting | 141 | https://devasheeshg.github.io/yc-api/industries/finance-and-accounting.json |
 | Fintech | 672 | https://devasheeshg.github.io/yc-api/industries/fintech.json |
@@ -433,7 +433,7 @@ API endpoint: https://devasheeshg.github.io/yc-api/meta.json
 | DeFi | 12 | https://devasheeshg.github.io/yc-api/tags/defi.json |
 | Deep Learning | 48 | https://devasheeshg.github.io/yc-api/tags/deep-learning.json |
 | Deepfake Detection | 1 | https://devasheeshg.github.io/yc-api/tags/deepfake-detection.json |
-| Defense | 42 | https://devasheeshg.github.io/yc-api/tags/defense.json |
+| Defense | 43 | https://devasheeshg.github.io/yc-api/tags/defense.json |
 | Delivery | 54 | https://devasheeshg.github.io/yc-api/tags/delivery.json |
 | Dental | 5 | https://devasheeshg.github.io/yc-api/tags/dental.json |
 | Design | 34 | https://devasheeshg.github.io/yc-api/tags/design.json |
@@ -533,7 +533,7 @@ API endpoint: https://devasheeshg.github.io/yc-api/meta.json
 | Logistics | 137 | https://devasheeshg.github.io/yc-api/tags/logistics.json |
 | ML | 17 | https://devasheeshg.github.io/yc-api/tags/ml.json |
 | Machine Learning | 254 | https://devasheeshg.github.io/yc-api/tags/machine-learning.json |
-| Manufacturing | 122 | https://devasheeshg.github.io/yc-api/tags/manufacturing.json |
+| Manufacturing | 123 | https://devasheeshg.github.io/yc-api/tags/manufacturing.json |
 | Maritime | 5 | https://devasheeshg.github.io/yc-api/tags/maritime.json |
 | Market Research | 20 | https://devasheeshg.github.io/yc-api/tags/market-research.json |
 | Marketing | 124 | https://devasheeshg.github.io/yc-api/tags/marketing.json |
@@ -588,7 +588,7 @@ API endpoint: https://devasheeshg.github.io/yc-api/meta.json
 | Recruiting | 69 | https://devasheeshg.github.io/yc-api/tags/recruiting.json |
 | Referrals | 2 | https://devasheeshg.github.io/yc-api/tags/referrals.json |
 | Regtech | 19 | https://devasheeshg.github.io/yc-api/tags/regtech.json |
-| Reinforcement Learning | 53 | https://devasheeshg.github.io/yc-api/tags/reinforcement-learning.json |
+| Reinforcement Learning | 54 | https://devasheeshg.github.io/yc-api/tags/reinforcement-learning.json |
 | Remittances | 6 | https://devasheeshg.github.io/yc-api/tags/remittances.json |
 | Remote | 6 | https://devasheeshg.github.io/yc-api/tags/remote.json |
 | Remote Work | 15 | https://devasheeshg.github.io/yc-api/tags/remote-work.json |
