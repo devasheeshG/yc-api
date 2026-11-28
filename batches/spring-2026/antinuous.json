@@ -1,0 +1,87 @@
+{
+  "id": 31408,
+  "name": "Antinuous",
+  "slug": "antinuous",
+  "former_names": [
+    "Salesgraph"
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/f8a9a44d645fcd8622b7c1a0e23c0aa5695d5983.png",
+  "website": "https://www.antinuous.com/",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "Antinuous is building the platform to run 100x more research, experiments, and simulations, 1,000x cheaper.\r\n\r\nThe platform combines a research agent, compute clusters, and hardware-tuned simulation software to give every agent access to research primitives that are typically reserved for massive R&D orgs, saving days per week on research iteration.",
+  "one_liner": "Autonomous research agents for R&D and applied science",
+  "team_size": 2,
+  "industry": "B2B",
+  "subindustry": "B2B",
+  "launched_at": 1775259755,
+  "tags": [
+    "AI"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Spring 2026",
+  "status": "Active",
+  "industries": [
+    "B2B"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "partners": "Andrew",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": [
+    {
+      "question": "How did your company get started? (i.e., How did the founders meet? How did you come up with the idea? How did you decide to be a founder?)",
+      "answer": "We started as Salesgraph, building agents and workflows for enterprise sales teams. After OpenAI approached us to build the sales plugin ecosystem for ChatGPT, I declined the offer to build Antinuous.\r\n\r\nWe were working on sales execution first: going from first call booked to negotiation. We solved that internally at Mintlify. After we started tackling pipeline generation, we realized that pipeline generation tools make great primitives for all research. Agents that run, thousands at a time, digging through the world’s public data to find the one key insight that helps you close a deal.\r\n\r\nYou learn the industry that your pipeline is built on, map vertical bottlenecks to your solution, go deep on each person to see how they relate to you.\r\n\r\nBut what if you expand this past sales?\r\n\r\nWhat if you’re in manufacturing and want to map supply chain bottlenecks to do better capacity planning?\r\n\r\nWhat if you’re in finance and want to see what data-center construction is doing to grid prices in Texas and Louisiana?\r\n\r\nWhat if you’re in R&amp;D at a biotech and want to run virtual simulations overnight without hooking it up to your lab equipment.\r\n\r\nThis tool that we built for a niche use case of account research and pipeline generation turns out to be the perfect primitive for all research.\r\n\r\nWhat if we built the best tools for agents to be able to run simulations, experiments, and research in collaboration autonomously.\r\n\r\nAgents can divide up work from a set of constraints, run thousands of experiments in parallel, and iterate until achieving a better design, creating a massive data flywheel in the process that improves the agent, the tools, and the underlying models over time.\r\n\r\nIn testing, we’ve built a full digital twin of an F1 car, more efficient datacenter cooling with an early partner, and a fine-tuned classifier that they use to help route requests to the right model.\r\n\r\nWe’re building for the next trillion agents that need access to the same core primitives that research institutions have spent decades building out."
+    }
+  ],
+  "url": "https://www.ycombinator.com/companies/antinuous",
+  "api": "https://devasheeshg.github.io/yc-api/batches/spring-2026/antinuous.json",
+  "year_founded": 2026,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/antinuous",
+  "x_url": "https://x.com/antinuous_",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/f8a9a44d645fcd8622b7c1a0e23c0aa5695d5983.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Andrew Miklas",
+    "url": "https://www.ycombinator.com/people/andrew-miklas"
+  },
+  "founders": [
+    {
+      "user_id": 1949529,
+      "full_name": "Ricardo Nunez",
+      "title": "Founder",
+      "founder_bio": "Building Antinuous, the autonomous research platform",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/ricardonunez-01/",
+      "x_url": "https://x.com/ricardo_nunez",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/3837a95812e9b0130d782fad02289f1a189ec6d7.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 129590,
+      "title": "Antinuous - 100x more experiments, 1,000x cheaper",
+      "tagline": "Antinuous is building the primitives and orchestration to allow anybody to run 100x more research, simulations, and experiments 1,000x cheaper.",
+      "body": "**TL;DR**: We’re building an agent that can build, scaffold, and run experiments and simulations much faster and cheaper than frontier models can do on their own, and offering primitives (compute clusters, agent swarm orchestration, and simulation software/kernels) to all agents via A2A.\n\n<https://youtu.be/nFBsPCOLD14>\n\n---\n\nWe’re building the platform to run 100x more experiments and simulations, 1,000x cheaper.\n\nCurrently, frontier research is accelerating at a rate we’ve never seen before, but the acceleration is limited to those who have access to one of these three things:\n\n1. Unrestricted access to frontier models\n2. Exotic lab equipment at a well-funded institution, or\n3. Expensive supercomputers with clusters of high-performance compute.\n\nFrontier research labs and AI labs have all three.\n\nLeading universities have one or two.\n\nThe vast majority of people on earth have 0.\n\nWe’re building a future where every single human has access to all three.\n\nWe’re tackling the problem in three ways.\n\nFirstly, we’re building an agent purpose-built for research collaboration. One that has the tools and knowhow to run incredibly complex, multi-step PhD level research on any field.\n\nSecondly, we’re giving each agent access to supercomputer clusters that they can spin up and down.\n\nAnd finally, we’re building the next generation of simulation software designed to be run by thousands of agents working in parallel.\n\nFirst, our agent.\n\nThe Antinuous agent is built from the ground up for research.\n\nIt has access to every tool you would expect a frontier research lab to include virtually.\n\nPrivate and public data indexes, automations, modeling, data analysis, virtual simulation execution, coding, and more.\n\nAgent swarms can be spun up to leverage massively parallel execution to speed up its work.\n\nEvery agent in a swarm can explore new ideas and chain together ideas that would take humans months to work through.\n\nSecondly, compute.\n\nAntinuous agents can leverage high performance computing resources like GPU clusters or high-speed interconnected CPU clusters just like you’d see at a trading firm or research lab.\n\nThey can do things like simulate physics, backtest trading strategies, fine-tune a specialized model, or simulate a group of humans in a real-world social scenario, all in clusters of compute we manage.\n\nAnd finally, software.\n\nTo better leverage these compute clusters, we’re building the new frontier for simulation software purpose-built for agent experimentation.\n\nExisting software exists for things like fluid dynamics, collisions, protein folding, genomics, backtesting, and many more.\n\nThe leading software applications for every field require seat by seat licenses and were built over many years to be clicked through by humans.\n\nWe think the next generation of simulations needs a stronger foundation to build on.\n\nOne that is flexible so that it can be extended with code for every use case it runs.\n\nElastic so that you can spin up thousands of instances across thousands of agents without paying for thousands of seats.\n\nAnd programmable so that you can script it to run without human involvement, speeding up the feedback loop.\n\nOur platform already runs research workflows today for researchers, analysts, and engineers at Stanford, OpenAI, Nvidia, Morgan Stanley, and more.\n\nWe’re excited to open it up to the public to see what you can discover.\n\nTry it for free and give us feedback at [antinuous.com](http://antinuous.com).",
+      "url": "https://www.ycombinator.com/launches/XiA-antinuous-100x-more-experiments-1-000x-cheaper",
+      "votes": 3,
+      "created_at": "2026-11-23T16:03:17.207Z"
+    }
+  ]
+}

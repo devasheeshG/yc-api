@@ -1,0 +1,92 @@
+{
+  "id": 36576,
+  "name": "Sutrix",
+  "slug": "sutrix",
+  "former_names": [],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/10aa0357ff173a9e31708ec1fdba33b53c40c20f.png",
+  "website": "https://www.sutrix.ai/",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "Sutrix is the data infrastructure helping healthcare providers prepare and license clinical data to pharma companies and AI labs. We’ve reached $20k MRR within 2 months helping research teams continuously prepare patient data for their studies. Now, we are extending that software to help providers turn their own records into longitudinal datasets capturing patient journeys, treatment decisions, and outcomes so they can monetize them. We’re brothers from Georgia Tech who built HSS’s injury surveillance system (700+ teams), with experience in clinical research at Emory and engineering at Amazon.",
+  "one_liner": "Transforming how healthcare providers monetize clinical data.",
+  "team_size": 2,
+  "industry": "Healthcare",
+  "subindustry": "Healthcare -> Healthcare IT",
+  "launched_at": 1791849574,
+  "tags": [
+    "Healthcare",
+    "Healthcare IT"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Fall 2026",
+  "status": "Active",
+  "industries": [
+    "Healthcare",
+    "Healthcare IT"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "partners": "Harj",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/sutrix",
+  "api": "https://devasheeshg.github.io/yc-api/batches/fall-2026/sutrix.json",
+  "year_founded": 2026,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/sutrix-ai",
+  "x_url": "https://x.com/sutrix_ai",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/10aa0357ff173a9e31708ec1fdba33b53c40c20f.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Harj Taggar",
+    "url": "https://www.ycombinator.com/people/harj-taggar"
+  },
+  "founders": [
+    {
+      "user_id": 3672292,
+      "full_name": "Ritvik Panuganti",
+      "title": "Founder/CEO",
+      "founder_bio": "B.S. Neuroscience, Georgia Tech | Published clinical researcher at Hospital for Special Surgery, Emory, and Georgia Tech | Built a multi-sport injury surveillance system at HSS now running across 700+ teams and 30+ tournaments | Led a 300-participant IRB-approved concussion study | Prepared a VR concussion assessment tool for FDA 510(k) submission",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/ritvik-panuganti-739822273/",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/5d9d8f4035f0b26dade992ecbcd9e433f849d5b3.jpg"
+    },
+    {
+      "user_id": 3047383,
+      "full_name": "Supratik Panuganti",
+      "title": "Founder/CTO",
+      "founder_bio": "Previously founded and exited an AI security company backed by a16z Speedrun. Software engineer at Amazon. Georgia Tech CS + Math (dropped out).",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/supratik-panuganti-4732532a4/",
+      "x_url": "https://x.com/supratikp07",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/a6275e789bb0dd1dc558b95e798ad95027248bbe.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 125317,
+      "title": "Sutrix: Helping healthcare providers monetize clinical data",
+      "tagline": "Data infrastructure preparing longitudinal datasets for pharma and AI labs.",
+      "body": "Hey YC community! 👋\n\nWe’re [Ritvik](https://www.ycombinator.com/founders/ritvik-panuganti) and [Supratik](https://www.ycombinator.com/founders/supratik-panuganti), brothers and co-founders of [Sutrix](https://www.ycombinator.com/companies/sutrix). \n\n### **TL;DR**\n\nHealthcare providers collect years of records showing how patients are treated and what happens afterward. That information can support drug discovery and healthcare AI, but it is scattered across clinical notes, visits, and systems. Preparing it for licensing requires connecting patient histories across visits and applying consistent clinical definitions. Sutrix deploys AI software in the provider’s approved environment to turn those records into de-identified longitudinal datasets for pharma companies and AI labs. Providers receive a share of licensing revenue at no additional cost.\n\nCheck out our launch video 👇\n\n<https://www.youtube.com/watch?v=j-EwkyX0_0o>\n\n**❌ The problem**\n\nPharma companies and AI labs need data that follows patients’ conditions, treatments and outcomes over time. Providers hold that history across notes, tests, surveys and devices, but collecting the records is only the beginning. Our work with research teams showed us why.\n\nOne customer had collected surveys, smartwatch data, and recordings from a stress experiment, yet couldn’t analyze them together. Reused watches had to be matched to whoever wore them at the time. Blank survey fields could mean a question was deliberately skipped, rather than an answer was missing. Raw recordings needed specialist processing. Each decision shaped what the dataset said about a person, and the team needed a repeatable way to preserve that context as new records arrived.\n\n### **What Sutrix does**\n\nSutrix deploys infrastructure in a provider’s environment to turn patient records into datasets that capture the full patient journey.\n\n**_1. For healthcare providers_**\n\nSutrix turns a provider’s medical records into connected patient histories and prepares them for licensing. Our AI interprets notes across visits, links treatments with subsequent outcomes, and checks the results against the original records.\n\nProviders earn a share of licensing revenue from data they already collect, without software fees. They decide what is licensed, to whom, and for which uses.\n\n**_2. For pharma companies and AI labs_**\n\nSutrix turns the prepared clinical data into de-identified datasets for each buyer’s workflow: patient cohorts and outcome tables for pharma studies, or clinical histories structured for AI training and evaluation.\n\nBuyers get clinical datasets that retain the context of patient care and can evolve with their research. Sutrix’s connection to the provider’s original records lets us incorporate additional clinical detail and later outcomes, supporting new studies and AI tasks beyond the initial request.\n\n### **Results**\n\nWe reached **$20k MRR** within **two months**, helping research teams continuously prepare patient data for their studies.\n\n### **Why us**\n\nWe’ve built together for four years. Before [Sutrix](https://www.sutrix.ai/), we built an injury surveillance system at Hospital for Special Surgery (HSS), now used by 700+ teams. We saw this preparation work firsthand and fixed it.\n\n[**Ritvik**](https://www.linkedin.com/in/ritvik-panuganti-739822273/) **(CEO):** Published clinical researcher at HSS, Emory, and Georgia Tech. Led a 300-participant, IRB-approved concussion study.\n\n[**Supratik**](http://www.linkedin.com/in/supratik-panuganti-4732532a4) **(CTO):** Founded and exited a company backed by a16z Speedrun, built production AI agents at Amazon, and left Georgia Tech at 18.\n\nContact - [founders@sutrix.ai](mailto:founders@sutrix.ai)\n\n![Sutrix](/media/?type=post&id=125317&key=user_uploads/3047383/7538cdd8-c7ff-4bc1-961a-ffef648a6bf2)\n\n[Linkedin Launch](https://lnkd.in/p/g8q4qHJh) | [X Launch](https://x.com/supratikp07/status/2117617804740268223?a=HYaiv2tAzlBjKAT-iSQ&s=20) | [Instagram Launch](https://www.instagram.com/reel/DfSDwJQO54u/?utm_source=ig_web_copy_link&rpxt=MWQ1ZGUxMzBkMA==&srtk=MWQ1ZGUxMzBkMA==)",
+      "url": "https://www.ycombinator.com/launches/WbF-sutrix-helping-healthcare-providers-monetize-clinical-data",
+      "votes": 8,
+      "created_at": "2026-11-03T14:00:00.121Z"
+    }
+  ]
+}

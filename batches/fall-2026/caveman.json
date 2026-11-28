@@ -1,0 +1,72 @@
+{
+  "id": 37038,
+  "name": "Caveman",
+  "slug": "caveman",
+  "former_names": [],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/255bbf73f87bb02fde740dd7da4814d8d2b5f4e1.png",
+  "website": "https://caveman.so",
+  "all_locations": "Amsterdam, NH, Netherlands",
+  "long_description": "Caveman is the cheapest place to build and run AI agents. It observes real agent workloads, finds cost and performance inefficiencies, tests improvements, and safely deploys the ones that work.",
+  "one_liner": "Infrastructure for efficient AI ",
+  "team_size": 3,
+  "industry": "B2B",
+  "subindustry": "B2B",
+  "launched_at": 1791916413,
+  "tags": [
+    "Developer Tools",
+    "Open Source",
+    "Infrastructure",
+    "AI"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Fall 2026",
+  "status": "Active",
+  "industries": [
+    "B2B"
+  ],
+  "regions": [
+    "Netherlands",
+    "Europe"
+  ],
+  "stage": "Early",
+  "partners": "Max",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/caveman",
+  "api": "https://devasheeshg.github.io/yc-api/batches/fall-2026/caveman.json",
+  "year_founded": 2026,
+  "city": "Amsterdam",
+  "country": "NL",
+  "linkedin_url": "https://www.linkedin.com/company/caveman-so/",
+  "x_url": "",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": "https://github.com/caveman-ai",
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/255bbf73f87bb02fde740dd7da4814d8d2b5f4e1.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Max Kolysh",
+    "url": null
+  },
+  "founders": [],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 128480,
+      "title": "Caveman (F26) is building the cloud for AI agents",
+      "tagline": "Build and deploy agents that get more work done per dollar of compute.",
+      "body": "Hey everyone, I’m Julius, founder of Caveman. **Caveman gives developers the primitives to build and deploy production agents that get more work done per dollar of compute.** \\\n\\\nWe recently actually hit 5 trillion tokens a week flowing through our platform. \n\nWhen an agent reads a file, calls a model, or spins up a machine, those decisions determine what the task costs. Caveman controls all three. We can see where a real workload wastes time and compute, test changes against the tasks the agent actually has to complete, and ship the ones that lower cost while keeping quality up.\n\n**So what can you actually build on Caveman?**\n\nBuild an agent with our SDK and deploy it on Caveman Cloud with zero-clicks (just ask your agent lol). The runtime decides what context to carry forward so the model spends fewer tokens rereading the same data. It can pick a model for each step and provision a cloud machine with the tools the agent needs, then shut it down when the work is done.\\\nThen if you want to evaluate how your agent actually works before production, use our eval-suite. Or if you decide you don’t want to manually A/B test every model, same answer.\n\nThose primitives work together. If a task gets expensive, you can change what the agent reads, which model it calls, or how it runs, then rerun the workload and see what happened to the **cost per successful task**.\n\n**How this started**\n\nSeven months ago, my AI bill was bigger than my grocery bill. I was a uni student, so mostly as a joke I wrote a Markdown file that made Claude talk like a caveman. “Why use many token when few do trick.” Someone I’d never met posted it on Hacker News. It hit #1, and 120,000 GitHub stars later, it’s my full-time job.\n\nWhen I measured longer agent workloads on Opus 5.5, what the agent wrote accounted for less than a tenth of the cost. A big part of the bill came from what the agent had to read again at every step. That’s what got me building the infrastructure underneath it.\n\n**Try the stack in Caveman Code**\n\nCaveman Code is our Mac and browser app built on Caveman Cloud. Give Chief a task and it can coordinate multiple agents and report back. Agents can use a cloud desktop or browser to check their work and, in beta, keep running when you close your laptop. [Watch the demo](https://youtu.be/HulMprQd_j4)\n\n**Same models, more work per dollar**\n\n* **A full day across connected apps on Opus 5.5.** Caveman cost 76% less and completed 48 of 48 steps. Claude Code completed 46.\n* **Terminal-Bench 4 on GPT-6.1 Sol.** Caveman cost 21% less than Codex. Both solved 90 of 192 runs.\n* **Terminal-Bench 4 on Opus 5.5.** Caveman cost 14% less and solved 97 runs. Claude Code solved 83.\n\nI ran these comparisons at model list prices with routing turned off. [Read the benchmark write-up](https://caveman.so/news/introducing-caveman-code)\n\n**What I’d love from you**\n\n1. Try Caveman Code and tell me what breaks. [Download for Mac](https://caveman.so/download) or [open it in your browser](https://app.caveman.so/signup).\n2. If you’re running agents in production, send me a workload you spend real money on. I’ll help you run it on Caveman and measure what it costs to get the job done. [Email me](mailto:juliusbrussee@caveman.so)\n\nMe reply fast.",
+      "url": "https://www.ycombinator.com/launches/XQG-caveman-f26-is-building-the-cloud-for-ai-agents",
+      "votes": 5,
+      "created_at": "2026-11-13T01:00:00.429Z"
+    }
+  ]
+}

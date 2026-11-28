@@ -1,0 +1,99 @@
+{
+  "id": 38226,
+  "name": "FlashDrive",
+  "slug": "flashdrive",
+  "former_names": [
+    "Polygres",
+    "Evokoa / Polygres",
+    "Wondersearch"
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/e4b1526f0ce9816796dbacd939133d13844d1067.png",
+  "website": "https://flashdrive.ai",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "Our mission is to rebuild the file system, the oldest idea in computing, for its newest users: AI agents.\r\n\r\nFlashDrive is a shared drive for teams and their AI agents. You can use it via MCP or mount it like a normal folder on macOS and Linux, so your laptop, your teammates' and every sandbox work in the same live files at once. Agents hand off work through files: one writes, the next one reads.\r\n\r\nThat makes AI multiplayer across a whole company. Everyone keeps the agent they already like, whether that's Claude Code, Codex, Cursor or something custom, and there's no new app to learn. Your agents and your teammates' agents work in the same files and pick up where each other left off.\r\n\r\nShared drives were built for people. Agents work differently: many of them edit the same files at once. Unlike Dropbox or Google Drive, FlashDrive merges edits made at the same time, or keeps both, instead of creating a conflicted copy. Cloud sandboxes connect with no setup, huge files stream instead of filling the disk, and every file can be searched with keywords and grep.\r\n\r\n(FlashDrive is by Evokoa, Inc.)",
+  "one_liner": "A shared drive for your team and all your AI agents.",
+  "team_size": 2,
+  "industry": "B2B",
+  "subindustry": "B2B -> Infrastructure",
+  "launched_at": 1792520464,
+  "tags": [
+    "Developer Tools",
+    "Cloud Computing",
+    "Infrastructure",
+    "AI",
+    "Databases"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Fall 2026",
+  "status": "Active",
+  "industries": [
+    "B2B",
+    "Infrastructure"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "partners": "Pete",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/flashdrive",
+  "api": "https://devasheeshg.github.io/yc-api/batches/fall-2026/flashdrive.json",
+  "year_founded": 2026,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/flashdriveai",
+  "x_url": "https://x.com/flashdrive_ai",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/e4b1526f0ce9816796dbacd939133d13844d1067.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Pete Koomen",
+    "url": "https://www.ycombinator.com/people/pete-koomen"
+  },
+  "founders": [
+    {
+      "user_id": 3185776,
+      "full_name": "Dale Ng",
+      "title": "Founder/CEO",
+      "founder_bio": "Founder at Wondersearch. Previously in Founder's Inc. Prev. scaled own company to 5,000+ paying customers. Prev. led community for fintech startup, grew to 75000+ wallets. \n\nAt 17, co-founded Master Technologies (AI).\n\nGraduated as an institutional medallist, awarded the Toh Chin Chye & IMDA Gold Medal.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/dale-everett",
+      "x_url": "https://x.com/daleverett",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/f367d7331af60c8483b49405eee6fc4567be4abd.jpg"
+    },
+    {
+      "user_id": 3195577,
+      "full_name": "Dalton Prescott",
+      "title": "Founder/CTO",
+      "founder_bio": "Founder/CTO at FlashDrive (YC F26)\nStarted coding at 11. First company at 14. 2x Apple Scholar.\n\nPreviously Head of Product & Pre-Sales at BitCyber, managing 250+ B2B partners across APAC.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/dalton-prescott-ng",
+      "x_url": "https://x.com/daltonmeon",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/a3d1bdf8251e635f30d4316310c1463843c4ae5d.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 129596,
+      "title": "FlashDrive: A shared drive for your team and all your AI agents",
+      "tagline": "FlashDrive lets teammates and AI agents work together in the same files across devices and cloud sandboxes.",
+      "body": "<https://youtu.be/jTFRp8zid3k>\n\n**TL;DR:** We’re building a cloud drive that you, your teammates and all your agents share. AI native search built in (grep, regex, etc). Unlimited free egress, designed to work with multiple agents. Save a file and it shows up right away on every Mac and every cloud sandbox.\n\nConnect Claude Code, Codex, Cursor or your own agents over MCP, or mount it like a normal folder.\n\n**The problem**\n\nLegacy cloud storage was built for people saving and syncing files. When multiple programs edit the same ordinary file at once, syncing can leave competing copies for someone to sort out.\n\nAgents make that problem much harder. Your Claude, your teammate’s Codex and an agent in a cloud sandbox might all update the same customer list. They need each other’s latest work, and their changes need to fit together.\n\nSearch is another mismatch. Agents navigate files by running grep, trying regular expressions and writing code. Running those tools against a cloud-mounted folder can mean downloading file contents just to inspect them.\n\n**Agents need a drive they can search and work in together, wherever they run.**\n\n**The solution**\n\nFlashDrive gives your team and its agents one shared folder across computers. Here’s what you can do with it:\n\n* **AI Native Search.** Our custom index lets agents search the whole drive with keywords, grep, regex or code.\n* **Works with every agent.** Claude Code, Codex, Cursor, Gemini or anything else with an MCP.\n* **Mount like a normal drive.** No MCP? Mount it for standard filesystem access on macOS and Linux.\n* **Hand off through files.** One agent writes a file; another reads it and continues.\n* **CSVs act like databases.** Agents can add rows at the same time, and the rows merge.\n* **Huge files stay in the cloud.** A 100 GB file only downloads the bytes a program reads.\n* **Sandbox tokens.** Give a cloud job one drive or folder for 5 minutes to 12 hours. Revoke anytime.\n* **Build shared internal tools.** A CRM, wiki or report becomes files plus a skill your whole team and its agents can use.\n\n**The team**\n\nWe’re Dale &amp; Dalton. FlashDrive grew out of our experience building Polygres, where we rebuilt Postgres in Rust as a serverless graph and vector layer for more than 1K developers. We’re applying that systems experience to files shared by people and many agents at once.\n\nDale previously scaled his own company to **5,000+ paying customers**. Dalton started coding at 11, founded his first company at 14 and received **two Apple WWDC scholarships**.\n\n**Our ask**\n\nIf you or your team uses multiple AI agents, give them one shared place to work. **Try flashdrive free** and let your agents pick up each other’s work.\n\nGet started free at flashdrive.ai or email us directly at [team@evokoa.com](mailto:team@evokoa.com)",
+      "url": "https://www.ycombinator.com/launches/XiG-flashdrive-a-shared-drive-for-your-team-and-all-your-ai-agents",
+      "votes": 32,
+      "created_at": "2026-11-18T22:00:00.224Z"
+    }
+  ]
+}

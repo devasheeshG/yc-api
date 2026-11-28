@@ -1,0 +1,94 @@
+{
+  "id": 31591,
+  "name": "RightNow",
+  "slug": "rightnow",
+  "former_names": [],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/ff9ff8e9954b9ef735ba6d947c3a427df77bd519.png",
+  "website": "https://www.rightnowai.co",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "RightNow is a GPU kernel lab. Top frontier labs use our optimization tools to get more out of their GPUs, and now we put the same stack behind an API so anyone can own their AI. Run the best open models at full speed per token, or with reserved capacity, dedicated deployments and batch at half price. For enterprises, we optimize your own models down to the kernel",
+  "one_liner": "The kernel lab behind instant AI",
+  "team_size": 2,
+  "industry": "B2B",
+  "subindustry": "B2B -> Infrastructure",
+  "launched_at": 1779474756,
+  "tags": [
+    "Generative AI",
+    "Machine Learning",
+    "Infrastructure",
+    "AI"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Fall 2026",
+  "status": "Active",
+  "industries": [
+    "B2B",
+    "Infrastructure"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "partners": "Nicolas",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/rightnow",
+  "api": "https://devasheeshg.github.io/yc-api/batches/fall-2026/rightnow.json",
+  "year_founded": 2025,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/rightnowai/",
+  "x_url": "https://x.com/rightnow_co",
+  "fb_url": null,
+  "cb_url": "https://www.crunchbase.com/organization/rightnow-ai",
+  "github_url": "https://github.com/RightNow-AI",
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/ff9ff8e9954b9ef735ba6d947c3a427df77bd519.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Nicolas Dessaigne",
+    "url": "https://www.ycombinator.com/people/nicolas-dessaigne"
+  },
+  "founders": [
+    {
+      "user_id": 1615104,
+      "full_name": "Jaber Jaber",
+      "title": "Founder",
+      "founder_bio": "Technical Co-founder at RightNow (YC F26)",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/jaber-jaber-b65246234",
+      "x_url": "https://x.com/Akashi203",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/c0e7f6e92418c535b3a586d1d5ac3c64d9b3c1d0.jpg"
+    },
+    {
+      "user_id": 3147259,
+      "full_name": "Osama Jaber",
+      "title": "Founder/CMO",
+      "founder_bio": "Commercial Co-founder at RightNow (YC F26)\n",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/osama-jaber-osama2001/",
+      "x_url": "https://x.com/OsamaKakashi",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/f6bf68d49afc56cca1afb65f6882a4b4cf721300.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 129243,
+      "title": "RightNow: own your AI, at full speed",
+      "tagline": "Open model inference on the kernel stack frontier labs use",
+      "body": "![uploaded image](/media/?type=post&id=129243&key=user_uploads/1615104/7fdb4138-f2b2-48fd-9e2c-dff45ed6a8ee)\n\n**TL;DR:** We are a GPU kernel lab. Top frontier labs use our optimization tools to get more out of their GPUs. Now we are opening the same stack to everyone, so you can own your AI and run it at full speed.\n\nMost providers rent GPUs and run the same stock serving stack, so they all land at the same speed and the same price. We write the GPU kernels ourselves. Every model we serve is optimized down to the hardware, so each GPU does more work.\n\n## What you can do with it\n\n* Call the best open models at full speed with one key, as a drop-in for the OpenAI and Anthropic client libraries\n* Reserve capacity that is held for your traffic\n* Get a dedicated deployment that serves only your company\n* Run batch jobs at half price\n* Bring us your own model and we will optimize it down to the kernel\n\nPrices start at $0.05 per 1M input tokens. Prompt caching is automatic, and the live cache hit rate for every model is on our pricing page.\n\n## Why we built it\n\nYou should not have to rent your intelligence from a closed lab at whatever speed and price they choose. Open models are good enough now. We make them fast enough.\n\nPeople are already doing this. Revolut moved 2,000 engineers from Claude Code and Codex to GLM 5.3 on dedicated GPUs and cut its AI coding bill by about 90%.\n\nIt took them an infrastructure team and months of tuning. With RightNow you get the same model at full speed on day one.\n\n## Work with us\n\nIf you spend more than $1k a month on inference, send us your heaviest workload. We will move it over in a day and show you the speed and the bill side by side.\n\nIf you train your own model, talk to us. We will optimize it down to the kernel and serve it for you.\n\nIf you know a team that is slow or overpaying on open models, an intro is the best thing you can do for us.\n\n* Get started now for free: <https://www.rightnowai.co>\n* Startups get up to $2,600 in credits: <https://www.rightnowai.co/startups>\n* Book time with us: <https://yc.link/cal/TJkX4M1u7P>",
+      "url": "https://www.ycombinator.com/launches/XcZ-rightnow-own-your-ai-at-full-speed",
+      "votes": 28,
+      "created_at": "2026-11-17T00:00:00.810Z"
+    }
+  ]
+}

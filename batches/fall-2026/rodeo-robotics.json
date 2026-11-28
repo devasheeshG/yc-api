@@ -1,0 +1,97 @@
+{
+  "id": 31509,
+  "name": "Rodeo Robotics",
+  "slug": "rodeo-robotics",
+  "former_names": [
+    "Lasso (temporary, naming conflict exists)",
+    "Lasso"
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/ed94f83ed341c4f879d7c08c2570c04ba145e07c.png",
+  "website": "https://www.rodeorobotics.com/",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "Rodeo Robotics (YC F26) automates vehicle maintenance so shops can get vehicles back to work at lower cost.\r\n\r\nCo-founders Michael Hazard and Colby Duke met at Applied Intuition, where they helped OEMs like Toyota and General Motors deploy autonomy in the real world and saw firsthand how much hands-on work it takes to keep fleets running.\r\n\r\nThey’re now applying their experience to the $600B US maintenance market. The average vehicle is getting older and needs more maintenance, but shops struggle to recruit new technicians to replace experienced workers as they retire. This leaves shops turning away work and customers waiting longer for service.\r\n\r\nRodeo builds robots that inspect vehicles, diagnose problems, and perform services, starting with routine maintenance like oil and tire changes. Their robots use AI models specialized for multi-step vehicle maintenance tasks and operate autonomously for 96% of execution time on their initial tasks.",
+  "one_liner": "Robots for vehicle maintenance.",
+  "team_size": 2,
+  "industry": "Industrials",
+  "subindustry": "Industrials -> Manufacturing and Robotics",
+  "launched_at": 1791737469,
+  "tags": [
+    "Hard Tech",
+    "Robotics",
+    "AI",
+    "Automotive"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Fall 2026",
+  "status": "Active",
+  "industries": [
+    "Industrials",
+    "Manufacturing and Robotics"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "partners": "Harj",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/rodeo-robotics",
+  "api": "https://devasheeshg.github.io/yc-api/batches/fall-2026/rodeo-robotics.json",
+  "year_founded": 2026,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "",
+  "x_url": "",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/ed94f83ed341c4f879d7c08c2570c04ba145e07c.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Harj Taggar",
+    "url": "https://www.ycombinator.com/people/harj-taggar"
+  },
+  "founders": [
+    {
+      "user_id": 1723748,
+      "full_name": "Michael Hazard",
+      "title": "Founder/CEO",
+      "founder_bio": "Building robots for vehicle maintenance. Four years at Applied Intuition bringing software and autonomy to vehicles. Google APM. Stanford CS.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/michael-hazard",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/1236858457295e3981b938e3e2d34b656f23c372.jpg"
+    },
+    {
+      "user_id": 2583456,
+      "full_name": "Colby Duke",
+      "title": "Founder/CTO",
+      "founder_bio": "Building robots for vehicle maintenance. Previously the tech lead of Applied Intuition's neural simulation team.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/colby-duke/",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/64bba9bf9ad1bada6772cc26492eff670a931e2f.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 127408,
+      "title": "Rodeo Robotics: Robots for Vehicle Maintenance",
+      "tagline": "Robots that automate vehicle maintenance.",
+      "body": "## TL;DR\n\nWe build robots that automate vehicle inspections, diagnostics, and service. Our robots operate autonomously 96% of the time on initial tasks and customer deployments begin in January 2027. Join our [waitlist](http://rodeorobotics.com/waitlist) to reserve your robots and get a say in what we build.\n\n<https://youtu.be/lGwmknVrXMY>\n\n## Team\n\nColby and I met at Applied Intuition, where we spent years helping OEMs like Toyota and General Motors bring software and autonomy to cars, trucks, and heavy machinery.\n\nThat experience not only taught us how to deploy autonomy in the real world, but also showed us how much work is required to keep vehicles running. It often took days to diagnose a fault hidden among a modern vehicle’s 100+ onboard computers. Test and data collection fleets needed constant maintenance to stay operational. We started Rodeo to address these diagnostic and maintenance problems using autonomy.\n\nBefore Applied Intuition:\n\n* Michael Hazard (CEO) worked as a Product Manager at Google and studied Computer Science at Stanford with a focus on AI.\n* Colby Duke (CTO) worked as an engineer at Uber and studied Computer Science at Georgia Tech with a focus on AI and Robotics.\n\n## Why shops need this\n\n$600b is spent annually maintaining the 300m vehicles operating on US roads.\\\n\\\nAnd shops are struggling to keep up. The average vehicle is getting older and needs more maintenance, but shops are struggling to recruit new technicians to replace experienced workers as they retire. This forces shops to turn away work and leaves customers waiting longer for service.\n\n## What we’ve built\n\nRodeo is a maintenance robot that:\n\n* **Inspects:** Checks tires, fluids, electrical, brakes, and body to catch issues before they become breakdowns.\n* **Diagnoses:** Gathers and analyzes data from the vehicle, service manuals, and past maintenance jobs to root cause issues.\n* **Services:** Completes tasks like oil changes to resolve or prevent issues.\n* **Escalates:** Ropes in human technicians when it encounters unsupported tasks, dangerous conditions, or has low confidence in its next action.\n\nWith robots handling routine work and calling for help when needed, each technician can oversee work on multiple vehicles at once. Shops can then take on more jobs with the same team, lower cost per job, and get vehicles back on the road sooner.\n\n<https://youtu.be/u5k3yCxKnUM>\n\n_Fully autonomous washer fluid top-up running at 4x speed._\n\nWe build software and AI that enables our robots to understand and reliably execute multi-step maintenance tasks. Our robots learn from experience, getting better as they work or watch technicians work. We use off-the-shelf hardware where possible to keep costs low for our customers, and design custom hardware when existing components cannot meet a task’s requirements.\n\nOur robots currently operate autonomously 96% of the time on initial tasks. Customer deployments begin in January 2027, in which robots will work alongside technicians to complete maintenance. Technicians will supervise and step in when robots get stuck, helping complete jobs correctly and providing training examples to improve future iterations.\n\n## Reserve your robot\n\nInterested in optimizing maintenance cost, capacity, and throughput in your shop? Customer deployments begin in January 2027. Join our [waitlist](http://rodeorobotics.com/waitlist) or email [contact@rodeorobotics.com](mailto:contact@rodeorobotics.com). Early partners get first access to our robots and a say in what we build.\n\n![uploaded image](/media/?type=post&id=127408&key=user_uploads/1723748/3cfef9c4-9bd4-47be-9375-14599e53b67b)\n\n_Colby (left) and Michael (right) at our garage in Oakland._",
+      "url": "https://www.ycombinator.com/launches/X8y-rodeo-robotics-robots-for-vehicle-maintenance",
+      "votes": 5,
+      "created_at": "2026-11-11T16:00:00.151Z"
+    }
+  ]
+}

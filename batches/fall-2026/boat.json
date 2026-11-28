@@ -1,0 +1,97 @@
+{
+  "id": 34928,
+  "name": "Boat",
+  "slug": "boat",
+  "former_names": [
+    "Ascii box",
+    "Ascii"
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/dd00ca6a15fbe23bc8d3447bda9de39006326892.png",
+  "website": "https://boat.dev",
+  "all_locations": "Paris, Île-de-France, France; Remote",
+  "long_description": "boat gives AI agents powerful, affordable cloud computers. Spawn full Ubuntu VMs with a browser, desktop, persistent files, Docker and the tools to do real work, without managing the entire infrastructure yourself.\r\n\r\nAs agents tackle harder problems in engineering, math and science, they need more than inference: they need computers to run experiments, execute code and verify their work. We believe access to enough powerful, permissive, inexpensive computers will be the next AI bottleneck.\r\n\r\nWe first built boat for ourselves while working on cloud coding agents, then opened it up to other builders. Our approach is product-first: make it easy for agents to experiment, build and scale.\r\n\r\nRun agents inside a VM or prompt, observe and wrap them from outside through the CLI, API or SDKs. Run Docker, systemd, databases and cron; open web apps, games, 3D scenes and IDEs; stop, resume and fork VMs.\r\n\r\nhttps://boat.dev\r\nhttps://docs.boat.dev",
+  "one_liner": "Most powerful & affordable cloud VMs for agents",
+  "team_size": 3,
+  "industry": "B2B",
+  "subindustry": "B2B -> Infrastructure",
+  "launched_at": 1788174016,
+  "tags": [
+    "Developer Tools",
+    "Cloud Computing"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Fall 2026",
+  "status": "Active",
+  "industries": [
+    "B2B",
+    "Infrastructure"
+  ],
+  "regions": [
+    "France",
+    "Europe",
+    "Remote",
+    "Fully Remote"
+  ],
+  "stage": "Early",
+  "partners": "Andrew",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/boat",
+  "api": "https://devasheeshg.github.io/yc-api/batches/fall-2026/boat.json",
+  "year_founded": 2024,
+  "city": "Paris",
+  "country": "FR",
+  "linkedin_url": "",
+  "x_url": "https://x.com/boatdotdev",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": "https://github.com/ariana-dot-dev",
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/dd00ca6a15fbe23bc8d3447bda9de39006326892.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Andrew Miklas",
+    "url": "https://www.ycombinator.com/people/andrew-miklas"
+  },
+  "founders": [
+    {
+      "user_id": 918787,
+      "full_name": "Anicet Nougaret",
+      "title": "Founder/CEO",
+      "founder_bio": "Co-founder & CEO of boat (YC F26). Previously worked on hunting black holes at the European Space Agency, where AI's ideas kept running into the limits of the computers available to try them. Now building powerful, affordable cloud computers for agents.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/anicet-nougaret-b7846b174",
+      "x_url": "https://x.com/AniC_dev",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/898bcdab37aa50608f57c46e0d5c5c3d37cc6d5e.jpg"
+    },
+    {
+      "user_id": 4016415,
+      "full_name": "Kirill",
+      "title": "Founder/CTO",
+      "founder_bio": "co-founder @ boat",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/luaroncrew/",
+      "x_url": "https://x.com/luaroncrew",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/c0bbeeba43187ecd6dcc168dce2083337c8861c1.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 129591,
+      "title": "boat: Most powerful & affordable cloud VMs for agents",
+      "tagline": "Give your agents fleets of powerful & permissive cloud computers for them to do their most demanding, unpredictable, open-ended work, with persistent files, nested virtualization, a browser, a desktop, docker inside and more",
+      "body": "Hey everyone, we're Anicet and Kirill, founders of boat (YC F26).\n\nboat gives your agents powerful, affordable cloud computers: full Ubuntu VMs with a browser, desktop, persistent files and the tools to do real work. Spawn them without having to manage the entire infrastructure yourself.\n\nDemo: https://www.youtube.com/watch?v=VrWLNwsP0Us\n\nWe believe the next AI bottleneck isn't access to inference. It's access to enough powerful, permissive, inexpensive computers to act on the models' ideas. As agents take on harder problems in engineering, math and science, they need more capable computers at their disposal.\n\nAt the European Space Agency, I was using ChatGPT to find more efficient ways to search for black holes in our galaxy. The bottleneck wasn't the AI's ideas, but getting enough computing power to try them. Later, Kirill and I worked on cloud coding agents and hit the same problem: agents could write code and solve hard engineering problems, but running and verifying that work at their pace required more numerous and capable computers.\n\nWe first built boat for ourselves, then opened it up to other builders. That gave us a product-first approach: start with what lets agents actually experiment, build and scale.\n\nWith boat you can:\n\n\\- Spawn thousands of cloud VMs and (let your agents) manage them from the CLI, API or SDKs\n\n\\- Run Docker, systemd, databases and cron inside a full Linux VM.\n\n\\- Open web apps, games, 3D scenes and IDEs through the integrated desktop and browser.\n\n\\- Run agents inside the VM, or prompt, observe and wrap a harness from outside through the CLI, API or SDKs.\n\n\\- Stop, resume and fork VMs, with persistent files and saved snapshots.\n\nWe're building for AI power users tackling open-ended problems, not just typical sandbox usecases. If your agents are running into a computing or tooling bottleneck, we'd love to hear what they're trying to do.\n\nTry boat: https://boat.dev\n\nDocs: https://docs.boat.dev",
+      "url": "https://www.ycombinator.com/launches/XiB-boat-most-powerful-affordable-cloud-vms-for-agents",
+      "votes": 9,
+      "created_at": "2026-11-23T19:00:00.307Z"
+    }
+  ]
+}

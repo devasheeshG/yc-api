@@ -1,0 +1,90 @@
+{
+  "id": 36741,
+  "name": "Perit.AI",
+  "slug": "peritai",
+  "former_names": [],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/a35e9e2f6026717a2640d1e01b9215eaff2d4310.png",
+  "website": "https://www.perit.ai/",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "Perit is a training-data company for frontier AI labs. Everything we deliver is recorded, transcribed, labelled and graded by people who actually do the job: ex-contact-centre QA leads, claims handlers, ward clerks and shopkeepers, recruited for the sector and locale each program needs.\r\n\r\nWhat we deliver:\r\n\r\n- Voice and speech data: 4,000+ hours of audio delivered across 9 locales, transcribed verbatim and word-aligned, with 95%+ QA-sample accuracy.\r\n- RL environments and benchmarks: speech-to-speech RL environments plus coding and RL task sets, currently 100 RL tasks per week and scalable to 2,000.\r\n- Embodied data for robotics: egocentric video, depth, teleoperation and handheld-gripper demonstrations recorded in real homes, shops and workplaces.\r\n- Data collection and annotation: video, image and text collected to spec, and annotation of any data type on our own Foundry workspace.\r\n\r\nEvery batch ships with a quality report, consent references and a reviewer chain. We work with almost all frontier labs and have quickly gotten past $9M in revenue.\r\n\r\nFounded by 2x YC founders Kshitij Dixit (Zeo, YC W20) and Poorva Dixit (ex-Google Cloud AI, Uber, Atlassian), with a deep IIT network of researchers at top labs.",
+  "one_liner": "Expert-collected voice, egocentric and RL training data for frontier…",
+  "team_size": 47,
+  "industry": "B2B",
+  "subindustry": "B2B",
+  "launched_at": 1789597716,
+  "tags": [
+    "Data Labeling"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Fall 2026",
+  "status": "Active",
+  "industries": [
+    "B2B"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "partners": "Christopher",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/peritai",
+  "api": "https://devasheeshg.github.io/yc-api/batches/fall-2026/peritai.json",
+  "year_founded": 2026,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/perit-ai/",
+  "x_url": "",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/a35e9e2f6026717a2640d1e01b9215eaff2d4310.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Christopher Golda",
+    "url": "https://www.ycombinator.com/people/christopher-golda"
+  },
+  "founders": [
+    {
+      "user_id": 1996169,
+      "full_name": "Kshitij Dixit",
+      "title": "Founder/CEO",
+      "founder_bio": "Co-founder & CEO at Perit.AI. Previously co-founder/CEO at ZeoAuto (YC W20), scaled to millions of drivers across 140+ countries, $2M ARR profitable, 4.8 stars from 30k+ reviews. Led consumer payments at Jio Financial Services with 10M+ users. Former Senior Product Manager at OYO. IIT Kharagpur.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/kshitijdixit/",
+      "x_url": "https://x.com/kshitij_dixit",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/d91115e1280ec1a6442f16ddbbb1457363eccab9.jpg"
+    },
+    {
+      "user_id": 3416920,
+      "full_name": "Poorva Dixit",
+      "title": "Founder/CTO",
+      "founder_bio": "Co-founder & CTO at Perit.AI. Previously Software Engineer at Google,  Atlassian and Uber. Co-founded SalaryBook. Dual degree in Computer Science from IIT Kharagpur.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/poorvadixit/",
+      "x_url": "https://x.com/PoorvaDixit3",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/7557e5ae918e8a0a80d40a998b247782f7a30d4e.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 128652,
+      "title": "Perit - Expert-led datasets for frontier labs",
+      "tagline": "The data engine for frontier labs",
+      "body": "Perit helps AI labs get the data and training environments they need to build models that work in the real world.\n\nWe collect, annotate, and deliver high-quality datasets across audio, video, image, and code. We also build RL environments and benchmarks for models that need to interact with real people and real-world conditions.\n\n## Data collection and annotation\n\nWe have a network of 16,000+ trained experts across different sectors and 12+ locales.\n\nWithin 4 months of launch, we have delivered 6,000+ hours of speech data across 9 locales, 10k+ hours of egocentric data, and 100s of RL tasks for major AI labs, already running multi-million-dollar contracts (targeting $10M by Demo Day🤞).\n\n## Specialized datasets\n\nNeed data your model is failing on? We collect it.\n\nSpeech, egocentric video, hand pose, depth, and other multimodal datasets can be collected from real people using our own devices, with consent on every file.\n\n## RL environments\n\nModels need to be evaluated in situations that are messy and unpredictable, not just on static test sets. We currently have live speech to speech RL environments &amp; [benchmarks](https://perit.ai/research/benchmark/word-alignment/leaderboard) across 10 sectors, where trained operators interact with models like real customers. They interrupt, change their requests, provide incomplete information, have noisy connections, and behave like people actually do.\n\nThe environments measure task success, latency, interruption recovery, repair of missing or incorrect information, instruction adherence, and tone. Failed interactions come back with the audio and annotations, not just a score.\n\nWe also build custom RL environments for new use cases.\n\n## Coding datasets and RL environments\n\nWe build expert-authored coding datasets and agentic RL environments across software engineering, systems, security, data, and scientific computing. Models work inside sandboxes on terminal, repository, web, and UI tasks, then receive deterministic rewards from hidden tests, reference outputs, and strict execution contracts.\n\nEach environment is calibrated against frontier models and includes adversarial cases that expose plausible but incorrect solutions. Labs receive the failed runs and traces needed to improve performance on messy, long-horizon engineering work, not just a score.\\\n\\\n<https://www.youtube.com/watch?v=wQwCInBdrCI>\n\n## The founders\n\nOur superpower is speed and accuracy: quickly spinning up workflows and mobilizing experts.\n\n![uploaded image](/media/?type=post&id=128652&key=user_uploads/1996169/4ea38179-b9da-4ff6-b0e7-f798e22af4b8)\n\nPerit was founded by [@Kshitij Dixit](https://bookface.ycombinator.com/user/1996169) and [@Poorva Dixit](https://bookface.ycombinator.com/user/3416920), both IIT Kharagpur alumni and second-time YC founders.\n\nI previously scaled [@Zeo Route Planner](https://bookface.ycombinator.com/company/13352) to millions of courier drivers across 100+ countries, generating millions of dollars in revenue in just a few years.\n\nPoorva is the cofounder and CTO. She has previously trained models at Google, built scalable systems at Atlassian, and built map-quality systems at Uber. Both of them reached the same conclusion: models still can't perform on many real-world tasks, and with the right specialized datasets their performance can be quickly improved.\n\nIf you are an AI lab or company looking for specialized training data, annotation, or RL environments, we would love to talk.\n\nEmail: [kshitij@perit.ai](mailto:kshitij@perit.ai)\n\nWebsite: <https://perit.ai>",
+      "url": "https://www.ycombinator.com/launches/XT2-perit-expert-led-datasets-for-frontier-labs",
+      "votes": 7,
+      "created_at": "2026-11-14T17:00:00.213Z"
+    }
+  ]
+}

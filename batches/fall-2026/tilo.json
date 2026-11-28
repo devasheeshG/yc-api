@@ -1,0 +1,88 @@
+{
+  "id": 37830,
+  "name": "Tilo",
+  "slug": "tilo",
+  "former_names": [
+    "Podesta AI"
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/5ee5f7b68452b3800941d6ce5bfbfacd28c318f2.png",
+  "website": "https://tilo.so",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "Tilo gives AI agents one shared computer. Today every agent gets its own virtual machine and works by screenshots and clicks, which is slow, expensive and brittle. Agents that work together have to describe what they did to each other in messages.\n\nTilo is a Linux-based operating system built for agents as users. Every app exports typed actions that agents call over MCP while people use the same actions as buttons, on the same live state. Many agents work in one workspace at once and read each other's work instead of messaging about it. Every change is attributed and can be undone, and irreversible actions need permission. Because state and interface are separate, agents can generate an app's entire UI on demand.\n\nOn the same multi-app task with the same model, agents on Tilo were about 29× cheaper and 90× faster than computer use, which failed. A small model on Tilo did it for about 1/10,000 of the frontier model's cost. In our scale test, 50 agents worked in one shared workspace on a single laptop, at about 60 MB of memory per agent. Tilo runs headless, in our cloud, or as a desktop, and you can open any workspace from the browser.",
+  "one_liner": "The Microsoft of the AI era: the operating system for AI agents.",
+  "team_size": 2,
+  "industry": "B2B",
+  "subindustry": "B2B -> Infrastructure",
+  "launched_at": 1792039962,
+  "tags": [
+    "Developer Tools",
+    "Open Source",
+    "Infrastructure",
+    "AI"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Fall 2026",
+  "status": "Active",
+  "industries": [
+    "B2B",
+    "Infrastructure"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada",
+    "Remote",
+    "Partly Remote"
+  ],
+  "stage": "Early",
+  "partners": "Grey",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/tilo",
+  "api": "https://devasheeshg.github.io/yc-api/batches/fall-2026/tilo.json",
+  "year_founded": 2026,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "",
+  "x_url": "",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": "https://code.tilo.so/tilo",
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/5ee5f7b68452b3800941d6ce5bfbfacd28c318f2.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Grey Baker",
+    "url": "https://www.ycombinator.com/people/grey-baker"
+  },
+  "founders": [
+    {
+      "user_id": 3674518,
+      "full_name": "Xaver Emmerling",
+      "title": "Founder/CEO",
+      "founder_bio": "Founder/CEO at Tilo (YC F26). Building a OS for the future. Studied computer science through TUM's early admission program at 15.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/xaver-emmerling-915228278/",
+      "x_url": "https://x.com/XaEmmerling",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/77851cdcba5a5afc0a817b9d4747669c6be1c137.jpg"
+    },
+    {
+      "user_id": 3674027,
+      "full_name": "Quinten Wolff",
+      "title": "Founder/CTO",
+      "founder_bio": "Built a patent workflow automation platform at BDPE, a Band 1 Chambers-ranked litigation firm in Munich. Early admission to Computer Science at Technical University of Munich. Now building the future of human & agent computer use.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/quinten-wolff-44810140b",
+      "x_url": "https://x.com/NetniuqFlow",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/accf3868a2df4e89dbe035edd52e23b027c0ff9a.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": []
+}

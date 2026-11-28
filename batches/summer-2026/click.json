@@ -1,0 +1,95 @@
+{
+  "id": 32618,
+  "name": "Click",
+  "slug": "click",
+  "former_names": [],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/1ed30d715c1d9c492a56975e2eb6c95ba888810e.png",
+  "website": "https://www.useclick.ai",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "Click is the Managed Agents API you can use with any model. Send a task with an API call, and Click runs the agent and streams back results. \r\n\r\nClick gives you the entire agent stack over an API, with no infrastructure to manage. Sessions are created with everything the agent needs - a sandbox, browser, and web search. Agents run on a harness with the latest innovations, like deferred tool discovery to support 1000s of tools, and Code Mode to use tools with scripts.\r\n\r\nAsk your coding agent about useclick.ai/reference!",
+  "one_liner": "Managed Agents API",
+  "team_size": 1,
+  "industry": "B2B",
+  "subindustry": "B2B -> Engineering, Product and Design",
+  "launched_at": 1785963586,
+  "tags": [
+    "API",
+    "Cloud Computing",
+    "Infrastructure",
+    "AI"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Summer 2026",
+  "status": "Active",
+  "industries": [
+    "B2B",
+    "Engineering, Product and Design"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "partners": "Harshita",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/click",
+  "api": "https://devasheeshg.github.io/yc-api/batches/summer-2026/click.json",
+  "year_founded": 2026,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/use-click",
+  "x_url": "https://x.com/useclick_ai",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": "https://github.com/use-click/",
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/1ed30d715c1d9c492a56975e2eb6c95ba888810e.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [
+    "https://bookface-images.s3.us-west-2.amazonaws.com/attachments/29bbb33ca2f50ca76c9e6e410f2b4252a484c4e9.png"
+  ],
+  "primary_partner": {
+    "name": "Harshita Arora",
+    "url": "https://www.ycombinator.com/people/harshita-arora"
+  },
+  "founders": [
+    {
+      "user_id": 1995988,
+      "full_name": "Aditya Asgaonkar",
+      "title": "Founder/CEO",
+      "founder_bio": "Founder at Click. Previously helped build Ethereum's distributed system.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/aditya-asgaonkar/",
+      "x_url": "https://x.com/adiasg",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/1d21221f7711a082e5615e10bb6d4053d1be4205.jpg"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 125547,
+      "title": "Click – Managed agents API you can use with any model",
+      "tagline": "Managed Agents API",
+      "body": "**TLDR:** Like Claude Managed Agents, but works with any model! Click lets you run frontier agents without provisioning any infrastructure. Use it with any model with your own keys. Click runs the agent and streams back outputs. Ask your coding agent about <https://useclick.ai>!\n\n![uploaded image](/media/?type=post&id=125547&key=user_uploads/1995988/78c6cc9a-db0d-46aa-97b4-5bbc4e2dcc93)\n\nHi, I’m Aditya! I previously helped build Ethereum’s distributed system and have been building agent harnesses for the past year. I’m excited to launch Click!\n\n<https://youtu.be/P1zJtsfk0FI>\n\nAgents have evolved from simple for-loops into sophisticated software. Keeping up with the latest capabilities means continuous engineering investment in agent software and infrastructure - even when your real focus is the product you’re building on top.\n\nClick gives you the entire agent stack over an API, with no infrastructure to manage. Click creates sessions with everything the agent needs - a sandbox, browser, and web search. Agents run on a harness with the latest innovations, like deferred tool discovery to support thousands of tools, and Code Mode to use tools with scripts.\n\nTo get started, start an agent over the API with:\n\n* Your model API keys.\n* Your tools, through MCP servers or custom application tools.\n* Your context, like files and skills\n\nOnce you submit inputs, like user messages, Click streams back events and outputs. For background work, you can also receive webhooks to notify task completion. Sessions can run for as long as you’d like. \n\n**Try it out!**\n\nGo to [useclick.ai](http://useclick.ai) to start free. For more information, please email [aditya@useclick.ai](mailto:aditya@useclick.ai).",
+      "url": "https://www.ycombinator.com/launches/Wex-click-managed-agents-api-you-can-use-with-any-model",
+      "votes": 2,
+      "created_at": "2026-11-02T16:05:24.067Z"
+    },
+    {
+      "id": 110141,
+      "title": "Click - Research services inside Codex & Claude",
+      "tagline": "Live external context from professional & social platforms, marketplaces, financials, and more.",
+      "body": "**TLDR:** Click is an MCP that provides extensive research connectors to give external context that the built-in web search misses.\n\n![uploaded image](/media/?type=post&id=110141&key=user_uploads/1995988/91aff538-41b1-4c8b-96eb-c1bf84bd5e47)\n\n**Video:** <https://youtu.be/IgcAy86cPls>\n\n**Problem:**\n\nClick is largely motivated by a change in my own behavior:\n\nCodex &amp; Claude are amazing products. I live inside their surface now - using it more than my browser. It feels like home, to the point that I’m annoyed to have to leave. Most often, I’m stepping outside to do external-facing tasks, like researching my leads on LinkedIn or comparing flight options. I want my agents to do these tasks as well.\n\nCurrently, those can’t be completed because their gateway to the world (in-built web search) has limited access. Often the agent also asks to use the browser with a logged-in session, which I’m uncomfortable with.\n\nSo, I built the connector layer that I wish existed.\n\n**Solution:**\n\nClick’s MCP is a single installation that provides your agent with an ever-growing bundle of the best data connectors. The current set of connectors enable new use cases inside the chat, like:\n\n* Lead research &amp; enrichment\n* Researching ad campaigns from competitors\n* Analyzing sentiment around a topic across social media\n* Planning travel with live fares &amp; availability\n\n**Team:**\n\nI’m Aditya, the founder of Click. Previously, I helped build Ethereum, with a vision to create a platform that enables new kinds of applications. \n\nNow, I’m focusing on the next application platform - the AI chat surface. Click builds useful services that meet users right inside the conversation. I’m building one trusted service at a time, and research is the first one.",
+      "url": "https://www.ycombinator.com/launches/SeT-click-research-services-inside-codex-claude",
+      "votes": 10,
+      "created_at": "2026-08-12T19:00:01.957Z"
+    }
+  ]
+}

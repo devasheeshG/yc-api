@@ -1,0 +1,95 @@
+{
+  "id": 36347,
+  "name": "Latent",
+  "slug": "trylatent",
+  "former_names": [
+    "latent"
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/29af59683c6352485b064baa197eec3355186fcd.png",
+  "website": "http://runlatent.ai/",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "Latent automates post-training for LLMs. It reads signals inside a model as it works and labels every answer and agent step in milliseconds, so teams improve their models on their own production traffic instead of paying for human labeling.\r\n\r\nThe same signal works in real time. Latent lets an output through, holds it, re-asks a stronger model, or sends it to review with the reason attached. Reading the model is over 660x cheaper than running an LLM judge, so it can check everything. One voice AI company using Latent finds 98% of its agent’s failures by reviewing only the riskiest 43% of answers, and in testing Latent stopped 99% of rule-breaking agents before they acted, against 69% for a frontier LLM judge.\r\n\r\nIt works with self-hosted and API models like GPT, Claude, and Gemini, runs hosted or fully in your own cloud, and installs with one line of code.",
+  "one_liner": "Automated post-training for LLMs",
+  "team_size": 2,
+  "industry": "B2B",
+  "subindustry": "B2B",
+  "launched_at": 1791243197,
+  "tags": [
+    "Infrastructure",
+    "AI"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": false,
+  "nonprofit": false,
+  "batch": "Fall 2026",
+  "status": "Active",
+  "industries": [
+    "B2B"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "partners": "Harj",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/trylatent",
+  "api": "https://devasheeshg.github.io/yc-api/batches/fall-2026/trylatent.json",
+  "year_founded": 2026,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/runlatent",
+  "x_url": "https://x.com/runlatentai",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/29af59683c6352485b064baa197eec3355186fcd.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [
+    "https://bookface-images.s3.us-west-2.amazonaws.com/attachments/c1b0002c0ecf5d467cc3f45b070da5afc1a5ae12.png"
+  ],
+  "primary_partner": {
+    "name": "Harj Taggar",
+    "url": "https://www.ycombinator.com/people/harj-taggar"
+  },
+  "founders": [
+    {
+      "user_id": 4244128,
+      "full_name": "Kunal Ranjan",
+      "title": "Founder/COO",
+      "founder_bio": "Co-Founder at Latent (YC F26). Invested across tech from pre-seed to late stage. Founded Fahrenheit Finance previously. Dual degree in CS and Finance (Wharton) from UPenn M&T.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/kunalranjan23/",
+      "x_url": "https://x.com/kunalranjan23",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/a7fe4d07a817314cabaacf722ed89bb3505d5971.jpg"
+    },
+    {
+      "user_id": 4532486,
+      "full_name": "Kunal Ranjan",
+      "title": "Founder",
+      "founder_bio": null,
+      "is_active": true,
+      "linkedin_url": "",
+      "x_url": null,
+      "avatar_thumb_url": "/avatars/thumb/missing.png"
+    }
+  ],
+  "jobs": [],
+  "news": [],
+  "launches": [
+    {
+      "id": 123748,
+      "title": "Latent - Automated post-training for LLMs",
+      "tagline": "Turn every production answer into training data by reading the model.",
+      "body": "Hey everyone! We’re [Vedant Gaur](https://www.linkedin.com/in/vedantgaur/) and [Kunal Ranjan](https://www.linkedin.com/in/kunalranjan23/) from [Latent](https://runlatent.ai/).\n\n**TL;DR: Latent automates post-training for LLMs. It reads signals inside the model to label every answer and agent step in production, so your model improves on its own traffic without a labeling team. The same signal stops wrong answers and bad agent actions before they land. It works with any model and costs over 660x less than an LLM judge.**\n\nWebsite: [runlatent.ai](http://runlatent.ai)\\\nStart free: [app.runlatent.ai](http://app.runlatent.ai)\n\n[Demo](https://www.tella.tv/video/latent-demo-82hu4xql)\n\n**The Problem:**\n\nEvery team running AI wants its model to get more accurate, and that takes labeled data from its own production traffic. Today that means paying experts by the hour or running an LLM judge on every answer, which is slow and expensive. So most teams label a small sample, ship everything else unchecked, and lose the signal in the rest.\n\nAI also fails quietly. A model gives a confident answer that’s wrong, like the wrong dosage or a refund policy that doesn’t exist. An agent takes a shortcut it was told not to take. The dashboard is green and last week’s evals passed. You find out when a customer does. As agents run longer with no one watching, that gap gets wider.\n\n**What We're Doing:**\n\n**1. Labeling every answer by reading the model.** Latent scores every answer and agent step from signals inside the model, at over 660x lower cost than an LLM judge. On self-hosted models it adds no latency. On API models like GPT, Claude, and Gemini, a lightweight reader scores each answer in milliseconds. Each label comes with the failure type and the riskiest sentence.\n\n**2. Turning labels into a better model.** Export the labels as fine-tuning and preference data and train on your own traffic. Every answer your team confirms or clears sharpens Latent’s calibration to your data. Routing alone helps too: on financial Q&amp;A, sending the riskiest half of answers to a frontier model lands within 2 points of it at 60% of the cost.\n\n**3. Acting before anyone is affected.** You decide what happens to a risky output: let it through, hold it and show a fallback, re-ask a stronger model, or send it to review with the reason attached. In our rebuild of the OpenAI x Hugging Face incident, Latent stopped 99% of rule-breaking agents before they acted, against 69% for a frontier LLM judge checking every step.\n\n**4. Finding more failures with less review.** A voice AI company running Latent finds 98% of its agent’s failures by reviewing only the riskiest 43% of answers.\n\n**5. Fitting into your stack.** pip install runlatent wraps the model calls you already make, or you can point traffic at our OpenAI-compatible gateway. Self-hosted models run it as a vLLM plugin. Use it hosted, or run everything in your own cloud with nothing leaving your environment.\n\n**The team:**\n\n**Vedant Gaur (CEO)** has spent five years on language model research, working with collaborators at Cornell, Princeton, Stanford, and Google DeepMind. His first-author EMNLP 2025 paper showed that LLM judges stop tracking human preference when the models being compared are close in quality, which is the problem Latent is built around. He also has a first-author ACL 2023 paper on reasoning in LLMs. Latent grew out of his interpretability research on what a model’s internals reveal that its outputs don’t. Before Latent, he built an automated RL pipeline for post-training agents at Amazon and worked on financial Q&amp;A at Robinhood. Penn M&amp;T (computer science and economics).\n\n**Kunal Ranjan (COO)** comes from the investing side: venture capital at Third Prime and H Venture Partners, private equity at Vector Capital, and financial services at Macquarie Capital. In high school he co-founded Fahrenheit Finance, a high-yield stablecoin savings product, and at Penn he did robotics research at the GRASP Lab. Penn M&amp;T (computer engineering and finance).\n\n**Asks:**\n\nIf this sounds like your stack, we’d love to work with you. Reach out if you’re:\n\n* Fine-tuning or post-training your own models and want labeled data from production.\n* Running long-running agents, where one bad step early can derail everything after it.\n* Shipping AI in healthcare, finance, insurance, legal, or anywhere else a wrong answer is expensive.\n* Paying for LLM judges or human review and want to cut that bill.\n\nIntros help too. If you know someone leading AI at a company in one of those industries, we’d be grateful for a connection.\n\nEmail me at [vedant@runlatent.ai](mailto:vedant@runlatent.ai), or book time at [runlatent.ai](http://runlatent.ai).",
+      "url": "https://www.ycombinator.com/launches/WBw-latent-automated-post-training-for-llms",
+      "votes": 21,
+      "created_at": "2026-10-21T19:00:00.152Z"
+    }
+  ]
+}

@@ -1,0 +1,121 @@
+{
+  "id": 35525,
+  "name": "Orca Aerospace",
+  "slug": "orca-aerospace",
+  "former_names": [
+    "Otter Aerospace Inc.",
+    "Orca Aerospace Inc."
+  ],
+  "small_logo_thumb_url": "https://bookface-images.s3.amazonaws.com/small_logos/7da125e4f04ce76091dd6f12173dbf4599c0b17a.png",
+  "website": "https://orcaaerospace.com/",
+  "all_locations": "San Francisco, CA, USA",
+  "long_description": "At Orca, we are focused on creating the future of spacecraft operations by moving control onto the vehicle. By allowing AI models to control the satellite using deterministic tooling, we are able to achieve the same holistic, high-quality decisions on \"what\" to do to carry out a mission while maintaining the safety of systems that decide \"how\" to execute it. ",
+  "one_liner": "AI satellite operators that live onboard the vehicle",
+  "team_size": 5,
+  "industry": "Industrials",
+  "subindustry": "Industrials -> Aviation and Space",
+  "launched_at": 1788312802,
+  "tags": [
+    "AIOps",
+    "Space Exploration",
+    "Satellites"
+  ],
+  "tags_highlighted": [],
+  "top_company": false,
+  "isHiring": true,
+  "nonprofit": false,
+  "batch": "Fall 2026",
+  "status": "Active",
+  "industries": [
+    "Industrials",
+    "Aviation and Space"
+  ],
+  "regions": [
+    "United States of America",
+    "America / Canada"
+  ],
+  "stage": "Early",
+  "partners": "Nicolas",
+  "app_video_public": false,
+  "demo_day_video_public": false,
+  "app_answers": null,
+  "question_answers": null,
+  "url": "https://www.ycombinator.com/companies/orca-aerospace",
+  "api": "https://devasheeshg.github.io/yc-api/batches/fall-2026/orca-aerospace.json",
+  "year_founded": 2026,
+  "city": "San Francisco",
+  "country": "US",
+  "linkedin_url": "https://www.linkedin.com/company/orcaaerospace",
+  "x_url": "",
+  "fb_url": null,
+  "cb_url": null,
+  "github_url": null,
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/7da125e4f04ce76091dd6f12173dbf4599c0b17a.png",
+  "app_video_url": null,
+  "dday_video_url": null,
+  "company_photos": [],
+  "primary_partner": {
+    "name": "Nicolas Dessaigne",
+    "url": "https://www.ycombinator.com/people/nicolas-dessaigne"
+  },
+  "founders": [
+    {
+      "user_id": 2936461,
+      "full_name": "Jacob Ososke",
+      "title": "Founder/CEO",
+      "founder_bio": "Jacob spent over a decade at Lockheed Martin in guidance, navigation, and control, rising from intern to GNC Manager and founding the company's first AI-GNC team. His work focused on autonomous fault recovery and self-healing systems for aerospace platforms. Jacob has an MS in Robotics from Santa Clara University and an MS in Computer Science from Georgia Tech.",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/ososke/",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/11352af6fa507a7885975b8555088c5b719e4398.jpg"
+    },
+    {
+      "user_id": 4003515,
+      "full_name": "Hakan Chunton",
+      "title": "Founder/CTO",
+      "founder_bio": "Founder at Orca Aerospace (YC F26). CS/Aero at MIT (MEng, SB). Research entails on-board satellite collision avoidance, trajectory optimization, and imitation learning. ",
+      "is_active": true,
+      "linkedin_url": "https://www.linkedin.com/in/hakan-chunton/",
+      "x_url": "",
+      "avatar_thumb_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/712d26d07cee41b20eaa13be9fd7a95e86846caf.jpg"
+    }
+  ],
+  "jobs": [
+    {
+      "id": 107693,
+      "title": "Founding Flight Software Engineer",
+      "url": "https://www.ycombinator.com/companies/orca-aerospace/jobs/eMihWDs-founding-flight-software-engineer",
+      "location": "San Francisco, CA, US / Remote (US)",
+      "type": "Full-time",
+      "role": "Engineering",
+      "role_type": "Embedded systems",
+      "salary_range": "$100K - $200K",
+      "equity_range": "0.25% - 2.00%",
+      "experience": "1+ years",
+      "visa": "US citizen/visa only",
+      "skills": [
+        "C++",
+        "Python",
+        "Linux"
+      ]
+    }
+  ],
+  "news": [
+    {
+      "title": "Exclusive: Orbital Taps Orca Aerospace for Onboard Autonomy Software",
+      "url": "https://payloadspace.com/exclusive-orbital-taps-orca-aerospace-for-onboard-autonomy-software/",
+      "date": "Nov 05, 2026"
+    }
+  ],
+  "launches": [
+    {
+      "id": 129258,
+      "title": "Orca Aerospace - Full Self-Driving for Satellites",
+      "tagline": "AI agents on satellites for autonomous operations",
+      "body": "**TL;DR:** Orca is an onboard AI operator that lets satellites make decisions and run missions with minimal human intervention. Our first paying customer, a major defense prime, flies Orca onboard in March 2027.\n\n[Launch Video](https://youtu.be/3Gj6T4B4aoE)\n\nWe’re [Jake Ososke](https://www.linkedin.com/in/ososke/) and [Hakan Chunton](https://www.linkedin.com/in/hakan-chunton/), founders of Orca Aerospace. We’re building an onboard AI operator that commands and controls satellites with minimal human intervention. \n\nJake spent a decade in Guidance, Navigation, and Controls (GN&amp;C) at Lockheed Martin, building its first AI GN&amp;C team. Hakan worked alongside Jake at Lockheed and is a leading autonomy researcher at MIT's Aerospace Controls Lab, specializing in AI collision-avoidance algorithms for satellites.\n\n**The Problem: Space is Getting Crowded**\n\nWith orbital data centers on the rise and launch costs dropping, the number of satellites in orbit is growing exponentially. Fleets are growing faster than mission ops teams can scale, and human oversight is a major cost. Today, a satellite can wait hours for a ground pass to respond to a fault or collision warning.\n\n**The Solution: Orca** \n\nOrca’s reasoning model understands mission context and fuses sensor data, telemetry, and operator instructions. Underneath the reasoning model, deterministic tools tell the satellite how to execute its tasks, with safety guardrails in place for each mission. Orca is hardware- and spacecraft-agnostic, so it can be added at any point in the mission design lifecycle, targeting 10x lower ops cost than ground-based operations. \n\n**Why Now**\n\nReasoning models are finally good enough to make ops decisions, and separating decisions from deterministic execution makes them safe to fly.\n\n**Traction**\n\n* Paid contract with a major defense prime; Orca flies onboard in March 2027\n* LOIs from 11 satellite operators\n* Phase I NASA SBIR for small-satellite swarm fault detection\n\n**Get Onboard**\n\nOperators and mission teams: want an Orca onboard? Email: [founders@orcaaerospace.com](mailto:founders@orcaaerospace.com)",
+      "url": "https://www.ycombinator.com/launches/Xco-orca-aerospace-full-self-driving-for-satellites",
+      "votes": 12,
+      "created_at": "2026-11-18T16:00:00.399Z"
+    }
+  ]
+}
